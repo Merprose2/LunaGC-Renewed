@@ -596,8 +596,9 @@ public final class BlessingAcceptGivePicReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036BlessingAcceptGivePicReq.proto\"6\n\030Bles" +
       "singAcceptGivePicReq\022\013\n\003uid\030\006 \001(\r\022\r\n\005ind" +
-      "ex\030\n \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "ex\030\n \001(\rB?\n\031emu.grasscutter.net.protoB\"B" +
+      "lessingAcceptGivePicReqOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

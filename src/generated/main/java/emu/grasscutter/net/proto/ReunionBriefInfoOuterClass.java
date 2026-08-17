@@ -117,7 +117,7 @@ public final class ReunionBriefInfoOuterClass {
      * <code>repeated ._ReunionReportType KJDAMDNNJMJ = 11;</code>
      * @return A list containing the kJDAMDNNJMJ.
      */
-    java.util.List<emu.grasscutter.net.proto.ReunionReportType._ReunionReportType> getKJDAMDNNJMJList();
+    java.util.List<emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType> getKJDAMDNNJMJList();
     /**
      * <code>repeated ._ReunionReportType KJDAMDNNJMJ = 11;</code>
      * @return The count of kJDAMDNNJMJ.
@@ -128,7 +128,7 @@ public final class ReunionBriefInfoOuterClass {
      * @param index The index of the element to return.
      * @return The kJDAMDNNJMJ at the given index.
      */
-    emu.grasscutter.net.proto.ReunionReportType._ReunionReportType getKJDAMDNNJMJ(int index);
+    emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType getKJDAMDNNJMJ(int index);
     /**
      * <code>repeated ._ReunionReportType KJDAMDNNJMJ = 11;</code>
      * @return A list containing the enum numeric values on the wire for kJDAMDNNJMJ.
@@ -207,11 +207,11 @@ public final class ReunionBriefInfoOuterClass {
      * <code>._ReunionVideoInfo _video_info = 1517;</code>
      * @return The videoInfo.
      */
-    emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo getVideoInfo();
+    emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo getVideoInfo();
     /**
      * <code>._ReunionVideoInfo _video_info = 1517;</code>
      */
-    emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfoOrBuilder getVideoInfoOrBuilder();
+    emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfoOrBuilder getVideoInfoOrBuilder();
   }
   /**
    * Protobuf type {@code ReunionBriefInfo}
@@ -424,11 +424,11 @@ public final class ReunionBriefInfoOuterClass {
               break;
             }
             case 12138: {
-              emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo.Builder subBuilder = null;
               if (VideoInfo_ != null) {
                 subBuilder = VideoInfo_.toBuilder();
               }
-              VideoInfo_ = input.readMessage(emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo.parser(), extensionRegistry);
+              VideoInfo_ = input.readMessage(emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(VideoInfo_);
                 VideoInfo_ = subBuilder.buildPartial();
@@ -664,13 +664,13 @@ public final class ReunionBriefInfoOuterClass {
     public static final int KJDAMDNNJMJ_FIELD_NUMBER = 11;
     private java.util.List<java.lang.Integer> kJDAMDNNJMJ_;
     private static final com.google.protobuf.Internal.ListAdapter.Converter<
-        java.lang.Integer, emu.grasscutter.net.proto.ReunionReportType._ReunionReportType> kJDAMDNNJMJ_converter_ =
+        java.lang.Integer, emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType> kJDAMDNNJMJ_converter_ =
             new com.google.protobuf.Internal.ListAdapter.Converter<
-                java.lang.Integer, emu.grasscutter.net.proto.ReunionReportType._ReunionReportType>() {
-              public emu.grasscutter.net.proto.ReunionReportType._ReunionReportType convert(java.lang.Integer from) {
+                java.lang.Integer, emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType>() {
+              public emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType convert(java.lang.Integer from) {
                 @SuppressWarnings("deprecation")
-                emu.grasscutter.net.proto.ReunionReportType._ReunionReportType result = emu.grasscutter.net.proto.ReunionReportType._ReunionReportType.valueOf(from);
-                return result == null ? emu.grasscutter.net.proto.ReunionReportType._ReunionReportType.UNRECOGNIZED : result;
+                emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType result = emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType.valueOf(from);
+                return result == null ? emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType.UNRECOGNIZED : result;
               }
             };
     /**
@@ -678,9 +678,9 @@ public final class ReunionBriefInfoOuterClass {
      * @return A list containing the kJDAMDNNJMJ.
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.ReunionReportType._ReunionReportType> getKJDAMDNNJMJList() {
+    public java.util.List<emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType> getKJDAMDNNJMJList() {
       return new com.google.protobuf.Internal.ListAdapter<
-          java.lang.Integer, emu.grasscutter.net.proto.ReunionReportType._ReunionReportType>(kJDAMDNNJMJ_, kJDAMDNNJMJ_converter_);
+          java.lang.Integer, emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType>(kJDAMDNNJMJ_, kJDAMDNNJMJ_converter_);
     }
     /**
      * <code>repeated ._ReunionReportType KJDAMDNNJMJ = 11;</code>
@@ -696,7 +696,7 @@ public final class ReunionBriefInfoOuterClass {
      * @return The kJDAMDNNJMJ at the given index.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ReunionReportType._ReunionReportType getKJDAMDNNJMJ(int index) {
+    public emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType getKJDAMDNNJMJ(int index) {
       return kJDAMDNNJMJ_converter_.convert(kJDAMDNNJMJ_.get(index));
     }
     /**
@@ -818,7 +818,7 @@ public final class ReunionBriefInfoOuterClass {
     }
 
     public static final int _VIDEO_INFO_FIELD_NUMBER = 1517;
-    private emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo VideoInfo_;
+    private emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo VideoInfo_;
     /**
      * <code>._ReunionVideoInfo _video_info = 1517;</code>
      * @return Whether the videoInfo field is set.
@@ -832,14 +832,14 @@ public final class ReunionBriefInfoOuterClass {
      * @return The videoInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo getVideoInfo() {
-      return VideoInfo_ == null ? emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo.getDefaultInstance() : VideoInfo_;
+    public emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo getVideoInfo() {
+      return VideoInfo_ == null ? emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo.getDefaultInstance() : VideoInfo_;
     }
     /**
      * <code>._ReunionVideoInfo _video_info = 1517;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfoOrBuilder getVideoInfoOrBuilder() {
+    public emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfoOrBuilder getVideoInfoOrBuilder() {
       return getVideoInfo();
     }
 
@@ -2161,9 +2161,9 @@ public final class ReunionBriefInfoOuterClass {
        * <code>repeated ._ReunionReportType KJDAMDNNJMJ = 11;</code>
        * @return A list containing the kJDAMDNNJMJ.
        */
-      public java.util.List<emu.grasscutter.net.proto.ReunionReportType._ReunionReportType> getKJDAMDNNJMJList() {
+      public java.util.List<emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType> getKJDAMDNNJMJList() {
         return new com.google.protobuf.Internal.ListAdapter<
-            java.lang.Integer, emu.grasscutter.net.proto.ReunionReportType._ReunionReportType>(kJDAMDNNJMJ_, kJDAMDNNJMJ_converter_);
+            java.lang.Integer, emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType>(kJDAMDNNJMJ_, kJDAMDNNJMJ_converter_);
       }
       /**
        * <code>repeated ._ReunionReportType KJDAMDNNJMJ = 11;</code>
@@ -2177,7 +2177,7 @@ public final class ReunionBriefInfoOuterClass {
        * @param index The index of the element to return.
        * @return The kJDAMDNNJMJ at the given index.
        */
-      public emu.grasscutter.net.proto.ReunionReportType._ReunionReportType getKJDAMDNNJMJ(int index) {
+      public emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType getKJDAMDNNJMJ(int index) {
         return kJDAMDNNJMJ_converter_.convert(kJDAMDNNJMJ_.get(index));
       }
       /**
@@ -2187,7 +2187,7 @@ public final class ReunionBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setKJDAMDNNJMJ(
-          int index, emu.grasscutter.net.proto.ReunionReportType._ReunionReportType value) {
+          int index, emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -2201,7 +2201,7 @@ public final class ReunionBriefInfoOuterClass {
        * @param value The kJDAMDNNJMJ to add.
        * @return This builder for chaining.
        */
-      public Builder addKJDAMDNNJMJ(emu.grasscutter.net.proto.ReunionReportType._ReunionReportType value) {
+      public Builder addKJDAMDNNJMJ(emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -2216,9 +2216,9 @@ public final class ReunionBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder addAllKJDAMDNNJMJ(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.ReunionReportType._ReunionReportType> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType> values) {
         ensureKJDAMDNNJMJIsMutable();
-        for (emu.grasscutter.net.proto.ReunionReportType._ReunionReportType value : values) {
+        for (emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType value : values) {
           kJDAMDNNJMJ_.add(value.getNumber());
         }
         onChanged();
@@ -2611,9 +2611,9 @@ public final class ReunionBriefInfoOuterClass {
         return mHPLOKHLOIKBuilder_;
       }
 
-      private emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo VideoInfo_;
+      private emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo VideoInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo, emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo.Builder, emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfoOrBuilder> VideoInfoBuilder_;
+          emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo, emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo.Builder, emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfoOrBuilder> VideoInfoBuilder_;
       /**
        * <code>._ReunionVideoInfo _video_info = 1517;</code>
        * @return Whether the videoInfo field is set.
@@ -2625,9 +2625,9 @@ public final class ReunionBriefInfoOuterClass {
        * <code>._ReunionVideoInfo _video_info = 1517;</code>
        * @return The videoInfo.
        */
-      public emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo getVideoInfo() {
+      public emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo getVideoInfo() {
         if (VideoInfoBuilder_ == null) {
-          return VideoInfo_ == null ? emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo.getDefaultInstance() : VideoInfo_;
+          return VideoInfo_ == null ? emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo.getDefaultInstance() : VideoInfo_;
         } else {
           return VideoInfoBuilder_.getMessage();
         }
@@ -2635,7 +2635,7 @@ public final class ReunionBriefInfoOuterClass {
       /**
        * <code>._ReunionVideoInfo _video_info = 1517;</code>
        */
-      public Builder setVideoInfo(emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo value) {
+      public Builder setVideoInfo(emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo value) {
         if (VideoInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2652,7 +2652,7 @@ public final class ReunionBriefInfoOuterClass {
        * <code>._ReunionVideoInfo _video_info = 1517;</code>
        */
       public Builder setVideoInfo(
-          emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo.Builder builderForValue) {
         if (VideoInfoBuilder_ == null) {
           VideoInfo_ = builderForValue.build();
           onChanged();
@@ -2665,11 +2665,11 @@ public final class ReunionBriefInfoOuterClass {
       /**
        * <code>._ReunionVideoInfo _video_info = 1517;</code>
        */
-      public Builder mergeVideoInfo(emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo value) {
+      public Builder mergeVideoInfo(emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo value) {
         if (VideoInfoBuilder_ == null) {
           if (VideoInfo_ != null) {
             VideoInfo_ =
-              emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo.newBuilder(VideoInfo_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo.newBuilder(VideoInfo_).mergeFrom(value).buildPartial();
           } else {
             VideoInfo_ = value;
           }
@@ -2697,7 +2697,7 @@ public final class ReunionBriefInfoOuterClass {
       /**
        * <code>._ReunionVideoInfo _video_info = 1517;</code>
        */
-      public emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo.Builder getVideoInfoBuilder() {
+      public emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo.Builder getVideoInfoBuilder() {
         
         onChanged();
         return getVideoInfoFieldBuilder().getBuilder();
@@ -2705,23 +2705,23 @@ public final class ReunionBriefInfoOuterClass {
       /**
        * <code>._ReunionVideoInfo _video_info = 1517;</code>
        */
-      public emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfoOrBuilder getVideoInfoOrBuilder() {
+      public emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfoOrBuilder getVideoInfoOrBuilder() {
         if (VideoInfoBuilder_ != null) {
           return VideoInfoBuilder_.getMessageOrBuilder();
         } else {
           return VideoInfo_ == null ?
-              emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo.getDefaultInstance() : VideoInfo_;
+              emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo.getDefaultInstance() : VideoInfo_;
         }
       }
       /**
        * <code>._ReunionVideoInfo _video_info = 1517;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo, emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo.Builder, emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfoOrBuilder> 
+          emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo, emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo.Builder, emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfoOrBuilder> 
           getVideoInfoFieldBuilder() {
         if (VideoInfoBuilder_ == null) {
           VideoInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo, emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfo.Builder, emu.grasscutter.net.proto.ReunionVideoInfo._ReunionVideoInfoOrBuilder>(
+              emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo, emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfo.Builder, emu.grasscutter.net.proto._ReunionVideoInfoOuterClass._ReunionVideoInfoOrBuilder>(
                   getVideoInfo(),
                   getParentForChildren(),
                   isClean());
@@ -2812,8 +2812,9 @@ public final class ReunionBriefInfoOuterClass {
       "ission_id\030\016 \001(\r\022\024\n\014privilege_id\030\017 \001(\r\022\024\n" +
       "\013MAMKNACNKNE\030\202\007 \003(\r\022\"\n\013MHPLOKHLOIK\030\303\t \001(" +
       "\0132\014.ENMKHCKNKEL\022(\n\013_video_info\030\355\013 \001(\0132\022." +
-      "_ReunionVideoInfoB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "_ReunionVideoInfoB7\n\031emu.grasscutter.net" +
+      ".protoB\032ReunionBriefInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2821,8 +2822,8 @@ public final class ReunionBriefInfoOuterClass {
           emu.grasscutter.net.proto.ENMKHCKNKELOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.JMALPNBMBBHOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ReunionPrivilegeInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.ReunionReportType.getDescriptor(),
-          emu.grasscutter.net.proto.ReunionVideoInfo.getDescriptor(),
+          emu.grasscutter.net.proto._ReunionReportTypeOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ReunionVideoInfoOuterClass.getDescriptor(),
         });
     internal_static_ReunionBriefInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2833,8 +2834,8 @@ public final class ReunionBriefInfoOuterClass {
     emu.grasscutter.net.proto.ENMKHCKNKELOuterClass.getDescriptor();
     emu.grasscutter.net.proto.JMALPNBMBBHOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ReunionPrivilegeInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.ReunionReportType.getDescriptor();
-    emu.grasscutter.net.proto.ReunionVideoInfo.getDescriptor();
+    emu.grasscutter.net.proto._ReunionReportTypeOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ReunionVideoInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

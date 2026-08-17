@@ -1320,7 +1320,8 @@ public final class MDJBLBPNFAFOuterClass {
       "ber_drag_param_world_pos\030\014 \001(\0132\014.KNBDICN" +
       "OAFEH\000\022A\n)beyond_avatar_disturber_drag_p" +
       "aram_gadget\030\r \001(\0132\014.BFGNMENDMBHH\000B\010\n\006det" +
-      "ailB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "ailB2\n\031emu.grasscutter.net.protoB\025MDJBLB" +
+      "PNFAFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

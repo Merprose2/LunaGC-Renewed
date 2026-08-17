@@ -1573,8 +1573,9 @@ public final class LENMBLABDMKOuterClass {
       "GCDNCDJBDAF\022\023\n\013JNNGLILPECN\030\005 \001(\t\022\023\n\013CEJI" +
       "ICPDOLM\030\006 \001(\010\022\023\n\013LCNLLGCGPBO\030\007 \001(\005\022\034\n\006of" +
       "fset\030\010 \001(\0132\014.JHABMHAPMPG\022\023\n\013OLIPGCONBJC\030" +
-      "\t \001(\002\022\n\n\002id\030\n \001(\r\022\023\n\013OAHOJNKAALL\030\013 \001(\005B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\t \001(\002\022\n\n\002id\030\n \001(\r\022\023\n\013OAHOJNKAALL\030\013 \001(\005B2" +
+      "\n\031emu.grasscutter.net.protoB\025LENMBLABDMK" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

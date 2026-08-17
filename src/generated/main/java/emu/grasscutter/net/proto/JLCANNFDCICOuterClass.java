@@ -1993,7 +1993,8 @@ public final class JLCANNFDCICOuterClass {
       "\030\013 \001(\010\022\016\n\006radius\030\014 \001(\002\022\023\n\013HCCMONPMIKP\030\r " +
       "\001(\010\022\"\n\013FPBHHLICMKC\030\372\003 \001(\0132\014.HHEDHCFPEKM\022" +
       "\024\n\013BMLKADKCJDP\030\373\003 \001(\010\022\024\n\013NICMBLCBBNI\030\374\003 " +
-      "\001(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\010B2\n\031emu.grasscutter.net.protoB\025JLCANN" +
+      "FDCICOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

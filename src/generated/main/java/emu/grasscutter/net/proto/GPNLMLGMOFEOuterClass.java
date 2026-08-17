@@ -722,8 +722,9 @@ public final class GPNLMLGMOFEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GPNLMLGMOFE.proto\"4\n\013GPNLMLGMOFE\022\023\n\013KM" +
-      "DOFBPMGAI\030\004 \001(\r\022\020\n\010tag_list\030\007 \003(\005B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "DOFBPMGAI\030\004 \001(\r\022\020\n\010tag_list\030\007 \003(\005B2\n\031emu" +
+      ".grasscutter.net.protoB\025GPNLMLGMOFEOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

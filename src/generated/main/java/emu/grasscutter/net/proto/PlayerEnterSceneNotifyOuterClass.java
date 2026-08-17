@@ -145,11 +145,11 @@ public final class PlayerEnterSceneNotifyOuterClass {
      * <code>._LimitedRegionInfo _limited_region_info = 709;</code>
      * @return The limitedRegionInfo.
      */
-    emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo getLimitedRegionInfo();
+    emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo getLimitedRegionInfo();
     /**
      * <code>._LimitedRegionInfo _limited_region_info = 709;</code>
      */
-    emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfoOrBuilder getLimitedRegionInfoOrBuilder();
+    emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfoOrBuilder getLimitedRegionInfoOrBuilder();
 
     /**
      * <code>string scene_transaction = 757;</code>
@@ -214,11 +214,11 @@ public final class PlayerEnterSceneNotifyOuterClass {
      * <code>._MirrorWorldSceneDetail _mirror_world_scene_detail = 998;</code>
      * @return The mirrorWorldSceneDetail.
      */
-    emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail getMirrorWorldSceneDetail();
+    emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail getMirrorWorldSceneDetail();
     /**
      * <code>._MirrorWorldSceneDetail _mirror_world_scene_detail = 998;</code>
      */
-    emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetailOrBuilder getMirrorWorldSceneDetailOrBuilder();
+    emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetailOrBuilder getMirrorWorldSceneDetailOrBuilder();
 
     /**
      * <code>._MapLayerInfo _map_layer_info = 1163;</code>
@@ -229,11 +229,11 @@ public final class PlayerEnterSceneNotifyOuterClass {
      * <code>._MapLayerInfo _map_layer_info = 1163;</code>
      * @return The mapLayerInfo.
      */
-    emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo getMapLayerInfo();
+    emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo getMapLayerInfo();
     /**
      * <code>._MapLayerInfo _map_layer_info = 1163;</code>
      */
-    emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfoOrBuilder getMapLayerInfoOrBuilder();
+    emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfoOrBuilder getMapLayerInfoOrBuilder();
 
     /**
      * <code>.Vector ALLIIBMKFLN = 1281;</code>
@@ -425,11 +425,11 @@ public final class PlayerEnterSceneNotifyOuterClass {
               break;
             }
             case 5674: {
-              emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.Builder subBuilder = null;
               if (LimitedRegionInfo_ != null) {
                 subBuilder = LimitedRegionInfo_.toBuilder();
               }
-              LimitedRegionInfo_ = input.readMessage(emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.parser(), extensionRegistry);
+              LimitedRegionInfo_ = input.readMessage(emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(LimitedRegionInfo_);
                 LimitedRegionInfo_ = subBuilder.buildPartial();
@@ -480,11 +480,11 @@ public final class PlayerEnterSceneNotifyOuterClass {
               break;
             }
             case 7986: {
-              emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail.Builder subBuilder = null;
+              emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail.Builder subBuilder = null;
               if (MirrorWorldSceneDetail_ != null) {
                 subBuilder = MirrorWorldSceneDetail_.toBuilder();
               }
-              MirrorWorldSceneDetail_ = input.readMessage(emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail.parser(), extensionRegistry);
+              MirrorWorldSceneDetail_ = input.readMessage(emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(MirrorWorldSceneDetail_);
                 MirrorWorldSceneDetail_ = subBuilder.buildPartial();
@@ -493,11 +493,11 @@ public final class PlayerEnterSceneNotifyOuterClass {
               break;
             }
             case 9306: {
-              emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.Builder subBuilder = null;
               if (MapLayerInfo_ != null) {
                 subBuilder = MapLayerInfo_.toBuilder();
               }
-              MapLayerInfo_ = input.readMessage(emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.parser(), extensionRegistry);
+              MapLayerInfo_ = input.readMessage(emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(MapLayerInfo_);
                 MapLayerInfo_ = subBuilder.buildPartial();
@@ -778,7 +778,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     }
 
     public static final int _LIMITED_REGION_INFO_FIELD_NUMBER = 709;
-    private emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo LimitedRegionInfo_;
+    private emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo LimitedRegionInfo_;
     /**
      * <code>._LimitedRegionInfo _limited_region_info = 709;</code>
      * @return Whether the limitedRegionInfo field is set.
@@ -792,14 +792,14 @@ public final class PlayerEnterSceneNotifyOuterClass {
      * @return The limitedRegionInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo getLimitedRegionInfo() {
-      return LimitedRegionInfo_ == null ? emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.getDefaultInstance() : LimitedRegionInfo_;
+    public emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo getLimitedRegionInfo() {
+      return LimitedRegionInfo_ == null ? emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.getDefaultInstance() : LimitedRegionInfo_;
     }
     /**
      * <code>._LimitedRegionInfo _limited_region_info = 709;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfoOrBuilder getLimitedRegionInfoOrBuilder() {
+    public emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfoOrBuilder getLimitedRegionInfoOrBuilder() {
       return getLimitedRegionInfo();
     }
 
@@ -916,7 +916,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     }
 
     public static final int _MIRROR_WORLD_SCENE_DETAIL_FIELD_NUMBER = 998;
-    private emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail MirrorWorldSceneDetail_;
+    private emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail MirrorWorldSceneDetail_;
     /**
      * <code>._MirrorWorldSceneDetail _mirror_world_scene_detail = 998;</code>
      * @return Whether the mirrorWorldSceneDetail field is set.
@@ -930,19 +930,19 @@ public final class PlayerEnterSceneNotifyOuterClass {
      * @return The mirrorWorldSceneDetail.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail getMirrorWorldSceneDetail() {
-      return MirrorWorldSceneDetail_ == null ? emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail.getDefaultInstance() : MirrorWorldSceneDetail_;
+    public emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail getMirrorWorldSceneDetail() {
+      return MirrorWorldSceneDetail_ == null ? emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail.getDefaultInstance() : MirrorWorldSceneDetail_;
     }
     /**
      * <code>._MirrorWorldSceneDetail _mirror_world_scene_detail = 998;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetailOrBuilder getMirrorWorldSceneDetailOrBuilder() {
+    public emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetailOrBuilder getMirrorWorldSceneDetailOrBuilder() {
       return getMirrorWorldSceneDetail();
     }
 
     public static final int _MAP_LAYER_INFO_FIELD_NUMBER = 1163;
-    private emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo MapLayerInfo_;
+    private emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo MapLayerInfo_;
     /**
      * <code>._MapLayerInfo _map_layer_info = 1163;</code>
      * @return Whether the mapLayerInfo field is set.
@@ -956,14 +956,14 @@ public final class PlayerEnterSceneNotifyOuterClass {
      * @return The mapLayerInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo getMapLayerInfo() {
-      return MapLayerInfo_ == null ? emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.getDefaultInstance() : MapLayerInfo_;
+    public emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo getMapLayerInfo() {
+      return MapLayerInfo_ == null ? emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.getDefaultInstance() : MapLayerInfo_;
     }
     /**
      * <code>._MapLayerInfo _map_layer_info = 1163;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfoOrBuilder getMapLayerInfoOrBuilder() {
+    public emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfoOrBuilder getMapLayerInfoOrBuilder() {
       return getMapLayerInfo();
     }
 
@@ -2574,9 +2574,9 @@ public final class PlayerEnterSceneNotifyOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo LimitedRegionInfo_;
+      private emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo LimitedRegionInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo, emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.Builder, emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfoOrBuilder> LimitedRegionInfoBuilder_;
+          emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo, emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.Builder, emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfoOrBuilder> LimitedRegionInfoBuilder_;
       /**
        * <code>._LimitedRegionInfo _limited_region_info = 709;</code>
        * @return Whether the limitedRegionInfo field is set.
@@ -2588,9 +2588,9 @@ public final class PlayerEnterSceneNotifyOuterClass {
        * <code>._LimitedRegionInfo _limited_region_info = 709;</code>
        * @return The limitedRegionInfo.
        */
-      public emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo getLimitedRegionInfo() {
+      public emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo getLimitedRegionInfo() {
         if (LimitedRegionInfoBuilder_ == null) {
-          return LimitedRegionInfo_ == null ? emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.getDefaultInstance() : LimitedRegionInfo_;
+          return LimitedRegionInfo_ == null ? emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.getDefaultInstance() : LimitedRegionInfo_;
         } else {
           return LimitedRegionInfoBuilder_.getMessage();
         }
@@ -2598,7 +2598,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       /**
        * <code>._LimitedRegionInfo _limited_region_info = 709;</code>
        */
-      public Builder setLimitedRegionInfo(emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo value) {
+      public Builder setLimitedRegionInfo(emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo value) {
         if (LimitedRegionInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2615,7 +2615,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
        * <code>._LimitedRegionInfo _limited_region_info = 709;</code>
        */
       public Builder setLimitedRegionInfo(
-          emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.Builder builderForValue) {
         if (LimitedRegionInfoBuilder_ == null) {
           LimitedRegionInfo_ = builderForValue.build();
           onChanged();
@@ -2628,11 +2628,11 @@ public final class PlayerEnterSceneNotifyOuterClass {
       /**
        * <code>._LimitedRegionInfo _limited_region_info = 709;</code>
        */
-      public Builder mergeLimitedRegionInfo(emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo value) {
+      public Builder mergeLimitedRegionInfo(emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo value) {
         if (LimitedRegionInfoBuilder_ == null) {
           if (LimitedRegionInfo_ != null) {
             LimitedRegionInfo_ =
-              emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.newBuilder(LimitedRegionInfo_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.newBuilder(LimitedRegionInfo_).mergeFrom(value).buildPartial();
           } else {
             LimitedRegionInfo_ = value;
           }
@@ -2660,7 +2660,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       /**
        * <code>._LimitedRegionInfo _limited_region_info = 709;</code>
        */
-      public emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.Builder getLimitedRegionInfoBuilder() {
+      public emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.Builder getLimitedRegionInfoBuilder() {
         
         onChanged();
         return getLimitedRegionInfoFieldBuilder().getBuilder();
@@ -2668,23 +2668,23 @@ public final class PlayerEnterSceneNotifyOuterClass {
       /**
        * <code>._LimitedRegionInfo _limited_region_info = 709;</code>
        */
-      public emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfoOrBuilder getLimitedRegionInfoOrBuilder() {
+      public emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfoOrBuilder getLimitedRegionInfoOrBuilder() {
         if (LimitedRegionInfoBuilder_ != null) {
           return LimitedRegionInfoBuilder_.getMessageOrBuilder();
         } else {
           return LimitedRegionInfo_ == null ?
-              emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.getDefaultInstance() : LimitedRegionInfo_;
+              emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.getDefaultInstance() : LimitedRegionInfo_;
         }
       }
       /**
        * <code>._LimitedRegionInfo _limited_region_info = 709;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo, emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.Builder, emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfoOrBuilder> 
+          emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo, emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.Builder, emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfoOrBuilder> 
           getLimitedRegionInfoFieldBuilder() {
         if (LimitedRegionInfoBuilder_ == null) {
           LimitedRegionInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo, emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.Builder, emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfoOrBuilder>(
+              emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo, emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.Builder, emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfoOrBuilder>(
                   getLimitedRegionInfo(),
                   getParentForChildren(),
                   isClean());
@@ -3069,9 +3069,9 @@ public final class PlayerEnterSceneNotifyOuterClass {
         return hBCAHGNHINMBuilder_;
       }
 
-      private emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail MirrorWorldSceneDetail_;
+      private emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail MirrorWorldSceneDetail_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail, emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail.Builder, emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetailOrBuilder> MirrorWorldSceneDetailBuilder_;
+          emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail, emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail.Builder, emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetailOrBuilder> MirrorWorldSceneDetailBuilder_;
       /**
        * <code>._MirrorWorldSceneDetail _mirror_world_scene_detail = 998;</code>
        * @return Whether the mirrorWorldSceneDetail field is set.
@@ -3083,9 +3083,9 @@ public final class PlayerEnterSceneNotifyOuterClass {
        * <code>._MirrorWorldSceneDetail _mirror_world_scene_detail = 998;</code>
        * @return The mirrorWorldSceneDetail.
        */
-      public emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail getMirrorWorldSceneDetail() {
+      public emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail getMirrorWorldSceneDetail() {
         if (MirrorWorldSceneDetailBuilder_ == null) {
-          return MirrorWorldSceneDetail_ == null ? emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail.getDefaultInstance() : MirrorWorldSceneDetail_;
+          return MirrorWorldSceneDetail_ == null ? emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail.getDefaultInstance() : MirrorWorldSceneDetail_;
         } else {
           return MirrorWorldSceneDetailBuilder_.getMessage();
         }
@@ -3093,7 +3093,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       /**
        * <code>._MirrorWorldSceneDetail _mirror_world_scene_detail = 998;</code>
        */
-      public Builder setMirrorWorldSceneDetail(emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail value) {
+      public Builder setMirrorWorldSceneDetail(emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail value) {
         if (MirrorWorldSceneDetailBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3110,7 +3110,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
        * <code>._MirrorWorldSceneDetail _mirror_world_scene_detail = 998;</code>
        */
       public Builder setMirrorWorldSceneDetail(
-          emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail.Builder builderForValue) {
+          emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail.Builder builderForValue) {
         if (MirrorWorldSceneDetailBuilder_ == null) {
           MirrorWorldSceneDetail_ = builderForValue.build();
           onChanged();
@@ -3123,11 +3123,11 @@ public final class PlayerEnterSceneNotifyOuterClass {
       /**
        * <code>._MirrorWorldSceneDetail _mirror_world_scene_detail = 998;</code>
        */
-      public Builder mergeMirrorWorldSceneDetail(emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail value) {
+      public Builder mergeMirrorWorldSceneDetail(emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail value) {
         if (MirrorWorldSceneDetailBuilder_ == null) {
           if (MirrorWorldSceneDetail_ != null) {
             MirrorWorldSceneDetail_ =
-              emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail.newBuilder(MirrorWorldSceneDetail_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail.newBuilder(MirrorWorldSceneDetail_).mergeFrom(value).buildPartial();
           } else {
             MirrorWorldSceneDetail_ = value;
           }
@@ -3155,7 +3155,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       /**
        * <code>._MirrorWorldSceneDetail _mirror_world_scene_detail = 998;</code>
        */
-      public emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail.Builder getMirrorWorldSceneDetailBuilder() {
+      public emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail.Builder getMirrorWorldSceneDetailBuilder() {
         
         onChanged();
         return getMirrorWorldSceneDetailFieldBuilder().getBuilder();
@@ -3163,23 +3163,23 @@ public final class PlayerEnterSceneNotifyOuterClass {
       /**
        * <code>._MirrorWorldSceneDetail _mirror_world_scene_detail = 998;</code>
        */
-      public emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetailOrBuilder getMirrorWorldSceneDetailOrBuilder() {
+      public emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetailOrBuilder getMirrorWorldSceneDetailOrBuilder() {
         if (MirrorWorldSceneDetailBuilder_ != null) {
           return MirrorWorldSceneDetailBuilder_.getMessageOrBuilder();
         } else {
           return MirrorWorldSceneDetail_ == null ?
-              emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail.getDefaultInstance() : MirrorWorldSceneDetail_;
+              emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail.getDefaultInstance() : MirrorWorldSceneDetail_;
         }
       }
       /**
        * <code>._MirrorWorldSceneDetail _mirror_world_scene_detail = 998;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail, emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail.Builder, emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetailOrBuilder> 
+          emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail, emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail.Builder, emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetailOrBuilder> 
           getMirrorWorldSceneDetailFieldBuilder() {
         if (MirrorWorldSceneDetailBuilder_ == null) {
           MirrorWorldSceneDetailBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail, emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetail.Builder, emu.grasscutter.net.proto.MirrorWorldSceneDetail._MirrorWorldSceneDetailOrBuilder>(
+              emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail, emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail.Builder, emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetailOrBuilder>(
                   getMirrorWorldSceneDetail(),
                   getParentForChildren(),
                   isClean());
@@ -3188,9 +3188,9 @@ public final class PlayerEnterSceneNotifyOuterClass {
         return MirrorWorldSceneDetailBuilder_;
       }
 
-      private emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo MapLayerInfo_;
+      private emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo MapLayerInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo, emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.Builder, emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfoOrBuilder> MapLayerInfoBuilder_;
+          emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo, emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.Builder, emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfoOrBuilder> MapLayerInfoBuilder_;
       /**
        * <code>._MapLayerInfo _map_layer_info = 1163;</code>
        * @return Whether the mapLayerInfo field is set.
@@ -3202,9 +3202,9 @@ public final class PlayerEnterSceneNotifyOuterClass {
        * <code>._MapLayerInfo _map_layer_info = 1163;</code>
        * @return The mapLayerInfo.
        */
-      public emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo getMapLayerInfo() {
+      public emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo getMapLayerInfo() {
         if (MapLayerInfoBuilder_ == null) {
-          return MapLayerInfo_ == null ? emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.getDefaultInstance() : MapLayerInfo_;
+          return MapLayerInfo_ == null ? emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.getDefaultInstance() : MapLayerInfo_;
         } else {
           return MapLayerInfoBuilder_.getMessage();
         }
@@ -3212,7 +3212,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       /**
        * <code>._MapLayerInfo _map_layer_info = 1163;</code>
        */
-      public Builder setMapLayerInfo(emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo value) {
+      public Builder setMapLayerInfo(emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo value) {
         if (MapLayerInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3229,7 +3229,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
        * <code>._MapLayerInfo _map_layer_info = 1163;</code>
        */
       public Builder setMapLayerInfo(
-          emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.Builder builderForValue) {
         if (MapLayerInfoBuilder_ == null) {
           MapLayerInfo_ = builderForValue.build();
           onChanged();
@@ -3242,11 +3242,11 @@ public final class PlayerEnterSceneNotifyOuterClass {
       /**
        * <code>._MapLayerInfo _map_layer_info = 1163;</code>
        */
-      public Builder mergeMapLayerInfo(emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo value) {
+      public Builder mergeMapLayerInfo(emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo value) {
         if (MapLayerInfoBuilder_ == null) {
           if (MapLayerInfo_ != null) {
             MapLayerInfo_ =
-              emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.newBuilder(MapLayerInfo_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.newBuilder(MapLayerInfo_).mergeFrom(value).buildPartial();
           } else {
             MapLayerInfo_ = value;
           }
@@ -3274,7 +3274,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       /**
        * <code>._MapLayerInfo _map_layer_info = 1163;</code>
        */
-      public emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.Builder getMapLayerInfoBuilder() {
+      public emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.Builder getMapLayerInfoBuilder() {
         
         onChanged();
         return getMapLayerInfoFieldBuilder().getBuilder();
@@ -3282,23 +3282,23 @@ public final class PlayerEnterSceneNotifyOuterClass {
       /**
        * <code>._MapLayerInfo _map_layer_info = 1163;</code>
        */
-      public emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfoOrBuilder getMapLayerInfoOrBuilder() {
+      public emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfoOrBuilder getMapLayerInfoOrBuilder() {
         if (MapLayerInfoBuilder_ != null) {
           return MapLayerInfoBuilder_.getMessageOrBuilder();
         } else {
           return MapLayerInfo_ == null ?
-              emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.getDefaultInstance() : MapLayerInfo_;
+              emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.getDefaultInstance() : MapLayerInfo_;
         }
       }
       /**
        * <code>._MapLayerInfo _map_layer_info = 1163;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo, emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.Builder, emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfoOrBuilder> 
+          emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo, emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.Builder, emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfoOrBuilder> 
           getMapLayerInfoFieldBuilder() {
         if (MapLayerInfoBuilder_ == null) {
           MapLayerInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo, emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.Builder, emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfoOrBuilder>(
+              emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo, emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.Builder, emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfoOrBuilder>(
                   getMapLayerInfo(),
                   getParentForChildren(),
                   isClean());
@@ -3608,8 +3608,9 @@ public final class PlayerEnterSceneNotifyOuterClass {
       "neDetail\022(\n\017_map_layer_info\030\213\t \001(\0132\016._Ma" +
       "pLayerInfo\022\035\n\013ALLIIBMKFLN\030\201\n \001(\0132\007.Vecto" +
       "r\022\032\n\021create_player_uid\030\205\r \001(\r\022\024\n\013FKICGIH" +
-      "NPOI\030\263\016 \001(\010\022\023\n\nworld_type\030\257\017 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "NPOI\030\263\016 \001(\010\022\023\n\nworld_type\030\257\017 \001(\rB=\n\031emu." +
+      "grasscutter.net.protoB PlayerEnterSceneN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -3618,9 +3619,9 @@ public final class PlayerEnterSceneNotifyOuterClass {
           emu.grasscutter.net.proto.MKCENPDADHAOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PIJIEDJBGCNOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.VectorOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.LimitedRegionInfo.getDescriptor(),
-          emu.grasscutter.net.proto.MapLayerInfo.getDescriptor(),
-          emu.grasscutter.net.proto.MirrorWorldSceneDetail.getDescriptor(),
+          emu.grasscutter.net.proto._LimitedRegionInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._MapLayerInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass.getDescriptor(),
         });
     internal_static_PlayerEnterSceneNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -3632,9 +3633,9 @@ public final class PlayerEnterSceneNotifyOuterClass {
     emu.grasscutter.net.proto.MKCENPDADHAOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PIJIEDJBGCNOuterClass.getDescriptor();
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.LimitedRegionInfo.getDescriptor();
-    emu.grasscutter.net.proto.MapLayerInfo.getDescriptor();
-    emu.grasscutter.net.proto.MirrorWorldSceneDetail.getDescriptor();
+    emu.grasscutter.net.proto._LimitedRegionInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._MapLayerInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

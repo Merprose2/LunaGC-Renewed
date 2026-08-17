@@ -1643,8 +1643,9 @@ public final class QueryPathRspOuterClass {
       "\014.BEIKOGGHFHD\022\030\n\007corners\030\017 \003(\0132\007.Vector\"" +
       "s\n\016PathStatusType\022\036\n\032PathStatusType_STAT" +
       "US_FAIL\020\000\022\036\n\032PathStatusType_STATUS_SUCC\020" +
-      "\001\022!\n\035PathStatusType_STATUS_PARTIAL\020\002B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\001\022!\n\035PathStatusType_STATUS_PARTIAL\020\002B3\n\031" +
+      "emu.grasscutter.net.protoB\026QueryPathRspO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

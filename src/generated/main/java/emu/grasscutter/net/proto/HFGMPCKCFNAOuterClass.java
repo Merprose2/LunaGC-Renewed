@@ -201,8 +201,9 @@ public final class HFGMPCKCFNAOuterClass {
       "LL_EDIT\020\004\022!\n\035HFGMPCKCFNA_BACK_PLAYER_WOR" +
       "LD\020\005\022)\n%HFGMPCKCFNA_BACK_PLAYER_WORLD_DE" +
       "FAULT\020\006\022!\n\035HFGMPCKCFNA_JOIN_PLAYER_WORLD" +
-      "\020\007\022\031\n\025HFGMPCKCFNA_JOIN_HOME\020\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\020\007\022\031\n\025HFGMPCKCFNA_JOIN_HOME\020\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025HFGMPCKCFNAOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -729,8 +729,9 @@ public final class KENDDGEKCJBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KENDDGEKCJB.proto\032\021LDDECGLDODN.proto\"B" +
       "\n\013KENDDGEKCJB\022!\n\013CCKABFIBOAN\030\002 \001(\0132\014.LDD" +
-      "ECGLDODN\022\020\n\010scene_id\030\003 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "ECGLDODN\022\020\n\010scene_id\030\003 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025KENDDGEKCJBOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

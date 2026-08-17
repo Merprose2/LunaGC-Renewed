@@ -595,8 +595,9 @@ public final class DGNKPHIAJLCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DGNKPHIAJLC.proto\"-\n\013DGNKPHIAJLC\022\r\n\005in" +
-      "dex\030\002 \001(\r\022\017\n\007area_id\030\014 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "dex\030\002 \001(\r\022\017\n\007area_id\030\014 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025DGNKPHIAJLCOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

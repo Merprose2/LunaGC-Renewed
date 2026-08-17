@@ -667,8 +667,9 @@ public final class AvatarChangeAnimHashRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035AvatarChangeAnimHashRsp.proto\"R\n\027Avata" +
       "rChangeAnimHashRsp\022\021\n\tanim_hash\030\001 \001(\r\022\017\n" +
-      "\007retcode\030\005 \001(\005\022\023\n\013avatar_guid\030\010 \001(\004B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\007retcode\030\005 \001(\005\022\023\n\013avatar_guid\030\010 \001(\004B>\n\031e" +
+      "mu.grasscutter.net.protoB!AvatarChangeAn" +
+      "imHashRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -894,8 +894,9 @@ public final class HDBAEIPLPHIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HDBAEIPLPHI.proto\032\021BIJBCIMBMME.proto\"E" +
       "\n\013HDBAEIPLPHI\022!\n\013CBBOLNGJNLG\030\001 \003(\0132\014.BIJ" +
-      "BCIMBMME\022\023\n\013CNEKFPHBFEE\030\002 \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "BCIMBMME\022\023\n\013CNEKFPHBFEE\030\002 \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025HDBAEIPLPHIOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

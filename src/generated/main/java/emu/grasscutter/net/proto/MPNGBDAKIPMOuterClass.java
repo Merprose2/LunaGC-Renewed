@@ -1567,8 +1567,8 @@ public final class MPNGBDAKIPMOuterClass {
       "\030\004 \001(\0132\014.HHEDHCFPEKM\022\023\n\013OLIPGCONBJC\030\005 \001(" +
       "\002\022\023\n\013NFFACECMDAA\030\006 \001(\010\022\023\n\013NMOPIFBOBDI\030\007 " +
       "\001(\010\022!\n\013HGDAMCKDNDN\030\010 \001(\0132\014.EBADNHGKAAP\022\023" +
-      "\n\013MCGOLBFHCJI\030\t \001(\010B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013MCGOLBFHCJI\030\t \001(\010B2\n\031emu.grasscutter.n" +
+      "et.protoB\025MPNGBDAKIPMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

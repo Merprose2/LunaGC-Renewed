@@ -1106,8 +1106,9 @@ public final class DungeonEntryPointInfoOuterClass {
       "\034\n\024recommend_dungeon_id\030\002 \001(\r\022\020\n\010point_i" +
       "d\030\003 \001(\r\022!\n\031_first_pass_reward_status\030\005 \001" +
       "(\r\022\020\n\010scene_id\030\n \001(\r\022-\n\022dungeon_entry_li" +
-      "st\030\014 \003(\0132\021.DungeonEntryInfoB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "st\030\014 \003(\0132\021.DungeonEntryInfoB<\n\031emu.grass" +
+      "cutter.net.protoB\037DungeonEntryPointInfoO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

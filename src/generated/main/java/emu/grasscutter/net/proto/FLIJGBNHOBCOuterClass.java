@@ -1185,8 +1185,9 @@ public final class FLIJGBNHOBCOuterClass {
       "\001\n\013FLIJGBNHOBC\022\023\n\013OPLHCEOLCFB\030\002 \001(\r\022\023\n\013L" +
       "NDALCIJHOA\030\006 \001(\002\022\023\n\013ACDENEEFIEJ\030\010 \001(\r\022\023\n" +
       "\013CMBJDHDHLCC\030\014 \001(\r\022!\n\013PECGJPBDOAI\030\r \003(\0132" +
-      "\014.PDENDJIGPKH\022\023\n\013ILJNAEPANNC\030\017 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\014.PDENDJIGPKH\022\023\n\013ILJNAEPANNC\030\017 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025FLIJGBNHOBCOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

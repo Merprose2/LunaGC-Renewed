@@ -954,8 +954,9 @@ public final class NEPKIMHIAJAOuterClass {
       "NDKPMEKGMC\030\001 \001(\002\022\023\n\013BGOGLGFNCHA\030\002 \001(\002\022\023\n" +
       "\013OIOMLPNGNCO\030\003 \001(\002\022\023\n\013JHCNMEFPNEN\030\004 \001(\002\022" +
       "\023\n\013BIJOGLJBHME\030\005 \001(\002\022\023\n\013DEBBFECHFAO\030\006 \001(" +
-      "\002\022\023\n\013NDKPMKNKGMM\030\007 \001(\002B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\002\022\023\n\013NDKPMKNKGMM\030\007 \001(\002B2\n\031emu.grasscutte" +
+      "r.net.protoB\025NEPKIMHIAJAOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

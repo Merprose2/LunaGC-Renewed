@@ -1202,8 +1202,9 @@ public final class AbilityMetaUpdateBaseReactionDamageOuterClass {
       "ilityString\022\030\n\020source_caster_id\030\003 \001(\r\022\025\n" +
       "\rreaction_type\030\005 \001(\r\022$\n\014ability_name\030\010 \001" +
       "(\0132\016.AbilityString\022.\n\022ability_identifier" +
-      "\030\017 \001(\0132\022.AbilityIdentifierB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\030\017 \001(\0132\022.AbilityIdentifierBJ\n\031emu.grassc" +
+      "utter.net.protoB-AbilityMetaUpdateBaseRe" +
+      "actionDamageOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

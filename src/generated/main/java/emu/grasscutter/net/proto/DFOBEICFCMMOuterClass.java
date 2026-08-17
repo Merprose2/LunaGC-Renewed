@@ -133,8 +133,8 @@ public final class DFOBEICFCMMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DFOBEICFCMM.proto*L\n\013DFOBEICFCMM\022\030\n\024DF" +
       "OBEICFCMM_HIP_FIRE\020\000\022#\n\037DFOBEICFCMM_THIR" +
-      "D_PERSON_AIMING\020\001B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "D_PERSON_AIMING\020\001B2\n\031emu.grasscutter.net" +
+      ".protoB\025DFOBEICFCMMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

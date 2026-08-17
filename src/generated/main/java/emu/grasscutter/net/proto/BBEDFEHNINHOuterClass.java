@@ -737,8 +737,9 @@ public final class BBEDFEHNINHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BBEDFEHNINH.proto\"a\n\013BBEDFEHNINH\022\023\n\013OL" +
       "KOJPCBLCG\030\002 \001(\004\022\023\n\013GPCFKJMIEDI\030\005 \001(\r\022\023\n\013" +
-      "NBOEDEGPEHB\030\006 \001(\r\022\023\n\013NPLNJKDOMMJ\030\n \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "NBOEDEGPEHB\030\006 \001(\r\022\023\n\013NPLNJKDOMMJ\030\n \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025BBEDFEHNINH" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

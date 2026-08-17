@@ -792,8 +792,8 @@ public final class EvtBeingHitInfoOuterClass {
       "\n\025EvtBeingHitInfo.proto\032\022AttackResult.pr" +
       "oto\"[\n\017EvtBeingHitInfo\022\021\n\tframe_num\030\002 \001(" +
       "\r\022\017\n\007peer_id\030\007 \001(\r\022$\n\rattack_result\030\t \001(" +
-      "\0132\r.AttackResultB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\0132\r.AttackResultB6\n\031emu.grasscutter.net." +
+      "protoB\031EvtBeingHitInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

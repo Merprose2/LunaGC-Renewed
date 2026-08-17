@@ -200,7 +200,8 @@ public final class LNDLELACCJFOuterClass {
       "URPLE\020\003\022\026\n\022LNDLELACCJF_ORANGE\020\004\022\024\n\020LNDLE" +
       "LACCJF_GRAY\020\005\022\025\n\021LNDLELACCJF_BROWN\020\006\022\025\n\021" +
       "LNDLELACCJF_BLACK\020\007\022\023\n\017LNDLELACCJF_RED\020\t" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025LNDLELACC" +
+      "JFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

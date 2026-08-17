@@ -1374,8 +1374,9 @@ public final class EIKHALAMCJLOuterClass {
       "OHDDPCHDIOB.proto\"\203\001\n\013EIKHALAMCJL\022!\n\013POB" +
       "DBECHEDG\030\002 \001(\0162\014.OHDDPCHDIOB\022!\n\013AHKPKGKC" +
       "HKP\030\n \003(\0132\014.LAPLMEPMGLJ\022!\n\013FNLIPJKJADO\030\013" +
-      " \003(\0132\014.LAPLMEPMGLJ\022\013\n\003uid\030\r \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      " \003(\0132\014.LAPLMEPMGLJ\022\013\n\003uid\030\r \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025EIKHALAMCJLOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

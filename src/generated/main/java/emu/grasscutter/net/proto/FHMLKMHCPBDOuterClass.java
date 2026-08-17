@@ -1712,7 +1712,8 @@ public final class FHMLKMHCPBDOuterClass {
       "CEFFFIILFP\030\002 \001(\010\022!\n\013LEDEOKIFPOM\030\003 \003(\0132\014." +
       "PGDMAIHKGFO\022!\n\013DHHGOLDILHD\030\004 \003(\0132\014.PGDMA" +
       "IHKGFO\022!\n\013DPNFECCOGKM\030\005 \003(\0132\014.PGDMAIHKGF" +
-      "OB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "OB2\n\031emu.grasscutter.net.protoB\025FHMLKMHC" +
+      "PBDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -668,8 +668,9 @@ public final class DuelHeartSettleNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033DuelHeartSettleNotify.proto\"R\n\025DuelHea" +
       "rtSettleNotify\022\021\n\tcost_time\030\003 \001(\r\022\025\n\ris_" +
-      "new_record\030\r \001(\010\022\017\n\007is_succ\030\017 \001(\010B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "new_record\030\r \001(\010\022\017\n\007is_succ\030\017 \001(\010B<\n\031emu" +
+      ".grasscutter.net.protoB\037DuelHeartSettleN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

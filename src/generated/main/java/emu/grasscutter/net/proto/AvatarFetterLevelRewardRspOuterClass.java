@@ -936,8 +936,9 @@ public final class AvatarFetterLevelRewardRspOuterClass {
       "vatarFetterLevelRewardRsp\022\027\n\017_reward_id_" +
       "list\030\003 \003(\r\022\024\n\014fetter_level\030\007 \001(\r\022\021\n\trewa" +
       "rd_id\030\t \001(\r\022\017\n\007retcode\030\013 \001(\005\022\023\n\013avatar_g" +
-      "uid\030\r \001(\004B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "uid\030\r \001(\004BA\n\031emu.grasscutter.net.protoB$" +
+      "AvatarFetterLevelRewardRspOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

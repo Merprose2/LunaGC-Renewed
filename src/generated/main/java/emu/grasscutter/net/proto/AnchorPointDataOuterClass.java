@@ -1136,8 +1136,9 @@ public final class AnchorPointDataOuterClass {
       "\n\017AnchorPointData\022\023\n\013material_id\030\001 \001(\r\022\020" +
       "\n\010end_time\030\003 \001(\r\022\027\n\017anchor_point_id\030\005 \001(" +
       "\r\022\024\n\003pos\030\t \001(\0132\007.Vector\022\024\n\003rot\030\013 \001(\0132\007.V" +
-      "ector\022\020\n\010scene_id\030\r \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "ector\022\020\n\010scene_id\030\r \001(\rB6\n\031emu.grasscutt" +
+      "er.net.protoB\031AnchorPointDataOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -588,8 +588,9 @@ public final class KHLPCKIKDBBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KHLPCKIKDBB.proto\"3\n\013KHLPCKIKDBB\022\017\n\007is" +
-      "_open\030\007 \001(\010\022\023\n\013DDGBHFCPKON\030\t \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "_open\030\007 \001(\010\022\023\n\013DDGBHFCPKON\030\t \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025KHLPCKIKDBBOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -786,8 +786,8 @@ public final class OJCFGGCEKNMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OJCFGGCEKNM.proto\"L\n\013OJCFGGCEKNM\022\023\n\013FB" +
       "MLJKKGDLG\030\001 \001(\010\022\023\n\013FHGMMHCIANK\030\007 \003(\r\022\023\n\013" +
-      "EGCIEPCEPBH\030\013 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "EGCIEPCEPBH\030\013 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025OJCFGGCEKNMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

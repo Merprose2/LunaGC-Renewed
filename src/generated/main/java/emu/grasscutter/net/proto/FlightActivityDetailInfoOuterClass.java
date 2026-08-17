@@ -965,8 +965,9 @@ public final class FlightActivityDetailInfoOuterClass {
       "DailyRecord.proto\"\203\001\n\030FlightActivityDeta" +
       "ilInfo\022-\n\021daily_record_list\030\010 \003(\0132\022.Flig" +
       "htDailyRecord\022\031\n\021preview_reward_id\030\t \001(\r" +
-      "\022\035\n\025min_open_player_level\030\014 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\022\035\n\025min_open_player_level\030\014 \001(\rB?\n\031emu.g" +
+      "rasscutter.net.protoB\"FlightActivityDeta" +
+      "ilInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

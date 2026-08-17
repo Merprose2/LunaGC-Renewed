@@ -983,8 +983,9 @@ public final class IEFDDLIIGNIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IEFDDLIIGNI.proto\"a\n\013IEFDDLIIGNI\022\023\n\013MO" +
       "GHJGCKHPO\030\001 \003(\010\022\023\n\013ACJHIBNJEHK\030\005 \003(\r\022\023\n\013" +
-      "AKMMNCBMHGK\030\n \001(\r\022\023\n\013AEJFJGJMEJA\030\r \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "AKMMNCBMHGK\030\n \001(\r\022\023\n\013AEJFJGJMEJA\030\r \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025IEFDDLIIGNI" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

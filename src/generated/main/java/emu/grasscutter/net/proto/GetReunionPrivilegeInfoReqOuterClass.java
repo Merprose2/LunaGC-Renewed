@@ -526,8 +526,9 @@ public final class GetReunionPrivilegeInfoReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n GetReunionPrivilegeInfoReq.proto\"2\n\032Ge" +
       "tReunionPrivilegeInfoReq\022\024\n\014privilege_id" +
-      "\030\n \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\n \001(\rBA\n\031emu.grasscutter.net.protoB$Get" +
+      "ReunionPrivilegeInfoReqOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

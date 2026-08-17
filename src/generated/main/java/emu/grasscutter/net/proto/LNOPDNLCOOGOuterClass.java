@@ -737,8 +737,9 @@ public final class LNOPDNLCOOGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LNOPDNLCOOG.proto\"U\n\013LNOPDNLCOOG\022\017\n\007re" +
       "tcode\030\002 \001(\005\022\017\n\007slot_id\030\005 \001(\r\022\017\n\007buff_id\030" +
-      "\010 \001(\r\022\023\n\013AIMOFCDLABD\030\t \001(\010B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\010 \001(\r\022\023\n\013AIMOFCDLABD\030\t \001(\010B2\n\031emu.grassc" +
+      "utter.net.protoB\025LNOPDNLCOOGOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

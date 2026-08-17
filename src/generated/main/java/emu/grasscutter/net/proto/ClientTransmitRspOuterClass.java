@@ -633,8 +633,9 @@ public final class ClientTransmitRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027ClientTransmitRsp.proto\032\024TransmitReaso" +
       "n.proto\"E\n\021ClientTransmitRsp\022\017\n\007retcode\030" +
-      "\001 \001(\005\022\037\n\006reason\030\007 \001(\0162\017.TransmitReasonB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\001 \001(\005\022\037\n\006reason\030\007 \001(\0162\017.TransmitReasonB8" +
+      "\n\031emu.grasscutter.net.protoB\033ClientTrans" +
+      "mitRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

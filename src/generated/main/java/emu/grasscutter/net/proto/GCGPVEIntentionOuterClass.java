@@ -715,8 +715,8 @@ public final class GCGPVEIntentionOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025GCGPVEIntention.proto\";\n\017GCGPVEIntenti" +
       "on\022\021\n\tcard_guid\030\001 \001(\r\022\025\n\rskill_id_list\030\r" +
-      " \003(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \003(\rB6\n\031emu.grasscutter.net.protoB\031GCGPV" +
+      "EIntentionOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

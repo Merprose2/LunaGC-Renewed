@@ -794,8 +794,8 @@ public final class WatcherEventTypeNotifyOuterClass {
       "\n\034WatcherEventTypeNotify.proto\"`\n\026Watche" +
       "rEventTypeNotify\022\034\n\024watcher_trigger_type" +
       "\030\001 \001(\r\022\022\n\nparam_list\030\006 \003(\r\022\024\n\014add_progre" +
-      "ss\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "ss\030\017 \001(\rB=\n\031emu.grasscutter.net.protoB W" +
+      "atcherEventTypeNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

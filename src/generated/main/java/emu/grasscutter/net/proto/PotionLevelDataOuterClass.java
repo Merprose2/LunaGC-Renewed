@@ -728,8 +728,9 @@ public final class PotionLevelDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025PotionLevelData.proto\"]\n\017PotionLevelDa" +
       "ta\022\017\n\007mode_id\030\003 \001(\r\022\r\n\005score\030\007 \001(\r\022\020\n\010le" +
-      "vel_id\030\t \001(\r\022\030\n\020difficulty_level\030\014 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "vel_id\030\t \001(\r\022\030\n\020difficulty_level\030\014 \001(\rB6" +
+      "\n\031emu.grasscutter.net.protoB\031PotionLevel" +
+      "DataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

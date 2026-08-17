@@ -1130,8 +1130,8 @@ public final class AHALIBABKPHOuterClass {
       "\013AHALIBABKPH\022 \n\nbasic_info\030\001 \001(\0132\014.GEIBB" +
       "LODAKN\022!\n\013JMHHLPMLABM\030\002 \001(\0132\014.KDKONAFLKN" +
       "P\022!\n\013MKCAOBCPLKP\030\003 \001(\0132\014.HNEDMDJHLGJ\022\023\n\013" +
-      "OHHBJKGBECG\030\004 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "OHHBJKGBECG\030\004 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025AHALIBABKPHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

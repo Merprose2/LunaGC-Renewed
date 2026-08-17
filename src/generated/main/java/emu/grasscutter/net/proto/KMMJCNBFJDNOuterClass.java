@@ -595,8 +595,9 @@ public final class KMMJCNBFJDNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KMMJCNBFJDN.proto\"3\n\013KMMJCNBFJDN\022\020\n\010le" +
-      "vel_id\030\002 \001(\r\022\022\n\ndifficulty\030\n \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "vel_id\030\002 \001(\r\022\022\n\ndifficulty\030\n \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025KMMJCNBFJDNOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

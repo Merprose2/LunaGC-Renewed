@@ -525,8 +525,8 @@ public final class DPGIPLCAHDBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DPGIPLCAHDB.proto\"\037\n\013DPGIPLCAHDB\022\020\n\010st" +
-      "age_id\030\003 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "age_id\030\003 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025DPGIPLCAHDBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

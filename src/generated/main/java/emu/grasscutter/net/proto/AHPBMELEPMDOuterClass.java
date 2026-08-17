@@ -152,8 +152,8 @@ public final class AHPBMELEPMDOuterClass {
       "\n\021AHPBMELEPMD.proto*q\n\013AHPBMELEPMD\022\033\n\027AH" +
       "PBMELEPMD_UNSPECIFIED\020\000\022\023\n\017AHPBMELEPMD_R" +
       "EC\020\001\022\027\n\023AHPBMELEPMD_NOT_REC\020\002\022\027\n\023AHPBMEL" +
-      "EPMD_UNKNOWN\020\003B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "EPMD_UNKNOWN\020\003B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025AHPBMELEPMDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

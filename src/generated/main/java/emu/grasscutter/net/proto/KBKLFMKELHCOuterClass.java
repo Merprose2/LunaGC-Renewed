@@ -595,8 +595,9 @@ public final class KBKLFMKELHCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KBKLFMKELHC.proto\"3\n\013KBKLFMKELHC\022\017\n\007re" +
-      "tcode\030\003 \001(\005\022\023\n\013LAGCMOIMKFI\030\010 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "tcode\030\003 \001(\005\022\023\n\013LAGCMOIMKFI\030\010 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025KBKLFMKELHCOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

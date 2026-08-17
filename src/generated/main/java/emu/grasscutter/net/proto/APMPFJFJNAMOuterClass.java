@@ -729,8 +729,9 @@ public final class APMPFJFJNAMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021APMPFJFJNAM.proto\032\021NJABMDONHPI.proto\"E" +
       "\n\013APMPFJFJNAM\022!\n\013CJCCJKNHJNC\030\002 \001(\0132\014.NJA" +
-      "BMDONHPI\022\023\n\013KMDOFBPMGAI\030\010 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "BMDONHPI\022\023\n\013KMDOFBPMGAI\030\010 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025APMPFJFJNAMOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

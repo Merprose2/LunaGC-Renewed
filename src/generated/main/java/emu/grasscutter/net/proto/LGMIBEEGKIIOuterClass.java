@@ -2478,8 +2478,8 @@ public final class LGMIBEEGKIIOuterClass {
       " \001(\0132\014.MNAJHCFHLAAH\000\0222\n\032value_float_with" +
       "_structure\030\020 \001(\0132\014.MCHIKJMLPNHH\000\0223\n\033valu" +
       "e_string_with_structure\030\021 \001(\0132\014.GJMIPINB" +
-      "CHKH\000B\010\n\006detailB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "CHKH\000B\010\n\006detailB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025LGMIBEEGKIIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

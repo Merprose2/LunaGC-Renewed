@@ -723,8 +723,9 @@ public final class ActivityReadPushTipsReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035ActivityReadPushTipsReq.proto\"R\n\027Activ" +
       "ityReadPushTipsReq\022\"\n\032activity_push_tips" +
-      "_id_list\030\010 \003(\r\022\023\n\013activity_id\030\014 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "_id_list\030\010 \003(\r\022\023\n\013activity_id\030\014 \001(\rB>\n\031e" +
+      "mu.grasscutter.net.protoB!ActivityReadPu" +
+      "shTipsReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

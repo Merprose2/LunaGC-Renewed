@@ -1136,8 +1136,9 @@ public final class CurVehicleInfoOuterClass {
       "\016CurVehicleInfo\022\021\n\tentity_id\030\001 \001(\r\022\013\n\003po" +
       "s\030\002 \001(\r\022\021\n\tgadget_id\030\003 \001(\r\022\035\n\014_vehicle_p" +
       "os\030\004 \001(\0132\007.Vector\022\025\n\r_vehicle_type\030\005 \001(\r" +
-      "\022\035\n\014_vehicle_rot\030\006 \001(\0132\007.VectorB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\022\035\n\014_vehicle_rot\030\006 \001(\0132\007.VectorB5\n\031emu.g" +
+      "rasscutter.net.protoB\030CurVehicleInfoOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -668,8 +668,9 @@ public final class SceneTimeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025SceneTimeNotify.proto\"J\n\017SceneTimeNoti" +
       "fy\022\020\n\010scene_id\030\006 \001(\r\022\021\n\tis_paused\030\007 \001(\010\022" +
-      "\022\n\nscene_time\030\016 \001(\004B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\022\n\nscene_time\030\016 \001(\004B6\n\031emu.grasscutter.n" +
+      "et.protoB\031SceneTimeNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

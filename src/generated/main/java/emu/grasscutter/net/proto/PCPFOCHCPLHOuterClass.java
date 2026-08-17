@@ -734,8 +734,9 @@ public final class PCPFOCHCPLHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PCPFOCHCPLH.proto\"a\n\013PCPFOCHCPLH\022\023\n\013PM" +
       "ILHIHKAIH\030\001 \001(\002\022\023\n\013KPALPPNDIBA\030\002 \001(\010\022\023\n\013" +
-      "ALNFLLKLFNK\030\003 \001(\002\022\023\n\013EBOLDNFKHNF\030\004 \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "ALNFLLKLFNK\030\003 \001(\002\022\023\n\013EBOLDNFKHNF\030\004 \001(\010B2" +
+      "\n\031emu.grasscutter.net.protoB\025PCPFOCHCPLH" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

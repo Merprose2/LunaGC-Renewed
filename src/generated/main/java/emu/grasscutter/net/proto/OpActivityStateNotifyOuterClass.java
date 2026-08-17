@@ -1027,8 +1027,9 @@ public final class OpActivityStateNotifyOuterClass {
       "yTagBriefInfo.proto\"\177\n\025OpActivityStateNo" +
       "tify\022=\n\034opened_op_activity_info_list\030\t \003" +
       "(\0132\027.OpActivityTagBriefInfo\022\'\n\037finished_" +
-      "bonus_activity_id_list\030\r \003(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "bonus_activity_id_list\030\r \003(\rB<\n\031emu.gras" +
+      "scutter.net.protoB\037OpActivityStateNotify" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -666,8 +666,8 @@ public final class GJMKLIHEALIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GJMKLIHEALI.proto\"L\n\013GJMKLIHEALI\022\023\n\013PP" +
       "LNCKJEJFM\030\003 \001(\r\022\023\n\013NAEJHDNGGEE\030\014 \001(\r\022\023\n\013" +
-      "KMDOFBPMGAI\030\r \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "KMDOFBPMGAI\030\r \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025GJMKLIHEALIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

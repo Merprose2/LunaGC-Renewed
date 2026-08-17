@@ -902,8 +902,9 @@ public final class OFJJEDHJEECOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OFJJEDHJEEC.proto\032\021PBHPDCFBLAB.proto\"D" +
       "\n\013OFJJEDHJEEC\022!\n\013HGPKJJMGLEC\030\016 \003(\0132\014.PBH" +
-      "PDCFBLAB\022\022\n\n_hall_guid\030\017 \001(\004B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "PDCFBLAB\022\022\n\n_hall_guid\030\017 \001(\004B2\n\031emu.gras" +
+      "scutter.net.protoB\025OFJJEDHJEECOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

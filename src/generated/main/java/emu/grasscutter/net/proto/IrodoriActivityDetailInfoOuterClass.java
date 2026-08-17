@@ -1438,8 +1438,9 @@ public final class IrodoriActivityDetailInfoOuterClass {
       "doriMasterLevelInfo\022\'\n\013flower_data\030\006 \001(\013" +
       "2\022.IrodoriFlowerData\022%\n\nchess_data\030\007 \001(\013" +
       "2\021.IrodoriChessData\022\'\n\013poetry_data\030\013 \001(\013" +
-      "2\022.IrodoriPoetryDataB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "2\022.IrodoriPoetryDataB@\n\031emu.grasscutter." +
+      "net.protoB#IrodoriActivityDetailInfoOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

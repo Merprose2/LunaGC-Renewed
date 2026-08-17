@@ -526,8 +526,9 @@ public final class FleurFairMusicGameStartReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n FleurFairMusicGameStartReq.proto\"4\n\032Fl" +
       "eurFairMusicGameStartReq\022\026\n\016music_basic_" +
-      "id\030\007 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\007 \001(\rBA\n\031emu.grasscutter.net.protoB$F" +
+      "leurFairMusicGameStartReqOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -526,8 +526,8 @@ public final class MonsterForceAlertNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035MonsterForceAlertNotify.proto\"4\n\027Monst" +
       "erForceAlertNotify\022\031\n\021monster_entity_id\030" +
-      "\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\013 \001(\rB>\n\031emu.grasscutter.net.protoB!Mons" +
+      "terForceAlertNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

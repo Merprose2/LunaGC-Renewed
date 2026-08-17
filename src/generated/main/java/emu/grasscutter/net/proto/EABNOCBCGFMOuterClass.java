@@ -1067,7 +1067,8 @@ public final class EABNOCBCGFMOuterClass {
       "OCOKGBOF\030\001 \001(\r\022\r\n\005round\030\005 \001(\r\022!\n\013EJGAEGA" +
       "PEBA\030\010 \001(\0132\014.AFCJANIEJKC\022\023\n\013GEPHOFOGHJC\030" +
       "\014 \001(\r\022!\n\013FOHNJKCKKPC\030\016 \001(\0132\014.EEEPOOPKBPC" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025EABNOCBCG" +
+      "FMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

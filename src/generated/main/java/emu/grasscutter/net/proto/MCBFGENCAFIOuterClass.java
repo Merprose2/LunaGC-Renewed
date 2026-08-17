@@ -823,8 +823,8 @@ public final class MCBFGENCAFIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MCBFGENCAFI.proto\032\021CDPJMENKLHI.proto\"0" +
       "\n\013MCBFGENCAFI\022!\n\013DDNBPEBILBD\030\003 \003(\0132\014.CDP" +
-      "JMENKLHIB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "JMENKLHIB2\n\031emu.grasscutter.net.protoB\025M" +
+      "CBFGENCAFIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

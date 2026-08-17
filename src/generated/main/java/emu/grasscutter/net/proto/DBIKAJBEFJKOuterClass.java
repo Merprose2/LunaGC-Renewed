@@ -1002,8 +1002,8 @@ public final class DBIKAJBEFJKOuterClass {
       "\001\n\013DBIKAJBEFJK\022\020\n\010level_id\030\001 \001(\004\022!\n\013JKHG" +
       "HCCLCLM\030\002 \001(\0162\014.ONAPNGNAIDB\022\023\n\013HMFHCPIKG" +
       "CO\030\003 \001(\t\022\023\n\013NGEDGDGBAID\030\004 \001(\014\022\022\n\nrequest" +
-      "_id\030\005 \001(\tB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\005 \001(\tB2\n\031emu.grasscutter.net.protoB\025" +
+      "DBIKAJBEFJKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

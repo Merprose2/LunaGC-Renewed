@@ -986,8 +986,9 @@ public final class LGNDFMECFJIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LGNDFMECFJI.proto\"]\n\013LGNDFMECFJI\022\020\n\010le" +
       "vel_id\030\002 \001(\r\022\023\n\013OJIDBAFJECO\030\004 \003(\r\022\022\n\ndif" +
-      "ficulty\030\005 \001(\r\022\023\n\013BLFDFGAGOIG\030\016 \003(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ficulty\030\005 \001(\r\022\023\n\013BLFDFGAGOIG\030\016 \003(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025LGNDFMECFJIOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

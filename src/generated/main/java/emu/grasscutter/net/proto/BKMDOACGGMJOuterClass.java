@@ -908,8 +908,8 @@ public final class BKMDOACGGMJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BKMDOACGGMJ.proto\"L\n\013BKMDOACGGMJ\022\023\n\013OJ" +
       "KNBGGNALH\030\001 \001(\005\022\023\n\013CIIDLFPAKOM\030\002 \003(\r\022\023\n\013" +
-      "KJGABLMFOND\030\003 \003(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "KJGABLMFOND\030\003 \003(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025BKMDOACGGMJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

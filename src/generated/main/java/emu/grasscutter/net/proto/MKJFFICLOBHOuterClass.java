@@ -732,8 +732,9 @@ public final class MKJFFICLOBHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MKJFFICLOBH.proto\"]\n\013MKJFFICLOBH\022\023\n\013HB" +
       "FDMDICAFJ\030\001 \001(\010\022\023\n\013GGGMBLAKHBA\030\003 \001(\010\022\017\n\007" +
-      "is_open\030\006 \001(\010\022\023\n\013LIKMFJBNGFI\030\017 \001(\010B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "is_open\030\006 \001(\010\022\023\n\013LIKMFJBNGFI\030\017 \001(\010B2\n\031em" +
+      "u.grasscutter.net.protoB\025MKJFFICLOBHOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

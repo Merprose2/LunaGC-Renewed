@@ -597,8 +597,9 @@ public final class HomeSetBlueprintSlotOptionReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n#HomeSetBlueprintSlotOptionReq.proto\"G\n" +
       "\035HomeSetBlueprintSlotOptionReq\022\025\n\ris_all" +
-      "ow_copy\030\014 \001(\010\022\017\n\007slot_id\030\r \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ow_copy\030\014 \001(\010\022\017\n\007slot_id\030\r \001(\rBD\n\031emu.gr" +
+      "asscutter.net.protoB\'HomeSetBlueprintSlo" +
+      "tOptionReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

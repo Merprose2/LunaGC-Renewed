@@ -1027,8 +1027,9 @@ public final class GPEIGEPCMBFOuterClass {
       "\n\021GPEIGEPCMBF.proto\032\021CKMLKDPCKKB.proto\032\021" +
       "DNHJLOJDKDP.proto\"R\n\013GPEIGEPCMBF\022!\n\013BABP" +
       "JFKFHBH\030\002 \003(\0132\014.CKMLKDPCKKB\022 \n\nbasic_inf" +
-      "o\030\013 \001(\0132\014.DNHJLOJDKDPB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "o\030\013 \001(\0132\014.DNHJLOJDKDPB2\n\031emu.grasscutter" +
+      ".net.protoB\025GPEIGEPCMBFOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

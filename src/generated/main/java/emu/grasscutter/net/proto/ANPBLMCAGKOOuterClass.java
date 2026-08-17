@@ -525,8 +525,8 @@ public final class ANPBLMCAGKOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ANPBLMCAGKO.proto\"\"\n\013ANPBLMCAGKO\022\023\n\013EK" +
-      "CPAOBHGAB\030\r \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "CPAOBHGAB\030\r \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025ANPBLMCAGKOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

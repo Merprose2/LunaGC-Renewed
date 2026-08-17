@@ -518,8 +518,8 @@ public final class FMJCDOCDCNEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FMJCDOCDCNE.proto\" \n\013FMJCDOCDCNE\022\021\n\tis" +
-      "_active\030\n \001(\010B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "_active\030\n \001(\010B2\n\031emu.grasscutter.net.pro" +
+      "toB\025FMJCDOCDCNEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

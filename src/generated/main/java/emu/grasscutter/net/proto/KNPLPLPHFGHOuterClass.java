@@ -730,8 +730,9 @@ public final class KNPLPLPHFGHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KNPLPLPHFGH.proto\"V\n\013KNPLPLPHFGH\022\021\n\tle" +
       "ft_time\030\001 \001(\r\022\021\n\tis_finish\030\005 \001(\010\022\020\n\010leve" +
-      "l_id\030\t \001(\r\022\017\n\007is_open\030\r \001(\010B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "l_id\030\t \001(\r\022\017\n\007is_open\030\r \001(\010B2\n\031emu.grass" +
+      "cutter.net.protoB\025KNPLPLPHFGHOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

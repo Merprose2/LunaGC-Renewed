@@ -2081,8 +2081,9 @@ public final class KPPPPKIJCJPOuterClass {
       "PHJFELP\022!\n\013FFNFAIBOLIL\030\005 \001(\0132\014.OCGHOCJPL" +
       "CK\022!\n\013NELLEMABCFI\030\006 \001(\0132\014.KEBNBMGICHO\022!\n" +
       "\013ELLGIDOFFLF\030\007 \001(\0132\014.GCJFCLEKHCF\022!\n\013OLEL" +
-      "OHHCKPP\030\010 \001(\0132\014.LAPDLKAOLLJB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "OHHCKPP\030\010 \001(\0132\014.LAPDLKAOLLJB2\n\031emu.grass" +
+      "cutter.net.protoB\025KPPPPKIJCJPOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

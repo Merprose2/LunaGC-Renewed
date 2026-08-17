@@ -454,8 +454,9 @@ public final class ODOPINIKAODOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021ODOPINIKAOD.proto\"\r\n\013ODOPINIKAODB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021ODOPINIKAOD.proto\"\r\n\013ODOPINIKAODB2\n\031em" +
+      "u.grasscutter.net.protoB\025ODOPINIKAODOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

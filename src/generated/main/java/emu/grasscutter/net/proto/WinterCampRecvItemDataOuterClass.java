@@ -1249,7 +1249,8 @@ public final class WinterCampRecvItemDataOuterClass {
       "CampRecvItemData\022\013\n\003uid\030\001 \001(\r\022(\n\017profile" +
       "_picture\030\006 \001(\0132\017.ProfilePicture\022\020\n\010nickn" +
       "ame\030\t \001(\t\022\035\n\titem_list\030\n \003(\0132\n.ItemParam" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B=\n\031emu.grasscutter.net.protoB WinterCam" +
+      "pRecvItemDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

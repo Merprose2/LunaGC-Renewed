@@ -1106,8 +1106,9 @@ public final class CharAmusementInfoOuterClass {
       "\n\017total_cost_time\030\002 \001(\r\022\020\n\010stage_id\030\005 \001(" +
       "\r\022\020\n\010level_id\030\006 \001(\r\022\033\n\023preview_stage_ind" +
       "ex\030\t \001(\r\0222\n\020avatar_info_list\030\017 \003(\0132\030.Cha" +
-      "rAmusementAvatarInfoB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "rAmusementAvatarInfoB8\n\031emu.grasscutter." +
+      "net.protoB\033CharAmusementInfoOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

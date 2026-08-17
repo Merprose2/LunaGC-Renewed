@@ -1094,7 +1094,8 @@ public final class DELMCFDMGOMOuterClass {
       "\013AAIDBMEOLNM\030\003 \001(\t\022\023\n\013LGGICGBDDFO\030\004 \001(\002\022" +
       "\023\n\013AENPIDPILAB\030\005 \001(\r\022\023\n\013IPFBNDPBJMB\030\006 \001(" +
       "\r\022\023\n\013DKFKKAPOECB\030\007 \001(\r\022\023\n\013OJPHIPCONHJ\030\010 " +
-      "\001(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\010B2\n\031emu.grasscutter.net.protoB\025DELMCF" +
+      "DMGOMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

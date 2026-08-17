@@ -824,7 +824,8 @@ public final class WindFieldDetailInfoOuterClass {
       "\n\031WindFieldDetailInfo.proto\032\030WindFieldSt" +
       "ageInfo.proto\"C\n\023WindFieldDetailInfo\022,\n\017" +
       "stage_info_list\030\003 \003(\0132\023.WindFieldStageIn" +
-      "foB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "foB:\n\031emu.grasscutter.net.protoB\035WindFie" +
+      "ldDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

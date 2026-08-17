@@ -871,8 +871,9 @@ public final class KKCHLBLLGNGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KKCHLBLLGNG.proto\032\021BKCCFBDBHPA.proto\"M" +
       "\n\013KKCHLBLLGNG\022\"\n\013NNNGNPMOIJC\030\365\003 \001(\0132\014.BK" +
-      "CCFBDBHPA\022\013\n\002id\030\371\003 \001(\r\022\r\n\004name\030\372\003 \001(\tB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "CCFBDBHPA\022\013\n\002id\030\371\003 \001(\r\022\r\n\004name\030\372\003 \001(\tB2\n" +
+      "\031emu.grasscutter.net.protoB\025KKCHLBLLGNGO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

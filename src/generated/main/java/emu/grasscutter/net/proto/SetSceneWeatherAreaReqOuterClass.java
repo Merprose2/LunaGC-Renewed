@@ -854,8 +854,9 @@ public final class SetSceneWeatherAreaReqOuterClass {
       " \001(\r\022G\n\021weather_value_map\030\007 \003(\0132,.SetSce" +
       "neWeatherAreaReq.WeatherValueMapEntry\0326\n" +
       "\024WeatherValueMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005va" +
-      "lue\030\002 \001(\t:\0028\001B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "lue\030\002 \001(\t:\0028\001B=\n\031emu.grasscutter.net.pro" +
+      "toB SetSceneWeatherAreaReqOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

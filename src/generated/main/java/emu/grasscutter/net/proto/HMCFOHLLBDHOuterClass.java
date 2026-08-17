@@ -317,8 +317,9 @@ public final class HMCFOHLLBDHOuterClass {
       "IAL_NODE_CONFIG_AI_STATE_CLASSIC_MODE\020\021\022" +
       ",\n(HMCFOHLLBDH_OFFICIAL_NODE_CONFIG_VEHI" +
       "CLE\020\022\0229\n5HMCFOHLLBDH_OFFICIAL_NODE_CONFI" +
-      "G_VEHICLE_CLASSIC_MODE\020\023B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "G_VEHICLE_CLASSIC_MODE\020\023B2\n\031emu.grasscut" +
+      "ter.net.protoB\025HMCFOHLLBDHOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

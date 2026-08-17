@@ -722,8 +722,9 @@ public final class JIDHPOCDOHPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JIDHPOCDOHP.proto\"4\n\013JIDHPOCDOHP\022\020\n\010le" +
-      "vel_id\030\005 \001(\r\022\023\n\013OKLMGAMFOIE\030\010 \003(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "vel_id\030\005 \001(\r\022\023\n\013OKLMGAMFOIE\030\010 \003(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025JIDHPOCDOHPOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

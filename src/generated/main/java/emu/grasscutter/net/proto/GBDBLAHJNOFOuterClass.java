@@ -909,8 +909,8 @@ public final class GBDBLAHJNOFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GBDBLAHJNOF.proto\"H\n\013GBDBLAHJNOF\022\023\n\013CB" +
       "HPBBCOPPE\030\007 \003(\r\022\017\n\007is_host\030\010 \001(\010\022\023\n\013FEIA" +
-      "NMMFPJC\030\n \003(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "NMMFPJC\030\n \003(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025GBDBLAHJNOFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

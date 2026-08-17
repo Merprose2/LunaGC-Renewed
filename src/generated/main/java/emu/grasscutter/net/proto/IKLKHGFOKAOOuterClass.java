@@ -893,8 +893,9 @@ public final class IKLKHGFOKAOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IKLKHGFOKAO.proto\"]\n\013IKLKHGFOKAO\022\020\n\010le" +
       "vel_id\030\001 \001(\004\022\023\n\013HMFHCPIKGCO\030\002 \001(\t\022\023\n\013NGE" +
-      "DGDGBAID\030\003 \001(\014\022\022\n\nrequest_id\030\004 \001(\tB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "DGDGBAID\030\003 \001(\014\022\022\n\nrequest_id\030\004 \001(\tB2\n\031em" +
+      "u.grasscutter.net.protoB\025IKLKHGFOKAOOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

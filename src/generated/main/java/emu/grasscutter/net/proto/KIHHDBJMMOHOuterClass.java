@@ -1488,8 +1488,8 @@ public final class KIHHDBJMMOHOuterClass {
       "AICPDDAM\030\002 \003(\0132\014.EFECLEEAPBH\022\023\n\013OFHAIMIF" +
       "NIA\030\003 \001(\t\022\023\n\013JDLAKFIEFNB\030\004 \001(\r\022\024\n\013PANOOK" +
       "HHBPD\030\365\003 \001(\t\022\024\n\013KHLBKJNBNDP\030\366\003 \001(\010\022\024\n\013PL" +
-      "MPENJLFPA\030\367\003 \001(\tB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "MPENJLFPA\030\367\003 \001(\tB2\n\031emu.grasscutter.net." +
+      "protoB\025KIHHDBJMMOHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

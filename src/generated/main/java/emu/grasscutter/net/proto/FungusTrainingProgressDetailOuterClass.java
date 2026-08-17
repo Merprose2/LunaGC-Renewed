@@ -1799,8 +1799,9 @@ public final class FungusTrainingProgressDetailOuterClass {
       "\003(\0132 .FungusTrainingPoolPreviewDetail\022\021\n" +
       "\tcur_round\030\t \001(\r\022\023\n\013HLMGKMNFOOF\030\013 \003(\r\0228\n" +
       "\023monster_detail_list\030\017 \003(\0132\033.FungusFight" +
-      "erMonsterDetailB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "erMonsterDetailBC\n\031emu.grasscutter.net.p" +
+      "rotoB&FungusTrainingProgressDetailOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

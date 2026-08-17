@@ -753,8 +753,9 @@ public final class GCGMsgClientPerformOuterClass {
       "\n\031GCGMsgClientPerform.proto\032\032GCGClientPe" +
       "rformType.proto\"V\n\023GCGMsgClientPerform\022+" +
       "\n\014perform_type\030\001 \001(\0162\025.GCGClientPerformT" +
-      "ype\022\022\n\nparam_list\030\003 \003(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "ype\022\022\n\nparam_list\030\003 \003(\rB:\n\031emu.grasscutt" +
+      "er.net.protoB\035GCGMsgClientPerformOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

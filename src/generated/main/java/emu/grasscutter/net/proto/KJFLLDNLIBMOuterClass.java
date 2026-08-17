@@ -142,8 +142,9 @@ public final class KJFLLDNLIBMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KJFLLDNLIBM.proto*T\n\013KJFLLDNLIBM\022\024\n\020KJ" +
       "FLLDNLIBM_NONE\020\000\022\027\n\023KJFLLDNLIBM_PREPARE\020" +
-      "\001\022\026\n\022KJFLLDNLIBM_BATTLE\020\002B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\001\022\026\n\022KJFLLDNLIBM_BATTLE\020\002B2\n\031emu.grasscu" +
+      "tter.net.protoB\025KJFLLDNLIBMOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

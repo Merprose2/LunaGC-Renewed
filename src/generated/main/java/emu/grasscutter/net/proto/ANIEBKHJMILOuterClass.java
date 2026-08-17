@@ -666,8 +666,9 @@ public final class ANIEBKHJMILOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ANIEBKHJMIL.proto\"U\n\013ANIEBKHJMIL\022\037\n\027du" +
       "ngeon_entry_config_id\030\004 \001(\r\022\020\n\010scene_id\030" +
-      "\005 \001(\r\022\023\n\013EJCGHHNDAPB\030\006 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\005 \001(\r\022\023\n\013EJCGHHNDAPB\030\006 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025ANIEBKHJMILOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

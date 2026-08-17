@@ -902,8 +902,9 @@ public final class GetOpActivityInfoRspOuterClass {
       "\n\032GetOpActivityInfoRsp.proto\032\024OpActivity" +
       "Info.proto\"W\n\024GetOpActivityInfoRsp\022.\n\025op" +
       "_activity_info_list\030\004 \003(\0132\017.OpActivityIn" +
-      "fo\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "fo\022\017\n\007retcode\030\017 \001(\005B;\n\031emu.grasscutter.n" +
+      "et.protoB\036GetOpActivityInfoRspOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

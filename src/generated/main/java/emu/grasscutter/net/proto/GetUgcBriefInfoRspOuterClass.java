@@ -1007,8 +1007,8 @@ public final class GetUgcBriefInfoRspOuterClass {
       "efInfoRsp\022.\n\020music_brief_info\030\006 \001(\0132\022.Ug" +
       "cMusicBriefInfoH\000\022\020\n\010ugc_guid\030\007 \001(\004\022\032\n\010u" +
       "gc_type\030\n \001(\0162\010.UgcType\022\017\n\007retcode\030\r \001(\005" +
-      "B\007\n\005briefB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "B\007\n\005briefB9\n\031emu.grasscutter.net.protoB\034" +
+      "GetUgcBriefInfoRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class BIGNAPGJBNKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BIGNAPGJBNK.proto\"1\n\013BIGNAPGJBNK\022\021\n\tfa" +
-      "ce_type\030\001 \001(\r\022\017\n\007card_id\030\014 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ce_type\030\001 \001(\r\022\017\n\007card_id\030\014 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025BIGNAPGJBNKOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

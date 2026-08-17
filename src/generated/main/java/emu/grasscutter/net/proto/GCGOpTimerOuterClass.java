@@ -660,8 +660,8 @@ public final class GCGOpTimerOuterClass {
     java.lang.String[] descriptorData = {
       "\n\020GCGOpTimer.proto\"K\n\nGCGOpTimer\022\022\n\nbegi" +
       "n_time\030\005 \001(\006\022\025\n\rcontroller_id\030\007 \001(\r\022\022\n\nt" +
-      "ime_stamp\030\r \001(\006B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "ime_stamp\030\r \001(\006B1\n\031emu.grasscutter.net.p" +
+      "rotoB\024GCGOpTimerOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

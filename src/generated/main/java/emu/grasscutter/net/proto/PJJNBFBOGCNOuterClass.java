@@ -1043,8 +1043,9 @@ public final class PJJNBFBOGCNOuterClass {
       "\n\021PJJNBFBOGCN.proto\032\021JMKIMADBPGL.proto\"e" +
       "\n\013PJJNBFBOGCN\022\023\n\013_level_guid\030\003 \001(\004\022\017\n\007re" +
       "tcode\030\007 \001(\005\022\r\n\005param\030\010 \001(\r\022!\n\013IJMOCBFOKE" +
-      "O\030\017 \003(\0132\014.JMKIMADBPGLB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "O\030\017 \003(\0132\014.JMKIMADBPGLB2\n\031emu.grasscutter" +
+      ".net.protoB\025PJJNBFBOGCNOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

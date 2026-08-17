@@ -651,8 +651,8 @@ public final class HBJLPIDKENDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HBJLPIDKEND.proto\032\021JJAAPEINGAC.proto\"0" +
       "\n\013HBJLPIDKEND\022!\n\013MKKHNCMBLIG\030\014 \001(\0132\014.JJA" +
-      "APEINGACB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "APEINGACB2\n\031emu.grasscutter.net.protoB\025H" +
+      "BJLPIDKENDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

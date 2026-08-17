@@ -525,8 +525,9 @@ public final class TriggerRoguelikeRuneReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035TriggerRoguelikeRuneReq.proto\"*\n\027Trigg" +
-      "erRoguelikeRuneReq\022\017\n\007rune_id\030\013 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "erRoguelikeRuneReq\022\017\n\007rune_id\030\013 \001(\rB>\n\031e" +
+      "mu.grasscutter.net.protoB!TriggerRogueli" +
+      "keRuneReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

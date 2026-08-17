@@ -866,7 +866,8 @@ public final class ABANIAPGGNEOuterClass {
       "\n\021ABANIAPGGNE.proto\"c\n\013ABANIAPGGNE\022\023\n\013IG" +
       "GBBDOAOEP\030\002 \001(\010\022\023\n\013KEDLFHEGILH\030\n \003(\r\022\023\n\013" +
       "HMEHCDKMKMC\030\014 \001(\010\022\025\n\rdifficulty_id\030\r \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025ABANIAPGG" +
+      "NEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

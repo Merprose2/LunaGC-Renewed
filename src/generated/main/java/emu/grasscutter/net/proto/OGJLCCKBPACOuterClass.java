@@ -801,8 +801,9 @@ public final class OGJLCCKBPACOuterClass {
       "\n\021OGJLCCKBPAC.proto\"|\n\013OGJLCCKBPAC\022\026\n\016ch" +
       "allenge_type\030\006 \001(\r\022\027\n\017challenge_index\030\n " +
       "\001(\r\022\024\n\014challenge_id\030\013 \001(\r\022\022\n\nis_success\030" +
-      "\014 \001(\010\022\022\n\nis_settled\030\017 \001(\010B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\014 \001(\010\022\022\n\nis_settled\030\017 \001(\010B2\n\031emu.grasscu" +
+      "tter.net.protoB\025OGJLCCKBPACOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

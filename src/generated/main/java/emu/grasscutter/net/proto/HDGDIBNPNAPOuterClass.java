@@ -1200,8 +1200,9 @@ public final class HDGDIBNPNAPOuterClass {
       "OILIMBJB\030\365\003 \001(\005\022\024\n\013MPEJPDLNNLI\030\366\003 \001(\r\022\"\n" +
       "\013CPCDOMAMAEO\030\367\003 \001(\0132\014.DGOGKGGOPOP\022\"\n\013KEB" +
       "PGLKANHD\030\370\003 \001(\0132\014.BKCCFBDBHPA\022\"\n\013CPHCOBF" +
-      "NKAC\030\371\003 \001(\0132\014.BKCCFBDBHPAB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "NKAC\030\371\003 \001(\0132\014.BKCCFBDBHPAB2\n\031emu.grasscu" +
+      "tter.net.protoB\025HDGDIBNPNAPOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

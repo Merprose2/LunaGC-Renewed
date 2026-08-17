@@ -669,8 +669,9 @@ public final class GearActivityFinishPlayGearReqOuterClass {
       "\n#GearActivityFinishPlayGearReq.proto\"W\n" +
       "\035GearActivityFinishPlayGearReq\022\020\n\010use_cl" +
       "ue\030\n \001(\010\022\020\n\010level_id\030\016 \001(\r\022\022\n\nis_success" +
-      "\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \001(\010BD\n\031emu.grasscutter.net.protoB\'Gea" +
+      "rActivityFinishPlayGearReqOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

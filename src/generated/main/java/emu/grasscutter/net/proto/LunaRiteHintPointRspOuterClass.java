@@ -1081,8 +1081,9 @@ public final class LunaRiteHintPointRspOuterClass {
       "oto\"\216\001\n\024LunaRiteHintPointRsp\022,\n\013hint_sta" +
       "tus\030\002 \001(\0162\027.LunaRiteHintStatusType\022\017\n\007re" +
       "tcode\030\003 \001(\005\022&\n\nhint_point\030\004 \003(\0132\022.LunaRi" +
-      "teHintPoint\022\017\n\007area_id\030\010 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "teHintPoint\022\017\n\007area_id\030\010 \001(\rB;\n\031emu.gras" +
+      "scutter.net.protoB\036LunaRiteHintPointRspO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

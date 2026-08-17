@@ -737,8 +737,9 @@ public final class OBHMAOCOGHHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OBHMAOCOGHH.proto\"U\n\013OBHMAOCOGHH\022\017\n\007re" +
       "tcode\030\010 \001(\005\022\013\n\003uid\030\013 \001(\r\022\023\n\013AEDHGOEGIHF\030" +
-      "\014 \001(\r\022\023\n\013ELIKEIKGLEO\030\016 \001(\010B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\014 \001(\r\022\023\n\013ELIKEIKGLEO\030\016 \001(\010B2\n\031emu.grassc" +
+      "utter.net.protoB\025OBHMAOCOGHHOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

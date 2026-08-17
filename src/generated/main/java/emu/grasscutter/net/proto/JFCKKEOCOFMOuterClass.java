@@ -596,8 +596,9 @@ public final class JFCKKEOCOFMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JFCKKEOCOFM.proto\"5\n\013JFCKKEOCOFM\022\024\n\014is" +
-      "_all_argee\030\001 \001(\010\022\020\n\010draft_id\030\016 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "_all_argee\030\001 \001(\010\022\020\n\010draft_id\030\016 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025JFCKKEOCOFMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -870,8 +870,8 @@ public final class BlossomScheduleInfoOuterClass {
       "cheduleInfo\022\r\n\005state\030\001 \001(\r\022\r\n\005round\030\006 \001(" +
       "\r\022\020\n\010progress\030\007 \001(\r\022\026\n\016circle_camp_id\030\t " +
       "\001(\r\022\022\n\nrefresh_id\030\n \001(\r\022\027\n\017finish_progre" +
-      "ss\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "ss\030\017 \001(\rB:\n\031emu.grasscutter.net.protoB\035B" +
+      "lossomScheduleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

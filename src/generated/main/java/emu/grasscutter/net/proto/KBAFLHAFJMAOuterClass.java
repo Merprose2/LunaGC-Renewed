@@ -134,8 +134,8 @@ public final class KBAFLHAFJMAOuterClass {
       "\n\021KBAFLHAFJMA.proto*r\n\013KBAFLHAFJMA\022*\n&KB" +
       "AFLHAFJMA_ABILITY_DRAG_FORCE_DIR_ABS\020\000\0227" +
       "\n3KBAFLHAFJMA_ABILITY_DRAG_FORCE_DIR_REL" +
-      "ATE_CHARACTER\020\001B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "ATE_CHARACTER\020\001B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025KBAFLHAFJMAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

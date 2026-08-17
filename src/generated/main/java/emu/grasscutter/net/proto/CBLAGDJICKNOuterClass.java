@@ -1345,8 +1345,9 @@ public final class CBLAGDJICKNOuterClass {
       "FKAJIDJEKEK.proto\"}\n\013CBLAGDJICKN\022\023\n\013HEPD" +
       "BPNOFOP\030\003 \001(\r\022!\n\013JFALGIBLKCH\030\004 \003(\0132\014.COC" +
       "LKEPKNAO\022!\n\013FBOEEANKAIA\030\005 \003(\0132\014.FKAJIDJE" +
-      "KEK\022\023\n\013HBGKGGPLPLN\030\007 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "KEK\022\023\n\013HBGKGGPLPLN\030\007 \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025CBLAGDJICKNOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

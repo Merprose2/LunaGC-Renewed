@@ -722,8 +722,9 @@ public final class COCEBPEGBCKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021COCEBPEGBCK.proto\032\021FGBAADANMJG.proto\"E" +
       "\n\013COCEBPEGBCK\022\023\n\013GMFMDMCNDAM\030\001 \001(\010\022!\n\013ND" +
-      "DNDFPFLBO\030\002 \001(\0132\014.FGBAADANMJGB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "DNDFPFLBO\030\002 \001(\0132\014.FGBAADANMJGB2\n\031emu.gra" +
+      "sscutter.net.protoB\025COCEBPEGBCKOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -667,7 +667,8 @@ public final class UpdateSalvageBundleMarkRspOuterClass {
       "\n UpdateSalvageBundleMarkRsp.proto\"W\n\032Up" +
       "dateSalvageBundleMarkRsp\022\017\n\007retcode\030\005 \001(" +
       "\005\022\020\n\010stage_id\030\010 \001(\r\022\026\n\016challenge_type\030\r " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rBA\n\031emu.grasscutter.net.protoB$Update" +
+      "SalvageBundleMarkRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

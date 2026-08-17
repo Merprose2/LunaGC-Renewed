@@ -38,11 +38,11 @@ public final class IGKOEJGPLALOuterClass {
      * <code>._SelectionInfoValueStructure selection_info_value_structure = 100;</code>
      * @return The selectionInfoValueStructure.
      */
-    emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure getSelectionInfoValueStructure();
+    emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure getSelectionInfoValueStructure();
     /**
      * <code>._SelectionInfoValueStructure selection_info_value_structure = 100;</code>
      */
-    emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructureOrBuilder getSelectionInfoValueStructureOrBuilder();
+    emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructureOrBuilder getSelectionInfoValueStructureOrBuilder();
 
     public emu.grasscutter.net.proto.IGKOEJGPLALOuterClass.IGKOEJGPLAL.DetailCase getDetailCase();
   }
@@ -99,14 +99,14 @@ public final class IGKOEJGPLALOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure.Builder subBuilder = null;
+              emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure.Builder subBuilder = null;
               if (detailCase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 100;
@@ -216,21 +216,21 @@ public final class IGKOEJGPLALOuterClass {
      * @return The selectionInfoValueStructure.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure getSelectionInfoValueStructure() {
+    public emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure getSelectionInfoValueStructure() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure) detail_;
+         return (emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure) detail_;
       }
-      return emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure.getDefaultInstance();
+      return emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure.getDefaultInstance();
     }
     /**
      * <code>._SelectionInfoValueStructure selection_info_value_structure = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructureOrBuilder getSelectionInfoValueStructureOrBuilder() {
+    public emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructureOrBuilder getSelectionInfoValueStructureOrBuilder() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure) detail_;
+         return (emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure) detail_;
       }
-      return emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure.getDefaultInstance();
+      return emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -251,7 +251,7 @@ public final class IGKOEJGPLALOuterClass {
         output.writeEnum(4, iKNFLLGHMGF_);
       }
       if (detailCase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure) detail_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,7 +268,7 @@ public final class IGKOEJGPLALOuterClass {
       }
       if (detailCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure) detail_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -647,7 +647,7 @@ public final class IGKOEJGPLALOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure, emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure.Builder, emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructureOrBuilder> selectionInfoValueStructureBuilder_;
+          emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure, emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure.Builder, emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructureOrBuilder> selectionInfoValueStructureBuilder_;
       /**
        * <code>._SelectionInfoValueStructure selection_info_value_structure = 100;</code>
        * @return Whether the selectionInfoValueStructure field is set.
@@ -661,23 +661,23 @@ public final class IGKOEJGPLALOuterClass {
        * @return The selectionInfoValueStructure.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure getSelectionInfoValueStructure() {
+      public emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure getSelectionInfoValueStructure() {
         if (selectionInfoValueStructureBuilder_ == null) {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure) detail_;
+            return (emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure) detail_;
           }
-          return emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure.getDefaultInstance();
+          return emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure.getDefaultInstance();
         } else {
           if (detailCase_ == 100) {
             return selectionInfoValueStructureBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure.getDefaultInstance();
+          return emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure.getDefaultInstance();
         }
       }
       /**
        * <code>._SelectionInfoValueStructure selection_info_value_structure = 100;</code>
        */
-      public Builder setSelectionInfoValueStructure(emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure value) {
+      public Builder setSelectionInfoValueStructure(emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure value) {
         if (selectionInfoValueStructureBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -694,7 +694,7 @@ public final class IGKOEJGPLALOuterClass {
        * <code>._SelectionInfoValueStructure selection_info_value_structure = 100;</code>
        */
       public Builder setSelectionInfoValueStructure(
-          emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure.Builder builderForValue) {
+          emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure.Builder builderForValue) {
         if (selectionInfoValueStructureBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -707,11 +707,11 @@ public final class IGKOEJGPLALOuterClass {
       /**
        * <code>._SelectionInfoValueStructure selection_info_value_structure = 100;</code>
        */
-      public Builder mergeSelectionInfoValueStructure(emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure value) {
+      public Builder mergeSelectionInfoValueStructure(emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure value) {
         if (selectionInfoValueStructureBuilder_ == null) {
           if (detailCase_ == 100 &&
-              detail_ != emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure.newBuilder((emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure) detail_)
+              detail_ != emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure.newBuilder((emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -748,36 +748,36 @@ public final class IGKOEJGPLALOuterClass {
       /**
        * <code>._SelectionInfoValueStructure selection_info_value_structure = 100;</code>
        */
-      public emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure.Builder getSelectionInfoValueStructureBuilder() {
+      public emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure.Builder getSelectionInfoValueStructureBuilder() {
         return getSelectionInfoValueStructureFieldBuilder().getBuilder();
       }
       /**
        * <code>._SelectionInfoValueStructure selection_info_value_structure = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructureOrBuilder getSelectionInfoValueStructureOrBuilder() {
+      public emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructureOrBuilder getSelectionInfoValueStructureOrBuilder() {
         if ((detailCase_ == 100) && (selectionInfoValueStructureBuilder_ != null)) {
           return selectionInfoValueStructureBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure) detail_;
+            return (emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure) detail_;
           }
-          return emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure.getDefaultInstance();
+          return emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure.getDefaultInstance();
         }
       }
       /**
        * <code>._SelectionInfoValueStructure selection_info_value_structure = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure, emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure.Builder, emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructureOrBuilder> 
+          emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure, emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure.Builder, emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructureOrBuilder> 
           getSelectionInfoValueStructureFieldBuilder() {
         if (selectionInfoValueStructureBuilder_ == null) {
           if (!(detailCase_ == 100)) {
-            detail_ = emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure.getDefaultInstance();
           }
           selectionInfoValueStructureBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure, emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure.Builder, emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructureOrBuilder>(
-                  (emu.grasscutter.net.proto.SelectionInfoValueStructure._SelectionInfoValueStructure) detail_,
+              emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure, emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure.Builder, emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructureOrBuilder>(
+                  (emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass._SelectionInfoValueStructure) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -858,14 +858,14 @@ public final class IGKOEJGPLALOuterClass {
       "GKOEJGPLAL\022!\n\013IKNFLLGHMGF\030\004 \001(\0162\014.IOPJGB" +
       "LIIDH\022G\n\036selection_info_value_structure\030" +
       "d \001(\0132\035._SelectionInfoValueStructureH\000B\010" +
-      "\n\006detailB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "\n\006detailB2\n\031emu.grasscutter.net.protoB\025I" +
+      "GKOEJGPLALOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.IOPJGBLIIDHOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.SelectionInfoValueStructure.getDescriptor(),
+          emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass.getDescriptor(),
         });
     internal_static_IGKOEJGPLAL_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -874,7 +874,7 @@ public final class IGKOEJGPLALOuterClass {
         internal_static_IGKOEJGPLAL_descriptor,
         new java.lang.String[] { "IKNFLLGHMGF", "SelectionInfoValueStructure", "Detail", });
     emu.grasscutter.net.proto.IOPJGBLIIDHOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.SelectionInfoValueStructure.getDescriptor();
+    emu.grasscutter.net.proto._SelectionInfoValueStructureOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

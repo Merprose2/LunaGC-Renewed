@@ -596,8 +596,9 @@ public final class LDONGJJKAGAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LDONGJJKAGA.proto\"0\n\013LDONGJJKAGA\022\023\n\013BF" +
-      "IFPLMKLNA\030\007 \001(\r\022\014\n\004guid\030\n \001(\004B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "IFPLMKLNA\030\007 \001(\r\022\014\n\004guid\030\n \001(\004B2\n\031emu.gra" +
+      "sscutter.net.protoB\025LDONGJJKAGAOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

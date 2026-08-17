@@ -808,8 +808,8 @@ public final class CKJGALGEMBJOuterClass {
       "\n\021CKJGALGEMBJ.proto\"r\n\013CKJGALGEMBJ\022\023\n\013DC" +
       "AMCBGLCHB\030\001 \001(\r\022\017\n\007retcode\030\007 \001(\005\022\023\n\013avat" +
       "ar_guid\030\n \001(\004\022\023\n\013PCLKGCFMBJN\030\016 \001(\r\022\023\n\013HE" +
-      "HAILLBAHI\030\017 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "HAILLBAHI\030\017 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025CKJGALGEMBJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

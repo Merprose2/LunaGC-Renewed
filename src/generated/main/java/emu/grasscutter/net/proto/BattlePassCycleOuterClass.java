@@ -658,8 +658,9 @@ public final class BattlePassCycleOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025BattlePassCycle.proto\"J\n\017BattlePassCyc" +
       "le\022\020\n\010end_time\030\001 \001(\r\022\022\n\nbegin_time\030\003 \001(\r" +
-      "\022\021\n\tcycle_idx\030\r \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\022\021\n\tcycle_idx\030\r \001(\rB6\n\031emu.grasscutter.n" +
+      "et.protoB\031BattlePassCycleOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

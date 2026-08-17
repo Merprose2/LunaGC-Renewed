@@ -446,8 +446,9 @@ public final class OIMNALBCBFKOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021OIMNALBCBFK.proto\"\r\n\013OIMNALBCBFKB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021OIMNALBCBFK.proto\"\r\n\013OIMNALBCBFKB2\n\031em" +
+      "u.grasscutter.net.protoB\025OIMNALBCBFKOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

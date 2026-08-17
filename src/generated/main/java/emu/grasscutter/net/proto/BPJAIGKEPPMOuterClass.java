@@ -1138,8 +1138,8 @@ public final class BPJAIGKEPPMOuterClass {
       "\013BPJAIGKEPPM\022#\n\r_friend_brief\030\001 \001(\0132\014.Fr" +
       "iendBrief\022!\n\013FOADLAHGHJI\030\007 \001(\0132\014.CMFKJLO" +
       "NDGH\022\017\n\007retcode\030\r \001(\005\022!\n\013CDAIJHDHFOA\030\017 \001" +
-      "(\0132\014.COEEKCLPCGKB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "(\0132\014.COEEKCLPCGKB2\n\031emu.grasscutter.net." +
+      "protoB\025BPJAIGKEPPMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

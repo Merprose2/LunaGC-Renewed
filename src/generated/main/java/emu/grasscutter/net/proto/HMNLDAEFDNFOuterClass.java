@@ -1052,8 +1052,8 @@ public final class HMNLDAEFDNFOuterClass {
       "\n\021HMNLDAEFDNF.proto\032\021JBMOJEOHGHA.proto\"X" +
       "\n\013HMNLDAEFDNF\022!\n\013CAKDCKEBHPI\030\005 \003(\0132\014.JBM" +
       "OJEOHGHA\022\025\n\rclient_params\030\007 \001(\t\022\017\n\007item_" +
-      "id\030\r \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\r \001(\rB2\n\031emu.grasscutter.net.protoB\025H" +
+      "MNLDAEFDNFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

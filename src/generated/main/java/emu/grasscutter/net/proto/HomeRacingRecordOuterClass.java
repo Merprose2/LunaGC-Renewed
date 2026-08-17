@@ -824,7 +824,8 @@ public final class HomeRacingRecordOuterClass {
       "\n\026HomeRacingRecord.proto\032\035HomeRacingGall" +
       "eryRecord.proto\"A\n\020HomeRacingRecord\022-\n\013r" +
       "ecord_list\030\010 \003(\0132\030.HomeRacingGalleryReco" +
-      "rdB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "rdB7\n\031emu.grasscutter.net.protoB\032HomeRac" +
+      "ingRecordOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1049,8 +1049,9 @@ public final class BICMCOEEKDPOuterClass {
       "LJLGAALDBHI.proto\"\206\001\n\013BICMCOEEKDP\022\023\n\013LID" +
       "AOEKMODL\030\001 \001(\005\022+\n\023read_transform_comp\030\013 " +
       "\001(\0132\014.DBEGIDJNMLPH\000\022+\n\023edit_transform_co" +
-      "mp\030\014 \001(\0132\014.LJLGAALDBHIH\000B\010\n\006detailB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "mp\030\014 \001(\0132\014.LJLGAALDBHIH\000B\010\n\006detailB2\n\031em" +
+      "u.grasscutter.net.protoB\025BICMCOEEKDPOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

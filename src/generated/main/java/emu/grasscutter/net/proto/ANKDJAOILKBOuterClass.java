@@ -823,8 +823,8 @@ public final class ANKDJAOILKBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ANKDJAOILKB.proto\032\021EOKCCHMJNFM.proto\"4" +
       "\n\013ANKDJAOILKB\022%\n\017stage_info_list\030\005 \003(\0132\014" +
-      ".EOKCCHMJNFMB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      ".EOKCCHMJNFMB2\n\031emu.grasscutter.net.prot" +
+      "oB\025ANKDJAOILKBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

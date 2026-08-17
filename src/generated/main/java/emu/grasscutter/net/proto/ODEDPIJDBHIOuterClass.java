@@ -809,8 +809,8 @@ public final class ODEDPIJDBHIOuterClass {
       "\n\021ODEDPIJDBHI.proto\"t\n\013ODEDPIJDBHI\022\030\n\020di" +
       "fficulty_level\030\001 \001(\r\022\017\n\007is_succ\030\002 \001(\010\022\025\n" +
       "\ris_new_record\030\005 \001(\010\022\020\n\010level_id\030\006 \001(\r\022\021" +
-      "\n\tcost_time\030\013 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\n\tcost_time\030\013 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025ODEDPIJDBHIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

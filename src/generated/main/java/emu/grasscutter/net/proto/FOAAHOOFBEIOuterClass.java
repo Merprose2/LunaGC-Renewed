@@ -729,8 +729,9 @@ public final class FOAAHOOFBEIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FOAAHOOFBEI.proto\032\021BKNLEJAHPKD.proto\"E" +
       "\n\013FOAAHOOFBEI\022!\n\013MIFIHMMDHEP\030\003 \001(\0132\014.BKN" +
-      "LEJAHPKD\022\023\n\013KMDOFBPMGAI\030\t \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "LEJAHPKD\022\023\n\013KMDOFBPMGAI\030\t \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025FOAAHOOFBEIOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -675,8 +675,9 @@ public final class GLMKIONGLJIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GLMKIONGLJI.proto\"/\n\013GLMKIONGLJI\022\017\n\007ve" +
-      "rsion\030\014 \001(\t\022\017\n\007retcode\030\r \001(\005B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "rsion\030\014 \001(\t\022\017\n\007retcode\030\r \001(\005B2\n\031emu.gras" +
+      "scutter.net.protoB\025GLMKIONGLJIOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

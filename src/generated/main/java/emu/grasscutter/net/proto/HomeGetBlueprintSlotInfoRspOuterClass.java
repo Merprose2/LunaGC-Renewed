@@ -1097,8 +1097,9 @@ public final class HomeGetBlueprintSlotInfoRspOuterClass {
       "eBlueprintSlotInfo.proto\"{\n\033HomeGetBluep" +
       "rintSlotInfoRsp\022\017\n\007retcode\030\n \001(\005\022\033\n\023dele" +
       "te_slot_id_list\030\013 \003(\r\022.\n\016slot_info_list\030" +
-      "\014 \003(\0132\026.HomeBlueprintSlotInfoB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\014 \003(\0132\026.HomeBlueprintSlotInfoBB\n\031emu.gra" +
+      "sscutter.net.protoB%HomeGetBlueprintSlot" +
+      "InfoRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

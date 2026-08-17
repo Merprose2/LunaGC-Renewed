@@ -660,8 +660,9 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
       "\n\'LanternRiteFireworksChallengeInfo.prot" +
       "o\"d\n!LanternRiteFireworksChallengeInfo\022\025" +
       "\n\ris_full_score\030\004 \001(\010\022\022\n\nbest_score\030\006 \001(" +
-      "\r\022\024\n\014challenge_id\030\013 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\r\022\024\n\014challenge_id\030\013 \001(\rBH\n\031emu.grasscutt" +
+      "er.net.protoB+LanternRiteFireworksChalle" +
+      "ngeInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -910,8 +910,9 @@ public final class JPMLNONDGHGOuterClass {
       "HKMCPNPIFCP.proto\"}\n\013JPMLNONDGHG\022 \n\nextr" +
       "a_info\030\001 \001(\0132\014.HIKABNACEGJ\022!\n\013HEAPLANLEN" +
       "H\030\004 \001(\0162\014.HKMCPNPIFCP\022\023\n\013CGGIIAHAMGF\030\006 \001" +
-      "(\010\022\024\n\014dungeon_guid\030\010 \001(\004B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "(\010\022\024\n\014dungeon_guid\030\010 \001(\004B2\n\031emu.grasscut" +
+      "ter.net.protoB\025JPMLNONDGHGOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

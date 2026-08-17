@@ -1276,8 +1276,9 @@ public final class DailyDungeonEntryInfoOuterClass {
       "ommend_dungeon_entry_info\030\t \001(\0132\021.Dungeo" +
       "nEntryInfo\022\023\n\013AKNPDDFHEKO\030\n \001(\010\022\030\n\020dunge" +
       "on_entry_id\030\013 \001(\r\022\037\n\027dungeon_entry_confi" +
-      "g_id\030\014 \001(\r\022\023\n\013ODDLACNLJOF\030\017 \003(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "g_id\030\014 \001(\r\022\023\n\013ODDLACNLJOF\030\017 \003(\rB<\n\031emu.g" +
+      "rasscutter.net.protoB\037DailyDungeonEntryI" +
+      "nfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

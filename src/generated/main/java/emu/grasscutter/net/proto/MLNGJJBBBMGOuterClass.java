@@ -1289,8 +1289,9 @@ public final class MLNGJJBBBMGOuterClass {
       "\n\021MLNGJJBBBMG.proto\032\021NMGBENBGIOK.proto\"k" +
       "\n\013MLNGJJBBBMG\022\023\n\013GCOBGJANEFK\030\001 \003(\r\022!\n\013DB" +
       "MPGNDFFPO\030\007 \003(\0132\014.NMGBENBGIOK\022\023\n\013CIEDOPP" +
-      "PAKG\030\n \003(\r\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "PAKG\030\n \003(\r\022\017\n\007retcode\030\013 \001(\005B2\n\031emu.grass" +
+      "cutter.net.protoB\025MLNGJJBBBMGOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

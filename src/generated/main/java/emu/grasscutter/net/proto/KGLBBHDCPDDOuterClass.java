@@ -1066,7 +1066,8 @@ public final class KGLBBHDCPDDOuterClass {
       "BBHDCPDD\022\023\n\013FMECGBOFPEC\030\001 \001(\005\022\032\n\tspawn_p" +
       "os\030\006 \001(\0132\007.Vector\022\023\n\013OADOGGFPLAJ\030\010 \001(\r\022\014" +
       "\n\004guid\030\t \001(\r\022\032\n\tspawn_rot\030\r \001(\0132\007.Vector" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025KGLBBHDCP" +
+      "DDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

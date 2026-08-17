@@ -855,8 +855,9 @@ public final class AllShareCDDataNotifyOuterClass {
       "ll\030\007 \001(\010\022D\n\021share_cd_info_map\030\017 \003(\0132).Al" +
       "lShareCDDataNotify.ShareCdInfoMapEntry\032C" +
       "\n\023ShareCdInfoMapEntry\022\013\n\003key\030\001 \001(\r\022\033\n\005va" +
-      "lue\030\002 \001(\0132\014.ShareCDInfo:\0028\001B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "lue\030\002 \001(\0132\014.ShareCDInfo:\0028\001B;\n\031emu.grass" +
+      "cutter.net.protoB\036AllShareCDDataNotifyOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

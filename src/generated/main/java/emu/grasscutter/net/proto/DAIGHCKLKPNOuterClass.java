@@ -587,8 +587,9 @@ public final class DAIGHCKLKPNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DAIGHCKLKPN.proto\"5\n\013DAIGHCKLKPN\022\023\n\013LD" +
-      "HKKNPGIMH\030\003 \001(\r\022\021\n\tentity_id\030\010 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "HKKNPGIMH\030\003 \001(\r\022\021\n\tentity_id\030\010 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025DAIGHCKLKPNOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

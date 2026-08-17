@@ -1012,7 +1012,8 @@ public final class SceneGalleryWindFieldInfoOuterClass {
       "\001(\r\022\032\n\022killed_monster_num\030\010 \001(\r\022\023\n\013HNAOD" +
       "IIKDIM\030\n \001(\r\022\030\n\020element_ball_num\030\r \001(\r\022\023" +
       "\n\013JDDKNECFJFN\030\016 \001(\r\022\023\n\013BNNDMCDKDHF\030\017 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B@\n\031emu.grasscutter.net.protoB#SceneGall" +
+      "eryWindFieldInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

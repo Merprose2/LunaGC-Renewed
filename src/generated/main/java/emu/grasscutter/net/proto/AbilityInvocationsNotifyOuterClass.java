@@ -832,8 +832,8 @@ public final class AbilityInvocationsNotifyOuterClass {
       "\n\036AbilityInvocationsNotify.proto\032\030Abilit" +
       "yInvokeEntry.proto\"@\n\030AbilityInvocations" +
       "Notify\022$\n\007invokes\030\014 \003(\0132\023.AbilityInvokeE" +
-      "ntryB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "ntryB?\n\031emu.grasscutter.net.protoB\"Abili" +
+      "tyInvocationsNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

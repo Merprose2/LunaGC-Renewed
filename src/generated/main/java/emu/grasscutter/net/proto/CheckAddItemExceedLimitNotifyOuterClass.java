@@ -1230,7 +1230,8 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
       "7\n3ItemExceedLimitMsgType_ITEM_EXCEED_LI" +
       "MIT_MSG_DIALOG\020\002\022@\n<ItemExceedLimitMsgTy" +
       "pe_ITEM_EXCEED_LIMIT_MSG_DIALOG_NONBLOCK" +
-      "\020\003B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\020\003BD\n\031emu.grasscutter.net.protoB\'CheckAd" +
+      "dItemExceedLimitNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

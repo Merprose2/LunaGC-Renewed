@@ -2151,8 +2151,9 @@ public final class GAALHKEALCNOuterClass {
       "(\0132\017.ShowAvatarInfo\022\023\n\013DEADDOKKEHM\030\007 \001(\r" +
       "\022\023\n\013AGFGCHIHNEE\030\t \003(\r\022\021\n\tis_finish\030\n \001(\010" +
       "\022\021\n\tcost_time\030\013 \001(\r\022\023\n\013OGBLPLNCKIF\030\014 \001(\010" +
-      "\022\017\n\007is_open\030\r \001(\010\022\023\n\013AKCPFFADDOP\030\016 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\022\017\n\007is_open\030\r \001(\010\022\023\n\013AKCPFFADDOP\030\016 \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025GAALHKEALCN" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

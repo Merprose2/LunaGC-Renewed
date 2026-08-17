@@ -525,8 +525,9 @@ public final class GCGHeartBeatNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030GCGHeartBeatNotify.proto\"(\n\022GCGHeartBe" +
-      "atNotify\022\022\n\nserver_seq\030\001 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "atNotify\022\022\n\nserver_seq\030\001 \001(\rB9\n\031emu.gras" +
+      "scutter.net.protoB\034GCGHeartBeatNotifyOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

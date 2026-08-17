@@ -785,8 +785,8 @@ public final class KLKHABHNGEKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KLKHABHNGEK.proto\"N\n\013KLKHABHNGEK\022\020\n\010le" +
       "vel_id\030\003 \001(\r\022\031\n\021condition_id_list\030\010 \003(\r\022" +
-      "\022\n\ndifficulty\030\n \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\022\n\ndifficulty\030\n \001(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025KLKHABHNGEKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

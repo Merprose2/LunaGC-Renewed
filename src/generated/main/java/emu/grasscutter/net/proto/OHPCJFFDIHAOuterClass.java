@@ -27,12 +27,12 @@ public final class OHPCJFFDIHAOuterClass {
     /**
      * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo> 
+    java.util.List<emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo> 
         getKAKHNKLHLGDList();
     /**
      * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
      */
-    emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo getKAKHNKLHLGD(int index);
+    emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo getKAKHNKLHLGD(int index);
     /**
      * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
      */
@@ -40,12 +40,12 @@ public final class OHPCJFFDIHAOuterClass {
     /**
      * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfoOrBuilder> 
         getKAKHNKLHLGDOrBuilderList();
     /**
      * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
      */
-    emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfoOrBuilder getKAKHNKLHLGDOrBuilder(
+    emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfoOrBuilder getKAKHNKLHLGDOrBuilder(
         int index);
   }
   /**
@@ -103,11 +103,11 @@ public final class OHPCJFFDIHAOuterClass {
             }
             case 58: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                kAKHNKLHLGD_ = new java.util.ArrayList<emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo>();
+                kAKHNKLHLGD_ = new java.util.ArrayList<emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               kAKHNKLHLGD_.add(
-                  input.readMessage(emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -157,19 +157,19 @@ public final class OHPCJFFDIHAOuterClass {
     }
 
     public static final int KAKHNKLHLGD_FIELD_NUMBER = 7;
-    private java.util.List<emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo> kAKHNKLHLGD_;
+    private java.util.List<emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo> kAKHNKLHLGD_;
     /**
      * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo> getKAKHNKLHLGDList() {
+    public java.util.List<emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo> getKAKHNKLHLGDList() {
       return kAKHNKLHLGD_;
     }
     /**
      * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfoOrBuilder> 
         getKAKHNKLHLGDOrBuilderList() {
       return kAKHNKLHLGD_;
     }
@@ -184,14 +184,14 @@ public final class OHPCJFFDIHAOuterClass {
      * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo getKAKHNKLHLGD(int index) {
+    public emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo getKAKHNKLHLGD(int index) {
       return kAKHNKLHLGD_.get(index);
     }
     /**
      * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfoOrBuilder getKAKHNKLHLGDOrBuilder(
+    public emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfoOrBuilder getKAKHNKLHLGDOrBuilder(
         int index) {
       return kAKHNKLHLGD_.get(index);
     }
@@ -589,22 +589,22 @@ public final class OHPCJFFDIHAOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo> kAKHNKLHLGD_ =
+      private java.util.List<emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo> kAKHNKLHLGD_ =
         java.util.Collections.emptyList();
       private void ensureKAKHNKLHLGDIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          kAKHNKLHLGD_ = new java.util.ArrayList<emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo>(kAKHNKLHLGD_);
+          kAKHNKLHLGD_ = new java.util.ArrayList<emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo>(kAKHNKLHLGD_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo, emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo.Builder, emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfoOrBuilder> kAKHNKLHLGDBuilder_;
+          emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo, emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo.Builder, emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfoOrBuilder> kAKHNKLHLGDBuilder_;
 
       /**
        * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo> getKAKHNKLHLGDList() {
+      public java.util.List<emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo> getKAKHNKLHLGDList() {
         if (kAKHNKLHLGDBuilder_ == null) {
           return java.util.Collections.unmodifiableList(kAKHNKLHLGD_);
         } else {
@@ -624,7 +624,7 @@ public final class OHPCJFFDIHAOuterClass {
       /**
        * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
        */
-      public emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo getKAKHNKLHLGD(int index) {
+      public emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo getKAKHNKLHLGD(int index) {
         if (kAKHNKLHLGDBuilder_ == null) {
           return kAKHNKLHLGD_.get(index);
         } else {
@@ -635,7 +635,7 @@ public final class OHPCJFFDIHAOuterClass {
        * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
        */
       public Builder setKAKHNKLHLGD(
-          int index, emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo value) {
+          int index, emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo value) {
         if (kAKHNKLHLGDBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -652,7 +652,7 @@ public final class OHPCJFFDIHAOuterClass {
        * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
        */
       public Builder setKAKHNKLHLGD(
-          int index, emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo.Builder builderForValue) {
         if (kAKHNKLHLGDBuilder_ == null) {
           ensureKAKHNKLHLGDIsMutable();
           kAKHNKLHLGD_.set(index, builderForValue.build());
@@ -665,7 +665,7 @@ public final class OHPCJFFDIHAOuterClass {
       /**
        * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
        */
-      public Builder addKAKHNKLHLGD(emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo value) {
+      public Builder addKAKHNKLHLGD(emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo value) {
         if (kAKHNKLHLGDBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -682,7 +682,7 @@ public final class OHPCJFFDIHAOuterClass {
        * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
        */
       public Builder addKAKHNKLHLGD(
-          int index, emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo value) {
+          int index, emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo value) {
         if (kAKHNKLHLGDBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -699,7 +699,7 @@ public final class OHPCJFFDIHAOuterClass {
        * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
        */
       public Builder addKAKHNKLHLGD(
-          emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo.Builder builderForValue) {
         if (kAKHNKLHLGDBuilder_ == null) {
           ensureKAKHNKLHLGDIsMutable();
           kAKHNKLHLGD_.add(builderForValue.build());
@@ -713,7 +713,7 @@ public final class OHPCJFFDIHAOuterClass {
        * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
        */
       public Builder addKAKHNKLHLGD(
-          int index, emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo.Builder builderForValue) {
         if (kAKHNKLHLGDBuilder_ == null) {
           ensureKAKHNKLHLGDIsMutable();
           kAKHNKLHLGD_.add(index, builderForValue.build());
@@ -727,7 +727,7 @@ public final class OHPCJFFDIHAOuterClass {
        * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
        */
       public Builder addAllKAKHNKLHLGD(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo> values) {
         if (kAKHNKLHLGDBuilder_ == null) {
           ensureKAKHNKLHLGDIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -767,14 +767,14 @@ public final class OHPCJFFDIHAOuterClass {
       /**
        * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
        */
-      public emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo.Builder getKAKHNKLHLGDBuilder(
+      public emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo.Builder getKAKHNKLHLGDBuilder(
           int index) {
         return getKAKHNKLHLGDFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
        */
-      public emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfoOrBuilder getKAKHNKLHLGDOrBuilder(
+      public emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfoOrBuilder getKAKHNKLHLGDOrBuilder(
           int index) {
         if (kAKHNKLHLGDBuilder_ == null) {
           return kAKHNKLHLGD_.get(index);  } else {
@@ -784,7 +784,7 @@ public final class OHPCJFFDIHAOuterClass {
       /**
        * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfoOrBuilder> 
            getKAKHNKLHLGDOrBuilderList() {
         if (kAKHNKLHLGDBuilder_ != null) {
           return kAKHNKLHLGDBuilder_.getMessageOrBuilderList();
@@ -795,31 +795,31 @@ public final class OHPCJFFDIHAOuterClass {
       /**
        * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
        */
-      public emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo.Builder addKAKHNKLHLGDBuilder() {
+      public emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo.Builder addKAKHNKLHLGDBuilder() {
         return getKAKHNKLHLGDFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
        */
-      public emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo.Builder addKAKHNKLHLGDBuilder(
+      public emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo.Builder addKAKHNKLHLGDBuilder(
           int index) {
         return getKAKHNKLHLGDFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._MusicBriefInfo KAKHNKLHLGD = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo.Builder> 
            getKAKHNKLHLGDBuilderList() {
         return getKAKHNKLHLGDFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo, emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo.Builder, emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfoOrBuilder> 
+          emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo, emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo.Builder, emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfoOrBuilder> 
           getKAKHNKLHLGDFieldBuilder() {
         if (kAKHNKLHLGDBuilder_ == null) {
           kAKHNKLHLGDBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo, emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfo.Builder, emu.grasscutter.net.proto.MusicBriefInfo._MusicBriefInfoOrBuilder>(
+              emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo, emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfo.Builder, emu.grasscutter.net.proto._MusicBriefInfoOuterClass._MusicBriefInfoOrBuilder>(
                   kAKHNKLHLGD_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -897,13 +897,14 @@ public final class OHPCJFFDIHAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OHPCJFFDIHA.proto\032\025_MusicBriefInfo.pro" +
       "to\"I\n\013OHPCJFFDIHA\022\023\n\013FHCCGGGJFGK\030\002 \001(\014\022%" +
-      "\n\013KAKHNKLHLGD\030\007 \003(\0132\020._MusicBriefInfoB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\n\013KAKHNKLHLGD\030\007 \003(\0132\020._MusicBriefInfoB2\n" +
+      "\031emu.grasscutter.net.protoB\025OHPCJFFDIHAO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.MusicBriefInfo.getDescriptor(),
+          emu.grasscutter.net.proto._MusicBriefInfoOuterClass.getDescriptor(),
         });
     internal_static_OHPCJFFDIHA_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -911,7 +912,7 @@ public final class OHPCJFFDIHAOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_OHPCJFFDIHA_descriptor,
         new java.lang.String[] { "FHCCGGGJFGK", "KAKHNKLHLGD", });
-    emu.grasscutter.net.proto.MusicBriefInfo.getDescriptor();
+    emu.grasscutter.net.proto._MusicBriefInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

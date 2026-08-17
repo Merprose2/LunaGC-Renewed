@@ -893,8 +893,9 @@ public final class IBPEEGECEJPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IBPEEGECEJP.proto\032\021JHHDJIGIMCB.proto\"E" +
       "\n\013IBPEEGECEJP\022!\n\013ACGHANFDILA\030\001 \003(\0132\014.JHH" +
-      "DJIGIMCB\022\023\n\013MPIDPCANPNC\030\002 \001(\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "DJIGIMCB\022\023\n\013MPIDPCANPNC\030\002 \001(\005B2\n\031emu.gra" +
+      "sscutter.net.protoB\025IBPEEGECEJPOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

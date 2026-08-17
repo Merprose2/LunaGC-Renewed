@@ -998,8 +998,9 @@ public final class CAACHEGPEJDOuterClass {
       "\n\021CAACHEGPEJD.proto\032\021FPFLLDHMCIB.proto\"o" +
       "\n\013CAACHEGPEJD\022\023\n\013HHPCPNFLOGJ\030\002 \001(\010\022!\n\013KI" +
       "HGJENFAIO\030\003 \001(\0132\014.FPFLLDHMCIB\022\023\n\013NKDNGHJ" +
-      "JJOF\030\r \003(\r\022\023\n\013AAKAOLKKNGC\030\016 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "JJOF\030\r \003(\r\022\023\n\013AAKAOLKKNGC\030\016 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025CAACHEGPEJDOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -909,8 +909,9 @@ public final class CityReputationQuestInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035CityReputationQuestInfo.proto\"T\n\027CityR" +
       "eputationQuestInfo\022\023\n\013AALDBCGOBMO\030\003 \003(\r\022" +
-      "\017\n\007is_open\030\006 \001(\010\022\023\n\013BKLOOECAGJJ\030\r \003(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\017\n\007is_open\030\006 \001(\010\022\023\n\013BKLOOECAGJJ\030\r \003(\rB>\n" +
+      "\031emu.grasscutter.net.protoB!CityReputati" +
+      "onQuestInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -723,7 +723,8 @@ public final class DCDJMOAADGEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DCDJMOAADGE.proto\"<\n\013DCDJMOAADGE\022\023\n\013fl" +
       "ycloak_id\030\n \001(\r\022\030\n\020avatar_guid_list\030\017 \003(" +
-      "\004B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\004B2\n\031emu.grasscutter.net.protoB\025DCDJMOAA" +
+      "DGEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

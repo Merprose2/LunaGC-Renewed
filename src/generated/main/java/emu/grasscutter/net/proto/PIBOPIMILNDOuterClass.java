@@ -1215,8 +1215,9 @@ public final class PIBOPIMILNDOuterClass {
       "te_id\030\001 \001(\005\022\023\n\013NOBDEMCEDAC\030\002 \001(\005\022!\n\013ILNI" +
       "HKDIOHH\030\003 \001(\0162\014.JEOKDCIGCFP\022\023\n\013DKOAOHGJO" +
       "LE\030\004 \001(\010\022\023\n\013DHBMEFLJCMJ\030\005 \001(\010\022\"\n\014route_p" +
-      "oints\030\007 \003(\0132\014.POMNACGFBCMB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "oints\030\007 \003(\0132\014.POMNACGFBCMB2\n\031emu.grasscu" +
+      "tter.net.protoB\025PIBOPIMILNDOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

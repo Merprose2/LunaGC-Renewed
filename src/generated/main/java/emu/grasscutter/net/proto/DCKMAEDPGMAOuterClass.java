@@ -446,8 +446,9 @@ public final class DCKMAEDPGMAOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021DCKMAEDPGMA.proto\"\r\n\013DCKMAEDPGMAB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021DCKMAEDPGMA.proto\"\r\n\013DCKMAEDPGMAB2\n\031em" +
+      "u.grasscutter.net.protoB\025DCKMAEDPGMAOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

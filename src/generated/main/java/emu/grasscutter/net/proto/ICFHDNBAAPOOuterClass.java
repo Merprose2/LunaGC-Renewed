@@ -659,8 +659,8 @@ public final class ICFHDNBAAPOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ICFHDNBAAPO.proto\032\021CILIFOKLBOE.proto\"0" +
       "\n\013ICFHDNBAAPO\022!\n\013NKPMILJNBBB\030\004 \001(\0132\014.CIL" +
-      "IFOKLBOEB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "IFOKLBOEB2\n\031emu.grasscutter.net.protoB\025I" +
+      "CFHDNBAAPOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

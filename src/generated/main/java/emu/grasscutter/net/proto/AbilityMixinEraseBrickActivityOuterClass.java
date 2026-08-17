@@ -645,8 +645,9 @@ public final class AbilityMixinEraseBrickActivityOuterClass {
     java.lang.String[] descriptorData = {
       "\n$AbilityMixinEraseBrickActivity.proto\"." +
       "\n\036AbilityMixinEraseBrickActivity\022\014\n\004data" +
-      "\030\r \003(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\r \003(\rBE\n\031emu.grasscutter.net.protoB(Abi" +
+      "lityMixinEraseBrickActivityOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

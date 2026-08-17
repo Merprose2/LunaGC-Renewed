@@ -1081,8 +1081,9 @@ public final class POMNACGFBCMOuterClass {
       "NDACMOPM\030\001 \001(\005\022!\n\013speed_level\030\002 \001(\0162\014.JE" +
       "OKDCIGCFP\022!\n\013ECFNJBNPGGC\030\003 \001(\0162\014.JEOKDCI" +
       "GCFP\022\023\n\013IAICFLAHHMF\030\004 \001(\002\022\023\n\013ALKHPPBNFEM" +
-      "\030\005 \001(\010\022\034\n\006action\030\006 \001(\0132\014.PMNHPDBLKGJB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\030\005 \001(\010\022\034\n\006action\030\006 \001(\0132\014.PMNHPDBLKGJB2\n\031" +
+      "emu.grasscutter.net.protoB\025POMNACGFBCMOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

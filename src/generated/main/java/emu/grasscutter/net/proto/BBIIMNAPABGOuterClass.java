@@ -1531,8 +1531,9 @@ public final class BBIIMNAPABGOuterClass {
       "(\010\022\023\n\013NOFIBBPJOPA\030\006 \001(\010\022\n\n\002cd\030\n \001(\002\022\023\n\013K" +
       "NLPJCFIMKH\030\013 \001(\002\022\023\n\013ACOMIOADBBJ\030\014 \001(\002\022\023\n" +
       "\013HGLCPEJLKPM\030\r \001(\002\022!\n\013IJELFDJCLEH\030\016 \001(\0162" +
-      "\014.HDMOPPHKIGC\022\023\n\013DHBDKLCFGIE\030\022 \003(\005B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\014.HDMOPPHKIGC\022\023\n\013DHBDKLCFGIE\030\022 \003(\005B2\n\031em" +
+      "u.grasscutter.net.protoB\025BBIIMNAPABGOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

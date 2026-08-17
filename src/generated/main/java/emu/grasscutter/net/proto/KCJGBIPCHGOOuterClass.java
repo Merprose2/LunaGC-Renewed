@@ -651,8 +651,8 @@ public final class KCJGBIPCHGOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KCJGBIPCHGO.proto\032\021AIOAIEIKFFD.proto\"0" +
       "\n\013KCJGBIPCHGO\022!\n\013KJHPACDMOPI\030\001 \001(\0132\014.AIO" +
-      "AIEIKFFDB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "AIEIKFFDB2\n\031emu.grasscutter.net.protoB\025K" +
+      "CJGBIPCHGOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

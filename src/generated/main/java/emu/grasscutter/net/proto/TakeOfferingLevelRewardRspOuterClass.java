@@ -1043,8 +1043,9 @@ public final class TakeOfferingLevelRewardRspOuterClass {
       "Param.proto\"u\n\032TakeOfferingLevelRewardRs" +
       "p\022\023\n\013offering_id\030\003 \001(\r\022\022\n\ntake_level\030\005 \001" +
       "(\r\022\017\n\007retcode\030\010 \001(\005\022\035\n\titem_list\030\016 \003(\0132\n" +
-      ".ItemParamB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      ".ItemParamBA\n\031emu.grasscutter.net.protoB" +
+      "$TakeOfferingLevelRewardRspOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

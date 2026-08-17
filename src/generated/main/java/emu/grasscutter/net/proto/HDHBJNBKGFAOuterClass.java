@@ -2217,8 +2217,9 @@ public final class HDHBJNBKGFAOuterClass {
       "\001(\010\022\023\n\013HOANBAFPOKJ\030\t \003(\t\022!\n\013HNJFHFAACNI\030" +
       "\n \003(\0162\014.JEOKDCIGCFP\022\023\n\013HCABHGNFNKL\030\013 \001(\010" +
       "\022\023\n\013DAGMFAGBONJ\030\014 \001(\r\022\023\n\013PCIDKHJGHAB\030\r \001" +
-      "(\010\022\024\n\013DLPDJJMJBDH\030\365\003 \001(\005B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "(\010\022\024\n\013DLPDJJMJBDH\030\365\003 \001(\005B2\n\031emu.grasscut" +
+      "ter.net.protoB\025HDHBJNBKGFAOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

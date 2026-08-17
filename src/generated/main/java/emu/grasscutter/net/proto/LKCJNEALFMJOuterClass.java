@@ -1202,8 +1202,8 @@ public final class LKCJNEALFMJOuterClass {
       "DJDIBPKBCN\030\002 \001(\r\022\023\n\013HBCKJGIEPNJ\030\005 \003(\r\022\r\n" +
       "\005speed\030\007 \001(\002\022\023\n\013BOPDMDNOCAG\030\t \001(\010\022\023\n\013AEP" +
       "FPEAFCNK\030\n \003(\r\022\023\n\013GMGNKGGBBAM\030\r \001(\r\022\023\n\013O" +
-      "EPNEMEKDMF\030\017 \001(\010B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "EPNEMEKDMF\030\017 \001(\010B2\n\031emu.grasscutter.net." +
+      "protoB\025LKCJNEALFMJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

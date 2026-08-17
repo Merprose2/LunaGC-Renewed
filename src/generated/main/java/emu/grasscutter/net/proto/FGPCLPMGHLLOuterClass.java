@@ -1192,8 +1192,8 @@ public final class FGPCLPMGHLLOuterClass {
       "\n\013FGPCLPMGHLL\022\021\n\ttimestamp\030\003 \001(\004\022!\n\013MKDJ" +
       "CLHFDLI\030\004 \001(\0132\014.BDOKHMKLJOM\022\023\n\013JFDOLKOLK" +
       "AI\030\005 \003(\r\022\023\n\013GAHEBJEGJNC\030\010 \003(\r\022\016\n\006result\030" +
-      "\n \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\n \001(\rB2\n\031emu.grasscutter.net.protoB\025FGPC" +
+      "LPMGHLLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

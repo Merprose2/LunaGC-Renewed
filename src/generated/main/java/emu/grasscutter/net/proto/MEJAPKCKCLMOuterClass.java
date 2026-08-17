@@ -626,8 +626,8 @@ public final class MEJAPKCKCLMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MEJAPKCKCLM.proto\032\021MMDLCOBLIMN.proto\"7" +
       "\n\013MEJAPKCKCLM\022\013\n\003uid\030\001 \001(\004\022\033\n\005level\030\002 \001(" +
-      "\0162\014.MMDLCOBLIMNB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\0162\014.MMDLCOBLIMNB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025MEJAPKCKCLMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

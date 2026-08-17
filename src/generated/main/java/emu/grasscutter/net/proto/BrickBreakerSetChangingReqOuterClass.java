@@ -527,8 +527,8 @@ public final class BrickBreakerSetChangingReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n BrickBreakerSetChangingReq.proto\"1\n\032Br" +
       "ickBreakerSetChangingReq\022\023\n\013is_changing\030" +
-      "\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\017 \001(\010BA\n\031emu.grasscutter.net.protoB$Bric" +
+      "kBreakerSetChangingReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

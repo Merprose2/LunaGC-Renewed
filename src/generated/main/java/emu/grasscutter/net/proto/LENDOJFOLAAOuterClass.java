@@ -740,8 +740,8 @@ public final class LENDOJFOLAAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LENDOJFOLAA.proto\"G\n\013LENDOJFOLAA\022\025\n\rcu" +
       "rrent_value\030\002 \001(\020\022\023\n\013NEAOENNDGHJ\030\005 \001(\020\022\014" +
-      "\n\004name\030\n \001(\tB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\n\004name\030\n \001(\tB2\n\031emu.grasscutter.net.prot" +
+      "oB\025LENDOJFOLAAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

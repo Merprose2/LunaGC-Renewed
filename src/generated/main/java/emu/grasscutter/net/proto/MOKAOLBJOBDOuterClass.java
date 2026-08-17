@@ -644,8 +644,8 @@ public final class MOKAOLBJOBDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MOKAOLBJOBD.proto\"\"\n\013MOKAOLBJOBD\022\023\n\013CE" +
-      "MOFDANKKK\030\017 \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "MOFDANKKK\030\017 \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025MOKAOLBJOBDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

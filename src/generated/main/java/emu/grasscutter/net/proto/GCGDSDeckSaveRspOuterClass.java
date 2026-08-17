@@ -737,8 +737,9 @@ public final class GCGDSDeckSaveRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026GCGDSDeckSaveRsp.proto\"[\n\020GCGDSDeckSav" +
       "eRsp\022\017\n\007retcode\030\001 \001(\005\022\020\n\010is_valid\030\010 \001(\010\022" +
-      "\023\n\013create_time\030\t \001(\007\022\017\n\007deck_id\030\013 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\023\n\013create_time\030\t \001(\007\022\017\n\007deck_id\030\013 \001(\rB7\n" +
+      "\031emu.grasscutter.net.protoB\032GCGDSDeckSav" +
+      "eRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

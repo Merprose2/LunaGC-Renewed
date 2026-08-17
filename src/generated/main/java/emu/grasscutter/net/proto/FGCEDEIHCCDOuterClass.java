@@ -525,8 +525,8 @@ public final class FGCEDEIHCCDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FGCEDEIHCCD.proto\"\035\n\013FGCEDEIHCCD\022\016\n\006po" +
-      "s_id\030\013 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "s_id\030\013 \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025FGCEDEIHCCDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

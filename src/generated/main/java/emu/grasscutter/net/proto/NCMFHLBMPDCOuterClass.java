@@ -525,8 +525,8 @@ public final class NCMFHLBMPDCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NCMFHLBMPDC.proto\"!\n\013NCMFHLBMPDC\022\022\n\nga" +
-      "llery_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "llery_id\030\017 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025NCMFHLBMPDCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

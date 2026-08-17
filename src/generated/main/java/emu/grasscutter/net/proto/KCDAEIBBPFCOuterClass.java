@@ -21,12 +21,12 @@ public final class KCDAEIBBPFCOuterClass {
     /**
      * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo> 
+    java.util.List<emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo> 
         getWatcherInfoListList();
     /**
      * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
      */
-    emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo getWatcherInfoList(int index);
+    emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo getWatcherInfoList(int index);
     /**
      * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
      */
@@ -34,12 +34,12 @@ public final class KCDAEIBBPFCOuterClass {
     /**
      * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfoOrBuilder> 
         getWatcherInfoListOrBuilderList();
     /**
      * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
      */
-    emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfoOrBuilder getWatcherInfoListOrBuilder(
+    emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfoOrBuilder getWatcherInfoListOrBuilder(
         int index);
   }
   /**
@@ -95,11 +95,11 @@ public final class KCDAEIBBPFCOuterClass {
               break;
             case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                watcherInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo>();
+                watcherInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               watcherInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -138,19 +138,19 @@ public final class KCDAEIBBPFCOuterClass {
     }
 
     public static final int WATCHER_INFO_LIST_FIELD_NUMBER = 15;
-    private java.util.List<emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo> watcherInfoList_;
+    private java.util.List<emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo> watcherInfoList_;
     /**
      * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo> getWatcherInfoListList() {
+    public java.util.List<emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo> getWatcherInfoListList() {
       return watcherInfoList_;
     }
     /**
      * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfoOrBuilder> 
         getWatcherInfoListOrBuilderList() {
       return watcherInfoList_;
     }
@@ -165,14 +165,14 @@ public final class KCDAEIBBPFCOuterClass {
      * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo getWatcherInfoList(int index) {
+    public emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo getWatcherInfoList(int index) {
       return watcherInfoList_.get(index);
     }
     /**
      * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfoOrBuilder getWatcherInfoListOrBuilder(
+    public emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfoOrBuilder getWatcherInfoListOrBuilder(
         int index) {
       return watcherInfoList_.get(index);
     }
@@ -523,22 +523,22 @@ public final class KCDAEIBBPFCOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo> watcherInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo> watcherInfoList_ =
         java.util.Collections.emptyList();
       private void ensureWatcherInfoListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          watcherInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo>(watcherInfoList_);
+          watcherInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo>(watcherInfoList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo, emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo.Builder, emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfoOrBuilder> watcherInfoListBuilder_;
+          emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo, emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo.Builder, emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfoOrBuilder> watcherInfoListBuilder_;
 
       /**
        * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo> getWatcherInfoListList() {
+      public java.util.List<emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo> getWatcherInfoListList() {
         if (watcherInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(watcherInfoList_);
         } else {
@@ -558,7 +558,7 @@ public final class KCDAEIBBPFCOuterClass {
       /**
        * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
        */
-      public emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo getWatcherInfoList(int index) {
+      public emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo getWatcherInfoList(int index) {
         if (watcherInfoListBuilder_ == null) {
           return watcherInfoList_.get(index);
         } else {
@@ -569,7 +569,7 @@ public final class KCDAEIBBPFCOuterClass {
        * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
        */
       public Builder setWatcherInfoList(
-          int index, emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo value) {
+          int index, emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo value) {
         if (watcherInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -586,7 +586,7 @@ public final class KCDAEIBBPFCOuterClass {
        * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
        */
       public Builder setWatcherInfoList(
-          int index, emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo.Builder builderForValue) {
         if (watcherInfoListBuilder_ == null) {
           ensureWatcherInfoListIsMutable();
           watcherInfoList_.set(index, builderForValue.build());
@@ -599,7 +599,7 @@ public final class KCDAEIBBPFCOuterClass {
       /**
        * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
        */
-      public Builder addWatcherInfoList(emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo value) {
+      public Builder addWatcherInfoList(emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo value) {
         if (watcherInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -616,7 +616,7 @@ public final class KCDAEIBBPFCOuterClass {
        * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
        */
       public Builder addWatcherInfoList(
-          int index, emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo value) {
+          int index, emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo value) {
         if (watcherInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -633,7 +633,7 @@ public final class KCDAEIBBPFCOuterClass {
        * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
        */
       public Builder addWatcherInfoList(
-          emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo.Builder builderForValue) {
         if (watcherInfoListBuilder_ == null) {
           ensureWatcherInfoListIsMutable();
           watcherInfoList_.add(builderForValue.build());
@@ -647,7 +647,7 @@ public final class KCDAEIBBPFCOuterClass {
        * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
        */
       public Builder addWatcherInfoList(
-          int index, emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo.Builder builderForValue) {
         if (watcherInfoListBuilder_ == null) {
           ensureWatcherInfoListIsMutable();
           watcherInfoList_.add(index, builderForValue.build());
@@ -661,7 +661,7 @@ public final class KCDAEIBBPFCOuterClass {
        * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
        */
       public Builder addAllWatcherInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo> values) {
         if (watcherInfoListBuilder_ == null) {
           ensureWatcherInfoListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -701,14 +701,14 @@ public final class KCDAEIBBPFCOuterClass {
       /**
        * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
        */
-      public emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo.Builder getWatcherInfoListBuilder(
+      public emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo.Builder getWatcherInfoListBuilder(
           int index) {
         return getWatcherInfoListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
        */
-      public emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfoOrBuilder getWatcherInfoListOrBuilder(
+      public emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfoOrBuilder getWatcherInfoListOrBuilder(
           int index) {
         if (watcherInfoListBuilder_ == null) {
           return watcherInfoList_.get(index);  } else {
@@ -718,7 +718,7 @@ public final class KCDAEIBBPFCOuterClass {
       /**
        * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfoOrBuilder> 
            getWatcherInfoListOrBuilderList() {
         if (watcherInfoListBuilder_ != null) {
           return watcherInfoListBuilder_.getMessageOrBuilderList();
@@ -729,31 +729,31 @@ public final class KCDAEIBBPFCOuterClass {
       /**
        * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
        */
-      public emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo.Builder addWatcherInfoListBuilder() {
+      public emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo.Builder addWatcherInfoListBuilder() {
         return getWatcherInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
        */
-      public emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo.Builder addWatcherInfoListBuilder(
+      public emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo.Builder addWatcherInfoListBuilder(
           int index) {
         return getWatcherInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._WorldWatcherInfo watcher_info_list = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo.Builder> 
            getWatcherInfoListBuilderList() {
         return getWatcherInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo, emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo.Builder, emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfoOrBuilder> 
+          emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo, emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo.Builder, emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfoOrBuilder> 
           getWatcherInfoListFieldBuilder() {
         if (watcherInfoListBuilder_ == null) {
           watcherInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo, emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfo.Builder, emu.grasscutter.net.proto.WorldWatcherInfo._WorldWatcherInfoOrBuilder>(
+              emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo, emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfo.Builder, emu.grasscutter.net.proto._WorldWatcherInfoOuterClass._WorldWatcherInfoOrBuilder>(
                   watcherInfoList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -831,13 +831,14 @@ public final class KCDAEIBBPFCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KCDAEIBBPFC.proto\032\027_WorldWatcherInfo.p" +
       "roto\"<\n\013KCDAEIBBPFC\022-\n\021watcher_info_list" +
-      "\030\017 \003(\0132\022._WorldWatcherInfoB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\030\017 \003(\0132\022._WorldWatcherInfoB2\n\031emu.grassc" +
+      "utter.net.protoB\025KCDAEIBBPFCOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.WorldWatcherInfo.getDescriptor(),
+          emu.grasscutter.net.proto._WorldWatcherInfoOuterClass.getDescriptor(),
         });
     internal_static_KCDAEIBBPFC_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -845,7 +846,7 @@ public final class KCDAEIBBPFCOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_KCDAEIBBPFC_descriptor,
         new java.lang.String[] { "WatcherInfoList", });
-    emu.grasscutter.net.proto.WorldWatcherInfo.getDescriptor();
+    emu.grasscutter.net.proto._WorldWatcherInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

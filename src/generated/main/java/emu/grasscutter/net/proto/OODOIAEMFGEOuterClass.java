@@ -1240,8 +1240,8 @@ public final class OODOIAEMFGEOuterClass {
       "PMMKPHIE\030\001 \001(\0132\014.EBADNHGKAAP\022\023\n\013AAFAPFLA" +
       "GAB\030\002 \001(\r\022\023\n\013GMGOJKHLKFJ\030\003 \001(\010\022!\n\013MGKPPG" +
       "ONILC\030\004 \003(\0132\014.DEELAHFABNH\022\023\n\013DDIHCMCGLAP" +
-      "\030\005 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\005 \001(\rB2\n\031emu.grasscutter.net.protoB\025OOD" +
+      "OIAEMFGEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

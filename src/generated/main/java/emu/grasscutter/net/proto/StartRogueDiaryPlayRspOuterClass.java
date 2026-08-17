@@ -1470,8 +1470,8 @@ public final class StartRogueDiaryPlayRspOuterClass {
       "p\022&\n\013avatar_list\030\002 \003(\0132\021.RogueDiaryAvata" +
       "r\022\017\n\007retcode\030\010 \001(\005\022\026\n\016rand_card_list\030\r \003" +
       "(\r\022,\n\021trial_avatar_list\030\017 \003(\0132\021.RogueDia" +
-      "ryAvatarB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "ryAvatarB=\n\031emu.grasscutter.net.protoB S" +
+      "tartRogueDiaryPlayRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

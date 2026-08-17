@@ -935,8 +935,8 @@ public final class StartEffigyChallengeRspOuterClass {
       "tEffigyChallengeRsp\022\017\n\007retcode\030\001 \001(\005\022\025\n\r" +
       "difficulty_id\030\002 \001(\r\022\031\n\021condition_id_list" +
       "\030\003 \003(\r\022\024\n\014challenge_id\030\014 \001(\r\022\020\n\010point_id" +
-      "\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \001(\rB>\n\031emu.grasscutter.net.protoB!Sta" +
+      "rtEffigyChallengeRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

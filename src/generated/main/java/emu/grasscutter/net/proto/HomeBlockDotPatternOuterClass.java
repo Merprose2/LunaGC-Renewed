@@ -662,8 +662,9 @@ public final class HomeBlockDotPatternOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031HomeBlockDotPattern.proto\"B\n\023HomeBlock" +
       "DotPattern\022\016\n\006height\030\001 \001(\r\022\014\n\004data\030\013 \001(\014" +
-      "\022\r\n\005width\030\r \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\022\r\n\005width\030\r \001(\rB:\n\031emu.grasscutter.net.p" +
+      "rotoB\035HomeBlockDotPatternOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

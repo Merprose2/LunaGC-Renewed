@@ -793,8 +793,8 @@ public final class LIPPDGHBHHJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LIPPDGHBHHJ.proto\"L\n\013LIPPDGHBHHJ\022\027\n\017pa" +
       "rent_quest_id\030\n \001(\r\022\017\n\007retcode\030\013 \001(\005\022\023\n\013" +
-      "ICEMCFHHDMJ\030\017 \003(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "ICEMCFHHDMJ\030\017 \003(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025LIPPDGHBHHJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

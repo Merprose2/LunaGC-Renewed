@@ -1003,8 +1003,9 @@ public final class GCGMsgSkillLimitsChangeOuterClass {
       "\001\n\027GCGMsgSkillLimitsChange\022\025\n\rcontroller" +
       "_id\030\007 \001(\r\0229\n\030_card_limits_change_list\030\t " +
       "\003(\0132\027.GCGCardSkillLimitsInfo\022\032\n\006reason\030\r" +
-      " \001(\0162\n.GCGReasonB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      " \001(\0162\n.GCGReasonB>\n\031emu.grasscutter.net." +
+      "protoB!GCGMsgSkillLimitsChangeOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

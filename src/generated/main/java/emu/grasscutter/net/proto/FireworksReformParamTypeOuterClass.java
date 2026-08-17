@@ -177,8 +177,9 @@ public final class FireworksReformParamTypeOuterClass {
       "ORM_PARAM_SIZE\020\003\022;\n7FireworksReformParam" +
       "Type_FIREWORKS_REFORM_PARAM_DENSITY\020\004\022<\n" +
       "8FireworksReformParamType_FIREWORKS_REFO" +
-      "RM_PARAM_ROTATION\020\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "RM_PARAM_ROTATION\020\005B?\n\031emu.grasscutter.n" +
+      "et.protoB\"FireworksReformParamTypeOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

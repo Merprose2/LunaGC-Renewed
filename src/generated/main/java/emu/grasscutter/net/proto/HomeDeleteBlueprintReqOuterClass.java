@@ -525,8 +525,9 @@ public final class HomeDeleteBlueprintReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034HomeDeleteBlueprintReq.proto\")\n\026HomeDe" +
-      "leteBlueprintReq\022\017\n\007slot_id\030\017 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "leteBlueprintReq\022\017\n\007slot_id\030\017 \001(\rB=\n\031emu" +
+      ".grasscutter.net.protoB HomeDeleteBluepr" +
+      "intReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

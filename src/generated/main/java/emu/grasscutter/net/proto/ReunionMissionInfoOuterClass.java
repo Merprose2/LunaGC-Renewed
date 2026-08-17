@@ -1743,8 +1743,9 @@ public final class ReunionMissionInfoOuterClass {
       "nionWatcherInfo\022\031\n\021next_refresh_time\030\010 \001" +
       "(\r\022\027\n\017is_taken_reward\030\t \001(\010\022)\n\014watcher_l" +
       "ist\030\n \003(\0132\023.ReunionWatcherInfo\022\023\n\013is_fin" +
-      "ished\030\013 \001(\010\022\022\n\nmission_id\030\014 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "ished\030\013 \001(\010\022\022\n\nmission_id\030\014 \001(\rB9\n\031emu.g" +
+      "rasscutter.net.protoB\034ReunionMissionInfo" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

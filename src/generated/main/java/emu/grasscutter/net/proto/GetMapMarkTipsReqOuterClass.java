@@ -455,8 +455,8 @@ public final class GetMapMarkTipsReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027GetMapMarkTipsReq.proto\"\023\n\021GetMapMarkT" +
-      "ipsReqB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "ipsReqB8\n\031emu.grasscutter.net.protoB\033Get" +
+      "MapMarkTipsReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

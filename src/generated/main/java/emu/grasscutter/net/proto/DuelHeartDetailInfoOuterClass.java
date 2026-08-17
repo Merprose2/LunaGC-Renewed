@@ -824,7 +824,8 @@ public final class DuelHeartDetailInfoOuterClass {
       "\n\031DuelHeartDetailInfo.proto\032\030DuelHeartLe" +
       "velInfo.proto\"C\n\023DuelHeartDetailInfo\022,\n\017" +
       "level_info_list\030\r \003(\0132\023.DuelHeartLevelIn" +
-      "foB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "foB:\n\031emu.grasscutter.net.protoB\035DuelHea" +
+      "rtDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

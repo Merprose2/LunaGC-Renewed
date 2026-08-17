@@ -808,8 +808,9 @@ public final class LGINIPFHPDPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LGINIPFHPDP.proto\"_\n\013LGINIPFHPDP\022\021\n\tco" +
       "nfig_id\030\002 \001(\r\022\023\n\013BEAILDLLAHC\030\004 \001(\r\022\023\n\013NJ" +
-      "ONMBIPMBM\030\t \001(\t\022\023\n\013PFLJIDCBNEA\030\r \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "ONMBIPMBM\030\t \001(\t\022\023\n\013PFLJIDCBNEA\030\r \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025LGINIPFHPDPOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

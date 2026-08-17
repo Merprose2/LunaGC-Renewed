@@ -722,8 +722,9 @@ public final class HIKLGNLCJJNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HIKLGNLCJJN.proto\"4\n\013HIKLGNLCJJN\022\023\n\013BN" +
-      "CAPMGOJCC\030\006 \003(\r\022\020\n\010level_id\030\007 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "CAPMGOJCC\030\006 \003(\r\022\020\n\010level_id\030\007 \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025HIKLGNLCJJNOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

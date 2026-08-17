@@ -1849,8 +1849,9 @@ public final class IFMIEJICEMAOuterClass {
       ".MotionState\022\022\n\nscene_time\030\005 \001(\r\022\016\n\006ref_" +
       "id\030\006 \001(\r\022\023\n\013CLALDLOODKP\030\007 \001(\r\022\016\n\006params\030" +
       "\010 \003(\005\022 \n\013GJKJDIEKAOM\030\t \001(\0132\013.Vector3Int\022" +
-      " \n\013KIDEJAAFALA\030\n \001(\0132\013.Vector3IntB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      " \n\013KIDEJAAFALA\030\n \001(\0132\013.Vector3IntB2\n\031emu" +
+      ".grasscutter.net.protoB\025IFMIEJICEMAOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

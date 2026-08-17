@@ -174,8 +174,9 @@ public final class AvatarChangeCostumeReasonOuterClass {
       "ason_SWITCH\020\002\022$\n AvatarChangeCostumeReas" +
       "on_DELETE\020\003\022+\n\'AvatarChangeCostumeReason" +
       "_TRIAL_TIMEOUT\020\004\022(\n$AvatarChangeCostumeR" +
-      "eason_CLIENT_REQ\020\005B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "eason_CLIENT_REQ\020\005B@\n\031emu.grasscutter.ne" +
+      "t.protoB#AvatarChangeCostumeReasonOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

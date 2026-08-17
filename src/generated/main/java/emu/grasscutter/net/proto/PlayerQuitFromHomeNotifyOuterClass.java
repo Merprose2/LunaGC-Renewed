@@ -722,8 +722,9 @@ public final class PlayerQuitFromHomeNotifyOuterClass {
       "CK_TO_MY_WORLD\020\002\022\033\n\027QuitReason_HOME_BLOC" +
       "KED\020\003\022 \n\034QuitReason_HOME_IN_EDIT_MODE\020\004\022" +
       "\026\n\022QuitReason_BY_MUIP\020\005\022 \n\034QuitReason_CU" +
-      "R_MODULE_CLOSED\020\006B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "R_MODULE_CLOSED\020\006B?\n\031emu.grasscutter.net" +
+      ".protoB\"PlayerQuitFromHomeNotifyOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

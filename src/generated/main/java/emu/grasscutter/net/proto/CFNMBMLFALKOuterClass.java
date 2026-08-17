@@ -658,8 +658,8 @@ public final class CFNMBMLFALKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CFNMBMLFALK.proto\"N\n\013CFNMBMLFALK\022\025\n\rcu" +
       "r_day_count\030\004 \001(\r\022\023\n\013IGKHIHOLHLJ\030\013 \001(\r\022\023" +
-      "\n\013total_count\030\014 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013total_count\030\014 \001(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025CFNMBMLFALKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -854,8 +854,8 @@ public final class JKBAHPFEDCFOuterClass {
       "vatar_guid\030\n \001(\004\0226\n\016fight_prop_map\030\r \003(\013" +
       "2\036.JKBAHPFEDCF.FightPropMapEntry\0323\n\021Figh" +
       "tPropMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(" +
-      "\002:\0028\001B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\002:\0028\001B2\n\031emu.grasscutter.net.protoB\025JKBA" +
+      "HPFEDCFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

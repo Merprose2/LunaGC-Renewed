@@ -1384,8 +1384,8 @@ public final class MBIGNILDLKPOuterClass {
       "\013MBIGNILDLKP\022\023\n\013LNBOBNINCCA\030\001 \001(\010\022!\n\013HAG" +
       "OEJCGELJ\030\002 \003(\0132\014.ABGHPADFCDP\022!\n\013FHPAHFFL" +
       "OPH\030\003 \003(\0132\014.JNJJPNOCBKH\022\035\n\007op_type\030\004 \001(\016" +
-      "2\014.LLMBEOCEKJOB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "2\014.LLMBEOCEKJOB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025MBIGNILDLKPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

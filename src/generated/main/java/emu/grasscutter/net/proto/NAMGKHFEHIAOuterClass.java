@@ -1140,8 +1140,8 @@ public final class NAMGKHFEHIAOuterClass {
       "\025\n\014target_count\030\367\003 \001(\r\022\024\n\013JOFDFLCFCNJ\030\370\003" +
       " \001(\005\022\024\n\013NIEHOJOMPHD\030\371\003 \001(\005\022\021\n\010tag_list\030\372" +
       "\003 \003(\r\022\024\n\013LILACDAABJH\030\373\003 \001(\010\022\024\n\013PPJIFKBIK" +
-      "IL\030\374\003 \001(\010B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "IL\030\374\003 \001(\010B2\n\031emu.grasscutter.net.protoB\025" +
+      "NAMGKHFEHIAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

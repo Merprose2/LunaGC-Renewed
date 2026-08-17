@@ -596,7 +596,8 @@ public final class ADKKDHJEGDEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ADKKDHJEGDE.proto\"=\n\013ADKKDHJEGDE\022\023\n\013GF" +
       "LGLONCOMH\030\002 \001(\r\022\031\n\021monster_config_id\030\r \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB2\n\031emu.grasscutter.net.protoB\025ADKKDHJ" +
+      "EGDEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

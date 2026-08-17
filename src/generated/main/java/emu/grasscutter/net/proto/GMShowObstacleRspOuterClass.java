@@ -902,7 +902,8 @@ public final class GMShowObstacleRspOuterClass {
       "\n\027GMShowObstacleRsp.proto\032\024GMObstacleInf" +
       "o.proto\"H\n\021GMShowObstacleRsp\022\"\n\tobstacle" +
       "s\030\003 \003(\0132\017.GMObstacleInfo\022\017\n\007retcode\030\004 \001(" +
-      "\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\005B8\n\031emu.grasscutter.net.protoB\033GMShowOb" +
+      "stacleRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

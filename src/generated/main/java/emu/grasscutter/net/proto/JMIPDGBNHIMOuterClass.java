@@ -15234,8 +15234,8 @@ public final class JMIPDGBNHIMOuterClass {
       "ton\030H \001(\0132\014.LDMNGKLEBAEH\000\022\024\n\013KNBJAIBAGKE" +
       "\030\365\003 \001(\005\022\024\n\013JODJFBPDBFE\030\366\003 \001(\005\022\024\n\013AIEAGPD" +
       "FPIC\030\367\003 \001(\010\022\"\n\013MMJHFEMLGEJ\030\370\003 \001(\0132\014.DHDJ" +
-      "HCKKMAKB\010\n\006detailB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "HCKKMAKB\010\n\006detailB2\n\031emu.grasscutter.net" +
+      ".protoB\025JMIPDGBNHIMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

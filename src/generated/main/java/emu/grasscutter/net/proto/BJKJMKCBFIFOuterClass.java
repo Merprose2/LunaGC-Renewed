@@ -879,8 +879,9 @@ public final class BJKJMKCBFIFOuterClass {
       "\n\021BJKJMKCBFIF.proto\"|\n\013BJKJMKCBFIF\022\023\n\013BF" +
       "IFPLMKLNA\030\002 \001(\r\022\016\n\006reason\030\003 \001(\r\022\023\n\013CDKOK" +
       "HLPOLF\030\005 \001(\010\022\014\n\004guid\030\010 \001(\004\022\020\n\010use_time\030\014" +
-      " \001(\r\022\023\n\013PEPBLJMKPAE\030\r \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      " \001(\r\022\023\n\013PEPBLJMKPAE\030\r \001(\rB2\n\031emu.grasscu" +
+      "tter.net.protoB\025BJKJMKCBFIFOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

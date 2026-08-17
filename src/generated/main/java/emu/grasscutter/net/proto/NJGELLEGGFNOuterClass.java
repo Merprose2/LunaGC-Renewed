@@ -1725,8 +1725,8 @@ public final class NJGELLEGGFNOuterClass {
       "ODEH\030\001 \001(\r\022\017\n\007card_id\030\002 \001(\r\022\035\n\ntoken_lis" +
       "t\030\003 \003(\0132\t.GCGToken\022\023\n\013ODKPPIKMAGA\030\004 \003(\r\022" +
       "\023\n\013CIJKPPEDFPJ\030\005 \003(\r\022 \n\013HAOMCGDDPML\030\006 \003(" +
-      "\0132\013.Uint32PairB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "\0132\013.Uint32PairB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025NJGELLEGGFNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

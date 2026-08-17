@@ -729,8 +729,9 @@ public final class ONNJBJBMBFEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ONNJBJBMBFE.proto\032\021JEDABPPFPPK.proto\"E" +
       "\n\013ONNJBJBMBFE\022\023\n\013KMDOFBPMGAI\030\002 \001(\r\022!\n\013NB" +
-      "EAAGGCFHC\030\016 \001(\0132\014.JEDABPPFPPKB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "EAAGGCFHC\030\016 \001(\0132\014.JEDABPPFPPKB2\n\031emu.gra" +
+      "sscutter.net.protoB\025ONNJBJBMBFEOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

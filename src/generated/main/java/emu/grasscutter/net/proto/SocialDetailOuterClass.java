@@ -5441,8 +5441,8 @@ public final class SocialDetailOuterClass {
       "\013OMGDPJCAAAI\030, \001(\r\"s\n\022_DetailVersionType" +
       "\022#\n\037_DetailVersionType_VERSION_NONE\020\000\022\033\n" +
       "\027_DetailVersionType_V_50\020\001\022\033\n\027_DetailVer" +
-      "sionType_V_57\020\002B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "sionType_V_57\020\002B3\n\031emu.grasscutter.net.p" +
+      "rotoB\026SocialDetailOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

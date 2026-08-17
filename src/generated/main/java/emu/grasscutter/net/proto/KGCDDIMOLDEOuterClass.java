@@ -897,8 +897,9 @@ public final class KGCDDIMOLDEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KGCDDIMOLDE.proto\032\021HKFHDIMDCNG.proto\"E" +
       "\n\013KGCDDIMOLDE\022\023\n\013GPHOCNJKFLN\030\001 \001(\014\022!\n\013JN" +
-      "GILOMHPKL\030\002 \003(\0132\014.HKFHDIMDCNGB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "GILOMHPKL\030\002 \003(\0132\014.HKFHDIMDCNGB2\n\031emu.gra" +
+      "sscutter.net.protoB\025KGCDDIMOLDEOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

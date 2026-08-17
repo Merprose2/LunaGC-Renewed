@@ -1169,8 +1169,9 @@ public final class JIPKLMNKDIKOuterClass {
       "PGDMAIHKGFO.proto\"}\n\013JIPKLMNKDIK\022!\n\013CDEP" +
       "MMKPHIE\030\001 \001(\0132\014.PGDMAIHKGFO\022\023\n\013AAFAPFLAG" +
       "AB\030\002 \001(\r\022\023\n\013DCDLPGKHLAE\030\003 \001(\010\022!\n\013BOJJDEJ" +
-      "HKFC\030\004 \003(\0132\014.KFNOLKAKNCNB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "HKFC\030\004 \003(\0132\014.KFNOLKAKNCNB2\n\031emu.grasscut" +
+      "ter.net.protoB\025JIPKLMNKDIKOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

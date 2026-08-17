@@ -454,8 +454,9 @@ public final class CKPDLIAALLHOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021CKPDLIAALLH.proto\"\r\n\013CKPDLIAALLHB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021CKPDLIAALLH.proto\"\r\n\013CKPDLIAALLHB2\n\031em" +
+      "u.grasscutter.net.protoB\025CKPDLIAALLHOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

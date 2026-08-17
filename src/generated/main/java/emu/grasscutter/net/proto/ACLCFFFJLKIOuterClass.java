@@ -2456,11 +2456,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueEntity beyond_client_frogprint_param_value_entity = 11;</code>
      * @return The beyondClientFrogprintParamValueEntity.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity getBeyondClientFrogprintParamValueEntity();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity getBeyondClientFrogprintParamValueEntity();
     /**
      * <code>._BeyondClientFrogprintParamValueEntity beyond_client_frogprint_param_value_entity = 11;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntityOrBuilder getBeyondClientFrogprintParamValueEntityOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntityOrBuilder getBeyondClientFrogprintParamValueEntityOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueEntityList beyond_client_frogprint_param_value_entity_list = 12;</code>
@@ -2471,11 +2471,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueEntityList beyond_client_frogprint_param_value_entity_list = 12;</code>
      * @return The beyondClientFrogprintParamValueEntityList.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList getBeyondClientFrogprintParamValueEntityList();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList getBeyondClientFrogprintParamValueEntityList();
     /**
      * <code>._BeyondClientFrogprintParamValueEntityList beyond_client_frogprint_param_value_entity_list = 12;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityListOrBuilder getBeyondClientFrogprintParamValueEntityListOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityListOrBuilder getBeyondClientFrogprintParamValueEntityListOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueInt beyond_client_frogprint_param_value_int = 13;</code>
@@ -2486,11 +2486,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueInt beyond_client_frogprint_param_value_int = 13;</code>
      * @return The beyondClientFrogprintParamValueInt.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt getBeyondClientFrogprintParamValueInt();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt getBeyondClientFrogprintParamValueInt();
     /**
      * <code>._BeyondClientFrogprintParamValueInt beyond_client_frogprint_param_value_int = 13;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueIntOrBuilder getBeyondClientFrogprintParamValueIntOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueIntOrBuilder getBeyondClientFrogprintParamValueIntOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueIntList beyond_client_frogprint_param_value_int_list = 14;</code>
@@ -2501,11 +2501,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueIntList beyond_client_frogprint_param_value_int_list = 14;</code>
      * @return The beyondClientFrogprintParamValueIntList.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList getBeyondClientFrogprintParamValueIntList();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList getBeyondClientFrogprintParamValueIntList();
     /**
      * <code>._BeyondClientFrogprintParamValueIntList beyond_client_frogprint_param_value_int_list = 14;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntListOrBuilder getBeyondClientFrogprintParamValueIntListOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntListOrBuilder getBeyondClientFrogprintParamValueIntListOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueBool beyond_client_frogprint_param_value_bool = 15;</code>
@@ -2516,11 +2516,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueBool beyond_client_frogprint_param_value_bool = 15;</code>
      * @return The beyondClientFrogprintParamValueBool.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool getBeyondClientFrogprintParamValueBool();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool getBeyondClientFrogprintParamValueBool();
     /**
      * <code>._BeyondClientFrogprintParamValueBool beyond_client_frogprint_param_value_bool = 15;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBoolOrBuilder getBeyondClientFrogprintParamValueBoolOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBoolOrBuilder getBeyondClientFrogprintParamValueBoolOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueBoolList beyond_client_frogprint_param_value_bool_list = 16;</code>
@@ -2531,11 +2531,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueBoolList beyond_client_frogprint_param_value_bool_list = 16;</code>
      * @return The beyondClientFrogprintParamValueBoolList.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList getBeyondClientFrogprintParamValueBoolList();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList getBeyondClientFrogprintParamValueBoolList();
     /**
      * <code>._BeyondClientFrogprintParamValueBoolList beyond_client_frogprint_param_value_bool_list = 16;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolListOrBuilder getBeyondClientFrogprintParamValueBoolListOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolListOrBuilder getBeyondClientFrogprintParamValueBoolListOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueFloat beyond_client_frogprint_param_value_float = 17;</code>
@@ -2546,11 +2546,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueFloat beyond_client_frogprint_param_value_float = 17;</code>
      * @return The beyondClientFrogprintParamValueFloat.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat getBeyondClientFrogprintParamValueFloat();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat getBeyondClientFrogprintParamValueFloat();
     /**
      * <code>._BeyondClientFrogprintParamValueFloat beyond_client_frogprint_param_value_float = 17;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloatOrBuilder getBeyondClientFrogprintParamValueFloatOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloatOrBuilder getBeyondClientFrogprintParamValueFloatOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueFloatList beyond_client_frogprint_param_value_float_list = 18;</code>
@@ -2561,11 +2561,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueFloatList beyond_client_frogprint_param_value_float_list = 18;</code>
      * @return The beyondClientFrogprintParamValueFloatList.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList getBeyondClientFrogprintParamValueFloatList();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList getBeyondClientFrogprintParamValueFloatList();
     /**
      * <code>._BeyondClientFrogprintParamValueFloatList beyond_client_frogprint_param_value_float_list = 18;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatListOrBuilder getBeyondClientFrogprintParamValueFloatListOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatListOrBuilder getBeyondClientFrogprintParamValueFloatListOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueString beyond_client_frogprint_param_value_string = 19;</code>
@@ -2576,11 +2576,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueString beyond_client_frogprint_param_value_string = 19;</code>
      * @return The beyondClientFrogprintParamValueString.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString getBeyondClientFrogprintParamValueString();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString getBeyondClientFrogprintParamValueString();
     /**
      * <code>._BeyondClientFrogprintParamValueString beyond_client_frogprint_param_value_string = 19;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueStringOrBuilder getBeyondClientFrogprintParamValueStringOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueStringOrBuilder getBeyondClientFrogprintParamValueStringOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueStringList beyond_client_frogprint_param_value_string_list = 20;</code>
@@ -2591,11 +2591,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueStringList beyond_client_frogprint_param_value_string_list = 20;</code>
      * @return The beyondClientFrogprintParamValueStringList.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList getBeyondClientFrogprintParamValueStringList();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList getBeyondClientFrogprintParamValueStringList();
     /**
      * <code>._BeyondClientFrogprintParamValueStringList beyond_client_frogprint_param_value_string_list = 20;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringListOrBuilder getBeyondClientFrogprintParamValueStringListOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringListOrBuilder getBeyondClientFrogprintParamValueStringListOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueVector3 beyond_client_frogprint_param_value_vector_3 = 21;</code>
@@ -2606,11 +2606,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueVector3 beyond_client_frogprint_param_value_vector_3 = 21;</code>
      * @return The beyondClientFrogprintParamValueVector3.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3 getBeyondClientFrogprintParamValueVector3();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3 getBeyondClientFrogprintParamValueVector3();
     /**
      * <code>._BeyondClientFrogprintParamValueVector3 beyond_client_frogprint_param_value_vector_3 = 21;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3OrBuilder getBeyondClientFrogprintParamValueVector3OrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3OrBuilder getBeyondClientFrogprintParamValueVector3OrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueVector3List beyond_client_frogprint_param_value_vector_3_list = 22;</code>
@@ -2621,11 +2621,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueVector3List beyond_client_frogprint_param_value_vector_3_list = 22;</code>
      * @return The beyondClientFrogprintParamValueVector3List.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List getBeyondClientFrogprintParamValueVector3List();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List getBeyondClientFrogprintParamValueVector3List();
     /**
      * <code>._BeyondClientFrogprintParamValueVector3List beyond_client_frogprint_param_value_vector_3_list = 22;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3ListOrBuilder getBeyondClientFrogprintParamValueVector3ListOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3ListOrBuilder getBeyondClientFrogprintParamValueVector3ListOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueEnum beyond_client_frogprint_param_value_enum = 23;</code>
@@ -2636,11 +2636,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueEnum beyond_client_frogprint_param_value_enum = 23;</code>
      * @return The beyondClientFrogprintParamValueEnum.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum getBeyondClientFrogprintParamValueEnum();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum getBeyondClientFrogprintParamValueEnum();
     /**
      * <code>._BeyondClientFrogprintParamValueEnum beyond_client_frogprint_param_value_enum = 23;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnumOrBuilder getBeyondClientFrogprintParamValueEnumOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnumOrBuilder getBeyondClientFrogprintParamValueEnumOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueGuid beyond_client_frogprint_param_value_guid = 24;</code>
@@ -2651,11 +2651,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueGuid beyond_client_frogprint_param_value_guid = 24;</code>
      * @return The beyondClientFrogprintParamValueGuid.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid getBeyondClientFrogprintParamValueGuid();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid getBeyondClientFrogprintParamValueGuid();
     /**
      * <code>._BeyondClientFrogprintParamValueGuid beyond_client_frogprint_param_value_guid = 24;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuidOrBuilder getBeyondClientFrogprintParamValueGuidOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuidOrBuilder getBeyondClientFrogprintParamValueGuidOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueGuidList beyond_client_frogprint_param_value_guid_list = 25;</code>
@@ -2666,11 +2666,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueGuidList beyond_client_frogprint_param_value_guid_list = 25;</code>
      * @return The beyondClientFrogprintParamValueGuidList.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList getBeyondClientFrogprintParamValueGuidList();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList getBeyondClientFrogprintParamValueGuidList();
     /**
      * <code>._BeyondClientFrogprintParamValueGuidList beyond_client_frogprint_param_value_guid_list = 25;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidListOrBuilder getBeyondClientFrogprintParamValueGuidListOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidListOrBuilder getBeyondClientFrogprintParamValueGuidListOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueArmy beyond_client_frogprint_param_value_army = 26;</code>
@@ -2681,11 +2681,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueArmy beyond_client_frogprint_param_value_army = 26;</code>
      * @return The beyondClientFrogprintParamValueArmy.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy getBeyondClientFrogprintParamValueArmy();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy getBeyondClientFrogprintParamValueArmy();
     /**
      * <code>._BeyondClientFrogprintParamValueArmy beyond_client_frogprint_param_value_army = 26;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmyOrBuilder getBeyondClientFrogprintParamValueArmyOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmyOrBuilder getBeyondClientFrogprintParamValueArmyOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueEnumList beyond_client_frogprint_param_value_enum_list = 27;</code>
@@ -2696,11 +2696,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueEnumList beyond_client_frogprint_param_value_enum_list = 27;</code>
      * @return The beyondClientFrogprintParamValueEnumList.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList getBeyondClientFrogprintParamValueEnumList();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList getBeyondClientFrogprintParamValueEnumList();
     /**
      * <code>._BeyondClientFrogprintParamValueEnumList beyond_client_frogprint_param_value_enum_list = 27;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumListOrBuilder getBeyondClientFrogprintParamValueEnumListOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumListOrBuilder getBeyondClientFrogprintParamValueEnumListOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueConfigReference beyond_client_frogprint_param_value_config_reference = 28;</code>
@@ -2711,11 +2711,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueConfigReference beyond_client_frogprint_param_value_config_reference = 28;</code>
      * @return The beyondClientFrogprintParamValueConfigReference.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference getBeyondClientFrogprintParamValueConfigReference();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference getBeyondClientFrogprintParamValueConfigReference();
     /**
      * <code>._BeyondClientFrogprintParamValueConfigReference beyond_client_frogprint_param_value_config_reference = 28;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReferenceOrBuilder getBeyondClientFrogprintParamValueConfigReferenceOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReferenceOrBuilder getBeyondClientFrogprintParamValueConfigReferenceOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueEntityReference beyond_client_frogprint_param_value_entity_reference = 29;</code>
@@ -2726,11 +2726,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueEntityReference beyond_client_frogprint_param_value_entity_reference = 29;</code>
      * @return The beyondClientFrogprintParamValueEntityReference.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference getBeyondClientFrogprintParamValueEntityReference();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference getBeyondClientFrogprintParamValueEntityReference();
     /**
      * <code>._BeyondClientFrogprintParamValueEntityReference beyond_client_frogprint_param_value_entity_reference = 29;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReferenceOrBuilder getBeyondClientFrogprintParamValueEntityReferenceOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReferenceOrBuilder getBeyondClientFrogprintParamValueEntityReferenceOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueConfigReferenceList beyond_client_frogprint_param_value_config_reference_list = 30;</code>
@@ -2741,11 +2741,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueConfigReferenceList beyond_client_frogprint_param_value_config_reference_list = 30;</code>
      * @return The beyondClientFrogprintParamValueConfigReferenceList.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList getBeyondClientFrogprintParamValueConfigReferenceList();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList getBeyondClientFrogprintParamValueConfigReferenceList();
     /**
      * <code>._BeyondClientFrogprintParamValueConfigReferenceList beyond_client_frogprint_param_value_config_reference_list = 30;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceListOrBuilder getBeyondClientFrogprintParamValueConfigReferenceListOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceListOrBuilder getBeyondClientFrogprintParamValueConfigReferenceListOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueEntityReferenceList beyond_client_frogprint_param_value_entity_reference_list = 31;</code>
@@ -2756,11 +2756,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueEntityReferenceList beyond_client_frogprint_param_value_entity_reference_list = 31;</code>
      * @return The beyondClientFrogprintParamValueEntityReferenceList.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList getBeyondClientFrogprintParamValueEntityReferenceList();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList getBeyondClientFrogprintParamValueEntityReferenceList();
     /**
      * <code>._BeyondClientFrogprintParamValueEntityReferenceList beyond_client_frogprint_param_value_entity_reference_list = 31;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceListOrBuilder getBeyondClientFrogprintParamValueEntityReferenceListOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceListOrBuilder getBeyondClientFrogprintParamValueEntityReferenceListOrBuilder();
 
     /**
      * <code>._BeyondClientFrogprintParamValueStruct beyond_client_frogprint_param_value_struct = 32;</code>
@@ -2816,11 +2816,11 @@ public final class ACLCFFFJLKIOuterClass {
      * <code>._BeyondClientFrogprintParamValueArmyList beyond_client_frogprint_param_value_army_list = 35;</code>
      * @return The beyondClientFrogprintParamValueArmyList.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList getBeyondClientFrogprintParamValueArmyList();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList getBeyondClientFrogprintParamValueArmyList();
     /**
      * <code>._BeyondClientFrogprintParamValueArmyList beyond_client_frogprint_param_value_army_list = 35;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyListOrBuilder getBeyondClientFrogprintParamValueArmyListOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyListOrBuilder getBeyondClientFrogprintParamValueArmyListOrBuilder();
 
     public emu.grasscutter.net.proto.ACLCFFFJLKIOuterClass.ACLCFFFJLKI.DetailCase getDetailCase();
   }
@@ -2890,294 +2890,294 @@ public final class ACLCFFFJLKIOuterClass {
               break;
             }
             case 90: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity.Builder subBuilder = null;
               if (detailCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 11;
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList.Builder subBuilder = null;
               if (detailCase_ == 12) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 12;
               break;
             }
             case 106: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt.Builder subBuilder = null;
               if (detailCase_ == 13) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 13;
               break;
             }
             case 114: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList.Builder subBuilder = null;
               if (detailCase_ == 14) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 14;
               break;
             }
             case 122: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool.Builder subBuilder = null;
               if (detailCase_ == 15) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 15;
               break;
             }
             case 130: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList.Builder subBuilder = null;
               if (detailCase_ == 16) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 16;
               break;
             }
             case 138: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat.Builder subBuilder = null;
               if (detailCase_ == 17) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 17;
               break;
             }
             case 146: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList.Builder subBuilder = null;
               if (detailCase_ == 18) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 18;
               break;
             }
             case 154: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString.Builder subBuilder = null;
               if (detailCase_ == 19) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 19;
               break;
             }
             case 162: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList.Builder subBuilder = null;
               if (detailCase_ == 20) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 20;
               break;
             }
             case 170: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3.Builder subBuilder = null;
               if (detailCase_ == 21) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 21;
               break;
             }
             case 178: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List.Builder subBuilder = null;
               if (detailCase_ == 22) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 22;
               break;
             }
             case 186: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum.Builder subBuilder = null;
               if (detailCase_ == 23) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 23;
               break;
             }
             case 194: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid.Builder subBuilder = null;
               if (detailCase_ == 24) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 24;
               break;
             }
             case 202: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList.Builder subBuilder = null;
               if (detailCase_ == 25) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 25;
               break;
             }
             case 210: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy.Builder subBuilder = null;
               if (detailCase_ == 26) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 26;
               break;
             }
             case 218: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList.Builder subBuilder = null;
               if (detailCase_ == 27) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 27;
               break;
             }
             case 226: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference.Builder subBuilder = null;
               if (detailCase_ == 28) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 28;
               break;
             }
             case 234: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference.Builder subBuilder = null;
               if (detailCase_ == 29) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 29;
               break;
             }
             case 242: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList.Builder subBuilder = null;
               if (detailCase_ == 30) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 30;
               break;
             }
             case 250: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList.Builder subBuilder = null;
               if (detailCase_ == 31) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 31;
@@ -3226,14 +3226,14 @@ public final class ACLCFFFJLKIOuterClass {
               break;
             }
             case 282: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList.Builder subBuilder = null;
               if (detailCase_ == 35) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 35;
@@ -3417,21 +3417,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueEntity.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity getBeyondClientFrogprintParamValueEntity() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity getBeyondClientFrogprintParamValueEntity() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueEntity beyond_client_frogprint_param_value_entity = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntityOrBuilder getBeyondClientFrogprintParamValueEntityOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntityOrBuilder getBeyondClientFrogprintParamValueEntityOrBuilder() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_ENTITY_LIST_FIELD_NUMBER = 12;
@@ -3448,21 +3448,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueEntityList.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList getBeyondClientFrogprintParamValueEntityList() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList getBeyondClientFrogprintParamValueEntityList() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueEntityList beyond_client_frogprint_param_value_entity_list = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityListOrBuilder getBeyondClientFrogprintParamValueEntityListOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityListOrBuilder getBeyondClientFrogprintParamValueEntityListOrBuilder() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_INT_FIELD_NUMBER = 13;
@@ -3479,21 +3479,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueInt.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt getBeyondClientFrogprintParamValueInt() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt getBeyondClientFrogprintParamValueInt() {
       if (detailCase_ == 13) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueInt beyond_client_frogprint_param_value_int = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueIntOrBuilder getBeyondClientFrogprintParamValueIntOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueIntOrBuilder getBeyondClientFrogprintParamValueIntOrBuilder() {
       if (detailCase_ == 13) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_INT_LIST_FIELD_NUMBER = 14;
@@ -3510,21 +3510,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueIntList.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList getBeyondClientFrogprintParamValueIntList() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList getBeyondClientFrogprintParamValueIntList() {
       if (detailCase_ == 14) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueIntList beyond_client_frogprint_param_value_int_list = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntListOrBuilder getBeyondClientFrogprintParamValueIntListOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntListOrBuilder getBeyondClientFrogprintParamValueIntListOrBuilder() {
       if (detailCase_ == 14) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_BOOL_FIELD_NUMBER = 15;
@@ -3541,21 +3541,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueBool.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool getBeyondClientFrogprintParamValueBool() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool getBeyondClientFrogprintParamValueBool() {
       if (detailCase_ == 15) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueBool beyond_client_frogprint_param_value_bool = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBoolOrBuilder getBeyondClientFrogprintParamValueBoolOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBoolOrBuilder getBeyondClientFrogprintParamValueBoolOrBuilder() {
       if (detailCase_ == 15) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_BOOL_LIST_FIELD_NUMBER = 16;
@@ -3572,21 +3572,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueBoolList.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList getBeyondClientFrogprintParamValueBoolList() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList getBeyondClientFrogprintParamValueBoolList() {
       if (detailCase_ == 16) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueBoolList beyond_client_frogprint_param_value_bool_list = 16;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolListOrBuilder getBeyondClientFrogprintParamValueBoolListOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolListOrBuilder getBeyondClientFrogprintParamValueBoolListOrBuilder() {
       if (detailCase_ == 16) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_FLOAT_FIELD_NUMBER = 17;
@@ -3603,21 +3603,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueFloat.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat getBeyondClientFrogprintParamValueFloat() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat getBeyondClientFrogprintParamValueFloat() {
       if (detailCase_ == 17) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueFloat beyond_client_frogprint_param_value_float = 17;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloatOrBuilder getBeyondClientFrogprintParamValueFloatOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloatOrBuilder getBeyondClientFrogprintParamValueFloatOrBuilder() {
       if (detailCase_ == 17) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_FLOAT_LIST_FIELD_NUMBER = 18;
@@ -3634,21 +3634,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueFloatList.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList getBeyondClientFrogprintParamValueFloatList() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList getBeyondClientFrogprintParamValueFloatList() {
       if (detailCase_ == 18) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueFloatList beyond_client_frogprint_param_value_float_list = 18;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatListOrBuilder getBeyondClientFrogprintParamValueFloatListOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatListOrBuilder getBeyondClientFrogprintParamValueFloatListOrBuilder() {
       if (detailCase_ == 18) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_STRING_FIELD_NUMBER = 19;
@@ -3665,21 +3665,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueString.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString getBeyondClientFrogprintParamValueString() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString getBeyondClientFrogprintParamValueString() {
       if (detailCase_ == 19) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueString beyond_client_frogprint_param_value_string = 19;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueStringOrBuilder getBeyondClientFrogprintParamValueStringOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueStringOrBuilder getBeyondClientFrogprintParamValueStringOrBuilder() {
       if (detailCase_ == 19) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_STRING_LIST_FIELD_NUMBER = 20;
@@ -3696,21 +3696,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueStringList.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList getBeyondClientFrogprintParamValueStringList() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList getBeyondClientFrogprintParamValueStringList() {
       if (detailCase_ == 20) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueStringList beyond_client_frogprint_param_value_string_list = 20;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringListOrBuilder getBeyondClientFrogprintParamValueStringListOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringListOrBuilder getBeyondClientFrogprintParamValueStringListOrBuilder() {
       if (detailCase_ == 20) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_VECTOR_3_FIELD_NUMBER = 21;
@@ -3727,21 +3727,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueVector3.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3 getBeyondClientFrogprintParamValueVector3() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3 getBeyondClientFrogprintParamValueVector3() {
       if (detailCase_ == 21) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueVector3 beyond_client_frogprint_param_value_vector_3 = 21;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3OrBuilder getBeyondClientFrogprintParamValueVector3OrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3OrBuilder getBeyondClientFrogprintParamValueVector3OrBuilder() {
       if (detailCase_ == 21) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_VECTOR_3_LIST_FIELD_NUMBER = 22;
@@ -3758,21 +3758,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueVector3List.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List getBeyondClientFrogprintParamValueVector3List() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List getBeyondClientFrogprintParamValueVector3List() {
       if (detailCase_ == 22) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueVector3List beyond_client_frogprint_param_value_vector_3_list = 22;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3ListOrBuilder getBeyondClientFrogprintParamValueVector3ListOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3ListOrBuilder getBeyondClientFrogprintParamValueVector3ListOrBuilder() {
       if (detailCase_ == 22) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_ENUM_FIELD_NUMBER = 23;
@@ -3789,21 +3789,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueEnum.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum getBeyondClientFrogprintParamValueEnum() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum getBeyondClientFrogprintParamValueEnum() {
       if (detailCase_ == 23) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueEnum beyond_client_frogprint_param_value_enum = 23;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnumOrBuilder getBeyondClientFrogprintParamValueEnumOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnumOrBuilder getBeyondClientFrogprintParamValueEnumOrBuilder() {
       if (detailCase_ == 23) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_GUID_FIELD_NUMBER = 24;
@@ -3820,21 +3820,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueGuid.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid getBeyondClientFrogprintParamValueGuid() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid getBeyondClientFrogprintParamValueGuid() {
       if (detailCase_ == 24) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueGuid beyond_client_frogprint_param_value_guid = 24;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuidOrBuilder getBeyondClientFrogprintParamValueGuidOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuidOrBuilder getBeyondClientFrogprintParamValueGuidOrBuilder() {
       if (detailCase_ == 24) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_GUID_LIST_FIELD_NUMBER = 25;
@@ -3851,21 +3851,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueGuidList.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList getBeyondClientFrogprintParamValueGuidList() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList getBeyondClientFrogprintParamValueGuidList() {
       if (detailCase_ == 25) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueGuidList beyond_client_frogprint_param_value_guid_list = 25;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidListOrBuilder getBeyondClientFrogprintParamValueGuidListOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidListOrBuilder getBeyondClientFrogprintParamValueGuidListOrBuilder() {
       if (detailCase_ == 25) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_ARMY_FIELD_NUMBER = 26;
@@ -3882,21 +3882,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueArmy.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy getBeyondClientFrogprintParamValueArmy() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy getBeyondClientFrogprintParamValueArmy() {
       if (detailCase_ == 26) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueArmy beyond_client_frogprint_param_value_army = 26;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmyOrBuilder getBeyondClientFrogprintParamValueArmyOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmyOrBuilder getBeyondClientFrogprintParamValueArmyOrBuilder() {
       if (detailCase_ == 26) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_ENUM_LIST_FIELD_NUMBER = 27;
@@ -3913,21 +3913,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueEnumList.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList getBeyondClientFrogprintParamValueEnumList() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList getBeyondClientFrogprintParamValueEnumList() {
       if (detailCase_ == 27) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueEnumList beyond_client_frogprint_param_value_enum_list = 27;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumListOrBuilder getBeyondClientFrogprintParamValueEnumListOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumListOrBuilder getBeyondClientFrogprintParamValueEnumListOrBuilder() {
       if (detailCase_ == 27) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_CONFIG_REFERENCE_FIELD_NUMBER = 28;
@@ -3944,21 +3944,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueConfigReference.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference getBeyondClientFrogprintParamValueConfigReference() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference getBeyondClientFrogprintParamValueConfigReference() {
       if (detailCase_ == 28) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueConfigReference beyond_client_frogprint_param_value_config_reference = 28;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReferenceOrBuilder getBeyondClientFrogprintParamValueConfigReferenceOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReferenceOrBuilder getBeyondClientFrogprintParamValueConfigReferenceOrBuilder() {
       if (detailCase_ == 28) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_ENTITY_REFERENCE_FIELD_NUMBER = 29;
@@ -3975,21 +3975,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueEntityReference.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference getBeyondClientFrogprintParamValueEntityReference() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference getBeyondClientFrogprintParamValueEntityReference() {
       if (detailCase_ == 29) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueEntityReference beyond_client_frogprint_param_value_entity_reference = 29;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReferenceOrBuilder getBeyondClientFrogprintParamValueEntityReferenceOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReferenceOrBuilder getBeyondClientFrogprintParamValueEntityReferenceOrBuilder() {
       if (detailCase_ == 29) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_CONFIG_REFERENCE_LIST_FIELD_NUMBER = 30;
@@ -4006,21 +4006,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueConfigReferenceList.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList getBeyondClientFrogprintParamValueConfigReferenceList() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList getBeyondClientFrogprintParamValueConfigReferenceList() {
       if (detailCase_ == 30) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueConfigReferenceList beyond_client_frogprint_param_value_config_reference_list = 30;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceListOrBuilder getBeyondClientFrogprintParamValueConfigReferenceListOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceListOrBuilder getBeyondClientFrogprintParamValueConfigReferenceListOrBuilder() {
       if (detailCase_ == 30) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_ENTITY_REFERENCE_LIST_FIELD_NUMBER = 31;
@@ -4037,21 +4037,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueEntityReferenceList.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList getBeyondClientFrogprintParamValueEntityReferenceList() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList getBeyondClientFrogprintParamValueEntityReferenceList() {
       if (detailCase_ == 31) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueEntityReferenceList beyond_client_frogprint_param_value_entity_reference_list = 31;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceListOrBuilder getBeyondClientFrogprintParamValueEntityReferenceListOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceListOrBuilder getBeyondClientFrogprintParamValueEntityReferenceListOrBuilder() {
       if (detailCase_ == 31) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_FROGPRINT_PARAM_VALUE_STRUCT_FIELD_NUMBER = 32;
@@ -4161,21 +4161,21 @@ public final class ACLCFFFJLKIOuterClass {
      * @return The beyondClientFrogprintParamValueArmyList.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList getBeyondClientFrogprintParamValueArmyList() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList getBeyondClientFrogprintParamValueArmyList() {
       if (detailCase_ == 35) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintParamValueArmyList beyond_client_frogprint_param_value_army_list = 35;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyListOrBuilder getBeyondClientFrogprintParamValueArmyListOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyListOrBuilder getBeyondClientFrogprintParamValueArmyListOrBuilder() {
       if (detailCase_ == 35) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -4199,67 +4199,67 @@ public final class ACLCFFFJLKIOuterClass {
         output.writeMessage(2, getDOELKBCHFDF());
       }
       if (detailCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity) detail_);
+        output.writeMessage(11, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity) detail_);
       }
       if (detailCase_ == 12) {
-        output.writeMessage(12, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList) detail_);
+        output.writeMessage(12, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList) detail_);
       }
       if (detailCase_ == 13) {
-        output.writeMessage(13, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt) detail_);
+        output.writeMessage(13, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt) detail_);
       }
       if (detailCase_ == 14) {
-        output.writeMessage(14, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList) detail_);
+        output.writeMessage(14, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList) detail_);
       }
       if (detailCase_ == 15) {
-        output.writeMessage(15, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool) detail_);
+        output.writeMessage(15, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool) detail_);
       }
       if (detailCase_ == 16) {
-        output.writeMessage(16, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList) detail_);
+        output.writeMessage(16, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList) detail_);
       }
       if (detailCase_ == 17) {
-        output.writeMessage(17, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat) detail_);
+        output.writeMessage(17, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat) detail_);
       }
       if (detailCase_ == 18) {
-        output.writeMessage(18, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList) detail_);
+        output.writeMessage(18, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList) detail_);
       }
       if (detailCase_ == 19) {
-        output.writeMessage(19, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString) detail_);
+        output.writeMessage(19, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString) detail_);
       }
       if (detailCase_ == 20) {
-        output.writeMessage(20, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList) detail_);
+        output.writeMessage(20, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList) detail_);
       }
       if (detailCase_ == 21) {
-        output.writeMessage(21, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3) detail_);
+        output.writeMessage(21, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3) detail_);
       }
       if (detailCase_ == 22) {
-        output.writeMessage(22, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List) detail_);
+        output.writeMessage(22, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List) detail_);
       }
       if (detailCase_ == 23) {
-        output.writeMessage(23, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum) detail_);
+        output.writeMessage(23, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum) detail_);
       }
       if (detailCase_ == 24) {
-        output.writeMessage(24, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid) detail_);
+        output.writeMessage(24, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid) detail_);
       }
       if (detailCase_ == 25) {
-        output.writeMessage(25, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList) detail_);
+        output.writeMessage(25, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList) detail_);
       }
       if (detailCase_ == 26) {
-        output.writeMessage(26, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy) detail_);
+        output.writeMessage(26, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy) detail_);
       }
       if (detailCase_ == 27) {
-        output.writeMessage(27, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList) detail_);
+        output.writeMessage(27, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList) detail_);
       }
       if (detailCase_ == 28) {
-        output.writeMessage(28, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference) detail_);
+        output.writeMessage(28, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference) detail_);
       }
       if (detailCase_ == 29) {
-        output.writeMessage(29, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference) detail_);
+        output.writeMessage(29, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference) detail_);
       }
       if (detailCase_ == 30) {
-        output.writeMessage(30, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList) detail_);
+        output.writeMessage(30, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList) detail_);
       }
       if (detailCase_ == 31) {
-        output.writeMessage(31, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList) detail_);
+        output.writeMessage(31, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList) detail_);
       }
       if (detailCase_ == 32) {
         output.writeMessage(32, (emu.grasscutter.net.proto.ACLCFFFJLKIOuterClass._BeyondClientFrogprintParamValueStruct) detail_);
@@ -4271,7 +4271,7 @@ public final class ACLCFFFJLKIOuterClass {
         output.writeMessage(34, (emu.grasscutter.net.proto.ACLCFFFJLKIOuterClass._BeyondClientFrogprintParamValueDict) detail_);
       }
       if (detailCase_ == 35) {
-        output.writeMessage(35, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList) detail_);
+        output.writeMessage(35, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -4292,87 +4292,87 @@ public final class ACLCFFFJLKIOuterClass {
       }
       if (detailCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity) detail_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity) detail_);
       }
       if (detailCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList) detail_);
+          .computeMessageSize(12, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList) detail_);
       }
       if (detailCase_ == 13) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt) detail_);
+          .computeMessageSize(13, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt) detail_);
       }
       if (detailCase_ == 14) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList) detail_);
+          .computeMessageSize(14, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList) detail_);
       }
       if (detailCase_ == 15) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool) detail_);
+          .computeMessageSize(15, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool) detail_);
       }
       if (detailCase_ == 16) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(16, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList) detail_);
+          .computeMessageSize(16, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList) detail_);
       }
       if (detailCase_ == 17) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(17, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat) detail_);
+          .computeMessageSize(17, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat) detail_);
       }
       if (detailCase_ == 18) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(18, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList) detail_);
+          .computeMessageSize(18, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList) detail_);
       }
       if (detailCase_ == 19) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(19, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString) detail_);
+          .computeMessageSize(19, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString) detail_);
       }
       if (detailCase_ == 20) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(20, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList) detail_);
+          .computeMessageSize(20, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList) detail_);
       }
       if (detailCase_ == 21) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(21, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3) detail_);
+          .computeMessageSize(21, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3) detail_);
       }
       if (detailCase_ == 22) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(22, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List) detail_);
+          .computeMessageSize(22, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List) detail_);
       }
       if (detailCase_ == 23) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(23, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum) detail_);
+          .computeMessageSize(23, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum) detail_);
       }
       if (detailCase_ == 24) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(24, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid) detail_);
+          .computeMessageSize(24, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid) detail_);
       }
       if (detailCase_ == 25) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(25, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList) detail_);
+          .computeMessageSize(25, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList) detail_);
       }
       if (detailCase_ == 26) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(26, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy) detail_);
+          .computeMessageSize(26, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy) detail_);
       }
       if (detailCase_ == 27) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(27, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList) detail_);
+          .computeMessageSize(27, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList) detail_);
       }
       if (detailCase_ == 28) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(28, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference) detail_);
+          .computeMessageSize(28, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference) detail_);
       }
       if (detailCase_ == 29) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(29, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference) detail_);
+          .computeMessageSize(29, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference) detail_);
       }
       if (detailCase_ == 30) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(30, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList) detail_);
+          .computeMessageSize(30, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList) detail_);
       }
       if (detailCase_ == 31) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(31, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList) detail_);
+          .computeMessageSize(31, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList) detail_);
       }
       if (detailCase_ == 32) {
         size += com.google.protobuf.CodedOutputStream
@@ -4388,7 +4388,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
       if (detailCase_ == 35) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(35, (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList) detail_);
+          .computeMessageSize(35, (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -5365,7 +5365,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntityOrBuilder> beyondClientFrogprintParamValueEntityBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntityOrBuilder> beyondClientFrogprintParamValueEntityBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueEntity beyond_client_frogprint_param_value_entity = 11;</code>
        * @return Whether the beyondClientFrogprintParamValueEntity field is set.
@@ -5379,23 +5379,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueEntity.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity getBeyondClientFrogprintParamValueEntity() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity getBeyondClientFrogprintParamValueEntity() {
         if (beyondClientFrogprintParamValueEntityBuilder_ == null) {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity.getDefaultInstance();
         } else {
           if (detailCase_ == 11) {
             return beyondClientFrogprintParamValueEntityBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEntity beyond_client_frogprint_param_value_entity = 11;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueEntity(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity value) {
+      public Builder setBeyondClientFrogprintParamValueEntity(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity value) {
         if (beyondClientFrogprintParamValueEntityBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5412,7 +5412,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueEntity beyond_client_frogprint_param_value_entity = 11;</code>
        */
       public Builder setBeyondClientFrogprintParamValueEntity(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity.Builder builderForValue) {
         if (beyondClientFrogprintParamValueEntityBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -5425,11 +5425,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueEntity beyond_client_frogprint_param_value_entity = 11;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueEntity(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity value) {
+      public Builder mergeBeyondClientFrogprintParamValueEntity(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity value) {
         if (beyondClientFrogprintParamValueEntityBuilder_ == null) {
           if (detailCase_ == 11 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -5466,36 +5466,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueEntity beyond_client_frogprint_param_value_entity = 11;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity.Builder getBeyondClientFrogprintParamValueEntityBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity.Builder getBeyondClientFrogprintParamValueEntityBuilder() {
         return getBeyondClientFrogprintParamValueEntityFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEntity beyond_client_frogprint_param_value_entity = 11;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntityOrBuilder getBeyondClientFrogprintParamValueEntityOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntityOrBuilder getBeyondClientFrogprintParamValueEntityOrBuilder() {
         if ((detailCase_ == 11) && (beyondClientFrogprintParamValueEntityBuilder_ != null)) {
           return beyondClientFrogprintParamValueEntityBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEntity beyond_client_frogprint_param_value_entity = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntityOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntityOrBuilder> 
           getBeyondClientFrogprintParamValueEntityFieldBuilder() {
         if (beyondClientFrogprintParamValueEntityBuilder_ == null) {
           if (!(detailCase_ == 11)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity.getDefaultInstance();
           }
           beyondClientFrogprintParamValueEntityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntityOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity._BeyondClientFrogprintParamValueEntity) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntityOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass._BeyondClientFrogprintParamValueEntity) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -5506,7 +5506,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityListOrBuilder> beyondClientFrogprintParamValueEntityListBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityListOrBuilder> beyondClientFrogprintParamValueEntityListBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueEntityList beyond_client_frogprint_param_value_entity_list = 12;</code>
        * @return Whether the beyondClientFrogprintParamValueEntityList field is set.
@@ -5520,23 +5520,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueEntityList.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList getBeyondClientFrogprintParamValueEntityList() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList getBeyondClientFrogprintParamValueEntityList() {
         if (beyondClientFrogprintParamValueEntityListBuilder_ == null) {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList.getDefaultInstance();
         } else {
           if (detailCase_ == 12) {
             return beyondClientFrogprintParamValueEntityListBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEntityList beyond_client_frogprint_param_value_entity_list = 12;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueEntityList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList value) {
+      public Builder setBeyondClientFrogprintParamValueEntityList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList value) {
         if (beyondClientFrogprintParamValueEntityListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5553,7 +5553,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueEntityList beyond_client_frogprint_param_value_entity_list = 12;</code>
        */
       public Builder setBeyondClientFrogprintParamValueEntityList(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList.Builder builderForValue) {
         if (beyondClientFrogprintParamValueEntityListBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -5566,11 +5566,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueEntityList beyond_client_frogprint_param_value_entity_list = 12;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueEntityList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList value) {
+      public Builder mergeBeyondClientFrogprintParamValueEntityList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList value) {
         if (beyondClientFrogprintParamValueEntityListBuilder_ == null) {
           if (detailCase_ == 12 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -5607,36 +5607,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueEntityList beyond_client_frogprint_param_value_entity_list = 12;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList.Builder getBeyondClientFrogprintParamValueEntityListBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList.Builder getBeyondClientFrogprintParamValueEntityListBuilder() {
         return getBeyondClientFrogprintParamValueEntityListFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEntityList beyond_client_frogprint_param_value_entity_list = 12;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityListOrBuilder getBeyondClientFrogprintParamValueEntityListOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityListOrBuilder getBeyondClientFrogprintParamValueEntityListOrBuilder() {
         if ((detailCase_ == 12) && (beyondClientFrogprintParamValueEntityListBuilder_ != null)) {
           return beyondClientFrogprintParamValueEntityListBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEntityList beyond_client_frogprint_param_value_entity_list = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityListOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityListOrBuilder> 
           getBeyondClientFrogprintParamValueEntityListFieldBuilder() {
         if (beyondClientFrogprintParamValueEntityListBuilder_ == null) {
           if (!(detailCase_ == 12)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList.getDefaultInstance();
           }
           beyondClientFrogprintParamValueEntityListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityListOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList._BeyondClientFrogprintParamValueEntityList) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityListOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass._BeyondClientFrogprintParamValueEntityList) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -5647,7 +5647,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueIntOrBuilder> beyondClientFrogprintParamValueIntBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueIntOrBuilder> beyondClientFrogprintParamValueIntBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueInt beyond_client_frogprint_param_value_int = 13;</code>
        * @return Whether the beyondClientFrogprintParamValueInt field is set.
@@ -5661,23 +5661,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueInt.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt getBeyondClientFrogprintParamValueInt() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt getBeyondClientFrogprintParamValueInt() {
         if (beyondClientFrogprintParamValueIntBuilder_ == null) {
           if (detailCase_ == 13) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt.getDefaultInstance();
         } else {
           if (detailCase_ == 13) {
             return beyondClientFrogprintParamValueIntBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueInt beyond_client_frogprint_param_value_int = 13;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueInt(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt value) {
+      public Builder setBeyondClientFrogprintParamValueInt(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt value) {
         if (beyondClientFrogprintParamValueIntBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5694,7 +5694,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueInt beyond_client_frogprint_param_value_int = 13;</code>
        */
       public Builder setBeyondClientFrogprintParamValueInt(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt.Builder builderForValue) {
         if (beyondClientFrogprintParamValueIntBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -5707,11 +5707,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueInt beyond_client_frogprint_param_value_int = 13;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueInt(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt value) {
+      public Builder mergeBeyondClientFrogprintParamValueInt(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt value) {
         if (beyondClientFrogprintParamValueIntBuilder_ == null) {
           if (detailCase_ == 13 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -5748,36 +5748,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueInt beyond_client_frogprint_param_value_int = 13;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt.Builder getBeyondClientFrogprintParamValueIntBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt.Builder getBeyondClientFrogprintParamValueIntBuilder() {
         return getBeyondClientFrogprintParamValueIntFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueInt beyond_client_frogprint_param_value_int = 13;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueIntOrBuilder getBeyondClientFrogprintParamValueIntOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueIntOrBuilder getBeyondClientFrogprintParamValueIntOrBuilder() {
         if ((detailCase_ == 13) && (beyondClientFrogprintParamValueIntBuilder_ != null)) {
           return beyondClientFrogprintParamValueIntBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 13) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueInt beyond_client_frogprint_param_value_int = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueIntOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueIntOrBuilder> 
           getBeyondClientFrogprintParamValueIntFieldBuilder() {
         if (beyondClientFrogprintParamValueIntBuilder_ == null) {
           if (!(detailCase_ == 13)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt.getDefaultInstance();
           }
           beyondClientFrogprintParamValueIntBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueIntOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt._BeyondClientFrogprintParamValueInt) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueIntOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass._BeyondClientFrogprintParamValueInt) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -5788,7 +5788,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntListOrBuilder> beyondClientFrogprintParamValueIntListBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntListOrBuilder> beyondClientFrogprintParamValueIntListBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueIntList beyond_client_frogprint_param_value_int_list = 14;</code>
        * @return Whether the beyondClientFrogprintParamValueIntList field is set.
@@ -5802,23 +5802,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueIntList.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList getBeyondClientFrogprintParamValueIntList() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList getBeyondClientFrogprintParamValueIntList() {
         if (beyondClientFrogprintParamValueIntListBuilder_ == null) {
           if (detailCase_ == 14) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList.getDefaultInstance();
         } else {
           if (detailCase_ == 14) {
             return beyondClientFrogprintParamValueIntListBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueIntList beyond_client_frogprint_param_value_int_list = 14;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueIntList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList value) {
+      public Builder setBeyondClientFrogprintParamValueIntList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList value) {
         if (beyondClientFrogprintParamValueIntListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5835,7 +5835,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueIntList beyond_client_frogprint_param_value_int_list = 14;</code>
        */
       public Builder setBeyondClientFrogprintParamValueIntList(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList.Builder builderForValue) {
         if (beyondClientFrogprintParamValueIntListBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -5848,11 +5848,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueIntList beyond_client_frogprint_param_value_int_list = 14;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueIntList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList value) {
+      public Builder mergeBeyondClientFrogprintParamValueIntList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList value) {
         if (beyondClientFrogprintParamValueIntListBuilder_ == null) {
           if (detailCase_ == 14 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -5889,36 +5889,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueIntList beyond_client_frogprint_param_value_int_list = 14;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList.Builder getBeyondClientFrogprintParamValueIntListBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList.Builder getBeyondClientFrogprintParamValueIntListBuilder() {
         return getBeyondClientFrogprintParamValueIntListFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueIntList beyond_client_frogprint_param_value_int_list = 14;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntListOrBuilder getBeyondClientFrogprintParamValueIntListOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntListOrBuilder getBeyondClientFrogprintParamValueIntListOrBuilder() {
         if ((detailCase_ == 14) && (beyondClientFrogprintParamValueIntListBuilder_ != null)) {
           return beyondClientFrogprintParamValueIntListBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 14) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueIntList beyond_client_frogprint_param_value_int_list = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntListOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntListOrBuilder> 
           getBeyondClientFrogprintParamValueIntListFieldBuilder() {
         if (beyondClientFrogprintParamValueIntListBuilder_ == null) {
           if (!(detailCase_ == 14)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList.getDefaultInstance();
           }
           beyondClientFrogprintParamValueIntListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntListOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList._BeyondClientFrogprintParamValueIntList) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntListOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass._BeyondClientFrogprintParamValueIntList) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -5929,7 +5929,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBoolOrBuilder> beyondClientFrogprintParamValueBoolBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBoolOrBuilder> beyondClientFrogprintParamValueBoolBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueBool beyond_client_frogprint_param_value_bool = 15;</code>
        * @return Whether the beyondClientFrogprintParamValueBool field is set.
@@ -5943,23 +5943,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueBool.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool getBeyondClientFrogprintParamValueBool() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool getBeyondClientFrogprintParamValueBool() {
         if (beyondClientFrogprintParamValueBoolBuilder_ == null) {
           if (detailCase_ == 15) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool.getDefaultInstance();
         } else {
           if (detailCase_ == 15) {
             return beyondClientFrogprintParamValueBoolBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueBool beyond_client_frogprint_param_value_bool = 15;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueBool(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool value) {
+      public Builder setBeyondClientFrogprintParamValueBool(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool value) {
         if (beyondClientFrogprintParamValueBoolBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5976,7 +5976,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueBool beyond_client_frogprint_param_value_bool = 15;</code>
        */
       public Builder setBeyondClientFrogprintParamValueBool(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool.Builder builderForValue) {
         if (beyondClientFrogprintParamValueBoolBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -5989,11 +5989,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueBool beyond_client_frogprint_param_value_bool = 15;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueBool(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool value) {
+      public Builder mergeBeyondClientFrogprintParamValueBool(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool value) {
         if (beyondClientFrogprintParamValueBoolBuilder_ == null) {
           if (detailCase_ == 15 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -6030,36 +6030,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueBool beyond_client_frogprint_param_value_bool = 15;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool.Builder getBeyondClientFrogprintParamValueBoolBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool.Builder getBeyondClientFrogprintParamValueBoolBuilder() {
         return getBeyondClientFrogprintParamValueBoolFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueBool beyond_client_frogprint_param_value_bool = 15;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBoolOrBuilder getBeyondClientFrogprintParamValueBoolOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBoolOrBuilder getBeyondClientFrogprintParamValueBoolOrBuilder() {
         if ((detailCase_ == 15) && (beyondClientFrogprintParamValueBoolBuilder_ != null)) {
           return beyondClientFrogprintParamValueBoolBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 15) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueBool beyond_client_frogprint_param_value_bool = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBoolOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBoolOrBuilder> 
           getBeyondClientFrogprintParamValueBoolFieldBuilder() {
         if (beyondClientFrogprintParamValueBoolBuilder_ == null) {
           if (!(detailCase_ == 15)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool.getDefaultInstance();
           }
           beyondClientFrogprintParamValueBoolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBoolOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool._BeyondClientFrogprintParamValueBool) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBoolOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass._BeyondClientFrogprintParamValueBool) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -6070,7 +6070,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolListOrBuilder> beyondClientFrogprintParamValueBoolListBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolListOrBuilder> beyondClientFrogprintParamValueBoolListBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueBoolList beyond_client_frogprint_param_value_bool_list = 16;</code>
        * @return Whether the beyondClientFrogprintParamValueBoolList field is set.
@@ -6084,23 +6084,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueBoolList.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList getBeyondClientFrogprintParamValueBoolList() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList getBeyondClientFrogprintParamValueBoolList() {
         if (beyondClientFrogprintParamValueBoolListBuilder_ == null) {
           if (detailCase_ == 16) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList.getDefaultInstance();
         } else {
           if (detailCase_ == 16) {
             return beyondClientFrogprintParamValueBoolListBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueBoolList beyond_client_frogprint_param_value_bool_list = 16;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueBoolList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList value) {
+      public Builder setBeyondClientFrogprintParamValueBoolList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList value) {
         if (beyondClientFrogprintParamValueBoolListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6117,7 +6117,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueBoolList beyond_client_frogprint_param_value_bool_list = 16;</code>
        */
       public Builder setBeyondClientFrogprintParamValueBoolList(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList.Builder builderForValue) {
         if (beyondClientFrogprintParamValueBoolListBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -6130,11 +6130,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueBoolList beyond_client_frogprint_param_value_bool_list = 16;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueBoolList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList value) {
+      public Builder mergeBeyondClientFrogprintParamValueBoolList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList value) {
         if (beyondClientFrogprintParamValueBoolListBuilder_ == null) {
           if (detailCase_ == 16 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -6171,36 +6171,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueBoolList beyond_client_frogprint_param_value_bool_list = 16;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList.Builder getBeyondClientFrogprintParamValueBoolListBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList.Builder getBeyondClientFrogprintParamValueBoolListBuilder() {
         return getBeyondClientFrogprintParamValueBoolListFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueBoolList beyond_client_frogprint_param_value_bool_list = 16;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolListOrBuilder getBeyondClientFrogprintParamValueBoolListOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolListOrBuilder getBeyondClientFrogprintParamValueBoolListOrBuilder() {
         if ((detailCase_ == 16) && (beyondClientFrogprintParamValueBoolListBuilder_ != null)) {
           return beyondClientFrogprintParamValueBoolListBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 16) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueBoolList beyond_client_frogprint_param_value_bool_list = 16;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolListOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolListOrBuilder> 
           getBeyondClientFrogprintParamValueBoolListFieldBuilder() {
         if (beyondClientFrogprintParamValueBoolListBuilder_ == null) {
           if (!(detailCase_ == 16)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList.getDefaultInstance();
           }
           beyondClientFrogprintParamValueBoolListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolListOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList._BeyondClientFrogprintParamValueBoolList) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolListOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass._BeyondClientFrogprintParamValueBoolList) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -6211,7 +6211,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloatOrBuilder> beyondClientFrogprintParamValueFloatBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloatOrBuilder> beyondClientFrogprintParamValueFloatBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueFloat beyond_client_frogprint_param_value_float = 17;</code>
        * @return Whether the beyondClientFrogprintParamValueFloat field is set.
@@ -6225,23 +6225,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueFloat.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat getBeyondClientFrogprintParamValueFloat() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat getBeyondClientFrogprintParamValueFloat() {
         if (beyondClientFrogprintParamValueFloatBuilder_ == null) {
           if (detailCase_ == 17) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat.getDefaultInstance();
         } else {
           if (detailCase_ == 17) {
             return beyondClientFrogprintParamValueFloatBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueFloat beyond_client_frogprint_param_value_float = 17;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueFloat(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat value) {
+      public Builder setBeyondClientFrogprintParamValueFloat(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat value) {
         if (beyondClientFrogprintParamValueFloatBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6258,7 +6258,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueFloat beyond_client_frogprint_param_value_float = 17;</code>
        */
       public Builder setBeyondClientFrogprintParamValueFloat(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat.Builder builderForValue) {
         if (beyondClientFrogprintParamValueFloatBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -6271,11 +6271,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueFloat beyond_client_frogprint_param_value_float = 17;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueFloat(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat value) {
+      public Builder mergeBeyondClientFrogprintParamValueFloat(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat value) {
         if (beyondClientFrogprintParamValueFloatBuilder_ == null) {
           if (detailCase_ == 17 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -6312,36 +6312,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueFloat beyond_client_frogprint_param_value_float = 17;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat.Builder getBeyondClientFrogprintParamValueFloatBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat.Builder getBeyondClientFrogprintParamValueFloatBuilder() {
         return getBeyondClientFrogprintParamValueFloatFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueFloat beyond_client_frogprint_param_value_float = 17;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloatOrBuilder getBeyondClientFrogprintParamValueFloatOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloatOrBuilder getBeyondClientFrogprintParamValueFloatOrBuilder() {
         if ((detailCase_ == 17) && (beyondClientFrogprintParamValueFloatBuilder_ != null)) {
           return beyondClientFrogprintParamValueFloatBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 17) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueFloat beyond_client_frogprint_param_value_float = 17;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloatOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloatOrBuilder> 
           getBeyondClientFrogprintParamValueFloatFieldBuilder() {
         if (beyondClientFrogprintParamValueFloatBuilder_ == null) {
           if (!(detailCase_ == 17)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat.getDefaultInstance();
           }
           beyondClientFrogprintParamValueFloatBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloatOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat._BeyondClientFrogprintParamValueFloat) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloatOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass._BeyondClientFrogprintParamValueFloat) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -6352,7 +6352,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatListOrBuilder> beyondClientFrogprintParamValueFloatListBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatListOrBuilder> beyondClientFrogprintParamValueFloatListBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueFloatList beyond_client_frogprint_param_value_float_list = 18;</code>
        * @return Whether the beyondClientFrogprintParamValueFloatList field is set.
@@ -6366,23 +6366,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueFloatList.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList getBeyondClientFrogprintParamValueFloatList() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList getBeyondClientFrogprintParamValueFloatList() {
         if (beyondClientFrogprintParamValueFloatListBuilder_ == null) {
           if (detailCase_ == 18) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList.getDefaultInstance();
         } else {
           if (detailCase_ == 18) {
             return beyondClientFrogprintParamValueFloatListBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueFloatList beyond_client_frogprint_param_value_float_list = 18;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueFloatList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList value) {
+      public Builder setBeyondClientFrogprintParamValueFloatList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList value) {
         if (beyondClientFrogprintParamValueFloatListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6399,7 +6399,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueFloatList beyond_client_frogprint_param_value_float_list = 18;</code>
        */
       public Builder setBeyondClientFrogprintParamValueFloatList(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList.Builder builderForValue) {
         if (beyondClientFrogprintParamValueFloatListBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -6412,11 +6412,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueFloatList beyond_client_frogprint_param_value_float_list = 18;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueFloatList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList value) {
+      public Builder mergeBeyondClientFrogprintParamValueFloatList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList value) {
         if (beyondClientFrogprintParamValueFloatListBuilder_ == null) {
           if (detailCase_ == 18 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -6453,36 +6453,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueFloatList beyond_client_frogprint_param_value_float_list = 18;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList.Builder getBeyondClientFrogprintParamValueFloatListBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList.Builder getBeyondClientFrogprintParamValueFloatListBuilder() {
         return getBeyondClientFrogprintParamValueFloatListFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueFloatList beyond_client_frogprint_param_value_float_list = 18;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatListOrBuilder getBeyondClientFrogprintParamValueFloatListOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatListOrBuilder getBeyondClientFrogprintParamValueFloatListOrBuilder() {
         if ((detailCase_ == 18) && (beyondClientFrogprintParamValueFloatListBuilder_ != null)) {
           return beyondClientFrogprintParamValueFloatListBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 18) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueFloatList beyond_client_frogprint_param_value_float_list = 18;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatListOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatListOrBuilder> 
           getBeyondClientFrogprintParamValueFloatListFieldBuilder() {
         if (beyondClientFrogprintParamValueFloatListBuilder_ == null) {
           if (!(detailCase_ == 18)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList.getDefaultInstance();
           }
           beyondClientFrogprintParamValueFloatListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatListOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList._BeyondClientFrogprintParamValueFloatList) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatListOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass._BeyondClientFrogprintParamValueFloatList) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -6493,7 +6493,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueStringOrBuilder> beyondClientFrogprintParamValueStringBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueStringOrBuilder> beyondClientFrogprintParamValueStringBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueString beyond_client_frogprint_param_value_string = 19;</code>
        * @return Whether the beyondClientFrogprintParamValueString field is set.
@@ -6507,23 +6507,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueString.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString getBeyondClientFrogprintParamValueString() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString getBeyondClientFrogprintParamValueString() {
         if (beyondClientFrogprintParamValueStringBuilder_ == null) {
           if (detailCase_ == 19) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString.getDefaultInstance();
         } else {
           if (detailCase_ == 19) {
             return beyondClientFrogprintParamValueStringBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueString beyond_client_frogprint_param_value_string = 19;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueString(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString value) {
+      public Builder setBeyondClientFrogprintParamValueString(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString value) {
         if (beyondClientFrogprintParamValueStringBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6540,7 +6540,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueString beyond_client_frogprint_param_value_string = 19;</code>
        */
       public Builder setBeyondClientFrogprintParamValueString(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString.Builder builderForValue) {
         if (beyondClientFrogprintParamValueStringBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -6553,11 +6553,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueString beyond_client_frogprint_param_value_string = 19;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueString(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString value) {
+      public Builder mergeBeyondClientFrogprintParamValueString(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString value) {
         if (beyondClientFrogprintParamValueStringBuilder_ == null) {
           if (detailCase_ == 19 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -6594,36 +6594,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueString beyond_client_frogprint_param_value_string = 19;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString.Builder getBeyondClientFrogprintParamValueStringBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString.Builder getBeyondClientFrogprintParamValueStringBuilder() {
         return getBeyondClientFrogprintParamValueStringFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueString beyond_client_frogprint_param_value_string = 19;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueStringOrBuilder getBeyondClientFrogprintParamValueStringOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueStringOrBuilder getBeyondClientFrogprintParamValueStringOrBuilder() {
         if ((detailCase_ == 19) && (beyondClientFrogprintParamValueStringBuilder_ != null)) {
           return beyondClientFrogprintParamValueStringBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 19) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueString beyond_client_frogprint_param_value_string = 19;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueStringOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueStringOrBuilder> 
           getBeyondClientFrogprintParamValueStringFieldBuilder() {
         if (beyondClientFrogprintParamValueStringBuilder_ == null) {
           if (!(detailCase_ == 19)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString.getDefaultInstance();
           }
           beyondClientFrogprintParamValueStringBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueStringOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString._BeyondClientFrogprintParamValueString) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueStringOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass._BeyondClientFrogprintParamValueString) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -6634,7 +6634,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringListOrBuilder> beyondClientFrogprintParamValueStringListBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringListOrBuilder> beyondClientFrogprintParamValueStringListBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueStringList beyond_client_frogprint_param_value_string_list = 20;</code>
        * @return Whether the beyondClientFrogprintParamValueStringList field is set.
@@ -6648,23 +6648,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueStringList.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList getBeyondClientFrogprintParamValueStringList() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList getBeyondClientFrogprintParamValueStringList() {
         if (beyondClientFrogprintParamValueStringListBuilder_ == null) {
           if (detailCase_ == 20) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList.getDefaultInstance();
         } else {
           if (detailCase_ == 20) {
             return beyondClientFrogprintParamValueStringListBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueStringList beyond_client_frogprint_param_value_string_list = 20;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueStringList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList value) {
+      public Builder setBeyondClientFrogprintParamValueStringList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList value) {
         if (beyondClientFrogprintParamValueStringListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6681,7 +6681,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueStringList beyond_client_frogprint_param_value_string_list = 20;</code>
        */
       public Builder setBeyondClientFrogprintParamValueStringList(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList.Builder builderForValue) {
         if (beyondClientFrogprintParamValueStringListBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -6694,11 +6694,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueStringList beyond_client_frogprint_param_value_string_list = 20;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueStringList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList value) {
+      public Builder mergeBeyondClientFrogprintParamValueStringList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList value) {
         if (beyondClientFrogprintParamValueStringListBuilder_ == null) {
           if (detailCase_ == 20 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -6735,36 +6735,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueStringList beyond_client_frogprint_param_value_string_list = 20;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList.Builder getBeyondClientFrogprintParamValueStringListBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList.Builder getBeyondClientFrogprintParamValueStringListBuilder() {
         return getBeyondClientFrogprintParamValueStringListFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueStringList beyond_client_frogprint_param_value_string_list = 20;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringListOrBuilder getBeyondClientFrogprintParamValueStringListOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringListOrBuilder getBeyondClientFrogprintParamValueStringListOrBuilder() {
         if ((detailCase_ == 20) && (beyondClientFrogprintParamValueStringListBuilder_ != null)) {
           return beyondClientFrogprintParamValueStringListBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 20) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueStringList beyond_client_frogprint_param_value_string_list = 20;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringListOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringListOrBuilder> 
           getBeyondClientFrogprintParamValueStringListFieldBuilder() {
         if (beyondClientFrogprintParamValueStringListBuilder_ == null) {
           if (!(detailCase_ == 20)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList.getDefaultInstance();
           }
           beyondClientFrogprintParamValueStringListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringListOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList._BeyondClientFrogprintParamValueStringList) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringListOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass._BeyondClientFrogprintParamValueStringList) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -6775,7 +6775,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3OrBuilder> beyondClientFrogprintParamValueVector3Builder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3OrBuilder> beyondClientFrogprintParamValueVector3Builder_;
       /**
        * <code>._BeyondClientFrogprintParamValueVector3 beyond_client_frogprint_param_value_vector_3 = 21;</code>
        * @return Whether the beyondClientFrogprintParamValueVector3 field is set.
@@ -6789,23 +6789,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueVector3.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3 getBeyondClientFrogprintParamValueVector3() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3 getBeyondClientFrogprintParamValueVector3() {
         if (beyondClientFrogprintParamValueVector3Builder_ == null) {
           if (detailCase_ == 21) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3.getDefaultInstance();
         } else {
           if (detailCase_ == 21) {
             return beyondClientFrogprintParamValueVector3Builder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueVector3 beyond_client_frogprint_param_value_vector_3 = 21;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueVector3(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3 value) {
+      public Builder setBeyondClientFrogprintParamValueVector3(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3 value) {
         if (beyondClientFrogprintParamValueVector3Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6822,7 +6822,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueVector3 beyond_client_frogprint_param_value_vector_3 = 21;</code>
        */
       public Builder setBeyondClientFrogprintParamValueVector3(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3.Builder builderForValue) {
         if (beyondClientFrogprintParamValueVector3Builder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -6835,11 +6835,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueVector3 beyond_client_frogprint_param_value_vector_3 = 21;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueVector3(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3 value) {
+      public Builder mergeBeyondClientFrogprintParamValueVector3(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3 value) {
         if (beyondClientFrogprintParamValueVector3Builder_ == null) {
           if (detailCase_ == 21 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -6876,36 +6876,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueVector3 beyond_client_frogprint_param_value_vector_3 = 21;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3.Builder getBeyondClientFrogprintParamValueVector3Builder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3.Builder getBeyondClientFrogprintParamValueVector3Builder() {
         return getBeyondClientFrogprintParamValueVector3FieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueVector3 beyond_client_frogprint_param_value_vector_3 = 21;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3OrBuilder getBeyondClientFrogprintParamValueVector3OrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3OrBuilder getBeyondClientFrogprintParamValueVector3OrBuilder() {
         if ((detailCase_ == 21) && (beyondClientFrogprintParamValueVector3Builder_ != null)) {
           return beyondClientFrogprintParamValueVector3Builder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 21) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueVector3 beyond_client_frogprint_param_value_vector_3 = 21;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3OrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3OrBuilder> 
           getBeyondClientFrogprintParamValueVector3FieldBuilder() {
         if (beyondClientFrogprintParamValueVector3Builder_ == null) {
           if (!(detailCase_ == 21)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3.getDefaultInstance();
           }
           beyondClientFrogprintParamValueVector3Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3OrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3._BeyondClientFrogprintParamValueVector3) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3OrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass._BeyondClientFrogprintParamValueVector3) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -6916,7 +6916,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3ListOrBuilder> beyondClientFrogprintParamValueVector3ListBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3ListOrBuilder> beyondClientFrogprintParamValueVector3ListBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueVector3List beyond_client_frogprint_param_value_vector_3_list = 22;</code>
        * @return Whether the beyondClientFrogprintParamValueVector3List field is set.
@@ -6930,23 +6930,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueVector3List.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List getBeyondClientFrogprintParamValueVector3List() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List getBeyondClientFrogprintParamValueVector3List() {
         if (beyondClientFrogprintParamValueVector3ListBuilder_ == null) {
           if (detailCase_ == 22) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List.getDefaultInstance();
         } else {
           if (detailCase_ == 22) {
             return beyondClientFrogprintParamValueVector3ListBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueVector3List beyond_client_frogprint_param_value_vector_3_list = 22;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueVector3List(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List value) {
+      public Builder setBeyondClientFrogprintParamValueVector3List(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List value) {
         if (beyondClientFrogprintParamValueVector3ListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6963,7 +6963,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueVector3List beyond_client_frogprint_param_value_vector_3_list = 22;</code>
        */
       public Builder setBeyondClientFrogprintParamValueVector3List(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List.Builder builderForValue) {
         if (beyondClientFrogprintParamValueVector3ListBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -6976,11 +6976,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueVector3List beyond_client_frogprint_param_value_vector_3_list = 22;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueVector3List(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List value) {
+      public Builder mergeBeyondClientFrogprintParamValueVector3List(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List value) {
         if (beyondClientFrogprintParamValueVector3ListBuilder_ == null) {
           if (detailCase_ == 22 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -7017,36 +7017,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueVector3List beyond_client_frogprint_param_value_vector_3_list = 22;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List.Builder getBeyondClientFrogprintParamValueVector3ListBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List.Builder getBeyondClientFrogprintParamValueVector3ListBuilder() {
         return getBeyondClientFrogprintParamValueVector3ListFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueVector3List beyond_client_frogprint_param_value_vector_3_list = 22;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3ListOrBuilder getBeyondClientFrogprintParamValueVector3ListOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3ListOrBuilder getBeyondClientFrogprintParamValueVector3ListOrBuilder() {
         if ((detailCase_ == 22) && (beyondClientFrogprintParamValueVector3ListBuilder_ != null)) {
           return beyondClientFrogprintParamValueVector3ListBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 22) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueVector3List beyond_client_frogprint_param_value_vector_3_list = 22;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3ListOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3ListOrBuilder> 
           getBeyondClientFrogprintParamValueVector3ListFieldBuilder() {
         if (beyondClientFrogprintParamValueVector3ListBuilder_ == null) {
           if (!(detailCase_ == 22)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List.getDefaultInstance();
           }
           beyondClientFrogprintParamValueVector3ListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3ListOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List._BeyondClientFrogprintParamValueVector3List) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3ListOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass._BeyondClientFrogprintParamValueVector3List) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -7057,7 +7057,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnumOrBuilder> beyondClientFrogprintParamValueEnumBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnumOrBuilder> beyondClientFrogprintParamValueEnumBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueEnum beyond_client_frogprint_param_value_enum = 23;</code>
        * @return Whether the beyondClientFrogprintParamValueEnum field is set.
@@ -7071,23 +7071,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueEnum.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum getBeyondClientFrogprintParamValueEnum() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum getBeyondClientFrogprintParamValueEnum() {
         if (beyondClientFrogprintParamValueEnumBuilder_ == null) {
           if (detailCase_ == 23) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum.getDefaultInstance();
         } else {
           if (detailCase_ == 23) {
             return beyondClientFrogprintParamValueEnumBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEnum beyond_client_frogprint_param_value_enum = 23;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueEnum(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum value) {
+      public Builder setBeyondClientFrogprintParamValueEnum(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum value) {
         if (beyondClientFrogprintParamValueEnumBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7104,7 +7104,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueEnum beyond_client_frogprint_param_value_enum = 23;</code>
        */
       public Builder setBeyondClientFrogprintParamValueEnum(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum.Builder builderForValue) {
         if (beyondClientFrogprintParamValueEnumBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -7117,11 +7117,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueEnum beyond_client_frogprint_param_value_enum = 23;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueEnum(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum value) {
+      public Builder mergeBeyondClientFrogprintParamValueEnum(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum value) {
         if (beyondClientFrogprintParamValueEnumBuilder_ == null) {
           if (detailCase_ == 23 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -7158,36 +7158,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueEnum beyond_client_frogprint_param_value_enum = 23;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum.Builder getBeyondClientFrogprintParamValueEnumBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum.Builder getBeyondClientFrogprintParamValueEnumBuilder() {
         return getBeyondClientFrogprintParamValueEnumFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEnum beyond_client_frogprint_param_value_enum = 23;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnumOrBuilder getBeyondClientFrogprintParamValueEnumOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnumOrBuilder getBeyondClientFrogprintParamValueEnumOrBuilder() {
         if ((detailCase_ == 23) && (beyondClientFrogprintParamValueEnumBuilder_ != null)) {
           return beyondClientFrogprintParamValueEnumBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 23) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEnum beyond_client_frogprint_param_value_enum = 23;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnumOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnumOrBuilder> 
           getBeyondClientFrogprintParamValueEnumFieldBuilder() {
         if (beyondClientFrogprintParamValueEnumBuilder_ == null) {
           if (!(detailCase_ == 23)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum.getDefaultInstance();
           }
           beyondClientFrogprintParamValueEnumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnumOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum._BeyondClientFrogprintParamValueEnum) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnumOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass._BeyondClientFrogprintParamValueEnum) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -7198,7 +7198,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuidOrBuilder> beyondClientFrogprintParamValueGuidBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuidOrBuilder> beyondClientFrogprintParamValueGuidBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueGuid beyond_client_frogprint_param_value_guid = 24;</code>
        * @return Whether the beyondClientFrogprintParamValueGuid field is set.
@@ -7212,23 +7212,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueGuid.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid getBeyondClientFrogprintParamValueGuid() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid getBeyondClientFrogprintParamValueGuid() {
         if (beyondClientFrogprintParamValueGuidBuilder_ == null) {
           if (detailCase_ == 24) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid.getDefaultInstance();
         } else {
           if (detailCase_ == 24) {
             return beyondClientFrogprintParamValueGuidBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueGuid beyond_client_frogprint_param_value_guid = 24;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueGuid(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid value) {
+      public Builder setBeyondClientFrogprintParamValueGuid(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid value) {
         if (beyondClientFrogprintParamValueGuidBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7245,7 +7245,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueGuid beyond_client_frogprint_param_value_guid = 24;</code>
        */
       public Builder setBeyondClientFrogprintParamValueGuid(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid.Builder builderForValue) {
         if (beyondClientFrogprintParamValueGuidBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -7258,11 +7258,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueGuid beyond_client_frogprint_param_value_guid = 24;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueGuid(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid value) {
+      public Builder mergeBeyondClientFrogprintParamValueGuid(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid value) {
         if (beyondClientFrogprintParamValueGuidBuilder_ == null) {
           if (detailCase_ == 24 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -7299,36 +7299,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueGuid beyond_client_frogprint_param_value_guid = 24;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid.Builder getBeyondClientFrogprintParamValueGuidBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid.Builder getBeyondClientFrogprintParamValueGuidBuilder() {
         return getBeyondClientFrogprintParamValueGuidFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueGuid beyond_client_frogprint_param_value_guid = 24;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuidOrBuilder getBeyondClientFrogprintParamValueGuidOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuidOrBuilder getBeyondClientFrogprintParamValueGuidOrBuilder() {
         if ((detailCase_ == 24) && (beyondClientFrogprintParamValueGuidBuilder_ != null)) {
           return beyondClientFrogprintParamValueGuidBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 24) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueGuid beyond_client_frogprint_param_value_guid = 24;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuidOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuidOrBuilder> 
           getBeyondClientFrogprintParamValueGuidFieldBuilder() {
         if (beyondClientFrogprintParamValueGuidBuilder_ == null) {
           if (!(detailCase_ == 24)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid.getDefaultInstance();
           }
           beyondClientFrogprintParamValueGuidBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuidOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid._BeyondClientFrogprintParamValueGuid) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuidOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass._BeyondClientFrogprintParamValueGuid) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -7339,7 +7339,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidListOrBuilder> beyondClientFrogprintParamValueGuidListBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidListOrBuilder> beyondClientFrogprintParamValueGuidListBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueGuidList beyond_client_frogprint_param_value_guid_list = 25;</code>
        * @return Whether the beyondClientFrogprintParamValueGuidList field is set.
@@ -7353,23 +7353,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueGuidList.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList getBeyondClientFrogprintParamValueGuidList() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList getBeyondClientFrogprintParamValueGuidList() {
         if (beyondClientFrogprintParamValueGuidListBuilder_ == null) {
           if (detailCase_ == 25) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList.getDefaultInstance();
         } else {
           if (detailCase_ == 25) {
             return beyondClientFrogprintParamValueGuidListBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueGuidList beyond_client_frogprint_param_value_guid_list = 25;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueGuidList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList value) {
+      public Builder setBeyondClientFrogprintParamValueGuidList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList value) {
         if (beyondClientFrogprintParamValueGuidListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7386,7 +7386,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueGuidList beyond_client_frogprint_param_value_guid_list = 25;</code>
        */
       public Builder setBeyondClientFrogprintParamValueGuidList(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList.Builder builderForValue) {
         if (beyondClientFrogprintParamValueGuidListBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -7399,11 +7399,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueGuidList beyond_client_frogprint_param_value_guid_list = 25;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueGuidList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList value) {
+      public Builder mergeBeyondClientFrogprintParamValueGuidList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList value) {
         if (beyondClientFrogprintParamValueGuidListBuilder_ == null) {
           if (detailCase_ == 25 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -7440,36 +7440,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueGuidList beyond_client_frogprint_param_value_guid_list = 25;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList.Builder getBeyondClientFrogprintParamValueGuidListBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList.Builder getBeyondClientFrogprintParamValueGuidListBuilder() {
         return getBeyondClientFrogprintParamValueGuidListFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueGuidList beyond_client_frogprint_param_value_guid_list = 25;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidListOrBuilder getBeyondClientFrogprintParamValueGuidListOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidListOrBuilder getBeyondClientFrogprintParamValueGuidListOrBuilder() {
         if ((detailCase_ == 25) && (beyondClientFrogprintParamValueGuidListBuilder_ != null)) {
           return beyondClientFrogprintParamValueGuidListBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 25) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueGuidList beyond_client_frogprint_param_value_guid_list = 25;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidListOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidListOrBuilder> 
           getBeyondClientFrogprintParamValueGuidListFieldBuilder() {
         if (beyondClientFrogprintParamValueGuidListBuilder_ == null) {
           if (!(detailCase_ == 25)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList.getDefaultInstance();
           }
           beyondClientFrogprintParamValueGuidListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidListOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList._BeyondClientFrogprintParamValueGuidList) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidListOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass._BeyondClientFrogprintParamValueGuidList) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -7480,7 +7480,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmyOrBuilder> beyondClientFrogprintParamValueArmyBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmyOrBuilder> beyondClientFrogprintParamValueArmyBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueArmy beyond_client_frogprint_param_value_army = 26;</code>
        * @return Whether the beyondClientFrogprintParamValueArmy field is set.
@@ -7494,23 +7494,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueArmy.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy getBeyondClientFrogprintParamValueArmy() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy getBeyondClientFrogprintParamValueArmy() {
         if (beyondClientFrogprintParamValueArmyBuilder_ == null) {
           if (detailCase_ == 26) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy.getDefaultInstance();
         } else {
           if (detailCase_ == 26) {
             return beyondClientFrogprintParamValueArmyBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueArmy beyond_client_frogprint_param_value_army = 26;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueArmy(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy value) {
+      public Builder setBeyondClientFrogprintParamValueArmy(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy value) {
         if (beyondClientFrogprintParamValueArmyBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7527,7 +7527,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueArmy beyond_client_frogprint_param_value_army = 26;</code>
        */
       public Builder setBeyondClientFrogprintParamValueArmy(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy.Builder builderForValue) {
         if (beyondClientFrogprintParamValueArmyBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -7540,11 +7540,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueArmy beyond_client_frogprint_param_value_army = 26;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueArmy(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy value) {
+      public Builder mergeBeyondClientFrogprintParamValueArmy(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy value) {
         if (beyondClientFrogprintParamValueArmyBuilder_ == null) {
           if (detailCase_ == 26 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -7581,36 +7581,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueArmy beyond_client_frogprint_param_value_army = 26;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy.Builder getBeyondClientFrogprintParamValueArmyBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy.Builder getBeyondClientFrogprintParamValueArmyBuilder() {
         return getBeyondClientFrogprintParamValueArmyFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueArmy beyond_client_frogprint_param_value_army = 26;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmyOrBuilder getBeyondClientFrogprintParamValueArmyOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmyOrBuilder getBeyondClientFrogprintParamValueArmyOrBuilder() {
         if ((detailCase_ == 26) && (beyondClientFrogprintParamValueArmyBuilder_ != null)) {
           return beyondClientFrogprintParamValueArmyBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 26) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueArmy beyond_client_frogprint_param_value_army = 26;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmyOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmyOrBuilder> 
           getBeyondClientFrogprintParamValueArmyFieldBuilder() {
         if (beyondClientFrogprintParamValueArmyBuilder_ == null) {
           if (!(detailCase_ == 26)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy.getDefaultInstance();
           }
           beyondClientFrogprintParamValueArmyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmyOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy._BeyondClientFrogprintParamValueArmy) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmyOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass._BeyondClientFrogprintParamValueArmy) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -7621,7 +7621,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumListOrBuilder> beyondClientFrogprintParamValueEnumListBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumListOrBuilder> beyondClientFrogprintParamValueEnumListBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueEnumList beyond_client_frogprint_param_value_enum_list = 27;</code>
        * @return Whether the beyondClientFrogprintParamValueEnumList field is set.
@@ -7635,23 +7635,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueEnumList.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList getBeyondClientFrogprintParamValueEnumList() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList getBeyondClientFrogprintParamValueEnumList() {
         if (beyondClientFrogprintParamValueEnumListBuilder_ == null) {
           if (detailCase_ == 27) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList.getDefaultInstance();
         } else {
           if (detailCase_ == 27) {
             return beyondClientFrogprintParamValueEnumListBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEnumList beyond_client_frogprint_param_value_enum_list = 27;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueEnumList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList value) {
+      public Builder setBeyondClientFrogprintParamValueEnumList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList value) {
         if (beyondClientFrogprintParamValueEnumListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7668,7 +7668,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueEnumList beyond_client_frogprint_param_value_enum_list = 27;</code>
        */
       public Builder setBeyondClientFrogprintParamValueEnumList(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList.Builder builderForValue) {
         if (beyondClientFrogprintParamValueEnumListBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -7681,11 +7681,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueEnumList beyond_client_frogprint_param_value_enum_list = 27;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueEnumList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList value) {
+      public Builder mergeBeyondClientFrogprintParamValueEnumList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList value) {
         if (beyondClientFrogprintParamValueEnumListBuilder_ == null) {
           if (detailCase_ == 27 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -7722,36 +7722,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueEnumList beyond_client_frogprint_param_value_enum_list = 27;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList.Builder getBeyondClientFrogprintParamValueEnumListBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList.Builder getBeyondClientFrogprintParamValueEnumListBuilder() {
         return getBeyondClientFrogprintParamValueEnumListFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEnumList beyond_client_frogprint_param_value_enum_list = 27;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumListOrBuilder getBeyondClientFrogprintParamValueEnumListOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumListOrBuilder getBeyondClientFrogprintParamValueEnumListOrBuilder() {
         if ((detailCase_ == 27) && (beyondClientFrogprintParamValueEnumListBuilder_ != null)) {
           return beyondClientFrogprintParamValueEnumListBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 27) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEnumList beyond_client_frogprint_param_value_enum_list = 27;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumListOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumListOrBuilder> 
           getBeyondClientFrogprintParamValueEnumListFieldBuilder() {
         if (beyondClientFrogprintParamValueEnumListBuilder_ == null) {
           if (!(detailCase_ == 27)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList.getDefaultInstance();
           }
           beyondClientFrogprintParamValueEnumListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumListOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList._BeyondClientFrogprintParamValueEnumList) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumListOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass._BeyondClientFrogprintParamValueEnumList) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -7762,7 +7762,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReferenceOrBuilder> beyondClientFrogprintParamValueConfigReferenceBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReferenceOrBuilder> beyondClientFrogprintParamValueConfigReferenceBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueConfigReference beyond_client_frogprint_param_value_config_reference = 28;</code>
        * @return Whether the beyondClientFrogprintParamValueConfigReference field is set.
@@ -7776,23 +7776,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueConfigReference.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference getBeyondClientFrogprintParamValueConfigReference() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference getBeyondClientFrogprintParamValueConfigReference() {
         if (beyondClientFrogprintParamValueConfigReferenceBuilder_ == null) {
           if (detailCase_ == 28) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference.getDefaultInstance();
         } else {
           if (detailCase_ == 28) {
             return beyondClientFrogprintParamValueConfigReferenceBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueConfigReference beyond_client_frogprint_param_value_config_reference = 28;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueConfigReference(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference value) {
+      public Builder setBeyondClientFrogprintParamValueConfigReference(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference value) {
         if (beyondClientFrogprintParamValueConfigReferenceBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7809,7 +7809,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueConfigReference beyond_client_frogprint_param_value_config_reference = 28;</code>
        */
       public Builder setBeyondClientFrogprintParamValueConfigReference(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference.Builder builderForValue) {
         if (beyondClientFrogprintParamValueConfigReferenceBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -7822,11 +7822,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueConfigReference beyond_client_frogprint_param_value_config_reference = 28;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueConfigReference(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference value) {
+      public Builder mergeBeyondClientFrogprintParamValueConfigReference(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference value) {
         if (beyondClientFrogprintParamValueConfigReferenceBuilder_ == null) {
           if (detailCase_ == 28 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -7863,36 +7863,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueConfigReference beyond_client_frogprint_param_value_config_reference = 28;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference.Builder getBeyondClientFrogprintParamValueConfigReferenceBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference.Builder getBeyondClientFrogprintParamValueConfigReferenceBuilder() {
         return getBeyondClientFrogprintParamValueConfigReferenceFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueConfigReference beyond_client_frogprint_param_value_config_reference = 28;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReferenceOrBuilder getBeyondClientFrogprintParamValueConfigReferenceOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReferenceOrBuilder getBeyondClientFrogprintParamValueConfigReferenceOrBuilder() {
         if ((detailCase_ == 28) && (beyondClientFrogprintParamValueConfigReferenceBuilder_ != null)) {
           return beyondClientFrogprintParamValueConfigReferenceBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 28) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueConfigReference beyond_client_frogprint_param_value_config_reference = 28;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReferenceOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReferenceOrBuilder> 
           getBeyondClientFrogprintParamValueConfigReferenceFieldBuilder() {
         if (beyondClientFrogprintParamValueConfigReferenceBuilder_ == null) {
           if (!(detailCase_ == 28)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference.getDefaultInstance();
           }
           beyondClientFrogprintParamValueConfigReferenceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReferenceOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference._BeyondClientFrogprintParamValueConfigReference) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReferenceOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass._BeyondClientFrogprintParamValueConfigReference) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -7903,7 +7903,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReferenceOrBuilder> beyondClientFrogprintParamValueEntityReferenceBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReferenceOrBuilder> beyondClientFrogprintParamValueEntityReferenceBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueEntityReference beyond_client_frogprint_param_value_entity_reference = 29;</code>
        * @return Whether the beyondClientFrogprintParamValueEntityReference field is set.
@@ -7917,23 +7917,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueEntityReference.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference getBeyondClientFrogprintParamValueEntityReference() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference getBeyondClientFrogprintParamValueEntityReference() {
         if (beyondClientFrogprintParamValueEntityReferenceBuilder_ == null) {
           if (detailCase_ == 29) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference.getDefaultInstance();
         } else {
           if (detailCase_ == 29) {
             return beyondClientFrogprintParamValueEntityReferenceBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEntityReference beyond_client_frogprint_param_value_entity_reference = 29;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueEntityReference(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference value) {
+      public Builder setBeyondClientFrogprintParamValueEntityReference(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference value) {
         if (beyondClientFrogprintParamValueEntityReferenceBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7950,7 +7950,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueEntityReference beyond_client_frogprint_param_value_entity_reference = 29;</code>
        */
       public Builder setBeyondClientFrogprintParamValueEntityReference(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference.Builder builderForValue) {
         if (beyondClientFrogprintParamValueEntityReferenceBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -7963,11 +7963,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueEntityReference beyond_client_frogprint_param_value_entity_reference = 29;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueEntityReference(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference value) {
+      public Builder mergeBeyondClientFrogprintParamValueEntityReference(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference value) {
         if (beyondClientFrogprintParamValueEntityReferenceBuilder_ == null) {
           if (detailCase_ == 29 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -8004,36 +8004,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueEntityReference beyond_client_frogprint_param_value_entity_reference = 29;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference.Builder getBeyondClientFrogprintParamValueEntityReferenceBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference.Builder getBeyondClientFrogprintParamValueEntityReferenceBuilder() {
         return getBeyondClientFrogprintParamValueEntityReferenceFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEntityReference beyond_client_frogprint_param_value_entity_reference = 29;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReferenceOrBuilder getBeyondClientFrogprintParamValueEntityReferenceOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReferenceOrBuilder getBeyondClientFrogprintParamValueEntityReferenceOrBuilder() {
         if ((detailCase_ == 29) && (beyondClientFrogprintParamValueEntityReferenceBuilder_ != null)) {
           return beyondClientFrogprintParamValueEntityReferenceBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 29) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEntityReference beyond_client_frogprint_param_value_entity_reference = 29;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReferenceOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReferenceOrBuilder> 
           getBeyondClientFrogprintParamValueEntityReferenceFieldBuilder() {
         if (beyondClientFrogprintParamValueEntityReferenceBuilder_ == null) {
           if (!(detailCase_ == 29)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference.getDefaultInstance();
           }
           beyondClientFrogprintParamValueEntityReferenceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReferenceOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference._BeyondClientFrogprintParamValueEntityReference) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReferenceOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass._BeyondClientFrogprintParamValueEntityReference) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -8044,7 +8044,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceListOrBuilder> beyondClientFrogprintParamValueConfigReferenceListBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceListOrBuilder> beyondClientFrogprintParamValueConfigReferenceListBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueConfigReferenceList beyond_client_frogprint_param_value_config_reference_list = 30;</code>
        * @return Whether the beyondClientFrogprintParamValueConfigReferenceList field is set.
@@ -8058,23 +8058,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueConfigReferenceList.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList getBeyondClientFrogprintParamValueConfigReferenceList() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList getBeyondClientFrogprintParamValueConfigReferenceList() {
         if (beyondClientFrogprintParamValueConfigReferenceListBuilder_ == null) {
           if (detailCase_ == 30) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList.getDefaultInstance();
         } else {
           if (detailCase_ == 30) {
             return beyondClientFrogprintParamValueConfigReferenceListBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueConfigReferenceList beyond_client_frogprint_param_value_config_reference_list = 30;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueConfigReferenceList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList value) {
+      public Builder setBeyondClientFrogprintParamValueConfigReferenceList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList value) {
         if (beyondClientFrogprintParamValueConfigReferenceListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -8091,7 +8091,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueConfigReferenceList beyond_client_frogprint_param_value_config_reference_list = 30;</code>
        */
       public Builder setBeyondClientFrogprintParamValueConfigReferenceList(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList.Builder builderForValue) {
         if (beyondClientFrogprintParamValueConfigReferenceListBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -8104,11 +8104,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueConfigReferenceList beyond_client_frogprint_param_value_config_reference_list = 30;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueConfigReferenceList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList value) {
+      public Builder mergeBeyondClientFrogprintParamValueConfigReferenceList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList value) {
         if (beyondClientFrogprintParamValueConfigReferenceListBuilder_ == null) {
           if (detailCase_ == 30 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -8145,36 +8145,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueConfigReferenceList beyond_client_frogprint_param_value_config_reference_list = 30;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList.Builder getBeyondClientFrogprintParamValueConfigReferenceListBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList.Builder getBeyondClientFrogprintParamValueConfigReferenceListBuilder() {
         return getBeyondClientFrogprintParamValueConfigReferenceListFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueConfigReferenceList beyond_client_frogprint_param_value_config_reference_list = 30;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceListOrBuilder getBeyondClientFrogprintParamValueConfigReferenceListOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceListOrBuilder getBeyondClientFrogprintParamValueConfigReferenceListOrBuilder() {
         if ((detailCase_ == 30) && (beyondClientFrogprintParamValueConfigReferenceListBuilder_ != null)) {
           return beyondClientFrogprintParamValueConfigReferenceListBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 30) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueConfigReferenceList beyond_client_frogprint_param_value_config_reference_list = 30;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceListOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceListOrBuilder> 
           getBeyondClientFrogprintParamValueConfigReferenceListFieldBuilder() {
         if (beyondClientFrogprintParamValueConfigReferenceListBuilder_ == null) {
           if (!(detailCase_ == 30)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList.getDefaultInstance();
           }
           beyondClientFrogprintParamValueConfigReferenceListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceListOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList._BeyondClientFrogprintParamValueConfigReferenceList) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceListOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass._BeyondClientFrogprintParamValueConfigReferenceList) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -8185,7 +8185,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceListOrBuilder> beyondClientFrogprintParamValueEntityReferenceListBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceListOrBuilder> beyondClientFrogprintParamValueEntityReferenceListBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueEntityReferenceList beyond_client_frogprint_param_value_entity_reference_list = 31;</code>
        * @return Whether the beyondClientFrogprintParamValueEntityReferenceList field is set.
@@ -8199,23 +8199,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueEntityReferenceList.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList getBeyondClientFrogprintParamValueEntityReferenceList() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList getBeyondClientFrogprintParamValueEntityReferenceList() {
         if (beyondClientFrogprintParamValueEntityReferenceListBuilder_ == null) {
           if (detailCase_ == 31) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList.getDefaultInstance();
         } else {
           if (detailCase_ == 31) {
             return beyondClientFrogprintParamValueEntityReferenceListBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEntityReferenceList beyond_client_frogprint_param_value_entity_reference_list = 31;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueEntityReferenceList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList value) {
+      public Builder setBeyondClientFrogprintParamValueEntityReferenceList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList value) {
         if (beyondClientFrogprintParamValueEntityReferenceListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -8232,7 +8232,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueEntityReferenceList beyond_client_frogprint_param_value_entity_reference_list = 31;</code>
        */
       public Builder setBeyondClientFrogprintParamValueEntityReferenceList(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList.Builder builderForValue) {
         if (beyondClientFrogprintParamValueEntityReferenceListBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -8245,11 +8245,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueEntityReferenceList beyond_client_frogprint_param_value_entity_reference_list = 31;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueEntityReferenceList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList value) {
+      public Builder mergeBeyondClientFrogprintParamValueEntityReferenceList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList value) {
         if (beyondClientFrogprintParamValueEntityReferenceListBuilder_ == null) {
           if (detailCase_ == 31 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -8286,36 +8286,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueEntityReferenceList beyond_client_frogprint_param_value_entity_reference_list = 31;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList.Builder getBeyondClientFrogprintParamValueEntityReferenceListBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList.Builder getBeyondClientFrogprintParamValueEntityReferenceListBuilder() {
         return getBeyondClientFrogprintParamValueEntityReferenceListFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEntityReferenceList beyond_client_frogprint_param_value_entity_reference_list = 31;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceListOrBuilder getBeyondClientFrogprintParamValueEntityReferenceListOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceListOrBuilder getBeyondClientFrogprintParamValueEntityReferenceListOrBuilder() {
         if ((detailCase_ == 31) && (beyondClientFrogprintParamValueEntityReferenceListBuilder_ != null)) {
           return beyondClientFrogprintParamValueEntityReferenceListBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 31) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueEntityReferenceList beyond_client_frogprint_param_value_entity_reference_list = 31;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceListOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceListOrBuilder> 
           getBeyondClientFrogprintParamValueEntityReferenceListFieldBuilder() {
         if (beyondClientFrogprintParamValueEntityReferenceListBuilder_ == null) {
           if (!(detailCase_ == 31)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList.getDefaultInstance();
           }
           beyondClientFrogprintParamValueEntityReferenceListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceListOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList._BeyondClientFrogprintParamValueEntityReferenceList) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceListOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass._BeyondClientFrogprintParamValueEntityReferenceList) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -8749,7 +8749,7 @@ public final class ACLCFFFJLKIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyListOrBuilder> beyondClientFrogprintParamValueArmyListBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyListOrBuilder> beyondClientFrogprintParamValueArmyListBuilder_;
       /**
        * <code>._BeyondClientFrogprintParamValueArmyList beyond_client_frogprint_param_value_army_list = 35;</code>
        * @return Whether the beyondClientFrogprintParamValueArmyList field is set.
@@ -8763,23 +8763,23 @@ public final class ACLCFFFJLKIOuterClass {
        * @return The beyondClientFrogprintParamValueArmyList.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList getBeyondClientFrogprintParamValueArmyList() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList getBeyondClientFrogprintParamValueArmyList() {
         if (beyondClientFrogprintParamValueArmyListBuilder_ == null) {
           if (detailCase_ == 35) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList.getDefaultInstance();
         } else {
           if (detailCase_ == 35) {
             return beyondClientFrogprintParamValueArmyListBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueArmyList beyond_client_frogprint_param_value_army_list = 35;</code>
        */
-      public Builder setBeyondClientFrogprintParamValueArmyList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList value) {
+      public Builder setBeyondClientFrogprintParamValueArmyList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList value) {
         if (beyondClientFrogprintParamValueArmyListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -8796,7 +8796,7 @@ public final class ACLCFFFJLKIOuterClass {
        * <code>._BeyondClientFrogprintParamValueArmyList beyond_client_frogprint_param_value_army_list = 35;</code>
        */
       public Builder setBeyondClientFrogprintParamValueArmyList(
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList.Builder builderForValue) {
         if (beyondClientFrogprintParamValueArmyListBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -8809,11 +8809,11 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueArmyList beyond_client_frogprint_param_value_army_list = 35;</code>
        */
-      public Builder mergeBeyondClientFrogprintParamValueArmyList(emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList value) {
+      public Builder mergeBeyondClientFrogprintParamValueArmyList(emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList value) {
         if (beyondClientFrogprintParamValueArmyListBuilder_ == null) {
           if (detailCase_ == 35 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -8850,36 +8850,36 @@ public final class ACLCFFFJLKIOuterClass {
       /**
        * <code>._BeyondClientFrogprintParamValueArmyList beyond_client_frogprint_param_value_army_list = 35;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList.Builder getBeyondClientFrogprintParamValueArmyListBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList.Builder getBeyondClientFrogprintParamValueArmyListBuilder() {
         return getBeyondClientFrogprintParamValueArmyListFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintParamValueArmyList beyond_client_frogprint_param_value_army_list = 35;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyListOrBuilder getBeyondClientFrogprintParamValueArmyListOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyListOrBuilder getBeyondClientFrogprintParamValueArmyListOrBuilder() {
         if ((detailCase_ == 35) && (beyondClientFrogprintParamValueArmyListBuilder_ != null)) {
           return beyondClientFrogprintParamValueArmyListBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 35) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintParamValueArmyList beyond_client_frogprint_param_value_army_list = 35;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyListOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyListOrBuilder> 
           getBeyondClientFrogprintParamValueArmyListFieldBuilder() {
         if (beyondClientFrogprintParamValueArmyListBuilder_ == null) {
           if (!(detailCase_ == 35)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList.getDefaultInstance();
           }
           beyondClientFrogprintParamValueArmyListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyListOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList._BeyondClientFrogprintParamValueArmyList) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyListOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass._BeyondClientFrogprintParamValueArmyList) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -9069,36 +9069,36 @@ public final class ACLCFFFJLKIOuterClass {
       "ntParamValueDictH\000\022b\n-beyond_client_frog" +
       "print_param_value_army_list\030# \001(\0132)._Bey" +
       "ondClientFrogprintParamValueArmyListH\000B\010" +
-      "\n\006detailB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "\n\006detailB2\n\031emu.grasscutter.net.protoB\025A" +
+      "CLCFFFJLKIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.JOENAFHBFEIOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.MOHMOMPBEOFOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass.getDescriptor(),
         });
     internal_static__BeyondClientFrogprintParamValueDict_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -9126,28 +9126,28 @@ public final class ACLCFFFJLKIOuterClass {
         new java.lang.String[] { "KGEKOKKHFMG", "DOELKBCHFDF", "BeyondClientFrogprintParamValueEntity", "BeyondClientFrogprintParamValueEntityList", "BeyondClientFrogprintParamValueInt", "BeyondClientFrogprintParamValueIntList", "BeyondClientFrogprintParamValueBool", "BeyondClientFrogprintParamValueBoolList", "BeyondClientFrogprintParamValueFloat", "BeyondClientFrogprintParamValueFloatList", "BeyondClientFrogprintParamValueString", "BeyondClientFrogprintParamValueStringList", "BeyondClientFrogprintParamValueVector3", "BeyondClientFrogprintParamValueVector3List", "BeyondClientFrogprintParamValueEnum", "BeyondClientFrogprintParamValueGuid", "BeyondClientFrogprintParamValueGuidList", "BeyondClientFrogprintParamValueArmy", "BeyondClientFrogprintParamValueEnumList", "BeyondClientFrogprintParamValueConfigReference", "BeyondClientFrogprintParamValueEntityReference", "BeyondClientFrogprintParamValueConfigReferenceList", "BeyondClientFrogprintParamValueEntityReferenceList", "BeyondClientFrogprintParamValueStruct", "BeyondClientFrogprintParamValueStructList", "BeyondClientFrogprintParamValueDict", "BeyondClientFrogprintParamValueArmyList", "Detail", });
     emu.grasscutter.net.proto.JOENAFHBFEIOuterClass.getDescriptor();
     emu.grasscutter.net.proto.MOHMOMPBEOFOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmy.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueArmyList.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBool.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueBoolList.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReference.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueConfigReferenceList.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntity.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityList.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReference.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEntityReferenceList.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnum.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueEnumList.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloat.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueFloatList.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuid.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueGuidList.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueInt.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueIntList.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueString.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueStringList.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintParamValueVector3List.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueArmyListOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueBoolListOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueConfigReferenceListOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityListOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEntityReferenceListOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueEnumListOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueFloatListOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueGuidListOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueIntListOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueStringListOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3OuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintParamValueVector3ListOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

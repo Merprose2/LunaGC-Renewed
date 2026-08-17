@@ -1247,8 +1247,8 @@ public final class ChessPlayerInfoOuterClass {
       "JFIFMLL\030\005 \001(\r\022\027\n\017building_points\030\010 \001(\r\0226" +
       "\n\030candidate_card_info_list\030\t \003(\0132\024.Chess" +
       "NormalCardInfo\022\013\n\003uid\030\013 \001(\r\022\023\n\013GLALIFODM" +
-      "KD\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "KD\030\017 \001(\rB6\n\031emu.grasscutter.net.protoB\031C" +
+      "hessPlayerInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -795,8 +795,9 @@ public final class DoRoguelikeDungeonCardGachaRspOuterClass {
       "\n$DoRoguelikeDungeonCardGachaRsp.proto\"\\" +
       "\n\036DoRoguelikeDungeonCardGachaRsp\022\026\n\016is_c" +
       "an_refresh\030\001 \001(\010\022\021\n\tcard_list\030\003 \003(\r\022\017\n\007r" +
-      "etcode\030\007 \001(\005B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "etcode\030\007 \001(\005BE\n\031emu.grasscutter.net.prot" +
+      "oB(DoRoguelikeDungeonCardGachaRspOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

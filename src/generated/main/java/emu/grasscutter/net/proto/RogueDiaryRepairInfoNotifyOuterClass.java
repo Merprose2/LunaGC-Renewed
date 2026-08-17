@@ -2604,8 +2604,9 @@ public final class RogueDiaryRepairInfoNotifyOuterClass {
       "rd_list\030\006 \003(\r\022\023\n\013GALBOMJJAAN\030\010 \003(\r\022&\n\tro" +
       "om_list\030\t \003(\0132\023.RogueDiaryRoomInfo\022&\n\013av" +
       "atar_list\030\r \003(\0132\021.RogueDiaryAvatar\022\020\n\010st" +
-      "age_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "age_id\030\017 \001(\rBA\n\031emu.grasscutter.net.prot" +
+      "oB$RogueDiaryRepairInfoNotifyOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

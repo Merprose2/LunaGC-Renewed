@@ -902,8 +902,9 @@ public final class MiracleRingDeliverItemReqOuterClass {
       "OpType.proto\"\206\001\n\031MiracleRingDeliverItemR" +
       "eq\022\021\n\tgadget_id\030\004 \001(\r\022\035\n\025food_weapon_gui" +
       "d_list\030\n \003(\004\022\035\n\007op_type\030\r \001(\0162\014.InterOpT" +
-      "ype\022\030\n\020gadget_entity_id\030\016 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ype\022\030\n\020gadget_entity_id\030\016 \001(\rB@\n\031emu.gra" +
+      "sscutter.net.protoB#MiracleRingDeliverIt" +
+      "emReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

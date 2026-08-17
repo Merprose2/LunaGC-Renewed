@@ -832,8 +832,9 @@ public final class EntityAuthorityChangeNotifyOuterClass {
       "\n!EntityAuthorityChangeNotify.proto\032\025Aut" +
       "horityChange.proto\"N\n\033EntityAuthorityCha" +
       "ngeNotify\022/\n\025authority_change_list\030\004 \003(\013" +
-      "2\020.AuthorityChangeB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "2\020.AuthorityChangeBB\n\031emu.grasscutter.ne" +
+      "t.protoB%EntityAuthorityChangeNotifyOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

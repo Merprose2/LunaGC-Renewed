@@ -987,7 +987,8 @@ public final class CLCHGFDNCHCOuterClass {
       "\n\021CLCHGFDNCHC.proto\"c\n\013CLCHGFDNCHC\022\020\n\010le" +
       "vel_id\030\002 \001(\r\022\030\n\020difficulty_level\030\007 \001(\r\022\023" +
       "\n\013GJLKCAHIMMJ\030\013 \003(\r\022\023\n\013ICLJAGFOPFL\030\r \003(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025CLCHGFDNC" +
+      "HCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

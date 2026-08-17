@@ -660,8 +660,8 @@ public final class NJFKNOGCKDIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NJFKNOGCKDI.proto\"O\n\013NJFKNOGCKDI\022\024\n\013OD" +
       "LHNBICJMC\030\365\003 \001(\005\022\024\n\013BNGPEDAOHFH\030\366\003 \001(\005\022\024" +
-      "\n\013EJAMNNCNJHF\030\367\003 \001(\002B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\n\013EJAMNNCNJHF\030\367\003 \001(\002B2\n\031emu.grasscutter." +
+      "net.protoB\025NJFKNOGCKDIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

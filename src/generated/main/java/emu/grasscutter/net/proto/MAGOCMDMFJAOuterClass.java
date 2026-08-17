@@ -729,8 +729,9 @@ public final class MAGOCMDMFJAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MAGOCMDMFJA.proto\032\021KJCJKLHAFHI.proto\"C" +
       "\n\013MAGOCMDMFJA\022\023\n\013MAPDMPBMDFH\030\013 \001(\r\022\037\n\tsh" +
-      "op_info\030\014 \001(\0132\014.KJCJKLHAFHIB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "op_info\030\014 \001(\0132\014.KJCJKLHAFHIB2\n\031emu.grass" +
+      "cutter.net.protoB\025MAGOCMDMFJAOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

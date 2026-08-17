@@ -25,19 +25,19 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
     int getIHODOKLDAGG();
 
     /**
-     * <code>._AquariumDivingBagDetail _bag_detail = 6;</code>
-     * @return Whether the bagDetail field is set.
+     * <code>.JPJJIHFIAKI KJHPACDMOPI = 6;</code>
+     * @return Whether the kJHPACDMOPI field is set.
      */
-    boolean hasBagDetail();
+    boolean hasKJHPACDMOPI();
     /**
-     * <code>._AquariumDivingBagDetail _bag_detail = 6;</code>
-     * @return The bagDetail.
+     * <code>.JPJJIHFIAKI KJHPACDMOPI = 6;</code>
+     * @return The kJHPACDMOPI.
      */
-    emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail getBagDetail();
+    emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI getKJHPACDMOPI();
     /**
-     * <code>._AquariumDivingBagDetail _bag_detail = 6;</code>
+     * <code>.JPJJIHFIAKI KJHPACDMOPI = 6;</code>
      */
-    emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetailOrBuilder getBagDetailOrBuilder();
+    emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKIOrBuilder getKJHPACDMOPIOrBuilder();
 
     /**
      * <code>uint32 EFPBHJOIBJH = 9;</code>
@@ -52,10 +52,10 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
     int getCFPHMDCAGDL();
 
     /**
-     * <code>uint32 _bait_count = 12;</code>
-     * @return The baitCount.
+     * <code>uint32 EIBPNPEPJBD = 12;</code>
+     * @return The eIBPNPEPJBD.
      */
-    int getBaitCount();
+    int getEIBPNPEPJBD();
 
     /**
      * <code>repeated uint32 _finished_task_id_list = 13;</code>
@@ -75,19 +75,19 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
     int getFinishedTaskIdList(int index);
 
     /**
-     * <code>._AquariumDivingLevelEvent IDPMJLBKBNC = 14;</code>
+     * <code>.FEGPPEDBIBI IDPMJLBKBNC = 14;</code>
      * @return Whether the iDPMJLBKBNC field is set.
      */
     boolean hasIDPMJLBKBNC();
     /**
-     * <code>._AquariumDivingLevelEvent IDPMJLBKBNC = 14;</code>
+     * <code>.FEGPPEDBIBI IDPMJLBKBNC = 14;</code>
      * @return The iDPMJLBKBNC.
      */
-    emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent getIDPMJLBKBNC();
+    emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI getIDPMJLBKBNC();
     /**
-     * <code>._AquariumDivingLevelEvent IDPMJLBKBNC = 14;</code>
+     * <code>.FEGPPEDBIBI IDPMJLBKBNC = 14;</code>
      */
-    emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEventOrBuilder getIDPMJLBKBNCOrBuilder();
+    emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBIOrBuilder getIDPMJLBKBNCOrBuilder();
 
     /**
      * <code>uint32 GJFKPLMNGED = 15;</code>
@@ -148,14 +148,14 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
               break;
             }
             case 50: {
-              emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail.Builder subBuilder = null;
-              if (BagDetail_ != null) {
-                subBuilder = BagDetail_.toBuilder();
+              emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI.Builder subBuilder = null;
+              if (kJHPACDMOPI_ != null) {
+                subBuilder = kJHPACDMOPI_.toBuilder();
               }
-              BagDetail_ = input.readMessage(emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail.parser(), extensionRegistry);
+              kJHPACDMOPI_ = input.readMessage(emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(BagDetail_);
-                BagDetail_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(kJHPACDMOPI_);
+                kJHPACDMOPI_ = subBuilder.buildPartial();
               }
 
               break;
@@ -172,7 +172,7 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
             }
             case 96: {
 
-              BaitCount_ = input.readUInt32();
+              eIBPNPEPJBD_ = input.readUInt32();
               break;
             }
             case 104: {
@@ -197,11 +197,11 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
               break;
             }
             case 114: {
-              emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.Builder subBuilder = null;
+              emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI.Builder subBuilder = null;
               if (iDPMJLBKBNC_ != null) {
                 subBuilder = iDPMJLBKBNC_.toBuilder();
               }
-              iDPMJLBKBNC_ = input.readMessage(emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.parser(), extensionRegistry);
+              iDPMJLBKBNC_ = input.readMessage(emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(iDPMJLBKBNC_);
                 iDPMJLBKBNC_ = subBuilder.buildPartial();
@@ -260,30 +260,30 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
       return iHODOKLDAGG_;
     }
 
-    public static final int _BAG_DETAIL_FIELD_NUMBER = 6;
-    private emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail BagDetail_;
+    public static final int KJHPACDMOPI_FIELD_NUMBER = 6;
+    private emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI kJHPACDMOPI_;
     /**
-     * <code>._AquariumDivingBagDetail _bag_detail = 6;</code>
-     * @return Whether the bagDetail field is set.
+     * <code>.JPJJIHFIAKI KJHPACDMOPI = 6;</code>
+     * @return Whether the kJHPACDMOPI field is set.
      */
     @java.lang.Override
-    public boolean hasBagDetail() {
-      return BagDetail_ != null;
+    public boolean hasKJHPACDMOPI() {
+      return kJHPACDMOPI_ != null;
     }
     /**
-     * <code>._AquariumDivingBagDetail _bag_detail = 6;</code>
-     * @return The bagDetail.
+     * <code>.JPJJIHFIAKI KJHPACDMOPI = 6;</code>
+     * @return The kJHPACDMOPI.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail getBagDetail() {
-      return BagDetail_ == null ? emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail.getDefaultInstance() : BagDetail_;
+    public emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI getKJHPACDMOPI() {
+      return kJHPACDMOPI_ == null ? emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI.getDefaultInstance() : kJHPACDMOPI_;
     }
     /**
-     * <code>._AquariumDivingBagDetail _bag_detail = 6;</code>
+     * <code>.JPJJIHFIAKI KJHPACDMOPI = 6;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetailOrBuilder getBagDetailOrBuilder() {
-      return getBagDetail();
+    public emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKIOrBuilder getKJHPACDMOPIOrBuilder() {
+      return getKJHPACDMOPI();
     }
 
     public static final int EFPBHJOIBJH_FIELD_NUMBER = 9;
@@ -308,15 +308,15 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
       return cFPHMDCAGDL_;
     }
 
-    public static final int _BAIT_COUNT_FIELD_NUMBER = 12;
-    private int BaitCount_;
+    public static final int EIBPNPEPJBD_FIELD_NUMBER = 12;
+    private int eIBPNPEPJBD_;
     /**
-     * <code>uint32 _bait_count = 12;</code>
-     * @return The baitCount.
+     * <code>uint32 EIBPNPEPJBD = 12;</code>
+     * @return The eIBPNPEPJBD.
      */
     @java.lang.Override
-    public int getBaitCount() {
-      return BaitCount_;
+    public int getEIBPNPEPJBD() {
+      return eIBPNPEPJBD_;
     }
 
     public static final int _FINISHED_TASK_ID_LIST_FIELD_NUMBER = 13;
@@ -348,9 +348,9 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
     private int FinishedTaskIdListMemoizedSerializedSize = -1;
 
     public static final int IDPMJLBKBNC_FIELD_NUMBER = 14;
-    private emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent iDPMJLBKBNC_;
+    private emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI iDPMJLBKBNC_;
     /**
-     * <code>._AquariumDivingLevelEvent IDPMJLBKBNC = 14;</code>
+     * <code>.FEGPPEDBIBI IDPMJLBKBNC = 14;</code>
      * @return Whether the iDPMJLBKBNC field is set.
      */
     @java.lang.Override
@@ -358,18 +358,18 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
       return iDPMJLBKBNC_ != null;
     }
     /**
-     * <code>._AquariumDivingLevelEvent IDPMJLBKBNC = 14;</code>
+     * <code>.FEGPPEDBIBI IDPMJLBKBNC = 14;</code>
      * @return The iDPMJLBKBNC.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent getIDPMJLBKBNC() {
-      return iDPMJLBKBNC_ == null ? emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.getDefaultInstance() : iDPMJLBKBNC_;
+    public emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI getIDPMJLBKBNC() {
+      return iDPMJLBKBNC_ == null ? emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI.getDefaultInstance() : iDPMJLBKBNC_;
     }
     /**
-     * <code>._AquariumDivingLevelEvent IDPMJLBKBNC = 14;</code>
+     * <code>.FEGPPEDBIBI IDPMJLBKBNC = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEventOrBuilder getIDPMJLBKBNCOrBuilder() {
+    public emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBIOrBuilder getIDPMJLBKBNCOrBuilder() {
       return getIDPMJLBKBNC();
     }
 
@@ -402,8 +402,8 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
       if (iHODOKLDAGG_ != 0) {
         output.writeUInt32(4, iHODOKLDAGG_);
       }
-      if (BagDetail_ != null) {
-        output.writeMessage(6, getBagDetail());
+      if (kJHPACDMOPI_ != null) {
+        output.writeMessage(6, getKJHPACDMOPI());
       }
       if (eFPBHJOIBJH_ != 0) {
         output.writeUInt32(9, eFPBHJOIBJH_);
@@ -411,8 +411,8 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
       if (cFPHMDCAGDL_ != 0) {
         output.writeUInt32(10, cFPHMDCAGDL_);
       }
-      if (BaitCount_ != 0) {
-        output.writeUInt32(12, BaitCount_);
+      if (eIBPNPEPJBD_ != 0) {
+        output.writeUInt32(12, eIBPNPEPJBD_);
       }
       if (getFinishedTaskIdListList().size() > 0) {
         output.writeUInt32NoTag(106);
@@ -440,9 +440,9 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(4, iHODOKLDAGG_);
       }
-      if (BagDetail_ != null) {
+      if (kJHPACDMOPI_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getBagDetail());
+          .computeMessageSize(6, getKJHPACDMOPI());
       }
       if (eFPBHJOIBJH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -452,9 +452,9 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(10, cFPHMDCAGDL_);
       }
-      if (BaitCount_ != 0) {
+      if (eIBPNPEPJBD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, BaitCount_);
+          .computeUInt32Size(12, eIBPNPEPJBD_);
       }
       {
         int dataSize = 0;
@@ -495,17 +495,17 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
 
       if (getIHODOKLDAGG()
           != other.getIHODOKLDAGG()) return false;
-      if (hasBagDetail() != other.hasBagDetail()) return false;
-      if (hasBagDetail()) {
-        if (!getBagDetail()
-            .equals(other.getBagDetail())) return false;
+      if (hasKJHPACDMOPI() != other.hasKJHPACDMOPI()) return false;
+      if (hasKJHPACDMOPI()) {
+        if (!getKJHPACDMOPI()
+            .equals(other.getKJHPACDMOPI())) return false;
       }
       if (getEFPBHJOIBJH()
           != other.getEFPBHJOIBJH()) return false;
       if (getCFPHMDCAGDL()
           != other.getCFPHMDCAGDL()) return false;
-      if (getBaitCount()
-          != other.getBaitCount()) return false;
+      if (getEIBPNPEPJBD()
+          != other.getEIBPNPEPJBD()) return false;
       if (!getFinishedTaskIdListList()
           .equals(other.getFinishedTaskIdListList())) return false;
       if (hasIDPMJLBKBNC() != other.hasIDPMJLBKBNC()) return false;
@@ -528,16 +528,16 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + IHODOKLDAGG_FIELD_NUMBER;
       hash = (53 * hash) + getIHODOKLDAGG();
-      if (hasBagDetail()) {
-        hash = (37 * hash) + _BAG_DETAIL_FIELD_NUMBER;
-        hash = (53 * hash) + getBagDetail().hashCode();
+      if (hasKJHPACDMOPI()) {
+        hash = (37 * hash) + KJHPACDMOPI_FIELD_NUMBER;
+        hash = (53 * hash) + getKJHPACDMOPI().hashCode();
       }
       hash = (37 * hash) + EFPBHJOIBJH_FIELD_NUMBER;
       hash = (53 * hash) + getEFPBHJOIBJH();
       hash = (37 * hash) + CFPHMDCAGDL_FIELD_NUMBER;
       hash = (53 * hash) + getCFPHMDCAGDL();
-      hash = (37 * hash) + _BAIT_COUNT_FIELD_NUMBER;
-      hash = (53 * hash) + getBaitCount();
+      hash = (37 * hash) + EIBPNPEPJBD_FIELD_NUMBER;
+      hash = (53 * hash) + getEIBPNPEPJBD();
       if (getFinishedTaskIdListCount() > 0) {
         hash = (37 * hash) + _FINISHED_TASK_ID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getFinishedTaskIdListList().hashCode();
@@ -683,17 +683,17 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
         super.clear();
         iHODOKLDAGG_ = 0;
 
-        if (BagDetailBuilder_ == null) {
-          BagDetail_ = null;
+        if (kJHPACDMOPIBuilder_ == null) {
+          kJHPACDMOPI_ = null;
         } else {
-          BagDetail_ = null;
-          BagDetailBuilder_ = null;
+          kJHPACDMOPI_ = null;
+          kJHPACDMOPIBuilder_ = null;
         }
         eFPBHJOIBJH_ = 0;
 
         cFPHMDCAGDL_ = 0;
 
-        BaitCount_ = 0;
+        eIBPNPEPJBD_ = 0;
 
         FinishedTaskIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -733,14 +733,14 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
         emu.grasscutter.net.proto._AquariumDivingDungeonSettleInfoOuterClass._AquariumDivingDungeonSettleInfo result = new emu.grasscutter.net.proto._AquariumDivingDungeonSettleInfoOuterClass._AquariumDivingDungeonSettleInfo(this);
         int from_bitField0_ = bitField0_;
         result.iHODOKLDAGG_ = iHODOKLDAGG_;
-        if (BagDetailBuilder_ == null) {
-          result.BagDetail_ = BagDetail_;
+        if (kJHPACDMOPIBuilder_ == null) {
+          result.kJHPACDMOPI_ = kJHPACDMOPI_;
         } else {
-          result.BagDetail_ = BagDetailBuilder_.build();
+          result.kJHPACDMOPI_ = kJHPACDMOPIBuilder_.build();
         }
         result.eFPBHJOIBJH_ = eFPBHJOIBJH_;
         result.cFPHMDCAGDL_ = cFPHMDCAGDL_;
-        result.BaitCount_ = BaitCount_;
+        result.eIBPNPEPJBD_ = eIBPNPEPJBD_;
         if (((bitField0_ & 0x00000001) != 0)) {
           FinishedTaskIdList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
@@ -803,8 +803,8 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
         if (other.getIHODOKLDAGG() != 0) {
           setIHODOKLDAGG(other.getIHODOKLDAGG());
         }
-        if (other.hasBagDetail()) {
-          mergeBagDetail(other.getBagDetail());
+        if (other.hasKJHPACDMOPI()) {
+          mergeKJHPACDMOPI(other.getKJHPACDMOPI());
         }
         if (other.getEFPBHJOIBJH() != 0) {
           setEFPBHJOIBJH(other.getEFPBHJOIBJH());
@@ -812,8 +812,8 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
         if (other.getCFPHMDCAGDL() != 0) {
           setCFPHMDCAGDL(other.getCFPHMDCAGDL());
         }
-        if (other.getBaitCount() != 0) {
-          setBaitCount(other.getBaitCount());
+        if (other.getEIBPNPEPJBD() != 0) {
+          setEIBPNPEPJBD(other.getEIBPNPEPJBD());
         }
         if (!other.FinishedTaskIdList_.isEmpty()) {
           if (FinishedTaskIdList_.isEmpty()) {
@@ -892,123 +892,123 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail BagDetail_;
+      private emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI kJHPACDMOPI_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail, emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail.Builder, emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetailOrBuilder> BagDetailBuilder_;
+          emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI, emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI.Builder, emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKIOrBuilder> kJHPACDMOPIBuilder_;
       /**
-       * <code>._AquariumDivingBagDetail _bag_detail = 6;</code>
-       * @return Whether the bagDetail field is set.
+       * <code>.JPJJIHFIAKI KJHPACDMOPI = 6;</code>
+       * @return Whether the kJHPACDMOPI field is set.
        */
-      public boolean hasBagDetail() {
-        return BagDetailBuilder_ != null || BagDetail_ != null;
+      public boolean hasKJHPACDMOPI() {
+        return kJHPACDMOPIBuilder_ != null || kJHPACDMOPI_ != null;
       }
       /**
-       * <code>._AquariumDivingBagDetail _bag_detail = 6;</code>
-       * @return The bagDetail.
+       * <code>.JPJJIHFIAKI KJHPACDMOPI = 6;</code>
+       * @return The kJHPACDMOPI.
        */
-      public emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail getBagDetail() {
-        if (BagDetailBuilder_ == null) {
-          return BagDetail_ == null ? emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail.getDefaultInstance() : BagDetail_;
+      public emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI getKJHPACDMOPI() {
+        if (kJHPACDMOPIBuilder_ == null) {
+          return kJHPACDMOPI_ == null ? emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI.getDefaultInstance() : kJHPACDMOPI_;
         } else {
-          return BagDetailBuilder_.getMessage();
+          return kJHPACDMOPIBuilder_.getMessage();
         }
       }
       /**
-       * <code>._AquariumDivingBagDetail _bag_detail = 6;</code>
+       * <code>.JPJJIHFIAKI KJHPACDMOPI = 6;</code>
        */
-      public Builder setBagDetail(emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail value) {
-        if (BagDetailBuilder_ == null) {
+      public Builder setKJHPACDMOPI(emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI value) {
+        if (kJHPACDMOPIBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          BagDetail_ = value;
+          kJHPACDMOPI_ = value;
           onChanged();
         } else {
-          BagDetailBuilder_.setMessage(value);
+          kJHPACDMOPIBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>._AquariumDivingBagDetail _bag_detail = 6;</code>
+       * <code>.JPJJIHFIAKI KJHPACDMOPI = 6;</code>
        */
-      public Builder setBagDetail(
-          emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail.Builder builderForValue) {
-        if (BagDetailBuilder_ == null) {
-          BagDetail_ = builderForValue.build();
+      public Builder setKJHPACDMOPI(
+          emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI.Builder builderForValue) {
+        if (kJHPACDMOPIBuilder_ == null) {
+          kJHPACDMOPI_ = builderForValue.build();
           onChanged();
         } else {
-          BagDetailBuilder_.setMessage(builderForValue.build());
+          kJHPACDMOPIBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>._AquariumDivingBagDetail _bag_detail = 6;</code>
+       * <code>.JPJJIHFIAKI KJHPACDMOPI = 6;</code>
        */
-      public Builder mergeBagDetail(emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail value) {
-        if (BagDetailBuilder_ == null) {
-          if (BagDetail_ != null) {
-            BagDetail_ =
-              emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail.newBuilder(BagDetail_).mergeFrom(value).buildPartial();
+      public Builder mergeKJHPACDMOPI(emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI value) {
+        if (kJHPACDMOPIBuilder_ == null) {
+          if (kJHPACDMOPI_ != null) {
+            kJHPACDMOPI_ =
+              emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI.newBuilder(kJHPACDMOPI_).mergeFrom(value).buildPartial();
           } else {
-            BagDetail_ = value;
+            kJHPACDMOPI_ = value;
           }
           onChanged();
         } else {
-          BagDetailBuilder_.mergeFrom(value);
+          kJHPACDMOPIBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>._AquariumDivingBagDetail _bag_detail = 6;</code>
+       * <code>.JPJJIHFIAKI KJHPACDMOPI = 6;</code>
        */
-      public Builder clearBagDetail() {
-        if (BagDetailBuilder_ == null) {
-          BagDetail_ = null;
+      public Builder clearKJHPACDMOPI() {
+        if (kJHPACDMOPIBuilder_ == null) {
+          kJHPACDMOPI_ = null;
           onChanged();
         } else {
-          BagDetail_ = null;
-          BagDetailBuilder_ = null;
+          kJHPACDMOPI_ = null;
+          kJHPACDMOPIBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>._AquariumDivingBagDetail _bag_detail = 6;</code>
+       * <code>.JPJJIHFIAKI KJHPACDMOPI = 6;</code>
        */
-      public emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail.Builder getBagDetailBuilder() {
+      public emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI.Builder getKJHPACDMOPIBuilder() {
         
         onChanged();
-        return getBagDetailFieldBuilder().getBuilder();
+        return getKJHPACDMOPIFieldBuilder().getBuilder();
       }
       /**
-       * <code>._AquariumDivingBagDetail _bag_detail = 6;</code>
+       * <code>.JPJJIHFIAKI KJHPACDMOPI = 6;</code>
        */
-      public emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetailOrBuilder getBagDetailOrBuilder() {
-        if (BagDetailBuilder_ != null) {
-          return BagDetailBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKIOrBuilder getKJHPACDMOPIOrBuilder() {
+        if (kJHPACDMOPIBuilder_ != null) {
+          return kJHPACDMOPIBuilder_.getMessageOrBuilder();
         } else {
-          return BagDetail_ == null ?
-              emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail.getDefaultInstance() : BagDetail_;
+          return kJHPACDMOPI_ == null ?
+              emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI.getDefaultInstance() : kJHPACDMOPI_;
         }
       }
       /**
-       * <code>._AquariumDivingBagDetail _bag_detail = 6;</code>
+       * <code>.JPJJIHFIAKI KJHPACDMOPI = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail, emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail.Builder, emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetailOrBuilder> 
-          getBagDetailFieldBuilder() {
-        if (BagDetailBuilder_ == null) {
-          BagDetailBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail, emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail.Builder, emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetailOrBuilder>(
-                  getBagDetail(),
+          emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI, emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI.Builder, emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKIOrBuilder> 
+          getKJHPACDMOPIFieldBuilder() {
+        if (kJHPACDMOPIBuilder_ == null) {
+          kJHPACDMOPIBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI, emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKI.Builder, emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.JPJJIHFIAKIOrBuilder>(
+                  getKJHPACDMOPI(),
                   getParentForChildren(),
                   isClean());
-          BagDetail_ = null;
+          kJHPACDMOPI_ = null;
         }
-        return BagDetailBuilder_;
+        return kJHPACDMOPIBuilder_;
       }
 
       private int eFPBHJOIBJH_ ;
@@ -1073,33 +1073,33 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
         return this;
       }
 
-      private int BaitCount_ ;
+      private int eIBPNPEPJBD_ ;
       /**
-       * <code>uint32 _bait_count = 12;</code>
-       * @return The baitCount.
+       * <code>uint32 EIBPNPEPJBD = 12;</code>
+       * @return The eIBPNPEPJBD.
        */
       @java.lang.Override
-      public int getBaitCount() {
-        return BaitCount_;
+      public int getEIBPNPEPJBD() {
+        return eIBPNPEPJBD_;
       }
       /**
-       * <code>uint32 _bait_count = 12;</code>
-       * @param value The baitCount to set.
+       * <code>uint32 EIBPNPEPJBD = 12;</code>
+       * @param value The eIBPNPEPJBD to set.
        * @return This builder for chaining.
        */
-      public Builder setBaitCount(int value) {
+      public Builder setEIBPNPEPJBD(int value) {
         
-        BaitCount_ = value;
+        eIBPNPEPJBD_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 _bait_count = 12;</code>
+       * <code>uint32 EIBPNPEPJBD = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearBaitCount() {
+      public Builder clearEIBPNPEPJBD() {
         
-        BaitCount_ = 0;
+        eIBPNPEPJBD_ = 0;
         onChanged();
         return this;
       }
@@ -1183,31 +1183,31 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent iDPMJLBKBNC_;
+      private emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI iDPMJLBKBNC_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent, emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.Builder, emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEventOrBuilder> iDPMJLBKBNCBuilder_;
+          emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI, emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI.Builder, emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBIOrBuilder> iDPMJLBKBNCBuilder_;
       /**
-       * <code>._AquariumDivingLevelEvent IDPMJLBKBNC = 14;</code>
+       * <code>.FEGPPEDBIBI IDPMJLBKBNC = 14;</code>
        * @return Whether the iDPMJLBKBNC field is set.
        */
       public boolean hasIDPMJLBKBNC() {
         return iDPMJLBKBNCBuilder_ != null || iDPMJLBKBNC_ != null;
       }
       /**
-       * <code>._AquariumDivingLevelEvent IDPMJLBKBNC = 14;</code>
+       * <code>.FEGPPEDBIBI IDPMJLBKBNC = 14;</code>
        * @return The iDPMJLBKBNC.
        */
-      public emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent getIDPMJLBKBNC() {
+      public emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI getIDPMJLBKBNC() {
         if (iDPMJLBKBNCBuilder_ == null) {
-          return iDPMJLBKBNC_ == null ? emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.getDefaultInstance() : iDPMJLBKBNC_;
+          return iDPMJLBKBNC_ == null ? emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI.getDefaultInstance() : iDPMJLBKBNC_;
         } else {
           return iDPMJLBKBNCBuilder_.getMessage();
         }
       }
       /**
-       * <code>._AquariumDivingLevelEvent IDPMJLBKBNC = 14;</code>
+       * <code>.FEGPPEDBIBI IDPMJLBKBNC = 14;</code>
        */
-      public Builder setIDPMJLBKBNC(emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent value) {
+      public Builder setIDPMJLBKBNC(emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI value) {
         if (iDPMJLBKBNCBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1221,10 +1221,10 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>._AquariumDivingLevelEvent IDPMJLBKBNC = 14;</code>
+       * <code>.FEGPPEDBIBI IDPMJLBKBNC = 14;</code>
        */
       public Builder setIDPMJLBKBNC(
-          emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.Builder builderForValue) {
+          emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI.Builder builderForValue) {
         if (iDPMJLBKBNCBuilder_ == null) {
           iDPMJLBKBNC_ = builderForValue.build();
           onChanged();
@@ -1235,13 +1235,13 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>._AquariumDivingLevelEvent IDPMJLBKBNC = 14;</code>
+       * <code>.FEGPPEDBIBI IDPMJLBKBNC = 14;</code>
        */
-      public Builder mergeIDPMJLBKBNC(emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent value) {
+      public Builder mergeIDPMJLBKBNC(emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI value) {
         if (iDPMJLBKBNCBuilder_ == null) {
           if (iDPMJLBKBNC_ != null) {
             iDPMJLBKBNC_ =
-              emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.newBuilder(iDPMJLBKBNC_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI.newBuilder(iDPMJLBKBNC_).mergeFrom(value).buildPartial();
           } else {
             iDPMJLBKBNC_ = value;
           }
@@ -1253,7 +1253,7 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>._AquariumDivingLevelEvent IDPMJLBKBNC = 14;</code>
+       * <code>.FEGPPEDBIBI IDPMJLBKBNC = 14;</code>
        */
       public Builder clearIDPMJLBKBNC() {
         if (iDPMJLBKBNCBuilder_ == null) {
@@ -1267,33 +1267,33 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>._AquariumDivingLevelEvent IDPMJLBKBNC = 14;</code>
+       * <code>.FEGPPEDBIBI IDPMJLBKBNC = 14;</code>
        */
-      public emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.Builder getIDPMJLBKBNCBuilder() {
+      public emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI.Builder getIDPMJLBKBNCBuilder() {
         
         onChanged();
         return getIDPMJLBKBNCFieldBuilder().getBuilder();
       }
       /**
-       * <code>._AquariumDivingLevelEvent IDPMJLBKBNC = 14;</code>
+       * <code>.FEGPPEDBIBI IDPMJLBKBNC = 14;</code>
        */
-      public emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEventOrBuilder getIDPMJLBKBNCOrBuilder() {
+      public emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBIOrBuilder getIDPMJLBKBNCOrBuilder() {
         if (iDPMJLBKBNCBuilder_ != null) {
           return iDPMJLBKBNCBuilder_.getMessageOrBuilder();
         } else {
           return iDPMJLBKBNC_ == null ?
-              emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.getDefaultInstance() : iDPMJLBKBNC_;
+              emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI.getDefaultInstance() : iDPMJLBKBNC_;
         }
       }
       /**
-       * <code>._AquariumDivingLevelEvent IDPMJLBKBNC = 14;</code>
+       * <code>.FEGPPEDBIBI IDPMJLBKBNC = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent, emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.Builder, emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEventOrBuilder> 
+          emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI, emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI.Builder, emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBIOrBuilder> 
           getIDPMJLBKBNCFieldBuilder() {
         if (iDPMJLBKBNCBuilder_ == null) {
           iDPMJLBKBNCBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent, emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.Builder, emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEventOrBuilder>(
+              emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI, emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBI.Builder, emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.FEGPPEDBIBIOrBuilder>(
                   getIDPMJLBKBNC(),
                   getParentForChildren(),
                   isClean());
@@ -1400,32 +1400,31 @@ public final class _AquariumDivingDungeonSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n&_AquariumDivingDungeonSettleInfo.proto" +
-      "\032\036_AquariumDivingBagDetail.proto\032\037_Aquar" +
-      "iumDivingLevelEvent.proto\"\214\002\n _AquariumD" +
-      "ivingDungeonSettleInfo\022\023\n\013IHODOKLDAGG\030\004 " +
-      "\001(\r\022.\n\013_bag_detail\030\006 \001(\0132\031._AquariumDivi" +
-      "ngBagDetail\022\023\n\013EFPBHJOIBJH\030\t \001(\r\022\023\n\013CFPH" +
-      "MDCAGDL\030\n \001(\r\022\023\n\013_bait_count\030\014 \001(\r\022\036\n\026_f" +
-      "inished_task_id_list\030\r \003(\r\022/\n\013IDPMJLBKBN" +
-      "C\030\016 \001(\0132\032._AquariumDivingLevelEvent\022\023\n\013G" +
-      "JFKPLMNGED\030\017 \001(\rBG\n\031emu.grasscutter.net." +
-      "protoB*_AquariumDivingDungeonSettleInfoO" +
-      "uterClassb\006proto3"
+      "\032\021FEGPPEDBIBI.proto\032\021JPJJIHFIAKI.proto\"\361" +
+      "\001\n _AquariumDivingDungeonSettleInfo\022\023\n\013I" +
+      "HODOKLDAGG\030\004 \001(\r\022!\n\013KJHPACDMOPI\030\006 \001(\0132\014." +
+      "JPJJIHFIAKI\022\023\n\013EFPBHJOIBJH\030\t \001(\r\022\023\n\013CFPH" +
+      "MDCAGDL\030\n \001(\r\022\023\n\013EIBPNPEPJBD\030\014 \001(\r\022\036\n\026_f" +
+      "inished_task_id_list\030\r \003(\r\022!\n\013IDPMJLBKBN" +
+      "C\030\016 \001(\0132\014.FEGPPEDBIBI\022\023\n\013GJFKPLMNGED\030\017 \001" +
+      "(\rBG\n\031emu.grasscutter.net.protoB*_Aquari" +
+      "umDivingDungeonSettleInfoOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.getDescriptor(),
         });
     internal_static__AquariumDivingDungeonSettleInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static__AquariumDivingDungeonSettleInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static__AquariumDivingDungeonSettleInfo_descriptor,
-        new java.lang.String[] { "IHODOKLDAGG", "BagDetail", "EFPBHJOIBJH", "CFPHMDCAGDL", "BaitCount", "FinishedTaskIdList", "IDPMJLBKBNC", "GJFKPLMNGED", });
-    emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass.getDescriptor();
+        new java.lang.String[] { "IHODOKLDAGG", "KJHPACDMOPI", "EFPBHJOIBJH", "CFPHMDCAGDL", "EIBPNPEPJBD", "FinishedTaskIdList", "IDPMJLBKBNC", "GJFKPLMNGED", });
+    emu.grasscutter.net.proto.FEGPPEDBIBIOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.JPJJIHFIAKIOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

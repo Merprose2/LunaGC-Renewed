@@ -823,8 +823,8 @@ public final class LLINKLDMOCFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LLINKLDMOCF.proto\032\021PBBCDKFGPFF.proto\"4" +
       "\n\013LLINKLDMOCF\022%\n\017level_info_list\030\005 \003(\0132\014" +
-      ".PBBCDKFGPFFB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      ".PBBCDKFGPFFB2\n\031emu.grasscutter.net.prot" +
+      "oB\025LLINKLDMOCFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

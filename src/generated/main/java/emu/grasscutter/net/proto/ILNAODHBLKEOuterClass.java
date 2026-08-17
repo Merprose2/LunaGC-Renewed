@@ -738,7 +738,8 @@ public final class ILNAODHBLKEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ILNAODHBLKE.proto\"=\n\013ILNAODHBLKE\022\n\n\002id" +
       "\030\001 \001(\005\022\023\n\013JDKBGLBLHNE\030\002 \001(\t\022\r\n\005level\030\003 \001" +
-      "(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\005B2\n\031emu.grasscutter.net.protoB\025ILNAODH" +
+      "BLKEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

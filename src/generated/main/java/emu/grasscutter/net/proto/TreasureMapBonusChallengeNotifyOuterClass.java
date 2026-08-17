@@ -660,8 +660,9 @@ public final class TreasureMapBonusChallengeNotifyOuterClass {
       "\n%TreasureMapBonusChallengeNotify.proto\032" +
       "#TreasureMapBonusChallengeInfo.proto\"O\n\037" +
       "TreasureMapBonusChallengeNotify\022,\n\004info\030" +
-      "\013 \001(\0132\036.TreasureMapBonusChallengeInfoB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\013 \001(\0132\036.TreasureMapBonusChallengeInfoBF\n" +
+      "\031emu.grasscutter.net.protoB)TreasureMapB" +
+      "onusChallengeNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

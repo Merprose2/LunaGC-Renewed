@@ -666,8 +666,8 @@ public final class OMGBNFEAIPBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OMGBNFEAIPB.proto\"A\n\013OMGBNFEAIPB\022\017\n\007re" +
       "tcode\030\004 \001(\005\022\022\n\ntarget_uid\030\006 \001(\r\022\r\n\005param" +
-      "\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\014 \001(\rB2\n\031emu.grasscutter.net.protoB\025OMG" +
+      "BNFEAIPBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

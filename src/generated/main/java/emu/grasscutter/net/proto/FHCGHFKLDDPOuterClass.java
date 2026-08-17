@@ -1166,8 +1166,9 @@ public final class FHCGHFKLDDPOuterClass {
       "\n\021FHCGHFKLDDP.proto\032\021OLIHMEFBNIJ.proto\"g" +
       "\n\013FHCGHFKLDDP\022!\n\013FOGCOBDKCHP\030\003 \003(\0132\014.OLI" +
       "HMEFBNIJ\022\023\n\013IGJLAAOJIGE\030\006 \003(\r\022\017\n\007city_id" +
-      "\030\014 \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\030\014 \001(\r\022\017\n\007retcode\030\017 \001(\005B2\n\031emu.grasscutt" +
+      "er.net.protoB\025FHCGHFKLDDPOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

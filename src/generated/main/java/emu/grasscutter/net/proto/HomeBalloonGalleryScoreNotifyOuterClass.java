@@ -737,8 +737,9 @@ public final class HomeBalloonGalleryScoreNotifyOuterClass {
       "\n#HomeBalloonGalleryScoreNotify.proto\"t\n" +
       "\035HomeBalloonGalleryScoreNotify\022\021\n\tadd_sc" +
       "ore\030\005 \001(\r\022\022\n\ngallery_id\030\010 \001(\r\022\021\n\tcur_sco" +
-      "re\030\014 \001(\r\022\031\n\021trigger_entity_id\030\016 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "re\030\014 \001(\r\022\031\n\021trigger_entity_id\030\016 \001(\rBD\n\031e" +
+      "mu.grasscutter.net.protoB\'HomeBalloonGal" +
+      "leryScoreNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

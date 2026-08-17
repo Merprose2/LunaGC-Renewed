@@ -833,7 +833,9 @@ public final class GCGTCTavernChallengeDataNotifyOuterClass {
       "GCGTCTavernChallengeData.proto\"Z\n\036GCGTCT" +
       "avernChallengeDataNotify\0228\n\025tavern_chall" +
       "enge_list\030\002 \003(\0132\031.GCGTCTavernChallengeDa" +
-      "taB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "taBE\n\031emu.grasscutter.net.protoB(GCGTCTa" +
+      "vernChallengeDataNotifyOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

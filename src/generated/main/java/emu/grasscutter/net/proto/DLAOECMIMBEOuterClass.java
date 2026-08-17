@@ -605,8 +605,8 @@ public final class DLAOECMIMBEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DLAOECMIMBE.proto\" \n\013DLAOECMIMBE\022\021\n\tpa" +
-      "ram_str\030\010 \001(\tB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "ram_str\030\010 \001(\tB2\n\031emu.grasscutter.net.pro" +
+      "toB\025DLAOECMIMBEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

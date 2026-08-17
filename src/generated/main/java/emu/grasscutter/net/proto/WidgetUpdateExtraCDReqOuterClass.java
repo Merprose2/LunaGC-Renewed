@@ -705,7 +705,8 @@ public final class WidgetUpdateExtraCDReqOuterClass {
       "traCdType.proto\"j\n\026WidgetUpdateExtraCDRe" +
       "q\022\023\n\013material_id\030\n \001(\r\022\020\n\010cd_group\030\013 \001(\r" +
       "\022)\n\rextra_cd_type\030\016 \001(\0162\022.WidgetExtraCdT" +
-      "ypeB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "ypeB=\n\031emu.grasscutter.net.protoB Widget" +
+      "UpdateExtraCDReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

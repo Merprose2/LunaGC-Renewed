@@ -10342,8 +10342,9 @@ public final class GEIBBLODAKNOuterClass {
       "LHN\022\023\n\013HJNJPGFOMCB\030: \001(\005\022\023\n\013FECNJDLNMEH\030" +
       "; \001(\005\022\023\n\013HNFPEMEFFHO\030< \001(\010\022\"\n\013PLLOOEPCNE" +
       "D\030\365\003 \003(\0132\014.DJBMANEIBCN\022\024\n\013OGFJBHMEJFE\030\366\003" +
-      " \001(\010\022\024\n\013DCNFOOLDDLF\030\351\007 \001(\010B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      " \001(\010\022\024\n\013DCNFOOLDDLF\030\351\007 \001(\010B2\n\031emu.grassc" +
+      "utter.net.protoB\025GEIBBLODAKNOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

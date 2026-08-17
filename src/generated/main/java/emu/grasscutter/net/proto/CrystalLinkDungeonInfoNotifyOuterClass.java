@@ -1490,8 +1490,9 @@ public final class CrystalLinkDungeonInfoNotifyOuterClass {
       "atar_info_list\030\006 \003(\0132\035.CrystalLinkDungeo" +
       "nAvatarInfo\022,\n\016buff_info_list\030\010 \003(\0132\024.Cr" +
       "ystalLinkBuffInfo\022\020\n\010level_id\030\016 \001(\r\022\025\n\ri" +
-      "s_upper_part\030\017 \001(\010B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "s_upper_part\030\017 \001(\010BC\n\031emu.grasscutter.ne" +
+      "t.protoB&CrystalLinkDungeonInfoNotifyOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

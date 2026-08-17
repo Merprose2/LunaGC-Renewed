@@ -667,8 +667,8 @@ public final class OBNAEPECACMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OBNAEPECACM.proto\"D\n\013OBNAEPECACM\022\017\n\007bu" +
       "ff_id\030\001 \001(\r\022\023\n\013AIMOFCDLABD\030\n \001(\010\022\017\n\007slot" +
-      "_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\016 \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "OBNAEPECACMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

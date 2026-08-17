@@ -518,8 +518,8 @@ public final class IBHDHKFLMFFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IBHDHKFLMFF.proto\"\"\n\013IBHDHKFLMFF\022\023\n\013PB" +
-      "MMFMCIGAI\030\014 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "MMFMCIGAI\030\014 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025IBHDHKFLMFFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -143,8 +143,9 @@ public final class FOCHOGIGEFAOuterClass {
       "\n\021FOCHOGIGEFA.proto*|\n\013FOCHOGIGEFA\022\024\n\020FO" +
       "CHOGIGEFA_NONE\020\000\022(\n$FOCHOGIGEFA_LEY_LINE" +
       "_CHALLENGE_WORLD\020\001\022-\n)FOCHOGIGEFA_LEY_LI" +
-      "NE_CHALLENGE_NEXT_ROUND\020\002B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "NE_CHALLENGE_NEXT_ROUND\020\002B2\n\031emu.grasscu" +
+      "tter.net.protoB\025FOCHOGIGEFAOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -564,8 +564,9 @@ public final class SetFriendEnterHomeOptionReqOuterClass {
       "\n!SetFriendEnterHomeOptionReq.proto\032\033Fri" +
       "endEnterHomeOption.proto\"E\n\033SetFriendEnt" +
       "erHomeOptionReq\022&\n\006option\030\006 \001(\0162\026.Friend" +
-      "EnterHomeOptionB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "EnterHomeOptionBB\n\031emu.grasscutter.net.p" +
+      "rotoB%SetFriendEnterHomeOptionReqOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

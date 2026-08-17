@@ -2318,8 +2318,9 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       "lt_info\030\215\014 \001(\0132!.EffigyChallengeDungeonR" +
       "esultInfoH\000\032S\n\033StrengthenPointDataMapEnt" +
       "ry\022\013\n\003key\030\001 \001(\r\022#\n\005value\030\002 \001(\0132\024.Strengt" +
-      "henPointData:\0028\001B\010\n\006detailB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "henPointData:\0028\001B\010\n\006detailBC\n\031emu.grassc" +
+      "utter.net.protoB&DungeonChallengeFinishN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

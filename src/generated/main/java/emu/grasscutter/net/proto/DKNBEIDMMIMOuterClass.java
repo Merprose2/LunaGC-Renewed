@@ -667,8 +667,9 @@ public final class DKNBEIDMMIMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DKNBEIDMMIM.proto\"2\n\013DKNBEIDMMIM\022\r\n\004na" +
-      "me\030\365\003 \001(\t\022\024\n\013NMKMGOCKLFF\030\366\003 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "me\030\365\003 \001(\t\022\024\n\013NMKMGOCKLFF\030\366\003 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025DKNBEIDMMIMOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

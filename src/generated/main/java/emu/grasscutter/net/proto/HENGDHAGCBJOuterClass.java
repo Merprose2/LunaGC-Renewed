@@ -454,8 +454,9 @@ public final class HENGDHAGCBJOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021HENGDHAGCBJ.proto\"\r\n\013HENGDHAGCBJB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021HENGDHAGCBJ.proto\"\r\n\013HENGDHAGCBJB2\n\031em" +
+      "u.grasscutter.net.protoB\025HENGDHAGCBJOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

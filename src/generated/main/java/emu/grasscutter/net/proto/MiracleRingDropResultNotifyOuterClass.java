@@ -596,8 +596,9 @@ public final class MiracleRingDropResultNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n!MiracleRingDropResultNotify.proto\"Q\n\033M" +
       "iracleRingDropResultNotify\022\023\n\013drop_resul" +
-      "t\030\014 \001(\005\022\035\n\025last_take_reward_time\030\r \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "t\030\014 \001(\005\022\035\n\025last_take_reward_time\030\r \001(\rBB" +
+      "\n\031emu.grasscutter.net.protoB%MiracleRing" +
+      "DropResultNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

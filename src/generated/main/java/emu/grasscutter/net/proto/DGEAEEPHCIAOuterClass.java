@@ -1824,8 +1824,9 @@ public final class DGEAEEPHCIAOuterClass {
       "\001(\r\022\017\n\007is_succ\030\006 \001(\010\022\027\n\017winner_uid_list\030" +
       "\007 \003(\r\022\022\n\nplay_index\030\010 \001(\r\022*\n\nscore_list\030" +
       "\n \003(\0132\026.ExhibitionDisplayInfo\022\022\n\nclose_t" +
-      "ime\030\014 \001(\r\022\023\n\013BCBLIJDGIGO\030\016 \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ime\030\014 \001(\r\022\023\n\013BCBLIJDGIGO\030\016 \001(\010B2\n\031emu.gr" +
+      "asscutter.net.protoB\025DGEAEEPHCIAOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

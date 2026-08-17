@@ -1059,8 +1059,9 @@ public final class FleurFairGallerySettleInfoOuterClass {
       "G\n\017energy_stat_map\030\017 \003(\0132..FleurFairGall" +
       "erySettleInfo.EnergyStatMapEntry\0324\n\022Ener" +
       "gyStatMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001" +
-      "(\005:\0028\001B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "(\005:\0028\001BA\n\031emu.grasscutter.net.protoB$Fle" +
+      "urFairGallerySettleInfoOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

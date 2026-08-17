@@ -775,8 +775,9 @@ public final class SealBattleBeginNotifyOuterClass {
       "eType.proto\"\205\001\n\025SealBattleBeginNotify\022\023\n" +
       "\013seal_radius\030\004 \001(\r\022\031\n\021seal_max_progress\030" +
       "\010 \001(\r\022\026\n\016seal_entity_id\030\t \001(\r\022$\n\013battle_" +
-      "type\030\n \001(\0162\017.SealBattleTypeB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "type\030\n \001(\0162\017.SealBattleTypeB<\n\031emu.grass" +
+      "cutter.net.protoB\037SealBattleBeginNotifyO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

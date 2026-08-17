@@ -822,8 +822,8 @@ public final class HBLFFCDKIHGOuterClass {
       "o\032\023ServerLogType.proto\"h\n\013HBLFFCDKIHG\022\023\n" +
       "\013DGCOLJKFIIE\030\001 \001(\t\022\"\n\tlog_level\030\002 \001(\0162\017." +
       "ServerLogLevel\022 \n\010log_type\030\r \001(\0162\016.Serve" +
-      "rLogTypeB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "rLogTypeB2\n\031emu.grasscutter.net.protoB\025H" +
+      "BLFFCDKIHGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

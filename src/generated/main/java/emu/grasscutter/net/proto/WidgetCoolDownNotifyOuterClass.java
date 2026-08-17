@@ -907,8 +907,8 @@ public final class WidgetCoolDownNotifyOuterClass {
       "DownData.proto\"r\n\024WidgetCoolDownNotify\022\"" +
       "\n\032normal_cool_down_data_list\030\006 \001(\014\0226\n\031gr" +
       "oup_cool_down_data_list\030\n \003(\0132\023.WidgetCo" +
-      "olDownDataB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "olDownDataB;\n\031emu.grasscutter.net.protoB" +
+      "\036WidgetCoolDownNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

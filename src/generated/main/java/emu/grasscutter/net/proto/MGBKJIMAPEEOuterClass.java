@@ -1333,8 +1333,8 @@ public final class MGBKJIMAPEEOuterClass {
       "KKKHHEDOC\022!\n\013CEDOOAMJOJK\030\002 \001(\0132\014.FBKKKHH" +
       "EDOC\022!\n\013AKJJEOCEAEH\030\003 \001(\0132\014.FBKKKHHEDOC\022" +
       "!\n\013HFFDGMJDPOH\030\004 \001(\0132\014.FBKKKHHEDOC\022\n\n\002id" +
-      "\030\005 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\005 \001(\rB2\n\031emu.grasscutter.net.protoB\025MGB" +
+      "KJIMAPEEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

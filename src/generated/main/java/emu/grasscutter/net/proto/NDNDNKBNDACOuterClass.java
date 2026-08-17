@@ -823,8 +823,8 @@ public final class NDNDNKBNDACOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NDNDNKBNDAC.proto\032\021MGABLMGOLHL.proto\"0" +
       "\n\013NDNDNKBNDAC\022!\n\013GJDIABDIIJM\030\001 \003(\0132\014.MGA" +
-      "BLMGOLHLB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "BLMGOLHLB2\n\031emu.grasscutter.net.protoB\025N" +
+      "DNDNKBNDACOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -893,8 +893,9 @@ public final class IKPHELHLPDOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IKPHELHLPDO.proto\032\021KGLBBHDCPDD.proto\"E" +
       "\n\013IKPHELHLPDO\022!\n\013NLGEJMCMHMH\030\002 \003(\0132\014.KGL" +
-      "BBHDCPDD\022\023\n\013AONKAEHDJBJ\030\007 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "BBHDCPDD\022\023\n\013AONKAEHDJBJ\030\007 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025IKPHELHLPDOOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

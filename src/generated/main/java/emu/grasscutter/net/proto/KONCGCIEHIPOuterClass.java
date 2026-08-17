@@ -1106,7 +1106,8 @@ public final class KONCGCIEHIPOuterClass {
       "KLKHABHNGEK.proto\"g\n\013KONCGCIEHIP\022&\n\020play" +
       "er_info_list\030\002 \003(\0132\014.EIKHALAMCJL\022!\n\013_lev" +
       "el_info\030\014 \001(\0132\014.KLKHABHNGEK\022\r\n\005round\030\016 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB2\n\031emu.grasscutter.net.protoB\025KONCGCI" +
+      "EHIPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

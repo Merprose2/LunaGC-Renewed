@@ -793,8 +793,8 @@ public final class CFJDBHFFFHIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CFJDBHFFFHI.proto\"I\n\013CFJDBHFFFHI\022\023\n\013PN" +
       "ABLEJEBFH\030\007 \003(\r\022\020\n\010level_id\030\t \001(\r\022\023\n\013BDB" +
-      "EAMBGJGP\030\014 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "EAMBGJGP\030\014 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025CFJDBHFFFHIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

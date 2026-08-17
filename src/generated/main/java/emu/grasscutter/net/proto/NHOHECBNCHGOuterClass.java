@@ -723,8 +723,9 @@ public final class NHOHECBNCHGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NHOHECBNCHG.proto\032\021DJBMANEIBCN.proto\"?" +
       "\n\013NHOHECBNCHG\022\r\n\005value\030\001 \001(\002\022!\n\013FCONJGIF" +
-      "CAO\030\002 \001(\0132\014.DJBMANEIBCNB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "CAO\030\002 \001(\0132\014.DJBMANEIBCNB2\n\031emu.grasscutt" +
+      "er.net.protoB\025NHOHECBNCHGOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

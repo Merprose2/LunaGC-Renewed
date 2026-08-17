@@ -1137,8 +1137,8 @@ public final class GalleryFallCatchNotifyOuterClass {
       "_ground\030\t \001(\010\022\021\n\tadd_score\030\013 \001(\r\022\021\n\tcur_" +
       "score\030\014 \001(\r\022\022\n\ngallery_id\030\016 \001(\r\0328\n\026BallC" +
       "atchCountMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030" +
-      "\002 \001(\r:\0028\001B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "\002 \001(\r:\0028\001B=\n\031emu.grasscutter.net.protoB " +
+      "GalleryFallCatchNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -902,7 +902,8 @@ public final class GetWidgetSlotRspOuterClass {
       "\n\026GetWidgetSlotRsp.proto\032\024WidgetSlotData" +
       ".proto\"G\n\020GetWidgetSlotRsp\022\017\n\007retcode\030\010 " +
       "\001(\005\022\"\n\tslot_list\030\017 \003(\0132\017.WidgetSlotDataB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "7\n\031emu.grasscutter.net.protoB\032GetWidgetS" +
+      "lotRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

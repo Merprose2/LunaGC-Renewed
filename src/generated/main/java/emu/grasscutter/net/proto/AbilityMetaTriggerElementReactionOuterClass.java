@@ -800,8 +800,9 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
       "o\"\220\001\n!AbilityMetaTriggerElementReaction\022" +
       "\031\n\021trigger_entity_id\030\006 \001(\r\022\023\n\013AHMHIOIDOO" +
       "G\030\007 \001(\r\022\023\n\013ENNLBALCELK\030\t \001(\r\022\023\n\013FAEPEJJM" +
-      "EDJ\030\013 \001(\r\022\021\n\thit_index\030\016 \001(\005B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "EDJ\030\013 \001(\r\022\021\n\thit_index\030\016 \001(\005BH\n\031emu.gras" +
+      "scutter.net.protoB+AbilityMetaTriggerEle" +
+      "mentReactionOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

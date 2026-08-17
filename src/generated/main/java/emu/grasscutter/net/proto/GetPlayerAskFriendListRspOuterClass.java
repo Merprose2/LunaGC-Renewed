@@ -902,8 +902,9 @@ public final class GetPlayerAskFriendListRspOuterClass {
       "\n\037GetPlayerAskFriendListRsp.proto\032\021Frien" +
       "dBrief.proto\"S\n\031GetPlayerAskFriendListRs" +
       "p\022%\n\017ask_friend_list\030\010 \003(\0132\014.FriendBrief" +
-      "\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\022\017\n\007retcode\030\016 \001(\005B@\n\031emu.grasscutter.net" +
+      ".protoB#GetPlayerAskFriendListRspOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

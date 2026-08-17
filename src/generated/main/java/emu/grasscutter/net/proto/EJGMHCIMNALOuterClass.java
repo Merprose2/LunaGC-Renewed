@@ -5781,8 +5781,8 @@ public final class EJGMHCIMNALOuterClass {
       "\342\013 \003(\0132\013.Uint32Pair\022\024\n\013CJGHDMIKHJC\030\235\r \001(" +
       "\r\022\024\n\013DAHEIIGIOFF\030\273\r \003(\r\022\024\n\013DNJAJJIHJHJ\030\223" +
       "\016 \003(\r\022\024\n\013PBAOGHGLKHP\030\333\016 \001(\r\022\024\n\013MLPMAMMOP" +
-      "KN\030\272\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "KN\030\272\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "EJGMHCIMNALOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

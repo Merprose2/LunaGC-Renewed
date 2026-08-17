@@ -517,8 +517,8 @@ public final class EchoShellInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\023EchoShellInfo.proto\"!\n\rEchoShellInfo\022\020" +
-      "\n\010shell_id\030\001 \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\n\010shell_id\030\001 \001(\rB4\n\031emu.grasscutter.net." +
+      "protoB\027EchoShellInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

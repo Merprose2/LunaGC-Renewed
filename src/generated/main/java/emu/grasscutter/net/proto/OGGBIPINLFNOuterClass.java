@@ -1482,8 +1482,9 @@ public final class OGGBIPINLFNOuterClass {
       "LLPAP\030\004 \001(\0132\014.JHABMHAPMPG\022!\n\013OMOLFLKMNNN" +
       "\030\005 \001(\0132\014.JHABMHAPMPG\022\023\n\013FBDLAPPOGAL\030\006 \001(" +
       "\r\022\023\n\013CLOGDFGLHNJ\030\007 \001(\r\022\023\n\013EIGMINLGMIK\030\010 " +
-      "\001(\005\022\023\n\013LGHLKGGDFCB\030\t \001(\005B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\001(\005\022\023\n\013LGHLKGGDFCB\030\t \001(\005B2\n\031emu.grasscut" +
+      "ter.net.protoB\025OGGBIPINLFNOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -965,8 +965,8 @@ public final class FGEFJDIMAPCOuterClass {
       "\n\021FGEFJDIMAPC.proto\032\021NAGAJBEOMMB.proto\"Z" +
       "\n\013FGEFJDIMAPC\022!\n\013NCHCNOPEJHK\030\001 \003(\0132\014.NAG" +
       "AJBEOMMB\022\023\n\013FKDDIPJKLAK\030\002 \001(\010\022\023\n\013AMMOBBE" +
-      "NFNL\030\003 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "NFNL\030\003 \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025FGEFJDIMAPCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

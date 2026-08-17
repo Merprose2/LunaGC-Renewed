@@ -666,8 +666,9 @@ public final class ItemGivingRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\023ItemGivingRsp.proto\"L\n\rItemGivingRsp\022\027" +
       "\n\017giving_group_id\030\013 \001(\r\022\021\n\tgiving_id\030\014 \001" +
-      "(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "(\r\022\017\n\007retcode\030\017 \001(\005B4\n\031emu.grasscutter.n" +
+      "et.protoB\027ItemGivingRspOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

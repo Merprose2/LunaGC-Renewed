@@ -53,11 +53,11 @@ public final class ILGPAGOGEEJOuterClass {
      * <code>._TierUp tier_up = 3;</code>
      * @return The tierUp.
      */
-    emu.grasscutter.net.proto.TierUp._TierUp getTierUp();
+    emu.grasscutter.net.proto._TierUpOuterClass._TierUp getTierUp();
     /**
      * <code>._TierUp tier_up = 3;</code>
      */
-    emu.grasscutter.net.proto.TierUp._TierUpOrBuilder getTierUpOrBuilder();
+    emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder getTierUpOrBuilder();
 
     /**
      * <code>._Rank rank = 4;</code>
@@ -68,11 +68,11 @@ public final class ILGPAGOGEEJOuterClass {
      * <code>._Rank rank = 4;</code>
      * @return The rank.
      */
-    emu.grasscutter.net.proto.Rank._Rank getRank();
+    emu.grasscutter.net.proto._RankOuterClass._Rank getRank();
     /**
      * <code>._Rank rank = 4;</code>
      */
-    emu.grasscutter.net.proto.Rank._RankOrBuilder getRankOrBuilder();
+    emu.grasscutter.net.proto._RankOuterClass._RankOrBuilder getRankOrBuilder();
 
     /**
      * <code>._NormalAchievement normal_achievement = 5;</code>
@@ -83,11 +83,11 @@ public final class ILGPAGOGEEJOuterClass {
      * <code>._NormalAchievement normal_achievement = 5;</code>
      * @return The normalAchievement.
      */
-    emu.grasscutter.net.proto.NormalAchievement._NormalAchievement getNormalAchievement();
+    emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement getNormalAchievement();
     /**
      * <code>._NormalAchievement normal_achievement = 5;</code>
      */
-    emu.grasscutter.net.proto.NormalAchievement._NormalAchievementOrBuilder getNormalAchievementOrBuilder();
+    emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievementOrBuilder getNormalAchievementOrBuilder();
 
     /**
      * <code>._PlatinumAchievement platinum_achievement = 6;</code>
@@ -98,11 +98,11 @@ public final class ILGPAGOGEEJOuterClass {
      * <code>._PlatinumAchievement platinum_achievement = 6;</code>
      * @return The platinumAchievement.
      */
-    emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement getPlatinumAchievement();
+    emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement getPlatinumAchievement();
     /**
      * <code>._PlatinumAchievement platinum_achievement = 6;</code>
      */
-    emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievementOrBuilder getPlatinumAchievementOrBuilder();
+    emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievementOrBuilder getPlatinumAchievementOrBuilder();
 
     /**
      * <code>bool is_collect = 7;</code>
@@ -124,11 +124,11 @@ public final class ILGPAGOGEEJOuterClass {
      * <code>._PaidDlcUnlock paid_dlc_unlock = 8;</code>
      * @return The paidDlcUnlock.
      */
-    emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock getPaidDlcUnlock();
+    emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock getPaidDlcUnlock();
     /**
      * <code>._PaidDlcUnlock paid_dlc_unlock = 8;</code>
      */
-    emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlockOrBuilder getPaidDlcUnlockOrBuilder();
+    emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlockOrBuilder getPaidDlcUnlockOrBuilder();
 
     public emu.grasscutter.net.proto.ILGPAGOGEEJOuterClass.ILGPAGOGEEJ.KGAOJLNPJOFCase getKGAOJLNPJOFCase();
   }
@@ -198,56 +198,56 @@ public final class ILGPAGOGEEJOuterClass {
               break;
             }
             case 26: {
-              emu.grasscutter.net.proto.TierUp._TierUp.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder subBuilder = null;
               if (kGAOJLNPJOFCase_ == 3) {
-                subBuilder = ((emu.grasscutter.net.proto.TierUp._TierUp) kGAOJLNPJOF_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._TierUpOuterClass._TierUp) kGAOJLNPJOF_).toBuilder();
               }
               kGAOJLNPJOF_ =
-                  input.readMessage(emu.grasscutter.net.proto.TierUp._TierUp.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._TierUpOuterClass._TierUp.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.TierUp._TierUp) kGAOJLNPJOF_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._TierUpOuterClass._TierUp) kGAOJLNPJOF_);
                 kGAOJLNPJOF_ = subBuilder.buildPartial();
               }
               kGAOJLNPJOFCase_ = 3;
               break;
             }
             case 34: {
-              emu.grasscutter.net.proto.Rank._Rank.Builder subBuilder = null;
+              emu.grasscutter.net.proto._RankOuterClass._Rank.Builder subBuilder = null;
               if (kGAOJLNPJOFCase_ == 4) {
-                subBuilder = ((emu.grasscutter.net.proto.Rank._Rank) kGAOJLNPJOF_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._RankOuterClass._Rank) kGAOJLNPJOF_).toBuilder();
               }
               kGAOJLNPJOF_ =
-                  input.readMessage(emu.grasscutter.net.proto.Rank._Rank.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._RankOuterClass._Rank.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.Rank._Rank) kGAOJLNPJOF_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._RankOuterClass._Rank) kGAOJLNPJOF_);
                 kGAOJLNPJOF_ = subBuilder.buildPartial();
               }
               kGAOJLNPJOFCase_ = 4;
               break;
             }
             case 42: {
-              emu.grasscutter.net.proto.NormalAchievement._NormalAchievement.Builder subBuilder = null;
+              emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement.Builder subBuilder = null;
               if (kGAOJLNPJOFCase_ == 5) {
-                subBuilder = ((emu.grasscutter.net.proto.NormalAchievement._NormalAchievement) kGAOJLNPJOF_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement) kGAOJLNPJOF_).toBuilder();
               }
               kGAOJLNPJOF_ =
-                  input.readMessage(emu.grasscutter.net.proto.NormalAchievement._NormalAchievement.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.NormalAchievement._NormalAchievement) kGAOJLNPJOF_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement) kGAOJLNPJOF_);
                 kGAOJLNPJOF_ = subBuilder.buildPartial();
               }
               kGAOJLNPJOFCase_ = 5;
               break;
             }
             case 50: {
-              emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement.Builder subBuilder = null;
               if (kGAOJLNPJOFCase_ == 6) {
-                subBuilder = ((emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement) kGAOJLNPJOF_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement) kGAOJLNPJOF_).toBuilder();
               }
               kGAOJLNPJOF_ =
-                  input.readMessage(emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement) kGAOJLNPJOF_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement) kGAOJLNPJOF_);
                 kGAOJLNPJOF_ = subBuilder.buildPartial();
               }
               kGAOJLNPJOFCase_ = 6;
@@ -259,14 +259,14 @@ public final class ILGPAGOGEEJOuterClass {
               break;
             }
             case 66: {
-              emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock.Builder subBuilder = null;
               if (kGAOJLNPJOFCase_ == 8) {
-                subBuilder = ((emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock) kGAOJLNPJOF_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock) kGAOJLNPJOF_).toBuilder();
               }
               kGAOJLNPJOF_ =
-                  input.readMessage(emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock) kGAOJLNPJOF_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock) kGAOJLNPJOF_);
                 kGAOJLNPJOF_ = subBuilder.buildPartial();
               }
               kGAOJLNPJOFCase_ = 8;
@@ -412,21 +412,21 @@ public final class ILGPAGOGEEJOuterClass {
      * @return The tierUp.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TierUp._TierUp getTierUp() {
+    public emu.grasscutter.net.proto._TierUpOuterClass._TierUp getTierUp() {
       if (kGAOJLNPJOFCase_ == 3) {
-         return (emu.grasscutter.net.proto.TierUp._TierUp) kGAOJLNPJOF_;
+         return (emu.grasscutter.net.proto._TierUpOuterClass._TierUp) kGAOJLNPJOF_;
       }
-      return emu.grasscutter.net.proto.TierUp._TierUp.getDefaultInstance();
+      return emu.grasscutter.net.proto._TierUpOuterClass._TierUp.getDefaultInstance();
     }
     /**
      * <code>._TierUp tier_up = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TierUp._TierUpOrBuilder getTierUpOrBuilder() {
+    public emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder getTierUpOrBuilder() {
       if (kGAOJLNPJOFCase_ == 3) {
-         return (emu.grasscutter.net.proto.TierUp._TierUp) kGAOJLNPJOF_;
+         return (emu.grasscutter.net.proto._TierUpOuterClass._TierUp) kGAOJLNPJOF_;
       }
-      return emu.grasscutter.net.proto.TierUp._TierUp.getDefaultInstance();
+      return emu.grasscutter.net.proto._TierUpOuterClass._TierUp.getDefaultInstance();
     }
 
     public static final int RANK_FIELD_NUMBER = 4;
@@ -443,21 +443,21 @@ public final class ILGPAGOGEEJOuterClass {
      * @return The rank.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Rank._Rank getRank() {
+    public emu.grasscutter.net.proto._RankOuterClass._Rank getRank() {
       if (kGAOJLNPJOFCase_ == 4) {
-         return (emu.grasscutter.net.proto.Rank._Rank) kGAOJLNPJOF_;
+         return (emu.grasscutter.net.proto._RankOuterClass._Rank) kGAOJLNPJOF_;
       }
-      return emu.grasscutter.net.proto.Rank._Rank.getDefaultInstance();
+      return emu.grasscutter.net.proto._RankOuterClass._Rank.getDefaultInstance();
     }
     /**
      * <code>._Rank rank = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Rank._RankOrBuilder getRankOrBuilder() {
+    public emu.grasscutter.net.proto._RankOuterClass._RankOrBuilder getRankOrBuilder() {
       if (kGAOJLNPJOFCase_ == 4) {
-         return (emu.grasscutter.net.proto.Rank._Rank) kGAOJLNPJOF_;
+         return (emu.grasscutter.net.proto._RankOuterClass._Rank) kGAOJLNPJOF_;
       }
-      return emu.grasscutter.net.proto.Rank._Rank.getDefaultInstance();
+      return emu.grasscutter.net.proto._RankOuterClass._Rank.getDefaultInstance();
     }
 
     public static final int NORMAL_ACHIEVEMENT_FIELD_NUMBER = 5;
@@ -474,21 +474,21 @@ public final class ILGPAGOGEEJOuterClass {
      * @return The normalAchievement.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.NormalAchievement._NormalAchievement getNormalAchievement() {
+    public emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement getNormalAchievement() {
       if (kGAOJLNPJOFCase_ == 5) {
-         return (emu.grasscutter.net.proto.NormalAchievement._NormalAchievement) kGAOJLNPJOF_;
+         return (emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement) kGAOJLNPJOF_;
       }
-      return emu.grasscutter.net.proto.NormalAchievement._NormalAchievement.getDefaultInstance();
+      return emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement.getDefaultInstance();
     }
     /**
      * <code>._NormalAchievement normal_achievement = 5;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.NormalAchievement._NormalAchievementOrBuilder getNormalAchievementOrBuilder() {
+    public emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievementOrBuilder getNormalAchievementOrBuilder() {
       if (kGAOJLNPJOFCase_ == 5) {
-         return (emu.grasscutter.net.proto.NormalAchievement._NormalAchievement) kGAOJLNPJOF_;
+         return (emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement) kGAOJLNPJOF_;
       }
-      return emu.grasscutter.net.proto.NormalAchievement._NormalAchievement.getDefaultInstance();
+      return emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement.getDefaultInstance();
     }
 
     public static final int PLATINUM_ACHIEVEMENT_FIELD_NUMBER = 6;
@@ -505,21 +505,21 @@ public final class ILGPAGOGEEJOuterClass {
      * @return The platinumAchievement.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement getPlatinumAchievement() {
+    public emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement getPlatinumAchievement() {
       if (kGAOJLNPJOFCase_ == 6) {
-         return (emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement) kGAOJLNPJOF_;
+         return (emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement) kGAOJLNPJOF_;
       }
-      return emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement.getDefaultInstance();
+      return emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement.getDefaultInstance();
     }
     /**
      * <code>._PlatinumAchievement platinum_achievement = 6;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievementOrBuilder getPlatinumAchievementOrBuilder() {
+    public emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievementOrBuilder getPlatinumAchievementOrBuilder() {
       if (kGAOJLNPJOFCase_ == 6) {
-         return (emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement) kGAOJLNPJOF_;
+         return (emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement) kGAOJLNPJOF_;
       }
-      return emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement.getDefaultInstance();
+      return emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement.getDefaultInstance();
     }
 
     public static final int IS_COLLECT_FIELD_NUMBER = 7;
@@ -557,21 +557,21 @@ public final class ILGPAGOGEEJOuterClass {
      * @return The paidDlcUnlock.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock getPaidDlcUnlock() {
+    public emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock getPaidDlcUnlock() {
       if (kGAOJLNPJOFCase_ == 8) {
-         return (emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock) kGAOJLNPJOF_;
+         return (emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock) kGAOJLNPJOF_;
       }
-      return emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock.getDefaultInstance();
+      return emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock.getDefaultInstance();
     }
     /**
      * <code>._PaidDlcUnlock paid_dlc_unlock = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlockOrBuilder getPaidDlcUnlockOrBuilder() {
+    public emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlockOrBuilder getPaidDlcUnlockOrBuilder() {
       if (kGAOJLNPJOFCase_ == 8) {
-         return (emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock) kGAOJLNPJOF_;
+         return (emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock) kGAOJLNPJOF_;
       }
-      return emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock.getDefaultInstance();
+      return emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -595,23 +595,23 @@ public final class ILGPAGOGEEJOuterClass {
         output.writeEnum(2, fOEADBCGEKH_);
       }
       if (kGAOJLNPJOFCase_ == 3) {
-        output.writeMessage(3, (emu.grasscutter.net.proto.TierUp._TierUp) kGAOJLNPJOF_);
+        output.writeMessage(3, (emu.grasscutter.net.proto._TierUpOuterClass._TierUp) kGAOJLNPJOF_);
       }
       if (kGAOJLNPJOFCase_ == 4) {
-        output.writeMessage(4, (emu.grasscutter.net.proto.Rank._Rank) kGAOJLNPJOF_);
+        output.writeMessage(4, (emu.grasscutter.net.proto._RankOuterClass._Rank) kGAOJLNPJOF_);
       }
       if (kGAOJLNPJOFCase_ == 5) {
-        output.writeMessage(5, (emu.grasscutter.net.proto.NormalAchievement._NormalAchievement) kGAOJLNPJOF_);
+        output.writeMessage(5, (emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement) kGAOJLNPJOF_);
       }
       if (kGAOJLNPJOFCase_ == 6) {
-        output.writeMessage(6, (emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement) kGAOJLNPJOF_);
+        output.writeMessage(6, (emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement) kGAOJLNPJOF_);
       }
       if (kGAOJLNPJOFCase_ == 7) {
         output.writeBool(
             7, (boolean)((java.lang.Boolean) kGAOJLNPJOF_));
       }
       if (kGAOJLNPJOFCase_ == 8) {
-        output.writeMessage(8, (emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock) kGAOJLNPJOF_);
+        output.writeMessage(8, (emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock) kGAOJLNPJOF_);
       }
       unknownFields.writeTo(output);
     }
@@ -632,19 +632,19 @@ public final class ILGPAGOGEEJOuterClass {
       }
       if (kGAOJLNPJOFCase_ == 3) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, (emu.grasscutter.net.proto.TierUp._TierUp) kGAOJLNPJOF_);
+          .computeMessageSize(3, (emu.grasscutter.net.proto._TierUpOuterClass._TierUp) kGAOJLNPJOF_);
       }
       if (kGAOJLNPJOFCase_ == 4) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, (emu.grasscutter.net.proto.Rank._Rank) kGAOJLNPJOF_);
+          .computeMessageSize(4, (emu.grasscutter.net.proto._RankOuterClass._Rank) kGAOJLNPJOF_);
       }
       if (kGAOJLNPJOFCase_ == 5) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, (emu.grasscutter.net.proto.NormalAchievement._NormalAchievement) kGAOJLNPJOF_);
+          .computeMessageSize(5, (emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement) kGAOJLNPJOF_);
       }
       if (kGAOJLNPJOFCase_ == 6) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, (emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement) kGAOJLNPJOF_);
+          .computeMessageSize(6, (emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement) kGAOJLNPJOF_);
       }
       if (kGAOJLNPJOFCase_ == 7) {
         size += com.google.protobuf.CodedOutputStream
@@ -653,7 +653,7 @@ public final class ILGPAGOGEEJOuterClass {
       }
       if (kGAOJLNPJOFCase_ == 8) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, (emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock) kGAOJLNPJOF_);
+          .computeMessageSize(8, (emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock) kGAOJLNPJOF_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1266,7 +1266,7 @@ public final class ILGPAGOGEEJOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TierUp._TierUp, emu.grasscutter.net.proto.TierUp._TierUp.Builder, emu.grasscutter.net.proto.TierUp._TierUpOrBuilder> tierUpBuilder_;
+          emu.grasscutter.net.proto._TierUpOuterClass._TierUp, emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder, emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder> tierUpBuilder_;
       /**
        * <code>._TierUp tier_up = 3;</code>
        * @return Whether the tierUp field is set.
@@ -1280,23 +1280,23 @@ public final class ILGPAGOGEEJOuterClass {
        * @return The tierUp.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TierUp._TierUp getTierUp() {
+      public emu.grasscutter.net.proto._TierUpOuterClass._TierUp getTierUp() {
         if (tierUpBuilder_ == null) {
           if (kGAOJLNPJOFCase_ == 3) {
-            return (emu.grasscutter.net.proto.TierUp._TierUp) kGAOJLNPJOF_;
+            return (emu.grasscutter.net.proto._TierUpOuterClass._TierUp) kGAOJLNPJOF_;
           }
-          return emu.grasscutter.net.proto.TierUp._TierUp.getDefaultInstance();
+          return emu.grasscutter.net.proto._TierUpOuterClass._TierUp.getDefaultInstance();
         } else {
           if (kGAOJLNPJOFCase_ == 3) {
             return tierUpBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.TierUp._TierUp.getDefaultInstance();
+          return emu.grasscutter.net.proto._TierUpOuterClass._TierUp.getDefaultInstance();
         }
       }
       /**
        * <code>._TierUp tier_up = 3;</code>
        */
-      public Builder setTierUp(emu.grasscutter.net.proto.TierUp._TierUp value) {
+      public Builder setTierUp(emu.grasscutter.net.proto._TierUpOuterClass._TierUp value) {
         if (tierUpBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1313,7 +1313,7 @@ public final class ILGPAGOGEEJOuterClass {
        * <code>._TierUp tier_up = 3;</code>
        */
       public Builder setTierUp(
-          emu.grasscutter.net.proto.TierUp._TierUp.Builder builderForValue) {
+          emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder builderForValue) {
         if (tierUpBuilder_ == null) {
           kGAOJLNPJOF_ = builderForValue.build();
           onChanged();
@@ -1326,11 +1326,11 @@ public final class ILGPAGOGEEJOuterClass {
       /**
        * <code>._TierUp tier_up = 3;</code>
        */
-      public Builder mergeTierUp(emu.grasscutter.net.proto.TierUp._TierUp value) {
+      public Builder mergeTierUp(emu.grasscutter.net.proto._TierUpOuterClass._TierUp value) {
         if (tierUpBuilder_ == null) {
           if (kGAOJLNPJOFCase_ == 3 &&
-              kGAOJLNPJOF_ != emu.grasscutter.net.proto.TierUp._TierUp.getDefaultInstance()) {
-            kGAOJLNPJOF_ = emu.grasscutter.net.proto.TierUp._TierUp.newBuilder((emu.grasscutter.net.proto.TierUp._TierUp) kGAOJLNPJOF_)
+              kGAOJLNPJOF_ != emu.grasscutter.net.proto._TierUpOuterClass._TierUp.getDefaultInstance()) {
+            kGAOJLNPJOF_ = emu.grasscutter.net.proto._TierUpOuterClass._TierUp.newBuilder((emu.grasscutter.net.proto._TierUpOuterClass._TierUp) kGAOJLNPJOF_)
                 .mergeFrom(value).buildPartial();
           } else {
             kGAOJLNPJOF_ = value;
@@ -1367,36 +1367,36 @@ public final class ILGPAGOGEEJOuterClass {
       /**
        * <code>._TierUp tier_up = 3;</code>
        */
-      public emu.grasscutter.net.proto.TierUp._TierUp.Builder getTierUpBuilder() {
+      public emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder getTierUpBuilder() {
         return getTierUpFieldBuilder().getBuilder();
       }
       /**
        * <code>._TierUp tier_up = 3;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TierUp._TierUpOrBuilder getTierUpOrBuilder() {
+      public emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder getTierUpOrBuilder() {
         if ((kGAOJLNPJOFCase_ == 3) && (tierUpBuilder_ != null)) {
           return tierUpBuilder_.getMessageOrBuilder();
         } else {
           if (kGAOJLNPJOFCase_ == 3) {
-            return (emu.grasscutter.net.proto.TierUp._TierUp) kGAOJLNPJOF_;
+            return (emu.grasscutter.net.proto._TierUpOuterClass._TierUp) kGAOJLNPJOF_;
           }
-          return emu.grasscutter.net.proto.TierUp._TierUp.getDefaultInstance();
+          return emu.grasscutter.net.proto._TierUpOuterClass._TierUp.getDefaultInstance();
         }
       }
       /**
        * <code>._TierUp tier_up = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TierUp._TierUp, emu.grasscutter.net.proto.TierUp._TierUp.Builder, emu.grasscutter.net.proto.TierUp._TierUpOrBuilder> 
+          emu.grasscutter.net.proto._TierUpOuterClass._TierUp, emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder, emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder> 
           getTierUpFieldBuilder() {
         if (tierUpBuilder_ == null) {
           if (!(kGAOJLNPJOFCase_ == 3)) {
-            kGAOJLNPJOF_ = emu.grasscutter.net.proto.TierUp._TierUp.getDefaultInstance();
+            kGAOJLNPJOF_ = emu.grasscutter.net.proto._TierUpOuterClass._TierUp.getDefaultInstance();
           }
           tierUpBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TierUp._TierUp, emu.grasscutter.net.proto.TierUp._TierUp.Builder, emu.grasscutter.net.proto.TierUp._TierUpOrBuilder>(
-                  (emu.grasscutter.net.proto.TierUp._TierUp) kGAOJLNPJOF_,
+              emu.grasscutter.net.proto._TierUpOuterClass._TierUp, emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder, emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder>(
+                  (emu.grasscutter.net.proto._TierUpOuterClass._TierUp) kGAOJLNPJOF_,
                   getParentForChildren(),
                   isClean());
           kGAOJLNPJOF_ = null;
@@ -1407,7 +1407,7 @@ public final class ILGPAGOGEEJOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Rank._Rank, emu.grasscutter.net.proto.Rank._Rank.Builder, emu.grasscutter.net.proto.Rank._RankOrBuilder> rankBuilder_;
+          emu.grasscutter.net.proto._RankOuterClass._Rank, emu.grasscutter.net.proto._RankOuterClass._Rank.Builder, emu.grasscutter.net.proto._RankOuterClass._RankOrBuilder> rankBuilder_;
       /**
        * <code>._Rank rank = 4;</code>
        * @return Whether the rank field is set.
@@ -1421,23 +1421,23 @@ public final class ILGPAGOGEEJOuterClass {
        * @return The rank.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Rank._Rank getRank() {
+      public emu.grasscutter.net.proto._RankOuterClass._Rank getRank() {
         if (rankBuilder_ == null) {
           if (kGAOJLNPJOFCase_ == 4) {
-            return (emu.grasscutter.net.proto.Rank._Rank) kGAOJLNPJOF_;
+            return (emu.grasscutter.net.proto._RankOuterClass._Rank) kGAOJLNPJOF_;
           }
-          return emu.grasscutter.net.proto.Rank._Rank.getDefaultInstance();
+          return emu.grasscutter.net.proto._RankOuterClass._Rank.getDefaultInstance();
         } else {
           if (kGAOJLNPJOFCase_ == 4) {
             return rankBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.Rank._Rank.getDefaultInstance();
+          return emu.grasscutter.net.proto._RankOuterClass._Rank.getDefaultInstance();
         }
       }
       /**
        * <code>._Rank rank = 4;</code>
        */
-      public Builder setRank(emu.grasscutter.net.proto.Rank._Rank value) {
+      public Builder setRank(emu.grasscutter.net.proto._RankOuterClass._Rank value) {
         if (rankBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1454,7 +1454,7 @@ public final class ILGPAGOGEEJOuterClass {
        * <code>._Rank rank = 4;</code>
        */
       public Builder setRank(
-          emu.grasscutter.net.proto.Rank._Rank.Builder builderForValue) {
+          emu.grasscutter.net.proto._RankOuterClass._Rank.Builder builderForValue) {
         if (rankBuilder_ == null) {
           kGAOJLNPJOF_ = builderForValue.build();
           onChanged();
@@ -1467,11 +1467,11 @@ public final class ILGPAGOGEEJOuterClass {
       /**
        * <code>._Rank rank = 4;</code>
        */
-      public Builder mergeRank(emu.grasscutter.net.proto.Rank._Rank value) {
+      public Builder mergeRank(emu.grasscutter.net.proto._RankOuterClass._Rank value) {
         if (rankBuilder_ == null) {
           if (kGAOJLNPJOFCase_ == 4 &&
-              kGAOJLNPJOF_ != emu.grasscutter.net.proto.Rank._Rank.getDefaultInstance()) {
-            kGAOJLNPJOF_ = emu.grasscutter.net.proto.Rank._Rank.newBuilder((emu.grasscutter.net.proto.Rank._Rank) kGAOJLNPJOF_)
+              kGAOJLNPJOF_ != emu.grasscutter.net.proto._RankOuterClass._Rank.getDefaultInstance()) {
+            kGAOJLNPJOF_ = emu.grasscutter.net.proto._RankOuterClass._Rank.newBuilder((emu.grasscutter.net.proto._RankOuterClass._Rank) kGAOJLNPJOF_)
                 .mergeFrom(value).buildPartial();
           } else {
             kGAOJLNPJOF_ = value;
@@ -1508,36 +1508,36 @@ public final class ILGPAGOGEEJOuterClass {
       /**
        * <code>._Rank rank = 4;</code>
        */
-      public emu.grasscutter.net.proto.Rank._Rank.Builder getRankBuilder() {
+      public emu.grasscutter.net.proto._RankOuterClass._Rank.Builder getRankBuilder() {
         return getRankFieldBuilder().getBuilder();
       }
       /**
        * <code>._Rank rank = 4;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Rank._RankOrBuilder getRankOrBuilder() {
+      public emu.grasscutter.net.proto._RankOuterClass._RankOrBuilder getRankOrBuilder() {
         if ((kGAOJLNPJOFCase_ == 4) && (rankBuilder_ != null)) {
           return rankBuilder_.getMessageOrBuilder();
         } else {
           if (kGAOJLNPJOFCase_ == 4) {
-            return (emu.grasscutter.net.proto.Rank._Rank) kGAOJLNPJOF_;
+            return (emu.grasscutter.net.proto._RankOuterClass._Rank) kGAOJLNPJOF_;
           }
-          return emu.grasscutter.net.proto.Rank._Rank.getDefaultInstance();
+          return emu.grasscutter.net.proto._RankOuterClass._Rank.getDefaultInstance();
         }
       }
       /**
        * <code>._Rank rank = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Rank._Rank, emu.grasscutter.net.proto.Rank._Rank.Builder, emu.grasscutter.net.proto.Rank._RankOrBuilder> 
+          emu.grasscutter.net.proto._RankOuterClass._Rank, emu.grasscutter.net.proto._RankOuterClass._Rank.Builder, emu.grasscutter.net.proto._RankOuterClass._RankOrBuilder> 
           getRankFieldBuilder() {
         if (rankBuilder_ == null) {
           if (!(kGAOJLNPJOFCase_ == 4)) {
-            kGAOJLNPJOF_ = emu.grasscutter.net.proto.Rank._Rank.getDefaultInstance();
+            kGAOJLNPJOF_ = emu.grasscutter.net.proto._RankOuterClass._Rank.getDefaultInstance();
           }
           rankBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.Rank._Rank, emu.grasscutter.net.proto.Rank._Rank.Builder, emu.grasscutter.net.proto.Rank._RankOrBuilder>(
-                  (emu.grasscutter.net.proto.Rank._Rank) kGAOJLNPJOF_,
+              emu.grasscutter.net.proto._RankOuterClass._Rank, emu.grasscutter.net.proto._RankOuterClass._Rank.Builder, emu.grasscutter.net.proto._RankOuterClass._RankOrBuilder>(
+                  (emu.grasscutter.net.proto._RankOuterClass._Rank) kGAOJLNPJOF_,
                   getParentForChildren(),
                   isClean());
           kGAOJLNPJOF_ = null;
@@ -1548,7 +1548,7 @@ public final class ILGPAGOGEEJOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.NormalAchievement._NormalAchievement, emu.grasscutter.net.proto.NormalAchievement._NormalAchievement.Builder, emu.grasscutter.net.proto.NormalAchievement._NormalAchievementOrBuilder> normalAchievementBuilder_;
+          emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement, emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement.Builder, emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievementOrBuilder> normalAchievementBuilder_;
       /**
        * <code>._NormalAchievement normal_achievement = 5;</code>
        * @return Whether the normalAchievement field is set.
@@ -1562,23 +1562,23 @@ public final class ILGPAGOGEEJOuterClass {
        * @return The normalAchievement.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.NormalAchievement._NormalAchievement getNormalAchievement() {
+      public emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement getNormalAchievement() {
         if (normalAchievementBuilder_ == null) {
           if (kGAOJLNPJOFCase_ == 5) {
-            return (emu.grasscutter.net.proto.NormalAchievement._NormalAchievement) kGAOJLNPJOF_;
+            return (emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement) kGAOJLNPJOF_;
           }
-          return emu.grasscutter.net.proto.NormalAchievement._NormalAchievement.getDefaultInstance();
+          return emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement.getDefaultInstance();
         } else {
           if (kGAOJLNPJOFCase_ == 5) {
             return normalAchievementBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.NormalAchievement._NormalAchievement.getDefaultInstance();
+          return emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement.getDefaultInstance();
         }
       }
       /**
        * <code>._NormalAchievement normal_achievement = 5;</code>
        */
-      public Builder setNormalAchievement(emu.grasscutter.net.proto.NormalAchievement._NormalAchievement value) {
+      public Builder setNormalAchievement(emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement value) {
         if (normalAchievementBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1595,7 +1595,7 @@ public final class ILGPAGOGEEJOuterClass {
        * <code>._NormalAchievement normal_achievement = 5;</code>
        */
       public Builder setNormalAchievement(
-          emu.grasscutter.net.proto.NormalAchievement._NormalAchievement.Builder builderForValue) {
+          emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement.Builder builderForValue) {
         if (normalAchievementBuilder_ == null) {
           kGAOJLNPJOF_ = builderForValue.build();
           onChanged();
@@ -1608,11 +1608,11 @@ public final class ILGPAGOGEEJOuterClass {
       /**
        * <code>._NormalAchievement normal_achievement = 5;</code>
        */
-      public Builder mergeNormalAchievement(emu.grasscutter.net.proto.NormalAchievement._NormalAchievement value) {
+      public Builder mergeNormalAchievement(emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement value) {
         if (normalAchievementBuilder_ == null) {
           if (kGAOJLNPJOFCase_ == 5 &&
-              kGAOJLNPJOF_ != emu.grasscutter.net.proto.NormalAchievement._NormalAchievement.getDefaultInstance()) {
-            kGAOJLNPJOF_ = emu.grasscutter.net.proto.NormalAchievement._NormalAchievement.newBuilder((emu.grasscutter.net.proto.NormalAchievement._NormalAchievement) kGAOJLNPJOF_)
+              kGAOJLNPJOF_ != emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement.getDefaultInstance()) {
+            kGAOJLNPJOF_ = emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement.newBuilder((emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement) kGAOJLNPJOF_)
                 .mergeFrom(value).buildPartial();
           } else {
             kGAOJLNPJOF_ = value;
@@ -1649,36 +1649,36 @@ public final class ILGPAGOGEEJOuterClass {
       /**
        * <code>._NormalAchievement normal_achievement = 5;</code>
        */
-      public emu.grasscutter.net.proto.NormalAchievement._NormalAchievement.Builder getNormalAchievementBuilder() {
+      public emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement.Builder getNormalAchievementBuilder() {
         return getNormalAchievementFieldBuilder().getBuilder();
       }
       /**
        * <code>._NormalAchievement normal_achievement = 5;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.NormalAchievement._NormalAchievementOrBuilder getNormalAchievementOrBuilder() {
+      public emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievementOrBuilder getNormalAchievementOrBuilder() {
         if ((kGAOJLNPJOFCase_ == 5) && (normalAchievementBuilder_ != null)) {
           return normalAchievementBuilder_.getMessageOrBuilder();
         } else {
           if (kGAOJLNPJOFCase_ == 5) {
-            return (emu.grasscutter.net.proto.NormalAchievement._NormalAchievement) kGAOJLNPJOF_;
+            return (emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement) kGAOJLNPJOF_;
           }
-          return emu.grasscutter.net.proto.NormalAchievement._NormalAchievement.getDefaultInstance();
+          return emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement.getDefaultInstance();
         }
       }
       /**
        * <code>._NormalAchievement normal_achievement = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.NormalAchievement._NormalAchievement, emu.grasscutter.net.proto.NormalAchievement._NormalAchievement.Builder, emu.grasscutter.net.proto.NormalAchievement._NormalAchievementOrBuilder> 
+          emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement, emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement.Builder, emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievementOrBuilder> 
           getNormalAchievementFieldBuilder() {
         if (normalAchievementBuilder_ == null) {
           if (!(kGAOJLNPJOFCase_ == 5)) {
-            kGAOJLNPJOF_ = emu.grasscutter.net.proto.NormalAchievement._NormalAchievement.getDefaultInstance();
+            kGAOJLNPJOF_ = emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement.getDefaultInstance();
           }
           normalAchievementBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.NormalAchievement._NormalAchievement, emu.grasscutter.net.proto.NormalAchievement._NormalAchievement.Builder, emu.grasscutter.net.proto.NormalAchievement._NormalAchievementOrBuilder>(
-                  (emu.grasscutter.net.proto.NormalAchievement._NormalAchievement) kGAOJLNPJOF_,
+              emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement, emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement.Builder, emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievementOrBuilder>(
+                  (emu.grasscutter.net.proto._NormalAchievementOuterClass._NormalAchievement) kGAOJLNPJOF_,
                   getParentForChildren(),
                   isClean());
           kGAOJLNPJOF_ = null;
@@ -1689,7 +1689,7 @@ public final class ILGPAGOGEEJOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement, emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement.Builder, emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievementOrBuilder> platinumAchievementBuilder_;
+          emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement, emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement.Builder, emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievementOrBuilder> platinumAchievementBuilder_;
       /**
        * <code>._PlatinumAchievement platinum_achievement = 6;</code>
        * @return Whether the platinumAchievement field is set.
@@ -1703,23 +1703,23 @@ public final class ILGPAGOGEEJOuterClass {
        * @return The platinumAchievement.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement getPlatinumAchievement() {
+      public emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement getPlatinumAchievement() {
         if (platinumAchievementBuilder_ == null) {
           if (kGAOJLNPJOFCase_ == 6) {
-            return (emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement) kGAOJLNPJOF_;
+            return (emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement) kGAOJLNPJOF_;
           }
-          return emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement.getDefaultInstance();
+          return emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement.getDefaultInstance();
         } else {
           if (kGAOJLNPJOFCase_ == 6) {
             return platinumAchievementBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement.getDefaultInstance();
+          return emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement.getDefaultInstance();
         }
       }
       /**
        * <code>._PlatinumAchievement platinum_achievement = 6;</code>
        */
-      public Builder setPlatinumAchievement(emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement value) {
+      public Builder setPlatinumAchievement(emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement value) {
         if (platinumAchievementBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1736,7 +1736,7 @@ public final class ILGPAGOGEEJOuterClass {
        * <code>._PlatinumAchievement platinum_achievement = 6;</code>
        */
       public Builder setPlatinumAchievement(
-          emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement.Builder builderForValue) {
+          emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement.Builder builderForValue) {
         if (platinumAchievementBuilder_ == null) {
           kGAOJLNPJOF_ = builderForValue.build();
           onChanged();
@@ -1749,11 +1749,11 @@ public final class ILGPAGOGEEJOuterClass {
       /**
        * <code>._PlatinumAchievement platinum_achievement = 6;</code>
        */
-      public Builder mergePlatinumAchievement(emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement value) {
+      public Builder mergePlatinumAchievement(emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement value) {
         if (platinumAchievementBuilder_ == null) {
           if (kGAOJLNPJOFCase_ == 6 &&
-              kGAOJLNPJOF_ != emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement.getDefaultInstance()) {
-            kGAOJLNPJOF_ = emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement.newBuilder((emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement) kGAOJLNPJOF_)
+              kGAOJLNPJOF_ != emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement.getDefaultInstance()) {
+            kGAOJLNPJOF_ = emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement.newBuilder((emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement) kGAOJLNPJOF_)
                 .mergeFrom(value).buildPartial();
           } else {
             kGAOJLNPJOF_ = value;
@@ -1790,36 +1790,36 @@ public final class ILGPAGOGEEJOuterClass {
       /**
        * <code>._PlatinumAchievement platinum_achievement = 6;</code>
        */
-      public emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement.Builder getPlatinumAchievementBuilder() {
+      public emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement.Builder getPlatinumAchievementBuilder() {
         return getPlatinumAchievementFieldBuilder().getBuilder();
       }
       /**
        * <code>._PlatinumAchievement platinum_achievement = 6;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievementOrBuilder getPlatinumAchievementOrBuilder() {
+      public emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievementOrBuilder getPlatinumAchievementOrBuilder() {
         if ((kGAOJLNPJOFCase_ == 6) && (platinumAchievementBuilder_ != null)) {
           return platinumAchievementBuilder_.getMessageOrBuilder();
         } else {
           if (kGAOJLNPJOFCase_ == 6) {
-            return (emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement) kGAOJLNPJOF_;
+            return (emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement) kGAOJLNPJOF_;
           }
-          return emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement.getDefaultInstance();
+          return emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement.getDefaultInstance();
         }
       }
       /**
        * <code>._PlatinumAchievement platinum_achievement = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement, emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement.Builder, emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievementOrBuilder> 
+          emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement, emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement.Builder, emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievementOrBuilder> 
           getPlatinumAchievementFieldBuilder() {
         if (platinumAchievementBuilder_ == null) {
           if (!(kGAOJLNPJOFCase_ == 6)) {
-            kGAOJLNPJOF_ = emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement.getDefaultInstance();
+            kGAOJLNPJOF_ = emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement.getDefaultInstance();
           }
           platinumAchievementBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement, emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement.Builder, emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievementOrBuilder>(
-                  (emu.grasscutter.net.proto.PlatinumAchievement._PlatinumAchievement) kGAOJLNPJOF_,
+              emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement, emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement.Builder, emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievementOrBuilder>(
+                  (emu.grasscutter.net.proto._PlatinumAchievementOuterClass._PlatinumAchievement) kGAOJLNPJOF_,
                   getParentForChildren(),
                   isClean());
           kGAOJLNPJOF_ = null;
@@ -1871,7 +1871,7 @@ public final class ILGPAGOGEEJOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock, emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock.Builder, emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlockOrBuilder> paidDlcUnlockBuilder_;
+          emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock, emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock.Builder, emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlockOrBuilder> paidDlcUnlockBuilder_;
       /**
        * <code>._PaidDlcUnlock paid_dlc_unlock = 8;</code>
        * @return Whether the paidDlcUnlock field is set.
@@ -1885,23 +1885,23 @@ public final class ILGPAGOGEEJOuterClass {
        * @return The paidDlcUnlock.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock getPaidDlcUnlock() {
+      public emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock getPaidDlcUnlock() {
         if (paidDlcUnlockBuilder_ == null) {
           if (kGAOJLNPJOFCase_ == 8) {
-            return (emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock) kGAOJLNPJOF_;
+            return (emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock) kGAOJLNPJOF_;
           }
-          return emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock.getDefaultInstance();
+          return emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock.getDefaultInstance();
         } else {
           if (kGAOJLNPJOFCase_ == 8) {
             return paidDlcUnlockBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock.getDefaultInstance();
+          return emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock.getDefaultInstance();
         }
       }
       /**
        * <code>._PaidDlcUnlock paid_dlc_unlock = 8;</code>
        */
-      public Builder setPaidDlcUnlock(emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock value) {
+      public Builder setPaidDlcUnlock(emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock value) {
         if (paidDlcUnlockBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1918,7 +1918,7 @@ public final class ILGPAGOGEEJOuterClass {
        * <code>._PaidDlcUnlock paid_dlc_unlock = 8;</code>
        */
       public Builder setPaidDlcUnlock(
-          emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock.Builder builderForValue) {
+          emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock.Builder builderForValue) {
         if (paidDlcUnlockBuilder_ == null) {
           kGAOJLNPJOF_ = builderForValue.build();
           onChanged();
@@ -1931,11 +1931,11 @@ public final class ILGPAGOGEEJOuterClass {
       /**
        * <code>._PaidDlcUnlock paid_dlc_unlock = 8;</code>
        */
-      public Builder mergePaidDlcUnlock(emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock value) {
+      public Builder mergePaidDlcUnlock(emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock value) {
         if (paidDlcUnlockBuilder_ == null) {
           if (kGAOJLNPJOFCase_ == 8 &&
-              kGAOJLNPJOF_ != emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock.getDefaultInstance()) {
-            kGAOJLNPJOF_ = emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock.newBuilder((emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock) kGAOJLNPJOF_)
+              kGAOJLNPJOF_ != emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock.getDefaultInstance()) {
+            kGAOJLNPJOF_ = emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock.newBuilder((emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock) kGAOJLNPJOF_)
                 .mergeFrom(value).buildPartial();
           } else {
             kGAOJLNPJOF_ = value;
@@ -1972,36 +1972,36 @@ public final class ILGPAGOGEEJOuterClass {
       /**
        * <code>._PaidDlcUnlock paid_dlc_unlock = 8;</code>
        */
-      public emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock.Builder getPaidDlcUnlockBuilder() {
+      public emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock.Builder getPaidDlcUnlockBuilder() {
         return getPaidDlcUnlockFieldBuilder().getBuilder();
       }
       /**
        * <code>._PaidDlcUnlock paid_dlc_unlock = 8;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlockOrBuilder getPaidDlcUnlockOrBuilder() {
+      public emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlockOrBuilder getPaidDlcUnlockOrBuilder() {
         if ((kGAOJLNPJOFCase_ == 8) && (paidDlcUnlockBuilder_ != null)) {
           return paidDlcUnlockBuilder_.getMessageOrBuilder();
         } else {
           if (kGAOJLNPJOFCase_ == 8) {
-            return (emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock) kGAOJLNPJOF_;
+            return (emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock) kGAOJLNPJOF_;
           }
-          return emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock.getDefaultInstance();
+          return emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock.getDefaultInstance();
         }
       }
       /**
        * <code>._PaidDlcUnlock paid_dlc_unlock = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock, emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock.Builder, emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlockOrBuilder> 
+          emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock, emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock.Builder, emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlockOrBuilder> 
           getPaidDlcUnlockFieldBuilder() {
         if (paidDlcUnlockBuilder_ == null) {
           if (!(kGAOJLNPJOFCase_ == 8)) {
-            kGAOJLNPJOF_ = emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock.getDefaultInstance();
+            kGAOJLNPJOF_ = emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock.getDefaultInstance();
           }
           paidDlcUnlockBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock, emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock.Builder, emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlockOrBuilder>(
-                  (emu.grasscutter.net.proto.PaidDlcUnlock._PaidDlcUnlock) kGAOJLNPJOF_,
+              emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock, emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock.Builder, emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlockOrBuilder>(
+                  (emu.grasscutter.net.proto._PaidDlcUnlockOuterClass._PaidDlcUnlock) kGAOJLNPJOF_,
                   getParentForChildren(),
                   isClean());
           kGAOJLNPJOF_ = null;
@@ -2089,19 +2089,19 @@ public final class ILGPAGOGEEJOuterClass {
       "num_achievement\030\006 \001(\0132\025._PlatinumAchieve" +
       "mentH\000\022\024\n\nis_collect\030\007 \001(\010H\000\022*\n\017paid_dlc" +
       "_unlock\030\010 \001(\0132\017._PaidDlcUnlockH\000B\r\n\013KGAO" +
-      "JLNPJOFB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "JLNPJOFB2\n\031emu.grasscutter.net.protoB\025IL" +
+      "GPAGOGEEJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.GNEJDEIEDIFOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PBKENIDHIDPOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.NormalAchievement.getDescriptor(),
-          emu.grasscutter.net.proto.PaidDlcUnlock.getDescriptor(),
-          emu.grasscutter.net.proto.PlatinumAchievement.getDescriptor(),
-          emu.grasscutter.net.proto.Rank.getDescriptor(),
-          emu.grasscutter.net.proto.TierUp.getDescriptor(),
+          emu.grasscutter.net.proto._NormalAchievementOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._PaidDlcUnlockOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._PlatinumAchievementOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._RankOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._TierUpOuterClass.getDescriptor(),
         });
     internal_static_ILGPAGOGEEJ_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2111,11 +2111,11 @@ public final class ILGPAGOGEEJOuterClass {
         new java.lang.String[] { "PlayerInfo", "FOEADBCGEKH", "TierUp", "Rank", "NormalAchievement", "PlatinumAchievement", "IsCollect", "PaidDlcUnlock", "KGAOJLNPJOF", });
     emu.grasscutter.net.proto.GNEJDEIEDIFOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PBKENIDHIDPOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.NormalAchievement.getDescriptor();
-    emu.grasscutter.net.proto.PaidDlcUnlock.getDescriptor();
-    emu.grasscutter.net.proto.PlatinumAchievement.getDescriptor();
-    emu.grasscutter.net.proto.Rank.getDescriptor();
-    emu.grasscutter.net.proto.TierUp.getDescriptor();
+    emu.grasscutter.net.proto._NormalAchievementOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._PaidDlcUnlockOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._PlatinumAchievementOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._RankOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._TierUpOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

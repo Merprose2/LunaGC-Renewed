@@ -152,8 +152,9 @@ public final class CLPLDLOMHNLOuterClass {
       "\n\021CLPLDLOMHNL.proto*y\n\013CLPLDLOMHNL\022\024\n\020CL" +
       "PLDLOMHNL_AUTO\020\000\022\030\n\024CLPLDLOMHNL_INTERACT" +
       "\020\001\022 \n\034CLPLDLOMHNL_OPEN_INTERACT_UI\020\002\022\030\n\024" +
-      "CLPLDLOMHNL_ADHESIVE\020\003B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "CLPLDLOMHNL_ADHESIVE\020\003B2\n\031emu.grasscutte" +
+      "r.net.protoB\025CLPLDLOMHNLOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -588,8 +588,9 @@ public final class CityReputationSimpleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036CityReputationSimpleInfo.proto\":\n\030City" +
       "ReputationSimpleInfo\022\017\n\007city_id\030\t \001(\r\022\r\n" +
-      "\005level\030\014 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\005level\030\014 \001(\rB?\n\031emu.grasscutter.net.prot" +
+      "oB\"CityReputationSimpleInfoOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

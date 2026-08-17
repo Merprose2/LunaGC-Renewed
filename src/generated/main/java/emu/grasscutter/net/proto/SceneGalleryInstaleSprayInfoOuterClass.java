@@ -895,8 +895,9 @@ public final class SceneGalleryInstaleSprayInfoOuterClass {
       "eneGalleryInstableSprayBuffInfo.proto\"i\n" +
       "\034SceneGalleryInstaleSprayInfo\022\r\n\005score\030\r" +
       " \001(\r\022:\n\016buff_info_list\030\016 \003(\0132\".SceneGall" +
-      "eryInstableSprayBuffInfoB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "eryInstableSprayBuffInfoBC\n\031emu.grasscut" +
+      "ter.net.protoB&SceneGalleryInstaleSprayI" +
+      "nfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -933,8 +933,9 @@ public final class UseWidgetCreateGadgetReqOuterClass {
       "\n\036UseWidgetCreateGadgetReq.proto\032\014Vector" +
       ".proto\"[\n\030UseWidgetCreateGadgetReq\022\023\n\013ma" +
       "terial_id\030\001 \001(\r\022\024\n\003pos\030\002 \001(\0132\007.Vector\022\024\n" +
-      "\003rot\030\005 \001(\0132\007.VectorB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\003rot\030\005 \001(\0132\007.VectorB?\n\031emu.grasscutter.n" +
+      "et.protoB\"UseWidgetCreateGadgetReqOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

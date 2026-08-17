@@ -590,7 +590,8 @@ public final class PotionAvatarInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026PotionAvatarInfo.proto\"7\n\020PotionAvatar" +
       "Info\022\020\n\010is_trial\030\013 \001(\010\022\021\n\tavatar_id\030\r \001(" +
-      "\004B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\004B7\n\031emu.grasscutter.net.protoB\032PotionAv" +
+      "atarInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

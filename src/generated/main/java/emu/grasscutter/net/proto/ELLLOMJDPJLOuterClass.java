@@ -44,11 +44,11 @@ public final class ELLLOMJDPJLOuterClass {
      * <code>._MpActionId mp_action_id = 100;</code>
      * @return The mpActionId.
      */
-    emu.grasscutter.net.proto.MpActionId._MpActionId getMpActionId();
+    emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId getMpActionId();
     /**
      * <code>._MpActionId mp_action_id = 100;</code>
      */
-    emu.grasscutter.net.proto.MpActionId._MpActionIdOrBuilder getMpActionIdOrBuilder();
+    emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionIdOrBuilder getMpActionIdOrBuilder();
 
     /**
      * <code>.NNBHGFJCCCO config_function = 101;</code>
@@ -125,14 +125,14 @@ public final class ELLLOMJDPJLOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.MpActionId._MpActionId.Builder subBuilder = null;
+              emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.MpActionId._MpActionId) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.MpActionId._MpActionId.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.MpActionId._MpActionId) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 100;
@@ -269,21 +269,21 @@ public final class ELLLOMJDPJLOuterClass {
      * @return The mpActionId.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MpActionId._MpActionId getMpActionId() {
+    public emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId getMpActionId() {
       if (bIINDCAHMFCCase_ == 100) {
-         return (emu.grasscutter.net.proto.MpActionId._MpActionId) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.MpActionId._MpActionId.getDefaultInstance();
+      return emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId.getDefaultInstance();
     }
     /**
      * <code>._MpActionId mp_action_id = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MpActionId._MpActionIdOrBuilder getMpActionIdOrBuilder() {
+    public emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionIdOrBuilder getMpActionIdOrBuilder() {
       if (bIINDCAHMFCCase_ == 100) {
-         return (emu.grasscutter.net.proto.MpActionId._MpActionId) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.MpActionId._MpActionId.getDefaultInstance();
+      return emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId.getDefaultInstance();
     }
 
     public static final int CONFIG_FUNCTION_FIELD_NUMBER = 101;
@@ -338,7 +338,7 @@ public final class ELLLOMJDPJLOuterClass {
         output.writeBool(2, dPMMGMEHGLJ_);
       }
       if (bIINDCAHMFCCase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.MpActionId._MpActionId) bIINDCAHMFC_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 101) {
         output.writeMessage(101, (emu.grasscutter.net.proto.NNBHGFJCCCOOuterClass.NNBHGFJCCCO) bIINDCAHMFC_);
@@ -362,7 +362,7 @@ public final class ELLLOMJDPJLOuterClass {
       }
       if (bIINDCAHMFCCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.MpActionId._MpActionId) bIINDCAHMFC_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 101) {
         size += com.google.protobuf.CodedOutputStream
@@ -806,7 +806,7 @@ public final class ELLLOMJDPJLOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MpActionId._MpActionId, emu.grasscutter.net.proto.MpActionId._MpActionId.Builder, emu.grasscutter.net.proto.MpActionId._MpActionIdOrBuilder> mpActionIdBuilder_;
+          emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId, emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId.Builder, emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionIdOrBuilder> mpActionIdBuilder_;
       /**
        * <code>._MpActionId mp_action_id = 100;</code>
        * @return Whether the mpActionId field is set.
@@ -820,23 +820,23 @@ public final class ELLLOMJDPJLOuterClass {
        * @return The mpActionId.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MpActionId._MpActionId getMpActionId() {
+      public emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId getMpActionId() {
         if (mpActionIdBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 100) {
-            return (emu.grasscutter.net.proto.MpActionId._MpActionId) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.MpActionId._MpActionId.getDefaultInstance();
+          return emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 100) {
             return mpActionIdBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.MpActionId._MpActionId.getDefaultInstance();
+          return emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId.getDefaultInstance();
         }
       }
       /**
        * <code>._MpActionId mp_action_id = 100;</code>
        */
-      public Builder setMpActionId(emu.grasscutter.net.proto.MpActionId._MpActionId value) {
+      public Builder setMpActionId(emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId value) {
         if (mpActionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -853,7 +853,7 @@ public final class ELLLOMJDPJLOuterClass {
        * <code>._MpActionId mp_action_id = 100;</code>
        */
       public Builder setMpActionId(
-          emu.grasscutter.net.proto.MpActionId._MpActionId.Builder builderForValue) {
+          emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId.Builder builderForValue) {
         if (mpActionIdBuilder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -866,11 +866,11 @@ public final class ELLLOMJDPJLOuterClass {
       /**
        * <code>._MpActionId mp_action_id = 100;</code>
        */
-      public Builder mergeMpActionId(emu.grasscutter.net.proto.MpActionId._MpActionId value) {
+      public Builder mergeMpActionId(emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId value) {
         if (mpActionIdBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 100 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.MpActionId._MpActionId.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.MpActionId._MpActionId.newBuilder((emu.grasscutter.net.proto.MpActionId._MpActionId) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId.newBuilder((emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -907,36 +907,36 @@ public final class ELLLOMJDPJLOuterClass {
       /**
        * <code>._MpActionId mp_action_id = 100;</code>
        */
-      public emu.grasscutter.net.proto.MpActionId._MpActionId.Builder getMpActionIdBuilder() {
+      public emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId.Builder getMpActionIdBuilder() {
         return getMpActionIdFieldBuilder().getBuilder();
       }
       /**
        * <code>._MpActionId mp_action_id = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MpActionId._MpActionIdOrBuilder getMpActionIdOrBuilder() {
+      public emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionIdOrBuilder getMpActionIdOrBuilder() {
         if ((bIINDCAHMFCCase_ == 100) && (mpActionIdBuilder_ != null)) {
           return mpActionIdBuilder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 100) {
-            return (emu.grasscutter.net.proto.MpActionId._MpActionId) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.MpActionId._MpActionId.getDefaultInstance();
+          return emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId.getDefaultInstance();
         }
       }
       /**
        * <code>._MpActionId mp_action_id = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MpActionId._MpActionId, emu.grasscutter.net.proto.MpActionId._MpActionId.Builder, emu.grasscutter.net.proto.MpActionId._MpActionIdOrBuilder> 
+          emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId, emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId.Builder, emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionIdOrBuilder> 
           getMpActionIdFieldBuilder() {
         if (mpActionIdBuilder_ == null) {
           if (!(bIINDCAHMFCCase_ == 100)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.MpActionId._MpActionId.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId.getDefaultInstance();
           }
           mpActionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MpActionId._MpActionId, emu.grasscutter.net.proto.MpActionId._MpActionId.Builder, emu.grasscutter.net.proto.MpActionId._MpActionIdOrBuilder>(
-                  (emu.grasscutter.net.proto.MpActionId._MpActionId) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId, emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId.Builder, emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionIdOrBuilder>(
+                  (emu.grasscutter.net.proto._MpActionIdOuterClass._MpActionId) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -1159,14 +1159,15 @@ public final class ELLLOMJDPJLOuterClass {
       "MOMFAJO\022\023\n\013DPMMGMEHGLJ\030\002 \001(\010\022$\n\014mp_actio" +
       "n_id\030d \001(\0132\014._MpActionIdH\000\022\'\n\017config_fun" +
       "ction\030e \001(\0132\014.NNBHGFJCCCOH\000B\r\n\013BIINDCAHM" +
-      "FCB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "FCB2\n\031emu.grasscutter.net.protoB\025ELLLOMJ" +
+      "DPJLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.LNEIMOMFAJOOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.NNBHGFJCCCOOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.MpActionId.getDescriptor(),
+          emu.grasscutter.net.proto._MpActionIdOuterClass.getDescriptor(),
         });
     internal_static_ELLLOMJDPJL_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1176,7 +1177,7 @@ public final class ELLLOMJDPJLOuterClass {
         new java.lang.String[] { "FOIOJJHDEGK", "DPMMGMEHGLJ", "MpActionId", "ConfigFunction", "BIINDCAHMFC", });
     emu.grasscutter.net.proto.LNEIMOMFAJOOuterClass.getDescriptor();
     emu.grasscutter.net.proto.NNBHGFJCCCOOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.MpActionId.getDescriptor();
+    emu.grasscutter.net.proto._MpActionIdOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

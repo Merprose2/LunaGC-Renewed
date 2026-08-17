@@ -2047,8 +2047,8 @@ public final class AJPEJPMDAGOOuterClass {
       "data\030\004 \001(\0132\030.AJPEJPMDAGO.HDDLOFMNKMJ\022\023\n\013" +
       "NGEDGDGBAID\030\005 \001(\014\022\023\n\013NJKJHJEAKEJ\030\006 \001(\t\0320" +
       "\n\013HDDLOFMNKMJ\022!\n\013JGKOIDNIPIF\030\001 \003(\0132\014.MEJ" +
-      "APKCKCLMB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "APKCKCLMB2\n\031emu.grasscutter.net.protoB\025A" +
+      "JPEJPMDAGOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

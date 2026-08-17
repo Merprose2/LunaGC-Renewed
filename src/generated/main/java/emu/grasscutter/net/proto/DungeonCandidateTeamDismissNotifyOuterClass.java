@@ -635,8 +635,9 @@ public final class DungeonCandidateTeamDismissNotifyOuterClass {
       "o\032\'DungeonCandidateTeamDismissReason.pro" +
       "to\"k\n!DungeonCandidateTeamDismissNotify\022" +
       "2\n\006reason\030\003 \001(\0162\".DungeonCandidateTeamDi" +
-      "smissReason\022\022\n\nplayer_uid\030\010 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "smissReason\022\022\n\nplayer_uid\030\010 \001(\rBH\n\031emu.g" +
+      "rasscutter.net.protoB+DungeonCandidateTe" +
+      "amDismissNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

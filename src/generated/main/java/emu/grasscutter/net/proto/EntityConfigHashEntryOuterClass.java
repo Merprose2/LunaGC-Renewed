@@ -658,8 +658,9 @@ public final class EntityConfigHashEntryOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033EntityConfigHashEntry.proto\"N\n\025EntityC" +
       "onfigHashEntry\022\016\n\006job_id\030\006 \001(\r\022\022\n\nhash_v" +
-      "alue\030\t \001(\005\022\021\n\tentity_id\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "alue\030\t \001(\005\022\021\n\tentity_id\030\017 \001(\rB<\n\031emu.gra" +
+      "sscutter.net.protoB\037EntityConfigHashEntr" +
+      "yOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

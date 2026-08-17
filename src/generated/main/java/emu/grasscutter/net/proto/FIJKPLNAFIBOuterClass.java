@@ -818,8 +818,9 @@ public final class FIJKPLNAFIBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FIJKPLNAFIB.proto\032\021IKIDAOLOFOI.proto\"L" +
       "\n\013FIJKPLNAFIB\022\023\n\013AKHGCHLPBOE\030\001 \001(\005\022\036\n\006ef" +
-      "fect\030\013 \001(\0132\014.IKIDAOLOFOIH\000B\010\n\006detailB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "fect\030\013 \001(\0132\014.IKIDAOLOFOIH\000B\010\n\006detailB2\n\031" +
+      "emu.grasscutter.net.protoB\025FIJKPLNAFIBOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

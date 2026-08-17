@@ -455,8 +455,8 @@ public final class GetWidgetSlotReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026GetWidgetSlotReq.proto\"\022\n\020GetWidgetSlo" +
-      "tReqB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "tReqB7\n\031emu.grasscutter.net.protoB\032GetWi" +
+      "dgetSlotReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

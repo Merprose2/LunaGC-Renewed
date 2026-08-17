@@ -1669,8 +1669,8 @@ public final class MonsterRouteOuterClass {
       "AOHGJOLE\030\006 \001(\010\022\023\n\013OODNNGPEAGN\030\007 \001(\010\022\020\n\010r" +
       "oute_id\030\010 \001(\005\022\023\n\013DHBMEFLJCMJ\030\t \001(\010\022\023\n\013OE" +
       "BCFCLIDMA\030\n \001(\010\022!\n\013BPKJKEENKKI\030\013 \001(\0132\014.C" +
-      "OEBLNIFMOBB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "OEBLNIFMOBB3\n\031emu.grasscutter.net.protoB" +
+      "\026MonsterRouteOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

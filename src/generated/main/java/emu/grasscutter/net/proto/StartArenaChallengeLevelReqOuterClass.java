@@ -667,8 +667,9 @@ public final class StartArenaChallengeLevelReqOuterClass {
       "\n!StartArenaChallengeLevelReq.proto\"a\n\033S" +
       "tartArenaChallengeLevelReq\022\023\n\013BLCPLGCJEB" +
       "J\030\003 \001(\r\022\023\n\013KHJHFLNMNPC\030\005 \001(\r\022\030\n\020gadget_e" +
-      "ntity_id\030\014 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "ntity_id\030\014 \001(\rBB\n\031emu.grasscutter.net.pr" +
+      "otoB%StartArenaChallengeLevelReqOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

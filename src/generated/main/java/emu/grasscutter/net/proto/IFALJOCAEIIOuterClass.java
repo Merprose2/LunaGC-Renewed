@@ -171,8 +171,9 @@ public final class IFALJOCAEIIOuterClass {
       "FALJOCAEII_NONE\020\000\022\026\n\022IFALJOCAEII_IN_PIN\020" +
       "\001\022\027\n\023IFALJOCAEII_OUT_PIN\020\002\022\030\n\024IFALJOCAEI" +
       "I_IN_PARAM\020\003\022\031\n\025IFALJOCAEII_OUT_PARAM\020\004\022" +
-      "\033\n\027IFALJOCAEII_EXTRA_PARAM\020\005B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\033\n\027IFALJOCAEII_EXTRA_PARAM\020\005B2\n\031emu.gras" +
+      "scutter.net.protoB\025IFALJOCAEIIOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

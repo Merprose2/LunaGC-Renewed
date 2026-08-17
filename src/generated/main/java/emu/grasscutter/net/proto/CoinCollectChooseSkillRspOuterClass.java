@@ -667,7 +667,8 @@ public final class CoinCollectChooseSkillRspOuterClass {
       "\n\037CoinCollectChooseSkillRsp.proto\"W\n\031Coi" +
       "nCollectChooseSkillRsp\022\020\n\010level_id\030\001 \001(\r" +
       "\022\017\n\007retcode\030\003 \001(\005\022\027\n\017choose_skill_no\030\t \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB@\n\031emu.grasscutter.net.protoB#CoinCol" +
+      "lectChooseSkillRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

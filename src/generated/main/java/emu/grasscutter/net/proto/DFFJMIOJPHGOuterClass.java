@@ -666,8 +666,8 @@ public final class DFFJMIOJPHGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DFFJMIOJPHG.proto\"I\n\013DFFJMIOJPHG\022\021\n\tav" +
       "atar_id\030\001 \001(\r\022\017\n\007retcode\030\003 \001(\005\022\026\n\016furnit" +
-      "ure_type\030\t \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "ure_type\030\t \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025DFFJMIOJPHGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

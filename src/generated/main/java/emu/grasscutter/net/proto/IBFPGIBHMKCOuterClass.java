@@ -446,8 +446,9 @@ public final class IBFPGIBHMKCOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021IBFPGIBHMKC.proto\"\r\n\013IBFPGIBHMKCB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021IBFPGIBHMKC.proto\"\r\n\013IBFPGIBHMKCB2\n\031em" +
+      "u.grasscutter.net.protoB\025IBFPGIBHMKCOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

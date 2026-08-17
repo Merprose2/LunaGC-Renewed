@@ -873,8 +873,8 @@ public final class JLECEPJMBIGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JLECEPJMBIG.proto\"G\n\013JLECEPJMBIG\022\023\n\013so" +
       "urce_name\030\004 \001(\t\022\017\n\007retcode\030\016 \001(\005\022\022\n\npara" +
-      "m_list\030\017 \003(\005B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "m_list\030\017 \003(\005B2\n\031emu.grasscutter.net.prot" +
+      "oB\025JLECEPJMBIGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

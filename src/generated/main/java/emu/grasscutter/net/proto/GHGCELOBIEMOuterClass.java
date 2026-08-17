@@ -782,8 +782,8 @@ public final class GHGCELOBIEMOuterClass {
       "\n\021GHGCELOBIEM.proto\"u\n\013GHGCELOBIEM\0222\n\013MB" +
       "NIOGNGDOC\030\003 \003(\0132\035.GHGCELOBIEM.MBNIOGNGDO" +
       "CEntry\0322\n\020MBNIOGNGDOCEntry\022\013\n\003key\030\001 \001(\r\022" +
-      "\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\r\n\005value\030\002 \001(\r:\0028\001B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025GHGCELOBIEMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

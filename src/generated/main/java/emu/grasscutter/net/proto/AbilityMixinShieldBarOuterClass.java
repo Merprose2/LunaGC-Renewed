@@ -733,8 +733,9 @@ public final class AbilityMixinShieldBarOuterClass {
       "\n\033AbilityMixinShieldBar.proto\"e\n\025Ability" +
       "MixinShieldBar\022\016\n\006shield\030\004 \001(\002\022\024\n\014elemen" +
       "t_type\030\006 \001(\r\022\022\n\nmax_shield\030\010 \001(\002\022\022\n\nplay" +
-      "er_num\030\r \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "er_num\030\r \001(\rB<\n\031emu.grasscutter.net.prot" +
+      "oB\037AbilityMixinShieldBarOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

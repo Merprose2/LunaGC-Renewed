@@ -1338,8 +1338,9 @@ public final class LHALALMAPHGOuterClass {
       "DMPGLLNPKEG.proto\"|\n\013LHALALMAPHG\022\023\n\013HABM" +
       "JKBLIMA\030\001 \001(\005\022\021\n\tis_active\030\002 \001(\010\022!\n\013KECN" +
       "CFONLGA\030\003 \003(\0132\014.DMPGLLNPKEG\022\"\n\013CPKLLPOIL" +
-      "NM\030\366\003 \003(\0132\014.AHJMDCLICFMB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "NM\030\366\003 \003(\0132\014.AHJMDCLICFMB2\n\031emu.grasscutt" +
+      "er.net.protoB\025LHALALMAPHGOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1690,8 +1690,9 @@ public final class JKELMHGICAIOuterClass {
       "me_id\030\004 \001(\r\022\025\n\r_talent_level\030\005 \001(\r\022\034\n\024_a" +
       "vatar_element_type\030\006 \001(\r\022\023\n\013AGJAKLMNKAH\030" +
       "\007 \001(\010\022!\n\013weapon_list\030\010 \003(\0132\014.CFFAMHCFALM" +
-      "\022$\n\016reliquary_list\030\t \003(\0132\014.CFFAMHCFALMB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\022$\n\016reliquary_list\030\t \003(\0132\014.CFFAMHCFALMB2" +
+      "\n\031emu.grasscutter.net.protoB\025JKELMHGICAI" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

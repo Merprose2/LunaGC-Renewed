@@ -1062,8 +1062,8 @@ public final class HGAEODJDAJNOuterClass {
       "\n\013HGAEODJDAJN\022!\n\013best_record\030\002 \001(\0132\014.DBL" +
       "PCEEKGBP\022\020\n\010level_id\030\005 \001(\r\022\023\n\013is_finishe" +
       "d\030\010 \001(\010\022\023\n\013DMOKCNPPPKA\030\t \003(\r\022\017\n\007is_open\030" +
-      "\n \001(\010B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\n \001(\010B2\n\031emu.grasscutter.net.protoB\025HGAE" +
+      "ODJDAJNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

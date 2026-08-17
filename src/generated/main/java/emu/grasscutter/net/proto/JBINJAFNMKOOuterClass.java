@@ -722,8 +722,9 @@ public final class JBINJAFNMKOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JBINJAFNMKO.proto\"5\n\013JBINJAFNMKO\022\r\n\005pa" +
-      "ram\030\005 \001(\r\022\027\n\017player_uid_list\030\006 \003(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ram\030\005 \001(\r\022\027\n\017player_uid_list\030\006 \003(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025JBINJAFNMKOOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

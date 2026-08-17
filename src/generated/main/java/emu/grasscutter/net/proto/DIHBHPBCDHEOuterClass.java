@@ -596,8 +596,9 @@ public final class DIHBHPBCDHEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DIHBHPBCDHE.proto\"1\n\013DIHBHPBCDHE\022\022\n\npl" +
-      "ayer_uid\030\014 \001(\r\022\016\n\006is_add\030\r \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ayer_uid\030\014 \001(\r\022\016\n\006is_add\030\r \001(\010B2\n\031emu.gr" +
+      "asscutter.net.protoB\025DIHBHPBCDHEOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

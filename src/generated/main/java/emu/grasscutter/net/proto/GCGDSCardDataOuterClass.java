@@ -1119,8 +1119,9 @@ public final class GCGDSCardDataOuterClass {
       "\n\023GCGDSCardData.proto\"\177\n\rGCGDSCardData\022\023" +
       "\n\013proficiency\030\003 \001(\r\022\013\n\003num\030\004 \001(\r\022\023\n\013MKAF" +
       "BFOMKOM\030\006 \003(\r\022\023\n\013BFLHDBFAOFJ\030\t \003(\r\022\021\n\tfa" +
-      "ce_type\030\r \001(\r\022\017\n\007card_id\030\016 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ce_type\030\r \001(\r\022\017\n\007card_id\030\016 \001(\rB4\n\031emu.gr" +
+      "asscutter.net.protoB\027GCGDSCardDataOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -162,8 +162,8 @@ public final class EAAILINPPNLOuterClass {
       "AAILINPPNL_UNSPECIFIED\020\000\022\032\n\026EAAILINPPNL_" +
       "LEVEL_NAME\020\001\022\033\n\027EAAILINPPNL_LEVEL_COVER\020" +
       "\002\022\033\n\027EAAILINPPNL_LEVEL_VIDEO\020\003\022\032\n\026EAAILI" +
-      "NPPNL_LEVEL_DESC\020\004B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "NPPNL_LEVEL_DESC\020\004B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025EAAILINPPNLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

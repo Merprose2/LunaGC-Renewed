@@ -27,11 +27,11 @@ public final class PPPBDOGNGALOuterClass {
      * <code>._BeyondWorldInfo beyond_world_info = 11;</code>
      * @return The beyondWorldInfo.
      */
-    emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo getBeyondWorldInfo();
+    emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo getBeyondWorldInfo();
     /**
      * <code>._BeyondWorldInfo beyond_world_info = 11;</code>
      */
-    emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfoOrBuilder getBeyondWorldInfoOrBuilder();
+    emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfoOrBuilder getBeyondWorldInfoOrBuilder();
 
     /**
      * <code>._HallWorldInfo hall_world_info = 12;</code>
@@ -42,11 +42,11 @@ public final class PPPBDOGNGALOuterClass {
      * <code>._HallWorldInfo hall_world_info = 12;</code>
      * @return The hallWorldInfo.
      */
-    emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo getHallWorldInfo();
+    emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo getHallWorldInfo();
     /**
      * <code>._HallWorldInfo hall_world_info = 12;</code>
      */
-    emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfoOrBuilder getHallWorldInfoOrBuilder();
+    emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfoOrBuilder getHallWorldInfoOrBuilder();
 
     /**
      * <code>._PlayerWorldInfo player_world_info = 13;</code>
@@ -57,11 +57,11 @@ public final class PPPBDOGNGALOuterClass {
      * <code>._PlayerWorldInfo player_world_info = 13;</code>
      * @return The playerWorldInfo.
      */
-    emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo getPlayerWorldInfo();
+    emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo getPlayerWorldInfo();
     /**
      * <code>._PlayerWorldInfo player_world_info = 13;</code>
      */
-    emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfoOrBuilder getPlayerWorldInfoOrBuilder();
+    emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfoOrBuilder getPlayerWorldInfoOrBuilder();
 
     /**
      * <code>._PlayerWorldAnchorPointInfo player_world_anchor_point_info = 14;</code>
@@ -72,11 +72,11 @@ public final class PPPBDOGNGALOuterClass {
      * <code>._PlayerWorldAnchorPointInfo player_world_anchor_point_info = 14;</code>
      * @return The playerWorldAnchorPointInfo.
      */
-    emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo getPlayerWorldAnchorPointInfo();
+    emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo getPlayerWorldAnchorPointInfo();
     /**
      * <code>._PlayerWorldAnchorPointInfo player_world_anchor_point_info = 14;</code>
      */
-    emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfoOrBuilder getPlayerWorldAnchorPointInfoOrBuilder();
+    emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfoOrBuilder getPlayerWorldAnchorPointInfoOrBuilder();
 
     public emu.grasscutter.net.proto.PPPBDOGNGALOuterClass.PPPBDOGNGAL.DetailCase getDetailCase();
   }
@@ -126,56 +126,56 @@ public final class PPPBDOGNGALOuterClass {
               done = true;
               break;
             case 90: {
-              emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo.Builder subBuilder = null;
               if (detailCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 11;
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo.Builder subBuilder = null;
               if (detailCase_ == 12) {
-                subBuilder = ((emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 12;
               break;
             }
             case 106: {
-              emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo.Builder subBuilder = null;
               if (detailCase_ == 13) {
-                subBuilder = ((emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 13;
               break;
             }
             case 114: {
-              emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo.Builder subBuilder = null;
               if (detailCase_ == 14) {
-                subBuilder = ((emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 14;
@@ -272,21 +272,21 @@ public final class PPPBDOGNGALOuterClass {
      * @return The beyondWorldInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo getBeyondWorldInfo() {
+    public emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo getBeyondWorldInfo() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo) detail_;
+         return (emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo.getDefaultInstance();
     }
     /**
      * <code>._BeyondWorldInfo beyond_world_info = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfoOrBuilder getBeyondWorldInfoOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfoOrBuilder getBeyondWorldInfoOrBuilder() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo) detail_;
+         return (emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo.getDefaultInstance();
     }
 
     public static final int HALL_WORLD_INFO_FIELD_NUMBER = 12;
@@ -303,21 +303,21 @@ public final class PPPBDOGNGALOuterClass {
      * @return The hallWorldInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo getHallWorldInfo() {
+    public emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo getHallWorldInfo() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo) detail_;
+         return (emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo) detail_;
       }
-      return emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo.getDefaultInstance();
     }
     /**
      * <code>._HallWorldInfo hall_world_info = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfoOrBuilder getHallWorldInfoOrBuilder() {
+    public emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfoOrBuilder getHallWorldInfoOrBuilder() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo) detail_;
+         return (emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo) detail_;
       }
-      return emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo.getDefaultInstance();
     }
 
     public static final int PLAYER_WORLD_INFO_FIELD_NUMBER = 13;
@@ -334,21 +334,21 @@ public final class PPPBDOGNGALOuterClass {
      * @return The playerWorldInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo getPlayerWorldInfo() {
+    public emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo getPlayerWorldInfo() {
       if (detailCase_ == 13) {
-         return (emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo) detail_;
+         return (emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo) detail_;
       }
-      return emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo.getDefaultInstance();
     }
     /**
      * <code>._PlayerWorldInfo player_world_info = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfoOrBuilder getPlayerWorldInfoOrBuilder() {
+    public emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfoOrBuilder getPlayerWorldInfoOrBuilder() {
       if (detailCase_ == 13) {
-         return (emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo) detail_;
+         return (emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo) detail_;
       }
-      return emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo.getDefaultInstance();
     }
 
     public static final int PLAYER_WORLD_ANCHOR_POINT_INFO_FIELD_NUMBER = 14;
@@ -365,21 +365,21 @@ public final class PPPBDOGNGALOuterClass {
      * @return The playerWorldAnchorPointInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo getPlayerWorldAnchorPointInfo() {
+    public emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo getPlayerWorldAnchorPointInfo() {
       if (detailCase_ == 14) {
-         return (emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo) detail_;
+         return (emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo) detail_;
       }
-      return emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo.getDefaultInstance();
     }
     /**
      * <code>._PlayerWorldAnchorPointInfo player_world_anchor_point_info = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfoOrBuilder getPlayerWorldAnchorPointInfoOrBuilder() {
+    public emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfoOrBuilder getPlayerWorldAnchorPointInfoOrBuilder() {
       if (detailCase_ == 14) {
-         return (emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo) detail_;
+         return (emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo) detail_;
       }
-      return emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -397,16 +397,16 @@ public final class PPPBDOGNGALOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (detailCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo) detail_);
+        output.writeMessage(11, (emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo) detail_);
       }
       if (detailCase_ == 12) {
-        output.writeMessage(12, (emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo) detail_);
+        output.writeMessage(12, (emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo) detail_);
       }
       if (detailCase_ == 13) {
-        output.writeMessage(13, (emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo) detail_);
+        output.writeMessage(13, (emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo) detail_);
       }
       if (detailCase_ == 14) {
-        output.writeMessage(14, (emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo) detail_);
+        output.writeMessage(14, (emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -419,19 +419,19 @@ public final class PPPBDOGNGALOuterClass {
       size = 0;
       if (detailCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo) detail_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo) detail_);
       }
       if (detailCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo) detail_);
+          .computeMessageSize(12, (emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo) detail_);
       }
       if (detailCase_ == 13) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, (emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo) detail_);
+          .computeMessageSize(13, (emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo) detail_);
       }
       if (detailCase_ == 14) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, (emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo) detail_);
+          .computeMessageSize(14, (emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -804,7 +804,7 @@ public final class PPPBDOGNGALOuterClass {
 
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo, emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo.Builder, emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfoOrBuilder> beyondWorldInfoBuilder_;
+          emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo, emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo.Builder, emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfoOrBuilder> beyondWorldInfoBuilder_;
       /**
        * <code>._BeyondWorldInfo beyond_world_info = 11;</code>
        * @return Whether the beyondWorldInfo field is set.
@@ -818,23 +818,23 @@ public final class PPPBDOGNGALOuterClass {
        * @return The beyondWorldInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo getBeyondWorldInfo() {
+      public emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo getBeyondWorldInfo() {
         if (beyondWorldInfoBuilder_ == null) {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo) detail_;
+            return (emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 11) {
             return beyondWorldInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondWorldInfo beyond_world_info = 11;</code>
        */
-      public Builder setBeyondWorldInfo(emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo value) {
+      public Builder setBeyondWorldInfo(emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo value) {
         if (beyondWorldInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -851,7 +851,7 @@ public final class PPPBDOGNGALOuterClass {
        * <code>._BeyondWorldInfo beyond_world_info = 11;</code>
        */
       public Builder setBeyondWorldInfo(
-          emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo.Builder builderForValue) {
         if (beyondWorldInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -864,11 +864,11 @@ public final class PPPBDOGNGALOuterClass {
       /**
        * <code>._BeyondWorldInfo beyond_world_info = 11;</code>
        */
-      public Builder mergeBeyondWorldInfo(emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo value) {
+      public Builder mergeBeyondWorldInfo(emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo value) {
         if (beyondWorldInfoBuilder_ == null) {
           if (detailCase_ == 11 &&
-              detail_ != emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo.newBuilder((emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo.newBuilder((emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -905,36 +905,36 @@ public final class PPPBDOGNGALOuterClass {
       /**
        * <code>._BeyondWorldInfo beyond_world_info = 11;</code>
        */
-      public emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo.Builder getBeyondWorldInfoBuilder() {
+      public emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo.Builder getBeyondWorldInfoBuilder() {
         return getBeyondWorldInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondWorldInfo beyond_world_info = 11;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfoOrBuilder getBeyondWorldInfoOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfoOrBuilder getBeyondWorldInfoOrBuilder() {
         if ((detailCase_ == 11) && (beyondWorldInfoBuilder_ != null)) {
           return beyondWorldInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo) detail_;
+            return (emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondWorldInfo beyond_world_info = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo, emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo.Builder, emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfoOrBuilder> 
+          emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo, emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo.Builder, emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfoOrBuilder> 
           getBeyondWorldInfoFieldBuilder() {
         if (beyondWorldInfoBuilder_ == null) {
           if (!(detailCase_ == 11)) {
-            detail_ = emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo.getDefaultInstance();
           }
           beyondWorldInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo, emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo.Builder, emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondWorldInfo._BeyondWorldInfo) detail_,
+              emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo, emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo.Builder, emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondWorldInfoOuterClass._BeyondWorldInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -945,7 +945,7 @@ public final class PPPBDOGNGALOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo, emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo.Builder, emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfoOrBuilder> hallWorldInfoBuilder_;
+          emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo, emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo.Builder, emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfoOrBuilder> hallWorldInfoBuilder_;
       /**
        * <code>._HallWorldInfo hall_world_info = 12;</code>
        * @return Whether the hallWorldInfo field is set.
@@ -959,23 +959,23 @@ public final class PPPBDOGNGALOuterClass {
        * @return The hallWorldInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo getHallWorldInfo() {
+      public emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo getHallWorldInfo() {
         if (hallWorldInfoBuilder_ == null) {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo) detail_;
+            return (emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo) detail_;
           }
-          return emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 12) {
             return hallWorldInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._HallWorldInfo hall_world_info = 12;</code>
        */
-      public Builder setHallWorldInfo(emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo value) {
+      public Builder setHallWorldInfo(emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo value) {
         if (hallWorldInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -992,7 +992,7 @@ public final class PPPBDOGNGALOuterClass {
        * <code>._HallWorldInfo hall_world_info = 12;</code>
        */
       public Builder setHallWorldInfo(
-          emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo.Builder builderForValue) {
         if (hallWorldInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1005,11 +1005,11 @@ public final class PPPBDOGNGALOuterClass {
       /**
        * <code>._HallWorldInfo hall_world_info = 12;</code>
        */
-      public Builder mergeHallWorldInfo(emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo value) {
+      public Builder mergeHallWorldInfo(emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo value) {
         if (hallWorldInfoBuilder_ == null) {
           if (detailCase_ == 12 &&
-              detail_ != emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo.newBuilder((emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo.newBuilder((emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1046,36 +1046,36 @@ public final class PPPBDOGNGALOuterClass {
       /**
        * <code>._HallWorldInfo hall_world_info = 12;</code>
        */
-      public emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo.Builder getHallWorldInfoBuilder() {
+      public emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo.Builder getHallWorldInfoBuilder() {
         return getHallWorldInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._HallWorldInfo hall_world_info = 12;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfoOrBuilder getHallWorldInfoOrBuilder() {
+      public emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfoOrBuilder getHallWorldInfoOrBuilder() {
         if ((detailCase_ == 12) && (hallWorldInfoBuilder_ != null)) {
           return hallWorldInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo) detail_;
+            return (emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo) detail_;
           }
-          return emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._HallWorldInfo hall_world_info = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo, emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo.Builder, emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfoOrBuilder> 
+          emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo, emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo.Builder, emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfoOrBuilder> 
           getHallWorldInfoFieldBuilder() {
         if (hallWorldInfoBuilder_ == null) {
           if (!(detailCase_ == 12)) {
-            detail_ = emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo.getDefaultInstance();
           }
           hallWorldInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo, emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo.Builder, emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.HallWorldInfo._HallWorldInfo) detail_,
+              emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo, emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo.Builder, emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1086,7 +1086,7 @@ public final class PPPBDOGNGALOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo, emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo.Builder, emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfoOrBuilder> playerWorldInfoBuilder_;
+          emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo, emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo.Builder, emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfoOrBuilder> playerWorldInfoBuilder_;
       /**
        * <code>._PlayerWorldInfo player_world_info = 13;</code>
        * @return Whether the playerWorldInfo field is set.
@@ -1100,23 +1100,23 @@ public final class PPPBDOGNGALOuterClass {
        * @return The playerWorldInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo getPlayerWorldInfo() {
+      public emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo getPlayerWorldInfo() {
         if (playerWorldInfoBuilder_ == null) {
           if (detailCase_ == 13) {
-            return (emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo) detail_;
+            return (emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo) detail_;
           }
-          return emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 13) {
             return playerWorldInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._PlayerWorldInfo player_world_info = 13;</code>
        */
-      public Builder setPlayerWorldInfo(emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo value) {
+      public Builder setPlayerWorldInfo(emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo value) {
         if (playerWorldInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1133,7 +1133,7 @@ public final class PPPBDOGNGALOuterClass {
        * <code>._PlayerWorldInfo player_world_info = 13;</code>
        */
       public Builder setPlayerWorldInfo(
-          emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo.Builder builderForValue) {
         if (playerWorldInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1146,11 +1146,11 @@ public final class PPPBDOGNGALOuterClass {
       /**
        * <code>._PlayerWorldInfo player_world_info = 13;</code>
        */
-      public Builder mergePlayerWorldInfo(emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo value) {
+      public Builder mergePlayerWorldInfo(emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo value) {
         if (playerWorldInfoBuilder_ == null) {
           if (detailCase_ == 13 &&
-              detail_ != emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo.newBuilder((emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo.newBuilder((emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1187,36 +1187,36 @@ public final class PPPBDOGNGALOuterClass {
       /**
        * <code>._PlayerWorldInfo player_world_info = 13;</code>
        */
-      public emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo.Builder getPlayerWorldInfoBuilder() {
+      public emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo.Builder getPlayerWorldInfoBuilder() {
         return getPlayerWorldInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._PlayerWorldInfo player_world_info = 13;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfoOrBuilder getPlayerWorldInfoOrBuilder() {
+      public emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfoOrBuilder getPlayerWorldInfoOrBuilder() {
         if ((detailCase_ == 13) && (playerWorldInfoBuilder_ != null)) {
           return playerWorldInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 13) {
-            return (emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo) detail_;
+            return (emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo) detail_;
           }
-          return emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._PlayerWorldInfo player_world_info = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo, emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo.Builder, emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfoOrBuilder> 
+          emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo, emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo.Builder, emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfoOrBuilder> 
           getPlayerWorldInfoFieldBuilder() {
         if (playerWorldInfoBuilder_ == null) {
           if (!(detailCase_ == 13)) {
-            detail_ = emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo.getDefaultInstance();
           }
           playerWorldInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo, emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo.Builder, emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.PlayerWorldInfo._PlayerWorldInfo) detail_,
+              emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo, emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo.Builder, emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._PlayerWorldInfoOuterClass._PlayerWorldInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1227,7 +1227,7 @@ public final class PPPBDOGNGALOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo, emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo.Builder, emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfoOrBuilder> playerWorldAnchorPointInfoBuilder_;
+          emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo, emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo.Builder, emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfoOrBuilder> playerWorldAnchorPointInfoBuilder_;
       /**
        * <code>._PlayerWorldAnchorPointInfo player_world_anchor_point_info = 14;</code>
        * @return Whether the playerWorldAnchorPointInfo field is set.
@@ -1241,23 +1241,23 @@ public final class PPPBDOGNGALOuterClass {
        * @return The playerWorldAnchorPointInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo getPlayerWorldAnchorPointInfo() {
+      public emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo getPlayerWorldAnchorPointInfo() {
         if (playerWorldAnchorPointInfoBuilder_ == null) {
           if (detailCase_ == 14) {
-            return (emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo) detail_;
+            return (emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo) detail_;
           }
-          return emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 14) {
             return playerWorldAnchorPointInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._PlayerWorldAnchorPointInfo player_world_anchor_point_info = 14;</code>
        */
-      public Builder setPlayerWorldAnchorPointInfo(emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo value) {
+      public Builder setPlayerWorldAnchorPointInfo(emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo value) {
         if (playerWorldAnchorPointInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1274,7 +1274,7 @@ public final class PPPBDOGNGALOuterClass {
        * <code>._PlayerWorldAnchorPointInfo player_world_anchor_point_info = 14;</code>
        */
       public Builder setPlayerWorldAnchorPointInfo(
-          emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo.Builder builderForValue) {
         if (playerWorldAnchorPointInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1287,11 +1287,11 @@ public final class PPPBDOGNGALOuterClass {
       /**
        * <code>._PlayerWorldAnchorPointInfo player_world_anchor_point_info = 14;</code>
        */
-      public Builder mergePlayerWorldAnchorPointInfo(emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo value) {
+      public Builder mergePlayerWorldAnchorPointInfo(emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo value) {
         if (playerWorldAnchorPointInfoBuilder_ == null) {
           if (detailCase_ == 14 &&
-              detail_ != emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo.newBuilder((emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo.newBuilder((emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1328,36 +1328,36 @@ public final class PPPBDOGNGALOuterClass {
       /**
        * <code>._PlayerWorldAnchorPointInfo player_world_anchor_point_info = 14;</code>
        */
-      public emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo.Builder getPlayerWorldAnchorPointInfoBuilder() {
+      public emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo.Builder getPlayerWorldAnchorPointInfoBuilder() {
         return getPlayerWorldAnchorPointInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._PlayerWorldAnchorPointInfo player_world_anchor_point_info = 14;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfoOrBuilder getPlayerWorldAnchorPointInfoOrBuilder() {
+      public emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfoOrBuilder getPlayerWorldAnchorPointInfoOrBuilder() {
         if ((detailCase_ == 14) && (playerWorldAnchorPointInfoBuilder_ != null)) {
           return playerWorldAnchorPointInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 14) {
-            return (emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo) detail_;
+            return (emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo) detail_;
           }
-          return emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._PlayerWorldAnchorPointInfo player_world_anchor_point_info = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo, emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo.Builder, emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfoOrBuilder> 
+          emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo, emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo.Builder, emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfoOrBuilder> 
           getPlayerWorldAnchorPointInfoFieldBuilder() {
         if (playerWorldAnchorPointInfoBuilder_ == null) {
           if (!(detailCase_ == 14)) {
-            detail_ = emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo.getDefaultInstance();
           }
           playerWorldAnchorPointInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo, emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo.Builder, emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo._PlayerWorldAnchorPointInfo) detail_,
+              emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo, emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo.Builder, emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass._PlayerWorldAnchorPointInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1442,15 +1442,16 @@ public final class PPPBDOGNGALOuterClass {
       "er_world_info\030\r \001(\0132\021._PlayerWorldInfoH\000" +
       "\022F\n\036player_world_anchor_point_info\030\016 \001(\013" +
       "2\034._PlayerWorldAnchorPointInfoH\000B\010\n\006deta" +
-      "ilB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "ilB2\n\031emu.grasscutter.net.protoB\025PPPBDOG" +
+      "NGALOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BeyondWorldInfo.getDescriptor(),
-          emu.grasscutter.net.proto.HallWorldInfo.getDescriptor(),
-          emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo.getDescriptor(),
-          emu.grasscutter.net.proto.PlayerWorldInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondWorldInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._HallWorldInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._PlayerWorldInfoOuterClass.getDescriptor(),
         });
     internal_static_PPPBDOGNGAL_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1458,10 +1459,10 @@ public final class PPPBDOGNGALOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PPPBDOGNGAL_descriptor,
         new java.lang.String[] { "BeyondWorldInfo", "HallWorldInfo", "PlayerWorldInfo", "PlayerWorldAnchorPointInfo", "Detail", });
-    emu.grasscutter.net.proto.BeyondWorldInfo.getDescriptor();
-    emu.grasscutter.net.proto.HallWorldInfo.getDescriptor();
-    emu.grasscutter.net.proto.PlayerWorldAnchorPointInfo.getDescriptor();
-    emu.grasscutter.net.proto.PlayerWorldInfo.getDescriptor();
+    emu.grasscutter.net.proto._BeyondWorldInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._HallWorldInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._PlayerWorldAnchorPointInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._PlayerWorldInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

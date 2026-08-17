@@ -454,8 +454,9 @@ public final class IGGPKGDHOMOOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021IGGPKGDHOMO.proto\"\r\n\013IGGPKGDHOMOB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021IGGPKGDHOMO.proto\"\r\n\013IGGPKGDHOMOB2\n\031em" +
+      "u.grasscutter.net.protoB\025IGGPKGDHOMOOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

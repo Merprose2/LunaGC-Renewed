@@ -517,8 +517,8 @@ public final class FHIEGENFLIKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FHIEGENFLIK.proto\"#\n\013FHIEGENFLIK\022\024\n\013DJ" +
-      "GKFMDBCJK\030\365\003 \001(\005B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "GKFMDBCJK\030\365\003 \001(\005B2\n\031emu.grasscutter.net." +
+      "protoB\025FHIEGENFLIKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

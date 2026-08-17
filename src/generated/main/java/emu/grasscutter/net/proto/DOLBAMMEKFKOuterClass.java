@@ -605,8 +605,8 @@ public final class DOLBAMMEKFKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DOLBAMMEKFK.proto\"$\n\013DOLBAMMEKFK\022\025\n\rta" +
-      "rget_psn_id\030\003 \001(\tB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "rget_psn_id\030\003 \001(\tB2\n\031emu.grasscutter.net" +
+      ".protoB\025DOLBAMMEKFKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

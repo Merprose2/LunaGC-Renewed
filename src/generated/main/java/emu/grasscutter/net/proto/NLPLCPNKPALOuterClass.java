@@ -950,8 +950,8 @@ public final class NLPLCPNKPALOuterClass {
       "s_success\030\002 \001(\010\022\r\n\005score\030\003 \001(\r\022\023\n\013CMOMNP" +
       "EIKEH\030\006 \001(\010\022\020\n\010level_id\030\007 \001(\r\022\023\n\013PCKENNI" +
       "KEIC\030\013 \001(\r\022\023\n\013MOBEOBOJFFB\030\016 \001(\r\022\021\n\tcost_" +
-      "time\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "time\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025NLPLCPNKPALOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

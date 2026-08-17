@@ -1912,8 +1912,8 @@ public final class HideAndSeekSettleNotifyOuterClass {
       "score\030\017 \001(\010\"p\n\014SettleReason\022\031\n\025SettleRea" +
       "son_TIME_OUT\020\000\022 \n\034SettleReason_SETTLE_PL" +
       "AY_END\020\001\022#\n\037SettleReason_SETTLE_PLAYER_Q" +
-      "UIT\020\002B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "UIT\020\002B>\n\031emu.grasscutter.net.protoB!Hide" +
+      "AndSeekSettleNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

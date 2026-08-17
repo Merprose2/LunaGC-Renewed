@@ -1158,8 +1158,9 @@ public final class IAKKFKOPNEPOuterClass {
       "\n\021IAKKFKOPNEP.proto\032\021BFIOHMIEHFE.proto\"o" +
       "\n\013IAKKFKOPNEP\022\023\n\013BHLJFFJHGHN\030\005 \001(\r\022\023\n\013sc" +
       "hedule_id\030\010 \001(\r\022!\n\013AJHKPCAMGKK\030\n \003(\0132\014.B" +
-      "FIOHMIEHFE\022\023\n\013CEHKEIDAMLK\030\017 \003(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "FIOHMIEHFE\022\023\n\013CEHKEIDAMLK\030\017 \003(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025IAKKFKOPNEPOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

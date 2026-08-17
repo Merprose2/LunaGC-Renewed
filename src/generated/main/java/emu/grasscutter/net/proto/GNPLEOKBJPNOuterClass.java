@@ -1027,8 +1027,8 @@ public final class GNPLEOKBJPNOuterClass {
       "\n\021GNPLEOKBJPN.proto\032\021DOJKHEJDKBB.proto\032\021" +
       "NAKGFDFHPFG.proto\"M\n\013GNPLEOKBJPN\022\033\n\005valu" +
       "e\030\001 \001(\0132\014.NAKGFDFHPFG\022!\n\013action_list\030\002 \003" +
-      "(\0132\014.DOJKHEJDKBBB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "(\0132\014.DOJKHEJDKBBB2\n\031emu.grasscutter.net." +
+      "protoB\025GNPLEOKBJPNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

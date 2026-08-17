@@ -651,8 +651,8 @@ public final class JKFHLLCGMEFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JKFHLLCGMEF.proto\032\021DHDJHCKKMAK.proto\"0" +
       "\n\013JKFHLLCGMEF\022!\n\013NMOOMGOMDMO\030\001 \001(\0132\014.DHD" +
-      "JHCKKMAKB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "JHCKKMAKB2\n\031emu.grasscutter.net.protoB\025J" +
+      "KFHLLCGMEFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

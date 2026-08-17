@@ -878,8 +878,9 @@ public final class AttackHitEffectResultOuterClass {
       "HitEffectResult\022\023\n\013OAAHDEOJJMO\030\001 \001(\r\022\023\n\013" +
       "APDAHHOOLAA\030\002 \001(\002\022\023\n\013OPGJOJGJHCJ\030\005 \001(\002\022\023" +
       "\n\013JKKNMKKLHMD\030\007 \001(\r\022\023\n\013MBGEPHDJINB\030\014 \001(\002" +
-      "\022\023\n\013JCDFLDCEBFF\030\017 \001(\002B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\022\023\n\013JCDFLDCEBFF\030\017 \001(\002B<\n\031emu.grasscutter" +
+      ".net.protoB\037AttackHitEffectResultOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

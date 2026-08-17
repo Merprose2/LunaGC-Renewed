@@ -1625,8 +1625,9 @@ public final class PersonalLineAllDataRspOuterClass {
       "nal_line_list\030\004 \003(\0132\027.LockedPersonalline" +
       "Data\022\023\n\013CLDEEBFDGDH\030\007 \003(\r\022\023\n\013JMCFFPAGJHK" +
       "\030\010 \001(\r\022\023\n\013JEKBBCPHJPB\030\n \001(\r\022\023\n\013KNJFOGEHN" +
-      "PK\030\013 \003(\r\022\023\n\013NIPKCPGAMKF\030\017 \003(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "PK\030\013 \003(\r\022\023\n\013NIPKCPGAMKF\030\017 \003(\rB=\n\031emu.gra" +
+      "sscutter.net.protoB PersonalLineAllDataR" +
+      "spOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

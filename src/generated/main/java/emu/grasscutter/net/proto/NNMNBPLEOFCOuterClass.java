@@ -925,8 +925,9 @@ public final class NNMNBPLEOFCOuterClass {
       "\n\021NNMNBPLEOFC.proto\032\021AICIMIDNELP.proto\032\021" +
       "KLOGMPMKPGP.proto\"b\n\013NNMNBPLEOFC\022\024\n\014cont" +
       "ent_type\030\001 \001(\005\022!\n\013PLDCDAAKPOE\030\002 \001(\0132\014.AI" +
-      "CIMIDNELP\022\032\n\004icon\030\003 \001(\0132\014.KLOGMPMKPGPB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "CIMIDNELP\022\032\n\004icon\030\003 \001(\0132\014.KLOGMPMKPGPB2\n" +
+      "\031emu.grasscutter.net.protoB\025NNMNBPLEOFCO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

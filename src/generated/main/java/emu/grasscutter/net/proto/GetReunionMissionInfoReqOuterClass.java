@@ -526,7 +526,8 @@ public final class GetReunionMissionInfoReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036GetReunionMissionInfoReq.proto\".\n\030GetR" +
       "eunionMissionInfoReq\022\022\n\nmission_id\030\004 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B?\n\031emu.grasscutter.net.protoB\"GetReunio" +
+      "nMissionInfoReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

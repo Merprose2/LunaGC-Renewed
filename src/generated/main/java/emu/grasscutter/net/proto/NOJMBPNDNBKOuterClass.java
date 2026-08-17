@@ -703,8 +703,9 @@ public final class NOJMBPNDNBKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NOJMBPNDNBK.proto\032\021DLPIJGMCLJN.proto\"L" +
       "\n\013NOJMBPNDNBK\022\022\n\nserver_seq\030\001 \001(\r\022\034\n\006rea" +
-      "son\030\003 \001(\0162\014.DLPIJGMCLJN\022\013\n\003uid\030\n \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "son\030\003 \001(\0162\014.DLPIJGMCLJN\022\013\n\003uid\030\n \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025NOJMBPNDNBKOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

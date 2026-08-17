@@ -660,8 +660,8 @@ public final class WidgetGadgetDataNotifyOuterClass {
       "\n\034WidgetGadgetDataNotify.proto\032\026WidgetGa" +
       "dgetData.proto\"G\n\026WidgetGadgetDataNotify" +
       "\022-\n\022widget_gadget_data\030\n \001(\0132\021.WidgetGad" +
-      "getDataB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "getDataB=\n\031emu.grasscutter.net.protoB Wi" +
+      "dgetGadgetDataNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

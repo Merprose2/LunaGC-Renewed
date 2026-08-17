@@ -596,8 +596,9 @@ public final class DungeonCandidateTeamCreateReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n#DungeonCandidateTeamCreateReq.proto\"E\n" +
       "\035DungeonCandidateTeamCreateReq\022\022\n\ndungeo" +
-      "n_id\030\007 \001(\r\022\020\n\010point_id\030\017 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "n_id\030\007 \001(\r\022\020\n\010point_id\030\017 \001(\rBD\n\031emu.gras" +
+      "scutter.net.protoB\'DungeonCandidateTeamC" +
+      "reateReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

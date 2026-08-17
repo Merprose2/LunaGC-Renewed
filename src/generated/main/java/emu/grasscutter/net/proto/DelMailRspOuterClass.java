@@ -722,8 +722,9 @@ public final class DelMailRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\020DelMailRsp.proto\"3\n\nDelMailRsp\022\024\n\014mail" +
-      "_id_list\030\014 \003(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "_id_list\030\014 \003(\r\022\017\n\007retcode\030\016 \001(\005B1\n\031emu.g" +
+      "rasscutter.net.protoB\024DelMailRspOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

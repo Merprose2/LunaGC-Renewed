@@ -941,8 +941,9 @@ public final class EntityForceSyncReqOuterClass {
       "roto\"\207\001\n\022EntityForceSyncReq\022\017\n\007room_id\030\007" +
       " \001(\r\022\027\n\017parent_quest_id\030\013 \001(\r\022 \n\013motion_" +
       "info\030\014 \001(\0132\013.MotionInfo\022\022\n\nscene_time\030\r " +
-      "\001(\r\022\021\n\tentity_id\030\017 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\001(\r\022\021\n\tentity_id\030\017 \001(\rB9\n\031emu.grasscutte" +
+      "r.net.protoB\034EntityForceSyncReqOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

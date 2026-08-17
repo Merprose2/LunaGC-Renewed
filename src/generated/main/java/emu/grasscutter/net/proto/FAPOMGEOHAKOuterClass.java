@@ -138,11 +138,11 @@ public final class FAPOMGEOHAKOuterClass {
      * <code>._DebugInfo debug_info = 21;</code>
      * @return The debugInfo.
      */
-    emu.grasscutter.net.proto.DebugInfo._DebugInfo getDebugInfo();
+    emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo getDebugInfo();
     /**
      * <code>._DebugInfo debug_info = 21;</code>
      */
-    emu.grasscutter.net.proto.DebugInfo._DebugInfoOrBuilder getDebugInfoOrBuilder();
+    emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfoOrBuilder getDebugInfoOrBuilder();
 
     /**
      * <code>._PrintNodeInfo print_node_info = 22;</code>
@@ -153,11 +153,11 @@ public final class FAPOMGEOHAKOuterClass {
      * <code>._PrintNodeInfo print_node_info = 22;</code>
      * @return The printNodeInfo.
      */
-    emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo getPrintNodeInfo();
+    emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo getPrintNodeInfo();
     /**
      * <code>._PrintNodeInfo print_node_info = 22;</code>
      */
-    emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfoOrBuilder getPrintNodeInfoOrBuilder();
+    emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfoOrBuilder getPrintNodeInfoOrBuilder();
 
     public emu.grasscutter.net.proto.FAPOMGEOHAKOuterClass.FAPOMGEOHAK.BLJGLJJDBGICase getBLJGLJJDBGICase();
   }
@@ -296,28 +296,28 @@ public final class FAPOMGEOHAKOuterClass {
               break;
             }
             case 170: {
-              emu.grasscutter.net.proto.DebugInfo._DebugInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.Builder subBuilder = null;
               if (bLJGLJJDBGICase_ == 21) {
-                subBuilder = ((emu.grasscutter.net.proto.DebugInfo._DebugInfo) bLJGLJJDBGI_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo) bLJGLJJDBGI_).toBuilder();
               }
               bLJGLJJDBGI_ =
-                  input.readMessage(emu.grasscutter.net.proto.DebugInfo._DebugInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.DebugInfo._DebugInfo) bLJGLJJDBGI_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo) bLJGLJJDBGI_);
                 bLJGLJJDBGI_ = subBuilder.buildPartial();
               }
               bLJGLJJDBGICase_ = 21;
               break;
             }
             case 178: {
-              emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo.Builder subBuilder = null;
               if (bLJGLJJDBGICase_ == 22) {
-                subBuilder = ((emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo) bLJGLJJDBGI_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo) bLJGLJJDBGI_).toBuilder();
               }
               bLJGLJJDBGI_ =
-                  input.readMessage(emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo) bLJGLJJDBGI_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo) bLJGLJJDBGI_);
                 bLJGLJJDBGI_ = subBuilder.buildPartial();
               }
               bLJGLJJDBGICase_ = 22;
@@ -657,21 +657,21 @@ public final class FAPOMGEOHAKOuterClass {
      * @return The debugInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DebugInfo._DebugInfo getDebugInfo() {
+    public emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo getDebugInfo() {
       if (bLJGLJJDBGICase_ == 21) {
-         return (emu.grasscutter.net.proto.DebugInfo._DebugInfo) bLJGLJJDBGI_;
+         return (emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo) bLJGLJJDBGI_;
       }
-      return emu.grasscutter.net.proto.DebugInfo._DebugInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.getDefaultInstance();
     }
     /**
      * <code>._DebugInfo debug_info = 21;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DebugInfo._DebugInfoOrBuilder getDebugInfoOrBuilder() {
+    public emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfoOrBuilder getDebugInfoOrBuilder() {
       if (bLJGLJJDBGICase_ == 21) {
-         return (emu.grasscutter.net.proto.DebugInfo._DebugInfo) bLJGLJJDBGI_;
+         return (emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo) bLJGLJJDBGI_;
       }
-      return emu.grasscutter.net.proto.DebugInfo._DebugInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.getDefaultInstance();
     }
 
     public static final int PRINT_NODE_INFO_FIELD_NUMBER = 22;
@@ -688,21 +688,21 @@ public final class FAPOMGEOHAKOuterClass {
      * @return The printNodeInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo getPrintNodeInfo() {
+    public emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo getPrintNodeInfo() {
       if (bLJGLJJDBGICase_ == 22) {
-         return (emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo) bLJGLJJDBGI_;
+         return (emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo) bLJGLJJDBGI_;
       }
-      return emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo.getDefaultInstance();
     }
     /**
      * <code>._PrintNodeInfo print_node_info = 22;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfoOrBuilder getPrintNodeInfoOrBuilder() {
+    public emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfoOrBuilder getPrintNodeInfoOrBuilder() {
       if (bLJGLJJDBGICase_ == 22) {
-         return (emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo) bLJGLJJDBGI_;
+         return (emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo) bLJGLJJDBGI_;
       }
-      return emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -753,10 +753,10 @@ public final class FAPOMGEOHAKOuterClass {
         output.writeMessage(11, getAMMFMMAHHOP());
       }
       if (bLJGLJJDBGICase_ == 21) {
-        output.writeMessage(21, (emu.grasscutter.net.proto.DebugInfo._DebugInfo) bLJGLJJDBGI_);
+        output.writeMessage(21, (emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo) bLJGLJJDBGI_);
       }
       if (bLJGLJJDBGICase_ == 22) {
-        output.writeMessage(22, (emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo) bLJGLJJDBGI_);
+        output.writeMessage(22, (emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo) bLJGLJJDBGI_);
       }
       unknownFields.writeTo(output);
     }
@@ -810,11 +810,11 @@ public final class FAPOMGEOHAKOuterClass {
       }
       if (bLJGLJJDBGICase_ == 21) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(21, (emu.grasscutter.net.proto.DebugInfo._DebugInfo) bLJGLJJDBGI_);
+          .computeMessageSize(21, (emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo) bLJGLJJDBGI_);
       }
       if (bLJGLJJDBGICase_ == 22) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(22, (emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo) bLJGLJJDBGI_);
+          .computeMessageSize(22, (emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo) bLJGLJJDBGI_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -2045,7 +2045,7 @@ public final class FAPOMGEOHAKOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DebugInfo._DebugInfo, emu.grasscutter.net.proto.DebugInfo._DebugInfo.Builder, emu.grasscutter.net.proto.DebugInfo._DebugInfoOrBuilder> debugInfoBuilder_;
+          emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.Builder, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfoOrBuilder> debugInfoBuilder_;
       /**
        * <code>._DebugInfo debug_info = 21;</code>
        * @return Whether the debugInfo field is set.
@@ -2059,23 +2059,23 @@ public final class FAPOMGEOHAKOuterClass {
        * @return The debugInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.DebugInfo._DebugInfo getDebugInfo() {
+      public emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo getDebugInfo() {
         if (debugInfoBuilder_ == null) {
           if (bLJGLJJDBGICase_ == 21) {
-            return (emu.grasscutter.net.proto.DebugInfo._DebugInfo) bLJGLJJDBGI_;
+            return (emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo) bLJGLJJDBGI_;
           }
-          return emu.grasscutter.net.proto.DebugInfo._DebugInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.getDefaultInstance();
         } else {
           if (bLJGLJJDBGICase_ == 21) {
             return debugInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.DebugInfo._DebugInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._DebugInfo debug_info = 21;</code>
        */
-      public Builder setDebugInfo(emu.grasscutter.net.proto.DebugInfo._DebugInfo value) {
+      public Builder setDebugInfo(emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo value) {
         if (debugInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2092,7 +2092,7 @@ public final class FAPOMGEOHAKOuterClass {
        * <code>._DebugInfo debug_info = 21;</code>
        */
       public Builder setDebugInfo(
-          emu.grasscutter.net.proto.DebugInfo._DebugInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.Builder builderForValue) {
         if (debugInfoBuilder_ == null) {
           bLJGLJJDBGI_ = builderForValue.build();
           onChanged();
@@ -2105,11 +2105,11 @@ public final class FAPOMGEOHAKOuterClass {
       /**
        * <code>._DebugInfo debug_info = 21;</code>
        */
-      public Builder mergeDebugInfo(emu.grasscutter.net.proto.DebugInfo._DebugInfo value) {
+      public Builder mergeDebugInfo(emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo value) {
         if (debugInfoBuilder_ == null) {
           if (bLJGLJJDBGICase_ == 21 &&
-              bLJGLJJDBGI_ != emu.grasscutter.net.proto.DebugInfo._DebugInfo.getDefaultInstance()) {
-            bLJGLJJDBGI_ = emu.grasscutter.net.proto.DebugInfo._DebugInfo.newBuilder((emu.grasscutter.net.proto.DebugInfo._DebugInfo) bLJGLJJDBGI_)
+              bLJGLJJDBGI_ != emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.getDefaultInstance()) {
+            bLJGLJJDBGI_ = emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.newBuilder((emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo) bLJGLJJDBGI_)
                 .mergeFrom(value).buildPartial();
           } else {
             bLJGLJJDBGI_ = value;
@@ -2146,36 +2146,36 @@ public final class FAPOMGEOHAKOuterClass {
       /**
        * <code>._DebugInfo debug_info = 21;</code>
        */
-      public emu.grasscutter.net.proto.DebugInfo._DebugInfo.Builder getDebugInfoBuilder() {
+      public emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.Builder getDebugInfoBuilder() {
         return getDebugInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._DebugInfo debug_info = 21;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.DebugInfo._DebugInfoOrBuilder getDebugInfoOrBuilder() {
+      public emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfoOrBuilder getDebugInfoOrBuilder() {
         if ((bLJGLJJDBGICase_ == 21) && (debugInfoBuilder_ != null)) {
           return debugInfoBuilder_.getMessageOrBuilder();
         } else {
           if (bLJGLJJDBGICase_ == 21) {
-            return (emu.grasscutter.net.proto.DebugInfo._DebugInfo) bLJGLJJDBGI_;
+            return (emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo) bLJGLJJDBGI_;
           }
-          return emu.grasscutter.net.proto.DebugInfo._DebugInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._DebugInfo debug_info = 21;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DebugInfo._DebugInfo, emu.grasscutter.net.proto.DebugInfo._DebugInfo.Builder, emu.grasscutter.net.proto.DebugInfo._DebugInfoOrBuilder> 
+          emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.Builder, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfoOrBuilder> 
           getDebugInfoFieldBuilder() {
         if (debugInfoBuilder_ == null) {
           if (!(bLJGLJJDBGICase_ == 21)) {
-            bLJGLJJDBGI_ = emu.grasscutter.net.proto.DebugInfo._DebugInfo.getDefaultInstance();
+            bLJGLJJDBGI_ = emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.getDefaultInstance();
           }
           debugInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.DebugInfo._DebugInfo, emu.grasscutter.net.proto.DebugInfo._DebugInfo.Builder, emu.grasscutter.net.proto.DebugInfo._DebugInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.DebugInfo._DebugInfo) bLJGLJJDBGI_,
+              emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.Builder, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo) bLJGLJJDBGI_,
                   getParentForChildren(),
                   isClean());
           bLJGLJJDBGI_ = null;
@@ -2186,7 +2186,7 @@ public final class FAPOMGEOHAKOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo, emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo.Builder, emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfoOrBuilder> printNodeInfoBuilder_;
+          emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo, emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo.Builder, emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfoOrBuilder> printNodeInfoBuilder_;
       /**
        * <code>._PrintNodeInfo print_node_info = 22;</code>
        * @return Whether the printNodeInfo field is set.
@@ -2200,23 +2200,23 @@ public final class FAPOMGEOHAKOuterClass {
        * @return The printNodeInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo getPrintNodeInfo() {
+      public emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo getPrintNodeInfo() {
         if (printNodeInfoBuilder_ == null) {
           if (bLJGLJJDBGICase_ == 22) {
-            return (emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo) bLJGLJJDBGI_;
+            return (emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo) bLJGLJJDBGI_;
           }
-          return emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo.getDefaultInstance();
         } else {
           if (bLJGLJJDBGICase_ == 22) {
             return printNodeInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._PrintNodeInfo print_node_info = 22;</code>
        */
-      public Builder setPrintNodeInfo(emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo value) {
+      public Builder setPrintNodeInfo(emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo value) {
         if (printNodeInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2233,7 +2233,7 @@ public final class FAPOMGEOHAKOuterClass {
        * <code>._PrintNodeInfo print_node_info = 22;</code>
        */
       public Builder setPrintNodeInfo(
-          emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo.Builder builderForValue) {
         if (printNodeInfoBuilder_ == null) {
           bLJGLJJDBGI_ = builderForValue.build();
           onChanged();
@@ -2246,11 +2246,11 @@ public final class FAPOMGEOHAKOuterClass {
       /**
        * <code>._PrintNodeInfo print_node_info = 22;</code>
        */
-      public Builder mergePrintNodeInfo(emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo value) {
+      public Builder mergePrintNodeInfo(emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo value) {
         if (printNodeInfoBuilder_ == null) {
           if (bLJGLJJDBGICase_ == 22 &&
-              bLJGLJJDBGI_ != emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo.getDefaultInstance()) {
-            bLJGLJJDBGI_ = emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo.newBuilder((emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo) bLJGLJJDBGI_)
+              bLJGLJJDBGI_ != emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo.getDefaultInstance()) {
+            bLJGLJJDBGI_ = emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo.newBuilder((emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo) bLJGLJJDBGI_)
                 .mergeFrom(value).buildPartial();
           } else {
             bLJGLJJDBGI_ = value;
@@ -2287,36 +2287,36 @@ public final class FAPOMGEOHAKOuterClass {
       /**
        * <code>._PrintNodeInfo print_node_info = 22;</code>
        */
-      public emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo.Builder getPrintNodeInfoBuilder() {
+      public emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo.Builder getPrintNodeInfoBuilder() {
         return getPrintNodeInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._PrintNodeInfo print_node_info = 22;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfoOrBuilder getPrintNodeInfoOrBuilder() {
+      public emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfoOrBuilder getPrintNodeInfoOrBuilder() {
         if ((bLJGLJJDBGICase_ == 22) && (printNodeInfoBuilder_ != null)) {
           return printNodeInfoBuilder_.getMessageOrBuilder();
         } else {
           if (bLJGLJJDBGICase_ == 22) {
-            return (emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo) bLJGLJJDBGI_;
+            return (emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo) bLJGLJJDBGI_;
           }
-          return emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._PrintNodeInfo print_node_info = 22;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo, emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo.Builder, emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfoOrBuilder> 
+          emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo, emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo.Builder, emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfoOrBuilder> 
           getPrintNodeInfoFieldBuilder() {
         if (printNodeInfoBuilder_ == null) {
           if (!(bLJGLJJDBGICase_ == 22)) {
-            bLJGLJJDBGI_ = emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo.getDefaultInstance();
+            bLJGLJJDBGI_ = emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo.getDefaultInstance();
           }
           printNodeInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo, emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo.Builder, emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.PrintNodeInfo._PrintNodeInfo) bLJGLJJDBGI_,
+              emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo, emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo.Builder, emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._PrintNodeInfoOuterClass._PrintNodeInfo) bLJGLJJDBGI_,
                   getParentForChildren(),
                   isClean());
           bLJGLJJDBGI_ = null;
@@ -2404,8 +2404,8 @@ public final class FAPOMGEOHAKOuterClass {
       "FNPEL\022!\n\013AMMFMMAHHOP\030\013 \001(\0132\014.MELBLCIMGIP" +
       "\022!\n\ndebug_info\030\025 \001(\0132\013._DebugInfoH\000\022*\n\017p" +
       "rint_node_info\030\026 \001(\0132\017._PrintNodeInfoH\000B" +
-      "\r\n\013BLJGLJJDBGIB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "\r\n\013BLJGLJJDBGIB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025FAPOMGEOHAKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2413,8 +2413,8 @@ public final class FAPOMGEOHAKOuterClass {
           emu.grasscutter.net.proto.EJFFMPFNPELOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.IKHNFCKKIFIOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.MELBLCIMGIPOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.DebugInfo.getDescriptor(),
-          emu.grasscutter.net.proto.PrintNodeInfo.getDescriptor(),
+          emu.grasscutter.net.proto._DebugInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._PrintNodeInfoOuterClass.getDescriptor(),
         });
     internal_static_FAPOMGEOHAK_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2425,8 +2425,8 @@ public final class FAPOMGEOHAKOuterClass {
     emu.grasscutter.net.proto.EJFFMPFNPELOuterClass.getDescriptor();
     emu.grasscutter.net.proto.IKHNFCKKIFIOuterClass.getDescriptor();
     emu.grasscutter.net.proto.MELBLCIMGIPOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.DebugInfo.getDescriptor();
-    emu.grasscutter.net.proto.PrintNodeInfo.getDescriptor();
+    emu.grasscutter.net.proto._DebugInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._PrintNodeInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

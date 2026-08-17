@@ -864,8 +864,9 @@ public final class ClientSetGameTimeRspOuterClass {
       "\n\032ClientSetGameTimeRsp.proto\"i\n\024ClientSe" +
       "tGameTimeRsp\022\023\n\013BKDEPCNFFDD\030\003 \003(\r\022\021\n\tgam" +
       "e_time\030\005 \001(\r\022\030\n\020client_game_time\030\006 \001(\r\022\017" +
-      "\n\007retcode\030\n \001(\005B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\n\007retcode\030\n \001(\005B;\n\031emu.grasscutter.net.p" +
+      "rotoB\036ClientSetGameTimeRspOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

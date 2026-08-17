@@ -893,8 +893,9 @@ public final class FFKABFBGJMIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FFKABFBGJMI.proto\032\021OEMAPBNCDIA.proto\"E" +
       "\n\013FFKABFBGJMI\022!\n\013AAEJCGDGBOC\030\001 \003(\0132\014.OEM" +
-      "APBNCDIA\022\023\n\013GOKJFDPPOHF\030\002 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "APBNCDIA\022\023\n\013GOKJFDPPOHF\030\002 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025FFKABFBGJMIOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

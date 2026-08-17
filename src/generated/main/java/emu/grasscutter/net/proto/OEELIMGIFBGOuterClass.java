@@ -161,8 +161,9 @@ public final class OEELIMGIFBGOuterClass {
       "\n\021OEELIMGIFBG.proto*\200\001\n\013OEELIMGIFBG\022\024\n\020O" +
       "EELIMGIFBG_GRAY\020\000\022\025\n\021OEELIMGIFBG_GREEN\020\001" +
       "\022\024\n\020OEELIMGIFBG_BLUE\020\002\022\026\n\022OEELIMGIFBG_PU" +
-      "RPLE\020\003\022\026\n\022OEELIMGIFBG_ORANGE\020\004B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "RPLE\020\003\022\026\n\022OEELIMGIFBG_ORANGE\020\004B2\n\031emu.gr" +
+      "asscutter.net.protoB\025OEELIMGIFBGOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

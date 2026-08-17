@@ -133,8 +133,8 @@ public final class MBFCDHFPLPCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MBFCDHFPLPC.proto*O\n\013MBFCDHFPLPC\022 \n\034MB" +
       "FCDHFPLPC_SKILL_CAST_SPEED\020\000\022\036\n\032MBFCDHFP" +
-      "LPC_SKILL_CD_RATIO\020\001B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "LPC_SKILL_CD_RATIO\020\001B2\n\031emu.grasscutter." +
+      "net.protoB\025MBFCDHFPLPCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

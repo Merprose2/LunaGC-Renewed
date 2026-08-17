@@ -873,8 +873,9 @@ public final class SummerTimeV2BoatSettleNotifyOuterClass {
       "\n\034SummerTimeV2BoatSettleNotify\022\025\n\ris_new" +
       "_record\030\005 \001(\010\0227\n\013settle_info\030\013 \001(\0132\".Sum" +
       "merTimeV2BoatGallerySettleInfo\022\020\n\010stage_" +
-      "id\030\014 \001(\r\022\022\n\ngallery_id\030\017 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "id\030\014 \001(\r\022\022\n\ngallery_id\030\017 \001(\rBC\n\031emu.gras" +
+      "scutter.net.protoB&SummerTimeV2BoatSettl" +
+      "eNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

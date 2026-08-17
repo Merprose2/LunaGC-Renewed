@@ -102,11 +102,11 @@ public final class PlayerOfferingDataOuterClass {
      * <code>._OfferingPariDetailData offering_pari_detail_data = 870;</code>
      * @return The offeringPariDetailData.
      */
-    emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData getOfferingPariDetailData();
+    emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData getOfferingPariDetailData();
     /**
      * <code>._OfferingPariDetailData offering_pari_detail_data = 870;</code>
      */
-    emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailDataOrBuilder getOfferingPariDetailDataOrBuilder();
+    emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailDataOrBuilder getOfferingPariDetailDataOrBuilder();
 
     public emu.grasscutter.net.proto.PlayerOfferingDataOuterClass.PlayerOfferingData.DetailCase getDetailCase();
   }
@@ -212,14 +212,14 @@ public final class PlayerOfferingDataOuterClass {
               break;
             }
             case 6962: {
-              emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData.Builder subBuilder = null;
               if (detailCase_ == 870) {
-                subBuilder = ((emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 870;
@@ -478,21 +478,21 @@ public final class PlayerOfferingDataOuterClass {
      * @return The offeringPariDetailData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData getOfferingPariDetailData() {
+    public emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData getOfferingPariDetailData() {
       if (detailCase_ == 870) {
-         return (emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData) detail_;
+         return (emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData) detail_;
       }
-      return emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData.getDefaultInstance();
+      return emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData.getDefaultInstance();
     }
     /**
      * <code>._OfferingPariDetailData offering_pari_detail_data = 870;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailDataOrBuilder getOfferingPariDetailDataOrBuilder() {
+    public emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailDataOrBuilder getOfferingPariDetailDataOrBuilder() {
       if (detailCase_ == 870) {
-         return (emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData) detail_;
+         return (emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData) detail_;
       }
-      return emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData.getDefaultInstance();
+      return emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -536,7 +536,7 @@ public final class PlayerOfferingDataOuterClass {
         output.writeUInt32(15, level_);
       }
       if (detailCase_ == 870) {
-        output.writeMessage(870, (emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData) detail_);
+        output.writeMessage(870, (emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -589,7 +589,7 @@ public final class PlayerOfferingDataOuterClass {
       }
       if (detailCase_ == 870) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(870, (emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData) detail_);
+          .computeMessageSize(870, (emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1336,7 +1336,7 @@ public final class PlayerOfferingDataOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData, emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData.Builder, emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailDataOrBuilder> offeringPariDetailDataBuilder_;
+          emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData, emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData.Builder, emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailDataOrBuilder> offeringPariDetailDataBuilder_;
       /**
        * <code>._OfferingPariDetailData offering_pari_detail_data = 870;</code>
        * @return Whether the offeringPariDetailData field is set.
@@ -1350,23 +1350,23 @@ public final class PlayerOfferingDataOuterClass {
        * @return The offeringPariDetailData.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData getOfferingPariDetailData() {
+      public emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData getOfferingPariDetailData() {
         if (offeringPariDetailDataBuilder_ == null) {
           if (detailCase_ == 870) {
-            return (emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData) detail_;
+            return (emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData) detail_;
           }
-          return emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData.getDefaultInstance();
+          return emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData.getDefaultInstance();
         } else {
           if (detailCase_ == 870) {
             return offeringPariDetailDataBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData.getDefaultInstance();
+          return emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData.getDefaultInstance();
         }
       }
       /**
        * <code>._OfferingPariDetailData offering_pari_detail_data = 870;</code>
        */
-      public Builder setOfferingPariDetailData(emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData value) {
+      public Builder setOfferingPariDetailData(emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData value) {
         if (offeringPariDetailDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1383,7 +1383,7 @@ public final class PlayerOfferingDataOuterClass {
        * <code>._OfferingPariDetailData offering_pari_detail_data = 870;</code>
        */
       public Builder setOfferingPariDetailData(
-          emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData.Builder builderForValue) {
+          emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData.Builder builderForValue) {
         if (offeringPariDetailDataBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1396,11 +1396,11 @@ public final class PlayerOfferingDataOuterClass {
       /**
        * <code>._OfferingPariDetailData offering_pari_detail_data = 870;</code>
        */
-      public Builder mergeOfferingPariDetailData(emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData value) {
+      public Builder mergeOfferingPariDetailData(emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData value) {
         if (offeringPariDetailDataBuilder_ == null) {
           if (detailCase_ == 870 &&
-              detail_ != emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData.newBuilder((emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData) detail_)
+              detail_ != emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData.newBuilder((emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1437,36 +1437,36 @@ public final class PlayerOfferingDataOuterClass {
       /**
        * <code>._OfferingPariDetailData offering_pari_detail_data = 870;</code>
        */
-      public emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData.Builder getOfferingPariDetailDataBuilder() {
+      public emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData.Builder getOfferingPariDetailDataBuilder() {
         return getOfferingPariDetailDataFieldBuilder().getBuilder();
       }
       /**
        * <code>._OfferingPariDetailData offering_pari_detail_data = 870;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailDataOrBuilder getOfferingPariDetailDataOrBuilder() {
+      public emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailDataOrBuilder getOfferingPariDetailDataOrBuilder() {
         if ((detailCase_ == 870) && (offeringPariDetailDataBuilder_ != null)) {
           return offeringPariDetailDataBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 870) {
-            return (emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData) detail_;
+            return (emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData) detail_;
           }
-          return emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData.getDefaultInstance();
+          return emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData.getDefaultInstance();
         }
       }
       /**
        * <code>._OfferingPariDetailData offering_pari_detail_data = 870;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData, emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData.Builder, emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailDataOrBuilder> 
+          emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData, emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData.Builder, emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailDataOrBuilder> 
           getOfferingPariDetailDataFieldBuilder() {
         if (offeringPariDetailDataBuilder_ == null) {
           if (!(detailCase_ == 870)) {
-            detail_ = emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData.getDefaultInstance();
           }
           offeringPariDetailDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData, emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData.Builder, emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailDataOrBuilder>(
-                  (emu.grasscutter.net.proto.OfferingPariDetailData._OfferingPariDetailData) detail_,
+              emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData, emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData.Builder, emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailDataOrBuilder>(
+                  (emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass._OfferingPariDetailData) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1556,13 +1556,14 @@ public final class PlayerOfferingDataOuterClass {
       "\030\016 \001(\r\022\r\n\005level\030\017 \001(\r\022>\n\031offering_pari_d" +
       "etail_data\030\346\006 \001(\0132\030._OfferingPariDetailD" +
       "ataH\000\0322\n\020DIKKGPENNJBEntry\022\013\n\003key\030\001 \001(\r\022\r" +
-      "\n\005value\030\002 \001(\r:\0028\001B\010\n\006detailB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\n\005value\030\002 \001(\r:\0028\001B\010\n\006detailB9\n\031emu.grass" +
+      "cutter.net.protoB\034PlayerOfferingDataOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.OfferingPariDetailData.getDescriptor(),
+          emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass.getDescriptor(),
         });
     internal_static_PlayerOfferingData_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1576,7 +1577,7 @@ public final class PlayerOfferingDataOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PlayerOfferingData_DIKKGPENNJBEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    emu.grasscutter.net.proto.OfferingPariDetailData.getDescriptor();
+    emu.grasscutter.net.proto._OfferingPariDetailDataOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

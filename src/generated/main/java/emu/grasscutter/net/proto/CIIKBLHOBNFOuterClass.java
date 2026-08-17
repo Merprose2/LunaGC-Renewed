@@ -724,8 +724,8 @@ public final class CIIKBLHOBNFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CIIKBLHOBNF.proto\"E\n\013CIIKBLHOBNF\022\035\n\025av" +
       "atar_team_guid_list\030\004 \003(\004\022\027\n\017cur_avatar_" +
-      "guid\030\005 \001(\004B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "guid\030\005 \001(\004B2\n\031emu.grasscutter.net.protoB" +
+      "\025CIIKBLHOBNFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

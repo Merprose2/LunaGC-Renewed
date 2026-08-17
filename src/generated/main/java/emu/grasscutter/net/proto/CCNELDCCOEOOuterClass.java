@@ -888,7 +888,8 @@ public final class CCNELDCCOEOOuterClass {
       "\n\021CCNELDCCOEO.proto\"c\n\013CCNELDCCOEO\022\017\n\007re" +
       "tcode\030\002 \001(\005\022\023\n\013BFIFPLMKLNA\030\004 \001(\r\022\014\n\004guid" +
       "\030\010 \001(\004\022\013\n\003url\030\t \001(\t\022\023\n\013CDENHIDDKOO\030\014 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025CCNELDCCO" +
+      "EOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

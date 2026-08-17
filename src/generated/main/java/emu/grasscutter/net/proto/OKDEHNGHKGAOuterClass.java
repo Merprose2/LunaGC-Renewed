@@ -38,12 +38,12 @@ public final class OKDEHNGHKGAOuterClass {
     /**
      * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.CurrentPhase._CurrentPhase> 
+    java.util.List<emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase> 
         getKBNICINGGBHList();
     /**
      * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
      */
-    emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getKBNICINGGBH(int index);
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getKBNICINGGBH(int index);
     /**
      * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
      */
@@ -51,12 +51,12 @@ public final class OKDEHNGHKGAOuterClass {
     /**
      * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
         getKBNICINGGBHOrBuilderList();
     /**
      * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
      */
-    emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getKBNICINGGBHOrBuilder(
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getKBNICINGGBHOrBuilder(
         int index);
   }
   /**
@@ -130,11 +130,11 @@ public final class OKDEHNGHKGAOuterClass {
             }
             case 18: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                kBNICINGGBH_ = new java.util.ArrayList<emu.grasscutter.net.proto.CurrentPhase._CurrentPhase>();
+                kBNICINGGBH_ = new java.util.ArrayList<emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase>();
                 mutable_bitField0_ |= 0x00000002;
               }
               kBNICINGGBH_.add(
-                  input.readMessage(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -204,19 +204,19 @@ public final class OKDEHNGHKGAOuterClass {
     private int hEMLPIJAGILMemoizedSerializedSize = -1;
 
     public static final int KBNICINGGBH_FIELD_NUMBER = 2;
-    private java.util.List<emu.grasscutter.net.proto.CurrentPhase._CurrentPhase> kBNICINGGBH_;
+    private java.util.List<emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase> kBNICINGGBH_;
     /**
      * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.CurrentPhase._CurrentPhase> getKBNICINGGBHList() {
+    public java.util.List<emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase> getKBNICINGGBHList() {
       return kBNICINGGBH_;
     }
     /**
      * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
         getKBNICINGGBHOrBuilderList() {
       return kBNICINGGBH_;
     }
@@ -231,14 +231,14 @@ public final class OKDEHNGHKGAOuterClass {
      * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getKBNICINGGBH(int index) {
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getKBNICINGGBH(int index) {
       return kBNICINGGBH_.get(index);
     }
     /**
      * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getKBNICINGGBHOrBuilder(
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getKBNICINGGBHOrBuilder(
         int index) {
       return kBNICINGGBH_.get(index);
     }
@@ -709,22 +709,22 @@ public final class OKDEHNGHKGAOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.CurrentPhase._CurrentPhase> kBNICINGGBH_ =
+      private java.util.List<emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase> kBNICINGGBH_ =
         java.util.Collections.emptyList();
       private void ensureKBNICINGGBHIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          kBNICINGGBH_ = new java.util.ArrayList<emu.grasscutter.net.proto.CurrentPhase._CurrentPhase>(kBNICINGGBH_);
+          kBNICINGGBH_ = new java.util.ArrayList<emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase>(kBNICINGGBH_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> kBNICINGGBHBuilder_;
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> kBNICINGGBHBuilder_;
 
       /**
        * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.CurrentPhase._CurrentPhase> getKBNICINGGBHList() {
+      public java.util.List<emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase> getKBNICINGGBHList() {
         if (kBNICINGGBHBuilder_ == null) {
           return java.util.Collections.unmodifiableList(kBNICINGGBH_);
         } else {
@@ -744,7 +744,7 @@ public final class OKDEHNGHKGAOuterClass {
       /**
        * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getKBNICINGGBH(int index) {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getKBNICINGGBH(int index) {
         if (kBNICINGGBHBuilder_ == null) {
           return kBNICINGGBH_.get(index);
         } else {
@@ -755,7 +755,7 @@ public final class OKDEHNGHKGAOuterClass {
        * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
        */
       public Builder setKBNICINGGBH(
-          int index, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+          int index, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (kBNICINGGBHBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -772,7 +772,7 @@ public final class OKDEHNGHKGAOuterClass {
        * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
        */
       public Builder setKBNICINGGBH(
-          int index, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder builderForValue) {
         if (kBNICINGGBHBuilder_ == null) {
           ensureKBNICINGGBHIsMutable();
           kBNICINGGBH_.set(index, builderForValue.build());
@@ -785,7 +785,7 @@ public final class OKDEHNGHKGAOuterClass {
       /**
        * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
        */
-      public Builder addKBNICINGGBH(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+      public Builder addKBNICINGGBH(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (kBNICINGGBHBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -802,7 +802,7 @@ public final class OKDEHNGHKGAOuterClass {
        * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
        */
       public Builder addKBNICINGGBH(
-          int index, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+          int index, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (kBNICINGGBHBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -819,7 +819,7 @@ public final class OKDEHNGHKGAOuterClass {
        * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
        */
       public Builder addKBNICINGGBH(
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder builderForValue) {
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder builderForValue) {
         if (kBNICINGGBHBuilder_ == null) {
           ensureKBNICINGGBHIsMutable();
           kBNICINGGBH_.add(builderForValue.build());
@@ -833,7 +833,7 @@ public final class OKDEHNGHKGAOuterClass {
        * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
        */
       public Builder addKBNICINGGBH(
-          int index, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder builderForValue) {
         if (kBNICINGGBHBuilder_ == null) {
           ensureKBNICINGGBHIsMutable();
           kBNICINGGBH_.add(index, builderForValue.build());
@@ -847,7 +847,7 @@ public final class OKDEHNGHKGAOuterClass {
        * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
        */
       public Builder addAllKBNICINGGBH(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.CurrentPhase._CurrentPhase> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase> values) {
         if (kBNICINGGBHBuilder_ == null) {
           ensureKBNICINGGBHIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -887,14 +887,14 @@ public final class OKDEHNGHKGAOuterClass {
       /**
        * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder getKBNICINGGBHBuilder(
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder getKBNICINGGBHBuilder(
           int index) {
         return getKBNICINGGBHFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getKBNICINGGBHOrBuilder(
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getKBNICINGGBHOrBuilder(
           int index) {
         if (kBNICINGGBHBuilder_ == null) {
           return kBNICINGGBH_.get(index);  } else {
@@ -904,7 +904,7 @@ public final class OKDEHNGHKGAOuterClass {
       /**
        * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
            getKBNICINGGBHOrBuilderList() {
         if (kBNICINGGBHBuilder_ != null) {
           return kBNICINGGBHBuilder_.getMessageOrBuilderList();
@@ -915,31 +915,31 @@ public final class OKDEHNGHKGAOuterClass {
       /**
        * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder addKBNICINGGBHBuilder() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder addKBNICINGGBHBuilder() {
         return getKBNICINGGBHFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance());
+            emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance());
       }
       /**
        * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder addKBNICINGGBHBuilder(
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder addKBNICINGGBHBuilder(
           int index) {
         return getKBNICINGGBHFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance());
+            index, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance());
       }
       /**
        * <code>repeated ._CurrentPhase KBNICINGGBH = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder> 
            getKBNICINGGBHBuilderList() {
         return getKBNICINGGBHFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> 
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
           getKBNICINGGBHFieldBuilder() {
         if (kBNICINGGBHBuilder_ == null) {
           kBNICINGGBHBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder>(
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder>(
                   kBNICINGGBH_,
                   ((bitField0_ & 0x00000002) != 0),
                   getParentForChildren(),
@@ -1017,13 +1017,14 @@ public final class OKDEHNGHKGAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OKDEHNGHKGA.proto\032\023_CurrentPhase.proto" +
       "\"G\n\013OKDEHNGHKGA\022\023\n\013HEMLPIJAGIL\030\001 \003(\005\022#\n\013" +
-      "KBNICINGGBH\030\002 \003(\0132\016._CurrentPhaseB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "KBNICINGGBH\030\002 \003(\0132\016._CurrentPhaseB2\n\031emu" +
+      ".grasscutter.net.protoB\025OKDEHNGHKGAOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.CurrentPhase.getDescriptor(),
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor(),
         });
     internal_static_OKDEHNGHKGA_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1031,7 +1032,7 @@ public final class OKDEHNGHKGAOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_OKDEHNGHKGA_descriptor,
         new java.lang.String[] { "HEMLPIJAGIL", "KBNICINGGBH", });
-    emu.grasscutter.net.proto.CurrentPhase.getDescriptor();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

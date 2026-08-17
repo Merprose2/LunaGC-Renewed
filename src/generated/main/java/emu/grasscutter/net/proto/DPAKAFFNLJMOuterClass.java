@@ -1179,8 +1179,9 @@ public final class DPAKAFFNLJMOuterClass {
       "ffect\030\013 \001(\0132\014.LDDOCHEAEDOH\000\022\024\n\013ICJDPJDKD" +
       "BH\030\365\003 \001(\002\022\024\n\013OBNEIALKKOA\030\366\003 \001(\002\022\024\n\013OBCCP" +
       "AONJMF\030\367\003 \001(\002\022\024\n\013FHBIAFMOPNN\030\370\003 \001(\010\022\024\n\013G" +
-      "CHKKLBGFMD\030\371\003 \001(\010B\010\n\006detailB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "CHKKLBGFMD\030\371\003 \001(\010B\010\n\006detailB2\n\031emu.grass" +
+      "cutter.net.protoB\025DPAKAFFNLJMOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

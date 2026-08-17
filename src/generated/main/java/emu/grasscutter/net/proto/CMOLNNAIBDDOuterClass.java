@@ -843,8 +843,8 @@ public final class CMOLNNAIBDDOuterClass {
       "\001\n\013CMOLNNAIBDD\022!\n\013GHABIPGGNGN\030\001 \001(\0162\014.JK" +
       "APPKLPNHA\022\023\n\013HODLLGBFJBF\030\002 \001(\002\022\023\n\013JCPLPN" +
       "FFJHG\030\003 \001(\002\022\023\n\013MEGEKACMHGA\030\004 \001(\002\022\023\n\013EKNO" +
-      "CDAOCOO\030\005 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "CDAOCOO\030\005 \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025CMOLNNAIBDDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

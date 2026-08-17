@@ -1059,8 +1059,9 @@ public final class FleurFairStageSettleNotifyOuterClass {
       "ttleNotify\022:\n\023gallery_settle_info\030\n \001(\0132" +
       "\033.FleurFairGallerySettleInfoH\000\0224\n\020boss_s" +
       "ettle_info\030\r \001(\0132\030.FleurFairBossSettleIn" +
-      "foH\000\022\022\n\nstage_type\030\017 \001(\rB\010\n\006detailB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "foH\000\022\022\n\nstage_type\030\017 \001(\rB\010\n\006detailBA\n\031em" +
+      "u.grasscutter.net.protoB$FleurFairStageS" +
+      "ettleNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

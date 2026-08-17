@@ -1839,8 +1839,9 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       "list\030\010 \003(\0132\024.MichiaeMatsuriStage\022@\n\022chal" +
       "lenge_pos_list\030\t \003(\0132$.MichiaeMatsuriCha" +
       "llengePositionInfo\022#\n\033unlocked_crystal_s" +
-      "kill_list\030\n \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "kill_list\030\n \003(\rBG\n\031emu.grasscutter.net.p" +
+      "rotoB*MichiaeMatsuriActivityDetailInfoOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

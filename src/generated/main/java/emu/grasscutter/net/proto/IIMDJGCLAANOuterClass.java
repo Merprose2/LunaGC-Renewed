@@ -644,8 +644,8 @@ public final class IIMDJGCLAANOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IIMDJGCLAAN.proto\"%\n\013IIMDJGCLAAN\022\026\n\016ca" +
-      "rd_guid_list\030\r \003(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "rd_guid_list\030\r \003(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025IIMDJGCLAANOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

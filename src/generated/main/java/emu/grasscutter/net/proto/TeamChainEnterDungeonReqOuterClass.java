@@ -596,8 +596,9 @@ public final class TeamChainEnterDungeonReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036TeamChainEnterDungeonReq.proto\"@\n\030Team" +
       "ChainEnterDungeonReq\022\020\n\010stage_id\030\005 \001(\r\022\022" +
-      "\n\ndifficulty\030\017 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\n\ndifficulty\030\017 \001(\rB?\n\031emu.grasscutter.ne" +
+      "t.protoB\"TeamChainEnterDungeonReqOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

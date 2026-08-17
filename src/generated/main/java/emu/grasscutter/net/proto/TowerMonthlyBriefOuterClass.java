@@ -729,8 +729,9 @@ public final class TowerMonthlyBriefOuterClass {
       "\n\027TowerMonthlyBrief.proto\"|\n\021TowerMonthl" +
       "yBrief\022\030\n\020best_floor_index\030\001 \001(\r\022\030\n\020best" +
       "_level_index\030\002 \001(\r\022\030\n\020total_star_count\030\003" +
-      " \001(\r\022\031\n\021tower_schedule_id\030\014 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      " \001(\r\022\031\n\021tower_schedule_id\030\014 \001(\rB8\n\031emu.g" +
+      "rasscutter.net.protoB\033TowerMonthlyBriefO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

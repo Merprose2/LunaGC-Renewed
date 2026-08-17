@@ -802,8 +802,9 @@ public final class IrodoriScanEntityRspOuterClass {
       "tryThemeData.proto\"p\n\024IrodoriScanEntityR" +
       "sp\022\017\n\007retcode\030\001 \001(\005\022\032\n\022is_get_inspiratio" +
       "n\030\005 \001(\010\022+\n\ntheme_data\030\017 \001(\0132\027.IrodoriPoe" +
-      "tryThemeDataB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "tryThemeDataB;\n\031emu.grasscutter.net.prot" +
+      "oB\036IrodoriScanEntityRspOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

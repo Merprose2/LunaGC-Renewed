@@ -27,7 +27,7 @@ public final class POOFDPIBMNIOuterClass {
      * <code>._EffigyChallengeV4RestartEndReason reason = 1;</code>
      * @return The reason.
      */
-    emu.grasscutter.net.proto.EffigyChallengeV4RestartEndReason._EffigyChallengeV4RestartEndReason getReason();
+    emu.grasscutter.net.proto._EffigyChallengeV4RestartEndReasonOuterClass._EffigyChallengeV4RestartEndReason getReason();
   }
   /**
    * <pre>
@@ -130,10 +130,10 @@ public final class POOFDPIBMNIOuterClass {
      * <code>._EffigyChallengeV4RestartEndReason reason = 1;</code>
      * @return The reason.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.EffigyChallengeV4RestartEndReason._EffigyChallengeV4RestartEndReason getReason() {
+    @java.lang.Override public emu.grasscutter.net.proto._EffigyChallengeV4RestartEndReasonOuterClass._EffigyChallengeV4RestartEndReason getReason() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.EffigyChallengeV4RestartEndReason._EffigyChallengeV4RestartEndReason result = emu.grasscutter.net.proto.EffigyChallengeV4RestartEndReason._EffigyChallengeV4RestartEndReason.valueOf(reason_);
-      return result == null ? emu.grasscutter.net.proto.EffigyChallengeV4RestartEndReason._EffigyChallengeV4RestartEndReason.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto._EffigyChallengeV4RestartEndReasonOuterClass._EffigyChallengeV4RestartEndReason result = emu.grasscutter.net.proto._EffigyChallengeV4RestartEndReasonOuterClass._EffigyChallengeV4RestartEndReason.valueOf(reason_);
+      return result == null ? emu.grasscutter.net.proto._EffigyChallengeV4RestartEndReasonOuterClass._EffigyChallengeV4RestartEndReason.UNRECOGNIZED : result;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -150,7 +150,7 @@ public final class POOFDPIBMNIOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (reason_ != emu.grasscutter.net.proto.EffigyChallengeV4RestartEndReason._EffigyChallengeV4RestartEndReason._EffigyChallengeV4RestartEndReason_EFFIGY_CHALLENGE_V_4_RESTART_END_REASON_NONE.getNumber()) {
+      if (reason_ != emu.grasscutter.net.proto._EffigyChallengeV4RestartEndReasonOuterClass._EffigyChallengeV4RestartEndReason._EffigyChallengeV4RestartEndReason_EFFIGY_CHALLENGE_V_4_RESTART_END_REASON_NONE.getNumber()) {
         output.writeEnum(1, reason_);
       }
       unknownFields.writeTo(output);
@@ -162,7 +162,7 @@ public final class POOFDPIBMNIOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (reason_ != emu.grasscutter.net.proto.EffigyChallengeV4RestartEndReason._EffigyChallengeV4RestartEndReason._EffigyChallengeV4RestartEndReason_EFFIGY_CHALLENGE_V_4_RESTART_END_REASON_NONE.getNumber()) {
+      if (reason_ != emu.grasscutter.net.proto._EffigyChallengeV4RestartEndReasonOuterClass._EffigyChallengeV4RestartEndReason._EffigyChallengeV4RestartEndReason_EFFIGY_CHALLENGE_V_4_RESTART_END_REASON_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(1, reason_);
       }
@@ -465,17 +465,17 @@ public final class POOFDPIBMNIOuterClass {
        * @return The reason.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.EffigyChallengeV4RestartEndReason._EffigyChallengeV4RestartEndReason getReason() {
+      public emu.grasscutter.net.proto._EffigyChallengeV4RestartEndReasonOuterClass._EffigyChallengeV4RestartEndReason getReason() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.EffigyChallengeV4RestartEndReason._EffigyChallengeV4RestartEndReason result = emu.grasscutter.net.proto.EffigyChallengeV4RestartEndReason._EffigyChallengeV4RestartEndReason.valueOf(reason_);
-        return result == null ? emu.grasscutter.net.proto.EffigyChallengeV4RestartEndReason._EffigyChallengeV4RestartEndReason.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto._EffigyChallengeV4RestartEndReasonOuterClass._EffigyChallengeV4RestartEndReason result = emu.grasscutter.net.proto._EffigyChallengeV4RestartEndReasonOuterClass._EffigyChallengeV4RestartEndReason.valueOf(reason_);
+        return result == null ? emu.grasscutter.net.proto._EffigyChallengeV4RestartEndReasonOuterClass._EffigyChallengeV4RestartEndReason.UNRECOGNIZED : result;
       }
       /**
        * <code>._EffigyChallengeV4RestartEndReason reason = 1;</code>
        * @param value The reason to set.
        * @return This builder for chaining.
        */
-      public Builder setReason(emu.grasscutter.net.proto.EffigyChallengeV4RestartEndReason._EffigyChallengeV4RestartEndReason value) {
+      public Builder setReason(emu.grasscutter.net.proto._EffigyChallengeV4RestartEndReasonOuterClass._EffigyChallengeV4RestartEndReason value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -564,13 +564,13 @@ public final class POOFDPIBMNIOuterClass {
       "\n\021POOFDPIBMNI.proto\032(_EffigyChallengeV4R" +
       "estartEndReason.proto\"B\n\013POOFDPIBMNI\0223\n\006" +
       "reason\030\001 \001(\0162#._EffigyChallengeV4Restart" +
-      "EndReasonB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "EndReasonB2\n\031emu.grasscutter.net.protoB\025" +
+      "POOFDPIBMNIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.EffigyChallengeV4RestartEndReason.getDescriptor(),
+          emu.grasscutter.net.proto._EffigyChallengeV4RestartEndReasonOuterClass.getDescriptor(),
         });
     internal_static_POOFDPIBMNI_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -578,7 +578,7 @@ public final class POOFDPIBMNIOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_POOFDPIBMNI_descriptor,
         new java.lang.String[] { "Reason", });
-    emu.grasscutter.net.proto.EffigyChallengeV4RestartEndReason.getDescriptor();
+    emu.grasscutter.net.proto._EffigyChallengeV4RestartEndReasonOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

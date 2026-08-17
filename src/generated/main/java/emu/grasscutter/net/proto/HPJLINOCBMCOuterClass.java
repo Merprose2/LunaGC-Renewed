@@ -525,8 +525,8 @@ public final class HPJLINOCBMCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HPJLINOCBMC.proto\"\"\n\013HPJLINOCBMC\022\023\n\013KD" +
-      "AGLABKEPK\030\003 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "AGLABKEPK\030\003 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025HPJLINOCBMCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

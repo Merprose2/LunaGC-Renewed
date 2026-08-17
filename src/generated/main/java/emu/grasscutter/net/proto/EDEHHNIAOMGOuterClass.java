@@ -972,8 +972,8 @@ public final class EDEHHNIAOMGOuterClass {
       "\n\021EDEHHNIAOMG.proto\032\021MHMDCDHNNBI.proto\"V" +
       "\n\013EDEHHNIAOMG\022\017\n\007retcode\030\001 \001(\005\022\023\n\013schedu" +
       "le_id\030\006 \001(\r\022!\n\013JHCCLEEKKKI\030\t \003(\0132\014.MHMDC" +
-      "DHNNBIB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "DHNNBIB2\n\031emu.grasscutter.net.protoB\025EDE" +
+      "HHNIAOMGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -864,8 +864,8 @@ public final class TowerEnterLevelRspOuterClass {
       "\n\030TowerEnterLevelRsp.proto\"h\n\022TowerEnter" +
       "LevelRsp\022\032\n\022tower_buff_id_list\030\002 \003(\r\022\017\n\007" +
       "retcode\030\n \001(\005\022\020\n\010floor_id\030\013 \001(\r\022\023\n\013level" +
-      "_index\030\r \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "_index\030\r \001(\rB9\n\031emu.grasscutter.net.prot" +
+      "oB\034TowerEnterLevelRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

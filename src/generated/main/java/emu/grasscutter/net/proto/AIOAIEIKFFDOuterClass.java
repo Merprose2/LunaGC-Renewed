@@ -27,11 +27,11 @@ public final class AIOAIEIKFFDOuterClass {
      * <code>._CurrentPhase MNJFGIHFEPA = 1;</code>
      * @return The mNJFGIHFEPA.
      */
-    emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getMNJFGIHFEPA();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getMNJFGIHFEPA();
     /**
      * <code>._CurrentPhase MNJFGIHFEPA = 1;</code>
      */
-    emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getMNJFGIHFEPAOrBuilder();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getMNJFGIHFEPAOrBuilder();
 
     /**
      * <code>repeated .BDPJCGLCLJI GKPMNIPPOMG = 2;</code>
@@ -161,11 +161,11 @@ public final class AIOAIEIKFFDOuterClass {
               done = true;
               break;
             case 10: {
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder subBuilder = null;
               if (mNJFGIHFEPA_ != null) {
                 subBuilder = mNJFGIHFEPA_.toBuilder();
               }
-              mNJFGIHFEPA_ = input.readMessage(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.parser(), extensionRegistry);
+              mNJFGIHFEPA_ = input.readMessage(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(mNJFGIHFEPA_);
                 mNJFGIHFEPA_ = subBuilder.buildPartial();
@@ -247,7 +247,7 @@ public final class AIOAIEIKFFDOuterClass {
     }
 
     public static final int MNJFGIHFEPA_FIELD_NUMBER = 1;
-    private emu.grasscutter.net.proto.CurrentPhase._CurrentPhase mNJFGIHFEPA_;
+    private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase mNJFGIHFEPA_;
     /**
      * <code>._CurrentPhase MNJFGIHFEPA = 1;</code>
      * @return Whether the mNJFGIHFEPA field is set.
@@ -261,14 +261,14 @@ public final class AIOAIEIKFFDOuterClass {
      * @return The mNJFGIHFEPA.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getMNJFGIHFEPA() {
-      return mNJFGIHFEPA_ == null ? emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : mNJFGIHFEPA_;
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getMNJFGIHFEPA() {
+      return mNJFGIHFEPA_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : mNJFGIHFEPA_;
     }
     /**
      * <code>._CurrentPhase MNJFGIHFEPA = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getMNJFGIHFEPAOrBuilder() {
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getMNJFGIHFEPAOrBuilder() {
       return getMNJFGIHFEPA();
     }
 
@@ -902,9 +902,9 @@ public final class AIOAIEIKFFDOuterClass {
       }
       private int bitField0_;
 
-      private emu.grasscutter.net.proto.CurrentPhase._CurrentPhase mNJFGIHFEPA_;
+      private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase mNJFGIHFEPA_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> mNJFGIHFEPABuilder_;
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> mNJFGIHFEPABuilder_;
       /**
        * <code>._CurrentPhase MNJFGIHFEPA = 1;</code>
        * @return Whether the mNJFGIHFEPA field is set.
@@ -916,9 +916,9 @@ public final class AIOAIEIKFFDOuterClass {
        * <code>._CurrentPhase MNJFGIHFEPA = 1;</code>
        * @return The mNJFGIHFEPA.
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getMNJFGIHFEPA() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getMNJFGIHFEPA() {
         if (mNJFGIHFEPABuilder_ == null) {
-          return mNJFGIHFEPA_ == null ? emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : mNJFGIHFEPA_;
+          return mNJFGIHFEPA_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : mNJFGIHFEPA_;
         } else {
           return mNJFGIHFEPABuilder_.getMessage();
         }
@@ -926,7 +926,7 @@ public final class AIOAIEIKFFDOuterClass {
       /**
        * <code>._CurrentPhase MNJFGIHFEPA = 1;</code>
        */
-      public Builder setMNJFGIHFEPA(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+      public Builder setMNJFGIHFEPA(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (mNJFGIHFEPABuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -943,7 +943,7 @@ public final class AIOAIEIKFFDOuterClass {
        * <code>._CurrentPhase MNJFGIHFEPA = 1;</code>
        */
       public Builder setMNJFGIHFEPA(
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder builderForValue) {
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder builderForValue) {
         if (mNJFGIHFEPABuilder_ == null) {
           mNJFGIHFEPA_ = builderForValue.build();
           onChanged();
@@ -956,11 +956,11 @@ public final class AIOAIEIKFFDOuterClass {
       /**
        * <code>._CurrentPhase MNJFGIHFEPA = 1;</code>
        */
-      public Builder mergeMNJFGIHFEPA(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+      public Builder mergeMNJFGIHFEPA(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (mNJFGIHFEPABuilder_ == null) {
           if (mNJFGIHFEPA_ != null) {
             mNJFGIHFEPA_ =
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.newBuilder(mNJFGIHFEPA_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.newBuilder(mNJFGIHFEPA_).mergeFrom(value).buildPartial();
           } else {
             mNJFGIHFEPA_ = value;
           }
@@ -988,7 +988,7 @@ public final class AIOAIEIKFFDOuterClass {
       /**
        * <code>._CurrentPhase MNJFGIHFEPA = 1;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder getMNJFGIHFEPABuilder() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder getMNJFGIHFEPABuilder() {
         
         onChanged();
         return getMNJFGIHFEPAFieldBuilder().getBuilder();
@@ -996,23 +996,23 @@ public final class AIOAIEIKFFDOuterClass {
       /**
        * <code>._CurrentPhase MNJFGIHFEPA = 1;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getMNJFGIHFEPAOrBuilder() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getMNJFGIHFEPAOrBuilder() {
         if (mNJFGIHFEPABuilder_ != null) {
           return mNJFGIHFEPABuilder_.getMessageOrBuilder();
         } else {
           return mNJFGIHFEPA_ == null ?
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : mNJFGIHFEPA_;
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : mNJFGIHFEPA_;
         }
       }
       /**
        * <code>._CurrentPhase MNJFGIHFEPA = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> 
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
           getMNJFGIHFEPAFieldBuilder() {
         if (mNJFGIHFEPABuilder_ == null) {
           mNJFGIHFEPABuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder>(
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder>(
                   getMNJFGIHFEPA(),
                   getParentForChildren(),
                   isClean());
@@ -1844,8 +1844,9 @@ public final class AIOAIEIKFFDOuterClass {
       "FGIHFEPA\030\001 \001(\0132\016._CurrentPhase\022!\n\013GKPMNI" +
       "PPOMG\030\002 \003(\0132\014.BDPJCGLCLJI\022!\n\013CDMLMNAGMKJ" +
       "\030\003 \003(\0132\014.BJNDIAIEGJJ\022!\n\013COMOLMAMDBB\030\004 \003(" +
-      "\0132\014.BECFBHPNDKD\022\023\n\013ACGFEKLLKKM\030\005 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\0132\014.BECFBHPNDKD\022\023\n\013ACGFEKLLKKM\030\005 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025AIOAIEIKFFDOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1853,7 +1854,7 @@ public final class AIOAIEIKFFDOuterClass {
           emu.grasscutter.net.proto.BDPJCGLCLJIOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.BECFBHPNDKDOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.BJNDIAIEGJJOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.CurrentPhase.getDescriptor(),
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor(),
         });
     internal_static_AIOAIEIKFFD_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1864,7 +1865,7 @@ public final class AIOAIEIKFFDOuterClass {
     emu.grasscutter.net.proto.BDPJCGLCLJIOuterClass.getDescriptor();
     emu.grasscutter.net.proto.BECFBHPNDKDOuterClass.getDescriptor();
     emu.grasscutter.net.proto.BJNDIAIEGJJOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.CurrentPhase.getDescriptor();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -965,8 +965,8 @@ public final class ChessEntranceInfoOuterClass {
       "nfo.proto\"t\n\021ChessEntranceInfo\022\026\n\016entran" +
       "ce_index\030\002 \001(\r\022,\n\021monster_info_list\030\r \003(" +
       "\0132\021.ChessMonsterInfo\022\031\n\021entrance_point_i" +
-      "d\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "d\030\016 \001(\rB8\n\031emu.grasscutter.net.protoB\033Ch" +
+      "essEntranceInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

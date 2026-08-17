@@ -658,8 +658,9 @@ public final class BonusActivityInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027BonusActivityInfo.proto\"S\n\021BonusActivi" +
       "tyInfo\022\031\n\021bonus_activity_id\030\006 \001(\r\022\024\n\014rew" +
-      "ard_index\030\007 \001(\r\022\r\n\005state\030\r \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ard_index\030\007 \001(\r\022\r\n\005state\030\r \001(\rB8\n\031emu.gr" +
+      "asscutter.net.protoB\033BonusActivityInfoOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

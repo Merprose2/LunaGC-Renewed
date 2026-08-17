@@ -893,8 +893,9 @@ public final class GGJDFDMPIKEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GGJDFDMPIKE.proto\032\021CMADNKHPFNH.proto\"A" +
       "\n\013GGJDFDMPIKE\022\017\n\007cell_id\030\001 \001(\r\022!\n\013FAMMJM" +
-      "HFPKN\030\002 \003(\0132\014.CMADNKHPFNHB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "HFPKN\030\002 \003(\0132\014.CMADNKHPFNHB2\n\031emu.grasscu" +
+      "tter.net.protoB\025GGJDFDMPIKEOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

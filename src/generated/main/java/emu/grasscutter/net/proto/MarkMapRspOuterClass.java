@@ -901,8 +901,9 @@ public final class MarkMapRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\020MarkMapRsp.proto\032\022MapMarkPoint.proto\"?" +
       "\n\nMarkMapRsp\022 \n\tmark_list\030\004 \003(\0132\r.MapMar" +
-      "kPoint\022\017\n\007retcode\030\n \001(\005B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "kPoint\022\017\n\007retcode\030\n \001(\005B1\n\031emu.grasscutt" +
+      "er.net.protoB\024MarkMapRspOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1059,8 +1059,9 @@ public final class PECHAOPNCHCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PECHAOPNCHC.proto\"`\n\013PECHAOPNCHC\022\033\n\023ch" +
       "aracter_card_list\030\002 \003(\r\022\014\n\004name\030\006 \001(\t\022\021\n" +
-      "\tcard_list\030\013 \003(\r\022\023\n\013AFENLOKBCPE\030\014 \001(\010B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\tcard_list\030\013 \003(\r\022\023\n\013AFENLOKBCPE\030\014 \001(\010B2\n" +
+      "\031emu.grasscutter.net.protoB\025PECHAOPNCHCO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

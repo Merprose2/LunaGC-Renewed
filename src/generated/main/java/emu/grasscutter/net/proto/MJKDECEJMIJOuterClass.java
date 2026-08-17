@@ -1044,8 +1044,9 @@ public final class MJKDECEJMIJOuterClass {
       "\n\021MJKDECEJMIJ.proto\032\021LFJJHJEPGDO.proto\"o" +
       "\n\013MJKDECEJMIJ\022\023\n\013JPNLCJKAAKH\030\005 \001(\010\022\023\n\013BB" +
       "COBLHGBMK\030\007 \001(\r\022!\n\013ABFPAJKDFEJ\030\014 \003(\0132\014.L" +
-      "FJJHJEPGDO\022\023\n\013HNOPIJEFGJG\030\016 \001(\010B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "FJJHJEPGDO\022\023\n\013HNOPIJEFGJG\030\016 \001(\010B2\n\031emu.g" +
+      "rasscutter.net.protoB\025MJKDECEJMIJOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -27,11 +27,11 @@ public final class IENEHEFGKNNOuterClass {
      * <code>._Storage storage = 14;</code>
      * @return The storage.
      */
-    emu.grasscutter.net.proto.Storage._Storage getStorage();
+    emu.grasscutter.net.proto._StorageOuterClass._Storage getStorage();
     /**
      * <code>._Storage storage = 14;</code>
      */
-    emu.grasscutter.net.proto.Storage._StorageOrBuilder getStorageOrBuilder();
+    emu.grasscutter.net.proto._StorageOuterClass._StorageOrBuilder getStorageOrBuilder();
 
     public emu.grasscutter.net.proto.IENEHEFGKNNOuterClass.IENEHEFGKNN.DetailCase getDetailCase();
   }
@@ -81,14 +81,14 @@ public final class IENEHEFGKNNOuterClass {
               done = true;
               break;
             case 114: {
-              emu.grasscutter.net.proto.Storage._Storage.Builder subBuilder = null;
+              emu.grasscutter.net.proto._StorageOuterClass._Storage.Builder subBuilder = null;
               if (detailCase_ == 14) {
-                subBuilder = ((emu.grasscutter.net.proto.Storage._Storage) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._StorageOuterClass._Storage) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.Storage._Storage.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._StorageOuterClass._Storage.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.Storage._Storage) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._StorageOuterClass._Storage) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 14;
@@ -179,21 +179,21 @@ public final class IENEHEFGKNNOuterClass {
      * @return The storage.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Storage._Storage getStorage() {
+    public emu.grasscutter.net.proto._StorageOuterClass._Storage getStorage() {
       if (detailCase_ == 14) {
-         return (emu.grasscutter.net.proto.Storage._Storage) detail_;
+         return (emu.grasscutter.net.proto._StorageOuterClass._Storage) detail_;
       }
-      return emu.grasscutter.net.proto.Storage._Storage.getDefaultInstance();
+      return emu.grasscutter.net.proto._StorageOuterClass._Storage.getDefaultInstance();
     }
     /**
      * <code>._Storage storage = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Storage._StorageOrBuilder getStorageOrBuilder() {
+    public emu.grasscutter.net.proto._StorageOuterClass._StorageOrBuilder getStorageOrBuilder() {
       if (detailCase_ == 14) {
-         return (emu.grasscutter.net.proto.Storage._Storage) detail_;
+         return (emu.grasscutter.net.proto._StorageOuterClass._Storage) detail_;
       }
-      return emu.grasscutter.net.proto.Storage._Storage.getDefaultInstance();
+      return emu.grasscutter.net.proto._StorageOuterClass._Storage.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -211,7 +211,7 @@ public final class IENEHEFGKNNOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (detailCase_ == 14) {
-        output.writeMessage(14, (emu.grasscutter.net.proto.Storage._Storage) detail_);
+        output.writeMessage(14, (emu.grasscutter.net.proto._StorageOuterClass._Storage) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -224,7 +224,7 @@ public final class IENEHEFGKNNOuterClass {
       size = 0;
       if (detailCase_ == 14) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, (emu.grasscutter.net.proto.Storage._Storage) detail_);
+          .computeMessageSize(14, (emu.grasscutter.net.proto._StorageOuterClass._Storage) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -540,7 +540,7 @@ public final class IENEHEFGKNNOuterClass {
 
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Storage._Storage, emu.grasscutter.net.proto.Storage._Storage.Builder, emu.grasscutter.net.proto.Storage._StorageOrBuilder> storageBuilder_;
+          emu.grasscutter.net.proto._StorageOuterClass._Storage, emu.grasscutter.net.proto._StorageOuterClass._Storage.Builder, emu.grasscutter.net.proto._StorageOuterClass._StorageOrBuilder> storageBuilder_;
       /**
        * <code>._Storage storage = 14;</code>
        * @return Whether the storage field is set.
@@ -554,23 +554,23 @@ public final class IENEHEFGKNNOuterClass {
        * @return The storage.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Storage._Storage getStorage() {
+      public emu.grasscutter.net.proto._StorageOuterClass._Storage getStorage() {
         if (storageBuilder_ == null) {
           if (detailCase_ == 14) {
-            return (emu.grasscutter.net.proto.Storage._Storage) detail_;
+            return (emu.grasscutter.net.proto._StorageOuterClass._Storage) detail_;
           }
-          return emu.grasscutter.net.proto.Storage._Storage.getDefaultInstance();
+          return emu.grasscutter.net.proto._StorageOuterClass._Storage.getDefaultInstance();
         } else {
           if (detailCase_ == 14) {
             return storageBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.Storage._Storage.getDefaultInstance();
+          return emu.grasscutter.net.proto._StorageOuterClass._Storage.getDefaultInstance();
         }
       }
       /**
        * <code>._Storage storage = 14;</code>
        */
-      public Builder setStorage(emu.grasscutter.net.proto.Storage._Storage value) {
+      public Builder setStorage(emu.grasscutter.net.proto._StorageOuterClass._Storage value) {
         if (storageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -587,7 +587,7 @@ public final class IENEHEFGKNNOuterClass {
        * <code>._Storage storage = 14;</code>
        */
       public Builder setStorage(
-          emu.grasscutter.net.proto.Storage._Storage.Builder builderForValue) {
+          emu.grasscutter.net.proto._StorageOuterClass._Storage.Builder builderForValue) {
         if (storageBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -600,11 +600,11 @@ public final class IENEHEFGKNNOuterClass {
       /**
        * <code>._Storage storage = 14;</code>
        */
-      public Builder mergeStorage(emu.grasscutter.net.proto.Storage._Storage value) {
+      public Builder mergeStorage(emu.grasscutter.net.proto._StorageOuterClass._Storage value) {
         if (storageBuilder_ == null) {
           if (detailCase_ == 14 &&
-              detail_ != emu.grasscutter.net.proto.Storage._Storage.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.Storage._Storage.newBuilder((emu.grasscutter.net.proto.Storage._Storage) detail_)
+              detail_ != emu.grasscutter.net.proto._StorageOuterClass._Storage.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._StorageOuterClass._Storage.newBuilder((emu.grasscutter.net.proto._StorageOuterClass._Storage) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -641,36 +641,36 @@ public final class IENEHEFGKNNOuterClass {
       /**
        * <code>._Storage storage = 14;</code>
        */
-      public emu.grasscutter.net.proto.Storage._Storage.Builder getStorageBuilder() {
+      public emu.grasscutter.net.proto._StorageOuterClass._Storage.Builder getStorageBuilder() {
         return getStorageFieldBuilder().getBuilder();
       }
       /**
        * <code>._Storage storage = 14;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Storage._StorageOrBuilder getStorageOrBuilder() {
+      public emu.grasscutter.net.proto._StorageOuterClass._StorageOrBuilder getStorageOrBuilder() {
         if ((detailCase_ == 14) && (storageBuilder_ != null)) {
           return storageBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 14) {
-            return (emu.grasscutter.net.proto.Storage._Storage) detail_;
+            return (emu.grasscutter.net.proto._StorageOuterClass._Storage) detail_;
           }
-          return emu.grasscutter.net.proto.Storage._Storage.getDefaultInstance();
+          return emu.grasscutter.net.proto._StorageOuterClass._Storage.getDefaultInstance();
         }
       }
       /**
        * <code>._Storage storage = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Storage._Storage, emu.grasscutter.net.proto.Storage._Storage.Builder, emu.grasscutter.net.proto.Storage._StorageOrBuilder> 
+          emu.grasscutter.net.proto._StorageOuterClass._Storage, emu.grasscutter.net.proto._StorageOuterClass._Storage.Builder, emu.grasscutter.net.proto._StorageOuterClass._StorageOrBuilder> 
           getStorageFieldBuilder() {
         if (storageBuilder_ == null) {
           if (!(detailCase_ == 14)) {
-            detail_ = emu.grasscutter.net.proto.Storage._Storage.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._StorageOuterClass._Storage.getDefaultInstance();
           }
           storageBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.Storage._Storage, emu.grasscutter.net.proto.Storage._Storage.Builder, emu.grasscutter.net.proto.Storage._StorageOrBuilder>(
-                  (emu.grasscutter.net.proto.Storage._Storage) detail_,
+              emu.grasscutter.net.proto._StorageOuterClass._Storage, emu.grasscutter.net.proto._StorageOuterClass._Storage.Builder, emu.grasscutter.net.proto._StorageOuterClass._StorageOrBuilder>(
+                  (emu.grasscutter.net.proto._StorageOuterClass._Storage) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -748,13 +748,13 @@ public final class IENEHEFGKNNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IENEHEFGKNN.proto\032\016_Storage.proto\"5\n\013I" +
       "ENEHEFGKNN\022\034\n\007storage\030\016 \001(\0132\t._StorageH\000" +
-      "B\010\n\006detailB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "B\010\n\006detailB2\n\031emu.grasscutter.net.protoB" +
+      "\025IENEHEFGKNNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.Storage.getDescriptor(),
+          emu.grasscutter.net.proto._StorageOuterClass.getDescriptor(),
         });
     internal_static_IENEHEFGKNN_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -762,7 +762,7 @@ public final class IENEHEFGKNNOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_IENEHEFGKNN_descriptor,
         new java.lang.String[] { "Storage", "Detail", });
-    emu.grasscutter.net.proto.Storage.getDescriptor();
+    emu.grasscutter.net.proto._StorageOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

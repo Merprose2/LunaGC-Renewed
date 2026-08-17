@@ -519,8 +519,8 @@ public final class IOABEDLJNPBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IOABEDLJNPB.proto\"\"\n\013IOABEDLJNPB\022\023\n\013CL" +
-      "KIJKMKDDB\030\001 \001(\002B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "KIJKMKDDB\030\001 \001(\002B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025IOABEDLJNPBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

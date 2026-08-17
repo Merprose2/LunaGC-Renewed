@@ -652,8 +652,8 @@ public final class CJLMNCELMAEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CJLMNCELMAE.proto\"!\n\013CJLMNCELMAE\022\022\n\nsk" +
-      "ill_list\030\003 \003(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "ill_list\030\003 \003(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025CJLMNCELMAEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

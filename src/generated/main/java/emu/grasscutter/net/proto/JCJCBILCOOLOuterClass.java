@@ -2240,8 +2240,9 @@ public final class JCJCBILCOOLOuterClass {
       "MDIICFPEMPH\022!\n\013MAECFJNDOJE\030\005 \003(\0132\014.MDIIC" +
       "FPEMPH\022\023\n\013OHLPAIJJNKF\030\006 \001(\r\022\023\n\013DGJGPHDPB" +
       "KN\030\007 \003(\005\022\023\n\013NIKECPHAEEE\030\010 \001(\010\022!\n\013FIIMLLM" +
-      "BNHO\030\t \003(\0132\014.FNPKOIPDAEMB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "BNHO\030\t \003(\0132\014.FNPKOIPDAEMB2\n\031emu.grasscut" +
+      "ter.net.protoB\025JCJCBILCOOLOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -2579,8 +2579,9 @@ public final class MGKLIPAEIJHOuterClass {
       "\003(\t\022\022\n\nrequest_id\030\n \001(\t\022\023\n\013NGEDGDGBAID\030\013" +
       " \001(\014\022\023\n\013DMNMKHNMHIJ\030\014 \001(\004\022\023\n\013LNBOBNINCCA" +
       "\030\r \001(\010\022\023\n\013IMOHDADIOFM\030\016 \001(\010\022\023\n\013CCLKMGFIK" +
-      "MF\030\017 \001(\010\022\023\n\013JBKEELPHALH\030\020 \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "MF\030\017 \001(\010\022\023\n\013JBKEELPHALH\030\020 \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025MGKLIPAEIJHOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

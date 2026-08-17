@@ -140,11 +140,11 @@ public final class GCGSettleNotifyOuterClass {
      * <code>._GCGArenaSettle arena_settle = 198;</code>
      * @return The arenaSettle.
      */
-    emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle getArenaSettle();
+    emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle getArenaSettle();
     /**
      * <code>._GCGArenaSettle arena_settle = 198;</code>
      */
-    emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettleOrBuilder getArenaSettleOrBuilder();
+    emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettleOrBuilder getArenaSettleOrBuilder();
 
     /**
      * <code>._GCGPveActivitySettle pve_activity_settle = 1134;</code>
@@ -155,11 +155,11 @@ public final class GCGSettleNotifyOuterClass {
      * <code>._GCGPveActivitySettle pve_activity_settle = 1134;</code>
      * @return The pveActivitySettle.
      */
-    emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle getPveActivitySettle();
+    emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle getPveActivitySettle();
     /**
      * <code>._GCGPveActivitySettle pve_activity_settle = 1134;</code>
      */
-    emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettleOrBuilder getPveActivitySettleOrBuilder();
+    emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettleOrBuilder getPveActivitySettleOrBuilder();
 
     /**
      * <code>._GCGAutoBattleCardActivitySettle auto_battle_card_activity_settle = 1183;</code>
@@ -170,11 +170,11 @@ public final class GCGSettleNotifyOuterClass {
      * <code>._GCGAutoBattleCardActivitySettle auto_battle_card_activity_settle = 1183;</code>
      * @return The autoBattleCardActivitySettle.
      */
-    emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle getAutoBattleCardActivitySettle();
+    emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle getAutoBattleCardActivitySettle();
     /**
      * <code>._GCGAutoBattleCardActivitySettle auto_battle_card_activity_settle = 1183;</code>
      */
-    emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettleOrBuilder getAutoBattleCardActivitySettleOrBuilder();
+    emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettleOrBuilder getAutoBattleCardActivitySettleOrBuilder();
 
     /**
      * <code>._GCGPveInfiniteActivitySettle pve_infinite_activity_settle = 1536;</code>
@@ -185,11 +185,11 @@ public final class GCGSettleNotifyOuterClass {
      * <code>._GCGPveInfiniteActivitySettle pve_infinite_activity_settle = 1536;</code>
      * @return The pveInfiniteActivitySettle.
      */
-    emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle getPveInfiniteActivitySettle();
+    emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle getPveInfiniteActivitySettle();
     /**
      * <code>._GCGPveInfiniteActivitySettle pve_infinite_activity_settle = 1536;</code>
      */
-    emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettleOrBuilder getPveInfiniteActivitySettleOrBuilder();
+    emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettleOrBuilder getPveInfiniteActivitySettleOrBuilder();
 
     public emu.grasscutter.net.proto.GCGSettleNotifyOuterClass.GCGSettleNotify.DetailCase getDetailCase();
   }
@@ -340,56 +340,56 @@ public final class GCGSettleNotifyOuterClass {
               break;
             }
             case 1586: {
-              emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle.Builder subBuilder = null;
               if (detailCase_ == 198) {
-                subBuilder = ((emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 198;
               break;
             }
             case 9074: {
-              emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle.Builder subBuilder = null;
               if (detailCase_ == 1134) {
-                subBuilder = ((emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1134;
               break;
             }
             case 9466: {
-              emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle.Builder subBuilder = null;
               if (detailCase_ == 1183) {
-                subBuilder = ((emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1183;
               break;
             }
             case 12290: {
-              emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle.Builder subBuilder = null;
               if (detailCase_ == 1536) {
-                subBuilder = ((emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1536;
@@ -688,21 +688,21 @@ public final class GCGSettleNotifyOuterClass {
      * @return The arenaSettle.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle getArenaSettle() {
+    public emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle getArenaSettle() {
       if (detailCase_ == 198) {
-         return (emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle) detail_;
+         return (emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle) detail_;
       }
-      return emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle.getDefaultInstance();
+      return emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle.getDefaultInstance();
     }
     /**
      * <code>._GCGArenaSettle arena_settle = 198;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettleOrBuilder getArenaSettleOrBuilder() {
+    public emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettleOrBuilder getArenaSettleOrBuilder() {
       if (detailCase_ == 198) {
-         return (emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle) detail_;
+         return (emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle) detail_;
       }
-      return emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle.getDefaultInstance();
+      return emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle.getDefaultInstance();
     }
 
     public static final int PVE_ACTIVITY_SETTLE_FIELD_NUMBER = 1134;
@@ -719,21 +719,21 @@ public final class GCGSettleNotifyOuterClass {
      * @return The pveActivitySettle.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle getPveActivitySettle() {
+    public emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle getPveActivitySettle() {
       if (detailCase_ == 1134) {
-         return (emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle) detail_;
+         return (emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle) detail_;
       }
-      return emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle.getDefaultInstance();
+      return emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle.getDefaultInstance();
     }
     /**
      * <code>._GCGPveActivitySettle pve_activity_settle = 1134;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettleOrBuilder getPveActivitySettleOrBuilder() {
+    public emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettleOrBuilder getPveActivitySettleOrBuilder() {
       if (detailCase_ == 1134) {
-         return (emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle) detail_;
+         return (emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle) detail_;
       }
-      return emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle.getDefaultInstance();
+      return emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle.getDefaultInstance();
     }
 
     public static final int AUTO_BATTLE_CARD_ACTIVITY_SETTLE_FIELD_NUMBER = 1183;
@@ -750,21 +750,21 @@ public final class GCGSettleNotifyOuterClass {
      * @return The autoBattleCardActivitySettle.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle getAutoBattleCardActivitySettle() {
+    public emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle getAutoBattleCardActivitySettle() {
       if (detailCase_ == 1183) {
-         return (emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle) detail_;
+         return (emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle) detail_;
       }
-      return emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle.getDefaultInstance();
+      return emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle.getDefaultInstance();
     }
     /**
      * <code>._GCGAutoBattleCardActivitySettle auto_battle_card_activity_settle = 1183;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettleOrBuilder getAutoBattleCardActivitySettleOrBuilder() {
+    public emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettleOrBuilder getAutoBattleCardActivitySettleOrBuilder() {
       if (detailCase_ == 1183) {
-         return (emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle) detail_;
+         return (emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle) detail_;
       }
-      return emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle.getDefaultInstance();
+      return emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle.getDefaultInstance();
     }
 
     public static final int PVE_INFINITE_ACTIVITY_SETTLE_FIELD_NUMBER = 1536;
@@ -781,21 +781,21 @@ public final class GCGSettleNotifyOuterClass {
      * @return The pveInfiniteActivitySettle.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle getPveInfiniteActivitySettle() {
+    public emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle getPveInfiniteActivitySettle() {
       if (detailCase_ == 1536) {
-         return (emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle) detail_;
+         return (emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle) detail_;
       }
-      return emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle.getDefaultInstance();
+      return emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle.getDefaultInstance();
     }
     /**
      * <code>._GCGPveInfiniteActivitySettle pve_infinite_activity_settle = 1536;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettleOrBuilder getPveInfiniteActivitySettleOrBuilder() {
+    public emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettleOrBuilder getPveInfiniteActivitySettleOrBuilder() {
       if (detailCase_ == 1536) {
-         return (emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle) detail_;
+         return (emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle) detail_;
       }
-      return emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle.getDefaultInstance();
+      return emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -849,16 +849,16 @@ public final class GCGSettleNotifyOuterClass {
         output.writeBool(14, isWin_);
       }
       if (detailCase_ == 198) {
-        output.writeMessage(198, (emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle) detail_);
+        output.writeMessage(198, (emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle) detail_);
       }
       if (detailCase_ == 1134) {
-        output.writeMessage(1134, (emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle) detail_);
+        output.writeMessage(1134, (emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle) detail_);
       }
       if (detailCase_ == 1183) {
-        output.writeMessage(1183, (emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle) detail_);
+        output.writeMessage(1183, (emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle) detail_);
       }
       if (detailCase_ == 1536) {
-        output.writeMessage(1536, (emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle) detail_);
+        output.writeMessage(1536, (emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -927,19 +927,19 @@ public final class GCGSettleNotifyOuterClass {
       }
       if (detailCase_ == 198) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(198, (emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle) detail_);
+          .computeMessageSize(198, (emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle) detail_);
       }
       if (detailCase_ == 1134) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1134, (emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle) detail_);
+          .computeMessageSize(1134, (emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle) detail_);
       }
       if (detailCase_ == 1183) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1183, (emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle) detail_);
+          .computeMessageSize(1183, (emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle) detail_);
       }
       if (detailCase_ == 1536) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1536, (emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle) detail_);
+          .computeMessageSize(1536, (emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -2202,7 +2202,7 @@ public final class GCGSettleNotifyOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle, emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle.Builder, emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettleOrBuilder> arenaSettleBuilder_;
+          emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle, emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle.Builder, emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettleOrBuilder> arenaSettleBuilder_;
       /**
        * <code>._GCGArenaSettle arena_settle = 198;</code>
        * @return Whether the arenaSettle field is set.
@@ -2216,23 +2216,23 @@ public final class GCGSettleNotifyOuterClass {
        * @return The arenaSettle.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle getArenaSettle() {
+      public emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle getArenaSettle() {
         if (arenaSettleBuilder_ == null) {
           if (detailCase_ == 198) {
-            return (emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle) detail_;
+            return (emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle) detail_;
           }
-          return emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle.getDefaultInstance();
         } else {
           if (detailCase_ == 198) {
             return arenaSettleBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle.getDefaultInstance();
         }
       }
       /**
        * <code>._GCGArenaSettle arena_settle = 198;</code>
        */
-      public Builder setArenaSettle(emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle value) {
+      public Builder setArenaSettle(emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle value) {
         if (arenaSettleBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2249,7 +2249,7 @@ public final class GCGSettleNotifyOuterClass {
        * <code>._GCGArenaSettle arena_settle = 198;</code>
        */
       public Builder setArenaSettle(
-          emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle.Builder builderForValue) {
+          emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle.Builder builderForValue) {
         if (arenaSettleBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2262,11 +2262,11 @@ public final class GCGSettleNotifyOuterClass {
       /**
        * <code>._GCGArenaSettle arena_settle = 198;</code>
        */
-      public Builder mergeArenaSettle(emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle value) {
+      public Builder mergeArenaSettle(emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle value) {
         if (arenaSettleBuilder_ == null) {
           if (detailCase_ == 198 &&
-              detail_ != emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle.newBuilder((emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle) detail_)
+              detail_ != emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle.newBuilder((emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2303,36 +2303,36 @@ public final class GCGSettleNotifyOuterClass {
       /**
        * <code>._GCGArenaSettle arena_settle = 198;</code>
        */
-      public emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle.Builder getArenaSettleBuilder() {
+      public emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle.Builder getArenaSettleBuilder() {
         return getArenaSettleFieldBuilder().getBuilder();
       }
       /**
        * <code>._GCGArenaSettle arena_settle = 198;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettleOrBuilder getArenaSettleOrBuilder() {
+      public emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettleOrBuilder getArenaSettleOrBuilder() {
         if ((detailCase_ == 198) && (arenaSettleBuilder_ != null)) {
           return arenaSettleBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 198) {
-            return (emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle) detail_;
+            return (emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle) detail_;
           }
-          return emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle.getDefaultInstance();
         }
       }
       /**
        * <code>._GCGArenaSettle arena_settle = 198;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle, emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle.Builder, emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettleOrBuilder> 
+          emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle, emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle.Builder, emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettleOrBuilder> 
           getArenaSettleFieldBuilder() {
         if (arenaSettleBuilder_ == null) {
           if (!(detailCase_ == 198)) {
-            detail_ = emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle.getDefaultInstance();
           }
           arenaSettleBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle, emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle.Builder, emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettleOrBuilder>(
-                  (emu.grasscutter.net.proto.GCGArenaSettle._GCGArenaSettle) detail_,
+              emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle, emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle.Builder, emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettleOrBuilder>(
+                  (emu.grasscutter.net.proto._GCGArenaSettleOuterClass._GCGArenaSettle) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2343,7 +2343,7 @@ public final class GCGSettleNotifyOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle, emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle.Builder, emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettleOrBuilder> pveActivitySettleBuilder_;
+          emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle, emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle.Builder, emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettleOrBuilder> pveActivitySettleBuilder_;
       /**
        * <code>._GCGPveActivitySettle pve_activity_settle = 1134;</code>
        * @return Whether the pveActivitySettle field is set.
@@ -2357,23 +2357,23 @@ public final class GCGSettleNotifyOuterClass {
        * @return The pveActivitySettle.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle getPveActivitySettle() {
+      public emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle getPveActivitySettle() {
         if (pveActivitySettleBuilder_ == null) {
           if (detailCase_ == 1134) {
-            return (emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle) detail_;
+            return (emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle) detail_;
           }
-          return emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle.getDefaultInstance();
         } else {
           if (detailCase_ == 1134) {
             return pveActivitySettleBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle.getDefaultInstance();
         }
       }
       /**
        * <code>._GCGPveActivitySettle pve_activity_settle = 1134;</code>
        */
-      public Builder setPveActivitySettle(emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle value) {
+      public Builder setPveActivitySettle(emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle value) {
         if (pveActivitySettleBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2390,7 +2390,7 @@ public final class GCGSettleNotifyOuterClass {
        * <code>._GCGPveActivitySettle pve_activity_settle = 1134;</code>
        */
       public Builder setPveActivitySettle(
-          emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle.Builder builderForValue) {
+          emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle.Builder builderForValue) {
         if (pveActivitySettleBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2403,11 +2403,11 @@ public final class GCGSettleNotifyOuterClass {
       /**
        * <code>._GCGPveActivitySettle pve_activity_settle = 1134;</code>
        */
-      public Builder mergePveActivitySettle(emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle value) {
+      public Builder mergePveActivitySettle(emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle value) {
         if (pveActivitySettleBuilder_ == null) {
           if (detailCase_ == 1134 &&
-              detail_ != emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle.newBuilder((emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle) detail_)
+              detail_ != emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle.newBuilder((emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2444,36 +2444,36 @@ public final class GCGSettleNotifyOuterClass {
       /**
        * <code>._GCGPveActivitySettle pve_activity_settle = 1134;</code>
        */
-      public emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle.Builder getPveActivitySettleBuilder() {
+      public emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle.Builder getPveActivitySettleBuilder() {
         return getPveActivitySettleFieldBuilder().getBuilder();
       }
       /**
        * <code>._GCGPveActivitySettle pve_activity_settle = 1134;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettleOrBuilder getPveActivitySettleOrBuilder() {
+      public emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettleOrBuilder getPveActivitySettleOrBuilder() {
         if ((detailCase_ == 1134) && (pveActivitySettleBuilder_ != null)) {
           return pveActivitySettleBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1134) {
-            return (emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle) detail_;
+            return (emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle) detail_;
           }
-          return emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle.getDefaultInstance();
         }
       }
       /**
        * <code>._GCGPveActivitySettle pve_activity_settle = 1134;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle, emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle.Builder, emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettleOrBuilder> 
+          emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle, emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle.Builder, emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettleOrBuilder> 
           getPveActivitySettleFieldBuilder() {
         if (pveActivitySettleBuilder_ == null) {
           if (!(detailCase_ == 1134)) {
-            detail_ = emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle.getDefaultInstance();
           }
           pveActivitySettleBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle, emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle.Builder, emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettleOrBuilder>(
-                  (emu.grasscutter.net.proto.GCGPveActivitySettle._GCGPveActivitySettle) detail_,
+              emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle, emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle.Builder, emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettleOrBuilder>(
+                  (emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass._GCGPveActivitySettle) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2484,7 +2484,7 @@ public final class GCGSettleNotifyOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle, emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle.Builder, emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettleOrBuilder> autoBattleCardActivitySettleBuilder_;
+          emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle, emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle.Builder, emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettleOrBuilder> autoBattleCardActivitySettleBuilder_;
       /**
        * <code>._GCGAutoBattleCardActivitySettle auto_battle_card_activity_settle = 1183;</code>
        * @return Whether the autoBattleCardActivitySettle field is set.
@@ -2498,23 +2498,23 @@ public final class GCGSettleNotifyOuterClass {
        * @return The autoBattleCardActivitySettle.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle getAutoBattleCardActivitySettle() {
+      public emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle getAutoBattleCardActivitySettle() {
         if (autoBattleCardActivitySettleBuilder_ == null) {
           if (detailCase_ == 1183) {
-            return (emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle) detail_;
+            return (emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle) detail_;
           }
-          return emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle.getDefaultInstance();
         } else {
           if (detailCase_ == 1183) {
             return autoBattleCardActivitySettleBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle.getDefaultInstance();
         }
       }
       /**
        * <code>._GCGAutoBattleCardActivitySettle auto_battle_card_activity_settle = 1183;</code>
        */
-      public Builder setAutoBattleCardActivitySettle(emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle value) {
+      public Builder setAutoBattleCardActivitySettle(emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle value) {
         if (autoBattleCardActivitySettleBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2531,7 +2531,7 @@ public final class GCGSettleNotifyOuterClass {
        * <code>._GCGAutoBattleCardActivitySettle auto_battle_card_activity_settle = 1183;</code>
        */
       public Builder setAutoBattleCardActivitySettle(
-          emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle.Builder builderForValue) {
+          emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle.Builder builderForValue) {
         if (autoBattleCardActivitySettleBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2544,11 +2544,11 @@ public final class GCGSettleNotifyOuterClass {
       /**
        * <code>._GCGAutoBattleCardActivitySettle auto_battle_card_activity_settle = 1183;</code>
        */
-      public Builder mergeAutoBattleCardActivitySettle(emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle value) {
+      public Builder mergeAutoBattleCardActivitySettle(emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle value) {
         if (autoBattleCardActivitySettleBuilder_ == null) {
           if (detailCase_ == 1183 &&
-              detail_ != emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle.newBuilder((emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle) detail_)
+              detail_ != emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle.newBuilder((emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2585,36 +2585,36 @@ public final class GCGSettleNotifyOuterClass {
       /**
        * <code>._GCGAutoBattleCardActivitySettle auto_battle_card_activity_settle = 1183;</code>
        */
-      public emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle.Builder getAutoBattleCardActivitySettleBuilder() {
+      public emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle.Builder getAutoBattleCardActivitySettleBuilder() {
         return getAutoBattleCardActivitySettleFieldBuilder().getBuilder();
       }
       /**
        * <code>._GCGAutoBattleCardActivitySettle auto_battle_card_activity_settle = 1183;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettleOrBuilder getAutoBattleCardActivitySettleOrBuilder() {
+      public emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettleOrBuilder getAutoBattleCardActivitySettleOrBuilder() {
         if ((detailCase_ == 1183) && (autoBattleCardActivitySettleBuilder_ != null)) {
           return autoBattleCardActivitySettleBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1183) {
-            return (emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle) detail_;
+            return (emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle) detail_;
           }
-          return emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle.getDefaultInstance();
         }
       }
       /**
        * <code>._GCGAutoBattleCardActivitySettle auto_battle_card_activity_settle = 1183;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle, emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle.Builder, emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettleOrBuilder> 
+          emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle, emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle.Builder, emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettleOrBuilder> 
           getAutoBattleCardActivitySettleFieldBuilder() {
         if (autoBattleCardActivitySettleBuilder_ == null) {
           if (!(detailCase_ == 1183)) {
-            detail_ = emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle.getDefaultInstance();
           }
           autoBattleCardActivitySettleBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle, emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle.Builder, emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettleOrBuilder>(
-                  (emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle._GCGAutoBattleCardActivitySettle) detail_,
+              emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle, emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle.Builder, emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettleOrBuilder>(
+                  (emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass._GCGAutoBattleCardActivitySettle) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2625,7 +2625,7 @@ public final class GCGSettleNotifyOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle, emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle.Builder, emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettleOrBuilder> pveInfiniteActivitySettleBuilder_;
+          emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle, emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle.Builder, emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettleOrBuilder> pveInfiniteActivitySettleBuilder_;
       /**
        * <code>._GCGPveInfiniteActivitySettle pve_infinite_activity_settle = 1536;</code>
        * @return Whether the pveInfiniteActivitySettle field is set.
@@ -2639,23 +2639,23 @@ public final class GCGSettleNotifyOuterClass {
        * @return The pveInfiniteActivitySettle.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle getPveInfiniteActivitySettle() {
+      public emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle getPveInfiniteActivitySettle() {
         if (pveInfiniteActivitySettleBuilder_ == null) {
           if (detailCase_ == 1536) {
-            return (emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle) detail_;
+            return (emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle) detail_;
           }
-          return emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle.getDefaultInstance();
         } else {
           if (detailCase_ == 1536) {
             return pveInfiniteActivitySettleBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle.getDefaultInstance();
         }
       }
       /**
        * <code>._GCGPveInfiniteActivitySettle pve_infinite_activity_settle = 1536;</code>
        */
-      public Builder setPveInfiniteActivitySettle(emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle value) {
+      public Builder setPveInfiniteActivitySettle(emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle value) {
         if (pveInfiniteActivitySettleBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2672,7 +2672,7 @@ public final class GCGSettleNotifyOuterClass {
        * <code>._GCGPveInfiniteActivitySettle pve_infinite_activity_settle = 1536;</code>
        */
       public Builder setPveInfiniteActivitySettle(
-          emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle.Builder builderForValue) {
+          emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle.Builder builderForValue) {
         if (pveInfiniteActivitySettleBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2685,11 +2685,11 @@ public final class GCGSettleNotifyOuterClass {
       /**
        * <code>._GCGPveInfiniteActivitySettle pve_infinite_activity_settle = 1536;</code>
        */
-      public Builder mergePveInfiniteActivitySettle(emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle value) {
+      public Builder mergePveInfiniteActivitySettle(emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle value) {
         if (pveInfiniteActivitySettleBuilder_ == null) {
           if (detailCase_ == 1536 &&
-              detail_ != emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle.newBuilder((emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle) detail_)
+              detail_ != emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle.newBuilder((emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2726,36 +2726,36 @@ public final class GCGSettleNotifyOuterClass {
       /**
        * <code>._GCGPveInfiniteActivitySettle pve_infinite_activity_settle = 1536;</code>
        */
-      public emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle.Builder getPveInfiniteActivitySettleBuilder() {
+      public emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle.Builder getPveInfiniteActivitySettleBuilder() {
         return getPveInfiniteActivitySettleFieldBuilder().getBuilder();
       }
       /**
        * <code>._GCGPveInfiniteActivitySettle pve_infinite_activity_settle = 1536;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettleOrBuilder getPveInfiniteActivitySettleOrBuilder() {
+      public emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettleOrBuilder getPveInfiniteActivitySettleOrBuilder() {
         if ((detailCase_ == 1536) && (pveInfiniteActivitySettleBuilder_ != null)) {
           return pveInfiniteActivitySettleBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1536) {
-            return (emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle) detail_;
+            return (emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle) detail_;
           }
-          return emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle.getDefaultInstance();
         }
       }
       /**
        * <code>._GCGPveInfiniteActivitySettle pve_infinite_activity_settle = 1536;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle, emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle.Builder, emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettleOrBuilder> 
+          emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle, emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle.Builder, emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettleOrBuilder> 
           getPveInfiniteActivitySettleFieldBuilder() {
         if (pveInfiniteActivitySettleBuilder_ == null) {
           if (!(detailCase_ == 1536)) {
-            detail_ = emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle.getDefaultInstance();
           }
           pveInfiniteActivitySettleBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle, emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle.Builder, emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettleOrBuilder>(
-                  (emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle._GCGPveInfiniteActivitySettle) detail_,
+              emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle, emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle.Builder, emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettleOrBuilder>(
+                  (emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass._GCGPveInfiniteActivitySettle) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2851,7 +2851,8 @@ public final class GCGSettleNotifyOuterClass {
       "2!._GCGAutoBattleCardActivitySettleH\000\022G\n" +
       "\034pve_infinite_activity_settle\030\200\014 \001(\0132\036._" +
       "GCGPveInfiniteActivitySettleH\000B\010\n\006detail" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B6\n\031emu.grasscutter.net.protoB\031GCGSettle" +
+      "NotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2860,10 +2861,10 @@ public final class GCGSettleNotifyOuterClass {
           emu.grasscutter.net.proto.GCGGameBusinessTypeOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ItemParamOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.LDBIJHPEMKLOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.GCGArenaSettle.getDescriptor(),
-          emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle.getDescriptor(),
-          emu.grasscutter.net.proto.GCGPveActivitySettle.getDescriptor(),
-          emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle.getDescriptor(),
+          emu.grasscutter.net.proto._GCGArenaSettleOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass.getDescriptor(),
         });
     internal_static_GCGSettleNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2875,10 +2876,10 @@ public final class GCGSettleNotifyOuterClass {
     emu.grasscutter.net.proto.GCGGameBusinessTypeOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ItemParamOuterClass.getDescriptor();
     emu.grasscutter.net.proto.LDBIJHPEMKLOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.GCGArenaSettle.getDescriptor();
-    emu.grasscutter.net.proto.GCGAutoBattleCardActivitySettle.getDescriptor();
-    emu.grasscutter.net.proto.GCGPveActivitySettle.getDescriptor();
-    emu.grasscutter.net.proto.GCGPveInfiniteActivitySettle.getDescriptor();
+    emu.grasscutter.net.proto._GCGArenaSettleOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._GCGAutoBattleCardActivitySettleOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._GCGPveActivitySettleOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._GCGPveInfiniteActivitySettleOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

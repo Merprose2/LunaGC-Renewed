@@ -2448,8 +2448,8 @@ public final class GJDPBGFIFEFOuterClass {
       "BFMBK\030\010 \003(\006\022\023\n\013PEEKCGIBGLJ\030\n \001(\010\022\023\n\013HBGK" +
       "GGPLPLN\030\013 \001(\r\022!\n\013IPGIDIJLJGP\030\014 \003(\0132\014.LKP" +
       "JPNHOCIP\022\023\n\013IKHDFFMIPDF\030\r \003(\006\022\023\n\013CMCEKEB" +
-      "FKCO\030\017 \003(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "FKCO\030\017 \003(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025GJDPBGFIFEFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

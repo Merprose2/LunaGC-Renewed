@@ -1139,8 +1139,9 @@ public final class PBNavMeshPolyOuterClass {
       "Type\022\014\n\004area\030\n \001(\005\022\r\n\005vects\030\013 \003(\005\"{\n\010Edg" +
       "eType\022\022\n\016EdgeType_INNER\020\000\022\027\n\023EdgeType_TI" +
       "LE_BOUND\020\001\022!\n\035EdgeType_TILE_BOUND_UNCONN" +
-      "ECT\020\002\022\037\n\033EdgeType_TILE_BOUND_OVERIDE\020\003B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "ECT\020\002\022\037\n\033EdgeType_TILE_BOUND_OVERIDE\020\003B4" +
+      "\n\031emu.grasscutter.net.protoB\027PBNavMeshPo" +
+      "lyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

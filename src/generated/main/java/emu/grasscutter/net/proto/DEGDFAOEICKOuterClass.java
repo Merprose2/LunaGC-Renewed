@@ -142,8 +142,9 @@ public final class DEGDFAOEICKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DEGDFAOEICK.proto*^\n\013DEGDFAOEICK\022\030\n\024DE" +
       "GDFAOEICK_OFFICIAL\020\000\022\026\n\022DEGDFAOEICK_CUST" +
-      "OM\020\001\022\035\n\031DEGDFAOEICK_SUB_BLUEPRINT\020\002B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "OM\020\001\022\035\n\031DEGDFAOEICK_SUB_BLUEPRINT\020\002B2\n\031e" +
+      "mu.grasscutter.net.protoB\025DEGDFAOEICKOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

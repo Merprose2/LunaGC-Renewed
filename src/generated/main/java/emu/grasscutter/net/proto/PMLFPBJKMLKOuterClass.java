@@ -142,8 +142,9 @@ public final class PMLFPBJKMLKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PMLFPBJKMLK.proto*V\n\013PMLFPBJKMLK\022\027\n\023PM" +
       "LFPBJKMLK_DEFAULT\020\000\022\024\n\020PMLFPBJKMLK_MOVE\020" +
-      "\001\022\030\n\024PMLFPBJKMLK_OFFICIAL\020\002B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\001\022\030\n\024PMLFPBJKMLK_OFFICIAL\020\002B2\n\031emu.grass" +
+      "cutter.net.protoB\025PMLFPBJKMLKOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

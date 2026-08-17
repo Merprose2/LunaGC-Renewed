@@ -1165,8 +1165,8 @@ public final class OODJKENFCMNOuterClass {
       "\001\n\013OODJKENFCMN\022\013\n\003uid\030\001 \001(\003\022\014\n\004name\030\002 \001(" +
       "\t\022\016\n\006avatar\030\003 \001(\t\022\023\n\013KLPFGIEMKLK\030\004 \001(\010\022!" +
       "\n\013CPCJPHKKAFK\030\005 \001(\0132\014.FDECAMLAMAH\022\023\n\013NFH" +
-      "IJOKFNEI\030\006 \001(\005B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "IJOKFNEI\030\006 \001(\005B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025OODJKENFCMNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -667,8 +667,9 @@ public final class MLDPMJFFKDFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MLDPMJFFKDF.proto\"7\n\013MLDPMJFFKDF\022\023\n\013MP" +
-      "CDEPCDEGK\030\001 \001(\t\022\023\n\013ENOOHJHCHAK\030\002 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "CDEPCDEGK\030\001 \001(\t\022\023\n\013ENOOHJHCHAK\030\002 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025MLDPMJFFKDFOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

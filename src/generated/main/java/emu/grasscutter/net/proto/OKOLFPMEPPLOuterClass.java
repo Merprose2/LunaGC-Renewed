@@ -525,8 +525,8 @@ public final class OKOLFPMEPPLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OKOLFPMEPPL.proto\"!\n\013OKOLFPMEPPL\022\022\n\nop" +
-      "tion_idx\030\r \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "tion_idx\030\r \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025OKOLFPMEPPLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

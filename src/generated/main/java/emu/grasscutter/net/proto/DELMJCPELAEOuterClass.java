@@ -1120,8 +1120,9 @@ public final class DELMJCPELAEOuterClass {
       "\n\021DELMJCPELAE.proto\032\021ENMKHCKNKEL.proto\"k" +
       "\n\013DELMJCPELAE\022!\n\013MHPLOKHLOIK\030\001 \001(\0132\014.ENM" +
       "KHCKNKEL\022\023\n\013GAFOGENHEDC\030\005 \003(\r\022\023\n\013ECIJKJI" +
-      "LPAK\030\006 \003(\r\022\017\n\007retcode\030\007 \001(\005B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "LPAK\030\006 \003(\r\022\017\n\007retcode\030\007 \001(\005B2\n\031emu.grass" +
+      "cutter.net.protoB\025DELMJCPELAEOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

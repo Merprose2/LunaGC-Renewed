@@ -701,7 +701,8 @@ public final class PJPLNFFGLCNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PJPLNFFGLCN.proto\">\n\013PJPLNFFGLCN\022\017\n\007re" +
       "tcode\030\006 \001(\005\022\024\n\tred_point\030\275\002 \001(\rH\000B\010\n\006det" +
-      "ailB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "ailB2\n\031emu.grasscutter.net.protoB\025PJPLNF" +
+      "FGLCNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -721,8 +721,9 @@ public final class OMOGECAEOMPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OMOGECAEOMP.proto\032\021DJBMANEIBCN.proto\"?" +
       "\n\013OMOGECAEOMP\022\r\n\005value\030\001 \001(\r\022!\n\013FCONJGIF" +
-      "CAO\030\002 \001(\0132\014.DJBMANEIBCNB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "CAO\030\002 \001(\0132\014.DJBMANEIBCNB2\n\031emu.grasscutt" +
+      "er.net.protoB\025OMOGECAEOMPOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

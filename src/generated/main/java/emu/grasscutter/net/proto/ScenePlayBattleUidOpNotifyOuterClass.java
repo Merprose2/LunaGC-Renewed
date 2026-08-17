@@ -1613,8 +1613,9 @@ public final class ScenePlayBattleUidOpNotifyOuterClass {
       "\003(\r\022\021\n\tplay_type\030\005 \001(\r\022\021\n\tparam_str\030\006 \001(" +
       "\t\022\022\n\nparam_list\030\010 \003(\r\022\017\n\007play_id\030\t \001(\r\022\023" +
       "\n\013param_index\030\013 \001(\r\022\026\n\016param_duration\030\014 " +
-      "\001(\r\022\020\n\010uid_list\030\017 \003(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\001(\r\022\020\n\010uid_list\030\017 \003(\rBA\n\031emu.grasscutter" +
+      ".net.protoB$ScenePlayBattleUidOpNotifyOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -658,8 +658,8 @@ public final class SegmentInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021SegmentInfo.proto\"G\n\013SegmentInfo\022\023\n\013KL" +
       "MFBPJEGJC\030\001 \001(\r\022\023\n\013FMKNLOGFALG\030\006 \001(\r\022\016\n\006" +
-      "offset\030\t \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "offset\030\t \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025SegmentInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

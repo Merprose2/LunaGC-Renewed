@@ -171,8 +171,9 @@ public final class MDMBELAHIKGOuterClass {
       "DMBELAHIKG_UNKNOWN\020\000\022\027\n\023MDMBELAHIKG_LOAD" +
       "ING\020\001\022\023\n\017MDMBELAHIKG_DLC\020\002\022\033\n\027MDMBELAHIK" +
       "G_ACHIEVEMENT\020\003\022\027\n\023MDMBELAHIKG_PAY_DLC\020\004" +
-      "\022\030\n\024MDMBELAHIKG_TASK_DLC\020\005B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\022\030\n\024MDMBELAHIKG_TASK_DLC\020\005B2\n\031emu.grassc" +
+      "utter.net.protoB\025MDMBELAHIKGOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

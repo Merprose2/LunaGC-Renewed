@@ -596,8 +596,8 @@ public final class TakeBackGivingItemRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033TakeBackGivingItemRsp.proto\";\n\025TakeBac" +
       "kGivingItemRsp\022\021\n\tgiving_id\030\r \001(\r\022\017\n\007ret" +
-      "code\030\016 \001(\005B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "code\030\016 \001(\005B<\n\031emu.grasscutter.net.protoB" +
+      "\037TakeBackGivingItemRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

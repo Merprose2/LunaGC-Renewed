@@ -853,8 +853,9 @@ public final class BlessingRedeemRewardRspOuterClass {
       "singRedeemRewardRsp\022\017\n\007retcode\030\004 \001(\005\022<\n\013" +
       "pic_num_map\030\010 \003(\0132\'.BlessingRedeemReward" +
       "Rsp.PicNumMapEntry\0320\n\016PicNumMapEntry\022\013\n\003" +
-      "key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B>\n\031emu.gras" +
+      "scutter.net.protoB!BlessingRedeemRewardR" +
+      "spOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

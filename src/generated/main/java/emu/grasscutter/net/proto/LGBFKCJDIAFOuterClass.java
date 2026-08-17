@@ -776,8 +776,8 @@ public final class LGBFKCJDIAFOuterClass {
       "\n\021LGBFKCJDIAF.proto\032\rUgcType.proto\"a\n\013LG" +
       "BFKCJDIAF\022\032\n\010ugc_type\030\003 \001(\0162\010.UgcType\022\020\n" +
       "\010ugc_guid\030\004 \001(\004\022\017\n\007retcode\030\r \001(\005\022\023\n\013ABAA" +
-      "POFFEIN\030\016 \001(\010B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "POFFEIN\030\016 \001(\010B2\n\031emu.grasscutter.net.pro" +
+      "toB\025LGBFKCJDIAFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

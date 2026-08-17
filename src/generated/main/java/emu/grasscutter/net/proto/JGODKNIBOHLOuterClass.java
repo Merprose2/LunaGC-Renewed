@@ -729,8 +729,9 @@ public final class JGODKNIBOHLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JGODKNIBOHL.proto\032\021NDIOHDFCMBL.proto\"E" +
       "\n\013JGODKNIBOHL\022\023\n\013LPDGDIAFIBB\030\t \001(\r\022!\n\013IO" +
-      "FMPIEGOKE\030\013 \001(\0132\014.NDIOHDFCMBLB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "FMPIEGOKE\030\013 \001(\0132\014.NDIOHDFCMBLB2\n\031emu.gra" +
+      "sscutter.net.protoB\025JGODKNIBOHLOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

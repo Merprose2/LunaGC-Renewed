@@ -597,8 +597,9 @@ public final class MichiaeMatsuriGainCrystalExpUpdateNotifyOuterClass {
       "\n.MichiaeMatsuriGainCrystalExpUpdateNoti" +
       "fy.proto\"Y\n(MichiaeMatsuriGainCrystalExp" +
       "UpdateNotify\022\023\n\013activity_id\030\013 \001(\r\022\030\n\020gai" +
-      "n_crystal_exp\030\016 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "n_crystal_exp\030\016 \001(\rBO\n\031emu.grasscutter.n" +
+      "et.protoB2MichiaeMatsuriGainCrystalExpUp" +
+      "dateNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -666,8 +666,9 @@ public final class ChessPickCardRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026ChessPickCardRsp.proto\"H\n\020ChessPickCar" +
       "dRsp\022\017\n\007card_id\030\003 \001(\r\022\022\n\ncard_index\030\005 \001(" +
-      "\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\r\022\017\n\007retcode\030\017 \001(\005B7\n\031emu.grasscutter.ne" +
+      "t.protoB\032ChessPickCardRspOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

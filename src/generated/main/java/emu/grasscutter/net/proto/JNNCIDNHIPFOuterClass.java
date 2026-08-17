@@ -525,8 +525,8 @@ public final class JNNCIDNHIPFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JNNCIDNHIPF.proto\" \n\013JNNCIDNHIPF\022\021\n\tav" +
-      "atar_id\030\002 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "atar_id\030\002 \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025JNNCIDNHIPFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

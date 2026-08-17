@@ -902,8 +902,9 @@ public final class OABJEFNEFMAOuterClass {
       "\n\021OABJEFNEFMA.proto\032\021JEOKDCIGCFP.proto\"o" +
       "\n\013OABJEFNEFMA\022!\n\013finish_type\030\003 \001(\0162\014.JEO" +
       "KDCIGCFP\022\023\n\013KELACCGLIKH\030\013 \003(\005\022\023\n\013MLMOPGC" +
-      "DEEN\030\014 \001(\004\022\023\n\013LBGJPJIPHFI\030\r \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "DEEN\030\014 \001(\004\022\023\n\013LBGJPJIPHFI\030\r \001(\005B2\n\031emu.g" +
+      "rasscutter.net.protoB\025OABJEFNEFMAOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

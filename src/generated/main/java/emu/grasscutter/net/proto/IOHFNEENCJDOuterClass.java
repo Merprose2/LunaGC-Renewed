@@ -134,11 +134,11 @@ public final class IOHFNEENCJDOuterClass {
      * <code>._InstructionNodeConfig instruction_node_config = 14;</code>
      * @return The instructionNodeConfig.
      */
-    emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig getInstructionNodeConfig();
+    emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig getInstructionNodeConfig();
     /**
      * <code>._InstructionNodeConfig instruction_node_config = 14;</code>
      */
-    emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfigOrBuilder getInstructionNodeConfigOrBuilder();
+    emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfigOrBuilder getInstructionNodeConfigOrBuilder();
 
     /**
      * <code>.GKKIIMIBMGO config_prefab = 15;</code>
@@ -179,11 +179,11 @@ public final class IOHFNEENCJDOuterClass {
      * <code>._CameraData camera_data = 17;</code>
      * @return The cameraData.
      */
-    emu.grasscutter.net.proto.CameraData._CameraData getCameraData();
+    emu.grasscutter.net.proto._CameraDataOuterClass._CameraData getCameraData();
     /**
      * <code>._CameraData camera_data = 17;</code>
      */
-    emu.grasscutter.net.proto.CameraData._CameraDataOrBuilder getCameraDataOrBuilder();
+    emu.grasscutter.net.proto._CameraDataOuterClass._CameraDataOrBuilder getCameraDataOrBuilder();
 
     /**
      * <code>.IOAFKEGEDPL dummy_point = 18;</code>
@@ -209,11 +209,11 @@ public final class IOHFNEENCJDOuterClass {
      * <code>._CustomUiNode custom_ui_node = 19;</code>
      * @return The customUiNode.
      */
-    emu.grasscutter.net.proto.CustomUiNode._CustomUiNode getCustomUiNode();
+    emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode getCustomUiNode();
     /**
      * <code>._CustomUiNode custom_ui_node = 19;</code>
      */
-    emu.grasscutter.net.proto.CustomUiNode._CustomUiNodeOrBuilder getCustomUiNodeOrBuilder();
+    emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNodeOrBuilder getCustomUiNodeOrBuilder();
 
     /**
      * <code>.PGNNPOIOKJK count_down = 20;</code>
@@ -239,11 +239,11 @@ public final class IOHFNEENCJDOuterClass {
      * <code>._AttachArchetype attach_archetype = 21;</code>
      * @return The attachArchetype.
      */
-    emu.grasscutter.net.proto.AttachArchetype._AttachArchetype getAttachArchetype();
+    emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype getAttachArchetype();
     /**
      * <code>._AttachArchetype attach_archetype = 21;</code>
      */
-    emu.grasscutter.net.proto.AttachArchetype._AttachArchetypeOrBuilder getAttachArchetypeOrBuilder();
+    emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetypeOrBuilder getAttachArchetypeOrBuilder();
 
     /**
      * <code>._Struct struct = 22;</code>
@@ -254,11 +254,11 @@ public final class IOHFNEENCJDOuterClass {
      * <code>._Struct struct = 22;</code>
      * @return The struct.
      */
-    emu.grasscutter.net.proto.Struct._Struct getStruct();
+    emu.grasscutter.net.proto._StructOuterClass._Struct getStruct();
     /**
      * <code>._Struct struct = 22;</code>
      */
-    emu.grasscutter.net.proto.Struct._StructOrBuilder getStructOrBuilder();
+    emu.grasscutter.net.proto._StructOuterClass._StructOrBuilder getStructOrBuilder();
 
     /**
      * <code>._AbsoluteRoute absolute_route = 23;</code>
@@ -269,11 +269,11 @@ public final class IOHFNEENCJDOuterClass {
      * <code>._AbsoluteRoute absolute_route = 23;</code>
      * @return The absoluteRoute.
      */
-    emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute getAbsoluteRoute();
+    emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute getAbsoluteRoute();
     /**
      * <code>._AbsoluteRoute absolute_route = 23;</code>
      */
-    emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRouteOrBuilder getAbsoluteRouteOrBuilder();
+    emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRouteOrBuilder getAbsoluteRouteOrBuilder();
 
     /**
      * <code>._ChipTemplate chip_template = 24;</code>
@@ -284,11 +284,11 @@ public final class IOHFNEENCJDOuterClass {
      * <code>._ChipTemplate chip_template = 24;</code>
      * @return The chipTemplate.
      */
-    emu.grasscutter.net.proto.ChipTemplate._ChipTemplate getChipTemplate();
+    emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate getChipTemplate();
     /**
      * <code>._ChipTemplate chip_template = 24;</code>
      */
-    emu.grasscutter.net.proto.ChipTemplate._ChipTemplateOrBuilder getChipTemplateOrBuilder();
+    emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplateOrBuilder getChipTemplateOrBuilder();
 
     /**
      * <code>._ChipCustomTrialData chip_custom_trial_data = 25;</code>
@@ -299,11 +299,11 @@ public final class IOHFNEENCJDOuterClass {
      * <code>._ChipCustomTrialData chip_custom_trial_data = 25;</code>
      * @return The chipCustomTrialData.
      */
-    emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData getChipCustomTrialData();
+    emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData getChipCustomTrialData();
     /**
      * <code>._ChipCustomTrialData chip_custom_trial_data = 25;</code>
      */
-    emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialDataOrBuilder getChipCustomTrialDataOrBuilder();
+    emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialDataOrBuilder getChipCustomTrialDataOrBuilder();
 
     /**
      * <code>.EHFAEHCIBKM tag = 26;</code>
@@ -344,11 +344,11 @@ public final class IOHFNEENCJDOuterClass {
      * <code>._PcgTemplate pcg_template = 28;</code>
      * @return The pcgTemplate.
      */
-    emu.grasscutter.net.proto.PcgTemplate._PcgTemplate getPcgTemplate();
+    emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate getPcgTemplate();
     /**
      * <code>._PcgTemplate pcg_template = 28;</code>
      */
-    emu.grasscutter.net.proto.PcgTemplate._PcgTemplateOrBuilder getPcgTemplateOrBuilder();
+    emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplateOrBuilder getPcgTemplateOrBuilder();
 
     /**
      * <code>.HIABKGPOIAK pcg_instance = 29;</code>
@@ -374,11 +374,11 @@ public final class IOHFNEENCJDOuterClass {
      * <code>._CustomAsset custom_asset = 30;</code>
      * @return The customAsset.
      */
-    emu.grasscutter.net.proto.CustomAsset._CustomAsset getCustomAsset();
+    emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset getCustomAsset();
     /**
      * <code>._CustomAsset custom_asset = 30;</code>
      */
-    emu.grasscutter.net.proto.CustomAsset._CustomAssetOrBuilder getCustomAssetOrBuilder();
+    emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAssetOrBuilder getCustomAssetOrBuilder();
 
     /**
      * <code>.BCGCANOKPJB custom_map = 31;</code>
@@ -523,14 +523,14 @@ public final class IOHFNEENCJDOuterClass {
               break;
             }
             case 114: {
-              emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig.Builder subBuilder = null;
+              emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig.Builder subBuilder = null;
               if (paramCase_ == 14) {
-                subBuilder = ((emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 14;
@@ -565,14 +565,14 @@ public final class IOHFNEENCJDOuterClass {
               break;
             }
             case 138: {
-              emu.grasscutter.net.proto.CameraData._CameraData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CameraDataOuterClass._CameraData.Builder subBuilder = null;
               if (paramCase_ == 17) {
-                subBuilder = ((emu.grasscutter.net.proto.CameraData._CameraData) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._CameraDataOuterClass._CameraData) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.CameraData._CameraData.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._CameraDataOuterClass._CameraData.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.CameraData._CameraData) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._CameraDataOuterClass._CameraData) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 17;
@@ -593,14 +593,14 @@ public final class IOHFNEENCJDOuterClass {
               break;
             }
             case 154: {
-              emu.grasscutter.net.proto.CustomUiNode._CustomUiNode.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode.Builder subBuilder = null;
               if (paramCase_ == 19) {
-                subBuilder = ((emu.grasscutter.net.proto.CustomUiNode._CustomUiNode) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.CustomUiNode._CustomUiNode.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.CustomUiNode._CustomUiNode) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 19;
@@ -621,70 +621,70 @@ public final class IOHFNEENCJDOuterClass {
               break;
             }
             case 170: {
-              emu.grasscutter.net.proto.AttachArchetype._AttachArchetype.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype.Builder subBuilder = null;
               if (paramCase_ == 21) {
-                subBuilder = ((emu.grasscutter.net.proto.AttachArchetype._AttachArchetype) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.AttachArchetype._AttachArchetype.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AttachArchetype._AttachArchetype) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 21;
               break;
             }
             case 178: {
-              emu.grasscutter.net.proto.Struct._Struct.Builder subBuilder = null;
+              emu.grasscutter.net.proto._StructOuterClass._Struct.Builder subBuilder = null;
               if (paramCase_ == 22) {
-                subBuilder = ((emu.grasscutter.net.proto.Struct._Struct) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._StructOuterClass._Struct) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.Struct._Struct.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._StructOuterClass._Struct.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.Struct._Struct) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._StructOuterClass._Struct) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 22;
               break;
             }
             case 186: {
-              emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute.Builder subBuilder = null;
               if (paramCase_ == 23) {
-                subBuilder = ((emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 23;
               break;
             }
             case 194: {
-              emu.grasscutter.net.proto.ChipTemplate._ChipTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate.Builder subBuilder = null;
               if (paramCase_ == 24) {
-                subBuilder = ((emu.grasscutter.net.proto.ChipTemplate._ChipTemplate) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.ChipTemplate._ChipTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChipTemplate._ChipTemplate) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 24;
               break;
             }
             case 202: {
-              emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData.Builder subBuilder = null;
               if (paramCase_ == 25) {
-                subBuilder = ((emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 25;
@@ -719,14 +719,14 @@ public final class IOHFNEENCJDOuterClass {
               break;
             }
             case 226: {
-              emu.grasscutter.net.proto.PcgTemplate._PcgTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate.Builder subBuilder = null;
               if (paramCase_ == 28) {
-                subBuilder = ((emu.grasscutter.net.proto.PcgTemplate._PcgTemplate) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.PcgTemplate._PcgTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.PcgTemplate._PcgTemplate) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 28;
@@ -747,14 +747,14 @@ public final class IOHFNEENCJDOuterClass {
               break;
             }
             case 242: {
-              emu.grasscutter.net.proto.CustomAsset._CustomAsset.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset.Builder subBuilder = null;
               if (paramCase_ == 30) {
-                subBuilder = ((emu.grasscutter.net.proto.CustomAsset._CustomAsset) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.CustomAsset._CustomAsset.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.CustomAsset._CustomAsset) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 30;
@@ -1118,21 +1118,21 @@ public final class IOHFNEENCJDOuterClass {
      * @return The instructionNodeConfig.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig getInstructionNodeConfig() {
+    public emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig getInstructionNodeConfig() {
       if (paramCase_ == 14) {
-         return (emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig) param_;
+         return (emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig) param_;
       }
-      return emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig.getDefaultInstance();
+      return emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig.getDefaultInstance();
     }
     /**
      * <code>._InstructionNodeConfig instruction_node_config = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfigOrBuilder getInstructionNodeConfigOrBuilder() {
+    public emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfigOrBuilder getInstructionNodeConfigOrBuilder() {
       if (paramCase_ == 14) {
-         return (emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig) param_;
+         return (emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig) param_;
       }
-      return emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig.getDefaultInstance();
+      return emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig.getDefaultInstance();
     }
 
     public static final int CONFIG_PREFAB_FIELD_NUMBER = 15;
@@ -1211,21 +1211,21 @@ public final class IOHFNEENCJDOuterClass {
      * @return The cameraData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CameraData._CameraData getCameraData() {
+    public emu.grasscutter.net.proto._CameraDataOuterClass._CameraData getCameraData() {
       if (paramCase_ == 17) {
-         return (emu.grasscutter.net.proto.CameraData._CameraData) param_;
+         return (emu.grasscutter.net.proto._CameraDataOuterClass._CameraData) param_;
       }
-      return emu.grasscutter.net.proto.CameraData._CameraData.getDefaultInstance();
+      return emu.grasscutter.net.proto._CameraDataOuterClass._CameraData.getDefaultInstance();
     }
     /**
      * <code>._CameraData camera_data = 17;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CameraData._CameraDataOrBuilder getCameraDataOrBuilder() {
+    public emu.grasscutter.net.proto._CameraDataOuterClass._CameraDataOrBuilder getCameraDataOrBuilder() {
       if (paramCase_ == 17) {
-         return (emu.grasscutter.net.proto.CameraData._CameraData) param_;
+         return (emu.grasscutter.net.proto._CameraDataOuterClass._CameraData) param_;
       }
-      return emu.grasscutter.net.proto.CameraData._CameraData.getDefaultInstance();
+      return emu.grasscutter.net.proto._CameraDataOuterClass._CameraData.getDefaultInstance();
     }
 
     public static final int DUMMY_POINT_FIELD_NUMBER = 18;
@@ -1273,21 +1273,21 @@ public final class IOHFNEENCJDOuterClass {
      * @return The customUiNode.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CustomUiNode._CustomUiNode getCustomUiNode() {
+    public emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode getCustomUiNode() {
       if (paramCase_ == 19) {
-         return (emu.grasscutter.net.proto.CustomUiNode._CustomUiNode) param_;
+         return (emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode) param_;
       }
-      return emu.grasscutter.net.proto.CustomUiNode._CustomUiNode.getDefaultInstance();
+      return emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode.getDefaultInstance();
     }
     /**
      * <code>._CustomUiNode custom_ui_node = 19;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CustomUiNode._CustomUiNodeOrBuilder getCustomUiNodeOrBuilder() {
+    public emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNodeOrBuilder getCustomUiNodeOrBuilder() {
       if (paramCase_ == 19) {
-         return (emu.grasscutter.net.proto.CustomUiNode._CustomUiNode) param_;
+         return (emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode) param_;
       }
-      return emu.grasscutter.net.proto.CustomUiNode._CustomUiNode.getDefaultInstance();
+      return emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode.getDefaultInstance();
     }
 
     public static final int COUNT_DOWN_FIELD_NUMBER = 20;
@@ -1335,21 +1335,21 @@ public final class IOHFNEENCJDOuterClass {
      * @return The attachArchetype.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AttachArchetype._AttachArchetype getAttachArchetype() {
+    public emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype getAttachArchetype() {
       if (paramCase_ == 21) {
-         return (emu.grasscutter.net.proto.AttachArchetype._AttachArchetype) param_;
+         return (emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype) param_;
       }
-      return emu.grasscutter.net.proto.AttachArchetype._AttachArchetype.getDefaultInstance();
+      return emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype.getDefaultInstance();
     }
     /**
      * <code>._AttachArchetype attach_archetype = 21;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AttachArchetype._AttachArchetypeOrBuilder getAttachArchetypeOrBuilder() {
+    public emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetypeOrBuilder getAttachArchetypeOrBuilder() {
       if (paramCase_ == 21) {
-         return (emu.grasscutter.net.proto.AttachArchetype._AttachArchetype) param_;
+         return (emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype) param_;
       }
-      return emu.grasscutter.net.proto.AttachArchetype._AttachArchetype.getDefaultInstance();
+      return emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype.getDefaultInstance();
     }
 
     public static final int STRUCT_FIELD_NUMBER = 22;
@@ -1366,21 +1366,21 @@ public final class IOHFNEENCJDOuterClass {
      * @return The struct.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Struct._Struct getStruct() {
+    public emu.grasscutter.net.proto._StructOuterClass._Struct getStruct() {
       if (paramCase_ == 22) {
-         return (emu.grasscutter.net.proto.Struct._Struct) param_;
+         return (emu.grasscutter.net.proto._StructOuterClass._Struct) param_;
       }
-      return emu.grasscutter.net.proto.Struct._Struct.getDefaultInstance();
+      return emu.grasscutter.net.proto._StructOuterClass._Struct.getDefaultInstance();
     }
     /**
      * <code>._Struct struct = 22;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Struct._StructOrBuilder getStructOrBuilder() {
+    public emu.grasscutter.net.proto._StructOuterClass._StructOrBuilder getStructOrBuilder() {
       if (paramCase_ == 22) {
-         return (emu.grasscutter.net.proto.Struct._Struct) param_;
+         return (emu.grasscutter.net.proto._StructOuterClass._Struct) param_;
       }
-      return emu.grasscutter.net.proto.Struct._Struct.getDefaultInstance();
+      return emu.grasscutter.net.proto._StructOuterClass._Struct.getDefaultInstance();
     }
 
     public static final int ABSOLUTE_ROUTE_FIELD_NUMBER = 23;
@@ -1397,21 +1397,21 @@ public final class IOHFNEENCJDOuterClass {
      * @return The absoluteRoute.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute getAbsoluteRoute() {
+    public emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute getAbsoluteRoute() {
       if (paramCase_ == 23) {
-         return (emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute) param_;
+         return (emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute) param_;
       }
-      return emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute.getDefaultInstance();
+      return emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute.getDefaultInstance();
     }
     /**
      * <code>._AbsoluteRoute absolute_route = 23;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRouteOrBuilder getAbsoluteRouteOrBuilder() {
+    public emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRouteOrBuilder getAbsoluteRouteOrBuilder() {
       if (paramCase_ == 23) {
-         return (emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute) param_;
+         return (emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute) param_;
       }
-      return emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute.getDefaultInstance();
+      return emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute.getDefaultInstance();
     }
 
     public static final int CHIP_TEMPLATE_FIELD_NUMBER = 24;
@@ -1428,21 +1428,21 @@ public final class IOHFNEENCJDOuterClass {
      * @return The chipTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ChipTemplate._ChipTemplate getChipTemplate() {
+    public emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate getChipTemplate() {
       if (paramCase_ == 24) {
-         return (emu.grasscutter.net.proto.ChipTemplate._ChipTemplate) param_;
+         return (emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate) param_;
       }
-      return emu.grasscutter.net.proto.ChipTemplate._ChipTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate.getDefaultInstance();
     }
     /**
      * <code>._ChipTemplate chip_template = 24;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ChipTemplate._ChipTemplateOrBuilder getChipTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplateOrBuilder getChipTemplateOrBuilder() {
       if (paramCase_ == 24) {
-         return (emu.grasscutter.net.proto.ChipTemplate._ChipTemplate) param_;
+         return (emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate) param_;
       }
-      return emu.grasscutter.net.proto.ChipTemplate._ChipTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate.getDefaultInstance();
     }
 
     public static final int CHIP_CUSTOM_TRIAL_DATA_FIELD_NUMBER = 25;
@@ -1459,21 +1459,21 @@ public final class IOHFNEENCJDOuterClass {
      * @return The chipCustomTrialData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData getChipCustomTrialData() {
+    public emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData getChipCustomTrialData() {
       if (paramCase_ == 25) {
-         return (emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData) param_;
+         return (emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData) param_;
       }
-      return emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData.getDefaultInstance();
+      return emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData.getDefaultInstance();
     }
     /**
      * <code>._ChipCustomTrialData chip_custom_trial_data = 25;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialDataOrBuilder getChipCustomTrialDataOrBuilder() {
+    public emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialDataOrBuilder getChipCustomTrialDataOrBuilder() {
       if (paramCase_ == 25) {
-         return (emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData) param_;
+         return (emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData) param_;
       }
-      return emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData.getDefaultInstance();
+      return emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData.getDefaultInstance();
     }
 
     public static final int TAG_FIELD_NUMBER = 26;
@@ -1552,21 +1552,21 @@ public final class IOHFNEENCJDOuterClass {
      * @return The pcgTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PcgTemplate._PcgTemplate getPcgTemplate() {
+    public emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate getPcgTemplate() {
       if (paramCase_ == 28) {
-         return (emu.grasscutter.net.proto.PcgTemplate._PcgTemplate) param_;
+         return (emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate) param_;
       }
-      return emu.grasscutter.net.proto.PcgTemplate._PcgTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate.getDefaultInstance();
     }
     /**
      * <code>._PcgTemplate pcg_template = 28;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PcgTemplate._PcgTemplateOrBuilder getPcgTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplateOrBuilder getPcgTemplateOrBuilder() {
       if (paramCase_ == 28) {
-         return (emu.grasscutter.net.proto.PcgTemplate._PcgTemplate) param_;
+         return (emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate) param_;
       }
-      return emu.grasscutter.net.proto.PcgTemplate._PcgTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate.getDefaultInstance();
     }
 
     public static final int PCG_INSTANCE_FIELD_NUMBER = 29;
@@ -1614,21 +1614,21 @@ public final class IOHFNEENCJDOuterClass {
      * @return The customAsset.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CustomAsset._CustomAsset getCustomAsset() {
+    public emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset getCustomAsset() {
       if (paramCase_ == 30) {
-         return (emu.grasscutter.net.proto.CustomAsset._CustomAsset) param_;
+         return (emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset) param_;
       }
-      return emu.grasscutter.net.proto.CustomAsset._CustomAsset.getDefaultInstance();
+      return emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset.getDefaultInstance();
     }
     /**
      * <code>._CustomAsset custom_asset = 30;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CustomAsset._CustomAssetOrBuilder getCustomAssetOrBuilder() {
+    public emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAssetOrBuilder getCustomAssetOrBuilder() {
       if (paramCase_ == 30) {
-         return (emu.grasscutter.net.proto.CustomAsset._CustomAsset) param_;
+         return (emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset) param_;
       }
-      return emu.grasscutter.net.proto.CustomAsset._CustomAsset.getDefaultInstance();
+      return emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset.getDefaultInstance();
     }
 
     public static final int CUSTOM_MAP_FIELD_NUMBER = 31;
@@ -1698,7 +1698,7 @@ public final class IOHFNEENCJDOuterClass {
         output.writeMessage(13, (emu.grasscutter.net.proto.FCFGHHMDODDOuterClass.FCFGHHMDODD) param_);
       }
       if (paramCase_ == 14) {
-        output.writeMessage(14, (emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig) param_);
+        output.writeMessage(14, (emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig) param_);
       }
       if (paramCase_ == 15) {
         output.writeMessage(15, (emu.grasscutter.net.proto.GKKIIMIBMGOOuterClass.GKKIIMIBMGO) param_);
@@ -1707,31 +1707,31 @@ public final class IOHFNEENCJDOuterClass {
         output.writeMessage(16, (emu.grasscutter.net.proto.NGAIENDAPFFOuterClass.NGAIENDAPFF) param_);
       }
       if (paramCase_ == 17) {
-        output.writeMessage(17, (emu.grasscutter.net.proto.CameraData._CameraData) param_);
+        output.writeMessage(17, (emu.grasscutter.net.proto._CameraDataOuterClass._CameraData) param_);
       }
       if (paramCase_ == 18) {
         output.writeMessage(18, (emu.grasscutter.net.proto.IOAFKEGEDPLOuterClass.IOAFKEGEDPL) param_);
       }
       if (paramCase_ == 19) {
-        output.writeMessage(19, (emu.grasscutter.net.proto.CustomUiNode._CustomUiNode) param_);
+        output.writeMessage(19, (emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode) param_);
       }
       if (paramCase_ == 20) {
         output.writeMessage(20, (emu.grasscutter.net.proto.PGNNPOIOKJKOuterClass.PGNNPOIOKJK) param_);
       }
       if (paramCase_ == 21) {
-        output.writeMessage(21, (emu.grasscutter.net.proto.AttachArchetype._AttachArchetype) param_);
+        output.writeMessage(21, (emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype) param_);
       }
       if (paramCase_ == 22) {
-        output.writeMessage(22, (emu.grasscutter.net.proto.Struct._Struct) param_);
+        output.writeMessage(22, (emu.grasscutter.net.proto._StructOuterClass._Struct) param_);
       }
       if (paramCase_ == 23) {
-        output.writeMessage(23, (emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute) param_);
+        output.writeMessage(23, (emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute) param_);
       }
       if (paramCase_ == 24) {
-        output.writeMessage(24, (emu.grasscutter.net.proto.ChipTemplate._ChipTemplate) param_);
+        output.writeMessage(24, (emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate) param_);
       }
       if (paramCase_ == 25) {
-        output.writeMessage(25, (emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData) param_);
+        output.writeMessage(25, (emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData) param_);
       }
       if (paramCase_ == 26) {
         output.writeMessage(26, (emu.grasscutter.net.proto.EHFAEHCIBKMOuterClass.EHFAEHCIBKM) param_);
@@ -1740,13 +1740,13 @@ public final class IOHFNEENCJDOuterClass {
         output.writeMessage(27, (emu.grasscutter.net.proto.FFEJOKKENGNOuterClass.FFEJOKKENGN) param_);
       }
       if (paramCase_ == 28) {
-        output.writeMessage(28, (emu.grasscutter.net.proto.PcgTemplate._PcgTemplate) param_);
+        output.writeMessage(28, (emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate) param_);
       }
       if (paramCase_ == 29) {
         output.writeMessage(29, (emu.grasscutter.net.proto.HIABKGPOIAKOuterClass.HIABKGPOIAK) param_);
       }
       if (paramCase_ == 30) {
-        output.writeMessage(30, (emu.grasscutter.net.proto.CustomAsset._CustomAsset) param_);
+        output.writeMessage(30, (emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset) param_);
       }
       if (paramCase_ == 31) {
         output.writeMessage(31, (emu.grasscutter.net.proto.BCGCANOKPJBOuterClass.BCGCANOKPJB) param_);
@@ -1789,7 +1789,7 @@ public final class IOHFNEENCJDOuterClass {
       }
       if (paramCase_ == 14) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, (emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig) param_);
+          .computeMessageSize(14, (emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig) param_);
       }
       if (paramCase_ == 15) {
         size += com.google.protobuf.CodedOutputStream
@@ -1801,7 +1801,7 @@ public final class IOHFNEENCJDOuterClass {
       }
       if (paramCase_ == 17) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(17, (emu.grasscutter.net.proto.CameraData._CameraData) param_);
+          .computeMessageSize(17, (emu.grasscutter.net.proto._CameraDataOuterClass._CameraData) param_);
       }
       if (paramCase_ == 18) {
         size += com.google.protobuf.CodedOutputStream
@@ -1809,7 +1809,7 @@ public final class IOHFNEENCJDOuterClass {
       }
       if (paramCase_ == 19) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(19, (emu.grasscutter.net.proto.CustomUiNode._CustomUiNode) param_);
+          .computeMessageSize(19, (emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode) param_);
       }
       if (paramCase_ == 20) {
         size += com.google.protobuf.CodedOutputStream
@@ -1817,23 +1817,23 @@ public final class IOHFNEENCJDOuterClass {
       }
       if (paramCase_ == 21) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(21, (emu.grasscutter.net.proto.AttachArchetype._AttachArchetype) param_);
+          .computeMessageSize(21, (emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype) param_);
       }
       if (paramCase_ == 22) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(22, (emu.grasscutter.net.proto.Struct._Struct) param_);
+          .computeMessageSize(22, (emu.grasscutter.net.proto._StructOuterClass._Struct) param_);
       }
       if (paramCase_ == 23) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(23, (emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute) param_);
+          .computeMessageSize(23, (emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute) param_);
       }
       if (paramCase_ == 24) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(24, (emu.grasscutter.net.proto.ChipTemplate._ChipTemplate) param_);
+          .computeMessageSize(24, (emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate) param_);
       }
       if (paramCase_ == 25) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(25, (emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData) param_);
+          .computeMessageSize(25, (emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData) param_);
       }
       if (paramCase_ == 26) {
         size += com.google.protobuf.CodedOutputStream
@@ -1845,7 +1845,7 @@ public final class IOHFNEENCJDOuterClass {
       }
       if (paramCase_ == 28) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(28, (emu.grasscutter.net.proto.PcgTemplate._PcgTemplate) param_);
+          .computeMessageSize(28, (emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate) param_);
       }
       if (paramCase_ == 29) {
         size += com.google.protobuf.CodedOutputStream
@@ -1853,7 +1853,7 @@ public final class IOHFNEENCJDOuterClass {
       }
       if (paramCase_ == 30) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(30, (emu.grasscutter.net.proto.CustomAsset._CustomAsset) param_);
+          .computeMessageSize(30, (emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset) param_);
       }
       if (paramCase_ == 31) {
         size += com.google.protobuf.CodedOutputStream
@@ -3558,7 +3558,7 @@ public final class IOHFNEENCJDOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig, emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig.Builder, emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfigOrBuilder> instructionNodeConfigBuilder_;
+          emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig, emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig.Builder, emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfigOrBuilder> instructionNodeConfigBuilder_;
       /**
        * <code>._InstructionNodeConfig instruction_node_config = 14;</code>
        * @return Whether the instructionNodeConfig field is set.
@@ -3572,23 +3572,23 @@ public final class IOHFNEENCJDOuterClass {
        * @return The instructionNodeConfig.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig getInstructionNodeConfig() {
+      public emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig getInstructionNodeConfig() {
         if (instructionNodeConfigBuilder_ == null) {
           if (paramCase_ == 14) {
-            return (emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig) param_;
+            return (emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig) param_;
           }
-          return emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig.getDefaultInstance();
+          return emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig.getDefaultInstance();
         } else {
           if (paramCase_ == 14) {
             return instructionNodeConfigBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig.getDefaultInstance();
+          return emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig.getDefaultInstance();
         }
       }
       /**
        * <code>._InstructionNodeConfig instruction_node_config = 14;</code>
        */
-      public Builder setInstructionNodeConfig(emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig value) {
+      public Builder setInstructionNodeConfig(emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig value) {
         if (instructionNodeConfigBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3605,7 +3605,7 @@ public final class IOHFNEENCJDOuterClass {
        * <code>._InstructionNodeConfig instruction_node_config = 14;</code>
        */
       public Builder setInstructionNodeConfig(
-          emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig.Builder builderForValue) {
+          emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig.Builder builderForValue) {
         if (instructionNodeConfigBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -3618,11 +3618,11 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._InstructionNodeConfig instruction_node_config = 14;</code>
        */
-      public Builder mergeInstructionNodeConfig(emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig value) {
+      public Builder mergeInstructionNodeConfig(emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig value) {
         if (instructionNodeConfigBuilder_ == null) {
           if (paramCase_ == 14 &&
-              param_ != emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig.newBuilder((emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig) param_)
+              param_ != emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig.newBuilder((emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -3659,36 +3659,36 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._InstructionNodeConfig instruction_node_config = 14;</code>
        */
-      public emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig.Builder getInstructionNodeConfigBuilder() {
+      public emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig.Builder getInstructionNodeConfigBuilder() {
         return getInstructionNodeConfigFieldBuilder().getBuilder();
       }
       /**
        * <code>._InstructionNodeConfig instruction_node_config = 14;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfigOrBuilder getInstructionNodeConfigOrBuilder() {
+      public emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfigOrBuilder getInstructionNodeConfigOrBuilder() {
         if ((paramCase_ == 14) && (instructionNodeConfigBuilder_ != null)) {
           return instructionNodeConfigBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 14) {
-            return (emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig) param_;
+            return (emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig) param_;
           }
-          return emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig.getDefaultInstance();
+          return emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig.getDefaultInstance();
         }
       }
       /**
        * <code>._InstructionNodeConfig instruction_node_config = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig, emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig.Builder, emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfigOrBuilder> 
+          emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig, emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig.Builder, emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfigOrBuilder> 
           getInstructionNodeConfigFieldBuilder() {
         if (instructionNodeConfigBuilder_ == null) {
           if (!(paramCase_ == 14)) {
-            param_ = emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig.getDefaultInstance();
           }
           instructionNodeConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig, emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig.Builder, emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfigOrBuilder>(
-                  (emu.grasscutter.net.proto.InstructionNodeConfig._InstructionNodeConfig) param_,
+              emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig, emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig.Builder, emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfigOrBuilder>(
+                  (emu.grasscutter.net.proto._InstructionNodeConfigOuterClass._InstructionNodeConfig) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -3981,7 +3981,7 @@ public final class IOHFNEENCJDOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CameraData._CameraData, emu.grasscutter.net.proto.CameraData._CameraData.Builder, emu.grasscutter.net.proto.CameraData._CameraDataOrBuilder> cameraDataBuilder_;
+          emu.grasscutter.net.proto._CameraDataOuterClass._CameraData, emu.grasscutter.net.proto._CameraDataOuterClass._CameraData.Builder, emu.grasscutter.net.proto._CameraDataOuterClass._CameraDataOrBuilder> cameraDataBuilder_;
       /**
        * <code>._CameraData camera_data = 17;</code>
        * @return Whether the cameraData field is set.
@@ -3995,23 +3995,23 @@ public final class IOHFNEENCJDOuterClass {
        * @return The cameraData.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CameraData._CameraData getCameraData() {
+      public emu.grasscutter.net.proto._CameraDataOuterClass._CameraData getCameraData() {
         if (cameraDataBuilder_ == null) {
           if (paramCase_ == 17) {
-            return (emu.grasscutter.net.proto.CameraData._CameraData) param_;
+            return (emu.grasscutter.net.proto._CameraDataOuterClass._CameraData) param_;
           }
-          return emu.grasscutter.net.proto.CameraData._CameraData.getDefaultInstance();
+          return emu.grasscutter.net.proto._CameraDataOuterClass._CameraData.getDefaultInstance();
         } else {
           if (paramCase_ == 17) {
             return cameraDataBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.CameraData._CameraData.getDefaultInstance();
+          return emu.grasscutter.net.proto._CameraDataOuterClass._CameraData.getDefaultInstance();
         }
       }
       /**
        * <code>._CameraData camera_data = 17;</code>
        */
-      public Builder setCameraData(emu.grasscutter.net.proto.CameraData._CameraData value) {
+      public Builder setCameraData(emu.grasscutter.net.proto._CameraDataOuterClass._CameraData value) {
         if (cameraDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4028,7 +4028,7 @@ public final class IOHFNEENCJDOuterClass {
        * <code>._CameraData camera_data = 17;</code>
        */
       public Builder setCameraData(
-          emu.grasscutter.net.proto.CameraData._CameraData.Builder builderForValue) {
+          emu.grasscutter.net.proto._CameraDataOuterClass._CameraData.Builder builderForValue) {
         if (cameraDataBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -4041,11 +4041,11 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._CameraData camera_data = 17;</code>
        */
-      public Builder mergeCameraData(emu.grasscutter.net.proto.CameraData._CameraData value) {
+      public Builder mergeCameraData(emu.grasscutter.net.proto._CameraDataOuterClass._CameraData value) {
         if (cameraDataBuilder_ == null) {
           if (paramCase_ == 17 &&
-              param_ != emu.grasscutter.net.proto.CameraData._CameraData.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.CameraData._CameraData.newBuilder((emu.grasscutter.net.proto.CameraData._CameraData) param_)
+              param_ != emu.grasscutter.net.proto._CameraDataOuterClass._CameraData.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._CameraDataOuterClass._CameraData.newBuilder((emu.grasscutter.net.proto._CameraDataOuterClass._CameraData) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -4082,36 +4082,36 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._CameraData camera_data = 17;</code>
        */
-      public emu.grasscutter.net.proto.CameraData._CameraData.Builder getCameraDataBuilder() {
+      public emu.grasscutter.net.proto._CameraDataOuterClass._CameraData.Builder getCameraDataBuilder() {
         return getCameraDataFieldBuilder().getBuilder();
       }
       /**
        * <code>._CameraData camera_data = 17;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CameraData._CameraDataOrBuilder getCameraDataOrBuilder() {
+      public emu.grasscutter.net.proto._CameraDataOuterClass._CameraDataOrBuilder getCameraDataOrBuilder() {
         if ((paramCase_ == 17) && (cameraDataBuilder_ != null)) {
           return cameraDataBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 17) {
-            return (emu.grasscutter.net.proto.CameraData._CameraData) param_;
+            return (emu.grasscutter.net.proto._CameraDataOuterClass._CameraData) param_;
           }
-          return emu.grasscutter.net.proto.CameraData._CameraData.getDefaultInstance();
+          return emu.grasscutter.net.proto._CameraDataOuterClass._CameraData.getDefaultInstance();
         }
       }
       /**
        * <code>._CameraData camera_data = 17;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CameraData._CameraData, emu.grasscutter.net.proto.CameraData._CameraData.Builder, emu.grasscutter.net.proto.CameraData._CameraDataOrBuilder> 
+          emu.grasscutter.net.proto._CameraDataOuterClass._CameraData, emu.grasscutter.net.proto._CameraDataOuterClass._CameraData.Builder, emu.grasscutter.net.proto._CameraDataOuterClass._CameraDataOrBuilder> 
           getCameraDataFieldBuilder() {
         if (cameraDataBuilder_ == null) {
           if (!(paramCase_ == 17)) {
-            param_ = emu.grasscutter.net.proto.CameraData._CameraData.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._CameraDataOuterClass._CameraData.getDefaultInstance();
           }
           cameraDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CameraData._CameraData, emu.grasscutter.net.proto.CameraData._CameraData.Builder, emu.grasscutter.net.proto.CameraData._CameraDataOrBuilder>(
-                  (emu.grasscutter.net.proto.CameraData._CameraData) param_,
+              emu.grasscutter.net.proto._CameraDataOuterClass._CameraData, emu.grasscutter.net.proto._CameraDataOuterClass._CameraData.Builder, emu.grasscutter.net.proto._CameraDataOuterClass._CameraDataOrBuilder>(
+                  (emu.grasscutter.net.proto._CameraDataOuterClass._CameraData) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -4263,7 +4263,7 @@ public final class IOHFNEENCJDOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CustomUiNode._CustomUiNode, emu.grasscutter.net.proto.CustomUiNode._CustomUiNode.Builder, emu.grasscutter.net.proto.CustomUiNode._CustomUiNodeOrBuilder> customUiNodeBuilder_;
+          emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode, emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode.Builder, emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNodeOrBuilder> customUiNodeBuilder_;
       /**
        * <code>._CustomUiNode custom_ui_node = 19;</code>
        * @return Whether the customUiNode field is set.
@@ -4277,23 +4277,23 @@ public final class IOHFNEENCJDOuterClass {
        * @return The customUiNode.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CustomUiNode._CustomUiNode getCustomUiNode() {
+      public emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode getCustomUiNode() {
         if (customUiNodeBuilder_ == null) {
           if (paramCase_ == 19) {
-            return (emu.grasscutter.net.proto.CustomUiNode._CustomUiNode) param_;
+            return (emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode) param_;
           }
-          return emu.grasscutter.net.proto.CustomUiNode._CustomUiNode.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode.getDefaultInstance();
         } else {
           if (paramCase_ == 19) {
             return customUiNodeBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.CustomUiNode._CustomUiNode.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode.getDefaultInstance();
         }
       }
       /**
        * <code>._CustomUiNode custom_ui_node = 19;</code>
        */
-      public Builder setCustomUiNode(emu.grasscutter.net.proto.CustomUiNode._CustomUiNode value) {
+      public Builder setCustomUiNode(emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode value) {
         if (customUiNodeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4310,7 +4310,7 @@ public final class IOHFNEENCJDOuterClass {
        * <code>._CustomUiNode custom_ui_node = 19;</code>
        */
       public Builder setCustomUiNode(
-          emu.grasscutter.net.proto.CustomUiNode._CustomUiNode.Builder builderForValue) {
+          emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode.Builder builderForValue) {
         if (customUiNodeBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -4323,11 +4323,11 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._CustomUiNode custom_ui_node = 19;</code>
        */
-      public Builder mergeCustomUiNode(emu.grasscutter.net.proto.CustomUiNode._CustomUiNode value) {
+      public Builder mergeCustomUiNode(emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode value) {
         if (customUiNodeBuilder_ == null) {
           if (paramCase_ == 19 &&
-              param_ != emu.grasscutter.net.proto.CustomUiNode._CustomUiNode.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.CustomUiNode._CustomUiNode.newBuilder((emu.grasscutter.net.proto.CustomUiNode._CustomUiNode) param_)
+              param_ != emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode.newBuilder((emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -4364,36 +4364,36 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._CustomUiNode custom_ui_node = 19;</code>
        */
-      public emu.grasscutter.net.proto.CustomUiNode._CustomUiNode.Builder getCustomUiNodeBuilder() {
+      public emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode.Builder getCustomUiNodeBuilder() {
         return getCustomUiNodeFieldBuilder().getBuilder();
       }
       /**
        * <code>._CustomUiNode custom_ui_node = 19;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CustomUiNode._CustomUiNodeOrBuilder getCustomUiNodeOrBuilder() {
+      public emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNodeOrBuilder getCustomUiNodeOrBuilder() {
         if ((paramCase_ == 19) && (customUiNodeBuilder_ != null)) {
           return customUiNodeBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 19) {
-            return (emu.grasscutter.net.proto.CustomUiNode._CustomUiNode) param_;
+            return (emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode) param_;
           }
-          return emu.grasscutter.net.proto.CustomUiNode._CustomUiNode.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode.getDefaultInstance();
         }
       }
       /**
        * <code>._CustomUiNode custom_ui_node = 19;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CustomUiNode._CustomUiNode, emu.grasscutter.net.proto.CustomUiNode._CustomUiNode.Builder, emu.grasscutter.net.proto.CustomUiNode._CustomUiNodeOrBuilder> 
+          emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode, emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode.Builder, emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNodeOrBuilder> 
           getCustomUiNodeFieldBuilder() {
         if (customUiNodeBuilder_ == null) {
           if (!(paramCase_ == 19)) {
-            param_ = emu.grasscutter.net.proto.CustomUiNode._CustomUiNode.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode.getDefaultInstance();
           }
           customUiNodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CustomUiNode._CustomUiNode, emu.grasscutter.net.proto.CustomUiNode._CustomUiNode.Builder, emu.grasscutter.net.proto.CustomUiNode._CustomUiNodeOrBuilder>(
-                  (emu.grasscutter.net.proto.CustomUiNode._CustomUiNode) param_,
+              emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode, emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode.Builder, emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNodeOrBuilder>(
+                  (emu.grasscutter.net.proto._CustomUiNodeOuterClass._CustomUiNode) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -4545,7 +4545,7 @@ public final class IOHFNEENCJDOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AttachArchetype._AttachArchetype, emu.grasscutter.net.proto.AttachArchetype._AttachArchetype.Builder, emu.grasscutter.net.proto.AttachArchetype._AttachArchetypeOrBuilder> attachArchetypeBuilder_;
+          emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype, emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype.Builder, emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetypeOrBuilder> attachArchetypeBuilder_;
       /**
        * <code>._AttachArchetype attach_archetype = 21;</code>
        * @return Whether the attachArchetype field is set.
@@ -4559,23 +4559,23 @@ public final class IOHFNEENCJDOuterClass {
        * @return The attachArchetype.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AttachArchetype._AttachArchetype getAttachArchetype() {
+      public emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype getAttachArchetype() {
         if (attachArchetypeBuilder_ == null) {
           if (paramCase_ == 21) {
-            return (emu.grasscutter.net.proto.AttachArchetype._AttachArchetype) param_;
+            return (emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype) param_;
           }
-          return emu.grasscutter.net.proto.AttachArchetype._AttachArchetype.getDefaultInstance();
+          return emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype.getDefaultInstance();
         } else {
           if (paramCase_ == 21) {
             return attachArchetypeBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AttachArchetype._AttachArchetype.getDefaultInstance();
+          return emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype.getDefaultInstance();
         }
       }
       /**
        * <code>._AttachArchetype attach_archetype = 21;</code>
        */
-      public Builder setAttachArchetype(emu.grasscutter.net.proto.AttachArchetype._AttachArchetype value) {
+      public Builder setAttachArchetype(emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype value) {
         if (attachArchetypeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4592,7 +4592,7 @@ public final class IOHFNEENCJDOuterClass {
        * <code>._AttachArchetype attach_archetype = 21;</code>
        */
       public Builder setAttachArchetype(
-          emu.grasscutter.net.proto.AttachArchetype._AttachArchetype.Builder builderForValue) {
+          emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype.Builder builderForValue) {
         if (attachArchetypeBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -4605,11 +4605,11 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._AttachArchetype attach_archetype = 21;</code>
        */
-      public Builder mergeAttachArchetype(emu.grasscutter.net.proto.AttachArchetype._AttachArchetype value) {
+      public Builder mergeAttachArchetype(emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype value) {
         if (attachArchetypeBuilder_ == null) {
           if (paramCase_ == 21 &&
-              param_ != emu.grasscutter.net.proto.AttachArchetype._AttachArchetype.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.AttachArchetype._AttachArchetype.newBuilder((emu.grasscutter.net.proto.AttachArchetype._AttachArchetype) param_)
+              param_ != emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype.newBuilder((emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -4646,36 +4646,36 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._AttachArchetype attach_archetype = 21;</code>
        */
-      public emu.grasscutter.net.proto.AttachArchetype._AttachArchetype.Builder getAttachArchetypeBuilder() {
+      public emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype.Builder getAttachArchetypeBuilder() {
         return getAttachArchetypeFieldBuilder().getBuilder();
       }
       /**
        * <code>._AttachArchetype attach_archetype = 21;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AttachArchetype._AttachArchetypeOrBuilder getAttachArchetypeOrBuilder() {
+      public emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetypeOrBuilder getAttachArchetypeOrBuilder() {
         if ((paramCase_ == 21) && (attachArchetypeBuilder_ != null)) {
           return attachArchetypeBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 21) {
-            return (emu.grasscutter.net.proto.AttachArchetype._AttachArchetype) param_;
+            return (emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype) param_;
           }
-          return emu.grasscutter.net.proto.AttachArchetype._AttachArchetype.getDefaultInstance();
+          return emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype.getDefaultInstance();
         }
       }
       /**
        * <code>._AttachArchetype attach_archetype = 21;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AttachArchetype._AttachArchetype, emu.grasscutter.net.proto.AttachArchetype._AttachArchetype.Builder, emu.grasscutter.net.proto.AttachArchetype._AttachArchetypeOrBuilder> 
+          emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype, emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype.Builder, emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetypeOrBuilder> 
           getAttachArchetypeFieldBuilder() {
         if (attachArchetypeBuilder_ == null) {
           if (!(paramCase_ == 21)) {
-            param_ = emu.grasscutter.net.proto.AttachArchetype._AttachArchetype.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype.getDefaultInstance();
           }
           attachArchetypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AttachArchetype._AttachArchetype, emu.grasscutter.net.proto.AttachArchetype._AttachArchetype.Builder, emu.grasscutter.net.proto.AttachArchetype._AttachArchetypeOrBuilder>(
-                  (emu.grasscutter.net.proto.AttachArchetype._AttachArchetype) param_,
+              emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype, emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype.Builder, emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetypeOrBuilder>(
+                  (emu.grasscutter.net.proto._AttachArchetypeOuterClass._AttachArchetype) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -4686,7 +4686,7 @@ public final class IOHFNEENCJDOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Struct._Struct, emu.grasscutter.net.proto.Struct._Struct.Builder, emu.grasscutter.net.proto.Struct._StructOrBuilder> structBuilder_;
+          emu.grasscutter.net.proto._StructOuterClass._Struct, emu.grasscutter.net.proto._StructOuterClass._Struct.Builder, emu.grasscutter.net.proto._StructOuterClass._StructOrBuilder> structBuilder_;
       /**
        * <code>._Struct struct = 22;</code>
        * @return Whether the struct field is set.
@@ -4700,23 +4700,23 @@ public final class IOHFNEENCJDOuterClass {
        * @return The struct.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Struct._Struct getStruct() {
+      public emu.grasscutter.net.proto._StructOuterClass._Struct getStruct() {
         if (structBuilder_ == null) {
           if (paramCase_ == 22) {
-            return (emu.grasscutter.net.proto.Struct._Struct) param_;
+            return (emu.grasscutter.net.proto._StructOuterClass._Struct) param_;
           }
-          return emu.grasscutter.net.proto.Struct._Struct.getDefaultInstance();
+          return emu.grasscutter.net.proto._StructOuterClass._Struct.getDefaultInstance();
         } else {
           if (paramCase_ == 22) {
             return structBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.Struct._Struct.getDefaultInstance();
+          return emu.grasscutter.net.proto._StructOuterClass._Struct.getDefaultInstance();
         }
       }
       /**
        * <code>._Struct struct = 22;</code>
        */
-      public Builder setStruct(emu.grasscutter.net.proto.Struct._Struct value) {
+      public Builder setStruct(emu.grasscutter.net.proto._StructOuterClass._Struct value) {
         if (structBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4733,7 +4733,7 @@ public final class IOHFNEENCJDOuterClass {
        * <code>._Struct struct = 22;</code>
        */
       public Builder setStruct(
-          emu.grasscutter.net.proto.Struct._Struct.Builder builderForValue) {
+          emu.grasscutter.net.proto._StructOuterClass._Struct.Builder builderForValue) {
         if (structBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -4746,11 +4746,11 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._Struct struct = 22;</code>
        */
-      public Builder mergeStruct(emu.grasscutter.net.proto.Struct._Struct value) {
+      public Builder mergeStruct(emu.grasscutter.net.proto._StructOuterClass._Struct value) {
         if (structBuilder_ == null) {
           if (paramCase_ == 22 &&
-              param_ != emu.grasscutter.net.proto.Struct._Struct.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.Struct._Struct.newBuilder((emu.grasscutter.net.proto.Struct._Struct) param_)
+              param_ != emu.grasscutter.net.proto._StructOuterClass._Struct.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._StructOuterClass._Struct.newBuilder((emu.grasscutter.net.proto._StructOuterClass._Struct) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -4787,36 +4787,36 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._Struct struct = 22;</code>
        */
-      public emu.grasscutter.net.proto.Struct._Struct.Builder getStructBuilder() {
+      public emu.grasscutter.net.proto._StructOuterClass._Struct.Builder getStructBuilder() {
         return getStructFieldBuilder().getBuilder();
       }
       /**
        * <code>._Struct struct = 22;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Struct._StructOrBuilder getStructOrBuilder() {
+      public emu.grasscutter.net.proto._StructOuterClass._StructOrBuilder getStructOrBuilder() {
         if ((paramCase_ == 22) && (structBuilder_ != null)) {
           return structBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 22) {
-            return (emu.grasscutter.net.proto.Struct._Struct) param_;
+            return (emu.grasscutter.net.proto._StructOuterClass._Struct) param_;
           }
-          return emu.grasscutter.net.proto.Struct._Struct.getDefaultInstance();
+          return emu.grasscutter.net.proto._StructOuterClass._Struct.getDefaultInstance();
         }
       }
       /**
        * <code>._Struct struct = 22;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Struct._Struct, emu.grasscutter.net.proto.Struct._Struct.Builder, emu.grasscutter.net.proto.Struct._StructOrBuilder> 
+          emu.grasscutter.net.proto._StructOuterClass._Struct, emu.grasscutter.net.proto._StructOuterClass._Struct.Builder, emu.grasscutter.net.proto._StructOuterClass._StructOrBuilder> 
           getStructFieldBuilder() {
         if (structBuilder_ == null) {
           if (!(paramCase_ == 22)) {
-            param_ = emu.grasscutter.net.proto.Struct._Struct.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._StructOuterClass._Struct.getDefaultInstance();
           }
           structBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.Struct._Struct, emu.grasscutter.net.proto.Struct._Struct.Builder, emu.grasscutter.net.proto.Struct._StructOrBuilder>(
-                  (emu.grasscutter.net.proto.Struct._Struct) param_,
+              emu.grasscutter.net.proto._StructOuterClass._Struct, emu.grasscutter.net.proto._StructOuterClass._Struct.Builder, emu.grasscutter.net.proto._StructOuterClass._StructOrBuilder>(
+                  (emu.grasscutter.net.proto._StructOuterClass._Struct) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -4827,7 +4827,7 @@ public final class IOHFNEENCJDOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute, emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute.Builder, emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRouteOrBuilder> absoluteRouteBuilder_;
+          emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute, emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute.Builder, emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRouteOrBuilder> absoluteRouteBuilder_;
       /**
        * <code>._AbsoluteRoute absolute_route = 23;</code>
        * @return Whether the absoluteRoute field is set.
@@ -4841,23 +4841,23 @@ public final class IOHFNEENCJDOuterClass {
        * @return The absoluteRoute.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute getAbsoluteRoute() {
+      public emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute getAbsoluteRoute() {
         if (absoluteRouteBuilder_ == null) {
           if (paramCase_ == 23) {
-            return (emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute) param_;
+            return (emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute) param_;
           }
-          return emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute.getDefaultInstance();
+          return emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute.getDefaultInstance();
         } else {
           if (paramCase_ == 23) {
             return absoluteRouteBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute.getDefaultInstance();
+          return emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute.getDefaultInstance();
         }
       }
       /**
        * <code>._AbsoluteRoute absolute_route = 23;</code>
        */
-      public Builder setAbsoluteRoute(emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute value) {
+      public Builder setAbsoluteRoute(emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute value) {
         if (absoluteRouteBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4874,7 +4874,7 @@ public final class IOHFNEENCJDOuterClass {
        * <code>._AbsoluteRoute absolute_route = 23;</code>
        */
       public Builder setAbsoluteRoute(
-          emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute.Builder builderForValue) {
+          emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute.Builder builderForValue) {
         if (absoluteRouteBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -4887,11 +4887,11 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._AbsoluteRoute absolute_route = 23;</code>
        */
-      public Builder mergeAbsoluteRoute(emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute value) {
+      public Builder mergeAbsoluteRoute(emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute value) {
         if (absoluteRouteBuilder_ == null) {
           if (paramCase_ == 23 &&
-              param_ != emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute.newBuilder((emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute) param_)
+              param_ != emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute.newBuilder((emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -4928,36 +4928,36 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._AbsoluteRoute absolute_route = 23;</code>
        */
-      public emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute.Builder getAbsoluteRouteBuilder() {
+      public emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute.Builder getAbsoluteRouteBuilder() {
         return getAbsoluteRouteFieldBuilder().getBuilder();
       }
       /**
        * <code>._AbsoluteRoute absolute_route = 23;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRouteOrBuilder getAbsoluteRouteOrBuilder() {
+      public emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRouteOrBuilder getAbsoluteRouteOrBuilder() {
         if ((paramCase_ == 23) && (absoluteRouteBuilder_ != null)) {
           return absoluteRouteBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 23) {
-            return (emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute) param_;
+            return (emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute) param_;
           }
-          return emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute.getDefaultInstance();
+          return emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute.getDefaultInstance();
         }
       }
       /**
        * <code>._AbsoluteRoute absolute_route = 23;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute, emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute.Builder, emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRouteOrBuilder> 
+          emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute, emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute.Builder, emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRouteOrBuilder> 
           getAbsoluteRouteFieldBuilder() {
         if (absoluteRouteBuilder_ == null) {
           if (!(paramCase_ == 23)) {
-            param_ = emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute.getDefaultInstance();
           }
           absoluteRouteBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute, emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute.Builder, emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRouteOrBuilder>(
-                  (emu.grasscutter.net.proto.AbsoluteRoute._AbsoluteRoute) param_,
+              emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute, emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute.Builder, emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRouteOrBuilder>(
+                  (emu.grasscutter.net.proto._AbsoluteRouteOuterClass._AbsoluteRoute) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -4968,7 +4968,7 @@ public final class IOHFNEENCJDOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChipTemplate._ChipTemplate, emu.grasscutter.net.proto.ChipTemplate._ChipTemplate.Builder, emu.grasscutter.net.proto.ChipTemplate._ChipTemplateOrBuilder> chipTemplateBuilder_;
+          emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate, emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate.Builder, emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplateOrBuilder> chipTemplateBuilder_;
       /**
        * <code>._ChipTemplate chip_template = 24;</code>
        * @return Whether the chipTemplate field is set.
@@ -4982,23 +4982,23 @@ public final class IOHFNEENCJDOuterClass {
        * @return The chipTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ChipTemplate._ChipTemplate getChipTemplate() {
+      public emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate getChipTemplate() {
         if (chipTemplateBuilder_ == null) {
           if (paramCase_ == 24) {
-            return (emu.grasscutter.net.proto.ChipTemplate._ChipTemplate) param_;
+            return (emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate) param_;
           }
-          return emu.grasscutter.net.proto.ChipTemplate._ChipTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate.getDefaultInstance();
         } else {
           if (paramCase_ == 24) {
             return chipTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ChipTemplate._ChipTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._ChipTemplate chip_template = 24;</code>
        */
-      public Builder setChipTemplate(emu.grasscutter.net.proto.ChipTemplate._ChipTemplate value) {
+      public Builder setChipTemplate(emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate value) {
         if (chipTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5015,7 +5015,7 @@ public final class IOHFNEENCJDOuterClass {
        * <code>._ChipTemplate chip_template = 24;</code>
        */
       public Builder setChipTemplate(
-          emu.grasscutter.net.proto.ChipTemplate._ChipTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate.Builder builderForValue) {
         if (chipTemplateBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -5028,11 +5028,11 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._ChipTemplate chip_template = 24;</code>
        */
-      public Builder mergeChipTemplate(emu.grasscutter.net.proto.ChipTemplate._ChipTemplate value) {
+      public Builder mergeChipTemplate(emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate value) {
         if (chipTemplateBuilder_ == null) {
           if (paramCase_ == 24 &&
-              param_ != emu.grasscutter.net.proto.ChipTemplate._ChipTemplate.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.ChipTemplate._ChipTemplate.newBuilder((emu.grasscutter.net.proto.ChipTemplate._ChipTemplate) param_)
+              param_ != emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate.newBuilder((emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -5069,36 +5069,36 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._ChipTemplate chip_template = 24;</code>
        */
-      public emu.grasscutter.net.proto.ChipTemplate._ChipTemplate.Builder getChipTemplateBuilder() {
+      public emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate.Builder getChipTemplateBuilder() {
         return getChipTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._ChipTemplate chip_template = 24;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ChipTemplate._ChipTemplateOrBuilder getChipTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplateOrBuilder getChipTemplateOrBuilder() {
         if ((paramCase_ == 24) && (chipTemplateBuilder_ != null)) {
           return chipTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 24) {
-            return (emu.grasscutter.net.proto.ChipTemplate._ChipTemplate) param_;
+            return (emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate) param_;
           }
-          return emu.grasscutter.net.proto.ChipTemplate._ChipTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._ChipTemplate chip_template = 24;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChipTemplate._ChipTemplate, emu.grasscutter.net.proto.ChipTemplate._ChipTemplate.Builder, emu.grasscutter.net.proto.ChipTemplate._ChipTemplateOrBuilder> 
+          emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate, emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate.Builder, emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplateOrBuilder> 
           getChipTemplateFieldBuilder() {
         if (chipTemplateBuilder_ == null) {
           if (!(paramCase_ == 24)) {
-            param_ = emu.grasscutter.net.proto.ChipTemplate._ChipTemplate.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate.getDefaultInstance();
           }
           chipTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ChipTemplate._ChipTemplate, emu.grasscutter.net.proto.ChipTemplate._ChipTemplate.Builder, emu.grasscutter.net.proto.ChipTemplate._ChipTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.ChipTemplate._ChipTemplate) param_,
+              emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate, emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate.Builder, emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._ChipTemplateOuterClass._ChipTemplate) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -5109,7 +5109,7 @@ public final class IOHFNEENCJDOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData, emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData.Builder, emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialDataOrBuilder> chipCustomTrialDataBuilder_;
+          emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData, emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData.Builder, emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialDataOrBuilder> chipCustomTrialDataBuilder_;
       /**
        * <code>._ChipCustomTrialData chip_custom_trial_data = 25;</code>
        * @return Whether the chipCustomTrialData field is set.
@@ -5123,23 +5123,23 @@ public final class IOHFNEENCJDOuterClass {
        * @return The chipCustomTrialData.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData getChipCustomTrialData() {
+      public emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData getChipCustomTrialData() {
         if (chipCustomTrialDataBuilder_ == null) {
           if (paramCase_ == 25) {
-            return (emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData) param_;
+            return (emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData) param_;
           }
-          return emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData.getDefaultInstance();
+          return emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData.getDefaultInstance();
         } else {
           if (paramCase_ == 25) {
             return chipCustomTrialDataBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData.getDefaultInstance();
+          return emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData.getDefaultInstance();
         }
       }
       /**
        * <code>._ChipCustomTrialData chip_custom_trial_data = 25;</code>
        */
-      public Builder setChipCustomTrialData(emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData value) {
+      public Builder setChipCustomTrialData(emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData value) {
         if (chipCustomTrialDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5156,7 +5156,7 @@ public final class IOHFNEENCJDOuterClass {
        * <code>._ChipCustomTrialData chip_custom_trial_data = 25;</code>
        */
       public Builder setChipCustomTrialData(
-          emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData.Builder builderForValue) {
+          emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData.Builder builderForValue) {
         if (chipCustomTrialDataBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -5169,11 +5169,11 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._ChipCustomTrialData chip_custom_trial_data = 25;</code>
        */
-      public Builder mergeChipCustomTrialData(emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData value) {
+      public Builder mergeChipCustomTrialData(emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData value) {
         if (chipCustomTrialDataBuilder_ == null) {
           if (paramCase_ == 25 &&
-              param_ != emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData.newBuilder((emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData) param_)
+              param_ != emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData.newBuilder((emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -5210,36 +5210,36 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._ChipCustomTrialData chip_custom_trial_data = 25;</code>
        */
-      public emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData.Builder getChipCustomTrialDataBuilder() {
+      public emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData.Builder getChipCustomTrialDataBuilder() {
         return getChipCustomTrialDataFieldBuilder().getBuilder();
       }
       /**
        * <code>._ChipCustomTrialData chip_custom_trial_data = 25;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialDataOrBuilder getChipCustomTrialDataOrBuilder() {
+      public emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialDataOrBuilder getChipCustomTrialDataOrBuilder() {
         if ((paramCase_ == 25) && (chipCustomTrialDataBuilder_ != null)) {
           return chipCustomTrialDataBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 25) {
-            return (emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData) param_;
+            return (emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData) param_;
           }
-          return emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData.getDefaultInstance();
+          return emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData.getDefaultInstance();
         }
       }
       /**
        * <code>._ChipCustomTrialData chip_custom_trial_data = 25;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData, emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData.Builder, emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialDataOrBuilder> 
+          emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData, emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData.Builder, emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialDataOrBuilder> 
           getChipCustomTrialDataFieldBuilder() {
         if (chipCustomTrialDataBuilder_ == null) {
           if (!(paramCase_ == 25)) {
-            param_ = emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData.getDefaultInstance();
           }
           chipCustomTrialDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData, emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData.Builder, emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialDataOrBuilder>(
-                  (emu.grasscutter.net.proto.ChipCustomTrialData._ChipCustomTrialData) param_,
+              emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData, emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData.Builder, emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialDataOrBuilder>(
+                  (emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass._ChipCustomTrialData) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -5532,7 +5532,7 @@ public final class IOHFNEENCJDOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PcgTemplate._PcgTemplate, emu.grasscutter.net.proto.PcgTemplate._PcgTemplate.Builder, emu.grasscutter.net.proto.PcgTemplate._PcgTemplateOrBuilder> pcgTemplateBuilder_;
+          emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate, emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate.Builder, emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplateOrBuilder> pcgTemplateBuilder_;
       /**
        * <code>._PcgTemplate pcg_template = 28;</code>
        * @return Whether the pcgTemplate field is set.
@@ -5546,23 +5546,23 @@ public final class IOHFNEENCJDOuterClass {
        * @return The pcgTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PcgTemplate._PcgTemplate getPcgTemplate() {
+      public emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate getPcgTemplate() {
         if (pcgTemplateBuilder_ == null) {
           if (paramCase_ == 28) {
-            return (emu.grasscutter.net.proto.PcgTemplate._PcgTemplate) param_;
+            return (emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate) param_;
           }
-          return emu.grasscutter.net.proto.PcgTemplate._PcgTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate.getDefaultInstance();
         } else {
           if (paramCase_ == 28) {
             return pcgTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.PcgTemplate._PcgTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._PcgTemplate pcg_template = 28;</code>
        */
-      public Builder setPcgTemplate(emu.grasscutter.net.proto.PcgTemplate._PcgTemplate value) {
+      public Builder setPcgTemplate(emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate value) {
         if (pcgTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5579,7 +5579,7 @@ public final class IOHFNEENCJDOuterClass {
        * <code>._PcgTemplate pcg_template = 28;</code>
        */
       public Builder setPcgTemplate(
-          emu.grasscutter.net.proto.PcgTemplate._PcgTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate.Builder builderForValue) {
         if (pcgTemplateBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -5592,11 +5592,11 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._PcgTemplate pcg_template = 28;</code>
        */
-      public Builder mergePcgTemplate(emu.grasscutter.net.proto.PcgTemplate._PcgTemplate value) {
+      public Builder mergePcgTemplate(emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate value) {
         if (pcgTemplateBuilder_ == null) {
           if (paramCase_ == 28 &&
-              param_ != emu.grasscutter.net.proto.PcgTemplate._PcgTemplate.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.PcgTemplate._PcgTemplate.newBuilder((emu.grasscutter.net.proto.PcgTemplate._PcgTemplate) param_)
+              param_ != emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate.newBuilder((emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -5633,36 +5633,36 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._PcgTemplate pcg_template = 28;</code>
        */
-      public emu.grasscutter.net.proto.PcgTemplate._PcgTemplate.Builder getPcgTemplateBuilder() {
+      public emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate.Builder getPcgTemplateBuilder() {
         return getPcgTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._PcgTemplate pcg_template = 28;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PcgTemplate._PcgTemplateOrBuilder getPcgTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplateOrBuilder getPcgTemplateOrBuilder() {
         if ((paramCase_ == 28) && (pcgTemplateBuilder_ != null)) {
           return pcgTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 28) {
-            return (emu.grasscutter.net.proto.PcgTemplate._PcgTemplate) param_;
+            return (emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate) param_;
           }
-          return emu.grasscutter.net.proto.PcgTemplate._PcgTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._PcgTemplate pcg_template = 28;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PcgTemplate._PcgTemplate, emu.grasscutter.net.proto.PcgTemplate._PcgTemplate.Builder, emu.grasscutter.net.proto.PcgTemplate._PcgTemplateOrBuilder> 
+          emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate, emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate.Builder, emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplateOrBuilder> 
           getPcgTemplateFieldBuilder() {
         if (pcgTemplateBuilder_ == null) {
           if (!(paramCase_ == 28)) {
-            param_ = emu.grasscutter.net.proto.PcgTemplate._PcgTemplate.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate.getDefaultInstance();
           }
           pcgTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PcgTemplate._PcgTemplate, emu.grasscutter.net.proto.PcgTemplate._PcgTemplate.Builder, emu.grasscutter.net.proto.PcgTemplate._PcgTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.PcgTemplate._PcgTemplate) param_,
+              emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate, emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate.Builder, emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._PcgTemplateOuterClass._PcgTemplate) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -5814,7 +5814,7 @@ public final class IOHFNEENCJDOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CustomAsset._CustomAsset, emu.grasscutter.net.proto.CustomAsset._CustomAsset.Builder, emu.grasscutter.net.proto.CustomAsset._CustomAssetOrBuilder> customAssetBuilder_;
+          emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset, emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset.Builder, emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAssetOrBuilder> customAssetBuilder_;
       /**
        * <code>._CustomAsset custom_asset = 30;</code>
        * @return Whether the customAsset field is set.
@@ -5828,23 +5828,23 @@ public final class IOHFNEENCJDOuterClass {
        * @return The customAsset.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CustomAsset._CustomAsset getCustomAsset() {
+      public emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset getCustomAsset() {
         if (customAssetBuilder_ == null) {
           if (paramCase_ == 30) {
-            return (emu.grasscutter.net.proto.CustomAsset._CustomAsset) param_;
+            return (emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset) param_;
           }
-          return emu.grasscutter.net.proto.CustomAsset._CustomAsset.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset.getDefaultInstance();
         } else {
           if (paramCase_ == 30) {
             return customAssetBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.CustomAsset._CustomAsset.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset.getDefaultInstance();
         }
       }
       /**
        * <code>._CustomAsset custom_asset = 30;</code>
        */
-      public Builder setCustomAsset(emu.grasscutter.net.proto.CustomAsset._CustomAsset value) {
+      public Builder setCustomAsset(emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset value) {
         if (customAssetBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5861,7 +5861,7 @@ public final class IOHFNEENCJDOuterClass {
        * <code>._CustomAsset custom_asset = 30;</code>
        */
       public Builder setCustomAsset(
-          emu.grasscutter.net.proto.CustomAsset._CustomAsset.Builder builderForValue) {
+          emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset.Builder builderForValue) {
         if (customAssetBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -5874,11 +5874,11 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._CustomAsset custom_asset = 30;</code>
        */
-      public Builder mergeCustomAsset(emu.grasscutter.net.proto.CustomAsset._CustomAsset value) {
+      public Builder mergeCustomAsset(emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset value) {
         if (customAssetBuilder_ == null) {
           if (paramCase_ == 30 &&
-              param_ != emu.grasscutter.net.proto.CustomAsset._CustomAsset.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.CustomAsset._CustomAsset.newBuilder((emu.grasscutter.net.proto.CustomAsset._CustomAsset) param_)
+              param_ != emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset.newBuilder((emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -5915,36 +5915,36 @@ public final class IOHFNEENCJDOuterClass {
       /**
        * <code>._CustomAsset custom_asset = 30;</code>
        */
-      public emu.grasscutter.net.proto.CustomAsset._CustomAsset.Builder getCustomAssetBuilder() {
+      public emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset.Builder getCustomAssetBuilder() {
         return getCustomAssetFieldBuilder().getBuilder();
       }
       /**
        * <code>._CustomAsset custom_asset = 30;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CustomAsset._CustomAssetOrBuilder getCustomAssetOrBuilder() {
+      public emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAssetOrBuilder getCustomAssetOrBuilder() {
         if ((paramCase_ == 30) && (customAssetBuilder_ != null)) {
           return customAssetBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 30) {
-            return (emu.grasscutter.net.proto.CustomAsset._CustomAsset) param_;
+            return (emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset) param_;
           }
-          return emu.grasscutter.net.proto.CustomAsset._CustomAsset.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset.getDefaultInstance();
         }
       }
       /**
        * <code>._CustomAsset custom_asset = 30;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CustomAsset._CustomAsset, emu.grasscutter.net.proto.CustomAsset._CustomAsset.Builder, emu.grasscutter.net.proto.CustomAsset._CustomAssetOrBuilder> 
+          emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset, emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset.Builder, emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAssetOrBuilder> 
           getCustomAssetFieldBuilder() {
         if (customAssetBuilder_ == null) {
           if (!(paramCase_ == 30)) {
-            param_ = emu.grasscutter.net.proto.CustomAsset._CustomAsset.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset.getDefaultInstance();
           }
           customAssetBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CustomAsset._CustomAsset, emu.grasscutter.net.proto.CustomAsset._CustomAsset.Builder, emu.grasscutter.net.proto.CustomAsset._CustomAssetOrBuilder>(
-                  (emu.grasscutter.net.proto.CustomAsset._CustomAsset) param_,
+              emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset, emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset.Builder, emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAssetOrBuilder>(
+                  (emu.grasscutter.net.proto._CustomAssetOuterClass._CustomAsset) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -6197,8 +6197,8 @@ public final class IOHFNEENCJDOuterClass {
       "H\000\022$\n\014pcg_instance\030\035 \001(\0132\014.HIABKGPOIAKH\000" +
       "\022%\n\014custom_asset\030\036 \001(\0132\r._CustomAssetH\000\022" +
       "\"\n\ncustom_map\030\037 \001(\0132\014.BCGCANOKPJBH\000B\007\n\005p" +
-      "aramB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "aramB2\n\031emu.grasscutter.net.protoB\025IOHFN" +
+      "EENCJDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -6216,16 +6216,16 @@ public final class IOHFNEENCJDOuterClass {
           emu.grasscutter.net.proto.NGAIENDAPFFOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PGNNPOIOKJKOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PONPDEFLNGDOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.AbsoluteRoute.getDescriptor(),
-          emu.grasscutter.net.proto.AttachArchetype.getDescriptor(),
-          emu.grasscutter.net.proto.CameraData.getDescriptor(),
-          emu.grasscutter.net.proto.ChipCustomTrialData.getDescriptor(),
-          emu.grasscutter.net.proto.ChipTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.CustomAsset.getDescriptor(),
-          emu.grasscutter.net.proto.CustomUiNode.getDescriptor(),
-          emu.grasscutter.net.proto.InstructionNodeConfig.getDescriptor(),
-          emu.grasscutter.net.proto.PcgTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.Struct.getDescriptor(),
+          emu.grasscutter.net.proto._AbsoluteRouteOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._AttachArchetypeOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._CameraDataOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ChipTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._CustomAssetOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._CustomUiNodeOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._InstructionNodeConfigOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._PcgTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._StructOuterClass.getDescriptor(),
         });
     internal_static_IOHFNEENCJD_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -6246,16 +6246,16 @@ public final class IOHFNEENCJDOuterClass {
     emu.grasscutter.net.proto.NGAIENDAPFFOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PGNNPOIOKJKOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PONPDEFLNGDOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.AbsoluteRoute.getDescriptor();
-    emu.grasscutter.net.proto.AttachArchetype.getDescriptor();
-    emu.grasscutter.net.proto.CameraData.getDescriptor();
-    emu.grasscutter.net.proto.ChipCustomTrialData.getDescriptor();
-    emu.grasscutter.net.proto.ChipTemplate.getDescriptor();
-    emu.grasscutter.net.proto.CustomAsset.getDescriptor();
-    emu.grasscutter.net.proto.CustomUiNode.getDescriptor();
-    emu.grasscutter.net.proto.InstructionNodeConfig.getDescriptor();
-    emu.grasscutter.net.proto.PcgTemplate.getDescriptor();
-    emu.grasscutter.net.proto.Struct.getDescriptor();
+    emu.grasscutter.net.proto._AbsoluteRouteOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._AttachArchetypeOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._CameraDataOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ChipCustomTrialDataOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ChipTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._CustomAssetOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._CustomUiNodeOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._InstructionNodeConfigOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._PcgTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._StructOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

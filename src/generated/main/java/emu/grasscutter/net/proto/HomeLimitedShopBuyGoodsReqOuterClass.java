@@ -730,8 +730,9 @@ public final class HomeLimitedShopBuyGoodsReqOuterClass {
       "\n HomeLimitedShopBuyGoodsReq.proto\032\032Home" +
       "LimitedShopGoods.proto\"U\n\032HomeLimitedSho" +
       "pBuyGoodsReq\022\021\n\tbuy_count\030\001 \001(\r\022$\n\005goods" +
-      "\030\004 \001(\0132\025.HomeLimitedShopGoodsB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\030\004 \001(\0132\025.HomeLimitedShopGoodsBA\n\031emu.gra" +
+      "sscutter.net.protoB$HomeLimitedShopBuyGo" +
+      "odsReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

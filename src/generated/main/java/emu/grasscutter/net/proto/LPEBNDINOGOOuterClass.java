@@ -1034,8 +1034,8 @@ public final class LPEBNDINOGOOuterClass {
       "\n\021LPEBNDINOGO.proto\032\021BAEGAMHKBLJ.proto\"b" +
       "\n\013LPEBNDINOGO\022\r\n\005value\030\005 \001(\005\022\023\n\013HCICPCOH" +
       "KDF\030\007 \001(\005\022!\n\013AEGBCCCEHJK\030\014 \003(\0132\014.BAEGAMH" +
-      "KBLJ\022\014\n\004type\030\016 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "KBLJ\022\014\n\004type\030\016 \001(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025LPEBNDINOGOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

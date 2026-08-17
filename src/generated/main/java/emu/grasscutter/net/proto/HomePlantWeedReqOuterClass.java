@@ -596,7 +596,8 @@ public final class HomePlantWeedReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026HomePlantWeedReq.proto\"5\n\020HomePlantWee" +
       "dReq\022\022\n\nfield_guid\030\006 \001(\r\022\r\n\005index\030\007 \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "7\n\031emu.grasscutter.net.protoB\032HomePlantW" +
+      "eedReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

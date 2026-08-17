@@ -823,8 +823,8 @@ public final class CLMLMPMEKGJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CLMLMPMEKGJ.proto\032\021IDMNCCNAONL.proto\"/" +
       "\n\013CLMLMPMEKGJ\022 \n\nskill_list\030\r \003(\0132\014.IDMN" +
-      "CCNAONLB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "CCNAONLB2\n\031emu.grasscutter.net.protoB\025CL" +
+      "MLMPMEKGJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

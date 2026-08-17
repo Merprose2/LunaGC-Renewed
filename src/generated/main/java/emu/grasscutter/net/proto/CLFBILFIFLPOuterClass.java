@@ -21,12 +21,12 @@ public final class CLFBILFIFLPOuterClass {
     /**
      * <code>repeated ._AutoChessItem item_list = 4;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.AutoChessItem._AutoChessItem> 
+    java.util.List<emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem> 
         getItemListList();
     /**
      * <code>repeated ._AutoChessItem item_list = 4;</code>
      */
-    emu.grasscutter.net.proto.AutoChessItem._AutoChessItem getItemList(int index);
+    emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem getItemList(int index);
     /**
      * <code>repeated ._AutoChessItem item_list = 4;</code>
      */
@@ -34,12 +34,12 @@ public final class CLFBILFIFLPOuterClass {
     /**
      * <code>repeated ._AutoChessItem item_list = 4;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.AutoChessItem._AutoChessItemOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItemOrBuilder> 
         getItemListOrBuilderList();
     /**
      * <code>repeated ._AutoChessItem item_list = 4;</code>
      */
-    emu.grasscutter.net.proto.AutoChessItem._AutoChessItemOrBuilder getItemListOrBuilder(
+    emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItemOrBuilder getItemListOrBuilder(
         int index);
 
     /**
@@ -97,11 +97,11 @@ public final class CLFBILFIFLPOuterClass {
               break;
             case 34: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AutoChessItem._AutoChessItem>();
+                itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem>();
                 mutable_bitField0_ |= 0x00000001;
               }
               itemList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.AutoChessItem._AutoChessItem.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem.parser(), extensionRegistry));
               break;
             }
             case 48: {
@@ -145,19 +145,19 @@ public final class CLFBILFIFLPOuterClass {
     }
 
     public static final int ITEM_LIST_FIELD_NUMBER = 4;
-    private java.util.List<emu.grasscutter.net.proto.AutoChessItem._AutoChessItem> itemList_;
+    private java.util.List<emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem> itemList_;
     /**
      * <code>repeated ._AutoChessItem item_list = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.AutoChessItem._AutoChessItem> getItemListList() {
+    public java.util.List<emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem> getItemListList() {
       return itemList_;
     }
     /**
      * <code>repeated ._AutoChessItem item_list = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AutoChessItem._AutoChessItemOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItemOrBuilder> 
         getItemListOrBuilderList() {
       return itemList_;
     }
@@ -172,14 +172,14 @@ public final class CLFBILFIFLPOuterClass {
      * <code>repeated ._AutoChessItem item_list = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AutoChessItem._AutoChessItem getItemList(int index) {
+    public emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem getItemList(int index) {
       return itemList_.get(index);
     }
     /**
      * <code>repeated ._AutoChessItem item_list = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AutoChessItem._AutoChessItemOrBuilder getItemListOrBuilder(
+    public emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItemOrBuilder getItemListOrBuilder(
         int index) {
       return itemList_.get(index);
     }
@@ -555,22 +555,22 @@ public final class CLFBILFIFLPOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.AutoChessItem._AutoChessItem> itemList_ =
+      private java.util.List<emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem> itemList_ =
         java.util.Collections.emptyList();
       private void ensureItemListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AutoChessItem._AutoChessItem>(itemList_);
+          itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem>(itemList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AutoChessItem._AutoChessItem, emu.grasscutter.net.proto.AutoChessItem._AutoChessItem.Builder, emu.grasscutter.net.proto.AutoChessItem._AutoChessItemOrBuilder> itemListBuilder_;
+          emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem, emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem.Builder, emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItemOrBuilder> itemListBuilder_;
 
       /**
        * <code>repeated ._AutoChessItem item_list = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AutoChessItem._AutoChessItem> getItemListList() {
+      public java.util.List<emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem> getItemListList() {
         if (itemListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(itemList_);
         } else {
@@ -590,7 +590,7 @@ public final class CLFBILFIFLPOuterClass {
       /**
        * <code>repeated ._AutoChessItem item_list = 4;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessItem._AutoChessItem getItemList(int index) {
+      public emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem getItemList(int index) {
         if (itemListBuilder_ == null) {
           return itemList_.get(index);
         } else {
@@ -601,7 +601,7 @@ public final class CLFBILFIFLPOuterClass {
        * <code>repeated ._AutoChessItem item_list = 4;</code>
        */
       public Builder setItemList(
-          int index, emu.grasscutter.net.proto.AutoChessItem._AutoChessItem value) {
+          int index, emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem value) {
         if (itemListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -618,7 +618,7 @@ public final class CLFBILFIFLPOuterClass {
        * <code>repeated ._AutoChessItem item_list = 4;</code>
        */
       public Builder setItemList(
-          int index, emu.grasscutter.net.proto.AutoChessItem._AutoChessItem.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem.Builder builderForValue) {
         if (itemListBuilder_ == null) {
           ensureItemListIsMutable();
           itemList_.set(index, builderForValue.build());
@@ -631,7 +631,7 @@ public final class CLFBILFIFLPOuterClass {
       /**
        * <code>repeated ._AutoChessItem item_list = 4;</code>
        */
-      public Builder addItemList(emu.grasscutter.net.proto.AutoChessItem._AutoChessItem value) {
+      public Builder addItemList(emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem value) {
         if (itemListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,7 +648,7 @@ public final class CLFBILFIFLPOuterClass {
        * <code>repeated ._AutoChessItem item_list = 4;</code>
        */
       public Builder addItemList(
-          int index, emu.grasscutter.net.proto.AutoChessItem._AutoChessItem value) {
+          int index, emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem value) {
         if (itemListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -665,7 +665,7 @@ public final class CLFBILFIFLPOuterClass {
        * <code>repeated ._AutoChessItem item_list = 4;</code>
        */
       public Builder addItemList(
-          emu.grasscutter.net.proto.AutoChessItem._AutoChessItem.Builder builderForValue) {
+          emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem.Builder builderForValue) {
         if (itemListBuilder_ == null) {
           ensureItemListIsMutable();
           itemList_.add(builderForValue.build());
@@ -679,7 +679,7 @@ public final class CLFBILFIFLPOuterClass {
        * <code>repeated ._AutoChessItem item_list = 4;</code>
        */
       public Builder addItemList(
-          int index, emu.grasscutter.net.proto.AutoChessItem._AutoChessItem.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem.Builder builderForValue) {
         if (itemListBuilder_ == null) {
           ensureItemListIsMutable();
           itemList_.add(index, builderForValue.build());
@@ -693,7 +693,7 @@ public final class CLFBILFIFLPOuterClass {
        * <code>repeated ._AutoChessItem item_list = 4;</code>
        */
       public Builder addAllItemList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.AutoChessItem._AutoChessItem> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem> values) {
         if (itemListBuilder_ == null) {
           ensureItemListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -733,14 +733,14 @@ public final class CLFBILFIFLPOuterClass {
       /**
        * <code>repeated ._AutoChessItem item_list = 4;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessItem._AutoChessItem.Builder getItemListBuilder(
+      public emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem.Builder getItemListBuilder(
           int index) {
         return getItemListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._AutoChessItem item_list = 4;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessItem._AutoChessItemOrBuilder getItemListOrBuilder(
+      public emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItemOrBuilder getItemListOrBuilder(
           int index) {
         if (itemListBuilder_ == null) {
           return itemList_.get(index);  } else {
@@ -750,7 +750,7 @@ public final class CLFBILFIFLPOuterClass {
       /**
        * <code>repeated ._AutoChessItem item_list = 4;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.AutoChessItem._AutoChessItemOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItemOrBuilder> 
            getItemListOrBuilderList() {
         if (itemListBuilder_ != null) {
           return itemListBuilder_.getMessageOrBuilderList();
@@ -761,31 +761,31 @@ public final class CLFBILFIFLPOuterClass {
       /**
        * <code>repeated ._AutoChessItem item_list = 4;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessItem._AutoChessItem.Builder addItemListBuilder() {
+      public emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem.Builder addItemListBuilder() {
         return getItemListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.AutoChessItem._AutoChessItem.getDefaultInstance());
+            emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem.getDefaultInstance());
       }
       /**
        * <code>repeated ._AutoChessItem item_list = 4;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessItem._AutoChessItem.Builder addItemListBuilder(
+      public emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem.Builder addItemListBuilder(
           int index) {
         return getItemListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.AutoChessItem._AutoChessItem.getDefaultInstance());
+            index, emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem.getDefaultInstance());
       }
       /**
        * <code>repeated ._AutoChessItem item_list = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AutoChessItem._AutoChessItem.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem.Builder> 
            getItemListBuilderList() {
         return getItemListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AutoChessItem._AutoChessItem, emu.grasscutter.net.proto.AutoChessItem._AutoChessItem.Builder, emu.grasscutter.net.proto.AutoChessItem._AutoChessItemOrBuilder> 
+          emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem, emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem.Builder, emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItemOrBuilder> 
           getItemListFieldBuilder() {
         if (itemListBuilder_ == null) {
           itemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.AutoChessItem._AutoChessItem, emu.grasscutter.net.proto.AutoChessItem._AutoChessItem.Builder, emu.grasscutter.net.proto.AutoChessItem._AutoChessItemOrBuilder>(
+              emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem, emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItem.Builder, emu.grasscutter.net.proto._AutoChessItemOuterClass._AutoChessItemOrBuilder>(
                   itemList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -894,13 +894,14 @@ public final class CLFBILFIFLPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CLFBILFIFLP.proto\032\024_AutoChessItem.prot" +
       "o\"F\n\013CLFBILFIFLP\022\"\n\titem_list\030\004 \003(\0132\017._A" +
-      "utoChessItem\022\023\n\013LBCJLJNCPFO\030\006 \001(\010B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "utoChessItem\022\023\n\013LBCJLJNCPFO\030\006 \001(\010B2\n\031emu" +
+      ".grasscutter.net.protoB\025CLFBILFIFLPOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.AutoChessItem.getDescriptor(),
+          emu.grasscutter.net.proto._AutoChessItemOuterClass.getDescriptor(),
         });
     internal_static_CLFBILFIFLP_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -908,7 +909,7 @@ public final class CLFBILFIFLPOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CLFBILFIFLP_descriptor,
         new java.lang.String[] { "ItemList", "LBCJLJNCPFO", });
-    emu.grasscutter.net.proto.AutoChessItem.getDescriptor();
+    emu.grasscutter.net.proto._AutoChessItemOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

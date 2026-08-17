@@ -933,8 +933,9 @@ public final class FFGMBMLCGPCOuterClass {
       "\n\021FFGMBMLCGPC.proto\032\021AGCBFLPCCPO.proto\"h" +
       "\n\013FFGMBMLCGPC\022!\n\013MMKCGCLJDNA\030\001 \001(\0132\014.AGC" +
       "BFLPCCPO\022\023\n\013KMDOFBPMGAI\030\005 \001(\r\022!\n\013PAGGGHE" +
-      "DGPE\030\010 \001(\0132\014.AGCBFLPCCPOB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "DGPE\030\010 \001(\0132\014.AGCBFLPCCPOB2\n\031emu.grasscut" +
+      "ter.net.protoB\025FFGMBMLCGPCOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

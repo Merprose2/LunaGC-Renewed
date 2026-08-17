@@ -152,7 +152,8 @@ public final class JKAKKIJKEJJOuterClass {
       "\n\021JKAKKIJKEJJ.proto*c\n\013JKAKKIJKEJJ\022\024\n\020JK" +
       "AKKIJKEJJ_NONE\020\000\022\023\n\017JKAKKIJKEJJ_LOW\020\001\022\023\n" +
       "\017JKAKKIJKEJJ_MID\020\002\022\024\n\020JKAKKIJKEJJ_HIGH\020\003" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025JKAKKIJKE" +
+      "JJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

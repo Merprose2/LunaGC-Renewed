@@ -651,8 +651,8 @@ public final class MEAMDHNFDPJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MEAMDHNFDPJ.proto\032\021OLELHDLBJKB.proto\"0" +
       "\n\013MEAMDHNFDPJ\022!\n\013OECEFDPCPJJ\030\001 \001(\0132\014.OLE" +
-      "LHDLBJKBB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "LHDLBJKBB2\n\031emu.grasscutter.net.protoB\025M" +
+      "EAMDHNFDPJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

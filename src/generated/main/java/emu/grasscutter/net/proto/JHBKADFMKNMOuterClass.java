@@ -964,8 +964,8 @@ public final class JHBKADFMKNMOuterClass {
       "\n\021JHBKADFMKNM.proto\032\021JIFJALKMPBN.proto\"Z" +
       "\n\013JHBKADFMKNM\022!\n\013FCDNMJLCHOP\030\001 \003(\0132\014.JIF" +
       "JALKMPBN\022\023\n\013NFKILJFJCCK\030\002 \001(\005\022\023\n\013OMBJDEL" +
-      "PAOK\030\003 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "PAOK\030\003 \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025JHBKADFMKNMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

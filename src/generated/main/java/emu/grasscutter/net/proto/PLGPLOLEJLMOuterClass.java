@@ -737,8 +737,9 @@ public final class PLGPLOLEJLMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PLGPLOLEJLM.proto\"a\n\013PLGPLOLEJLM\022\023\n\013EK" +
       "GDKCKEHJI\030\007 \001(\r\022\023\n\013PLHONHBBJJO\030\010 \001(\010\022\023\n\013" +
-      "OPMEBFPIIFI\030\013 \001(\r\022\023\n\013DDKCIHBOPIE\030\r \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "OPMEBFPIIFI\030\013 \001(\r\022\023\n\013DDKCIHBOPIE\030\r \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025PLGPLOLEJLM" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

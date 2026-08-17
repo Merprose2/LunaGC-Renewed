@@ -1144,8 +1144,8 @@ public final class ECNIPFHNLAKOuterClass {
       "CB\030\007 \001(\r\022\025\n\r_map_layer_id\030\010 \001(\r\022\031\n\010posit" +
       "ion\030\n \001(\0132\007.Vector\022\021\n\tconfig_id\030\013 \001(\r\022\020\n" +
       "\010group_id\030\014 \001(\r\022\023\n\013ECAHGLKEMIB\030\016 \001(\r\022\023\n\013" +
-      "OHLNBHFKGJE\030\017 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "OHLNBHFKGJE\030\017 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025ECNIPFHNLAKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

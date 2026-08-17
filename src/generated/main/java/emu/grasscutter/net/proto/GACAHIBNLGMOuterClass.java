@@ -525,8 +525,8 @@ public final class GACAHIBNLGMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GACAHIBNLGM.proto\"\"\n\013GACAHIBNLGM\022\023\n\013LA" +
-      "GCMOIMKFI\030\010 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "GCMOIMKFI\030\010 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025GACAHIBNLGMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

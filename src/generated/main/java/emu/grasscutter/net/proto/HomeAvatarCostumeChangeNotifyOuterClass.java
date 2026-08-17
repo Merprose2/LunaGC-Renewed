@@ -596,8 +596,9 @@ public final class HomeAvatarCostumeChangeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n#HomeAvatarCostumeChangeNotify.proto\"F\n" +
       "\035HomeAvatarCostumeChangeNotify\022\021\n\tavatar" +
-      "_id\030\005 \001(\r\022\022\n\ncostume_id\030\007 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "_id\030\005 \001(\r\022\022\n\ncostume_id\030\007 \001(\rBD\n\031emu.gra" +
+      "sscutter.net.protoB\'HomeAvatarCostumeCha" +
+      "ngeNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

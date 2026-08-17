@@ -1408,8 +1408,9 @@ public final class VehicleLocationInfoOuterClass {
       " \001(\r\022\020\n\010uid_list\030\002 \003(\r\022\016\n\006max_hp\030\003 \001(\002\022\021" +
       "\n\tentity_id\030\006 \001(\r\022\024\n\003rot\030\010 \001(\0132\007.Vector\022" +
       "\021\n\towner_uid\030\013 \001(\r\022\024\n\003pos\030\r \001(\0132\007.Vector" +
-      "\022\016\n\006cur_hp\030\017 \001(\002B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\022\016\n\006cur_hp\030\017 \001(\002B:\n\031emu.grasscutter.net." +
+      "protoB\035VehicleLocationInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

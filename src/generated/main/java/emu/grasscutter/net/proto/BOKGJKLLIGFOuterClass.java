@@ -595,8 +595,9 @@ public final class BOKGJKLLIGFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BOKGJKLLIGF.proto\"5\n\013BOKGJKLLIGF\022\022\n\nta" +
-      "rget_uid\030\001 \001(\r\022\022\n\nsource_uid\030\n \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "rget_uid\030\001 \001(\r\022\022\n\nsource_uid\030\n \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025BOKGJKLLIGFOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

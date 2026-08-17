@@ -2107,7 +2107,8 @@ public final class IPGAKONLGPHOuterClass {
       "PMHHCH\000\0323\n\013AKPLGMPMHHC\022\017\n\007peer_id\030\006 \001(\r\022" +
       "\023\n\013BELMMFEMNIP\030\007 \001(\r\0323\n\013OKEMOAKFFBB\022\023\n\013B" +
       "ELMMFEMNIP\030\003 \001(\r\022\017\n\007peer_id\030\017 \001(\rB\004\n\002opB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025IPGAKONLGP" +
+      "HOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -2559,8 +2559,9 @@ public final class IAKKHHFJNKDOuterClass {
       "\022\023\n\013EDCJJGLHHCJ\030\021 \001(\r\022!\n\013NCMHABHCAJK\030\022 \001" +
       "(\0132\014.GCDNCDJBDAF\022\023\n\013AKLCDEENMGN\030\023 \001(\005\022\023\n" +
       "\013LIEAOAMOKAO\030\024 \001(\005\022!\n\013NCJEJDIIHJG\030\025 \001(\0132" +
-      "\014.GCDNCDJBDAF\022\023\n\013CPPAJKKNGON\030\026 \001(\005B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\014.GCDNCDJBDAF\022\023\n\013CPPAJKKNGON\030\026 \001(\005B2\n\031em" +
+      "u.grasscutter.net.protoB\025IAKKHHFJNKDOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

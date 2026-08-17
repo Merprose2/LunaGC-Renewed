@@ -729,8 +729,9 @@ public final class VintageHuntingFirstStageInfoOuterClass {
       "\n\"VintageHuntingFirstStageInfo.proto\"l\n\034" +
       "VintageHuntingFirstStageInfo\022\023\n\013HMGIBMJE" +
       "AJB\030\005 \001(\r\022\023\n\013DCGIFCCPHJO\030\006 \001(\r\022\023\n\013BENHOA" +
-      "GGCHI\030\007 \001(\r\022\r\n\005score\030\014 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "GGCHI\030\007 \001(\r\022\r\n\005score\030\014 \001(\rBC\n\031emu.grassc" +
+      "utter.net.protoB&VintageHuntingFirstStag" +
+      "eInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

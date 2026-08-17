@@ -662,8 +662,8 @@ public final class IEJBEAFEBDMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IEJBEAFEBDM.proto\"L\n\013IEJBEAFEBDM\022\023\n\013AM" +
       "MOBBENFNL\030\001 \001(\005\022\023\n\013HEDEJKJBOEJ\030\002 \001(\005\022\023\n\013" +
-      "NGEDGDGBAID\030\003 \001(\014B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "NGEDGDGBAID\030\003 \001(\014B2\n\031emu.grasscutter.net" +
+      ".protoB\025IEJBEAFEBDMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

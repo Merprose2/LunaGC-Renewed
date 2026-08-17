@@ -596,8 +596,9 @@ public final class KDENMHKJDPFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KDENMHKJDPF.proto\"1\n\013KDENMHKJDPF\022\021\n\tis" +
-      "_locked\030\006 \001(\010\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "_locked\030\006 \001(\010\022\017\n\007retcode\030\016 \001(\005B2\n\031emu.gr" +
+      "asscutter.net.protoB\025KDENMHKJDPFOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

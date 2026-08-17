@@ -152,8 +152,8 @@ public final class BEKDPMFGHEIOuterClass {
       "\n\021BEKDPMFGHEI.proto*q\n\013BEKDPMFGHEI\022\024\n\020BE" +
       "KDPMFGHEI_NONE\020\000\022\031\n\025BEKDPMFGHEI_LOCAL_PO" +
       "S\020\001\022\031\n\025BEKDPMFGHEI_WORLD_POS\020\002\022\026\n\022BEKDPM" +
-      "FGHEI_GADGET\020\003B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "FGHEI_GADGET\020\003B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025BEKDPMFGHEIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1505,8 +1505,9 @@ public final class PGANLCAOBBDOuterClass {
       "JPJKFOLN\030\001 \001(\0132\014.HJKKDOLHNGK\022!\n\013OIAMMFKE" +
       "KJC\030\002 \001(\0132\014.HJKKDOLHNGK\022!\n\013KPDLOAAOOIC\030\003" +
       " \003(\0132\014.BOMLKGBHAAA\022!\n\013ILAFJCJODIH\030\004 \001(\0132" +
-      "\014.HJKKDOLHNGK\022\017\n\007version\030\005 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\014.HJKKDOLHNGK\022\017\n\007version\030\005 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025PGANLCAOBBDOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

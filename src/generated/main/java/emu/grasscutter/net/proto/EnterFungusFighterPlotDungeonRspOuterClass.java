@@ -794,8 +794,9 @@ public final class EnterFungusFighterPlotDungeonRspOuterClass {
       "\n&EnterFungusFighterPlotDungeonRsp.proto" +
       "\"_\n EnterFungusFighterPlotDungeonRsp\022\017\n\007" +
       "retcode\030\003 \001(\005\022\022\n\ndungeon_id\030\016 \001(\r\022\026\n\016fun" +
-      "gus_id_list\030\017 \003(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "gus_id_list\030\017 \003(\rBG\n\031emu.grasscutter.net" +
+      ".protoB*EnterFungusFighterPlotDungeonRsp" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

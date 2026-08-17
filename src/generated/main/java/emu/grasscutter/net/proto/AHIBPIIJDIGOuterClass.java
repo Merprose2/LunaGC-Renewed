@@ -723,8 +723,9 @@ public final class AHIBPIIJDIGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AHIBPIIJDIG.proto\"7\n\013AHIBPIIJDIG\022\023\n\013_i" +
-      "s_restart\030\001 \001(\010\022\023\n\013KAPFLCEEAKJ\030\014 \003(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "s_restart\030\001 \001(\010\022\023\n\013KAPFLCEEAKJ\030\014 \003(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025AHIBPIIJDIGOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

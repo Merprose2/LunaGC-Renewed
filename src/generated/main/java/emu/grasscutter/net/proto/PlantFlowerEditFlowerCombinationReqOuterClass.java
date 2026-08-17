@@ -802,8 +802,9 @@ public final class PlantFlowerEditFlowerCombinationReqOuterClass {
       "tFlowerEditFlowerCombinationReq\022\023\n\013sched" +
       "ule_id\030\001 \001(\r\022\021\n\tentity_id\030\013 \001(\r\0226\n\027flowe" +
       "r_combination_info\030\r \001(\0132\025.CustomGadgetT" +
-      "reeInfoB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "reeInfoBJ\n\031emu.grasscutter.net.protoB-Pl" +
+      "antFlowerEditFlowerCombinationReqOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1027,8 +1027,9 @@ public final class CJCNLOEFGENOuterClass {
       "\n\021CJCNLOEFGEN.proto\032\021DDJAEBCDMLO.proto\032\021" +
       "HJKKDOLHNGK.proto\"S\n\013CJCNLOEFGEN\022!\n\013KMKK" +
       "GDEONAE\030\001 \001(\0132\014.HJKKDOLHNGK\022!\n\013LKOKDINEG" +
-      "JC\030\002 \003(\0132\014.DDJAEBCDMLOB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "JC\030\002 \003(\0132\014.DDJAEBCDMLOB2\n\031emu.grasscutte" +
+      "r.net.protoB\025CJCNLOEFGENOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

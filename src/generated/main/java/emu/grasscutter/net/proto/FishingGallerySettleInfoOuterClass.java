@@ -1149,8 +1149,9 @@ public final class FishingGallerySettleInfoOuterClass {
       "shingGallerySettleInfo.FishMapEntry\022)\n\022f" +
       "ishing_score_list\030\006 \003(\0132\r.FishingScore\0329" +
       "\n\014FishMapEntry\022\013\n\003key\030\001 \001(\r\022\030\n\005value\030\002 \001" +
-      "(\0132\t.FishInfo:\0028\001B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "(\0132\t.FishInfo:\0028\001B?\n\031emu.grasscutter.net" +
+      ".protoB\"FishingGallerySettleInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

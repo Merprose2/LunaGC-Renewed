@@ -595,8 +595,9 @@ public final class LBMEFOEGCDMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LBMEFOEGCDM.proto\"*\n\013LBMEFOEGCDM\022\013\n\003ui" +
-      "d\030\r \001(\r\022\016\n\006pic_id\030\016 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "d\030\r \001(\r\022\016\n\006pic_id\030\016 \001(\rB2\n\031emu.grasscutt" +
+      "er.net.protoB\025LBMEFOEGCDMOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

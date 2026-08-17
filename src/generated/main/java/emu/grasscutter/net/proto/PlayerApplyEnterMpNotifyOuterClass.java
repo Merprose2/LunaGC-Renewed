@@ -872,8 +872,9 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
       "PlayerInfo.proto\"\205\001\n\030PlayerApplyEnterMpN" +
       "otify\022\023\n\013GECNDBBGLCN\030\002 \001(\r\022\023\n\013EEHKAIMJJD" +
       "O\030\003 \001(\010\022*\n\017src_player_info\030\004 \001(\0132\021.Onlin" +
-      "ePlayerInfo\022\023\n\013EBDIMCHMKKD\030\n \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "ePlayerInfo\022\023\n\013EBDIMCHMKKD\030\n \001(\rB?\n\031emu." +
+      "grasscutter.net.protoB\"PlayerApplyEnterM" +
+      "pNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

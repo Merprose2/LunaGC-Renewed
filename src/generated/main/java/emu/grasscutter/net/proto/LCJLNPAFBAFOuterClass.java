@@ -588,8 +588,9 @@ public final class LCJLNPAFBAFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LCJLNPAFBAF.proto\"9\n\013LCJLNPAFBAF\022\027\n\017is" +
-      "_trial_avatar\030\003 \001(\010\022\021\n\tavatar_id\030\013 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "_trial_avatar\030\003 \001(\010\022\021\n\tavatar_id\030\013 \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025LCJLNPAFBAF" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

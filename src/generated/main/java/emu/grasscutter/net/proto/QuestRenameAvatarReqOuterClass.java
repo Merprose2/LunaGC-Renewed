@@ -747,8 +747,9 @@ public final class QuestRenameAvatarReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032QuestRenameAvatarReq.proto\"P\n\024QuestRen" +
       "ameAvatarReq\022\020\n\010is_check\030\004 \001(\010\022\023\n\013avatar" +
-      "_name\030\005 \001(\t\022\021\n\trename_id\030\r \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "_name\030\005 \001(\t\022\021\n\trename_id\030\r \001(\rB;\n\031emu.gr" +
+      "asscutter.net.protoB\036QuestRenameAvatarRe" +
+      "qOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -666,8 +666,8 @@ public final class NEMFNOFPMCHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NEMFNOFPMCH.proto\"J\n\013NEMFNOFPMCH\022\023\n\013MO" +
       "ALINDDJKJ\030\006 \001(\r\022\023\n\013GMOHKEGOGNB\030\007 \001(\r\022\021\n\t" +
-      "cost_time\030\t \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "cost_time\030\t \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025NEMFNOFPMCHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -901,8 +901,9 @@ public final class PDDMMAJJLOBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PDDMMAJJLOB.proto\032\021FNOMEKGFNHD.proto\"E" +
       "\n\013PDDMMAJJLOB\022!\n\013BALDEIKHMCO\030\005 \003(\0132\014.FNO" +
-      "MEKGFNHD\022\023\n\013KMDOFBPMGAI\030\010 \001(\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "MEKGFNHD\022\023\n\013KMDOFBPMGAI\030\010 \001(\005B2\n\031emu.gra" +
+      "sscutter.net.protoB\025PDDMMAJJLOBOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -950,8 +950,9 @@ public final class GCGTCTavernInfoNotifyOuterClass {
       "avernInfoNotify\022\020\n\010level_id\030\003 \001(\r\022\023\n\013IJA" +
       "PJKGBJNC\030\004 \001(\010\022\023\n\013PHICGCKFEGJ\030\006 \001(\010\022\021\n\ta" +
       "vatar_id\030\010 \001(\r\022\024\n\014element_type\030\t \001(\r\022\020\n\010" +
-      "point_id\030\013 \001(\r\022\024\n\014character_id\030\017 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "point_id\030\013 \001(\r\022\024\n\014character_id\030\017 \001(\rB<\n\031" +
+      "emu.grasscutter.net.protoB\037GCGTCTavernIn" +
+      "foNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

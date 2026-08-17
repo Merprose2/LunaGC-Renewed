@@ -1700,8 +1700,8 @@ public final class ONOBNPEKFOPOuterClass {
       "bullet_move_follow\030\r \001(\0132\014.PDAMLFHHOLHH\000" +
       "\0223\n\033beyond_bullet_move_surround\030\016 \001(\0132\014." +
       "NHPANEDGIEAH\000\022\024\n\013DKKHMLPNBKK\030\366\003 \001(\tB\010\n\006d" +
-      "etailB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "etailB2\n\031emu.grasscutter.net.protoB\025ONOB" +
+      "NPEKFOPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

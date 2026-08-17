@@ -653,8 +653,10 @@ public final class ChannellerSlabOneOffDungeonInfoNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n+ChannellerSlabOneOffDungeonInfoNotify." +
       "proto\"D\n%ChannellerSlabOneOffDungeonInfo" +
-      "Notify\022\033\n\023scheme_buff_id_list\030\016 \003(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "Notify\022\033\n\023scheme_buff_id_list\030\016 \003(\rBL\n\031e" +
+      "mu.grasscutter.net.protoB/ChannellerSlab" +
+      "OneOffDungeonInfoNotifyOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

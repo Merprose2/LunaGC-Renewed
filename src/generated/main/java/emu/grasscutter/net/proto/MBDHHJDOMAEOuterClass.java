@@ -1025,8 +1025,9 @@ public final class MBDHHJDOMAEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MBDHHJDOMAE.proto\032\021MPLGPDJHLFP.proto\"E" +
       "\n\013MBDHHJDOMAE\022\023\n\013BOLEFMKNCDD\030\006 \003(\r\022!\n\013MH" +
-      "MJLJCIOKL\030\016 \003(\0132\014.MPLGPDJHLFPB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "MJLJCIOKL\030\016 \003(\0132\014.MPLGPDJHLFPB2\n\031emu.gra" +
+      "sscutter.net.protoB\025MBDHHJDOMAEOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -2997,8 +2997,9 @@ public final class FLOHDDJLIECOuterClass {
       "\013LPKMJDHICDN\022!\n\013JNDLBJMELKC\030\001 \003(\0132\014.HBGP" +
       "JOBLDAC\022!\n\013EMLBIFOAGAC\030\002 \003(\0132\014.HBGPJOBLD" +
       "AC\022!\n\013MGFCJGAOHIF\030\003 \003(\0132\014.NGJBKFPNBJI\022!\n" +
-      "\013AGONCCFPKCH\030\004 \001(\0132\014.IKMDPHDFGCEB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\013AGONCCFPKCH\030\004 \001(\0132\014.IKMDPHDFGCEB2\n\031emu." +
+      "grasscutter.net.protoB\025FLOHDDJLIECOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

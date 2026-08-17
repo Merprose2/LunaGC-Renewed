@@ -592,8 +592,9 @@ public final class ModifierDurabilityOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030ModifierDurability.proto\"H\n\022ModifierDu" +
       "rability\022\024\n\014reduce_ratio\030\001 \001(\002\022\034\n\024remain" +
-      "ing_durability\030\002 \001(\002B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "ing_durability\030\002 \001(\002B9\n\031emu.grasscutter." +
+      "net.protoB\034ModifierDurabilityOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

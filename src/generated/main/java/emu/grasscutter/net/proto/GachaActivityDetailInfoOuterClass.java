@@ -1588,7 +1588,8 @@ public final class GachaActivityDetailInfoOuterClass {
       "eData\0322\n\020RobotNumMapEntry\022\013\n\003key\030\001 \001(\r\022\r" +
       "\n\005value\030\002 \001(\r:\0028\001\032<\n\032HaveRewardRobotNumM" +
       "apEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      ">\n\031emu.grasscutter.net.protoB!GachaActiv" +
+      "ityDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -659,8 +659,8 @@ public final class JLGCCAMPPLMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JLGCCAMPPLM.proto\032\021JEAINNONFNB.proto\"0" +
       "\n\013JLGCCAMPPLM\022!\n\013GMLFKADLMCI\030\003 \001(\0132\014.JEA" +
-      "INNONFNBB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "INNONFNBB2\n\031emu.grasscutter.net.protoB\025J" +
+      "LGCCAMPPLMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

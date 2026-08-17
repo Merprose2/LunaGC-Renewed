@@ -447,8 +447,9 @@ public final class VintageHuntingThirdStageInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\"VintageHuntingThirdStageInfo.proto\"\036\n\034" +
-      "VintageHuntingThirdStageInfoB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "VintageHuntingThirdStageInfoBC\n\031emu.gras" +
+      "scutter.net.protoB&VintageHuntingThirdSt" +
+      "ageInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

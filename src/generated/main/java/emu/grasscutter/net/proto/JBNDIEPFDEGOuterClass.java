@@ -525,8 +525,8 @@ public final class JBNDIEPFDEGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JBNDIEPFDEG.proto\"\036\n\013JBNDIEPFDEG\022\017\n\007re" +
-      "tcode\030\007 \001(\005B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "tcode\030\007 \001(\005B2\n\031emu.grasscutter.net.proto" +
+      "B\025JBNDIEPFDEGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

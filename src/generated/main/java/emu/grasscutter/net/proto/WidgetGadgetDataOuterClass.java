@@ -715,8 +715,8 @@ public final class WidgetGadgetDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026WidgetGadgetData.proto\"D\n\020WidgetGadget" +
       "Data\022\035\n\025gadget_entity_id_list\030\t \003(\r\022\021\n\tg" +
-      "adget_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "adget_id\030\016 \001(\rB7\n\031emu.grasscutter.net.pr" +
+      "otoB\032WidgetGadgetDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

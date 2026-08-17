@@ -1035,8 +1035,9 @@ public final class MLNJNMGHEINOuterClass {
       "KBAFLHAFJMA.proto\"\210\001\n\013MLNJNMGHEIN\022!\n\013ODB" +
       "APCEINAM\030\001 \001(\0162\014.KBAFLHAFJMA\022!\n\013DLMJCBBI" +
       "JAB\030\002 \001(\0132\014.HHEDHCFPEKM\022!\n\013NGOLGGAMAMD\030\003" +
-      " \001(\0132\014.HHEDHCFPEKM\022\020\n\010velocity\030\004 \001(\002B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      " \001(\0132\014.HHEDHCFPEKM\022\020\n\010velocity\030\004 \001(\002B2\n\031" +
+      "emu.grasscutter.net.protoB\025MLNJNMGHEINOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

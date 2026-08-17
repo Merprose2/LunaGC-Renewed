@@ -803,8 +803,9 @@ public final class LanternProjectionLevelInfoOuterClass {
       "anternProjectionLevelInfo\022\027\n\017min_finish_" +
       "time\030\003 \001(\r\022\024\n\014is_can_start\030\005 \001(\010\022\024\n\014is_s" +
       "how_tips\030\006 \001(\010\022\023\n\013is_finished\030\t \001(\010\022\n\n\002i" +
-      "d\030\r \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "d\030\r \001(\rBA\n\031emu.grasscutter.net.protoB$La" +
+      "nternProjectionLevelInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -927,8 +927,8 @@ public final class EAKBAFJJKAKOuterClass {
       "\n\021EAKBAFJJKAK.proto\032\021HHEDHCFPEKM.proto\"\\" +
       "\n\013EAKBAFJJKAK\022\014\n\004time\030\001 \001(\002\022\033\n\005speed\030\002 \001" +
       "(\0132\014.HHEDHCFPEKM\022\"\n\013EMDCEJOJINM\030\365\003 \001(\0132\014" +
-      ".HHEDHCFPEKMB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      ".HHEDHCFPEKMB2\n\031emu.grasscutter.net.prot" +
+      "oB\025EAKBAFJJKAKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -38,12 +38,12 @@ public final class APLIFPLFBBPOuterClass {
     /**
      * <code>repeated ._UgcFilterParam param_list = 14;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam> 
+    java.util.List<emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam> 
         getParamListList();
     /**
      * <code>repeated ._UgcFilterParam param_list = 14;</code>
      */
-    emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam getParamList(int index);
+    emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam getParamList(int index);
     /**
      * <code>repeated ._UgcFilterParam param_list = 14;</code>
      */
@@ -51,12 +51,12 @@ public final class APLIFPLFBBPOuterClass {
     /**
      * <code>repeated ._UgcFilterParam param_list = 14;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder> 
         getParamListOrBuilderList();
     /**
      * <code>repeated ._UgcFilterParam param_list = 14;</code>
      */
-    emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder getParamListOrBuilder(
+    emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder getParamListOrBuilder(
         int index);
   }
   /**
@@ -124,11 +124,11 @@ public final class APLIFPLFBBPOuterClass {
             }
             case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                paramList_ = new java.util.ArrayList<emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam>();
+                paramList_ = new java.util.ArrayList<emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam>();
                 mutable_bitField0_ |= 0x00000001;
               }
               paramList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -197,19 +197,19 @@ public final class APLIFPLFBBPOuterClass {
     }
 
     public static final int PARAM_LIST_FIELD_NUMBER = 14;
-    private java.util.List<emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam> paramList_;
+    private java.util.List<emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam> paramList_;
     /**
      * <code>repeated ._UgcFilterParam param_list = 14;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam> getParamListList() {
+    public java.util.List<emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam> getParamListList() {
       return paramList_;
     }
     /**
      * <code>repeated ._UgcFilterParam param_list = 14;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder> 
         getParamListOrBuilderList() {
       return paramList_;
     }
@@ -224,14 +224,14 @@ public final class APLIFPLFBBPOuterClass {
      * <code>repeated ._UgcFilterParam param_list = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam getParamList(int index) {
+    public emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam getParamList(int index) {
       return paramList_.get(index);
     }
     /**
      * <code>repeated ._UgcFilterParam param_list = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder getParamListOrBuilder(
+    public emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder getParamListOrBuilder(
         int index) {
       return paramList_.get(index);
     }
@@ -700,22 +700,22 @@ public final class APLIFPLFBBPOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam> paramList_ =
+      private java.util.List<emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam> paramList_ =
         java.util.Collections.emptyList();
       private void ensureParamListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          paramList_ = new java.util.ArrayList<emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam>(paramList_);
+          paramList_ = new java.util.ArrayList<emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam>(paramList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder> paramListBuilder_;
+          emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder> paramListBuilder_;
 
       /**
        * <code>repeated ._UgcFilterParam param_list = 14;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam> getParamListList() {
+      public java.util.List<emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam> getParamListList() {
         if (paramListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(paramList_);
         } else {
@@ -735,7 +735,7 @@ public final class APLIFPLFBBPOuterClass {
       /**
        * <code>repeated ._UgcFilterParam param_list = 14;</code>
        */
-      public emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam getParamList(int index) {
+      public emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam getParamList(int index) {
         if (paramListBuilder_ == null) {
           return paramList_.get(index);
         } else {
@@ -746,7 +746,7 @@ public final class APLIFPLFBBPOuterClass {
        * <code>repeated ._UgcFilterParam param_list = 14;</code>
        */
       public Builder setParamList(
-          int index, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam value) {
+          int index, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam value) {
         if (paramListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -763,7 +763,7 @@ public final class APLIFPLFBBPOuterClass {
        * <code>repeated ._UgcFilterParam param_list = 14;</code>
        */
       public Builder setParamList(
-          int index, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder builderForValue) {
         if (paramListBuilder_ == null) {
           ensureParamListIsMutable();
           paramList_.set(index, builderForValue.build());
@@ -776,7 +776,7 @@ public final class APLIFPLFBBPOuterClass {
       /**
        * <code>repeated ._UgcFilterParam param_list = 14;</code>
        */
-      public Builder addParamList(emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam value) {
+      public Builder addParamList(emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam value) {
         if (paramListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -793,7 +793,7 @@ public final class APLIFPLFBBPOuterClass {
        * <code>repeated ._UgcFilterParam param_list = 14;</code>
        */
       public Builder addParamList(
-          int index, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam value) {
+          int index, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam value) {
         if (paramListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -810,7 +810,7 @@ public final class APLIFPLFBBPOuterClass {
        * <code>repeated ._UgcFilterParam param_list = 14;</code>
        */
       public Builder addParamList(
-          emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder builderForValue) {
+          emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder builderForValue) {
         if (paramListBuilder_ == null) {
           ensureParamListIsMutable();
           paramList_.add(builderForValue.build());
@@ -824,7 +824,7 @@ public final class APLIFPLFBBPOuterClass {
        * <code>repeated ._UgcFilterParam param_list = 14;</code>
        */
       public Builder addParamList(
-          int index, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder builderForValue) {
         if (paramListBuilder_ == null) {
           ensureParamListIsMutable();
           paramList_.add(index, builderForValue.build());
@@ -838,7 +838,7 @@ public final class APLIFPLFBBPOuterClass {
        * <code>repeated ._UgcFilterParam param_list = 14;</code>
        */
       public Builder addAllParamList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam> values) {
         if (paramListBuilder_ == null) {
           ensureParamListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -878,14 +878,14 @@ public final class APLIFPLFBBPOuterClass {
       /**
        * <code>repeated ._UgcFilterParam param_list = 14;</code>
        */
-      public emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder getParamListBuilder(
+      public emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder getParamListBuilder(
           int index) {
         return getParamListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._UgcFilterParam param_list = 14;</code>
        */
-      public emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder getParamListOrBuilder(
+      public emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder getParamListOrBuilder(
           int index) {
         if (paramListBuilder_ == null) {
           return paramList_.get(index);  } else {
@@ -895,7 +895,7 @@ public final class APLIFPLFBBPOuterClass {
       /**
        * <code>repeated ._UgcFilterParam param_list = 14;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder> 
            getParamListOrBuilderList() {
         if (paramListBuilder_ != null) {
           return paramListBuilder_.getMessageOrBuilderList();
@@ -906,31 +906,31 @@ public final class APLIFPLFBBPOuterClass {
       /**
        * <code>repeated ._UgcFilterParam param_list = 14;</code>
        */
-      public emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder addParamListBuilder() {
+      public emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder addParamListBuilder() {
         return getParamListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.getDefaultInstance());
+            emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.getDefaultInstance());
       }
       /**
        * <code>repeated ._UgcFilterParam param_list = 14;</code>
        */
-      public emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder addParamListBuilder(
+      public emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder addParamListBuilder(
           int index) {
         return getParamListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.getDefaultInstance());
+            index, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.getDefaultInstance());
       }
       /**
        * <code>repeated ._UgcFilterParam param_list = 14;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder> 
            getParamListBuilderList() {
         return getParamListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder> 
+          emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder> 
           getParamListFieldBuilder() {
         if (paramListBuilder_ == null) {
           paramListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder>(
+              emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder>(
                   paramList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -1009,14 +1009,15 @@ public final class APLIFPLFBBPOuterClass {
       "\n\021APLIFPLFBBP.proto\032\rUgcType.proto\032\025_Ugc" +
       "FilterParam.proto\"`\n\013APLIFPLFBBP\022\032\n\010ugc_" +
       "type\030\010 \001(\0162\010.UgcType\022\017\n\007retcode\030\014 \001(\005\022$\n" +
-      "\nparam_list\030\016 \003(\0132\020._UgcFilterParamB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\nparam_list\030\016 \003(\0132\020._UgcFilterParamB2\n\031e" +
+      "mu.grasscutter.net.protoB\025APLIFPLFBBPOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.UgcTypeOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.UgcFilterParam.getDescriptor(),
+          emu.grasscutter.net.proto._UgcFilterParamOuterClass.getDescriptor(),
         });
     internal_static_APLIFPLFBBP_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1025,7 +1026,7 @@ public final class APLIFPLFBBPOuterClass {
         internal_static_APLIFPLFBBP_descriptor,
         new java.lang.String[] { "UgcType", "Retcode", "ParamList", });
     emu.grasscutter.net.proto.UgcTypeOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.UgcFilterParam.getDescriptor();
+    emu.grasscutter.net.proto._UgcFilterParamOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

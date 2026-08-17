@@ -666,8 +666,8 @@ public final class PDBJDCNCMPIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PDBJDCNCMPI.proto\"D\n\013PDBJDCNCMPI\022\017\n\007re" +
       "tcode\030\010 \001(\005\022\022\n\ndifficulty\030\n \001(\r\022\020\n\010level" +
-      "_id\030\r \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\r \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "PDBJDCNCMPIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

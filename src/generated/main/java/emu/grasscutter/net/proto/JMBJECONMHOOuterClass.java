@@ -48,11 +48,11 @@ public final class JMBJECONMHOOuterClass {
      * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 13;</code>
      * @return The oEIOKIJFLHG.
      */
-    emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo getOEIOKIJFLHG();
+    emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo getOEIOKIJFLHG();
     /**
      * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 13;</code>
      */
-    emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder getOEIOKIJFLHGOrBuilder();
+    emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder getOEIOKIJFLHGOrBuilder();
   }
   /**
    * <pre>
@@ -122,11 +122,11 @@ public final class JMBJECONMHOOuterClass {
               break;
             }
             case 106: {
-              emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder subBuilder = null;
               if (oEIOKIJFLHG_ != null) {
                 subBuilder = oEIOKIJFLHG_.toBuilder();
               }
-              oEIOKIJFLHG_ = input.readMessage(emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.parser(), extensionRegistry);
+              oEIOKIJFLHG_ = input.readMessage(emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(oEIOKIJFLHG_);
                 oEIOKIJFLHG_ = subBuilder.buildPartial();
@@ -204,7 +204,7 @@ public final class JMBJECONMHOOuterClass {
     }
 
     public static final int OEIOKIJFLHG_FIELD_NUMBER = 13;
-    private emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo oEIOKIJFLHG_;
+    private emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo oEIOKIJFLHG_;
     /**
      * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 13;</code>
      * @return Whether the oEIOKIJFLHG field is set.
@@ -218,14 +218,14 @@ public final class JMBJECONMHOOuterClass {
      * @return The oEIOKIJFLHG.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo getOEIOKIJFLHG() {
-      return oEIOKIJFLHG_ == null ? emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.getDefaultInstance() : oEIOKIJFLHG_;
+    public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo getOEIOKIJFLHG() {
+      return oEIOKIJFLHG_ == null ? emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.getDefaultInstance() : oEIOKIJFLHG_;
     }
     /**
      * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder getOEIOKIJFLHGOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder getOEIOKIJFLHGOrBuilder() {
       return getOEIOKIJFLHG();
     }
 
@@ -745,9 +745,9 @@ public final class JMBJECONMHOOuterClass {
         return mKCKBGBJJECBuilder_;
       }
 
-      private emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo oEIOKIJFLHG_;
+      private emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo oEIOKIJFLHG_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder> oEIOKIJFLHGBuilder_;
+          emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder> oEIOKIJFLHGBuilder_;
       /**
        * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 13;</code>
        * @return Whether the oEIOKIJFLHG field is set.
@@ -759,9 +759,9 @@ public final class JMBJECONMHOOuterClass {
        * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 13;</code>
        * @return The oEIOKIJFLHG.
        */
-      public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo getOEIOKIJFLHG() {
+      public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo getOEIOKIJFLHG() {
         if (oEIOKIJFLHGBuilder_ == null) {
-          return oEIOKIJFLHG_ == null ? emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.getDefaultInstance() : oEIOKIJFLHG_;
+          return oEIOKIJFLHG_ == null ? emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.getDefaultInstance() : oEIOKIJFLHG_;
         } else {
           return oEIOKIJFLHGBuilder_.getMessage();
         }
@@ -769,7 +769,7 @@ public final class JMBJECONMHOOuterClass {
       /**
        * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 13;</code>
        */
-      public Builder setOEIOKIJFLHG(emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo value) {
+      public Builder setOEIOKIJFLHG(emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo value) {
         if (oEIOKIJFLHGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -786,7 +786,7 @@ public final class JMBJECONMHOOuterClass {
        * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 13;</code>
        */
       public Builder setOEIOKIJFLHG(
-          emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder builderForValue) {
         if (oEIOKIJFLHGBuilder_ == null) {
           oEIOKIJFLHG_ = builderForValue.build();
           onChanged();
@@ -799,11 +799,11 @@ public final class JMBJECONMHOOuterClass {
       /**
        * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 13;</code>
        */
-      public Builder mergeOEIOKIJFLHG(emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo value) {
+      public Builder mergeOEIOKIJFLHG(emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo value) {
         if (oEIOKIJFLHGBuilder_ == null) {
           if (oEIOKIJFLHG_ != null) {
             oEIOKIJFLHG_ =
-              emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.newBuilder(oEIOKIJFLHG_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.newBuilder(oEIOKIJFLHG_).mergeFrom(value).buildPartial();
           } else {
             oEIOKIJFLHG_ = value;
           }
@@ -831,7 +831,7 @@ public final class JMBJECONMHOOuterClass {
       /**
        * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 13;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder getOEIOKIJFLHGBuilder() {
+      public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder getOEIOKIJFLHGBuilder() {
         
         onChanged();
         return getOEIOKIJFLHGFieldBuilder().getBuilder();
@@ -839,23 +839,23 @@ public final class JMBJECONMHOOuterClass {
       /**
        * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 13;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder getOEIOKIJFLHGOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder getOEIOKIJFLHGOrBuilder() {
         if (oEIOKIJFLHGBuilder_ != null) {
           return oEIOKIJFLHGBuilder_.getMessageOrBuilder();
         } else {
           return oEIOKIJFLHG_ == null ?
-              emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.getDefaultInstance() : oEIOKIJFLHG_;
+              emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.getDefaultInstance() : oEIOKIJFLHG_;
         }
       }
       /**
        * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder> 
+          emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder> 
           getOEIOKIJFLHGFieldBuilder() {
         if (oEIOKIJFLHGBuilder_ == null) {
           oEIOKIJFLHGBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder>(
+              emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder>(
                   getOEIOKIJFLHG(),
                   getParentForChildren(),
                   isClean());
@@ -934,14 +934,15 @@ public final class JMBJECONMHOOuterClass {
       "_BeyondPlayerSocialInfo.proto\"p\n\013JMBJECO" +
       "NMHO\022\017\n\007retcode\030\007 \001(\005\022!\n\013MKCKBGBJJEC\030\t \001" +
       "(\0132\014.EEFAKGGNHFL\022-\n\013OEIOKIJFLHG\030\r \001(\0132\030." +
-      "_BeyondPlayerSocialInfoB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "_BeyondPlayerSocialInfoB2\n\031emu.grasscutt" +
+      "er.net.protoB\025JMBJECONMHOOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.EEFAKGGNHFLOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondPlayerSocialInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass.getDescriptor(),
         });
     internal_static_JMBJECONMHO_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -950,7 +951,7 @@ public final class JMBJECONMHOOuterClass {
         internal_static_JMBJECONMHO_descriptor,
         new java.lang.String[] { "Retcode", "MKCKBGBJJEC", "OEIOKIJFLHG", });
     emu.grasscutter.net.proto.EEFAKGGNHFLOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BeyondPlayerSocialInfo.getDescriptor();
+    emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

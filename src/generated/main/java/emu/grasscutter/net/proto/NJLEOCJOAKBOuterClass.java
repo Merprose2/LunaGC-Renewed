@@ -714,8 +714,9 @@ public final class NJLEOCJOAKBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NJLEOCJOAKB.proto\"7\n\013NJLEOCJOAKB\022\023\n\013JD" +
-      "DKOCIAFOL\030\001 \003(\005\022\023\n\013FBAGJBHKEOO\030\002 \001(\005B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "DKOCIAFOL\030\001 \003(\005\022\023\n\013FBAGJBHKEOO\030\002 \001(\005B2\n\031" +
+      "emu.grasscutter.net.protoB\025NJLEOCJOAKBOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1093,8 +1093,8 @@ public final class PDOHMBLHDAKOuterClass {
       "\001\n\013PDOHMBLHDAK\022\023\n\013ENOPBNNPDFB\030\001 \001(\t\022\023\n\013K" +
       "KHKMDNENCL\030\002 \001(\r\022\023\n\013JNLJNHALBOC\030\003 \001(\r\022!\n" +
       "\013MNNMOFNEFEK\030\004 \001(\0132\014.FJFKBKCECBC\022\023\n\013PECG" +
-      "ECKPLMF\030\005 \001(\tB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "ECKPLMF\030\005 \001(\tB2\n\031emu.grasscutter.net.pro" +
+      "toB\025PDOHMBLHDAKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

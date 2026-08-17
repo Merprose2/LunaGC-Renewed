@@ -705,8 +705,9 @@ public final class GFAEKEEONCJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GFAEKEEONCJ.proto\032\rUgcType.proto\"P\n\013GF" +
       "AEKEEONCJ\022\023\n\013ABAAPOFFEIN\030\010 \001(\010\022\020\n\010ugc_gu" +
-      "id\030\014 \001(\004\022\032\n\010ugc_type\030\016 \001(\0162\010.UgcTypeB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "id\030\014 \001(\004\022\032\n\010ugc_type\030\016 \001(\0162\010.UgcTypeB2\n\031" +
+      "emu.grasscutter.net.protoB\025GFAEKEEONCJOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

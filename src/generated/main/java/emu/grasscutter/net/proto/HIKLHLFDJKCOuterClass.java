@@ -667,8 +667,9 @@ public final class HIKLHLFDJKCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HIKLHLFDJKC.proto\"5\n\013HIKLHLFDJKC\022\021\n\top" +
-      "tion_id\030\001 \001(\r\022\023\n\013IENEGFFPHHO\030\002 \001(\tB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "tion_id\030\001 \001(\r\022\023\n\013IENEGFFPHHO\030\002 \001(\tB2\n\031em" +
+      "u.grasscutter.net.protoB\025HIKLHLFDJKCOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

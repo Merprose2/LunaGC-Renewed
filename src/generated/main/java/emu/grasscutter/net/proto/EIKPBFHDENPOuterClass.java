@@ -823,8 +823,8 @@ public final class EIKPBFHDENPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EIKPBFHDENP.proto\032\021EEKBJIODHJE.proto\"4" +
       "\n\013EIKPBFHDENP\022%\n\017level_info_list\030\006 \003(\0132\014" +
-      ".EEKBJIODHJEB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      ".EEKBJIODHJEB2\n\031emu.grasscutter.net.prot" +
+      "oB\025EIKPBFHDENPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1012,8 +1012,8 @@ public final class GCGMsgDiceRerollOuterClass {
       "e.proto\"s\n\020GCGMsgDiceReroll\022\025\n\rcontrolle" +
       "r_id\030\003 \001(\r\022\036\n\026select_dice_index_list\030\004 \003" +
       "(\r\022(\n\016dice_side_list\030\t \003(\0162\020.GCGDiceSide" +
-      "TypeB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "TypeB7\n\031emu.grasscutter.net.protoB\032GCGMs" +
+      "gDiceRerollOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

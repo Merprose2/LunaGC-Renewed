@@ -787,8 +787,9 @@ public final class DeliveryActivityDetailInfoOuterClass {
       "\n DeliveryActivityDetailInfo.proto\"o\n\032De" +
       "liveryActivityDetailInfo\022%\n\035finished_del" +
       "ivery_quest_index\030\005 \003(\r\022\027\n\017is_taken_rewa" +
-      "rd\030\n \001(\010\022\021\n\tday_index\030\013 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "rd\030\n \001(\010\022\021\n\tday_index\030\013 \001(\rBA\n\031emu.grass" +
+      "cutter.net.protoB$DeliveryActivityDetail" +
+      "InfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

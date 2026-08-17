@@ -596,8 +596,9 @@ public final class ENGILFHILPJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ENGILFHILPJ.proto\"2\n\013ENGILFHILPJ\022\020\n\010is" +
-      "_ready\030\010 \001(\010\022\021\n\tavatar_id\030\014 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "_ready\030\010 \001(\010\022\021\n\tavatar_id\030\014 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025ENGILFHILPJOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

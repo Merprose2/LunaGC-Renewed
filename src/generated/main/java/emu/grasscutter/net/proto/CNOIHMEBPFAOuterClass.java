@@ -819,8 +819,8 @@ public final class CNOIHMEBPFAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CNOIHMEBPFA.proto\"I\n\013CNOIHMEBPFA\022\016\n\005va" +
       "lue\030\365\003 \001(\t\022\024\n\013INGDFGIEEEG\030\366\003 \001(\010\022\024\n\013JGJG" +
-      "AIKPPIH\030\367\003 \001(\tB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "AIKPPIH\030\367\003 \001(\tB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025CNOIHMEBPFAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -746,8 +746,8 @@ public final class PPEFJHEJECDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PPEFJHEJECD.proto\"L\n\013PPEFJHEJECD\022\023\n\013IE" +
       "NEGFFPHHO\030\006 \001(\t\022\023\n\013template_id\030\n \001(\r\022\023\n\013" +
-      "AAPAPMCOHOD\030\014 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "AAPAPMCOHOD\030\014 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025PPEFJHEJECDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

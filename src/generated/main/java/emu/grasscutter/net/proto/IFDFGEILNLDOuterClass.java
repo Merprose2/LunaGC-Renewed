@@ -823,8 +823,8 @@ public final class IFDFGEILNLDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IFDFGEILNLD.proto\032\021BMCNDGLNKJO.proto\"0" +
       "\n\013IFDFGEILNLD\022!\n\013NCHCNOPEJHK\030\001 \003(\0132\014.BMC" +
-      "NDGLNKJOB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "NDGLNKJOB2\n\031emu.grasscutter.net.protoB\025I" +
+      "FDFGEILNLDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

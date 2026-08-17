@@ -587,8 +587,9 @@ public final class KEEGPMCLLIEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KEEGPMCLLIE.proto\"3\n\013KEEGPMCLLIE\022\017\n\007bu" +
-      "ff_id\030\001 \001(\r\022\023\n\013BCPBFKOKOGK\030\002 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "ff_id\030\001 \001(\r\022\023\n\013BCPBFKOKOGK\030\002 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025KEEGPMCLLIEOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

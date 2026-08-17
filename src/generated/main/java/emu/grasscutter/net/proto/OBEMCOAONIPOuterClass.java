@@ -675,8 +675,8 @@ public final class OBEMCOAONIPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OBEMCOAONIP.proto\"\"\n\013OBEMCOAONIP\022\023\n\013GE" +
-      "OHMHNKBGO\030\016 \003(\tB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "OHMHNKBGO\030\016 \003(\tB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025OBEMCOAONIPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

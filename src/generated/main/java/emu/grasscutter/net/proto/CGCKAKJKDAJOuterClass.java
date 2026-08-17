@@ -666,8 +666,8 @@ public final class CGCKAKJKDAJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CGCKAKJKDAJ.proto\"D\n\013CGCKAKJKDAJ\022\017\n\007re" +
       "tcode\030\007 \001(\005\022\020\n\010point_id\030\t \001(\r\022\022\n\ndungeon" +
-      "_id\030\n \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\n \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "CGCKAKJKDAJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

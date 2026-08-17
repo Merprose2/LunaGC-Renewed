@@ -652,8 +652,9 @@ public final class NCIMBNOKPPPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NCIMBNOKPPP.proto\"/\n\013NCIMBNOKPPP\022 \n\030_s" +
-      "elected_card_guid_list\030\r \003(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "elected_card_guid_list\030\r \003(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025NCIMBNOKPPPOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

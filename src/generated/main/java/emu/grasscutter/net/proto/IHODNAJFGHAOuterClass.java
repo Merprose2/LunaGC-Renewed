@@ -730,7 +730,8 @@ public final class IHODNAJFGHAOuterClass {
       "\n\021IHODNAJFGHA.proto\032\030MultistagePlayInfo." +
       "proto\"H\n\013IHODNAJFGHA\022\017\n\007retcode\030\001 \001(\005\022(\n" +
       "\013DCNCAGLJBPC\030\002 \001(\0132\023.MultistagePlayInfoB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025IHODNAJFGH" +
+      "AOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

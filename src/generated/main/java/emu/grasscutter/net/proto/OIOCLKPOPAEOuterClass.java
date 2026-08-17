@@ -1058,8 +1058,8 @@ public final class OIOCLKPOPAEOuterClass {
       "OPAE.NIOMKBJPKEM\022!\n\013GLIOKNLNKKN\030\016 \003(\0132\014." +
       "HAHEFJIHAGD\"S\n\013NIOMKBJPKEM\022\024\n\020NIOMKBJPKE" +
       "M_NONE\020\000\022\026\n\022NIOMKBJPKEM_REMOVE\020\001\022\026\n\022NIOM" +
-      "KBJPKEM_SCRIPT\020\002B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "KBJPKEM_SCRIPT\020\002B2\n\031emu.grasscutter.net." +
+      "protoB\025OIOCLKPOPAEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1266,8 +1266,9 @@ public final class KFPMJDCMIMHOuterClass {
       "\n\021KFPMJDCMIMH.proto\032\021NDIOHDFCMBL.proto\"h" +
       "\n\013KFPMJDCMIMH\022\023\n\013LPDGDIAFIBB\030\005 \001(\r\022!\n\013LC" +
       "BGDILEKPB\030\n \003(\0132\014.NDIOHDFCMBL\022!\n\013MLJKCII" +
-      "CGAA\030\014 \003(\0132\014.NDIOHDFCMBLB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "CGAA\030\014 \003(\0132\014.NDIOHDFCMBLB2\n\031emu.grasscut" +
+      "ter.net.protoB\025KFPMJDCMIMHOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -454,8 +454,9 @@ public final class DAOHMPGOBDEOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021DAOHMPGOBDE.proto\"\r\n\013DAOHMPGOBDEB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021DAOHMPGOBDE.proto\"\r\n\013DAOHMPGOBDEB2\n\031em" +
+      "u.grasscutter.net.protoB\025DAOHMPGOBDEOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

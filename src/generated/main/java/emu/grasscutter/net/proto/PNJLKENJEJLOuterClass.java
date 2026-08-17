@@ -853,7 +853,8 @@ public final class PNJLKENJEJLOuterClass {
       "IKAJGKLPGO\030\002 \001(\r\0222\n\013PHJPGBCOMBI\030\n \003(\0132\035." +
       "PNJLKENJEJL.PHJPGBCOMBIEntry\0322\n\020PHJPGBCO" +
       "MBIEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025PNJLKENJE" +
+      "JLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

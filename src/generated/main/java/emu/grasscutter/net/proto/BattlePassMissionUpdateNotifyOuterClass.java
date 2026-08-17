@@ -832,8 +832,9 @@ public final class BattlePassMissionUpdateNotifyOuterClass {
       "\n#BattlePassMissionUpdateNotify.proto\032\027B" +
       "attlePassMission.proto\"I\n\035BattlePassMiss" +
       "ionUpdateNotify\022(\n\014mission_list\030\004 \003(\0132\022." +
-      "BattlePassMissionB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "BattlePassMissionBD\n\031emu.grasscutter.net" +
+      ".protoB\'BattlePassMissionUpdateNotifyOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

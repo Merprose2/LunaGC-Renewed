@@ -596,8 +596,9 @@ public final class APIMOLANFFGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021APIMOLANFFG.proto\"7\n\013APIMOLANFFG\022\023\n\013JC" +
-      "OEIKOCIAA\030\002 \001(\010\022\023\n\013EPEDFDNONPO\030\016 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "OEIKOCIAA\030\002 \001(\010\022\023\n\013EPEDFDNONPO\030\016 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025APIMOLANFFGOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

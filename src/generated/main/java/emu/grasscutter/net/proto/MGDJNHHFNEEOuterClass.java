@@ -596,8 +596,9 @@ public final class MGDJNHHFNEEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MGDJNHHFNEE.proto\"4\n\013MGDJNHHFNEE\022\023\n\013EC" +
-      "IPELNFLML\030\001 \001(\010\022\020\n\010level_id\030\007 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "IPELNFLML\030\001 \001(\010\022\020\n\010level_id\030\007 \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025MGDJNHHFNEEOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

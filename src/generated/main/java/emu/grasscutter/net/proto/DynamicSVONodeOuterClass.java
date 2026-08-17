@@ -792,8 +792,9 @@ public final class DynamicSVONodeOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024DynamicSVONode.proto\032\014Vector.proto\"I\n\016" +
       "DynamicSVONode\022\014\n\004area\030\003 \001(\005\022\r\n\005index\030\005 " +
-      "\001(\003\022\032\n\trefer_pos\030\017 \001(\0132\007.VectorB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\001(\003\022\032\n\trefer_pos\030\017 \001(\0132\007.VectorB5\n\031emu.g" +
+      "rasscutter.net.protoB\030DynamicSVONodeOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

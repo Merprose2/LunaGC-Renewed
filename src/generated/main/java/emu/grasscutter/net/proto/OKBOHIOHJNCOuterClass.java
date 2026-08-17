@@ -133,8 +133,8 @@ public final class OKBOHIOHJNCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OKBOHIOHJNC.proto*C\n\013OKBOHIOHJNC\022\027\n\023OK" +
       "BOHIOHJNC_DEFAULT\020\000\022\033\n\027OKBOHIOHJNC_MUTI_" +
-      "THREAD\020\001B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "THREAD\020\001B2\n\031emu.grasscutter.net.protoB\025O" +
+      "KBOHIOHJNCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1089,8 +1089,9 @@ public final class FireworksLaunchSchemeDataOuterClass {
       "orksLaunchParam.proto\"{\n\031FireworksLaunch" +
       "SchemeData\022\031\n\021fireworks_id_list\030\003 \003(\r\0220\n" +
       "\021launch_param_list\030\006 \003(\0132\025.FireworksLaun" +
-      "chParam\022\021\n\tscheme_id\030\016 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "chParam\022\021\n\tscheme_id\030\016 \001(\rB@\n\031emu.grassc" +
+      "utter.net.protoB#FireworksLaunchSchemeDa" +
+      "taOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

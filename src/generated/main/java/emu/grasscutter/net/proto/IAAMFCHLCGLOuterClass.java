@@ -736,8 +736,9 @@ public final class IAAMFCHLCGLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IAAMFCHLCGL.proto\"_\n\013IAAMFCHLCGL\022\023\n\013IL" +
       "CINFEDJMH\030\006 \001(\r\022\030\n\020investigation_id\030\t \001(" +
-      "\r\022\020\n\010stage_id\030\r \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\r\022\020\n\010stage_id\030\r \001(\r\022\017\n\007retcode\030\017 \001(\005B2\n\031" +
+      "emu.grasscutter.net.protoB\025IAAMFCHLCGLOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

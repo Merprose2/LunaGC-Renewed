@@ -722,8 +722,9 @@ public final class LKHKCABALOOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LKHKCABALOO.proto\"5\n\013LKHKCABALOO\022\027\n\017pl" +
-      "ayer_uid_list\030\006 \003(\r\022\r\n\005param\030\007 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ayer_uid_list\030\006 \003(\r\022\r\n\005param\030\007 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025LKHKCABALOOOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

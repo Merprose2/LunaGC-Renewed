@@ -925,8 +925,8 @@ public final class HLBFPNNPLLLOuterClass {
       "\n\021HLBFPNNPLLL.proto\032\021HHEDHCFPEKM.proto\"X" +
       "\n\013HLBFPNNPLLL\022\023\n\013EFCNDACMOPM\030\001 \001(\005\022\031\n\003po" +
       "s\030\002 \001(\0132\014.HHEDHCFPEKM\022\031\n\003rot\030\003 \001(\0132\014.HHE" +
-      "DHCFPEKMB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "DHCFPEKMB2\n\031emu.grasscutter.net.protoB\025H" +
+      "LBFPNNPLLLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

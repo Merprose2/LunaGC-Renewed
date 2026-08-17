@@ -454,8 +454,9 @@ public final class EGIPGNEKGPLOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021EGIPGNEKGPL.proto\"\r\n\013EGIPGNEKGPLB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021EGIPGNEKGPL.proto\"\r\n\013EGIPGNEKGPLB2\n\031em" +
+      "u.grasscutter.net.protoB\025EGIPGNEKGPLOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

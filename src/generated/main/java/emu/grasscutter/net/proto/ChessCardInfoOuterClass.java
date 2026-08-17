@@ -587,8 +587,9 @@ public final class ChessCardInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\023ChessCardInfo.proto\"6\n\rChessCardInfo\022\017" +
-      "\n\007card_id\030\004 \001(\r\022\024\n\014effect_stack\030\013 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\n\007card_id\030\004 \001(\r\022\024\n\014effect_stack\030\013 \001(\rB4\n" +
+      "\031emu.grasscutter.net.protoB\027ChessCardInf" +
+      "oOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

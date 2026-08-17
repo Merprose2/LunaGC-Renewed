@@ -908,8 +908,9 @@ public final class AbilityIdentifierOuterClass {
       " \001(\005\022\035\n\025instanced_modifier_id\030\003 \001(\r\022!\n\013F" +
       "PDAONBEBHK\030\004 \001(\0162\014.LJGEHMILKEM\022\023\n\013NBHCDK" +
       "PBBOI\030\006 \001(\r\022\023\n\013DLLKGHINFBJ\030\010 \001(\r\022\034\n\024inst" +
-      "anced_ability_id\030\014 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "anced_ability_id\030\014 \001(\rB8\n\031emu.grasscutte" +
+      "r.net.protoB\033AbilityIdentifierOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

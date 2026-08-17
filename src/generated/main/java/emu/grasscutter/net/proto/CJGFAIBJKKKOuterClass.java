@@ -897,8 +897,9 @@ public final class CJGFAIBJKKKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CJGFAIBJKKK.proto\032\021DJICMJOEBLG.proto\"E" +
       "\n\013CJGFAIBJKKK\022\023\n\013AOAMKENMBPB\030\001 \001(\014\022!\n\013op" +
-      "tion_list\030\002 \003(\0132\014.DJICMJOEBLGB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "tion_list\030\002 \003(\0132\014.DJICMJOEBLGB2\n\031emu.gra" +
+      "sscutter.net.protoB\025CJGFAIBJKKKOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

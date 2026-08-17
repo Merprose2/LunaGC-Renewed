@@ -526,8 +526,8 @@ public final class IOPGKFFNJCMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IOPGKFFNJCM.proto\"#\n\013IOPGKFFNJCM\022\024\n\014du" +
-      "ngeon_guid\030\016 \001(\004B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "ngeon_guid\030\016 \001(\004B2\n\031emu.grasscutter.net." +
+      "protoB\025IOPGKFFNJCMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

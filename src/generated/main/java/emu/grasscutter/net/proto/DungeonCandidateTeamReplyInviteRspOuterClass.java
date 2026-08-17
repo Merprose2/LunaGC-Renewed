@@ -668,8 +668,9 @@ public final class DungeonCandidateTeamReplyInviteRspOuterClass {
       "\n(DungeonCandidateTeamReplyInviteRsp.pro" +
       "to\"a\n\"DungeonCandidateTeamReplyInviteRsp" +
       "\022\017\n\007retcode\030\004 \001(\005\022\026\n\016is_trans_point\030\005 \001(" +
-      "\010\022\022\n\ndungeon_id\030\014 \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\010\022\022\n\ndungeon_id\030\014 \001(\rBI\n\031emu.grasscutter" +
+      ".net.protoB,DungeonCandidateTeamReplyInv" +
+      "iteRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

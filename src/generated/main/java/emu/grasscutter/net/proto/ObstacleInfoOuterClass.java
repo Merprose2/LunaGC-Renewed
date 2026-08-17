@@ -1552,8 +1552,9 @@ public final class ObstacleInfoOuterClass {
       "BODEC\022\034\n\007extents\030\013 \001(\0132\013.Vector3Int\022\023\n\013o" +
       "bstacle_id\030\017 \001(\005\"S\n\tShapeType\022$\n ShapeTy" +
       "pe_OBSTACLE_SHAPE_CAPSULE\020\000\022 \n\034ShapeType" +
-      "_OBSTACLE_SHAPE_BOX\020\001B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "_OBSTACLE_SHAPE_BOX\020\001B3\n\031emu.grasscutter" +
+      ".net.protoB\026ObstacleInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

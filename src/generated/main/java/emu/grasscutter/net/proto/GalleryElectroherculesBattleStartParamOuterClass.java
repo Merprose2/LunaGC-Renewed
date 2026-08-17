@@ -518,8 +518,9 @@ public final class GalleryElectroherculesBattleStartParamOuterClass {
     java.lang.String[] descriptorData = {
       "\n,GalleryElectroherculesBattleStartParam" +
       ".proto\"<\n&GalleryElectroherculesBattleSt" +
-      "artParam\022\022\n\ndifficulty\030\t \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "artParam\022\022\n\ndifficulty\030\t \001(\rBM\n\031emu.gras" +
+      "scutter.net.protoB0GalleryElectrohercule" +
+      "sBattleStartParamOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

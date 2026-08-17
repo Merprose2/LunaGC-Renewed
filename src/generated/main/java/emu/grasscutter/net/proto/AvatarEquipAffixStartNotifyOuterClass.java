@@ -732,8 +732,8 @@ public final class AvatarEquipAffixStartNotifyOuterClass {
       "tarEquipAffixInfo.proto\"c\n\033AvatarEquipAf" +
       "fixStartNotify\022\023\n\013avatar_guid\030\010 \001(\004\022/\n\020e" +
       "quip_affix_info\030\014 \001(\0132\025.AvatarEquipAffix" +
-      "InfoB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "InfoBB\n\031emu.grasscutter.net.protoB%Avata" +
+      "rEquipAffixStartNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

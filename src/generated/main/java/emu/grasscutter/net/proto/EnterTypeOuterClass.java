@@ -259,8 +259,9 @@ public final class EnterTypeOuterClass {
       "\022\036\n\032EnterType_ENTER_OTHER_HOME\020\n\022!\n\035Ente" +
       "rType_ENTER_GOTO_RECREATE\020\013\022\037\n\033EnterType" +
       "_ENTER_GOTO_BY_TPL\020\014\022\032\n\026EnterType_ENTER_" +
-      "BEYOND\020\r\022\030\n\024EnterType_ENTER_HALL\020\016B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "BEYOND\020\r\022\030\n\024EnterType_ENTER_HALL\020\016B0\n\031em" +
+      "u.grasscutter.net.protoB\023EnterTypeOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

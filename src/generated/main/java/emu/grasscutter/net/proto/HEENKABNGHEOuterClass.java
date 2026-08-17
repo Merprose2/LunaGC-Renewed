@@ -59,11 +59,11 @@ public final class HEENKABNGHEOuterClass {
      * <code>._UgcLanV5CardBriefInfo lan_v_5_card_brief_info = 837;</code>
      * @return The lanV5CardBriefInfo.
      */
-    emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo getLanV5CardBriefInfo();
+    emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo getLanV5CardBriefInfo();
     /**
      * <code>._UgcLanV5CardBriefInfo lan_v_5_card_brief_info = 837;</code>
      */
-    emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfoOrBuilder getLanV5CardBriefInfoOrBuilder();
+    emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfoOrBuilder getLanV5CardBriefInfoOrBuilder();
 
     public emu.grasscutter.net.proto.HEENKABNGHEOuterClass.HEENKABNGHE.BriefCase getBriefCase();
   }
@@ -143,14 +143,14 @@ public final class HEENKABNGHEOuterClass {
               break;
             }
             case 6698: {
-              emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder subBuilder = null;
               if (briefCase_ == 837) {
-                subBuilder = ((emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo) brief_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo) brief_).toBuilder();
               }
               brief_ =
-                  input.readMessage(emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo) brief_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo) brief_);
                 brief_ = subBuilder.buildPartial();
               }
               briefCase_ = 837;
@@ -304,21 +304,21 @@ public final class HEENKABNGHEOuterClass {
      * @return The lanV5CardBriefInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo getLanV5CardBriefInfo() {
+    public emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo getLanV5CardBriefInfo() {
       if (briefCase_ == 837) {
-         return (emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo) brief_;
+         return (emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo) brief_;
       }
-      return emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.getDefaultInstance();
     }
     /**
      * <code>._UgcLanV5CardBriefInfo lan_v_5_card_brief_info = 837;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfoOrBuilder getLanV5CardBriefInfoOrBuilder() {
+    public emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfoOrBuilder getLanV5CardBriefInfoOrBuilder() {
       if (briefCase_ == 837) {
-         return (emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo) brief_;
+         return (emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo) brief_;
       }
-      return emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -345,7 +345,7 @@ public final class HEENKABNGHEOuterClass {
         output.writeMessage(769, (emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo) brief_);
       }
       if (briefCase_ == 837) {
-        output.writeMessage(837, (emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo) brief_);
+        output.writeMessage(837, (emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo) brief_);
       }
       unknownFields.writeTo(output);
     }
@@ -370,7 +370,7 @@ public final class HEENKABNGHEOuterClass {
       }
       if (briefCase_ == 837) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(837, (emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo) brief_);
+          .computeMessageSize(837, (emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo) brief_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -955,7 +955,7 @@ public final class HEENKABNGHEOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.Builder, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfoOrBuilder> lanV5CardBriefInfoBuilder_;
+          emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfoOrBuilder> lanV5CardBriefInfoBuilder_;
       /**
        * <code>._UgcLanV5CardBriefInfo lan_v_5_card_brief_info = 837;</code>
        * @return Whether the lanV5CardBriefInfo field is set.
@@ -969,23 +969,23 @@ public final class HEENKABNGHEOuterClass {
        * @return The lanV5CardBriefInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo getLanV5CardBriefInfo() {
+      public emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo getLanV5CardBriefInfo() {
         if (lanV5CardBriefInfoBuilder_ == null) {
           if (briefCase_ == 837) {
-            return (emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo) brief_;
+            return (emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo) brief_;
           }
-          return emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.getDefaultInstance();
         } else {
           if (briefCase_ == 837) {
             return lanV5CardBriefInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._UgcLanV5CardBriefInfo lan_v_5_card_brief_info = 837;</code>
        */
-      public Builder setLanV5CardBriefInfo(emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo value) {
+      public Builder setLanV5CardBriefInfo(emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo value) {
         if (lanV5CardBriefInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1002,7 +1002,7 @@ public final class HEENKABNGHEOuterClass {
        * <code>._UgcLanV5CardBriefInfo lan_v_5_card_brief_info = 837;</code>
        */
       public Builder setLanV5CardBriefInfo(
-          emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder builderForValue) {
         if (lanV5CardBriefInfoBuilder_ == null) {
           brief_ = builderForValue.build();
           onChanged();
@@ -1015,11 +1015,11 @@ public final class HEENKABNGHEOuterClass {
       /**
        * <code>._UgcLanV5CardBriefInfo lan_v_5_card_brief_info = 837;</code>
        */
-      public Builder mergeLanV5CardBriefInfo(emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo value) {
+      public Builder mergeLanV5CardBriefInfo(emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo value) {
         if (lanV5CardBriefInfoBuilder_ == null) {
           if (briefCase_ == 837 &&
-              brief_ != emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.getDefaultInstance()) {
-            brief_ = emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.newBuilder((emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo) brief_)
+              brief_ != emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.getDefaultInstance()) {
+            brief_ = emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.newBuilder((emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo) brief_)
                 .mergeFrom(value).buildPartial();
           } else {
             brief_ = value;
@@ -1056,36 +1056,36 @@ public final class HEENKABNGHEOuterClass {
       /**
        * <code>._UgcLanV5CardBriefInfo lan_v_5_card_brief_info = 837;</code>
        */
-      public emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.Builder getLanV5CardBriefInfoBuilder() {
+      public emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder getLanV5CardBriefInfoBuilder() {
         return getLanV5CardBriefInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._UgcLanV5CardBriefInfo lan_v_5_card_brief_info = 837;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfoOrBuilder getLanV5CardBriefInfoOrBuilder() {
+      public emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfoOrBuilder getLanV5CardBriefInfoOrBuilder() {
         if ((briefCase_ == 837) && (lanV5CardBriefInfoBuilder_ != null)) {
           return lanV5CardBriefInfoBuilder_.getMessageOrBuilder();
         } else {
           if (briefCase_ == 837) {
-            return (emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo) brief_;
+            return (emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo) brief_;
           }
-          return emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._UgcLanV5CardBriefInfo lan_v_5_card_brief_info = 837;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.Builder, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfoOrBuilder> 
+          emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfoOrBuilder> 
           getLanV5CardBriefInfoFieldBuilder() {
         if (lanV5CardBriefInfoBuilder_ == null) {
           if (!(briefCase_ == 837)) {
-            brief_ = emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.getDefaultInstance();
+            brief_ = emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.getDefaultInstance();
           }
           lanV5CardBriefInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.Builder, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo) brief_,
+              emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo) brief_,
                   getParentForChildren(),
                   isClean());
           brief_ = null;
@@ -1167,15 +1167,16 @@ public final class HEENKABNGHEOuterClass {
       "\001(\004\022\032\n\010ugc_type\030\004 \001(\0162\010.UgcType\022/\n\020music" +
       "_brief_info\030\201\006 \001(\0132\022.UgcMusicBriefInfoH\000" +
       "\022;\n\027lan_v_5_card_brief_info\030\305\006 \001(\0132\027._Ug" +
-      "cLanV5CardBriefInfoH\000B\007\n\005briefB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "cLanV5CardBriefInfoH\000B\007\n\005briefB2\n\031emu.gr" +
+      "asscutter.net.protoB\025HEENKABNGHEOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.UgcTypeOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.UgcLanV5CardBriefInfo.getDescriptor(),
+          emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass.getDescriptor(),
         });
     internal_static_HEENKABNGHE_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1185,7 +1186,7 @@ public final class HEENKABNGHEOuterClass {
         new java.lang.String[] { "UgcGuid", "UgcType", "MusicBriefInfo", "LanV5CardBriefInfo", "Brief", });
     emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.UgcTypeOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.UgcLanV5CardBriefInfo.getDescriptor();
+    emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

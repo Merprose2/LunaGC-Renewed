@@ -1742,8 +1742,8 @@ public final class PMIFIHAJADMOuterClass {
       "\nrequest_id\030\003 \001(\t\022&\n\004data\030\004 \001(\0132\030.PMIFIH" +
       "AJADM.CHKIFGMHPDP\022\023\n\013NGEDGDGBAID\030\005 \001(\014\022\023" +
       "\n\013NJKJHJEAKEJ\030\006 \001(\t\032\"\n\013CHKIFGMHPDP\022\023\n\013BL" +
-      "PANLBLHBI\030\001 \001(\004B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "PANLBLHBI\030\001 \001(\004B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025PMIFIHAJADMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

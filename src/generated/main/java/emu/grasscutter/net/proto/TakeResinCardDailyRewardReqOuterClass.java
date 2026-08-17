@@ -526,8 +526,9 @@ public final class TakeResinCardDailyRewardReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n!TakeResinCardDailyRewardReq.proto\"8\n\033T" +
       "akeResinCardDailyRewardReq\022\031\n\021product_co" +
-      "nfig_id\030\001 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "nfig_id\030\001 \001(\rBB\n\031emu.grasscutter.net.pro" +
+      "toB%TakeResinCardDailyRewardReqOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

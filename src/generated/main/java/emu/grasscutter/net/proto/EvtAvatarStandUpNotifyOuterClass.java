@@ -738,8 +738,9 @@ public final class EvtAvatarStandUpNotifyOuterClass {
       "\n\034EvtAvatarStandUpNotify.proto\"c\n\026EvtAva" +
       "tarStandUpNotify\022\021\n\tperformID\030\001 \001(\005\022\021\n\te" +
       "ntity_id\030\003 \001(\r\022\020\n\010chair_id\030\007 \001(\004\022\021\n\tdire" +
-      "ction\030\010 \001(\005B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "ction\030\010 \001(\005B=\n\031emu.grasscutter.net.proto" +
+      "B EvtAvatarStandUpNotifyOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

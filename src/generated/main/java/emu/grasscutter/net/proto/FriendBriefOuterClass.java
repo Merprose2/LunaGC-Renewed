@@ -3464,8 +3464,9 @@ public final class FriendBriefOuterClass {
       "atform_type\030\033 \001(\0162\r.PlatformType\022\023\n\013HJGP" +
       "AMDHBFK\030\034 \001(\010\022\023\n\013MCAJECNEHEO\030\035 \001(\010\022\023\n\013ID" +
       "MOJMKNNGO\030\036 \001(\010\022\026\n\016_xbox_gamertag\030\037 \001(\t\022" +
-      "\r\n\005_xuid\030  \001(\t\022\025\n\r_is_in_beyond\030! \001(\010B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\r\n\005_xuid\030  \001(\t\022\025\n\r_is_in_beyond\030! \001(\010B2\n" +
+      "\031emu.grasscutter.net.protoB\025FriendBriefO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

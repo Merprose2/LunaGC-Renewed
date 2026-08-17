@@ -1641,8 +1641,8 @@ public final class BJLPDKNIJIPOuterClass {
       "\013BJLPDKNIJIP\022!\n\013DNIDKJJHCHL\030\001 \003(\0132\014.AGPH" +
       "HKMPBDB\022!\n\013FBIOBNBPKKE\030\002 \003(\0132\014.ENPLFBGCH" +
       "MM\022\023\n\013JNHGGELEMML\030\003 \001(\010\022!\n\013BLBHLKMJELH\030\004" +
-      " \003(\0132\014.PAINIINOOLPB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      " \003(\0132\014.PAINIINOOLPB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025BJLPDKNIJIPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

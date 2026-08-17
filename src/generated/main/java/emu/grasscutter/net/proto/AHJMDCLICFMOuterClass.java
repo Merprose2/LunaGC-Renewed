@@ -651,8 +651,8 @@ public final class AHJMDCLICFMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AHJMDCLICFM.proto\032\021DMPGLLNPKEG.proto\"1" +
       "\n\013AHJMDCLICFM\022\"\n\013ECADJLEHGBG\030\365\003 \001(\0132\014.DM" +
-      "PGLLNPKEGB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "PGLLNPKEGB2\n\031emu.grasscutter.net.protoB\025" +
+      "AHJMDCLICFMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

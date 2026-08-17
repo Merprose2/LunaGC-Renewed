@@ -587,8 +587,9 @@ public final class CMMGNOAIPPIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CMMGNOAIPPI.proto\"7\n\013CMMGNOAIPPI\022\023\n\013IA" +
-      "DOGHFKJIB\030\001 \001(\r\022\023\n\013LOBGBHCMLPE\030\002 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "DOGHFKJIB\030\001 \001(\r\022\023\n\013LOBGBHCMLPE\030\002 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025CMMGNOAIPPIOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

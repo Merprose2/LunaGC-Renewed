@@ -454,8 +454,9 @@ public final class MFKDOAIMDAEOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021MFKDOAIMDAE.proto\"\r\n\013MFKDOAIMDAEB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021MFKDOAIMDAE.proto\"\r\n\013MFKDOAIMDAEB2\n\031em" +
+      "u.grasscutter.net.protoB\025MFKDOAIMDAEOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -901,8 +901,9 @@ public final class MJIGNDHNLGPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MJIGNDHNLGP.proto\032\021JMHOPEHDMMM.proto\"E" +
       "\n\013MJIGNDHNLGP\022\023\n\013KMDOFBPMGAI\030\001 \001(\r\022!\n\013AI" +
-      "KLNDAFKJG\030\010 \003(\0132\014.JMHOPEHDMMMB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "KLNDAFKJG\030\010 \003(\0132\014.JMHOPEHDMMMB2\n\031emu.gra" +
+      "sscutter.net.protoB\025MJIGNDHNLGPOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

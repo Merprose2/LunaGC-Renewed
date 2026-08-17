@@ -666,8 +666,9 @@ public final class ResinChangeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027ResinChangeNotify.proto\"P\n\021ResinChange" +
       "Notify\022\023\n\013CLAJLHLNEPI\030\003 \001(\r\022\023\n\013NIKFHCPNO" +
-      "HO\030\004 \001(\r\022\021\n\tcur_value\030\010 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "HO\030\004 \001(\r\022\021\n\tcur_value\030\010 \001(\rB8\n\031emu.grass" +
+      "cutter.net.protoB\033ResinChangeNotifyOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

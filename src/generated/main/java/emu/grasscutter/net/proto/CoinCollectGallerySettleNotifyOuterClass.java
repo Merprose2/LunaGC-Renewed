@@ -879,8 +879,9 @@ public final class CoinCollectGallerySettleNotifyOuterClass {
       "\001\n\036CoinCollectGallerySettleNotify\022\020\n\010lev" +
       "el_id\030\002 \001(\r\022\023\n\013KNNKIOIKGHD\030\004 \001(\r\022\025\n\ris_n" +
       "ew_record\030\005 \001(\010\022\023\n\013FNFONIFFNBG\030\n \001(\r\022\023\n\013" +
-      "HPFKBKAHBKB\030\013 \001(\r\022\023\n\013DAICNCCPDPI\030\016 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "HPFKBKAHBKB\030\013 \001(\r\022\023\n\013DAICNCCPDPI\030\016 \001(\rBE" +
+      "\n\031emu.grasscutter.net.protoB(CoinCollect" +
+      "GallerySettleNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

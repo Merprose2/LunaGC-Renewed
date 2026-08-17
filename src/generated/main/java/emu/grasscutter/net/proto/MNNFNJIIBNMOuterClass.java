@@ -1617,8 +1617,9 @@ public final class MNNFNJIIBNMOuterClass {
       "AAO\030\370\003 \001(\010\022\024\n\013PDJBICJCMKN\030\371\003 \001(\010\022\"\n\013CAMP" +
       "GKGEBOI\030\372\003 \001(\0132\014.MMLNJCOKEAK\022\"\n\013OEJGCMPB" +
       "CEM\030\373\003 \001(\0132\014.MMLNJCOKEAK\022\024\n\013GOKPAOKAJEK\030" +
-      "\374\003 \001(\r\022\024\n\013KJDLONNPGBB\030\375\003 \001(\005B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\374\003 \001(\r\022\024\n\013KJDLONNPGBB\030\375\003 \001(\005B2\n\031emu.gras" +
+      "scutter.net.protoB\025MNNFNJIIBNMOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -39,11 +39,11 @@ public final class NBANNLGLBMGOuterClass {
      * <code>._CurrentPhase GEKGLENKCJA = 15;</code>
      * @return The gEKGLENKCJA.
      */
-    emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getGEKGLENKCJA();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getGEKGLENKCJA();
     /**
      * <code>._CurrentPhase GEKGLENKCJA = 15;</code>
      */
-    emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getGEKGLENKCJAOrBuilder();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getGEKGLENKCJAOrBuilder();
   }
   /**
    * <pre>
@@ -105,11 +105,11 @@ public final class NBANNLGLBMGOuterClass {
               break;
             }
             case 122: {
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder subBuilder = null;
               if (gEKGLENKCJA_ != null) {
                 subBuilder = gEKGLENKCJA_.toBuilder();
               }
-              gEKGLENKCJA_ = input.readMessage(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.parser(), extensionRegistry);
+              gEKGLENKCJA_ = input.readMessage(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(gEKGLENKCJA_);
                 gEKGLENKCJA_ = subBuilder.buildPartial();
@@ -172,7 +172,7 @@ public final class NBANNLGLBMGOuterClass {
     }
 
     public static final int GEKGLENKCJA_FIELD_NUMBER = 15;
-    private emu.grasscutter.net.proto.CurrentPhase._CurrentPhase gEKGLENKCJA_;
+    private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase gEKGLENKCJA_;
     /**
      * <code>._CurrentPhase GEKGLENKCJA = 15;</code>
      * @return Whether the gEKGLENKCJA field is set.
@@ -186,14 +186,14 @@ public final class NBANNLGLBMGOuterClass {
      * @return The gEKGLENKCJA.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getGEKGLENKCJA() {
-      return gEKGLENKCJA_ == null ? emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : gEKGLENKCJA_;
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getGEKGLENKCJA() {
+      return gEKGLENKCJA_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : gEKGLENKCJA_;
     }
     /**
      * <code>._CurrentPhase GEKGLENKCJA = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getGEKGLENKCJAOrBuilder() {
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getGEKGLENKCJAOrBuilder() {
       return getGEKGLENKCJA();
     }
 
@@ -612,9 +612,9 @@ public final class NBANNLGLBMGOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.CurrentPhase._CurrentPhase gEKGLENKCJA_;
+      private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase gEKGLENKCJA_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> gEKGLENKCJABuilder_;
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> gEKGLENKCJABuilder_;
       /**
        * <code>._CurrentPhase GEKGLENKCJA = 15;</code>
        * @return Whether the gEKGLENKCJA field is set.
@@ -626,9 +626,9 @@ public final class NBANNLGLBMGOuterClass {
        * <code>._CurrentPhase GEKGLENKCJA = 15;</code>
        * @return The gEKGLENKCJA.
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getGEKGLENKCJA() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getGEKGLENKCJA() {
         if (gEKGLENKCJABuilder_ == null) {
-          return gEKGLENKCJA_ == null ? emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : gEKGLENKCJA_;
+          return gEKGLENKCJA_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : gEKGLENKCJA_;
         } else {
           return gEKGLENKCJABuilder_.getMessage();
         }
@@ -636,7 +636,7 @@ public final class NBANNLGLBMGOuterClass {
       /**
        * <code>._CurrentPhase GEKGLENKCJA = 15;</code>
        */
-      public Builder setGEKGLENKCJA(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+      public Builder setGEKGLENKCJA(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (gEKGLENKCJABuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -653,7 +653,7 @@ public final class NBANNLGLBMGOuterClass {
        * <code>._CurrentPhase GEKGLENKCJA = 15;</code>
        */
       public Builder setGEKGLENKCJA(
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder builderForValue) {
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder builderForValue) {
         if (gEKGLENKCJABuilder_ == null) {
           gEKGLENKCJA_ = builderForValue.build();
           onChanged();
@@ -666,11 +666,11 @@ public final class NBANNLGLBMGOuterClass {
       /**
        * <code>._CurrentPhase GEKGLENKCJA = 15;</code>
        */
-      public Builder mergeGEKGLENKCJA(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+      public Builder mergeGEKGLENKCJA(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (gEKGLENKCJABuilder_ == null) {
           if (gEKGLENKCJA_ != null) {
             gEKGLENKCJA_ =
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.newBuilder(gEKGLENKCJA_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.newBuilder(gEKGLENKCJA_).mergeFrom(value).buildPartial();
           } else {
             gEKGLENKCJA_ = value;
           }
@@ -698,7 +698,7 @@ public final class NBANNLGLBMGOuterClass {
       /**
        * <code>._CurrentPhase GEKGLENKCJA = 15;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder getGEKGLENKCJABuilder() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder getGEKGLENKCJABuilder() {
         
         onChanged();
         return getGEKGLENKCJAFieldBuilder().getBuilder();
@@ -706,23 +706,23 @@ public final class NBANNLGLBMGOuterClass {
       /**
        * <code>._CurrentPhase GEKGLENKCJA = 15;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getGEKGLENKCJAOrBuilder() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getGEKGLENKCJAOrBuilder() {
         if (gEKGLENKCJABuilder_ != null) {
           return gEKGLENKCJABuilder_.getMessageOrBuilder();
         } else {
           return gEKGLENKCJA_ == null ?
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : gEKGLENKCJA_;
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : gEKGLENKCJA_;
         }
       }
       /**
        * <code>._CurrentPhase GEKGLENKCJA = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> 
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
           getGEKGLENKCJAFieldBuilder() {
         if (gEKGLENKCJABuilder_ == null) {
           gEKGLENKCJABuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder>(
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder>(
                   getGEKGLENKCJA(),
                   getParentForChildren(),
                   isClean());
@@ -800,13 +800,13 @@ public final class NBANNLGLBMGOuterClass {
       "\n\021NBANNLGLBMG.proto\032\023_CurrentPhase.proto" +
       "\"X\n\013NBANNLGLBMG\022\023\n\013KMDOFBPMGAI\030\004 \001(\r\022\017\n\007" +
       "talk_id\030\r \001(\005\022#\n\013GEKGLENKCJA\030\017 \001(\0132\016._Cu" +
-      "rrentPhaseB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "rrentPhaseB2\n\031emu.grasscutter.net.protoB" +
+      "\025NBANNLGLBMGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.CurrentPhase.getDescriptor(),
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor(),
         });
     internal_static_NBANNLGLBMG_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -814,7 +814,7 @@ public final class NBANNLGLBMGOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_NBANNLGLBMG_descriptor,
         new java.lang.String[] { "KMDOFBPMGAI", "TalkId", "GEKGLENKCJA", });
-    emu.grasscutter.net.proto.CurrentPhase.getDescriptor();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

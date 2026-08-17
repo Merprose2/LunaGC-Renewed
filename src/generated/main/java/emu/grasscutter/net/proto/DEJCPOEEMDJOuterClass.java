@@ -595,8 +595,9 @@ public final class DEJCPOEEMDJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DEJCPOEEMDJ.proto\"3\n\013DEJCPOEEMDJ\022\022\n\ndi" +
-      "fficulty\030\001 \001(\r\022\020\n\010level_id\030\014 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "fficulty\030\001 \001(\r\022\020\n\010level_id\030\014 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025DEJCPOEEMDJOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -968,8 +968,8 @@ public final class IDOKPGBLBDMOuterClass {
       "\n\021IDOKPGBLBDM.proto\032\021DKHPPMNPDLL.proto\"T" +
       "\n\013IDOKPGBLBDM\022!\n\013NCHCNOPEJHK\030\001 \003(\0132\014.DKH" +
       "PPMNPDLL\022\r\n\005count\030\002 \001(\005\022\023\n\013NGEDGDGBAID\030\004" +
-      " \001(\014B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\014B2\n\031emu.grasscutter.net.protoB\025IDOKP" +
+      "GBLBDMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

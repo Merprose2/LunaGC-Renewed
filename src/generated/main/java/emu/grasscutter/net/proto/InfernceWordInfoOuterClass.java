@@ -873,8 +873,9 @@ public final class InfernceWordInfoOuterClass {
       "dInfo\022\031\n\021associate_word_id\030\001 \001(\r\022\017\n\007word" +
       "_id\030\006 \001(\r\022\031\n\021unlock_by_word_id\030\010 \001(\r\022\023\n\013" +
       "CJMNHILLPON\030\013 \001(\010\022\023\n\013DKHJIGMFFOG\030\r \001(\010\022\023" +
-      "\n\013IAFPDGKDPPH\030\016 \001(\010B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013IAFPDGKDPPH\030\016 \001(\010B7\n\031emu.grasscutter.n" +
+      "et.protoB\032InfernceWordInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

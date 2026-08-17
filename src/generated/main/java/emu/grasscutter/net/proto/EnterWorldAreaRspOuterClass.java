@@ -666,8 +666,9 @@ public final class EnterWorldAreaRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027EnterWorldAreaRsp.proto\"H\n\021EnterWorldA" +
       "reaRsp\022\021\n\tarea_type\030\002 \001(\r\022\017\n\007retcode\030\010 \001" +
-      "(\005\022\017\n\007area_id\030\n \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "(\005\022\017\n\007area_id\030\n \001(\rB8\n\031emu.grasscutter.n" +
+      "et.protoB\033EnterWorldAreaRspOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

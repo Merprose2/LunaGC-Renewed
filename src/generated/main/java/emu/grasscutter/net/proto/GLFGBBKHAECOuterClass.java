@@ -1193,8 +1193,9 @@ public final class GLFGBBKHAECOuterClass {
       "DMHFDGELDA\030\003 \001(\010\022\023\n\013AIMKICMCCPL\030\006 \003(\r\022\023\n" +
       "\013EPHNFCIGBGJ\030\010 \001(\r\022\023\n\013CJCGLIGCCLJ\030\n \001(\010\022" +
       "\023\n\013IFGOKBJDHBI\030\014 \001(\010\022\023\n\013HJBACJOHEJI\030\016 \003(" +
-      "\r\022\023\n\013MBLKPAEJEML\030\017 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\r\022\023\n\013MBLKPAEJEML\030\017 \001(\rB2\n\031emu.grasscutte" +
+      "r.net.protoB\025GLFGBBKHAECOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

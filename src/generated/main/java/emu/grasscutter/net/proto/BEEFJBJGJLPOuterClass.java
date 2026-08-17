@@ -823,8 +823,9 @@ public final class BEEFJBJGJLPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BEEFJBJGJLP.proto\032\035AbilityScalarValueE" +
       "ntry.proto\"<\n\013BEEFJBJGJLP\022-\n\013GHMFMKOPIPI" +
-      "\030\005 \003(\0132\030.AbilityScalarValueEntryB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\030\005 \003(\0132\030.AbilityScalarValueEntryB2\n\031emu." +
+      "grasscutter.net.protoB\025BEEFJBJGJLPOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

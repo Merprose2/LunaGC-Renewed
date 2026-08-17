@@ -595,8 +595,9 @@ public final class HOBCFHJLCNBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HOBCFHJLCNB.proto\"3\n\013HOBCFHJLCNB\022\023\n\013KA" +
-      "LHHMPCIDP\030\n \001(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "LHHMPCIDP\030\n \001(\r\022\017\n\007retcode\030\016 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025HOBCFHJLCNBOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -855,8 +855,9 @@ public final class BIJNMOCAAJPOuterClass {
       "\n\021BIJNMOCAAJP.proto\032\021CMFKJLONDGH.proto\032\021" +
       "FriendBrief.proto\"U\n\013BIJNMOCAAJP\022#\n\r_fri" +
       "end_brief\030\007 \001(\0132\014.FriendBrief\022!\n\013FOADLAH" +
-      "GHJI\030\n \001(\0132\014.CMFKJLONDGHB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "GHJI\030\n \001(\0132\014.CMFKJLONDGHB2\n\031emu.grasscut" +
+      "ter.net.protoB\025BIJNMOCAAJPOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

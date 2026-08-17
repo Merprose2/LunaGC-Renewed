@@ -1088,8 +1088,9 @@ public final class EEJEADBGKDMOuterClass {
       "\n\021EEJEADBGKDM.proto\032\035AbilityScalarValueE" +
       "ntry.proto\"f\n\013EEJEADBGKDM\022\023\n\013IGCJFNDJNOC" +
       "\030\001 \003(\r\022-\n\013GHMFMKOPIPI\030\006 \003(\0132\030.AbilitySca" +
-      "larValueEntry\022\023\n\013PAIPOOKHENC\030\014 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "larValueEntry\022\023\n\013PAIPOOKHENC\030\014 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025EEJEADBGKDMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

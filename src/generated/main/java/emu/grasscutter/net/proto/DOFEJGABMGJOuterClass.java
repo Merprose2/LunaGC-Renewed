@@ -183,8 +183,9 @@ public final class DOFEJGABMGJOuterClass {
       "MGJ_BEYOND_ARCHIVE_PUBLISHED\020\003\022*\n&DOFEJG" +
       "ABMGJ_BEYOND_ARCHIVE_UNPUBLISHED\020\004\022%\n!DO" +
       "FEJGABMGJ_BEYOND_ARCHIVE_BANNED\020\005\022%\n!DOF" +
-      "EJGABMGJ_BEYOND_ARCHIVE_DELETE\020\006B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "EJGABMGJ_BEYOND_ARCHIVE_DELETE\020\006B2\n\031emu." +
+      "grasscutter.net.protoB\025DOFEJGABMGJOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1588,8 +1588,9 @@ public final class ToTheMoonQueryPathRspOuterClass {
       "\030\013 \001(\005\022\r\n\005index\030\017 \003(\003\"s\n\016PathStatusType\022" +
       "\036\n\032PathStatusType_STATUS_FAIL\020\000\022\036\n\032PathS" +
       "tatusType_STATUS_SUCC\020\001\022!\n\035PathStatusTyp" +
-      "e_STATUS_PARTIAL\020\002B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "e_STATUS_PARTIAL\020\002B<\n\031emu.grasscutter.ne" +
+      "t.protoB\037ToTheMoonQueryPathRspOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

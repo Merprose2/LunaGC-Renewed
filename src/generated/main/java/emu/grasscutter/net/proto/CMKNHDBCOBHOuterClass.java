@@ -659,8 +659,8 @@ public final class CMKNHDBCOBHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CMKNHDBCOBH.proto\"O\n\013CMKNHDBCOBH\022\024\n\013EH" +
       "BKOHIHCOK\030\365\003 \001(\005\022\024\n\013GHOJAFOMAPF\030\366\003 \001(\010\022\024" +
-      "\n\013HEAEDIBENDA\030\367\003 \001(\005B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\n\013HEAEDIBENDA\030\367\003 \001(\005B2\n\031emu.grasscutter." +
+      "net.protoB\025CMKNHDBCOBHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

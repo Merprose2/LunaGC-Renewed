@@ -834,8 +834,9 @@ public final class CataLogNewFinishedGlobalWatcherNotifyOuterClass {
       "proto\"y\n%CataLogNewFinishedGlobalWatcher" +
       "Notify\022P\n%new_finished_global_watcher_da" +
       "ta_list\030\t \003(\0132!.CataLogGlobalWatcherFini" +
-      "shedDataB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "shedDataBL\n\031emu.grasscutter.net.protoB/C" +
+      "ataLogNewFinishedGlobalWatcherNotifyOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

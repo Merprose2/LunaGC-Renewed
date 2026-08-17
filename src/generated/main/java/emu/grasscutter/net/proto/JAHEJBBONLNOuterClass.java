@@ -800,8 +800,8 @@ public final class JAHEJBBONLNOuterClass {
       "\n\021JAHEJBBONLN.proto\032\021INNFOOCNADP.proto\"V" +
       "\n\013JAHEJBBONLN\022!\n\013CJJPEDCHPLK\030\003 \001(\0132\014.INN" +
       "FOOCNADP\022\023\n\013schedule_id\030\013 \001(\r\022\017\n\007retcode" +
-      "\030\r \001(\005B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\r \001(\005B2\n\031emu.grasscutter.net.protoB\025JAH" +
+      "EJBBONLNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

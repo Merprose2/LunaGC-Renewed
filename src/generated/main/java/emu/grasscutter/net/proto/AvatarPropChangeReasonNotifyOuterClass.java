@@ -851,7 +851,8 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       "eReasonNotify\022!\n\006reason\030\001 \001(\0162\021.PropChan" +
       "geReason\022\021\n\tprop_type\030\003 \001(\r\022\021\n\told_value" +
       "\030\006 \001(\002\022\021\n\tcur_value\030\n \001(\002\022\023\n\013avatar_guid" +
-      "\030\014 \001(\004B\033\n\031emu.grasscutter.net.protob\006pro" +
+      "\030\014 \001(\004BC\n\031emu.grasscutter.net.protoB&Ava" +
+      "tarPropChangeReasonNotifyOuterClassb\006pro" +
       "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

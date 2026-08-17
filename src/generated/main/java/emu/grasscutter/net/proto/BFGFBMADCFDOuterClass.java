@@ -1075,8 +1075,8 @@ public final class BFGFBMADCFDOuterClass {
       "ne_id\030\007 \001(\r\022\023\n\013GEABJCBNDAB\030\010 \001(\r\022\032\n\022_mar" +
       "k_map_layer_id\030\t \001(\r\022\032\n\t_mark_pos\030\n \001(\0132" +
       "\007.Vector\022\023\n\013MJFDDODCELI\030\013 \001(\010\022\021\n\tconfig_" +
-      "id\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025B" +
+      "FGFBMADCFDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

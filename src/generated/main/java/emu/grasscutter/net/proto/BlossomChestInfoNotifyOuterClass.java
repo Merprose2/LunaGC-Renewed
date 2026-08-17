@@ -730,8 +730,9 @@ public final class BlossomChestInfoNotifyOuterClass {
       "\n\034BlossomChestInfoNotify.proto\032\026BlossomC" +
       "hestInfo.proto\"Z\n\026BlossomChestInfoNotify" +
       "\022-\n\022blossom_chest_info\030\002 \001(\0132\021.BlossomCh" +
-      "estInfo\022\021\n\tentity_id\030\006 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "estInfo\022\021\n\tentity_id\030\006 \001(\rB=\n\031emu.grassc" +
+      "utter.net.protoB BlossomChestInfoNotifyO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -525,8 +525,8 @@ public final class NLDBLIFOCLLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NLDBLIFOCLL.proto\"\033\n\013NLDBLIFOCLL\022\014\n\004gu" +
-      "id\030\r \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\r \001(\rB2\n\031emu.grasscutter.net.protoB\025N" +
+      "LDBLIFOCLLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

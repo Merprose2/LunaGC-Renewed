@@ -526,8 +526,8 @@ public final class JKMMKNEDPBMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JKMMKNEDPBM.proto\"\"\n\013JKMMKNEDPBM\022\023\n\013MN" +
-      "GLBAEBKDA\030\016 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "GLBAEBKDA\030\016 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025JKMMKNEDPBMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

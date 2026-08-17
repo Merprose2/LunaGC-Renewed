@@ -27,11 +27,11 @@ public final class JEJEMODFEGGOuterClass {
      * <code>._BubbleDramaBattleEnterInfo bubble_drama_battle_enter_info = 2064;</code>
      * @return The bubbleDramaBattleEnterInfo.
      */
-    emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo getBubbleDramaBattleEnterInfo();
+    emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo getBubbleDramaBattleEnterInfo();
     /**
      * <code>._BubbleDramaBattleEnterInfo bubble_drama_battle_enter_info = 2064;</code>
      */
-    emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfoOrBuilder getBubbleDramaBattleEnterInfoOrBuilder();
+    emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfoOrBuilder getBubbleDramaBattleEnterInfoOrBuilder();
 
     /**
      * <code>._DiversityBattleEnterInfo diversity_battle_enter_info = 3773;</code>
@@ -42,11 +42,11 @@ public final class JEJEMODFEGGOuterClass {
      * <code>._DiversityBattleEnterInfo diversity_battle_enter_info = 3773;</code>
      * @return The diversityBattleEnterInfo.
      */
-    emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo getDiversityBattleEnterInfo();
+    emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo getDiversityBattleEnterInfo();
     /**
      * <code>._DiversityBattleEnterInfo diversity_battle_enter_info = 3773;</code>
      */
-    emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfoOrBuilder getDiversityBattleEnterInfoOrBuilder();
+    emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfoOrBuilder getDiversityBattleEnterInfoOrBuilder();
 
     /**
      * <code>._HolidayResortBattleEnterInfo holiday_resort_battle_enter_info = 5713;</code>
@@ -57,11 +57,11 @@ public final class JEJEMODFEGGOuterClass {
      * <code>._HolidayResortBattleEnterInfo holiday_resort_battle_enter_info = 5713;</code>
      * @return The holidayResortBattleEnterInfo.
      */
-    emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo getHolidayResortBattleEnterInfo();
+    emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo getHolidayResortBattleEnterInfo();
     /**
      * <code>._HolidayResortBattleEnterInfo holiday_resort_battle_enter_info = 5713;</code>
      */
-    emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfoOrBuilder getHolidayResortBattleEnterInfoOrBuilder();
+    emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfoOrBuilder getHolidayResortBattleEnterInfoOrBuilder();
 
     /**
      * <code>._AquariumDivingEnterInfo aquarium_diving_enter_info = 6748;</code>
@@ -72,11 +72,11 @@ public final class JEJEMODFEGGOuterClass {
      * <code>._AquariumDivingEnterInfo aquarium_diving_enter_info = 6748;</code>
      * @return The aquariumDivingEnterInfo.
      */
-    emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo getAquariumDivingEnterInfo();
+    emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo getAquariumDivingEnterInfo();
     /**
      * <code>._AquariumDivingEnterInfo aquarium_diving_enter_info = 6748;</code>
      */
-    emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfoOrBuilder getAquariumDivingEnterInfoOrBuilder();
+    emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfoOrBuilder getAquariumDivingEnterInfoOrBuilder();
 
     /**
      * <code>._AquariumFishingEnterInfo aquarium_fishing_enter_info = 7640;</code>
@@ -87,11 +87,11 @@ public final class JEJEMODFEGGOuterClass {
      * <code>._AquariumFishingEnterInfo aquarium_fishing_enter_info = 7640;</code>
      * @return The aquariumFishingEnterInfo.
      */
-    emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo getAquariumFishingEnterInfo();
+    emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo getAquariumFishingEnterInfo();
     /**
      * <code>._AquariumFishingEnterInfo aquarium_fishing_enter_info = 7640;</code>
      */
-    emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfoOrBuilder getAquariumFishingEnterInfoOrBuilder();
+    emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfoOrBuilder getAquariumFishingEnterInfoOrBuilder();
 
     /**
      * <code>._LanternRiteV6BattleEnterInfo lantern_rite_v_6_battle_enter_info = 8222;</code>
@@ -102,11 +102,11 @@ public final class JEJEMODFEGGOuterClass {
      * <code>._LanternRiteV6BattleEnterInfo lantern_rite_v_6_battle_enter_info = 8222;</code>
      * @return The lanternRiteV6BattleEnterInfo.
      */
-    emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo getLanternRiteV6BattleEnterInfo();
+    emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo getLanternRiteV6BattleEnterInfo();
     /**
      * <code>._LanternRiteV6BattleEnterInfo lantern_rite_v_6_battle_enter_info = 8222;</code>
      */
-    emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfoOrBuilder getLanternRiteV6BattleEnterInfoOrBuilder();
+    emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfoOrBuilder getLanternRiteV6BattleEnterInfoOrBuilder();
 
     /**
      * <code>._RankedMatchSnowBallEnterInfo ranked_match_snow_ball_enter_info = 8617;</code>
@@ -117,11 +117,11 @@ public final class JEJEMODFEGGOuterClass {
      * <code>._RankedMatchSnowBallEnterInfo ranked_match_snow_ball_enter_info = 8617;</code>
      * @return The rankedMatchSnowBallEnterInfo.
      */
-    emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo getRankedMatchSnowBallEnterInfo();
+    emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo getRankedMatchSnowBallEnterInfo();
     /**
      * <code>._RankedMatchSnowBallEnterInfo ranked_match_snow_ball_enter_info = 8617;</code>
      */
-    emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfoOrBuilder getRankedMatchSnowBallEnterInfoOrBuilder();
+    emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfoOrBuilder getRankedMatchSnowBallEnterInfoOrBuilder();
 
     /**
      * <code>._ShortVideoEnterInfo short_video_enter_info = 10887;</code>
@@ -132,11 +132,11 @@ public final class JEJEMODFEGGOuterClass {
      * <code>._ShortVideoEnterInfo short_video_enter_info = 10887;</code>
      * @return The shortVideoEnterInfo.
      */
-    emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo getShortVideoEnterInfo();
+    emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo getShortVideoEnterInfo();
     /**
      * <code>._ShortVideoEnterInfo short_video_enter_info = 10887;</code>
      */
-    emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfoOrBuilder getShortVideoEnterInfoOrBuilder();
+    emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfoOrBuilder getShortVideoEnterInfoOrBuilder();
 
     /**
      * <code>._SnowRaceCombatEnterInfo snow_race_combat_enter_info = 12052;</code>
@@ -147,11 +147,11 @@ public final class JEJEMODFEGGOuterClass {
      * <code>._SnowRaceCombatEnterInfo snow_race_combat_enter_info = 12052;</code>
      * @return The snowRaceCombatEnterInfo.
      */
-    emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo getSnowRaceCombatEnterInfo();
+    emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo getSnowRaceCombatEnterInfo();
     /**
      * <code>._SnowRaceCombatEnterInfo snow_race_combat_enter_info = 12052;</code>
      */
-    emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfoOrBuilder getSnowRaceCombatEnterInfoOrBuilder();
+    emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfoOrBuilder getSnowRaceCombatEnterInfoOrBuilder();
 
     /**
      * <code>._TradeShowBattleEnterInfo trade_show_battle_enter_info = 15737;</code>
@@ -162,11 +162,11 @@ public final class JEJEMODFEGGOuterClass {
      * <code>._TradeShowBattleEnterInfo trade_show_battle_enter_info = 15737;</code>
      * @return The tradeShowBattleEnterInfo.
      */
-    emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo getTradeShowBattleEnterInfo();
+    emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo getTradeShowBattleEnterInfo();
     /**
      * <code>._TradeShowBattleEnterInfo trade_show_battle_enter_info = 15737;</code>
      */
-    emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfoOrBuilder getTradeShowBattleEnterInfoOrBuilder();
+    emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfoOrBuilder getTradeShowBattleEnterInfoOrBuilder();
 
     /**
      * <code>._SumeruAdventureGoalFightingEnterInfo sumeru_adventure_goal_fighting_enter_info = 18197;</code>
@@ -177,11 +177,11 @@ public final class JEJEMODFEGGOuterClass {
      * <code>._SumeruAdventureGoalFightingEnterInfo sumeru_adventure_goal_fighting_enter_info = 18197;</code>
      * @return The sumeruAdventureGoalFightingEnterInfo.
      */
-    emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo getSumeruAdventureGoalFightingEnterInfo();
+    emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo getSumeruAdventureGoalFightingEnterInfo();
     /**
      * <code>._SumeruAdventureGoalFightingEnterInfo sumeru_adventure_goal_fighting_enter_info = 18197;</code>
      */
-    emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfoOrBuilder getSumeruAdventureGoalFightingEnterInfoOrBuilder();
+    emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfoOrBuilder getSumeruAdventureGoalFightingEnterInfoOrBuilder();
 
     /**
      * <code>._LoliBattleEnterInfo loli_battle_enter_info = 18942;</code>
@@ -192,11 +192,11 @@ public final class JEJEMODFEGGOuterClass {
      * <code>._LoliBattleEnterInfo loli_battle_enter_info = 18942;</code>
      * @return The loliBattleEnterInfo.
      */
-    emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo getLoliBattleEnterInfo();
+    emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo getLoliBattleEnterInfo();
     /**
      * <code>._LoliBattleEnterInfo loli_battle_enter_info = 18942;</code>
      */
-    emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfoOrBuilder getLoliBattleEnterInfoOrBuilder();
+    emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfoOrBuilder getLoliBattleEnterInfoOrBuilder();
 
     public emu.grasscutter.net.proto.JEJEMODFEGGOuterClass.JEJEMODFEGG.DetailCase getDetailCase();
   }
@@ -246,168 +246,168 @@ public final class JEJEMODFEGGOuterClass {
               done = true;
               break;
             case 16514: {
-              emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo.Builder subBuilder = null;
               if (detailCase_ == 2064) {
-                subBuilder = ((emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 2064;
               break;
             }
             case 30186: {
-              emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo.Builder subBuilder = null;
               if (detailCase_ == 3773) {
-                subBuilder = ((emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 3773;
               break;
             }
             case 45706: {
-              emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo.Builder subBuilder = null;
               if (detailCase_ == 5713) {
-                subBuilder = ((emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 5713;
               break;
             }
             case 53986: {
-              emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo.Builder subBuilder = null;
               if (detailCase_ == 6748) {
-                subBuilder = ((emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 6748;
               break;
             }
             case 61122: {
-              emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo.Builder subBuilder = null;
               if (detailCase_ == 7640) {
-                subBuilder = ((emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 7640;
               break;
             }
             case 65778: {
-              emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo.Builder subBuilder = null;
               if (detailCase_ == 8222) {
-                subBuilder = ((emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 8222;
               break;
             }
             case 68938: {
-              emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo.Builder subBuilder = null;
               if (detailCase_ == 8617) {
-                subBuilder = ((emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 8617;
               break;
             }
             case 87098: {
-              emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo.Builder subBuilder = null;
               if (detailCase_ == 10887) {
-                subBuilder = ((emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 10887;
               break;
             }
             case 96418: {
-              emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo.Builder subBuilder = null;
               if (detailCase_ == 12052) {
-                subBuilder = ((emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 12052;
               break;
             }
             case 125898: {
-              emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo.Builder subBuilder = null;
               if (detailCase_ == 15737) {
-                subBuilder = ((emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 15737;
               break;
             }
             case 145578: {
-              emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo.Builder subBuilder = null;
               if (detailCase_ == 18197) {
-                subBuilder = ((emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 18197;
               break;
             }
             case 151538: {
-              emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo.Builder subBuilder = null;
               if (detailCase_ == 18942) {
-                subBuilder = ((emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 18942;
@@ -520,21 +520,21 @@ public final class JEJEMODFEGGOuterClass {
      * @return The bubbleDramaBattleEnterInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo getBubbleDramaBattleEnterInfo() {
+    public emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo getBubbleDramaBattleEnterInfo() {
       if (detailCase_ == 2064) {
-         return (emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo.getDefaultInstance();
     }
     /**
      * <code>._BubbleDramaBattleEnterInfo bubble_drama_battle_enter_info = 2064;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfoOrBuilder getBubbleDramaBattleEnterInfoOrBuilder() {
+    public emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfoOrBuilder getBubbleDramaBattleEnterInfoOrBuilder() {
       if (detailCase_ == 2064) {
-         return (emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo.getDefaultInstance();
     }
 
     public static final int DIVERSITY_BATTLE_ENTER_INFO_FIELD_NUMBER = 3773;
@@ -551,21 +551,21 @@ public final class JEJEMODFEGGOuterClass {
      * @return The diversityBattleEnterInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo getDiversityBattleEnterInfo() {
+    public emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo getDiversityBattleEnterInfo() {
       if (detailCase_ == 3773) {
-         return (emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo.getDefaultInstance();
     }
     /**
      * <code>._DiversityBattleEnterInfo diversity_battle_enter_info = 3773;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfoOrBuilder getDiversityBattleEnterInfoOrBuilder() {
+    public emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfoOrBuilder getDiversityBattleEnterInfoOrBuilder() {
       if (detailCase_ == 3773) {
-         return (emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo.getDefaultInstance();
     }
 
     public static final int HOLIDAY_RESORT_BATTLE_ENTER_INFO_FIELD_NUMBER = 5713;
@@ -582,21 +582,21 @@ public final class JEJEMODFEGGOuterClass {
      * @return The holidayResortBattleEnterInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo getHolidayResortBattleEnterInfo() {
+    public emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo getHolidayResortBattleEnterInfo() {
       if (detailCase_ == 5713) {
-         return (emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo.getDefaultInstance();
     }
     /**
      * <code>._HolidayResortBattleEnterInfo holiday_resort_battle_enter_info = 5713;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfoOrBuilder getHolidayResortBattleEnterInfoOrBuilder() {
+    public emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfoOrBuilder getHolidayResortBattleEnterInfoOrBuilder() {
       if (detailCase_ == 5713) {
-         return (emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo.getDefaultInstance();
     }
 
     public static final int AQUARIUM_DIVING_ENTER_INFO_FIELD_NUMBER = 6748;
@@ -613,21 +613,21 @@ public final class JEJEMODFEGGOuterClass {
      * @return The aquariumDivingEnterInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo getAquariumDivingEnterInfo() {
+    public emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo getAquariumDivingEnterInfo() {
       if (detailCase_ == 6748) {
-         return (emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo.getDefaultInstance();
     }
     /**
      * <code>._AquariumDivingEnterInfo aquarium_diving_enter_info = 6748;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfoOrBuilder getAquariumDivingEnterInfoOrBuilder() {
+    public emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfoOrBuilder getAquariumDivingEnterInfoOrBuilder() {
       if (detailCase_ == 6748) {
-         return (emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo.getDefaultInstance();
     }
 
     public static final int AQUARIUM_FISHING_ENTER_INFO_FIELD_NUMBER = 7640;
@@ -644,21 +644,21 @@ public final class JEJEMODFEGGOuterClass {
      * @return The aquariumFishingEnterInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo getAquariumFishingEnterInfo() {
+    public emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo getAquariumFishingEnterInfo() {
       if (detailCase_ == 7640) {
-         return (emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo.getDefaultInstance();
     }
     /**
      * <code>._AquariumFishingEnterInfo aquarium_fishing_enter_info = 7640;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfoOrBuilder getAquariumFishingEnterInfoOrBuilder() {
+    public emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfoOrBuilder getAquariumFishingEnterInfoOrBuilder() {
       if (detailCase_ == 7640) {
-         return (emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo.getDefaultInstance();
     }
 
     public static final int LANTERN_RITE_V_6_BATTLE_ENTER_INFO_FIELD_NUMBER = 8222;
@@ -675,21 +675,21 @@ public final class JEJEMODFEGGOuterClass {
      * @return The lanternRiteV6BattleEnterInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo getLanternRiteV6BattleEnterInfo() {
+    public emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo getLanternRiteV6BattleEnterInfo() {
       if (detailCase_ == 8222) {
-         return (emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo.getDefaultInstance();
     }
     /**
      * <code>._LanternRiteV6BattleEnterInfo lantern_rite_v_6_battle_enter_info = 8222;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfoOrBuilder getLanternRiteV6BattleEnterInfoOrBuilder() {
+    public emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfoOrBuilder getLanternRiteV6BattleEnterInfoOrBuilder() {
       if (detailCase_ == 8222) {
-         return (emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo.getDefaultInstance();
     }
 
     public static final int RANKED_MATCH_SNOW_BALL_ENTER_INFO_FIELD_NUMBER = 8617;
@@ -706,21 +706,21 @@ public final class JEJEMODFEGGOuterClass {
      * @return The rankedMatchSnowBallEnterInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo getRankedMatchSnowBallEnterInfo() {
+    public emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo getRankedMatchSnowBallEnterInfo() {
       if (detailCase_ == 8617) {
-         return (emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo.getDefaultInstance();
     }
     /**
      * <code>._RankedMatchSnowBallEnterInfo ranked_match_snow_ball_enter_info = 8617;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfoOrBuilder getRankedMatchSnowBallEnterInfoOrBuilder() {
+    public emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfoOrBuilder getRankedMatchSnowBallEnterInfoOrBuilder() {
       if (detailCase_ == 8617) {
-         return (emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo.getDefaultInstance();
     }
 
     public static final int SHORT_VIDEO_ENTER_INFO_FIELD_NUMBER = 10887;
@@ -737,21 +737,21 @@ public final class JEJEMODFEGGOuterClass {
      * @return The shortVideoEnterInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo getShortVideoEnterInfo() {
+    public emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo getShortVideoEnterInfo() {
       if (detailCase_ == 10887) {
-         return (emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo.getDefaultInstance();
     }
     /**
      * <code>._ShortVideoEnterInfo short_video_enter_info = 10887;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfoOrBuilder getShortVideoEnterInfoOrBuilder() {
+    public emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfoOrBuilder getShortVideoEnterInfoOrBuilder() {
       if (detailCase_ == 10887) {
-         return (emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo.getDefaultInstance();
     }
 
     public static final int SNOW_RACE_COMBAT_ENTER_INFO_FIELD_NUMBER = 12052;
@@ -768,21 +768,21 @@ public final class JEJEMODFEGGOuterClass {
      * @return The snowRaceCombatEnterInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo getSnowRaceCombatEnterInfo() {
+    public emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo getSnowRaceCombatEnterInfo() {
       if (detailCase_ == 12052) {
-         return (emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo.getDefaultInstance();
     }
     /**
      * <code>._SnowRaceCombatEnterInfo snow_race_combat_enter_info = 12052;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfoOrBuilder getSnowRaceCombatEnterInfoOrBuilder() {
+    public emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfoOrBuilder getSnowRaceCombatEnterInfoOrBuilder() {
       if (detailCase_ == 12052) {
-         return (emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo.getDefaultInstance();
     }
 
     public static final int TRADE_SHOW_BATTLE_ENTER_INFO_FIELD_NUMBER = 15737;
@@ -799,21 +799,21 @@ public final class JEJEMODFEGGOuterClass {
      * @return The tradeShowBattleEnterInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo getTradeShowBattleEnterInfo() {
+    public emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo getTradeShowBattleEnterInfo() {
       if (detailCase_ == 15737) {
-         return (emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo.getDefaultInstance();
     }
     /**
      * <code>._TradeShowBattleEnterInfo trade_show_battle_enter_info = 15737;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfoOrBuilder getTradeShowBattleEnterInfoOrBuilder() {
+    public emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfoOrBuilder getTradeShowBattleEnterInfoOrBuilder() {
       if (detailCase_ == 15737) {
-         return (emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo.getDefaultInstance();
     }
 
     public static final int SUMERU_ADVENTURE_GOAL_FIGHTING_ENTER_INFO_FIELD_NUMBER = 18197;
@@ -830,21 +830,21 @@ public final class JEJEMODFEGGOuterClass {
      * @return The sumeruAdventureGoalFightingEnterInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo getSumeruAdventureGoalFightingEnterInfo() {
+    public emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo getSumeruAdventureGoalFightingEnterInfo() {
       if (detailCase_ == 18197) {
-         return (emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo.getDefaultInstance();
     }
     /**
      * <code>._SumeruAdventureGoalFightingEnterInfo sumeru_adventure_goal_fighting_enter_info = 18197;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfoOrBuilder getSumeruAdventureGoalFightingEnterInfoOrBuilder() {
+    public emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfoOrBuilder getSumeruAdventureGoalFightingEnterInfoOrBuilder() {
       if (detailCase_ == 18197) {
-         return (emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo.getDefaultInstance();
     }
 
     public static final int LOLI_BATTLE_ENTER_INFO_FIELD_NUMBER = 18942;
@@ -861,21 +861,21 @@ public final class JEJEMODFEGGOuterClass {
      * @return The loliBattleEnterInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo getLoliBattleEnterInfo() {
+    public emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo getLoliBattleEnterInfo() {
       if (detailCase_ == 18942) {
-         return (emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo.getDefaultInstance();
     }
     /**
      * <code>._LoliBattleEnterInfo loli_battle_enter_info = 18942;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfoOrBuilder getLoliBattleEnterInfoOrBuilder() {
+    public emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfoOrBuilder getLoliBattleEnterInfoOrBuilder() {
       if (detailCase_ == 18942) {
-         return (emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo) detail_;
+         return (emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo) detail_;
       }
-      return emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -893,40 +893,40 @@ public final class JEJEMODFEGGOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (detailCase_ == 2064) {
-        output.writeMessage(2064, (emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo) detail_);
+        output.writeMessage(2064, (emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo) detail_);
       }
       if (detailCase_ == 3773) {
-        output.writeMessage(3773, (emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo) detail_);
+        output.writeMessage(3773, (emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo) detail_);
       }
       if (detailCase_ == 5713) {
-        output.writeMessage(5713, (emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo) detail_);
+        output.writeMessage(5713, (emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo) detail_);
       }
       if (detailCase_ == 6748) {
-        output.writeMessage(6748, (emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo) detail_);
+        output.writeMessage(6748, (emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo) detail_);
       }
       if (detailCase_ == 7640) {
-        output.writeMessage(7640, (emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo) detail_);
+        output.writeMessage(7640, (emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo) detail_);
       }
       if (detailCase_ == 8222) {
-        output.writeMessage(8222, (emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo) detail_);
+        output.writeMessage(8222, (emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo) detail_);
       }
       if (detailCase_ == 8617) {
-        output.writeMessage(8617, (emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo) detail_);
+        output.writeMessage(8617, (emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo) detail_);
       }
       if (detailCase_ == 10887) {
-        output.writeMessage(10887, (emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo) detail_);
+        output.writeMessage(10887, (emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo) detail_);
       }
       if (detailCase_ == 12052) {
-        output.writeMessage(12052, (emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo) detail_);
+        output.writeMessage(12052, (emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo) detail_);
       }
       if (detailCase_ == 15737) {
-        output.writeMessage(15737, (emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo) detail_);
+        output.writeMessage(15737, (emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo) detail_);
       }
       if (detailCase_ == 18197) {
-        output.writeMessage(18197, (emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo) detail_);
+        output.writeMessage(18197, (emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo) detail_);
       }
       if (detailCase_ == 18942) {
-        output.writeMessage(18942, (emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo) detail_);
+        output.writeMessage(18942, (emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -939,51 +939,51 @@ public final class JEJEMODFEGGOuterClass {
       size = 0;
       if (detailCase_ == 2064) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2064, (emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo) detail_);
+          .computeMessageSize(2064, (emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo) detail_);
       }
       if (detailCase_ == 3773) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3773, (emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo) detail_);
+          .computeMessageSize(3773, (emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo) detail_);
       }
       if (detailCase_ == 5713) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5713, (emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo) detail_);
+          .computeMessageSize(5713, (emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo) detail_);
       }
       if (detailCase_ == 6748) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6748, (emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo) detail_);
+          .computeMessageSize(6748, (emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo) detail_);
       }
       if (detailCase_ == 7640) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7640, (emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo) detail_);
+          .computeMessageSize(7640, (emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo) detail_);
       }
       if (detailCase_ == 8222) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8222, (emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo) detail_);
+          .computeMessageSize(8222, (emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo) detail_);
       }
       if (detailCase_ == 8617) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8617, (emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo) detail_);
+          .computeMessageSize(8617, (emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo) detail_);
       }
       if (detailCase_ == 10887) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10887, (emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo) detail_);
+          .computeMessageSize(10887, (emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo) detail_);
       }
       if (detailCase_ == 12052) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12052, (emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo) detail_);
+          .computeMessageSize(12052, (emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo) detail_);
       }
       if (detailCase_ == 15737) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15737, (emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo) detail_);
+          .computeMessageSize(15737, (emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo) detail_);
       }
       if (detailCase_ == 18197) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(18197, (emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo) detail_);
+          .computeMessageSize(18197, (emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo) detail_);
       }
       if (detailCase_ == 18942) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(18942, (emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo) detail_);
+          .computeMessageSize(18942, (emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1508,7 +1508,7 @@ public final class JEJEMODFEGGOuterClass {
 
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo, emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo.Builder, emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfoOrBuilder> bubbleDramaBattleEnterInfoBuilder_;
+          emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo, emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo.Builder, emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfoOrBuilder> bubbleDramaBattleEnterInfoBuilder_;
       /**
        * <code>._BubbleDramaBattleEnterInfo bubble_drama_battle_enter_info = 2064;</code>
        * @return Whether the bubbleDramaBattleEnterInfo field is set.
@@ -1522,23 +1522,23 @@ public final class JEJEMODFEGGOuterClass {
        * @return The bubbleDramaBattleEnterInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo getBubbleDramaBattleEnterInfo() {
+      public emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo getBubbleDramaBattleEnterInfo() {
         if (bubbleDramaBattleEnterInfoBuilder_ == null) {
           if (detailCase_ == 2064) {
-            return (emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 2064) {
             return bubbleDramaBattleEnterInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._BubbleDramaBattleEnterInfo bubble_drama_battle_enter_info = 2064;</code>
        */
-      public Builder setBubbleDramaBattleEnterInfo(emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo value) {
+      public Builder setBubbleDramaBattleEnterInfo(emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo value) {
         if (bubbleDramaBattleEnterInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1555,7 +1555,7 @@ public final class JEJEMODFEGGOuterClass {
        * <code>._BubbleDramaBattleEnterInfo bubble_drama_battle_enter_info = 2064;</code>
        */
       public Builder setBubbleDramaBattleEnterInfo(
-          emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo.Builder builderForValue) {
         if (bubbleDramaBattleEnterInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1568,11 +1568,11 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._BubbleDramaBattleEnterInfo bubble_drama_battle_enter_info = 2064;</code>
        */
-      public Builder mergeBubbleDramaBattleEnterInfo(emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo value) {
+      public Builder mergeBubbleDramaBattleEnterInfo(emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo value) {
         if (bubbleDramaBattleEnterInfoBuilder_ == null) {
           if (detailCase_ == 2064 &&
-              detail_ != emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo.newBuilder((emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo.newBuilder((emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1609,36 +1609,36 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._BubbleDramaBattleEnterInfo bubble_drama_battle_enter_info = 2064;</code>
        */
-      public emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo.Builder getBubbleDramaBattleEnterInfoBuilder() {
+      public emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo.Builder getBubbleDramaBattleEnterInfoBuilder() {
         return getBubbleDramaBattleEnterInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._BubbleDramaBattleEnterInfo bubble_drama_battle_enter_info = 2064;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfoOrBuilder getBubbleDramaBattleEnterInfoOrBuilder() {
+      public emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfoOrBuilder getBubbleDramaBattleEnterInfoOrBuilder() {
         if ((detailCase_ == 2064) && (bubbleDramaBattleEnterInfoBuilder_ != null)) {
           return bubbleDramaBattleEnterInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 2064) {
-            return (emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._BubbleDramaBattleEnterInfo bubble_drama_battle_enter_info = 2064;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo, emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo.Builder, emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfoOrBuilder> 
+          emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo, emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo.Builder, emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfoOrBuilder> 
           getBubbleDramaBattleEnterInfoFieldBuilder() {
         if (bubbleDramaBattleEnterInfoBuilder_ == null) {
           if (!(detailCase_ == 2064)) {
-            detail_ = emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo.getDefaultInstance();
           }
           bubbleDramaBattleEnterInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo, emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo.Builder, emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo._BubbleDramaBattleEnterInfo) detail_,
+              emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo, emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo.Builder, emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass._BubbleDramaBattleEnterInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1649,7 +1649,7 @@ public final class JEJEMODFEGGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo, emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo.Builder, emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfoOrBuilder> diversityBattleEnterInfoBuilder_;
+          emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo, emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo.Builder, emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfoOrBuilder> diversityBattleEnterInfoBuilder_;
       /**
        * <code>._DiversityBattleEnterInfo diversity_battle_enter_info = 3773;</code>
        * @return Whether the diversityBattleEnterInfo field is set.
@@ -1663,23 +1663,23 @@ public final class JEJEMODFEGGOuterClass {
        * @return The diversityBattleEnterInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo getDiversityBattleEnterInfo() {
+      public emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo getDiversityBattleEnterInfo() {
         if (diversityBattleEnterInfoBuilder_ == null) {
           if (detailCase_ == 3773) {
-            return (emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 3773) {
             return diversityBattleEnterInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._DiversityBattleEnterInfo diversity_battle_enter_info = 3773;</code>
        */
-      public Builder setDiversityBattleEnterInfo(emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo value) {
+      public Builder setDiversityBattleEnterInfo(emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo value) {
         if (diversityBattleEnterInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1696,7 +1696,7 @@ public final class JEJEMODFEGGOuterClass {
        * <code>._DiversityBattleEnterInfo diversity_battle_enter_info = 3773;</code>
        */
       public Builder setDiversityBattleEnterInfo(
-          emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo.Builder builderForValue) {
         if (diversityBattleEnterInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1709,11 +1709,11 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._DiversityBattleEnterInfo diversity_battle_enter_info = 3773;</code>
        */
-      public Builder mergeDiversityBattleEnterInfo(emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo value) {
+      public Builder mergeDiversityBattleEnterInfo(emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo value) {
         if (diversityBattleEnterInfoBuilder_ == null) {
           if (detailCase_ == 3773 &&
-              detail_ != emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo.newBuilder((emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo.newBuilder((emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1750,36 +1750,36 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._DiversityBattleEnterInfo diversity_battle_enter_info = 3773;</code>
        */
-      public emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo.Builder getDiversityBattleEnterInfoBuilder() {
+      public emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo.Builder getDiversityBattleEnterInfoBuilder() {
         return getDiversityBattleEnterInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._DiversityBattleEnterInfo diversity_battle_enter_info = 3773;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfoOrBuilder getDiversityBattleEnterInfoOrBuilder() {
+      public emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfoOrBuilder getDiversityBattleEnterInfoOrBuilder() {
         if ((detailCase_ == 3773) && (diversityBattleEnterInfoBuilder_ != null)) {
           return diversityBattleEnterInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 3773) {
-            return (emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._DiversityBattleEnterInfo diversity_battle_enter_info = 3773;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo, emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo.Builder, emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfoOrBuilder> 
+          emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo, emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo.Builder, emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfoOrBuilder> 
           getDiversityBattleEnterInfoFieldBuilder() {
         if (diversityBattleEnterInfoBuilder_ == null) {
           if (!(detailCase_ == 3773)) {
-            detail_ = emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo.getDefaultInstance();
           }
           diversityBattleEnterInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo, emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo.Builder, emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.DiversityBattleEnterInfo._DiversityBattleEnterInfo) detail_,
+              emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo, emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo.Builder, emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass._DiversityBattleEnterInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1790,7 +1790,7 @@ public final class JEJEMODFEGGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo, emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo.Builder, emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfoOrBuilder> holidayResortBattleEnterInfoBuilder_;
+          emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo, emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo.Builder, emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfoOrBuilder> holidayResortBattleEnterInfoBuilder_;
       /**
        * <code>._HolidayResortBattleEnterInfo holiday_resort_battle_enter_info = 5713;</code>
        * @return Whether the holidayResortBattleEnterInfo field is set.
@@ -1804,23 +1804,23 @@ public final class JEJEMODFEGGOuterClass {
        * @return The holidayResortBattleEnterInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo getHolidayResortBattleEnterInfo() {
+      public emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo getHolidayResortBattleEnterInfo() {
         if (holidayResortBattleEnterInfoBuilder_ == null) {
           if (detailCase_ == 5713) {
-            return (emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 5713) {
             return holidayResortBattleEnterInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._HolidayResortBattleEnterInfo holiday_resort_battle_enter_info = 5713;</code>
        */
-      public Builder setHolidayResortBattleEnterInfo(emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo value) {
+      public Builder setHolidayResortBattleEnterInfo(emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo value) {
         if (holidayResortBattleEnterInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1837,7 +1837,7 @@ public final class JEJEMODFEGGOuterClass {
        * <code>._HolidayResortBattleEnterInfo holiday_resort_battle_enter_info = 5713;</code>
        */
       public Builder setHolidayResortBattleEnterInfo(
-          emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo.Builder builderForValue) {
         if (holidayResortBattleEnterInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1850,11 +1850,11 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._HolidayResortBattleEnterInfo holiday_resort_battle_enter_info = 5713;</code>
        */
-      public Builder mergeHolidayResortBattleEnterInfo(emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo value) {
+      public Builder mergeHolidayResortBattleEnterInfo(emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo value) {
         if (holidayResortBattleEnterInfoBuilder_ == null) {
           if (detailCase_ == 5713 &&
-              detail_ != emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo.newBuilder((emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo.newBuilder((emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1891,36 +1891,36 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._HolidayResortBattleEnterInfo holiday_resort_battle_enter_info = 5713;</code>
        */
-      public emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo.Builder getHolidayResortBattleEnterInfoBuilder() {
+      public emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo.Builder getHolidayResortBattleEnterInfoBuilder() {
         return getHolidayResortBattleEnterInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._HolidayResortBattleEnterInfo holiday_resort_battle_enter_info = 5713;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfoOrBuilder getHolidayResortBattleEnterInfoOrBuilder() {
+      public emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfoOrBuilder getHolidayResortBattleEnterInfoOrBuilder() {
         if ((detailCase_ == 5713) && (holidayResortBattleEnterInfoBuilder_ != null)) {
           return holidayResortBattleEnterInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 5713) {
-            return (emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._HolidayResortBattleEnterInfo holiday_resort_battle_enter_info = 5713;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo, emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo.Builder, emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfoOrBuilder> 
+          emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo, emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo.Builder, emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfoOrBuilder> 
           getHolidayResortBattleEnterInfoFieldBuilder() {
         if (holidayResortBattleEnterInfoBuilder_ == null) {
           if (!(detailCase_ == 5713)) {
-            detail_ = emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo.getDefaultInstance();
           }
           holidayResortBattleEnterInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo, emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo.Builder, emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.HolidayResortBattleEnterInfo._HolidayResortBattleEnterInfo) detail_,
+              emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo, emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo.Builder, emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass._HolidayResortBattleEnterInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1931,7 +1931,7 @@ public final class JEJEMODFEGGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo, emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo.Builder, emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfoOrBuilder> aquariumDivingEnterInfoBuilder_;
+          emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo, emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo.Builder, emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfoOrBuilder> aquariumDivingEnterInfoBuilder_;
       /**
        * <code>._AquariumDivingEnterInfo aquarium_diving_enter_info = 6748;</code>
        * @return Whether the aquariumDivingEnterInfo field is set.
@@ -1945,23 +1945,23 @@ public final class JEJEMODFEGGOuterClass {
        * @return The aquariumDivingEnterInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo getAquariumDivingEnterInfo() {
+      public emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo getAquariumDivingEnterInfo() {
         if (aquariumDivingEnterInfoBuilder_ == null) {
           if (detailCase_ == 6748) {
-            return (emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 6748) {
             return aquariumDivingEnterInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._AquariumDivingEnterInfo aquarium_diving_enter_info = 6748;</code>
        */
-      public Builder setAquariumDivingEnterInfo(emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo value) {
+      public Builder setAquariumDivingEnterInfo(emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo value) {
         if (aquariumDivingEnterInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1978,7 +1978,7 @@ public final class JEJEMODFEGGOuterClass {
        * <code>._AquariumDivingEnterInfo aquarium_diving_enter_info = 6748;</code>
        */
       public Builder setAquariumDivingEnterInfo(
-          emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo.Builder builderForValue) {
         if (aquariumDivingEnterInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1991,11 +1991,11 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._AquariumDivingEnterInfo aquarium_diving_enter_info = 6748;</code>
        */
-      public Builder mergeAquariumDivingEnterInfo(emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo value) {
+      public Builder mergeAquariumDivingEnterInfo(emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo value) {
         if (aquariumDivingEnterInfoBuilder_ == null) {
           if (detailCase_ == 6748 &&
-              detail_ != emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo.newBuilder((emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo.newBuilder((emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2032,36 +2032,36 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._AquariumDivingEnterInfo aquarium_diving_enter_info = 6748;</code>
        */
-      public emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo.Builder getAquariumDivingEnterInfoBuilder() {
+      public emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo.Builder getAquariumDivingEnterInfoBuilder() {
         return getAquariumDivingEnterInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._AquariumDivingEnterInfo aquarium_diving_enter_info = 6748;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfoOrBuilder getAquariumDivingEnterInfoOrBuilder() {
+      public emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfoOrBuilder getAquariumDivingEnterInfoOrBuilder() {
         if ((detailCase_ == 6748) && (aquariumDivingEnterInfoBuilder_ != null)) {
           return aquariumDivingEnterInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 6748) {
-            return (emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._AquariumDivingEnterInfo aquarium_diving_enter_info = 6748;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo, emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo.Builder, emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfoOrBuilder> 
+          emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo, emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo.Builder, emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfoOrBuilder> 
           getAquariumDivingEnterInfoFieldBuilder() {
         if (aquariumDivingEnterInfoBuilder_ == null) {
           if (!(detailCase_ == 6748)) {
-            detail_ = emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo.getDefaultInstance();
           }
           aquariumDivingEnterInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo, emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo.Builder, emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.AquariumDivingEnterInfo._AquariumDivingEnterInfo) detail_,
+              emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo, emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo.Builder, emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass._AquariumDivingEnterInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2072,7 +2072,7 @@ public final class JEJEMODFEGGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo, emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo.Builder, emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfoOrBuilder> aquariumFishingEnterInfoBuilder_;
+          emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo, emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo.Builder, emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfoOrBuilder> aquariumFishingEnterInfoBuilder_;
       /**
        * <code>._AquariumFishingEnterInfo aquarium_fishing_enter_info = 7640;</code>
        * @return Whether the aquariumFishingEnterInfo field is set.
@@ -2086,23 +2086,23 @@ public final class JEJEMODFEGGOuterClass {
        * @return The aquariumFishingEnterInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo getAquariumFishingEnterInfo() {
+      public emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo getAquariumFishingEnterInfo() {
         if (aquariumFishingEnterInfoBuilder_ == null) {
           if (detailCase_ == 7640) {
-            return (emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 7640) {
             return aquariumFishingEnterInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._AquariumFishingEnterInfo aquarium_fishing_enter_info = 7640;</code>
        */
-      public Builder setAquariumFishingEnterInfo(emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo value) {
+      public Builder setAquariumFishingEnterInfo(emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo value) {
         if (aquariumFishingEnterInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2119,7 +2119,7 @@ public final class JEJEMODFEGGOuterClass {
        * <code>._AquariumFishingEnterInfo aquarium_fishing_enter_info = 7640;</code>
        */
       public Builder setAquariumFishingEnterInfo(
-          emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo.Builder builderForValue) {
         if (aquariumFishingEnterInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2132,11 +2132,11 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._AquariumFishingEnterInfo aquarium_fishing_enter_info = 7640;</code>
        */
-      public Builder mergeAquariumFishingEnterInfo(emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo value) {
+      public Builder mergeAquariumFishingEnterInfo(emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo value) {
         if (aquariumFishingEnterInfoBuilder_ == null) {
           if (detailCase_ == 7640 &&
-              detail_ != emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo.newBuilder((emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo.newBuilder((emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2173,36 +2173,36 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._AquariumFishingEnterInfo aquarium_fishing_enter_info = 7640;</code>
        */
-      public emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo.Builder getAquariumFishingEnterInfoBuilder() {
+      public emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo.Builder getAquariumFishingEnterInfoBuilder() {
         return getAquariumFishingEnterInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._AquariumFishingEnterInfo aquarium_fishing_enter_info = 7640;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfoOrBuilder getAquariumFishingEnterInfoOrBuilder() {
+      public emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfoOrBuilder getAquariumFishingEnterInfoOrBuilder() {
         if ((detailCase_ == 7640) && (aquariumFishingEnterInfoBuilder_ != null)) {
           return aquariumFishingEnterInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 7640) {
-            return (emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._AquariumFishingEnterInfo aquarium_fishing_enter_info = 7640;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo, emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo.Builder, emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfoOrBuilder> 
+          emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo, emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo.Builder, emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfoOrBuilder> 
           getAquariumFishingEnterInfoFieldBuilder() {
         if (aquariumFishingEnterInfoBuilder_ == null) {
           if (!(detailCase_ == 7640)) {
-            detail_ = emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo.getDefaultInstance();
           }
           aquariumFishingEnterInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo, emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo.Builder, emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.AquariumFishingEnterInfo._AquariumFishingEnterInfo) detail_,
+              emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo, emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo.Builder, emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass._AquariumFishingEnterInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2213,7 +2213,7 @@ public final class JEJEMODFEGGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo, emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo.Builder, emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfoOrBuilder> lanternRiteV6BattleEnterInfoBuilder_;
+          emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo, emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo.Builder, emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfoOrBuilder> lanternRiteV6BattleEnterInfoBuilder_;
       /**
        * <code>._LanternRiteV6BattleEnterInfo lantern_rite_v_6_battle_enter_info = 8222;</code>
        * @return Whether the lanternRiteV6BattleEnterInfo field is set.
@@ -2227,23 +2227,23 @@ public final class JEJEMODFEGGOuterClass {
        * @return The lanternRiteV6BattleEnterInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo getLanternRiteV6BattleEnterInfo() {
+      public emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo getLanternRiteV6BattleEnterInfo() {
         if (lanternRiteV6BattleEnterInfoBuilder_ == null) {
           if (detailCase_ == 8222) {
-            return (emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 8222) {
             return lanternRiteV6BattleEnterInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._LanternRiteV6BattleEnterInfo lantern_rite_v_6_battle_enter_info = 8222;</code>
        */
-      public Builder setLanternRiteV6BattleEnterInfo(emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo value) {
+      public Builder setLanternRiteV6BattleEnterInfo(emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo value) {
         if (lanternRiteV6BattleEnterInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2260,7 +2260,7 @@ public final class JEJEMODFEGGOuterClass {
        * <code>._LanternRiteV6BattleEnterInfo lantern_rite_v_6_battle_enter_info = 8222;</code>
        */
       public Builder setLanternRiteV6BattleEnterInfo(
-          emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo.Builder builderForValue) {
         if (lanternRiteV6BattleEnterInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2273,11 +2273,11 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._LanternRiteV6BattleEnterInfo lantern_rite_v_6_battle_enter_info = 8222;</code>
        */
-      public Builder mergeLanternRiteV6BattleEnterInfo(emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo value) {
+      public Builder mergeLanternRiteV6BattleEnterInfo(emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo value) {
         if (lanternRiteV6BattleEnterInfoBuilder_ == null) {
           if (detailCase_ == 8222 &&
-              detail_ != emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo.newBuilder((emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo.newBuilder((emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2314,36 +2314,36 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._LanternRiteV6BattleEnterInfo lantern_rite_v_6_battle_enter_info = 8222;</code>
        */
-      public emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo.Builder getLanternRiteV6BattleEnterInfoBuilder() {
+      public emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo.Builder getLanternRiteV6BattleEnterInfoBuilder() {
         return getLanternRiteV6BattleEnterInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._LanternRiteV6BattleEnterInfo lantern_rite_v_6_battle_enter_info = 8222;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfoOrBuilder getLanternRiteV6BattleEnterInfoOrBuilder() {
+      public emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfoOrBuilder getLanternRiteV6BattleEnterInfoOrBuilder() {
         if ((detailCase_ == 8222) && (lanternRiteV6BattleEnterInfoBuilder_ != null)) {
           return lanternRiteV6BattleEnterInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 8222) {
-            return (emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._LanternRiteV6BattleEnterInfo lantern_rite_v_6_battle_enter_info = 8222;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo, emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo.Builder, emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfoOrBuilder> 
+          emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo, emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo.Builder, emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfoOrBuilder> 
           getLanternRiteV6BattleEnterInfoFieldBuilder() {
         if (lanternRiteV6BattleEnterInfoBuilder_ == null) {
           if (!(detailCase_ == 8222)) {
-            detail_ = emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo.getDefaultInstance();
           }
           lanternRiteV6BattleEnterInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo, emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo.Builder, emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo._LanternRiteV6BattleEnterInfo) detail_,
+              emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo, emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo.Builder, emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass._LanternRiteV6BattleEnterInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2354,7 +2354,7 @@ public final class JEJEMODFEGGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo, emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo.Builder, emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfoOrBuilder> rankedMatchSnowBallEnterInfoBuilder_;
+          emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo, emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo.Builder, emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfoOrBuilder> rankedMatchSnowBallEnterInfoBuilder_;
       /**
        * <code>._RankedMatchSnowBallEnterInfo ranked_match_snow_ball_enter_info = 8617;</code>
        * @return Whether the rankedMatchSnowBallEnterInfo field is set.
@@ -2368,23 +2368,23 @@ public final class JEJEMODFEGGOuterClass {
        * @return The rankedMatchSnowBallEnterInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo getRankedMatchSnowBallEnterInfo() {
+      public emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo getRankedMatchSnowBallEnterInfo() {
         if (rankedMatchSnowBallEnterInfoBuilder_ == null) {
           if (detailCase_ == 8617) {
-            return (emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 8617) {
             return rankedMatchSnowBallEnterInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._RankedMatchSnowBallEnterInfo ranked_match_snow_ball_enter_info = 8617;</code>
        */
-      public Builder setRankedMatchSnowBallEnterInfo(emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo value) {
+      public Builder setRankedMatchSnowBallEnterInfo(emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo value) {
         if (rankedMatchSnowBallEnterInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2401,7 +2401,7 @@ public final class JEJEMODFEGGOuterClass {
        * <code>._RankedMatchSnowBallEnterInfo ranked_match_snow_ball_enter_info = 8617;</code>
        */
       public Builder setRankedMatchSnowBallEnterInfo(
-          emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo.Builder builderForValue) {
         if (rankedMatchSnowBallEnterInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2414,11 +2414,11 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._RankedMatchSnowBallEnterInfo ranked_match_snow_ball_enter_info = 8617;</code>
        */
-      public Builder mergeRankedMatchSnowBallEnterInfo(emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo value) {
+      public Builder mergeRankedMatchSnowBallEnterInfo(emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo value) {
         if (rankedMatchSnowBallEnterInfoBuilder_ == null) {
           if (detailCase_ == 8617 &&
-              detail_ != emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo.newBuilder((emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo.newBuilder((emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2455,36 +2455,36 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._RankedMatchSnowBallEnterInfo ranked_match_snow_ball_enter_info = 8617;</code>
        */
-      public emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo.Builder getRankedMatchSnowBallEnterInfoBuilder() {
+      public emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo.Builder getRankedMatchSnowBallEnterInfoBuilder() {
         return getRankedMatchSnowBallEnterInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._RankedMatchSnowBallEnterInfo ranked_match_snow_ball_enter_info = 8617;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfoOrBuilder getRankedMatchSnowBallEnterInfoOrBuilder() {
+      public emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfoOrBuilder getRankedMatchSnowBallEnterInfoOrBuilder() {
         if ((detailCase_ == 8617) && (rankedMatchSnowBallEnterInfoBuilder_ != null)) {
           return rankedMatchSnowBallEnterInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 8617) {
-            return (emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._RankedMatchSnowBallEnterInfo ranked_match_snow_ball_enter_info = 8617;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo, emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo.Builder, emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfoOrBuilder> 
+          emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo, emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo.Builder, emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfoOrBuilder> 
           getRankedMatchSnowBallEnterInfoFieldBuilder() {
         if (rankedMatchSnowBallEnterInfoBuilder_ == null) {
           if (!(detailCase_ == 8617)) {
-            detail_ = emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo.getDefaultInstance();
           }
           rankedMatchSnowBallEnterInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo, emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo.Builder, emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo._RankedMatchSnowBallEnterInfo) detail_,
+              emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo, emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo.Builder, emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass._RankedMatchSnowBallEnterInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2495,7 +2495,7 @@ public final class JEJEMODFEGGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo, emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo.Builder, emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfoOrBuilder> shortVideoEnterInfoBuilder_;
+          emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo, emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo.Builder, emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfoOrBuilder> shortVideoEnterInfoBuilder_;
       /**
        * <code>._ShortVideoEnterInfo short_video_enter_info = 10887;</code>
        * @return Whether the shortVideoEnterInfo field is set.
@@ -2509,23 +2509,23 @@ public final class JEJEMODFEGGOuterClass {
        * @return The shortVideoEnterInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo getShortVideoEnterInfo() {
+      public emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo getShortVideoEnterInfo() {
         if (shortVideoEnterInfoBuilder_ == null) {
           if (detailCase_ == 10887) {
-            return (emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 10887) {
             return shortVideoEnterInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._ShortVideoEnterInfo short_video_enter_info = 10887;</code>
        */
-      public Builder setShortVideoEnterInfo(emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo value) {
+      public Builder setShortVideoEnterInfo(emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo value) {
         if (shortVideoEnterInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2542,7 +2542,7 @@ public final class JEJEMODFEGGOuterClass {
        * <code>._ShortVideoEnterInfo short_video_enter_info = 10887;</code>
        */
       public Builder setShortVideoEnterInfo(
-          emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo.Builder builderForValue) {
         if (shortVideoEnterInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2555,11 +2555,11 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._ShortVideoEnterInfo short_video_enter_info = 10887;</code>
        */
-      public Builder mergeShortVideoEnterInfo(emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo value) {
+      public Builder mergeShortVideoEnterInfo(emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo value) {
         if (shortVideoEnterInfoBuilder_ == null) {
           if (detailCase_ == 10887 &&
-              detail_ != emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo.newBuilder((emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo.newBuilder((emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2596,36 +2596,36 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._ShortVideoEnterInfo short_video_enter_info = 10887;</code>
        */
-      public emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo.Builder getShortVideoEnterInfoBuilder() {
+      public emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo.Builder getShortVideoEnterInfoBuilder() {
         return getShortVideoEnterInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._ShortVideoEnterInfo short_video_enter_info = 10887;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfoOrBuilder getShortVideoEnterInfoOrBuilder() {
+      public emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfoOrBuilder getShortVideoEnterInfoOrBuilder() {
         if ((detailCase_ == 10887) && (shortVideoEnterInfoBuilder_ != null)) {
           return shortVideoEnterInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 10887) {
-            return (emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._ShortVideoEnterInfo short_video_enter_info = 10887;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo, emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo.Builder, emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfoOrBuilder> 
+          emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo, emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo.Builder, emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfoOrBuilder> 
           getShortVideoEnterInfoFieldBuilder() {
         if (shortVideoEnterInfoBuilder_ == null) {
           if (!(detailCase_ == 10887)) {
-            detail_ = emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo.getDefaultInstance();
           }
           shortVideoEnterInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo, emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo.Builder, emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.ShortVideoEnterInfo._ShortVideoEnterInfo) detail_,
+              emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo, emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo.Builder, emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass._ShortVideoEnterInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2636,7 +2636,7 @@ public final class JEJEMODFEGGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo, emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo.Builder, emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfoOrBuilder> snowRaceCombatEnterInfoBuilder_;
+          emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo, emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo.Builder, emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfoOrBuilder> snowRaceCombatEnterInfoBuilder_;
       /**
        * <code>._SnowRaceCombatEnterInfo snow_race_combat_enter_info = 12052;</code>
        * @return Whether the snowRaceCombatEnterInfo field is set.
@@ -2650,23 +2650,23 @@ public final class JEJEMODFEGGOuterClass {
        * @return The snowRaceCombatEnterInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo getSnowRaceCombatEnterInfo() {
+      public emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo getSnowRaceCombatEnterInfo() {
         if (snowRaceCombatEnterInfoBuilder_ == null) {
           if (detailCase_ == 12052) {
-            return (emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 12052) {
             return snowRaceCombatEnterInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._SnowRaceCombatEnterInfo snow_race_combat_enter_info = 12052;</code>
        */
-      public Builder setSnowRaceCombatEnterInfo(emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo value) {
+      public Builder setSnowRaceCombatEnterInfo(emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo value) {
         if (snowRaceCombatEnterInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2683,7 +2683,7 @@ public final class JEJEMODFEGGOuterClass {
        * <code>._SnowRaceCombatEnterInfo snow_race_combat_enter_info = 12052;</code>
        */
       public Builder setSnowRaceCombatEnterInfo(
-          emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo.Builder builderForValue) {
         if (snowRaceCombatEnterInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2696,11 +2696,11 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._SnowRaceCombatEnterInfo snow_race_combat_enter_info = 12052;</code>
        */
-      public Builder mergeSnowRaceCombatEnterInfo(emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo value) {
+      public Builder mergeSnowRaceCombatEnterInfo(emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo value) {
         if (snowRaceCombatEnterInfoBuilder_ == null) {
           if (detailCase_ == 12052 &&
-              detail_ != emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo.newBuilder((emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo.newBuilder((emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2737,36 +2737,36 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._SnowRaceCombatEnterInfo snow_race_combat_enter_info = 12052;</code>
        */
-      public emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo.Builder getSnowRaceCombatEnterInfoBuilder() {
+      public emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo.Builder getSnowRaceCombatEnterInfoBuilder() {
         return getSnowRaceCombatEnterInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._SnowRaceCombatEnterInfo snow_race_combat_enter_info = 12052;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfoOrBuilder getSnowRaceCombatEnterInfoOrBuilder() {
+      public emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfoOrBuilder getSnowRaceCombatEnterInfoOrBuilder() {
         if ((detailCase_ == 12052) && (snowRaceCombatEnterInfoBuilder_ != null)) {
           return snowRaceCombatEnterInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 12052) {
-            return (emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._SnowRaceCombatEnterInfo snow_race_combat_enter_info = 12052;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo, emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo.Builder, emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfoOrBuilder> 
+          emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo, emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo.Builder, emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfoOrBuilder> 
           getSnowRaceCombatEnterInfoFieldBuilder() {
         if (snowRaceCombatEnterInfoBuilder_ == null) {
           if (!(detailCase_ == 12052)) {
-            detail_ = emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo.getDefaultInstance();
           }
           snowRaceCombatEnterInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo, emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo.Builder, emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.SnowRaceCombatEnterInfo._SnowRaceCombatEnterInfo) detail_,
+              emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo, emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo.Builder, emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass._SnowRaceCombatEnterInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2777,7 +2777,7 @@ public final class JEJEMODFEGGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo, emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo.Builder, emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfoOrBuilder> tradeShowBattleEnterInfoBuilder_;
+          emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo, emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo.Builder, emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfoOrBuilder> tradeShowBattleEnterInfoBuilder_;
       /**
        * <code>._TradeShowBattleEnterInfo trade_show_battle_enter_info = 15737;</code>
        * @return Whether the tradeShowBattleEnterInfo field is set.
@@ -2791,23 +2791,23 @@ public final class JEJEMODFEGGOuterClass {
        * @return The tradeShowBattleEnterInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo getTradeShowBattleEnterInfo() {
+      public emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo getTradeShowBattleEnterInfo() {
         if (tradeShowBattleEnterInfoBuilder_ == null) {
           if (detailCase_ == 15737) {
-            return (emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 15737) {
             return tradeShowBattleEnterInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._TradeShowBattleEnterInfo trade_show_battle_enter_info = 15737;</code>
        */
-      public Builder setTradeShowBattleEnterInfo(emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo value) {
+      public Builder setTradeShowBattleEnterInfo(emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo value) {
         if (tradeShowBattleEnterInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2824,7 +2824,7 @@ public final class JEJEMODFEGGOuterClass {
        * <code>._TradeShowBattleEnterInfo trade_show_battle_enter_info = 15737;</code>
        */
       public Builder setTradeShowBattleEnterInfo(
-          emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo.Builder builderForValue) {
         if (tradeShowBattleEnterInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2837,11 +2837,11 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._TradeShowBattleEnterInfo trade_show_battle_enter_info = 15737;</code>
        */
-      public Builder mergeTradeShowBattleEnterInfo(emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo value) {
+      public Builder mergeTradeShowBattleEnterInfo(emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo value) {
         if (tradeShowBattleEnterInfoBuilder_ == null) {
           if (detailCase_ == 15737 &&
-              detail_ != emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo.newBuilder((emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo.newBuilder((emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2878,36 +2878,36 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._TradeShowBattleEnterInfo trade_show_battle_enter_info = 15737;</code>
        */
-      public emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo.Builder getTradeShowBattleEnterInfoBuilder() {
+      public emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo.Builder getTradeShowBattleEnterInfoBuilder() {
         return getTradeShowBattleEnterInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._TradeShowBattleEnterInfo trade_show_battle_enter_info = 15737;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfoOrBuilder getTradeShowBattleEnterInfoOrBuilder() {
+      public emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfoOrBuilder getTradeShowBattleEnterInfoOrBuilder() {
         if ((detailCase_ == 15737) && (tradeShowBattleEnterInfoBuilder_ != null)) {
           return tradeShowBattleEnterInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 15737) {
-            return (emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._TradeShowBattleEnterInfo trade_show_battle_enter_info = 15737;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo, emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo.Builder, emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfoOrBuilder> 
+          emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo, emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo.Builder, emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfoOrBuilder> 
           getTradeShowBattleEnterInfoFieldBuilder() {
         if (tradeShowBattleEnterInfoBuilder_ == null) {
           if (!(detailCase_ == 15737)) {
-            detail_ = emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo.getDefaultInstance();
           }
           tradeShowBattleEnterInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo, emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo.Builder, emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.TradeShowBattleEnterInfo._TradeShowBattleEnterInfo) detail_,
+              emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo, emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo.Builder, emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass._TradeShowBattleEnterInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2918,7 +2918,7 @@ public final class JEJEMODFEGGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo, emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo.Builder, emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfoOrBuilder> sumeruAdventureGoalFightingEnterInfoBuilder_;
+          emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo, emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo.Builder, emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfoOrBuilder> sumeruAdventureGoalFightingEnterInfoBuilder_;
       /**
        * <code>._SumeruAdventureGoalFightingEnterInfo sumeru_adventure_goal_fighting_enter_info = 18197;</code>
        * @return Whether the sumeruAdventureGoalFightingEnterInfo field is set.
@@ -2932,23 +2932,23 @@ public final class JEJEMODFEGGOuterClass {
        * @return The sumeruAdventureGoalFightingEnterInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo getSumeruAdventureGoalFightingEnterInfo() {
+      public emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo getSumeruAdventureGoalFightingEnterInfo() {
         if (sumeruAdventureGoalFightingEnterInfoBuilder_ == null) {
           if (detailCase_ == 18197) {
-            return (emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 18197) {
             return sumeruAdventureGoalFightingEnterInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._SumeruAdventureGoalFightingEnterInfo sumeru_adventure_goal_fighting_enter_info = 18197;</code>
        */
-      public Builder setSumeruAdventureGoalFightingEnterInfo(emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo value) {
+      public Builder setSumeruAdventureGoalFightingEnterInfo(emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo value) {
         if (sumeruAdventureGoalFightingEnterInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2965,7 +2965,7 @@ public final class JEJEMODFEGGOuterClass {
        * <code>._SumeruAdventureGoalFightingEnterInfo sumeru_adventure_goal_fighting_enter_info = 18197;</code>
        */
       public Builder setSumeruAdventureGoalFightingEnterInfo(
-          emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo.Builder builderForValue) {
         if (sumeruAdventureGoalFightingEnterInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2978,11 +2978,11 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._SumeruAdventureGoalFightingEnterInfo sumeru_adventure_goal_fighting_enter_info = 18197;</code>
        */
-      public Builder mergeSumeruAdventureGoalFightingEnterInfo(emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo value) {
+      public Builder mergeSumeruAdventureGoalFightingEnterInfo(emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo value) {
         if (sumeruAdventureGoalFightingEnterInfoBuilder_ == null) {
           if (detailCase_ == 18197 &&
-              detail_ != emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo.newBuilder((emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo.newBuilder((emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3019,36 +3019,36 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._SumeruAdventureGoalFightingEnterInfo sumeru_adventure_goal_fighting_enter_info = 18197;</code>
        */
-      public emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo.Builder getSumeruAdventureGoalFightingEnterInfoBuilder() {
+      public emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo.Builder getSumeruAdventureGoalFightingEnterInfoBuilder() {
         return getSumeruAdventureGoalFightingEnterInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._SumeruAdventureGoalFightingEnterInfo sumeru_adventure_goal_fighting_enter_info = 18197;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfoOrBuilder getSumeruAdventureGoalFightingEnterInfoOrBuilder() {
+      public emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfoOrBuilder getSumeruAdventureGoalFightingEnterInfoOrBuilder() {
         if ((detailCase_ == 18197) && (sumeruAdventureGoalFightingEnterInfoBuilder_ != null)) {
           return sumeruAdventureGoalFightingEnterInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 18197) {
-            return (emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._SumeruAdventureGoalFightingEnterInfo sumeru_adventure_goal_fighting_enter_info = 18197;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo, emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo.Builder, emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfoOrBuilder> 
+          emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo, emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo.Builder, emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfoOrBuilder> 
           getSumeruAdventureGoalFightingEnterInfoFieldBuilder() {
         if (sumeruAdventureGoalFightingEnterInfoBuilder_ == null) {
           if (!(detailCase_ == 18197)) {
-            detail_ = emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo.getDefaultInstance();
           }
           sumeruAdventureGoalFightingEnterInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo, emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo.Builder, emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo._SumeruAdventureGoalFightingEnterInfo) detail_,
+              emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo, emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo.Builder, emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass._SumeruAdventureGoalFightingEnterInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3059,7 +3059,7 @@ public final class JEJEMODFEGGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo, emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo.Builder, emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfoOrBuilder> loliBattleEnterInfoBuilder_;
+          emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo, emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo.Builder, emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfoOrBuilder> loliBattleEnterInfoBuilder_;
       /**
        * <code>._LoliBattleEnterInfo loli_battle_enter_info = 18942;</code>
        * @return Whether the loliBattleEnterInfo field is set.
@@ -3073,23 +3073,23 @@ public final class JEJEMODFEGGOuterClass {
        * @return The loliBattleEnterInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo getLoliBattleEnterInfo() {
+      public emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo getLoliBattleEnterInfo() {
         if (loliBattleEnterInfoBuilder_ == null) {
           if (detailCase_ == 18942) {
-            return (emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 18942) {
             return loliBattleEnterInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._LoliBattleEnterInfo loli_battle_enter_info = 18942;</code>
        */
-      public Builder setLoliBattleEnterInfo(emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo value) {
+      public Builder setLoliBattleEnterInfo(emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo value) {
         if (loliBattleEnterInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3106,7 +3106,7 @@ public final class JEJEMODFEGGOuterClass {
        * <code>._LoliBattleEnterInfo loli_battle_enter_info = 18942;</code>
        */
       public Builder setLoliBattleEnterInfo(
-          emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo.Builder builderForValue) {
         if (loliBattleEnterInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3119,11 +3119,11 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._LoliBattleEnterInfo loli_battle_enter_info = 18942;</code>
        */
-      public Builder mergeLoliBattleEnterInfo(emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo value) {
+      public Builder mergeLoliBattleEnterInfo(emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo value) {
         if (loliBattleEnterInfoBuilder_ == null) {
           if (detailCase_ == 18942 &&
-              detail_ != emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo.newBuilder((emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo.newBuilder((emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3160,36 +3160,36 @@ public final class JEJEMODFEGGOuterClass {
       /**
        * <code>._LoliBattleEnterInfo loli_battle_enter_info = 18942;</code>
        */
-      public emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo.Builder getLoliBattleEnterInfoBuilder() {
+      public emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo.Builder getLoliBattleEnterInfoBuilder() {
         return getLoliBattleEnterInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._LoliBattleEnterInfo loli_battle_enter_info = 18942;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfoOrBuilder getLoliBattleEnterInfoOrBuilder() {
+      public emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfoOrBuilder getLoliBattleEnterInfoOrBuilder() {
         if ((detailCase_ == 18942) && (loliBattleEnterInfoBuilder_ != null)) {
           return loliBattleEnterInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 18942) {
-            return (emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo) detail_;
+            return (emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo) detail_;
           }
-          return emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._LoliBattleEnterInfo loli_battle_enter_info = 18942;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo, emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo.Builder, emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfoOrBuilder> 
+          emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo, emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo.Builder, emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfoOrBuilder> 
           getLoliBattleEnterInfoFieldBuilder() {
         if (loliBattleEnterInfoBuilder_ == null) {
           if (!(detailCase_ == 18942)) {
-            detail_ = emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo.getDefaultInstance();
           }
           loliBattleEnterInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo, emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo.Builder, emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.LoliBattleEnterInfo._LoliBattleEnterInfo) detail_,
+              emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo, emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo.Builder, emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass._LoliBattleEnterInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3297,24 +3297,25 @@ public final class JEJEMODFEGGOuterClass {
       "dventure_goal_fighting_enter_info\030\225\216\001 \001(" +
       "\0132&._SumeruAdventureGoalFightingEnterInf" +
       "oH\000\0229\n\026loli_battle_enter_info\030\376\223\001 \001(\0132\025." +
-      "_LoliBattleEnterInfoH\000B\010\n\006detailB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "_LoliBattleEnterInfoH\000B\010\n\006detailB2\n\031emu." +
+      "grasscutter.net.protoB\025JEJEMODFEGGOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.AquariumDivingEnterInfo.getDescriptor(),
-          emu.grasscutter.net.proto.AquariumFishingEnterInfo.getDescriptor(),
-          emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo.getDescriptor(),
-          emu.grasscutter.net.proto.DiversityBattleEnterInfo.getDescriptor(),
-          emu.grasscutter.net.proto.HolidayResortBattleEnterInfo.getDescriptor(),
-          emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo.getDescriptor(),
-          emu.grasscutter.net.proto.LoliBattleEnterInfo.getDescriptor(),
-          emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo.getDescriptor(),
-          emu.grasscutter.net.proto.ShortVideoEnterInfo.getDescriptor(),
-          emu.grasscutter.net.proto.SnowRaceCombatEnterInfo.getDescriptor(),
-          emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo.getDescriptor(),
-          emu.grasscutter.net.proto.TradeShowBattleEnterInfo.getDescriptor(),
+          emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass.getDescriptor(),
         });
     internal_static_JEJEMODFEGG_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -3322,18 +3323,18 @@ public final class JEJEMODFEGGOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_JEJEMODFEGG_descriptor,
         new java.lang.String[] { "BubbleDramaBattleEnterInfo", "DiversityBattleEnterInfo", "HolidayResortBattleEnterInfo", "AquariumDivingEnterInfo", "AquariumFishingEnterInfo", "LanternRiteV6BattleEnterInfo", "RankedMatchSnowBallEnterInfo", "ShortVideoEnterInfo", "SnowRaceCombatEnterInfo", "TradeShowBattleEnterInfo", "SumeruAdventureGoalFightingEnterInfo", "LoliBattleEnterInfo", "Detail", });
-    emu.grasscutter.net.proto.AquariumDivingEnterInfo.getDescriptor();
-    emu.grasscutter.net.proto.AquariumFishingEnterInfo.getDescriptor();
-    emu.grasscutter.net.proto.BubbleDramaBattleEnterInfo.getDescriptor();
-    emu.grasscutter.net.proto.DiversityBattleEnterInfo.getDescriptor();
-    emu.grasscutter.net.proto.HolidayResortBattleEnterInfo.getDescriptor();
-    emu.grasscutter.net.proto.LanternRiteV6BattleEnterInfo.getDescriptor();
-    emu.grasscutter.net.proto.LoliBattleEnterInfo.getDescriptor();
-    emu.grasscutter.net.proto.RankedMatchSnowBallEnterInfo.getDescriptor();
-    emu.grasscutter.net.proto.ShortVideoEnterInfo.getDescriptor();
-    emu.grasscutter.net.proto.SnowRaceCombatEnterInfo.getDescriptor();
-    emu.grasscutter.net.proto.SumeruAdventureGoalFightingEnterInfo.getDescriptor();
-    emu.grasscutter.net.proto.TradeShowBattleEnterInfo.getDescriptor();
+    emu.grasscutter.net.proto._AquariumDivingEnterInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._AquariumFishingEnterInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BubbleDramaBattleEnterInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._DiversityBattleEnterInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._HolidayResortBattleEnterInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._LanternRiteV6BattleEnterInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._LoliBattleEnterInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._RankedMatchSnowBallEnterInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ShortVideoEnterInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._SnowRaceCombatEnterInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._SumeruAdventureGoalFightingEnterInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._TradeShowBattleEnterInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

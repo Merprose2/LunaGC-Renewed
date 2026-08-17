@@ -526,8 +526,8 @@ public final class BLKDIMBFGNKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BLKDIMBFGNK.proto\"!\n\013BLKDIMBFGNK\022\022\n\n_h" +
-      "all_guid\030\007 \001(\004B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "all_guid\030\007 \001(\004B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025BLKDIMBFGNKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

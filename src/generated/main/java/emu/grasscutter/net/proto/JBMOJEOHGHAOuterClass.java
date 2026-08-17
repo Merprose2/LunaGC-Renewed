@@ -935,7 +935,8 @@ public final class JBMOJEOHGHAOuterClass {
       "\n\013JBMOJEOHGHA\022\023\n\013BNFEKEPLCNL\030\001 \001(\r\022\016\n\006ra" +
       "dius\030\002 \001(\002\022\020\n\010scene_id\030\005 \001(\r\022\025\n\r_map_lay" +
       "er_id\030\006 \001(\r\022\034\n\006center\030\016 \001(\0132\014.VectorPlan" +
-      "eB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "eB2\n\031emu.grasscutter.net.protoB\025JBMOJEOH" +
+      "GHAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

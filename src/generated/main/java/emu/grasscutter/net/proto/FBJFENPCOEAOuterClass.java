@@ -722,8 +722,9 @@ public final class FBJFENPCOEAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FBJFENPCOEA.proto\"2\n\013FBJFENPCOEA\022\017\n\007re" +
-      "tcode\030\n \001(\005\022\022\n\nskill_list\030\013 \003(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "tcode\030\n \001(\005\022\022\n\nskill_list\030\013 \003(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025FBJFENPCOEAOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

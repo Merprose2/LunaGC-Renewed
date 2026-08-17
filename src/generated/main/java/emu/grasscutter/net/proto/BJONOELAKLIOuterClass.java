@@ -1592,8 +1592,9 @@ public final class BJONOELAKLIOuterClass {
       "DONLOCJGEEO.proto\"}\n\013BJONOELAKLI\022\023\n\013ALEK" +
       "EOPPHJN\030\001 \003(\r\022!\n\013JEBGBOLANFC\030\006 \003(\0132\014.AOG" +
       "KALOHJNN\022!\n\013FNIPGDMHKDA\030\n \003(\0132\014.DONLOCJG" +
-      "EEO\022\023\n\013HKCMPNEHPHB\030\014 \003(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "EEO\022\023\n\013HKCMPNEHPHB\030\014 \003(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025BJONOELAKLIOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

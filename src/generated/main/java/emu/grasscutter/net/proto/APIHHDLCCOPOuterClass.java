@@ -878,7 +878,8 @@ public final class APIHHDLCCOPOuterClass {
       "FPKMMIFODA\030\001 \001(\002\022\023\n\013KDGFBKLBCPB\030\002 \001(\002\022\023\n" +
       "\013OHECNIOPDOH\030\003 \001(\002\022\023\n\013DJGIJECBBEC\030\004 \001(\r\022" +
       "\023\n\013LPMBPLEPLBE\030\005 \001(\002\022\024\n\013GPILHDOELLM\030\365\003 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB2\n\031emu.grasscutter.net.protoB\025APIHHDL" +
+      "CCOPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

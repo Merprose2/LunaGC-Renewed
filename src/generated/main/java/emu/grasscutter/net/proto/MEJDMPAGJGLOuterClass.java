@@ -807,8 +807,9 @@ public final class MEJDMPAGJGLOuterClass {
       "\n\021MEJDMPAGJGL.proto\"x\n\013MEJDMPAGJGL\022\031\n\021_q" +
       "uest_scenery_id\030\005 \001(\r\022\023\n\013DEPCBHICJAH\030\007 \001" +
       "(\r\022\023\n\013GKEECPMJFGF\030\014 \001(\005\022\023\n\013AKNLDBLOAAL\030\r" +
-      " \001(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      " \001(\r\022\017\n\007retcode\030\016 \001(\005B2\n\031emu.grasscutter" +
+      ".net.protoB\025MEJDMPAGJGLOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

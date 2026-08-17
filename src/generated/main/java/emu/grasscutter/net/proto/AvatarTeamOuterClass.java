@@ -794,8 +794,9 @@ public final class AvatarTeamOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\020AvatarTeam.proto\"9\n\nAvatarTeam\022\021\n\tteam" +
-      "_name\030\007 \001(\t\022\030\n\020avatar_guid_list\030\r \003(\004B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "_name\030\007 \001(\t\022\030\n\020avatar_guid_list\030\r \003(\004B1\n" +
+      "\031emu.grasscutter.net.protoB\024AvatarTeamOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1166,8 +1166,9 @@ public final class KCHHFLOCCEGOuterClass {
       "\n\021KCHHFLOCCEG.proto\032\021EIIGINHKAHF.proto\"k" +
       "\n\013KCHHFLOCCEG\022!\n\013PJOGAOOJOBP\030\001 \003(\0132\014.EII" +
       "GINHKAHF\022\017\n\007retcode\030\003 \001(\005\022\023\n\013CGHMCODJLID" +
-      "\030\t \001(\r\022\023\n\013LDLENGONLIA\030\017 \003(\004B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\030\t \001(\r\022\023\n\013LDLENGONLIA\030\017 \003(\004B2\n\031emu.grass" +
+      "cutter.net.protoB\025KCHHFLOCCEGOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

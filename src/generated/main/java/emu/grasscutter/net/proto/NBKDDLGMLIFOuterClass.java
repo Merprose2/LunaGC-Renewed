@@ -936,8 +936,8 @@ public final class NBKDDLGMLIFOuterClass {
       "\001\n\013NBKDDLGMLIF\022\023\n\013HMOFNODLMBL\030\001 \001(\010\022\023\n\013E" +
       "CCLIIIBOLE\030\002 \001(\002\022\023\n\013IDCCGKLBMHL\030\003 \001(\005\022\023\n" +
       "\013EJANIOOPFHP\030\004 \001(\005\022!\n\013NCGIMFGDIPG\030\005 \001(\0132" +
-      "\014.IKHNFCKKIFIB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\014.IKHNFCKKIFIB2\n\031emu.grasscutter.net.pro" +
+      "toB\025NBKDDLGMLIFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

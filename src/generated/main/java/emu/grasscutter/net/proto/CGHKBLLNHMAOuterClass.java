@@ -1162,8 +1162,9 @@ public final class CGHKBLLNHMAOuterClass {
       "\013JMODEHNJBFB\030\004 \001(\002\022\023\n\013HALDJHLBJGI\030\005 \001(\005\022" +
       "!\n\013JDPJOCLIHMI\030\006 \001(\0162\014.JEOKDCIGCFP\022\023\n\013OC" +
       "PEDDDLBLN\030\007 \001(\010\022\023\n\013JOBPFOAMGHI\030\010 \001(\010\022!\n\013" +
-      "LCBNCKEGALF\030\t \001(\0162\014.JEOKDCIGCFPB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "LCBNCKEGALF\030\t \001(\0162\014.JEOKDCIGCFPB2\n\031emu.g" +
+      "rasscutter.net.protoB\025CGHKBLLNHMAOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

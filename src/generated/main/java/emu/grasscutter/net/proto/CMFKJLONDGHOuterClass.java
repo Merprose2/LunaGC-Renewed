@@ -965,7 +965,8 @@ public final class CMFKJLONDGHOuterClass {
       "\n\021CMFKJLONDGH.proto\032\021OIMBMIIKLGO.proto\"R" +
       "\n\013CMFKJLONDGH\022\013\n\003uid\030\005 \001(\r\022!\n\013DHPFLKOBMB" +
       "F\030\006 \003(\0132\014.OIMBMIIKLGO\022\023\n\013APBIKEACDGL\030\r \001" +
-      "(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\010B2\n\031emu.grasscutter.net.protoB\025CMFKJLO" +
+      "NDGHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

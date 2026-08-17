@@ -729,8 +729,8 @@ public final class KHDFLCNHAOCOuterClass {
       "\n\021KHDFLCNHAOC.proto\"h\n\013KHDFLCNHAOC\022\032\n\022_c" +
       "hess_level_up_id\030\001 \001(\r\022\014\n\004guid\030\002 \001(\r\022\021\n\t" +
       "entity_id\030\007 \001(\r\022\034\n\024_auto_chess_chess_id\030" +
-      "\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\016 \001(\rB2\n\031emu.grasscutter.net.protoB\025KHDF" +
+      "LCNHAOCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

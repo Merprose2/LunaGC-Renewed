@@ -1868,8 +1868,8 @@ public final class CILFIPODLOLOuterClass {
       "\nrequest_id\030\003 \001(\t\022&\n\004data\030\004 \001(\0132\030.CILFIP" +
       "ODLOL.OBOFIGHIJFC\022\023\n\013NGEDGDGBAID\030\005 \001(\014\022\023" +
       "\n\013NJKJHJEAKEJ\030\006 \001(\t\032\037\n\013OBOFIGHIJFC\022\020\n\010le" +
-      "vel_id\030\001 \003(\004B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "vel_id\030\001 \003(\004B2\n\031emu.grasscutter.net.prot" +
+      "oB\025CILFIPODLOLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

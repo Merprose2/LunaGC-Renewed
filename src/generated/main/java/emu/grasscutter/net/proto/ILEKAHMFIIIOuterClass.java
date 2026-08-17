@@ -596,8 +596,9 @@ public final class ILEKAHMFIIIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ILEKAHMFIII.proto\",\n\013ILEKAHMFIII\022\014\n\004gu" +
-      "id\030\013 \001(\004\022\017\n\007retcode\030\014 \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "id\030\013 \001(\004\022\017\n\007retcode\030\014 \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025ILEKAHMFIIIOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

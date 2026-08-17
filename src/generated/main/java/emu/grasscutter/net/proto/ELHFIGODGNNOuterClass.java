@@ -526,8 +526,9 @@ public final class ELHFIGODGNNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ELHFIGODGNN.proto\"*\n\013ELHFIGODGNN\022\033\n\023is" +
-      "_quit_immediately\030\017 \001(\010B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "_quit_immediately\030\017 \001(\010B2\n\031emu.grasscutt" +
+      "er.net.protoB\025ELHFIGODGNNOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

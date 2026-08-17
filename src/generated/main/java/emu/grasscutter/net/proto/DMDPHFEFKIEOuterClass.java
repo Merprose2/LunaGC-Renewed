@@ -1013,8 +1013,9 @@ public final class DMDPHFEFKIEOuterClass {
       "DPHFEFKIE\022\017\n\007is_succ\030\001 \001(\010\022\023\n\013GJFFLCIHPI" +
       "N\030\003 \001(\010\022\023\n\013GEABJCBNDAB\030\007 \001(\r\022\032\n\t_mark_po" +
       "s\030\010 \001(\0132\007.Vector\022\023\n\013material_id\030\r \001(\r\022\030\n" +
-      "\020gadget_entity_id\030\017 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\020gadget_entity_id\030\017 \001(\rB2\n\031emu.grasscutt" +
+      "er.net.protoB\025DMDPHFEFKIEOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

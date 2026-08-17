@@ -732,8 +732,9 @@ public final class LCCHAOHJFJCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LCCHAOHJFJC.proto\"Y\n\013LCCHAOHJFJC\022\023\n\013BA" +
       "GPGNGFIPJ\030\001 \001(\002\022\013\n\003rot\030\010 \001(\r\022\023\n\013HBCJCINA" +
-      "FLF\030\n \001(\r\022\023\n\013KEAPHFCKLFN\030\r \001(\002B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "FLF\030\n \001(\r\022\023\n\013KEAPHFCKLFN\030\r \001(\002B2\n\031emu.gr" +
+      "asscutter.net.protoB\025LCCHAOHJFJCOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

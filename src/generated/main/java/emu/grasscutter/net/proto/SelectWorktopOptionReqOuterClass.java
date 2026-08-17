@@ -667,7 +667,8 @@ public final class SelectWorktopOptionReqOuterClass {
       "\n\034SelectWorktopOptionReq.proto\"Z\n\026Select" +
       "WorktopOptionReq\022\030\n\020gadget_entity_id\030\005 \001" +
       "(\r\022\023\n\013CJIPKAIPCIB\030\013 \001(\r\022\021\n\toption_id\030\r \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB=\n\031emu.grasscutter.net.protoB SelectW" +
+      "orktopOptionReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

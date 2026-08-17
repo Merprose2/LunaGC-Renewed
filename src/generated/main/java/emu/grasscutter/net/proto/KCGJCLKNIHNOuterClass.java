@@ -667,8 +667,8 @@ public final class KCGJCLKNIHNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KCGJCLKNIHN.proto\"I\n\013KCGJCLKNIHN\022\024\n\014du" +
       "ngeon_guid\030\001 \001(\004\022\023\n\013FEDFIMEJNAL\030\006 \001(\r\022\017\n" +
-      "\007retcode\030\r \001(\005B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "\007retcode\030\r \001(\005B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025KCGJCLKNIHNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

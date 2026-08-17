@@ -729,8 +729,9 @@ public final class INFJBHJAJEGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021INFJBHJAJEG.proto\032\021LMCBHIFLBFF.proto\"D" +
       "\n\013INFJBHJAJEG\022!\n\013LBODPJPMHCB\030\003 \001(\0132\014.LMC" +
-      "BHIFLBFF\022\022\n\ngallery_id\030\017 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "BHIFLBFF\022\022\n\ngallery_id\030\017 \001(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025INFJBHJAJEGOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

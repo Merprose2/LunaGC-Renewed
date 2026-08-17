@@ -5368,8 +5368,9 @@ public final class SceneEntityInfoOuterClass {
       "Buff\022!\n\013KCKNNKCAFCE\030\030 \001(\0132\014.ILFPMCGGMOA\022" +
       "!\n\013EEDDIJJOCFM\030\031 \001(\0132\014.IFMIEJICEMA\022\023\n\013LD" +
       "AODDFLPGB\030\032 \001(\r\022!\n\013DGACEKDBNKC\030\033 \001(\0132\014.J" +
-      "CCEBIEEGFLB\010\n\006entityB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "CCEBIEEGFLB\010\n\006entityB6\n\031emu.grasscutter." +
+      "net.protoB\031SceneEntityInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

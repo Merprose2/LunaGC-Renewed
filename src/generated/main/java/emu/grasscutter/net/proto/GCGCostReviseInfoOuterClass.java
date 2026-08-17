@@ -3551,8 +3551,9 @@ public final class GCGCostReviseInfoOuterClass {
       "tageCostInfo\022 \n\013DPPBLPOOLCI\030\013 \003(\0132\013.Uint" +
       "32Pair\022!\n\013CIJDMPCBCAB\030\014 \003(\0132\014.LBGOJAFBJG" +
       "A\022\023\n\013PDPKEHKLCBH\030\r \003(\r\022\023\n\013DIFLEJILLAH\030\016 " +
-      "\003(\r\022\023\n\013EJKCGNIMNJA\030\017 \003(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\003(\r\022\023\n\013EJKCGNIMNJA\030\017 \003(\rB8\n\031emu.grasscut" +
+      "ter.net.protoB\033GCGCostReviseInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1854,8 +1854,9 @@ public final class QueryPathReqOuterClass {
       "onType\022\032\n\026OptionType_OPTION_NONE\020\000\022\034\n\030Op" +
       "tionType_OPTION_NORMAL\020\001\022\"\n\036OptionType_O" +
       "PTION_FIRST_CAN_GO\020\002\022/\n+OptionType_OPTIO" +
-      "N_FIRST_CAN_GO_SUCCESS_ONLY\020\003B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "N_FIRST_CAN_GO_SUCCESS_ONLY\020\003B3\n\031emu.gra" +
+      "sscutter.net.protoB\026QueryPathReqOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

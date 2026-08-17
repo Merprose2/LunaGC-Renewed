@@ -831,8 +831,8 @@ public final class BGKGECKFKOAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BGKGECKFKOA.proto\032\021FAPOMGEOHAK.proto\"0" +
       "\n\013BGKGECKFKOA\022!\n\013EKKFBGGMKKF\030\001 \003(\0132\014.FAP" +
-      "OMGEOHAKB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "OMGEOHAKB2\n\031emu.grasscutter.net.protoB\025B" +
+      "GKGECKFKOAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

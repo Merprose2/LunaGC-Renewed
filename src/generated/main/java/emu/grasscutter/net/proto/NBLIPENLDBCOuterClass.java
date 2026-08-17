@@ -1559,8 +1559,9 @@ public final class NBLIPENLDBCOuterClass {
       "\n\021modifier_local_id\030\005 \001(\005\022\034\n\024instanced_a" +
       "bility_id\030\006 \001(\r\022\035\n\025instanced_modifier_id" +
       "\030\007 \001(\r\022\023\n\013LDAODDFLPGB\030\010 \001(\r\022!\n\013EEDDIJJOC" +
-      "FM\030\t \001(\0132\014.IFMIEJICEMAB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "FM\030\t \001(\0132\014.IFMIEJICEMAB2\n\031emu.grasscutte" +
+      "r.net.protoB\025NBLIPENLDBCOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -2181,8 +2181,9 @@ public final class LCOMLEHAJLFOuterClass {
       "NDODDOPBPMN\030\007 \001(\0132\014.HHEDHCFPEKM\022!\n\013JOAIO" +
       "BLHFOP\030\010 \001(\0132\014.HHEDHCFPEKM\022\023\n\013MDOLPEKKOP" +
       "I\030\t \001(\002\022\023\n\013AMELDOONLLF\030\n \001(\002\022\014\n\004name\030\013 \001" +
-      "(\t\022\023\n\013EPHGDKIEIBF\030\014 \001(\002B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "(\t\022\023\n\013EPHGDKIEIBF\030\014 \001(\002B2\n\031emu.grasscutt" +
+      "er.net.protoB\025LCOMLEHAJLFOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

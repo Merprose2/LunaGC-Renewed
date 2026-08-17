@@ -142,8 +142,9 @@ public final class OHDDPCHDIOBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OHDDPCHDIOB.proto*[\n\013OHDDPCHDIOB\022\024\n\020OH" +
       "DDPCHDIOB_IDLE\020\000\022\037\n\033OHDDPCHDIOB_CHANGING" +
-      "_AVATAR\020\001\022\025\n\021OHDDPCHDIOB_READY\020\002B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "_AVATAR\020\001\022\025\n\021OHDDPCHDIOB_READY\020\002B2\n\031emu." +
+      "grasscutter.net.protoB\025OHDDPCHDIOBOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

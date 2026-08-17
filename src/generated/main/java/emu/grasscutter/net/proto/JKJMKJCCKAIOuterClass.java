@@ -2045,8 +2045,8 @@ public final class JKJMKJCCKAIOuterClass {
       "_data\030\r \001(\0132\014.IOAMNOKNGJBH\000\0220\n\030rotate_to" +
       "_dir_mover_data\030\016 \001(\0132\014.ECBLMHJNPBAH\000\022\"\n" +
       "\013IBEINDABLAE\030\366\003 \001(\0132\014.CBOPLAEPEFA\022\013\n\002id\030" +
-      "\367\003 \001(\005B\010\n\006detailB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\367\003 \001(\005B\010\n\006detailB2\n\031emu.grasscutter.net." +
+      "protoB\025JKJMKJCCKAIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

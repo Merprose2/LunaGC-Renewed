@@ -746,8 +746,8 @@ public final class EKHFPHHOIKIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EKHFPHHOIKI.proto\"J\n\013EKHFPHHOIKI\022\021\n\tmo" +
       "dule_id\030\003 \001(\005\022\023\n\013NGFJLPGAGMB\030\r \001(\t\022\023\n\013DK" +
-      "NNANCIIGI\030\016 \001(\005B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "NNANCIIGI\030\016 \001(\005B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025EKHFPHHOIKIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

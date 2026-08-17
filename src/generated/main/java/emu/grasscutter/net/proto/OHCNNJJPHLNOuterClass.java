@@ -2691,8 +2691,9 @@ public final class OHCNNJJPHLNOuterClass {
       "FKBHC\030\014 \003(\0132\014.CIBAANAJCBF\022\030\n\007corners\030\r \003" +
       "(\0132\007.Vector\"g\n\013DFDIEDCPCNF\022\033\n\027DFDIEDCPCN" +
       "F_STATUS_FAIL\020\000\022\033\n\027DFDIEDCPCNF_STATUS_SU" +
-      "CC\020\001\022\036\n\032DFDIEDCPCNF_STATUS_PARTIAL\020\002B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "CC\020\001\022\036\n\032DFDIEDCPCNF_STATUS_PARTIAL\020\002B2\n\031" +
+      "emu.grasscutter.net.protoB\025OHCNNJJPHLNOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

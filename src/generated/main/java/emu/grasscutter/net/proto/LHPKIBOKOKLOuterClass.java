@@ -525,8 +525,8 @@ public final class LHPKIBOKOKLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LHPKIBOKOKL.proto\"%\n\013LHPKIBOKOKL\022\026\n\016_c" +
-      "ur_round_num\030\017 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "ur_round_num\030\017 \001(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025LHPKIBOKOKLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

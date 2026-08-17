@@ -786,8 +786,8 @@ public final class JCOAOAGPAEAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JCOAOAGPAEA.proto\"L\n\013JCOAOAGPAEA\022\023\n\013OP" +
       "LHGHEFAJF\030\002 \003(\r\022\023\n\013MHBIBKCBBKB\030\003 \001(\010\022\023\n\013" +
-      "PIHNNJKACLH\030\t \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "PIHNNJKACLH\030\t \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025JCOAOAGPAEAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

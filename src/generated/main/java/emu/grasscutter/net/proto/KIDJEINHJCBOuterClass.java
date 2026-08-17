@@ -721,8 +721,8 @@ public final class KIDJEINHJCBOuterClass {
       "ICLE_PARAM\0209\022$\n KIDJEINHJCB_VEHICLE_ADD_" +
       "VELOCITY\020:\022(\n$KIDJEINHJCB_VEHICLE_ADD_AC" +
       "CELERATION\020;\022)\n%KIDJEINHJCB_VEHICLE_MOTI" +
-      "ON_ENTER_DROP\020<B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "ON_ENTER_DROP\020<B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025KIDJEINHJCBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

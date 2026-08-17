@@ -857,7 +857,8 @@ public final class RogueEffectRecordOuterClass {
       "\n\027RogueEffectRecord.proto\"_\n\021RogueEffect" +
       "Record\022\r\n\005count\030\001 \001(\r\022\021\n\tsource_id\030\004 \001(\r" +
       "\022\030\n\020extra_param_list\030\013 \003(\r\022\016\n\006is_new\030\016 \001" +
-      "(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\010B8\n\031emu.grasscutter.net.protoB\033RogueEf" +
+      "fectRecordOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

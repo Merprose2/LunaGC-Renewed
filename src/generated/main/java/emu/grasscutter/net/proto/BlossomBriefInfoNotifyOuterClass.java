@@ -832,8 +832,8 @@ public final class BlossomBriefInfoNotifyOuterClass {
       "\n\034BlossomBriefInfoNotify.proto\032\026BlossomB" +
       "riefInfo.proto\"D\n\026BlossomBriefInfoNotify" +
       "\022*\n\017brief_info_list\030\r \003(\0132\021.BlossomBrief" +
-      "InfoB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "InfoB=\n\031emu.grasscutter.net.protoB Bloss" +
+      "omBriefInfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

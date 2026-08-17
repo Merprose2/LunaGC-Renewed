@@ -152,8 +152,8 @@ public final class FKPFJHCNOLDOuterClass {
       "\n\021FKPFJHCNOLD.proto*k\n\013FKPFJHCNOLD\022\024\n\020FK" +
       "PFJHCNOLD_NONE\020\000\022\025\n\021FKPFJHCNOLD_START\020\001\022" +
       "\026\n\022FKPFJHCNOLD_PAUSED\020\002\022\027\n\023FKPFJHCNOLD_S" +
-      "TOPPED\020\003B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "TOPPED\020\003B2\n\031emu.grasscutter.net.protoB\025F" +
+      "KPFJHCNOLDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

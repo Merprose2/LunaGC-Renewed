@@ -1956,8 +1956,8 @@ public final class ENPLFBGCHMMOuterClass {
       "PIHP\030\013 \001(\0132\014.HDCFGIFBHKB\022\024\n\013DDOLPJEKCNC\030" +
       "\365\003 \001(\t\022\024\n\013KDJPNHAMAIJ\030\366\003 \001(\t\022\024\n\013IPCOGFLJ" +
       "LKO\030\367\003 \001(\t\022\024\n\013LBIPGGPFJCF\030\370\003 \001(\r\022\022\n\tis_l" +
-      "ocked\030\371\003 \001(\010B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "ocked\030\371\003 \001(\010B2\n\031emu.grasscutter.net.prot" +
+      "oB\025ENPLFBGCHMMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

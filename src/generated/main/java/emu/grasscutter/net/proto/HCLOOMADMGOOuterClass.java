@@ -595,8 +595,9 @@ public final class HCLOOMADMGOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HCLOOMADMGO.proto\"3\n\013HCLOOMADMGO\022\022\n\nta" +
-      "rget_uid\030\006 \001(\r\022\020\n\010pull_num\030\017 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "rget_uid\030\006 \001(\r\022\020\n\010pull_num\030\017 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025HCLOOMADMGOOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

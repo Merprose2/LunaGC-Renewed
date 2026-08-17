@@ -940,8 +940,9 @@ public final class NCDHECPCPPOOuterClass {
       "\n\021NCDHECPCPPO.proto\032\017ShopGoods.proto\"q\n\013" +
       "NCDHECPCPPO\022\021\n\tbuy_count\030\003 \001(\r\022\031\n\005goods\030" +
       "\004 \001(\0132\n.ShopGoods\022\r\n\005hcoin\030\006 \001(\r\022\022\n\nmcoi" +
-      "n_cost\030\013 \001(\r\022\021\n\tshop_type\030\017 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "n_cost\030\013 \001(\r\022\021\n\tshop_type\030\017 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025NCDHECPCPPOOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

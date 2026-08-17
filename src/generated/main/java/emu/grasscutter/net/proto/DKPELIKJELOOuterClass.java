@@ -831,8 +831,8 @@ public final class DKPELIKJELOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DKPELIKJELO.proto\032\020Uint32Pair.proto\"/\n" +
       "\013DKPELIKJELO\022 \n\013NEEKJNIDLDH\030\014 \003(\0132\013.Uint" +
-      "32PairB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "32PairB2\n\031emu.grasscutter.net.protoB\025DKP" +
+      "ELIKJELOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

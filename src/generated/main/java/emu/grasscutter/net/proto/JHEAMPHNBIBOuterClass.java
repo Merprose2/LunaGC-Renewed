@@ -787,8 +787,8 @@ public final class JHEAMPHNBIBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JHEAMPHNBIB.proto\"J\n\013JHEAMPHNBIB\022\021\n\tis" +
       "_active\030\001 \001(\010\022\023\n\013JBBCINLKBEB\030\002 \001(\010\022\023\n\013DN" +
-      "PINKPIGCJ\030\003 \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "PINKPIGCJ\030\003 \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025JHEAMPHNBIBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

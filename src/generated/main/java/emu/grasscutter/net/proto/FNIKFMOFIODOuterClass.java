@@ -998,8 +998,9 @@ public final class FNIKFMOFIODOuterClass {
       "roto\032\rGCGDuel.proto\"x\n\013FNIKFMOFIOD\022\026\n\004du" +
       "el\030\001 \001(\0132\010.GCGDuel\022\023\n\013JDHAOIPLNGM\030\002 \001(\010\022" +
       "\023\n\013KOGAOAPDFAO\030\007 \001(\010\022\'\n\013FCLLEODEENB\030\013 \001(" +
-      "\0132\022.GCGCostReviseInfoB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\0132\022.GCGCostReviseInfoB2\n\031emu.grasscutter" +
+      ".net.protoB\025FNIKFMOFIODOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

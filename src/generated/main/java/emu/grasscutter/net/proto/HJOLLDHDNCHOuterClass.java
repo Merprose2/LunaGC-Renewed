@@ -1178,8 +1178,8 @@ public final class HJOLLDHDNCHOuterClass {
       "OPKHGPMMOOB.proto\"i\n\013HJOLLDHDNCH\022!\n\013LICC" +
       "JGPGOHF\030\001 \001(\0132\014.EMOLMHKIMBE\022!\n\013PDLCHDABC" +
       "PI\030\002 \003(\0132\014.OPKHGPMMOOB\022\024\n\013LLOHLDODBCI\030\365\003" +
-      " \001(\tB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\tB2\n\031emu.grasscutter.net.protoB\025HJOLL" +
+      "DHDNCHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

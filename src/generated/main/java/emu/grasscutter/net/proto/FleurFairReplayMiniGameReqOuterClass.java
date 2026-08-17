@@ -526,8 +526,8 @@ public final class FleurFairReplayMiniGameReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n FleurFairReplayMiniGameReq.proto\"1\n\032Fl" +
       "eurFairReplayMiniGameReq\022\023\n\013minigame_id\030" +
-      "\t \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\t \001(\rBA\n\031emu.grasscutter.net.protoB$Fleu" +
+      "rFairReplayMiniGameReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -943,8 +943,8 @@ public final class BBGOGNHNFOOOuterClass {
       "DFGEBODNFP\030\002 \001(\r\022\014\n\004type\030\003 \001(\r\022\023\n\013FIMLME" +
       "MIBGD\030\004 \001(\020\022\023\n\013FAEFNHPGOOP\030\007 \001(\r\022\023\n\013JMEA" +
       "OKGPPPD\030\010 \001(\020\022\n\n\002id\030\t \001(\r\022\021\n\tis_active\030\013" +
-      " \001(\010B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\010B2\n\031emu.grasscutter.net.protoB\025BBGOG" +
+      "NHNFOOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -525,8 +525,8 @@ public final class IACKBJJCLNJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IACKBJJCLNJ.proto\"!\n\013IACKBJJCLNJ\022\022\n\npl" +
-      "ayer_uid\030\005 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "ayer_uid\030\005 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025IACKBJJCLNJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

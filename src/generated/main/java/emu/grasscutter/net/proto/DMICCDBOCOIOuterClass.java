@@ -644,8 +644,8 @@ public final class DMICCDBOCOIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DMICCDBOCOI.proto\"\"\n\013DMICCDBOCOI\022\023\n\013DH" +
-      "LDKKIHJLJ\030\001 \003(\005B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "LDKKIHJLJ\030\001 \003(\005B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025DMICCDBOCOIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

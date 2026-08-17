@@ -1491,8 +1491,9 @@ public final class CINHFFCJGJJOuterClass {
       "\023\n\013MBNEDJGDPPN\030\006 \001(\005\022\023\n\013JHMIDBHEENL\030\007 \001(" +
       "\005\022\034\n\006offset\030\010 \001(\0132\014.JHABMHAPMPG\022\023\n\013AHPLO" +
       "OHHMNM\030\t \001(\005\022!\n\013HLANALJLNNM\030\n \001(\0132\014.JHAB" +
-      "MHAPMPG\022\023\n\013BOPALLMGONK\030\013 \001(\010B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "MHAPMPG\022\023\n\013BOPALLMGONK\030\013 \001(\010B2\n\031emu.gras" +
+      "scutter.net.protoB\025CINHFFCJGJJOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

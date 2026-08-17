@@ -729,8 +729,9 @@ public final class LKHLKMNNOKNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LKHLKMNNOKN.proto\032\021BMJNJLKCODG.proto\"C" +
       "\n\013LKHLKMNNOKN\022\021\n\tentity_id\030\002 \001(\r\022!\n\013CFOM" +
-      "FPNHLJF\030\007 \001(\0132\014.BMJNJLKCODGB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "FPNHLJF\030\007 \001(\0132\014.BMJNJLKCODGB2\n\031emu.grass" +
+      "cutter.net.protoB\025LKHLKMNNOKNOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

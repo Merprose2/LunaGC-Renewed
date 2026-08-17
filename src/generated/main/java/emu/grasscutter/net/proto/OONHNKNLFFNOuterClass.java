@@ -1249,8 +1249,9 @@ public final class OONHNKNLFFNOuterClass {
       "IKHNFCKKIFI.proto\"}\n\013OONHNKNLFFN\022\023\n\013EOEL" +
       "INOKFIN\030\001 \001(\t\022\023\n\013IMMBFFCGIIL\030\002 \001(\010\022!\n\013MD" +
       "GLIDJODMO\030\003 \001(\0132\014.IKHNFCKKIFI\022!\n\013CJKAKBL" +
-      "ELFA\030\004 \003(\0132\014.GIEALPADCODB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "ELFA\030\004 \003(\0132\014.GIEALPADCODB2\n\031emu.grasscut" +
+      "ter.net.protoB\025OONHNKNLFFNOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

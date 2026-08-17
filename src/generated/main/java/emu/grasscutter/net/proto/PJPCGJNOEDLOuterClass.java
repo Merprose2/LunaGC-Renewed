@@ -27,11 +27,11 @@ public final class PJPCGJNOEDLOuterClass {
      * <code>._PinName index = 1;</code>
      * @return The index.
      */
-    emu.grasscutter.net.proto.PinName._PinName getIndex();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinName getIndex();
     /**
      * <code>._PinName index = 1;</code>
      */
-    emu.grasscutter.net.proto.PinName._PinNameOrBuilder getIndexOrBuilder();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getIndexOrBuilder();
 
     /**
      * <code>._PinName PELLMHIGEPM = 2;</code>
@@ -42,11 +42,11 @@ public final class PJPCGJNOEDLOuterClass {
      * <code>._PinName PELLMHIGEPM = 2;</code>
      * @return The pELLMHIGEPM.
      */
-    emu.grasscutter.net.proto.PinName._PinName getPELLMHIGEPM();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinName getPELLMHIGEPM();
     /**
      * <code>._PinName PELLMHIGEPM = 2;</code>
      */
-    emu.grasscutter.net.proto.PinName._PinNameOrBuilder getPELLMHIGEPMOrBuilder();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getPELLMHIGEPMOrBuilder();
 
     /**
      * <code>.NAKGFDFHPFG value = 3;</code>
@@ -172,11 +172,11 @@ public final class PJPCGJNOEDLOuterClass {
               done = true;
               break;
             case 10: {
-              emu.grasscutter.net.proto.PinName._PinName.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder subBuilder = null;
               if (index_ != null) {
                 subBuilder = index_.toBuilder();
               }
-              index_ = input.readMessage(emu.grasscutter.net.proto.PinName._PinName.parser(), extensionRegistry);
+              index_ = input.readMessage(emu.grasscutter.net.proto._PinNameOuterClass._PinName.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(index_);
                 index_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class PJPCGJNOEDLOuterClass {
               break;
             }
             case 18: {
-              emu.grasscutter.net.proto.PinName._PinName.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder subBuilder = null;
               if (pELLMHIGEPM_ != null) {
                 subBuilder = pELLMHIGEPM_.toBuilder();
               }
-              pELLMHIGEPM_ = input.readMessage(emu.grasscutter.net.proto.PinName._PinName.parser(), extensionRegistry);
+              pELLMHIGEPM_ = input.readMessage(emu.grasscutter.net.proto._PinNameOuterClass._PinName.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(pELLMHIGEPM_);
                 pELLMHIGEPM_ = subBuilder.buildPartial();
@@ -277,7 +277,7 @@ public final class PJPCGJNOEDLOuterClass {
     }
 
     public static final int INDEX_FIELD_NUMBER = 1;
-    private emu.grasscutter.net.proto.PinName._PinName index_;
+    private emu.grasscutter.net.proto._PinNameOuterClass._PinName index_;
     /**
      * <code>._PinName index = 1;</code>
      * @return Whether the index field is set.
@@ -291,19 +291,19 @@ public final class PJPCGJNOEDLOuterClass {
      * @return The index.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinName getIndex() {
-      return index_ == null ? emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : index_;
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinName getIndex() {
+      return index_ == null ? emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : index_;
     }
     /**
      * <code>._PinName index = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getIndexOrBuilder() {
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getIndexOrBuilder() {
       return getIndex();
     }
 
     public static final int PELLMHIGEPM_FIELD_NUMBER = 2;
-    private emu.grasscutter.net.proto.PinName._PinName pELLMHIGEPM_;
+    private emu.grasscutter.net.proto._PinNameOuterClass._PinName pELLMHIGEPM_;
     /**
      * <code>._PinName PELLMHIGEPM = 2;</code>
      * @return Whether the pELLMHIGEPM field is set.
@@ -317,14 +317,14 @@ public final class PJPCGJNOEDLOuterClass {
      * @return The pELLMHIGEPM.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinName getPELLMHIGEPM() {
-      return pELLMHIGEPM_ == null ? emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : pELLMHIGEPM_;
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinName getPELLMHIGEPM() {
+      return pELLMHIGEPM_ == null ? emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : pELLMHIGEPM_;
     }
     /**
      * <code>._PinName PELLMHIGEPM = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getPELLMHIGEPMOrBuilder() {
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getPELLMHIGEPMOrBuilder() {
       return getPELLMHIGEPM();
     }
 
@@ -977,9 +977,9 @@ public final class PJPCGJNOEDLOuterClass {
       }
       private int bitField0_;
 
-      private emu.grasscutter.net.proto.PinName._PinName index_;
+      private emu.grasscutter.net.proto._PinNameOuterClass._PinName index_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> indexBuilder_;
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> indexBuilder_;
       /**
        * <code>._PinName index = 1;</code>
        * @return Whether the index field is set.
@@ -991,9 +991,9 @@ public final class PJPCGJNOEDLOuterClass {
        * <code>._PinName index = 1;</code>
        * @return The index.
        */
-      public emu.grasscutter.net.proto.PinName._PinName getIndex() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName getIndex() {
         if (indexBuilder_ == null) {
-          return index_ == null ? emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : index_;
+          return index_ == null ? emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : index_;
         } else {
           return indexBuilder_.getMessage();
         }
@@ -1001,7 +1001,7 @@ public final class PJPCGJNOEDLOuterClass {
       /**
        * <code>._PinName index = 1;</code>
        */
-      public Builder setIndex(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder setIndex(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (indexBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1018,7 +1018,7 @@ public final class PJPCGJNOEDLOuterClass {
        * <code>._PinName index = 1;</code>
        */
       public Builder setIndex(
-          emu.grasscutter.net.proto.PinName._PinName.Builder builderForValue) {
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder builderForValue) {
         if (indexBuilder_ == null) {
           index_ = builderForValue.build();
           onChanged();
@@ -1031,11 +1031,11 @@ public final class PJPCGJNOEDLOuterClass {
       /**
        * <code>._PinName index = 1;</code>
        */
-      public Builder mergeIndex(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder mergeIndex(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (indexBuilder_ == null) {
           if (index_ != null) {
             index_ =
-              emu.grasscutter.net.proto.PinName._PinName.newBuilder(index_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.newBuilder(index_).mergeFrom(value).buildPartial();
           } else {
             index_ = value;
           }
@@ -1063,7 +1063,7 @@ public final class PJPCGJNOEDLOuterClass {
       /**
        * <code>._PinName index = 1;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinName.Builder getIndexBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder getIndexBuilder() {
         
         onChanged();
         return getIndexFieldBuilder().getBuilder();
@@ -1071,23 +1071,23 @@ public final class PJPCGJNOEDLOuterClass {
       /**
        * <code>._PinName index = 1;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getIndexOrBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getIndexOrBuilder() {
         if (indexBuilder_ != null) {
           return indexBuilder_.getMessageOrBuilder();
         } else {
           return index_ == null ?
-              emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : index_;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : index_;
         }
       }
       /**
        * <code>._PinName index = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> 
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> 
           getIndexFieldBuilder() {
         if (indexBuilder_ == null) {
           indexBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder>(
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder>(
                   getIndex(),
                   getParentForChildren(),
                   isClean());
@@ -1096,9 +1096,9 @@ public final class PJPCGJNOEDLOuterClass {
         return indexBuilder_;
       }
 
-      private emu.grasscutter.net.proto.PinName._PinName pELLMHIGEPM_;
+      private emu.grasscutter.net.proto._PinNameOuterClass._PinName pELLMHIGEPM_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> pELLMHIGEPMBuilder_;
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> pELLMHIGEPMBuilder_;
       /**
        * <code>._PinName PELLMHIGEPM = 2;</code>
        * @return Whether the pELLMHIGEPM field is set.
@@ -1110,9 +1110,9 @@ public final class PJPCGJNOEDLOuterClass {
        * <code>._PinName PELLMHIGEPM = 2;</code>
        * @return The pELLMHIGEPM.
        */
-      public emu.grasscutter.net.proto.PinName._PinName getPELLMHIGEPM() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName getPELLMHIGEPM() {
         if (pELLMHIGEPMBuilder_ == null) {
-          return pELLMHIGEPM_ == null ? emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : pELLMHIGEPM_;
+          return pELLMHIGEPM_ == null ? emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : pELLMHIGEPM_;
         } else {
           return pELLMHIGEPMBuilder_.getMessage();
         }
@@ -1120,7 +1120,7 @@ public final class PJPCGJNOEDLOuterClass {
       /**
        * <code>._PinName PELLMHIGEPM = 2;</code>
        */
-      public Builder setPELLMHIGEPM(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder setPELLMHIGEPM(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (pELLMHIGEPMBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1137,7 +1137,7 @@ public final class PJPCGJNOEDLOuterClass {
        * <code>._PinName PELLMHIGEPM = 2;</code>
        */
       public Builder setPELLMHIGEPM(
-          emu.grasscutter.net.proto.PinName._PinName.Builder builderForValue) {
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder builderForValue) {
         if (pELLMHIGEPMBuilder_ == null) {
           pELLMHIGEPM_ = builderForValue.build();
           onChanged();
@@ -1150,11 +1150,11 @@ public final class PJPCGJNOEDLOuterClass {
       /**
        * <code>._PinName PELLMHIGEPM = 2;</code>
        */
-      public Builder mergePELLMHIGEPM(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder mergePELLMHIGEPM(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (pELLMHIGEPMBuilder_ == null) {
           if (pELLMHIGEPM_ != null) {
             pELLMHIGEPM_ =
-              emu.grasscutter.net.proto.PinName._PinName.newBuilder(pELLMHIGEPM_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.newBuilder(pELLMHIGEPM_).mergeFrom(value).buildPartial();
           } else {
             pELLMHIGEPM_ = value;
           }
@@ -1182,7 +1182,7 @@ public final class PJPCGJNOEDLOuterClass {
       /**
        * <code>._PinName PELLMHIGEPM = 2;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinName.Builder getPELLMHIGEPMBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder getPELLMHIGEPMBuilder() {
         
         onChanged();
         return getPELLMHIGEPMFieldBuilder().getBuilder();
@@ -1190,23 +1190,23 @@ public final class PJPCGJNOEDLOuterClass {
       /**
        * <code>._PinName PELLMHIGEPM = 2;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getPELLMHIGEPMOrBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getPELLMHIGEPMOrBuilder() {
         if (pELLMHIGEPMBuilder_ != null) {
           return pELLMHIGEPMBuilder_.getMessageOrBuilder();
         } else {
           return pELLMHIGEPM_ == null ?
-              emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : pELLMHIGEPM_;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : pELLMHIGEPM_;
         }
       }
       /**
        * <code>._PinName PELLMHIGEPM = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> 
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> 
           getPELLMHIGEPMFieldBuilder() {
         if (pELLMHIGEPMBuilder_ == null) {
           pELLMHIGEPMBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder>(
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder>(
                   getPELLMHIGEPM(),
                   getParentForChildren(),
                   isClean());
@@ -1949,8 +1949,9 @@ public final class PJPCGJNOEDLOuterClass {
       "inName\022\033\n\005value\030\003 \001(\0132\014.NAKGFDFHPFG\022\023\n\013B" +
       "BCFFALKCND\030\004 \001(\r\022!\n\013GJDLKCBECNC\030\005 \003(\0132\014." +
       "KILLLIOOLAH\022!\n\013MCGHLOLCABO\030\006 \003(\0132\014.ELLLO" +
-      "MJDPJL\022\023\n\013CMIIHJLJIAD\030\007 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "MJDPJL\022\023\n\013CMIIHJLJIAD\030\007 \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025PJPCGJNOEDLOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1958,7 +1959,7 @@ public final class PJPCGJNOEDLOuterClass {
           emu.grasscutter.net.proto.ELLLOMJDPJLOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.KILLLIOOLAHOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.NAKGFDFHPFGOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.PinName.getDescriptor(),
+          emu.grasscutter.net.proto._PinNameOuterClass.getDescriptor(),
         });
     internal_static_PJPCGJNOEDL_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1969,7 +1970,7 @@ public final class PJPCGJNOEDLOuterClass {
     emu.grasscutter.net.proto.ELLLOMJDPJLOuterClass.getDescriptor();
     emu.grasscutter.net.proto.KILLLIOOLAHOuterClass.getDescriptor();
     emu.grasscutter.net.proto.NAKGFDFHPFGOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.PinName.getDescriptor();
+    emu.grasscutter.net.proto._PinNameOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

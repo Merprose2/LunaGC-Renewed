@@ -730,7 +730,8 @@ public final class HitClientTrivialNotifyOuterClass {
       "\n\034HitClientTrivialNotify.proto\032\014Vector.p" +
       "roto\"L\n\026HitClientTrivialNotify\022\027\n\017owner_" +
       "entity_id\030\007 \001(\r\022\031\n\010position\030\r \001(\0132\007.Vect" +
-      "orB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "orB=\n\031emu.grasscutter.net.protoB HitClie" +
+      "ntTrivialNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

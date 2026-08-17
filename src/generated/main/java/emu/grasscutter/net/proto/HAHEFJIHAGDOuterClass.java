@@ -2360,8 +2360,8 @@ public final class HAHEFJIHAGDOuterClass {
       "\022\021\n\tentity_id\030\r \001(\r\022\024\n\003pos\030\016 \001(\0132\007.Vecto" +
       "r\022\030\n\020creator_nickname\030\017 \001(\t\022\021\n\010scene_id\030" +
       "\347\006 \001(\r\022\022\n\tis_hidden\030\201\013 \001(\010\022\024\n\013LKIKEPHAKG" +
-      "H\030\217\013 \001(\010B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "H\030\217\013 \001(\010B2\n\031emu.grasscutter.net.protoB\025H" +
+      "AHEFJIHAGDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

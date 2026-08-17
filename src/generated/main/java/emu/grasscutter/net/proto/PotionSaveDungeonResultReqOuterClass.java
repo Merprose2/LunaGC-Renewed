@@ -596,8 +596,9 @@ public final class PotionSaveDungeonResultReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n PotionSaveDungeonResultReq.proto\"@\n\032Po" +
       "tionSaveDungeonResultReq\022\020\n\010level_id\030\007 \001" +
-      "(\r\022\020\n\010stage_id\030\t \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "(\r\022\020\n\010stage_id\030\t \001(\rBA\n\031emu.grasscutter." +
+      "net.protoB$PotionSaveDungeonResultReqOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

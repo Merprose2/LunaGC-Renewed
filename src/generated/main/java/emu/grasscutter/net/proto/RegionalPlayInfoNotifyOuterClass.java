@@ -1266,8 +1266,9 @@ public final class RegionalPlayInfoNotifyOuterClass {
       "\022\"\n\010var_list\030\002 \003(\0132\020.RegionalPlayVar\022\023\n\013" +
       "CBOMOGGJHGC\030\003 \001(\010\022\023\n\013JKHBDPELLKM\030\004 \001(\r\022\023" +
       "\n\013EMBOHPGOCDD\030\006 \001(\010\022\021\n\tplay_name\030\007 \001(\t\022\021" +
-      "\n\tplay_type\030\014 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\n\tplay_type\030\014 \001(\rB=\n\031emu.grasscutter.net" +
+      ".protoB RegionalPlayInfoNotifyOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

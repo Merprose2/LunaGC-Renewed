@@ -667,7 +667,8 @@ public final class ActivitySelectAvatarCardRspOuterClass {
       "\n!ActivitySelectAvatarCardRsp.proto\"V\n\033A" +
       "ctivitySelectAvatarCardRsp\022\021\n\treward_id\030" +
       "\003 \001(\r\022\023\n\013activity_id\030\010 \001(\r\022\017\n\007retcode\030\n " +
-      "\001(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\005BB\n\031emu.grasscutter.net.protoB%Activi" +
+      "tySelectAvatarCardRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

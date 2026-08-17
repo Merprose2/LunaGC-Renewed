@@ -833,7 +833,8 @@ public final class GBAELOEHJDKOuterClass {
       "v\n\013MEBGNDIMMHK\022\031\n\025MEBGNDIMMHK_NOT_EXIST\020" +
       "\000\022\031\n\025MEBGNDIMMHK_TEMP_SEND\020\001\022\031\n\025MEBGNDIM" +
       "MHK_TEMP_RECV\020\002\022\026\n\022MEBGNDIMMHK_FORMAL\020\003B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025GBAELOEHJD" +
+      "KOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

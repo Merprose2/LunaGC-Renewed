@@ -627,8 +627,9 @@ public final class SalvageEscortGallerySettleInfoOuterClass {
       "SalvageEscortStopReason.proto\"_\n\036Salvage" +
       "EscortGallerySettleInfo\022\023\n\013time_remain\030\n" +
       " \001(\r\022(\n\006reason\030\016 \001(\0162\030.SalvageEscortStop" +
-      "ReasonB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "ReasonBE\n\031emu.grasscutter.net.protoB(Sal" +
+      "vageEscortGallerySettleInfoOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -652,8 +652,8 @@ public final class OBBMKGLKDKJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OBBMKGLKDKJ.proto\"\"\n\013OBBMKGLKDKJ\022\023\n\013AD" +
-      "LBJICHKOB\030\014 \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "LBJICHKOB\030\014 \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025OBBMKGLKDKJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -932,8 +932,9 @@ public final class BJCAOAPOOGIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BJCAOAPOOGI.proto\032\014Vector.proto\"N\n\013BJC" +
       "AOAPOOGI\022\023\n\013FFHNCFHJMFA\030\004 \001(\r\022\024\n\003pos\030\n \001" +
-      "(\0132\007.Vector\022\024\n\003rot\030\016 \001(\0132\007.VectorB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "(\0132\007.Vector\022\024\n\003rot\030\016 \001(\0132\007.VectorB2\n\031emu" +
+      ".grasscutter.net.protoB\025BJCAOAPOOGIOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

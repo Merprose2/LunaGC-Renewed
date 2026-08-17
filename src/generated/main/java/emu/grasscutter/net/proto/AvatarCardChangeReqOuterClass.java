@@ -667,8 +667,9 @@ public final class AvatarCardChangeReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031AvatarCardChangeReq.proto\"J\n\023AvatarCar" +
       "dChangeReq\022\023\n\013avatar_guid\030\003 \001(\004\022\r\n\005count" +
-      "\030\010 \001(\r\022\017\n\007item_id\030\r \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\030\010 \001(\r\022\017\n\007item_id\030\r \001(\rB:\n\031emu.grasscutt" +
+      "er.net.protoB\035AvatarCardChangeReqOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

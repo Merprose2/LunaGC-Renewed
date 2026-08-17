@@ -736,8 +736,9 @@ public final class OEGOCBCLCDEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OEGOCBCLCDE.proto\"a\n\013OEGOCBCLCDE\022\023\n\013NO" +
       "BONFNKIPC\030\004 \001(\r\022\023\n\013GKHPIGPFNBA\030\006 \001(\r\022\023\n\013" +
-      "GHDALJPBPAP\030\r \001(\r\022\023\n\013OBBHMFJOEGB\030\017 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "GHDALJPBPAP\030\r \001(\r\022\023\n\013OBBHMFJOEGB\030\017 \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025OEGOCBCLCDE" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

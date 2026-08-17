@@ -596,8 +596,9 @@ public final class BHGAEKGJMGFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BHGAEKGJMGF.proto\"4\n\013BHGAEKGJMGF\022\020\n\010le" +
-      "vel_id\030\005 \001(\r\022\023\n\013KHCGADDLDEJ\030\017 \001(\010B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "vel_id\030\005 \001(\r\022\023\n\013KHCGADDLDEJ\030\017 \001(\010B2\n\031emu" +
+      ".grasscutter.net.protoB\025BHGAEKGJMGFOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

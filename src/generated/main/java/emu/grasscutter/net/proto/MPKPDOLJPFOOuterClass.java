@@ -856,8 +856,9 @@ public final class MPKPDOLJPFOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MPKPDOLJPFO.proto\"X\n\013MPKPDOLJPFO\022\n\n\002id" +
       "\030\001 \001(\r\022\023\n\013LGFACHLDIGN\030\002 \001(\010\022\023\n\013BMHAODOJB" +
-      "OI\030\003 \001(\r\022\023\n\013GMJPPNIEBJP\030\004 \003(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "OI\030\003 \001(\r\022\023\n\013GMJPPNIEBJP\030\004 \003(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025MPKPDOLJPFOOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

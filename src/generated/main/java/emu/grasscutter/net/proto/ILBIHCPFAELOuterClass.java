@@ -658,8 +658,8 @@ public final class ILBIHCPFAELOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ILBIHCPFAEL.proto\"N\n\013ILBIHCPFAEL\022\025\n\rdi" +
       "fficulty_id\030\005 \001(\r\022\023\n\013NMNJOFCMHCG\030\t \001(\r\022\023" +
-      "\n\013schedule_id\030\013 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013schedule_id\030\013 \001(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025ILBIHCPFAELOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -739,8 +739,9 @@ public final class BartenderLevelProgressNotifyOuterClass {
       "\n\"BartenderLevelProgressNotify.proto\"i\n\034" +
       "BartenderLevelProgressNotify\022\r\n\005score\030\001 " +
       "\001(\r\022\021\n\tis_finish\030\002 \001(\010\022\020\n\010level_id\030\n \001(\r" +
-      "\022\025\n\ris_new_record\030\016 \001(\010B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\022\025\n\ris_new_record\030\016 \001(\010BC\n\031emu.grasscutt" +
+      "er.net.protoB&BartenderLevelProgressNoti" +
+      "fyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -44,11 +44,11 @@ public final class LCJHBPIAKGHOuterClass {
      * <code>._CustomData custom_data = 100;</code>
      * @return The customData.
      */
-    emu.grasscutter.net.proto.CustomData._CustomData getCustomData();
+    emu.grasscutter.net.proto._CustomDataOuterClass._CustomData getCustomData();
     /**
      * <code>._CustomData custom_data = 100;</code>
      */
-    emu.grasscutter.net.proto.CustomData._CustomDataOrBuilder getCustomDataOrBuilder();
+    emu.grasscutter.net.proto._CustomDataOuterClass._CustomDataOrBuilder getCustomDataOrBuilder();
 
     /**
      * <code>._TierData tier_data = 101;</code>
@@ -59,11 +59,11 @@ public final class LCJHBPIAKGHOuterClass {
      * <code>._TierData tier_data = 101;</code>
      * @return The tierData.
      */
-    emu.grasscutter.net.proto.TierData._TierData getTierData();
+    emu.grasscutter.net.proto._TierDataOuterClass._TierData getTierData();
     /**
      * <code>._TierData tier_data = 101;</code>
      */
-    emu.grasscutter.net.proto.TierData._TierDataOrBuilder getTierDataOrBuilder();
+    emu.grasscutter.net.proto._TierDataOuterClass._TierDataOrBuilder getTierDataOrBuilder();
 
     /**
      * <code>._AchievementData achievement_data = 102;</code>
@@ -74,11 +74,11 @@ public final class LCJHBPIAKGHOuterClass {
      * <code>._AchievementData achievement_data = 102;</code>
      * @return The achievementData.
      */
-    emu.grasscutter.net.proto.AchievementData._AchievementData getAchievementData();
+    emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData getAchievementData();
     /**
      * <code>._AchievementData achievement_data = 102;</code>
      */
-    emu.grasscutter.net.proto.AchievementData._AchievementDataOrBuilder getAchievementDataOrBuilder();
+    emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementDataOrBuilder getAchievementDataOrBuilder();
 
     /**
      * <code>._DlcData dlc_data = 103;</code>
@@ -89,11 +89,11 @@ public final class LCJHBPIAKGHOuterClass {
      * <code>._DlcData dlc_data = 103;</code>
      * @return The dlcData.
      */
-    emu.grasscutter.net.proto.DlcData._DlcData getDlcData();
+    emu.grasscutter.net.proto._DlcDataOuterClass._DlcData getDlcData();
     /**
      * <code>._DlcData dlc_data = 103;</code>
      */
-    emu.grasscutter.net.proto.DlcData._DlcDataOrBuilder getDlcDataOrBuilder();
+    emu.grasscutter.net.proto._DlcDataOuterClass._DlcDataOrBuilder getDlcDataOrBuilder();
 
     /**
      * <code>._LevelObjectiveData level_objective_data = 104;</code>
@@ -104,11 +104,11 @@ public final class LCJHBPIAKGHOuterClass {
      * <code>._LevelObjectiveData level_objective_data = 104;</code>
      * @return The levelObjectiveData.
      */
-    emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData getLevelObjectiveData();
+    emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData getLevelObjectiveData();
     /**
      * <code>._LevelObjectiveData level_objective_data = 104;</code>
      */
-    emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveDataOrBuilder getLevelObjectiveDataOrBuilder();
+    emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveDataOrBuilder getLevelObjectiveDataOrBuilder();
 
     public emu.grasscutter.net.proto.LCJHBPIAKGHOuterClass.LCJHBPIAKGH.DetailCase getDetailCase();
   }
@@ -170,70 +170,70 @@ public final class LCJHBPIAKGHOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.CustomData._CustomData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CustomDataOuterClass._CustomData.Builder subBuilder = null;
               if (detailCase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.CustomData._CustomData) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._CustomDataOuterClass._CustomData) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.CustomData._CustomData.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._CustomDataOuterClass._CustomData.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.CustomData._CustomData) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._CustomDataOuterClass._CustomData) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 100;
               break;
             }
             case 810: {
-              emu.grasscutter.net.proto.TierData._TierData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TierDataOuterClass._TierData.Builder subBuilder = null;
               if (detailCase_ == 101) {
-                subBuilder = ((emu.grasscutter.net.proto.TierData._TierData) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._TierDataOuterClass._TierData) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.TierData._TierData.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._TierDataOuterClass._TierData.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.TierData._TierData) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._TierDataOuterClass._TierData) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 101;
               break;
             }
             case 818: {
-              emu.grasscutter.net.proto.AchievementData._AchievementData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData.Builder subBuilder = null;
               if (detailCase_ == 102) {
-                subBuilder = ((emu.grasscutter.net.proto.AchievementData._AchievementData) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.AchievementData._AchievementData.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AchievementData._AchievementData) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 102;
               break;
             }
             case 826: {
-              emu.grasscutter.net.proto.DlcData._DlcData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._DlcDataOuterClass._DlcData.Builder subBuilder = null;
               if (detailCase_ == 103) {
-                subBuilder = ((emu.grasscutter.net.proto.DlcData._DlcData) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._DlcDataOuterClass._DlcData) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.DlcData._DlcData.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._DlcDataOuterClass._DlcData.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.DlcData._DlcData) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._DlcDataOuterClass._DlcData) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 103;
               break;
             }
             case 834: {
-              emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData.Builder subBuilder = null;
               if (detailCase_ == 104) {
-                subBuilder = ((emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 104;
@@ -362,21 +362,21 @@ public final class LCJHBPIAKGHOuterClass {
      * @return The customData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CustomData._CustomData getCustomData() {
+    public emu.grasscutter.net.proto._CustomDataOuterClass._CustomData getCustomData() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.CustomData._CustomData) detail_;
+         return (emu.grasscutter.net.proto._CustomDataOuterClass._CustomData) detail_;
       }
-      return emu.grasscutter.net.proto.CustomData._CustomData.getDefaultInstance();
+      return emu.grasscutter.net.proto._CustomDataOuterClass._CustomData.getDefaultInstance();
     }
     /**
      * <code>._CustomData custom_data = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CustomData._CustomDataOrBuilder getCustomDataOrBuilder() {
+    public emu.grasscutter.net.proto._CustomDataOuterClass._CustomDataOrBuilder getCustomDataOrBuilder() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.CustomData._CustomData) detail_;
+         return (emu.grasscutter.net.proto._CustomDataOuterClass._CustomData) detail_;
       }
-      return emu.grasscutter.net.proto.CustomData._CustomData.getDefaultInstance();
+      return emu.grasscutter.net.proto._CustomDataOuterClass._CustomData.getDefaultInstance();
     }
 
     public static final int TIER_DATA_FIELD_NUMBER = 101;
@@ -393,21 +393,21 @@ public final class LCJHBPIAKGHOuterClass {
      * @return The tierData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TierData._TierData getTierData() {
+    public emu.grasscutter.net.proto._TierDataOuterClass._TierData getTierData() {
       if (detailCase_ == 101) {
-         return (emu.grasscutter.net.proto.TierData._TierData) detail_;
+         return (emu.grasscutter.net.proto._TierDataOuterClass._TierData) detail_;
       }
-      return emu.grasscutter.net.proto.TierData._TierData.getDefaultInstance();
+      return emu.grasscutter.net.proto._TierDataOuterClass._TierData.getDefaultInstance();
     }
     /**
      * <code>._TierData tier_data = 101;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TierData._TierDataOrBuilder getTierDataOrBuilder() {
+    public emu.grasscutter.net.proto._TierDataOuterClass._TierDataOrBuilder getTierDataOrBuilder() {
       if (detailCase_ == 101) {
-         return (emu.grasscutter.net.proto.TierData._TierData) detail_;
+         return (emu.grasscutter.net.proto._TierDataOuterClass._TierData) detail_;
       }
-      return emu.grasscutter.net.proto.TierData._TierData.getDefaultInstance();
+      return emu.grasscutter.net.proto._TierDataOuterClass._TierData.getDefaultInstance();
     }
 
     public static final int ACHIEVEMENT_DATA_FIELD_NUMBER = 102;
@@ -424,21 +424,21 @@ public final class LCJHBPIAKGHOuterClass {
      * @return The achievementData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AchievementData._AchievementData getAchievementData() {
+    public emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData getAchievementData() {
       if (detailCase_ == 102) {
-         return (emu.grasscutter.net.proto.AchievementData._AchievementData) detail_;
+         return (emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData) detail_;
       }
-      return emu.grasscutter.net.proto.AchievementData._AchievementData.getDefaultInstance();
+      return emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData.getDefaultInstance();
     }
     /**
      * <code>._AchievementData achievement_data = 102;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AchievementData._AchievementDataOrBuilder getAchievementDataOrBuilder() {
+    public emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementDataOrBuilder getAchievementDataOrBuilder() {
       if (detailCase_ == 102) {
-         return (emu.grasscutter.net.proto.AchievementData._AchievementData) detail_;
+         return (emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData) detail_;
       }
-      return emu.grasscutter.net.proto.AchievementData._AchievementData.getDefaultInstance();
+      return emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData.getDefaultInstance();
     }
 
     public static final int DLC_DATA_FIELD_NUMBER = 103;
@@ -455,21 +455,21 @@ public final class LCJHBPIAKGHOuterClass {
      * @return The dlcData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DlcData._DlcData getDlcData() {
+    public emu.grasscutter.net.proto._DlcDataOuterClass._DlcData getDlcData() {
       if (detailCase_ == 103) {
-         return (emu.grasscutter.net.proto.DlcData._DlcData) detail_;
+         return (emu.grasscutter.net.proto._DlcDataOuterClass._DlcData) detail_;
       }
-      return emu.grasscutter.net.proto.DlcData._DlcData.getDefaultInstance();
+      return emu.grasscutter.net.proto._DlcDataOuterClass._DlcData.getDefaultInstance();
     }
     /**
      * <code>._DlcData dlc_data = 103;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DlcData._DlcDataOrBuilder getDlcDataOrBuilder() {
+    public emu.grasscutter.net.proto._DlcDataOuterClass._DlcDataOrBuilder getDlcDataOrBuilder() {
       if (detailCase_ == 103) {
-         return (emu.grasscutter.net.proto.DlcData._DlcData) detail_;
+         return (emu.grasscutter.net.proto._DlcDataOuterClass._DlcData) detail_;
       }
-      return emu.grasscutter.net.proto.DlcData._DlcData.getDefaultInstance();
+      return emu.grasscutter.net.proto._DlcDataOuterClass._DlcData.getDefaultInstance();
     }
 
     public static final int LEVEL_OBJECTIVE_DATA_FIELD_NUMBER = 104;
@@ -486,21 +486,21 @@ public final class LCJHBPIAKGHOuterClass {
      * @return The levelObjectiveData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData getLevelObjectiveData() {
+    public emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData getLevelObjectiveData() {
       if (detailCase_ == 104) {
-         return (emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData) detail_;
+         return (emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData) detail_;
       }
-      return emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData.getDefaultInstance();
+      return emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData.getDefaultInstance();
     }
     /**
      * <code>._LevelObjectiveData level_objective_data = 104;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveDataOrBuilder getLevelObjectiveDataOrBuilder() {
+    public emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveDataOrBuilder getLevelObjectiveDataOrBuilder() {
       if (detailCase_ == 104) {
-         return (emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData) detail_;
+         return (emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData) detail_;
       }
-      return emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData.getDefaultInstance();
+      return emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -524,19 +524,19 @@ public final class LCJHBPIAKGHOuterClass {
         output.writeEnum(2, oJHEFJIKKLG_);
       }
       if (detailCase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.CustomData._CustomData) detail_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._CustomDataOuterClass._CustomData) detail_);
       }
       if (detailCase_ == 101) {
-        output.writeMessage(101, (emu.grasscutter.net.proto.TierData._TierData) detail_);
+        output.writeMessage(101, (emu.grasscutter.net.proto._TierDataOuterClass._TierData) detail_);
       }
       if (detailCase_ == 102) {
-        output.writeMessage(102, (emu.grasscutter.net.proto.AchievementData._AchievementData) detail_);
+        output.writeMessage(102, (emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData) detail_);
       }
       if (detailCase_ == 103) {
-        output.writeMessage(103, (emu.grasscutter.net.proto.DlcData._DlcData) detail_);
+        output.writeMessage(103, (emu.grasscutter.net.proto._DlcDataOuterClass._DlcData) detail_);
       }
       if (detailCase_ == 104) {
-        output.writeMessage(104, (emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData) detail_);
+        output.writeMessage(104, (emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -557,23 +557,23 @@ public final class LCJHBPIAKGHOuterClass {
       }
       if (detailCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.CustomData._CustomData) detail_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._CustomDataOuterClass._CustomData) detail_);
       }
       if (detailCase_ == 101) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(101, (emu.grasscutter.net.proto.TierData._TierData) detail_);
+          .computeMessageSize(101, (emu.grasscutter.net.proto._TierDataOuterClass._TierData) detail_);
       }
       if (detailCase_ == 102) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(102, (emu.grasscutter.net.proto.AchievementData._AchievementData) detail_);
+          .computeMessageSize(102, (emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData) detail_);
       }
       if (detailCase_ == 103) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(103, (emu.grasscutter.net.proto.DlcData._DlcData) detail_);
+          .computeMessageSize(103, (emu.grasscutter.net.proto._DlcDataOuterClass._DlcData) detail_);
       }
       if (detailCase_ == 104) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(104, (emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData) detail_);
+          .computeMessageSize(104, (emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1069,7 +1069,7 @@ public final class LCJHBPIAKGHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CustomData._CustomData, emu.grasscutter.net.proto.CustomData._CustomData.Builder, emu.grasscutter.net.proto.CustomData._CustomDataOrBuilder> customDataBuilder_;
+          emu.grasscutter.net.proto._CustomDataOuterClass._CustomData, emu.grasscutter.net.proto._CustomDataOuterClass._CustomData.Builder, emu.grasscutter.net.proto._CustomDataOuterClass._CustomDataOrBuilder> customDataBuilder_;
       /**
        * <code>._CustomData custom_data = 100;</code>
        * @return Whether the customData field is set.
@@ -1083,23 +1083,23 @@ public final class LCJHBPIAKGHOuterClass {
        * @return The customData.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CustomData._CustomData getCustomData() {
+      public emu.grasscutter.net.proto._CustomDataOuterClass._CustomData getCustomData() {
         if (customDataBuilder_ == null) {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.CustomData._CustomData) detail_;
+            return (emu.grasscutter.net.proto._CustomDataOuterClass._CustomData) detail_;
           }
-          return emu.grasscutter.net.proto.CustomData._CustomData.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomDataOuterClass._CustomData.getDefaultInstance();
         } else {
           if (detailCase_ == 100) {
             return customDataBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.CustomData._CustomData.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomDataOuterClass._CustomData.getDefaultInstance();
         }
       }
       /**
        * <code>._CustomData custom_data = 100;</code>
        */
-      public Builder setCustomData(emu.grasscutter.net.proto.CustomData._CustomData value) {
+      public Builder setCustomData(emu.grasscutter.net.proto._CustomDataOuterClass._CustomData value) {
         if (customDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1116,7 +1116,7 @@ public final class LCJHBPIAKGHOuterClass {
        * <code>._CustomData custom_data = 100;</code>
        */
       public Builder setCustomData(
-          emu.grasscutter.net.proto.CustomData._CustomData.Builder builderForValue) {
+          emu.grasscutter.net.proto._CustomDataOuterClass._CustomData.Builder builderForValue) {
         if (customDataBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1129,11 +1129,11 @@ public final class LCJHBPIAKGHOuterClass {
       /**
        * <code>._CustomData custom_data = 100;</code>
        */
-      public Builder mergeCustomData(emu.grasscutter.net.proto.CustomData._CustomData value) {
+      public Builder mergeCustomData(emu.grasscutter.net.proto._CustomDataOuterClass._CustomData value) {
         if (customDataBuilder_ == null) {
           if (detailCase_ == 100 &&
-              detail_ != emu.grasscutter.net.proto.CustomData._CustomData.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.CustomData._CustomData.newBuilder((emu.grasscutter.net.proto.CustomData._CustomData) detail_)
+              detail_ != emu.grasscutter.net.proto._CustomDataOuterClass._CustomData.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._CustomDataOuterClass._CustomData.newBuilder((emu.grasscutter.net.proto._CustomDataOuterClass._CustomData) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1170,36 +1170,36 @@ public final class LCJHBPIAKGHOuterClass {
       /**
        * <code>._CustomData custom_data = 100;</code>
        */
-      public emu.grasscutter.net.proto.CustomData._CustomData.Builder getCustomDataBuilder() {
+      public emu.grasscutter.net.proto._CustomDataOuterClass._CustomData.Builder getCustomDataBuilder() {
         return getCustomDataFieldBuilder().getBuilder();
       }
       /**
        * <code>._CustomData custom_data = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CustomData._CustomDataOrBuilder getCustomDataOrBuilder() {
+      public emu.grasscutter.net.proto._CustomDataOuterClass._CustomDataOrBuilder getCustomDataOrBuilder() {
         if ((detailCase_ == 100) && (customDataBuilder_ != null)) {
           return customDataBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.CustomData._CustomData) detail_;
+            return (emu.grasscutter.net.proto._CustomDataOuterClass._CustomData) detail_;
           }
-          return emu.grasscutter.net.proto.CustomData._CustomData.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomDataOuterClass._CustomData.getDefaultInstance();
         }
       }
       /**
        * <code>._CustomData custom_data = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CustomData._CustomData, emu.grasscutter.net.proto.CustomData._CustomData.Builder, emu.grasscutter.net.proto.CustomData._CustomDataOrBuilder> 
+          emu.grasscutter.net.proto._CustomDataOuterClass._CustomData, emu.grasscutter.net.proto._CustomDataOuterClass._CustomData.Builder, emu.grasscutter.net.proto._CustomDataOuterClass._CustomDataOrBuilder> 
           getCustomDataFieldBuilder() {
         if (customDataBuilder_ == null) {
           if (!(detailCase_ == 100)) {
-            detail_ = emu.grasscutter.net.proto.CustomData._CustomData.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._CustomDataOuterClass._CustomData.getDefaultInstance();
           }
           customDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CustomData._CustomData, emu.grasscutter.net.proto.CustomData._CustomData.Builder, emu.grasscutter.net.proto.CustomData._CustomDataOrBuilder>(
-                  (emu.grasscutter.net.proto.CustomData._CustomData) detail_,
+              emu.grasscutter.net.proto._CustomDataOuterClass._CustomData, emu.grasscutter.net.proto._CustomDataOuterClass._CustomData.Builder, emu.grasscutter.net.proto._CustomDataOuterClass._CustomDataOrBuilder>(
+                  (emu.grasscutter.net.proto._CustomDataOuterClass._CustomData) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1210,7 +1210,7 @@ public final class LCJHBPIAKGHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TierData._TierData, emu.grasscutter.net.proto.TierData._TierData.Builder, emu.grasscutter.net.proto.TierData._TierDataOrBuilder> tierDataBuilder_;
+          emu.grasscutter.net.proto._TierDataOuterClass._TierData, emu.grasscutter.net.proto._TierDataOuterClass._TierData.Builder, emu.grasscutter.net.proto._TierDataOuterClass._TierDataOrBuilder> tierDataBuilder_;
       /**
        * <code>._TierData tier_data = 101;</code>
        * @return Whether the tierData field is set.
@@ -1224,23 +1224,23 @@ public final class LCJHBPIAKGHOuterClass {
        * @return The tierData.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TierData._TierData getTierData() {
+      public emu.grasscutter.net.proto._TierDataOuterClass._TierData getTierData() {
         if (tierDataBuilder_ == null) {
           if (detailCase_ == 101) {
-            return (emu.grasscutter.net.proto.TierData._TierData) detail_;
+            return (emu.grasscutter.net.proto._TierDataOuterClass._TierData) detail_;
           }
-          return emu.grasscutter.net.proto.TierData._TierData.getDefaultInstance();
+          return emu.grasscutter.net.proto._TierDataOuterClass._TierData.getDefaultInstance();
         } else {
           if (detailCase_ == 101) {
             return tierDataBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.TierData._TierData.getDefaultInstance();
+          return emu.grasscutter.net.proto._TierDataOuterClass._TierData.getDefaultInstance();
         }
       }
       /**
        * <code>._TierData tier_data = 101;</code>
        */
-      public Builder setTierData(emu.grasscutter.net.proto.TierData._TierData value) {
+      public Builder setTierData(emu.grasscutter.net.proto._TierDataOuterClass._TierData value) {
         if (tierDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,7 +1257,7 @@ public final class LCJHBPIAKGHOuterClass {
        * <code>._TierData tier_data = 101;</code>
        */
       public Builder setTierData(
-          emu.grasscutter.net.proto.TierData._TierData.Builder builderForValue) {
+          emu.grasscutter.net.proto._TierDataOuterClass._TierData.Builder builderForValue) {
         if (tierDataBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1270,11 +1270,11 @@ public final class LCJHBPIAKGHOuterClass {
       /**
        * <code>._TierData tier_data = 101;</code>
        */
-      public Builder mergeTierData(emu.grasscutter.net.proto.TierData._TierData value) {
+      public Builder mergeTierData(emu.grasscutter.net.proto._TierDataOuterClass._TierData value) {
         if (tierDataBuilder_ == null) {
           if (detailCase_ == 101 &&
-              detail_ != emu.grasscutter.net.proto.TierData._TierData.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.TierData._TierData.newBuilder((emu.grasscutter.net.proto.TierData._TierData) detail_)
+              detail_ != emu.grasscutter.net.proto._TierDataOuterClass._TierData.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._TierDataOuterClass._TierData.newBuilder((emu.grasscutter.net.proto._TierDataOuterClass._TierData) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1311,36 +1311,36 @@ public final class LCJHBPIAKGHOuterClass {
       /**
        * <code>._TierData tier_data = 101;</code>
        */
-      public emu.grasscutter.net.proto.TierData._TierData.Builder getTierDataBuilder() {
+      public emu.grasscutter.net.proto._TierDataOuterClass._TierData.Builder getTierDataBuilder() {
         return getTierDataFieldBuilder().getBuilder();
       }
       /**
        * <code>._TierData tier_data = 101;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TierData._TierDataOrBuilder getTierDataOrBuilder() {
+      public emu.grasscutter.net.proto._TierDataOuterClass._TierDataOrBuilder getTierDataOrBuilder() {
         if ((detailCase_ == 101) && (tierDataBuilder_ != null)) {
           return tierDataBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 101) {
-            return (emu.grasscutter.net.proto.TierData._TierData) detail_;
+            return (emu.grasscutter.net.proto._TierDataOuterClass._TierData) detail_;
           }
-          return emu.grasscutter.net.proto.TierData._TierData.getDefaultInstance();
+          return emu.grasscutter.net.proto._TierDataOuterClass._TierData.getDefaultInstance();
         }
       }
       /**
        * <code>._TierData tier_data = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TierData._TierData, emu.grasscutter.net.proto.TierData._TierData.Builder, emu.grasscutter.net.proto.TierData._TierDataOrBuilder> 
+          emu.grasscutter.net.proto._TierDataOuterClass._TierData, emu.grasscutter.net.proto._TierDataOuterClass._TierData.Builder, emu.grasscutter.net.proto._TierDataOuterClass._TierDataOrBuilder> 
           getTierDataFieldBuilder() {
         if (tierDataBuilder_ == null) {
           if (!(detailCase_ == 101)) {
-            detail_ = emu.grasscutter.net.proto.TierData._TierData.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._TierDataOuterClass._TierData.getDefaultInstance();
           }
           tierDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TierData._TierData, emu.grasscutter.net.proto.TierData._TierData.Builder, emu.grasscutter.net.proto.TierData._TierDataOrBuilder>(
-                  (emu.grasscutter.net.proto.TierData._TierData) detail_,
+              emu.grasscutter.net.proto._TierDataOuterClass._TierData, emu.grasscutter.net.proto._TierDataOuterClass._TierData.Builder, emu.grasscutter.net.proto._TierDataOuterClass._TierDataOrBuilder>(
+                  (emu.grasscutter.net.proto._TierDataOuterClass._TierData) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1351,7 +1351,7 @@ public final class LCJHBPIAKGHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AchievementData._AchievementData, emu.grasscutter.net.proto.AchievementData._AchievementData.Builder, emu.grasscutter.net.proto.AchievementData._AchievementDataOrBuilder> achievementDataBuilder_;
+          emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData, emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData.Builder, emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementDataOrBuilder> achievementDataBuilder_;
       /**
        * <code>._AchievementData achievement_data = 102;</code>
        * @return Whether the achievementData field is set.
@@ -1365,23 +1365,23 @@ public final class LCJHBPIAKGHOuterClass {
        * @return The achievementData.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AchievementData._AchievementData getAchievementData() {
+      public emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData getAchievementData() {
         if (achievementDataBuilder_ == null) {
           if (detailCase_ == 102) {
-            return (emu.grasscutter.net.proto.AchievementData._AchievementData) detail_;
+            return (emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData) detail_;
           }
-          return emu.grasscutter.net.proto.AchievementData._AchievementData.getDefaultInstance();
+          return emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData.getDefaultInstance();
         } else {
           if (detailCase_ == 102) {
             return achievementDataBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AchievementData._AchievementData.getDefaultInstance();
+          return emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData.getDefaultInstance();
         }
       }
       /**
        * <code>._AchievementData achievement_data = 102;</code>
        */
-      public Builder setAchievementData(emu.grasscutter.net.proto.AchievementData._AchievementData value) {
+      public Builder setAchievementData(emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData value) {
         if (achievementDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1398,7 +1398,7 @@ public final class LCJHBPIAKGHOuterClass {
        * <code>._AchievementData achievement_data = 102;</code>
        */
       public Builder setAchievementData(
-          emu.grasscutter.net.proto.AchievementData._AchievementData.Builder builderForValue) {
+          emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData.Builder builderForValue) {
         if (achievementDataBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1411,11 +1411,11 @@ public final class LCJHBPIAKGHOuterClass {
       /**
        * <code>._AchievementData achievement_data = 102;</code>
        */
-      public Builder mergeAchievementData(emu.grasscutter.net.proto.AchievementData._AchievementData value) {
+      public Builder mergeAchievementData(emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData value) {
         if (achievementDataBuilder_ == null) {
           if (detailCase_ == 102 &&
-              detail_ != emu.grasscutter.net.proto.AchievementData._AchievementData.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.AchievementData._AchievementData.newBuilder((emu.grasscutter.net.proto.AchievementData._AchievementData) detail_)
+              detail_ != emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData.newBuilder((emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1452,36 +1452,36 @@ public final class LCJHBPIAKGHOuterClass {
       /**
        * <code>._AchievementData achievement_data = 102;</code>
        */
-      public emu.grasscutter.net.proto.AchievementData._AchievementData.Builder getAchievementDataBuilder() {
+      public emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData.Builder getAchievementDataBuilder() {
         return getAchievementDataFieldBuilder().getBuilder();
       }
       /**
        * <code>._AchievementData achievement_data = 102;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AchievementData._AchievementDataOrBuilder getAchievementDataOrBuilder() {
+      public emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementDataOrBuilder getAchievementDataOrBuilder() {
         if ((detailCase_ == 102) && (achievementDataBuilder_ != null)) {
           return achievementDataBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 102) {
-            return (emu.grasscutter.net.proto.AchievementData._AchievementData) detail_;
+            return (emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData) detail_;
           }
-          return emu.grasscutter.net.proto.AchievementData._AchievementData.getDefaultInstance();
+          return emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData.getDefaultInstance();
         }
       }
       /**
        * <code>._AchievementData achievement_data = 102;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AchievementData._AchievementData, emu.grasscutter.net.proto.AchievementData._AchievementData.Builder, emu.grasscutter.net.proto.AchievementData._AchievementDataOrBuilder> 
+          emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData, emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData.Builder, emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementDataOrBuilder> 
           getAchievementDataFieldBuilder() {
         if (achievementDataBuilder_ == null) {
           if (!(detailCase_ == 102)) {
-            detail_ = emu.grasscutter.net.proto.AchievementData._AchievementData.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData.getDefaultInstance();
           }
           achievementDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AchievementData._AchievementData, emu.grasscutter.net.proto.AchievementData._AchievementData.Builder, emu.grasscutter.net.proto.AchievementData._AchievementDataOrBuilder>(
-                  (emu.grasscutter.net.proto.AchievementData._AchievementData) detail_,
+              emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData, emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData.Builder, emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementDataOrBuilder>(
+                  (emu.grasscutter.net.proto._AchievementDataOuterClass._AchievementData) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1492,7 +1492,7 @@ public final class LCJHBPIAKGHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DlcData._DlcData, emu.grasscutter.net.proto.DlcData._DlcData.Builder, emu.grasscutter.net.proto.DlcData._DlcDataOrBuilder> dlcDataBuilder_;
+          emu.grasscutter.net.proto._DlcDataOuterClass._DlcData, emu.grasscutter.net.proto._DlcDataOuterClass._DlcData.Builder, emu.grasscutter.net.proto._DlcDataOuterClass._DlcDataOrBuilder> dlcDataBuilder_;
       /**
        * <code>._DlcData dlc_data = 103;</code>
        * @return Whether the dlcData field is set.
@@ -1506,23 +1506,23 @@ public final class LCJHBPIAKGHOuterClass {
        * @return The dlcData.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.DlcData._DlcData getDlcData() {
+      public emu.grasscutter.net.proto._DlcDataOuterClass._DlcData getDlcData() {
         if (dlcDataBuilder_ == null) {
           if (detailCase_ == 103) {
-            return (emu.grasscutter.net.proto.DlcData._DlcData) detail_;
+            return (emu.grasscutter.net.proto._DlcDataOuterClass._DlcData) detail_;
           }
-          return emu.grasscutter.net.proto.DlcData._DlcData.getDefaultInstance();
+          return emu.grasscutter.net.proto._DlcDataOuterClass._DlcData.getDefaultInstance();
         } else {
           if (detailCase_ == 103) {
             return dlcDataBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.DlcData._DlcData.getDefaultInstance();
+          return emu.grasscutter.net.proto._DlcDataOuterClass._DlcData.getDefaultInstance();
         }
       }
       /**
        * <code>._DlcData dlc_data = 103;</code>
        */
-      public Builder setDlcData(emu.grasscutter.net.proto.DlcData._DlcData value) {
+      public Builder setDlcData(emu.grasscutter.net.proto._DlcDataOuterClass._DlcData value) {
         if (dlcDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1539,7 +1539,7 @@ public final class LCJHBPIAKGHOuterClass {
        * <code>._DlcData dlc_data = 103;</code>
        */
       public Builder setDlcData(
-          emu.grasscutter.net.proto.DlcData._DlcData.Builder builderForValue) {
+          emu.grasscutter.net.proto._DlcDataOuterClass._DlcData.Builder builderForValue) {
         if (dlcDataBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1552,11 +1552,11 @@ public final class LCJHBPIAKGHOuterClass {
       /**
        * <code>._DlcData dlc_data = 103;</code>
        */
-      public Builder mergeDlcData(emu.grasscutter.net.proto.DlcData._DlcData value) {
+      public Builder mergeDlcData(emu.grasscutter.net.proto._DlcDataOuterClass._DlcData value) {
         if (dlcDataBuilder_ == null) {
           if (detailCase_ == 103 &&
-              detail_ != emu.grasscutter.net.proto.DlcData._DlcData.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.DlcData._DlcData.newBuilder((emu.grasscutter.net.proto.DlcData._DlcData) detail_)
+              detail_ != emu.grasscutter.net.proto._DlcDataOuterClass._DlcData.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._DlcDataOuterClass._DlcData.newBuilder((emu.grasscutter.net.proto._DlcDataOuterClass._DlcData) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1593,36 +1593,36 @@ public final class LCJHBPIAKGHOuterClass {
       /**
        * <code>._DlcData dlc_data = 103;</code>
        */
-      public emu.grasscutter.net.proto.DlcData._DlcData.Builder getDlcDataBuilder() {
+      public emu.grasscutter.net.proto._DlcDataOuterClass._DlcData.Builder getDlcDataBuilder() {
         return getDlcDataFieldBuilder().getBuilder();
       }
       /**
        * <code>._DlcData dlc_data = 103;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.DlcData._DlcDataOrBuilder getDlcDataOrBuilder() {
+      public emu.grasscutter.net.proto._DlcDataOuterClass._DlcDataOrBuilder getDlcDataOrBuilder() {
         if ((detailCase_ == 103) && (dlcDataBuilder_ != null)) {
           return dlcDataBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 103) {
-            return (emu.grasscutter.net.proto.DlcData._DlcData) detail_;
+            return (emu.grasscutter.net.proto._DlcDataOuterClass._DlcData) detail_;
           }
-          return emu.grasscutter.net.proto.DlcData._DlcData.getDefaultInstance();
+          return emu.grasscutter.net.proto._DlcDataOuterClass._DlcData.getDefaultInstance();
         }
       }
       /**
        * <code>._DlcData dlc_data = 103;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DlcData._DlcData, emu.grasscutter.net.proto.DlcData._DlcData.Builder, emu.grasscutter.net.proto.DlcData._DlcDataOrBuilder> 
+          emu.grasscutter.net.proto._DlcDataOuterClass._DlcData, emu.grasscutter.net.proto._DlcDataOuterClass._DlcData.Builder, emu.grasscutter.net.proto._DlcDataOuterClass._DlcDataOrBuilder> 
           getDlcDataFieldBuilder() {
         if (dlcDataBuilder_ == null) {
           if (!(detailCase_ == 103)) {
-            detail_ = emu.grasscutter.net.proto.DlcData._DlcData.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._DlcDataOuterClass._DlcData.getDefaultInstance();
           }
           dlcDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.DlcData._DlcData, emu.grasscutter.net.proto.DlcData._DlcData.Builder, emu.grasscutter.net.proto.DlcData._DlcDataOrBuilder>(
-                  (emu.grasscutter.net.proto.DlcData._DlcData) detail_,
+              emu.grasscutter.net.proto._DlcDataOuterClass._DlcData, emu.grasscutter.net.proto._DlcDataOuterClass._DlcData.Builder, emu.grasscutter.net.proto._DlcDataOuterClass._DlcDataOrBuilder>(
+                  (emu.grasscutter.net.proto._DlcDataOuterClass._DlcData) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1633,7 +1633,7 @@ public final class LCJHBPIAKGHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData, emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData.Builder, emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveDataOrBuilder> levelObjectiveDataBuilder_;
+          emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData, emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData.Builder, emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveDataOrBuilder> levelObjectiveDataBuilder_;
       /**
        * <code>._LevelObjectiveData level_objective_data = 104;</code>
        * @return Whether the levelObjectiveData field is set.
@@ -1647,23 +1647,23 @@ public final class LCJHBPIAKGHOuterClass {
        * @return The levelObjectiveData.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData getLevelObjectiveData() {
+      public emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData getLevelObjectiveData() {
         if (levelObjectiveDataBuilder_ == null) {
           if (detailCase_ == 104) {
-            return (emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData) detail_;
+            return (emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData) detail_;
           }
-          return emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData.getDefaultInstance();
+          return emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData.getDefaultInstance();
         } else {
           if (detailCase_ == 104) {
             return levelObjectiveDataBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData.getDefaultInstance();
+          return emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData.getDefaultInstance();
         }
       }
       /**
        * <code>._LevelObjectiveData level_objective_data = 104;</code>
        */
-      public Builder setLevelObjectiveData(emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData value) {
+      public Builder setLevelObjectiveData(emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData value) {
         if (levelObjectiveDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1680,7 +1680,7 @@ public final class LCJHBPIAKGHOuterClass {
        * <code>._LevelObjectiveData level_objective_data = 104;</code>
        */
       public Builder setLevelObjectiveData(
-          emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData.Builder builderForValue) {
+          emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData.Builder builderForValue) {
         if (levelObjectiveDataBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1693,11 +1693,11 @@ public final class LCJHBPIAKGHOuterClass {
       /**
        * <code>._LevelObjectiveData level_objective_data = 104;</code>
        */
-      public Builder mergeLevelObjectiveData(emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData value) {
+      public Builder mergeLevelObjectiveData(emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData value) {
         if (levelObjectiveDataBuilder_ == null) {
           if (detailCase_ == 104 &&
-              detail_ != emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData.newBuilder((emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData) detail_)
+              detail_ != emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData.newBuilder((emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1734,36 +1734,36 @@ public final class LCJHBPIAKGHOuterClass {
       /**
        * <code>._LevelObjectiveData level_objective_data = 104;</code>
        */
-      public emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData.Builder getLevelObjectiveDataBuilder() {
+      public emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData.Builder getLevelObjectiveDataBuilder() {
         return getLevelObjectiveDataFieldBuilder().getBuilder();
       }
       /**
        * <code>._LevelObjectiveData level_objective_data = 104;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveDataOrBuilder getLevelObjectiveDataOrBuilder() {
+      public emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveDataOrBuilder getLevelObjectiveDataOrBuilder() {
         if ((detailCase_ == 104) && (levelObjectiveDataBuilder_ != null)) {
           return levelObjectiveDataBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 104) {
-            return (emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData) detail_;
+            return (emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData) detail_;
           }
-          return emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData.getDefaultInstance();
+          return emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData.getDefaultInstance();
         }
       }
       /**
        * <code>._LevelObjectiveData level_objective_data = 104;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData, emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData.Builder, emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveDataOrBuilder> 
+          emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData, emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData.Builder, emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveDataOrBuilder> 
           getLevelObjectiveDataFieldBuilder() {
         if (levelObjectiveDataBuilder_ == null) {
           if (!(detailCase_ == 104)) {
-            detail_ = emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData.getDefaultInstance();
           }
           levelObjectiveDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData, emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData.Builder, emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveDataOrBuilder>(
-                  (emu.grasscutter.net.proto.LevelObjectiveData._LevelObjectiveData) detail_,
+              emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData, emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData.Builder, emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveDataOrBuilder>(
+                  (emu.grasscutter.net.proto._LevelObjectiveDataOuterClass._LevelObjectiveData) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1849,18 +1849,18 @@ public final class LCJHBPIAKGHOuterClass {
       "hievement_data\030f \001(\0132\021._AchievementDataH" +
       "\000\022\035\n\010dlc_data\030g \001(\0132\t._DlcDataH\000\0224\n\024leve" +
       "l_objective_data\030h \001(\0132\024._LevelObjective" +
-      "DataH\000B\010\n\006detailB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "DataH\000B\010\n\006detailB2\n\031emu.grasscutter.net." +
+      "protoB\025LCJHBPIAKGHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.PFFKDBJKJHBOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.AchievementData.getDescriptor(),
-          emu.grasscutter.net.proto.CustomData.getDescriptor(),
-          emu.grasscutter.net.proto.DlcData.getDescriptor(),
-          emu.grasscutter.net.proto.LevelObjectiveData.getDescriptor(),
-          emu.grasscutter.net.proto.TierData.getDescriptor(),
+          emu.grasscutter.net.proto._AchievementDataOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._CustomDataOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._DlcDataOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._LevelObjectiveDataOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._TierDataOuterClass.getDescriptor(),
         });
     internal_static_LCJHBPIAKGH_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1869,11 +1869,11 @@ public final class LCJHBPIAKGHOuterClass {
         internal_static_LCJHBPIAKGH_descriptor,
         new java.lang.String[] { "Id", "OJHEFJIKKLG", "CustomData", "TierData", "AchievementData", "DlcData", "LevelObjectiveData", "Detail", });
     emu.grasscutter.net.proto.PFFKDBJKJHBOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.AchievementData.getDescriptor();
-    emu.grasscutter.net.proto.CustomData.getDescriptor();
-    emu.grasscutter.net.proto.DlcData.getDescriptor();
-    emu.grasscutter.net.proto.LevelObjectiveData.getDescriptor();
-    emu.grasscutter.net.proto.TierData.getDescriptor();
+    emu.grasscutter.net.proto._AchievementDataOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._CustomDataOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._DlcDataOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._LevelObjectiveDataOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._TierDataOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

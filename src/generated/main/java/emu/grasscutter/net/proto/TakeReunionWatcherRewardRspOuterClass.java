@@ -871,8 +871,9 @@ public final class TakeReunionWatcherRewardRspOuterClass {
       "nionMissionInfo.proto\"\201\001\n\033TakeReunionWat" +
       "cherRewardRsp\022\022\n\nmission_id\030\005 \001(\r\022\022\n\nwat" +
       "cher_id\030\n \001(\r\022)\n\014mission_info\030\013 \001(\0132\023.Re" +
-      "unionMissionInfo\022\017\n\007retcode\030\r \001(\005B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "unionMissionInfo\022\017\n\007retcode\030\r \001(\005BB\n\031emu" +
+      ".grasscutter.net.protoB%TakeReunionWatch" +
+      "erRewardRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

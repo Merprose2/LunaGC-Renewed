@@ -1186,8 +1186,8 @@ public final class HPFJHBJBKDOOuterClass {
       "\001\n\013HPFJHBJBKDO\022!\n\013DALICMLFDPD\030\001 \003(\0132\014.JK" +
       "FHLLCGMEF\022\023\n\013JOKPFJKLFBI\030\002 \001(\004\022\023\n\013ENKCOB" +
       "NPONE\030\003 \001(\r\022\023\n\013CGCCGDHCFPI\030\004 \001(\t\022\023\n\013DHDC" +
-      "DEODDNB\030\005 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "DEODDNB\030\005 \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025HPFJHBJBKDOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

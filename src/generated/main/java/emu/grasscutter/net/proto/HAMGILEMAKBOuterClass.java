@@ -3204,8 +3204,9 @@ public final class HAMGILEMAKBOuterClass {
       "HPMANPGFG\022!\n\013CMPMADOEOJO\030\010 \001(\0132\014.AENFJCI" +
       "NEPO\022!\n\013HLIHDLNPIGJ\030\t \001(\0132\014.PIBNBJPMFNN\022" +
       "!\n\013CCCIMKKKMGG\030\n \001(\0132\014.MNBAAMDNECE\022!\n\013EF" +
-      "MNJFGGMMC\030\013 \001(\0132\014.PNPEOLEOFGOB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "MNJFGGMMC\030\013 \001(\0132\014.PNPEOLEOFGOB2\n\031emu.gra" +
+      "sscutter.net.protoB\025HAMGILEMAKBOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

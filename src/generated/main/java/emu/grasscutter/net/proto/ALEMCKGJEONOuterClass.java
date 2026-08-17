@@ -1098,8 +1098,8 @@ public final class ALEMCKGJEONOuterClass {
       "JBOOGHOPAPB.proto\"i\n\013ALEMCKGJEON\022 \n\titem" +
       "_list\030\365\003 \003(\0132\014.JBOOGHOPAPB\022\024\n\013KNGLEBCKJK" +
       "L\030\366\003 \001(\005\022\"\n\013EAFAOANACDE\030\367\003 \001(\0132\014.ELCEHBG" +
-      "KMMJB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "KMMJB2\n\031emu.grasscutter.net.protoB\025ALEMC" +
+      "KGJEONOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

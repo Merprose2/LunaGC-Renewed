@@ -666,8 +666,9 @@ public final class WorldChestOpenNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032WorldChestOpenNotify.proto\"M\n\024WorldChe" +
       "stOpenNotify\022\020\n\010scene_id\030\004 \001(\r\022\020\n\010group_" +
-      "id\030\013 \001(\r\022\021\n\tconfig_id\030\014 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "id\030\013 \001(\r\022\021\n\tconfig_id\030\014 \001(\rB;\n\031emu.grass" +
+      "cutter.net.protoB\036WorldChestOpenNotifyOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -831,8 +831,9 @@ public final class GroupLinkAllNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030GroupLinkAllNotify.proto\032\025GroupLinkBun" +
       "dle.proto\";\n\022GroupLinkAllNotify\022%\n\013bundl" +
-      "e_list\030\013 \003(\0132\020.GroupLinkBundleB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "e_list\030\013 \003(\0132\020.GroupLinkBundleB9\n\031emu.gr" +
+      "asscutter.net.protoB\034GroupLinkAllNotifyO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

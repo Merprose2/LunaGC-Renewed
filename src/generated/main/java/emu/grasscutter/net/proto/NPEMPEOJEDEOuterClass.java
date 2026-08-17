@@ -666,8 +666,8 @@ public final class NPEMPEOJEDEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NPEMPEOJEDE.proto\"H\n\013NPEMPEOJEDE\022\017\n\007re" +
       "tcode\030\005 \001(\005\022\023\n\013FDKJJELBPPC\030\010 \001(\r\022\023\n\013DFGI" +
-      "KOHOJDG\030\r \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "KOHOJDG\030\r \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025NPEMPEOJEDEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

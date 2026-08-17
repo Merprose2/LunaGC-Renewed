@@ -823,8 +823,9 @@ public final class GCGMsgCostDiceOuterClass {
       "\n\024GCGMsgCostDice.proto\032\017GCGReason.proto\"" +
       "c\n\016GCGMsgCostDice\022\032\n\006reason\030\004 \001(\0162\n.GCGR" +
       "eason\022\025\n\rcontroller_id\030\007 \001(\r\022\036\n\026select_d" +
-      "ice_index_list\030\017 \003(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "ice_index_list\030\017 \003(\rB5\n\031emu.grasscutter." +
+      "net.protoB\030GCGMsgCostDiceOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

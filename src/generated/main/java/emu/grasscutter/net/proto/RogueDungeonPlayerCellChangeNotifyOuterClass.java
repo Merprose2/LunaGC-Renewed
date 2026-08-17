@@ -596,8 +596,10 @@ public final class RogueDungeonPlayerCellChangeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n(RogueDungeonPlayerCellChangeNotify.pro" +
       "to\"J\n\"RogueDungeonPlayerCellChangeNotify" +
-      "\022\017\n\007cell_id\030\n \001(\r\022\023\n\013old_cell_id\030\013 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\022\017\n\007cell_id\030\n \001(\r\022\023\n\013old_cell_id\030\013 \001(\rBI" +
+      "\n\031emu.grasscutter.net.protoB,RogueDungeo" +
+      "nPlayerCellChangeNotifyOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

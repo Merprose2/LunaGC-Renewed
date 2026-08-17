@@ -730,8 +730,9 @@ public final class DNJBINOIFAIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DNJBINOIFAI.proto\"a\n\013DNJBINOIFAI\022\023\n\013IC" +
       "IOGPBPCJM\030\001 \001(\004\022\023\n\013OFIDDGIAHOC\030\002 \001(\r\022\023\n\013" +
-      "PINIJLBECDN\030\003 \001(\r\022\023\n\013GCIMEIJNCEO\030\004 \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "PINIJLBECDN\030\003 \001(\r\022\023\n\013GCIMEIJNCEO\030\004 \001(\010B2" +
+      "\n\031emu.grasscutter.net.protoB\025DNJBINOIFAI" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

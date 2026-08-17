@@ -897,8 +897,9 @@ public final class HDPLMLGONJGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HDPLMLGONJG.proto\032\021MKMIEIDMGPC.proto\"E" +
       "\n\013HDPLMLGONJG\022\023\n\013JANEPMMLKPL\030\001 \001(\014\022!\n\013JA" +
-      "DPCNKKAGM\030\002 \003(\0132\014.MKMIEIDMGPCB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "DPCNKKAGM\030\002 \003(\0132\014.MKMIEIDMGPCB2\n\031emu.gra" +
+      "sscutter.net.protoB\025HDPLMLGONJGOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

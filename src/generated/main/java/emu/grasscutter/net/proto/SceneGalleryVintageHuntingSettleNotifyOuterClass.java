@@ -1577,8 +1577,9 @@ public final class SceneGalleryVintageHuntingSettleNotifyOuterClass {
       "stage_info\030\016 \001(\0132$.VintageHuntingSecondS" +
       "tageSettleInfoH\000\022?\n\020first_stage_info\030\017 \001" +
       "(\0132#.VintageHuntingFirstStageSettleInfoH" +
-      "\000B\006\n\004infoB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "\000B\006\n\004infoBM\n\031emu.grasscutter.net.protoB0" +
+      "SceneGalleryVintageHuntingSettleNotifyOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

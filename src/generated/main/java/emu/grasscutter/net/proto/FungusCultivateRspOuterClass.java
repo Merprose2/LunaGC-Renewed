@@ -667,8 +667,9 @@ public final class FungusCultivateRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030FungusCultivateRsp.proto\"R\n\022FungusCult" +
       "ivateRsp\022\017\n\007retcode\030\007 \001(\005\022\024\n\014cultivate_i" +
-      "d\030\n \001(\r\022\025\n\ris_new_record\030\r \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "d\030\n \001(\r\022\025\n\ris_new_record\030\r \001(\010B9\n\031emu.gr" +
+      "asscutter.net.protoB\034FungusCultivateRspO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

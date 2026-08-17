@@ -2821,8 +2821,9 @@ public final class MPHBFJAKBNKOuterClass {
       "MHJIEBPLD\030\022 \001(\010\022!\n\013LDJKCLHKKHJ\030\023 \003(\0162\014.G" +
       "GNOANJCCIP\022!\n\013KDDOCEEBDIM\030\024 \001(\0132\014.EBADNH" +
       "GKAAP\022!\n\013IENDGPJFDLE\030\025 \001(\0132\014.EBADNHGKAAP" +
-      "\022\023\n\013DBINDHGNCNB\030\026 \001(\010B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\022\023\n\013DBINDHGNCNB\030\026 \001(\010B2\n\031emu.grasscutter" +
+      ".net.protoB\025MPHBFJAKBNKOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -667,8 +667,9 @@ public final class ScenePlayBattleInterruptNotifyOuterClass {
       "\n$ScenePlayBattleInterruptNotify.proto\"]" +
       "\n\036ScenePlayBattleInterruptNotify\022\021\n\tplay" +
       "_type\030\005 \001(\r\022\017\n\007play_id\030\t \001(\r\022\027\n\017interrup" +
-      "t_state\030\017 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "t_state\030\017 \001(\rBE\n\031emu.grasscutter.net.pro" +
+      "toB(ScenePlayBattleInterruptNotifyOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

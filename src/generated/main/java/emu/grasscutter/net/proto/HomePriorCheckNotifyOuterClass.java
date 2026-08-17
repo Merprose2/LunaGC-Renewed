@@ -525,8 +525,9 @@ public final class HomePriorCheckNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032HomePriorCheckNotify.proto\"(\n\024HomePrio" +
-      "rCheckNotify\022\020\n\010end_time\030\004 \001(\007B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "rCheckNotify\022\020\n\010end_time\030\004 \001(\007B;\n\031emu.gr" +
+      "asscutter.net.protoB\036HomePriorCheckNotif" +
+      "yOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

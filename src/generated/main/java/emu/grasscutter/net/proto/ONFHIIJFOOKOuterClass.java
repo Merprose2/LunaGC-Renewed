@@ -634,8 +634,9 @@ public final class ONFHIIJFOOKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ONFHIIJFOOK.proto\032\017MatchType.proto\"@\n\013" +
       "ONFHIIJFOOK\022\036\n\nmatch_type\030\003 \001(\0162\n.MatchT" +
-      "ype\022\021\n\tis_agreed\030\014 \001(\010B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "ype\022\021\n\tis_agreed\030\014 \001(\010B2\n\031emu.grasscutte" +
+      "r.net.protoB\025ONFHIIJFOOKOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

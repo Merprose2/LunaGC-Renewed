@@ -991,8 +991,9 @@ public final class IrodoriChessMapDataOuterClass {
       "ssMapData\022=\n\024entrance_detail_info\030\005 \001(\0132" +
       "\037.IrodoriChessEntranceDetailInfo\022\016\n\006map_" +
       "id\030\010 \001(\r\022\022\n\nbest_score\030\014 \001(\r\022\031\n\021equiped_" +
-      "card_list\030\r \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "card_list\030\r \003(\rB:\n\031emu.grasscutter.net.p" +
+      "rotoB\035IrodoriChessMapDataOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

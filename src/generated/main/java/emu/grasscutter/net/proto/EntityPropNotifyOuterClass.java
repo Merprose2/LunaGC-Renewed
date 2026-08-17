@@ -853,8 +853,9 @@ public final class EntityPropNotifyOuterClass {
       "o\"\223\001\n\020EntityPropNotify\0220\n\010prop_map\030\004 \003(\013" +
       "2\036.EntityPropNotify.PropMapEntry\022\021\n\tenti" +
       "ty_id\030\013 \001(\r\032:\n\014PropMapEntry\022\013\n\003key\030\001 \001(\r" +
-      "\022\031\n\005value\030\002 \001(\0132\n.PropValue:\0028\001B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\022\031\n\005value\030\002 \001(\0132\n.PropValue:\0028\001B7\n\031emu.g" +
+      "rasscutter.net.protoB\032EntityPropNotifyOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

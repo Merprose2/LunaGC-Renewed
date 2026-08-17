@@ -818,8 +818,9 @@ public final class TriggerCreateGadgetToEquipPartNotifyOuterClass {
       "roto\"z\n$TriggerCreateGadgetToEquipPartNo" +
       "tify\022\030\n\020gadget_entity_id\030\005 \001(\r\022\021\n\tentity" +
       "_id\030\n \001(\r\022\021\n\tgadget_id\030\014 \001(\r\022\022\n\nequip_pa" +
-      "rt\030\016 \001(\tB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "rt\030\016 \001(\tBK\n\031emu.grasscutter.net.protoB.T" +
+      "riggerCreateGadgetToEquipPartNotifyOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

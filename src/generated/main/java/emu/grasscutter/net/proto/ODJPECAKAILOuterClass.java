@@ -916,8 +916,8 @@ public final class ODJPECAKAILOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ODJPECAKAIL.proto\"I\n\013ODJPECAKAIL\022\020\n\010le" +
       "vel_id\030\006 \001(\r\022\023\n\013ICLJAGFOPFL\030\007 \003(\r\022\023\n\013GJL" +
-      "KCAHIMMJ\030\017 \003(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "KCAHIMMJ\030\017 \003(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025ODJPECAKAILOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

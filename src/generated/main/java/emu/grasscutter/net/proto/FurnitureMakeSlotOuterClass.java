@@ -824,8 +824,8 @@ public final class FurnitureMakeSlotOuterClass {
       "\n\027FurnitureMakeSlot.proto\032\027FurnitureMake" +
       "Data.proto\"I\n\021FurnitureMakeSlot\0224\n\030furni" +
       "ture_make_data_list\030\n \003(\0132\022.FurnitureMak" +
-      "eDataB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "eDataB8\n\031emu.grasscutter.net.protoB\033Furn" +
+      "itureMakeSlotOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

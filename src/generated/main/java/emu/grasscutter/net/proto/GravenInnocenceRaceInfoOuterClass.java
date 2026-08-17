@@ -824,8 +824,9 @@ public final class GravenInnocenceRaceInfoOuterClass {
       "\n\035GravenInnocenceRaceInfo.proto\032\"GravenI" +
       "nnocenceRaceLevelInfo.proto\"Q\n\027GravenInn" +
       "ocenceRaceInfo\0226\n\017level_info_list\030\010 \003(\0132" +
-      "\035.GravenInnocenceRaceLevelInfoB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\035.GravenInnocenceRaceLevelInfoB>\n\031emu.gr" +
+      "asscutter.net.protoB!GravenInnocenceRace" +
+      "InfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

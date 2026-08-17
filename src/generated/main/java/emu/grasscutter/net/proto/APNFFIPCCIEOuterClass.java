@@ -525,8 +525,8 @@ public final class APNFFIPCCIEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021APNFFIPCCIE.proto\"\"\n\013APNFFIPCCIE\022\023\n\013MP" +
-      "JOJIONEIF\030\010 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "JOJIONEIF\030\010 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025APNFFIPCCIEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class NGCNGNFBEAPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NGCNGNFBEAP.proto\"5\n\013NGCNGNFBEAP\022\024\n\014ch" +
-      "allenge_id\030\002 \001(\r\022\020\n\010stage_id\030\r \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "allenge_id\030\002 \001(\r\022\020\n\010stage_id\030\r \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025NGCNGNFBEAPOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

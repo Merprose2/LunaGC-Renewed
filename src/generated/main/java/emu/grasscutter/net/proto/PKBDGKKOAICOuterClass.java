@@ -901,8 +901,9 @@ public final class PKBDGKKOAICOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PKBDGKKOAIC.proto\032\021OKJCPMHJOIG.proto\"E" +
       "\n\013PKBDGKKOAIC\022!\n\013DIAOKJPNOGM\030\005 \003(\0132\014.OKJ" +
-      "CPMHJOIG\022\023\n\013IGMKEJOIKNP\030\010 \001(\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "CPMHJOIG\022\023\n\013IGMKEJOIKNP\030\010 \001(\005B2\n\031emu.gra" +
+      "sscutter.net.protoB\025PKBDGKKOAICOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

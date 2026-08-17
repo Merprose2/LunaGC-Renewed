@@ -831,8 +831,8 @@ public final class WidgetCreatorInfoOuterClass {
       "roto\"\177\n\021WidgetCreatorInfo\022\021\n\tentity_id\030\n" +
       " \001(\r\022%\n\007op_type\030\013 \001(\0162\024.WidgetCreatorOpT" +
       "ype\0220\n\rlocation_info\030\017 \001(\0132\031.WidgetCreat" +
-      "eLocationInfoB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "eLocationInfoB8\n\031emu.grasscutter.net.pro" +
+      "toB\033WidgetCreatorInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

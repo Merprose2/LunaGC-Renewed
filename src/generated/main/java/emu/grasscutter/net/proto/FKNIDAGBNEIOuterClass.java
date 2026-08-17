@@ -3349,8 +3349,9 @@ public final class FKNIDAGBNEIOuterClass {
       "DBOX_CPU\020\010\022>\n:EBJIAHFIBLF_BEYOND_PERFORM" +
       "ANCE_LIMIT_SANDBOX_PENALTY_SCORE\020\t\0227\n3EB" +
       "JIAHFIBLF_BEYOND_PERFORMANCE_LIMIT_SANDB" +
-      "OX_MEMORY\020\nB\r\n\013IMDGFLPBOIFB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "OX_MEMORY\020\nB\r\n\013IMDGFLPBOIFB2\n\031emu.grassc" +
+      "utter.net.protoB\025FKNIDAGBNEIOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

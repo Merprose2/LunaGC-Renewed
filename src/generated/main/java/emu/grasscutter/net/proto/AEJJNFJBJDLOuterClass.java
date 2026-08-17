@@ -925,8 +925,8 @@ public final class AEJJNFJBJDLOuterClass {
       "\001\n\013AEJJNFJBJDL\022\027\n\017collection_type\030\001 \001(\r\022" +
       "\023\n\013LGFEONLGACG\030\002 \001(\r\022\023\n\013HGNJENHGFOH\030\003 \001(" +
       "\r\022\023\n\013EBKMGKMDEFM\030\004 \001(\t\022\035\n\007op_type\030\005 \001(\0162" +
-      "\014.LLMBEOCEKJOB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\014.LLMBEOCEKJOB2\n\031emu.grasscutter.net.pro" +
+      "toB\025AEJJNFJBJDLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

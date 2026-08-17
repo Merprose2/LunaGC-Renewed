@@ -965,8 +965,8 @@ public final class AchievementOuterClass {
       "ement.Status\022\026\n\016total_progress\030\t \001(\r\"a\n\006" +
       "Status\022\022\n\016Status_INVALID\020\000\022\025\n\021Status_UNF" +
       "INISHED\020\001\022\023\n\017Status_FINISHED\020\002\022\027\n\023Status" +
-      "_REWARD_TAKEN\020\003B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "_REWARD_TAKEN\020\003B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025AchievementOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

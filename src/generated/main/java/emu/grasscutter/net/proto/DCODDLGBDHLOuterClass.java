@@ -596,7 +596,8 @@ public final class DCODDLGBDHLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DCODDLGBDHL.proto\">\n\013DCODDLGBDHL\022\036\n\026ch" +
       "at_forbidden_endtime\030\014 \001(\r\022\017\n\007retcode\030\016 " +
-      "\001(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\005B2\n\031emu.grasscutter.net.protoB\025DCODDL" +
+      "GBDHLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

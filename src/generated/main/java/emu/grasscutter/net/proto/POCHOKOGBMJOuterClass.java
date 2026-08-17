@@ -1009,8 +1009,9 @@ public final class POCHOKOGBMJOuterClass {
       "\n\021POCHOKOGBMJ.proto\032\021NBKIIACAEDE.proto\032\020" +
       "Uint32Pair.proto\"]\n\013POCHOKOGBMJ\022 \n\013BGKNO" +
       "BGMOIP\030\001 \003(\0132\013.Uint32Pair\022\032\n\004type\030\002 \001(\0162" +
-      "\014.NBKIIACAEDE\022\020\n\010level_id\030\004 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\014.NBKIIACAEDE\022\020\n\010level_id\030\004 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025POCHOKOGBMJOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

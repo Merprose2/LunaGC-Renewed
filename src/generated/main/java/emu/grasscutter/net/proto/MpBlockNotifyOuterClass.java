@@ -596,8 +596,9 @@ public final class MpBlockNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\023MpBlockNotify.proto\"6\n\rMpBlockNotify\022\020" +
-      "\n\010end_time\030\001 \001(\r\022\023\n\013GBHCHGOCFMD\030\004 \001(\010B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\n\010end_time\030\001 \001(\r\022\023\n\013GBHCHGOCFMD\030\004 \001(\010B4\n" +
+      "\031emu.grasscutter.net.protoB\027MpBlockNotif" +
+      "yOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

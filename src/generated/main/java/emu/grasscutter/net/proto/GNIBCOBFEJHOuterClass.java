@@ -1191,8 +1191,9 @@ public final class GNIBCOBFEJHOuterClass {
       "HEI\030\002 \001(\002\022\023\n\013NANKKJAHHKM\030\003 \001(\010\022!\n\013OAELFB" +
       "OIOLC\030\004 \001(\0132\014.HHEDHCFPEKM\022\023\n\013OLKIENPONCH" +
       "\030\005 \001(\002\022\023\n\013OMGFEAEKFDN\030\006 \001(\002\022\023\n\013GEJDECCGH" +
-      "FA\030\007 \001(\010\022\023\n\013GEFPEMHGKLI\030\010 \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "FA\030\007 \001(\010\022\023\n\013GEFPEMHGKLI\030\010 \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025GNIBCOBFEJHOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

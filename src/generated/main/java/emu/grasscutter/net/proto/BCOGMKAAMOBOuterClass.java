@@ -446,8 +446,9 @@ public final class BCOGMKAAMOBOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021BCOGMKAAMOB.proto\"\r\n\013BCOGMKAAMOBB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021BCOGMKAAMOB.proto\"\r\n\013BCOGMKAAMOBB2\n\031em" +
+      "u.grasscutter.net.protoB\025BCOGMKAAMOBOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

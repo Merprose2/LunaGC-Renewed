@@ -134,8 +134,8 @@ public final class EventTriggerTypeOuterClass {
       "\n\026EventTriggerType.proto*k\n\020EventTrigger" +
       "Type\022\'\n#EventTriggerType_EVENT_TRIGGER_N" +
       "ONE\020\000\022.\n*EventTriggerType_EVENT_TRIGGER_" +
-      "ENTER_FORCE\020\001B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "ENTER_FORCE\020\001B7\n\031emu.grasscutter.net.pro" +
+      "toB\032EventTriggerTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

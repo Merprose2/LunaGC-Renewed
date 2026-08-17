@@ -916,8 +916,8 @@ public final class ACAOLEJINGKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ACAOLEJINGK.proto\"H\n\013ACAOLEJINGK\022\023\n\013HH" +
       "BMPEJIOJP\030\003 \003(\r\022\017\n\007retcode\030\006 \001(\005\022\023\n\013EDAD" +
-      "FPJDBOD\030\017 \003(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "FPJDBOD\030\017 \003(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025ACAOLEJINGKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -847,8 +847,9 @@ public final class SceneGalleryFallInfoOuterClass {
       "map\030\013 \003(\01321.SceneGalleryFallInfo.ScenePl" +
       "ayerFallInfoMapEntry\032N\n\033ScenePlayerFallI" +
       "nfoMapEntry\022\013\n\003key\030\001 \001(\r\022\036\n\005value\030\002 \001(\0132" +
-      "\017.FallPlayerInfo:\0028\001B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\017.FallPlayerInfo:\0028\001B;\n\031emu.grasscutter." +
+      "net.protoB\036SceneGalleryFallInfoOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

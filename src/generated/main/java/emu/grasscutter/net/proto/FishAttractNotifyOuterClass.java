@@ -926,8 +926,9 @@ public final class FishAttractNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027FishAttractNotify.proto\032\014Vector.proto\"" +
       "L\n\021FishAttractNotify\022\013\n\003uid\030\006 \001(\r\022\024\n\003pos" +
-      "\030\007 \001(\0132\007.Vector\022\024\n\014fish_id_list\030\r \003(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\030\007 \001(\0132\007.Vector\022\024\n\014fish_id_list\030\r \003(\rB8\n" +
+      "\031emu.grasscutter.net.protoB\033FishAttractN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

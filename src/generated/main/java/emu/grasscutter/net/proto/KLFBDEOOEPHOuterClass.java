@@ -142,8 +142,9 @@ public final class KLFBDEOOEPHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KLFBDEOOEPH.proto*X\n\013KLFBDEOOEPH\022\033\n\027KL" +
       "FBDEOOEPH_UNSPECIFIED\020\000\022\023\n\017KLFBDEOOEPH_R" +
-      "EC\020\001\022\027\n\023KLFBDEOOEPH_NOT_REC\020\002B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "EC\020\001\022\027\n\023KLFBDEOOEPH_NOT_REC\020\002B2\n\031emu.gra" +
+      "sscutter.net.protoB\025KLFBDEOOEPHOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

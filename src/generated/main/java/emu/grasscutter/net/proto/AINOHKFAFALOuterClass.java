@@ -793,8 +793,8 @@ public final class AINOHKFAFALOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AINOHKFAFAL.proto\"L\n\013AINOHKFAFAL\022\023\n\013OK" +
       "GEBIHDJOM\030\006 \001(\r\022\023\n\013ICAGNFOEFIB\030\r \003(\r\022\023\n\013" +
-      "JBKJGNHPHCO\030\017 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "JBKJGNHPHCO\030\017 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025AINOHKFAFALOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

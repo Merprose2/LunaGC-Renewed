@@ -517,8 +517,9 @@ public final class BonusOpActivityInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031BonusOpActivityInfo.proto\"/\n\023BonusOpAc" +
-      "tivityInfo\022\030\n\020left_bonus_count\030\016 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "tivityInfo\022\030\n\020left_bonus_count\030\016 \001(\rB:\n\031" +
+      "emu.grasscutter.net.protoB\035BonusOpActivi" +
+      "tyInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

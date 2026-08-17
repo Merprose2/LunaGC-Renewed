@@ -1019,8 +1019,8 @@ public final class TeamChainChooseTeamInfoOuterClass {
       "inChooseAvatarInfo.proto\"f\n\027TeamChainCho" +
       "oseTeamInfo\0224\n\020avatar_info_list\030\006 \003(\0132\032." +
       "TeamChainChooseAvatarInfo\022\025\n\rskill_no_li" +
-      "st\030\t \003(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "st\030\t \003(\rB>\n\031emu.grasscutter.net.protoB!T" +
+      "eamChainChooseTeamInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

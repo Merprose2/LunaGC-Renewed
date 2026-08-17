@@ -1022,7 +1022,8 @@ public final class EPIGFDJGMLBOuterClass {
       "\n\013EPIGFDJGMLB\022\017\n\007retcode\030\010 \001(\005\022\023\n\013NEEDFG" +
       "GFFKK\030\t \001(\010\022\021\n\trename_id\030\r \001(\r\022\014\n\004name\030\016" +
       " \001(\t\022!\n\013FIIBFKMPKFF\030\017 \001(\0132\014.LMBGMBBNOABB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025EPIGFDJGML" +
+      "BOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

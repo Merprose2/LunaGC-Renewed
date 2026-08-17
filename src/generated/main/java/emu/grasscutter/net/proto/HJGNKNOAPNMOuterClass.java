@@ -454,8 +454,9 @@ public final class HJGNKNOAPNMOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021HJGNKNOAPNM.proto\"\r\n\013HJGNKNOAPNMB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021HJGNKNOAPNM.proto\"\r\n\013HJGNKNOAPNMB2\n\031em" +
+      "u.grasscutter.net.protoB\025HJGNKNOAPNMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

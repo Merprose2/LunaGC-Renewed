@@ -759,8 +759,9 @@ public final class EMGAJHOKOOIOuterClass {
       "\n\021EMGAJHOKOOI.proto\032\021JMDGOMCHEDL.proto\032\021" +
       "ONOBNPEKFOP.proto\"T\n\013EMGAJHOKOOI\022!\n\013OECE" +
       "FDPCPJJ\030\001 \001(\0132\014.ONOBNPEKFOP\022\"\n\013JFGEIBCBG" +
-      "ON\030\365\003 \001(\0162\014.JMDGOMCHEDLB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "ON\030\365\003 \001(\0162\014.JMDGOMCHEDLB2\n\031emu.grasscutt" +
+      "er.net.protoB\025EMGAJHOKOOIOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

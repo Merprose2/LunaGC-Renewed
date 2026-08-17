@@ -893,8 +893,9 @@ public final class GOBMKBAKAJMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GOBMKBAKAJM.proto\032\021PPLNLANNNGM.proto\"E" +
       "\n\013GOBMKBAKAJM\022\023\n\013MCAKENFFOCN\030\001 \001(\r\022!\n\013PP" +
-      "MACFGAEJP\030\002 \003(\0132\014.PPLNLANNNGMB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "MACFGAEJP\030\002 \003(\0132\014.PPLNLANNNGMB2\n\031emu.gra" +
+      "sscutter.net.protoB\025GOBMKBAKAJMOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

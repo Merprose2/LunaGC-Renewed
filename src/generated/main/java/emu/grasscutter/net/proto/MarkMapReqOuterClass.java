@@ -1099,7 +1099,8 @@ public final class MarkMapReqOuterClass {
       "\n\002op\030\n \001(\0162\025.MarkMapReq.Operation\"W\n\tOpe" +
       "ration\022\021\n\rOperation_ADD\020\000\022\021\n\rOperation_M" +
       "OD\020\001\022\021\n\rOperation_DEL\020\002\022\021\n\rOperation_GET" +
-      "\020\003B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\020\003B1\n\031emu.grasscutter.net.protoB\024MarkMap" +
+      "ReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

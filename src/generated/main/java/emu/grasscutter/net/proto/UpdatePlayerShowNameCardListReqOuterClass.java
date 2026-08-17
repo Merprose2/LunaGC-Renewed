@@ -653,8 +653,9 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n%UpdatePlayerShowNameCardListReq.proto\"" +
       "A\n\037UpdatePlayerShowNameCardListReq\022\036\n\026sh" +
-      "ow_name_card_id_list\030\r \003(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "ow_name_card_id_list\030\r \003(\rBF\n\031emu.grassc" +
+      "utter.net.protoB)UpdatePlayerShowNameCar" +
+      "dListReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

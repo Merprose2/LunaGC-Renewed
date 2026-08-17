@@ -1839,7 +1839,8 @@ public final class DIMIJGNFPHIOuterClass {
       "\013GMGNKGGBBAM\030\213\002 \001(\r\022\016\n\005speed\030\236\002 \001(\002\022\024\n\013H" +
       "BCKJGIEPNJ\030\265\005 \003(\r\022\024\n\013EIGECMJDCII\030\261\007 \001(\r\022" +
       "\024\n\013BOPDMDNOCAG\030\301\007 \001(\010\022\024\n\013OEPNEMEKDMF\030\274\n " +
-      "\001(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\010B2\n\031emu.grasscutter.net.protoB\025DIMIJG" +
+      "NFPHIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

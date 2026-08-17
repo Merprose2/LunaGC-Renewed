@@ -800,8 +800,8 @@ public final class CGNAFJLOMCIOuterClass {
       "\n\021CGNAFJLOMCI.proto\032\026OnlinePlayerInfo.pr" +
       "oto\"_\n\013CGNAFJLOMCI\022\023\n\013DKFLFODMKEC\030\001 \001(\r\022" +
       "\023\n\013KJBNKKOHELB\030\002 \001(\r\022&\n\013KJFDCDJFCFB\030\004 \001(" +
-      "\0132\021.OnlinePlayerInfoB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\0132\021.OnlinePlayerInfoB2\n\031emu.grasscutter." +
+      "net.protoB\025CGNAFJLOMCIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1217,8 +1217,9 @@ public final class TreasureMapRegionInfoOuterClass {
       "tor\022\022\n\nstart_time\030\006 \001(\r\022\023\n\013CNKNEJNEEOP\030\007" +
       " \001(\010\022\023\n\013IILFPOGNOCO\030\t \001(\r\022\025\n\rregion_radi" +
       "us\030\013 \001(\r\022\023\n\013PANBKFCPEBJ\030\014 \001(\010\022\021\n\tregion_" +
-      "id\030\r \001(\r\022\023\n\013NKAINLNAAEA\030\016 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "id\030\r \001(\r\022\023\n\013NKAINLNAAEA\030\016 \001(\rB<\n\031emu.gra" +
+      "sscutter.net.protoB\037TreasureMapRegionInf" +
+      "oOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

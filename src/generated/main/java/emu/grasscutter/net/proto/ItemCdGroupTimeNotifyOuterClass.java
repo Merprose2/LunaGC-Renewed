@@ -783,8 +783,8 @@ public final class ItemCdGroupTimeNotifyOuterClass {
       "GroupTimeNotify\022:\n\013item_cd_map\030\016 \003(\0132%.I" +
       "temCdGroupTimeNotify.ItemCdMapEntry\0320\n\016I" +
       "temCdMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(" +
-      "\004:\0028\001B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\004:\0028\001B<\n\031emu.grasscutter.net.protoB\037Item" +
+      "CdGroupTimeNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

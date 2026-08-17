@@ -1818,7 +1818,8 @@ public final class GDPBNCABABEOuterClass {
       "le_combat_round\030\t \001(\r\022\"\n\032_role_combat_di" +
       "fficulty_id\030\n \001(\r\022\035\n\025_role_combat_star_n" +
       "um\030\013 \001(\r\022\014\n\004time\030\014 \001(\007\022\023\n\013EBHKKOIGCAO\030\r " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025GDPBNC" +
+      "ABABEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

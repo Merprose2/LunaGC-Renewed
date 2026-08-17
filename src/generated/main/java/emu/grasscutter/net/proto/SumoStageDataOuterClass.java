@@ -1106,8 +1106,8 @@ public final class SumoStageDataOuterClass {
       "o\"z\n\rSumoStageData\022\020\n\010stage_id\030\002 \001(\r\022 \n\t" +
       "team_list\030\003 \003(\0132\r.SumoTeamData\022\021\n\tmax_sc" +
       "ore\030\004 \001(\r\022\017\n\007is_open\030\r \001(\010\022\021\n\topen_time\030" +
-      "\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\017 \001(\rB4\n\031emu.grasscutter.net.protoB\027Sumo" +
+      "StageDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

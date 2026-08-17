@@ -176,8 +176,8 @@ public final class HideAndSeekStageTypeOuterClass {
       "ND_SEEK_STAGE_HIDE\020\003\0221\n-HideAndSeekStage" +
       "Type_HIDE_AND_SEEK_STAGE_SEEK\020\004\0223\n/HideA" +
       "ndSeekStageType_HIDE_AND_SEEK_STAGE_SETT" +
-      "LE\020\005B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "LE\020\005B;\n\031emu.grasscutter.net.protoB\036HideA" +
+      "ndSeekStageTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

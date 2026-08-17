@@ -475,8 +475,8 @@ public final class JEMDCKGDLIGOuterClass {
       "IG_DLC_REWARD\020!\022\037\n\033JEMDCKGDLIG_LEVEL_OBJ" +
       "ECTIVE\020\"\022$\n JEMDCKGDLIG_VEHICLE_CLIENT_P" +
       "ARAM\020#\022)\n%JEMDCKGDLIG_VEHICLE_SKILL_CLIE" +
-      "NT_ENUM\020$B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "NT_ENUM\020$B2\n\031emu.grasscutter.net.protoB\025" +
+      "JEMDCKGDLIGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

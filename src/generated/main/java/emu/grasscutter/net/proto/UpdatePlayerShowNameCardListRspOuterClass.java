@@ -724,7 +724,9 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       "\n%UpdatePlayerShowNameCardListRsp.proto\"" +
       "R\n\037UpdatePlayerShowNameCardListRsp\022\036\n\026sh" +
       "ow_name_card_id_list\030\t \003(\r\022\017\n\007retcode\030\014 " +
-      "\001(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\005BF\n\031emu.grasscutter.net.protoB)Update" +
+      "PlayerShowNameCardListRspOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -730,8 +730,9 @@ public final class MBIEOINDKHOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MBIEOINDKHO.proto\"[\n\013MBIEOINDKHO\022\021\n\ten" +
       "tity_id\030\001 \001(\r\022\022\n\nmonster_id\030\013 \001(\r\022\023\n\013DMN" +
-      "PLGKGPFB\030\r \001(\010\022\020\n\010is_alive\030\017 \001(\010B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "PLGKGPFB\030\r \001(\010\022\020\n\010is_alive\030\017 \001(\010B2\n\031emu." +
+      "grasscutter.net.protoB\025MBIEOINDKHOOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

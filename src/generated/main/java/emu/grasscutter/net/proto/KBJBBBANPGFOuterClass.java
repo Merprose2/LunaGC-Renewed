@@ -2392,7 +2392,8 @@ public final class KBJBBBANPGFOuterClass {
       "MG\030\007 \001(\0132\014.KFGLINJHAHB\022\023\n\013PGGHNHEBDEO\030\010 " +
       "\003(\002\022!\n\013ILPGINOFMJA\030\t \003(\0132\014.HDOHNLOOCLN\022\023" +
       "\n\013BGCCMNDEAIL\030\n \001(\010\022\023\n\013IKOJJHOLNLC\030\013 \001(\002" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025KBJBBBANP" +
+      "GFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1138,8 +1138,9 @@ public final class LOAAPGCPMIOOuterClass {
       "AGNLJDMN\030\002 \001(\0132\014.DACMDDCLPNH\022\023\n\013DEMNDDHD" +
       "DKF\030\005 \001(\r\022!\n\013OIIIOAEMICJ\030\t \001(\0132\014.MHJHCJJ" +
       "GOAD\022\020\n\010progress\030\n \001(\r\022\023\n\013NJIAIJLAFEI\030\016 " +
-      "\001(\r\022\021\n\tis_accept\030\017 \001(\010B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\001(\r\022\021\n\tis_accept\030\017 \001(\010B2\n\031emu.grasscutte" +
+      "r.net.protoB\025LOAAPGCPMIOOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -262,8 +262,8 @@ public final class FeatureBlockTypeOuterClass {
       "BEYOND_ROOM\020\013\022&\n\"FeatureBlockType_BEYOND" +
       "_GACHA_GIFT\020\014\022%\n!FeatureBlockType_BEYOND" +
       "_SHOP_GIFT\020\r\022&\n\"FeatureBlockType_BEYOND_" +
-      "VOICE_CHAT\020\016B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "VOICE_CHAT\020\016B7\n\031emu.grasscutter.net.prot" +
+      "oB\032FeatureBlockTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

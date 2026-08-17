@@ -142,8 +142,9 @@ public final class MKDCIILGOPNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MKDCIILGOPN.proto*T\n\013MKDCIILGOPN\022\024\n\020MK" +
       "DCIILGOPN_NONE\020\000\022\030\n\024MKDCIILGOPN_CHANGING" +
-      "\020\001\022\025\n\021MKDCIILGOPN_READY\020\002B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\020\001\022\025\n\021MKDCIILGOPN_READY\020\002B2\n\031emu.grasscu" +
+      "tter.net.protoB\025MKDCIILGOPNOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

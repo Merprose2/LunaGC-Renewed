@@ -1029,7 +1029,8 @@ public final class DungeonSettleExhibitionInfoOuterClass {
       "fo.proto\"p\n\033DungeonSettleExhibitionInfo\022" +
       ")\n\tcard_list\030\007 \003(\0132\026.ExhibitionDisplayIn" +
       "fo\022&\n\013player_info\030\014 \001(\0132\021.OnlinePlayerIn" +
-      "foB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "foBB\n\031emu.grasscutter.net.protoB%Dungeon" +
+      "SettleExhibitionInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

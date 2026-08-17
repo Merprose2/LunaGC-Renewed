@@ -967,8 +967,8 @@ public final class PMNOEEAAEMOOuterClass {
       "\n\021PMNOEEAAEMO.proto\"p\n\013PMNOEEAAEMO\022\023\n\013MI" +
       "AOLEAIGKH\030\006 \001(\t\022\023\n\013NHGLKJFGEIG\030\007 \001(\r\022\r\n\005" +
       "index\030\010 \001(\r\022\023\n\013ONJIOMFNNEI\030\n \001(\r\022\023\n\013LBMM" +
-      "COJNJMC\030\013 \001(\tB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "COJNJMC\030\013 \001(\tB2\n\031emu.grasscutter.net.pro" +
+      "toB\025PMNOEEAAEMOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

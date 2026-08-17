@@ -133,7 +133,8 @@ public final class KEOOGBGIICKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KEOOGBGIICK.proto*=\n\013KEOOGBGIICK\022\026\n\022KE" +
       "OOGBGIICK_AVATAR\020\000\022\026\n\022KEOOGBGIICK_ENTITY" +
-      "\020\001B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\020\001B2\n\031emu.grasscutter.net.protoB\025KEOOGBG" +
+      "IICKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

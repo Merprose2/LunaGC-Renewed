@@ -3443,8 +3443,9 @@ public final class EHOBMKODDEGOuterClass {
       "JIPLPAKPBD\030\020 \001(\010\022!\n\013PPEODEBAGDH\030\021 \003(\0162\014." +
       "JEOKDCIGCFP\022\023\n\013MFHOFACNMGF\030\022 \001(\010\022\023\n\013JKCD" +
       "FPJHOAB\030\023 \001(\r\022\023\n\013POGPHDLNFFL\030\024 \003(\005\022\023\n\013EI" +
-      "LALEDMFAG\030\025 \001(\r\022\024\n\013filter_type\030\365\003 \001(\005B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "LALEDMFAG\030\025 \001(\r\022\024\n\013filter_type\030\365\003 \001(\005B2\n" +
+      "\031emu.grasscutter.net.protoB\025EHOBMKODDEGO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1465,8 +1465,9 @@ public final class MGHFCCMGKKBOuterClass {
       "\n\021MGHFCCMGKKB.proto\"\203\001\n\013MGHFCCMGKKB\0222\n\020p" +
       "layer_info_list\030\003 \003(\0132\030.MGHFCCMGKKB.IDAL" +
       "PJCLMGL\022\017\n\007retcode\030\017 \001(\005\032/\n\013IDALPJCLMGL\022" +
-      "\013\n\003uid\030\t \001(\r\022\023\n\013DEADDOKKEHM\030\014 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\013\n\003uid\030\t \001(\r\022\023\n\013DEADDOKKEHM\030\014 \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025MGHFCCMGKKBOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

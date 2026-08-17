@@ -831,8 +831,8 @@ public final class DGMLEFGNFCJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DGMLEFGNFCJ.proto\032\021NONMJCNELBG.proto\"." +
       "\n\013DGMLEFGNFCJ\022\037\n\tinfo_list\030\002 \003(\0132\014.NONMJ" +
-      "CNELBGB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "CNELBGB2\n\031emu.grasscutter.net.protoB\025DGM" +
+      "LEFGNFCJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

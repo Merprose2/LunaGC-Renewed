@@ -1342,8 +1342,8 @@ public final class GalleryStartNotifyOuterClass {
       "aramH\000\0226\n\022flower_start_param\030\t \001(\0132\030.Gal" +
       "leryFlowerStartParamH\000\022\020\n\010end_time\030\006 \001(\r" +
       "\022\021\n\towner_uid\030\013 \001(\r\022\024\n\014player_count\030\017 \001(" +
-      "\rB\010\n\006detailB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "\rB\010\n\006detailB9\n\031emu.grasscutter.net.proto" +
+      "B\034GalleryStartNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

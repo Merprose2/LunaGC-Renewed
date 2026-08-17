@@ -800,7 +800,8 @@ public final class JHAILPOLLHLOuterClass {
       "\n\021JHAILPOLLHL.proto\032\021HuntingPair.proto\"S" +
       "\n\013JHAILPOLLHL\022\"\n\014hunting_pair\030\002 \001(\0132\014.Hu" +
       "ntingPair\022\017\n\007city_id\030\006 \001(\r\022\017\n\007retcode\030\n " +
-      "\001(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\005B2\n\031emu.grasscutter.net.protoB\025JHAILP" +
+      "OLLHLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

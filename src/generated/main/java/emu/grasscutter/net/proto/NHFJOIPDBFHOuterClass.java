@@ -794,8 +794,8 @@ public final class NHFJOIPDBFHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NHFJOIPDBFH.proto\"L\n\013NHFJOIPDBFH\022\023\n\013op" +
       "tion_list\030\004 \003(\005\022\023\n\013FPGJKHIIOAK\030\010 \001(\010\022\023\n\013" +
-      "LPGHNEEGMOC\030\016 \001(\005B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "LPGHNEEGMOC\030\016 \001(\005B2\n\031emu.grasscutter.net" +
+      ".protoB\025NHFJOIPDBFHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

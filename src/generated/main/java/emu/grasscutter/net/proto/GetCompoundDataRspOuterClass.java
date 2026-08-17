@@ -1097,8 +1097,8 @@ public final class GetCompoundDataRspOuterClass {
       "eData.proto\"w\n\022GetCompoundDataRsp\022\034\n\024unl" +
       "ock_compound_list\030\002 \003(\r\0222\n\026compound_que_" +
       "data_list\030\010 \003(\0132\022.CompoundQueueData\022\017\n\007r" +
-      "etcode\030\r \001(\005B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "etcode\030\r \001(\005B9\n\031emu.grasscutter.net.prot" +
+      "oB\034GetCompoundDataRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

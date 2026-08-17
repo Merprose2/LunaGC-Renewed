@@ -666,8 +666,9 @@ public final class KECNOCAPEJIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KECNOCAPEJI.proto\"U\n\013KECNOCAPEJI\022\023\n\013EJ" +
       "CGHHNDAPB\030\010 \001(\r\022\020\n\010scene_id\030\t \001(\r\022\037\n\027dun" +
-      "geon_entry_config_id\030\014 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "geon_entry_config_id\030\014 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025KECNOCAPEJIOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

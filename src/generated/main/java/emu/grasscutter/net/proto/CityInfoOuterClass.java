@@ -658,7 +658,8 @@ public final class CityInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\016CityInfo.proto\"?\n\010CityInfo\022\r\n\005level\030\001 " +
       "\001(\r\022\023\n\013crystal_num\030\004 \001(\r\022\017\n\007city_id\030\017 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB/\n\031emu.grasscutter.net.protoB\022CityInfo" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

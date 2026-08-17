@@ -736,8 +736,9 @@ public final class NNKIMJILKENOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NNKIMJILKEN.proto\"Z\n\013NNKIMJILKEN\022\017\n\007re" +
       "tcode\030\002 \001(\005\022\020\n\010event_id\030\n \001(\r\022\023\n\013OCHEFMC" +
-      "DEEH\030\013 \001(\r\022\023\n\013OAANLDJPCOP\030\r \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "DEEH\030\013 \001(\r\022\023\n\013OAANLDJPCOP\030\r \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025NNKIMJILKENOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

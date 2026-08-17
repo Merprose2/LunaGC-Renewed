@@ -517,8 +517,8 @@ public final class INPIPALKDLKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021INPIPALKDLK.proto\"\034\n\013INPIPALKDLK\022\r\n\005va" +
-      "lue\030\001 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "lue\030\001 \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "INPIPALKDLKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

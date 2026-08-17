@@ -1129,8 +1129,9 @@ public final class EvtCombatSteerMotionInfoOuterClass {
       ".proto\"y\n\030EvtCombatSteerMotionInfo\022\031\n\010ve" +
       "locity\030\003 \001(\0132\007.Vector\022\021\n\tentity_id\030\004 \001(\r" +
       "\022\024\n\003pos\030\n \001(\0132\007.Vector\022\031\n\010face_dir\030\014 \001(\013" +
-      "2\007.VectorB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "2\007.VectorB?\n\031emu.grasscutter.net.protoB\"" +
+      "EvtCombatSteerMotionInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

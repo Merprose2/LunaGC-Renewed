@@ -1483,8 +1483,8 @@ public final class BFOOONLNNJJOuterClass {
       "MFIHH\030\004 \001(\004\022\023\n\013report_type\030\005 \001(\004\022\026\n\016_rep" +
       "ort_detail\030\006 \001(\t\022\023\n\013NGEDGDGBAID\030\007 \001(\014\022\022\n" +
       "\nrequest_id\030\010 \001(\t\022!\n\013NEGHEOKLCCD\030\t \001(\0162\014" +
-      ".MGGEEKNOAAGB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      ".MGGEEKNOAAGB2\n\031emu.grasscutter.net.prot" +
+      "oB\025BFOOONLNNJJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

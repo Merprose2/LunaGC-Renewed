@@ -1352,8 +1352,9 @@ public final class JJAAPEINGACOuterClass {
       ".proto\"\214\001\n\013JJAAPEINGAC\022\023\n\013NMKGLEHEEIN\030\001 " +
       "\001(\r\022\023\n\013AJJGPPPBOAB\030\006 \003(\r\022\023\n\013EGLADOIBKMG\030" +
       "\007 \003(\r\022\023\n\013FHJEAPIGJLG\030\013 \001(\r\022)\n\013MNIGABGNNB" +
-      "K\030\014 \003(\0132\024.GCGPlayCardCostInfoB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "K\030\014 \003(\0132\024.GCGPlayCardCostInfoB2\n\031emu.gra" +
+      "sscutter.net.protoB\025JJAAPEINGACOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -596,8 +596,9 @@ public final class KJMNABNIDLLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KJMNABNIDLL.proto\",\n\013KJMNABNIDLL\022\013\n\003ui" +
-      "d\030\002 \001(\r\022\020\n\010is_agree\030\003 \001(\010B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "d\030\002 \001(\r\022\020\n\010is_agree\030\003 \001(\010B2\n\031emu.grasscu" +
+      "tter.net.protoB\025KJMNABNIDLLOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

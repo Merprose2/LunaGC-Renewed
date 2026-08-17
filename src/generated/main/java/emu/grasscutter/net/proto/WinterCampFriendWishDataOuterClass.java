@@ -1070,8 +1070,9 @@ public final class WinterCampFriendWishDataOuterClass {
       "ePicture.proto\"y\n\030WinterCampFriendWishDa" +
       "ta\022\013\n\003uid\030\002 \001(\r\022(\n\017profile_picture\030\004 \001(\013" +
       "2\017.ProfilePicture\022\024\n\014item_id_list\030\006 \003(\r\022" +
-      "\020\n\010nickname\030\017 \001(\tB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\020\n\010nickname\030\017 \001(\tB?\n\031emu.grasscutter.net" +
+      ".protoB\"WinterCampFriendWishDataOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

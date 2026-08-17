@@ -525,8 +525,8 @@ public final class MINMAIENHEJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MINMAIENHEJ.proto\"!\n\013MINMAIENHEJ\022\022\n\nta" +
-      "rget_uid\030\n \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "rget_uid\030\n \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025MINMAIENHEJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

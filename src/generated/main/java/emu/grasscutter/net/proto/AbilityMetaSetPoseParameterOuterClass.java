@@ -652,8 +652,9 @@ public final class AbilityMetaSetPoseParameterOuterClass {
       "\n!AbilityMetaSetPoseParameter.proto\032$Ani" +
       "matorParameterValueInfoPair.proto\"M\n\033Abi" +
       "lityMetaSetPoseParameter\022.\n\005value\030\002 \001(\0132" +
-      "\037.AnimatorParameterValueInfoPairB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\037.AnimatorParameterValueInfoPairBB\n\031emu." +
+      "grasscutter.net.protoB%AbilityMetaSetPos" +
+      "eParameterOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

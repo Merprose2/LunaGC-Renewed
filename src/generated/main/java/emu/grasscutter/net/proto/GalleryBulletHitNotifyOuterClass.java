@@ -596,8 +596,9 @@ public final class GalleryBulletHitNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034GalleryBulletHitNotify.proto\"?\n\026Galler" +
       "yBulletHitNotify\022\021\n\thit_count\030\003 \001(\r\022\022\n\ng" +
-      "allery_id\030\t \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "allery_id\030\t \001(\rB=\n\031emu.grasscutter.net.p" +
+      "rotoB GalleryBulletHitNotifyOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

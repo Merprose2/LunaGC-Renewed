@@ -666,8 +666,8 @@ public final class BDCGCJPGAJGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BDCGCJPGAJG.proto\"H\n\013BDCGCJPGAJG\022\023\n\013IO" +
       "LKLILAFPO\030\002 \001(\r\022\017\n\007city_id\030\010 \001(\r\022\023\n\013GFLG" +
-      "LONCOMH\030\013 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "LONCOMH\030\013 \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025BDCGCJPGAJGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

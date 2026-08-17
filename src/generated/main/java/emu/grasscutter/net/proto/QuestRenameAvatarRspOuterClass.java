@@ -1022,8 +1022,9 @@ public final class QuestRenameAvatarRspOuterClass {
       "B.proto\"\204\001\n\024QuestRenameAvatarRsp\022!\n\013FIIB" +
       "FKMPKFF\030\003 \001(\0132\014.LMBGMBBNOAB\022\023\n\013avatar_na" +
       "me\030\006 \001(\t\022\021\n\trename_id\030\010 \001(\r\022\020\n\010is_check\030" +
-      "\n \001(\010\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\n \001(\010\022\017\n\007retcode\030\016 \001(\005B;\n\031emu.grasscutte" +
+      "r.net.protoB\036QuestRenameAvatarRspOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

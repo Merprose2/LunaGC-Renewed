@@ -588,8 +588,8 @@ public final class HomePictureFrameInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032HomePictureFrameInfo.proto\"8\n\024HomePict" +
       "ureFrameInfo\022\022\n\npicture_id\030\005 \001(\r\022\014\n\004guid" +
-      "\030\006 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\006 \001(\rB;\n\031emu.grasscutter.net.protoB\036Hom" +
+      "ePictureFrameInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

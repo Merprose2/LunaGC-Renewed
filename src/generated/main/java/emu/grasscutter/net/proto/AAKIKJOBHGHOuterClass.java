@@ -595,8 +595,9 @@ public final class AAKIKJOBHGHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AAKIKJOBHGH.proto\"0\n\013AAKIKJOBHGH\022\017\n\007re" +
-      "tcode\030\t \001(\005\022\020\n\010level_id\030\016 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "tcode\030\t \001(\005\022\020\n\010level_id\030\016 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025AAKIKJOBHGHOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -935,8 +935,9 @@ public final class ScenePlayOwnerCheckRspOuterClass {
       "\n\034ScenePlayOwnerCheckRsp.proto\"x\n\026SceneP" +
       "layOwnerCheckRsp\022\021\n\twrong_uid\030\004 \001(\r\022\025\n\ri" +
       "s_skip_match\030\006 \001(\010\022\022\n\nparam_list\030\010 \003(\r\022\017" +
-      "\n\007play_id\030\016 \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\n\007play_id\030\016 \001(\r\022\017\n\007retcode\030\017 \001(\005B=\n\031emu." +
+      "grasscutter.net.protoB ScenePlayOwnerChe" +
+      "ckRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

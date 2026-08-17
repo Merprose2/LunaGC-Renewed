@@ -525,8 +525,8 @@ public final class FAKGMKCKKMLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FAKGMKCKKML.proto\"\"\n\013FAKGMKCKKML\022\023\n\013LC" +
-      "KNCHJDKII\030\004 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "KNCHJDKII\030\004 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025FAKGMKCKKMLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

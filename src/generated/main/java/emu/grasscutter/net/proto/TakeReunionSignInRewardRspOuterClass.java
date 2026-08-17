@@ -730,8 +730,9 @@ public final class TakeReunionSignInRewardRspOuterClass {
       "\n TakeReunionSignInRewardRsp.proto\032\027Reun" +
       "ionSignInInfo.proto\"W\n\032TakeReunionSignIn" +
       "RewardRsp\022\017\n\007retcode\030\001 \001(\005\022(\n\014sign_in_in" +
-      "fo\030\003 \001(\0132\022.ReunionSignInInfoB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "fo\030\003 \001(\0132\022.ReunionSignInInfoBA\n\031emu.gras" +
+      "scutter.net.protoB$TakeReunionSignInRewa" +
+      "rdRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

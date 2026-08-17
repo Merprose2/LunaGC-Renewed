@@ -872,8 +872,8 @@ public final class CBMIGFMEBPJOuterClass {
       "\n\021CBMIGFMEBPJ.proto\032\021EBADNHGKAAP.proto\"Z" +
       "\n\013CBMIGFMEBPJ\022\023\n\013IMIDEJDODLE\030\001 \001(\005\022!\n\013OA" +
       "MLPAKDEAI\030\002 \001(\0132\014.EBADNHGKAAP\022\023\n\013MDBOFFM" +
-      "KPCC\030\003 \001(\tB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "KPCC\030\003 \001(\tB2\n\031emu.grasscutter.net.protoB" +
+      "\025CBMIGFMEBPJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

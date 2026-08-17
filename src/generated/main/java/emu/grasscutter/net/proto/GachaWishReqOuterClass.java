@@ -666,8 +666,9 @@ public final class GachaWishReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\022GachaWishReq.proto\"N\n\014GachaWishReq\022\031\n\021" +
       "gacha_schedule_id\030\005 \001(\r\022\022\n\ngacha_type\030\t " +
-      "\001(\r\022\017\n\007item_id\030\016 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\001(\r\022\017\n\007item_id\030\016 \001(\rB3\n\031emu.grasscutter." +
+      "net.protoB\026GachaWishReqOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

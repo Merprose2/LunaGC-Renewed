@@ -526,8 +526,9 @@ public final class JBNDGOOGIILOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JBNDGOOGIIL.proto\")\n\013JBNDGOOGIIL\022\032\n\022is" +
-      "_enter_edit_mode\030\005 \001(\010B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "_enter_edit_mode\030\005 \001(\010B2\n\031emu.grasscutte" +
+      "r.net.protoB\025JBNDGOOGIILOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

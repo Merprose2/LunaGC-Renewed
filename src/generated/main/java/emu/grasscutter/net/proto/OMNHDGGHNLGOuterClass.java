@@ -1232,8 +1232,9 @@ public final class OMNHDGGHNLGOuterClass {
       "rInfo.proto\"\203\001\n\013OMNHDGGHNLG\022!\n\013EGDMGEFOH" +
       "IH\030\002 \001(\0132\014.CLNOBBLDHLK\022)\n\tcard_list\030\003 \003(" +
       "\0132\026.ExhibitionDisplayInfo\022&\n\013player_info" +
-      "\030\n \001(\0132\021.OnlinePlayerInfoB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\030\n \001(\0132\021.OnlinePlayerInfoB2\n\031emu.grasscu" +
+      "tter.net.protoB\025OMNHDGGHNLGOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

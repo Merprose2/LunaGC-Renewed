@@ -3008,8 +3008,8 @@ public final class EPDPFKFDMOMOuterClass {
       "JABFKENCEF\030\007 \003(\0132\014.ILNAODHBLKE\022!\n\013PPEFAE" +
       "BIENB\030\010 \001(\0132\014.OLFKBJCGACB\022!\n\013KMIDFDMFNFC" +
       "\030\t \001(\0132\014.LFDKIIEHILJ\022!\n\013DBIOIJBGDJO\030\n \003(" +
-      "\0132\014.MGDJLPEBDKBB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\0132\014.MGDJLPEBDKBB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025EPDPFKFDMOMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

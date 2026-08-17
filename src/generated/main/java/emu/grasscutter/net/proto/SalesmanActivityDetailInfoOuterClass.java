@@ -1451,7 +1451,8 @@ public final class SalesmanActivityDetailInfoOuterClass {
       "\023\n\013DILMJEONOCC\030\013 \001(\r\022\023\n\013KFEIFMLHHGM\030\r \001(" +
       "\r\022\021\n\tday_index\030\017 \001(\r\032:\n\030SelectedRewardId" +
       "MapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "BA\n\031emu.grasscutter.net.protoB$SalesmanA" +
+      "ctivityDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

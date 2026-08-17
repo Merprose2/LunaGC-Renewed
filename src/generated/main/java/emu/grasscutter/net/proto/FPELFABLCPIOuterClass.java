@@ -563,7 +563,8 @@ public final class FPELFABLCPIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FPELFABLCPI.proto\032\021PPGBKAFJIPF.proto\"+" +
       "\n\013FPELFABLCPI\022\034\n\006status\030\n \001(\0162\014.PPGBKAFJ" +
-      "IPFB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "IPFB2\n\031emu.grasscutter.net.protoB\025FPELFA" +
+      "BLCPIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

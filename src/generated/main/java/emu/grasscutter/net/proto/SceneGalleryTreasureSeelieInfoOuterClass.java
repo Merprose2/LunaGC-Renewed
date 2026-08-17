@@ -588,8 +588,9 @@ public final class SceneGalleryTreasureSeelieInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n$SceneGalleryTreasureSeelieInfo.proto\"@" +
       "\n\036SceneGalleryTreasureSeelieInfo\022\020\n\010prog" +
-      "ress\030\t \001(\r\022\014\n\004goal\030\013 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "ress\030\t \001(\r\022\014\n\004goal\030\013 \001(\rBE\n\031emu.grasscut" +
+      "ter.net.protoB(SceneGalleryTreasureSeeli" +
+      "eInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

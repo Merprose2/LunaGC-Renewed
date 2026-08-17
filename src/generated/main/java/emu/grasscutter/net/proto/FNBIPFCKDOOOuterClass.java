@@ -1149,8 +1149,8 @@ public final class FNBIPFCKDOOOuterClass {
       "HCMEGOHI\030\001 \001(\r\022\023\n\013JBIICJLGOIE\030\002 \001(\t\022!\n\013E" +
       "PHDPNFENDM\030\003 \001(\0162\014.CKFOODKLJOO\022\023\n\013EIIMDB" +
       "DOFLH\030\004 \001(\010\022\"\n\nfog_config\0303 \001(\0132\014.NDDMCO" +
-      "HHPPFH\000B\010\n\006detailB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "HHPPFH\000B\010\n\006detailB2\n\031emu.grasscutter.net" +
+      ".protoB\025FNBIPFCKDOOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

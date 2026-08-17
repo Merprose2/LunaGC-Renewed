@@ -588,8 +588,9 @@ public final class GDMNIBDNPIMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GDMNIBDNPIM.proto\"7\n\013GDMNIBDNPIM\022\023\n\013HH" +
-      "GEMMCFLNO\030\001 \001(\004\022\023\n\013FKMFEPKNDHH\030\r \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "GEMMCFLNO\030\001 \001(\004\022\023\n\013FKMFEPKNDHH\030\r \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025GDMNIBDNPIMOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

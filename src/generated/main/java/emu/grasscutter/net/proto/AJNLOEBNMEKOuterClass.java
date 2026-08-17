@@ -454,8 +454,9 @@ public final class AJNLOEBNMEKOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021AJNLOEBNMEK.proto\"\r\n\013AJNLOEBNMEKB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021AJNLOEBNMEK.proto\"\r\n\013AJNLOEBNMEKB2\n\031em" +
+      "u.grasscutter.net.protoB\025AJNLOEBNMEKOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

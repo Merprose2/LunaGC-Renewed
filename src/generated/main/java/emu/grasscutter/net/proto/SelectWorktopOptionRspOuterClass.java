@@ -666,8 +666,9 @@ public final class SelectWorktopOptionRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034SelectWorktopOptionRsp.proto\"V\n\026Select" +
       "WorktopOptionRsp\022\030\n\020gadget_entity_id\030\004 \001" +
-      "(\r\022\017\n\007retcode\030\014 \001(\005\022\021\n\toption_id\030\017 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "(\r\022\017\n\007retcode\030\014 \001(\005\022\021\n\toption_id\030\017 \001(\rB=" +
+      "\n\031emu.grasscutter.net.protoB SelectWorkt" +
+      "opOptionRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

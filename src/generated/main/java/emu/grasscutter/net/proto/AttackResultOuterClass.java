@@ -4563,8 +4563,9 @@ public final class AttackResultOuterClass {
       "IEJICEMA\022\024\n\013DMIEAHDCHFA\030\342\r \001(\010\022\035\n\013DNMDKF" +
       "FCNPJ\030\360\r \001(\0132\007.Vector\022\024\n\013OMJGKPMPFBI\030\201\016 " +
       "\001(\010\022\024\n\013BJHAEPGOAKM\030\255\016 \001(\r\022\024\n\013MOEKEMAHBNN" +
-      "\030\254\017 \001(\r\022\024\n\013IDENIGMCBJB\030\375\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\030\254\017 \001(\r\022\024\n\013IDENIGMCBJB\030\375\017 \001(\rB3\n\031emu.gra" +
+      "sscutter.net.protoB\026AttackResultOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1267,7 +1267,8 @@ public final class PKCHCHIJFONOuterClass {
       "KGLBBHDCPDD.proto\"h\n\013PKCHCHIJFON\022\023\n\013EKCP" +
       "AOBHGAB\030\003 \001(\r\022!\n\013HJPIIHOPEOI\030\010 \003(\0132\014.KGL" +
       "BBHDCPDD\022!\n\013NFENFMFIGBE\030\t \003(\0132\014.IKPHELHL" +
-      "PDOB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "PDOB2\n\031emu.grasscutter.net.protoB\025PKCHCH" +
+      "IJFONOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

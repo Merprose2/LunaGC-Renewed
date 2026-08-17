@@ -1012,8 +1012,9 @@ public final class DGONDJOOGNAOuterClass {
       "\001\n\013DGONDJOOGNA\022\023\n\013LOALLKIHHAJ\030\004 \001(\r\022\023\n\013B" +
       "PEDNCMLPOD\030\007 \001(\r\022\023\n\013client_time\030\010 \001(\020\022\023\n" +
       "\013server_time\030\t \001(\007\022!\n\013KHDNPDCNDOI\030\014 \001(\0132" +
-      "\014.OIMHGAKGANJ\022\013\n\003uid\030\016 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\014.OIMHGAKGANJ\022\013\n\003uid\030\016 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025DGONDJOOGNAOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

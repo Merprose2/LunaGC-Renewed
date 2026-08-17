@@ -4061,8 +4061,9 @@ public final class JCLAMNIADCEOuterClass {
       "NGLHNINL\022!\n\013NMDAKOIAJGF\030\005 \003(\0132\014.DDKGIGNK" +
       "FGM\022!\n\013NGACJDACNNO\030\006 \003(\0132\014.NLIPGHMKKFP\022!" +
       "\n\013OPNKADIHPBN\030\007 \003(\0132\014.NKMPENOGOPN\022\023\n\013ENK" +
-      "OKNBJGPP\030d \001(\r\022\023\n\013ABINKCELNKB\030e \001(\002B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "OKNBJGPP\030d \001(\r\022\023\n\013ABINKCELNKB\030e \001(\002B2\n\031e" +
+      "mu.grasscutter.net.protoB\025JCLAMNIADCEOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

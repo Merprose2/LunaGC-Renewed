@@ -8274,8 +8274,9 @@ public final class LKAHCDOFFCHOuterClass {
       "L\030\035 \001(\0132\014.JHELCPMHPBF\022!\n\013LMEOKGFJIHO\030\036 \003" +
       "(\0132\014.KKMABLKGJJL\022!\n\013DAGLHBFDBEH\030\037 \001(\0132\014." +
       "MFACHLKPFFE\022\023\n\013AOOAPFFEILK\030  \001(\014\022\023\n\013IMBB" +
-      "ILEBPBJ\030! \001(\010\022\023\n\013HJKJGKMLIDP\030\" \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ILEBPBJ\030! \001(\010\022\023\n\013HJKJGKMLIDP\030\" \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025LKAHCDOFFCHOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

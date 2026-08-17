@@ -753,8 +753,8 @@ public final class ECDKMMNCOEJOuterClass {
       "\013LMPHEOODAPJ\030\007 \001(\r\"k\n\013CBCMHGDDCOB\022\030\n\024CBC" +
       "MHGDDCOB_CONTINUE\020\000\022$\n CBCMHGDDCOB_PERFO" +
       "RMER_NOT_ENOUGH\020\001\022\034\n\030CBCMHGDDCOB_INVITER" +
-      "_QUIT\020\002B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "_QUIT\020\002B2\n\031emu.grasscutter.net.protoB\025EC" +
+      "DKMMNCOEJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

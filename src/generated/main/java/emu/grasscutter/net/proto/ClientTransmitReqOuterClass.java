@@ -1041,8 +1041,9 @@ public final class ClientTransmitReqOuterClass {
       "n.proto\032\014Vector.proto\"r\n\021ClientTransmitR" +
       "eq\022\037\n\006reason\030\004 \001(\0162\017.TransmitReason\022\024\n\003p" +
       "os\030\n \001(\0132\007.Vector\022\020\n\010scene_id\030\r \001(\r\022\024\n\003r" +
-      "ot\030\016 \001(\0132\007.VectorB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "ot\030\016 \001(\0132\007.VectorB8\n\031emu.grasscutter.net" +
+      ".protoB\033ClientTransmitReqOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

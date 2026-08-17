@@ -525,8 +525,8 @@ public final class BJEKGMNKJNFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BJEKGMNKJNF.proto\"!\n\013BJEKGMNKJNF\022\022\n\nta" +
-      "rget_uid\030\r \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "rget_uid\030\r \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025BJEKGMNKJNFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

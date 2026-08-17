@@ -865,8 +865,10 @@ public final class ChannellerSlabLoopDungeonSelectConditionRspOuterClass {
       "onRsp.proto\"\207\001\n+ChannellerSlabLoopDungeo" +
       "nSelectConditionRsp\022\025\n\rdifficulty_id\030\003 \001" +
       "(\r\022\017\n\007retcode\030\005 \001(\005\022\031\n\021condition_id_list" +
-      "\030\006 \003(\r\022\025\n\rdungeon_index\030\n \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\030\006 \003(\r\022\025\n\rdungeon_index\030\n \001(\rBR\n\031emu.gra" +
+      "sscutter.net.protoB5ChannellerSlabLoopDu" +
+      "ngeonSelectConditionRspOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

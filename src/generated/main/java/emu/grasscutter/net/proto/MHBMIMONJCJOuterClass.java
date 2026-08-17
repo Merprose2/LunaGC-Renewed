@@ -871,8 +871,9 @@ public final class MHBMIMONJCJOuterClass {
       "o.proto\"\211\001\n\013MHBMIMONJCJ\0226\n\027custom_gadget" +
       "_tree_info\030\001 \001(\0132\025.CustomGadgetTreeInfo\022" +
       "\030\n\020gadget_entity_id\030\002 \001(\r\022\023\n\013FHNFKMBKLAD" +
-      "\030\t \001(\r\022\023\n\013ENFBNOMNNCE\030\014 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\030\t \001(\r\022\023\n\013ENFBNOMNNCE\030\014 \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025MHBMIMONJCJOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

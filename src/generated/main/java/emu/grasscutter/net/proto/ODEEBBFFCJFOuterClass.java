@@ -863,8 +863,9 @@ public final class ODEEBBFFCJFOuterClass {
       "\n\021ODEEBBFFCJF.proto\032\021PGDMAIHKGFO.proto\"m" +
       "\n\013ODEEBBFFCJF\022\023\n\013OOLDMKBICCF\030\001 \001(\005\022\023\n\013KB" +
       "HPHAMFJGK\030\002 \001(\005\022\021\n\tis_active\030\003 \001(\010\022!\n\013EG" +
-      "GLDHMCFGC\030\004 \001(\0132\014.PGDMAIHKGFOB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "GLDHMCFGC\030\004 \001(\0132\014.PGDMAIHKGFOB2\n\031emu.gra" +
+      "sscutter.net.protoB\025ODEEBBFFCJFOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

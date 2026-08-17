@@ -660,8 +660,8 @@ public final class KMHNLPLHDPOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KMHNLPLHDPO.proto\"J\n\013KMHNLPLHDPO\022\021\n\tis" +
       "_active\030\006 \001(\010\022\023\n\013AGIFNELOIKK\030\007 \001(\r\022\023\n\013CD" +
-      "AAFLPAOND\030\n \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "AAFLPAOND\030\n \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025KMHNLPLHDPOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

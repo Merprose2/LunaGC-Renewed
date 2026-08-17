@@ -729,8 +729,9 @@ public final class MIJEMPMNDLPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MIJEMPMNDLP.proto\032\021NMADJALPAAO.proto\"A" +
       "\n\013MIJEMPMNDLP\022!\n\013FLMGEKHIMEF\030\013 \001(\0132\014.NMA" +
-      "DJALPAAO\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "DJALPAAO\022\017\n\007retcode\030\017 \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025MIJEMPMNDLPOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

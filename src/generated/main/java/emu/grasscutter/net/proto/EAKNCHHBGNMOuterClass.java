@@ -823,8 +823,8 @@ public final class EAKNCHHBGNMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EAKNCHHBGNM.proto\032\021HAONKKMMGPM.proto\"0" +
       "\n\013EAKNCHHBGNM\022!\n\013KIOFOHFOHPM\030\001 \003(\0132\014.HAO" +
-      "NKKMMGPMB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "NKKMMGPMB2\n\031emu.grasscutter.net.protoB\025E" +
+      "AKNCHHBGNMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

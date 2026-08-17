@@ -801,8 +801,9 @@ public final class GetCityReputationInfoRspOuterClass {
       "putationInfo.proto\"o\n\030GetCityReputationI" +
       "nfoRsp\022\017\n\007retcode\030\007 \001(\005\0221\n\024city_reputati" +
       "on_info\030\t \001(\0132\023.CityReputationInfo\022\017\n\007ci" +
-      "ty_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "ty_id\030\016 \001(\rB?\n\031emu.grasscutter.net.proto" +
+      "B\"GetCityReputationInfoRspOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

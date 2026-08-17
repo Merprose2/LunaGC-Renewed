@@ -596,8 +596,9 @@ public final class NAPJAGAPMFAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NAPJAGAPMFA.proto\"+\n\013NAPJAGAPMFA\022\014\n\004gu" +
-      "id\030\002 \001(\004\022\016\n\006reason\030\n \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "id\030\002 \001(\004\022\016\n\006reason\030\n \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025NAPJAGAPMFAOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

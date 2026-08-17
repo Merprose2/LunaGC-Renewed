@@ -2448,8 +2448,9 @@ public final class BeginCameraSceneLookNotifyOuterClass {
       "BECLNCGMBB\030\332\003 \001(\r\022\024\n\013IFDOOECCCPJ\030\366\004 \001(\002\022" +
       "\024\n\013GIPCKEOPPCD\030\341\005 \001(\r\022\022\n\tentity_id\030\244\006 \001(" +
       "\r\"F\n\013KeepRotType\022\032\n\026KeepRotType_KEEP_ROT" +
-      "_X\020\000\022\033\n\027KeepRotType_KEEP_ROT_XY\020\001B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "_X\020\000\022\033\n\027KeepRotType_KEEP_ROT_XY\020\001BA\n\031emu" +
+      ".grasscutter.net.protoB$BeginCameraScene" +
+      "LookNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

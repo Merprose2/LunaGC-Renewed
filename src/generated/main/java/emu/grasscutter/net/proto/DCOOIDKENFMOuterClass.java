@@ -927,8 +927,8 @@ public final class DCOOIDKENFMOuterClass {
       "\n\021DCOOIDKENFM.proto\"v\n\013DCOOIDKENFM\022\023\n\013EL" +
       "CPLHGNCPO\030\001 \001(\010\022\023\n\013OFBMFEKMLLM\030\002 \003(\r\022\023\n\013" +
       "ECBLAPFKDIK\030\003 \001(\r\022\023\n\013OEPPBICPIJK\030\004 \001(\r\022\023" +
-      "\n\013AGPDFLPBJMB\030\005 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013AGPDFLPBJMB\030\005 \001(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025DCOOIDKENFMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

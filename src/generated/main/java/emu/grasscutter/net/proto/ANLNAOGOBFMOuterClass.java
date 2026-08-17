@@ -728,8 +728,9 @@ public final class ANLNAOGOBFMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ANLNAOGOBFM.proto\"a\n\013ANLNAOGOBFM\022\023\n\013DM" +
       "HDBJICJIO\030\002 \001(\r\022\023\n\013MMAHICOGIKB\030\005 \001(\r\022\023\n\013" +
-      "MPKGOMIOBOL\030\t \001(\r\022\023\n\013BMNOGGNIIFO\030\r \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "MPKGOMIOBOL\030\t \001(\r\022\023\n\013BMNOGGNIIFO\030\r \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025ANLNAOGOBFM" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

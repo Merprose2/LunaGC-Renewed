@@ -843,8 +843,8 @@ public final class EFNFLIFFBHIOuterClass {
       "\001\n\013EFNFLIFFBHI\022\023\n\013DADEGPGLOEN\030\001 \001(\002\022\023\n\013N" +
       "ECPDGHHJEE\030\002 \001(\010\022\023\n\013MHMLDDODDGJ\030\003 \001(\002\022!\n" +
       "\013KNIFJOJFFDP\030\004 \001(\0162\014.BAEDEBIHNLD\022\023\n\013IPPD" +
-      "NHNNIPF\030\005 \001(\010B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "NHNNIPF\030\005 \001(\010B2\n\031emu.grasscutter.net.pro" +
+      "toB\025EFNFLIFFBHIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -667,8 +667,9 @@ public final class ProudSkillUpgradeRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032ProudSkillUpgradeRsp.proto\"T\n\024ProudSki" +
       "llUpgradeRsp\022\023\n\013avatar_guid\030\003 \001(\004\022\017\n\007ret" +
-      "code\030\n \001(\005\022\026\n\016proud_skill_id\030\r \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "code\030\n \001(\005\022\026\n\016proud_skill_id\030\r \001(\rB;\n\031em" +
+      "u.grasscutter.net.protoB\036ProudSkillUpgra" +
+      "deRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

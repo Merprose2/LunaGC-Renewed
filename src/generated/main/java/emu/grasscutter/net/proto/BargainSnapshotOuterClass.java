@@ -729,7 +729,8 @@ public final class BargainSnapshotOuterClass {
       "\n\025BargainSnapshot.proto\"a\n\017BargainSnapsh" +
       "ot\022\023\n\013FLCAIJFGLNP\030\001 \001(\r\022\023\n\013PGNJBNJCBLP\030\002" +
       " \001(\r\022\022\n\nbargain_id\030\n \001(\r\022\020\n\010cur_mood\030\016 \001" +
-      "(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\005B6\n\031emu.grasscutter.net.protoB\031Bargain" +
+      "SnapshotOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

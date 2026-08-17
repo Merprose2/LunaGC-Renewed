@@ -723,8 +723,9 @@ public final class BrickBreakerPlayerSetSkillNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n&BrickBreakerPlayerSetSkillNotify.proto" +
       "\"F\n BrickBreakerPlayerSetSkillNotify\022\025\n\r" +
-      "skill_id_list\030\010 \003(\r\022\013\n\003uid\030\016 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "skill_id_list\030\010 \003(\r\022\013\n\003uid\030\016 \001(\rBG\n\031emu." +
+      "grasscutter.net.protoB*BrickBreakerPlaye" +
+      "rSetSkillNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

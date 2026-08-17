@@ -1142,8 +1142,9 @@ public final class FHDMDKCMLJJOuterClass {
       "\n\021FHDMDKCMLJJ.proto\032\025GCGDiceSideType.pro" +
       "to\"a\n\013FHDMDKCMLJJ\022\023\n\013NMIMOLEFMDI\030\001 \003(\r\022(" +
       "\n\016dice_side_list\030\002 \003(\0162\020.GCGDiceSideType" +
-      "\022\023\n\013MNIFNKNPGNH\030\003 \003(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\022\023\n\013MNIFNKNPGNH\030\003 \003(\rB2\n\031emu.grasscutter" +
+      ".net.protoB\025FHDMDKCMLJJOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

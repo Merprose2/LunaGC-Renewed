@@ -846,8 +846,9 @@ public final class BrickBreakerSelectAvatarReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n!BrickBreakerSelectAvatarReq.proto\"E\n\033B" +
       "rickBreakerSelectAvatarReq\022\023\n\013CFMEKCCEEP" +
-      "D\030\006 \003(\r\022\021\n\tavatar_id\030\t \003(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "D\030\006 \003(\r\022\021\n\tavatar_id\030\t \003(\rBB\n\031emu.grassc" +
+      "utter.net.protoB%BrickBreakerSelectAvata" +
+      "rReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

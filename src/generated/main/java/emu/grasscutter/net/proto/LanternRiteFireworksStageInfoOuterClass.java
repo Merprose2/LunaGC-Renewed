@@ -967,8 +967,9 @@ public final class LanternRiteFireworksStageInfoOuterClass {
       "\001\n\035LanternRiteFireworksStageInfo\022\020\n\010stag" +
       "e_id\030\001 \001(\r\022?\n\023challenge_info_list\030\007 \003(\0132" +
       "\".LanternRiteFireworksChallengeInfo\022\017\n\007i" +
-      "s_open\030\014 \001(\010B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "s_open\030\014 \001(\010BD\n\031emu.grasscutter.net.prot" +
+      "oB\'LanternRiteFireworksStageInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

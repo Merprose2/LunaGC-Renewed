@@ -811,8 +811,9 @@ public final class IPODMBPKOJBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IPODMBPKOJB.proto\"Z\n\013IPODMBPKOJB\022\013\n\003ke" +
       "y\030\001 \001(\t\022\023\n\013GKALHBDKLNJ\030\002 \001(\002\022\023\n\013NKDMPKJG" +
-      "MFF\030\003 \001(\010\022\024\n\013CAIDCLCADMN\030\365\003 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "MFF\030\003 \001(\010\022\024\n\013CAIDCLCADMN\030\365\003 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025IPODMBPKOJBOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

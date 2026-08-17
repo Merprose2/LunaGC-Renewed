@@ -666,8 +666,8 @@ public final class INBEILGNPALOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021INBEILGNPAL.proto\"F\n\013INBEILGNPAL\022\021\n\ten" +
       "tity_id\030\013 \001(\r\022\023\n\013KALMBCCJIAP\030\016 \001(\r\022\017\n\007re" +
-      "tcode\030\017 \001(\005B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "tcode\030\017 \001(\005B2\n\031emu.grasscutter.net.proto" +
+      "B\025INBEILGNPALOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

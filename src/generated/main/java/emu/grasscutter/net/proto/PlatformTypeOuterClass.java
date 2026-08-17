@@ -338,7 +338,8 @@ public final class PlatformTypeOuterClass {
       "e_CLOUD_WEB_TOUCH\020\023\022#\n\037PlatformType_CLOU" +
       "D_WEB_KEYBOARD\020\024\022\036\n\032PlatformType_XBOX_SC" +
       "ARLETT\020\025\022\035\n\031PlatformType_OPEN_HARMONY\020\026B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "3\n\031emu.grasscutter.net.protoB\026PlatformTy" +
+      "peOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

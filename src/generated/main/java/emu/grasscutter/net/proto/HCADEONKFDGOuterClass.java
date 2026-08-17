@@ -1010,7 +1010,8 @@ public final class HCADEONKFDGOuterClass {
       "to\032\020VisionType.proto\"e\n\013HCADEONKFDG\022\r\n\005p" +
       "aram\030\010 \001(\r\022 \n\013appear_type\030\t \001(\0162\013.Vision" +
       "Type\022%\n\013entity_list\030\n \003(\0132\020.SceneEntityI" +
-      "nfoB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "nfoB2\n\031emu.grasscutter.net.protoB\025HCADEO" +
+      "NKFDGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

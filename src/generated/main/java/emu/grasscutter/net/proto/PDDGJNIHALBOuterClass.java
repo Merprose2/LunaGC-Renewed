@@ -802,8 +802,9 @@ public final class PDDGJNIHALBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PDDGJNIHALB.proto\"6\n\013PDDGJNIHALB\022\022\n\npa" +
-      "ram_list\030\005 \003(\005\022\023\n\013source_name\030\n \001(\tB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "ram_list\030\005 \003(\005\022\023\n\013source_name\030\n \001(\tB2\n\031e" +
+      "mu.grasscutter.net.protoB\025PDDGJNIHALBOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

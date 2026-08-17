@@ -454,8 +454,9 @@ public final class EGDOBOLDPPPOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021EGDOBOLDPPP.proto\"\r\n\013EGDOBOLDPPPB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021EGDOBOLDPPP.proto\"\r\n\013EGDOBOLDPPPB2\n\031em" +
+      "u.grasscutter.net.protoB\025EGDOBOLDPPPOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

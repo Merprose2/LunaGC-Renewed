@@ -588,7 +588,8 @@ public final class CookRecipeDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024CookRecipeData.proto\"8\n\016CookRecipeData" +
       "\022\021\n\trecipe_id\030\001 \001(\r\022\023\n\013proficiency\030\017 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B5\n\031emu.grasscutter.net.protoB\030CookRecip" +
+      "eDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

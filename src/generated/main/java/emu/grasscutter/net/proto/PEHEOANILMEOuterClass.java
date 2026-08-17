@@ -1027,8 +1027,9 @@ public final class PEHEOANILMEOuterClass {
       "\n\021PEHEOANILME.proto\032\021JJOJINAGBKF.proto\032\021" +
       "OGKFKHMPIII.proto\"S\n\013PEHEOANILME\022!\n\013KLME" +
       "NEMHIDN\030\010 \003(\0132\014.OGKFKHMPIII\022!\n\013GPOEHLGJA" +
-      "PN\030\t \001(\0132\014.JJOJINAGBKFB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "PN\030\t \001(\0132\014.JJOJINAGBKFB2\n\031emu.grasscutte" +
+      "r.net.protoB\025PEHEOANILMEOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

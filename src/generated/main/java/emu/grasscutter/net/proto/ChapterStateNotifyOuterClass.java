@@ -2173,8 +2173,9 @@ public final class ChapterStateNotifyOuterClass {
       "(\0132\037.ChapterStateNotify.MDKJMILIFBA\0327\n\013M" +
       "DKJMILIFBA\022\023\n\013ACHHOKJICHO\030\t \001(\r\022\023\n\013LAJGH" +
       "CIGKIN\030\n \001(\010\0327\n\013EFFIIMIDMPP\022\023\n\013LAJGHCIGK" +
-      "IN\030\003 \001(\010\022\023\n\013AGMLNDOMFNC\030\016 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "IN\030\003 \001(\010\022\023\n\013AGMLNDOMFNC\030\016 \001(\rB9\n\031emu.gra" +
+      "sscutter.net.protoB\034ChapterStateNotifyOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

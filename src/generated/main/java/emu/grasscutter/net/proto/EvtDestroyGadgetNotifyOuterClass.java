@@ -634,8 +634,9 @@ public final class EvtDestroyGadgetNotifyOuterClass {
       "\n\034EvtDestroyGadgetNotify.proto\032\021ForwardT" +
       "ype.proto\"O\n\026EvtDestroyGadgetNotify\022\"\n\014f" +
       "orward_type\030\007 \001(\0162\014.ForwardType\022\021\n\tentit" +
-      "y_id\030\010 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "y_id\030\010 \001(\rB=\n\031emu.grasscutter.net.protoB" +
+      " EvtDestroyGadgetNotifyOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

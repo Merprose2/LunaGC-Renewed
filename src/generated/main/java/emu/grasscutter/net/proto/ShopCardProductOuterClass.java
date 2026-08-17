@@ -2276,8 +2276,9 @@ public final class ShopCardProductOuterClass {
       "t_type\030\007 \001(\r\0220\n\nresin_card\030e \001(\0132\032.ShopC" +
       "ardProduct.ResinCardH\000\032J\n\tResinCard\022\026\n\016b" +
       "ase_item_list\030\001 \001(\014\022%\n\021per_day_item_list" +
-      "\030\002 \003(\0132\n.ItemParamB\021\n\017extra_card_dataB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\030\002 \003(\0132\n.ItemParamB\021\n\017extra_card_dataB6\n" +
+      "\031emu.grasscutter.net.protoB\031ShopCardProd" +
+      "uctOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

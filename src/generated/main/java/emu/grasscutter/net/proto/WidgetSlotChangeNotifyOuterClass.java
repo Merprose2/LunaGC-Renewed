@@ -767,8 +767,9 @@ public final class WidgetSlotChangeNotifyOuterClass {
       "\n\034WidgetSlotChangeNotify.proto\032\024WidgetSl" +
       "otData.proto\032\022WidgetSlotOp.proto\"R\n\026Widg" +
       "etSlotChangeNotify\022\031\n\002op\030\010 \001(\0162\r.WidgetS" +
-      "lotOp\022\035\n\004slot\030\016 \001(\0132\017.WidgetSlotDataB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "lotOp\022\035\n\004slot\030\016 \001(\0132\017.WidgetSlotDataB=\n\031" +
+      "emu.grasscutter.net.protoB WidgetSlotCha" +
+      "ngeNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

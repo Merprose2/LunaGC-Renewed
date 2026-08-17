@@ -1470,8 +1470,9 @@ public final class HideAndSeekSettleInfoOuterClass {
       "cture\030\001 \001(\0132\017.ProfilePicture\022\022\n\nhead_ima" +
       "ge\030\002 \001(\r\022\013\n\003uid\030\003 \001(\r\022)\n\tcard_list\030\007 \003(\013" +
       "2\026.ExhibitionDisplayInfo\022\021\n\tonline_id\030\r " +
-      "\001(\t\022\020\n\010nickname\030\017 \001(\tB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\001(\t\022\020\n\010nickname\030\017 \001(\tB<\n\031emu.grasscutter" +
+      ".net.protoB\037HideAndSeekSettleInfoOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

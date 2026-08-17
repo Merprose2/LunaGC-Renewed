@@ -730,8 +730,9 @@ public final class GAJPJEMGABNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GAJPJEMGABN.proto\"X\n\013GAJPJEMGABN\022\023\n\013is" +
       "_finished\030\003 \001(\010\022\020\n\010level_id\030\010 \001(\r\022\021\n\tmax" +
-      "_score\030\n \001(\r\022\017\n\007is_open\030\013 \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "_score\030\n \001(\r\022\017\n\007is_open\030\013 \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025GAJPJEMGABNOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

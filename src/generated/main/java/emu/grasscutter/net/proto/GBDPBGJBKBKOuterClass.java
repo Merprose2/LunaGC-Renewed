@@ -1657,8 +1657,8 @@ public final class GBDPBGJBKBKOuterClass {
       "PACPHBKF\030\001 \001(\002\022\023\n\013BMABMEKDJIL\030\002 \003(\r\022\023\n\013E" +
       "BIOLEGHJHE\030\003 \003(\r\022!\n\013LHEHHPKMMOM\030\004 \003(\0132\014." +
       "HCAGNHEBPBK\022!\n\013GACCGIFFHOE\030\005 \003(\0132\014.DIJHO" +
-      "FDOJEKB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "FDOJEKB2\n\031emu.grasscutter.net.protoB\025GBD" +
+      "PBGJBKBKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -526,8 +526,8 @@ public final class LEMKHJKFNCJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LEMKHJKFNCJ.proto\"!\n\013LEMKHJKFNCJ\022\022\n\nis" +
-      "_success\030\017 \001(\010B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "_success\030\017 \001(\010B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025LEMKHJKFNCJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

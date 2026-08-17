@@ -605,8 +605,8 @@ public final class OMPHLDPDDIFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OMPHLDPDDIF.proto\" \n\013OMPHLDPDDIF\022\021\n\tsi" +
-      "gnature\030\017 \001(\tB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "gnature\030\017 \001(\tB2\n\031emu.grasscutter.net.pro" +
+      "toB\025OMPHLDPDDIFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1172,8 +1172,9 @@ public final class INAHPJANGKJOuterClass {
       "\n\021INAHPJANGKJ.proto\"\202\001\n\013INAHPJANGKJ\022\037\n\027_" +
       "monster_chess_team_num\030\001 \001(\r\022\023\n\013BIKNCOAA" +
       "FCC\030\002 \003(\r\022\023\n\013MBKEIAFCGON\030\005 \001(\r\022\023\n\013FKOCAD" +
-      "OJFHN\030\006 \003(\r\022\023\n\013BLMPDENIJAO\030\n \003(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "OJFHN\030\006 \003(\r\022\023\n\013BLMPDENIJAO\030\n \003(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025INAHPJANGKJOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

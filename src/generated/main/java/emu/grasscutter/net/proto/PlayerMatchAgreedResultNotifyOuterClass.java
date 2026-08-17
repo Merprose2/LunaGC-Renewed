@@ -882,8 +882,9 @@ public final class PlayerMatchAgreedResultNotifyOuterClass {
       "_SCENE_CANNOT_ENTER\020\001\022\036\n\032Reason_SELF_MP_" +
       "UNAVAILABLE\020\002\022(\n$Reason_OTHER_DATA_VERSI" +
       "ON_NOT_LATEST\020\003\022\"\n\036Reason_DATA_VERSION_N" +
-      "OT_LATEST\020\004B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "OT_LATEST\020\004BD\n\031emu.grasscutter.net.proto" +
+      "B\'PlayerMatchAgreedResultNotifyOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

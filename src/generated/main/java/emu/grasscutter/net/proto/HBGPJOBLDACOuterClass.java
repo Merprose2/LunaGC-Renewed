@@ -1628,8 +1628,9 @@ public final class HBGPJOBLDACOuterClass {
       "AAFCJJ\022!\n\013KANFEIBCOEO\030\004 \001(\0132\014.DOFKAAAFCJ" +
       "J\022\023\n\013KMOCMKHCOPI\030\005 \001(\010\022!\n\013GJFMGMAPOFK\030\006 " +
       "\001(\0132\014.CFNMBAMJLDD\022!\n\013OEPEDEPBNNH\030\007 \001(\0132\014" +
-      ".BKOGKCKNPGM\022\023\n\013BFIFPLMKLNA\030\t \001(\003B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      ".BKOGKCKNPGM\022\023\n\013BFIFPLMKLNA\030\t \001(\003B2\n\031emu" +
+      ".grasscutter.net.protoB\025HBGPJOBLDACOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

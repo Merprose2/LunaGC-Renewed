@@ -696,8 +696,8 @@ public final class MGABLMGOLHLOuterClass {
       "\n\021MGABLMGOLHL.proto\032\021BKIFDNJDJFE.proto\"Z" +
       "\n\013MGABLMGOLHL\022\023\n\013KGDHIIGEFEJ\030\001 \001(\r\022\023\n\013PA" +
       "BNKPPIIOF\030\002 \001(\r\022!\n\013ADPFGABGPBK\030\003 \001(\0162\014.B" +
-      "KIFDNJDJFEB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "KIFDNJDJFEB2\n\031emu.grasscutter.net.protoB" +
+      "\025MGABLMGOLHLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

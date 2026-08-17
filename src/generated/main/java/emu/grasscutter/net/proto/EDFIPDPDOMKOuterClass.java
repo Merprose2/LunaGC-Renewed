@@ -658,8 +658,8 @@ public final class EDFIPDPDOMKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EDFIPDPDOMK.proto\"O\n\013EDFIPDPDOMK\022\024\n\013JB" +
       "GDMDLEDGE\030\365\003 \001(\005\022\024\n\013FJLIPAMMJPA\030\366\003 \001(\005\022\024" +
-      "\n\013NAJLJNNMNGL\030\367\003 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\n\013NAJLJNNMNGL\030\367\003 \001(\rB2\n\031emu.grasscutter." +
+      "net.protoB\025EDFIPDPDOMKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

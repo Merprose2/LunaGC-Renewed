@@ -144,8 +144,8 @@ public final class JKNEOKKEAGEOuterClass {
       "KNEOKKEAGE_GADGET_MARK_UPDATE_OP_NONE\020\000\022" +
       ")\n%JKNEOKKEAGE_GADGET_MARK_UPDATE_OP_ADD" +
       "\020\001\022,\n(JKNEOKKEAGE_GADGET_MARK_UPDATE_OP_" +
-      "REMOVE\020\002B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "REMOVE\020\002B2\n\031emu.grasscutter.net.protoB\025J" +
+      "KNEOKKEAGEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

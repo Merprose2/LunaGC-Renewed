@@ -800,8 +800,8 @@ public final class LOCAOJENNKJOuterClass {
       "\n\021LOCAOJENNKJ.proto\032\021ABFMGNFBCOK.proto\"Z" +
       "\n\013LOCAOJENNKJ\022\023\n\013template_id\030\002 \001(\005\022\023\n\013OJ" +
       "EFDENPFEN\030\013 \001(\005\022!\n\013BHLIKENAPMO\030\016 \001(\0132\014.A" +
-      "BFMGNFBCOKB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "BFMGNFBCOKB2\n\031emu.grasscutter.net.protoB" +
+      "\025LOCAOJENNKJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

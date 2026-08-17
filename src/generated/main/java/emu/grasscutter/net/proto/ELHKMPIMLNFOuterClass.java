@@ -454,8 +454,9 @@ public final class ELHKMPIMLNFOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021ELHKMPIMLNF.proto\"\r\n\013ELHKMPIMLNFB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021ELHKMPIMLNF.proto\"\r\n\013ELHKMPIMLNFB2\n\031em" +
+      "u.grasscutter.net.protoB\025ELHKMPIMLNFOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

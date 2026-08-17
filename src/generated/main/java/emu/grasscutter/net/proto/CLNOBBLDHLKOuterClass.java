@@ -1295,8 +1295,9 @@ public final class CLNOBBLDHLKOuterClass {
       "OCHOLPEDGA\030\006 \001(\r\022\023\n\013KIFMEMCMEPA\030\007 \001(\r\022\013\n" +
       "\003uid\030\010 \001(\r\022\023\n\013CJBBNOLFEHM\030\n \001(\r\022\023\n\013AEFPB" +
       "FHNDCP\030\014 \001(\r\022\023\n\013FNFDADHOPJA\030\r \001(\010\022\023\n\013KEB" +
-      "OLDBLODN\030\016 \001(\r\022\r\n\005combo\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "OLDBLODN\030\016 \001(\r\022\r\n\005combo\030\017 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025CLNOBBLDHLKOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

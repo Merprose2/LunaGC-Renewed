@@ -446,8 +446,9 @@ public final class BNFJMCADGIFOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021BNFJMCADGIF.proto\"\r\n\013BNFJMCADGIFB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021BNFJMCADGIF.proto\"\r\n\013BNFJMCADGIFB2\n\031em" +
+      "u.grasscutter.net.protoB\025BNFJMCADGIFOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

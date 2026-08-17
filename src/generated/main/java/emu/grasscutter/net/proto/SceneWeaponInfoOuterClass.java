@@ -2123,8 +2123,9 @@ public final class SceneWeaponInfoOuterClass {
       "EntityRendererChangedInfo\022\023\n\013OGKCBEGGBHF" +
       "\030\n \001(\010\022\027\n\017_weapon_skin_id\030\013 \001(\r\022!\n\013KCLFB" +
       "BACHLP\030\014 \003(\0132\014.IMPFHAGJHCE\032/\n\rAffixMapEn" +
-      "try\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "try\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B6\n\031e" +
+      "mu.grasscutter.net.protoB\031SceneWeaponInf" +
+      "oOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

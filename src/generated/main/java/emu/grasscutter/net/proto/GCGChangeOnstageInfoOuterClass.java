@@ -794,8 +794,9 @@ public final class GCGChangeOnstageInfoOuterClass {
       "eviewInfo.proto\"v\n\024GCGChangeOnstageInfo\022" +
       "\020\n\010is_quick\030\003 \001(\010\0229\n\033change_onstage_prev" +
       "iew_info\030\005 \001(\0132\024.GCGSkillPreviewInfo\022\021\n\t" +
-      "card_guid\030\013 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "card_guid\030\013 \001(\rB;\n\031emu.grasscutter.net.p" +
+      "rotoB\036GCGChangeOnstageInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

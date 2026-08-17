@@ -27,12 +27,12 @@ public final class JHBAOEGDMCLOuterClass {
     /**
      * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> 
+    java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> 
         getBDBBHAJHNJGList();
     /**
      * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
      */
-    emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getBDBBHAJHNJG(int index);
+    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getBDBBHAJHNJG(int index);
     /**
      * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
      */
@@ -40,12 +40,12 @@ public final class JHBAOEGDMCLOuterClass {
     /**
      * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> 
         getBDBBHAJHNJGOrBuilderList();
     /**
      * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
      */
-    emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getBDBBHAJHNJGOrBuilder(
+    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getBDBBHAJHNJGOrBuilder(
         int index);
   }
   /**
@@ -102,11 +102,11 @@ public final class JHBAOEGDMCLOuterClass {
             }
             case 18: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                bDBBHAJHNJG_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo>();
+                bDBBHAJHNJG_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               bDBBHAJHNJG_.add(
-                  input.readMessage(emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -156,19 +156,19 @@ public final class JHBAOEGDMCLOuterClass {
     }
 
     public static final int BDBBHAJHNJG_FIELD_NUMBER = 2;
-    private java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> bDBBHAJHNJG_;
+    private java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> bDBBHAJHNJG_;
     /**
      * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> getBDBBHAJHNJGList() {
+    public java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> getBDBBHAJHNJGList() {
       return bDBBHAJHNJG_;
     }
     /**
      * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> 
         getBDBBHAJHNJGOrBuilderList() {
       return bDBBHAJHNJG_;
     }
@@ -183,14 +183,14 @@ public final class JHBAOEGDMCLOuterClass {
      * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getBDBBHAJHNJG(int index) {
+    public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getBDBBHAJHNJG(int index) {
       return bDBBHAJHNJG_.get(index);
     }
     /**
      * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getBDBBHAJHNJGOrBuilder(
+    public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getBDBBHAJHNJGOrBuilder(
         int index) {
       return bDBBHAJHNJG_.get(index);
     }
@@ -585,22 +585,22 @@ public final class JHBAOEGDMCLOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> bDBBHAJHNJG_ =
+      private java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> bDBBHAJHNJG_ =
         java.util.Collections.emptyList();
       private void ensureBDBBHAJHNJGIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          bDBBHAJHNJG_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo>(bDBBHAJHNJG_);
+          bDBBHAJHNJG_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo>(bDBBHAJHNJG_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> bDBBHAJHNJGBuilder_;
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> bDBBHAJHNJGBuilder_;
 
       /**
        * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> getBDBBHAJHNJGList() {
+      public java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> getBDBBHAJHNJGList() {
         if (bDBBHAJHNJGBuilder_ == null) {
           return java.util.Collections.unmodifiableList(bDBBHAJHNJG_);
         } else {
@@ -620,7 +620,7 @@ public final class JHBAOEGDMCLOuterClass {
       /**
        * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getBDBBHAJHNJG(int index) {
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getBDBBHAJHNJG(int index) {
         if (bDBBHAJHNJGBuilder_ == null) {
           return bDBBHAJHNJG_.get(index);
         } else {
@@ -631,7 +631,7 @@ public final class JHBAOEGDMCLOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
        */
       public Builder setBDBBHAJHNJG(
-          int index, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo value) {
+          int index, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo value) {
         if (bDBBHAJHNJGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,7 +648,7 @@ public final class JHBAOEGDMCLOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
        */
       public Builder setBDBBHAJHNJG(
-          int index, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder builderForValue) {
         if (bDBBHAJHNJGBuilder_ == null) {
           ensureBDBBHAJHNJGIsMutable();
           bDBBHAJHNJG_.set(index, builderForValue.build());
@@ -661,7 +661,7 @@ public final class JHBAOEGDMCLOuterClass {
       /**
        * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
        */
-      public Builder addBDBBHAJHNJG(emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo value) {
+      public Builder addBDBBHAJHNJG(emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo value) {
         if (bDBBHAJHNJGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -678,7 +678,7 @@ public final class JHBAOEGDMCLOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
        */
       public Builder addBDBBHAJHNJG(
-          int index, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo value) {
+          int index, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo value) {
         if (bDBBHAJHNJGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -695,7 +695,7 @@ public final class JHBAOEGDMCLOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
        */
       public Builder addBDBBHAJHNJG(
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder builderForValue) {
         if (bDBBHAJHNJGBuilder_ == null) {
           ensureBDBBHAJHNJGIsMutable();
           bDBBHAJHNJG_.add(builderForValue.build());
@@ -709,7 +709,7 @@ public final class JHBAOEGDMCLOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
        */
       public Builder addBDBBHAJHNJG(
-          int index, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder builderForValue) {
         if (bDBBHAJHNJGBuilder_ == null) {
           ensureBDBBHAJHNJGIsMutable();
           bDBBHAJHNJG_.add(index, builderForValue.build());
@@ -723,7 +723,7 @@ public final class JHBAOEGDMCLOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
        */
       public Builder addAllBDBBHAJHNJG(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> values) {
         if (bDBBHAJHNJGBuilder_ == null) {
           ensureBDBBHAJHNJGIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -763,14 +763,14 @@ public final class JHBAOEGDMCLOuterClass {
       /**
        * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder getBDBBHAJHNJGBuilder(
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder getBDBBHAJHNJGBuilder(
           int index) {
         return getBDBBHAJHNJGFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getBDBBHAJHNJGOrBuilder(
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getBDBBHAJHNJGOrBuilder(
           int index) {
         if (bDBBHAJHNJGBuilder_ == null) {
           return bDBBHAJHNJG_.get(index);  } else {
@@ -780,7 +780,7 @@ public final class JHBAOEGDMCLOuterClass {
       /**
        * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> 
            getBDBBHAJHNJGOrBuilderList() {
         if (bDBBHAJHNJGBuilder_ != null) {
           return bDBBHAJHNJGBuilder_.getMessageOrBuilderList();
@@ -791,31 +791,31 @@ public final class JHBAOEGDMCLOuterClass {
       /**
        * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder addBDBBHAJHNJGBuilder() {
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder addBDBBHAJHNJGBuilder() {
         return getBDBBHAJHNJGFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder addBDBBHAJHNJGBuilder(
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder addBDBBHAJHNJGBuilder(
           int index) {
         return getBDBBHAJHNJGFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondCostumeSetInfo BDBBHAJHNJG = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder> 
            getBDBBHAJHNJGBuilderList() {
         return getBDBBHAJHNJGFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> 
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> 
           getBDBBHAJHNJGFieldBuilder() {
         if (bDBBHAJHNJGBuilder_ == null) {
           bDBBHAJHNJGBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder>(
+              emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder>(
                   bDBBHAJHNJG_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -894,13 +894,13 @@ public final class JHBAOEGDMCLOuterClass {
       "\n\021JHBAOEGDMCL.proto\032\033_BeyondCostumeSetIn" +
       "fo.proto\"M\n\013JHBAOEGDMCL\022\021\n\tavatar_id\030\001 \001" +
       "(\r\022+\n\013BDBBHAJHNJG\030\002 \003(\0132\026._BeyondCostume" +
-      "SetInfoB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "SetInfoB2\n\031emu.grasscutter.net.protoB\025JH" +
+      "BAOEGDMCLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass.getDescriptor(),
         });
     internal_static_JHBAOEGDMCL_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -908,7 +908,7 @@ public final class JHBAOEGDMCLOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_JHBAOEGDMCL_descriptor,
         new java.lang.String[] { "AvatarId", "BDBBHAJHNJG", });
-    emu.grasscutter.net.proto.BeyondCostumeSetInfo.getDescriptor();
+    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

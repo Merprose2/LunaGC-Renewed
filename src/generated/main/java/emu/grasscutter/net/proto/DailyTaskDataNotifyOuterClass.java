@@ -1045,7 +1045,8 @@ public final class DailyTaskDataNotifyOuterClass {
       "n_score_reward\030\002 \001(\010\0222\n\035_finished_uid_da" +
       "ily_task_list\030\006 \003(\0132\013.Uint32Pair\022\027\n\017scor" +
       "e_reward_id\030\007 \001(\r\022\024\n\014finished_num\030\n \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      ":\n\031emu.grasscutter.net.protoB\035DailyTaskD" +
+      "ataNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -746,8 +746,8 @@ public final class LCNLHAOBBFEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LCNLHAOBBFE.proto\"L\n\013LCNLHAOBBFE\022\023\n\013PE" +
       "PBLJMKPAE\030\004 \001(\r\022\023\n\013FNLPCBKBIDO\030\006 \001(\r\022\023\n\013" +
-      "DKJPGNMLLDP\030\013 \001(\tB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "DKJPGNMLLDP\030\013 \001(\tB2\n\031emu.grasscutter.net" +
+      ".protoB\025LCNLHAOBBFEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

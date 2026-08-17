@@ -794,8 +794,9 @@ public final class VintageMarketStoreChooseStrategyRspOuterClass {
       "\n)VintageMarketStoreChooseStrategyRsp.pr" +
       "oto\"_\n#VintageMarketStoreChooseStrategyR" +
       "sp\022\025\n\rstrategy_list\030\004 \003(\r\022\017\n\007retcode\030\010 \001" +
-      "(\005\022\020\n\010store_id\030\016 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "(\005\022\020\n\010store_id\030\016 \001(\rBJ\n\031emu.grasscutter." +
+      "net.protoB-VintageMarketStoreChooseStrat" +
+      "egyRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

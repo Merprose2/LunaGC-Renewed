@@ -795,8 +795,9 @@ public final class ToTheMoonObstaclesModifyNotifyOuterClass {
       "\n$ToTheMoonObstaclesModifyNotify.proto\"a" +
       "\n\036ToTheMoonObstaclesModifyNotify\022\020\n\010scen" +
       "e_id\030\004 \001(\r\022\020\n\010use_edge\030\007 \001(\010\022\033\n\023remove_o" +
-      "bstacle_ids\030\017 \003(\005B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "bstacle_ids\030\017 \003(\005BE\n\031emu.grasscutter.net" +
+      ".protoB(ToTheMoonObstaclesModifyNotifyOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

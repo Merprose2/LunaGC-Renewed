@@ -1090,8 +1090,8 @@ public final class IFIMCGFEDCIOuterClass {
       "MIEDOH\030\006 \001(\r\022\017\n\007card_id\030\007 \001(\r\022\023\n\013HGHDNEP" +
       "LOKG\030\010 \001(\r\022\023\n\013GODPGKBMMOK\030\014 \001(\r\022\023\n\013OFIJA" +
       "OBAHCC\030\r \001(\r\022\023\n\013CEMHFPJODLC\030\016 \001(\r\022\023\n\013sco" +
-      "re_limit\030\017 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "re_limit\030\017 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025IFIMCGFEDCIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -823,8 +823,8 @@ public final class MOHEPKPPGPCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MOHEPKPPGPC.proto\032\021OKJCPMHJOIG.proto\"0" +
       "\n\013MOHEPKPPGPC\022!\n\013PMCBIHAIOPA\030\013 \003(\0132\014.OKJ" +
-      "CPMHJOIGB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "CPMHJOIGB2\n\031emu.grasscutter.net.protoB\025M" +
+      "OHEPKPPGPCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1816,8 +1816,8 @@ public final class HNEIKIHODGKOuterClass {
       "\001(\0132\014.HHEDHCFPEKM\022\023\n\013FEDNJPLCGMO\030\004 \001(\r\022\023" +
       "\n\013LDDCKDEFEFA\030\005 \001(\r\022!\n\013HIMBMHHOBHO\030\006 \003(\013" +
       "2\014.KGANPDMDBBC\022!\n\013OLPCOMCJMBG\030\007 \003(\0132\014.MO" +
-      "HIBBFLCIEB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "HIBBFLCIEB2\n\031emu.grasscutter.net.protoB\025" +
+      "HNEIKIHODGKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

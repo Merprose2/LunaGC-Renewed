@@ -973,8 +973,8 @@ public final class DFPGJJBAMGBOuterClass {
       "\n\021DFPGJJBAMGB.proto\032\021GOIIIDJGDCE.proto\"_" +
       "\n\013DFPGJJBAMGB\022\023\n\013AAKAOLKKNGC\030\001 \001(\r\022\023\n\013NK" +
       "AFOHILJCH\030\004 \001(\006\022&\n\020player_info_list\030\t \003(" +
-      "\0132\014.GOIIIDJGDCEB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\0132\014.GOIIIDJGDCEB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025DFPGJJBAMGBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

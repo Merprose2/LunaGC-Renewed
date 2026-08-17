@@ -768,8 +768,8 @@ public final class EvtRushMoveNotifyOuterClass {
       "fo.proto\032\021ForwardType.proto\"e\n\021EvtRushMo" +
       "veNotify\022\"\n\014forward_type\030\002 \001(\0162\014.Forward" +
       "Type\022,\n\022evt_rush_move_info\030\006 \001(\0132\020.EvtRu" +
-      "shMoveInfoB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "shMoveInfoB8\n\031emu.grasscutter.net.protoB" +
+      "\033EvtRushMoveNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

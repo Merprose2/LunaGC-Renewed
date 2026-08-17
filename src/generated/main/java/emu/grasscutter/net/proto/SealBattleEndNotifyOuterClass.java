@@ -597,8 +597,8 @@ public final class SealBattleEndNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031SealBattleEndNotify.proto\"=\n\023SealBattl" +
       "eEndNotify\022\026\n\016seal_entity_id\030\004 \001(\r\022\016\n\006is" +
-      "_win\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "_win\030\017 \001(\010B:\n\031emu.grasscutter.net.protoB" +
+      "\035SealBattleEndNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

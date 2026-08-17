@@ -723,8 +723,9 @@ public final class KFBKOEGLALAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KFBKOEGLALA.proto\032\021HHEDHCFPEKM.proto\">" +
       "\n\013KFBKOEGLALA\022\014\n\004time\030\001 \001(\002\022!\n\013CBOFPGNBC" +
-      "DK\030\002 \001(\0132\014.HHEDHCFPEKMB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "DK\030\002 \001(\0132\014.HHEDHCFPEKMB2\n\031emu.grasscutte" +
+      "r.net.protoB\025KFBKOEGLALAOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1044,8 +1044,9 @@ public final class CCNLHAKKGJPOuterClass {
       "\n\021CCNLHAKKGJP.proto\032\021FJFKPAIMBFD.proto\"p" +
       "\n\013CCNLHAKKGJP\022\022\n\nis_success\030\002 \001(\010\022\023\n\013AEB" +
       "EJGDEANG\030\014 \001(\010\022&\n\020settle_info_list\030\r \003(\013" +
-      "2\014.FJFKPAIMBFD\022\020\n\010level_id\030\016 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "2\014.FJFKPAIMBFD\022\020\n\010level_id\030\016 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025CCNLHAKKGJPOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

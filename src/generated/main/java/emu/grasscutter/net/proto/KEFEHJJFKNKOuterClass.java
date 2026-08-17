@@ -595,8 +595,9 @@ public final class KEFEHJJFKNKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KEFEHJJFKNK.proto\"7\n\013KEFEHJJFKNK\022\023\n\013PE" +
-      "OAILOOEKH\030\003 \001(\r\022\023\n\013current_num\030\007 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "OAILOOEKH\030\003 \001(\r\022\023\n\013current_num\030\007 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025KEFEHJJFKNKOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

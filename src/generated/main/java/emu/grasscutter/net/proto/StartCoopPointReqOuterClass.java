@@ -525,8 +525,9 @@ public final class StartCoopPointReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027StartCoopPointReq.proto\"\'\n\021StartCoopPo" +
-      "intReq\022\022\n\ncoop_point\030\016 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "intReq\022\022\n\ncoop_point\030\016 \001(\rB8\n\031emu.grassc" +
+      "utter.net.protoB\033StartCoopPointReqOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

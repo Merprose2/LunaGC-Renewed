@@ -2327,8 +2327,8 @@ public final class MCBCGPMDIFIOuterClass {
       "IKBLLCLNBLH\030\007 \001(\r\022\023\n\013EMPMBEDABCD\030\010 \003(\r\022\023" +
       "\n\013IBNKIJCDIKK\030\n \001(\r\022!\n\013FECECFDPFBP\030\013 \003(\013" +
       "2\014.FNMMKAMBICN\022\023\n\013EFIHHNEAFAK\030\016 \001(\010\022\023\n\013O" +
-      "ODMCABNGPE\030\017 \003(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "ODMCABNGPE\030\017 \003(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025MCBCGPMDIFIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

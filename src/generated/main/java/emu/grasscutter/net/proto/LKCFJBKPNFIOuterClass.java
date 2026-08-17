@@ -659,8 +659,8 @@ public final class LKCFJBKPNFIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LKCFJBKPNFI.proto\"L\n\013LKCFJBKPNFI\022\023\n\013CF" +
       "GGICGANBF\030\001 \001(\005\022\023\n\013KMOGGHOEJFE\030\002 \001(\010\022\023\n\013" +
-      "BHFNKABNKDP\030\003 \001(\005B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "BHFNKABNKDP\030\003 \001(\005B2\n\031emu.grasscutter.net" +
+      ".protoB\025LKCFJBKPNFIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

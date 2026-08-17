@@ -1735,8 +1735,8 @@ public final class DDEHNBPLDIPOuterClass {
       "OBOL\030\n \001(\r\022\035\n\010progress\030\013 \001(\0132\013.Uint32Pai" +
       "r\022\023\n\013GBAIFJIKOON\030\014 \001(\r\022\023\n\013OAMLEPACGHO\030\r " +
       "\001(\r\022\017\n\007is_succ\030\016 \001(\010\022\034\n\006reward\030\017 \001(\0132\014.C" +
-      "LFBILFIFLPB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "LFBILFIFLPB2\n\031emu.grasscutter.net.protoB" +
+      "\025DDEHNBPLDIPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

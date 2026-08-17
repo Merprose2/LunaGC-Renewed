@@ -2391,8 +2391,9 @@ public final class AbilitySyncStateInfoOuterClass {
       " \003(\0132\027.AbilityAppliedModifier\0225\n\023mixin_r" +
       "ecover_infos\030\005 \003(\0132\030.AbilityMixinRecover" +
       "Info\0227\n\025sgv_dynamic_value_map\030\006 \003(\0132\030.Ab" +
-      "ilityScalarValueEntryB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "ilityScalarValueEntryB;\n\031emu.grasscutter" +
+      ".net.protoB\036AbilitySyncStateInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

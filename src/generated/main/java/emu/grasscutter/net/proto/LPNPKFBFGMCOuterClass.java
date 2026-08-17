@@ -525,8 +525,8 @@ public final class LPNPKFBFGMCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LPNPKFBFGMC.proto\"\037\n\013LPNPKFBFGMC\022\020\n\010tr" +
-      "ial_id\030\004 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "ial_id\030\004 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025LPNPKFBFGMCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

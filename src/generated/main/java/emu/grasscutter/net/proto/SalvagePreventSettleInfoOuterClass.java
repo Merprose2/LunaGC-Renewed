@@ -724,8 +724,9 @@ public final class SalvagePreventSettleInfoOuterClass {
       "ePreventGallerySettleInfo.proto\"h\n\030Salva" +
       "gePreventSettleInfo\022\025\n\ris_new_record\030\004 \001" +
       "(\010\0225\n\013settle_info\030\013 \001(\0132 .SalvagePrevent" +
-      "GallerySettleInfoB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "GallerySettleInfoB?\n\031emu.grasscutter.net" +
+      ".protoB\"SalvagePreventSettleInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class PFPEBJFGJMEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PFPEBJFGJME.proto\"1\n\013PFPEBJFGJME\022\017\n\007re" +
-      "tcode\030\003 \001(\005\022\021\n\tentity_id\030\017 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "tcode\030\003 \001(\005\022\021\n\tentity_id\030\017 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025PFPEBJFGJMEOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

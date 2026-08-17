@@ -282,7 +282,8 @@ public final class FMPKCNGOJBEOuterClass {
       "EFAB\020\r\022\'\n#FMPKCNGOJBE_SEARCH_CUSTOM_UI_E" +
       "FFECT\020\016\022\036\n\032FMPKCNGOJBE_GENERAL_SEARCH\020\017\022" +
       "\'\n#FMPKCNGOJBE_CUSTOMIZED_CONTROL_TYPE\020\020" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025FMPKCNGOJ" +
+      "BEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

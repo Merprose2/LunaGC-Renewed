@@ -857,8 +857,8 @@ public final class IDGLIDANFFFOuterClass {
       "\n\021IDGLIDANFFF.proto\"h\n\013IDGLIDANFFF\022\023\n\013DL" +
       "LOBPKBCCA\030\005 \001(\010\022\023\n\013INKFBCOOCIK\030\013 \001(\r\022\023\n\013" +
       "ODFEILIAEHG\030\016 \003(\r\022\032\n\022_beyond_gacha_type\030" +
-      "\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025IDGL" +
+      "IDANFFFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

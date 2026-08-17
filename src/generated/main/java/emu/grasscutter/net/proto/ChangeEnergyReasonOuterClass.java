@@ -195,8 +195,9 @@ public final class ChangeEnergyReasonOuterClass {
       "hangeEnergyReason_CHANGE_ENERGY_DIE\020\005\0220\n" +
       ",ChangeEnergyReason_CHANGE_ENERGY_SKILL_" +
       "DEPOT\020\006\0225\n1ChangeEnergyReason_CHANGE_ENE" +
-      "RGY_BEYOND_BLUEPRINT\020\007B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "RGY_BEYOND_BLUEPRINT\020\007B9\n\031emu.grasscutte" +
+      "r.net.protoB\034ChangeEnergyReasonOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

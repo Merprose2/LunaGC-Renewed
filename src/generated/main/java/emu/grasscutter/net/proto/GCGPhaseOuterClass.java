@@ -1087,8 +1087,8 @@ public final class GCGPhaseOuterClass {
       "ollerMapEntry\022!\n\nphase_type\030\003 \001(\0162\r.GCGP" +
       "haseType\022!\n\013JDJOAIMKJJD\030\t \001(\0132\014.NKFJFOKF" +
       "EIN\0329\n\027AllowControllerMapEntry\022\013\n\003key\030\001 " +
-      "\001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B/\n\031emu.grasscutte" +
+      "r.net.protoB\022GCGPhaseOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

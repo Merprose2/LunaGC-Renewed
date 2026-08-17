@@ -152,8 +152,8 @@ public final class PABFMPCHFHIOuterClass {
       "\n\021PABFMPCHFHI.proto*k\n\013PABFMPCHFHI\022\024\n\020PA" +
       "BFMPCHFHI_NONE\020\000\022\026\n\022PABFMPCHFHI_NORMAL\020\001" +
       "\022\030\n\024PABFMPCHFHI_TEMPLATE\020\002\022\024\n\020PABFMPCHFH" +
-      "I_EXAM\020\003B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "I_EXAM\020\003B2\n\031emu.grasscutter.net.protoB\025P" +
+      "ABFMPCHFHIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

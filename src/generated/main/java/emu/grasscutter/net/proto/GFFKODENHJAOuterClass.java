@@ -791,8 +791,9 @@ public final class GFFKODENHJAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GFFKODENHJA.proto\032\014Vector.proto\"J\n\013GFF" +
       "KODENHJA\022\021\n\tentity_id\030\t \001(\r\022\030\n\007ref_pos\030\013" +
-      " \001(\0132\007.Vector\022\016\n\006ref_id\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      " \001(\0132\007.Vector\022\016\n\006ref_id\030\017 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025GFFKODENHJAOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

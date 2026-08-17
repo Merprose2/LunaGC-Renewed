@@ -736,8 +736,9 @@ public final class OFKONLDJGJEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OFKONLDJGJE.proto\"^\n\013OFKONLDJGJE\022\017\n\007re" +
       "tcode\030\001 \001(\005\022\034\n\024_avatar_element_type\030\n \001(" +
-      "\r\022\r\n\005index\030\016 \001(\r\022\021\n\tavatar_id\030\017 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\r\022\r\n\005index\030\016 \001(\r\022\021\n\tavatar_id\030\017 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025OFKONLDJGJEOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

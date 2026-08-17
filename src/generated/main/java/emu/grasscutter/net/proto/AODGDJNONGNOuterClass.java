@@ -44,11 +44,11 @@ public final class AODGDJNONGNOuterClass {
      * <code>._ConfigTagSearch config_tag_search = 101;</code>
      * @return The configTagSearch.
      */
-    emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch getConfigTagSearch();
+    emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch getConfigTagSearch();
     /**
      * <code>._ConfigTagSearch config_tag_search = 101;</code>
      */
-    emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearchOrBuilder getConfigTagSearchOrBuilder();
+    emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearchOrBuilder getConfigTagSearchOrBuilder();
 
     /**
      * <code>._ConfigRef config_ref = 102;</code>
@@ -59,11 +59,11 @@ public final class AODGDJNONGNOuterClass {
      * <code>._ConfigRef config_ref = 102;</code>
      * @return The configRef.
      */
-    emu.grasscutter.net.proto.ConfigRef._ConfigRef getConfigRef();
+    emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef getConfigRef();
     /**
      * <code>._ConfigRef config_ref = 102;</code>
      */
-    emu.grasscutter.net.proto.ConfigRef._ConfigRefOrBuilder getConfigRefOrBuilder();
+    emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRefOrBuilder getConfigRefOrBuilder();
 
     /**
      * <code>._ConfigRepairOnImport config_repair_on_import = 103;</code>
@@ -74,11 +74,11 @@ public final class AODGDJNONGNOuterClass {
      * <code>._ConfigRepairOnImport config_repair_on_import = 103;</code>
      * @return The configRepairOnImport.
      */
-    emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport getConfigRepairOnImport();
+    emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport getConfigRepairOnImport();
     /**
      * <code>._ConfigRepairOnImport config_repair_on_import = 103;</code>
      */
-    emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImportOrBuilder getConfigRepairOnImportOrBuilder();
+    emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImportOrBuilder getConfigRepairOnImportOrBuilder();
 
     /**
      * <code>.NCAINJBCLFK config_function = 104;</code>
@@ -104,11 +104,11 @@ public final class AODGDJNONGNOuterClass {
      * <code>._ConfigEnableEditList config_enable_edit_list = 105;</code>
      * @return The configEnableEditList.
      */
-    emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList getConfigEnableEditList();
+    emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList getConfigEnableEditList();
     /**
      * <code>._ConfigEnableEditList config_enable_edit_list = 105;</code>
      */
-    emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditListOrBuilder getConfigEnableEditListOrBuilder();
+    emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditListOrBuilder getConfigEnableEditListOrBuilder();
 
     /**
      * <code>._ConfigBeyondGuidReferenceOnExport config_beyond_guid_reference_on_export = 106;</code>
@@ -119,11 +119,11 @@ public final class AODGDJNONGNOuterClass {
      * <code>._ConfigBeyondGuidReferenceOnExport config_beyond_guid_reference_on_export = 106;</code>
      * @return The configBeyondGuidReferenceOnExport.
      */
-    emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport getConfigBeyondGuidReferenceOnExport();
+    emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport getConfigBeyondGuidReferenceOnExport();
     /**
      * <code>._ConfigBeyondGuidReferenceOnExport config_beyond_guid_reference_on_export = 106;</code>
      */
-    emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExportOrBuilder getConfigBeyondGuidReferenceOnExportOrBuilder();
+    emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExportOrBuilder getConfigBeyondGuidReferenceOnExportOrBuilder();
 
     /**
      * <code>._ConfigGeneralSearch config_general_search = 107;</code>
@@ -134,11 +134,11 @@ public final class AODGDJNONGNOuterClass {
      * <code>._ConfigGeneralSearch config_general_search = 107;</code>
      * @return The configGeneralSearch.
      */
-    emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch getConfigGeneralSearch();
+    emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch getConfigGeneralSearch();
     /**
      * <code>._ConfigGeneralSearch config_general_search = 107;</code>
      */
-    emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearchOrBuilder getConfigGeneralSearchOrBuilder();
+    emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearchOrBuilder getConfigGeneralSearchOrBuilder();
 
     /**
      * <code>._ConfigCustomizedControlType config_customized_control_type = 108;</code>
@@ -149,11 +149,11 @@ public final class AODGDJNONGNOuterClass {
      * <code>._ConfigCustomizedControlType config_customized_control_type = 108;</code>
      * @return The configCustomizedControlType.
      */
-    emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType getConfigCustomizedControlType();
+    emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType getConfigCustomizedControlType();
     /**
      * <code>._ConfigCustomizedControlType config_customized_control_type = 108;</code>
      */
-    emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlTypeOrBuilder getConfigCustomizedControlTypeOrBuilder();
+    emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlTypeOrBuilder getConfigCustomizedControlTypeOrBuilder();
 
     public emu.grasscutter.net.proto.AODGDJNONGNOuterClass.AODGDJNONGN.BIINDCAHMFCCase getBIINDCAHMFCCase();
   }
@@ -215,42 +215,42 @@ public final class AODGDJNONGNOuterClass {
               break;
             }
             case 810: {
-              emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 101) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 101;
               break;
             }
             case 818: {
-              emu.grasscutter.net.proto.ConfigRef._ConfigRef.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 102) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigRef._ConfigRef) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigRef._ConfigRef.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigRef._ConfigRef) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 102;
               break;
             }
             case 826: {
-              emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 103) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 103;
@@ -271,56 +271,56 @@ public final class AODGDJNONGNOuterClass {
               break;
             }
             case 842: {
-              emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 105) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 105;
               break;
             }
             case 850: {
-              emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 106) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 106;
               break;
             }
             case 858: {
-              emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 107) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 107;
               break;
             }
             case 866: {
-              emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 108) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 108;
@@ -455,21 +455,21 @@ public final class AODGDJNONGNOuterClass {
      * @return The configTagSearch.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch getConfigTagSearch() {
+    public emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch getConfigTagSearch() {
       if (bIINDCAHMFCCase_ == 101) {
-         return (emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch.getDefaultInstance();
     }
     /**
      * <code>._ConfigTagSearch config_tag_search = 101;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearchOrBuilder getConfigTagSearchOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearchOrBuilder getConfigTagSearchOrBuilder() {
       if (bIINDCAHMFCCase_ == 101) {
-         return (emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch.getDefaultInstance();
     }
 
     public static final int CONFIG_REF_FIELD_NUMBER = 102;
@@ -486,21 +486,21 @@ public final class AODGDJNONGNOuterClass {
      * @return The configRef.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigRef._ConfigRef getConfigRef() {
+    public emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef getConfigRef() {
       if (bIINDCAHMFCCase_ == 102) {
-         return (emu.grasscutter.net.proto.ConfigRef._ConfigRef) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigRef._ConfigRef.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef.getDefaultInstance();
     }
     /**
      * <code>._ConfigRef config_ref = 102;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigRef._ConfigRefOrBuilder getConfigRefOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRefOrBuilder getConfigRefOrBuilder() {
       if (bIINDCAHMFCCase_ == 102) {
-         return (emu.grasscutter.net.proto.ConfigRef._ConfigRef) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigRef._ConfigRef.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef.getDefaultInstance();
     }
 
     public static final int CONFIG_REPAIR_ON_IMPORT_FIELD_NUMBER = 103;
@@ -517,21 +517,21 @@ public final class AODGDJNONGNOuterClass {
      * @return The configRepairOnImport.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport getConfigRepairOnImport() {
+    public emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport getConfigRepairOnImport() {
       if (bIINDCAHMFCCase_ == 103) {
-         return (emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport.getDefaultInstance();
     }
     /**
      * <code>._ConfigRepairOnImport config_repair_on_import = 103;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImportOrBuilder getConfigRepairOnImportOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImportOrBuilder getConfigRepairOnImportOrBuilder() {
       if (bIINDCAHMFCCase_ == 103) {
-         return (emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport.getDefaultInstance();
     }
 
     public static final int CONFIG_FUNCTION_FIELD_NUMBER = 104;
@@ -579,21 +579,21 @@ public final class AODGDJNONGNOuterClass {
      * @return The configEnableEditList.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList getConfigEnableEditList() {
+    public emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList getConfigEnableEditList() {
       if (bIINDCAHMFCCase_ == 105) {
-         return (emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList.getDefaultInstance();
     }
     /**
      * <code>._ConfigEnableEditList config_enable_edit_list = 105;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditListOrBuilder getConfigEnableEditListOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditListOrBuilder getConfigEnableEditListOrBuilder() {
       if (bIINDCAHMFCCase_ == 105) {
-         return (emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList.getDefaultInstance();
     }
 
     public static final int CONFIG_BEYOND_GUID_REFERENCE_ON_EXPORT_FIELD_NUMBER = 106;
@@ -610,21 +610,21 @@ public final class AODGDJNONGNOuterClass {
      * @return The configBeyondGuidReferenceOnExport.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport getConfigBeyondGuidReferenceOnExport() {
+    public emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport getConfigBeyondGuidReferenceOnExport() {
       if (bIINDCAHMFCCase_ == 106) {
-         return (emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport.getDefaultInstance();
     }
     /**
      * <code>._ConfigBeyondGuidReferenceOnExport config_beyond_guid_reference_on_export = 106;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExportOrBuilder getConfigBeyondGuidReferenceOnExportOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExportOrBuilder getConfigBeyondGuidReferenceOnExportOrBuilder() {
       if (bIINDCAHMFCCase_ == 106) {
-         return (emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport.getDefaultInstance();
     }
 
     public static final int CONFIG_GENERAL_SEARCH_FIELD_NUMBER = 107;
@@ -641,21 +641,21 @@ public final class AODGDJNONGNOuterClass {
      * @return The configGeneralSearch.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch getConfigGeneralSearch() {
+    public emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch getConfigGeneralSearch() {
       if (bIINDCAHMFCCase_ == 107) {
-         return (emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch.getDefaultInstance();
     }
     /**
      * <code>._ConfigGeneralSearch config_general_search = 107;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearchOrBuilder getConfigGeneralSearchOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearchOrBuilder getConfigGeneralSearchOrBuilder() {
       if (bIINDCAHMFCCase_ == 107) {
-         return (emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch.getDefaultInstance();
     }
 
     public static final int CONFIG_CUSTOMIZED_CONTROL_TYPE_FIELD_NUMBER = 108;
@@ -672,21 +672,21 @@ public final class AODGDJNONGNOuterClass {
      * @return The configCustomizedControlType.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType getConfigCustomizedControlType() {
+    public emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType getConfigCustomizedControlType() {
       if (bIINDCAHMFCCase_ == 108) {
-         return (emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType.getDefaultInstance();
     }
     /**
      * <code>._ConfigCustomizedControlType config_customized_control_type = 108;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlTypeOrBuilder getConfigCustomizedControlTypeOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlTypeOrBuilder getConfigCustomizedControlTypeOrBuilder() {
       if (bIINDCAHMFCCase_ == 108) {
-         return (emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -710,28 +710,28 @@ public final class AODGDJNONGNOuterClass {
         output.writeBool(2, dPMMGMEHGLJ_);
       }
       if (bIINDCAHMFCCase_ == 101) {
-        output.writeMessage(101, (emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch) bIINDCAHMFC_);
+        output.writeMessage(101, (emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 102) {
-        output.writeMessage(102, (emu.grasscutter.net.proto.ConfigRef._ConfigRef) bIINDCAHMFC_);
+        output.writeMessage(102, (emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 103) {
-        output.writeMessage(103, (emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport) bIINDCAHMFC_);
+        output.writeMessage(103, (emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 104) {
         output.writeMessage(104, (emu.grasscutter.net.proto.NCAINJBCLFKOuterClass.NCAINJBCLFK) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 105) {
-        output.writeMessage(105, (emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList) bIINDCAHMFC_);
+        output.writeMessage(105, (emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 106) {
-        output.writeMessage(106, (emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_);
+        output.writeMessage(106, (emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 107) {
-        output.writeMessage(107, (emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch) bIINDCAHMFC_);
+        output.writeMessage(107, (emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 108) {
-        output.writeMessage(108, (emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType) bIINDCAHMFC_);
+        output.writeMessage(108, (emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType) bIINDCAHMFC_);
       }
       unknownFields.writeTo(output);
     }
@@ -752,15 +752,15 @@ public final class AODGDJNONGNOuterClass {
       }
       if (bIINDCAHMFCCase_ == 101) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(101, (emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch) bIINDCAHMFC_);
+          .computeMessageSize(101, (emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 102) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(102, (emu.grasscutter.net.proto.ConfigRef._ConfigRef) bIINDCAHMFC_);
+          .computeMessageSize(102, (emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 103) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(103, (emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport) bIINDCAHMFC_);
+          .computeMessageSize(103, (emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 104) {
         size += com.google.protobuf.CodedOutputStream
@@ -768,19 +768,19 @@ public final class AODGDJNONGNOuterClass {
       }
       if (bIINDCAHMFCCase_ == 105) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(105, (emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList) bIINDCAHMFC_);
+          .computeMessageSize(105, (emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 106) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(106, (emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_);
+          .computeMessageSize(106, (emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 107) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(107, (emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch) bIINDCAHMFC_);
+          .computeMessageSize(107, (emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 108) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(108, (emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType) bIINDCAHMFC_);
+          .computeMessageSize(108, (emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType) bIINDCAHMFC_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1334,7 +1334,7 @@ public final class AODGDJNONGNOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch, emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch.Builder, emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearchOrBuilder> configTagSearchBuilder_;
+          emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch, emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch.Builder, emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearchOrBuilder> configTagSearchBuilder_;
       /**
        * <code>._ConfigTagSearch config_tag_search = 101;</code>
        * @return Whether the configTagSearch field is set.
@@ -1348,23 +1348,23 @@ public final class AODGDJNONGNOuterClass {
        * @return The configTagSearch.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch getConfigTagSearch() {
+      public emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch getConfigTagSearch() {
         if (configTagSearchBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 101) {
-            return (emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 101) {
             return configTagSearchBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigTagSearch config_tag_search = 101;</code>
        */
-      public Builder setConfigTagSearch(emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch value) {
+      public Builder setConfigTagSearch(emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch value) {
         if (configTagSearchBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1381,7 +1381,7 @@ public final class AODGDJNONGNOuterClass {
        * <code>._ConfigTagSearch config_tag_search = 101;</code>
        */
       public Builder setConfigTagSearch(
-          emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch.Builder builderForValue) {
         if (configTagSearchBuilder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -1394,11 +1394,11 @@ public final class AODGDJNONGNOuterClass {
       /**
        * <code>._ConfigTagSearch config_tag_search = 101;</code>
        */
-      public Builder mergeConfigTagSearch(emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch value) {
+      public Builder mergeConfigTagSearch(emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch value) {
         if (configTagSearchBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 101 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch.newBuilder((emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch.newBuilder((emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -1435,36 +1435,36 @@ public final class AODGDJNONGNOuterClass {
       /**
        * <code>._ConfigTagSearch config_tag_search = 101;</code>
        */
-      public emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch.Builder getConfigTagSearchBuilder() {
+      public emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch.Builder getConfigTagSearchBuilder() {
         return getConfigTagSearchFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigTagSearch config_tag_search = 101;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearchOrBuilder getConfigTagSearchOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearchOrBuilder getConfigTagSearchOrBuilder() {
         if ((bIINDCAHMFCCase_ == 101) && (configTagSearchBuilder_ != null)) {
           return configTagSearchBuilder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 101) {
-            return (emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigTagSearch config_tag_search = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch, emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch.Builder, emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearchOrBuilder> 
+          emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch, emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch.Builder, emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearchOrBuilder> 
           getConfigTagSearchFieldBuilder() {
         if (configTagSearchBuilder_ == null) {
           if (!(bIINDCAHMFCCase_ == 101)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch.getDefaultInstance();
           }
           configTagSearchBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch, emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch.Builder, emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearchOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigTagSearch._ConfigTagSearch) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch, emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch.Builder, emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearchOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigTagSearchOuterClass._ConfigTagSearch) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -1475,7 +1475,7 @@ public final class AODGDJNONGNOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigRef._ConfigRef, emu.grasscutter.net.proto.ConfigRef._ConfigRef.Builder, emu.grasscutter.net.proto.ConfigRef._ConfigRefOrBuilder> configRefBuilder_;
+          emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef, emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef.Builder, emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRefOrBuilder> configRefBuilder_;
       /**
        * <code>._ConfigRef config_ref = 102;</code>
        * @return Whether the configRef field is set.
@@ -1489,23 +1489,23 @@ public final class AODGDJNONGNOuterClass {
        * @return The configRef.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigRef._ConfigRef getConfigRef() {
+      public emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef getConfigRef() {
         if (configRefBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 102) {
-            return (emu.grasscutter.net.proto.ConfigRef._ConfigRef) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigRef._ConfigRef.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 102) {
             return configRefBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigRef._ConfigRef.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigRef config_ref = 102;</code>
        */
-      public Builder setConfigRef(emu.grasscutter.net.proto.ConfigRef._ConfigRef value) {
+      public Builder setConfigRef(emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef value) {
         if (configRefBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1522,7 +1522,7 @@ public final class AODGDJNONGNOuterClass {
        * <code>._ConfigRef config_ref = 102;</code>
        */
       public Builder setConfigRef(
-          emu.grasscutter.net.proto.ConfigRef._ConfigRef.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef.Builder builderForValue) {
         if (configRefBuilder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -1535,11 +1535,11 @@ public final class AODGDJNONGNOuterClass {
       /**
        * <code>._ConfigRef config_ref = 102;</code>
        */
-      public Builder mergeConfigRef(emu.grasscutter.net.proto.ConfigRef._ConfigRef value) {
+      public Builder mergeConfigRef(emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef value) {
         if (configRefBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 102 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.ConfigRef._ConfigRef.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigRef._ConfigRef.newBuilder((emu.grasscutter.net.proto.ConfigRef._ConfigRef) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef.newBuilder((emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -1576,36 +1576,36 @@ public final class AODGDJNONGNOuterClass {
       /**
        * <code>._ConfigRef config_ref = 102;</code>
        */
-      public emu.grasscutter.net.proto.ConfigRef._ConfigRef.Builder getConfigRefBuilder() {
+      public emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef.Builder getConfigRefBuilder() {
         return getConfigRefFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigRef config_ref = 102;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigRef._ConfigRefOrBuilder getConfigRefOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRefOrBuilder getConfigRefOrBuilder() {
         if ((bIINDCAHMFCCase_ == 102) && (configRefBuilder_ != null)) {
           return configRefBuilder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 102) {
-            return (emu.grasscutter.net.proto.ConfigRef._ConfigRef) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigRef._ConfigRef.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigRef config_ref = 102;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigRef._ConfigRef, emu.grasscutter.net.proto.ConfigRef._ConfigRef.Builder, emu.grasscutter.net.proto.ConfigRef._ConfigRefOrBuilder> 
+          emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef, emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef.Builder, emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRefOrBuilder> 
           getConfigRefFieldBuilder() {
         if (configRefBuilder_ == null) {
           if (!(bIINDCAHMFCCase_ == 102)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigRef._ConfigRef.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef.getDefaultInstance();
           }
           configRefBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigRef._ConfigRef, emu.grasscutter.net.proto.ConfigRef._ConfigRef.Builder, emu.grasscutter.net.proto.ConfigRef._ConfigRefOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigRef._ConfigRef) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef, emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef.Builder, emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRefOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigRefOuterClass._ConfigRef) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -1616,7 +1616,7 @@ public final class AODGDJNONGNOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport, emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport.Builder, emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImportOrBuilder> configRepairOnImportBuilder_;
+          emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport, emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport.Builder, emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImportOrBuilder> configRepairOnImportBuilder_;
       /**
        * <code>._ConfigRepairOnImport config_repair_on_import = 103;</code>
        * @return Whether the configRepairOnImport field is set.
@@ -1630,23 +1630,23 @@ public final class AODGDJNONGNOuterClass {
        * @return The configRepairOnImport.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport getConfigRepairOnImport() {
+      public emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport getConfigRepairOnImport() {
         if (configRepairOnImportBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 103) {
-            return (emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 103) {
             return configRepairOnImportBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigRepairOnImport config_repair_on_import = 103;</code>
        */
-      public Builder setConfigRepairOnImport(emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport value) {
+      public Builder setConfigRepairOnImport(emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport value) {
         if (configRepairOnImportBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1663,7 +1663,7 @@ public final class AODGDJNONGNOuterClass {
        * <code>._ConfigRepairOnImport config_repair_on_import = 103;</code>
        */
       public Builder setConfigRepairOnImport(
-          emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport.Builder builderForValue) {
         if (configRepairOnImportBuilder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -1676,11 +1676,11 @@ public final class AODGDJNONGNOuterClass {
       /**
        * <code>._ConfigRepairOnImport config_repair_on_import = 103;</code>
        */
-      public Builder mergeConfigRepairOnImport(emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport value) {
+      public Builder mergeConfigRepairOnImport(emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport value) {
         if (configRepairOnImportBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 103 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport.newBuilder((emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport.newBuilder((emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -1717,36 +1717,36 @@ public final class AODGDJNONGNOuterClass {
       /**
        * <code>._ConfigRepairOnImport config_repair_on_import = 103;</code>
        */
-      public emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport.Builder getConfigRepairOnImportBuilder() {
+      public emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport.Builder getConfigRepairOnImportBuilder() {
         return getConfigRepairOnImportFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigRepairOnImport config_repair_on_import = 103;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImportOrBuilder getConfigRepairOnImportOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImportOrBuilder getConfigRepairOnImportOrBuilder() {
         if ((bIINDCAHMFCCase_ == 103) && (configRepairOnImportBuilder_ != null)) {
           return configRepairOnImportBuilder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 103) {
-            return (emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigRepairOnImport config_repair_on_import = 103;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport, emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport.Builder, emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImportOrBuilder> 
+          emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport, emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport.Builder, emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImportOrBuilder> 
           getConfigRepairOnImportFieldBuilder() {
         if (configRepairOnImportBuilder_ == null) {
           if (!(bIINDCAHMFCCase_ == 103)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport.getDefaultInstance();
           }
           configRepairOnImportBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport, emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport.Builder, emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImportOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigRepairOnImport._ConfigRepairOnImport) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport, emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport.Builder, emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImportOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass._ConfigRepairOnImport) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -1898,7 +1898,7 @@ public final class AODGDJNONGNOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList, emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList.Builder, emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditListOrBuilder> configEnableEditListBuilder_;
+          emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList, emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList.Builder, emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditListOrBuilder> configEnableEditListBuilder_;
       /**
        * <code>._ConfigEnableEditList config_enable_edit_list = 105;</code>
        * @return Whether the configEnableEditList field is set.
@@ -1912,23 +1912,23 @@ public final class AODGDJNONGNOuterClass {
        * @return The configEnableEditList.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList getConfigEnableEditList() {
+      public emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList getConfigEnableEditList() {
         if (configEnableEditListBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 105) {
-            return (emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 105) {
             return configEnableEditListBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigEnableEditList config_enable_edit_list = 105;</code>
        */
-      public Builder setConfigEnableEditList(emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList value) {
+      public Builder setConfigEnableEditList(emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList value) {
         if (configEnableEditListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1945,7 +1945,7 @@ public final class AODGDJNONGNOuterClass {
        * <code>._ConfigEnableEditList config_enable_edit_list = 105;</code>
        */
       public Builder setConfigEnableEditList(
-          emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList.Builder builderForValue) {
         if (configEnableEditListBuilder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -1958,11 +1958,11 @@ public final class AODGDJNONGNOuterClass {
       /**
        * <code>._ConfigEnableEditList config_enable_edit_list = 105;</code>
        */
-      public Builder mergeConfigEnableEditList(emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList value) {
+      public Builder mergeConfigEnableEditList(emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList value) {
         if (configEnableEditListBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 105 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList.newBuilder((emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList.newBuilder((emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -1999,36 +1999,36 @@ public final class AODGDJNONGNOuterClass {
       /**
        * <code>._ConfigEnableEditList config_enable_edit_list = 105;</code>
        */
-      public emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList.Builder getConfigEnableEditListBuilder() {
+      public emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList.Builder getConfigEnableEditListBuilder() {
         return getConfigEnableEditListFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigEnableEditList config_enable_edit_list = 105;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditListOrBuilder getConfigEnableEditListOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditListOrBuilder getConfigEnableEditListOrBuilder() {
         if ((bIINDCAHMFCCase_ == 105) && (configEnableEditListBuilder_ != null)) {
           return configEnableEditListBuilder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 105) {
-            return (emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigEnableEditList config_enable_edit_list = 105;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList, emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList.Builder, emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditListOrBuilder> 
+          emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList, emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList.Builder, emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditListOrBuilder> 
           getConfigEnableEditListFieldBuilder() {
         if (configEnableEditListBuilder_ == null) {
           if (!(bIINDCAHMFCCase_ == 105)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList.getDefaultInstance();
           }
           configEnableEditListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList, emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList.Builder, emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditListOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigEnableEditList._ConfigEnableEditList) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList, emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList.Builder, emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditListOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigEnableEditListOuterClass._ConfigEnableEditList) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -2039,7 +2039,7 @@ public final class AODGDJNONGNOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport, emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport.Builder, emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExportOrBuilder> configBeyondGuidReferenceOnExportBuilder_;
+          emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport, emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport.Builder, emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExportOrBuilder> configBeyondGuidReferenceOnExportBuilder_;
       /**
        * <code>._ConfigBeyondGuidReferenceOnExport config_beyond_guid_reference_on_export = 106;</code>
        * @return Whether the configBeyondGuidReferenceOnExport field is set.
@@ -2053,23 +2053,23 @@ public final class AODGDJNONGNOuterClass {
        * @return The configBeyondGuidReferenceOnExport.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport getConfigBeyondGuidReferenceOnExport() {
+      public emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport getConfigBeyondGuidReferenceOnExport() {
         if (configBeyondGuidReferenceOnExportBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 106) {
-            return (emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 106) {
             return configBeyondGuidReferenceOnExportBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigBeyondGuidReferenceOnExport config_beyond_guid_reference_on_export = 106;</code>
        */
-      public Builder setConfigBeyondGuidReferenceOnExport(emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport value) {
+      public Builder setConfigBeyondGuidReferenceOnExport(emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport value) {
         if (configBeyondGuidReferenceOnExportBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2086,7 +2086,7 @@ public final class AODGDJNONGNOuterClass {
        * <code>._ConfigBeyondGuidReferenceOnExport config_beyond_guid_reference_on_export = 106;</code>
        */
       public Builder setConfigBeyondGuidReferenceOnExport(
-          emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport.Builder builderForValue) {
         if (configBeyondGuidReferenceOnExportBuilder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -2099,11 +2099,11 @@ public final class AODGDJNONGNOuterClass {
       /**
        * <code>._ConfigBeyondGuidReferenceOnExport config_beyond_guid_reference_on_export = 106;</code>
        */
-      public Builder mergeConfigBeyondGuidReferenceOnExport(emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport value) {
+      public Builder mergeConfigBeyondGuidReferenceOnExport(emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport value) {
         if (configBeyondGuidReferenceOnExportBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 106 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport.newBuilder((emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport.newBuilder((emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -2140,36 +2140,36 @@ public final class AODGDJNONGNOuterClass {
       /**
        * <code>._ConfigBeyondGuidReferenceOnExport config_beyond_guid_reference_on_export = 106;</code>
        */
-      public emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport.Builder getConfigBeyondGuidReferenceOnExportBuilder() {
+      public emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport.Builder getConfigBeyondGuidReferenceOnExportBuilder() {
         return getConfigBeyondGuidReferenceOnExportFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigBeyondGuidReferenceOnExport config_beyond_guid_reference_on_export = 106;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExportOrBuilder getConfigBeyondGuidReferenceOnExportOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExportOrBuilder getConfigBeyondGuidReferenceOnExportOrBuilder() {
         if ((bIINDCAHMFCCase_ == 106) && (configBeyondGuidReferenceOnExportBuilder_ != null)) {
           return configBeyondGuidReferenceOnExportBuilder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 106) {
-            return (emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigBeyondGuidReferenceOnExport config_beyond_guid_reference_on_export = 106;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport, emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport.Builder, emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExportOrBuilder> 
+          emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport, emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport.Builder, emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExportOrBuilder> 
           getConfigBeyondGuidReferenceOnExportFieldBuilder() {
         if (configBeyondGuidReferenceOnExportBuilder_ == null) {
           if (!(bIINDCAHMFCCase_ == 106)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport.getDefaultInstance();
           }
           configBeyondGuidReferenceOnExportBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport, emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport.Builder, emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExportOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport, emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport.Builder, emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExportOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass._ConfigBeyondGuidReferenceOnExport) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -2180,7 +2180,7 @@ public final class AODGDJNONGNOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch, emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch.Builder, emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearchOrBuilder> configGeneralSearchBuilder_;
+          emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch, emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch.Builder, emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearchOrBuilder> configGeneralSearchBuilder_;
       /**
        * <code>._ConfigGeneralSearch config_general_search = 107;</code>
        * @return Whether the configGeneralSearch field is set.
@@ -2194,23 +2194,23 @@ public final class AODGDJNONGNOuterClass {
        * @return The configGeneralSearch.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch getConfigGeneralSearch() {
+      public emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch getConfigGeneralSearch() {
         if (configGeneralSearchBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 107) {
-            return (emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 107) {
             return configGeneralSearchBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigGeneralSearch config_general_search = 107;</code>
        */
-      public Builder setConfigGeneralSearch(emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch value) {
+      public Builder setConfigGeneralSearch(emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch value) {
         if (configGeneralSearchBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2227,7 +2227,7 @@ public final class AODGDJNONGNOuterClass {
        * <code>._ConfigGeneralSearch config_general_search = 107;</code>
        */
       public Builder setConfigGeneralSearch(
-          emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch.Builder builderForValue) {
         if (configGeneralSearchBuilder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -2240,11 +2240,11 @@ public final class AODGDJNONGNOuterClass {
       /**
        * <code>._ConfigGeneralSearch config_general_search = 107;</code>
        */
-      public Builder mergeConfigGeneralSearch(emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch value) {
+      public Builder mergeConfigGeneralSearch(emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch value) {
         if (configGeneralSearchBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 107 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch.newBuilder((emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch.newBuilder((emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -2281,36 +2281,36 @@ public final class AODGDJNONGNOuterClass {
       /**
        * <code>._ConfigGeneralSearch config_general_search = 107;</code>
        */
-      public emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch.Builder getConfigGeneralSearchBuilder() {
+      public emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch.Builder getConfigGeneralSearchBuilder() {
         return getConfigGeneralSearchFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigGeneralSearch config_general_search = 107;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearchOrBuilder getConfigGeneralSearchOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearchOrBuilder getConfigGeneralSearchOrBuilder() {
         if ((bIINDCAHMFCCase_ == 107) && (configGeneralSearchBuilder_ != null)) {
           return configGeneralSearchBuilder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 107) {
-            return (emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigGeneralSearch config_general_search = 107;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch, emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch.Builder, emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearchOrBuilder> 
+          emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch, emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch.Builder, emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearchOrBuilder> 
           getConfigGeneralSearchFieldBuilder() {
         if (configGeneralSearchBuilder_ == null) {
           if (!(bIINDCAHMFCCase_ == 107)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch.getDefaultInstance();
           }
           configGeneralSearchBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch, emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch.Builder, emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearchOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigGeneralSearch._ConfigGeneralSearch) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch, emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch.Builder, emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearchOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass._ConfigGeneralSearch) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -2321,7 +2321,7 @@ public final class AODGDJNONGNOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType, emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType.Builder, emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlTypeOrBuilder> configCustomizedControlTypeBuilder_;
+          emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType, emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType.Builder, emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlTypeOrBuilder> configCustomizedControlTypeBuilder_;
       /**
        * <code>._ConfigCustomizedControlType config_customized_control_type = 108;</code>
        * @return Whether the configCustomizedControlType field is set.
@@ -2335,23 +2335,23 @@ public final class AODGDJNONGNOuterClass {
        * @return The configCustomizedControlType.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType getConfigCustomizedControlType() {
+      public emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType getConfigCustomizedControlType() {
         if (configCustomizedControlTypeBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 108) {
-            return (emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 108) {
             return configCustomizedControlTypeBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigCustomizedControlType config_customized_control_type = 108;</code>
        */
-      public Builder setConfigCustomizedControlType(emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType value) {
+      public Builder setConfigCustomizedControlType(emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType value) {
         if (configCustomizedControlTypeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2368,7 +2368,7 @@ public final class AODGDJNONGNOuterClass {
        * <code>._ConfigCustomizedControlType config_customized_control_type = 108;</code>
        */
       public Builder setConfigCustomizedControlType(
-          emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType.Builder builderForValue) {
         if (configCustomizedControlTypeBuilder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -2381,11 +2381,11 @@ public final class AODGDJNONGNOuterClass {
       /**
        * <code>._ConfigCustomizedControlType config_customized_control_type = 108;</code>
        */
-      public Builder mergeConfigCustomizedControlType(emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType value) {
+      public Builder mergeConfigCustomizedControlType(emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType value) {
         if (configCustomizedControlTypeBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 108 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType.newBuilder((emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType.newBuilder((emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -2422,36 +2422,36 @@ public final class AODGDJNONGNOuterClass {
       /**
        * <code>._ConfigCustomizedControlType config_customized_control_type = 108;</code>
        */
-      public emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType.Builder getConfigCustomizedControlTypeBuilder() {
+      public emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType.Builder getConfigCustomizedControlTypeBuilder() {
         return getConfigCustomizedControlTypeFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigCustomizedControlType config_customized_control_type = 108;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlTypeOrBuilder getConfigCustomizedControlTypeOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlTypeOrBuilder getConfigCustomizedControlTypeOrBuilder() {
         if ((bIINDCAHMFCCase_ == 108) && (configCustomizedControlTypeBuilder_ != null)) {
           return configCustomizedControlTypeBuilder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 108) {
-            return (emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigCustomizedControlType config_customized_control_type = 108;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType, emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType.Builder, emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlTypeOrBuilder> 
+          emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType, emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType.Builder, emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlTypeOrBuilder> 
           getConfigCustomizedControlTypeFieldBuilder() {
         if (configCustomizedControlTypeBuilder_ == null) {
           if (!(bIINDCAHMFCCase_ == 108)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType.getDefaultInstance();
           }
           configCustomizedControlTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType, emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType.Builder, emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlTypeOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigCustomizedControlType._ConfigCustomizedControlType) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType, emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType.Builder, emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlTypeOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass._ConfigCustomizedControlType) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -2547,21 +2547,21 @@ public final class AODGDJNONGNOuterClass {
       "al_search\030k \001(\0132\025._ConfigGeneralSearchH\000" +
       "\022G\n\036config_customized_control_type\030l \001(\013" +
       "2\035._ConfigCustomizedControlTypeH\000B\r\n\013BII" +
-      "NDCAHMFCB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "NDCAHMFCB2\n\031emu.grasscutter.net.protoB\025A" +
+      "ODGDJNONGNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.FMPKCNGOJBEOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.NCAINJBCLFKOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigCustomizedControlType.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigEnableEditList.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigGeneralSearch.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigRef.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigRepairOnImport.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigTagSearch.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigEnableEditListOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigRefOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigTagSearchOuterClass.getDescriptor(),
         });
     internal_static_AODGDJNONGN_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2571,13 +2571,13 @@ public final class AODGDJNONGNOuterClass {
         new java.lang.String[] { "FOIOJJHDEGK", "DPMMGMEHGLJ", "ConfigTagSearch", "ConfigRef", "ConfigRepairOnImport", "ConfigFunction", "ConfigEnableEditList", "ConfigBeyondGuidReferenceOnExport", "ConfigGeneralSearch", "ConfigCustomizedControlType", "BIINDCAHMFC", });
     emu.grasscutter.net.proto.FMPKCNGOJBEOuterClass.getDescriptor();
     emu.grasscutter.net.proto.NCAINJBCLFKOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.ConfigBeyondGuidReferenceOnExport.getDescriptor();
-    emu.grasscutter.net.proto.ConfigCustomizedControlType.getDescriptor();
-    emu.grasscutter.net.proto.ConfigEnableEditList.getDescriptor();
-    emu.grasscutter.net.proto.ConfigGeneralSearch.getDescriptor();
-    emu.grasscutter.net.proto.ConfigRef.getDescriptor();
-    emu.grasscutter.net.proto.ConfigRepairOnImport.getDescriptor();
-    emu.grasscutter.net.proto.ConfigTagSearch.getDescriptor();
+    emu.grasscutter.net.proto._ConfigBeyondGuidReferenceOnExportOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ConfigCustomizedControlTypeOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ConfigEnableEditListOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ConfigGeneralSearchOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ConfigRefOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ConfigRepairOnImportOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ConfigTagSearchOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -775,8 +775,9 @@ public final class GKIIPAJDDJLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GKIIPAJDDJL.proto\032\021DDLJLNEGKHG.proto\"D" +
       "\n\013GKIIPAJDDJL\022!\n\013EECFOIPILJF\030\004 \001(\0162\014.DDL" +
-      "JLNEGKHG\022\022\n\nparam_list\030\t \003(\tB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "JLNEGKHG\022\022\n\nparam_list\030\t \003(\tB2\n\031emu.gras" +
+      "scutter.net.protoB\025GKIIPAJDDJLOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

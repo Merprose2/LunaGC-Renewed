@@ -823,8 +823,8 @@ public final class MCABBDLHDHEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MCABBDLHDHE.proto\032\021CAGNFIFKEFN.proto\"1" +
       "\n\013MCABBDLHDHE\022\"\n\013ODGCIDLCJGG\030\365\003 \003(\0132\014.CA" +
-      "GNFIFKEFNB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "GNFIFKEFNB2\n\031emu.grasscutter.net.protoB\025" +
+      "MCABBDLHDHEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

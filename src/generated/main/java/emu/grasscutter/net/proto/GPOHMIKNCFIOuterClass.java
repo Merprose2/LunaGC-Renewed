@@ -27,12 +27,12 @@ public final class GPOHMIKNCFIOuterClass {
     /**
      * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.DebugInfo._DebugInfo> 
+    java.util.List<emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo> 
         getNPLOBGOMLBMList();
     /**
      * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
      */
-    emu.grasscutter.net.proto.DebugInfo._DebugInfo getNPLOBGOMLBM(int index);
+    emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo getNPLOBGOMLBM(int index);
     /**
      * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
      */
@@ -40,12 +40,12 @@ public final class GPOHMIKNCFIOuterClass {
     /**
      * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.DebugInfo._DebugInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfoOrBuilder> 
         getNPLOBGOMLBMOrBuilderList();
     /**
      * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
      */
-    emu.grasscutter.net.proto.DebugInfo._DebugInfoOrBuilder getNPLOBGOMLBMOrBuilder(
+    emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfoOrBuilder getNPLOBGOMLBMOrBuilder(
         int index);
 
     /**
@@ -120,11 +120,11 @@ public final class GPOHMIKNCFIOuterClass {
             }
             case 18: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                nPLOBGOMLBM_ = new java.util.ArrayList<emu.grasscutter.net.proto.DebugInfo._DebugInfo>();
+                nPLOBGOMLBM_ = new java.util.ArrayList<emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               nPLOBGOMLBM_.add(
-                  input.readMessage(emu.grasscutter.net.proto.DebugInfo._DebugInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.parser(), extensionRegistry));
               break;
             }
             case 24: {
@@ -198,19 +198,19 @@ public final class GPOHMIKNCFIOuterClass {
     }
 
     public static final int NPLOBGOMLBM_FIELD_NUMBER = 2;
-    private java.util.List<emu.grasscutter.net.proto.DebugInfo._DebugInfo> nPLOBGOMLBM_;
+    private java.util.List<emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo> nPLOBGOMLBM_;
     /**
      * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.DebugInfo._DebugInfo> getNPLOBGOMLBMList() {
+    public java.util.List<emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo> getNPLOBGOMLBMList() {
       return nPLOBGOMLBM_;
     }
     /**
      * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.DebugInfo._DebugInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfoOrBuilder> 
         getNPLOBGOMLBMOrBuilderList() {
       return nPLOBGOMLBM_;
     }
@@ -225,14 +225,14 @@ public final class GPOHMIKNCFIOuterClass {
      * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DebugInfo._DebugInfo getNPLOBGOMLBM(int index) {
+    public emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo getNPLOBGOMLBM(int index) {
       return nPLOBGOMLBM_.get(index);
     }
     /**
      * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DebugInfo._DebugInfoOrBuilder getNPLOBGOMLBMOrBuilder(
+    public emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfoOrBuilder getNPLOBGOMLBMOrBuilder(
         int index) {
       return nPLOBGOMLBM_.get(index);
     }
@@ -701,22 +701,22 @@ public final class GPOHMIKNCFIOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.DebugInfo._DebugInfo> nPLOBGOMLBM_ =
+      private java.util.List<emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo> nPLOBGOMLBM_ =
         java.util.Collections.emptyList();
       private void ensureNPLOBGOMLBMIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          nPLOBGOMLBM_ = new java.util.ArrayList<emu.grasscutter.net.proto.DebugInfo._DebugInfo>(nPLOBGOMLBM_);
+          nPLOBGOMLBM_ = new java.util.ArrayList<emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo>(nPLOBGOMLBM_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.DebugInfo._DebugInfo, emu.grasscutter.net.proto.DebugInfo._DebugInfo.Builder, emu.grasscutter.net.proto.DebugInfo._DebugInfoOrBuilder> nPLOBGOMLBMBuilder_;
+          emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.Builder, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfoOrBuilder> nPLOBGOMLBMBuilder_;
 
       /**
        * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.DebugInfo._DebugInfo> getNPLOBGOMLBMList() {
+      public java.util.List<emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo> getNPLOBGOMLBMList() {
         if (nPLOBGOMLBMBuilder_ == null) {
           return java.util.Collections.unmodifiableList(nPLOBGOMLBM_);
         } else {
@@ -736,7 +736,7 @@ public final class GPOHMIKNCFIOuterClass {
       /**
        * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
        */
-      public emu.grasscutter.net.proto.DebugInfo._DebugInfo getNPLOBGOMLBM(int index) {
+      public emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo getNPLOBGOMLBM(int index) {
         if (nPLOBGOMLBMBuilder_ == null) {
           return nPLOBGOMLBM_.get(index);
         } else {
@@ -747,7 +747,7 @@ public final class GPOHMIKNCFIOuterClass {
        * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
        */
       public Builder setNPLOBGOMLBM(
-          int index, emu.grasscutter.net.proto.DebugInfo._DebugInfo value) {
+          int index, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo value) {
         if (nPLOBGOMLBMBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -764,7 +764,7 @@ public final class GPOHMIKNCFIOuterClass {
        * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
        */
       public Builder setNPLOBGOMLBM(
-          int index, emu.grasscutter.net.proto.DebugInfo._DebugInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.Builder builderForValue) {
         if (nPLOBGOMLBMBuilder_ == null) {
           ensureNPLOBGOMLBMIsMutable();
           nPLOBGOMLBM_.set(index, builderForValue.build());
@@ -777,7 +777,7 @@ public final class GPOHMIKNCFIOuterClass {
       /**
        * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
        */
-      public Builder addNPLOBGOMLBM(emu.grasscutter.net.proto.DebugInfo._DebugInfo value) {
+      public Builder addNPLOBGOMLBM(emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo value) {
         if (nPLOBGOMLBMBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -794,7 +794,7 @@ public final class GPOHMIKNCFIOuterClass {
        * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
        */
       public Builder addNPLOBGOMLBM(
-          int index, emu.grasscutter.net.proto.DebugInfo._DebugInfo value) {
+          int index, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo value) {
         if (nPLOBGOMLBMBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -811,7 +811,7 @@ public final class GPOHMIKNCFIOuterClass {
        * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
        */
       public Builder addNPLOBGOMLBM(
-          emu.grasscutter.net.proto.DebugInfo._DebugInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.Builder builderForValue) {
         if (nPLOBGOMLBMBuilder_ == null) {
           ensureNPLOBGOMLBMIsMutable();
           nPLOBGOMLBM_.add(builderForValue.build());
@@ -825,7 +825,7 @@ public final class GPOHMIKNCFIOuterClass {
        * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
        */
       public Builder addNPLOBGOMLBM(
-          int index, emu.grasscutter.net.proto.DebugInfo._DebugInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.Builder builderForValue) {
         if (nPLOBGOMLBMBuilder_ == null) {
           ensureNPLOBGOMLBMIsMutable();
           nPLOBGOMLBM_.add(index, builderForValue.build());
@@ -839,7 +839,7 @@ public final class GPOHMIKNCFIOuterClass {
        * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
        */
       public Builder addAllNPLOBGOMLBM(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.DebugInfo._DebugInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo> values) {
         if (nPLOBGOMLBMBuilder_ == null) {
           ensureNPLOBGOMLBMIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -879,14 +879,14 @@ public final class GPOHMIKNCFIOuterClass {
       /**
        * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
        */
-      public emu.grasscutter.net.proto.DebugInfo._DebugInfo.Builder getNPLOBGOMLBMBuilder(
+      public emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.Builder getNPLOBGOMLBMBuilder(
           int index) {
         return getNPLOBGOMLBMFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
        */
-      public emu.grasscutter.net.proto.DebugInfo._DebugInfoOrBuilder getNPLOBGOMLBMOrBuilder(
+      public emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfoOrBuilder getNPLOBGOMLBMOrBuilder(
           int index) {
         if (nPLOBGOMLBMBuilder_ == null) {
           return nPLOBGOMLBM_.get(index);  } else {
@@ -896,7 +896,7 @@ public final class GPOHMIKNCFIOuterClass {
       /**
        * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.DebugInfo._DebugInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfoOrBuilder> 
            getNPLOBGOMLBMOrBuilderList() {
         if (nPLOBGOMLBMBuilder_ != null) {
           return nPLOBGOMLBMBuilder_.getMessageOrBuilderList();
@@ -907,31 +907,31 @@ public final class GPOHMIKNCFIOuterClass {
       /**
        * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
        */
-      public emu.grasscutter.net.proto.DebugInfo._DebugInfo.Builder addNPLOBGOMLBMBuilder() {
+      public emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.Builder addNPLOBGOMLBMBuilder() {
         return getNPLOBGOMLBMFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.DebugInfo._DebugInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
        */
-      public emu.grasscutter.net.proto.DebugInfo._DebugInfo.Builder addNPLOBGOMLBMBuilder(
+      public emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.Builder addNPLOBGOMLBMBuilder(
           int index) {
         return getNPLOBGOMLBMFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.DebugInfo._DebugInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._DebugInfo NPLOBGOMLBM = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.DebugInfo._DebugInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.Builder> 
            getNPLOBGOMLBMBuilderList() {
         return getNPLOBGOMLBMFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.DebugInfo._DebugInfo, emu.grasscutter.net.proto.DebugInfo._DebugInfo.Builder, emu.grasscutter.net.proto.DebugInfo._DebugInfoOrBuilder> 
+          emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.Builder, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfoOrBuilder> 
           getNPLOBGOMLBMFieldBuilder() {
         if (nPLOBGOMLBMBuilder_ == null) {
           nPLOBGOMLBMBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.DebugInfo._DebugInfo, emu.grasscutter.net.proto.DebugInfo._DebugInfo.Builder, emu.grasscutter.net.proto.DebugInfo._DebugInfoOrBuilder>(
+              emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfo.Builder, emu.grasscutter.net.proto._DebugInfoOuterClass._DebugInfoOrBuilder>(
                   nPLOBGOMLBM_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -1089,13 +1089,13 @@ public final class GPOHMIKNCFIOuterClass {
       "\n\021GPOHMIKNCFI.proto\032\020_DebugInfo.proto\"X\n" +
       "\013GPOHMIKNCFI\022\024\n\014dungeon_guid\030\001 \001(\004\022 \n\013NP" +
       "LOBGOMLBM\030\002 \003(\0132\013._DebugInfo\022\021\n\ttimestam" +
-      "p\030\003 \003(\005B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "p\030\003 \003(\005B2\n\031emu.grasscutter.net.protoB\025GP" +
+      "OHMIKNCFIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.DebugInfo.getDescriptor(),
+          emu.grasscutter.net.proto._DebugInfoOuterClass.getDescriptor(),
         });
     internal_static_GPOHMIKNCFI_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1103,7 +1103,7 @@ public final class GPOHMIKNCFIOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GPOHMIKNCFI_descriptor,
         new java.lang.String[] { "DungeonGuid", "NPLOBGOMLBM", "Timestamp", });
-    emu.grasscutter.net.proto.DebugInfo.getDescriptor();
+    emu.grasscutter.net.proto._DebugInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

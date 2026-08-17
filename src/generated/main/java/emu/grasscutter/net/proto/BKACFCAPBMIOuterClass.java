@@ -597,7 +597,8 @@ public final class BKACFCAPBMIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BKACFCAPBMI.proto\":\n\013BKACFCAPBMI\022\026\n\016cl" +
       "ient_version\030\006 \001(\r\022\023\n\013MCELODNACKK\030\t \001(\004B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025BKACFCAPBM" +
+      "IOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

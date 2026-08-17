@@ -596,8 +596,8 @@ public final class QuestDestroyNpcReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030QuestDestroyNpcReq.proto\"=\n\022QuestDestr" +
       "oyNpcReq\022\027\n\017parent_quest_id\030\013 \001(\r\022\016\n\006npc" +
-      "_id\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\014 \001(\rB9\n\031emu.grasscutter.net.protoB\034" +
+      "QuestDestroyNpcReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

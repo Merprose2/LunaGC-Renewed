@@ -832,8 +832,8 @@ public final class AvatarRenameInfoNotifyOuterClass {
       "\n\034AvatarRenameInfoNotify.proto\032\026AvatarRe" +
       "nameInfo.proto\"G\n\026AvatarRenameInfoNotify" +
       "\022-\n\022avatar_rename_list\030\010 \003(\0132\021.AvatarRen" +
-      "ameInfoB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "ameInfoB=\n\031emu.grasscutter.net.protoB Av" +
+      "atarRenameInfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

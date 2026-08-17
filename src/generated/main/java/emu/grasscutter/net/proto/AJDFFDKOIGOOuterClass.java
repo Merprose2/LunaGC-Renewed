@@ -698,8 +698,8 @@ public final class AJDFFDKOIGOOuterClass {
       "\n\021AJDFFDKOIGO.proto\032\021GNOKNFHDHEP.proto\"Z" +
       "\n\013AJDFFDKOIGO\022\023\n\013NMLBMDLFNOE\030\001 \001(\003\022\023\n\013DE" +
       "CPJNECLON\030\002 \001(\010\022!\n\013ANDPLHLEDMA\030\003 \001(\0162\014.G" +
-      "NOKNFHDHEPB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "NOKNFHDHEPB2\n\031emu.grasscutter.net.protoB" +
+      "\025AJDFFDKOIGOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

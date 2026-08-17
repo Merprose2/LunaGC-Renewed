@@ -625,8 +625,8 @@ public final class LHPPBIABFBCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LHPPBIABFBC.proto\032\021JEOKDCIGCFP.proto\"7" +
       "\n\013LHPPBIABFBC\022\031\n\003key\030\001 \001(\0162\014.JEOKDCIGCFP" +
-      "\022\r\n\005value\030\002 \001(\005B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\022\r\n\005value\030\002 \001(\005B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025LHPPBIABFBCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

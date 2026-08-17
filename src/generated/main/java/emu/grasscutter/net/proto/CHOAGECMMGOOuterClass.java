@@ -454,8 +454,9 @@ public final class CHOAGECMMGOOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021CHOAGECMMGO.proto\"\r\n\013CHOAGECMMGOB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021CHOAGECMMGO.proto\"\r\n\013CHOAGECMMGOB2\n\031em" +
+      "u.grasscutter.net.protoB\025CHOAGECMMGOOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -729,8 +729,9 @@ public final class MOLIEGMKBAGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MOLIEGMKBAG.proto\032\021HuntingPair.proto\"B" +
       "\n\013MOLIEGMKBAG\022\017\n\007city_id\030\n \001(\r\022\"\n\014huntin" +
-      "g_pair\030\r \001(\0132\014.HuntingPairB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "g_pair\030\r \001(\0132\014.HuntingPairB2\n\031emu.grassc" +
+      "utter.net.protoB\025MOLIEGMKBAGOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

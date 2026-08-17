@@ -3002,7 +3002,8 @@ public final class GIDBFBPPHBNOuterClass {
       "GJLFN\030\r \001(\005\022\023\n\013EJPIDBOFFIL\030\016 \001(\010\022!\n\013CCMI" +
       "CACALCG\030\017 \001(\0132\014.HHEDHCFPEKM\022\023\n\013POGPHDLNF" +
       "FL\030\020 \003(\005\022!\n\013DPOJIFCHHAF\030\021 \001(\0132\014.EBADNHGK" +
-      "AAPB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "AAPB2\n\031emu.grasscutter.net.protoB\025GIDBFB" +
+      "PPHBNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

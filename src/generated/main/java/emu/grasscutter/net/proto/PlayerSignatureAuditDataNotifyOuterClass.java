@@ -660,8 +660,9 @@ public final class PlayerSignatureAuditDataNotifyOuterClass {
       "\n$PlayerSignatureAuditDataNotify.proto\032\026" +
       "ContentAuditInfo.proto\"A\n\036PlayerSignatur" +
       "eAuditDataNotify\022\037\n\004info\030\t \001(\0132\021.Content" +
-      "AuditInfoB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "AuditInfoBE\n\031emu.grasscutter.net.protoB(" +
+      "PlayerSignatureAuditDataNotifyOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

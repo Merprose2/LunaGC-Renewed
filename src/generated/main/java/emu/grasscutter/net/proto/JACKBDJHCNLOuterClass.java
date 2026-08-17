@@ -659,8 +659,8 @@ public final class JACKBDJHCNLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JACKBDJHCNL.proto\"L\n\013JACKBDJHCNL\022\023\n\013KM" +
       "DOFBPMGAI\030\001 \001(\r\022\023\n\013OOJEOFFBPEI\030\002 \001(\004\022\023\n\013" +
-      "LDDKIALCPNA\030\003 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "LDDKIALCPNA\030\003 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025JACKBDJHCNLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

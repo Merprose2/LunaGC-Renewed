@@ -800,8 +800,9 @@ public final class SceneGalleryTeamChainInfoOuterClass {
       "eneGalleryTeamChainInfo\022\023\n\013CBNELIFOGGD\030\004" +
       " \001(\r\022\023\n\013CKKFFBPPFIK\030\007 \001(\r\022\023\n\013JEAFOAKABBG" +
       "\030\010 \001(\r\022\023\n\013AIAMECCGBNC\030\n \001(\r\022\023\n\013BNGKKIEJE" +
-      "JI\030\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "JI\030\013 \001(\rB@\n\031emu.grasscutter.net.protoB#S" +
+      "ceneGalleryTeamChainInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

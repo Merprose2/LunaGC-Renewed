@@ -1169,8 +1169,9 @@ public final class FMHHFHHEJBBOuterClass {
       "NCCGNCPAGMM.proto\"}\n\013FMHHFHHEJBB\022\023\n\013KPEO" +
       "PGPENGN\030\001 \001(\r\022\023\n\013MJIAPNANIAP\030\002 \001(\006\022!\n\013FP" +
       "OMEHMLFBP\030\003 \001(\0132\014.ACDLJBMBJKD\022!\n\013GBFMKDI" +
-      "PBIG\030\004 \003(\0132\014.NCCGNCPAGMMB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "PBIG\030\004 \003(\0132\014.NCCGNCPAGMMB2\n\031emu.grasscut" +
+      "ter.net.protoB\025FMHHFHHEJBBOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

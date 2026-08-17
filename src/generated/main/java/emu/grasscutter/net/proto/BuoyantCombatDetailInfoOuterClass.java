@@ -824,8 +824,9 @@ public final class BuoyantCombatDetailInfoOuterClass {
       "\n\035BuoyantCombatDetailInfo.proto\032\034Buoyant" +
       "CombatDailyInfo.proto\"K\n\027BuoyantCombatDe" +
       "tailInfo\0220\n\017daily_info_list\030\014 \003(\0132\027.Buoy" +
-      "antCombatDailyInfoB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "antCombatDailyInfoB>\n\031emu.grasscutter.ne" +
+      "t.protoB!BuoyantCombatDetailInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

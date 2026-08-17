@@ -154,8 +154,8 @@ public final class GCGSettleOptionOuterClass {
       "NE\020\000\022\'\n#GCGSettleOption_GCG_SETTLE_OPT_E" +
       "XIT\020\001\022+\n\'GCGSettleOption_GCG_SETTLE_OPT_" +
       "CONTINUE\020\002\022*\n&GCGSettleOption_GCG_SETTLE" +
-      "_OPT_RESTART\020\003B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "_OPT_RESTART\020\003B6\n\031emu.grasscutter.net.pr" +
+      "otoB\031GCGSettleOptionOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -871,8 +871,9 @@ public final class CIHNCOLCCBEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CIHNCOLCCBE.proto\032\021BKCCFBDBHPA.proto\"G" +
       "\n\013CIHNCOLCCBE\022\013\n\002id\030\365\003 \001(\r\022\r\n\004name\030\366\003 \001(" +
-      "\t\022\034\n\005state\030\367\003 \001(\0132\014.BKCCFBDBHPAB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\t\022\034\n\005state\030\367\003 \001(\0132\014.BKCCFBDBHPAB2\n\031emu.g" +
+      "rasscutter.net.protoB\025CIHNCOLCCBEOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

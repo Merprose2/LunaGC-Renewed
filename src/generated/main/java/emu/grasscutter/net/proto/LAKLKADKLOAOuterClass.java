@@ -861,8 +861,9 @@ public final class LAKLKADKLOAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LAKLKADKLOA.proto\"7\n\013LAKLKADKLOA\022\023\n\013CJ" +
-      "ELPLBBDCM\030\002 \003(\t\022\023\n\013KOEFKBKPANA\030\t \003(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "ELPLBBDCM\030\002 \003(\t\022\023\n\013KOEFKBKPANA\030\t \003(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025LAKLKADKLOAOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1096,8 +1096,8 @@ public final class MOOHIIPFICBOuterClass {
       "\n\021MOOHIIPFICB.proto\032\021KHIJKOHIHDE.proto\"V" +
       "\n\013MOOHIIPFICB\022\023\n\013FIFEGDOPPEM\030\003 \003(\r\022!\n\013CD" +
       "FNFOCLGEA\030\006 \003(\0132\014.KHIJKOHIHDE\022\017\n\007retcode" +
-      "\030\r \001(\005B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\r \001(\005B2\n\031emu.grasscutter.net.protoB\025MOO" +
+      "HIIPFICBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

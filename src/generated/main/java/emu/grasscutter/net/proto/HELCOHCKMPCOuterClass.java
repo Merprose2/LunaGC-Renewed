@@ -978,8 +978,9 @@ public final class HELCOHCKMPCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HELCOHCKMPC.proto\"`\n\013HELCOHCKMPC\022\023\n\013FJ" +
       "PGNCGICCO\030\007 \003(\r\022\023\n\013EJMAIAEFKEP\030\014 \003(\r\022\022\n\n" +
-      "equip_type\030\r \001(\r\022\023\n\013NDPHKLBMFFD\030\016 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "equip_type\030\r \001(\r\022\023\n\013NDPHKLBMFFD\030\016 \001(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025HELCOHCKMPCO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

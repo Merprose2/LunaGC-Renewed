@@ -719,8 +719,9 @@ public final class MHNHGMFPCCAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MHNHGMFPCCA.proto\"6\n\013MHNHGMFPCCA\022\026\n\016ca" +
-      "rd_guid_list\030\002 \003(\006\022\017\n\007retcode\030\010 \001(\005B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "rd_guid_list\030\002 \003(\006\022\017\n\007retcode\030\010 \001(\005B2\n\031e" +
+      "mu.grasscutter.net.protoB\025MHNHGMFPCCAOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

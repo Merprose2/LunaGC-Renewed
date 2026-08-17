@@ -865,8 +865,8 @@ public final class IFMKNCDKAJBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IFMKNCDKAJB.proto\"I\n\013IFMKNCDKAJB\022\023\n\013MI" +
       "IBFGNGJEI\030\001 \001(\t\022\020\n\010tag_list\030\005 \003(\r\022\023\n\013EKC" +
-      "PAOBHGAB\030\016 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "PAOBHGAB\030\016 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025IFMKNCDKAJBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

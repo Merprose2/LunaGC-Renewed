@@ -1337,8 +1337,9 @@ public final class EMMGOEEENLHOuterClass {
       "OAEECGPBOGB.proto\"}\n\013EMMGOEEENLH\022\023\n\013KPEO" +
       "PGPENGN\030\001 \001(\r\022\023\n\013IPLELGLKEKM\030\002 \001(\r\022!\n\013AI" +
       "HNEMOCJFM\030\003 \003(\0132\014.OAEECGPBOGB\022!\n\013AOHIOIB" +
-      "OBOD\030\004 \003(\0132\014.NACNIMBHLLAB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "OBOD\030\004 \003(\0132\014.NACNIMBHLLAB2\n\031emu.grasscut" +
+      "ter.net.protoB\025EMMGOEEENLHOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

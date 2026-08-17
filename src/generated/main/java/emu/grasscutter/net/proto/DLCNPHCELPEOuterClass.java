@@ -1006,7 +1006,8 @@ public final class DLCNPHCELPEOuterClass {
       "FGNJGELLJK\030\003 \003(\r\022\027\n\017parent_quest_id\030\006 \001(" +
       "\r\022\023\n\013IGMMOECLONN\030\007 \001(\r\022\022\n\nis_success\030\t \001" +
       "(\010\022\023\n\013DEAAPCPBBBF\030\r \001(\r\022\017\n\007retcode\030\016 \001(\005" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025DLCNPHCEL" +
+      "PEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

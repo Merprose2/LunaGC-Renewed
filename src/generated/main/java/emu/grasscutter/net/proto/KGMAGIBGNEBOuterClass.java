@@ -525,8 +525,8 @@ public final class KGMAGIBGNEBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KGMAGIBGNEB.proto\" \n\013KGMAGIBGNEB\022\021\n\ten" +
-      "tity_id\030\010 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "tity_id\030\010 \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025KGMAGIBGNEBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

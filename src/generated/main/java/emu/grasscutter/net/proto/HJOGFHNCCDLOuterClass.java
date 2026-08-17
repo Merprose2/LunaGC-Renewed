@@ -1184,8 +1184,8 @@ public final class HJOGFHNCCDLOuterClass {
       "\020\n\010stage_id\030\004 \001(\r\022\023\n\013NAKEFANEBLM\030\006 \001(\r\022\023" +
       "\n\013FKHLKBNMDJA\030\007 \001(\r\022\023\n\013activity_id\030\n \001(\r" +
       "\022+\n\021dungeon_team_list\030\016 \003(\0132\020.SumoDungeo" +
-      "nTeamB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "nTeamB2\n\031emu.grasscutter.net.protoB\025HJOG" +
+      "FHNCCDLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

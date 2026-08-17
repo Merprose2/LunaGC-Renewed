@@ -660,8 +660,9 @@ public final class IrodoriChessPlayerInfoNotifyOuterClass {
       "\n\"IrodoriChessPlayerInfoNotify.proto\032\034Ir" +
       "odoriChessPlayerInfo.proto\"L\n\034IrodoriChe" +
       "ssPlayerInfoNotify\022,\n\013player_info\030\002 \001(\0132" +
-      "\027.IrodoriChessPlayerInfoB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\027.IrodoriChessPlayerInfoBC\n\031emu.grasscut" +
+      "ter.net.protoB&IrodoriChessPlayerInfoNot" +
+      "ifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

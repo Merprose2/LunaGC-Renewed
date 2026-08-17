@@ -898,8 +898,8 @@ public final class EGKGNPEADEAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EGKGNPEADEA.proto\"L\n\013EGKGNPEADEA\022\023\n\013MP" +
       "JOJIONEIF\030\001 \001(\t\022\023\n\013JIPGNLKEBEG\030\002 \001(\t\022\023\n\013" +
-      "HJGBFBPNEJN\030\003 \001(\tB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "HJGBFBPNEJN\030\003 \001(\tB2\n\031emu.grasscutter.net" +
+      ".protoB\025EGKGNPEADEAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

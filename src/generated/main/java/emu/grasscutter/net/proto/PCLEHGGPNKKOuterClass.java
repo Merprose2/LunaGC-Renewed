@@ -813,8 +813,8 @@ public final class PCLEHGGPNKKOuterClass {
       "PFCFDLENEDB.proto\"v\n\013PCLEHGGPNKK\022\024\n\014dung" +
       "eon_guid\030\005 \001(\004\022\017\n\007room_id\030\007 \001(\r\022\035\n\007op_ty" +
       "pe\030\010 \001(\0162\014.ICJGDBGNIGF\022!\n\013NJIKIHOBPIA\030\014 " +
-      "\001(\0162\014.PFCFDLENEDBB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\001(\0162\014.PFCFDLENEDBB2\n\031emu.grasscutter.net" +
+      ".protoB\025PCLEHGGPNKKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

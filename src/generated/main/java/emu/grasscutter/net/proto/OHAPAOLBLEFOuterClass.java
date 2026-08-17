@@ -1002,7 +1002,8 @@ public final class OHAPAOLBLEFOuterClass {
       "Uint32Pair.proto\"g\n\013OHAPAOLBLEF\022 \n\013EEEJI" +
       "KDAKPH\030\001 \003(\0132\013.Uint32Pair\022!\n\013HNKKGBFEBNI" +
       "\030\005 \001(\0162\014.BPICFGDPPJC\022\023\n\013ALBHGMCIDLI\030\017 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB2\n\031emu.grasscutter.net.protoB\025OHAPAOLB" +
+      "LEFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

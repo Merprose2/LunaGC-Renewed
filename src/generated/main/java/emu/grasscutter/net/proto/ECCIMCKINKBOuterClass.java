@@ -831,8 +831,8 @@ public final class ECCIMCKINKBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ECCIMCKINKB.proto\032\021FriendBrief.proto\"0" +
       "\n\013ECCIMCKINKB\022!\n\013GNOENLAAPED\030\007 \003(\0132\014.Fri" +
-      "endBriefB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "endBriefB2\n\031emu.grasscutter.net.protoB\025E" +
+      "CCIMCKINKBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

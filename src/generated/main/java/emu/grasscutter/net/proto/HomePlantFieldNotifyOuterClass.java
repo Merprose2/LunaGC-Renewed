@@ -659,8 +659,9 @@ public final class HomePlantFieldNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032HomePlantFieldNotify.proto\032\030HomePlantF" +
       "ieldData.proto\":\n\024HomePlantFieldNotify\022\"" +
-      "\n\005field\030\004 \001(\0132\023.HomePlantFieldDataB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\005field\030\004 \001(\0132\023.HomePlantFieldDataB;\n\031em" +
+      "u.grasscutter.net.protoB\036HomePlantFieldN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

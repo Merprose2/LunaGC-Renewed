@@ -1223,8 +1223,8 @@ public final class APJKDPPFCJAOuterClass {
       "AEKJGJHBEN\030\002 \001(\t\022!\n\013NELIJGBOHMF\030\003 \001(\0162\014." +
       "KAAEKMCHCJA\022\022\n\nrequest_id\030\004 \001(\t\022\023\n\013NGEDG" +
       "DGBAID\030\005 \001(\014\022\023\n\013AMMOBBENFNL\030\006 \001(\r\022\025\n\rcol" +
-      "lection_id\030\007 \001(\004B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "lection_id\030\007 \001(\004B2\n\031emu.grasscutter.net." +
+      "protoB\025APJKDPPFCJAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

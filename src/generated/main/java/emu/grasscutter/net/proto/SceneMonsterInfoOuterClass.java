@@ -3185,7 +3185,8 @@ public final class SceneMonsterInfoOuterClass {
       "shInfoH\000\022/\n\022fishtank_fish_info\0303 \001(\0132\021.F" +
       "ishtankFishInfoH\000\0323\n\021SummonTagMapEntry\022\013" +
       "\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\t\n\007conten" +
-      "tB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "tB7\n\031emu.grasscutter.net.protoB\032SceneMon" +
+      "sterInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

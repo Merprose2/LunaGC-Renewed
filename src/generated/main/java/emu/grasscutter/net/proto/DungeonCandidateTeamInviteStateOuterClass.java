@@ -155,8 +155,9 @@ public final class DungeonCandidateTeamInviteStateOuterClass {
       "$DungeonCandidateTeamInviteState_SEND\020\001\022" +
       "*\n&DungeonCandidateTeamInviteState_ACCEP" +
       "T\020\002\022*\n&DungeonCandidateTeamInviteState_R" +
-      "EFUSE\020\003B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "EFUSE\020\003BF\n\031emu.grasscutter.net.protoB)Du" +
+      "ngeonCandidateTeamInviteStateOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

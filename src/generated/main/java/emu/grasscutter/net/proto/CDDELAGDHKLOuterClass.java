@@ -1172,8 +1172,8 @@ public final class CDDELAGDHKLOuterClass {
       "\n\021CDDELAGDHKL.proto\"v\n\013CDDELAGDHKL\022\023\n\013BP" +
       "MDJCEGJBA\030\001 \003(\r\022\023\n\013BKOEEMLBDLJ\030\002 \003(\r\022\023\n\013" +
       "KNFDKPPMJKB\030\014 \001(\r\022\023\n\013OKEFHEDGECP\030\r \001(\r\022\023" +
-      "\n\013JCHAGKOOPMK\030\017 \003(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013JCHAGKOOPMK\030\017 \003(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025CDDELAGDHKLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

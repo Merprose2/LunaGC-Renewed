@@ -729,8 +729,9 @@ public final class DMBHNFKABDLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DMBHNFKABDL.proto\032\021LDDECGLDODN.proto\"B" +
       "\n\013DMBHNFKABDL\022\020\n\010scene_id\030\002 \001(\r\022!\n\013CCKAB" +
-      "FIBOAN\030\006 \001(\0132\014.LDDECGLDODNB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "FIBOAN\030\006 \001(\0132\014.LDDECGLDODNB2\n\031emu.grassc" +
+      "utter.net.protoB\025DMBHNFKABDLOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

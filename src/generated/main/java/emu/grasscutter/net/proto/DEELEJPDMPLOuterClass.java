@@ -705,8 +705,9 @@ public final class DEELEJPDMPLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DEELEJPDMPL.proto\032\rUgcType.proto\"P\n\013DE" +
       "ELEJPDMPL\022\020\n\010ugc_guid\030\003 \001(\004\022\023\n\013FHNCDHPIK" +
-      "OE\030\010 \001(\010\022\032\n\010ugc_type\030\n \001(\0162\010.UgcTypeB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "OE\030\010 \001(\010\022\032\n\010ugc_type\030\n \001(\0162\010.UgcTypeB2\n\031" +
+      "emu.grasscutter.net.protoB\025DEELEJPDMPLOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -596,8 +596,9 @@ public final class TakeReunionFirstGiftRewardRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n#TakeReunionFirstGiftRewardRsp.proto\"C\n" +
       "\035TakeReunionFirstGiftRewardRsp\022\021\n\treward" +
-      "_id\030\007 \001(\005\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "_id\030\007 \001(\005\022\017\n\007retcode\030\016 \001(\005BD\n\031emu.grassc" +
+      "utter.net.protoB\'TakeReunionFirstGiftRew" +
+      "ardRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

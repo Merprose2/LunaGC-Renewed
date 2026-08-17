@@ -987,8 +987,8 @@ public final class CAKAGKBEGPCOuterClass {
       "ELIEMB\030\r \001(\0132\014.BDAIIMIEPGN\022+\n\010prop_map\030\016" +
       " \003(\0132\031.CAKAGKBEGPC.PropMapEntry\032:\n\014PropM" +
       "apEntry\022\013\n\003key\030\001 \001(\r\022\031\n\005value\030\002 \001(\0132\n.Pr" +
-      "opValue:\0028\001B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "opValue:\0028\001B2\n\031emu.grasscutter.net.proto" +
+      "B\025CAKAGKBEGPCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

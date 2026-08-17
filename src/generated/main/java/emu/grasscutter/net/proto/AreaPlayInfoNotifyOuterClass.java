@@ -634,8 +634,8 @@ public final class AreaPlayInfoNotifyOuterClass {
       "\n\030AreaPlayInfoNotify.proto\032\022AreaPlayType" +
       ".proto\"U\n\022AreaPlayInfoNotify\022%\n\016area_pla" +
       "y_type\030\005 \001(\0162\r.AreaPlayType\022\030\n\020detail_pl" +
-      "ay_type\030\007 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "ay_type\030\007 \001(\rB9\n\031emu.grasscutter.net.pro" +
+      "toB\034AreaPlayInfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

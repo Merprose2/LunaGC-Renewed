@@ -652,8 +652,8 @@ public final class GGBCADBBBMBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GGBCADBBBMB.proto\"\"\n\013GGBCADBBBMB\022\023\n\013MO" +
-      "LFPGIEHLM\030\r \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "LFPGIEHLM\030\r \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025GGBCADBBBMBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

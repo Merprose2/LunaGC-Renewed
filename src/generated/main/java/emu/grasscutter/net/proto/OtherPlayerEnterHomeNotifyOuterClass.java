@@ -833,7 +833,8 @@ public final class OtherPlayerEnterHomeNotifyOuterClass {
       "\001(\t\0222\n\006reason\030\r \001(\0162\".OtherPlayerEnterHo" +
       "meNotify.Reason\"@\n\006Reason\022\022\n\016Reason_INVA" +
       "LID\020\000\022\020\n\014Reason_ENTER\020\001\022\020\n\014Reason_LEAVE\020" +
-      "\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\002BA\n\031emu.grasscutter.net.protoB$OtherPla" +
+      "yerEnterHomeNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

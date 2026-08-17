@@ -525,8 +525,8 @@ public final class HIOKEGEJELGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HIOKEGEJELG.proto\"\"\n\013HIOKEGEJELG\022\023\n\013PC" +
-      "KOFOMIJJM\030\002 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "KOFOMIJJM\030\002 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025HIOKEGEJELGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

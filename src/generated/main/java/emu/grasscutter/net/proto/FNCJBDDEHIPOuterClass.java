@@ -446,8 +446,9 @@ public final class FNCJBDDEHIPOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021FNCJBDDEHIP.proto\"\r\n\013FNCJBDDEHIPB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021FNCJBDDEHIP.proto\"\r\n\013FNCJBDDEHIPB2\n\031em" +
+      "u.grasscutter.net.protoB\025FNCJBDDEHIPOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

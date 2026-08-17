@@ -721,8 +721,9 @@ public final class IGMHKAGBLLKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IGMHKAGBLLK.proto\032\021BKMGMIPPBFK.proto\"F" +
       "\n\013IGMHKAGBLLK\022\024\n\014publish_time\030\014 \001(\007\022!\n\013K" +
-      "GJDLCFHCNK\030\r \001(\0132\014.BKMGMIPPBFKB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "GJDLCFHCNK\030\r \001(\0132\014.BKMGMIPPBFKB2\n\031emu.gr" +
+      "asscutter.net.protoB\025IGMHKAGBLLKOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

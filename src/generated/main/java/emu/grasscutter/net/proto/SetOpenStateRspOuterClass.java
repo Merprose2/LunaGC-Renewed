@@ -666,8 +666,8 @@ public final class SetOpenStateRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025SetOpenStateRsp.proto\">\n\017SetOpenStateR" +
       "sp\022\r\n\005value\030\003 \001(\r\022\013\n\003key\030\n \001(\r\022\017\n\007retcod" +
-      "e\030\014 \001(\005B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "e\030\014 \001(\005B6\n\031emu.grasscutter.net.protoB\031Se" +
+      "tOpenStateRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -831,8 +831,9 @@ public final class SceneEntityDisappearNotifyOuterClass {
       "\n SceneEntityDisappearNotify.proto\032\020Visi" +
       "onType.proto\"e\n\032SceneEntityDisappearNoti" +
       "fy\022\023\n\013entity_list\030\003 \003(\r\022\r\n\005param\030\014 \001(\r\022#" +
-      "\n\016disappear_type\030\016 \001(\0162\013.VisionTypeB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\n\016disappear_type\030\016 \001(\0162\013.VisionTypeBA\n\031e" +
+      "mu.grasscutter.net.protoB$SceneEntityDis" +
+      "appearNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

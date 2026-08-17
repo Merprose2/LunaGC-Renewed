@@ -871,8 +871,9 @@ public final class EFBONIHKOPFOuterClass {
       "\n\021EFBONIHKOPF.proto\032\021LDLHHEHNCLC.proto\"l" +
       "\n\013EFBONIHKOPF\022!\n\013FCGOMMPIPAM\030\003 \001(\0132\014.LDL" +
       "HHEHNCLC\022\024\n\014dungeon_guid\030\005 \001(\004\022\023\n\013KGDHII" +
-      "GEFEJ\030\r \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "GEFEJ\030\r \001(\r\022\017\n\007retcode\030\017 \001(\005B2\n\031emu.gras" +
+      "scutter.net.protoB\025EFBONIHKOPFOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

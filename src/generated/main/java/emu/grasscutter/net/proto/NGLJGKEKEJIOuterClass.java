@@ -737,8 +737,9 @@ public final class NGLJGKEKEJIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NGLJGKEKEJI.proto\"W\n\013NGLJGKEKEJI\022\020\n\010le" +
       "vel_id\030\004 \001(\r\022\021\n\tcost_time\030\005 \001(\r\022\022\n\nis_su" +
-      "ccess\030\006 \001(\010\022\017\n\007retcode\030\007 \001(\005B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "ccess\030\006 \001(\010\022\017\n\007retcode\030\007 \001(\005B2\n\031emu.gras" +
+      "scutter.net.protoB\025NGLJGKEKEJIOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

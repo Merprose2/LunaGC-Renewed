@@ -1619,8 +1619,8 @@ public final class FOCCKEHMOBGOuterClass {
       "2\014.DADEAMBDPOJH\000\022#\n\013sphere_data\030\014 \001(\0132\014." +
       "GFMOOELMBOFH\000\022$\n\014capsule_data\030\r \001(\0132\014.DJ" +
       "HIGIFCGMGH\000\022%\n\rcylinder_data\030\016 \001(\0132\014.BBD" +
-      "CHJGIEJKH\000B\010\n\006detailB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "CHJGIEJKH\000B\010\n\006detailB2\n\031emu.grasscutter." +
+      "net.protoB\025FOCCKEHMOBGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class NALBKOPFIFDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NALBKOPFIFD.proto\"8\n\013NALBKOPFIFD\022\017\n\007re" +
-      "tcode\030\002 \001(\005\022\030\n\020personal_line_id\030\006 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "tcode\030\002 \001(\005\022\030\n\020personal_line_id\030\006 \001(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025NALBKOPFIFDO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

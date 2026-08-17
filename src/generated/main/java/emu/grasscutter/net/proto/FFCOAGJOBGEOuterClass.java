@@ -525,8 +525,8 @@ public final class FFCOAGJOBGEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FFCOAGJOBGE.proto\"\"\n\013FFCOAGJOBGE\022\023\n\013NM" +
-      "HDKNDDLMC\030\013 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "HDKNDDLMC\030\013 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025FFCOAGJOBGEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

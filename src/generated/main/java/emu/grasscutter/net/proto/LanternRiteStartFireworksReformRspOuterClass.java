@@ -1701,8 +1701,9 @@ public final class LanternRiteStartFireworksReformRspOuterClass {
       "actorInfo\022=\n\017skill_info_list\030\010 \003(\0132$.Lan" +
       "ternRiteFireworksReformSkillInfo\022\023\n\013DBPO" +
       "CNHKCNJ\030\t \001(\r\022\023\n\013GFDLKDOJOOK\030\013 \001(\r\022\023\n\013MC" +
-      "INIEMAKPA\030\r \001(\r\022\024\n\014challenge_id\030\017 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "INIEMAKPA\030\r \001(\r\022\024\n\014challenge_id\030\017 \001(\rBI\n" +
+      "\031emu.grasscutter.net.protoB,LanternRiteS" +
+      "tartFireworksReformRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

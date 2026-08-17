@@ -864,8 +864,9 @@ public final class ExpeditionStartReqOuterClass {
       "\n\030ExpeditionStartReq.proto\"k\n\022Expedition" +
       "StartReq\022\023\n\013NLLIPHBOCCE\030\006 \001(\r\022\023\n\013KALHHMP" +
       "CIDP\030\007 \001(\r\022\023\n\013LGBBIHMBIOM\030\t \001(\r\022\026\n\016avata" +
-      "r_id_list\030\014 \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "r_id_list\030\014 \003(\rB9\n\031emu.grasscutter.net.p" +
+      "rotoB\034ExpeditionStartReqOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

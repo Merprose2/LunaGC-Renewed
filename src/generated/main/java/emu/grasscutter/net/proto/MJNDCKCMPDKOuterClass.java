@@ -934,7 +934,8 @@ public final class MJNDCKCMPDKOuterClass {
       "DCKCMPDK\022\033\n\023start_scene_time_ms\030\002 \001(\004\022\023\n" +
       "\013FKMFEPKNDHH\030\004 \001(\r\022\024\n\003pos\030\005 \001(\0132\007.Vector" +
       "\022\023\n\013PGCMFFKGPPG\030\n \001(\r\022\023\n\013EIBPPCALGFE\030\r \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB2\n\031emu.grasscutter.net.protoB\025MJNDCKC" +
+      "MPDKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -152,8 +152,9 @@ public final class FoundationStatusOuterClass {
       "\n\026FoundationStatus.proto*\203\001\n\020FoundationS" +
       "tatus\022\031\n\025FoundationStatus_NONE\020\000\022\031\n\025Foun" +
       "dationStatus_INIT\020\001\022\035\n\031FoundationStatus_" +
-      "BUILDING\020\002\022\032\n\026FoundationStatus_BUILT\020\003B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "BUILDING\020\002\022\032\n\026FoundationStatus_BUILT\020\003B7" +
+      "\n\031emu.grasscutter.net.protoB\032FoundationS" +
+      "tatusOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

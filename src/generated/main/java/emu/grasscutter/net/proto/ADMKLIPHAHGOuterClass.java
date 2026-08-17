@@ -799,8 +799,8 @@ public final class ADMKLIPHAHGOuterClass {
       "\n\021ADMKLIPHAHG.proto\"q\n\013ADMKLIPHAHG\022\023\n\013HF" +
       "MJFHBOGDB\030\004 \001(\r\022\021\n\tconfig_id\030\010 \001(\r\022\023\n\013DO" +
       "AOCNIJGNK\030\n \001(\r\022\023\n\013FJDBPKDKOEF\030\013 \001(\r\022\020\n\010" +
-      "group_id\030\r \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "group_id\030\r \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025ADMKLIPHAHGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

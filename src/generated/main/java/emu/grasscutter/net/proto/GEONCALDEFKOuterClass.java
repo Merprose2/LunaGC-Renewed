@@ -810,8 +810,8 @@ public final class GEONCALDEFKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GEONCALDEFK.proto\"N\n\013GEONCALDEFK\022\n\n\002id" +
       "\030\001 \001(\r\022\014\n\004name\030\002 \001(\t\022\020\n\010duration\030\003 \001(\002\022\023" +
-      "\n\013JJHNOIGKJIM\030\004 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013JJHNOIGKJIM\030\004 \001(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025GEONCALDEFKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

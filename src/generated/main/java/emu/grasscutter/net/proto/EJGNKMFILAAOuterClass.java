@@ -596,8 +596,9 @@ public final class EJGNKMFILAAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EJGNKMFILAA.proto\"7\n\013EJGNKMFILAA\022\023\n\013LD" +
-      "ILFBHAIHE\030\002 \001(\r\022\023\n\013LADDOFHKOBE\030\005 \001(\010B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "ILFBHAIHE\030\002 \001(\r\022\023\n\013LADDOFHKOBE\030\005 \001(\010B2\n\031" +
+      "emu.grasscutter.net.protoB\025EJGNKMFILAAOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

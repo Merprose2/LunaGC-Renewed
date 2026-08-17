@@ -1678,8 +1678,9 @@ public final class AJECKJKNEDGOuterClass {
       "K\030\002 \001(\002\022!\n\013NCGIMFGDIPG\030\003 \001(\0132\014.IKHNFCKKI" +
       "FI\022\023\n\013CFAHNLHFKDN\030\004 \001(\010\022!\n\013KNFHJLMIFJM\030\007" +
       " \001(\0132\014.OGPDMKPJBFL\022!\n\013NKHBPAAFNGB\030\010 \003(\0132" +
-      "\014.FOCCKEHMOBG\022\023\n\013POGPHDLNFFL\030\t \003(\005B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\014.FOCCKEHMOBG\022\023\n\013POGPHDLNFFL\030\t \003(\005B2\n\031em" +
+      "u.grasscutter.net.protoB\025AJECKJKNEDGOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

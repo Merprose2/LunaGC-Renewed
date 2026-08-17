@@ -729,8 +729,9 @@ public final class HOANJCLAJOGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HOANJCLAJOG.proto\032\021OHNDPBIBIHJ.proto\"D" +
       "\n\013HOANJCLAJOG\022\022\n\nserver_seq\030\007 \001(\r\022!\n\013EKI" +
-      "PPFDJBDI\030\t \001(\0132\014.OHNDPBIBIHJB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "PPFDJBDI\030\t \001(\0132\014.OHNDPBIBIHJB2\n\031emu.gras" +
+      "scutter.net.protoB\025HOANJCLAJOGOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

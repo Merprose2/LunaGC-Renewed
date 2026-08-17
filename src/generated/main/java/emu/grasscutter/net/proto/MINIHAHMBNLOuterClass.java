@@ -823,8 +823,8 @@ public final class MINIHAHMBNLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MINIHAHMBNL.proto\032\021ECDDLHPBJMK.proto\"." +
       "\n\013MINIHAHMBNL\022\037\n\titem_list\030\001 \003(\0132\014.ECDDL" +
-      "HPBJMKB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "HPBJMKB2\n\031emu.grasscutter.net.protoB\025MIN" +
+      "IHAHMBNLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -731,8 +731,9 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
       "to\032\026DungeonEntryCond.proto\"d\n\"GetDungeon" +
       "EntryExploreConditionRsp\022\017\n\007retcode\030\002 \001(" +
       "\005\022-\n\022dungeon_entry_cond\030\013 \001(\0132\021.DungeonE" +
-      "ntryCondB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "ntryCondBI\n\031emu.grasscutter.net.protoB,G" +
+      "etDungeonEntryExploreConditionRspOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

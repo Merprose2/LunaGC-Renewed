@@ -1387,8 +1387,8 @@ public final class DCEDFBIGBJCOuterClass {
       "\n\021DCEDFBIGBJC.proto\"u\n\013DCEDFBIGBJC\022-\n\013LA" +
       "DHMCCJIEK\030\001 \003(\0132\030.DCEDFBIGBJC.EKPPBIPLCL" +
       "A\0327\n\013EKPPBIPLCLA\022\023\n\013PMLODDINFCO\030\002 \001(\005\022\023\n" +
-      "\013AHJEMJLAGGN\030\003 \001(\005B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\013AHJEMJLAGGN\030\003 \001(\005B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025DCEDFBIGBJCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

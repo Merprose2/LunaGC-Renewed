@@ -173,8 +173,9 @@ public final class SvrMsgIdOuterClass {
       "_REVIVE_BY_STATUE\020\002\022*\n&SvrMsgId_MSG_DAIL" +
       "Y_TASK_REWARD_MAX_NUM\020\003\022&\n\"SvrMsgId_MSG_" +
       "ROUTINE_TYPE_NOT_OPEN\020\004\022,\n(SvrMsgId_MSG_" +
-      "ROUTINE_TYPE_REWARD_MAX_NUM\020\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ROUTINE_TYPE_REWARD_MAX_NUM\020\005B/\n\031emu.gra" +
+      "sscutter.net.protoB\022SvrMsgIdOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

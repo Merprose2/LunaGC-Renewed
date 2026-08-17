@@ -340,8 +340,8 @@ public final class IFEMDOIPNLBOuterClass {
       "PTIMIZATION_PARAM\020\024\022:\n6IFEMDOIPNLB_BEYON" +
       "D_PROPERTY_TYPE_MONSTER_DEFINED_STATE\020\025\022" +
       "9\n5IFEMDOIPNLB_BEYOND_PROPERTY_TYPE_MODE" +
-      "L_COLOR_MATERIAL\020\026B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "L_COLOR_MATERIAL\020\026B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025IFEMDOIPNLBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -596,8 +596,9 @@ public final class KBGODHKPJELOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KBGODHKPJEL.proto\"3\n\013KBGODHKPJEL\022\022\n\nis" +
-      "_success\030\010 \001(\010\022\020\n\010level_id\030\n \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "_success\030\010 \001(\010\022\020\n\010level_id\030\n \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025KBGODHKPJELOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

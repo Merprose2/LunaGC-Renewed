@@ -995,8 +995,9 @@ public final class CustomDungeonBlockOuterClass {
       "\n\030CustomDungeonBlock.proto\032\014Vector.proto" +
       "\"`\n\022CustomDungeonBlock\022\014\n\004guid\030\002 \001(\r\022\020\n\010" +
       "block_id\030\013 \001(\r\022\024\n\003rot\030\r \001(\0132\007.Vector\022\024\n\003" +
-      "pos\030\017 \001(\0132\007.VectorB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "pos\030\017 \001(\0132\007.VectorB9\n\031emu.grasscutter.ne" +
+      "t.protoB\034CustomDungeonBlockOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

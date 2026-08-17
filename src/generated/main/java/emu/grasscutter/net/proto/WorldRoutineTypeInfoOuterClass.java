@@ -965,8 +965,9 @@ public final class WorldRoutineTypeInfoOuterClass {
       "neInfo.proto\"{\n\024WorldRoutineTypeInfo\022\031\n\021" +
       "next_refresh_time\030\002 \001(\r\0222\n\027world_routine" +
       "_info_list\030\006 \003(\0132\021.WorldRoutineInfo\022\024\n\014r" +
-      "outine_type\030\014 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "outine_type\030\014 \001(\rB;\n\031emu.grasscutter.net" +
+      ".protoB\036WorldRoutineTypeInfoOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

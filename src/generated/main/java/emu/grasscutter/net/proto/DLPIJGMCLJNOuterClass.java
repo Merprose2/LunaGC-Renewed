@@ -142,8 +142,9 @@ public final class DLPIJGMCLJNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DLPIJGMCLJN.proto*R\n\013DLPIJGMCLJN\022\024\n\020DL" +
       "PIJGMCLJN_NONE\020\000\022\027\n\023DLPIJGMCLJN_BY_KICK\020" +
-      "\001\022\024\n\020DLPIJGMCLJN_QUIT\020\002B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\001\022\024\n\020DLPIJGMCLJN_QUIT\020\002B2\n\031emu.grasscutt" +
+      "er.net.protoB\025DLPIJGMCLJNOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

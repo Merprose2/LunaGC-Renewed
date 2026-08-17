@@ -729,8 +729,9 @@ public final class HCBIPECFAAIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HCBIPECFAAI.proto\032\021PCJJOHDILPB.proto\"E" +
       "\n\013HCBIPECFAAI\022\023\n\013LJGHDOOCCGC\030\t \001(\r\022!\n\013EN" +
-      "GFLFNFNJO\030\r \001(\0132\014.PCJJOHDILPBB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "GFLFNFNJO\030\r \001(\0132\014.PCJJOHDILPBB2\n\031emu.gra" +
+      "sscutter.net.protoB\025HCBIPECFAAIOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -935,8 +935,9 @@ public final class LunaRiteTakeSacrificeRewardRspOuterClass {
       "\001\n\036LunaRiteTakeSacrificeRewardRsp\022\036\n\026sac" +
       "rifice_reward_index\030\002 \001(\r\022\035\n\025sacrifice_r" +
       "eward_list\030\006 \003(\r\022\017\n\007area_id\030\007 \001(\r\022\r\n\005ind" +
-      "ex\030\010 \001(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "ex\030\010 \001(\r\022\017\n\007retcode\030\016 \001(\005BE\n\031emu.grasscu" +
+      "tter.net.protoB(LunaRiteTakeSacrificeRew" +
+      "ardRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

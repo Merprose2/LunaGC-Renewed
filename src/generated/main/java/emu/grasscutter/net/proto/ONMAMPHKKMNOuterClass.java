@@ -1231,8 +1231,9 @@ public final class ONMAMPHKKMNOuterClass {
       "HPFJHBJBKDO.proto\032\021OBBNAJKJKDI.proto\"v\n\013" +
       "ONMAMPHKKMN\022!\n\013IKJADBHFPGN\030\001 \003(\0132\014.HPFJH" +
       "BJBKDO\022!\n\013LFKGHKGALLL\030\002 \001(\0132\014.DHDJHCKKMA" +
-      "K\022!\n\013DIJPLONJFCG\030\003 \001(\0132\014.OBBNAJKJKDIB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "K\022!\n\013DIJPLONJFCG\030\003 \001(\0132\014.OBBNAJKJKDIB2\n\031" +
+      "emu.grasscutter.net.protoB\025ONMAMPHKKMNOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

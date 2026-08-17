@@ -1300,8 +1300,8 @@ public final class OpActivityInfoOuterClass {
       "ctivityInfoH\000\022\023\n\013AJINKPNBNJO\030\004 \003(\r\022\023\n\013ac" +
       "tivity_id\030\007 \001(\r\022\022\n\nbegin_time\030\013 \001(\r\022\025\n\ri" +
       "s_has_change\030\014 \001(\010\022\020\n\010end_time\030\r \001(\rB\010\n\006" +
-      "detailB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "detailB5\n\031emu.grasscutter.net.protoB\030OpA" +
+      "ctivityInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

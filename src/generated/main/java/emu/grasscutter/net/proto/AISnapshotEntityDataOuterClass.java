@@ -1863,7 +1863,8 @@ public final class AISnapshotEntityDataOuterClass {
       "skill_cycles\030\016 \003(\0132\033.AISnapshotEntitySki" +
       "llCycle\022\023\n\013OLJOBDMDJJA\030\017 \001(\002\0325\n\023HittingA" +
       "vatarsEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:" +
-      "\0028\001B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\0028\001B;\n\031emu.grasscutter.net.protoB\036AISnap" +
+      "shotEntityDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

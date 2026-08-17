@@ -1167,8 +1167,9 @@ public final class TakeCityReputationExploreRewardRspOuterClass {
       "to\032\017ItemParam.proto\"~\n\"TakeCityReputatio" +
       "nExploreRewardRsp\022\017\n\007retcode\030\001 \001(\005\022\017\n\007ci" +
       "ty_id\030\003 \001(\r\022\035\n\titem_list\030\016 \003(\0132\n.ItemPar" +
-      "am\022\027\n\017explore_id_list\030\017 \003(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "am\022\027\n\017explore_id_list\030\017 \003(\rBI\n\031emu.grass" +
+      "cutter.net.protoB,TakeCityReputationExpl" +
+      "oreRewardRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

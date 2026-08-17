@@ -596,8 +596,9 @@ public final class TakeReunionWatcherRewardReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n!TakeReunionWatcherRewardReq.proto\"E\n\033T" +
       "akeReunionWatcherRewardReq\022\022\n\nmission_id" +
-      "\030\003 \001(\r\022\022\n\nwatcher_id\030\r \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\030\003 \001(\r\022\022\n\nwatcher_id\030\r \001(\rBB\n\031emu.grassc" +
+      "utter.net.protoB%TakeReunionWatcherRewar" +
+      "dReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

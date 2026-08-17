@@ -831,8 +831,9 @@ public final class BNMKHKOAPLNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BNMKHKOAPLN.proto\032\025ChatChannelInfo.pro" +
       "to\":\n\013BNMKHKOAPLN\022+\n\021channel_info_list\030\006" +
-      " \003(\0132\020.ChatChannelInfoB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      " \003(\0132\020.ChatChannelInfoB2\n\031emu.grasscutte" +
+      "r.net.protoB\025BNMKHKOAPLNOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

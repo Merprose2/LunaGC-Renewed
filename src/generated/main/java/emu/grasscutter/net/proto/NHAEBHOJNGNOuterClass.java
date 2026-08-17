@@ -38,11 +38,11 @@ public final class NHAEBHOJNGNOuterClass {
      * <code>._DataPinVisibilityControllerV2 data_pin_visibility_controller_v_2 = 100;</code>
      * @return The dataPinVisibilityControllerV2.
      */
-    emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2 getDataPinVisibilityControllerV2();
+    emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2 getDataPinVisibilityControllerV2();
     /**
      * <code>._DataPinVisibilityControllerV2 data_pin_visibility_controller_v_2 = 100;</code>
      */
-    emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2OrBuilder getDataPinVisibilityControllerV2OrBuilder();
+    emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2OrBuilder getDataPinVisibilityControllerV2OrBuilder();
 
     public emu.grasscutter.net.proto.NHAEBHOJNGNOuterClass.NHAEBHOJNGN.BIINDCAHMFCCase getBIINDCAHMFCCase();
   }
@@ -99,14 +99,14 @@ public final class NHAEBHOJNGNOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2.Builder subBuilder = null;
+              emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 100;
@@ -216,21 +216,21 @@ public final class NHAEBHOJNGNOuterClass {
      * @return The dataPinVisibilityControllerV2.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2 getDataPinVisibilityControllerV2() {
+    public emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2 getDataPinVisibilityControllerV2() {
       if (bIINDCAHMFCCase_ == 100) {
-         return (emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2.getDefaultInstance();
+      return emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2.getDefaultInstance();
     }
     /**
      * <code>._DataPinVisibilityControllerV2 data_pin_visibility_controller_v_2 = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2OrBuilder getDataPinVisibilityControllerV2OrBuilder() {
+    public emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2OrBuilder getDataPinVisibilityControllerV2OrBuilder() {
       if (bIINDCAHMFCCase_ == 100) {
-         return (emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2.getDefaultInstance();
+      return emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -251,7 +251,7 @@ public final class NHAEBHOJNGNOuterClass {
         output.writeEnum(1, type_);
       }
       if (bIINDCAHMFCCase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2) bIINDCAHMFC_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2) bIINDCAHMFC_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,7 +268,7 @@ public final class NHAEBHOJNGNOuterClass {
       }
       if (bIINDCAHMFCCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2) bIINDCAHMFC_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2) bIINDCAHMFC_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -647,7 +647,7 @@ public final class NHAEBHOJNGNOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2, emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2.Builder, emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2OrBuilder> dataPinVisibilityControllerV2Builder_;
+          emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2, emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2.Builder, emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2OrBuilder> dataPinVisibilityControllerV2Builder_;
       /**
        * <code>._DataPinVisibilityControllerV2 data_pin_visibility_controller_v_2 = 100;</code>
        * @return Whether the dataPinVisibilityControllerV2 field is set.
@@ -661,23 +661,23 @@ public final class NHAEBHOJNGNOuterClass {
        * @return The dataPinVisibilityControllerV2.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2 getDataPinVisibilityControllerV2() {
+      public emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2 getDataPinVisibilityControllerV2() {
         if (dataPinVisibilityControllerV2Builder_ == null) {
           if (bIINDCAHMFCCase_ == 100) {
-            return (emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2.getDefaultInstance();
+          return emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 100) {
             return dataPinVisibilityControllerV2Builder_.getMessage();
           }
-          return emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2.getDefaultInstance();
+          return emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2.getDefaultInstance();
         }
       }
       /**
        * <code>._DataPinVisibilityControllerV2 data_pin_visibility_controller_v_2 = 100;</code>
        */
-      public Builder setDataPinVisibilityControllerV2(emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2 value) {
+      public Builder setDataPinVisibilityControllerV2(emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2 value) {
         if (dataPinVisibilityControllerV2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -694,7 +694,7 @@ public final class NHAEBHOJNGNOuterClass {
        * <code>._DataPinVisibilityControllerV2 data_pin_visibility_controller_v_2 = 100;</code>
        */
       public Builder setDataPinVisibilityControllerV2(
-          emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2.Builder builderForValue) {
+          emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2.Builder builderForValue) {
         if (dataPinVisibilityControllerV2Builder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -707,11 +707,11 @@ public final class NHAEBHOJNGNOuterClass {
       /**
        * <code>._DataPinVisibilityControllerV2 data_pin_visibility_controller_v_2 = 100;</code>
        */
-      public Builder mergeDataPinVisibilityControllerV2(emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2 value) {
+      public Builder mergeDataPinVisibilityControllerV2(emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2 value) {
         if (dataPinVisibilityControllerV2Builder_ == null) {
           if (bIINDCAHMFCCase_ == 100 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2.newBuilder((emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2.newBuilder((emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -748,36 +748,36 @@ public final class NHAEBHOJNGNOuterClass {
       /**
        * <code>._DataPinVisibilityControllerV2 data_pin_visibility_controller_v_2 = 100;</code>
        */
-      public emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2.Builder getDataPinVisibilityControllerV2Builder() {
+      public emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2.Builder getDataPinVisibilityControllerV2Builder() {
         return getDataPinVisibilityControllerV2FieldBuilder().getBuilder();
       }
       /**
        * <code>._DataPinVisibilityControllerV2 data_pin_visibility_controller_v_2 = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2OrBuilder getDataPinVisibilityControllerV2OrBuilder() {
+      public emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2OrBuilder getDataPinVisibilityControllerV2OrBuilder() {
         if ((bIINDCAHMFCCase_ == 100) && (dataPinVisibilityControllerV2Builder_ != null)) {
           return dataPinVisibilityControllerV2Builder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 100) {
-            return (emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2.getDefaultInstance();
+          return emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2.getDefaultInstance();
         }
       }
       /**
        * <code>._DataPinVisibilityControllerV2 data_pin_visibility_controller_v_2 = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2, emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2.Builder, emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2OrBuilder> 
+          emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2, emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2.Builder, emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2OrBuilder> 
           getDataPinVisibilityControllerV2FieldBuilder() {
         if (dataPinVisibilityControllerV2Builder_ == null) {
           if (!(bIINDCAHMFCCase_ == 100)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2.getDefaultInstance();
           }
           dataPinVisibilityControllerV2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2, emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2.Builder, emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2OrBuilder>(
-                  (emu.grasscutter.net.proto.DataPinVisibilityControllerV2._DataPinVisibilityControllerV2) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2, emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2.Builder, emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2OrBuilder>(
+                  (emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass._DataPinVisibilityControllerV2) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -858,14 +858,14 @@ public final class NHAEBHOJNGNOuterClass {
       "\013NHAEBHOJNGN\022\032\n\004type\030\001 \001(\0162\014.FNBEAAKPNNM" +
       "\022M\n\"data_pin_visibility_controller_v_2\030d" +
       " \001(\0132\037._DataPinVisibilityControllerV2H\000B" +
-      "\r\n\013BIINDCAHMFCB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "\r\n\013BIINDCAHMFCB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025NHAEBHOJNGNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.FNBEAAKPNNMOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.DataPinVisibilityControllerV2.getDescriptor(),
+          emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass.getDescriptor(),
         });
     internal_static_NHAEBHOJNGN_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -874,7 +874,7 @@ public final class NHAEBHOJNGNOuterClass {
         internal_static_NHAEBHOJNGN_descriptor,
         new java.lang.String[] { "Type", "DataPinVisibilityControllerV2", "BIINDCAHMFC", });
     emu.grasscutter.net.proto.FNBEAAKPNNMOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.DataPinVisibilityControllerV2.getDescriptor();
+    emu.grasscutter.net.proto._DataPinVisibilityControllerV2OuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

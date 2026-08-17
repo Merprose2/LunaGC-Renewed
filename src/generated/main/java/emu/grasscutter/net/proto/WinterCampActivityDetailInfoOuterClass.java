@@ -2260,7 +2260,8 @@ public final class WinterCampActivityDetailInfoOuterClass {
       "ore_info\030\010 \001(\0132\024.WinterCampStageInfo\022\023\n\013" +
       "PGGALHOEMKP\030\n \003(\r\022)\n\013battle_info\030\014 \001(\0132\024" +
       ".WinterCampStageInfo\022\031\n\021is_content_close" +
-      "d\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006pr" +
+      "d\030\017 \001(\010BC\n\031emu.grasscutter.net.protoB&Wi" +
+      "nterCampActivityDetailInfoOuterClassb\006pr" +
       "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

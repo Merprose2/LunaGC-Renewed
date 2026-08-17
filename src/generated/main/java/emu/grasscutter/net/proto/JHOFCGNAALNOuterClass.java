@@ -1042,8 +1042,9 @@ public final class JHOFCGNAALNOuterClass {
       "\n\021JHOFCGNAALN.proto\032\020Uint32Pair.proto\"m\n" +
       "\013JHOFCGNAALN\022\023\n\013HHOJLFHOGFK\030\006 \001(\r\022 \n\013PEJ" +
       "ABDAPJHM\030\007 \003(\0132\013.Uint32Pair\022\023\n\013KCBPMEDAH" +
-      "FP\030\014 \001(\r\022\022\n\nplayer_uid\030\017 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "FP\030\014 \001(\r\022\022\n\nplayer_uid\030\017 \001(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025JHOFCGNAALNOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -2362,8 +2362,9 @@ public final class OODBMPIAOCMOuterClass {
       "HDOHNLOOCLN\022!\n\013JKJAOOMKEBC\030\005 \003(\0132\014.KFGLI" +
       "NJHAHB\022!\n\013CLIKOIALHBF\030\006 \003(\0132\014.KFGLINJHAH" +
       "B\022!\n\013BLLFNHEHFEG\030\007 \001(\0132\014.KFGLINJHAHB\022!\n\013" +
-      "ILPGINOFMJA\030\010 \003(\0132\014.KFGLINJHAHBB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "ILPGINOFMJA\030\010 \003(\0132\014.KFGLINJHAHBB2\n\031emu.g" +
+      "rasscutter.net.protoB\025OODBMPIAOCMOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

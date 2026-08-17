@@ -723,8 +723,9 @@ public final class BossChestActivateNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035BossChestActivateNotify.proto\"F\n\027BossC" +
       "hestActivateNotify\022\021\n\tentity_id\030\013 \001(\r\022\030\n" +
-      "\020qualify_uid_list\030\017 \003(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\020qualify_uid_list\030\017 \003(\rB>\n\031emu.grasscutt" +
+      "er.net.protoB!BossChestActivateNotifyOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

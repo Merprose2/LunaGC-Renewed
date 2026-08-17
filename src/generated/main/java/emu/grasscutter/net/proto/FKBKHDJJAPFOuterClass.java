@@ -902,8 +902,9 @@ public final class FKBKHDJJAPFOuterClass {
       "\n\021FKBKHDJJAPF.proto\032$AnimatorParameterVa" +
       "lueInfoPair.proto\"U\n\013FKBKHDJJAPF\0223\n\nvalu" +
       "e_list\030\001 \003(\0132\037.AnimatorParameterValueInf" +
-      "oPair\022\021\n\tentity_id\030\014 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "oPair\022\021\n\tentity_id\030\014 \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025FKBKHDJJAPFOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

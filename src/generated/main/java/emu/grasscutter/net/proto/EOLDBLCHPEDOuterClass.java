@@ -723,8 +723,8 @@ public final class EOLDBLCHPEDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EOLDBLCHPED.proto\"?\n\013EOLDBLCHPED\022\022\n\npa" +
       "ram_list\030\002 \003(\003\022\034\n\024template_reminder_id\030\010" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB2\n\031emu.grasscutter.net.protoB\025EOLDB" +
+      "LCHPEDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1113,8 +1113,9 @@ public final class NJAABBHJMHCOuterClass {
       "\001\n\013NJAABBHJMHC\022(\n\022hunting_offer_list\030\003 \003" +
       "(\0132\014.JFCCNCJHMOH\022\017\n\007retcode\030\006 \001(\005\022\031\n\021nex" +
       "t_refresh_time\030\007 \001(\r\022\017\n\007city_id\030\013 \001(\r\022\037\n" +
-      "\027cur_week_finished_count\030\r \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\027cur_week_finished_count\030\r \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025NJAABBHJMHCOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

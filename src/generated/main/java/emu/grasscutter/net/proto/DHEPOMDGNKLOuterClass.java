@@ -730,8 +730,9 @@ public final class DHEPOMDGNKLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DHEPOMDGNKL.proto\"^\n\013DHEPOMDGNKL\022\023\n\013is" +
       "_finished\030\002 \001(\010\022\020\n\010level_id\030\004 \001(\r\022\025\n\ris_" +
-      "level_open\030\t \001(\010\022\021\n\tmax_score\030\017 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "level_open\030\t \001(\010\022\021\n\tmax_score\030\017 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025DHEPOMDGNKLOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

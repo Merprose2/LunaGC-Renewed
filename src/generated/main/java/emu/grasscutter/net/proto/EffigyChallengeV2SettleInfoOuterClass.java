@@ -873,8 +873,9 @@ public final class EffigyChallengeV2SettleInfoOuterClass {
       "MB\030\003 \001(\010\022\023\n\013EEKKHPMNEJO\030\005 \001(\r\022\023\n\013MMBMGOK" +
       "CLJI\030\007 \001(\r\022\023\n\013JGOODOMJLLJ\030\010 \001(\r\022\023\n\013DACBI" +
       "LBGHCK\030\014 \001(\010\022!\n\031challenge_mode_difficult" +
-      "y\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "y\030\016 \001(\rBB\n\031emu.grasscutter.net.protoB%Ef" +
+      "figyChallengeV2SettleInfoOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

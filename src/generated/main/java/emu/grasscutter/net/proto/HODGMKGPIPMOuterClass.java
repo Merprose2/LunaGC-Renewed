@@ -667,8 +667,9 @@ public final class HODGMKGPIPMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HODGMKGPIPM.proto\"S\n\013HODGMKGPIPM\022\032\n\022pr" +
       "ofile_picture_id\030\005 \001(\r\022\023\n\013OGAGBJGPONB\030\010 " +
-      "\001(\010\022\023\n\013IONIJPDDJJG\030\014 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\001(\010\022\023\n\013IONIJPDDJJG\030\014 \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025HODGMKGPIPMOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

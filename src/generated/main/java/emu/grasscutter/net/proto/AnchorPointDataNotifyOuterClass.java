@@ -907,8 +907,8 @@ public final class AnchorPointDataNotifyOuterClass {
       "r.proto\"u\n\025AnchorPointDataNotify\022\031\n\021anch" +
       "or_point_list\030\003 \001(\014\022A\n,_anchor_point_mat" +
       "erial_next_usable_time_list\030\016 \003(\0132\013.Uint" +
-      "32PairB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "32PairB<\n\031emu.grasscutter.net.protoB\037Anc" +
+      "horPointDataNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

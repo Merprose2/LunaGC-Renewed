@@ -667,8 +667,8 @@ public final class LLLDJMKHCBFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LLLDJMKHCBF.proto\"!\n\013LLLDJMKHCBF\022\022\n\nva" +
-      "lue_list\030\001 \003(\tB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "lue_list\030\001 \003(\tB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025LLLDJMKHCBFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

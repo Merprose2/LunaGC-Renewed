@@ -934,8 +934,9 @@ public final class GAMGGAFDDNGOuterClass {
       "\n\021GAMGGAFDDNG.proto\032\014Vector.proto\"k\n\013GAM" +
       "GGAFDDNG\022\016\n\006pos_id\030\004 \001(\r\022\027\n\006center\030\005 \001(\013" +
       "2\007.Vector\022\017\n\007is_view\030\t \001(\010\022\021\n\topen_time\030" +
-      "\014 \001(\r\022\017\n\007is_open\030\017 \001(\010B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\014 \001(\r\022\017\n\007is_open\030\017 \001(\010B2\n\031emu.grasscutte" +
+      "r.net.protoB\025GAMGGAFDDNGOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

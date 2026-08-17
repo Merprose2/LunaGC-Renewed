@@ -517,8 +517,9 @@ public final class GCGMsgDuelDataChangeOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032GCGMsgDuelDataChange.proto\"%\n\024GCGMsgDu" +
-      "elDataChange\022\r\n\005round\030\014 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "elDataChange\022\r\n\005round\030\014 \001(\rB;\n\031emu.grass" +
+      "cutter.net.protoB\036GCGMsgDuelDataChangeOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

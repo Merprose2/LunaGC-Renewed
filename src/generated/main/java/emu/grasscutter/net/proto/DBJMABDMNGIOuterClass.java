@@ -951,8 +951,8 @@ public final class DBJMABDMNGIOuterClass {
       "\n\021DBJMABDMNGI.proto\"s\n\013DBJMABDMNGI\022\020\n\010is" +
       "_ready\030\003 \001(\010\022\020\n\010nickname\030\004 \001(\t\022\021\n\tis_ran" +
       "dom\030\014 \001(\010\022\r\n\005score\030\r \001(\r\022\013\n\003uid\030\016 \001(\r\022\021\n" +
-      "\tavatar_id\030\017 \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\tavatar_id\030\017 \001(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025DBJMABDMNGIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

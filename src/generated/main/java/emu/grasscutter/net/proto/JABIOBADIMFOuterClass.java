@@ -942,7 +942,8 @@ public final class JABIOBADIMFOuterClass {
       "IOBADIMF\022\023\n\013LDDKIALCPNA\030\003 \001(\r\022\023\n\013MKMNOLL" +
       "LBCG\030\004 \001(\r\022\023\n\013INCEKMBNEHA\030\007 \001(\r\022\034\n\013OEAKK" +
       "DJNNCC\030\n \001(\0132\007.Vector\022\023\n\013BHHEALIHLDJ\030\013 \001" +
-      "(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\010B2\n\031emu.grasscutter.net.protoB\025JABIOBA" +
+      "DIMFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

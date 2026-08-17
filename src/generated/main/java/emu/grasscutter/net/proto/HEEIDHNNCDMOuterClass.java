@@ -659,8 +659,8 @@ public final class HEEIDHNNCDMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HEEIDHNNCDM.proto\"I\n\013HEEIDHNNCDM\022\020\n\010le" +
       "vel_id\030\004 \001(\r\022\023\n\013LNBCBJKMHCO\030\007 \001(\r\022\023\n\013is_" +
-      "finished\030\010 \001(\010B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "finished\030\010 \001(\010B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025HEEIDHNNCDMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

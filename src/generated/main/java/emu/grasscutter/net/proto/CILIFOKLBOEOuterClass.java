@@ -1267,7 +1267,8 @@ public final class CILIFOKLBOEOuterClass {
       "HNBDAMBOLEA.proto\"h\n\013CILIFOKLBOE\022\023\n\013JAID" +
       "IFJFOJG\030\003 \001(\r\022!\n\013KJIIDBMAGPM\030\010 \003(\0132\014.HNB" +
       "DAMBOLEA\022!\n\013MAFMFEIOBEM\030\014 \003(\0132\014.BNIIEBCK" +
-      "PJNB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "PJNB2\n\031emu.grasscutter.net.protoB\025CILIFO" +
+      "KLBOEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

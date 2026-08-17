@@ -595,8 +595,9 @@ public final class BBJIABNDPGNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BBJIABNDPGN.proto\"-\n\013BBJIABNDPGN\022\017\n\007ci" +
-      "ty_id\030\004 \001(\r\022\r\n\005level\030\r \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "ty_id\030\004 \001(\r\022\r\n\005level\030\r \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025BBJIABNDPGNOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

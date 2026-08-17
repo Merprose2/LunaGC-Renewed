@@ -652,8 +652,9 @@ public final class LevelTagDataNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030LevelTagDataNotify.proto\"/\n\022LevelTagDa" +
-      "taNotify\022\031\n\021level_tag_id_list\030\001 \003(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "taNotify\022\031\n\021level_tag_id_list\030\001 \003(\rB9\n\031e" +
+      "mu.grasscutter.net.protoB\034LevelTagDataNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

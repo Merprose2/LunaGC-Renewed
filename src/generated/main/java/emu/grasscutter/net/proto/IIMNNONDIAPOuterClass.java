@@ -597,8 +597,9 @@ public final class IIMNNONDIAPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IIMNNONDIAP.proto\"6\n\013IIMNNONDIAP\022\023\n\013MD" +
-      "CMFMHLNDK\030\004 \001(\004\022\022\n\n_hall_guid\030\006 \001(\004B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "CMFMHLNDK\030\004 \001(\004\022\022\n\n_hall_guid\030\006 \001(\004B2\n\031e" +
+      "mu.grasscutter.net.protoB\025IIMNNONDIAPOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

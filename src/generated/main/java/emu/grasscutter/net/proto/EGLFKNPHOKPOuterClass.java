@@ -142,8 +142,9 @@ public final class EGLFKNPHOKPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EGLFKNPHOKP.proto*V\n\013EGLFKNPHOKP\022\026\n\022EG" +
       "LFKNPHOKP_AVATAR\020\000\022\026\n\022EGLFKNPHOKP_GADGET" +
-      "\020\001\022\027\n\023EGLFKNPHOKP_MONSTER\020\002B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\020\001\022\027\n\023EGLFKNPHOKP_MONSTER\020\002B2\n\031emu.grass" +
+      "cutter.net.protoB\025EGLFKNPHOKPOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

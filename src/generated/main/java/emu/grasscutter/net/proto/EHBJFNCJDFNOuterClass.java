@@ -152,8 +152,9 @@ public final class EHBJFNCJDFNOuterClass {
       "\n\021EHBJFNCJDFN.proto*z\n\013EHBJFNCJDFN\022\024\n\020EH" +
       "BJFNCJDFN_DROP\020\000\022\027\n\023EHBJFNCJDFN_DESTROY\020" +
       "\001\022\026\n\022EHBJFNCJDFN_RETAIN\020\002\022$\n EHBJFNCJDFN" +
-      "_DROP_BY_STUFF_CONFIG\020\003B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "_DROP_BY_STUFF_CONFIG\020\003B2\n\031emu.grasscutt" +
+      "er.net.protoB\025EHBJFNCJDFNOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

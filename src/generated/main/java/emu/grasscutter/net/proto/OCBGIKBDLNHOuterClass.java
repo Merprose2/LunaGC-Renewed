@@ -88,11 +88,11 @@ public final class OCBGIKBDLNHOuterClass {
      * <code>._DamageByAttackVal damage_by_attack_val = 12;</code>
      * @return The damageByAttackVal.
      */
-    emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal getDamageByAttackVal();
+    emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal getDamageByAttackVal();
     /**
      * <code>._DamageByAttackVal damage_by_attack_val = 12;</code>
      */
-    emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackValOrBuilder getDamageByAttackValOrBuilder();
+    emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackValOrBuilder getDamageByAttackValOrBuilder();
 
     /**
      * <code>._KillSelf kill_self = 13;</code>
@@ -103,11 +103,11 @@ public final class OCBGIKBDLNHOuterClass {
      * <code>._KillSelf kill_self = 13;</code>
      * @return The killSelf.
      */
-    emu.grasscutter.net.proto.KillSelf._KillSelf getKillSelf();
+    emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf getKillSelf();
     /**
      * <code>._KillSelf kill_self = 13;</code>
      */
-    emu.grasscutter.net.proto.KillSelf._KillSelfOrBuilder getKillSelfOrBuilder();
+    emu.grasscutter.net.proto._KillSelfOuterClass._KillSelfOrBuilder getKillSelfOrBuilder();
 
     /**
      * <code>._BulletTriggerBullet bullet_trigger_bullet = 14;</code>
@@ -118,11 +118,11 @@ public final class OCBGIKBDLNHOuterClass {
      * <code>._BulletTriggerBullet bullet_trigger_bullet = 14;</code>
      * @return The bulletTriggerBullet.
      */
-    emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet getBulletTriggerBullet();
+    emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet getBulletTriggerBullet();
     /**
      * <code>._BulletTriggerBullet bullet_trigger_bullet = 14;</code>
      */
-    emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBulletOrBuilder getBulletTriggerBulletOrBuilder();
+    emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBulletOrBuilder getBulletTriggerBulletOrBuilder();
 
     /**
      * <code>._AddRoleStatus add_role_status = 15;</code>
@@ -133,11 +133,11 @@ public final class OCBGIKBDLNHOuterClass {
      * <code>._AddRoleStatus add_role_status = 15;</code>
      * @return The addRoleStatus.
      */
-    emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus getAddRoleStatus();
+    emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus getAddRoleStatus();
     /**
      * <code>._AddRoleStatus add_role_status = 15;</code>
      */
-    emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatusOrBuilder getAddRoleStatusOrBuilder();
+    emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatusOrBuilder getAddRoleStatusOrBuilder();
 
     /**
      * <code>._RemoveRoleStatus remove_role_status = 16;</code>
@@ -148,11 +148,11 @@ public final class OCBGIKBDLNHOuterClass {
      * <code>._RemoveRoleStatus remove_role_status = 16;</code>
      * @return The removeRoleStatus.
      */
-    emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus getRemoveRoleStatus();
+    emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus getRemoveRoleStatus();
     /**
      * <code>._RemoveRoleStatus remove_role_status = 16;</code>
      */
-    emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatusOrBuilder getRemoveRoleStatusOrBuilder();
+    emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatusOrBuilder getRemoveRoleStatusOrBuilder();
 
     /**
      * <code>._BulletFireEffect bullet_fire_effect = 17;</code>
@@ -163,11 +163,11 @@ public final class OCBGIKBDLNHOuterClass {
      * <code>._BulletFireEffect bullet_fire_effect = 17;</code>
      * @return The bulletFireEffect.
      */
-    emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect getBulletFireEffect();
+    emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect getBulletFireEffect();
     /**
      * <code>._BulletFireEffect bullet_fire_effect = 17;</code>
      */
-    emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffectOrBuilder getBulletFireEffectOrBuilder();
+    emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffectOrBuilder getBulletFireEffectOrBuilder();
 
     /**
      * <code>._Heal heal = 18;</code>
@@ -178,11 +178,11 @@ public final class OCBGIKBDLNHOuterClass {
      * <code>._Heal heal = 18;</code>
      * @return The heal.
      */
-    emu.grasscutter.net.proto.Heal._Heal getHeal();
+    emu.grasscutter.net.proto._HealOuterClass._Heal getHeal();
     /**
      * <code>._Heal heal = 18;</code>
      */
-    emu.grasscutter.net.proto.Heal._HealOrBuilder getHealOrBuilder();
+    emu.grasscutter.net.proto._HealOuterClass._HealOrBuilder getHealOrBuilder();
 
     public emu.grasscutter.net.proto.OCBGIKBDLNHOuterClass.OCBGIKBDLNH.DetailCase getDetailCase();
   }
@@ -288,98 +288,98 @@ public final class OCBGIKBDLNHOuterClass {
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal.Builder subBuilder = null;
+              emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal.Builder subBuilder = null;
               if (detailCase_ == 12) {
-                subBuilder = ((emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 12;
               break;
             }
             case 106: {
-              emu.grasscutter.net.proto.KillSelf._KillSelf.Builder subBuilder = null;
+              emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf.Builder subBuilder = null;
               if (detailCase_ == 13) {
-                subBuilder = ((emu.grasscutter.net.proto.KillSelf._KillSelf) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.KillSelf._KillSelf.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.KillSelf._KillSelf) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 13;
               break;
             }
             case 114: {
-              emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet.Builder subBuilder = null;
               if (detailCase_ == 14) {
-                subBuilder = ((emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 14;
               break;
             }
             case 122: {
-              emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus.Builder subBuilder = null;
               if (detailCase_ == 15) {
-                subBuilder = ((emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 15;
               break;
             }
             case 130: {
-              emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus.Builder subBuilder = null;
+              emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus.Builder subBuilder = null;
               if (detailCase_ == 16) {
-                subBuilder = ((emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 16;
               break;
             }
             case 138: {
-              emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect.Builder subBuilder = null;
               if (detailCase_ == 17) {
-                subBuilder = ((emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 17;
               break;
             }
             case 146: {
-              emu.grasscutter.net.proto.Heal._Heal.Builder subBuilder = null;
+              emu.grasscutter.net.proto._HealOuterClass._Heal.Builder subBuilder = null;
               if (detailCase_ == 18) {
-                subBuilder = ((emu.grasscutter.net.proto.Heal._Heal) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._HealOuterClass._Heal) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.Heal._Heal.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._HealOuterClass._Heal.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.Heal._Heal) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._HealOuterClass._Heal) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 18;
@@ -614,21 +614,21 @@ public final class OCBGIKBDLNHOuterClass {
      * @return The damageByAttackVal.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal getDamageByAttackVal() {
+    public emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal getDamageByAttackVal() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal) detail_;
+         return (emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal) detail_;
       }
-      return emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal.getDefaultInstance();
+      return emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal.getDefaultInstance();
     }
     /**
      * <code>._DamageByAttackVal damage_by_attack_val = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackValOrBuilder getDamageByAttackValOrBuilder() {
+    public emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackValOrBuilder getDamageByAttackValOrBuilder() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal) detail_;
+         return (emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal) detail_;
       }
-      return emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal.getDefaultInstance();
+      return emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal.getDefaultInstance();
     }
 
     public static final int KILL_SELF_FIELD_NUMBER = 13;
@@ -645,21 +645,21 @@ public final class OCBGIKBDLNHOuterClass {
      * @return The killSelf.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.KillSelf._KillSelf getKillSelf() {
+    public emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf getKillSelf() {
       if (detailCase_ == 13) {
-         return (emu.grasscutter.net.proto.KillSelf._KillSelf) detail_;
+         return (emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf) detail_;
       }
-      return emu.grasscutter.net.proto.KillSelf._KillSelf.getDefaultInstance();
+      return emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf.getDefaultInstance();
     }
     /**
      * <code>._KillSelf kill_self = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.KillSelf._KillSelfOrBuilder getKillSelfOrBuilder() {
+    public emu.grasscutter.net.proto._KillSelfOuterClass._KillSelfOrBuilder getKillSelfOrBuilder() {
       if (detailCase_ == 13) {
-         return (emu.grasscutter.net.proto.KillSelf._KillSelf) detail_;
+         return (emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf) detail_;
       }
-      return emu.grasscutter.net.proto.KillSelf._KillSelf.getDefaultInstance();
+      return emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf.getDefaultInstance();
     }
 
     public static final int BULLET_TRIGGER_BULLET_FIELD_NUMBER = 14;
@@ -676,21 +676,21 @@ public final class OCBGIKBDLNHOuterClass {
      * @return The bulletTriggerBullet.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet getBulletTriggerBullet() {
+    public emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet getBulletTriggerBullet() {
       if (detailCase_ == 14) {
-         return (emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet) detail_;
+         return (emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet) detail_;
       }
-      return emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet.getDefaultInstance();
+      return emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet.getDefaultInstance();
     }
     /**
      * <code>._BulletTriggerBullet bullet_trigger_bullet = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBulletOrBuilder getBulletTriggerBulletOrBuilder() {
+    public emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBulletOrBuilder getBulletTriggerBulletOrBuilder() {
       if (detailCase_ == 14) {
-         return (emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet) detail_;
+         return (emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet) detail_;
       }
-      return emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet.getDefaultInstance();
+      return emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet.getDefaultInstance();
     }
 
     public static final int ADD_ROLE_STATUS_FIELD_NUMBER = 15;
@@ -707,21 +707,21 @@ public final class OCBGIKBDLNHOuterClass {
      * @return The addRoleStatus.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus getAddRoleStatus() {
+    public emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus getAddRoleStatus() {
       if (detailCase_ == 15) {
-         return (emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus) detail_;
+         return (emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus) detail_;
       }
-      return emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus.getDefaultInstance();
+      return emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus.getDefaultInstance();
     }
     /**
      * <code>._AddRoleStatus add_role_status = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatusOrBuilder getAddRoleStatusOrBuilder() {
+    public emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatusOrBuilder getAddRoleStatusOrBuilder() {
       if (detailCase_ == 15) {
-         return (emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus) detail_;
+         return (emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus) detail_;
       }
-      return emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus.getDefaultInstance();
+      return emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus.getDefaultInstance();
     }
 
     public static final int REMOVE_ROLE_STATUS_FIELD_NUMBER = 16;
@@ -738,21 +738,21 @@ public final class OCBGIKBDLNHOuterClass {
      * @return The removeRoleStatus.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus getRemoveRoleStatus() {
+    public emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus getRemoveRoleStatus() {
       if (detailCase_ == 16) {
-         return (emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus) detail_;
+         return (emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus) detail_;
       }
-      return emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus.getDefaultInstance();
+      return emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus.getDefaultInstance();
     }
     /**
      * <code>._RemoveRoleStatus remove_role_status = 16;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatusOrBuilder getRemoveRoleStatusOrBuilder() {
+    public emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatusOrBuilder getRemoveRoleStatusOrBuilder() {
       if (detailCase_ == 16) {
-         return (emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus) detail_;
+         return (emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus) detail_;
       }
-      return emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus.getDefaultInstance();
+      return emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus.getDefaultInstance();
     }
 
     public static final int BULLET_FIRE_EFFECT_FIELD_NUMBER = 17;
@@ -769,21 +769,21 @@ public final class OCBGIKBDLNHOuterClass {
      * @return The bulletFireEffect.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect getBulletFireEffect() {
+    public emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect getBulletFireEffect() {
       if (detailCase_ == 17) {
-         return (emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect) detail_;
+         return (emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect) detail_;
       }
-      return emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect.getDefaultInstance();
+      return emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect.getDefaultInstance();
     }
     /**
      * <code>._BulletFireEffect bullet_fire_effect = 17;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffectOrBuilder getBulletFireEffectOrBuilder() {
+    public emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffectOrBuilder getBulletFireEffectOrBuilder() {
       if (detailCase_ == 17) {
-         return (emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect) detail_;
+         return (emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect) detail_;
       }
-      return emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect.getDefaultInstance();
+      return emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect.getDefaultInstance();
     }
 
     public static final int HEAL_FIELD_NUMBER = 18;
@@ -800,21 +800,21 @@ public final class OCBGIKBDLNHOuterClass {
      * @return The heal.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Heal._Heal getHeal() {
+    public emu.grasscutter.net.proto._HealOuterClass._Heal getHeal() {
       if (detailCase_ == 18) {
-         return (emu.grasscutter.net.proto.Heal._Heal) detail_;
+         return (emu.grasscutter.net.proto._HealOuterClass._Heal) detail_;
       }
-      return emu.grasscutter.net.proto.Heal._Heal.getDefaultInstance();
+      return emu.grasscutter.net.proto._HealOuterClass._Heal.getDefaultInstance();
     }
     /**
      * <code>._Heal heal = 18;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Heal._HealOrBuilder getHealOrBuilder() {
+    public emu.grasscutter.net.proto._HealOuterClass._HealOrBuilder getHealOrBuilder() {
       if (detailCase_ == 18) {
-         return (emu.grasscutter.net.proto.Heal._Heal) detail_;
+         return (emu.grasscutter.net.proto._HealOuterClass._Heal) detail_;
       }
-      return emu.grasscutter.net.proto.Heal._Heal.getDefaultInstance();
+      return emu.grasscutter.net.proto._HealOuterClass._Heal.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -852,25 +852,25 @@ public final class OCBGIKBDLNHOuterClass {
         output.writeMessage(11, (emu.grasscutter.net.proto.EJJAPIHKCLEOuterClass.EJJAPIHKCLE) detail_);
       }
       if (detailCase_ == 12) {
-        output.writeMessage(12, (emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal) detail_);
+        output.writeMessage(12, (emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal) detail_);
       }
       if (detailCase_ == 13) {
-        output.writeMessage(13, (emu.grasscutter.net.proto.KillSelf._KillSelf) detail_);
+        output.writeMessage(13, (emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf) detail_);
       }
       if (detailCase_ == 14) {
-        output.writeMessage(14, (emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet) detail_);
+        output.writeMessage(14, (emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet) detail_);
       }
       if (detailCase_ == 15) {
-        output.writeMessage(15, (emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus) detail_);
+        output.writeMessage(15, (emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus) detail_);
       }
       if (detailCase_ == 16) {
-        output.writeMessage(16, (emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus) detail_);
+        output.writeMessage(16, (emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus) detail_);
       }
       if (detailCase_ == 17) {
-        output.writeMessage(17, (emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect) detail_);
+        output.writeMessage(17, (emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect) detail_);
       }
       if (detailCase_ == 18) {
-        output.writeMessage(18, (emu.grasscutter.net.proto.Heal._Heal) detail_);
+        output.writeMessage(18, (emu.grasscutter.net.proto._HealOuterClass._Heal) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -912,31 +912,31 @@ public final class OCBGIKBDLNHOuterClass {
       }
       if (detailCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal) detail_);
+          .computeMessageSize(12, (emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal) detail_);
       }
       if (detailCase_ == 13) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, (emu.grasscutter.net.proto.KillSelf._KillSelf) detail_);
+          .computeMessageSize(13, (emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf) detail_);
       }
       if (detailCase_ == 14) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, (emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet) detail_);
+          .computeMessageSize(14, (emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet) detail_);
       }
       if (detailCase_ == 15) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, (emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus) detail_);
+          .computeMessageSize(15, (emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus) detail_);
       }
       if (detailCase_ == 16) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(16, (emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus) detail_);
+          .computeMessageSize(16, (emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus) detail_);
       }
       if (detailCase_ == 17) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(17, (emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect) detail_);
+          .computeMessageSize(17, (emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect) detail_);
       }
       if (detailCase_ == 18) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(18, (emu.grasscutter.net.proto.Heal._Heal) detail_);
+          .computeMessageSize(18, (emu.grasscutter.net.proto._HealOuterClass._Heal) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1821,7 +1821,7 @@ public final class OCBGIKBDLNHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal, emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal.Builder, emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackValOrBuilder> damageByAttackValBuilder_;
+          emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal, emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal.Builder, emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackValOrBuilder> damageByAttackValBuilder_;
       /**
        * <code>._DamageByAttackVal damage_by_attack_val = 12;</code>
        * @return Whether the damageByAttackVal field is set.
@@ -1835,23 +1835,23 @@ public final class OCBGIKBDLNHOuterClass {
        * @return The damageByAttackVal.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal getDamageByAttackVal() {
+      public emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal getDamageByAttackVal() {
         if (damageByAttackValBuilder_ == null) {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal) detail_;
+            return (emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal) detail_;
           }
-          return emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal.getDefaultInstance();
+          return emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal.getDefaultInstance();
         } else {
           if (detailCase_ == 12) {
             return damageByAttackValBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal.getDefaultInstance();
+          return emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal.getDefaultInstance();
         }
       }
       /**
        * <code>._DamageByAttackVal damage_by_attack_val = 12;</code>
        */
-      public Builder setDamageByAttackVal(emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal value) {
+      public Builder setDamageByAttackVal(emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal value) {
         if (damageByAttackValBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1868,7 +1868,7 @@ public final class OCBGIKBDLNHOuterClass {
        * <code>._DamageByAttackVal damage_by_attack_val = 12;</code>
        */
       public Builder setDamageByAttackVal(
-          emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal.Builder builderForValue) {
+          emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal.Builder builderForValue) {
         if (damageByAttackValBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1881,11 +1881,11 @@ public final class OCBGIKBDLNHOuterClass {
       /**
        * <code>._DamageByAttackVal damage_by_attack_val = 12;</code>
        */
-      public Builder mergeDamageByAttackVal(emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal value) {
+      public Builder mergeDamageByAttackVal(emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal value) {
         if (damageByAttackValBuilder_ == null) {
           if (detailCase_ == 12 &&
-              detail_ != emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal.newBuilder((emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal) detail_)
+              detail_ != emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal.newBuilder((emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1922,36 +1922,36 @@ public final class OCBGIKBDLNHOuterClass {
       /**
        * <code>._DamageByAttackVal damage_by_attack_val = 12;</code>
        */
-      public emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal.Builder getDamageByAttackValBuilder() {
+      public emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal.Builder getDamageByAttackValBuilder() {
         return getDamageByAttackValFieldBuilder().getBuilder();
       }
       /**
        * <code>._DamageByAttackVal damage_by_attack_val = 12;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackValOrBuilder getDamageByAttackValOrBuilder() {
+      public emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackValOrBuilder getDamageByAttackValOrBuilder() {
         if ((detailCase_ == 12) && (damageByAttackValBuilder_ != null)) {
           return damageByAttackValBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal) detail_;
+            return (emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal) detail_;
           }
-          return emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal.getDefaultInstance();
+          return emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal.getDefaultInstance();
         }
       }
       /**
        * <code>._DamageByAttackVal damage_by_attack_val = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal, emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal.Builder, emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackValOrBuilder> 
+          emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal, emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal.Builder, emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackValOrBuilder> 
           getDamageByAttackValFieldBuilder() {
         if (damageByAttackValBuilder_ == null) {
           if (!(detailCase_ == 12)) {
-            detail_ = emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal.getDefaultInstance();
           }
           damageByAttackValBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal, emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal.Builder, emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackValOrBuilder>(
-                  (emu.grasscutter.net.proto.DamageByAttackVal._DamageByAttackVal) detail_,
+              emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal, emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal.Builder, emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackValOrBuilder>(
+                  (emu.grasscutter.net.proto._DamageByAttackValOuterClass._DamageByAttackVal) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1962,7 +1962,7 @@ public final class OCBGIKBDLNHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.KillSelf._KillSelf, emu.grasscutter.net.proto.KillSelf._KillSelf.Builder, emu.grasscutter.net.proto.KillSelf._KillSelfOrBuilder> killSelfBuilder_;
+          emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf, emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf.Builder, emu.grasscutter.net.proto._KillSelfOuterClass._KillSelfOrBuilder> killSelfBuilder_;
       /**
        * <code>._KillSelf kill_self = 13;</code>
        * @return Whether the killSelf field is set.
@@ -1976,23 +1976,23 @@ public final class OCBGIKBDLNHOuterClass {
        * @return The killSelf.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.KillSelf._KillSelf getKillSelf() {
+      public emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf getKillSelf() {
         if (killSelfBuilder_ == null) {
           if (detailCase_ == 13) {
-            return (emu.grasscutter.net.proto.KillSelf._KillSelf) detail_;
+            return (emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf) detail_;
           }
-          return emu.grasscutter.net.proto.KillSelf._KillSelf.getDefaultInstance();
+          return emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf.getDefaultInstance();
         } else {
           if (detailCase_ == 13) {
             return killSelfBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.KillSelf._KillSelf.getDefaultInstance();
+          return emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf.getDefaultInstance();
         }
       }
       /**
        * <code>._KillSelf kill_self = 13;</code>
        */
-      public Builder setKillSelf(emu.grasscutter.net.proto.KillSelf._KillSelf value) {
+      public Builder setKillSelf(emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf value) {
         if (killSelfBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2009,7 +2009,7 @@ public final class OCBGIKBDLNHOuterClass {
        * <code>._KillSelf kill_self = 13;</code>
        */
       public Builder setKillSelf(
-          emu.grasscutter.net.proto.KillSelf._KillSelf.Builder builderForValue) {
+          emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf.Builder builderForValue) {
         if (killSelfBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2022,11 +2022,11 @@ public final class OCBGIKBDLNHOuterClass {
       /**
        * <code>._KillSelf kill_self = 13;</code>
        */
-      public Builder mergeKillSelf(emu.grasscutter.net.proto.KillSelf._KillSelf value) {
+      public Builder mergeKillSelf(emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf value) {
         if (killSelfBuilder_ == null) {
           if (detailCase_ == 13 &&
-              detail_ != emu.grasscutter.net.proto.KillSelf._KillSelf.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.KillSelf._KillSelf.newBuilder((emu.grasscutter.net.proto.KillSelf._KillSelf) detail_)
+              detail_ != emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf.newBuilder((emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2063,36 +2063,36 @@ public final class OCBGIKBDLNHOuterClass {
       /**
        * <code>._KillSelf kill_self = 13;</code>
        */
-      public emu.grasscutter.net.proto.KillSelf._KillSelf.Builder getKillSelfBuilder() {
+      public emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf.Builder getKillSelfBuilder() {
         return getKillSelfFieldBuilder().getBuilder();
       }
       /**
        * <code>._KillSelf kill_self = 13;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.KillSelf._KillSelfOrBuilder getKillSelfOrBuilder() {
+      public emu.grasscutter.net.proto._KillSelfOuterClass._KillSelfOrBuilder getKillSelfOrBuilder() {
         if ((detailCase_ == 13) && (killSelfBuilder_ != null)) {
           return killSelfBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 13) {
-            return (emu.grasscutter.net.proto.KillSelf._KillSelf) detail_;
+            return (emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf) detail_;
           }
-          return emu.grasscutter.net.proto.KillSelf._KillSelf.getDefaultInstance();
+          return emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf.getDefaultInstance();
         }
       }
       /**
        * <code>._KillSelf kill_self = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.KillSelf._KillSelf, emu.grasscutter.net.proto.KillSelf._KillSelf.Builder, emu.grasscutter.net.proto.KillSelf._KillSelfOrBuilder> 
+          emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf, emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf.Builder, emu.grasscutter.net.proto._KillSelfOuterClass._KillSelfOrBuilder> 
           getKillSelfFieldBuilder() {
         if (killSelfBuilder_ == null) {
           if (!(detailCase_ == 13)) {
-            detail_ = emu.grasscutter.net.proto.KillSelf._KillSelf.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf.getDefaultInstance();
           }
           killSelfBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.KillSelf._KillSelf, emu.grasscutter.net.proto.KillSelf._KillSelf.Builder, emu.grasscutter.net.proto.KillSelf._KillSelfOrBuilder>(
-                  (emu.grasscutter.net.proto.KillSelf._KillSelf) detail_,
+              emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf, emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf.Builder, emu.grasscutter.net.proto._KillSelfOuterClass._KillSelfOrBuilder>(
+                  (emu.grasscutter.net.proto._KillSelfOuterClass._KillSelf) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2103,7 +2103,7 @@ public final class OCBGIKBDLNHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet, emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet.Builder, emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBulletOrBuilder> bulletTriggerBulletBuilder_;
+          emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet, emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet.Builder, emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBulletOrBuilder> bulletTriggerBulletBuilder_;
       /**
        * <code>._BulletTriggerBullet bullet_trigger_bullet = 14;</code>
        * @return Whether the bulletTriggerBullet field is set.
@@ -2117,23 +2117,23 @@ public final class OCBGIKBDLNHOuterClass {
        * @return The bulletTriggerBullet.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet getBulletTriggerBullet() {
+      public emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet getBulletTriggerBullet() {
         if (bulletTriggerBulletBuilder_ == null) {
           if (detailCase_ == 14) {
-            return (emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet) detail_;
+            return (emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet) detail_;
           }
-          return emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet.getDefaultInstance();
+          return emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet.getDefaultInstance();
         } else {
           if (detailCase_ == 14) {
             return bulletTriggerBulletBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet.getDefaultInstance();
+          return emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet.getDefaultInstance();
         }
       }
       /**
        * <code>._BulletTriggerBullet bullet_trigger_bullet = 14;</code>
        */
-      public Builder setBulletTriggerBullet(emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet value) {
+      public Builder setBulletTriggerBullet(emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet value) {
         if (bulletTriggerBulletBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2150,7 +2150,7 @@ public final class OCBGIKBDLNHOuterClass {
        * <code>._BulletTriggerBullet bullet_trigger_bullet = 14;</code>
        */
       public Builder setBulletTriggerBullet(
-          emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet.Builder builderForValue) {
+          emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet.Builder builderForValue) {
         if (bulletTriggerBulletBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2163,11 +2163,11 @@ public final class OCBGIKBDLNHOuterClass {
       /**
        * <code>._BulletTriggerBullet bullet_trigger_bullet = 14;</code>
        */
-      public Builder mergeBulletTriggerBullet(emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet value) {
+      public Builder mergeBulletTriggerBullet(emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet value) {
         if (bulletTriggerBulletBuilder_ == null) {
           if (detailCase_ == 14 &&
-              detail_ != emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet.newBuilder((emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet) detail_)
+              detail_ != emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet.newBuilder((emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2204,36 +2204,36 @@ public final class OCBGIKBDLNHOuterClass {
       /**
        * <code>._BulletTriggerBullet bullet_trigger_bullet = 14;</code>
        */
-      public emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet.Builder getBulletTriggerBulletBuilder() {
+      public emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet.Builder getBulletTriggerBulletBuilder() {
         return getBulletTriggerBulletFieldBuilder().getBuilder();
       }
       /**
        * <code>._BulletTriggerBullet bullet_trigger_bullet = 14;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBulletOrBuilder getBulletTriggerBulletOrBuilder() {
+      public emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBulletOrBuilder getBulletTriggerBulletOrBuilder() {
         if ((detailCase_ == 14) && (bulletTriggerBulletBuilder_ != null)) {
           return bulletTriggerBulletBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 14) {
-            return (emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet) detail_;
+            return (emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet) detail_;
           }
-          return emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet.getDefaultInstance();
+          return emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet.getDefaultInstance();
         }
       }
       /**
        * <code>._BulletTriggerBullet bullet_trigger_bullet = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet, emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet.Builder, emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBulletOrBuilder> 
+          emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet, emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet.Builder, emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBulletOrBuilder> 
           getBulletTriggerBulletFieldBuilder() {
         if (bulletTriggerBulletBuilder_ == null) {
           if (!(detailCase_ == 14)) {
-            detail_ = emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet.getDefaultInstance();
           }
           bulletTriggerBulletBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet, emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet.Builder, emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBulletOrBuilder>(
-                  (emu.grasscutter.net.proto.BulletTriggerBullet._BulletTriggerBullet) detail_,
+              emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet, emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet.Builder, emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBulletOrBuilder>(
+                  (emu.grasscutter.net.proto._BulletTriggerBulletOuterClass._BulletTriggerBullet) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2244,7 +2244,7 @@ public final class OCBGIKBDLNHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus, emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus.Builder, emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatusOrBuilder> addRoleStatusBuilder_;
+          emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus, emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus.Builder, emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatusOrBuilder> addRoleStatusBuilder_;
       /**
        * <code>._AddRoleStatus add_role_status = 15;</code>
        * @return Whether the addRoleStatus field is set.
@@ -2258,23 +2258,23 @@ public final class OCBGIKBDLNHOuterClass {
        * @return The addRoleStatus.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus getAddRoleStatus() {
+      public emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus getAddRoleStatus() {
         if (addRoleStatusBuilder_ == null) {
           if (detailCase_ == 15) {
-            return (emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus) detail_;
+            return (emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus) detail_;
           }
-          return emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus.getDefaultInstance();
+          return emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus.getDefaultInstance();
         } else {
           if (detailCase_ == 15) {
             return addRoleStatusBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus.getDefaultInstance();
+          return emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus.getDefaultInstance();
         }
       }
       /**
        * <code>._AddRoleStatus add_role_status = 15;</code>
        */
-      public Builder setAddRoleStatus(emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus value) {
+      public Builder setAddRoleStatus(emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus value) {
         if (addRoleStatusBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2291,7 +2291,7 @@ public final class OCBGIKBDLNHOuterClass {
        * <code>._AddRoleStatus add_role_status = 15;</code>
        */
       public Builder setAddRoleStatus(
-          emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus.Builder builderForValue) {
+          emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus.Builder builderForValue) {
         if (addRoleStatusBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2304,11 +2304,11 @@ public final class OCBGIKBDLNHOuterClass {
       /**
        * <code>._AddRoleStatus add_role_status = 15;</code>
        */
-      public Builder mergeAddRoleStatus(emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus value) {
+      public Builder mergeAddRoleStatus(emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus value) {
         if (addRoleStatusBuilder_ == null) {
           if (detailCase_ == 15 &&
-              detail_ != emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus.newBuilder((emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus) detail_)
+              detail_ != emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus.newBuilder((emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2345,36 +2345,36 @@ public final class OCBGIKBDLNHOuterClass {
       /**
        * <code>._AddRoleStatus add_role_status = 15;</code>
        */
-      public emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus.Builder getAddRoleStatusBuilder() {
+      public emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus.Builder getAddRoleStatusBuilder() {
         return getAddRoleStatusFieldBuilder().getBuilder();
       }
       /**
        * <code>._AddRoleStatus add_role_status = 15;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatusOrBuilder getAddRoleStatusOrBuilder() {
+      public emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatusOrBuilder getAddRoleStatusOrBuilder() {
         if ((detailCase_ == 15) && (addRoleStatusBuilder_ != null)) {
           return addRoleStatusBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 15) {
-            return (emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus) detail_;
+            return (emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus) detail_;
           }
-          return emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus.getDefaultInstance();
+          return emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus.getDefaultInstance();
         }
       }
       /**
        * <code>._AddRoleStatus add_role_status = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus, emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus.Builder, emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatusOrBuilder> 
+          emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus, emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus.Builder, emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatusOrBuilder> 
           getAddRoleStatusFieldBuilder() {
         if (addRoleStatusBuilder_ == null) {
           if (!(detailCase_ == 15)) {
-            detail_ = emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus.getDefaultInstance();
           }
           addRoleStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus, emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus.Builder, emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatusOrBuilder>(
-                  (emu.grasscutter.net.proto.AddRoleStatus._AddRoleStatus) detail_,
+              emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus, emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus.Builder, emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatusOrBuilder>(
+                  (emu.grasscutter.net.proto._AddRoleStatusOuterClass._AddRoleStatus) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2385,7 +2385,7 @@ public final class OCBGIKBDLNHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus, emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus.Builder, emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatusOrBuilder> removeRoleStatusBuilder_;
+          emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus, emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus.Builder, emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatusOrBuilder> removeRoleStatusBuilder_;
       /**
        * <code>._RemoveRoleStatus remove_role_status = 16;</code>
        * @return Whether the removeRoleStatus field is set.
@@ -2399,23 +2399,23 @@ public final class OCBGIKBDLNHOuterClass {
        * @return The removeRoleStatus.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus getRemoveRoleStatus() {
+      public emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus getRemoveRoleStatus() {
         if (removeRoleStatusBuilder_ == null) {
           if (detailCase_ == 16) {
-            return (emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus) detail_;
+            return (emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus) detail_;
           }
-          return emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus.getDefaultInstance();
+          return emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus.getDefaultInstance();
         } else {
           if (detailCase_ == 16) {
             return removeRoleStatusBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus.getDefaultInstance();
+          return emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus.getDefaultInstance();
         }
       }
       /**
        * <code>._RemoveRoleStatus remove_role_status = 16;</code>
        */
-      public Builder setRemoveRoleStatus(emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus value) {
+      public Builder setRemoveRoleStatus(emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus value) {
         if (removeRoleStatusBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2432,7 +2432,7 @@ public final class OCBGIKBDLNHOuterClass {
        * <code>._RemoveRoleStatus remove_role_status = 16;</code>
        */
       public Builder setRemoveRoleStatus(
-          emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus.Builder builderForValue) {
+          emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus.Builder builderForValue) {
         if (removeRoleStatusBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2445,11 +2445,11 @@ public final class OCBGIKBDLNHOuterClass {
       /**
        * <code>._RemoveRoleStatus remove_role_status = 16;</code>
        */
-      public Builder mergeRemoveRoleStatus(emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus value) {
+      public Builder mergeRemoveRoleStatus(emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus value) {
         if (removeRoleStatusBuilder_ == null) {
           if (detailCase_ == 16 &&
-              detail_ != emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus.newBuilder((emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus) detail_)
+              detail_ != emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus.newBuilder((emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2486,36 +2486,36 @@ public final class OCBGIKBDLNHOuterClass {
       /**
        * <code>._RemoveRoleStatus remove_role_status = 16;</code>
        */
-      public emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus.Builder getRemoveRoleStatusBuilder() {
+      public emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus.Builder getRemoveRoleStatusBuilder() {
         return getRemoveRoleStatusFieldBuilder().getBuilder();
       }
       /**
        * <code>._RemoveRoleStatus remove_role_status = 16;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatusOrBuilder getRemoveRoleStatusOrBuilder() {
+      public emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatusOrBuilder getRemoveRoleStatusOrBuilder() {
         if ((detailCase_ == 16) && (removeRoleStatusBuilder_ != null)) {
           return removeRoleStatusBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 16) {
-            return (emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus) detail_;
+            return (emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus) detail_;
           }
-          return emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus.getDefaultInstance();
+          return emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus.getDefaultInstance();
         }
       }
       /**
        * <code>._RemoveRoleStatus remove_role_status = 16;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus, emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus.Builder, emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatusOrBuilder> 
+          emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus, emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus.Builder, emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatusOrBuilder> 
           getRemoveRoleStatusFieldBuilder() {
         if (removeRoleStatusBuilder_ == null) {
           if (!(detailCase_ == 16)) {
-            detail_ = emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus.getDefaultInstance();
           }
           removeRoleStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus, emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus.Builder, emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatusOrBuilder>(
-                  (emu.grasscutter.net.proto.RemoveRoleStatus._RemoveRoleStatus) detail_,
+              emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus, emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus.Builder, emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatusOrBuilder>(
+                  (emu.grasscutter.net.proto._RemoveRoleStatusOuterClass._RemoveRoleStatus) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2526,7 +2526,7 @@ public final class OCBGIKBDLNHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect, emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect.Builder, emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffectOrBuilder> bulletFireEffectBuilder_;
+          emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect, emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect.Builder, emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffectOrBuilder> bulletFireEffectBuilder_;
       /**
        * <code>._BulletFireEffect bullet_fire_effect = 17;</code>
        * @return Whether the bulletFireEffect field is set.
@@ -2540,23 +2540,23 @@ public final class OCBGIKBDLNHOuterClass {
        * @return The bulletFireEffect.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect getBulletFireEffect() {
+      public emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect getBulletFireEffect() {
         if (bulletFireEffectBuilder_ == null) {
           if (detailCase_ == 17) {
-            return (emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect) detail_;
+            return (emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect) detail_;
           }
-          return emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect.getDefaultInstance();
+          return emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect.getDefaultInstance();
         } else {
           if (detailCase_ == 17) {
             return bulletFireEffectBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect.getDefaultInstance();
+          return emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect.getDefaultInstance();
         }
       }
       /**
        * <code>._BulletFireEffect bullet_fire_effect = 17;</code>
        */
-      public Builder setBulletFireEffect(emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect value) {
+      public Builder setBulletFireEffect(emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect value) {
         if (bulletFireEffectBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2573,7 +2573,7 @@ public final class OCBGIKBDLNHOuterClass {
        * <code>._BulletFireEffect bullet_fire_effect = 17;</code>
        */
       public Builder setBulletFireEffect(
-          emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect.Builder builderForValue) {
+          emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect.Builder builderForValue) {
         if (bulletFireEffectBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2586,11 +2586,11 @@ public final class OCBGIKBDLNHOuterClass {
       /**
        * <code>._BulletFireEffect bullet_fire_effect = 17;</code>
        */
-      public Builder mergeBulletFireEffect(emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect value) {
+      public Builder mergeBulletFireEffect(emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect value) {
         if (bulletFireEffectBuilder_ == null) {
           if (detailCase_ == 17 &&
-              detail_ != emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect.newBuilder((emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect) detail_)
+              detail_ != emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect.newBuilder((emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2627,36 +2627,36 @@ public final class OCBGIKBDLNHOuterClass {
       /**
        * <code>._BulletFireEffect bullet_fire_effect = 17;</code>
        */
-      public emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect.Builder getBulletFireEffectBuilder() {
+      public emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect.Builder getBulletFireEffectBuilder() {
         return getBulletFireEffectFieldBuilder().getBuilder();
       }
       /**
        * <code>._BulletFireEffect bullet_fire_effect = 17;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffectOrBuilder getBulletFireEffectOrBuilder() {
+      public emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffectOrBuilder getBulletFireEffectOrBuilder() {
         if ((detailCase_ == 17) && (bulletFireEffectBuilder_ != null)) {
           return bulletFireEffectBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 17) {
-            return (emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect) detail_;
+            return (emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect) detail_;
           }
-          return emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect.getDefaultInstance();
+          return emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect.getDefaultInstance();
         }
       }
       /**
        * <code>._BulletFireEffect bullet_fire_effect = 17;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect, emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect.Builder, emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffectOrBuilder> 
+          emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect, emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect.Builder, emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffectOrBuilder> 
           getBulletFireEffectFieldBuilder() {
         if (bulletFireEffectBuilder_ == null) {
           if (!(detailCase_ == 17)) {
-            detail_ = emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect.getDefaultInstance();
           }
           bulletFireEffectBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect, emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect.Builder, emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffectOrBuilder>(
-                  (emu.grasscutter.net.proto.BulletFireEffect._BulletFireEffect) detail_,
+              emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect, emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect.Builder, emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffectOrBuilder>(
+                  (emu.grasscutter.net.proto._BulletFireEffectOuterClass._BulletFireEffect) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2667,7 +2667,7 @@ public final class OCBGIKBDLNHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Heal._Heal, emu.grasscutter.net.proto.Heal._Heal.Builder, emu.grasscutter.net.proto.Heal._HealOrBuilder> healBuilder_;
+          emu.grasscutter.net.proto._HealOuterClass._Heal, emu.grasscutter.net.proto._HealOuterClass._Heal.Builder, emu.grasscutter.net.proto._HealOuterClass._HealOrBuilder> healBuilder_;
       /**
        * <code>._Heal heal = 18;</code>
        * @return Whether the heal field is set.
@@ -2681,23 +2681,23 @@ public final class OCBGIKBDLNHOuterClass {
        * @return The heal.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Heal._Heal getHeal() {
+      public emu.grasscutter.net.proto._HealOuterClass._Heal getHeal() {
         if (healBuilder_ == null) {
           if (detailCase_ == 18) {
-            return (emu.grasscutter.net.proto.Heal._Heal) detail_;
+            return (emu.grasscutter.net.proto._HealOuterClass._Heal) detail_;
           }
-          return emu.grasscutter.net.proto.Heal._Heal.getDefaultInstance();
+          return emu.grasscutter.net.proto._HealOuterClass._Heal.getDefaultInstance();
         } else {
           if (detailCase_ == 18) {
             return healBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.Heal._Heal.getDefaultInstance();
+          return emu.grasscutter.net.proto._HealOuterClass._Heal.getDefaultInstance();
         }
       }
       /**
        * <code>._Heal heal = 18;</code>
        */
-      public Builder setHeal(emu.grasscutter.net.proto.Heal._Heal value) {
+      public Builder setHeal(emu.grasscutter.net.proto._HealOuterClass._Heal value) {
         if (healBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2714,7 +2714,7 @@ public final class OCBGIKBDLNHOuterClass {
        * <code>._Heal heal = 18;</code>
        */
       public Builder setHeal(
-          emu.grasscutter.net.proto.Heal._Heal.Builder builderForValue) {
+          emu.grasscutter.net.proto._HealOuterClass._Heal.Builder builderForValue) {
         if (healBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2727,11 +2727,11 @@ public final class OCBGIKBDLNHOuterClass {
       /**
        * <code>._Heal heal = 18;</code>
        */
-      public Builder mergeHeal(emu.grasscutter.net.proto.Heal._Heal value) {
+      public Builder mergeHeal(emu.grasscutter.net.proto._HealOuterClass._Heal value) {
         if (healBuilder_ == null) {
           if (detailCase_ == 18 &&
-              detail_ != emu.grasscutter.net.proto.Heal._Heal.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.Heal._Heal.newBuilder((emu.grasscutter.net.proto.Heal._Heal) detail_)
+              detail_ != emu.grasscutter.net.proto._HealOuterClass._Heal.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._HealOuterClass._Heal.newBuilder((emu.grasscutter.net.proto._HealOuterClass._Heal) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2768,36 +2768,36 @@ public final class OCBGIKBDLNHOuterClass {
       /**
        * <code>._Heal heal = 18;</code>
        */
-      public emu.grasscutter.net.proto.Heal._Heal.Builder getHealBuilder() {
+      public emu.grasscutter.net.proto._HealOuterClass._Heal.Builder getHealBuilder() {
         return getHealFieldBuilder().getBuilder();
       }
       /**
        * <code>._Heal heal = 18;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Heal._HealOrBuilder getHealOrBuilder() {
+      public emu.grasscutter.net.proto._HealOuterClass._HealOrBuilder getHealOrBuilder() {
         if ((detailCase_ == 18) && (healBuilder_ != null)) {
           return healBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 18) {
-            return (emu.grasscutter.net.proto.Heal._Heal) detail_;
+            return (emu.grasscutter.net.proto._HealOuterClass._Heal) detail_;
           }
-          return emu.grasscutter.net.proto.Heal._Heal.getDefaultInstance();
+          return emu.grasscutter.net.proto._HealOuterClass._Heal.getDefaultInstance();
         }
       }
       /**
        * <code>._Heal heal = 18;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Heal._Heal, emu.grasscutter.net.proto.Heal._Heal.Builder, emu.grasscutter.net.proto.Heal._HealOrBuilder> 
+          emu.grasscutter.net.proto._HealOuterClass._Heal, emu.grasscutter.net.proto._HealOuterClass._Heal.Builder, emu.grasscutter.net.proto._HealOuterClass._HealOrBuilder> 
           getHealFieldBuilder() {
         if (healBuilder_ == null) {
           if (!(detailCase_ == 18)) {
-            detail_ = emu.grasscutter.net.proto.Heal._Heal.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._HealOuterClass._Heal.getDefaultInstance();
           }
           healBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.Heal._Heal, emu.grasscutter.net.proto.Heal._Heal.Builder, emu.grasscutter.net.proto.Heal._HealOrBuilder>(
-                  (emu.grasscutter.net.proto.Heal._Heal) detail_,
+              emu.grasscutter.net.proto._HealOuterClass._Heal, emu.grasscutter.net.proto._HealOuterClass._Heal.Builder, emu.grasscutter.net.proto._HealOuterClass._HealOrBuilder>(
+                  (emu.grasscutter.net.proto._HealOuterClass._Heal) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2890,21 +2890,21 @@ public final class OCBGIKBDLNHOuterClass {
       "\022remove_role_status\030\020 \001(\0132\022._RemoveRoleS" +
       "tatusH\000\0220\n\022bullet_fire_effect\030\021 \001(\0132\022._B" +
       "ulletFireEffectH\000\022\026\n\004heal\030\022 \001(\0132\006._HealH" +
-      "\000B\010\n\006detailB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "\000B\010\n\006detailB2\n\031emu.grasscutter.net.proto" +
+      "B\025OCBGIKBDLNHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.EJJAPIHKCLEOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.KIDJEINHJCBOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.AddRoleStatus.getDescriptor(),
-          emu.grasscutter.net.proto.BulletFireEffect.getDescriptor(),
-          emu.grasscutter.net.proto.BulletTriggerBullet.getDescriptor(),
-          emu.grasscutter.net.proto.DamageByAttackVal.getDescriptor(),
-          emu.grasscutter.net.proto.Heal.getDescriptor(),
-          emu.grasscutter.net.proto.KillSelf.getDescriptor(),
-          emu.grasscutter.net.proto.RemoveRoleStatus.getDescriptor(),
+          emu.grasscutter.net.proto._AddRoleStatusOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BulletFireEffectOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BulletTriggerBulletOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._DamageByAttackValOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._HealOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._KillSelfOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._RemoveRoleStatusOuterClass.getDescriptor(),
         });
     internal_static_OCBGIKBDLNH_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2914,13 +2914,13 @@ public final class OCBGIKBDLNHOuterClass {
         new java.lang.String[] { "ConfigId", "ActionType", "CLPOAPOEENH", "GGKHHMHHMHB", "TriggerAttackEvent", "DamageByAttackVal", "KillSelf", "BulletTriggerBullet", "AddRoleStatus", "RemoveRoleStatus", "BulletFireEffect", "Heal", "Detail", });
     emu.grasscutter.net.proto.EJJAPIHKCLEOuterClass.getDescriptor();
     emu.grasscutter.net.proto.KIDJEINHJCBOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.AddRoleStatus.getDescriptor();
-    emu.grasscutter.net.proto.BulletFireEffect.getDescriptor();
-    emu.grasscutter.net.proto.BulletTriggerBullet.getDescriptor();
-    emu.grasscutter.net.proto.DamageByAttackVal.getDescriptor();
-    emu.grasscutter.net.proto.Heal.getDescriptor();
-    emu.grasscutter.net.proto.KillSelf.getDescriptor();
-    emu.grasscutter.net.proto.RemoveRoleStatus.getDescriptor();
+    emu.grasscutter.net.proto._AddRoleStatusOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BulletFireEffectOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BulletTriggerBulletOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._DamageByAttackValOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._HealOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._KillSelfOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._RemoveRoleStatusOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

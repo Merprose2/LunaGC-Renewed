@@ -659,8 +659,9 @@ public final class ChessNormalCardInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031ChessNormalCardInfo.proto\"T\n\023ChessNorm" +
       "alCardInfo\022\023\n\013cost_points\030\002 \001(\r\022\017\n\007card_" +
-      "id\030\n \001(\r\022\027\n\017is_attach_curse\030\017 \001(\010B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "id\030\n \001(\r\022\027\n\017is_attach_curse\030\017 \001(\010B:\n\031emu" +
+      ".grasscutter.net.protoB\035ChessNormalCardI" +
+      "nfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

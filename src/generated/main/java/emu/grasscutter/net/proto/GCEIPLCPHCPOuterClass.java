@@ -1672,8 +1672,8 @@ public final class GCEIPLCPHCPOuterClass {
       "\003 \001(\0132\014.FPINNIEHHMI\022\"\n\013MBABFECBGIP\030\370\003 \001(" +
       "\0132\014.GCJLKIJBFLB\022\"\n\013OJDLDHKCEIG\030\371\003 \001(\0132\014." +
       "GCJLKIJBFLB\022\"\n\013CPIEIEMMOEC\030\372\003 \001(\0132\014.GCJL" +
-      "KIJBFLBB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "KIJBFLBB2\n\031emu.grasscutter.net.protoB\025GC" +
+      "EIPLCPHCPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

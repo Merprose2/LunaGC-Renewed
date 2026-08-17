@@ -721,8 +721,8 @@ public final class HitTreeInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HitTreeInfo.proto\032\014Vector.proto\";\n\013Hit" +
       "TreeInfo\022\021\n\ttree_type\030\007 \001(\r\022\031\n\010tree_pos\030" +
-      "\n \001(\0132\007.VectorB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "\n \001(\0132\007.VectorB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025HitTreeInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

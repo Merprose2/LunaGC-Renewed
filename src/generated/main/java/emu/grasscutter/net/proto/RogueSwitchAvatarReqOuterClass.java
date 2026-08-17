@@ -865,8 +865,9 @@ public final class RogueSwitchAvatarReqOuterClass {
       "\n\032RogueSwitchAvatarReq.proto\"v\n\024RogueSwi" +
       "tchAvatarReq\022 \n\030onstage_avatar_guid_list" +
       "\030\007 \003(\004\022\022\n\ndungeon_id\030\010 \001(\r\022\017\n\007cell_id\030\n " +
-      "\001(\r\022\027\n\017cur_avatar_guid\030\014 \001(\004B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\001(\r\022\027\n\017cur_avatar_guid\030\014 \001(\004B;\n\031emu.gras" +
+      "scutter.net.protoB\036RogueSwitchAvatarReqO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

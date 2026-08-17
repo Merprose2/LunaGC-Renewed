@@ -664,7 +664,8 @@ public final class AvatarSatiationDataOuterClass {
       "\n\031AvatarSatiationData.proto\"\\\n\023AvatarSat" +
       "iationData\022\023\n\013finish_time\030\t \001(\002\022\023\n\013avata" +
       "r_guid\030\n \001(\004\022\033\n\023penalty_finish_time\030\014 \001(" +
-      "\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\002B:\n\031emu.grasscutter.net.protoB\035AvatarSa" +
+      "tiationDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

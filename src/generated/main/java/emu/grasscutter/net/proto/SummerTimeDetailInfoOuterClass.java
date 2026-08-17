@@ -1123,8 +1123,9 @@ public final class SummerTimeDetailInfoOuterClass {
       "ontent_close_time\030\016 \001(\r\0223\n\020sprint_boat_i" +
       "nfo\030\017 \001(\0132\031.SummerTimeSprintBoatInfo\032E\n\r" +
       "StageMapEntry\022\013\n\003key\030\001 \001(\r\022#\n\005value\030\002 \001(" +
-      "\0132\024.SummerTimeStageInfo:\0028\001B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\0132\024.SummerTimeStageInfo:\0028\001B;\n\031emu.grass" +
+      "cutter.net.protoB\036SummerTimeDetailInfoOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

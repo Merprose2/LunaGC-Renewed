@@ -1262,8 +1262,8 @@ public final class FallSettleInfoOuterClass {
       "ime\030\010 \001(\r\022\013\n\003uid\030\t \001(\r\022\023\n\013final_score\030\r " +
       "\001(\r\022\023\n\013catch_count\030\017 \001(\r\032>\n\034FlowerRingCa" +
       "tchCountMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002" +
-      " \001(\r:\0028\001B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      " \001(\r:\0028\001B5\n\031emu.grasscutter.net.protoB\030F" +
+      "allSettleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

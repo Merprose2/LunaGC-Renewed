@@ -2467,8 +2467,9 @@ public final class GCGSkillPreviewNotifyOuterClass {
       "uid\030\007 \001(\r\0220\n\022skill_preview_list\030\013 \003(\0132\024." +
       "GCGSkillPreviewInfo\022\025\n\rcontroller_id\030\014 \001" +
       "(\r\022!\n\013FKFILGOCAHK\030\r \003(\0132\014.MIHONGDNPKB\022!\n" +
-      "\013FAIGEGFGLAK\030\016 \003(\0132\014.OHPHLFIMNDMB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\013FAIGEGFGLAK\030\016 \003(\0132\014.OHPHLFIMNDMB<\n\031emu." +
+      "grasscutter.net.protoB\037GCGSkillPreviewNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

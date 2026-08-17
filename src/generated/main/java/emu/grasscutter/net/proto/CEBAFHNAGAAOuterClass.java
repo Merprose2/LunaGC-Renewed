@@ -155,8 +155,8 @@ public final class CEBAFHNAGAAOuterClass {
       "ER_DISMISS_NORMAL\020\001\0228\n4CEBAFHNAGAA_DUNGE" +
       "ON_TEAM_BUILDER_DISMISS_OWNER_LEAVE\020\002\022;\n" +
       "7CEBAFHNAGAA_DUNGEON_TEAM_BUILDER_DISMIS" +
-      "S_ACTIVITY_CLOSE\020\003B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "S_ACTIVITY_CLOSE\020\003B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025CEBAFHNAGAAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

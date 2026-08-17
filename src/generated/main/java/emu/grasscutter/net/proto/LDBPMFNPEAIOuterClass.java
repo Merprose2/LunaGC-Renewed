@@ -1170,8 +1170,9 @@ public final class LDBPMFNPEAIOuterClass {
       "DFMMM\030\003 \001(\002\022\023\n\013DGAGAOLJFOG\030\004 \001(\005\022\023\n\013BADP" +
       "EBLGNEH\030\005 \001(\002\022\023\n\013EOAEDAIGKKA\030\006 \001(\005\022\023\n\013JG" +
       "PHOBGDBKI\030\007 \001(\004\022\023\n\013MNGKFLPKGHL\030\010 \001(\004\022\023\n\013" +
-      "HJJBCHEKCOP\030\t \001(\004\022\023\n\013HGPJNPDCIGL\030\n \001(\005B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "HJJBCHEKCOP\030\t \001(\004\022\023\n\013HGPJNPDCIGL\030\n \001(\005B2" +
+      "\n\031emu.grasscutter.net.protoB\025LDBPMFNPEAI" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

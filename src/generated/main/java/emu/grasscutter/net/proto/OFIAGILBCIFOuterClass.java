@@ -152,8 +152,8 @@ public final class OFIAGILBCIFOuterClass {
       "\n\021OFIAGILBCIF.proto*g\n\013OFIAGILBCIF\022\024\n\020OF" +
       "IAGILBCIF_NONE\020\000\022\024\n\020OFIAGILBCIF_SUCC\020\001\022\024" +
       "\n\020OFIAGILBCIF_FAIL\020\002\022\026\n\022OFIAGILBCIF_ESCA" +
-      "PE\020\003B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "PE\020\003B2\n\031emu.grasscutter.net.protoB\025OFIAG" +
+      "ILBCIFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

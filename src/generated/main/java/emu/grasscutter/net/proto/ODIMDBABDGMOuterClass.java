@@ -595,8 +595,9 @@ public final class ODIMDBABDGMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ODIMDBABDGM.proto\".\n\013ODIMDBABDGM\022\n\n\002id" +
-      "\030\003 \001(\r\022\023\n\013KLJHKEHNPNB\030\n \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\030\003 \001(\r\022\023\n\013KLJHKEHNPNB\030\n \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025ODIMDBABDGMOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

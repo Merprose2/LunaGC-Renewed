@@ -895,7 +895,8 @@ public final class HomeFurnitureGroupDataOuterClass {
       "itureData.proto\"j\n\026HomeFurnitureGroupDat" +
       "a\0221\n\025virtual_furniure_list\030\001 \003(\0132\022.HomeF" +
       "urnitureData\022\035\n\025group_furniture_index\030\t " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB=\n\031emu.grasscutter.net.protoB HomeFu" +
+      "rnitureGroupDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

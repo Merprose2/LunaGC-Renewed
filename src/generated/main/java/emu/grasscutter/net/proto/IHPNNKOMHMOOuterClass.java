@@ -196,12 +196,12 @@ public final class IHPNNKOMHMOOuterClass {
     /**
      * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo> 
+    java.util.List<emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo> 
         getECEFFKLCOHIList();
     /**
      * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
      */
-    emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo getECEFFKLCOHI(int index);
+    emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo getECEFFKLCOHI(int index);
     /**
      * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
      */
@@ -209,12 +209,12 @@ public final class IHPNNKOMHMOOuterClass {
     /**
      * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder> 
         getECEFFKLCOHIOrBuilderList();
     /**
      * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
      */
-    emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder getECEFFKLCOHIOrBuilder(
+    emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder getECEFFKLCOHIOrBuilder(
         int index);
 
     /**
@@ -459,11 +459,11 @@ public final class IHPNNKOMHMOOuterClass {
             }
             case 98: {
               if (!((mutable_bitField0_ & 0x00000008) != 0)) {
-                eCEFFKLCOHI_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo>();
+                eCEFFKLCOHI_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo>();
                 mutable_bitField0_ |= 0x00000008;
               }
               eCEFFKLCOHI_.add(
-                  input.readMessage(emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.parser(), extensionRegistry));
               break;
             }
             case 106: {
@@ -900,19 +900,19 @@ public final class IHPNNKOMHMOOuterClass {
     }
 
     public static final int ECEFFKLCOHI_FIELD_NUMBER = 12;
-    private java.util.List<emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo> eCEFFKLCOHI_;
+    private java.util.List<emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo> eCEFFKLCOHI_;
     /**
      * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo> getECEFFKLCOHIList() {
+    public java.util.List<emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo> getECEFFKLCOHIList() {
       return eCEFFKLCOHI_;
     }
     /**
      * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder> 
         getECEFFKLCOHIOrBuilderList() {
       return eCEFFKLCOHI_;
     }
@@ -927,14 +927,14 @@ public final class IHPNNKOMHMOOuterClass {
      * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo getECEFFKLCOHI(int index) {
+    public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo getECEFFKLCOHI(int index) {
       return eCEFFKLCOHI_.get(index);
     }
     /**
      * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder getECEFFKLCOHIOrBuilder(
+    public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder getECEFFKLCOHIOrBuilder(
         int index) {
       return eCEFFKLCOHI_.get(index);
     }
@@ -3236,22 +3236,22 @@ public final class IHPNNKOMHMOOuterClass {
         return kDCJOFGAGMGBuilder_;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo> eCEFFKLCOHI_ =
+      private java.util.List<emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo> eCEFFKLCOHI_ =
         java.util.Collections.emptyList();
       private void ensureECEFFKLCOHIIsMutable() {
         if (!((bitField0_ & 0x00000008) != 0)) {
-          eCEFFKLCOHI_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo>(eCEFFKLCOHI_);
+          eCEFFKLCOHI_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo>(eCEFFKLCOHI_);
           bitField0_ |= 0x00000008;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder> eCEFFKLCOHIBuilder_;
+          emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder> eCEFFKLCOHIBuilder_;
 
       /**
        * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo> getECEFFKLCOHIList() {
+      public java.util.List<emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo> getECEFFKLCOHIList() {
         if (eCEFFKLCOHIBuilder_ == null) {
           return java.util.Collections.unmodifiableList(eCEFFKLCOHI_);
         } else {
@@ -3271,7 +3271,7 @@ public final class IHPNNKOMHMOOuterClass {
       /**
        * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo getECEFFKLCOHI(int index) {
+      public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo getECEFFKLCOHI(int index) {
         if (eCEFFKLCOHIBuilder_ == null) {
           return eCEFFKLCOHI_.get(index);
         } else {
@@ -3282,7 +3282,7 @@ public final class IHPNNKOMHMOOuterClass {
        * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
        */
       public Builder setECEFFKLCOHI(
-          int index, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo value) {
+          int index, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo value) {
         if (eCEFFKLCOHIBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3299,7 +3299,7 @@ public final class IHPNNKOMHMOOuterClass {
        * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
        */
       public Builder setECEFFKLCOHI(
-          int index, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder builderForValue) {
         if (eCEFFKLCOHIBuilder_ == null) {
           ensureECEFFKLCOHIIsMutable();
           eCEFFKLCOHI_.set(index, builderForValue.build());
@@ -3312,7 +3312,7 @@ public final class IHPNNKOMHMOOuterClass {
       /**
        * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
        */
-      public Builder addECEFFKLCOHI(emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo value) {
+      public Builder addECEFFKLCOHI(emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo value) {
         if (eCEFFKLCOHIBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3329,7 +3329,7 @@ public final class IHPNNKOMHMOOuterClass {
        * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
        */
       public Builder addECEFFKLCOHI(
-          int index, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo value) {
+          int index, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo value) {
         if (eCEFFKLCOHIBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3346,7 +3346,7 @@ public final class IHPNNKOMHMOOuterClass {
        * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
        */
       public Builder addECEFFKLCOHI(
-          emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder builderForValue) {
         if (eCEFFKLCOHIBuilder_ == null) {
           ensureECEFFKLCOHIIsMutable();
           eCEFFKLCOHI_.add(builderForValue.build());
@@ -3360,7 +3360,7 @@ public final class IHPNNKOMHMOOuterClass {
        * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
        */
       public Builder addECEFFKLCOHI(
-          int index, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder builderForValue) {
         if (eCEFFKLCOHIBuilder_ == null) {
           ensureECEFFKLCOHIIsMutable();
           eCEFFKLCOHI_.add(index, builderForValue.build());
@@ -3374,7 +3374,7 @@ public final class IHPNNKOMHMOOuterClass {
        * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
        */
       public Builder addAllECEFFKLCOHI(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo> values) {
         if (eCEFFKLCOHIBuilder_ == null) {
           ensureECEFFKLCOHIIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -3414,14 +3414,14 @@ public final class IHPNNKOMHMOOuterClass {
       /**
        * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder getECEFFKLCOHIBuilder(
+      public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder getECEFFKLCOHIBuilder(
           int index) {
         return getECEFFKLCOHIFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder getECEFFKLCOHIOrBuilder(
+      public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder getECEFFKLCOHIOrBuilder(
           int index) {
         if (eCEFFKLCOHIBuilder_ == null) {
           return eCEFFKLCOHI_.get(index);  } else {
@@ -3431,7 +3431,7 @@ public final class IHPNNKOMHMOOuterClass {
       /**
        * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder> 
            getECEFFKLCOHIOrBuilderList() {
         if (eCEFFKLCOHIBuilder_ != null) {
           return eCEFFKLCOHIBuilder_.getMessageOrBuilderList();
@@ -3442,31 +3442,31 @@ public final class IHPNNKOMHMOOuterClass {
       /**
        * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder addECEFFKLCOHIBuilder() {
+      public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder addECEFFKLCOHIBuilder() {
         return getECEFFKLCOHIFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder addECEFFKLCOHIBuilder(
+      public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder addECEFFKLCOHIBuilder(
           int index) {
         return getECEFFKLCOHIFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondPlayerSocialInfo ECEFFKLCOHI = 12;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder> 
            getECEFFKLCOHIBuilderList() {
         return getECEFFKLCOHIFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder> 
+          emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder> 
           getECEFFKLCOHIFieldBuilder() {
         if (eCEFFKLCOHIBuilder_ == null) {
           eCEFFKLCOHIBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder>(
+              emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder>(
                   eCEFFKLCOHI_,
                   ((bitField0_ & 0x00000008) != 0),
                   getParentForChildren(),
@@ -4197,8 +4197,8 @@ public final class IHPNNKOMHMOOuterClass {
       "PPNLDHBAMM\022\"\n\013FEPGCBBGCID\030\266\001 \003(\0132\014.CHLCO" +
       "IFFJCP\022\"\n\013MNMCDCGHBAE\030\255\016 \001(\0132\014.IAIBNPHGC" +
       "IH\0322\n\020BNOFGEFGGHAEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005v" +
-      "alue\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "alue\030\002 \001(\r:\0028\001B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025IHPNNKOMHMOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -4214,7 +4214,7 @@ public final class IHPNNKOMHMOOuterClass {
           emu.grasscutter.net.proto.ODDNMCOLJJKOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PFEMHKFPKKJOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PLCEFPMEAHKOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondPlayerSocialInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass.getDescriptor(),
         });
     internal_static_IHPNNKOMHMO_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -4239,7 +4239,7 @@ public final class IHPNNKOMHMOOuterClass {
     emu.grasscutter.net.proto.ODDNMCOLJJKOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PFEMHKFPKKJOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PLCEFPMEAHKOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BeyondPlayerSocialInfo.getDescriptor();
+    emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

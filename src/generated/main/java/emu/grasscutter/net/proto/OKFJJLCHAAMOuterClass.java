@@ -661,8 +661,8 @@ public final class OKFJJLCHAAMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OKFJJLCHAAM.proto\"F\n\013OKFJJLCHAAM\022\021\n\tis" +
       "_active\030\001 \001(\010\022\017\n\007is_show\030\002 \001(\010\022\023\n\013LGHFIJ" +
-      "LEMJE\030\003 \001(\010B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "LEMJE\030\003 \001(\010B2\n\031emu.grasscutter.net.proto" +
+      "B\025OKFJJLCHAAMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

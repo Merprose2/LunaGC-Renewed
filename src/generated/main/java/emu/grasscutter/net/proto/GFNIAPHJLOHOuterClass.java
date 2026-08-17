@@ -1848,8 +1848,9 @@ public final class GFNIAPHJLOHOuterClass {
       "PODHNA\030\001 \001(\014\022!\n\013BOGBFJDGFEM\030\002 \003(\0132\014.ABGH" +
       "PADFCDP\022!\n\013KPJBKLDGJII\030\003 \003(\0132\014.GLKACKEMH" +
       "JD\022!\n\013MAJBGFHDIFD\030\004 \003(\0132\014.NNCGIKLNBNA\022!\n" +
-      "\013FGBGDMCHLCC\030\005 \001(\0132\014.JPJGHOMJMAKB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\013FGBGDMCHLCC\030\005 \001(\0132\014.JPJGHOMJMAKB2\n\031emu." +
+      "grasscutter.net.protoB\025GFNIAPHJLOHOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

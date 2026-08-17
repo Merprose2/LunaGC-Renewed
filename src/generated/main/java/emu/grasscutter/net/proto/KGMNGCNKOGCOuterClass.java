@@ -49,11 +49,11 @@ public final class KGMNGCNKOGCOuterClass {
      * <code>._StructInfo struct_info = 100;</code>
      * @return The structInfo.
      */
-    emu.grasscutter.net.proto.StructInfo._StructInfo getStructInfo();
+    emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo getStructInfo();
     /**
      * <code>._StructInfo struct_info = 100;</code>
      */
-    emu.grasscutter.net.proto.StructInfo._StructInfoOrBuilder getStructInfoOrBuilder();
+    emu.grasscutter.net.proto._StructInfoOuterClass._StructInfoOrBuilder getStructInfoOrBuilder();
 
     /**
      * <code>._StructListInfo struct_list_info = 101;</code>
@@ -64,11 +64,11 @@ public final class KGMNGCNKOGCOuterClass {
      * <code>._StructListInfo struct_list_info = 101;</code>
      * @return The structListInfo.
      */
-    emu.grasscutter.net.proto.StructListInfo._StructListInfo getStructListInfo();
+    emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo getStructListInfo();
     /**
      * <code>._StructListInfo struct_list_info = 101;</code>
      */
-    emu.grasscutter.net.proto.StructListInfo._StructListInfoOrBuilder getStructListInfoOrBuilder();
+    emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfoOrBuilder getStructListInfoOrBuilder();
 
     /**
      * <code>._ServerParamDictionaryInfo server_param_dictionary_info = 102;</code>
@@ -79,11 +79,11 @@ public final class KGMNGCNKOGCOuterClass {
      * <code>._ServerParamDictionaryInfo server_param_dictionary_info = 102;</code>
      * @return The serverParamDictionaryInfo.
      */
-    emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo getServerParamDictionaryInfo();
+    emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo getServerParamDictionaryInfo();
     /**
      * <code>._ServerParamDictionaryInfo server_param_dictionary_info = 102;</code>
      */
-    emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfoOrBuilder getServerParamDictionaryInfoOrBuilder();
+    emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfoOrBuilder getServerParamDictionaryInfoOrBuilder();
 
     /**
      * <code>._GenericsServerParamDictionaryInfo generics_server_param_dictionary_info = 103;</code>
@@ -94,11 +94,11 @@ public final class KGMNGCNKOGCOuterClass {
      * <code>._GenericsServerParamDictionaryInfo generics_server_param_dictionary_info = 103;</code>
      * @return The genericsServerParamDictionaryInfo.
      */
-    emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo getGenericsServerParamDictionaryInfo();
+    emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo getGenericsServerParamDictionaryInfo();
     /**
      * <code>._GenericsServerParamDictionaryInfo generics_server_param_dictionary_info = 103;</code>
      */
-    emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfoOrBuilder getGenericsServerParamDictionaryInfoOrBuilder();
+    emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfoOrBuilder getGenericsServerParamDictionaryInfoOrBuilder();
 
     public emu.grasscutter.net.proto.KGMNGCNKOGCOuterClass.KGMNGCNKOGC.DetailCase getDetailCase();
   }
@@ -162,56 +162,56 @@ public final class KGMNGCNKOGCOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.StructInfo._StructInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo.Builder subBuilder = null;
               if (detailCase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.StructInfo._StructInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.StructInfo._StructInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.StructInfo._StructInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 100;
               break;
             }
             case 810: {
-              emu.grasscutter.net.proto.StructListInfo._StructListInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo.Builder subBuilder = null;
               if (detailCase_ == 101) {
-                subBuilder = ((emu.grasscutter.net.proto.StructListInfo._StructListInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.StructListInfo._StructListInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.StructListInfo._StructListInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 101;
               break;
             }
             case 818: {
-              emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo.Builder subBuilder = null;
               if (detailCase_ == 102) {
-                subBuilder = ((emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 102;
               break;
             }
             case 826: {
-              emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo.Builder subBuilder = null;
               if (detailCase_ == 103) {
-                subBuilder = ((emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 103;
@@ -346,21 +346,21 @@ public final class KGMNGCNKOGCOuterClass {
      * @return The structInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StructInfo._StructInfo getStructInfo() {
+    public emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo getStructInfo() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.StructInfo._StructInfo) detail_;
+         return (emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo) detail_;
       }
-      return emu.grasscutter.net.proto.StructInfo._StructInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo.getDefaultInstance();
     }
     /**
      * <code>._StructInfo struct_info = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StructInfo._StructInfoOrBuilder getStructInfoOrBuilder() {
+    public emu.grasscutter.net.proto._StructInfoOuterClass._StructInfoOrBuilder getStructInfoOrBuilder() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.StructInfo._StructInfo) detail_;
+         return (emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo) detail_;
       }
-      return emu.grasscutter.net.proto.StructInfo._StructInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo.getDefaultInstance();
     }
 
     public static final int STRUCT_LIST_INFO_FIELD_NUMBER = 101;
@@ -377,21 +377,21 @@ public final class KGMNGCNKOGCOuterClass {
      * @return The structListInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StructListInfo._StructListInfo getStructListInfo() {
+    public emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo getStructListInfo() {
       if (detailCase_ == 101) {
-         return (emu.grasscutter.net.proto.StructListInfo._StructListInfo) detail_;
+         return (emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo) detail_;
       }
-      return emu.grasscutter.net.proto.StructListInfo._StructListInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo.getDefaultInstance();
     }
     /**
      * <code>._StructListInfo struct_list_info = 101;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StructListInfo._StructListInfoOrBuilder getStructListInfoOrBuilder() {
+    public emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfoOrBuilder getStructListInfoOrBuilder() {
       if (detailCase_ == 101) {
-         return (emu.grasscutter.net.proto.StructListInfo._StructListInfo) detail_;
+         return (emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo) detail_;
       }
-      return emu.grasscutter.net.proto.StructListInfo._StructListInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo.getDefaultInstance();
     }
 
     public static final int SERVER_PARAM_DICTIONARY_INFO_FIELD_NUMBER = 102;
@@ -408,21 +408,21 @@ public final class KGMNGCNKOGCOuterClass {
      * @return The serverParamDictionaryInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo getServerParamDictionaryInfo() {
+    public emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo getServerParamDictionaryInfo() {
       if (detailCase_ == 102) {
-         return (emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo) detail_;
+         return (emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo) detail_;
       }
-      return emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo.getDefaultInstance();
     }
     /**
      * <code>._ServerParamDictionaryInfo server_param_dictionary_info = 102;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfoOrBuilder getServerParamDictionaryInfoOrBuilder() {
+    public emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfoOrBuilder getServerParamDictionaryInfoOrBuilder() {
       if (detailCase_ == 102) {
-         return (emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo) detail_;
+         return (emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo) detail_;
       }
-      return emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo.getDefaultInstance();
     }
 
     public static final int GENERICS_SERVER_PARAM_DICTIONARY_INFO_FIELD_NUMBER = 103;
@@ -439,21 +439,21 @@ public final class KGMNGCNKOGCOuterClass {
      * @return The genericsServerParamDictionaryInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo getGenericsServerParamDictionaryInfo() {
+    public emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo getGenericsServerParamDictionaryInfo() {
       if (detailCase_ == 103) {
-         return (emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo) detail_;
+         return (emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo) detail_;
       }
-      return emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo.getDefaultInstance();
     }
     /**
      * <code>._GenericsServerParamDictionaryInfo generics_server_param_dictionary_info = 103;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfoOrBuilder getGenericsServerParamDictionaryInfoOrBuilder() {
+    public emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfoOrBuilder getGenericsServerParamDictionaryInfoOrBuilder() {
       if (detailCase_ == 103) {
-         return (emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo) detail_;
+         return (emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo) detail_;
       }
-      return emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -477,16 +477,16 @@ public final class KGMNGCNKOGCOuterClass {
         output.writeEnum(2, hNMKGFEDGJG_);
       }
       if (detailCase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.StructInfo._StructInfo) detail_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo) detail_);
       }
       if (detailCase_ == 101) {
-        output.writeMessage(101, (emu.grasscutter.net.proto.StructListInfo._StructListInfo) detail_);
+        output.writeMessage(101, (emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo) detail_);
       }
       if (detailCase_ == 102) {
-        output.writeMessage(102, (emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo) detail_);
+        output.writeMessage(102, (emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo) detail_);
       }
       if (detailCase_ == 103) {
-        output.writeMessage(103, (emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo) detail_);
+        output.writeMessage(103, (emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -507,19 +507,19 @@ public final class KGMNGCNKOGCOuterClass {
       }
       if (detailCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.StructInfo._StructInfo) detail_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo) detail_);
       }
       if (detailCase_ == 101) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(101, (emu.grasscutter.net.proto.StructListInfo._StructListInfo) detail_);
+          .computeMessageSize(101, (emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo) detail_);
       }
       if (detailCase_ == 102) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(102, (emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo) detail_);
+          .computeMessageSize(102, (emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo) detail_);
       }
       if (detailCase_ == 103) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(103, (emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo) detail_);
+          .computeMessageSize(103, (emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1018,7 +1018,7 @@ public final class KGMNGCNKOGCOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StructInfo._StructInfo, emu.grasscutter.net.proto.StructInfo._StructInfo.Builder, emu.grasscutter.net.proto.StructInfo._StructInfoOrBuilder> structInfoBuilder_;
+          emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo, emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo.Builder, emu.grasscutter.net.proto._StructInfoOuterClass._StructInfoOrBuilder> structInfoBuilder_;
       /**
        * <code>._StructInfo struct_info = 100;</code>
        * @return Whether the structInfo field is set.
@@ -1032,23 +1032,23 @@ public final class KGMNGCNKOGCOuterClass {
        * @return The structInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StructInfo._StructInfo getStructInfo() {
+      public emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo getStructInfo() {
         if (structInfoBuilder_ == null) {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.StructInfo._StructInfo) detail_;
+            return (emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo) detail_;
           }
-          return emu.grasscutter.net.proto.StructInfo._StructInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 100) {
             return structInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.StructInfo._StructInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._StructInfo struct_info = 100;</code>
        */
-      public Builder setStructInfo(emu.grasscutter.net.proto.StructInfo._StructInfo value) {
+      public Builder setStructInfo(emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo value) {
         if (structInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1065,7 +1065,7 @@ public final class KGMNGCNKOGCOuterClass {
        * <code>._StructInfo struct_info = 100;</code>
        */
       public Builder setStructInfo(
-          emu.grasscutter.net.proto.StructInfo._StructInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo.Builder builderForValue) {
         if (structInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1078,11 +1078,11 @@ public final class KGMNGCNKOGCOuterClass {
       /**
        * <code>._StructInfo struct_info = 100;</code>
        */
-      public Builder mergeStructInfo(emu.grasscutter.net.proto.StructInfo._StructInfo value) {
+      public Builder mergeStructInfo(emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo value) {
         if (structInfoBuilder_ == null) {
           if (detailCase_ == 100 &&
-              detail_ != emu.grasscutter.net.proto.StructInfo._StructInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.StructInfo._StructInfo.newBuilder((emu.grasscutter.net.proto.StructInfo._StructInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo.newBuilder((emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1119,36 +1119,36 @@ public final class KGMNGCNKOGCOuterClass {
       /**
        * <code>._StructInfo struct_info = 100;</code>
        */
-      public emu.grasscutter.net.proto.StructInfo._StructInfo.Builder getStructInfoBuilder() {
+      public emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo.Builder getStructInfoBuilder() {
         return getStructInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._StructInfo struct_info = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StructInfo._StructInfoOrBuilder getStructInfoOrBuilder() {
+      public emu.grasscutter.net.proto._StructInfoOuterClass._StructInfoOrBuilder getStructInfoOrBuilder() {
         if ((detailCase_ == 100) && (structInfoBuilder_ != null)) {
           return structInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.StructInfo._StructInfo) detail_;
+            return (emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo) detail_;
           }
-          return emu.grasscutter.net.proto.StructInfo._StructInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._StructInfo struct_info = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StructInfo._StructInfo, emu.grasscutter.net.proto.StructInfo._StructInfo.Builder, emu.grasscutter.net.proto.StructInfo._StructInfoOrBuilder> 
+          emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo, emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo.Builder, emu.grasscutter.net.proto._StructInfoOuterClass._StructInfoOrBuilder> 
           getStructInfoFieldBuilder() {
         if (structInfoBuilder_ == null) {
           if (!(detailCase_ == 100)) {
-            detail_ = emu.grasscutter.net.proto.StructInfo._StructInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo.getDefaultInstance();
           }
           structInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.StructInfo._StructInfo, emu.grasscutter.net.proto.StructInfo._StructInfo.Builder, emu.grasscutter.net.proto.StructInfo._StructInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.StructInfo._StructInfo) detail_,
+              emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo, emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo.Builder, emu.grasscutter.net.proto._StructInfoOuterClass._StructInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._StructInfoOuterClass._StructInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1159,7 +1159,7 @@ public final class KGMNGCNKOGCOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StructListInfo._StructListInfo, emu.grasscutter.net.proto.StructListInfo._StructListInfo.Builder, emu.grasscutter.net.proto.StructListInfo._StructListInfoOrBuilder> structListInfoBuilder_;
+          emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo, emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo.Builder, emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfoOrBuilder> structListInfoBuilder_;
       /**
        * <code>._StructListInfo struct_list_info = 101;</code>
        * @return Whether the structListInfo field is set.
@@ -1173,23 +1173,23 @@ public final class KGMNGCNKOGCOuterClass {
        * @return The structListInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StructListInfo._StructListInfo getStructListInfo() {
+      public emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo getStructListInfo() {
         if (structListInfoBuilder_ == null) {
           if (detailCase_ == 101) {
-            return (emu.grasscutter.net.proto.StructListInfo._StructListInfo) detail_;
+            return (emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo) detail_;
           }
-          return emu.grasscutter.net.proto.StructListInfo._StructListInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 101) {
             return structListInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.StructListInfo._StructListInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._StructListInfo struct_list_info = 101;</code>
        */
-      public Builder setStructListInfo(emu.grasscutter.net.proto.StructListInfo._StructListInfo value) {
+      public Builder setStructListInfo(emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo value) {
         if (structListInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1206,7 +1206,7 @@ public final class KGMNGCNKOGCOuterClass {
        * <code>._StructListInfo struct_list_info = 101;</code>
        */
       public Builder setStructListInfo(
-          emu.grasscutter.net.proto.StructListInfo._StructListInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo.Builder builderForValue) {
         if (structListInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1219,11 +1219,11 @@ public final class KGMNGCNKOGCOuterClass {
       /**
        * <code>._StructListInfo struct_list_info = 101;</code>
        */
-      public Builder mergeStructListInfo(emu.grasscutter.net.proto.StructListInfo._StructListInfo value) {
+      public Builder mergeStructListInfo(emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo value) {
         if (structListInfoBuilder_ == null) {
           if (detailCase_ == 101 &&
-              detail_ != emu.grasscutter.net.proto.StructListInfo._StructListInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.StructListInfo._StructListInfo.newBuilder((emu.grasscutter.net.proto.StructListInfo._StructListInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo.newBuilder((emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1260,36 +1260,36 @@ public final class KGMNGCNKOGCOuterClass {
       /**
        * <code>._StructListInfo struct_list_info = 101;</code>
        */
-      public emu.grasscutter.net.proto.StructListInfo._StructListInfo.Builder getStructListInfoBuilder() {
+      public emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo.Builder getStructListInfoBuilder() {
         return getStructListInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._StructListInfo struct_list_info = 101;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StructListInfo._StructListInfoOrBuilder getStructListInfoOrBuilder() {
+      public emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfoOrBuilder getStructListInfoOrBuilder() {
         if ((detailCase_ == 101) && (structListInfoBuilder_ != null)) {
           return structListInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 101) {
-            return (emu.grasscutter.net.proto.StructListInfo._StructListInfo) detail_;
+            return (emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo) detail_;
           }
-          return emu.grasscutter.net.proto.StructListInfo._StructListInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._StructListInfo struct_list_info = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StructListInfo._StructListInfo, emu.grasscutter.net.proto.StructListInfo._StructListInfo.Builder, emu.grasscutter.net.proto.StructListInfo._StructListInfoOrBuilder> 
+          emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo, emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo.Builder, emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfoOrBuilder> 
           getStructListInfoFieldBuilder() {
         if (structListInfoBuilder_ == null) {
           if (!(detailCase_ == 101)) {
-            detail_ = emu.grasscutter.net.proto.StructListInfo._StructListInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo.getDefaultInstance();
           }
           structListInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.StructListInfo._StructListInfo, emu.grasscutter.net.proto.StructListInfo._StructListInfo.Builder, emu.grasscutter.net.proto.StructListInfo._StructListInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.StructListInfo._StructListInfo) detail_,
+              emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo, emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo.Builder, emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._StructListInfoOuterClass._StructListInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1300,7 +1300,7 @@ public final class KGMNGCNKOGCOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo, emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo.Builder, emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfoOrBuilder> serverParamDictionaryInfoBuilder_;
+          emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo, emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo.Builder, emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfoOrBuilder> serverParamDictionaryInfoBuilder_;
       /**
        * <code>._ServerParamDictionaryInfo server_param_dictionary_info = 102;</code>
        * @return Whether the serverParamDictionaryInfo field is set.
@@ -1314,23 +1314,23 @@ public final class KGMNGCNKOGCOuterClass {
        * @return The serverParamDictionaryInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo getServerParamDictionaryInfo() {
+      public emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo getServerParamDictionaryInfo() {
         if (serverParamDictionaryInfoBuilder_ == null) {
           if (detailCase_ == 102) {
-            return (emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo) detail_;
+            return (emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo) detail_;
           }
-          return emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 102) {
             return serverParamDictionaryInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._ServerParamDictionaryInfo server_param_dictionary_info = 102;</code>
        */
-      public Builder setServerParamDictionaryInfo(emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo value) {
+      public Builder setServerParamDictionaryInfo(emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo value) {
         if (serverParamDictionaryInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1347,7 +1347,7 @@ public final class KGMNGCNKOGCOuterClass {
        * <code>._ServerParamDictionaryInfo server_param_dictionary_info = 102;</code>
        */
       public Builder setServerParamDictionaryInfo(
-          emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo.Builder builderForValue) {
         if (serverParamDictionaryInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1360,11 +1360,11 @@ public final class KGMNGCNKOGCOuterClass {
       /**
        * <code>._ServerParamDictionaryInfo server_param_dictionary_info = 102;</code>
        */
-      public Builder mergeServerParamDictionaryInfo(emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo value) {
+      public Builder mergeServerParamDictionaryInfo(emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo value) {
         if (serverParamDictionaryInfoBuilder_ == null) {
           if (detailCase_ == 102 &&
-              detail_ != emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo.newBuilder((emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo.newBuilder((emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1401,36 +1401,36 @@ public final class KGMNGCNKOGCOuterClass {
       /**
        * <code>._ServerParamDictionaryInfo server_param_dictionary_info = 102;</code>
        */
-      public emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo.Builder getServerParamDictionaryInfoBuilder() {
+      public emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo.Builder getServerParamDictionaryInfoBuilder() {
         return getServerParamDictionaryInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._ServerParamDictionaryInfo server_param_dictionary_info = 102;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfoOrBuilder getServerParamDictionaryInfoOrBuilder() {
+      public emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfoOrBuilder getServerParamDictionaryInfoOrBuilder() {
         if ((detailCase_ == 102) && (serverParamDictionaryInfoBuilder_ != null)) {
           return serverParamDictionaryInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 102) {
-            return (emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo) detail_;
+            return (emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo) detail_;
           }
-          return emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._ServerParamDictionaryInfo server_param_dictionary_info = 102;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo, emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo.Builder, emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfoOrBuilder> 
+          emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo, emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo.Builder, emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfoOrBuilder> 
           getServerParamDictionaryInfoFieldBuilder() {
         if (serverParamDictionaryInfoBuilder_ == null) {
           if (!(detailCase_ == 102)) {
-            detail_ = emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo.getDefaultInstance();
           }
           serverParamDictionaryInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo, emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo.Builder, emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.ServerParamDictionaryInfo._ServerParamDictionaryInfo) detail_,
+              emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo, emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo.Builder, emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass._ServerParamDictionaryInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1441,7 +1441,7 @@ public final class KGMNGCNKOGCOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo, emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo.Builder, emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfoOrBuilder> genericsServerParamDictionaryInfoBuilder_;
+          emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo, emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo.Builder, emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfoOrBuilder> genericsServerParamDictionaryInfoBuilder_;
       /**
        * <code>._GenericsServerParamDictionaryInfo generics_server_param_dictionary_info = 103;</code>
        * @return Whether the genericsServerParamDictionaryInfo field is set.
@@ -1455,23 +1455,23 @@ public final class KGMNGCNKOGCOuterClass {
        * @return The genericsServerParamDictionaryInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo getGenericsServerParamDictionaryInfo() {
+      public emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo getGenericsServerParamDictionaryInfo() {
         if (genericsServerParamDictionaryInfoBuilder_ == null) {
           if (detailCase_ == 103) {
-            return (emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo) detail_;
+            return (emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo) detail_;
           }
-          return emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 103) {
             return genericsServerParamDictionaryInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._GenericsServerParamDictionaryInfo generics_server_param_dictionary_info = 103;</code>
        */
-      public Builder setGenericsServerParamDictionaryInfo(emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo value) {
+      public Builder setGenericsServerParamDictionaryInfo(emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo value) {
         if (genericsServerParamDictionaryInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1488,7 +1488,7 @@ public final class KGMNGCNKOGCOuterClass {
        * <code>._GenericsServerParamDictionaryInfo generics_server_param_dictionary_info = 103;</code>
        */
       public Builder setGenericsServerParamDictionaryInfo(
-          emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo.Builder builderForValue) {
         if (genericsServerParamDictionaryInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1501,11 +1501,11 @@ public final class KGMNGCNKOGCOuterClass {
       /**
        * <code>._GenericsServerParamDictionaryInfo generics_server_param_dictionary_info = 103;</code>
        */
-      public Builder mergeGenericsServerParamDictionaryInfo(emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo value) {
+      public Builder mergeGenericsServerParamDictionaryInfo(emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo value) {
         if (genericsServerParamDictionaryInfoBuilder_ == null) {
           if (detailCase_ == 103 &&
-              detail_ != emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo.newBuilder((emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo.newBuilder((emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1542,36 +1542,36 @@ public final class KGMNGCNKOGCOuterClass {
       /**
        * <code>._GenericsServerParamDictionaryInfo generics_server_param_dictionary_info = 103;</code>
        */
-      public emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo.Builder getGenericsServerParamDictionaryInfoBuilder() {
+      public emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo.Builder getGenericsServerParamDictionaryInfoBuilder() {
         return getGenericsServerParamDictionaryInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._GenericsServerParamDictionaryInfo generics_server_param_dictionary_info = 103;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfoOrBuilder getGenericsServerParamDictionaryInfoOrBuilder() {
+      public emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfoOrBuilder getGenericsServerParamDictionaryInfoOrBuilder() {
         if ((detailCase_ == 103) && (genericsServerParamDictionaryInfoBuilder_ != null)) {
           return genericsServerParamDictionaryInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 103) {
-            return (emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo) detail_;
+            return (emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo) detail_;
           }
-          return emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._GenericsServerParamDictionaryInfo generics_server_param_dictionary_info = 103;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo, emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo.Builder, emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfoOrBuilder> 
+          emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo, emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo.Builder, emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfoOrBuilder> 
           getGenericsServerParamDictionaryInfoFieldBuilder() {
         if (genericsServerParamDictionaryInfoBuilder_ == null) {
           if (!(detailCase_ == 103)) {
-            detail_ = emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo.getDefaultInstance();
           }
           genericsServerParamDictionaryInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo, emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo.Builder, emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo._GenericsServerParamDictionaryInfo) detail_,
+              emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo, emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo.Builder, emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass._GenericsServerParamDictionaryInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1659,17 +1659,17 @@ public final class KGMNGCNKOGCOuterClass {
       "\001(\0132\033._ServerParamDictionaryInfoH\000\022T\n%ge" +
       "nerics_server_param_dictionary_info\030g \001(" +
       "\0132#._GenericsServerParamDictionaryInfoH\000" +
-      "B\010\n\006detailB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "B\010\n\006detailB2\n\031emu.grasscutter.net.protoB" +
+      "\025KGMNGCNKOGCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.NCKFPLPEHHLOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo.getDescriptor(),
-          emu.grasscutter.net.proto.ServerParamDictionaryInfo.getDescriptor(),
-          emu.grasscutter.net.proto.StructInfo.getDescriptor(),
-          emu.grasscutter.net.proto.StructListInfo.getDescriptor(),
+          emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._StructInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._StructListInfoOuterClass.getDescriptor(),
         });
     internal_static_KGMNGCNKOGC_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1678,10 +1678,10 @@ public final class KGMNGCNKOGCOuterClass {
         internal_static_KGMNGCNKOGC_descriptor,
         new java.lang.String[] { "PINOKHDDIMC", "HNMKGFEDGJG", "StructInfo", "StructListInfo", "ServerParamDictionaryInfo", "GenericsServerParamDictionaryInfo", "Detail", });
     emu.grasscutter.net.proto.NCKFPLPEHHLOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.GenericsServerParamDictionaryInfo.getDescriptor();
-    emu.grasscutter.net.proto.ServerParamDictionaryInfo.getDescriptor();
-    emu.grasscutter.net.proto.StructInfo.getDescriptor();
-    emu.grasscutter.net.proto.StructListInfo.getDescriptor();
+    emu.grasscutter.net.proto._GenericsServerParamDictionaryInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ServerParamDictionaryInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._StructInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._StructListInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

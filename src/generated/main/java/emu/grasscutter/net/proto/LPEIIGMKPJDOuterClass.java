@@ -800,8 +800,8 @@ public final class LPEIIGMKPJDOuterClass {
       "\n\021LPEIIGMKPJD.proto\032\021MHMDCDHNNBI.proto\"V" +
       "\n\013LPEIIGMKPJD\022\023\n\013schedule_id\030\002 \001(\r\022!\n\013IJ" +
       "KPJELMCPC\030\005 \001(\0132\014.MHMDCDHNNBI\022\017\n\007retcode" +
-      "\030\016 \001(\005B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\016 \001(\005B2\n\031emu.grasscutter.net.protoB\025LPE" +
+      "IIGMKPJDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

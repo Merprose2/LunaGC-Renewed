@@ -1299,8 +1299,9 @@ public final class AbilityInvokeEntryOuterClass {
       "lity_data\030\010 \001(\014\022-\n\rargument_type\030\t \001(\0162\026" +
       ".AbilityInvokeArgument\022\021\n\tentity_id\030\n \001(" +
       "\r\022\"\n\014forward_type\030\014 \001(\0162\014.ForwardType\022\024\n" +
-      "\014forward_peer\030\017 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\014forward_peer\030\017 \001(\rB9\n\031emu.grasscutter.n" +
+      "et.protoB\034AbilityInvokeEntryOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

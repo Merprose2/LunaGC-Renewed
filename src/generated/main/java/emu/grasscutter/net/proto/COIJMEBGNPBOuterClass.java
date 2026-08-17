@@ -831,8 +831,8 @@ public final class COIJMEBGNPBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021COIJMEBGNPB.proto\032\021CIEJFGMANMK.proto\"0" +
       "\n\013COIJMEBGNPB\022!\n\013LJPGELLPEDA\030\010 \003(\0132\014.CIE" +
-      "JFGMANMKB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "JFGMANMKB2\n\031emu.grasscutter.net.protoB\025C" +
+      "OIJMEBGNPBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

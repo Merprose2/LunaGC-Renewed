@@ -1836,8 +1836,9 @@ public final class FCIJEOGNLIJOuterClass {
       "\003 \001(\010\022\024\n\013DHOCIPILOIG\030\373\003 \001(\010\022\024\n\013OLPAHFAPN" +
       "PI\030\374\003 \001(\010\022\024\n\013JGDOJGPKOAO\030\375\003 \001(\010\022\"\n\013JNNKD" +
       "ICOAFB\030\376\003 \003(\0132\014.NKOIDKDGBAN\022\"\n\013GCBODNAII" +
-      "FK\030\377\003 \003(\0132\014.ONEIMADMPAKB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "FK\030\377\003 \003(\0132\014.ONEIMADMPAKB2\n\031emu.grasscutt" +
+      "er.net.protoB\025FCIJEOGNLIJOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

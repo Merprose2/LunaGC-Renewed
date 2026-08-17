@@ -986,8 +986,9 @@ public final class MBGCKNIKNNPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MBGCKNIKNNP.proto\"a\n\013MBGCKNIKNNP\022\023\n\013EI" +
       "NLDLEGLKD\030\004 \003(\005\022\023\n\013ALLBMCPHKML\030\t \003(\005\022\023\n\013" +
-      "KLKBOAKGEDF\030\013 \001(\005\022\023\n\013GOGJHGBJNPB\030\r \001(\005B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "KLKBOAKGEDF\030\013 \001(\005\022\023\n\013GOGJHGBJNPB\030\r \001(\005B2" +
+      "\n\031emu.grasscutter.net.protoB\025MBGCKNIKNNP" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

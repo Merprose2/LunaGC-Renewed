@@ -153,8 +153,9 @@ public final class GalleryStageTypeOuterClass {
       "eType\022!\n\035GalleryStageType_GALLERY_NONE\020\000" +
       "\022%\n!GalleryStageType_GALLERY_PRESTART\020\001\022" +
       "\"\n\036GalleryStageType_GALLERY_START\020\002\022!\n\035G" +
-      "alleryStageType_GALLERY_INIT\020\003B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "alleryStageType_GALLERY_INIT\020\003B7\n\031emu.gr" +
+      "asscutter.net.protoB\032GalleryStageTypeOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -940,8 +940,9 @@ public final class ForgeQueueDataOuterClass {
       "a\022\023\n\013APAGFADFPDH\030\002 \001(\r\022\023\n\013MCNNACJCNIP\030\004 " +
       "\001(\r\022\023\n\013IFKMMECHGKK\030\005 \001(\r\022\024\n\014finish_count" +
       "\030\006 \001(\r\022\023\n\013DPGIEBONAGF\030\007 \001(\r\022\023\n\013NIHCMEMKH" +
-      "IC\030\t \001(\r\022\021\n\tavatar_id\030\016 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "IC\030\t \001(\r\022\021\n\tavatar_id\030\016 \001(\rB5\n\031emu.grass" +
+      "cutter.net.protoB\030ForgeQueueDataOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -729,8 +729,9 @@ public final class CEFHAKKDHPBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CEFHAKKDHPB.proto\032\024ProfilePicture.prot" +
       "o\"H\n\013CEFHAKKDHPB\022\017\n\007retcode\030\007 \001(\005\022(\n\017pro" +
-      "file_picture\030\017 \001(\0132\017.ProfilePictureB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "file_picture\030\017 \001(\0132\017.ProfilePictureB2\n\031e" +
+      "mu.grasscutter.net.protoB\025CEFHAKKDHPBOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

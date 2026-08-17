@@ -133,8 +133,8 @@ public final class IIPGFDNHCCAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IIPGFDNHCCA.proto*F\n\013IIPGFDNHCCA\022\037\n\033II" +
       "PGFDNHCCA_ONLY_HIGH_SPEED\020\000\022\026\n\022IIPGFDNHC" +
-      "CA_ALWAYS\020\001B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "CA_ALWAYS\020\001B2\n\031emu.grasscutter.net.proto" +
+      "B\025IIPGFDNHCCAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

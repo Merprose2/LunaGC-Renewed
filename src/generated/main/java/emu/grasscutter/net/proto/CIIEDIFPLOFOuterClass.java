@@ -1883,8 +1883,9 @@ public final class CIIEDIFPLOFOuterClass {
       "HIC\030\005 \001(\002\022!\n\013BINPOJGCNFO\030\006 \001(\0162\014.KLEOIKN" +
       "NAHB\022\023\n\013JDKBGLBLHNE\030\007 \001(\t\022!\n\013MGEDMJBCAPJ" +
       "\030\010 \001(\0132\014.PGDMAIHKGFO\022\"\n\013AEIEOEFFNLD\030\365\003 \001" +
-      "(\0132\014.GLLPFPEKPAJ\022\024\n\013OIEHEDGOFPM\030\366\003 \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "(\0132\014.GLLPFPEKPAJ\022\024\n\013OIEHEDGOFPM\030\366\003 \001(\010B2" +
+      "\n\031emu.grasscutter.net.protoB\025CIIEDIFPLOF" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

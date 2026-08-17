@@ -595,8 +595,9 @@ public final class BDEOGHOIGODOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BDEOGHOIGOD.proto\"-\n\013BDEOGHOIGOD\022\017\n\007ar" +
-      "ea_id\030\r \001(\r\022\r\n\005index\030\016 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "ea_id\030\r \001(\r\022\r\n\005index\030\016 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025BDEOGHOIGODOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

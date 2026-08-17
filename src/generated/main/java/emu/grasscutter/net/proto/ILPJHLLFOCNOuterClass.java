@@ -652,8 +652,8 @@ public final class ILPJHLLFOCNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ILPJHLLFOCN.proto\"\"\n\013ILPJHLLFOCN\022\023\n\013MC" +
-      "JOFLNFMAI\030\013 \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "JOFLNFMAI\030\013 \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025ILPJHLLFOCNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

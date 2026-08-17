@@ -525,8 +525,8 @@ public final class KECGIFECBLIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KECGIFECBLI.proto\"!\n\013KECGIFECBLI\022\022\n\nta" +
-      "rget_uid\030\002 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "rget_uid\030\002 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025KECGIFECBLIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -931,8 +931,8 @@ public final class LBLMHEHOLBDOuterClass {
       "\n\021LBLMHEHOLBD.proto\032\021CODINBGHENF.proto\032\021" +
       "NCKFPLPEHHL.proto\"L\n\013LBLMHEHOLBD\022\032\n\004type" +
       "\030\001 \001(\0162\014.NCKFPLPEHHL\022!\n\013JJLLAOOFNGC\030\002 \003(" +
-      "\0132\014.CODINBGHENFB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\0132\014.CODINBGHENFB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025LBLMHEHOLBDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

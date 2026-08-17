@@ -949,8 +949,9 @@ public final class DungeonPreloadMonsterNotifyOuterClass {
       "\n!DungeonPreloadMonsterNotify.proto\032\022Pla" +
       "tformType.proto\"\\\n\033DungeonPreloadMonster" +
       "Notify\022$\n\rplatform_list\030\001 \003(\0162\r.Platform" +
-      "Type\022\027\n\017monster_id_list\030\004 \003(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "Type\022\027\n\017monster_id_list\030\004 \003(\rBB\n\031emu.gra" +
+      "sscutter.net.protoB%DungeonPreloadMonste" +
+      "rNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

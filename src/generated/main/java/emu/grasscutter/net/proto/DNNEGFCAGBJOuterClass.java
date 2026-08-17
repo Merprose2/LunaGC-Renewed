@@ -596,8 +596,9 @@ public final class DNNEGFCAGBJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DNNEGFCAGBJ.proto\"5\n\013DNNEGFCAGBJ\022\023\n\013PM" +
-      "HAMLKPFOH\030\003 \001(\r\022\021\n\tis_locked\030\t \001(\010B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "HAMLKPFOH\030\003 \001(\r\022\021\n\tis_locked\030\t \001(\010B2\n\031em" +
+      "u.grasscutter.net.protoB\025DNNEGFCAGBJOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

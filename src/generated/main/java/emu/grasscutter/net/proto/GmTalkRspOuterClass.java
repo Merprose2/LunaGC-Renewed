@@ -825,8 +825,9 @@ public final class GmTalkRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\017GmTalkRsp.proto\"9\n\tGmTalkRsp\022\013\n\003msg\030\010 " +
-      "\001(\t\022\016\n\006retmsg\030\t \001(\t\022\017\n\007retcode\030\r \001(\005B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\001(\t\022\016\n\006retmsg\030\t \001(\t\022\017\n\007retcode\030\r \001(\005B0\n\031" +
+      "emu.grasscutter.net.protoB\023GmTalkRspOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

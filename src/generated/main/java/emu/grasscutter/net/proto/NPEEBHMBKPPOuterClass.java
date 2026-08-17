@@ -1072,7 +1072,8 @@ public final class NPEEBHMBKPPOuterClass {
       "geon_guid\030\001 \001(\004\022\017\n\007version\030\002 \001(\r\022!\n\013OJIE" +
       "OBAMMAI\030\006 \001(\0132\014.AJGLNOEPNLJ\022!\n\013HHOIJINLB" +
       "KL\030\007 \001(\0132\014.LKAHCDOFFCH\022\023\n\013MAMIJJDGMDA\030\010 " +
-      "\001(\014B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\014B2\n\031emu.grasscutter.net.protoB\025NPEEBH" +
+      "MBKPPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

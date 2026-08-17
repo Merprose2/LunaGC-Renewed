@@ -48,11 +48,11 @@ public final class PBHPDCFBLABOuterClass {
      * <code>._PrimitiveAvatarInfo primitive_avatar_info = 5;</code>
      * @return The primitiveAvatarInfo.
      */
-    emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo getPrimitiveAvatarInfo();
+    emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo getPrimitiveAvatarInfo();
     /**
      * <code>._PrimitiveAvatarInfo primitive_avatar_info = 5;</code>
      */
-    emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfoOrBuilder getPrimitiveAvatarInfoOrBuilder();
+    emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfoOrBuilder getPrimitiveAvatarInfoOrBuilder();
 
     /**
      * <code>._CostumeInfo costume_info = 7;</code>
@@ -63,11 +63,11 @@ public final class PBHPDCFBLABOuterClass {
      * <code>._CostumeInfo costume_info = 7;</code>
      * @return The costumeInfo.
      */
-    emu.grasscutter.net.proto.CostumeInfo._CostumeInfo getCostumeInfo();
+    emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo getCostumeInfo();
     /**
      * <code>._CostumeInfo costume_info = 7;</code>
      */
-    emu.grasscutter.net.proto.CostumeInfo._CostumeInfoOrBuilder getCostumeInfoOrBuilder();
+    emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfoOrBuilder getCostumeInfoOrBuilder();
 
     /**
      * <code>.Vector pos = 6;</code>
@@ -156,14 +156,14 @@ public final class PBHPDCFBLABOuterClass {
               break;
             }
             case 42: {
-              emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo.Builder subBuilder = null;
               if (detailCase_ == 5) {
-                subBuilder = ((emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 5;
@@ -183,14 +183,14 @@ public final class PBHPDCFBLABOuterClass {
               break;
             }
             case 58: {
-              emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.Builder subBuilder = null;
               if (detailCase_ == 7) {
-                subBuilder = ((emu.grasscutter.net.proto.CostumeInfo._CostumeInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.CostumeInfo._CostumeInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 7;
@@ -325,21 +325,21 @@ public final class PBHPDCFBLABOuterClass {
      * @return The primitiveAvatarInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo getPrimitiveAvatarInfo() {
+    public emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo getPrimitiveAvatarInfo() {
       if (detailCase_ == 5) {
-         return (emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo) detail_;
+         return (emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo) detail_;
       }
-      return emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo.getDefaultInstance();
     }
     /**
      * <code>._PrimitiveAvatarInfo primitive_avatar_info = 5;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfoOrBuilder getPrimitiveAvatarInfoOrBuilder() {
+    public emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfoOrBuilder getPrimitiveAvatarInfoOrBuilder() {
       if (detailCase_ == 5) {
-         return (emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo) detail_;
+         return (emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo) detail_;
       }
-      return emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo.getDefaultInstance();
     }
 
     public static final int COSTUME_INFO_FIELD_NUMBER = 7;
@@ -356,21 +356,21 @@ public final class PBHPDCFBLABOuterClass {
      * @return The costumeInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CostumeInfo._CostumeInfo getCostumeInfo() {
+    public emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo getCostumeInfo() {
       if (detailCase_ == 7) {
-         return (emu.grasscutter.net.proto.CostumeInfo._CostumeInfo) detail_;
+         return (emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo) detail_;
       }
-      return emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.getDefaultInstance();
     }
     /**
      * <code>._CostumeInfo costume_info = 7;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CostumeInfo._CostumeInfoOrBuilder getCostumeInfoOrBuilder() {
+    public emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfoOrBuilder getCostumeInfoOrBuilder() {
       if (detailCase_ == 7) {
-         return (emu.grasscutter.net.proto.CostumeInfo._CostumeInfo) detail_;
+         return (emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo) detail_;
       }
-      return emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.getDefaultInstance();
     }
 
     public static final int POS_FIELD_NUMBER = 6;
@@ -431,13 +431,13 @@ public final class PBHPDCFBLABOuterClass {
         output.writeUInt32(4, uid_);
       }
       if (detailCase_ == 5) {
-        output.writeMessage(5, (emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo) detail_);
+        output.writeMessage(5, (emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo) detail_);
       }
       if (pos_ != null) {
         output.writeMessage(6, getPos());
       }
       if (detailCase_ == 7) {
-        output.writeMessage(7, (emu.grasscutter.net.proto.CostumeInfo._CostumeInfo) detail_);
+        output.writeMessage(7, (emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo) detail_);
       }
       if (aHMFIGEMLLE_ != 0) {
         output.writeUInt32(10, aHMFIGEMLLE_);
@@ -461,7 +461,7 @@ public final class PBHPDCFBLABOuterClass {
       }
       if (detailCase_ == 5) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, (emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo) detail_);
+          .computeMessageSize(5, (emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo) detail_);
       }
       if (pos_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -469,7 +469,7 @@ public final class PBHPDCFBLABOuterClass {
       }
       if (detailCase_ == 7) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, (emu.grasscutter.net.proto.CostumeInfo._CostumeInfo) detail_);
+          .computeMessageSize(7, (emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo) detail_);
       }
       if (aHMFIGEMLLE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1024,7 +1024,7 @@ public final class PBHPDCFBLABOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo, emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo.Builder, emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfoOrBuilder> primitiveAvatarInfoBuilder_;
+          emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo, emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo.Builder, emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfoOrBuilder> primitiveAvatarInfoBuilder_;
       /**
        * <code>._PrimitiveAvatarInfo primitive_avatar_info = 5;</code>
        * @return Whether the primitiveAvatarInfo field is set.
@@ -1038,23 +1038,23 @@ public final class PBHPDCFBLABOuterClass {
        * @return The primitiveAvatarInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo getPrimitiveAvatarInfo() {
+      public emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo getPrimitiveAvatarInfo() {
         if (primitiveAvatarInfoBuilder_ == null) {
           if (detailCase_ == 5) {
-            return (emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo) detail_;
+            return (emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo) detail_;
           }
-          return emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 5) {
             return primitiveAvatarInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._PrimitiveAvatarInfo primitive_avatar_info = 5;</code>
        */
-      public Builder setPrimitiveAvatarInfo(emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo value) {
+      public Builder setPrimitiveAvatarInfo(emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo value) {
         if (primitiveAvatarInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1071,7 +1071,7 @@ public final class PBHPDCFBLABOuterClass {
        * <code>._PrimitiveAvatarInfo primitive_avatar_info = 5;</code>
        */
       public Builder setPrimitiveAvatarInfo(
-          emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo.Builder builderForValue) {
         if (primitiveAvatarInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1084,11 +1084,11 @@ public final class PBHPDCFBLABOuterClass {
       /**
        * <code>._PrimitiveAvatarInfo primitive_avatar_info = 5;</code>
        */
-      public Builder mergePrimitiveAvatarInfo(emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo value) {
+      public Builder mergePrimitiveAvatarInfo(emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo value) {
         if (primitiveAvatarInfoBuilder_ == null) {
           if (detailCase_ == 5 &&
-              detail_ != emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo.newBuilder((emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo.newBuilder((emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1125,36 +1125,36 @@ public final class PBHPDCFBLABOuterClass {
       /**
        * <code>._PrimitiveAvatarInfo primitive_avatar_info = 5;</code>
        */
-      public emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo.Builder getPrimitiveAvatarInfoBuilder() {
+      public emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo.Builder getPrimitiveAvatarInfoBuilder() {
         return getPrimitiveAvatarInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._PrimitiveAvatarInfo primitive_avatar_info = 5;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfoOrBuilder getPrimitiveAvatarInfoOrBuilder() {
+      public emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfoOrBuilder getPrimitiveAvatarInfoOrBuilder() {
         if ((detailCase_ == 5) && (primitiveAvatarInfoBuilder_ != null)) {
           return primitiveAvatarInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 5) {
-            return (emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo) detail_;
+            return (emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo) detail_;
           }
-          return emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._PrimitiveAvatarInfo primitive_avatar_info = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo, emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo.Builder, emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfoOrBuilder> 
+          emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo, emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo.Builder, emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfoOrBuilder> 
           getPrimitiveAvatarInfoFieldBuilder() {
         if (primitiveAvatarInfoBuilder_ == null) {
           if (!(detailCase_ == 5)) {
-            detail_ = emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo.getDefaultInstance();
           }
           primitiveAvatarInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo, emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo.Builder, emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.PrimitiveAvatarInfo._PrimitiveAvatarInfo) detail_,
+              emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo, emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo.Builder, emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass._PrimitiveAvatarInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1165,7 +1165,7 @@ public final class PBHPDCFBLABOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CostumeInfo._CostumeInfo, emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.Builder, emu.grasscutter.net.proto.CostumeInfo._CostumeInfoOrBuilder> costumeInfoBuilder_;
+          emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo, emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.Builder, emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfoOrBuilder> costumeInfoBuilder_;
       /**
        * <code>._CostumeInfo costume_info = 7;</code>
        * @return Whether the costumeInfo field is set.
@@ -1179,23 +1179,23 @@ public final class PBHPDCFBLABOuterClass {
        * @return The costumeInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CostumeInfo._CostumeInfo getCostumeInfo() {
+      public emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo getCostumeInfo() {
         if (costumeInfoBuilder_ == null) {
           if (detailCase_ == 7) {
-            return (emu.grasscutter.net.proto.CostumeInfo._CostumeInfo) detail_;
+            return (emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo) detail_;
           }
-          return emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 7) {
             return costumeInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._CostumeInfo costume_info = 7;</code>
        */
-      public Builder setCostumeInfo(emu.grasscutter.net.proto.CostumeInfo._CostumeInfo value) {
+      public Builder setCostumeInfo(emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo value) {
         if (costumeInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1212,7 +1212,7 @@ public final class PBHPDCFBLABOuterClass {
        * <code>._CostumeInfo costume_info = 7;</code>
        */
       public Builder setCostumeInfo(
-          emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.Builder builderForValue) {
         if (costumeInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1225,11 +1225,11 @@ public final class PBHPDCFBLABOuterClass {
       /**
        * <code>._CostumeInfo costume_info = 7;</code>
        */
-      public Builder mergeCostumeInfo(emu.grasscutter.net.proto.CostumeInfo._CostumeInfo value) {
+      public Builder mergeCostumeInfo(emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo value) {
         if (costumeInfoBuilder_ == null) {
           if (detailCase_ == 7 &&
-              detail_ != emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.newBuilder((emu.grasscutter.net.proto.CostumeInfo._CostumeInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.newBuilder((emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1266,36 +1266,36 @@ public final class PBHPDCFBLABOuterClass {
       /**
        * <code>._CostumeInfo costume_info = 7;</code>
        */
-      public emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.Builder getCostumeInfoBuilder() {
+      public emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.Builder getCostumeInfoBuilder() {
         return getCostumeInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._CostumeInfo costume_info = 7;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CostumeInfo._CostumeInfoOrBuilder getCostumeInfoOrBuilder() {
+      public emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfoOrBuilder getCostumeInfoOrBuilder() {
         if ((detailCase_ == 7) && (costumeInfoBuilder_ != null)) {
           return costumeInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 7) {
-            return (emu.grasscutter.net.proto.CostumeInfo._CostumeInfo) detail_;
+            return (emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo) detail_;
           }
-          return emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._CostumeInfo costume_info = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CostumeInfo._CostumeInfo, emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.Builder, emu.grasscutter.net.proto.CostumeInfo._CostumeInfoOrBuilder> 
+          emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo, emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.Builder, emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfoOrBuilder> 
           getCostumeInfoFieldBuilder() {
         if (costumeInfoBuilder_ == null) {
           if (!(detailCase_ == 7)) {
-            detail_ = emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.getDefaultInstance();
           }
           costumeInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CostumeInfo._CostumeInfo, emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.Builder, emu.grasscutter.net.proto.CostumeInfo._CostumeInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.CostumeInfo._CostumeInfo) detail_,
+              emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo, emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.Builder, emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1528,14 +1528,15 @@ public final class PBHPDCFBLABOuterClass {
       "\001(\0132\025._PrimitiveAvatarInfoH\000\022%\n\014costume_" +
       "info\030\007 \001(\0132\r._CostumeInfoH\000\022\024\n\003pos\030\006 \001(\013" +
       "2\007.Vector\022\023\n\013AHMFIGEMLLE\030\n \001(\rB\010\n\006detail" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025PBHPDCFBL" +
+      "ABOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.VectorOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.CostumeInfo.getDescriptor(),
-          emu.grasscutter.net.proto.PrimitiveAvatarInfo.getDescriptor(),
+          emu.grasscutter.net.proto._CostumeInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass.getDescriptor(),
         });
     internal_static_PBHPDCFBLAB_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1544,8 +1545,8 @@ public final class PBHPDCFBLABOuterClass {
         internal_static_PBHPDCFBLAB_descriptor,
         new java.lang.String[] { "Rot", "Uid", "PrimitiveAvatarInfo", "CostumeInfo", "Pos", "AHMFIGEMLLE", "Detail", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.CostumeInfo.getDescriptor();
-    emu.grasscutter.net.proto.PrimitiveAvatarInfo.getDescriptor();
+    emu.grasscutter.net.proto._CostumeInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._PrimitiveAvatarInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

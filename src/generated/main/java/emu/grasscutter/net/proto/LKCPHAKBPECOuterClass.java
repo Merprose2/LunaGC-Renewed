@@ -454,8 +454,9 @@ public final class LKCPHAKBPECOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021LKCPHAKBPEC.proto\"\r\n\013LKCPHAKBPECB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021LKCPHAKBPEC.proto\"\r\n\013LKCPHAKBPECB2\n\031em" +
+      "u.grasscutter.net.protoB\025LKCPHAKBPECOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

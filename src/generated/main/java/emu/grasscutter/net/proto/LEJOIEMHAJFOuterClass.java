@@ -901,8 +901,9 @@ public final class LEJOIEMHAJFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LEJOIEMHAJF.proto\032\022MapMarkPoint.proto\"" +
       "@\n\013LEJOIEMHAJF\022 \n\tmark_list\030\004 \003(\0132\r.MapM" +
-      "arkPoint\022\017\n\007retcode\030\t \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "arkPoint\022\017\n\007retcode\030\t \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025LEJOIEMHAJFOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

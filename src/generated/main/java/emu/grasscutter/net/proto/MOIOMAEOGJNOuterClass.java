@@ -597,8 +597,8 @@ public final class MOIOMAEOGJNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MOIOMAEOGJN.proto\"\034\n\013MOIOMAEOGJN\022\r\n\005va" +
-      "lue\030\001 \001(\tB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "lue\030\001 \001(\tB2\n\031emu.grasscutter.net.protoB\025" +
+      "MOIOMAEOGJNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

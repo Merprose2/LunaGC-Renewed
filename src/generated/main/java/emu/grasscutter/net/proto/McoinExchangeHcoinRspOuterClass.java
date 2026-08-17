@@ -666,8 +666,9 @@ public final class McoinExchangeHcoinRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033McoinExchangeHcoinRsp.proto\"K\n\025McoinEx" +
       "changeHcoinRsp\022\017\n\007retcode\030\007 \001(\005\022\r\n\005hcoin" +
-      "\030\010 \001(\r\022\022\n\nmcoin_cost\030\016 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\030\010 \001(\r\022\022\n\nmcoin_cost\030\016 \001(\rB<\n\031emu.grassc" +
+      "utter.net.protoB\037McoinExchangeHcoinRspOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

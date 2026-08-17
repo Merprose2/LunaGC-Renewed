@@ -676,8 +676,8 @@ public final class KBNMEGKBPKPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KBNMEGKBPKP.proto\"F\n\013KBNMEGKBPKP\022 \n\030in" +
       "vestigation_monster_id\030\014 \001(\r\022\025\n\rclient_p" +
-      "arams\030\r \001(\tB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "arams\030\r \001(\tB2\n\031emu.grasscutter.net.proto" +
+      "B\025KBNMEGKBPKPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

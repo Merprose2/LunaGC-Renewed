@@ -454,8 +454,9 @@ public final class ELEMAEPNCKJOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021ELEMAEPNCKJ.proto\"\r\n\013ELEMAEPNCKJB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021ELEMAEPNCKJ.proto\"\r\n\013ELEMAEPNCKJB2\n\031em" +
+      "u.grasscutter.net.protoB\025ELEMAEPNCKJOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

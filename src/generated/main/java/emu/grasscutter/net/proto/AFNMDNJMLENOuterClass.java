@@ -666,8 +666,8 @@ public final class AFNMDNJMLENOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AFNMDNJMLEN.proto\"H\n\013AFNMDNJMLEN\022\023\n\013EA" +
       "INFHBHBMK\030\002 \001(\r\022\017\n\007retcode\030\010 \001(\005\022\023\n\013DKHO" +
-      "JDNIKGN\030\017 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "JDNIKGN\030\017 \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025AFNMDNJMLENOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

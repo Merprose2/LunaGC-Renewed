@@ -525,8 +525,9 @@ public final class BartenderGetFormulaReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034BartenderGetFormulaReq.proto\"*\n\026Barten" +
-      "derGetFormulaReq\022\020\n\010quest_id\030\002 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "derGetFormulaReq\022\020\n\010quest_id\030\002 \001(\rB=\n\031em" +
+      "u.grasscutter.net.protoB BartenderGetFor" +
+      "mulaReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

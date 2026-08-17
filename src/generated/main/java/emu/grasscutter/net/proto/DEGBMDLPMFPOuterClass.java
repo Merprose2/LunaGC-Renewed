@@ -525,8 +525,8 @@ public final class DEGBMDLPMFPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DEGBMDLPMFP.proto\" \n\013DEGBMDLPMFP\022\021\n\ten" +
-      "tity_id\030\r \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "tity_id\030\r \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025DEGBMDLPMFPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

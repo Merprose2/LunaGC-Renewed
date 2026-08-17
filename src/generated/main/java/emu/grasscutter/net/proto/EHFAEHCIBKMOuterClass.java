@@ -651,7 +651,8 @@ public final class EHFAEHCIBKMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EHFAEHCIBKM.proto\032\021DHMHPGPGCOC.proto\")" +
       "\n\013EHFAEHCIBKM\022\032\n\004data\030\001 \001(\0132\014.DHMHPGPGCO" +
-      "CB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "CB2\n\031emu.grasscutter.net.protoB\025EHFAEHCI" +
+      "BKMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

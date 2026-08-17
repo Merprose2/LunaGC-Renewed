@@ -800,8 +800,8 @@ public final class PMHOFKJNGKKOuterClass {
       "\n\021PMHOFKJNGKK.proto\032\021CPFKAONOKPD.proto\"V" +
       "\n\013PMHOFKJNGKK\022\017\n\007retcode\030\013 \001(\005\022!\n\013ILIJJN" +
       "EHHAN\030\016 \001(\0132\014.CPFKAONOKPD\022\023\n\013AEDHGOEGIHF" +
-      "\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025PMH" +
+      "OFKJNGKKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

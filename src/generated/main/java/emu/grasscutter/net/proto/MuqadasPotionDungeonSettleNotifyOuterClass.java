@@ -810,8 +810,9 @@ public final class MuqadasPotionDungeonSettleNotifyOuterClass {
       "\"\224\001\n MuqadasPotionDungeonSettleNotify\022\023\n" +
       "\013final_score\030\003 \001(\r\022\022\n\nis_success\030\004 \001(\010\022\020" +
       "\n\010level_id\030\013 \001(\r\022\025\n\ris_new_record\030\016 \001(\010\022" +
-      "\036\n\026capture_weakness_count\030\017 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\036\n\026capture_weakness_count\030\017 \001(\rBG\n\031emu.g" +
+      "rasscutter.net.protoB*MuqadasPotionDunge" +
+      "onSettleNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

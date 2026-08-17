@@ -832,7 +832,8 @@ public final class ExclusiveRuleNotifyOuterClass {
       "\n\031ExclusiveRuleNotify.proto\032\027ExclusiveRu" +
       "leInfo.proto\"A\n\023ExclusiveRuleNotify\022*\n\016r" +
       "ule_info_list\030\013 \003(\0132\022.ExclusiveRuleInfoB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      ":\n\031emu.grasscutter.net.protoB\035ExclusiveR" +
+      "uleNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

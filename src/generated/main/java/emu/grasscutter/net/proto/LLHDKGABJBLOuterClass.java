@@ -1915,8 +1915,8 @@ public final class LLHDKGABJBLOuterClass {
       "\022!\n\013AIHNEMOCJFM\030\005 \003(\0132\014.OAEECGPBOGB\022!\n\013A" +
       "OHIOIBOBOD\030\006 \003(\0132\014.NACNIMBHLLA\022!\n\013GAFGFG" +
       "OBJPF\030\007 \003(\0132\014.KBCOKBILCDM\022\023\n\013PPJMMIHMLCD" +
-      "\030\010 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\010 \001(\rB2\n\031emu.grasscutter.net.protoB\025LLH" +
+      "DKGABJBLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

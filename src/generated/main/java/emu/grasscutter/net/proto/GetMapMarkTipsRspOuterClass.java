@@ -902,8 +902,8 @@ public final class GetMapMarkTipsRspOuterClass {
       "\n\027GetMapMarkTipsRsp.proto\032\025MapMarkTipsIn" +
       "fo.proto\"N\n\021GetMapMarkTipsRsp\022(\n\016mark_ti" +
       "ps_list\030\001 \003(\0132\020.MapMarkTipsInfo\022\017\n\007retco" +
-      "de\030\006 \001(\005B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "de\030\006 \001(\005B8\n\031emu.grasscutter.net.protoB\033G" +
+      "etMapMarkTipsRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

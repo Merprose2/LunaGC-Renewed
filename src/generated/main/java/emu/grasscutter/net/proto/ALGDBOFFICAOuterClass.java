@@ -938,8 +938,8 @@ public final class ALGDBOFFICAOuterClass {
       "\013ALGDBOFFICA\022\032\n\004data\030\001 \001(\0132\014.LLHDKGABJBL" +
       "\022!\n\013AKAHAGEKIOF\030\002 \001(\0162\014.JEOKDCIGCFP\022!\n\013O" +
       "JJFMAEFPPN\030\003 \001(\0162\014.IHEEJNNBFFC\022\023\n\013MCCHIB" +
-      "KBONN\030\004 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "KBONN\030\004 \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "B\025ALGDBOFFICAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

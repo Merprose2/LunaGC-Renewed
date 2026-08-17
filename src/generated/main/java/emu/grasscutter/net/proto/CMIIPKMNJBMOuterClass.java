@@ -526,8 +526,8 @@ public final class CMIIPKMNJBMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CMIIPKMNJBM.proto\"\"\n\013CMIIPKMNJBM\022\023\n\013HP" +
-      "DEANHGNIO\030\017 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "DEANHGNIO\030\017 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025CMIIPKMNJBMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -730,8 +730,9 @@ public final class HomeLimitedShopGoodsListRspOuterClass {
       "\n!HomeLimitedShopGoodsListRsp.proto\032\025Hom" +
       "eLimitedShop.proto\"N\n\033HomeLimitedShopGoo" +
       "dsListRsp\022\036\n\004shop\030\007 \001(\0132\020.HomeLimitedSho" +
-      "p\022\017\n\007retcode\030\r \001(\005B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "p\022\017\n\007retcode\030\r \001(\005BB\n\031emu.grasscutter.ne" +
+      "t.protoB%HomeLimitedShopGoodsListRspOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

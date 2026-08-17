@@ -723,7 +723,8 @@ public final class EIDKDEKHDPEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EIDKDEKHDPE.proto\"=\n\013EIDKDEKHDPE\022\023\n\013IO" +
       "LKLILAFPO\030\005 \001(\r\022\031\n\021parent_quest_list\030\014 \003" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB2\n\031emu.grasscutter.net.protoB\025EIDKDEK" +
+      "HDPEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

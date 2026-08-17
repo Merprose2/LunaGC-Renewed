@@ -525,8 +525,9 @@ public final class RogueDiaryCoinAddNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035RogueDiaryCoinAddNotify.proto\"&\n\027Rogue" +
-      "DiaryCoinAddNotify\022\013\n\003num\030\006 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "DiaryCoinAddNotify\022\013\n\003num\030\006 \001(\rB>\n\031emu.g" +
+      "rasscutter.net.protoB!RogueDiaryCoinAddN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

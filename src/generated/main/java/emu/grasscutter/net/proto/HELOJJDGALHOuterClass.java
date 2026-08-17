@@ -31,25 +31,25 @@ public final class HELOJJDGALHOuterClass {
      * Use {@link #getLKOFDFDIJLDMap()} instead.
      */
     @java.lang.Deprecated
-    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture>
+    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture>
     getLKOFDFDIJLD();
     /**
      * <code>map&lt;uint32, ._BeyondProfilePicture&gt; LKOFDFDIJLD = 3;</code>
      */
-    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture>
+    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture>
     getLKOFDFDIJLDMap();
     /**
      * <code>map&lt;uint32, ._BeyondProfilePicture&gt; LKOFDFDIJLD = 3;</code>
      */
 
-    emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture getLKOFDFDIJLDOrDefault(
+    emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture getLKOFDFDIJLDOrDefault(
         int key,
-        emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture defaultValue);
+        emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture defaultValue);
     /**
      * <code>map&lt;uint32, ._BeyondProfilePicture&gt; LKOFDFDIJLD = 3;</code>
      */
 
-    emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture getLKOFDFDIJLDOrThrow(
+    emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture getLKOFDFDIJLDOrThrow(
         int key);
 
     /**
@@ -114,7 +114,7 @@ public final class HELOJJDGALHOuterClass {
                     LKOFDFDIJLDDefaultEntryHolder.defaultEntry);
                 mutable_bitField0_ |= 0x00000001;
               }
-              com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture>
+              com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture>
               lKOFDFDIJLD__ = input.readMessage(
                   LKOFDFDIJLDDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
               lKOFDFDIJLD_.getMutableMap().put(
@@ -173,18 +173,18 @@ public final class HELOJJDGALHOuterClass {
     public static final int LKOFDFDIJLD_FIELD_NUMBER = 3;
     private static final class LKOFDFDIJLDDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
-          java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture> defaultEntry =
+          java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture> defaultEntry =
               com.google.protobuf.MapEntry
-              .<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture>newDefaultInstance(
+              .<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture>newDefaultInstance(
                   emu.grasscutter.net.proto.HELOJJDGALHOuterClass.internal_static_HELOJJDGALH_LKOFDFDIJLDEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
-                  emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture.getDefaultInstance());
+                  emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture.getDefaultInstance());
     }
     private com.google.protobuf.MapField<
-        java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture> lKOFDFDIJLD_;
-    private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture>
+        java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture> lKOFDFDIJLD_;
+    private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture>
     internalGetLKOFDFDIJLD() {
       if (lKOFDFDIJLD_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
@@ -211,7 +211,7 @@ public final class HELOJJDGALHOuterClass {
      */
     @java.lang.Override
     @java.lang.Deprecated
-    public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture> getLKOFDFDIJLD() {
+    public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture> getLKOFDFDIJLD() {
       return getLKOFDFDIJLDMap();
     }
     /**
@@ -219,7 +219,7 @@ public final class HELOJJDGALHOuterClass {
      */
     @java.lang.Override
 
-    public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture> getLKOFDFDIJLDMap() {
+    public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture> getLKOFDFDIJLDMap() {
       return internalGetLKOFDFDIJLD().getMap();
     }
     /**
@@ -227,11 +227,11 @@ public final class HELOJJDGALHOuterClass {
      */
     @java.lang.Override
 
-    public emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture getLKOFDFDIJLDOrDefault(
+    public emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture getLKOFDFDIJLDOrDefault(
         int key,
-        emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture defaultValue) {
+        emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture defaultValue) {
       
-      java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture> map =
+      java.util.Map<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture> map =
           internalGetLKOFDFDIJLD().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
@@ -240,10 +240,10 @@ public final class HELOJJDGALHOuterClass {
      */
     @java.lang.Override
 
-    public emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture getLKOFDFDIJLDOrThrow(
+    public emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture getLKOFDFDIJLDOrThrow(
         int key) {
       
-      java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture> map =
+      java.util.Map<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture> map =
           internalGetLKOFDFDIJLD().getMap();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
@@ -294,9 +294,9 @@ public final class HELOJJDGALHOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture> entry
+      for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture> entry
            : internalGetLKOFDFDIJLD().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture>
+        com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture>
         lKOFDFDIJLD__ = LKOFDFDIJLDDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
@@ -620,8 +620,8 @@ public final class HELOJJDGALHOuterClass {
       private int bitField0_;
 
       private com.google.protobuf.MapField<
-          java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture> lKOFDFDIJLD_;
-      private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture>
+          java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture> lKOFDFDIJLD_;
+      private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture>
       internalGetLKOFDFDIJLD() {
         if (lKOFDFDIJLD_ == null) {
           return com.google.protobuf.MapField.emptyMapField(
@@ -629,7 +629,7 @@ public final class HELOJJDGALHOuterClass {
         }
         return lKOFDFDIJLD_;
       }
-      private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture>
+      private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture>
       internalGetMutableLKOFDFDIJLD() {
         onChanged();;
         if (lKOFDFDIJLD_ == null) {
@@ -660,7 +660,7 @@ public final class HELOJJDGALHOuterClass {
        */
       @java.lang.Override
       @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture> getLKOFDFDIJLD() {
+      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture> getLKOFDFDIJLD() {
         return getLKOFDFDIJLDMap();
       }
       /**
@@ -668,7 +668,7 @@ public final class HELOJJDGALHOuterClass {
        */
       @java.lang.Override
 
-      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture> getLKOFDFDIJLDMap() {
+      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture> getLKOFDFDIJLDMap() {
         return internalGetLKOFDFDIJLD().getMap();
       }
       /**
@@ -676,11 +676,11 @@ public final class HELOJJDGALHOuterClass {
        */
       @java.lang.Override
 
-      public emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture getLKOFDFDIJLDOrDefault(
+      public emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture getLKOFDFDIJLDOrDefault(
           int key,
-          emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture defaultValue) {
+          emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture defaultValue) {
         
-        java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture> map =
+        java.util.Map<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture> map =
             internalGetLKOFDFDIJLD().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
@@ -689,10 +689,10 @@ public final class HELOJJDGALHOuterClass {
        */
       @java.lang.Override
 
-      public emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture getLKOFDFDIJLDOrThrow(
+      public emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture getLKOFDFDIJLDOrThrow(
           int key) {
         
-        java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture> map =
+        java.util.Map<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture> map =
             internalGetLKOFDFDIJLD().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
@@ -720,7 +720,7 @@ public final class HELOJJDGALHOuterClass {
        * Use alternate mutation accessors instead.
        */
       @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture>
+      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture>
       getMutableLKOFDFDIJLD() {
         return internalGetMutableLKOFDFDIJLD().getMutableMap();
       }
@@ -729,7 +729,7 @@ public final class HELOJJDGALHOuterClass {
        */
       public Builder putLKOFDFDIJLD(
           int key,
-          emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture value) {
+          emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture value) {
         
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableLKOFDFDIJLD().getMutableMap()
@@ -741,7 +741,7 @@ public final class HELOJJDGALHOuterClass {
        */
 
       public Builder putAllLKOFDFDIJLD(
-          java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture> values) {
+          java.util.Map<java.lang.Integer, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture> values) {
         internalGetMutableLKOFDFDIJLD().getMutableMap()
             .putAll(values);
         return this;
@@ -854,13 +854,13 @@ public final class HELOJJDGALHOuterClass {
       "\003 \003(\0132\035.HELOJJDGALH.LKOFDFDIJLDEntry\022\017\n\007" +
       "retcode\030\017 \001(\005\032J\n\020LKOFDFDIJLDEntry\022\013\n\003key" +
       "\030\001 \001(\r\022%\n\005value\030\002 \001(\0132\026._BeyondProfilePi" +
-      "cture:\0028\001B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "cture:\0028\001B2\n\031emu.grasscutter.net.protoB\025" +
+      "HELOJJDGALHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BeyondProfilePicture.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondProfilePictureOuterClass.getDescriptor(),
         });
     internal_static_HELOJJDGALH_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -874,7 +874,7 @@ public final class HELOJJDGALHOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_HELOJJDGALH_LKOFDFDIJLDEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    emu.grasscutter.net.proto.BeyondProfilePicture.getDescriptor();
+    emu.grasscutter.net.proto._BeyondProfilePictureOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

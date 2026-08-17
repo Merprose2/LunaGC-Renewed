@@ -2158,7 +2158,8 @@ public final class CLJCBEKKGLNOuterClass {
       "KJKDABHC\030\024 \001(\005\022\023\n\013BHFDCBNMDAJ\030\025 \001(\005\022\023\n\013B" +
       "GHIFBPCOPK\030\026 \001(\002\022\023\n\013BOEOIDGFGHL\030\027 \001(\002\022\023\n" +
       "\013OGNABDPGILK\030\036 \001(\010\022\023\n\013KFJALIBLBHO\030\037 \001(\010B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025CLJCBEKKGL" +
+      "NOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -526,8 +526,9 @@ public final class TrialAvatarFirstPassDungeonNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\'TrialAvatarFirstPassDungeonNotify.prot" +
       "o\"B\n!TrialAvatarFirstPassDungeonNotify\022\035" +
-      "\n\025trial_avatar_index_id\030\n \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\n\025trial_avatar_index_id\030\n \001(\rBH\n\031emu.gra" +
+      "sscutter.net.protoB+TrialAvatarFirstPass" +
+      "DungeonNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

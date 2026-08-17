@@ -641,8 +641,9 @@ public final class CutSceneExtraParamOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030CutSceneExtraParam.proto\"/\n\022CutSceneEx" +
-      "traParam\022\031\n\021detail_param_list\030\t \003(\001B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "traParam\022\031\n\021detail_param_list\030\t \003(\001B9\n\031e" +
+      "mu.grasscutter.net.protoB\034CutSceneExtraP" +
+      "aramOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

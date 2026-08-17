@@ -588,8 +588,9 @@ public final class ALFJELPGHEOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ALFJELPGHEO.proto\"4\n\013ALFJELPGHEO\022\024\n\014du" +
-      "ngeon_guid\030\001 \001(\004\022\017\n\007room_id\030\002 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "ngeon_guid\030\001 \001(\004\022\017\n\007room_id\030\002 \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025ALFJELPGHEOOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

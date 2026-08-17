@@ -518,8 +518,8 @@ public final class MABDPALELJNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MABDPALELJN.proto\"\"\n\013MABDPALELJN\022\023\n\013PN" +
-      "PJDDOGDAK\030\001 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "PJDDOGDAK\030\001 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025MABDPALELJNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

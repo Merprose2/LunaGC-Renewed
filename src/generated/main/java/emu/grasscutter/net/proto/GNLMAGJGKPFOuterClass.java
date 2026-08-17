@@ -525,8 +525,8 @@ public final class GNLMAGJGKPFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GNLMAGJGKPF.proto\"\"\n\013GNLMAGJGKPF\022\023\n\013EB" +
-      "MOODIKLDM\030\007 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "MOODIKLDM\030\007 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025GNLMAGJGKPFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

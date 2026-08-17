@@ -934,8 +934,9 @@ public final class NHCBLLBBFMIOuterClass {
       "\n\021NHCBLLBBFMI.proto\032\021DBKDCMPAGEG.proto\"u" +
       "\n\013NHCBLLBBFMI\022\020\n\010level_id\030\001 \001(\r\022\021\n\tis_fi" +
       "nish\030\005 \001(\010\022\017\n\007is_open\030\010 \001(\010\022\r\n\005score\030\013 \001" +
-      "(\r\022!\n\013BFLGEJHJKKC\030\017 \001(\0132\014.DBKDCMPAGEGB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "(\r\022!\n\013BFLGEJHJKKC\030\017 \001(\0132\014.DBKDCMPAGEGB2\n" +
+      "\031emu.grasscutter.net.protoB\025NHCBLLBBFMIO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

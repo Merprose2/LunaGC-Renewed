@@ -738,8 +738,9 @@ public final class ANOMMBMAGCBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ANOMMBMAGCB.proto\"U\n\013ANOMMBMAGCB\022\016\n\006is" +
       "_add\030\001 \001(\010\022\017\n\007room_id\030\004 \001(\r\022\024\n\014dungeon_g" +
-      "uid\030\006 \001(\004\022\017\n\007retcode\030\014 \001(\005B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "uid\030\006 \001(\004\022\017\n\007retcode\030\014 \001(\005B2\n\031emu.grassc" +
+      "utter.net.protoB\025ANOMMBMAGCBOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

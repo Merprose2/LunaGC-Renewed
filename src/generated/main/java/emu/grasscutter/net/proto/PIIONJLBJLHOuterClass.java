@@ -1043,8 +1043,8 @@ public final class PIIONJLBJLHOuterClass {
       "\n\021PIIONJLBJLH.proto\"u\n\013PIIONJLBJLH\022\023\n\013CH" +
       "HAOEJMMOE\030\001 \001(\005\022\023\n\013OCMMIMJIKII\030\002 \001(\t\022\022\n\n" +
       "request_id\030\003 \001(\t\022\023\n\013NGEDGDGBAID\030\004 \001(\014\022\023\n" +
-      "\013NJKJHJEAKEJ\030\005 \001(\tB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\013NJKJHJEAKEJ\030\005 \001(\tB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025PIIONJLBJLHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

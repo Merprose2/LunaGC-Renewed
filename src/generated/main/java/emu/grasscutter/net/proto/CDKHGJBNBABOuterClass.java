@@ -1980,7 +1980,8 @@ public final class CDKHGJBNBABOuterClass {
       "eed\030\214\007 \001(\002\022\024\n\013HDJDIBPKBCN\030\332\n \001(\r\022\024\n\013OEPN" +
       "EMEKDMF\030\206\013 \001(\010\022\024\n\013HBCKJGIEPNJ\030\276\014 \003(\r\022\024\n\013" +
       "GMGNKGGBBAM\030\313\016 \001(\r\022\024\n\013BOPDMDNOCAG\030\245\017 \001(\010" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025CDKHGJBNB" +
+      "ABOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

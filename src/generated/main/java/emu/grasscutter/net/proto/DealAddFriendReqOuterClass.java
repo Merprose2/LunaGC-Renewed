@@ -634,8 +634,9 @@ public final class DealAddFriendReqOuterClass {
       "\n\026DealAddFriendReq.proto\032\035DealAddFriendR" +
       "esultType.proto\"`\n\020DealAddFriendReq\022\022\n\nt" +
       "arget_uid\030\003 \001(\r\0228\n\026deal_add_friend_resul" +
-      "t\030\017 \001(\0162\030.DealAddFriendResultTypeB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "t\030\017 \001(\0162\030.DealAddFriendResultTypeB7\n\031emu" +
+      ".grasscutter.net.protoB\032DealAddFriendReq" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

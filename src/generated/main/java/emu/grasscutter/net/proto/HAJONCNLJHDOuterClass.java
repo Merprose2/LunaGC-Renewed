@@ -736,8 +736,9 @@ public final class HAJONCNLJHDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HAJONCNLJHD.proto\"X\n\013HAJONCNLJHD\022\020\n\010gr" +
       "oup_id\030\005 \001(\r\022\022\n\nplay_index\030\013 \001(\r\022\017\n\007card" +
-      "_id\030\r \001(\r\022\022\n\nplayer_uid\030\016 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "_id\030\r \001(\r\022\022\n\nplayer_uid\030\016 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025HAJONCNLJHDOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

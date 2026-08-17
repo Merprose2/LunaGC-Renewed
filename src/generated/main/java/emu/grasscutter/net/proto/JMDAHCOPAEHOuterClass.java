@@ -1305,8 +1305,8 @@ public final class JMDAHCOPAEHOuterClass {
       "\030\372\003 \001(\010\022\024\n\013IBOKGGHOKBC\030\373\003 \001(\010\022\024\n\013HCKAJJI" +
       "IDGB\030\374\003 \001(\010\022\024\n\013HDDBNPBAACE\030\375\003 \001(\010\022\024\n\013BMN" +
       "KPHPCLOK\030\376\003 \001(\010\022\024\n\013KNNIPPKCGOE\030\377\003 \001(\010\022\024\n" +
-      "\013FEMCKLIHHKF\030\200\004 \001(\010B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\013FEMCKLIHHKF\030\200\004 \001(\010B2\n\031emu.grasscutter.n" +
+      "et.protoB\025JMDAHCOPAEHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

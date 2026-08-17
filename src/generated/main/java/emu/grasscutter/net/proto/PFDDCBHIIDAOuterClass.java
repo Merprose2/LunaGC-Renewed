@@ -562,8 +562,9 @@ public final class PFDDCBHIIDAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PFDDCBHIIDA.proto\032\rUgcType.proto\")\n\013PF" +
-      "DDCBHIIDA\022\032\n\010ugc_type\030\005 \001(\0162\010.UgcTypeB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "DDCBHIIDA\022\032\n\010ugc_type\030\005 \001(\0162\010.UgcTypeB2\n" +
+      "\031emu.grasscutter.net.protoB\025PFDDCBHIIDAO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

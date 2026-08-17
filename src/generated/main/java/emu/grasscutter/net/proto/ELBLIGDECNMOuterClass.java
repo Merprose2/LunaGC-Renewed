@@ -675,8 +675,9 @@ public final class ELBLIGDECNMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ELBLIGDECNM.proto\"5\n\013ELBLIGDECNM\022\017\n\007it" +
-      "em_id\030\005 \001(\r\022\025\n\rclient_params\030\013 \001(\tB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "em_id\030\005 \001(\r\022\025\n\rclient_params\030\013 \001(\tB2\n\031em" +
+      "u.grasscutter.net.protoB\025ELBLIGDECNMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

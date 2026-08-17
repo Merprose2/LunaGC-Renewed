@@ -1074,8 +1074,8 @@ public final class DPAHGLEOFCCOuterClass {
       "AHGLEOFCC\022\024\n\003pos\030\004 \001(\0132\007.Vector\022\024\n\003rot\030\007" +
       " \001(\0132\007.Vector\022\034\n\024_template_loading_id\030\010 " +
       "\001(\r\022\023\n\013IKFIEHHHOCB\030\n \001(\r\022\023\n\013KEPHCJHLPHP\030" +
-      "\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\013 \001(\rB2\n\031emu.grasscutter.net.protoB\025DPAH" +
+      "GLEOFCCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

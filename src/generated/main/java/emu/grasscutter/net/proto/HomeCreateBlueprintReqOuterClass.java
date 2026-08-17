@@ -952,8 +952,9 @@ public final class HomeCreateBlueprintReqOuterClass {
       "eprintReq\022\031\n\021server_share_code\030\001 \001(\t\022\034\n\024" +
       "gen_share_code_count\030\006 \001(\r\0229\n\026scene_arra" +
       "ngement_info\030\010 \001(\0132\031.HomeSceneArrangemen" +
-      "tInfo\022\017\n\007slot_id\030\t \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "tInfo\022\017\n\007slot_id\030\t \001(\rB=\n\031emu.grasscutte" +
+      "r.net.protoB HomeCreateBlueprintReqOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

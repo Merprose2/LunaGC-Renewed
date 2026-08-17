@@ -966,8 +966,8 @@ public final class HPANPGOPDHKOuterClass {
       "\n\021HPANPGOPDHK.proto\032\021JEALJCJIHOJ.proto\"Z" +
       "\n\013HPANPGOPDHK\022\023\n\013PINOKHDDIMC\030\001 \001(\005\022\023\n\013ME" +
       "LPNEOIHCG\030\002 \001(\002\022!\n\013LHIBNHMHLIL\030\003 \003(\0132\014.J" +
-      "EALJCJIHOJB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "EALJCJIHOJB2\n\031emu.grasscutter.net.protoB" +
+      "\025HPANPGOPDHKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

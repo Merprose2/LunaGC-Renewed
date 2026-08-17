@@ -730,8 +730,9 @@ public final class IHFAIFNHCKDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IHFAIFNHCKD.proto\"R\n\013IHFAIFNHCKD\022\021\n\tis" +
       "_finish\030\t \001(\010\022\r\n\005score\030\013 \001(\r\022\020\n\010stage_id" +
-      "\030\014 \001(\r\022\017\n\007is_open\030\r \001(\010B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\030\014 \001(\r\022\017\n\007is_open\030\r \001(\010B2\n\031emu.grasscutt" +
+      "er.net.protoB\025IHFAIFNHCKDOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -2643,8 +2643,8 @@ public final class AvatarDataNotifyOuterClass {
       "pEntry\022\032\n\022choose_avatar_guid\030\016 \001(\004\022\035\n\025te" +
       "mp_avatar_guid_list\030\017 \003(\004\032A\n\022AvatarTeamM" +
       "apEntry\022\013\n\003key\030\001 \001(\r\022\032\n\005value\030\002 \001(\0132\013.Av" +
-      "atarTeam:\0028\001B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "atarTeam:\0028\001B7\n\031emu.grasscutter.net.prot" +
+      "oB\032AvatarDataNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

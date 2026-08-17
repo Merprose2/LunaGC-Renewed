@@ -579,8 +579,9 @@ public final class AELIBNHFODDOuterClass {
       "COMP\020,\0221\n-AELIBNHFODD_BEYOND_COMP_TYPE_C" +
       "URSOR_COLLISION\020-\022(\n$AELIBNHFODD_BEYOND_" +
       "COMP_TYPE_VEHICLE\020.\022*\n&AELIBNHFODD_BEYON" +
-      "D_COMP_TYPE_ARRAYSIZE\020/B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "D_COMP_TYPE_ARRAYSIZE\020/B2\n\031emu.grasscutt" +
+      "er.net.protoB\025AELIBNHFODDOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -666,8 +666,9 @@ public final class WatcherEventStageNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035WatcherEventStageNotify.proto\"R\n\027Watch" +
       "erEventStageNotify\022\022\n\nwatcher_id\030\001 \001(\r\022\024" +
-      "\n\014add_progress\030\004 \001(\r\022\r\n\005stage\030\t \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\n\014add_progress\030\004 \001(\r\022\r\n\005stage\030\t \001(\rB>\n\031e" +
+      "mu.grasscutter.net.protoB!WatcherEventSt" +
+      "ageNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

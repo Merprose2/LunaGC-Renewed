@@ -658,8 +658,8 @@ public final class DPAFDDMLCGBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DPAFDDMLCGB.proto\"L\n\013DPAFDDMLCGB\022\023\n\013DL" +
       "FLAKCKFLD\030\001 \001(\r\022\023\n\013EGENJEOODKP\030\002 \001(\005\022\023\n\013" +
-      "BNGPEDAOHFH\030\003 \001(\005B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "BNGPEDAOHFH\030\003 \001(\005B2\n\031emu.grasscutter.net" +
+      ".protoB\025DPAFDDMLCGBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

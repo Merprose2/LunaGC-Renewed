@@ -1106,8 +1106,8 @@ public final class NDPGIKHKOHFOuterClass {
       "\001\n\013NDPGIKHKOHF\022\020\n\010stage_id\030\007 \001(\r\022\023\n\013NHEF" +
       "NKONPEI\030\013 \001(\r\022\023\n\013MCBOJPBIBID\030\r \001(\r\022\017\n\007is" +
       "_open\030\016 \001(\010\022&\n\020avatar_info_list\030\017 \003(\0132\014." +
-      "PFPIOBPBJMMB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "PFPIOBPBJMMB2\n\031emu.grasscutter.net.proto" +
+      "B\025NDPGIKHKOHFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

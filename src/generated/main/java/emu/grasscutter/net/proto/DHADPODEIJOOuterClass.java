@@ -595,8 +595,9 @@ public final class DHADPODEIJOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DHADPODEIJO.proto\"1\n\013DHADPODEIJO\022\021\n\ten" +
-      "tity_id\030\007 \001(\r\022\017\n\007retcode\030\014 \001(\005B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "tity_id\030\007 \001(\r\022\017\n\007retcode\030\014 \001(\005B2\n\031emu.gr" +
+      "asscutter.net.protoB\025DHADPODEIJOOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

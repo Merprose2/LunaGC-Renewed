@@ -746,8 +746,9 @@ public final class ChangeTeamNameRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027ChangeTeamNameRsp.proto\"H\n\021ChangeTeamN" +
       "ameRsp\022\021\n\tteam_name\030\003 \001(\t\022\017\n\007team_id\030\005 \001" +
-      "(\005\022\017\n\007retcode\030\007 \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "(\005\022\017\n\007retcode\030\007 \001(\005B8\n\031emu.grasscutter.n" +
+      "et.protoB\033ChangeTeamNameRspOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

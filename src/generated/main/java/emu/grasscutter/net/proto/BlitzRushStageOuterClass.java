@@ -588,8 +588,9 @@ public final class BlitzRushStageOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\024BlitzRushStage.proto\"4\n\016BlitzRushStage" +
-      "\022\017\n\007is_open\030\004 \001(\010\022\021\n\topen_time\030\010 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\022\017\n\007is_open\030\004 \001(\010\022\021\n\topen_time\030\010 \001(\rB5\n\031" +
+      "emu.grasscutter.net.protoB\030BlitzRushStag" +
+      "eOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

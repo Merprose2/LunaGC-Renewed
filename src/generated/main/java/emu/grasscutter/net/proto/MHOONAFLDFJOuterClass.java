@@ -926,7 +926,8 @@ public final class MHOONAFLDFJOuterClass {
       "DNHJLOJDKDP.proto\"h\n\013MHOONAFLDFJ\022 \n\nbasi" +
       "c_info\030\t \001(\0132\014.DNHJLOJDKDP\022\024\n\014gadget_sta" +
       "te\030\r \001(\r\022!\n\013NBNBMAOGMLC\030\016 \001(\0132\014.CENMPBBP" +
-      "OKOB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "OKOB2\n\031emu.grasscutter.net.protoB\025MHOONA" +
+      "FLDFJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

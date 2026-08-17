@@ -517,8 +517,8 @@ public final class LNEHIKAFNBEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LNEHIKAFNBE.proto\"\035\n\013LNEHIKAFNBE\022\016\n\005va" +
-      "lue\030\365\003 \001(\005B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "lue\030\365\003 \001(\005B2\n\031emu.grasscutter.net.protoB" +
+      "\025LNEHIKAFNBEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

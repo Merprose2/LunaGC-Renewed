@@ -917,8 +917,9 @@ public final class VintageHuntingSecondStageSettleInfoOuterClass {
       "_map\030\007 \003(\01328.VintageHuntingSecondStageSe" +
       "ttleInfo.AnimalCountMapEntry\022\023\n\013PEOAILOO" +
       "EKH\030\016 \001(\r\0325\n\023AnimalCountMapEntry\022\013\n\003key\030" +
-      "\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001BJ\n\031emu.grasscut" +
+      "ter.net.protoB-VintageHuntingSecondStage" +
+      "SettleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

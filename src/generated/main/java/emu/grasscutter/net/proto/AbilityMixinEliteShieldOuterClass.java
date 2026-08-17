@@ -519,8 +519,9 @@ public final class AbilityMixinEliteShieldOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035AbilityMixinEliteShield.proto\"-\n\027Abili" +
-      "tyMixinEliteShield\022\022\n\nsub_shield\030\r \001(\002B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "tyMixinEliteShield\022\022\n\nsub_shield\030\r \001(\002B>" +
+      "\n\031emu.grasscutter.net.protoB!AbilityMixi" +
+      "nEliteShieldOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

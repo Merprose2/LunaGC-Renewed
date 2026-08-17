@@ -897,8 +897,9 @@ public final class PBNavMeshTileOuterClass {
     java.lang.String[] descriptorData = {
       "\n\023PBNavMeshTile.proto\032\023PBNavMeshPoly.pro" +
       "to\"<\n\rPBNavMeshTile\022\014\n\004vecs\030\004 \001(\014\022\035\n\005pol" +
-      "ys\030\007 \003(\0132\016.PBNavMeshPolyB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "ys\030\007 \003(\0132\016.PBNavMeshPolyB4\n\031emu.grasscut" +
+      "ter.net.protoB\027PBNavMeshTileOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

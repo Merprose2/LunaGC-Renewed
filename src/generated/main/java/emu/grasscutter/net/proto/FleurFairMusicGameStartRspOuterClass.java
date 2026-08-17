@@ -596,8 +596,9 @@ public final class FleurFairMusicGameStartRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n FleurFairMusicGameStartRsp.proto\"E\n\032Fl" +
       "eurFairMusicGameStartRsp\022\026\n\016music_basic_" +
-      "id\030\004 \001(\r\022\017\n\007retcode\030\n \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "id\030\004 \001(\r\022\017\n\007retcode\030\n \001(\005BA\n\031emu.grasscu" +
+      "tter.net.protoB$FleurFairMusicGameStartR" +
+      "spOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

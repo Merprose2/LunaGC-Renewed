@@ -519,8 +519,9 @@ public final class SceneGalleryFungusFighterCaptureInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n*SceneGalleryFungusFighterCaptureInfo.p" +
       "roto\"@\n$SceneGalleryFungusFighterCapture" +
-      "Info\022\030\n\020is_hide_progress\030\005 \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "Info\022\030\n\020is_hide_progress\030\005 \001(\010BK\n\031emu.gr" +
+      "asscutter.net.protoB.SceneGalleryFungusF" +
+      "ighterCaptureInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

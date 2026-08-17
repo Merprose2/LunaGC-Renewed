@@ -738,8 +738,8 @@ public final class BOLBFDJJGLPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BOLBFDJJGLP.proto\"L\n\013BOLBFDJJGLP\022\023\n\013NA" +
       "CDMEPDKAK\030\001 \001(\r\022\023\n\013LADNPKJAOLK\030\002 \001(\t\022\023\n\013" +
-      "GKEBFJKMPDD\030\003 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "GKEBFJKMPDD\030\003 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025BOLBFDJJGLPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

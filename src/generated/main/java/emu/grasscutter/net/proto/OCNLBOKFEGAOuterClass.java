@@ -664,8 +664,8 @@ public final class OCNLBOKFEGAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OCNLBOKFEGA.proto\"I\n\013OCNLBOKFEGA\022\020\n\010du" +
       "ration\030\001 \001(\002\022\023\n\013CGLJOHBLOIC\030\002 \001(\002\022\023\n\013PCM" +
-      "BNIKEONK\030\010 \001(\002B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "BNIKEONK\030\010 \001(\002B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025OCNLBOKFEGAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

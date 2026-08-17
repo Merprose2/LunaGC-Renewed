@@ -659,8 +659,8 @@ public final class GGDNAHMEGKPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GGDNAHMEGKP.proto\032\021JPJJIHFIAKI.proto\"0" +
       "\n\013GGDNAHMEGKP\022!\n\013KJHPACDMOPI\030\013 \001(\0132\014.JPJ" +
-      "JIHFIAKIB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "JIHFIAKIB2\n\031emu.grasscutter.net.protoB\025G" +
+      "GDNAHMEGKPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

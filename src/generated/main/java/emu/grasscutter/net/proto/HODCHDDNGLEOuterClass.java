@@ -1034,8 +1034,8 @@ public final class HODCHDDNGLEOuterClass {
       "HODCHDDNGLE\022\023\n\013CPCJJNMMNHN\030\003 \001(\007\022!\n\013EHMH" +
       "KMFILBC\030\004 \003(\0162\014.DDLJLNEGKHG\022 \n\013audit_sta" +
       "te\030\005 \001(\0162\013.AuditState\022\037\n\trule_type\030\t \001(\016" +
-      "2\014.JANOHEOBGDJB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "2\014.JANOHEOBGDJB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025HODCHDDNGLEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

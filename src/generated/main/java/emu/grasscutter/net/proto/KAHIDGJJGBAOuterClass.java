@@ -736,8 +736,9 @@ public final class KAHIDGJJGBAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KAHIDGJJGBA.proto\"^\n\013KAHIDGJJGBA\022\020\n\010gr" +
       "oup_id\030\005 \001(\r\022\023\n\013CCJLCHPGCJI\030\007 \001(\r\022\023\n\013HLM" +
-      "MODEOMOA\030\014 \001(\r\022\023\n\013NJGFELOGIDJ\030\017 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "MODEOMOA\030\014 \001(\r\022\023\n\013NJGFELOGIDJ\030\017 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025KAHIDGJJGBAOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

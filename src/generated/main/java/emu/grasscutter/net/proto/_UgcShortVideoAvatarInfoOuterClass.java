@@ -44,7 +44,7 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
      */
     int getTrialAvatarId();
 
-    public emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.AvatarInfoCase getAvatarInfoCase();
+    public emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.LMEDEFFCPCMCase getLMEDEFFCPCMCase();
   }
   /**
    * Protobuf type {@code _UgcShortVideoAvatarInfo}
@@ -93,21 +93,21 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
               break;
             case 10: {
               emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.Builder subBuilder = null;
-              if (avatarInfoCase_ == 1) {
-                subBuilder = ((emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) avatarInfo_).toBuilder();
+              if (lMEDEFFCPCMCase_ == 1) {
+                subBuilder = ((emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) lMEDEFFCPCM_).toBuilder();
               }
-              avatarInfo_ =
+              lMEDEFFCPCM_ =
                   input.readMessage(emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) avatarInfo_);
-                avatarInfo_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) lMEDEFFCPCM_);
+                lMEDEFFCPCM_ = subBuilder.buildPartial();
               }
-              avatarInfoCase_ = 1;
+              lMEDEFFCPCMCase_ = 1;
               break;
             }
             case 16: {
-              avatarInfoCase_ = 2;
-              avatarInfo_ = input.readUInt32();
+              lMEDEFFCPCMCase_ = 2;
+              lMEDEFFCPCM_ = input.readUInt32();
               break;
             }
             default: {
@@ -142,16 +142,16 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
               emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.class, emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.Builder.class);
     }
 
-    private int avatarInfoCase_ = 0;
-    private java.lang.Object avatarInfo_;
-    public enum AvatarInfoCase
+    private int lMEDEFFCPCMCase_ = 0;
+    private java.lang.Object lMEDEFFCPCM_;
+    public enum LMEDEFFCPCMCase
         implements com.google.protobuf.Internal.EnumLite,
             com.google.protobuf.AbstractMessage.InternalOneOfEnum {
       SOCIAL_SHOW_AVATAR_INFO(1),
       TRIAL_AVATAR_ID(2),
-      AVATARINFO_NOT_SET(0);
+      LMEDEFFCPCM_NOT_SET(0);
       private final int value;
-      private AvatarInfoCase(int value) {
+      private LMEDEFFCPCMCase(int value) {
         this.value = value;
       }
       /**
@@ -160,15 +160,15 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
        * @deprecated Use {@link #forNumber(int)} instead.
        */
       @java.lang.Deprecated
-      public static AvatarInfoCase valueOf(int value) {
+      public static LMEDEFFCPCMCase valueOf(int value) {
         return forNumber(value);
       }
 
-      public static AvatarInfoCase forNumber(int value) {
+      public static LMEDEFFCPCMCase forNumber(int value) {
         switch (value) {
           case 1: return SOCIAL_SHOW_AVATAR_INFO;
           case 2: return TRIAL_AVATAR_ID;
-          case 0: return AVATARINFO_NOT_SET;
+          case 0: return LMEDEFFCPCM_NOT_SET;
           default: return null;
         }
       }
@@ -177,10 +177,10 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
       }
     };
 
-    public AvatarInfoCase
-    getAvatarInfoCase() {
-      return AvatarInfoCase.forNumber(
-          avatarInfoCase_);
+    public LMEDEFFCPCMCase
+    getLMEDEFFCPCMCase() {
+      return LMEDEFFCPCMCase.forNumber(
+          lMEDEFFCPCMCase_);
     }
 
     public static final int SOCIAL_SHOW_AVATAR_INFO_FIELD_NUMBER = 1;
@@ -190,7 +190,7 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
      */
     @java.lang.Override
     public boolean hasSocialShowAvatarInfo() {
-      return avatarInfoCase_ == 1;
+      return lMEDEFFCPCMCase_ == 1;
     }
     /**
      * <code>.SocialShowAvatarInfo social_show_avatar_info = 1;</code>
@@ -198,8 +198,8 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo getSocialShowAvatarInfo() {
-      if (avatarInfoCase_ == 1) {
-         return (emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) avatarInfo_;
+      if (lMEDEFFCPCMCase_ == 1) {
+         return (emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) lMEDEFFCPCM_;
       }
       return emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.getDefaultInstance();
     }
@@ -208,8 +208,8 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder getSocialShowAvatarInfoOrBuilder() {
-      if (avatarInfoCase_ == 1) {
-         return (emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) avatarInfo_;
+      if (lMEDEFFCPCMCase_ == 1) {
+         return (emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) lMEDEFFCPCM_;
       }
       return emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.getDefaultInstance();
     }
@@ -221,7 +221,7 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
      */
     @java.lang.Override
     public boolean hasTrialAvatarId() {
-      return avatarInfoCase_ == 2;
+      return lMEDEFFCPCMCase_ == 2;
     }
     /**
      * <code>uint32 trial_avatar_id = 2;</code>
@@ -229,8 +229,8 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
      */
     @java.lang.Override
     public int getTrialAvatarId() {
-      if (avatarInfoCase_ == 2) {
-        return (java.lang.Integer) avatarInfo_;
+      if (lMEDEFFCPCMCase_ == 2) {
+        return (java.lang.Integer) lMEDEFFCPCM_;
       }
       return 0;
     }
@@ -249,12 +249,12 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (avatarInfoCase_ == 1) {
-        output.writeMessage(1, (emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) avatarInfo_);
+      if (lMEDEFFCPCMCase_ == 1) {
+        output.writeMessage(1, (emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) lMEDEFFCPCM_);
       }
-      if (avatarInfoCase_ == 2) {
+      if (lMEDEFFCPCMCase_ == 2) {
         output.writeUInt32(
-            2, (int)((java.lang.Integer) avatarInfo_));
+            2, (int)((java.lang.Integer) lMEDEFFCPCM_));
       }
       unknownFields.writeTo(output);
     }
@@ -265,14 +265,14 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (avatarInfoCase_ == 1) {
+      if (lMEDEFFCPCMCase_ == 1) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, (emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) avatarInfo_);
+          .computeMessageSize(1, (emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) lMEDEFFCPCM_);
       }
-      if (avatarInfoCase_ == 2) {
+      if (lMEDEFFCPCMCase_ == 2) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(
-              2, (int)((java.lang.Integer) avatarInfo_));
+              2, (int)((java.lang.Integer) lMEDEFFCPCM_));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -289,8 +289,8 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
       }
       emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo other = (emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo) obj;
 
-      if (!getAvatarInfoCase().equals(other.getAvatarInfoCase())) return false;
-      switch (avatarInfoCase_) {
+      if (!getLMEDEFFCPCMCase().equals(other.getLMEDEFFCPCMCase())) return false;
+      switch (lMEDEFFCPCMCase_) {
         case 1:
           if (!getSocialShowAvatarInfo()
               .equals(other.getSocialShowAvatarInfo())) return false;
@@ -313,7 +313,7 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      switch (avatarInfoCase_) {
+      switch (lMEDEFFCPCMCase_) {
         case 1:
           hash = (37 * hash) + SOCIAL_SHOW_AVATAR_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getSocialShowAvatarInfo().hashCode();
@@ -458,8 +458,8 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        avatarInfoCase_ = 0;
-        avatarInfo_ = null;
+        lMEDEFFCPCMCase_ = 0;
+        lMEDEFFCPCM_ = null;
         return this;
       }
 
@@ -486,17 +486,17 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo buildPartial() {
         emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo result = new emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo(this);
-        if (avatarInfoCase_ == 1) {
+        if (lMEDEFFCPCMCase_ == 1) {
           if (socialShowAvatarInfoBuilder_ == null) {
-            result.avatarInfo_ = avatarInfo_;
+            result.lMEDEFFCPCM_ = lMEDEFFCPCM_;
           } else {
-            result.avatarInfo_ = socialShowAvatarInfoBuilder_.build();
+            result.lMEDEFFCPCM_ = socialShowAvatarInfoBuilder_.build();
           }
         }
-        if (avatarInfoCase_ == 2) {
-          result.avatarInfo_ = avatarInfo_;
+        if (lMEDEFFCPCMCase_ == 2) {
+          result.lMEDEFFCPCM_ = lMEDEFFCPCM_;
         }
-        result.avatarInfoCase_ = avatarInfoCase_;
+        result.lMEDEFFCPCMCase_ = lMEDEFFCPCMCase_;
         onBuilt();
         return result;
       }
@@ -545,7 +545,7 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo other) {
         if (other == emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.getDefaultInstance()) return this;
-        switch (other.getAvatarInfoCase()) {
+        switch (other.getLMEDEFFCPCMCase()) {
           case SOCIAL_SHOW_AVATAR_INFO: {
             mergeSocialShowAvatarInfo(other.getSocialShowAvatarInfo());
             break;
@@ -554,7 +554,7 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
             setTrialAvatarId(other.getTrialAvatarId());
             break;
           }
-          case AVATARINFO_NOT_SET: {
+          case LMEDEFFCPCM_NOT_SET: {
             break;
           }
         }
@@ -586,17 +586,17 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
         }
         return this;
       }
-      private int avatarInfoCase_ = 0;
-      private java.lang.Object avatarInfo_;
-      public AvatarInfoCase
-          getAvatarInfoCase() {
-        return AvatarInfoCase.forNumber(
-            avatarInfoCase_);
+      private int lMEDEFFCPCMCase_ = 0;
+      private java.lang.Object lMEDEFFCPCM_;
+      public LMEDEFFCPCMCase
+          getLMEDEFFCPCMCase() {
+        return LMEDEFFCPCMCase.forNumber(
+            lMEDEFFCPCMCase_);
       }
 
-      public Builder clearAvatarInfo() {
-        avatarInfoCase_ = 0;
-        avatarInfo_ = null;
+      public Builder clearLMEDEFFCPCM() {
+        lMEDEFFCPCMCase_ = 0;
+        lMEDEFFCPCM_ = null;
         onChanged();
         return this;
       }
@@ -610,7 +610,7 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
        */
       @java.lang.Override
       public boolean hasSocialShowAvatarInfo() {
-        return avatarInfoCase_ == 1;
+        return lMEDEFFCPCMCase_ == 1;
       }
       /**
        * <code>.SocialShowAvatarInfo social_show_avatar_info = 1;</code>
@@ -619,12 +619,12 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo getSocialShowAvatarInfo() {
         if (socialShowAvatarInfoBuilder_ == null) {
-          if (avatarInfoCase_ == 1) {
-            return (emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) avatarInfo_;
+          if (lMEDEFFCPCMCase_ == 1) {
+            return (emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) lMEDEFFCPCM_;
           }
           return emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.getDefaultInstance();
         } else {
-          if (avatarInfoCase_ == 1) {
+          if (lMEDEFFCPCMCase_ == 1) {
             return socialShowAvatarInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.getDefaultInstance();
@@ -638,12 +638,12 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
           if (value == null) {
             throw new NullPointerException();
           }
-          avatarInfo_ = value;
+          lMEDEFFCPCM_ = value;
           onChanged();
         } else {
           socialShowAvatarInfoBuilder_.setMessage(value);
         }
-        avatarInfoCase_ = 1;
+        lMEDEFFCPCMCase_ = 1;
         return this;
       }
       /**
@@ -652,12 +652,12 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
       public Builder setSocialShowAvatarInfo(
           emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.Builder builderForValue) {
         if (socialShowAvatarInfoBuilder_ == null) {
-          avatarInfo_ = builderForValue.build();
+          lMEDEFFCPCM_ = builderForValue.build();
           onChanged();
         } else {
           socialShowAvatarInfoBuilder_.setMessage(builderForValue.build());
         }
-        avatarInfoCase_ = 1;
+        lMEDEFFCPCMCase_ = 1;
         return this;
       }
       /**
@@ -665,21 +665,21 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
        */
       public Builder mergeSocialShowAvatarInfo(emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo value) {
         if (socialShowAvatarInfoBuilder_ == null) {
-          if (avatarInfoCase_ == 1 &&
-              avatarInfo_ != emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.getDefaultInstance()) {
-            avatarInfo_ = emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.newBuilder((emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) avatarInfo_)
+          if (lMEDEFFCPCMCase_ == 1 &&
+              lMEDEFFCPCM_ != emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.getDefaultInstance()) {
+            lMEDEFFCPCM_ = emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.newBuilder((emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) lMEDEFFCPCM_)
                 .mergeFrom(value).buildPartial();
           } else {
-            avatarInfo_ = value;
+            lMEDEFFCPCM_ = value;
           }
           onChanged();
         } else {
-          if (avatarInfoCase_ == 1) {
+          if (lMEDEFFCPCMCase_ == 1) {
             socialShowAvatarInfoBuilder_.mergeFrom(value);
           }
           socialShowAvatarInfoBuilder_.setMessage(value);
         }
-        avatarInfoCase_ = 1;
+        lMEDEFFCPCMCase_ = 1;
         return this;
       }
       /**
@@ -687,15 +687,15 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
        */
       public Builder clearSocialShowAvatarInfo() {
         if (socialShowAvatarInfoBuilder_ == null) {
-          if (avatarInfoCase_ == 1) {
-            avatarInfoCase_ = 0;
-            avatarInfo_ = null;
+          if (lMEDEFFCPCMCase_ == 1) {
+            lMEDEFFCPCMCase_ = 0;
+            lMEDEFFCPCM_ = null;
             onChanged();
           }
         } else {
-          if (avatarInfoCase_ == 1) {
-            avatarInfoCase_ = 0;
-            avatarInfo_ = null;
+          if (lMEDEFFCPCMCase_ == 1) {
+            lMEDEFFCPCMCase_ = 0;
+            lMEDEFFCPCM_ = null;
           }
           socialShowAvatarInfoBuilder_.clear();
         }
@@ -712,11 +712,11 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder getSocialShowAvatarInfoOrBuilder() {
-        if ((avatarInfoCase_ == 1) && (socialShowAvatarInfoBuilder_ != null)) {
+        if ((lMEDEFFCPCMCase_ == 1) && (socialShowAvatarInfoBuilder_ != null)) {
           return socialShowAvatarInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (avatarInfoCase_ == 1) {
-            return (emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) avatarInfo_;
+          if (lMEDEFFCPCMCase_ == 1) {
+            return (emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) lMEDEFFCPCM_;
           }
           return emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.getDefaultInstance();
         }
@@ -728,17 +728,17 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
           emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo, emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.Builder, emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder> 
           getSocialShowAvatarInfoFieldBuilder() {
         if (socialShowAvatarInfoBuilder_ == null) {
-          if (!(avatarInfoCase_ == 1)) {
-            avatarInfo_ = emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.getDefaultInstance();
+          if (!(lMEDEFFCPCMCase_ == 1)) {
+            lMEDEFFCPCM_ = emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.getDefaultInstance();
           }
           socialShowAvatarInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo, emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.Builder, emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) avatarInfo_,
+                  (emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo) lMEDEFFCPCM_,
                   getParentForChildren(),
                   isClean());
-          avatarInfo_ = null;
+          lMEDEFFCPCM_ = null;
         }
-        avatarInfoCase_ = 1;
+        lMEDEFFCPCMCase_ = 1;
         onChanged();;
         return socialShowAvatarInfoBuilder_;
       }
@@ -748,15 +748,15 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
        * @return Whether the trialAvatarId field is set.
        */
       public boolean hasTrialAvatarId() {
-        return avatarInfoCase_ == 2;
+        return lMEDEFFCPCMCase_ == 2;
       }
       /**
        * <code>uint32 trial_avatar_id = 2;</code>
        * @return The trialAvatarId.
        */
       public int getTrialAvatarId() {
-        if (avatarInfoCase_ == 2) {
-          return (java.lang.Integer) avatarInfo_;
+        if (lMEDEFFCPCMCase_ == 2) {
+          return (java.lang.Integer) lMEDEFFCPCM_;
         }
         return 0;
       }
@@ -766,8 +766,8 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTrialAvatarId(int value) {
-        avatarInfoCase_ = 2;
-        avatarInfo_ = value;
+        lMEDEFFCPCMCase_ = 2;
+        lMEDEFFCPCM_ = value;
         onChanged();
         return this;
       }
@@ -776,9 +776,9 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTrialAvatarId() {
-        if (avatarInfoCase_ == 2) {
-          avatarInfoCase_ = 0;
-          avatarInfo_ = null;
+        if (lMEDEFFCPCMCase_ == 2) {
+          lMEDEFFCPCMCase_ = 0;
+          lMEDEFFCPCM_ = null;
           onChanged();
         }
         return this;
@@ -854,7 +854,7 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
       "ShowAvatarInfo.proto\"~\n\030_UgcShortVideoAv" +
       "atarInfo\0228\n\027social_show_avatar_info\030\001 \001(" +
       "\0132\025.SocialShowAvatarInfoH\000\022\031\n\017trial_avat" +
-      "ar_id\030\002 \001(\rH\000B\r\n\013avatar_infoB?\n\031emu.gras" +
+      "ar_id\030\002 \001(\rH\000B\r\n\013LMEDEFFCPCMB?\n\031emu.gras" +
       "scutter.net.protoB\"_UgcShortVideoAvatarI" +
       "nfoOuterClassb\006proto3"
     };
@@ -868,7 +868,7 @@ public final class _UgcShortVideoAvatarInfoOuterClass {
     internal_static__UgcShortVideoAvatarInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static__UgcShortVideoAvatarInfo_descriptor,
-        new java.lang.String[] { "SocialShowAvatarInfo", "TrialAvatarId", "AvatarInfo", });
+        new java.lang.String[] { "SocialShowAvatarInfo", "TrialAvatarId", "LMEDEFFCPCM", });
     emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.getDescriptor();
   }
 

@@ -893,8 +893,8 @@ public final class FCKDADBCFHOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FCKDADBCFHO.proto\032\021BMFCCNGONAK.proto\"<" +
       "\n\013FCKDADBCFHO\022\n\n\002id\030\001 \001(\r\022!\n\013FHBACOFFFAH" +
-      "\030\002 \003(\0132\014.BMFCCNGONAKB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\030\002 \003(\0132\014.BMFCCNGONAKB2\n\031emu.grasscutter." +
+      "net.protoB\025FCKDADBCFHOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1138,8 +1138,9 @@ public final class EEFAKGGNHFLOuterClass {
       "GOLAOGBN\030\005 \001(\0132\014.LJMNDIAOGOA\022!\n\013GCMMBLAK" +
       "DIJ\030\007 \001(\0132\014.GOFPBJIEGOD\022\023\n\013KMPBFONMCNG\030\010" +
       " \001(\r\022\023\n\013PEPIFGPBPDJ\030\t \001(\r\022\023\n\013MHJNBBNJMOC" +
-      "\030\n \001(\r\022\022\n\n_hall_guid\030\016 \001(\004B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\030\n \001(\r\022\022\n\n_hall_guid\030\016 \001(\004B2\n\031emu.grassc" +
+      "utter.net.protoB\025EEFAKGGNHFLOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

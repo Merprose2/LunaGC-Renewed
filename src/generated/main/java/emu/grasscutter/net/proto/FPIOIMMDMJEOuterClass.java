@@ -1560,8 +1560,9 @@ public final class FPIOIMMDMJEOuterClass {
       "BAF\022\023\n\013FFPGJPHCHCK\030\002 \001(\r\022\025\n\ris_new_recor" +
       "d\030\004 \001(\010\022\023\n\013KDBOHEGKGLG\030\007 \001(\r\022*\n\nscore_li" +
       "st\030\010 \003(\0132\026.ExhibitionDisplayInfo\022\023\n\013BCBL" +
-      "IJDGIGO\030\n \001(\010\022\017\n\007is_succ\030\016 \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "IJDGIGO\030\n \001(\010\022\017\n\007is_succ\030\016 \001(\010B2\n\031emu.gr" +
+      "asscutter.net.protoB\025FPIOIMMDMJEOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -45,11 +45,11 @@ public final class KJDMKDEEIMOOuterClass {
      * <code>._PinName PELLMHIGEPM = 3;</code>
      * @return The pELLMHIGEPM.
      */
-    emu.grasscutter.net.proto.PinName._PinName getPELLMHIGEPM();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinName getPELLMHIGEPM();
     /**
      * <code>._PinName PELLMHIGEPM = 3;</code>
      */
-    emu.grasscutter.net.proto.PinName._PinNameOrBuilder getPELLMHIGEPMOrBuilder();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getPELLMHIGEPMOrBuilder();
 
     /**
      * <code>.BKNNIEINCJN CEOPFAEKGIP = 4;</code>
@@ -193,11 +193,11 @@ public final class KJDMKDEEIMOOuterClass {
               break;
             }
             case 26: {
-              emu.grasscutter.net.proto.PinName._PinName.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder subBuilder = null;
               if (pELLMHIGEPM_ != null) {
                 subBuilder = pELLMHIGEPM_.toBuilder();
               }
-              pELLMHIGEPM_ = input.readMessage(emu.grasscutter.net.proto.PinName._PinName.parser(), extensionRegistry);
+              pELLMHIGEPM_ = input.readMessage(emu.grasscutter.net.proto._PinNameOuterClass._PinName.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(pELLMHIGEPM_);
                 pELLMHIGEPM_ = subBuilder.buildPartial();
@@ -339,7 +339,7 @@ public final class KJDMKDEEIMOOuterClass {
     }
 
     public static final int PELLMHIGEPM_FIELD_NUMBER = 3;
-    private emu.grasscutter.net.proto.PinName._PinName pELLMHIGEPM_;
+    private emu.grasscutter.net.proto._PinNameOuterClass._PinName pELLMHIGEPM_;
     /**
      * <code>._PinName PELLMHIGEPM = 3;</code>
      * @return Whether the pELLMHIGEPM field is set.
@@ -353,14 +353,14 @@ public final class KJDMKDEEIMOOuterClass {
      * @return The pELLMHIGEPM.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinName getPELLMHIGEPM() {
-      return pELLMHIGEPM_ == null ? emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : pELLMHIGEPM_;
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinName getPELLMHIGEPM() {
+      return pELLMHIGEPM_ == null ? emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : pELLMHIGEPM_;
     }
     /**
      * <code>._PinName PELLMHIGEPM = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getPELLMHIGEPMOrBuilder() {
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getPELLMHIGEPMOrBuilder() {
       return getPELLMHIGEPM();
     }
 
@@ -1153,9 +1153,9 @@ public final class KJDMKDEEIMOOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.PinName._PinName pELLMHIGEPM_;
+      private emu.grasscutter.net.proto._PinNameOuterClass._PinName pELLMHIGEPM_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> pELLMHIGEPMBuilder_;
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> pELLMHIGEPMBuilder_;
       /**
        * <code>._PinName PELLMHIGEPM = 3;</code>
        * @return Whether the pELLMHIGEPM field is set.
@@ -1167,9 +1167,9 @@ public final class KJDMKDEEIMOOuterClass {
        * <code>._PinName PELLMHIGEPM = 3;</code>
        * @return The pELLMHIGEPM.
        */
-      public emu.grasscutter.net.proto.PinName._PinName getPELLMHIGEPM() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName getPELLMHIGEPM() {
         if (pELLMHIGEPMBuilder_ == null) {
-          return pELLMHIGEPM_ == null ? emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : pELLMHIGEPM_;
+          return pELLMHIGEPM_ == null ? emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : pELLMHIGEPM_;
         } else {
           return pELLMHIGEPMBuilder_.getMessage();
         }
@@ -1177,7 +1177,7 @@ public final class KJDMKDEEIMOOuterClass {
       /**
        * <code>._PinName PELLMHIGEPM = 3;</code>
        */
-      public Builder setPELLMHIGEPM(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder setPELLMHIGEPM(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (pELLMHIGEPMBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1194,7 +1194,7 @@ public final class KJDMKDEEIMOOuterClass {
        * <code>._PinName PELLMHIGEPM = 3;</code>
        */
       public Builder setPELLMHIGEPM(
-          emu.grasscutter.net.proto.PinName._PinName.Builder builderForValue) {
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder builderForValue) {
         if (pELLMHIGEPMBuilder_ == null) {
           pELLMHIGEPM_ = builderForValue.build();
           onChanged();
@@ -1207,11 +1207,11 @@ public final class KJDMKDEEIMOOuterClass {
       /**
        * <code>._PinName PELLMHIGEPM = 3;</code>
        */
-      public Builder mergePELLMHIGEPM(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder mergePELLMHIGEPM(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (pELLMHIGEPMBuilder_ == null) {
           if (pELLMHIGEPM_ != null) {
             pELLMHIGEPM_ =
-              emu.grasscutter.net.proto.PinName._PinName.newBuilder(pELLMHIGEPM_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.newBuilder(pELLMHIGEPM_).mergeFrom(value).buildPartial();
           } else {
             pELLMHIGEPM_ = value;
           }
@@ -1239,7 +1239,7 @@ public final class KJDMKDEEIMOOuterClass {
       /**
        * <code>._PinName PELLMHIGEPM = 3;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinName.Builder getPELLMHIGEPMBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder getPELLMHIGEPMBuilder() {
         
         onChanged();
         return getPELLMHIGEPMFieldBuilder().getBuilder();
@@ -1247,23 +1247,23 @@ public final class KJDMKDEEIMOOuterClass {
       /**
        * <code>._PinName PELLMHIGEPM = 3;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getPELLMHIGEPMOrBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getPELLMHIGEPMOrBuilder() {
         if (pELLMHIGEPMBuilder_ != null) {
           return pELLMHIGEPMBuilder_.getMessageOrBuilder();
         } else {
           return pELLMHIGEPM_ == null ?
-              emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : pELLMHIGEPM_;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : pELLMHIGEPM_;
         }
       }
       /**
        * <code>._PinName PELLMHIGEPM = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> 
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> 
           getPELLMHIGEPMFieldBuilder() {
         if (pELLMHIGEPMBuilder_ == null) {
           pELLMHIGEPMBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder>(
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder>(
                   getPELLMHIGEPM(),
                   getParentForChildren(),
                   isClean());
@@ -2038,8 +2038,8 @@ public final class KJDMKDEEIMOOuterClass {
       "KNNIEINCJN\022!\n\013MCGHLOLCABO\030\005 \003(\0132\014.ELLLOM" +
       "JDPJL\022!\n\013IBECLMALACG\030\006 \003(\0132\014.GNPLEOKBJPN" +
       "\022\023\n\013HLPOHCDONIK\030\007 \001(\r\022\017\n\007version\030\010 \001(\r\022\023" +
-      "\n\013JADLBDDDGNJ\030\t \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013JADLBDDDGNJ\030\t \001(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025KJDMKDEEIMOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2047,7 +2047,7 @@ public final class KJDMKDEEIMOOuterClass {
           emu.grasscutter.net.proto.BKNNIEINCJNOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ELLLOMJDPJLOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.GNPLEOKBJPNOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.PinName.getDescriptor(),
+          emu.grasscutter.net.proto._PinNameOuterClass.getDescriptor(),
         });
     internal_static_KJDMKDEEIMO_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2058,7 +2058,7 @@ public final class KJDMKDEEIMOOuterClass {
     emu.grasscutter.net.proto.BKNNIEINCJNOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ELLLOMJDPJLOuterClass.getDescriptor();
     emu.grasscutter.net.proto.GNPLEOKBJPNOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.PinName.getDescriptor();
+    emu.grasscutter.net.proto._PinNameOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

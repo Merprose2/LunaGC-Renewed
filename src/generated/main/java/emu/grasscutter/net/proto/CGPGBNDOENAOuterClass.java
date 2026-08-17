@@ -1325,8 +1325,9 @@ public final class CGPGBNDOENAOuterClass {
       "etcode\030\003 \001(\005\022\023\n\013FIDCHIPNIKK\030\004 \001(\010\022\023\n\013GLH" +
       "JCMHDBKH\030\006 \001(\r\022\023\n\013BJFLBGJNCPM\030\007 \001(\r\022\023\n\013O" +
       "OEELMNHCIB\030\n \001(\r\022\023\n\013AENLHFHBCMO\030\013 \001(\r\022!\n" +
-      "\013AEEPJOJJNLP\030\r \003(\0132\014.DNJBINOIFAIB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\013AEEPJOJJNLP\030\r \003(\0132\014.DNJBINOIFAIB2\n\031emu." +
+      "grasscutter.net.protoB\025CGPGBNDOENAOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

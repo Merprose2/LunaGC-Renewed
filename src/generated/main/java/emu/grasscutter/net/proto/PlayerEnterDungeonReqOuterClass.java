@@ -1013,8 +1013,9 @@ public final class PlayerEnterDungeonReqOuterClass {
       "eq\022\023\n\013BAEJLCIOPMI\030\002 \001(\r\022,\n\016enter_pos_inf" +
       "o\030\003 \001(\0132\024.DungeonEnterPosInfo\022\023\n\013CCIOMCL" +
       "OGDK\030\006 \001(\r\022\020\n\010point_id\030\007 \001(\r\022\022\n\ndungeon_" +
-      "id\030\t \001(\r\022\024\n\014_is_continue\030\014 \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "id\030\t \001(\r\022\024\n\014_is_continue\030\014 \001(\010B<\n\031emu.gr" +
+      "asscutter.net.protoB\037PlayerEnterDungeonR" +
+      "eqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

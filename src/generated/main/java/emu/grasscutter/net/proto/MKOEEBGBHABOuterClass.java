@@ -976,8 +976,8 @@ public final class MKOEEBGBHABOuterClass {
       "\n\021MKOEEBGBHAB.proto\032\020Uint32Pair.proto\"U\n" +
       "\013MKOEEBGBHAB\022\023\n\013IHLMEKOODHA\030\007 \001(\014\022 \n\013FJH" +
       "LCPCEJHN\030\013 \003(\0132\013.Uint32Pair\022\017\n\007retcode\030\017" +
-      " \001(\005B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\005B2\n\031emu.grasscutter.net.protoB\025MKOEE" +
+      "BGBHABOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

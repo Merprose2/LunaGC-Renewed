@@ -595,8 +595,9 @@ public final class OECBKCBMFKGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OECBKCBMFKG.proto\"0\n\013OECBKCBMFKG\022\017\n\007re" +
-      "tcode\030\006 \001(\005\022\020\n\010quest_id\030\n \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "tcode\030\006 \001(\005\022\020\n\010quest_id\030\n \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025OECBKCBMFKGOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

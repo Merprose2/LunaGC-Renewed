@@ -714,8 +714,9 @@ public final class ELJHPENNACFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ELJHPENNACF.proto\"6\n\013ELJHPENNACF\022\023\n\013DB" +
-      "LPNCGLFEI\030\001 \001(\r\022\022\n\nscore_list\030\002 \003(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "LPNCGLFEI\030\001 \001(\r\022\022\n\nscore_list\030\002 \003(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025ELJHPENNACFOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

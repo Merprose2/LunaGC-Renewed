@@ -819,8 +819,8 @@ public final class DJLFBKIDLCMOuterClass {
       "\n\021DJLFBKIDLCM.proto\032\021DBLPCEEKGBP.proto\"b" +
       "\n\013DJLFBKIDLCM\022\023\n\013OECMKBIIGKE\030\003 \001(\r\0224\n\033tp" +
       "s_mercenaries_record_info\030\234\004 \001(\0132\014.DBLPC" +
-      "EEKGBPH\000B\010\n\006detailB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "EEKGBPH\000B\010\n\006detailB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025DJLFBKIDLCMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

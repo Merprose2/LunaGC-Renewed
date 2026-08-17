@@ -147,8 +147,9 @@ public final class DungeonCandidateTeamDismissReasonOuterClass {
       "andidateTeamDismissReason_DUNGEON_CANDID" +
       "ATE_TPDR_DIE\020\001\022G\nCDungeonCandidateTeamDi" +
       "smissReason_DUNGEON_CANDIDATE_TPDR_DISCO" +
-      "NNECT\020\002B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "NNECT\020\002BH\n\031emu.grasscutter.net.protoB+Du" +
+      "ngeonCandidateTeamDismissReasonOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

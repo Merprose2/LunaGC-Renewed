@@ -669,8 +669,9 @@ public final class ClientLoadingCostumeVerificationNotifyOuterClass {
       "\n,ClientLoadingCostumeVerificationNotify" +
       ".proto\"_\n&ClientLoadingCostumeVerificati" +
       "onNotify\022\022\n\ncostume_id\030\001 \001(\r\022\023\n\013prefab_h" +
-      "ash\030\005 \001(\004\022\014\n\004guid\030\007 \001(\004B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "ash\030\005 \001(\004\022\014\n\004guid\030\007 \001(\004BM\n\031emu.grasscutt" +
+      "er.net.protoB0ClientLoadingCostumeVerifi" +
+      "cationNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

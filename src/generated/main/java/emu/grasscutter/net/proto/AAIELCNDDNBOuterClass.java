@@ -525,8 +525,8 @@ public final class AAIELCNDDNBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AAIELCNDDNB.proto\"\035\n\013AAIELCNDDNB\022\016\n\006re" +
-      "ason\030\010 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "ason\030\010 \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025AAIELCNDDNBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

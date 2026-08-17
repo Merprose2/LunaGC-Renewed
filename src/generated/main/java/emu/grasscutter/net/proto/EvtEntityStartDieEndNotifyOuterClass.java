@@ -776,8 +776,9 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
       "ardType.proto\"\200\001\n\032EvtEntityStartDieEndNo" +
       "tify\022\026\n\016die_state_flag\030\005 \001(\r\022\023\n\013immediat" +
       "ely\030\n \001(\010\022\"\n\014forward_type\030\014 \001(\0162\014.Forwar" +
-      "dType\022\021\n\tentity_id\030\016 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "dType\022\021\n\tentity_id\030\016 \001(\rBA\n\031emu.grasscut" +
+      "ter.net.protoB$EvtEntityStartDieEndNotif" +
+      "yOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

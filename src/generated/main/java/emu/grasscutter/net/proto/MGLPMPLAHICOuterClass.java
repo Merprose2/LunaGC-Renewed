@@ -446,8 +446,9 @@ public final class MGLPMPLAHICOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021MGLPMPLAHIC.proto\"\r\n\013MGLPMPLAHICB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021MGLPMPLAHIC.proto\"\r\n\013MGLPMPLAHICB2\n\031em" +
+      "u.grasscutter.net.protoB\025MGLPMPLAHICOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

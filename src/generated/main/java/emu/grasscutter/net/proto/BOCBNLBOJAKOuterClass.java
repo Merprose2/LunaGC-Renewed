@@ -973,8 +973,9 @@ public final class BOCBNLBOJAKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BOCBNLBOJAK.proto\032\021OCBGIKBDLNH.proto\"E" +
       "\n\013BOCBNLBOJAK\022!\n\013DPIMEIALNJJ\030\001 \003(\0132\014.OCB" +
-      "GIKBDLNH\022\023\n\013DDEKACOMGFG\030\003 \001(\tB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "GIKBDLNH\022\023\n\013DDEKACOMGFG\030\003 \001(\tB2\n\031emu.gra" +
+      "sscutter.net.protoB\025BOCBNLBOJAKOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

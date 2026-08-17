@@ -855,8 +855,9 @@ public final class DJHEONONKEOOuterClass {
       "\n\021DJHEONONKEO.proto\032\021JNBHHOGKNOL.proto\032\021" +
       "KJEAIBGJDID.proto\"S\n\013DJHEONONKEO\022!\n\013FPOM" +
       "EHMLFBP\030\013 \001(\0132\014.KJEAIBGJDID\022!\n\013ECADJLEHG" +
-      "BG\030\016 \001(\0132\014.JNBHHOGKNOLB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "BG\030\016 \001(\0132\014.JNBHHOGKNOLB2\n\031emu.grasscutte" +
+      "r.net.protoB\025DJHEONONKEOOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

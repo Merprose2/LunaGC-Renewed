@@ -1500,8 +1500,9 @@ public final class MistTrialSelectAvatarAndEnterDungeonReqOuterClass {
       "st\030\001 \003(\r\022\026\n\016enter_point_id\030\016 \001(\r\022\020\n\010tria" +
       "l_id\030\017 \001(\r\032[\n\021SelectAvatarIndex\022\036\n\024mist_" +
       "trial_avatar_id\030\t \001(\rH\000\022\034\n\022formal_avatar" +
-      "_guid\030\r \001(\004H\000B\010\n\006detailB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "_guid\030\r \001(\004H\000B\010\n\006detailBN\n\031emu.grasscutt" +
+      "er.net.protoB1MistTrialSelectAvatarAndEn" +
+      "terDungeonReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

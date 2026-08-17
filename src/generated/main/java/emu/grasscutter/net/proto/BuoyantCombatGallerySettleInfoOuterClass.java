@@ -942,7 +942,9 @@ public final class BuoyantCombatGallerySettleInfoOuterClass {
       "_id\030\005 \001(\r\022\023\n\013final_score\030\006 \001(\r\022\023\n\013LBKLEC" +
       "LEDJP\030\007 \001(\r\022\025\n\rgallery_level\030\013 \001(\r\022\032\n\022ki" +
       "ll_monster_count\030\014 \001(\r\022\023\n\013KBNNDPPNOFH\030\017 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rBE\n\031emu.grasscutter.net.protoB(Buoyan" +
+      "tCombatGallerySettleInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

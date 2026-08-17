@@ -525,8 +525,8 @@ public final class EMEAGPBEJECOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EMEAGPBEJEC.proto\"\036\n\013EMEAGPBEJEC\022\017\n\007ca" +
-      "rd_id\030\010 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "rd_id\030\010 \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "B\025EMEAGPBEJECOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -776,8 +776,8 @@ public final class HachiActivityDetailInfoOuterClass {
       "o\0229\n\tstage_map\030\r \003(\0132&.HachiActivityDeta" +
       "ilInfo.StageMapEntry\032@\n\rStageMapEntry\022\013\n" +
       "\003key\030\001 \001(\r\022\036\n\005value\030\002 \001(\0132\017.HachiStageIn" +
-      "fo:\0028\001B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "fo:\0028\001B>\n\031emu.grasscutter.net.protoB!Hac" +
+      "hiActivityDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

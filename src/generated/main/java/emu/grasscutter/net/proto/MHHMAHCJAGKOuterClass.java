@@ -596,8 +596,9 @@ public final class MHHMAHCJAGKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MHHMAHCJAGK.proto\"7\n\013MHHMAHCJAGK\022\023\n\013GN" +
-      "LPCBHIMFG\030\004 \001(\r\022\023\n\013MCFKIFDGIFJ\030\n \001(\004B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "LPCBHIMFG\030\004 \001(\r\022\023\n\013MCFKIFDGIFJ\030\n \001(\004B2\n\031" +
+      "emu.grasscutter.net.protoB\025MHHMAHCJAGKOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

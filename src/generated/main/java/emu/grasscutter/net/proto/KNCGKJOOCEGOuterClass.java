@@ -737,8 +737,9 @@ public final class KNCGKJOOCEGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KNCGKJOOCEG.proto\"\\\n\013KNCGKJOOCEG\022\023\n\013AL" +
       "KIPKCAPFL\030\005 \001(\r\022\022\n\ntarget_uid\030\007 \001(\r\022\023\n\013O" +
-      "IEHJMHHCFB\030\010 \001(\004\022\017\n\007retcode\030\t \001(\005B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "IEHJMHHCFB\030\010 \001(\004\022\017\n\007retcode\030\t \001(\005B2\n\031emu" +
+      ".grasscutter.net.protoB\025KNCGKJOOCEGOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

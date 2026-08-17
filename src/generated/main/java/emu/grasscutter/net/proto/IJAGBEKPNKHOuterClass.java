@@ -730,7 +730,8 @@ public final class IJAGBEKPNKHOuterClass {
       "\n\021IJAGBEKPNKH.proto\032\030PlayerOfferingData." +
       "proto\"J\n\013IJAGBEKPNKH\022*\n\roffering_data\030\r " +
       "\001(\0132\023.PlayerOfferingData\022\017\n\007retcode\030\017 \001(" +
-      "\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\005B2\n\031emu.grasscutter.net.protoB\025IJAGBEKP" +
+      "NKHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

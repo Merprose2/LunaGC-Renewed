@@ -902,8 +902,9 @@ public final class KKGKEINFECBOuterClass {
       "\n\021KKGKEINFECB.proto\032\021ICFALKBAMPA.proto\"s" +
       "\n\013KKGKEINFECB\022\027\n\017equip_guid_list\030\004 \003(\004\022\023" +
       "\n\013avatar_guid\030\006 \001(\004\022\023\n\013FFKLOKAIHGA\030\t \001(\r" +
-      "\022!\n\013NJIKIHOBPIA\030\016 \001(\0162\014.ICFALKBAMPAB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\022!\n\013NJIKIHOBPIA\030\016 \001(\0162\014.ICFALKBAMPAB2\n\031e" +
+      "mu.grasscutter.net.protoB\025KKGKEINFECBOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

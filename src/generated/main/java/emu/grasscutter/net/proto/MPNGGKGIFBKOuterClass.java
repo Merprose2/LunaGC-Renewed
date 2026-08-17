@@ -667,8 +667,8 @@ public final class MPNGGKGIFBKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MPNGGKGIFBK.proto\"D\n\013MPNGGKGIFBK\022\017\n\007re" +
       "tcode\030\001 \001(\005\022\022\n\nis_success\030\005 \001(\010\022\020\n\010level" +
-      "_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "MPNGGKGIFBKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

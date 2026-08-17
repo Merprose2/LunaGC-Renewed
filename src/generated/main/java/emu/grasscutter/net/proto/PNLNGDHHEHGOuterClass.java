@@ -964,8 +964,8 @@ public final class PNLNGDHHEHGOuterClass {
       "\n\021PNLNGDHHEHG.proto\032\021BJAOBNLPLPJ.proto\"V" +
       "\n\013PNLNGDHHEHG\022\021\n\tcost_time\030\n \001(\r\022\021\n\ttime" +
       "stamp\030\013 \001(\r\022!\n\013IMCPAKDDKGP\030\016 \003(\0132\014.BJAOB" +
-      "NLPLPJB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "NLPLPJB2\n\031emu.grasscutter.net.protoB\025PNL" +
+      "NGDHHEHGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

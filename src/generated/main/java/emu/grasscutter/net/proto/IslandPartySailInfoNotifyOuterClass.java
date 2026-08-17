@@ -775,8 +775,9 @@ public final class IslandPartySailInfoNotifyOuterClass {
       "dPartySailStage.proto\"}\n\031IslandPartySail" +
       "InfoNotify\022\032\n\022kill_monster_count\030\002 \001(\r\022\020" +
       "\n\010progress\030\004 \001(\r\022$\n\005stage\030\r \001(\0162\025.Island" +
-      "PartySailStage\022\014\n\004coin\030\016 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "PartySailStage\022\014\n\004coin\030\016 \001(\rB@\n\031emu.gras" +
+      "scutter.net.protoB#IslandPartySailInfoNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

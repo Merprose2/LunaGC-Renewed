@@ -729,8 +729,9 @@ public final class MKPBKGIEINAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MKPBKGIEINA.proto\032\021FDKOFMMNKED.proto\"E" +
       "\n\013MKPBKGIEINA\022!\n\013GGOKIHPHIPN\030\003 \001(\0132\014.FDK" +
-      "OFMMNKED\022\023\n\013KMDOFBPMGAI\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "OFMMNKED\022\023\n\013KMDOFBPMGAI\030\017 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025MKPBKGIEINAOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -596,8 +596,9 @@ public final class PEMHIOIBFDGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PEMHIOIBFDG.proto\",\n\013PEMHIOIBFDG\022\020\n\010is" +
-      "_agree\030\005 \001(\010\022\013\n\003uid\030\007 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "_agree\030\005 \001(\010\022\013\n\003uid\030\007 \001(\rB2\n\031emu.grasscu" +
+      "tter.net.protoB\025PEMHIOIBFDGOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

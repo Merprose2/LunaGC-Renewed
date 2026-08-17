@@ -1271,8 +1271,9 @@ public final class LOHDOJILBEMOuterClass {
       "HDOJILBEM\022\020\n\010query_id\030\001 \001(\005\022\023\n\013HJANHNONM" +
       "GI\030\003 \003(\005\022 \n\017destination_pos\030\004 \001(\0132\007.Vect" +
       "or\022\020\n\010scene_id\030\t \001(\r\022\013\n\003uid\030\013 \001(\005\022\033\n\nsou" +
-      "rce_pos\030\014 \001(\0132\007.VectorB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "rce_pos\030\014 \001(\0132\007.VectorB2\n\031emu.grasscutte" +
+      "r.net.protoB\025LOHDOJILBEMOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

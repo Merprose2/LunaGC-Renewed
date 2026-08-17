@@ -1555,8 +1555,9 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       "ty_id\030\004 \001(\r\022\023\n\013BFIDMPPFHHC\030\006 \003(\r\022\023\n\013sche" +
       "dule_id\030\014 \001(\r\022\036\n\026activated_sale_id_list\030" +
       "\016 \003(\r\022<\n\'disable_transfer_point_interact" +
-      "ion_list\030\017 \003(\0132\013.Uint32PairB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "ion_list\030\017 \003(\0132\013.Uint32PairBD\n\031emu.grass" +
+      "cutter.net.protoB\'ActivityCondStateChang" +
+      "eNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -823,8 +823,8 @@ public final class GIMDACMEMIBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GIMDACMEMIB.proto\032\021GAMGGAFDDNG.proto\"8" +
       "\n\013GIMDACMEMIB\022)\n\023photo_pos_data_list\030\001 \003" +
-      "(\0132\014.GAMGGAFDDNGB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "(\0132\014.GAMGGAFDDNGB2\n\031emu.grasscutter.net." +
+      "protoB\025GIMDACMEMIBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

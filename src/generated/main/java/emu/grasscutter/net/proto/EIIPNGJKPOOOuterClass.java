@@ -1170,8 +1170,8 @@ public final class EIIPNGJKPOOOuterClass {
       "\023\n\013BIJOGLJBHME\030\005 \001(\002\022\023\n\013DEBBFECHFAO\030\006 \001(" +
       "\002\022\023\n\013NDKPMKNKGMM\030\007 \001(\002\022\024\n\013JCJDDLFHNKB\030\365\003" +
       " \001(\010\022\024\n\013JAFBLHBJHKM\030\366\003 \001(\010\022\024\n\013CEEBJHHFOP" +
-      "H\030\367\003 \001(\002B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "H\030\367\003 \001(\002B2\n\031emu.grasscutter.net.protoB\025E" +
+      "IIPNGJKPOOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

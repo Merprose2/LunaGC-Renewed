@@ -187,8 +187,8 @@ public final class SalvageEscortStopReasonOuterClass {
       "_STOP_INTERRUPT\020\004\0225\n1SalvageEscortStopRe" +
       "ason_SALVAGE_ESCORT_STOP_LEAVE\020\005\0224\n0Salv" +
       "ageEscortStopReason_SALVAGE_ESCORT_STOP_" +
-      "FULL\020\006B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "FULL\020\006B>\n\031emu.grasscutter.net.protoB!Sal" +
+      "vageEscortStopReasonOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

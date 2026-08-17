@@ -1550,8 +1550,9 @@ public final class BENHPFCNFNEOuterClass {
       "\n\007game_id\030\005 \001(\r\022+\n\rbusiness_type\030\007 \001(\0162\024" +
       ".GCGGameBusinessType\022+\n\020player_info_list" +
       "\030\t \003(\0132\021.OnlinePlayerInfo\022\023\n\013AKDIHFJFMAG" +
-      "\030\014 \003(\r\022\023\n\013GHBDEIKNAII\030\016 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\030\014 \003(\r\022\023\n\013GHBDEIKNAII\030\016 \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025BENHPFCNFNEOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

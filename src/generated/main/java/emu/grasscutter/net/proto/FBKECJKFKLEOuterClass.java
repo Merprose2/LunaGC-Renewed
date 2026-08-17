@@ -1106,8 +1106,8 @@ public final class FBKECJKFKLEOuterClass {
       "\001\n\013FBKECJKFKLE\022\023\n\013schedule_id\030\006 \001(\r\022\023\n\013H" +
       "MECOPLPLLN\030\007 \001(\r\022\"\n\014watcher_list\030\t \003(\0132\014" +
       ".GNLEFKNKBOA\022\023\n\013is_finished\030\014 \001(\010\022\020\n\010end" +
-      "_time\030\017 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "_time\030\017 \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "B\025FBKECJKFKLEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

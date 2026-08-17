@@ -1799,8 +1799,9 @@ public final class MistTrialSettleNotifyOuterClass {
       "Avatar\022\030\n\020dungeon_scene_id\030\016 \001(\r\0322\n\020DDJG" +
       "JFAJKBAEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r" +
       ":\0028\001\0322\n\020NGBCAIBBFJLEntry\022\013\n\003key\030\001 \001(\r\022\r\n" +
-      "\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\005value\030\002 \001(\r:\0028\001B<\n\031emu.grasscutter.net." +
+      "protoB\037MistTrialSettleNotifyOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

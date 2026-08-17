@@ -927,7 +927,8 @@ public final class DBNHAGBKMELOuterClass {
       "NJLEOCJOAKB.proto\"h\n\013DBNHAGBKMEL\022!\n\013ACNI" +
       "JJLHOHB\030\001 \001(\0132\014.IEPGLPGHBDB\022!\n\013IOIMEFFBE" +
       "KA\030\002 \001(\0132\014.NJLEOCJOAKB\022\023\n\013NFPLOBLFELB\030\003 " +
-      "\001(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\010B2\n\031emu.grasscutter.net.protoB\025DBNHAG" +
+      "BKMELOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

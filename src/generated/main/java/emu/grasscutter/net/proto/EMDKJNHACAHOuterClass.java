@@ -181,8 +181,9 @@ public final class EMDKJNHACAHOuterClass {
       "\001\022\027\n\023EMDKJNHACAH_TIMEOUT\020\002\022\034\n\030EMDKJNHACA" +
       "H_LEAVE_REGION\020\003\022\033\n\027EMDKJNHACAH_LEAVE_SC" +
       "ENE\020\004\022\032\n\026EMDKJNHACAH_CROSS_WEEK\020\005\022\032\n\026EMD" +
-      "KJNHACAH_AVATAR_DIE\020\006B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "KJNHACAH_AVATAR_DIE\020\006B2\n\031emu.grasscutter" +
+      ".net.protoB\025EMDKJNHACAHOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

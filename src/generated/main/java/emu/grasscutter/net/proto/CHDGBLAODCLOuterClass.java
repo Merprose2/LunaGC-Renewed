@@ -595,8 +595,9 @@ public final class CHDGBLAODCLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CHDGBLAODCL.proto\"4\n\013CHDGBLAODCL\022\023\n\013MI" +
-      "ACKFDHEOI\030\003 \001(\r\022\020\n\010draft_id\030\r \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "ACKFDHEOI\030\003 \001(\r\022\020\n\010draft_id\030\r \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025CHDGBLAODCLOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -596,8 +596,9 @@ public final class MpPlayGuestReplyInviteRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037MpPlayGuestReplyInviteRsp.proto\"@\n\031MpP" +
       "layGuestReplyInviteRsp\022\022\n\nmp_play_id\030\003 \001" +
-      "(\r\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "(\r\022\017\n\007retcode\030\013 \001(\005B@\n\031emu.grasscutter.n" +
+      "et.protoB#MpPlayGuestReplyInviteRspOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

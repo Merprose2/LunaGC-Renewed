@@ -3611,8 +3611,9 @@ public final class IFHJIHLHHMJOuterClass {
       "MMOEC\030C \001(\0132\014.JHDBLOLNIMJ\022\023\n\013GGMKMOKNMHO" +
       "\030d \001(\010\022\023\n\013FKHENGONCDJ\030e \001(\t\022\023\n\013EFPLLCNLA" +
       "NI\030f \001(\010\022\023\n\013PFPOLOEPDBN\030g \003(\t\022\024\n\013EKNMHCI" +
-      "IMEP\030\214\001 \001(\010\022\024\n\013KKGFBGGJFNI\030\215\001 \003(\tB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "IMEP\030\214\001 \001(\010\022\024\n\013KKGFBGGJFNI\030\215\001 \003(\tB2\n\031emu" +
+      ".grasscutter.net.protoB\025IFHJIHLHHMJOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1387,8 +1387,8 @@ public final class BPJBKFPPJBHOuterClass {
       "BKMGMIPPBFK\022\014\n\004guid\030\005 \001(\004\022\023\n\013BFIFPLMKLNA" +
       "\030\010 \001(\r\022\023\n\013PJBGKFGIKBA\030\t \001(\t\022\023\n\013LBKAAEGNJ" +
       "CD\030\n \001(\010\022\023\n\013JACOIKOGLDA\030\016 \001(\t\022\023\n\013EFCNIMD" +
-      "CLND\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "CLND\030\017 \001(\010B2\n\031emu.grasscutter.net.protoB" +
+      "\025BPJBKFPPJBHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

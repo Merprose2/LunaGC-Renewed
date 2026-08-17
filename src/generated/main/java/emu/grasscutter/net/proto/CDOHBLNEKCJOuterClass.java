@@ -1630,8 +1630,9 @@ public final class CDOHBLNEKCJOuterClass {
       "\030\004 \001(\r\022!\n\013MHHNHHHDGDE\030\005 \001(\0162\014.DOCGOEBMIO" +
       "H\022!\n\013GLHMFLEIGFA\030\006 \001(\0132\014.PJFELCMPMKJ\022\023\n\013" +
       "LKIIDNBEBIM\030\t \001(\010\022\023\n\013KPDEJEOKNGK\030\n \001(\r\022\n" +
-      "\n\002id\030\014 \001(\r\022\023\n\013DDEFOMCJOCJ\030\r \001(\010B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\n\002id\030\014 \001(\r\022\023\n\013DDEFOMCJOCJ\030\r \001(\010B2\n\031emu.g" +
+      "rasscutter.net.protoB\025CDOHBLNEKCJOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

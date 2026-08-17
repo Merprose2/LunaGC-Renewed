@@ -705,8 +705,8 @@ public final class NMHDOEDPKLDOuterClass {
       "\n\021NMHDOEDPKLD.proto\032\021AELIBNHFODD.proto\"X" +
       "\n\013NMHDOEDPKLD\022\021\n\tis_active\030\006 \001(\010\022!\n\013NHGK" +
       "KKAOKMN\030\007 \001(\0162\014.AELIBNHFODD\022\023\n\013KMDOFBPMG" +
-      "AI\030\r \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "AI\030\r \001(\rB2\n\031emu.grasscutter.net.protoB\025N" +
+      "MHDOEDPKLDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -667,8 +667,8 @@ public final class GJJGGCEMCEEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GJJGGCEMCEE.proto\"H\n\013GJJGGCEMCEE\022\026\n\016mu" +
       "sic_basic_id\030\005 \001(\r\022\017\n\007retcode\030\n \001(\005\022\020\n\010u" +
-      "gc_guid\030\017 \001(\004B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "gc_guid\030\017 \001(\004B2\n\031emu.grasscutter.net.pro" +
+      "toB\025GJJGGCEMCEEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

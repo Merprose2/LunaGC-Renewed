@@ -953,8 +953,9 @@ public final class GadgetInteractRspOuterClass {
       "actRsp\022$\n\rinteract_type\030\004 \001(\0162\r.Interact" +
       "Type\022\017\n\007retcode\030\006 \001(\005\022\023\n\013CJIPKAIPCIB\030\007 \001" +
       "(\r\022\021\n\tgadget_id\030\r \001(\r\022\030\n\020gadget_entity_i" +
-      "d\030\016 \001(\r\022\035\n\007op_type\030\017 \001(\0162\014.InterOpTypeB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "d\030\016 \001(\r\022\035\n\007op_type\030\017 \001(\0162\014.InterOpTypeB8" +
+      "\n\031emu.grasscutter.net.protoB\033GadgetInter" +
+      "actRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

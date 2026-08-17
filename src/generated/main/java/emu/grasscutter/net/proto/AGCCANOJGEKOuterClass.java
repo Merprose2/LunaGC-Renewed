@@ -596,7 +596,8 @@ public final class AGCCANOJGEKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AGCCANOJGEK.proto\"<\n\013AGCCANOJGEK\022\022\n\nga" +
       "cha_type\030\n \001(\r\022\031\n\021gacha_schedule_id\030\014 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB2\n\031emu.grasscutter.net.protoB\025AGCCANOJ" +
+      "GEKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

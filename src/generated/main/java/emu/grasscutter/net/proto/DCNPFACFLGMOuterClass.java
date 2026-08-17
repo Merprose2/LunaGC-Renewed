@@ -666,8 +666,8 @@ public final class DCNPFACFLGMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DCNPFACFLGM.proto\"E\n\013DCNPFACFLGM\022\017\n\007re" +
       "tcode\030\004 \001(\005\022\023\n\013schedule_id\030\005 \001(\r\022\020\n\010grou" +
-      "p_id\030\r \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "p_id\030\r \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025DCNPFACFLGMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

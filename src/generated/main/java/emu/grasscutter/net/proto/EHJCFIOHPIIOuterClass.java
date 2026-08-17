@@ -862,8 +862,8 @@ public final class EHJCFIOHPIIOuterClass {
       "\n\021EHJCFIOHPII.proto\032\020Uint32Pair.proto\"X\n" +
       "\013EHJCFIOHPII\022\017\n\007item_id\030\002 \001(\r\022\021\n\tentity_" +
       "id\030\004 \001(\r\022\013\n\003rot\030\006 \001(\r\022\030\n\003pos\030\007 \001(\0132\013.Uin" +
-      "t32PairB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "t32PairB2\n\031emu.grasscutter.net.protoB\025EH" +
+      "JCFIOHPIIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

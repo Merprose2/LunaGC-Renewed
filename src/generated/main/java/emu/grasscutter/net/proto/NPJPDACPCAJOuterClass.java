@@ -3716,8 +3716,8 @@ public final class NPJPDACPCAJOuterClass {
       "D\030\014 \003(\r\022!\n\013HHBAGKNJOGO\030\r \001(\0132\014.OEJOBAPIE" +
       "AM\022!\n\013GIKGKBOOEBA\030\016 \003(\0132\014.PHPBCLPALEL\022\020\n" +
       "\010coin_num\030\017 \001(\r\022\024\n\013FFMJJOPHFBB\030\257\005 \001(\r\022\024\n" +
-      "\013BJJHCLKCGFC\030\343\014 \001(\010B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\013BJJHCLKCGFC\030\343\014 \001(\010B2\n\031emu.grasscutter.n" +
+      "et.protoB\025NPJPDACPCAJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

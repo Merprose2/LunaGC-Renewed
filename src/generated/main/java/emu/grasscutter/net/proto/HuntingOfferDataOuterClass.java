@@ -830,8 +830,9 @@ public final class HuntingOfferDataOuterClass {
       "ate.proto\032\021HuntingPair.proto\"j\n\020HuntingO" +
       "fferData\022\"\n\014hunting_pair\030\003 \001(\0132\014.Hunting" +
       "Pair\022\017\n\007city_id\030\013 \001(\r\022!\n\005state\030\016 \001(\0162\022.H" +
-      "untingOfferStateB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "untingOfferStateB7\n\031emu.grasscutter.net." +
+      "protoB\032HuntingOfferDataOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

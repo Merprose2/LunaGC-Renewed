@@ -1147,8 +1147,9 @@ public final class PlayerDataNotifyOuterClass {
       "er_time\030\006 \001(\004\022\034\n\024is_first_login_today\030\007 " +
       "\001(\010\022\021\n\tnick_name\030\010 \001(\t\022\021\n\tregion_id\030\016 \001(" +
       "\r\032:\n\014PropMapEntry\022\013\n\003key\030\001 \001(\r\022\031\n\005value\030" +
-      "\002 \001(\0132\n.PropValue:\0028\001B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\002 \001(\0132\n.PropValue:\0028\001B7\n\031emu.grasscutter" +
+      ".net.protoB\032PlayerDataNotifyOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

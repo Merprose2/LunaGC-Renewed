@@ -705,8 +705,9 @@ public final class StartRogueEliteCellChallengeReqOuterClass {
       "\"RogueEliteCellDifficultyType.proto\"y\n\037S" +
       "tartRogueEliteCellChallengeReq\022\017\n\007cell_i" +
       "d\030\013 \001(\r\022\022\n\ndungeon_id\030\014 \001(\r\0221\n\ndifficult" +
-      "y\030\r \001(\0162\035.RogueEliteCellDifficultyTypeB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "y\030\r \001(\0162\035.RogueEliteCellDifficultyTypeBF" +
+      "\n\031emu.grasscutter.net.protoB)StartRogueE" +
+      "liteCellChallengeReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

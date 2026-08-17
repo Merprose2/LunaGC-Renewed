@@ -666,8 +666,8 @@ public final class BKMBJDMIKODOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BKMBJDMIKOD.proto\"L\n\013BKMBJDMIKOD\022\023\n\013KM" +
       "DOFBPMGAI\030\002 \001(\r\022\023\n\013NAEJHDNGGEE\030\n \001(\r\022\023\n\013" +
-      "HLCPOMBFHDK\030\r \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "HLCPOMBFHDK\030\r \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025BKMBJDMIKODOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

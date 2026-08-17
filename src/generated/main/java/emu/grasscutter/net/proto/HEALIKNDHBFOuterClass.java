@@ -3429,8 +3429,8 @@ public final class HEALIKNDHBFOuterClass {
       "FPMMNOE_BEYOND_PERFORMANCE_LIMIT_SANDBOX" +
       "_PENALTY_SCORE\020\t\0227\n3CDJJFPMMNOE_BEYOND_P" +
       "ERFORMANCE_LIMIT_SANDBOX_MEMORY\020\nB\r\n\013IMD" +
-      "GFLPBOIFB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "GFLPBOIFB2\n\031emu.grasscutter.net.protoB\025H" +
+      "EALIKNDHBFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

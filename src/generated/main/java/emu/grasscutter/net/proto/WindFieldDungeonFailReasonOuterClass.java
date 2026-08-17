@@ -167,8 +167,9 @@ public final class WindFieldDungeonFailReasonOuterClass {
       "AIL_TIMEOUT\020\002\022E\nAWindFieldDungeonFailRea" +
       "son_WIND_FIELD_DUNGEON_FAIL_ALL_AVATAR_D" +
       "IE\020\003\022D\n@WindFieldDungeonFailReason_WIND_" +
-      "FIELD_DUNGEON_FAIL_LUA_INTERRUPT\020\004B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "FIELD_DUNGEON_FAIL_LUA_INTERRUPT\020\004BA\n\031em" +
+      "u.grasscutter.net.protoB$WindFieldDungeo" +
+      "nFailReasonOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

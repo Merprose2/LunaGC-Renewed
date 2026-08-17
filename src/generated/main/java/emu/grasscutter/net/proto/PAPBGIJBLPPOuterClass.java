@@ -3997,8 +3997,8 @@ public final class PAPBGIJBLPPOuterClass {
       ".FLLICOHNBMM\022!\n\013DIHJOIOJBCD\030\r \003(\0132\014.FLLI" +
       "COHNBMM\022!\n\013ODGIMJDDJLD\030\016 \003(\0132\014.FLLICOHNB" +
       "MM\022!\n\013GFBCAFLDNGD\030\017 \003(\0132\014.FLLICOHNBMM\022\023\n" +
-      "\013HMBKAOOCOAJ\030\020 \001(\002B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\013HMBKAOOCOAJ\030\020 \001(\002B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025PAPBGIJBLPPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -659,8 +659,8 @@ public final class EFOMAGMPFLDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EFOMAGMPFLD.proto\"J\n\013EFOMAGMPFLD\022\021\n\tco" +
       "st_time\030\005 \001(\r\022\023\n\013AFGKKDDPMIH\030\013 \001(\r\022\023\n\013CB" +
-      "LLLMGEFHB\030\017 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "LLLMGEFHB\030\017 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025EFOMAGMPFLDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

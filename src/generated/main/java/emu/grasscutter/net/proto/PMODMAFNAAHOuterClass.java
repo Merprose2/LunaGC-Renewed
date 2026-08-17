@@ -730,8 +730,8 @@ public final class PMODMAFNAAHOuterClass {
       "\n\021PMODMAFNAAH.proto\032\027FurnitureMakeSlot.p" +
       "roto\"O\n\013PMODMAFNAAH\022/\n\023furniture_make_sl" +
       "ot\030\002 \001(\0132\022.FurnitureMakeSlot\022\017\n\007retcode\030" +
-      "\003 \001(\005B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\003 \001(\005B2\n\031emu.grasscutter.net.protoB\025PMOD" +
+      "MAFNAAHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

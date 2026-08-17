@@ -133,8 +133,9 @@ public final class MNMKKMBLJMDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MNMKKMBLJMD.proto*`\n\013MNMKKMBLJMD\022\'\n#MN" +
       "MKKMBLJMD_BEYOND_ROOM_MEMBER_NONE\020\000\022(\n$M" +
-      "NMKKMBLJMD_BEYOND_ROOM_MEMBER_READY\020\001B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "NMKKMBLJMD_BEYOND_ROOM_MEMBER_READY\020\001B2\n" +
+      "\031emu.grasscutter.net.protoB\025MNMKKMBLJMDO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

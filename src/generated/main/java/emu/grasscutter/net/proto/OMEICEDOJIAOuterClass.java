@@ -651,8 +651,8 @@ public final class OMEICEDOJIAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OMEICEDOJIA.proto\032\021FJGMMLEOALE.proto\"<" +
       "\n\013OMEICEDOJIA\022-\n\013_level_info\030\001 \001(\0132\030.FJG" +
-      "MMLEOALE.BMGJFKFDIDHB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "MMLEOALE.BMGJFKFDIDHB2\n\031emu.grasscutter." +
+      "net.protoB\025OMEICEDOJIAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

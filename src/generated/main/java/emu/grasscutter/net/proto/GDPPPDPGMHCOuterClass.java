@@ -721,7 +721,8 @@ public final class GDPPPDPGMHCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GDPPPDPGMHC.proto\032\014Vector.proto\"0\n\013GDP" +
       "PPDPGMHC\022\024\n\003pos\030\004 \001(\0132\007.Vector\022\013\n\003uid\030\010 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025GDPPPD" +
+      "PGMHCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

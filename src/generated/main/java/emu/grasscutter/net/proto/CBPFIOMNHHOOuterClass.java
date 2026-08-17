@@ -831,8 +831,8 @@ public final class CBPFIOMNHHOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CBPFIOMNHHO.proto\032\021FriendBrief.proto\"0" +
       "\n\013CBPFIOMNHHO\022!\n\013HLCHKLCGCDF\030\t \003(\0132\014.Fri" +
-      "endBriefB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "endBriefB2\n\031emu.grasscutter.net.protoB\025C" +
+      "BPFIOMNHHOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

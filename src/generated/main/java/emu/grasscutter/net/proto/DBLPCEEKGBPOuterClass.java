@@ -1653,8 +1653,8 @@ public final class DBLPCEEKGBPOuterClass {
       "MCEI\030\006 \003(\r\022!\n\013KPJFLNKEFBC\030\007 \003(\0132\014.FHDLHJ" +
       "ICDHB\022\021\n\tleft_time\030\010 \001(\r\022\023\n\013ICBLEOKBPAJ\030" +
       "\t \001(\010\022\023\n\013BMAOAFGKELL\030\n \001(\r\022\023\n\013ICLCODDOBD" +
-      "M\030\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "M\030\013 \001(\rB2\n\031emu.grasscutter.net.protoB\025DB" +
+      "LPCEEKGBPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

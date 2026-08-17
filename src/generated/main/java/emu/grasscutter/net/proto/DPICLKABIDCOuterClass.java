@@ -27,11 +27,11 @@ public final class DPICLKABIDCOuterClass {
      * <code>._DetailAbilityInfo detail_ability_info = 11;</code>
      * @return The detailAbilityInfo.
      */
-    emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo getDetailAbilityInfo();
+    emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo getDetailAbilityInfo();
     /**
      * <code>._DetailAbilityInfo detail_ability_info = 11;</code>
      */
-    emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfoOrBuilder getDetailAbilityInfoOrBuilder();
+    emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfoOrBuilder getDetailAbilityInfoOrBuilder();
 
     public emu.grasscutter.net.proto.DPICLKABIDCOuterClass.DPICLKABIDC.DCBPPDMNJNMCase getDCBPPDMNJNMCase();
   }
@@ -81,14 +81,14 @@ public final class DPICLKABIDCOuterClass {
               done = true;
               break;
             case 90: {
-              emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo.Builder subBuilder = null;
               if (dCBPPDMNJNMCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo) dCBPPDMNJNM_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo) dCBPPDMNJNM_).toBuilder();
               }
               dCBPPDMNJNM_ =
-                  input.readMessage(emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo) dCBPPDMNJNM_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo) dCBPPDMNJNM_);
                 dCBPPDMNJNM_ = subBuilder.buildPartial();
               }
               dCBPPDMNJNMCase_ = 11;
@@ -179,21 +179,21 @@ public final class DPICLKABIDCOuterClass {
      * @return The detailAbilityInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo getDetailAbilityInfo() {
+    public emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo getDetailAbilityInfo() {
       if (dCBPPDMNJNMCase_ == 11) {
-         return (emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo) dCBPPDMNJNM_;
+         return (emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo) dCBPPDMNJNM_;
       }
-      return emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo.getDefaultInstance();
     }
     /**
      * <code>._DetailAbilityInfo detail_ability_info = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfoOrBuilder getDetailAbilityInfoOrBuilder() {
+    public emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfoOrBuilder getDetailAbilityInfoOrBuilder() {
       if (dCBPPDMNJNMCase_ == 11) {
-         return (emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo) dCBPPDMNJNM_;
+         return (emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo) dCBPPDMNJNM_;
       }
-      return emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -211,7 +211,7 @@ public final class DPICLKABIDCOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (dCBPPDMNJNMCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo) dCBPPDMNJNM_);
+        output.writeMessage(11, (emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo) dCBPPDMNJNM_);
       }
       unknownFields.writeTo(output);
     }
@@ -224,7 +224,7 @@ public final class DPICLKABIDCOuterClass {
       size = 0;
       if (dCBPPDMNJNMCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo) dCBPPDMNJNM_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo) dCBPPDMNJNM_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -540,7 +540,7 @@ public final class DPICLKABIDCOuterClass {
 
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo, emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo.Builder, emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfoOrBuilder> detailAbilityInfoBuilder_;
+          emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo, emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo.Builder, emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfoOrBuilder> detailAbilityInfoBuilder_;
       /**
        * <code>._DetailAbilityInfo detail_ability_info = 11;</code>
        * @return Whether the detailAbilityInfo field is set.
@@ -554,23 +554,23 @@ public final class DPICLKABIDCOuterClass {
        * @return The detailAbilityInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo getDetailAbilityInfo() {
+      public emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo getDetailAbilityInfo() {
         if (detailAbilityInfoBuilder_ == null) {
           if (dCBPPDMNJNMCase_ == 11) {
-            return (emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo) dCBPPDMNJNM_;
+            return (emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo) dCBPPDMNJNM_;
           }
-          return emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo.getDefaultInstance();
         } else {
           if (dCBPPDMNJNMCase_ == 11) {
             return detailAbilityInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._DetailAbilityInfo detail_ability_info = 11;</code>
        */
-      public Builder setDetailAbilityInfo(emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo value) {
+      public Builder setDetailAbilityInfo(emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo value) {
         if (detailAbilityInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -587,7 +587,7 @@ public final class DPICLKABIDCOuterClass {
        * <code>._DetailAbilityInfo detail_ability_info = 11;</code>
        */
       public Builder setDetailAbilityInfo(
-          emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo.Builder builderForValue) {
         if (detailAbilityInfoBuilder_ == null) {
           dCBPPDMNJNM_ = builderForValue.build();
           onChanged();
@@ -600,11 +600,11 @@ public final class DPICLKABIDCOuterClass {
       /**
        * <code>._DetailAbilityInfo detail_ability_info = 11;</code>
        */
-      public Builder mergeDetailAbilityInfo(emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo value) {
+      public Builder mergeDetailAbilityInfo(emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo value) {
         if (detailAbilityInfoBuilder_ == null) {
           if (dCBPPDMNJNMCase_ == 11 &&
-              dCBPPDMNJNM_ != emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo.getDefaultInstance()) {
-            dCBPPDMNJNM_ = emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo.newBuilder((emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo) dCBPPDMNJNM_)
+              dCBPPDMNJNM_ != emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo.getDefaultInstance()) {
+            dCBPPDMNJNM_ = emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo.newBuilder((emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo) dCBPPDMNJNM_)
                 .mergeFrom(value).buildPartial();
           } else {
             dCBPPDMNJNM_ = value;
@@ -641,36 +641,36 @@ public final class DPICLKABIDCOuterClass {
       /**
        * <code>._DetailAbilityInfo detail_ability_info = 11;</code>
        */
-      public emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo.Builder getDetailAbilityInfoBuilder() {
+      public emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo.Builder getDetailAbilityInfoBuilder() {
         return getDetailAbilityInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._DetailAbilityInfo detail_ability_info = 11;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfoOrBuilder getDetailAbilityInfoOrBuilder() {
+      public emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfoOrBuilder getDetailAbilityInfoOrBuilder() {
         if ((dCBPPDMNJNMCase_ == 11) && (detailAbilityInfoBuilder_ != null)) {
           return detailAbilityInfoBuilder_.getMessageOrBuilder();
         } else {
           if (dCBPPDMNJNMCase_ == 11) {
-            return (emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo) dCBPPDMNJNM_;
+            return (emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo) dCBPPDMNJNM_;
           }
-          return emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._DetailAbilityInfo detail_ability_info = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo, emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo.Builder, emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfoOrBuilder> 
+          emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo, emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo.Builder, emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfoOrBuilder> 
           getDetailAbilityInfoFieldBuilder() {
         if (detailAbilityInfoBuilder_ == null) {
           if (!(dCBPPDMNJNMCase_ == 11)) {
-            dCBPPDMNJNM_ = emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo.getDefaultInstance();
+            dCBPPDMNJNM_ = emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo.getDefaultInstance();
           }
           detailAbilityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo, emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo.Builder, emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.DetailAbilityInfo._DetailAbilityInfo) dCBPPDMNJNM_,
+              emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo, emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo.Builder, emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._DetailAbilityInfoOuterClass._DetailAbilityInfo) dCBPPDMNJNM_,
                   getParentForChildren(),
                   isClean());
           dCBPPDMNJNM_ = null;
@@ -749,13 +749,13 @@ public final class DPICLKABIDCOuterClass {
       "\n\021DPICLKABIDC.proto\032\030_DetailAbilityInfo." +
       "proto\"P\n\013DPICLKABIDC\0222\n\023detail_ability_i" +
       "nfo\030\013 \001(\0132\023._DetailAbilityInfoH\000B\r\n\013DCBP" +
-      "PDMNJNMB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "PDMNJNMB2\n\031emu.grasscutter.net.protoB\025DP" +
+      "ICLKABIDCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.DetailAbilityInfo.getDescriptor(),
+          emu.grasscutter.net.proto._DetailAbilityInfoOuterClass.getDescriptor(),
         });
     internal_static_DPICLKABIDC_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -763,7 +763,7 @@ public final class DPICLKABIDCOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DPICLKABIDC_descriptor,
         new java.lang.String[] { "DetailAbilityInfo", "DCBPPDMNJNM", });
-    emu.grasscutter.net.proto.DetailAbilityInfo.getDescriptor();
+    emu.grasscutter.net.proto._DetailAbilityInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

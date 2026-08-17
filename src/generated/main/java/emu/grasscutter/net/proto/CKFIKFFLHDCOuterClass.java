@@ -133,7 +133,8 @@ public final class CKFIKFFLHDCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CKFIKFFLHDC.proto*;\n\013CKFIKFFLHDC\022\026\n\022CK" +
       "FIKFFLHDC_OBTAIN\020\000\022\024\n\020CKFIKFFLHDC_WEAR\020\001" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025CKFIKFFLH" +
+      "DCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1390,8 +1390,9 @@ public final class CLACNGHBMKFOuterClass {
       "\n\021CLACNGHBMKF.proto\032\021PDKJLGIJBNF.proto\"h" +
       "\n\013CLACNGHBMKF\022!\n\013MOCLJCJFKJH\030\001 \003(\0132\014.PDK" +
       "JLGIJBNF\022\023\n\013IJAGLBHGMHO\030\002 \003(\r\022!\n\013KPKPIDJ" +
-      "BAGF\030\003 \003(\0132\014.PDKJLGIJBNFB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "BAGF\030\003 \003(\0132\014.PDKJLGIJBNFB2\n\031emu.grasscut" +
+      "ter.net.protoB\025CLACNGHBMKFOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

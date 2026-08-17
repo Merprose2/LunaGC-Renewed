@@ -659,8 +659,8 @@ public final class MNKIILLGHDCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MNKIILLGHDC.proto\"I\n\013MNKIILLGHDC\022\027\n\017mi" +
       "n_finish_time\030\002 \001(\r\022\020\n\010level_id\030\004 \001(\r\022\017\n" +
-      "\007is_open\030\007 \001(\010B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "\007is_open\030\007 \001(\010B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025MNKIILLGHDCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

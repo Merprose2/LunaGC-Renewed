@@ -972,8 +972,8 @@ public final class GMShowNavMeshRspOuterClass {
       "\n\026GMShowNavMeshRsp.proto\032\023PBNavMeshTile." +
       "proto\"W\n\020GMShowNavMeshRsp\022\017\n\007retcode\030\002 \001" +
       "(\005\022\023\n\013NHBKIOMFNBI\030\010 \001(\r\022\035\n\005tiles\030\r \003(\0132\016" +
-      ".PBNavMeshTileB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      ".PBNavMeshTileB7\n\031emu.grasscutter.net.pr" +
+      "otoB\032GMShowNavMeshRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

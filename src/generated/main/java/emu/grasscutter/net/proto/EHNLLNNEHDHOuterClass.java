@@ -793,8 +793,8 @@ public final class EHNLLNNEHDHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EHNLLNNEHDH.proto\"J\n\013EHNLLNNEHDH\022\021\n\tso" +
       "urce_id\030\001 \001(\r\022\023\n\013GGFDPBBLGEK\030\003 \001(\r\022\023\n\013NK" +
-      "AGPHANCIG\030\r \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "AGPHANCIG\030\r \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025EHNLLNNEHDHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

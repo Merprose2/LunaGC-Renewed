@@ -942,8 +942,8 @@ public final class EvtAvatarLockChairRspOuterClass {
       "oto\"{\n\025EvtAvatarLockChairRsp\022\020\n\010chair_id" +
       "\030\002 \001(\004\022\017\n\007retcode\030\003 \001(\005\022\031\n\010position\030\005 \001(" +
       "\0132\007.Vector\022\021\n\tdirection\030\014 \001(\005\022\021\n\tentity_" +
-      "id\030\r \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\r \001(\rB<\n\031emu.grasscutter.net.protoB\037E" +
+      "vtAvatarLockChairRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

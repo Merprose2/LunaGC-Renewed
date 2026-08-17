@@ -888,8 +888,9 @@ public final class GCGMsgDiceRollOuterClass {
       "\n\024GCGMsgDiceRoll.proto\032\025GCGDiceSideType." +
       "proto\"c\n\016GCGMsgDiceRoll\022(\n\016dice_side_lis" +
       "t\030\004 \003(\0162\020.GCGDiceSideType\022\025\n\rcontroller_" +
-      "id\030\005 \001(\r\022\020\n\010dice_num\030\017 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "id\030\005 \001(\r\022\020\n\010dice_num\030\017 \001(\rB5\n\031emu.grassc" +
+      "utter.net.protoB\030GCGMsgDiceRollOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

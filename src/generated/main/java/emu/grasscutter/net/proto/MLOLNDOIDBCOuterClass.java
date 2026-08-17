@@ -966,8 +966,8 @@ public final class MLOLNDOIDBCOuterClass {
       "\n\021MLOLNDOIDBC.proto\032\021NHOHECBNCHG.proto\"Z" +
       "\n\013MLOLNDOIDBC\022\023\n\013PINOKHDDIMC\030\001 \001(\005\022\023\n\013ME" +
       "LPNEOIHCG\030\002 \001(\002\022!\n\013LHIBNHMHLIL\030\003 \003(\0132\014.N" +
-      "HOHECBNCHGB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "HOHECBNCHGB2\n\031emu.grasscutter.net.protoB" +
+      "\025MLOLNDOIDBCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

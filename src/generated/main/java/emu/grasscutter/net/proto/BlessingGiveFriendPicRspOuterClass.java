@@ -666,8 +666,9 @@ public final class BlessingGiveFriendPicRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036BlessingGiveFriendPicRsp.proto\"H\n\030Bles" +
       "singGiveFriendPicRsp\022\017\n\007retcode\030\001 \001(\005\022\013\n" +
-      "\003uid\030\005 \001(\r\022\016\n\006pic_id\030\016 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\003uid\030\005 \001(\r\022\016\n\006pic_id\030\016 \001(\rB?\n\031emu.grassc" +
+      "utter.net.protoB\"BlessingGiveFriendPicRs" +
+      "pOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -874,8 +874,9 @@ public final class DIOANPOJHPGOuterClass {
       "\n\021DIOANPOJHPG.proto\"\210\001\n\013DIOANPOJHPG\022\020\n\010l" +
       "evel_id\030\006 \001(\r\022\023\n\013is_finished\030\t \001(\010\022\023\n\013DJ" +
       "PNAELPDBI\030\n \001(\010\022\023\n\013is_unlocked\030\013 \001(\010\022\023\n\013" +
-      "BNKOMPMMKJM\030\r \001(\010\022\023\n\013DHHPADCMIMM\030\017 \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "BNKOMPMMKJM\030\r \001(\010\022\023\n\013DHHPADCMIMM\030\017 \001(\010B2" +
+      "\n\031emu.grasscutter.net.protoB\025DIOANPOJHPG" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

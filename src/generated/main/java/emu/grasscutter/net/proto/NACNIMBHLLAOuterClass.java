@@ -5240,8 +5240,8 @@ public final class NACNIMBHLLAOuterClass {
       "2\014.FNNOMOLNMMBH\000\0226\n\036monster_defined_stat" +
       "e_property\030\037 \001(\0132\014.OJGECKJPHBEH\000\0225\n\035mode" +
       "l_color_material_property\030  \001(\0132\014.CGHKBL" +
-      "LNHMAH\000B\010\n\006detailB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "LNHMAH\000B\010\n\006detailB2\n\031emu.grasscutter.net" +
+      ".protoB\025NACNIMBHLLAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

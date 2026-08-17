@@ -1184,8 +1184,9 @@ public final class ALLJIGCDMIDOuterClass {
       "\001\n\013ALLJIGCDMID\022\023\n\013FHFLBBOIODO\030\002 \001(\r\022\023\n\013B" +
       "JFLBGJNCPM\030\t \001(\r\022\023\n\013KGPMNGFMHKM\030\n \001(\r\022!\n" +
       "\013DPPHNFGNDKM\030\013 \003(\0132\014.HIAFJCNHFMP\022\017\n\007retc" +
-      "ode\030\014 \001(\005\022\023\n\013FIDCHIPNIKK\030\r \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ode\030\014 \001(\005\022\023\n\013FIDCHIPNIKK\030\r \001(\010B2\n\031emu.gr" +
+      "asscutter.net.protoB\025ALLJIGCDMIDOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

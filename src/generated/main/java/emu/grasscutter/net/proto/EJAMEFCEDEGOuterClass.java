@@ -1039,8 +1039,8 @@ public final class EJAMEFCEDEGOuterClass {
       "\n\021EJAMEFCEDEG.proto\"o\n\013EJAMEFCEDEG\022\023\n\013GG" +
       "KHHMHHMHB\030\001 \001(\t\022\023\n\013ENOPBNNPDFB\030\002 \001(\t\022\023\n\013" +
       "LKMKJBFLCJL\030\003 \001(\t\022\013\n\002id\030\365\003 \001(\005\022\024\n\013EHBOON" +
-      "FCBJH\030\366\003 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "FCBJH\030\366\003 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025EJAMEFCEDEGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

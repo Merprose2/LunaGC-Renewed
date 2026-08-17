@@ -161,11 +161,11 @@ public final class LKAOBAPLPIBOuterClass {
        * <code>._InitInfo init_info = 92;</code>
        * @return The initInfo.
        */
-      emu.grasscutter.net.proto.InitInfo._InitInfo getInitInfo();
+      emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo getInitInfo();
       /**
        * <code>._InitInfo init_info = 92;</code>
        */
-      emu.grasscutter.net.proto.InitInfo._InitInfoOrBuilder getInitInfoOrBuilder();
+      emu.grasscutter.net.proto._InitInfoOuterClass._InitInfoOrBuilder getInitInfoOrBuilder();
 
       /**
        * <code>bool is_in_new_beyond_room = 272;</code>
@@ -187,11 +187,11 @@ public final class LKAOBAPLPIBOuterClass {
        * <code>._MemberLeaveInfo member_leave_info = 426;</code>
        * @return The memberLeaveInfo.
        */
-      emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo getMemberLeaveInfo();
+      emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo getMemberLeaveInfo();
       /**
        * <code>._MemberLeaveInfo member_leave_info = 426;</code>
        */
-      emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfoOrBuilder getMemberLeaveInfoOrBuilder();
+      emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfoOrBuilder getMemberLeaveInfoOrBuilder();
 
       /**
        * <code>.EHPIEDKNHJP new_member = 796;</code>
@@ -217,11 +217,11 @@ public final class LKAOBAPLPIBOuterClass {
        * <code>._NewConfigInfo new_config_info = 822;</code>
        * @return The newConfigInfo.
        */
-      emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo getNewConfigInfo();
+      emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo getNewConfigInfo();
       /**
        * <code>._NewConfigInfo new_config_info = 822;</code>
        */
-      emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfoOrBuilder getNewConfigInfoOrBuilder();
+      emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfoOrBuilder getNewConfigInfoOrBuilder();
 
       /**
        * <code>._DungeonInfo dungeon_info = 866;</code>
@@ -232,11 +232,11 @@ public final class LKAOBAPLPIBOuterClass {
        * <code>._DungeonInfo dungeon_info = 866;</code>
        * @return The dungeonInfo.
        */
-      emu.grasscutter.net.proto.DungeonInfo._DungeonInfo getDungeonInfo();
+      emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo getDungeonInfo();
       /**
        * <code>._DungeonInfo dungeon_info = 866;</code>
        */
-      emu.grasscutter.net.proto.DungeonInfo._DungeonInfoOrBuilder getDungeonInfoOrBuilder();
+      emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfoOrBuilder getDungeonInfoOrBuilder();
 
       /**
        * <code>.EHPIEDKNHJP new_captain = 1333;</code>
@@ -316,14 +316,14 @@ public final class LKAOBAPLPIBOuterClass {
                 done = true;
                 break;
               case 738: {
-                emu.grasscutter.net.proto.InitInfo._InitInfo.Builder subBuilder = null;
+                emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.Builder subBuilder = null;
                 if (nHIBINKGLMDCase_ == 92) {
-                  subBuilder = ((emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_).toBuilder();
+                  subBuilder = ((emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_).toBuilder();
                 }
                 nHIBINKGLMD_ =
-                    input.readMessage(emu.grasscutter.net.proto.InitInfo._InitInfo.parser(), extensionRegistry);
+                    input.readMessage(emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.parser(), extensionRegistry);
                 if (subBuilder != null) {
-                  subBuilder.mergeFrom((emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_);
+                  subBuilder.mergeFrom((emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_);
                   nHIBINKGLMD_ = subBuilder.buildPartial();
                 }
                 nHIBINKGLMDCase_ = 92;
@@ -335,14 +335,14 @@ public final class LKAOBAPLPIBOuterClass {
                 break;
               }
               case 3410: {
-                emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.Builder subBuilder = null;
+                emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.Builder subBuilder = null;
                 if (nHIBINKGLMDCase_ == 426) {
-                  subBuilder = ((emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_).toBuilder();
+                  subBuilder = ((emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_).toBuilder();
                 }
                 nHIBINKGLMD_ =
-                    input.readMessage(emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.parser(), extensionRegistry);
+                    input.readMessage(emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.parser(), extensionRegistry);
                 if (subBuilder != null) {
-                  subBuilder.mergeFrom((emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_);
+                  subBuilder.mergeFrom((emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_);
                   nHIBINKGLMD_ = subBuilder.buildPartial();
                 }
                 nHIBINKGLMDCase_ = 426;
@@ -363,28 +363,28 @@ public final class LKAOBAPLPIBOuterClass {
                 break;
               }
               case 6578: {
-                emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo.Builder subBuilder = null;
+                emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo.Builder subBuilder = null;
                 if (nHIBINKGLMDCase_ == 822) {
-                  subBuilder = ((emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo) nHIBINKGLMD_).toBuilder();
+                  subBuilder = ((emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo) nHIBINKGLMD_).toBuilder();
                 }
                 nHIBINKGLMD_ =
-                    input.readMessage(emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo.parser(), extensionRegistry);
+                    input.readMessage(emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo.parser(), extensionRegistry);
                 if (subBuilder != null) {
-                  subBuilder.mergeFrom((emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo) nHIBINKGLMD_);
+                  subBuilder.mergeFrom((emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo) nHIBINKGLMD_);
                   nHIBINKGLMD_ = subBuilder.buildPartial();
                 }
                 nHIBINKGLMDCase_ = 822;
                 break;
               }
               case 6930: {
-                emu.grasscutter.net.proto.DungeonInfo._DungeonInfo.Builder subBuilder = null;
+                emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo.Builder subBuilder = null;
                 if (nHIBINKGLMDCase_ == 866) {
-                  subBuilder = ((emu.grasscutter.net.proto.DungeonInfo._DungeonInfo) nHIBINKGLMD_).toBuilder();
+                  subBuilder = ((emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo) nHIBINKGLMD_).toBuilder();
                 }
                 nHIBINKGLMD_ =
-                    input.readMessage(emu.grasscutter.net.proto.DungeonInfo._DungeonInfo.parser(), extensionRegistry);
+                    input.readMessage(emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo.parser(), extensionRegistry);
                 if (subBuilder != null) {
-                  subBuilder.mergeFrom((emu.grasscutter.net.proto.DungeonInfo._DungeonInfo) nHIBINKGLMD_);
+                  subBuilder.mergeFrom((emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo) nHIBINKGLMD_);
                   nHIBINKGLMD_ = subBuilder.buildPartial();
                 }
                 nHIBINKGLMDCase_ = 866;
@@ -517,21 +517,21 @@ public final class LKAOBAPLPIBOuterClass {
        * @return The initInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.InitInfo._InitInfo getInitInfo() {
+      public emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo getInitInfo() {
         if (nHIBINKGLMDCase_ == 92) {
-           return (emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_;
+           return (emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_;
         }
-        return emu.grasscutter.net.proto.InitInfo._InitInfo.getDefaultInstance();
+        return emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.getDefaultInstance();
       }
       /**
        * <code>._InitInfo init_info = 92;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.InitInfo._InitInfoOrBuilder getInitInfoOrBuilder() {
+      public emu.grasscutter.net.proto._InitInfoOuterClass._InitInfoOrBuilder getInitInfoOrBuilder() {
         if (nHIBINKGLMDCase_ == 92) {
-           return (emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_;
+           return (emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_;
         }
-        return emu.grasscutter.net.proto.InitInfo._InitInfo.getDefaultInstance();
+        return emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.getDefaultInstance();
       }
 
       public static final int IS_IN_NEW_BEYOND_ROOM_FIELD_NUMBER = 272;
@@ -569,21 +569,21 @@ public final class LKAOBAPLPIBOuterClass {
        * @return The memberLeaveInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo getMemberLeaveInfo() {
+      public emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo getMemberLeaveInfo() {
         if (nHIBINKGLMDCase_ == 426) {
-           return (emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_;
+           return (emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_;
         }
-        return emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.getDefaultInstance();
+        return emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.getDefaultInstance();
       }
       /**
        * <code>._MemberLeaveInfo member_leave_info = 426;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfoOrBuilder getMemberLeaveInfoOrBuilder() {
+      public emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfoOrBuilder getMemberLeaveInfoOrBuilder() {
         if (nHIBINKGLMDCase_ == 426) {
-           return (emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_;
+           return (emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_;
         }
-        return emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.getDefaultInstance();
+        return emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.getDefaultInstance();
       }
 
       public static final int NEW_MEMBER_FIELD_NUMBER = 796;
@@ -631,21 +631,21 @@ public final class LKAOBAPLPIBOuterClass {
        * @return The newConfigInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo getNewConfigInfo() {
+      public emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo getNewConfigInfo() {
         if (nHIBINKGLMDCase_ == 822) {
-           return (emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo) nHIBINKGLMD_;
+           return (emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo) nHIBINKGLMD_;
         }
-        return emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo.getDefaultInstance();
+        return emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo.getDefaultInstance();
       }
       /**
        * <code>._NewConfigInfo new_config_info = 822;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfoOrBuilder getNewConfigInfoOrBuilder() {
+      public emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfoOrBuilder getNewConfigInfoOrBuilder() {
         if (nHIBINKGLMDCase_ == 822) {
-           return (emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo) nHIBINKGLMD_;
+           return (emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo) nHIBINKGLMD_;
         }
-        return emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo.getDefaultInstance();
+        return emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo.getDefaultInstance();
       }
 
       public static final int DUNGEON_INFO_FIELD_NUMBER = 866;
@@ -662,21 +662,21 @@ public final class LKAOBAPLPIBOuterClass {
        * @return The dungeonInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.DungeonInfo._DungeonInfo getDungeonInfo() {
+      public emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo getDungeonInfo() {
         if (nHIBINKGLMDCase_ == 866) {
-           return (emu.grasscutter.net.proto.DungeonInfo._DungeonInfo) nHIBINKGLMD_;
+           return (emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo) nHIBINKGLMD_;
         }
-        return emu.grasscutter.net.proto.DungeonInfo._DungeonInfo.getDefaultInstance();
+        return emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo.getDefaultInstance();
       }
       /**
        * <code>._DungeonInfo dungeon_info = 866;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.DungeonInfo._DungeonInfoOrBuilder getDungeonInfoOrBuilder() {
+      public emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfoOrBuilder getDungeonInfoOrBuilder() {
         if (nHIBINKGLMDCase_ == 866) {
-           return (emu.grasscutter.net.proto.DungeonInfo._DungeonInfo) nHIBINKGLMD_;
+           return (emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo) nHIBINKGLMD_;
         }
-        return emu.grasscutter.net.proto.DungeonInfo._DungeonInfo.getDefaultInstance();
+        return emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo.getDefaultInstance();
       }
 
       public static final int NEW_CAPTAIN_FIELD_NUMBER = 1333;
@@ -756,23 +756,23 @@ public final class LKAOBAPLPIBOuterClass {
       public void writeTo(com.google.protobuf.CodedOutputStream output)
                           throws java.io.IOException {
         if (nHIBINKGLMDCase_ == 92) {
-          output.writeMessage(92, (emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_);
+          output.writeMessage(92, (emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 272) {
           output.writeBool(
               272, (boolean)((java.lang.Boolean) nHIBINKGLMD_));
         }
         if (nHIBINKGLMDCase_ == 426) {
-          output.writeMessage(426, (emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_);
+          output.writeMessage(426, (emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 796) {
           output.writeMessage(796, (emu.grasscutter.net.proto.EHPIEDKNHJPOuterClass.EHPIEDKNHJP) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 822) {
-          output.writeMessage(822, (emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo) nHIBINKGLMD_);
+          output.writeMessage(822, (emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 866) {
-          output.writeMessage(866, (emu.grasscutter.net.proto.DungeonInfo._DungeonInfo) nHIBINKGLMD_);
+          output.writeMessage(866, (emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 1333) {
           output.writeMessage(1333, (emu.grasscutter.net.proto.EHPIEDKNHJPOuterClass.EHPIEDKNHJP) nHIBINKGLMD_);
@@ -791,7 +791,7 @@ public final class LKAOBAPLPIBOuterClass {
         size = 0;
         if (nHIBINKGLMDCase_ == 92) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(92, (emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_);
+            .computeMessageSize(92, (emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 272) {
           size += com.google.protobuf.CodedOutputStream
@@ -800,7 +800,7 @@ public final class LKAOBAPLPIBOuterClass {
         }
         if (nHIBINKGLMDCase_ == 426) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(426, (emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_);
+            .computeMessageSize(426, (emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 796) {
           size += com.google.protobuf.CodedOutputStream
@@ -808,11 +808,11 @@ public final class LKAOBAPLPIBOuterClass {
         }
         if (nHIBINKGLMDCase_ == 822) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(822, (emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo) nHIBINKGLMD_);
+            .computeMessageSize(822, (emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 866) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(866, (emu.grasscutter.net.proto.DungeonInfo._DungeonInfo) nHIBINKGLMD_);
+            .computeMessageSize(866, (emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 1333) {
           size += com.google.protobuf.CodedOutputStream
@@ -1266,7 +1266,7 @@ public final class LKAOBAPLPIBOuterClass {
 
 
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.InitInfo._InitInfo, emu.grasscutter.net.proto.InitInfo._InitInfo.Builder, emu.grasscutter.net.proto.InitInfo._InitInfoOrBuilder> initInfoBuilder_;
+            emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo, emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.Builder, emu.grasscutter.net.proto._InitInfoOuterClass._InitInfoOrBuilder> initInfoBuilder_;
         /**
          * <code>._InitInfo init_info = 92;</code>
          * @return Whether the initInfo field is set.
@@ -1280,23 +1280,23 @@ public final class LKAOBAPLPIBOuterClass {
          * @return The initInfo.
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.InitInfo._InitInfo getInitInfo() {
+        public emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo getInitInfo() {
           if (initInfoBuilder_ == null) {
             if (nHIBINKGLMDCase_ == 92) {
-              return (emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_;
+              return (emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_;
             }
-            return emu.grasscutter.net.proto.InitInfo._InitInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.getDefaultInstance();
           } else {
             if (nHIBINKGLMDCase_ == 92) {
               return initInfoBuilder_.getMessage();
             }
-            return emu.grasscutter.net.proto.InitInfo._InitInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.getDefaultInstance();
           }
         }
         /**
          * <code>._InitInfo init_info = 92;</code>
          */
-        public Builder setInitInfo(emu.grasscutter.net.proto.InitInfo._InitInfo value) {
+        public Builder setInitInfo(emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo value) {
           if (initInfoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1313,7 +1313,7 @@ public final class LKAOBAPLPIBOuterClass {
          * <code>._InitInfo init_info = 92;</code>
          */
         public Builder setInitInfo(
-            emu.grasscutter.net.proto.InitInfo._InitInfo.Builder builderForValue) {
+            emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.Builder builderForValue) {
           if (initInfoBuilder_ == null) {
             nHIBINKGLMD_ = builderForValue.build();
             onChanged();
@@ -1326,11 +1326,11 @@ public final class LKAOBAPLPIBOuterClass {
         /**
          * <code>._InitInfo init_info = 92;</code>
          */
-        public Builder mergeInitInfo(emu.grasscutter.net.proto.InitInfo._InitInfo value) {
+        public Builder mergeInitInfo(emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo value) {
           if (initInfoBuilder_ == null) {
             if (nHIBINKGLMDCase_ == 92 &&
-                nHIBINKGLMD_ != emu.grasscutter.net.proto.InitInfo._InitInfo.getDefaultInstance()) {
-              nHIBINKGLMD_ = emu.grasscutter.net.proto.InitInfo._InitInfo.newBuilder((emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_)
+                nHIBINKGLMD_ != emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.getDefaultInstance()) {
+              nHIBINKGLMD_ = emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.newBuilder((emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_)
                   .mergeFrom(value).buildPartial();
             } else {
               nHIBINKGLMD_ = value;
@@ -1367,36 +1367,36 @@ public final class LKAOBAPLPIBOuterClass {
         /**
          * <code>._InitInfo init_info = 92;</code>
          */
-        public emu.grasscutter.net.proto.InitInfo._InitInfo.Builder getInitInfoBuilder() {
+        public emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.Builder getInitInfoBuilder() {
           return getInitInfoFieldBuilder().getBuilder();
         }
         /**
          * <code>._InitInfo init_info = 92;</code>
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.InitInfo._InitInfoOrBuilder getInitInfoOrBuilder() {
+        public emu.grasscutter.net.proto._InitInfoOuterClass._InitInfoOrBuilder getInitInfoOrBuilder() {
           if ((nHIBINKGLMDCase_ == 92) && (initInfoBuilder_ != null)) {
             return initInfoBuilder_.getMessageOrBuilder();
           } else {
             if (nHIBINKGLMDCase_ == 92) {
-              return (emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_;
+              return (emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_;
             }
-            return emu.grasscutter.net.proto.InitInfo._InitInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.getDefaultInstance();
           }
         }
         /**
          * <code>._InitInfo init_info = 92;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.InitInfo._InitInfo, emu.grasscutter.net.proto.InitInfo._InitInfo.Builder, emu.grasscutter.net.proto.InitInfo._InitInfoOrBuilder> 
+            emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo, emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.Builder, emu.grasscutter.net.proto._InitInfoOuterClass._InitInfoOrBuilder> 
             getInitInfoFieldBuilder() {
           if (initInfoBuilder_ == null) {
             if (!(nHIBINKGLMDCase_ == 92)) {
-              nHIBINKGLMD_ = emu.grasscutter.net.proto.InitInfo._InitInfo.getDefaultInstance();
+              nHIBINKGLMD_ = emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.getDefaultInstance();
             }
             initInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                emu.grasscutter.net.proto.InitInfo._InitInfo, emu.grasscutter.net.proto.InitInfo._InitInfo.Builder, emu.grasscutter.net.proto.InitInfo._InitInfoOrBuilder>(
-                    (emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_,
+                emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo, emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.Builder, emu.grasscutter.net.proto._InitInfoOuterClass._InitInfoOrBuilder>(
+                    (emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_,
                     getParentForChildren(),
                     isClean());
             nHIBINKGLMD_ = null;
@@ -1448,7 +1448,7 @@ public final class LKAOBAPLPIBOuterClass {
         }
 
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo, emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.Builder, emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfoOrBuilder> memberLeaveInfoBuilder_;
+            emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo, emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.Builder, emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfoOrBuilder> memberLeaveInfoBuilder_;
         /**
          * <code>._MemberLeaveInfo member_leave_info = 426;</code>
          * @return Whether the memberLeaveInfo field is set.
@@ -1462,23 +1462,23 @@ public final class LKAOBAPLPIBOuterClass {
          * @return The memberLeaveInfo.
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo getMemberLeaveInfo() {
+        public emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo getMemberLeaveInfo() {
           if (memberLeaveInfoBuilder_ == null) {
             if (nHIBINKGLMDCase_ == 426) {
-              return (emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_;
+              return (emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_;
             }
-            return emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.getDefaultInstance();
           } else {
             if (nHIBINKGLMDCase_ == 426) {
               return memberLeaveInfoBuilder_.getMessage();
             }
-            return emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.getDefaultInstance();
           }
         }
         /**
          * <code>._MemberLeaveInfo member_leave_info = 426;</code>
          */
-        public Builder setMemberLeaveInfo(emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo value) {
+        public Builder setMemberLeaveInfo(emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo value) {
           if (memberLeaveInfoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1495,7 +1495,7 @@ public final class LKAOBAPLPIBOuterClass {
          * <code>._MemberLeaveInfo member_leave_info = 426;</code>
          */
         public Builder setMemberLeaveInfo(
-            emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.Builder builderForValue) {
+            emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.Builder builderForValue) {
           if (memberLeaveInfoBuilder_ == null) {
             nHIBINKGLMD_ = builderForValue.build();
             onChanged();
@@ -1508,11 +1508,11 @@ public final class LKAOBAPLPIBOuterClass {
         /**
          * <code>._MemberLeaveInfo member_leave_info = 426;</code>
          */
-        public Builder mergeMemberLeaveInfo(emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo value) {
+        public Builder mergeMemberLeaveInfo(emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo value) {
           if (memberLeaveInfoBuilder_ == null) {
             if (nHIBINKGLMDCase_ == 426 &&
-                nHIBINKGLMD_ != emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.getDefaultInstance()) {
-              nHIBINKGLMD_ = emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.newBuilder((emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_)
+                nHIBINKGLMD_ != emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.getDefaultInstance()) {
+              nHIBINKGLMD_ = emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.newBuilder((emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_)
                   .mergeFrom(value).buildPartial();
             } else {
               nHIBINKGLMD_ = value;
@@ -1549,36 +1549,36 @@ public final class LKAOBAPLPIBOuterClass {
         /**
          * <code>._MemberLeaveInfo member_leave_info = 426;</code>
          */
-        public emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.Builder getMemberLeaveInfoBuilder() {
+        public emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.Builder getMemberLeaveInfoBuilder() {
           return getMemberLeaveInfoFieldBuilder().getBuilder();
         }
         /**
          * <code>._MemberLeaveInfo member_leave_info = 426;</code>
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfoOrBuilder getMemberLeaveInfoOrBuilder() {
+        public emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfoOrBuilder getMemberLeaveInfoOrBuilder() {
           if ((nHIBINKGLMDCase_ == 426) && (memberLeaveInfoBuilder_ != null)) {
             return memberLeaveInfoBuilder_.getMessageOrBuilder();
           } else {
             if (nHIBINKGLMDCase_ == 426) {
-              return (emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_;
+              return (emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_;
             }
-            return emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.getDefaultInstance();
           }
         }
         /**
          * <code>._MemberLeaveInfo member_leave_info = 426;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo, emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.Builder, emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfoOrBuilder> 
+            emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo, emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.Builder, emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfoOrBuilder> 
             getMemberLeaveInfoFieldBuilder() {
           if (memberLeaveInfoBuilder_ == null) {
             if (!(nHIBINKGLMDCase_ == 426)) {
-              nHIBINKGLMD_ = emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.getDefaultInstance();
+              nHIBINKGLMD_ = emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.getDefaultInstance();
             }
             memberLeaveInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo, emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.Builder, emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfoOrBuilder>(
-                    (emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_,
+                emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo, emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.Builder, emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfoOrBuilder>(
+                    (emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_,
                     getParentForChildren(),
                     isClean());
             nHIBINKGLMD_ = null;
@@ -1730,7 +1730,7 @@ public final class LKAOBAPLPIBOuterClass {
         }
 
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo, emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo.Builder, emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfoOrBuilder> newConfigInfoBuilder_;
+            emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo, emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo.Builder, emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfoOrBuilder> newConfigInfoBuilder_;
         /**
          * <code>._NewConfigInfo new_config_info = 822;</code>
          * @return Whether the newConfigInfo field is set.
@@ -1744,23 +1744,23 @@ public final class LKAOBAPLPIBOuterClass {
          * @return The newConfigInfo.
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo getNewConfigInfo() {
+        public emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo getNewConfigInfo() {
           if (newConfigInfoBuilder_ == null) {
             if (nHIBINKGLMDCase_ == 822) {
-              return (emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo) nHIBINKGLMD_;
+              return (emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo) nHIBINKGLMD_;
             }
-            return emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo.getDefaultInstance();
           } else {
             if (nHIBINKGLMDCase_ == 822) {
               return newConfigInfoBuilder_.getMessage();
             }
-            return emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo.getDefaultInstance();
           }
         }
         /**
          * <code>._NewConfigInfo new_config_info = 822;</code>
          */
-        public Builder setNewConfigInfo(emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo value) {
+        public Builder setNewConfigInfo(emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo value) {
           if (newConfigInfoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1777,7 +1777,7 @@ public final class LKAOBAPLPIBOuterClass {
          * <code>._NewConfigInfo new_config_info = 822;</code>
          */
         public Builder setNewConfigInfo(
-            emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo.Builder builderForValue) {
+            emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo.Builder builderForValue) {
           if (newConfigInfoBuilder_ == null) {
             nHIBINKGLMD_ = builderForValue.build();
             onChanged();
@@ -1790,11 +1790,11 @@ public final class LKAOBAPLPIBOuterClass {
         /**
          * <code>._NewConfigInfo new_config_info = 822;</code>
          */
-        public Builder mergeNewConfigInfo(emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo value) {
+        public Builder mergeNewConfigInfo(emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo value) {
           if (newConfigInfoBuilder_ == null) {
             if (nHIBINKGLMDCase_ == 822 &&
-                nHIBINKGLMD_ != emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo.getDefaultInstance()) {
-              nHIBINKGLMD_ = emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo.newBuilder((emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo) nHIBINKGLMD_)
+                nHIBINKGLMD_ != emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo.getDefaultInstance()) {
+              nHIBINKGLMD_ = emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo.newBuilder((emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo) nHIBINKGLMD_)
                   .mergeFrom(value).buildPartial();
             } else {
               nHIBINKGLMD_ = value;
@@ -1831,36 +1831,36 @@ public final class LKAOBAPLPIBOuterClass {
         /**
          * <code>._NewConfigInfo new_config_info = 822;</code>
          */
-        public emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo.Builder getNewConfigInfoBuilder() {
+        public emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo.Builder getNewConfigInfoBuilder() {
           return getNewConfigInfoFieldBuilder().getBuilder();
         }
         /**
          * <code>._NewConfigInfo new_config_info = 822;</code>
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfoOrBuilder getNewConfigInfoOrBuilder() {
+        public emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfoOrBuilder getNewConfigInfoOrBuilder() {
           if ((nHIBINKGLMDCase_ == 822) && (newConfigInfoBuilder_ != null)) {
             return newConfigInfoBuilder_.getMessageOrBuilder();
           } else {
             if (nHIBINKGLMDCase_ == 822) {
-              return (emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo) nHIBINKGLMD_;
+              return (emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo) nHIBINKGLMD_;
             }
-            return emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo.getDefaultInstance();
           }
         }
         /**
          * <code>._NewConfigInfo new_config_info = 822;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo, emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo.Builder, emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfoOrBuilder> 
+            emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo, emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo.Builder, emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfoOrBuilder> 
             getNewConfigInfoFieldBuilder() {
           if (newConfigInfoBuilder_ == null) {
             if (!(nHIBINKGLMDCase_ == 822)) {
-              nHIBINKGLMD_ = emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo.getDefaultInstance();
+              nHIBINKGLMD_ = emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo.getDefaultInstance();
             }
             newConfigInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo, emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo.Builder, emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfoOrBuilder>(
-                    (emu.grasscutter.net.proto.NewConfigInfo._NewConfigInfo) nHIBINKGLMD_,
+                emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo, emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo.Builder, emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfoOrBuilder>(
+                    (emu.grasscutter.net.proto._NewConfigInfoOuterClass._NewConfigInfo) nHIBINKGLMD_,
                     getParentForChildren(),
                     isClean());
             nHIBINKGLMD_ = null;
@@ -1871,7 +1871,7 @@ public final class LKAOBAPLPIBOuterClass {
         }
 
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.DungeonInfo._DungeonInfo, emu.grasscutter.net.proto.DungeonInfo._DungeonInfo.Builder, emu.grasscutter.net.proto.DungeonInfo._DungeonInfoOrBuilder> dungeonInfoBuilder_;
+            emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo, emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo.Builder, emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfoOrBuilder> dungeonInfoBuilder_;
         /**
          * <code>._DungeonInfo dungeon_info = 866;</code>
          * @return Whether the dungeonInfo field is set.
@@ -1885,23 +1885,23 @@ public final class LKAOBAPLPIBOuterClass {
          * @return The dungeonInfo.
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.DungeonInfo._DungeonInfo getDungeonInfo() {
+        public emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo getDungeonInfo() {
           if (dungeonInfoBuilder_ == null) {
             if (nHIBINKGLMDCase_ == 866) {
-              return (emu.grasscutter.net.proto.DungeonInfo._DungeonInfo) nHIBINKGLMD_;
+              return (emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo) nHIBINKGLMD_;
             }
-            return emu.grasscutter.net.proto.DungeonInfo._DungeonInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo.getDefaultInstance();
           } else {
             if (nHIBINKGLMDCase_ == 866) {
               return dungeonInfoBuilder_.getMessage();
             }
-            return emu.grasscutter.net.proto.DungeonInfo._DungeonInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo.getDefaultInstance();
           }
         }
         /**
          * <code>._DungeonInfo dungeon_info = 866;</code>
          */
-        public Builder setDungeonInfo(emu.grasscutter.net.proto.DungeonInfo._DungeonInfo value) {
+        public Builder setDungeonInfo(emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo value) {
           if (dungeonInfoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1918,7 +1918,7 @@ public final class LKAOBAPLPIBOuterClass {
          * <code>._DungeonInfo dungeon_info = 866;</code>
          */
         public Builder setDungeonInfo(
-            emu.grasscutter.net.proto.DungeonInfo._DungeonInfo.Builder builderForValue) {
+            emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo.Builder builderForValue) {
           if (dungeonInfoBuilder_ == null) {
             nHIBINKGLMD_ = builderForValue.build();
             onChanged();
@@ -1931,11 +1931,11 @@ public final class LKAOBAPLPIBOuterClass {
         /**
          * <code>._DungeonInfo dungeon_info = 866;</code>
          */
-        public Builder mergeDungeonInfo(emu.grasscutter.net.proto.DungeonInfo._DungeonInfo value) {
+        public Builder mergeDungeonInfo(emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo value) {
           if (dungeonInfoBuilder_ == null) {
             if (nHIBINKGLMDCase_ == 866 &&
-                nHIBINKGLMD_ != emu.grasscutter.net.proto.DungeonInfo._DungeonInfo.getDefaultInstance()) {
-              nHIBINKGLMD_ = emu.grasscutter.net.proto.DungeonInfo._DungeonInfo.newBuilder((emu.grasscutter.net.proto.DungeonInfo._DungeonInfo) nHIBINKGLMD_)
+                nHIBINKGLMD_ != emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo.getDefaultInstance()) {
+              nHIBINKGLMD_ = emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo.newBuilder((emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo) nHIBINKGLMD_)
                   .mergeFrom(value).buildPartial();
             } else {
               nHIBINKGLMD_ = value;
@@ -1972,36 +1972,36 @@ public final class LKAOBAPLPIBOuterClass {
         /**
          * <code>._DungeonInfo dungeon_info = 866;</code>
          */
-        public emu.grasscutter.net.proto.DungeonInfo._DungeonInfo.Builder getDungeonInfoBuilder() {
+        public emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo.Builder getDungeonInfoBuilder() {
           return getDungeonInfoFieldBuilder().getBuilder();
         }
         /**
          * <code>._DungeonInfo dungeon_info = 866;</code>
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.DungeonInfo._DungeonInfoOrBuilder getDungeonInfoOrBuilder() {
+        public emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfoOrBuilder getDungeonInfoOrBuilder() {
           if ((nHIBINKGLMDCase_ == 866) && (dungeonInfoBuilder_ != null)) {
             return dungeonInfoBuilder_.getMessageOrBuilder();
           } else {
             if (nHIBINKGLMDCase_ == 866) {
-              return (emu.grasscutter.net.proto.DungeonInfo._DungeonInfo) nHIBINKGLMD_;
+              return (emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo) nHIBINKGLMD_;
             }
-            return emu.grasscutter.net.proto.DungeonInfo._DungeonInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo.getDefaultInstance();
           }
         }
         /**
          * <code>._DungeonInfo dungeon_info = 866;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.DungeonInfo._DungeonInfo, emu.grasscutter.net.proto.DungeonInfo._DungeonInfo.Builder, emu.grasscutter.net.proto.DungeonInfo._DungeonInfoOrBuilder> 
+            emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo, emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo.Builder, emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfoOrBuilder> 
             getDungeonInfoFieldBuilder() {
           if (dungeonInfoBuilder_ == null) {
             if (!(nHIBINKGLMDCase_ == 866)) {
-              nHIBINKGLMD_ = emu.grasscutter.net.proto.DungeonInfo._DungeonInfo.getDefaultInstance();
+              nHIBINKGLMD_ = emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo.getDefaultInstance();
             }
             dungeonInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                emu.grasscutter.net.proto.DungeonInfo._DungeonInfo, emu.grasscutter.net.proto.DungeonInfo._DungeonInfo.Builder, emu.grasscutter.net.proto.DungeonInfo._DungeonInfoOrBuilder>(
-                    (emu.grasscutter.net.proto.DungeonInfo._DungeonInfo) nHIBINKGLMD_,
+                emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo, emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo.Builder, emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfoOrBuilder>(
+                    (emu.grasscutter.net.proto._DungeonInfoOuterClass._DungeonInfo) nHIBINKGLMD_,
                     getParentForChildren(),
                     isClean());
             nHIBINKGLMD_ = null;
@@ -3115,17 +3115,18 @@ public final class LKAOBAPLPIBOuterClass {
       "2\017._NewConfigInfoH\000\022&\n\014dungeon_info\030\342\006 \001" +
       "(\0132\r._DungeonInfoH\000\022$\n\013new_captain\030\265\n \001(" +
       "\0132\014.EHPIEDKNHJPH\000\022(\n\017new_member_info\030\266\r " +
-      "\001(\0132\014.EHPIEDKNHJPH\000B\r\n\013NHIBINKGLMDB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\001(\0132\014.EHPIEDKNHJPH\000B\r\n\013NHIBINKGLMDB2\n\031em" +
+      "u.grasscutter.net.protoB\025LKAOBAPLPIBOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.EHPIEDKNHJPOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.DungeonInfo.getDescriptor(),
-          emu.grasscutter.net.proto.InitInfo.getDescriptor(),
-          emu.grasscutter.net.proto.MemberLeaveInfo.getDescriptor(),
-          emu.grasscutter.net.proto.NewConfigInfo.getDescriptor(),
+          emu.grasscutter.net.proto._DungeonInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._InitInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._MemberLeaveInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._NewConfigInfoOuterClass.getDescriptor(),
         });
     internal_static_LKAOBAPLPIB_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -3140,10 +3141,10 @@ public final class LKAOBAPLPIBOuterClass {
         internal_static_LKAOBAPLPIB_BPCLMCKGMPM_descriptor,
         new java.lang.String[] { "InitInfo", "IsInNewBeyondRoom", "MemberLeaveInfo", "NewMember", "NewConfigInfo", "DungeonInfo", "NewCaptain", "NewMemberInfo", "NHIBINKGLMD", });
     emu.grasscutter.net.proto.EHPIEDKNHJPOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.DungeonInfo.getDescriptor();
-    emu.grasscutter.net.proto.InitInfo.getDescriptor();
-    emu.grasscutter.net.proto.MemberLeaveInfo.getDescriptor();
-    emu.grasscutter.net.proto.NewConfigInfo.getDescriptor();
+    emu.grasscutter.net.proto._DungeonInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._InitInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._MemberLeaveInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._NewConfigInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

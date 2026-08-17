@@ -1362,8 +1362,9 @@ public final class MultistagePlaySettleNotifyOuterClass {
       "@\n\026mechanicus_settle_info\030\243\013 \001(\0132\035.InBat" +
       "tleMechanicusSettleInfoH\000\0226\n\021chess_settl" +
       "e_info\030\214\017 \001(\0132\030.InBattleChessSettleInfoH" +
-      "\000B\010\n\006detailB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "\000B\010\n\006detailBA\n\031emu.grasscutter.net.proto" +
+      "B$MultistagePlaySettleNotifyOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

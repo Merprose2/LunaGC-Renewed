@@ -675,8 +675,9 @@ public final class EchoNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\020EchoNotify.proto\"-\n\nEchoNotify\022\016\n\006seq_" +
-      "id\030\005 \001(\r\022\017\n\007content\030\016 \001(\tB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "id\030\005 \001(\r\022\017\n\007content\030\016 \001(\tB1\n\031emu.grasscu" +
+      "tter.net.protoB\024EchoNotifyOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

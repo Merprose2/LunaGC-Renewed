@@ -935,8 +935,8 @@ public final class NDPIAGDHJGOOuterClass {
       "\n\021NDPIAGDHJGO.proto\"s\n\013NDPIAGDHJGO\022\023\n\013MI" +
       "ACKFDHEOI\030\003 \001(\r\022\023\n\013HALONGEGOEJ\030\004 \003(\r\022\020\n\010" +
       "ugc_guid\030\006 \001(\004\022\023\n\013_beatmap_id\030\n \001(\r\022\023\n\013E" +
-      "PHGOMPBKJA\030\r \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "PHGOMPBKJA\030\r \001(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025NDPIAGDHJGOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

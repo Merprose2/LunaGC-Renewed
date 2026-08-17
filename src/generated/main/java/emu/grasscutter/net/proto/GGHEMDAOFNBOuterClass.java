@@ -666,8 +666,8 @@ public final class GGHEMDAOFNBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GGHEMDAOFNB.proto\"J\n\013GGHEMDAOFNB\022\023\n\013GN" +
       "IKEMOBKPM\030\005 \001(\r\022\023\n\013MCNNACJCNIP\030\010 \001(\r\022\021\n\t" +
-      "avatar_id\030\014 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "avatar_id\030\014 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025GGHEMDAOFNBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

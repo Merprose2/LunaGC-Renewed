@@ -595,8 +595,9 @@ public final class KHIHJMIHDJIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KHIHJMIHDJI.proto\"-\n\013KHIHJMIHDJI\022\017\n\007re" +
-      "tcode\030\005 \001(\005\022\r\n\005index\030\r \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "tcode\030\005 \001(\005\022\r\n\005index\030\r \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025KHIHJMIHDJIOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

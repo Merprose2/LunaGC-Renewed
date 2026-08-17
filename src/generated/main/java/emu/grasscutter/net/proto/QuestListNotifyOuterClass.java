@@ -831,7 +831,8 @@ public final class QuestListNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025QuestListNotify.proto\032\013Quest.proto\"-\n\017" +
       "QuestListNotify\022\032\n\nquest_list\030\017 \003(\0132\006.Qu" +
-      "estB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "estB6\n\031emu.grasscutter.net.protoB\031QuestL" +
+      "istNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

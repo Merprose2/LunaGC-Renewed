@@ -1137,8 +1137,9 @@ public final class HomeLimitedShopInfoOuterClass {
       "time\030\007 \001(\007\022\013\n\003uid\030\010 \001(\r\022\032\n\tdjinn_pos\030\t \001" +
       "(\0132\007.Vector\022\026\n\016next_open_time\030\013 \001(\007\022\034\n\024n" +
       "ext_guest_open_time\030\r \001(\007\022\032\n\tdjinn_rot\030\017" +
-      " \001(\0132\007.VectorB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      " \001(\0132\007.VectorB:\n\031emu.grasscutter.net.pro" +
+      "toB\035HomeLimitedShopInfoOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

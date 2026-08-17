@@ -1106,7 +1106,8 @@ public final class EENANPMHJOJOuterClass {
       "JJOJINAGBKF.proto\"h\n\013EENANPMHJOJ\022!\n\013DNBG" +
       "AAIEPDD\030\007 \003(\0132\014.BALMAGIKEON\022\023\n\013LJGHDOOCC" +
       "GC\030\n \001(\r\022!\n\013EGCBMGIEKBB\030\r \001(\0132\014.JJOJINAG" +
-      "BKFB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "BKFB2\n\031emu.grasscutter.net.protoB\025EENANP" +
+      "MHJOJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

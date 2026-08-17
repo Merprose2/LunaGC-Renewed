@@ -732,7 +732,8 @@ public final class ChatChannelInfoOuterClass {
       "\n\025ChatChannelInfo.proto\"b\n\017ChatChannelIn" +
       "fo\022\023\n\013GOEHMPKIHMN\030\002 \001(\010\022\021\n\tis_shield\030\n \001" +
       "(\010\022\022\n\nchannel_id\030\013 \001(\r\022\023\n\013EBMDEPJCLLN\030\017 " +
-      "\001(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\010B6\n\031emu.grasscutter.net.protoB\031ChatCh" +
+      "annelInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

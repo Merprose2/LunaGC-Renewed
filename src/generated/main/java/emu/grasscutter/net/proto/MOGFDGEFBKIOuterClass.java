@@ -595,8 +595,9 @@ public final class MOGFDGEFBKIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MOGFDGEFBKI.proto\"6\n\013MOGFDGEFBKI\022\023\n\013AO" +
-      "EGCDFDJFC\030\002 \001(\r\022\022\n\ntarget_uid\030\n \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "EGCDFDJFC\030\002 \001(\r\022\022\n\ntarget_uid\030\n \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025MOGFDGEFBKIOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -910,8 +910,9 @@ public final class LuminanceStoneChallengeGallerySettleInfoOuterClass {
       "e\030\002 \001(\r\022\022\n\ngallery_id\030\003 \001(\r\022\"\n\006reason\030\004 " +
       "\001(\0162\022.GalleryStopReason\022\027\n\017clean_mud_cou" +
       "nt\030\007 \001(\r\022\"\n\032kill_special_monster_count\030\013" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rBO\n\031emu.grasscutter.net.protoB2Lumin" +
+      "anceStoneChallengeGallerySettleInfoOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

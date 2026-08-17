@@ -666,8 +666,8 @@ public final class DBDHOBIMDAGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DBDHOBIMDAG.proto\"M\n\013DBDHOBIMDAG\022\021\n\tav" +
       "atar_id\030\005 \001(\r\022\r\n\005index\030\006 \001(\r\022\034\n\024_avatar_" +
-      "element_type\030\010 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "element_type\030\010 \001(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025DBDHOBIMDAGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

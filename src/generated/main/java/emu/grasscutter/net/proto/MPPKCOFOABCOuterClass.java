@@ -949,8 +949,8 @@ public final class MPPKCOFOABCOuterClass {
       "roup_id\030\001 \001(\r\022\n\n\002cd\030\002 \001(\002\022\023\n\013FEMJJLCGIJP" +
       "\030\003 \001(\002\022\023\n\013DOGLJKBLACH\030\004 \001(\010\022\022\n\nskill_typ" +
       "e\030\005 \001(\r\022\023\n\013BCFEPPFPHIO\030\006 \001(\002\022\023\n\013KKADBMKF" +
-      "JOM\030\007 \001(\002B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "JOM\030\007 \001(\002B2\n\031emu.grasscutter.net.protoB\025" +
+      "MPPKCOFOABCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

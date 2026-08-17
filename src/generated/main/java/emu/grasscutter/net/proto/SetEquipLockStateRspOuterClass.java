@@ -668,8 +668,9 @@ public final class SetEquipLockStateRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032SetEquipLockStateRsp.proto\"U\n\024SetEquip" +
       "LockStateRsp\022\031\n\021target_equip_guid\030\004 \001(\004\022" +
-      "\017\n\007retcode\030\n \001(\005\022\021\n\tis_locked\030\r \001(\010B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\017\n\007retcode\030\n \001(\005\022\021\n\tis_locked\030\r \001(\010B;\n\031e" +
+      "mu.grasscutter.net.protoB\036SetEquipLockSt" +
+      "ateRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

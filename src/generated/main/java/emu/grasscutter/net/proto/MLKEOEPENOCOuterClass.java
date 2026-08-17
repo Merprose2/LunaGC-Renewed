@@ -666,8 +666,8 @@ public final class MLKEOEPENOCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MLKEOEPENOC.proto\"H\n\013MLKEOEPENOC\022\017\n\007ci" +
       "ty_id\030\002 \001(\r\022\023\n\013IOLKLILAFPO\030\003 \001(\r\022\023\n\013NHAJ" +
-      "CANDJCP\030\007 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "CANDJCP\030\007 \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025MLKEOEPENOCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

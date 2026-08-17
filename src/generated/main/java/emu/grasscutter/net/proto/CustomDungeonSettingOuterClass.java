@@ -1070,8 +1070,9 @@ public final class CustomDungeonSettingOuterClass {
       "BKJFDDIJO\030\002 \001(\r\022\030\n\020is_arrive_finish\030\007 \001(" +
       "\010\022\026\n\016open_room_list\030\010 \003(\r\022\027\n\017is_forbid_s" +
       "kill\030\t \001(\010\022\023\n\013GAGBCOCEGOF\030\r \001(\r\022\023\n\013FFCCN" +
-      "DMDMJA\030\016 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "DMDMJA\030\016 \001(\rB;\n\031emu.grasscutter.net.prot" +
+      "oB\036CustomDungeonSettingOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

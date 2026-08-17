@@ -658,8 +658,9 @@ public final class HomeResourceOuterClass {
     java.lang.String[] descriptorData = {
       "\n\022HomeResource.proto\"S\n\014HomeResource\022\023\n\013" +
       "HGGHMMGANMG\030\003 \001(\r\022\023\n\013FFDFFDPJIIJ\030\004 \001(\r\022\031" +
-      "\n\021next_refresh_time\030\010 \001(\007B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\n\021next_refresh_time\030\010 \001(\007B3\n\031emu.grasscu" +
+      "tter.net.protoB\026HomeResourceOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

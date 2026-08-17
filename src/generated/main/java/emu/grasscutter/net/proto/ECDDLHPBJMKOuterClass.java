@@ -1334,8 +1334,9 @@ public final class ECDDLHPBJMKOuterClass {
       "GPGEDM\030\001 \001(\0132\014.LPCCFBGJJCK\022!\n\013FJMDMAOJLE" +
       "E\030\002 \001(\0132\014.CLACNGHBMKF\022!\n\013MNOCGMLCPNL\030\003 \001" +
       "(\0132\014.HHGPFIMGEBE\022!\n\013CGBKGDNFBKC\030\004 \001(\0132\014." +
-      "HDBAEIPLPHI\022\017\n\007item_id\030\005 \001(\005B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "HDBAEIPLPHI\022\017\n\007item_id\030\005 \001(\005B2\n\031emu.gras" +
+      "scutter.net.protoB\025ECDDLHPBJMKOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

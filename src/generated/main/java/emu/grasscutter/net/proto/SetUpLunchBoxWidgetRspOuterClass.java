@@ -730,8 +730,9 @@ public final class SetUpLunchBoxWidgetRspOuterClass {
       "\n\034SetUpLunchBoxWidgetRsp.proto\032\022LunchBox" +
       "Data.proto\"P\n\026SetUpLunchBoxWidgetRsp\022%\n\016" +
       "lunch_box_data\030\003 \001(\0132\r.LunchBoxData\022\017\n\007r" +
-      "etcode\030\007 \001(\005B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "etcode\030\007 \001(\005B=\n\031emu.grasscutter.net.prot" +
+      "oB SetUpLunchBoxWidgetRspOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

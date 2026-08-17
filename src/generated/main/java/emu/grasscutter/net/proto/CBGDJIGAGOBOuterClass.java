@@ -666,8 +666,8 @@ public final class CBGDJIGAGOBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CBGDJIGAGOB.proto\"H\n\013CBGDJIGAGOB\022\017\n\007re" +
       "tcode\030\001 \001(\005\022\023\n\013DNHMPLBIGGJ\030\002 \001(\r\022\023\n\013EIEH" +
-      "CNHCNHE\030\n \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "CNHCNHE\030\n \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025CBGDJIGAGOBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

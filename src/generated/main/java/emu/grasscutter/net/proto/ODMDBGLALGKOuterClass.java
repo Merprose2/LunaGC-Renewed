@@ -596,8 +596,9 @@ public final class ODMDBGLALGKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ODMDBGLALGK.proto\"1\n\013ODMDBGLALGK\022\017\n\007re" +
-      "tcode\030\010 \001(\005\022\021\n\tis_locked\030\n \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "tcode\030\010 \001(\005\022\021\n\tis_locked\030\n \001(\010B2\n\031emu.gr" +
+      "asscutter.net.protoB\025ODMDBGLALGKOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

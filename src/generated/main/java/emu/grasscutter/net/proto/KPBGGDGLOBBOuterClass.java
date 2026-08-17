@@ -1188,8 +1188,8 @@ public final class KPBGGDGLOBBOuterClass {
       "rl\030\001 \001(\t\022\017\n\007retcode\030\004 \001(\005\022\023\n\013JKNEGEJFEDJ" +
       "\030\007 \001(\t\022\023\n\013FFDDAEEEAMH\030\010 \001(\t\022\023\n\013FNLPCBKBI" +
       "DO\030\t \001(\r\022\023\n\013PEPBLJMKPAE\030\013 \001(\r\022\023\n\013LJNNFJI" +
-      "ENAO\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "ENAO\030\016 \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025KPBGGDGLOBBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

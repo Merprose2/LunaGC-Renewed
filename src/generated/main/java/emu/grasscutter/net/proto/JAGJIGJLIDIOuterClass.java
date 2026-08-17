@@ -659,8 +659,8 @@ public final class JAGJIGJLIDIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JAGJIGJLIDI.proto\"L\n\013JAGJIGJLIDI\022\023\n\013MO" +
       "MMJLIONNO\030\002 \001(\010\022\023\n\013EBLBLCPGJMO\030\014 \001(\r\022\023\n\013" +
-      "KGBMFNBIFEL\030\017 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "KGBMFNBIFEL\030\017 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025JAGJIGJLIDIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

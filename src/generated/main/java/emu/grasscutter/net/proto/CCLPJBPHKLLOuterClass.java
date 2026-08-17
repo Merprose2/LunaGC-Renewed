@@ -517,8 +517,8 @@ public final class CCLPJBPHKLLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CCLPJBPHKLL.proto\"#\n\013CCLPJBPHKLL\022\024\n\013HI" +
-      "DOFCBHGBG\030\365\003 \001(\005B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "DOFCBHGBG\030\365\003 \001(\005B2\n\031emu.grasscutter.net." +
+      "protoB\025CCLPJBPHKLLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

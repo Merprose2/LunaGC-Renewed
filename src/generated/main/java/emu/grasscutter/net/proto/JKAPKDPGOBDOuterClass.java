@@ -596,8 +596,9 @@ public final class JKAPKDPGOBDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JKAPKDPGOBD.proto\"8\n\013JKAPKDPGOBD\022\024\n\014du" +
-      "ngeon_guid\030\007 \001(\004\022\023\n\013KGDHIIGEFEJ\030\016 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "ngeon_guid\030\007 \001(\004\022\023\n\013KGDHIIGEFEJ\030\016 \001(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025JKAPKDPGOBDO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

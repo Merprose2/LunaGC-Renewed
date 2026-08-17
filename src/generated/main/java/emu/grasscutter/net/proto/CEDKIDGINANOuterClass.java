@@ -1033,8 +1033,9 @@ public final class CEDKIDGINANOuterClass {
       "JEOKDCIGCFP.proto\"\204\001\n\013CEDKIDGINAN\022\023\n\013PPI" +
       "AIKIJAJE\030\001 \001(\r\022\034\n\006offset\030\002 \001(\0132\014.HHEDHCF" +
       "PEKM\022!\n\013DLMJCBBIJAB\030\003 \001(\0132\014.HHEDHCFPEKM\022" +
-      "\037\n\tborn_type\030\004 \001(\0162\014.JEOKDCIGCFPB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\037\n\tborn_type\030\004 \001(\0162\014.JEOKDCIGCFPB2\n\031emu." +
+      "grasscutter.net.protoB\025CEDKIDGINANOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -587,8 +587,9 @@ public final class AKAJENNDDNCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AKAJENNDDNC.proto\"-\n\013AKAJENNDDNC\022\013\n\003ui" +
-      "d\030\n \001(\r\022\021\n\tentity_id\030\016 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "d\030\n \001(\r\022\021\n\tentity_id\030\016 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025AKAJENNDDNCOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

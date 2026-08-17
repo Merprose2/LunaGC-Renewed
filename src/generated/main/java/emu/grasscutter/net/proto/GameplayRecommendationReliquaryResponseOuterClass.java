@@ -1270,8 +1270,9 @@ public final class GameplayRecommendationReliquaryResponseOuterClass {
       "e\022I\n\023main_prop_data_list\030\003 \003(\0132,.Gamepla" +
       "yRecommendationReliquaryMainPropData\022\022\n\n" +
       "equip_type\030\t \001(\r\022!\n\013CMPCDODLPFG\030\r \003(\0132\014." +
-      "PBICNMHHEKNB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "PBICNMHHEKNBN\n\031emu.grasscutter.net.proto" +
+      "B1GameplayRecommendationReliquaryRespons" +
+      "eOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

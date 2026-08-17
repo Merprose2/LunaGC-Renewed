@@ -1278,8 +1278,9 @@ public final class PMINIAFKACKOuterClass {
       "\001\n\013PMINIAFKACK\022\023\n\013HMFHCPIKGCO\030\001 \001(\t\022\023\n\013K" +
       "EENOEEOGBC\030\002 \003(\004\022\023\n\013LAEKJGJHBEN\030\003 \001(\t\022!\n" +
       "\013NELIJGBOHMF\030\004 \001(\0162\014.KAAEKMCHCJA\022\023\n\013NGED" +
-      "GDGBAID\030\005 \001(\014\022\022\n\nrequest_id\030\006 \001(\tB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "GDGBAID\030\005 \001(\014\022\022\n\nrequest_id\030\006 \001(\tB2\n\031emu" +
+      ".grasscutter.net.protoB\025PMINIAFKACKOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

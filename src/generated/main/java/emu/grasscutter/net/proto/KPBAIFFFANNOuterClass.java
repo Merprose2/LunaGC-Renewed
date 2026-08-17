@@ -595,8 +595,9 @@ public final class KPBAIFFFANNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KPBAIFFFANN.proto\"1\n\013KPBAIFFFANN\022\020\n\010po" +
-      "int_id\030\003 \001(\r\022\020\n\010scene_id\030\014 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "int_id\030\003 \001(\r\022\020\n\010scene_id\030\014 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025KPBAIFFFANNOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

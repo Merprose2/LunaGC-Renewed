@@ -894,7 +894,8 @@ public final class UgcMusicRecordOuterClass {
       "\n\024UgcMusicRecord.proto\032\023UgcMusicTrack.pr" +
       "oto\"L\n\016UgcMusicRecord\022(\n\020music_track_lis" +
       "t\030\006 \003(\0132\016.UgcMusicTrack\022\020\n\010music_id\030\017 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB5\n\031emu.grasscutter.net.protoB\030UgcMusic" +
+      "RecordOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -652,8 +652,9 @@ public final class AddSeenMonsterNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032AddSeenMonsterNotify.proto\"/\n\024AddSeenM" +
-      "onsterNotify\022\027\n\017monster_id_list\030\004 \003(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "onsterNotify\022\027\n\017monster_id_list\030\004 \003(\rB;\n" +
+      "\031emu.grasscutter.net.protoB\036AddSeenMonst" +
+      "erNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

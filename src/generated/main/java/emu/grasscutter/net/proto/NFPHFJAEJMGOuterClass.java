@@ -1299,8 +1299,9 @@ public final class NFPHFJAEJMGOuterClass {
       "\001\n\013NFPHFJAEJMG\022!\n\013KDILGAAKIMG\030\001 \003(\0132\014.OM" +
       "GILGCMCKH\022\023\n\013PPPOLKBLOBA\030\002 \001(\r\022\023\n\013expire" +
       "_time\030\005 \001(\007\022\r\n\005round\030\006 \001(\r\022\023\n\013JEHGANFHDK" +
-      "P\030\007 \003(\r\022\023\n\013GPBINGLDMAJ\030\017 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "P\030\007 \003(\r\022\023\n\013GPBINGLDMAJ\030\017 \001(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025NFPHFJAEJMGOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

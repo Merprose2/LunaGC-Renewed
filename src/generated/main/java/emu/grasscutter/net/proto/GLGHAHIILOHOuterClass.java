@@ -1373,7 +1373,8 @@ public final class GLGHAHIILOHOuterClass {
       "MPFNPEL\022!\n\013LHDLMJFILOI\030\006 \003(\0132\014.CHGDHOCKB" +
       "PD\022\023\n\013PADDAIOPAAO\030\010 \001(\r\022\023\n\013DIAEGNPICOM\030\t" +
       " \001(\r\022!\n\013LICCJGPGOHF\030\016 \001(\0132\014.IKHNFCKKIFIB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025GLGHAHIILO" +
+      "HOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

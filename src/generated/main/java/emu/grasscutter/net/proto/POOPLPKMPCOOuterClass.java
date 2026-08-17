@@ -1027,8 +1027,9 @@ public final class POOPLPKMPCOOuterClass {
       "\n\021POOPLPKMPCO.proto\032\021DNFGMEDCOMA.proto\032\021" +
       "PIGANJGBNKD.proto\"S\n\013POOPLPKMPCO\022!\n\013DMHB" +
       "DPGJBOE\030\001 \003(\0132\014.DNFGMEDCOMA\022!\n\013OIBOJCHHH" +
-      "FN\030\002 \001(\0132\014.PIGANJGBNKDB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "FN\030\002 \001(\0132\014.PIGANJGBNKDB2\n\031emu.grasscutte" +
+      "r.net.protoB\025POOPLPKMPCOOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

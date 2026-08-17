@@ -854,8 +854,8 @@ public final class HBDFFCCMKBBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HBDFFCCMKBB.proto\032\014Vector.proto\"9\n\013HBD" +
       "FFCCMKBB\022\024\n\003pos\030\004 \001(\0132\007.Vector\022\024\n\003rot\030\t " +
-      "\001(\0132\007.VectorB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\001(\0132\007.VectorB2\n\031emu.grasscutter.net.prot" +
+      "oB\025HBDFFCCMKBBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

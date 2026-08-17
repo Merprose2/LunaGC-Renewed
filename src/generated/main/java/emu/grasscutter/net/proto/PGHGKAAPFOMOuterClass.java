@@ -1011,8 +1011,9 @@ public final class PGHGKAAPFOMOuterClass {
       "JKIJLMMNLL\030\001 \001(\010\022\023\n\013DDFOLHCOLJE\030\002 \001(\r\022\023\n" +
       "\013AAIGENPJMIB\030\004 \001(\r\022\r\n\005score\030\007 \001(\r\022\023\n\013PBL" +
       "CHGNALJL\030\010 \001(\r\022\023\n\013OFNLIPGEBHL\030\t \001(\r\022\023\n\013G" +
-      "FKMNCAKAMO\030\016 \001(\r\022\023\n\013FDCOIAHNEJI\030\017 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "FKMNCAKAMO\030\016 \001(\r\022\023\n\013FDCOIAHNEJI\030\017 \001(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025PGHGKAAPFOMO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

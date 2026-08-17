@@ -964,8 +964,9 @@ public final class GeneralMatchInfoOuterClass {
       "\n\026GeneralMatchInfo.proto\032\025MatchPlayerInf" +
       "o.proto\"`\n\020GeneralMatchInfo\022\020\n\010match_id\030" +
       "\004 \001(\r\022\023\n\013match_param\030\n \001(\r\022%\n\013player_lis" +
-      "t\030\017 \003(\0132\020.MatchPlayerInfoB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "t\030\017 \003(\0132\020.MatchPlayerInfoB7\n\031emu.grasscu" +
+      "tter.net.protoB\032GeneralMatchInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1532,8 +1532,8 @@ public final class DDMFCLFMEMJOuterClass {
       "KFMDBCJK\030\001 \001(\005\022!\n\013NLCLJDGDIAE\030\002 \003(\0132\014.EE" +
       "EGFPEIHBP\022\023\n\013NCIPEMLHFEH\030\003 \003(\005\022\023\n\013DMKGIB" +
       "ELBDE\030\004 \001(\005\022!\n\013NPNEPJFFBFE\030\005 \003(\0132\014.HHCAB" +
-      "AONCJMB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "AONCJMB2\n\031emu.grasscutter.net.protoB\025DDM" +
+      "FCLFMEMJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

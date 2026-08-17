@@ -1398,8 +1398,9 @@ public final class LanternRiteDoFireworksReformRspOuterClass {
       "NIEMAKPA\030\t \001(\r\022?\n\020factor_info_list\030\n \003(\013" +
       "2%.LanternRiteFireworksReformFactorInfo\022" +
       "\024\n\014challenge_id\030\013 \001(\r\022\023\n\013DBPOCNHKCNJ\030\014 \001" +
-      "(\r\022\023\n\013LHMADGKNJBG\030\016 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "(\r\022\023\n\013LHMADGKNJBG\030\016 \001(\rBF\n\031emu.grasscutt" +
+      "er.net.protoB)LanternRiteDoFireworksRefo" +
+      "rmRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

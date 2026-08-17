@@ -133,8 +133,8 @@ public final class ModifierActionOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024ModifierAction.proto*F\n\016ModifierAction" +
       "\022\030\n\024ModifierAction_ADDED\020\000\022\032\n\026ModifierAc" +
-      "tion_REMOVED\020\001B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "tion_REMOVED\020\001B5\n\031emu.grasscutter.net.pr" +
+      "otoB\030ModifierActionOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

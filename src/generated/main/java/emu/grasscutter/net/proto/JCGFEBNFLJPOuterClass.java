@@ -587,8 +587,9 @@ public final class JCGFEBNFLJPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JCGFEBNFLJP.proto\"7\n\013JCGFEBNFLJP\022\023\n\013FB" +
-      "MKHDNKCAP\030\006 \001(\005\022\023\n\013BMNOGGNIIFO\030\014 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "MKHDNKCAP\030\006 \001(\005\022\023\n\013BMNOGGNIIFO\030\014 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025JCGFEBNFLJPOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

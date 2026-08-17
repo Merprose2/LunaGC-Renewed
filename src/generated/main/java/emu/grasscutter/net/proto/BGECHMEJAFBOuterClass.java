@@ -1945,8 +1945,9 @@ public final class BGECHMEJAFBOuterClass {
       "\001(\0132\014.MMLNJCOKEAK\022\"\n\013ADHKEJFIEND\030\371\003 \001(\0132" +
       "\014.MMLNJCOKEAK\022\"\n\013GBFNNGPMAID\030\372\003 \001(\0132\014.MM" +
       "LNJCOKEAK\022\024\n\013OMBJDELPAOK\030\373\003 \001(\r\022\"\n\013NALEF" +
-      "EFHFHG\030\374\003 \001(\0132\014.HHEDHCFPEKMB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "EFHFHG\030\374\003 \001(\0132\014.HHEDHCFPEKMB2\n\031emu.grass" +
+      "cutter.net.protoB\025BGECHMEJAFBOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

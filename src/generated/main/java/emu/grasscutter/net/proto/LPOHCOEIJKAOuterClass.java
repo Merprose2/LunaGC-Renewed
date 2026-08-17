@@ -1406,8 +1406,8 @@ public final class LPOHCOEIJKAOuterClass {
       "EE\030\366\003 \001(\0132\014.EJKFFGIAMJP\022\"\n\013MNOCGMLCPNL\030\367" +
       "\003 \001(\0132\014.GABPIGANKEF\022\"\n\013CGBKGDNFBKC\030\370\003 \001(" +
       "\0132\014.FEFIAFNHMEJ\022\020\n\007item_id\030\371\003 \001(\005\022\024\n\013JNK" +
-      "FCGBNKBF\030\372\003 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "FCGBNKBF\030\372\003 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025LPOHCOEIJKAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

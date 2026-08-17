@@ -1004,8 +1004,9 @@ public final class KGPGLKDNHBNOuterClass {
       "FriendBrief.proto\"{\n\013KGPGLKDNHBN\022\023\n\013OECM" +
       "KBIIGKE\030\002 \001(\r\022!\n\013OBPEBMFODIO\030\003 \001(\0132\014.DJL" +
       "FBKIDLCM\022\017\n\007retcode\030\006 \001(\005\022#\n\r_friend_bri" +
-      "ef\030\n \001(\0132\014.FriendBriefB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "ef\030\n \001(\0132\014.FriendBriefB2\n\031emu.grasscutte" +
+      "r.net.protoB\025KGPGLKDNHBNOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

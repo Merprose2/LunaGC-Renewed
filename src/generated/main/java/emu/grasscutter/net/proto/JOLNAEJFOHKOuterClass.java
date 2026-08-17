@@ -934,7 +934,8 @@ public final class JOLNAEJFOHKOuterClass {
       "NPJPDACPCAJ.proto\"h\n\013JOLNAEJFOHK\022\017\n\007retc" +
       "ode\030\002 \001(\005\022$\n\016_combat_detail\030\r \001(\0132\014.EJGM" +
       "HCIMNAL\022\"\n\014_battle_data\030\016 \001(\0132\014.NPJPDACP" +
-      "CAJB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "CAJB2\n\031emu.grasscutter.net.protoB\025JOLNAE" +
+      "JFOHKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

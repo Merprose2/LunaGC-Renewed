@@ -1088,8 +1088,8 @@ public final class JMKIMADBPGLOuterClass {
       "\n\021JMKIMADBPGL.proto\032\021LDLHHEHNCLC.proto\"Y" +
       "\n\013JMKIMADBPGL\022\022\n\nplayer_uid\030\001 \001(\r\022!\n\013AKO" +
       "ENHNPPJI\030\002 \003(\0132\014.LDLHHEHNCLC\022\023\n\013FONJGGJP" +
-      "EFO\030\003 \003(\004B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "EFO\030\003 \003(\004B2\n\031emu.grasscutter.net.protoB\025" +
+      "JMKIMADBPGLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

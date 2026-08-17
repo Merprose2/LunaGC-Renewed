@@ -831,8 +831,8 @@ public final class PKGAEPFNMCLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PKGAEPFNMCL.proto\032\021FDLMOFCEDMF.proto\"0" +
       "\n\013PKGAEPFNMCL\022!\n\013AGBKKELDFPH\030\017 \003(\0132\014.FDL" +
-      "MOFCEDMFB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "MOFCEDMFB2\n\031emu.grasscutter.net.protoB\025P" +
+      "KGAEPFNMCLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

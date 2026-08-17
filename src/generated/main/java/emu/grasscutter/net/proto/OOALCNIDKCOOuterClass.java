@@ -736,8 +736,9 @@ public final class OOALCNIDKCOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OOALCNIDKCO.proto\"X\n\013OOALCNIDKCO\022\020\n\010gr" +
       "oup_id\030\004 \001(\r\022\017\n\007card_id\030\006 \001(\r\022\022\n\nplayer_" +
-      "uid\030\007 \001(\r\022\022\n\nplay_index\030\r \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "uid\030\007 \001(\r\022\022\n\nplay_index\030\r \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025OOALCNIDKCOOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

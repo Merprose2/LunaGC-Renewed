@@ -903,8 +903,9 @@ public final class BlessingGetFriendPicListRspOuterClass {
       "ssingFriendPicData.proto\"d\n\033BlessingGetF" +
       "riendPicListRsp\022\017\n\007retcode\030\006 \001(\005\0224\n\024frie" +
       "nd_pic_data_list\030\016 \003(\0132\026.BlessingFriendP" +
-      "icDataB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "icDataBB\n\031emu.grasscutter.net.protoB%Ble" +
+      "ssingGetFriendPicListRspOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

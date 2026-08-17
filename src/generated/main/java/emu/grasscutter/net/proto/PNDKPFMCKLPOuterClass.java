@@ -27,7 +27,7 @@ public final class PNDKPFMCKLPOuterClass {
      * <code>._BeyondExpressionInfo.LPGEIAEOHPI IKEMIHBHMOI = 5;</code>
      * @return The iKEMIHBHMOI.
      */
-    emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI getIKEMIHBHMOI();
+    emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI getIKEMIHBHMOI();
   }
   /**
    * <pre>
@@ -130,10 +130,10 @@ public final class PNDKPFMCKLPOuterClass {
      * <code>._BeyondExpressionInfo.LPGEIAEOHPI IKEMIHBHMOI = 5;</code>
      * @return The iKEMIHBHMOI.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI getIKEMIHBHMOI() {
+    @java.lang.Override public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI getIKEMIHBHMOI() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI result = emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI.valueOf(iKEMIHBHMOI_);
-      return result == null ? emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI result = emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI.valueOf(iKEMIHBHMOI_);
+      return result == null ? emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI.UNRECOGNIZED : result;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -150,7 +150,7 @@ public final class PNDKPFMCKLPOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (iKEMIHBHMOI_ != emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI.LPGEIAEOHPI_NONE.getNumber()) {
+      if (iKEMIHBHMOI_ != emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI.LPGEIAEOHPI_NONE.getNumber()) {
         output.writeEnum(5, iKEMIHBHMOI_);
       }
       unknownFields.writeTo(output);
@@ -162,7 +162,7 @@ public final class PNDKPFMCKLPOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (iKEMIHBHMOI_ != emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI.LPGEIAEOHPI_NONE.getNumber()) {
+      if (iKEMIHBHMOI_ != emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI.LPGEIAEOHPI_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(5, iKEMIHBHMOI_);
       }
@@ -465,17 +465,17 @@ public final class PNDKPFMCKLPOuterClass {
        * @return The iKEMIHBHMOI.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI getIKEMIHBHMOI() {
+      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI getIKEMIHBHMOI() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI result = emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI.valueOf(iKEMIHBHMOI_);
-        return result == null ? emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI result = emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI.valueOf(iKEMIHBHMOI_);
+        return result == null ? emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI.UNRECOGNIZED : result;
       }
       /**
        * <code>._BeyondExpressionInfo.LPGEIAEOHPI IKEMIHBHMOI = 5;</code>
        * @param value The iKEMIHBHMOI to set.
        * @return This builder for chaining.
        */
-      public Builder setIKEMIHBHMOI(emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI value) {
+      public Builder setIKEMIHBHMOI(emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -564,12 +564,13 @@ public final class PNDKPFMCKLPOuterClass {
       "\n\021PNDKPFMCKLP.proto\032\033_BeyondExpressionIn" +
       "fo.proto\"F\n\013PNDKPFMCKLP\0227\n\013IKEMIHBHMOI\030\005" +
       " \001(\0162\"._BeyondExpressionInfo.LPGEIAEOHPI" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025PNDKPFMCK" +
+      "LPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BeyondExpressionInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass.getDescriptor(),
         });
     internal_static_PNDKPFMCKLP_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -577,7 +578,7 @@ public final class PNDKPFMCKLPOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PNDKPFMCKLP_descriptor,
         new java.lang.String[] { "IKEMIHBHMOI", });
-    emu.grasscutter.net.proto.BeyondExpressionInfo.getDescriptor();
+    emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

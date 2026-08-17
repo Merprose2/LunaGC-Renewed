@@ -800,8 +800,9 @@ public final class MarkEntityInMinMapNotifyOuterClass {
       "\n\036MarkEntityInMinMapNotify.proto\032\014Vector" +
       ".proto\"\\\n\030MarkEntityInMinMapNotify\022\022\n\nmo" +
       "nster_id\030\002 \001(\r\022\031\n\010position\030\010 \001(\0132\007.Vecto" +
-      "r\022\021\n\tentity_id\030\t \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "r\022\021\n\tentity_id\030\t \001(\rB?\n\031emu.grasscutter." +
+      "net.protoB\"MarkEntityInMinMapNotifyOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

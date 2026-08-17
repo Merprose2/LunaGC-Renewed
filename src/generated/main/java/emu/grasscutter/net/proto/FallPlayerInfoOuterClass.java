@@ -1058,7 +1058,8 @@ public final class FallPlayerInfoOuterClass {
       "cost\030\003 \001(\r\022\013\n\003uid\030\004 \001(\r\022\021\n\tcur_score\030\010 \001" +
       "(\r\022\021\n\tis_ground\030\014 \001(\010\0328\n\026BallCatchCountM" +
       "apEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "5\n\031emu.grasscutter.net.protoB\030FallPlayer" +
+      "InfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

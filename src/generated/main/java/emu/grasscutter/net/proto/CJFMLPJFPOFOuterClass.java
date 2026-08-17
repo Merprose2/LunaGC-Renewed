@@ -1130,7 +1130,8 @@ public final class CJFMLPJFPOFOuterClass {
       "EDDMCFHC\030\001 \001(\r\022!\n\013BAFAKMDLOBF\030\002 \001(\0132\014.HH" +
       "EDHCFPEKM\022!\n\013JFOOMBGJDDI\030\003 \001(\0132\014.HHEDHCF" +
       "PEKM\022!\n\013PKFPJPEIJKL\030\004 \001(\0132\014.EJFFMPFNPELB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025CJFMLPJFPO" +
+      "FOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

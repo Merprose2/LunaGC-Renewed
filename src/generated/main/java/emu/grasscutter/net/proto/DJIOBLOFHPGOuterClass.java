@@ -667,7 +667,8 @@ public final class DJIOBLOFHPGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DJIOBLOFHPG.proto\">\n\013DJIOBLOFHPG\022\020\n\010ma" +
       "tch_id\030\001 \001(\r\022\013\n\003uid\030\004 \001(\r\022\020\n\010is_agree\030\013 " +
-      "\001(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\010B2\n\031emu.grasscutter.net.protoB\025DJIOBL" +
+      "OFHPGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

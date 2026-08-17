@@ -597,8 +597,9 @@ public final class JKIBJMNMICHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JKIBJMNMICH.proto\"0\n\013JKIBJMNMICH\022\014\n\004gu" +
-      "id\030\002 \001(\004\022\023\n\013GEGCIONDBCN\030\006 \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "id\030\002 \001(\004\022\023\n\013GEGCIONDBCN\030\006 \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025JKIBJMNMICHOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

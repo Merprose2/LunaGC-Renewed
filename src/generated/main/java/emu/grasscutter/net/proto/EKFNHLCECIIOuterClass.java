@@ -526,8 +526,9 @@ public final class EKFNHLCECIIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EKFNHLCECII.proto\")\n\013EKFNHLCECII\022\032\n\022is" +
-      "_enter_edit_mode\030\t \001(\010B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "_enter_edit_mode\030\t \001(\010B2\n\031emu.grasscutte" +
+      "r.net.protoB\025EKFNHLCECIIOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

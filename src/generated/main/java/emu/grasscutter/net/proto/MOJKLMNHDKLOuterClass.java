@@ -916,8 +916,8 @@ public final class MOJKLMNHDKLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MOJKLMNHDKL.proto\"J\n\013MOJKLMNHDKL\022\021\n\ten" +
       "tity_id\030\t \001(\r\022\023\n\013FEIANMMFPJC\030\n \003(\r\022\023\n\013CB" +
-      "HPBBCOPPE\030\016 \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "HPBBCOPPE\030\016 \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025MOJKLMNHDKLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

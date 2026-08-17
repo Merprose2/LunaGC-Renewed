@@ -658,8 +658,8 @@ public final class CIEJFGMANMKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CIEJFGMANMK.proto\"L\n\013CIEJFGMANMK\022\023\n\013OK" +
       "CAFEBPAKC\030\002 \001(\007\022\023\n\013IDLBJNGMKPI\030\003 \001(\r\022\023\n\013" +
-      "MFOOHKCPIIO\030\005 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "MFOOHKCPIIO\030\005 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025CIEJFGMANMKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

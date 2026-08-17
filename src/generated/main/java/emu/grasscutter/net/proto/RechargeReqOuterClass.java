@@ -87,11 +87,11 @@ public final class RechargeReqOuterClass {
      * <code>._ShopBeyondMcoinProduct AHCKPNPHJKB = 8;</code>
      * @return The aHCKPNPHJKB.
      */
-    emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct getAHCKPNPHJKB();
+    emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct getAHCKPNPHJKB();
     /**
      * <code>._ShopBeyondMcoinProduct AHCKPNPHJKB = 8;</code>
      */
-    emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProductOrBuilder getAHCKPNPHJKBOrBuilder();
+    emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProductOrBuilder getAHCKPNPHJKBOrBuilder();
 
     /**
      * <code>.ShopConcertProduct concert_product = 9;</code>
@@ -255,11 +255,11 @@ public final class RechargeReqOuterClass {
               break;
             }
             case 66: {
-              emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.Builder subBuilder = null;
               if (aHCKPNPHJKB_ != null) {
                 subBuilder = aHCKPNPHJKB_.toBuilder();
               }
-              aHCKPNPHJKB_ = input.readMessage(emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct.parser(), extensionRegistry);
+              aHCKPNPHJKB_ = input.readMessage(emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(aHCKPNPHJKB_);
                 aHCKPNPHJKB_ = subBuilder.buildPartial();
@@ -456,7 +456,7 @@ public final class RechargeReqOuterClass {
     }
 
     public static final int AHCKPNPHJKB_FIELD_NUMBER = 8;
-    private emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct aHCKPNPHJKB_;
+    private emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct aHCKPNPHJKB_;
     /**
      * <code>._ShopBeyondMcoinProduct AHCKPNPHJKB = 8;</code>
      * @return Whether the aHCKPNPHJKB field is set.
@@ -470,14 +470,14 @@ public final class RechargeReqOuterClass {
      * @return The aHCKPNPHJKB.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct getAHCKPNPHJKB() {
-      return aHCKPNPHJKB_ == null ? emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct.getDefaultInstance() : aHCKPNPHJKB_;
+    public emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct getAHCKPNPHJKB() {
+      return aHCKPNPHJKB_ == null ? emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.getDefaultInstance() : aHCKPNPHJKB_;
     }
     /**
      * <code>._ShopBeyondMcoinProduct AHCKPNPHJKB = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProductOrBuilder getAHCKPNPHJKBOrBuilder() {
+    public emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProductOrBuilder getAHCKPNPHJKBOrBuilder() {
       return getAHCKPNPHJKB();
     }
 
@@ -1620,9 +1620,9 @@ public final class RechargeReqOuterClass {
         return gMHMLKMPDIJBuilder_;
       }
 
-      private emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct aHCKPNPHJKB_;
+      private emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct aHCKPNPHJKB_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct, emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct.Builder, emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProductOrBuilder> aHCKPNPHJKBBuilder_;
+          emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct, emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.Builder, emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProductOrBuilder> aHCKPNPHJKBBuilder_;
       /**
        * <code>._ShopBeyondMcoinProduct AHCKPNPHJKB = 8;</code>
        * @return Whether the aHCKPNPHJKB field is set.
@@ -1634,9 +1634,9 @@ public final class RechargeReqOuterClass {
        * <code>._ShopBeyondMcoinProduct AHCKPNPHJKB = 8;</code>
        * @return The aHCKPNPHJKB.
        */
-      public emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct getAHCKPNPHJKB() {
+      public emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct getAHCKPNPHJKB() {
         if (aHCKPNPHJKBBuilder_ == null) {
-          return aHCKPNPHJKB_ == null ? emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct.getDefaultInstance() : aHCKPNPHJKB_;
+          return aHCKPNPHJKB_ == null ? emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.getDefaultInstance() : aHCKPNPHJKB_;
         } else {
           return aHCKPNPHJKBBuilder_.getMessage();
         }
@@ -1644,7 +1644,7 @@ public final class RechargeReqOuterClass {
       /**
        * <code>._ShopBeyondMcoinProduct AHCKPNPHJKB = 8;</code>
        */
-      public Builder setAHCKPNPHJKB(emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct value) {
+      public Builder setAHCKPNPHJKB(emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct value) {
         if (aHCKPNPHJKBBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1661,7 +1661,7 @@ public final class RechargeReqOuterClass {
        * <code>._ShopBeyondMcoinProduct AHCKPNPHJKB = 8;</code>
        */
       public Builder setAHCKPNPHJKB(
-          emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct.Builder builderForValue) {
+          emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.Builder builderForValue) {
         if (aHCKPNPHJKBBuilder_ == null) {
           aHCKPNPHJKB_ = builderForValue.build();
           onChanged();
@@ -1674,11 +1674,11 @@ public final class RechargeReqOuterClass {
       /**
        * <code>._ShopBeyondMcoinProduct AHCKPNPHJKB = 8;</code>
        */
-      public Builder mergeAHCKPNPHJKB(emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct value) {
+      public Builder mergeAHCKPNPHJKB(emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct value) {
         if (aHCKPNPHJKBBuilder_ == null) {
           if (aHCKPNPHJKB_ != null) {
             aHCKPNPHJKB_ =
-              emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct.newBuilder(aHCKPNPHJKB_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.newBuilder(aHCKPNPHJKB_).mergeFrom(value).buildPartial();
           } else {
             aHCKPNPHJKB_ = value;
           }
@@ -1706,7 +1706,7 @@ public final class RechargeReqOuterClass {
       /**
        * <code>._ShopBeyondMcoinProduct AHCKPNPHJKB = 8;</code>
        */
-      public emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct.Builder getAHCKPNPHJKBBuilder() {
+      public emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.Builder getAHCKPNPHJKBBuilder() {
         
         onChanged();
         return getAHCKPNPHJKBFieldBuilder().getBuilder();
@@ -1714,23 +1714,23 @@ public final class RechargeReqOuterClass {
       /**
        * <code>._ShopBeyondMcoinProduct AHCKPNPHJKB = 8;</code>
        */
-      public emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProductOrBuilder getAHCKPNPHJKBOrBuilder() {
+      public emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProductOrBuilder getAHCKPNPHJKBOrBuilder() {
         if (aHCKPNPHJKBBuilder_ != null) {
           return aHCKPNPHJKBBuilder_.getMessageOrBuilder();
         } else {
           return aHCKPNPHJKB_ == null ?
-              emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct.getDefaultInstance() : aHCKPNPHJKB_;
+              emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.getDefaultInstance() : aHCKPNPHJKB_;
         }
       }
       /**
        * <code>._ShopBeyondMcoinProduct AHCKPNPHJKB = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct, emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct.Builder, emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProductOrBuilder> 
+          emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct, emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.Builder, emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProductOrBuilder> 
           getAHCKPNPHJKBFieldBuilder() {
         if (aHCKPNPHJKBBuilder_ == null) {
           aHCKPNPHJKBBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct, emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProduct.Builder, emu.grasscutter.net.proto.ShopBeyondMcoinProduct._ShopBeyondMcoinProductOrBuilder>(
+              emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct, emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.Builder, emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProductOrBuilder>(
                   getAHCKPNPHJKB(),
                   getParentForChildren(),
                   isClean());
@@ -2295,8 +2295,9 @@ public final class RechargeReqOuterClass {
       "product\030\t \001(\0132\023.ShopConcertProduct\022!\n\013BI" +
       "POBLBNPGM\030\013 \001(\0132\014.OLCGHCAGJGC\022&\n\014card_pr" +
       "oduct\030\014 \001(\0132\020.ShopCardProduct\022!\n\013FAEEGIJ" +
-      "KFJP\030\016 \001(\0132\014.OLFKDMCHEDPB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "KFJP\030\016 \001(\0132\014.OLFKDMCHEDPB2\n\031emu.grasscut" +
+      "ter.net.protoB\025RechargeReqOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2309,7 +2310,7 @@ public final class RechargeReqOuterClass {
           emu.grasscutter.net.proto.ShopCardProductOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ShopConcertProductOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ShopMcoinProductOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.ShopBeyondMcoinProduct.getDescriptor(),
+          emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass.getDescriptor(),
         });
     internal_static_RechargeReq_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2325,7 +2326,7 @@ public final class RechargeReqOuterClass {
     emu.grasscutter.net.proto.ShopCardProductOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ShopConcertProductOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ShopMcoinProductOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.ShopBeyondMcoinProduct.getDescriptor();
+    emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

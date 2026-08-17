@@ -454,8 +454,9 @@ public final class DGMHPDIGALAOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021DGMHPDIGALA.proto\"\r\n\013DGMHPDIGALAB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021DGMHPDIGALA.proto\"\r\n\013DGMHPDIGALAB2\n\031em" +
+      "u.grasscutter.net.protoB\025DGMHPDIGALAOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

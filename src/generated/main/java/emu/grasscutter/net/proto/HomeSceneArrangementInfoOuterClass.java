@@ -3593,8 +3593,8 @@ public final class HomeSceneArrangementInfoOuterClass {
       "ADJEMPMKIF\030\016 \001(\010\022\'\n\013DLHALLPDJKO\030\017 \003(\0132\022." +
       "HomeFurnitureData\022\035\n\013MEEACPBAEJN\030\254\002 \001(\0132" +
       "\007.Vector\022\"\n\013CKDKECLLALB\030\306\n \003(\0132\014.MLLBFLG" +
-      "FLDNB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "FLDNB?\n\031emu.grasscutter.net.protoB\"HomeS" +
+      "ceneArrangementInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

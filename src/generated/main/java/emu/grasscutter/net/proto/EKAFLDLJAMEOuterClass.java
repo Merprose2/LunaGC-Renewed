@@ -926,8 +926,8 @@ public final class EKAFLDLJAMEOuterClass {
       "\n\021EKAFLDLJAME.proto\"s\n\013EKAFLDLJAME\022\023\n\013NK" +
       "MLPDLLDHB\030\005 \003(\r\022\023\n\013IAHECBEDPAJ\030\007 \001(\007\022\023\n\013" +
       "PCAFMEIMJAK\030\010 \001(\r\022\020\n\010progress\030\n \001(\r\022\023\n\013E" +
-      "CBGDEKHGLD\030\017 \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "CBGDEKHGLD\030\017 \001(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025EKAFLDLJAMEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

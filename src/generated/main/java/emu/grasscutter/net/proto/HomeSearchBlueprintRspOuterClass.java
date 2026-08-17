@@ -730,8 +730,9 @@ public final class HomeSearchBlueprintRspOuterClass {
       "\n\034HomeSearchBlueprintRsp.proto\032\035HomeBlue" +
       "printSearchInfo.proto\"X\n\026HomeSearchBluep" +
       "rintRsp\022-\n\013search_info\030\006 \001(\0132\030.HomeBluep" +
-      "rintSearchInfo\022\017\n\007retcode\030\n \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "rintSearchInfo\022\017\n\007retcode\030\n \001(\005B=\n\031emu.g" +
+      "rasscutter.net.protoB HomeSearchBlueprin" +
+      "tRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

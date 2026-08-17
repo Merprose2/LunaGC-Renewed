@@ -1860,8 +1860,9 @@ public final class BOLJJBILENKOuterClass {
       "MGKMDEFM\030\001 \001(\t\022\023\n\013JMAIFPNEACI\030\002 \001(\r\022\023\n\013I" +
       "ODFOCMDBNK\030\003 \001(\r\022!\n\013ACDJCENNPBG\030\004 \003(\0132\014." +
       "BOLJJBILENK\022!\n\013IOOPJHFEONM\030\005 \003(\0132\014.CACBA" +
-      "HGEMFI\022\036\n\010tag_list\030\006 \003(\0132\014.IDMKPFHHCPOB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "HGEMFI\022\036\n\010tag_list\030\006 \003(\0132\014.IDMKPFHHCPOB2" +
+      "\n\031emu.grasscutter.net.protoB\025BOLJJBILENK" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

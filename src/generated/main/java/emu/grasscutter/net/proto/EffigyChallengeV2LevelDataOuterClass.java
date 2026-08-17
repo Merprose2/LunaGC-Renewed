@@ -871,8 +871,9 @@ public final class EffigyChallengeV2LevelDataOuterClass {
       "ffigyChallengeV2LevelData\022\023\n\013EFFLFFBKDAC" +
       "\030\001 \001(\r\022\025\n\ris_level_open\030\004 \001(\010\022\020\n\010level_i" +
       "d\030\n \001(\r\022\023\n\013NHEFNKONPEI\030\013 \001(\r\022\023\n\013GGADAHHN" +
-      "PNB\030\r \001(\r\022\023\n\013AAAJFEBICMG\030\017 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "PNB\030\r \001(\r\022\023\n\013AAAJFEBICMG\030\017 \001(\rBA\n\031emu.gr" +
+      "asscutter.net.protoB$EffigyChallengeV2Le" +
+      "velDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

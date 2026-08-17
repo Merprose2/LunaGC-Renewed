@@ -1338,7 +1338,9 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       "\005 \001(\010\022\023\n\013OMHKGKFBNGM\030\t \001(\010\022\023\n\013GHMJMKLBEN" +
       "L\030\n \001(\010\022\023\n\013FAAKNKKEENM\030\014 \003(\r\022\035\n\025trial_av" +
       "atar_index_id\030\r \001(\r\022\023\n\013JPFGBKGLGJJ\030\016 \001(\010" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "BJ\n\031emu.grasscutter.net.protoB-TrialAvat" +
+      "arActivityRewardDetailInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

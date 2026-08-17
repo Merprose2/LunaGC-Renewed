@@ -800,8 +800,8 @@ public final class FMEIIIKOKBMOuterClass {
       "\n\021FMEIIIKOKBM.proto\032\021CDDHIANIJFO.proto\"V" +
       "\n\013FMEIIIKOKBM\022\017\n\007retcode\030\003 \001(\005\022!\n\013FPNIAM" +
       "HNDON\030\013 \001(\0132\014.CDDHIANIJFO\022\023\n\013DNIBBKLBBJE" +
-      "\030\r \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\r \001(\rB2\n\031emu.grasscutter.net.protoB\025FME" +
+      "IIIKOKBMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

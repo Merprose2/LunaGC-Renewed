@@ -455,8 +455,9 @@ public final class GetChatEmojiCollectionReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\037GetChatEmojiCollectionReq.proto\"\033\n\031Get" +
-      "ChatEmojiCollectionReqB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "ChatEmojiCollectionReqB@\n\031emu.grasscutte" +
+      "r.net.protoB#GetChatEmojiCollectionReqOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

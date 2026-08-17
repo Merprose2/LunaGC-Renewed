@@ -675,8 +675,9 @@ public final class DOCJMFBGCDHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DOCJMFBGCDH.proto\"5\n\013DOCJMFBGCDH\022\017\n\007re" +
-      "tcode\030\004 \001(\005\022\025\n\rclient_params\030\013 \001(\tB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "tcode\030\004 \001(\005\022\025\n\rclient_params\030\013 \001(\tB2\n\031em" +
+      "u.grasscutter.net.protoB\025DOCJMFBGCDHOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

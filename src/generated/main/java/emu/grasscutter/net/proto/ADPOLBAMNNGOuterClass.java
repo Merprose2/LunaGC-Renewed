@@ -729,8 +729,9 @@ public final class ADPOLBAMNNGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ADPOLBAMNNG.proto\032\021AIOAIEIKFFD.proto\"E" +
       "\n\013ADPOLBAMNNG\022!\n\013NBEAAGGCFHC\030\002 \001(\0132\014.AIO" +
-      "AIEIKFFD\022\023\n\013KMDOFBPMGAI\030\014 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "AIEIKFFD\022\023\n\013KMDOFBPMGAI\030\014 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025ADPOLBAMNNGOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

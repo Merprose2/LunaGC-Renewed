@@ -950,8 +950,8 @@ public final class FMAMDOPJKNHOuterClass {
       "core\030\001 \001(\r\022\025\n\ris_new_record\030\003 \001(\010\022\021\n\tis_" +
       "finish\030\007 \001(\010\022\017\n\007retcode\030\t \001(\005\022\020\n\010level_i" +
       "d\030\013 \001(\r\022\023\n\013PEOAILOOEKH\030\r \001(\r\022\023\n\013LOHHKBHI" +
-      "EMO\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "EMO\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "FMAMDOPJKNHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

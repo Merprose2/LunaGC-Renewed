@@ -152,8 +152,8 @@ public final class EGCMFBDOKOMOuterClass {
       "\n\021EGCMFBDOKOM.proto*i\n\013EGCMFBDOKOM\022\024\n\020EG" +
       "CMFBDOKOM_NONE\020\000\022\027\n\023EGCMFBDOKOM_TIMEOUT\020" +
       "\001\022\025\n\021EGCMFBDOKOM_FORCE\020\002\022\024\n\020EGCMFBDOKOM_" +
-      "SUCC\020\003B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "SUCC\020\003B2\n\031emu.grasscutter.net.protoB\025EGC" +
+      "MFBDOKOMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

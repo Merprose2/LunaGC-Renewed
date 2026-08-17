@@ -776,8 +776,9 @@ public final class GCGMsgPVEIntentionInfoOuterClass {
       "nfo\022@\n\rintention_map\030\003 \003(\0132).GCGMsgPVEIn" +
       "tentionInfo.IntentionMapEntry\032H\n\021Intenti" +
       "onMapEntry\022\013\n\003key\030\001 \001(\r\022\"\n\005value\030\002 \001(\0132\023" +
-      ".GCGMsgPVEIntention:\0028\001B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      ".GCGMsgPVEIntention:\0028\001B=\n\031emu.grasscutt" +
+      "er.net.protoB GCGMsgPVEIntentionInfoOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

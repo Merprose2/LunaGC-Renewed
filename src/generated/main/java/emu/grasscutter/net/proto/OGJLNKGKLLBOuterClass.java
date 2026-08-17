@@ -595,8 +595,9 @@ public final class OGJLNKGKLLBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OGJLNKGKLLB.proto\"7\n\013OGJLNKGKLLB\022\023\n\013CA" +
-      "LDBDGPBHF\030\001 \001(\007\022\023\n\013MHIHKCMDILM\030\014 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "LDBDGPBHF\030\001 \001(\007\022\023\n\013MHIHKCMDILM\030\014 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025OGJLNKGKLLBOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

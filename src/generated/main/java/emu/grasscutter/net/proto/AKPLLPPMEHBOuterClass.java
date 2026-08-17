@@ -152,8 +152,8 @@ public final class AKPLLPPMEHBOuterClass {
       "\n\021AKPLLPPMEHB.proto*m\n\013AKPLLPPMEHB\022\023\n\017AK" +
       "PLLPPMEHB_BOX\020\000\022\026\n\022AKPLLPPMEHB_SPHERE\020\001\022" +
       "\027\n\023AKPLLPPMEHB_CAPSULE\020\002\022\030\n\024AKPLLPPMEHB_" +
-      "CYLINDER\020\003B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "CYLINDER\020\003B2\n\031emu.grasscutter.net.protoB" +
+      "\025AKPLLPPMEHBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

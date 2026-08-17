@@ -201,8 +201,8 @@ public final class ResinCostTypeOuterClass {
       "sinCostType_OP_ACTIVITY\020\004\022\032\n\026ResinCostTy" +
       "pe_MATERIAL\020\005\022\031\n\025ResinCostType_FRAGILE\020\006" +
       "\022\030\n\024ResinCostType_TIMING\020\007\022\027\n\023ResinCostT" +
-      "ype_HCOIN\020\010B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "ype_HCOIN\020\010B4\n\031emu.grasscutter.net.proto" +
+      "B\027ResinCostTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

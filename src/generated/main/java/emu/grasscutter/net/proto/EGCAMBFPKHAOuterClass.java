@@ -595,8 +595,9 @@ public final class EGCAMBFPKHAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EGCAMBFPKHA.proto\"0\n\013EGCAMBFPKHA\022\017\n\007re" +
-      "tcode\030\010 \001(\005\022\020\n\010trial_id\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "tcode\030\010 \001(\005\022\020\n\010trial_id\030\017 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025EGCAMBFPKHAOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

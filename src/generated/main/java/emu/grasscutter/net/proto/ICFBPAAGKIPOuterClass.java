@@ -38,11 +38,11 @@ public final class ICFBPAAGKIPOuterClass {
      * <code>._CustomValueDutyExtra custom_value_duty_extra = 101;</code>
      * @return The customValueDutyExtra.
      */
-    emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra getCustomValueDutyExtra();
+    emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra getCustomValueDutyExtra();
     /**
      * <code>._CustomValueDutyExtra custom_value_duty_extra = 101;</code>
      */
-    emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtraOrBuilder getCustomValueDutyExtraOrBuilder();
+    emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtraOrBuilder getCustomValueDutyExtraOrBuilder();
 
     /**
      * <code>._RoleStatusDutyExtra role_status_duty_extra = 114;</code>
@@ -53,11 +53,11 @@ public final class ICFBPAAGKIPOuterClass {
      * <code>._RoleStatusDutyExtra role_status_duty_extra = 114;</code>
      * @return The roleStatusDutyExtra.
      */
-    emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra getRoleStatusDutyExtra();
+    emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra getRoleStatusDutyExtra();
     /**
      * <code>._RoleStatusDutyExtra role_status_duty_extra = 114;</code>
      */
-    emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtraOrBuilder getRoleStatusDutyExtraOrBuilder();
+    emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtraOrBuilder getRoleStatusDutyExtraOrBuilder();
 
     /**
      * <code>._AttachPointDutyExtra attach_point_duty_extra = 121;</code>
@@ -68,11 +68,11 @@ public final class ICFBPAAGKIPOuterClass {
      * <code>._AttachPointDutyExtra attach_point_duty_extra = 121;</code>
      * @return The attachPointDutyExtra.
      */
-    emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra getAttachPointDutyExtra();
+    emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra getAttachPointDutyExtra();
     /**
      * <code>._AttachPointDutyExtra attach_point_duty_extra = 121;</code>
      */
-    emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtraOrBuilder getAttachPointDutyExtraOrBuilder();
+    emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtraOrBuilder getAttachPointDutyExtraOrBuilder();
 
     /**
      * <code>._NameplateDutyExtra nameplate_duty_extra = 127;</code>
@@ -83,11 +83,11 @@ public final class ICFBPAAGKIPOuterClass {
      * <code>._NameplateDutyExtra nameplate_duty_extra = 127;</code>
      * @return The nameplateDutyExtra.
      */
-    emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra getNameplateDutyExtra();
+    emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra getNameplateDutyExtra();
     /**
      * <code>._NameplateDutyExtra nameplate_duty_extra = 127;</code>
      */
-    emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtraOrBuilder getNameplateDutyExtraOrBuilder();
+    emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtraOrBuilder getNameplateDutyExtraOrBuilder();
 
     /**
      * <code>._MinimapMarkDutyExtra minimap_mark_duty_extra = 132;</code>
@@ -98,11 +98,11 @@ public final class ICFBPAAGKIPOuterClass {
      * <code>._MinimapMarkDutyExtra minimap_mark_duty_extra = 132;</code>
      * @return The minimapMarkDutyExtra.
      */
-    emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra getMinimapMarkDutyExtra();
+    emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra getMinimapMarkDutyExtra();
     /**
      * <code>._MinimapMarkDutyExtra minimap_mark_duty_extra = 132;</code>
      */
-    emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtraOrBuilder getMinimapMarkDutyExtraOrBuilder();
+    emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtraOrBuilder getMinimapMarkDutyExtraOrBuilder();
 
     public emu.grasscutter.net.proto.ICFBPAAGKIPOuterClass.ICFBPAAGKIP.DetailCase getDetailCase();
   }
@@ -159,70 +159,70 @@ public final class ICFBPAAGKIPOuterClass {
               break;
             }
             case 810: {
-              emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra.Builder subBuilder = null;
               if (detailCase_ == 101) {
-                subBuilder = ((emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 101;
               break;
             }
             case 914: {
-              emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra.Builder subBuilder = null;
+              emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra.Builder subBuilder = null;
               if (detailCase_ == 114) {
-                subBuilder = ((emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 114;
               break;
             }
             case 970: {
-              emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra.Builder subBuilder = null;
               if (detailCase_ == 121) {
-                subBuilder = ((emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 121;
               break;
             }
             case 1018: {
-              emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra.Builder subBuilder = null;
+              emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra.Builder subBuilder = null;
               if (detailCase_ == 127) {
-                subBuilder = ((emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 127;
               break;
             }
             case 1058: {
-              emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra.Builder subBuilder = null;
+              emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra.Builder subBuilder = null;
               if (detailCase_ == 132) {
-                subBuilder = ((emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 132;
@@ -340,21 +340,21 @@ public final class ICFBPAAGKIPOuterClass {
      * @return The customValueDutyExtra.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra getCustomValueDutyExtra() {
+    public emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra getCustomValueDutyExtra() {
       if (detailCase_ == 101) {
-         return (emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra) detail_;
+         return (emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra) detail_;
       }
-      return emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra.getDefaultInstance();
+      return emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra.getDefaultInstance();
     }
     /**
      * <code>._CustomValueDutyExtra custom_value_duty_extra = 101;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtraOrBuilder getCustomValueDutyExtraOrBuilder() {
+    public emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtraOrBuilder getCustomValueDutyExtraOrBuilder() {
       if (detailCase_ == 101) {
-         return (emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra) detail_;
+         return (emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra) detail_;
       }
-      return emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra.getDefaultInstance();
+      return emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra.getDefaultInstance();
     }
 
     public static final int ROLE_STATUS_DUTY_EXTRA_FIELD_NUMBER = 114;
@@ -371,21 +371,21 @@ public final class ICFBPAAGKIPOuterClass {
      * @return The roleStatusDutyExtra.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra getRoleStatusDutyExtra() {
+    public emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra getRoleStatusDutyExtra() {
       if (detailCase_ == 114) {
-         return (emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra) detail_;
+         return (emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra) detail_;
       }
-      return emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra.getDefaultInstance();
+      return emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra.getDefaultInstance();
     }
     /**
      * <code>._RoleStatusDutyExtra role_status_duty_extra = 114;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtraOrBuilder getRoleStatusDutyExtraOrBuilder() {
+    public emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtraOrBuilder getRoleStatusDutyExtraOrBuilder() {
       if (detailCase_ == 114) {
-         return (emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra) detail_;
+         return (emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra) detail_;
       }
-      return emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra.getDefaultInstance();
+      return emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra.getDefaultInstance();
     }
 
     public static final int ATTACH_POINT_DUTY_EXTRA_FIELD_NUMBER = 121;
@@ -402,21 +402,21 @@ public final class ICFBPAAGKIPOuterClass {
      * @return The attachPointDutyExtra.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra getAttachPointDutyExtra() {
+    public emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra getAttachPointDutyExtra() {
       if (detailCase_ == 121) {
-         return (emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra) detail_;
+         return (emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra) detail_;
       }
-      return emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra.getDefaultInstance();
+      return emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra.getDefaultInstance();
     }
     /**
      * <code>._AttachPointDutyExtra attach_point_duty_extra = 121;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtraOrBuilder getAttachPointDutyExtraOrBuilder() {
+    public emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtraOrBuilder getAttachPointDutyExtraOrBuilder() {
       if (detailCase_ == 121) {
-         return (emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra) detail_;
+         return (emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra) detail_;
       }
-      return emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra.getDefaultInstance();
+      return emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra.getDefaultInstance();
     }
 
     public static final int NAMEPLATE_DUTY_EXTRA_FIELD_NUMBER = 127;
@@ -433,21 +433,21 @@ public final class ICFBPAAGKIPOuterClass {
      * @return The nameplateDutyExtra.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra getNameplateDutyExtra() {
+    public emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra getNameplateDutyExtra() {
       if (detailCase_ == 127) {
-         return (emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra) detail_;
+         return (emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra) detail_;
       }
-      return emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra.getDefaultInstance();
+      return emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra.getDefaultInstance();
     }
     /**
      * <code>._NameplateDutyExtra nameplate_duty_extra = 127;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtraOrBuilder getNameplateDutyExtraOrBuilder() {
+    public emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtraOrBuilder getNameplateDutyExtraOrBuilder() {
       if (detailCase_ == 127) {
-         return (emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra) detail_;
+         return (emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra) detail_;
       }
-      return emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra.getDefaultInstance();
+      return emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra.getDefaultInstance();
     }
 
     public static final int MINIMAP_MARK_DUTY_EXTRA_FIELD_NUMBER = 132;
@@ -464,21 +464,21 @@ public final class ICFBPAAGKIPOuterClass {
      * @return The minimapMarkDutyExtra.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra getMinimapMarkDutyExtra() {
+    public emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra getMinimapMarkDutyExtra() {
       if (detailCase_ == 132) {
-         return (emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra) detail_;
+         return (emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra) detail_;
       }
-      return emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra.getDefaultInstance();
+      return emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra.getDefaultInstance();
     }
     /**
      * <code>._MinimapMarkDutyExtra minimap_mark_duty_extra = 132;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtraOrBuilder getMinimapMarkDutyExtraOrBuilder() {
+    public emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtraOrBuilder getMinimapMarkDutyExtraOrBuilder() {
       if (detailCase_ == 132) {
-         return (emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra) detail_;
+         return (emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra) detail_;
       }
-      return emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra.getDefaultInstance();
+      return emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -499,19 +499,19 @@ public final class ICFBPAAGKIPOuterClass {
         output.writeEnum(1, nHGKKKAOKMN_);
       }
       if (detailCase_ == 101) {
-        output.writeMessage(101, (emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra) detail_);
+        output.writeMessage(101, (emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra) detail_);
       }
       if (detailCase_ == 114) {
-        output.writeMessage(114, (emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra) detail_);
+        output.writeMessage(114, (emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra) detail_);
       }
       if (detailCase_ == 121) {
-        output.writeMessage(121, (emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra) detail_);
+        output.writeMessage(121, (emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra) detail_);
       }
       if (detailCase_ == 127) {
-        output.writeMessage(127, (emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra) detail_);
+        output.writeMessage(127, (emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra) detail_);
       }
       if (detailCase_ == 132) {
-        output.writeMessage(132, (emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra) detail_);
+        output.writeMessage(132, (emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -528,23 +528,23 @@ public final class ICFBPAAGKIPOuterClass {
       }
       if (detailCase_ == 101) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(101, (emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra) detail_);
+          .computeMessageSize(101, (emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra) detail_);
       }
       if (detailCase_ == 114) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(114, (emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra) detail_);
+          .computeMessageSize(114, (emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra) detail_);
       }
       if (detailCase_ == 121) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(121, (emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra) detail_);
+          .computeMessageSize(121, (emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra) detail_);
       }
       if (detailCase_ == 127) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(127, (emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra) detail_);
+          .computeMessageSize(127, (emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra) detail_);
       }
       if (detailCase_ == 132) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(132, (emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra) detail_);
+          .computeMessageSize(132, (emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -999,7 +999,7 @@ public final class ICFBPAAGKIPOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra, emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra.Builder, emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtraOrBuilder> customValueDutyExtraBuilder_;
+          emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra, emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra.Builder, emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtraOrBuilder> customValueDutyExtraBuilder_;
       /**
        * <code>._CustomValueDutyExtra custom_value_duty_extra = 101;</code>
        * @return Whether the customValueDutyExtra field is set.
@@ -1013,23 +1013,23 @@ public final class ICFBPAAGKIPOuterClass {
        * @return The customValueDutyExtra.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra getCustomValueDutyExtra() {
+      public emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra getCustomValueDutyExtra() {
         if (customValueDutyExtraBuilder_ == null) {
           if (detailCase_ == 101) {
-            return (emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra) detail_;
+            return (emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra) detail_;
           }
-          return emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra.getDefaultInstance();
         } else {
           if (detailCase_ == 101) {
             return customValueDutyExtraBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra.getDefaultInstance();
         }
       }
       /**
        * <code>._CustomValueDutyExtra custom_value_duty_extra = 101;</code>
        */
-      public Builder setCustomValueDutyExtra(emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra value) {
+      public Builder setCustomValueDutyExtra(emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra value) {
         if (customValueDutyExtraBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1046,7 +1046,7 @@ public final class ICFBPAAGKIPOuterClass {
        * <code>._CustomValueDutyExtra custom_value_duty_extra = 101;</code>
        */
       public Builder setCustomValueDutyExtra(
-          emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra.Builder builderForValue) {
+          emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra.Builder builderForValue) {
         if (customValueDutyExtraBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1059,11 +1059,11 @@ public final class ICFBPAAGKIPOuterClass {
       /**
        * <code>._CustomValueDutyExtra custom_value_duty_extra = 101;</code>
        */
-      public Builder mergeCustomValueDutyExtra(emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra value) {
+      public Builder mergeCustomValueDutyExtra(emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra value) {
         if (customValueDutyExtraBuilder_ == null) {
           if (detailCase_ == 101 &&
-              detail_ != emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra.newBuilder((emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra) detail_)
+              detail_ != emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra.newBuilder((emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1100,36 +1100,36 @@ public final class ICFBPAAGKIPOuterClass {
       /**
        * <code>._CustomValueDutyExtra custom_value_duty_extra = 101;</code>
        */
-      public emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra.Builder getCustomValueDutyExtraBuilder() {
+      public emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra.Builder getCustomValueDutyExtraBuilder() {
         return getCustomValueDutyExtraFieldBuilder().getBuilder();
       }
       /**
        * <code>._CustomValueDutyExtra custom_value_duty_extra = 101;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtraOrBuilder getCustomValueDutyExtraOrBuilder() {
+      public emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtraOrBuilder getCustomValueDutyExtraOrBuilder() {
         if ((detailCase_ == 101) && (customValueDutyExtraBuilder_ != null)) {
           return customValueDutyExtraBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 101) {
-            return (emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra) detail_;
+            return (emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra) detail_;
           }
-          return emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra.getDefaultInstance();
         }
       }
       /**
        * <code>._CustomValueDutyExtra custom_value_duty_extra = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra, emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra.Builder, emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtraOrBuilder> 
+          emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra, emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra.Builder, emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtraOrBuilder> 
           getCustomValueDutyExtraFieldBuilder() {
         if (customValueDutyExtraBuilder_ == null) {
           if (!(detailCase_ == 101)) {
-            detail_ = emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra.getDefaultInstance();
           }
           customValueDutyExtraBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra, emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra.Builder, emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtraOrBuilder>(
-                  (emu.grasscutter.net.proto.CustomValueDutyExtra._CustomValueDutyExtra) detail_,
+              emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra, emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra.Builder, emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtraOrBuilder>(
+                  (emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass._CustomValueDutyExtra) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1140,7 +1140,7 @@ public final class ICFBPAAGKIPOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra, emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra.Builder, emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtraOrBuilder> roleStatusDutyExtraBuilder_;
+          emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra, emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra.Builder, emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtraOrBuilder> roleStatusDutyExtraBuilder_;
       /**
        * <code>._RoleStatusDutyExtra role_status_duty_extra = 114;</code>
        * @return Whether the roleStatusDutyExtra field is set.
@@ -1154,23 +1154,23 @@ public final class ICFBPAAGKIPOuterClass {
        * @return The roleStatusDutyExtra.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra getRoleStatusDutyExtra() {
+      public emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra getRoleStatusDutyExtra() {
         if (roleStatusDutyExtraBuilder_ == null) {
           if (detailCase_ == 114) {
-            return (emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra) detail_;
+            return (emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra) detail_;
           }
-          return emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra.getDefaultInstance();
+          return emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra.getDefaultInstance();
         } else {
           if (detailCase_ == 114) {
             return roleStatusDutyExtraBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra.getDefaultInstance();
+          return emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra.getDefaultInstance();
         }
       }
       /**
        * <code>._RoleStatusDutyExtra role_status_duty_extra = 114;</code>
        */
-      public Builder setRoleStatusDutyExtra(emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra value) {
+      public Builder setRoleStatusDutyExtra(emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra value) {
         if (roleStatusDutyExtraBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1187,7 +1187,7 @@ public final class ICFBPAAGKIPOuterClass {
        * <code>._RoleStatusDutyExtra role_status_duty_extra = 114;</code>
        */
       public Builder setRoleStatusDutyExtra(
-          emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra.Builder builderForValue) {
+          emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra.Builder builderForValue) {
         if (roleStatusDutyExtraBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1200,11 +1200,11 @@ public final class ICFBPAAGKIPOuterClass {
       /**
        * <code>._RoleStatusDutyExtra role_status_duty_extra = 114;</code>
        */
-      public Builder mergeRoleStatusDutyExtra(emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra value) {
+      public Builder mergeRoleStatusDutyExtra(emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra value) {
         if (roleStatusDutyExtraBuilder_ == null) {
           if (detailCase_ == 114 &&
-              detail_ != emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra.newBuilder((emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra) detail_)
+              detail_ != emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra.newBuilder((emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1241,36 +1241,36 @@ public final class ICFBPAAGKIPOuterClass {
       /**
        * <code>._RoleStatusDutyExtra role_status_duty_extra = 114;</code>
        */
-      public emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra.Builder getRoleStatusDutyExtraBuilder() {
+      public emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra.Builder getRoleStatusDutyExtraBuilder() {
         return getRoleStatusDutyExtraFieldBuilder().getBuilder();
       }
       /**
        * <code>._RoleStatusDutyExtra role_status_duty_extra = 114;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtraOrBuilder getRoleStatusDutyExtraOrBuilder() {
+      public emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtraOrBuilder getRoleStatusDutyExtraOrBuilder() {
         if ((detailCase_ == 114) && (roleStatusDutyExtraBuilder_ != null)) {
           return roleStatusDutyExtraBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 114) {
-            return (emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra) detail_;
+            return (emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra) detail_;
           }
-          return emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra.getDefaultInstance();
+          return emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra.getDefaultInstance();
         }
       }
       /**
        * <code>._RoleStatusDutyExtra role_status_duty_extra = 114;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra, emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra.Builder, emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtraOrBuilder> 
+          emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra, emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra.Builder, emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtraOrBuilder> 
           getRoleStatusDutyExtraFieldBuilder() {
         if (roleStatusDutyExtraBuilder_ == null) {
           if (!(detailCase_ == 114)) {
-            detail_ = emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra.getDefaultInstance();
           }
           roleStatusDutyExtraBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra, emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra.Builder, emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtraOrBuilder>(
-                  (emu.grasscutter.net.proto.RoleStatusDutyExtra._RoleStatusDutyExtra) detail_,
+              emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra, emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra.Builder, emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtraOrBuilder>(
+                  (emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass._RoleStatusDutyExtra) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1281,7 +1281,7 @@ public final class ICFBPAAGKIPOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra, emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra.Builder, emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtraOrBuilder> attachPointDutyExtraBuilder_;
+          emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra, emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra.Builder, emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtraOrBuilder> attachPointDutyExtraBuilder_;
       /**
        * <code>._AttachPointDutyExtra attach_point_duty_extra = 121;</code>
        * @return Whether the attachPointDutyExtra field is set.
@@ -1295,23 +1295,23 @@ public final class ICFBPAAGKIPOuterClass {
        * @return The attachPointDutyExtra.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra getAttachPointDutyExtra() {
+      public emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra getAttachPointDutyExtra() {
         if (attachPointDutyExtraBuilder_ == null) {
           if (detailCase_ == 121) {
-            return (emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra) detail_;
+            return (emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra) detail_;
           }
-          return emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra.getDefaultInstance();
+          return emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra.getDefaultInstance();
         } else {
           if (detailCase_ == 121) {
             return attachPointDutyExtraBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra.getDefaultInstance();
+          return emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra.getDefaultInstance();
         }
       }
       /**
        * <code>._AttachPointDutyExtra attach_point_duty_extra = 121;</code>
        */
-      public Builder setAttachPointDutyExtra(emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra value) {
+      public Builder setAttachPointDutyExtra(emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra value) {
         if (attachPointDutyExtraBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1328,7 +1328,7 @@ public final class ICFBPAAGKIPOuterClass {
        * <code>._AttachPointDutyExtra attach_point_duty_extra = 121;</code>
        */
       public Builder setAttachPointDutyExtra(
-          emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra.Builder builderForValue) {
+          emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra.Builder builderForValue) {
         if (attachPointDutyExtraBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1341,11 +1341,11 @@ public final class ICFBPAAGKIPOuterClass {
       /**
        * <code>._AttachPointDutyExtra attach_point_duty_extra = 121;</code>
        */
-      public Builder mergeAttachPointDutyExtra(emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra value) {
+      public Builder mergeAttachPointDutyExtra(emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra value) {
         if (attachPointDutyExtraBuilder_ == null) {
           if (detailCase_ == 121 &&
-              detail_ != emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra.newBuilder((emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra) detail_)
+              detail_ != emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra.newBuilder((emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1382,36 +1382,36 @@ public final class ICFBPAAGKIPOuterClass {
       /**
        * <code>._AttachPointDutyExtra attach_point_duty_extra = 121;</code>
        */
-      public emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra.Builder getAttachPointDutyExtraBuilder() {
+      public emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra.Builder getAttachPointDutyExtraBuilder() {
         return getAttachPointDutyExtraFieldBuilder().getBuilder();
       }
       /**
        * <code>._AttachPointDutyExtra attach_point_duty_extra = 121;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtraOrBuilder getAttachPointDutyExtraOrBuilder() {
+      public emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtraOrBuilder getAttachPointDutyExtraOrBuilder() {
         if ((detailCase_ == 121) && (attachPointDutyExtraBuilder_ != null)) {
           return attachPointDutyExtraBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 121) {
-            return (emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra) detail_;
+            return (emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra) detail_;
           }
-          return emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra.getDefaultInstance();
+          return emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra.getDefaultInstance();
         }
       }
       /**
        * <code>._AttachPointDutyExtra attach_point_duty_extra = 121;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra, emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra.Builder, emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtraOrBuilder> 
+          emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra, emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra.Builder, emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtraOrBuilder> 
           getAttachPointDutyExtraFieldBuilder() {
         if (attachPointDutyExtraBuilder_ == null) {
           if (!(detailCase_ == 121)) {
-            detail_ = emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra.getDefaultInstance();
           }
           attachPointDutyExtraBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra, emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra.Builder, emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtraOrBuilder>(
-                  (emu.grasscutter.net.proto.AttachPointDutyExtra._AttachPointDutyExtra) detail_,
+              emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra, emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra.Builder, emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtraOrBuilder>(
+                  (emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass._AttachPointDutyExtra) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1422,7 +1422,7 @@ public final class ICFBPAAGKIPOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra, emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra.Builder, emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtraOrBuilder> nameplateDutyExtraBuilder_;
+          emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra, emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra.Builder, emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtraOrBuilder> nameplateDutyExtraBuilder_;
       /**
        * <code>._NameplateDutyExtra nameplate_duty_extra = 127;</code>
        * @return Whether the nameplateDutyExtra field is set.
@@ -1436,23 +1436,23 @@ public final class ICFBPAAGKIPOuterClass {
        * @return The nameplateDutyExtra.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra getNameplateDutyExtra() {
+      public emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra getNameplateDutyExtra() {
         if (nameplateDutyExtraBuilder_ == null) {
           if (detailCase_ == 127) {
-            return (emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra) detail_;
+            return (emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra) detail_;
           }
-          return emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra.getDefaultInstance();
+          return emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra.getDefaultInstance();
         } else {
           if (detailCase_ == 127) {
             return nameplateDutyExtraBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra.getDefaultInstance();
+          return emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra.getDefaultInstance();
         }
       }
       /**
        * <code>._NameplateDutyExtra nameplate_duty_extra = 127;</code>
        */
-      public Builder setNameplateDutyExtra(emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra value) {
+      public Builder setNameplateDutyExtra(emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra value) {
         if (nameplateDutyExtraBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1469,7 +1469,7 @@ public final class ICFBPAAGKIPOuterClass {
        * <code>._NameplateDutyExtra nameplate_duty_extra = 127;</code>
        */
       public Builder setNameplateDutyExtra(
-          emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra.Builder builderForValue) {
+          emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra.Builder builderForValue) {
         if (nameplateDutyExtraBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1482,11 +1482,11 @@ public final class ICFBPAAGKIPOuterClass {
       /**
        * <code>._NameplateDutyExtra nameplate_duty_extra = 127;</code>
        */
-      public Builder mergeNameplateDutyExtra(emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra value) {
+      public Builder mergeNameplateDutyExtra(emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra value) {
         if (nameplateDutyExtraBuilder_ == null) {
           if (detailCase_ == 127 &&
-              detail_ != emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra.newBuilder((emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra) detail_)
+              detail_ != emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra.newBuilder((emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1523,36 +1523,36 @@ public final class ICFBPAAGKIPOuterClass {
       /**
        * <code>._NameplateDutyExtra nameplate_duty_extra = 127;</code>
        */
-      public emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra.Builder getNameplateDutyExtraBuilder() {
+      public emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra.Builder getNameplateDutyExtraBuilder() {
         return getNameplateDutyExtraFieldBuilder().getBuilder();
       }
       /**
        * <code>._NameplateDutyExtra nameplate_duty_extra = 127;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtraOrBuilder getNameplateDutyExtraOrBuilder() {
+      public emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtraOrBuilder getNameplateDutyExtraOrBuilder() {
         if ((detailCase_ == 127) && (nameplateDutyExtraBuilder_ != null)) {
           return nameplateDutyExtraBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 127) {
-            return (emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra) detail_;
+            return (emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra) detail_;
           }
-          return emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra.getDefaultInstance();
+          return emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra.getDefaultInstance();
         }
       }
       /**
        * <code>._NameplateDutyExtra nameplate_duty_extra = 127;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra, emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra.Builder, emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtraOrBuilder> 
+          emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra, emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra.Builder, emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtraOrBuilder> 
           getNameplateDutyExtraFieldBuilder() {
         if (nameplateDutyExtraBuilder_ == null) {
           if (!(detailCase_ == 127)) {
-            detail_ = emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra.getDefaultInstance();
           }
           nameplateDutyExtraBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra, emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra.Builder, emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtraOrBuilder>(
-                  (emu.grasscutter.net.proto.NameplateDutyExtra._NameplateDutyExtra) detail_,
+              emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra, emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra.Builder, emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtraOrBuilder>(
+                  (emu.grasscutter.net.proto._NameplateDutyExtraOuterClass._NameplateDutyExtra) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1563,7 +1563,7 @@ public final class ICFBPAAGKIPOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra, emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra.Builder, emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtraOrBuilder> minimapMarkDutyExtraBuilder_;
+          emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra, emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra.Builder, emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtraOrBuilder> minimapMarkDutyExtraBuilder_;
       /**
        * <code>._MinimapMarkDutyExtra minimap_mark_duty_extra = 132;</code>
        * @return Whether the minimapMarkDutyExtra field is set.
@@ -1577,23 +1577,23 @@ public final class ICFBPAAGKIPOuterClass {
        * @return The minimapMarkDutyExtra.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra getMinimapMarkDutyExtra() {
+      public emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra getMinimapMarkDutyExtra() {
         if (minimapMarkDutyExtraBuilder_ == null) {
           if (detailCase_ == 132) {
-            return (emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra) detail_;
+            return (emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra) detail_;
           }
-          return emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra.getDefaultInstance();
+          return emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra.getDefaultInstance();
         } else {
           if (detailCase_ == 132) {
             return minimapMarkDutyExtraBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra.getDefaultInstance();
+          return emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra.getDefaultInstance();
         }
       }
       /**
        * <code>._MinimapMarkDutyExtra minimap_mark_duty_extra = 132;</code>
        */
-      public Builder setMinimapMarkDutyExtra(emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra value) {
+      public Builder setMinimapMarkDutyExtra(emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra value) {
         if (minimapMarkDutyExtraBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1610,7 +1610,7 @@ public final class ICFBPAAGKIPOuterClass {
        * <code>._MinimapMarkDutyExtra minimap_mark_duty_extra = 132;</code>
        */
       public Builder setMinimapMarkDutyExtra(
-          emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra.Builder builderForValue) {
+          emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra.Builder builderForValue) {
         if (minimapMarkDutyExtraBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1623,11 +1623,11 @@ public final class ICFBPAAGKIPOuterClass {
       /**
        * <code>._MinimapMarkDutyExtra minimap_mark_duty_extra = 132;</code>
        */
-      public Builder mergeMinimapMarkDutyExtra(emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra value) {
+      public Builder mergeMinimapMarkDutyExtra(emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra value) {
         if (minimapMarkDutyExtraBuilder_ == null) {
           if (detailCase_ == 132 &&
-              detail_ != emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra.newBuilder((emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra) detail_)
+              detail_ != emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra.newBuilder((emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1664,36 +1664,36 @@ public final class ICFBPAAGKIPOuterClass {
       /**
        * <code>._MinimapMarkDutyExtra minimap_mark_duty_extra = 132;</code>
        */
-      public emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra.Builder getMinimapMarkDutyExtraBuilder() {
+      public emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra.Builder getMinimapMarkDutyExtraBuilder() {
         return getMinimapMarkDutyExtraFieldBuilder().getBuilder();
       }
       /**
        * <code>._MinimapMarkDutyExtra minimap_mark_duty_extra = 132;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtraOrBuilder getMinimapMarkDutyExtraOrBuilder() {
+      public emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtraOrBuilder getMinimapMarkDutyExtraOrBuilder() {
         if ((detailCase_ == 132) && (minimapMarkDutyExtraBuilder_ != null)) {
           return minimapMarkDutyExtraBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 132) {
-            return (emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra) detail_;
+            return (emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra) detail_;
           }
-          return emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra.getDefaultInstance();
+          return emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra.getDefaultInstance();
         }
       }
       /**
        * <code>._MinimapMarkDutyExtra minimap_mark_duty_extra = 132;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra, emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra.Builder, emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtraOrBuilder> 
+          emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra, emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra.Builder, emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtraOrBuilder> 
           getMinimapMarkDutyExtraFieldBuilder() {
         if (minimapMarkDutyExtraBuilder_ == null) {
           if (!(detailCase_ == 132)) {
-            detail_ = emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra.getDefaultInstance();
           }
           minimapMarkDutyExtraBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra, emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra.Builder, emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtraOrBuilder>(
-                  (emu.grasscutter.net.proto.MinimapMarkDutyExtra._MinimapMarkDutyExtra) detail_,
+              emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra, emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra.Builder, emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtraOrBuilder>(
+                  (emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass._MinimapMarkDutyExtra) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1782,18 +1782,18 @@ public final class ICFBPAAGKIPOuterClass {
       "xtraH\000\0224\n\024nameplate_duty_extra\030\177 \001(\0132\024._" +
       "NameplateDutyExtraH\000\022:\n\027minimap_mark_dut" +
       "y_extra\030\204\001 \001(\0132\026._MinimapMarkDutyExtraH\000" +
-      "B\010\n\006detailB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "B\010\n\006detailB2\n\031emu.grasscutter.net.protoB" +
+      "\025ICFBPAAGKIPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.AELIBNHFODDOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.AttachPointDutyExtra.getDescriptor(),
-          emu.grasscutter.net.proto.CustomValueDutyExtra.getDescriptor(),
-          emu.grasscutter.net.proto.MinimapMarkDutyExtra.getDescriptor(),
-          emu.grasscutter.net.proto.NameplateDutyExtra.getDescriptor(),
-          emu.grasscutter.net.proto.RoleStatusDutyExtra.getDescriptor(),
+          emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._NameplateDutyExtraOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass.getDescriptor(),
         });
     internal_static_ICFBPAAGKIP_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1802,11 +1802,11 @@ public final class ICFBPAAGKIPOuterClass {
         internal_static_ICFBPAAGKIP_descriptor,
         new java.lang.String[] { "NHGKKKAOKMN", "CustomValueDutyExtra", "RoleStatusDutyExtra", "AttachPointDutyExtra", "NameplateDutyExtra", "MinimapMarkDutyExtra", "Detail", });
     emu.grasscutter.net.proto.AELIBNHFODDOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.AttachPointDutyExtra.getDescriptor();
-    emu.grasscutter.net.proto.CustomValueDutyExtra.getDescriptor();
-    emu.grasscutter.net.proto.MinimapMarkDutyExtra.getDescriptor();
-    emu.grasscutter.net.proto.NameplateDutyExtra.getDescriptor();
-    emu.grasscutter.net.proto.RoleStatusDutyExtra.getDescriptor();
+    emu.grasscutter.net.proto._AttachPointDutyExtraOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._CustomValueDutyExtraOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._MinimapMarkDutyExtraOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._NameplateDutyExtraOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._RoleStatusDutyExtraOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -1419,8 +1419,8 @@ public final class SceneAudioNotifyOuterClass {
       "y.AFEHPIONNHH\022\016\n\006param3\030\013 \003(\t\022\016\n\006param2\030" +
       "\r \003(\002\022\016\n\006param1\030\016 \003(\r\"H\n\013AFEHPIONNHH\022\026\n\022" +
       "AFEHPIONNHH_NORMAL\020\000\022!\n\035AFEHPIONNHH_INST" +
-      "RUMENT_WIDGET\020\001B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "RUMENT_WIDGET\020\001B7\n\031emu.grasscutter.net.p" +
+      "rotoB\032SceneAudioNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -747,8 +747,8 @@ public final class EPMEJNJPPOFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EPMEJNJPPOF.proto\"H\n\013EPMEJNJPPOF\022\023\n\013tr" +
       "ansaction\030\001 \001(\t\022\023\n\013DPIJFLBNPGP\030\t \001(\010\022\017\n\007" +
-      "retcode\030\014 \001(\005B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "retcode\030\014 \001(\005B2\n\031emu.grasscutter.net.pro" +
+      "toB\025EPMEJNJPPOFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1158,8 +1158,9 @@ public final class CFMEHCGADJPOuterClass {
       "\n\021CFMEHCGADJP.proto\032\017ItemParam.proto\"t\n\013" +
       "CFMEHCGADJP\022\023\n\013INKFBCOOCIK\030\002 \001(\r\022\032\n\022_bey" +
       "ond_gacha_type\030\003 \001(\r\022\023\n\013ODFEILIAEHG\030\n \003(" +
-      "\r\022\037\n\013KGDIHDFGDKH\030\013 \003(\0132\n.ItemParamB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\r\022\037\n\013KGDIHDFGDKH\030\013 \003(\0132\n.ItemParamB2\n\031em" +
+      "u.grasscutter.net.protoB\025CFMEHCGADJPOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

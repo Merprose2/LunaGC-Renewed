@@ -973,7 +973,8 @@ public final class NJFDEKOBMDNOuterClass {
       "\n\021NJFDEKOBMDN.proto\032\021HOHCIOGKOIG.proto\"Q" +
       "\n\013NJFDEKOBMDN\022\n\n\002id\030\001 \001(\r\022\023\n\013MOJAJMFINJK" +
       "\030\002 \001(\010\022!\n\013LBOLPBHNGJJ\030\003 \003(\0132\014.HOHCIOGKOI" +
-      "GB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "GB2\n\031emu.grasscutter.net.protoB\025NJFDEKOB" +
+      "MDNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

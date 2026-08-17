@@ -747,8 +747,8 @@ public final class ILFIMEOIKPAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ILFIMEOIKPA.proto\032\021JEOKDCIGCFP.proto\"/" +
       "\n\013ILFIMEOIKPA\022 \n\nvalue_list\030\001 \003(\0162\014.JEOK" +
-      "DCIGCFPB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "DCIGCFPB2\n\031emu.grasscutter.net.protoB\025IL" +
+      "FIMEOIKPAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

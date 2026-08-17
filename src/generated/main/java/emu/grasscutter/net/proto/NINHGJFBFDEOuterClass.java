@@ -667,8 +667,8 @@ public final class NINHGJFBFDEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NINHGJFBFDE.proto\"H\n\013NINHGJFBFDE\022\020\n\010le" +
       "vel_id\030\005 \001(\r\022\023\n\013IDKKOIOLBFF\030\010 \001(\010\022\022\n\npla" +
-      "y_index\030\n \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "y_index\030\n \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025NINHGJFBFDEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

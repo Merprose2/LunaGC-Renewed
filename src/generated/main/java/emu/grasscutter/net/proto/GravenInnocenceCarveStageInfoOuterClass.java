@@ -589,8 +589,9 @@ public final class GravenInnocenceCarveStageInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n#GravenInnocenceCarveStageInfo.proto\"B\n" +
       "\035GravenInnocenceCarveStageInfo\022\020\n\010stage_" +
-      "id\030\003 \001(\r\022\017\n\007is_open\030\r \001(\010B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "id\030\003 \001(\r\022\017\n\007is_open\030\r \001(\010BD\n\031emu.grasscu" +
+      "tter.net.protoB\'GravenInnocenceCarveStag" +
+      "eInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

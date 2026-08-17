@@ -966,8 +966,8 @@ public final class PKGMJCGPHMAOuterClass {
       "\n\021PKGMJCGPHMA.proto\032\021KBHFIPADNJP.proto\"X" +
       "\n\013PKGMJCGPHMA\022\021\n\tis_active\030\001 \001(\010\022\023\n\013BNAC" +
       "JHBAJAH\030\002 \001(\010\022!\n\013OHGAJBLNFAF\030\003 \003(\0132\014.KBH" +
-      "FIPADNJPB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "FIPADNJPB2\n\031emu.grasscutter.net.protoB\025P" +
+      "KGMJCGPHMAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

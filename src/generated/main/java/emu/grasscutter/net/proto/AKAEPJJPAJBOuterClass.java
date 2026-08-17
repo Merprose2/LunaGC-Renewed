@@ -1130,7 +1130,8 @@ public final class AKAEPJJPAJBOuterClass {
       "NJLJLMEI\030\365\003 \001(\0132\014.OMADHICNKAD\022\"\n\013PABAAFO" +
       "HPPD\030\366\003 \001(\0132\014.CONMINJDIBA\022\024\n\013MPEJPDLNNLI" +
       "\030\367\003 \001(\r\022\"\n\013BIJJOFLFPFP\030\370\003 \001(\0132\014.OMADHICN" +
-      "KADB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "KADB2\n\031emu.grasscutter.net.protoB\025AKAEPJ" +
+      "JPAJBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -587,8 +587,9 @@ public final class NONMJCNELBGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NONMJCNELBG.proto\"6\n\013NONMJCNELBG\022\023\n\013OF" +
-      "PLPAHHJPA\030\006 \001(\r\022\022\n\ndungeon_id\030\016 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "PLPAHHJPA\030\006 \001(\r\022\022\n\ndungeon_id\030\016 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025NONMJCNELBGOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

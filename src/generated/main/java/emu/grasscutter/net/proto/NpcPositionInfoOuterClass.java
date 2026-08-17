@@ -721,8 +721,8 @@ public final class NpcPositionInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025NpcPositionInfo.proto\032\014Vector.proto\"7\n" +
       "\017NpcPositionInfo\022\016\n\006npc_id\030\001 \001(\r\022\024\n\003pos\030" +
-      "\002 \001(\0132\007.VectorB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "\002 \001(\0132\007.VectorB6\n\031emu.grasscutter.net.pr" +
+      "otoB\031NpcPositionInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1043,8 +1043,9 @@ public final class CrystalLinkEnterDungeonRspOuterClass {
       "talLinkTeamInfo.proto\"\204\001\n\032CrystalLinkEnt" +
       "erDungeonRsp\022\025\n\rdifficulty_id\030\001 \001(\r\022\020\n\010l" +
       "evel_id\030\003 \001(\r\022,\n\016team_info_list\030\005 \003(\0132\024." +
-      "CrystalLinkTeamInfo\022\017\n\007retcode\030\006 \001(\005B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "CrystalLinkTeamInfo\022\017\n\007retcode\030\006 \001(\005BA\n\031" +
+      "emu.grasscutter.net.protoB$CrystalLinkEn" +
+      "terDungeonRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

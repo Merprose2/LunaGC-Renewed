@@ -526,8 +526,8 @@ public final class MistTrialDunegonFailNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n MistTrialDunegonFailNotify.proto\"0\n\032Mi" +
       "stTrialDunegonFailNotify\022\022\n\ndungeon_id\030\005" +
-      " \001(\005B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\005BA\n\031emu.grasscutter.net.protoB$MistT" +
+      "rialDunegonFailNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

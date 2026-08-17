@@ -893,8 +893,9 @@ public final class OONAJKOFABKOuterClass {
       "\013LEOCNCHLCOG\030\010 \001(\r\022-\n\013MKJMHCCFEKK\030\r \001(\0162" +
       "\030.OONAJKOFABK.PGEHFEHENBB\"P\n\013PGEHFEHENBB" +
       "\022\024\n\020PGEHFEHENBB_NONE\020\000\022\025\n\021PGEHFEHENBB_EN" +
-      "TER\020\001\022\024\n\020PGEHFEHENBB_EXIT\020\002B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "TER\020\001\022\024\n\020PGEHFEHENBB_EXIT\020\002B2\n\031emu.grass" +
+      "cutter.net.protoB\025OONAJKOFABKOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

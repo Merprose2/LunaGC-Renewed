@@ -1075,8 +1075,8 @@ public final class ACCFBAMBMPCOuterClass {
       "\022\023\n\013PDOLOBOMAEM\030\002 \001(\r\022&\n\013player_info\030\003 \001" +
       "(\0132\021.OnlinePlayerInfo\022\014\n\004rank\030\004 \001(\r\022\023\n\013P" +
       "KPJHGJEPEN\030\010 \001(\r\022\023\n\013LGEEMHGIFGA\030\t \001(\r\022\023\n" +
-      "\013BOJHDCHBFMK\030\r \001(\010B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\013BOJHDCHBFMK\030\r \001(\010B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025ACCFBAMBMPCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

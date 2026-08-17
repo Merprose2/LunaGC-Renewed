@@ -605,8 +605,8 @@ public final class NFDOGCLNGDPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NFDOGCLNGDP.proto\"\032\n\013NFDOGCLNGDP\022\013\n\003ms" +
-      "g\030\016 \001(\tB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "g\030\016 \001(\tB2\n\031emu.grasscutter.net.protoB\025NF" +
+      "DOGCLNGDPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

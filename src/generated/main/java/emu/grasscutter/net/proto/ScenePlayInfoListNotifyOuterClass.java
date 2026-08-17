@@ -832,7 +832,8 @@ public final class ScenePlayInfoListNotifyOuterClass {
       "\n\035ScenePlayInfoListNotify.proto\032\023ScenePl" +
       "ayInfo.proto\"A\n\027ScenePlayInfoListNotify\022" +
       "&\n\016play_info_list\030\006 \003(\0132\016.ScenePlayInfoB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      ">\n\031emu.grasscutter.net.protoB!ScenePlayI" +
+      "nfoListNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

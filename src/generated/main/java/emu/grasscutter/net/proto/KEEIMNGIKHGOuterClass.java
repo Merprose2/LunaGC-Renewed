@@ -659,8 +659,8 @@ public final class KEEIMNGIKHGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KEEIMNGIKHG.proto\"I\n\013KEEIMNGIKHG\022\023\n\013PM" +
       "LODDINFCO\030\001 \001(\005\022\023\n\013is_finished\030\002 \001(\010\022\020\n\010" +
-      "progress\030\003 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "progress\030\003 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025KEEIMNGIKHGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

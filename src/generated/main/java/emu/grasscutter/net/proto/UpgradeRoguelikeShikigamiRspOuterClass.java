@@ -667,8 +667,9 @@ public final class UpgradeRoguelikeShikigamiRspOuterClass {
       "\n\"UpgradeRoguelikeShikigamiRsp.proto\"^\n\034" +
       "UpgradeRoguelikeShikigamiRsp\022\017\n\007retcode\030" +
       "\n \001(\005\022\021\n\tcur_level\030\014 \001(\r\022\032\n\022shikigami_gr" +
-      "oup_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "oup_id\030\016 \001(\rBC\n\031emu.grasscutter.net.prot" +
+      "oB&UpgradeRoguelikeShikigamiRspOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

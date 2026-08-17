@@ -667,8 +667,9 @@ public final class DragonSpineChapterProgressChangeNotifyOuterClass {
       "\n,DragonSpineChapterProgressChangeNotify" +
       ".proto\"g\n&DragonSpineChapterProgressChan" +
       "geNotify\022\023\n\013schedule_id\030\005 \001(\r\022\022\n\nchapter" +
-      "_id\030\013 \001(\r\022\024\n\014cur_progress\030\014 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "_id\030\013 \001(\r\022\024\n\014cur_progress\030\014 \001(\rBM\n\031emu.g" +
+      "rasscutter.net.protoB0DragonSpineChapter" +
+      "ProgressChangeNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

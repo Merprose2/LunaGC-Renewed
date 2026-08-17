@@ -1036,8 +1036,9 @@ public final class SceneRouteChangeInfoOuterClass {
       "ChangeInfo.proto\"u\n\024SceneRouteChangeInfo" +
       "\022\020\n\010route_id\030\006 \001(\r\022\014\n\004type\030\010 \001(\r\022\022\n\nis_f" +
       "orward\030\n \001(\010\022)\n\npoint_list\030\r \003(\0132\025.Route" +
-      "PointChangeInfoB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "PointChangeInfoB;\n\031emu.grasscutter.net.p" +
+      "rotoB\036SceneRouteChangeInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

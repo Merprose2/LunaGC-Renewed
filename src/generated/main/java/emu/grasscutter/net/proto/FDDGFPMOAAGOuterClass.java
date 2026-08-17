@@ -667,8 +667,8 @@ public final class FDDGFPMOAAGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FDDGFPMOAAG.proto\"H\n\013FDDGFPMOAAG\022\023\n\013DO" +
       "DLJMNEFDC\030\002 \001(\r\022\023\n\013KBHIIBGOGFI\030\t \001(\010\022\017\n\007" +
-      "deck_id\030\014 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "deck_id\030\014 \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025FDDGFPMOAAGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

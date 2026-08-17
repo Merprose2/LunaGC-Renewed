@@ -157,8 +157,9 @@ public final class RogueDiaryAvatarDisableStatusOuterClass {
       "EATH\020\001\022B\n>RogueDiaryAvatarDisableStatus_" +
       "ROGUE_DIARY_AVATAR_DISABLE_TIRED\020\002\022G\nCRo" +
       "gueDiaryAvatarDisableStatus_ROGUE_DIARY_" +
-      "AVATAR_DISABLE_DUPLICATED\020\003B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "AVATAR_DISABLE_DUPLICATED\020\003BD\n\031emu.grass" +
+      "cutter.net.protoB\'RogueDiaryAvatarDisabl" +
+      "eStatusOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

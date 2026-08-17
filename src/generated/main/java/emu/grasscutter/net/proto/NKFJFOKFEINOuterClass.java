@@ -27,11 +27,11 @@ public final class NKFJFOKFEINOuterClass {
      * <code>._Discover discover = 10;</code>
      * @return The discover.
      */
-    emu.grasscutter.net.proto.Discover._Discover getDiscover();
+    emu.grasscutter.net.proto._DiscoverOuterClass._Discover getDiscover();
     /**
      * <code>._Discover discover = 10;</code>
      */
-    emu.grasscutter.net.proto.Discover._DiscoverOrBuilder getDiscoverOrBuilder();
+    emu.grasscutter.net.proto._DiscoverOuterClass._DiscoverOrBuilder getDiscoverOrBuilder();
 
     public emu.grasscutter.net.proto.NKFJFOKFEINOuterClass.NKFJFOKFEIN.NMILAFPENGOCase getNMILAFPENGOCase();
   }
@@ -81,14 +81,14 @@ public final class NKFJFOKFEINOuterClass {
               done = true;
               break;
             case 82: {
-              emu.grasscutter.net.proto.Discover._Discover.Builder subBuilder = null;
+              emu.grasscutter.net.proto._DiscoverOuterClass._Discover.Builder subBuilder = null;
               if (nMILAFPENGOCase_ == 10) {
-                subBuilder = ((emu.grasscutter.net.proto.Discover._Discover) nMILAFPENGO_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._DiscoverOuterClass._Discover) nMILAFPENGO_).toBuilder();
               }
               nMILAFPENGO_ =
-                  input.readMessage(emu.grasscutter.net.proto.Discover._Discover.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._DiscoverOuterClass._Discover.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.Discover._Discover) nMILAFPENGO_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._DiscoverOuterClass._Discover) nMILAFPENGO_);
                 nMILAFPENGO_ = subBuilder.buildPartial();
               }
               nMILAFPENGOCase_ = 10;
@@ -179,21 +179,21 @@ public final class NKFJFOKFEINOuterClass {
      * @return The discover.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Discover._Discover getDiscover() {
+    public emu.grasscutter.net.proto._DiscoverOuterClass._Discover getDiscover() {
       if (nMILAFPENGOCase_ == 10) {
-         return (emu.grasscutter.net.proto.Discover._Discover) nMILAFPENGO_;
+         return (emu.grasscutter.net.proto._DiscoverOuterClass._Discover) nMILAFPENGO_;
       }
-      return emu.grasscutter.net.proto.Discover._Discover.getDefaultInstance();
+      return emu.grasscutter.net.proto._DiscoverOuterClass._Discover.getDefaultInstance();
     }
     /**
      * <code>._Discover discover = 10;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Discover._DiscoverOrBuilder getDiscoverOrBuilder() {
+    public emu.grasscutter.net.proto._DiscoverOuterClass._DiscoverOrBuilder getDiscoverOrBuilder() {
       if (nMILAFPENGOCase_ == 10) {
-         return (emu.grasscutter.net.proto.Discover._Discover) nMILAFPENGO_;
+         return (emu.grasscutter.net.proto._DiscoverOuterClass._Discover) nMILAFPENGO_;
       }
-      return emu.grasscutter.net.proto.Discover._Discover.getDefaultInstance();
+      return emu.grasscutter.net.proto._DiscoverOuterClass._Discover.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -211,7 +211,7 @@ public final class NKFJFOKFEINOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (nMILAFPENGOCase_ == 10) {
-        output.writeMessage(10, (emu.grasscutter.net.proto.Discover._Discover) nMILAFPENGO_);
+        output.writeMessage(10, (emu.grasscutter.net.proto._DiscoverOuterClass._Discover) nMILAFPENGO_);
       }
       unknownFields.writeTo(output);
     }
@@ -224,7 +224,7 @@ public final class NKFJFOKFEINOuterClass {
       size = 0;
       if (nMILAFPENGOCase_ == 10) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, (emu.grasscutter.net.proto.Discover._Discover) nMILAFPENGO_);
+          .computeMessageSize(10, (emu.grasscutter.net.proto._DiscoverOuterClass._Discover) nMILAFPENGO_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -540,7 +540,7 @@ public final class NKFJFOKFEINOuterClass {
 
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Discover._Discover, emu.grasscutter.net.proto.Discover._Discover.Builder, emu.grasscutter.net.proto.Discover._DiscoverOrBuilder> discoverBuilder_;
+          emu.grasscutter.net.proto._DiscoverOuterClass._Discover, emu.grasscutter.net.proto._DiscoverOuterClass._Discover.Builder, emu.grasscutter.net.proto._DiscoverOuterClass._DiscoverOrBuilder> discoverBuilder_;
       /**
        * <code>._Discover discover = 10;</code>
        * @return Whether the discover field is set.
@@ -554,23 +554,23 @@ public final class NKFJFOKFEINOuterClass {
        * @return The discover.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Discover._Discover getDiscover() {
+      public emu.grasscutter.net.proto._DiscoverOuterClass._Discover getDiscover() {
         if (discoverBuilder_ == null) {
           if (nMILAFPENGOCase_ == 10) {
-            return (emu.grasscutter.net.proto.Discover._Discover) nMILAFPENGO_;
+            return (emu.grasscutter.net.proto._DiscoverOuterClass._Discover) nMILAFPENGO_;
           }
-          return emu.grasscutter.net.proto.Discover._Discover.getDefaultInstance();
+          return emu.grasscutter.net.proto._DiscoverOuterClass._Discover.getDefaultInstance();
         } else {
           if (nMILAFPENGOCase_ == 10) {
             return discoverBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.Discover._Discover.getDefaultInstance();
+          return emu.grasscutter.net.proto._DiscoverOuterClass._Discover.getDefaultInstance();
         }
       }
       /**
        * <code>._Discover discover = 10;</code>
        */
-      public Builder setDiscover(emu.grasscutter.net.proto.Discover._Discover value) {
+      public Builder setDiscover(emu.grasscutter.net.proto._DiscoverOuterClass._Discover value) {
         if (discoverBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -587,7 +587,7 @@ public final class NKFJFOKFEINOuterClass {
        * <code>._Discover discover = 10;</code>
        */
       public Builder setDiscover(
-          emu.grasscutter.net.proto.Discover._Discover.Builder builderForValue) {
+          emu.grasscutter.net.proto._DiscoverOuterClass._Discover.Builder builderForValue) {
         if (discoverBuilder_ == null) {
           nMILAFPENGO_ = builderForValue.build();
           onChanged();
@@ -600,11 +600,11 @@ public final class NKFJFOKFEINOuterClass {
       /**
        * <code>._Discover discover = 10;</code>
        */
-      public Builder mergeDiscover(emu.grasscutter.net.proto.Discover._Discover value) {
+      public Builder mergeDiscover(emu.grasscutter.net.proto._DiscoverOuterClass._Discover value) {
         if (discoverBuilder_ == null) {
           if (nMILAFPENGOCase_ == 10 &&
-              nMILAFPENGO_ != emu.grasscutter.net.proto.Discover._Discover.getDefaultInstance()) {
-            nMILAFPENGO_ = emu.grasscutter.net.proto.Discover._Discover.newBuilder((emu.grasscutter.net.proto.Discover._Discover) nMILAFPENGO_)
+              nMILAFPENGO_ != emu.grasscutter.net.proto._DiscoverOuterClass._Discover.getDefaultInstance()) {
+            nMILAFPENGO_ = emu.grasscutter.net.proto._DiscoverOuterClass._Discover.newBuilder((emu.grasscutter.net.proto._DiscoverOuterClass._Discover) nMILAFPENGO_)
                 .mergeFrom(value).buildPartial();
           } else {
             nMILAFPENGO_ = value;
@@ -641,36 +641,36 @@ public final class NKFJFOKFEINOuterClass {
       /**
        * <code>._Discover discover = 10;</code>
        */
-      public emu.grasscutter.net.proto.Discover._Discover.Builder getDiscoverBuilder() {
+      public emu.grasscutter.net.proto._DiscoverOuterClass._Discover.Builder getDiscoverBuilder() {
         return getDiscoverFieldBuilder().getBuilder();
       }
       /**
        * <code>._Discover discover = 10;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Discover._DiscoverOrBuilder getDiscoverOrBuilder() {
+      public emu.grasscutter.net.proto._DiscoverOuterClass._DiscoverOrBuilder getDiscoverOrBuilder() {
         if ((nMILAFPENGOCase_ == 10) && (discoverBuilder_ != null)) {
           return discoverBuilder_.getMessageOrBuilder();
         } else {
           if (nMILAFPENGOCase_ == 10) {
-            return (emu.grasscutter.net.proto.Discover._Discover) nMILAFPENGO_;
+            return (emu.grasscutter.net.proto._DiscoverOuterClass._Discover) nMILAFPENGO_;
           }
-          return emu.grasscutter.net.proto.Discover._Discover.getDefaultInstance();
+          return emu.grasscutter.net.proto._DiscoverOuterClass._Discover.getDefaultInstance();
         }
       }
       /**
        * <code>._Discover discover = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Discover._Discover, emu.grasscutter.net.proto.Discover._Discover.Builder, emu.grasscutter.net.proto.Discover._DiscoverOrBuilder> 
+          emu.grasscutter.net.proto._DiscoverOuterClass._Discover, emu.grasscutter.net.proto._DiscoverOuterClass._Discover.Builder, emu.grasscutter.net.proto._DiscoverOuterClass._DiscoverOrBuilder> 
           getDiscoverFieldBuilder() {
         if (discoverBuilder_ == null) {
           if (!(nMILAFPENGOCase_ == 10)) {
-            nMILAFPENGO_ = emu.grasscutter.net.proto.Discover._Discover.getDefaultInstance();
+            nMILAFPENGO_ = emu.grasscutter.net.proto._DiscoverOuterClass._Discover.getDefaultInstance();
           }
           discoverBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.Discover._Discover, emu.grasscutter.net.proto.Discover._Discover.Builder, emu.grasscutter.net.proto.Discover._DiscoverOrBuilder>(
-                  (emu.grasscutter.net.proto.Discover._Discover) nMILAFPENGO_,
+              emu.grasscutter.net.proto._DiscoverOuterClass._Discover, emu.grasscutter.net.proto._DiscoverOuterClass._Discover.Builder, emu.grasscutter.net.proto._DiscoverOuterClass._DiscoverOrBuilder>(
+                  (emu.grasscutter.net.proto._DiscoverOuterClass._Discover) nMILAFPENGO_,
                   getParentForChildren(),
                   isClean());
           nMILAFPENGO_ = null;
@@ -748,13 +748,13 @@ public final class NKFJFOKFEINOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NKFJFOKFEIN.proto\032\017_Discover.proto\"<\n\013" +
       "NKFJFOKFEIN\022\036\n\010discover\030\n \001(\0132\n._Discove" +
-      "rH\000B\r\n\013NMILAFPENGOB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "rH\000B\r\n\013NMILAFPENGOB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025NKFJFOKFEINOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.Discover.getDescriptor(),
+          emu.grasscutter.net.proto._DiscoverOuterClass.getDescriptor(),
         });
     internal_static_NKFJFOKFEIN_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -762,7 +762,7 @@ public final class NKFJFOKFEINOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_NKFJFOKFEIN_descriptor,
         new java.lang.String[] { "Discover", "NMILAFPENGO", });
-    emu.grasscutter.net.proto.Discover.getDescriptor();
+    emu.grasscutter.net.proto._DiscoverOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

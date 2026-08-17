@@ -597,8 +597,9 @@ public final class AvatarFetterLevelRewardReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n AvatarFetterLevelRewardReq.proto\"G\n\032Av" +
       "atarFetterLevelRewardReq\022\024\n\014fetter_level" +
-      "\030\003 \001(\r\022\023\n\013avatar_guid\030\r \001(\004B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\030\003 \001(\r\022\023\n\013avatar_guid\030\r \001(\004BA\n\031emu.grass" +
+      "cutter.net.protoB$AvatarFetterLevelRewar" +
+      "dReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

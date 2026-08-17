@@ -730,8 +730,9 @@ public final class FCCPEPDJEFOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FCCPEPDJEFO.proto\"`\n\013FCCPEPDJEFO\022\023\n\013is" +
       "_finished\030\003 \001(\010\022\025\n\ris_level_open\030\005 \001(\010\022\020" +
-      "\n\010level_id\030\007 \001(\r\022\023\n\013NHEFNKONPEI\030\n \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\n\010level_id\030\007 \001(\r\022\023\n\013NHEFNKONPEI\030\n \001(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025FCCPEPDJEFOO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

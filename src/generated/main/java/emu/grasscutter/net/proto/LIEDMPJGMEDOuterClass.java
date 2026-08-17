@@ -662,8 +662,8 @@ public final class LIEDMPJGMEDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LIEDMPJGMED.proto\"L\n\013LIEDMPJGMED\022\023\n\013FA" +
       "ICONIIIAN\030\001 \001(\r\022\023\n\013PFJKCFCGGGE\030\002 \001(\002\022\023\n\013" +
-      "MMAFKIIIHGC\030\003 \001(\002B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "MMAFKIIIHGC\030\003 \001(\002B2\n\031emu.grasscutter.net" +
+      ".protoB\025LIEDMPJGMEDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

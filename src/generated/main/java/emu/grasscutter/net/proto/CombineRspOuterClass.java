@@ -2680,7 +2680,8 @@ public final class CombineRspOuterClass {
       "de\030\t \001(\005\022\023\n\013avatar_guid\030\n \001(\004\022\023\n\013PMHAMLK" +
       "PFOH\030\013 \001(\r\022\037\n\013FJOLFDOBCIL\030\014 \003(\0132\n.ItemPa" +
       "ram\022\"\n\016cost_item_list\030\r \003(\0132\n.ItemParamB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "1\n\031emu.grasscutter.net.protoB\024CombineRsp" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

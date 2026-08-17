@@ -454,8 +454,9 @@ public final class HLECHKLDFCNOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021HLECHKLDFCN.proto\"\r\n\013HLECHKLDFCNB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021HLECHKLDFCN.proto\"\r\n\013HLECHKLDFCNB2\n\031em" +
+      "u.grasscutter.net.protoB\025HLECHKLDFCNOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -207,8 +207,9 @@ public final class KLDNOGGLOHHOuterClass {
       "ORT_REASON_MINOR_NEGATIVE\020\006\0229\n5KLDNOGGLO" +
       "HH_REPORT_REASON_REPORT_REASON_HARASS_AT" +
       "TACK\020\007\022;\n7KLDNOGGLOHH_REPORT_REASON_REPO" +
-      "RT_REASON_INCITE_CONFLICT\020\010B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "RT_REASON_INCITE_CONFLICT\020\010B2\n\031emu.grass" +
+      "cutter.net.protoB\025KLDNOGGLOHHOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

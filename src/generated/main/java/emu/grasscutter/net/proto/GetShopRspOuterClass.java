@@ -729,7 +729,8 @@ public final class GetShopRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\020GetShopRsp.proto\032\nShop.proto\"2\n\nGetSho" +
       "pRsp\022\017\n\007retcode\030\002 \001(\005\022\023\n\004shop\030\014 \001(\0132\005.Sh" +
-      "opB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "opB1\n\031emu.grasscutter.net.protoB\024GetShop" +
+      "RspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

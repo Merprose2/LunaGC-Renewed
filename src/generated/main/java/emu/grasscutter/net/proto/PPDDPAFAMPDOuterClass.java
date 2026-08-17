@@ -793,8 +793,8 @@ public final class PPDDPAFAMPDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PPDDPAFAMPD.proto\"H\n\013PPDDPAFAMPD\022\017\n\007re" +
       "tcode\030\005 \001(\005\022\023\n\013EBMOODIKLDM\030\n \001(\r\022\023\n\013NKDN" +
-      "GHJJJOF\030\014 \003(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "GHJJJOF\030\014 \003(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025PPDDPAFAMPDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

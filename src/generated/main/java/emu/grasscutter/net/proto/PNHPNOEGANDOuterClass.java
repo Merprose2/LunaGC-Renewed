@@ -870,8 +870,9 @@ public final class PNHPNOEGANDOuterClass {
       "\n\021PNHPNOEGAND.proto\032\021LDDECGLDODN.proto\"o" +
       "\n\013PNHPNOEGAND\022\023\n\013BBLLLKADHGM\030\004 \001(\r\022\023\n\013NF" +
       "MKABMLGNL\030\010 \001(\r\022\023\n\013EIDFANPNIDD\030\r \001(\r\022!\n\013" +
-      "NMFEAHBBHDD\030\017 \001(\0132\014.LDDECGLDODNB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "NMFEAHBBHDD\030\017 \001(\0132\014.LDDECGLDODNB2\n\031emu.g" +
+      "rasscutter.net.protoB\025PNHPNOEGANDOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

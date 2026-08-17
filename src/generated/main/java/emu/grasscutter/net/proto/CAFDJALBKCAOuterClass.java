@@ -659,8 +659,8 @@ public final class CAFDJALBKCAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CAFDJALBKCA.proto\032\021HuntingPair.proto\"1" +
       "\n\013CAFDJALBKCA\022\"\n\014hunting_pair\030\014 \001(\0132\014.Hu" +
-      "ntingPairB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "ntingPairB2\n\031emu.grasscutter.net.protoB\025" +
+      "CAFDJALBKCAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

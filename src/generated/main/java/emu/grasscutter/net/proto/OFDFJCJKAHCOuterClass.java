@@ -923,8 +923,9 @@ public final class OFDFJCJKAHCOuterClass {
       "ctivity_id\030\n \001(\r\022<\n\021activity_coin_map\030\013 " +
       "\003(\0132!.OFDFJCJKAHC.ActivityCoinMapEntry\022\023" +
       "\n\013schedule_id\030\017 \001(\r\0326\n\024ActivityCoinMapEn" +
-      "try\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "try\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B2\n\031e" +
+      "mu.grasscutter.net.protoB\025OFDFJCJKAHCOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

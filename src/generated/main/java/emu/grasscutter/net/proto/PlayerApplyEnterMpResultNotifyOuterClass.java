@@ -1133,8 +1133,9 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
       "_ADS_BLOCKED\020\016\022(\n$Reason_XBOX_PLAYER_NOT" +
       "_ACCEPT_OTHERS\020\017\022+\n\'Reason_PLAYER_NOT_AC" +
       "CEPT_OTHER_PLATFORM\020\020\022\031\n\025Reason_PLAYER_O" +
-      "FFLINE\020\021\022\024\n\020Reason_XBOX_ONLY\020\022B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "FFLINE\020\021\022\024\n\020Reason_XBOX_ONLY\020\022BE\n\031emu.gr" +
+      "asscutter.net.protoB(PlayerApplyEnterMpR" +
+      "esultNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

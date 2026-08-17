@@ -1875,8 +1875,8 @@ public final class GLCLKDPNCGNOuterClass {
       "NGEDGDGBAID\030\004 \001(\014\022\023\n\013NJKJHJEAKEJ\030\005 \001(\t\022&" +
       "\n\004data\030\006 \001(\0132\030.GLCLKDPNCGN.JEOLMBJBJGJ\0320" +
       "\n\013JEOLMBJBJGJ\022!\n\013EJGAEGAPEBA\030\001 \001(\0132\014.NLL" +
-      "JFKCOPMPB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "JFKCOPMPB2\n\031emu.grasscutter.net.protoB\025G" +
+      "LCLKDPNCGNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -165,8 +165,8 @@ public final class NGGGDAFGJDLOuterClass {
       "K_SIM_ACTION_FACILITY_EXPAND\020\002\0223\n/NGGGDA" +
       "FGJDL_THEME_PARK_SIM_ACTION_HIRE_EMPLOYE" +
       "E\020\003\0222\n.NGGGDAFGJDL_THEME_PARK_SIM_ACTION" +
-      "_AVATAR_QUEST\020\004B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "_AVATAR_QUEST\020\004B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025NGGGDAFGJDLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -981,8 +981,8 @@ public final class KBHFIPADNJPOuterClass {
       "JKKAEDOEBG\030\002 \001(\010\022\023\n\013KOPGNANFMNN\030\003 \001(\010\022!\n" +
       "\013DJCJHIDPIEH\030\005 \001(\0162\014.IEGHHBCILGI\022\023\n\013APGD" +
       "MDLAPDJ\030\006 \001(\r\022\023\n\013BHHKIHMBCHK\030\007 \001(\r\022\023\n\013AG" +
-      "JAKLMNKAH\030\010 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "JAKLMNKAH\030\010 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025KBHFIPADNJPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

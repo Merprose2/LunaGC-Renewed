@@ -1022,8 +1022,9 @@ public final class PKNDMNOKFBOOuterClass {
       "\n\021PKNDMNOKFBO.proto\032\021PGDMAIHKGFO.proto\"p" +
       "\n\013PKNDMNOKFBO\022\023\n\013IMIDEJDODLE\030\001 \001(\005\022!\n\013OA" +
       "MLPAKDEAI\030\002 \001(\0132\014.PGDMAIHKGFO\022\023\n\013MDBOFFM" +
-      "KPCC\030\003 \001(\t\022\024\n\013LDGGMBGDLJL\030\365\003 \001(\tB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "KPCC\030\003 \001(\t\022\024\n\013LDGGMBGDLJL\030\365\003 \001(\tB2\n\031emu." +
+      "grasscutter.net.protoB\025PKNDMNOKFBOOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1201,8 +1201,9 @@ public final class KDLMDMGHKBMOuterClass {
       "\001\n\013KDLMDMGHKBM\022\031\n\003pos\030\001 \001(\0132\014.HHEDHCFPEK" +
       "M\022\031\n\003rot\030\002 \001(\0132\014.HHEDHCFPEKM\022!\n\013OLIPGCON" +
       "BJC\030\003 \001(\0132\014.HHEDHCFPEKM\022\023\n\013NDAPJMNKOGL\030\004" +
-      " \001(\002\022\024\n\013CMAOPDCBCNP\030\365\003 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      " \001(\002\022\024\n\013CMAOPDCBCNP\030\365\003 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025KDLMDMGHKBMOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

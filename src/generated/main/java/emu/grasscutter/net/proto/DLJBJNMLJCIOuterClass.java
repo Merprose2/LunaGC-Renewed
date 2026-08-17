@@ -66,11 +66,11 @@ public final class DLJBJNMLJCIOuterClass {
      * <code>._SendSignal send_signal = 11;</code>
      * @return The sendSignal.
      */
-    emu.grasscutter.net.proto.SendSignal._SendSignal getSendSignal();
+    emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal getSendSignal();
     /**
      * <code>._SendSignal send_signal = 11;</code>
      */
-    emu.grasscutter.net.proto.SendSignal._SendSignalOrBuilder getSendSignalOrBuilder();
+    emu.grasscutter.net.proto._SendSignalOuterClass._SendSignalOrBuilder getSendSignalOrBuilder();
 
     /**
      * <code>.GPNPHJFLNID trigger_attack_event = 13;</code>
@@ -192,14 +192,14 @@ public final class DLJBJNMLJCIOuterClass {
               break;
             }
             case 90: {
-              emu.grasscutter.net.proto.SendSignal._SendSignal.Builder subBuilder = null;
+              emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal.Builder subBuilder = null;
               if (syncCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.SendSignal._SendSignal) sync_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal) sync_).toBuilder();
               }
               sync_ =
-                  input.readMessage(emu.grasscutter.net.proto.SendSignal._SendSignal.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.SendSignal._SendSignal) sync_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal) sync_);
                 sync_ = subBuilder.buildPartial();
               }
               syncCase_ = 11;
@@ -392,21 +392,21 @@ public final class DLJBJNMLJCIOuterClass {
      * @return The sendSignal.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SendSignal._SendSignal getSendSignal() {
+    public emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal getSendSignal() {
       if (syncCase_ == 11) {
-         return (emu.grasscutter.net.proto.SendSignal._SendSignal) sync_;
+         return (emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal) sync_;
       }
-      return emu.grasscutter.net.proto.SendSignal._SendSignal.getDefaultInstance();
+      return emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal.getDefaultInstance();
     }
     /**
      * <code>._SendSignal send_signal = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SendSignal._SendSignalOrBuilder getSendSignalOrBuilder() {
+    public emu.grasscutter.net.proto._SendSignalOuterClass._SendSignalOrBuilder getSendSignalOrBuilder() {
       if (syncCase_ == 11) {
-         return (emu.grasscutter.net.proto.SendSignal._SendSignal) sync_;
+         return (emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal) sync_;
       }
-      return emu.grasscutter.net.proto.SendSignal._SendSignal.getDefaultInstance();
+      return emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal.getDefaultInstance();
     }
 
     public static final int TRIGGER_ATTACK_EVENT_FIELD_NUMBER = 13;
@@ -511,7 +511,7 @@ public final class DLJBJNMLJCIOuterClass {
         output.writeUInt32(10, lDAODDFLPGB_);
       }
       if (syncCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.SendSignal._SendSignal) sync_);
+        output.writeMessage(11, (emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal) sync_);
       }
       if (mBHKNKHKKCK_ != 0) {
         output.writeUInt32(12, mBHKNKHKKCK_);
@@ -556,7 +556,7 @@ public final class DLJBJNMLJCIOuterClass {
       }
       if (syncCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.SendSignal._SendSignal) sync_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal) sync_);
       }
       if (mBHKNKHKKCK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1242,7 +1242,7 @@ public final class DLJBJNMLJCIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SendSignal._SendSignal, emu.grasscutter.net.proto.SendSignal._SendSignal.Builder, emu.grasscutter.net.proto.SendSignal._SendSignalOrBuilder> sendSignalBuilder_;
+          emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal, emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal.Builder, emu.grasscutter.net.proto._SendSignalOuterClass._SendSignalOrBuilder> sendSignalBuilder_;
       /**
        * <code>._SendSignal send_signal = 11;</code>
        * @return Whether the sendSignal field is set.
@@ -1256,23 +1256,23 @@ public final class DLJBJNMLJCIOuterClass {
        * @return The sendSignal.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SendSignal._SendSignal getSendSignal() {
+      public emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal getSendSignal() {
         if (sendSignalBuilder_ == null) {
           if (syncCase_ == 11) {
-            return (emu.grasscutter.net.proto.SendSignal._SendSignal) sync_;
+            return (emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal) sync_;
           }
-          return emu.grasscutter.net.proto.SendSignal._SendSignal.getDefaultInstance();
+          return emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal.getDefaultInstance();
         } else {
           if (syncCase_ == 11) {
             return sendSignalBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.SendSignal._SendSignal.getDefaultInstance();
+          return emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal.getDefaultInstance();
         }
       }
       /**
        * <code>._SendSignal send_signal = 11;</code>
        */
-      public Builder setSendSignal(emu.grasscutter.net.proto.SendSignal._SendSignal value) {
+      public Builder setSendSignal(emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal value) {
         if (sendSignalBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1289,7 +1289,7 @@ public final class DLJBJNMLJCIOuterClass {
        * <code>._SendSignal send_signal = 11;</code>
        */
       public Builder setSendSignal(
-          emu.grasscutter.net.proto.SendSignal._SendSignal.Builder builderForValue) {
+          emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal.Builder builderForValue) {
         if (sendSignalBuilder_ == null) {
           sync_ = builderForValue.build();
           onChanged();
@@ -1302,11 +1302,11 @@ public final class DLJBJNMLJCIOuterClass {
       /**
        * <code>._SendSignal send_signal = 11;</code>
        */
-      public Builder mergeSendSignal(emu.grasscutter.net.proto.SendSignal._SendSignal value) {
+      public Builder mergeSendSignal(emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal value) {
         if (sendSignalBuilder_ == null) {
           if (syncCase_ == 11 &&
-              sync_ != emu.grasscutter.net.proto.SendSignal._SendSignal.getDefaultInstance()) {
-            sync_ = emu.grasscutter.net.proto.SendSignal._SendSignal.newBuilder((emu.grasscutter.net.proto.SendSignal._SendSignal) sync_)
+              sync_ != emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal.getDefaultInstance()) {
+            sync_ = emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal.newBuilder((emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal) sync_)
                 .mergeFrom(value).buildPartial();
           } else {
             sync_ = value;
@@ -1343,36 +1343,36 @@ public final class DLJBJNMLJCIOuterClass {
       /**
        * <code>._SendSignal send_signal = 11;</code>
        */
-      public emu.grasscutter.net.proto.SendSignal._SendSignal.Builder getSendSignalBuilder() {
+      public emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal.Builder getSendSignalBuilder() {
         return getSendSignalFieldBuilder().getBuilder();
       }
       /**
        * <code>._SendSignal send_signal = 11;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SendSignal._SendSignalOrBuilder getSendSignalOrBuilder() {
+      public emu.grasscutter.net.proto._SendSignalOuterClass._SendSignalOrBuilder getSendSignalOrBuilder() {
         if ((syncCase_ == 11) && (sendSignalBuilder_ != null)) {
           return sendSignalBuilder_.getMessageOrBuilder();
         } else {
           if (syncCase_ == 11) {
-            return (emu.grasscutter.net.proto.SendSignal._SendSignal) sync_;
+            return (emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal) sync_;
           }
-          return emu.grasscutter.net.proto.SendSignal._SendSignal.getDefaultInstance();
+          return emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal.getDefaultInstance();
         }
       }
       /**
        * <code>._SendSignal send_signal = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SendSignal._SendSignal, emu.grasscutter.net.proto.SendSignal._SendSignal.Builder, emu.grasscutter.net.proto.SendSignal._SendSignalOrBuilder> 
+          emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal, emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal.Builder, emu.grasscutter.net.proto._SendSignalOuterClass._SendSignalOrBuilder> 
           getSendSignalFieldBuilder() {
         if (sendSignalBuilder_ == null) {
           if (!(syncCase_ == 11)) {
-            sync_ = emu.grasscutter.net.proto.SendSignal._SendSignal.getDefaultInstance();
+            sync_ = emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal.getDefaultInstance();
           }
           sendSignalBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.SendSignal._SendSignal, emu.grasscutter.net.proto.SendSignal._SendSignal.Builder, emu.grasscutter.net.proto.SendSignal._SendSignalOrBuilder>(
-                  (emu.grasscutter.net.proto.SendSignal._SendSignal) sync_,
+              emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal, emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal.Builder, emu.grasscutter.net.proto._SendSignalOuterClass._SendSignalOrBuilder>(
+                  (emu.grasscutter.net.proto._SendSignalOuterClass._SendSignal) sync_,
                   getParentForChildren(),
                   isClean());
           sync_ = null;
@@ -1714,8 +1714,9 @@ public final class DLJBJNMLJCIOuterClass {
       "nal\030\013 \001(\0132\014._SendSignalH\000\022,\n\024trigger_att" +
       "ack_event\030\r \001(\0132\014.GPNPHJFLNIDH\000\022\023\n\013MBHKN" +
       "KHKKCK\030\014 \001(\r\022\020\n\010local_id\030\016 \001(\005\022!\n\013DDEOCN" +
-      "GLKPN\030\017 \001(\0162\014.NHLNPMELFHMB\006\n\004syncB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "GLKPN\030\017 \001(\0162\014.NHLNPMELFHMB\006\n\004syncB2\n\031emu" +
+      ".grasscutter.net.protoB\025DLJBJNMLJCIOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1723,7 +1724,7 @@ public final class DLJBJNMLJCIOuterClass {
           emu.grasscutter.net.proto.GPNPHJFLNIDOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.HIMBAGFLEHMOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.NHLNPMELFHMOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.SendSignal.getDescriptor(),
+          emu.grasscutter.net.proto._SendSignalOuterClass.getDescriptor(),
         });
     internal_static_DLJBJNMLJCI_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1734,7 +1735,7 @@ public final class DLJBJNMLJCIOuterClass {
     emu.grasscutter.net.proto.GPNPHJFLNIDOuterClass.getDescriptor();
     emu.grasscutter.net.proto.HIMBAGFLEHMOuterClass.getDescriptor();
     emu.grasscutter.net.proto.NHLNPMELFHMOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.SendSignal.getDescriptor();
+    emu.grasscutter.net.proto._SendSignalOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

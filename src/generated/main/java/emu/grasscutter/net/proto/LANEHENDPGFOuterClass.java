@@ -596,8 +596,9 @@ public final class LANEHENDPGFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LANEHENDPGF.proto\"3\n\013LANEHENDPGF\022\017\n\007re" +
-      "tcode\030\002 \001(\005\022\023\n\013CJNIIEEIHIP\030\007 \001(\010B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "tcode\030\002 \001(\005\022\023\n\013CJNIIEEIHIP\030\007 \001(\010B2\n\031emu." +
+      "grasscutter.net.protoB\025LANEHENDPGFOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

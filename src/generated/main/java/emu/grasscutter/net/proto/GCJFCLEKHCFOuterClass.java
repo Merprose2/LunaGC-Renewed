@@ -769,8 +769,9 @@ public final class GCJFCLEKHCFOuterClass {
       "\n\021GCJFCLEKHCF.proto\032\021KDKOKBPNNMA.proto\"o" +
       "\n\013GCJFCLEKHCF\022\023\n\013PFBFPLFLKCD\030\001 \001(\010\022!\n\013BN" +
       "BNHKKKBME\030\002 \001(\0162\014.KDKOKBPNNMA\022\023\n\013ENPKOJN" +
-      "BGAI\030\003 \001(\010\022\023\n\013MNGDLKDCFFN\030\004 \001(\010B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "BGAI\030\003 \001(\010\022\023\n\013MNGDLKDCFFN\030\004 \001(\010B2\n\031emu.g" +
+      "rasscutter.net.protoB\025GCJFCLEKHCFOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

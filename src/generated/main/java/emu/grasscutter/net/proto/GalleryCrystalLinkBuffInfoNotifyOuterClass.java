@@ -668,8 +668,9 @@ public final class GalleryCrystalLinkBuffInfoNotifyOuterClass {
       "\n&GalleryCrystalLinkBuffInfoNotify.proto" +
       "\"^\n GalleryCrystalLinkBuffInfoNotify\022\025\n\r" +
       "is_buff_valid\030\n \001(\010\022\022\n\ngallery_id\030\013 \001(\r\022" +
-      "\017\n\007buff_id\030\r \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\017\n\007buff_id\030\r \001(\rBG\n\031emu.grasscutter.net." +
+      "protoB*GalleryCrystalLinkBuffInfoNotifyO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

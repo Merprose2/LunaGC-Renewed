@@ -1091,8 +1091,8 @@ public final class ODPGOEBODJOOuterClass {
       "\013ODPGOEBODJO\022\023\n\013IENEGFFPHHO\030\001 \001(\t\022\021\n\tbuy" +
       "_count\030\002 \001(\r\022\023\n\013AAPAPMCOHOD\030\010 \001(\r\022\021\n\tsho" +
       "p_type\030\013 \001(\r\022\031\n\005goods\030\r \001(\0132\n.ShopGoods\022" +
-      "\023\n\013template_id\030\017 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\023\n\013template_id\030\017 \001(\rB2\n\031emu.grasscutter." +
+      "net.protoB\025ODPGOEBODJOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

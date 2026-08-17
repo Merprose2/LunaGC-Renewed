@@ -813,8 +813,9 @@ public final class AddAranaraCollectionNotifyOuterClass {
       "ollectionNotify\022,\n\013AFEPCKLJOHB\030\004 \001(\0162\027.A" +
       "ranaraCollectionState\022\025\n\rcollection_id\030\006" +
       " \001(\r\022,\n\013KGEINNGAMCD\030\007 \001(\0162\027.AranaraColle" +
-      "ctionState\022\027\n\017collection_type\030\010 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "ctionState\022\027\n\017collection_type\030\010 \001(\rBA\n\031e" +
+      "mu.grasscutter.net.protoB$AddAranaraColl" +
+      "ectionNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

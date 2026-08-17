@@ -659,8 +659,8 @@ public final class JELCOFMFDENOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JELCOFMFDEN.proto\032\021PDPHEMPECNF.proto\"0" +
       "\n\013JELCOFMFDEN\022!\n\013FCDNMJLCHOP\030\001 \001(\0132\014.PDP" +
-      "HEMPECNFB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "HEMPECNFB2\n\031emu.grasscutter.net.protoB\025J" +
+      "ELCOFMFDENOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

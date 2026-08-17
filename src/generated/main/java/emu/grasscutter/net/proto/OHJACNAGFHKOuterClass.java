@@ -1049,8 +1049,9 @@ public final class OHJACNAGFHKOuterClass {
       "HJILCFEAKJA.proto\"\207\001\n\013OHJACNAGFHK\022+\n\023rea" +
       "d_transform_comp\030\013 \001(\0132\014.CEOONBABCFBH\000\022+" +
       "\n\023edit_transform_comp\030\014 \001(\0132\014.HJILCFEAKJ" +
-      "AH\000\022\024\n\013LIDAOEKMODL\030\365\003 \001(\005B\010\n\006detailB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "AH\000\022\024\n\013LIDAOEKMODL\030\365\003 \001(\005B\010\n\006detailB2\n\031e" +
+      "mu.grasscutter.net.protoB\025OHJACNAGFHKOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

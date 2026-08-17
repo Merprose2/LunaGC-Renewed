@@ -1901,8 +1901,9 @@ public final class InBattleChessInfoOuterClass {
       "rInfoMapEntry\022\'\n\014mystery_info\030\016 \001(\0132\021.Ch" +
       "essMysteryInfo\022\025\n\rleft_monsters\030\017 \001(\r\032F\n" +
       "\022PlayerInfoMapEntry\022\013\n\003key\030\001 \001(\r\022\037\n\005valu" +
-      "e\030\002 \001(\0132\020.ChessPlayerInfo:\0028\001B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "e\030\002 \001(\0132\020.ChessPlayerInfo:\0028\001B8\n\031emu.gra" +
+      "sscutter.net.protoB\033InBattleChessInfoOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

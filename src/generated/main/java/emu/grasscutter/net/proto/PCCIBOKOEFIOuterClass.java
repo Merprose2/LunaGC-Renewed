@@ -668,8 +668,8 @@ public final class PCCIBOKOEFIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PCCIBOKOEFI.proto\"H\n\013PCCIBOKOEFI\022\017\n\007re" +
       "tcode\030\001 \001(\005\022\023\n\013CKGOPDODOOF\030\006 \001(\010\022\023\n\013IPOI" +
-      "POBGOED\030\014 \001(\010B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "POBGOED\030\014 \001(\010B2\n\031emu.grasscutter.net.pro" +
+      "toB\025PCCIBOKOEFIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

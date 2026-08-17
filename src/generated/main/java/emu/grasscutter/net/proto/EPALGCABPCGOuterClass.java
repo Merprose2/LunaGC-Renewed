@@ -853,8 +853,9 @@ public final class EPALGCABPCGOuterClass {
       "\001\n\013EPALGCABPCG\022\017\n\007retcode\030\004 \001(\005\0222\n\013OCKEM" +
       "JCMPKA\030\007 \003(\0132\035.EPALGCABPCG.OCKEMJCMPKAEn" +
       "try\032@\n\020OCKEMJCMPKAEntry\022\013\n\003key\030\001 \001(\r\022\033\n\005" +
-      "value\030\002 \001(\0132\014.CHLAHMLLMAA:\0028\001B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "value\030\002 \001(\0132\014.CHLAHMLLMAA:\0028\001B2\n\031emu.gra" +
+      "sscutter.net.protoB\025EPALGCABPCGOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

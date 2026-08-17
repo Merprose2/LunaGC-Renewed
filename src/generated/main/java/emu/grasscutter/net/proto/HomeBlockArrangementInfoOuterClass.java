@@ -4102,8 +4102,9 @@ public final class HomeBlockArrangementInfoOuterClass {
       "ot_pattern_list\030\014 \003(\0132\024.HomeBlockDotPatt" +
       "ern\022+\n\022deploy_animal_list\030\r \003(\0132\017.HomeAn" +
       "imalData\022\'\n\013HHJJCEFANMI\030\016 \003(\0132\022.HomeFurn" +
-      "itureData\022\020\n\010block_id\030\017 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "itureData\022\020\n\010block_id\030\017 \001(\rB?\n\031emu.grass" +
+      "cutter.net.protoB\"HomeBlockArrangementIn" +
+      "foOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

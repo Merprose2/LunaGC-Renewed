@@ -854,8 +854,9 @@ public final class HHALJMJINLNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HHALJMJINLN.proto\032\021HHEDHCFPEKM.proto\"K" +
       "\n\013HHALJMJINLN\022\034\n\006offset\030\001 \001(\0132\014.HHEDHCFP" +
-      "EKM\022\036\n\010rotation\030\002 \001(\0132\014.HHEDHCFPEKMB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "EKM\022\036\n\010rotation\030\002 \001(\0132\014.HHEDHCFPEKMB2\n\031e" +
+      "mu.grasscutter.net.protoB\025HHALJMJINLNOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -760,8 +760,9 @@ public final class EGAIPCLNLFCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EGAIPCLNLFC.proto\032\021KFEIMMHPBGH.proto\"E" +
       "\n\013EGAIPCLNLFC\022!\n\013ANGDOJKABLC\030\003 \001(\0162\014.KFE" +
-      "IMMHPBGH\022\023\n\013BBJJIPDNBAC\030\010 \003(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "IMMHPBGH\022\023\n\013BBJJIPDNBAC\030\010 \003(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025EGAIPCLNLFCOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1106,8 +1106,8 @@ public final class KJIALMLMPBGOuterClass {
       "evel_id\030\001 \001(\004\022\023\n\013HMFHCPIKGCO\030\002 \001(\t\022\023\n\013PD" +
       "CHDMMJCLA\030\003 \001(\010\022\023\n\013AMMOBBENFNL\030\004 \001(\r\022\023\n\013" +
       "HEDEJKJBOEJ\030\005 \001(\r\022\023\n\013NGEDGDGBAID\030\006 \001(\014\022\022" +
-      "\n\nrequest_id\030\007 \001(\tB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\n\nrequest_id\030\007 \001(\tB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025KJIALMLMPBGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

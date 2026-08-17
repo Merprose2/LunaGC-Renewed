@@ -659,8 +659,9 @@ public final class TeamChainStageDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030TeamChainStageData.proto\"K\n\022TeamChainS" +
       "tageData\022\022\n\nbest_score\030\001 \001(\r\022\020\n\010stage_id" +
-      "\030\t \001(\r\022\017\n\007is_open\030\016 \001(\010B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\030\t \001(\r\022\017\n\007is_open\030\016 \001(\010B9\n\031emu.grasscutt" +
+      "er.net.protoB\034TeamChainStageDataOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -800,8 +800,8 @@ public final class PEDEADBOPJLOuterClass {
       "\n\021PEDEADBOPJL.proto\032\022PlatformInfo.proto\"" +
       "U\n\013PEDEADBOPJL\022\021\n\tentity_id\030\003 \001(\r\022\022\n\nsce" +
       "ne_time\030\010 \001(\r\022\037\n\010platform\030\014 \001(\0132\r.Platfo" +
-      "rmInfoB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "rmInfoB2\n\031emu.grasscutter.net.protoB\025PED" +
+      "EADBOPJLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

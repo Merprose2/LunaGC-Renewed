@@ -595,8 +595,9 @@ public final class GMLPJDDNPOAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GMLPJDDNPOA.proto\"3\n\013GMLPJDDNPOA\022\017\n\007re" +
-      "tcode\030\003 \001(\005\022\023\n\013EMPJIFMKKLD\030\007 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "tcode\030\003 \001(\005\022\023\n\013EMPJIFMKKLD\030\007 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025GMLPJDDNPOAOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

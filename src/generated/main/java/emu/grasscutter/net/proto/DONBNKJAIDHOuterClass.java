@@ -154,7 +154,8 @@ public final class DONBNKJAIDHOuterClass {
       "DONBNKJAIDH_SANDWORM_LEVEL_PRE_QUEST\020\001\022$" +
       "\n DONBNKJAIDH_SANDWORM_LEVEL_START\020\002\022+\n\'" +
       "DONBNKJAIDH_SANDWORM_LEVEL_SEQUEL_QUEST\020" +
-      "\003B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\003B2\n\031emu.grasscutter.net.protoB\025DONBNKJA" +
+      "IDHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

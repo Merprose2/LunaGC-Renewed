@@ -729,8 +729,9 @@ public final class OEHAABNBIIGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OEHAABNBIIG.proto\032\022HomeResource.proto\"" +
       "B\n\013OEHAABNBIIG\022\"\n\013KODFNACKEBH\030\007 \001(\0132\r.Ho" +
-      "meResource\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "meResource\022\017\n\007retcode\030\013 \001(\005B2\n\031emu.grass" +
+      "cutter.net.protoB\025OEHAABNBIIGOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

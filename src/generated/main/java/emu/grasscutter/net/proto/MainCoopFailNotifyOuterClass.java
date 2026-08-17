@@ -676,8 +676,8 @@ public final class MainCoopFailNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030MainCoopFailNotify.proto\"<\n\022MainCoopFa" +
       "ilNotify\022\022\n\nchapter_id\030\n \001(\r\022\022\n\ntextmap_" +
-      "id\030\r \001(\tB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\r \001(\tB9\n\031emu.grasscutter.net.protoB\034M" +
+      "ainCoopFailNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

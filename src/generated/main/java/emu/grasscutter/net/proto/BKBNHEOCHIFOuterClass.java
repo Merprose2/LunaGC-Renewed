@@ -651,8 +651,8 @@ public final class BKBNHEOCHIFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BKBNHEOCHIF.proto\032\021DNHJLOJDKDP.proto\"/" +
       "\n\013BKBNHEOCHIF\022 \n\nbasic_info\030\016 \001(\0132\014.DNHJ" +
-      "LOJDKDPB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "LOJDKDPB2\n\031emu.grasscutter.net.protoB\025BK" +
+      "BNHEOCHIFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -737,8 +737,9 @@ public final class DungeonInterruptChallengeRspOuterClass {
       "\n\"DungeonInterruptChallengeRsp.proto\"p\n\034" +
       "DungeonInterruptChallengeRsp\022\024\n\014challeng" +
       "e_id\030\003 \001(\r\022\027\n\017challenge_index\030\004 \001(\r\022\020\n\010g" +
-      "roup_id\030\n \001(\r\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "roup_id\030\n \001(\r\022\017\n\007retcode\030\013 \001(\005BC\n\031emu.gr" +
+      "asscutter.net.protoB&DungeonInterruptCha" +
+      "llengeRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

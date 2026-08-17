@@ -837,8 +837,8 @@ public final class RogueCellInfoOuterClass {
       "oto\"\177\n\rRogueCellInfo\022\026\n\016cell_config_id\030\002" +
       " \001(\r\022\021\n\tcell_type\030\003 \001(\r\022\036\n\005state\030\005 \001(\0162\017" +
       ".RogueCellState\022\022\n\ndungeon_id\030\014 \001(\r\022\017\n\007c" +
-      "ell_id\030\r \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "ell_id\030\r \001(\rB4\n\031emu.grasscutter.net.prot" +
+      "oB\027RogueCellInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

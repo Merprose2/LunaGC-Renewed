@@ -871,7 +871,8 @@ public final class GJPFDJJPOGGOuterClass {
       "BNBLFHPAJF\030\001 \001(\r\022\023\n\013ENNFFGCHFNE\030\002 \001(\r\022\023\n" +
       "\013LPBBCIEPCDO\030\003 \001(\r\022\023\n\013NMOBGKLEJPM\030\004 \001(\r\022" +
       "\023\n\013PDINBNBBCHB\030\005 \001(\r\022\023\n\013LOCLPCGOGCK\030\006 \001(" +
-      "\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\010B2\n\031emu.grasscutter.net.protoB\025GJPFDJJP" +
+      "OGGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

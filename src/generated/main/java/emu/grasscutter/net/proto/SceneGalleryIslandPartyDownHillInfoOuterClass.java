@@ -768,8 +768,9 @@ public final class SceneGalleryIslandPartyDownHillInfoOuterClass {
       "alleryIslandPartyDownHillInfo\022)\n\014start_s" +
       "ource\030\007 \001(\0162\023.GalleryStartSource\022 \n\030tota" +
       "l_kill_monster_count\030\010 \001(\r\022\014\n\004coin\030\r \001(\r" +
-      "\022\036\n\026max_kill_monster_count\030\017 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\022\036\n\026max_kill_monster_count\030\017 \001(\rBJ\n\031emu." +
+      "grasscutter.net.protoB-SceneGalleryIslan" +
+      "dPartyDownHillInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

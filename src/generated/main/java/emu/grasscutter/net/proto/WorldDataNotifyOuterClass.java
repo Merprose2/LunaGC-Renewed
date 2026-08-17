@@ -783,8 +783,9 @@ public final class WorldDataNotifyOuterClass {
       "\"\216\001\n\017WorldDataNotify\022:\n\016world_prop_map\030\013" +
       " \003(\0132\".WorldDataNotify.WorldPropMapEntry" +
       "\032?\n\021WorldPropMapEntry\022\013\n\003key\030\001 \001(\r\022\031\n\005va" +
-      "lue\030\002 \001(\0132\n.PropValue:\0028\001B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "lue\030\002 \001(\0132\n.PropValue:\0028\001B6\n\031emu.grasscu" +
+      "tter.net.protoB\031WorldDataNotifyOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

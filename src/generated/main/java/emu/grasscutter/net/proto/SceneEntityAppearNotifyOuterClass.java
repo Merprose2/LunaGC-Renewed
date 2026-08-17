@@ -1010,8 +1010,9 @@ public final class SceneEntityAppearNotifyOuterClass {
       "tityInfo.proto\032\020VisionType.proto\"q\n\027Scen" +
       "eEntityAppearNotify\022%\n\013entity_list\030\003 \003(\013" +
       "2\020.SceneEntityInfo\022 \n\013appear_type\030\n \001(\0162" +
-      "\013.VisionType\022\r\n\005param\030\r \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\013.VisionType\022\r\n\005param\030\r \001(\rB>\n\031emu.grass" +
+      "cutter.net.protoB!SceneEntityAppearNotif" +
+      "yOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

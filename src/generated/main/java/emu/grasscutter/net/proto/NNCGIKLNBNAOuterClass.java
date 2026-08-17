@@ -1058,8 +1058,9 @@ public final class NNCGIKLNBNAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NNCGIKLNBNA.proto\"^\n\013NNCGIKLNBNA\022\023\n\013II" +
       "JNFCDGDAP\030\001 \001(\t\022\023\n\013MOMDKBKKMFK\030\002 \003(\005\022\023\n\013" +
-      "MDOEAPGEEIM\030\003 \003(\r\022\020\n\010suite_id\030\004 \001(\005B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "MDOEAPGEEIM\030\003 \003(\r\022\020\n\010suite_id\030\004 \001(\005B2\n\031e" +
+      "mu.grasscutter.net.protoB\025NNCGIKLNBNAOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

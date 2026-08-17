@@ -1211,8 +1211,9 @@ public final class ACDLBHPKGOGOuterClass {
       "\001 \001(\004\022\013\n\003uid\030\002 \001(\004\022\020\n\010level_id\030\003 \001(\004\022\023\n\013" +
       "FOOJIAFCGHI\030\004 \001(\010\022\023\n\013CIHOMADCONM\030\005 \001(\r\022!" +
       "\n\013player_info\030\006 \001(\0132\014.GNEJDEIEDIF\022!\n\013_le" +
-      "vel_info\030\007 \001(\0132\014.BMCNDGLNKJOB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "vel_info\030\007 \001(\0132\014.BMCNDGLNKJOB2\n\031emu.gras" +
+      "scutter.net.protoB\025ACDLBHPKGOGOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

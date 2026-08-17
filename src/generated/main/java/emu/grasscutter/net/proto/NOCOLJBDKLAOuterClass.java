@@ -972,8 +972,8 @@ public final class NOCOLJBDKLAOuterClass {
       "\n\021NOCOLJBDKLA.proto\032\021HKGBDCPIJAI.proto\"V" +
       "\n\013NOCOLJBDKLA\022\023\n\013schedule_id\030\006 \001(\r\022!\n\013OK" +
       "DOLACBCOJ\030\013 \003(\0132\014.HKGBDCPIJAI\022\017\n\007retcode" +
-      "\030\r \001(\005B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\r \001(\005B2\n\031emu.grasscutter.net.protoB\025NOC" +
+      "OLJBDKLAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -28,7 +28,7 @@ public final class EvtLocalGadgetOwnerLeaveSceneNotifyOuterClass {
      * <code>repeated ._LifeByOwnerType _life_by_owner_type_list = 13;</code>
      * @return A list containing the lifeByOwnerTypeList.
      */
-    java.util.List<emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType> getLifeByOwnerTypeListList();
+    java.util.List<emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType> getLifeByOwnerTypeListList();
     /**
      * <code>repeated ._LifeByOwnerType _life_by_owner_type_list = 13;</code>
      * @return The count of lifeByOwnerTypeList.
@@ -39,7 +39,7 @@ public final class EvtLocalGadgetOwnerLeaveSceneNotifyOuterClass {
      * @param index The index of the element to return.
      * @return The lifeByOwnerTypeList at the given index.
      */
-    emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType getLifeByOwnerTypeList(int index);
+    emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType getLifeByOwnerTypeList(int index);
     /**
      * <code>repeated ._LifeByOwnerType _life_by_owner_type_list = 13;</code>
      * @return A list containing the enum numeric values on the wire for lifeByOwnerTypeList.
@@ -181,13 +181,13 @@ public final class EvtLocalGadgetOwnerLeaveSceneNotifyOuterClass {
     public static final int _LIFE_BY_OWNER_TYPE_LIST_FIELD_NUMBER = 13;
     private java.util.List<java.lang.Integer> LifeByOwnerTypeList_;
     private static final com.google.protobuf.Internal.ListAdapter.Converter<
-        java.lang.Integer, emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType> LifeByOwnerTypeList_converter_ =
+        java.lang.Integer, emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType> LifeByOwnerTypeList_converter_ =
             new com.google.protobuf.Internal.ListAdapter.Converter<
-                java.lang.Integer, emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType>() {
-              public emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType convert(java.lang.Integer from) {
+                java.lang.Integer, emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType>() {
+              public emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType convert(java.lang.Integer from) {
                 @SuppressWarnings("deprecation")
-                emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType result = emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType.valueOf(from);
-                return result == null ? emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType.UNRECOGNIZED : result;
+                emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType result = emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType.valueOf(from);
+                return result == null ? emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType.UNRECOGNIZED : result;
               }
             };
     /**
@@ -195,9 +195,9 @@ public final class EvtLocalGadgetOwnerLeaveSceneNotifyOuterClass {
      * @return A list containing the lifeByOwnerTypeList.
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType> getLifeByOwnerTypeListList() {
+    public java.util.List<emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType> getLifeByOwnerTypeListList() {
       return new com.google.protobuf.Internal.ListAdapter<
-          java.lang.Integer, emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType>(LifeByOwnerTypeList_, LifeByOwnerTypeList_converter_);
+          java.lang.Integer, emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType>(LifeByOwnerTypeList_, LifeByOwnerTypeList_converter_);
     }
     /**
      * <code>repeated ._LifeByOwnerType _life_by_owner_type_list = 13;</code>
@@ -213,7 +213,7 @@ public final class EvtLocalGadgetOwnerLeaveSceneNotifyOuterClass {
      * @return The lifeByOwnerTypeList at the given index.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType getLifeByOwnerTypeList(int index) {
+    public emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType getLifeByOwnerTypeList(int index) {
       return LifeByOwnerTypeList_converter_.convert(LifeByOwnerTypeList_.get(index));
     }
     /**
@@ -629,9 +629,9 @@ public final class EvtLocalGadgetOwnerLeaveSceneNotifyOuterClass {
        * <code>repeated ._LifeByOwnerType _life_by_owner_type_list = 13;</code>
        * @return A list containing the lifeByOwnerTypeList.
        */
-      public java.util.List<emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType> getLifeByOwnerTypeListList() {
+      public java.util.List<emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType> getLifeByOwnerTypeListList() {
         return new com.google.protobuf.Internal.ListAdapter<
-            java.lang.Integer, emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType>(LifeByOwnerTypeList_, LifeByOwnerTypeList_converter_);
+            java.lang.Integer, emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType>(LifeByOwnerTypeList_, LifeByOwnerTypeList_converter_);
       }
       /**
        * <code>repeated ._LifeByOwnerType _life_by_owner_type_list = 13;</code>
@@ -645,7 +645,7 @@ public final class EvtLocalGadgetOwnerLeaveSceneNotifyOuterClass {
        * @param index The index of the element to return.
        * @return The lifeByOwnerTypeList at the given index.
        */
-      public emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType getLifeByOwnerTypeList(int index) {
+      public emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType getLifeByOwnerTypeList(int index) {
         return LifeByOwnerTypeList_converter_.convert(LifeByOwnerTypeList_.get(index));
       }
       /**
@@ -655,7 +655,7 @@ public final class EvtLocalGadgetOwnerLeaveSceneNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLifeByOwnerTypeList(
-          int index, emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType value) {
+          int index, emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -669,7 +669,7 @@ public final class EvtLocalGadgetOwnerLeaveSceneNotifyOuterClass {
        * @param value The lifeByOwnerTypeList to add.
        * @return This builder for chaining.
        */
-      public Builder addLifeByOwnerTypeList(emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType value) {
+      public Builder addLifeByOwnerTypeList(emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -684,9 +684,9 @@ public final class EvtLocalGadgetOwnerLeaveSceneNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder addAllLifeByOwnerTypeList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType> values) {
         ensureLifeByOwnerTypeListIsMutable();
-        for (emu.grasscutter.net.proto.LifeByOwnerType._LifeByOwnerType value : values) {
+        for (emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType value : values) {
           LifeByOwnerTypeList_.add(value.getNumber());
         }
         onChanged();
@@ -827,13 +827,14 @@ public final class EvtLocalGadgetOwnerLeaveSceneNotifyOuterClass {
       "oto\032\026_LifeByOwnerType.proto\"m\n#EvtLocalG" +
       "adgetOwnerLeaveSceneNotify\022\021\n\tentity_id\030" +
       "\007 \001(\r\0223\n\030_life_by_owner_type_list\030\r \003(\0162" +
-      "\021._LifeByOwnerTypeB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\021._LifeByOwnerTypeBJ\n\031emu.grasscutter.ne" +
+      "t.protoB-EvtLocalGadgetOwnerLeaveSceneNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.LifeByOwnerType.getDescriptor(),
+          emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass.getDescriptor(),
         });
     internal_static_EvtLocalGadgetOwnerLeaveSceneNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -841,7 +842,7 @@ public final class EvtLocalGadgetOwnerLeaveSceneNotifyOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EvtLocalGadgetOwnerLeaveSceneNotify_descriptor,
         new java.lang.String[] { "EntityId", "LifeByOwnerTypeList", });
-    emu.grasscutter.net.proto.LifeByOwnerType.getDescriptor();
+    emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

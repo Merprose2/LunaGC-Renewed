@@ -724,8 +724,9 @@ public final class OpenBlossomCircleCampGuideNotifyOuterClass {
       "\n&OpenBlossomCircleCampGuideNotify.proto" +
       "\"S\n OpenBlossomCircleCampGuideNotify\022\022\n\n" +
       "refresh_id\030\005 \001(\r\022\033\n\023circle_camp_id_list\030" +
-      "\006 \003(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\006 \003(\rBG\n\031emu.grasscutter.net.protoB*Open" +
+      "BlossomCircleCampGuideNotifyOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

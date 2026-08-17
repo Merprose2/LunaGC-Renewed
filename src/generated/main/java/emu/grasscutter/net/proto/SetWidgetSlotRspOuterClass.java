@@ -1004,8 +1004,9 @@ public final class SetWidgetSlotRspOuterClass {
       "roto\032\023WidgetSlotTag.proto\"u\n\020SetWidgetSl" +
       "otRsp\022\031\n\002op\030\006 \001(\0162\r.WidgetSlotOp\022\017\n\007retc" +
       "ode\030\t \001(\005\022\023\n\013material_id\030\014 \001(\r\022 \n\010tag_li" +
-      "st\030\016 \003(\0162\016.WidgetSlotTagB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "st\030\016 \003(\0162\016.WidgetSlotTagB7\n\031emu.grasscut" +
+      "ter.net.protoB\032SetWidgetSlotRspOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

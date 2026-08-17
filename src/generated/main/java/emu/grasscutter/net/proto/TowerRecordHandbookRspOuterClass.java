@@ -902,8 +902,9 @@ public final class TowerRecordHandbookRspOuterClass {
       "\n\034TowerRecordHandbookRsp.proto\032\030TowerMon" +
       "thlyDetail.proto\"[\n\026TowerRecordHandbookR" +
       "sp\022\017\n\007retcode\030\006 \001(\005\0220\n\023monthly_detail_li" +
-      "st\030\r \003(\0132\023.TowerMonthlyDetailB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "st\030\r \003(\0132\023.TowerMonthlyDetailB=\n\031emu.gra" +
+      "sscutter.net.protoB TowerRecordHandbookR" +
+      "spOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

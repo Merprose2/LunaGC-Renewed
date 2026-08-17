@@ -729,8 +729,9 @@ public final class PlayerChatReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\023PlayerChatReq.proto\032\016ChatInfo.proto\"A\n" +
       "\rPlayerChatReq\022\022\n\nchannel_id\030\002 \001(\r\022\034\n\tch" +
-      "at_info\030\005 \001(\0132\t.ChatInfoB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "at_info\030\005 \001(\0132\t.ChatInfoB4\n\031emu.grasscut" +
+      "ter.net.protoB\027PlayerChatReqOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

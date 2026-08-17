@@ -153,8 +153,8 @@ public final class ChallengeFinishTypeOuterClass {
       "eFinishType\022\034\n\030ChallengeFinishType_NONE\020" +
       "\000\022\034\n\030ChallengeFinishType_FAIL\020\001\022\034\n\030Chall" +
       "engeFinishType_SUCC\020\002\022\035\n\031ChallengeFinish" +
-      "Type_PAUSE\020\003B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "Type_PAUSE\020\003B:\n\031emu.grasscutter.net.prot" +
+      "oB\035ChallengeFinishTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

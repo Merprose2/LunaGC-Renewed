@@ -1776,8 +1776,8 @@ public final class FAHMCEJKFAFOuterClass {
       "CN\030\007 \001(\t\022\023\n\013CEJIICPDOLM\030\010 \001(\010\022\023\n\013LCNLLGC" +
       "GPBO\030\t \001(\005\022!\n\013OAHOJNKAALL\030\n \001(\0132\014.DHDJHC" +
       "KKMAK\022\024\n\013GKHFGLHHCHH\030\363\007 \001(\005\022\024\n\013FDLPJDCLB" +
-      "NL\030\364\007 \001(\005B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "NL\030\364\007 \001(\005B2\n\031emu.grasscutter.net.protoB\025" +
+      "FAHMCEJKFAFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

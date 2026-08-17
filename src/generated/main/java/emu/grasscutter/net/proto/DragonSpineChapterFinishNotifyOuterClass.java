@@ -667,8 +667,9 @@ public final class DragonSpineChapterFinishNotifyOuterClass {
       "\n$DragonSpineChapterFinishNotify.proto\"g" +
       "\n\036DragonSpineChapterFinishNotify\022\022\n\nchap" +
       "ter_id\030\001 \001(\r\022\034\n\024weapon_enhance_level\030\007 \001" +
-      "(\r\022\023\n\013schedule_id\030\t \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "(\r\022\023\n\013schedule_id\030\t \001(\rBE\n\031emu.grasscutt" +
+      "er.net.protoB(DragonSpineChapterFinishNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

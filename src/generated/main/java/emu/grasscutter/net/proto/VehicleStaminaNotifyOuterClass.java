@@ -598,8 +598,9 @@ public final class VehicleStaminaNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032VehicleStaminaNotify.proto\">\n\024VehicleS" +
       "taminaNotify\022\023\n\013cur_stamina\030\003 \001(\002\022\021\n\tent" +
-      "ity_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "ity_id\030\017 \001(\rB;\n\031emu.grasscutter.net.prot" +
+      "oB\036VehicleStaminaNotifyOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

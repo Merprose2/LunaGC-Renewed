@@ -832,8 +832,8 @@ public final class WidgetActiveChangeNotifyOuterClass {
       "\n\036WidgetActiveChangeNotify.proto\032\024Widget" +
       "SlotData.proto\"E\n\030WidgetActiveChangeNoti" +
       "fy\022)\n\020widget_data_list\030\006 \003(\0132\017.WidgetSlo" +
-      "tDataB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "tDataB?\n\031emu.grasscutter.net.protoB\"Widg" +
+      "etActiveChangeNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

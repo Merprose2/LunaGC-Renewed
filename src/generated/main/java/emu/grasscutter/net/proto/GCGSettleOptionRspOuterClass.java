@@ -634,7 +634,8 @@ public final class GCGSettleOptionRspOuterClass {
       "\n\030GCGSettleOptionRsp.proto\032\025GCGSettleOpt" +
       "ion.proto\"G\n\022GCGSettleOptionRsp\022 \n\006optio" +
       "n\030\007 \001(\0162\020.GCGSettleOption\022\017\n\007retcode\030\n \001" +
-      "(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\005B9\n\031emu.grasscutter.net.protoB\034GCGSett" +
+      "leOptionRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

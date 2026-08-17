@@ -1068,8 +1068,9 @@ public final class OBNNFJDOENOOuterClass {
       "\001\n\013OBNNFJDOENO\022\024\n\013GIBPAPKBIPL\030\365\003 \001(\010\022\024\n\013" +
       "EINDPBDEIFI\030\366\003 \001(\010\022\024\n\013IDJMFJJOIME\030\367\003 \001(\005" +
       "\022\"\n\013LGKEOCFPOEP\030\370\003 \001(\0132\014.MMLNJCOKEAK\022\"\n\013" +
-      "PINIJLBECDN\030\371\003 \001(\0132\014.MMLNJCOKEAKB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "PINIJLBECDN\030\371\003 \001(\0132\014.MMLNJCOKEAKB2\n\031emu." +
+      "grasscutter.net.protoB\025OBNNFJDOENOOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1520,8 +1520,8 @@ public final class MGOCCEAHKGHOuterClass {
       " \001(\0132\014.HHEDHCFPEKM\022\020\n\007item_id\030\365\003 \001(\r\022\024\n\013" +
       "LNGHOLKBEPM\030\366\003 \001(\t\022\024\n\013PHLKKJALLBI\030\367\003 \001(\010" +
       "\022\024\n\013HDNAKFAMMFI\030\370\003 \001(\010\022\024\n\013MJKFPKEDIJA\030\371\003" +
-      " \001(\tB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\tB2\n\031emu.grasscutter.net.protoB\025MGOCC" +
+      "EAHKGHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

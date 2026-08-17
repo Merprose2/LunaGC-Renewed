@@ -27,11 +27,11 @@ public final class EKOMFEPPLOJOuterClass {
      * <code>._PinName CPGBNJNBEOC = 1;</code>
      * @return The cPGBNJNBEOC.
      */
-    emu.grasscutter.net.proto.PinName._PinName getCPGBNJNBEOC();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinName getCPGBNJNBEOC();
     /**
      * <code>._PinName CPGBNJNBEOC = 1;</code>
      */
-    emu.grasscutter.net.proto.PinName._PinNameOrBuilder getCPGBNJNBEOCOrBuilder();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getCPGBNJNBEOCOrBuilder();
 
     /**
      * <code>._PinName CJCCMONJILD = 2;</code>
@@ -42,11 +42,11 @@ public final class EKOMFEPPLOJOuterClass {
      * <code>._PinName CJCCMONJILD = 2;</code>
      * @return The cJCCMONJILD.
      */
-    emu.grasscutter.net.proto.PinName._PinName getCJCCMONJILD();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinName getCJCCMONJILD();
     /**
      * <code>._PinName CJCCMONJILD = 2;</code>
      */
-    emu.grasscutter.net.proto.PinName._PinNameOrBuilder getCJCCMONJILDOrBuilder();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getCJCCMONJILDOrBuilder();
   }
   /**
    * Protobuf type {@code EKOMFEPPLOJ}
@@ -94,11 +94,11 @@ public final class EKOMFEPPLOJOuterClass {
               done = true;
               break;
             case 10: {
-              emu.grasscutter.net.proto.PinName._PinName.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder subBuilder = null;
               if (cPGBNJNBEOC_ != null) {
                 subBuilder = cPGBNJNBEOC_.toBuilder();
               }
-              cPGBNJNBEOC_ = input.readMessage(emu.grasscutter.net.proto.PinName._PinName.parser(), extensionRegistry);
+              cPGBNJNBEOC_ = input.readMessage(emu.grasscutter.net.proto._PinNameOuterClass._PinName.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(cPGBNJNBEOC_);
                 cPGBNJNBEOC_ = subBuilder.buildPartial();
@@ -107,11 +107,11 @@ public final class EKOMFEPPLOJOuterClass {
               break;
             }
             case 18: {
-              emu.grasscutter.net.proto.PinName._PinName.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder subBuilder = null;
               if (cJCCMONJILD_ != null) {
                 subBuilder = cJCCMONJILD_.toBuilder();
               }
-              cJCCMONJILD_ = input.readMessage(emu.grasscutter.net.proto.PinName._PinName.parser(), extensionRegistry);
+              cJCCMONJILD_ = input.readMessage(emu.grasscutter.net.proto._PinNameOuterClass._PinName.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(cJCCMONJILD_);
                 cJCCMONJILD_ = subBuilder.buildPartial();
@@ -152,7 +152,7 @@ public final class EKOMFEPPLOJOuterClass {
     }
 
     public static final int CPGBNJNBEOC_FIELD_NUMBER = 1;
-    private emu.grasscutter.net.proto.PinName._PinName cPGBNJNBEOC_;
+    private emu.grasscutter.net.proto._PinNameOuterClass._PinName cPGBNJNBEOC_;
     /**
      * <code>._PinName CPGBNJNBEOC = 1;</code>
      * @return Whether the cPGBNJNBEOC field is set.
@@ -166,19 +166,19 @@ public final class EKOMFEPPLOJOuterClass {
      * @return The cPGBNJNBEOC.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinName getCPGBNJNBEOC() {
-      return cPGBNJNBEOC_ == null ? emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : cPGBNJNBEOC_;
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinName getCPGBNJNBEOC() {
+      return cPGBNJNBEOC_ == null ? emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : cPGBNJNBEOC_;
     }
     /**
      * <code>._PinName CPGBNJNBEOC = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getCPGBNJNBEOCOrBuilder() {
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getCPGBNJNBEOCOrBuilder() {
       return getCPGBNJNBEOC();
     }
 
     public static final int CJCCMONJILD_FIELD_NUMBER = 2;
-    private emu.grasscutter.net.proto.PinName._PinName cJCCMONJILD_;
+    private emu.grasscutter.net.proto._PinNameOuterClass._PinName cJCCMONJILD_;
     /**
      * <code>._PinName CJCCMONJILD = 2;</code>
      * @return Whether the cJCCMONJILD field is set.
@@ -192,14 +192,14 @@ public final class EKOMFEPPLOJOuterClass {
      * @return The cJCCMONJILD.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinName getCJCCMONJILD() {
-      return cJCCMONJILD_ == null ? emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : cJCCMONJILD_;
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinName getCJCCMONJILD() {
+      return cJCCMONJILD_ == null ? emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : cJCCMONJILD_;
     }
     /**
      * <code>._PinName CJCCMONJILD = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getCJCCMONJILDOrBuilder() {
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getCJCCMONJILDOrBuilder() {
       return getCJCCMONJILD();
     }
 
@@ -548,9 +548,9 @@ public final class EKOMFEPPLOJOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.PinName._PinName cPGBNJNBEOC_;
+      private emu.grasscutter.net.proto._PinNameOuterClass._PinName cPGBNJNBEOC_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> cPGBNJNBEOCBuilder_;
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> cPGBNJNBEOCBuilder_;
       /**
        * <code>._PinName CPGBNJNBEOC = 1;</code>
        * @return Whether the cPGBNJNBEOC field is set.
@@ -562,9 +562,9 @@ public final class EKOMFEPPLOJOuterClass {
        * <code>._PinName CPGBNJNBEOC = 1;</code>
        * @return The cPGBNJNBEOC.
        */
-      public emu.grasscutter.net.proto.PinName._PinName getCPGBNJNBEOC() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName getCPGBNJNBEOC() {
         if (cPGBNJNBEOCBuilder_ == null) {
-          return cPGBNJNBEOC_ == null ? emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : cPGBNJNBEOC_;
+          return cPGBNJNBEOC_ == null ? emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : cPGBNJNBEOC_;
         } else {
           return cPGBNJNBEOCBuilder_.getMessage();
         }
@@ -572,7 +572,7 @@ public final class EKOMFEPPLOJOuterClass {
       /**
        * <code>._PinName CPGBNJNBEOC = 1;</code>
        */
-      public Builder setCPGBNJNBEOC(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder setCPGBNJNBEOC(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (cPGBNJNBEOCBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -589,7 +589,7 @@ public final class EKOMFEPPLOJOuterClass {
        * <code>._PinName CPGBNJNBEOC = 1;</code>
        */
       public Builder setCPGBNJNBEOC(
-          emu.grasscutter.net.proto.PinName._PinName.Builder builderForValue) {
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder builderForValue) {
         if (cPGBNJNBEOCBuilder_ == null) {
           cPGBNJNBEOC_ = builderForValue.build();
           onChanged();
@@ -602,11 +602,11 @@ public final class EKOMFEPPLOJOuterClass {
       /**
        * <code>._PinName CPGBNJNBEOC = 1;</code>
        */
-      public Builder mergeCPGBNJNBEOC(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder mergeCPGBNJNBEOC(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (cPGBNJNBEOCBuilder_ == null) {
           if (cPGBNJNBEOC_ != null) {
             cPGBNJNBEOC_ =
-              emu.grasscutter.net.proto.PinName._PinName.newBuilder(cPGBNJNBEOC_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.newBuilder(cPGBNJNBEOC_).mergeFrom(value).buildPartial();
           } else {
             cPGBNJNBEOC_ = value;
           }
@@ -634,7 +634,7 @@ public final class EKOMFEPPLOJOuterClass {
       /**
        * <code>._PinName CPGBNJNBEOC = 1;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinName.Builder getCPGBNJNBEOCBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder getCPGBNJNBEOCBuilder() {
         
         onChanged();
         return getCPGBNJNBEOCFieldBuilder().getBuilder();
@@ -642,23 +642,23 @@ public final class EKOMFEPPLOJOuterClass {
       /**
        * <code>._PinName CPGBNJNBEOC = 1;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getCPGBNJNBEOCOrBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getCPGBNJNBEOCOrBuilder() {
         if (cPGBNJNBEOCBuilder_ != null) {
           return cPGBNJNBEOCBuilder_.getMessageOrBuilder();
         } else {
           return cPGBNJNBEOC_ == null ?
-              emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : cPGBNJNBEOC_;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : cPGBNJNBEOC_;
         }
       }
       /**
        * <code>._PinName CPGBNJNBEOC = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> 
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> 
           getCPGBNJNBEOCFieldBuilder() {
         if (cPGBNJNBEOCBuilder_ == null) {
           cPGBNJNBEOCBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder>(
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder>(
                   getCPGBNJNBEOC(),
                   getParentForChildren(),
                   isClean());
@@ -667,9 +667,9 @@ public final class EKOMFEPPLOJOuterClass {
         return cPGBNJNBEOCBuilder_;
       }
 
-      private emu.grasscutter.net.proto.PinName._PinName cJCCMONJILD_;
+      private emu.grasscutter.net.proto._PinNameOuterClass._PinName cJCCMONJILD_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> cJCCMONJILDBuilder_;
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> cJCCMONJILDBuilder_;
       /**
        * <code>._PinName CJCCMONJILD = 2;</code>
        * @return Whether the cJCCMONJILD field is set.
@@ -681,9 +681,9 @@ public final class EKOMFEPPLOJOuterClass {
        * <code>._PinName CJCCMONJILD = 2;</code>
        * @return The cJCCMONJILD.
        */
-      public emu.grasscutter.net.proto.PinName._PinName getCJCCMONJILD() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName getCJCCMONJILD() {
         if (cJCCMONJILDBuilder_ == null) {
-          return cJCCMONJILD_ == null ? emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : cJCCMONJILD_;
+          return cJCCMONJILD_ == null ? emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : cJCCMONJILD_;
         } else {
           return cJCCMONJILDBuilder_.getMessage();
         }
@@ -691,7 +691,7 @@ public final class EKOMFEPPLOJOuterClass {
       /**
        * <code>._PinName CJCCMONJILD = 2;</code>
        */
-      public Builder setCJCCMONJILD(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder setCJCCMONJILD(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (cJCCMONJILDBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -708,7 +708,7 @@ public final class EKOMFEPPLOJOuterClass {
        * <code>._PinName CJCCMONJILD = 2;</code>
        */
       public Builder setCJCCMONJILD(
-          emu.grasscutter.net.proto.PinName._PinName.Builder builderForValue) {
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder builderForValue) {
         if (cJCCMONJILDBuilder_ == null) {
           cJCCMONJILD_ = builderForValue.build();
           onChanged();
@@ -721,11 +721,11 @@ public final class EKOMFEPPLOJOuterClass {
       /**
        * <code>._PinName CJCCMONJILD = 2;</code>
        */
-      public Builder mergeCJCCMONJILD(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder mergeCJCCMONJILD(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (cJCCMONJILDBuilder_ == null) {
           if (cJCCMONJILD_ != null) {
             cJCCMONJILD_ =
-              emu.grasscutter.net.proto.PinName._PinName.newBuilder(cJCCMONJILD_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.newBuilder(cJCCMONJILD_).mergeFrom(value).buildPartial();
           } else {
             cJCCMONJILD_ = value;
           }
@@ -753,7 +753,7 @@ public final class EKOMFEPPLOJOuterClass {
       /**
        * <code>._PinName CJCCMONJILD = 2;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinName.Builder getCJCCMONJILDBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder getCJCCMONJILDBuilder() {
         
         onChanged();
         return getCJCCMONJILDFieldBuilder().getBuilder();
@@ -761,23 +761,23 @@ public final class EKOMFEPPLOJOuterClass {
       /**
        * <code>._PinName CJCCMONJILD = 2;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getCJCCMONJILDOrBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getCJCCMONJILDOrBuilder() {
         if (cJCCMONJILDBuilder_ != null) {
           return cJCCMONJILDBuilder_.getMessageOrBuilder();
         } else {
           return cJCCMONJILD_ == null ?
-              emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : cJCCMONJILD_;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : cJCCMONJILD_;
         }
       }
       /**
        * <code>._PinName CJCCMONJILD = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> 
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> 
           getCJCCMONJILDFieldBuilder() {
         if (cJCCMONJILDBuilder_ == null) {
           cJCCMONJILDBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder>(
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder>(
                   getCJCCMONJILD(),
                   getParentForChildren(),
                   isClean());
@@ -854,13 +854,14 @@ public final class EKOMFEPPLOJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EKOMFEPPLOJ.proto\032\016_PinName.proto\"M\n\013E" +
       "KOMFEPPLOJ\022\036\n\013CPGBNJNBEOC\030\001 \001(\0132\t._PinNa" +
-      "me\022\036\n\013CJCCMONJILD\030\002 \001(\0132\t._PinNameB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "me\022\036\n\013CJCCMONJILD\030\002 \001(\0132\t._PinNameB2\n\031em" +
+      "u.grasscutter.net.protoB\025EKOMFEPPLOJOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.PinName.getDescriptor(),
+          emu.grasscutter.net.proto._PinNameOuterClass.getDescriptor(),
         });
     internal_static_EKOMFEPPLOJ_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -868,7 +869,7 @@ public final class EKOMFEPPLOJOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EKOMFEPPLOJ_descriptor,
         new java.lang.String[] { "CPGBNJNBEOC", "CJCCMONJILD", });
-    emu.grasscutter.net.proto.PinName.getDescriptor();
+    emu.grasscutter.net.proto._PinNameOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

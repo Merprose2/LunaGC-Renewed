@@ -595,8 +595,9 @@ public final class NOIOBBPPIADOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NOIOBBPPIAD.proto\"6\n\013NOIOBBPPIAD\022\022\n\neq" +
-      "uip_guid\030\005 \001(\r\022\023\n\013LOJKKILCLHO\030\r \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "uip_guid\030\005 \001(\r\022\023\n\013LOJKKILCLHO\030\r \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025NOIOBBPPIADOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

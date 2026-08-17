@@ -446,8 +446,9 @@ public final class JGGOGGAJJIBOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021JGGOGGAJJIB.proto\"\r\n\013JGGOGGAJJIBB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021JGGOGGAJJIB.proto\"\r\n\013JGGOGGAJJIBB2\n\031em" +
+      "u.grasscutter.net.protoB\025JGGOGGAJJIBOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

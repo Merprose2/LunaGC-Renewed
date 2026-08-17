@@ -658,8 +658,8 @@ public final class MBFPMIGCFELOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MBFPMIGCFEL.proto\"K\n\013MBFPMIGCFEL\022\023\n\013KO" +
       "LNBCLMBBG\030\004 \001(\r\022\023\n\013BNCFJEJPFPM\030\007 \001(\r\022\022\n\n" +
-      "player_uid\030\010 \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "player_uid\030\010 \001(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025MBFPMIGCFELOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

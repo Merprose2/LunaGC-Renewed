@@ -318,11 +318,11 @@ public final class FJFOLOCANNEOuterClass {
      * <code>._FlowControlConfig flow_control_config = 1000;</code>
      * @return The flowControlConfig.
      */
-    emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig getFlowControlConfig();
+    emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig getFlowControlConfig();
     /**
      * <code>._FlowControlConfig flow_control_config = 1000;</code>
      */
-    emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfigOrBuilder getFlowControlConfigOrBuilder();
+    emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfigOrBuilder getFlowControlConfigOrBuilder();
 
     public emu.grasscutter.net.proto.FJFOLOCANNEOuterClass.FJFOLOCANNE.MPLOBNFNKMKCase getMPLOBNFNKMKCase();
   }
@@ -513,14 +513,14 @@ public final class FJFOLOCANNEOuterClass {
               break;
             }
             case 8002: {
-              emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig.Builder subBuilder = null;
+              emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig.Builder subBuilder = null;
               if (mPLOBNFNKMKCase_ == 1000) {
-                subBuilder = ((emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig) mPLOBNFNKMK_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig) mPLOBNFNKMK_).toBuilder();
               }
               mPLOBNFNKMK_ =
-                  input.readMessage(emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig) mPLOBNFNKMK_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig) mPLOBNFNKMK_);
                 mPLOBNFNKMK_ = subBuilder.buildPartial();
               }
               mPLOBNFNKMKCase_ = 1000;
@@ -1164,21 +1164,21 @@ public final class FJFOLOCANNEOuterClass {
      * @return The flowControlConfig.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig getFlowControlConfig() {
+    public emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig getFlowControlConfig() {
       if (mPLOBNFNKMKCase_ == 1000) {
-         return (emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig) mPLOBNFNKMK_;
+         return (emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig) mPLOBNFNKMK_;
       }
-      return emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig.getDefaultInstance();
+      return emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig.getDefaultInstance();
     }
     /**
      * <code>._FlowControlConfig flow_control_config = 1000;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfigOrBuilder getFlowControlConfigOrBuilder() {
+    public emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfigOrBuilder getFlowControlConfigOrBuilder() {
       if (mPLOBNFNKMKCase_ == 1000) {
-         return (emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig) mPLOBNFNKMK_;
+         return (emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig) mPLOBNFNKMK_;
       }
-      return emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig.getDefaultInstance();
+      return emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -1247,7 +1247,7 @@ public final class FJFOLOCANNEOuterClass {
         output.writeMessage(208, CardText_.get(i));
       }
       if (mPLOBNFNKMKCase_ == 1000) {
-        output.writeMessage(1000, (emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig) mPLOBNFNKMK_);
+        output.writeMessage(1000, (emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig) mPLOBNFNKMK_);
       }
       unknownFields.writeTo(output);
     }
@@ -1326,7 +1326,7 @@ public final class FJFOLOCANNEOuterClass {
       }
       if (mPLOBNFNKMKCase_ == 1000) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1000, (emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig) mPLOBNFNKMK_);
+          .computeMessageSize(1000, (emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig) mPLOBNFNKMK_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -4723,7 +4723,7 @@ public final class FJFOLOCANNEOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig, emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig.Builder, emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfigOrBuilder> flowControlConfigBuilder_;
+          emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig, emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig.Builder, emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfigOrBuilder> flowControlConfigBuilder_;
       /**
        * <code>._FlowControlConfig flow_control_config = 1000;</code>
        * @return Whether the flowControlConfig field is set.
@@ -4737,23 +4737,23 @@ public final class FJFOLOCANNEOuterClass {
        * @return The flowControlConfig.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig getFlowControlConfig() {
+      public emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig getFlowControlConfig() {
         if (flowControlConfigBuilder_ == null) {
           if (mPLOBNFNKMKCase_ == 1000) {
-            return (emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig) mPLOBNFNKMK_;
+            return (emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig) mPLOBNFNKMK_;
           }
-          return emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig.getDefaultInstance();
+          return emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig.getDefaultInstance();
         } else {
           if (mPLOBNFNKMKCase_ == 1000) {
             return flowControlConfigBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig.getDefaultInstance();
+          return emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig.getDefaultInstance();
         }
       }
       /**
        * <code>._FlowControlConfig flow_control_config = 1000;</code>
        */
-      public Builder setFlowControlConfig(emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig value) {
+      public Builder setFlowControlConfig(emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig value) {
         if (flowControlConfigBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4770,7 +4770,7 @@ public final class FJFOLOCANNEOuterClass {
        * <code>._FlowControlConfig flow_control_config = 1000;</code>
        */
       public Builder setFlowControlConfig(
-          emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig.Builder builderForValue) {
+          emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig.Builder builderForValue) {
         if (flowControlConfigBuilder_ == null) {
           mPLOBNFNKMK_ = builderForValue.build();
           onChanged();
@@ -4783,11 +4783,11 @@ public final class FJFOLOCANNEOuterClass {
       /**
        * <code>._FlowControlConfig flow_control_config = 1000;</code>
        */
-      public Builder mergeFlowControlConfig(emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig value) {
+      public Builder mergeFlowControlConfig(emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig value) {
         if (flowControlConfigBuilder_ == null) {
           if (mPLOBNFNKMKCase_ == 1000 &&
-              mPLOBNFNKMK_ != emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig.getDefaultInstance()) {
-            mPLOBNFNKMK_ = emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig.newBuilder((emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig) mPLOBNFNKMK_)
+              mPLOBNFNKMK_ != emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig.getDefaultInstance()) {
+            mPLOBNFNKMK_ = emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig.newBuilder((emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig) mPLOBNFNKMK_)
                 .mergeFrom(value).buildPartial();
           } else {
             mPLOBNFNKMK_ = value;
@@ -4824,36 +4824,36 @@ public final class FJFOLOCANNEOuterClass {
       /**
        * <code>._FlowControlConfig flow_control_config = 1000;</code>
        */
-      public emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig.Builder getFlowControlConfigBuilder() {
+      public emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig.Builder getFlowControlConfigBuilder() {
         return getFlowControlConfigFieldBuilder().getBuilder();
       }
       /**
        * <code>._FlowControlConfig flow_control_config = 1000;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfigOrBuilder getFlowControlConfigOrBuilder() {
+      public emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfigOrBuilder getFlowControlConfigOrBuilder() {
         if ((mPLOBNFNKMKCase_ == 1000) && (flowControlConfigBuilder_ != null)) {
           return flowControlConfigBuilder_.getMessageOrBuilder();
         } else {
           if (mPLOBNFNKMKCase_ == 1000) {
-            return (emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig) mPLOBNFNKMK_;
+            return (emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig) mPLOBNFNKMK_;
           }
-          return emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig.getDefaultInstance();
+          return emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig.getDefaultInstance();
         }
       }
       /**
        * <code>._FlowControlConfig flow_control_config = 1000;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig, emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig.Builder, emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfigOrBuilder> 
+          emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig, emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig.Builder, emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfigOrBuilder> 
           getFlowControlConfigFieldBuilder() {
         if (flowControlConfigBuilder_ == null) {
           if (!(mPLOBNFNKMKCase_ == 1000)) {
-            mPLOBNFNKMK_ = emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig.getDefaultInstance();
+            mPLOBNFNKMK_ = emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig.getDefaultInstance();
           }
           flowControlConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig, emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig.Builder, emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfigOrBuilder>(
-                  (emu.grasscutter.net.proto.FlowControlConfig._FlowControlConfig) mPLOBNFNKMK_,
+              emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig, emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig.Builder, emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfigOrBuilder>(
+                  (emu.grasscutter.net.proto._FlowControlConfigOuterClass._FlowControlConfig) mPLOBNFNKMK_,
                   getParentForChildren(),
                   isClean());
           mPLOBNFNKMK_ = null;
@@ -4949,8 +4949,8 @@ public final class FJFOLOCANNEOuterClass {
       "\316\001 \001(\r\022\024\n\013INAGBCJIDML\030\317\001 \001(\r\022!\n\n_card_te" +
       "xt\030\320\001 \003(\0132\014.JEBFIKLDGFJ\0223\n\023flow_control_" +
       "config\030\350\007 \001(\0132\023._FlowControlConfigH\000B\r\n\013" +
-      "MPLOBNFNKMKB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "MPLOBNFNKMKB2\n\031emu.grasscutter.net.proto" +
+      "B\025FJFOLOCANNEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -4963,7 +4963,7 @@ public final class FJFOLOCANNEOuterClass {
           emu.grasscutter.net.proto.KJDMKDEEIMOOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.NCHCCEBHGODOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PGANLCAOBBDOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.FlowControlConfig.getDescriptor(),
+          emu.grasscutter.net.proto._FlowControlConfigOuterClass.getDescriptor(),
         });
     internal_static_FJFOLOCANNE_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -4979,7 +4979,7 @@ public final class FJFOLOCANNEOuterClass {
     emu.grasscutter.net.proto.KJDMKDEEIMOOuterClass.getDescriptor();
     emu.grasscutter.net.proto.NCHCCEBHGODOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PGANLCAOBBDOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.FlowControlConfig.getDescriptor();
+    emu.grasscutter.net.proto._FlowControlConfigOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

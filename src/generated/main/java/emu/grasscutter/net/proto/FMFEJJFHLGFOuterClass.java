@@ -855,8 +855,9 @@ public final class FMFEJJFHLGFOuterClass {
       "\n\021FMFEJJFHLGF.proto\032\021LIPGHKMADCG.proto\032\021" +
       "ONPEFEFCEGE.proto\"S\n\013FMFEJJFHLGF\022!\n\013DOEM" +
       "EJMDLMI\030\001 \001(\0132\014.ONPEFEFCEGE\022!\n\013GFNNDOHGM" +
-      "CB\030\002 \001(\0132\014.LIPGHKMADCGB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "CB\030\002 \001(\0132\014.LIPGHKMADCGB2\n\031emu.grasscutte" +
+      "r.net.protoB\025FMFEJJFHLGFOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

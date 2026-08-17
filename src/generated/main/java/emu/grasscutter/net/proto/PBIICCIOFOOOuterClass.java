@@ -36,12 +36,12 @@ public final class PBIICCIOFOOOuterClass {
     /**
      * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail> 
+    java.util.List<emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail> 
         getMonsterCardListList();
     /**
      * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
      */
-    emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail getMonsterCardList(int index);
+    emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail getMonsterCardList(int index);
     /**
      * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
      */
@@ -49,12 +49,12 @@ public final class PBIICCIOFOOOuterClass {
     /**
      * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetailOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetailOrBuilder> 
         getMonsterCardListOrBuilderList();
     /**
      * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
      */
-    emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetailOrBuilder getMonsterCardListOrBuilder(
+    emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetailOrBuilder getMonsterCardListOrBuilder(
         int index);
 
     /**
@@ -200,11 +200,11 @@ public final class PBIICCIOFOOOuterClass {
             }
             case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                MonsterCardList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail>();
+                MonsterCardList_ = new java.util.ArrayList<emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail>();
                 mutable_bitField0_ |= 0x00000001;
               }
               MonsterCardList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.parser(), extensionRegistry));
               break;
             }
             case 50: {
@@ -340,19 +340,19 @@ public final class PBIICCIOFOOOuterClass {
     }
 
     public static final int _MONSTER_CARD_LIST_FIELD_NUMBER = 3;
-    private java.util.List<emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail> MonsterCardList_;
+    private java.util.List<emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail> MonsterCardList_;
     /**
      * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail> getMonsterCardListList() {
+    public java.util.List<emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail> getMonsterCardListList() {
       return MonsterCardList_;
     }
     /**
      * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetailOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetailOrBuilder> 
         getMonsterCardListOrBuilderList() {
       return MonsterCardList_;
     }
@@ -367,14 +367,14 @@ public final class PBIICCIOFOOOuterClass {
      * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail getMonsterCardList(int index) {
+    public emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail getMonsterCardList(int index) {
       return MonsterCardList_.get(index);
     }
     /**
      * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetailOrBuilder getMonsterCardListOrBuilder(
+    public emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetailOrBuilder getMonsterCardListOrBuilder(
         int index) {
       return MonsterCardList_.get(index);
     }
@@ -1208,22 +1208,22 @@ public final class PBIICCIOFOOOuterClass {
         return profilePictureBuilder_;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail> MonsterCardList_ =
+      private java.util.List<emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail> MonsterCardList_ =
         java.util.Collections.emptyList();
       private void ensureMonsterCardListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          MonsterCardList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail>(MonsterCardList_);
+          MonsterCardList_ = new java.util.ArrayList<emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail>(MonsterCardList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail, emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail.Builder, emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetailOrBuilder> MonsterCardListBuilder_;
+          emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetailOrBuilder> MonsterCardListBuilder_;
 
       /**
        * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail> getMonsterCardListList() {
+      public java.util.List<emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail> getMonsterCardListList() {
         if (MonsterCardListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(MonsterCardList_);
         } else {
@@ -1243,7 +1243,7 @@ public final class PBIICCIOFOOOuterClass {
       /**
        * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail getMonsterCardList(int index) {
+      public emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail getMonsterCardList(int index) {
         if (MonsterCardListBuilder_ == null) {
           return MonsterCardList_.get(index);
         } else {
@@ -1254,7 +1254,7 @@ public final class PBIICCIOFOOOuterClass {
        * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
        */
       public Builder setMonsterCardList(
-          int index, emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail value) {
+          int index, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail value) {
         if (MonsterCardListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1271,7 +1271,7 @@ public final class PBIICCIOFOOOuterClass {
        * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
        */
       public Builder setMonsterCardList(
-          int index, emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder builderForValue) {
         if (MonsterCardListBuilder_ == null) {
           ensureMonsterCardListIsMutable();
           MonsterCardList_.set(index, builderForValue.build());
@@ -1284,7 +1284,7 @@ public final class PBIICCIOFOOOuterClass {
       /**
        * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
        */
-      public Builder addMonsterCardList(emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail value) {
+      public Builder addMonsterCardList(emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail value) {
         if (MonsterCardListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1301,7 +1301,7 @@ public final class PBIICCIOFOOOuterClass {
        * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
        */
       public Builder addMonsterCardList(
-          int index, emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail value) {
+          int index, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail value) {
         if (MonsterCardListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1318,7 +1318,7 @@ public final class PBIICCIOFOOOuterClass {
        * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
        */
       public Builder addMonsterCardList(
-          emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail.Builder builderForValue) {
+          emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder builderForValue) {
         if (MonsterCardListBuilder_ == null) {
           ensureMonsterCardListIsMutable();
           MonsterCardList_.add(builderForValue.build());
@@ -1332,7 +1332,7 @@ public final class PBIICCIOFOOOuterClass {
        * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
        */
       public Builder addMonsterCardList(
-          int index, emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder builderForValue) {
         if (MonsterCardListBuilder_ == null) {
           ensureMonsterCardListIsMutable();
           MonsterCardList_.add(index, builderForValue.build());
@@ -1346,7 +1346,7 @@ public final class PBIICCIOFOOOuterClass {
        * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
        */
       public Builder addAllMonsterCardList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail> values) {
         if (MonsterCardListBuilder_ == null) {
           ensureMonsterCardListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1386,14 +1386,14 @@ public final class PBIICCIOFOOOuterClass {
       /**
        * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail.Builder getMonsterCardListBuilder(
+      public emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder getMonsterCardListBuilder(
           int index) {
         return getMonsterCardListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetailOrBuilder getMonsterCardListOrBuilder(
+      public emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetailOrBuilder getMonsterCardListOrBuilder(
           int index) {
         if (MonsterCardListBuilder_ == null) {
           return MonsterCardList_.get(index);  } else {
@@ -1403,7 +1403,7 @@ public final class PBIICCIOFOOOuterClass {
       /**
        * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetailOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetailOrBuilder> 
            getMonsterCardListOrBuilderList() {
         if (MonsterCardListBuilder_ != null) {
           return MonsterCardListBuilder_.getMessageOrBuilderList();
@@ -1414,31 +1414,31 @@ public final class PBIICCIOFOOOuterClass {
       /**
        * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail.Builder addMonsterCardListBuilder() {
+      public emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder addMonsterCardListBuilder() {
         return getMonsterCardListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail.getDefaultInstance());
+            emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.getDefaultInstance());
       }
       /**
        * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail.Builder addMonsterCardListBuilder(
+      public emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder addMonsterCardListBuilder(
           int index) {
         return getMonsterCardListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail.getDefaultInstance());
+            index, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.getDefaultInstance());
       }
       /**
        * <code>repeated ._MonsterChessCardDetail _monster_card_list = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder> 
            getMonsterCardListBuilderList() {
         return getMonsterCardListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail, emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail.Builder, emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetailOrBuilder> 
+          emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetailOrBuilder> 
           getMonsterCardListFieldBuilder() {
         if (MonsterCardListBuilder_ == null) {
           MonsterCardListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail, emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetail.Builder, emu.grasscutter.net.proto.MonsterChessCardDetail._MonsterChessCardDetailOrBuilder>(
+              emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetailOrBuilder>(
                   MonsterCardList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -1939,14 +1939,14 @@ public final class PBIICCIOFOOOuterClass {
       "ag\030\006 \001(\t\022\023\n\013ADLBJICHKOB\030\007 \003(\r\022\037\n\027_monste" +
       "r_chess_team_num\030\010 \001(\r\022\021\n\tnick_name\030\013 \001(" +
       "\t\022\031\n\021_artifact_id_list\030\r \003(\r\022\021\n\tonline_i" +
-      "d\030\016 \001(\tB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "d\030\016 \001(\tB2\n\031emu.grasscutter.net.protoB\025PB" +
+      "IICCIOFOOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.ProfilePictureOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.MonsterChessCardDetail.getDescriptor(),
+          emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass.getDescriptor(),
         });
     internal_static_PBIICCIOFOO_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1955,7 +1955,7 @@ public final class PBIICCIOFOOOuterClass {
         internal_static_PBIICCIOFOO_descriptor,
         new java.lang.String[] { "ProfilePicture", "MonsterCardList", "XboxGamertag", "ADLBJICHKOB", "MonsterChessTeamNum", "NickName", "ArtifactIdList", "OnlineId", });
     emu.grasscutter.net.proto.ProfilePictureOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.MonsterChessCardDetail.getDescriptor();
+    emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

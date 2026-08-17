@@ -1705,8 +1705,9 @@ public final class CAOGFIGJMINOuterClass {
       "AGBFDDLAG\030\375\003 \001(\0132\014.ELCEHBGKMMJ\022\024\n\013GPLPOK" +
       "EAGFL\030\376\003 \001(\005\022\024\n\013NGBDLOFALMH\030\377\003 \001(\005\022\"\n\013FD" +
       "LHKOKLLHF\030\200\004 \001(\0132\014.ELCEHBGKMMJ\022\024\n\013EIGMIN" +
-      "LGMIK\030\201\004 \001(\005\022\024\n\013LGHLKGGDFCB\030\202\004 \001(\005B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "LGMIK\030\201\004 \001(\005\022\024\n\013LGHLKGGDFCB\030\202\004 \001(\005B2\n\031em" +
+      "u.grasscutter.net.protoB\025CAOGFIGJMINOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

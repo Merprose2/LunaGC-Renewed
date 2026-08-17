@@ -634,8 +634,8 @@ public final class DDHBKICGLPIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DDHBKICGLPI.proto\032\rUgcType.proto\";\n\013DD" +
       "HBKICGLPI\022\020\n\010ugc_guid\030\001 \001(\004\022\032\n\010ugc_type\030" +
-      "\013 \001(\0162\010.UgcTypeB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\013 \001(\0162\010.UgcTypeB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025DDHBKICGLPIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

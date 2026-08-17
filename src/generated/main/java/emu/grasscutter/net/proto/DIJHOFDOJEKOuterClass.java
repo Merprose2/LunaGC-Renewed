@@ -913,8 +913,9 @@ public final class DIJHOFDOJEKOuterClass {
       "\001\n\013DIJHOFDOJEK\022\023\n\013LBIFJFGMFGF\030\001 \001(\002\022\023\n\013D" +
       "FGGLKLLELA\030\002 \001(\002\022\023\n\013KNIMBNHPEIF\030\003 \001(\r\022\023\n" +
       "\013HCBOKEFBCFN\030\004 \001(\005\022\032\n\004mode\030\005 \001(\0162\014.JEOKD" +
-      "CIGCFP\022\023\n\013FCPNENIOLPG\030\006 \001(\002B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "CIGCFP\022\023\n\013FCPNENIOLPG\030\006 \001(\002B2\n\031emu.grass" +
+      "cutter.net.protoB\025DIJHOFDOJEKOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

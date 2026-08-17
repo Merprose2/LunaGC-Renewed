@@ -901,8 +901,9 @@ public final class FPCKPAHLBDDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FPCKPAHLBDD.proto\032\021FFAJNNDGHLN.proto\"E" +
       "\n\013FPCKPAHLBDD\022\023\n\013EKBDGFPDFFH\030\006 \001(\r\022!\n\013BL" +
-      "BHIMDCMBJ\030\016 \003(\0132\014.FFAJNNDGHLNB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "BHIMDCMBJ\030\016 \003(\0132\014.FFAJNNDGHLNB2\n\031emu.gra" +
+      "sscutter.net.protoB\025FPCKPAHLBDDOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

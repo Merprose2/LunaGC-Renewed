@@ -903,8 +903,9 @@ public final class GetDailyDungeonEntryInfoRspOuterClass {
       "lyDungeonEntryInfo.proto\"g\n\033GetDailyDung" +
       "eonEntryInfoRsp\022\017\n\007retcode\030\010 \001(\005\0227\n\027dail" +
       "y_dungeon_info_list\030\014 \003(\0132\026.DailyDungeon" +
-      "EntryInfoB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "EntryInfoBB\n\031emu.grasscutter.net.protoB%" +
+      "GetDailyDungeonEntryInfoRspOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

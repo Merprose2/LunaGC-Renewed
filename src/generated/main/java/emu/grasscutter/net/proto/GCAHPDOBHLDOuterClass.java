@@ -933,8 +933,8 @@ public final class GCAHPDOBHLDOuterClass {
       "\n\021GCAHPDOBHLD.proto\032\014Vector.proto\"\\\n\013GCA" +
       "HPDOBHLD\022\033\n\ntarget_pos\030\002 \001(\0132\007.Vector\022\023\n" +
       "\013KMDOFBPMGAI\030\005 \001(\r\022\033\n\ntarget_rot\030\010 \001(\0132\007" +
-      ".VectorB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      ".VectorB2\n\031emu.grasscutter.net.protoB\025GC" +
+      "AHPDOBHLDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

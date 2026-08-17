@@ -660,8 +660,9 @@ public final class WorldOwnerBlossomScheduleInfoNotifyOuterClass {
       "\n)WorldOwnerBlossomScheduleInfoNotify.pr" +
       "oto\032\031BlossomScheduleInfo.proto\"R\n#WorldO" +
       "wnerBlossomScheduleInfoNotify\022+\n\rschedul" +
-      "e_info\030\t \001(\0132\024.BlossomScheduleInfoB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "e_info\030\t \001(\0132\024.BlossomScheduleInfoBJ\n\031em" +
+      "u.grasscutter.net.protoB-WorldOwnerBloss" +
+      "omScheduleInfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

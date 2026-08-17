@@ -668,8 +668,8 @@ public final class LACJKCHOKEDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LACJKCHOKED.proto\"L\n\013LACJKCHOKED\022\020\n\010ug" +
       "c_guid\030\005 \001(\004\022\026\n\016music_basic_id\030\013 \001(\r\022\023\n\013" +
-      "KIKBPDBLOPE\030\r \001(\010B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "KIKBPDBLOPE\030\r \001(\010B2\n\031emu.grasscutter.net" +
+      ".protoB\025LACJKCHOKEDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

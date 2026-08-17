@@ -597,8 +597,9 @@ public final class CoopProgressUpdateNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036CoopProgressUpdateNotify.proto\"L\n\030Coop" +
       "ProgressUpdateNotify\022\026\n\016cur_coop_point\030\004" +
-      " \001(\r\022\030\n\020is_have_progress\030\013 \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      " \001(\r\022\030\n\020is_have_progress\030\013 \001(\010B?\n\031emu.gr" +
+      "asscutter.net.protoB\"CoopProgressUpdateN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

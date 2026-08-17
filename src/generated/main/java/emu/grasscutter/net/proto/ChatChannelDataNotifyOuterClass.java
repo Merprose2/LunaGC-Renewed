@@ -906,8 +906,9 @@ public final class ChatChannelDataNotifyOuterClass {
       "\n\033ChatChannelDataNotify.proto\032\025ChatChann" +
       "elInfo.proto\"g\n\025ChatChannelDataNotify\022!\n" +
       "\031_channel_player_info_list\030\010 \001(\014\022+\n\021chan" +
-      "nel_info_list\030\r \003(\0132\020.ChatChannelInfoB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "nel_info_list\030\r \003(\0132\020.ChatChannelInfoB<\n" +
+      "\031emu.grasscutter.net.protoB\037ChatChannelD" +
+      "ataNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

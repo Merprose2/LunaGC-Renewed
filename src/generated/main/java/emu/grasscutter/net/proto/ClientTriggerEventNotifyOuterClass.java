@@ -634,8 +634,9 @@ public final class ClientTriggerEventNotifyOuterClass {
       "\n\036ClientTriggerEventNotify.proto\032\026EventT" +
       "riggerType.proto\"S\n\030ClientTriggerEventNo" +
       "tify\022\020\n\010force_id\030\005 \001(\r\022%\n\nevent_type\030\n \001" +
-      "(\0162\021.EventTriggerTypeB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "(\0162\021.EventTriggerTypeB?\n\031emu.grasscutter" +
+      ".net.protoB\"ClientTriggerEventNotifyOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

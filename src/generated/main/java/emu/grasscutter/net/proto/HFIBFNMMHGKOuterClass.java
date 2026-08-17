@@ -737,8 +737,9 @@ public final class HFIBFNMMHGKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HFIBFNMMHGK.proto\"Y\n\013HFIBFNMMHGK\022\017\n\007re" +
       "tcode\030\001 \001(\005\022\017\n\007deck_id\030\002 \001(\r\022\023\n\013KBHIIBGO" +
-      "GFI\030\003 \001(\010\022\023\n\013DODLJMNEFDC\030\004 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "GFI\030\003 \001(\010\022\023\n\013DODLJMNEFDC\030\004 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025HFIBFNMMHGKOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

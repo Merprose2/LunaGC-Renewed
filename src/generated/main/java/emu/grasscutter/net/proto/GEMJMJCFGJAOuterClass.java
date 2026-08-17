@@ -1418,8 +1418,8 @@ public final class GEMJMJCFGJAOuterClass {
       "\n\013GLLIMHIIJLD\030\004 \003(\0132\014.KCDMJAHGFOK\022\023\n\013HGI" +
       "LDKDMIOH\030\005 \001(\r\022!\n\013FCOFJELKKNM\030\006 \001(\0162\014.AK" +
       "KCIHDNHCG\022!\n\013PMCMJJAPIHP\030\007 \001(\0132\014.JHEAMPH" +
-      "NBIBB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "NBIBB2\n\031emu.grasscutter.net.protoB\025GEMJM" +
+      "JCFGJAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

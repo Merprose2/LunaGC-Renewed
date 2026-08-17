@@ -526,8 +526,8 @@ public final class KNJKKGAMNCLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KNJKKGAMNCL.proto\"\"\n\013KNJKKGAMNCL\022\023\n\013DD" +
-      "ILCCPJGFJ\030\007 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "ILCCPJGFJ\030\007 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025KNJKKGAMNCLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

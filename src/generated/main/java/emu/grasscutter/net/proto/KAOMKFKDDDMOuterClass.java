@@ -152,8 +152,9 @@ public final class KAOMKFKDDDMOuterClass {
       "\n\021KAOMKFKDDDM.proto*\203\001\n\013KAOMKFKDDDM\022\024\n\020K" +
       "AOMKFKDDDM_MUTE\020\000\022\036\n\032KAOMKFKDDDM_LEAST_D" +
       "URATION\020\001\022\"\n\036KAOMKFKDDDM_LEAST_REFRESH_T" +
-      "IME\020\002\022\032\n\026KAOMKFKDDDM_FIRST_SLOT\020\003B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "IME\020\002\022\032\n\026KAOMKFKDDDM_FIRST_SLOT\020\003B2\n\031emu" +
+      ".grasscutter.net.protoB\025KAOMKFKDDDMOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

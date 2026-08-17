@@ -831,8 +831,8 @@ public final class KOEADCIJMILOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KOEADCIJMIL.proto\032\020Uint32Pair.proto\"/\n" +
       "\013KOEADCIJMIL\022 \n\013IELPLHJPNMJ\030\013 \003(\0132\013.Uint" +
-      "32PairB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "32PairB2\n\031emu.grasscutter.net.protoB\025KOE" +
+      "ADCIJMILOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

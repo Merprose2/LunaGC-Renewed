@@ -730,8 +730,9 @@ public final class LLDKCJNNCDMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LLDKCJNNCDM.proto\032\021EDBPOPBFBJA.proto\"E" +
       "\n\013LLDKCJNNCDM\022!\n\013CAIDGKBMFHJ\030\001 \001(\0132\014.EDB" +
-      "POPBFBJA\022\023\n\013NEEDFGGFFKK\030\t \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "POPBFBJA\022\023\n\013NEEDFGGFFKK\030\t \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025LLDKCJNNCDMOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

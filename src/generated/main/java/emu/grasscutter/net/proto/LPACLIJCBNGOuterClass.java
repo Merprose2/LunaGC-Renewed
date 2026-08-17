@@ -1380,8 +1380,9 @@ public final class LPACLIJCBNGOuterClass {
       "ype\030\002 \001(\r\022\034\n\006filter\030\003 \001(\0132\014.EBADNHGKAAP\022" +
       "\023\n\013JAIKAMEDKOB\030\004 \001(\010\022\023\n\013FHFLGLCGNGN\030\005 \001(" +
       "\r\022\023\n\013MBCEBOONOED\030\006 \001(\002\022\023\n\013DAIKCJKFELO\030\007 " +
-      "\001(\002\022\023\n\013CDPCEOCEJGK\030\010 \001(\010B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\001(\002\022\023\n\013CDPCEOCEJGK\030\010 \001(\010B2\n\031emu.grasscut" +
+      "ter.net.protoB\025LPACLIJCBNGOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -596,8 +596,9 @@ public final class MiracleRingTakeRewardReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036MiracleRingTakeRewardReq.proto\"G\n\030Mira" +
       "cleRingTakeRewardReq\022\021\n\tgadget_id\030\013 \001(\r\022" +
-      "\030\n\020gadget_entity_id\030\014 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\030\n\020gadget_entity_id\030\014 \001(\rB?\n\031emu.grasscu" +
+      "tter.net.protoB\"MiracleRingTakeRewardReq" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

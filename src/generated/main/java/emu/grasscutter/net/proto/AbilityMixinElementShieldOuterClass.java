@@ -877,8 +877,9 @@ public final class AbilityMixinElementShieldOuterClass {
       "ilityMixinElementShield\022\023\n\013absorb_type\030\001" +
       " \001(\r\022\022\n\nplayer_num\030\002 \001(\r\022\030\n\020is_shield_br" +
       "oken\030\007 \001(\010\022\022\n\nsub_shield\030\010 \001(\002\022\016\n\006shield" +
-      "\030\n \001(\002\022\022\n\nmax_shield\030\013 \001(\002B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\030\n \001(\002\022\022\n\nmax_shield\030\013 \001(\002B@\n\031emu.grassc" +
+      "utter.net.protoB#AbilityMixinElementShie" +
+      "ldOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

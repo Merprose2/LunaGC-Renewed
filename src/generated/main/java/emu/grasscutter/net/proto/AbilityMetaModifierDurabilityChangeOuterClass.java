@@ -664,8 +664,9 @@ public final class AbilityMetaModifierDurabilityChangeOuterClass {
       "\n)AbilityMetaModifierDurabilityChange.pr" +
       "oto\"d\n#AbilityMetaModifierDurabilityChan" +
       "ge\022\023\n\013NKFMJEMJLPK\030\007 \001(\010\022\023\n\013MLDBNBOHAAC\030\014" +
-      " \001(\002\022\023\n\013FGKKMLILAGI\030\017 \001(\002B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      " \001(\002\022\023\n\013FGKKMLILAGI\030\017 \001(\002BJ\n\031emu.grasscu" +
+      "tter.net.protoB-AbilityMetaModifierDurab" +
+      "ilityChangeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

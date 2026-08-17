@@ -518,8 +518,9 @@ public final class AbilityMixinWidgetMpSupportOuterClass {
     java.lang.String[] descriptorData = {
       "\n!AbilityMixinWidgetMpSupport.proto\"7\n\033A" +
       "bilityMixinWidgetMpSupport\022\030\n\020target_ent" +
-      "ity_id\030\002 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "ity_id\030\002 \001(\rBB\n\031emu.grasscutter.net.prot" +
+      "oB%AbilityMixinWidgetMpSupportOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

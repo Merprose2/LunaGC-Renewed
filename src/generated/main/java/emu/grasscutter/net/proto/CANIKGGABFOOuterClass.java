@@ -596,8 +596,9 @@ public final class CANIKGGABFOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CANIKGGABFO.proto\"5\n\013CANIKGGABFO\022\023\n\013KA" +
-      "JLCAPNCFA\030\003 \001(\010\022\021\n\tentity_id\030\007 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "JLCAPNCFA\030\003 \001(\010\022\021\n\tentity_id\030\007 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025CANIKGGABFOOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

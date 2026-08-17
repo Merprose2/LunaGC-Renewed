@@ -933,7 +933,8 @@ public final class ANLEECIIFBBOuterClass {
       "\n\021ANLEECIIFBB.proto\"d\n\013ANLEECIIFBB\022\023\n\013BL" +
       "OLOGNLLEJ\030\005 \003(\004\022\022\n\007slot_id\030\236\002 \001(\rH\000\022\035\n\022f" +
       "urniture_suite_id\030\233\017 \001(\rH\000B\r\n\013FHCNNNEFAP" +
-      "HB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "HB2\n\031emu.grasscutter.net.protoB\025ANLEECII" +
+      "FBBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

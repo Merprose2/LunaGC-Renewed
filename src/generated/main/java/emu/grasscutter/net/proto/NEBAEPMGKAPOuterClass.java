@@ -1058,8 +1058,9 @@ public final class NEBAEPMGKAPOuterClass {
       "\n\010use_time\030\005 \001(\r\022\023\n\013LNFCEIJOGKN\030\006 \001(\r\022\"\n" +
       "\006reason\030\007 \001(\0162\022.GalleryStopReason\022\022\n\ngal" +
       "lery_id\030\010 \001(\r\022\r\n\005score\030\n \001(\r\022\025\n\ris_new_r" +
-      "ecord\030\016 \001(\010\022\022\n\nis_success\030\017 \001(\010B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "ecord\030\016 \001(\010\022\022\n\nis_success\030\017 \001(\010B2\n\031emu.g" +
+      "rasscutter.net.protoB\025NEBAEPMGKAPOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

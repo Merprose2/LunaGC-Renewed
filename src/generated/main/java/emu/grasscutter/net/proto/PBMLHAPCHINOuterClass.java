@@ -526,8 +526,8 @@ public final class PBMLHAPCHINOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PBMLHAPCHIN.proto\"\"\n\013PBMLHAPCHIN\022\023\n\013EP" +
-      "BNEENGDFK\030\005 \001(\004B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "BNEENGDFK\030\005 \001(\004B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025PBMLHAPCHINOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

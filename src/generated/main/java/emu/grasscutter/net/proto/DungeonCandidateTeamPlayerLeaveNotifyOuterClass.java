@@ -636,8 +636,9 @@ public final class DungeonCandidateTeamPlayerLeaveNotifyOuterClass {
       "ason.proto\"s\n%DungeonCandidateTeamPlayer" +
       "LeaveNotify\022\022\n\nplayer_uid\030\003 \001(\r\0226\n\006reaso" +
       "n\030\r \001(\0162&.DungeonCandidateTeamPlayerLeav" +
-      "eReasonB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "eReasonBL\n\031emu.grasscutter.net.protoB/Du" +
+      "ngeonCandidateTeamPlayerLeaveNotifyOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

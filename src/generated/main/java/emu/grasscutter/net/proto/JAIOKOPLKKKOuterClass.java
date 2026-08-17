@@ -27,11 +27,11 @@ public final class JAIOKOPLKKKOuterClass {
      * <code>._AutoChessEquip INCMICOJAMO = 9;</code>
      * @return The iNCMICOJAMO.
      */
-    emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip getINCMICOJAMO();
+    emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip getINCMICOJAMO();
     /**
      * <code>._AutoChessEquip INCMICOJAMO = 9;</code>
      */
-    emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquipOrBuilder getINCMICOJAMOOrBuilder();
+    emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquipOrBuilder getINCMICOJAMOOrBuilder();
   }
   /**
    * <pre>
@@ -83,11 +83,11 @@ public final class JAIOKOPLKKKOuterClass {
               done = true;
               break;
             case 74: {
-              emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.Builder subBuilder = null;
               if (iNCMICOJAMO_ != null) {
                 subBuilder = iNCMICOJAMO_.toBuilder();
               }
-              iNCMICOJAMO_ = input.readMessage(emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.parser(), extensionRegistry);
+              iNCMICOJAMO_ = input.readMessage(emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(iNCMICOJAMO_);
                 iNCMICOJAMO_ = subBuilder.buildPartial();
@@ -128,7 +128,7 @@ public final class JAIOKOPLKKKOuterClass {
     }
 
     public static final int INCMICOJAMO_FIELD_NUMBER = 9;
-    private emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip iNCMICOJAMO_;
+    private emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip iNCMICOJAMO_;
     /**
      * <code>._AutoChessEquip INCMICOJAMO = 9;</code>
      * @return Whether the iNCMICOJAMO field is set.
@@ -142,14 +142,14 @@ public final class JAIOKOPLKKKOuterClass {
      * @return The iNCMICOJAMO.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip getINCMICOJAMO() {
-      return iNCMICOJAMO_ == null ? emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.getDefaultInstance() : iNCMICOJAMO_;
+    public emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip getINCMICOJAMO() {
+      return iNCMICOJAMO_ == null ? emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.getDefaultInstance() : iNCMICOJAMO_;
     }
     /**
      * <code>._AutoChessEquip INCMICOJAMO = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquipOrBuilder getINCMICOJAMOOrBuilder() {
+    public emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquipOrBuilder getINCMICOJAMOOrBuilder() {
       return getINCMICOJAMO();
     }
 
@@ -472,9 +472,9 @@ public final class JAIOKOPLKKKOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip iNCMICOJAMO_;
+      private emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip iNCMICOJAMO_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.Builder, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquipOrBuilder> iNCMICOJAMOBuilder_;
+          emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.Builder, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquipOrBuilder> iNCMICOJAMOBuilder_;
       /**
        * <code>._AutoChessEquip INCMICOJAMO = 9;</code>
        * @return Whether the iNCMICOJAMO field is set.
@@ -486,9 +486,9 @@ public final class JAIOKOPLKKKOuterClass {
        * <code>._AutoChessEquip INCMICOJAMO = 9;</code>
        * @return The iNCMICOJAMO.
        */
-      public emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip getINCMICOJAMO() {
+      public emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip getINCMICOJAMO() {
         if (iNCMICOJAMOBuilder_ == null) {
-          return iNCMICOJAMO_ == null ? emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.getDefaultInstance() : iNCMICOJAMO_;
+          return iNCMICOJAMO_ == null ? emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.getDefaultInstance() : iNCMICOJAMO_;
         } else {
           return iNCMICOJAMOBuilder_.getMessage();
         }
@@ -496,7 +496,7 @@ public final class JAIOKOPLKKKOuterClass {
       /**
        * <code>._AutoChessEquip INCMICOJAMO = 9;</code>
        */
-      public Builder setINCMICOJAMO(emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip value) {
+      public Builder setINCMICOJAMO(emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip value) {
         if (iNCMICOJAMOBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -513,7 +513,7 @@ public final class JAIOKOPLKKKOuterClass {
        * <code>._AutoChessEquip INCMICOJAMO = 9;</code>
        */
       public Builder setINCMICOJAMO(
-          emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.Builder builderForValue) {
+          emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.Builder builderForValue) {
         if (iNCMICOJAMOBuilder_ == null) {
           iNCMICOJAMO_ = builderForValue.build();
           onChanged();
@@ -526,11 +526,11 @@ public final class JAIOKOPLKKKOuterClass {
       /**
        * <code>._AutoChessEquip INCMICOJAMO = 9;</code>
        */
-      public Builder mergeINCMICOJAMO(emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip value) {
+      public Builder mergeINCMICOJAMO(emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip value) {
         if (iNCMICOJAMOBuilder_ == null) {
           if (iNCMICOJAMO_ != null) {
             iNCMICOJAMO_ =
-              emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.newBuilder(iNCMICOJAMO_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.newBuilder(iNCMICOJAMO_).mergeFrom(value).buildPartial();
           } else {
             iNCMICOJAMO_ = value;
           }
@@ -558,7 +558,7 @@ public final class JAIOKOPLKKKOuterClass {
       /**
        * <code>._AutoChessEquip INCMICOJAMO = 9;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.Builder getINCMICOJAMOBuilder() {
+      public emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.Builder getINCMICOJAMOBuilder() {
         
         onChanged();
         return getINCMICOJAMOFieldBuilder().getBuilder();
@@ -566,23 +566,23 @@ public final class JAIOKOPLKKKOuterClass {
       /**
        * <code>._AutoChessEquip INCMICOJAMO = 9;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquipOrBuilder getINCMICOJAMOOrBuilder() {
+      public emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquipOrBuilder getINCMICOJAMOOrBuilder() {
         if (iNCMICOJAMOBuilder_ != null) {
           return iNCMICOJAMOBuilder_.getMessageOrBuilder();
         } else {
           return iNCMICOJAMO_ == null ?
-              emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.getDefaultInstance() : iNCMICOJAMO_;
+              emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.getDefaultInstance() : iNCMICOJAMO_;
         }
       }
       /**
        * <code>._AutoChessEquip INCMICOJAMO = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.Builder, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquipOrBuilder> 
+          emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.Builder, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquipOrBuilder> 
           getINCMICOJAMOFieldBuilder() {
         if (iNCMICOJAMOBuilder_ == null) {
           iNCMICOJAMOBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.Builder, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquipOrBuilder>(
+              emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.Builder, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquipOrBuilder>(
                   getINCMICOJAMO(),
                   getParentForChildren(),
                   isClean());
@@ -659,13 +659,13 @@ public final class JAIOKOPLKKKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JAIOKOPLKKK.proto\032\025_AutoChessEquip.pro" +
       "to\"4\n\013JAIOKOPLKKK\022%\n\013INCMICOJAMO\030\t \001(\0132\020" +
-      "._AutoChessEquipB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "._AutoChessEquipB2\n\031emu.grasscutter.net." +
+      "protoB\025JAIOKOPLKKKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.AutoChessEquip.getDescriptor(),
+          emu.grasscutter.net.proto._AutoChessEquipOuterClass.getDescriptor(),
         });
     internal_static_JAIOKOPLKKK_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -673,7 +673,7 @@ public final class JAIOKOPLKKKOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_JAIOKOPLKKK_descriptor,
         new java.lang.String[] { "INCMICOJAMO", });
-    emu.grasscutter.net.proto.AutoChessEquip.getDescriptor();
+    emu.grasscutter.net.proto._AutoChessEquipOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -1971,8 +1971,8 @@ public final class NBEAFKBLDEAOuterClass {
       "FH\000\022 \n\010mini_map\030\016 \001(\0132\014.IAOOMEEAPOFH\000\022)\n" +
       "\021none_intrinsic_ui\030\017 \001(\0132\014.MKCOECBPMFPH\000" +
       "\022,\n\024basic_active_control\030\020 \001(\0132\014.CGBKAJG" +
-      "INDBH\000B\010\n\006detailB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "INDBH\000B\010\n\006detailB2\n\031emu.grasscutter.net." +
+      "protoB\025NBEAFKBLDEAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

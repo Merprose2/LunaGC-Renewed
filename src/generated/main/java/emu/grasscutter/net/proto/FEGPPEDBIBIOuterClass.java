@@ -823,8 +823,8 @@ public final class FEGPPEDBIBIOuterClass {
       "\n\021FEGPPEDBIBI.proto\032\021FIILCPBGFPJ.proto\"V" +
       "\n\013FEGPPEDBIBI\022\020\n\010level_id\030\001 \001(\r\022\023\n\013FKBMJ" +
       "COMCJA\030\006 \003(\r\022 \n\nevent_type\030\r \001(\0162\014.FIILC" +
-      "PBGFPJB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "PBGFPJB2\n\031emu.grasscutter.net.protoB\025FEG" +
+      "PPEDBIBIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

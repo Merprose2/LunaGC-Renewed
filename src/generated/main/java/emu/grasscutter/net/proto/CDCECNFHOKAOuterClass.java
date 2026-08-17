@@ -446,8 +446,9 @@ public final class CDCECNFHOKAOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021CDCECNFHOKA.proto\"\r\n\013CDCECNFHOKAB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021CDCECNFHOKA.proto\"\r\n\013CDCECNFHOKAB2\n\031em" +
+      "u.grasscutter.net.protoB\025CDCECNFHOKAOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1567,8 +1567,8 @@ public final class NCKAKJEKMGNOuterClass {
       "\001(\0132\014.HHEDHCFPEKM\022\023\n\013OLIPGCONBJC\030\005 \001(\002\022\023" +
       "\n\013FNBIHPLBKLH\030\006 \001(\010\022\023\n\013LAINEKLMPKP\030\007 \001(\010" +
       "\022!\n\013EHOGLGOAMGJ\030\010 \001(\0132\014.PGDMAIHKGFO\022\023\n\013M" +
-      "CGOLBFHCJI\030\t \001(\010B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "CGOLBFHCJI\030\t \001(\010B2\n\031emu.grasscutter.net." +
+      "protoB\025NCKAKJEKMGNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

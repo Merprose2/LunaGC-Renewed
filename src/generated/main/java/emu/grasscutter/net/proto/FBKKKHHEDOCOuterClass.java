@@ -1467,8 +1467,9 @@ public final class FBKKKHHEDOCOuterClass {
       "HCKKMAK\022!\n\013BBJGCJNFMHE\030\002 \001(\0132\014.JHABMHAPM" +
       "PG\022!\n\013ADHKEJFIEND\030\003 \001(\0132\014.JHABMHAPMPG\022!\n" +
       "\013ACHGJINJDCI\030\004 \001(\0132\014.JHABMHAPMPG\022!\n\013NALE" +
-      "FEFHFHG\030\005 \001(\0132\014.HHEDHCFPEKMB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "FEFHFHG\030\005 \001(\0132\014.HHEDHCFPEKMB2\n\031emu.grass" +
+      "cutter.net.protoB\025FBKKKHHEDOCOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

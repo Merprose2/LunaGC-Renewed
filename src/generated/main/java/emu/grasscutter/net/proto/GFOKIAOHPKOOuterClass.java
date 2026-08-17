@@ -667,7 +667,8 @@ public final class GFOKIAOHPKOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GFOKIAOHPKO.proto\">\n\013GFOKIAOHPKO\022\014\n\004gu" +
       "id\030\010 \001(\006\022\020\n\010like_num\030\t \001(\r\022\017\n\007retcode\030\014 " +
-      "\001(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\005B2\n\031emu.grasscutter.net.protoB\025GFOKIA" +
+      "OHPKOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

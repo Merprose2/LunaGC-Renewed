@@ -854,8 +854,9 @@ public final class PlantFlowerSetFlowerWishReqOuterClass {
       "id\030\003 \001(\r\022F\n\016flower_num_map\030\006 \003(\0132..Plant" +
       "FlowerSetFlowerWishReq.FlowerNumMapEntry" +
       "\0323\n\021FlowerNumMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005va" +
-      "lue\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "lue\030\002 \001(\r:\0028\001BB\n\031emu.grasscutter.net.pro" +
+      "toB%PlantFlowerSetFlowerWishReqOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

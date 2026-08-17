@@ -595,8 +595,9 @@ public final class HAEDLDJLPAKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HAEDLDJLPAK.proto\"1\n\013HAEDLDJLPAK\022\r\n\005in" +
-      "dex\030\t \001(\r\022\023\n\013DHOJECCNGOF\030\013 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "dex\030\t \001(\r\022\023\n\013DHOJECCNGOF\030\013 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025HAEDLDJLPAKOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

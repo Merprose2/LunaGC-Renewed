@@ -1123,8 +1123,8 @@ public final class DEAFGFEJEOOOuterClass {
       "\000\022\023\n\tred_point\030A \001(\rH\000\022\037\n\024is_show_detail" +
       "_build\030\371\t \001(\010H\000\022\021\n\006bgm_id\030\246\014 \001(\rH\000\022(\n\035is" +
       "_show_brief_card_event_case\030\257\016 \001(\010H\000B\010\n\006" +
-      "detailB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "detailB2\n\031emu.grasscutter.net.protoB\025DEA" +
+      "FGFEJEOOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1027,8 +1027,9 @@ public final class IKMDPHDFGCEOuterClass {
       "\n\021IKMDPHDFGCE.proto\032\021HBGPJOBLDAC.proto\032\021" +
       "OODJKENFCMN.proto\"S\n\013IKMDPHDFGCE\022!\n\013KAFL" +
       "OBLCIMF\030\004 \001(\0132\014.OODJKENFCMN\022!\n\013NNEHKEFLP" +
-      "HH\030\005 \003(\0132\014.HBGPJOBLDACB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "HH\030\005 \003(\0132\014.HBGPJOBLDACB2\n\031emu.grasscutte" +
+      "r.net.protoB\025IKMDPHDFGCEOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

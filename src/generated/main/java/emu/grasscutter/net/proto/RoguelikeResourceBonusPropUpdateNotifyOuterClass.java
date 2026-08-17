@@ -528,8 +528,10 @@ public final class RoguelikeResourceBonusPropUpdateNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n,RoguelikeResourceBonusPropUpdateNotify" +
       ".proto\"E\n&RoguelikeResourceBonusPropUpda" +
-      "teNotify\022\033\n\023bonus_resource_prop\030\016 \001(\002B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "teNotify\022\033\n\023bonus_resource_prop\030\016 \001(\002BM\n" +
+      "\031emu.grasscutter.net.protoB0RoguelikeRes" +
+      "ourceBonusPropUpdateNotifyOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

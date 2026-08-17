@@ -1418,8 +1418,9 @@ public final class GCGWeekChallengeInfoNotifyOuterClass {
       "LCAFD\030\002 \003(\0132\n.ItemParam\022\023\n\013MFNJLBLKIFJ\030\010" +
       " \001(\r\0222\n\023challenge_info_list\030\t \003(\0132\025.GCGW" +
       "eekChallengeInfo\022\034\n\024is_notify_npc_change" +
-      "\030\013 \001(\010\022\031\n\021next_refresh_time\030\014 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\030\013 \001(\010\022\031\n\021next_refresh_time\030\014 \001(\rBA\n\031emu" +
+      ".grasscutter.net.protoB$GCGWeekChallenge" +
+      "InfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

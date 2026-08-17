@@ -973,8 +973,8 @@ public final class DAOLGNHEJOHOuterClass {
       "\n\021DAOLGNHEJOH.proto\032\021LIOOHMGNKGP.proto\"W" +
       "\n\013DAOLGNHEJOH\022\020\n\010level_id\030\003 \001(\r\022!\n\013DBHEE" +
       "NGPGDM\030\006 \003(\0132\014.LIOOHMGNKGP\022\023\n\013BCBLIJDGIG" +
-      "O\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "O\030\017 \001(\010B2\n\031emu.grasscutter.net.protoB\025DA" +
+      "OLGNHEJOHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

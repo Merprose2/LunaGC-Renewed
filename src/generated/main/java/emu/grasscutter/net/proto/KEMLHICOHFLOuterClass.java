@@ -1034,8 +1034,9 @@ public final class KEMLHICOHFLOuterClass {
       "\n\021KEMLHICOHFL.proto\032\021DNJBINOIFAI.proto\"o" +
       "\n\013KEMLHICOHFL\022!\n\013AEEPJOJJNLP\030\001 \003(\0132\014.DNJ" +
       "BINOIFAI\022\023\n\013OOEELMNHCIB\030\002 \001(\r\022\023\n\013AENLHFH" +
-      "BCMO\030\003 \001(\r\022\023\n\013GLHJCMHDBKH\030\004 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "BCMO\030\003 \001(\r\022\023\n\013GLHJCMHDBKH\030\004 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025KEMLHICOHFLOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

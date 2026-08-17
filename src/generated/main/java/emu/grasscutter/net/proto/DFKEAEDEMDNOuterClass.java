@@ -729,8 +729,9 @@ public final class DFKEAEDEMDNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DFKEAEDEMDN.proto\032\021IOJHNKOGKGC.proto\"E" +
       "\n\013DFKEAEDEMDN\022!\n\013ILCKIDJOHOG\030\005 \001(\0132\014.IOJ" +
-      "HNKOGKGC\022\023\n\013KMDOFBPMGAI\030\014 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "HNKOGKGC\022\023\n\013KMDOFBPMGAI\030\014 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025DFKEAEDEMDNOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -27,11 +27,11 @@ public final class EHGOLNKHENLOuterClass {
      * <code>._UgcDungeonBrief dungeon_brief = 3;</code>
      * @return The dungeonBrief.
      */
-    emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief getDungeonBrief();
+    emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief getDungeonBrief();
     /**
      * <code>._UgcDungeonBrief dungeon_brief = 3;</code>
      */
-    emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder getDungeonBriefOrBuilder();
+    emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder getDungeonBriefOrBuilder();
   }
   /**
    * <pre>
@@ -83,11 +83,11 @@ public final class EHGOLNKHENLOuterClass {
               done = true;
               break;
             case 26: {
-              emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder subBuilder = null;
+              emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder subBuilder = null;
               if (dungeonBrief_ != null) {
                 subBuilder = dungeonBrief_.toBuilder();
               }
-              dungeonBrief_ = input.readMessage(emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.parser(), extensionRegistry);
+              dungeonBrief_ = input.readMessage(emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dungeonBrief_);
                 dungeonBrief_ = subBuilder.buildPartial();
@@ -128,7 +128,7 @@ public final class EHGOLNKHENLOuterClass {
     }
 
     public static final int DUNGEON_BRIEF_FIELD_NUMBER = 3;
-    private emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief dungeonBrief_;
+    private emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief dungeonBrief_;
     /**
      * <code>._UgcDungeonBrief dungeon_brief = 3;</code>
      * @return Whether the dungeonBrief field is set.
@@ -142,14 +142,14 @@ public final class EHGOLNKHENLOuterClass {
      * @return The dungeonBrief.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief getDungeonBrief() {
-      return dungeonBrief_ == null ? emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.getDefaultInstance() : dungeonBrief_;
+    public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief getDungeonBrief() {
+      return dungeonBrief_ == null ? emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.getDefaultInstance() : dungeonBrief_;
     }
     /**
      * <code>._UgcDungeonBrief dungeon_brief = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder getDungeonBriefOrBuilder() {
+    public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder getDungeonBriefOrBuilder() {
       return getDungeonBrief();
     }
 
@@ -472,9 +472,9 @@ public final class EHGOLNKHENLOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief dungeonBrief_;
+      private emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief dungeonBrief_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder> dungeonBriefBuilder_;
+          emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder> dungeonBriefBuilder_;
       /**
        * <code>._UgcDungeonBrief dungeon_brief = 3;</code>
        * @return Whether the dungeonBrief field is set.
@@ -486,9 +486,9 @@ public final class EHGOLNKHENLOuterClass {
        * <code>._UgcDungeonBrief dungeon_brief = 3;</code>
        * @return The dungeonBrief.
        */
-      public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief getDungeonBrief() {
+      public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief getDungeonBrief() {
         if (dungeonBriefBuilder_ == null) {
-          return dungeonBrief_ == null ? emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.getDefaultInstance() : dungeonBrief_;
+          return dungeonBrief_ == null ? emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.getDefaultInstance() : dungeonBrief_;
         } else {
           return dungeonBriefBuilder_.getMessage();
         }
@@ -496,7 +496,7 @@ public final class EHGOLNKHENLOuterClass {
       /**
        * <code>._UgcDungeonBrief dungeon_brief = 3;</code>
        */
-      public Builder setDungeonBrief(emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief value) {
+      public Builder setDungeonBrief(emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief value) {
         if (dungeonBriefBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -513,7 +513,7 @@ public final class EHGOLNKHENLOuterClass {
        * <code>._UgcDungeonBrief dungeon_brief = 3;</code>
        */
       public Builder setDungeonBrief(
-          emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder builderForValue) {
+          emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder builderForValue) {
         if (dungeonBriefBuilder_ == null) {
           dungeonBrief_ = builderForValue.build();
           onChanged();
@@ -526,11 +526,11 @@ public final class EHGOLNKHENLOuterClass {
       /**
        * <code>._UgcDungeonBrief dungeon_brief = 3;</code>
        */
-      public Builder mergeDungeonBrief(emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief value) {
+      public Builder mergeDungeonBrief(emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief value) {
         if (dungeonBriefBuilder_ == null) {
           if (dungeonBrief_ != null) {
             dungeonBrief_ =
-              emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.newBuilder(dungeonBrief_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.newBuilder(dungeonBrief_).mergeFrom(value).buildPartial();
           } else {
             dungeonBrief_ = value;
           }
@@ -558,7 +558,7 @@ public final class EHGOLNKHENLOuterClass {
       /**
        * <code>._UgcDungeonBrief dungeon_brief = 3;</code>
        */
-      public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder getDungeonBriefBuilder() {
+      public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder getDungeonBriefBuilder() {
         
         onChanged();
         return getDungeonBriefFieldBuilder().getBuilder();
@@ -566,23 +566,23 @@ public final class EHGOLNKHENLOuterClass {
       /**
        * <code>._UgcDungeonBrief dungeon_brief = 3;</code>
        */
-      public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder getDungeonBriefOrBuilder() {
+      public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder getDungeonBriefOrBuilder() {
         if (dungeonBriefBuilder_ != null) {
           return dungeonBriefBuilder_.getMessageOrBuilder();
         } else {
           return dungeonBrief_ == null ?
-              emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.getDefaultInstance() : dungeonBrief_;
+              emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.getDefaultInstance() : dungeonBrief_;
         }
       }
       /**
        * <code>._UgcDungeonBrief dungeon_brief = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder> 
+          emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder> 
           getDungeonBriefFieldBuilder() {
         if (dungeonBriefBuilder_ == null) {
           dungeonBriefBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder>(
+              emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder>(
                   getDungeonBrief(),
                   getParentForChildren(),
                   isClean());
@@ -659,13 +659,13 @@ public final class EHGOLNKHENLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EHGOLNKHENL.proto\032\026_UgcDungeonBrief.pr" +
       "oto\"7\n\013EHGOLNKHENL\022(\n\rdungeon_brief\030\003 \001(" +
-      "\0132\021._UgcDungeonBriefB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\0132\021._UgcDungeonBriefB2\n\031emu.grasscutter." +
+      "net.protoB\025EHGOLNKHENLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.UgcDungeonBrief.getDescriptor(),
+          emu.grasscutter.net.proto._UgcDungeonBriefOuterClass.getDescriptor(),
         });
     internal_static_EHGOLNKHENL_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -673,7 +673,7 @@ public final class EHGOLNKHENLOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EHGOLNKHENL_descriptor,
         new java.lang.String[] { "DungeonBrief", });
-    emu.grasscutter.net.proto.UgcDungeonBrief.getDescriptor();
+    emu.grasscutter.net.proto._UgcDungeonBriefOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

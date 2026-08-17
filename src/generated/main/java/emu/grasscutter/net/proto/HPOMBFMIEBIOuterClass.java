@@ -810,8 +810,9 @@ public final class HPOMBFMIEBIOuterClass {
       "\n\021HPOMBFMIEBI.proto\"}\n\013HPOMBFMIEBI\022\017\n\007re" +
       "tcode\030\004 \001(\005\022\034\n\024is_unlock_next_level\030\014 \001(" +
       "\010\022\025\n\ris_new_record\030\r \001(\010\022\020\n\010ugc_guid\030\016 \001" +
-      "(\004\022\026\n\016music_basic_id\030\017 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "(\004\022\026\n\016music_basic_id\030\017 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025HPOMBFMIEBIOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

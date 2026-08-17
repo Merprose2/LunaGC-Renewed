@@ -635,8 +635,9 @@ public final class ViewLanternProjectionTipsReqOuterClass {
       "\n\"ViewLanternProjectionTipsReq.proto\032\025Cl" +
       "ientInputType.proto\"[\n\034ViewLanternProjec" +
       "tionTipsReq\022$\n\ninput_type\030\t \001(\0162\020.Client" +
-      "InputType\022\025\n\ris_input_tips\030\017 \001(\010B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "InputType\022\025\n\ris_input_tips\030\017 \001(\010BC\n\031emu." +
+      "grasscutter.net.protoB&ViewLanternProjec" +
+      "tionTipsReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

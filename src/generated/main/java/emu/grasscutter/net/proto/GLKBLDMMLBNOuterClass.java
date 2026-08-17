@@ -890,8 +890,9 @@ public final class GLKBLDMMLBNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GLKBLDMMLBN.proto\"\\\n\013GLKBLDMMLBN\022\023\n\013EG" +
       "DIHJLOMMB\030\001 \001(\t\022\023\n\013PCBGKHHKKHF\030\002 \001(\t\022\023\n\013" +
-      "GHEDPAEMNHJ\030\003 \001(\003\022\016\n\006height\030\004 \001(\003B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "GHEDPAEMNHJ\030\003 \001(\003\022\016\n\006height\030\004 \001(\003B2\n\031emu" +
+      ".grasscutter.net.protoB\025GLKBLDMMLBNOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

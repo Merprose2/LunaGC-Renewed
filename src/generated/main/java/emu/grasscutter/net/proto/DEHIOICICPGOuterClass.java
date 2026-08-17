@@ -973,8 +973,8 @@ public final class DEHIOICICPGOuterClass {
       "\n\021DEHIOICICPG.proto\032\020Uint32Pair.proto\"Y\n" +
       "\013DEHIOICICPG\022 \n\013KELACCGLIKH\030\005 \003(\0132\013.Uint" +
       "32Pair\022\023\n\013IGKJAFFKCOM\030\010 \001(\010\022\023\n\013JMHIPOJCG" +
-      "CK\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "CK\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025D" +
+      "EHIOICICPGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

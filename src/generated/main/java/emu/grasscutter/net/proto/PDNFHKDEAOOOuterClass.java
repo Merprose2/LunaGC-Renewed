@@ -1002,8 +1002,8 @@ public final class PDNFHKDEAOOOuterClass {
       "\001\n\013PDNFHKDEAOO\022\020\n\010level_id\030\001 \001(\004\022\023\n\013EGPK" +
       "BMDLBLC\030\002 \001(\t\022!\n\013JDELNJOOHGJ\030\003 \001(\0162\014.MDM" +
       "BELAHIKG\022\022\n\nrequest_id\030\004 \001(\t\022\023\n\013NGEDGDGB" +
-      "AID\030\005 \001(\014B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "AID\030\005 \001(\014B2\n\031emu.grasscutter.net.protoB\025" +
+      "PDNFHKDEAOOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

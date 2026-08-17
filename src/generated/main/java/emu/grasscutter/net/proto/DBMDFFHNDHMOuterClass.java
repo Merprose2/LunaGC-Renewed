@@ -666,8 +666,8 @@ public final class DBMDFFHNDHMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DBMDFFHNDHM.proto\"H\n\013DBMDFFHNDHM\022\023\n\013EG" +
       "CIEPCEPBH\030\005 \001(\r\022\017\n\007retcode\030\007 \001(\005\022\023\n\013NMIL" +
-      "LHEHGGN\030\016 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "LHEHGGN\030\016 \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025DBMDFFHNDHMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

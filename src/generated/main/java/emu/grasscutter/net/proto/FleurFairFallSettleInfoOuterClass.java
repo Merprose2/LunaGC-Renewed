@@ -723,8 +723,9 @@ public final class FleurFairFallSettleInfoOuterClass {
       "\n\035FleurFairFallSettleInfo.proto\032\024FallSet" +
       "tleInfo.proto\"V\n\027FleurFairFallSettleInfo" +
       "\022\025\n\ris_new_record\030\007 \001(\010\022$\n\013settle_info\030\017" +
-      " \001(\0132\017.FallSettleInfoB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      " \001(\0132\017.FallSettleInfoB>\n\031emu.grasscutter" +
+      ".net.protoB!FleurFairFallSettleInfoOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

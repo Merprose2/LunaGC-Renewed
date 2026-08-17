@@ -454,8 +454,9 @@ public final class CKNEAEHPIPAOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021CKNEAEHPIPA.proto\"\r\n\013CKNEAEHPIPAB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021CKNEAEHPIPA.proto\"\r\n\013CKNEAEHPIPAB2\n\031em" +
+      "u.grasscutter.net.protoB\025CKNEAEHPIPAOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

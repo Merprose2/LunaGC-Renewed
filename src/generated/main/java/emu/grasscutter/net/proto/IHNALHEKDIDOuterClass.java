@@ -696,8 +696,8 @@ public final class IHNALHEKDIDOuterClass {
       "\n\021IHNALHEKDID.proto\032\021EDDKANMEDNL.proto\"X" +
       "\n\013IHNALHEKDID\022!\n\013CHCECLJJEJB\030\002 \001(\0162\014.EDD" +
       "KANMEDNL\022\023\n\013NOMMHKJEGDK\030\006 \001(\r\022\021\n\tavatar_" +
-      "id\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\014 \001(\rB2\n\031emu.grasscutter.net.protoB\025I" +
+      "HNALHEKDIDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

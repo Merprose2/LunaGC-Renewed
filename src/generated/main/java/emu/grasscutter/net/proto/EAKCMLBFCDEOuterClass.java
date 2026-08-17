@@ -142,8 +142,9 @@ public final class EAKCMLBFCDEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EAKCMLBFCDE.proto*U\n\013EAKCMLBFCDE\022\024\n\020EA" +
       "KCMLBFCDE_NONE\020\000\022\027\n\023EAKCMLBFCDE_DEFAULT\020" +
-      "\001\022\027\n\023EAKCMLBFCDE_INVALID\020\002B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\001\022\027\n\023EAKCMLBFCDE_INVALID\020\002B2\n\031emu.grassc" +
+      "utter.net.protoB\025EAKCMLBFCDEOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

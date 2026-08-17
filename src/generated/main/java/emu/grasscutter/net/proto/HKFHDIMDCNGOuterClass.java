@@ -2385,8 +2385,9 @@ public final class HKFHDIMDCNGOuterClass {
       "CIGCFP\022\023\n\013KPPDOLBJJDK\030\t \003(\t\022!\n\013COBBPELKG" +
       "NA\030\n \001(\0132\014.HHEDHCFPEKM\022\026\n\016int_param_list" +
       "\030\013 \003(\005\022!\n\013LKKBPBEEGNM\030\014 \001(\0132\014.EBADNHGKAA" +
-      "P\022!\n\013FGDIAEDDLJH\030\r \001(\0132\014.OHDJEHNCIGNB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "P\022!\n\013FGDIAEDDLJH\030\r \001(\0132\014.OHDJEHNCIGNB2\n\031" +
+      "emu.grasscutter.net.protoB\025HKFHDIMDCNGOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -729,7 +729,8 @@ public final class LDMNGKLEBAEOuterClass {
       "\n\021LDMNGKLEBAE.proto\"e\n\013LDMNGKLEBAE\022\024\n\013OI" +
       "DAFKNBPAK\030\365\003 \001(\005\022\024\n\013JGLEHNFBAMJ\030\366\003 \001(\005\022\024" +
       "\n\013EIGMINLGMIK\030\367\003 \001(\005\022\024\n\013LGHLKGGDFCB\030\370\003 \001" +
-      "(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\005B2\n\031emu.grasscutter.net.protoB\025LDMNGKL" +
+      "EBAEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

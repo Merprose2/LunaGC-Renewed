@@ -666,8 +666,9 @@ public final class MonsterAIConfigHashNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037MonsterAIConfigHashNotify.proto\"R\n\031Mon" +
       "sterAIConfigHashNotify\022\016\n\006job_id\030\010 \001(\r\022\022" +
-      "\n\nhash_value\030\r \001(\005\022\021\n\tentity_id\030\017 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\n\nhash_value\030\r \001(\005\022\021\n\tentity_id\030\017 \001(\rB@\n" +
+      "\031emu.grasscutter.net.protoB#MonsterAICon" +
+      "figHashNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

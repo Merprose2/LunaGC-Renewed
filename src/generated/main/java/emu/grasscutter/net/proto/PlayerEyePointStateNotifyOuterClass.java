@@ -2024,8 +2024,9 @@ public final class PlayerEyePointStateNotifyOuterClass {
       "_size\030\213\002 \001(\0132\022.PolygonRegionSizeH\000\022\030\n\rsp" +
       "here_radius\030\371\002 \001(\002H\000\022-\n\rcylinder_size\030\340\003" +
       " \001(\0132\023.CylinderRegionSizeH\000\022\036\n\ncubic_siz" +
-      "e\030\215\017 \001(\0132\007.VectorH\000B\r\n\013region_sizeB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "e\030\215\017 \001(\0132\007.VectorH\000B\r\n\013region_sizeB@\n\031em" +
+      "u.grasscutter.net.protoB#PlayerEyePointS" +
+      "tateNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

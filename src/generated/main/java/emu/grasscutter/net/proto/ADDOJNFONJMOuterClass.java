@@ -964,8 +964,8 @@ public final class ADDOJNFONJMOuterClass {
       "\n\021ADDOJNFONJM.proto\032\021EEGDKAJMCDA.proto\"[" +
       "\n\013ADDOJNFONJM\022\023\n\013HEHPBOHJINA\030\001 \001(\r\022!\n\013PG" +
       "OCCPDHGNH\030\002 \003(\0132\014.JFGFNKFDBMM\022\024\n\013COHNFJI" +
-      "ALLJ\030\365\003 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "ALLJ\030\365\003 \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "B\025ADDOJNFONJMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -176,7 +176,8 @@ public final class IHOKJCFJKADOuterClass {
       "COLOR_BLUE\020\003\0225\n1IHOKJCFJKAD_BEYOND_ENVIR" +
       "ONMENT_LIGHT_COLOR_ORANGE\020\004\0222\n.IHOKJCFJK" +
       "AD_BEYOND_ENVIRONMENT_LIGHT_COLOR_RED\020\005B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025IHOKJCFJKA" +
+      "DOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

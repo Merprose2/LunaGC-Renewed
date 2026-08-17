@@ -48,11 +48,11 @@ public final class DungeonCandidateTeamAvatarOuterClass {
      * <code>._UgcDungeonAvatarInfo ugc_avatar_info = 241;</code>
      * @return The ugcAvatarInfo.
      */
-    emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo getUgcAvatarInfo();
+    emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo getUgcAvatarInfo();
     /**
      * <code>._UgcDungeonAvatarInfo ugc_avatar_info = 241;</code>
      */
-    emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfoOrBuilder getUgcAvatarInfoOrBuilder();
+    emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfoOrBuilder getUgcAvatarInfoOrBuilder();
 
     public emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.DetailCase getDetailCase();
   }
@@ -120,14 +120,14 @@ public final class DungeonCandidateTeamAvatarOuterClass {
               break;
             }
             case 1930: {
-              emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo.Builder subBuilder = null;
               if (detailCase_ == 241) {
-                subBuilder = ((emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 241;
@@ -255,21 +255,21 @@ public final class DungeonCandidateTeamAvatarOuterClass {
      * @return The ugcAvatarInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo getUgcAvatarInfo() {
+    public emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo getUgcAvatarInfo() {
       if (detailCase_ == 241) {
-         return (emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo) detail_;
+         return (emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo) detail_;
       }
-      return emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo.getDefaultInstance();
     }
     /**
      * <code>._UgcDungeonAvatarInfo ugc_avatar_info = 241;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfoOrBuilder getUgcAvatarInfoOrBuilder() {
+    public emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfoOrBuilder getUgcAvatarInfoOrBuilder() {
       if (detailCase_ == 241) {
-         return (emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo) detail_;
+         return (emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo) detail_;
       }
-      return emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -293,7 +293,7 @@ public final class DungeonCandidateTeamAvatarOuterClass {
         output.writeUInt32(12, playerUid_);
       }
       if (detailCase_ == 241) {
-        output.writeMessage(241, (emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo) detail_);
+        output.writeMessage(241, (emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -314,7 +314,7 @@ public final class DungeonCandidateTeamAvatarOuterClass {
       }
       if (detailCase_ == 241) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(241, (emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo) detail_);
+          .computeMessageSize(241, (emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -813,7 +813,7 @@ public final class DungeonCandidateTeamAvatarOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo, emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo.Builder, emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfoOrBuilder> ugcAvatarInfoBuilder_;
+          emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo, emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo.Builder, emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfoOrBuilder> ugcAvatarInfoBuilder_;
       /**
        * <code>._UgcDungeonAvatarInfo ugc_avatar_info = 241;</code>
        * @return Whether the ugcAvatarInfo field is set.
@@ -827,23 +827,23 @@ public final class DungeonCandidateTeamAvatarOuterClass {
        * @return The ugcAvatarInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo getUgcAvatarInfo() {
+      public emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo getUgcAvatarInfo() {
         if (ugcAvatarInfoBuilder_ == null) {
           if (detailCase_ == 241) {
-            return (emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo) detail_;
+            return (emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo) detail_;
           }
-          return emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 241) {
             return ugcAvatarInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._UgcDungeonAvatarInfo ugc_avatar_info = 241;</code>
        */
-      public Builder setUgcAvatarInfo(emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo value) {
+      public Builder setUgcAvatarInfo(emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo value) {
         if (ugcAvatarInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -860,7 +860,7 @@ public final class DungeonCandidateTeamAvatarOuterClass {
        * <code>._UgcDungeonAvatarInfo ugc_avatar_info = 241;</code>
        */
       public Builder setUgcAvatarInfo(
-          emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo.Builder builderForValue) {
         if (ugcAvatarInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -873,11 +873,11 @@ public final class DungeonCandidateTeamAvatarOuterClass {
       /**
        * <code>._UgcDungeonAvatarInfo ugc_avatar_info = 241;</code>
        */
-      public Builder mergeUgcAvatarInfo(emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo value) {
+      public Builder mergeUgcAvatarInfo(emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo value) {
         if (ugcAvatarInfoBuilder_ == null) {
           if (detailCase_ == 241 &&
-              detail_ != emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo.newBuilder((emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo.newBuilder((emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -914,36 +914,36 @@ public final class DungeonCandidateTeamAvatarOuterClass {
       /**
        * <code>._UgcDungeonAvatarInfo ugc_avatar_info = 241;</code>
        */
-      public emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo.Builder getUgcAvatarInfoBuilder() {
+      public emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo.Builder getUgcAvatarInfoBuilder() {
         return getUgcAvatarInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._UgcDungeonAvatarInfo ugc_avatar_info = 241;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfoOrBuilder getUgcAvatarInfoOrBuilder() {
+      public emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfoOrBuilder getUgcAvatarInfoOrBuilder() {
         if ((detailCase_ == 241) && (ugcAvatarInfoBuilder_ != null)) {
           return ugcAvatarInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 241) {
-            return (emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo) detail_;
+            return (emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo) detail_;
           }
-          return emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._UgcDungeonAvatarInfo ugc_avatar_info = 241;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo, emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo.Builder, emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfoOrBuilder> 
+          emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo, emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo.Builder, emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfoOrBuilder> 
           getUgcAvatarInfoFieldBuilder() {
         if (ugcAvatarInfoBuilder_ == null) {
           if (!(detailCase_ == 241)) {
-            detail_ = emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo.getDefaultInstance();
           }
           ugcAvatarInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo, emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo.Builder, emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.UgcDungeonAvatarInfo._UgcDungeonAvatarInfo) detail_,
+              emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo, emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo.Builder, emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass._UgcDungeonAvatarInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1024,14 +1024,15 @@ public final class DungeonCandidateTeamAvatarOuterClass {
       "o\"\220\001\n\032DungeonCandidateTeamAvatar\022 \n\013avat" +
       "ar_info\030\004 \001(\0132\013.AvatarInfo\022\022\n\nplayer_uid" +
       "\030\014 \001(\r\0222\n\017ugc_avatar_info\030\361\001 \001(\0132\026._UgcD" +
-      "ungeonAvatarInfoH\000B\010\n\006detailB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "ungeonAvatarInfoH\000B\010\n\006detailBA\n\031emu.gras" +
+      "scutter.net.protoB$DungeonCandidateTeamA" +
+      "vatarOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.AvatarInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.UgcDungeonAvatarInfo.getDescriptor(),
+          emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass.getDescriptor(),
         });
     internal_static_DungeonCandidateTeamAvatar_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1040,7 +1041,7 @@ public final class DungeonCandidateTeamAvatarOuterClass {
         internal_static_DungeonCandidateTeamAvatar_descriptor,
         new java.lang.String[] { "AvatarInfo", "PlayerUid", "UgcAvatarInfo", "Detail", });
     emu.grasscutter.net.proto.AvatarInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.UgcDungeonAvatarInfo.getDescriptor();
+    emu.grasscutter.net.proto._UgcDungeonAvatarInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

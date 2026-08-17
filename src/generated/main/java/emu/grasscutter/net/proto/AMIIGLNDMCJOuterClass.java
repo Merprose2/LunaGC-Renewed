@@ -1634,7 +1634,8 @@ public final class AMIIGLNDMCJOuterClass {
       "FELNNEAAF\022\024\n\013KGNMJJAPMAO\030\372\003 \001(\005\022\024\n\013ICPIB" +
       "OIPCEL\030\373\003 \001(\005\022\024\n\013DOKIJHIHAHO\030\374\003 \001(\005\022\024\n\013E" +
       "CIAAJHKCHM\030\375\003 \001(\010\022\024\n\013MIKMCDALGGL\030\376\003 \001(\005B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025AMIIGLNDMC" +
+      "JOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

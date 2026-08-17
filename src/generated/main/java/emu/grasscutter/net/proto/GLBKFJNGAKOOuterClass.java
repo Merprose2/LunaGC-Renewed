@@ -816,8 +816,9 @@ public final class GLBKFJNGAKOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GLBKFJNGAKO.proto\"a\n\013GLBKFJNGAKO\022\023\n\013HK" +
       "BEKNHFLJN\030\001 \001(\r\022\023\n\013IIJDJKINHKP\030\004 \001(\005\022\023\n\013" +
-      "CPEALKCHCDE\030\t \001(\t\022\023\n\013LEOCNCHLCOG\030\017 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "CPEALKCHCDE\030\t \001(\t\022\023\n\013LEOCNCHLCOG\030\017 \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025GLBKFJNGAKO" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

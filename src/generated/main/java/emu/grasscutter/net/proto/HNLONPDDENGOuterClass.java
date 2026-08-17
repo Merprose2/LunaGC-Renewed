@@ -652,8 +652,8 @@ public final class HNLONPDDENGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HNLONPDDENG.proto\"\"\n\013HNLONPDDENG\022\023\n\013FI" +
-      "FEGDOPPEM\030\001 \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "FEGDOPPEM\030\001 \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025HNLONPDDENGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

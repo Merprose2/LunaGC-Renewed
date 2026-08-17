@@ -2055,8 +2055,9 @@ public final class CHJPLKFOOCGOuterClass {
       "GELLEGGFN\022\023\n\013JLDMBIIOAFN\030\002 \003(\r\022\023\n\013DCEEKC" +
       "IHLGP\030\003 \003(\r\022\023\n\013EKAGNCEAPDJ\030\004 \003(\r\022\023\n\013EGJC" +
       "JIEBKNC\030\005 \003(\r\022\023\n\013DEAKFBNIJOK\030\006 \003(\r\022\023\n\013EA" +
-      "MKBCIOADD\030\007 \003(\r\022\023\n\013NKAHADLFHDD\030\010 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "MKBCIOADD\030\007 \003(\r\022\023\n\013NKAHADLFHDD\030\010 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025CHJPLKFOOCGOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

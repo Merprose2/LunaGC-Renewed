@@ -659,8 +659,8 @@ public final class PMGFGPFNNDBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PMGFGPFNNDB.proto\"O\n\013PMGFGPFNNDB\022\024\n\013PD" +
       "GKANOAIKO\030\365\003 \001(\010\022\024\n\013NAJLJNNMNGL\030\366\003 \001(\r\022\024" +
-      "\n\013MJJGNGLGAHF\030\367\003 \001(\005B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\n\013MJJGNGLGAHF\030\367\003 \001(\005B2\n\031emu.grasscutter." +
+      "net.protoB\025PMGFGPFNNDBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

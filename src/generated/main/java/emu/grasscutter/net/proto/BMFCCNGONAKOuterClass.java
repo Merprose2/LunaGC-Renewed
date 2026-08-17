@@ -1152,8 +1152,8 @@ public final class BMFCCNGONAKOuterClass {
       "HJKKDOLHNGK.proto\"v\n\013BMFCCNGONAK\022!\n\013MCGH" +
       "LOLCABO\030\001 \003(\0132\014.HJKKDOLHNGK\022\014\n\004name\030\002 \001(" +
       "\t\022!\n\013CENFHFBNJFL\030\003 \001(\0162\014.CPFMJKJAGJM\022\023\n\013" +
-      "HLPOHCDONIK\030\004 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "HLPOHCDONIK\030\004 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025BMFCCNGONAKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

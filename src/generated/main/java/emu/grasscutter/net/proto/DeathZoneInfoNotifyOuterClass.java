@@ -831,8 +831,9 @@ public final class DeathZoneInfoNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031DeathZoneInfoNotify.proto\032\023DeathZoneIn" +
       "fo.proto\"C\n\023DeathZoneInfoNotify\022,\n\024death" +
-      "_zone_info_list\030\014 \003(\0132\016.DeathZoneInfoB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "_zone_info_list\030\014 \003(\0132\016.DeathZoneInfoB:\n" +
+      "\031emu.grasscutter.net.protoB\035DeathZoneInf" +
+      "oNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

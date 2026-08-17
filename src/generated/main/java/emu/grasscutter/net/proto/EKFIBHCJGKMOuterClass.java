@@ -659,7 +659,8 @@ public final class EKFIBHCJGKMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EKFIBHCJGKM.proto\032\021BNJGIMAFELC.proto\")" +
       "\n\013EKFIBHCJGKM\022\032\n\004mark\030\002 \001(\0132\014.BNJGIMAFEL" +
-      "CB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "CB2\n\031emu.grasscutter.net.protoB\025EKFIBHCJ" +
+      "GKMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

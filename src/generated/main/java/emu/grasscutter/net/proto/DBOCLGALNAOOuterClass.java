@@ -818,8 +818,8 @@ public final class DBOCLGALNAOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DBOCLGALNAO.proto\"J\n\013DBOCLGALNAO\022\022\n\npr" +
       "oduct_id\030\001 \001(\t\022\022\n\nprice_tier\030\002 \001(\t\022\023\n\013sc" +
-      "hedule_id\030\003 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "hedule_id\030\003 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025DBOCLGALNAOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -721,8 +721,9 @@ public final class BuyGoodsParamOuterClass {
     java.lang.String[] descriptorData = {
       "\n\023BuyGoodsParam.proto\032\017ShopGoods.proto\"=" +
       "\n\rBuyGoodsParam\022\031\n\005goods\030\007 \001(\0132\n.ShopGoo" +
-      "ds\022\021\n\tbuy_count\030\t \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "ds\022\021\n\tbuy_count\030\t \001(\rB4\n\031emu.grasscutter" +
+      ".net.protoB\027BuyGoodsParamOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

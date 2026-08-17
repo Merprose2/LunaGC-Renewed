@@ -454,8 +454,9 @@ public final class LPNIHEHKLINOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021LPNIHEHKLIN.proto\"\r\n\013LPNIHEHKLINB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021LPNIHEHKLIN.proto\"\r\n\013LPNIHEHKLINB2\n\031em" +
+      "u.grasscutter.net.protoB\025LPNIHEHKLINOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

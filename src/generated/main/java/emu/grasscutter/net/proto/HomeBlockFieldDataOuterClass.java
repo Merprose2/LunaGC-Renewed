@@ -1372,8 +1372,9 @@ public final class HomeBlockFieldDataOuterClass {
       "ockFieldData\022\024\n\003rot\030\001 \001(\0132\007.Vector\022\024\n\003po" +
       "s\030\t \001(\0132\007.Vector\022\024\n\014furniture_id\030\n \001(\r\022\014" +
       "\n\004guid\030\r \001(\r\022.\n\016sub_field_list\030\017 \003(\0132\026.H" +
-      "omeBlockSubFieldDataB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "omeBlockSubFieldDataB9\n\031emu.grasscutter." +
+      "net.protoB\034HomeBlockFieldDataOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

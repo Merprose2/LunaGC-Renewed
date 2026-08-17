@@ -184,8 +184,9 @@ public final class FoundationOpTypeOuterClass {
       "DATION_OP_REBUILD\020\003\022)\n%FoundationOpType_" +
       "FOUNDATION_OP_ROTATE\020\004\022\'\n#FoundationOpTy" +
       "pe_FOUNDATION_OP_LOCK\020\005\022)\n%FoundationOpT" +
-      "ype_FOUNDATION_OP_UNLOCK\020\006B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "ype_FOUNDATION_OP_UNLOCK\020\006B7\n\031emu.grassc" +
+      "utter.net.protoB\032FoundationOpTypeOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

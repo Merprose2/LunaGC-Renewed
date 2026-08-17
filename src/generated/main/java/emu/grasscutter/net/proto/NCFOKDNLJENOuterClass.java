@@ -525,8 +525,8 @@ public final class NCFOKDNLJENOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NCFOKDNLJEN.proto\"\"\n\013NCFOKDNLJEN\022\023\n\013II" +
-      "ABJJPNPIJ\030\016 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "ABJJPNPIJ\030\016 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025NCFOKDNLJENOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

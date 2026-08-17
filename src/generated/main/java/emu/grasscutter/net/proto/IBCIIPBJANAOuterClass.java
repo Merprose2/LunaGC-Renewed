@@ -704,8 +704,9 @@ public final class IBCIIPBJANAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IBCIIPBJANA.proto\032\rUgcType.proto\"L\n\013IB" +
       "CIIPBJANA\022\017\n\007retcode\030\004 \001(\005\022\020\n\010ugc_guid\030\006" +
-      " \001(\004\022\032\n\010ugc_type\030\010 \001(\0162\010.UgcTypeB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      " \001(\004\022\032\n\010ugc_type\030\010 \001(\0162\010.UgcTypeB2\n\031emu." +
+      "grasscutter.net.protoB\025IBCIIPBJANAOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

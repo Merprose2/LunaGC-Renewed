@@ -865,8 +865,9 @@ public final class SelectEffigyChallengeConditionRspOuterClass {
       "o\"|\n!SelectEffigyChallengeConditionRsp\022\024" +
       "\n\014challenge_id\030\006 \001(\r\022\031\n\021condition_id_lis" +
       "t\030\n \003(\r\022\017\n\007retcode\030\016 \001(\005\022\025\n\rdifficulty_i" +
-      "d\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "d\030\017 \001(\rBH\n\031emu.grasscutter.net.protoB+Se" +
+      "lectEffigyChallengeConditionRspOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

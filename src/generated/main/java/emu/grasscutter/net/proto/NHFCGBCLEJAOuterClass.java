@@ -21,12 +21,12 @@ public final class NHFCGBCLEJAOuterClass {
     /**
      * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo> 
+    java.util.List<emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo> 
         getPPENJHKDFHJList();
     /**
      * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
      */
-    emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo getPPENJHKDFHJ(int index);
+    emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo getPPENJHKDFHJ(int index);
     /**
      * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
      */
@@ -34,12 +34,12 @@ public final class NHFCGBCLEJAOuterClass {
     /**
      * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfoOrBuilder> 
         getPPENJHKDFHJOrBuilderList();
     /**
      * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
      */
-    emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfoOrBuilder getPPENJHKDFHJOrBuilder(
+    emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfoOrBuilder getPPENJHKDFHJOrBuilder(
         int index);
   }
   /**
@@ -95,11 +95,11 @@ public final class NHFCGBCLEJAOuterClass {
               break;
             case 74: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                pPENJHKDFHJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo>();
+                pPENJHKDFHJ_ = new java.util.ArrayList<emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               pPENJHKDFHJ_.add(
-                  input.readMessage(emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -138,19 +138,19 @@ public final class NHFCGBCLEJAOuterClass {
     }
 
     public static final int PPENJHKDFHJ_FIELD_NUMBER = 9;
-    private java.util.List<emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo> pPENJHKDFHJ_;
+    private java.util.List<emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo> pPENJHKDFHJ_;
     /**
      * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo> getPPENJHKDFHJList() {
+    public java.util.List<emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo> getPPENJHKDFHJList() {
       return pPENJHKDFHJ_;
     }
     /**
      * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfoOrBuilder> 
         getPPENJHKDFHJOrBuilderList() {
       return pPENJHKDFHJ_;
     }
@@ -165,14 +165,14 @@ public final class NHFCGBCLEJAOuterClass {
      * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo getPPENJHKDFHJ(int index) {
+    public emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo getPPENJHKDFHJ(int index) {
       return pPENJHKDFHJ_.get(index);
     }
     /**
      * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfoOrBuilder getPPENJHKDFHJOrBuilder(
+    public emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfoOrBuilder getPPENJHKDFHJOrBuilder(
         int index) {
       return pPENJHKDFHJ_.get(index);
     }
@@ -523,22 +523,22 @@ public final class NHFCGBCLEJAOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo> pPENJHKDFHJ_ =
+      private java.util.List<emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo> pPENJHKDFHJ_ =
         java.util.Collections.emptyList();
       private void ensurePPENJHKDFHJIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          pPENJHKDFHJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo>(pPENJHKDFHJ_);
+          pPENJHKDFHJ_ = new java.util.ArrayList<emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo>(pPENJHKDFHJ_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo, emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo.Builder, emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfoOrBuilder> pPENJHKDFHJBuilder_;
+          emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo, emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo.Builder, emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfoOrBuilder> pPENJHKDFHJBuilder_;
 
       /**
        * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo> getPPENJHKDFHJList() {
+      public java.util.List<emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo> getPPENJHKDFHJList() {
         if (pPENJHKDFHJBuilder_ == null) {
           return java.util.Collections.unmodifiableList(pPENJHKDFHJ_);
         } else {
@@ -558,7 +558,7 @@ public final class NHFCGBCLEJAOuterClass {
       /**
        * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo getPPENJHKDFHJ(int index) {
+      public emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo getPPENJHKDFHJ(int index) {
         if (pPENJHKDFHJBuilder_ == null) {
           return pPENJHKDFHJ_.get(index);
         } else {
@@ -569,7 +569,7 @@ public final class NHFCGBCLEJAOuterClass {
        * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
        */
       public Builder setPPENJHKDFHJ(
-          int index, emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo value) {
+          int index, emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo value) {
         if (pPENJHKDFHJBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -586,7 +586,7 @@ public final class NHFCGBCLEJAOuterClass {
        * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
        */
       public Builder setPPENJHKDFHJ(
-          int index, emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo.Builder builderForValue) {
         if (pPENJHKDFHJBuilder_ == null) {
           ensurePPENJHKDFHJIsMutable();
           pPENJHKDFHJ_.set(index, builderForValue.build());
@@ -599,7 +599,7 @@ public final class NHFCGBCLEJAOuterClass {
       /**
        * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
        */
-      public Builder addPPENJHKDFHJ(emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo value) {
+      public Builder addPPENJHKDFHJ(emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo value) {
         if (pPENJHKDFHJBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -616,7 +616,7 @@ public final class NHFCGBCLEJAOuterClass {
        * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
        */
       public Builder addPPENJHKDFHJ(
-          int index, emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo value) {
+          int index, emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo value) {
         if (pPENJHKDFHJBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -633,7 +633,7 @@ public final class NHFCGBCLEJAOuterClass {
        * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
        */
       public Builder addPPENJHKDFHJ(
-          emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo.Builder builderForValue) {
         if (pPENJHKDFHJBuilder_ == null) {
           ensurePPENJHKDFHJIsMutable();
           pPENJHKDFHJ_.add(builderForValue.build());
@@ -647,7 +647,7 @@ public final class NHFCGBCLEJAOuterClass {
        * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
        */
       public Builder addPPENJHKDFHJ(
-          int index, emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo.Builder builderForValue) {
         if (pPENJHKDFHJBuilder_ == null) {
           ensurePPENJHKDFHJIsMutable();
           pPENJHKDFHJ_.add(index, builderForValue.build());
@@ -661,7 +661,7 @@ public final class NHFCGBCLEJAOuterClass {
        * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
        */
       public Builder addAllPPENJHKDFHJ(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo> values) {
         if (pPENJHKDFHJBuilder_ == null) {
           ensurePPENJHKDFHJIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -701,14 +701,14 @@ public final class NHFCGBCLEJAOuterClass {
       /**
        * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo.Builder getPPENJHKDFHJBuilder(
+      public emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo.Builder getPPENJHKDFHJBuilder(
           int index) {
         return getPPENJHKDFHJFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfoOrBuilder getPPENJHKDFHJOrBuilder(
+      public emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfoOrBuilder getPPENJHKDFHJOrBuilder(
           int index) {
         if (pPENJHKDFHJBuilder_ == null) {
           return pPENJHKDFHJ_.get(index);  } else {
@@ -718,7 +718,7 @@ public final class NHFCGBCLEJAOuterClass {
       /**
        * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfoOrBuilder> 
            getPPENJHKDFHJOrBuilderList() {
         if (pPENJHKDFHJBuilder_ != null) {
           return pPENJHKDFHJBuilder_.getMessageOrBuilderList();
@@ -729,31 +729,31 @@ public final class NHFCGBCLEJAOuterClass {
       /**
        * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo.Builder addPPENJHKDFHJBuilder() {
+      public emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo.Builder addPPENJHKDFHJBuilder() {
         return getPPENJHKDFHJFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo.Builder addPPENJHKDFHJBuilder(
+      public emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo.Builder addPPENJHKDFHJBuilder(
           int index) {
         return getPPENJHKDFHJFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._MonsterChessV2CardStarUpInfo PPENJHKDFHJ = 9;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo.Builder> 
            getPPENJHKDFHJBuilderList() {
         return getPPENJHKDFHJFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo, emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo.Builder, emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfoOrBuilder> 
+          emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo, emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo.Builder, emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfoOrBuilder> 
           getPPENJHKDFHJFieldBuilder() {
         if (pPENJHKDFHJBuilder_ == null) {
           pPENJHKDFHJBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo, emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfo.Builder, emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo._MonsterChessV2CardStarUpInfoOrBuilder>(
+              emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo, emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfo.Builder, emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass._MonsterChessV2CardStarUpInfoOrBuilder>(
                   pPENJHKDFHJ_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -832,13 +832,13 @@ public final class NHFCGBCLEJAOuterClass {
       "\n\021NHFCGBCLEJA.proto\032#_MonsterChessV2Card" +
       "StarUpInfo.proto\"B\n\013NHFCGBCLEJA\0223\n\013PPENJ" +
       "HKDFHJ\030\t \003(\0132\036._MonsterChessV2CardStarUp" +
-      "InfoB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "InfoB2\n\031emu.grasscutter.net.protoB\025NHFCG" +
+      "BCLEJAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo.getDescriptor(),
+          emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass.getDescriptor(),
         });
     internal_static_NHFCGBCLEJA_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -846,7 +846,7 @@ public final class NHFCGBCLEJAOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_NHFCGBCLEJA_descriptor,
         new java.lang.String[] { "PPENJHKDFHJ", });
-    emu.grasscutter.net.proto.MonsterChessV2CardStarUpInfo.getDescriptor();
+    emu.grasscutter.net.proto._MonsterChessV2CardStarUpInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

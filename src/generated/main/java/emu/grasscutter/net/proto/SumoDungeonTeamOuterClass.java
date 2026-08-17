@@ -823,8 +823,9 @@ public final class SumoDungeonTeamOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025SumoDungeonTeam.proto\032\027SumoDungeonAvat" +
       "ar.proto\"B\n\017SumoDungeonTeam\022/\n\023dungeon_a" +
-      "vatar_list\030\004 \003(\0132\022.SumoDungeonAvatarB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "vatar_list\030\004 \003(\0132\022.SumoDungeonAvatarB6\n\031" +
+      "emu.grasscutter.net.protoB\031SumoDungeonTe" +
+      "amOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

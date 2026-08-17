@@ -831,7 +831,8 @@ public final class OCAAILONAMFOuterClass {
       "\n\021OCAAILONAMF.proto\032\021MatchReason.proto\"O" +
       "\n\013OCAAILONAMF\022\020\n\010match_id\030\005 \001(\r\022\020\n\010uid_l" +
       "ist\030\013 \003(\r\022\034\n\006reason\030\016 \001(\0162\014.MatchReasonB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025OCAAILONAM" +
+      "FOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -804,8 +804,9 @@ public final class AISnapshotEntitySkillCycleOuterClass {
       "ISnapshotEntitySkillCycle\022\023\n\013KDEKJBBMJLN" +
       "\030\001 \001(\010\022\023\n\013NFAEMNMPCOG\030\002 \001(\010\022\023\n\013ICEAJODAM" +
       "FI\030\006 \001(\010\022\020\n\010skill_id\030\t \001(\r\022\023\n\013KKEEEFLDNA" +
-      "M\030\r \001(\010B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "M\030\r \001(\010BA\n\031emu.grasscutter.net.protoB$AI" +
+      "SnapshotEntitySkillCycleOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

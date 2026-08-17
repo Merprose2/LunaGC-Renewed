@@ -33,11 +33,11 @@ public final class CFMADCAEOMPOuterClass {
      * <code>._TemplatePotionInfo template_potion_info = 4;</code>
      * @return The templatePotionInfo.
      */
-    emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo getTemplatePotionInfo();
+    emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo getTemplatePotionInfo();
     /**
      * <code>._TemplatePotionInfo template_potion_info = 4;</code>
      */
-    emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder getTemplatePotionInfoOrBuilder();
+    emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder getTemplatePotionInfoOrBuilder();
 
     /**
      * <code>uint32 exam_id = 10;</code>
@@ -134,14 +134,14 @@ public final class CFMADCAEOMPOuterClass {
               break;
             }
             case 34: {
-              emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder subBuilder = null;
               if (detailCase_ == 4) {
-                subBuilder = ((emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 4;
@@ -269,21 +269,21 @@ public final class CFMADCAEOMPOuterClass {
      * @return The templatePotionInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo getTemplatePotionInfo() {
+    public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo getTemplatePotionInfo() {
       if (detailCase_ == 4) {
-         return (emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo) detail_;
+         return (emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo) detail_;
       }
-      return emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.getDefaultInstance();
     }
     /**
      * <code>._TemplatePotionInfo template_potion_info = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder getTemplatePotionInfoOrBuilder() {
+    public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder getTemplatePotionInfoOrBuilder() {
       if (detailCase_ == 4) {
-         return (emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo) detail_;
+         return (emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo) detail_;
       }
-      return emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.getDefaultInstance();
     }
 
     public static final int EXAM_ID_FIELD_NUMBER = 10;
@@ -370,7 +370,7 @@ public final class CFMADCAEOMPOuterClass {
         output.writeInt32(2, retcode_);
       }
       if (detailCase_ == 4) {
-        output.writeMessage(4, (emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo) detail_);
+        output.writeMessage(4, (emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo) detail_);
       }
       if (pOIIPNHMIEI_ != null) {
         output.writeMessage(5, getPOIIPNHMIEI());
@@ -397,7 +397,7 @@ public final class CFMADCAEOMPOuterClass {
       }
       if (detailCase_ == 4) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, (emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo) detail_);
+          .computeMessageSize(4, (emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo) detail_);
       }
       if (pOIIPNHMIEI_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -818,7 +818,7 @@ public final class CFMADCAEOMPOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder> templatePotionInfoBuilder_;
+          emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder> templatePotionInfoBuilder_;
       /**
        * <code>._TemplatePotionInfo template_potion_info = 4;</code>
        * @return Whether the templatePotionInfo field is set.
@@ -832,23 +832,23 @@ public final class CFMADCAEOMPOuterClass {
        * @return The templatePotionInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo getTemplatePotionInfo() {
+      public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo getTemplatePotionInfo() {
         if (templatePotionInfoBuilder_ == null) {
           if (detailCase_ == 4) {
-            return (emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo) detail_;
+            return (emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo) detail_;
           }
-          return emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 4) {
             return templatePotionInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._TemplatePotionInfo template_potion_info = 4;</code>
        */
-      public Builder setTemplatePotionInfo(emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo value) {
+      public Builder setTemplatePotionInfo(emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo value) {
         if (templatePotionInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -865,7 +865,7 @@ public final class CFMADCAEOMPOuterClass {
        * <code>._TemplatePotionInfo template_potion_info = 4;</code>
        */
       public Builder setTemplatePotionInfo(
-          emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder builderForValue) {
         if (templatePotionInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -878,11 +878,11 @@ public final class CFMADCAEOMPOuterClass {
       /**
        * <code>._TemplatePotionInfo template_potion_info = 4;</code>
        */
-      public Builder mergeTemplatePotionInfo(emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo value) {
+      public Builder mergeTemplatePotionInfo(emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo value) {
         if (templatePotionInfoBuilder_ == null) {
           if (detailCase_ == 4 &&
-              detail_ != emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.newBuilder((emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.newBuilder((emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -919,36 +919,36 @@ public final class CFMADCAEOMPOuterClass {
       /**
        * <code>._TemplatePotionInfo template_potion_info = 4;</code>
        */
-      public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder getTemplatePotionInfoBuilder() {
+      public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder getTemplatePotionInfoBuilder() {
         return getTemplatePotionInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._TemplatePotionInfo template_potion_info = 4;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder getTemplatePotionInfoOrBuilder() {
+      public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder getTemplatePotionInfoOrBuilder() {
         if ((detailCase_ == 4) && (templatePotionInfoBuilder_ != null)) {
           return templatePotionInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 4) {
-            return (emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo) detail_;
+            return (emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo) detail_;
           }
-          return emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._TemplatePotionInfo template_potion_info = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder> 
+          emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder> 
           getTemplatePotionInfoFieldBuilder() {
         if (templatePotionInfoBuilder_ == null) {
           if (!(detailCase_ == 4)) {
-            detail_ = emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.getDefaultInstance();
           }
           templatePotionInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo) detail_,
+              emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1244,15 +1244,16 @@ public final class CFMADCAEOMPOuterClass {
       "\024template_potion_info\030\004 \001(\0132\024._TemplateP" +
       "otionInfoH\000\022\021\n\007exam_id\030\n \001(\rH\000\022!\n\013POIIPN" +
       "HMIEI\030\005 \001(\0132\014.EALPODFABFF\022!\n\013CNILMAGKFJI" +
-      "\030\r \001(\0162\014.PABFMPCHFHIB\010\n\006detailB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\030\r \001(\0162\014.PABFMPCHFHIB\010\n\006detailB2\n\031emu.gr" +
+      "asscutter.net.protoB\025CFMADCAEOMPOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.EALPODFABFFOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PABFMPCHFHIOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.TemplatePotionInfo.getDescriptor(),
+          emu.grasscutter.net.proto._TemplatePotionInfoOuterClass.getDescriptor(),
         });
     internal_static_CFMADCAEOMP_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1262,7 +1263,7 @@ public final class CFMADCAEOMPOuterClass {
         new java.lang.String[] { "Retcode", "TemplatePotionInfo", "ExamId", "POIIPNHMIEI", "CNILMAGKFJI", "Detail", });
     emu.grasscutter.net.proto.EALPODFABFFOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PABFMPCHFHIOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.TemplatePotionInfo.getDescriptor();
+    emu.grasscutter.net.proto._TemplatePotionInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

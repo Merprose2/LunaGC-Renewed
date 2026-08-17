@@ -1200,8 +1200,8 @@ public final class MDKNILHIFJMOuterClass {
       "OILIMBJB\030\001 \001(\005\022\023\n\013MPEJPDLNNLI\030\002 \001(\r\022!\n\013C" +
       "PCDOMAMAEO\030\003 \001(\0132\014.IJCLBPEICOE\022!\n\013KEBPGL" +
       "KANHD\030\004 \001(\0132\014.FBKKKHHEDOC\022!\n\013CPHCOBFNKAC" +
-      "\030\005 \001(\0132\014.FBKKKHHEDOCB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\030\005 \001(\0132\014.FBKKKHHEDOCB2\n\031emu.grasscutter." +
+      "net.protoB\025MDKNILHIFJMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

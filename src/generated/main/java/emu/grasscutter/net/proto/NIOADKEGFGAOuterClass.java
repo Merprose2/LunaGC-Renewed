@@ -905,8 +905,9 @@ public final class NIOADKEGFGAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NIOADKEGFGA.proto\032\021BJFKJMCAAFJ.proto\"E" +
       "\n\013NIOADKEGFGA\022\023\n\013NMKCGICBPED\030\002 \001(\014\022!\n\013FG" +
-      "BLDJIHIPI\030\003 \003(\0132\014.BJFKJMCAAFJB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "BLDJIHIPI\030\003 \003(\0132\014.BJFKJMCAAFJB2\n\031emu.gra" +
+      "sscutter.net.protoB\025NIOADKEGFGAOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

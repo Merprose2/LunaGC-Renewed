@@ -186,8 +186,8 @@ public final class MMMEPICLMDJOuterClass {
       "LOSE\020\304\270\002\0220\n*MMMEPICLMDJ_BEYOND_WORLD_KIC" +
       "K_REASON_OWNER\020\305\270\002\022K\nEMMMEPICLMDJ_BEYOND" +
       "_WORLD_KICK_REASON_CLASSIC_MODE_NO_AVAIL" +
-      "ABLE_AVATAR\020\306\270\002B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "ABLE_AVATAR\020\306\270\002B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025MMMEPICLMDJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

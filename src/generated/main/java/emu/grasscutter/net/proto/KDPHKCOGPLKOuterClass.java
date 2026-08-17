@@ -730,8 +730,9 @@ public final class KDPHKCOGPLKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KDPHKCOGPLK.proto\"a\n\013KDPHKCOGPLK\022\023\n\013GP" +
       "ODKPLPKNO\030\001 \001(\r\022\023\n\013JOBECJIADEI\030\002 \001(\r\022\023\n\013" +
-      "NNPDCLGEDGA\030\003 \001(\r\022\023\n\013EECMMCOEJIN\030\004 \001(\002B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "NNPDCLGEDGA\030\003 \001(\r\022\023\n\013EECMMCOEJIN\030\004 \001(\002B2" +
+      "\n\031emu.grasscutter.net.protoB\025KDPHKCOGPLK" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

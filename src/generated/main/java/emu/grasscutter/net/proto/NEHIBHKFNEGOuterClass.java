@@ -803,8 +803,8 @@ public final class NEHIBHKFNEGOuterClass {
       "\n\021NEHIBHKFNEG.proto\"m\n\013NEHIBHKFNEG\022\017\n\007is" +
       "_open\030\003 \001(\010\022\021\n\tis_finish\030\010 \001(\010\022\023\n\013PAGGBI" +
       "OEHOO\030\t \001(\r\022\023\n\013CJFPPKKJLMK\030\013 \001(\002\022\020\n\010leve" +
-      "l_id\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "l_id\030\014 \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025NEHIBHKFNEGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

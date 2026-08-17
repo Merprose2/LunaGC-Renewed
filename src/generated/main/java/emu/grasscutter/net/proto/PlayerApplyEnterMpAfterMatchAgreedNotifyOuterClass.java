@@ -839,8 +839,10 @@ public final class PlayerApplyEnterMpAfterMatchAgreedNotifyOuterClass {
       "nfo.proto\"\216\001\n(PlayerApplyEnterMpAfterMat" +
       "chAgreedNotify\022\026\n\016matchserver_id\030\002 \001(\r\022\036" +
       "\n\nmatch_type\030\016 \001(\0162\n.MatchType\022*\n\017src_pl" +
-      "ayer_info\030\017 \001(\0132\021.OnlinePlayerInfoB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ayer_info\030\017 \001(\0132\021.OnlinePlayerInfoBO\n\031em" +
+      "u.grasscutter.net.protoB2PlayerApplyEnte" +
+      "rMpAfterMatchAgreedNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

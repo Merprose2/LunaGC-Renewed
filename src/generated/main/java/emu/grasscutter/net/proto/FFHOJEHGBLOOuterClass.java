@@ -809,8 +809,9 @@ public final class FFHOJEHGBLOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FFHOJEHGBLO.proto\"[\n\013FFHOJEHGBLO\022\016\n\005ti" +
       "tle\030\366\003 \001(\t\022\020\n\007card_id\030\367\003 \001(\r\022\024\n\013EILALEDM" +
-      "FAG\030\370\003 \001(\r\022\024\n\013HDNAKFAMMFI\030\371\003 \001(\010B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "FAG\030\370\003 \001(\r\022\024\n\013HDNAKFAMMFI\030\371\003 \001(\010B2\n\031emu." +
+      "grasscutter.net.protoB\025FFHOJEHGBLOOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

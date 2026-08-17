@@ -668,8 +668,9 @@ public final class MELBLCIMGIPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MELBLCIMGIP.proto\"7\n\013MELBLCIMGIP\022\023\n\013GG" +
-      "APIFLOGKA\030\001 \001(\010\022\023\n\013FIPHBKFIFEK\030\002 \001(\tB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "APIFLOGKA\030\001 \001(\010\022\023\n\013FIPHBKFIFEK\030\002 \001(\tB2\n\031" +
+      "emu.grasscutter.net.protoB\025MELBLCIMGIPOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

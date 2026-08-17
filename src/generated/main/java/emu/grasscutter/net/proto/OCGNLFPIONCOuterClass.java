@@ -2245,8 +2245,8 @@ public final class OCGNLFPIONCOuterClass {
       "CGNLFPIONC._SetTagOpH\000\032\'\n\t_SetTagOp\022\032\n\022_" +
       "video_tag_id_list\030\010 \003(\r\032;\n\017_SetLevelName" +
       "Op\022\023\n\013KDNNOPNJDOD\030\004 \001(\010\022\023\n\013_level_name\030\013" +
-      " \001(\tB\010\n\006detailB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      " \001(\tB\010\n\006detailB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025OCGNLFPIONCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

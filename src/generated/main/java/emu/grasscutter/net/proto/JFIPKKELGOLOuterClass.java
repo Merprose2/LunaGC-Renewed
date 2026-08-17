@@ -1280,8 +1280,8 @@ public final class JFIPKKELGOLOuterClass {
       "\013IEHPENOMIKH\030\004 \001(\t\022\021\n\tis_hidden\030\005 \001(\010\022\026\n" +
       "\016total_progress\030\006 \001(\005\022!\n\013KCBKIJFMDAI\030\007 \001" +
       "(\0162\014.BPJOJLMCAOG\022\023\n\013ELBJAJIBCEL\030\010 \001(\r\022\023\n" +
-      "\013LEPADDCIJME\030\t \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\013LEPADDCIJME\030\t \001(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025JFIPKKELGOLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

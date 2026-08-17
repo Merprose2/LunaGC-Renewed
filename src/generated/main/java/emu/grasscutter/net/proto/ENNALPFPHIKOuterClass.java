@@ -1061,8 +1061,8 @@ public final class ENNALPFPHIKOuterClass {
       "NHOMFGILDF\030\002 \001(\r\022 \n\nskill_type\030\003 \001(\0162\014.D" +
       "DKGECEIPHN\022\023\n\013FBOPDABBBFK\030\004 \001(\010\022\023\n\013LANAI" +
       "CCMHAN\030\005 \001(\010\022\023\n\013FPOJMFCDIPB\030\006 \001(\010\022\023\n\013NOK" +
-      "IEFBBBHK\030\007 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "IEFBBBHK\030\007 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025ENNALPFPHIKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

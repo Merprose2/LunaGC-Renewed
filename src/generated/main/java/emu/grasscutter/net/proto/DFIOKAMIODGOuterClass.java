@@ -525,8 +525,8 @@ public final class DFIOKAMIODGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DFIOKAMIODG.proto\"\"\n\013DFIOKAMIODG\022\023\n\013FP" +
-      "IIEFBNOJK\030\n \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "IIEFBNOJK\030\n \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025DFIOKAMIODGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

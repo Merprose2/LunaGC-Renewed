@@ -1157,8 +1157,9 @@ public final class StoreItemChangeNotifyOuterClass {
       "type\030\n \001(\0162\n.StoreType\0223\n\006reason\030\016 \001(\0162#" +
       ".StoreItemChangeNotify.ChangeReason\"F\n\014C" +
       "hangeReason\022\027\n\023ChangeReason_OTHERS\020\000\022\035\n\031" +
-      "ChangeReason_LOCK_OR_STAR\020\001B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "ChangeReason_LOCK_OR_STAR\020\001B<\n\031emu.grass" +
+      "cutter.net.protoB\037StoreItemChangeNotifyO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -526,8 +526,8 @@ public final class FPNPIDNLJNNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FPNPIDNLJNN.proto\"\"\n\013FPNPIDNLJNN\022\023\n\013AP" +
-      "BIKEACDGL\030\004 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "BIKEACDGL\030\004 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025FPNPIDNLJNNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

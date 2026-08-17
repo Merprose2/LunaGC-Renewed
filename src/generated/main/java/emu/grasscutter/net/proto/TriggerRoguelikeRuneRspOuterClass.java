@@ -666,8 +666,9 @@ public final class TriggerRoguelikeRuneRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035TriggerRoguelikeRuneRsp.proto\"T\n\027Trigg" +
       "erRoguelikeRuneRsp\022\017\n\007retcode\030\006 \001(\005\022\017\n\007r" +
-      "une_id\030\010 \001(\r\022\027\n\017available_count\030\016 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "une_id\030\010 \001(\r\022\027\n\017available_count\030\016 \001(\rB>\n" +
+      "\031emu.grasscutter.net.protoB!TriggerRogue" +
+      "likeRuneRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

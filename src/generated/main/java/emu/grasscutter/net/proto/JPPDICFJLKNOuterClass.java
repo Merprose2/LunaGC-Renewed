@@ -517,8 +517,8 @@ public final class JPPDICFJLKNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JPPDICFJLKN.proto\"#\n\013JPPDICFJLKN\022\024\n\013IK" +
-      "MOCELCPEC\030\365\003 \001(\005B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "MOCELCPEC\030\365\003 \001(\005B2\n\031emu.grasscutter.net." +
+      "protoB\025JPPDICFJLKNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

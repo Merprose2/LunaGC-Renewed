@@ -595,8 +595,9 @@ public final class FHJNGGHJOJKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FHJNGGHJOJK.proto\"2\n\013FHJNGGHJOJK\022\022\n\nch" +
-      "apter_id\030\007 \001(\r\022\017\n\007retcode\030\n \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "apter_id\030\007 \001(\r\022\017\n\007retcode\030\n \001(\005B2\n\031emu.g" +
+      "rasscutter.net.protoB\025FHJNGGHJOJKOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

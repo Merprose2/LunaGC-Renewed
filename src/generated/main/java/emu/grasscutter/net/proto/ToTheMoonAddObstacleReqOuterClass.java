@@ -872,8 +872,9 @@ public final class ToTheMoonAddObstacleReqOuterClass {
       "onObstacleInfo.proto\"y\n\027ToTheMoonAddObst" +
       "acleReq\022\020\n\010scene_id\030\002 \001(\r\022(\n\010obstacle\030\003 " +
       "\001(\0132\026.ToTheMoonObstacleInfo\022\020\n\010use_edge\030" +
-      "\006 \001(\010\022\020\n\010query_id\030\t \001(\005B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\006 \001(\010\022\020\n\010query_id\030\t \001(\005B>\n\031emu.grasscutt" +
+      "er.net.protoB!ToTheMoonAddObstacleReqOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

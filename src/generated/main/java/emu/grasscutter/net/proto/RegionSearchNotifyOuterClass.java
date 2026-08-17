@@ -902,8 +902,8 @@ public final class RegionSearchNotifyOuterClass {
       "\n\030RegionSearchNotify.proto\032\026RegionSearch" +
       "Info.proto\"P\n\022RegionSearchNotify\022\013\n\003uid\030" +
       "\007 \001(\r\022-\n\022region_search_list\030\013 \003(\0132\021.Regi" +
-      "onSearchInfoB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "onSearchInfoB9\n\031emu.grasscutter.net.prot" +
+      "oB\034RegionSearchNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

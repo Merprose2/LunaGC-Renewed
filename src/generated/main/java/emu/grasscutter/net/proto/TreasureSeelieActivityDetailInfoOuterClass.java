@@ -967,8 +967,9 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
       "asureSeelieActivityDetailInfo\022\031\n\021is_cont" +
       "ent_closed\030\005 \001(\010\0223\n\020region_data_list\030\010 \003" +
       "(\0132\031.TreasureSeelieRegionData\022\033\n\023treasur" +
-      "e_close_time\030\016 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "e_close_time\030\016 \001(\rBG\n\031emu.grasscutter.ne" +
+      "t.protoB*TreasureSeelieActivityDetailInf" +
+      "oOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

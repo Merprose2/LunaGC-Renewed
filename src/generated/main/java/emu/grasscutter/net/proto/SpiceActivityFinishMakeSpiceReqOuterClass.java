@@ -866,7 +866,9 @@ public final class SpiceActivityFinishMakeSpiceReqOuterClass {
       "z\n\037SpiceActivityFinishMakeSpiceReq\022\022\n\nle" +
       "ft_turns\030\002 \001(\r\022\022\n\nis_success\030\007 \001(\010\022\035\n\025le" +
       "ft_material_id_list\030\n \003(\r\022\020\n\010stage_id\030\017 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rBF\n\031emu.grasscutter.net.protoB)SpiceA" +
+      "ctivityFinishMakeSpiceReqOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

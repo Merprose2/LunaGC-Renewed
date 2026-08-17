@@ -1009,8 +1009,9 @@ public final class BAFFDBJIOEAOuterClass {
       "\n\021BAFFDBJIOEA.proto\032\021HEIJHKJPJEF.proto\032\021" +
       "JDHPOHMDLBH.proto\"c\n\013BAFFDBJIOEA\022\023\n\013MDMO" +
       "FJJMBJP\030\007 \001(\r\022\034\n\006reason\030\n \001(\0162\014.JDHPOHMD" +
-      "LBH\022!\n\013GFJJBDFGBFO\030\014 \003(\0132\014.HEIJHKJPJEFB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "LBH\022!\n\013GFJJBDFGBFO\030\014 \003(\0132\014.HEIJHKJPJEFB2" +
+      "\n\031emu.grasscutter.net.protoB\025BAFFDBJIOEA" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

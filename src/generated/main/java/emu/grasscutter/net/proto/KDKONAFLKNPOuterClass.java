@@ -823,8 +823,8 @@ public final class KDKONAFLKNPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KDKONAFLKNP.proto\032\021PGDMAIHKGFO.proto\"0" +
       "\n\013KDKONAFLKNP\022!\n\013MLMKPBFKNPA\030\001 \003(\0132\014.PGD" +
-      "MAIHKGFOB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "MAIHKGFOB2\n\031emu.grasscutter.net.protoB\025K" +
+      "DKONAFLKNPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1018,8 +1018,8 @@ public final class IrodoriFlowerDataOuterClass {
       "\n\027IrodoriFlowerData.proto\032\017ItemParam.pro" +
       "to\"V\n\021IrodoriFlowerData\022\033\n\023finished_them" +
       "e_list\030\001 \003(\r\022$\n\020used_flower_list\030\n \003(\0132\n" +
-      ".ItemParamB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      ".ItemParamB8\n\031emu.grasscutter.net.protoB" +
+      "\033IrodoriFlowerDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -886,8 +886,9 @@ public final class FFDDFIBHKIBOuterClass {
       "\001\n\013FFDDFIBHKIB\022!\n\013OHDOCINBEPE\030\001 \001(\0162\014.MP" +
       "AHKGDBIPB\022!\n\013EMCEJKCMDPP\030\002 \001(\0162\014.MPAHKGD" +
       "BIPB\022!\n\013PAHABOHDDJN\030\003 \001(\0162\014.MPAHKGDBIPB\022" +
-      "!\n\013KFMMPKBHJFP\030\004 \001(\0162\014.MPAHKGDBIPBB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "!\n\013KFMMPKBHJFP\030\004 \001(\0162\014.MPAHKGDBIPBB2\n\031em" +
+      "u.grasscutter.net.protoB\025FFDDFIBHKIBOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

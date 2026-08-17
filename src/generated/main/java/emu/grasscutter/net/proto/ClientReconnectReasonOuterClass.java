@@ -156,8 +156,8 @@ public final class ClientReconnectReasonOuterClass {
       "\n=ClientReconnectReason_CLIENT_RECONNNEC" +
       "T_SCENE_TIME_CHECK_FAIL\020\002\022=\n9ClientRecon" +
       "nectReason_CLIENT_RECONNNECT_ENTER_QUEST" +
-      "_FOCUS\020\003B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "_FOCUS\020\003B<\n\031emu.grasscutter.net.protoB\037C" +
+      "lientReconnectReasonOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

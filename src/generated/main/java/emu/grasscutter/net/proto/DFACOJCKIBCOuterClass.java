@@ -45,12 +45,12 @@ public final class DFACOJCKIBCOuterClass {
     /**
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag> 
+    java.util.List<emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag> 
         getBeyondProfileTagListList();
     /**
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
      */
-    emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag getBeyondProfileTagList(int index);
+    emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag getBeyondProfileTagList(int index);
     /**
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
      */
@@ -58,12 +58,12 @@ public final class DFACOJCKIBCOuterClass {
     /**
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder> 
         getBeyondProfileTagListOrBuilderList();
     /**
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
      */
-    emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder getBeyondProfileTagListOrBuilder(
+    emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder getBeyondProfileTagListOrBuilder(
         int index);
 
     /**
@@ -153,11 +153,11 @@ public final class DFACOJCKIBCOuterClass {
             }
             case 42: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                BeyondProfileTagList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag>();
+                BeyondProfileTagList_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag>();
                 mutable_bitField0_ |= 0x00000002;
               }
               BeyondProfileTagList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.parser(), extensionRegistry));
               break;
             }
             case 48: {
@@ -268,19 +268,19 @@ public final class DFACOJCKIBCOuterClass {
     }
 
     public static final int _BEYOND_PROFILE_TAG_LIST_FIELD_NUMBER = 5;
-    private java.util.List<emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag> BeyondProfileTagList_;
+    private java.util.List<emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag> BeyondProfileTagList_;
     /**
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag> getBeyondProfileTagListList() {
+    public java.util.List<emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag> getBeyondProfileTagListList() {
       return BeyondProfileTagList_;
     }
     /**
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder> 
         getBeyondProfileTagListOrBuilderList() {
       return BeyondProfileTagList_;
     }
@@ -295,14 +295,14 @@ public final class DFACOJCKIBCOuterClass {
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag getBeyondProfileTagList(int index) {
+    public emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag getBeyondProfileTagList(int index) {
       return BeyondProfileTagList_.get(index);
     }
     /**
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder getBeyondProfileTagListOrBuilder(
+    public emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder getBeyondProfileTagListOrBuilder(
         int index) {
       return BeyondProfileTagList_.get(index);
     }
@@ -1049,22 +1049,22 @@ public final class DFACOJCKIBCOuterClass {
         return playerInfoListBuilder_;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag> BeyondProfileTagList_ =
+      private java.util.List<emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag> BeyondProfileTagList_ =
         java.util.Collections.emptyList();
       private void ensureBeyondProfileTagListIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          BeyondProfileTagList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag>(BeyondProfileTagList_);
+          BeyondProfileTagList_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag>(BeyondProfileTagList_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder> BeyondProfileTagListBuilder_;
+          emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder> BeyondProfileTagListBuilder_;
 
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag> getBeyondProfileTagListList() {
+      public java.util.List<emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag> getBeyondProfileTagListList() {
         if (BeyondProfileTagListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(BeyondProfileTagList_);
         } else {
@@ -1084,7 +1084,7 @@ public final class DFACOJCKIBCOuterClass {
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
        */
-      public emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag getBeyondProfileTagList(int index) {
+      public emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag getBeyondProfileTagList(int index) {
         if (BeyondProfileTagListBuilder_ == null) {
           return BeyondProfileTagList_.get(index);
         } else {
@@ -1095,7 +1095,7 @@ public final class DFACOJCKIBCOuterClass {
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
        */
       public Builder setBeyondProfileTagList(
-          int index, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag value) {
+          int index, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag value) {
         if (BeyondProfileTagListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1112,7 +1112,7 @@ public final class DFACOJCKIBCOuterClass {
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
        */
       public Builder setBeyondProfileTagList(
-          int index, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder builderForValue) {
         if (BeyondProfileTagListBuilder_ == null) {
           ensureBeyondProfileTagListIsMutable();
           BeyondProfileTagList_.set(index, builderForValue.build());
@@ -1125,7 +1125,7 @@ public final class DFACOJCKIBCOuterClass {
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
        */
-      public Builder addBeyondProfileTagList(emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag value) {
+      public Builder addBeyondProfileTagList(emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag value) {
         if (BeyondProfileTagListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1142,7 +1142,7 @@ public final class DFACOJCKIBCOuterClass {
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
        */
       public Builder addBeyondProfileTagList(
-          int index, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag value) {
+          int index, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag value) {
         if (BeyondProfileTagListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1159,7 +1159,7 @@ public final class DFACOJCKIBCOuterClass {
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
        */
       public Builder addBeyondProfileTagList(
-          emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder builderForValue) {
         if (BeyondProfileTagListBuilder_ == null) {
           ensureBeyondProfileTagListIsMutable();
           BeyondProfileTagList_.add(builderForValue.build());
@@ -1173,7 +1173,7 @@ public final class DFACOJCKIBCOuterClass {
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
        */
       public Builder addBeyondProfileTagList(
-          int index, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder builderForValue) {
         if (BeyondProfileTagListBuilder_ == null) {
           ensureBeyondProfileTagListIsMutable();
           BeyondProfileTagList_.add(index, builderForValue.build());
@@ -1187,7 +1187,7 @@ public final class DFACOJCKIBCOuterClass {
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
        */
       public Builder addAllBeyondProfileTagList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag> values) {
         if (BeyondProfileTagListBuilder_ == null) {
           ensureBeyondProfileTagListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1227,14 +1227,14 @@ public final class DFACOJCKIBCOuterClass {
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
        */
-      public emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder getBeyondProfileTagListBuilder(
+      public emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder getBeyondProfileTagListBuilder(
           int index) {
         return getBeyondProfileTagListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
        */
-      public emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder getBeyondProfileTagListOrBuilder(
+      public emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder getBeyondProfileTagListOrBuilder(
           int index) {
         if (BeyondProfileTagListBuilder_ == null) {
           return BeyondProfileTagList_.get(index);  } else {
@@ -1244,7 +1244,7 @@ public final class DFACOJCKIBCOuterClass {
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder> 
            getBeyondProfileTagListOrBuilderList() {
         if (BeyondProfileTagListBuilder_ != null) {
           return BeyondProfileTagListBuilder_.getMessageOrBuilderList();
@@ -1255,31 +1255,31 @@ public final class DFACOJCKIBCOuterClass {
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
        */
-      public emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder addBeyondProfileTagListBuilder() {
+      public emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder addBeyondProfileTagListBuilder() {
         return getBeyondProfileTagListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.getDefaultInstance());
+            emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
        */
-      public emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder addBeyondProfileTagListBuilder(
+      public emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder addBeyondProfileTagListBuilder(
           int index) {
         return getBeyondProfileTagListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.getDefaultInstance());
+            index, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder> 
            getBeyondProfileTagListBuilderList() {
         return getBeyondProfileTagListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder> 
+          emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder> 
           getBeyondProfileTagListFieldBuilder() {
         if (BeyondProfileTagListBuilder_ == null) {
           BeyondProfileTagListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder>(
+              emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder>(
                   BeyondProfileTagList_,
                   ((bitField0_ & 0x00000002) != 0),
                   getParentForChildren(),
@@ -1470,14 +1470,14 @@ public final class DFACOJCKIBCOuterClass {
       "KIBC\022+\n\020player_info_list\030\003 \003(\0132\021.OnlineP" +
       "layerInfo\0224\n\030_beyond_profile_tag_list\030\005 " +
       "\003(\0132\022._BeyondProfileTag\022\017\n\007retcode\030\006 \001(\005" +
-      "\022\020\n\010tag_list\030\r \003(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\022\020\n\010tag_list\030\r \003(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025DFACOJCKIBCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondProfileTag.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondProfileTagOuterClass.getDescriptor(),
         });
     internal_static_DFACOJCKIBC_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1486,7 +1486,7 @@ public final class DFACOJCKIBCOuterClass {
         internal_static_DFACOJCKIBC_descriptor,
         new java.lang.String[] { "PlayerInfoList", "BeyondProfileTagList", "Retcode", "TagList", });
     emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BeyondProfileTag.getDescriptor();
+    emu.grasscutter.net.proto._BeyondProfileTagOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

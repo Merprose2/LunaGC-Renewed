@@ -2737,8 +2737,9 @@ public final class RoutePointOuterClass {
       "\031\n\025IGDEDOLNAKF_KEEP_MOVE\020\000\022$\n IGDEDOLNAK" +
       "F_TELEPORT_BY_OBSTACLE\020\001\0220\n,IGDEDOLNAKF_" +
       "FADE_IN_OUT_TELEPORT_BY_OBSTACLE\020\002B\r\n\013mo" +
-      "ve_paramsB\017\n\rrotate_paramsB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "ve_paramsB\017\n\rrotate_paramsB1\n\031emu.grassc" +
+      "utter.net.protoB\024RoutePointOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

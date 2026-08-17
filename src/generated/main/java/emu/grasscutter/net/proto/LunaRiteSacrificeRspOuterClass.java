@@ -864,8 +864,8 @@ public final class LunaRiteSacrificeRspOuterClass {
       "\n\032LunaRiteSacrificeRsp.proto\"_\n\024LunaRite" +
       "SacrificeRsp\022\017\n\007area_id\030\004 \001(\r\022\r\n\005index\030\005" +
       " \001(\r\022\026\n\016sacrifice_list\030\t \003(\r\022\017\n\007retcode\030" +
-      "\014 \001(\005B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\014 \001(\005B;\n\031emu.grasscutter.net.protoB\036Luna" +
+      "RiteSacrificeRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

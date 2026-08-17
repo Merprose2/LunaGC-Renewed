@@ -1130,8 +1130,8 @@ public final class JIILDLAGNOKOuterClass {
       "\013JIILDLAGNOK\022\n\n\002id\030\001 \001(\r\022!\n\013GKLHNNCNDDO\030" +
       "\002 \001(\0132\014.EFNFLIFFBHI\022!\n\013LJBBGKDAAMD\030\003 \001(\013" +
       "2\014.OIJJCEAAFKM\022!\n\013OFCGOBDDGLD\030\004 \001(\0132\014.KM" +
-      "BHIHIIGKJB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "BHIHIIGKJB2\n\031emu.grasscutter.net.protoB\025" +
+      "JIILDLAGNOKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -605,8 +605,9 @@ public final class PlayerIpRegionNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032PlayerIpRegionNotify.proto\"\'\n\024PlayerIp" +
-      "RegionNotify\022\017\n\007ip_code\030\r \001(\tB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "RegionNotify\022\017\n\007ip_code\030\r \001(\tB;\n\031emu.gra" +
+      "sscutter.net.protoB\036PlayerIpRegionNotify" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

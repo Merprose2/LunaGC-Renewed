@@ -823,8 +823,8 @@ public final class AEAPPDLCGEIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AEAPPDLCGEI.proto\032\021JIPKLMNKDIK.proto\"0" +
       "\n\013AEAPPDLCGEI\022!\n\013CMPCKEBEPPB\030\001 \003(\0132\014.JIP" +
-      "KLMNKDIKB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "KLMNKDIKB2\n\031emu.grasscutter.net.protoB\025A" +
+      "EAPPDLCGEIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

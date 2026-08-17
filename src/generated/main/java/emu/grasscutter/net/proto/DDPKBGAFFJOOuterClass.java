@@ -736,8 +736,9 @@ public final class DDPKBGAFFJOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DDPKBGAFFJO.proto\"S\n\013DDPKBGAFFJO\022\023\n\013IO" +
       "LKLILAFPO\030\006 \001(\r\022\023\n\013LGHIEMKGLJA\030\t \001(\r\022\r\n\005" +
-      "level\030\n \001(\r\022\013\n\003exp\030\017 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "level\030\n \001(\r\022\013\n\003exp\030\017 \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025DDPKBGAFFJOOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

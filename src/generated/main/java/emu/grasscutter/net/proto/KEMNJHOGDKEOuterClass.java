@@ -949,7 +949,8 @@ public final class KEMNJHOGDKEOuterClass {
       "BABCPMEEKH\030\001 \001(\r\022\017\n\007is_succ\030\004 \001(\010\022\r\n\005sco" +
       "re\030\005 \001(\r\022\023\n\013NEEMEPPELBN\030\006 \001(\r\022\021\n\tmax_com" +
       "bo\030\007 \001(\r\022\021\n\tcost_time\030\010 \001(\r\022\016\n\006reason\030\017 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025KEMNJH" +
+      "OGDKEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

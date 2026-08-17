@@ -871,8 +871,9 @@ public final class GearLevelDataOuterClass {
       "\n\023GearLevelData.proto\"\204\001\n\rGearLevelData\022" +
       "\023\n\013AEAJNEDAFJI\030\001 \001(\r\022\017\n\007is_open\030\002 \001(\010\022\020\n" +
       "\010level_id\030\005 \001(\r\022\023\n\013IOAAECDDKOC\030\t \001(\r\022\023\n\013" +
-      "is_finished\030\013 \001(\010\022\021\n\topen_time\030\017 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "is_finished\030\013 \001(\010\022\021\n\topen_time\030\017 \001(\rB4\n\031" +
+      "emu.grasscutter.net.protoB\027GearLevelData" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

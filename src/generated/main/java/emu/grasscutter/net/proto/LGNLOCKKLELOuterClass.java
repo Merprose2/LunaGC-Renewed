@@ -517,8 +517,8 @@ public final class LGNLOCKKLELOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LGNLOCKKLEL.proto\"\"\n\013LGNLOCKKLEL\022\023\n\013MN" +
-      "ABEJOIMPH\030\001 \001(\005B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "ABEJOIMPH\030\001 \001(\005B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025LGNLOCKKLELOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -722,8 +722,9 @@ public final class INGILDMLNMKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021INGILDMLNMK.proto\"3\n\013INGILDMLNMK\022\023\n\013IP" +
-      "LNGBCOAFG\030\003 \003(\r\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "LNGBCOAFG\030\003 \003(\r\022\017\n\007retcode\030\013 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025INGILDMLNMKOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

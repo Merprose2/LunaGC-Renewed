@@ -660,8 +660,9 @@ public final class TanukiTravelLevelDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033TanukiTravelLevelData.proto\"M\n\025TanukiT" +
       "ravelLevelData\022\020\n\010route_id\030\002 \001(\r\022\017\n\007is_o" +
-      "pen\030\006 \001(\010\022\021\n\tis_finish\030\017 \001(\010B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "pen\030\006 \001(\010\022\021\n\tis_finish\030\017 \001(\010B<\n\031emu.gras" +
+      "scutter.net.protoB\037TanukiTravelLevelData" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

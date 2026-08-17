@@ -210,8 +210,9 @@ public final class IEJJLHNDLAOOuterClass {
       "IEJJLHNDLAO_FEVER\020\005\022\032\n\026IEJJLHNDLAO_BACKG" +
       "ROUND\020\006\022\034\n\030IEJJLHNDLAO_THEME_FOLLOW\020\007\022\032\n" +
       "\026IEJJLHNDLAO_INSTRUMENT\020\010\022\"\n\036IEJJLHNDLAO" +
-      "_MID_LINE_HIGHLIGHT\020\tB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "_MID_LINE_HIGHLIGHT\020\tB2\n\031emu.grasscutter" +
+      ".net.protoB\025IEJJLHNDLAOOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

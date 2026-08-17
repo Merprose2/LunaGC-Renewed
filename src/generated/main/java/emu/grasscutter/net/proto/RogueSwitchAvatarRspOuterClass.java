@@ -1130,7 +1130,8 @@ public final class RogueSwitchAvatarRspOuterClass {
       "ist\030\003 \003(\004\022\017\n\007retcode\030\005 \001(\005\022 \n\030onstage_av" +
       "atar_guid_list\030\007 \003(\004\022\022\n\ndungeon_id\030\010 \001(\r" +
       "\022\017\n\007cell_id\030\r \001(\r\022\027\n\017cur_avatar_guid\030\017 \001" +
-      "(\004B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\004B;\n\031emu.grasscutter.net.protoB\036RogueSw" +
+      "itchAvatarRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

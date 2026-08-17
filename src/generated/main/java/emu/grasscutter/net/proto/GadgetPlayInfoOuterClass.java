@@ -1299,8 +1299,8 @@ public final class GadgetPlayInfoOuterClass {
       "ge_list\030\003 \003(\r\022\020\n\010start_cd\030\004 \001(\r\022\022\n\nstart" +
       "_time\030\005 \001(\r\022\020\n\010progress\030\006 \001(\r\022,\n\rcrucibl" +
       "e_info\030\025 \001(\0132\023.GadgetCrucibleInfoH\000B\013\n\tp" +
-      "lay_infoB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "lay_infoB5\n\031emu.grasscutter.net.protoB\030G" +
+      "adgetPlayInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

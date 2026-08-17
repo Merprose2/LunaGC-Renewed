@@ -142,8 +142,9 @@ public final class IBAGDMKDDAKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IBAGDMKDDAK.proto*P\n\013IBAGDMKDDAK\022\024\n\020IB" +
       "AGDMKDDAK_NONE\020\000\022\024\n\020IBAGDMKDDAK_EDIT\020\001\022\025" +
-      "\n\021IBAGDMKDDAK_TRIAL\020\002B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\n\021IBAGDMKDDAK_TRIAL\020\002B2\n\031emu.grasscutter" +
+      ".net.protoB\025IBAGDMKDDAKOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

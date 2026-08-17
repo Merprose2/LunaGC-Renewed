@@ -587,8 +587,9 @@ public final class AKEBFNIEJNMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AKEBFNIEJNM.proto\"5\n\013AKEBFNIEJNM\022\023\n\013IM" +
-      "LNLBGFANE\030\013 \001(\005\022\021\n\toption_id\030\017 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "LNLBGFANE\030\013 \001(\005\022\021\n\toption_id\030\017 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025AKEBFNIEJNMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

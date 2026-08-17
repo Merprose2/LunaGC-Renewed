@@ -625,8 +625,8 @@ public final class PCJJOHDILPBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PCJJOHDILPB.proto\032\021MGCADLOKMLP.proto\"8" +
       "\n\013PCJJOHDILPB\022\032\n\004type\030\003 \001(\0162\014.MGCADLOKML" +
-      "P\022\r\n\005value\030\010 \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "P\022\r\n\005value\030\010 \001(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025PCJJOHDILPBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

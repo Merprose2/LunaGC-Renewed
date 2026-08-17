@@ -901,8 +901,9 @@ public final class BPNPPHFDKMNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BPNPPHFDKMN.proto\032\021APJAEDHAOOO.proto\"J" +
       "\n\013BPNPPHFDKMN\022\023\n\013BPEDNCMLPOD\030\004 \001(\r\022&\n\020pl" +
-      "ayer_info_list\030\016 \003(\0132\014.APJAEDHAOOOB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ayer_info_list\030\016 \003(\0132\014.APJAEDHAOOOB2\n\031em" +
+      "u.grasscutter.net.protoB\025BPNPPHFDKMNOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

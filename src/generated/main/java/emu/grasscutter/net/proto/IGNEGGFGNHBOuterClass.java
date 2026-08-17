@@ -730,8 +730,9 @@ public final class IGNEGGFGNHBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IGNEGGFGNHB.proto\"\\\n\013IGNEGGFGNHB\022\023\n\013OM" +
       "NIHFNCEIN\030\004 \001(\r\022\020\n\010coin_num\030\005 \001(\r\022\021\n\tis_" +
-      "finish\030\n \001(\010\022\023\n\013KIEMHBNNEBF\030\013 \001(\010B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "finish\030\n \001(\010\022\023\n\013KIEMHBNNEBF\030\013 \001(\010B2\n\031emu" +
+      ".grasscutter.net.protoB\025IGNEGGFGNHBOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

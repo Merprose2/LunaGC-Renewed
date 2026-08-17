@@ -730,7 +730,8 @@ public final class PFCMLDKDGLOOuterClass {
       "\n\021PFCMLDKDGLO.proto\"b\n\013PFCMLDKDGLO\022\023\n\013PM" +
       "LODDINFCO\030\001 \001(\005\022\024\n\014cur_progress\030\002 \001(\005\022\023\n" +
       "\013HGBPGLFOEON\030\003 \001(\010\022\023\n\013MHHIPOIOLLE\030\004 \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025PFCMLDKDGL" +
+      "OOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

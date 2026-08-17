@@ -802,8 +802,9 @@ public final class ArenaChallengeChildChallengeInfoOuterClass {
       "\"\221\001\n ArenaChallengeChildChallengeInfo\022\022\n" +
       "\nis_success\030\001 \001(\010\022\027\n\017challenge_index\030\004 \001" +
       "(\r\022\024\n\014challenge_id\030\005 \001(\r\022\022\n\nis_settled\030\007" +
-      " \001(\010\022\026\n\016challenge_type\030\010 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      " \001(\010\022\026\n\016challenge_type\030\010 \001(\rBG\n\031emu.gras" +
+      "scutter.net.protoB*ArenaChallengeChildCh" +
+      "allengeInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

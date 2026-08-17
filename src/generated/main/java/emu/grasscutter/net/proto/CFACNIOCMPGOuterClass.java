@@ -816,8 +816,9 @@ public final class CFACNIOCMPGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CFACNIOCMPG.proto\"]\n\013CFACNIOCMPG\022\017\n\007re" +
       "tcode\030\004 \001(\005\022\023\n\013AAPAPMCOHOD\030\005 \001(\r\022\023\n\013temp" +
-      "late_id\030\t \001(\r\022\023\n\013IENEGFFPHHO\030\014 \001(\tB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "late_id\030\t \001(\r\022\023\n\013IENEGFFPHHO\030\014 \001(\tB2\n\031em" +
+      "u.grasscutter.net.protoB\025CFACNIOCMPGOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

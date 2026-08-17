@@ -518,8 +518,9 @@ public final class GameplayRecommendationSkillRequestOuterClass {
     java.lang.String[] descriptorData = {
       "\n(GameplayRecommendationSkillRequest.pro" +
       "to\"<\n\"GameplayRecommendationSkillRequest" +
-      "\022\026\n\016skill_depot_id\030\002 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\022\026\n\016skill_depot_id\030\002 \001(\rBI\n\031emu.grasscut" +
+      "ter.net.protoB,GameplayRecommendationSki" +
+      "llRequestOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

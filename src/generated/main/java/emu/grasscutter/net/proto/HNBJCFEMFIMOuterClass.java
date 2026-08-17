@@ -454,8 +454,9 @@ public final class HNBJCFEMFIMOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021HNBJCFEMFIM.proto\"\r\n\013HNBJCFEMFIMB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021HNBJCFEMFIM.proto\"\r\n\013HNBJCFEMFIMB2\n\031em" +
+      "u.grasscutter.net.protoB\025HNBJCFEMFIMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

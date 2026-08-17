@@ -1275,8 +1275,9 @@ public final class SpiceActivityProcessFoodRspOuterClass {
       "mParam.proto\"p\n\033SpiceActivityProcessFood" +
       "Rsp\022\037\n\013APFJFGBHJOP\030\004 \003(\0132\n.ItemParam\022\017\n\007" +
       "retcode\030\n \001(\005\022\037\n\013MLHBFNGAIFI\030\014 \003(\0132\n.Ite" +
-      "mParamB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "mParamBB\n\031emu.grasscutter.net.protoB%Spi" +
+      "ceActivityProcessFoodRspOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

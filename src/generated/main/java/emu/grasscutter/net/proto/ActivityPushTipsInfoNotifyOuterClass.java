@@ -973,8 +973,9 @@ public final class ActivityPushTipsInfoNotifyOuterClass {
       "vityPushTipsData.proto\"\203\001\n\032ActivityPushT" +
       "ipsInfoNotify\022\023\n\013activity_id\030\006 \001(\r\022;\n\034ac" +
       "tivity_push_tips_data_list\030\t \003(\0132\025.Activ" +
-      "ityPushTipsData\022\023\n\013schedule_id\030\013 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "ityPushTipsData\022\023\n\013schedule_id\030\013 \001(\rBA\n\031" +
+      "emu.grasscutter.net.protoB$ActivityPushT" +
+      "ipsInfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

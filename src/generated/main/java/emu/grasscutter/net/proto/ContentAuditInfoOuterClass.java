@@ -918,8 +918,8 @@ public final class ContentAuditInfoOuterClass {
       "to\"\202\001\n\020ContentAuditInfo\022\017\n\007is_open\030\001 \001(\010" +
       "\022\017\n\007content\030\002 \001(\t\022\024\n\014submit_count\030\003 \001(\r\022" +
       " \n\013audit_state\030\004 \001(\0162\013.AuditState\022\024\n\014sub" +
-      "mit_limit\030\005 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "mit_limit\030\005 \001(\rB7\n\031emu.grasscutter.net.p" +
+      "rotoB\032ContentAuditInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -845,8 +845,9 @@ public final class FoundationRspOuterClass {
       "proto\"\214\001\n\rFoundationRsp\022\023\n\013building_id\030\001" +
       " \001(\r\022\030\n\020gadget_entity_id\030\002 \001(\r\022\027\n\017point_" +
       "config_id\030\006 \001(\r\022\"\n\007op_type\030\013 \001(\0162\021.Found" +
-      "ationOpType\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "ationOpType\022\017\n\007retcode\030\016 \001(\005B4\n\031emu.gras" +
+      "scutter.net.protoB\027FoundationRspOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

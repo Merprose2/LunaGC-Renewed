@@ -526,7 +526,8 @@ public final class PlayerDeathZoneNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033PlayerDeathZoneNotify.proto\"2\n\025PlayerD" +
       "eathZoneNotify\022\031\n\021cur_death_zone_id\030\001 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB<\n\031emu.grasscutter.net.protoB\037PlayerDe" +
+      "athZoneNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

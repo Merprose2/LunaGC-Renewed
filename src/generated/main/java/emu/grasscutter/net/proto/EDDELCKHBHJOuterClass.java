@@ -1890,8 +1890,9 @@ public final class EDDELCKHBHJOuterClass {
       "on_pos\030\010 \001(\0132\007.Vector\022\013\n\003uid\030\n \001(\005\022\020\n\010sc" +
       "ene_id\030\013 \001(\r\022 \n\013CPMFACKILJN\030\014 \001(\0132\013.Vect" +
       "or3Int\022!\n\013FLFPHIAAGME\030\r \001(\0132\014.DICLKEBODE" +
-      "C\022\033\n\nsource_pos\030\017 \001(\0132\007.VectorB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "C\022\033\n\nsource_pos\030\017 \001(\0132\007.VectorB2\n\031emu.gr" +
+      "asscutter.net.protoB\025EDDELCKHBHJOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -591,8 +591,9 @@ public final class CMENCMAJLLEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CMENCMAJLLE.proto\"5\n\013CMENCMAJLLE\022\021\n\tsa" +
-      "ve_time\030\001 \001(\r\022\023\n\013ABKFDHDCNAF\030\002 \001(\014B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ve_time\030\001 \001(\r\022\023\n\013ABKFDHDCNAF\030\002 \001(\014B2\n\031em" +
+      "u.grasscutter.net.protoB\025CMENCMAJLLEOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

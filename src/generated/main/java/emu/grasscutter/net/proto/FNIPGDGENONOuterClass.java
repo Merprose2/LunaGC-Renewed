@@ -526,8 +526,8 @@ public final class FNIPGDGENONOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FNIPGDGENON.proto\"\033\n\013FNIPGDGENON\022\014\n\004gu" +
-      "id\030\005 \001(\004B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\005 \001(\004B2\n\031emu.grasscutter.net.protoB\025F" +
+      "NIPGDGENONOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

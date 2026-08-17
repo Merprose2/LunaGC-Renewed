@@ -855,8 +855,9 @@ public final class ADIAKJADLKMOuterClass {
       "\n\021ADIAKJADLKM.proto\032\021EBADNHGKAAP.proto\032\021" +
       "NEPKIMHIAJA.proto\"S\n\013ADIAKJADLKM\022!\n\013HCOJ" +
       "GEOOGFB\030\001 \001(\0132\014.NEPKIMHIAJA\022!\n\013IHBEJKPPI" +
-      "LB\030\003 \001(\0132\014.EBADNHGKAAPB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "LB\030\003 \001(\0132\014.EBADNHGKAAPB2\n\031emu.grasscutte" +
+      "r.net.protoB\025ADIAKJADLKMOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

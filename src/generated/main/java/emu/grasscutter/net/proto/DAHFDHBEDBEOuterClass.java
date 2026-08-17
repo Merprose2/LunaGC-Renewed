@@ -525,8 +525,8 @@ public final class DAHFDHBEDBEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DAHFDHBEDBE.proto\"\037\n\013DAHFDHBEDBE\022\020\n\010en" +
-      "d_time\030\017 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "d_time\030\017 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025DAHFDHBEDBEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

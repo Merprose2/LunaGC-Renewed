@@ -696,8 +696,8 @@ public final class EMOLMHKIMBEOuterClass {
       "\n\021EMOLMHKIMBE.proto\032\021DEGDFAOEICK.proto\"[" +
       "\n\013EMOLMHKIMBE\022!\n\013KKFBGJGDAJI\030\001 \001(\0162\014.DEG" +
       "DFAOEICK\022\023\n\013LFMJFCFHJKF\030\002 \001(\r\022\024\n\013EDPBOKB" +
-      "AICA\030\365\003 \001(\005B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "AICA\030\365\003 \001(\005B2\n\031emu.grasscutter.net.proto" +
+      "B\025EMOLMHKIMBEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

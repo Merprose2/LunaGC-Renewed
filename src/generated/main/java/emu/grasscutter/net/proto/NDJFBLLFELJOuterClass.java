@@ -595,8 +595,9 @@ public final class NDJFBLLFELJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NDJFBLLFELJ.proto\"3\n\013NDJFBLLFELJ\022\020\n\010st" +
-      "age_id\030\002 \001(\r\022\022\n\ndifficulty\030\017 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "age_id\030\002 \001(\r\022\022\n\ndifficulty\030\017 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025NDJFBLLFELJOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

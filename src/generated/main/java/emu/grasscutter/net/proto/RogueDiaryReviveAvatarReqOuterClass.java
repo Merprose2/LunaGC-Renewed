@@ -660,8 +660,9 @@ public final class RogueDiaryReviveAvatarReqOuterClass {
       "\n\037RogueDiaryReviveAvatarReq.proto\032\026Rogue" +
       "DiaryAvatar.proto\"E\n\031RogueDiaryReviveAva" +
       "tarReq\022(\n\rrevive_avatar\030\n \001(\0132\021.RogueDia" +
-      "ryAvatarB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "ryAvatarB@\n\031emu.grasscutter.net.protoB#R" +
+      "ogueDiaryReviveAvatarReqOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

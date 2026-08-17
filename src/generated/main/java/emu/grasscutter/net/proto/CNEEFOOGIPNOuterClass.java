@@ -1798,8 +1798,9 @@ public final class CNEEFOOGIPNOuterClass {
       "LOJK\022\013\n\002id\030\365\003 \001(\005\022\024\n\013JGMNEONEOBI\030\367\003 \001(\010\022" +
       "\"\n\013GFKKHEIFJCM\030\377\003 \001(\0132\014.PDEMKABLOJK\022\"\n\013O" +
       "LPADPPMNEG\030\200\004 \001(\0132\014.PDEMKABLOJK\022\"\n\013GMAIC" +
-      "FFEMGH\030\201\004 \001(\0132\014.PDEMKABLOJKB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "FFEMGH\030\201\004 \001(\0132\014.PDEMKABLOJKB2\n\031emu.grass" +
+      "cutter.net.protoB\025CNEEFOOGIPNOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

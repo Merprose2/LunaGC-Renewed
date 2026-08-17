@@ -896,8 +896,9 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
       "$ElectroherculesBattleStageInfo.proto\"v\n" +
       "\037ElectroherculesBattleDetailInfo\0228\n\017stag" +
       "e_info_list\030\002 \003(\0132\037.ElectroherculesBattl" +
-      "eStageInfo\022\031\n\021is_pass_all_stage\030\010 \001(\010B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "eStageInfo\022\031\n\021is_pass_all_stage\030\010 \001(\010BF\n" +
+      "\031emu.grasscutter.net.protoB)Electrohercu" +
+      "lesBattleDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

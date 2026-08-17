@@ -1082,8 +1082,8 @@ public final class GIEALPADCODOuterClass {
       "LMJLCOJAKDE.proto\"l\n\013GIEALPADCOD\022\023\n\013CAPL" +
       "MLHJAKB\030\001 \001(\t\022!\n\013GHFAJNMCEDK\030\002 \001(\0162\014.LMJ" +
       "LCOJAKDE\022%\n\017_condition_list\030\003 \003(\0132\014.AJKM" +
-      "PKADDBEB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "PKADDBEB2\n\031emu.grasscutter.net.protoB\025GI" +
+      "EALPADCODOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

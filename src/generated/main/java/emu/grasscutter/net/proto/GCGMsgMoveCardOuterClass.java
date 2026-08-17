@@ -1233,8 +1233,8 @@ public final class GCGMsgMoveCardOuterClass {
       "roller_id\030\010 \001(\r\022\032\n\006reason\030\t \001(\0162\n.GCGRea" +
       "son\022\026\n\016fail_guid_list\030\n \003(\r\022\026\n\016card_guid" +
       "_list\030\r \003(\r\022!\n\013KKKCIPCDEAM\030\016 \001(\0162\014.GCGZo" +
-      "neTypeB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "neTypeB5\n\031emu.grasscutter.net.protoB\030GCG" +
+      "MsgMoveCardOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

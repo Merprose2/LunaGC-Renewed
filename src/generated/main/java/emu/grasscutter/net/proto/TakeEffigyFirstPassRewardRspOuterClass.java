@@ -596,8 +596,9 @@ public final class TakeEffigyFirstPassRewardRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"TakeEffigyFirstPassRewardRsp.proto\"E\n\034" +
       "TakeEffigyFirstPassRewardRsp\022\017\n\007retcode\030" +
-      "\n \001(\005\022\024\n\014challenge_id\030\017 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\n \001(\005\022\024\n\014challenge_id\030\017 \001(\rBC\n\031emu.grass" +
+      "cutter.net.protoB&TakeEffigyFirstPassRew" +
+      "ardRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

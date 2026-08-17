@@ -901,8 +901,9 @@ public final class GetMapAreaRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\023GetMapAreaRsp.proto\032\021MapAreaInfo.proto" +
       "\"J\n\rGetMapAreaRsp\022\017\n\007retcode\030\014 \001(\005\022(\n\022ma" +
-      "p_area_info_list\030\r \003(\0132\014.MapAreaInfoB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "p_area_info_list\030\r \003(\0132\014.MapAreaInfoB4\n\031" +
+      "emu.grasscutter.net.protoB\027GetMapAreaRsp" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

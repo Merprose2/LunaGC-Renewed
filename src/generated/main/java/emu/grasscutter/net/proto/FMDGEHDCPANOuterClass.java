@@ -527,8 +527,8 @@ public final class FMDGEHDCPANOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FMDGEHDCPAN.proto\"\"\n\013FMDGEHDCPAN\022\023\n\013PA" +
-      "AEELDCBKM\030\003 \001(\002B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "AEELDCBKM\030\003 \001(\002B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025FMDGEHDCPANOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

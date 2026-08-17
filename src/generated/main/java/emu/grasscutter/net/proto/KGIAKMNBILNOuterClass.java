@@ -1049,8 +1049,8 @@ public final class KGIAKMNBILNOuterClass {
       "\n\021KGIAKMNBILN.proto\"w\n\013KGIAKMNBILN\022\025\n\rsk" +
       "ill_id_list\030\004 \003(\r\022\023\n\013KILLGBOPCAF\030\006 \001(\r\022\024" +
       "\n\014avatar_level\030\014 \001(\r\022\021\n\tavatar_id\030\r \001(\r\022" +
-      "\023\n\013OODDMFKPKBB\030\017 \003(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\023\n\013OODDMFKPKBB\030\017 \003(\rB2\n\031emu.grasscutter." +
+      "net.protoB\025KGIAKMNBILNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

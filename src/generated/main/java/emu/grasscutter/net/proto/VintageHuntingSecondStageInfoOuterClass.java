@@ -659,8 +659,9 @@ public final class VintageHuntingSecondStageInfoOuterClass {
       "\n#VintageHuntingSecondStageInfo.proto\"[\n" +
       "\035VintageHuntingSecondStageInfo\022\023\n\013LKEOFB" +
       "CCPPP\030\003 \001(\r\022\020\n\010left_num\030\r \001(\r\022\023\n\013PEOAILO" +
-      "OEKH\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "OEKH\030\016 \001(\rBD\n\031emu.grasscutter.net.protoB" +
+      "\'VintageHuntingSecondStageInfoOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

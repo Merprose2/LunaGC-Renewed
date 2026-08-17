@@ -127,11 +127,11 @@ public final class HGGGAKPANDAOuterClass {
      * <code>._EffectInfo effect_info = 100;</code>
      * @return The effectInfo.
      */
-    emu.grasscutter.net.proto.EffectInfo._EffectInfo getEffectInfo();
+    emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo getEffectInfo();
     /**
      * <code>._EffectInfo effect_info = 100;</code>
      */
-    emu.grasscutter.net.proto.EffectInfo._EffectInfoOrBuilder getEffectInfoOrBuilder();
+    emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfoOrBuilder getEffectInfoOrBuilder();
 
     public emu.grasscutter.net.proto.HGGGAKPANDAOuterClass.HGGGAKPANDA.DetailCase getDetailCase();
   }
@@ -245,14 +245,14 @@ public final class HGGGAKPANDAOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.EffectInfo._EffectInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo.Builder subBuilder = null;
               if (detailCase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.EffectInfo._EffectInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.EffectInfo._EffectInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.EffectInfo._EffectInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 100;
@@ -555,21 +555,21 @@ public final class HGGGAKPANDAOuterClass {
      * @return The effectInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.EffectInfo._EffectInfo getEffectInfo() {
+    public emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo getEffectInfo() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.EffectInfo._EffectInfo) detail_;
+         return (emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo) detail_;
       }
-      return emu.grasscutter.net.proto.EffectInfo._EffectInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo.getDefaultInstance();
     }
     /**
      * <code>._EffectInfo effect_info = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.EffectInfo._EffectInfoOrBuilder getEffectInfoOrBuilder() {
+    public emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfoOrBuilder getEffectInfoOrBuilder() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.EffectInfo._EffectInfo) detail_;
+         return (emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo) detail_;
       }
-      return emu.grasscutter.net.proto.EffectInfo._EffectInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -617,7 +617,7 @@ public final class HGGGAKPANDAOuterClass {
         output.writeMessage(10, gJMOJGFNLAA_.get(i));
       }
       if (detailCase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.EffectInfo._EffectInfo) detail_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -668,7 +668,7 @@ public final class HGGGAKPANDAOuterClass {
       }
       if (detailCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.EffectInfo._EffectInfo) detail_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1783,7 +1783,7 @@ public final class HGGGAKPANDAOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EffectInfo._EffectInfo, emu.grasscutter.net.proto.EffectInfo._EffectInfo.Builder, emu.grasscutter.net.proto.EffectInfo._EffectInfoOrBuilder> effectInfoBuilder_;
+          emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo, emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo.Builder, emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfoOrBuilder> effectInfoBuilder_;
       /**
        * <code>._EffectInfo effect_info = 100;</code>
        * @return Whether the effectInfo field is set.
@@ -1797,23 +1797,23 @@ public final class HGGGAKPANDAOuterClass {
        * @return The effectInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.EffectInfo._EffectInfo getEffectInfo() {
+      public emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo getEffectInfo() {
         if (effectInfoBuilder_ == null) {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.EffectInfo._EffectInfo) detail_;
+            return (emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo) detail_;
           }
-          return emu.grasscutter.net.proto.EffectInfo._EffectInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 100) {
             return effectInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.EffectInfo._EffectInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._EffectInfo effect_info = 100;</code>
        */
-      public Builder setEffectInfo(emu.grasscutter.net.proto.EffectInfo._EffectInfo value) {
+      public Builder setEffectInfo(emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo value) {
         if (effectInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1830,7 +1830,7 @@ public final class HGGGAKPANDAOuterClass {
        * <code>._EffectInfo effect_info = 100;</code>
        */
       public Builder setEffectInfo(
-          emu.grasscutter.net.proto.EffectInfo._EffectInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo.Builder builderForValue) {
         if (effectInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1843,11 +1843,11 @@ public final class HGGGAKPANDAOuterClass {
       /**
        * <code>._EffectInfo effect_info = 100;</code>
        */
-      public Builder mergeEffectInfo(emu.grasscutter.net.proto.EffectInfo._EffectInfo value) {
+      public Builder mergeEffectInfo(emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo value) {
         if (effectInfoBuilder_ == null) {
           if (detailCase_ == 100 &&
-              detail_ != emu.grasscutter.net.proto.EffectInfo._EffectInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.EffectInfo._EffectInfo.newBuilder((emu.grasscutter.net.proto.EffectInfo._EffectInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo.newBuilder((emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1884,36 +1884,36 @@ public final class HGGGAKPANDAOuterClass {
       /**
        * <code>._EffectInfo effect_info = 100;</code>
        */
-      public emu.grasscutter.net.proto.EffectInfo._EffectInfo.Builder getEffectInfoBuilder() {
+      public emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo.Builder getEffectInfoBuilder() {
         return getEffectInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._EffectInfo effect_info = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.EffectInfo._EffectInfoOrBuilder getEffectInfoOrBuilder() {
+      public emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfoOrBuilder getEffectInfoOrBuilder() {
         if ((detailCase_ == 100) && (effectInfoBuilder_ != null)) {
           return effectInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.EffectInfo._EffectInfo) detail_;
+            return (emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo) detail_;
           }
-          return emu.grasscutter.net.proto.EffectInfo._EffectInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._EffectInfo effect_info = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EffectInfo._EffectInfo, emu.grasscutter.net.proto.EffectInfo._EffectInfo.Builder, emu.grasscutter.net.proto.EffectInfo._EffectInfoOrBuilder> 
+          emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo, emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo.Builder, emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfoOrBuilder> 
           getEffectInfoFieldBuilder() {
         if (effectInfoBuilder_ == null) {
           if (!(detailCase_ == 100)) {
-            detail_ = emu.grasscutter.net.proto.EffectInfo._EffectInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo.getDefaultInstance();
           }
           effectInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.EffectInfo._EffectInfo, emu.grasscutter.net.proto.EffectInfo._EffectInfo.Builder, emu.grasscutter.net.proto.EffectInfo._EffectInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.EffectInfo._EffectInfo) detail_,
+              emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo, emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo.Builder, emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._EffectInfoOuterClass._EffectInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1998,14 +1998,15 @@ public final class HGGGAKPANDAOuterClass {
       " \001(\002\022\023\n\013JGPHOBGDBKI\030\010 \001(\002\022\014\n\004icon\030\t \001(\t\022" +
       "!\n\013GJMOJGFNLAA\030\n \003(\0132\014.HGGGAKPANDA\022#\n\013ef" +
       "fect_info\030d \001(\0132\014._EffectInfoH\000B\010\n\006detai" +
-      "lB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "lB2\n\031emu.grasscutter.net.protoB\025HGGGAKPA" +
+      "NDAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.CCFPGLOKBGPOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.IMOJGAICJAIOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.EffectInfo.getDescriptor(),
+          emu.grasscutter.net.proto._EffectInfoOuterClass.getDescriptor(),
         });
     internal_static_HGGGAKPANDA_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2015,7 +2016,7 @@ public final class HGGGAKPANDAOuterClass {
         new java.lang.String[] { "Id", "Guid", "EMBJNKGJLFN", "Name", "AJNMDAAALDO", "MPLDLMNOAGE", "NHNGFDBFCCH", "JGPHOBGDBKI", "Icon", "GJMOJGFNLAA", "EffectInfo", "Detail", });
     emu.grasscutter.net.proto.CCFPGLOKBGPOuterClass.getDescriptor();
     emu.grasscutter.net.proto.IMOJGAICJAIOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.EffectInfo.getDescriptor();
+    emu.grasscutter.net.proto._EffectInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

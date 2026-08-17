@@ -38,11 +38,11 @@ public final class DOJKHEJDKBBOuterClass {
      * <code>._ModifyNodeType modify_node_type = 101;</code>
      * @return The modifyNodeType.
      */
-    emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType getModifyNodeType();
+    emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType getModifyNodeType();
     /**
      * <code>._ModifyNodeType modify_node_type = 101;</code>
      */
-    emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeTypeOrBuilder getModifyNodeTypeOrBuilder();
+    emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeTypeOrBuilder getModifyNodeTypeOrBuilder();
 
     public emu.grasscutter.net.proto.DOJKHEJDKBBOuterClass.DOJKHEJDKBB.DBHCCFJCDLHCase getDBHCCFJCDLHCase();
   }
@@ -99,14 +99,14 @@ public final class DOJKHEJDKBBOuterClass {
               break;
             }
             case 810: {
-              emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType.Builder subBuilder = null;
               if (dBHCCFJCDLHCase_ == 101) {
-                subBuilder = ((emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType) dBHCCFJCDLH_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType) dBHCCFJCDLH_).toBuilder();
               }
               dBHCCFJCDLH_ =
-                  input.readMessage(emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType) dBHCCFJCDLH_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType) dBHCCFJCDLH_);
                 dBHCCFJCDLH_ = subBuilder.buildPartial();
               }
               dBHCCFJCDLHCase_ = 101;
@@ -216,21 +216,21 @@ public final class DOJKHEJDKBBOuterClass {
      * @return The modifyNodeType.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType getModifyNodeType() {
+    public emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType getModifyNodeType() {
       if (dBHCCFJCDLHCase_ == 101) {
-         return (emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType) dBHCCFJCDLH_;
+         return (emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType) dBHCCFJCDLH_;
       }
-      return emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType.getDefaultInstance();
+      return emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType.getDefaultInstance();
     }
     /**
      * <code>._ModifyNodeType modify_node_type = 101;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeTypeOrBuilder getModifyNodeTypeOrBuilder() {
+    public emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeTypeOrBuilder getModifyNodeTypeOrBuilder() {
       if (dBHCCFJCDLHCase_ == 101) {
-         return (emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType) dBHCCFJCDLH_;
+         return (emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType) dBHCCFJCDLH_;
       }
-      return emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType.getDefaultInstance();
+      return emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -251,7 +251,7 @@ public final class DOJKHEJDKBBOuterClass {
         output.writeEnum(1, actionType_);
       }
       if (dBHCCFJCDLHCase_ == 101) {
-        output.writeMessage(101, (emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType) dBHCCFJCDLH_);
+        output.writeMessage(101, (emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType) dBHCCFJCDLH_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,7 +268,7 @@ public final class DOJKHEJDKBBOuterClass {
       }
       if (dBHCCFJCDLHCase_ == 101) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(101, (emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType) dBHCCFJCDLH_);
+          .computeMessageSize(101, (emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType) dBHCCFJCDLH_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -647,7 +647,7 @@ public final class DOJKHEJDKBBOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType, emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType.Builder, emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeTypeOrBuilder> modifyNodeTypeBuilder_;
+          emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType, emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType.Builder, emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeTypeOrBuilder> modifyNodeTypeBuilder_;
       /**
        * <code>._ModifyNodeType modify_node_type = 101;</code>
        * @return Whether the modifyNodeType field is set.
@@ -661,23 +661,23 @@ public final class DOJKHEJDKBBOuterClass {
        * @return The modifyNodeType.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType getModifyNodeType() {
+      public emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType getModifyNodeType() {
         if (modifyNodeTypeBuilder_ == null) {
           if (dBHCCFJCDLHCase_ == 101) {
-            return (emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType) dBHCCFJCDLH_;
+            return (emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType) dBHCCFJCDLH_;
           }
-          return emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType.getDefaultInstance();
+          return emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType.getDefaultInstance();
         } else {
           if (dBHCCFJCDLHCase_ == 101) {
             return modifyNodeTypeBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType.getDefaultInstance();
+          return emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType.getDefaultInstance();
         }
       }
       /**
        * <code>._ModifyNodeType modify_node_type = 101;</code>
        */
-      public Builder setModifyNodeType(emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType value) {
+      public Builder setModifyNodeType(emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType value) {
         if (modifyNodeTypeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -694,7 +694,7 @@ public final class DOJKHEJDKBBOuterClass {
        * <code>._ModifyNodeType modify_node_type = 101;</code>
        */
       public Builder setModifyNodeType(
-          emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType.Builder builderForValue) {
+          emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType.Builder builderForValue) {
         if (modifyNodeTypeBuilder_ == null) {
           dBHCCFJCDLH_ = builderForValue.build();
           onChanged();
@@ -707,11 +707,11 @@ public final class DOJKHEJDKBBOuterClass {
       /**
        * <code>._ModifyNodeType modify_node_type = 101;</code>
        */
-      public Builder mergeModifyNodeType(emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType value) {
+      public Builder mergeModifyNodeType(emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType value) {
         if (modifyNodeTypeBuilder_ == null) {
           if (dBHCCFJCDLHCase_ == 101 &&
-              dBHCCFJCDLH_ != emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType.getDefaultInstance()) {
-            dBHCCFJCDLH_ = emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType.newBuilder((emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType) dBHCCFJCDLH_)
+              dBHCCFJCDLH_ != emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType.getDefaultInstance()) {
+            dBHCCFJCDLH_ = emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType.newBuilder((emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType) dBHCCFJCDLH_)
                 .mergeFrom(value).buildPartial();
           } else {
             dBHCCFJCDLH_ = value;
@@ -748,36 +748,36 @@ public final class DOJKHEJDKBBOuterClass {
       /**
        * <code>._ModifyNodeType modify_node_type = 101;</code>
        */
-      public emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType.Builder getModifyNodeTypeBuilder() {
+      public emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType.Builder getModifyNodeTypeBuilder() {
         return getModifyNodeTypeFieldBuilder().getBuilder();
       }
       /**
        * <code>._ModifyNodeType modify_node_type = 101;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeTypeOrBuilder getModifyNodeTypeOrBuilder() {
+      public emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeTypeOrBuilder getModifyNodeTypeOrBuilder() {
         if ((dBHCCFJCDLHCase_ == 101) && (modifyNodeTypeBuilder_ != null)) {
           return modifyNodeTypeBuilder_.getMessageOrBuilder();
         } else {
           if (dBHCCFJCDLHCase_ == 101) {
-            return (emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType) dBHCCFJCDLH_;
+            return (emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType) dBHCCFJCDLH_;
           }
-          return emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType.getDefaultInstance();
+          return emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType.getDefaultInstance();
         }
       }
       /**
        * <code>._ModifyNodeType modify_node_type = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType, emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType.Builder, emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeTypeOrBuilder> 
+          emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType, emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType.Builder, emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeTypeOrBuilder> 
           getModifyNodeTypeFieldBuilder() {
         if (modifyNodeTypeBuilder_ == null) {
           if (!(dBHCCFJCDLHCase_ == 101)) {
-            dBHCCFJCDLH_ = emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType.getDefaultInstance();
+            dBHCCFJCDLH_ = emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType.getDefaultInstance();
           }
           modifyNodeTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType, emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType.Builder, emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeTypeOrBuilder>(
-                  (emu.grasscutter.net.proto.ModifyNodeType._ModifyNodeType) dBHCCFJCDLH_,
+              emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType, emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType.Builder, emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeTypeOrBuilder>(
+                  (emu.grasscutter.net.proto._ModifyNodeTypeOuterClass._ModifyNodeType) dBHCCFJCDLH_,
                   getParentForChildren(),
                   isClean());
           dBHCCFJCDLH_ = null;
@@ -857,14 +857,14 @@ public final class DOJKHEJDKBBOuterClass {
       "_ModifyNodeType.proto\"m\n\013DOJKHEJDKBB\022!\n\013" +
       "action_type\030\001 \001(\0162\014.JMMEOBOGJKH\022,\n\020modif" +
       "y_node_type\030e \001(\0132\020._ModifyNodeTypeH\000B\r\n" +
-      "\013DBHCCFJCDLHB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\013DBHCCFJCDLHB2\n\031emu.grasscutter.net.prot" +
+      "oB\025DOJKHEJDKBBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.JMMEOBOGJKHOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.ModifyNodeType.getDescriptor(),
+          emu.grasscutter.net.proto._ModifyNodeTypeOuterClass.getDescriptor(),
         });
     internal_static_DOJKHEJDKBB_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -873,7 +873,7 @@ public final class DOJKHEJDKBBOuterClass {
         internal_static_DOJKHEJDKBB_descriptor,
         new java.lang.String[] { "ActionType", "ModifyNodeType", "DBHCCFJCDLH", });
     emu.grasscutter.net.proto.JMMEOBOGJKHOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.ModifyNodeType.getDescriptor();
+    emu.grasscutter.net.proto._ModifyNodeTypeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

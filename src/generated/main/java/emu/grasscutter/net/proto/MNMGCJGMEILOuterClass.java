@@ -518,8 +518,8 @@ public final class MNMGCJGMEILOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MNMGCJGMEIL.proto\"\034\n\013MNMGCJGMEIL\022\r\n\005va" +
-      "lue\030\001 \001(\010B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "lue\030\001 \001(\010B2\n\031emu.grasscutter.net.protoB\025" +
+      "MNMGCJGMEILOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

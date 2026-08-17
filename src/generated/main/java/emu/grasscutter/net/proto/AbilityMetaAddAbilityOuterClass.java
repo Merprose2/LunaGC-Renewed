@@ -652,8 +652,8 @@ public final class AbilityMetaAddAbilityOuterClass {
       "\n\033AbilityMetaAddAbility.proto\032\033AbilityAp" +
       "pliedAbility.proto\"@\n\025AbilityMetaAddAbil" +
       "ity\022\'\n\007ability\030\n \001(\0132\026.AbilityAppliedAbi" +
-      "lityB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "lityB<\n\031emu.grasscutter.net.protoB\037Abili" +
+      "tyMetaAddAbilityOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

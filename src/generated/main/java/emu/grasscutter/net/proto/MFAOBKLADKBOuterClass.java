@@ -2034,8 +2034,8 @@ public final class MFAOBKLADKBOuterClass {
       ".DEIAGLFJKBG\022\023\n\013PFELKIIEANF\030\010 \001(\010\022\023\n\013LPG" +
       "FJKMGLDA\030\t \001(\010\022!\n\013LICCJGPGOHF\030\n \001(\0132\014.IK" +
       "HNFCKKIFI\022\023\n\013MDKLBJLOOJO\030\013 \001(\t\022\023\n\013HELEFA" +
-      "HFJMF\030\014 \001(\tB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "HFJMF\030\014 \001(\tB2\n\031emu.grasscutter.net.proto" +
+      "B\025MFAOBKLADKBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

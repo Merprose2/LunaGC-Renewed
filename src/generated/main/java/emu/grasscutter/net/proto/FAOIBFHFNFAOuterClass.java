@@ -1226,8 +1226,9 @@ public final class FAOIBFHFNFAOuterClass {
       "CJGPGOHF\030\005 \001(\0132\014.IKHNFCKKIFI\022\023\n\013BPNGBPIH" +
       "DIM\030\006 \001(\t\022!\n\013PKFPJPEIJKL\030\007 \001(\0132\014.EJFFMPF" +
       "NPEL\022\023\n\013PADDAIOPAAO\030\010 \001(\r\022\024\n\014dungeon_gui" +
-      "d\030\014 \001(\004\022\023\n\013DIAEGNPICOM\030\r \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "d\030\014 \001(\004\022\023\n\013DIAEGNPICOM\030\r \001(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025FAOIBFHFNFAOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

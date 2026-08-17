@@ -659,8 +659,9 @@ public final class GCGWeekChallengeInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032GCGWeekChallengeInfo.proto\"P\n\024GCGWeekC" +
       "hallengeInfo\022\016\n\006npc_id\030\002 \001(\r\022\023\n\013unlock_t" +
-      "ime\030\t \001(\r\022\023\n\013is_finished\030\r \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ime\030\t \001(\r\022\023\n\013is_finished\030\r \001(\010B;\n\031emu.gr" +
+      "asscutter.net.protoB\036GCGWeekChallengeInf" +
+      "oOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

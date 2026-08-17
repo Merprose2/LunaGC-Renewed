@@ -596,8 +596,8 @@ public final class FurnitureMakeCancelReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034FurnitureMakeCancelReq.proto\"8\n\026Furnit" +
       "ureMakeCancelReq\022\017\n\007make_id\030\003 \001(\r\022\r\n\005ind" +
-      "ex\030\010 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "ex\030\010 \001(\rB=\n\031emu.grasscutter.net.protoB F" +
+      "urnitureMakeCancelReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

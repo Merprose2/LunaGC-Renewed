@@ -1076,8 +1076,8 @@ public final class BLILADEFNICOuterClass {
       "PGDMAIHKGFO.proto\"t\n\013BLILADEFNIC\022\n\n\002id\030\001" +
       " \001(\r\022!\n\013PPPJEOPEBGA\030\002 \001(\0132\014.PGDMAIHKGFO\022" +
       "!\n\013AFBAJKHJMJH\030\003 \001(\0132\014.KGELNMKBBKM\022\023\n\013AH" +
-      "IGMKPAINA\030\014 \001(\tB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "IGMKPAINA\030\014 \001(\tB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025BLILADEFNICOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

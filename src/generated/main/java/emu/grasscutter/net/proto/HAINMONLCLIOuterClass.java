@@ -526,8 +526,8 @@ public final class HAINMONLCLIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HAINMONLCLI.proto\"\"\n\013HAINMONLCLI\022\023\n\013EK" +
-      "NMEPJCABB\030\004 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "NMEPJCABB\030\004 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025HAINMONLCLIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

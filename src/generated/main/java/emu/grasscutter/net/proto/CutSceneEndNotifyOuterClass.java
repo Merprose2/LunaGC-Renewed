@@ -596,8 +596,8 @@ public final class CutSceneEndNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027CutSceneEndNotify.proto\"9\n\021CutSceneEnd" +
       "Notify\022\017\n\007retcode\030\n \001(\005\022\023\n\013cutscene_id\030\013" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB8\n\031emu.grasscutter.net.protoB\033CutSc" +
+      "eneEndNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

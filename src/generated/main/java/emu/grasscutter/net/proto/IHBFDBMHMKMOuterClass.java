@@ -596,8 +596,9 @@ public final class IHBFDBMHMKMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IHBFDBMHMKM.proto\"7\n\013IHBFDBMHMKM\022\023\n\013KA" +
-      "EOBNBFIDL\030\005 \001(\004\022\023\n\013BBPHPOKHHGF\030\010 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "EOBNBFIDL\030\005 \001(\004\022\023\n\013BBPHPOKHHGF\030\010 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025IHBFDBMHMKMOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

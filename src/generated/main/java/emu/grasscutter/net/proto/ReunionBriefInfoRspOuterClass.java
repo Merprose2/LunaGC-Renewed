@@ -802,7 +802,8 @@ public final class ReunionBriefInfoRspOuterClass {
       "fInfo.proto\"j\n\023ReunionBriefInfoRsp\022-\n\022re" +
       "union_brief_info\030\004 \001(\0132\021.ReunionBriefInf" +
       "o\022\017\n\007retcode\030\t \001(\005\022\023\n\013is_activate\030\017 \001(\010B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      ":\n\031emu.grasscutter.net.protoB\035ReunionBri" +
+      "efInfoRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

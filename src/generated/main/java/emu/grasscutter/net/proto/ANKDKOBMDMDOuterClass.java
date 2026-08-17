@@ -658,8 +658,8 @@ public final class ANKDKOBMDMDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ANKDKOBMDMD.proto\"D\n\013ANKDKOBMDMD\022\023\n\013FD" +
       "HFOCMBAKE\030\001 \001(\r\022\020\n\010progress\030\002 \001(\r\022\016\n\006sta" +
-      "tus\030\003 \001(\005B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "tus\030\003 \001(\005B2\n\031emu.grasscutter.net.protoB\025" +
+      "ANKDKOBMDMDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

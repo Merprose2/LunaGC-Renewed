@@ -598,8 +598,9 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
       "\n*ChangeWidgetBackgroundActiveStateReq.p" +
       "roto\"N\n$ChangeWidgetBackgroundActiveStat" +
       "eReq\022\023\n\013material_id\030\003 \001(\r\022\021\n\tis_active\030\004" +
-      " \001(\010B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\010BK\n\031emu.grasscutter.net.protoB.Chang" +
+      "eWidgetBackgroundActiveStateReqOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

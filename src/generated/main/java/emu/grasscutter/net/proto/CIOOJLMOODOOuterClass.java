@@ -1391,8 +1391,8 @@ public final class CIOOJLMOODOOuterClass {
       "_list\030\001 \003(\r\022\023\n\013CJLLABPGCAJ\030\002 \001(\003\022!\n\013MLPL" +
       "EKFBBMA\030\003 \003(\0132\014.GGEFFDMHDNN\022/\n\026tps_merce" +
       "naries_record\030\351\007 \001(\0132\014.DBLPCEEKGBPH\000B\010\n\006" +
-      "detailB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "detailB2\n\031emu.grasscutter.net.protoB\025CIO" +
+      "OJLMOODOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

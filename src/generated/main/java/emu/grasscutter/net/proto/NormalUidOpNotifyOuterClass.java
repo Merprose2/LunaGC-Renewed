@@ -987,8 +987,8 @@ public final class NormalUidOpNotifyOuterClass {
       "\n\027NormalUidOpNotify.proto\"f\n\021NormalUidOp" +
       "Notify\022\020\n\010duration\030\002 \001(\r\022\026\n\016param_uid_li" +
       "st\030\003 \003(\r\022\022\n\nparam_list\030\004 \003(\r\022\023\n\013param_in" +
-      "dex\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "dex\030\017 \001(\rB8\n\031emu.grasscutter.net.protoB\033" +
+      "NormalUidOpNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

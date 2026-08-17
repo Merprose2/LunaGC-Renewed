@@ -862,8 +862,9 @@ public final class WinterCampRaceStageInfoOuterClass {
       "\n\035WinterCampRaceStageInfo.proto\032\014Vector." +
       "proto\"a\n\027WinterCampRaceStageInfo\022\n\n\002id\030\004" +
       " \001(\r\022\021\n\topen_time\030\006 \001(\r\022\021\n\tmax_score\030\010 \001" +
-      "(\r\022\024\n\003pos\030\014 \001(\0132\007.VectorB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "(\r\022\024\n\003pos\030\014 \001(\0132\007.VectorB>\n\031emu.grasscut" +
+      "ter.net.protoB!WinterCampRaceStageInfoOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

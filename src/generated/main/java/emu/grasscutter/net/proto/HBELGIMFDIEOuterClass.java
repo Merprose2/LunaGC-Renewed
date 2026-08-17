@@ -446,8 +446,9 @@ public final class HBELGIMFDIEOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021HBELGIMFDIE.proto\"\r\n\013HBELGIMFDIEB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021HBELGIMFDIE.proto\"\r\n\013HBELGIMFDIEB2\n\031em" +
+      "u.grasscutter.net.protoB\025HBELGIMFDIEOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -649,8 +649,8 @@ public final class PCLFBFLJAAAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PCLFBFLJAAA.proto\"%\n\013PCLFBFLJAAA\022\026\n\016ca" +
-      "rd_guid_list\030\t \003(\006B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "rd_guid_list\030\t \003(\006B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025PCLFBFLJAAAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

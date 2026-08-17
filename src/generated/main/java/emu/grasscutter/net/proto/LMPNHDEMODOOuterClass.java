@@ -526,8 +526,8 @@ public final class LMPNHDEMODOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LMPNHDEMODO.proto\"\"\n\013LMPNHDEMODO\022\023\n\013GP" +
-      "NGHCJDONG\030\n \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "NGHCJDONG\030\n \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025LMPNHDEMODOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

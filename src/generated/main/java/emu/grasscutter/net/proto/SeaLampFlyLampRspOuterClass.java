@@ -666,8 +666,9 @@ public final class SeaLampFlyLampRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027SeaLampFlyLampRsp.proto\"G\n\021SeaLampFlyL" +
       "ampRsp\022\017\n\007item_id\030\005 \001(\r\022\017\n\007retcode\030\014 \001(\005" +
-      "\022\020\n\010item_num\030\r \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\022\020\n\010item_num\030\r \001(\rB8\n\031emu.grasscutter.ne" +
+      "t.protoB\033SeaLampFlyLampRspOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

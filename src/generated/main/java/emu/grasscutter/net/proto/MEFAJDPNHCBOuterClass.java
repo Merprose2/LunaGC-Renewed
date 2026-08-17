@@ -1052,7 +1052,8 @@ public final class MEFAJDPNHCBOuterClass {
       "\n\021MEFAJDPNHCB.proto\032\021DEICOFPDOAD.proto\"S" +
       "\n\013MEFAJDPNHCB\022\023\n\013BLGLEHCNNDK\030\001 \001(\r\022\014\n\004ti" +
       "me\030\002 \001(\t\022!\n\013AJMHEEAFFDE\030\003 \003(\0132\014.DEICOFPD" +
-      "OADB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "OADB2\n\031emu.grasscutter.net.protoB\025MEFAJD" +
+      "PNHCBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

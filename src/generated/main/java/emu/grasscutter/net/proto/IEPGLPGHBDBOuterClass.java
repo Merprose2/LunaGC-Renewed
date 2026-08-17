@@ -999,8 +999,8 @@ public final class IEPGLPGHBDBOuterClass {
       "OJMNAIMPELG.proto\"x\n\013IEPGLPGHBDB\022!\n\013NBNM" +
       "EAJCLIE\030\001 \001(\0132\014.OJMNAIMPELG\022!\n\013AINHBMOMC" +
       "AP\030\002 \001(\0132\014.JEHHKNEEIGO\022\016\n\006reward\030\003 \001(\002\022\023" +
-      "\n\013MENFKPMKECI\030\004 \001(\010B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013MENFKPMKECI\030\004 \001(\010B2\n\031emu.grasscutter.n" +
+      "et.protoB\025IEPGLPGHBDBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

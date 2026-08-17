@@ -737,8 +737,9 @@ public final class DungeonRestartInviteNotifyOuterClass {
       "\n DungeonRestartInviteNotify.proto\"b\n\032Du" +
       "ngeonRestartInviteNotify\022\022\n\nplayer_uid\030\004" +
       " \001(\r\022\022\n\ndungeon_id\030\007 \001(\r\022\020\n\010point_id\030\013 \001" +
-      "(\r\022\n\n\002cd\030\r \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "(\r\022\n\n\002cd\030\r \001(\rBA\n\031emu.grasscutter.net.pr" +
+      "otoB$DungeonRestartInviteNotifyOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -722,8 +722,9 @@ public final class MNBKEGBNCHLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MNBKEGBNCHL.proto\"2\n\013MNBKEGBNCHL\022\022\n\npa" +
-      "ram_list\030\t \003(\r\022\017\n\007buff_id\030\r \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "ram_list\030\t \003(\r\022\017\n\007buff_id\030\r \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025MNBKEGBNCHLOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

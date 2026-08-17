@@ -730,8 +730,9 @@ public final class JJNLBIGDBFJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JJNLBIGDBFJ.proto\"U\n\013JJNLBIGDBFJ\022\020\n\010le" +
       "vel_id\030\001 \001(\r\022\017\n\007is_open\030\005 \001(\010\022\021\n\tis_fini" +
-      "sh\030\006 \001(\010\022\020\n\010use_time\030\007 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "sh\030\006 \001(\010\022\020\n\010use_time\030\007 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025JJNLBIGDBFJOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

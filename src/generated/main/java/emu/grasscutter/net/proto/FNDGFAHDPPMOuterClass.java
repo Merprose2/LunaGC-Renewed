@@ -526,8 +526,8 @@ public final class FNDGFAHDPPMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FNDGFAHDPPM.proto\"\"\n\013FNDGFAHDPPM\022\023\n\013FF" +
-      "DOKLIDBJA\030\t \001(\004B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "DOKLIDBJA\030\t \001(\004B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025FNDGFAHDPPMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

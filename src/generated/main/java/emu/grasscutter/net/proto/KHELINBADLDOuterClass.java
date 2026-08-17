@@ -517,8 +517,8 @@ public final class KHELINBADLDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KHELINBADLD.proto\"\"\n\013KHELINBADLD\022\023\n\013CB" +
-      "EJPCLDPIB\030\001 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "EJPCLDPIB\030\001 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025KHELINBADLDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

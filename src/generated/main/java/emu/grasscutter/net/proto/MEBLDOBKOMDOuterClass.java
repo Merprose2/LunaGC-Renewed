@@ -938,8 +938,8 @@ public final class MEBLDOBKOMDOuterClass {
       "\013MEBLDOBKOMD\022!\n\013LCLIBHOHEMA\030\001 \001(\0162\014.EHBJ" +
       "FNCJDFN\022!\n\013JLHEGLCJEFK\030\003 \001(\0162\014.JEOKDCIGC" +
       "FP\022!\n\013HBGDPLIIHON\030\004 \001(\0132\014.CNMLCLALHOE\022\024\n" +
-      "\013POAANOHBLJD\030\351\007 \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\013POAANOHBLJD\030\351\007 \001(\005B2\n\031emu.grasscutter.n" +
+      "et.protoB\025MEBLDOBKOMDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

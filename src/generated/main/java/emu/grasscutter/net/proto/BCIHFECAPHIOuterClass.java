@@ -595,8 +595,9 @@ public final class BCIHFECAPHIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BCIHFECAPHI.proto\"6\n\013BCIHFECAPHI\022\022\n\nse" +
-      "ction_id\030\013 \001(\r\022\023\n\013DIKAJGKLPGO\030\r \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "ction_id\030\013 \001(\r\022\023\n\013DIKAJGKLPGO\030\r \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025BCIHFECAPHIOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

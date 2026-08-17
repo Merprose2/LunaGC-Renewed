@@ -1282,7 +1282,8 @@ public final class DJICMJOEBLGOuterClass {
       "PHHO\030\002 \001(\t\022\021\n\tis_active\030\003 \001(\010\022\014\n\004icon\030\004 " +
       "\001(\r\022\023\n\013EEKIAOLEPNM\030\005 \001(\r\022!\n\013NECKOCPCNAB\030" +
       "\006 \001(\0132\014.EBADNHGKAAP\022\023\n\013POGPHDLNFFL\030\010 \003(\005" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025DJICMJOEB" +
+      "LGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

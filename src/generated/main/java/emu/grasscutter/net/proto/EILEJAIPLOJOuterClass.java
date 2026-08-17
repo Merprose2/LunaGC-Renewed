@@ -667,8 +667,8 @@ public final class EILEJAIPLOJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EILEJAIPLOJ.proto\"G\n\013EILEJAIPLOJ\022\020\n\010gr" +
       "oup_id\030\003 \001(\r\022\023\n\013LAOJFDMECIB\030\n \001(\010\022\021\n\tcon" +
-      "fig_id\030\013 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "fig_id\030\013 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025EILEJAIPLOJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

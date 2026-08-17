@@ -893,8 +893,8 @@ public final class OHEBLHJHGEGOuterClass {
       "UgcType.proto\"m\n\013OHEBLHJHGEG\022\032\n\010ugc_type" +
       "\030\001 \001(\0162\010.UgcType\022\023\n\013target_guid\030\007 \001(\004\022\034\n" +
       "\006reason\030\010 \001(\0162\014.PFPCBEEHELJ\022\017\n\007content\030\014" +
-      " \001(\tB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\tB2\n\031emu.grasscutter.net.protoB\025OHEBL" +
+      "HJHGEGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

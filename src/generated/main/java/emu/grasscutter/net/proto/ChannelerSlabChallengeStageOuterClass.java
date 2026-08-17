@@ -1242,8 +1242,9 @@ public final class ChannelerSlabChallengeStageOuterClass {
       "annelerSlabChallenge\022\020\n\010stage_id\030\005 \001(\r\022\021" +
       "\n\topen_time\030\006 \001(\r\0221\n\014dungeon_info\030\007 \001(\0132" +
       "\033.ChannelerSlabOneoffDungeon\022\017\n\007is_open\030" +
-      "\013 \001(\010B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\013 \001(\010BB\n\031emu.grasscutter.net.protoB%Chan" +
+      "nelerSlabChallengeStageOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -634,8 +634,8 @@ public final class DJBDDHOEMLCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DJBDDHOEMLC.proto\032\rUgcType.proto\"=\n\013DJ" +
       "BDDHOEMLC\022\022\n\nis_refresh\030\002 \001(\010\022\032\n\010ugc_typ" +
-      "e\030\r \001(\0162\010.UgcTypeB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "e\030\r \001(\0162\010.UgcTypeB2\n\031emu.grasscutter.net" +
+      ".protoB\025DJBDDHOEMLCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

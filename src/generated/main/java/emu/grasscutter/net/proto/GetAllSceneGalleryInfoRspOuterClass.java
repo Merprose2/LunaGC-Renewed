@@ -902,8 +902,9 @@ public final class GetAllSceneGalleryInfoRspOuterClass {
       "\n\037GetAllSceneGalleryInfoRsp.proto\032\026Scene" +
       "GalleryInfo.proto\"Z\n\031GetAllSceneGalleryI" +
       "nfoRsp\022,\n\021gallery_info_list\030\r \003(\0132\021.Scen" +
-      "eGalleryInfo\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "eGalleryInfo\022\017\n\007retcode\030\016 \001(\005B@\n\031emu.gra" +
+      "sscutter.net.protoB#GetAllSceneGalleryIn" +
+      "foRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

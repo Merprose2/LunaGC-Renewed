@@ -1293,8 +1293,9 @@ public final class DPMAPBFNPMMOuterClass {
       "NFJIALLJ\030\001 \001(\r\022!\n\013NIKILBOPIFP\030\002 \001(\0162\014.MC" +
       "AGHFIPCPF\022!\n\013CDDNDJADDEJ\030\003 \003(\0132\014.BKADGFH" +
       "MCPK\022\024\n\013FLEDBFJLPNN\030\365\003 \001(\t\022\023\n\nlife_state" +
-      "\030\366\003 \001(\r\022\020\n\007version\030\367\003 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\030\366\003 \001(\r\022\020\n\007version\030\367\003 \001(\rB2\n\031emu.grasscu" +
+      "tter.net.protoB\025DPMAPBFNPMMOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

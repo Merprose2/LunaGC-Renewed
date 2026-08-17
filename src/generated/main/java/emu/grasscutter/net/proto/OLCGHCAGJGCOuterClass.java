@@ -747,8 +747,9 @@ public final class OLCGHCAGJGCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OLCGHCAGJGC.proto\"5\n\013OLCGHCAGJGC\022\022\n\npr" +
-      "oduct_id\030\001 \001(\t\022\022\n\nprice_tier\030\002 \001(\tB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "oduct_id\030\001 \001(\t\022\022\n\nprice_tier\030\002 \001(\tB2\n\031em" +
+      "u.grasscutter.net.protoB\025OLCGHCAGJGCOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

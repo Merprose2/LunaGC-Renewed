@@ -988,7 +988,8 @@ public final class OFIGJJGONDBOuterClass {
       "ore\030\003 \001(\r\022\020\n\010level_id\030\005 \001(\r\022\021\n\tleft_time" +
       "\030\006 \001(\r\022\017\n\007is_succ\030\010 \001(\010\022\"\n\006reason\030\014 \001(\0162" +
       "\022.GalleryStopReason\022\025\n\ris_new_record\030\017 \001" +
-      "(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\010B2\n\031emu.grasscutter.net.protoB\025OFIGJJG" +
+      "ONDBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

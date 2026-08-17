@@ -2458,7 +2458,8 @@ public final class FHMHNJMIJGAOuterClass {
       "(\0132\014.NMLCDKAMBGI\022!\n\013DKKENHKNDPK\030\007 \001(\0132\014." +
       "FDBOMKBNBNK\022!\n\013LHIPDBHICOE\030\010 \001(\0132\014.KEPGB" +
       "GMJPAC\022!\n\013MCOGBGBBGNO\030\t \001(\0132\014.AGABLPFNHJ" +
-      "AB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "AB2\n\031emu.grasscutter.net.protoB\025FHMHNJMI" +
+      "JGAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

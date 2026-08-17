@@ -33,11 +33,11 @@ public final class POCNEJJJJCIOuterClass {
      * <code>._GCGArenaHistoryDeckDetailInfo IGEHGEPBKGP = 12;</code>
      * @return The iGEHGEPBKGP.
      */
-    emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo getIGEHGEPBKGP();
+    emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo getIGEHGEPBKGP();
     /**
      * <code>._GCGArenaHistoryDeckDetailInfo IGEHGEPBKGP = 12;</code>
      */
-    emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfoOrBuilder getIGEHGEPBKGPOrBuilder();
+    emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfoOrBuilder getIGEHGEPBKGPOrBuilder();
 
     /**
      * <code>uint32 schedule_id = 13;</code>
@@ -106,11 +106,11 @@ public final class POCNEJJJJCIOuterClass {
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo.Builder subBuilder = null;
               if (iGEHGEPBKGP_ != null) {
                 subBuilder = iGEHGEPBKGP_.toBuilder();
               }
-              iGEHGEPBKGP_ = input.readMessage(emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo.parser(), extensionRegistry);
+              iGEHGEPBKGP_ = input.readMessage(emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(iGEHGEPBKGP_);
                 iGEHGEPBKGP_ = subBuilder.buildPartial();
@@ -172,7 +172,7 @@ public final class POCNEJJJJCIOuterClass {
     }
 
     public static final int IGEHGEPBKGP_FIELD_NUMBER = 12;
-    private emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo iGEHGEPBKGP_;
+    private emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo iGEHGEPBKGP_;
     /**
      * <code>._GCGArenaHistoryDeckDetailInfo IGEHGEPBKGP = 12;</code>
      * @return Whether the iGEHGEPBKGP field is set.
@@ -186,14 +186,14 @@ public final class POCNEJJJJCIOuterClass {
      * @return The iGEHGEPBKGP.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo getIGEHGEPBKGP() {
-      return iGEHGEPBKGP_ == null ? emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo.getDefaultInstance() : iGEHGEPBKGP_;
+    public emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo getIGEHGEPBKGP() {
+      return iGEHGEPBKGP_ == null ? emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo.getDefaultInstance() : iGEHGEPBKGP_;
     }
     /**
      * <code>._GCGArenaHistoryDeckDetailInfo IGEHGEPBKGP = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfoOrBuilder getIGEHGEPBKGPOrBuilder() {
+    public emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfoOrBuilder getIGEHGEPBKGPOrBuilder() {
       return getIGEHGEPBKGP();
     }
 
@@ -620,9 +620,9 @@ public final class POCNEJJJJCIOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo iGEHGEPBKGP_;
+      private emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo iGEHGEPBKGP_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo, emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo.Builder, emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfoOrBuilder> iGEHGEPBKGPBuilder_;
+          emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo, emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo.Builder, emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfoOrBuilder> iGEHGEPBKGPBuilder_;
       /**
        * <code>._GCGArenaHistoryDeckDetailInfo IGEHGEPBKGP = 12;</code>
        * @return Whether the iGEHGEPBKGP field is set.
@@ -634,9 +634,9 @@ public final class POCNEJJJJCIOuterClass {
        * <code>._GCGArenaHistoryDeckDetailInfo IGEHGEPBKGP = 12;</code>
        * @return The iGEHGEPBKGP.
        */
-      public emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo getIGEHGEPBKGP() {
+      public emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo getIGEHGEPBKGP() {
         if (iGEHGEPBKGPBuilder_ == null) {
-          return iGEHGEPBKGP_ == null ? emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo.getDefaultInstance() : iGEHGEPBKGP_;
+          return iGEHGEPBKGP_ == null ? emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo.getDefaultInstance() : iGEHGEPBKGP_;
         } else {
           return iGEHGEPBKGPBuilder_.getMessage();
         }
@@ -644,7 +644,7 @@ public final class POCNEJJJJCIOuterClass {
       /**
        * <code>._GCGArenaHistoryDeckDetailInfo IGEHGEPBKGP = 12;</code>
        */
-      public Builder setIGEHGEPBKGP(emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo value) {
+      public Builder setIGEHGEPBKGP(emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo value) {
         if (iGEHGEPBKGPBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -661,7 +661,7 @@ public final class POCNEJJJJCIOuterClass {
        * <code>._GCGArenaHistoryDeckDetailInfo IGEHGEPBKGP = 12;</code>
        */
       public Builder setIGEHGEPBKGP(
-          emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo.Builder builderForValue) {
         if (iGEHGEPBKGPBuilder_ == null) {
           iGEHGEPBKGP_ = builderForValue.build();
           onChanged();
@@ -674,11 +674,11 @@ public final class POCNEJJJJCIOuterClass {
       /**
        * <code>._GCGArenaHistoryDeckDetailInfo IGEHGEPBKGP = 12;</code>
        */
-      public Builder mergeIGEHGEPBKGP(emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo value) {
+      public Builder mergeIGEHGEPBKGP(emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo value) {
         if (iGEHGEPBKGPBuilder_ == null) {
           if (iGEHGEPBKGP_ != null) {
             iGEHGEPBKGP_ =
-              emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo.newBuilder(iGEHGEPBKGP_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo.newBuilder(iGEHGEPBKGP_).mergeFrom(value).buildPartial();
           } else {
             iGEHGEPBKGP_ = value;
           }
@@ -706,7 +706,7 @@ public final class POCNEJJJJCIOuterClass {
       /**
        * <code>._GCGArenaHistoryDeckDetailInfo IGEHGEPBKGP = 12;</code>
        */
-      public emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo.Builder getIGEHGEPBKGPBuilder() {
+      public emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo.Builder getIGEHGEPBKGPBuilder() {
         
         onChanged();
         return getIGEHGEPBKGPFieldBuilder().getBuilder();
@@ -714,23 +714,23 @@ public final class POCNEJJJJCIOuterClass {
       /**
        * <code>._GCGArenaHistoryDeckDetailInfo IGEHGEPBKGP = 12;</code>
        */
-      public emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfoOrBuilder getIGEHGEPBKGPOrBuilder() {
+      public emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfoOrBuilder getIGEHGEPBKGPOrBuilder() {
         if (iGEHGEPBKGPBuilder_ != null) {
           return iGEHGEPBKGPBuilder_.getMessageOrBuilder();
         } else {
           return iGEHGEPBKGP_ == null ?
-              emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo.getDefaultInstance() : iGEHGEPBKGP_;
+              emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo.getDefaultInstance() : iGEHGEPBKGP_;
         }
       }
       /**
        * <code>._GCGArenaHistoryDeckDetailInfo IGEHGEPBKGP = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo, emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo.Builder, emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfoOrBuilder> 
+          emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo, emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo.Builder, emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfoOrBuilder> 
           getIGEHGEPBKGPFieldBuilder() {
         if (iGEHGEPBKGPBuilder_ == null) {
           iGEHGEPBKGPBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo, emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfo.Builder, emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo._GCGArenaHistoryDeckDetailInfoOrBuilder>(
+              emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo, emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfo.Builder, emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass._GCGArenaHistoryDeckDetailInfoOrBuilder>(
                   getIGEHGEPBKGP(),
                   getParentForChildren(),
                   isClean());
@@ -871,13 +871,14 @@ public final class POCNEJJJJCIOuterClass {
       "kDetailInfo.proto\"~\n\013POCNEJJJJCI\022\023\n\013AOEM" +
       "HPEKOAC\030\007 \001(\r\0224\n\013IGEHGEPBKGP\030\014 \001(\0132\037._GC" +
       "GArenaHistoryDeckDetailInfo\022\023\n\013schedule_" +
-      "id\030\r \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "id\030\r \001(\r\022\017\n\007retcode\030\017 \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025POCNEJJJJCIOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo.getDescriptor(),
+          emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass.getDescriptor(),
         });
     internal_static_POCNEJJJJCI_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -885,7 +886,7 @@ public final class POCNEJJJJCIOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_POCNEJJJJCI_descriptor,
         new java.lang.String[] { "AOEMHPEKOAC", "IGEHGEPBKGP", "ScheduleId", "Retcode", });
-    emu.grasscutter.net.proto.GCGArenaHistoryDeckDetailInfo.getDescriptor();
+    emu.grasscutter.net.proto._GCGArenaHistoryDeckDetailInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

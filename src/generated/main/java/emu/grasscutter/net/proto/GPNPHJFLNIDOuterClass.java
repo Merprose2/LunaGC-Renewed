@@ -1676,8 +1676,9 @@ public final class GPNPHJFLNIDOuterClass {
       "\n\013attacker_id\030\003 \001(\r\022!\n\013BELJEGPPFMK\030\006 \003(\013" +
       "2\014.PANKKELHBCA\0227\n\013ENMJAPBLEHG\030\007 \001(\0132\".Ma" +
       "ssiveEntityElementOpBatchNotify\022!\n\013DMOCK" +
-      "OEHBHJ\030\r \003(\0132\014.BNPOIJAFIOAB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "OEHBHJ\030\r \003(\0132\014.BNPOIJAFIOAB2\n\031emu.grassc" +
+      "utter.net.protoB\025GPNPHJFLNIDOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

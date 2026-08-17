@@ -1243,8 +1243,9 @@ public final class BGPGNFFFNEDOuterClass {
       "N\030\013 \003(\0132\035.BGPGNFFFNED.FAHLFMKBNNNEntry\0322" +
       "\n\020EFBIIPDMFFAEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value" +
       "\030\002 \001(\010:\0028\001\032@\n\020FAHLFMKBNNNEntry\022\013\n\003key\030\001 " +
-      "\001(\r\022\033\n\005value\030\002 \001(\0162\014.ALBBCFMBNJG:\0028\001B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\001(\r\022\033\n\005value\030\002 \001(\0162\014.ALBBCFMBNJG:\0028\001B2\n\031" +
+      "emu.grasscutter.net.protoB\025BGPGNFFFNEDOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

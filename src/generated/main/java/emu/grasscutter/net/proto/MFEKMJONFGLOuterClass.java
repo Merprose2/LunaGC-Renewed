@@ -1024,8 +1024,9 @@ public final class MFEKMJONFGLOuterClass {
       "\n\021MFEKMJONFGL.proto\032\021KFEIMMHPBGH.proto\"k" +
       "\n\013MFEKMJONFGL\022\023\n\013BBJJIPDNBAC\030\002 \003(\r\022\023\n\013HD" +
       "FPPLBALFI\030\007 \003(\r\022!\n\013ANGDOJKABLC\030\t \001(\0162\014.K" +
-      "FEIMMHPBGH\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "FEIMMHPBGH\022\017\n\007retcode\030\013 \001(\005B2\n\031emu.grass" +
+      "cutter.net.protoB\025MFEKMJONFGLOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

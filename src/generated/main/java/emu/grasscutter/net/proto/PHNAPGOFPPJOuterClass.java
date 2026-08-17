@@ -1287,8 +1287,9 @@ public final class PHNAPGOFPPJOuterClass {
       "t\030\002 \001(\0132\014.HHEDHCFPEKM\022!\n\013EIHOHLKAHMF\030\003 \001" +
       "(\0162\014.JEOKDCIGCFP\022\r\n\005speed\030\004 \001(\002\022\023\n\013CANBH" +
       "CMCIGH\030\005 \001(\010\022!\n\013OGLCKHAAEFF\030\006 \001(\0162\014.JEOK" +
-      "DCIGCFP\022\014\n\004time\030\007 \001(\002B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "DCIGCFP\022\014\n\004time\030\007 \001(\002B2\n\031emu.grasscutter" +
+      ".net.protoB\025PHNAPGOFPPJOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

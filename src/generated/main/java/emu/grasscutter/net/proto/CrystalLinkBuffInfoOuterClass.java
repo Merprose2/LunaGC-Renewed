@@ -588,8 +588,8 @@ public final class CrystalLinkBuffInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031CrystalLinkBuffInfo.proto\"?\n\023CrystalLi" +
       "nkBuffInfo\022\023\n\013MCKPIIMDKMI\030\001 \001(\r\022\023\n\013DFFHK" +
-      "NBEIJK\030\005 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "NBEIJK\030\005 \001(\rB:\n\031emu.grasscutter.net.prot" +
+      "oB\035CrystalLinkBuffInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

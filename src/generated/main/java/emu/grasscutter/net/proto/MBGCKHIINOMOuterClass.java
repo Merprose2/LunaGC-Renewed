@@ -996,8 +996,8 @@ public final class MBGCKHIINOMOuterClass {
       "\n\021MBGCKHIINOM.proto\032\014Vector.proto\"a\n\013MBG" +
       "CKHIINOM\022\024\n\003rot\030\002 \001(\0132\007.Vector\022\021\n\tis_att" +
       "ach\030\005 \001(\010\022\023\n\013BLKHHPKKEAN\030\006 \001(\r\022\024\n\003pos\030\017 " +
-      "\001(\0132\007.VectorB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\001(\0132\007.VectorB2\n\031emu.grasscutter.net.prot" +
+      "oB\025MBGCKHIINOMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

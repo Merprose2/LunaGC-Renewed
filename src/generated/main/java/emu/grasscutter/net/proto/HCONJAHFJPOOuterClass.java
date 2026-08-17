@@ -901,8 +901,9 @@ public final class HCONJAHFJPOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HCONJAHFJPO.proto\032\021IHBNAJCEICH.proto\"I" +
       "\n\013HCONJAHFJPO\022)\n\023monthly_detail_list\030\003 \003" +
-      "(\0132\014.IHBNAJCEICH\022\017\n\007retcode\030\004 \001(\005B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "(\0132\014.IHBNAJCEICH\022\017\n\007retcode\030\004 \001(\005B2\n\031emu" +
+      ".grasscutter.net.protoB\025HCONJAHFJPOOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -596,8 +596,9 @@ public final class ActivitySelectAvatarCardReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n!ActivitySelectAvatarCardReq.proto\"E\n\033A" +
       "ctivitySelectAvatarCardReq\022\021\n\treward_id\030" +
-      "\007 \001(\r\022\023\n\013activity_id\030\n \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\007 \001(\r\022\023\n\013activity_id\030\n \001(\rBB\n\031emu.grassc" +
+      "utter.net.protoB%ActivitySelectAvatarCar" +
+      "dReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

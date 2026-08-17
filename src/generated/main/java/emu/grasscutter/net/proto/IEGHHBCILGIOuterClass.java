@@ -142,8 +142,9 @@ public final class IEGHHBCILGIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IEGHHBCILGI.proto*\\\n\013IEGHHBCILGI\022\033\n\027IE" +
       "GHHBCILGI_PURE_NUMBER\020\000\022\024\n\020IEGHHBCILGI_T" +
-      "IME\020\001\022\032\n\026IEGHHBCILGI_PERCENTAGE\020\002B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "IME\020\001\022\032\n\026IEGHHBCILGI_PERCENTAGE\020\002B2\n\031emu" +
+      ".grasscutter.net.protoB\025IEGHHBCILGIOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

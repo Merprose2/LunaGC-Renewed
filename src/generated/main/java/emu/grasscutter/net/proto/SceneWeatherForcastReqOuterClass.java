@@ -526,7 +526,8 @@ public final class SceneWeatherForcastReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034SceneWeatherForcastReq.proto\"1\n\026SceneW" +
       "eatherForcastReq\022\027\n\017weather_area_id\030\016 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB=\n\031emu.grasscutter.net.protoB SceneWea" +
+      "therForcastReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

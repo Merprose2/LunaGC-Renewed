@@ -1034,8 +1034,9 @@ public final class FAFIGIODCKOOuterClass {
       "\n\021FAFIGIODCKO.proto\032\021ODLDKDJCEJP.proto\"o" +
       "\n\013FAFIGIODCKO\022\023\n\013AEPMPNIIOOF\030\001 \001(\r\022!\n\013PM" +
       "CBIHAIOPA\030\002 \003(\0132\014.ODLDKDJCEJP\022\023\n\013DJOGNIG" +
-      "JMCJ\030\003 \001(\r\022\023\n\013FHPDOOHCBIA\030\004 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "JMCJ\030\003 \001(\r\022\023\n\013FHPDOOHCBIA\030\004 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025FAFIGIODCKOOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

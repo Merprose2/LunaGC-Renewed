@@ -596,8 +596,10 @@ public final class GalleryCrystalLinkKillMonsterNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n)GalleryCrystalLinkKillMonsterNotify.pr" +
       "oto\"H\n#GalleryCrystalLinkKillMonsterNoti" +
-      "fy\022\022\n\ngallery_id\030\n \001(\r\022\r\n\005score\030\017 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "fy\022\022\n\ngallery_id\030\n \001(\r\022\r\n\005score\030\017 \001(\rBJ\n" +
+      "\031emu.grasscutter.net.protoB-GalleryCryst" +
+      "alLinkKillMonsterNotifyOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

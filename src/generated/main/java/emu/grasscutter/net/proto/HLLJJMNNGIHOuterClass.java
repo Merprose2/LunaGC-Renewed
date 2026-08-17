@@ -219,8 +219,8 @@ public final class HLLJJMNNGIHOuterClass {
       "\020\005\022\024\n\020HLLJJMNNGIH_LESS\020\006\022\035\n\031HLLJJMNNGIH_" +
       "LESS_OR_EQUAL\020\007\022\027\n\023HLLJJMNNGIH_GREATER\020\010" +
       "\022 \n\034HLLJJMNNGIH_GREATER_OR_EQUAL\020\t\022\025\n\021HL" +
-      "LJJMNNGIH_EQUAL\020\nB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "LJJMNNGIH_EQUAL\020\nB2\n\031emu.grasscutter.net" +
+      ".protoB\025HLLJJMNNGIHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

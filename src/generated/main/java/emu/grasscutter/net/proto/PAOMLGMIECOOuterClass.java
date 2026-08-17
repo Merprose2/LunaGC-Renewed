@@ -555,8 +555,8 @@ public final class PAOMLGMIECOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PAOMLGMIECO.proto\032\021KIDJEINHJCB.proto\"0" +
       "\n\013PAOMLGMIECO\022!\n\013action_type\030\001 \001(\0162\014.KID" +
-      "JEINHJCBB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "JEINHJCBB2\n\031emu.grasscutter.net.protoB\025P" +
+      "AOMLGMIECOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

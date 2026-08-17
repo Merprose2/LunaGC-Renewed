@@ -1027,8 +1027,9 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       "PlayerWorldSceneInfo.proto\"`\n\036PlayerWorl" +
       "dSceneInfoListNotify\022(\n\tinfo_list\030\005 \003(\0132" +
       "\025.PlayerWorldSceneInfo\022\024\n\013IIFJABJJJBF\030\345\r" +
-      " \003(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \003(\rBE\n\031emu.grasscutter.net.protoB(Playe" +
+      "rWorldSceneInfoListNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

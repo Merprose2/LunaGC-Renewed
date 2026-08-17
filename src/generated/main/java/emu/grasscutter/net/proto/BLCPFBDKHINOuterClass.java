@@ -855,7 +855,8 @@ public final class BLCPFBDKHINOuterClass {
       "\n\021BLCPFBDKHIN.proto\032\021HHEDHCFPEKM.proto\"S" +
       "\n\013BLCPFBDKHIN\022!\n\013EMGCCENANAD\030\001 \001(\0132\014.HHE" +
       "DHCFPEKM\022!\n\013EFCOEJONOIN\030\002 \001(\0132\014.HHEDHCFP" +
-      "EKMB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "EKMB2\n\031emu.grasscutter.net.protoB\025BLCPFB" +
+      "DKHINOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

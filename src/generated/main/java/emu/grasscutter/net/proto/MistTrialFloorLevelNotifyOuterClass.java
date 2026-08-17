@@ -596,8 +596,9 @@ public final class MistTrialFloorLevelNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037MistTrialFloorLevelNotify.proto\"J\n\031Mis" +
       "tTrialFloorLevelNotify\022\023\n\013floor_level\030\001 " +
-      "\001(\r\022\030\n\020dungeon_scene_id\030\003 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\001(\r\022\030\n\020dungeon_scene_id\030\003 \001(\rB@\n\031emu.gra" +
+      "sscutter.net.protoB#MistTrialFloorLevelN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

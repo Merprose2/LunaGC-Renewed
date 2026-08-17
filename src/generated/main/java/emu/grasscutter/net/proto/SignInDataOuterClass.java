@@ -893,8 +893,9 @@ public final class SignInDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\020SignInData.proto\032\017ItemParam.proto\"E\n\nS" +
       "ignInData\022\021\n\tday_count\030\016 \001(\r\022$\n\020reward_i" +
-      "tem_list\030\017 \003(\0132\n.ItemParamB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "tem_list\030\017 \003(\0132\n.ItemParamB1\n\031emu.grassc" +
+      "utter.net.protoB\024SignInDataOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

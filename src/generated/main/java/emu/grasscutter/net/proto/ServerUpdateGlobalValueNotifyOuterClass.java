@@ -969,7 +969,8 @@ public final class ServerUpdateGlobalValueNotifyOuterClass {
       "y_hash\030\006 \001(\r\022\r\n\005value\030\007 \001(\002\022\r\n\005delta\030\013 \001" +
       "(\002\"L\n\nUpdateType\022\026\n\022UpdateType_INVALUE\020\000" +
       "\022\022\n\016UpdateType_ADD\020\001\022\022\n\016UpdateType_SET\020\002" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "BD\n\031emu.grasscutter.net.protoB\'ServerUpd" +
+      "ateGlobalValueNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

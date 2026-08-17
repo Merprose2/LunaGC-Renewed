@@ -595,8 +595,9 @@ public final class FHNFIGDOPCAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FHNFIGDOPCA.proto\"3\n\013FHNFIGDOPCA\022\023\n\013OK" +
-      "MDDNPEABP\030\013 \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "MDDNPEABP\030\013 \001(\r\022\017\n\007retcode\030\017 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025FHNFIGDOPCAOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

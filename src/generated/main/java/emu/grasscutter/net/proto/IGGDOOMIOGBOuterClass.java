@@ -454,8 +454,9 @@ public final class IGGDOOMIOGBOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021IGGDOOMIOGB.proto\"\r\n\013IGGDOOMIOGBB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021IGGDOOMIOGB.proto\"\r\n\013IGGDOOMIOGBB2\n\031em" +
+      "u.grasscutter.net.protoB\025IGGDOOMIOGBOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

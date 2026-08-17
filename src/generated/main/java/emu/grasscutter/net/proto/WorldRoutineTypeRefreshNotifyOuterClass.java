@@ -660,8 +660,9 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
       "\n#WorldRoutineTypeRefreshNotify.proto\032\032W" +
       "orldRoutineTypeInfo.proto\"R\n\035WorldRoutin" +
       "eTypeRefreshNotify\0221\n\022world_routine_type" +
-      "\030\t \001(\0132\025.WorldRoutineTypeInfoB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\030\t \001(\0132\025.WorldRoutineTypeInfoBD\n\031emu.gra" +
+      "sscutter.net.protoB\'WorldRoutineTypeRefr" +
+      "eshNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class FEOLBDILEALOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FEOLBDILEAL.proto\"1\n\013FEOLBDILEAL\022\021\n\ten" +
-      "tity_id\030\004 \001(\r\022\017\n\007retcode\030\r \001(\005B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "tity_id\030\004 \001(\r\022\017\n\007retcode\030\r \001(\005B2\n\031emu.gr" +
+      "asscutter.net.protoB\025FEOLBDILEALOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

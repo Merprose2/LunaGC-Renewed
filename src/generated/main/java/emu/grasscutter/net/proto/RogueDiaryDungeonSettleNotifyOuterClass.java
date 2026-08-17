@@ -668,8 +668,9 @@ public final class RogueDiaryDungeonSettleNotifyOuterClass {
       "\n#RogueDiaryDungeonSettleNotify.proto\"[\n" +
       "\035RogueDiaryDungeonSettleNotify\022\021\n\tis_fin" +
       "ish\030\005 \001(\010\022\021\n\tcur_round\030\006 \001(\r\022\024\n\014explore_" +
-      "time\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "time\030\016 \001(\rBD\n\031emu.grasscutter.net.protoB" +
+      "\'RogueDiaryDungeonSettleNotifyOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

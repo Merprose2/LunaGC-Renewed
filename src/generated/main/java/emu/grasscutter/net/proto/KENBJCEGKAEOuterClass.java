@@ -1609,8 +1609,9 @@ public final class KENBJCEGKAEOuterClass {
       "\022!\n\013IDFONPINAPH\030\003 \001(\0132\014.ABNJBDNGJGN\022!\n\013E" +
       "CLNADLLPJI\030\004 \001(\0132\014.FBGKBBCFEGH\022\024\n\014init_p" +
       "ose_id\030\005 \001(\r\022\023\n\013NLACIAJDIGD\030\006 \001(\r\022!\n\013MGD" +
-      "DPPJICLB\030\010 \001(\0132\014.IDBFDBIFAPJB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "DPPJICLB\030\010 \001(\0132\014.IDBFDBIFAPJB2\n\031emu.gras" +
+      "scutter.net.protoB\025KENBJCEGKAEOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

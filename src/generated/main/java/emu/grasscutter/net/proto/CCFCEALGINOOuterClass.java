@@ -901,8 +901,9 @@ public final class CCFCEALGINOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CCFCEALGINO.proto\032\021FHLGCLPHLMI.proto\"D" +
       "\n\013CCFCEALGINO\022$\n\016team_info_list\030\r \003(\0132\014." +
-      "FHLGCLPHLMI\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "FHLGCLPHLMI\022\017\n\007retcode\030\016 \001(\005B2\n\031emu.gras" +
+      "scutter.net.protoB\025CCFCEALGINOOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

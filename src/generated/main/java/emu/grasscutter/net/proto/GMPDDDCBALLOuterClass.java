@@ -823,8 +823,8 @@ public final class GMPDDDCBALLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GMPDDDCBALL.proto\032\021OEAAFHOILBG.proto\"0" +
       "\n\013GMPDDDCBALL\022!\n\013BCMIPAGBDEF\030\001 \003(\0132\014.OEA" +
-      "AFHOILBGB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "AFHOILBGB2\n\031emu.grasscutter.net.protoB\025G" +
+      "MPDDDCBALLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

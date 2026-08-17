@@ -661,7 +661,8 @@ public final class CityReputationHuntInfoOuterClass {
       "\n\034CityReputationHuntInfo.proto\"Z\n\026CityRe" +
       "putationHuntInfo\022\033\n\023cur_week_finish_num\030" +
       "\001 \001(\r\022\017\n\007is_open\030\t \001(\010\022\022\n\nhas_reward\030\016 \001" +
-      "(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\010B=\n\031emu.grasscutter.net.protoB CityRep" +
+      "utationHuntInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

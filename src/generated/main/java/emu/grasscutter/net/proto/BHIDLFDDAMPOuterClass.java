@@ -893,8 +893,9 @@ public final class BHIDLFDDAMPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BHIDLFDDAMP.proto\032\021HKFHDIMDCNG.proto\"A" +
       "\n\013BHIDLFDDAMP\022\017\n\007cell_id\030\001 \001(\r\022!\n\013FAMMJM" +
-      "HFPKN\030\002 \003(\0132\014.HKFHDIMDCNGB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "HFPKN\030\002 \003(\0132\014.HKFHDIMDCNGB2\n\031emu.grasscu" +
+      "tter.net.protoB\025BHIDLFDDAMPOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

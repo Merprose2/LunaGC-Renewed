@@ -705,8 +705,9 @@ public final class BKBIGEDBHEOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BKBIGEDBHEO.proto\032\rUgcType.proto\"P\n\013BK" +
       "BIGEDBHEO\022\020\n\010ugc_guid\030\002 \001(\004\022\032\n\010ugc_type\030" +
-      "\010 \001(\0162\010.UgcType\022\023\n\013DCLDNFCMOLD\030\014 \001(\010B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\010 \001(\0162\010.UgcType\022\023\n\013DCLDNFCMOLD\030\014 \001(\010B2\n\031" +
+      "emu.grasscutter.net.protoB\025BKBIGEDBHEOOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

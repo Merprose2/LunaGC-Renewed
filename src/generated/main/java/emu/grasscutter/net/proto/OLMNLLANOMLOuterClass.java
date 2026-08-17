@@ -666,8 +666,8 @@ public final class OLMNLLANOMLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OLMNLLANOML.proto\"M\n\013OLMNLLANOML\022\030\n\020di" +
       "fficulty_level\030\001 \001(\r\022\017\n\007retcode\030\002 \001(\005\022\023\n" +
-      "\013PNAOEHIFIJK\030\004 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\013PNAOEHIFIJK\030\004 \001(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025OLMNLLANOMLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

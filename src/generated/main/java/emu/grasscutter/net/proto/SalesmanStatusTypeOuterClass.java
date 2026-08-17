@@ -155,7 +155,8 @@ public final class SalesmanStatusTypeOuterClass {
       "ESMAN_STATUS_UNSTARTED\020\001\022.\n*SalesmanStat" +
       "usType_SALESMAN_STATUS_STARTED\020\002\0220\n,Sale" +
       "smanStatusType_SALESMAN_STATUS_DELIVERED" +
-      "\020\003B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\020\003B9\n\031emu.grasscutter.net.protoB\034Salesma" +
+      "nStatusTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

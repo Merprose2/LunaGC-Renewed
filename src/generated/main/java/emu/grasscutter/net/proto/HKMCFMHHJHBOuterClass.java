@@ -1049,7 +1049,8 @@ public final class HKMCFMHHJHBOuterClass {
       "ENFINJCCOGK.proto\"h\n\013HKMCFMHHJHB\022\020\n\010like" +
       "_num\030\014 \001(\r\022\037\n\006player\030\301\t \001(\0132\014.ENFINJCCOG" +
       "KH\000\022\034\n\003npc\030\254\016 \001(\0132\014.CLIBELEIAEMH\000B\010\n\006det" +
-      "ailB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "ailB2\n\031emu.grasscutter.net.protoB\025HKMCFM" +
+      "HHJHBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

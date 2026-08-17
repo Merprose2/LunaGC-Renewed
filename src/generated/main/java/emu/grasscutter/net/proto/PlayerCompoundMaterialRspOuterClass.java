@@ -730,8 +730,9 @@ public final class PlayerCompoundMaterialRspOuterClass {
       "\n\037PlayerCompoundMaterialRsp.proto\032\027Compo" +
       "undQueueData.proto\"[\n\031PlayerCompoundMate" +
       "rialRsp\022-\n\021compound_que_data\030\002 \001(\0132\022.Com" +
-      "poundQueueData\022\017\n\007retcode\030\n \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "poundQueueData\022\017\n\007retcode\030\n \001(\005B@\n\031emu.g" +
+      "rasscutter.net.protoB#PlayerCompoundMate" +
+      "rialRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -596,8 +596,9 @@ public final class AFIODAOINDKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AFIODAOINDK.proto\"1\n\013AFIODAOINDK\022\023\n\013_l" +
-      "evel_guid\030\002 \001(\004\022\r\n\005param\030\004 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "evel_guid\030\002 \001(\004\022\r\n\005param\030\004 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025AFIODAOINDKOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

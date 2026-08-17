@@ -1036,8 +1036,9 @@ public final class JBBMNFPLIGAOuterClass {
       "\n\021JBBMNFPLIGA.proto\032\021FriendBrief.proto\"o" +
       "\n\013JBBMNFPLIGA\022\023\n\013NAJODBMGBLO\030\004 \001(\010\022!\n\013me" +
       "mber_list\030\007 \003(\0132\014.FriendBrief\022\023\n\013POEOIIN" +
-      "LNEC\030\t \001(\004\022\023\n\013FDIFPEHDKFD\030\n \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "LNEC\030\t \001(\004\022\023\n\013FDIFPEHDKFD\030\n \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025JBBMNFPLIGAOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

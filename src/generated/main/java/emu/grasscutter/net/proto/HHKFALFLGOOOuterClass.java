@@ -925,8 +925,8 @@ public final class HHKFALFLGOOOuterClass {
       "\n\021HHKFALFLGOO.proto\032\021HHEDHCFPEKM.proto\"b" +
       "\n\013HHKFALFLGOO\022\036\n\010position\030\001 \001(\0132\014.HHEDHC" +
       "FPEKM\022\036\n\010rotation\030\002 \001(\0132\014.HHEDHCFPEKM\022\023\n" +
-      "\013NMEKNJDJHDA\030\003 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\013NMEKNJDJHDA\030\003 \001(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025HHKFALFLGOOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

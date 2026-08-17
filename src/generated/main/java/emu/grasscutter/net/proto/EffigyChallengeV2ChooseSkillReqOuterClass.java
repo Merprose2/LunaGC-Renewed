@@ -597,8 +597,9 @@ public final class EffigyChallengeV2ChooseSkillReqOuterClass {
       "\n%EffigyChallengeV2ChooseSkillReq.proto\"" +
       "T\n\037EffigyChallengeV2ChooseSkillReq\022\020\n\010le" +
       "vel_id\030\002 \001(\r\022\037\n\027challenge_mode_skill_no\030" +
-      "\007 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\007 \001(\rBF\n\031emu.grasscutter.net.protoB)Effi" +
+      "gyChallengeV2ChooseSkillReqOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

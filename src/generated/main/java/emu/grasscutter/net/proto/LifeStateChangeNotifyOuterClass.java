@@ -1802,8 +1802,8 @@ public final class LifeStateChangeNotifyOuterClass {
       "eq\030\n \001(\r\022%\n\020server_buff_list\030\013 \003(\0132\013.Ser" +
       "verBuff\022\023\n\013LDAODDFLPGB\030\014 \001(\r\022\032\n\022client_s" +
       "equence_id\030\016 \001(\r\022 \n\010die_type\030\017 \001(\0162\016.Pla" +
-      "yerDieTypeB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "yerDieTypeB<\n\031emu.grasscutter.net.protoB" +
+      "\037LifeStateChangeNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

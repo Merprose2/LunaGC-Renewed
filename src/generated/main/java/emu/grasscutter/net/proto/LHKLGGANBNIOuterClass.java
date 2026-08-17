@@ -823,8 +823,8 @@ public final class LHKLGGANBNIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LHKLGGANBNI.proto\032\021BBDGNNMNHPJ.proto\"." +
       "\n\013LHKLGGANBNI\022\037\n\titem_list\030\001 \003(\0132\014.BBDGN" +
-      "NMNHPJB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "NMNHPJB2\n\031emu.grasscutter.net.protoB\025LHK" +
+      "LGGANBNIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

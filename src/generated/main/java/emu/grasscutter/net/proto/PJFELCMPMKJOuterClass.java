@@ -1440,8 +1440,9 @@ public final class PJFELCMPMKJOuterClass {
       "IAGKCJCJIG\030\003 \001(\r\022\023\n\013ELPMAGBGCLC\030\007 \001(\r\022\023\n" +
       "\013IFEMGHKKIIO\030\010 \001(\r\022\023\n\013IEAHOCHKFNN\030\t \003(\r\022" +
       "\023\n\013AJFHLGLOBLG\030\n \001(\r\022!\n\013JOIPBPIOIOD\030\013 \003(" +
-      "\0132\014.DBEJCJGBLLE\022\023\n\013CGPICKDFGNE\030\r \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\0132\014.DBEJCJGBLLE\022\023\n\013CGPICKDFGNE\030\r \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025PJFELCMPMKJOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

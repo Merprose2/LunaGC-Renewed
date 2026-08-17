@@ -525,8 +525,8 @@ public final class ADJDEBHFPIEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ADJDEBHFPIE.proto\"\037\n\013ADJDEBHFPIE\022\020\n\010gr" +
-      "oup_id\030\r \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "oup_id\030\r \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025ADJDEBHFPIEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

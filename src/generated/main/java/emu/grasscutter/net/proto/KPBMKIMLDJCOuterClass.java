@@ -1217,8 +1217,9 @@ public final class KPBMKIMLDJCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KPBMKIMLDJC.proto\"^\n\013KPBMKIMLDJC\022\023\n\013JP" +
       "JMCBLIPJF\030\006 \001(\010\032:\n\013IHIDCJBKAEC\022\023\n\013AGLOCK" +
-      "OENLB\030\010 \001(\r\022\026\n\016avatar_id_list\030\t \003(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "OENLB\030\010 \001(\r\022\026\n\016avatar_id_list\030\t \003(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025KPBMKIMLDJCOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1120,8 +1120,9 @@ public final class DNNBMJBJEIMOuterClass {
       "\n\021DNNBMJBJEIM.proto\032\021FFEJJFMEOGG.proto\032\021" +
       "MPIPBFINKGL.proto\"S\n\013DNNBMJBJEIM\022!\n\013IFFF" +
       "COGHKON\030\002 \003(\0162\014.MPIPBFINKGL\022!\n\013HCIJGHKLF" +
-      "EK\030\003 \003(\0132\014.FFEJJFMEOGGB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "EK\030\003 \003(\0132\014.FFEJJFMEOGGB2\n\031emu.grasscutte" +
+      "r.net.protoB\025DNNBMJBJEIMOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

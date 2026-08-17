@@ -729,8 +729,9 @@ public final class CMHPPJFEPJEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CMHPPJFEPJE.proto\032\021AAJIAJKPLMD.proto\"E" +
       "\n\013CMHPPJFEPJE\022\023\n\013MBIBEEHKHOG\030\006 \001(\r\022!\n\013LJ" +
-      "NGEOGMDGP\030\r \001(\0132\014.AAJIAJKPLMDB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "NGEOGMDGP\030\r \001(\0132\014.AAJIAJKPLMDB2\n\031emu.gra" +
+      "sscutter.net.protoB\025CMHPPJFEPJEOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

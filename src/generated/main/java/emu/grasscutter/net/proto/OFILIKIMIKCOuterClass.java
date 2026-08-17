@@ -823,8 +823,8 @@ public final class OFILIKIMIKCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OFILIKIMIKC.proto\032\021LIHAAIBCAOA.proto\"0" +
       "\n\013OFILIKIMIKC\022!\n\013FHBACOFFFAH\030\001 \003(\0132\014.LIH" +
-      "AAIBCAOAB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "AAIBCAOAB2\n\031emu.grasscutter.net.protoB\025O" +
+      "FILIKIMIKCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

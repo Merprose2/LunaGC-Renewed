@@ -1560,8 +1560,9 @@ public final class JEJHGBFAEKAOuterClass {
       "BLJMKPAE\030\005 \001(\r\022\023\n\013FNLPCBKBIDO\030\006 \001(\r\022\023\n\013J" +
       "KNEGEJFEDJ\030\t \001(\t\022\023\n\013GANGOGCPELO\030\n \001(\t\022\023\n" +
       "\013PJBGKFGIKBA\030\014 \001(\t\022\014\n\004guid\030\r \001(\004\022\023\n\013BFIF" +
-      "PLMKLNA\030\016 \001(\r\022\013\n\003url\030\017 \001(\tB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "PLMKLNA\030\016 \001(\r\022\013\n\003url\030\017 \001(\tB2\n\031emu.grassc" +
+      "utter.net.protoB\025JEJHGBFAEKAOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

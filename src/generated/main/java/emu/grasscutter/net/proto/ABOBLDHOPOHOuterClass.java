@@ -33,11 +33,11 @@ public final class ABOBLDHOPOHOuterClass {
      * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1750;</code>
      * @return The tpsMercenariesRecordBrief.
      */
-    emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief getTpsMercenariesRecordBrief();
+    emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief getTpsMercenariesRecordBrief();
     /**
      * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1750;</code>
      */
-    emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBriefOrBuilder getTpsMercenariesRecordBriefOrBuilder();
+    emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBriefOrBuilder getTpsMercenariesRecordBriefOrBuilder();
 
     public emu.grasscutter.net.proto.ABOBLDHOPOHOuterClass.ABOBLDHOPOH.BriefCase getBriefCase();
   }
@@ -92,14 +92,14 @@ public final class ABOBLDHOPOHOuterClass {
               break;
             }
             case 14002: {
-              emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.Builder subBuilder = null;
               if (briefCase_ == 1750) {
-                subBuilder = ((emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_).toBuilder();
               }
               brief_ =
-                  input.readMessage(emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_);
                 brief_ = subBuilder.buildPartial();
               }
               briefCase_ = 1750;
@@ -201,21 +201,21 @@ public final class ABOBLDHOPOHOuterClass {
      * @return The tpsMercenariesRecordBrief.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief getTpsMercenariesRecordBrief() {
+    public emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief getTpsMercenariesRecordBrief() {
       if (briefCase_ == 1750) {
-         return (emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_;
+         return (emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_;
       }
-      return emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.getDefaultInstance();
+      return emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.getDefaultInstance();
     }
     /**
      * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1750;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBriefOrBuilder getTpsMercenariesRecordBriefOrBuilder() {
+    public emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBriefOrBuilder getTpsMercenariesRecordBriefOrBuilder() {
       if (briefCase_ == 1750) {
-         return (emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_;
+         return (emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_;
       }
-      return emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.getDefaultInstance();
+      return emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -236,7 +236,7 @@ public final class ABOBLDHOPOHOuterClass {
         output.writeUInt32(11, oECMKBIIGKE_);
       }
       if (briefCase_ == 1750) {
-        output.writeMessage(1750, (emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_);
+        output.writeMessage(1750, (emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_);
       }
       unknownFields.writeTo(output);
     }
@@ -253,7 +253,7 @@ public final class ABOBLDHOPOHOuterClass {
       }
       if (briefCase_ == 1750) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1750, (emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_);
+          .computeMessageSize(1750, (emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -610,7 +610,7 @@ public final class ABOBLDHOPOHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief, emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.Builder, emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBriefOrBuilder> tpsMercenariesRecordBriefBuilder_;
+          emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief, emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.Builder, emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBriefOrBuilder> tpsMercenariesRecordBriefBuilder_;
       /**
        * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1750;</code>
        * @return Whether the tpsMercenariesRecordBrief field is set.
@@ -624,23 +624,23 @@ public final class ABOBLDHOPOHOuterClass {
        * @return The tpsMercenariesRecordBrief.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief getTpsMercenariesRecordBrief() {
+      public emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief getTpsMercenariesRecordBrief() {
         if (tpsMercenariesRecordBriefBuilder_ == null) {
           if (briefCase_ == 1750) {
-            return (emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_;
+            return (emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_;
           }
-          return emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.getDefaultInstance();
+          return emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.getDefaultInstance();
         } else {
           if (briefCase_ == 1750) {
             return tpsMercenariesRecordBriefBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.getDefaultInstance();
+          return emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.getDefaultInstance();
         }
       }
       /**
        * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1750;</code>
        */
-      public Builder setTpsMercenariesRecordBrief(emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief value) {
+      public Builder setTpsMercenariesRecordBrief(emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief value) {
         if (tpsMercenariesRecordBriefBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -657,7 +657,7 @@ public final class ABOBLDHOPOHOuterClass {
        * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1750;</code>
        */
       public Builder setTpsMercenariesRecordBrief(
-          emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.Builder builderForValue) {
+          emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.Builder builderForValue) {
         if (tpsMercenariesRecordBriefBuilder_ == null) {
           brief_ = builderForValue.build();
           onChanged();
@@ -670,11 +670,11 @@ public final class ABOBLDHOPOHOuterClass {
       /**
        * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1750;</code>
        */
-      public Builder mergeTpsMercenariesRecordBrief(emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief value) {
+      public Builder mergeTpsMercenariesRecordBrief(emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief value) {
         if (tpsMercenariesRecordBriefBuilder_ == null) {
           if (briefCase_ == 1750 &&
-              brief_ != emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.getDefaultInstance()) {
-            brief_ = emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.newBuilder((emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_)
+              brief_ != emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.getDefaultInstance()) {
+            brief_ = emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.newBuilder((emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_)
                 .mergeFrom(value).buildPartial();
           } else {
             brief_ = value;
@@ -711,36 +711,36 @@ public final class ABOBLDHOPOHOuterClass {
       /**
        * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1750;</code>
        */
-      public emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.Builder getTpsMercenariesRecordBriefBuilder() {
+      public emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.Builder getTpsMercenariesRecordBriefBuilder() {
         return getTpsMercenariesRecordBriefFieldBuilder().getBuilder();
       }
       /**
        * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1750;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBriefOrBuilder getTpsMercenariesRecordBriefOrBuilder() {
+      public emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBriefOrBuilder getTpsMercenariesRecordBriefOrBuilder() {
         if ((briefCase_ == 1750) && (tpsMercenariesRecordBriefBuilder_ != null)) {
           return tpsMercenariesRecordBriefBuilder_.getMessageOrBuilder();
         } else {
           if (briefCase_ == 1750) {
-            return (emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_;
+            return (emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_;
           }
-          return emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.getDefaultInstance();
+          return emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.getDefaultInstance();
         }
       }
       /**
        * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1750;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief, emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.Builder, emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBriefOrBuilder> 
+          emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief, emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.Builder, emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBriefOrBuilder> 
           getTpsMercenariesRecordBriefFieldBuilder() {
         if (tpsMercenariesRecordBriefBuilder_ == null) {
           if (!(briefCase_ == 1750)) {
-            brief_ = emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.getDefaultInstance();
+            brief_ = emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.getDefaultInstance();
           }
           tpsMercenariesRecordBriefBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief, emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.Builder, emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBriefOrBuilder>(
-                  (emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_,
+              emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief, emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.Builder, emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBriefOrBuilder>(
+                  (emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_,
                   getParentForChildren(),
                   isClean());
           brief_ = null;
@@ -820,13 +820,13 @@ public final class ABOBLDHOPOHOuterClass {
       "rdBrief.proto\"q\n\013ABOBLDHOPOH\022\023\n\013OECMKBII" +
       "GKE\030\013 \001(\r\022D\n\034tps_mercenaries_record_brie" +
       "f\030\326\r \001(\0132\033._TpsMercenariesRecordBriefH\000B" +
-      "\007\n\005briefB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "\007\n\005briefB2\n\031emu.grasscutter.net.protoB\025A" +
+      "BOBLDHOPOHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.TpsMercenariesRecordBrief.getDescriptor(),
+          emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass.getDescriptor(),
         });
     internal_static_ABOBLDHOPOH_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -834,7 +834,7 @@ public final class ABOBLDHOPOHOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ABOBLDHOPOH_descriptor,
         new java.lang.String[] { "OECMKBIIGKE", "TpsMercenariesRecordBrief", "Brief", });
-    emu.grasscutter.net.proto.TpsMercenariesRecordBrief.getDescriptor();
+    emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -722,8 +722,9 @@ public final class GENJLAIKGEKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GENJLAIKGEK.proto\"4\n\013GENJLAIKGEK\022\020\n\010sc" +
-      "ene_id\030\007 \001(\r\022\023\n\013ALLEOHKBDFE\030\014 \003(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "ene_id\030\007 \001(\r\022\023\n\013ALLEOHKBDFE\030\014 \003(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025GENJLAIKGEKOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

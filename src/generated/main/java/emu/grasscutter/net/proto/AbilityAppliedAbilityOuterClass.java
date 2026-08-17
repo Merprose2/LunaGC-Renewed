@@ -1303,8 +1303,9 @@ public final class AbilityAppliedAbilityOuterClass {
       "ame\030\001 \001(\0132\016.AbilityString\022(\n\020ability_ove" +
       "rride\030\002 \001(\0132\016.AbilityString\022.\n\014override_" +
       "map\030\003 \003(\0132\030.AbilityScalarValueEntry\022\034\n\024i" +
-      "nstanced_ability_id\030\004 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "nstanced_ability_id\030\004 \001(\rB<\n\031emu.grasscu" +
+      "tter.net.protoB\037AbilityAppliedAbilityOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

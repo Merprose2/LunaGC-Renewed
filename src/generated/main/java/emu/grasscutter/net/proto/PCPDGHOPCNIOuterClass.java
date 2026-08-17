@@ -666,8 +666,9 @@ public final class PCPDGHOPCNIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PCPDGHOPCNI.proto\"P\n\013PCPDGHOPCNI\022\031\n\021mo" +
       "nster_config_id\030\005 \001(\r\022\023\n\013GFLGLONCOMH\030\007 \001" +
-      "(\r\022\021\n\tfail_time\030\010 \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "(\r\022\021\n\tfail_time\030\010 \001(\rB2\n\031emu.grasscutter" +
+      ".net.protoB\025PCPDGHOPCNIOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

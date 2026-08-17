@@ -731,7 +731,8 @@ public final class SceneAvatarStaminaStepReqOuterClass {
       "\n\037SceneAvatarStaminaStepReq.proto\032\014Vecto" +
       "r.proto\"I\n\031SceneAvatarStaminaStepReq\022\026\n\016" +
       "use_client_rot\030\001 \001(\010\022\024\n\003rot\030\003 \001(\0132\007.Vect" +
-      "orB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "orB@\n\031emu.grasscutter.net.protoB#SceneAv" +
+      "atarStaminaStepReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

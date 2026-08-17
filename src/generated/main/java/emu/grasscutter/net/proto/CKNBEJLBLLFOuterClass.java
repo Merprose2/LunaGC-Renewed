@@ -823,8 +823,8 @@ public final class CKNBEJLBLLFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CKNBEJLBLLF.proto\032\021MICEFJLBDPB.proto\"0" +
       "\n\013CKNBEJLBLLF\022!\n\013NCHCNOPEJHK\030\001 \003(\0132\014.MIC" +
-      "EFJLBDPBB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "EFJLBDPBB2\n\031emu.grasscutter.net.protoB\025C" +
+      "KNBEJLBLLFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

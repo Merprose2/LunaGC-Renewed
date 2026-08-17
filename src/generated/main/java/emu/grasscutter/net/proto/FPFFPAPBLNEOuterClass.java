@@ -266,8 +266,9 @@ public final class FPFFPAPBLNEOuterClass {
       "\nHFPFFPAPBLNE_BEYOND_CUSTOM_SKILL_STATE_" +
       "BEHAVIOR_ATTACH_ABILITY_DRAG_FORCE\020\014\022@\n<" +
       "FPFFPAPBLNE_BEYOND_CUSTOM_SKILL_STATE_BE" +
-      "HAVIOR_PRE_TARGETING\020\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "HAVIOR_PRE_TARGETING\020\rB2\n\031emu.grasscutte" +
+      "r.net.protoB\025FPFFPAPBLNEOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

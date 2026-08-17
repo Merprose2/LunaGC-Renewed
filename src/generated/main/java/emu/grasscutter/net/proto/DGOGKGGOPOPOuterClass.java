@@ -1129,8 +1129,9 @@ public final class DGOGKGGOPOPOuterClass {
       "\001\n\013DGOGKGGOPOP\022\024\n\013PHLPJCJJOFA\030\365\003 \001(\r\022\"\n\013" +
       "BBJGCJNFMHE\030\366\003 \001(\0132\014.MMLNJCOKEAK\022\"\n\013ADHK" +
       "EJFIEND\030\367\003 \001(\0132\014.MMLNJCOKEAK\022\"\n\013ACHGJINJ" +
-      "DCI\030\370\003 \001(\0132\014.MMLNJCOKEAKB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "DCI\030\370\003 \001(\0132\014.MMLNJCOKEAKB2\n\031emu.grasscut" +
+      "ter.net.protoB\025DGOGKGGOPOPOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

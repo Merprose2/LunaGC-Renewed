@@ -730,8 +730,9 @@ public final class GCGChallengeUpdateNotifyOuterClass {
       "\n\036GCGChallengeUpdateNotify.proto\032\026GCGDue" +
       "lChallenge.proto\"T\n\030GCGChallengeUpdateNo" +
       "tify\022$\n\tchallenge\030\004 \001(\0132\021.GCGDuelChallen" +
-      "ge\022\022\n\nserver_seq\030\r \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "ge\022\022\n\nserver_seq\030\r \001(\rB?\n\031emu.grasscutte" +
+      "r.net.protoB\"GCGChallengeUpdateNotifyOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

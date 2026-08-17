@@ -729,8 +729,9 @@ public final class IAGBLABLFHMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IAGBLABLFHM.proto\032\021LDDECGLDODN.proto\"A" +
       "\n\013IAGBLABLFHM\022!\n\013NMFEAHBBHDD\030\007 \001(\0132\014.LDD" +
-      "ECGLDODN\022\017\n\007retcode\030\r \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "ECGLDODN\022\017\n\007retcode\030\r \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025IAGBLABLFHMOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

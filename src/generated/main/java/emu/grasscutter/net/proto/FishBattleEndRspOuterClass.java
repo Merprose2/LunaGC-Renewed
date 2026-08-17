@@ -2067,8 +2067,9 @@ public final class FishBattleEndRspOuterClass {
       "E\020\000\0224\n0FishNoRewardReason_FISH_NO_REWARD" +
       "_ACTIVITY_LIMIT\020\001\022/\n+FishNoRewardReason_" +
       "FISH_NO_REWARD_BAG_LIMIT\020\002\0220\n,FishNoRewa" +
-      "rdReason_FISH_NO_REWARD_POOL_LIMIT\020\003B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "rdReason_FISH_NO_REWARD_POOL_LIMIT\020\003B7\n\031" +
+      "emu.grasscutter.net.protoB\032FishBattleEnd" +
+      "RspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

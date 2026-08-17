@@ -525,8 +525,8 @@ public final class PKCKPFHLBNIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PKCKPFHLBNI.proto\"\037\n\013PKCKPFHLBNI\022\020\n\010po" +
-      "int_id\030\005 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "int_id\030\005 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025PKCKPFHLBNIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

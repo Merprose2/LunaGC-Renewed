@@ -927,8 +927,8 @@ public final class DDINJLABBFIOuterClass {
       "\n\021DDINJLABBFI.proto\032\021JJOJINAGBKF.proto\"Z" +
       "\n\013DDINJLABBFI\022\023\n\013OJGGLOIHBPA\030\t \003(\r\022\023\n\013LJ" +
       "GHDOOCCGC\030\n \001(\r\022!\n\013EGCBMGIEKBB\030\013 \001(\0132\014.J" +
-      "JOJINAGBKFB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "JOJINAGBKFB2\n\031emu.grasscutter.net.protoB" +
+      "\025DDINJLABBFIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

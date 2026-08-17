@@ -525,8 +525,8 @@ public final class NOIPDDNIDOKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NOIPDDNIDOK.proto\"\"\n\013NOIPDDNIDOK\022\023\n\013MJ" +
-      "OCLODDHNM\030\r \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "OCLODDHNM\030\r \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025NOIPDDNIDOKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

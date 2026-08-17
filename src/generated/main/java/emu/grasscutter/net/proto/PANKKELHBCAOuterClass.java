@@ -2188,8 +2188,8 @@ public final class PANKKELHBCAOuterClass {
       "MDECMKGHDAK\030\r \001(\002\022\033\n\ntarget_pos\030\016 \001(\0132\007." +
       "Vector\022\034\n\013NKCMIFFBMEN\030\017 \001(\0132\007.Vector\022\024\n\013" +
       "GMNALDFDANK\030\373\004 \001(\r\022\"\n\013EEDDIJJOCFM\030\344\014 \001(\013" +
-      "2\014.IFMIEJICEMAB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "2\014.IFMIEJICEMAB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025PANKKELHBCAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

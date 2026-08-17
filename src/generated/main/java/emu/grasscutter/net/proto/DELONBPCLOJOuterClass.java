@@ -651,8 +651,8 @@ public final class DELONBPCLOJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DELONBPCLOJ.proto\032\021LKIPMBDFPDN.proto\"0" +
       "\n\013DELONBPCLOJ\022!\n\013IEEEIHAJHFH\030\001 \001(\0132\014.LKI" +
-      "PMBDFPDNB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "PMBDFPDNB2\n\031emu.grasscutter.net.protoB\025D" +
+      "ELONBPCLOJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

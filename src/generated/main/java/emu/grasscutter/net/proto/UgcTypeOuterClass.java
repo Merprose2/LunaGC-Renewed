@@ -152,8 +152,8 @@ public final class UgcTypeOuterClass {
       "\n\rUgcType.proto*k\n\007UgcType\022\020\n\014UgcType_NO" +
       "NE\020\000\022\026\n\022UgcType_MUSIC_GAME\020\001\022\035\n\031UgcType_" +
       "LAN_V_5_CARD_GAME\020\002\022\027\n\023UgcType_SHORT_VID" +
-      "EO\020\003B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "EO\020\003B.\n\031emu.grasscutter.net.protoB\021UgcTy" +
+      "peOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

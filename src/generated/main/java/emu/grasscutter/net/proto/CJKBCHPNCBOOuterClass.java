@@ -144,8 +144,8 @@ public final class CJKBCHPNCBOOuterClass {
       "JKBCHPNCBO_BEYOND_ENERGY_INCREASE_ANYWAY" +
       "\020\000\022-\n)CJKBCHPNCBO_BEYOND_ENERGY_HOLD_WHE" +
       "N_UNUSE\020\001\022.\n*CJKBCHPNCBO_BEYOND_ENERGY_C" +
-      "LEAR_WHEN_UNUSE\020\002B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "LEAR_WHEN_UNUSE\020\002B2\n\031emu.grasscutter.net" +
+      ".protoB\025CJKBCHPNCBOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

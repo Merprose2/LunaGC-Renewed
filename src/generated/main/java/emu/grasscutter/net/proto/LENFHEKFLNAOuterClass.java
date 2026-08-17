@@ -1089,8 +1089,8 @@ public final class LENFHEKFLNAOuterClass {
       "\n\021LENFHEKFLNA.proto\032\021KCDMJAHGFOK.proto\"Z" +
       "\n\013LENFHEKFLNA\022!\n\013ILHGKOPEKBF\030\001 \003(\0132\014.KCD" +
       "MJAHGFOK\022\023\n\013NFEMEOKFLMP\030\002 \001(\010\022\023\n\013CLOOEBA" +
-      "IBNB\030\003 \003(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "IBNB\030\003 \003(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025LENFHEKFLNAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

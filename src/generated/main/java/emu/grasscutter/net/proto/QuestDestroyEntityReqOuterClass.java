@@ -666,8 +666,9 @@ public final class QuestDestroyEntityReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033QuestDestroyEntityReq.proto\"N\n\025QuestDe" +
       "stroyEntityReq\022\020\n\010scene_id\030\004 \001(\r\022\020\n\010ques" +
-      "t_id\030\n \001(\r\022\021\n\tentity_id\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "t_id\030\n \001(\r\022\021\n\tentity_id\030\017 \001(\rB<\n\031emu.gra" +
+      "sscutter.net.protoB\037QuestDestroyEntityRe" +
+      "qOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

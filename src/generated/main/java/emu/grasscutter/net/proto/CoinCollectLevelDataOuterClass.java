@@ -1738,8 +1738,9 @@ public final class CoinCollectLevelDataOuterClass {
       "\013 \001(\r\022\023\n\013HCLMGNDDHKH\030\014 \001(\r\022\025\n\ris_level_o" +
       "pen\030\r \001(\010\022<\n\032double_best_team_info_list\030" +
       "\016 \003(\0132\030.CoinCollectTeamInfoData\022\023\n\013MCGGM" +
-      "MLPIJP\030\017 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "MLPIJP\030\017 \001(\rB;\n\031emu.grasscutter.net.prot" +
+      "oB\036CoinCollectLevelDataOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

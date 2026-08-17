@@ -722,8 +722,9 @@ public final class HDCDLMJMBLCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HDCDLMJMBLC.proto\"/\n\013HDCDLMJMBLC\022\023\n\013JE" +
-      "HGANFHDKP\030\n \003(\r\022\013\n\003uid\030\r \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "HGANFHDKP\030\n \003(\r\022\013\n\003uid\030\r \001(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025HDCDLMJMBLCOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

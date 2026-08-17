@@ -651,8 +651,9 @@ public final class AbilityActionFireAfterImgaeOuterClass {
     java.lang.String[] descriptorData = {
       "\n!AbilityActionFireAfterImgae.proto\032\014Vec" +
       "tor.proto\"3\n\033AbilityActionFireAfterImgae" +
-      "\022\024\n\003dir\030\007 \001(\0132\007.VectorB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\022\024\n\003dir\030\007 \001(\0132\007.VectorBB\n\031emu.grasscutte" +
+      "r.net.protoB%AbilityActionFireAfterImgae" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -854,8 +854,8 @@ public final class AALKGFJGNDNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AALKGFJGNDN.proto\032\014Vector.proto\"9\n\013AAL" +
       "KGFJGNDN\022\024\n\003rot\030\010 \001(\0132\007.Vector\022\024\n\003pos\030\016 " +
-      "\001(\0132\007.VectorB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\001(\0132\007.VectorB2\n\031emu.grasscutter.net.prot" +
+      "oB\025AALKGFJGNDNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

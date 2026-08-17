@@ -996,8 +996,8 @@ public final class CIFBOANCHKIOuterClass {
       "\n\021CIFBOANCHKI.proto\032\014Vector.proto\"e\n\013CIF" +
       "BOANCHKI\022\023\n\013NILMIKKHDMF\030\003 \001(\010\022\024\n\003pos\030\005 \001" +
       "(\0132\007.Vector\022\r\n\005level\030\006 \001(\r\022\034\n\013MNAMCGBNCJ" +
-      "K\030\016 \001(\0132\007.VectorB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "K\030\016 \001(\0132\007.VectorB2\n\031emu.grasscutter.net." +
+      "protoB\025CIFBOANCHKIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

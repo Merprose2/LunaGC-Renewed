@@ -1209,8 +1209,8 @@ public final class NGPFKNPLGNBOuterClass {
       "JLD:\0028\001\"\177\n\013AKAKEBACJLD\022(\n$AKAKEBACJLD_NO" +
       "T_OPEN_MUSIC_GAME_BOOK\020\000\022\"\n\036AKAKEBACJLD_" +
       "NOT_USE_INSTRUMENT\020\001\022\"\n\036AKAKEBACJLD_NOT_" +
-      "CAN_BE_INVITED\020\002B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "CAN_BE_INVITED\020\002B2\n\031emu.grasscutter.net." +
+      "protoB\025NGPFKNPLGNBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

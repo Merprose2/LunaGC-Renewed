@@ -589,8 +589,9 @@ public final class LanternRiteFireworksReformFactorInfoOuterClass {
       "\n*LanternRiteFireworksReformFactorInfo.p" +
       "roto\"O\n$LanternRiteFireworksReformFactor" +
       "Info\022\024\n\014factor_value\030\002 \001(\r\022\021\n\tfactor_id\030" +
-      "\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\016 \001(\rBK\n\031emu.grasscutter.net.protoB.Lant" +
+      "ernRiteFireworksReformFactorInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

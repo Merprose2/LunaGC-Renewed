@@ -1620,8 +1620,8 @@ public final class PlayerCookRspOuterClass {
       "\0132\n.ItemParam\022\023\n\013KLACBPCPCMJ\030\007 \001(\r\022\035\n\tit" +
       "em_list\030\014 \003(\0132\n.ItemParam\022$\n\013recipe_data" +
       "\030\r \001(\0132\017.CookRecipeData\022\023\n\013JJPABEHGMCH\030\016" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB4\n\031emu.grasscutter.net.protoB\027Playe" +
+      "rCookRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

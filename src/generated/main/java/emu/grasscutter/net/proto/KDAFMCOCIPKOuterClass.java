@@ -810,8 +810,9 @@ public final class KDAFMCOCIPKOuterClass {
       "\n\021KDAFMCOCIPK.proto\"}\n\013KDAFMCOCIPK\022\025\n\ris" +
       "_new_record\030\001 \001(\010\022\020\n\010ugc_guid\030\002 \001(\004\022\026\n\016m" +
       "usic_basic_id\030\006 \001(\r\022\034\n\024is_unlock_next_le" +
-      "vel\030\n \001(\010\022\017\n\007retcode\030\014 \001(\005B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "vel\030\n \001(\010\022\017\n\007retcode\030\014 \001(\005B2\n\031emu.grassc" +
+      "utter.net.protoB\025KDAFMCOCIPKOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

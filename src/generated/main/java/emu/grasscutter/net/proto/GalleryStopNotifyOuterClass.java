@@ -634,8 +634,8 @@ public final class GalleryStopNotifyOuterClass {
       "\n\027GalleryStopNotify.proto\032\027GalleryStopRe" +
       "ason.proto\"Q\n\021GalleryStopNotify\022\022\n\ngalle" +
       "ry_id\030\t \001(\r\022(\n\014_stop_reason\030\017 \001(\0162\022.Gall" +
-      "eryStopReasonB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "eryStopReasonB8\n\031emu.grasscutter.net.pro" +
+      "toB\033GalleryStopNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

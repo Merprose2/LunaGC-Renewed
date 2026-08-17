@@ -902,8 +902,9 @@ public final class GetAllActivatedBargainDataRspOuterClass {
       "\n#GetAllActivatedBargainDataRsp.proto\032\025B" +
       "argainSnapshot.proto\"Y\n\035GetAllActivatedB" +
       "argainDataRsp\022\017\n\007retcode\030\007 \001(\005\022\'\n\rsnapsh" +
-      "ot_list\030\017 \003(\0132\020.BargainSnapshotB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "ot_list\030\017 \003(\0132\020.BargainSnapshotBD\n\031emu.g" +
+      "rasscutter.net.protoB\'GetAllActivatedBar" +
+      "gainDataRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

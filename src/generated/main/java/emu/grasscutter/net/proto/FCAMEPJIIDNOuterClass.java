@@ -667,8 +667,8 @@ public final class FCAMEPJIIDNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FCAMEPJIIDN.proto\"E\n\013FCAMEPJIIDN\022\020\n\010is" +
       "_agree\030\004 \001(\010\022\023\n\013EPHGOMPBKJA\030\t \001(\r\022\017\n\007ret" +
-      "code\030\016 \001(\005B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "code\030\016 \001(\005B2\n\031emu.grasscutter.net.protoB" +
+      "\025FCAMEPJIIDNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

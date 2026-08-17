@@ -880,7 +880,8 @@ public final class FHNEICPMMBLOuterClass {
       "2\030.FHNEICPMMBL.BIPLCBOCFNF\"_\n\013BIPLCBOCFN" +
       "F\022\031\n\025BIPLCBOCFNF_TYPE_NONE\020\000\022\031\n\025BIPLCBOC" +
       "FNF_TYPE_PACK\020\001\022\032\n\026BIPLCBOCFNF_TYPE_EVEN" +
-      "T\020\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "T\020\002B2\n\031emu.grasscutter.net.protoB\025FHNEIC" +
+      "PMMBLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

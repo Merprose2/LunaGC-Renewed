@@ -1015,7 +1015,8 @@ public final class HIHGPNLLCDCOuterClass {
       "\n\013HIHGPNLLCDC\022\r\n\004name\030\365\003 \001(\t\022\024\n\013LPACNPFD" +
       "LML\030\366\003 \001(\005\022\036\n\007content\030\367\003 \001(\0132\014.GLLPFPEKP" +
       "AJ\022\024\n\013PFCNIHFCLCH\030\370\003 \001(\002\022\016\n\005index\030\331\004 \001(\005" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025HIHGPNLLC" +
+      "DCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

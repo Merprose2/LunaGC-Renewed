@@ -3904,8 +3904,8 @@ public final class HHAKIPEPKJGOuterClass {
       "NI\030f \001(\010\022\023\n\013PFPOLOEPDBN\030g \003(\t\022\024\n\013EKNMHCI" +
       "IMEP\030\214\001 \001(\010\022\024\n\013KKGFBGGJFNI\030\215\001 \003(\t\022\024\n\013KMO" +
       "GGHOEJFE\030\365\003 \001(\010\022\024\n\013FFHKKFIJDCH\030\366\003 \001(\t\022\024\n" +
-      "\013filter_type\030\367\003 \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\013filter_type\030\367\003 \001(\005B2\n\031emu.grasscutter.n" +
+      "et.protoB\025HHAKIPEPKJGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

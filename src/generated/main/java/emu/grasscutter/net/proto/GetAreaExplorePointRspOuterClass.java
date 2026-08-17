@@ -917,7 +917,8 @@ public final class GetAreaExplorePointRspOuterClass {
       "\n\034GetAreaExplorePointRsp.proto\"[\n\026GetAre" +
       "aExplorePointRsp\022\017\n\007retcode\030\006 \001(\005\022\024\n\014are" +
       "a_id_list\030\n \003(\r\022\032\n\022explore_point_list\030\013 " +
-      "\003(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\003(\rB=\n\031emu.grasscutter.net.protoB GetAre" +
+      "aExplorePointRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

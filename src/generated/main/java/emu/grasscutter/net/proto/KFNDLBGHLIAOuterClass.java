@@ -142,8 +142,9 @@ public final class KFNDLBGHLIAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KFNDLBGHLIA.proto*]\n\013KFNDLBGHLIA\022\031\n\025KF" +
       "NDLBGHLIA_BASE_PROP\020\000\022\026\n\022KFNDLBGHLIA_CUS" +
-      "TOM\020\001\022\033\n\027KFNDLBGHLIA_ROLE_STATUS\020\002B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "TOM\020\001\022\033\n\027KFNDLBGHLIA_ROLE_STATUS\020\002B2\n\031em" +
+      "u.grasscutter.net.protoB\025KFNDLBGHLIAOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

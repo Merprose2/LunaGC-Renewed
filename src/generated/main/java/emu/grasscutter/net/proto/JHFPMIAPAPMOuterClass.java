@@ -133,8 +133,8 @@ public final class JHFPMIAPAPMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JHFPMIAPAPM.proto*M\n\013JHFPMIAPAPM\022\037\n\033JH" +
       "FPMIAPAPM_BEYOND_IN_LEVEL\020\000\022\035\n\031JHFPMIAPA" +
-      "PM_BEYOND_PREFAB\020\001B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "PM_BEYOND_PREFAB\020\001B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025JHFPMIAPAPMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

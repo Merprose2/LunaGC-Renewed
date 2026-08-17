@@ -142,8 +142,9 @@ public final class GBFDLHPNAGKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GBFDLHPNAGK.proto*P\n\013GBFDLHPNAGK\022\024\n\020GB" +
       "FDLHPNAGK_HIGH\020\000\022\026\n\022GBFDLHPNAGK_MIDDLE\020\001" +
-      "\022\023\n\017GBFDLHPNAGK_LOW\020\002B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\022\023\n\017GBFDLHPNAGK_LOW\020\002B2\n\031emu.grasscutter" +
+      ".net.protoB\025GBFDLHPNAGKOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

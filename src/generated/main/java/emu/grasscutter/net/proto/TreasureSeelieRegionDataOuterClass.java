@@ -1290,8 +1290,8 @@ public final class TreasureSeelieRegionDataOuterClass {
       "\007.Vector\022\021\n\tregion_id\030\007 \001(\r\022\020\n\010scene_id\030" +
       "\010 \001(\r\022\023\n\013LPGPONIONFK\030\014 \001(\r\022\023\n\013NPNNLOKOKF" +
       "D\030\r \001(\r\022\017\n\007is_done\030\016 \001(\010\022\025\n\rregion_radiu" +
-      "s\030\017 \001(\002B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "s\030\017 \001(\002B?\n\031emu.grasscutter.net.protoB\"Tr" +
+      "easureSeelieRegionDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -972,8 +972,9 @@ public final class TakeResinCardDailyRewardRspOuterClass {
       "\n!TakeResinCardDailyRewardRsp.proto\032\017Ite" +
       "mParam.proto\"g\n\033TakeResinCardDailyReward" +
       "Rsp\022\031\n\021product_config_id\030\007 \001(\r\022\017\n\007retcod" +
-      "e\030\t \001(\005\022\034\n\010item_vec\030\n \003(\0132\n.ItemParamB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "e\030\t \001(\005\022\034\n\010item_vec\030\n \003(\0132\n.ItemParamBB\n" +
+      "\031emu.grasscutter.net.protoB%TakeResinCar" +
+      "dDailyRewardRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

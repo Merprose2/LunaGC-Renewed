@@ -517,8 +517,8 @@ public final class PACEJEGPGEMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PACEJEGPGEM.proto\"#\n\013PACEJEGPGEM\022\024\n\013HL" +
-      "DHBJFHEIL\030\365\003 \001(\005B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "DHBJFHEIL\030\365\003 \001(\005B2\n\031emu.grasscutter.net." +
+      "protoB\025PACEJEGPGEMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

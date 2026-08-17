@@ -525,8 +525,8 @@ public final class MFFCCHFKHELOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MFFCCHFKHEL.proto\"\"\n\013MFFCCHFKHEL\022\023\n\013ac" +
-      "tivity_id\030\004 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "tivity_id\030\004 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025MFFCCHFKHELOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

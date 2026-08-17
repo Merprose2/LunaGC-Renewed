@@ -1680,8 +1680,9 @@ public final class AbilityInvocationFixedNotifyOuterClass {
       "2\023.AbilityInvokeEntry\022(\n\013OLHDBJAMMIM\030\r \001" +
       "(\0132\023.AbilityInvokeEntry\022(\n\013KJDOIFHBEKD\030\016" +
       " \001(\0132\023.AbilityInvokeEntry\022(\n\013DOAFBHDODPO" +
-      "\030\017 \001(\0132\023.AbilityInvokeEntryB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\030\017 \001(\0132\023.AbilityInvokeEntryBC\n\031emu.grass" +
+      "cutter.net.protoB&AbilityInvocationFixed" +
+      "NotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

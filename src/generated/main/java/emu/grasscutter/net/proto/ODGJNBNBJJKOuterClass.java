@@ -667,8 +667,8 @@ public final class ODGJNBNBJJKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ODGJNBNBJJK.proto\"L\n\013ODGJNBNBJJK\022\023\n\013sc" +
       "hedule_id\030\006 \001(\r\022\023\n\013_data_index\030\t \001(\r\022\023\n\013" +
-      "AKAFFNIIOBG\030\017 \001(\004B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "AKAFFNIIOBG\030\017 \001(\004B2\n\031emu.grasscutter.net" +
+      ".protoB\025ODGJNBNBJJKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -730,8 +730,9 @@ public final class IrodoriFillPoetryRspOuterClass {
       "\n\032IrodoriFillPoetryRsp.proto\032\034IrodoriPoe" +
       "tryThemeData.proto\"T\n\024IrodoriFillPoetryR" +
       "sp\022+\n\ntheme_data\030\002 \001(\0132\027.IrodoriPoetryTh" +
-      "emeData\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "emeData\022\017\n\007retcode\030\017 \001(\005B;\n\031emu.grasscut" +
+      "ter.net.protoB\036IrodoriFillPoetryRspOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -747,8 +747,8 @@ public final class RechargeRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021RechargeRsp.proto\"O\n\013RechargeRsp\022\017\n\007re" +
       "tcode\030\003 \001(\005\022\022\n\nproduct_id\030\004 \001(\t\022\033\n\023is_sh" +
-      "ow_minors_hint\030\006 \001(\010B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "ow_minors_hint\030\006 \001(\010B2\n\031emu.grasscutter." +
+      "net.protoB\025RechargeRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

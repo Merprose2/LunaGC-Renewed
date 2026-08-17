@@ -596,7 +596,8 @@ public final class BNAECAHPIDHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BNAECAHPIDH.proto\">\n\013BNAECAHPIDH\022\032\n\022_b" +
       "eyond_gacha_type\030\005 \001(\r\022\023\n\013schedule_id\030\r " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025BNAECA" +
+      "HPIDHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -800,8 +800,8 @@ public final class AMNLFBPLDKNOuterClass {
       "\n\021AMNLFBPLDKN.proto\032\021LMBGMBBNOAB.proto\"T" +
       "\n\013AMNLFBPLDKN\022!\n\013FIIBFKMPKFF\030\006 \001(\0132\014.LMB" +
       "GMBBNOAB\022\021\n\trename_id\030\013 \001(\r\022\017\n\007retcode\030\016" +
-      " \001(\005B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\005B2\n\031emu.grasscutter.net.protoB\025AMNLF" +
+      "BPLDKNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

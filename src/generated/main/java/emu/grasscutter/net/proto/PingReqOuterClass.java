@@ -1031,8 +1031,9 @@ public final class PingReqOuterClass {
       "me\030\001 \001(\r\022\017\n\007ue_time\030\003 \001(\002\022\023\n\013HNEEJCLHBGE" +
       "\030\007 \001(\r\022\027\n\017total_tick_time\030\010 \001(\001\022\023\n\013MCCPJ" +
       "DKDNMJ\030\n \001(\014\022\023\n\013JGPHOBGDBKI\030\r \001(\004\022\023\n\013BLO" +
-      "PFLFBDAE\030\016 \001(\014\022\013\n\003seq\030\017 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "PFLFBDAE\030\016 \001(\014\022\013\n\003seq\030\017 \001(\rB.\n\031emu.grass" +
+      "cutter.net.protoB\021PingReqOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

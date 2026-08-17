@@ -776,8 +776,9 @@ public final class VehicleInteractReqOuterClass {
       "actType.proto\"{\n\022VehicleInteractReq\022\013\n\003p" +
       "os\030\001 \001(\r\022+\n\rinteract_type\030\003 \001(\0162\024.Vehicl" +
       "eInteractType\022\030\n\020_is_need_destroy\030\004 \001(\010\022" +
-      "\021\n\tentity_id\030\005 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\021\n\tentity_id\030\005 \001(\rB9\n\031emu.grasscutter.ne" +
+      "t.protoB\034VehicleInteractReqOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

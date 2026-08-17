@@ -660,8 +660,9 @@ public final class HomeUpdatePictureFrameInfoReqOuterClass {
       "\n#HomeUpdatePictureFrameInfoReq.proto\032\032H" +
       "omePictureFrameInfo.proto\"R\n\035HomeUpdateP" +
       "ictureFrameInfoReq\0221\n\022picture_frame_info" +
-      "\030\004 \001(\0132\025.HomePictureFrameInfoB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\030\004 \001(\0132\025.HomePictureFrameInfoBD\n\031emu.gra" +
+      "sscutter.net.protoB\'HomeUpdatePictureFra" +
+      "meInfoReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

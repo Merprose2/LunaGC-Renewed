@@ -1827,7 +1827,8 @@ public final class EEMHGEMFOFJOuterClass {
       "(\0132\014.BFALEJANOKP\022!\n\013PGGCPHIDGAJ\030\004 \001(\0162\014." +
       "CFKPCEEGOOM\022\023\n\013HLPOHCDONIK\030\005 \001(\r\022(\n\020info" +
       "_node_config\030d \001(\0132\014.MDFOEENPFGOH\000B\006\n\004in" +
-      "foB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "foB2\n\031emu.grasscutter.net.protoB\025EEMHGEM" +
+      "FOFJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

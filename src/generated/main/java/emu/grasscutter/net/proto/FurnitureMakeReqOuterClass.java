@@ -455,8 +455,8 @@ public final class FurnitureMakeReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026FurnitureMakeReq.proto\"\022\n\020FurnitureMak" +
-      "eReqB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "eReqB7\n\031emu.grasscutter.net.protoB\032Furni" +
+      "tureMakeReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

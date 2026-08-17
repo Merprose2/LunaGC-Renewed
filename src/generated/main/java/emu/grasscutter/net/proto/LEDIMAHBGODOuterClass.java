@@ -595,8 +595,9 @@ public final class LEDIMAHBGODOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LEDIMAHBGOD.proto\"2\n\013LEDIMAHBGOD\022\022\n\nga" +
-      "llery_id\030\005 \001(\r\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "llery_id\030\005 \001(\r\022\017\n\007retcode\030\013 \001(\005B2\n\031emu.g" +
+      "rasscutter.net.protoB\025LEDIMAHBGODOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

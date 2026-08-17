@@ -887,8 +887,9 @@ public final class IFKMENELMICOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IFKMENELMIC.proto\"5\n\013IFKMENELMIC\022\013\n\003ke" +
-      "y\030\001 \001(\t\022\n\n\002id\030\002 \001(\005\022\r\n\005value\030\003 \003(\tB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "y\030\001 \001(\t\022\n\n\002id\030\002 \001(\005\022\r\n\005value\030\003 \003(\tB2\n\031em" +
+      "u.grasscutter.net.protoB\025IFKMENELMICOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

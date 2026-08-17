@@ -909,7 +909,8 @@ public final class FAOKEBHNAEDOuterClass {
       "UgcType.proto\"i\n\013FAOKEBHNAED\022\030\n\002op\030\002 \001(\013" +
       "2\014.OCGNLFPIONC\022\032\n\010ugc_type\030\010 \001(\0162\010.UgcTy" +
       "pe\022\023\n\013target_guid\030\014 \001(\004\022\017\n\007retcode\030\r \001(\005" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025FAOKEBHNA" +
+      "EDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

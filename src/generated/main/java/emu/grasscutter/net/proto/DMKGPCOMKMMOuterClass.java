@@ -651,8 +651,8 @@ public final class DMKGPCOMKMMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DMKGPCOMKMM.proto\032\021AABLEDJBAKK.proto\"0" +
       "\n\013DMKGPCOMKMM\022!\n\013KGEKOKKHFMG\030\003 \001(\0132\014.AAB" +
-      "LEDJBAKKB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "LEDJBAKKB2\n\031emu.grasscutter.net.protoB\025D" +
+      "MKGPCOMKMMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

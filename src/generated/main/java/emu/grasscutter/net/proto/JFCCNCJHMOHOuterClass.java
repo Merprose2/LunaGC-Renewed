@@ -837,8 +837,8 @@ public final class JFCCNCJHMOHOuterClass {
       "roto\"\204\001\n\013JFCCNCJHMOH\022\023\n\013IOLKLILAFPO\030\002 \001(" +
       "\r\022\023\n\013IEHGOGCNAOB\030\007 \001(\r\022\023\n\013DJFEGAACOKM\030\n " +
       "\001(\r\022\023\n\013GFLGLONCOMH\030\014 \001(\r\022!\n\005state\030\017 \001(\0162" +
-      "\022.HuntingOfferStateB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\022.HuntingOfferStateB2\n\031emu.grasscutter.n" +
+      "et.protoB\025JFCCNCJHMOHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

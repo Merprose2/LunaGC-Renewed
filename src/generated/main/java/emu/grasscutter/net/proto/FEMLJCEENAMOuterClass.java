@@ -1185,8 +1185,9 @@ public final class FEMLJCEENAMOuterClass {
       "\001\n\013FEMLJCEENAM\022\021\n\tcost_time\030\001 \001(\r\022\025\n\ris_" +
       "new_record\030\004 \001(\010\022&\n\020settle_info_list\030\007 \003" +
       "(\0132\014.FKDOMBNPKLJ\022\017\n\007is_succ\030\t \001(\010\022\r\n\005sco" +
-      "re\030\n \001(\r\022\023\n\013LLCEEFFOGBH\030\014 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "re\030\n \001(\r\022\023\n\013LLCEEFFOGBH\030\014 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025FEMLJCEENAMOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

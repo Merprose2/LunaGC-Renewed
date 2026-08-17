@@ -2966,8 +2966,8 @@ public final class OMEIFBCMNFOOuterClass {
       "_BEYOND_CLIENT_FROGPRINT_NODE_AI_GET_TAR" +
       "GET_ATTACK\020\201!\022J\nEOMEIFBCMNFO_BEYOND_CLIE" +
       "NT_FROGPRINT_NODE_AI_GET_MONSTER_DEFINED" +
-      "_STATE\020\202!B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_STATE\020\202!B2\n\031emu.grasscutter.net.protoB\025" +
+      "OMEIFBCMNFOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

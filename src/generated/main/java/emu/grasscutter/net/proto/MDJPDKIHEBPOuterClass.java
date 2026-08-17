@@ -525,8 +525,8 @@ public final class MDJPDKIHEBPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MDJPDKIHEBP.proto\"!\n\013MDJPDKIHEBP\022\022\n\npl" +
-      "ayer_uid\030\014 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "ayer_uid\030\014 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025MDJPDKIHEBPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

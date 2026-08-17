@@ -832,8 +832,9 @@ public final class DeshretObeliskChestInfoNotifyOuterClass {
       "\n#DeshretObeliskChestInfoNotify.proto\032\035D" +
       "eshretObeliskChestInfo.proto\"R\n\035DeshretO" +
       "beliskChestInfoNotify\0221\n\017chest_info_list" +
-      "\030\007 \003(\0132\030.DeshretObeliskChestInfoB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\030\007 \003(\0132\030.DeshretObeliskChestInfoBD\n\031emu." +
+      "grasscutter.net.protoB\'DeshretObeliskChe" +
+      "stInfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

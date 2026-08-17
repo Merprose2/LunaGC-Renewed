@@ -823,8 +823,8 @@ public final class CCDAABMDNPIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CCDAABMDNPI.proto\032\021OOKJDJIBCGB.proto\"1" +
       "\n\013CCDAABMDNPI\022\"\n\013IPFKAABCJGI\030\365\003 \003(\0132\014.OO" +
-      "KJDJIBCGBB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "KJDJIBCGBB2\n\031emu.grasscutter.net.protoB\025" +
+      "CCDAABMDNPIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

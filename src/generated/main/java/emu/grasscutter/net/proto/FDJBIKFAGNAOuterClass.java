@@ -893,8 +893,9 @@ public final class FDJBIKFAGNAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FDJBIKFAGNA.proto\032\020Uint32Pair.proto\"?\n" +
       "\013FDJBIKFAGNA\022\036\n\tcost_list\030\003 \003(\0132\013.Uint32" +
-      "Pair\022\020\n\010skill_id\030\004 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "Pair\022\020\n\010skill_id\030\004 \001(\rB2\n\031emu.grasscutte" +
+      "r.net.protoB\025FDJBIKFAGNAOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

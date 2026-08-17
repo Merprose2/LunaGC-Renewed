@@ -1943,8 +1943,8 @@ public final class GJHOOOKIOKBOuterClass {
       "\n\007version\030\014 \001(\r\022\023\n\013MPJAPLIOLNJ\030\r \001(\005\022\023\n\013" +
       "HKEIKJGNPDL\030\016 \001(\010\022\023\n\013FJOCKGFNKOH\030\017 \001(\r\022)" +
       "\n\021text_sprite_frame\030> \001(\0132\014.OKKKFNJAHHKH" +
-      "\000B\010\n\006detailB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "\000B\010\n\006detailB2\n\031emu.grasscutter.net.proto" +
+      "B\025GJHOOOKIOKBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

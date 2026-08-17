@@ -525,8 +525,8 @@ public final class IGLDKAPLAPGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IGLDKAPLAPG.proto\"\034\n\013IGLDKAPLAPG\022\r\n\005pa" +
-      "ram\030\006 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "ram\030\006 \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "IGLDKAPLAPGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

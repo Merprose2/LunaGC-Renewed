@@ -133,8 +133,8 @@ public final class HOKPCGIPGIOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HOKPCGIPGIO.proto*?\n\013HOKPCGIPGIO\022\024\n\020HO" +
       "KPCGIPGIO_NONE\020\000\022\032\n\026HOKPCGIPGIO_CUSTOM_M" +
-      "AP\020\001B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "AP\020\001B2\n\031emu.grasscutter.net.protoB\025HOKPC" +
+      "GIPGIOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

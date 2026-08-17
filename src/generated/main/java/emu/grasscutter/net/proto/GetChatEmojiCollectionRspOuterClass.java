@@ -731,8 +731,9 @@ public final class GetChatEmojiCollectionRspOuterClass {
       "mojiCollectionData.proto\"j\n\031GetChatEmoji" +
       "CollectionRsp\022<\n\032chat_emoji_collection_d" +
       "ata\030\013 \001(\0132\030.ChatEmojiCollectionData\022\017\n\007r" +
-      "etcode\030\r \001(\005B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "etcode\030\r \001(\005B@\n\031emu.grasscutter.net.prot" +
+      "oB#GetChatEmojiCollectionRspOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

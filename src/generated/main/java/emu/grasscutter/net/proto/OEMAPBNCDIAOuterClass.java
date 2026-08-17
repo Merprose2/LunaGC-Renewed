@@ -696,7 +696,8 @@ public final class OEMAPBNCDIAOuterClass {
       "\n\021OEMAPBNCDIA.proto\032\021DBCJMBLKAML.proto\"R" +
       "\n\013OEMAPBNCDIA\022\023\n\013FDHFOCMBAKE\030\001 \001(\r\022\020\n\010pr" +
       "ogress\030\002 \001(\r\022\034\n\006status\030\003 \001(\0162\014.DBCJMBLKA" +
-      "MLB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "MLB2\n\031emu.grasscutter.net.protoB\025OEMAPBN" +
+      "CDIAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

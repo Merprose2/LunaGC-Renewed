@@ -2010,8 +2010,8 @@ public final class BKMGMIPPBFKOuterClass {
       "LGEJMPNPHK\022!\n\013LBPGKPJHNHO\030\014 \001(\0132\014.PPFIJB" +
       "BKNEJ\022!\n\013FEFKEOEANBI\030\r \001(\0162\014.AGLJDGLCEKE" +
       "\022!\n\013DFEINCEGHGP\030\016 \001(\0132\014.LENFHEKFLNA\022\023\n\013P" +
-      "EFIGEAHECH\030\020 \001(\010B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "EFIGEAHECH\030\020 \001(\010B2\n\031emu.grasscutter.net." +
+      "protoB\025BKMGMIPPBFKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

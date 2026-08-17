@@ -595,8 +595,9 @@ public final class DIPPFOAGPCDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DIPPFOAGPCD.proto\"*\n\013DIPPFOAGPCD\022\017\n\007re" +
-      "tcode\030\001 \001(\005\022\n\n\002id\030\006 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "tcode\030\001 \001(\005\022\n\n\002id\030\006 \001(\rB2\n\031emu.grasscutt" +
+      "er.net.protoB\025DIPPFOAGPCDOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

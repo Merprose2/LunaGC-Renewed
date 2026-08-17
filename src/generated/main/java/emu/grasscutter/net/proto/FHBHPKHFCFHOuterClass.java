@@ -173,8 +173,9 @@ public final class FHBHPKHFCFHOuterClass {
       "\"FHBHPKHFCFH_BEYOND_FOG_COLOR_GREEN\020\002\022%\n" +
       "!FHBHPKHFCFH_BEYOND_FOG_COLOR_BLUE\020\003\022\'\n#" +
       "FHBHPKHFCFH_BEYOND_FOG_COLOR_ORANGE\020\004\022$\n" +
-      " FHBHPKHFCFH_BEYOND_FOG_COLOR_RED\020\005B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      " FHBHPKHFCFH_BEYOND_FOG_COLOR_RED\020\005B2\n\031e" +
+      "mu.grasscutter.net.protoB\025FHBHPKHFCFHOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

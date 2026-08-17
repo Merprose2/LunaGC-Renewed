@@ -660,8 +660,9 @@ public final class PlayerNicknameAuditDataNotifyOuterClass {
       "\n#PlayerNicknameAuditDataNotify.proto\032\026C" +
       "ontentAuditInfo.proto\"@\n\035PlayerNicknameA" +
       "uditDataNotify\022\037\n\004info\030\007 \001(\0132\021.ContentAu" +
-      "ditInfoB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "ditInfoBD\n\031emu.grasscutter.net.protoB\'Pl" +
+      "ayerNicknameAuditDataNotifyOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

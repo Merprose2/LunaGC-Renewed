@@ -658,8 +658,9 @@ public final class QuestVarOpOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\020QuestVarOp.proto\":\n\nQuestVarOp\022\016\n\006is_a" +
-      "dd\030\010 \001(\010\022\r\n\005value\030\014 \001(\005\022\r\n\005index\030\016 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "dd\030\010 \001(\010\022\r\n\005value\030\014 \001(\005\022\r\n\005index\030\016 \001(\rB1" +
+      "\n\031emu.grasscutter.net.protoB\024QuestVarOpO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

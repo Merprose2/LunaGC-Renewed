@@ -881,8 +881,8 @@ public final class AbilityInvocationFailNotifyOuterClass {
       "lityInvokeEntry.proto\"e\n\033AbilityInvocati" +
       "onFailNotify\022\021\n\tentity_id\030\005 \001(\r\022#\n\006invok" +
       "e\030\t \001(\0132\023.AbilityInvokeEntry\022\016\n\006reason\030\014" +
-      " \001(\tB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\tBB\n\031emu.grasscutter.net.protoB%Abili" +
+      "tyInvocationFailNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

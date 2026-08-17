@@ -721,8 +721,8 @@ public final class JNDFDKPOJEMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JNDFDKPOJEM.proto\032\021KKAAHFHLFPD.proto\"5" +
       "\n\013JNDFDKPOJEM\022\n\n\002id\030\001 \001(\r\022\032\n\004data\030\002 \001(\0132" +
-      "\014.KKAAHFHLFPDB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\014.KKAAHFHLFPDB2\n\031emu.grasscutter.net.pro" +
+      "toB\025JNDFDKPOJEMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

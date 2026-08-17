@@ -730,8 +730,9 @@ public final class SetEntityClientDataNotifyOuterClass {
       "\n\037SetEntityClientDataNotify.proto\032\026Entit" +
       "yClientData.proto\"]\n\031SetEntityClientData" +
       "Notify\022\021\n\tentity_id\030\003 \001(\r\022-\n\022entity_clie" +
-      "nt_data\030\017 \001(\0132\021.EntityClientDataB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "nt_data\030\017 \001(\0132\021.EntityClientDataB@\n\031emu." +
+      "grasscutter.net.protoB#SetEntityClientDa" +
+      "taNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

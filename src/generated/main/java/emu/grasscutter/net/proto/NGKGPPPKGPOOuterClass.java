@@ -768,8 +768,9 @@ public final class NGKGPPPKGPOOuterClass {
       "\n\021NGKGPPPKGPO.proto\032\021KAOMKFKDDDM.proto\"o" +
       "\n\013NGKGPPPKGPO\022\023\n\013BFJLBLMBEDG\030\001 \001(\010\022!\n\013CJ" +
       "KBILNMMLG\030\002 \001(\0162\014.KAOMKFKDDDM\022\023\n\013IAAAFII" +
-      "PPGH\030\003 \001(\010\022\023\n\013NFGEJLAFDBI\030\004 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "PPGH\030\003 \001(\010\022\023\n\013NFGEJLAFDBI\030\004 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025NGKGPPPKGPOOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

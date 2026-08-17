@@ -2645,8 +2645,8 @@ public final class FDBCOLCAPHPOuterClass {
       "(\r\022\025\n\014data_version\030\206\004 \001(\r\022\024\n\013CEJIICPDOLM" +
       "\030\207\004 \001(\010\022\024\n\013LCNLLGCGPBO\030\210\004 \001(\005\022\024\n\013CFHEELG" +
       "PKDM\030\211\004 \001(\t\022\024\n\013BLKIDMKODAM\030\212\004 \001(\t\022\024\n\013KCG" +
-      "NKFPAFLL\030\213\004 \001(\tB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "NKFPAFLL\030\213\004 \001(\tB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025FDBCOLCAPHPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1519,8 +1519,8 @@ public final class EOJHBLDJLCCOuterClass {
       "MNAO\030\003 \001(\t\022\022\n\nplayer_uid\030\004 \001(\r\022\023\n\013KCAPDP" +
       "EILLP\030\005 \001(\t\022\023\n\013JDBNPDNCGIH\030\006 \001(\t\022\023\n\013BCLA" +
       "FABDNAC\030\007 \001(\t\022\023\n\013CLBJDOIHFOI\030\010 \001(\t\022\023\n\013FE" +
-      "FKEOEANBI\030\t \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "FKEOEANBI\030\t \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025EOJHBLDJLCCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

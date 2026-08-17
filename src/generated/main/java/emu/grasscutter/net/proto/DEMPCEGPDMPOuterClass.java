@@ -730,8 +730,8 @@ public final class DEMPCEGPDMPOuterClass {
       "\n\021DEMPCEGPDMP.proto\032\032CustomGadgetTreeInf" +
       "o.proto\"X\n\013DEMPCEGPDMP\0226\n\027custom_gadget_" +
       "tree_info\030\005 \001(\0132\025.CustomGadgetTreeInfo\022\021" +
-      "\n\tentity_id\030\017 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\n\tentity_id\030\017 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025DEMPCEGPDMPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

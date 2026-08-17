@@ -587,8 +587,9 @@ public final class PKNABMPPCHIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PKNABMPPCHI.proto\"3\n\013PKNABMPPCHI\022\017\n\007sl" +
-      "ot_id\030\001 \001(\005\022\023\n\013LBIPGGPFJCF\030\002 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "ot_id\030\001 \001(\005\022\023\n\013LBIPGGPFJCF\030\002 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025PKNABMPPCHIOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

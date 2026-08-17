@@ -1036,7 +1036,8 @@ public final class GJGJFEMDPFHOuterClass {
       "fo.proto\032\021FIIHDNCNDHH.proto\"]\n\013GJGJFEMDP" +
       "FH\022+\n\013JANGDIMHCAC\030\003 \003(\0132\026.ExhibitionDisp" +
       "layInfo\022!\n\013BJKBEOIBFPP\030\014 \001(\0132\014.FIIHDNCND" +
-      "HHB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "HHB2\n\031emu.grasscutter.net.protoB\025GJGJFEM" +
+      "DPFHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -736,8 +736,9 @@ public final class JMKMPAJJBEEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JMKMPAJJBEE.proto\"_\n\013JMKMPAJJBEE\022\023\n\013EF" +
       "NELBEGNJO\030\002 \001(\005\022\023\n\013JJAJJAMGHLA\030\004 \001(\005\022\023\n\013" +
-      "HEIOKEEONME\030\005 \001(\005\022\021\n\tentity_id\030\n \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "HEIOKEEONME\030\005 \001(\005\022\021\n\tentity_id\030\n \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025JMKMPAJJBEEOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

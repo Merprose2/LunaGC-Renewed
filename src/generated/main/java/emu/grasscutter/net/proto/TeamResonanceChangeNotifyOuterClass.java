@@ -832,8 +832,9 @@ public final class TeamResonanceChangeNotifyOuterClass {
       "\n\037TeamResonanceChangeNotify.proto\032\035Avata" +
       "rTeamResonanceInfo.proto\"H\n\031TeamResonanc" +
       "eChangeNotify\022+\n\tinfo_list\030\017 \003(\0132\030.Avata" +
-      "rTeamResonanceInfoB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "rTeamResonanceInfoB@\n\031emu.grasscutter.ne" +
+      "t.protoB#TeamResonanceChangeNotifyOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

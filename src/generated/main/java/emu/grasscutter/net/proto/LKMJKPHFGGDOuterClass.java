@@ -770,8 +770,9 @@ public final class LKMJKPHFGGDOuterClass {
       "\n\021LKMJKPHFGGD.proto\032\021JKAPPKLPNHA.proto\"o" +
       "\n\013LKMJKPHFGGD\022!\n\013GHABIPGGNGN\030\001 \001(\0162\014.JKA" +
       "PPKLPNHA\022\023\n\013HODLLGBFJBF\030\002 \001(\002\022\023\n\013MEGEKAC" +
-      "MHGA\030\003 \001(\002\022\023\n\013EKNOCDAOCOO\030\004 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "MHGA\030\003 \001(\002\022\023\n\013EKNOCDAOCOO\030\004 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025LKMJKPHFGGDOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -180,8 +180,9 @@ public final class MatchTypeOuterClass {
       "Type_NONE\020\000\022\025\n\021MatchType_DUNGEON\020\001\022\025\n\021Ma" +
       "tchType_MP_PLAY\020\002\022\030\n\024MatchType_MECHANICU" +
       "S\020\003\022\025\n\021MatchType_GENERAL\020\004\022\021\n\rMatchType_" +
-      "GCG\020\005\022\024\n\020MatchType_BEYOND\020\006B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "GCG\020\005\022\024\n\020MatchType_BEYOND\020\006B0\n\031emu.grass" +
+      "cutter.net.protoB\023MatchTypeOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

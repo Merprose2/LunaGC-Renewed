@@ -721,8 +721,9 @@ public final class MDIICFPEMPHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MDIICFPEMPH.proto\032\021ABFMGNFBCOK.proto\"?" +
       "\n\013MDIICFPEMPH\022\023\n\013PACOCJFBLLO\030\001 \001(\r\022\033\n\005pa" +
-      "ram\030\002 \001(\0132\014.ABFMGNFBCOKB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "ram\030\002 \001(\0132\014.ABFMGNFBCOKB2\n\031emu.grasscutt" +
+      "er.net.protoB\025MDIICFPEMPHOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

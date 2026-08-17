@@ -446,8 +446,9 @@ public final class MJDJHNHKPLCOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021MJDJHNHKPLC.proto\"\r\n\013MJDJHNHKPLCB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021MJDJHNHKPLC.proto\"\r\n\013MJDJHNHKPLCB2\n\031em" +
+      "u.grasscutter.net.protoB\025MJDJHNHKPLCOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

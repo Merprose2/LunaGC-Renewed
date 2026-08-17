@@ -855,8 +855,9 @@ public final class OFBGCMDEAALOuterClass {
       "\n\021OFBGCMDEAAL.proto\032\021HJINLJALMOP.proto\032\021" +
       "NFCFJEMPKJE.proto\"U\n\013OFBGCMDEAAL\022\"\n\013DOEM" +
       "EJMDLMI\030\365\003 \001(\0132\014.NFCFJEMPKJE\022\"\n\013GFNNDOHG" +
-      "MCB\030\366\003 \001(\0132\014.HJINLJALMOPB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "MCB\030\366\003 \001(\0132\014.HJINLJALMOPB2\n\031emu.grasscut" +
+      "ter.net.protoB\025OFBGCMDEAALOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

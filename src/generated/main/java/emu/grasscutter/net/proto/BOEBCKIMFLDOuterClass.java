@@ -800,8 +800,8 @@ public final class BOEBCKIMFLDOuterClass {
       "\n\021BOEBCKIMFLD.proto\032\021MKJFFICLOBH.proto\"U" +
       "\n\013BOEBCKIMFLD\022\023\n\013EPJBLDHANJJ\030\005 \001(\r\022\023\n\013AJ" +
       "OLHDJOHEL\030\006 \001(\r\022\034\n\006option\030\n \001(\0132\014.MKJFFI" +
-      "CLOBHB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "CLOBHB2\n\031emu.grasscutter.net.protoB\025BOEB" +
+      "CKIMFLDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

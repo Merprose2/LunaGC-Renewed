@@ -894,8 +894,9 @@ public final class MNKJKHFCOPGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MNKJKHFCOPG.proto\032\021DCFEMGFHIJH.proto\"G" +
       "\n\013MNKJKHFCOPG\022\"\n\013IJFFAFCBPNJ\030\365\003 \003(\0132\014.DC" +
-      "FEMGFHIJH\022\024\n\013GLEKMPDCHPG\030\366\003 \001(\010B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "FEMGFHIJH\022\024\n\013GLEKMPDCHPG\030\366\003 \001(\010B2\n\031emu.g" +
+      "rasscutter.net.protoB\025MNKJKHFCOPGOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

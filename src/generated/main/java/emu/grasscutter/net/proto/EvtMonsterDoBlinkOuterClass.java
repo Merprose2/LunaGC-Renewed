@@ -925,8 +925,9 @@ public final class EvtMonsterDoBlinkOuterClass {
       "\n\027EvtMonsterDoBlink.proto\032\014Vector.proto\"" +
       "`\n\021EvtMonsterDoBlink\022\033\n\ntarget_rot\030\004 \001(\013" +
       "2\007.Vector\022\021\n\tentity_id\030\014 \001(\r\022\033\n\ntarget_p" +
-      "os\030\016 \001(\0132\007.VectorB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "os\030\016 \001(\0132\007.VectorB8\n\031emu.grasscutter.net" +
+      ".protoB\033EvtMonsterDoBlinkOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

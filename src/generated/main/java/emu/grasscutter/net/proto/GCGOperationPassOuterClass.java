@@ -447,8 +447,8 @@ public final class GCGOperationPassOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026GCGOperationPass.proto\"\022\n\020GCGOperation" +
-      "PassB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "PassB7\n\031emu.grasscutter.net.protoB\032GCGOp" +
+      "erationPassOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

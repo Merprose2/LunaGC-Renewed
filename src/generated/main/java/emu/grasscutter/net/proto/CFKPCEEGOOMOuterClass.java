@@ -133,8 +133,8 @@ public final class CFKPCEEGOOMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CFKPCEEGOOM.proto*@\n\013CFKPCEEGOOM\022\024\n\020CF" +
       "KPCEEGOOM_NONE\020\000\022\033\n\027CFKPCEEGOOM_NODE_CON" +
-      "FIG\020\001B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "FIG\020\001B2\n\031emu.grasscutter.net.protoB\025CFKP" +
+      "CEEGOOMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

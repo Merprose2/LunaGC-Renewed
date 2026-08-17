@@ -950,8 +950,8 @@ public final class CCEOPHEIFCGOuterClass {
       "core\030\001 \001(\r\022\022\n\nis_success\030\003 \001(\010\022\020\n\010level_" +
       "id\030\005 \001(\r\022\023\n\013KGGKLEBLJON\030\007 \001(\r\022\023\n\013NCHEOLM" +
       "AEAK\030\013 \001(\r\022\025\n\ris_new_record\030\014 \001(\010\022\023\n\013OKL" +
-      "IELMLPMJ\030\017 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "IELMLPMJ\030\017 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025CCEOPHEIFCGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class NMMFBBPHJDLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NMMFBBPHJDL.proto\"6\n\013NMMFBBPHJDL\022\023\n\013DI" +
-      "KAJGKLPGO\030\002 \001(\r\022\022\n\nsection_id\030\013 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "KAJGKLPGO\030\002 \001(\r\022\022\n\nsection_id\030\013 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025NMMFBBPHJDLOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

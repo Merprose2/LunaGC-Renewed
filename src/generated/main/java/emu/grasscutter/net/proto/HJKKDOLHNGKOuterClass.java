@@ -949,8 +949,8 @@ public final class HJKKDOLHNGKOuterClass {
       "CHJDHAIGD\022!\n\013JBNOEPLJIKI\030\002 \001(\0162\014.GPCHJDH" +
       "AIGD\022!\n\013GLNBLGECDGK\030\003 \001(\0162\014.GPCHJDHAIGD\022" +
       "!\n\013INKHNEFEPNL\030\004 \001(\0162\014.GPCHJDHAIGD\022\n\n\002id" +
-      "\030\005 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\005 \001(\rB2\n\031emu.grasscutter.net.protoB\025HJK" +
+      "KDOLHNGKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

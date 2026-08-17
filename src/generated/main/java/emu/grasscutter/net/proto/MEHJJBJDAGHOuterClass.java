@@ -1656,11 +1656,11 @@ public final class MEHJJBJDAGHOuterClass {
        * <code>._TierUp AJKJCFBIEBN = 3;</code>
        * @return The aJKJCFBIEBN.
        */
-      emu.grasscutter.net.proto.TierUp._TierUp getAJKJCFBIEBN();
+      emu.grasscutter.net.proto._TierUpOuterClass._TierUp getAJKJCFBIEBN();
       /**
        * <code>._TierUp AJKJCFBIEBN = 3;</code>
        */
-      emu.grasscutter.net.proto.TierUp._TierUpOrBuilder getAJKJCFBIEBNOrBuilder();
+      emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder getAJKJCFBIEBNOrBuilder();
 
       /**
        * <code>uint64 timestamp = 4;</code>
@@ -1732,11 +1732,11 @@ public final class MEHJJBJDAGHOuterClass {
                 break;
               }
               case 26: {
-                emu.grasscutter.net.proto.TierUp._TierUp.Builder subBuilder = null;
+                emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder subBuilder = null;
                 if (aJKJCFBIEBN_ != null) {
                   subBuilder = aJKJCFBIEBN_.toBuilder();
                 }
-                aJKJCFBIEBN_ = input.readMessage(emu.grasscutter.net.proto.TierUp._TierUp.parser(), extensionRegistry);
+                aJKJCFBIEBN_ = input.readMessage(emu.grasscutter.net.proto._TierUpOuterClass._TierUp.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(aJKJCFBIEBN_);
                   aJKJCFBIEBN_ = subBuilder.buildPartial();
@@ -1819,7 +1819,7 @@ public final class MEHJJBJDAGHOuterClass {
       }
 
       public static final int AJKJCFBIEBN_FIELD_NUMBER = 3;
-      private emu.grasscutter.net.proto.TierUp._TierUp aJKJCFBIEBN_;
+      private emu.grasscutter.net.proto._TierUpOuterClass._TierUp aJKJCFBIEBN_;
       /**
        * <code>._TierUp AJKJCFBIEBN = 3;</code>
        * @return Whether the aJKJCFBIEBN field is set.
@@ -1833,14 +1833,14 @@ public final class MEHJJBJDAGHOuterClass {
        * @return The aJKJCFBIEBN.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TierUp._TierUp getAJKJCFBIEBN() {
-        return aJKJCFBIEBN_ == null ? emu.grasscutter.net.proto.TierUp._TierUp.getDefaultInstance() : aJKJCFBIEBN_;
+      public emu.grasscutter.net.proto._TierUpOuterClass._TierUp getAJKJCFBIEBN() {
+        return aJKJCFBIEBN_ == null ? emu.grasscutter.net.proto._TierUpOuterClass._TierUp.getDefaultInstance() : aJKJCFBIEBN_;
       }
       /**
        * <code>._TierUp AJKJCFBIEBN = 3;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TierUp._TierUpOrBuilder getAJKJCFBIEBNOrBuilder() {
+      public emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder getAJKJCFBIEBNOrBuilder() {
         return getAJKJCFBIEBN();
       }
 
@@ -2386,9 +2386,9 @@ public final class MEHJJBJDAGHOuterClass {
           return LevelInfoBuilder_;
         }
 
-        private emu.grasscutter.net.proto.TierUp._TierUp aJKJCFBIEBN_;
+        private emu.grasscutter.net.proto._TierUpOuterClass._TierUp aJKJCFBIEBN_;
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.TierUp._TierUp, emu.grasscutter.net.proto.TierUp._TierUp.Builder, emu.grasscutter.net.proto.TierUp._TierUpOrBuilder> aJKJCFBIEBNBuilder_;
+            emu.grasscutter.net.proto._TierUpOuterClass._TierUp, emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder, emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder> aJKJCFBIEBNBuilder_;
         /**
          * <code>._TierUp AJKJCFBIEBN = 3;</code>
          * @return Whether the aJKJCFBIEBN field is set.
@@ -2400,9 +2400,9 @@ public final class MEHJJBJDAGHOuterClass {
          * <code>._TierUp AJKJCFBIEBN = 3;</code>
          * @return The aJKJCFBIEBN.
          */
-        public emu.grasscutter.net.proto.TierUp._TierUp getAJKJCFBIEBN() {
+        public emu.grasscutter.net.proto._TierUpOuterClass._TierUp getAJKJCFBIEBN() {
           if (aJKJCFBIEBNBuilder_ == null) {
-            return aJKJCFBIEBN_ == null ? emu.grasscutter.net.proto.TierUp._TierUp.getDefaultInstance() : aJKJCFBIEBN_;
+            return aJKJCFBIEBN_ == null ? emu.grasscutter.net.proto._TierUpOuterClass._TierUp.getDefaultInstance() : aJKJCFBIEBN_;
           } else {
             return aJKJCFBIEBNBuilder_.getMessage();
           }
@@ -2410,7 +2410,7 @@ public final class MEHJJBJDAGHOuterClass {
         /**
          * <code>._TierUp AJKJCFBIEBN = 3;</code>
          */
-        public Builder setAJKJCFBIEBN(emu.grasscutter.net.proto.TierUp._TierUp value) {
+        public Builder setAJKJCFBIEBN(emu.grasscutter.net.proto._TierUpOuterClass._TierUp value) {
           if (aJKJCFBIEBNBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2427,7 +2427,7 @@ public final class MEHJJBJDAGHOuterClass {
          * <code>._TierUp AJKJCFBIEBN = 3;</code>
          */
         public Builder setAJKJCFBIEBN(
-            emu.grasscutter.net.proto.TierUp._TierUp.Builder builderForValue) {
+            emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder builderForValue) {
           if (aJKJCFBIEBNBuilder_ == null) {
             aJKJCFBIEBN_ = builderForValue.build();
             onChanged();
@@ -2440,11 +2440,11 @@ public final class MEHJJBJDAGHOuterClass {
         /**
          * <code>._TierUp AJKJCFBIEBN = 3;</code>
          */
-        public Builder mergeAJKJCFBIEBN(emu.grasscutter.net.proto.TierUp._TierUp value) {
+        public Builder mergeAJKJCFBIEBN(emu.grasscutter.net.proto._TierUpOuterClass._TierUp value) {
           if (aJKJCFBIEBNBuilder_ == null) {
             if (aJKJCFBIEBN_ != null) {
               aJKJCFBIEBN_ =
-                emu.grasscutter.net.proto.TierUp._TierUp.newBuilder(aJKJCFBIEBN_).mergeFrom(value).buildPartial();
+                emu.grasscutter.net.proto._TierUpOuterClass._TierUp.newBuilder(aJKJCFBIEBN_).mergeFrom(value).buildPartial();
             } else {
               aJKJCFBIEBN_ = value;
             }
@@ -2472,7 +2472,7 @@ public final class MEHJJBJDAGHOuterClass {
         /**
          * <code>._TierUp AJKJCFBIEBN = 3;</code>
          */
-        public emu.grasscutter.net.proto.TierUp._TierUp.Builder getAJKJCFBIEBNBuilder() {
+        public emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder getAJKJCFBIEBNBuilder() {
           
           onChanged();
           return getAJKJCFBIEBNFieldBuilder().getBuilder();
@@ -2480,23 +2480,23 @@ public final class MEHJJBJDAGHOuterClass {
         /**
          * <code>._TierUp AJKJCFBIEBN = 3;</code>
          */
-        public emu.grasscutter.net.proto.TierUp._TierUpOrBuilder getAJKJCFBIEBNOrBuilder() {
+        public emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder getAJKJCFBIEBNOrBuilder() {
           if (aJKJCFBIEBNBuilder_ != null) {
             return aJKJCFBIEBNBuilder_.getMessageOrBuilder();
           } else {
             return aJKJCFBIEBN_ == null ?
-                emu.grasscutter.net.proto.TierUp._TierUp.getDefaultInstance() : aJKJCFBIEBN_;
+                emu.grasscutter.net.proto._TierUpOuterClass._TierUp.getDefaultInstance() : aJKJCFBIEBN_;
           }
         }
         /**
          * <code>._TierUp AJKJCFBIEBN = 3;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.TierUp._TierUp, emu.grasscutter.net.proto.TierUp._TierUp.Builder, emu.grasscutter.net.proto.TierUp._TierUpOrBuilder> 
+            emu.grasscutter.net.proto._TierUpOuterClass._TierUp, emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder, emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder> 
             getAJKJCFBIEBNFieldBuilder() {
           if (aJKJCFBIEBNBuilder_ == null) {
             aJKJCFBIEBNBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                emu.grasscutter.net.proto.TierUp._TierUp, emu.grasscutter.net.proto.TierUp._TierUp.Builder, emu.grasscutter.net.proto.TierUp._TierUpOrBuilder>(
+                emu.grasscutter.net.proto._TierUpOuterClass._TierUp, emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder, emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder>(
                     getAJKJCFBIEBN(),
                     getParentForChildren(),
                     isClean());
@@ -2622,11 +2622,11 @@ public final class MEHJJBJDAGHOuterClass {
        * <code>._Rank rank = 3;</code>
        * @return The rank.
        */
-      emu.grasscutter.net.proto.Rank._Rank getRank();
+      emu.grasscutter.net.proto._RankOuterClass._Rank getRank();
       /**
        * <code>._Rank rank = 3;</code>
        */
-      emu.grasscutter.net.proto.Rank._RankOrBuilder getRankOrBuilder();
+      emu.grasscutter.net.proto._RankOuterClass._RankOrBuilder getRankOrBuilder();
 
       /**
        * <code>uint64 timestamp = 4;</code>
@@ -2713,11 +2713,11 @@ public final class MEHJJBJDAGHOuterClass {
                 break;
               }
               case 26: {
-                emu.grasscutter.net.proto.Rank._Rank.Builder subBuilder = null;
+                emu.grasscutter.net.proto._RankOuterClass._Rank.Builder subBuilder = null;
                 if (rank_ != null) {
                   subBuilder = rank_.toBuilder();
                 }
-                rank_ = input.readMessage(emu.grasscutter.net.proto.Rank._Rank.parser(), extensionRegistry);
+                rank_ = input.readMessage(emu.grasscutter.net.proto._RankOuterClass._Rank.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(rank_);
                   rank_ = subBuilder.buildPartial();
@@ -2813,7 +2813,7 @@ public final class MEHJJBJDAGHOuterClass {
       }
 
       public static final int RANK_FIELD_NUMBER = 3;
-      private emu.grasscutter.net.proto.Rank._Rank rank_;
+      private emu.grasscutter.net.proto._RankOuterClass._Rank rank_;
       /**
        * <code>._Rank rank = 3;</code>
        * @return Whether the rank field is set.
@@ -2827,14 +2827,14 @@ public final class MEHJJBJDAGHOuterClass {
        * @return The rank.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Rank._Rank getRank() {
-        return rank_ == null ? emu.grasscutter.net.proto.Rank._Rank.getDefaultInstance() : rank_;
+      public emu.grasscutter.net.proto._RankOuterClass._Rank getRank() {
+        return rank_ == null ? emu.grasscutter.net.proto._RankOuterClass._Rank.getDefaultInstance() : rank_;
       }
       /**
        * <code>._Rank rank = 3;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Rank._RankOrBuilder getRankOrBuilder() {
+      public emu.grasscutter.net.proto._RankOuterClass._RankOrBuilder getRankOrBuilder() {
         return getRank();
       }
 
@@ -3436,9 +3436,9 @@ public final class MEHJJBJDAGHOuterClass {
           return LevelInfoBuilder_;
         }
 
-        private emu.grasscutter.net.proto.Rank._Rank rank_;
+        private emu.grasscutter.net.proto._RankOuterClass._Rank rank_;
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.Rank._Rank, emu.grasscutter.net.proto.Rank._Rank.Builder, emu.grasscutter.net.proto.Rank._RankOrBuilder> rankBuilder_;
+            emu.grasscutter.net.proto._RankOuterClass._Rank, emu.grasscutter.net.proto._RankOuterClass._Rank.Builder, emu.grasscutter.net.proto._RankOuterClass._RankOrBuilder> rankBuilder_;
         /**
          * <code>._Rank rank = 3;</code>
          * @return Whether the rank field is set.
@@ -3450,9 +3450,9 @@ public final class MEHJJBJDAGHOuterClass {
          * <code>._Rank rank = 3;</code>
          * @return The rank.
          */
-        public emu.grasscutter.net.proto.Rank._Rank getRank() {
+        public emu.grasscutter.net.proto._RankOuterClass._Rank getRank() {
           if (rankBuilder_ == null) {
-            return rank_ == null ? emu.grasscutter.net.proto.Rank._Rank.getDefaultInstance() : rank_;
+            return rank_ == null ? emu.grasscutter.net.proto._RankOuterClass._Rank.getDefaultInstance() : rank_;
           } else {
             return rankBuilder_.getMessage();
           }
@@ -3460,7 +3460,7 @@ public final class MEHJJBJDAGHOuterClass {
         /**
          * <code>._Rank rank = 3;</code>
          */
-        public Builder setRank(emu.grasscutter.net.proto.Rank._Rank value) {
+        public Builder setRank(emu.grasscutter.net.proto._RankOuterClass._Rank value) {
           if (rankBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3477,7 +3477,7 @@ public final class MEHJJBJDAGHOuterClass {
          * <code>._Rank rank = 3;</code>
          */
         public Builder setRank(
-            emu.grasscutter.net.proto.Rank._Rank.Builder builderForValue) {
+            emu.grasscutter.net.proto._RankOuterClass._Rank.Builder builderForValue) {
           if (rankBuilder_ == null) {
             rank_ = builderForValue.build();
             onChanged();
@@ -3490,11 +3490,11 @@ public final class MEHJJBJDAGHOuterClass {
         /**
          * <code>._Rank rank = 3;</code>
          */
-        public Builder mergeRank(emu.grasscutter.net.proto.Rank._Rank value) {
+        public Builder mergeRank(emu.grasscutter.net.proto._RankOuterClass._Rank value) {
           if (rankBuilder_ == null) {
             if (rank_ != null) {
               rank_ =
-                emu.grasscutter.net.proto.Rank._Rank.newBuilder(rank_).mergeFrom(value).buildPartial();
+                emu.grasscutter.net.proto._RankOuterClass._Rank.newBuilder(rank_).mergeFrom(value).buildPartial();
             } else {
               rank_ = value;
             }
@@ -3522,7 +3522,7 @@ public final class MEHJJBJDAGHOuterClass {
         /**
          * <code>._Rank rank = 3;</code>
          */
-        public emu.grasscutter.net.proto.Rank._Rank.Builder getRankBuilder() {
+        public emu.grasscutter.net.proto._RankOuterClass._Rank.Builder getRankBuilder() {
           
           onChanged();
           return getRankFieldBuilder().getBuilder();
@@ -3530,23 +3530,23 @@ public final class MEHJJBJDAGHOuterClass {
         /**
          * <code>._Rank rank = 3;</code>
          */
-        public emu.grasscutter.net.proto.Rank._RankOrBuilder getRankOrBuilder() {
+        public emu.grasscutter.net.proto._RankOuterClass._RankOrBuilder getRankOrBuilder() {
           if (rankBuilder_ != null) {
             return rankBuilder_.getMessageOrBuilder();
           } else {
             return rank_ == null ?
-                emu.grasscutter.net.proto.Rank._Rank.getDefaultInstance() : rank_;
+                emu.grasscutter.net.proto._RankOuterClass._Rank.getDefaultInstance() : rank_;
           }
         }
         /**
          * <code>._Rank rank = 3;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.Rank._Rank, emu.grasscutter.net.proto.Rank._Rank.Builder, emu.grasscutter.net.proto.Rank._RankOrBuilder> 
+            emu.grasscutter.net.proto._RankOuterClass._Rank, emu.grasscutter.net.proto._RankOuterClass._Rank.Builder, emu.grasscutter.net.proto._RankOuterClass._RankOrBuilder> 
             getRankFieldBuilder() {
           if (rankBuilder_ == null) {
             rankBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                emu.grasscutter.net.proto.Rank._Rank, emu.grasscutter.net.proto.Rank._Rank.Builder, emu.grasscutter.net.proto.Rank._RankOrBuilder>(
+                emu.grasscutter.net.proto._RankOuterClass._Rank, emu.grasscutter.net.proto._RankOuterClass._Rank.Builder, emu.grasscutter.net.proto._RankOuterClass._RankOrBuilder>(
                     getRank(),
                     getParentForChildren(),
                     isClean());
@@ -4494,15 +4494,15 @@ public final class MEHJJBJDAGHOuterClass {
       "evel_info\030\002 \001(\0132\030.MEHJJBJDAGH.LJPNEOHPNJ" +
       "B\022\024\n\004rank\030\003 \001(\0132\006._Rank\022\021\n\ttimestamp\030\004 \001" +
       "(\004\022-\n\013BAANGPCIGCJ\030\005 \001(\0132\030.MEHJJBJDAGH.PF" +
-      "AIOKDGLAMB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "AIOKDGLAMB2\n\031emu.grasscutter.net.protoB\025" +
+      "MEHJJBJDAGHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.FLJNOAOAJCPOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.Rank.getDescriptor(),
-          emu.grasscutter.net.proto.TierUp.getDescriptor(),
+          emu.grasscutter.net.proto._RankOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._TierUpOuterClass.getDescriptor(),
         });
     internal_static_MEHJJBJDAGH_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -4535,8 +4535,8 @@ public final class MEHJJBJDAGHOuterClass {
         internal_static_MEHJJBJDAGH_PAPMLGEOALB_descriptor,
         new java.lang.String[] { "DJAGPOEHJGI", "LevelInfo", "Rank", "Timestamp", "BAANGPCIGCJ", });
     emu.grasscutter.net.proto.FLJNOAOAJCPOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.Rank.getDescriptor();
-    emu.grasscutter.net.proto.TierUp.getDescriptor();
+    emu.grasscutter.net.proto._RankOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._TierUpOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

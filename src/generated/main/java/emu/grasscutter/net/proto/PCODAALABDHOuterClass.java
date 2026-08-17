@@ -1344,8 +1344,9 @@ public final class PCODAALABDHOuterClass {
       "\001\n\013PCODAALABDH\022\020\n\010point_id\030\001 \001(\005\022\031\n\003pos\030" +
       "\002 \001(\0132\014.HHEDHCFPEKM\022\031\n\003rot\030\003 \001(\0132\014.HHEDH" +
       "CFPEKM\022\020\n\010tag_list\030\004 \003(\005\022\024\n\013DJOAIECEBFB\030" +
-      "\365\003 \001(\t\022\024\n\013JNKFCGBNKBF\030\366\003 \001(\010B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\365\003 \001(\t\022\024\n\013JNKFCGBNKBF\030\366\003 \001(\010B2\n\031emu.gras" +
+      "scutter.net.protoB\025PCODAALABDHOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

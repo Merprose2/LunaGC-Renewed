@@ -1310,8 +1310,8 @@ public final class BBBBEEOHCLOOuterClass {
       "\022!\n\013BNMJAFFLMGC\030\004 \001(\0162\014.DOFEJGABMGJ\022\023\n\013B" +
       "JPJDPCLIOM\030\006 \001(\r\022!\n\013KKHJCHMCAMN\030\010 \001(\0132\014." +
       "JBLLEJOAEDH\022!\n\013MMMOCOGBBFC\030\t \001(\0132\014.ACGBA" +
-      "DAIMGBB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "DAIMGBB2\n\031emu.grasscutter.net.protoB\025BBB" +
+      "BEEOHCLOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

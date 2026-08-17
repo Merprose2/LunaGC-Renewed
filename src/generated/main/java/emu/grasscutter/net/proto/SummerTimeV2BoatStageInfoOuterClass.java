@@ -730,8 +730,9 @@ public final class SummerTimeV2BoatStageInfoOuterClass {
       "\n\037SummerTimeV2BoatStageInfo.proto\"e\n\031Sum" +
       "merTimeV2BoatStageInfo\022\020\n\010stage_id\030\004 \001(\r" +
       "\022\022\n\nbest_score\030\010 \001(\r\022\017\n\007is_open\030\r \001(\010\022\021\n" +
-      "\topen_time\030\016 \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\topen_time\030\016 \001(\rB@\n\031emu.grasscutter.net." +
+      "protoB#SummerTimeV2BoatStageInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

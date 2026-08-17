@@ -1165,8 +1165,8 @@ public final class DGGJAIFKICPOuterClass {
       "JAIFKICP\022\017\n\007retcode\030\002 \001(\005\022\"\n\nmusic_info\030" +
       "\003 \001(\0132\014.FOKCBOAMPJLH\000\022)\n\021lan_v_5_card_in" +
       "fo\030\004 \001(\0132\014.KJKLIEJBIHCH\000\022\032\n\010ugc_type\030\013 \001" +
-      "(\0162\010.UgcTypeB\006\n\004infoB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "(\0162\010.UgcTypeB\006\n\004infoB2\n\031emu.grasscutter." +
+      "net.protoB\025DGGJAIFKICPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

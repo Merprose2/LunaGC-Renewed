@@ -901,8 +901,9 @@ public final class HBLFCPIECPPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HBLFCPIECPP.proto\032\021BPMPGEHNIPL.proto\"B" +
       "\n\013HBLFCPIECPP\022\020\n\010scene_id\030\001 \001(\r\022!\n\013FNJKP" +
-      "ONPNEI\030\016 \003(\0132\014.BPMPGEHNIPLB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "ONPNEI\030\016 \003(\0132\014.BPMPGEHNIPLB2\n\031emu.grassc" +
+      "utter.net.protoB\025HBLFCPIECPPOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

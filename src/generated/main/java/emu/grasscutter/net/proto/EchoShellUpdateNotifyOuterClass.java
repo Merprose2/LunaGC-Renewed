@@ -525,8 +525,9 @@ public final class EchoShellUpdateNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033EchoShellUpdateNotify.proto\")\n\025EchoShe" +
-      "llUpdateNotify\022\020\n\010shell_id\030\017 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "llUpdateNotify\022\020\n\010shell_id\030\017 \001(\rB<\n\031emu." +
+      "grasscutter.net.protoB\037EchoShellUpdateNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

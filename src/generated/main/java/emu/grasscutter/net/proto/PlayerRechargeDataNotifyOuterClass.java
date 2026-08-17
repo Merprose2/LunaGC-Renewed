@@ -903,8 +903,9 @@ public final class PlayerRechargeDataNotifyOuterClass {
       "tPriceTier.proto\"p\n\030PlayerRechargeDataNo" +
       "tify\0222\n\027product_price_tier_list\030\005 \003(\0132\021." +
       "ProductPriceTier\022 \n\030card_product_remain_" +
-      "days\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "days\030\016 \001(\rB?\n\031emu.grasscutter.net.protoB" +
+      "\"PlayerRechargeDataNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

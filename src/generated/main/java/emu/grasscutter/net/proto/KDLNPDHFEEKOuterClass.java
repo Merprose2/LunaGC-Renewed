@@ -666,8 +666,8 @@ public final class KDLNPDHFEEKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KDLNPDHFEEK.proto\"C\n\013KDLNPDHFEEK\022\017\n\007re" +
       "tcode\030\005 \001(\005\022\017\n\007cell_id\030\006 \001(\r\022\022\n\ndungeon_" +
-      "id\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025K" +
+      "DLNPDHFEEKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1019,8 +1019,8 @@ public final class FungusCultivateReqOuterClass {
       "JAGAM\030\006 \001(\r\022\023\n\013NMIBAMMCAAH\030\007 \001(\r\022\014\n\004time" +
       "\030\010 \001(\r\022\023\n\013JLJJKAONPEI\030\013 \001(\r\022\024\n\014cultivate" +
       "_id\030\014 \001(\r\022\023\n\013OJKHFMMHLIN\030\016 \001(\r\022\023\n\013IPAHGM" +
-      "DADOL\030\017 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "DADOL\030\017 \001(\rB9\n\031emu.grasscutter.net.proto" +
+      "B\034FungusCultivateReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

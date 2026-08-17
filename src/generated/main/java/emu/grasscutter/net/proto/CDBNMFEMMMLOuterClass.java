@@ -831,8 +831,8 @@ public final class CDBNMFEMMMLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CDBNMFEMMML.proto\032\021GEIKMNKIHLE.proto\"0" +
       "\n\013CDBNMFEMMML\022!\n\013HNBFOLFJGLF\030\006 \003(\0132\014.GEI" +
-      "KMNKIHLEB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "KMNKIHLEB2\n\031emu.grasscutter.net.protoB\025C" +
+      "DBNMFEMMMLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

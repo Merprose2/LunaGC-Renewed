@@ -958,8 +958,9 @@ public final class FKIBIOGPPEEOuterClass {
       "\n\021FKIBIOGPPEE.proto\"\204\001\n\013FKIBIOGPPEE\022\023\n\013D" +
       "KJPGNMLLDP\030\001 \001(\t\022\023\n\013EICOILFPOFD\030\005 \001(\r\022\023\n" +
       "\013KMIBNFNCIEJ\030\006 \001(\r\022\023\n\013FBHGJCJMJPD\030\n \001(\r\022" +
-      "\014\n\004guid\030\r \001(\004\022\023\n\013CKBCDLFPHAI\030\016 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\014\n\004guid\030\r \001(\004\022\023\n\013CKBCDLFPHAI\030\016 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025FKIBIOGPPEEOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

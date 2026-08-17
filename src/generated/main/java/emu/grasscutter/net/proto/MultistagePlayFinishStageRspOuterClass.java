@@ -667,7 +667,8 @@ public final class MultistagePlayFinishStageRspOuterClass {
       "\n\"MultistagePlayFinishStageRsp.proto\"U\n\034" +
       "MultistagePlayFinishStageRsp\022\022\n\nplay_ind" +
       "ex\030\001 \001(\r\022\020\n\010group_id\030\005 \001(\r\022\017\n\007retcode\030\014 " +
-      "\001(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\005BC\n\031emu.grasscutter.net.protoB&Multis" +
+      "tagePlayFinishStageRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

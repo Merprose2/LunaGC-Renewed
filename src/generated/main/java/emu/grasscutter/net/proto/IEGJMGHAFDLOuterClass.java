@@ -1127,8 +1127,8 @@ public final class IEGJMGHAFDLOuterClass {
       "CMLFIAGBO\030\004 \001(\003\022!\n\013OBMJFJEHEDE\030\005 \001(\0162\014.B" +
       "OJCJFEMOAA\022\023\n\013total_score\030\006 \001(\004\022\023\n\013ALJFJ" +
       "EFHGAE\030\007 \001(\010\022\023\n\013IOEINGDACBI\030\010 \001(\003\022\023\n\013GAE" +
-      "JEBJEFPJ\030\t \001(\010B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "JEBJEFPJ\030\t \001(\010B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025IEGJMGHAFDLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

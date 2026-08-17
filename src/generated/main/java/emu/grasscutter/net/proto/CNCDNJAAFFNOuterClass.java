@@ -658,8 +658,9 @@ public final class CNCDNJAAFFNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CNCDNJAAFFN.proto\"5\n\013CNCDNJAAFFN\022\n\n\002id" +
-      "\030\002 \001(\005\022\014\n\004type\030\t \001(\005\022\014\n\004time\030\016 \001(\020B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\030\002 \001(\005\022\014\n\004type\030\t \001(\005\022\014\n\004time\030\016 \001(\020B2\n\031em" +
+      "u.grasscutter.net.protoB\025CNCDNJAAFFNOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

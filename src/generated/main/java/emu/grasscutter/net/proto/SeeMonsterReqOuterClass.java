@@ -525,8 +525,8 @@ public final class SeeMonsterReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\023SeeMonsterReq.proto\"#\n\rSeeMonsterReq\022\022" +
-      "\n\nmonster_id\030\001 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\n\nmonster_id\030\001 \001(\rB4\n\031emu.grasscutter.ne" +
+      "t.protoB\027SeeMonsterReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -827,8 +827,9 @@ public final class GCGDuelCompareNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032GCGDuelCompareNotify.proto\"T\n\024GCGDuelC" +
       "ompareNotify\022\023\n\013GKEPDAHNDFI\030\006 \001(\t\022\023\n\013GGK" +
-      "ILGLAODC\030\n \001(\t\022\022\n\nis_success\030\014 \001(\010B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ILGLAODC\030\n \001(\t\022\022\n\nis_success\030\014 \001(\010B;\n\031em" +
+      "u.grasscutter.net.protoB\036GCGDuelCompareN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class LLEFFPFKOOPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LLEFFPFKOOP.proto\"3\n\013LLEFFPFKOOP\022\023\n\013KO" +
-      "LNBCLMBBG\030\002 \001(\r\022\017\n\007retcode\030\r \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "LNBCLMBBG\030\002 \001(\r\022\017\n\007retcode\030\r \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025LLEFFPFKOOPOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

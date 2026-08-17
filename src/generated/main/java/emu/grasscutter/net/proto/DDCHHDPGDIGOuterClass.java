@@ -1130,8 +1130,8 @@ public final class DDCHHDPGDIGOuterClass {
       "layer_uid_list\030\001 \003(\r\022\023\n\013CBCKPIJMMAI\030\010 \003(" +
       "\r\022\022\n\n_hall_guid\030\t \001(\004\022\023\n\013MLPCHCBINFJ\030\n \001" +
       "(\r\022\023\n\013IDFPFGPEGGD\030\014 \001(\r\022\023\n\013KCBKEPGKJMF\030\016" +
-      " \001(\010B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\010B2\n\031emu.grasscutter.net.protoB\025DDCHH" +
+      "DPGDIGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

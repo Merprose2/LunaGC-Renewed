@@ -738,8 +738,8 @@ public final class PMAHFCAKLGLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PMAHFCAKLGL.proto\"K\n\013PMAHFCAKLGL\022\022\n\nmo" +
       "nster_id\030\001 \001(\r\022\023\n\013PMPOHLEIIMI\030\002 \001(\t\022\023\n\013H" +
-      "ACLEOPJIBN\030\003 \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "ACLEOPJIBN\030\003 \001(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025PMAHFCAKLGLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

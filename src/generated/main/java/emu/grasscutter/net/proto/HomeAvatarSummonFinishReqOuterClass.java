@@ -526,7 +526,8 @@ public final class HomeAvatarSummonFinishReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037HomeAvatarSummonFinishReq.proto\"-\n\031Hom" +
       "eAvatarSummonFinishReq\022\020\n\010event_id\030\010 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B@\n\031emu.grasscutter.net.protoB#HomeAvata" +
+      "rSummonFinishReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

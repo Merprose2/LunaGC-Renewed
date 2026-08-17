@@ -668,8 +668,8 @@ public final class ECJPMCMAOJGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ECJPMCMAOJG.proto\"L\n\013ECJPMCMAOJG\022\023\n\013re" +
       "minder_id\030\004 \001(\r\022\023\n\013MIIBIFOIMLE\030\007 \001(\010\022\023\n\013" +
-      "AKIPIKNAJDM\030\017 \001(\010B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "AKIPIKNAJDM\030\017 \001(\010B2\n\031emu.grasscutter.net" +
+      ".protoB\025ECJPMCMAOJGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

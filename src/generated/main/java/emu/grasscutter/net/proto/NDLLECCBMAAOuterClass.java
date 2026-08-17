@@ -595,8 +595,9 @@ public final class NDLLECCBMAAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NDLLECCBMAA.proto\"2\n\013NDLLECCBMAA\022\022\n\nch" +
-      "apter_id\030\003 \001(\r\022\017\n\007retcode\030\014 \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "apter_id\030\003 \001(\r\022\017\n\007retcode\030\014 \001(\005B2\n\031emu.g" +
+      "rasscutter.net.protoB\025NDLLECCBMAAOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1187,8 +1187,9 @@ public final class CoinCollectPlayerInfoOuterClass {
       "ayerInfo\022\027\n\017choose_skill_no\030\001 \001(\r\022\023\n\013pla" +
       "yer_name\030\003 \001(\t\022\022\n\nis_prepare\030\004 \001(\010\0224\n\020av" +
       "atar_info_list\030\006 \003(\0132\032.CoinCollectTeamAv" +
-      "atarInfo\022\022\n\nplayer_uid\030\007 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "atarInfo\022\022\n\nplayer_uid\030\007 \001(\rB<\n\031emu.gras" +
+      "scutter.net.protoB\037CoinCollectPlayerInfo" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

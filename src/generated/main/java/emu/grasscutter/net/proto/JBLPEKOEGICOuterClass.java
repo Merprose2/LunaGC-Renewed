@@ -454,8 +454,9 @@ public final class JBLPEKOEGICOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021JBLPEKOEGIC.proto\"\r\n\013JBLPEKOEGICB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021JBLPEKOEGIC.proto\"\r\n\013JBLPEKOEGICB2\n\031em" +
+      "u.grasscutter.net.protoB\025JBLPEKOEGICOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

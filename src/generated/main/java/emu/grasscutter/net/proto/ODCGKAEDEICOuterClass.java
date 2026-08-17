@@ -659,7 +659,8 @@ public final class ODCGKAEDEICOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ODCGKAEDEIC.proto\032\021MKJFFICLOBH.proto\"+" +
       "\n\013ODCGKAEDEIC\022\034\n\006option\030\017 \001(\0132\014.MKJFFICL" +
-      "OBHB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "OBHB2\n\031emu.grasscutter.net.protoB\025ODCGKA" +
+      "EDEICOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

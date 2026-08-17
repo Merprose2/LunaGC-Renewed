@@ -587,8 +587,9 @@ public final class ICELADLJBHMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ICELADLJBHM.proto\"7\n\013ICELADLJBHM\022\023\n\013JD" +
-      "NEDLFHMML\030\002 \001(\r\022\023\n\013JBEPCMGPOLJ\030\007 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "NEDLFHMML\030\002 \001(\r\022\023\n\013JBEPCMGPOLJ\030\007 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025ICELADLJBHMOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

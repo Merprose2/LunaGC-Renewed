@@ -834,8 +834,9 @@ public final class RemoveRandTaskInfoNotifyOuterClass {
       "\007is_succ\030\003 \001(\010\022\024\n\014rand_task_id\030\005 \001(\r\"t\n\014" +
       "FinishReason\022\030\n\024FinishReason_DEFAULT\020\000\022\026" +
       "\n\022FinishReason_CLEAR\020\001\022\031\n\025FinishReason_D" +
-      "ISTANCE\020\002\022\027\n\023FinishReason_FINISH\020\003B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ISTANCE\020\002\022\027\n\023FinishReason_FINISH\020\003B?\n\031em" +
+      "u.grasscutter.net.protoB\"RemoveRandTaskI" +
+      "nfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

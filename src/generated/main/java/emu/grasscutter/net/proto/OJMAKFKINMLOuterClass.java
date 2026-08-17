@@ -1022,8 +1022,9 @@ public final class OJMAKFKINMLOuterClass {
       "evel_id\030\001 \001(\r\022\025\n\ris_new_record\030\002 \001(\010\022\023\n\013" +
       "BAJNOOIMLJB\030\004 \001(\r\022\022\n\nscene_time\030\010 \001(\r\022\017\n" +
       "\007is_succ\030\t \001(\010\022\023\n\013DLCDFJAADIO\030\r \001(\010\022\021\n\tc" +
-      "ost_time\030\016 \001(\r\022\021\n\tis_single\030\017 \001(\010B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "ost_time\030\016 \001(\r\022\021\n\tis_single\030\017 \001(\010B2\n\031emu" +
+      ".grasscutter.net.protoB\025OJMAKFKINMLOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -587,8 +587,9 @@ public final class FBKOPMDIFGOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FBKOPMDIFGO.proto\"7\n\013FBKOPMDIFGO\022\023\n\013MF" +
-      "BMCHPCCBM\030\001 \001(\r\022\023\n\013PCILNBFNIPH\030\002 \001(\005B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "BMCHPCCBM\030\001 \001(\r\022\023\n\013PCILNBFNIPH\030\002 \001(\005B2\n\031" +
+      "emu.grasscutter.net.protoB\025FBKOPMDIFGOOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

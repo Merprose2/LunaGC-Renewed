@@ -704,8 +704,8 @@ public final class LJPOECMEGACOuterClass {
       "\n\021LJPOECMEGAC.proto\032\021EMDKJNHACAH.proto\"[" +
       "\n\013LJPOECMEGAC\022\031\n\021monster_config_id\030\004 \001(\r" +
       "\022\034\n\006reason\030\t \001(\0162\014.EMDKJNHACAH\022\023\n\013GFLGLO" +
-      "NCOMH\030\r \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "NCOMH\030\r \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "B\025LJPOECMEGACOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

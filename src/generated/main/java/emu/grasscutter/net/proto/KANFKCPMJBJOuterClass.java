@@ -1037,8 +1037,9 @@ public final class KANFKCPMJBJOuterClass {
       "\n\021KANFKCPMJBJ.proto\032\021IKHNFCKKIFI.proto\"o" +
       "\n\013KANFKCPMJBJ\022\023\n\013POPMBADJNHE\030\002 \001(\010\022\023\n\013HN" +
       "ICIIPDFDC\030\010 \001(\010\022!\n\013NKMNDPOMHLB\030\014 \003(\0132\014.I" +
-      "KHNFCKKIFI\022\023\n\013LHPPGGKCPKO\030\r \001(\010B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "KHNFCKKIFI\022\023\n\013LHPPGGKCPKO\030\r \001(\010B2\n\031emu.g" +
+      "rasscutter.net.protoB\025KANFKCPMJBJOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

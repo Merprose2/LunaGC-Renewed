@@ -596,7 +596,8 @@ public final class EnterWorldAreaReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027EnterWorldAreaReq.proto\"7\n\021EnterWorldA" +
       "reaReq\022\017\n\007area_id\030\001 \001(\r\022\021\n\tarea_type\030\r \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB8\n\031emu.grasscutter.net.protoB\033EnterWo" +
+      "rldAreaReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

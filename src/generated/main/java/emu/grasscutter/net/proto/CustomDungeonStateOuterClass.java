@@ -143,8 +143,9 @@ public final class CustomDungeonStateOuterClass {
       "\n\030CustomDungeonState.proto*u\n\022CustomDung" +
       "eonState\022\033\n\027CustomDungeonState_EDIT\020\000\022 \n" +
       "\034CustomDungeonState_SELF_PASS\020\001\022 \n\034Custo" +
-      "mDungeonState_PUBLISHED\020\002B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "mDungeonState_PUBLISHED\020\002B9\n\031emu.grasscu" +
+      "tter.net.protoB\034CustomDungeonStateOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

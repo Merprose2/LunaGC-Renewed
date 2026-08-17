@@ -2675,8 +2675,9 @@ public final class DNFGMEDCOMAOuterClass {
       "\014 \001(\002\022\023\n\013CCNHIPFADIB\030\r \001(\010\022\023\n\013FFINFNDDBG" +
       "A\030\016 \003(\t\022\023\n\013KCPJECEOCFB\030\017 \001(\005\022\023\n\013DENOPMIG" +
       "EAB\030\020 \001(\005\022\023\n\013GMJPPNIEBJP\030\021 \003(\005\022\023\n\013BOGGBN" +
-      "ADFGM\030\022 \003(\005\022\023\n\013LDMLJMKMLPI\030\023 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "ADFGM\030\022 \003(\005\022\023\n\013LDMLJMKMLPI\030\023 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025DNFGMEDCOMAOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

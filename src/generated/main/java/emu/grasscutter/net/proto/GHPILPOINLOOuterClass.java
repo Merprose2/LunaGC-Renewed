@@ -1352,7 +1352,8 @@ public final class GHPILPOINLOOuterClass {
       "\001(\010\022\014\n\004name\030\003 \001(\t\022!\n\013ANGDPHHBGAN\030\004 \001(\0132\014" +
       ".OCPONCPFNJD\022!\n\013IDFONPINAPH\030\005 \001(\0132\014.PCPF" +
       "OCHCPLH\022!\n\013BCIOONILOMG\030\006 \001(\0132\014.NIINGENDM" +
-      "NJB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "NJB2\n\031emu.grasscutter.net.protoB\025GHPILPO" +
+      "INLOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

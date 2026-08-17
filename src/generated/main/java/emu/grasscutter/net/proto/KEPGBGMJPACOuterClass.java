@@ -722,8 +722,9 @@ public final class KEPGBGMJPACOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KEPGBGMJPAC.proto\032\021EPNIGNAFAEM.proto\"G" +
       "\n\013KEPGBGMJPAC\022\024\n\013GMFMDMCNDAM\030\365\003 \001(\010\022\"\n\013N" +
-      "DDNDFPFLBO\030\366\003 \001(\0132\014.EPNIGNAFAEMB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "DDNDFPFLBO\030\366\003 \001(\0132\014.EPNIGNAFAEMB2\n\031emu.g" +
+      "rasscutter.net.protoB\025KEPGBGMJPACOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

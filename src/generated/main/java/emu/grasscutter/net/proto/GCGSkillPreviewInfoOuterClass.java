@@ -3140,8 +3140,8 @@ public final class GCGSkillPreviewInfoOuterClass {
       "ntry\022\013\n\003key\030\001 \001(\r\022%\n\005value\030\002 \001(\0132\026.GCGSk" +
       "illPreviewHpInfo:\0028\001\032@\n\020EELCHENAIAKEntry" +
       "\022\013\n\003key\030\001 \001(\r\022\033\n\005value\030\002 \001(\0132\014.GNDLCEOLP" +
-      "LM:\0028\001B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "LM:\0028\001B:\n\031emu.grasscutter.net.protoB\035GCG" +
+      "SkillPreviewInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

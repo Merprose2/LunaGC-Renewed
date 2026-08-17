@@ -595,8 +595,9 @@ public final class CAMJIKEODAFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CAMJIKEODAF.proto\"7\n\013CAMJIKEODAF\022\023\n\013EJ" +
-      "FJODDJFDO\030\003 \001(\r\022\023\n\013MMJJCCPKICN\030\007 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "FJODDJFDO\030\003 \001(\r\022\023\n\013MMJJCCPKICN\030\007 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025CAMJIKEODAFOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

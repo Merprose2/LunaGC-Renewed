@@ -1256,8 +1256,8 @@ public final class GOCNILKIMDOOuterClass {
       " \001(\t\022!\n\013IMBIHDBGJHK\030\003 \001(\0162\014.APIBGNMPLHD\022" +
       "!\n\013HKALMLHHMCH\030\004 \001(\0132\014.JFGFNKFDBMM\022\023\n\013EI" +
       "BHJNDPHOK\030\005 \001(\010\022!\n\013KGEKOKKHFMG\030\006 \001(\0132\014.P" +
-      "JCMEKPADPDB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "JCMEKPADPDB2\n\031emu.grasscutter.net.protoB" +
+      "\025GOCNILKIMDOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

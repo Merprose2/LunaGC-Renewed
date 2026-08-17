@@ -883,8 +883,9 @@ public final class MiracleRingDeliverItemRspOuterClass {
       "acleRingDeliverItemRsp\022\030\n\020gadget_entity_" +
       "id\030\002 \001(\r\022\021\n\tgadget_id\030\005 \001(\r\022\035\n\007op_type\030\007" +
       " \001(\0162\014.InterOpType\022$\n\rinteract_type\030\n \001(" +
-      "\0162\r.InteractType\022\017\n\007retcode\030\014 \001(\005B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\0162\r.InteractType\022\017\n\007retcode\030\014 \001(\005B@\n\031emu" +
+      ".grasscutter.net.protoB#MiracleRingDeliv" +
+      "erItemRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -902,8 +902,9 @@ public final class PJFEBILHHJJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PJFEBILHHJJ.proto\032\025SceneWeaponInfo.pro" +
       "to\"I\n\013PJFEBILHHJJ\022%\n\013KPJFLNKEFBC\030\007 \003(\0132\020" +
-      ".SceneWeaponInfo\022\023\n\013avatar_guid\030\016 \001(\004B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      ".SceneWeaponInfo\022\023\n\013avatar_guid\030\016 \001(\004B2\n" +
+      "\031emu.grasscutter.net.protoB\025PJFEBILHHJJO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

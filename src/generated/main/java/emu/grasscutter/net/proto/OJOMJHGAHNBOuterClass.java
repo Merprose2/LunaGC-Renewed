@@ -1202,8 +1202,9 @@ public final class OJOMJHGAHNBOuterClass {
       "\n\021OJOMJHGAHNB.proto\032\021HOHCIOGKOIG.proto\"f" +
       "\n\013OJOMJHGAHNB\022\n\n\002id\030\001 \001(\r\022\023\n\013NEGNIJDNACB" +
       "\030\002 \001(\t\022\023\n\013FEEFIKJNINB\030\003 \001(\t\022!\n\013LBOLPBHNG" +
-      "JJ\030\004 \003(\0132\014.HOHCIOGKOIGB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "JJ\030\004 \003(\0132\014.HOHCIOGKOIGB2\n\031emu.grasscutte" +
+      "r.net.protoB\025OJOMJHGAHNBOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

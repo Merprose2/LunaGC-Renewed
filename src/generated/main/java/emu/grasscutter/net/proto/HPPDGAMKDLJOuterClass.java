@@ -596,8 +596,9 @@ public final class HPPDGAMKDLJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HPPDGAMKDLJ.proto\"7\n\013HPPDGAMKDLJ\022\023\n\013av" +
-      "atar_guid\030\002 \001(\004\022\023\n\013AACGCBJBALF\030\014 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "atar_guid\030\002 \001(\004\022\023\n\013AACGCBJBALF\030\014 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025HPPDGAMKDLJOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

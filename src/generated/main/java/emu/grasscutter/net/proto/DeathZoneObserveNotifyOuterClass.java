@@ -596,8 +596,9 @@ public final class DeathZoneObserveNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034DeathZoneObserveNotify.proto\"L\n\026DeathZ" +
       "oneObserveNotify\022\030\n\020source_entity_id\030\004 \001" +
-      "(\r\022\030\n\020target_entity_id\030\r \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "(\r\022\030\n\020target_entity_id\030\r \001(\rB=\n\031emu.gras" +
+      "scutter.net.protoB DeathZoneObserveNotif" +
+      "yOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

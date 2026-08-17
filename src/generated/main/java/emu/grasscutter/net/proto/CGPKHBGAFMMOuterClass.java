@@ -730,8 +730,9 @@ public final class CGPKHBGAFMMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CGPKHBGAFMM.proto\"U\n\013CGPKHBGAFMM\022\021\n\tis" +
       "_finish\030\003 \001(\010\022\017\n\007is_open\030\004 \001(\010\022\020\n\010use_ti" +
-      "me\030\005 \001(\r\022\020\n\010level_id\030\006 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "me\030\005 \001(\r\022\020\n\010level_id\030\006 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025CGPKHBGAFMMOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

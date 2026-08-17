@@ -669,8 +669,8 @@ public final class EBKECFJMDEPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EBKECFJMDEP.proto\"N\n\013EBKECFJMDEP\022\023\n\013MD" +
       "CMFMHLNDK\030\004 \001(\004\022\022\n\n_hall_guid\030\006 \001(\004\022\026\n\016_" +
-      "hall_passcode\030\007 \001(\004B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "hall_passcode\030\007 \001(\004B2\n\031emu.grasscutter.n" +
+      "et.protoB\025EBKECFJMDEPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

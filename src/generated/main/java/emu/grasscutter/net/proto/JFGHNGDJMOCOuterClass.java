@@ -210,8 +210,9 @@ public final class JFGHNGDJMOCOuterClass {
       "\n\022JFGHNGDJMOC_CALN_1\020\005\022\033\n\027JFGHNGDJMOC_BR" +
       "ANCH_BOOL\020\006\022\026\n\022JFGHNGDJMOC_BRANCH\020\007\022 \n\034J" +
       "FGHNGDJMOC_WITH_EXTRA_PARAM\020\010\022\'\n#JFGHNGD" +
-      "JMOC_EVENT_WITH_FLEXIBLE_PIN\020\tB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "JMOC_EVENT_WITH_FLEXIBLE_PIN\020\tB2\n\031emu.gr" +
+      "asscutter.net.protoB\025JFGHNGDJMOCOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

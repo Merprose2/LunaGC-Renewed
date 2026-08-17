@@ -668,7 +668,8 @@ public final class ScenePlayGuestReplyInviteRspOuterClass {
       "\n\"ScenePlayGuestReplyInviteRsp.proto\"R\n\034" +
       "ScenePlayGuestReplyInviteRsp\022\017\n\007play_id\030" +
       "\004 \001(\r\022\017\n\007retcode\030\007 \001(\005\022\020\n\010is_agree\030\r \001(\010" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "BC\n\031emu.grasscutter.net.protoB&ScenePlay" +
+      "GuestReplyInviteRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

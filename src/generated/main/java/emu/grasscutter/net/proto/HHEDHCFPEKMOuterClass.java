@@ -663,8 +663,9 @@ public final class HHEDHCFPEKMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HHEDHCFPEKM.proto\".\n\013HHEDHCFPEKM\022\t\n\001x\030" +
-      "\001 \001(\002\022\t\n\001y\030\002 \001(\002\022\t\n\001z\030\003 \001(\002B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\001 \001(\002\022\t\n\001y\030\002 \001(\002\022\t\n\001z\030\003 \001(\002B2\n\031emu.grass" +
+      "cutter.net.protoB\025HHEDHCFPEKMOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

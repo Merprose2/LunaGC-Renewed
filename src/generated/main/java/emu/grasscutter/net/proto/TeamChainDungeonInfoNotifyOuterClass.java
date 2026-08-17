@@ -723,8 +723,9 @@ public final class TeamChainDungeonInfoNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n TeamChainDungeonInfoNotify.proto\"E\n\032Te" +
       "amChainDungeonInfoNotify\022\020\n\010stage_id\030\r \001" +
-      "(\r\022\025\n\rskill_no_list\030\016 \003(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "(\r\022\025\n\rskill_no_list\030\016 \003(\rBA\n\031emu.grasscu" +
+      "tter.net.protoB$TeamChainDungeonInfoNoti" +
+      "fyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

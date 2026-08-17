@@ -793,8 +793,9 @@ public final class GetShopmallDataRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030GetShopmallDataRsp.proto\"L\n\022GetShopmal" +
       "lDataRsp\022\r\n\005param\030\006 \001(\r\022\017\n\007retcode\030\010 \001(\005" +
-      "\022\026\n\016shop_type_list\030\r \003(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\022\026\n\016shop_type_list\030\r \003(\rB9\n\031emu.grasscut" +
+      "ter.net.protoB\034GetShopmallDataRspOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

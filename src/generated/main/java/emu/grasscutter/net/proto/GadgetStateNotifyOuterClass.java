@@ -668,7 +668,8 @@ public final class GadgetStateNotifyOuterClass {
       "\n\027GadgetStateNotify.proto\"_\n\021GadgetState" +
       "Notify\022\030\n\020gadget_entity_id\030\003 \001(\r\022\032\n\022is_e" +
       "nable_interact\030\004 \001(\010\022\024\n\014gadget_state\030\016 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB8\n\031emu.grasscutter.net.protoB\033GadgetS" +
+      "tateNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

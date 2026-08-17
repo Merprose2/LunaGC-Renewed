@@ -258,8 +258,9 @@ public final class MGCADLOKMLPOuterClass {
       "P_PUZZLE_FIGHTER_COUNTER_BRICK_QUEUE_CHA" +
       "NGE\020\013\0222\n.MGCADLOKMLP_PUZZLE_FIGHTER_COUN" +
       "TER_BARRIER_DEF\020\014\0225\n1MGCADLOKMLP_PUZZLE_" +
-      "FIGHTER_COUNTER_PREVIEW_SUB_HP\020\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "FIGHTER_COUNTER_PREVIEW_SUB_HP\020\rB2\n\031emu." +
+      "grasscutter.net.protoB\025MGCADLOKMLPOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

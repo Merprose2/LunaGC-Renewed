@@ -675,8 +675,8 @@ public final class DBNPFKCFFDIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DBNPFKCFFDI.proto\"\"\n\013DBNPFKCFFDI\022\023\n\013ps" +
-      "n_id_list\030\n \003(\tB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "n_id_list\030\n \003(\tB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025DBNPFKCFFDIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

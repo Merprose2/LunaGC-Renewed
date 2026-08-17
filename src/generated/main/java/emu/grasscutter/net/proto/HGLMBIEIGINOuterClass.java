@@ -1036,8 +1036,9 @@ public final class HGLMBIEIGINOuterClass {
       "\n\021HGLMBIEIGIN.proto\032\021ICELADLJBHM.proto\"h" +
       "\n\013HGLMBIEIGIN\022\023\n\013is_finished\030\014 \001(\010\022!\n\013GB" +
       "PNNKAHOEM\030\r \003(\0132\014.ICELADLJBHM\022\017\n\007is_open" +
-      "\030\016 \001(\010\022\020\n\010stage_id\030\017 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\030\016 \001(\010\022\020\n\010stage_id\030\017 \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025HGLMBIEIGINOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

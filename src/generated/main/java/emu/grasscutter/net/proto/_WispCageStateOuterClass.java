@@ -20,40 +20,40 @@ public final class _WispCageStateOuterClass {
   public enum _WispCageState
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>WISP_CAGE_STATE_NOT_EXIST = 0;</code>
+     * <code>_WispCageState_WISP_CAGE_STATE_NOT_EXIST = 0;</code>
      */
-    WISP_CAGE_STATE_NOT_EXIST(0),
+    _WispCageState_WISP_CAGE_STATE_NOT_EXIST(0),
     /**
-     * <code>WISP_CAGE_STATE_CREATED = 1;</code>
+     * <code>_WispCageState_WISP_CAGE_STATE_CREATED = 1;</code>
      */
-    WISP_CAGE_STATE_CREATED(1),
+    _WispCageState_WISP_CAGE_STATE_CREATED(1),
     /**
-     * <code>WISP_CAGE_STATE_MATERIAL_DELIVERED = 2;</code>
+     * <code>_WispCageState_WISP_CAGE_STATE_MATERIAL_DELIVERED = 2;</code>
      */
-    WISP_CAGE_STATE_MATERIAL_DELIVERED(2),
+    _WispCageState_WISP_CAGE_STATE_MATERIAL_DELIVERED(2),
     /**
-     * <code>WISP_CAGE_STATE_NOT_TAKE_REWARD = 3;</code>
+     * <code>_WispCageState_WISP_CAGE_STATE_NOT_TAKE_REWARD = 3;</code>
      */
-    WISP_CAGE_STATE_NOT_TAKE_REWARD(3),
+    _WispCageState_WISP_CAGE_STATE_NOT_TAKE_REWARD(3),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>WISP_CAGE_STATE_NOT_EXIST = 0;</code>
+     * <code>_WispCageState_WISP_CAGE_STATE_NOT_EXIST = 0;</code>
      */
-    public static final int WISP_CAGE_STATE_NOT_EXIST_VALUE = 0;
+    public static final int _WispCageState_WISP_CAGE_STATE_NOT_EXIST_VALUE = 0;
     /**
-     * <code>WISP_CAGE_STATE_CREATED = 1;</code>
+     * <code>_WispCageState_WISP_CAGE_STATE_CREATED = 1;</code>
      */
-    public static final int WISP_CAGE_STATE_CREATED_VALUE = 1;
+    public static final int _WispCageState_WISP_CAGE_STATE_CREATED_VALUE = 1;
     /**
-     * <code>WISP_CAGE_STATE_MATERIAL_DELIVERED = 2;</code>
+     * <code>_WispCageState_WISP_CAGE_STATE_MATERIAL_DELIVERED = 2;</code>
      */
-    public static final int WISP_CAGE_STATE_MATERIAL_DELIVERED_VALUE = 2;
+    public static final int _WispCageState_WISP_CAGE_STATE_MATERIAL_DELIVERED_VALUE = 2;
     /**
-     * <code>WISP_CAGE_STATE_NOT_TAKE_REWARD = 3;</code>
+     * <code>_WispCageState_WISP_CAGE_STATE_NOT_TAKE_REWARD = 3;</code>
      */
-    public static final int WISP_CAGE_STATE_NOT_TAKE_REWARD_VALUE = 3;
+    public static final int _WispCageState_WISP_CAGE_STATE_NOT_TAKE_REWARD_VALUE = 3;
 
 
     public final int getNumber() {
@@ -80,10 +80,10 @@ public final class _WispCageStateOuterClass {
      */
     public static _WispCageState forNumber(int value) {
       switch (value) {
-        case 0: return WISP_CAGE_STATE_NOT_EXIST;
-        case 1: return WISP_CAGE_STATE_CREATED;
-        case 2: return WISP_CAGE_STATE_MATERIAL_DELIVERED;
-        case 3: return WISP_CAGE_STATE_NOT_TAKE_REWARD;
+        case 0: return _WispCageState_WISP_CAGE_STATE_NOT_EXIST;
+        case 1: return _WispCageState_WISP_CAGE_STATE_CREATED;
+        case 2: return _WispCageState_WISP_CAGE_STATE_MATERIAL_DELIVERED;
+        case 3: return _WispCageState_WISP_CAGE_STATE_NOT_TAKE_REWARD;
         default: return null;
       }
     }
@@ -149,13 +149,14 @@ public final class _WispCageStateOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\024_WispCageState.proto*\231\001\n\016_WispCageStat" +
-      "e\022\035\n\031WISP_CAGE_STATE_NOT_EXIST\020\000\022\033\n\027WISP" +
-      "_CAGE_STATE_CREATED\020\001\022&\n\"WISP_CAGE_STATE" +
-      "_MATERIAL_DELIVERED\020\002\022#\n\037WISP_CAGE_STATE" +
-      "_NOT_TAKE_REWARD\020\003B5\n\031emu.grasscutter.ne" +
-      "t.protoB\030_WispCageStateOuterClassb\006proto" +
-      "3"
+      "\n\024_WispCageState.proto*\325\001\n\016_WispCageStat" +
+      "e\022,\n(_WispCageState_WISP_CAGE_STATE_NOT_" +
+      "EXIST\020\000\022*\n&_WispCageState_WISP_CAGE_STAT" +
+      "E_CREATED\020\001\0225\n1_WispCageState_WISP_CAGE_" +
+      "STATE_MATERIAL_DELIVERED\020\002\0222\n._WispCageS" +
+      "tate_WISP_CAGE_STATE_NOT_TAKE_REWARD\020\003B5" +
+      "\n\031emu.grasscutter.net.protoB\030_WispCageSt" +
+      "ateOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

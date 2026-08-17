@@ -44,11 +44,11 @@ public final class EMILDEDDHLMOuterClass {
      * <code>._CurrentPhase current_phase = 651;</code>
      * @return The currentPhase.
      */
-    emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getCurrentPhase();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getCurrentPhase();
     /**
      * <code>._CurrentPhase current_phase = 651;</code>
      */
-    emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getCurrentPhaseOrBuilder();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getCurrentPhaseOrBuilder();
 
     /**
      * <code>._TacticReturnToBornPosInfo tactic_return_to_born_pos_info = 1337;</code>
@@ -59,11 +59,11 @@ public final class EMILDEDDHLMOuterClass {
      * <code>._TacticReturnToBornPosInfo tactic_return_to_born_pos_info = 1337;</code>
      * @return The tacticReturnToBornPosInfo.
      */
-    emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo getTacticReturnToBornPosInfo();
+    emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo getTacticReturnToBornPosInfo();
     /**
      * <code>._TacticReturnToBornPosInfo tactic_return_to_born_pos_info = 1337;</code>
      */
-    emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfoOrBuilder getTacticReturnToBornPosInfoOrBuilder();
+    emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfoOrBuilder getTacticReturnToBornPosInfoOrBuilder();
 
     /**
      * <code>.NPFNMNICBDL skill_cd_info = 1423;</code>
@@ -168,28 +168,28 @@ public final class EMILDEDDHLMOuterClass {
               break;
             }
             case 5210: {
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder subBuilder = null;
               if (mEHDJGNOLHECase_ == 651) {
-                subBuilder = ((emu.grasscutter.net.proto.CurrentPhase._CurrentPhase) mEHDJGNOLHE_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase) mEHDJGNOLHE_).toBuilder();
               }
               mEHDJGNOLHE_ =
-                  input.readMessage(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.CurrentPhase._CurrentPhase) mEHDJGNOLHE_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase) mEHDJGNOLHE_);
                 mEHDJGNOLHE_ = subBuilder.buildPartial();
               }
               mEHDJGNOLHECase_ = 651;
               break;
             }
             case 10698: {
-              emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.Builder subBuilder = null;
               if (mEHDJGNOLHECase_ == 1337) {
-                subBuilder = ((emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo) mEHDJGNOLHE_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo) mEHDJGNOLHE_).toBuilder();
               }
               mEHDJGNOLHE_ =
-                  input.readMessage(emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo) mEHDJGNOLHE_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo) mEHDJGNOLHE_);
                 mEHDJGNOLHE_ = subBuilder.buildPartial();
               }
               mEHDJGNOLHECase_ = 1337;
@@ -355,21 +355,21 @@ public final class EMILDEDDHLMOuterClass {
      * @return The currentPhase.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getCurrentPhase() {
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getCurrentPhase() {
       if (mEHDJGNOLHECase_ == 651) {
-         return (emu.grasscutter.net.proto.CurrentPhase._CurrentPhase) mEHDJGNOLHE_;
+         return (emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase) mEHDJGNOLHE_;
       }
-      return emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance();
+      return emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance();
     }
     /**
      * <code>._CurrentPhase current_phase = 651;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getCurrentPhaseOrBuilder() {
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getCurrentPhaseOrBuilder() {
       if (mEHDJGNOLHECase_ == 651) {
-         return (emu.grasscutter.net.proto.CurrentPhase._CurrentPhase) mEHDJGNOLHE_;
+         return (emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase) mEHDJGNOLHE_;
       }
-      return emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance();
+      return emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance();
     }
 
     public static final int TACTIC_RETURN_TO_BORN_POS_INFO_FIELD_NUMBER = 1337;
@@ -386,21 +386,21 @@ public final class EMILDEDDHLMOuterClass {
      * @return The tacticReturnToBornPosInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo getTacticReturnToBornPosInfo() {
+    public emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo getTacticReturnToBornPosInfo() {
       if (mEHDJGNOLHECase_ == 1337) {
-         return (emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo) mEHDJGNOLHE_;
+         return (emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo) mEHDJGNOLHE_;
       }
-      return emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.getDefaultInstance();
     }
     /**
      * <code>._TacticReturnToBornPosInfo tactic_return_to_born_pos_info = 1337;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfoOrBuilder getTacticReturnToBornPosInfoOrBuilder() {
+    public emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfoOrBuilder getTacticReturnToBornPosInfoOrBuilder() {
       if (mEHDJGNOLHECase_ == 1337) {
-         return (emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo) mEHDJGNOLHE_;
+         return (emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo) mEHDJGNOLHE_;
       }
-      return emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.getDefaultInstance();
     }
 
     public static final int SKILL_CD_INFO_FIELD_NUMBER = 1423;
@@ -508,10 +508,10 @@ public final class EMILDEDDHLMOuterClass {
             306, (float)((java.lang.Float) mEHDJGNOLHE_));
       }
       if (mEHDJGNOLHECase_ == 651) {
-        output.writeMessage(651, (emu.grasscutter.net.proto.CurrentPhase._CurrentPhase) mEHDJGNOLHE_);
+        output.writeMessage(651, (emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase) mEHDJGNOLHE_);
       }
       if (mEHDJGNOLHECase_ == 1337) {
-        output.writeMessage(1337, (emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo) mEHDJGNOLHE_);
+        output.writeMessage(1337, (emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo) mEHDJGNOLHE_);
       }
       if (mEHDJGNOLHECase_ == 1423) {
         output.writeMessage(1423, (emu.grasscutter.net.proto.NPFNMNICBDLOuterClass.NPFNMNICBDL) mEHDJGNOLHE_);
@@ -543,11 +543,11 @@ public final class EMILDEDDHLMOuterClass {
       }
       if (mEHDJGNOLHECase_ == 651) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(651, (emu.grasscutter.net.proto.CurrentPhase._CurrentPhase) mEHDJGNOLHE_);
+          .computeMessageSize(651, (emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase) mEHDJGNOLHE_);
       }
       if (mEHDJGNOLHECase_ == 1337) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1337, (emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo) mEHDJGNOLHE_);
+          .computeMessageSize(1337, (emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo) mEHDJGNOLHE_);
       }
       if (mEHDJGNOLHECase_ == 1423) {
         size += com.google.protobuf.CodedOutputStream
@@ -1051,7 +1051,7 @@ public final class EMILDEDDHLMOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> currentPhaseBuilder_;
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> currentPhaseBuilder_;
       /**
        * <code>._CurrentPhase current_phase = 651;</code>
        * @return Whether the currentPhase field is set.
@@ -1065,23 +1065,23 @@ public final class EMILDEDDHLMOuterClass {
        * @return The currentPhase.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getCurrentPhase() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getCurrentPhase() {
         if (currentPhaseBuilder_ == null) {
           if (mEHDJGNOLHECase_ == 651) {
-            return (emu.grasscutter.net.proto.CurrentPhase._CurrentPhase) mEHDJGNOLHE_;
+            return (emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase) mEHDJGNOLHE_;
           }
-          return emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance();
+          return emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance();
         } else {
           if (mEHDJGNOLHECase_ == 651) {
             return currentPhaseBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance();
+          return emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance();
         }
       }
       /**
        * <code>._CurrentPhase current_phase = 651;</code>
        */
-      public Builder setCurrentPhase(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+      public Builder setCurrentPhase(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (currentPhaseBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1098,7 +1098,7 @@ public final class EMILDEDDHLMOuterClass {
        * <code>._CurrentPhase current_phase = 651;</code>
        */
       public Builder setCurrentPhase(
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder builderForValue) {
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder builderForValue) {
         if (currentPhaseBuilder_ == null) {
           mEHDJGNOLHE_ = builderForValue.build();
           onChanged();
@@ -1111,11 +1111,11 @@ public final class EMILDEDDHLMOuterClass {
       /**
        * <code>._CurrentPhase current_phase = 651;</code>
        */
-      public Builder mergeCurrentPhase(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+      public Builder mergeCurrentPhase(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (currentPhaseBuilder_ == null) {
           if (mEHDJGNOLHECase_ == 651 &&
-              mEHDJGNOLHE_ != emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance()) {
-            mEHDJGNOLHE_ = emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.newBuilder((emu.grasscutter.net.proto.CurrentPhase._CurrentPhase) mEHDJGNOLHE_)
+              mEHDJGNOLHE_ != emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance()) {
+            mEHDJGNOLHE_ = emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.newBuilder((emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase) mEHDJGNOLHE_)
                 .mergeFrom(value).buildPartial();
           } else {
             mEHDJGNOLHE_ = value;
@@ -1152,36 +1152,36 @@ public final class EMILDEDDHLMOuterClass {
       /**
        * <code>._CurrentPhase current_phase = 651;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder getCurrentPhaseBuilder() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder getCurrentPhaseBuilder() {
         return getCurrentPhaseFieldBuilder().getBuilder();
       }
       /**
        * <code>._CurrentPhase current_phase = 651;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getCurrentPhaseOrBuilder() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getCurrentPhaseOrBuilder() {
         if ((mEHDJGNOLHECase_ == 651) && (currentPhaseBuilder_ != null)) {
           return currentPhaseBuilder_.getMessageOrBuilder();
         } else {
           if (mEHDJGNOLHECase_ == 651) {
-            return (emu.grasscutter.net.proto.CurrentPhase._CurrentPhase) mEHDJGNOLHE_;
+            return (emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase) mEHDJGNOLHE_;
           }
-          return emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance();
+          return emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance();
         }
       }
       /**
        * <code>._CurrentPhase current_phase = 651;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> 
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
           getCurrentPhaseFieldBuilder() {
         if (currentPhaseBuilder_ == null) {
           if (!(mEHDJGNOLHECase_ == 651)) {
-            mEHDJGNOLHE_ = emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance();
+            mEHDJGNOLHE_ = emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance();
           }
           currentPhaseBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder>(
-                  (emu.grasscutter.net.proto.CurrentPhase._CurrentPhase) mEHDJGNOLHE_,
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder>(
+                  (emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase) mEHDJGNOLHE_,
                   getParentForChildren(),
                   isClean());
           mEHDJGNOLHE_ = null;
@@ -1192,7 +1192,7 @@ public final class EMILDEDDHLMOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo, emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.Builder, emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfoOrBuilder> tacticReturnToBornPosInfoBuilder_;
+          emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo, emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.Builder, emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfoOrBuilder> tacticReturnToBornPosInfoBuilder_;
       /**
        * <code>._TacticReturnToBornPosInfo tactic_return_to_born_pos_info = 1337;</code>
        * @return Whether the tacticReturnToBornPosInfo field is set.
@@ -1206,23 +1206,23 @@ public final class EMILDEDDHLMOuterClass {
        * @return The tacticReturnToBornPosInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo getTacticReturnToBornPosInfo() {
+      public emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo getTacticReturnToBornPosInfo() {
         if (tacticReturnToBornPosInfoBuilder_ == null) {
           if (mEHDJGNOLHECase_ == 1337) {
-            return (emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo) mEHDJGNOLHE_;
+            return (emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo) mEHDJGNOLHE_;
           }
-          return emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.getDefaultInstance();
         } else {
           if (mEHDJGNOLHECase_ == 1337) {
             return tacticReturnToBornPosInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._TacticReturnToBornPosInfo tactic_return_to_born_pos_info = 1337;</code>
        */
-      public Builder setTacticReturnToBornPosInfo(emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo value) {
+      public Builder setTacticReturnToBornPosInfo(emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo value) {
         if (tacticReturnToBornPosInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1239,7 +1239,7 @@ public final class EMILDEDDHLMOuterClass {
        * <code>._TacticReturnToBornPosInfo tactic_return_to_born_pos_info = 1337;</code>
        */
       public Builder setTacticReturnToBornPosInfo(
-          emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.Builder builderForValue) {
         if (tacticReturnToBornPosInfoBuilder_ == null) {
           mEHDJGNOLHE_ = builderForValue.build();
           onChanged();
@@ -1252,11 +1252,11 @@ public final class EMILDEDDHLMOuterClass {
       /**
        * <code>._TacticReturnToBornPosInfo tactic_return_to_born_pos_info = 1337;</code>
        */
-      public Builder mergeTacticReturnToBornPosInfo(emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo value) {
+      public Builder mergeTacticReturnToBornPosInfo(emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo value) {
         if (tacticReturnToBornPosInfoBuilder_ == null) {
           if (mEHDJGNOLHECase_ == 1337 &&
-              mEHDJGNOLHE_ != emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.getDefaultInstance()) {
-            mEHDJGNOLHE_ = emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.newBuilder((emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo) mEHDJGNOLHE_)
+              mEHDJGNOLHE_ != emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.getDefaultInstance()) {
+            mEHDJGNOLHE_ = emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.newBuilder((emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo) mEHDJGNOLHE_)
                 .mergeFrom(value).buildPartial();
           } else {
             mEHDJGNOLHE_ = value;
@@ -1293,36 +1293,36 @@ public final class EMILDEDDHLMOuterClass {
       /**
        * <code>._TacticReturnToBornPosInfo tactic_return_to_born_pos_info = 1337;</code>
        */
-      public emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.Builder getTacticReturnToBornPosInfoBuilder() {
+      public emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.Builder getTacticReturnToBornPosInfoBuilder() {
         return getTacticReturnToBornPosInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._TacticReturnToBornPosInfo tactic_return_to_born_pos_info = 1337;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfoOrBuilder getTacticReturnToBornPosInfoOrBuilder() {
+      public emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfoOrBuilder getTacticReturnToBornPosInfoOrBuilder() {
         if ((mEHDJGNOLHECase_ == 1337) && (tacticReturnToBornPosInfoBuilder_ != null)) {
           return tacticReturnToBornPosInfoBuilder_.getMessageOrBuilder();
         } else {
           if (mEHDJGNOLHECase_ == 1337) {
-            return (emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo) mEHDJGNOLHE_;
+            return (emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo) mEHDJGNOLHE_;
           }
-          return emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._TacticReturnToBornPosInfo tactic_return_to_born_pos_info = 1337;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo, emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.Builder, emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfoOrBuilder> 
+          emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo, emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.Builder, emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfoOrBuilder> 
           getTacticReturnToBornPosInfoFieldBuilder() {
         if (tacticReturnToBornPosInfoBuilder_ == null) {
           if (!(mEHDJGNOLHECase_ == 1337)) {
-            mEHDJGNOLHE_ = emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.getDefaultInstance();
+            mEHDJGNOLHE_ = emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.getDefaultInstance();
           }
           tacticReturnToBornPosInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo, emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.Builder, emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo) mEHDJGNOLHE_,
+              emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo, emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.Builder, emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo) mEHDJGNOLHE_,
                   getParentForChildren(),
                   isClean());
           mEHDJGNOLHE_ = null;
@@ -1731,14 +1731,15 @@ public final class EMILDEDDHLMOuterClass {
       "o\030\217\013 \001(\0132\014.NPFNMNICBDLH\000\022 \n\025current_base" +
       "_param_id\030\235\017 \001(\rH\000\022,\n\023skill_group_cd_inf" +
       "o\030\242\017 \001(\0132\014.NPFNMNICBDLH\000B\r\n\013MEHDJGNOLHEB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025EMILDEDDHL" +
+      "MOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.NPFNMNICBDLOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.CurrentPhase.getDescriptor(),
-          emu.grasscutter.net.proto.TacticReturnToBornPosInfo.getDescriptor(),
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass.getDescriptor(),
         });
     internal_static_EMILDEDDHLM_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1747,8 +1748,8 @@ public final class EMILDEDDHLMOuterClass {
         internal_static_EMILDEDDHLM_descriptor,
         new java.lang.String[] { "EntityId", "SkillGcd", "CurrentPhase", "TacticReturnToBornPosInfo", "SkillCdInfo", "CurrentBaseParamId", "SkillGroupCdInfo", "MEHDJGNOLHE", });
     emu.grasscutter.net.proto.NPFNMNICBDLOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.CurrentPhase.getDescriptor();
-    emu.grasscutter.net.proto.TacticReturnToBornPosInfo.getDescriptor();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

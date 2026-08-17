@@ -826,8 +826,9 @@ public final class FriendInfoChangeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034FriendInfoChangeNotify.proto\"P\n\026Friend" +
       "InfoChangeNotify\022\026\n\016_xbox_gamertag\030\006 \001(\t" +
-      "\022\021\n\tonline_id\030\t \001(\t\022\013\n\003uid\030\017 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\022\021\n\tonline_id\030\t \001(\t\022\013\n\003uid\030\017 \001(\rB=\n\031emu." +
+      "grasscutter.net.protoB FriendInfoChangeN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

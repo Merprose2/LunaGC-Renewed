@@ -596,8 +596,9 @@ public final class GHDKEOIDFOPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GHDKEOIDFOP.proto\"7\n\013GHDKEOIDFOP\022\023\n\013BB" +
-      "DONEMEEHA\030\003 \001(\010\022\023\n\013LIGGJOPGIHJ\030\t \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "DONEMEEHA\030\003 \001(\010\022\023\n\013LIGGJOPGIHJ\030\t \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025GHDKEOIDFOPOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

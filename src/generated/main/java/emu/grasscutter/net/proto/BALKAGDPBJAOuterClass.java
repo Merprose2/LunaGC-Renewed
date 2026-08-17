@@ -454,8 +454,9 @@ public final class BALKAGDPBJAOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021BALKAGDPBJA.proto\"\r\n\013BALKAGDPBJAB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021BALKAGDPBJA.proto\"\r\n\013BALKAGDPBJAB2\n\031em" +
+      "u.grasscutter.net.protoB\025BALKAGDPBJAOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

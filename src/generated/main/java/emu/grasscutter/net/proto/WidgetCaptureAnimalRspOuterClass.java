@@ -870,8 +870,9 @@ public final class WidgetCaptureAnimalRspOuterClass {
       "\n\034WidgetCaptureAnimalRsp.proto\032\014Vector.p" +
       "roto\"g\n\026WidgetCaptureAnimalRsp\022\023\n\013materi" +
       "al_id\030\002 \001(\r\022\024\n\003pos\030\004 \001(\0132\007.Vector\022\021\n\tent" +
-      "ity_id\030\t \001(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ity_id\030\t \001(\r\022\017\n\007retcode\030\016 \001(\005B=\n\031emu.gra" +
+      "sscutter.net.protoB WidgetCaptureAnimalR" +
+      "spOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

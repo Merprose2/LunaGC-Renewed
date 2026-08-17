@@ -1731,8 +1731,9 @@ public final class EMCKHPDCPEAOuterClass {
       "roperty_string\030\r \001(\0132\014.FJLKMNOIEAGH\000\022*\n\022" +
       "equip_affix_string\030\016 \001(\0132\014.CKBADBOOKBBH\000" +
       "\022\024\n\013KNBJAIBAGKE\030\365\003 \001(\005\022\024\n\013DGIDBNLEHKA\030\366\003" +
-      " \001(\t\022\024\n\013start_index\030\367\003 \001(\005B\010\n\006detailB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      " \001(\t\022\024\n\013start_index\030\367\003 \001(\005B\010\n\006detailB2\n\031" +
+      "emu.grasscutter.net.protoB\025EMCKHPDCPEAOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1405,8 +1405,8 @@ public final class JOBINLKHIKNOuterClass {
       "\030\002 \001(\0132\014.ANKANENEAMH\022!\n\013LMCLCCCKEPF\030\003 \001(" +
       "\0132\014.MKPAENPBDLP\022\023\n\013EILALEDMFAG\030\004 \001(\r\022\023\n\013" +
       "OHBGNHAAMIB\030\005 \001(\005\022!\n\013GNHHGHMGNJO\030\013 \001(\0132\014" +
-      ".FHMLKMHCPBDB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      ".FHMLKMHCPBDB2\n\031emu.grasscutter.net.prot" +
+      "oB\025JOBINLKHIKNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

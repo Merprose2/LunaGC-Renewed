@@ -933,8 +933,8 @@ public final class KDDJIDIIBBEOuterClass {
       "\n\021KDDJIDIIBBE.proto\032\014Vector.proto\"]\n\013KDD" +
       "JIDIIBBE\022\034\n\013CCIKGIPEBBP\030\005 \001(\0132\007.Vector\022\022" +
       "\n\ngallery_id\030\010 \001(\r\022\034\n\013LAJALFGCMDA\030\017 \001(\0132" +
-      "\007.VectorB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "\007.VectorB2\n\031emu.grasscutter.net.protoB\025K" +
+      "DDJIDIIBBEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

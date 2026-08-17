@@ -730,8 +730,9 @@ public final class LHHJKKAHACLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LHHJKKAHACL.proto\"a\n\013LHHJKKAHACL\022\023\n\013CK" +
       "KPHKJNBEP\030\001 \001(\010\022\023\n\013PPFKBNMOIOO\030\002 \001(\r\022\023\n\013" +
-      "GJCEFBDMMNP\030\003 \001(\r\022\023\n\013FKEFKEIJOJA\030\004 \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "GJCEFBDMMNP\030\003 \001(\r\022\023\n\013FKEFKEIJOJA\030\004 \001(\010B2" +
+      "\n\031emu.grasscutter.net.protoB\025LHHJKKAHACL" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

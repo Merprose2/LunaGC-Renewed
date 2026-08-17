@@ -794,8 +794,8 @@ public final class LHOBLEHEMLBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LHOBLEHEMLB.proto\"J\n\013LHOBLEHEMLB\022\020\n\010dr" +
       "aft_id\030\001 \001(\r\022\023\n\013KGLONNADNCH\030\002 \003(\r\022\024\n\014is_" +
-      "all_argee\030\010 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "all_argee\030\010 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025LHOBLEHEMLBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

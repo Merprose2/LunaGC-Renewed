@@ -446,8 +446,9 @@ public final class NOAIMKJHPDFOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021NOAIMKJHPDF.proto\"\r\n\013NOAIMKJHPDFB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021NOAIMKJHPDF.proto\"\r\n\013NOAIMKJHPDFB2\n\031em" +
+      "u.grasscutter.net.protoB\025NOAIMKJHPDFOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -786,8 +786,9 @@ public final class HomeScenePointFishFarmingInfoOuterClass {
       "\n#HomeScenePointFishFarmingInfo.proto\"`\n" +
       "\035HomeScenePointFishFarmingInfo\022\020\n\010scene_" +
       "id\030\010 \001(\r\022\024\n\014fish_id_list\030\013 \003(\r\022\027\n\017local_" +
-      "entity_id\030\014 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "entity_id\030\014 \001(\rBD\n\031emu.grasscutter.net.p" +
+      "rotoB\'HomeScenePointFishFarmingInfoOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

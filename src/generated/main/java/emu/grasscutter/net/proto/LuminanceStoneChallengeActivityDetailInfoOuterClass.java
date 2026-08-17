@@ -733,7 +733,9 @@ public final class LuminanceStoneChallengeActivityDetailInfoOuterClass {
       "ivityDetailInfo\022\031\n\021is_content_closed\030\001 \001" +
       "(\010\022\022\n\nbest_score\030\006 \001(\r\022!\n\031is_final_galle" +
       "ry_complete\030\n \001(\010\022\030\n\020current_stage_id\030\017 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rBP\n\031emu.grasscutter.net.protoB3Lumina" +
+      "nceStoneChallengeActivityDetailInfoOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

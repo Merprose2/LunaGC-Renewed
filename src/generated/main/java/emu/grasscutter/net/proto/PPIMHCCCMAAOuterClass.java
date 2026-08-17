@@ -526,8 +526,8 @@ public final class PPIMHCCCMAAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PPIMHCCCMAA.proto\"\"\n\013PPIMHCCCMAA\022\023\n\013NN" +
-      "LEPHINEFH\030\n \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "LEPHINEFH\030\n \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025PPIMHCCCMAAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -668,7 +668,8 @@ public final class ClientSetGameTimeReqOuterClass {
       "\n\032ClientSetGameTimeReq.proto\"Y\n\024ClientSe" +
       "tGameTimeReq\022\021\n\tgame_time\030\005 \001(\r\022\030\n\020clien" +
       "t_game_time\030\014 \001(\r\022\024\n\014is_force_set\030\017 \001(\010B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      ";\n\031emu.grasscutter.net.protoB\036ClientSetG" +
+      "ameTimeReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

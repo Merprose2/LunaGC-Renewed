@@ -1173,7 +1173,8 @@ public final class JNJJPNOCBKHOuterClass {
       "\013CPOOIPHDKEM\030\003 \001(\t\022\023\n\013LNBOBNINCCA\030\004 \001(\010\022" +
       "\023\n\013entity_type\030\005 \001(\r\022\023\n\013KNBBIJHJAOO\030\006 \001(" +
       "\010\022\023\n\013IHBLHPCBNJD\030\007 \001(\r\022\023\n\013LGLODDOCJAB\030\010 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025JNJJPN" +
+      "OCBKHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

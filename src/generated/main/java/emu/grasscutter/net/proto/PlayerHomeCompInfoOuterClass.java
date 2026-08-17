@@ -1141,8 +1141,9 @@ public final class PlayerHomeCompInfoOuterClass {
       "\n\027unlocked_module_id_list\030\001 \003(\r\022\033\n\023seen_" +
       "module_id_list\030\003 \003(\r\0228\n\030friend_enter_hom" +
       "e_option\030\t \001(\0162\026.FriendEnterHomeOption\022%" +
-      "\n\035levelup_reward_got_level_list\030\r \003(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\n\035levelup_reward_got_level_list\030\r \003(\rB9\n" +
+      "\031emu.grasscutter.net.protoB\034PlayerHomeCo" +
+      "mpInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

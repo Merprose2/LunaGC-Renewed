@@ -927,8 +927,8 @@ public final class DHAFIBCLLAAOuterClass {
       "MJNAAGIOJHP.proto\"k\n\013DHAFIBCLLAA\022\014\n\004guid" +
       "\030\001 \001(\r\022!\n\013FIAJFODDOEP\030\002 \001(\0162\014.MJNAAGIOJH" +
       "P\022!\n\tmap_image\030d \001(\0132\014.JJADHOBLANOH\000B\010\n\006" +
-      "detailB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "detailB2\n\031emu.grasscutter.net.protoB\025DHA" +
+      "FIBCLLAAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

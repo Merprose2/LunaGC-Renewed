@@ -730,8 +730,9 @@ public final class ODHFHKLJNGBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ODHFHKLJNGB.proto\"R\n\013ODHFHKLJNGB\022\r\n\005sc" +
       "ore\030\004 \001(\r\022\017\n\007is_open\030\010 \001(\010\022\020\n\010level_id\030\n" +
-      " \001(\r\022\021\n\tis_finish\030\016 \001(\010B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      " \001(\r\022\021\n\tis_finish\030\016 \001(\010B2\n\031emu.grasscutt" +
+      "er.net.protoB\025ODHFHKLJNGBOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

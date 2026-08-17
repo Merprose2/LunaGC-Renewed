@@ -661,8 +661,9 @@ public final class FungusFighterRuntimeDataNotifyOuterClass {
       "FungusTrainingProgressDetail.proto\"X\n\036Fu" +
       "ngusFighterRuntimeDataNotify\0226\n\017progress" +
       "_detail\030\010 \001(\0132\035.FungusTrainingProgressDe" +
-      "tailB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "tailBE\n\031emu.grasscutter.net.protoB(Fungu" +
+      "sFighterRuntimeDataNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

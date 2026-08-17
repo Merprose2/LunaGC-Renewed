@@ -152,8 +152,9 @@ public final class NDBFGPCBIKFOuterClass {
       "\n\021NDBFGPCBIKF.proto*\201\001\n\013NDBFGPCBIKF\022\024\n\020N" +
       "DBFGPCBIKF_NONE\020\000\022\034\n\030NDBFGPCBIKF_SERVER_" +
       "PARAM\020\001\022\032\n\026NDBFGPCBIKF_FROG_PARAM\020\002\022\"\n\036N" +
-      "DBFGPCBIKF_GENERAL_VALUE_TYPE\020\003B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "DBFGPCBIKF_GENERAL_VALUE_TYPE\020\003B2\n\031emu.g" +
+      "rasscutter.net.protoB\025NDBFGPCBIKFOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

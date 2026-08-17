@@ -784,8 +784,9 @@ public final class GadgetChainLevelUpdateNotifyOuterClass {
       "chain_level_map\030\002 \003(\01326.GadgetChainLevel" +
       "UpdateNotify.GadgetChainLevelMapEntry\032:\n" +
       "\030GadgetChainLevelMapEntry\022\013\n\003key\030\001 \001(\r\022\r" +
-      "\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\n\005value\030\002 \001(\r:\0028\001BC\n\031emu.grasscutter.net" +
+      ".protoB&GadgetChainLevelUpdateNotifyOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

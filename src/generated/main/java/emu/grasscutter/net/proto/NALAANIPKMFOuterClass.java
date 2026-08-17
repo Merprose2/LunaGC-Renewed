@@ -2110,8 +2110,9 @@ public final class NALAANIPKMFOuterClass {
       "LDLHHEHNCLC\022\024\n\014dungeon_guid\030\t \001(\004\022\023\n\013IHB" +
       "EJKPPILB\030\n \001(\r\022\017\n\007retcode\030\013 \001(\005\022!\n\013EGMPB" +
       "IBHOGC\030\016 \001(\0132\014.APPNLDHBAMM\022!\n\013CJFHOLOBJA" +
-      "I\030\017 \001(\0132\014.KEMLHICOHFLB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "I\030\017 \001(\0132\014.KEMLHICOHFLB2\n\031emu.grasscutter" +
+      ".net.protoB\025NALAANIPKMFOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

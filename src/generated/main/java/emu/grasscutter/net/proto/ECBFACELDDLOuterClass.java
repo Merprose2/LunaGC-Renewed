@@ -525,8 +525,8 @@ public final class ECBFACELDDLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ECBFACELDDL.proto\"!\n\013ECBFACELDDL\022\022\n\ndu" +
-      "ngeon_id\030\r \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "ngeon_id\030\r \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025ECBFACELDDLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

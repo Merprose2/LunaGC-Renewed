@@ -1137,7 +1137,8 @@ public final class HomeFurnitureDataOuterClass {
       "e_index\030\003 \001(\005\022\032\n\tspawn_pos\030\005 \001(\0132\007.Vecto" +
       "r\022\017\n\007version\030\010 \001(\r\022\032\n\tspawn_rot\030\n \001(\0132\007." +
       "Vector\022\014\n\004guid\030\013 \001(\r\022\024\n\014furniture_id\030\014 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB8\n\031emu.grasscutter.net.protoB\033HomeFur" +
+      "nitureDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

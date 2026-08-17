@@ -1027,8 +1027,9 @@ public final class OLOCOOKGEDIOuterClass {
       "\n\021OLOCOOKGEDI.proto\032\021IKHNFCKKIFI.proto\032\021" +
       "LNMMEOONNJJ.proto\"S\n\013OLOCOOKGEDI\022!\n\013LICC" +
       "JGPGOHF\030\001 \001(\0132\014.IKHNFCKKIFI\022!\n\013PDLCHDABC" +
-      "PI\030\002 \003(\0132\014.LNMMEOONNJJB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "PI\030\002 \003(\0132\014.LNMMEOONNJJB2\n\031emu.grasscutte" +
+      "r.net.protoB\025OLOCOOKGEDIOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

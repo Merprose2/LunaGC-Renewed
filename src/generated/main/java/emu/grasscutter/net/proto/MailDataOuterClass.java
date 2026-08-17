@@ -1849,8 +1849,8 @@ public final class MailDataOuterClass {
       " \001(\r\022\017\n\007is_read\030\013 \001(\010\022\031\n\021is_attachment_g" +
       "ot\030\014 \001(\010\022\021\n\tconfig_id\030\r \001(\r\022\025\n\rargument_" +
       "list\030\016 \003(\t\022(\n\rcollect_state\030\017 \001(\0162\021.Mail" +
-      "CollectStateB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "CollectStateB/\n\031emu.grasscutter.net.prot" +
+      "oB\022MailDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

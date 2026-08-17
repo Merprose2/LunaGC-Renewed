@@ -794,8 +794,8 @@ public final class HECAKOBBJJLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HECAKOBBJJL.proto\"I\n\013HECAKOBBJJL\022\020\n\010le" +
       "vel_id\030\001 \001(\r\022\023\n\013FHINHGGMCEI\030\005 \003(\r\022\023\n\013_is" +
-      "_restart\030\013 \001(\010B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "_restart\030\013 \001(\010B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025HECAKOBBJJLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

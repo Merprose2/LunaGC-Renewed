@@ -667,8 +667,8 @@ public final class OGKFBPMPHPOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OGKFBPMPHPO.proto\"D\n\013OGKFBPMPHPO\022\021\n\tgu" +
       "est_uid\030\003 \001(\r\022\020\n\010is_agree\030\005 \001(\010\022\020\n\010draft" +
-      "_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\016 \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "OGKFBPMPHPOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

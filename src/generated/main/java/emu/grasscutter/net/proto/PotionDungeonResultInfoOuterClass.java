@@ -870,8 +870,9 @@ public final class PotionDungeonResultInfoOuterClass {
       "onDungeonResultInfo\022\017\n\007mode_id\030\001 \001(\r\022\020\n\010" +
       "stage_id\030\003 \001(\r\022\020\n\010level_id\030\005 \001(\r\022\021\n\tleft" +
       "_time\030\006 \001(\r\022\030\n\020difficulty_level\030\013 \001(\r\022\023\n" +
-      "\013final_score\030\016 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\013final_score\030\016 \001(\rB>\n\031emu.grasscutter.ne" +
+      "t.protoB!PotionDungeonResultInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

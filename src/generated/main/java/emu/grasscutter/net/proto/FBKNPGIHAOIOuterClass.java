@@ -1042,8 +1042,9 @@ public final class FBKNPGIHAOIOuterClass {
       "\n\021FBKNPGIHAOI.proto\032\017ItemParam.proto\"i\n\013" +
       "FBKNPGIHAOI\022\017\n\007retcode\030\002 \001(\005\022\023\n\013BKFBKMBM" +
       "HKE\030\007 \001(\r\022\023\n\013FEAKMPJFGJA\030\n \001(\r\022\037\n\013FMPBJH" +
-      "FDCKD\030\014 \003(\0132\n.ItemParamB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "FDCKD\030\014 \003(\0132\n.ItemParamB2\n\031emu.grasscutt" +
+      "er.net.protoB\025FBKNPGIHAOIOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

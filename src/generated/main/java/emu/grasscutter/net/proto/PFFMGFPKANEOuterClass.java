@@ -1315,8 +1315,8 @@ public final class PFFMGFPKANEOuterClass {
       "\t\022\021\n\tonline_id\030\t \001(\t\022\023\n\013HLDCINAFEAJ\030\n \001(" +
       "\r\022(\n\017profile_picture\030\013 \001(\0132\017.ProfilePict" +
       "ure\022\023\n\013NDJCMBBPOKH\030\014 \001(\010\022\020\n\010nickname\030\r \001" +
-      "(\t\022\013\n\003uid\030\016 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "(\t\022\013\n\003uid\030\016 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025PFFMGFPKANEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -730,8 +730,9 @@ public final class ANLGBIKALMFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ANLGBIKALMF.proto\"Y\n\013ANLGBIKALMF\022\022\n\nbe" +
       "st_score\030\002 \001(\r\022\017\n\007is_open\030\007 \001(\010\022\020\n\010stage" +
-      "_id\030\013 \001(\r\022\023\n\013CAMOAJLMJIO\030\016 \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "_id\030\013 \001(\r\022\023\n\013CAMOAJLMJIO\030\016 \001(\010B2\n\031emu.gr" +
+      "asscutter.net.protoB\025ANLGBIKALMFOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

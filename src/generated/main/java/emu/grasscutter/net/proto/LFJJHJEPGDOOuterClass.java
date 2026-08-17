@@ -1196,8 +1196,9 @@ public final class LFJJHJEPGDOOuterClass {
       "MBLBHFGKCJH.proto\"~\n\013LFJJHJEPGDO\022\023\n\013KEMH" +
       "BGGIKCD\030\001 \001(\r\022\034\n\006status\030\002 \001(\0162\014.MBLBHFGK" +
       "CJH\022\'\n\021watcher_info_list\030\003 \003(\0132\014.HNNHHLP" +
-      "GPCL\022\023\n\013DGKKEGPIKDG\030\004 \003(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "GPCL\022\023\n\013DGKKEGPIKDG\030\004 \003(\rB2\n\031emu.grasscu" +
+      "tter.net.protoB\025LFJJHJEPGDOOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

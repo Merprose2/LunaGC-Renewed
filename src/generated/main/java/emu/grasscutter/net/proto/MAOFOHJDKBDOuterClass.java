@@ -1261,7 +1261,8 @@ public final class MAOFOHJDKBDOuterClass {
       "M\022!\n\013GFICKCDIOOI\030\003 \001(\0162\014.EAAILINPPNL\022\023\n\013" +
       "HMFHCPIKGCO\030\004 \001(\t\022\023\n\013NGEDGDGBAID\030\005 \001(\014\022\022" +
       "\n\nrequest_id\030\006 \001(\t\022\023\n\013HLNPBHOEMMD\030\007 \001(\tB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025MAOFOHJDKB" +
+      "DOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

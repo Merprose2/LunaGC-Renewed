@@ -446,8 +446,9 @@ public final class JJFICMIODECOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021JJFICMIODEC.proto\"\r\n\013JJFICMIODECB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021JJFICMIODEC.proto\"\r\n\013JJFICMIODECB2\n\031em" +
+      "u.grasscutter.net.protoB\025JJFICMIODECOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

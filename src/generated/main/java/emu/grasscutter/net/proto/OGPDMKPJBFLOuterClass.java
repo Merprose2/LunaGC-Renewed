@@ -823,8 +823,8 @@ public final class OGPDMKPJBFLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OGPDMKPJBFL.proto\032\021KEDEOHMNOGI.proto\"0" +
       "\n\013OGPDMKPJBFL\022!\n\013NLAJCAGJNKK\030\001 \003(\0132\014.KED" +
-      "EOHMNOGIB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "EOHMNOGIB2\n\031emu.grasscutter.net.protoB\025O" +
+      "GPDMKPJBFLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

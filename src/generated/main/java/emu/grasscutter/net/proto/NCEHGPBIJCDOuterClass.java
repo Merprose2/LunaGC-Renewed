@@ -658,8 +658,8 @@ public final class NCEHGPBIJCDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NCEHGPBIJCD.proto\"F\n\013NCEHGPBIJCD\022\023\n\013OA" +
       "IJCJLMFOL\030\001 \001(\r\022\023\n\013EACLMOMHDBC\030\002 \001(\r\022\r\n\005" +
-      "count\030\013 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "count\030\013 \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "B\025NCEHGPBIJCDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -135,8 +135,9 @@ public final class NDIIIOEAPEFOuterClass {
       "DIIIOEAPEF_E_BEYOND_ASSISTANT_EDITOR_REP" +
       "AIR_ON_IMPORT_TYPE_NONE\020\000\022K\nGNDIIIOEAPEF" +
       "_E_BEYOND_ASSISTANT_EDITOR_REPAIR_ON_IMP" +
-      "ORT_TYPE_BEYOND_GUID\020\001B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "ORT_TYPE_BEYOND_GUID\020\001B2\n\031emu.grasscutte" +
+      "r.net.protoB\025NDIIIOEAPEFOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

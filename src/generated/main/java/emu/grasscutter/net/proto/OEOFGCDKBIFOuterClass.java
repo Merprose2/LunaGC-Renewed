@@ -1005,7 +1005,8 @@ public final class OEOFGCDKBIFOuterClass {
       "IF\022/\n\020combination_info\030\003 \001(\0132\025.CustomGad" +
       "getTreeInfo\022\021\n\tentity_id\030\004 \001(\r\022!\n\013OEAEGB" +
       "JKABB\030\013 \001(\0132\014.EFOMAGMPFLD\022\020\n\010level_id\030\r " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025OEOFGC" +
+      "DKBIFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

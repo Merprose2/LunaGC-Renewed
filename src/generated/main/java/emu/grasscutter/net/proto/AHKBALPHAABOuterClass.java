@@ -714,8 +714,9 @@ public final class AHKBALPHAABOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AHKBALPHAAB.proto\"1\n\013AHKBALPHAAB\022\r\n\005co" +
-      "unt\030\001 \001(\r\022\023\n\013FEFKMIBCKAN\030\003 \003(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "unt\030\001 \001(\r\022\023\n\013FEFKMIBCKAN\030\003 \003(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025AHKBALPHAABOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

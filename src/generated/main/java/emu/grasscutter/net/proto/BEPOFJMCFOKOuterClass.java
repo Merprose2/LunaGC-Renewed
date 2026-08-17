@@ -669,8 +669,8 @@ public final class BEPOFJMCFOKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BEPOFJMCFOK.proto\"I\n\013BEPOFJMCFOK\022\023\n\013BO" +
       "JNPHONGMP\030\001 \001(\004\022\020\n\010is_agree\030\003 \001(\010\022\023\n\013JCF" +
-      "PEEIKJCH\030\005 \001(\010B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "PEEIKJCH\030\005 \001(\010B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025BEPOFJMCFOKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

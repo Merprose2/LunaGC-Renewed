@@ -870,8 +870,9 @@ public final class ItemRenameAvatarRspOuterClass {
       "\n\031ItemRenameAvatarRsp.proto\032\021LMBGMBBNOAB" +
       ".proto\"m\n\023ItemRenameAvatarRsp\022\017\n\007retcode" +
       "\030\003 \001(\005\022\017\n\007cd_time\030\010 \001(\r\022\021\n\trename_id\030\013 \001" +
-      "(\r\022!\n\013FIIBFKMPKFF\030\017 \001(\0132\014.LMBGMBBNOABB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "(\r\022!\n\013FIIBFKMPKFF\030\017 \001(\0132\014.LMBGMBBNOABB:\n" +
+      "\031emu.grasscutter.net.protoB\035ItemRenameAv" +
+      "atarRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

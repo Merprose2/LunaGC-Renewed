@@ -166,8 +166,8 @@ public final class BMOGINICGCOOuterClass {
       "ICK\020\002\022<\n8BMOGINICGCO_DUNGEON_TEAM_BUILDE" +
       "R_PLAYER_LEAVE_DISCONNECT\020\003\022<\n8BMOGINICG" +
       "CO_DUNGEON_TEAM_BUILDER_PLAYER_LEAVE_JUM" +
-      "P_SCENE\020\004B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "P_SCENE\020\004B2\n\031emu.grasscutter.net.protoB\025" +
+      "BMOGINICGCOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

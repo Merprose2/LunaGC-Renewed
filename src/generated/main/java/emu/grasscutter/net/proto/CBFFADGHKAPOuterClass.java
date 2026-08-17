@@ -1020,8 +1020,9 @@ public final class CBFFADGHKAPOuterClass {
       "LGADHMCFGI\030\001 \001(\r\022\021\n\tleft_time\030\002 \001(\r\022\023\n\013P" +
       "EOAILOOEKH\030\003 \001(\r\022\r\n\005score\030\006 \001(\r\022\022\n\nis_su" +
       "ccess\030\010 \001(\010\022\025\n\ris_new_record\030\013 \001(\010\022\020\n\010gr" +
-      "oup_id\030\014 \001(\r\022\023\n\013collect_num\030\017 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "oup_id\030\014 \001(\r\022\023\n\013collect_num\030\017 \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025CBFFADGHKAPOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

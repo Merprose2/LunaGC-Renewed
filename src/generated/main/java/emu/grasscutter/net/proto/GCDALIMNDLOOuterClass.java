@@ -1119,8 +1119,9 @@ public final class GCDALIMNDLOOuterClass {
       "NFLAOIFBHOB.proto\"~\n\013GCDALIMNDLO\022\023\n\013FIAJ" +
       "FODDOEP\030\001 \001(\005\022\023\n\013NLLJJDMBACE\030\002 \001(\r\022\035\n\005tr" +
       "ack\030\013 \001(\0132\014.FNFHFOKJADKH\000\022\034\n\004clip\030\014 \001(\0132" +
-      "\014.NFLAOIFBHOBH\000B\010\n\006detailB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\014.NFLAOIFBHOBH\000B\010\n\006detailB2\n\031emu.grasscu" +
+      "tter.net.protoB\025GCDALIMNDLOOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

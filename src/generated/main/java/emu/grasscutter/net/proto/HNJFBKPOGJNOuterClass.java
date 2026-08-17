@@ -831,7 +831,8 @@ public final class HNJFBKPOGJNOuterClass {
       "NEOIEHOPMDG.proto\"h\n\013HNJFBKPOGJN\022\023\n\013EJDP" +
       "AFNHBNH\030\001 \001(\010\022!\n\013NHGKKKAOKMN\030\002 \001(\0162\014.AEL" +
       "IBNHFODD\022!\n\013KMHDEPEJFKJ\030\003 \001(\0132\014.NEOIEHOP" +
-      "MDGB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "MDGB2\n\031emu.grasscutter.net.protoB\025HNJFBK" +
+      "POGJNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

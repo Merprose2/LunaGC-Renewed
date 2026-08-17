@@ -956,8 +956,8 @@ public final class GIJPDDHDDCPOuterClass {
       "\n\021GIJPDDHDDCP.proto\"v\n\013GIJPDDHDDCP\022\023\n\013HC" +
       "GEFDPIDNL\030\001 \001(\002\022\023\n\013POHCABGNBMF\030\002 \003(\t\022\023\n\013" +
       "CFGBCKJPPDI\030\003 \001(\010\022\023\n\013OGGGHNOPDOP\030\005 \001(\002\022\023" +
-      "\n\013CBALCICJCMF\030\006 \001(\002B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013CBALCICJCMF\030\006 \001(\002B2\n\031emu.grasscutter.n" +
+      "et.protoB\025GIJPDDHDDCPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

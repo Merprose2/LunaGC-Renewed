@@ -652,8 +652,9 @@ public final class GPGEPEKIDIHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GPGEPEKIDIH.proto\"/\n\013GPGEPEKIDIH\022 \n\030_s" +
-      "elected_card_guid_list\030\t \003(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "elected_card_guid_list\030\t \003(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025GPGEPEKIDIHOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

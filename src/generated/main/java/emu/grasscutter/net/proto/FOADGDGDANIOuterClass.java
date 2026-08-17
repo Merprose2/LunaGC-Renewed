@@ -713,8 +713,9 @@ public final class FOADGDGDANIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FOADGDGDANI.proto\032\021DJNKPMBLOIP.proto\"D" +
       "\n\013FOADGDGDANI\022\022\n\nshare_code\030\005 \001(\t\022!\n\013OGN" +
-      "OKBGNHIG\030\014 \001(\0162\014.DJNKPMBLOIPB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "OKBGNHIG\030\014 \001(\0162\014.DJNKPMBLOIPB2\n\031emu.gras" +
+      "scutter.net.protoB\025FOADGDGDANIOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -667,8 +667,9 @@ public final class TakeFurnitureMakeReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032TakeFurnitureMakeReq.proto\"N\n\024TakeFurn" +
       "itureMakeReq\022\017\n\007make_id\030\005 \001(\r\022\026\n\016is_fast" +
-      "_finish\030\007 \001(\010\022\r\n\005index\030\n \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "_finish\030\007 \001(\010\022\r\n\005index\030\n \001(\rB;\n\031emu.gras" +
+      "scutter.net.protoB\036TakeFurnitureMakeReqO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

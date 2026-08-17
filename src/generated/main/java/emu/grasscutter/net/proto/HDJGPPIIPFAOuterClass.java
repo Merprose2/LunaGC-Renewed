@@ -831,8 +831,8 @@ public final class HDJGPPIIPFAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HDJGPPIIPFA.proto\032\021FKCPAPIHKOK.proto\"0" +
       "\n\013HDJGPPIIPFA\022!\n\013KGFDBDOFOMB\030\r \003(\0132\014.FKC" +
-      "PAPIHKOKB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "PAPIHKOKB2\n\031emu.grasscutter.net.protoB\025H" +
+      "DJGPPIIPFAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

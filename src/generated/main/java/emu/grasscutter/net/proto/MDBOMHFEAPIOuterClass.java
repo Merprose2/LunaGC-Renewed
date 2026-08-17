@@ -596,8 +596,9 @@ public final class MDBOMHFEAPIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MDBOMHFEAPI.proto\"6\n\013MDBOMHFEAPI\022\023\n\013HD" +
-      "FBGAIHHBG\030\001 \001(\010\022\022\n\ntarget_uid\030\002 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "FBGAIHHBG\030\001 \001(\010\022\022\n\ntarget_uid\030\002 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025MDBOMHFEAPIOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -799,8 +799,8 @@ public final class DIGNDBKNIFEOuterClass {
       "\n\021DIGNDBKNIFE.proto\"v\n\013DIGNDBKNIFE\022\023\n\013MB" +
       "BBNDCAIOM\030\001 \001(\005\022\023\n\013MELHLFICKME\030\002 \001(\005\022\023\n\013" +
       "ILNNAFCGBOL\030\003 \001(\005\022\023\n\013LFHOFLFHKNN\030\004 \001(\005\022\023" +
-      "\n\013HJDMBHGDGAL\030\005 \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013HJDMBHGDGAL\030\005 \001(\005B2\n\031emu.grasscutter.n" +
+      "et.protoB\025DIGNDBKNIFEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

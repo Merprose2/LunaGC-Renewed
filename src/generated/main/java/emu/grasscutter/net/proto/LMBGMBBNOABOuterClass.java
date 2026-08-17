@@ -587,8 +587,9 @@ public final class LMBGMBBNOABOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LMBGMBBNOAB.proto\"3\n\013LMBGMBBNOAB\022\023\n\013JP" +
-      "JJFDGJDGD\030\001 \001(\r\022\017\n\007cd_time\030\002 \001(\007B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "JJFDGJDGD\030\001 \001(\r\022\017\n\007cd_time\030\002 \001(\007B2\n\031emu." +
+      "grasscutter.net.protoB\025LMBGMBBNOABOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -44,11 +44,11 @@ public final class BDJCONOGMNDOuterClass {
      * <code>._PinName pin_name = 2;</code>
      * @return The pinName.
      */
-    emu.grasscutter.net.proto.PinName._PinName getPinName();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinName getPinName();
     /**
      * <code>._PinName pin_name = 2;</code>
      */
-    emu.grasscutter.net.proto.PinName._PinNameOrBuilder getPinNameOrBuilder();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getPinNameOrBuilder();
 
     public emu.grasscutter.net.proto.BDJCONOGMNDOuterClass.BDJCONOGMND.ContentCase getContentCase();
   }
@@ -104,14 +104,14 @@ public final class BDJCONOGMNDOuterClass {
               break;
             }
             case 18: {
-              emu.grasscutter.net.proto.PinName._PinName.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder subBuilder = null;
               if (contentCase_ == 2) {
-                subBuilder = ((emu.grasscutter.net.proto.PinName._PinName) content_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._PinNameOuterClass._PinName) content_).toBuilder();
               }
               content_ =
-                  input.readMessage(emu.grasscutter.net.proto.PinName._PinName.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._PinNameOuterClass._PinName.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.PinName._PinName) content_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._PinNameOuterClass._PinName) content_);
                 content_ = subBuilder.buildPartial();
               }
               contentCase_ = 2;
@@ -256,21 +256,21 @@ public final class BDJCONOGMNDOuterClass {
      * @return The pinName.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinName getPinName() {
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinName getPinName() {
       if (contentCase_ == 2) {
-         return (emu.grasscutter.net.proto.PinName._PinName) content_;
+         return (emu.grasscutter.net.proto._PinNameOuterClass._PinName) content_;
       }
-      return emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance();
+      return emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance();
     }
     /**
      * <code>._PinName pin_name = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getPinNameOrBuilder() {
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getPinNameOrBuilder() {
       if (contentCase_ == 2) {
-         return (emu.grasscutter.net.proto.PinName._PinName) content_;
+         return (emu.grasscutter.net.proto._PinNameOuterClass._PinName) content_;
       }
-      return emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance();
+      return emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -291,7 +291,7 @@ public final class BDJCONOGMNDOuterClass {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1, content_);
       }
       if (contentCase_ == 2) {
-        output.writeMessage(2, (emu.grasscutter.net.proto.PinName._PinName) content_);
+        output.writeMessage(2, (emu.grasscutter.net.proto._PinNameOuterClass._PinName) content_);
       }
       unknownFields.writeTo(output);
     }
@@ -307,7 +307,7 @@ public final class BDJCONOGMNDOuterClass {
       }
       if (contentCase_ == 2) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, (emu.grasscutter.net.proto.PinName._PinName) content_);
+          .computeMessageSize(2, (emu.grasscutter.net.proto._PinNameOuterClass._PinName) content_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -737,7 +737,7 @@ public final class BDJCONOGMNDOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> pinNameBuilder_;
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> pinNameBuilder_;
       /**
        * <code>._PinName pin_name = 2;</code>
        * @return Whether the pinName field is set.
@@ -751,23 +751,23 @@ public final class BDJCONOGMNDOuterClass {
        * @return The pinName.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PinName._PinName getPinName() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName getPinName() {
         if (pinNameBuilder_ == null) {
           if (contentCase_ == 2) {
-            return (emu.grasscutter.net.proto.PinName._PinName) content_;
+            return (emu.grasscutter.net.proto._PinNameOuterClass._PinName) content_;
           }
-          return emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance();
+          return emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance();
         } else {
           if (contentCase_ == 2) {
             return pinNameBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance();
+          return emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance();
         }
       }
       /**
        * <code>._PinName pin_name = 2;</code>
        */
-      public Builder setPinName(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder setPinName(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (pinNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -784,7 +784,7 @@ public final class BDJCONOGMNDOuterClass {
        * <code>._PinName pin_name = 2;</code>
        */
       public Builder setPinName(
-          emu.grasscutter.net.proto.PinName._PinName.Builder builderForValue) {
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder builderForValue) {
         if (pinNameBuilder_ == null) {
           content_ = builderForValue.build();
           onChanged();
@@ -797,11 +797,11 @@ public final class BDJCONOGMNDOuterClass {
       /**
        * <code>._PinName pin_name = 2;</code>
        */
-      public Builder mergePinName(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder mergePinName(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (pinNameBuilder_ == null) {
           if (contentCase_ == 2 &&
-              content_ != emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance()) {
-            content_ = emu.grasscutter.net.proto.PinName._PinName.newBuilder((emu.grasscutter.net.proto.PinName._PinName) content_)
+              content_ != emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance()) {
+            content_ = emu.grasscutter.net.proto._PinNameOuterClass._PinName.newBuilder((emu.grasscutter.net.proto._PinNameOuterClass._PinName) content_)
                 .mergeFrom(value).buildPartial();
           } else {
             content_ = value;
@@ -838,36 +838,36 @@ public final class BDJCONOGMNDOuterClass {
       /**
        * <code>._PinName pin_name = 2;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinName.Builder getPinNameBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder getPinNameBuilder() {
         return getPinNameFieldBuilder().getBuilder();
       }
       /**
        * <code>._PinName pin_name = 2;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getPinNameOrBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getPinNameOrBuilder() {
         if ((contentCase_ == 2) && (pinNameBuilder_ != null)) {
           return pinNameBuilder_.getMessageOrBuilder();
         } else {
           if (contentCase_ == 2) {
-            return (emu.grasscutter.net.proto.PinName._PinName) content_;
+            return (emu.grasscutter.net.proto._PinNameOuterClass._PinName) content_;
           }
-          return emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance();
+          return emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance();
         }
       }
       /**
        * <code>._PinName pin_name = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> 
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> 
           getPinNameFieldBuilder() {
         if (pinNameBuilder_ == null) {
           if (!(contentCase_ == 2)) {
-            content_ = emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance();
+            content_ = emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance();
           }
           pinNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder>(
-                  (emu.grasscutter.net.proto.PinName._PinName) content_,
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder>(
+                  (emu.grasscutter.net.proto._PinNameOuterClass._PinName) content_,
                   getParentForChildren(),
                   isClean());
           content_ = null;
@@ -945,13 +945,14 @@ public final class BDJCONOGMNDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BDJCONOGMND.proto\032\016_PinName.proto\"J\n\013B" +
       "DJCONOGMND\022\021\n\007raw_str\030\001 \001(\tH\000\022\035\n\010pin_nam" +
-      "e\030\002 \001(\0132\t._PinNameH\000B\t\n\007contentB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "e\030\002 \001(\0132\t._PinNameH\000B\t\n\007contentB2\n\031emu.g" +
+      "rasscutter.net.protoB\025BDJCONOGMNDOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.PinName.getDescriptor(),
+          emu.grasscutter.net.proto._PinNameOuterClass.getDescriptor(),
         });
     internal_static_BDJCONOGMND_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -959,7 +960,7 @@ public final class BDJCONOGMNDOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BDJCONOGMND_descriptor,
         new java.lang.String[] { "RawStr", "PinName", "Content", });
-    emu.grasscutter.net.proto.PinName.getDescriptor();
+    emu.grasscutter.net.proto._PinNameOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

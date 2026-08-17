@@ -658,8 +658,8 @@ public final class GIFDFHHDGDDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GIFDFHHDGDD.proto\"D\n\013GIFDFHHDGDD\022\013\n\003ui" +
       "d\030\004 \001(\r\022\027\n\017punish_end_time\030\005 \001(\r\022\017\n\007retc" +
-      "ode\030\007 \001(\005B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "ode\030\007 \001(\005B2\n\031emu.grasscutter.net.protoB\025" +
+      "GIFDFHHDGDDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

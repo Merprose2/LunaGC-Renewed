@@ -595,8 +595,9 @@ public final class HPEAGIMBADDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HPEAGIMBADD.proto\".\n\013HPEAGIMBADD\022\016\n\006po" +
-      "s_id\030\003 \001(\r\022\017\n\007retcode\030\r \001(\005B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "s_id\030\003 \001(\r\022\017\n\007retcode\030\r \001(\005B2\n\031emu.grass" +
+      "cutter.net.protoB\025HPEAGIMBADDOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

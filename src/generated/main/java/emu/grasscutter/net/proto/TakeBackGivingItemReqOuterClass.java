@@ -525,8 +525,9 @@ public final class TakeBackGivingItemReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033TakeBackGivingItemReq.proto\"*\n\025TakeBac" +
-      "kGivingItemReq\022\021\n\tgiving_id\030\r \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "kGivingItemReq\022\021\n\tgiving_id\030\r \001(\rB<\n\031emu" +
+      ".grasscutter.net.protoB\037TakeBackGivingIt" +
+      "emReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

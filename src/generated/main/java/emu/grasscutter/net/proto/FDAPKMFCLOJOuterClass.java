@@ -525,8 +525,8 @@ public final class FDAPKMFCLOJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FDAPKMFCLOJ.proto\" \n\013FDAPKMFCLOJ\022\021\n\tob" +
-      "ject_id\030\r \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "ject_id\030\r \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025FDAPKMFCLOJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

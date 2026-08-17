@@ -774,8 +774,9 @@ public final class LunchBoxDataOuterClass {
       "\n\022LunchBoxData.proto\"\205\001\n\014LunchBoxData\022=\n" +
       "\021slot_material_map\030\004 \003(\0132\".LunchBoxData." +
       "SlotMaterialMapEntry\0326\n\024SlotMaterialMapE" +
-      "ntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "ntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B3\n\031" +
+      "emu.grasscutter.net.protoB\026LunchBoxDataO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

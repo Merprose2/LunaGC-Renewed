@@ -38,11 +38,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondRoleStatusConfigTemplate beyond_role_status_config_template = 11;</code>
      * @return The beyondRoleStatusConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate getBeyondRoleStatusConfigTemplate();
+    emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate getBeyondRoleStatusConfigTemplate();
     /**
      * <code>._BeyondRoleStatusConfigTemplate beyond_role_status_config_template = 11;</code>
      */
-    emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplateOrBuilder getBeyondRoleStatusConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplateOrBuilder getBeyondRoleStatusConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondMonsterGrowCurveConfigTemplate beyond_monster_grow_curve_config_template = 13;</code>
@@ -53,11 +53,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondMonsterGrowCurveConfigTemplate beyond_monster_grow_curve_config_template = 13;</code>
      * @return The beyondMonsterGrowCurveConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate getBeyondMonsterGrowCurveConfigTemplate();
+    emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate getBeyondMonsterGrowCurveConfigTemplate();
     /**
      * <code>._BeyondMonsterGrowCurveConfigTemplate beyond_monster_grow_curve_config_template = 13;</code>
      */
-    emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplateOrBuilder getBeyondMonsterGrowCurveConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplateOrBuilder getBeyondMonsterGrowCurveConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondDutyConfigTemplate beyond_duty_config_template = 14;</code>
@@ -68,11 +68,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondDutyConfigTemplate beyond_duty_config_template = 14;</code>
      * @return The beyondDutyConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate getBeyondDutyConfigTemplate();
+    emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate getBeyondDutyConfigTemplate();
     /**
      * <code>._BeyondDutyConfigTemplate beyond_duty_config_template = 14;</code>
      */
-    emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplateOrBuilder getBeyondDutyConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplateOrBuilder getBeyondDutyConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondDutyGrowCurveConfigTemplate beyond_duty_grow_curve_config_template = 15;</code>
@@ -83,11 +83,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondDutyGrowCurveConfigTemplate beyond_duty_grow_curve_config_template = 15;</code>
      * @return The beyondDutyGrowCurveConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate getBeyondDutyGrowCurveConfigTemplate();
+    emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate getBeyondDutyGrowCurveConfigTemplate();
     /**
      * <code>._BeyondDutyGrowCurveConfigTemplate beyond_duty_grow_curve_config_template = 15;</code>
      */
-    emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplateOrBuilder getBeyondDutyGrowCurveConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplateOrBuilder getBeyondDutyGrowCurveConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondCustomSkillConfigTemplate beyond_custom_skill_config_template = 16;</code>
@@ -98,11 +98,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondCustomSkillConfigTemplate beyond_custom_skill_config_template = 16;</code>
      * @return The beyondCustomSkillConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate getBeyondCustomSkillConfigTemplate();
+    emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate getBeyondCustomSkillConfigTemplate();
     /**
      * <code>._BeyondCustomSkillConfigTemplate beyond_custom_skill_config_template = 16;</code>
      */
-    emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplateOrBuilder getBeyondCustomSkillConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplateOrBuilder getBeyondCustomSkillConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondEnergyConfigTemplate beyond_energy_config_template = 17;</code>
@@ -113,11 +113,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondEnergyConfigTemplate beyond_energy_config_template = 17;</code>
      * @return The beyondEnergyConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate getBeyondEnergyConfigTemplate();
+    emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate getBeyondEnergyConfigTemplate();
     /**
      * <code>._BeyondEnergyConfigTemplate beyond_energy_config_template = 17;</code>
      */
-    emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplateOrBuilder getBeyondEnergyConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplateOrBuilder getBeyondEnergyConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondAttackDamageAttenuationConfigTemplate beyond_attack_damage_attenuation_config_template = 18;</code>
@@ -128,11 +128,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondAttackDamageAttenuationConfigTemplate beyond_attack_damage_attenuation_config_template = 18;</code>
      * @return The beyondAttackDamageAttenuationConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate getBeyondAttackDamageAttenuationConfigTemplate();
+    emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate getBeyondAttackDamageAttenuationConfigTemplate();
     /**
      * <code>._BeyondAttackDamageAttenuationConfigTemplate beyond_attack_damage_attenuation_config_template = 18;</code>
      */
-    emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplateOrBuilder getBeyondAttackDamageAttenuationConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplateOrBuilder getBeyondAttackDamageAttenuationConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondNormalStuffConfigTemplate beyond_normal_stuff_config_template = 19;</code>
@@ -143,11 +143,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondNormalStuffConfigTemplate beyond_normal_stuff_config_template = 19;</code>
      * @return The beyondNormalStuffConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate getBeyondNormalStuffConfigTemplate();
+    emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate getBeyondNormalStuffConfigTemplate();
     /**
      * <code>._BeyondNormalStuffConfigTemplate beyond_normal_stuff_config_template = 19;</code>
      */
-    emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplateOrBuilder getBeyondNormalStuffConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplateOrBuilder getBeyondNormalStuffConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondEquipStuffConfigTemplate beyond_equip_stuff_config_template = 20;</code>
@@ -158,11 +158,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondEquipStuffConfigTemplate beyond_equip_stuff_config_template = 20;</code>
      * @return The beyondEquipStuffConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate getBeyondEquipStuffConfigTemplate();
+    emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate getBeyondEquipStuffConfigTemplate();
     /**
      * <code>._BeyondEquipStuffConfigTemplate beyond_equip_stuff_config_template = 20;</code>
      */
-    emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplateOrBuilder getBeyondEquipStuffConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplateOrBuilder getBeyondEquipStuffConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondCurrencyConfigTemplate beyond_currency_config_template = 21;</code>
@@ -173,11 +173,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondCurrencyConfigTemplate beyond_currency_config_template = 21;</code>
      * @return The beyondCurrencyConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate getBeyondCurrencyConfigTemplate();
+    emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate getBeyondCurrencyConfigTemplate();
     /**
      * <code>._BeyondCurrencyConfigTemplate beyond_currency_config_template = 21;</code>
      */
-    emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplateOrBuilder getBeyondCurrencyConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplateOrBuilder getBeyondCurrencyConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondStuffBagConfigTemplate beyond_stuff_bag_config_template = 22;</code>
@@ -188,11 +188,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondStuffBagConfigTemplate beyond_stuff_bag_config_template = 22;</code>
      * @return The beyondStuffBagConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate getBeyondStuffBagConfigTemplate();
+    emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate getBeyondStuffBagConfigTemplate();
     /**
      * <code>._BeyondStuffBagConfigTemplate beyond_stuff_bag_config_template = 22;</code>
      */
-    emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplateOrBuilder getBeyondStuffBagConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplateOrBuilder getBeyondStuffBagConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondEquipStuffBagConfigTemplate beyond_equip_stuff_bag_config_template = 23;</code>
@@ -203,11 +203,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondEquipStuffBagConfigTemplate beyond_equip_stuff_bag_config_template = 23;</code>
      * @return The beyondEquipStuffBagConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate getBeyondEquipStuffBagConfigTemplate();
+    emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate getBeyondEquipStuffBagConfigTemplate();
     /**
      * <code>._BeyondEquipStuffBagConfigTemplate beyond_equip_stuff_bag_config_template = 23;</code>
      */
-    emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplateOrBuilder getBeyondEquipStuffBagConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplateOrBuilder getBeyondEquipStuffBagConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondEquipStuffTypeConfigTemplate beyond_equip_stuff_type_config_template = 24;</code>
@@ -218,11 +218,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondEquipStuffTypeConfigTemplate beyond_equip_stuff_type_config_template = 24;</code>
      * @return The beyondEquipStuffTypeConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate getBeyondEquipStuffTypeConfigTemplate();
+    emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate getBeyondEquipStuffTypeConfigTemplate();
     /**
      * <code>._BeyondEquipStuffTypeConfigTemplate beyond_equip_stuff_type_config_template = 24;</code>
      */
-    emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplateOrBuilder getBeyondEquipStuffTypeConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplateOrBuilder getBeyondEquipStuffTypeConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondEquipStuffTagConfigTemplate beyond_equip_stuff_tag_config_template = 25;</code>
@@ -233,11 +233,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondEquipStuffTagConfigTemplate beyond_equip_stuff_tag_config_template = 25;</code>
      * @return The beyondEquipStuffTagConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate getBeyondEquipStuffTagConfigTemplate();
+    emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate getBeyondEquipStuffTagConfigTemplate();
     /**
      * <code>._BeyondEquipStuffTagConfigTemplate beyond_equip_stuff_tag_config_template = 25;</code>
      */
-    emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplateOrBuilder getBeyondEquipStuffTagConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplateOrBuilder getBeyondEquipStuffTagConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondEquipStuffAffixConfigTemplate beyond_equip_stuff_affix_config_template = 26;</code>
@@ -248,11 +248,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondEquipStuffAffixConfigTemplate beyond_equip_stuff_affix_config_template = 26;</code>
      * @return The beyondEquipStuffAffixConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate getBeyondEquipStuffAffixConfigTemplate();
+    emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate getBeyondEquipStuffAffixConfigTemplate();
     /**
      * <code>._BeyondEquipStuffAffixConfigTemplate beyond_equip_stuff_affix_config_template = 26;</code>
      */
-    emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplateOrBuilder getBeyondEquipStuffAffixConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplateOrBuilder getBeyondEquipStuffAffixConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondShopConfigTemplate beyond_shop_config_template = 27;</code>
@@ -263,11 +263,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondShopConfigTemplate beyond_shop_config_template = 27;</code>
      * @return The beyondShopConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate getBeyondShopConfigTemplate();
+    emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate getBeyondShopConfigTemplate();
     /**
      * <code>._BeyondShopConfigTemplate beyond_shop_config_template = 27;</code>
      */
-    emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplateOrBuilder getBeyondShopConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplateOrBuilder getBeyondShopConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondScanEntitySubTagConfigTemplate beyond_scan_entity_sub_tag_config_template = 28;</code>
@@ -278,11 +278,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondScanEntitySubTagConfigTemplate beyond_scan_entity_sub_tag_config_template = 28;</code>
      * @return The beyondScanEntitySubTagConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate getBeyondScanEntitySubTagConfigTemplate();
+    emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate getBeyondScanEntitySubTagConfigTemplate();
     /**
      * <code>._BeyondScanEntitySubTagConfigTemplate beyond_scan_entity_sub_tag_config_template = 28;</code>
      */
-    emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplateOrBuilder getBeyondScanEntitySubTagConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplateOrBuilder getBeyondScanEntitySubTagConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondShieldConfigTemplate beyond_shield_config_template = 29;</code>
@@ -293,11 +293,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondShieldConfigTemplate beyond_shield_config_template = 29;</code>
      * @return The beyondShieldConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate getBeyondShieldConfigTemplate();
+    emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate getBeyondShieldConfigTemplate();
     /**
      * <code>._BeyondShieldConfigTemplate beyond_shield_config_template = 29;</code>
      */
-    emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplateOrBuilder getBeyondShieldConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplateOrBuilder getBeyondShieldConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondPropertyGroupConfigTemplate beyond_property_group_config_template = 30;</code>
@@ -308,11 +308,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondPropertyGroupConfigTemplate beyond_property_group_config_template = 30;</code>
      * @return The beyondPropertyGroupConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate getBeyondPropertyGroupConfigTemplate();
+    emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate getBeyondPropertyGroupConfigTemplate();
     /**
      * <code>._BeyondPropertyGroupConfigTemplate beyond_property_group_config_template = 30;</code>
      */
-    emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplateOrBuilder getBeyondPropertyGroupConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplateOrBuilder getBeyondPropertyGroupConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondEffectTimelineConfigTemplate beyond_effect_timeline_config_template = 31;</code>
@@ -323,11 +323,11 @@ public final class PGFPPAECOLFOuterClass {
      * <code>._BeyondEffectTimelineConfigTemplate beyond_effect_timeline_config_template = 31;</code>
      * @return The beyondEffectTimelineConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate getBeyondEffectTimelineConfigTemplate();
+    emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate getBeyondEffectTimelineConfigTemplate();
     /**
      * <code>._BeyondEffectTimelineConfigTemplate beyond_effect_timeline_config_template = 31;</code>
      */
-    emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplateOrBuilder getBeyondEffectTimelineConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplateOrBuilder getBeyondEffectTimelineConfigTemplateOrBuilder();
 
     public emu.grasscutter.net.proto.PGFPPAECOLFOuterClass.PGFPPAECOLF.DetailCase getDetailCase();
   }
@@ -384,280 +384,280 @@ public final class PGFPPAECOLFOuterClass {
               break;
             }
             case 90: {
-              emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 11;
               break;
             }
             case 106: {
-              emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 13) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 13;
               break;
             }
             case 114: {
-              emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 14) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 14;
               break;
             }
             case 122: {
-              emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 15) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 15;
               break;
             }
             case 130: {
-              emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 16) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 16;
               break;
             }
             case 138: {
-              emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 17) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 17;
               break;
             }
             case 146: {
-              emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 18) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 18;
               break;
             }
             case 154: {
-              emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 19) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 19;
               break;
             }
             case 162: {
-              emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 20) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 20;
               break;
             }
             case 170: {
-              emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 21) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 21;
               break;
             }
             case 178: {
-              emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 22) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 22;
               break;
             }
             case 186: {
-              emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 23) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 23;
               break;
             }
             case 194: {
-              emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 24) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 24;
               break;
             }
             case 202: {
-              emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 25) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 25;
               break;
             }
             case 210: {
-              emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 26) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 26;
               break;
             }
             case 218: {
-              emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 27) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 27;
               break;
             }
             case 226: {
-              emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 28) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 28;
               break;
             }
             case 234: {
-              emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 29) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 29;
               break;
             }
             case 242: {
-              emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 30) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 30;
               break;
             }
             case 250: {
-              emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 31) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 31;
@@ -805,21 +805,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondRoleStatusConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate getBeyondRoleStatusConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate getBeyondRoleStatusConfigTemplate() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondRoleStatusConfigTemplate beyond_role_status_config_template = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplateOrBuilder getBeyondRoleStatusConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplateOrBuilder getBeyondRoleStatusConfigTemplateOrBuilder() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_MONSTER_GROW_CURVE_CONFIG_TEMPLATE_FIELD_NUMBER = 13;
@@ -836,21 +836,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondMonsterGrowCurveConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate getBeyondMonsterGrowCurveConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate getBeyondMonsterGrowCurveConfigTemplate() {
       if (detailCase_ == 13) {
-         return (emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondMonsterGrowCurveConfigTemplate beyond_monster_grow_curve_config_template = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplateOrBuilder getBeyondMonsterGrowCurveConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplateOrBuilder getBeyondMonsterGrowCurveConfigTemplateOrBuilder() {
       if (detailCase_ == 13) {
-         return (emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_DUTY_CONFIG_TEMPLATE_FIELD_NUMBER = 14;
@@ -867,21 +867,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondDutyConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate getBeyondDutyConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate getBeyondDutyConfigTemplate() {
       if (detailCase_ == 14) {
-         return (emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondDutyConfigTemplate beyond_duty_config_template = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplateOrBuilder getBeyondDutyConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplateOrBuilder getBeyondDutyConfigTemplateOrBuilder() {
       if (detailCase_ == 14) {
-         return (emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_DUTY_GROW_CURVE_CONFIG_TEMPLATE_FIELD_NUMBER = 15;
@@ -898,21 +898,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondDutyGrowCurveConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate getBeyondDutyGrowCurveConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate getBeyondDutyGrowCurveConfigTemplate() {
       if (detailCase_ == 15) {
-         return (emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondDutyGrowCurveConfigTemplate beyond_duty_grow_curve_config_template = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplateOrBuilder getBeyondDutyGrowCurveConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplateOrBuilder getBeyondDutyGrowCurveConfigTemplateOrBuilder() {
       if (detailCase_ == 15) {
-         return (emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_CUSTOM_SKILL_CONFIG_TEMPLATE_FIELD_NUMBER = 16;
@@ -929,21 +929,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondCustomSkillConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate getBeyondCustomSkillConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate getBeyondCustomSkillConfigTemplate() {
       if (detailCase_ == 16) {
-         return (emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondCustomSkillConfigTemplate beyond_custom_skill_config_template = 16;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplateOrBuilder getBeyondCustomSkillConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplateOrBuilder getBeyondCustomSkillConfigTemplateOrBuilder() {
       if (detailCase_ == 16) {
-         return (emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_ENERGY_CONFIG_TEMPLATE_FIELD_NUMBER = 17;
@@ -960,21 +960,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondEnergyConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate getBeyondEnergyConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate getBeyondEnergyConfigTemplate() {
       if (detailCase_ == 17) {
-         return (emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondEnergyConfigTemplate beyond_energy_config_template = 17;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplateOrBuilder getBeyondEnergyConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplateOrBuilder getBeyondEnergyConfigTemplateOrBuilder() {
       if (detailCase_ == 17) {
-         return (emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_ATTACK_DAMAGE_ATTENUATION_CONFIG_TEMPLATE_FIELD_NUMBER = 18;
@@ -991,21 +991,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondAttackDamageAttenuationConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate getBeyondAttackDamageAttenuationConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate getBeyondAttackDamageAttenuationConfigTemplate() {
       if (detailCase_ == 18) {
-         return (emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondAttackDamageAttenuationConfigTemplate beyond_attack_damage_attenuation_config_template = 18;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplateOrBuilder getBeyondAttackDamageAttenuationConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplateOrBuilder getBeyondAttackDamageAttenuationConfigTemplateOrBuilder() {
       if (detailCase_ == 18) {
-         return (emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_NORMAL_STUFF_CONFIG_TEMPLATE_FIELD_NUMBER = 19;
@@ -1022,21 +1022,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondNormalStuffConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate getBeyondNormalStuffConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate getBeyondNormalStuffConfigTemplate() {
       if (detailCase_ == 19) {
-         return (emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondNormalStuffConfigTemplate beyond_normal_stuff_config_template = 19;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplateOrBuilder getBeyondNormalStuffConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplateOrBuilder getBeyondNormalStuffConfigTemplateOrBuilder() {
       if (detailCase_ == 19) {
-         return (emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_EQUIP_STUFF_CONFIG_TEMPLATE_FIELD_NUMBER = 20;
@@ -1053,21 +1053,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondEquipStuffConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate getBeyondEquipStuffConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate getBeyondEquipStuffConfigTemplate() {
       if (detailCase_ == 20) {
-         return (emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondEquipStuffConfigTemplate beyond_equip_stuff_config_template = 20;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplateOrBuilder getBeyondEquipStuffConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplateOrBuilder getBeyondEquipStuffConfigTemplateOrBuilder() {
       if (detailCase_ == 20) {
-         return (emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_CURRENCY_CONFIG_TEMPLATE_FIELD_NUMBER = 21;
@@ -1084,21 +1084,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondCurrencyConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate getBeyondCurrencyConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate getBeyondCurrencyConfigTemplate() {
       if (detailCase_ == 21) {
-         return (emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondCurrencyConfigTemplate beyond_currency_config_template = 21;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplateOrBuilder getBeyondCurrencyConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplateOrBuilder getBeyondCurrencyConfigTemplateOrBuilder() {
       if (detailCase_ == 21) {
-         return (emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_STUFF_BAG_CONFIG_TEMPLATE_FIELD_NUMBER = 22;
@@ -1115,21 +1115,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondStuffBagConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate getBeyondStuffBagConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate getBeyondStuffBagConfigTemplate() {
       if (detailCase_ == 22) {
-         return (emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondStuffBagConfigTemplate beyond_stuff_bag_config_template = 22;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplateOrBuilder getBeyondStuffBagConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplateOrBuilder getBeyondStuffBagConfigTemplateOrBuilder() {
       if (detailCase_ == 22) {
-         return (emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_EQUIP_STUFF_BAG_CONFIG_TEMPLATE_FIELD_NUMBER = 23;
@@ -1146,21 +1146,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondEquipStuffBagConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate getBeyondEquipStuffBagConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate getBeyondEquipStuffBagConfigTemplate() {
       if (detailCase_ == 23) {
-         return (emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondEquipStuffBagConfigTemplate beyond_equip_stuff_bag_config_template = 23;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplateOrBuilder getBeyondEquipStuffBagConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplateOrBuilder getBeyondEquipStuffBagConfigTemplateOrBuilder() {
       if (detailCase_ == 23) {
-         return (emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_EQUIP_STUFF_TYPE_CONFIG_TEMPLATE_FIELD_NUMBER = 24;
@@ -1177,21 +1177,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondEquipStuffTypeConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate getBeyondEquipStuffTypeConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate getBeyondEquipStuffTypeConfigTemplate() {
       if (detailCase_ == 24) {
-         return (emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondEquipStuffTypeConfigTemplate beyond_equip_stuff_type_config_template = 24;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplateOrBuilder getBeyondEquipStuffTypeConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplateOrBuilder getBeyondEquipStuffTypeConfigTemplateOrBuilder() {
       if (detailCase_ == 24) {
-         return (emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_EQUIP_STUFF_TAG_CONFIG_TEMPLATE_FIELD_NUMBER = 25;
@@ -1208,21 +1208,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondEquipStuffTagConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate getBeyondEquipStuffTagConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate getBeyondEquipStuffTagConfigTemplate() {
       if (detailCase_ == 25) {
-         return (emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondEquipStuffTagConfigTemplate beyond_equip_stuff_tag_config_template = 25;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplateOrBuilder getBeyondEquipStuffTagConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplateOrBuilder getBeyondEquipStuffTagConfigTemplateOrBuilder() {
       if (detailCase_ == 25) {
-         return (emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_EQUIP_STUFF_AFFIX_CONFIG_TEMPLATE_FIELD_NUMBER = 26;
@@ -1239,21 +1239,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondEquipStuffAffixConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate getBeyondEquipStuffAffixConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate getBeyondEquipStuffAffixConfigTemplate() {
       if (detailCase_ == 26) {
-         return (emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondEquipStuffAffixConfigTemplate beyond_equip_stuff_affix_config_template = 26;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplateOrBuilder getBeyondEquipStuffAffixConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplateOrBuilder getBeyondEquipStuffAffixConfigTemplateOrBuilder() {
       if (detailCase_ == 26) {
-         return (emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_SHOP_CONFIG_TEMPLATE_FIELD_NUMBER = 27;
@@ -1270,21 +1270,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondShopConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate getBeyondShopConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate getBeyondShopConfigTemplate() {
       if (detailCase_ == 27) {
-         return (emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondShopConfigTemplate beyond_shop_config_template = 27;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplateOrBuilder getBeyondShopConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplateOrBuilder getBeyondShopConfigTemplateOrBuilder() {
       if (detailCase_ == 27) {
-         return (emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_SCAN_ENTITY_SUB_TAG_CONFIG_TEMPLATE_FIELD_NUMBER = 28;
@@ -1301,21 +1301,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondScanEntitySubTagConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate getBeyondScanEntitySubTagConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate getBeyondScanEntitySubTagConfigTemplate() {
       if (detailCase_ == 28) {
-         return (emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondScanEntitySubTagConfigTemplate beyond_scan_entity_sub_tag_config_template = 28;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplateOrBuilder getBeyondScanEntitySubTagConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplateOrBuilder getBeyondScanEntitySubTagConfigTemplateOrBuilder() {
       if (detailCase_ == 28) {
-         return (emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_SHIELD_CONFIG_TEMPLATE_FIELD_NUMBER = 29;
@@ -1332,21 +1332,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondShieldConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate getBeyondShieldConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate getBeyondShieldConfigTemplate() {
       if (detailCase_ == 29) {
-         return (emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondShieldConfigTemplate beyond_shield_config_template = 29;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplateOrBuilder getBeyondShieldConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplateOrBuilder getBeyondShieldConfigTemplateOrBuilder() {
       if (detailCase_ == 29) {
-         return (emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_PROPERTY_GROUP_CONFIG_TEMPLATE_FIELD_NUMBER = 30;
@@ -1363,21 +1363,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondPropertyGroupConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate getBeyondPropertyGroupConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate getBeyondPropertyGroupConfigTemplate() {
       if (detailCase_ == 30) {
-         return (emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondPropertyGroupConfigTemplate beyond_property_group_config_template = 30;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplateOrBuilder getBeyondPropertyGroupConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplateOrBuilder getBeyondPropertyGroupConfigTemplateOrBuilder() {
       if (detailCase_ == 30) {
-         return (emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_EFFECT_TIMELINE_CONFIG_TEMPLATE_FIELD_NUMBER = 31;
@@ -1394,21 +1394,21 @@ public final class PGFPPAECOLFOuterClass {
      * @return The beyondEffectTimelineConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate getBeyondEffectTimelineConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate getBeyondEffectTimelineConfigTemplate() {
       if (detailCase_ == 31) {
-         return (emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondEffectTimelineConfigTemplate beyond_effect_timeline_config_template = 31;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplateOrBuilder getBeyondEffectTimelineConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplateOrBuilder getBeyondEffectTimelineConfigTemplateOrBuilder() {
       if (detailCase_ == 31) {
-         return (emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -1429,64 +1429,64 @@ public final class PGFPPAECOLFOuterClass {
         output.writeEnum(1, nLHIBDLIMEK_);
       }
       if (detailCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate) detail_);
+        output.writeMessage(11, (emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate) detail_);
       }
       if (detailCase_ == 13) {
-        output.writeMessage(13, (emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate) detail_);
+        output.writeMessage(13, (emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate) detail_);
       }
       if (detailCase_ == 14) {
-        output.writeMessage(14, (emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate) detail_);
+        output.writeMessage(14, (emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate) detail_);
       }
       if (detailCase_ == 15) {
-        output.writeMessage(15, (emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate) detail_);
+        output.writeMessage(15, (emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate) detail_);
       }
       if (detailCase_ == 16) {
-        output.writeMessage(16, (emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate) detail_);
+        output.writeMessage(16, (emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate) detail_);
       }
       if (detailCase_ == 17) {
-        output.writeMessage(17, (emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate) detail_);
+        output.writeMessage(17, (emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate) detail_);
       }
       if (detailCase_ == 18) {
-        output.writeMessage(18, (emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate) detail_);
+        output.writeMessage(18, (emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate) detail_);
       }
       if (detailCase_ == 19) {
-        output.writeMessage(19, (emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate) detail_);
+        output.writeMessage(19, (emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate) detail_);
       }
       if (detailCase_ == 20) {
-        output.writeMessage(20, (emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate) detail_);
+        output.writeMessage(20, (emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate) detail_);
       }
       if (detailCase_ == 21) {
-        output.writeMessage(21, (emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate) detail_);
+        output.writeMessage(21, (emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate) detail_);
       }
       if (detailCase_ == 22) {
-        output.writeMessage(22, (emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate) detail_);
+        output.writeMessage(22, (emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate) detail_);
       }
       if (detailCase_ == 23) {
-        output.writeMessage(23, (emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate) detail_);
+        output.writeMessage(23, (emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate) detail_);
       }
       if (detailCase_ == 24) {
-        output.writeMessage(24, (emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate) detail_);
+        output.writeMessage(24, (emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate) detail_);
       }
       if (detailCase_ == 25) {
-        output.writeMessage(25, (emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate) detail_);
+        output.writeMessage(25, (emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate) detail_);
       }
       if (detailCase_ == 26) {
-        output.writeMessage(26, (emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate) detail_);
+        output.writeMessage(26, (emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate) detail_);
       }
       if (detailCase_ == 27) {
-        output.writeMessage(27, (emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate) detail_);
+        output.writeMessage(27, (emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate) detail_);
       }
       if (detailCase_ == 28) {
-        output.writeMessage(28, (emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate) detail_);
+        output.writeMessage(28, (emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate) detail_);
       }
       if (detailCase_ == 29) {
-        output.writeMessage(29, (emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate) detail_);
+        output.writeMessage(29, (emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate) detail_);
       }
       if (detailCase_ == 30) {
-        output.writeMessage(30, (emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate) detail_);
+        output.writeMessage(30, (emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate) detail_);
       }
       if (detailCase_ == 31) {
-        output.writeMessage(31, (emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate) detail_);
+        output.writeMessage(31, (emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -1503,83 +1503,83 @@ public final class PGFPPAECOLFOuterClass {
       }
       if (detailCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate) detail_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate) detail_);
       }
       if (detailCase_ == 13) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, (emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate) detail_);
+          .computeMessageSize(13, (emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate) detail_);
       }
       if (detailCase_ == 14) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, (emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate) detail_);
+          .computeMessageSize(14, (emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate) detail_);
       }
       if (detailCase_ == 15) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, (emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate) detail_);
+          .computeMessageSize(15, (emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate) detail_);
       }
       if (detailCase_ == 16) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(16, (emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate) detail_);
+          .computeMessageSize(16, (emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate) detail_);
       }
       if (detailCase_ == 17) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(17, (emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate) detail_);
+          .computeMessageSize(17, (emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate) detail_);
       }
       if (detailCase_ == 18) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(18, (emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate) detail_);
+          .computeMessageSize(18, (emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate) detail_);
       }
       if (detailCase_ == 19) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(19, (emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate) detail_);
+          .computeMessageSize(19, (emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate) detail_);
       }
       if (detailCase_ == 20) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(20, (emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate) detail_);
+          .computeMessageSize(20, (emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate) detail_);
       }
       if (detailCase_ == 21) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(21, (emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate) detail_);
+          .computeMessageSize(21, (emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate) detail_);
       }
       if (detailCase_ == 22) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(22, (emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate) detail_);
+          .computeMessageSize(22, (emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate) detail_);
       }
       if (detailCase_ == 23) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(23, (emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate) detail_);
+          .computeMessageSize(23, (emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate) detail_);
       }
       if (detailCase_ == 24) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(24, (emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate) detail_);
+          .computeMessageSize(24, (emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate) detail_);
       }
       if (detailCase_ == 25) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(25, (emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate) detail_);
+          .computeMessageSize(25, (emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate) detail_);
       }
       if (detailCase_ == 26) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(26, (emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate) detail_);
+          .computeMessageSize(26, (emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate) detail_);
       }
       if (detailCase_ == 27) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(27, (emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate) detail_);
+          .computeMessageSize(27, (emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate) detail_);
       }
       if (detailCase_ == 28) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(28, (emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate) detail_);
+          .computeMessageSize(28, (emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate) detail_);
       }
       if (detailCase_ == 29) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(29, (emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate) detail_);
+          .computeMessageSize(29, (emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate) detail_);
       }
       if (detailCase_ == 30) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(30, (emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate) detail_);
+          .computeMessageSize(30, (emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate) detail_);
       }
       if (detailCase_ == 31) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(31, (emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate) detail_);
+          .computeMessageSize(31, (emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -2319,7 +2319,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate, emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplateOrBuilder> beyondRoleStatusConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate, emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplateOrBuilder> beyondRoleStatusConfigTemplateBuilder_;
       /**
        * <code>._BeyondRoleStatusConfigTemplate beyond_role_status_config_template = 11;</code>
        * @return Whether the beyondRoleStatusConfigTemplate field is set.
@@ -2333,23 +2333,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondRoleStatusConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate getBeyondRoleStatusConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate getBeyondRoleStatusConfigTemplate() {
         if (beyondRoleStatusConfigTemplateBuilder_ == null) {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 11) {
             return beyondRoleStatusConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondRoleStatusConfigTemplate beyond_role_status_config_template = 11;</code>
        */
-      public Builder setBeyondRoleStatusConfigTemplate(emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate value) {
+      public Builder setBeyondRoleStatusConfigTemplate(emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate value) {
         if (beyondRoleStatusConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2366,7 +2366,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondRoleStatusConfigTemplate beyond_role_status_config_template = 11;</code>
        */
       public Builder setBeyondRoleStatusConfigTemplate(
-          emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate.Builder builderForValue) {
         if (beyondRoleStatusConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2379,11 +2379,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondRoleStatusConfigTemplate beyond_role_status_config_template = 11;</code>
        */
-      public Builder mergeBeyondRoleStatusConfigTemplate(emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate value) {
+      public Builder mergeBeyondRoleStatusConfigTemplate(emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate value) {
         if (beyondRoleStatusConfigTemplateBuilder_ == null) {
           if (detailCase_ == 11 &&
-              detail_ != emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2420,36 +2420,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondRoleStatusConfigTemplate beyond_role_status_config_template = 11;</code>
        */
-      public emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate.Builder getBeyondRoleStatusConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate.Builder getBeyondRoleStatusConfigTemplateBuilder() {
         return getBeyondRoleStatusConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondRoleStatusConfigTemplate beyond_role_status_config_template = 11;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplateOrBuilder getBeyondRoleStatusConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplateOrBuilder getBeyondRoleStatusConfigTemplateOrBuilder() {
         if ((detailCase_ == 11) && (beyondRoleStatusConfigTemplateBuilder_ != null)) {
           return beyondRoleStatusConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondRoleStatusConfigTemplate beyond_role_status_config_template = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate, emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate, emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplateOrBuilder> 
           getBeyondRoleStatusConfigTemplateFieldBuilder() {
         if (beyondRoleStatusConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 11)) {
-            detail_ = emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate.getDefaultInstance();
           }
           beyondRoleStatusConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate, emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate._BeyondRoleStatusConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate, emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass._BeyondRoleStatusConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2460,7 +2460,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate, emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplateOrBuilder> beyondMonsterGrowCurveConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate, emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplateOrBuilder> beyondMonsterGrowCurveConfigTemplateBuilder_;
       /**
        * <code>._BeyondMonsterGrowCurveConfigTemplate beyond_monster_grow_curve_config_template = 13;</code>
        * @return Whether the beyondMonsterGrowCurveConfigTemplate field is set.
@@ -2474,23 +2474,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondMonsterGrowCurveConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate getBeyondMonsterGrowCurveConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate getBeyondMonsterGrowCurveConfigTemplate() {
         if (beyondMonsterGrowCurveConfigTemplateBuilder_ == null) {
           if (detailCase_ == 13) {
-            return (emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 13) {
             return beyondMonsterGrowCurveConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondMonsterGrowCurveConfigTemplate beyond_monster_grow_curve_config_template = 13;</code>
        */
-      public Builder setBeyondMonsterGrowCurveConfigTemplate(emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate value) {
+      public Builder setBeyondMonsterGrowCurveConfigTemplate(emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate value) {
         if (beyondMonsterGrowCurveConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2507,7 +2507,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondMonsterGrowCurveConfigTemplate beyond_monster_grow_curve_config_template = 13;</code>
        */
       public Builder setBeyondMonsterGrowCurveConfigTemplate(
-          emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate.Builder builderForValue) {
         if (beyondMonsterGrowCurveConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2520,11 +2520,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondMonsterGrowCurveConfigTemplate beyond_monster_grow_curve_config_template = 13;</code>
        */
-      public Builder mergeBeyondMonsterGrowCurveConfigTemplate(emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate value) {
+      public Builder mergeBeyondMonsterGrowCurveConfigTemplate(emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate value) {
         if (beyondMonsterGrowCurveConfigTemplateBuilder_ == null) {
           if (detailCase_ == 13 &&
-              detail_ != emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2561,36 +2561,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondMonsterGrowCurveConfigTemplate beyond_monster_grow_curve_config_template = 13;</code>
        */
-      public emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate.Builder getBeyondMonsterGrowCurveConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate.Builder getBeyondMonsterGrowCurveConfigTemplateBuilder() {
         return getBeyondMonsterGrowCurveConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondMonsterGrowCurveConfigTemplate beyond_monster_grow_curve_config_template = 13;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplateOrBuilder getBeyondMonsterGrowCurveConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplateOrBuilder getBeyondMonsterGrowCurveConfigTemplateOrBuilder() {
         if ((detailCase_ == 13) && (beyondMonsterGrowCurveConfigTemplateBuilder_ != null)) {
           return beyondMonsterGrowCurveConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 13) {
-            return (emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondMonsterGrowCurveConfigTemplate beyond_monster_grow_curve_config_template = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate, emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate, emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplateOrBuilder> 
           getBeyondMonsterGrowCurveConfigTemplateFieldBuilder() {
         if (beyondMonsterGrowCurveConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 13)) {
-            detail_ = emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate.getDefaultInstance();
           }
           beyondMonsterGrowCurveConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate, emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate._BeyondMonsterGrowCurveConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate, emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass._BeyondMonsterGrowCurveConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2601,7 +2601,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate, emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplateOrBuilder> beyondDutyConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate, emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplateOrBuilder> beyondDutyConfigTemplateBuilder_;
       /**
        * <code>._BeyondDutyConfigTemplate beyond_duty_config_template = 14;</code>
        * @return Whether the beyondDutyConfigTemplate field is set.
@@ -2615,23 +2615,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondDutyConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate getBeyondDutyConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate getBeyondDutyConfigTemplate() {
         if (beyondDutyConfigTemplateBuilder_ == null) {
           if (detailCase_ == 14) {
-            return (emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 14) {
             return beyondDutyConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondDutyConfigTemplate beyond_duty_config_template = 14;</code>
        */
-      public Builder setBeyondDutyConfigTemplate(emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate value) {
+      public Builder setBeyondDutyConfigTemplate(emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate value) {
         if (beyondDutyConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2648,7 +2648,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondDutyConfigTemplate beyond_duty_config_template = 14;</code>
        */
       public Builder setBeyondDutyConfigTemplate(
-          emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate.Builder builderForValue) {
         if (beyondDutyConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2661,11 +2661,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondDutyConfigTemplate beyond_duty_config_template = 14;</code>
        */
-      public Builder mergeBeyondDutyConfigTemplate(emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate value) {
+      public Builder mergeBeyondDutyConfigTemplate(emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate value) {
         if (beyondDutyConfigTemplateBuilder_ == null) {
           if (detailCase_ == 14 &&
-              detail_ != emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2702,36 +2702,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondDutyConfigTemplate beyond_duty_config_template = 14;</code>
        */
-      public emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate.Builder getBeyondDutyConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate.Builder getBeyondDutyConfigTemplateBuilder() {
         return getBeyondDutyConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondDutyConfigTemplate beyond_duty_config_template = 14;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplateOrBuilder getBeyondDutyConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplateOrBuilder getBeyondDutyConfigTemplateOrBuilder() {
         if ((detailCase_ == 14) && (beyondDutyConfigTemplateBuilder_ != null)) {
           return beyondDutyConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 14) {
-            return (emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondDutyConfigTemplate beyond_duty_config_template = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate, emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate, emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplateOrBuilder> 
           getBeyondDutyConfigTemplateFieldBuilder() {
         if (beyondDutyConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 14)) {
-            detail_ = emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate.getDefaultInstance();
           }
           beyondDutyConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate, emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondDutyConfigTemplate._BeyondDutyConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate, emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass._BeyondDutyConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2742,7 +2742,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate, emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplateOrBuilder> beyondDutyGrowCurveConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate, emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplateOrBuilder> beyondDutyGrowCurveConfigTemplateBuilder_;
       /**
        * <code>._BeyondDutyGrowCurveConfigTemplate beyond_duty_grow_curve_config_template = 15;</code>
        * @return Whether the beyondDutyGrowCurveConfigTemplate field is set.
@@ -2756,23 +2756,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondDutyGrowCurveConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate getBeyondDutyGrowCurveConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate getBeyondDutyGrowCurveConfigTemplate() {
         if (beyondDutyGrowCurveConfigTemplateBuilder_ == null) {
           if (detailCase_ == 15) {
-            return (emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 15) {
             return beyondDutyGrowCurveConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondDutyGrowCurveConfigTemplate beyond_duty_grow_curve_config_template = 15;</code>
        */
-      public Builder setBeyondDutyGrowCurveConfigTemplate(emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate value) {
+      public Builder setBeyondDutyGrowCurveConfigTemplate(emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate value) {
         if (beyondDutyGrowCurveConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2789,7 +2789,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondDutyGrowCurveConfigTemplate beyond_duty_grow_curve_config_template = 15;</code>
        */
       public Builder setBeyondDutyGrowCurveConfigTemplate(
-          emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate.Builder builderForValue) {
         if (beyondDutyGrowCurveConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2802,11 +2802,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondDutyGrowCurveConfigTemplate beyond_duty_grow_curve_config_template = 15;</code>
        */
-      public Builder mergeBeyondDutyGrowCurveConfigTemplate(emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate value) {
+      public Builder mergeBeyondDutyGrowCurveConfigTemplate(emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate value) {
         if (beyondDutyGrowCurveConfigTemplateBuilder_ == null) {
           if (detailCase_ == 15 &&
-              detail_ != emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2843,36 +2843,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondDutyGrowCurveConfigTemplate beyond_duty_grow_curve_config_template = 15;</code>
        */
-      public emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate.Builder getBeyondDutyGrowCurveConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate.Builder getBeyondDutyGrowCurveConfigTemplateBuilder() {
         return getBeyondDutyGrowCurveConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondDutyGrowCurveConfigTemplate beyond_duty_grow_curve_config_template = 15;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplateOrBuilder getBeyondDutyGrowCurveConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplateOrBuilder getBeyondDutyGrowCurveConfigTemplateOrBuilder() {
         if ((detailCase_ == 15) && (beyondDutyGrowCurveConfigTemplateBuilder_ != null)) {
           return beyondDutyGrowCurveConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 15) {
-            return (emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondDutyGrowCurveConfigTemplate beyond_duty_grow_curve_config_template = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate, emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate, emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplateOrBuilder> 
           getBeyondDutyGrowCurveConfigTemplateFieldBuilder() {
         if (beyondDutyGrowCurveConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 15)) {
-            detail_ = emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate.getDefaultInstance();
           }
           beyondDutyGrowCurveConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate, emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate._BeyondDutyGrowCurveConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate, emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass._BeyondDutyGrowCurveConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2883,7 +2883,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate, emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplateOrBuilder> beyondCustomSkillConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate, emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplateOrBuilder> beyondCustomSkillConfigTemplateBuilder_;
       /**
        * <code>._BeyondCustomSkillConfigTemplate beyond_custom_skill_config_template = 16;</code>
        * @return Whether the beyondCustomSkillConfigTemplate field is set.
@@ -2897,23 +2897,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondCustomSkillConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate getBeyondCustomSkillConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate getBeyondCustomSkillConfigTemplate() {
         if (beyondCustomSkillConfigTemplateBuilder_ == null) {
           if (detailCase_ == 16) {
-            return (emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 16) {
             return beyondCustomSkillConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondCustomSkillConfigTemplate beyond_custom_skill_config_template = 16;</code>
        */
-      public Builder setBeyondCustomSkillConfigTemplate(emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate value) {
+      public Builder setBeyondCustomSkillConfigTemplate(emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate value) {
         if (beyondCustomSkillConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2930,7 +2930,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondCustomSkillConfigTemplate beyond_custom_skill_config_template = 16;</code>
        */
       public Builder setBeyondCustomSkillConfigTemplate(
-          emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate.Builder builderForValue) {
         if (beyondCustomSkillConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2943,11 +2943,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondCustomSkillConfigTemplate beyond_custom_skill_config_template = 16;</code>
        */
-      public Builder mergeBeyondCustomSkillConfigTemplate(emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate value) {
+      public Builder mergeBeyondCustomSkillConfigTemplate(emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate value) {
         if (beyondCustomSkillConfigTemplateBuilder_ == null) {
           if (detailCase_ == 16 &&
-              detail_ != emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2984,36 +2984,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondCustomSkillConfigTemplate beyond_custom_skill_config_template = 16;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate.Builder getBeyondCustomSkillConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate.Builder getBeyondCustomSkillConfigTemplateBuilder() {
         return getBeyondCustomSkillConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondCustomSkillConfigTemplate beyond_custom_skill_config_template = 16;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplateOrBuilder getBeyondCustomSkillConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplateOrBuilder getBeyondCustomSkillConfigTemplateOrBuilder() {
         if ((detailCase_ == 16) && (beyondCustomSkillConfigTemplateBuilder_ != null)) {
           return beyondCustomSkillConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 16) {
-            return (emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondCustomSkillConfigTemplate beyond_custom_skill_config_template = 16;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate, emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate, emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplateOrBuilder> 
           getBeyondCustomSkillConfigTemplateFieldBuilder() {
         if (beyondCustomSkillConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 16)) {
-            detail_ = emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate.getDefaultInstance();
           }
           beyondCustomSkillConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate, emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate._BeyondCustomSkillConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate, emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass._BeyondCustomSkillConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3024,7 +3024,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate, emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplateOrBuilder> beyondEnergyConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate, emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplateOrBuilder> beyondEnergyConfigTemplateBuilder_;
       /**
        * <code>._BeyondEnergyConfigTemplate beyond_energy_config_template = 17;</code>
        * @return Whether the beyondEnergyConfigTemplate field is set.
@@ -3038,23 +3038,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondEnergyConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate getBeyondEnergyConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate getBeyondEnergyConfigTemplate() {
         if (beyondEnergyConfigTemplateBuilder_ == null) {
           if (detailCase_ == 17) {
-            return (emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 17) {
             return beyondEnergyConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondEnergyConfigTemplate beyond_energy_config_template = 17;</code>
        */
-      public Builder setBeyondEnergyConfigTemplate(emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate value) {
+      public Builder setBeyondEnergyConfigTemplate(emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate value) {
         if (beyondEnergyConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3071,7 +3071,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondEnergyConfigTemplate beyond_energy_config_template = 17;</code>
        */
       public Builder setBeyondEnergyConfigTemplate(
-          emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate.Builder builderForValue) {
         if (beyondEnergyConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3084,11 +3084,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondEnergyConfigTemplate beyond_energy_config_template = 17;</code>
        */
-      public Builder mergeBeyondEnergyConfigTemplate(emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate value) {
+      public Builder mergeBeyondEnergyConfigTemplate(emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate value) {
         if (beyondEnergyConfigTemplateBuilder_ == null) {
           if (detailCase_ == 17 &&
-              detail_ != emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3125,36 +3125,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondEnergyConfigTemplate beyond_energy_config_template = 17;</code>
        */
-      public emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate.Builder getBeyondEnergyConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate.Builder getBeyondEnergyConfigTemplateBuilder() {
         return getBeyondEnergyConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondEnergyConfigTemplate beyond_energy_config_template = 17;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplateOrBuilder getBeyondEnergyConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplateOrBuilder getBeyondEnergyConfigTemplateOrBuilder() {
         if ((detailCase_ == 17) && (beyondEnergyConfigTemplateBuilder_ != null)) {
           return beyondEnergyConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 17) {
-            return (emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondEnergyConfigTemplate beyond_energy_config_template = 17;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate, emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate, emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplateOrBuilder> 
           getBeyondEnergyConfigTemplateFieldBuilder() {
         if (beyondEnergyConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 17)) {
-            detail_ = emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate.getDefaultInstance();
           }
           beyondEnergyConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate, emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondEnergyConfigTemplate._BeyondEnergyConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate, emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass._BeyondEnergyConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3165,7 +3165,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate, emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplateOrBuilder> beyondAttackDamageAttenuationConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate, emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplateOrBuilder> beyondAttackDamageAttenuationConfigTemplateBuilder_;
       /**
        * <code>._BeyondAttackDamageAttenuationConfigTemplate beyond_attack_damage_attenuation_config_template = 18;</code>
        * @return Whether the beyondAttackDamageAttenuationConfigTemplate field is set.
@@ -3179,23 +3179,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondAttackDamageAttenuationConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate getBeyondAttackDamageAttenuationConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate getBeyondAttackDamageAttenuationConfigTemplate() {
         if (beyondAttackDamageAttenuationConfigTemplateBuilder_ == null) {
           if (detailCase_ == 18) {
-            return (emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 18) {
             return beyondAttackDamageAttenuationConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondAttackDamageAttenuationConfigTemplate beyond_attack_damage_attenuation_config_template = 18;</code>
        */
-      public Builder setBeyondAttackDamageAttenuationConfigTemplate(emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate value) {
+      public Builder setBeyondAttackDamageAttenuationConfigTemplate(emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate value) {
         if (beyondAttackDamageAttenuationConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3212,7 +3212,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondAttackDamageAttenuationConfigTemplate beyond_attack_damage_attenuation_config_template = 18;</code>
        */
       public Builder setBeyondAttackDamageAttenuationConfigTemplate(
-          emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate.Builder builderForValue) {
         if (beyondAttackDamageAttenuationConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3225,11 +3225,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondAttackDamageAttenuationConfigTemplate beyond_attack_damage_attenuation_config_template = 18;</code>
        */
-      public Builder mergeBeyondAttackDamageAttenuationConfigTemplate(emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate value) {
+      public Builder mergeBeyondAttackDamageAttenuationConfigTemplate(emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate value) {
         if (beyondAttackDamageAttenuationConfigTemplateBuilder_ == null) {
           if (detailCase_ == 18 &&
-              detail_ != emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3266,36 +3266,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondAttackDamageAttenuationConfigTemplate beyond_attack_damage_attenuation_config_template = 18;</code>
        */
-      public emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate.Builder getBeyondAttackDamageAttenuationConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate.Builder getBeyondAttackDamageAttenuationConfigTemplateBuilder() {
         return getBeyondAttackDamageAttenuationConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondAttackDamageAttenuationConfigTemplate beyond_attack_damage_attenuation_config_template = 18;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplateOrBuilder getBeyondAttackDamageAttenuationConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplateOrBuilder getBeyondAttackDamageAttenuationConfigTemplateOrBuilder() {
         if ((detailCase_ == 18) && (beyondAttackDamageAttenuationConfigTemplateBuilder_ != null)) {
           return beyondAttackDamageAttenuationConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 18) {
-            return (emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondAttackDamageAttenuationConfigTemplate beyond_attack_damage_attenuation_config_template = 18;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate, emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate, emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplateOrBuilder> 
           getBeyondAttackDamageAttenuationConfigTemplateFieldBuilder() {
         if (beyondAttackDamageAttenuationConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 18)) {
-            detail_ = emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate.getDefaultInstance();
           }
           beyondAttackDamageAttenuationConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate, emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate._BeyondAttackDamageAttenuationConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate, emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass._BeyondAttackDamageAttenuationConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3306,7 +3306,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate, emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplateOrBuilder> beyondNormalStuffConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate, emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplateOrBuilder> beyondNormalStuffConfigTemplateBuilder_;
       /**
        * <code>._BeyondNormalStuffConfigTemplate beyond_normal_stuff_config_template = 19;</code>
        * @return Whether the beyondNormalStuffConfigTemplate field is set.
@@ -3320,23 +3320,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondNormalStuffConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate getBeyondNormalStuffConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate getBeyondNormalStuffConfigTemplate() {
         if (beyondNormalStuffConfigTemplateBuilder_ == null) {
           if (detailCase_ == 19) {
-            return (emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 19) {
             return beyondNormalStuffConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondNormalStuffConfigTemplate beyond_normal_stuff_config_template = 19;</code>
        */
-      public Builder setBeyondNormalStuffConfigTemplate(emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate value) {
+      public Builder setBeyondNormalStuffConfigTemplate(emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate value) {
         if (beyondNormalStuffConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3353,7 +3353,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondNormalStuffConfigTemplate beyond_normal_stuff_config_template = 19;</code>
        */
       public Builder setBeyondNormalStuffConfigTemplate(
-          emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate.Builder builderForValue) {
         if (beyondNormalStuffConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3366,11 +3366,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondNormalStuffConfigTemplate beyond_normal_stuff_config_template = 19;</code>
        */
-      public Builder mergeBeyondNormalStuffConfigTemplate(emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate value) {
+      public Builder mergeBeyondNormalStuffConfigTemplate(emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate value) {
         if (beyondNormalStuffConfigTemplateBuilder_ == null) {
           if (detailCase_ == 19 &&
-              detail_ != emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3407,36 +3407,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondNormalStuffConfigTemplate beyond_normal_stuff_config_template = 19;</code>
        */
-      public emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate.Builder getBeyondNormalStuffConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate.Builder getBeyondNormalStuffConfigTemplateBuilder() {
         return getBeyondNormalStuffConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondNormalStuffConfigTemplate beyond_normal_stuff_config_template = 19;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplateOrBuilder getBeyondNormalStuffConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplateOrBuilder getBeyondNormalStuffConfigTemplateOrBuilder() {
         if ((detailCase_ == 19) && (beyondNormalStuffConfigTemplateBuilder_ != null)) {
           return beyondNormalStuffConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 19) {
-            return (emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondNormalStuffConfigTemplate beyond_normal_stuff_config_template = 19;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate, emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate, emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplateOrBuilder> 
           getBeyondNormalStuffConfigTemplateFieldBuilder() {
         if (beyondNormalStuffConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 19)) {
-            detail_ = emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate.getDefaultInstance();
           }
           beyondNormalStuffConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate, emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate._BeyondNormalStuffConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate, emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass._BeyondNormalStuffConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3447,7 +3447,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate, emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplateOrBuilder> beyondEquipStuffConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate, emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplateOrBuilder> beyondEquipStuffConfigTemplateBuilder_;
       /**
        * <code>._BeyondEquipStuffConfigTemplate beyond_equip_stuff_config_template = 20;</code>
        * @return Whether the beyondEquipStuffConfigTemplate field is set.
@@ -3461,23 +3461,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondEquipStuffConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate getBeyondEquipStuffConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate getBeyondEquipStuffConfigTemplate() {
         if (beyondEquipStuffConfigTemplateBuilder_ == null) {
           if (detailCase_ == 20) {
-            return (emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 20) {
             return beyondEquipStuffConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondEquipStuffConfigTemplate beyond_equip_stuff_config_template = 20;</code>
        */
-      public Builder setBeyondEquipStuffConfigTemplate(emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate value) {
+      public Builder setBeyondEquipStuffConfigTemplate(emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate value) {
         if (beyondEquipStuffConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3494,7 +3494,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondEquipStuffConfigTemplate beyond_equip_stuff_config_template = 20;</code>
        */
       public Builder setBeyondEquipStuffConfigTemplate(
-          emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate.Builder builderForValue) {
         if (beyondEquipStuffConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3507,11 +3507,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondEquipStuffConfigTemplate beyond_equip_stuff_config_template = 20;</code>
        */
-      public Builder mergeBeyondEquipStuffConfigTemplate(emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate value) {
+      public Builder mergeBeyondEquipStuffConfigTemplate(emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate value) {
         if (beyondEquipStuffConfigTemplateBuilder_ == null) {
           if (detailCase_ == 20 &&
-              detail_ != emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3548,36 +3548,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondEquipStuffConfigTemplate beyond_equip_stuff_config_template = 20;</code>
        */
-      public emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate.Builder getBeyondEquipStuffConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate.Builder getBeyondEquipStuffConfigTemplateBuilder() {
         return getBeyondEquipStuffConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondEquipStuffConfigTemplate beyond_equip_stuff_config_template = 20;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplateOrBuilder getBeyondEquipStuffConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplateOrBuilder getBeyondEquipStuffConfigTemplateOrBuilder() {
         if ((detailCase_ == 20) && (beyondEquipStuffConfigTemplateBuilder_ != null)) {
           return beyondEquipStuffConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 20) {
-            return (emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondEquipStuffConfigTemplate beyond_equip_stuff_config_template = 20;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate, emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate, emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplateOrBuilder> 
           getBeyondEquipStuffConfigTemplateFieldBuilder() {
         if (beyondEquipStuffConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 20)) {
-            detail_ = emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate.getDefaultInstance();
           }
           beyondEquipStuffConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate, emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate._BeyondEquipStuffConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate, emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass._BeyondEquipStuffConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3588,7 +3588,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate, emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplateOrBuilder> beyondCurrencyConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate, emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplateOrBuilder> beyondCurrencyConfigTemplateBuilder_;
       /**
        * <code>._BeyondCurrencyConfigTemplate beyond_currency_config_template = 21;</code>
        * @return Whether the beyondCurrencyConfigTemplate field is set.
@@ -3602,23 +3602,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondCurrencyConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate getBeyondCurrencyConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate getBeyondCurrencyConfigTemplate() {
         if (beyondCurrencyConfigTemplateBuilder_ == null) {
           if (detailCase_ == 21) {
-            return (emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 21) {
             return beyondCurrencyConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondCurrencyConfigTemplate beyond_currency_config_template = 21;</code>
        */
-      public Builder setBeyondCurrencyConfigTemplate(emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate value) {
+      public Builder setBeyondCurrencyConfigTemplate(emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate value) {
         if (beyondCurrencyConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3635,7 +3635,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondCurrencyConfigTemplate beyond_currency_config_template = 21;</code>
        */
       public Builder setBeyondCurrencyConfigTemplate(
-          emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate.Builder builderForValue) {
         if (beyondCurrencyConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3648,11 +3648,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondCurrencyConfigTemplate beyond_currency_config_template = 21;</code>
        */
-      public Builder mergeBeyondCurrencyConfigTemplate(emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate value) {
+      public Builder mergeBeyondCurrencyConfigTemplate(emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate value) {
         if (beyondCurrencyConfigTemplateBuilder_ == null) {
           if (detailCase_ == 21 &&
-              detail_ != emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3689,36 +3689,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondCurrencyConfigTemplate beyond_currency_config_template = 21;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate.Builder getBeyondCurrencyConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate.Builder getBeyondCurrencyConfigTemplateBuilder() {
         return getBeyondCurrencyConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondCurrencyConfigTemplate beyond_currency_config_template = 21;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplateOrBuilder getBeyondCurrencyConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplateOrBuilder getBeyondCurrencyConfigTemplateOrBuilder() {
         if ((detailCase_ == 21) && (beyondCurrencyConfigTemplateBuilder_ != null)) {
           return beyondCurrencyConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 21) {
-            return (emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondCurrencyConfigTemplate beyond_currency_config_template = 21;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate, emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate, emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplateOrBuilder> 
           getBeyondCurrencyConfigTemplateFieldBuilder() {
         if (beyondCurrencyConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 21)) {
-            detail_ = emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate.getDefaultInstance();
           }
           beyondCurrencyConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate, emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate._BeyondCurrencyConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate, emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass._BeyondCurrencyConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3729,7 +3729,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate, emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplateOrBuilder> beyondStuffBagConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate, emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplateOrBuilder> beyondStuffBagConfigTemplateBuilder_;
       /**
        * <code>._BeyondStuffBagConfigTemplate beyond_stuff_bag_config_template = 22;</code>
        * @return Whether the beyondStuffBagConfigTemplate field is set.
@@ -3743,23 +3743,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondStuffBagConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate getBeyondStuffBagConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate getBeyondStuffBagConfigTemplate() {
         if (beyondStuffBagConfigTemplateBuilder_ == null) {
           if (detailCase_ == 22) {
-            return (emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 22) {
             return beyondStuffBagConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondStuffBagConfigTemplate beyond_stuff_bag_config_template = 22;</code>
        */
-      public Builder setBeyondStuffBagConfigTemplate(emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate value) {
+      public Builder setBeyondStuffBagConfigTemplate(emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate value) {
         if (beyondStuffBagConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3776,7 +3776,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondStuffBagConfigTemplate beyond_stuff_bag_config_template = 22;</code>
        */
       public Builder setBeyondStuffBagConfigTemplate(
-          emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate.Builder builderForValue) {
         if (beyondStuffBagConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3789,11 +3789,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondStuffBagConfigTemplate beyond_stuff_bag_config_template = 22;</code>
        */
-      public Builder mergeBeyondStuffBagConfigTemplate(emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate value) {
+      public Builder mergeBeyondStuffBagConfigTemplate(emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate value) {
         if (beyondStuffBagConfigTemplateBuilder_ == null) {
           if (detailCase_ == 22 &&
-              detail_ != emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3830,36 +3830,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondStuffBagConfigTemplate beyond_stuff_bag_config_template = 22;</code>
        */
-      public emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate.Builder getBeyondStuffBagConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate.Builder getBeyondStuffBagConfigTemplateBuilder() {
         return getBeyondStuffBagConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondStuffBagConfigTemplate beyond_stuff_bag_config_template = 22;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplateOrBuilder getBeyondStuffBagConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplateOrBuilder getBeyondStuffBagConfigTemplateOrBuilder() {
         if ((detailCase_ == 22) && (beyondStuffBagConfigTemplateBuilder_ != null)) {
           return beyondStuffBagConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 22) {
-            return (emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondStuffBagConfigTemplate beyond_stuff_bag_config_template = 22;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate, emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate, emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplateOrBuilder> 
           getBeyondStuffBagConfigTemplateFieldBuilder() {
         if (beyondStuffBagConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 22)) {
-            detail_ = emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate.getDefaultInstance();
           }
           beyondStuffBagConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate, emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate._BeyondStuffBagConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate, emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass._BeyondStuffBagConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3870,7 +3870,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate, emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplateOrBuilder> beyondEquipStuffBagConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate, emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplateOrBuilder> beyondEquipStuffBagConfigTemplateBuilder_;
       /**
        * <code>._BeyondEquipStuffBagConfigTemplate beyond_equip_stuff_bag_config_template = 23;</code>
        * @return Whether the beyondEquipStuffBagConfigTemplate field is set.
@@ -3884,23 +3884,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondEquipStuffBagConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate getBeyondEquipStuffBagConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate getBeyondEquipStuffBagConfigTemplate() {
         if (beyondEquipStuffBagConfigTemplateBuilder_ == null) {
           if (detailCase_ == 23) {
-            return (emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 23) {
             return beyondEquipStuffBagConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondEquipStuffBagConfigTemplate beyond_equip_stuff_bag_config_template = 23;</code>
        */
-      public Builder setBeyondEquipStuffBagConfigTemplate(emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate value) {
+      public Builder setBeyondEquipStuffBagConfigTemplate(emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate value) {
         if (beyondEquipStuffBagConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3917,7 +3917,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondEquipStuffBagConfigTemplate beyond_equip_stuff_bag_config_template = 23;</code>
        */
       public Builder setBeyondEquipStuffBagConfigTemplate(
-          emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate.Builder builderForValue) {
         if (beyondEquipStuffBagConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3930,11 +3930,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondEquipStuffBagConfigTemplate beyond_equip_stuff_bag_config_template = 23;</code>
        */
-      public Builder mergeBeyondEquipStuffBagConfigTemplate(emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate value) {
+      public Builder mergeBeyondEquipStuffBagConfigTemplate(emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate value) {
         if (beyondEquipStuffBagConfigTemplateBuilder_ == null) {
           if (detailCase_ == 23 &&
-              detail_ != emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3971,36 +3971,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondEquipStuffBagConfigTemplate beyond_equip_stuff_bag_config_template = 23;</code>
        */
-      public emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate.Builder getBeyondEquipStuffBagConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate.Builder getBeyondEquipStuffBagConfigTemplateBuilder() {
         return getBeyondEquipStuffBagConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondEquipStuffBagConfigTemplate beyond_equip_stuff_bag_config_template = 23;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplateOrBuilder getBeyondEquipStuffBagConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplateOrBuilder getBeyondEquipStuffBagConfigTemplateOrBuilder() {
         if ((detailCase_ == 23) && (beyondEquipStuffBagConfigTemplateBuilder_ != null)) {
           return beyondEquipStuffBagConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 23) {
-            return (emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondEquipStuffBagConfigTemplate beyond_equip_stuff_bag_config_template = 23;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate, emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate, emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplateOrBuilder> 
           getBeyondEquipStuffBagConfigTemplateFieldBuilder() {
         if (beyondEquipStuffBagConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 23)) {
-            detail_ = emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate.getDefaultInstance();
           }
           beyondEquipStuffBagConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate, emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate._BeyondEquipStuffBagConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate, emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass._BeyondEquipStuffBagConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -4011,7 +4011,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate, emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplateOrBuilder> beyondEquipStuffTypeConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate, emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplateOrBuilder> beyondEquipStuffTypeConfigTemplateBuilder_;
       /**
        * <code>._BeyondEquipStuffTypeConfigTemplate beyond_equip_stuff_type_config_template = 24;</code>
        * @return Whether the beyondEquipStuffTypeConfigTemplate field is set.
@@ -4025,23 +4025,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondEquipStuffTypeConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate getBeyondEquipStuffTypeConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate getBeyondEquipStuffTypeConfigTemplate() {
         if (beyondEquipStuffTypeConfigTemplateBuilder_ == null) {
           if (detailCase_ == 24) {
-            return (emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 24) {
             return beyondEquipStuffTypeConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondEquipStuffTypeConfigTemplate beyond_equip_stuff_type_config_template = 24;</code>
        */
-      public Builder setBeyondEquipStuffTypeConfigTemplate(emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate value) {
+      public Builder setBeyondEquipStuffTypeConfigTemplate(emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate value) {
         if (beyondEquipStuffTypeConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4058,7 +4058,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondEquipStuffTypeConfigTemplate beyond_equip_stuff_type_config_template = 24;</code>
        */
       public Builder setBeyondEquipStuffTypeConfigTemplate(
-          emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate.Builder builderForValue) {
         if (beyondEquipStuffTypeConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -4071,11 +4071,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondEquipStuffTypeConfigTemplate beyond_equip_stuff_type_config_template = 24;</code>
        */
-      public Builder mergeBeyondEquipStuffTypeConfigTemplate(emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate value) {
+      public Builder mergeBeyondEquipStuffTypeConfigTemplate(emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate value) {
         if (beyondEquipStuffTypeConfigTemplateBuilder_ == null) {
           if (detailCase_ == 24 &&
-              detail_ != emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -4112,36 +4112,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondEquipStuffTypeConfigTemplate beyond_equip_stuff_type_config_template = 24;</code>
        */
-      public emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate.Builder getBeyondEquipStuffTypeConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate.Builder getBeyondEquipStuffTypeConfigTemplateBuilder() {
         return getBeyondEquipStuffTypeConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondEquipStuffTypeConfigTemplate beyond_equip_stuff_type_config_template = 24;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplateOrBuilder getBeyondEquipStuffTypeConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplateOrBuilder getBeyondEquipStuffTypeConfigTemplateOrBuilder() {
         if ((detailCase_ == 24) && (beyondEquipStuffTypeConfigTemplateBuilder_ != null)) {
           return beyondEquipStuffTypeConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 24) {
-            return (emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondEquipStuffTypeConfigTemplate beyond_equip_stuff_type_config_template = 24;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate, emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate, emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplateOrBuilder> 
           getBeyondEquipStuffTypeConfigTemplateFieldBuilder() {
         if (beyondEquipStuffTypeConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 24)) {
-            detail_ = emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate.getDefaultInstance();
           }
           beyondEquipStuffTypeConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate, emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate._BeyondEquipStuffTypeConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate, emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass._BeyondEquipStuffTypeConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -4152,7 +4152,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate, emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplateOrBuilder> beyondEquipStuffTagConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate, emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplateOrBuilder> beyondEquipStuffTagConfigTemplateBuilder_;
       /**
        * <code>._BeyondEquipStuffTagConfigTemplate beyond_equip_stuff_tag_config_template = 25;</code>
        * @return Whether the beyondEquipStuffTagConfigTemplate field is set.
@@ -4166,23 +4166,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondEquipStuffTagConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate getBeyondEquipStuffTagConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate getBeyondEquipStuffTagConfigTemplate() {
         if (beyondEquipStuffTagConfigTemplateBuilder_ == null) {
           if (detailCase_ == 25) {
-            return (emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 25) {
             return beyondEquipStuffTagConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondEquipStuffTagConfigTemplate beyond_equip_stuff_tag_config_template = 25;</code>
        */
-      public Builder setBeyondEquipStuffTagConfigTemplate(emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate value) {
+      public Builder setBeyondEquipStuffTagConfigTemplate(emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate value) {
         if (beyondEquipStuffTagConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4199,7 +4199,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondEquipStuffTagConfigTemplate beyond_equip_stuff_tag_config_template = 25;</code>
        */
       public Builder setBeyondEquipStuffTagConfigTemplate(
-          emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate.Builder builderForValue) {
         if (beyondEquipStuffTagConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -4212,11 +4212,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondEquipStuffTagConfigTemplate beyond_equip_stuff_tag_config_template = 25;</code>
        */
-      public Builder mergeBeyondEquipStuffTagConfigTemplate(emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate value) {
+      public Builder mergeBeyondEquipStuffTagConfigTemplate(emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate value) {
         if (beyondEquipStuffTagConfigTemplateBuilder_ == null) {
           if (detailCase_ == 25 &&
-              detail_ != emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -4253,36 +4253,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondEquipStuffTagConfigTemplate beyond_equip_stuff_tag_config_template = 25;</code>
        */
-      public emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate.Builder getBeyondEquipStuffTagConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate.Builder getBeyondEquipStuffTagConfigTemplateBuilder() {
         return getBeyondEquipStuffTagConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondEquipStuffTagConfigTemplate beyond_equip_stuff_tag_config_template = 25;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplateOrBuilder getBeyondEquipStuffTagConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplateOrBuilder getBeyondEquipStuffTagConfigTemplateOrBuilder() {
         if ((detailCase_ == 25) && (beyondEquipStuffTagConfigTemplateBuilder_ != null)) {
           return beyondEquipStuffTagConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 25) {
-            return (emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondEquipStuffTagConfigTemplate beyond_equip_stuff_tag_config_template = 25;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate, emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate, emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplateOrBuilder> 
           getBeyondEquipStuffTagConfigTemplateFieldBuilder() {
         if (beyondEquipStuffTagConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 25)) {
-            detail_ = emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate.getDefaultInstance();
           }
           beyondEquipStuffTagConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate, emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate._BeyondEquipStuffTagConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate, emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass._BeyondEquipStuffTagConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -4293,7 +4293,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate, emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplateOrBuilder> beyondEquipStuffAffixConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate, emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplateOrBuilder> beyondEquipStuffAffixConfigTemplateBuilder_;
       /**
        * <code>._BeyondEquipStuffAffixConfigTemplate beyond_equip_stuff_affix_config_template = 26;</code>
        * @return Whether the beyondEquipStuffAffixConfigTemplate field is set.
@@ -4307,23 +4307,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondEquipStuffAffixConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate getBeyondEquipStuffAffixConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate getBeyondEquipStuffAffixConfigTemplate() {
         if (beyondEquipStuffAffixConfigTemplateBuilder_ == null) {
           if (detailCase_ == 26) {
-            return (emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 26) {
             return beyondEquipStuffAffixConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondEquipStuffAffixConfigTemplate beyond_equip_stuff_affix_config_template = 26;</code>
        */
-      public Builder setBeyondEquipStuffAffixConfigTemplate(emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate value) {
+      public Builder setBeyondEquipStuffAffixConfigTemplate(emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate value) {
         if (beyondEquipStuffAffixConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4340,7 +4340,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondEquipStuffAffixConfigTemplate beyond_equip_stuff_affix_config_template = 26;</code>
        */
       public Builder setBeyondEquipStuffAffixConfigTemplate(
-          emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate.Builder builderForValue) {
         if (beyondEquipStuffAffixConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -4353,11 +4353,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondEquipStuffAffixConfigTemplate beyond_equip_stuff_affix_config_template = 26;</code>
        */
-      public Builder mergeBeyondEquipStuffAffixConfigTemplate(emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate value) {
+      public Builder mergeBeyondEquipStuffAffixConfigTemplate(emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate value) {
         if (beyondEquipStuffAffixConfigTemplateBuilder_ == null) {
           if (detailCase_ == 26 &&
-              detail_ != emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -4394,36 +4394,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondEquipStuffAffixConfigTemplate beyond_equip_stuff_affix_config_template = 26;</code>
        */
-      public emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate.Builder getBeyondEquipStuffAffixConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate.Builder getBeyondEquipStuffAffixConfigTemplateBuilder() {
         return getBeyondEquipStuffAffixConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondEquipStuffAffixConfigTemplate beyond_equip_stuff_affix_config_template = 26;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplateOrBuilder getBeyondEquipStuffAffixConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplateOrBuilder getBeyondEquipStuffAffixConfigTemplateOrBuilder() {
         if ((detailCase_ == 26) && (beyondEquipStuffAffixConfigTemplateBuilder_ != null)) {
           return beyondEquipStuffAffixConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 26) {
-            return (emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondEquipStuffAffixConfigTemplate beyond_equip_stuff_affix_config_template = 26;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate, emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate, emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplateOrBuilder> 
           getBeyondEquipStuffAffixConfigTemplateFieldBuilder() {
         if (beyondEquipStuffAffixConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 26)) {
-            detail_ = emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate.getDefaultInstance();
           }
           beyondEquipStuffAffixConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate, emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate._BeyondEquipStuffAffixConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate, emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass._BeyondEquipStuffAffixConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -4434,7 +4434,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate, emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplateOrBuilder> beyondShopConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate, emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplateOrBuilder> beyondShopConfigTemplateBuilder_;
       /**
        * <code>._BeyondShopConfigTemplate beyond_shop_config_template = 27;</code>
        * @return Whether the beyondShopConfigTemplate field is set.
@@ -4448,23 +4448,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondShopConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate getBeyondShopConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate getBeyondShopConfigTemplate() {
         if (beyondShopConfigTemplateBuilder_ == null) {
           if (detailCase_ == 27) {
-            return (emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 27) {
             return beyondShopConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondShopConfigTemplate beyond_shop_config_template = 27;</code>
        */
-      public Builder setBeyondShopConfigTemplate(emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate value) {
+      public Builder setBeyondShopConfigTemplate(emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate value) {
         if (beyondShopConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4481,7 +4481,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondShopConfigTemplate beyond_shop_config_template = 27;</code>
        */
       public Builder setBeyondShopConfigTemplate(
-          emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate.Builder builderForValue) {
         if (beyondShopConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -4494,11 +4494,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondShopConfigTemplate beyond_shop_config_template = 27;</code>
        */
-      public Builder mergeBeyondShopConfigTemplate(emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate value) {
+      public Builder mergeBeyondShopConfigTemplate(emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate value) {
         if (beyondShopConfigTemplateBuilder_ == null) {
           if (detailCase_ == 27 &&
-              detail_ != emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -4535,36 +4535,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondShopConfigTemplate beyond_shop_config_template = 27;</code>
        */
-      public emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate.Builder getBeyondShopConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate.Builder getBeyondShopConfigTemplateBuilder() {
         return getBeyondShopConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondShopConfigTemplate beyond_shop_config_template = 27;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplateOrBuilder getBeyondShopConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplateOrBuilder getBeyondShopConfigTemplateOrBuilder() {
         if ((detailCase_ == 27) && (beyondShopConfigTemplateBuilder_ != null)) {
           return beyondShopConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 27) {
-            return (emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondShopConfigTemplate beyond_shop_config_template = 27;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate, emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate, emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplateOrBuilder> 
           getBeyondShopConfigTemplateFieldBuilder() {
         if (beyondShopConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 27)) {
-            detail_ = emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate.getDefaultInstance();
           }
           beyondShopConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate, emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondShopConfigTemplate._BeyondShopConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate, emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass._BeyondShopConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -4575,7 +4575,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate, emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplateOrBuilder> beyondScanEntitySubTagConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate, emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplateOrBuilder> beyondScanEntitySubTagConfigTemplateBuilder_;
       /**
        * <code>._BeyondScanEntitySubTagConfigTemplate beyond_scan_entity_sub_tag_config_template = 28;</code>
        * @return Whether the beyondScanEntitySubTagConfigTemplate field is set.
@@ -4589,23 +4589,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondScanEntitySubTagConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate getBeyondScanEntitySubTagConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate getBeyondScanEntitySubTagConfigTemplate() {
         if (beyondScanEntitySubTagConfigTemplateBuilder_ == null) {
           if (detailCase_ == 28) {
-            return (emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 28) {
             return beyondScanEntitySubTagConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondScanEntitySubTagConfigTemplate beyond_scan_entity_sub_tag_config_template = 28;</code>
        */
-      public Builder setBeyondScanEntitySubTagConfigTemplate(emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate value) {
+      public Builder setBeyondScanEntitySubTagConfigTemplate(emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate value) {
         if (beyondScanEntitySubTagConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4622,7 +4622,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondScanEntitySubTagConfigTemplate beyond_scan_entity_sub_tag_config_template = 28;</code>
        */
       public Builder setBeyondScanEntitySubTagConfigTemplate(
-          emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate.Builder builderForValue) {
         if (beyondScanEntitySubTagConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -4635,11 +4635,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondScanEntitySubTagConfigTemplate beyond_scan_entity_sub_tag_config_template = 28;</code>
        */
-      public Builder mergeBeyondScanEntitySubTagConfigTemplate(emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate value) {
+      public Builder mergeBeyondScanEntitySubTagConfigTemplate(emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate value) {
         if (beyondScanEntitySubTagConfigTemplateBuilder_ == null) {
           if (detailCase_ == 28 &&
-              detail_ != emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -4676,36 +4676,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondScanEntitySubTagConfigTemplate beyond_scan_entity_sub_tag_config_template = 28;</code>
        */
-      public emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate.Builder getBeyondScanEntitySubTagConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate.Builder getBeyondScanEntitySubTagConfigTemplateBuilder() {
         return getBeyondScanEntitySubTagConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondScanEntitySubTagConfigTemplate beyond_scan_entity_sub_tag_config_template = 28;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplateOrBuilder getBeyondScanEntitySubTagConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplateOrBuilder getBeyondScanEntitySubTagConfigTemplateOrBuilder() {
         if ((detailCase_ == 28) && (beyondScanEntitySubTagConfigTemplateBuilder_ != null)) {
           return beyondScanEntitySubTagConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 28) {
-            return (emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondScanEntitySubTagConfigTemplate beyond_scan_entity_sub_tag_config_template = 28;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate, emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate, emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplateOrBuilder> 
           getBeyondScanEntitySubTagConfigTemplateFieldBuilder() {
         if (beyondScanEntitySubTagConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 28)) {
-            detail_ = emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate.getDefaultInstance();
           }
           beyondScanEntitySubTagConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate, emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate._BeyondScanEntitySubTagConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate, emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass._BeyondScanEntitySubTagConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -4716,7 +4716,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate, emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplateOrBuilder> beyondShieldConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate, emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplateOrBuilder> beyondShieldConfigTemplateBuilder_;
       /**
        * <code>._BeyondShieldConfigTemplate beyond_shield_config_template = 29;</code>
        * @return Whether the beyondShieldConfigTemplate field is set.
@@ -4730,23 +4730,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondShieldConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate getBeyondShieldConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate getBeyondShieldConfigTemplate() {
         if (beyondShieldConfigTemplateBuilder_ == null) {
           if (detailCase_ == 29) {
-            return (emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 29) {
             return beyondShieldConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondShieldConfigTemplate beyond_shield_config_template = 29;</code>
        */
-      public Builder setBeyondShieldConfigTemplate(emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate value) {
+      public Builder setBeyondShieldConfigTemplate(emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate value) {
         if (beyondShieldConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4763,7 +4763,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondShieldConfigTemplate beyond_shield_config_template = 29;</code>
        */
       public Builder setBeyondShieldConfigTemplate(
-          emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate.Builder builderForValue) {
         if (beyondShieldConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -4776,11 +4776,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondShieldConfigTemplate beyond_shield_config_template = 29;</code>
        */
-      public Builder mergeBeyondShieldConfigTemplate(emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate value) {
+      public Builder mergeBeyondShieldConfigTemplate(emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate value) {
         if (beyondShieldConfigTemplateBuilder_ == null) {
           if (detailCase_ == 29 &&
-              detail_ != emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -4817,36 +4817,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondShieldConfigTemplate beyond_shield_config_template = 29;</code>
        */
-      public emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate.Builder getBeyondShieldConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate.Builder getBeyondShieldConfigTemplateBuilder() {
         return getBeyondShieldConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondShieldConfigTemplate beyond_shield_config_template = 29;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplateOrBuilder getBeyondShieldConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplateOrBuilder getBeyondShieldConfigTemplateOrBuilder() {
         if ((detailCase_ == 29) && (beyondShieldConfigTemplateBuilder_ != null)) {
           return beyondShieldConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 29) {
-            return (emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondShieldConfigTemplate beyond_shield_config_template = 29;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate, emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate, emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplateOrBuilder> 
           getBeyondShieldConfigTemplateFieldBuilder() {
         if (beyondShieldConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 29)) {
-            detail_ = emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate.getDefaultInstance();
           }
           beyondShieldConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate, emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondShieldConfigTemplate._BeyondShieldConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate, emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass._BeyondShieldConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -4857,7 +4857,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate, emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplateOrBuilder> beyondPropertyGroupConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate, emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplateOrBuilder> beyondPropertyGroupConfigTemplateBuilder_;
       /**
        * <code>._BeyondPropertyGroupConfigTemplate beyond_property_group_config_template = 30;</code>
        * @return Whether the beyondPropertyGroupConfigTemplate field is set.
@@ -4871,23 +4871,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondPropertyGroupConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate getBeyondPropertyGroupConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate getBeyondPropertyGroupConfigTemplate() {
         if (beyondPropertyGroupConfigTemplateBuilder_ == null) {
           if (detailCase_ == 30) {
-            return (emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 30) {
             return beyondPropertyGroupConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondPropertyGroupConfigTemplate beyond_property_group_config_template = 30;</code>
        */
-      public Builder setBeyondPropertyGroupConfigTemplate(emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate value) {
+      public Builder setBeyondPropertyGroupConfigTemplate(emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate value) {
         if (beyondPropertyGroupConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4904,7 +4904,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondPropertyGroupConfigTemplate beyond_property_group_config_template = 30;</code>
        */
       public Builder setBeyondPropertyGroupConfigTemplate(
-          emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate.Builder builderForValue) {
         if (beyondPropertyGroupConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -4917,11 +4917,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondPropertyGroupConfigTemplate beyond_property_group_config_template = 30;</code>
        */
-      public Builder mergeBeyondPropertyGroupConfigTemplate(emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate value) {
+      public Builder mergeBeyondPropertyGroupConfigTemplate(emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate value) {
         if (beyondPropertyGroupConfigTemplateBuilder_ == null) {
           if (detailCase_ == 30 &&
-              detail_ != emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -4958,36 +4958,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondPropertyGroupConfigTemplate beyond_property_group_config_template = 30;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate.Builder getBeyondPropertyGroupConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate.Builder getBeyondPropertyGroupConfigTemplateBuilder() {
         return getBeyondPropertyGroupConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondPropertyGroupConfigTemplate beyond_property_group_config_template = 30;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplateOrBuilder getBeyondPropertyGroupConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplateOrBuilder getBeyondPropertyGroupConfigTemplateOrBuilder() {
         if ((detailCase_ == 30) && (beyondPropertyGroupConfigTemplateBuilder_ != null)) {
           return beyondPropertyGroupConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 30) {
-            return (emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondPropertyGroupConfigTemplate beyond_property_group_config_template = 30;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate, emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate, emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplateOrBuilder> 
           getBeyondPropertyGroupConfigTemplateFieldBuilder() {
         if (beyondPropertyGroupConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 30)) {
-            detail_ = emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate.getDefaultInstance();
           }
           beyondPropertyGroupConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate, emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate._BeyondPropertyGroupConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate, emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass._BeyondPropertyGroupConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -4998,7 +4998,7 @@ public final class PGFPPAECOLFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate, emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplateOrBuilder> beyondEffectTimelineConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate, emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplateOrBuilder> beyondEffectTimelineConfigTemplateBuilder_;
       /**
        * <code>._BeyondEffectTimelineConfigTemplate beyond_effect_timeline_config_template = 31;</code>
        * @return Whether the beyondEffectTimelineConfigTemplate field is set.
@@ -5012,23 +5012,23 @@ public final class PGFPPAECOLFOuterClass {
        * @return The beyondEffectTimelineConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate getBeyondEffectTimelineConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate getBeyondEffectTimelineConfigTemplate() {
         if (beyondEffectTimelineConfigTemplateBuilder_ == null) {
           if (detailCase_ == 31) {
-            return (emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 31) {
             return beyondEffectTimelineConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondEffectTimelineConfigTemplate beyond_effect_timeline_config_template = 31;</code>
        */
-      public Builder setBeyondEffectTimelineConfigTemplate(emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate value) {
+      public Builder setBeyondEffectTimelineConfigTemplate(emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate value) {
         if (beyondEffectTimelineConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5045,7 +5045,7 @@ public final class PGFPPAECOLFOuterClass {
        * <code>._BeyondEffectTimelineConfigTemplate beyond_effect_timeline_config_template = 31;</code>
        */
       public Builder setBeyondEffectTimelineConfigTemplate(
-          emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate.Builder builderForValue) {
         if (beyondEffectTimelineConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -5058,11 +5058,11 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondEffectTimelineConfigTemplate beyond_effect_timeline_config_template = 31;</code>
        */
-      public Builder mergeBeyondEffectTimelineConfigTemplate(emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate value) {
+      public Builder mergeBeyondEffectTimelineConfigTemplate(emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate value) {
         if (beyondEffectTimelineConfigTemplateBuilder_ == null) {
           if (detailCase_ == 31 &&
-              detail_ != emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -5099,36 +5099,36 @@ public final class PGFPPAECOLFOuterClass {
       /**
        * <code>._BeyondEffectTimelineConfigTemplate beyond_effect_timeline_config_template = 31;</code>
        */
-      public emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate.Builder getBeyondEffectTimelineConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate.Builder getBeyondEffectTimelineConfigTemplateBuilder() {
         return getBeyondEffectTimelineConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondEffectTimelineConfigTemplate beyond_effect_timeline_config_template = 31;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplateOrBuilder getBeyondEffectTimelineConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplateOrBuilder getBeyondEffectTimelineConfigTemplateOrBuilder() {
         if ((detailCase_ == 31) && (beyondEffectTimelineConfigTemplateBuilder_ != null)) {
           return beyondEffectTimelineConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 31) {
-            return (emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondEffectTimelineConfigTemplate beyond_effect_timeline_config_template = 31;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate, emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate, emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplateOrBuilder> 
           getBeyondEffectTimelineConfigTemplateFieldBuilder() {
         if (beyondEffectTimelineConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 31)) {
-            detail_ = emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate.getDefaultInstance();
           }
           beyondEffectTimelineConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate, emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate._BeyondEffectTimelineConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate, emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass._BeyondEffectTimelineConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -5268,33 +5268,33 @@ public final class PGFPPAECOLFOuterClass {
       "PropertyGroupConfigTemplateH\000\022V\n&beyond_" +
       "effect_timeline_config_template\030\037 \001(\0132$." +
       "_BeyondEffectTimelineConfigTemplateH\000B\010\n" +
-      "\006detailB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "\006detailB2\n\031emu.grasscutter.net.protoB\025PG" +
+      "FPPAECOLFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.JEMDCKGDLIGOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondDutyConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondEnergyConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondShieldConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondShopConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass.getDescriptor(),
         });
     internal_static_PGFPPAECOLF_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -5303,26 +5303,26 @@ public final class PGFPPAECOLFOuterClass {
         internal_static_PGFPPAECOLF_descriptor,
         new java.lang.String[] { "NLHIBDLIMEK", "BeyondRoleStatusConfigTemplate", "BeyondMonsterGrowCurveConfigTemplate", "BeyondDutyConfigTemplate", "BeyondDutyGrowCurveConfigTemplate", "BeyondCustomSkillConfigTemplate", "BeyondEnergyConfigTemplate", "BeyondAttackDamageAttenuationConfigTemplate", "BeyondNormalStuffConfigTemplate", "BeyondEquipStuffConfigTemplate", "BeyondCurrencyConfigTemplate", "BeyondStuffBagConfigTemplate", "BeyondEquipStuffBagConfigTemplate", "BeyondEquipStuffTypeConfigTemplate", "BeyondEquipStuffTagConfigTemplate", "BeyondEquipStuffAffixConfigTemplate", "BeyondShopConfigTemplate", "BeyondScanEntitySubTagConfigTemplate", "BeyondShieldConfigTemplate", "BeyondPropertyGroupConfigTemplate", "BeyondEffectTimelineConfigTemplate", "Detail", });
     emu.grasscutter.net.proto.JEMDCKGDLIGOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BeyondAttackDamageAttenuationConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondCurrencyConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondCustomSkillConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondDutyConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondDutyGrowCurveConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondEffectTimelineConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondEnergyConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondEquipStuffAffixConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondEquipStuffBagConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondEquipStuffConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondEquipStuffTagConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondEquipStuffTypeConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondMonsterGrowCurveConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondNormalStuffConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondPropertyGroupConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondRoleStatusConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondScanEntitySubTagConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondShieldConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondShopConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondStuffBagConfigTemplate.getDescriptor();
+    emu.grasscutter.net.proto._BeyondAttackDamageAttenuationConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondCurrencyConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondCustomSkillConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondDutyConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondDutyGrowCurveConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondEffectTimelineConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondEnergyConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondEquipStuffAffixConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondEquipStuffBagConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondEquipStuffConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondEquipStuffTagConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondEquipStuffTypeConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondMonsterGrowCurveConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondNormalStuffConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondPropertyGroupConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondRoleStatusConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondScanEntitySubTagConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondShieldConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondShopConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondStuffBagConfigTemplateOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

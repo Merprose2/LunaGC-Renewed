@@ -596,8 +596,9 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n!HomeAvatarRewardEventGetReq.proto\"B\n\033H" +
       "omeAvatarRewardEventGetReq\022\021\n\tavatar_id\030" +
-      "\007 \001(\r\022\020\n\010event_id\030\010 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\007 \001(\r\022\020\n\010event_id\030\010 \001(\rBB\n\031emu.grasscutt" +
+      "er.net.protoB%HomeAvatarRewardEventGetRe" +
+      "qOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

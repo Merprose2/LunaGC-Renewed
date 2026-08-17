@@ -1790,8 +1790,8 @@ public final class LHJFODFKJOKOuterClass {
       "KBIK\030\t \001(\004\022\023\n\013GCKIMJNKKBP\030\n \001(\010\022\023\n\013CCONJ" +
       "GLLFPB\030\013 \001(\010\022\023\n\013BCHCOIDLPKM\030\014 \001(\r\022\023\n\013BIE" +
       "DEFAGIEM\030\r \001(\r\022!\n\013JLCBMOPCFCJ\030\017 \001(\0132\014.LD" +
-      "KHBENHNCBB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "KHBENHNCBB2\n\031emu.grasscutter.net.protoB\025" +
+      "LHJFODFKJOKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

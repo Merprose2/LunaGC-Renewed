@@ -1130,8 +1130,8 @@ public final class FLDBIGLNAHGOuterClass {
       "\013FLDBIGLNAHG\022 \n\nbasic_info\030\001 \001(\0132\014.ACNBA" +
       "HIEHNF\022!\n\013JMHHLPMLABM\030\002 \001(\0132\014.BHIPFACMCJ" +
       "K\022!\n\013MKCAOBCPLKP\030\003 \001(\0132\014.DAGLCEGALFB\022\023\n\013" +
-      "OHHBJKGBECG\030\004 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "OHHBJKGBECG\030\004 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025FLDBIGLNAHGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

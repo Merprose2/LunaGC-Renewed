@@ -595,8 +595,9 @@ public final class NCIMNLFCIJNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NCIMNLFCIJN.proto\"7\n\013NCIMNLFCIJN\022\023\n\013NN" +
-      "AFLOGJOLM\030\007 \001(\r\022\023\n\013FMBMALLNAFO\030\017 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "AFLOGJOLM\030\007 \001(\r\022\023\n\013FMBMALLNAFO\030\017 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025NCIMNLFCIJNOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

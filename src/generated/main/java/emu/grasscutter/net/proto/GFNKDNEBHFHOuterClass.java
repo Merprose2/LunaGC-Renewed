@@ -819,7 +819,8 @@ public final class GFNKDNEBHFHOuterClass {
       "\n\021GFNKDNEBHFH.proto\"e\n\013GFNKDNEBHFH\022\030\n\020st" +
       "art_scene_time\030\003 \001(\r\022\023\n\013EDDJBOOPANA\030\006 \001(" +
       "\t\022\022\n\ngallery_id\030\t \001(\r\022\023\n\013GNBNOGJDGLB\030\r \001" +
-      "(\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\002B2\n\031emu.grasscutter.net.protoB\025GFNKDNE" +
+      "BHFHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

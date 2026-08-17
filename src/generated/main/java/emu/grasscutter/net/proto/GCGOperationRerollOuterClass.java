@@ -644,8 +644,9 @@ public final class GCGOperationRerollOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030GCGOperationReroll.proto\"-\n\022GCGOperati" +
-      "onReroll\022\027\n\017dice_index_list\030\013 \003(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "onReroll\022\027\n\017dice_index_list\030\013 \003(\rB9\n\031emu" +
+      ".grasscutter.net.protoB\034GCGOperationRero" +
+      "llOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

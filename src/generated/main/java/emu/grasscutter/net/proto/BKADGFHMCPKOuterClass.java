@@ -1477,8 +1477,8 @@ public final class BKADGFHMCPKOuterClass {
       "MCH\030\003 \001(\0132\014.JFGFNKFDBMM\022\023\n\013NAFDJNMLDBJ\030\004" +
       " \001(\r\022\023\n\013FEFIBKOGOJB\030\005 \001(\t\022\014\n\003key\030\365\003 \001(\t\022" +
       "\"\n\013IMBIHDBGJHK\030\366\003 \001(\0162\014.APIBGNMPLHD\022\013\n\002i" +
-      "d\030\367\003 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "d\030\367\003 \001(\rB2\n\031emu.grasscutter.net.protoB\025B" +
+      "KADGFHMCPKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

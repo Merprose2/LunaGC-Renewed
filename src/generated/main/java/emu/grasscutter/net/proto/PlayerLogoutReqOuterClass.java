@@ -749,8 +749,9 @@ public final class PlayerLogoutReqOuterClass {
       "_CLOSE\020\004\022\023\n\017Reason_GM_CLEAR\020\005\022\032\n\026Reason_" +
       "PLAYER_TRANSFER\020\006\022\"\n\036Reason_CLIENT_CHECK" +
       "SUM_INVALID\020\007\022\036\n\032Reason_MUIP_MOVE_SAVE_W" +
-      "AIT\020\010\022\032\n\026Reason_ASYNC_ADMIN_REQ\020\tB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "AIT\020\010\022\032\n\026Reason_ASYNC_ADMIN_REQ\020\tB6\n\031emu" +
+      ".grasscutter.net.protoB\031PlayerLogoutReqO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

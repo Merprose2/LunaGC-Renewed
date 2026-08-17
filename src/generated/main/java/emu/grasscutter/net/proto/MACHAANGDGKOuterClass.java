@@ -1060,8 +1060,9 @@ public final class MACHAANGDGKOuterClass {
       "\n\021MACHAANGDGK.proto\032\021HIKABNACEGJ.proto\"r" +
       "\n\013MACHAANGDGK\022\024\n\014dungeon_guid\030\001 \001(\004\022 \n\ne" +
       "xtra_info\030\002 \001(\0132\014.HIKABNACEGJ\022\020\n\010uid_lis" +
-      "t\030\003 \003(\r\022\014\n\004rank\030\004 \001(\r\022\013\n\003uid\030\005 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "t\030\003 \003(\r\022\014\n\004rank\030\004 \001(\r\022\013\n\003uid\030\005 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025MACHAANGDGKOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

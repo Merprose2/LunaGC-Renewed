@@ -595,8 +595,9 @@ public final class HALNKPCIHAJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HALNKPCIHAJ.proto\"2\n\013HALNKPCIHAJ\022\022\n\nre" +
-      "quest_id\030\005 \001(\r\022\017\n\007city_id\030\013 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "quest_id\030\005 \001(\r\022\017\n\007city_id\030\013 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025HALNKPCIHAJOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

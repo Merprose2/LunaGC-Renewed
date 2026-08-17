@@ -823,8 +823,8 @@ public final class GBLGAGAPIFEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GBLGAGAPIFE.proto\032\021ILMONMILAFC.proto\"0" +
       "\n\013GBLGAGAPIFE\022!\n\013avatar_list\030\013 \003(\0132\014.ILM" +
-      "ONMILAFCB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "ONMILAFCB2\n\031emu.grasscutter.net.protoB\025G" +
+      "BLGAGAPIFEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

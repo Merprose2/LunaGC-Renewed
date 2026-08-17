@@ -33,11 +33,11 @@ public final class MGNMMDLBGIMOuterClass {
      * <code>._UgcDungeonRoom MHGHJJPGKHM = 9;</code>
      * @return The mHGHJJPGKHM.
      */
-    emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom getMHGHJJPGKHM();
+    emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom getMHGHJJPGKHM();
     /**
      * <code>._UgcDungeonRoom MHGHJJPGKHM = 9;</code>
      */
-    emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoomOrBuilder getMHGHJJPGKHMOrBuilder();
+    emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoomOrBuilder getMHGHJJPGKHMOrBuilder();
   }
   /**
    * <pre>
@@ -94,11 +94,11 @@ public final class MGNMMDLBGIMOuterClass {
               break;
             }
             case 74: {
-              emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom.Builder subBuilder = null;
+              emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom.Builder subBuilder = null;
               if (mHGHJJPGKHM_ != null) {
                 subBuilder = mHGHJJPGKHM_.toBuilder();
               }
-              mHGHJJPGKHM_ = input.readMessage(emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom.parser(), extensionRegistry);
+              mHGHJJPGKHM_ = input.readMessage(emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(mHGHJJPGKHM_);
                 mHGHJJPGKHM_ = subBuilder.buildPartial();
@@ -150,7 +150,7 @@ public final class MGNMMDLBGIMOuterClass {
     }
 
     public static final int MHGHJJPGKHM_FIELD_NUMBER = 9;
-    private emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom mHGHJJPGKHM_;
+    private emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom mHGHJJPGKHM_;
     /**
      * <code>._UgcDungeonRoom MHGHJJPGKHM = 9;</code>
      * @return Whether the mHGHJJPGKHM field is set.
@@ -164,14 +164,14 @@ public final class MGNMMDLBGIMOuterClass {
      * @return The mHGHJJPGKHM.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom getMHGHJJPGKHM() {
-      return mHGHJJPGKHM_ == null ? emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom.getDefaultInstance() : mHGHJJPGKHM_;
+    public emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom getMHGHJJPGKHM() {
+      return mHGHJJPGKHM_ == null ? emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom.getDefaultInstance() : mHGHJJPGKHM_;
     }
     /**
      * <code>._UgcDungeonRoom MHGHJJPGKHM = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoomOrBuilder getMHGHJJPGKHMOrBuilder() {
+    public emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoomOrBuilder getMHGHJJPGKHMOrBuilder() {
       return getMHGHJJPGKHM();
     }
 
@@ -543,9 +543,9 @@ public final class MGNMMDLBGIMOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom mHGHJJPGKHM_;
+      private emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom mHGHJJPGKHM_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom, emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom.Builder, emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoomOrBuilder> mHGHJJPGKHMBuilder_;
+          emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom, emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom.Builder, emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoomOrBuilder> mHGHJJPGKHMBuilder_;
       /**
        * <code>._UgcDungeonRoom MHGHJJPGKHM = 9;</code>
        * @return Whether the mHGHJJPGKHM field is set.
@@ -557,9 +557,9 @@ public final class MGNMMDLBGIMOuterClass {
        * <code>._UgcDungeonRoom MHGHJJPGKHM = 9;</code>
        * @return The mHGHJJPGKHM.
        */
-      public emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom getMHGHJJPGKHM() {
+      public emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom getMHGHJJPGKHM() {
         if (mHGHJJPGKHMBuilder_ == null) {
-          return mHGHJJPGKHM_ == null ? emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom.getDefaultInstance() : mHGHJJPGKHM_;
+          return mHGHJJPGKHM_ == null ? emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom.getDefaultInstance() : mHGHJJPGKHM_;
         } else {
           return mHGHJJPGKHMBuilder_.getMessage();
         }
@@ -567,7 +567,7 @@ public final class MGNMMDLBGIMOuterClass {
       /**
        * <code>._UgcDungeonRoom MHGHJJPGKHM = 9;</code>
        */
-      public Builder setMHGHJJPGKHM(emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom value) {
+      public Builder setMHGHJJPGKHM(emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom value) {
         if (mHGHJJPGKHMBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -584,7 +584,7 @@ public final class MGNMMDLBGIMOuterClass {
        * <code>._UgcDungeonRoom MHGHJJPGKHM = 9;</code>
        */
       public Builder setMHGHJJPGKHM(
-          emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom.Builder builderForValue) {
+          emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom.Builder builderForValue) {
         if (mHGHJJPGKHMBuilder_ == null) {
           mHGHJJPGKHM_ = builderForValue.build();
           onChanged();
@@ -597,11 +597,11 @@ public final class MGNMMDLBGIMOuterClass {
       /**
        * <code>._UgcDungeonRoom MHGHJJPGKHM = 9;</code>
        */
-      public Builder mergeMHGHJJPGKHM(emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom value) {
+      public Builder mergeMHGHJJPGKHM(emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom value) {
         if (mHGHJJPGKHMBuilder_ == null) {
           if (mHGHJJPGKHM_ != null) {
             mHGHJJPGKHM_ =
-              emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom.newBuilder(mHGHJJPGKHM_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom.newBuilder(mHGHJJPGKHM_).mergeFrom(value).buildPartial();
           } else {
             mHGHJJPGKHM_ = value;
           }
@@ -629,7 +629,7 @@ public final class MGNMMDLBGIMOuterClass {
       /**
        * <code>._UgcDungeonRoom MHGHJJPGKHM = 9;</code>
        */
-      public emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom.Builder getMHGHJJPGKHMBuilder() {
+      public emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom.Builder getMHGHJJPGKHMBuilder() {
         
         onChanged();
         return getMHGHJJPGKHMFieldBuilder().getBuilder();
@@ -637,23 +637,23 @@ public final class MGNMMDLBGIMOuterClass {
       /**
        * <code>._UgcDungeonRoom MHGHJJPGKHM = 9;</code>
        */
-      public emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoomOrBuilder getMHGHJJPGKHMOrBuilder() {
+      public emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoomOrBuilder getMHGHJJPGKHMOrBuilder() {
         if (mHGHJJPGKHMBuilder_ != null) {
           return mHGHJJPGKHMBuilder_.getMessageOrBuilder();
         } else {
           return mHGHJJPGKHM_ == null ?
-              emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom.getDefaultInstance() : mHGHJJPGKHM_;
+              emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom.getDefaultInstance() : mHGHJJPGKHM_;
         }
       }
       /**
        * <code>._UgcDungeonRoom MHGHJJPGKHM = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom, emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom.Builder, emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoomOrBuilder> 
+          emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom, emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom.Builder, emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoomOrBuilder> 
           getMHGHJJPGKHMFieldBuilder() {
         if (mHGHJJPGKHMBuilder_ == null) {
           mHGHJJPGKHMBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom, emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoom.Builder, emu.grasscutter.net.proto.UgcDungeonRoom._UgcDungeonRoomOrBuilder>(
+              emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom, emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoom.Builder, emu.grasscutter.net.proto._UgcDungeonRoomOuterClass._UgcDungeonRoomOrBuilder>(
                   getMHGHJJPGKHM(),
                   getParentForChildren(),
                   isClean());
@@ -730,13 +730,14 @@ public final class MGNMMDLBGIMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MGNMMDLBGIM.proto\032\025_UgcDungeonRoom.pro" +
       "to\"B\n\013MGNMMDLBGIM\022\014\n\004guid\030\004 \001(\004\022%\n\013MHGHJ" +
-      "JPGKHM\030\t \001(\0132\020._UgcDungeonRoomB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "JPGKHM\030\t \001(\0132\020._UgcDungeonRoomB2\n\031emu.gr" +
+      "asscutter.net.protoB\025MGNMMDLBGIMOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.UgcDungeonRoom.getDescriptor(),
+          emu.grasscutter.net.proto._UgcDungeonRoomOuterClass.getDescriptor(),
         });
     internal_static_MGNMMDLBGIM_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -744,7 +745,7 @@ public final class MGNMMDLBGIMOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MGNMMDLBGIM_descriptor,
         new java.lang.String[] { "Guid", "MHGHJJPGKHM", });
-    emu.grasscutter.net.proto.UgcDungeonRoom.getDescriptor();
+    emu.grasscutter.net.proto._UgcDungeonRoomOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

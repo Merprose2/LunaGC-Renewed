@@ -1482,8 +1482,9 @@ public final class LAHJGOPDGLOOuterClass {
       "IKKLLPAP\030\370\003 \001(\0132\014.MMLNJCOKEAK\022\"\n\013OMOLFLK" +
       "MNNN\030\371\003 \001(\0132\014.MMLNJCOKEAK\022\024\n\013FBDLAPPOGAL" +
       "\030\372\003 \001(\r\022\024\n\013CLOGDFGLHNJ\030\373\003 \001(\r\022\024\n\013EIGMINL" +
-      "GMIK\030\374\003 \001(\005\022\024\n\013LGHLKGGDFCB\030\375\003 \001(\005B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "GMIK\030\374\003 \001(\005\022\024\n\013LGHLKGGDFCB\030\375\003 \001(\005B2\n\031emu" +
+      ".grasscutter.net.protoB\025LAHJGOPDGLOOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1340,8 +1340,9 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       "tent_close_time\030\007 \001(\r\0222\n\027parkour_level_i" +
       "nfo_list\030\013 \003(\0132\021.ParkourLevelInfo\022#\n\nsta" +
       "ge_list\030\r \003(\0132\017.BlitzRushStage\022\031\n\021is_con" +
-      "tent_closed\030\017 \001(\010B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "tent_closed\030\017 \001(\010BB\n\031emu.grasscutter.net" +
+      ".protoB%BlitzRushActivityDetailInfoOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -3647,8 +3647,9 @@ public final class GAGPIICGHOFOuterClass {
       "MOJJDHBMODD\030\016 \001(\0132\014.IHCIBFKMHBD\022\023\n\013LIKMF" +
       "JBNGFI\030\017 \001(\010\022\024\n\013GAODBDDJOAC\030\221\001 \001(\r\022\024\n\013IH" +
       "HLKCEBFKL\030\253\002 \001(\r\022\"\n\013AENACNIBHBN\030\335\007 \003(\0162\014" +
-      ".DIHEGEGCPFP\022\024\n\013FDKKJIIIGEP\030\351\013 \003(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      ".DIHEGEGCPFP\022\024\n\013FDKKJIIIGEP\030\351\013 \003(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025GAGPIICGHOFOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

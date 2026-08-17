@@ -595,8 +595,9 @@ public final class FKFGNALKJGFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FKFGNALKJGF.proto\"3\n\013FKFGNALKJGF\022\023\n\013ma" +
-      "terial_id\030\004 \001(\r\022\017\n\007retcode\030\005 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "terial_id\030\004 \001(\r\022\017\n\007retcode\030\005 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025FKFGNALKJGFOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

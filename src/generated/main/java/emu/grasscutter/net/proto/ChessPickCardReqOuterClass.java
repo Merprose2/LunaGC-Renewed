@@ -596,7 +596,8 @@ public final class ChessPickCardReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026ChessPickCardReq.proto\"7\n\020ChessPickCar" +
       "dReq\022\022\n\ncard_index\030\007 \001(\r\022\017\n\007card_id\030\016 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB7\n\031emu.grasscutter.net.protoB\032ChessPic" +
+      "kCardReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -794,8 +794,8 @@ public final class RogueDiaryStageInfoOuterClass {
       "ungeonRecord.proto\"k\n\023RogueDiaryStageInf" +
       "o\022\020\n\010stage_id\030\007 \001(\r\022-\n\013best_record\030\n \001(\013" +
       "2\030.RogueDiaryDungeonRecord\022\023\n\013is_have_tr" +
-      "y\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "y\030\017 \001(\010B:\n\031emu.grasscutter.net.protoB\035Ro" +
+      "gueDiaryStageInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -596,8 +596,9 @@ public final class SelectRoguelikeDungeonCardRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n#SelectRoguelikeDungeonCardRsp.proto\"A\n" +
       "\035SelectRoguelikeDungeonCardRsp\022\017\n\007card_i" +
-      "d\030\007 \001(\r\022\017\n\007retcode\030\t \001(\005B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "d\030\007 \001(\r\022\017\n\007retcode\030\t \001(\005BD\n\031emu.grasscut" +
+      "ter.net.protoB\'SelectRoguelikeDungeonCar" +
+      "dRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

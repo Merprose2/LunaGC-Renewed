@@ -737,8 +737,9 @@ public final class IGPLMGLOCEMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IGPLMGLOCEM.proto\"]\n\013IGPLMGLOCEM\022\023\n\013AM" +
       "NFIKHADMI\030\013 \001(\r\022\023\n\013avatar_guid\030\014 \001(\004\022\017\n\007" +
-      "retcode\030\016 \001(\005\022\023\n\013IHBEJKPPILB\030\017 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "retcode\030\016 \001(\005\022\023\n\013IHBEJKPPILB\030\017 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025IGPLMGLOCEMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

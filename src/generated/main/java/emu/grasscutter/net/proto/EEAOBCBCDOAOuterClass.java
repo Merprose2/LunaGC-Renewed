@@ -995,8 +995,9 @@ public final class EEAOBCBCDOAOuterClass {
       "\n\021EEAOBCBCDOA.proto\032\021HHEDHCFPEKM.proto\"n" +
       "\n\013EEAOBCBCDOA\022\023\n\013EFCNDACMOPM\030\001 \001(\005\022\031\n\003po" +
       "s\030\002 \001(\0132\014.HHEDHCFPEKM\022\031\n\003rot\030\003 \001(\0132\014.HHE" +
-      "DHCFPEKM\022\024\n\013GKMEAGGJINO\030\365\003 \001(\005B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "DHCFPEKM\022\024\n\013GKMEAGGJINO\030\365\003 \001(\005B2\n\031emu.gr" +
+      "asscutter.net.protoB\025EEAOBCBCDOAOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

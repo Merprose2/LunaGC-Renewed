@@ -730,8 +730,9 @@ public final class GetReunionPrivilegeInfoRspOuterClass {
       "\n GetReunionPrivilegeInfoRsp.proto\032\032Reun" +
       "ionPrivilegeInfo.proto\"\\\n\032GetReunionPriv" +
       "ilegeInfoRsp\022\017\n\007retcode\030\002 \001(\005\022-\n\016privile" +
-      "ge_info\030\017 \001(\0132\025.ReunionPrivilegeInfoB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "ge_info\030\017 \001(\0132\025.ReunionPrivilegeInfoBA\n\031" +
+      "emu.grasscutter.net.protoB$GetReunionPri" +
+      "vilegeInfoRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -455,8 +455,9 @@ public final class PersonalLineAllDataReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034PersonalLineAllDataReq.proto\"\030\n\026Person" +
-      "alLineAllDataReqB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "alLineAllDataReqB=\n\031emu.grasscutter.net." +
+      "protoB PersonalLineAllDataReqOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

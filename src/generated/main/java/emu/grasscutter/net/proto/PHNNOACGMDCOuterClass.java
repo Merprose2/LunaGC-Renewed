@@ -2118,8 +2118,9 @@ public final class PHNNOACGMDCOuterClass {
       "data\030\004 \001(\0132\030.PHNNOACGMDC.OEBLIJCMAGK\022\023\n\013" +
       "NGEDGDGBAID\030\005 \001(\014\022\023\n\013NJKJHJEAKEJ\030\006 \001(\t\032B" +
       "\n\013OEBLIJCMAGK\022\020\n\010level_id\030\001 \001(\004\022!\n\013NCHCN" +
-      "OPEJHK\030\002 \003(\0132\014.BMCNDGLNKJOB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "OPEJHK\030\002 \003(\0132\014.BMCNDGLNKJOB2\n\031emu.grassc" +
+      "utter.net.protoB\025PHNNOACGMDCOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

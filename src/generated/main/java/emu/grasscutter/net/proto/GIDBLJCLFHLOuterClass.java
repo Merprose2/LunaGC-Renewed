@@ -519,8 +519,8 @@ public final class GIDBLJCLFHLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GIDBLJCLFHL.proto\"\035\n\013GIDBLJCLFHL\022\016\n\006ra" +
-      "dius\030\001 \001(\002B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "dius\030\001 \001(\002B2\n\031emu.grasscutter.net.protoB" +
+      "\025GIDBLJCLFHLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

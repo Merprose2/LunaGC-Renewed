@@ -667,8 +667,8 @@ public final class HMNPMNIHPPPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HMNPMNIHPPP.proto\"B\n\013HMNPMNIHPPP\022\022\n\nis" +
       "_success\030\002 \001(\010\022\r\n\005score\030\004 \001(\r\022\020\n\010level_i" +
-      "d\030\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "d\030\013 \001(\rB2\n\031emu.grasscutter.net.protoB\025HM" +
+      "NPMNIHPPPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

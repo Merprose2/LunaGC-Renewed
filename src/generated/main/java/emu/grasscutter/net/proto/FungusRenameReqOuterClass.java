@@ -595,8 +595,9 @@ public final class FungusRenameReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025FungusRenameReq.proto\"5\n\017FungusRenameR" +
-      "eq\022\017\n\007name_id\030\006 \001(\r\022\021\n\tfungus_id\030\007 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "eq\022\017\n\007name_id\030\006 \001(\r\022\021\n\tfungus_id\030\007 \001(\rB6" +
+      "\n\031emu.grasscutter.net.protoB\031FungusRenam" +
+      "eReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

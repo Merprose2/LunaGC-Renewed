@@ -831,8 +831,8 @@ public final class NDDLMAEFGPCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NDDLMAEFGPC.proto\032\021KJFDILKFJJL.proto\"0" +
       "\n\013NDDLMAEFGPC\022!\n\013LMBLLCBLJGF\030\r \003(\0132\014.KJF" +
-      "DILKFJJLB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "DILKFJJLB2\n\031emu.grasscutter.net.protoB\025N" +
+      "DDLMAEFGPCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

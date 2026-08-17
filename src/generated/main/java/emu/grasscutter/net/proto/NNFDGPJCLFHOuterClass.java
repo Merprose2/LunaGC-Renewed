@@ -1096,7 +1096,8 @@ public final class NNFDGPJCLFHOuterClass {
       "\n\021NNFDGPJCLFH.proto\032\021CGGCEBBKOEL.proto\"P" +
       "\n\013NNFDGPJCLFH\022\017\n\007retcode\030\001 \001(\005\022\023\n\013CMBCDD" +
       "FOKKA\030\005 \003(\005\022\033\n\005nodes\030\006 \003(\0132\014.CGGCEBBKOEL" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025NNFDGPJCL" +
+      "FHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

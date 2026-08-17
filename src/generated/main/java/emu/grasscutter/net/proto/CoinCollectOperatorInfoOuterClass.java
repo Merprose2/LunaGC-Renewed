@@ -517,8 +517,9 @@ public final class CoinCollectOperatorInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035CoinCollectOperatorInfo.proto\"+\n\027CoinC" +
-      "ollectOperatorInfo\022\020\n\010level_id\030\001 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "ollectOperatorInfo\022\020\n\010level_id\030\001 \001(\rB>\n\031" +
+      "emu.grasscutter.net.protoB!CoinCollectOp" +
+      "eratorInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

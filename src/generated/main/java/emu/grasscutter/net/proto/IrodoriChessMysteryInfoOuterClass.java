@@ -1044,8 +1044,9 @@ public final class IrodoriChessMysteryInfoOuterClass {
       "iChessMysteryInfo\022\032\n\022exit_point_id_list\030" +
       "\003 \003(\r\022\036\n\026entrance_point_id_list\030\006 \003(\r\022=\n" +
       "\024entrance_detail_info\030\t \001(\0132\037.IrodoriChe" +
-      "ssEntranceDetailInfoB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "ssEntranceDetailInfoB>\n\031emu.grasscutter." +
+      "net.protoB!IrodoriChessMysteryInfoOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

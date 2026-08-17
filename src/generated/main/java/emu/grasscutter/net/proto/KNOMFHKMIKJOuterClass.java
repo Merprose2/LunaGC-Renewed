@@ -666,8 +666,8 @@ public final class KNOMFHKMIKJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KNOMFHKMIKJ.proto\"D\n\013KNOMFHKMIKJ\022\022\n\ndi" +
       "fficulty\030\004 \001(\r\022\020\n\010stage_id\030\005 \001(\r\022\017\n\007retc" +
-      "ode\030\013 \001(\005B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "ode\030\013 \001(\005B2\n\031emu.grasscutter.net.protoB\025" +
+      "KNOMFHKMIKJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

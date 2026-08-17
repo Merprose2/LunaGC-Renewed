@@ -597,8 +597,8 @@ public final class HomeKickPlayerReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027HomeKickPlayerReq.proto\"<\n\021HomeKickPla" +
       "yerReq\022\022\n\ntarget_uid\030\001 \001(\r\022\023\n\013is_kick_al" +
-      "l\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "l\030\017 \001(\010B8\n\031emu.grasscutter.net.protoB\033Ho" +
+      "meKickPlayerReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

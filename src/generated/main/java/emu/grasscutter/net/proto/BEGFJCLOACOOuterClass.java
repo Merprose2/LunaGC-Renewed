@@ -823,8 +823,8 @@ public final class BEGFJCLOACOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BEGFJCLOACO.proto\032\021PCODAALABDH.proto\"0" +
       "\n\013BEGFJCLOACO\022!\n\013MEOMCENAFOP\030\001 \003(\0132\014.PCO" +
-      "DAALABDHB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "DAALABDHB2\n\031emu.grasscutter.net.protoB\025B" +
+      "EGFJCLOACOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

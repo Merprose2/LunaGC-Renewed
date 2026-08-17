@@ -332,7 +332,8 @@ public final class ADDLKMJNBHEOuterClass {
       "DDLKMJNBHE_CSP_LEVEL_EXPLORE_INDEX\020\023\022&\n\"" +
       "ADDLKMJNBHE_CSP_LEVEL_EXPLORE_LIST\020\024\022)\n%" +
       "ADDLKMJNBHE_CSP_LEVEL_COLLECTION_PAGE\020\025B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025ADDLKMJNBH" +
+      "EOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

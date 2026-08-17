@@ -667,8 +667,8 @@ public final class LGODIBPJMBBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LGODIBPJMBB.proto\"B\n\013LGODIBPJMBB\022\017\n\007re" +
       "tcode\030\003 \001(\005\022\022\n\nplayer_uid\030\006 \001(\r\022\016\n\006is_ad" +
-      "d\030\007 \001(\010B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "d\030\007 \001(\010B2\n\031emu.grasscutter.net.protoB\025LG" +
+      "ODIBPJMBBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

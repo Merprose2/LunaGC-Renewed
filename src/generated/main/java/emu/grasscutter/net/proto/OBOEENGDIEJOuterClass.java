@@ -1115,8 +1115,9 @@ public final class OBOEENGDIEJOuterClass {
       "\n\021OBOEENGDIEJ.proto\032\021BJENMCKOHLB.proto\"m" +
       "\n\013OBOEENGDIEJ\022\021\n\tis_active\030\001 \001(\010\022!\n\013BNJA" +
       "ICPDDAM\030\002 \003(\0132\014.BJENMCKOHLB\022\023\n\013OFHAIMIFN" +
-      "IA\030\003 \001(\t\022\023\n\013JDLAKFIEFNB\030\004 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "IA\030\003 \001(\t\022\023\n\013JDLAKFIEFNB\030\004 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025OBOEENGDIEJOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

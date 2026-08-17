@@ -666,8 +666,9 @@ public final class GadgetPlayDataNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032GadgetPlayDataNotify.proto\"N\n\024GadgetPl" +
       "ayDataNotify\022\020\n\010progress\030\002 \001(\r\022\021\n\tentity" +
-      "_id\030\006 \001(\r\022\021\n\tplay_type\030\016 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "_id\030\006 \001(\r\022\021\n\tplay_type\030\016 \001(\rB;\n\031emu.gras" +
+      "scutter.net.protoB\036GadgetPlayDataNotifyO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

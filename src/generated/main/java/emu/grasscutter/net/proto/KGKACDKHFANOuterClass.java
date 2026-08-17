@@ -144,8 +144,8 @@ public final class KGKACDKHFANOuterClass {
       "GKACDKHFAN_TILEMAP_WATER_TILE_TYPE_NONE\020" +
       "\000\022+\n\'KGKACDKHFAN_TILEMAP_WATER_TILE_TYPE" +
       "_LOW\020\001\022.\n*KGKACDKHFAN_TILEMAP_WATER_TILE" +
-      "_TYPE_HEIGHT\020\002B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "_TYPE_HEIGHT\020\002B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025KGKACDKHFANOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

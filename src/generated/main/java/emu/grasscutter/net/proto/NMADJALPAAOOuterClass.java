@@ -1414,8 +1414,8 @@ public final class NMADJALPAAOOuterClass {
       "K\030\t \001(\r\022\023\n\013BHLJFFJHGHN\030\n \001(\r\022\023\n\013JPKCFEIF" +
       "MCN\030\013 \001(\r\022\023\n\013schedule_id\030\014 \001(\r\022\023\n\013LBMODJ" +
       "MEJFN\030\016 \001(\r\022!\n\013DGEOMFHLKLF\030\017 \001(\0132\014.PECHA" +
-      "OPNCHCB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "OPNCHCB2\n\031emu.grasscutter.net.protoB\025NMA" +
+      "DJALPAAOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

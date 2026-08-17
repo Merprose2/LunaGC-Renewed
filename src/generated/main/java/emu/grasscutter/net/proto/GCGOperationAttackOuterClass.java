@@ -909,8 +909,8 @@ public final class GCGOperationAttackOuterClass {
       "\n\030GCGOperationAttack.proto\"c\n\022GCGOperati" +
       "onAttack\022\020\n\010skill_id\030\006 \001(\r\022\034\n\024cost_dice_" +
       "index_list\030\007 \003(\r\022\035\n\025target_card_guid_lis" +
-      "t\030\t \003(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "t\030\t \003(\rB9\n\031emu.grasscutter.net.protoB\034GC" +
+      "GOperationAttackOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

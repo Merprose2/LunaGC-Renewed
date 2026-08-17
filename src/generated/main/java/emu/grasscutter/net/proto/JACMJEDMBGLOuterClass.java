@@ -1166,8 +1166,9 @@ public final class JACMJEDMBGLOuterClass {
       "\n\021JACMJEDMBGL.proto\032\017ItemParam.proto\"g\n\013" +
       "JACMJEDMBGL\022\023\n\013COBJMBDPPIP\030\003 \003(\004\022\017\n\007retc" +
       "ode\030\010 \001(\005\022\023\n\013OLGBLCNIAEF\030\t \001(\r\022\035\n\titem_l" +
-      "ist\030\r \003(\0132\n.ItemParamB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "ist\030\r \003(\0132\n.ItemParamB2\n\031emu.grasscutter" +
+      ".net.protoB\025JACMJEDMBGLOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

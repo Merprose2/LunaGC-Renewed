@@ -84,11 +84,11 @@ public final class IBBBCHHJLOAOuterClass {
      * <code>._CancelInterval cancel_interval = 14;</code>
      * @return The cancelInterval.
      */
-    emu.grasscutter.net.proto.CancelInterval._CancelInterval getCancelInterval();
+    emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval getCancelInterval();
     /**
      * <code>._CancelInterval cancel_interval = 14;</code>
      */
-    emu.grasscutter.net.proto.CancelInterval._CancelIntervalOrBuilder getCancelIntervalOrBuilder();
+    emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelIntervalOrBuilder getCancelIntervalOrBuilder();
 
     /**
      * <code>._CanDoSkill can_do_skill = 15;</code>
@@ -99,11 +99,11 @@ public final class IBBBCHHJLOAOuterClass {
      * <code>._CanDoSkill can_do_skill = 15;</code>
      * @return The canDoSkill.
      */
-    emu.grasscutter.net.proto.CanDoSkill._CanDoSkill getCanDoSkill();
+    emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill getCanDoSkill();
     /**
      * <code>._CanDoSkill can_do_skill = 15;</code>
      */
-    emu.grasscutter.net.proto.CanDoSkill._CanDoSkillOrBuilder getCanDoSkillOrBuilder();
+    emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkillOrBuilder getCanDoSkillOrBuilder();
 
     /**
      * <code>._BranchJump branch_jump = 16;</code>
@@ -114,11 +114,11 @@ public final class IBBBCHHJLOAOuterClass {
      * <code>._BranchJump branch_jump = 16;</code>
      * @return The branchJump.
      */
-    emu.grasscutter.net.proto.BranchJump._BranchJump getBranchJump();
+    emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump getBranchJump();
     /**
      * <code>._BranchJump branch_jump = 16;</code>
      */
-    emu.grasscutter.net.proto.BranchJump._BranchJumpOrBuilder getBranchJumpOrBuilder();
+    emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJumpOrBuilder getBranchJumpOrBuilder();
 
     /**
      * <code>._ComboJump combo_jump = 17;</code>
@@ -129,11 +129,11 @@ public final class IBBBCHHJLOAOuterClass {
      * <code>._ComboJump combo_jump = 17;</code>
      * @return The comboJump.
      */
-    emu.grasscutter.net.proto.ComboJump._ComboJump getComboJump();
+    emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump getComboJump();
     /**
      * <code>._ComboJump combo_jump = 17;</code>
      */
-    emu.grasscutter.net.proto.ComboJump._ComboJumpOrBuilder getComboJumpOrBuilder();
+    emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJumpOrBuilder getComboJumpOrBuilder();
 
     /**
      * <code>._AvatarEnterFocus avatar_enter_focus = 18;</code>
@@ -144,11 +144,11 @@ public final class IBBBCHHJLOAOuterClass {
      * <code>._AvatarEnterFocus avatar_enter_focus = 18;</code>
      * @return The avatarEnterFocus.
      */
-    emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus getAvatarEnterFocus();
+    emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus getAvatarEnterFocus();
     /**
      * <code>._AvatarEnterFocus avatar_enter_focus = 18;</code>
      */
-    emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocusOrBuilder getAvatarEnterFocusOrBuilder();
+    emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocusOrBuilder getAvatarEnterFocusOrBuilder();
 
     /**
      * <code>.AGFPHAHBDCG aim_ui = 19;</code>
@@ -174,11 +174,11 @@ public final class IBBBCHHJLOAOuterClass {
      * <code>._AttachShootHelperBydeffect attach_shoot_helper_bydeffect = 20;</code>
      * @return The attachShootHelperBydeffect.
      */
-    emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect getAttachShootHelperBydeffect();
+    emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect getAttachShootHelperBydeffect();
     /**
      * <code>._AttachShootHelperBydeffect attach_shoot_helper_bydeffect = 20;</code>
      */
-    emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffectOrBuilder getAttachShootHelperBydeffectOrBuilder();
+    emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffectOrBuilder getAttachShootHelperBydeffectOrBuilder();
 
     /**
      * <code>._MonsterSteer monster_steer = 21;</code>
@@ -189,11 +189,11 @@ public final class IBBBCHHJLOAOuterClass {
      * <code>._MonsterSteer monster_steer = 21;</code>
      * @return The monsterSteer.
      */
-    emu.grasscutter.net.proto.MonsterSteer._MonsterSteer getMonsterSteer();
+    emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer getMonsterSteer();
     /**
      * <code>._MonsterSteer monster_steer = 21;</code>
      */
-    emu.grasscutter.net.proto.MonsterSteer._MonsterSteerOrBuilder getMonsterSteerOrBuilder();
+    emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteerOrBuilder getMonsterSteerOrBuilder();
 
     /**
      * <code>._AirBranchJump air_branch_jump = 22;</code>
@@ -204,11 +204,11 @@ public final class IBBBCHHJLOAOuterClass {
      * <code>._AirBranchJump air_branch_jump = 22;</code>
      * @return The airBranchJump.
      */
-    emu.grasscutter.net.proto.AirBranchJump._AirBranchJump getAirBranchJump();
+    emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump getAirBranchJump();
     /**
      * <code>._AirBranchJump air_branch_jump = 22;</code>
      */
-    emu.grasscutter.net.proto.AirBranchJump._AirBranchJumpOrBuilder getAirBranchJumpOrBuilder();
+    emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJumpOrBuilder getAirBranchJumpOrBuilder();
 
     /**
      * <code>._SpecialStateDoSkill special_state_do_skill = 23;</code>
@@ -219,11 +219,11 @@ public final class IBBBCHHJLOAOuterClass {
      * <code>._SpecialStateDoSkill special_state_do_skill = 23;</code>
      * @return The specialStateDoSkill.
      */
-    emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill getSpecialStateDoSkill();
+    emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill getSpecialStateDoSkill();
     /**
      * <code>._SpecialStateDoSkill special_state_do_skill = 23;</code>
      */
-    emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkillOrBuilder getSpecialStateDoSkillOrBuilder();
+    emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkillOrBuilder getSpecialStateDoSkillOrBuilder();
 
     /**
      * <code>.HOBFDAJFJLP modify_cast_speed_ratio = 24;</code>
@@ -370,70 +370,70 @@ public final class IBBBCHHJLOAOuterClass {
               break;
             }
             case 114: {
-              emu.grasscutter.net.proto.CancelInterval._CancelInterval.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval.Builder subBuilder = null;
               if (detailCase_ == 14) {
-                subBuilder = ((emu.grasscutter.net.proto.CancelInterval._CancelInterval) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.CancelInterval._CancelInterval.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.CancelInterval._CancelInterval) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 14;
               break;
             }
             case 122: {
-              emu.grasscutter.net.proto.CanDoSkill._CanDoSkill.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill.Builder subBuilder = null;
               if (detailCase_ == 15) {
-                subBuilder = ((emu.grasscutter.net.proto.CanDoSkill._CanDoSkill) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.CanDoSkill._CanDoSkill.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.CanDoSkill._CanDoSkill) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 15;
               break;
             }
             case 130: {
-              emu.grasscutter.net.proto.BranchJump._BranchJump.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump.Builder subBuilder = null;
               if (detailCase_ == 16) {
-                subBuilder = ((emu.grasscutter.net.proto.BranchJump._BranchJump) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BranchJump._BranchJump.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BranchJump._BranchJump) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 16;
               break;
             }
             case 138: {
-              emu.grasscutter.net.proto.ComboJump._ComboJump.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump.Builder subBuilder = null;
               if (detailCase_ == 17) {
-                subBuilder = ((emu.grasscutter.net.proto.ComboJump._ComboJump) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.ComboJump._ComboJump.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ComboJump._ComboJump) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 17;
               break;
             }
             case 146: {
-              emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus.Builder subBuilder = null;
               if (detailCase_ == 18) {
-                subBuilder = ((emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 18;
@@ -454,56 +454,56 @@ public final class IBBBCHHJLOAOuterClass {
               break;
             }
             case 162: {
-              emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect.Builder subBuilder = null;
               if (detailCase_ == 20) {
-                subBuilder = ((emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 20;
               break;
             }
             case 170: {
-              emu.grasscutter.net.proto.MonsterSteer._MonsterSteer.Builder subBuilder = null;
+              emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer.Builder subBuilder = null;
               if (detailCase_ == 21) {
-                subBuilder = ((emu.grasscutter.net.proto.MonsterSteer._MonsterSteer) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.MonsterSteer._MonsterSteer.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.MonsterSteer._MonsterSteer) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 21;
               break;
             }
             case 178: {
-              emu.grasscutter.net.proto.AirBranchJump._AirBranchJump.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump.Builder subBuilder = null;
               if (detailCase_ == 22) {
-                subBuilder = ((emu.grasscutter.net.proto.AirBranchJump._AirBranchJump) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.AirBranchJump._AirBranchJump.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AirBranchJump._AirBranchJump) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 22;
               break;
             }
             case 186: {
-              emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill.Builder subBuilder = null;
+              emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill.Builder subBuilder = null;
               if (detailCase_ == 23) {
-                subBuilder = ((emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 23;
@@ -781,21 +781,21 @@ public final class IBBBCHHJLOAOuterClass {
      * @return The cancelInterval.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CancelInterval._CancelInterval getCancelInterval() {
+    public emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval getCancelInterval() {
       if (detailCase_ == 14) {
-         return (emu.grasscutter.net.proto.CancelInterval._CancelInterval) detail_;
+         return (emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval) detail_;
       }
-      return emu.grasscutter.net.proto.CancelInterval._CancelInterval.getDefaultInstance();
+      return emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval.getDefaultInstance();
     }
     /**
      * <code>._CancelInterval cancel_interval = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CancelInterval._CancelIntervalOrBuilder getCancelIntervalOrBuilder() {
+    public emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelIntervalOrBuilder getCancelIntervalOrBuilder() {
       if (detailCase_ == 14) {
-         return (emu.grasscutter.net.proto.CancelInterval._CancelInterval) detail_;
+         return (emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval) detail_;
       }
-      return emu.grasscutter.net.proto.CancelInterval._CancelInterval.getDefaultInstance();
+      return emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval.getDefaultInstance();
     }
 
     public static final int CAN_DO_SKILL_FIELD_NUMBER = 15;
@@ -812,21 +812,21 @@ public final class IBBBCHHJLOAOuterClass {
      * @return The canDoSkill.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CanDoSkill._CanDoSkill getCanDoSkill() {
+    public emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill getCanDoSkill() {
       if (detailCase_ == 15) {
-         return (emu.grasscutter.net.proto.CanDoSkill._CanDoSkill) detail_;
+         return (emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill) detail_;
       }
-      return emu.grasscutter.net.proto.CanDoSkill._CanDoSkill.getDefaultInstance();
+      return emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill.getDefaultInstance();
     }
     /**
      * <code>._CanDoSkill can_do_skill = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CanDoSkill._CanDoSkillOrBuilder getCanDoSkillOrBuilder() {
+    public emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkillOrBuilder getCanDoSkillOrBuilder() {
       if (detailCase_ == 15) {
-         return (emu.grasscutter.net.proto.CanDoSkill._CanDoSkill) detail_;
+         return (emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill) detail_;
       }
-      return emu.grasscutter.net.proto.CanDoSkill._CanDoSkill.getDefaultInstance();
+      return emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill.getDefaultInstance();
     }
 
     public static final int BRANCH_JUMP_FIELD_NUMBER = 16;
@@ -843,21 +843,21 @@ public final class IBBBCHHJLOAOuterClass {
      * @return The branchJump.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BranchJump._BranchJump getBranchJump() {
+    public emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump getBranchJump() {
       if (detailCase_ == 16) {
-         return (emu.grasscutter.net.proto.BranchJump._BranchJump) detail_;
+         return (emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump) detail_;
       }
-      return emu.grasscutter.net.proto.BranchJump._BranchJump.getDefaultInstance();
+      return emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump.getDefaultInstance();
     }
     /**
      * <code>._BranchJump branch_jump = 16;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BranchJump._BranchJumpOrBuilder getBranchJumpOrBuilder() {
+    public emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJumpOrBuilder getBranchJumpOrBuilder() {
       if (detailCase_ == 16) {
-         return (emu.grasscutter.net.proto.BranchJump._BranchJump) detail_;
+         return (emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump) detail_;
       }
-      return emu.grasscutter.net.proto.BranchJump._BranchJump.getDefaultInstance();
+      return emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump.getDefaultInstance();
     }
 
     public static final int COMBO_JUMP_FIELD_NUMBER = 17;
@@ -874,21 +874,21 @@ public final class IBBBCHHJLOAOuterClass {
      * @return The comboJump.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ComboJump._ComboJump getComboJump() {
+    public emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump getComboJump() {
       if (detailCase_ == 17) {
-         return (emu.grasscutter.net.proto.ComboJump._ComboJump) detail_;
+         return (emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump) detail_;
       }
-      return emu.grasscutter.net.proto.ComboJump._ComboJump.getDefaultInstance();
+      return emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump.getDefaultInstance();
     }
     /**
      * <code>._ComboJump combo_jump = 17;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ComboJump._ComboJumpOrBuilder getComboJumpOrBuilder() {
+    public emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJumpOrBuilder getComboJumpOrBuilder() {
       if (detailCase_ == 17) {
-         return (emu.grasscutter.net.proto.ComboJump._ComboJump) detail_;
+         return (emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump) detail_;
       }
-      return emu.grasscutter.net.proto.ComboJump._ComboJump.getDefaultInstance();
+      return emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump.getDefaultInstance();
     }
 
     public static final int AVATAR_ENTER_FOCUS_FIELD_NUMBER = 18;
@@ -905,21 +905,21 @@ public final class IBBBCHHJLOAOuterClass {
      * @return The avatarEnterFocus.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus getAvatarEnterFocus() {
+    public emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus getAvatarEnterFocus() {
       if (detailCase_ == 18) {
-         return (emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus) detail_;
+         return (emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus) detail_;
       }
-      return emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus.getDefaultInstance();
+      return emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus.getDefaultInstance();
     }
     /**
      * <code>._AvatarEnterFocus avatar_enter_focus = 18;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocusOrBuilder getAvatarEnterFocusOrBuilder() {
+    public emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocusOrBuilder getAvatarEnterFocusOrBuilder() {
       if (detailCase_ == 18) {
-         return (emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus) detail_;
+         return (emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus) detail_;
       }
-      return emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus.getDefaultInstance();
+      return emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus.getDefaultInstance();
     }
 
     public static final int AIM_UI_FIELD_NUMBER = 19;
@@ -967,21 +967,21 @@ public final class IBBBCHHJLOAOuterClass {
      * @return The attachShootHelperBydeffect.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect getAttachShootHelperBydeffect() {
+    public emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect getAttachShootHelperBydeffect() {
       if (detailCase_ == 20) {
-         return (emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect) detail_;
+         return (emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect) detail_;
       }
-      return emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect.getDefaultInstance();
+      return emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect.getDefaultInstance();
     }
     /**
      * <code>._AttachShootHelperBydeffect attach_shoot_helper_bydeffect = 20;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffectOrBuilder getAttachShootHelperBydeffectOrBuilder() {
+    public emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffectOrBuilder getAttachShootHelperBydeffectOrBuilder() {
       if (detailCase_ == 20) {
-         return (emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect) detail_;
+         return (emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect) detail_;
       }
-      return emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect.getDefaultInstance();
+      return emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect.getDefaultInstance();
     }
 
     public static final int MONSTER_STEER_FIELD_NUMBER = 21;
@@ -998,21 +998,21 @@ public final class IBBBCHHJLOAOuterClass {
      * @return The monsterSteer.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MonsterSteer._MonsterSteer getMonsterSteer() {
+    public emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer getMonsterSteer() {
       if (detailCase_ == 21) {
-         return (emu.grasscutter.net.proto.MonsterSteer._MonsterSteer) detail_;
+         return (emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer) detail_;
       }
-      return emu.grasscutter.net.proto.MonsterSteer._MonsterSteer.getDefaultInstance();
+      return emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer.getDefaultInstance();
     }
     /**
      * <code>._MonsterSteer monster_steer = 21;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MonsterSteer._MonsterSteerOrBuilder getMonsterSteerOrBuilder() {
+    public emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteerOrBuilder getMonsterSteerOrBuilder() {
       if (detailCase_ == 21) {
-         return (emu.grasscutter.net.proto.MonsterSteer._MonsterSteer) detail_;
+         return (emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer) detail_;
       }
-      return emu.grasscutter.net.proto.MonsterSteer._MonsterSteer.getDefaultInstance();
+      return emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer.getDefaultInstance();
     }
 
     public static final int AIR_BRANCH_JUMP_FIELD_NUMBER = 22;
@@ -1029,21 +1029,21 @@ public final class IBBBCHHJLOAOuterClass {
      * @return The airBranchJump.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AirBranchJump._AirBranchJump getAirBranchJump() {
+    public emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump getAirBranchJump() {
       if (detailCase_ == 22) {
-         return (emu.grasscutter.net.proto.AirBranchJump._AirBranchJump) detail_;
+         return (emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump) detail_;
       }
-      return emu.grasscutter.net.proto.AirBranchJump._AirBranchJump.getDefaultInstance();
+      return emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump.getDefaultInstance();
     }
     /**
      * <code>._AirBranchJump air_branch_jump = 22;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AirBranchJump._AirBranchJumpOrBuilder getAirBranchJumpOrBuilder() {
+    public emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJumpOrBuilder getAirBranchJumpOrBuilder() {
       if (detailCase_ == 22) {
-         return (emu.grasscutter.net.proto.AirBranchJump._AirBranchJump) detail_;
+         return (emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump) detail_;
       }
-      return emu.grasscutter.net.proto.AirBranchJump._AirBranchJump.getDefaultInstance();
+      return emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump.getDefaultInstance();
     }
 
     public static final int SPECIAL_STATE_DO_SKILL_FIELD_NUMBER = 23;
@@ -1060,21 +1060,21 @@ public final class IBBBCHHJLOAOuterClass {
      * @return The specialStateDoSkill.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill getSpecialStateDoSkill() {
+    public emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill getSpecialStateDoSkill() {
       if (detailCase_ == 23) {
-         return (emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill) detail_;
+         return (emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill) detail_;
       }
-      return emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill.getDefaultInstance();
+      return emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill.getDefaultInstance();
     }
     /**
      * <code>._SpecialStateDoSkill special_state_do_skill = 23;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkillOrBuilder getSpecialStateDoSkillOrBuilder() {
+    public emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkillOrBuilder getSpecialStateDoSkillOrBuilder() {
       if (detailCase_ == 23) {
-         return (emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill) detail_;
+         return (emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill) detail_;
       }
-      return emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill.getDefaultInstance();
+      return emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill.getDefaultInstance();
     }
 
     public static final int MODIFY_CAST_SPEED_RATIO_FIELD_NUMBER = 24;
@@ -1200,34 +1200,34 @@ public final class IBBBCHHJLOAOuterClass {
         output.writeMessage(13, (emu.grasscutter.net.proto.KELLGDNEKPDOuterClass.KELLGDNEKPD) detail_);
       }
       if (detailCase_ == 14) {
-        output.writeMessage(14, (emu.grasscutter.net.proto.CancelInterval._CancelInterval) detail_);
+        output.writeMessage(14, (emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval) detail_);
       }
       if (detailCase_ == 15) {
-        output.writeMessage(15, (emu.grasscutter.net.proto.CanDoSkill._CanDoSkill) detail_);
+        output.writeMessage(15, (emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill) detail_);
       }
       if (detailCase_ == 16) {
-        output.writeMessage(16, (emu.grasscutter.net.proto.BranchJump._BranchJump) detail_);
+        output.writeMessage(16, (emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump) detail_);
       }
       if (detailCase_ == 17) {
-        output.writeMessage(17, (emu.grasscutter.net.proto.ComboJump._ComboJump) detail_);
+        output.writeMessage(17, (emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump) detail_);
       }
       if (detailCase_ == 18) {
-        output.writeMessage(18, (emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus) detail_);
+        output.writeMessage(18, (emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus) detail_);
       }
       if (detailCase_ == 19) {
         output.writeMessage(19, (emu.grasscutter.net.proto.AGFPHAHBDCGOuterClass.AGFPHAHBDCG) detail_);
       }
       if (detailCase_ == 20) {
-        output.writeMessage(20, (emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect) detail_);
+        output.writeMessage(20, (emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect) detail_);
       }
       if (detailCase_ == 21) {
-        output.writeMessage(21, (emu.grasscutter.net.proto.MonsterSteer._MonsterSteer) detail_);
+        output.writeMessage(21, (emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer) detail_);
       }
       if (detailCase_ == 22) {
-        output.writeMessage(22, (emu.grasscutter.net.proto.AirBranchJump._AirBranchJump) detail_);
+        output.writeMessage(22, (emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump) detail_);
       }
       if (detailCase_ == 23) {
-        output.writeMessage(23, (emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill) detail_);
+        output.writeMessage(23, (emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill) detail_);
       }
       if (detailCase_ == 24) {
         output.writeMessage(24, (emu.grasscutter.net.proto.HOBFDAJFJLPOuterClass.HOBFDAJFJLP) detail_);
@@ -1269,23 +1269,23 @@ public final class IBBBCHHJLOAOuterClass {
       }
       if (detailCase_ == 14) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, (emu.grasscutter.net.proto.CancelInterval._CancelInterval) detail_);
+          .computeMessageSize(14, (emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval) detail_);
       }
       if (detailCase_ == 15) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, (emu.grasscutter.net.proto.CanDoSkill._CanDoSkill) detail_);
+          .computeMessageSize(15, (emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill) detail_);
       }
       if (detailCase_ == 16) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(16, (emu.grasscutter.net.proto.BranchJump._BranchJump) detail_);
+          .computeMessageSize(16, (emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump) detail_);
       }
       if (detailCase_ == 17) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(17, (emu.grasscutter.net.proto.ComboJump._ComboJump) detail_);
+          .computeMessageSize(17, (emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump) detail_);
       }
       if (detailCase_ == 18) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(18, (emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus) detail_);
+          .computeMessageSize(18, (emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus) detail_);
       }
       if (detailCase_ == 19) {
         size += com.google.protobuf.CodedOutputStream
@@ -1293,19 +1293,19 @@ public final class IBBBCHHJLOAOuterClass {
       }
       if (detailCase_ == 20) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(20, (emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect) detail_);
+          .computeMessageSize(20, (emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect) detail_);
       }
       if (detailCase_ == 21) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(21, (emu.grasscutter.net.proto.MonsterSteer._MonsterSteer) detail_);
+          .computeMessageSize(21, (emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer) detail_);
       }
       if (detailCase_ == 22) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(22, (emu.grasscutter.net.proto.AirBranchJump._AirBranchJump) detail_);
+          .computeMessageSize(22, (emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump) detail_);
       }
       if (detailCase_ == 23) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(23, (emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill) detail_);
+          .computeMessageSize(23, (emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill) detail_);
       }
       if (detailCase_ == 24) {
         size += com.google.protobuf.CodedOutputStream
@@ -2424,7 +2424,7 @@ public final class IBBBCHHJLOAOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CancelInterval._CancelInterval, emu.grasscutter.net.proto.CancelInterval._CancelInterval.Builder, emu.grasscutter.net.proto.CancelInterval._CancelIntervalOrBuilder> cancelIntervalBuilder_;
+          emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval, emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval.Builder, emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelIntervalOrBuilder> cancelIntervalBuilder_;
       /**
        * <code>._CancelInterval cancel_interval = 14;</code>
        * @return Whether the cancelInterval field is set.
@@ -2438,23 +2438,23 @@ public final class IBBBCHHJLOAOuterClass {
        * @return The cancelInterval.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CancelInterval._CancelInterval getCancelInterval() {
+      public emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval getCancelInterval() {
         if (cancelIntervalBuilder_ == null) {
           if (detailCase_ == 14) {
-            return (emu.grasscutter.net.proto.CancelInterval._CancelInterval) detail_;
+            return (emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval) detail_;
           }
-          return emu.grasscutter.net.proto.CancelInterval._CancelInterval.getDefaultInstance();
+          return emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval.getDefaultInstance();
         } else {
           if (detailCase_ == 14) {
             return cancelIntervalBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.CancelInterval._CancelInterval.getDefaultInstance();
+          return emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval.getDefaultInstance();
         }
       }
       /**
        * <code>._CancelInterval cancel_interval = 14;</code>
        */
-      public Builder setCancelInterval(emu.grasscutter.net.proto.CancelInterval._CancelInterval value) {
+      public Builder setCancelInterval(emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval value) {
         if (cancelIntervalBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2471,7 +2471,7 @@ public final class IBBBCHHJLOAOuterClass {
        * <code>._CancelInterval cancel_interval = 14;</code>
        */
       public Builder setCancelInterval(
-          emu.grasscutter.net.proto.CancelInterval._CancelInterval.Builder builderForValue) {
+          emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval.Builder builderForValue) {
         if (cancelIntervalBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2484,11 +2484,11 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._CancelInterval cancel_interval = 14;</code>
        */
-      public Builder mergeCancelInterval(emu.grasscutter.net.proto.CancelInterval._CancelInterval value) {
+      public Builder mergeCancelInterval(emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval value) {
         if (cancelIntervalBuilder_ == null) {
           if (detailCase_ == 14 &&
-              detail_ != emu.grasscutter.net.proto.CancelInterval._CancelInterval.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.CancelInterval._CancelInterval.newBuilder((emu.grasscutter.net.proto.CancelInterval._CancelInterval) detail_)
+              detail_ != emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval.newBuilder((emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2525,36 +2525,36 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._CancelInterval cancel_interval = 14;</code>
        */
-      public emu.grasscutter.net.proto.CancelInterval._CancelInterval.Builder getCancelIntervalBuilder() {
+      public emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval.Builder getCancelIntervalBuilder() {
         return getCancelIntervalFieldBuilder().getBuilder();
       }
       /**
        * <code>._CancelInterval cancel_interval = 14;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CancelInterval._CancelIntervalOrBuilder getCancelIntervalOrBuilder() {
+      public emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelIntervalOrBuilder getCancelIntervalOrBuilder() {
         if ((detailCase_ == 14) && (cancelIntervalBuilder_ != null)) {
           return cancelIntervalBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 14) {
-            return (emu.grasscutter.net.proto.CancelInterval._CancelInterval) detail_;
+            return (emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval) detail_;
           }
-          return emu.grasscutter.net.proto.CancelInterval._CancelInterval.getDefaultInstance();
+          return emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval.getDefaultInstance();
         }
       }
       /**
        * <code>._CancelInterval cancel_interval = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CancelInterval._CancelInterval, emu.grasscutter.net.proto.CancelInterval._CancelInterval.Builder, emu.grasscutter.net.proto.CancelInterval._CancelIntervalOrBuilder> 
+          emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval, emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval.Builder, emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelIntervalOrBuilder> 
           getCancelIntervalFieldBuilder() {
         if (cancelIntervalBuilder_ == null) {
           if (!(detailCase_ == 14)) {
-            detail_ = emu.grasscutter.net.proto.CancelInterval._CancelInterval.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval.getDefaultInstance();
           }
           cancelIntervalBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CancelInterval._CancelInterval, emu.grasscutter.net.proto.CancelInterval._CancelInterval.Builder, emu.grasscutter.net.proto.CancelInterval._CancelIntervalOrBuilder>(
-                  (emu.grasscutter.net.proto.CancelInterval._CancelInterval) detail_,
+              emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval, emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval.Builder, emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelIntervalOrBuilder>(
+                  (emu.grasscutter.net.proto._CancelIntervalOuterClass._CancelInterval) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2565,7 +2565,7 @@ public final class IBBBCHHJLOAOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CanDoSkill._CanDoSkill, emu.grasscutter.net.proto.CanDoSkill._CanDoSkill.Builder, emu.grasscutter.net.proto.CanDoSkill._CanDoSkillOrBuilder> canDoSkillBuilder_;
+          emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill, emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill.Builder, emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkillOrBuilder> canDoSkillBuilder_;
       /**
        * <code>._CanDoSkill can_do_skill = 15;</code>
        * @return Whether the canDoSkill field is set.
@@ -2579,23 +2579,23 @@ public final class IBBBCHHJLOAOuterClass {
        * @return The canDoSkill.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CanDoSkill._CanDoSkill getCanDoSkill() {
+      public emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill getCanDoSkill() {
         if (canDoSkillBuilder_ == null) {
           if (detailCase_ == 15) {
-            return (emu.grasscutter.net.proto.CanDoSkill._CanDoSkill) detail_;
+            return (emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill) detail_;
           }
-          return emu.grasscutter.net.proto.CanDoSkill._CanDoSkill.getDefaultInstance();
+          return emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill.getDefaultInstance();
         } else {
           if (detailCase_ == 15) {
             return canDoSkillBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.CanDoSkill._CanDoSkill.getDefaultInstance();
+          return emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill.getDefaultInstance();
         }
       }
       /**
        * <code>._CanDoSkill can_do_skill = 15;</code>
        */
-      public Builder setCanDoSkill(emu.grasscutter.net.proto.CanDoSkill._CanDoSkill value) {
+      public Builder setCanDoSkill(emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill value) {
         if (canDoSkillBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2612,7 +2612,7 @@ public final class IBBBCHHJLOAOuterClass {
        * <code>._CanDoSkill can_do_skill = 15;</code>
        */
       public Builder setCanDoSkill(
-          emu.grasscutter.net.proto.CanDoSkill._CanDoSkill.Builder builderForValue) {
+          emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill.Builder builderForValue) {
         if (canDoSkillBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2625,11 +2625,11 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._CanDoSkill can_do_skill = 15;</code>
        */
-      public Builder mergeCanDoSkill(emu.grasscutter.net.proto.CanDoSkill._CanDoSkill value) {
+      public Builder mergeCanDoSkill(emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill value) {
         if (canDoSkillBuilder_ == null) {
           if (detailCase_ == 15 &&
-              detail_ != emu.grasscutter.net.proto.CanDoSkill._CanDoSkill.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.CanDoSkill._CanDoSkill.newBuilder((emu.grasscutter.net.proto.CanDoSkill._CanDoSkill) detail_)
+              detail_ != emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill.newBuilder((emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2666,36 +2666,36 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._CanDoSkill can_do_skill = 15;</code>
        */
-      public emu.grasscutter.net.proto.CanDoSkill._CanDoSkill.Builder getCanDoSkillBuilder() {
+      public emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill.Builder getCanDoSkillBuilder() {
         return getCanDoSkillFieldBuilder().getBuilder();
       }
       /**
        * <code>._CanDoSkill can_do_skill = 15;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CanDoSkill._CanDoSkillOrBuilder getCanDoSkillOrBuilder() {
+      public emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkillOrBuilder getCanDoSkillOrBuilder() {
         if ((detailCase_ == 15) && (canDoSkillBuilder_ != null)) {
           return canDoSkillBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 15) {
-            return (emu.grasscutter.net.proto.CanDoSkill._CanDoSkill) detail_;
+            return (emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill) detail_;
           }
-          return emu.grasscutter.net.proto.CanDoSkill._CanDoSkill.getDefaultInstance();
+          return emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill.getDefaultInstance();
         }
       }
       /**
        * <code>._CanDoSkill can_do_skill = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CanDoSkill._CanDoSkill, emu.grasscutter.net.proto.CanDoSkill._CanDoSkill.Builder, emu.grasscutter.net.proto.CanDoSkill._CanDoSkillOrBuilder> 
+          emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill, emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill.Builder, emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkillOrBuilder> 
           getCanDoSkillFieldBuilder() {
         if (canDoSkillBuilder_ == null) {
           if (!(detailCase_ == 15)) {
-            detail_ = emu.grasscutter.net.proto.CanDoSkill._CanDoSkill.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill.getDefaultInstance();
           }
           canDoSkillBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CanDoSkill._CanDoSkill, emu.grasscutter.net.proto.CanDoSkill._CanDoSkill.Builder, emu.grasscutter.net.proto.CanDoSkill._CanDoSkillOrBuilder>(
-                  (emu.grasscutter.net.proto.CanDoSkill._CanDoSkill) detail_,
+              emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill, emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill.Builder, emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkillOrBuilder>(
+                  (emu.grasscutter.net.proto._CanDoSkillOuterClass._CanDoSkill) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2706,7 +2706,7 @@ public final class IBBBCHHJLOAOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BranchJump._BranchJump, emu.grasscutter.net.proto.BranchJump._BranchJump.Builder, emu.grasscutter.net.proto.BranchJump._BranchJumpOrBuilder> branchJumpBuilder_;
+          emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump, emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump.Builder, emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJumpOrBuilder> branchJumpBuilder_;
       /**
        * <code>._BranchJump branch_jump = 16;</code>
        * @return Whether the branchJump field is set.
@@ -2720,23 +2720,23 @@ public final class IBBBCHHJLOAOuterClass {
        * @return The branchJump.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BranchJump._BranchJump getBranchJump() {
+      public emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump getBranchJump() {
         if (branchJumpBuilder_ == null) {
           if (detailCase_ == 16) {
-            return (emu.grasscutter.net.proto.BranchJump._BranchJump) detail_;
+            return (emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump) detail_;
           }
-          return emu.grasscutter.net.proto.BranchJump._BranchJump.getDefaultInstance();
+          return emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump.getDefaultInstance();
         } else {
           if (detailCase_ == 16) {
             return branchJumpBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BranchJump._BranchJump.getDefaultInstance();
+          return emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump.getDefaultInstance();
         }
       }
       /**
        * <code>._BranchJump branch_jump = 16;</code>
        */
-      public Builder setBranchJump(emu.grasscutter.net.proto.BranchJump._BranchJump value) {
+      public Builder setBranchJump(emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump value) {
         if (branchJumpBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2753,7 +2753,7 @@ public final class IBBBCHHJLOAOuterClass {
        * <code>._BranchJump branch_jump = 16;</code>
        */
       public Builder setBranchJump(
-          emu.grasscutter.net.proto.BranchJump._BranchJump.Builder builderForValue) {
+          emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump.Builder builderForValue) {
         if (branchJumpBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2766,11 +2766,11 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._BranchJump branch_jump = 16;</code>
        */
-      public Builder mergeBranchJump(emu.grasscutter.net.proto.BranchJump._BranchJump value) {
+      public Builder mergeBranchJump(emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump value) {
         if (branchJumpBuilder_ == null) {
           if (detailCase_ == 16 &&
-              detail_ != emu.grasscutter.net.proto.BranchJump._BranchJump.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BranchJump._BranchJump.newBuilder((emu.grasscutter.net.proto.BranchJump._BranchJump) detail_)
+              detail_ != emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump.newBuilder((emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2807,36 +2807,36 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._BranchJump branch_jump = 16;</code>
        */
-      public emu.grasscutter.net.proto.BranchJump._BranchJump.Builder getBranchJumpBuilder() {
+      public emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump.Builder getBranchJumpBuilder() {
         return getBranchJumpFieldBuilder().getBuilder();
       }
       /**
        * <code>._BranchJump branch_jump = 16;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BranchJump._BranchJumpOrBuilder getBranchJumpOrBuilder() {
+      public emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJumpOrBuilder getBranchJumpOrBuilder() {
         if ((detailCase_ == 16) && (branchJumpBuilder_ != null)) {
           return branchJumpBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 16) {
-            return (emu.grasscutter.net.proto.BranchJump._BranchJump) detail_;
+            return (emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump) detail_;
           }
-          return emu.grasscutter.net.proto.BranchJump._BranchJump.getDefaultInstance();
+          return emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump.getDefaultInstance();
         }
       }
       /**
        * <code>._BranchJump branch_jump = 16;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BranchJump._BranchJump, emu.grasscutter.net.proto.BranchJump._BranchJump.Builder, emu.grasscutter.net.proto.BranchJump._BranchJumpOrBuilder> 
+          emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump, emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump.Builder, emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJumpOrBuilder> 
           getBranchJumpFieldBuilder() {
         if (branchJumpBuilder_ == null) {
           if (!(detailCase_ == 16)) {
-            detail_ = emu.grasscutter.net.proto.BranchJump._BranchJump.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump.getDefaultInstance();
           }
           branchJumpBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BranchJump._BranchJump, emu.grasscutter.net.proto.BranchJump._BranchJump.Builder, emu.grasscutter.net.proto.BranchJump._BranchJumpOrBuilder>(
-                  (emu.grasscutter.net.proto.BranchJump._BranchJump) detail_,
+              emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump, emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump.Builder, emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJumpOrBuilder>(
+                  (emu.grasscutter.net.proto._BranchJumpOuterClass._BranchJump) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2847,7 +2847,7 @@ public final class IBBBCHHJLOAOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ComboJump._ComboJump, emu.grasscutter.net.proto.ComboJump._ComboJump.Builder, emu.grasscutter.net.proto.ComboJump._ComboJumpOrBuilder> comboJumpBuilder_;
+          emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump, emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump.Builder, emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJumpOrBuilder> comboJumpBuilder_;
       /**
        * <code>._ComboJump combo_jump = 17;</code>
        * @return Whether the comboJump field is set.
@@ -2861,23 +2861,23 @@ public final class IBBBCHHJLOAOuterClass {
        * @return The comboJump.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ComboJump._ComboJump getComboJump() {
+      public emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump getComboJump() {
         if (comboJumpBuilder_ == null) {
           if (detailCase_ == 17) {
-            return (emu.grasscutter.net.proto.ComboJump._ComboJump) detail_;
+            return (emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump) detail_;
           }
-          return emu.grasscutter.net.proto.ComboJump._ComboJump.getDefaultInstance();
+          return emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump.getDefaultInstance();
         } else {
           if (detailCase_ == 17) {
             return comboJumpBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ComboJump._ComboJump.getDefaultInstance();
+          return emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump.getDefaultInstance();
         }
       }
       /**
        * <code>._ComboJump combo_jump = 17;</code>
        */
-      public Builder setComboJump(emu.grasscutter.net.proto.ComboJump._ComboJump value) {
+      public Builder setComboJump(emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump value) {
         if (comboJumpBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2894,7 +2894,7 @@ public final class IBBBCHHJLOAOuterClass {
        * <code>._ComboJump combo_jump = 17;</code>
        */
       public Builder setComboJump(
-          emu.grasscutter.net.proto.ComboJump._ComboJump.Builder builderForValue) {
+          emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump.Builder builderForValue) {
         if (comboJumpBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2907,11 +2907,11 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._ComboJump combo_jump = 17;</code>
        */
-      public Builder mergeComboJump(emu.grasscutter.net.proto.ComboJump._ComboJump value) {
+      public Builder mergeComboJump(emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump value) {
         if (comboJumpBuilder_ == null) {
           if (detailCase_ == 17 &&
-              detail_ != emu.grasscutter.net.proto.ComboJump._ComboJump.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.ComboJump._ComboJump.newBuilder((emu.grasscutter.net.proto.ComboJump._ComboJump) detail_)
+              detail_ != emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump.newBuilder((emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2948,36 +2948,36 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._ComboJump combo_jump = 17;</code>
        */
-      public emu.grasscutter.net.proto.ComboJump._ComboJump.Builder getComboJumpBuilder() {
+      public emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump.Builder getComboJumpBuilder() {
         return getComboJumpFieldBuilder().getBuilder();
       }
       /**
        * <code>._ComboJump combo_jump = 17;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ComboJump._ComboJumpOrBuilder getComboJumpOrBuilder() {
+      public emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJumpOrBuilder getComboJumpOrBuilder() {
         if ((detailCase_ == 17) && (comboJumpBuilder_ != null)) {
           return comboJumpBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 17) {
-            return (emu.grasscutter.net.proto.ComboJump._ComboJump) detail_;
+            return (emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump) detail_;
           }
-          return emu.grasscutter.net.proto.ComboJump._ComboJump.getDefaultInstance();
+          return emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump.getDefaultInstance();
         }
       }
       /**
        * <code>._ComboJump combo_jump = 17;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ComboJump._ComboJump, emu.grasscutter.net.proto.ComboJump._ComboJump.Builder, emu.grasscutter.net.proto.ComboJump._ComboJumpOrBuilder> 
+          emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump, emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump.Builder, emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJumpOrBuilder> 
           getComboJumpFieldBuilder() {
         if (comboJumpBuilder_ == null) {
           if (!(detailCase_ == 17)) {
-            detail_ = emu.grasscutter.net.proto.ComboJump._ComboJump.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump.getDefaultInstance();
           }
           comboJumpBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ComboJump._ComboJump, emu.grasscutter.net.proto.ComboJump._ComboJump.Builder, emu.grasscutter.net.proto.ComboJump._ComboJumpOrBuilder>(
-                  (emu.grasscutter.net.proto.ComboJump._ComboJump) detail_,
+              emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump, emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump.Builder, emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJumpOrBuilder>(
+                  (emu.grasscutter.net.proto._ComboJumpOuterClass._ComboJump) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2988,7 +2988,7 @@ public final class IBBBCHHJLOAOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus, emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus.Builder, emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocusOrBuilder> avatarEnterFocusBuilder_;
+          emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus, emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus.Builder, emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocusOrBuilder> avatarEnterFocusBuilder_;
       /**
        * <code>._AvatarEnterFocus avatar_enter_focus = 18;</code>
        * @return Whether the avatarEnterFocus field is set.
@@ -3002,23 +3002,23 @@ public final class IBBBCHHJLOAOuterClass {
        * @return The avatarEnterFocus.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus getAvatarEnterFocus() {
+      public emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus getAvatarEnterFocus() {
         if (avatarEnterFocusBuilder_ == null) {
           if (detailCase_ == 18) {
-            return (emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus) detail_;
+            return (emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus) detail_;
           }
-          return emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus.getDefaultInstance();
+          return emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus.getDefaultInstance();
         } else {
           if (detailCase_ == 18) {
             return avatarEnterFocusBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus.getDefaultInstance();
+          return emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus.getDefaultInstance();
         }
       }
       /**
        * <code>._AvatarEnterFocus avatar_enter_focus = 18;</code>
        */
-      public Builder setAvatarEnterFocus(emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus value) {
+      public Builder setAvatarEnterFocus(emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus value) {
         if (avatarEnterFocusBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3035,7 +3035,7 @@ public final class IBBBCHHJLOAOuterClass {
        * <code>._AvatarEnterFocus avatar_enter_focus = 18;</code>
        */
       public Builder setAvatarEnterFocus(
-          emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus.Builder builderForValue) {
+          emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus.Builder builderForValue) {
         if (avatarEnterFocusBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3048,11 +3048,11 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._AvatarEnterFocus avatar_enter_focus = 18;</code>
        */
-      public Builder mergeAvatarEnterFocus(emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus value) {
+      public Builder mergeAvatarEnterFocus(emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus value) {
         if (avatarEnterFocusBuilder_ == null) {
           if (detailCase_ == 18 &&
-              detail_ != emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus.newBuilder((emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus) detail_)
+              detail_ != emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus.newBuilder((emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3089,36 +3089,36 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._AvatarEnterFocus avatar_enter_focus = 18;</code>
        */
-      public emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus.Builder getAvatarEnterFocusBuilder() {
+      public emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus.Builder getAvatarEnterFocusBuilder() {
         return getAvatarEnterFocusFieldBuilder().getBuilder();
       }
       /**
        * <code>._AvatarEnterFocus avatar_enter_focus = 18;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocusOrBuilder getAvatarEnterFocusOrBuilder() {
+      public emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocusOrBuilder getAvatarEnterFocusOrBuilder() {
         if ((detailCase_ == 18) && (avatarEnterFocusBuilder_ != null)) {
           return avatarEnterFocusBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 18) {
-            return (emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus) detail_;
+            return (emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus) detail_;
           }
-          return emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus.getDefaultInstance();
+          return emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus.getDefaultInstance();
         }
       }
       /**
        * <code>._AvatarEnterFocus avatar_enter_focus = 18;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus, emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus.Builder, emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocusOrBuilder> 
+          emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus, emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus.Builder, emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocusOrBuilder> 
           getAvatarEnterFocusFieldBuilder() {
         if (avatarEnterFocusBuilder_ == null) {
           if (!(detailCase_ == 18)) {
-            detail_ = emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus.getDefaultInstance();
           }
           avatarEnterFocusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus, emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus.Builder, emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocusOrBuilder>(
-                  (emu.grasscutter.net.proto.AvatarEnterFocus._AvatarEnterFocus) detail_,
+              emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus, emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus.Builder, emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocusOrBuilder>(
+                  (emu.grasscutter.net.proto._AvatarEnterFocusOuterClass._AvatarEnterFocus) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3270,7 +3270,7 @@ public final class IBBBCHHJLOAOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect, emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect.Builder, emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffectOrBuilder> attachShootHelperBydeffectBuilder_;
+          emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect, emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect.Builder, emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffectOrBuilder> attachShootHelperBydeffectBuilder_;
       /**
        * <code>._AttachShootHelperBydeffect attach_shoot_helper_bydeffect = 20;</code>
        * @return Whether the attachShootHelperBydeffect field is set.
@@ -3284,23 +3284,23 @@ public final class IBBBCHHJLOAOuterClass {
        * @return The attachShootHelperBydeffect.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect getAttachShootHelperBydeffect() {
+      public emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect getAttachShootHelperBydeffect() {
         if (attachShootHelperBydeffectBuilder_ == null) {
           if (detailCase_ == 20) {
-            return (emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect) detail_;
+            return (emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect) detail_;
           }
-          return emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect.getDefaultInstance();
+          return emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect.getDefaultInstance();
         } else {
           if (detailCase_ == 20) {
             return attachShootHelperBydeffectBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect.getDefaultInstance();
+          return emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect.getDefaultInstance();
         }
       }
       /**
        * <code>._AttachShootHelperBydeffect attach_shoot_helper_bydeffect = 20;</code>
        */
-      public Builder setAttachShootHelperBydeffect(emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect value) {
+      public Builder setAttachShootHelperBydeffect(emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect value) {
         if (attachShootHelperBydeffectBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3317,7 +3317,7 @@ public final class IBBBCHHJLOAOuterClass {
        * <code>._AttachShootHelperBydeffect attach_shoot_helper_bydeffect = 20;</code>
        */
       public Builder setAttachShootHelperBydeffect(
-          emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect.Builder builderForValue) {
+          emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect.Builder builderForValue) {
         if (attachShootHelperBydeffectBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3330,11 +3330,11 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._AttachShootHelperBydeffect attach_shoot_helper_bydeffect = 20;</code>
        */
-      public Builder mergeAttachShootHelperBydeffect(emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect value) {
+      public Builder mergeAttachShootHelperBydeffect(emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect value) {
         if (attachShootHelperBydeffectBuilder_ == null) {
           if (detailCase_ == 20 &&
-              detail_ != emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect.newBuilder((emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect) detail_)
+              detail_ != emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect.newBuilder((emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3371,36 +3371,36 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._AttachShootHelperBydeffect attach_shoot_helper_bydeffect = 20;</code>
        */
-      public emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect.Builder getAttachShootHelperBydeffectBuilder() {
+      public emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect.Builder getAttachShootHelperBydeffectBuilder() {
         return getAttachShootHelperBydeffectFieldBuilder().getBuilder();
       }
       /**
        * <code>._AttachShootHelperBydeffect attach_shoot_helper_bydeffect = 20;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffectOrBuilder getAttachShootHelperBydeffectOrBuilder() {
+      public emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffectOrBuilder getAttachShootHelperBydeffectOrBuilder() {
         if ((detailCase_ == 20) && (attachShootHelperBydeffectBuilder_ != null)) {
           return attachShootHelperBydeffectBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 20) {
-            return (emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect) detail_;
+            return (emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect) detail_;
           }
-          return emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect.getDefaultInstance();
+          return emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect.getDefaultInstance();
         }
       }
       /**
        * <code>._AttachShootHelperBydeffect attach_shoot_helper_bydeffect = 20;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect, emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect.Builder, emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffectOrBuilder> 
+          emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect, emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect.Builder, emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffectOrBuilder> 
           getAttachShootHelperBydeffectFieldBuilder() {
         if (attachShootHelperBydeffectBuilder_ == null) {
           if (!(detailCase_ == 20)) {
-            detail_ = emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect.getDefaultInstance();
           }
           attachShootHelperBydeffectBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect, emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect.Builder, emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffectOrBuilder>(
-                  (emu.grasscutter.net.proto.AttachShootHelperBydEffect._AttachShootHelperBydeffect) detail_,
+              emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect, emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect.Builder, emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffectOrBuilder>(
+                  (emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass._AttachShootHelperBydeffect) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3411,7 +3411,7 @@ public final class IBBBCHHJLOAOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MonsterSteer._MonsterSteer, emu.grasscutter.net.proto.MonsterSteer._MonsterSteer.Builder, emu.grasscutter.net.proto.MonsterSteer._MonsterSteerOrBuilder> monsterSteerBuilder_;
+          emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer, emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer.Builder, emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteerOrBuilder> monsterSteerBuilder_;
       /**
        * <code>._MonsterSteer monster_steer = 21;</code>
        * @return Whether the monsterSteer field is set.
@@ -3425,23 +3425,23 @@ public final class IBBBCHHJLOAOuterClass {
        * @return The monsterSteer.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MonsterSteer._MonsterSteer getMonsterSteer() {
+      public emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer getMonsterSteer() {
         if (monsterSteerBuilder_ == null) {
           if (detailCase_ == 21) {
-            return (emu.grasscutter.net.proto.MonsterSteer._MonsterSteer) detail_;
+            return (emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer) detail_;
           }
-          return emu.grasscutter.net.proto.MonsterSteer._MonsterSteer.getDefaultInstance();
+          return emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer.getDefaultInstance();
         } else {
           if (detailCase_ == 21) {
             return monsterSteerBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.MonsterSteer._MonsterSteer.getDefaultInstance();
+          return emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer.getDefaultInstance();
         }
       }
       /**
        * <code>._MonsterSteer monster_steer = 21;</code>
        */
-      public Builder setMonsterSteer(emu.grasscutter.net.proto.MonsterSteer._MonsterSteer value) {
+      public Builder setMonsterSteer(emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer value) {
         if (monsterSteerBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3458,7 +3458,7 @@ public final class IBBBCHHJLOAOuterClass {
        * <code>._MonsterSteer monster_steer = 21;</code>
        */
       public Builder setMonsterSteer(
-          emu.grasscutter.net.proto.MonsterSteer._MonsterSteer.Builder builderForValue) {
+          emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer.Builder builderForValue) {
         if (monsterSteerBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3471,11 +3471,11 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._MonsterSteer monster_steer = 21;</code>
        */
-      public Builder mergeMonsterSteer(emu.grasscutter.net.proto.MonsterSteer._MonsterSteer value) {
+      public Builder mergeMonsterSteer(emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer value) {
         if (monsterSteerBuilder_ == null) {
           if (detailCase_ == 21 &&
-              detail_ != emu.grasscutter.net.proto.MonsterSteer._MonsterSteer.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.MonsterSteer._MonsterSteer.newBuilder((emu.grasscutter.net.proto.MonsterSteer._MonsterSteer) detail_)
+              detail_ != emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer.newBuilder((emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3512,36 +3512,36 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._MonsterSteer monster_steer = 21;</code>
        */
-      public emu.grasscutter.net.proto.MonsterSteer._MonsterSteer.Builder getMonsterSteerBuilder() {
+      public emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer.Builder getMonsterSteerBuilder() {
         return getMonsterSteerFieldBuilder().getBuilder();
       }
       /**
        * <code>._MonsterSteer monster_steer = 21;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MonsterSteer._MonsterSteerOrBuilder getMonsterSteerOrBuilder() {
+      public emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteerOrBuilder getMonsterSteerOrBuilder() {
         if ((detailCase_ == 21) && (monsterSteerBuilder_ != null)) {
           return monsterSteerBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 21) {
-            return (emu.grasscutter.net.proto.MonsterSteer._MonsterSteer) detail_;
+            return (emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer) detail_;
           }
-          return emu.grasscutter.net.proto.MonsterSteer._MonsterSteer.getDefaultInstance();
+          return emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer.getDefaultInstance();
         }
       }
       /**
        * <code>._MonsterSteer monster_steer = 21;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MonsterSteer._MonsterSteer, emu.grasscutter.net.proto.MonsterSteer._MonsterSteer.Builder, emu.grasscutter.net.proto.MonsterSteer._MonsterSteerOrBuilder> 
+          emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer, emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer.Builder, emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteerOrBuilder> 
           getMonsterSteerFieldBuilder() {
         if (monsterSteerBuilder_ == null) {
           if (!(detailCase_ == 21)) {
-            detail_ = emu.grasscutter.net.proto.MonsterSteer._MonsterSteer.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer.getDefaultInstance();
           }
           monsterSteerBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MonsterSteer._MonsterSteer, emu.grasscutter.net.proto.MonsterSteer._MonsterSteer.Builder, emu.grasscutter.net.proto.MonsterSteer._MonsterSteerOrBuilder>(
-                  (emu.grasscutter.net.proto.MonsterSteer._MonsterSteer) detail_,
+              emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer, emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer.Builder, emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteerOrBuilder>(
+                  (emu.grasscutter.net.proto._MonsterSteerOuterClass._MonsterSteer) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3552,7 +3552,7 @@ public final class IBBBCHHJLOAOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AirBranchJump._AirBranchJump, emu.grasscutter.net.proto.AirBranchJump._AirBranchJump.Builder, emu.grasscutter.net.proto.AirBranchJump._AirBranchJumpOrBuilder> airBranchJumpBuilder_;
+          emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump, emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump.Builder, emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJumpOrBuilder> airBranchJumpBuilder_;
       /**
        * <code>._AirBranchJump air_branch_jump = 22;</code>
        * @return Whether the airBranchJump field is set.
@@ -3566,23 +3566,23 @@ public final class IBBBCHHJLOAOuterClass {
        * @return The airBranchJump.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AirBranchJump._AirBranchJump getAirBranchJump() {
+      public emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump getAirBranchJump() {
         if (airBranchJumpBuilder_ == null) {
           if (detailCase_ == 22) {
-            return (emu.grasscutter.net.proto.AirBranchJump._AirBranchJump) detail_;
+            return (emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump) detail_;
           }
-          return emu.grasscutter.net.proto.AirBranchJump._AirBranchJump.getDefaultInstance();
+          return emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump.getDefaultInstance();
         } else {
           if (detailCase_ == 22) {
             return airBranchJumpBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AirBranchJump._AirBranchJump.getDefaultInstance();
+          return emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump.getDefaultInstance();
         }
       }
       /**
        * <code>._AirBranchJump air_branch_jump = 22;</code>
        */
-      public Builder setAirBranchJump(emu.grasscutter.net.proto.AirBranchJump._AirBranchJump value) {
+      public Builder setAirBranchJump(emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump value) {
         if (airBranchJumpBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3599,7 +3599,7 @@ public final class IBBBCHHJLOAOuterClass {
        * <code>._AirBranchJump air_branch_jump = 22;</code>
        */
       public Builder setAirBranchJump(
-          emu.grasscutter.net.proto.AirBranchJump._AirBranchJump.Builder builderForValue) {
+          emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump.Builder builderForValue) {
         if (airBranchJumpBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3612,11 +3612,11 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._AirBranchJump air_branch_jump = 22;</code>
        */
-      public Builder mergeAirBranchJump(emu.grasscutter.net.proto.AirBranchJump._AirBranchJump value) {
+      public Builder mergeAirBranchJump(emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump value) {
         if (airBranchJumpBuilder_ == null) {
           if (detailCase_ == 22 &&
-              detail_ != emu.grasscutter.net.proto.AirBranchJump._AirBranchJump.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.AirBranchJump._AirBranchJump.newBuilder((emu.grasscutter.net.proto.AirBranchJump._AirBranchJump) detail_)
+              detail_ != emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump.newBuilder((emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3653,36 +3653,36 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._AirBranchJump air_branch_jump = 22;</code>
        */
-      public emu.grasscutter.net.proto.AirBranchJump._AirBranchJump.Builder getAirBranchJumpBuilder() {
+      public emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump.Builder getAirBranchJumpBuilder() {
         return getAirBranchJumpFieldBuilder().getBuilder();
       }
       /**
        * <code>._AirBranchJump air_branch_jump = 22;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AirBranchJump._AirBranchJumpOrBuilder getAirBranchJumpOrBuilder() {
+      public emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJumpOrBuilder getAirBranchJumpOrBuilder() {
         if ((detailCase_ == 22) && (airBranchJumpBuilder_ != null)) {
           return airBranchJumpBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 22) {
-            return (emu.grasscutter.net.proto.AirBranchJump._AirBranchJump) detail_;
+            return (emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump) detail_;
           }
-          return emu.grasscutter.net.proto.AirBranchJump._AirBranchJump.getDefaultInstance();
+          return emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump.getDefaultInstance();
         }
       }
       /**
        * <code>._AirBranchJump air_branch_jump = 22;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AirBranchJump._AirBranchJump, emu.grasscutter.net.proto.AirBranchJump._AirBranchJump.Builder, emu.grasscutter.net.proto.AirBranchJump._AirBranchJumpOrBuilder> 
+          emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump, emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump.Builder, emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJumpOrBuilder> 
           getAirBranchJumpFieldBuilder() {
         if (airBranchJumpBuilder_ == null) {
           if (!(detailCase_ == 22)) {
-            detail_ = emu.grasscutter.net.proto.AirBranchJump._AirBranchJump.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump.getDefaultInstance();
           }
           airBranchJumpBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AirBranchJump._AirBranchJump, emu.grasscutter.net.proto.AirBranchJump._AirBranchJump.Builder, emu.grasscutter.net.proto.AirBranchJump._AirBranchJumpOrBuilder>(
-                  (emu.grasscutter.net.proto.AirBranchJump._AirBranchJump) detail_,
+              emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump, emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump.Builder, emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJumpOrBuilder>(
+                  (emu.grasscutter.net.proto._AirBranchJumpOuterClass._AirBranchJump) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3693,7 +3693,7 @@ public final class IBBBCHHJLOAOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill, emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill.Builder, emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkillOrBuilder> specialStateDoSkillBuilder_;
+          emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill, emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill.Builder, emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkillOrBuilder> specialStateDoSkillBuilder_;
       /**
        * <code>._SpecialStateDoSkill special_state_do_skill = 23;</code>
        * @return Whether the specialStateDoSkill field is set.
@@ -3707,23 +3707,23 @@ public final class IBBBCHHJLOAOuterClass {
        * @return The specialStateDoSkill.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill getSpecialStateDoSkill() {
+      public emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill getSpecialStateDoSkill() {
         if (specialStateDoSkillBuilder_ == null) {
           if (detailCase_ == 23) {
-            return (emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill) detail_;
+            return (emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill) detail_;
           }
-          return emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill.getDefaultInstance();
+          return emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill.getDefaultInstance();
         } else {
           if (detailCase_ == 23) {
             return specialStateDoSkillBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill.getDefaultInstance();
+          return emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill.getDefaultInstance();
         }
       }
       /**
        * <code>._SpecialStateDoSkill special_state_do_skill = 23;</code>
        */
-      public Builder setSpecialStateDoSkill(emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill value) {
+      public Builder setSpecialStateDoSkill(emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill value) {
         if (specialStateDoSkillBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3740,7 +3740,7 @@ public final class IBBBCHHJLOAOuterClass {
        * <code>._SpecialStateDoSkill special_state_do_skill = 23;</code>
        */
       public Builder setSpecialStateDoSkill(
-          emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill.Builder builderForValue) {
+          emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill.Builder builderForValue) {
         if (specialStateDoSkillBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3753,11 +3753,11 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._SpecialStateDoSkill special_state_do_skill = 23;</code>
        */
-      public Builder mergeSpecialStateDoSkill(emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill value) {
+      public Builder mergeSpecialStateDoSkill(emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill value) {
         if (specialStateDoSkillBuilder_ == null) {
           if (detailCase_ == 23 &&
-              detail_ != emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill.newBuilder((emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill) detail_)
+              detail_ != emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill.newBuilder((emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3794,36 +3794,36 @@ public final class IBBBCHHJLOAOuterClass {
       /**
        * <code>._SpecialStateDoSkill special_state_do_skill = 23;</code>
        */
-      public emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill.Builder getSpecialStateDoSkillBuilder() {
+      public emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill.Builder getSpecialStateDoSkillBuilder() {
         return getSpecialStateDoSkillFieldBuilder().getBuilder();
       }
       /**
        * <code>._SpecialStateDoSkill special_state_do_skill = 23;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkillOrBuilder getSpecialStateDoSkillOrBuilder() {
+      public emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkillOrBuilder getSpecialStateDoSkillOrBuilder() {
         if ((detailCase_ == 23) && (specialStateDoSkillBuilder_ != null)) {
           return specialStateDoSkillBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 23) {
-            return (emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill) detail_;
+            return (emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill) detail_;
           }
-          return emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill.getDefaultInstance();
+          return emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill.getDefaultInstance();
         }
       }
       /**
        * <code>._SpecialStateDoSkill special_state_do_skill = 23;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill, emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill.Builder, emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkillOrBuilder> 
+          emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill, emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill.Builder, emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkillOrBuilder> 
           getSpecialStateDoSkillFieldBuilder() {
         if (specialStateDoSkillBuilder_ == null) {
           if (!(detailCase_ == 23)) {
-            detail_ = emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill.getDefaultInstance();
           }
           specialStateDoSkillBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill, emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill.Builder, emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkillOrBuilder>(
-                  (emu.grasscutter.net.proto.SpecialStateDoSkill._SpecialStateDoSkill) detail_,
+              emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill, emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill.Builder, emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkillOrBuilder>(
+                  (emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass._SpecialStateDoSkill) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -4350,8 +4350,8 @@ public final class IBBBCHHJLOAOuterClass {
       "\n\027modify_cast_speed_ratio\030\030 \001(\0132\014.HOBFDA" +
       "JFJLPH\000\022*\n\022ability_drag_force\030\031 \001(\0132\014.ML" +
       "NJNMGHEINH\000\022%\n\rpre_targeting\030\032 \001(\0132\014.MCM" +
-      "HHFNNGOCH\000B\010\n\006detailB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "HHFNNGOCH\000B\010\n\006detailB2\n\031emu.grasscutter." +
+      "net.protoB\025IBBBCHHJLOAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -4363,15 +4363,15 @@ public final class IBBBCHHJLOAOuterClass {
           emu.grasscutter.net.proto.MCMHHFNNGOCOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.MLNJNMGHEINOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.NCKAKJEKMGNOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.AirBranchJump.getDescriptor(),
-          emu.grasscutter.net.proto.AttachShootHelperBydEffect.getDescriptor(),
-          emu.grasscutter.net.proto.AvatarEnterFocus.getDescriptor(),
-          emu.grasscutter.net.proto.BranchJump.getDescriptor(),
-          emu.grasscutter.net.proto.CanDoSkill.getDescriptor(),
-          emu.grasscutter.net.proto.CancelInterval.getDescriptor(),
-          emu.grasscutter.net.proto.ComboJump.getDescriptor(),
-          emu.grasscutter.net.proto.MonsterSteer.getDescriptor(),
-          emu.grasscutter.net.proto.SpecialStateDoSkill.getDescriptor(),
+          emu.grasscutter.net.proto._AirBranchJumpOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._AvatarEnterFocusOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BranchJumpOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._CanDoSkillOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._CancelIntervalOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ComboJumpOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._MonsterSteerOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass.getDescriptor(),
         });
     internal_static_IBBBCHHJLOA_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -4386,15 +4386,15 @@ public final class IBBBCHHJLOAOuterClass {
     emu.grasscutter.net.proto.MCMHHFNNGOCOuterClass.getDescriptor();
     emu.grasscutter.net.proto.MLNJNMGHEINOuterClass.getDescriptor();
     emu.grasscutter.net.proto.NCKAKJEKMGNOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.AirBranchJump.getDescriptor();
-    emu.grasscutter.net.proto.AttachShootHelperBydEffect.getDescriptor();
-    emu.grasscutter.net.proto.AvatarEnterFocus.getDescriptor();
-    emu.grasscutter.net.proto.BranchJump.getDescriptor();
-    emu.grasscutter.net.proto.CanDoSkill.getDescriptor();
-    emu.grasscutter.net.proto.CancelInterval.getDescriptor();
-    emu.grasscutter.net.proto.ComboJump.getDescriptor();
-    emu.grasscutter.net.proto.MonsterSteer.getDescriptor();
-    emu.grasscutter.net.proto.SpecialStateDoSkill.getDescriptor();
+    emu.grasscutter.net.proto._AirBranchJumpOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._AttachShootHelperBydEffectOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._AvatarEnterFocusOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BranchJumpOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._CanDoSkillOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._CancelIntervalOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ComboJumpOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._MonsterSteerOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._SpecialStateDoSkillOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -1238,8 +1238,8 @@ public final class CIANMDFKGBOOuterClass {
       "\n\013CIANMDFKGBO\022!\n\013DCGCGEMMFGE\030\001 \003(\0132\014.MNG" +
       "JBEOJKBH\022\017\n\007retcode\030\004 \001(\005\022\023\n\013HALONGEGOEJ" +
       "\030\006 \003(\r\022\023\n\013_beatmap_id\030\t \001(\r\022\020\n\010ugc_guid\030" +
-      "\r \001(\004B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\r \001(\004B2\n\031emu.grasscutter.net.protoB\025CIAN" +
+      "MDFKGBOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

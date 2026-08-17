@@ -2323,7 +2323,8 @@ public final class DHEGMMIDLKGOuterClass {
       "NJKJHJEAKEJ\030\006 \001(\t\032h\n\013JGHNGCOCCLI\022\023\n\013KAAF" +
       "HGMFIHH\030\001 \001(\004\022!\n\013DGCECKLEJLP\030\002 \003(\0132\014.HDG" +
       "LLBPONHI\022!\n\013CHMFFMNENFE\030\003 \001(\0132\014.GHEPCHOK" +
-      "IDJB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "IDJB2\n\031emu.grasscutter.net.protoB\025DHEGMM" +
+      "IDLKGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

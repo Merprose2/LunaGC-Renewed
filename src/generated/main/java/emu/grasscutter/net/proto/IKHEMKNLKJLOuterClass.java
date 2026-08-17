@@ -964,8 +964,8 @@ public final class IKHEMKNLKJLOuterClass {
       "\n\021IKHEMKNLKJL.proto\032\023PBNavMeshTile.proto" +
       "\"V\n\013IKHEMKNLKJL\022\023\n\013JFCMGBBJBGB\030\002 \001(\005\022\023\n\013" +
       "NHBKIOMFNBI\030\010 \001(\r\022\035\n\005tiles\030\016 \003(\0132\016.PBNav" +
-      "MeshTileB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "MeshTileB2\n\031emu.grasscutter.net.protoB\025I" +
+      "KHEMKNLKJLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

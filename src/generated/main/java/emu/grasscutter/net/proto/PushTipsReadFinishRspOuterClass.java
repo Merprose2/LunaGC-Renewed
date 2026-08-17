@@ -596,8 +596,9 @@ public final class PushTipsReadFinishRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033PushTipsReadFinishRsp.proto\">\n\025PushTip" +
       "sReadFinishRsp\022\024\n\014push_tips_id\030\005 \001(\r\022\017\n\007" +
-      "retcode\030\r \001(\005B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "retcode\030\r \001(\005B<\n\031emu.grasscutter.net.pro" +
+      "toB\037PushTipsReadFinishRspOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

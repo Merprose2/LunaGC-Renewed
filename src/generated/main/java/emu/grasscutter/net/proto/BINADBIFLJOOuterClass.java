@@ -995,8 +995,8 @@ public final class BINADBIFLJOOuterClass {
       "\n\021BINADBIFLJO.proto\032\014Vector.proto\"Z\n\013BIN" +
       "ADBIFLJO\022\024\n\003pos\030\003 \001(\0132\007.Vector\022\014\n\004guid\030\007" +
       " \001(\r\022\024\n\003rot\030\n \001(\0132\007.Vector\022\021\n\tconfig_id\030" +
-      "\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025BINA" +
+      "DBIFLJOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -667,8 +667,9 @@ public final class MNODPLDBOAOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MNODPLDBOAO.proto\"9\n\013MNODPLDBOAO\022\024\n\013HO" +
-      "OFIPIENLC\030\365\003 \001(\t\022\024\n\013BNGPEDAOHFH\030\366\003 \001(\005B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "OFIPIENLC\030\365\003 \001(\t\022\024\n\013BNGPEDAOHFH\030\366\003 \001(\005B2" +
+      "\n\031emu.grasscutter.net.protoB\025MNODPLDBOAO" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -823,8 +823,8 @@ public final class HPDEFMAKDLOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HPDEFMAKDLO.proto\032\021JHDBLOLNIMJ.proto\"0" +
       "\n\013HPDEFMAKDLO\022!\n\013GHMJINEIACI\030\001 \003(\0132\014.JHD" +
-      "BLOLNIMJB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "BLOLNIMJB2\n\031emu.grasscutter.net.protoB\025H" +
+      "PDEFMAKDLOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

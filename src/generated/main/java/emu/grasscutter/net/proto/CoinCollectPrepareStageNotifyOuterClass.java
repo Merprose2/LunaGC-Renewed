@@ -660,8 +660,9 @@ public final class CoinCollectPrepareStageNotifyOuterClass {
       "\n#CoinCollectPrepareStageNotify.proto\032\032C" +
       "oinCollectStageInfo.proto\"Q\n\035CoinCollect" +
       "PrepareStageNotify\0220\n\021coin_collect_info\030" +
-      "\013 \001(\0132\025.CoinCollectStageInfoB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\013 \001(\0132\025.CoinCollectStageInfoBD\n\031emu.gras" +
+      "scutter.net.protoB\'CoinCollectPrepareSta" +
+      "geNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

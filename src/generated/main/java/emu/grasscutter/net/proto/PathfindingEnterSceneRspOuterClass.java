@@ -525,8 +525,9 @@ public final class PathfindingEnterSceneRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\036PathfindingEnterSceneRsp.proto\"+\n\030Path" +
-      "findingEnterSceneRsp\022\017\n\007retcode\030\007 \001(\005B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "findingEnterSceneRsp\022\017\n\007retcode\030\007 \001(\005B?\n" +
+      "\031emu.grasscutter.net.protoB\"PathfindingE" +
+      "nterSceneRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

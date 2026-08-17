@@ -33,21 +33,21 @@ public final class KJCJKLHAFHIOuterClass {
      * <code>._CurrentPhase AAPICHEHMEC = 2;</code>
      * @return The aAPICHEHMEC.
      */
-    emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getAAPICHEHMEC();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getAAPICHEHMEC();
     /**
      * <code>._CurrentPhase AAPICHEHMEC = 2;</code>
      */
-    emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getAAPICHEHMECOrBuilder();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getAAPICHEHMECOrBuilder();
 
     /**
      * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.CurrentPhase._CurrentPhase> 
+    java.util.List<emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase> 
         getIGBEKJFEIJKList();
     /**
      * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
      */
-    emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getIGBEKJFEIJK(int index);
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getIGBEKJFEIJK(int index);
     /**
      * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
      */
@@ -55,12 +55,12 @@ public final class KJCJKLHAFHIOuterClass {
     /**
      * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
         getIGBEKJFEIJKOrBuilderList();
     /**
      * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
      */
-    emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getIGBEKJFEIJKOrBuilder(
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getIGBEKJFEIJKOrBuilder(
         int index);
 
     /**
@@ -96,11 +96,11 @@ public final class KJCJKLHAFHIOuterClass {
      * <code>._CustomShopInfo custom_shop_info = 11;</code>
      * @return The customShopInfo.
      */
-    emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo getCustomShopInfo();
+    emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo getCustomShopInfo();
     /**
      * <code>._CustomShopInfo custom_shop_info = 11;</code>
      */
-    emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfoOrBuilder getCustomShopInfoOrBuilder();
+    emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfoOrBuilder getCustomShopInfoOrBuilder();
 
     /**
      * <code>._BagShopInfo bag_shop_info = 12;</code>
@@ -111,11 +111,11 @@ public final class KJCJKLHAFHIOuterClass {
      * <code>._BagShopInfo bag_shop_info = 12;</code>
      * @return The bagShopInfo.
      */
-    emu.grasscutter.net.proto.BagShopInfo._BagShopInfo getBagShopInfo();
+    emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo getBagShopInfo();
     /**
      * <code>._BagShopInfo bag_shop_info = 12;</code>
      */
-    emu.grasscutter.net.proto.BagShopInfo._BagShopInfoOrBuilder getBagShopInfoOrBuilder();
+    emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfoOrBuilder getBagShopInfoOrBuilder();
 
     public emu.grasscutter.net.proto.KJCJKLHAFHIOuterClass.KJCJKLHAFHI.DetailCase getDetailCase();
   }
@@ -173,11 +173,11 @@ public final class KJCJKLHAFHIOuterClass {
               break;
             }
             case 18: {
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder subBuilder = null;
               if (aAPICHEHMEC_ != null) {
                 subBuilder = aAPICHEHMEC_.toBuilder();
               }
-              aAPICHEHMEC_ = input.readMessage(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.parser(), extensionRegistry);
+              aAPICHEHMEC_ = input.readMessage(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(aAPICHEHMEC_);
                 aAPICHEHMEC_ = subBuilder.buildPartial();
@@ -187,11 +187,11 @@ public final class KJCJKLHAFHIOuterClass {
             }
             case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                iGBEKJFEIJK_ = new java.util.ArrayList<emu.grasscutter.net.proto.CurrentPhase._CurrentPhase>();
+                iGBEKJFEIJK_ = new java.util.ArrayList<emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase>();
                 mutable_bitField0_ |= 0x00000001;
               }
               iGBEKJFEIJK_.add(
-                  input.readMessage(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -204,28 +204,28 @@ public final class KJCJKLHAFHIOuterClass {
               break;
             }
             case 90: {
-              emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo.Builder subBuilder = null;
               if (detailCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 11;
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.BagShopInfo._BagShopInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo.Builder subBuilder = null;
               if (detailCase_ == 12) {
-                subBuilder = ((emu.grasscutter.net.proto.BagShopInfo._BagShopInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BagShopInfo._BagShopInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BagShopInfo._BagShopInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 12;
@@ -322,7 +322,7 @@ public final class KJCJKLHAFHIOuterClass {
     }
 
     public static final int AAPICHEHMEC_FIELD_NUMBER = 2;
-    private emu.grasscutter.net.proto.CurrentPhase._CurrentPhase aAPICHEHMEC_;
+    private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase aAPICHEHMEC_;
     /**
      * <code>._CurrentPhase AAPICHEHMEC = 2;</code>
      * @return Whether the aAPICHEHMEC field is set.
@@ -336,31 +336,31 @@ public final class KJCJKLHAFHIOuterClass {
      * @return The aAPICHEHMEC.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getAAPICHEHMEC() {
-      return aAPICHEHMEC_ == null ? emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : aAPICHEHMEC_;
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getAAPICHEHMEC() {
+      return aAPICHEHMEC_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : aAPICHEHMEC_;
     }
     /**
      * <code>._CurrentPhase AAPICHEHMEC = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getAAPICHEHMECOrBuilder() {
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getAAPICHEHMECOrBuilder() {
       return getAAPICHEHMEC();
     }
 
     public static final int IGBEKJFEIJK_FIELD_NUMBER = 3;
-    private java.util.List<emu.grasscutter.net.proto.CurrentPhase._CurrentPhase> iGBEKJFEIJK_;
+    private java.util.List<emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase> iGBEKJFEIJK_;
     /**
      * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.CurrentPhase._CurrentPhase> getIGBEKJFEIJKList() {
+    public java.util.List<emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase> getIGBEKJFEIJKList() {
       return iGBEKJFEIJK_;
     }
     /**
      * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
         getIGBEKJFEIJKOrBuilderList() {
       return iGBEKJFEIJK_;
     }
@@ -375,14 +375,14 @@ public final class KJCJKLHAFHIOuterClass {
      * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getIGBEKJFEIJK(int index) {
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getIGBEKJFEIJK(int index) {
       return iGBEKJFEIJK_.get(index);
     }
     /**
      * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getIGBEKJFEIJKOrBuilder(
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getIGBEKJFEIJKOrBuilder(
         int index) {
       return iGBEKJFEIJK_.get(index);
     }
@@ -441,21 +441,21 @@ public final class KJCJKLHAFHIOuterClass {
      * @return The customShopInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo getCustomShopInfo() {
+    public emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo getCustomShopInfo() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo) detail_;
+         return (emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo) detail_;
       }
-      return emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo.getDefaultInstance();
     }
     /**
      * <code>._CustomShopInfo custom_shop_info = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfoOrBuilder getCustomShopInfoOrBuilder() {
+    public emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfoOrBuilder getCustomShopInfoOrBuilder() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo) detail_;
+         return (emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo) detail_;
       }
-      return emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo.getDefaultInstance();
     }
 
     public static final int BAG_SHOP_INFO_FIELD_NUMBER = 12;
@@ -472,21 +472,21 @@ public final class KJCJKLHAFHIOuterClass {
      * @return The bagShopInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BagShopInfo._BagShopInfo getBagShopInfo() {
+    public emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo getBagShopInfo() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.BagShopInfo._BagShopInfo) detail_;
+         return (emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo) detail_;
       }
-      return emu.grasscutter.net.proto.BagShopInfo._BagShopInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo.getDefaultInstance();
     }
     /**
      * <code>._BagShopInfo bag_shop_info = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BagShopInfo._BagShopInfoOrBuilder getBagShopInfoOrBuilder() {
+    public emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfoOrBuilder getBagShopInfoOrBuilder() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.BagShopInfo._BagShopInfo) detail_;
+         return (emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo) detail_;
       }
-      return emu.grasscutter.net.proto.BagShopInfo._BagShopInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -516,10 +516,10 @@ public final class KJCJKLHAFHIOuterClass {
         output.writeMessage(4, dMCANKGKHNP_.get(i));
       }
       if (detailCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo) detail_);
+        output.writeMessage(11, (emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo) detail_);
       }
       if (detailCase_ == 12) {
-        output.writeMessage(12, (emu.grasscutter.net.proto.BagShopInfo._BagShopInfo) detail_);
+        output.writeMessage(12, (emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -548,11 +548,11 @@ public final class KJCJKLHAFHIOuterClass {
       }
       if (detailCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo) detail_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo) detail_);
       }
       if (detailCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (emu.grasscutter.net.proto.BagShopInfo._BagShopInfo) detail_);
+          .computeMessageSize(12, (emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1048,9 +1048,9 @@ public final class KJCJKLHAFHIOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.CurrentPhase._CurrentPhase aAPICHEHMEC_;
+      private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase aAPICHEHMEC_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> aAPICHEHMECBuilder_;
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> aAPICHEHMECBuilder_;
       /**
        * <code>._CurrentPhase AAPICHEHMEC = 2;</code>
        * @return Whether the aAPICHEHMEC field is set.
@@ -1062,9 +1062,9 @@ public final class KJCJKLHAFHIOuterClass {
        * <code>._CurrentPhase AAPICHEHMEC = 2;</code>
        * @return The aAPICHEHMEC.
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getAAPICHEHMEC() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getAAPICHEHMEC() {
         if (aAPICHEHMECBuilder_ == null) {
-          return aAPICHEHMEC_ == null ? emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : aAPICHEHMEC_;
+          return aAPICHEHMEC_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : aAPICHEHMEC_;
         } else {
           return aAPICHEHMECBuilder_.getMessage();
         }
@@ -1072,7 +1072,7 @@ public final class KJCJKLHAFHIOuterClass {
       /**
        * <code>._CurrentPhase AAPICHEHMEC = 2;</code>
        */
-      public Builder setAAPICHEHMEC(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+      public Builder setAAPICHEHMEC(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (aAPICHEHMECBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1089,7 +1089,7 @@ public final class KJCJKLHAFHIOuterClass {
        * <code>._CurrentPhase AAPICHEHMEC = 2;</code>
        */
       public Builder setAAPICHEHMEC(
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder builderForValue) {
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder builderForValue) {
         if (aAPICHEHMECBuilder_ == null) {
           aAPICHEHMEC_ = builderForValue.build();
           onChanged();
@@ -1102,11 +1102,11 @@ public final class KJCJKLHAFHIOuterClass {
       /**
        * <code>._CurrentPhase AAPICHEHMEC = 2;</code>
        */
-      public Builder mergeAAPICHEHMEC(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+      public Builder mergeAAPICHEHMEC(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (aAPICHEHMECBuilder_ == null) {
           if (aAPICHEHMEC_ != null) {
             aAPICHEHMEC_ =
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.newBuilder(aAPICHEHMEC_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.newBuilder(aAPICHEHMEC_).mergeFrom(value).buildPartial();
           } else {
             aAPICHEHMEC_ = value;
           }
@@ -1134,7 +1134,7 @@ public final class KJCJKLHAFHIOuterClass {
       /**
        * <code>._CurrentPhase AAPICHEHMEC = 2;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder getAAPICHEHMECBuilder() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder getAAPICHEHMECBuilder() {
         
         onChanged();
         return getAAPICHEHMECFieldBuilder().getBuilder();
@@ -1142,23 +1142,23 @@ public final class KJCJKLHAFHIOuterClass {
       /**
        * <code>._CurrentPhase AAPICHEHMEC = 2;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getAAPICHEHMECOrBuilder() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getAAPICHEHMECOrBuilder() {
         if (aAPICHEHMECBuilder_ != null) {
           return aAPICHEHMECBuilder_.getMessageOrBuilder();
         } else {
           return aAPICHEHMEC_ == null ?
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : aAPICHEHMEC_;
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : aAPICHEHMEC_;
         }
       }
       /**
        * <code>._CurrentPhase AAPICHEHMEC = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> 
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
           getAAPICHEHMECFieldBuilder() {
         if (aAPICHEHMECBuilder_ == null) {
           aAPICHEHMECBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder>(
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder>(
                   getAAPICHEHMEC(),
                   getParentForChildren(),
                   isClean());
@@ -1167,22 +1167,22 @@ public final class KJCJKLHAFHIOuterClass {
         return aAPICHEHMECBuilder_;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.CurrentPhase._CurrentPhase> iGBEKJFEIJK_ =
+      private java.util.List<emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase> iGBEKJFEIJK_ =
         java.util.Collections.emptyList();
       private void ensureIGBEKJFEIJKIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          iGBEKJFEIJK_ = new java.util.ArrayList<emu.grasscutter.net.proto.CurrentPhase._CurrentPhase>(iGBEKJFEIJK_);
+          iGBEKJFEIJK_ = new java.util.ArrayList<emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase>(iGBEKJFEIJK_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> iGBEKJFEIJKBuilder_;
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> iGBEKJFEIJKBuilder_;
 
       /**
        * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.CurrentPhase._CurrentPhase> getIGBEKJFEIJKList() {
+      public java.util.List<emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase> getIGBEKJFEIJKList() {
         if (iGBEKJFEIJKBuilder_ == null) {
           return java.util.Collections.unmodifiableList(iGBEKJFEIJK_);
         } else {
@@ -1202,7 +1202,7 @@ public final class KJCJKLHAFHIOuterClass {
       /**
        * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getIGBEKJFEIJK(int index) {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getIGBEKJFEIJK(int index) {
         if (iGBEKJFEIJKBuilder_ == null) {
           return iGBEKJFEIJK_.get(index);
         } else {
@@ -1213,7 +1213,7 @@ public final class KJCJKLHAFHIOuterClass {
        * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
        */
       public Builder setIGBEKJFEIJK(
-          int index, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+          int index, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (iGBEKJFEIJKBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1230,7 +1230,7 @@ public final class KJCJKLHAFHIOuterClass {
        * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
        */
       public Builder setIGBEKJFEIJK(
-          int index, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder builderForValue) {
         if (iGBEKJFEIJKBuilder_ == null) {
           ensureIGBEKJFEIJKIsMutable();
           iGBEKJFEIJK_.set(index, builderForValue.build());
@@ -1243,7 +1243,7 @@ public final class KJCJKLHAFHIOuterClass {
       /**
        * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
        */
-      public Builder addIGBEKJFEIJK(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+      public Builder addIGBEKJFEIJK(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (iGBEKJFEIJKBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1260,7 +1260,7 @@ public final class KJCJKLHAFHIOuterClass {
        * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
        */
       public Builder addIGBEKJFEIJK(
-          int index, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+          int index, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (iGBEKJFEIJKBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1277,7 +1277,7 @@ public final class KJCJKLHAFHIOuterClass {
        * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
        */
       public Builder addIGBEKJFEIJK(
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder builderForValue) {
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder builderForValue) {
         if (iGBEKJFEIJKBuilder_ == null) {
           ensureIGBEKJFEIJKIsMutable();
           iGBEKJFEIJK_.add(builderForValue.build());
@@ -1291,7 +1291,7 @@ public final class KJCJKLHAFHIOuterClass {
        * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
        */
       public Builder addIGBEKJFEIJK(
-          int index, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder builderForValue) {
         if (iGBEKJFEIJKBuilder_ == null) {
           ensureIGBEKJFEIJKIsMutable();
           iGBEKJFEIJK_.add(index, builderForValue.build());
@@ -1305,7 +1305,7 @@ public final class KJCJKLHAFHIOuterClass {
        * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
        */
       public Builder addAllIGBEKJFEIJK(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.CurrentPhase._CurrentPhase> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase> values) {
         if (iGBEKJFEIJKBuilder_ == null) {
           ensureIGBEKJFEIJKIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1345,14 +1345,14 @@ public final class KJCJKLHAFHIOuterClass {
       /**
        * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder getIGBEKJFEIJKBuilder(
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder getIGBEKJFEIJKBuilder(
           int index) {
         return getIGBEKJFEIJKFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getIGBEKJFEIJKOrBuilder(
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getIGBEKJFEIJKOrBuilder(
           int index) {
         if (iGBEKJFEIJKBuilder_ == null) {
           return iGBEKJFEIJK_.get(index);  } else {
@@ -1362,7 +1362,7 @@ public final class KJCJKLHAFHIOuterClass {
       /**
        * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
            getIGBEKJFEIJKOrBuilderList() {
         if (iGBEKJFEIJKBuilder_ != null) {
           return iGBEKJFEIJKBuilder_.getMessageOrBuilderList();
@@ -1373,31 +1373,31 @@ public final class KJCJKLHAFHIOuterClass {
       /**
        * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder addIGBEKJFEIJKBuilder() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder addIGBEKJFEIJKBuilder() {
         return getIGBEKJFEIJKFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance());
+            emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance());
       }
       /**
        * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder addIGBEKJFEIJKBuilder(
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder addIGBEKJFEIJKBuilder(
           int index) {
         return getIGBEKJFEIJKFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance());
+            index, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance());
       }
       /**
        * <code>repeated ._CurrentPhase IGBEKJFEIJK = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder> 
            getIGBEKJFEIJKBuilderList() {
         return getIGBEKJFEIJKFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> 
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
           getIGBEKJFEIJKFieldBuilder() {
         if (iGBEKJFEIJKBuilder_ == null) {
           iGBEKJFEIJKBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder>(
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder>(
                   iGBEKJFEIJK_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -1648,7 +1648,7 @@ public final class KJCJKLHAFHIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo, emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo.Builder, emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfoOrBuilder> customShopInfoBuilder_;
+          emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo, emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo.Builder, emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfoOrBuilder> customShopInfoBuilder_;
       /**
        * <code>._CustomShopInfo custom_shop_info = 11;</code>
        * @return Whether the customShopInfo field is set.
@@ -1662,23 +1662,23 @@ public final class KJCJKLHAFHIOuterClass {
        * @return The customShopInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo getCustomShopInfo() {
+      public emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo getCustomShopInfo() {
         if (customShopInfoBuilder_ == null) {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo) detail_;
+            return (emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo) detail_;
           }
-          return emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 11) {
             return customShopInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._CustomShopInfo custom_shop_info = 11;</code>
        */
-      public Builder setCustomShopInfo(emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo value) {
+      public Builder setCustomShopInfo(emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo value) {
         if (customShopInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1695,7 +1695,7 @@ public final class KJCJKLHAFHIOuterClass {
        * <code>._CustomShopInfo custom_shop_info = 11;</code>
        */
       public Builder setCustomShopInfo(
-          emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo.Builder builderForValue) {
         if (customShopInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1708,11 +1708,11 @@ public final class KJCJKLHAFHIOuterClass {
       /**
        * <code>._CustomShopInfo custom_shop_info = 11;</code>
        */
-      public Builder mergeCustomShopInfo(emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo value) {
+      public Builder mergeCustomShopInfo(emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo value) {
         if (customShopInfoBuilder_ == null) {
           if (detailCase_ == 11 &&
-              detail_ != emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo.newBuilder((emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo.newBuilder((emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1749,36 +1749,36 @@ public final class KJCJKLHAFHIOuterClass {
       /**
        * <code>._CustomShopInfo custom_shop_info = 11;</code>
        */
-      public emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo.Builder getCustomShopInfoBuilder() {
+      public emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo.Builder getCustomShopInfoBuilder() {
         return getCustomShopInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._CustomShopInfo custom_shop_info = 11;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfoOrBuilder getCustomShopInfoOrBuilder() {
+      public emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfoOrBuilder getCustomShopInfoOrBuilder() {
         if ((detailCase_ == 11) && (customShopInfoBuilder_ != null)) {
           return customShopInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo) detail_;
+            return (emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo) detail_;
           }
-          return emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._CustomShopInfo custom_shop_info = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo, emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo.Builder, emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfoOrBuilder> 
+          emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo, emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo.Builder, emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfoOrBuilder> 
           getCustomShopInfoFieldBuilder() {
         if (customShopInfoBuilder_ == null) {
           if (!(detailCase_ == 11)) {
-            detail_ = emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo.getDefaultInstance();
           }
           customShopInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo, emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo.Builder, emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.CustomShopInfo._CustomShopInfo) detail_,
+              emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo, emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo.Builder, emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._CustomShopInfoOuterClass._CustomShopInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1789,7 +1789,7 @@ public final class KJCJKLHAFHIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BagShopInfo._BagShopInfo, emu.grasscutter.net.proto.BagShopInfo._BagShopInfo.Builder, emu.grasscutter.net.proto.BagShopInfo._BagShopInfoOrBuilder> bagShopInfoBuilder_;
+          emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo, emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo.Builder, emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfoOrBuilder> bagShopInfoBuilder_;
       /**
        * <code>._BagShopInfo bag_shop_info = 12;</code>
        * @return Whether the bagShopInfo field is set.
@@ -1803,23 +1803,23 @@ public final class KJCJKLHAFHIOuterClass {
        * @return The bagShopInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BagShopInfo._BagShopInfo getBagShopInfo() {
+      public emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo getBagShopInfo() {
         if (bagShopInfoBuilder_ == null) {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.BagShopInfo._BagShopInfo) detail_;
+            return (emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo) detail_;
           }
-          return emu.grasscutter.net.proto.BagShopInfo._BagShopInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 12) {
             return bagShopInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BagShopInfo._BagShopInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._BagShopInfo bag_shop_info = 12;</code>
        */
-      public Builder setBagShopInfo(emu.grasscutter.net.proto.BagShopInfo._BagShopInfo value) {
+      public Builder setBagShopInfo(emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo value) {
         if (bagShopInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1836,7 +1836,7 @@ public final class KJCJKLHAFHIOuterClass {
        * <code>._BagShopInfo bag_shop_info = 12;</code>
        */
       public Builder setBagShopInfo(
-          emu.grasscutter.net.proto.BagShopInfo._BagShopInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo.Builder builderForValue) {
         if (bagShopInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1849,11 +1849,11 @@ public final class KJCJKLHAFHIOuterClass {
       /**
        * <code>._BagShopInfo bag_shop_info = 12;</code>
        */
-      public Builder mergeBagShopInfo(emu.grasscutter.net.proto.BagShopInfo._BagShopInfo value) {
+      public Builder mergeBagShopInfo(emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo value) {
         if (bagShopInfoBuilder_ == null) {
           if (detailCase_ == 12 &&
-              detail_ != emu.grasscutter.net.proto.BagShopInfo._BagShopInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BagShopInfo._BagShopInfo.newBuilder((emu.grasscutter.net.proto.BagShopInfo._BagShopInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo.newBuilder((emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1890,36 +1890,36 @@ public final class KJCJKLHAFHIOuterClass {
       /**
        * <code>._BagShopInfo bag_shop_info = 12;</code>
        */
-      public emu.grasscutter.net.proto.BagShopInfo._BagShopInfo.Builder getBagShopInfoBuilder() {
+      public emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo.Builder getBagShopInfoBuilder() {
         return getBagShopInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._BagShopInfo bag_shop_info = 12;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BagShopInfo._BagShopInfoOrBuilder getBagShopInfoOrBuilder() {
+      public emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfoOrBuilder getBagShopInfoOrBuilder() {
         if ((detailCase_ == 12) && (bagShopInfoBuilder_ != null)) {
           return bagShopInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.BagShopInfo._BagShopInfo) detail_;
+            return (emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo) detail_;
           }
-          return emu.grasscutter.net.proto.BagShopInfo._BagShopInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._BagShopInfo bag_shop_info = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BagShopInfo._BagShopInfo, emu.grasscutter.net.proto.BagShopInfo._BagShopInfo.Builder, emu.grasscutter.net.proto.BagShopInfo._BagShopInfoOrBuilder> 
+          emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo, emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo.Builder, emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfoOrBuilder> 
           getBagShopInfoFieldBuilder() {
         if (bagShopInfoBuilder_ == null) {
           if (!(detailCase_ == 12)) {
-            detail_ = emu.grasscutter.net.proto.BagShopInfo._BagShopInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo.getDefaultInstance();
           }
           bagShopInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BagShopInfo._BagShopInfo, emu.grasscutter.net.proto.BagShopInfo._BagShopInfo.Builder, emu.grasscutter.net.proto.BagShopInfo._BagShopInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.BagShopInfo._BagShopInfo) detail_,
+              emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo, emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo.Builder, emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._BagShopInfoOuterClass._BagShopInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2003,16 +2003,17 @@ public final class KJCJKLHAFHIOuterClass {
       "_CurrentPhase\022!\n\013DMCANKGKHNP\030\004 \003(\0132\014.COL" +
       "DNGOMODN\022,\n\020custom_shop_info\030\013 \001(\0132\020._Cu" +
       "stomShopInfoH\000\022&\n\rbag_shop_info\030\014 \001(\0132\r." +
-      "_BagShopInfoH\000B\010\n\006detailB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "_BagShopInfoH\000B\010\n\006detailB2\n\031emu.grasscut" +
+      "ter.net.protoB\025KJCJKLHAFHIOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.COLDNGOMODNOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BagShopInfo.getDescriptor(),
-          emu.grasscutter.net.proto.CurrentPhase.getDescriptor(),
-          emu.grasscutter.net.proto.CustomShopInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BagShopInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._CustomShopInfoOuterClass.getDescriptor(),
         });
     internal_static_KJCJKLHAFHI_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2021,9 +2022,9 @@ public final class KJCJKLHAFHIOuterClass {
         internal_static_KJCJKLHAFHI_descriptor,
         new java.lang.String[] { "IMIDEJDODLE", "AAPICHEHMEC", "IGBEKJFEIJK", "DMCANKGKHNP", "CustomShopInfo", "BagShopInfo", "Detail", });
     emu.grasscutter.net.proto.COLDNGOMODNOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BagShopInfo.getDescriptor();
-    emu.grasscutter.net.proto.CurrentPhase.getDescriptor();
-    emu.grasscutter.net.proto.CustomShopInfo.getDescriptor();
+    emu.grasscutter.net.proto._BagShopInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._CustomShopInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

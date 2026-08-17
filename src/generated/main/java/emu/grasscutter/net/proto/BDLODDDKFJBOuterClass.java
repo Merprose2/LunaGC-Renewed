@@ -1500,8 +1500,8 @@ public final class BDLODDDKFJBOuterClass {
       "FPNHLHPEI\030\005 \001(\0162\014.KLFBDEOOEPH\022\023\n\013BFIFPLM" +
       "KLNA\030\006 \001(\003\022\023\n\013NGEDGDGBAID\030\007 \001(\014\022\022\n\nreque" +
       "st_id\030\010 \001(\t\022!\n\013KDLOEJFMNBD\030\t \001(\0132\014.OEEAP" +
-      "FDHFNJB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "FDHFNJB2\n\031emu.grasscutter.net.protoB\025BDL" +
+      "ODDDKFJBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

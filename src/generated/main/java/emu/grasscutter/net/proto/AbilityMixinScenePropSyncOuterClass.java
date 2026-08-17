@@ -1090,8 +1090,9 @@ public final class AbilityMixinScenePropSyncOuterClass {
       "vePropSyncInfo.proto\"z\n\031AbilityMixinScen" +
       "ePropSync\022\026\n\016delete_id_list\030\003 \003(\003\022\024\n\014is_" +
       "clear_all\030\010 \001(\010\022/\n\021massive_prop_list\030\013 \003" +
-      "(\0132\024.MassivePropSyncInfoB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "(\0132\024.MassivePropSyncInfoB@\n\031emu.grasscut" +
+      "ter.net.protoB#AbilityMixinScenePropSync" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

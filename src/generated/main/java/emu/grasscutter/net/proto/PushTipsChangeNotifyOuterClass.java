@@ -1026,8 +1026,9 @@ public final class PushTipsChangeNotifyOuterClass {
       "\n\032PushTipsChangeNotify.proto\032\022PushTipsDa" +
       "ta.proto\"b\n\024PushTipsChangeNotify\022%\n\016push" +
       "_tips_list\030\004 \003(\0132\r.PushTipsData\022#\n\033_repe" +
-      "ated_push_tips_id_list\030\013 \003(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "ated_push_tips_id_list\030\013 \003(\rB;\n\031emu.gras" +
+      "scutter.net.protoB\036PushTipsChangeNotifyO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -723,7 +723,8 @@ public final class DKLPMBDEKBLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DKLPMBDEKBL.proto\";\n\013DKLPMBDEKBL\022\023\n\013ac" +
       "tivity_id\030\n \001(\r\022\027\n\017watcher_id_list\030\016 \003(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025DKLPMBDEK" +
+      "BLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -751,8 +751,8 @@ public final class BJBPDOBHDHLOuterClass {
       "JBPDOBHDHL_CUSTOM_ASSET\020>\022\032\n\026BJBPDOBHDHL" +
       "_CUSTOM_MAP\020?\022)\n%BJBPDOBHDHL_INSTRUCTION" +
       "_GRAPH_VEHICLE\020@\022$\n BJBPDOBHDHL_VEHICLE_" +
-      "CUSTOM_SKILL\020AB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "CUSTOM_SKILL\020AB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025BJBPDOBHDHLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

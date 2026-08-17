@@ -519,8 +519,8 @@ public final class EBKGIIBHJMDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EBKGIIBHJMD.proto\" \n\013EBKGIIBHJMD\022\021\n\twa" +
-      "it_time\030\001 \001(\002B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "it_time\030\001 \001(\002B2\n\031emu.grasscutter.net.pro" +
+      "toB\025EBKGIIBHJMDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

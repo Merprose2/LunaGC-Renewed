@@ -791,8 +791,8 @@ public final class KDCHAFHKGKOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KDCHAFHKGKO.proto\032\014Vector.proto\"@\n\013KDC" +
       "HAFHKGKO\022\014\n\004guid\030\007 \001(\r\022\r\n\005index\030\n \001(\r\022\024\n" +
-      "\003rot\030\013 \001(\0132\007.VectorB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\003rot\030\013 \001(\0132\007.VectorB2\n\031emu.grasscutter.n" +
+      "et.protoB\025KDCHAFHKGKOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

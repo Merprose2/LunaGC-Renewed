@@ -359,11 +359,11 @@ public final class KEGLGHJKEGPOuterClass {
      * <code>._LevelStateMachineComp level_state_machine_comp = 36;</code>
      * @return The levelStateMachineComp.
      */
-    emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp getLevelStateMachineComp();
+    emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp getLevelStateMachineComp();
     /**
      * <code>._LevelStateMachineComp level_state_machine_comp = 36;</code>
      */
-    emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineCompOrBuilder getLevelStateMachineCompOrBuilder();
+    emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineCompOrBuilder getLevelStateMachineCompOrBuilder();
 
     /**
      * <code>.LDJMONFNHNK minimap_mark_comp = 37;</code>
@@ -464,11 +464,11 @@ public final class KEGLGHJKEGPOuterClass {
      * <code>._SubSwitchComp sub_switch_comp = 43;</code>
      * @return The subSwitchComp.
      */
-    emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp getSubSwitchComp();
+    emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp getSubSwitchComp();
     /**
      * <code>._SubSwitchComp sub_switch_comp = 43;</code>
      */
-    emu.grasscutter.net.proto.SubSwitchComp._SubSwitchCompOrBuilder getSubSwitchCompOrBuilder();
+    emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchCompOrBuilder getSubSwitchCompOrBuilder();
 
     /**
      * <code>.KFMJCGEOPJJ monster_ai_comp = 44;</code>
@@ -854,14 +854,14 @@ public final class KEGLGHJKEGPOuterClass {
               break;
             }
             case 290: {
-              emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp.Builder subBuilder = null;
+              emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp.Builder subBuilder = null;
               if (detailCase_ == 36) {
-                subBuilder = ((emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 36;
@@ -952,14 +952,14 @@ public final class KEGLGHJKEGPOuterClass {
               break;
             }
             case 346: {
-              emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp.Builder subBuilder = null;
+              emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp.Builder subBuilder = null;
               if (detailCase_ == 43) {
-                subBuilder = ((emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 43;
@@ -1819,21 +1819,21 @@ public final class KEGLGHJKEGPOuterClass {
      * @return The levelStateMachineComp.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp getLevelStateMachineComp() {
+    public emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp getLevelStateMachineComp() {
       if (detailCase_ == 36) {
-         return (emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp) detail_;
+         return (emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp) detail_;
       }
-      return emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp.getDefaultInstance();
+      return emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp.getDefaultInstance();
     }
     /**
      * <code>._LevelStateMachineComp level_state_machine_comp = 36;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineCompOrBuilder getLevelStateMachineCompOrBuilder() {
+    public emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineCompOrBuilder getLevelStateMachineCompOrBuilder() {
       if (detailCase_ == 36) {
-         return (emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp) detail_;
+         return (emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp) detail_;
       }
-      return emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp.getDefaultInstance();
+      return emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp.getDefaultInstance();
     }
 
     public static final int MINIMAP_MARK_COMP_FIELD_NUMBER = 37;
@@ -2036,21 +2036,21 @@ public final class KEGLGHJKEGPOuterClass {
      * @return The subSwitchComp.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp getSubSwitchComp() {
+    public emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp getSubSwitchComp() {
       if (detailCase_ == 43) {
-         return (emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp) detail_;
+         return (emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp) detail_;
       }
-      return emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp.getDefaultInstance();
+      return emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp.getDefaultInstance();
     }
     /**
      * <code>._SubSwitchComp sub_switch_comp = 43;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SubSwitchComp._SubSwitchCompOrBuilder getSubSwitchCompOrBuilder() {
+    public emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchCompOrBuilder getSubSwitchCompOrBuilder() {
       if (detailCase_ == 43) {
-         return (emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp) detail_;
+         return (emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp) detail_;
       }
-      return emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp.getDefaultInstance();
+      return emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp.getDefaultInstance();
     }
 
     public static final int MONSTER_AI_COMP_FIELD_NUMBER = 44;
@@ -2199,7 +2199,7 @@ public final class KEGLGHJKEGPOuterClass {
         output.writeMessage(35, (emu.grasscutter.net.proto.GECFKHFMNKNOuterClass.GECFKHFMNKN) detail_);
       }
       if (detailCase_ == 36) {
-        output.writeMessage(36, (emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp) detail_);
+        output.writeMessage(36, (emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp) detail_);
       }
       if (detailCase_ == 37) {
         output.writeMessage(37, (emu.grasscutter.net.proto.LDJMONFNHNKOuterClass.LDJMONFNHNK) detail_);
@@ -2220,7 +2220,7 @@ public final class KEGLGHJKEGPOuterClass {
         output.writeMessage(42, (emu.grasscutter.net.proto.NJEMOPGNEDDOuterClass.NJEMOPGNEDD) detail_);
       }
       if (detailCase_ == 43) {
-        output.writeMessage(43, (emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp) detail_);
+        output.writeMessage(43, (emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp) detail_);
       }
       if (detailCase_ == 44) {
         output.writeMessage(44, (emu.grasscutter.net.proto.KFMJCGEOPJJOuterClass.KFMJCGEOPJJ) detail_);
@@ -2331,7 +2331,7 @@ public final class KEGLGHJKEGPOuterClass {
       }
       if (detailCase_ == 36) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(36, (emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp) detail_);
+          .computeMessageSize(36, (emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp) detail_);
       }
       if (detailCase_ == 37) {
         size += com.google.protobuf.CodedOutputStream
@@ -2359,7 +2359,7 @@ public final class KEGLGHJKEGPOuterClass {
       }
       if (detailCase_ == 43) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(43, (emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp) detail_);
+          .computeMessageSize(43, (emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp) detail_);
       }
       if (detailCase_ == 44) {
         size += com.google.protobuf.CodedOutputStream
@@ -6319,7 +6319,7 @@ public final class KEGLGHJKEGPOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp, emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp.Builder, emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineCompOrBuilder> levelStateMachineCompBuilder_;
+          emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp, emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp.Builder, emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineCompOrBuilder> levelStateMachineCompBuilder_;
       /**
        * <code>._LevelStateMachineComp level_state_machine_comp = 36;</code>
        * @return Whether the levelStateMachineComp field is set.
@@ -6333,23 +6333,23 @@ public final class KEGLGHJKEGPOuterClass {
        * @return The levelStateMachineComp.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp getLevelStateMachineComp() {
+      public emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp getLevelStateMachineComp() {
         if (levelStateMachineCompBuilder_ == null) {
           if (detailCase_ == 36) {
-            return (emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp) detail_;
+            return (emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp) detail_;
           }
-          return emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp.getDefaultInstance();
+          return emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp.getDefaultInstance();
         } else {
           if (detailCase_ == 36) {
             return levelStateMachineCompBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp.getDefaultInstance();
+          return emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp.getDefaultInstance();
         }
       }
       /**
        * <code>._LevelStateMachineComp level_state_machine_comp = 36;</code>
        */
-      public Builder setLevelStateMachineComp(emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp value) {
+      public Builder setLevelStateMachineComp(emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp value) {
         if (levelStateMachineCompBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6366,7 +6366,7 @@ public final class KEGLGHJKEGPOuterClass {
        * <code>._LevelStateMachineComp level_state_machine_comp = 36;</code>
        */
       public Builder setLevelStateMachineComp(
-          emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp.Builder builderForValue) {
+          emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp.Builder builderForValue) {
         if (levelStateMachineCompBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -6379,11 +6379,11 @@ public final class KEGLGHJKEGPOuterClass {
       /**
        * <code>._LevelStateMachineComp level_state_machine_comp = 36;</code>
        */
-      public Builder mergeLevelStateMachineComp(emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp value) {
+      public Builder mergeLevelStateMachineComp(emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp value) {
         if (levelStateMachineCompBuilder_ == null) {
           if (detailCase_ == 36 &&
-              detail_ != emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp.newBuilder((emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp) detail_)
+              detail_ != emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp.newBuilder((emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -6420,36 +6420,36 @@ public final class KEGLGHJKEGPOuterClass {
       /**
        * <code>._LevelStateMachineComp level_state_machine_comp = 36;</code>
        */
-      public emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp.Builder getLevelStateMachineCompBuilder() {
+      public emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp.Builder getLevelStateMachineCompBuilder() {
         return getLevelStateMachineCompFieldBuilder().getBuilder();
       }
       /**
        * <code>._LevelStateMachineComp level_state_machine_comp = 36;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineCompOrBuilder getLevelStateMachineCompOrBuilder() {
+      public emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineCompOrBuilder getLevelStateMachineCompOrBuilder() {
         if ((detailCase_ == 36) && (levelStateMachineCompBuilder_ != null)) {
           return levelStateMachineCompBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 36) {
-            return (emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp) detail_;
+            return (emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp) detail_;
           }
-          return emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp.getDefaultInstance();
+          return emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp.getDefaultInstance();
         }
       }
       /**
        * <code>._LevelStateMachineComp level_state_machine_comp = 36;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp, emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp.Builder, emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineCompOrBuilder> 
+          emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp, emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp.Builder, emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineCompOrBuilder> 
           getLevelStateMachineCompFieldBuilder() {
         if (levelStateMachineCompBuilder_ == null) {
           if (!(detailCase_ == 36)) {
-            detail_ = emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp.getDefaultInstance();
           }
           levelStateMachineCompBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp, emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp.Builder, emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineCompOrBuilder>(
-                  (emu.grasscutter.net.proto.LevelStateMachineComp._LevelStateMachineComp) detail_,
+              emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp, emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp.Builder, emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineCompOrBuilder>(
+                  (emu.grasscutter.net.proto._LevelStateMachineCompOuterClass._LevelStateMachineComp) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -7306,7 +7306,7 @@ public final class KEGLGHJKEGPOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp, emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp.Builder, emu.grasscutter.net.proto.SubSwitchComp._SubSwitchCompOrBuilder> subSwitchCompBuilder_;
+          emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp, emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp.Builder, emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchCompOrBuilder> subSwitchCompBuilder_;
       /**
        * <code>._SubSwitchComp sub_switch_comp = 43;</code>
        * @return Whether the subSwitchComp field is set.
@@ -7320,23 +7320,23 @@ public final class KEGLGHJKEGPOuterClass {
        * @return The subSwitchComp.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp getSubSwitchComp() {
+      public emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp getSubSwitchComp() {
         if (subSwitchCompBuilder_ == null) {
           if (detailCase_ == 43) {
-            return (emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp) detail_;
+            return (emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp) detail_;
           }
-          return emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp.getDefaultInstance();
+          return emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp.getDefaultInstance();
         } else {
           if (detailCase_ == 43) {
             return subSwitchCompBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp.getDefaultInstance();
+          return emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp.getDefaultInstance();
         }
       }
       /**
        * <code>._SubSwitchComp sub_switch_comp = 43;</code>
        */
-      public Builder setSubSwitchComp(emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp value) {
+      public Builder setSubSwitchComp(emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp value) {
         if (subSwitchCompBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7353,7 +7353,7 @@ public final class KEGLGHJKEGPOuterClass {
        * <code>._SubSwitchComp sub_switch_comp = 43;</code>
        */
       public Builder setSubSwitchComp(
-          emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp.Builder builderForValue) {
+          emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp.Builder builderForValue) {
         if (subSwitchCompBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -7366,11 +7366,11 @@ public final class KEGLGHJKEGPOuterClass {
       /**
        * <code>._SubSwitchComp sub_switch_comp = 43;</code>
        */
-      public Builder mergeSubSwitchComp(emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp value) {
+      public Builder mergeSubSwitchComp(emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp value) {
         if (subSwitchCompBuilder_ == null) {
           if (detailCase_ == 43 &&
-              detail_ != emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp.newBuilder((emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp) detail_)
+              detail_ != emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp.newBuilder((emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -7407,36 +7407,36 @@ public final class KEGLGHJKEGPOuterClass {
       /**
        * <code>._SubSwitchComp sub_switch_comp = 43;</code>
        */
-      public emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp.Builder getSubSwitchCompBuilder() {
+      public emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp.Builder getSubSwitchCompBuilder() {
         return getSubSwitchCompFieldBuilder().getBuilder();
       }
       /**
        * <code>._SubSwitchComp sub_switch_comp = 43;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SubSwitchComp._SubSwitchCompOrBuilder getSubSwitchCompOrBuilder() {
+      public emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchCompOrBuilder getSubSwitchCompOrBuilder() {
         if ((detailCase_ == 43) && (subSwitchCompBuilder_ != null)) {
           return subSwitchCompBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 43) {
-            return (emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp) detail_;
+            return (emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp) detail_;
           }
-          return emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp.getDefaultInstance();
+          return emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp.getDefaultInstance();
         }
       }
       /**
        * <code>._SubSwitchComp sub_switch_comp = 43;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp, emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp.Builder, emu.grasscutter.net.proto.SubSwitchComp._SubSwitchCompOrBuilder> 
+          emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp, emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp.Builder, emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchCompOrBuilder> 
           getSubSwitchCompFieldBuilder() {
         if (subSwitchCompBuilder_ == null) {
           if (!(detailCase_ == 43)) {
-            detail_ = emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp.getDefaultInstance();
           }
           subSwitchCompBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp, emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp.Builder, emu.grasscutter.net.proto.SubSwitchComp._SubSwitchCompOrBuilder>(
-                  (emu.grasscutter.net.proto.SubSwitchComp._SubSwitchComp) detail_,
+              emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp, emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp.Builder, emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchCompOrBuilder>(
+                  (emu.grasscutter.net.proto._SubSwitchCompOuterClass._SubSwitchComp) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -7844,8 +7844,8 @@ public final class KEGLGHJKEGPOuterClass {
       "ub_switch_comp\030+ \001(\0132\017._SubSwitchCompH\000\022" +
       "\'\n\017monster_ai_comp\030, \001(\0132\014.KFMJCGEOPJJH\000" +
       "\022$\n\014vehicle_comp\030- \001(\0132\014.OLOLDMPHCFKH\000B\010" +
-      "\n\006detailB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "\n\006detailB2\n\031emu.grasscutter.net.protoB\025K" +
+      "EGLGHJKEGPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -7880,8 +7880,8 @@ public final class KEGLGHJKEGPOuterClass {
           emu.grasscutter.net.proto.OKDEHNGHKGAOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.OLOLDMPHCFKOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PHFAOBBPOIPOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.LevelStateMachineComp.getDescriptor(),
-          emu.grasscutter.net.proto.SubSwitchComp.getDescriptor(),
+          emu.grasscutter.net.proto._LevelStateMachineCompOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._SubSwitchCompOuterClass.getDescriptor(),
         });
     internal_static_KEGLGHJKEGP_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -7919,8 +7919,8 @@ public final class KEGLGHJKEGPOuterClass {
     emu.grasscutter.net.proto.OKDEHNGHKGAOuterClass.getDescriptor();
     emu.grasscutter.net.proto.OLOLDMPHCFKOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PHFAOBBPOIPOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.LevelStateMachineComp.getDescriptor();
-    emu.grasscutter.net.proto.SubSwitchComp.getDescriptor();
+    emu.grasscutter.net.proto._LevelStateMachineCompOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._SubSwitchCompOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

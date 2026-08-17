@@ -715,8 +715,8 @@ public final class GCGLevelDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\022GCGLevelData.proto\"D\n\014GCGLevelData\022\020\n\010" +
       "level_id\030\002 \001(\r\022\"\n\032finished_challenge_id_" +
-      "list\030\014 \003(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "list\030\014 \003(\rB3\n\031emu.grasscutter.net.protoB" +
+      "\026GCGLevelDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

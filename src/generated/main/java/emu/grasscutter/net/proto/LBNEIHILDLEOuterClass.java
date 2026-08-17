@@ -738,8 +738,9 @@ public final class LBNEIHILDLEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LBNEIHILDLE.proto\"]\n\013LBNEIHILDLE\022\017\n\007re" +
       "tcode\030\003 \001(\005\022\023\n\013_level_guid\030\n \001(\004\022\023\n\013acti" +
-      "vity_id\030\014 \001(\r\022\023\n\013HMBJHOFCDGM\030\017 \001(\010B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "vity_id\030\014 \001(\r\022\023\n\013HMBJHOFCDGM\030\017 \001(\010B2\n\031em" +
+      "u.grasscutter.net.protoB\025LBNEIHILDLEOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

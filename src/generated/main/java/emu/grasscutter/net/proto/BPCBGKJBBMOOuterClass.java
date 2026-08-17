@@ -801,8 +801,8 @@ public final class BPCBGKJBBMOOuterClass {
       "\n\021BPCBGKJBBMO.proto\"n\n\013BPCBGKJBBMO\022\022\n\ndi" +
       "fficulty\030\001 \001(\r\022\023\n\013is_finished\030\003 \001(\010\022\020\n\010s" +
       "tage_id\030\005 \001(\r\022\023\n\013JBOONGMFCAO\030\n \001(\r\022\017\n\007is" +
-      "_open\030\r \001(\010B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "_open\030\r \001(\010B2\n\031emu.grasscutter.net.proto" +
+      "B\025BPCBGKJBBMOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

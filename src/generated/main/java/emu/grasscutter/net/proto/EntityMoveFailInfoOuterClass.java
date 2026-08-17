@@ -933,8 +933,9 @@ public final class EntityMoveFailInfoOuterClass {
       "roto\"\204\001\n\022EntityMoveFailInfo\022\021\n\tentity_id" +
       "\030\001 \001(\r\022\024\n\014reliable_seq\030\002 \001(\r\022\022\n\nscene_ti" +
       "me\030\004 \001(\r\022 \n\013fail_motion\030\005 \001(\0132\013.MotionIn" +
-      "fo\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "fo\022\017\n\007retcode\030\016 \001(\005B9\n\031emu.grasscutter.n" +
+      "et.protoB\034EntityMoveFailInfoOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

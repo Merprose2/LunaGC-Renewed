@@ -1006,8 +1006,9 @@ public final class BartenderCompleteOrderRspOuterClass {
       "rtenderCompleteOrderRsp\022\022\n\nformula_id\030\002 " +
       "\001(\r\022\020\n\010quest_id\030\003 \001(\r\022\022\n\naffix_list\030\005 \003(" +
       "\r\022\017\n\007retcode\030\006 \001(\005\022\027\n\017finish_order_id\030\007 " +
-      "\001(\r\022\016\n\006is_new\030\014 \001(\010B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\001(\r\022\016\n\006is_new\030\014 \001(\010B@\n\031emu.grasscutter.n" +
+      "et.protoB#BartenderCompleteOrderRspOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -801,8 +801,8 @@ public final class ReunionWatcherInfoOuterClass {
       "tcherInfo\022\027\n\017is_taken_reward\030\004 \001(\010\022\032\n\022re" +
       "ward_unlock_time\030\006 \001(\r\022\026\n\016total_progress" +
       "\030\007 \001(\r\022\024\n\014cur_progress\030\t \001(\r\022\022\n\nwatcher_" +
-      "id\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\014 \001(\rB9\n\031emu.grasscutter.net.protoB\034R" +
+      "eunionWatcherInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

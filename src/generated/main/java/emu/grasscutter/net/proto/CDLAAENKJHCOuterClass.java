@@ -595,8 +595,9 @@ public final class CDLAAENKJHCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CDLAAENKJHC.proto\"3\n\013CDLAAENKJHC\022\020\n\010st" +
-      "age_id\030\002 \001(\r\022\022\n\ndifficulty\030\010 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "age_id\030\002 \001(\r\022\022\n\ndifficulty\030\010 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025CDLAAENKJHCOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

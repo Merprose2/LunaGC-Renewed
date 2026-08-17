@@ -1695,8 +1695,9 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       "\023\n\013PNELCGBOIFM\030\t \001(\010\022\023\n\013CCDMIMGNCBM\030\n \001(" +
       "\010\022\023\n\013ADMFCLBHILF\030\013 \001(\010\022\021\n\tentity_id\030\014 \001(" +
       "\r\022\023\n\013FDCDPKDKNAL\030\r \001(\010\022\036\n\rfocus_forward\030" +
-      "\016 \001(\0132\007.Vector\022\023\n\013MEBKKKCNDAK\030\017 \001(\010B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\016 \001(\0132\007.Vector\022\023\n\013MEBKKKCNDAK\030\017 \001(\010B@\n\031e" +
+      "mu.grasscutter.net.protoB#EvtAvatarEnter" +
+      "FocusNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

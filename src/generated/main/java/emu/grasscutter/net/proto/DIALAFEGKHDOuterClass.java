@@ -895,8 +895,9 @@ public final class DIALAFEGKHDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DIALAFEGKHD.proto\032\021JNCLOPJMMKN.proto\"G" +
       "\n\013DIALAFEGKHD\022\"\n\013AMILICDIFIL\030\365\003 \003(\0132\014.JN" +
-      "CLOPJMMKN\022\024\n\013OJCGGLCEKAA\030\366\003 \001(\002B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "CLOPJMMKN\022\024\n\013OJCGGLCEKAA\030\366\003 \001(\002B2\n\031emu.g" +
+      "rasscutter.net.protoB\025DIALAFEGKHDOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

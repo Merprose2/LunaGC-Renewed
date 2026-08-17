@@ -526,8 +526,9 @@ public final class FindHilichurlFinishSecondQuestNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n*FindHilichurlFinishSecondQuestNotify.p" +
       "roto\"9\n$FindHilichurlFinishSecondQuestNo" +
-      "tify\022\021\n\tday_index\030\016 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "tify\022\021\n\tday_index\030\016 \001(\rBK\n\031emu.grasscutt" +
+      "er.net.protoB.FindHilichurlFinishSecondQ" +
+      "uestNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

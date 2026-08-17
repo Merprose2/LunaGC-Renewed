@@ -863,8 +863,9 @@ public final class PPLIDLAEPJMOuterClass {
       "\n\021PPLIDLAEPJM.proto\032\021EBADNHGKAAP.proto\"m" +
       "\n\013PPLIDLAEPJM\022\023\n\013OOLDMKBICCF\030\001 \001(\005\022\023\n\013KB" +
       "HPHAMFJGK\030\002 \001(\005\022\021\n\tis_active\030\003 \001(\010\022!\n\013EG" +
-      "GLDHMCFGC\030\004 \001(\0132\014.EBADNHGKAAPB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "GLDHMCFGC\030\004 \001(\0132\014.EBADNHGKAAPB2\n\031emu.gra" +
+      "sscutter.net.protoB\025PPLIDLAEPJMOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

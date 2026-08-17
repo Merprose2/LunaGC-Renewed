@@ -666,8 +666,9 @@ public final class AdjustWorldLevelRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031AdjustWorldLevelRsp.proto\"W\n\023AdjustWor" +
       "ldLevelRsp\022\031\n\021after_world_level\030\003 \001(\r\022\024\n" +
-      "\014cd_over_time\030\t \001(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\014cd_over_time\030\t \001(\r\022\017\n\007retcode\030\016 \001(\005B:\n\031" +
+      "emu.grasscutter.net.protoB\035AdjustWorldLe" +
+      "velRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

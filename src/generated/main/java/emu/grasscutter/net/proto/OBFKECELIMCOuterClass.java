@@ -2108,8 +2108,8 @@ public final class OBFKECELIMCOuterClass {
       "\023\n\013IKFLKHFBMEA\030\024 \001(\005\022!\n\013FLKOHHONIDA\030\025 \001(" +
       "\0162\014.JEOKDCIGCFP\022!\n\013MPOEJMLBAEP\030\031 \001(\0132\014.A" +
       "JIFMLLBJJI\022\023\n\013HMEIJMEPHKM\030\032 \001(\002\022\023\n\013KCKIO" +
-      "BBHNCI\030\033 \001(\002B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "BBHNCI\030\033 \001(\002B2\n\031emu.grasscutter.net.prot" +
+      "oB\025OBFKECELIMCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

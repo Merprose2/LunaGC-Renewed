@@ -879,8 +879,8 @@ public final class SegmentCRCInfoOuterClass {
       "\n\024SegmentCRCInfo.proto\"h\n\016SegmentCRCInfo" +
       "\022\023\n\013KLMFBPJEGJC\030\001 \001(\r\022\017\n\007retcode\030\003 \001(\005\022\023" +
       "\n\013FMKNLOGFALG\030\007 \001(\r\022\013\n\003crc\030\013 \001(\t\022\016\n\006offs" +
-      "et\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "et\030\016 \001(\rB5\n\031emu.grasscutter.net.protoB\030S" +
+      "egmentCRCInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

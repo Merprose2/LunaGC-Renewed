@@ -1479,8 +1479,9 @@ public final class BOPIGMIOGDHOuterClass {
       "GMGFHKKHEM\030\002 \001(\005\022\023\n\013CCGBNLMGICN\030\003 \001(\t\022!\n" +
       "\013FLAFKAKKMJO\030\004 \003(\0132\014.JFIPKKELGOL\022\023\n\013GFMB" +
       "MOLKHGD\030\005 \001(\010\022\023\n\013KEKODCBFIAA\030\006 \001(\010\022\023\n\013KB" +
-      "KLIHAKDEG\030\007 \001(\r\022\024\n\013JHEIDBHOOHJ\030\365\003 \001(\tB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "KLIHAKDEG\030\007 \001(\r\022\024\n\013JHEIDBHOOHJ\030\365\003 \001(\tB2\n" +
+      "\031emu.grasscutter.net.protoB\025BOPIGMIOGDHO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

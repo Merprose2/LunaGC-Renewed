@@ -668,8 +668,9 @@ public final class CJGCCMOMNHDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CJGCCMOMNHD.proto\"2\n\013CJGCCMOMNHD\022\r\n\004na" +
-      "me\030\365\003 \001(\t\022\024\n\013KMOGGHOEJFE\030\366\003 \001(\010B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "me\030\365\003 \001(\t\022\024\n\013KMOGGHOEJFE\030\366\003 \001(\010B2\n\031emu.g" +
+      "rasscutter.net.protoB\025CJGCCMOMNHDOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

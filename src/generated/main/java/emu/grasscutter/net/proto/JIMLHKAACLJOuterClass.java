@@ -667,8 +667,8 @@ public final class JIMLHKAACLJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JIMLHKAACLJ.proto\"E\n\013JIMLHKAACLJ\022\023\n\013KH" +
       "CGADDLDEJ\030\002 \001(\010\022\017\n\007retcode\030\003 \001(\005\022\020\n\010leve" +
-      "l_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "l_id\030\016 \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025JIMLHKAACLJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

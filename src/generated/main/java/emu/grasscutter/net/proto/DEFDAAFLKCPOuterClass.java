@@ -928,7 +928,8 @@ public final class DEFDAAFLKCPOuterClass {
       "OIMKDHLEFAK.proto\"h\n\013DEFDAAFLKCP\022!\n\013BDEF" +
       "KIDDENN\030\001 \001(\0132\014.OIMKDHLEFAK\022!\n\013NOJPIHFJN" +
       "IO\030\002 \001(\0132\014.FKNFMJEHJMD\022\023\n\013CGEKAEMEFGL\030\003 " +
-      "\001(\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\002B2\n\031emu.grasscutter.net.protoB\025DEFDAA" +
+      "FLKCPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

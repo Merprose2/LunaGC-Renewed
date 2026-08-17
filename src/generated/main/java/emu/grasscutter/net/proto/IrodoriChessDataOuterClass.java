@@ -895,8 +895,9 @@ public final class IrodoriChessDataOuterClass {
       "\n\026IrodoriChessData.proto\032\033IrodoriChessLe" +
       "velData.proto\"T\n\020IrodoriChessData\022\017\n\007is_" +
       "open\030\007 \001(\010\022/\n\017level_data_list\030\t \003(\0132\026.Ir" +
-      "odoriChessLevelDataB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "odoriChessLevelDataB7\n\031emu.grasscutter.n" +
+      "et.protoB\032IrodoriChessDataOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

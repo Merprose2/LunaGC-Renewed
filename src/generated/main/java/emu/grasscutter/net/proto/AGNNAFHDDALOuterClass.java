@@ -696,8 +696,8 @@ public final class AGNNAFHDDALOuterClass {
       "\n\021AGNNAFHDDAL.proto\032\021HLEPJMMECBC.proto\"Z" +
       "\n\013AGNNAFHDDAL\022\023\n\013KGDHIIGEFEJ\030\001 \001(\r\022\023\n\013JE" +
       "EIFKIGNCP\030\002 \001(\r\022!\n\013ABOBEFDFLPD\030\003 \001(\0162\014.H" +
-      "LEPJMMECBCB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "LEPJMMECBCB2\n\031emu.grasscutter.net.protoB" +
+      "\025AGNNAFHDDALOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

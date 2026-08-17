@@ -933,8 +933,8 @@ public final class HitTreeNotifyOuterClass {
       "\n\023HitTreeNotify.proto\032\014Vector.proto\"X\n\rH" +
       "itTreeNotify\022\021\n\ttree_type\030\001 \001(\r\022\031\n\010tree_" +
       "pos\030\002 \001(\0132\007.Vector\022\031\n\010drop_pos\030\014 \001(\0132\007.V" +
-      "ectorB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "ectorB4\n\031emu.grasscutter.net.protoB\027HitT" +
+      "reeNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

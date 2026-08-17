@@ -625,8 +625,9 @@ public final class GOJLCMEJCCDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GOJLCMEJCCD.proto\032\021OCNMEMEAHBL.proto\"E" +
       "\n\013GOJLCMEJCCD\022\030\n\020target_entity_id\030\007 \001(\r\022" +
-      "\034\n\006reason\030\t \001(\0162\014.OCNMEMEAHBLB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\034\n\006reason\030\t \001(\0162\014.OCNMEMEAHBLB2\n\031emu.gra" +
+      "sscutter.net.protoB\025GOJLCMEJCCDOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

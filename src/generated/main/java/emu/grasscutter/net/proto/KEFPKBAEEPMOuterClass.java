@@ -454,8 +454,9 @@ public final class KEFPKBAEEPMOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021KEFPKBAEEPM.proto\"\r\n\013KEFPKBAEEPMB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021KEFPKBAEEPM.proto\"\r\n\013KEFPKBAEEPMB2\n\031em" +
+      "u.grasscutter.net.protoB\025KEFPKBAEEPMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

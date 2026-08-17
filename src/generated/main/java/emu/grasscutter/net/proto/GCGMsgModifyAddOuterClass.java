@@ -964,8 +964,8 @@ public final class GCGMsgModifyAddOuterClass {
       "\"\202\001\n\017GCGMsgModifyAdd\022\013\n\003pos\030\t \001(\r\022\032\n\006rea" +
       "son\030\n \001(\0162\n.GCGReason\022\025\n\rcontroller_id\030\014" +
       " \001(\r\022\026\n\016card_guid_list\030\r \003(\r\022\027\n\017owner_ca" +
-      "rd_guid\030\016 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "rd_guid\030\016 \001(\rB6\n\031emu.grasscutter.net.pro" +
+      "toB\031GCGMsgModifyAddOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

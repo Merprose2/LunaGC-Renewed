@@ -1857,7 +1857,8 @@ public final class GCGDSDataNotifyOuterClass {
       "\005 \003(\0132\016.GCGDSCardData\022\023\n\013DGOIKIEPBKG\030\006 \003" +
       "(\r\022\023\n\013cur_deck_id\030\010 \001(\r\022!\n\tdeck_list\030\t \003" +
       "(\0132\016.GCGDSDeckData\022\023\n\013FGLDMENJCNC\030\013 \003(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "6\n\031emu.grasscutter.net.protoB\031GCGDSDataN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

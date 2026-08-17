@@ -854,8 +854,8 @@ public final class PlaceInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\017PlaceInfo.proto\032\014Vector.proto\"7\n\tPlace" +
       "Info\022\024\n\003pos\030\001 \001(\0132\007.Vector\022\024\n\003rot\030\002 \001(\0132" +
-      "\007.VectorB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "\007.VectorB0\n\031emu.grasscutter.net.protoB\023P" +
+      "laceInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

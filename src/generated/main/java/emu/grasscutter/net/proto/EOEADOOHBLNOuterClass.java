@@ -181,8 +181,8 @@ public final class EOEADOOHBLNOuterClass {
       "\001\022\025\n\021EOEADOOHBLN_EVENT\020\002\022\034\n\030EOEADOOHBLN_" +
       "FLOW_CONTROL\020\003\022\025\n\021EOEADOOHBLN_QUERY\020\004\022\027\n" +
       "\023EOEADOOHBLN_OPERATE\020\005\022\030\n\024EOEADOOHBLN_CO" +
-      "MPOUND\020\006B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "MPOUND\020\006B2\n\031emu.grasscutter.net.protoB\025E" +
+      "OEADOOHBLNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

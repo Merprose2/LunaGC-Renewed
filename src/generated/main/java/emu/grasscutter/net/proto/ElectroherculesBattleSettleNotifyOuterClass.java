@@ -952,8 +952,9 @@ public final class ElectroherculesBattleSettleNotifyOuterClass {
       "\020\n\010stage_id\030\004 \001(\r\022\023\n\013finish_time\030\005 \001(\r\022\032" +
       "\n\022is_activity_finish\030\007 \001(\010\022\025\n\ris_new_rec" +
       "ord\030\n \001(\010\022\017\n\007is_succ\030\014 \001(\010\022\021\n\tdiffculty\030" +
-      "\016 \001(\r\022\022\n\ngallery_id\030\017 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\016 \001(\r\022\022\n\ngallery_id\030\017 \001(\rBH\n\031emu.grasscu" +
+      "tter.net.protoB+ElectroherculesBattleSet" +
+      "tleNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

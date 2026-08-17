@@ -1078,8 +1078,9 @@ public final class InstableSprayLevelFinishNotifyOuterClass {
       "ge_id\030\002 \001(\r\022\023\n\013LFJLLNEGHGJ\030\007 \001(\010\022\022\n\nscor" +
       "e_list\030\010 \003(\r\022\020\n\010level_id\030\013 \001(\r\022\022\n\ndiffic" +
       "ulty\030\014 \001(\r\022\023\n\013FJLPGMPPHDH\030\r \001(\010\022\r\n\005round" +
-      "\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \001(\rBE\n\031emu.grasscutter.net.protoB(Ins" +
+      "tableSprayLevelFinishNotifyOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

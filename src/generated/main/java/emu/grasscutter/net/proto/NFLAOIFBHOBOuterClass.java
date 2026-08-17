@@ -794,7 +794,8 @@ public final class NFLAOIFBHOBOuterClass {
       "\n\021NFLAOIFBHOB.proto\032\021JHBAGAMJDPA.proto\"Q" +
       "\n\013NFLAOIFBHOB\022\023\n\013LGGICGBDDFO\030\001 \001(\002\022\021\n\tco" +
       "nfig_id\030\002 \001(\r\022\032\n\004data\030\003 \001(\0132\014.JHBAGAMJDP" +
-      "AB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "AB2\n\031emu.grasscutter.net.protoB\025NFLAOIFB" +
+      "HOBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

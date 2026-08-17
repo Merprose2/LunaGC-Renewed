@@ -596,8 +596,9 @@ public final class OELODEBOFMFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OELODEBOFMF.proto\"5\n\013OELODEBOFMF\022\025\n\ris" +
-      "_skip_match\030\003 \001(\010\022\017\n\007play_id\030\010 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "_skip_match\030\003 \001(\010\022\017\n\007play_id\030\010 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025OELODEBOFMFOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -909,8 +909,8 @@ public final class JEGAJMKFGLNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JEGAJMKFGLN.proto\"H\n\013JEGAJMKFGLN\022\017\n\007is" +
       "_open\030\006 \001(\010\022\023\n\013BKLOOECAGJJ\030\r \003(\r\022\023\n\013AALD" +
-      "BCGOBMO\030\017 \003(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "BCGOBMO\030\017 \003(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025JEGAJMKFGLNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

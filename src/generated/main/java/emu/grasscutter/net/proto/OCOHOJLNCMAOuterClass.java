@@ -162,8 +162,9 @@ public final class OCOHOJLNCMAOuterClass {
       "COHOJLNCMA_NONE\020\000\022\036\n\032OCOHOJLNCMA_SWITCH_" +
       "CONTROL\020\001\022\035\n\031OCOHOJLNCMA_SHOOT_TIMEOUT\020\002" +
       "\022\037\n\033OCOHOJLNCMA_RUNNING_TIMEOUT\020\003\022!\n\035OCO" +
-      "HOJLNCMA_RUNNING_RECONNECT\020\004B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "HOJLNCMA_RUNNING_RECONNECT\020\004B2\n\031emu.gras" +
+      "scutter.net.protoB\025OCOHOJLNCMAOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

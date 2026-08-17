@@ -737,8 +737,9 @@ public final class OENNNIKPEAOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OENNNIKPEAO.proto\"V\n\013OENNNIKPEAO\022\017\n\007ca" +
       "rd_id\030\004 \001(\r\022\023\n\013KHCGADDLDEJ\030\007 \001(\010\022\017\n\007retc" +
-      "ode\030\t \001(\005\022\020\n\010level_id\030\014 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "ode\030\t \001(\005\022\020\n\010level_id\030\014 \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025OENNNIKPEAOOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

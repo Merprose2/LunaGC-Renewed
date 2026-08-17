@@ -152,8 +152,9 @@ public final class BOJCJFEMOAAOuterClass {
       "\n\021BOJCJFEMOAA.proto*\205\001\n\013BOJCJFEMOAA\022\033\n\027B" +
       "OJCJFEMOAA_UNSPECIFIED\020\000\022\033\n\027BOJCJFEMOAA_" +
       "TOP_10_RATE\020\001\022\033\n\027BOJCJFEMOAA_7_D_TOP_100" +
-      "\020\002\022\037\n\033BOJCJFEMOAA_7_D_TOP_10_RATE\020\003B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\020\002\022\037\n\033BOJCJFEMOAA_7_D_TOP_10_RATE\020\003B2\n\031e" +
+      "mu.grasscutter.net.protoB\025BOJCJFEMOAAOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

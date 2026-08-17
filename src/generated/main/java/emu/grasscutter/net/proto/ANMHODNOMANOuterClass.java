@@ -1003,8 +1003,9 @@ public final class ANMHODNOMANOuterClass {
       "\n\021ANMHODNOMAN.proto\032\014Vector.proto\"q\n\013ANM" +
       "HODNOMAN\022\033\n\ntarget_pos\030\002 \001(\0132\007.Vector\022\023\n" +
       "\013KMDOFBPMGAI\030\006 \001(\r\022\023\n\013LDAODDFLPGB\030\013 \001(\r\022" +
-      "\033\n\ntarget_rot\030\017 \001(\0132\007.VectorB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\033\n\ntarget_rot\030\017 \001(\0132\007.VectorB2\n\031emu.gras" +
+      "scutter.net.protoB\025ANMHODNOMANOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

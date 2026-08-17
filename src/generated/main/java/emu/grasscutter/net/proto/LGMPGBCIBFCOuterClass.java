@@ -737,8 +737,9 @@ public final class LGMPGBCIBFCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LGMPGBCIBFC.proto\"S\n\013LGMPGBCIBFC\022\021\n\tis" +
       "_agreed\030\004 \001(\010\022\021\n\tapply_uid\030\t \001(\r\022\017\n\007retc" +
-      "ode\030\013 \001(\005\022\r\n\005param\030\017 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "ode\030\013 \001(\005\022\r\n\005param\030\017 \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025LGMPGBCIBFCOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -775,8 +775,8 @@ public final class NMMOPLOGBJBOuterClass {
       "\n\021NMMOPLOGBJB.proto\032\rUgcType.proto\"`\n\013NM" +
       "MOPLOGBJB\022\017\n\007retcode\030\004 \001(\005\022\017\n\007cd_time\030\t " +
       "\001(\r\022\032\n\010ugc_type\030\016 \001(\0162\010.UgcType\022\023\n\013targe" +
-      "t_guid\030\017 \001(\004B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "t_guid\030\017 \001(\004B2\n\031emu.grasscutter.net.prot" +
+      "oB\025NMMOPLOGBJBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

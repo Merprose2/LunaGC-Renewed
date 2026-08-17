@@ -831,8 +831,9 @@ public final class ServerAnnounceNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032ServerAnnounceNotify.proto\032\022AnnounceDa" +
       "ta.proto\"A\n\024ServerAnnounceNotify\022)\n\022anno" +
-      "unce_data_list\030\007 \003(\0132\r.AnnounceDataB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "unce_data_list\030\007 \003(\0132\r.AnnounceDataB;\n\031e" +
+      "mu.grasscutter.net.protoB\036ServerAnnounce" +
+      "NotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

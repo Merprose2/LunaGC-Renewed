@@ -870,8 +870,9 @@ public final class EntityForceSyncRspOuterClass {
       "\n\030EntityForceSyncRsp.proto\032\020MotionInfo.p" +
       "roto\"n\n\022EntityForceSyncRsp\022\021\n\tentity_id\030" +
       "\004 \001(\r\022 \n\013fail_motion\030\005 \001(\0132\013.MotionInfo\022" +
-      "\022\n\nscene_time\030\010 \001(\r\022\017\n\007retcode\030\t \001(\005B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\022\n\nscene_time\030\010 \001(\r\022\017\n\007retcode\030\t \001(\005B9\n\031" +
+      "emu.grasscutter.net.protoB\034EntityForceSy" +
+      "ncRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -769,8 +769,9 @@ public final class FEHCECPPNLOOuterClass {
       "\n\021FEHCECPPNLO.proto\032\021JEOKDCIGCFP.proto\"m" +
       "\n\013FEHCECPPNLO\022\021\n\tis_active\030\001 \001(\010\022!\n\013ILNI" +
       "HKDIOHH\030\002 \001(\0162\014.JEOKDCIGCFP\022\023\n\013DKOAOHGJO" +
-      "LE\030\003 \001(\010\022\023\n\013DHBMEFLJCMJ\030\004 \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "LE\030\003 \001(\010\022\023\n\013DHBMEFLJCMJ\030\004 \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025FEHCECPPNLOOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

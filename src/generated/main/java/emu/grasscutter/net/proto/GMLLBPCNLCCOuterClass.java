@@ -27,11 +27,11 @@ public final class GMLLBPCNLCCOuterClass {
      * <code>._SpecificGameserver specific_gameserver = 11;</code>
      * @return The specificGameserver.
      */
-    emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver getSpecificGameserver();
+    emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver getSpecificGameserver();
     /**
      * <code>._SpecificGameserver specific_gameserver = 11;</code>
      */
-    emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserverOrBuilder getSpecificGameserverOrBuilder();
+    emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserverOrBuilder getSpecificGameserverOrBuilder();
 
     /**
      * <code>._MinloadGameserver minload_gameserver = 12;</code>
@@ -42,11 +42,11 @@ public final class GMLLBPCNLCCOuterClass {
      * <code>._MinloadGameserver minload_gameserver = 12;</code>
      * @return The minloadGameserver.
      */
-    emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver getMinloadGameserver();
+    emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver getMinloadGameserver();
     /**
      * <code>._MinloadGameserver minload_gameserver = 12;</code>
      */
-    emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserverOrBuilder getMinloadGameserverOrBuilder();
+    emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserverOrBuilder getMinloadGameserverOrBuilder();
 
     public emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC.DetailCase getDetailCase();
   }
@@ -96,28 +96,28 @@ public final class GMLLBPCNLCCOuterClass {
               done = true;
               break;
             case 90: {
-              emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver.Builder subBuilder = null;
+              emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver.Builder subBuilder = null;
               if (detailCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 11;
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver.Builder subBuilder = null;
+              emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver.Builder subBuilder = null;
               if (detailCase_ == 12) {
-                subBuilder = ((emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 12;
@@ -210,21 +210,21 @@ public final class GMLLBPCNLCCOuterClass {
      * @return The specificGameserver.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver getSpecificGameserver() {
+    public emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver getSpecificGameserver() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver) detail_;
+         return (emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver) detail_;
       }
-      return emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver.getDefaultInstance();
+      return emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver.getDefaultInstance();
     }
     /**
      * <code>._SpecificGameserver specific_gameserver = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserverOrBuilder getSpecificGameserverOrBuilder() {
+    public emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserverOrBuilder getSpecificGameserverOrBuilder() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver) detail_;
+         return (emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver) detail_;
       }
-      return emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver.getDefaultInstance();
+      return emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver.getDefaultInstance();
     }
 
     public static final int MINLOAD_GAMESERVER_FIELD_NUMBER = 12;
@@ -241,21 +241,21 @@ public final class GMLLBPCNLCCOuterClass {
      * @return The minloadGameserver.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver getMinloadGameserver() {
+    public emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver getMinloadGameserver() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver) detail_;
+         return (emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver) detail_;
       }
-      return emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver.getDefaultInstance();
+      return emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver.getDefaultInstance();
     }
     /**
      * <code>._MinloadGameserver minload_gameserver = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserverOrBuilder getMinloadGameserverOrBuilder() {
+    public emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserverOrBuilder getMinloadGameserverOrBuilder() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver) detail_;
+         return (emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver) detail_;
       }
-      return emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver.getDefaultInstance();
+      return emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -273,10 +273,10 @@ public final class GMLLBPCNLCCOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (detailCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver) detail_);
+        output.writeMessage(11, (emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver) detail_);
       }
       if (detailCase_ == 12) {
-        output.writeMessage(12, (emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver) detail_);
+        output.writeMessage(12, (emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -289,11 +289,11 @@ public final class GMLLBPCNLCCOuterClass {
       size = 0;
       if (detailCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver) detail_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver) detail_);
       }
       if (detailCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver) detail_);
+          .computeMessageSize(12, (emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -628,7 +628,7 @@ public final class GMLLBPCNLCCOuterClass {
 
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver, emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver.Builder, emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserverOrBuilder> specificGameserverBuilder_;
+          emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver, emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver.Builder, emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserverOrBuilder> specificGameserverBuilder_;
       /**
        * <code>._SpecificGameserver specific_gameserver = 11;</code>
        * @return Whether the specificGameserver field is set.
@@ -642,23 +642,23 @@ public final class GMLLBPCNLCCOuterClass {
        * @return The specificGameserver.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver getSpecificGameserver() {
+      public emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver getSpecificGameserver() {
         if (specificGameserverBuilder_ == null) {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver) detail_;
+            return (emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver) detail_;
           }
-          return emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver.getDefaultInstance();
+          return emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver.getDefaultInstance();
         } else {
           if (detailCase_ == 11) {
             return specificGameserverBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver.getDefaultInstance();
+          return emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver.getDefaultInstance();
         }
       }
       /**
        * <code>._SpecificGameserver specific_gameserver = 11;</code>
        */
-      public Builder setSpecificGameserver(emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver value) {
+      public Builder setSpecificGameserver(emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver value) {
         if (specificGameserverBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -675,7 +675,7 @@ public final class GMLLBPCNLCCOuterClass {
        * <code>._SpecificGameserver specific_gameserver = 11;</code>
        */
       public Builder setSpecificGameserver(
-          emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver.Builder builderForValue) {
+          emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver.Builder builderForValue) {
         if (specificGameserverBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -688,11 +688,11 @@ public final class GMLLBPCNLCCOuterClass {
       /**
        * <code>._SpecificGameserver specific_gameserver = 11;</code>
        */
-      public Builder mergeSpecificGameserver(emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver value) {
+      public Builder mergeSpecificGameserver(emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver value) {
         if (specificGameserverBuilder_ == null) {
           if (detailCase_ == 11 &&
-              detail_ != emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver.newBuilder((emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver) detail_)
+              detail_ != emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver.newBuilder((emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -729,36 +729,36 @@ public final class GMLLBPCNLCCOuterClass {
       /**
        * <code>._SpecificGameserver specific_gameserver = 11;</code>
        */
-      public emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver.Builder getSpecificGameserverBuilder() {
+      public emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver.Builder getSpecificGameserverBuilder() {
         return getSpecificGameserverFieldBuilder().getBuilder();
       }
       /**
        * <code>._SpecificGameserver specific_gameserver = 11;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserverOrBuilder getSpecificGameserverOrBuilder() {
+      public emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserverOrBuilder getSpecificGameserverOrBuilder() {
         if ((detailCase_ == 11) && (specificGameserverBuilder_ != null)) {
           return specificGameserverBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver) detail_;
+            return (emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver) detail_;
           }
-          return emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver.getDefaultInstance();
+          return emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver.getDefaultInstance();
         }
       }
       /**
        * <code>._SpecificGameserver specific_gameserver = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver, emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver.Builder, emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserverOrBuilder> 
+          emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver, emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver.Builder, emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserverOrBuilder> 
           getSpecificGameserverFieldBuilder() {
         if (specificGameserverBuilder_ == null) {
           if (!(detailCase_ == 11)) {
-            detail_ = emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver.getDefaultInstance();
           }
           specificGameserverBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver, emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver.Builder, emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserverOrBuilder>(
-                  (emu.grasscutter.net.proto.SpecificGameserver._SpecificGameserver) detail_,
+              emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver, emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver.Builder, emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserverOrBuilder>(
+                  (emu.grasscutter.net.proto._SpecificGameserverOuterClass._SpecificGameserver) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -769,7 +769,7 @@ public final class GMLLBPCNLCCOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver, emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver.Builder, emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserverOrBuilder> minloadGameserverBuilder_;
+          emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver, emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver.Builder, emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserverOrBuilder> minloadGameserverBuilder_;
       /**
        * <code>._MinloadGameserver minload_gameserver = 12;</code>
        * @return Whether the minloadGameserver field is set.
@@ -783,23 +783,23 @@ public final class GMLLBPCNLCCOuterClass {
        * @return The minloadGameserver.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver getMinloadGameserver() {
+      public emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver getMinloadGameserver() {
         if (minloadGameserverBuilder_ == null) {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver) detail_;
+            return (emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver) detail_;
           }
-          return emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver.getDefaultInstance();
+          return emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver.getDefaultInstance();
         } else {
           if (detailCase_ == 12) {
             return minloadGameserverBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver.getDefaultInstance();
+          return emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver.getDefaultInstance();
         }
       }
       /**
        * <code>._MinloadGameserver minload_gameserver = 12;</code>
        */
-      public Builder setMinloadGameserver(emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver value) {
+      public Builder setMinloadGameserver(emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver value) {
         if (minloadGameserverBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -816,7 +816,7 @@ public final class GMLLBPCNLCCOuterClass {
        * <code>._MinloadGameserver minload_gameserver = 12;</code>
        */
       public Builder setMinloadGameserver(
-          emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver.Builder builderForValue) {
+          emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver.Builder builderForValue) {
         if (minloadGameserverBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -829,11 +829,11 @@ public final class GMLLBPCNLCCOuterClass {
       /**
        * <code>._MinloadGameserver minload_gameserver = 12;</code>
        */
-      public Builder mergeMinloadGameserver(emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver value) {
+      public Builder mergeMinloadGameserver(emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver value) {
         if (minloadGameserverBuilder_ == null) {
           if (detailCase_ == 12 &&
-              detail_ != emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver.newBuilder((emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver) detail_)
+              detail_ != emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver.newBuilder((emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -870,36 +870,36 @@ public final class GMLLBPCNLCCOuterClass {
       /**
        * <code>._MinloadGameserver minload_gameserver = 12;</code>
        */
-      public emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver.Builder getMinloadGameserverBuilder() {
+      public emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver.Builder getMinloadGameserverBuilder() {
         return getMinloadGameserverFieldBuilder().getBuilder();
       }
       /**
        * <code>._MinloadGameserver minload_gameserver = 12;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserverOrBuilder getMinloadGameserverOrBuilder() {
+      public emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserverOrBuilder getMinloadGameserverOrBuilder() {
         if ((detailCase_ == 12) && (minloadGameserverBuilder_ != null)) {
           return minloadGameserverBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver) detail_;
+            return (emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver) detail_;
           }
-          return emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver.getDefaultInstance();
+          return emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver.getDefaultInstance();
         }
       }
       /**
        * <code>._MinloadGameserver minload_gameserver = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver, emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver.Builder, emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserverOrBuilder> 
+          emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver, emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver.Builder, emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserverOrBuilder> 
           getMinloadGameserverFieldBuilder() {
         if (minloadGameserverBuilder_ == null) {
           if (!(detailCase_ == 12)) {
-            detail_ = emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver.getDefaultInstance();
           }
           minloadGameserverBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver, emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver.Builder, emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserverOrBuilder>(
-                  (emu.grasscutter.net.proto.MinloadGameserver._MinloadGameserver) detail_,
+              emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver, emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver.Builder, emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserverOrBuilder>(
+                  (emu.grasscutter.net.proto._MinloadGameserverOuterClass._MinloadGameserver) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -980,13 +980,14 @@ public final class GMLLBPCNLCCOuterClass {
       "BPCNLCC\0223\n\023specific_gameserver\030\013 \001(\0132\024._" +
       "SpecificGameserverH\000\0221\n\022minload_gameserv" +
       "er\030\014 \001(\0132\023._MinloadGameserverH\000B\010\n\006detai" +
-      "lB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "lB2\n\031emu.grasscutter.net.protoB\025GMLLBPCN" +
+      "LCCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.MinloadGameserver.getDescriptor(),
-          emu.grasscutter.net.proto.SpecificGameserver.getDescriptor(),
+          emu.grasscutter.net.proto._MinloadGameserverOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._SpecificGameserverOuterClass.getDescriptor(),
         });
     internal_static_GMLLBPCNLCC_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -994,8 +995,8 @@ public final class GMLLBPCNLCCOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GMLLBPCNLCC_descriptor,
         new java.lang.String[] { "SpecificGameserver", "MinloadGameserver", "Detail", });
-    emu.grasscutter.net.proto.MinloadGameserver.getDescriptor();
-    emu.grasscutter.net.proto.SpecificGameserver.getDescriptor();
+    emu.grasscutter.net.proto._MinloadGameserverOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._SpecificGameserverOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

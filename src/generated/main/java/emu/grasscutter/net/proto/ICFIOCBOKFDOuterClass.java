@@ -863,8 +863,9 @@ public final class ICFIOCBOKFDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ICFIOCBOKFD.proto\"U\n\013ICFIOCBOKFD\022\013\n\003ui" +
       "d\030\006 \001(\r\022\023\n\013KKAAANLNLGK\030\n \003(\r\022\017\n\007retcode\030" +
-      "\013 \001(\005\022\023\n\013schedule_id\030\017 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\013 \001(\005\022\023\n\013schedule_id\030\017 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025ICFIOCBOKFDOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

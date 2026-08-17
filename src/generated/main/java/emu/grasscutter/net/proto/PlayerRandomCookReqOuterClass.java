@@ -455,8 +455,8 @@ public final class PlayerRandomCookReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031PlayerRandomCookReq.proto\"\025\n\023PlayerRan" +
-      "domCookReqB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "domCookReqB:\n\031emu.grasscutter.net.protoB" +
+      "\035PlayerRandomCookReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

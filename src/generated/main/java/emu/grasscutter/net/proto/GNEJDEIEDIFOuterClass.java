@@ -872,8 +872,9 @@ public final class GNEJDEIEDIFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GNEJDEIEDIF.proto\032\021BILAPFJMJND.proto\"K" +
       "\n\013GNEJDEIEDIF\022\013\n\003uid\030\001 \001(\004\022\014\n\004name\030\002 \001(\t" +
-      "\022!\n\013avatar_info\030\003 \001(\0132\014.BILAPFJMJNDB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\022!\n\013avatar_info\030\003 \001(\0132\014.BILAPFJMJNDB2\n\031e" +
+      "mu.grasscutter.net.protoB\025GNEJDEIEDIFOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -2726,8 +2726,8 @@ public final class MLBCPJIFLHGOuterClass {
       "PGGOIND\030\203\004 \001(\0132\014.ELCEHBGKMMJ\022\"\n\013MDGNKKIM" +
       "EAO\030\204\004 \001(\0132\014.ELCEHBGKMMJ\022\024\n\013EJJLFONBKEG\030" +
       "\205\004 \001(\005\022\024\n\013EIGMINLGMIK\030\206\004 \001(\005\022\024\n\013LGHLKGGD" +
-      "FCB\030\207\004 \001(\005B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "FCB\030\207\004 \001(\005B2\n\031emu.grasscutter.net.protoB" +
+      "\025MLBCPJIFLHGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

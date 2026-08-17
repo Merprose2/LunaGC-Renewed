@@ -902,8 +902,9 @@ public final class GetBlossomBriefInfoListRspOuterClass {
       "\n GetBlossomBriefInfoListRsp.proto\032\026Blos" +
       "somBriefInfo.proto\"Y\n\032GetBlossomBriefInf" +
       "oListRsp\022*\n\017brief_info_list\030\003 \003(\0132\021.Blos" +
-      "somBriefInfo\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "somBriefInfo\022\017\n\007retcode\030\016 \001(\005BA\n\031emu.gra" +
+      "sscutter.net.protoB$GetBlossomBriefInfoL" +
+      "istRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

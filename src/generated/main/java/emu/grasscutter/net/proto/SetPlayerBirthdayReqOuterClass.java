@@ -659,8 +659,9 @@ public final class SetPlayerBirthdayReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032SetPlayerBirthdayReq.proto\032\016Birthday.p" +
       "roto\"3\n\024SetPlayerBirthdayReq\022\033\n\010birthday" +
-      "\030\r \001(\0132\t.BirthdayB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\030\r \001(\0132\t.BirthdayB;\n\031emu.grasscutter.net" +
+      ".protoB\036SetPlayerBirthdayReqOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

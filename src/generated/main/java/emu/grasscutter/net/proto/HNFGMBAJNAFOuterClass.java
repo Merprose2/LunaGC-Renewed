@@ -870,7 +870,8 @@ public final class HNFGMBAJNAFOuterClass {
       "\n\021HNFGMBAJNAF.proto\032\014Vector.proto\"U\n\013HNF" +
       "GMBAJNAF\022\r\n\005param\030\002 \001(\005\022\017\n\007item_id\030\005 \001(\r" +
       "\022\020\n\010item_num\030\n \001(\r\022\024\n\003pos\030\r \001(\0132\007.Vector" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025HNFGMBAJN" +
+      "AFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

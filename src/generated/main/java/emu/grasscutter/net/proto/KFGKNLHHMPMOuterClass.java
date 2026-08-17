@@ -714,8 +714,9 @@ public final class KFGKNLHHMPMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KFGKNLHHMPM.proto\"1\n\013KFGKNLHHMPM\022\r\n\005in" +
-      "dex\030\001 \001(\005\022\023\n\013EJBMKHMEMFF\030\002 \003(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "dex\030\001 \001(\005\022\023\n\013EJBMKHMEMFF\030\002 \003(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025KFGKNLHHMPMOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

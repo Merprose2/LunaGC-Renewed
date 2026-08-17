@@ -729,8 +729,9 @@ public final class KODIFMFNBEHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KODIFMFNBEH.proto\032\021HuntingPair.proto\"B" +
       "\n\013KODIFMFNBEH\022\017\n\007city_id\030\t \001(\r\022\"\n\014huntin" +
-      "g_pair\030\n \001(\0132\014.HuntingPairB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "g_pair\030\n \001(\0132\014.HuntingPairB2\n\031emu.grassc" +
+      "utter.net.protoB\025KODIFMFNBEHOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

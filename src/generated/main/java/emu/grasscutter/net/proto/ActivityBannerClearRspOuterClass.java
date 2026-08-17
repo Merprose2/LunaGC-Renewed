@@ -666,8 +666,9 @@ public final class ActivityBannerClearRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034ActivityBannerClearRsp.proto\"S\n\026Activi" +
       "tyBannerClearRsp\022\017\n\007retcode\030\010 \001(\005\022\023\n\013sch" +
-      "edule_id\030\r \001(\r\022\023\n\013activity_id\030\017 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "edule_id\030\r \001(\r\022\023\n\013activity_id\030\017 \001(\rB=\n\031e" +
+      "mu.grasscutter.net.protoB ActivityBanner" +
+      "ClearRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

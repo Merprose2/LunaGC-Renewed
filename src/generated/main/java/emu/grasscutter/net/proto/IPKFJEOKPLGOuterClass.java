@@ -739,8 +739,8 @@ public final class IPKFJEOKPLGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IPKFJEOKPLG.proto\"H\n\013IPKFJEOKPLG\022\r\n\004na" +
       "me\030\365\003 \001(\t\022\024\n\013NMKMGOCKLFF\030\366\003 \001(\r\022\024\n\013FOIAD" +
-      "KOIBGK\030\367\003 \001(\010B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "KOIBGK\030\367\003 \001(\010B2\n\031emu.grasscutter.net.pro" +
+      "toB\025IPKFJEOKPLGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -723,8 +723,9 @@ public final class MOJDINECDIBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MOJDINECDIB.proto\"6\n\013MOJDINECDIB\022\023\n\013LA" +
-      "JDGKDOJKA\030\014 \003(\r\022\022\n\n_hall_guid\030\r \001(\004B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "JDGKDOJKA\030\014 \003(\r\022\022\n\n_hall_guid\030\r \001(\004B2\n\031e" +
+      "mu.grasscutter.net.protoB\025MOJDINECDIBOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

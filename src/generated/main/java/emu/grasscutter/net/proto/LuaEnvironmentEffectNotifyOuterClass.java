@@ -1064,8 +1064,9 @@ public final class LuaEnvironmentEffectNotifyOuterClass {
       "\n LuaEnvironmentEffectNotify.proto\"r\n\032Lu" +
       "aEnvironmentEffectNotify\022\030\n\020float_param_" +
       "list\030\001 \003(\002\022\026\n\016int_param_list\030\003 \003(\005\022\014\n\004ty" +
-      "pe\030\006 \001(\r\022\024\n\014effect_alias\030\014 \001(\tB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "pe\030\006 \001(\r\022\024\n\014effect_alias\030\014 \001(\tBA\n\031emu.gr" +
+      "asscutter.net.protoB$LuaEnvironmentEffec" +
+      "tNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

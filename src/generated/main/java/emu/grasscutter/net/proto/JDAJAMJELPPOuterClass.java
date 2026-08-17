@@ -595,8 +595,9 @@ public final class JDAJAMJELPPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JDAJAMJELPP.proto\"2\n\013JDAJAMJELPP\022\022\n\ndu" +
-      "ngeon_id\030\010 \001(\r\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "ngeon_id\030\010 \001(\r\022\017\n\007retcode\030\013 \001(\005B2\n\031emu.g" +
+      "rasscutter.net.protoB\025JDAJAMJELPPOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -721,8 +721,8 @@ public final class PPEHACKOOOBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PPEHACKOOOB.proto\032\021KIHHDBJMMOH.proto\"5" +
       "\n\013PPEHACKOOOB\022\n\n\002id\030\001 \001(\r\022\032\n\004data\030\002 \001(\0132" +
-      "\014.KIHHDBJMMOHB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\014.KIHHDBJMMOHB2\n\031emu.grasscutter.net.pro" +
+      "toB\025PPEHACKOOOBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

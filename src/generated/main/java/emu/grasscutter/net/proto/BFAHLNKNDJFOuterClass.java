@@ -801,8 +801,9 @@ public final class BFAHLNKNDJFOuterClass {
       "\n\021BFAHLNKNDJF.proto\032\026OnlinePlayerInfo.pr" +
       "oto\"c\n\013BFAHLNKNDJF\022\023\n\013EEHKAIMJJDO\030\001 \001(\010\022" +
       "*\n\017src_player_info\030\013 \001(\0132\021.OnlinePlayerI" +
-      "nfo\022\023\n\013EBDIMCHMKKD\030\017 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "nfo\022\023\n\013EBDIMCHMKKD\030\017 \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025BFAHLNKNDJFOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

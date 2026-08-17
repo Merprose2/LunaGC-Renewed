@@ -924,8 +924,9 @@ public final class ICPDBCCEKOCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ICPDBCCEKOC.proto\032\014Vector.proto\"F\n\013ICP" +
       "DBCCEKOC\022\013\n\003uid\030\004 \001(\r\022\024\n\003rot\030\013 \001(\0132\007.Vec" +
-      "tor\022\024\n\003pos\030\014 \001(\0132\007.VectorB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "tor\022\024\n\003pos\030\014 \001(\0132\007.VectorB2\n\031emu.grasscu" +
+      "tter.net.protoB\025ICPDBCCEKOCOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

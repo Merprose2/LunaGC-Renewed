@@ -142,8 +142,9 @@ public final class OFHKLJEENFKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OFHKLJEENFK.proto*V\n\013OFHKLJEENFK\022\024\n\020OF" +
       "HKLJEENFK_NONE\020\000\022\026\n\022OFHKLJEENFK_IN_BAG\020\001" +
-      "\022\031\n\025OFHKLJEENFK_CAN_FORGE\020\002B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\022\031\n\025OFHKLJEENFK_CAN_FORGE\020\002B2\n\031emu.grass" +
+      "cutter.net.protoB\025OFHKLJEENFKOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

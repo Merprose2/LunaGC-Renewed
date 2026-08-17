@@ -729,8 +729,9 @@ public final class FKLFNJKHGNPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FKLFNJKHGNP.proto\"S\n\013FKLFNJKHGNP\022\022\n\nco" +
       "stume_id\030\005 \001(\r\022\013\n\003uid\030\006 \001(\r\022\021\n\tavatar_id" +
-      "\030\n \001(\r\022\020\n\010is_ready\030\016 \001(\010B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\030\n \001(\r\022\020\n\010is_ready\030\016 \001(\010B2\n\031emu.grasscut" +
+      "ter.net.protoB\025FKLFNJKHGNPOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

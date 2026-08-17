@@ -924,8 +924,9 @@ public final class PlantFlowerGiveFriendFlowerReqOuterClass {
       "\030\010 \001(\r\022I\n\016flower_num_map\030\t \003(\01321.PlantFl" +
       "owerGiveFriendFlowerReq.FlowerNumMapEntr" +
       "y\022\023\n\013schedule_id\030\r \001(\r\0323\n\021FlowerNumMapEn" +
-      "try\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "try\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001BE\n\031e" +
+      "mu.grasscutter.net.protoB(PlantFlowerGiv" +
+      "eFriendFlowerReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

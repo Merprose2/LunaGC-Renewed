@@ -455,8 +455,9 @@ public final class ChannellerSlabSaveAssistInfoReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n%ChannellerSlabSaveAssistInfoReq.proto\"" +
-      "!\n\037ChannellerSlabSaveAssistInfoReqB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "!\n\037ChannellerSlabSaveAssistInfoReqBF\n\031em" +
+      "u.grasscutter.net.protoB)ChannellerSlabS" +
+      "aveAssistInfoReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

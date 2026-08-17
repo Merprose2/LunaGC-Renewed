@@ -1010,7 +1010,8 @@ public final class EFEEIAPKEJNOuterClass {
       "EMMIEIAAMJM.proto\"h\n\013EFEEIAPKEJN\022!\n\013GFID" +
       "KBINAGH\030\003 \003(\0132\014.EMMIEIAAMJM\022!\n\013NHGKKKAOK" +
       "MN\030\t \001(\0162\014.AELIBNHFODD\022\023\n\013KMDOFBPMGAI\030\017 " +
-      "\001(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\005B2\n\031emu.grasscutter.net.protoB\025EFEEIA" +
+      "PKEJNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -737,8 +737,9 @@ public final class FleurFairMusicGameSettleReqOuterClass {
       "\n!FleurFairMusicGameSettleReq.proto\"h\n\033F" +
       "leurFairMusicGameSettleReq\022\026\n\016music_basi" +
       "c_id\030\004 \001(\r\022\023\n\013correct_hit\030\010 \001(\r\022\r\n\005score" +
-      "\030\t \001(\r\022\r\n\005combo\030\016 \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\030\t \001(\r\022\r\n\005combo\030\016 \001(\rBB\n\031emu.grasscutter" +
+      ".net.protoB%FleurFairMusicGameSettleReqO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

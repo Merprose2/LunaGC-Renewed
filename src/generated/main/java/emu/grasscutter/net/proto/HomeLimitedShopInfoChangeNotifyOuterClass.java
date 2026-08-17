@@ -832,8 +832,9 @@ public final class HomeLimitedShopInfoChangeNotifyOuterClass {
       "\n%HomeLimitedShopInfoChangeNotify.proto\032" +
       "\032HomeLimitedShopGoods.proto\"L\n\037HomeLimit" +
       "edShopInfoChangeNotify\022)\n\ngoods_list\030\017 \003" +
-      "(\0132\025.HomeLimitedShopGoodsB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "(\0132\025.HomeLimitedShopGoodsBF\n\031emu.grasscu" +
+      "tter.net.protoB)HomeLimitedShopInfoChang" +
+      "eNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

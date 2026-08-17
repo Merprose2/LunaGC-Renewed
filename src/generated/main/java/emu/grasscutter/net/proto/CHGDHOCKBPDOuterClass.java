@@ -82,7 +82,7 @@ public final class CHGDHOCKBPDOuterClass {
      * <code>repeated ._BeyondRetcode DGJGPHDPBKN = 10;</code>
      * @return A list containing the dGJGPHDPBKN.
      */
-    java.util.List<emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode> getDGJGPHDPBKNList();
+    java.util.List<emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode> getDGJGPHDPBKNList();
     /**
      * <code>repeated ._BeyondRetcode DGJGPHDPBKN = 10;</code>
      * @return The count of dGJGPHDPBKN.
@@ -93,7 +93,7 @@ public final class CHGDHOCKBPDOuterClass {
      * @param index The index of the element to return.
      * @return The dGJGPHDPBKN at the given index.
      */
-    emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode getDGJGPHDPBKN(int index);
+    emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode getDGJGPHDPBKN(int index);
     /**
      * <code>repeated ._BeyondRetcode DGJGPHDPBKN = 10;</code>
      * @return A list containing the enum numeric values on the wire for dGJGPHDPBKN.
@@ -406,13 +406,13 @@ public final class CHGDHOCKBPDOuterClass {
     public static final int DGJGPHDPBKN_FIELD_NUMBER = 10;
     private java.util.List<java.lang.Integer> dGJGPHDPBKN_;
     private static final com.google.protobuf.Internal.ListAdapter.Converter<
-        java.lang.Integer, emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode> dGJGPHDPBKN_converter_ =
+        java.lang.Integer, emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode> dGJGPHDPBKN_converter_ =
             new com.google.protobuf.Internal.ListAdapter.Converter<
-                java.lang.Integer, emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode>() {
-              public emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode convert(java.lang.Integer from) {
+                java.lang.Integer, emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode>() {
+              public emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode convert(java.lang.Integer from) {
                 @SuppressWarnings("deprecation")
-                emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode result = emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode.valueOf(from);
-                return result == null ? emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode.UNRECOGNIZED : result;
+                emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode result = emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode.valueOf(from);
+                return result == null ? emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode.UNRECOGNIZED : result;
               }
             };
     /**
@@ -420,9 +420,9 @@ public final class CHGDHOCKBPDOuterClass {
      * @return A list containing the dGJGPHDPBKN.
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode> getDGJGPHDPBKNList() {
+    public java.util.List<emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode> getDGJGPHDPBKNList() {
       return new com.google.protobuf.Internal.ListAdapter<
-          java.lang.Integer, emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode>(dGJGPHDPBKN_, dGJGPHDPBKN_converter_);
+          java.lang.Integer, emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode>(dGJGPHDPBKN_, dGJGPHDPBKN_converter_);
     }
     /**
      * <code>repeated ._BeyondRetcode DGJGPHDPBKN = 10;</code>
@@ -438,7 +438,7 @@ public final class CHGDHOCKBPDOuterClass {
      * @return The dGJGPHDPBKN at the given index.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode getDGJGPHDPBKN(int index) {
+    public emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode getDGJGPHDPBKN(int index) {
       return dGJGPHDPBKN_converter_.convert(dGJGPHDPBKN_.get(index));
     }
     /**
@@ -1588,9 +1588,9 @@ public final class CHGDHOCKBPDOuterClass {
        * <code>repeated ._BeyondRetcode DGJGPHDPBKN = 10;</code>
        * @return A list containing the dGJGPHDPBKN.
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode> getDGJGPHDPBKNList() {
+      public java.util.List<emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode> getDGJGPHDPBKNList() {
         return new com.google.protobuf.Internal.ListAdapter<
-            java.lang.Integer, emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode>(dGJGPHDPBKN_, dGJGPHDPBKN_converter_);
+            java.lang.Integer, emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode>(dGJGPHDPBKN_, dGJGPHDPBKN_converter_);
       }
       /**
        * <code>repeated ._BeyondRetcode DGJGPHDPBKN = 10;</code>
@@ -1604,7 +1604,7 @@ public final class CHGDHOCKBPDOuterClass {
        * @param index The index of the element to return.
        * @return The dGJGPHDPBKN at the given index.
        */
-      public emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode getDGJGPHDPBKN(int index) {
+      public emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode getDGJGPHDPBKN(int index) {
         return dGJGPHDPBKN_converter_.convert(dGJGPHDPBKN_.get(index));
       }
       /**
@@ -1614,7 +1614,7 @@ public final class CHGDHOCKBPDOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDGJGPHDPBKN(
-          int index, emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode value) {
+          int index, emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -1628,7 +1628,7 @@ public final class CHGDHOCKBPDOuterClass {
        * @param value The dGJGPHDPBKN to add.
        * @return This builder for chaining.
        */
-      public Builder addDGJGPHDPBKN(emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode value) {
+      public Builder addDGJGPHDPBKN(emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -1643,9 +1643,9 @@ public final class CHGDHOCKBPDOuterClass {
        * @return This builder for chaining.
        */
       public Builder addAllDGJGPHDPBKN(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode> values) {
         ensureDGJGPHDPBKNIsMutable();
-        for (emu.grasscutter.net.proto.BeyondRetcode._BeyondRetcode value : values) {
+        for (emu.grasscutter.net.proto._BeyondRetcodeOuterClass._BeyondRetcode value : values) {
           dGJGPHDPBKN_.add(value.getNumber());
         }
         onChanged();
@@ -1898,14 +1898,15 @@ public final class CHGDHOCKBPDOuterClass {
       "\n\013MAECFJNDOJE\030\007 \003(\0132\014.ABFMGNFBCOK\022!\n\013PDL" +
       "KAODFOPD\030\t \003(\0132\014.ABFMGNFBCOK\022$\n\013DGJGPHDP" +
       "BKN\030\n \003(\0162\017._BeyondRetcode\022\023\n\013DDGCMCHDGM" +
-      "I\030\013 \003(\r\022\023\n\013ODIHEMDGMNB\030\017 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "I\030\013 \003(\r\022\023\n\013ODIHEMDGMNB\030\017 \001(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025CHGDHOCKBPDOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.ABFMGNFBCOKOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondRetcode.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondRetcodeOuterClass.getDescriptor(),
         });
     internal_static_CHGDHOCKBPD_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1914,7 +1915,7 @@ public final class CHGDHOCKBPDOuterClass {
         internal_static_CHGDHOCKBPD_descriptor,
         new java.lang.String[] { "OHLPAIJJNKF", "PKPLHPEAABB", "MAECFJNDOJE", "PDLKAODFOPD", "DGJGPHDPBKN", "DDGCMCHDGMI", "ODIHEMDGMNB", });
     emu.grasscutter.net.proto.ABFMGNFBCOKOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BeyondRetcode.getDescriptor();
+    emu.grasscutter.net.proto._BeyondRetcodeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

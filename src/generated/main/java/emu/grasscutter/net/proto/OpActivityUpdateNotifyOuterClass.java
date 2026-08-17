@@ -660,7 +660,8 @@ public final class OpActivityUpdateNotifyOuterClass {
       "\n\034OpActivityUpdateNotify.proto\032\024OpActivi" +
       "tyInfo.proto\"C\n\026OpActivityUpdateNotify\022)" +
       "\n\020op_activity_info\030\n \001(\0132\017.OpActivityInf" +
-      "oB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "oB=\n\031emu.grasscutter.net.protoB OpActivi" +
+      "tyUpdateNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

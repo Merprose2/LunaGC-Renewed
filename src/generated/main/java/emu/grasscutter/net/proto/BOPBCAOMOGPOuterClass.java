@@ -950,8 +950,8 @@ public final class BOPBCAOMOGPOuterClass {
       "evel_id\030\007 \001(\r\022\022\n\nis_success\030\010 \001(\010\022\020\n\010use" +
       "_time\030\n \001(\r\022\023\n\013GDCGLDBIOPD\030\013 \001(\010\022\021\n\tgame" +
       "_time\030\014 \001(\r\022\023\n\013MCNCBCDOJOM\030\016 \001(\r\022\016\n\006resu" +
-      "lt\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "lt\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025B" +
+      "OPBCAOMOGPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

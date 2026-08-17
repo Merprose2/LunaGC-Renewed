@@ -721,8 +721,9 @@ public final class LGNPBCOFFOAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LGNPBCOFFOA.proto\032\021PGFPPAECOLF.proto\"E" +
       "\n\013LGNPBCOFFOA\022\023\n\013EMBJNKGJLFN\030\001 \001(\r\022!\n\013DM" +
-      "NGMKGMCMB\030\002 \001(\0132\014.PGFPPAECOLFB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "NGMKGMCMB\030\002 \001(\0132\014.PGFPPAECOLFB2\n\031emu.gra" +
+      "sscutter.net.protoB\025LGNPBCOFFOAOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

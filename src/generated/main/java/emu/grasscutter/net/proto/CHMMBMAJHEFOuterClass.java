@@ -1617,8 +1617,8 @@ public final class CHMMBMAJHEFOuterClass {
       "\030\004 \001(\010\022!\n\013EEKCJEFKAAN\030\005 \001(\0132\014.JHABMHAPMP" +
       "G\022!\n\013AAMAHAPANIK\030\006 \001(\0132\014.JHABMHAPMPG\022\023\n\013" +
       "FGNHMNHJAMG\030\007 \001(\r\022\023\n\013KGNIOGALONJ\030\010 \001(\005\022\023" +
-      "\n\013CEKOMLDKKPO\030\t \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013CEKOMLDKKPO\030\t \001(\005B2\n\031emu.grasscutter.n" +
+      "et.protoB\025CHMMBMAJHEFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

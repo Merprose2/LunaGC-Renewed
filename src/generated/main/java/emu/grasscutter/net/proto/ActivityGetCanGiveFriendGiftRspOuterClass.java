@@ -924,8 +924,9 @@ public final class ActivityGetCanGiveFriendGiftRspOuterClass {
       "ift_num_map\030\t \003(\01320.ActivityGetCanGiveFr" +
       "iendGiftRsp.GiftNumMapEntry\022\017\n\007retcode\030\n" +
       " \001(\005\022\023\n\013schedule_id\030\016 \001(\r\0321\n\017GiftNumMapE" +
-      "ntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "ntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001BF\n\031" +
+      "emu.grasscutter.net.protoB)ActivityGetCa" +
+      "nGiveFriendGiftRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

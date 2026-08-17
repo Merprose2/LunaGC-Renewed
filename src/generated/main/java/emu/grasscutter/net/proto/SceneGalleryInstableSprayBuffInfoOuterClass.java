@@ -661,8 +661,9 @@ public final class SceneGalleryInstableSprayBuffInfoOuterClass {
       "\n\'SceneGalleryInstableSprayBuffInfo.prot" +
       "o\"^\n!SceneGalleryInstableSprayBuffInfo\022\017" +
       "\n\007buff_id\030\004 \001(\r\022\023\n\013JIGBGMHEBOL\030\010 \001(\004\022\023\n\013" +
-      "CBODCEOHLKP\030\t \001(\004B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "CBODCEOHLKP\030\t \001(\004BH\n\031emu.grasscutter.net" +
+      ".protoB+SceneGalleryInstableSprayBuffInf" +
+      "oOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

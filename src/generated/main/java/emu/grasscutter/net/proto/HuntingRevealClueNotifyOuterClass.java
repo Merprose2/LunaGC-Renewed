@@ -1005,8 +1005,9 @@ public final class HuntingRevealClueNotifyOuterClass {
       "alClueNotify\022\031\n\021finished_group_id\030\002 \001(\r\022" +
       "\036\n\rclue_position\030\004 \001(\0132\007.Vector\022\031\n\021finis" +
       "h_clue_count\030\n \001(\r\022\"\n\014hunting_pair\030\016 \001(\013" +
-      "2\014.HuntingPairB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "2\014.HuntingPairB>\n\031emu.grasscutter.net.pr" +
+      "otoB!HuntingRevealClueNotifyOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

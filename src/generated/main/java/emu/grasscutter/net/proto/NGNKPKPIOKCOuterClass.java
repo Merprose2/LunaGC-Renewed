@@ -595,8 +595,9 @@ public final class NGNKPKPIOKCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NGNKPKPIOKC.proto\"7\n\013NGNKPKPIOKC\022\023\n\013PO" +
-      "FGGBGCOEO\030\005 \001(\r\022\023\n\013GMLMHFIDFLG\030\t \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "FGGBGCOEO\030\005 \001(\r\022\023\n\013GMLMHFIDFLG\030\t \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025NGNKPKPIOKCOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

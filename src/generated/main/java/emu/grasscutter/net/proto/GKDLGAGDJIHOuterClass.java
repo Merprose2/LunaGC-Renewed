@@ -722,8 +722,9 @@ public final class GKDLGAGDJIHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GKDLGAGDJIH.proto\032\021AJHDAJMEFPD.proto\"E" +
       "\n\013GKDLGAGDJIH\022!\n\013MDDADJNAFAC\030\001 \001(\0132\014.AJH" +
-      "DAJMEFPD\022\023\n\013BIDEFCEFGPN\030\002 \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "DAJMEFPD\022\023\n\013BIDEFCEFGPN\030\002 \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025GKDLGAGDJIHOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

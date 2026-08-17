@@ -1348,8 +1348,9 @@ public final class ToTheMoonObstacleInfoOuterClass {
       "eType\022\021\n\thandle_id\030\t \001(\005\022\027\n\006center\030\014 \001(\013" +
       "2\007.Vector\"S\n\tShapeType\022$\n ShapeType_OBST" +
       "ACLE_SHAPE_CAPSULE\020\000\022 \n\034ShapeType_OBSTAC" +
-      "LE_SHAPE_BOX\020\001B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "LE_SHAPE_BOX\020\001B<\n\031emu.grasscutter.net.pr" +
+      "otoB\037ToTheMoonObstacleInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

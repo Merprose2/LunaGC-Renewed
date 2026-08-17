@@ -729,8 +729,9 @@ public final class KIJJBDPOILCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KIJJBDPOILC.proto\032\021CLFBILFIFLP.proto\"E" +
       "\n\013KIJJBDPOILC\022!\n\013MMFAMKPJIMI\030\007 \001(\0132\014.CLF" +
-      "BILFIFLP\022\023\n\013NFPJKOIGFOJ\030\010 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "BILFIFLP\022\023\n\013NFPJKOIGFOJ\030\010 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025KIJJBDPOILCOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

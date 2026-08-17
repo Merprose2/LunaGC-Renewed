@@ -723,8 +723,8 @@ public final class ODKFGKJNCBJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ODKFGKJNCBJ.proto\032\021HHEDHCFPEKM.proto\"8" +
       "\n\013ODKFGKJNCBJ\022\014\n\004time\030\001 \001(\002\022\033\n\005speed\030\002 \001" +
-      "(\0132\014.HHEDHCFPEKMB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "(\0132\014.HHEDHCFPEKMB2\n\031emu.grasscutter.net." +
+      "protoB\025ODKFGKJNCBJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

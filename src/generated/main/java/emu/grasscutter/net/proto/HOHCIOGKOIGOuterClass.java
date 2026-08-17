@@ -1457,8 +1457,8 @@ public final class HOHCIOGKOIGOuterClass {
       "value\030\014 \001(\rH\000\022\023\n\tint_value\030\r \001(\005H\000\022\025\n\013fl" +
       "oat_value\030\016 \001(\002H\000\022\026\n\014string_value\030\017 \001(\tH" +
       "\000\022\024\n\nenum_value\030\020 \001(\rH\000\022\026\n\014object_value\030" +
-      "\021 \001(\014H\000B\007\n\005paramB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\021 \001(\014H\000B\007\n\005paramB2\n\031emu.grasscutter.net." +
+      "protoB\025HOHCIOGKOIGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

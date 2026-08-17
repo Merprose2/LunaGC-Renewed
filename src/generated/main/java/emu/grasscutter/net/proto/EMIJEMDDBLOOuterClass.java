@@ -517,8 +517,8 @@ public final class EMIJEMDDBLOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EMIJEMDDBLO.proto\"#\n\013EMIJEMDDBLO\022\024\n\013CN" +
-      "LLJGIFJPH\030\365\003 \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "LLJGIFJPH\030\365\003 \001(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025EMIJEMDDBLOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

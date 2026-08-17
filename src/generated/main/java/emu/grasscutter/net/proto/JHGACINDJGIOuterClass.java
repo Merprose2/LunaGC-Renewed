@@ -1683,8 +1683,9 @@ public final class JHGACINDJGIOuterClass {
       "info\030\017 \001(\0132\014.KCJBDFKKEKCH\000\022\023\n\013JMPOLPGAKC" +
       "H\030\003 \001(\010\022!\n\013CIKADAFKECN\030\005 \003(\0132\014.GJJDBACAI" +
       "MG\022\020\n\010level_id\030\t \001(\r\022\032\n\010ugc_type\030\n \001(\0162\010" +
-      ".UgcType\022\017\n\007retcode\030\016 \001(\005B\006\n\004infoB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      ".UgcType\022\017\n\007retcode\030\016 \001(\005B\006\n\004infoB2\n\031emu" +
+      ".grasscutter.net.protoB\025JHGACINDJGIOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

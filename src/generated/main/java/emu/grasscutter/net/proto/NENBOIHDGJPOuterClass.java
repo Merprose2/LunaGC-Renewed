@@ -651,7 +651,8 @@ public final class NENBOIHDGJPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NENBOIHDGJP.proto\032\021EIOMOMMHIFG.proto\")" +
       "\n\013NENBOIHDGJP\022\032\n\004shop\030\r \001(\0132\014.EIOMOMMHIF" +
-      "GB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "GB2\n\031emu.grasscutter.net.protoB\025NENBOIHD" +
+      "GJPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

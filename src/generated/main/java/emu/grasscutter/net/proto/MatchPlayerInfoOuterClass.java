@@ -723,8 +723,8 @@ public final class MatchPlayerInfoOuterClass {
       "\n\025MatchPlayerInfo.proto\032\026OnlinePlayerInf" +
       "o.proto\"L\n\017MatchPlayerInfo\022\021\n\tis_agreed\030" +
       "\006 \001(\010\022&\n\013player_info\030\t \001(\0132\021.OnlinePlaye" +
-      "rInfoB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "rInfoB6\n\031emu.grasscutter.net.protoB\031Matc" +
+      "hPlayerInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

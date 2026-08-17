@@ -881,7 +881,8 @@ public final class APHEBNPAKOOOuterClass {
       "ODHKAGHABE\030\001 \001(\002\022\023\n\013JKKILOAHPCB\030\002 \001(\002\022\023\n" +
       "\013HMEOIFCKIOC\030\003 \001(\002\022\023\n\013LDDGNMEOLPE\030\004 \001(\002\022" +
       "\023\n\013EMPBAKECMBI\030\005 \001(\002\022\023\n\013POONBMPKFAN\030\006 \001(" +
-      "\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\010B2\n\031emu.grasscutter.net.protoB\025APHEBNPA" +
+      "KOOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

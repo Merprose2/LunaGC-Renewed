@@ -698,8 +698,8 @@ public final class MFBOLEHLNDNOuterClass {
       "\n\021MFBOLEHLNDN.proto\032\021JEOKDCIGCFP.proto\"Z" +
       "\n\013MFBOLEHLNDN\022\023\n\013OJEDFILLGKD\030\001 \001(\002\022!\n\013FJ" +
       "CGDKEJEFF\030\003 \001(\0162\014.JEOKDCIGCFP\022\023\n\013APAOHGJ" +
-      "IMMH\030\004 \001(\005B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "IMMH\030\004 \001(\005B2\n\031emu.grasscutter.net.protoB" +
+      "\025MFBOLEHLNDNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

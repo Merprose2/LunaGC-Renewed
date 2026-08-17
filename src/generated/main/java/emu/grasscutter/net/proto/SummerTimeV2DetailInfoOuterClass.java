@@ -1412,8 +1412,9 @@ public final class SummerTimeV2DetailInfoOuterClass {
       "stage_info_list\030\005 \003(\0132\035.SummerTimeV2Dung" +
       "eonStageInfo\022\031\n\021is_content_closed\030\007 \001(\010\022" +
       "8\n\024boat_stage_info_list\030\017 \003(\0132\032.SummerTi" +
-      "meV2BoatStageInfoB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "meV2BoatStageInfoB=\n\031emu.grasscutter.net" +
+      ".protoB SummerTimeV2DetailInfoOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

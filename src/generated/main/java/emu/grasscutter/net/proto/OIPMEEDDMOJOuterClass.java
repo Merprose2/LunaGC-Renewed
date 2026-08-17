@@ -68,11 +68,11 @@ public final class OIPMEEDDMOJOuterClass {
      * <code>._ConfigStructId config_struct_id = 100;</code>
      * @return The configStructId.
      */
-    emu.grasscutter.net.proto.ConfigStructId._ConfigStructId getConfigStructId();
+    emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId getConfigStructId();
     /**
      * <code>._ConfigStructId config_struct_id = 100;</code>
      */
-    emu.grasscutter.net.proto.ConfigStructId._ConfigStructIdOrBuilder getConfigStructIdOrBuilder();
+    emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructIdOrBuilder getConfigStructIdOrBuilder();
 
     /**
      * <code>.DBDKLFAKLHG config_server_param_dictionary = 101;</code>
@@ -160,14 +160,14 @@ public final class OIPMEEDDMOJOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.ConfigStructId._ConfigStructId.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId.Builder subBuilder = null;
               if (nLEPLFABPEHCase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigStructId._ConfigStructId) nLEPLFABPEH_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId) nLEPLFABPEH_).toBuilder();
               }
               nLEPLFABPEH_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigStructId._ConfigStructId.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigStructId._ConfigStructId) nLEPLFABPEH_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId) nLEPLFABPEH_);
                 nLEPLFABPEH_ = subBuilder.buildPartial();
               }
               nLEPLFABPEHCase_ = 100;
@@ -347,21 +347,21 @@ public final class OIPMEEDDMOJOuterClass {
      * @return The configStructId.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigStructId._ConfigStructId getConfigStructId() {
+    public emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId getConfigStructId() {
       if (nLEPLFABPEHCase_ == 100) {
-         return (emu.grasscutter.net.proto.ConfigStructId._ConfigStructId) nLEPLFABPEH_;
+         return (emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId) nLEPLFABPEH_;
       }
-      return emu.grasscutter.net.proto.ConfigStructId._ConfigStructId.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId.getDefaultInstance();
     }
     /**
      * <code>._ConfigStructId config_struct_id = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigStructId._ConfigStructIdOrBuilder getConfigStructIdOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructIdOrBuilder getConfigStructIdOrBuilder() {
       if (nLEPLFABPEHCase_ == 100) {
-         return (emu.grasscutter.net.proto.ConfigStructId._ConfigStructId) nLEPLFABPEH_;
+         return (emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId) nLEPLFABPEH_;
       }
-      return emu.grasscutter.net.proto.ConfigStructId._ConfigStructId.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId.getDefaultInstance();
     }
 
     public static final int CONFIG_SERVER_PARAM_DICTIONARY_FIELD_NUMBER = 101;
@@ -419,7 +419,7 @@ public final class OIPMEEDDMOJOuterClass {
         output.writeMessage(3, cCHMBDKAHEF_.get(i));
       }
       if (nLEPLFABPEHCase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.ConfigStructId._ConfigStructId) nLEPLFABPEH_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId) nLEPLFABPEH_);
       }
       if (nLEPLFABPEHCase_ == 101) {
         output.writeMessage(101, (emu.grasscutter.net.proto.DBDKLFAKLHGOuterClass.DBDKLFAKLHG) nLEPLFABPEH_);
@@ -447,7 +447,7 @@ public final class OIPMEEDDMOJOuterClass {
       }
       if (nLEPLFABPEHCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.ConfigStructId._ConfigStructId) nLEPLFABPEH_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId) nLEPLFABPEH_);
       }
       if (nLEPLFABPEHCase_ == 101) {
         size += com.google.protobuf.CodedOutputStream
@@ -1181,7 +1181,7 @@ public final class OIPMEEDDMOJOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigStructId._ConfigStructId, emu.grasscutter.net.proto.ConfigStructId._ConfigStructId.Builder, emu.grasscutter.net.proto.ConfigStructId._ConfigStructIdOrBuilder> configStructIdBuilder_;
+          emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId, emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId.Builder, emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructIdOrBuilder> configStructIdBuilder_;
       /**
        * <code>._ConfigStructId config_struct_id = 100;</code>
        * @return Whether the configStructId field is set.
@@ -1195,23 +1195,23 @@ public final class OIPMEEDDMOJOuterClass {
        * @return The configStructId.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigStructId._ConfigStructId getConfigStructId() {
+      public emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId getConfigStructId() {
         if (configStructIdBuilder_ == null) {
           if (nLEPLFABPEHCase_ == 100) {
-            return (emu.grasscutter.net.proto.ConfigStructId._ConfigStructId) nLEPLFABPEH_;
+            return (emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId) nLEPLFABPEH_;
           }
-          return emu.grasscutter.net.proto.ConfigStructId._ConfigStructId.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId.getDefaultInstance();
         } else {
           if (nLEPLFABPEHCase_ == 100) {
             return configStructIdBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigStructId._ConfigStructId.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigStructId config_struct_id = 100;</code>
        */
-      public Builder setConfigStructId(emu.grasscutter.net.proto.ConfigStructId._ConfigStructId value) {
+      public Builder setConfigStructId(emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId value) {
         if (configStructIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1228,7 +1228,7 @@ public final class OIPMEEDDMOJOuterClass {
        * <code>._ConfigStructId config_struct_id = 100;</code>
        */
       public Builder setConfigStructId(
-          emu.grasscutter.net.proto.ConfigStructId._ConfigStructId.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId.Builder builderForValue) {
         if (configStructIdBuilder_ == null) {
           nLEPLFABPEH_ = builderForValue.build();
           onChanged();
@@ -1241,11 +1241,11 @@ public final class OIPMEEDDMOJOuterClass {
       /**
        * <code>._ConfigStructId config_struct_id = 100;</code>
        */
-      public Builder mergeConfigStructId(emu.grasscutter.net.proto.ConfigStructId._ConfigStructId value) {
+      public Builder mergeConfigStructId(emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId value) {
         if (configStructIdBuilder_ == null) {
           if (nLEPLFABPEHCase_ == 100 &&
-              nLEPLFABPEH_ != emu.grasscutter.net.proto.ConfigStructId._ConfigStructId.getDefaultInstance()) {
-            nLEPLFABPEH_ = emu.grasscutter.net.proto.ConfigStructId._ConfigStructId.newBuilder((emu.grasscutter.net.proto.ConfigStructId._ConfigStructId) nLEPLFABPEH_)
+              nLEPLFABPEH_ != emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId.getDefaultInstance()) {
+            nLEPLFABPEH_ = emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId.newBuilder((emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId) nLEPLFABPEH_)
                 .mergeFrom(value).buildPartial();
           } else {
             nLEPLFABPEH_ = value;
@@ -1282,36 +1282,36 @@ public final class OIPMEEDDMOJOuterClass {
       /**
        * <code>._ConfigStructId config_struct_id = 100;</code>
        */
-      public emu.grasscutter.net.proto.ConfigStructId._ConfigStructId.Builder getConfigStructIdBuilder() {
+      public emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId.Builder getConfigStructIdBuilder() {
         return getConfigStructIdFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigStructId config_struct_id = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigStructId._ConfigStructIdOrBuilder getConfigStructIdOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructIdOrBuilder getConfigStructIdOrBuilder() {
         if ((nLEPLFABPEHCase_ == 100) && (configStructIdBuilder_ != null)) {
           return configStructIdBuilder_.getMessageOrBuilder();
         } else {
           if (nLEPLFABPEHCase_ == 100) {
-            return (emu.grasscutter.net.proto.ConfigStructId._ConfigStructId) nLEPLFABPEH_;
+            return (emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId) nLEPLFABPEH_;
           }
-          return emu.grasscutter.net.proto.ConfigStructId._ConfigStructId.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigStructId config_struct_id = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigStructId._ConfigStructId, emu.grasscutter.net.proto.ConfigStructId._ConfigStructId.Builder, emu.grasscutter.net.proto.ConfigStructId._ConfigStructIdOrBuilder> 
+          emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId, emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId.Builder, emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructIdOrBuilder> 
           getConfigStructIdFieldBuilder() {
         if (configStructIdBuilder_ == null) {
           if (!(nLEPLFABPEHCase_ == 100)) {
-            nLEPLFABPEH_ = emu.grasscutter.net.proto.ConfigStructId._ConfigStructId.getDefaultInstance();
+            nLEPLFABPEH_ = emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId.getDefaultInstance();
           }
           configStructIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigStructId._ConfigStructId, emu.grasscutter.net.proto.ConfigStructId._ConfigStructId.Builder, emu.grasscutter.net.proto.ConfigStructId._ConfigStructIdOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigStructId._ConfigStructId) nLEPLFABPEH_,
+              emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId, emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId.Builder, emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructIdOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigStructIdOuterClass._ConfigStructId) nLEPLFABPEH_,
                   getParentForChildren(),
                   isClean());
           nLEPLFABPEH_ = null;
@@ -1536,7 +1536,8 @@ public final class OIPMEEDDMOJOuterClass {
       "DHEEKE\022,\n\020config_struct_id\030d \001(\0132\020._Conf" +
       "igStructIdH\000\0226\n\036config_server_param_dict" +
       "ionary\030e \001(\0132\014.DBDKLFAKLHGH\000B\r\n\013NLEPLFAB" +
-      "PEHB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "PEHB2\n\031emu.grasscutter.net.protoB\025OIPMEE" +
+      "DDMOJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1544,7 +1545,7 @@ public final class OIPMEEDDMOJOuterClass {
           emu.grasscutter.net.proto.DBDKLFAKLHGOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.DEALNDHEEKEOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.EHOAJBDABLHOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigStructId.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigStructIdOuterClass.getDescriptor(),
         });
     internal_static_OIPMEEDDMOJ_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1555,7 +1556,7 @@ public final class OIPMEEDDMOJOuterClass {
     emu.grasscutter.net.proto.DBDKLFAKLHGOuterClass.getDescriptor();
     emu.grasscutter.net.proto.DEALNDHEEKEOuterClass.getDescriptor();
     emu.grasscutter.net.proto.EHOAJBDABLHOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.ConfigStructId.getDescriptor();
+    emu.grasscutter.net.proto._ConfigStructIdOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

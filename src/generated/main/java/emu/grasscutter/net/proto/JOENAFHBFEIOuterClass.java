@@ -395,8 +395,8 @@ public final class JOENAFHBFEIOuterClass {
       "PRINT_PARAM_DICT\020\030\0227\n3JOENAFHBFEI_BEYOND" +
       "_CLIENT_FROGPRINT_PARAM_ARMY_LIST\020\031\0221\n-J" +
       "OENAFHBFEI_BEYOND_CLIENT_FROGPRINT_PARAM" +
-      "_MAX\020\032B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "_MAX\020\032B2\n\031emu.grasscutter.net.protoB\025JOE" +
+      "NAFHBFEIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

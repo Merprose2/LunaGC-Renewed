@@ -2532,8 +2532,9 @@ public final class FEMPNFGDCFAOuterClass {
       "KGEMIC\030\r \001(\0132\014.JILHOBOMDKC\022!\n\013CEOFIHMJEO" +
       "G\030\016 \001(\0132\014.JILHOBOMDKC\022\023\n\013DGBDAMGEGJM\030\017 \001" +
       "(\005\022\023\n\013IFOMHEPKODO\030\020 \001(\005\022\023\n\013OKOLJKOGKMB\030\021" +
-      " \001(\002\022\034\n\006offset\030\022 \001(\0132\014.HHEDHCFPEKMB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      " \001(\002\022\034\n\006offset\030\022 \001(\0132\014.HHEDHCFPEKMB2\n\031em" +
+      "u.grasscutter.net.protoB\025FEMPNFGDCFAOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

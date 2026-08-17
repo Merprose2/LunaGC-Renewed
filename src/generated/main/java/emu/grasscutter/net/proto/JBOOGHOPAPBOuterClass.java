@@ -1202,7 +1202,8 @@ public final class JBOOGHOPAPBOuterClass {
       "FJEOKPLG\022\"\n\013FJMDMAOJLEE\030\366\003 \001(\0132\014.OCONGFD" +
       "IAOJ\022\020\n\007item_id\030\367\003 \001(\005\022\024\n\013JNKFCGBNKBF\030\370\003" +
       " \001(\010\022\"\n\013IHCHHPMEPOF\030\371\003 \001(\0132\014.BFILMKIHJKE" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025JBOOGHOPA" +
+      "PBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

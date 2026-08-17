@@ -1468,8 +1468,9 @@ public final class KKAAHFHLFPDOuterClass {
       "MBEKJ\022!\n\013AFNIEIHODIO\030\002 \001(\0132\014.DEFDAAFLKCP" +
       "\022!\n\013KKFGLCHJPBG\030\003 \001(\0132\014.EJJNLALFNNM\022!\n\013B" +
       "MDHHCAGBDF\030\004 \001(\0132\014.NMICDELDIGL\022!\n\013MDFBML" +
-      "IEKPK\030\005 \001(\0132\014.APBCNNGADKKB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "IEKPK\030\005 \001(\0132\014.APBCNNGADKKB2\n\031emu.grasscu" +
+      "tter.net.protoB\025KKAAHFHLFPDOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

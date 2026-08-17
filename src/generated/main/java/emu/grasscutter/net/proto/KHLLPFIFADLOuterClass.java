@@ -886,8 +886,8 @@ public final class KHLLPFIFADLOuterClass {
       "\n\021KHLLPFIFADL.proto\"r\n\013KHLLPFIFADL\022\020\n\010le" +
       "vel_id\030\001 \001(\004\022\023\n\013LHBDPFNAFJO\030\002 \001(\004\022\023\n\013IFD" +
       "BGFCJFCJ\030\003 \001(\010\022\023\n\013NGEDGDGBAID\030\004 \001(\014\022\022\n\nr" +
-      "equest_id\030\005 \001(\tB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "equest_id\030\005 \001(\tB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025KHLLPFIFADLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

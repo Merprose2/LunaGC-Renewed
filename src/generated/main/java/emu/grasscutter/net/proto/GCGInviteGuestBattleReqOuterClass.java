@@ -596,8 +596,9 @@ public final class GCGInviteGuestBattleReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035GCGInviteGuestBattleReq.proto\"B\n\027GCGIn" +
       "viteGuestBattleReq\022\032\n\022festival_mode_type" +
-      "\030\001 \001(\r\022\013\n\003uid\030\013 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\030\001 \001(\r\022\013\n\003uid\030\013 \001(\rB>\n\031emu.grasscutter.n" +
+      "et.protoB!GCGInviteGuestBattleReqOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

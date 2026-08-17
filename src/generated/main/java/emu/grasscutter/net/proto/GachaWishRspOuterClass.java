@@ -878,8 +878,8 @@ public final class GachaWishRspOuterClass {
       "\014wish_item_id\030\001 \001(\r\022\031\n\021gacha_schedule_id" +
       "\030\002 \001(\r\022\017\n\007retcode\030\004 \001(\005\022\025\n\rwish_progress" +
       "\030\n \001(\r\022\022\n\ngacha_type\030\014 \001(\r\022\031\n\021wish_max_p" +
-      "rogress\030\r \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "rogress\030\r \001(\rB3\n\031emu.grasscutter.net.pro" +
+      "toB\026GachaWishRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

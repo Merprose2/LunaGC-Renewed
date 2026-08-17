@@ -729,8 +729,9 @@ public final class JACGDJNKMMNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JACGDJNKMMN.proto\032\021KIGCLNGFMND.proto\"E" +
       "\n\013JACGDJNKMMN\022!\n\013INNCANGHMNH\030\010 \001(\0132\014.KIG" +
-      "CLNGFMND\022\023\n\013MIJFKJAFJIP\030\r \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "CLNGFMND\022\023\n\013MIJFKJAFJIP\030\r \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025JACGDJNKMMNOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -998,8 +998,9 @@ public final class GDFEBCCPLNEOuterClass {
       "o.proto\"\207\001\n\013GDFEBCCPLNE\022\023\n\013PBGIDICNOFK\030\001" +
       " \003(\r\022\021\n\tcost_time\030\n \001(\r\0226\n\027custom_gadget" +
       "_tree_info\030\013 \001(\0132\025.CustomGadgetTreeInfo\022" +
-      "\030\n\020gadget_entity_id\030\014 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\030\n\020gadget_entity_id\030\014 \001(\rB2\n\031emu.grasscu" +
+      "tter.net.protoB\025GDFEBCCPLNEOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1642,8 +1642,9 @@ public final class JDIHBJAEPDKOuterClass {
       "\013GCLAFKEPLDA\030\005 \003(\r\022\'\n\021watcher_info_list\030" +
       "\006 \003(\0132\014.PJOLMKFLEBM\022\023\n\013FPGGCNMIAMP\030\007 \001(\r" +
       "\022\023\n\013BPNBLPGGEOC\030\010 \001(\r\022\023\n\013PDOLJBHLAIG\030\r \001" +
-      "(\r\022\023\n\013NNLFNILCIEF\030\016 \003(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "(\r\022\023\n\013NNLFNILCIEF\030\016 \003(\rB2\n\031emu.grasscutt" +
+      "er.net.protoB\025JDIHBJAEPDKOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

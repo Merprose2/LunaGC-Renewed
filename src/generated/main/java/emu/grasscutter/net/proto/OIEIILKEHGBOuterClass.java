@@ -871,8 +871,9 @@ public final class OIEIILKEHGBOuterClass {
       "\n\021OIEIILKEHGB.proto\032\021BFGFBMADCFD.proto\"k" +
       "\n\013OIEIILKEHGB\022\023\n\013material_id\030\001 \001(\r\022\017\n\007re" +
       "tcode\030\007 \001(\005\022\023\n\013GJFFLCIHPIN\030\t \001(\010\022!\n\013_mar" +
-      "k_point\030\r \001(\0132\014.BFGFBMADCFDB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "k_point\030\r \001(\0132\014.BFGFBMADCFDB2\n\031emu.grass" +
+      "cutter.net.protoB\025OIEIILKEHGBOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

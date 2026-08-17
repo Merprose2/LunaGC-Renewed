@@ -837,8 +837,9 @@ public final class MKMOLMJFHOGOuterClass {
       "\n\021MKMOLMJFHOG.proto\032\021ForwardType.proto\032\014" +
       "Vector.proto\"b\n\013MKMOLMJFHOG\022\021\n\tentity_id" +
       "\030\003 \001(\r\022\"\n\014forward_type\030\014 \001(\0162\014.ForwardTy" +
-      "pe\022\034\n\013ABNAABDOEOE\030\r \001(\0132\007.VectorB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "pe\022\034\n\013ABNAABDOEOE\030\r \001(\0132\007.VectorB2\n\031emu." +
+      "grasscutter.net.protoB\025MKMOLMJFHOGOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

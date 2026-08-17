@@ -133,8 +133,8 @@ public final class HDMOPPHKIGCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HDMOPPHKIGC.proto*I\n\013HDMOPPHKIGC\022\034\n\030HD" +
       "MOPPHKIGC_ENTER_COMBAT\020\000\022\034\n\030HDMOPPHKIGC_" +
-      "LEAVE_COMBAT\020\001B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "LEAVE_COMBAT\020\001B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025HDMOPPHKIGCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

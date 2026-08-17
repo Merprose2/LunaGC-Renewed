@@ -454,8 +454,9 @@ public final class HMLBAEAPIDNOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021HMLBAEAPIDN.proto\"\r\n\013HMLBAEAPIDNB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021HMLBAEAPIDN.proto\"\r\n\013HMLBAEAPIDNB2\n\031em" +
+      "u.grasscutter.net.protoB\025HMLBAEAPIDNOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

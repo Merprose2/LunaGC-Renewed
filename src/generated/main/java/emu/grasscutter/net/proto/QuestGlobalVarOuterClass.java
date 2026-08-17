@@ -587,8 +587,9 @@ public final class QuestGlobalVarOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\024QuestGlobalVar.proto\",\n\016QuestGlobalVar" +
-      "\022\r\n\005value\030\001 \001(\005\022\013\n\003key\030\016 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\022\r\n\005value\030\001 \001(\005\022\013\n\003key\030\016 \001(\rB5\n\031emu.gras" +
+      "scutter.net.protoB\030QuestGlobalVarOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

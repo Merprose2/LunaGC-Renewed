@@ -696,8 +696,9 @@ public final class RacingGallerySettleInfoOuterClass {
       "\n\035RacingGallerySettleInfo.proto\032\027Gallery" +
       "StopReason.proto\"c\n\027RacingGallerySettleI" +
       "nfo\022\020\n\010use_time\030\001 \001(\r\022\"\n\006reason\030\r \001(\0162\022." +
-      "GalleryStopReason\022\022\n\nwinner_uid\030\017 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "GalleryStopReason\022\022\n\nwinner_uid\030\017 \001(\rB>\n" +
+      "\031emu.grasscutter.net.protoB!RacingGaller" +
+      "ySettleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

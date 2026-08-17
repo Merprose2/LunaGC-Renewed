@@ -837,8 +837,9 @@ public final class LOJLIELDCFFOuterClass {
       "\n\021LOJLIELDCFF.proto\032\021ForwardType.proto\032\014" +
       "Vector.proto\"b\n\013LOJLIELDCFF\022\021\n\tentity_id" +
       "\030\003 \001(\r\022\034\n\013JDKDJINOPBI\030\006 \001(\0132\007.Vector\022\"\n\014" +
-      "forward_type\030\016 \001(\0162\014.ForwardTypeB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "forward_type\030\016 \001(\0162\014.ForwardTypeB2\n\031emu." +
+      "grasscutter.net.protoB\025LOJLIELDCFFOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

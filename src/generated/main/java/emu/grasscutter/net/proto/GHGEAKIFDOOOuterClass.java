@@ -973,8 +973,8 @@ public final class GHGEAKIFDOOOuterClass {
       "\n\021GHGEAKIFDOO.proto\032\021DCJJCCJMFDB.proto\"V" +
       "\n\013GHGEAKIFDOO\022\023\n\013MANFEIEOPHJ\030\002 \001(\004\022!\n\013MO" +
       "JKEFCKMFF\030\006 \003(\0132\014.DCJJCCJMFDB\022\017\n\007retcode" +
-      "\030\r \001(\005B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\r \001(\005B2\n\031emu.grasscutter.net.protoB\025GHG" +
+      "EAKIFDOOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

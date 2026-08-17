@@ -161,8 +161,9 @@ public final class FDNBGGGEHOMOuterClass {
       "\n\021FDNBGGGEHOM.proto*\204\001\n\013FDNBGGGEHOM\022\024\n\020F" +
       "DNBGGGEHOM_NONE\020\000\022\025\n\021FDNBGGGEHOM_LEVEL\020\001" +
       "\022\026\n\022FDNBGGGEHOM_PLAYER\020\002\022\026\n\022FDNBGGGEHOM_" +
-      "PREFAB\020\003\022\030\n\024FDNBGGGEHOM_INSTANCE\020\004B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "PREFAB\020\003\022\030\n\024FDNBGGGEHOM_INSTANCE\020\004B2\n\031em" +
+      "u.grasscutter.net.protoB\025FDNBGGGEHOMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -27,11 +27,11 @@ public final class EBGIPIPJLHAOuterClass {
      * <code>._AddInfo add_info = 3;</code>
      * @return The addInfo.
      */
-    emu.grasscutter.net.proto.AddInfo._AddInfo getAddInfo();
+    emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo getAddInfo();
     /**
      * <code>._AddInfo add_info = 3;</code>
      */
-    emu.grasscutter.net.proto.AddInfo._AddInfoOrBuilder getAddInfoOrBuilder();
+    emu.grasscutter.net.proto._AddInfoOuterClass._AddInfoOrBuilder getAddInfoOrBuilder();
 
     /**
      * <code>._RemoveInfo remove_info = 4;</code>
@@ -42,11 +42,11 @@ public final class EBGIPIPJLHAOuterClass {
      * <code>._RemoveInfo remove_info = 4;</code>
      * @return The removeInfo.
      */
-    emu.grasscutter.net.proto.RemoveInfo._RemoveInfo getRemoveInfo();
+    emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo getRemoveInfo();
     /**
      * <code>._RemoveInfo remove_info = 4;</code>
      */
-    emu.grasscutter.net.proto.RemoveInfo._RemoveInfoOrBuilder getRemoveInfoOrBuilder();
+    emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfoOrBuilder getRemoveInfoOrBuilder();
 
     public emu.grasscutter.net.proto.EBGIPIPJLHAOuterClass.EBGIPIPJLHA.DetailCase getDetailCase();
   }
@@ -96,28 +96,28 @@ public final class EBGIPIPJLHAOuterClass {
               done = true;
               break;
             case 26: {
-              emu.grasscutter.net.proto.AddInfo._AddInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo.Builder subBuilder = null;
               if (detailCase_ == 3) {
-                subBuilder = ((emu.grasscutter.net.proto.AddInfo._AddInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.AddInfo._AddInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AddInfo._AddInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 3;
               break;
             }
             case 34: {
-              emu.grasscutter.net.proto.RemoveInfo._RemoveInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo.Builder subBuilder = null;
               if (detailCase_ == 4) {
-                subBuilder = ((emu.grasscutter.net.proto.RemoveInfo._RemoveInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.RemoveInfo._RemoveInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.RemoveInfo._RemoveInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 4;
@@ -210,21 +210,21 @@ public final class EBGIPIPJLHAOuterClass {
      * @return The addInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AddInfo._AddInfo getAddInfo() {
+    public emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo getAddInfo() {
       if (detailCase_ == 3) {
-         return (emu.grasscutter.net.proto.AddInfo._AddInfo) detail_;
+         return (emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo) detail_;
       }
-      return emu.grasscutter.net.proto.AddInfo._AddInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo.getDefaultInstance();
     }
     /**
      * <code>._AddInfo add_info = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AddInfo._AddInfoOrBuilder getAddInfoOrBuilder() {
+    public emu.grasscutter.net.proto._AddInfoOuterClass._AddInfoOrBuilder getAddInfoOrBuilder() {
       if (detailCase_ == 3) {
-         return (emu.grasscutter.net.proto.AddInfo._AddInfo) detail_;
+         return (emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo) detail_;
       }
-      return emu.grasscutter.net.proto.AddInfo._AddInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo.getDefaultInstance();
     }
 
     public static final int REMOVE_INFO_FIELD_NUMBER = 4;
@@ -241,21 +241,21 @@ public final class EBGIPIPJLHAOuterClass {
      * @return The removeInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.RemoveInfo._RemoveInfo getRemoveInfo() {
+    public emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo getRemoveInfo() {
       if (detailCase_ == 4) {
-         return (emu.grasscutter.net.proto.RemoveInfo._RemoveInfo) detail_;
+         return (emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo) detail_;
       }
-      return emu.grasscutter.net.proto.RemoveInfo._RemoveInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo.getDefaultInstance();
     }
     /**
      * <code>._RemoveInfo remove_info = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.RemoveInfo._RemoveInfoOrBuilder getRemoveInfoOrBuilder() {
+    public emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfoOrBuilder getRemoveInfoOrBuilder() {
       if (detailCase_ == 4) {
-         return (emu.grasscutter.net.proto.RemoveInfo._RemoveInfo) detail_;
+         return (emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo) detail_;
       }
-      return emu.grasscutter.net.proto.RemoveInfo._RemoveInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -273,10 +273,10 @@ public final class EBGIPIPJLHAOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (detailCase_ == 3) {
-        output.writeMessage(3, (emu.grasscutter.net.proto.AddInfo._AddInfo) detail_);
+        output.writeMessage(3, (emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo) detail_);
       }
       if (detailCase_ == 4) {
-        output.writeMessage(4, (emu.grasscutter.net.proto.RemoveInfo._RemoveInfo) detail_);
+        output.writeMessage(4, (emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -289,11 +289,11 @@ public final class EBGIPIPJLHAOuterClass {
       size = 0;
       if (detailCase_ == 3) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, (emu.grasscutter.net.proto.AddInfo._AddInfo) detail_);
+          .computeMessageSize(3, (emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo) detail_);
       }
       if (detailCase_ == 4) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, (emu.grasscutter.net.proto.RemoveInfo._RemoveInfo) detail_);
+          .computeMessageSize(4, (emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -628,7 +628,7 @@ public final class EBGIPIPJLHAOuterClass {
 
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AddInfo._AddInfo, emu.grasscutter.net.proto.AddInfo._AddInfo.Builder, emu.grasscutter.net.proto.AddInfo._AddInfoOrBuilder> addInfoBuilder_;
+          emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo, emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo.Builder, emu.grasscutter.net.proto._AddInfoOuterClass._AddInfoOrBuilder> addInfoBuilder_;
       /**
        * <code>._AddInfo add_info = 3;</code>
        * @return Whether the addInfo field is set.
@@ -642,23 +642,23 @@ public final class EBGIPIPJLHAOuterClass {
        * @return The addInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AddInfo._AddInfo getAddInfo() {
+      public emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo getAddInfo() {
         if (addInfoBuilder_ == null) {
           if (detailCase_ == 3) {
-            return (emu.grasscutter.net.proto.AddInfo._AddInfo) detail_;
+            return (emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo) detail_;
           }
-          return emu.grasscutter.net.proto.AddInfo._AddInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 3) {
             return addInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AddInfo._AddInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._AddInfo add_info = 3;</code>
        */
-      public Builder setAddInfo(emu.grasscutter.net.proto.AddInfo._AddInfo value) {
+      public Builder setAddInfo(emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo value) {
         if (addInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -675,7 +675,7 @@ public final class EBGIPIPJLHAOuterClass {
        * <code>._AddInfo add_info = 3;</code>
        */
       public Builder setAddInfo(
-          emu.grasscutter.net.proto.AddInfo._AddInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo.Builder builderForValue) {
         if (addInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -688,11 +688,11 @@ public final class EBGIPIPJLHAOuterClass {
       /**
        * <code>._AddInfo add_info = 3;</code>
        */
-      public Builder mergeAddInfo(emu.grasscutter.net.proto.AddInfo._AddInfo value) {
+      public Builder mergeAddInfo(emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo value) {
         if (addInfoBuilder_ == null) {
           if (detailCase_ == 3 &&
-              detail_ != emu.grasscutter.net.proto.AddInfo._AddInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.AddInfo._AddInfo.newBuilder((emu.grasscutter.net.proto.AddInfo._AddInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo.newBuilder((emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -729,36 +729,36 @@ public final class EBGIPIPJLHAOuterClass {
       /**
        * <code>._AddInfo add_info = 3;</code>
        */
-      public emu.grasscutter.net.proto.AddInfo._AddInfo.Builder getAddInfoBuilder() {
+      public emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo.Builder getAddInfoBuilder() {
         return getAddInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._AddInfo add_info = 3;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AddInfo._AddInfoOrBuilder getAddInfoOrBuilder() {
+      public emu.grasscutter.net.proto._AddInfoOuterClass._AddInfoOrBuilder getAddInfoOrBuilder() {
         if ((detailCase_ == 3) && (addInfoBuilder_ != null)) {
           return addInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 3) {
-            return (emu.grasscutter.net.proto.AddInfo._AddInfo) detail_;
+            return (emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo) detail_;
           }
-          return emu.grasscutter.net.proto.AddInfo._AddInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._AddInfo add_info = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AddInfo._AddInfo, emu.grasscutter.net.proto.AddInfo._AddInfo.Builder, emu.grasscutter.net.proto.AddInfo._AddInfoOrBuilder> 
+          emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo, emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo.Builder, emu.grasscutter.net.proto._AddInfoOuterClass._AddInfoOrBuilder> 
           getAddInfoFieldBuilder() {
         if (addInfoBuilder_ == null) {
           if (!(detailCase_ == 3)) {
-            detail_ = emu.grasscutter.net.proto.AddInfo._AddInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo.getDefaultInstance();
           }
           addInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AddInfo._AddInfo, emu.grasscutter.net.proto.AddInfo._AddInfo.Builder, emu.grasscutter.net.proto.AddInfo._AddInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.AddInfo._AddInfo) detail_,
+              emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo, emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo.Builder, emu.grasscutter.net.proto._AddInfoOuterClass._AddInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._AddInfoOuterClass._AddInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -769,7 +769,7 @@ public final class EBGIPIPJLHAOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RemoveInfo._RemoveInfo, emu.grasscutter.net.proto.RemoveInfo._RemoveInfo.Builder, emu.grasscutter.net.proto.RemoveInfo._RemoveInfoOrBuilder> removeInfoBuilder_;
+          emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo, emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo.Builder, emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfoOrBuilder> removeInfoBuilder_;
       /**
        * <code>._RemoveInfo remove_info = 4;</code>
        * @return Whether the removeInfo field is set.
@@ -783,23 +783,23 @@ public final class EBGIPIPJLHAOuterClass {
        * @return The removeInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.RemoveInfo._RemoveInfo getRemoveInfo() {
+      public emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo getRemoveInfo() {
         if (removeInfoBuilder_ == null) {
           if (detailCase_ == 4) {
-            return (emu.grasscutter.net.proto.RemoveInfo._RemoveInfo) detail_;
+            return (emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo) detail_;
           }
-          return emu.grasscutter.net.proto.RemoveInfo._RemoveInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 4) {
             return removeInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.RemoveInfo._RemoveInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._RemoveInfo remove_info = 4;</code>
        */
-      public Builder setRemoveInfo(emu.grasscutter.net.proto.RemoveInfo._RemoveInfo value) {
+      public Builder setRemoveInfo(emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo value) {
         if (removeInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -816,7 +816,7 @@ public final class EBGIPIPJLHAOuterClass {
        * <code>._RemoveInfo remove_info = 4;</code>
        */
       public Builder setRemoveInfo(
-          emu.grasscutter.net.proto.RemoveInfo._RemoveInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo.Builder builderForValue) {
         if (removeInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -829,11 +829,11 @@ public final class EBGIPIPJLHAOuterClass {
       /**
        * <code>._RemoveInfo remove_info = 4;</code>
        */
-      public Builder mergeRemoveInfo(emu.grasscutter.net.proto.RemoveInfo._RemoveInfo value) {
+      public Builder mergeRemoveInfo(emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo value) {
         if (removeInfoBuilder_ == null) {
           if (detailCase_ == 4 &&
-              detail_ != emu.grasscutter.net.proto.RemoveInfo._RemoveInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.RemoveInfo._RemoveInfo.newBuilder((emu.grasscutter.net.proto.RemoveInfo._RemoveInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo.newBuilder((emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -870,36 +870,36 @@ public final class EBGIPIPJLHAOuterClass {
       /**
        * <code>._RemoveInfo remove_info = 4;</code>
        */
-      public emu.grasscutter.net.proto.RemoveInfo._RemoveInfo.Builder getRemoveInfoBuilder() {
+      public emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo.Builder getRemoveInfoBuilder() {
         return getRemoveInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._RemoveInfo remove_info = 4;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.RemoveInfo._RemoveInfoOrBuilder getRemoveInfoOrBuilder() {
+      public emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfoOrBuilder getRemoveInfoOrBuilder() {
         if ((detailCase_ == 4) && (removeInfoBuilder_ != null)) {
           return removeInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 4) {
-            return (emu.grasscutter.net.proto.RemoveInfo._RemoveInfo) detail_;
+            return (emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo) detail_;
           }
-          return emu.grasscutter.net.proto.RemoveInfo._RemoveInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._RemoveInfo remove_info = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RemoveInfo._RemoveInfo, emu.grasscutter.net.proto.RemoveInfo._RemoveInfo.Builder, emu.grasscutter.net.proto.RemoveInfo._RemoveInfoOrBuilder> 
+          emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo, emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo.Builder, emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfoOrBuilder> 
           getRemoveInfoFieldBuilder() {
         if (removeInfoBuilder_ == null) {
           if (!(detailCase_ == 4)) {
-            detail_ = emu.grasscutter.net.proto.RemoveInfo._RemoveInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo.getDefaultInstance();
           }
           removeInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.RemoveInfo._RemoveInfo, emu.grasscutter.net.proto.RemoveInfo._RemoveInfo.Builder, emu.grasscutter.net.proto.RemoveInfo._RemoveInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.RemoveInfo._RemoveInfo) detail_,
+              emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo, emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo.Builder, emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._RemoveInfoOuterClass._RemoveInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -978,14 +978,15 @@ public final class EBGIPIPJLHAOuterClass {
       "\n\021EBGIPIPJLHA.proto\032\016_AddInfo.proto\032\021_Re" +
       "moveInfo.proto\"[\n\013EBGIPIPJLHA\022\035\n\010add_inf" +
       "o\030\003 \001(\0132\t._AddInfoH\000\022#\n\013remove_info\030\004 \001(" +
-      "\0132\014._RemoveInfoH\000B\010\n\006detailB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\0132\014._RemoveInfoH\000B\010\n\006detailB2\n\031emu.grass" +
+      "cutter.net.protoB\025EBGIPIPJLHAOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.AddInfo.getDescriptor(),
-          emu.grasscutter.net.proto.RemoveInfo.getDescriptor(),
+          emu.grasscutter.net.proto._AddInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._RemoveInfoOuterClass.getDescriptor(),
         });
     internal_static_EBGIPIPJLHA_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -993,8 +994,8 @@ public final class EBGIPIPJLHAOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EBGIPIPJLHA_descriptor,
         new java.lang.String[] { "AddInfo", "RemoveInfo", "Detail", });
-    emu.grasscutter.net.proto.AddInfo.getDescriptor();
-    emu.grasscutter.net.proto.RemoveInfo.getDescriptor();
+    emu.grasscutter.net.proto._AddInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._RemoveInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

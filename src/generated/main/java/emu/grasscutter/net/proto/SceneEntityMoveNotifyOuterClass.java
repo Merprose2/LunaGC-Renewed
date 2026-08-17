@@ -1075,8 +1075,9 @@ public final class SceneEntityMoveNotifyOuterClass {
       "tyMoveNotify\022 \n\013motion_info\030\002 \001(\0132\013.Moti" +
       "onInfo\022!\n\013EEDDIJJOCFM\030\004 \001(\0132\014.IFMIEJICEM" +
       "A\022\021\n\tentity_id\030\006 \001(\r\022\024\n\014reliable_seq\030\013 \001" +
-      "(\r\022\022\n\nscene_time\030\014 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "(\r\022\022\n\nscene_time\030\014 \001(\rB<\n\031emu.grasscutte" +
+      "r.net.protoB\037SceneEntityMoveNotifyOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

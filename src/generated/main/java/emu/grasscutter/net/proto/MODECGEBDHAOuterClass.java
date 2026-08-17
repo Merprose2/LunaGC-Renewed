@@ -667,8 +667,8 @@ public final class MODECGEBDHAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MODECGEBDHA.proto\"E\n\013MODECGEBDHA\022\017\n\007re" +
       "tcode\030\002 \001(\005\022\020\n\010goods_id\030\t \001(\r\022\023\n\013FDAHAII" +
-      "JAHJ\030\014 \001(\010B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "JAHJ\030\014 \001(\010B2\n\031emu.grasscutter.net.protoB" +
+      "\025MODECGEBDHAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

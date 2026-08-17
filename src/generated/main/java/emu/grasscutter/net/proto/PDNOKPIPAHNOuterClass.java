@@ -729,8 +729,9 @@ public final class PDNOKPIPAHNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PDNOKPIPAHN.proto\032\021FNNGJENNAMM.proto\"A" +
       "\n\013PDNOKPIPAHN\022\017\n\007retcode\030\007 \001(\005\022!\n\013FJAOLG" +
-      "AAMKH\030\n \001(\0132\014.FNNGJENNAMMB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "AAMKH\030\n \001(\0132\014.FNNGJENNAMMB2\n\031emu.grasscu" +
+      "tter.net.protoB\025PDNOKPIPAHNOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

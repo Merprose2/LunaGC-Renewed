@@ -6184,8 +6184,8 @@ public final class RegionInfoOuterClass {
       ") \001(\t\022\023\n\013KNPIODMJIID\030* \001(\t\022\023\n\013GEFKKPHEPJ" +
       "E\030+ \001(\t\022\023\n\013NKEJHLNPODC\030, \001(\t\022\023\n\013GEHCCAFM" +
       "AML\030- \001(\t\022\023\n\013KJNKNEHJMDA\030. \001(\t\022\023\n\013IJJPBB" +
-      "CJFKN\030/ \001(\tB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "CJFKN\030/ \001(\tB1\n\031emu.grasscutter.net.proto" +
+      "B\024RegionInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

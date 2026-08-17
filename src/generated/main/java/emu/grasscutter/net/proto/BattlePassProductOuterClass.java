@@ -1200,8 +1200,8 @@ public final class BattlePassProductOuterClass {
       "Product\022\031\n\021normal_product_id\030\003 \001(\t\022\030\n\020ex" +
       "tra_product_id\030\004 \001(\t\022\032\n\022upgrade_product_" +
       "id\030\005 \001(\t\022\023\n\013LJKGANJLFNJ\030\t \001(\t\022\023\n\013LGOGOFA" +
-      "FJBK\030\n \001(\tB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "FJBK\030\n \001(\tB8\n\031emu.grasscutter.net.protoB" +
+      "\033BattlePassProductOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

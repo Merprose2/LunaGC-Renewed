@@ -1800,8 +1800,8 @@ public final class NMGBENBGIOKOuterClass {
       ".GCGGameBusinessType\022\025\n\rcontroller_id\030\010 " +
       "\001(\r\022\n\n\002id\030\n \001(\r\022\017\n\007game_id\030\014 \001(\r\022\022\n\ntime" +
       "_stamp\030\r \001(\007\022\023\n\013expire_time\030\016 \001(\007\022\022\n\nis_" +
-      "invalid\030\017 \001(\010B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "invalid\030\017 \001(\010B2\n\031emu.grasscutter.net.pro" +
+      "toB\025NMGBENBGIOKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

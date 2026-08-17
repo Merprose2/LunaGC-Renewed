@@ -152,8 +152,8 @@ public final class JCEMPLIONNNOuterClass {
       "\n\021JCEMPLIONNN.proto*m\n\013JCEMPLIONNN\022\024\n\020JC" +
       "EMPLIONNN_NONE\020\000\022\027\n\023JCEMPLIONNN_PREPARE\020" +
       "\001\022\027\n\023JCEMPLIONNN_PLAYING\020\002\022\026\n\022JCEMPLIONN" +
-      "N_SETTLE\020\003B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "N_SETTLE\020\003B2\n\031emu.grasscutter.net.protoB" +
+      "\025JCEMPLIONNNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

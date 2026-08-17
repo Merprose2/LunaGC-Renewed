@@ -142,8 +142,9 @@ public final class ICFALKBAMPAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ICFALKBAMPA.proto*Q\n\013ICFALKBAMPA\022\024\n\020IC" +
       "FALKBAMPA_NONE\020\000\022\024\n\020ICFALKBAMPA_AUTO\020\001\022\026" +
-      "\n\022ICFALKBAMPA_CUSTOM\020\002B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\n\022ICFALKBAMPA_CUSTOM\020\002B2\n\031emu.grasscutte" +
+      "r.net.protoB\025ICFALKBAMPAOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

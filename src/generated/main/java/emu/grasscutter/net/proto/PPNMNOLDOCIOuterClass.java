@@ -454,8 +454,9 @@ public final class PPNMNOLDOCIOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021PPNMNOLDOCI.proto\"\r\n\013PPNMNOLDOCIB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021PPNMNOLDOCI.proto\"\r\n\013PPNMNOLDOCIB2\n\031em" +
+      "u.grasscutter.net.protoB\025PPNMNOLDOCIOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

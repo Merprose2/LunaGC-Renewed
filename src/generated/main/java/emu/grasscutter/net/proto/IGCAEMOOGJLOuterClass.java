@@ -952,8 +952,8 @@ public final class IGCAEMOOGJLOuterClass {
       "\n\021IGCAEMOOGJL.proto\032\021GLKBLDMMLBN.proto\"Z" +
       "\n\013IGCAEMOOGJL\022\023\n\013MPJOJIONEIF\030\001 \001(\t\022\023\n\013JI" +
       "PGNLKEBEG\030\002 \001(\t\022!\n\013AMAEBGCPHHB\030\003 \001(\0132\014.G" +
-      "LKBLDMMLBNB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "LKBLDMMLBNB2\n\031emu.grasscutter.net.protoB" +
+      "\025IGCAEMOOGJLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

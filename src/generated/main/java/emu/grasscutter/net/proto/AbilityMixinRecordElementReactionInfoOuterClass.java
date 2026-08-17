@@ -873,8 +873,9 @@ public final class AbilityMixinRecordElementReactionInfoOuterClass {
       "xinRecordElementReactionInfo._UpdateType" +
       "\022\026\n\016entity_id_list\030\016 \003(\r\"N\n\013_UpdateType\022" +
       "\023\n\017_UpdateType_ALL\020\000\022\023\n\017_UpdateType_ADD\020" +
-      "\001\022\025\n\021_UpdateType_CLEAR\020\002B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\001\022\025\n\021_UpdateType_CLEAR\020\002BL\n\031emu.grasscut" +
+      "ter.net.protoB/AbilityMixinRecordElement" +
+      "ReactionInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

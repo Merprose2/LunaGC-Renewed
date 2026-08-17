@@ -676,8 +676,8 @@ public final class SetPlayerBornDataReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032SetPlayerBornDataReq.proto\"<\n\024SetPlaye" +
       "rBornDataReq\022\021\n\tavatar_id\030\013 \001(\r\022\021\n\tnick_" +
-      "name\030\r \001(\tB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "name\030\r \001(\tB;\n\031emu.grasscutter.net.protoB" +
+      "\036SetPlayerBornDataReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

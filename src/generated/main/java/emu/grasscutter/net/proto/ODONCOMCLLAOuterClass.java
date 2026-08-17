@@ -666,8 +666,8 @@ public final class ODONCOMCLLAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ODONCOMCLLA.proto\"C\n\013ODONCOMCLLA\022\017\n\007re" +
       "tcode\030\002 \001(\005\022\022\n\ndungeon_id\030\014 \001(\r\022\017\n\007cell_" +
-      "id\030\r \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\r \001(\rB2\n\031emu.grasscutter.net.protoB\025O" +
+      "DONCOMCLLAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

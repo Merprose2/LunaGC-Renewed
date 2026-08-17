@@ -1035,8 +1035,8 @@ public final class INBANCIEAPEOuterClass {
       "\n\021INBANCIEAPE.proto\032\021OMPHHKPHOKH.proto\"a" +
       "\n\013INBANCIEAPE\022\023\n\013MNAEDLMPCOC\030\005 \001(\010\022\r\n\005in" +
       "dex\030\007 \001(\r\022\013\n\003uid\030\n \001(\r\022!\n\013NEFOIHCHENM\030\014 " +
-      "\003(\0132\014.OMPHHKPHOKHB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\003(\0132\014.OMPHHKPHOKHB2\n\031emu.grasscutter.net" +
+      ".protoB\025INBANCIEAPEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

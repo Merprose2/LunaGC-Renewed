@@ -27,7 +27,7 @@ public final class MCGGKOBMLIKOuterClass {
      * <code>._InstrumentalEnsembleType CHFECANGFFN = 5;</code>
      * @return The cHFECANGFFN.
      */
-    emu.grasscutter.net.proto.InstrumentalEnsembleType._InstrumentalEnsembleType getCHFECANGFFN();
+    emu.grasscutter.net.proto._InstrumentalEnsembleTypeOuterClass._InstrumentalEnsembleType getCHFECANGFFN();
 
     /**
      * <code>uint32 CNFEBIOPANP = 13;</code>
@@ -141,10 +141,10 @@ public final class MCGGKOBMLIKOuterClass {
      * <code>._InstrumentalEnsembleType CHFECANGFFN = 5;</code>
      * @return The cHFECANGFFN.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.InstrumentalEnsembleType._InstrumentalEnsembleType getCHFECANGFFN() {
+    @java.lang.Override public emu.grasscutter.net.proto._InstrumentalEnsembleTypeOuterClass._InstrumentalEnsembleType getCHFECANGFFN() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.InstrumentalEnsembleType._InstrumentalEnsembleType result = emu.grasscutter.net.proto.InstrumentalEnsembleType._InstrumentalEnsembleType.valueOf(cHFECANGFFN_);
-      return result == null ? emu.grasscutter.net.proto.InstrumentalEnsembleType._InstrumentalEnsembleType.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto._InstrumentalEnsembleTypeOuterClass._InstrumentalEnsembleType result = emu.grasscutter.net.proto._InstrumentalEnsembleTypeOuterClass._InstrumentalEnsembleType.valueOf(cHFECANGFFN_);
+      return result == null ? emu.grasscutter.net.proto._InstrumentalEnsembleTypeOuterClass._InstrumentalEnsembleType.UNRECOGNIZED : result;
     }
 
     public static final int CNFEBIOPANP_FIELD_NUMBER = 13;
@@ -172,7 +172,7 @@ public final class MCGGKOBMLIKOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (cHFECANGFFN_ != emu.grasscutter.net.proto.InstrumentalEnsembleType._InstrumentalEnsembleType._InstrumentalEnsembleType_INSTRUMENTAL_ENSEMBLE_LISTENER.getNumber()) {
+      if (cHFECANGFFN_ != emu.grasscutter.net.proto._InstrumentalEnsembleTypeOuterClass._InstrumentalEnsembleType._InstrumentalEnsembleType_INSTRUMENTAL_ENSEMBLE_LISTENER.getNumber()) {
         output.writeEnum(5, cHFECANGFFN_);
       }
       if (cNFEBIOPANP_ != 0) {
@@ -187,7 +187,7 @@ public final class MCGGKOBMLIKOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (cHFECANGFFN_ != emu.grasscutter.net.proto.InstrumentalEnsembleType._InstrumentalEnsembleType._InstrumentalEnsembleType_INSTRUMENTAL_ENSEMBLE_LISTENER.getNumber()) {
+      if (cHFECANGFFN_ != emu.grasscutter.net.proto._InstrumentalEnsembleTypeOuterClass._InstrumentalEnsembleType._InstrumentalEnsembleType_INSTRUMENTAL_ENSEMBLE_LISTENER.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(5, cHFECANGFFN_);
       }
@@ -504,17 +504,17 @@ public final class MCGGKOBMLIKOuterClass {
        * @return The cHFECANGFFN.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.InstrumentalEnsembleType._InstrumentalEnsembleType getCHFECANGFFN() {
+      public emu.grasscutter.net.proto._InstrumentalEnsembleTypeOuterClass._InstrumentalEnsembleType getCHFECANGFFN() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.InstrumentalEnsembleType._InstrumentalEnsembleType result = emu.grasscutter.net.proto.InstrumentalEnsembleType._InstrumentalEnsembleType.valueOf(cHFECANGFFN_);
-        return result == null ? emu.grasscutter.net.proto.InstrumentalEnsembleType._InstrumentalEnsembleType.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto._InstrumentalEnsembleTypeOuterClass._InstrumentalEnsembleType result = emu.grasscutter.net.proto._InstrumentalEnsembleTypeOuterClass._InstrumentalEnsembleType.valueOf(cHFECANGFFN_);
+        return result == null ? emu.grasscutter.net.proto._InstrumentalEnsembleTypeOuterClass._InstrumentalEnsembleType.UNRECOGNIZED : result;
       }
       /**
        * <code>._InstrumentalEnsembleType CHFECANGFFN = 5;</code>
        * @param value The cHFECANGFFN to set.
        * @return This builder for chaining.
        */
-      public Builder setCHFECANGFFN(emu.grasscutter.net.proto.InstrumentalEnsembleType._InstrumentalEnsembleType value) {
+      public Builder setCHFECANGFFN(emu.grasscutter.net.proto._InstrumentalEnsembleTypeOuterClass._InstrumentalEnsembleType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -634,13 +634,13 @@ public final class MCGGKOBMLIKOuterClass {
       "\n\021MCGGKOBMLIK.proto\032\037_InstrumentalEnsemb" +
       "leType.proto\"S\n\013MCGGKOBMLIK\022/\n\013CHFECANGF" +
       "FN\030\005 \001(\0162\032._InstrumentalEnsembleType\022\023\n\013" +
-      "CNFEBIOPANP\030\r \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "CNFEBIOPANP\030\r \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025MCGGKOBMLIKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.InstrumentalEnsembleType.getDescriptor(),
+          emu.grasscutter.net.proto._InstrumentalEnsembleTypeOuterClass.getDescriptor(),
         });
     internal_static_MCGGKOBMLIK_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -648,7 +648,7 @@ public final class MCGGKOBMLIKOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MCGGKOBMLIK_descriptor,
         new java.lang.String[] { "CHFECANGFFN", "CNFEBIOPANP", });
-    emu.grasscutter.net.proto.InstrumentalEnsembleType.getDescriptor();
+    emu.grasscutter.net.proto._InstrumentalEnsembleTypeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

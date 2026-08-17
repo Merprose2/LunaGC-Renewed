@@ -666,8 +666,8 @@ public final class CHGONFDMJKCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CHGONFDMJKC.proto\"H\n\013CHGONFDMJKC\022\023\n\013FJ" +
       "CHCJNJPLI\030\004 \001(\r\022\023\n\013CJFCLBEOHLB\030\013 \001(\r\022\017\n\007" +
-      "retcode\030\014 \001(\005B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "retcode\030\014 \001(\005B2\n\031emu.grasscutter.net.pro" +
+      "toB\025CHGONFDMJKCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

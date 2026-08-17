@@ -455,8 +455,9 @@ public final class TeamChainRestartDungeonReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n TeamChainRestartDungeonReq.proto\"\034\n\032Te" +
-      "amChainRestartDungeonReqB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "amChainRestartDungeonReqBA\n\031emu.grasscut" +
+      "ter.net.protoB$TeamChainRestartDungeonRe" +
+      "qOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -799,8 +799,9 @@ public final class SummerTimeDungeonInfoOuterClass {
       "\n\033SummerTimeDungeonInfo.proto\"\177\n\025SummerT" +
       "imeDungeonInfo\022\023\n\013BPILIIIJIJL\030\001 \001(\r\022\022\n\nd" +
       "ungeon_id\030\005 \001(\r\022\023\n\013DDPIBNHIGFB\030\007 \001(\r\022\023\n\013" +
-      "COBMNHEKLJN\030\010 \001(\r\022\023\n\013ABPEECMBMLJ\030\t \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "COBMNHEKLJN\030\010 \001(\r\022\023\n\013ABPEECMBMLJ\030\t \001(\rB<" +
+      "\n\031emu.grasscutter.net.protoB\037SummerTimeD" +
+      "ungeonInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

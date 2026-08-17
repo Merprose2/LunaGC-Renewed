@@ -724,7 +724,9 @@ public final class TakeCityReputationExploreRewardReqOuterClass {
       "\n(TakeCityReputationExploreRewardReq.pro" +
       "to\"N\n\"TakeCityReputationExploreRewardReq" +
       "\022\017\n\007city_id\030\002 \001(\r\022\027\n\017explore_id_list\030\010 \003" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rBI\n\031emu.grasscutter.net.protoB,TakeCit" +
+      "yReputationExploreRewardReqOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

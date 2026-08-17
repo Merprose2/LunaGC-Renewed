@@ -660,8 +660,9 @@ public final class WinterCampRecvItemNotifyOuterClass {
       "\n\036WinterCampRecvItemNotify.proto\032\034Winter" +
       "CampRecvItemData.proto\"K\n\030WinterCampRecv" +
       "ItemNotify\022/\n\016recv_item_data\030\003 \001(\0132\027.Win" +
-      "terCampRecvItemDataB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "terCampRecvItemDataB?\n\031emu.grasscutter.n" +
+      "et.protoB\"WinterCampRecvItemNotifyOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

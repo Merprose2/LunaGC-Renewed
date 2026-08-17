@@ -973,8 +973,9 @@ public final class GetActivityScheduleRspOuterClass {
       "ScheduleInfo.proto\"\201\001\n\026GetActivitySchedu" +
       "leRsp\0225\n\026activity_schedule_list\030\001 \003(\0132\025." +
       "ActivityScheduleInfo\022\037\n\027remain_fly_sea_l" +
-      "amp_num\030\n \001(\r\022\017\n\007retcode\030\r \001(\005B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "amp_num\030\n \001(\r\022\017\n\007retcode\030\r \001(\005B=\n\031emu.gr" +
+      "asscutter.net.protoB GetActivitySchedule" +
+      "RspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

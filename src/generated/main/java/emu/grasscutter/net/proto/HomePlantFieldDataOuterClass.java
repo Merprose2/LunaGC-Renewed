@@ -1239,8 +1239,9 @@ public final class HomePlantFieldDataOuterClass {
       "antFieldData\022.\n\016sub_field_list\030\005 \003(\0132\026.H" +
       "omePlantSubFieldData\022\022\n\nfield_guid\030\t \001(\r" +
       "\022\020\n\010scene_id\030\014 \001(\r\022\024\n\014furniture_id\030\r \001(\r" +
-      "\022\032\n\tspawn_pos\030\017 \001(\0132\007.VectorB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\022\032\n\tspawn_pos\030\017 \001(\0132\007.VectorB9\n\031emu.gras" +
+      "scutter.net.protoB\034HomePlantFieldDataOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

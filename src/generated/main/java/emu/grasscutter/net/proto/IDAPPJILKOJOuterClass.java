@@ -800,8 +800,8 @@ public final class IDAPPJILKOJOuterClass {
       "\n\021IDAPPJILKOJ.proto\"g\n\013IDAPPJILKOJ\022\020\n\010ki" +
       "ll_num\030\002 \001(\r\022\r\n\005score\030\003 \001(\r\022\013\n\003uid\030\006 \001(\r" +
       "\022\025\n\ris_new_record\030\t \001(\010\022\023\n\013OOLAFMGLDCD\030\016" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB2\n\031emu.grasscutter.net.protoB\025IDAPP" +
+      "JILKOJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

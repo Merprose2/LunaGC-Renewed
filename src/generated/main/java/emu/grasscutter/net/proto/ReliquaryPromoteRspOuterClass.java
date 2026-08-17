@@ -1129,8 +1129,9 @@ public final class ReliquaryPromoteRspOuterClass {
       "yPromoteRsp\022\023\n\013HBCOLINECPL\030\002 \001(\r\022\017\n\007retc" +
       "ode\030\007 \001(\005\022\023\n\013PDNADCLMCOH\030\010 \003(\r\022\035\n\025target" +
       "_reliquary_guid\030\014 \001(\004\022\023\n\013EFKJCHIKFNF\030\r \001" +
-      "(\r\022\023\n\013LGIDJPAHKFG\030\016 \003(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "(\r\022\023\n\013LGIDJPAHKFG\030\016 \003(\rB:\n\031emu.grasscutt" +
+      "er.net.protoB\035ReliquaryPromoteRspOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

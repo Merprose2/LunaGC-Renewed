@@ -27,11 +27,11 @@ public final class AGKGKIIKMAAOuterClass {
      * <code>._BomberV3SettleInfo bomber_v_3_settle_info = 10;</code>
      * @return The bomberV3SettleInfo.
      */
-    emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo getBomberV3SettleInfo();
+    emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo getBomberV3SettleInfo();
     /**
      * <code>._BomberV3SettleInfo bomber_v_3_settle_info = 10;</code>
      */
-    emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfoOrBuilder getBomberV3SettleInfoOrBuilder();
+    emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfoOrBuilder getBomberV3SettleInfoOrBuilder();
 
     public emu.grasscutter.net.proto.AGKGKIIKMAAOuterClass.AGKGKIIKMAA.DetailCase getDetailCase();
   }
@@ -81,14 +81,14 @@ public final class AGKGKIIKMAAOuterClass {
               done = true;
               break;
             case 82: {
-              emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo.Builder subBuilder = null;
               if (detailCase_ == 10) {
-                subBuilder = ((emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 10;
@@ -179,21 +179,21 @@ public final class AGKGKIIKMAAOuterClass {
      * @return The bomberV3SettleInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo getBomberV3SettleInfo() {
+    public emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo getBomberV3SettleInfo() {
       if (detailCase_ == 10) {
-         return (emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo) detail_;
+         return (emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo) detail_;
       }
-      return emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo.getDefaultInstance();
     }
     /**
      * <code>._BomberV3SettleInfo bomber_v_3_settle_info = 10;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfoOrBuilder getBomberV3SettleInfoOrBuilder() {
+    public emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfoOrBuilder getBomberV3SettleInfoOrBuilder() {
       if (detailCase_ == 10) {
-         return (emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo) detail_;
+         return (emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo) detail_;
       }
-      return emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -211,7 +211,7 @@ public final class AGKGKIIKMAAOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (detailCase_ == 10) {
-        output.writeMessage(10, (emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo) detail_);
+        output.writeMessage(10, (emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -224,7 +224,7 @@ public final class AGKGKIIKMAAOuterClass {
       size = 0;
       if (detailCase_ == 10) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, (emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo) detail_);
+          .computeMessageSize(10, (emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -540,7 +540,7 @@ public final class AGKGKIIKMAAOuterClass {
 
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo, emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo.Builder, emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfoOrBuilder> bomberV3SettleInfoBuilder_;
+          emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo, emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo.Builder, emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfoOrBuilder> bomberV3SettleInfoBuilder_;
       /**
        * <code>._BomberV3SettleInfo bomber_v_3_settle_info = 10;</code>
        * @return Whether the bomberV3SettleInfo field is set.
@@ -554,23 +554,23 @@ public final class AGKGKIIKMAAOuterClass {
        * @return The bomberV3SettleInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo getBomberV3SettleInfo() {
+      public emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo getBomberV3SettleInfo() {
         if (bomberV3SettleInfoBuilder_ == null) {
           if (detailCase_ == 10) {
-            return (emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo) detail_;
+            return (emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo) detail_;
           }
-          return emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 10) {
             return bomberV3SettleInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._BomberV3SettleInfo bomber_v_3_settle_info = 10;</code>
        */
-      public Builder setBomberV3SettleInfo(emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo value) {
+      public Builder setBomberV3SettleInfo(emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo value) {
         if (bomberV3SettleInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -587,7 +587,7 @@ public final class AGKGKIIKMAAOuterClass {
        * <code>._BomberV3SettleInfo bomber_v_3_settle_info = 10;</code>
        */
       public Builder setBomberV3SettleInfo(
-          emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo.Builder builderForValue) {
         if (bomberV3SettleInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -600,11 +600,11 @@ public final class AGKGKIIKMAAOuterClass {
       /**
        * <code>._BomberV3SettleInfo bomber_v_3_settle_info = 10;</code>
        */
-      public Builder mergeBomberV3SettleInfo(emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo value) {
+      public Builder mergeBomberV3SettleInfo(emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo value) {
         if (bomberV3SettleInfoBuilder_ == null) {
           if (detailCase_ == 10 &&
-              detail_ != emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo.newBuilder((emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo.newBuilder((emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -641,36 +641,36 @@ public final class AGKGKIIKMAAOuterClass {
       /**
        * <code>._BomberV3SettleInfo bomber_v_3_settle_info = 10;</code>
        */
-      public emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo.Builder getBomberV3SettleInfoBuilder() {
+      public emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo.Builder getBomberV3SettleInfoBuilder() {
         return getBomberV3SettleInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._BomberV3SettleInfo bomber_v_3_settle_info = 10;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfoOrBuilder getBomberV3SettleInfoOrBuilder() {
+      public emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfoOrBuilder getBomberV3SettleInfoOrBuilder() {
         if ((detailCase_ == 10) && (bomberV3SettleInfoBuilder_ != null)) {
           return bomberV3SettleInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 10) {
-            return (emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo) detail_;
+            return (emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo) detail_;
           }
-          return emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._BomberV3SettleInfo bomber_v_3_settle_info = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo, emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo.Builder, emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfoOrBuilder> 
+          emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo, emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo.Builder, emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfoOrBuilder> 
           getBomberV3SettleInfoFieldBuilder() {
         if (bomberV3SettleInfoBuilder_ == null) {
           if (!(detailCase_ == 10)) {
-            detail_ = emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo.getDefaultInstance();
           }
           bomberV3SettleInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo, emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo.Builder, emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.BomberV3SettleInfo._BomberV3SettleInfo) detail_,
+              emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo, emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo.Builder, emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass._BomberV3SettleInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -749,13 +749,13 @@ public final class AGKGKIIKMAAOuterClass {
       "\n\021AGKGKIIKMAA.proto\032\031_BomberV3SettleInfo" +
       ".proto\"O\n\013AGKGKIIKMAA\0226\n\026bomber_v_3_sett" +
       "le_info\030\n \001(\0132\024._BomberV3SettleInfoH\000B\010\n" +
-      "\006detailB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "\006detailB2\n\031emu.grasscutter.net.protoB\025AG" +
+      "KGKIIKMAAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BomberV3SettleInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass.getDescriptor(),
         });
     internal_static_AGKGKIIKMAA_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -763,7 +763,7 @@ public final class AGKGKIIKMAAOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AGKGKIIKMAA_descriptor,
         new java.lang.String[] { "BomberV3SettleInfo", "Detail", });
-    emu.grasscutter.net.proto.BomberV3SettleInfo.getDescriptor();
+    emu.grasscutter.net.proto._BomberV3SettleInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

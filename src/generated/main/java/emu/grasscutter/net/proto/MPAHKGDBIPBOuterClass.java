@@ -182,8 +182,8 @@ public final class MPAHKGDBIPBOuterClass {
       "R\020\002\022!\n\035MPAHKGDBIPB_CALCULATE_SERIOUS\020\003\022\033" +
       "\n\027MPAHKGDBIPB_MEMORY_HIGH\020\004\022\035\n\031MPAHKGDBI" +
       "PB_MEMORY_DANGER\020\005\022\036\n\032MPAHKGDBIPB_MEMORY" +
-      "_SERIOUS\020\006B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "_SERIOUS\020\006B2\n\031emu.grasscutter.net.protoB" +
+      "\025MPAHKGDBIPBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

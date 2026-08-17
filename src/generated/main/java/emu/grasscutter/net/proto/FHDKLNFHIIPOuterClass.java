@@ -595,8 +595,9 @@ public final class FHDKLNFHIIPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FHDKLNFHIIP.proto\"2\n\013FHDKLNFHIIP\022\020\n\010le" +
-      "vel_id\030\003 \001(\r\022\021\n\tplay_type\030\006 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "vel_id\030\003 \001(\r\022\021\n\tplay_type\030\006 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025FHDKLNFHIIPOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1931,8 +1931,9 @@ public final class KFJAHCCJKNMOuterClass {
       " \001(\t\022 \n\nparam_list\030\004 \003(\0132\014.PFMPMCABJGI\022\023" +
       "\n\013OBIOFFCNFND\030\005 \001(\010\022\017\n\007version\030\006 \001(\r\022!\n\013" +
       "AAJLFOBKBNA\030\007 \001(\0132\014.HJKKDOLHNGK\022!\n\013FGBGK" +
-      "OPMEPC\030\010 \001(\0132\014.HJKKDOLHNGKB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "OPMEPC\030\010 \001(\0132\014.HJKKDOLHNGKB2\n\031emu.grassc" +
+      "utter.net.protoB\025KFJAHCCJKNMOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

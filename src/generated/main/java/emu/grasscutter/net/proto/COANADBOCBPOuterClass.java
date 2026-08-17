@@ -644,8 +644,8 @@ public final class COANADBOCBPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021COANADBOCBP.proto\"\"\n\013COANADBOCBP\022\023\n\013BK" +
-      "GNBEDOPDI\030\017 \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "GNBEDOPDI\030\017 \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025COANADBOCBPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

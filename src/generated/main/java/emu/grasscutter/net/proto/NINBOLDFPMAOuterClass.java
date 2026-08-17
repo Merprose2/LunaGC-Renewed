@@ -901,8 +901,9 @@ public final class NINBOLDFPMAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NINBOLDFPMA.proto\032\021PLNKNNOEDFF.proto\"E" +
       "\n\013NINBOLDFPMA\022\023\n\013KMDOFBPMGAI\030\005 \001(\r\022!\n\013JL" +
-      "BLHFJICKK\030\006 \003(\0132\014.PLNKNNOEDFFB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "BLHFJICKK\030\006 \003(\0132\014.PLNKNNOEDFFB2\n\031emu.gra" +
+      "sscutter.net.protoB\025NINBOLDFPMAOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

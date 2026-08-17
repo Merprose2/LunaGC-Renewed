@@ -27,7 +27,7 @@ public final class OODOGOBDLJPOuterClass {
      * <code>._BeyondGiftType _beyond_gift_type = 2;</code>
      * @return The beyondGiftType.
      */
-    emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType getBeyondGiftType();
+    emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType getBeyondGiftType();
 
     /**
      * <code>uint32 goods_id = 8;</code>
@@ -141,10 +141,10 @@ public final class OODOGOBDLJPOuterClass {
      * <code>._BeyondGiftType _beyond_gift_type = 2;</code>
      * @return The beyondGiftType.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType getBeyondGiftType() {
+    @java.lang.Override public emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType getBeyondGiftType() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType result = emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType.valueOf(BeyondGiftType_);
-      return result == null ? emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType result = emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType.valueOf(BeyondGiftType_);
+      return result == null ? emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType.UNRECOGNIZED : result;
     }
 
     public static final int GOODS_ID_FIELD_NUMBER = 8;
@@ -172,7 +172,7 @@ public final class OODOGOBDLJPOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (BeyondGiftType_ != emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType._BeyondGiftType_NONE.getNumber()) {
+      if (BeyondGiftType_ != emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType._BeyondGiftType_NONE.getNumber()) {
         output.writeEnum(2, BeyondGiftType_);
       }
       if (goodsId_ != 0) {
@@ -187,7 +187,7 @@ public final class OODOGOBDLJPOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (BeyondGiftType_ != emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType._BeyondGiftType_NONE.getNumber()) {
+      if (BeyondGiftType_ != emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType._BeyondGiftType_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(2, BeyondGiftType_);
       }
@@ -504,17 +504,17 @@ public final class OODOGOBDLJPOuterClass {
        * @return The beyondGiftType.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType getBeyondGiftType() {
+      public emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType getBeyondGiftType() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType result = emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType.valueOf(BeyondGiftType_);
-        return result == null ? emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType result = emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType.valueOf(BeyondGiftType_);
+        return result == null ? emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType.UNRECOGNIZED : result;
       }
       /**
        * <code>._BeyondGiftType _beyond_gift_type = 2;</code>
        * @param value The beyondGiftType to set.
        * @return This builder for chaining.
        */
-      public Builder setBeyondGiftType(emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType value) {
+      public Builder setBeyondGiftType(emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -634,12 +634,13 @@ public final class OODOGOBDLJPOuterClass {
       "\n\021OODOGOBDLJP.proto\032\025_BeyondGiftType.pro" +
       "to\"L\n\013OODOGOBDLJP\022+\n\021_beyond_gift_type\030\002" +
       " \001(\0162\020._BeyondGiftType\022\020\n\010goods_id\030\010 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025OODOGOBDL" +
+      "JPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BeyondGiftType.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondGiftTypeOuterClass.getDescriptor(),
         });
     internal_static_OODOGOBDLJP_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -647,7 +648,7 @@ public final class OODOGOBDLJPOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_OODOGOBDLJP_descriptor,
         new java.lang.String[] { "BeyondGiftType", "GoodsId", });
-    emu.grasscutter.net.proto.BeyondGiftType.getDescriptor();
+    emu.grasscutter.net.proto._BeyondGiftTypeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

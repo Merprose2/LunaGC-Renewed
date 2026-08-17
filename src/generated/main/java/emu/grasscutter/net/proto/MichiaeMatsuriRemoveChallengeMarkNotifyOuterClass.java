@@ -597,8 +597,9 @@ public final class MichiaeMatsuriRemoveChallengeMarkNotifyOuterClass {
       "\n-MichiaeMatsuriRemoveChallengeMarkNotif" +
       "y.proto\"N\n\'MichiaeMatsuriRemoveChallenge" +
       "MarkNotify\022\021\n\tgadget_id\030\016 \001(\r\022\020\n\010group_i" +
-      "d\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "d\030\017 \001(\rBN\n\031emu.grasscutter.net.protoB1Mi" +
+      "chiaeMatsuriRemoveChallengeMarkNotifyOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

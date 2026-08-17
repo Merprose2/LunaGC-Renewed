@@ -171,8 +171,8 @@ public final class GFKBOPBFDJPOuterClass {
       "FKBOPBFDJP_UNKNOWN\020\000\022\023\n\017GFKBOPBFDJP_IOS\020" +
       "\001\022\027\n\023GFKBOPBFDJP_ANDROID\020\002\022\022\n\016GFKBOPBFDJ" +
       "P_PC\020\003\022\024\n\020GFKBOPBFDJP_XBOX\020\004\022\022\n\016GFKBOPBF" +
-      "DJP_PS\020\005B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "DJP_PS\020\005B2\n\031emu.grasscutter.net.protoB\025G" +
+      "FKBOPBFDJPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

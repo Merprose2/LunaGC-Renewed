@@ -800,8 +800,8 @@ public final class IAJCKLAPFBOOuterClass {
       "\n\021IAJCKLAPFBO.proto\032\021FriendBrief.proto\"Y" +
       "\n\013IAJCKLAPFBO\022#\n\r_friend_brief\030\004 \001(\0132\014.F" +
       "riendBrief\022\023\n\013BONMOGOKBDP\030\006 \001(\r\022\020\n\010level" +
-      "_id\030\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\013 \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "IAJCKLAPFBOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

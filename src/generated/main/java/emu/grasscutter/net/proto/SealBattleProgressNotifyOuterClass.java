@@ -808,8 +808,8 @@ public final class SealBattleProgressNotifyOuterClass {
       "lBattleProgressNotify\022\020\n\010progress\030\001 \001(\r\022" +
       "\020\n\010end_time\030\003 \001(\r\022\023\n\013seal_radius\030\010 \001(\r\022\024" +
       "\n\014max_progress\030\013 \001(\r\022\026\n\016seal_entity_id\030\017" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB?\n\031emu.grasscutter.net.protoB\"SealB" +
+      "attleProgressNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

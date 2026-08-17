@@ -934,8 +934,9 @@ public final class KENCCDKOGENOuterClass {
       "\n\021KENCCDKOGEN.proto\"y\n\013KENCCDKOGEN\022\023\n\013IN" +
       "KFBCOOCIK\030\004 \001(\r\022\032\n\022_beyond_gacha_type\030\007 " +
       "\001(\r\022\017\n\007retcode\030\010 \001(\005\022\023\n\013ODFEILIAEHG\030\t \003(" +
-      "\r\022\023\n\013GHMLNFIAMOA\030\013 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\r\022\023\n\013GHMLNFIAMOA\030\013 \001(\rB2\n\031emu.grasscutte" +
+      "r.net.protoB\025KENCCDKOGENOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

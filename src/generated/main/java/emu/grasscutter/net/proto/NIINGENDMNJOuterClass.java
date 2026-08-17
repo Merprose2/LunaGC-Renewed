@@ -878,7 +878,8 @@ public final class NIINGENDMNJOuterClass {
       "NFDFFFCPGH\030\001 \001(\005\022\023\n\013MFCDKCBHEMP\030\002 \001(\002\022\023\n" +
       "\013KINAPIOENDF\030\003 \001(\002\022\023\n\013EGABHBCLLAD\030\004 \001(\010\022" +
       "\023\n\013HIJONAJJHFP\030\005 \001(\010\022\023\n\013KOMENLMFHCH\030\006 \001(" +
-      "\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\002B2\n\031emu.grasscutter.net.protoB\025NIINGEND" +
+      "MNJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

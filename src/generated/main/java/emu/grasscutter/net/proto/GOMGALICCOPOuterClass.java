@@ -2287,8 +2287,8 @@ public final class GOMGALICCOPOuterClass {
       "LKHJJAL\030\t \003(\r\022\023\n\013NNLEPHINEFH\030\n \001(\010\022\035\n\007se" +
       "tting\030\013 \001(\0132\014.BDOKHMKLJOM\022\023\n\013DIPLJFLGIDM" +
       "\030\r \003(\r\022\023\n\013LLMELMLCLOE\030\016 \003(\r\022\023\n\013HALONGEGO" +
-      "EJ\030\017 \003(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "EJ\030\017 \003(\rB2\n\031emu.grasscutter.net.protoB\025G" +
+      "OMGALICCOPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

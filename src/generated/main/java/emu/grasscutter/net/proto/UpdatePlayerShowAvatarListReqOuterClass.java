@@ -796,8 +796,9 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       "\n#UpdatePlayerShowAvatarListReq.proto\"i\n" +
       "\035UpdatePlayerShowAvatarListReq\022\023\n\013CGCGPF" +
       "KDHAE\030\002 \001(\010\022\026\n\016is_show_avatar\030\007 \001(\010\022\033\n\023s" +
-      "how_avatar_id_list\030\017 \003(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "how_avatar_id_list\030\017 \003(\rBD\n\031emu.grasscut" +
+      "ter.net.protoB\'UpdatePlayerShowAvatarLis" +
+      "tReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

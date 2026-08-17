@@ -151,8 +151,9 @@ public final class MMDLCOBLIMNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MMDLCOBLIMN.proto*_\n\013MMDLCOBLIMN\022\027\n\023MM" +
       "DLCOBLIMN_DEFAULT\020\000\022\021\n\rMMDLCOBLIMN_1\020\001\022\021" +
-      "\n\rMMDLCOBLIMN_2\020\002\022\021\n\rMMDLCOBLIMN_3\020\003B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\n\rMMDLCOBLIMN_2\020\002\022\021\n\rMMDLCOBLIMN_3\020\003B2\n\031" +
+      "emu.grasscutter.net.protoB\025MMDLCOBLIMNOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1084,8 +1084,8 @@ public final class AAPEEJIHKFEOuterClass {
       "\r\022\023\n\013BPEDNCMLPOD\030\004 \001(\r\022\023\n\013IKMJOBEFNMO\030\007 " +
       "\001(\010\022\023\n\013IMHNNFGMBCJ\030\n \001(\r\022\023\n\013DNPBAOOOPJD\030" +
       "\014 \001(\005\022\023\n\013client_time\030\r \001(\020\022\036\n\010snapshot\030\016" +
-      " \001(\0132\014.CNBMCPNHDNNB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      " \001(\0132\014.CNBMCPNHDNNB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025AAPEEJIHKFEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

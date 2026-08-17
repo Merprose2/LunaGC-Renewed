@@ -2042,8 +2042,9 @@ public final class BrickBreakerSettleNotifyOuterClass {
       "\030\017 \001(\r\"\224\001\n\014SettleReason\022\031\n\025SettleReason_" +
       "TIME_OUT\020\000\022 \n\034SettleReason_SETTLE_PLAY_E" +
       "ND\020\001\022#\n\037SettleReason_SETTLE_PLAYER_QUIT\020" +
-      "\002\022\"\n\036SettleReason_SETTLE_LIFE_COUNT\020\003B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\002\022\"\n\036SettleReason_SETTLE_LIFE_COUNT\020\003B?\n" +
+      "\031emu.grasscutter.net.protoB\"BrickBreaker" +
+      "SettleNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

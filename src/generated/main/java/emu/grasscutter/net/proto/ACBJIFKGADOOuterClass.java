@@ -724,8 +724,8 @@ public final class ACBJIFKGADOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ACBJIFKGADO.proto\"H\n\013ACBJIFKGADO\022\035\n\025fo" +
       "od_weapon_guid_list\030\002 \003(\004\022\032\n\022target_weap" +
-      "on_guid\030\006 \001(\004B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "on_guid\030\006 \001(\004B2\n\031emu.grasscutter.net.pro" +
+      "toB\025ACBJIFKGADOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

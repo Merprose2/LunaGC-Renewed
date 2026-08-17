@@ -625,8 +625,9 @@ public final class FMCAGNGGHOFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FMCAGNGGHOF.proto\032\021JEOKDCIGCFP.proto\"E" +
       "\n\013FMCAGNGGHOF\022\023\n\013APGDMDLAPDJ\030\r \001(\005\022!\n\013FO" +
-      "FOJLDNEBG\030\017 \001(\0162\014.JEOKDCIGCFPB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "FOJLDNEBG\030\017 \001(\0162\014.JEOKDCIGCFPB2\n\031emu.gra" +
+      "sscutter.net.protoB\025FMCAGNGGHOFOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

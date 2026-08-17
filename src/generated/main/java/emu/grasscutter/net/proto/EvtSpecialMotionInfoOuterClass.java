@@ -1762,8 +1762,9 @@ public final class EvtSpecialMotionInfoOuterClass {
       "CLDAJ\030\007 \001(\002\022\023\n\013AIIOKFPIEGF\030\t \001(\010\022\021\n\tenti" +
       "ty_id\030\n \001(\r\022\023\n\013HMGGHGGCDHB\030\r \001(\005\022\034\n\013PMEH" +
       "MBALNMB\030\016 \001(\0132\007.Vector\022\034\n\013GBJJENHCLPA\030\017 " +
-      "\001(\0132\007.VectorB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\001(\0132\007.VectorB;\n\031emu.grasscutter.net.prot" +
+      "oB\036EvtSpecialMotionInfoOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

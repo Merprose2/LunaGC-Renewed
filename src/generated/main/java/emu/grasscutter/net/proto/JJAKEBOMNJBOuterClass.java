@@ -666,8 +666,8 @@ public final class JJAKEBOMNJBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JJAKEBOMNJB.proto\"J\n\013JJAKEBOMNJB\022\023\n\013OI" +
       "IKKGLKPAE\030\002 \001(\r\022\023\n\013IGHPCKKBJHK\030\010 \001(\r\022\021\n\t" +
-      "avatar_id\030\n \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "avatar_id\030\n \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025JJAKEBOMNJBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

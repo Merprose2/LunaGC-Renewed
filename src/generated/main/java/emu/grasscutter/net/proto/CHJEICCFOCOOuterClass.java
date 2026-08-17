@@ -1201,7 +1201,8 @@ public final class CHJEICCFOCOOuterClass {
       "vatar_list\030\r \003(\0132\020.SceneTeamAvatar\"S\n\013HA" +
       "LMDDMEODF\022\025\n\021HALMDDMEODF_ENTER\020\000\022\025\n\021HALM" +
       "DDMEODF_LEAVE\020\001\022\026\n\022HALMDDMEODF_MODIFY\020\002B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025CHJEICCFOC" +
+      "OOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

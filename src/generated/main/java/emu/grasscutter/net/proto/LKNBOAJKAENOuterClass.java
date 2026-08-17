@@ -936,8 +936,9 @@ public final class LKNBOAJKAENOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LKNBOAJKAEN.proto\"\\\n\013LKNBOAJKAEN\022\023\n\013II" +
       "JNFCDGDAP\030\001 \001(\t\022\021\n\tguid_list\030\002 \003(\r\022\023\n\013KM" +
-      "OGGHOEJFE\030\003 \001(\010\022\020\n\010suite_id\030\004 \001(\005B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "OGGHOEJFE\030\003 \001(\010\022\020\n\010suite_id\030\004 \001(\005B2\n\031emu" +
+      ".grasscutter.net.protoB\025LKNBOAJKAENOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1853,7 +1853,8 @@ public final class BBPPGKIDLOPOuterClass {
       "EECGPBOGB\022!\n\013AOHIOIBOBOD\030\007 \003(\0132\014.NACNIMB" +
       "HLLA\022!\n\013GAFGFGOBJPF\030\010 \003(\0132\014.KBCOKBILCDM\022" +
       "\023\n\013OJJFMAEFPPN\030\t \001(\005\022\023\n\013GGJPLCFAOLE\030\n \001(" +
-      "\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\010B2\n\031emu.grasscutter.net.protoB\025BBPPGKID" +
+      "LOPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

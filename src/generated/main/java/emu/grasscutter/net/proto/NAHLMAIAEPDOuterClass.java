@@ -152,8 +152,8 @@ public final class NAHLMAIAEPDOuterClass {
       "\n\021NAHLMAIAEPD.proto*j\n\013NAHLMAIAEPD\022\024\n\020NA" +
       "HLMAIAEPD_NONE\020\000\022\027\n\023NAHLMAIAEPD_SUCCESS\020" +
       "\001\022\026\n\022NAHLMAIAEPD_FAILED\020\002\022\024\n\020NAHLMAIAEPD" +
-      "_DRAW\020\003B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "_DRAW\020\003B2\n\031emu.grasscutter.net.protoB\025NA" +
+      "HLMAIAEPDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

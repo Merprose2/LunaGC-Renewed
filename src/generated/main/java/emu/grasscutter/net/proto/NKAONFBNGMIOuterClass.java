@@ -33,11 +33,11 @@ public final class NKAONFBNGMIOuterClass {
      * <code>._CreateLocalGadgetFailInfo create_local_gadget_fail_info = 4;</code>
      * @return The createLocalGadgetFailInfo.
      */
-    emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo getCreateLocalGadgetFailInfo();
+    emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo getCreateLocalGadgetFailInfo();
     /**
      * <code>._CreateLocalGadgetFailInfo create_local_gadget_fail_info = 4;</code>
      */
-    emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfoOrBuilder getCreateLocalGadgetFailInfoOrBuilder();
+    emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfoOrBuilder getCreateLocalGadgetFailInfoOrBuilder();
 
     /**
      * <code>.IFMIEJICEMA EEDDIJJOCFM = 13;</code>
@@ -117,14 +117,14 @@ public final class NKAONFBNGMIOuterClass {
               break;
             }
             case 34: {
-              emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo.Builder subBuilder = null;
               if (detailCase_ == 4) {
-                subBuilder = ((emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 4;
@@ -244,21 +244,21 @@ public final class NKAONFBNGMIOuterClass {
      * @return The createLocalGadgetFailInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo getCreateLocalGadgetFailInfo() {
+    public emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo getCreateLocalGadgetFailInfo() {
       if (detailCase_ == 4) {
-         return (emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo) detail_;
+         return (emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo) detail_;
       }
-      return emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo.getDefaultInstance();
     }
     /**
      * <code>._CreateLocalGadgetFailInfo create_local_gadget_fail_info = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfoOrBuilder getCreateLocalGadgetFailInfoOrBuilder() {
+    public emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfoOrBuilder getCreateLocalGadgetFailInfoOrBuilder() {
       if (detailCase_ == 4) {
-         return (emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo) detail_;
+         return (emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo) detail_;
       }
-      return emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo.getDefaultInstance();
     }
 
     public static final int EEDDIJJOCFM_FIELD_NUMBER = 13;
@@ -316,7 +316,7 @@ public final class NKAONFBNGMIOuterClass {
         output.writeUInt32(2, entityId_);
       }
       if (detailCase_ == 4) {
-        output.writeMessage(4, (emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo) detail_);
+        output.writeMessage(4, (emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo) detail_);
       }
       if (eEDDIJJOCFM_ != null) {
         output.writeMessage(13, getEEDDIJJOCFM());
@@ -339,7 +339,7 @@ public final class NKAONFBNGMIOuterClass {
       }
       if (detailCase_ == 4) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, (emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo) detail_);
+          .computeMessageSize(4, (emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo) detail_);
       }
       if (eEDDIJJOCFM_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -741,7 +741,7 @@ public final class NKAONFBNGMIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo, emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo.Builder, emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfoOrBuilder> createLocalGadgetFailInfoBuilder_;
+          emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo, emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo.Builder, emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfoOrBuilder> createLocalGadgetFailInfoBuilder_;
       /**
        * <code>._CreateLocalGadgetFailInfo create_local_gadget_fail_info = 4;</code>
        * @return Whether the createLocalGadgetFailInfo field is set.
@@ -755,23 +755,23 @@ public final class NKAONFBNGMIOuterClass {
        * @return The createLocalGadgetFailInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo getCreateLocalGadgetFailInfo() {
+      public emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo getCreateLocalGadgetFailInfo() {
         if (createLocalGadgetFailInfoBuilder_ == null) {
           if (detailCase_ == 4) {
-            return (emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo) detail_;
+            return (emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo) detail_;
           }
-          return emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 4) {
             return createLocalGadgetFailInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._CreateLocalGadgetFailInfo create_local_gadget_fail_info = 4;</code>
        */
-      public Builder setCreateLocalGadgetFailInfo(emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo value) {
+      public Builder setCreateLocalGadgetFailInfo(emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo value) {
         if (createLocalGadgetFailInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -788,7 +788,7 @@ public final class NKAONFBNGMIOuterClass {
        * <code>._CreateLocalGadgetFailInfo create_local_gadget_fail_info = 4;</code>
        */
       public Builder setCreateLocalGadgetFailInfo(
-          emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo.Builder builderForValue) {
         if (createLocalGadgetFailInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -801,11 +801,11 @@ public final class NKAONFBNGMIOuterClass {
       /**
        * <code>._CreateLocalGadgetFailInfo create_local_gadget_fail_info = 4;</code>
        */
-      public Builder mergeCreateLocalGadgetFailInfo(emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo value) {
+      public Builder mergeCreateLocalGadgetFailInfo(emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo value) {
         if (createLocalGadgetFailInfoBuilder_ == null) {
           if (detailCase_ == 4 &&
-              detail_ != emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo.newBuilder((emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo.newBuilder((emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -842,36 +842,36 @@ public final class NKAONFBNGMIOuterClass {
       /**
        * <code>._CreateLocalGadgetFailInfo create_local_gadget_fail_info = 4;</code>
        */
-      public emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo.Builder getCreateLocalGadgetFailInfoBuilder() {
+      public emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo.Builder getCreateLocalGadgetFailInfoBuilder() {
         return getCreateLocalGadgetFailInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._CreateLocalGadgetFailInfo create_local_gadget_fail_info = 4;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfoOrBuilder getCreateLocalGadgetFailInfoOrBuilder() {
+      public emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfoOrBuilder getCreateLocalGadgetFailInfoOrBuilder() {
         if ((detailCase_ == 4) && (createLocalGadgetFailInfoBuilder_ != null)) {
           return createLocalGadgetFailInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 4) {
-            return (emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo) detail_;
+            return (emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo) detail_;
           }
-          return emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._CreateLocalGadgetFailInfo create_local_gadget_fail_info = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo, emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo.Builder, emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfoOrBuilder> 
+          emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo, emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo.Builder, emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfoOrBuilder> 
           getCreateLocalGadgetFailInfoFieldBuilder() {
         if (createLocalGadgetFailInfoBuilder_ == null) {
           if (!(detailCase_ == 4)) {
-            detail_ = emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo.getDefaultInstance();
           }
           createLocalGadgetFailInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo, emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo.Builder, emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.CreateLocalGadgetFailInfo._CreateLocalGadgetFailInfo) detail_,
+              emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo, emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo.Builder, emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass._CreateLocalGadgetFailInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1103,13 +1103,14 @@ public final class NKAONFBNGMIOuterClass {
       "cal_gadget_fail_info\030\004 \001(\0132\033._CreateLoca" +
       "lGadgetFailInfoH\000\022!\n\013EEDDIJJOCFM\030\r \001(\0132\014" +
       ".IFMIEJICEMA\022\023\n\013LDAODDFLPGB\030\016 \001(\rB\010\n\006det" +
-      "ailB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "ailB2\n\031emu.grasscutter.net.protoB\025NKAONF" +
+      "BNGMIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.CreateLocalGadgetFailInfo.getDescriptor(),
+          emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass.getDescriptor(),
         });
     internal_static_NKAONFBNGMI_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1118,7 +1119,7 @@ public final class NKAONFBNGMIOuterClass {
         internal_static_NKAONFBNGMI_descriptor,
         new java.lang.String[] { "EntityId", "CreateLocalGadgetFailInfo", "EEDDIJJOCFM", "LDAODDFLPGB", "Detail", });
     emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.CreateLocalGadgetFailInfo.getDescriptor();
+    emu.grasscutter.net.proto._CreateLocalGadgetFailInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

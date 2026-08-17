@@ -658,8 +658,9 @@ public final class ActivityShopSheetInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033ActivityShopSheetInfo.proto\"O\n\025Activit" +
       "yShopSheetInfo\022\022\n\nbegin_time\030\006 \001(\r\022\020\n\010sh" +
-      "eet_id\030\013 \001(\r\022\020\n\010end_time\030\016 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "eet_id\030\013 \001(\r\022\020\n\010end_time\030\016 \001(\rB<\n\031emu.gr" +
+      "asscutter.net.protoB\037ActivityShopSheetIn" +
+      "foOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

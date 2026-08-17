@@ -652,8 +652,8 @@ public final class NAHKGEKJIPBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NAHKGEKJIPB.proto\"#\n\013NAHKGEKJIPB\022\024\n\014ma" +
-      "il_id_list\030\017 \003(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "il_id_list\030\017 \003(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025NAHKGEKJIPBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

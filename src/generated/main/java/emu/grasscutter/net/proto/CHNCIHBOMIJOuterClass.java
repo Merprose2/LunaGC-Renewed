@@ -595,8 +595,9 @@ public final class CHNCIHBOMIJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CHNCIHBOMIJ.proto\"3\n\013CHNCIHBOMIJ\022\023\n\013GM" +
-      "CNBFOHLMA\030\006 \001(\r\022\017\n\007retcode\030\010 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "CNBFOHLMA\030\006 \001(\r\022\017\n\007retcode\030\010 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025CHNCIHBOMIJOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

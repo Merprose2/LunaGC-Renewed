@@ -903,8 +903,9 @@ public final class ActivityScheduleInfoNotifyOuterClass {
       "vityScheduleInfo.proto\"t\n\032ActivitySchedu" +
       "leInfoNotify\0225\n\026activity_schedule_list\030\t" +
       " \003(\0132\025.ActivityScheduleInfo\022\037\n\027remain_fl" +
-      "y_sea_lamp_num\030\016 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "y_sea_lamp_num\030\016 \001(\rBA\n\031emu.grasscutter." +
+      "net.protoB$ActivityScheduleInfoNotifyOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

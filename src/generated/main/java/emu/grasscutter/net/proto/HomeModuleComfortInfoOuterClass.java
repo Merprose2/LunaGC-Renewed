@@ -786,8 +786,9 @@ public final class HomeModuleComfortInfoOuterClass {
       "\n\033HomeModuleComfortInfo.proto\"z\n\025HomeMod" +
       "uleComfortInfo\022\021\n\tmodule_id\030\004 \001(\r\022 \n\030roo" +
       "m_scene_comfort_value\030\014 \001(\r\022,\n$world_sce" +
-      "ne_block_comfort_value_list\030\017 \003(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "ne_block_comfort_value_list\030\017 \003(\rB<\n\031emu" +
+      ".grasscutter.net.protoB\037HomeModuleComfor" +
+      "tInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

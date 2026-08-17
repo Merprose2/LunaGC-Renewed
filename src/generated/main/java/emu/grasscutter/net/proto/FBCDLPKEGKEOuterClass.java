@@ -722,8 +722,9 @@ public final class FBCDLPKEGKEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FBCDLPKEGKE.proto\"5\n\013FBCDLPKEGKE\022\027\n\017pl" +
-      "ayer_uid_list\030\001 \003(\r\022\r\n\005param\030\016 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ayer_uid_list\030\001 \003(\r\022\r\n\005param\030\016 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025FBCDLPKEGKEOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1409,7 +1409,8 @@ public final class GCGTavernNpcInfoNotifyOuterClass {
       "y\022&\n\013GCHHAJFPGDN\030\004 \003(\0132\021.GCGTavernNpcInf" +
       "o\022(\n\rcharacter_npc\030\007 \001(\0132\021.GCGTavernNpcI" +
       "nfo\022&\n\013KGJGHMDBEJI\030\017 \003(\0132\021.GCGTavernNpcI" +
-      "nfoB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "nfoB=\n\031emu.grasscutter.net.protoB GCGTav" +
+      "ernNpcInfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

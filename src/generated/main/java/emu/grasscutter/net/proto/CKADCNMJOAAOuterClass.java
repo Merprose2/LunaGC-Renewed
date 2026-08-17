@@ -595,8 +595,9 @@ public final class CKADCNMJOAAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CKADCNMJOAA.proto\"7\n\013CKADCNMJOAA\022\023\n\013BP" +
-      "EDNCMLPOD\030\002 \001(\r\022\023\n\013AAGMBKCMGCG\030\r \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "EDNCMLPOD\030\002 \001(\r\022\023\n\013AAGMBKCMGCG\030\r \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025CKADCNMJOAAOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

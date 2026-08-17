@@ -832,8 +832,9 @@ public final class ClientCollectorDataNotifyOuterClass {
       "\n\037ClientCollectorDataNotify.proto\032\031Clien" +
       "tCollectorData.proto\"U\n\031ClientCollectorD" +
       "ataNotify\0228\n\032client_collector_data_list\030" +
-      "\001 \003(\0132\024.ClientCollectorDataB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\001 \003(\0132\024.ClientCollectorDataB@\n\031emu.grass" +
+      "cutter.net.protoB#ClientCollectorDataNot" +
+      "ifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

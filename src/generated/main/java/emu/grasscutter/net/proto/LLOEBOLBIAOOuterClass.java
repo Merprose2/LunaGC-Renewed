@@ -21,12 +21,12 @@ public final class LLOEBOLBIAOOuterClass {
     /**
      * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> 
+    java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> 
         getCostumeSetListList();
     /**
      * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
      */
-    emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getCostumeSetList(int index);
+    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getCostumeSetList(int index);
     /**
      * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
      */
@@ -34,12 +34,12 @@ public final class LLOEBOLBIAOOuterClass {
     /**
      * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> 
         getCostumeSetListOrBuilderList();
     /**
      * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
      */
-    emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getCostumeSetListOrBuilder(
+    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getCostumeSetListOrBuilder(
         int index);
 
     /**
@@ -101,11 +101,11 @@ public final class LLOEBOLBIAOOuterClass {
               break;
             case 58: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                CostumeSetList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo>();
+                CostumeSetList_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               CostumeSetList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.parser(), extensionRegistry));
               break;
             }
             case 80: {
@@ -149,19 +149,19 @@ public final class LLOEBOLBIAOOuterClass {
     }
 
     public static final int _COSTUME_SET_LIST_FIELD_NUMBER = 7;
-    private java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> CostumeSetList_;
+    private java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> CostumeSetList_;
     /**
      * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> getCostumeSetListList() {
+    public java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> getCostumeSetListList() {
       return CostumeSetList_;
     }
     /**
      * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> 
         getCostumeSetListOrBuilderList() {
       return CostumeSetList_;
     }
@@ -176,14 +176,14 @@ public final class LLOEBOLBIAOOuterClass {
      * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getCostumeSetList(int index) {
+    public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getCostumeSetList(int index) {
       return CostumeSetList_.get(index);
     }
     /**
      * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getCostumeSetListOrBuilder(
+    public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getCostumeSetListOrBuilder(
         int index) {
       return CostumeSetList_.get(index);
     }
@@ -563,22 +563,22 @@ public final class LLOEBOLBIAOOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> CostumeSetList_ =
+      private java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> CostumeSetList_ =
         java.util.Collections.emptyList();
       private void ensureCostumeSetListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          CostumeSetList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo>(CostumeSetList_);
+          CostumeSetList_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo>(CostumeSetList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> CostumeSetListBuilder_;
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> CostumeSetListBuilder_;
 
       /**
        * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> getCostumeSetListList() {
+      public java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> getCostumeSetListList() {
         if (CostumeSetListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(CostumeSetList_);
         } else {
@@ -598,7 +598,7 @@ public final class LLOEBOLBIAOOuterClass {
       /**
        * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getCostumeSetList(int index) {
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getCostumeSetList(int index) {
         if (CostumeSetListBuilder_ == null) {
           return CostumeSetList_.get(index);
         } else {
@@ -609,7 +609,7 @@ public final class LLOEBOLBIAOOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
        */
       public Builder setCostumeSetList(
-          int index, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo value) {
+          int index, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo value) {
         if (CostumeSetListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -626,7 +626,7 @@ public final class LLOEBOLBIAOOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
        */
       public Builder setCostumeSetList(
-          int index, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder builderForValue) {
         if (CostumeSetListBuilder_ == null) {
           ensureCostumeSetListIsMutable();
           CostumeSetList_.set(index, builderForValue.build());
@@ -639,7 +639,7 @@ public final class LLOEBOLBIAOOuterClass {
       /**
        * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
        */
-      public Builder addCostumeSetList(emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo value) {
+      public Builder addCostumeSetList(emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo value) {
         if (CostumeSetListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -656,7 +656,7 @@ public final class LLOEBOLBIAOOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
        */
       public Builder addCostumeSetList(
-          int index, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo value) {
+          int index, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo value) {
         if (CostumeSetListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -673,7 +673,7 @@ public final class LLOEBOLBIAOOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
        */
       public Builder addCostumeSetList(
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder builderForValue) {
         if (CostumeSetListBuilder_ == null) {
           ensureCostumeSetListIsMutable();
           CostumeSetList_.add(builderForValue.build());
@@ -687,7 +687,7 @@ public final class LLOEBOLBIAOOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
        */
       public Builder addCostumeSetList(
-          int index, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder builderForValue) {
         if (CostumeSetListBuilder_ == null) {
           ensureCostumeSetListIsMutable();
           CostumeSetList_.add(index, builderForValue.build());
@@ -701,7 +701,7 @@ public final class LLOEBOLBIAOOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
        */
       public Builder addAllCostumeSetList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> values) {
         if (CostumeSetListBuilder_ == null) {
           ensureCostumeSetListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -741,14 +741,14 @@ public final class LLOEBOLBIAOOuterClass {
       /**
        * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder getCostumeSetListBuilder(
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder getCostumeSetListBuilder(
           int index) {
         return getCostumeSetListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getCostumeSetListOrBuilder(
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getCostumeSetListOrBuilder(
           int index) {
         if (CostumeSetListBuilder_ == null) {
           return CostumeSetList_.get(index);  } else {
@@ -758,7 +758,7 @@ public final class LLOEBOLBIAOOuterClass {
       /**
        * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> 
            getCostumeSetListOrBuilderList() {
         if (CostumeSetListBuilder_ != null) {
           return CostumeSetListBuilder_.getMessageOrBuilderList();
@@ -769,31 +769,31 @@ public final class LLOEBOLBIAOOuterClass {
       /**
        * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder addCostumeSetListBuilder() {
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder addCostumeSetListBuilder() {
         return getCostumeSetListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder addCostumeSetListBuilder(
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder addCostumeSetListBuilder(
           int index) {
         return getCostumeSetListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondCostumeSetInfo _costume_set_list = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder> 
            getCostumeSetListBuilderList() {
         return getCostumeSetListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> 
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> 
           getCostumeSetListFieldBuilder() {
         if (CostumeSetListBuilder_ == null) {
           CostumeSetListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder>(
+              emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder>(
                   CostumeSetList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -903,13 +903,13 @@ public final class LLOEBOLBIAOOuterClass {
       "\n\021LLOEBOLBIAO.proto\032\033_BeyondCostumeSetIn" +
       "fo.proto\"U\n\013LLOEBOLBIAO\0221\n\021_costume_set_" +
       "list\030\007 \003(\0132\026._BeyondCostumeSetInfo\022\023\n\013av" +
-      "atar_guid\030\n \001(\004B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "atar_guid\030\n \001(\004B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025LLOEBOLBIAOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass.getDescriptor(),
         });
     internal_static_LLOEBOLBIAO_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -917,7 +917,7 @@ public final class LLOEBOLBIAOOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_LLOEBOLBIAO_descriptor,
         new java.lang.String[] { "CostumeSetList", "AvatarGuid", });
-    emu.grasscutter.net.proto.BeyondCostumeSetInfo.getDescriptor();
+    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

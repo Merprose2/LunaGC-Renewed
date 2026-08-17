@@ -965,8 +965,9 @@ public final class InvestigationTargetOuterClass {
       "al_progress\030\r \001(\r\022)\n\005state\030\017 \001(\0162\032.Inves" +
       "tigationTarget.State\"]\n\005State\022\021\n\rState_I" +
       "NVALID\020\000\022\025\n\021State_IN_PROGRESS\020\001\022\022\n\016State" +
-      "_COMPLETE\020\002\022\026\n\022State_REWARD_TAKEN\020\003B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "_COMPLETE\020\002\022\026\n\022State_REWARD_TAKEN\020\003B:\n\031e" +
+      "mu.grasscutter.net.protoB\035InvestigationT" +
+      "argetOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -53,11 +53,11 @@ public final class MDLFAMJDGJEOuterClass {
      * <code>._LockTypeConfigBySector lock_type_config_by_sector = 11;</code>
      * @return The lockTypeConfigBySector.
      */
-    emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector getLockTypeConfigBySector();
+    emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector getLockTypeConfigBySector();
     /**
      * <code>._LockTypeConfigBySector lock_type_config_by_sector = 11;</code>
      */
-    emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySectorOrBuilder getLockTypeConfigBySectorOrBuilder();
+    emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySectorOrBuilder getLockTypeConfigBySectorOrBuilder();
 
     /**
      * <code>._LockTypeConfigByCylinder lock_type_config_by_cylinder = 12;</code>
@@ -68,11 +68,11 @@ public final class MDLFAMJDGJEOuterClass {
      * <code>._LockTypeConfigByCylinder lock_type_config_by_cylinder = 12;</code>
      * @return The lockTypeConfigByCylinder.
      */
-    emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder getLockTypeConfigByCylinder();
+    emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder getLockTypeConfigByCylinder();
     /**
      * <code>._LockTypeConfigByCylinder lock_type_config_by_cylinder = 12;</code>
      */
-    emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinderOrBuilder getLockTypeConfigByCylinderOrBuilder();
+    emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinderOrBuilder getLockTypeConfigByCylinderOrBuilder();
 
     public emu.grasscutter.net.proto.MDLFAMJDGJEOuterClass.MDLFAMJDGJE.DetailCase getDetailCase();
   }
@@ -142,28 +142,28 @@ public final class MDLFAMJDGJEOuterClass {
               break;
             }
             case 90: {
-              emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector.Builder subBuilder = null;
+              emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector.Builder subBuilder = null;
               if (detailCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 11;
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder.Builder subBuilder = null;
+              emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder.Builder subBuilder = null;
               if (detailCase_ == 12) {
-                subBuilder = ((emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 12;
@@ -301,21 +301,21 @@ public final class MDLFAMJDGJEOuterClass {
      * @return The lockTypeConfigBySector.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector getLockTypeConfigBySector() {
+    public emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector getLockTypeConfigBySector() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector) detail_;
+         return (emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector) detail_;
       }
-      return emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector.getDefaultInstance();
+      return emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector.getDefaultInstance();
     }
     /**
      * <code>._LockTypeConfigBySector lock_type_config_by_sector = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySectorOrBuilder getLockTypeConfigBySectorOrBuilder() {
+    public emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySectorOrBuilder getLockTypeConfigBySectorOrBuilder() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector) detail_;
+         return (emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector) detail_;
       }
-      return emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector.getDefaultInstance();
+      return emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector.getDefaultInstance();
     }
 
     public static final int LOCK_TYPE_CONFIG_BY_CYLINDER_FIELD_NUMBER = 12;
@@ -332,21 +332,21 @@ public final class MDLFAMJDGJEOuterClass {
      * @return The lockTypeConfigByCylinder.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder getLockTypeConfigByCylinder() {
+    public emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder getLockTypeConfigByCylinder() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder) detail_;
+         return (emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder) detail_;
       }
-      return emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder.getDefaultInstance();
+      return emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder.getDefaultInstance();
     }
     /**
      * <code>._LockTypeConfigByCylinder lock_type_config_by_cylinder = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinderOrBuilder getLockTypeConfigByCylinderOrBuilder() {
+    public emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinderOrBuilder getLockTypeConfigByCylinderOrBuilder() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder) detail_;
+         return (emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder) detail_;
       }
-      return emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder.getDefaultInstance();
+      return emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -370,10 +370,10 @@ public final class MDLFAMJDGJEOuterClass {
         output.writeMessage(2, getOLIPGCONBJC());
       }
       if (detailCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector) detail_);
+        output.writeMessage(11, (emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector) detail_);
       }
       if (detailCase_ == 12) {
-        output.writeMessage(12, (emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder) detail_);
+        output.writeMessage(12, (emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -394,11 +394,11 @@ public final class MDLFAMJDGJEOuterClass {
       }
       if (detailCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector) detail_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector) detail_);
       }
       if (detailCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder) detail_);
+          .computeMessageSize(12, (emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -938,7 +938,7 @@ public final class MDLFAMJDGJEOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector, emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector.Builder, emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySectorOrBuilder> lockTypeConfigBySectorBuilder_;
+          emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector, emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector.Builder, emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySectorOrBuilder> lockTypeConfigBySectorBuilder_;
       /**
        * <code>._LockTypeConfigBySector lock_type_config_by_sector = 11;</code>
        * @return Whether the lockTypeConfigBySector field is set.
@@ -952,23 +952,23 @@ public final class MDLFAMJDGJEOuterClass {
        * @return The lockTypeConfigBySector.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector getLockTypeConfigBySector() {
+      public emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector getLockTypeConfigBySector() {
         if (lockTypeConfigBySectorBuilder_ == null) {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector) detail_;
+            return (emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector) detail_;
           }
-          return emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector.getDefaultInstance();
+          return emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector.getDefaultInstance();
         } else {
           if (detailCase_ == 11) {
             return lockTypeConfigBySectorBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector.getDefaultInstance();
+          return emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector.getDefaultInstance();
         }
       }
       /**
        * <code>._LockTypeConfigBySector lock_type_config_by_sector = 11;</code>
        */
-      public Builder setLockTypeConfigBySector(emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector value) {
+      public Builder setLockTypeConfigBySector(emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector value) {
         if (lockTypeConfigBySectorBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -985,7 +985,7 @@ public final class MDLFAMJDGJEOuterClass {
        * <code>._LockTypeConfigBySector lock_type_config_by_sector = 11;</code>
        */
       public Builder setLockTypeConfigBySector(
-          emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector.Builder builderForValue) {
+          emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector.Builder builderForValue) {
         if (lockTypeConfigBySectorBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -998,11 +998,11 @@ public final class MDLFAMJDGJEOuterClass {
       /**
        * <code>._LockTypeConfigBySector lock_type_config_by_sector = 11;</code>
        */
-      public Builder mergeLockTypeConfigBySector(emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector value) {
+      public Builder mergeLockTypeConfigBySector(emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector value) {
         if (lockTypeConfigBySectorBuilder_ == null) {
           if (detailCase_ == 11 &&
-              detail_ != emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector.newBuilder((emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector) detail_)
+              detail_ != emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector.newBuilder((emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1039,36 +1039,36 @@ public final class MDLFAMJDGJEOuterClass {
       /**
        * <code>._LockTypeConfigBySector lock_type_config_by_sector = 11;</code>
        */
-      public emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector.Builder getLockTypeConfigBySectorBuilder() {
+      public emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector.Builder getLockTypeConfigBySectorBuilder() {
         return getLockTypeConfigBySectorFieldBuilder().getBuilder();
       }
       /**
        * <code>._LockTypeConfigBySector lock_type_config_by_sector = 11;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySectorOrBuilder getLockTypeConfigBySectorOrBuilder() {
+      public emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySectorOrBuilder getLockTypeConfigBySectorOrBuilder() {
         if ((detailCase_ == 11) && (lockTypeConfigBySectorBuilder_ != null)) {
           return lockTypeConfigBySectorBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector) detail_;
+            return (emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector) detail_;
           }
-          return emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector.getDefaultInstance();
+          return emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector.getDefaultInstance();
         }
       }
       /**
        * <code>._LockTypeConfigBySector lock_type_config_by_sector = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector, emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector.Builder, emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySectorOrBuilder> 
+          emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector, emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector.Builder, emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySectorOrBuilder> 
           getLockTypeConfigBySectorFieldBuilder() {
         if (lockTypeConfigBySectorBuilder_ == null) {
           if (!(detailCase_ == 11)) {
-            detail_ = emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector.getDefaultInstance();
           }
           lockTypeConfigBySectorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector, emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector.Builder, emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySectorOrBuilder>(
-                  (emu.grasscutter.net.proto.LockTypeConfigBySector._LockTypeConfigBySector) detail_,
+              emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector, emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector.Builder, emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySectorOrBuilder>(
+                  (emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass._LockTypeConfigBySector) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1079,7 +1079,7 @@ public final class MDLFAMJDGJEOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder, emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder.Builder, emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinderOrBuilder> lockTypeConfigByCylinderBuilder_;
+          emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder, emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder.Builder, emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinderOrBuilder> lockTypeConfigByCylinderBuilder_;
       /**
        * <code>._LockTypeConfigByCylinder lock_type_config_by_cylinder = 12;</code>
        * @return Whether the lockTypeConfigByCylinder field is set.
@@ -1093,23 +1093,23 @@ public final class MDLFAMJDGJEOuterClass {
        * @return The lockTypeConfigByCylinder.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder getLockTypeConfigByCylinder() {
+      public emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder getLockTypeConfigByCylinder() {
         if (lockTypeConfigByCylinderBuilder_ == null) {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder) detail_;
+            return (emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder) detail_;
           }
-          return emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder.getDefaultInstance();
+          return emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder.getDefaultInstance();
         } else {
           if (detailCase_ == 12) {
             return lockTypeConfigByCylinderBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder.getDefaultInstance();
+          return emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder.getDefaultInstance();
         }
       }
       /**
        * <code>._LockTypeConfigByCylinder lock_type_config_by_cylinder = 12;</code>
        */
-      public Builder setLockTypeConfigByCylinder(emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder value) {
+      public Builder setLockTypeConfigByCylinder(emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder value) {
         if (lockTypeConfigByCylinderBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1126,7 +1126,7 @@ public final class MDLFAMJDGJEOuterClass {
        * <code>._LockTypeConfigByCylinder lock_type_config_by_cylinder = 12;</code>
        */
       public Builder setLockTypeConfigByCylinder(
-          emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder.Builder builderForValue) {
+          emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder.Builder builderForValue) {
         if (lockTypeConfigByCylinderBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1139,11 +1139,11 @@ public final class MDLFAMJDGJEOuterClass {
       /**
        * <code>._LockTypeConfigByCylinder lock_type_config_by_cylinder = 12;</code>
        */
-      public Builder mergeLockTypeConfigByCylinder(emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder value) {
+      public Builder mergeLockTypeConfigByCylinder(emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder value) {
         if (lockTypeConfigByCylinderBuilder_ == null) {
           if (detailCase_ == 12 &&
-              detail_ != emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder.newBuilder((emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder) detail_)
+              detail_ != emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder.newBuilder((emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1180,36 +1180,36 @@ public final class MDLFAMJDGJEOuterClass {
       /**
        * <code>._LockTypeConfigByCylinder lock_type_config_by_cylinder = 12;</code>
        */
-      public emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder.Builder getLockTypeConfigByCylinderBuilder() {
+      public emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder.Builder getLockTypeConfigByCylinderBuilder() {
         return getLockTypeConfigByCylinderFieldBuilder().getBuilder();
       }
       /**
        * <code>._LockTypeConfigByCylinder lock_type_config_by_cylinder = 12;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinderOrBuilder getLockTypeConfigByCylinderOrBuilder() {
+      public emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinderOrBuilder getLockTypeConfigByCylinderOrBuilder() {
         if ((detailCase_ == 12) && (lockTypeConfigByCylinderBuilder_ != null)) {
           return lockTypeConfigByCylinderBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder) detail_;
+            return (emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder) detail_;
           }
-          return emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder.getDefaultInstance();
+          return emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder.getDefaultInstance();
         }
       }
       /**
        * <code>._LockTypeConfigByCylinder lock_type_config_by_cylinder = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder, emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder.Builder, emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinderOrBuilder> 
+          emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder, emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder.Builder, emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinderOrBuilder> 
           getLockTypeConfigByCylinderFieldBuilder() {
         if (lockTypeConfigByCylinderBuilder_ == null) {
           if (!(detailCase_ == 12)) {
-            detail_ = emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder.getDefaultInstance();
           }
           lockTypeConfigByCylinderBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder, emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder.Builder, emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinderOrBuilder>(
-                  (emu.grasscutter.net.proto.LockTypeConfigByCylinder._LockTypeConfigByCylinder) detail_,
+              emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder, emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder.Builder, emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinderOrBuilder>(
+                  (emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass._LockTypeConfigByCylinder) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1293,16 +1293,17 @@ public final class MDLFAMJDGJEOuterClass {
       "HCFPEKM\022>\n\032lock_type_config_by_sector\030\013 " +
       "\001(\0132\030._LockTypeConfigBySectorH\000\022B\n\034lock_" +
       "type_config_by_cylinder\030\014 \001(\0132\032._LockTyp" +
-      "eConfigByCylinderH\000B\010\n\006detailB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "eConfigByCylinderH\000B\010\n\006detailB2\n\031emu.gra" +
+      "sscutter.net.protoB\025MDLFAMJDGJEOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.GMCKNLMGBNNOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.HHEDHCFPEKMOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.LockTypeConfigByCylinder.getDescriptor(),
-          emu.grasscutter.net.proto.LockTypeConfigBySector.getDescriptor(),
+          emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass.getDescriptor(),
         });
     internal_static_MDLFAMJDGJE_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1312,8 +1313,8 @@ public final class MDLFAMJDGJEOuterClass {
         new java.lang.String[] { "OBGGFMHLMIC", "OLIPGCONBJC", "LockTypeConfigBySector", "LockTypeConfigByCylinder", "Detail", });
     emu.grasscutter.net.proto.GMCKNLMGBNNOuterClass.getDescriptor();
     emu.grasscutter.net.proto.HHEDHCFPEKMOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.LockTypeConfigByCylinder.getDescriptor();
-    emu.grasscutter.net.proto.LockTypeConfigBySector.getDescriptor();
+    emu.grasscutter.net.proto._LockTypeConfigByCylinderOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._LockTypeConfigBySectorOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

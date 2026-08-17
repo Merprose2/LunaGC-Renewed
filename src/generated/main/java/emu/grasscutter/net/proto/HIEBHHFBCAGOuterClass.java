@@ -596,7 +596,8 @@ public final class HIEBHHFBCAGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HIEBHHFBCAG.proto\"<\n\013HIEBHHFBCAG\022\023\n\013IE" +
       "MLJHDCJHB\030\001 \001(\r\022\030\n\020gadget_entity_id\030\016 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB2\n\031emu.grasscutter.net.protoB\025HIEBHHFB" +
+      "CAGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

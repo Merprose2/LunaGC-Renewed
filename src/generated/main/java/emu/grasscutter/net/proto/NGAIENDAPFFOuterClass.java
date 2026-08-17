@@ -651,7 +651,8 @@ public final class NGAIENDAPFFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NGAIENDAPFF.proto\032\021NFDBHAHLEIN.proto\")" +
       "\n\013NGAIENDAPFF\022\032\n\004data\030\001 \001(\0132\014.NFDBHAHLEI" +
-      "NB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "NB2\n\031emu.grasscutter.net.protoB\025NGAIENDA" +
+      "PFFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

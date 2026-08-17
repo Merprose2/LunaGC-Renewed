@@ -654,7 +654,9 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
       "\n*AllWidgetBackgroundActiveStateNotify.p" +
       "roto\"M\n$AllWidgetBackgroundActiveStateNo" +
       "tify\022%\n\035background_active_widget_list\030\002 " +
-      "\003(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\003(\rBK\n\031emu.grasscutter.net.protoB.AllWid" +
+      "getBackgroundActiveStateNotifyOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

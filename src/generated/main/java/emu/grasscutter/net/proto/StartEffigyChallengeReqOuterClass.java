@@ -864,8 +864,9 @@ public final class StartEffigyChallengeReqOuterClass {
       "\n\035StartEffigyChallengeReq.proto\"s\n\027Start" +
       "EffigyChallengeReq\022\024\n\014challenge_id\030\001 \001(\r" +
       "\022\025\n\rdifficulty_id\030\002 \001(\r\022\020\n\010point_id\030\003 \001(" +
-      "\r\022\031\n\021condition_id_list\030\016 \003(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\r\022\031\n\021condition_id_list\030\016 \003(\rB>\n\031emu.gras" +
+      "scutter.net.protoB!StartEffigyChallengeR" +
+      "eqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

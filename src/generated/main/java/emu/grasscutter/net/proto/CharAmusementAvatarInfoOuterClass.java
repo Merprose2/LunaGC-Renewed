@@ -785,8 +785,9 @@ public final class CharAmusementAvatarInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035CharAmusementAvatarInfo.proto\"S\n\027CharA" +
       "musementAvatarInfo\022\013\n\003uid\030\006 \001(\r\022\026\n\016avata" +
-      "r_id_list\030\010 \003(\r\022\023\n\013punish_time\030\r \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "r_id_list\030\010 \003(\r\022\023\n\013punish_time\030\r \001(\rB>\n\031" +
+      "emu.grasscutter.net.protoB!CharAmusement" +
+      "AvatarInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

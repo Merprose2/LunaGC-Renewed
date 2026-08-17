@@ -633,8 +633,9 @@ public final class JIGLGFPIFKHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JIGLGFPIFKH.proto\032\023ResinCostType.proto" +
       "\"G\n\013JIGLGFPIFKH\022\023\n\013EBEELPIEKEL\030\010 \001(\r\022#\n\013" +
-      "NBMECPHKFDC\030\013 \001(\0162\016.ResinCostTypeB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "NBMECPHKFDC\030\013 \001(\0162\016.ResinCostTypeB2\n\031emu" +
+      ".grasscutter.net.protoB\025JIGLGFPIFKHOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

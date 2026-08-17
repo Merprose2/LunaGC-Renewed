@@ -659,8 +659,9 @@ public final class SceneGallerySumoInfoOuterClass {
       "\n\032SceneGallerySumoInfo.proto\"f\n\024SceneGal" +
       "lerySumoInfo\022\036\n\026kill_elite_monster_num\030\006" +
       " \001(\r\022\037\n\027kill_normal_mosnter_num\030\007 \001(\r\022\r\n" +
-      "\005score\030\014 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\005score\030\014 \001(\rB;\n\031emu.grasscutter.net.prot" +
+      "oB\036SceneGallerySumoInfoOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

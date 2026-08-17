@@ -1267,8 +1267,9 @@ public final class JEOLMPKMJEAOuterClass {
       "\n\021JEOLMPKMJEA.proto\032\021IKHNFCKKIFI.proto\"h" +
       "\n\013JEOLMPKMJEA\022\023\n\013LHPPGGKCPKO\030\002 \001(\010\022!\n\013EA" +
       "NBHODFLOK\030\003 \003(\0132\014.IKHNFCKKIFI\022!\n\013HIKFAEM" +
-      "FNPA\030\004 \003(\0132\014.IKHNFCKKIFIB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "FNPA\030\004 \003(\0132\014.IKHNFCKKIFIB2\n\031emu.grasscut" +
+      "ter.net.protoB\025JEOLMPKMJEAOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

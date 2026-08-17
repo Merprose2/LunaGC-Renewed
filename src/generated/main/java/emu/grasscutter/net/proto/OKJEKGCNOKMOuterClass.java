@@ -595,8 +595,9 @@ public final class OKJEKGCNOKMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OKJEKGCNOKM.proto\"3\n\013OKJEKGCNOKM\022\023\n\013AJ" +
-      "IMDIPMGIP\030\n \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "IMDIPMGIP\030\n \001(\r\022\017\n\007retcode\030\017 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025OKJEKGCNOKMOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

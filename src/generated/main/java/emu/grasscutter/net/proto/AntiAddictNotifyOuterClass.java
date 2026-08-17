@@ -826,8 +826,8 @@ public final class AntiAddictNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026AntiAddictNotify.proto\"@\n\020AntiAddictNo" +
       "tify\022\020\n\010msg_type\030\010 \001(\005\022\013\n\003msg\030\n \001(\t\022\r\n\005l" +
-      "evel\030\017 \001(\tB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "evel\030\017 \001(\tB7\n\031emu.grasscutter.net.protoB" +
+      "\032AntiAddictNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

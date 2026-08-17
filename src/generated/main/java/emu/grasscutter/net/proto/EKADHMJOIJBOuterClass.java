@@ -873,7 +873,8 @@ public final class EKADHMJOIJBOuterClass {
       "oto\"t\n\013EKADHMJOIJB\022\023\n\013MIHICCAEFOM\030\002 \001(\004\022" +
       "&\n\013CHJBGGDOLEB\030\014 \001(\0132\021.OnlinePlayerInfo\022" +
       "\023\n\013HDMBGALJFMK\030\r \001(\r\022\023\n\013OIEHJMHHCFB\030\016 \001(" +
-      "\004B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\004B2\n\031emu.grasscutter.net.protoB\025EKADHMJO" +
+      "IJBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

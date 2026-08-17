@@ -793,8 +793,8 @@ public final class MPLevelEntityInfoOuterClass {
       "ateInfo.proto\"n\n\021MPLevelEntityInfo\022+\n\014ab" +
       "ility_info\030\007 \001(\0132\025.AbilitySyncStateInfo\022" +
       "\021\n\tentity_id\030\n \001(\r\022\031\n\021authority_peer_id\030" +
-      "\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\017 \001(\rB8\n\031emu.grasscutter.net.protoB\033MPLe" +
+      "velEntityInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

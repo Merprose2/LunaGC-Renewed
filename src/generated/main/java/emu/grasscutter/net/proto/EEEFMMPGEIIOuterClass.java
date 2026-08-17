@@ -1347,8 +1347,8 @@ public final class EEEFMMPGEIIOuterClass {
       "PMONBCA\022!\n\013FOFOJLDNEBG\030\002 \001(\0162\014.JEOKDCIGC" +
       "FP\022\013\n\003uid\030\003 \001(\r\022\023\n\013DENOPMIGEAB\030\004 \001(\r\022\023\n\013" +
       "APGDMDLAPDJ\030\005 \001(\005\022!\n\013KAGCCBMNHNB\030\t \001(\0132\014" +
-      ".FMCAGNGGHOFB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      ".FMCAGNGGHOFB2\n\031emu.grasscutter.net.prot" +
+      "oB\025EEEFMMPGEIIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -142,8 +142,9 @@ public final class ILELMKGEBKAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ILELMKGEBKA.proto*[\n\013ILELMKGEBKA\022\024\n\020IL" +
       "ELMKGEBKA_NONE\020\000\022\032\n\026ILELMKGEBKA_AREA_LIM" +
-      "IT\020\001\022\032\n\026ILELMKGEBKA_COST_LIMIT\020\002B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "IT\020\001\022\032\n\026ILELMKGEBKA_COST_LIMIT\020\002B2\n\031emu." +
+      "grasscutter.net.protoB\025ILELMKGEBKAOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

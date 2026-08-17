@@ -526,8 +526,9 @@ public final class AvatarUpgradeReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026AvatarUpgradeReq.proto\"\'\n\020AvatarUpgrad" +
-      "eReq\022\023\n\013avatar_guid\030\002 \001(\004B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "eReq\022\023\n\013avatar_guid\030\002 \001(\004B7\n\031emu.grasscu" +
+      "tter.net.protoB\032AvatarUpgradeReqOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

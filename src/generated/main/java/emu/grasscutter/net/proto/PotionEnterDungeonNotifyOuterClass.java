@@ -1114,8 +1114,9 @@ public final class PotionEnterDungeonNotifyOuterClass {
       "onNotify\022\020\n\010stage_id\030\004 \001(\r\022\030\n\020difficulty" +
       "_level\030\010 \001(\r\022\017\n\007mode_id\030\t \001(\r\0221\n\023dungeon" +
       "_avatar_list\030\014 \003(\0132\024.PotionDungeonAvatar" +
-      "\022\020\n\010level_id\030\017 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\022\020\n\010level_id\030\017 \001(\rB?\n\031emu.grasscutter.ne" +
+      "t.protoB\"PotionEnterDungeonNotifyOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

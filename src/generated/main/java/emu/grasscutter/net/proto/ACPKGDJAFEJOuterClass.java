@@ -596,8 +596,9 @@ public final class ACPKGDJAFEJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ACPKGDJAFEJ.proto\"3\n\013ACPKGDJAFEJ\022\017\n\007is" +
-      "_open\030\013 \001(\010\022\023\n\013LPDGDIAFIBB\030\016 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "_open\030\013 \001(\010\022\023\n\013LPDGDIAFIBB\030\016 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025ACPKGDJAFEJOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

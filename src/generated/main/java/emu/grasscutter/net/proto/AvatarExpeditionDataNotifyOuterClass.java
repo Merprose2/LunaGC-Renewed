@@ -785,8 +785,9 @@ public final class AvatarExpeditionDataNotifyOuterClass {
       "(\01322.AvatarExpeditionDataNotify.Expediti" +
       "onInfoMapEntry\032O\n\026ExpeditionInfoMapEntry" +
       "\022\013\n\003key\030\001 \001(\004\022$\n\005value\030\002 \001(\0132\025.AvatarExp" +
-      "editionInfo:\0028\001B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "editionInfo:\0028\001BA\n\031emu.grasscutter.net.p" +
+      "rotoB$AvatarExpeditionDataNotifyOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

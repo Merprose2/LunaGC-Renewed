@@ -1927,8 +1927,9 @@ public final class CreateEntityInfoOuterClass {
       "\022\024\n\003rot\030\007 \001(\0132\007.Vector\022\020\n\010scene_id\030\n \001(\r" +
       "\022\017\n\007room_id\030\013 \001(\r\022\030\n\020client_unique_id\030\014 " +
       "\001(\r\022#\n\006gadget\030\r \001(\0132\021.CreateGadgetInfoH\001" +
-      "B\010\n\006entityB\024\n\022entity_create_infoB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "B\010\n\006entityB\024\n\022entity_create_infoB7\n\031emu." +
+      "grasscutter.net.protoB\032CreateEntityInfoO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -832,8 +832,8 @@ public final class PLOBNAMNGEOOuterClass {
       "\n\021PLOBNAMNGEO.proto\032\021JEOKDCIGCFP.proto\"Z" +
       "\n\013PLOBNAMNGEO\022\023\n\013KELACCGLIKH\030\005 \003(\005\022\023\n\013ML" +
       "MOPGCDEEN\030\010 \001(\004\022!\n\013finish_type\030\013 \001(\0162\014.J" +
-      "EOKDCIGCFPB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "EOKDCIGCFPB2\n\031emu.grasscutter.net.protoB" +
+      "\025PLOBNAMNGEOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

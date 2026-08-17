@@ -1014,7 +1014,8 @@ public final class COCLKEPKNAOOuterClass {
       "o\"v\n\013COCLKEPKNAO\022\014\n\004guid\030\003 \001(\006\022\020\n\010like_n" +
       "um\030\005 \001(\r\022\020\n\010nickname\030\006 \001(\t\022\013\n\003uid\030\007 \001(\r\022" +
       "(\n\017profile_picture\030\010 \001(\0132\017.ProfilePictur" +
-      "eB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "eB2\n\031emu.grasscutter.net.protoB\025COCLKEPK" +
+      "NAOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

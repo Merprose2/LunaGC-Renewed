@@ -564,7 +564,8 @@ public final class ClientReconnectNotifyOuterClass {
       "\n\033ClientReconnectNotify.proto\032\033ClientRec" +
       "onnectReason.proto\"?\n\025ClientReconnectNot" +
       "ify\022&\n\006reason\030\014 \001(\0162\026.ClientReconnectRea" +
-      "sonB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "sonB<\n\031emu.grasscutter.net.protoB\037Client" +
+      "ReconnectNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

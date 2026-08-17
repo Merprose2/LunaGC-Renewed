@@ -908,8 +908,8 @@ public final class MPLJGNOKEFBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MPLJGNOKEFB.proto\"L\n\013MPLJGNOKEFB\022\023\n\013KN" +
       "FDKPPMJKB\030\001 \001(\r\022\023\n\013GEALCGCOBII\030\002 \003(\r\022\023\n\013" +
-      "LAGLGAGKCOM\030\003 \003(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "LAGLGAGKCOM\030\003 \003(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025MPLJGNOKEFBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

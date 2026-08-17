@@ -142,8 +142,9 @@ public final class HEEENDPMDPAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HEEENDPMDPA.proto*Q\n\013HEEENDPMDPA\022\024\n\020HE" +
       "EENDPMDPA_NONE\020\000\022\024\n\020HEEENDPMDPA_HINT\020\001\022\026" +
-      "\n\022HEEENDPMDPA_FINISH\020\002B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\n\022HEEENDPMDPA_FINISH\020\002B2\n\031emu.grasscutte" +
+      "r.net.protoB\025HEEENDPMDPAOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -525,8 +525,8 @@ public final class CNNGOOHKGEBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CNNGOOHKGEB.proto\"!\n\013CNNGOOHKGEB\022\022\n\nga" +
-      "llery_id\030\r \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "llery_id\030\r \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025CNNGOOHKGEBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

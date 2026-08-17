@@ -2747,8 +2747,9 @@ public final class MHLGOALMAJKOuterClass {
       "2\014.MJDEFNOKJMM\022\"\n\013MDIALPEGCPH\030\201\004 \001(\0132\014.M" +
       "NODPLDBOAO\022\024\n\013OLGKBLEFOBB\030\202\004 \001(\010\022\024\n\013DEDP" +
       "GKAJMNJ\030\203\004 \001(\010\022\"\n\013FKKAGHEPMMP\030\204\004 \001(\0132\014.G" +
-      "LLPFPEKPAJ\022\r\n\004name\030\205\004 \001(\tB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "LLPFPEKPAJ\022\r\n\004name\030\205\004 \001(\tB2\n\031emu.grasscu" +
+      "tter.net.protoB\025MHLGOALMAJKOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

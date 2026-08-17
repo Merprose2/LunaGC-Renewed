@@ -662,8 +662,8 @@ public final class NPFNMNICBDLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NPFNMNICBDL.proto\"C\n\013NPFNMNICBDL\022\n\n\002id" +
       "\030\001 \001(\005\022\023\n\013DFPAHNMMEFM\030\002 \001(\002\022\023\n\013DHNJKCJCJ" +
-      "IH\030\003 \001(\002B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "IH\030\003 \001(\002B2\n\031emu.grasscutter.net.protoB\025N" +
+      "PFNMNICBDLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

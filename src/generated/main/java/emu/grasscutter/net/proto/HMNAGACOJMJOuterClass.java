@@ -517,8 +517,8 @@ public final class HMNAGACOJMJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HMNAGACOJMJ.proto\"\037\n\013HMNAGACOJMJ\022\020\n\010ro" +
-      "ute_id\030\001 \001(\005B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "ute_id\030\001 \001(\005B2\n\031emu.grasscutter.net.prot" +
+      "oB\025HMNAGACOJMJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

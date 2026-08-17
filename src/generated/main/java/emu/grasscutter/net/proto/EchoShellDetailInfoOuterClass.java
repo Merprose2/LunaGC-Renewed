@@ -1406,8 +1406,8 @@ public final class EchoShellDetailInfoOuterClass {
       "\022\023\n\013MBGIBFEEOLH\030\003 \003(\r\022\023\n\013FHIALFGIKKC\030\006 \003" +
       "(\r\0228\n\030summer_time_dungeon_list\030\n \003(\0132\026.S" +
       "ummerTimeDungeonInfo\022\031\n\021taken_reward_lis" +
-      "t\030\013 \003(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "t\030\013 \003(\rB:\n\031emu.grasscutter.net.protoB\035Ec" +
+      "hoShellDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

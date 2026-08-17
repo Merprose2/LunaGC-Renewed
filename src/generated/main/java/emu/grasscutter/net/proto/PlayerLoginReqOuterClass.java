@@ -198,11 +198,11 @@ public final class PlayerLoginReqOuterClass {
      * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
      * @return The iHMDHCDBHDJ.
      */
-    emu.grasscutter.net.proto.Vector2Int._Vector2Int getIHMDHCDBHDJ();
+    emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int getIHMDHCDBHDJ();
     /**
      * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
      */
-    emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder getIHMDHCDBHDJOrBuilder();
+    emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder getIHMDHCDBHDJOrBuilder();
 
     /**
      * <code>bool CEADLMGKJMP = 154;</code>
@@ -697,11 +697,11 @@ public final class PlayerLoginReqOuterClass {
               break;
             }
             case 1098: {
-              emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder subBuilder = null;
+              emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder subBuilder = null;
               if (iHMDHCDBHDJ_ != null) {
                 subBuilder = iHMDHCDBHDJ_.toBuilder();
               }
-              iHMDHCDBHDJ_ = input.readMessage(emu.grasscutter.net.proto.Vector2Int._Vector2Int.parser(), extensionRegistry);
+              iHMDHCDBHDJ_ = input.readMessage(emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(iHMDHCDBHDJ_);
                 iHMDHCDBHDJ_ = subBuilder.buildPartial();
@@ -1396,7 +1396,7 @@ public final class PlayerLoginReqOuterClass {
     }
 
     public static final int IHMDHCDBHDJ_FIELD_NUMBER = 137;
-    private emu.grasscutter.net.proto.Vector2Int._Vector2Int iHMDHCDBHDJ_;
+    private emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int iHMDHCDBHDJ_;
     /**
      * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
      * @return Whether the iHMDHCDBHDJ field is set.
@@ -1410,14 +1410,14 @@ public final class PlayerLoginReqOuterClass {
      * @return The iHMDHCDBHDJ.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Vector2Int._Vector2Int getIHMDHCDBHDJ() {
-      return iHMDHCDBHDJ_ == null ? emu.grasscutter.net.proto.Vector2Int._Vector2Int.getDefaultInstance() : iHMDHCDBHDJ_;
+    public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int getIHMDHCDBHDJ() {
+      return iHMDHCDBHDJ_ == null ? emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.getDefaultInstance() : iHMDHCDBHDJ_;
     }
     /**
      * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder getIHMDHCDBHDJOrBuilder() {
+    public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder getIHMDHCDBHDJOrBuilder() {
       return getIHMDHCDBHDJ();
     }
 
@@ -4529,9 +4529,9 @@ public final class PlayerLoginReqOuterClass {
         return dFNBAFNKCEDBuilder_;
       }
 
-      private emu.grasscutter.net.proto.Vector2Int._Vector2Int iHMDHCDBHDJ_;
+      private emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int iHMDHCDBHDJ_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Vector2Int._Vector2Int, emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder, emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder> iHMDHCDBHDJBuilder_;
+          emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder> iHMDHCDBHDJBuilder_;
       /**
        * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
        * @return Whether the iHMDHCDBHDJ field is set.
@@ -4543,9 +4543,9 @@ public final class PlayerLoginReqOuterClass {
        * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
        * @return The iHMDHCDBHDJ.
        */
-      public emu.grasscutter.net.proto.Vector2Int._Vector2Int getIHMDHCDBHDJ() {
+      public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int getIHMDHCDBHDJ() {
         if (iHMDHCDBHDJBuilder_ == null) {
-          return iHMDHCDBHDJ_ == null ? emu.grasscutter.net.proto.Vector2Int._Vector2Int.getDefaultInstance() : iHMDHCDBHDJ_;
+          return iHMDHCDBHDJ_ == null ? emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.getDefaultInstance() : iHMDHCDBHDJ_;
         } else {
           return iHMDHCDBHDJBuilder_.getMessage();
         }
@@ -4553,7 +4553,7 @@ public final class PlayerLoginReqOuterClass {
       /**
        * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
        */
-      public Builder setIHMDHCDBHDJ(emu.grasscutter.net.proto.Vector2Int._Vector2Int value) {
+      public Builder setIHMDHCDBHDJ(emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int value) {
         if (iHMDHCDBHDJBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4570,7 +4570,7 @@ public final class PlayerLoginReqOuterClass {
        * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
        */
       public Builder setIHMDHCDBHDJ(
-          emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder builderForValue) {
+          emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder builderForValue) {
         if (iHMDHCDBHDJBuilder_ == null) {
           iHMDHCDBHDJ_ = builderForValue.build();
           onChanged();
@@ -4583,11 +4583,11 @@ public final class PlayerLoginReqOuterClass {
       /**
        * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
        */
-      public Builder mergeIHMDHCDBHDJ(emu.grasscutter.net.proto.Vector2Int._Vector2Int value) {
+      public Builder mergeIHMDHCDBHDJ(emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int value) {
         if (iHMDHCDBHDJBuilder_ == null) {
           if (iHMDHCDBHDJ_ != null) {
             iHMDHCDBHDJ_ =
-              emu.grasscutter.net.proto.Vector2Int._Vector2Int.newBuilder(iHMDHCDBHDJ_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.newBuilder(iHMDHCDBHDJ_).mergeFrom(value).buildPartial();
           } else {
             iHMDHCDBHDJ_ = value;
           }
@@ -4615,7 +4615,7 @@ public final class PlayerLoginReqOuterClass {
       /**
        * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
        */
-      public emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder getIHMDHCDBHDJBuilder() {
+      public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder getIHMDHCDBHDJBuilder() {
         
         onChanged();
         return getIHMDHCDBHDJFieldBuilder().getBuilder();
@@ -4623,23 +4623,23 @@ public final class PlayerLoginReqOuterClass {
       /**
        * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
        */
-      public emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder getIHMDHCDBHDJOrBuilder() {
+      public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder getIHMDHCDBHDJOrBuilder() {
         if (iHMDHCDBHDJBuilder_ != null) {
           return iHMDHCDBHDJBuilder_.getMessageOrBuilder();
         } else {
           return iHMDHCDBHDJ_ == null ?
-              emu.grasscutter.net.proto.Vector2Int._Vector2Int.getDefaultInstance() : iHMDHCDBHDJ_;
+              emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.getDefaultInstance() : iHMDHCDBHDJ_;
         }
       }
       /**
        * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Vector2Int._Vector2Int, emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder, emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder> 
+          emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder> 
           getIHMDHCDBHDJFieldBuilder() {
         if (iHMDHCDBHDJBuilder_ == null) {
           iHMDHCDBHDJBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.Vector2Int._Vector2Int, emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder, emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder>(
+              emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder>(
                   getIHMDHCDBHDJ(),
                   getParentForChildren(),
                   isClean());
@@ -6604,14 +6604,15 @@ public final class PlayerLoginReqOuterClass {
       "ient_data_version\030\255\014 \001(\r\022\024\n\013BKIICHHOJAF\030" +
       "\267\014 \001(\t\022\024\n\013PDDPLNEPLJJ\030\350\014 \001(\t\022\024\n\013EHINEAJN" +
       "AFK\030\323\r \001(\t\022\037\n\026environment_error_code\030\305\017 " +
-      "\001(\014B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\014B5\n\031emu.grasscutter.net.protoB\030Player" +
+      "LoginReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.ALFKEHMLFLOOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.Vector2Int.getDescriptor(),
+          emu.grasscutter.net.proto._Vector2IntOuterClass.getDescriptor(),
         });
     internal_static_PlayerLoginReq_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -6621,7 +6622,7 @@ public final class PlayerLoginReqOuterClass {
         new java.lang.String[] { "IsGuest", "PlatformType", "TargetUid", "DeviceUuid", "Platform", "Token", "SystemVersion", "ClientVersion", "LanguageType", "DeviceName", "LoginRand", "DeviceInfo", "INIKCPKAFJE", "AccountUid", "IsEditor", "NBFMNCMEHGM", "NEBJEJBGEPD", "DFNBAFNKCED", "IHMDHCDBHDJ", "CEADLMGKJMP", "ChannelId", "Xuid", "Checksum", "PsnId", "Timestamp", "JOJKNGHGACF", "CGMBIAPFHGE", "OnlineId", "OJMCPPOBAOJ", "SecurityLibraryMd5", "Tag", "KJEMCDAJINF", "ECJHHHKAFIO", "GLDDHPBGNAD", "SecurityCmdReply", "ExtraBinData", "HJICNGJMCEL", "XboxGamertag", "MCKNOBKGGEM", "CountryCode", "HPHGKOCDPJE", "Birthday", "ChecksumClientVersion", "LFABPIKDHKL", "Uapc", "HENDBLEDPIG", "PMBCMNHEGHO", "ALMPHOAOJEC", "KDIKBHLPKDJ", "ClientDataVersion", "BKIICHHOJAF", "PDDPLNEPLJJ", "EHINEAJNAFK", "EnvironmentErrorCode", });
     emu.grasscutter.net.proto.ALFKEHMLFLOOuterClass.getDescriptor();
     emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.Vector2Int.getDescriptor();
+    emu.grasscutter.net.proto._Vector2IntOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

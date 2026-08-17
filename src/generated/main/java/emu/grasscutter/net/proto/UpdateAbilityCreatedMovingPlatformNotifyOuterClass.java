@@ -754,8 +754,9 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
       "bilityCreatedMovingPlatformNotify.OpType" +
       "\022\021\n\tentity_id\030\013 \001(\r\"N\n\006OpType\022\022\n\016OpType_" +
       "OP_NONE\020\000\022\026\n\022OpType_OP_ACTIVATE\020\001\022\030\n\024OpT" +
-      "ype_OP_DEACTIVATE\020\002B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "ype_OP_DEACTIVATE\020\002BO\n\031emu.grasscutter.n" +
+      "et.protoB2UpdateAbilityCreatedMovingPlat" +
+      "formNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

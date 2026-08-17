@@ -1377,8 +1377,9 @@ public final class AbilityMetaUpdateTpsWeaponAmmunitionOuterClass {
       "ateTpsWeaponAmmunition\022!\n\013update_type\030\003 " +
       "\001(\0162\014.HKKMBBMAADP\022!\n\013BJMFLPBNDDJ\030\004 \003(\0132\014" +
       ".IBIMPAJBFOP\022!\n\013MEDDMNJOEIC\030\006 \003(\0132\014.ANLN" +
-      "AOGOBFM\022\023\n\013EMAGJIJHBGM\030\t \001(\010B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "AOGOBFM\022\023\n\013EMAGJIJHBGM\030\t \001(\010BK\n\031emu.gras" +
+      "scutter.net.protoB.AbilityMetaUpdateTpsW" +
+      "eaponAmmunitionOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

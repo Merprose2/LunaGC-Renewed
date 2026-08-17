@@ -740,8 +740,9 @@ public final class KJBHHAMONNCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KJBHHAMONNC.proto\"Z\n\013KJBHHAMONNC\022\020\n\010le" +
       "vel_id\030\005 \001(\r\022\017\n\007retcode\030\t \001(\005\022\023\n\013MKDFEKL" +
-      "PJNA\030\013 \001(\002\022\023\n\013OODBPKBLOIC\030\014 \001(\002B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "PJNA\030\013 \001(\002\022\023\n\013OODBPKBLOIC\030\014 \001(\002B2\n\031emu.g" +
+      "rasscutter.net.protoB\025KJBHHAMONNCOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

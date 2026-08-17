@@ -1044,8 +1044,8 @@ public final class LGBLOGFHCIJOuterClass {
       "\n\021LGBLOGFHCIJ.proto\032\021HIKLHLFDJKC.proto\"W" +
       "\n\013LGBLOGFHCIJ\022\020\n\010group_id\030\001 \001(\r\022!\n\013NCHCN" +
       "OPEJHK\030\002 \003(\0132\014.HIKLHLFDJKC\022\023\n\013IENEGFFPHH" +
-      "O\030\003 \001(\tB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "O\030\003 \001(\tB2\n\031emu.grasscutter.net.protoB\025LG" +
+      "BLOGFHCIJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

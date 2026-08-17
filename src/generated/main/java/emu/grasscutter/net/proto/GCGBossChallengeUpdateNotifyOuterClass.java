@@ -660,8 +660,9 @@ public final class GCGBossChallengeUpdateNotifyOuterClass {
       "\n\"GCGBossChallengeUpdateNotify.proto\032\032GC" +
       "GBossChallengeData.proto\"M\n\034GCGBossChall" +
       "engeUpdateNotify\022-\n\016boss_challenge\030\007 \001(\013" +
-      "2\025.GCGBossChallengeDataB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "2\025.GCGBossChallengeDataBC\n\031emu.grasscutt" +
+      "er.net.protoB&GCGBossChallengeUpdateNoti" +
+      "fyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

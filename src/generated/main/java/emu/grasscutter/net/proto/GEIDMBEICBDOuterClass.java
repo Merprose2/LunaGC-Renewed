@@ -730,8 +730,9 @@ public final class GEIDMBEICBDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GEIDMBEICBD.proto\032\021EILJLANKAMB.proto\"E" +
       "\n\013GEIDMBEICBD\022\023\n\013EHHDDBHJAKB\030\001 \001(\010\022!\n\013EH" +
-      "FCIKLMMLH\030\n \001(\0132\014.EILJLANKAMBB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "FCIKLMMLH\030\n \001(\0132\014.EILJLANKAMBB2\n\031emu.gra" +
+      "sscutter.net.protoB\025GEIDMBEICBDOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

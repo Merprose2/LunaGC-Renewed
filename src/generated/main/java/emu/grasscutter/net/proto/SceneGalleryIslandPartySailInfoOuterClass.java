@@ -1017,8 +1017,9 @@ public final class SceneGalleryIslandPartySailInfoOuterClass {
       "FAGLF\030\006 \001(\r\022$\n\005stage\030\007 \001(\0162\025.IslandParty" +
       "SailStage\022\023\n\013PKFDBKHOFPG\030\010 \001(\r\022\014\n\004coin\030\t" +
       " \001(\r\022)\n\014start_source\030\013 \001(\0162\023.GalleryStar" +
-      "tSource\022\023\n\013HJBPEMNJMIL\030\014 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "tSource\022\023\n\013HJBPEMNJMIL\030\014 \001(\rBF\n\031emu.gras" +
+      "scutter.net.protoB)SceneGalleryIslandPar" +
+      "tySailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

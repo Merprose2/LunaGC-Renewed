@@ -4089,8 +4089,9 @@ public final class NDDMCOHHPPFOuterClass {
       "HCJFPAHE\030\027 \001(\0132\014.MLOLNDOIDBC\022!\n\013MMEMJHJD" +
       "PDK\030\030 \001(\0132\014.MLOLNDOIDBC\022\023\n\013GBALHANOIFC\030\031" +
       " \001(\010\022\"\n\013PLLOOEPCNED\030\365\003 \003(\0132\014.DJBMANEIBCN" +
-      "\022\024\n\013DCNFOOLDDLF\030\351\007 \001(\010B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\022\024\n\013DCNFOOLDDLF\030\351\007 \001(\010B2\n\031emu.grasscutte" +
+      "r.net.protoB\025NDDMCOHHPPFOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

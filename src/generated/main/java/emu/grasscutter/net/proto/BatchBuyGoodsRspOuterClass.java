@@ -1345,8 +1345,9 @@ public final class BatchBuyGoodsRspOuterClass {
       "proto\032\017ShopGoods.proto\"~\n\020BatchBuyGoodsR" +
       "sp\022&\n\016buy_goods_list\030\003 \003(\0132\016.BuyGoodsPar" +
       "am\022\021\n\tshop_type\030\005 \001(\r\022\036\n\ngoods_list\030\006 \003(" +
-      "\0132\n.ShopGoods\022\017\n\007retcode\030\007 \001(\005B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\0132\n.ShopGoods\022\017\n\007retcode\030\007 \001(\005B7\n\031emu.gr" +
+      "asscutter.net.protoB\032BatchBuyGoodsRspOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

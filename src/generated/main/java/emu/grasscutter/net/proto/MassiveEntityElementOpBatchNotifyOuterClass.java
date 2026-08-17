@@ -1484,7 +1484,9 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       "acker_id\030\013 \001(\r\022\023\n\013PEIOHJGEBAD\030\014 \001(\r\022$\n\014s" +
       "hape_sphere\030\r \001(\0132\014.ShapeSphereH\000\022\036\n\tsha" +
       "pe_box\030\017 \001(\0132\t.ShapeBoxH\000B\r\n\013check_shape" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "BH\n\031emu.grasscutter.net.protoB+MassiveEn" +
+      "tityElementOpBatchNotifyOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

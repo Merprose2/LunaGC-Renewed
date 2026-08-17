@@ -1287,8 +1287,8 @@ public final class LOOGLBBKMHGOuterClass {
       ".proto\"\203\001\n\013LOOGLBBKMHG\022\031\n\010position\030\001 \001(\013" +
       "2\007.Vector\022\025\n\005route\030\005 \001(\0132\006.Route\022\031\n\010rota" +
       "tion\030\n \001(\0132\007.Vector\022\023\n\013EDDJBOOPANA\030\014 \001(\t" +
-      "\022\022\n\ngallery_id\030\017 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\022\022\n\ngallery_id\030\017 \001(\rB2\n\031emu.grasscutter." +
+      "net.protoB\025LOOGLBBKMHGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

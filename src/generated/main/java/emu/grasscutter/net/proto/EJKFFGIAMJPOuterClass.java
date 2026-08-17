@@ -1390,8 +1390,9 @@ public final class EJKFFGIAMJPOuterClass {
       "\n\021EJKFFGIAMJP.proto\032\021NJDPBLEDNHD.proto\"k" +
       "\n\013EJKFFGIAMJP\022\"\n\013MOCLJCJFKJH\030\365\003 \003(\0132\014.NJ" +
       "DPBLEDNHD\022\024\n\013IJAGLBHGMHO\030\366\003 \003(\r\022\"\n\013KPKPI" +
-      "DJBAGF\030\367\003 \003(\0132\014.NJDPBLEDNHDB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "DJBAGF\030\367\003 \003(\0132\014.NJDPBLEDNHDB2\n\031emu.grass" +
+      "cutter.net.protoB\025EJKFFGIAMJPOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

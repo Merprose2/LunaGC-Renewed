@@ -863,8 +863,9 @@ public final class DIMMPAALMNOOuterClass {
       "\n\021DIMMPAALMNO.proto\032\021NOAPKEHLHBI.proto\"h" +
       "\n\013DIMMPAALMNO\022\032\n\004data\030\001 \001(\0132\014.NOAPKEHLHB" +
       "I\022\023\n\013JJHNOIGKJIM\030\003 \001(\r\022\023\n\013JBGBFNPALDA\030\004 " +
-      "\001(\004\022\023\n\013IINEIOJCPKI\030\005 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\001(\004\022\023\n\013IINEIOJCPKI\030\005 \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025DIMMPAALMNOOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

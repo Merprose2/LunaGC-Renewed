@@ -784,8 +784,9 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       "vatar_team_map\030\007 \003(\0132*.AvatarTeamUpdateN" +
       "otify.AvatarTeamMapEntry\032A\n\022AvatarTeamMa" +
       "pEntry\022\013\n\003key\030\001 \001(\r\022\032\n\005value\030\002 \001(\0132\013.Ava" +
-      "tarTeam:\0028\001B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "tarTeam:\0028\001B=\n\031emu.grasscutter.net.proto" +
+      "B AvatarTeamUpdateNotifyOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1917,7 +1917,8 @@ public final class GCGPlayerBriefDataOuterClass {
       "rBriefData.CardFaceMapEntry\022\026\n\016_xbox_gam" +
       "ertag\030\r \001(\t\022\021\n\tnick_name\030\017 \001(\t\0322\n\020CardFa" +
       "ceMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\002" +
-      "8\001B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "8\001B9\n\031emu.grasscutter.net.protoB\034GCGPlay" +
+      "erBriefDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

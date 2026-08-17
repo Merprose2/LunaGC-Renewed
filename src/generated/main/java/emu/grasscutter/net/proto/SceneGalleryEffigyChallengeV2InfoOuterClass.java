@@ -800,8 +800,9 @@ public final class SceneGalleryEffigyChallengeV2InfoOuterClass {
       "o\"\214\001\n!SceneGalleryEffigyChallengeV2Info\022" +
       "\023\n\013DEKBMGIKLOF\030\006 \001(\r\022\023\n\013AKCNPJCBAGD\030\010 \001(" +
       "\r\022\023\n\013ILMPMFMFCFI\030\t \001(\r\022\023\n\013JEAFOAKABBG\030\014 " +
-      "\001(\r\022\023\n\013CBNELIFOGGD\030\r \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\001(\r\022\023\n\013CBNELIFOGGD\030\r \001(\rBH\n\031emu.grasscut" +
+      "ter.net.protoB+SceneGalleryEffigyChallen" +
+      "geV2InfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

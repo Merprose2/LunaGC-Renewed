@@ -668,8 +668,8 @@ public final class APCANGHCMAJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021APCANGHCMAJ.proto\"D\n\013APCANGHCMAJ\022\017\n\007re" +
       "tcode\030\005 \001(\005\022\016\n\006is_add\030\006 \001(\010\022\024\n\014dungeon_g" +
-      "uid\030\r \001(\004B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "uid\030\r \001(\004B2\n\031emu.grasscutter.net.protoB\025" +
+      "APCANGHCMAJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

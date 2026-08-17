@@ -658,8 +658,8 @@ public final class IIOFHFIDENJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IIOFHFIDENJ.proto\"H\n\013IIOFHFIDENJ\022\017\n\007it" +
       "em_id\030\003 \001(\r\022\023\n\013DEMKCGALOEB\030\013 \001(\r\022\023\n\013ECNL" +
-      "AOHFCKA\030\r \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "AOHFCKA\030\r \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025IIOFHFIDENJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

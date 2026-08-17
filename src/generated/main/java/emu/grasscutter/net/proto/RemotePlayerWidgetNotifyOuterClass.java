@@ -832,8 +832,9 @@ public final class RemotePlayerWidgetNotifyOuterClass {
       "\n\036RemotePlayerWidgetNotify.proto\032\026Player" +
       "WidgetInfo.proto\"N\n\030RemotePlayerWidgetNo" +
       "tify\0222\n\027player_widget_info_list\030\t \003(\0132\021." +
-      "PlayerWidgetInfoB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "PlayerWidgetInfoB?\n\031emu.grasscutter.net." +
+      "protoB\"RemotePlayerWidgetNotifyOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

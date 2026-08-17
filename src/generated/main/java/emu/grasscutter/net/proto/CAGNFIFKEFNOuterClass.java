@@ -738,8 +738,8 @@ public final class CAGNFIFKEFNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CAGNFIFKEFN.proto\"H\n\013CAGNFIFKEFN\022\024\n\013KG" +
       "GLAOKKMLI\030\365\003 \001(\005\022\r\n\004name\030\366\003 \001(\t\022\024\n\013FLIKB" +
-      "MLPJMM\030\367\003 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "MLPJMM\030\367\003 \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025CAGNFIFKEFNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

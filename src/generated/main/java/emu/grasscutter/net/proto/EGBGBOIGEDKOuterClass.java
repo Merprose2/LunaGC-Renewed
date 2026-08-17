@@ -133,7 +133,8 @@ public final class EGBGBOIGEDKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EGBGBOIGEDK.proto*:\n\013EGBGBOIGEDK\022\023\n\017EG" +
       "BGBOIGEDK_FIX\020\000\022\026\n\022EGBGBOIGEDK_RANDOM\020\001B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025EGBGBOIGED" +
+      "KOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

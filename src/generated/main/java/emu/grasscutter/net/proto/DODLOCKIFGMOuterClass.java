@@ -823,8 +823,8 @@ public final class DODLOCKIFGMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DODLOCKIFGM.proto\032\021JBDNMOJCIII.proto\"0" +
       "\n\013DODLOCKIFGM\022!\n\013HMJEMJNMENP\030\001 \003(\0132\014.JBD" +
-      "NMOJCIIIB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "NMOJCIIIB2\n\031emu.grasscutter.net.protoB\025D" +
+      "ODLOCKIFGMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

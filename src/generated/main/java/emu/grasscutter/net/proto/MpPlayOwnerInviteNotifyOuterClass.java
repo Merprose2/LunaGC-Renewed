@@ -667,8 +667,9 @@ public final class MpPlayOwnerInviteNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035MpPlayOwnerInviteNotify.proto\"S\n\027MpPla" +
       "yOwnerInviteNotify\022\022\n\nmp_play_id\030\003 \001(\r\022\030" +
-      "\n\020is_remain_reward\030\010 \001(\010\022\n\n\002cd\030\013 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\n\020is_remain_reward\030\010 \001(\010\022\n\n\002cd\030\013 \001(\rB>\n\031" +
+      "emu.grasscutter.net.protoB!MpPlayOwnerIn" +
+      "viteNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

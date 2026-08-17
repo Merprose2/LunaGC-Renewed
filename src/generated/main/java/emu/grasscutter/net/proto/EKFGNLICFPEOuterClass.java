@@ -1101,7 +1101,8 @@ public final class EKFGNLICFPEOuterClass {
       "\n\013EKFGNLICFPE\022\023\n\013FFDDAEEEAMH\030\002 \001(\t\022\013\n\003ur" +
       "l\030\003 \001(\t\022\017\n\007retcode\030\t \001(\005\022!\n\013LPFKKMMLFOP\030" +
       "\n \001(\0132\014.NGKOPBGLDJM\022\023\n\013LJNNFJIENAO\030\014 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025EKFGNLICF" +
+      "PEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

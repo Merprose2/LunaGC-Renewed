@@ -1172,8 +1172,8 @@ public final class H5ActivityInfoOuterClass {
       "IBLH\030\005 \001(\r\022\030\n\020is_entrance_open\030\007 \001(\010\022\020\n\010" +
       "end_time\030\010 \001(\r\022\013\n\003url\030\n \001(\t\022\023\n\013HFDLCOPLD" +
       "BJ\030\013 \001(\r\022\023\n\013prefab_path\030\014 \001(\t\022\022\n\nbegin_t" +
-      "ime\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "ime\030\017 \001(\rB5\n\031emu.grasscutter.net.protoB\030" +
+      "H5ActivityInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

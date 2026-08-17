@@ -27,12 +27,12 @@ public final class GOIIIDJGDCEOuterClass {
     /**
      * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo> 
+    java.util.List<emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo> 
         getTeamInfoListList();
     /**
      * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
      */
-    emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo getTeamInfoList(int index);
+    emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo getTeamInfoList(int index);
     /**
      * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
      */
@@ -40,12 +40,12 @@ public final class GOIIIDJGDCEOuterClass {
     /**
      * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfoOrBuilder> 
         getTeamInfoListOrBuilderList();
     /**
      * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
      */
-    emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfoOrBuilder getTeamInfoListOrBuilder(
+    emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfoOrBuilder getTeamInfoListOrBuilder(
         int index);
 
     /**
@@ -57,7 +57,7 @@ public final class GOIIIDJGDCEOuterClass {
      * <code>._DungeonTeamBuilderPlayerState state = 3;</code>
      * @return The state.
      */
-    emu.grasscutter.net.proto.DungeonTeamBuilderPlayerState._DungeonTeamBuilderPlayerState getState();
+    emu.grasscutter.net.proto._DungeonTeamBuilderPlayerStateOuterClass._DungeonTeamBuilderPlayerState getState();
 
     /**
      * <code>uint32 NHEDBFHGLIE = 4;</code>
@@ -120,11 +120,11 @@ public final class GOIIIDJGDCEOuterClass {
             }
             case 18: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                teamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo>();
+                teamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               teamInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo.parser(), extensionRegistry));
               break;
             }
             case 24: {
@@ -185,19 +185,19 @@ public final class GOIIIDJGDCEOuterClass {
     }
 
     public static final int TEAM_INFO_LIST_FIELD_NUMBER = 2;
-    private java.util.List<emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo> teamInfoList_;
+    private java.util.List<emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo> teamInfoList_;
     /**
      * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo> getTeamInfoListList() {
+    public java.util.List<emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo> getTeamInfoListList() {
       return teamInfoList_;
     }
     /**
      * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfoOrBuilder> 
         getTeamInfoListOrBuilderList() {
       return teamInfoList_;
     }
@@ -212,14 +212,14 @@ public final class GOIIIDJGDCEOuterClass {
      * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo getTeamInfoList(int index) {
+    public emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo getTeamInfoList(int index) {
       return teamInfoList_.get(index);
     }
     /**
      * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfoOrBuilder getTeamInfoListOrBuilder(
+    public emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfoOrBuilder getTeamInfoListOrBuilder(
         int index) {
       return teamInfoList_.get(index);
     }
@@ -237,10 +237,10 @@ public final class GOIIIDJGDCEOuterClass {
      * <code>._DungeonTeamBuilderPlayerState state = 3;</code>
      * @return The state.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.DungeonTeamBuilderPlayerState._DungeonTeamBuilderPlayerState getState() {
+    @java.lang.Override public emu.grasscutter.net.proto._DungeonTeamBuilderPlayerStateOuterClass._DungeonTeamBuilderPlayerState getState() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.DungeonTeamBuilderPlayerState._DungeonTeamBuilderPlayerState result = emu.grasscutter.net.proto.DungeonTeamBuilderPlayerState._DungeonTeamBuilderPlayerState.valueOf(state_);
-      return result == null ? emu.grasscutter.net.proto.DungeonTeamBuilderPlayerState._DungeonTeamBuilderPlayerState.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto._DungeonTeamBuilderPlayerStateOuterClass._DungeonTeamBuilderPlayerState result = emu.grasscutter.net.proto._DungeonTeamBuilderPlayerStateOuterClass._DungeonTeamBuilderPlayerState.valueOf(state_);
+      return result == null ? emu.grasscutter.net.proto._DungeonTeamBuilderPlayerStateOuterClass._DungeonTeamBuilderPlayerState.UNRECOGNIZED : result;
     }
 
     public static final int NHEDBFHGLIE_FIELD_NUMBER = 4;
@@ -274,7 +274,7 @@ public final class GOIIIDJGDCEOuterClass {
       for (int i = 0; i < teamInfoList_.size(); i++) {
         output.writeMessage(2, teamInfoList_.get(i));
       }
-      if (state_ != emu.grasscutter.net.proto.DungeonTeamBuilderPlayerState._DungeonTeamBuilderPlayerState._DungeonTeamBuilderPlayerState_IDLE.getNumber()) {
+      if (state_ != emu.grasscutter.net.proto._DungeonTeamBuilderPlayerStateOuterClass._DungeonTeamBuilderPlayerState._DungeonTeamBuilderPlayerState_IDLE.getNumber()) {
         output.writeEnum(3, state_);
       }
       if (nHEDBFHGLIE_ != 0) {
@@ -297,7 +297,7 @@ public final class GOIIIDJGDCEOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, teamInfoList_.get(i));
       }
-      if (state_ != emu.grasscutter.net.proto.DungeonTeamBuilderPlayerState._DungeonTeamBuilderPlayerState._DungeonTeamBuilderPlayerState_IDLE.getNumber()) {
+      if (state_ != emu.grasscutter.net.proto._DungeonTeamBuilderPlayerStateOuterClass._DungeonTeamBuilderPlayerState._DungeonTeamBuilderPlayerState_IDLE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(3, state_);
       }
@@ -677,22 +677,22 @@ public final class GOIIIDJGDCEOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo> teamInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo> teamInfoList_ =
         java.util.Collections.emptyList();
       private void ensureTeamInfoListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          teamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo>(teamInfoList_);
+          teamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo>(teamInfoList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo, emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo.Builder, emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfoOrBuilder> teamInfoListBuilder_;
+          emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo, emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo.Builder, emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfoOrBuilder> teamInfoListBuilder_;
 
       /**
        * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo> getTeamInfoListList() {
+      public java.util.List<emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo> getTeamInfoListList() {
         if (teamInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(teamInfoList_);
         } else {
@@ -712,7 +712,7 @@ public final class GOIIIDJGDCEOuterClass {
       /**
        * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
        */
-      public emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo getTeamInfoList(int index) {
+      public emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo getTeamInfoList(int index) {
         if (teamInfoListBuilder_ == null) {
           return teamInfoList_.get(index);
         } else {
@@ -723,7 +723,7 @@ public final class GOIIIDJGDCEOuterClass {
        * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
        */
       public Builder setTeamInfoList(
-          int index, emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo value) {
+          int index, emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo value) {
         if (teamInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -740,7 +740,7 @@ public final class GOIIIDJGDCEOuterClass {
        * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
        */
       public Builder setTeamInfoList(
-          int index, emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo.Builder builderForValue) {
         if (teamInfoListBuilder_ == null) {
           ensureTeamInfoListIsMutable();
           teamInfoList_.set(index, builderForValue.build());
@@ -753,7 +753,7 @@ public final class GOIIIDJGDCEOuterClass {
       /**
        * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
        */
-      public Builder addTeamInfoList(emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo value) {
+      public Builder addTeamInfoList(emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo value) {
         if (teamInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -770,7 +770,7 @@ public final class GOIIIDJGDCEOuterClass {
        * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
        */
       public Builder addTeamInfoList(
-          int index, emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo value) {
+          int index, emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo value) {
         if (teamInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -787,7 +787,7 @@ public final class GOIIIDJGDCEOuterClass {
        * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
        */
       public Builder addTeamInfoList(
-          emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo.Builder builderForValue) {
         if (teamInfoListBuilder_ == null) {
           ensureTeamInfoListIsMutable();
           teamInfoList_.add(builderForValue.build());
@@ -801,7 +801,7 @@ public final class GOIIIDJGDCEOuterClass {
        * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
        */
       public Builder addTeamInfoList(
-          int index, emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo.Builder builderForValue) {
         if (teamInfoListBuilder_ == null) {
           ensureTeamInfoListIsMutable();
           teamInfoList_.add(index, builderForValue.build());
@@ -815,7 +815,7 @@ public final class GOIIIDJGDCEOuterClass {
        * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
        */
       public Builder addAllTeamInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo> values) {
         if (teamInfoListBuilder_ == null) {
           ensureTeamInfoListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -855,14 +855,14 @@ public final class GOIIIDJGDCEOuterClass {
       /**
        * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
        */
-      public emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo.Builder getTeamInfoListBuilder(
+      public emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo.Builder getTeamInfoListBuilder(
           int index) {
         return getTeamInfoListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
        */
-      public emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfoOrBuilder getTeamInfoListOrBuilder(
+      public emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfoOrBuilder getTeamInfoListOrBuilder(
           int index) {
         if (teamInfoListBuilder_ == null) {
           return teamInfoList_.get(index);  } else {
@@ -872,7 +872,7 @@ public final class GOIIIDJGDCEOuterClass {
       /**
        * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfoOrBuilder> 
            getTeamInfoListOrBuilderList() {
         if (teamInfoListBuilder_ != null) {
           return teamInfoListBuilder_.getMessageOrBuilderList();
@@ -883,31 +883,31 @@ public final class GOIIIDJGDCEOuterClass {
       /**
        * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
        */
-      public emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo.Builder addTeamInfoListBuilder() {
+      public emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo.Builder addTeamInfoListBuilder() {
         return getTeamInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
        */
-      public emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo.Builder addTeamInfoListBuilder(
+      public emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo.Builder addTeamInfoListBuilder(
           int index) {
         return getTeamInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._DungeonTeamBuilderTeamInfo team_info_list = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo.Builder> 
            getTeamInfoListBuilderList() {
         return getTeamInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo, emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo.Builder, emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfoOrBuilder> 
+          emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo, emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo.Builder, emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfoOrBuilder> 
           getTeamInfoListFieldBuilder() {
         if (teamInfoListBuilder_ == null) {
           teamInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo, emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfo.Builder, emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo._DungeonTeamBuilderTeamInfoOrBuilder>(
+              emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo, emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfo.Builder, emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass._DungeonTeamBuilderTeamInfoOrBuilder>(
                   teamInfoList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -941,17 +941,17 @@ public final class GOIIIDJGDCEOuterClass {
        * @return The state.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.DungeonTeamBuilderPlayerState._DungeonTeamBuilderPlayerState getState() {
+      public emu.grasscutter.net.proto._DungeonTeamBuilderPlayerStateOuterClass._DungeonTeamBuilderPlayerState getState() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.DungeonTeamBuilderPlayerState._DungeonTeamBuilderPlayerState result = emu.grasscutter.net.proto.DungeonTeamBuilderPlayerState._DungeonTeamBuilderPlayerState.valueOf(state_);
-        return result == null ? emu.grasscutter.net.proto.DungeonTeamBuilderPlayerState._DungeonTeamBuilderPlayerState.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto._DungeonTeamBuilderPlayerStateOuterClass._DungeonTeamBuilderPlayerState result = emu.grasscutter.net.proto._DungeonTeamBuilderPlayerStateOuterClass._DungeonTeamBuilderPlayerState.valueOf(state_);
+        return result == null ? emu.grasscutter.net.proto._DungeonTeamBuilderPlayerStateOuterClass._DungeonTeamBuilderPlayerState.UNRECOGNIZED : result;
       }
       /**
        * <code>._DungeonTeamBuilderPlayerState state = 3;</code>
        * @param value The state to set.
        * @return This builder for chaining.
        */
-      public Builder setState(emu.grasscutter.net.proto.DungeonTeamBuilderPlayerState._DungeonTeamBuilderPlayerState value) {
+      public Builder setState(emu.grasscutter.net.proto._DungeonTeamBuilderPlayerStateOuterClass._DungeonTeamBuilderPlayerState value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -1074,14 +1074,14 @@ public final class GOIIIDJGDCEOuterClass {
       "\r\0224\n\016team_info_list\030\002 \003(\0132\034._DungeonTeam" +
       "BuilderTeamInfo\022.\n\005state\030\003 \001(\0162\037._Dungeo" +
       "nTeamBuilderPlayerState\022\023\n\013NHEDBFHGLIE\030\004" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB2\n\031emu.grasscutter.net.protoB\025GOIII" +
+      "DJGDCEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.DungeonTeamBuilderPlayerState.getDescriptor(),
-          emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo.getDescriptor(),
+          emu.grasscutter.net.proto._DungeonTeamBuilderPlayerStateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass.getDescriptor(),
         });
     internal_static_GOIIIDJGDCE_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1089,8 +1089,8 @@ public final class GOIIIDJGDCEOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GOIIIDJGDCE_descriptor,
         new java.lang.String[] { "Uid", "TeamInfoList", "State", "NHEDBFHGLIE", });
-    emu.grasscutter.net.proto.DungeonTeamBuilderPlayerState.getDescriptor();
-    emu.grasscutter.net.proto.DungeonTeamBuilderTeamInfo.getDescriptor();
+    emu.grasscutter.net.proto._DungeonTeamBuilderPlayerStateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._DungeonTeamBuilderTeamInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

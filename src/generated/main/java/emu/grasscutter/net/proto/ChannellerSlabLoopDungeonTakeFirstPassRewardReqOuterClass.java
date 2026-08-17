@@ -527,8 +527,9 @@ public final class ChannellerSlabLoopDungeonTakeFirstPassRewardReqOuterClass {
       "\n5ChannellerSlabLoopDungeonTakeFirstPass" +
       "RewardReq.proto\"H\n/ChannellerSlabLoopDun" +
       "geonTakeFirstPassRewardReq\022\025\n\rdungeon_in" +
-      "dex\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "dex\030\017 \001(\rBV\n\031emu.grasscutter.net.protoB9" +
+      "ChannellerSlabLoopDungeonTakeFirstPassRe" +
+      "wardReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -525,8 +525,8 @@ public final class EDGFGOKJAPDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EDGFGOKJAPD.proto\"\037\n\013EDGFGOKJAPD\022\020\n\010en" +
-      "d_time\030\003 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "d_time\030\003 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025EDGFGOKJAPDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

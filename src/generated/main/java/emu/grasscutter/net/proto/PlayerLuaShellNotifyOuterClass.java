@@ -778,8 +778,9 @@ public final class PlayerLuaShellNotifyOuterClass {
       "\n\032PlayerLuaShellNotify.proto\032\022LuaShellTy" +
       "pe.proto\"j\n\024PlayerLuaShellNotify\022\021\n\tlua_" +
       "shell\030\004 \001(\014\022\n\n\002id\030\013 \001(\r\022\020\n\010use_type\030\014 \001(" +
-      "\r\022!\n\nshell_type\030\017 \001(\0162\r.LuaShellTypeB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\r\022!\n\nshell_type\030\017 \001(\0162\r.LuaShellTypeB;\n\031" +
+      "emu.grasscutter.net.protoB\036PlayerLuaShel" +
+      "lNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

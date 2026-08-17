@@ -907,8 +907,8 @@ public final class WorldPlayerLocationNotifyOuterClass {
       "rLocationInfo.proto\"h\n\031WorldPlayerLocati" +
       "onNotify\022\035\n\025player_world_loc_list\030\t \001(\014\022" +
       ",\n\017player_loc_list\030\013 \003(\0132\023.PlayerLocatio" +
-      "nInfoB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "nInfoB@\n\031emu.grasscutter.net.protoB#Worl" +
+      "dPlayerLocationNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

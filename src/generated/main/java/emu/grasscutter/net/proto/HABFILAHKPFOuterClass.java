@@ -793,8 +793,8 @@ public final class HABFILAHKPFOuterClass {
       "\n\021HABFILAHKPF.proto\032\021EBADNHGKAAP.proto\"V" +
       "\n\013HABFILAHKPF\022\017\n\007slot_id\030\001 \001(\005\022!\n\013ODJAID" +
       "EKCKE\030\002 \001(\0132\014.EBADNHGKAAP\022\023\n\013OAOCDPIEFGB" +
-      "\030\003 \001(\010B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\003 \001(\010B2\n\031emu.grasscutter.net.protoB\025HAB" +
+      "FILAHKPFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

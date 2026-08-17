@@ -525,8 +525,9 @@ public final class ClientHashDebugNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033ClientHashDebugNotify.proto\"\'\n\025ClientH" +
-      "ashDebugNotify\022\016\n\006job_id\030\006 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ashDebugNotify\022\016\n\006job_id\030\006 \001(\rB<\n\031emu.gr" +
+      "asscutter.net.protoB\037ClientHashDebugNoti" +
+      "fyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

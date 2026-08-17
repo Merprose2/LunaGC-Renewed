@@ -563,8 +563,9 @@ public final class GCGSettleOptionReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030GCGSettleOptionReq.proto\032\025GCGSettleOpt" +
       "ion.proto\"6\n\022GCGSettleOptionReq\022 \n\006optio" +
-      "n\030\005 \001(\0162\020.GCGSettleOptionB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "n\030\005 \001(\0162\020.GCGSettleOptionB9\n\031emu.grasscu" +
+      "tter.net.protoB\034GCGSettleOptionReqOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

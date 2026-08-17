@@ -588,8 +588,9 @@ public final class DeathZoneInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\023DeathZoneInfo.proto\",\n\rDeathZoneInfo\022\017" +
-      "\n\007is_open\030\001 \001(\010\022\n\n\002id\030\013 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\n\007is_open\030\001 \001(\010\022\n\n\002id\030\013 \001(\rB4\n\031emu.grass" +
+      "cutter.net.protoB\027DeathZoneInfoOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

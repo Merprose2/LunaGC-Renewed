@@ -901,8 +901,8 @@ public final class FNCLLEKMLKCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FNCLLEKMLKC.proto\032\017ItemParam.proto\"=\n\013" +
       "FNCLLEKMLKC\022\017\n\007retcode\030\004 \001(\005\022\035\n\titem_lis" +
-      "t\030\014 \003(\0132\n.ItemParamB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "t\030\014 \003(\0132\n.ItemParamB2\n\031emu.grasscutter.n" +
+      "et.protoB\025FNCLLEKMLKCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

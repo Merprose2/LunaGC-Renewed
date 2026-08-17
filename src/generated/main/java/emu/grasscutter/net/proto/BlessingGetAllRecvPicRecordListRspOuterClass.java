@@ -903,8 +903,9 @@ public final class BlessingGetAllRecvPicRecordListRspOuterClass {
       "to\032\033BlessingRecvPicRecord.proto\"k\n\"Bless" +
       "ingGetAllRecvPicRecordListRsp\0224\n\024recv_pi" +
       "c_record_list\030\002 \003(\0132\026.BlessingRecvPicRec" +
-      "ord\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "ord\022\017\n\007retcode\030\013 \001(\005BI\n\031emu.grasscutter." +
+      "net.protoB,BlessingGetAllRecvPicRecordLi" +
+      "stRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

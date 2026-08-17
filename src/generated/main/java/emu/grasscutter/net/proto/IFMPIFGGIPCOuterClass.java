@@ -595,8 +595,9 @@ public final class IFMPIFGGIPCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IFMPIFGGIPC.proto\"1\n\013IFMPIFGGIPC\022\021\n\tav" +
-      "atar_id\030\002 \001(\r\022\017\n\007retcode\030\t \001(\005B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "atar_id\030\002 \001(\r\022\017\n\007retcode\030\t \001(\005B2\n\031emu.gr" +
+      "asscutter.net.protoB\025IFMPIFGGIPCOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

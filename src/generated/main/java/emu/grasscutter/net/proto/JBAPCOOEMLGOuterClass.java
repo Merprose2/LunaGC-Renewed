@@ -589,8 +589,9 @@ public final class JBAPCOOEMLGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JBAPCOOEMLG.proto\"7\n\013JBAPCOOEMLG\022\023\n\013GG" +
-      "GLCHLGIFM\030\001 \001(\010\022\023\n\013OCHPMILAOON\030\002 \001(\010B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "GLCHLGIFM\030\001 \001(\010\022\023\n\013OCHPMILAOON\030\002 \001(\010B2\n\031" +
+      "emu.grasscutter.net.protoB\025JBAPCOOEMLGOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -903,8 +903,9 @@ public final class WinterCampGetFriendWishListRspOuterClass {
       "WinterCampFriendWishData.proto\"d\n\036Winter" +
       "CampGetFriendWishListRsp\0221\n\016wish_data_li" +
       "st\030\003 \003(\0132\031.WinterCampFriendWishData\022\017\n\007r" +
-      "etcode\030\006 \001(\005B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "etcode\030\006 \001(\005BE\n\031emu.grasscutter.net.prot" +
+      "oB(WinterCampGetFriendWishListRspOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

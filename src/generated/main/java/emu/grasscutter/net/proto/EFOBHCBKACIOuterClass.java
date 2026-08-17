@@ -996,8 +996,9 @@ public final class EFOBHCBKACIOuterClass {
       "HJAIMALGPBE.proto\"~\n\013EFOBHCBKACI\022\023\n\013MHHO" +
       "ILIMBJB\030\001 \001(\005\022!\n\013PBNCPFPJMDE\030\002 \001(\0132\014.HJA" +
       "IMALGPBE\022!\n\013KOHGGFIPJOK\030\003 \001(\0132\014.FIEEPFDO" +
-      "FNG\022\024\n\014data_version\030\004 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "FNG\022\024\n\014data_version\030\004 \001(\rB2\n\031emu.grasscu" +
+      "tter.net.protoB\025EFOBHCBKACIOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

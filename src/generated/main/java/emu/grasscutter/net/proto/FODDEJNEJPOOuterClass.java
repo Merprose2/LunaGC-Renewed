@@ -1203,8 +1203,9 @@ public final class FODDEJNEJPOOuterClass {
       "\001\n\013FODDEJNEJPO\022\034\n\006center\030\001 \001(\0132\014.HHEDHCF" +
       "PEKM\022!\n\013LFFJHLHPOBC\030\002 \001(\0132\014.HHEDHCFPEKM\022" +
       "\016\n\006radius\030\003 \001(\002\022\016\n\006height\030\004 \001(\002\022\037\n\tdirec" +
-      "tion\030\005 \001(\0132\014.HHEDHCFPEKMB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "tion\030\005 \001(\0132\014.HHEDHCFPEKMB2\n\031emu.grasscut" +
+      "ter.net.protoB\025FODDEJNEJPOOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

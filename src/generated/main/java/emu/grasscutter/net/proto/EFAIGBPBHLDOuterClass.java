@@ -133,8 +133,8 @@ public final class EFAIGBPBHLDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EFAIGBPBHLD.proto*M\n\013EFAIGBPBHLD\022\031\n\025EF" +
       "AIGBPBHLD_PANORAMIC\020\000\022#\n\037EFAIGBPBHLD_SIN" +
-      "GLE_VISION_LEVEL\020\001B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "GLE_VISION_LEVEL\020\001B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025EFAIGBPBHLDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

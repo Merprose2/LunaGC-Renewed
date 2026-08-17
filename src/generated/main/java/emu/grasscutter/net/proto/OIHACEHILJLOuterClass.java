@@ -525,8 +525,8 @@ public final class OIHACEHILJLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OIHACEHILJL.proto\"\037\n\013OIHACEHILJL\022\020\n\010le" +
-      "vel_id\030\007 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "vel_id\030\007 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025OIHACEHILJLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1303,8 +1303,8 @@ public final class BOAOBJFJFMHOuterClass {
       "\n\021BOAOBJFJFMH.proto\"r\n\013BOAOBJFJFMH\022\023\n\013MB" +
       "GLKMENGAD\030\001 \003(\r\022\023\n\013MGNJCGCIJMD\030\003 \003(\r\022\023\n\013" +
       "ILKPPABKNPK\030\005 \003(\r\022\017\n\007retcode\030\007 \001(\005\022\023\n\013OF" +
-      "JCAJOONNI\030\017 \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "JCAJOONNI\030\017 \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025BOAOBJFJFMHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

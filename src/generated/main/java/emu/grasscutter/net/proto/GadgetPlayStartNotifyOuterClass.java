@@ -666,8 +666,9 @@ public final class GadgetPlayStartNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033GadgetPlayStartNotify.proto\"Q\n\025GadgetP" +
       "layStartNotify\022\021\n\tentity_id\030\006 \001(\r\022\022\n\nsta" +
-      "rt_time\030\r \001(\r\022\021\n\tplay_type\030\017 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "rt_time\030\r \001(\r\022\021\n\tplay_type\030\017 \001(\rB<\n\031emu." +
+      "grasscutter.net.protoB\037GadgetPlayStartNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

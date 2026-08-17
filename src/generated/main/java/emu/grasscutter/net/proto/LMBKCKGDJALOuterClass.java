@@ -1004,7 +1004,8 @@ public final class LMBKCKGDJALOuterClass {
       "\013LMBKCKGDJAL\022\017\n\007retcode\030\001 \001(\005\022)\n\024_previe" +
       "w_avatar_info\030\004 \001(\0132\013.AvatarInfo\022 \n\013avat" +
       "ar_info\030\010 \001(\0132\013.AvatarInfo\022\r\n\005index\030\n \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB2\n\031emu.grasscutter.net.protoB\025LMBKCKGD" +
+      "JALOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -518,8 +518,8 @@ public final class JDBIFMNDDNMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JDBIFMNDDNM.proto\"\"\n\013JDBIFMNDDNM\022\023\n\013GA" +
-      "LFAKIDPAF\030\001 \001(\003B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "LFAKIDPAF\030\001 \001(\003B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025JDBIFMNDDNMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

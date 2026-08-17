@@ -1856,8 +1856,8 @@ public final class VintageActivityDetailInfoOuterClass {
       "e\030\002 \001(\0132\036.VintageCampChallengeStageData:" +
       "\0028\001\032P\n\024HuntingStageMapEntry\022\013\n\003key\030\001 \001(\r" +
       "\022\'\n\005value\030\002 \001(\0132\030.VintageHuntingStageDat" +
-      "a:\0028\001B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "a:\0028\001B@\n\031emu.grasscutter.net.protoB#Vint" +
+      "ageActivityDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

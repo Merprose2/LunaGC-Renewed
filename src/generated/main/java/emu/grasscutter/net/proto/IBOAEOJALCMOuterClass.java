@@ -596,8 +596,9 @@ public final class IBOAEOJALCMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IBOAEOJALCM.proto\"7\n\013IBOAEOJALCM\022\023\n\013PN" +
-      "FANMAEHOA\030\002 \001(\010\022\023\n\013HIPHEHLDBDN\030\007 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "FANMAEHOA\030\002 \001(\010\022\023\n\013HIPHEHLDBDN\030\007 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025IBOAEOJALCMOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

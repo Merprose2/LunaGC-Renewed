@@ -973,8 +973,8 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
       "AvatarInfo.proto\"j\n\032GetFriendShowAvatarI" +
       "nfoRsp\022\017\n\007retcode\030\014 \001(\005\022\013\n\003uid\030\r \001(\r\022.\n\025" +
       "show_avatar_info_list\030\017 \003(\0132\017.ShowAvatar" +
-      "InfoB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "InfoBA\n\031emu.grasscutter.net.protoB$GetFr" +
+      "iendShowAvatarInfoRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

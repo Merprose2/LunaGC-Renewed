@@ -658,8 +658,9 @@ public final class BreakoutBrickInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027BreakoutBrickInfo.proto\"J\n\021BreakoutBri" +
       "ckInfo\022\n\n\002hp\030\001 \001(\r\022\024\n\014element_type\030\002 \001(\r" +
-      "\022\023\n\013FPLEGEIOHBI\030\003 \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\022\023\n\013FPLEGEIOHBI\030\003 \001(\rB8\n\031emu.grasscutter" +
+      ".net.protoB\033BreakoutBrickInfoOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

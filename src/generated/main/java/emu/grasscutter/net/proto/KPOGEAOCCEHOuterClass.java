@@ -162,8 +162,8 @@ public final class KPOGEAOCCEHOuterClass {
       "POGEAOCCEH_INVALID\020\000\022\027\n\023KPOGEAOCCEH_DEFA" +
       "ULT\020\001\022\033\n\027KPOGEAOCCEH_MOST_PLAYED\020\002\022\032\n\026KP" +
       "OGEAOCCEH_RECENT_HOT\020\003\022\036\n\032KPOGEAOCCEH_LA" +
-      "TEST_RELEASE\020\004B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "TEST_RELEASE\020\004B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025KPOGEAOCCEHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

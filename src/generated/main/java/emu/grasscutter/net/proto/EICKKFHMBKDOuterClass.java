@@ -2602,8 +2602,8 @@ public final class EICKKFHMBKDOuterClass {
       "(\002\022!\n\013KCPFIBCOBGP\030\014 \001(\0132\014.ONMAMPHKKMN\022\023\n" +
       "\013NMEKNAHFMCP\030\r \001(\t\022\022\n\n_type_guid\030\016 \001(\r\022!" +
       "\n\013KJBBOAOHAHM\030\017 \003(\0132\014.OAKHDFAFJPA\022\023\n\013JHO" +
-      "CDMOFGJD\030\020 \001(\010B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "CDMOFGJD\030\020 \001(\010B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025EICKKFHMBKDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

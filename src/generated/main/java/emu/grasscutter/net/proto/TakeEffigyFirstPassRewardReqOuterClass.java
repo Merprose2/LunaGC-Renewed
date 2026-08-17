@@ -526,7 +526,8 @@ public final class TakeEffigyFirstPassRewardReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"TakeEffigyFirstPassRewardReq.proto\"4\n\034" +
       "TakeEffigyFirstPassRewardReq\022\024\n\014challeng" +
-      "e_id\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob" +
+      "e_id\030\014 \001(\rBC\n\031emu.grasscutter.net.protoB" +
+      "&TakeEffigyFirstPassRewardReqOuterClassb" +
       "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

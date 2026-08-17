@@ -1242,7 +1242,8 @@ public final class OFLCBMEPKNDOuterClass {
       "\n\021OFLCBMEPKND.proto\"f\n\013OFLCBMEPKND\022-\n\tun" +
       "pair_op\030\003 \001(\0132\030.OFLCBMEPKND.MGBKGGPDCAAH" +
       "\000\032\"\n\013MGBKGGPDCAA\022\023\n\013BELMMFEMNIP\030\003 \001(\rB\004\n" +
-      "\002opB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\002opB2\n\031emu.grasscutter.net.protoB\025OFLCBM" +
+      "EPKNDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

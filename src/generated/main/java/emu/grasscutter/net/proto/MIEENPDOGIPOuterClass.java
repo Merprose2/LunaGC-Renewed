@@ -666,8 +666,8 @@ public final class MIEENPDOGIPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MIEENPDOGIP.proto\"I\n\013MIEENPDOGIP\022\023\n\013HL" +
       "MMODEOMOA\030\003 \001(\r\022\023\n\013PGAMDCDFJGF\030\006 \001(\r\022\020\n\010" +
-      "group_id\030\t \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "group_id\030\t \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025MIEENPDOGIPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

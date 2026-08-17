@@ -893,8 +893,9 @@ public final class PHLMFABCBDJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PHLMFABCBDJ.proto\032\021AHJBMLJHOLC.proto\"E" +
       "\n\013PHLMFABCBDJ\022\023\n\013MCAKENFFOCN\030\001 \001(\r\022!\n\013JM" +
-      "BNHABOEPO\030\002 \003(\0132\014.AHJBMLJHOLCB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "BNHABOEPO\030\002 \003(\0132\014.AHJBMLJHOLCB2\n\031emu.gra" +
+      "sscutter.net.protoB\025PHLMFABCBDJOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

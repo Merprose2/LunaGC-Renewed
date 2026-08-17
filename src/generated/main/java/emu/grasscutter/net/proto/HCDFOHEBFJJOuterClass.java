@@ -3957,7 +3957,8 @@ public final class HCDFOHEBFJJOuterClass {
       "KAAP\022$\n\rnpc_info_list\030\364\014 \003(\0132\014.FJNJAMCLG" +
       "BK\022(\n\021monster_info_list\030\313\r \003(\0132\014.BKBNHEO" +
       "CHIF\022\"\n\013GLIOKNLNKKN\030\217\016 \003(\0132\014.MHOONAFLDFJ" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025HCDFOHEBF" +
+      "JJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

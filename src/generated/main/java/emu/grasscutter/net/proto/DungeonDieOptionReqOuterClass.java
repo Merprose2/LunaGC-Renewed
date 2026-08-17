@@ -635,8 +635,9 @@ public final class DungeonDieOptionReqOuterClass {
       "\n\031DungeonDieOptionReq.proto\032\025PlayerDieOp" +
       "tion.proto\"X\n\023DungeonDieOptionReq\022$\n\ndie" +
       "_option\030\005 \001(\0162\020.PlayerDieOption\022\033\n\023is_qu" +
-      "it_immediately\030\016 \001(\010B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "it_immediately\030\016 \001(\010B:\n\031emu.grasscutter." +
+      "net.protoB\035DungeonDieOptionReqOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

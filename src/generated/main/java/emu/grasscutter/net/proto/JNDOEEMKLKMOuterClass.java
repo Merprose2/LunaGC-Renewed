@@ -2197,8 +2197,8 @@ public final class JNDOEEMKLKMOuterClass {
       "data\030\004 \001(\0132\030.JNDOEEMKLKM.JDCONDALENF\022\023\n\013" +
       "NGEDGDGBAID\030\005 \001(\014\022\023\n\013NJKJHJEAKEJ\030\006 \001(\t\0329" +
       "\n\013JDCONDALENF\022\034\n\006params\030\001 \003(\0132\014.CLHJMKOI" +
-      "NDD\022\014\n\004guid\030\002 \001(\tB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "NDD\022\014\n\004guid\030\002 \001(\tB2\n\031emu.grasscutter.net" +
+      ".protoB\025JNDOEEMKLKMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

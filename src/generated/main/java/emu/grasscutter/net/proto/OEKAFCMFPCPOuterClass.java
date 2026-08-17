@@ -446,8 +446,9 @@ public final class OEKAFCMFPCPOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021OEKAFCMFPCP.proto\"\r\n\013OEKAFCMFPCPB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021OEKAFCMFPCP.proto\"\r\n\013OEKAFCMFPCPB2\n\031em" +
+      "u.grasscutter.net.protoB\025OEKAFCMFPCPOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

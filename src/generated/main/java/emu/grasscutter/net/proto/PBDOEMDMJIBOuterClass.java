@@ -454,8 +454,9 @@ public final class PBDOEMDMJIBOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021PBDOEMDMJIB.proto\"\r\n\013PBDOEMDMJIBB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021PBDOEMDMJIB.proto\"\r\n\013PBDOEMDMJIBB2\n\031em" +
+      "u.grasscutter.net.protoB\025PBDOEMDMJIBOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

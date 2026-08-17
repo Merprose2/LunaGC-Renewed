@@ -1009,8 +1009,9 @@ public final class AFFKPMDJOFLOuterClass {
       "\n\021AFFKPMDJOFL.proto\032\021FLFAFLIBLDB.proto\032\r" +
       "UgcType.proto\"]\n\013AFFKPMDJOFL\022!\n\013OIIMDKMD" +
       "FFI\030\002 \003(\0132\014.FLFAFLIBLDB\022\032\n\010ugc_type\030\004 \001(" +
-      "\0162\010.UgcType\022\017\n\007retcode\030\014 \001(\005B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\0162\010.UgcType\022\017\n\007retcode\030\014 \001(\005B2\n\031emu.gras" +
+      "scutter.net.protoB\025AFFKPMDJOFLOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -881,8 +881,9 @@ public final class HomePreviewBlueprintRspOuterClass {
       "neArrangementInfo.proto\"y\n\027HomePreviewBl" +
       "ueprintRsp\0229\n\026scene_arrangement_info\030\006 \001" +
       "(\0132\031.HomeSceneArrangementInfo\022\017\n\007retcode" +
-      "\030\007 \001(\005\022\022\n\nshare_code\030\013 \001(\tB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\030\007 \001(\005\022\022\n\nshare_code\030\013 \001(\tB>\n\031emu.grassc" +
+      "utter.net.protoB!HomePreviewBlueprintRsp" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -738,8 +738,8 @@ public final class CLMPINJNLJEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CLMPINJNLJE.proto\"H\n\013CLMPINJNLJE\022\023\n\013DM" +
       "NMKHNMHIJ\030\001 \001(\r\022\021\n\ttimestamp\030\002 \001(\007\022\021\n\tni" +
-      "ck_name\030\003 \001(\tB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "ck_name\030\003 \001(\tB2\n\031emu.grasscutter.net.pro" +
+      "toB\025CLMPINJNLJEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

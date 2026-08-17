@@ -1044,8 +1044,8 @@ public final class ONFLECGIMDAOuterClass {
       "\n\021ONFLECGIMDA.proto\"r\n\013ONFLECGIMDA\022\020\n\010le" +
       "vel_id\030\001 \001(\004\022\023\n\013EGPKBMDLBLC\030\002 \001(\t\022\023\n\013HMF" +
       "HCPIKGCO\030\003 \001(\t\022\022\n\nrequest_id\030\004 \001(\t\022\023\n\013NG" +
-      "EDGDGBAID\030\005 \001(\014B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "EDGDGBAID\030\005 \001(\014B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025ONFLECGIMDAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

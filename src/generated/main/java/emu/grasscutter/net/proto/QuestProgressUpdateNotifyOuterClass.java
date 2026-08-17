@@ -917,8 +917,9 @@ public final class QuestProgressUpdateNotifyOuterClass {
       "\n\037QuestProgressUpdateNotify.proto\"g\n\031Que" +
       "stProgressUpdateNotify\022\034\n\024finish_progres" +
       "s_list\030\003 \003(\r\022\020\n\010quest_id\030\004 \001(\r\022\032\n\022fail_p" +
-      "rogress_list\030\016 \003(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "rogress_list\030\016 \003(\rB@\n\031emu.grasscutter.ne" +
+      "t.protoB#QuestProgressUpdateNotifyOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

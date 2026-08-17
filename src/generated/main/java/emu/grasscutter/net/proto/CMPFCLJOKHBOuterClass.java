@@ -667,7 +667,8 @@ public final class CMPFCLJOKHBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CMPFCLJOKHB.proto\">\n\013CMPFCLJOKHB\022\016\n\006is" +
       "_add\030\002 \001(\010\022\016\n\006pos_id\030\t \001(\r\022\017\n\007item_id\030\n " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025CMPFCL" +
+      "JOKHBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

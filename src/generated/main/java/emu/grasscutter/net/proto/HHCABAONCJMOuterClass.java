@@ -15109,8 +15109,9 @@ public final class HHCABAONCJMOuterClass {
       "f_list_value_comp\030E \001(\0132\014.BPCHFNLELFLH\000\022" +
       "0\n\030buff_list_item_list_comp\030F \001(\0132\014.ENMH" +
       "ENCKJDFH\000\022.\n\026creator_subscribe_comp\030G \001(" +
-      "\0132\014.CAOMBGLAIHPH\000B\010\n\006detailB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\0132\014.CAOMBGLAIHPH\000B\010\n\006detailB2\n\031emu.grass" +
+      "cutter.net.protoB\025HHCABAONCJMOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

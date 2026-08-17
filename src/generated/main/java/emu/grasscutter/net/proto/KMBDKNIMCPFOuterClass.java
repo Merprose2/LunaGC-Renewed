@@ -446,8 +446,9 @@ public final class KMBDKNIMCPFOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021KMBDKNIMCPF.proto\"\r\n\013KMBDKNIMCPFB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021KMBDKNIMCPF.proto\"\r\n\013KMBDKNIMCPFB2\n\031em" +
+      "u.grasscutter.net.protoB\025KMBDKNIMCPFOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

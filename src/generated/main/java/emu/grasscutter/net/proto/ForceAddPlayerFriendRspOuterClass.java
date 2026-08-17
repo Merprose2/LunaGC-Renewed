@@ -800,8 +800,9 @@ public final class ForceAddPlayerFriendRspOuterClass {
       "\n\035ForceAddPlayerFriendRsp.proto\032\021FriendB" +
       "rief.proto\"i\n\027ForceAddPlayerFriendRsp\022)\n" +
       "\023target_friend_brief\030\004 \001(\0132\014.FriendBrief" +
-      "\022\022\n\ntarget_uid\030\n \001(\r\022\017\n\007retcode\030\013 \001(\005B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\022\022\n\ntarget_uid\030\n \001(\r\022\017\n\007retcode\030\013 \001(\005B>\n" +
+      "\031emu.grasscutter.net.protoB!ForceAddPlay" +
+      "erFriendRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

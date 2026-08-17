@@ -136,11 +136,11 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
      * <code>._UgcDungeonCandidateTeamInfo ugc_team_info = 1458;</code>
      * @return The ugcTeamInfo.
      */
-    emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo getUgcTeamInfo();
+    emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo getUgcTeamInfo();
     /**
      * <code>._UgcDungeonCandidateTeamInfo ugc_team_info = 1458;</code>
      */
-    emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfoOrBuilder getUgcTeamInfoOrBuilder();
+    emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfoOrBuilder getUgcTeamInfoOrBuilder();
 
     public emu.grasscutter.net.proto.DungeonCandidateTeamInfoNotifyOuterClass.DungeonCandidateTeamInfoNotify.DetailCase getDetailCase();
   }
@@ -250,14 +250,14 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
               break;
             }
             case 11666: {
-              emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo.Builder subBuilder = null;
               if (detailCase_ == 1458) {
-                subBuilder = ((emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1458;
@@ -600,21 +600,21 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
      * @return The ugcTeamInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo getUgcTeamInfo() {
+    public emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo getUgcTeamInfo() {
       if (detailCase_ == 1458) {
-         return (emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo) detail_;
+         return (emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo) detail_;
       }
-      return emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo.getDefaultInstance();
     }
     /**
      * <code>._UgcDungeonCandidateTeamInfo ugc_team_info = 1458;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfoOrBuilder getUgcTeamInfoOrBuilder() {
+    public emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfoOrBuilder getUgcTeamInfoOrBuilder() {
       if (detailCase_ == 1458) {
-         return (emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo) detail_;
+         return (emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo) detail_;
       }
-      return emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -655,7 +655,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         output.writeUInt32(14, matchType_);
       }
       if (detailCase_ == 1458) {
-        output.writeMessage(1458, (emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo) detail_);
+        output.writeMessage(1458, (emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -704,7 +704,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       }
       if (detailCase_ == 1458) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1458, (emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo) detail_);
+          .computeMessageSize(1458, (emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1738,7 +1738,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo, emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo.Builder, emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfoOrBuilder> ugcTeamInfoBuilder_;
+          emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo, emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo.Builder, emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfoOrBuilder> ugcTeamInfoBuilder_;
       /**
        * <code>._UgcDungeonCandidateTeamInfo ugc_team_info = 1458;</code>
        * @return Whether the ugcTeamInfo field is set.
@@ -1752,23 +1752,23 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
        * @return The ugcTeamInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo getUgcTeamInfo() {
+      public emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo getUgcTeamInfo() {
         if (ugcTeamInfoBuilder_ == null) {
           if (detailCase_ == 1458) {
-            return (emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo) detail_;
+            return (emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo) detail_;
           }
-          return emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 1458) {
             return ugcTeamInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._UgcDungeonCandidateTeamInfo ugc_team_info = 1458;</code>
        */
-      public Builder setUgcTeamInfo(emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo value) {
+      public Builder setUgcTeamInfo(emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo value) {
         if (ugcTeamInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1785,7 +1785,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
        * <code>._UgcDungeonCandidateTeamInfo ugc_team_info = 1458;</code>
        */
       public Builder setUgcTeamInfo(
-          emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo.Builder builderForValue) {
         if (ugcTeamInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1798,11 +1798,11 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       /**
        * <code>._UgcDungeonCandidateTeamInfo ugc_team_info = 1458;</code>
        */
-      public Builder mergeUgcTeamInfo(emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo value) {
+      public Builder mergeUgcTeamInfo(emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo value) {
         if (ugcTeamInfoBuilder_ == null) {
           if (detailCase_ == 1458 &&
-              detail_ != emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo.newBuilder((emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo.newBuilder((emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1839,36 +1839,36 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       /**
        * <code>._UgcDungeonCandidateTeamInfo ugc_team_info = 1458;</code>
        */
-      public emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo.Builder getUgcTeamInfoBuilder() {
+      public emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo.Builder getUgcTeamInfoBuilder() {
         return getUgcTeamInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._UgcDungeonCandidateTeamInfo ugc_team_info = 1458;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfoOrBuilder getUgcTeamInfoOrBuilder() {
+      public emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfoOrBuilder getUgcTeamInfoOrBuilder() {
         if ((detailCase_ == 1458) && (ugcTeamInfoBuilder_ != null)) {
           return ugcTeamInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1458) {
-            return (emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo) detail_;
+            return (emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo) detail_;
           }
-          return emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._UgcDungeonCandidateTeamInfo ugc_team_info = 1458;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo, emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo.Builder, emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfoOrBuilder> 
+          emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo, emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo.Builder, emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfoOrBuilder> 
           getUgcTeamInfoFieldBuilder() {
         if (ugcTeamInfoBuilder_ == null) {
           if (!(detailCase_ == 1458)) {
-            detail_ = emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo.getDefaultInstance();
           }
           ugcTeamInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo, emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo.Builder, emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo._UgcDungeonCandidateTeamInfo) detail_,
+              emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo, emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo.Builder, emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass._UgcDungeonCandidateTeamInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1962,15 +1962,16 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       "\0132\035._UgcDungeonCandidateTeamInfoH\000\032W\n\023Pl" +
       "ayerStateMapEntry\022\013\n\003key\030\001 \001(\r\022/\n\005value\030" +
       "\002 \001(\0162 .DungeonCandidateTeamPlayerState:" +
-      "\0028\001B\010\n\006detailB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\0028\001B\010\n\006detailBE\n\031emu.grasscutter.net.pro" +
+      "toB(DungeonCandidateTeamInfoNotifyOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.DungeonCandidateTeamPlayerStateOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo.getDescriptor(),
+          emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass.getDescriptor(),
         });
     internal_static_DungeonCandidateTeamInfoNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1986,7 +1987,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         new java.lang.String[] { "Key", "Value", });
     emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.getDescriptor();
     emu.grasscutter.net.proto.DungeonCandidateTeamPlayerStateOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfo.getDescriptor();
+    emu.grasscutter.net.proto._UgcDungeonCandidateTeamInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

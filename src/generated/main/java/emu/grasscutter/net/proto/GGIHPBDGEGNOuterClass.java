@@ -595,8 +595,9 @@ public final class GGIHPBDGEGNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GGIHPBDGEGN.proto\"7\n\013GGIHPBDGEGN\022\023\n\013EI" +
-      "EHCNHCNHE\030\n \001(\r\022\023\n\013DNHMPLBIGGJ\030\014 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "EHCNHCNHE\030\n \001(\r\022\023\n\013DNHMPLBIGGJ\030\014 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025GGIHPBDGEGNOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

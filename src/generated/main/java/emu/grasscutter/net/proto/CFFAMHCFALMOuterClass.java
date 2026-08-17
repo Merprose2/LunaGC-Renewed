@@ -1049,8 +1049,8 @@ public final class CFFAMHCFALMOuterClass {
       "CHNGPHLEKJP.proto\"k\n\013CFFAMHCFALM\022\017\n\007item" +
       "_id\030\001 \001(\r\022!\n\treliquary\030\013 \001(\0132\014.AAMJJELIK" +
       "IPH\000\022\036\n\006weapon\030\014 \001(\0132\014.CHNGPHLEKJPH\000B\010\n\006" +
-      "detailB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "detailB2\n\031emu.grasscutter.net.protoB\025CFF" +
+      "AMHCFALMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

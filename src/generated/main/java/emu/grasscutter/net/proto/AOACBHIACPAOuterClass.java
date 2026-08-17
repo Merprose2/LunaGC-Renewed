@@ -587,8 +587,9 @@ public final class AOACBHIACPAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AOACBHIACPA.proto\"8\n\013AOACBHIACPA\022\023\n\013AP" +
-      "GDMMNLIGP\030\007 \001(\r\022\024\n\014furniture_id\030\t \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "GDMMNLIGP\030\007 \001(\r\022\024\n\014furniture_id\030\t \001(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025AOACBHIACPAO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

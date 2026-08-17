@@ -595,8 +595,9 @@ public final class COEPHMIKICAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021COEPHMIKICA.proto\"6\n\013COEPHMIKICA\022\021\n\tav" +
-      "atar_id\030\n \001(\r\022\024\n\014element_type\030\017 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "atar_id\030\n \001(\r\022\024\n\014element_type\030\017 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025COEPHMIKICAOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class AAPOIDAPMADOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AAPOIDAPMAD.proto\"0\n\013AAPOIDAPMAD\022\020\n\010le" +
-      "vel_id\030\t \001(\r\022\017\n\007retcode\030\014 \001(\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "vel_id\030\t \001(\r\022\017\n\007retcode\030\014 \001(\005B2\n\031emu.gra" +
+      "sscutter.net.protoB\025AAPOIDAPMADOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

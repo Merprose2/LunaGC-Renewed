@@ -27,11 +27,11 @@ public final class ENFGAIPBHPDOuterClass {
      * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 1;</code>
      * @return The oEIOKIJFLHG.
      */
-    emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo getOEIOKIJFLHG();
+    emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo getOEIOKIJFLHG();
     /**
      * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 1;</code>
      */
-    emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder getOEIOKIJFLHGOrBuilder();
+    emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder getOEIOKIJFLHGOrBuilder();
 
     /**
      * <code>._CostumeInfo MFKAOOHCMGE = 2;</code>
@@ -42,11 +42,11 @@ public final class ENFGAIPBHPDOuterClass {
      * <code>._CostumeInfo MFKAOOHCMGE = 2;</code>
      * @return The mFKAOOHCMGE.
      */
-    emu.grasscutter.net.proto.CostumeInfo._CostumeInfo getMFKAOOHCMGE();
+    emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo getMFKAOOHCMGE();
     /**
      * <code>._CostumeInfo MFKAOOHCMGE = 2;</code>
      */
-    emu.grasscutter.net.proto.CostumeInfo._CostumeInfoOrBuilder getMFKAOOHCMGEOrBuilder();
+    emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfoOrBuilder getMFKAOOHCMGEOrBuilder();
   }
   /**
    * Protobuf type {@code ENFGAIPBHPD}
@@ -94,11 +94,11 @@ public final class ENFGAIPBHPDOuterClass {
               done = true;
               break;
             case 10: {
-              emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder subBuilder = null;
               if (oEIOKIJFLHG_ != null) {
                 subBuilder = oEIOKIJFLHG_.toBuilder();
               }
-              oEIOKIJFLHG_ = input.readMessage(emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.parser(), extensionRegistry);
+              oEIOKIJFLHG_ = input.readMessage(emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(oEIOKIJFLHG_);
                 oEIOKIJFLHG_ = subBuilder.buildPartial();
@@ -107,11 +107,11 @@ public final class ENFGAIPBHPDOuterClass {
               break;
             }
             case 18: {
-              emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.Builder subBuilder = null;
               if (mFKAOOHCMGE_ != null) {
                 subBuilder = mFKAOOHCMGE_.toBuilder();
               }
-              mFKAOOHCMGE_ = input.readMessage(emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.parser(), extensionRegistry);
+              mFKAOOHCMGE_ = input.readMessage(emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(mFKAOOHCMGE_);
                 mFKAOOHCMGE_ = subBuilder.buildPartial();
@@ -152,7 +152,7 @@ public final class ENFGAIPBHPDOuterClass {
     }
 
     public static final int OEIOKIJFLHG_FIELD_NUMBER = 1;
-    private emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo oEIOKIJFLHG_;
+    private emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo oEIOKIJFLHG_;
     /**
      * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 1;</code>
      * @return Whether the oEIOKIJFLHG field is set.
@@ -166,19 +166,19 @@ public final class ENFGAIPBHPDOuterClass {
      * @return The oEIOKIJFLHG.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo getOEIOKIJFLHG() {
-      return oEIOKIJFLHG_ == null ? emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.getDefaultInstance() : oEIOKIJFLHG_;
+    public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo getOEIOKIJFLHG() {
+      return oEIOKIJFLHG_ == null ? emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.getDefaultInstance() : oEIOKIJFLHG_;
     }
     /**
      * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder getOEIOKIJFLHGOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder getOEIOKIJFLHGOrBuilder() {
       return getOEIOKIJFLHG();
     }
 
     public static final int MFKAOOHCMGE_FIELD_NUMBER = 2;
-    private emu.grasscutter.net.proto.CostumeInfo._CostumeInfo mFKAOOHCMGE_;
+    private emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo mFKAOOHCMGE_;
     /**
      * <code>._CostumeInfo MFKAOOHCMGE = 2;</code>
      * @return Whether the mFKAOOHCMGE field is set.
@@ -192,14 +192,14 @@ public final class ENFGAIPBHPDOuterClass {
      * @return The mFKAOOHCMGE.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CostumeInfo._CostumeInfo getMFKAOOHCMGE() {
-      return mFKAOOHCMGE_ == null ? emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.getDefaultInstance() : mFKAOOHCMGE_;
+    public emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo getMFKAOOHCMGE() {
+      return mFKAOOHCMGE_ == null ? emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.getDefaultInstance() : mFKAOOHCMGE_;
     }
     /**
      * <code>._CostumeInfo MFKAOOHCMGE = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CostumeInfo._CostumeInfoOrBuilder getMFKAOOHCMGEOrBuilder() {
+    public emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfoOrBuilder getMFKAOOHCMGEOrBuilder() {
       return getMFKAOOHCMGE();
     }
 
@@ -548,9 +548,9 @@ public final class ENFGAIPBHPDOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo oEIOKIJFLHG_;
+      private emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo oEIOKIJFLHG_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder> oEIOKIJFLHGBuilder_;
+          emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder> oEIOKIJFLHGBuilder_;
       /**
        * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 1;</code>
        * @return Whether the oEIOKIJFLHG field is set.
@@ -562,9 +562,9 @@ public final class ENFGAIPBHPDOuterClass {
        * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 1;</code>
        * @return The oEIOKIJFLHG.
        */
-      public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo getOEIOKIJFLHG() {
+      public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo getOEIOKIJFLHG() {
         if (oEIOKIJFLHGBuilder_ == null) {
-          return oEIOKIJFLHG_ == null ? emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.getDefaultInstance() : oEIOKIJFLHG_;
+          return oEIOKIJFLHG_ == null ? emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.getDefaultInstance() : oEIOKIJFLHG_;
         } else {
           return oEIOKIJFLHGBuilder_.getMessage();
         }
@@ -572,7 +572,7 @@ public final class ENFGAIPBHPDOuterClass {
       /**
        * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 1;</code>
        */
-      public Builder setOEIOKIJFLHG(emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo value) {
+      public Builder setOEIOKIJFLHG(emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo value) {
         if (oEIOKIJFLHGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -589,7 +589,7 @@ public final class ENFGAIPBHPDOuterClass {
        * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 1;</code>
        */
       public Builder setOEIOKIJFLHG(
-          emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder builderForValue) {
         if (oEIOKIJFLHGBuilder_ == null) {
           oEIOKIJFLHG_ = builderForValue.build();
           onChanged();
@@ -602,11 +602,11 @@ public final class ENFGAIPBHPDOuterClass {
       /**
        * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 1;</code>
        */
-      public Builder mergeOEIOKIJFLHG(emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo value) {
+      public Builder mergeOEIOKIJFLHG(emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo value) {
         if (oEIOKIJFLHGBuilder_ == null) {
           if (oEIOKIJFLHG_ != null) {
             oEIOKIJFLHG_ =
-              emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.newBuilder(oEIOKIJFLHG_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.newBuilder(oEIOKIJFLHG_).mergeFrom(value).buildPartial();
           } else {
             oEIOKIJFLHG_ = value;
           }
@@ -634,7 +634,7 @@ public final class ENFGAIPBHPDOuterClass {
       /**
        * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 1;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder getOEIOKIJFLHGBuilder() {
+      public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder getOEIOKIJFLHGBuilder() {
         
         onChanged();
         return getOEIOKIJFLHGFieldBuilder().getBuilder();
@@ -642,23 +642,23 @@ public final class ENFGAIPBHPDOuterClass {
       /**
        * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 1;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder getOEIOKIJFLHGOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder getOEIOKIJFLHGOrBuilder() {
         if (oEIOKIJFLHGBuilder_ != null) {
           return oEIOKIJFLHGBuilder_.getMessageOrBuilder();
         } else {
           return oEIOKIJFLHG_ == null ?
-              emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.getDefaultInstance() : oEIOKIJFLHG_;
+              emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.getDefaultInstance() : oEIOKIJFLHG_;
         }
       }
       /**
        * <code>._BeyondPlayerSocialInfo OEIOKIJFLHG = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder> 
+          emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder> 
           getOEIOKIJFLHGFieldBuilder() {
         if (oEIOKIJFLHGBuilder_ == null) {
           oEIOKIJFLHGBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder>(
+              emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder>(
                   getOEIOKIJFLHG(),
                   getParentForChildren(),
                   isClean());
@@ -667,9 +667,9 @@ public final class ENFGAIPBHPDOuterClass {
         return oEIOKIJFLHGBuilder_;
       }
 
-      private emu.grasscutter.net.proto.CostumeInfo._CostumeInfo mFKAOOHCMGE_;
+      private emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo mFKAOOHCMGE_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CostumeInfo._CostumeInfo, emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.Builder, emu.grasscutter.net.proto.CostumeInfo._CostumeInfoOrBuilder> mFKAOOHCMGEBuilder_;
+          emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo, emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.Builder, emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfoOrBuilder> mFKAOOHCMGEBuilder_;
       /**
        * <code>._CostumeInfo MFKAOOHCMGE = 2;</code>
        * @return Whether the mFKAOOHCMGE field is set.
@@ -681,9 +681,9 @@ public final class ENFGAIPBHPDOuterClass {
        * <code>._CostumeInfo MFKAOOHCMGE = 2;</code>
        * @return The mFKAOOHCMGE.
        */
-      public emu.grasscutter.net.proto.CostumeInfo._CostumeInfo getMFKAOOHCMGE() {
+      public emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo getMFKAOOHCMGE() {
         if (mFKAOOHCMGEBuilder_ == null) {
-          return mFKAOOHCMGE_ == null ? emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.getDefaultInstance() : mFKAOOHCMGE_;
+          return mFKAOOHCMGE_ == null ? emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.getDefaultInstance() : mFKAOOHCMGE_;
         } else {
           return mFKAOOHCMGEBuilder_.getMessage();
         }
@@ -691,7 +691,7 @@ public final class ENFGAIPBHPDOuterClass {
       /**
        * <code>._CostumeInfo MFKAOOHCMGE = 2;</code>
        */
-      public Builder setMFKAOOHCMGE(emu.grasscutter.net.proto.CostumeInfo._CostumeInfo value) {
+      public Builder setMFKAOOHCMGE(emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo value) {
         if (mFKAOOHCMGEBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -708,7 +708,7 @@ public final class ENFGAIPBHPDOuterClass {
        * <code>._CostumeInfo MFKAOOHCMGE = 2;</code>
        */
       public Builder setMFKAOOHCMGE(
-          emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.Builder builderForValue) {
         if (mFKAOOHCMGEBuilder_ == null) {
           mFKAOOHCMGE_ = builderForValue.build();
           onChanged();
@@ -721,11 +721,11 @@ public final class ENFGAIPBHPDOuterClass {
       /**
        * <code>._CostumeInfo MFKAOOHCMGE = 2;</code>
        */
-      public Builder mergeMFKAOOHCMGE(emu.grasscutter.net.proto.CostumeInfo._CostumeInfo value) {
+      public Builder mergeMFKAOOHCMGE(emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo value) {
         if (mFKAOOHCMGEBuilder_ == null) {
           if (mFKAOOHCMGE_ != null) {
             mFKAOOHCMGE_ =
-              emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.newBuilder(mFKAOOHCMGE_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.newBuilder(mFKAOOHCMGE_).mergeFrom(value).buildPartial();
           } else {
             mFKAOOHCMGE_ = value;
           }
@@ -753,7 +753,7 @@ public final class ENFGAIPBHPDOuterClass {
       /**
        * <code>._CostumeInfo MFKAOOHCMGE = 2;</code>
        */
-      public emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.Builder getMFKAOOHCMGEBuilder() {
+      public emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.Builder getMFKAOOHCMGEBuilder() {
         
         onChanged();
         return getMFKAOOHCMGEFieldBuilder().getBuilder();
@@ -761,23 +761,23 @@ public final class ENFGAIPBHPDOuterClass {
       /**
        * <code>._CostumeInfo MFKAOOHCMGE = 2;</code>
        */
-      public emu.grasscutter.net.proto.CostumeInfo._CostumeInfoOrBuilder getMFKAOOHCMGEOrBuilder() {
+      public emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfoOrBuilder getMFKAOOHCMGEOrBuilder() {
         if (mFKAOOHCMGEBuilder_ != null) {
           return mFKAOOHCMGEBuilder_.getMessageOrBuilder();
         } else {
           return mFKAOOHCMGE_ == null ?
-              emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.getDefaultInstance() : mFKAOOHCMGE_;
+              emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.getDefaultInstance() : mFKAOOHCMGE_;
         }
       }
       /**
        * <code>._CostumeInfo MFKAOOHCMGE = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CostumeInfo._CostumeInfo, emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.Builder, emu.grasscutter.net.proto.CostumeInfo._CostumeInfoOrBuilder> 
+          emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo, emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.Builder, emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfoOrBuilder> 
           getMFKAOOHCMGEFieldBuilder() {
         if (mFKAOOHCMGEBuilder_ == null) {
           mFKAOOHCMGEBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CostumeInfo._CostumeInfo, emu.grasscutter.net.proto.CostumeInfo._CostumeInfo.Builder, emu.grasscutter.net.proto.CostumeInfo._CostumeInfoOrBuilder>(
+              emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo, emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfo.Builder, emu.grasscutter.net.proto._CostumeInfoOuterClass._CostumeInfoOrBuilder>(
                   getMFKAOOHCMGE(),
                   getParentForChildren(),
                   isClean());
@@ -856,14 +856,14 @@ public final class ENFGAIPBHPDOuterClass {
       "Info.proto\032\022_CostumeInfo.proto\"`\n\013ENFGAI" +
       "PBHPD\022-\n\013OEIOKIJFLHG\030\001 \001(\0132\030._BeyondPlay" +
       "erSocialInfo\022\"\n\013MFKAOOHCMGE\030\002 \001(\0132\r._Cos" +
-      "tumeInfoB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "tumeInfoB2\n\031emu.grasscutter.net.protoB\025E" +
+      "NFGAIPBHPDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BeyondPlayerSocialInfo.getDescriptor(),
-          emu.grasscutter.net.proto.CostumeInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._CostumeInfoOuterClass.getDescriptor(),
         });
     internal_static_ENFGAIPBHPD_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -871,8 +871,8 @@ public final class ENFGAIPBHPDOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ENFGAIPBHPD_descriptor,
         new java.lang.String[] { "OEIOKIJFLHG", "MFKAOOHCMGE", });
-    emu.grasscutter.net.proto.BeyondPlayerSocialInfo.getDescriptor();
-    emu.grasscutter.net.proto.CostumeInfo.getDescriptor();
+    emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._CostumeInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -863,8 +863,9 @@ public final class OEAAFHOILBGOuterClass {
       "\n\021OEAAFHOILBG.proto\032\021EBADNHGKAAP.proto\"i" +
       "\n\013OEAAFHOILBG\022\017\n\007talk_id\030\001 \001(\005\022\023\n\013LLJDPP" +
       "FCEGG\030\002 \001(\005\022\021\n\tis_active\030\003 \001(\010\022!\n\013GEKGLE" +
-      "NKCJA\030\004 \001(\0132\014.EBADNHGKAAPB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "NKCJA\030\004 \001(\0132\014.EBADNHGKAAPB2\n\031emu.grasscu" +
+      "tter.net.protoB\025OEAAFHOILBGOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

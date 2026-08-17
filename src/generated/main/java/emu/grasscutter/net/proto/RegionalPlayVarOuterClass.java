@@ -734,8 +734,9 @@ public final class RegionalPlayVarOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025RegionalPlayVar.proto\"X\n\017RegionalPlayV" +
       "ar\022\014\n\004type\030\001 \001(\r\022\r\n\005value\030\003 \001(\002\022\023\n\013NEAOE" +
-      "NNDGHJ\030\004 \001(\002\022\023\n\013KLCNHCOPGAK\030\t \001(\002B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "NNDGHJ\030\004 \001(\002\022\023\n\013KLCNHCOPGAK\030\t \001(\002B6\n\031emu" +
+      ".grasscutter.net.protoB\031RegionalPlayVarO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

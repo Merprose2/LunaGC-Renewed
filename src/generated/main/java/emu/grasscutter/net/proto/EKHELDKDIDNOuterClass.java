@@ -1034,8 +1034,9 @@ public final class EKHELDKDIDNOuterClass {
       "\n\021EKHELDKDIDN.proto\"\207\001\n\013EKHELDKDIDN\022\020\n\010l" +
       "evel_id\030\001 \001(\004\022\023\n\013HMFHCPIKGCO\030\002 \001(\t\022\023\n\013AM" +
       "MOBBENFNL\030\003 \001(\005\022\023\n\013HEDEJKJBOEJ\030\004 \001(\005\022\023\n\013" +
-      "NGEDGDGBAID\030\005 \001(\014\022\022\n\nrequest_id\030\006 \001(\tB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "NGEDGDGBAID\030\005 \001(\014\022\022\n\nrequest_id\030\006 \001(\tB2\n" +
+      "\031emu.grasscutter.net.protoB\025EKHELDKDIDNO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

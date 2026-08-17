@@ -995,8 +995,9 @@ public final class BNPOIJAFIOAOuterClass {
       "\n\021BNPOIJAFIOA.proto\032\014Vector.proto\"s\n\013BNP" +
       "OIJAFIOA\022\034\n\013CNNECALKHDP\030\001 \001(\0132\007.Vector\022\023" +
       "\n\013CCEDIPELCBL\030\t \001(\005\022\023\n\013OFMPAGOLOJP\030\n \001(\005" +
-      "\022\034\n\013ONIMAIAIGKE\030\016 \001(\0132\007.VectorB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\022\034\n\013ONIMAIAIGKE\030\016 \001(\0132\007.VectorB2\n\031emu.gr" +
+      "asscutter.net.protoB\025BNPOIJAFIOAOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

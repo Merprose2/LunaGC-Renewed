@@ -1625,8 +1625,9 @@ public final class PHIBCMPNELIOuterClass {
       "\001(\005\022!\n\013FDLHKOKLLHF\030\007 \001(\0132\014.GCDNCDJBDAF\022!" +
       "\n\013KHLIKKLLPAP\030\010 \001(\0132\014.JHABMHAPMPG\022!\n\013OMO" +
       "LFLKMNNN\030\t \001(\0132\014.JHABMHAPMPG\022\023\n\013EIGMINLG" +
-      "MIK\030\n \001(\005\022\023\n\013LGHLKGGDFCB\030\013 \001(\005B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "MIK\030\n \001(\005\022\023\n\013LGHLKGGDFCB\030\013 \001(\005B2\n\031emu.gr" +
+      "asscutter.net.protoB\025PHIBCMPNELIOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

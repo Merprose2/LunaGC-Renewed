@@ -1281,8 +1281,9 @@ public final class APJAEDHAOOOOuterClass {
       "_xbox_gamertag\030\003 \001(\t\022(\n\017profile_picture\030" +
       "\007 \001(\0132\017.ProfilePicture\022\021\n\tonline_id\030\t \001(" +
       "\t\022\020\n\010nickname\030\n \001(\t\022\013\n\003uid\030\013 \001(\r\022\033\n\005stat" +
-      "e\030\014 \001(\0162\014.OMLILELEJCJB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "e\030\014 \001(\0162\014.OMLILELEJCJB2\n\031emu.grasscutter" +
+      ".net.protoB\025APJAEDHAOOOOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

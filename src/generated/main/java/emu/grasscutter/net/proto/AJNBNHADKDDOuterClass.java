@@ -972,7 +972,8 @@ public final class AJNBNHADKDDOuterClass {
       "\n\021AJNBNHADKDD.proto\032\017ItemParam.proto\"R\n\013" +
       "AJNBNHADKDD\022\023\n\013ECCEPEPIBEL\030\010 \001(\r\022\035\n\titem" +
       "_list\030\t \003(\0132\n.ItemParam\022\017\n\007retcode\030\013 \001(\005" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025AJNBNHADK" +
+      "DDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

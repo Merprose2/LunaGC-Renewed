@@ -2047,8 +2047,8 @@ public final class ENMKHCKNKELOuterClass {
       "activated\030\005 \001(\010\022(\n\013AIODKDNIECF\030\006 \003(\0132\023.R" +
       "eunionWatcherInfo\022\023\n\013IDJNHDCHCAP\030\010 \001(\r\022\023" +
       "\n\013JNLJEDCHCGK\030\016 \003(\r\022 \n\013GOKOCLIFPJN\030\017 \003(\013" +
-      "2\013.Uint32PairB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "2\013.Uint32PairB2\n\031emu.grasscutter.net.pro" +
+      "toB\025ENMKHCKNKELOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

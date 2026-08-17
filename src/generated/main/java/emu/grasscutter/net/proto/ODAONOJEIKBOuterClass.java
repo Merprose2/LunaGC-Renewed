@@ -722,8 +722,9 @@ public final class ODAONOJEIKBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ODAONOJEIKB.proto\"7\n\013ODAONOJEIKB\022\023\n\013KM" +
-      "DOFBPMGAI\030\013 \001(\r\022\023\n\013JJMIKFGBIOM\030\017 \003(\005B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "DOFBPMGAI\030\013 \001(\r\022\023\n\013JJMIKFGBIOM\030\017 \003(\005B2\n\031" +
+      "emu.grasscutter.net.protoB\025ODAONOJEIKBOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

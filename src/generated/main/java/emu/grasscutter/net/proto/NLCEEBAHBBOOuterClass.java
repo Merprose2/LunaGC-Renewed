@@ -595,8 +595,9 @@ public final class NLCEEBAHBBOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NLCEEBAHBBO.proto\"/\n\013NLCEEBAHBBO\022\017\n\007re" +
-      "tcode\030\007 \001(\005\022\017\n\007deck_id\030\010 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "tcode\030\007 \001(\005\022\017\n\007deck_id\030\010 \001(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025NLCEEBAHBBOOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

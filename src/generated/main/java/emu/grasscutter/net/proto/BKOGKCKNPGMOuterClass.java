@@ -1509,8 +1509,9 @@ public final class BKOGKCKNPGMOuterClass {
       "CDOJLEDM\030\003 \001(\003\022\023\n\013ALHLDDJEBGI\030\004 \001(\003\022\023\n\013D" +
       "LKAMPLHOGL\030\005 \003(\t\022!\n\013PDGEPNFOJAF\030\006 \003(\0162\014." +
       "GFKBOPBFDJP\022\024\n\014publish_time\030\007 \001(\003\022!\n\013DJI" +
-      "HDMHPDEA\030\010 \001(\0162\014.JEHCBGCONAFB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "HDMHPDEA\030\010 \001(\0162\014.JEHCBGCONAFB2\n\031emu.gras" +
+      "scutter.net.protoB\025BKOGKCKNPGMOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

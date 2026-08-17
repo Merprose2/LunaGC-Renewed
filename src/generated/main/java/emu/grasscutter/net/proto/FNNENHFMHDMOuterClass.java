@@ -1274,8 +1274,9 @@ public final class FNNENHFMHDMOuterClass {
       "ABMHAPMPG\022\023\n\013NOOKFDLAHFG\030\002 \001(\002\022\023\n\013JADGNC" +
       "DPAAO\030\003 \001(\010\022\023\n\013PDJBICJCMKN\030\004 \001(\010\022!\n\013CAMP" +
       "GKGEBOI\030\005 \001(\0132\014.JHABMHAPMPG\022!\n\013OEJGCMPBC" +
-      "EM\030\006 \001(\0132\014.JHABMHAPMPGB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "EM\030\006 \001(\0132\014.JHABMHAPMPGB2\n\031emu.grasscutte" +
+      "r.net.protoB\025FNNENHFMHDMOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

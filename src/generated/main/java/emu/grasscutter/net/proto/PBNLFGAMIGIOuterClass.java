@@ -1028,8 +1028,8 @@ public final class PBNLFGAMIGIOuterClass {
       "fo.proto\032\026OnlinePlayerInfo.proto\"`\n\013PBNL" +
       "FGAMIGI\022&\n\013player_info\030\005 \001(\0132\021.OnlinePla" +
       "yerInfo\022)\n\tinfo_list\030\t \003(\0132\026.ExhibitionD" +
-      "isplayInfoB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "isplayInfoB2\n\031emu.grasscutter.net.protoB" +
+      "\025PBNLFGAMIGIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

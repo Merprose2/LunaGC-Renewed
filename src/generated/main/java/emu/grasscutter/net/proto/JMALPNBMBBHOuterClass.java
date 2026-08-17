@@ -785,8 +785,8 @@ public final class JMALPNBMBBHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JMALPNBMBBH.proto\"K\n\013JMALPNBMBBH\022\022\n\nbe" +
       "gin_time\030\002 \001(\007\022\020\n\010end_time\030\004 \001(\007\022\026\n\016avat" +
-      "ar_id_list\030\r \003(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "ar_id_list\030\r \003(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025JMALPNBMBBHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

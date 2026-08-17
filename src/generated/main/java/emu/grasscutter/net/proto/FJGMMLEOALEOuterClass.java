@@ -2898,7 +2898,8 @@ public final class FJGMMLEOALEOuterClass {
       "MEOFENLJ\030\003 \001(\r\022\023\n\013EOKIMNBFJEB\030\004 \001(\010\022\023\n\013K" +
       "BJGGOBIMHO\030\005 \001(\r\022\023\n\013HFIGELIDIOK\030\006 \001(\r\022\023\n" +
       "\013HJGNBDIEABE\030\007 \001(\010\022\023\n\013NLCJHNCMKPD\030\010 \001(\004B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025FJGMMLEOAL" +
+      "EOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

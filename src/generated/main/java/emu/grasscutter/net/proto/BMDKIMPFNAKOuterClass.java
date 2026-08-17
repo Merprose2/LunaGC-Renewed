@@ -454,8 +454,9 @@ public final class BMDKIMPFNAKOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021BMDKIMPFNAK.proto\"\r\n\013BMDKIMPFNAKB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021BMDKIMPFNAK.proto\"\r\n\013BMDKIMPFNAKB2\n\031em" +
+      "u.grasscutter.net.protoB\025BMDKIMPFNAKOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

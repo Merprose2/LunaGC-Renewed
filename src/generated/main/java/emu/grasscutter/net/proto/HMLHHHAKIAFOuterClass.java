@@ -1684,8 +1684,9 @@ public final class HMLHHHAKIAFOuterClass {
       "layInfo\022\025\n\ris_new_record\030\003 \001(\010\022\017\n\007is_suc" +
       "c\030\005 \001(\010\022\027\n\017winner_uid_list\030\n \003(\r\022\023\n\013BCBL" +
       "IJDGIGO\030\013 \001(\010\022\023\n\013KDBOHEGKGLG\030\014 \001(\r\022&\n\020se" +
-      "ttle_info_list\030\017 \003(\0132\014.MPDFBEJOEHLB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ttle_info_list\030\017 \003(\0132\014.MPDFBEJOEHLB2\n\031em" +
+      "u.grasscutter.net.protoB\025HMLHHHAKIAFOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

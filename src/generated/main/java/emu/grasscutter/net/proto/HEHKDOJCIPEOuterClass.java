@@ -728,8 +728,9 @@ public final class HEHKDOJCIPEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HEHKDOJCIPE.proto\"W\n\013HEHKDOJCIPE\022\023\n\013BD" +
       "EEBIMNKPB\030\003 \001(\r\022\023\n\013GHCCHEIIPKP\030\006 \001(\r\022\013\n\003" +
-      "uid\030\014 \001(\r\022\021\n\ttimestamp\030\017 \001(\007B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "uid\030\014 \001(\r\022\021\n\ttimestamp\030\017 \001(\007B2\n\031emu.gras" +
+      "scutter.net.protoB\025HEHKDOJCIPEOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

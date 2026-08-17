@@ -1780,8 +1780,9 @@ public final class QueryCurrRegionHttpRspOuterClass {
       "ret_key\030\013 \001(\014\022&\n\036region_custom_config_en" +
       "crypted\030\014 \001(\014\022-\n%client_region_custom_co" +
       "nfig_encrypted\030\r \001(\014\022\034\n\024_connect_gate_ti" +
-      "cket\030\016 \001(\tB\010\n\006detailB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "cket\030\016 \001(\tB\010\n\006detailB=\n\031emu.grasscutter." +
+      "net.protoB QueryCurrRegionHttpRspOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

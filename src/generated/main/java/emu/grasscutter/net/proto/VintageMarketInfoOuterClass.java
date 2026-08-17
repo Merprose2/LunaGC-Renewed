@@ -3318,8 +3318,8 @@ public final class VintageMarketInfoOuterClass {
       "\030\354\010 \001(\010\022\024\n\013JLDIGMDFJFL\030\232\t \001(\010\022\024\n\013HJJABBN" +
       "NCIA\030\301\014 \001(\r\022\024\n\013JOMKHCMAPLM\030\250\r \001(\010\0325\n\023Bar" +
       "gainInfoMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002" +
-      " \001(\010:\0028\001B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      " \001(\010:\0028\001B8\n\031emu.grasscutter.net.protoB\033V" +
+      "intageMarketInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

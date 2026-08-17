@@ -596,7 +596,8 @@ public final class GetSceneAreaReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025GetSceneAreaReq.proto\"7\n\017GetSceneAreaR" +
       "eq\022\020\n\010scene_id\030\005 \001(\r\022\022\n\nbelong_uid\030\r \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B6\n\031emu.grasscutter.net.protoB\031GetSceneA" +
+      "reaReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

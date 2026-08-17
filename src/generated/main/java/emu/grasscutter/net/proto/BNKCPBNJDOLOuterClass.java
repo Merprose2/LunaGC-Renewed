@@ -596,8 +596,9 @@ public final class BNKCPBNJDOLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BNKCPBNJDOL.proto\"2\n\013BNKCPBNJDOL\022\021\n\tis" +
-      "_unlock\030\004 \001(\010\022\020\n\010end_time\030\006 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "_unlock\030\004 \001(\010\022\020\n\010end_time\030\006 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025BNKCPBNJDOLOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -808,8 +808,9 @@ public final class CKKOCLOCHFKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CKKOCLOCHFK.proto\"_\n\013CKKOCLOCHFK\022\023\n\013EJ" +
       "DDPBDEOGL\030\001 \001(\005\022\020\n\010point_id\030\002 \001(\005\022\023\n\013APG" +
-      "DMDLAPDJ\030\003 \001(\005\022\024\n\013AKEJMFNAGHC\030\365\003 \001(\tB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "DMDLAPDJ\030\003 \001(\005\022\024\n\013AKEJMFNAGHC\030\365\003 \001(\tB2\n\031" +
+      "emu.grasscutter.net.protoB\025CKKOCLOCHFKOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

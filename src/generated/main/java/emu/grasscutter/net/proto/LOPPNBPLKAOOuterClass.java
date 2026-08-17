@@ -667,8 +667,8 @@ public final class LOPPNBPLKAOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LOPPNBPLKAO.proto\"H\n\013LOPPNBPLKAO\022\023\n\013NA" +
       "EENHKJLHF\030\005 \001(\010\022\023\n\013MJOCLODDHNM\030\010 \001(\r\022\017\n\007" +
-      "retcode\030\r \001(\005B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "retcode\030\r \001(\005B2\n\031emu.grasscutter.net.pro" +
+      "toB\025LOPPNBPLKAOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

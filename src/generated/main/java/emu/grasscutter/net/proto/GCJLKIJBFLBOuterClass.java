@@ -2545,8 +2545,9 @@ public final class GCJLKIJBFLBOuterClass {
       "PDCBCNP\030\365\003 \001(\r\022\020\n\007item_id\030\366\003 \001(\r\022\024\n\013LDGG" +
       "MBGDLJL\030\367\003 \001(\t\022\024\n\013BEJDAEEHCFN\030\370\003 \001(\010\022\024\n\013" +
       "ECMIPJDGDKG\030\371\003 \001(\010\022\024\n\013ONMNHCOBKIA\030\372\003 \001(\010" +
-      "\022\024\n\013filter_type\030\373\003 \001(\005B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\022\024\n\013filter_type\030\373\003 \001(\005B2\n\031emu.grasscutte" +
+      "r.net.protoB\025GCJLKIJBFLBOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

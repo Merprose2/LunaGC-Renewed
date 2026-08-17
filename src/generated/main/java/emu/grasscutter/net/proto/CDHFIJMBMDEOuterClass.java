@@ -927,8 +927,9 @@ public final class CDHFIJMBMDEOuterClass {
       "\n\021CDHFIJMBMDE.proto\"{\n\013CDHFIJMBMDE\022\024\n\013EL" +
       "CPLHGNCPO\030\365\003 \001(\010\022\024\n\013OFBMFEKMLLM\030\366\003 \003(\r\022\024" +
       "\n\013ECBLAPFKDIK\030\367\003 \001(\r\022\024\n\013OEPPBICPIJK\030\370\003 \001" +
-      "(\r\022\024\n\013AGPDFLPBJMB\030\371\003 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "(\r\022\024\n\013AGPDFLPBJMB\030\371\003 \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025CDHFIJMBMDEOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

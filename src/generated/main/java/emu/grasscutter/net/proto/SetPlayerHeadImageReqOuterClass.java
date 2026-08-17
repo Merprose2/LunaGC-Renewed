@@ -526,7 +526,8 @@ public final class SetPlayerHeadImageReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033SetPlayerHeadImageReq.proto\"3\n\025SetPlay" +
       "erHeadImageReq\022\032\n\022profile_picture_id\030\004 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB<\n\031emu.grasscutter.net.protoB\037SetPlay" +
+      "erHeadImageReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

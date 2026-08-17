@@ -588,8 +588,9 @@ public final class KEOCKPCDANAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KEOCKPCDANA.proto\"7\n\013KEOCKPCDANA\022\023\n\013_l" +
-      "evel_guid\030\004 \001(\004\022\023\n\013GELJKKHEEBH\030\010 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "evel_guid\030\004 \001(\004\022\023\n\013GELJKKHEEBH\030\010 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025KEOCKPCDANAOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

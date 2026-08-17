@@ -996,8 +996,9 @@ public final class AbilityMixinPartMoveOuterClass {
       "\n\032AbilityMixinPartMove.proto\032\014Vector.pro" +
       "to\"d\n\024AbilityMixinPartMove\022\021\n\ttimestamp\030" +
       "\002 \001(\004\022\r\n\005state\030\013 \001(\r\022\024\n\003pos\030\016 \001(\0132\007.Vect" +
-      "or\022\024\n\003rot\030\017 \001(\0132\007.VectorB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "or\022\024\n\003rot\030\017 \001(\0132\007.VectorB;\n\031emu.grasscut" +
+      "ter.net.protoB\036AbilityMixinPartMoveOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

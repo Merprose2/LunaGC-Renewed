@@ -666,8 +666,9 @@ public final class OPICKDEILAEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OPICKDEILAE.proto\"R\n\013OPICKDEILAE\022\023\n\013ac" +
       "tivity_id\030\002 \001(\r\022\035\n\025trial_avatar_index_id" +
-      "\030\005 \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\030\005 \001(\r\022\017\n\007retcode\030\017 \001(\005B2\n\031emu.grasscutt" +
+      "er.net.protoB\025OPICKDEILAEOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -587,8 +587,9 @@ public final class CEIDAKMCDHCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CEIDAKMCDHC.proto\"8\n\013CEIDAKMCDHC\022\026\n\016fu" +
-      "rniture_type\030\004 \001(\r\022\021\n\tavatar_id\030\t \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "rniture_type\030\004 \001(\r\022\021\n\tavatar_id\030\t \001(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025CEIDAKMCDHCO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

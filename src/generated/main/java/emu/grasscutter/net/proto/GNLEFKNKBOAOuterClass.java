@@ -1042,8 +1042,9 @@ public final class GNLEFKNKBOAOuterClass {
       "_NONE\020\000\022\025\n\021GLPOGFCHKAG_DAILY\020\001\"z\n\013EFCMEE" +
       "FEAFO\022\027\n\023EFCMEEFEAFO_INVALID\020\000\022\032\n\026EFCMEE" +
       "FEAFO_UNFINISHED\020\001\022\030\n\024EFCMEEFEAFO_FINISH" +
-      "ED\020\002\022\034\n\030EFCMEEFEAFO_TAKEN_REWARD\020\003B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ED\020\002\022\034\n\030EFCMEEFEAFO_TAKEN_REWARD\020\003B2\n\031em" +
+      "u.grasscutter.net.protoB\025GNLEFKNKBOAOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

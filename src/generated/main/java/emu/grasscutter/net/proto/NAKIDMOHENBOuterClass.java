@@ -587,8 +587,9 @@ public final class NAKIDMOHENBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NAKIDMOHENB.proto\"1\n\013NAKIDMOHENB\022\023\n\013EM" +
-      "BJNKGJLFN\030\001 \001(\r\022\r\n\005count\030\002 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "BJNKGJLFN\030\001 \001(\r\022\r\n\005count\030\002 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025NAKIDMOHENBOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

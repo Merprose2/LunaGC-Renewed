@@ -142,8 +142,9 @@ public final class OMLILELEJCJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OMLILELEJCJ.proto*R\n\013OMLILELEJCJ\022\024\n\020OM" +
       "LILELEJCJ_NONE\020\000\022\027\n\023OMLILELEJCJ_ENTERED\020" +
-      "\001\022\024\n\020OMLILELEJCJ_QUIT\020\002B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\001\022\024\n\020OMLILELEJCJ_QUIT\020\002B2\n\031emu.grasscutt" +
+      "er.net.protoB\025OMLILELEJCJOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

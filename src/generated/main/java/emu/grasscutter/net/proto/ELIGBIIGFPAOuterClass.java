@@ -518,8 +518,8 @@ public final class ELIGBIIGFPAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ELIGBIIGFPA.proto\"\"\n\013ELIGBIIGFPA\022\023\n\013ED" +
-      "BJPDHONMJ\030\001 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "BJPDHONMJ\030\001 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025ELIGBIIGFPAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

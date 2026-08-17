@@ -742,8 +742,8 @@ public final class FPINNIEHHMIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FPINNIEHHMI.proto\"O\n\013FPINNIEHHMI\022\024\n\013HC" +
       "FLNIGMINO\030\365\003 \001(\t\022\024\n\013NFDBAJEANMG\030\366\003 \001(\002\022\024" +
-      "\n\013GPDNBDHKDFB\030\367\003 \001(\002B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\n\013GPDNBDHKDFB\030\367\003 \001(\002B2\n\031emu.grasscutter." +
+      "net.protoB\025FPINNIEHHMIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

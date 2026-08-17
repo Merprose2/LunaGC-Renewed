@@ -446,8 +446,9 @@ public final class CMBCNBLIMFGOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021CMBCNBLIMFG.proto\"\r\n\013CMBCNBLIMFGB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021CMBCNBLIMFG.proto\"\r\n\013CMBCNBLIMFGB2\n\031em" +
+      "u.grasscutter.net.protoB\025CMBCNBLIMFGOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

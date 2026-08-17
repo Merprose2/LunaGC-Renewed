@@ -592,7 +592,8 @@ public final class CylinderRegionSizeOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030CylinderRegionSize.proto\"4\n\022CylinderRe" +
       "gionSize\022\016\n\006radius\030\001 \001(\002\022\016\n\006height\030\013 \001(\002" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B9\n\031emu.grasscutter.net.protoB\034CylinderR" +
+      "egionSizeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

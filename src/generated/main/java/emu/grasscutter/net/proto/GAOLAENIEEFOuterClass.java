@@ -72,12 +72,12 @@ public final class GAOLAENIEEFOuterClass {
     /**
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo> 
+    java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> 
         getOIIMDKMDFFIList();
     /**
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
      */
-    emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo getOIIMDKMDFFI(int index);
+    emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo getOIIMDKMDFFI(int index);
     /**
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
      */
@@ -85,12 +85,12 @@ public final class GAOLAENIEEFOuterClass {
     /**
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder> 
         getOIIMDKMDFFIOrBuilderList();
     /**
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
      */
-    emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder getOIIMDKMDFFIOrBuilder(
+    emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder getOIIMDKMDFFIOrBuilder(
         int index);
 
     /**
@@ -102,12 +102,12 @@ public final class GAOLAENIEEFOuterClass {
     /**
      * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> 
+    java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> 
         getFMBPOBNCJCPList();
     /**
      * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
      */
-    emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getFMBPOBNCJCP(int index);
+    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getFMBPOBNCJCP(int index);
     /**
      * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
      */
@@ -115,12 +115,12 @@ public final class GAOLAENIEEFOuterClass {
     /**
      * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> 
         getFMBPOBNCJCPOrBuilderList();
     /**
      * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
      */
-    emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getFMBPOBNCJCPOrBuilder(
+    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getFMBPOBNCJCPOrBuilder(
         int index);
 
     /**
@@ -237,11 +237,11 @@ public final class GAOLAENIEEFOuterClass {
             }
             case 90: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                oIIMDKMDFFI_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo>();
+                oIIMDKMDFFI_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo>();
                 mutable_bitField0_ |= 0x00000002;
               }
               oIIMDKMDFFI_.add(
-                  input.readMessage(emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.parser(), extensionRegistry));
               break;
             }
             case 96: {
@@ -251,11 +251,11 @@ public final class GAOLAENIEEFOuterClass {
             }
             case 106: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                fMBPOBNCJCP_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo>();
+                fMBPOBNCJCP_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo>();
                 mutable_bitField0_ |= 0x00000004;
               }
               fMBPOBNCJCP_.add(
-                  input.readMessage(emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.parser(), extensionRegistry));
               break;
             }
             case 114: {
@@ -405,19 +405,19 @@ public final class GAOLAENIEEFOuterClass {
     }
 
     public static final int OIIMDKMDFFI_FIELD_NUMBER = 11;
-    private java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo> oIIMDKMDFFI_;
+    private java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> oIIMDKMDFFI_;
     /**
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo> getOIIMDKMDFFIList() {
+    public java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> getOIIMDKMDFFIList() {
       return oIIMDKMDFFI_;
     }
     /**
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder> 
         getOIIMDKMDFFIOrBuilderList() {
       return oIIMDKMDFFI_;
     }
@@ -432,14 +432,14 @@ public final class GAOLAENIEEFOuterClass {
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo getOIIMDKMDFFI(int index) {
+    public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo getOIIMDKMDFFI(int index) {
       return oIIMDKMDFFI_.get(index);
     }
     /**
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder getOIIMDKMDFFIOrBuilder(
+    public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder getOIIMDKMDFFIOrBuilder(
         int index) {
       return oIIMDKMDFFI_.get(index);
     }
@@ -456,19 +456,19 @@ public final class GAOLAENIEEFOuterClass {
     }
 
     public static final int FMBPOBNCJCP_FIELD_NUMBER = 13;
-    private java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> fMBPOBNCJCP_;
+    private java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> fMBPOBNCJCP_;
     /**
      * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> getFMBPOBNCJCPList() {
+    public java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> getFMBPOBNCJCPList() {
       return fMBPOBNCJCP_;
     }
     /**
      * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> 
         getFMBPOBNCJCPOrBuilderList() {
       return fMBPOBNCJCP_;
     }
@@ -483,14 +483,14 @@ public final class GAOLAENIEEFOuterClass {
      * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getFMBPOBNCJCP(int index) {
+    public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getFMBPOBNCJCP(int index) {
       return fMBPOBNCJCP_.get(index);
     }
     /**
      * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getFMBPOBNCJCPOrBuilder(
+    public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getFMBPOBNCJCPOrBuilder(
         int index) {
       return fMBPOBNCJCP_.get(index);
     }
@@ -1573,22 +1573,22 @@ public final class GAOLAENIEEFOuterClass {
         return gFEIOJNEEIIBuilder_;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo> oIIMDKMDFFI_ =
+      private java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> oIIMDKMDFFI_ =
         java.util.Collections.emptyList();
       private void ensureOIIMDKMDFFIIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          oIIMDKMDFFI_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo>(oIIMDKMDFFI_);
+          oIIMDKMDFFI_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo>(oIIMDKMDFFI_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder> oIIMDKMDFFIBuilder_;
+          emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder> oIIMDKMDFFIBuilder_;
 
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo> getOIIMDKMDFFIList() {
+      public java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> getOIIMDKMDFFIList() {
         if (oIIMDKMDFFIBuilder_ == null) {
           return java.util.Collections.unmodifiableList(oIIMDKMDFFI_);
         } else {
@@ -1608,7 +1608,7 @@ public final class GAOLAENIEEFOuterClass {
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
        */
-      public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo getOIIMDKMDFFI(int index) {
+      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo getOIIMDKMDFFI(int index) {
         if (oIIMDKMDFFIBuilder_ == null) {
           return oIIMDKMDFFI_.get(index);
         } else {
@@ -1619,7 +1619,7 @@ public final class GAOLAENIEEFOuterClass {
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
        */
       public Builder setOIIMDKMDFFI(
-          int index, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo value) {
+          int index, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo value) {
         if (oIIMDKMDFFIBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1636,7 +1636,7 @@ public final class GAOLAENIEEFOuterClass {
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
        */
       public Builder setOIIMDKMDFFI(
-          int index, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder builderForValue) {
         if (oIIMDKMDFFIBuilder_ == null) {
           ensureOIIMDKMDFFIIsMutable();
           oIIMDKMDFFI_.set(index, builderForValue.build());
@@ -1649,7 +1649,7 @@ public final class GAOLAENIEEFOuterClass {
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
        */
-      public Builder addOIIMDKMDFFI(emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo value) {
+      public Builder addOIIMDKMDFFI(emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo value) {
         if (oIIMDKMDFFIBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1666,7 +1666,7 @@ public final class GAOLAENIEEFOuterClass {
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
        */
       public Builder addOIIMDKMDFFI(
-          int index, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo value) {
+          int index, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo value) {
         if (oIIMDKMDFFIBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1683,7 +1683,7 @@ public final class GAOLAENIEEFOuterClass {
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
        */
       public Builder addOIIMDKMDFFI(
-          emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder builderForValue) {
         if (oIIMDKMDFFIBuilder_ == null) {
           ensureOIIMDKMDFFIIsMutable();
           oIIMDKMDFFI_.add(builderForValue.build());
@@ -1697,7 +1697,7 @@ public final class GAOLAENIEEFOuterClass {
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
        */
       public Builder addOIIMDKMDFFI(
-          int index, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder builderForValue) {
         if (oIIMDKMDFFIBuilder_ == null) {
           ensureOIIMDKMDFFIIsMutable();
           oIIMDKMDFFI_.add(index, builderForValue.build());
@@ -1711,7 +1711,7 @@ public final class GAOLAENIEEFOuterClass {
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
        */
       public Builder addAllOIIMDKMDFFI(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> values) {
         if (oIIMDKMDFFIBuilder_ == null) {
           ensureOIIMDKMDFFIIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1751,14 +1751,14 @@ public final class GAOLAENIEEFOuterClass {
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
        */
-      public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder getOIIMDKMDFFIBuilder(
+      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder getOIIMDKMDFFIBuilder(
           int index) {
         return getOIIMDKMDFFIFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
        */
-      public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder getOIIMDKMDFFIOrBuilder(
+      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder getOIIMDKMDFFIOrBuilder(
           int index) {
         if (oIIMDKMDFFIBuilder_ == null) {
           return oIIMDKMDFFI_.get(index);  } else {
@@ -1768,7 +1768,7 @@ public final class GAOLAENIEEFOuterClass {
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder> 
            getOIIMDKMDFFIOrBuilderList() {
         if (oIIMDKMDFFIBuilder_ != null) {
           return oIIMDKMDFFIBuilder_.getMessageOrBuilderList();
@@ -1779,31 +1779,31 @@ public final class GAOLAENIEEFOuterClass {
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
        */
-      public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder addOIIMDKMDFFIBuilder() {
+      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder addOIIMDKMDFFIBuilder() {
         return getOIIMDKMDFFIFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
        */
-      public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder addOIIMDKMDFFIBuilder(
+      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder addOIIMDKMDFFIBuilder(
           int index) {
         return getOIIMDKMDFFIFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 11;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder> 
            getOIIMDKMDFFIBuilderList() {
         return getOIIMDKMDFFIFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder> 
+          emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder> 
           getOIIMDKMDFFIFieldBuilder() {
         if (oIIMDKMDFFIBuilder_ == null) {
           oIIMDKMDFFIBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder>(
+              emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder>(
                   oIIMDKMDFFI_,
                   ((bitField0_ & 0x00000002) != 0),
                   getParentForChildren(),
@@ -1844,22 +1844,22 @@ public final class GAOLAENIEEFOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> fMBPOBNCJCP_ =
+      private java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> fMBPOBNCJCP_ =
         java.util.Collections.emptyList();
       private void ensureFMBPOBNCJCPIsMutable() {
         if (!((bitField0_ & 0x00000004) != 0)) {
-          fMBPOBNCJCP_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo>(fMBPOBNCJCP_);
+          fMBPOBNCJCP_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo>(fMBPOBNCJCP_);
           bitField0_ |= 0x00000004;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> fMBPOBNCJCPBuilder_;
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> fMBPOBNCJCPBuilder_;
 
       /**
        * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> getFMBPOBNCJCPList() {
+      public java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> getFMBPOBNCJCPList() {
         if (fMBPOBNCJCPBuilder_ == null) {
           return java.util.Collections.unmodifiableList(fMBPOBNCJCP_);
         } else {
@@ -1879,7 +1879,7 @@ public final class GAOLAENIEEFOuterClass {
       /**
        * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getFMBPOBNCJCP(int index) {
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getFMBPOBNCJCP(int index) {
         if (fMBPOBNCJCPBuilder_ == null) {
           return fMBPOBNCJCP_.get(index);
         } else {
@@ -1890,7 +1890,7 @@ public final class GAOLAENIEEFOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
        */
       public Builder setFMBPOBNCJCP(
-          int index, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo value) {
+          int index, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo value) {
         if (fMBPOBNCJCPBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1907,7 +1907,7 @@ public final class GAOLAENIEEFOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
        */
       public Builder setFMBPOBNCJCP(
-          int index, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder builderForValue) {
         if (fMBPOBNCJCPBuilder_ == null) {
           ensureFMBPOBNCJCPIsMutable();
           fMBPOBNCJCP_.set(index, builderForValue.build());
@@ -1920,7 +1920,7 @@ public final class GAOLAENIEEFOuterClass {
       /**
        * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
        */
-      public Builder addFMBPOBNCJCP(emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo value) {
+      public Builder addFMBPOBNCJCP(emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo value) {
         if (fMBPOBNCJCPBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1937,7 +1937,7 @@ public final class GAOLAENIEEFOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
        */
       public Builder addFMBPOBNCJCP(
-          int index, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo value) {
+          int index, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo value) {
         if (fMBPOBNCJCPBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1954,7 +1954,7 @@ public final class GAOLAENIEEFOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
        */
       public Builder addFMBPOBNCJCP(
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder builderForValue) {
         if (fMBPOBNCJCPBuilder_ == null) {
           ensureFMBPOBNCJCPIsMutable();
           fMBPOBNCJCP_.add(builderForValue.build());
@@ -1968,7 +1968,7 @@ public final class GAOLAENIEEFOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
        */
       public Builder addFMBPOBNCJCP(
-          int index, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder builderForValue) {
         if (fMBPOBNCJCPBuilder_ == null) {
           ensureFMBPOBNCJCPIsMutable();
           fMBPOBNCJCP_.add(index, builderForValue.build());
@@ -1982,7 +1982,7 @@ public final class GAOLAENIEEFOuterClass {
        * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
        */
       public Builder addAllFMBPOBNCJCP(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo> values) {
         if (fMBPOBNCJCPBuilder_ == null) {
           ensureFMBPOBNCJCPIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -2022,14 +2022,14 @@ public final class GAOLAENIEEFOuterClass {
       /**
        * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder getFMBPOBNCJCPBuilder(
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder getFMBPOBNCJCPBuilder(
           int index) {
         return getFMBPOBNCJCPFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getFMBPOBNCJCPOrBuilder(
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getFMBPOBNCJCPOrBuilder(
           int index) {
         if (fMBPOBNCJCPBuilder_ == null) {
           return fMBPOBNCJCP_.get(index);  } else {
@@ -2039,7 +2039,7 @@ public final class GAOLAENIEEFOuterClass {
       /**
        * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> 
            getFMBPOBNCJCPOrBuilderList() {
         if (fMBPOBNCJCPBuilder_ != null) {
           return fMBPOBNCJCPBuilder_.getMessageOrBuilderList();
@@ -2050,31 +2050,31 @@ public final class GAOLAENIEEFOuterClass {
       /**
        * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder addFMBPOBNCJCPBuilder() {
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder addFMBPOBNCJCPBuilder() {
         return getFMBPOBNCJCPFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder addFMBPOBNCJCPBuilder(
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder addFMBPOBNCJCPBuilder(
           int index) {
         return getFMBPOBNCJCPFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondCostumeSetInfo FMBPOBNCJCP = 13;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder> 
            getFMBPOBNCJCPBuilderList() {
         return getFMBPOBNCJCPFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> 
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> 
           getFMBPOBNCJCPFieldBuilder() {
         if (fMBPOBNCJCPBuilder_ == null) {
           fMBPOBNCJCPBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder>(
+              emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder>(
                   fMBPOBNCJCP_,
                   ((bitField0_ & 0x00000004) != 0),
                   getParentForChildren(),
@@ -2431,8 +2431,9 @@ public final class GAOLAENIEEFOuterClass {
       "(\0132\026._BeyondExpressionInfo\022\023\n\013avatar_gui" +
       "d\030\014 \001(\004\022+\n\013FMBPOBNCJCP\030\r \003(\0132\026._BeyondCo" +
       "stumeSetInfo\022 \n\013BJNEEEKCCJG\030\016 \003(\0132\013.Uint" +
-      "32Pair\022\023\n\013JEDGPCDNCPB\030\017 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "32Pair\022\023\n\013JEDGPCDNCPB\030\017 \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025GAOLAENIEEFOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2440,8 +2441,8 @@ public final class GAOLAENIEEFOuterClass {
           emu.grasscutter.net.proto.HCHGHCOOCFLOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.JBPIMGNNMPAOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.Uint32PairOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondExpressionInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass.getDescriptor(),
         });
     internal_static_GAOLAENIEEF_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2452,8 +2453,8 @@ public final class GAOLAENIEEFOuterClass {
     emu.grasscutter.net.proto.HCHGHCOOCFLOuterClass.getDescriptor();
     emu.grasscutter.net.proto.JBPIMGNNMPAOuterClass.getDescriptor();
     emu.grasscutter.net.proto.Uint32PairOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BeyondCostumeSetInfo.getDescriptor();
-    emu.grasscutter.net.proto.BeyondExpressionInfo.getDescriptor();
+    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

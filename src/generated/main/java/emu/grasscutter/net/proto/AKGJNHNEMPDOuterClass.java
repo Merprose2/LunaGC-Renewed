@@ -587,8 +587,9 @@ public final class AKGJNHNEMPDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AKGJNHNEMPD.proto\"1\n\013AKGJNHNEMPD\022\r\n\005st" +
-      "ate\030\004 \001(\r\022\023\n\013HMHCGLCNBMK\030\r \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ate\030\004 \001(\r\022\023\n\013HMHCGLCNBMK\030\r \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025AKGJNHNEMPDOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

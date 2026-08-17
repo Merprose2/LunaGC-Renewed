@@ -653,8 +653,9 @@ public final class AvatarExpeditionCallBackReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n!AvatarExpeditionCallBackReq.proto\"2\n\033A" +
       "vatarExpeditionCallBackReq\022\023\n\013avatar_gui" +
-      "d\030\016 \003(\004B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "d\030\016 \003(\004BB\n\031emu.grasscutter.net.protoB%Av" +
+      "atarExpeditionCallBackReqOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

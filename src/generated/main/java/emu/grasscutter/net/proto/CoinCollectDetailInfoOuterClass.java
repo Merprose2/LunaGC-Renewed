@@ -824,8 +824,8 @@ public final class CoinCollectDetailInfoOuterClass {
       "\n\033CoinCollectDetailInfo.proto\032\032CoinColle" +
       "ctLevelData.proto\"G\n\025CoinCollectDetailIn" +
       "fo\022.\n\017level_data_list\030\001 \003(\0132\025.CoinCollec" +
-      "tLevelDataB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "tLevelDataB<\n\031emu.grasscutter.net.protoB" +
+      "\037CoinCollectDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

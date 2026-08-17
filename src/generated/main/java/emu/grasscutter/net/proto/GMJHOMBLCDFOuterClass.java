@@ -729,8 +729,9 @@ public final class GMJHOMBLCDFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GMJHOMBLCDF.proto\032\021DBKDCMPAGEG.proto\"B" +
       "\n\013GMJHOMBLCDF\022!\n\013BFLGEJHJKKC\030\014 \001(\0132\014.DBK" +
-      "DCMPAGEG\022\020\n\010level_id\030\016 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "DCMPAGEG\022\020\n\010level_id\030\016 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025GMJHOMBLCDFOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

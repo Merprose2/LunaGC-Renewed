@@ -589,8 +589,9 @@ public final class SceneGalleryBounceConjuringInfoOuterClass {
       "\n%SceneGalleryBounceConjuringInfo.proto\"" +
       "]\n\037SceneGalleryBounceConjuringInfo\022%\n\035to" +
       "tal_destroyed_machine_count\030\001 \001(\r\022\023\n\013tot" +
-      "al_score\030\r \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "al_score\030\r \001(\rBF\n\031emu.grasscutter.net.pr" +
+      "otoB)SceneGalleryBounceConjuringInfoOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

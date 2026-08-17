@@ -1004,8 +1004,8 @@ public final class HPBOANLHPPHOuterClass {
       "FriendBrief.proto\"s\n\013HPBOANLHPPH\022!\n\013KGJD" +
       "LCFHCNK\030\003 \001(\0132\014.FriendBrief\022\017\n\007retcode\030\007" +
       " \001(\005\022!\n\013DHPIFGPDOLG\030\010 \001(\0132\014.CFPINKGCFHL\022" +
-      "\r\n\005param\030\r \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "\r\n\005param\030\r \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025HPBOANLHPPHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

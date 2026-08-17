@@ -729,8 +729,8 @@ public final class ProfilePictureOuterClass {
       "\n\024ProfilePicture.proto\"n\n\016ProfilePicture" +
       "\022\021\n\tavatar_id\030\001 \001(\r\022\022\n\ncostume_id\030\002 \001(\r\022" +
       "\032\n\022profile_picture_id\030\003 \001(\r\022\031\n\021_profile_" +
-      "frame_id\030\004 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "frame_id\030\004 \001(\rB5\n\031emu.grasscutter.net.pr" +
+      "otoB\030ProfilePictureOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

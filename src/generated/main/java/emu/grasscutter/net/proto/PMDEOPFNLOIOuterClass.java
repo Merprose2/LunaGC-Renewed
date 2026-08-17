@@ -1598,8 +1598,9 @@ public final class PMDEOPFNLOIOuterClass {
       " \001(\010\022\023\n\013CMOCLGPAJNK\030\010 \001(\r\022!\n\013ABOBEFDFLPD" +
       "\030\t \001(\0162\014.HLEPJMMECBC\022\023\n\013IHPLIMOKIEI\030\n \003(" +
       "\r\022!\n\013PMCMJJAPIHP\030\013 \001(\0132\014.JCGIJAMMADB\022\023\n\013" +
-      "MLJNBOOLHLI\030\014 \001(\r\022\023\n\013FGGOEABBELE\030\r \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "MLJNBOOLHLI\030\014 \001(\r\022\023\n\013FGGOEABBELE\030\r \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025PMDEOPFNLOI" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

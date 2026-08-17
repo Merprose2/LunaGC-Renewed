@@ -901,8 +901,9 @@ public final class LJBFOPCEOEMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LJBFOPCEOEM.proto\032\021JJEMAPIGFHA.proto\"A" +
       "\n\013LJBFOPCEOEM\022!\n\013DFCONPFDAEE\030\004 \003(\0132\014.JJE" +
-      "MAPIGFHA\022\017\n\007retcode\030\n \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "MAPIGFHA\022\017\n\007retcode\030\n \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025LJBFOPCEOEMOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

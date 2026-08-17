@@ -563,8 +563,8 @@ public final class OGLPEIABFFIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OGLPEIABFFI.proto\032\021ChatChannel.proto\"0" +
       "\n\013OGLPEIABFFI\022!\n\013IEEHPCACIAB\030\010 \001(\0162\014.Cha" +
-      "tChannelB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "tChannelB2\n\031emu.grasscutter.net.protoB\025O" +
+      "GLPEIABFFIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

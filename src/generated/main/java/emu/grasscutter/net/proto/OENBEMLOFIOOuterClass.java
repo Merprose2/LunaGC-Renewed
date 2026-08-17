@@ -869,8 +869,9 @@ public final class OENBEMLOFIOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OENBEMLOFIO.proto\"7\n\013OENBEMLOFIO\022\023\n\013PP" +
-      "PACAKPLDG\030\001 \003(\005\022\023\n\013AMJIEGBECIN\030\010 \003(\tB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "PACAKPLDG\030\001 \003(\005\022\023\n\013AMJIEGBECIN\030\010 \003(\tB2\n\031" +
+      "emu.grasscutter.net.protoB\025OENBEMLOFIOOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

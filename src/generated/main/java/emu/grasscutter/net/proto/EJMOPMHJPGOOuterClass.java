@@ -1943,8 +1943,9 @@ public final class EJMOPMHJPGOOuterClass {
       "O\030\375\003 \001(\005\022\024\n\013EDCJJGLHHCJ\030\376\003 \001(\r\022\024\n\013LKHMDK" +
       "CNDLB\030\377\003 \001(\r\022\020\n\007version\030\200\004 \001(\r\022\024\n\013MPJAPL" +
       "IOLNJ\030\201\004 \001(\005\022\024\n\013HKEIKJGNPDL\030\202\004 \001(\010\022\024\n\013FJ" +
-      "OCKGFNKOH\030\203\004 \001(\rB\010\n\006detailB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "OCKGFNKOH\030\203\004 \001(\rB\010\n\006detailB2\n\031emu.grassc" +
+      "utter.net.protoB\025EJMOPMHJPGOOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

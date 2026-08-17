@@ -2758,8 +2758,9 @@ public final class DCLEAJGCMBPOuterClass {
       "LEH\000\0224\n\034beyond_avatar_disturber_drag\030\016 \001" +
       "(\0132\014.JLCANNFDCICH\000\022\016\n\005index\030\366\003 \001(\005\022\024\n\013KM" +
       "OGGHOEJFE\030\367\003 \001(\010\022\r\n\004name\030\370\003 \001(\t\022\024\n\013filte" +
-      "r_type\030\371\003 \001(\005B\010\n\006detailB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "r_type\030\371\003 \001(\005B\010\n\006detailB2\n\031emu.grasscutt" +
+      "er.net.protoB\025DCLEAJGCMBPOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

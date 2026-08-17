@@ -1860,8 +1860,8 @@ public final class GNNPLJBMDJCOuterClass {
       "\030\366\003 \001(\005\022\024\n\013FECGLCPDOGA\030\367\003 \001(\005\022\024\n\013ADMFFIN" +
       "EKPP\030\370\003 \001(\005\022\024\n\013OFBLFECJNJG\030\371\003 \001(\002\022\024\n\013LLB" +
       "FHMCADOD\030\372\003 \001(\002\022\"\n\013FOPDLFCDGHG\030\373\003 \001(\0162\014." +
-      "JEOKDCIGCFPB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "JEOKDCIGCFPB2\n\031emu.grasscutter.net.proto" +
+      "B\025GNNPLJBMDJCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

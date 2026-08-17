@@ -1550,8 +1550,8 @@ public final class MEPBDDAHBAFOuterClass {
       "ePicture\022\021\n\tonline_id\030\006 \001(\t\022\026\n\016_xbox_gam" +
       "ertag\030\010 \001(\t\022)\n\tcard_list\030\t \003(\0132\026.Exhibit" +
       "ionDisplayInfo\022\013\n\003uid\030\n \001(\r\022\020\n\010nickname\030" +
-      "\016 \001(\tB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\016 \001(\tB2\n\031emu.grasscutter.net.protoB\025MEPB" +
+      "DDAHBAFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

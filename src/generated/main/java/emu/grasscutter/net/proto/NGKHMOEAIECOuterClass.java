@@ -1332,8 +1332,9 @@ public final class NGKHMOEAIECOuterClass {
       "ickname\030\001 \001(\t\022\r\n\005level\030\002 \001(\005\022\023\n\013LPAKOLBC" +
       "KNE\030\003 \001(\t\022\023\n\013GKJIHMFEMHG\030\004 \001(\t\022\023\n\013OGAGBJ" +
       "GPONB\030\005 \001(\010\022\023\n\013OKKIGLOGNKB\030\006 \001(\r\022\023\n\013EGPK" +
-      "BMDLBLC\030\t \001(\t\022\020\n\010game_uid\030\n \001(\004B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "BMDLBLC\030\t \001(\t\022\020\n\010game_uid\030\n \001(\004B2\n\031emu.g" +
+      "rasscutter.net.protoB\025NGKHMOEAIECOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

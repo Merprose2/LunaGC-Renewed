@@ -1021,8 +1021,9 @@ public final class CCHBCILFJLKOuterClass {
       "evel_id\030\002 \001(\r\022\017\n\007is_succ\030\003 \001(\010\022\r\n\005score\030" +
       "\004 \001(\r\022\025\n\ris_new_record\030\005 \001(\010\022\023\n\013AIMOFCDL" +
       "ABD\030\006 \001(\010\022\021\n\tmax_combo\030\t \001(\r\022\023\n\013LLCEEFFO" +
-      "GBH\030\013 \001(\r\022\020\n\010kill_num\030\r \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "GBH\030\013 \001(\r\022\020\n\010kill_num\030\r \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025CCHBCILFJLKOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

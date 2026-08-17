@@ -596,8 +596,9 @@ public final class HAMHEEOFFCJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HAMHEEOFFCJ.proto\"6\n\013HAMHEEOFFCJ\022\022\n\ndu" +
-      "ngeon_id\030\001 \001(\r\022\023\n\013ECIPELNFLML\030\014 \001(\010B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "ngeon_id\030\001 \001(\r\022\023\n\013ECIPELNFLML\030\014 \001(\010B2\n\031e" +
+      "mu.grasscutter.net.protoB\025HAMHEEOFFCJOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

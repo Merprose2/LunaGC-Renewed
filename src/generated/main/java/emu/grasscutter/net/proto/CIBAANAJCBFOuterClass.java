@@ -822,8 +822,9 @@ public final class CIBAANAJCBFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CIBAANAJCBF.proto\032\014Vector.proto\"+\n\013CIB" +
-      "AANAJCBF\022\034\n\013GGBPOEKFNNC\030\003 \003(\0132\007.VectorB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "AANAJCBF\022\034\n\013GGBPOEKFNNC\030\003 \003(\0132\007.VectorB2" +
+      "\n\031emu.grasscutter.net.protoB\025CIBAANAJCBF" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1266,8 +1266,9 @@ public final class KGEADEDGJEEOuterClass {
       "\n\021KGEADEDGJEE.proto\032\021NACNIMBHLLA.proto\032\021" +
       "OAEECGPBOGB.proto\"a\n\013KGEADEDGJEE\022\014\n\004guid" +
       "\030\001 \001(\r\022!\n\013AIHNEMOCJFM\030\004 \003(\0132\014.OAEECGPBOG" +
-      "B\022!\n\013AOHIOIBOBOD\030\005 \003(\0132\014.NACNIMBHLLAB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "B\022!\n\013AOHIOIBOBOD\030\005 \003(\0132\014.NACNIMBHLLAB2\n\031" +
+      "emu.grasscutter.net.protoB\025KGEADEDGJEEOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

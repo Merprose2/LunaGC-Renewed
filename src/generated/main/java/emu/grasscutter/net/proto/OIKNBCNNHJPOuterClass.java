@@ -1138,7 +1138,8 @@ public final class OIKNBCNNHJPOuterClass {
       "\010use_time\030\005 \001(\r\022\023\n\013KOFOKGPCKKJ\030\007 \001(\r\022\023\n\013" +
       "HBPKCHHFPJN\030\t \001(\r\022\023\n\013IDIGDONNHKE\030\014 \001(\r\022\023" +
       "\n\013AFFGEIBGHJG\030\r \001(\r\022\023\n\013HGDEALOEADK\030\016 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025OIKNBCNNH" +
+      "JPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

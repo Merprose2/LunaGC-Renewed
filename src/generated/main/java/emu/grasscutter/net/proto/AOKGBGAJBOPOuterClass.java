@@ -176,8 +176,8 @@ public final class AOKGBGAJBOPOuterClass {
       "VEL_STATUS_RUNNING\020\003\0223\n/AOKGBGAJBOP_QUES" +
       "T_ABYSS_WAR_LEVEL_STATUS_FINISH\020\004\0228\n4AOK" +
       "GBGAJBOP_QUEST_ABYSS_WAR_LEVEL_STATUS_UN" +
-      "AVALIABLE\020\005B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "AVALIABLE\020\005B2\n\031emu.grasscutter.net.proto" +
+      "B\025AOKGBGAJBOPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

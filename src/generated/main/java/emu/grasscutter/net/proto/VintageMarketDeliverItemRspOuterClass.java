@@ -596,8 +596,9 @@ public final class VintageMarketDeliverItemRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n!VintageMarketDeliverItemRsp.proto\"A\n\033V" +
       "intageMarketDeliverItemRsp\022\017\n\007retcode\030\t " +
-      "\001(\005\022\021\n\ttrader_id\030\013 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\001(\005\022\021\n\ttrader_id\030\013 \001(\rBB\n\031emu.grasscutte" +
+      "r.net.protoB%VintageMarketDeliverItemRsp" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

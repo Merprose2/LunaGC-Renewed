@@ -359,11 +359,11 @@ public final class NEOIEHOPMDGOuterClass {
      * <code>._MpActionComp mp_action_comp = 35;</code>
      * @return The mpActionComp.
      */
-    emu.grasscutter.net.proto.MpActionComp._MpActionComp getMpActionComp();
+    emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp getMpActionComp();
     /**
      * <code>._MpActionComp mp_action_comp = 35;</code>
      */
-    emu.grasscutter.net.proto.MpActionComp._MpActionCompOrBuilder getMpActionCompOrBuilder();
+    emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionCompOrBuilder getMpActionCompOrBuilder();
 
     /**
      * <code>._TagComp tag_comp = 36;</code>
@@ -374,11 +374,11 @@ public final class NEOIEHOPMDGOuterClass {
      * <code>._TagComp tag_comp = 36;</code>
      * @return The tagComp.
      */
-    emu.grasscutter.net.proto.TagComp._TagComp getTagComp();
+    emu.grasscutter.net.proto._TagCompOuterClass._TagComp getTagComp();
     /**
      * <code>._TagComp tag_comp = 36;</code>
      */
-    emu.grasscutter.net.proto.TagComp._TagCompOrBuilder getTagCompOrBuilder();
+    emu.grasscutter.net.proto._TagCompOuterClass._TagCompOrBuilder getTagCompOrBuilder();
 
     /**
      * <code>.OANFABLANJI enmity_comp = 37;</code>
@@ -464,11 +464,11 @@ public final class NEOIEHOPMDGOuterClass {
      * <code>._StateMachineComp state_machine_comp = 42;</code>
      * @return The stateMachineComp.
      */
-    emu.grasscutter.net.proto.StateMachineComp._StateMachineComp getStateMachineComp();
+    emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp getStateMachineComp();
     /**
      * <code>._StateMachineComp state_machine_comp = 42;</code>
      */
-    emu.grasscutter.net.proto.StateMachineComp._StateMachineCompOrBuilder getStateMachineCompOrBuilder();
+    emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineCompOrBuilder getStateMachineCompOrBuilder();
 
     /**
      * <code>.MFNOICNHDGG minimap_mark_comp = 43;</code>
@@ -1049,28 +1049,28 @@ public final class NEOIEHOPMDGOuterClass {
               break;
             }
             case 282: {
-              emu.grasscutter.net.proto.MpActionComp._MpActionComp.Builder subBuilder = null;
+              emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp.Builder subBuilder = null;
               if (detailCase_ == 35) {
-                subBuilder = ((emu.grasscutter.net.proto.MpActionComp._MpActionComp) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.MpActionComp._MpActionComp.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.MpActionComp._MpActionComp) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 35;
               break;
             }
             case 290: {
-              emu.grasscutter.net.proto.TagComp._TagComp.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TagCompOuterClass._TagComp.Builder subBuilder = null;
               if (detailCase_ == 36) {
-                subBuilder = ((emu.grasscutter.net.proto.TagComp._TagComp) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._TagCompOuterClass._TagComp) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.TagComp._TagComp.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._TagCompOuterClass._TagComp.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.TagComp._TagComp) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._TagCompOuterClass._TagComp) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 36;
@@ -1147,14 +1147,14 @@ public final class NEOIEHOPMDGOuterClass {
               break;
             }
             case 338: {
-              emu.grasscutter.net.proto.StateMachineComp._StateMachineComp.Builder subBuilder = null;
+              emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp.Builder subBuilder = null;
               if (detailCase_ == 42) {
-                subBuilder = ((emu.grasscutter.net.proto.StateMachineComp._StateMachineComp) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.StateMachineComp._StateMachineComp.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.StateMachineComp._StateMachineComp) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 42;
@@ -2222,21 +2222,21 @@ public final class NEOIEHOPMDGOuterClass {
      * @return The mpActionComp.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MpActionComp._MpActionComp getMpActionComp() {
+    public emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp getMpActionComp() {
       if (detailCase_ == 35) {
-         return (emu.grasscutter.net.proto.MpActionComp._MpActionComp) detail_;
+         return (emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp) detail_;
       }
-      return emu.grasscutter.net.proto.MpActionComp._MpActionComp.getDefaultInstance();
+      return emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp.getDefaultInstance();
     }
     /**
      * <code>._MpActionComp mp_action_comp = 35;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MpActionComp._MpActionCompOrBuilder getMpActionCompOrBuilder() {
+    public emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionCompOrBuilder getMpActionCompOrBuilder() {
       if (detailCase_ == 35) {
-         return (emu.grasscutter.net.proto.MpActionComp._MpActionComp) detail_;
+         return (emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp) detail_;
       }
-      return emu.grasscutter.net.proto.MpActionComp._MpActionComp.getDefaultInstance();
+      return emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp.getDefaultInstance();
     }
 
     public static final int TAG_COMP_FIELD_NUMBER = 36;
@@ -2253,21 +2253,21 @@ public final class NEOIEHOPMDGOuterClass {
      * @return The tagComp.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TagComp._TagComp getTagComp() {
+    public emu.grasscutter.net.proto._TagCompOuterClass._TagComp getTagComp() {
       if (detailCase_ == 36) {
-         return (emu.grasscutter.net.proto.TagComp._TagComp) detail_;
+         return (emu.grasscutter.net.proto._TagCompOuterClass._TagComp) detail_;
       }
-      return emu.grasscutter.net.proto.TagComp._TagComp.getDefaultInstance();
+      return emu.grasscutter.net.proto._TagCompOuterClass._TagComp.getDefaultInstance();
     }
     /**
      * <code>._TagComp tag_comp = 36;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TagComp._TagCompOrBuilder getTagCompOrBuilder() {
+    public emu.grasscutter.net.proto._TagCompOuterClass._TagCompOrBuilder getTagCompOrBuilder() {
       if (detailCase_ == 36) {
-         return (emu.grasscutter.net.proto.TagComp._TagComp) detail_;
+         return (emu.grasscutter.net.proto._TagCompOuterClass._TagComp) detail_;
       }
-      return emu.grasscutter.net.proto.TagComp._TagComp.getDefaultInstance();
+      return emu.grasscutter.net.proto._TagCompOuterClass._TagComp.getDefaultInstance();
     }
 
     public static final int ENMITY_COMP_FIELD_NUMBER = 37;
@@ -2439,21 +2439,21 @@ public final class NEOIEHOPMDGOuterClass {
      * @return The stateMachineComp.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StateMachineComp._StateMachineComp getStateMachineComp() {
+    public emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp getStateMachineComp() {
       if (detailCase_ == 42) {
-         return (emu.grasscutter.net.proto.StateMachineComp._StateMachineComp) detail_;
+         return (emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp) detail_;
       }
-      return emu.grasscutter.net.proto.StateMachineComp._StateMachineComp.getDefaultInstance();
+      return emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp.getDefaultInstance();
     }
     /**
      * <code>._StateMachineComp state_machine_comp = 42;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StateMachineComp._StateMachineCompOrBuilder getStateMachineCompOrBuilder() {
+    public emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineCompOrBuilder getStateMachineCompOrBuilder() {
       if (detailCase_ == 42) {
-         return (emu.grasscutter.net.proto.StateMachineComp._StateMachineComp) detail_;
+         return (emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp) detail_;
       }
-      return emu.grasscutter.net.proto.StateMachineComp._StateMachineComp.getDefaultInstance();
+      return emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp.getDefaultInstance();
     }
 
     public static final int MINIMAP_MARK_COMP_FIELD_NUMBER = 43;
@@ -3005,10 +3005,10 @@ public final class NEOIEHOPMDGOuterClass {
         output.writeMessage(34, (emu.grasscutter.net.proto.ENJLPOLIONGOuterClass.ENJLPOLIONG) detail_);
       }
       if (detailCase_ == 35) {
-        output.writeMessage(35, (emu.grasscutter.net.proto.MpActionComp._MpActionComp) detail_);
+        output.writeMessage(35, (emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp) detail_);
       }
       if (detailCase_ == 36) {
-        output.writeMessage(36, (emu.grasscutter.net.proto.TagComp._TagComp) detail_);
+        output.writeMessage(36, (emu.grasscutter.net.proto._TagCompOuterClass._TagComp) detail_);
       }
       if (detailCase_ == 37) {
         output.writeMessage(37, (emu.grasscutter.net.proto.OANFABLANJIOuterClass.OANFABLANJI) detail_);
@@ -3026,7 +3026,7 @@ public final class NEOIEHOPMDGOuterClass {
         output.writeMessage(41, (emu.grasscutter.net.proto.BLEOEMCADMHOuterClass.BLEOEMCADMH) detail_);
       }
       if (detailCase_ == 42) {
-        output.writeMessage(42, (emu.grasscutter.net.proto.StateMachineComp._StateMachineComp) detail_);
+        output.writeMessage(42, (emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp) detail_);
       }
       if (detailCase_ == 43) {
         output.writeMessage(43, (emu.grasscutter.net.proto.MFNOICNHDGGOuterClass.MFNOICNHDGG) detail_);
@@ -3176,11 +3176,11 @@ public final class NEOIEHOPMDGOuterClass {
       }
       if (detailCase_ == 35) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(35, (emu.grasscutter.net.proto.MpActionComp._MpActionComp) detail_);
+          .computeMessageSize(35, (emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp) detail_);
       }
       if (detailCase_ == 36) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(36, (emu.grasscutter.net.proto.TagComp._TagComp) detail_);
+          .computeMessageSize(36, (emu.grasscutter.net.proto._TagCompOuterClass._TagComp) detail_);
       }
       if (detailCase_ == 37) {
         size += com.google.protobuf.CodedOutputStream
@@ -3204,7 +3204,7 @@ public final class NEOIEHOPMDGOuterClass {
       }
       if (detailCase_ == 42) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(42, (emu.grasscutter.net.proto.StateMachineComp._StateMachineComp) detail_);
+          .computeMessageSize(42, (emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp) detail_);
       }
       if (detailCase_ == 43) {
         size += com.google.protobuf.CodedOutputStream
@@ -7463,7 +7463,7 @@ public final class NEOIEHOPMDGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MpActionComp._MpActionComp, emu.grasscutter.net.proto.MpActionComp._MpActionComp.Builder, emu.grasscutter.net.proto.MpActionComp._MpActionCompOrBuilder> mpActionCompBuilder_;
+          emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp, emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp.Builder, emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionCompOrBuilder> mpActionCompBuilder_;
       /**
        * <code>._MpActionComp mp_action_comp = 35;</code>
        * @return Whether the mpActionComp field is set.
@@ -7477,23 +7477,23 @@ public final class NEOIEHOPMDGOuterClass {
        * @return The mpActionComp.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MpActionComp._MpActionComp getMpActionComp() {
+      public emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp getMpActionComp() {
         if (mpActionCompBuilder_ == null) {
           if (detailCase_ == 35) {
-            return (emu.grasscutter.net.proto.MpActionComp._MpActionComp) detail_;
+            return (emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp) detail_;
           }
-          return emu.grasscutter.net.proto.MpActionComp._MpActionComp.getDefaultInstance();
+          return emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp.getDefaultInstance();
         } else {
           if (detailCase_ == 35) {
             return mpActionCompBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.MpActionComp._MpActionComp.getDefaultInstance();
+          return emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp.getDefaultInstance();
         }
       }
       /**
        * <code>._MpActionComp mp_action_comp = 35;</code>
        */
-      public Builder setMpActionComp(emu.grasscutter.net.proto.MpActionComp._MpActionComp value) {
+      public Builder setMpActionComp(emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp value) {
         if (mpActionCompBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7510,7 +7510,7 @@ public final class NEOIEHOPMDGOuterClass {
        * <code>._MpActionComp mp_action_comp = 35;</code>
        */
       public Builder setMpActionComp(
-          emu.grasscutter.net.proto.MpActionComp._MpActionComp.Builder builderForValue) {
+          emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp.Builder builderForValue) {
         if (mpActionCompBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -7523,11 +7523,11 @@ public final class NEOIEHOPMDGOuterClass {
       /**
        * <code>._MpActionComp mp_action_comp = 35;</code>
        */
-      public Builder mergeMpActionComp(emu.grasscutter.net.proto.MpActionComp._MpActionComp value) {
+      public Builder mergeMpActionComp(emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp value) {
         if (mpActionCompBuilder_ == null) {
           if (detailCase_ == 35 &&
-              detail_ != emu.grasscutter.net.proto.MpActionComp._MpActionComp.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.MpActionComp._MpActionComp.newBuilder((emu.grasscutter.net.proto.MpActionComp._MpActionComp) detail_)
+              detail_ != emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp.newBuilder((emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -7564,36 +7564,36 @@ public final class NEOIEHOPMDGOuterClass {
       /**
        * <code>._MpActionComp mp_action_comp = 35;</code>
        */
-      public emu.grasscutter.net.proto.MpActionComp._MpActionComp.Builder getMpActionCompBuilder() {
+      public emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp.Builder getMpActionCompBuilder() {
         return getMpActionCompFieldBuilder().getBuilder();
       }
       /**
        * <code>._MpActionComp mp_action_comp = 35;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MpActionComp._MpActionCompOrBuilder getMpActionCompOrBuilder() {
+      public emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionCompOrBuilder getMpActionCompOrBuilder() {
         if ((detailCase_ == 35) && (mpActionCompBuilder_ != null)) {
           return mpActionCompBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 35) {
-            return (emu.grasscutter.net.proto.MpActionComp._MpActionComp) detail_;
+            return (emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp) detail_;
           }
-          return emu.grasscutter.net.proto.MpActionComp._MpActionComp.getDefaultInstance();
+          return emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp.getDefaultInstance();
         }
       }
       /**
        * <code>._MpActionComp mp_action_comp = 35;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MpActionComp._MpActionComp, emu.grasscutter.net.proto.MpActionComp._MpActionComp.Builder, emu.grasscutter.net.proto.MpActionComp._MpActionCompOrBuilder> 
+          emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp, emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp.Builder, emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionCompOrBuilder> 
           getMpActionCompFieldBuilder() {
         if (mpActionCompBuilder_ == null) {
           if (!(detailCase_ == 35)) {
-            detail_ = emu.grasscutter.net.proto.MpActionComp._MpActionComp.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp.getDefaultInstance();
           }
           mpActionCompBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MpActionComp._MpActionComp, emu.grasscutter.net.proto.MpActionComp._MpActionComp.Builder, emu.grasscutter.net.proto.MpActionComp._MpActionCompOrBuilder>(
-                  (emu.grasscutter.net.proto.MpActionComp._MpActionComp) detail_,
+              emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp, emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp.Builder, emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionCompOrBuilder>(
+                  (emu.grasscutter.net.proto._MpActionCompOuterClass._MpActionComp) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -7604,7 +7604,7 @@ public final class NEOIEHOPMDGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TagComp._TagComp, emu.grasscutter.net.proto.TagComp._TagComp.Builder, emu.grasscutter.net.proto.TagComp._TagCompOrBuilder> tagCompBuilder_;
+          emu.grasscutter.net.proto._TagCompOuterClass._TagComp, emu.grasscutter.net.proto._TagCompOuterClass._TagComp.Builder, emu.grasscutter.net.proto._TagCompOuterClass._TagCompOrBuilder> tagCompBuilder_;
       /**
        * <code>._TagComp tag_comp = 36;</code>
        * @return Whether the tagComp field is set.
@@ -7618,23 +7618,23 @@ public final class NEOIEHOPMDGOuterClass {
        * @return The tagComp.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TagComp._TagComp getTagComp() {
+      public emu.grasscutter.net.proto._TagCompOuterClass._TagComp getTagComp() {
         if (tagCompBuilder_ == null) {
           if (detailCase_ == 36) {
-            return (emu.grasscutter.net.proto.TagComp._TagComp) detail_;
+            return (emu.grasscutter.net.proto._TagCompOuterClass._TagComp) detail_;
           }
-          return emu.grasscutter.net.proto.TagComp._TagComp.getDefaultInstance();
+          return emu.grasscutter.net.proto._TagCompOuterClass._TagComp.getDefaultInstance();
         } else {
           if (detailCase_ == 36) {
             return tagCompBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.TagComp._TagComp.getDefaultInstance();
+          return emu.grasscutter.net.proto._TagCompOuterClass._TagComp.getDefaultInstance();
         }
       }
       /**
        * <code>._TagComp tag_comp = 36;</code>
        */
-      public Builder setTagComp(emu.grasscutter.net.proto.TagComp._TagComp value) {
+      public Builder setTagComp(emu.grasscutter.net.proto._TagCompOuterClass._TagComp value) {
         if (tagCompBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7651,7 +7651,7 @@ public final class NEOIEHOPMDGOuterClass {
        * <code>._TagComp tag_comp = 36;</code>
        */
       public Builder setTagComp(
-          emu.grasscutter.net.proto.TagComp._TagComp.Builder builderForValue) {
+          emu.grasscutter.net.proto._TagCompOuterClass._TagComp.Builder builderForValue) {
         if (tagCompBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -7664,11 +7664,11 @@ public final class NEOIEHOPMDGOuterClass {
       /**
        * <code>._TagComp tag_comp = 36;</code>
        */
-      public Builder mergeTagComp(emu.grasscutter.net.proto.TagComp._TagComp value) {
+      public Builder mergeTagComp(emu.grasscutter.net.proto._TagCompOuterClass._TagComp value) {
         if (tagCompBuilder_ == null) {
           if (detailCase_ == 36 &&
-              detail_ != emu.grasscutter.net.proto.TagComp._TagComp.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.TagComp._TagComp.newBuilder((emu.grasscutter.net.proto.TagComp._TagComp) detail_)
+              detail_ != emu.grasscutter.net.proto._TagCompOuterClass._TagComp.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._TagCompOuterClass._TagComp.newBuilder((emu.grasscutter.net.proto._TagCompOuterClass._TagComp) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -7705,36 +7705,36 @@ public final class NEOIEHOPMDGOuterClass {
       /**
        * <code>._TagComp tag_comp = 36;</code>
        */
-      public emu.grasscutter.net.proto.TagComp._TagComp.Builder getTagCompBuilder() {
+      public emu.grasscutter.net.proto._TagCompOuterClass._TagComp.Builder getTagCompBuilder() {
         return getTagCompFieldBuilder().getBuilder();
       }
       /**
        * <code>._TagComp tag_comp = 36;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TagComp._TagCompOrBuilder getTagCompOrBuilder() {
+      public emu.grasscutter.net.proto._TagCompOuterClass._TagCompOrBuilder getTagCompOrBuilder() {
         if ((detailCase_ == 36) && (tagCompBuilder_ != null)) {
           return tagCompBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 36) {
-            return (emu.grasscutter.net.proto.TagComp._TagComp) detail_;
+            return (emu.grasscutter.net.proto._TagCompOuterClass._TagComp) detail_;
           }
-          return emu.grasscutter.net.proto.TagComp._TagComp.getDefaultInstance();
+          return emu.grasscutter.net.proto._TagCompOuterClass._TagComp.getDefaultInstance();
         }
       }
       /**
        * <code>._TagComp tag_comp = 36;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TagComp._TagComp, emu.grasscutter.net.proto.TagComp._TagComp.Builder, emu.grasscutter.net.proto.TagComp._TagCompOrBuilder> 
+          emu.grasscutter.net.proto._TagCompOuterClass._TagComp, emu.grasscutter.net.proto._TagCompOuterClass._TagComp.Builder, emu.grasscutter.net.proto._TagCompOuterClass._TagCompOrBuilder> 
           getTagCompFieldBuilder() {
         if (tagCompBuilder_ == null) {
           if (!(detailCase_ == 36)) {
-            detail_ = emu.grasscutter.net.proto.TagComp._TagComp.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._TagCompOuterClass._TagComp.getDefaultInstance();
           }
           tagCompBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TagComp._TagComp, emu.grasscutter.net.proto.TagComp._TagComp.Builder, emu.grasscutter.net.proto.TagComp._TagCompOrBuilder>(
-                  (emu.grasscutter.net.proto.TagComp._TagComp) detail_,
+              emu.grasscutter.net.proto._TagCompOuterClass._TagComp, emu.grasscutter.net.proto._TagCompOuterClass._TagComp.Builder, emu.grasscutter.net.proto._TagCompOuterClass._TagCompOrBuilder>(
+                  (emu.grasscutter.net.proto._TagCompOuterClass._TagComp) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -8450,7 +8450,7 @@ public final class NEOIEHOPMDGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StateMachineComp._StateMachineComp, emu.grasscutter.net.proto.StateMachineComp._StateMachineComp.Builder, emu.grasscutter.net.proto.StateMachineComp._StateMachineCompOrBuilder> stateMachineCompBuilder_;
+          emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp, emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp.Builder, emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineCompOrBuilder> stateMachineCompBuilder_;
       /**
        * <code>._StateMachineComp state_machine_comp = 42;</code>
        * @return Whether the stateMachineComp field is set.
@@ -8464,23 +8464,23 @@ public final class NEOIEHOPMDGOuterClass {
        * @return The stateMachineComp.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StateMachineComp._StateMachineComp getStateMachineComp() {
+      public emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp getStateMachineComp() {
         if (stateMachineCompBuilder_ == null) {
           if (detailCase_ == 42) {
-            return (emu.grasscutter.net.proto.StateMachineComp._StateMachineComp) detail_;
+            return (emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp) detail_;
           }
-          return emu.grasscutter.net.proto.StateMachineComp._StateMachineComp.getDefaultInstance();
+          return emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp.getDefaultInstance();
         } else {
           if (detailCase_ == 42) {
             return stateMachineCompBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.StateMachineComp._StateMachineComp.getDefaultInstance();
+          return emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp.getDefaultInstance();
         }
       }
       /**
        * <code>._StateMachineComp state_machine_comp = 42;</code>
        */
-      public Builder setStateMachineComp(emu.grasscutter.net.proto.StateMachineComp._StateMachineComp value) {
+      public Builder setStateMachineComp(emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp value) {
         if (stateMachineCompBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -8497,7 +8497,7 @@ public final class NEOIEHOPMDGOuterClass {
        * <code>._StateMachineComp state_machine_comp = 42;</code>
        */
       public Builder setStateMachineComp(
-          emu.grasscutter.net.proto.StateMachineComp._StateMachineComp.Builder builderForValue) {
+          emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp.Builder builderForValue) {
         if (stateMachineCompBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -8510,11 +8510,11 @@ public final class NEOIEHOPMDGOuterClass {
       /**
        * <code>._StateMachineComp state_machine_comp = 42;</code>
        */
-      public Builder mergeStateMachineComp(emu.grasscutter.net.proto.StateMachineComp._StateMachineComp value) {
+      public Builder mergeStateMachineComp(emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp value) {
         if (stateMachineCompBuilder_ == null) {
           if (detailCase_ == 42 &&
-              detail_ != emu.grasscutter.net.proto.StateMachineComp._StateMachineComp.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.StateMachineComp._StateMachineComp.newBuilder((emu.grasscutter.net.proto.StateMachineComp._StateMachineComp) detail_)
+              detail_ != emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp.newBuilder((emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -8551,36 +8551,36 @@ public final class NEOIEHOPMDGOuterClass {
       /**
        * <code>._StateMachineComp state_machine_comp = 42;</code>
        */
-      public emu.grasscutter.net.proto.StateMachineComp._StateMachineComp.Builder getStateMachineCompBuilder() {
+      public emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp.Builder getStateMachineCompBuilder() {
         return getStateMachineCompFieldBuilder().getBuilder();
       }
       /**
        * <code>._StateMachineComp state_machine_comp = 42;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StateMachineComp._StateMachineCompOrBuilder getStateMachineCompOrBuilder() {
+      public emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineCompOrBuilder getStateMachineCompOrBuilder() {
         if ((detailCase_ == 42) && (stateMachineCompBuilder_ != null)) {
           return stateMachineCompBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 42) {
-            return (emu.grasscutter.net.proto.StateMachineComp._StateMachineComp) detail_;
+            return (emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp) detail_;
           }
-          return emu.grasscutter.net.proto.StateMachineComp._StateMachineComp.getDefaultInstance();
+          return emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp.getDefaultInstance();
         }
       }
       /**
        * <code>._StateMachineComp state_machine_comp = 42;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StateMachineComp._StateMachineComp, emu.grasscutter.net.proto.StateMachineComp._StateMachineComp.Builder, emu.grasscutter.net.proto.StateMachineComp._StateMachineCompOrBuilder> 
+          emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp, emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp.Builder, emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineCompOrBuilder> 
           getStateMachineCompFieldBuilder() {
         if (stateMachineCompBuilder_ == null) {
           if (!(detailCase_ == 42)) {
-            detail_ = emu.grasscutter.net.proto.StateMachineComp._StateMachineComp.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp.getDefaultInstance();
           }
           stateMachineCompBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.StateMachineComp._StateMachineComp, emu.grasscutter.net.proto.StateMachineComp._StateMachineComp.Builder, emu.grasscutter.net.proto.StateMachineComp._StateMachineCompOrBuilder>(
-                  (emu.grasscutter.net.proto.StateMachineComp._StateMachineComp) detail_,
+              emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp, emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp.Builder, emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineCompOrBuilder>(
+                  (emu.grasscutter.net.proto._StateMachineCompOuterClass._StateMachineComp) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -10839,8 +10839,9 @@ public final class NEOIEHOPMDGOuterClass {
       "HELINBADLDH\000\022\'\n\017water_cube_comp\0307 \001(\0132\014." +
       "MDPELOEEOHDH\000\022-\n\025cursor_collision_comp\0308" +
       " \001(\0132\014.JBGCKFOJLGBH\000\022$\n\014vehicle_comp\0309 \001" +
-      "(\0132\014.ADIAKJADLKMH\000B\010\n\006detailB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "(\0132\014.ADIAKJADLKMH\000B\010\n\006detailB2\n\031emu.gras" +
+      "scutter.net.protoB\025NEOIEHOPMDGOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -10887,9 +10888,9 @@ public final class NEOIEHOPMDGOuterClass {
           emu.grasscutter.net.proto.PCEGHIAAJEJOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PONELBCAFPBOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PPKBLLCHANIOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.MpActionComp.getDescriptor(),
-          emu.grasscutter.net.proto.StateMachineComp.getDescriptor(),
-          emu.grasscutter.net.proto.TagComp.getDescriptor(),
+          emu.grasscutter.net.proto._MpActionCompOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._StateMachineCompOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._TagCompOuterClass.getDescriptor(),
         });
     internal_static_NEOIEHOPMDG_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -10939,9 +10940,9 @@ public final class NEOIEHOPMDGOuterClass {
     emu.grasscutter.net.proto.PCEGHIAAJEJOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PONELBCAFPBOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PPKBLLCHANIOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.MpActionComp.getDescriptor();
-    emu.grasscutter.net.proto.StateMachineComp.getDescriptor();
-    emu.grasscutter.net.proto.TagComp.getDescriptor();
+    emu.grasscutter.net.proto._MpActionCompOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._StateMachineCompOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._TagCompOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

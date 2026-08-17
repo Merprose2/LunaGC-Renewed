@@ -1813,8 +1813,9 @@ public final class AMMGAFANAPGOuterClass {
       "\013OBAPGPGNOAP\030\370\003 \001(\0132\014.CKELDHJIJBL\022\"\n\013BEO" +
       "CLJBLNPA\030\371\003 \001(\0132\014.NNLMNGGNHDI\022\"\n\013IIKAAEI" +
       "KGLI\030\372\003 \001(\0132\014.JKCIHENBPPA\022\"\n\013LMNLGBACPAO" +
-      "\030\373\003 \001(\0132\014.MPICADCLHAM\022\016\n\005index\030\332\004 \001(\005B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\030\373\003 \001(\0132\014.MPICADCLHAM\022\016\n\005index\030\332\004 \001(\005B2\n" +
+      "\031emu.grasscutter.net.protoB\025AMMGAFANAPGO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

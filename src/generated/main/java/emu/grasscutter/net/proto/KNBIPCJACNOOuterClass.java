@@ -142,8 +142,9 @@ public final class KNBIPCJACNOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KNBIPCJACNO.proto*X\n\013KNBIPCJACNO\022\033\n\027KN" +
       "BIPCJACNO_UNSPECIFIED\020\000\022\023\n\017KNBIPCJACNO_R" +
-      "EC\020\001\022\027\n\023KNBIPCJACNO_NOT_REC\020\002B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "EC\020\001\022\027\n\023KNBIPCJACNO_NOT_REC\020\002B2\n\031emu.gra" +
+      "sscutter.net.protoB\025KNBIPCJACNOOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

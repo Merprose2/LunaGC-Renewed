@@ -587,8 +587,8 @@ public final class GCGTokenOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\016GCGToken.proto\"&\n\010GCGToken\022\013\n\003key\030\001 \001(" +
-      "\r\022\r\n\005value\030\002 \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\r\022\r\n\005value\030\002 \001(\rB/\n\031emu.grasscutter.net." +
+      "protoB\022GCGTokenOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

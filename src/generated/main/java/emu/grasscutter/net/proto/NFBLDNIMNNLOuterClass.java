@@ -525,8 +525,8 @@ public final class NFBLDNIMNNLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NFBLDNIMNNL.proto\"!\n\013NFBLDNIMNNL\022\022\n\nga" +
-      "llery_id\030\t \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "llery_id\030\t \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025NFBLDNIMNNLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

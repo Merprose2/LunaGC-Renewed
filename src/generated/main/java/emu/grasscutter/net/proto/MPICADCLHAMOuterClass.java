@@ -996,8 +996,8 @@ public final class MPICADCLHAMOuterClass {
       "\n\013MPICADCLHAM\022\035\n\006offset\030\365\003 \001(\0132\014.NCFELNN" +
       "EAAF\022\"\n\013FMKNLOGFALG\030\366\003 \001(\0132\014.NCFELNNEAAF" +
       "\022\024\n\013NEPFLIKDNJP\030\367\003 \001(\005\022\024\n\013BBPCIDDDOBP\030\370\003" +
-      " \001(\005B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\005B2\n\031emu.grasscutter.net.protoB\025MPICA" +
+      "DCLHAMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

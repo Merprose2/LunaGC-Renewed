@@ -666,8 +666,9 @@ public final class QuestDestroyNpcRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030QuestDestroyNpcRsp.proto\"N\n\022QuestDestr" +
       "oyNpcRsp\022\027\n\017parent_quest_id\030\001 \001(\r\022\017\n\007ret" +
-      "code\030\013 \001(\005\022\016\n\006npc_id\030\r \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "code\030\013 \001(\005\022\016\n\006npc_id\030\r \001(\rB9\n\031emu.grassc" +
+      "utter.net.protoB\034QuestDestroyNpcRspOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

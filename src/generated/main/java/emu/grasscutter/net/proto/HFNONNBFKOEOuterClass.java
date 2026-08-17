@@ -823,8 +823,8 @@ public final class HFNONNBFKOEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HFNONNBFKOE.proto\032\021KCENLPAJDEC.proto\"4" +
       "\n\013HFNONNBFKOE\022%\n\017level_info_list\030\005 \003(\0132\014" +
-      ".KCENLPAJDECB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      ".KCENLPAJDECB2\n\031emu.grasscutter.net.prot" +
+      "oB\025HFNONNBFKOEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

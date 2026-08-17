@@ -737,8 +737,9 @@ public final class DragonSpineCoinChangeNotifyOuterClass {
       "\n!DragonSpineCoinChangeNotify.proto\"q\n\033D" +
       "ragonSpineCoinChangeNotify\022\023\n\013schedule_i" +
       "d\030\006 \001(\r\022\023\n\013ABBFOLNPGNE\030\007 \001(\r\022\023\n\013GNADEDJK" +
-      "AJM\030\n \001(\r\022\023\n\013IKKMKCFOINJ\030\r \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "AJM\030\n \001(\r\022\023\n\013IKKMKCFOINJ\030\r \001(\rBB\n\031emu.gr" +
+      "asscutter.net.protoB%DragonSpineCoinChan" +
+      "geNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

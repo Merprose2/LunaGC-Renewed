@@ -2009,8 +2009,8 @@ public final class AbilityMixinBreakoutOuterClass {
       "ONNECT\020\001\022\027\n\023SyncType_START_GAME\020\002\022\021\n\rSyn" +
       "cType_PING\020\003\022\030\n\024SyncType_FINISH_GAME\020\004\022\026" +
       "\n\022SyncType_SNAP_SHOT\020\005\022\023\n\017SyncType_ACTIO" +
-      "N\020\006B\006\n\004syncB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "N\020\006B\006\n\004syncB;\n\031emu.grasscutter.net.proto" +
+      "B\036AbilityMixinBreakoutOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

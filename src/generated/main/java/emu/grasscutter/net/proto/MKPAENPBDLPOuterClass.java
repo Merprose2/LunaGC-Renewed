@@ -1325,8 +1325,9 @@ public final class MKPAENPBDLPOuterClass {
       "PGFJKMGLDA\030\002 \001(\010\022\023\n\013AHNEJGILHFJ\030\003 \001(\010\022\023\n" +
       "\013FNOKONJKPAE\030\004 \001(\010\022\023\n\013EOMFDBPKOAK\030\005 \001(\010\022" +
       "\023\n\013MJHBDKCLFPA\030\006 \001(\002\022\023\n\013HLPIANKEBGB\030\007 \001(" +
-      "\002\022!\n\013MKOJIIPPDLH\030\010 \003(\0132\014.PGDMAIHKGFOB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\002\022!\n\013MKOJIIPPDLH\030\010 \003(\0132\014.PGDMAIHKGFOB2\n\031" +
+      "emu.grasscutter.net.protoB\025MKPAENPBDLPOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

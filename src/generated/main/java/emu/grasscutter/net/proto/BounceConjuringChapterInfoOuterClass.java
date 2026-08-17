@@ -659,7 +659,8 @@ public final class BounceConjuringChapterInfoOuterClass {
       "\n BounceConjuringChapterInfo.proto\"W\n\032Bo" +
       "unceConjuringChapterInfo\022\021\n\topen_time\030\001 " +
       "\001(\r\022\022\n\nbest_score\030\004 \001(\r\022\022\n\nchapter_id\030\014 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rBA\n\031emu.grasscutter.net.protoB$Bounce" +
+      "ConjuringChapterInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

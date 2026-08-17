@@ -666,8 +666,9 @@ public final class QuestTransmitRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026QuestTransmitRsp.proto\"G\n\020QuestTransmi" +
       "tRsp\022\017\n\007retcode\030\002 \001(\005\022\020\n\010quest_id\030\003 \001(\r\022" +
-      "\020\n\010point_id\030\014 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\020\n\010point_id\030\014 \001(\rB7\n\031emu.grasscutter.net" +
+      ".protoB\032QuestTransmitRspOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

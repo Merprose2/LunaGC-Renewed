@@ -894,8 +894,8 @@ public final class GCGSkillLimitsInfoOuterClass {
       "\n\030GCGSkillLimitsInfo.proto\032\023GCGLimitsInf" +
       "o.proto\"K\n\022GCGSkillLimitsInfo\022\020\n\010skill_i" +
       "d\030\013 \001(\r\022#\n\013limits_list\030\014 \003(\0132\016.GCGLimits" +
-      "InfoB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "InfoB9\n\031emu.grasscutter.net.protoB\034GCGSk" +
+      "illLimitsInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

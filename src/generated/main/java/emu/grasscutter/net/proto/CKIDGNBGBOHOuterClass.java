@@ -1646,7 +1646,8 @@ public final class CKIDGNBGBOHOuterClass {
       "(\010\022\023\n\013KPICJCOLBNM\030\010 \001(\010\022\023\n\013GEFPEMHGKLI\030\t" +
       " \001(\010\022\023\n\013FMEHGPANABD\030\n \001(\010\022\023\n\013CJBHJOGKAHP" +
       "\030\013 \001(\010\022\016\n\006radius\030\014 \001(\002\022\023\n\013HCCMONPMIKP\030\r " +
-      "\001(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\010B2\n\031emu.grasscutter.net.protoB\025CKIDGN" +
+      "BGBOHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1465,8 +1465,9 @@ public final class FMPLLOHEFKNOuterClass {
       "\n\021FMPLLOHEFKN.proto\"\200\001\n\013FMPLLOHEFKN\022\021\n\to" +
       "wner_uid\030\002 \001(\r\022-\n\013HHKGEOOCFEF\030\n \003(\0132\030.FM" +
       "PLLOHEFKN.NJIGJFMBEBI\032/\n\013NJIGJFMBEBI\022\013\n\003" +
-      "uid\030\002 \001(\r\022\023\n\013HLDCINAFEAJ\030\016 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "uid\030\002 \001(\r\022\023\n\013HLDCINAFEAJ\030\016 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025FMPLLOHEFKNOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

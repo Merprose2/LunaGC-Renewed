@@ -824,8 +824,8 @@ public final class IslandPartyDetailInfoOuterClass {
       "\n\033IslandPartyDetailInfo.proto\032\032IslandPar" +
       "tyStageData.proto\"G\n\025IslandPartyDetailIn" +
       "fo\022.\n\017stage_data_list\030\014 \003(\0132\025.IslandPart" +
-      "yStageDataB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "yStageDataB<\n\031emu.grasscutter.net.protoB" +
+      "\037IslandPartyDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

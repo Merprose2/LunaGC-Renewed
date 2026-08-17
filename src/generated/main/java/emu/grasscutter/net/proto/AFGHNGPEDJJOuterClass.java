@@ -1072,8 +1072,8 @@ public final class AFGHNGPEDJJOuterClass {
       "AEIENI\030\001 \001(\0162\014.EJMNNDJCBCM\022!\n\013HBGDPLIIHO" +
       "N\030\003 \001(\0132\014.CNMLCLALHOE\022!\n\013KNFHJLMIFJM\030\004 \001" +
       "(\0132\014.EHCGCOAGHAJ\022!\n\013JLHEGLCJEFK\030\005 \001(\0162\014." +
-      "JEOKDCIGCFPB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "JEOKDCIGCFPB2\n\031emu.grasscutter.net.proto" +
+      "B\025AFGHNGPEDJJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

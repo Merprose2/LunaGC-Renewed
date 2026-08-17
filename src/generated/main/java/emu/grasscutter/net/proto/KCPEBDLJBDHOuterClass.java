@@ -808,8 +808,8 @@ public final class KCPEBDLJBDHOuterClass {
       "\n\021KCPEBDLJBDH.proto\"v\n\013KCPEBDLJBDH\022\023\n\013AL" +
       "EHADLJPEL\030\001 \001(\002\022\023\n\013NFILNLGAIND\030\002 \001(\002\022\023\n\013" +
       "JABEDMEECNC\030\003 \001(\002\022\023\n\013AJJBKPDKKID\030\004 \001(\010\022\023" +
-      "\n\013HFBCCAGFMKB\030\005 \001(\002B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013HFBCCAGFMKB\030\005 \001(\002B2\n\031emu.grasscutter.n" +
+      "et.protoB\025KCPEBDLJBDHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

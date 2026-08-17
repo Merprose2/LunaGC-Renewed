@@ -652,8 +652,8 @@ public final class MCLAHKOBAJBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MCLAHKOBAJB.proto\" \n\013MCLAHKOBAJB\022\021\n\tgu" +
-      "id_list\030\007 \003(\004B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "id_list\030\007 \003(\004B2\n\031emu.grasscutter.net.pro" +
+      "toB\025MCLAHKOBAJBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

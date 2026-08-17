@@ -1840,8 +1840,8 @@ public final class DMPGLLNPKEGOuterClass {
       "GNAIAHFGGOOH\000\022$\n\014capsule_data\030\r \001(\0132\014.FO" +
       "DDEJNEJPOH\000\022%\n\rcylinder_data\030\016 \001(\0132\014.OIJ" +
       "GGGBPBPFH\000\022\024\n\013NJONMBIPMBM\030\366\003 \001(\t\022\016\n\005inde" +
-      "x\030\367\003 \001(\005B\010\n\006detailB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "x\030\367\003 \001(\005B\010\n\006detailB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025DMPGLLNPKEGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

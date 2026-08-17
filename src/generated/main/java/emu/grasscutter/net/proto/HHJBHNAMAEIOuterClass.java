@@ -893,8 +893,9 @@ public final class HHJBHNAMAEIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HHJBHNAMAEI.proto\032\021JJAPCIENNKI.proto\"B" +
       "\n\013HHJBHNAMAEI\022\020\n\010group_id\030\001 \001(\r\022!\n\013NCHCN" +
-      "OPEJHK\030\002 \003(\0132\014.JJAPCIENNKIB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "OPEJHK\030\002 \003(\0132\014.JJAPCIENNKIB2\n\031emu.grassc" +
+      "utter.net.protoB\025HHJBHNAMAEIOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

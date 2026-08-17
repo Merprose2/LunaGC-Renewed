@@ -181,8 +181,9 @@ public final class CACEMPBNPCHOuterClass {
       "D\020\001\022\026\n\022CACEMPBNPCH_BGM_ID\020\002\022!\n\035CACEMPBNP" +
       "CH_AI_STATE_GRAPH_ID\020\003\022\034\n\030CACEMPBNPCH_GL" +
       "OBAL_VALUE\020\004\022 \n\034CACEMPBNPCH_CUSTOM_UI_EF" +
-      "FECT\020\005\022\032\n\026CACEMPBNPCH_CUSTOM_MAP\020\006B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "FECT\020\005\022\032\n\026CACEMPBNPCH_CUSTOM_MAP\020\006B2\n\031em" +
+      "u.grasscutter.net.protoB\025CACEMPBNPCHOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -454,8 +454,9 @@ public final class EBADGACIEKMOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021EBADGACIEKM.proto\"\r\n\013EBADGACIEKMB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021EBADGACIEKM.proto\"\r\n\013EBADGACIEKMB2\n\031em" +
+      "u.grasscutter.net.protoB\025EBADGACIEKMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

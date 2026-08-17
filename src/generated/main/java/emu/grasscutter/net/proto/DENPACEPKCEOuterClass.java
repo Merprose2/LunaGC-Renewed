@@ -730,8 +730,9 @@ public final class DENPACEPKCEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DENPACEPKCE.proto\032\021KLKHABHNGEK.proto\"E" +
       "\n\013DENPACEPKCE\022\023\n\013HMEHCDKMKMC\030\001 \001(\010\022!\n\013_l" +
-      "evel_info\030\r \001(\0132\014.KLKHABHNGEKB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "evel_info\030\r \001(\0132\014.KLKHABHNGEKB2\n\031emu.gra" +
+      "sscutter.net.protoB\025DENPACEPKCEOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

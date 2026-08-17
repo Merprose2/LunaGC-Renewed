@@ -831,8 +831,8 @@ public final class COBOFMDLOMJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021COBOFMDLOMJ.proto\032\021BNPMABHALCN.proto\"0" +
       "\n\013COBOFMDLOMJ\022!\n\013PFBICDODNOK\030\005 \003(\0132\014.BNP" +
-      "MABHALCNB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "MABHALCNB2\n\031emu.grasscutter.net.protoB\025C" +
+      "OBOFMDLOMJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

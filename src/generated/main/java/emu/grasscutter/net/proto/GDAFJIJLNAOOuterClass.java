@@ -774,8 +774,9 @@ public final class GDAFJIJLNAOOuterClass {
       "\n\021GDAFJIJLNAO.proto\032\021NBKIIACAEDE.proto\"e" +
       "\n\013GDAFJIJLNAO\022\023\n\013AGLOCKOENLB\030\005 \001(\r\022\020\n\010le" +
       "vel_id\030\006 \001(\r\022\032\n\004type\030\007 \001(\0162\014.NBKIIACAEDE" +
-      "\022\023\n\013CDEMBFGJAPH\030\t \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\022\023\n\013CDEMBFGJAPH\030\t \001(\rB2\n\031emu.grasscutter" +
+      ".net.protoB\025GDAFJIJLNAOOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -728,8 +728,9 @@ public final class KGBOMFIGKBOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KGBOMFIGKBO.proto\"S\n\013KGBOMFIGKBO\022\022\n\nst" +
       "art_time\030\006 \001(\r\022\021\n\tentity_id\030\007 \001(\r\022\020\n\010end" +
-      "_time\030\010 \001(\r\022\013\n\003uid\030\t \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "_time\030\010 \001(\r\022\013\n\003uid\030\t \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025KGBOMFIGKBOOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

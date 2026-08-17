@@ -187,8 +187,9 @@ public final class SalvagePreventStopReasonOuterClass {
       "ason_SALVAGE_PREVENT_STOP_LEAVE\020\004\0226\n2Sal" +
       "vagePreventStopReason_SALVAGE_PREVENT_ST" +
       "OP_FULL\020\005\0226\n2SalvagePreventStopReason_SA" +
-      "LVAGE_PREVENT_STOP_AWAY\020\006B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "LVAGE_PREVENT_STOP_AWAY\020\006B?\n\031emu.grasscu" +
+      "tter.net.protoB\"SalvagePreventStopReason" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

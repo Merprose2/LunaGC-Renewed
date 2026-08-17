@@ -525,8 +525,9 @@ public final class MEDIAICHPDLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MEDIAICHPDL.proto\".\n\013MEDIAICHPDL\022\037\n\027_q" +
-      "uest_event_archive_id\030\004 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "uest_event_archive_id\030\004 \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025MEDIAICHPDLOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

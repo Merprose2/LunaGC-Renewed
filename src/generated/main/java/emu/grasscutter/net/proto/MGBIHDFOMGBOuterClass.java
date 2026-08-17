@@ -721,8 +721,8 @@ public final class MGBIHDFOMGBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MGBIHDFOMGB.proto\032\021CFHLICDENDC.proto\"<" +
       "\n\013MGBIHDFOMGB\022\n\n\002id\030\001 \001(\r\022!\n\013FCDNMJLCHOP" +
-      "\030\002 \001(\0132\014.CFHLICDENDCB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\030\002 \001(\0132\014.CFHLICDENDCB2\n\031emu.grasscutter." +
+      "net.protoB\025MGBIHDFOMGBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

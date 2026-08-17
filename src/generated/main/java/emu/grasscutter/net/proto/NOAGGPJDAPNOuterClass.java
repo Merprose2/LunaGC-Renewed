@@ -723,8 +723,9 @@ public final class NOAGGPJDAPNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NOAGGPJDAPN.proto\"9\n\013NOAGGPJDAPN\022\021\n\tis" +
-      "_locked\030\006 \001(\010\022\027\n\017equip_guid_list\030\016 \003(\004B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "_locked\030\006 \001(\010\022\027\n\017equip_guid_list\030\016 \003(\004B2" +
+      "\n\031emu.grasscutter.net.protoB\025NOAGGPJDAPN" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -660,8 +660,9 @@ public final class SceneGalleryIrodoriMasterInfoOuterClass {
       "\n#SceneGalleryIrodoriMasterInfo.proto\"[\n" +
       "\035SceneGalleryIrodoriMasterInfo\022\022\n\ndiffic" +
       "ulty\030\002 \001(\r\022\020\n\010level_id\030\t \001(\r\022\024\n\014is_cg_vi" +
-      "ewed\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "ewed\030\017 \001(\010BD\n\031emu.grasscutter.net.protoB" +
+      "\'SceneGalleryIrodoriMasterInfoOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

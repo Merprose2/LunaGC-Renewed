@@ -1027,7 +1027,8 @@ public final class EEDKFDELIDOOuterClass {
       "KNEPFBHH\030\001 \001(\003\022!\n\013JDELNJOOHGJ\030\002 \001(\0162\014.MD" +
       "MBELAHIKG\022\034\n\006status\030\003 \001(\0162\014.DKNJEAOHJOJ\022" +
       "\023\n\013NIKHMDPDKJC\030\004 \001(\004\022\023\n\013EPGDIGAJOBN\030\005 \003(" +
-      "\tB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\tB2\n\031emu.grasscutter.net.protoB\025EEDKFDEL" +
+      "IDOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

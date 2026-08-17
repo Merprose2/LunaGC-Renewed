@@ -738,8 +738,9 @@ public final class COJDOILAHKFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021COJDOILAHKF.proto\"X\n\013COJDOILAHKF\022\r\n\005sc" +
       "ore\030\010 \001(\r\022\017\n\007retcode\030\r \001(\005\022\022\n\nis_success" +
-      "\030\016 \001(\010\022\025\n\ris_new_record\030\017 \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\030\016 \001(\010\022\025\n\ris_new_record\030\017 \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025COJDOILAHKFOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

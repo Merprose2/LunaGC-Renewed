@@ -563,8 +563,9 @@ public final class PlayerCancelMatchReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032PlayerCancelMatchReq.proto\032\017MatchType." +
       "proto\"6\n\024PlayerCancelMatchReq\022\036\n\nmatch_t" +
-      "ype\030\004 \001(\0162\n.MatchTypeB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "ype\030\004 \001(\0162\n.MatchTypeB;\n\031emu.grasscutter" +
+      ".net.protoB\036PlayerCancelMatchReqOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -893,8 +893,9 @@ public final class PPCMDCPPBIHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PPCMDCPPBIH.proto\032\021CNCDNJAAFFN.proto\"E" +
       "\n\013PPCMDCPPBIH\022!\n\013LLNHMEANOFA\030\004 \003(\0132\014.CNC" +
-      "DNJAAFFN\022\023\n\013LMKMEFOAOPI\030\t \001(\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "DNJAAFFN\022\023\n\013LMKMEFOAOPI\030\t \001(\005B2\n\031emu.gra" +
+      "sscutter.net.protoB\025PPCMDCPPBIHOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

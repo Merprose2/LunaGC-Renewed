@@ -730,7 +730,8 @@ public final class DDIGFMJHCGPOuterClass {
       "\n\021DDIGFMJHCGP.proto\"c\n\013DDIGFMJHCGP\022\014\n\004gu" +
       "id\030\003 \001(\r\022\023\n\013HLLDLEAJKNE\030\004 \001(\r\022\034\n\024_auto_c" +
       "hess_equip_id\030\005 \001(\r\022\023\n\013FIIALJOBLHL\030\t \001(\010" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025DDIGFMJHC" +
+      "GPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

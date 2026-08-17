@@ -595,8 +595,9 @@ public final class FLDCEGDOPKMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FLDCEGDOPKM.proto\"3\n\013FLDCEGDOPKM\022\023\n\013AL" +
-      "BHGMCIDLI\030\t \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "BHGMCIDLI\030\t \001(\r\022\017\n\007retcode\030\017 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025FLDCEGDOPKMOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

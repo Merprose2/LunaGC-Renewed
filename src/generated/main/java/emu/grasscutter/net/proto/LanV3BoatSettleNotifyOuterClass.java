@@ -1825,8 +1825,9 @@ public final class LanV3BoatSettleNotifyOuterClass {
       "ore_list\030\t \003(\0132\026.ExhibitionDisplayInfo\022." +
       "\n\020settle_info_list\030\n \003(\0132\024.LanV3BoatSett" +
       "leInfo\022\022\n\nstage_type\030\013 \001(\r\022\027\n\017winner_uid" +
-      "_list\030\014 \003(\r\022\021\n\tis_single\030\017 \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "_list\030\014 \003(\r\022\021\n\tis_single\030\017 \001(\010B<\n\031emu.gr" +
+      "asscutter.net.protoB\037LanV3BoatSettleNoti" +
+      "fyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

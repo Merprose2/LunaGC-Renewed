@@ -595,8 +595,9 @@ public final class HPEBOPKDLLDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HPEBOPKDLLD.proto\"3\n\013HPEBOPKDLLD\022\020\n\010le" +
-      "vel_id\030\003 \001(\r\022\022\n\ndifficulty\030\r \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "vel_id\030\003 \001(\r\022\022\n\ndifficulty\030\r \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025HPEBOPKDLLDOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

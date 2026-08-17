@@ -38,11 +38,11 @@ public final class JLAHKOGBNNBOuterClass {
      * <code>._ClassicModeTeamInfo classic_mode_team_info = 11;</code>
      * @return The classicModeTeamInfo.
      */
-    emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo getClassicModeTeamInfo();
+    emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo getClassicModeTeamInfo();
     /**
      * <code>._ClassicModeTeamInfo classic_mode_team_info = 11;</code>
      */
-    emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfoOrBuilder getClassicModeTeamInfoOrBuilder();
+    emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfoOrBuilder getClassicModeTeamInfoOrBuilder();
 
     public emu.grasscutter.net.proto.JLAHKOGBNNBOuterClass.JLAHKOGBNNB.DetailCase getDetailCase();
   }
@@ -99,14 +99,14 @@ public final class JLAHKOGBNNBOuterClass {
               break;
             }
             case 90: {
-              emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo.Builder subBuilder = null;
               if (detailCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 11;
@@ -216,21 +216,21 @@ public final class JLAHKOGBNNBOuterClass {
      * @return The classicModeTeamInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo getClassicModeTeamInfo() {
+    public emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo getClassicModeTeamInfo() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo) detail_;
+         return (emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo) detail_;
       }
-      return emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo.getDefaultInstance();
     }
     /**
      * <code>._ClassicModeTeamInfo classic_mode_team_info = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfoOrBuilder getClassicModeTeamInfoOrBuilder() {
+    public emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfoOrBuilder getClassicModeTeamInfoOrBuilder() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo) detail_;
+         return (emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo) detail_;
       }
-      return emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -251,7 +251,7 @@ public final class JLAHKOGBNNBOuterClass {
         output.writeEnum(1, oBFKILCBGMO_);
       }
       if (detailCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo) detail_);
+        output.writeMessage(11, (emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,7 +268,7 @@ public final class JLAHKOGBNNBOuterClass {
       }
       if (detailCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo) detail_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -647,7 +647,7 @@ public final class JLAHKOGBNNBOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo, emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo.Builder, emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfoOrBuilder> classicModeTeamInfoBuilder_;
+          emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo, emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo.Builder, emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfoOrBuilder> classicModeTeamInfoBuilder_;
       /**
        * <code>._ClassicModeTeamInfo classic_mode_team_info = 11;</code>
        * @return Whether the classicModeTeamInfo field is set.
@@ -661,23 +661,23 @@ public final class JLAHKOGBNNBOuterClass {
        * @return The classicModeTeamInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo getClassicModeTeamInfo() {
+      public emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo getClassicModeTeamInfo() {
         if (classicModeTeamInfoBuilder_ == null) {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo) detail_;
+            return (emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo) detail_;
           }
-          return emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 11) {
             return classicModeTeamInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._ClassicModeTeamInfo classic_mode_team_info = 11;</code>
        */
-      public Builder setClassicModeTeamInfo(emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo value) {
+      public Builder setClassicModeTeamInfo(emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo value) {
         if (classicModeTeamInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -694,7 +694,7 @@ public final class JLAHKOGBNNBOuterClass {
        * <code>._ClassicModeTeamInfo classic_mode_team_info = 11;</code>
        */
       public Builder setClassicModeTeamInfo(
-          emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo.Builder builderForValue) {
         if (classicModeTeamInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -707,11 +707,11 @@ public final class JLAHKOGBNNBOuterClass {
       /**
        * <code>._ClassicModeTeamInfo classic_mode_team_info = 11;</code>
        */
-      public Builder mergeClassicModeTeamInfo(emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo value) {
+      public Builder mergeClassicModeTeamInfo(emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo value) {
         if (classicModeTeamInfoBuilder_ == null) {
           if (detailCase_ == 11 &&
-              detail_ != emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo.newBuilder((emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo.newBuilder((emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -748,36 +748,36 @@ public final class JLAHKOGBNNBOuterClass {
       /**
        * <code>._ClassicModeTeamInfo classic_mode_team_info = 11;</code>
        */
-      public emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo.Builder getClassicModeTeamInfoBuilder() {
+      public emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo.Builder getClassicModeTeamInfoBuilder() {
         return getClassicModeTeamInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._ClassicModeTeamInfo classic_mode_team_info = 11;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfoOrBuilder getClassicModeTeamInfoOrBuilder() {
+      public emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfoOrBuilder getClassicModeTeamInfoOrBuilder() {
         if ((detailCase_ == 11) && (classicModeTeamInfoBuilder_ != null)) {
           return classicModeTeamInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo) detail_;
+            return (emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo) detail_;
           }
-          return emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._ClassicModeTeamInfo classic_mode_team_info = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo, emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo.Builder, emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfoOrBuilder> 
+          emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo, emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo.Builder, emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfoOrBuilder> 
           getClassicModeTeamInfoFieldBuilder() {
         if (classicModeTeamInfoBuilder_ == null) {
           if (!(detailCase_ == 11)) {
-            detail_ = emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo.getDefaultInstance();
           }
           classicModeTeamInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo, emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo.Builder, emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.ClassicModeTeamInfo._ClassicModeTeamInfo) detail_,
+              emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo, emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo.Builder, emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass._ClassicModeTeamInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -857,14 +857,15 @@ public final class JLAHKOGBNNBOuterClass {
       "_ClassicModeTeamInfo.proto\"s\n\013JLAHKOGBNN" +
       "B\022!\n\013OBFKILCBGMO\030\001 \001(\0162\014.MPAIPCFGLMF\0227\n\026" +
       "classic_mode_team_info\030\013 \001(\0132\025._ClassicM" +
-      "odeTeamInfoH\000B\010\n\006detailB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "odeTeamInfoH\000B\010\n\006detailB2\n\031emu.grasscutt" +
+      "er.net.protoB\025JLAHKOGBNNBOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.MPAIPCFGLMFOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.ClassicModeTeamInfo.getDescriptor(),
+          emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass.getDescriptor(),
         });
     internal_static_JLAHKOGBNNB_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -873,7 +874,7 @@ public final class JLAHKOGBNNBOuterClass {
         internal_static_JLAHKOGBNNB_descriptor,
         new java.lang.String[] { "OBFKILCBGMO", "ClassicModeTeamInfo", "Detail", });
     emu.grasscutter.net.proto.MPAIPCFGLMFOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.ClassicModeTeamInfo.getDescriptor();
+    emu.grasscutter.net.proto._ClassicModeTeamInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

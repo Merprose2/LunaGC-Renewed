@@ -668,8 +668,9 @@ public final class SpiceActivityFinishMakeSpiceRspOuterClass {
       "\n%SpiceActivityFinishMakeSpiceRsp.proto\"" +
       "X\n\037SpiceActivityFinishMakeSpiceRsp\022\020\n\010st" +
       "age_id\030\t \001(\r\022\022\n\nis_success\030\n \001(\010\022\017\n\007retc" +
-      "ode\030\017 \001(\005B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "ode\030\017 \001(\005BF\n\031emu.grasscutter.net.protoB)" +
+      "SpiceActivityFinishMakeSpiceRspOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

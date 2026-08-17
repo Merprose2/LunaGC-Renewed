@@ -1749,8 +1749,8 @@ public final class DDJMPFHHPIPOuterClass {
       "BE\022\023\n\013CFAHNLHFKDN\030\004 \001(\010\022!\n\013KNFHJLMIFJM\030\007" +
       " \001(\0132\014.EHCGCOAGHAJ\022!\n\013NKHBPAAFNGB\030\010 \003(\0132" +
       "\014.DMPGLLNPKEG\022\023\n\013POGPHDLNFFL\030\t \003(\005\022\024\n\013fi" +
-      "lter_type\030\365\003 \001(\005B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "lter_type\030\365\003 \001(\005B2\n\031emu.grasscutter.net." +
+      "protoB\025DDJMPFHHPIPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

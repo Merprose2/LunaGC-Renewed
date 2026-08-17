@@ -213,8 +213,8 @@ public final class ServerLogTypeOuterClass {
       "VER_LOG_QUEST\020\006\022%\n!ServerLogType_SERVER_" +
       "LOG_ACTIVITY\020\007\022%\n!ServerLogType_SERVER_L" +
       "OG_LOCKSTEP\020\010\022#\n\037ServerLogType_SERVER_LO" +
-      "G_DAMAGE\020\tB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "G_DAMAGE\020\tB4\n\031emu.grasscutter.net.protoB" +
+      "\027ServerLogTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

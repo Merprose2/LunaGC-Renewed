@@ -1170,8 +1170,8 @@ public final class CustomDungeonOuterClass {
       "ustomDungeon\022%\n\troom_list\030\t \003(\0132\022.Custom" +
       "DungeonRoom\022\024\n\014dungeon_guid\030\013 \001(\004\022\022\n\ndun" +
       "geon_id\030\014 \001(\r\022&\n\007setting\030\016 \001(\0132\025.CustomD" +
-      "ungeonSettingB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "ungeonSettingB4\n\031emu.grasscutter.net.pro" +
+      "toB\027CustomDungeonOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

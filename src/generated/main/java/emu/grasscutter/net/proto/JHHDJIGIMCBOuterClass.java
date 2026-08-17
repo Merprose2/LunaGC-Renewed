@@ -2395,8 +2395,9 @@ public final class JHHDJIGIMCBOuterClass {
       "r_field\030\014 \001(\0132\014.BKIHKCLBNEHH\000\0225\n\035beyond_" +
       "avatar_disturber_eject\030\r \001(\0132\014.GNIBCOBFE" +
       "JHH\000\0224\n\034beyond_avatar_disturber_drag\030\016 \001" +
-      "(\0132\014.CKIDGNBGBOHH\000B\010\n\006detailB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "(\0132\014.CKIDGNBGBOHH\000B\010\n\006detailB2\n\031emu.gras" +
+      "scutter.net.protoB\025JHHDJIGIMCBOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

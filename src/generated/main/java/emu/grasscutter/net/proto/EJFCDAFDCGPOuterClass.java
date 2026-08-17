@@ -1166,8 +1166,9 @@ public final class EJFCDAFDCGPOuterClass {
       "\n\021EJFCDAFDCGP.proto\032\017ItemParam.proto\"k\n\013" +
       "EJFCDAFDCGP\022\023\n\013activity_id\030\003 \001(\r\022\017\n\007retc" +
       "ode\030\007 \001(\005\022\027\n\017watcher_id_list\030\014 \003(\r\022\035\n\tit" +
-      "em_list\030\017 \003(\0132\n.ItemParamB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "em_list\030\017 \003(\0132\n.ItemParamB2\n\031emu.grasscu" +
+      "tter.net.protoB\025EJFCDAFDCGPOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

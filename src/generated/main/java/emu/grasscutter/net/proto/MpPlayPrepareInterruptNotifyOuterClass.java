@@ -526,7 +526,8 @@ public final class MpPlayPrepareInterruptNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"MpPlayPrepareInterruptNotify.proto\"2\n\034" +
       "MpPlayPrepareInterruptNotify\022\022\n\nmp_play_" +
-      "id\030\003 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
+      "id\030\003 \001(\rBC\n\031emu.grasscutter.net.protoB&M" +
+      "pPlayPrepareInterruptNotifyOuterClassb\006p" +
       "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

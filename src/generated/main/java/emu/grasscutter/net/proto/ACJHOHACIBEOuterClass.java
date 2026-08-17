@@ -1774,8 +1774,9 @@ public final class ACJHOHACIBEOuterClass {
       "CCPNLHMCPH\030\t \001(\002\022\023\n\013FICOICEGFJG\030\n \001(\t\022!\n" +
       "\013GKDBJJGGOAN\030\013 \001(\0162\014.JEOKDCIGCFP\022!\n\013AMJN" +
       "ELGDJCG\030\014 \001(\0132\014.HHEDHCFPEKM\022\024\n\013LDGGMBGDL" +
-      "JL\030\365\003 \001(\t\022\024\n\013MNKJEDAKLDG\030\366\003 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "JL\030\365\003 \001(\t\022\024\n\013MNKJEDAKLDG\030\366\003 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025ACJHOHACIBEOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -974,8 +974,9 @@ public final class ParentQuestInferenceDataNotifyOuterClass {
       "InferencePageInfo.proto\"\177\n\036ParentQuestIn" +
       "ferenceDataNotify\022/\n\023inference_page_list" +
       "\030\007 \003(\0132\022.InferencePageInfo\022\027\n\017parent_que" +
-      "st_id\030\t \001(\r\022\023\n\013FGEFEDILGGC\030\r \001(\010B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "st_id\030\t \001(\r\022\023\n\013FGEFEDILGGC\030\r \001(\010BE\n\031emu." +
+      "grasscutter.net.protoB(ParentQuestInfere" +
+      "nceDataNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -723,8 +723,9 @@ public final class BrickBreakerSelectSkillRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n BrickBreakerSelectSkillRsp.proto\"?\n\032Br" +
       "ickBreakerSelectSkillRsp\022\017\n\007retcode\030\007 \001(" +
-      "\005\022\020\n\010skill_id\030\016 \003(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\005\022\020\n\010skill_id\030\016 \003(\rBA\n\031emu.grasscutter.n" +
+      "et.protoB$BrickBreakerSelectSkillRspOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

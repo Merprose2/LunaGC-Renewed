@@ -1596,8 +1596,9 @@ public final class EPCDKMAFDKDOuterClass {
       "GPNIBKDLNF\030\001 \001(\t\022\023\n\013GCADDEKADEJ\030\002 \001(\r\022\023\n" +
       "\013HOOFIPIENLC\030\003 \001(\t\022\023\n\013KDCDEAIDEHM\030\004 \003(\005\022" +
       "\023\n\013DBNLBEFPGCL\030\013 \003(\005\022\023\n\013friend_list\030\014 \003(" +
-      "\r\022\023\n\013PIGMLNPNGAF\030\r \003(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\r\022\023\n\013PIGMLNPNGAF\030\r \003(\rB2\n\031emu.grasscutte" +
+      "r.net.protoB\025EPCDKMAFDKDOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

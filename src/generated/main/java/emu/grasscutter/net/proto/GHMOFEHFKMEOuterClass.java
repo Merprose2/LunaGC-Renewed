@@ -595,8 +595,9 @@ public final class GHMOFEHFKMEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GHMOFEHFKME.proto\"3\n\013GHMOFEHFKME\022\020\n\010en" +
-      "d_time\030\003 \001(\r\022\022\n\ngallery_id\030\010 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "d_time\030\003 \001(\r\022\022\n\ngallery_id\030\010 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025GHMOFEHFKMEOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

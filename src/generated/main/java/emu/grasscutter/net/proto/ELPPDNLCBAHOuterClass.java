@@ -661,8 +661,8 @@ public final class ELPPDNLCBAHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ELPPDNLCBAH.proto\"L\n\013ELPPDNLCBAH\022\023\n\013CK" +
       "KPHKJNBEP\030\002 \001(\010\022\023\n\013KCJNJCIDGEC\030\003 \001(\010\022\023\n\013" +
-      "MJJILPPMAOF\030\004 \001(\010B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "MJJILPPMAOF\030\004 \001(\010B2\n\031emu.grasscutter.net" +
+      ".protoB\025ELPPDNLCBAHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

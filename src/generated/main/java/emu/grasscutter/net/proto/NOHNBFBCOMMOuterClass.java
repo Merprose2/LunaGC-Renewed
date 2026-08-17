@@ -659,8 +659,8 @@ public final class NOHNBFBCOMMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NOHNBFBCOMM.proto\032\021BGNKJKOGBAE.proto\"0" +
       "\n\013NOHNBFBCOMM\022!\n\013KBEKCCFFNCD\030\001 \001(\0132\014.BGN" +
-      "KJKOGBAEB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "KJKOGBAEB2\n\031emu.grasscutter.net.protoB\025N" +
+      "OHNBFBCOMMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

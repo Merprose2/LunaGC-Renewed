@@ -1276,7 +1276,8 @@ public final class PLBJHIOJCLHOuterClass {
       "edule_id\030\001 \001(\r\022\023\n\013KPFGHLKNBKN\030\006 \001(\010\022\035\n\007o" +
       "p_type\030\t \001(\0162\014.JKNEOKKEAGE\022!\n\013FMDEGINOOD" +
       "A\030\n \003(\0132\014.ECNIPFHNLAK\022\023\n\013GMPACCHLJDI\030\016 \003" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB2\n\031emu.grasscutter.net.protoB\025PLBJHIO" +
+      "JCLHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

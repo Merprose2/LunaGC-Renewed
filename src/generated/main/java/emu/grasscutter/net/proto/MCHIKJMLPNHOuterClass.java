@@ -741,8 +741,8 @@ public final class MCHIKJMLPNHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MCHIKJMLPNH.proto\"F\n\013MCHIKJMLPNH\022\r\n\005va" +
       "lue\030\001 \001(\002\022\023\n\013INGDFGIEEEG\030\002 \001(\010\022\023\n\013JGJGAI" +
-      "KPPIH\030\003 \001(\tB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "KPPIH\030\003 \001(\tB2\n\031emu.grasscutter.net.proto" +
+      "B\025MCHIKJMLPNHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

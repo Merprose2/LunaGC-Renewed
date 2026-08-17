@@ -644,8 +644,8 @@ public final class DPNIGOKONBGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DPNIGOKONBG.proto\"#\n\013DPNIGOKONBG\022\024\n\013PC" +
-      "DODBCPCDG\030\365\003 \003(\005B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "DODBCPCDG\030\365\003 \003(\005B2\n\031emu.grasscutter.net." +
+      "protoB\025DPNIGOKONBGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

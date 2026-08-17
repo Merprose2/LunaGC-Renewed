@@ -855,7 +855,8 @@ public final class OGKFKHMPIIIOuterClass {
       "\n\021OGKFKHMPIII.proto\032\021JJOJINAGBKF.proto\"S" +
       "\n\013OGKFKHMPIII\022!\n\013EGCBMGIEKBB\030\005 \001(\0132\014.JJO" +
       "JINAGBKF\022!\n\013GPOEHLGJAPN\030\r \001(\0132\014.JJOJINAG" +
-      "BKFB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "BKFB2\n\031emu.grasscutter.net.protoB\025OGKFKH" +
+      "MPIIIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -728,8 +728,9 @@ public final class PJPKAAHDBGEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PJPKAAHDBGE.proto\"a\n\013PJPKAAHDBGE\022\023\n\013GN" +
       "NMNEGOHDN\030\005 \001(\r\022\023\n\013audit_state\030\007 \001(\r\022\023\n\013" +
-      "GBLBDHIELAC\030\010 \001(\r\022\023\n\013NBKEOINEPFO\030\t \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "GBLBDHIELAC\030\010 \001(\r\022\023\n\013NBKEOINEPFO\030\t \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025PJPKAAHDBGE" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

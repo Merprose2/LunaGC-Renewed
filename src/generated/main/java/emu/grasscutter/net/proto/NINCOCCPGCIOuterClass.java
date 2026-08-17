@@ -823,8 +823,8 @@ public final class NINCOCCPGCIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NINCOCCPGCI.proto\032\021DBBIBLLCCHB.proto\"/" +
       "\n\013NINCOCCPGCI\022 \n\nblock_list\030\007 \003(\0132\014.DBBI" +
-      "BLLCCHBB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "BLLCCHBB2\n\031emu.grasscutter.net.protoB\025NI" +
+      "NCOCCPGCIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

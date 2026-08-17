@@ -969,8 +969,9 @@ public final class KEBNBMGICHOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KEBNBMGICHO.proto\"a\n\013KEBNBMGICHO\022\023\n\013PF" +
       "BFPLFLKCD\030\001 \001(\010\022\023\n\013FGLCKAOOLLD\030\002 \001(\t\022\023\n\013" +
-      "NFDKACEIHFD\030\003 \001(\t\022\023\n\013EANMFKEPPEE\030\004 \001(\tB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "NFDKACEIHFD\030\003 \001(\t\022\023\n\013EANMFKEPPEE\030\004 \001(\tB2" +
+      "\n\031emu.grasscutter.net.protoB\025KEBNBMGICHO" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

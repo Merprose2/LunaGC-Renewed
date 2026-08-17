@@ -1341,8 +1341,9 @@ public final class GCGDSDeckDataOuterClass {
       "\014\n\004name\030\002 \001(\t\022\023\n\013DODLJMNEFDC\030\003 \001(\r\022\023\n\013cr" +
       "eate_time\030\005 \001(\007\022\n\n\002id\030\t \001(\r\022\033\n\023character" +
       "_card_list\030\013 \003(\r\022\020\n\010is_valid\030\014 \001(\010\022\023\n\013JG" +
-      "KAGCCOBCB\030\r \001(\r\022\021\n\tcard_list\030\016 \003(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "KAGCCOBCB\030\r \001(\r\022\021\n\tcard_list\030\016 \003(\rB4\n\031em" +
+      "u.grasscutter.net.protoB\027GCGDSDeckDataOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

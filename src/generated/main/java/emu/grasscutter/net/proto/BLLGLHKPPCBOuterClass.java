@@ -525,8 +525,8 @@ public final class BLLGLHKPPCBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BLLGLHKPPCB.proto\"\032\n\013BLLGLHKPPCB\022\013\n\003ui" +
-      "d\030\002 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "d\030\002 \001(\rB2\n\031emu.grasscutter.net.protoB\025BL" +
+      "LGLHKPPCBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

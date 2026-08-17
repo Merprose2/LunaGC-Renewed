@@ -525,8 +525,9 @@ public final class BatchBuyGoodsReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026BatchBuyGoodsReq.proto\"%\n\020BatchBuyGood" +
-      "sReq\022\021\n\tshop_type\030\013 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "sReq\022\021\n\tshop_type\030\013 \001(\rB7\n\031emu.grasscutt" +
+      "er.net.protoB\032BatchBuyGoodsReqOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

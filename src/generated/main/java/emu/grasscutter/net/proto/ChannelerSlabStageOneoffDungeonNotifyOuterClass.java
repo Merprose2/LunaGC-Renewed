@@ -598,7 +598,9 @@ public final class ChannelerSlabStageOneoffDungeonNotifyOuterClass {
       "\n+ChannelerSlabStageOneoffDungeonNotify." +
       "proto\"J\n%ChannelerSlabStageOneoffDungeon" +
       "Notify\022\017\n\007is_done\030\013 \001(\010\022\020\n\010stage_id\030\017 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rBL\n\031emu.grasscutter.net.protoB/Channele" +
+      "rSlabStageOneoffDungeonNotifyOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

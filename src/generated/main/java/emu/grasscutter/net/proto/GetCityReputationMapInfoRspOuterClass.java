@@ -39,12 +39,12 @@ public final class GetCityReputationMapInfoRspOuterClass {
     /**
      * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo> 
+    java.util.List<emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo> 
         getRewardInfoListList();
     /**
      * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
      */
-    emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo getRewardInfoList(int index);
+    emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo getRewardInfoList(int index);
     /**
      * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
      */
@@ -52,12 +52,12 @@ public final class GetCityReputationMapInfoRspOuterClass {
     /**
      * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfoOrBuilder> 
         getRewardInfoListOrBuilderList();
     /**
      * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
      */
-    emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfoOrBuilder getRewardInfoListOrBuilder(
+    emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfoOrBuilder getRewardInfoListOrBuilder(
         int index);
 
     /**
@@ -134,11 +134,11 @@ public final class GetCityReputationMapInfoRspOuterClass {
             }
             case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                rewardInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo>();
+                rewardInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               rewardInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo.parser(), extensionRegistry));
               break;
             }
             case 80: {
@@ -215,19 +215,19 @@ public final class GetCityReputationMapInfoRspOuterClass {
     }
 
     public static final int REWARD_INFO_LIST_FIELD_NUMBER = 8;
-    private java.util.List<emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo> rewardInfoList_;
+    private java.util.List<emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo> rewardInfoList_;
     /**
      * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo> getRewardInfoListList() {
+    public java.util.List<emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo> getRewardInfoListList() {
       return rewardInfoList_;
     }
     /**
      * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfoOrBuilder> 
         getRewardInfoListOrBuilderList() {
       return rewardInfoList_;
     }
@@ -242,14 +242,14 @@ public final class GetCityReputationMapInfoRspOuterClass {
      * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo getRewardInfoList(int index) {
+    public emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo getRewardInfoList(int index) {
       return rewardInfoList_.get(index);
     }
     /**
      * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfoOrBuilder getRewardInfoListOrBuilder(
+    public emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfoOrBuilder getRewardInfoListOrBuilder(
         int index) {
       return rewardInfoList_.get(index);
     }
@@ -775,22 +775,22 @@ public final class GetCityReputationMapInfoRspOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo> rewardInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo> rewardInfoList_ =
         java.util.Collections.emptyList();
       private void ensureRewardInfoListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          rewardInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo>(rewardInfoList_);
+          rewardInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo>(rewardInfoList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo, emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo.Builder, emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfoOrBuilder> rewardInfoListBuilder_;
+          emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo, emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo.Builder, emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfoOrBuilder> rewardInfoListBuilder_;
 
       /**
        * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo> getRewardInfoListList() {
+      public java.util.List<emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo> getRewardInfoListList() {
         if (rewardInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(rewardInfoList_);
         } else {
@@ -810,7 +810,7 @@ public final class GetCityReputationMapInfoRspOuterClass {
       /**
        * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo getRewardInfoList(int index) {
+      public emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo getRewardInfoList(int index) {
         if (rewardInfoListBuilder_ == null) {
           return rewardInfoList_.get(index);
         } else {
@@ -821,7 +821,7 @@ public final class GetCityReputationMapInfoRspOuterClass {
        * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
        */
       public Builder setRewardInfoList(
-          int index, emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo value) {
+          int index, emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo value) {
         if (rewardInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -838,7 +838,7 @@ public final class GetCityReputationMapInfoRspOuterClass {
        * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
        */
       public Builder setRewardInfoList(
-          int index, emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo.Builder builderForValue) {
         if (rewardInfoListBuilder_ == null) {
           ensureRewardInfoListIsMutable();
           rewardInfoList_.set(index, builderForValue.build());
@@ -851,7 +851,7 @@ public final class GetCityReputationMapInfoRspOuterClass {
       /**
        * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
        */
-      public Builder addRewardInfoList(emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo value) {
+      public Builder addRewardInfoList(emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo value) {
         if (rewardInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -868,7 +868,7 @@ public final class GetCityReputationMapInfoRspOuterClass {
        * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
        */
       public Builder addRewardInfoList(
-          int index, emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo value) {
+          int index, emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo value) {
         if (rewardInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -885,7 +885,7 @@ public final class GetCityReputationMapInfoRspOuterClass {
        * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
        */
       public Builder addRewardInfoList(
-          emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo.Builder builderForValue) {
         if (rewardInfoListBuilder_ == null) {
           ensureRewardInfoListIsMutable();
           rewardInfoList_.add(builderForValue.build());
@@ -899,7 +899,7 @@ public final class GetCityReputationMapInfoRspOuterClass {
        * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
        */
       public Builder addRewardInfoList(
-          int index, emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo.Builder builderForValue) {
         if (rewardInfoListBuilder_ == null) {
           ensureRewardInfoListIsMutable();
           rewardInfoList_.add(index, builderForValue.build());
@@ -913,7 +913,7 @@ public final class GetCityReputationMapInfoRspOuterClass {
        * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
        */
       public Builder addAllRewardInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo> values) {
         if (rewardInfoListBuilder_ == null) {
           ensureRewardInfoListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -953,14 +953,14 @@ public final class GetCityReputationMapInfoRspOuterClass {
       /**
        * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo.Builder getRewardInfoListBuilder(
+      public emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo.Builder getRewardInfoListBuilder(
           int index) {
         return getRewardInfoListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfoOrBuilder getRewardInfoListOrBuilder(
+      public emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfoOrBuilder getRewardInfoListOrBuilder(
           int index) {
         if (rewardInfoListBuilder_ == null) {
           return rewardInfoList_.get(index);  } else {
@@ -970,7 +970,7 @@ public final class GetCityReputationMapInfoRspOuterClass {
       /**
        * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfoOrBuilder> 
            getRewardInfoListOrBuilderList() {
         if (rewardInfoListBuilder_ != null) {
           return rewardInfoListBuilder_.getMessageOrBuilderList();
@@ -981,31 +981,31 @@ public final class GetCityReputationMapInfoRspOuterClass {
       /**
        * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo.Builder addRewardInfoListBuilder() {
+      public emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo.Builder addRewardInfoListBuilder() {
         return getRewardInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo.Builder addRewardInfoListBuilder(
+      public emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo.Builder addRewardInfoListBuilder(
           int index) {
         return getRewardInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._CityReputationRewardInfo reward_info_list = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo.Builder> 
            getRewardInfoListBuilderList() {
         return getRewardInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo, emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo.Builder, emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfoOrBuilder> 
+          emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo, emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo.Builder, emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfoOrBuilder> 
           getRewardInfoListFieldBuilder() {
         if (rewardInfoListBuilder_ == null) {
           rewardInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo, emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfo.Builder, emu.grasscutter.net.proto.CityReputationRewardInfo._CityReputationRewardInfoOrBuilder>(
+              emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo, emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfo.Builder, emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass._CityReputationRewardInfoOrBuilder>(
                   rewardInfoList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -1117,13 +1117,14 @@ public final class GetCityReputationMapInfoRspOuterClass {
       "ReputationMapInfoRsp\022\023\n\013NPGHGNFEDLI\030\003 \001(" +
       "\010\022\023\n\013PHDGLGHJMKO\030\004 \001(\010\022\023\n\013OOLBGHHEMCA\030\006 " +
       "\001(\010\0224\n\020reward_info_list\030\010 \003(\0132\032._CityRep" +
-      "utationRewardInfo\022\017\n\007retcode\030\n \001(\005B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "utationRewardInfo\022\017\n\007retcode\030\n \001(\005BB\n\031em" +
+      "u.grasscutter.net.protoB%GetCityReputati" +
+      "onMapInfoRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.CityReputationRewardInfo.getDescriptor(),
+          emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass.getDescriptor(),
         });
     internal_static_GetCityReputationMapInfoRsp_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1131,7 +1132,7 @@ public final class GetCityReputationMapInfoRspOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GetCityReputationMapInfoRsp_descriptor,
         new java.lang.String[] { "NPGHGNFEDLI", "PHDGLGHJMKO", "OOLBGHHEMCA", "RewardInfoList", "Retcode", });
-    emu.grasscutter.net.proto.CityReputationRewardInfo.getDescriptor();
+    emu.grasscutter.net.proto._CityReputationRewardInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -1262,8 +1262,9 @@ public final class KAPHNCKKHAFOuterClass {
       "\001\n\013KAPHNCKKHAF\022\"\n\013NNNGNPMOIJC\030\365\003 \001(\0132\014.B" +
       "KCCFBDBHPA\022\"\n\013CEDOOAMJOJK\030\366\003 \001(\0132\014.BKCCF" +
       "BDBHPA\022\"\n\013AKJJEOCEAEH\030\367\003 \001(\0132\014.BKCCFBDBH" +
-      "PA\022\"\n\013ENKHADJJLBK\030\370\003 \001(\0132\014.BKCCFBDBHPAB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "PA\022\"\n\013ENKHADJJLBK\030\370\003 \001(\0132\014.BKCCFBDBHPAB2" +
+      "\n\031emu.grasscutter.net.protoB\025KAPHNCKKHAF" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

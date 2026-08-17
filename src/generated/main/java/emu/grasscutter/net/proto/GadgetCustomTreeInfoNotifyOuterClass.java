@@ -731,8 +731,9 @@ public final class GadgetCustomTreeInfoNotifyOuterClass {
       "omGadgetTreeInfo.proto\"n\n\032GadgetCustomTr" +
       "eeInfoNotify\0226\n\027custom_gadget_tree_info\030" +
       "\t \001(\0132\025.CustomGadgetTreeInfo\022\030\n\020gadget_e" +
-      "ntity_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "ntity_id\030\016 \001(\rBA\n\031emu.grasscutter.net.pr" +
+      "otoB$GadgetCustomTreeInfoNotifyOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

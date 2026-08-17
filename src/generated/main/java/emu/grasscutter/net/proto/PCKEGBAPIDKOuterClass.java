@@ -1077,8 +1077,8 @@ public final class PCKEGBAPIDKOuterClass {
       "\n\013KJFDCDJFCFB\030\001 \001(\0132\021.OnlinePlayerInfo\022\023" +
       "\n\013GHNMBPLBBFN\030\003 \001(\r\022!\n\013APPOCAEMJBN\030\005 \001(\013" +
       "2\014.JPAJKPHNCCG\022\023\n\013OIEHJMHHCFB\030\013 \001(\004\022\023\n\013B" +
-      "OJNPHONGMP\030\016 \001(\004B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "OJNPHONGMP\030\016 \001(\004B2\n\031emu.grasscutter.net." +
+      "protoB\025PCKEGBAPIDKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

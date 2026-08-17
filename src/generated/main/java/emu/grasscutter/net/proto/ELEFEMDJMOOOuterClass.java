@@ -809,8 +809,8 @@ public final class ELEFEMDJMOOOuterClass {
       "\n\021ELEFEMDJMOO.proto\"k\n\013ELEFEMDJMOO\022\020\n\010le" +
       "vel_id\030\001 \001(\r\022\017\n\007retcode\030\003 \001(\005\022\025\n\ris_new_" +
       "record\030\005 \001(\010\022\r\n\005score\030\006 \001(\r\022\023\n\013is_finish" +
-      "ed\030\r \001(\010B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "ed\030\r \001(\010B2\n\031emu.grasscutter.net.protoB\025E" +
+      "LEFEMDJMOOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

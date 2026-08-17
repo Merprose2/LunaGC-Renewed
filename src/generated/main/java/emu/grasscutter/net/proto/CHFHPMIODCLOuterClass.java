@@ -823,8 +823,8 @@ public final class CHFHPMIODCLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CHFHPMIODCL.proto\032\021CMADNKHPFNH.proto\"0" +
       "\n\013CHFHPMIODCL\022!\n\013GPHOCNJKFLN\030\002 \003(\0132\014.CMA" +
-      "DNKHPFNHB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "DNKHPFNHB2\n\031emu.grasscutter.net.protoB\025C" +
+      "HFHPMIODCLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

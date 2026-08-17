@@ -737,8 +737,9 @@ public final class KBCEOHKJBLCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KBCEOHKJBLC.proto\"Z\n\013KBCEOHKJBLC\022\021\n\tav" +
       "atar_id\030\001 \001(\r\022\023\n\013HDBJDLEHDGP\030\005 \001(\010\022\016\n\006re" +
-      "ason\030\010 \001(\r\022\023\n\013CIEFIKNJLPK\030\014 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "ason\030\010 \001(\r\022\023\n\013CIEFIKNJLPK\030\014 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025KBCEOHKJBLCOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -659,8 +659,9 @@ public final class AsterLargeInfoNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032AsterLargeInfoNotify.proto\032\032AsterLarge" +
       "DetailInfo.proto\";\n\024AsterLargeInfoNotify" +
-      "\022#\n\004info\030\016 \001(\0132\025.AsterLargeDetailInfoB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\022#\n\004info\030\016 \001(\0132\025.AsterLargeDetailInfoB;\n" +
+      "\031emu.grasscutter.net.protoB\036AsterLargeIn" +
+      "foNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

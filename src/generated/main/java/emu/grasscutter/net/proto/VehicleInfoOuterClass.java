@@ -1180,8 +1180,8 @@ public final class VehicleInfoOuterClass {
       "VehicleMember\022\021\n\towner_uid\030\002 \001(\r\022\023\n\013cur_" +
       "stamina\030\003 \001(\002\022\034\n\024_transform_entity_id\030\004 " +
       "\001(\r\022\027\n\017_cur_phlogiston\030\005 \001(\002\022\021\n\tanim_has" +
-      "h\030\006 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "h\030\006 \001(\rB2\n\031emu.grasscutter.net.protoB\025Ve" +
+      "hicleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

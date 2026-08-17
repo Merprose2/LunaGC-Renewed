@@ -722,8 +722,9 @@ public final class IKIPJJICMEAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IKIPJJICMEA.proto\"3\n\013IKIPJJICMEA\022\023\n\013MO" +
-      "LFPGIEHLM\030\007 \003(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "LFPGIEHLM\030\007 \003(\r\022\017\n\007retcode\030\016 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025IKIPJJICMEAOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

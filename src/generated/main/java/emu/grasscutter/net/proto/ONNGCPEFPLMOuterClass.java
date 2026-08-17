@@ -729,8 +729,9 @@ public final class ONNGCPEFPLMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ONNGCPEFPLM.proto\032\021FriendBrief.proto\"L" +
       "\n\013ONNGCPEFPLM\022)\n\023target_friend_brief\030\003 \001" +
-      "(\0132\014.FriendBrief\022\022\n\ntarget_uid\030\010 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "(\0132\014.FriendBrief\022\022\n\ntarget_uid\030\010 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025ONNGCPEFPLMOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

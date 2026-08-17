@@ -973,8 +973,9 @@ public final class GLLPFPEKPAJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GLLPFPEKPAJ.proto\032\021EMCKHPDCPEA.proto\"G" +
       "\n\013GLLPFPEKPAJ\022\024\n\013EIHJHLFPPOO\030\365\003 \001(\t\022\"\n\013H" +
-      "DLENLCGJCK\030\366\003 \003(\0132\014.EMCKHPDCPEAB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "DLENLCGJCK\030\366\003 \003(\0132\014.EMCKHPDCPEAB2\n\031emu.g" +
+      "rasscutter.net.protoB\025GLLPFPEKPAJOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

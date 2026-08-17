@@ -884,8 +884,8 @@ public final class NHPANEDGIEAOuterClass {
       "\n\021NHPANEDGIEA.proto\"q\n\013NHPANEDGIEA\022\023\n\013ID" +
       "DJDJOKEIE\030\001 \001(\010\022\016\n\006radius\030\002 \001(\002\022\023\n\013DHJHI" +
       "MJIGNG\030\003 \001(\002\022\023\n\013BDLIIHFDLJF\030\004 \001(\r\022\023\n\013KPM" +
-      "KGDAFPJH\030\005 \001(\tB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "KGDAFPJH\030\005 \001(\tB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025NHPANEDGIEAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

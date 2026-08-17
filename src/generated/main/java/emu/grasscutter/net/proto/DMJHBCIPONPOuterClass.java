@@ -1006,8 +1006,9 @@ public final class DMJHBCIPONPOuterClass {
       "o\032\rUgcType.proto\"\177\n\013DMJHBCIPONP\022\020\n\010ugc_g" +
       "uid\030\002 \001(\004\022\'\n\014music_record\030\006 \001(\0132\017.UgcMus" +
       "icRecordH\000\022\017\n\007retcode\030\t \001(\005\022\032\n\010ugc_type\030" +
-      "\n \001(\0162\010.UgcTypeB\010\n\006recordB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\n \001(\0162\010.UgcTypeB\010\n\006recordB2\n\031emu.grasscu" +
+      "tter.net.protoB\025DMJHBCIPONPOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -729,8 +729,9 @@ public final class NDELMIPKPEDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NDELMIPKPED.proto\032\021JBBMNFPLIGA.proto\"A" +
       "\n\013NDELMIPKPED\022!\n\013BFLGOHMAFDM\030\001 \001(\0132\014.JBB" +
-      "MNFPLIGA\022\017\n\007retcode\030\007 \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "MNFPLIGA\022\017\n\007retcode\030\007 \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025NDELMIPKPEDOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

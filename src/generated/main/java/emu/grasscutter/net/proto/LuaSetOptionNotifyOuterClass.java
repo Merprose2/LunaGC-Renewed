@@ -824,8 +824,9 @@ public final class LuaSetOptionNotifyOuterClass {
       "ptionNotify.LuaOptionType\022\025\n\rlua_set_par" +
       "am\030\016 \001(\t\"]\n\rLuaOptionType\022!\n\035LuaOptionTy" +
       "pe_LUA_OPTION_NONE\020\000\022)\n%LuaOptionType_LU" +
-      "A_OPTION_PLAYER_INPUT\020\001B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "A_OPTION_PLAYER_INPUT\020\001B9\n\031emu.grasscutt" +
+      "er.net.protoB\034LuaSetOptionNotifyOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

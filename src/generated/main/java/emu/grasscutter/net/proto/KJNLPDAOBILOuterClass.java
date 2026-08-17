@@ -1058,8 +1058,8 @@ public final class KJNLPDAOBILOuterClass {
       "\n\021KJNLPDAOBIL.proto\"v\n\013KJNLPDAOBIL\022\023\n\013CI" +
       "DDDCCNGCI\030\002 \001(\010\022\027\n\017parent_quest_id\030\003 \001(\r" +
       "\022\023\n\013HHCKBCNEDDJ\030\004 \003(\r\022\017\n\007retcode\030\007 \001(\005\022\023" +
-      "\n\013ICEMCFHHDMJ\030\014 \003(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013ICEMCFHHDMJ\030\014 \003(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025KJNLPDAOBILOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

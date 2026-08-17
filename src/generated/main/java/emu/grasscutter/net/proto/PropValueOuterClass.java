@@ -871,8 +871,8 @@ public final class PropValueOuterClass {
     java.lang.String[] descriptorData = {
       "\n\017PropValue.proto\"O\n\tPropValue\022\014\n\004type\030\001" +
       " \001(\r\022\016\n\004ival\030\002 \001(\003H\000\022\016\n\004fval\030\003 \001(\002H\000\022\013\n\003" +
-      "val\030\004 \001(\003B\007\n\005valueB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "val\030\004 \001(\003B\007\n\005valueB0\n\031emu.grasscutter.ne" +
+      "t.protoB\023PropValueOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

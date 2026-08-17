@@ -1271,8 +1271,9 @@ public final class BlessingActivityDetailInfoOuterClass {
       " \003(\0132*.BlessingActivityDetailInfo.PicNum" +
       "MapEntry\022\023\n\013DKHOJDNIKGN\030\r \001(\r\022\032\n\022content" +
       "_close_time\030\016 \001(\r\0320\n\016PicNumMapEntry\022\013\n\003k" +
-      "ey\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "ey\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001BA\n\031emu.grass" +
+      "cutter.net.protoB$BlessingActivityDetail" +
+      "InfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

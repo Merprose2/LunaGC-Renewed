@@ -831,8 +831,8 @@ public final class ECHCPFIGBACOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ECHCPFIGBAC.proto\032\021IDAKPKNODGC.proto\"0" +
       "\n\013ECHCPFIGBAC\022!\n\013JFAHOBMFLFE\030\006 \003(\0132\014.IDA" +
-      "KPKNODGCB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "KPKNODGCB2\n\031emu.grasscutter.net.protoB\025E" +
+      "CHCPFIGBACOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

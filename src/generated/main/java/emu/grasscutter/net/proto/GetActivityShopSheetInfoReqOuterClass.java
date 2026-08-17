@@ -526,8 +526,9 @@ public final class GetActivityShopSheetInfoReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n!GetActivityShopSheetInfoReq.proto\"0\n\033G" +
       "etActivityShopSheetInfoReq\022\021\n\tshop_type\030" +
-      "\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\014 \001(\rBB\n\031emu.grasscutter.net.protoB%GetA" +
+      "ctivityShopSheetInfoReqOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

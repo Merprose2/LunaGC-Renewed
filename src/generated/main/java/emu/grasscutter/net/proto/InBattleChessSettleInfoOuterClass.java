@@ -1249,8 +1249,9 @@ public final class InBattleChessSettleInfoOuterClass {
       "nDisplayInfo\022\023\n\013MNCFBCDEGIH\030\003 \001(\r\022\022\n\nis_" +
       "success\030\004 \001(\010\022\023\n\013AJGEAECEODH\030\005 \001(\r\022\023\n\013CC" +
       "ODLCHLBGO\030\014 \001(\r\022\023\n\013IEDKCMECLFH\030\r \001(\r\022\025\n\r" +
-      "scene_time_ms\030\017 \001(\004B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "scene_time_ms\030\017 \001(\004B>\n\031emu.grasscutter.n" +
+      "et.protoB!InBattleChessSettleInfoOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

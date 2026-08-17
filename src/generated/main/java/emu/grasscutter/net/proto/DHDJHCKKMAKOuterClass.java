@@ -728,8 +728,9 @@ public final class DHDJHCKKMAKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DHDJHCKKMAK.proto\"a\n\013DHDJHCKKMAK\022\023\n\013JL" +
       "NPCAEBHLE\030\001 \001(\r\022\023\n\013OMAGIGBGKLI\030\002 \001(\r\022\023\n\013" +
-      "JFCOFBHJNAH\030\003 \001(\r\022\023\n\013ACONMOLGPOI\030\004 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "JFCOFBHJNAH\030\003 \001(\r\022\023\n\013ACONMOLGPOI\030\004 \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025DHDJHCKKMAK" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

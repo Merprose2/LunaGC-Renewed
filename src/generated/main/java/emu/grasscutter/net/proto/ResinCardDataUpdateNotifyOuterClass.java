@@ -902,8 +902,9 @@ public final class ResinCardDataUpdateNotifyOuterClass {
       "\n\037ResinCardDataUpdateNotify.proto\032\023Resin" +
       "CardData.proto\"]\n\031ResinCardDataUpdateNot" +
       "ify\022&\n\016card_data_list\030\t \003(\0132\016.ResinCardD" +
-      "ata\022\030\n\020today_start_time\030\013 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ata\022\030\n\020today_start_time\030\013 \001(\rB@\n\031emu.gra" +
+      "sscutter.net.protoB#ResinCardDataUpdateN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

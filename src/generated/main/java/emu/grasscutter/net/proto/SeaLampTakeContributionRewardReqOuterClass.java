@@ -596,8 +596,9 @@ public final class SeaLampTakeContributionRewardReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n&SeaLampTakeContributionRewardReq.proto" +
       "\"J\n SeaLampTakeContributionRewardReq\022\023\n\013" +
-      "activity_id\030\004 \001(\r\022\021\n\tconfig_id\030\013 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "activity_id\030\004 \001(\r\022\021\n\tconfig_id\030\013 \001(\rBG\n\031" +
+      "emu.grasscutter.net.protoB*SeaLampTakeCo" +
+      "ntributionRewardReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

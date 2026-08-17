@@ -1166,8 +1166,9 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       "ngeByCheckRewardRsp\022\023\n\013AOABLDACGEB\030\002 \003(\r" +
       "\022\023\n\013HCDBMIBOAJA\030\004 \003(\r\022\020\n\010level_id\030\005 \001(\r\022" +
       "\021\n\tconfig_id\030\007 \001(\r\022!\n\nlevel_type\030\t \001(\0162\r" +
-      ".GCGLevelType\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      ".GCGLevelType\022\017\n\007retcode\030\016 \001(\005BH\n\031emu.gr" +
+      "asscutter.net.protoB+GCGStartChallengeBy" +
+      "CheckRewardRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

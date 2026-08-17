@@ -455,8 +455,9 @@ public final class GetAllActivatedBargainDataReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n#GetAllActivatedBargainDataReq.proto\"\037\n" +
-      "\035GetAllActivatedBargainDataReqB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\035GetAllActivatedBargainDataReqBD\n\031emu.gr" +
+      "asscutter.net.protoB\'GetAllActivatedBarg" +
+      "ainDataReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

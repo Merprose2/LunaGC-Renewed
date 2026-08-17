@@ -651,8 +651,9 @@ public final class BreakoutSyncSnapShotOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032BreakoutSyncSnapShot.proto\032\026BreakoutSn" +
       "apShot.proto\"<\n\024BreakoutSyncSnapShot\022$\n\t" +
-      "snap_shot\030\010 \001(\0132\021.BreakoutSnapShotB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "snap_shot\030\010 \001(\0132\021.BreakoutSnapShotB;\n\031em" +
+      "u.grasscutter.net.protoB\036BreakoutSyncSna" +
+      "pShotOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

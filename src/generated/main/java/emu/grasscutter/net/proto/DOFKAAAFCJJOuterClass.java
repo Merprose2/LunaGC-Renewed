@@ -747,8 +747,9 @@ public final class DOFKAAAFCJJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DOFKAAAFCJJ.proto\"7\n\013DOFKAAAFCJJ\022\023\n\013EG" +
-      "DIHJLOMMB\030\001 \001(\t\022\023\n\013PCBGKHHKKHF\030\002 \001(\tB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "DIHJLOMMB\030\001 \001(\t\022\023\n\013PCBGKHHKKHF\030\002 \001(\tB2\n\031" +
+      "emu.grasscutter.net.protoB\025DOFKAAAFCJJOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

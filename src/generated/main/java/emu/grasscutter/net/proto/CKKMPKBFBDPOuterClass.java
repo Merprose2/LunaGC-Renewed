@@ -729,8 +729,9 @@ public final class CKKMPKBFBDPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CKKMPKBFBDP.proto\"`\n\013CKKMPKBFBDP\022\023\n\013IG" +
       "MMOECLONN\030\005 \001(\r\022\022\n\nis_success\030\n \001(\010\022\023\n\013D" +
-      "EAAPCPBBBF\030\013 \001(\r\022\023\n\013OKKIAOILIMN\030\014 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "EAAPCPBBBF\030\013 \001(\r\022\023\n\013OKKIAOILIMN\030\014 \001(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025CKKMPKBFBDPO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

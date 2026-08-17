@@ -588,7 +588,8 @@ public final class GCGMsgCharDieOuterClass {
     java.lang.String[] descriptorData = {
       "\n\023GCGMsgCharDie.proto\"9\n\rGCGMsgCharDie\022\021" +
       "\n\tcard_guid\030\002 \001(\r\022\025\n\rcontroller_id\030\017 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B4\n\031emu.grasscutter.net.protoB\027GCGMsgCha" +
+      "rDieOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

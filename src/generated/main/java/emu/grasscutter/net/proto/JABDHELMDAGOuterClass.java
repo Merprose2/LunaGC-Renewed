@@ -759,8 +759,8 @@ public final class JABDHELMDAGOuterClass {
       "\n\021JABDHELMDAG.proto\032\021EEMHGEMFOFJ.proto\032\021" +
       "HMCFOHLLBDH.proto\"L\n\013JABDHELMDAG\022!\n\013DHGK" +
       "IAAGLHN\030\001 \001(\0162\014.HMCFOHLLBDH\022\032\n\004data\030\002 \001(" +
-      "\0132\014.EEMHGEMFOFJB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\0132\014.EEMHGEMFOFJB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025JABDHELMDAGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -926,8 +926,9 @@ public final class ANIFEFBJIHHOuterClass {
       "\n\021ANIFEFBJIHH.proto\032\021HHEDHCFPEKM.proto\"e" +
       "\n\013ANIFEFBJIHH\022 \n\ncenter_pos\030\001 \001(\0132\014.HHED" +
       "HCFPEKM\022!\n\013OLIPGCONBJC\030\002 \001(\0132\014.HHEDHCFPE" +
-      "KM\022\021\n\tis_active\030\003 \001(\010B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "KM\022\021\n\tis_active\030\003 \001(\010B2\n\031emu.grasscutter" +
+      ".net.protoB\025ANIFEFBJIHHOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

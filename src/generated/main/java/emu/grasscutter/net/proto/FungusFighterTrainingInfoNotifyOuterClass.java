@@ -949,8 +949,9 @@ public final class FungusFighterTrainingInfoNotifyOuterClass {
       "KOPANOKCPF\030\002 \001(\r\022\023\n\013OHIJJDOMOJI\030\003 \001(\r\022\031\n" +
       "\021max_monster_count\030\007 \001(\r\022\023\n\013KJPPLJCCMHM\030" +
       "\010 \001(\r\022\023\n\013BMMEBOPCGDH\030\n \001(\r\022\023\n\013OBILHOOGLG" +
-      "O\030\013 \001(\r\022\017\n\007buff_id\030\014 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "O\030\013 \001(\r\022\017\n\007buff_id\030\014 \001(\rBF\n\031emu.grasscut" +
+      "ter.net.protoB)FungusFighterTrainingInfo" +
+      "NotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

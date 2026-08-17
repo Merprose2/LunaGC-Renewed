@@ -1020,8 +1020,9 @@ public final class FKEELKMDKAFOuterClass {
       "LGADHMCFGI\030\001 \001(\r\022\025\n\ris_new_record\030\005 \001(\010\022" +
       "\r\n\005score\030\007 \001(\r\022\023\n\013PEOAILOOEKH\030\n \001(\r\022\023\n\013c" +
       "ollect_num\030\013 \001(\r\022\020\n\010group_id\030\014 \001(\r\022\022\n\nis" +
-      "_success\030\r \001(\010\022\021\n\tleft_time\030\016 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "_success\030\r \001(\010\022\021\n\tleft_time\030\016 \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025FKEELKMDKAFOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

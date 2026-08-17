@@ -723,8 +723,8 @@ public final class LCCCMJKPNEAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LCCCMJKPNEA.proto\"I\n\013LCCCMJKPNEA\022\031\n\021_a" +
       "rtifact_id_list\030\003 \003(\r\022\037\n\027_monster_chess_" +
-      "team_num\030\r \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "team_num\030\r \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025LCCCMJKPNEAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

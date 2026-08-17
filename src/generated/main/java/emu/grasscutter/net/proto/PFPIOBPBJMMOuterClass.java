@@ -588,8 +588,9 @@ public final class PFPIOBPBJMMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PFPIOBPBJMM.proto\"9\n\013PFPIOBPBJMM\022\021\n\tav" +
-      "atar_id\030\004 \001(\r\022\027\n\017is_trial_avatar\030\n \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "atar_id\030\004 \001(\r\022\027\n\017is_trial_avatar\030\n \001(\010B2" +
+      "\n\031emu.grasscutter.net.protoB\025PFPIOBPBJMM" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

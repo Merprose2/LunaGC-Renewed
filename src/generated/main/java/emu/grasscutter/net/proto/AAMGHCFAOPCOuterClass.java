@@ -666,8 +666,8 @@ public final class AAMGHCFAOPCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AAMGHCFAOPC.proto\"M\n\013AAMGHCFAOPC\022\r\n\005in" +
       "dex\030\007 \001(\r\022\034\n\024_avatar_element_type\030\n \001(\r\022" +
-      "\021\n\tavatar_id\030\r \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\021\n\tavatar_id\030\r \001(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025AAMGHCFAOPCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

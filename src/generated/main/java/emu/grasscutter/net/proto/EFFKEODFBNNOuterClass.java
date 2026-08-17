@@ -666,8 +666,8 @@ public final class EFFKEODFBNNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EFFKEODFBNN.proto\"L\n\013EFFKEODFBNN\022\023\n\013AA" +
       "GMBKCMGCG\030\001 \001(\r\022\023\n\013BPEDNCMLPOD\030\002 \001(\r\022\023\n\013" +
-      "KHGIKHGFHIK\030\016 \001(\007B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "KHGIKHGFHIK\030\016 \001(\007B2\n\031emu.grasscutter.net" +
+      ".protoB\025EFFKEODFBNNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

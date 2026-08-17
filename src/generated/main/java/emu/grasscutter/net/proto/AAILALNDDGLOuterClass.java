@@ -823,8 +823,8 @@ public final class AAILALNDDGLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AAILALNDDGL.proto\032\021DNPCPMHDJEJ.proto\"0" +
       "\n\013AAILALNDDGL\022!\n\013NAIONHILIHO\030\001 \003(\0132\014.DNP" +
-      "CPMHDJEJB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "CPMHDJEJB2\n\031emu.grasscutter.net.protoB\025A" +
+      "AILALNDDGLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

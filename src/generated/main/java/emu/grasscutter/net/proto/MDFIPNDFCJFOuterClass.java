@@ -722,8 +722,9 @@ public final class MDFIPNDFCJFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MDFIPNDFCJF.proto\"9\n\013MDFIPNDFCJF\022\026\n\016fu" +
-      "ngus_id_list\030\005 \003(\r\022\022\n\ndungeon_id\030\010 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "ngus_id_list\030\005 \003(\r\022\022\n\ndungeon_id\030\010 \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025MDFIPNDFCJF" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

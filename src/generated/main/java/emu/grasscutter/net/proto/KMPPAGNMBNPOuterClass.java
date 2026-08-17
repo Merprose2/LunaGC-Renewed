@@ -671,8 +671,9 @@ public final class KMPPAGNMBNPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KMPPAGNMBNP.proto\"6\n\013KMPPAGNMBNP\022\023\n\013NG" +
-      "EDGDGBAID\030\001 \001(\014\022\022\n\nrequest_id\030\002 \001(\tB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "EDGDGBAID\030\001 \001(\014\022\022\n\nrequest_id\030\002 \001(\tB2\n\031e" +
+      "mu.grasscutter.net.protoB\025KMPPAGNMBNPOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

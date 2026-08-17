@@ -801,8 +801,8 @@ public final class OIMBMIIKLGOOuterClass {
       "\n\021OIMBMIIKLGO.proto\"s\n\013OIMBMIIKLGO\022\021\n\tco" +
       "st_time\030\003 \001(\r\022\022\n\ndifficulty\030\007 \001(\r\022\023\n\013sch" +
       "edule_id\030\t \001(\r\022\023\n\013OIFKDFIFIOP\030\013 \001(\010\022\023\n\013F" +
-      "HECLEAHDDF\030\r \001(\010B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "HECLEAHDDF\030\r \001(\010B2\n\031emu.grasscutter.net." +
+      "protoB\025OIMBMIIKLGOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

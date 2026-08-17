@@ -854,8 +854,9 @@ public final class NKNOBHHHMKDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NKNOBHHHMKD.proto\032\014Vector.proto\"H\n\013NKN" +
       "OBHHHMKD\022\033\n\ntarget_pos\030\006 \001(\0132\007.Vector\022\034\n" +
-      "\013HMAPJAOOGDA\030\007 \001(\0132\007.VectorB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\013HMAPJAOOGDA\030\007 \001(\0132\007.VectorB2\n\031emu.grass" +
+      "cutter.net.protoB\025NKNOBHHHMKDOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

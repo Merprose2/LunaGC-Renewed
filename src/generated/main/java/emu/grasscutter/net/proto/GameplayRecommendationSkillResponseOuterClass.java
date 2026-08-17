@@ -716,8 +716,9 @@ public final class GameplayRecommendationSkillResponseOuterClass {
       "\n)GameplayRecommendationSkillResponse.pr" +
       "oto\"T\n#GameplayRecommendationSkillRespon" +
       "se\022\025\n\rskill_id_list\030\004 \003(\r\022\026\n\016skill_depot" +
-      "_id\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\014 \001(\rBJ\n\031emu.grasscutter.net.protoB-" +
+      "GameplayRecommendationSkillResponseOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

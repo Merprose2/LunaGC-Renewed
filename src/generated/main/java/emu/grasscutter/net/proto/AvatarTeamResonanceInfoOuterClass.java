@@ -980,8 +980,9 @@ public final class AvatarTeamResonanceInfoOuterClass {
       "\n\035AvatarTeamResonanceInfo.proto\"k\n\027Avata" +
       "rTeamResonanceInfo\022\023\n\013avatar_guid\030\003 \001(\004\022" +
       "\023\n\013ECLCFKCOEEJ\030\005 \003(\r\022\023\n\013GNBMBCAAJBN\030\007 \003(" +
-      "\r\022\021\n\tentity_id\030\014 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\r\022\021\n\tentity_id\030\014 \001(\rB>\n\031emu.grasscutter." +
+      "net.protoB!AvatarTeamResonanceInfoOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

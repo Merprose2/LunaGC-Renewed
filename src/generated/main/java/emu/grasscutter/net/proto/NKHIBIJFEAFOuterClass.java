@@ -1178,8 +1178,9 @@ public final class NKHIBIJFEAFOuterClass {
       "\001\n\013NKHIBIJFEAF\022\023\n\013ADDBKCDCOHE\030\001 \001(\010\022\023\n\013P" +
       "GMGFHKKHEM\030\002 \001(\005\022!\n\013FLAFKAKKMJO\030\004 \003(\0132\014." +
       "EDKBGHPDEMM\022\023\n\013GFMBMOLKHGD\030\005 \001(\010\022\023\n\013KEKO" +
-      "DCBFIAA\030\006 \001(\010\022\023\n\013KBKLIHAKDEG\030\007 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "DCBFIAA\030\006 \001(\010\022\023\n\013KBKLIHAKDEG\030\007 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025NKHIBIJFEAFOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

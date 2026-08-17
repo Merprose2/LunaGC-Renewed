@@ -1114,8 +1114,9 @@ public final class MFLBGLCCAIMOuterClass {
       "\n\021MFLBGLCCAIM.proto\032\021BOLBFDJJGLP.proto\"g" +
       "\n\013MFLBGLCCAIM\022\013\n\003key\030\001 \001(\r\022!\n\013FMJAAFKAGG" +
       "A\030\002 \003(\0132\014.BOLBFDJJGLP\022\023\n\013KNGHLIDAAPP\030\003 \001" +
-      "(\t\022\023\n\013LOPMPGMEMEF\030\004 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "(\t\022\023\n\013LOPMPGMEMEF\030\004 \001(\rB2\n\031emu.grasscutt" +
+      "er.net.protoB\025MFLBGLCCAIMOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

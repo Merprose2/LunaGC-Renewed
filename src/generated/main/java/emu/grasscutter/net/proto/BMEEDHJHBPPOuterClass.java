@@ -1184,8 +1184,8 @@ public final class BMEEDHJHBPPOuterClass {
       "\023\n\013activity_id\030\005 \001(\r\022+\n\021dungeon_team_lis" +
       "t\030\006 \003(\0132\020.SumoDungeonTeam\022\020\n\010stage_id\030\007 " +
       "\001(\r\022\023\n\013FKHLKBNMDJA\030\n \001(\r\022\023\n\013NAKEFANEBLM\030" +
-      "\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\014 \001(\rB2\n\031emu.grasscutter.net.protoB\025BMEE" +
+      "DHJHBPPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

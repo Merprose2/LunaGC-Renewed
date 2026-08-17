@@ -795,8 +795,8 @@ public final class WeaponAwakenReqOuterClass {
       "\n\025WeaponAwakenReq.proto\"e\n\017WeaponAwakenR" +
       "eq\022\026\n\016item_guid_list\030\004 \003(\004\022\036\n\026_awaken_ma" +
       "terial_count\030\r \001(\r\022\032\n\022target_weapon_guid" +
-      "\030\016 \001(\004B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\016 \001(\004B6\n\031emu.grasscutter.net.protoB\031Wea" +
+      "ponAwakenReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -800,8 +800,8 @@ public final class LDMGHLOJFKNOuterClass {
       "\n\021LDMGHLOJFKN.proto\"v\n\013LDMGHLOJFKN\022\023\n\013EH" +
       "BKOHIHCOK\030\005 \001(\r\022\023\n\013JIBAJAGFCHK\030\006 \001(\r\022\023\n\013" +
       "CNHFGINCPFL\030\010 \001(\r\022\023\n\013AAAJEHPIIDO\030\014 \001(\010\022\023" +
-      "\n\013BLMKCFGPNHD\030\r \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013BLMKCFGPNHD\030\r \001(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025LDMGHLOJFKNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

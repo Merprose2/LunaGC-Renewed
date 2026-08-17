@@ -517,8 +517,8 @@ public final class FurnitureOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\017Furniture.proto\"\032\n\tFurniture\022\r\n\005count\030" +
-      "\001 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\001 \001(\rB0\n\031emu.grasscutter.net.protoB\023Furn" +
+      "itureOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

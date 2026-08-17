@@ -595,8 +595,9 @@ public final class ILMFEODGCFBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ILMFEODGCFB.proto\"5\n\013ILMFEODGCFB\022\023\n\013JE" +
-      "DGPCDNCPB\030\004 \001(\r\022\021\n\tavatar_id\030\006 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "DGPCDNCPB\030\004 \001(\r\022\021\n\tavatar_id\030\006 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025ILMFEODGCFBOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

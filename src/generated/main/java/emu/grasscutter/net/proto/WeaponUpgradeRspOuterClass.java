@@ -1114,8 +1114,9 @@ public final class WeaponUpgradeRspOuterClass {
       "o\"\212\001\n\020WeaponUpgradeRsp\022\021\n\tcur_level\030\002 \001(" +
       "\r\022\032\n\022target_weapon_guid\030\003 \001(\004\022\017\n\007retcode" +
       "\030\010 \001(\005\022\021\n\told_level\030\r \001(\r\022#\n\017item_param_" +
-      "list\030\017 \003(\0132\n.ItemParamB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "list\030\017 \003(\0132\n.ItemParamB7\n\031emu.grasscutte" +
+      "r.net.protoB\032WeaponUpgradeRspOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -652,8 +652,9 @@ public final class SceneForceLockNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032SceneForceLockNotify.proto\"-\n\024SceneFor" +
-      "ceLockNotify\022\025\n\rforce_id_list\030\003 \003(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "ceLockNotify\022\025\n\rforce_id_list\030\003 \003(\rB;\n\031e" +
+      "mu.grasscutter.net.protoB\036SceneForceLock" +
+      "NotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1566,8 +1566,9 @@ public final class FDKOFMMNKEDOuterClass {
       "\034\n\013NNPNDCFIAMA\030\004 \001(\0132\007.Vector\022!\n\013PIOLELF" +
       "OCLI\030\005 \001(\0162\014.JEOKDCIGCFP\022!\n\013follow_type\030" +
       "\006 \001(\0162\014.JEOKDCIGCFP\022\023\n\013OLKCJPFLCGC\030\007 \001(\r" +
-      "\022!\n\013NNCDIEHLEDN\030\010 \001(\0132\014.FJFKBKCECBCB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\022!\n\013NNCDIEHLEDN\030\010 \001(\0132\014.FJFKBKCECBCB2\n\031e" +
+      "mu.grasscutter.net.protoB\025FDKOFMMNKEDOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

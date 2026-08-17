@@ -1207,8 +1207,9 @@ public final class CJAAPGLFPNOOuterClass {
       "Vector.proto\"\204\001\n\013CJAAPGLFPNO\022\027\n\006center\030\006" +
       " \001(\0132\007.Vector\022\027\n\006extent\030\n \001(\0132\007.Vector\022\013" +
       "\n\003uid\030\013 \001(\005\022!\n\013FLFPHIAAGME\030\014 \001(\0132\014.DICLK" +
-      "EBODEC\022\023\n\013NHBKIOMFNBI\030\r \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "EBODEC\022\023\n\013NHBKIOMFNBI\030\r \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025CJAAPGLFPNOOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

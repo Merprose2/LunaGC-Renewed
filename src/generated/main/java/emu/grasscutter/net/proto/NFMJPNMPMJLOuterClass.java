@@ -831,8 +831,8 @@ public final class NFMJPNMPMJLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NFMJPNMPMJL.proto\032\020Uint32Pair.proto\"/\n" +
       "\013NFMJPNMPMJL\022 \n\013DNCGEANGNFM\030\n \003(\0132\013.Uint" +
-      "32PairB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "32PairB2\n\031emu.grasscutter.net.protoB\025NFM" +
+      "JPNMPMJLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

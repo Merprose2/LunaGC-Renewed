@@ -663,8 +663,9 @@ public final class LPPJHFNPDOPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LPPJHFNPDOP.proto\".\n\013LPPJHFNPDOP\022\t\n\001x\030" +
-      "\001 \001(\002\022\t\n\001y\030\002 \001(\002\022\t\n\001z\030\003 \001(\002B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\001 \001(\002\022\t\n\001y\030\002 \001(\002\022\t\n\001z\030\003 \001(\002B2\n\031emu.grass" +
+      "cutter.net.protoB\025LPPJHFNPDOPOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

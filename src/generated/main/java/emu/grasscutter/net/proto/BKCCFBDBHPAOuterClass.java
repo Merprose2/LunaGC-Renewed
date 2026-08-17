@@ -1538,8 +1538,8 @@ public final class BKCCFBDBHPAOuterClass {
       "KEAK\022\"\n\013ADHKEJFIEND\030\367\003 \001(\0132\014.MMLNJCOKEAK" +
       "\022\"\n\013ACHGJINJDCI\030\370\003 \001(\0132\014.MMLNJCOKEAK\022\"\n\013" +
       "NALEFEFHFHG\030\371\003 \001(\0132\014.HHEDHCFPEKM\022\024\n\013GIEM" +
-      "GMCMIJN\030\356\007 \001(\005B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "GMCMIJN\030\356\007 \001(\005B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025BKCCFBDBHPAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

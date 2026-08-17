@@ -659,8 +659,8 @@ public final class PLAGHGGEIMPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PLAGHGGEIMP.proto\"L\n\013PLAGHGGEIMP\022\023\n\013GD" +
       "DOKLKFFNL\030\002 \001(\010\022\023\n\013GBPEOHEJKDC\030\003 \001(\r\022\023\n\013" +
-      "KOKJKFAJOPC\030\004 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "KOKJKFAJOPC\030\004 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025PLAGHGGEIMPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

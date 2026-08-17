@@ -97,11 +97,11 @@ public final class PNOJPEHDHFKOuterClass {
      * <code>._BeyondLevelTemplate beyond_level_template = 21;</code>
      * @return The beyondLevelTemplate.
      */
-    emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate getBeyondLevelTemplate();
+    emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate getBeyondLevelTemplate();
     /**
      * <code>._BeyondLevelTemplate beyond_level_template = 21;</code>
      */
-    emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplateOrBuilder getBeyondLevelTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplateOrBuilder getBeyondLevelTemplateOrBuilder();
 
     /**
      * <code>._BeyondGadgetTemplate beyond_gadget_template = 22;</code>
@@ -112,11 +112,11 @@ public final class PNOJPEHDHFKOuterClass {
      * <code>._BeyondGadgetTemplate beyond_gadget_template = 22;</code>
      * @return The beyondGadgetTemplate.
      */
-    emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate getBeyondGadgetTemplate();
+    emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate getBeyondGadgetTemplate();
     /**
      * <code>._BeyondGadgetTemplate beyond_gadget_template = 22;</code>
      */
-    emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplateOrBuilder getBeyondGadgetTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplateOrBuilder getBeyondGadgetTemplateOrBuilder();
 
     /**
      * <code>._BeyondPlayerTemplate beyond_player_template = 23;</code>
@@ -127,11 +127,11 @@ public final class PNOJPEHDHFKOuterClass {
      * <code>._BeyondPlayerTemplate beyond_player_template = 23;</code>
      * @return The beyondPlayerTemplate.
      */
-    emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate getBeyondPlayerTemplate();
+    emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate getBeyondPlayerTemplate();
     /**
      * <code>._BeyondPlayerTemplate beyond_player_template = 23;</code>
      */
-    emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplateOrBuilder getBeyondPlayerTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplateOrBuilder getBeyondPlayerTemplateOrBuilder();
 
     /**
      * <code>._BeyondAvatarTemplate beyond_avatar_template = 24;</code>
@@ -142,11 +142,11 @@ public final class PNOJPEHDHFKOuterClass {
      * <code>._BeyondAvatarTemplate beyond_avatar_template = 24;</code>
      * @return The beyondAvatarTemplate.
      */
-    emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate getBeyondAvatarTemplate();
+    emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate getBeyondAvatarTemplate();
     /**
      * <code>._BeyondAvatarTemplate beyond_avatar_template = 24;</code>
      */
-    emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplateOrBuilder getBeyondAvatarTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplateOrBuilder getBeyondAvatarTemplateOrBuilder();
 
     /**
      * <code>._BeyondMonsterTemplate beyond_monster_template = 25;</code>
@@ -157,11 +157,11 @@ public final class PNOJPEHDHFKOuterClass {
      * <code>._BeyondMonsterTemplate beyond_monster_template = 25;</code>
      * @return The beyondMonsterTemplate.
      */
-    emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate getBeyondMonsterTemplate();
+    emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate getBeyondMonsterTemplate();
     /**
      * <code>._BeyondMonsterTemplate beyond_monster_template = 25;</code>
      */
-    emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplateOrBuilder getBeyondMonsterTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplateOrBuilder getBeyondMonsterTemplateOrBuilder();
 
     public emu.grasscutter.net.proto.PNOJPEHDHFKOuterClass.PNOJPEHDHFK.DetailCase getDetailCase();
   }
@@ -246,70 +246,70 @@ public final class PNOJPEHDHFKOuterClass {
               break;
             }
             case 170: {
-              emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate.Builder subBuilder = null;
               if (detailCase_ == 21) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 21;
               break;
             }
             case 178: {
-              emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate.Builder subBuilder = null;
               if (detailCase_ == 22) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 22;
               break;
             }
             case 186: {
-              emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate.Builder subBuilder = null;
               if (detailCase_ == 23) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 23;
               break;
             }
             case 194: {
-              emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate.Builder subBuilder = null;
               if (detailCase_ == 24) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 24;
               break;
             }
             case 202: {
-              emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate.Builder subBuilder = null;
               if (detailCase_ == 25) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 25;
@@ -532,21 +532,21 @@ public final class PNOJPEHDHFKOuterClass {
      * @return The beyondLevelTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate getBeyondLevelTemplate() {
+    public emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate getBeyondLevelTemplate() {
       if (detailCase_ == 21) {
-         return (emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondLevelTemplate beyond_level_template = 21;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplateOrBuilder getBeyondLevelTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplateOrBuilder getBeyondLevelTemplateOrBuilder() {
       if (detailCase_ == 21) {
-         return (emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_GADGET_TEMPLATE_FIELD_NUMBER = 22;
@@ -563,21 +563,21 @@ public final class PNOJPEHDHFKOuterClass {
      * @return The beyondGadgetTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate getBeyondGadgetTemplate() {
+    public emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate getBeyondGadgetTemplate() {
       if (detailCase_ == 22) {
-         return (emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondGadgetTemplate beyond_gadget_template = 22;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplateOrBuilder getBeyondGadgetTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplateOrBuilder getBeyondGadgetTemplateOrBuilder() {
       if (detailCase_ == 22) {
-         return (emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_PLAYER_TEMPLATE_FIELD_NUMBER = 23;
@@ -594,21 +594,21 @@ public final class PNOJPEHDHFKOuterClass {
      * @return The beyondPlayerTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate getBeyondPlayerTemplate() {
+    public emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate getBeyondPlayerTemplate() {
       if (detailCase_ == 23) {
-         return (emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondPlayerTemplate beyond_player_template = 23;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplateOrBuilder getBeyondPlayerTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplateOrBuilder getBeyondPlayerTemplateOrBuilder() {
       if (detailCase_ == 23) {
-         return (emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_AVATAR_TEMPLATE_FIELD_NUMBER = 24;
@@ -625,21 +625,21 @@ public final class PNOJPEHDHFKOuterClass {
      * @return The beyondAvatarTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate getBeyondAvatarTemplate() {
+    public emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate getBeyondAvatarTemplate() {
       if (detailCase_ == 24) {
-         return (emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondAvatarTemplate beyond_avatar_template = 24;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplateOrBuilder getBeyondAvatarTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplateOrBuilder getBeyondAvatarTemplateOrBuilder() {
       if (detailCase_ == 24) {
-         return (emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_MONSTER_TEMPLATE_FIELD_NUMBER = 25;
@@ -656,21 +656,21 @@ public final class PNOJPEHDHFKOuterClass {
      * @return The beyondMonsterTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate getBeyondMonsterTemplate() {
+    public emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate getBeyondMonsterTemplate() {
       if (detailCase_ == 25) {
-         return (emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondMonsterTemplate beyond_monster_template = 25;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplateOrBuilder getBeyondMonsterTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplateOrBuilder getBeyondMonsterTemplateOrBuilder() {
       if (detailCase_ == 25) {
-         return (emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -700,19 +700,19 @@ public final class PNOJPEHDHFKOuterClass {
         output.writeEnum(4, oJJFMAEFPPN_);
       }
       if (detailCase_ == 21) {
-        output.writeMessage(21, (emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate) detail_);
+        output.writeMessage(21, (emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate) detail_);
       }
       if (detailCase_ == 22) {
-        output.writeMessage(22, (emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate) detail_);
+        output.writeMessage(22, (emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate) detail_);
       }
       if (detailCase_ == 23) {
-        output.writeMessage(23, (emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate) detail_);
+        output.writeMessage(23, (emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate) detail_);
       }
       if (detailCase_ == 24) {
-        output.writeMessage(24, (emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate) detail_);
+        output.writeMessage(24, (emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate) detail_);
       }
       if (detailCase_ == 25) {
-        output.writeMessage(25, (emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate) detail_);
+        output.writeMessage(25, (emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -741,23 +741,23 @@ public final class PNOJPEHDHFKOuterClass {
       }
       if (detailCase_ == 21) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(21, (emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate) detail_);
+          .computeMessageSize(21, (emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate) detail_);
       }
       if (detailCase_ == 22) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(22, (emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate) detail_);
+          .computeMessageSize(22, (emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate) detail_);
       }
       if (detailCase_ == 23) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(23, (emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate) detail_);
+          .computeMessageSize(23, (emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate) detail_);
       }
       if (detailCase_ == 24) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(24, (emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate) detail_);
+          .computeMessageSize(24, (emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate) detail_);
       }
       if (detailCase_ == 25) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(25, (emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate) detail_);
+          .computeMessageSize(25, (emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1853,7 +1853,7 @@ public final class PNOJPEHDHFKOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate, emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate.Builder, emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplateOrBuilder> beyondLevelTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate, emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate.Builder, emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplateOrBuilder> beyondLevelTemplateBuilder_;
       /**
        * <code>._BeyondLevelTemplate beyond_level_template = 21;</code>
        * @return Whether the beyondLevelTemplate field is set.
@@ -1867,23 +1867,23 @@ public final class PNOJPEHDHFKOuterClass {
        * @return The beyondLevelTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate getBeyondLevelTemplate() {
+      public emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate getBeyondLevelTemplate() {
         if (beyondLevelTemplateBuilder_ == null) {
           if (detailCase_ == 21) {
-            return (emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 21) {
             return beyondLevelTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondLevelTemplate beyond_level_template = 21;</code>
        */
-      public Builder setBeyondLevelTemplate(emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate value) {
+      public Builder setBeyondLevelTemplate(emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate value) {
         if (beyondLevelTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1900,7 +1900,7 @@ public final class PNOJPEHDHFKOuterClass {
        * <code>._BeyondLevelTemplate beyond_level_template = 21;</code>
        */
       public Builder setBeyondLevelTemplate(
-          emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate.Builder builderForValue) {
         if (beyondLevelTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1913,11 +1913,11 @@ public final class PNOJPEHDHFKOuterClass {
       /**
        * <code>._BeyondLevelTemplate beyond_level_template = 21;</code>
        */
-      public Builder mergeBeyondLevelTemplate(emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate value) {
+      public Builder mergeBeyondLevelTemplate(emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate value) {
         if (beyondLevelTemplateBuilder_ == null) {
           if (detailCase_ == 21 &&
-              detail_ != emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate.newBuilder((emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate.newBuilder((emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1954,36 +1954,36 @@ public final class PNOJPEHDHFKOuterClass {
       /**
        * <code>._BeyondLevelTemplate beyond_level_template = 21;</code>
        */
-      public emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate.Builder getBeyondLevelTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate.Builder getBeyondLevelTemplateBuilder() {
         return getBeyondLevelTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondLevelTemplate beyond_level_template = 21;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplateOrBuilder getBeyondLevelTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplateOrBuilder getBeyondLevelTemplateOrBuilder() {
         if ((detailCase_ == 21) && (beyondLevelTemplateBuilder_ != null)) {
           return beyondLevelTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 21) {
-            return (emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondLevelTemplate beyond_level_template = 21;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate, emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate.Builder, emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate, emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate.Builder, emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplateOrBuilder> 
           getBeyondLevelTemplateFieldBuilder() {
         if (beyondLevelTemplateBuilder_ == null) {
           if (!(detailCase_ == 21)) {
-            detail_ = emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate.getDefaultInstance();
           }
           beyondLevelTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate, emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate.Builder, emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondLevelTemplate._BeyondLevelTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate, emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate.Builder, emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass._BeyondLevelTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1994,7 +1994,7 @@ public final class PNOJPEHDHFKOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate, emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate.Builder, emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplateOrBuilder> beyondGadgetTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate, emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate.Builder, emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplateOrBuilder> beyondGadgetTemplateBuilder_;
       /**
        * <code>._BeyondGadgetTemplate beyond_gadget_template = 22;</code>
        * @return Whether the beyondGadgetTemplate field is set.
@@ -2008,23 +2008,23 @@ public final class PNOJPEHDHFKOuterClass {
        * @return The beyondGadgetTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate getBeyondGadgetTemplate() {
+      public emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate getBeyondGadgetTemplate() {
         if (beyondGadgetTemplateBuilder_ == null) {
           if (detailCase_ == 22) {
-            return (emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 22) {
             return beyondGadgetTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondGadgetTemplate beyond_gadget_template = 22;</code>
        */
-      public Builder setBeyondGadgetTemplate(emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate value) {
+      public Builder setBeyondGadgetTemplate(emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate value) {
         if (beyondGadgetTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2041,7 +2041,7 @@ public final class PNOJPEHDHFKOuterClass {
        * <code>._BeyondGadgetTemplate beyond_gadget_template = 22;</code>
        */
       public Builder setBeyondGadgetTemplate(
-          emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate.Builder builderForValue) {
         if (beyondGadgetTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2054,11 +2054,11 @@ public final class PNOJPEHDHFKOuterClass {
       /**
        * <code>._BeyondGadgetTemplate beyond_gadget_template = 22;</code>
        */
-      public Builder mergeBeyondGadgetTemplate(emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate value) {
+      public Builder mergeBeyondGadgetTemplate(emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate value) {
         if (beyondGadgetTemplateBuilder_ == null) {
           if (detailCase_ == 22 &&
-              detail_ != emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate.newBuilder((emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate.newBuilder((emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2095,36 +2095,36 @@ public final class PNOJPEHDHFKOuterClass {
       /**
        * <code>._BeyondGadgetTemplate beyond_gadget_template = 22;</code>
        */
-      public emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate.Builder getBeyondGadgetTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate.Builder getBeyondGadgetTemplateBuilder() {
         return getBeyondGadgetTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondGadgetTemplate beyond_gadget_template = 22;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplateOrBuilder getBeyondGadgetTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplateOrBuilder getBeyondGadgetTemplateOrBuilder() {
         if ((detailCase_ == 22) && (beyondGadgetTemplateBuilder_ != null)) {
           return beyondGadgetTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 22) {
-            return (emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondGadgetTemplate beyond_gadget_template = 22;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate, emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate.Builder, emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate, emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate.Builder, emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplateOrBuilder> 
           getBeyondGadgetTemplateFieldBuilder() {
         if (beyondGadgetTemplateBuilder_ == null) {
           if (!(detailCase_ == 22)) {
-            detail_ = emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate.getDefaultInstance();
           }
           beyondGadgetTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate, emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate.Builder, emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondGadgetTemplate._BeyondGadgetTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate, emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate.Builder, emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass._BeyondGadgetTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2135,7 +2135,7 @@ public final class PNOJPEHDHFKOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate, emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate.Builder, emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplateOrBuilder> beyondPlayerTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate, emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate.Builder, emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplateOrBuilder> beyondPlayerTemplateBuilder_;
       /**
        * <code>._BeyondPlayerTemplate beyond_player_template = 23;</code>
        * @return Whether the beyondPlayerTemplate field is set.
@@ -2149,23 +2149,23 @@ public final class PNOJPEHDHFKOuterClass {
        * @return The beyondPlayerTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate getBeyondPlayerTemplate() {
+      public emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate getBeyondPlayerTemplate() {
         if (beyondPlayerTemplateBuilder_ == null) {
           if (detailCase_ == 23) {
-            return (emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 23) {
             return beyondPlayerTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondPlayerTemplate beyond_player_template = 23;</code>
        */
-      public Builder setBeyondPlayerTemplate(emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate value) {
+      public Builder setBeyondPlayerTemplate(emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate value) {
         if (beyondPlayerTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2182,7 +2182,7 @@ public final class PNOJPEHDHFKOuterClass {
        * <code>._BeyondPlayerTemplate beyond_player_template = 23;</code>
        */
       public Builder setBeyondPlayerTemplate(
-          emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate.Builder builderForValue) {
         if (beyondPlayerTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2195,11 +2195,11 @@ public final class PNOJPEHDHFKOuterClass {
       /**
        * <code>._BeyondPlayerTemplate beyond_player_template = 23;</code>
        */
-      public Builder mergeBeyondPlayerTemplate(emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate value) {
+      public Builder mergeBeyondPlayerTemplate(emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate value) {
         if (beyondPlayerTemplateBuilder_ == null) {
           if (detailCase_ == 23 &&
-              detail_ != emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate.newBuilder((emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate.newBuilder((emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2236,36 +2236,36 @@ public final class PNOJPEHDHFKOuterClass {
       /**
        * <code>._BeyondPlayerTemplate beyond_player_template = 23;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate.Builder getBeyondPlayerTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate.Builder getBeyondPlayerTemplateBuilder() {
         return getBeyondPlayerTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondPlayerTemplate beyond_player_template = 23;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplateOrBuilder getBeyondPlayerTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplateOrBuilder getBeyondPlayerTemplateOrBuilder() {
         if ((detailCase_ == 23) && (beyondPlayerTemplateBuilder_ != null)) {
           return beyondPlayerTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 23) {
-            return (emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondPlayerTemplate beyond_player_template = 23;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate, emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate.Builder, emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate, emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate.Builder, emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplateOrBuilder> 
           getBeyondPlayerTemplateFieldBuilder() {
         if (beyondPlayerTemplateBuilder_ == null) {
           if (!(detailCase_ == 23)) {
-            detail_ = emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate.getDefaultInstance();
           }
           beyondPlayerTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate, emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate.Builder, emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondPlayerTemplate._BeyondPlayerTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate, emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate.Builder, emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass._BeyondPlayerTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2276,7 +2276,7 @@ public final class PNOJPEHDHFKOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate, emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate.Builder, emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplateOrBuilder> beyondAvatarTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate, emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate.Builder, emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplateOrBuilder> beyondAvatarTemplateBuilder_;
       /**
        * <code>._BeyondAvatarTemplate beyond_avatar_template = 24;</code>
        * @return Whether the beyondAvatarTemplate field is set.
@@ -2290,23 +2290,23 @@ public final class PNOJPEHDHFKOuterClass {
        * @return The beyondAvatarTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate getBeyondAvatarTemplate() {
+      public emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate getBeyondAvatarTemplate() {
         if (beyondAvatarTemplateBuilder_ == null) {
           if (detailCase_ == 24) {
-            return (emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 24) {
             return beyondAvatarTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondAvatarTemplate beyond_avatar_template = 24;</code>
        */
-      public Builder setBeyondAvatarTemplate(emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate value) {
+      public Builder setBeyondAvatarTemplate(emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate value) {
         if (beyondAvatarTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2323,7 +2323,7 @@ public final class PNOJPEHDHFKOuterClass {
        * <code>._BeyondAvatarTemplate beyond_avatar_template = 24;</code>
        */
       public Builder setBeyondAvatarTemplate(
-          emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate.Builder builderForValue) {
         if (beyondAvatarTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2336,11 +2336,11 @@ public final class PNOJPEHDHFKOuterClass {
       /**
        * <code>._BeyondAvatarTemplate beyond_avatar_template = 24;</code>
        */
-      public Builder mergeBeyondAvatarTemplate(emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate value) {
+      public Builder mergeBeyondAvatarTemplate(emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate value) {
         if (beyondAvatarTemplateBuilder_ == null) {
           if (detailCase_ == 24 &&
-              detail_ != emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate.newBuilder((emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate.newBuilder((emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2377,36 +2377,36 @@ public final class PNOJPEHDHFKOuterClass {
       /**
        * <code>._BeyondAvatarTemplate beyond_avatar_template = 24;</code>
        */
-      public emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate.Builder getBeyondAvatarTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate.Builder getBeyondAvatarTemplateBuilder() {
         return getBeyondAvatarTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondAvatarTemplate beyond_avatar_template = 24;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplateOrBuilder getBeyondAvatarTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplateOrBuilder getBeyondAvatarTemplateOrBuilder() {
         if ((detailCase_ == 24) && (beyondAvatarTemplateBuilder_ != null)) {
           return beyondAvatarTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 24) {
-            return (emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondAvatarTemplate beyond_avatar_template = 24;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate, emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate.Builder, emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate, emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate.Builder, emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplateOrBuilder> 
           getBeyondAvatarTemplateFieldBuilder() {
         if (beyondAvatarTemplateBuilder_ == null) {
           if (!(detailCase_ == 24)) {
-            detail_ = emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate.getDefaultInstance();
           }
           beyondAvatarTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate, emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate.Builder, emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondAvatarTemplate._BeyondAvatarTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate, emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate.Builder, emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass._BeyondAvatarTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2417,7 +2417,7 @@ public final class PNOJPEHDHFKOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate, emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate.Builder, emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplateOrBuilder> beyondMonsterTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate, emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate.Builder, emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplateOrBuilder> beyondMonsterTemplateBuilder_;
       /**
        * <code>._BeyondMonsterTemplate beyond_monster_template = 25;</code>
        * @return Whether the beyondMonsterTemplate field is set.
@@ -2431,23 +2431,23 @@ public final class PNOJPEHDHFKOuterClass {
        * @return The beyondMonsterTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate getBeyondMonsterTemplate() {
+      public emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate getBeyondMonsterTemplate() {
         if (beyondMonsterTemplateBuilder_ == null) {
           if (detailCase_ == 25) {
-            return (emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 25) {
             return beyondMonsterTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondMonsterTemplate beyond_monster_template = 25;</code>
        */
-      public Builder setBeyondMonsterTemplate(emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate value) {
+      public Builder setBeyondMonsterTemplate(emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate value) {
         if (beyondMonsterTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2464,7 +2464,7 @@ public final class PNOJPEHDHFKOuterClass {
        * <code>._BeyondMonsterTemplate beyond_monster_template = 25;</code>
        */
       public Builder setBeyondMonsterTemplate(
-          emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate.Builder builderForValue) {
         if (beyondMonsterTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2477,11 +2477,11 @@ public final class PNOJPEHDHFKOuterClass {
       /**
        * <code>._BeyondMonsterTemplate beyond_monster_template = 25;</code>
        */
-      public Builder mergeBeyondMonsterTemplate(emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate value) {
+      public Builder mergeBeyondMonsterTemplate(emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate value) {
         if (beyondMonsterTemplateBuilder_ == null) {
           if (detailCase_ == 25 &&
-              detail_ != emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate.newBuilder((emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate.newBuilder((emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2518,36 +2518,36 @@ public final class PNOJPEHDHFKOuterClass {
       /**
        * <code>._BeyondMonsterTemplate beyond_monster_template = 25;</code>
        */
-      public emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate.Builder getBeyondMonsterTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate.Builder getBeyondMonsterTemplateBuilder() {
         return getBeyondMonsterTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondMonsterTemplate beyond_monster_template = 25;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplateOrBuilder getBeyondMonsterTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplateOrBuilder getBeyondMonsterTemplateOrBuilder() {
         if ((detailCase_ == 25) && (beyondMonsterTemplateBuilder_ != null)) {
           return beyondMonsterTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 25) {
-            return (emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondMonsterTemplate beyond_monster_template = 25;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate, emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate.Builder, emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate, emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate.Builder, emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplateOrBuilder> 
           getBeyondMonsterTemplateFieldBuilder() {
         if (beyondMonsterTemplateBuilder_ == null) {
           if (!(detailCase_ == 25)) {
-            detail_ = emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate.getDefaultInstance();
           }
           beyondMonsterTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate, emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate.Builder, emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondMonsterTemplate._BeyondMonsterTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate, emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate.Builder, emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass._BeyondMonsterTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2640,8 +2640,8 @@ public final class PNOJPEHDHFKOuterClass {
       "mplateH\000\0228\n\026beyond_avatar_template\030\030 \001(\013" +
       "2\026._BeyondAvatarTemplateH\000\022:\n\027beyond_mon" +
       "ster_template\030\031 \001(\0132\027._BeyondMonsterTemp" +
-      "lateH\000B\010\n\006detailB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "lateH\000B\010\n\006detailB2\n\031emu.grasscutter.net." +
+      "protoB\025PNOJPEHDHFKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2650,11 +2650,11 @@ public final class PNOJPEHDHFKOuterClass {
           emu.grasscutter.net.proto.JEOKDCIGCFPOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.LOLJLHNCIHGOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.NEOIEHOPMDGOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondAvatarTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondGadgetTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondLevelTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondMonsterTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondPlayerTemplate.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass.getDescriptor(),
         });
     internal_static_PNOJPEHDHFK_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2666,11 +2666,11 @@ public final class PNOJPEHDHFKOuterClass {
     emu.grasscutter.net.proto.JEOKDCIGCFPOuterClass.getDescriptor();
     emu.grasscutter.net.proto.LOLJLHNCIHGOuterClass.getDescriptor();
     emu.grasscutter.net.proto.NEOIEHOPMDGOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BeyondAvatarTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondGadgetTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondLevelTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondMonsterTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondPlayerTemplate.getDescriptor();
+    emu.grasscutter.net.proto._BeyondAvatarTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondGadgetTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondLevelTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondMonsterTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondPlayerTemplateOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

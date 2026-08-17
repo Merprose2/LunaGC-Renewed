@@ -596,8 +596,9 @@ public final class GNOHHCBBLHJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GNOHHCBBLHJ.proto\"4\n\013GNOHHCBBLHJ\022\024\n\014su" +
-      "bmit_limit\030\002 \001(\r\022\017\n\007is_open\030\t \001(\010B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "bmit_limit\030\002 \001(\r\022\017\n\007is_open\030\t \001(\010B2\n\031emu" +
+      ".grasscutter.net.protoB\025GNOHHCBBLHJOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

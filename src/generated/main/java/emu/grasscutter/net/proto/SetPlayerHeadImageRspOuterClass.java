@@ -730,8 +730,9 @@ public final class SetPlayerHeadImageRspOuterClass {
       "\n\033SetPlayerHeadImageRsp.proto\032\024ProfilePi" +
       "cture.proto\"R\n\025SetPlayerHeadImageRsp\022\017\n\007" +
       "retcode\030\005 \001(\005\022(\n\017profile_picture\030\016 \001(\0132\017" +
-      ".ProfilePictureB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      ".ProfilePictureB<\n\031emu.grasscutter.net.p" +
+      "rotoB\037SetPlayerHeadImageRspOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

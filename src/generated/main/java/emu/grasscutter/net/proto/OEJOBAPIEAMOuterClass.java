@@ -964,8 +964,8 @@ public final class OEJOBAPIEAMOuterClass {
       "\n\021OEJOBAPIEAM.proto\032\021IGNEGGFGNHB.proto\"W" +
       "\n\013OEJOBAPIEAM\022\020\n\010level_id\030\002 \001(\r\022!\n\013HMINJ" +
       "JJIEBB\030\006 \003(\0132\014.IGNEGGFGNHB\022\023\n\013FIMBEGELEN" +
-      "G\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "G\030\014 \001(\rB2\n\031emu.grasscutter.net.protoB\025OE" +
+      "JOBAPIEAMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

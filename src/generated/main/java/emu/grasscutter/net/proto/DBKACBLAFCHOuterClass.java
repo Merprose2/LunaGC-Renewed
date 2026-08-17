@@ -50,11 +50,11 @@ public final class DBKACBLAFCHOuterClass {
      * <code>._ConfigIntByMultiComboBox config_int_by_multi_combo_box = 100;</code>
      * @return The configIntByMultiComboBox.
      */
-    emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox getConfigIntByMultiComboBox();
+    emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox getConfigIntByMultiComboBox();
     /**
      * <code>._ConfigIntByMultiComboBox config_int_by_multi_combo_box = 100;</code>
      */
-    emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBoxOrBuilder getConfigIntByMultiComboBoxOrBuilder();
+    emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBoxOrBuilder getConfigIntByMultiComboBoxOrBuilder();
 
     public emu.grasscutter.net.proto.DBKACBLAFCHOuterClass.DBKACBLAFCH.DetailCase getDetailCase();
   }
@@ -118,14 +118,14 @@ public final class DBKACBLAFCHOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox.Builder subBuilder = null;
               if (detailCase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 100;
@@ -273,21 +273,21 @@ public final class DBKACBLAFCHOuterClass {
      * @return The configIntByMultiComboBox.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox getConfigIntByMultiComboBox() {
+    public emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox getConfigIntByMultiComboBox() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox) detail_;
+         return (emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox) detail_;
       }
-      return emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox.getDefaultInstance();
     }
     /**
      * <code>._ConfigIntByMultiComboBox config_int_by_multi_combo_box = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBoxOrBuilder getConfigIntByMultiComboBoxOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBoxOrBuilder getConfigIntByMultiComboBoxOrBuilder() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox) detail_;
+         return (emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox) detail_;
       }
-      return emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -311,7 +311,7 @@ public final class DBKACBLAFCHOuterClass {
         output.writeEnum(2, bADFONNBBFE_);
       }
       if (detailCase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox) detail_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -331,7 +331,7 @@ public final class DBKACBLAFCHOuterClass {
       }
       if (detailCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox) detail_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -797,7 +797,7 @@ public final class DBKACBLAFCHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox, emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox.Builder, emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBoxOrBuilder> configIntByMultiComboBoxBuilder_;
+          emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox, emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox.Builder, emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBoxOrBuilder> configIntByMultiComboBoxBuilder_;
       /**
        * <code>._ConfigIntByMultiComboBox config_int_by_multi_combo_box = 100;</code>
        * @return Whether the configIntByMultiComboBox field is set.
@@ -811,23 +811,23 @@ public final class DBKACBLAFCHOuterClass {
        * @return The configIntByMultiComboBox.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox getConfigIntByMultiComboBox() {
+      public emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox getConfigIntByMultiComboBox() {
         if (configIntByMultiComboBoxBuilder_ == null) {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox) detail_;
+            return (emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox) detail_;
           }
-          return emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox.getDefaultInstance();
         } else {
           if (detailCase_ == 100) {
             return configIntByMultiComboBoxBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigIntByMultiComboBox config_int_by_multi_combo_box = 100;</code>
        */
-      public Builder setConfigIntByMultiComboBox(emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox value) {
+      public Builder setConfigIntByMultiComboBox(emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox value) {
         if (configIntByMultiComboBoxBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -844,7 +844,7 @@ public final class DBKACBLAFCHOuterClass {
        * <code>._ConfigIntByMultiComboBox config_int_by_multi_combo_box = 100;</code>
        */
       public Builder setConfigIntByMultiComboBox(
-          emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox.Builder builderForValue) {
         if (configIntByMultiComboBoxBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -857,11 +857,11 @@ public final class DBKACBLAFCHOuterClass {
       /**
        * <code>._ConfigIntByMultiComboBox config_int_by_multi_combo_box = 100;</code>
        */
-      public Builder mergeConfigIntByMultiComboBox(emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox value) {
+      public Builder mergeConfigIntByMultiComboBox(emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox value) {
         if (configIntByMultiComboBoxBuilder_ == null) {
           if (detailCase_ == 100 &&
-              detail_ != emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox.newBuilder((emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox) detail_)
+              detail_ != emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox.newBuilder((emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -898,36 +898,36 @@ public final class DBKACBLAFCHOuterClass {
       /**
        * <code>._ConfigIntByMultiComboBox config_int_by_multi_combo_box = 100;</code>
        */
-      public emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox.Builder getConfigIntByMultiComboBoxBuilder() {
+      public emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox.Builder getConfigIntByMultiComboBoxBuilder() {
         return getConfigIntByMultiComboBoxFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigIntByMultiComboBox config_int_by_multi_combo_box = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBoxOrBuilder getConfigIntByMultiComboBoxOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBoxOrBuilder getConfigIntByMultiComboBoxOrBuilder() {
         if ((detailCase_ == 100) && (configIntByMultiComboBoxBuilder_ != null)) {
           return configIntByMultiComboBoxBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox) detail_;
+            return (emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox) detail_;
           }
-          return emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigIntByMultiComboBox config_int_by_multi_combo_box = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox, emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox.Builder, emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBoxOrBuilder> 
+          emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox, emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox.Builder, emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBoxOrBuilder> 
           getConfigIntByMultiComboBoxFieldBuilder() {
         if (configIntByMultiComboBoxBuilder_ == null) {
           if (!(detailCase_ == 100)) {
-            detail_ = emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox.getDefaultInstance();
           }
           configIntByMultiComboBoxBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox, emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox.Builder, emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBoxOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigIntByMultiComboBox._ConfigIntByMultiComboBox) detail_,
+              emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox, emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox.Builder, emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBoxOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass._ConfigIntByMultiComboBox) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1008,14 +1008,14 @@ public final class DBKACBLAFCHOuterClass {
       "CBLAFCH\022\013\n\003key\030\001 \001(\t\022!\n\013BADFONNBBFE\030\002 \001(" +
       "\0162\014.AJHIOBKDINO\022C\n\035config_int_by_multi_c" +
       "ombo_box\030d \001(\0132\032._ConfigIntByMultiComboB" +
-      "oxH\000B\010\n\006detailB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "oxH\000B\010\n\006detailB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025DBKACBLAFCHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.AJHIOBKDINOOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigIntByMultiComboBox.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass.getDescriptor(),
         });
     internal_static_DBKACBLAFCH_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1024,7 +1024,7 @@ public final class DBKACBLAFCHOuterClass {
         internal_static_DBKACBLAFCH_descriptor,
         new java.lang.String[] { "Key", "BADFONNBBFE", "ConfigIntByMultiComboBox", "Detail", });
     emu.grasscutter.net.proto.AJHIOBKDINOOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.ConfigIntByMultiComboBox.getDescriptor();
+    emu.grasscutter.net.proto._ConfigIntByMultiComboBoxOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -834,7 +834,9 @@ public final class OneoffGatherPointDetectorDataNotifyOuterClass {
       "\"u\n#OneoffGatherPointDetectorDataNotify\022" +
       "N\n&oneoff_gather_point_detector_data_lis" +
       "t\030\003 \003(\0132\036.OneoffGatherPointDetectorDataB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "J\n\031emu.grasscutter.net.protoB-OneoffGath" +
+      "erPointDetectorDataNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

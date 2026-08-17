@@ -595,8 +595,9 @@ public final class NNDCGECMNMGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NNDCGECMNMG.proto\"4\n\013NNDCGECMNMG\022\022\n\nwo" +
-      "rld_type\030\002 \001(\r\022\021\n\towner_uid\030\014 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "rld_type\030\002 \001(\r\022\021\n\towner_uid\030\014 \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025NNDCGECMNMGOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

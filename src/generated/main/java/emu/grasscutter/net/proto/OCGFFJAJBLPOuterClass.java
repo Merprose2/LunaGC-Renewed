@@ -525,8 +525,8 @@ public final class OCGFFJAJBLPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OCGFFJAJBLP.proto\"\"\n\013OCGFFJAJBLP\022\023\n\013ac" +
-      "tivity_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "tivity_id\030\016 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025OCGFFJAJBLPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

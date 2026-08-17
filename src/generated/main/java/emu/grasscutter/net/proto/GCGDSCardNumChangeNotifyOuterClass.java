@@ -596,8 +596,9 @@ public final class GCGDSCardNumChangeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036GCGDSCardNumChangeNotify.proto\"8\n\030GCGD" +
       "SCardNumChangeNotify\022\013\n\003num\030\003 \001(\r\022\017\n\007car" +
-      "d_id\030\007 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "d_id\030\007 \001(\rB?\n\031emu.grasscutter.net.protoB" +
+      "\"GCGDSCardNumChangeNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

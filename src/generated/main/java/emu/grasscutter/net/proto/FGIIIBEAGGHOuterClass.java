@@ -2039,8 +2039,9 @@ public final class FGIIIBEAGGHOuterClass {
       "FKJPA\030\n \001(\002\022\023\n\013BGAHEBKDNDI\030\013 \001(\002\022\023\n\013EOJP" +
       "COAHJHG\030\014 \001(\002\022\023\n\013MPOOBGKBKOG\030\r \001(\002\022\023\n\013BO" +
       "EBPGPJJKG\030\016 \001(\002\022\023\n\013MGKBPKICOJN\030\017 \001(\002\022\"\n\013" +
-      "NLMGDJOKOLB\030\365\003 \003(\0132\014.HBBDNLEDECLB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "NLMGDJOKOLB\030\365\003 \003(\0132\014.HBBDNLEDECLB2\n\031emu." +
+      "grasscutter.net.protoB\025FGIIIBEAGGHOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

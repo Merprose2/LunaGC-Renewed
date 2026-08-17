@@ -51,7 +51,7 @@ public final class GroupLinkBundleOuterClass {
      * <code>._GroupLinkShowAreaState _show_area_state = 9;</code>
      * @return The showAreaState.
      */
-    emu.grasscutter.net.proto.GroupLinkShowAreaState._GroupLinkShowAreaState getShowAreaState();
+    emu.grasscutter.net.proto._GroupLinkShowAreaStateOuterClass._GroupLinkShowAreaState getShowAreaState();
 
     /**
      * <code>uint32 bundle_id = 12;</code>
@@ -264,10 +264,10 @@ public final class GroupLinkBundleOuterClass {
      * <code>._GroupLinkShowAreaState _show_area_state = 9;</code>
      * @return The showAreaState.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.GroupLinkShowAreaState._GroupLinkShowAreaState getShowAreaState() {
+    @java.lang.Override public emu.grasscutter.net.proto._GroupLinkShowAreaStateOuterClass._GroupLinkShowAreaState getShowAreaState() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.GroupLinkShowAreaState._GroupLinkShowAreaState result = emu.grasscutter.net.proto.GroupLinkShowAreaState._GroupLinkShowAreaState.valueOf(ShowAreaState_);
-      return result == null ? emu.grasscutter.net.proto.GroupLinkShowAreaState._GroupLinkShowAreaState.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto._GroupLinkShowAreaStateOuterClass._GroupLinkShowAreaState result = emu.grasscutter.net.proto._GroupLinkShowAreaStateOuterClass._GroupLinkShowAreaState.valueOf(ShowAreaState_);
+      return result == null ? emu.grasscutter.net.proto._GroupLinkShowAreaStateOuterClass._GroupLinkShowAreaState.UNRECOGNIZED : result;
     }
 
     public static final int BUNDLE_ID_FIELD_NUMBER = 12;
@@ -344,7 +344,7 @@ public final class GroupLinkBundleOuterClass {
       if (sceneId_ != 0) {
         output.writeUInt32(6, sceneId_);
       }
-      if (ShowAreaState_ != emu.grasscutter.net.proto.GroupLinkShowAreaState._GroupLinkShowAreaState._GroupLinkShowAreaState_NONE.getNumber()) {
+      if (ShowAreaState_ != emu.grasscutter.net.proto._GroupLinkShowAreaStateOuterClass._GroupLinkShowAreaState._GroupLinkShowAreaState_NONE.getNumber()) {
         output.writeEnum(9, ShowAreaState_);
       }
       if (bundleId_ != 0) {
@@ -381,7 +381,7 @@ public final class GroupLinkBundleOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(6, sceneId_);
       }
-      if (ShowAreaState_ != emu.grasscutter.net.proto.GroupLinkShowAreaState._GroupLinkShowAreaState._GroupLinkShowAreaState_NONE.getNumber()) {
+      if (ShowAreaState_ != emu.grasscutter.net.proto._GroupLinkShowAreaStateOuterClass._GroupLinkShowAreaState._GroupLinkShowAreaState_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(9, ShowAreaState_);
       }
@@ -901,17 +901,17 @@ public final class GroupLinkBundleOuterClass {
        * @return The showAreaState.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GroupLinkShowAreaState._GroupLinkShowAreaState getShowAreaState() {
+      public emu.grasscutter.net.proto._GroupLinkShowAreaStateOuterClass._GroupLinkShowAreaState getShowAreaState() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.GroupLinkShowAreaState._GroupLinkShowAreaState result = emu.grasscutter.net.proto.GroupLinkShowAreaState._GroupLinkShowAreaState.valueOf(ShowAreaState_);
-        return result == null ? emu.grasscutter.net.proto.GroupLinkShowAreaState._GroupLinkShowAreaState.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto._GroupLinkShowAreaStateOuterClass._GroupLinkShowAreaState result = emu.grasscutter.net.proto._GroupLinkShowAreaStateOuterClass._GroupLinkShowAreaState.valueOf(ShowAreaState_);
+        return result == null ? emu.grasscutter.net.proto._GroupLinkShowAreaStateOuterClass._GroupLinkShowAreaState.UNRECOGNIZED : result;
       }
       /**
        * <code>._GroupLinkShowAreaState _show_area_state = 9;</code>
        * @param value The showAreaState to set.
        * @return This builder for chaining.
        */
-      public Builder setShowAreaState(emu.grasscutter.net.proto.GroupLinkShowAreaState._GroupLinkShowAreaState value) {
+      public Builder setShowAreaState(emu.grasscutter.net.proto._GroupLinkShowAreaStateOuterClass._GroupLinkShowAreaState value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -1185,14 +1185,14 @@ public final class GroupLinkBundleOuterClass {
       "d\030\006 \001(\r\0222\n\020_show_area_state\030\t \001(\0162\030._Gro" +
       "upLinkShowAreaState\022\021\n\tbundle_id\030\014 \001(\r\022\027" +
       "\n\006center\030\r \001(\0132\007.Vector\022\024\n\014is_activated\030" +
-      "\016 \001(\010B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\016 \001(\010B6\n\031emu.grasscutter.net.protoB\031Grou" +
+      "pLinkBundleOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.VectorOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.GroupLinkShowAreaState.getDescriptor(),
+          emu.grasscutter.net.proto._GroupLinkShowAreaStateOuterClass.getDescriptor(),
         });
     internal_static_GroupLinkBundle_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1201,7 +1201,7 @@ public final class GroupLinkBundleOuterClass {
         internal_static_GroupLinkBundle_descriptor,
         new java.lang.String[] { "IsShowMark", "Radius", "MapLayerId", "SceneId", "ShowAreaState", "BundleId", "Center", "IsActivated", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.GroupLinkShowAreaState.getDescriptor();
+    emu.grasscutter.net.proto._GroupLinkShowAreaStateOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

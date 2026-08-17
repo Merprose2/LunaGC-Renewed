@@ -634,8 +634,8 @@ public final class DungeonPlayerDieReqOuterClass {
       "\n\031DungeonPlayerDieReq.proto\032\023PlayerDieTy" +
       "pe.proto\"K\n\023DungeonPlayerDieReq\022\022\n\ndunge" +
       "on_id\030\002 \001(\r\022 \n\010die_type\030\006 \001(\0162\016.PlayerDi" +
-      "eTypeB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "eTypeB:\n\031emu.grasscutter.net.protoB\035Dung" +
+      "eonPlayerDieReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1128,8 +1128,9 @@ public final class JGHBGHCGNHOOuterClass {
       "\001(\r\022\021\n\tcost_time\030\007 \001(\r\022\023\n\013IIDAKNBAJCK\030\t " +
       "\001(\r\022\023\n\013DDHPGLAGCOP\030\n \001(\r\022\025\n\ris_new_recor" +
       "d\030\014 \001(\010\022\"\n\006reason\030\r \001(\0162\022.GalleryStopRea" +
-      "son\022\022\n\ngallery_id\030\016 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "son\022\022\n\ngallery_id\030\016 \001(\rB2\n\031emu.grasscutt" +
+      "er.net.protoB\025JGHBGHCGNHOOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

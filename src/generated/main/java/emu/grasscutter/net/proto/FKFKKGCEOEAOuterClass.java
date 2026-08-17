@@ -1027,8 +1027,8 @@ public final class FKFKKGCEOEAOuterClass {
       "\n\021FKFKKGCEOEA.proto\032\021GCDNCDJBDAF.proto\032\021" +
       "JNPCOFBGLFG.proto\"Q\n\013FKFKKGCEOEA\022\037\n\titem" +
       "_list\030\001 \003(\0132\014.JNPCOFBGLFG\022!\n\013EAFAOANACDE" +
-      "\030\003 \001(\0132\014.GCDNCDJBDAFB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\030\003 \001(\0132\014.GCDNCDJBDAFB2\n\031emu.grasscutter." +
+      "net.protoB\025FKFKKGCEOEAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

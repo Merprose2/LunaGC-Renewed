@@ -651,8 +651,9 @@ public final class AbilityActionMonsterFiexedJumpOuterClass {
     java.lang.String[] descriptorData = {
       "\n$AbilityActionMonsterFiexedJump.proto\032\014" +
       "Vector.proto\"=\n\036AbilityActionMonsterFiex" +
-      "edJump\022\033\n\ntarget_pos\030\003 \001(\0132\007.VectorB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "edJump\022\033\n\ntarget_pos\030\003 \001(\0132\007.VectorBE\n\031e" +
+      "mu.grasscutter.net.protoB(AbilityActionM" +
+      "onsterFiexedJumpOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

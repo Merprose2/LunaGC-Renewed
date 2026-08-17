@@ -1325,7 +1325,8 @@ public final class BKIHKCLBNEHOuterClass {
       " \001(\0132\014.HHEDHCFPEKM\022\023\n\013NANKKJAHHKM\030\004 \001(\010\022" +
       "\023\n\013LCJKCHOFIMD\030\005 \001(\002\022\023\n\013MMOPDBGAADB\030\006 \001(" +
       "\002\022\023\n\013BMHHELKECGL\030\007 \001(\002\022\023\n\013CAGOGNFINDL\030\010 " +
-      "\001(\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\002B2\n\031emu.grasscutter.net.protoB\025BKIHKC" +
+      "LBNEHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

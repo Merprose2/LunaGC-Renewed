@@ -800,8 +800,8 @@ public final class JNGICDLLECFOuterClass {
       "\n\021JNGICDLLECF.proto\032\020Uint32Pair.proto\"Y\n" +
       "\013JNGICDLLECF\022\023\n\013KMDOFBPMGAI\030\001 \001(\r\022 \n\013LIH" +
       "OPDNGAEI\030\004 \001(\0132\013.Uint32Pair\022\023\n\013LOIFEKALB" +
-      "KH\030\010 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "KH\030\010 \001(\rB2\n\031emu.grasscutter.net.protoB\025J" +
+      "NGICDLLECFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

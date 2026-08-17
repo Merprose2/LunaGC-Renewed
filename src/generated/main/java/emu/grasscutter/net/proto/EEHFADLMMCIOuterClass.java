@@ -595,8 +595,9 @@ public final class EEHFADLMMCIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EEHFADLMMCI.proto\"7\n\013EEHFADLMMCI\022\023\n\013sc" +
-      "hedule_id\030\003 \001(\r\022\023\n\013GAFMIEILEPD\030\013 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "hedule_id\030\003 \001(\r\022\023\n\013GAFMIEILEPD\030\013 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025EEHFADLMMCIOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

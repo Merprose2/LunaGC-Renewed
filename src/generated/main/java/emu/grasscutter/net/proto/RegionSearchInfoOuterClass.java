@@ -965,8 +965,9 @@ public final class RegionSearchInfoOuterClass {
       "\n\026RegionSearchInfo.proto\032\022RegionSearch.p" +
       "roto\"]\n\020RegionSearchInfo\022\022\n\nis_entered\030\002" +
       " \001(\010\022\n\n\002id\030\003 \001(\r\022)\n\022region_search_list\030\006" +
-      " \003(\0132\r.RegionSearchB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      " \003(\0132\r.RegionSearchB7\n\031emu.grasscutter.n" +
+      "et.protoB\032RegionSearchInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

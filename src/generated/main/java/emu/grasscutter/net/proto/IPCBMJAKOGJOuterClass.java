@@ -1771,8 +1771,8 @@ public final class IPCBMJAKOGJOuterClass {
       "ilePicture\022\021\n\tonline_id\030\010 \001(\t\022\026\n\016_xbox_g" +
       "amertag\030\t \001(\t\022 \n\013DNCGEANGNFM\030\014 \003(\0132\013.Uin" +
       "t32Pair\022\020\n\010level_id\030\016 \001(\r\022\023\n\013CBJBLEOHGPK" +
-      "\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \001(\010B2\n\031emu.grasscutter.net.protoB\025IPC" +
+      "BMJAKOGJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

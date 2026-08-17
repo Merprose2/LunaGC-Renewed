@@ -658,8 +658,9 @@ public final class ChannellerSlabAssistInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036ChannellerSlabAssistInfo.proto\"P\n\030Chan" +
       "nellerSlabAssistInfo\022\024\n\014avatar_level\030\005 \001" +
-      "(\r\022\021\n\tavatar_id\030\013 \001(\r\022\013\n\003uid\030\017 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "(\r\022\021\n\tavatar_id\030\013 \001(\r\022\013\n\003uid\030\017 \001(\rB?\n\031em" +
+      "u.grasscutter.net.protoB\"ChannellerSlabA" +
+      "ssistInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

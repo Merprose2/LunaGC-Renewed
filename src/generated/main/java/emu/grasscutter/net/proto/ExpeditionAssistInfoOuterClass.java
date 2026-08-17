@@ -959,8 +959,9 @@ public final class ExpeditionAssistInfoOuterClass {
       "\n\032ExpeditionAssistInfo.proto\"\177\n\024Expediti" +
       "onAssistInfo\022\022\n\ncostume_id\030\001 \001(\r\022\021\n\tavat" +
       "ar_id\030\004 \001(\r\022\021\n\tonline_id\030\005 \001(\t\022\030\n\020target" +
-      "_nick_name\030\007 \001(\t\022\023\n\013assist_time\030\016 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "_nick_name\030\007 \001(\t\022\023\n\013assist_time\030\016 \001(\rB;\n" +
+      "\031emu.grasscutter.net.protoB\036ExpeditionAs" +
+      "sistInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

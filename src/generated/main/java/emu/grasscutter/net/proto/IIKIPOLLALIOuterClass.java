@@ -1907,8 +1907,8 @@ public final class IIKIPOLLALIOuterClass {
       "\n\013LBEMEEDDMCG\030\016 \001(\002\022\023\n\013CMMEJLNNHJI\030\017 \001(\002" +
       "\022\023\n\013MJNILPDFEBL\030\020 \001(\002\022\023\n\013GKJGDNNGBLA\030\021 \001" +
       "(\r\022\023\n\013MJEDFAPDEOH\030\022 \001(\r\022\023\n\013BKBBNNAENAM\030\023" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB2\n\031emu.grasscutter.net.protoB\025IIKIP" +
+      "OLLALIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

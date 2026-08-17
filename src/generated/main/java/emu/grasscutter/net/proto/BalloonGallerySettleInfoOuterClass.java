@@ -767,8 +767,9 @@ public final class BalloonGallerySettleInfoOuterClass {
       "yStopReason.proto\"s\n\030BalloonGallerySettl" +
       "eInfo\022\021\n\towner_uid\030\004 \001(\r\022\r\n\005score\030\007 \001(\r\022" +
       "\"\n\006reason\030\010 \001(\0162\022.GalleryStopReason\022\021\n\th" +
-      "it_count\030\016 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "it_count\030\016 \001(\rB?\n\031emu.grasscutter.net.pr" +
+      "otoB\"BalloonGallerySettleInfoOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

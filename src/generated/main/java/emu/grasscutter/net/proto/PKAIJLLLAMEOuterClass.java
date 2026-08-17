@@ -2941,8 +2941,9 @@ public final class PKAIJLLLAMEOuterClass {
       "\030\013 \003(\0132\014.IFAJMPIILAB\022\023\n\013ALBBGKCJPCM\030\014 \001(" +
       "\r\022!\n\013EFGHJGJLFNL\030\r \003(\0132\014.KFBHMDDHIDG\022\023\n\013" +
       "ALEKEOPPHJN\030\017 \003(\r\0322\n\020GICOCGACHPFEntry\022\013\n" +
-      "\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B2\n\031emu.gra" +
+      "sscutter.net.protoB\025PKAIJLLLAMEOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

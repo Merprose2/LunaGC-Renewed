@@ -1875,8 +1875,8 @@ public final class LMEPBLGGHDCOuterClass {
       "data\030\004 \001(\0132\030.LMEPBLGGHDC.OOPDAGHHMGJ\022\023\n\013" +
       "NGEDGDGBAID\030\005 \001(\014\022\023\n\013NJKJHJEAKEJ\030\006 \001(\t\0320" +
       "\n\013OOPDAGHHMGJ\022!\n\013DIDNIMIGFAH\030\001 \001(\0132\014.MDB" +
-      "DECFJFHMB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "DECFJFHMB2\n\031emu.grasscutter.net.protoB\025L" +
+      "MEPBLGGHDCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

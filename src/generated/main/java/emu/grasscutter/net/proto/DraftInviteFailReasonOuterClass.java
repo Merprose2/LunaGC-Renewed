@@ -186,8 +186,9 @@ public final class DraftInviteFailReasonOuterClass {
       "n_DRAFT_WORLD_NOT_MEET\020\004\0223\n/DraftInviteF" +
       "ailReason_DRAFT_PLAY_LIMIT_NOT_MEET\020\005\0229\n" +
       "5DraftInviteFailReason_DRAFT_ACTIVITY_CO" +
-      "NFIG_NOT_FOUND\020\006B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "NFIG_NOT_FOUND\020\006B<\n\031emu.grasscutter.net." +
+      "protoB\037DraftInviteFailReasonOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

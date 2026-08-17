@@ -666,8 +666,9 @@ public final class GCGDSChangeCardFaceRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034GCGDSChangeCardFaceRsp.proto\"M\n\026GCGDSC" +
       "hangeCardFaceRsp\022\017\n\007retcode\030\007 \001(\005\022\021\n\tfac" +
-      "e_type\030\014 \001(\r\022\017\n\007card_id\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "e_type\030\014 \001(\r\022\017\n\007card_id\030\017 \001(\rB=\n\031emu.gra" +
+      "sscutter.net.protoB GCGDSChangeCardFaceR" +
+      "spOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

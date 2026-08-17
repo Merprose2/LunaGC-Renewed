@@ -587,8 +587,9 @@ public final class GINPDLOONGJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GINPDLOONGJ.proto\"8\n\013GINPDLOONGJ\022\027\n\017mi" +
-      "n_finish_time\030\003 \001(\r\022\020\n\010level_id\030\n \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "n_finish_time\030\003 \001(\r\022\020\n\010level_id\030\n \001(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025GINPDLOONGJO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

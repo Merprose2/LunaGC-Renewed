@@ -822,8 +822,8 @@ public final class DAIHJJFMKMIOuterClass {
       "o\032\023ServerLogType.proto\"h\n\013DAIHJJFMKMI\022 \n" +
       "\010log_type\030\002 \001(\0162\016.ServerLogType\022\"\n\tlog_l" +
       "evel\030\n \001(\0162\017.ServerLogLevel\022\023\n\013DGCOLJKFI" +
-      "IE\030\016 \001(\tB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "IE\030\016 \001(\tB2\n\031emu.grasscutter.net.protoB\025D" +
+      "AIHJJFMKMIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

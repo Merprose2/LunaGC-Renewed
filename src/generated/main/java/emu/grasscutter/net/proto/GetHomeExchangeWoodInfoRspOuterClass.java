@@ -1608,8 +1608,9 @@ public final class GetHomeExchangeWoodInfoRspOuterClass {
       "omeExchangeWoodInfo\022\017\n\007retcode\030\n \001(\005\032p\n\024" +
       "HomeExchangeWoodInfo\022\023\n\013DJJAEFOKKBB\030\004 \001(" +
       "\r\022\031\n\021next_refresh_time\030\n \001(\007\022\023\n\013PDFLNJBF" +
-      "OMP\030\013 \001(\r\022\023\n\013EPHOFJNFPHB\030\017 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "OMP\030\013 \001(\r\022\023\n\013EPHOFJNFPHB\030\017 \001(\rBA\n\031emu.gr" +
+      "asscutter.net.protoB$GetHomeExchangeWood" +
+      "InfoRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

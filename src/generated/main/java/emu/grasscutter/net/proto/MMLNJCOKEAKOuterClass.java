@@ -591,8 +591,8 @@ public final class MMLNJCOKEAKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MMLNJCOKEAK.proto\"%\n\013MMLNJCOKEAK\022\n\n\001x\030" +
-      "\365\003 \001(\002\022\n\n\001y\030\366\003 \001(\002B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\365\003 \001(\002\022\n\n\001y\030\366\003 \001(\002B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025MMLNJCOKEAKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

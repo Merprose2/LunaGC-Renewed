@@ -831,8 +831,8 @@ public final class GEOEINHHKJAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GEOEINHHKJA.proto\032\021OKJCPMHJOIG.proto\"0" +
       "\n\013GEOEINHHKJA\022!\n\013PMCBIHAIOPA\030\016 \003(\0132\014.OKJ" +
-      "CPMHJOIGB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "CPMHJOIGB2\n\031emu.grasscutter.net.protoB\025G" +
+      "EOEINHHKJAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

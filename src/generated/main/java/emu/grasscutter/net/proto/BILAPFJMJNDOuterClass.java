@@ -1191,7 +1191,8 @@ public final class BILAPFJMJNDOuterClass {
       "KKIGLOGNKB\030\001 \001(\r\022\023\n\013CMGEMFEGPMK\030\002 \001(\t\022\023\n" +
       "\013KANFEIBCOEO\030\003 \001(\t\022\023\n\013LPAKOLBCKNE\030\004 \001(\t\022" +
       "\023\n\013GKJIHMFEMHG\030\005 \001(\t\022\023\n\013OGAGBJGPONB\030\006 \001(" +
-      "\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\010B2\n\031emu.grasscutter.net.protoB\025BILAPFJM" +
+      "JNDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

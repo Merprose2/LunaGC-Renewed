@@ -2117,8 +2117,9 @@ public final class AbilityMetaModifierChangeOuterClass {
       "ifierAction\022\027\n\017server_buff_uid\030\014 \001(\r\022\031\n\021" +
       "modifier_local_id\030\r \001(\005\022=\n\033attached_inst" +
       "anced_modifier\030\016 \001(\0132\030.AbilityAttachedMo" +
-      "difier\022\023\n\013PKJMOLPCEBG\030\017 \001(\010B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "difier\022\023\n\013PKJMOLPCEBG\030\017 \001(\010B@\n\031emu.grass" +
+      "cutter.net.protoB#AbilityMetaModifierCha" +
+      "ngeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

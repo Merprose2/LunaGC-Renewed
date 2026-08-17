@@ -760,8 +760,9 @@ public final class StoreItemDelNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030StoreItemDelNotify.proto\032\017StoreType.pr" +
       "oto\"G\n\022StoreItemDelNotify\022\036\n\nstore_type\030" +
-      "\001 \001(\0162\n.StoreType\022\021\n\tguid_list\030\007 \003(\004B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\001 \001(\0162\n.StoreType\022\021\n\tguid_list\030\007 \003(\004B9\n\031" +
+      "emu.grasscutter.net.protoB\034StoreItemDelN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

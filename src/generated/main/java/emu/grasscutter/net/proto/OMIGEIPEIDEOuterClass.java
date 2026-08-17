@@ -659,8 +659,8 @@ public final class OMIGEIPEIDEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OMIGEIPEIDE.proto\032\021GPOHMIKNCFI.proto\"0" +
       "\n\013OMIGEIPEIDE\022!\n\013GGOKIHPHIPN\030\001 \001(\0132\014.GPO" +
-      "HMIKNCFIB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "HMIKNCFIB2\n\031emu.grasscutter.net.protoB\025O" +
+      "MIGEIPEIDEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

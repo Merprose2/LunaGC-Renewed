@@ -1003,8 +1003,8 @@ public final class IFIAPDFNGJOOuterClass {
       "\n\021IFIAPDFNGJO.proto\032\014Vector.proto\"a\n\013IFI" +
       "APDFNGJO\022\021\n\tcard_guid\030\003 \001(\r\022\024\n\003pos\030\005 \001(\013" +
       "2\007.Vector\022\023\n\013building_id\030\n \001(\r\022\024\n\003rot\030\017 " +
-      "\001(\0132\007.VectorB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\001(\0132\007.VectorB2\n\031emu.grasscutter.net.prot" +
+      "oB\025IFIAPDFNGJOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

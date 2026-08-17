@@ -1397,8 +1397,8 @@ public final class PAINIINOOLPOuterClass {
       "FBPJIAJLHFF\022!\n\013EIMNGINDOPJ\030\005 \001(\0162\014.OEELI" +
       "MGIFBG\022\024\n\013DDOLPJEKCNC\030\365\003 \001(\t\022\024\n\013KDJPNHAM" +
       "AIJ\030\366\003 \001(\t\022\024\n\013IPCOGFLJLKO\030\367\003 \001(\t\022\024\n\013LBIP" +
-      "GGPFJCF\030\370\003 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "GGPFJCF\030\370\003 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025PAINIINOOLPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

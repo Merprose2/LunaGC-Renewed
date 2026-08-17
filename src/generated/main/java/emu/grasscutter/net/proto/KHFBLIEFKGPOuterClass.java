@@ -1933,8 +1933,8 @@ public final class KHFBLIEFKGPOuterClass {
       "\0132\014.PLGPJEHKFNC\022\024\n\013PEDNNPEDAGI\030\374\003 \001(\t\022\024\n" +
       "\013LAHLMDAMIKM\030\375\003 \001(\010\022\024\n\013EFKEJBBEMKF\030\376\003 \001(" +
       "\010\022\024\n\013POGPHDLNFFL\030\377\003 \003(\005\022\024\n\013filter_type\030\200" +
-      "\004 \001(\005B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\004 \001(\005B2\n\031emu.grasscutter.net.protoB\025KHFB" +
+      "LIEFKGPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

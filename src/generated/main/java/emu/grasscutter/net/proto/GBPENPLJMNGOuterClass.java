@@ -823,8 +823,8 @@ public final class GBPENPLJMNGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GBPENPLJMNG.proto\032\021IHFAIFNHCKD.proto\"0" +
       "\n\013GBPENPLJMNG\022!\n\013GNLLBEEPFFJ\030\014 \003(\0132\014.IHF" +
-      "AIFNHCKDB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "AIFNHCKDB2\n\031emu.grasscutter.net.protoB\025G" +
+      "BPENPLJMNGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

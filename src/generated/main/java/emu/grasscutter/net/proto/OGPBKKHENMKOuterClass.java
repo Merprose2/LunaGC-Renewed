@@ -42,11 +42,11 @@ public final class OGPBKKHENMKOuterClass {
      * <code>._BeyondPlayerInfo BJBADJECPKL = 12;</code>
      * @return The bJBADJECPKL.
      */
-    emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo getBJBADJECPKL();
+    emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo getBJBADJECPKL();
     /**
      * <code>._BeyondPlayerInfo BJBADJECPKL = 12;</code>
      */
-    emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfoOrBuilder getBJBADJECPKLOrBuilder();
+    emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfoOrBuilder getBJBADJECPKLOrBuilder();
   }
   /**
    * <pre>
@@ -111,11 +111,11 @@ public final class OGPBKKHENMKOuterClass {
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo.Builder subBuilder = null;
               if (bJBADJECPKL_ != null) {
                 subBuilder = bJBADJECPKL_.toBuilder();
               }
-              bJBADJECPKL_ = input.readMessage(emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo.parser(), extensionRegistry);
+              bJBADJECPKL_ = input.readMessage(emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(bJBADJECPKL_);
                 bJBADJECPKL_ = subBuilder.buildPartial();
@@ -182,7 +182,7 @@ public final class OGPBKKHENMKOuterClass {
     }
 
     public static final int BJBADJECPKL_FIELD_NUMBER = 12;
-    private emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo bJBADJECPKL_;
+    private emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo bJBADJECPKL_;
     /**
      * <code>._BeyondPlayerInfo BJBADJECPKL = 12;</code>
      * @return Whether the bJBADJECPKL field is set.
@@ -196,14 +196,14 @@ public final class OGPBKKHENMKOuterClass {
      * @return The bJBADJECPKL.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo getBJBADJECPKL() {
-      return bJBADJECPKL_ == null ? emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo.getDefaultInstance() : bJBADJECPKL_;
+    public emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo getBJBADJECPKL() {
+      return bJBADJECPKL_ == null ? emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo.getDefaultInstance() : bJBADJECPKL_;
     }
     /**
      * <code>._BeyondPlayerInfo BJBADJECPKL = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfoOrBuilder getBJBADJECPKLOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfoOrBuilder getBJBADJECPKLOrBuilder() {
       return getBJBADJECPKL();
     }
 
@@ -675,9 +675,9 @@ public final class OGPBKKHENMKOuterClass {
         return lELIJAPGCMIBuilder_;
       }
 
-      private emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo bJBADJECPKL_;
+      private emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo bJBADJECPKL_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo, emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo.Builder, emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfoOrBuilder> bJBADJECPKLBuilder_;
+          emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo, emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo.Builder, emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfoOrBuilder> bJBADJECPKLBuilder_;
       /**
        * <code>._BeyondPlayerInfo BJBADJECPKL = 12;</code>
        * @return Whether the bJBADJECPKL field is set.
@@ -689,9 +689,9 @@ public final class OGPBKKHENMKOuterClass {
        * <code>._BeyondPlayerInfo BJBADJECPKL = 12;</code>
        * @return The bJBADJECPKL.
        */
-      public emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo getBJBADJECPKL() {
+      public emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo getBJBADJECPKL() {
         if (bJBADJECPKLBuilder_ == null) {
-          return bJBADJECPKL_ == null ? emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo.getDefaultInstance() : bJBADJECPKL_;
+          return bJBADJECPKL_ == null ? emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo.getDefaultInstance() : bJBADJECPKL_;
         } else {
           return bJBADJECPKLBuilder_.getMessage();
         }
@@ -699,7 +699,7 @@ public final class OGPBKKHENMKOuterClass {
       /**
        * <code>._BeyondPlayerInfo BJBADJECPKL = 12;</code>
        */
-      public Builder setBJBADJECPKL(emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo value) {
+      public Builder setBJBADJECPKL(emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo value) {
         if (bJBADJECPKLBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -716,7 +716,7 @@ public final class OGPBKKHENMKOuterClass {
        * <code>._BeyondPlayerInfo BJBADJECPKL = 12;</code>
        */
       public Builder setBJBADJECPKL(
-          emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo.Builder builderForValue) {
         if (bJBADJECPKLBuilder_ == null) {
           bJBADJECPKL_ = builderForValue.build();
           onChanged();
@@ -729,11 +729,11 @@ public final class OGPBKKHENMKOuterClass {
       /**
        * <code>._BeyondPlayerInfo BJBADJECPKL = 12;</code>
        */
-      public Builder mergeBJBADJECPKL(emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo value) {
+      public Builder mergeBJBADJECPKL(emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo value) {
         if (bJBADJECPKLBuilder_ == null) {
           if (bJBADJECPKL_ != null) {
             bJBADJECPKL_ =
-              emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo.newBuilder(bJBADJECPKL_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo.newBuilder(bJBADJECPKL_).mergeFrom(value).buildPartial();
           } else {
             bJBADJECPKL_ = value;
           }
@@ -761,7 +761,7 @@ public final class OGPBKKHENMKOuterClass {
       /**
        * <code>._BeyondPlayerInfo BJBADJECPKL = 12;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo.Builder getBJBADJECPKLBuilder() {
+      public emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo.Builder getBJBADJECPKLBuilder() {
         
         onChanged();
         return getBJBADJECPKLFieldBuilder().getBuilder();
@@ -769,23 +769,23 @@ public final class OGPBKKHENMKOuterClass {
       /**
        * <code>._BeyondPlayerInfo BJBADJECPKL = 12;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfoOrBuilder getBJBADJECPKLOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfoOrBuilder getBJBADJECPKLOrBuilder() {
         if (bJBADJECPKLBuilder_ != null) {
           return bJBADJECPKLBuilder_.getMessageOrBuilder();
         } else {
           return bJBADJECPKL_ == null ?
-              emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo.getDefaultInstance() : bJBADJECPKL_;
+              emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo.getDefaultInstance() : bJBADJECPKL_;
         }
       }
       /**
        * <code>._BeyondPlayerInfo BJBADJECPKL = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo, emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo.Builder, emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfoOrBuilder> 
+          emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo, emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo.Builder, emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfoOrBuilder> 
           getBJBADJECPKLFieldBuilder() {
         if (bJBADJECPKLBuilder_ == null) {
           bJBADJECPKLBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo, emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfo.Builder, emu.grasscutter.net.proto.BeyondPlayerInfo._BeyondPlayerInfoOrBuilder>(
+              emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo, emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo.Builder, emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfoOrBuilder>(
                   getBJBADJECPKL(),
                   getParentForChildren(),
                   isClean());
@@ -863,14 +863,15 @@ public final class OGPBKKHENMKOuterClass {
       "\n\021OGPBKKHENMK.proto\032\021FriendBrief.proto\032\027" +
       "_BeyondPlayerInfo.proto\"Y\n\013OGPBKKHENMK\022!" +
       "\n\013LELIJAPGCMI\030\006 \001(\0132\014.FriendBrief\022\'\n\013BJB" +
-      "ADJECPKL\030\014 \001(\0132\022._BeyondPlayerInfoB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ADJECPKL\030\014 \001(\0132\022._BeyondPlayerInfoB2\n\031em" +
+      "u.grasscutter.net.protoB\025OGPBKKHENMKOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.FriendBriefOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondPlayerInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass.getDescriptor(),
         });
     internal_static_OGPBKKHENMK_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -879,7 +880,7 @@ public final class OGPBKKHENMKOuterClass {
         internal_static_OGPBKKHENMK_descriptor,
         new java.lang.String[] { "LELIJAPGCMI", "BJBADJECPKL", });
     emu.grasscutter.net.proto.FriendBriefOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BeyondPlayerInfo.getDescriptor();
+    emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

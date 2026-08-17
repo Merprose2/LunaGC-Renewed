@@ -1302,8 +1302,8 @@ public final class TowerCurLevelRecordOuterClass {
       "list\030\002 \003(\r\022\023\n\013EHEIMMOAKJO\030\005 \001(\r\022#\n\017tower" +
       "_team_list\030\006 \003(\0132\n.TowerTeam\022\025\n\ris_upper" +
       "_part\030\t \001(\010\022\023\n\013CGLPCLJIBLN\030\013 \001(\r\022\020\n\010is_e" +
-      "mpty\030\014 \001(\010B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "mpty\030\014 \001(\010B:\n\031emu.grasscutter.net.protoB" +
+      "\035TowerCurLevelRecordOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

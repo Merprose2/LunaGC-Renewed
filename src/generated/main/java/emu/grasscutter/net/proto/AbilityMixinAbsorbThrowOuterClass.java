@@ -1967,7 +1967,8 @@ public final class AbilityMixinAbsorbThrowOuterClass {
       "throw_op\030\r \001(\0132!.AbilityMixinAbsorbThrow" +
       "._ThrowOpH\000\032\036\n\t_AbsorbOp\022\021\n\tentity_id\030\016 " +
       "\001(\r\032\035\n\010_ThrowOp\022\021\n\tentity_id\030\r \001(\rB\004\n\002op" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B>\n\031emu.grasscutter.net.protoB!AbilityMi" +
+      "xinAbsorbThrowOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1076,8 +1076,8 @@ public final class MOAIACPGEAFOuterClass {
       "MPJLCMDC\030\002 \001(\r\022\023\n\013EICOILFPOFD\030\006 \001(\r\022!\n\013I" +
       "AKDCOKDGBP\030\010 \001(\0132\014.INBANCIEAPE\022!\n\013LEFOFG" +
       "GOKDM\030\014 \001(\0132\014.FEIOBBCOCLD\022\023\n\013GPKEBAPBNDB" +
-      "\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \001(\010B2\n\031emu.grasscutter.net.protoB\025MOA" +
+      "IACPGEAFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

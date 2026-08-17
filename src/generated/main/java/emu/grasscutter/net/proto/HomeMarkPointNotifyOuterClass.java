@@ -832,8 +832,9 @@ public final class HomeMarkPointNotifyOuterClass {
       "\n\031HomeMarkPointNotify.proto\032\034HomeMarkPoi" +
       "ntSceneData.proto\"L\n\023HomeMarkPointNotify" +
       "\0225\n\024mark_point_data_list\030\005 \003(\0132\027.HomeMar" +
-      "kPointSceneDataB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "kPointSceneDataB:\n\031emu.grasscutter.net.p" +
+      "rotoB\035HomeMarkPointNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

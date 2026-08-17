@@ -45,11 +45,11 @@ public final class DNHFKHHJBPLOuterClass {
      * <code>._CoinResult coin_result = 727;</code>
      * @return The coinResult.
      */
-    emu.grasscutter.net.proto.CoinResult._CoinResult getCoinResult();
+    emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult getCoinResult();
     /**
      * <code>._CoinResult coin_result = 727;</code>
      */
-    emu.grasscutter.net.proto.CoinResult._CoinResultOrBuilder getCoinResultOrBuilder();
+    emu.grasscutter.net.proto._CoinResultOuterClass._CoinResultOrBuilder getCoinResultOrBuilder();
 
     /**
      * <code>._AvatarResult avatar_result = 792;</code>
@@ -60,11 +60,11 @@ public final class DNHFKHHJBPLOuterClass {
      * <code>._AvatarResult avatar_result = 792;</code>
      * @return The avatarResult.
      */
-    emu.grasscutter.net.proto.AvatarResult._AvatarResult getAvatarResult();
+    emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult getAvatarResult();
     /**
      * <code>._AvatarResult avatar_result = 792;</code>
      */
-    emu.grasscutter.net.proto.AvatarResult._AvatarResultOrBuilder getAvatarResultOrBuilder();
+    emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResultOrBuilder getAvatarResultOrBuilder();
 
     /**
      * <code>._MarkAvatarResult mark_avatar_result = 927;</code>
@@ -75,11 +75,11 @@ public final class DNHFKHHJBPLOuterClass {
      * <code>._MarkAvatarResult mark_avatar_result = 927;</code>
      * @return The markAvatarResult.
      */
-    emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult getMarkAvatarResult();
+    emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult getMarkAvatarResult();
     /**
      * <code>._MarkAvatarResult mark_avatar_result = 927;</code>
      */
-    emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResultOrBuilder getMarkAvatarResultOrBuilder();
+    emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResultOrBuilder getMarkAvatarResultOrBuilder();
 
     /**
      * <code>._AvatarAvailableCountResult avatar_available_count_result = 1533;</code>
@@ -90,11 +90,11 @@ public final class DNHFKHHJBPLOuterClass {
      * <code>._AvatarAvailableCountResult avatar_available_count_result = 1533;</code>
      * @return The avatarAvailableCountResult.
      */
-    emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult getAvatarAvailableCountResult();
+    emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult getAvatarAvailableCountResult();
     /**
      * <code>._AvatarAvailableCountResult avatar_available_count_result = 1533;</code>
      */
-    emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResultOrBuilder getAvatarAvailableCountResultOrBuilder();
+    emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResultOrBuilder getAvatarAvailableCountResultOrBuilder();
 
     /**
      * <code>._CardResult card_result = 1904;</code>
@@ -105,11 +105,11 @@ public final class DNHFKHHJBPLOuterClass {
      * <code>._CardResult card_result = 1904;</code>
      * @return The cardResult.
      */
-    emu.grasscutter.net.proto.CardResult._CardResult getCardResult();
+    emu.grasscutter.net.proto._CardResultOuterClass._CardResult getCardResult();
     /**
      * <code>._CardResult card_result = 1904;</code>
      */
-    emu.grasscutter.net.proto.CardResult._CardResultOrBuilder getCardResultOrBuilder();
+    emu.grasscutter.net.proto._CardResultOuterClass._CardResultOrBuilder getCardResultOrBuilder();
 
     public emu.grasscutter.net.proto.DNHFKHHJBPLOuterClass.DNHFKHHJBPL.DetailCase getDetailCase();
   }
@@ -174,70 +174,70 @@ public final class DNHFKHHJBPLOuterClass {
               break;
             }
             case 5818: {
-              emu.grasscutter.net.proto.CoinResult._CoinResult.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult.Builder subBuilder = null;
               if (detailCase_ == 727) {
-                subBuilder = ((emu.grasscutter.net.proto.CoinResult._CoinResult) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.CoinResult._CoinResult.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.CoinResult._CoinResult) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 727;
               break;
             }
             case 6338: {
-              emu.grasscutter.net.proto.AvatarResult._AvatarResult.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult.Builder subBuilder = null;
               if (detailCase_ == 792) {
-                subBuilder = ((emu.grasscutter.net.proto.AvatarResult._AvatarResult) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.AvatarResult._AvatarResult.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AvatarResult._AvatarResult) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 792;
               break;
             }
             case 7418: {
-              emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult.Builder subBuilder = null;
+              emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult.Builder subBuilder = null;
               if (detailCase_ == 927) {
-                subBuilder = ((emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 927;
               break;
             }
             case 12266: {
-              emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult.Builder subBuilder = null;
               if (detailCase_ == 1533) {
-                subBuilder = ((emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1533;
               break;
             }
             case 15234: {
-              emu.grasscutter.net.proto.CardResult._CardResult.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CardResultOuterClass._CardResult.Builder subBuilder = null;
               if (detailCase_ == 1904) {
-                subBuilder = ((emu.grasscutter.net.proto.CardResult._CardResult) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._CardResultOuterClass._CardResult) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.CardResult._CardResult.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._CardResultOuterClass._CardResult.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.CardResult._CardResult) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._CardResultOuterClass._CardResult) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1904;
@@ -369,21 +369,21 @@ public final class DNHFKHHJBPLOuterClass {
      * @return The coinResult.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CoinResult._CoinResult getCoinResult() {
+    public emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult getCoinResult() {
       if (detailCase_ == 727) {
-         return (emu.grasscutter.net.proto.CoinResult._CoinResult) detail_;
+         return (emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult) detail_;
       }
-      return emu.grasscutter.net.proto.CoinResult._CoinResult.getDefaultInstance();
+      return emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult.getDefaultInstance();
     }
     /**
      * <code>._CoinResult coin_result = 727;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CoinResult._CoinResultOrBuilder getCoinResultOrBuilder() {
+    public emu.grasscutter.net.proto._CoinResultOuterClass._CoinResultOrBuilder getCoinResultOrBuilder() {
       if (detailCase_ == 727) {
-         return (emu.grasscutter.net.proto.CoinResult._CoinResult) detail_;
+         return (emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult) detail_;
       }
-      return emu.grasscutter.net.proto.CoinResult._CoinResult.getDefaultInstance();
+      return emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult.getDefaultInstance();
     }
 
     public static final int AVATAR_RESULT_FIELD_NUMBER = 792;
@@ -400,21 +400,21 @@ public final class DNHFKHHJBPLOuterClass {
      * @return The avatarResult.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AvatarResult._AvatarResult getAvatarResult() {
+    public emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult getAvatarResult() {
       if (detailCase_ == 792) {
-         return (emu.grasscutter.net.proto.AvatarResult._AvatarResult) detail_;
+         return (emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult) detail_;
       }
-      return emu.grasscutter.net.proto.AvatarResult._AvatarResult.getDefaultInstance();
+      return emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult.getDefaultInstance();
     }
     /**
      * <code>._AvatarResult avatar_result = 792;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AvatarResult._AvatarResultOrBuilder getAvatarResultOrBuilder() {
+    public emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResultOrBuilder getAvatarResultOrBuilder() {
       if (detailCase_ == 792) {
-         return (emu.grasscutter.net.proto.AvatarResult._AvatarResult) detail_;
+         return (emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult) detail_;
       }
-      return emu.grasscutter.net.proto.AvatarResult._AvatarResult.getDefaultInstance();
+      return emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult.getDefaultInstance();
     }
 
     public static final int MARK_AVATAR_RESULT_FIELD_NUMBER = 927;
@@ -431,21 +431,21 @@ public final class DNHFKHHJBPLOuterClass {
      * @return The markAvatarResult.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult getMarkAvatarResult() {
+    public emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult getMarkAvatarResult() {
       if (detailCase_ == 927) {
-         return (emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult) detail_;
+         return (emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult) detail_;
       }
-      return emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult.getDefaultInstance();
+      return emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult.getDefaultInstance();
     }
     /**
      * <code>._MarkAvatarResult mark_avatar_result = 927;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResultOrBuilder getMarkAvatarResultOrBuilder() {
+    public emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResultOrBuilder getMarkAvatarResultOrBuilder() {
       if (detailCase_ == 927) {
-         return (emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult) detail_;
+         return (emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult) detail_;
       }
-      return emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult.getDefaultInstance();
+      return emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult.getDefaultInstance();
     }
 
     public static final int AVATAR_AVAILABLE_COUNT_RESULT_FIELD_NUMBER = 1533;
@@ -462,21 +462,21 @@ public final class DNHFKHHJBPLOuterClass {
      * @return The avatarAvailableCountResult.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult getAvatarAvailableCountResult() {
+    public emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult getAvatarAvailableCountResult() {
       if (detailCase_ == 1533) {
-         return (emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult) detail_;
+         return (emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult) detail_;
       }
-      return emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult.getDefaultInstance();
+      return emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult.getDefaultInstance();
     }
     /**
      * <code>._AvatarAvailableCountResult avatar_available_count_result = 1533;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResultOrBuilder getAvatarAvailableCountResultOrBuilder() {
+    public emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResultOrBuilder getAvatarAvailableCountResultOrBuilder() {
       if (detailCase_ == 1533) {
-         return (emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult) detail_;
+         return (emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult) detail_;
       }
-      return emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult.getDefaultInstance();
+      return emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult.getDefaultInstance();
     }
 
     public static final int CARD_RESULT_FIELD_NUMBER = 1904;
@@ -493,21 +493,21 @@ public final class DNHFKHHJBPLOuterClass {
      * @return The cardResult.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CardResult._CardResult getCardResult() {
+    public emu.grasscutter.net.proto._CardResultOuterClass._CardResult getCardResult() {
       if (detailCase_ == 1904) {
-         return (emu.grasscutter.net.proto.CardResult._CardResult) detail_;
+         return (emu.grasscutter.net.proto._CardResultOuterClass._CardResult) detail_;
       }
-      return emu.grasscutter.net.proto.CardResult._CardResult.getDefaultInstance();
+      return emu.grasscutter.net.proto._CardResultOuterClass._CardResult.getDefaultInstance();
     }
     /**
      * <code>._CardResult card_result = 1904;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CardResult._CardResultOrBuilder getCardResultOrBuilder() {
+    public emu.grasscutter.net.proto._CardResultOuterClass._CardResultOrBuilder getCardResultOrBuilder() {
       if (detailCase_ == 1904) {
-         return (emu.grasscutter.net.proto.CardResult._CardResult) detail_;
+         return (emu.grasscutter.net.proto._CardResultOuterClass._CardResult) detail_;
       }
-      return emu.grasscutter.net.proto.CardResult._CardResult.getDefaultInstance();
+      return emu.grasscutter.net.proto._CardResultOuterClass._CardResult.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -534,19 +534,19 @@ public final class DNHFKHHJBPLOuterClass {
         output.writeBool(11, isAdd_);
       }
       if (detailCase_ == 727) {
-        output.writeMessage(727, (emu.grasscutter.net.proto.CoinResult._CoinResult) detail_);
+        output.writeMessage(727, (emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult) detail_);
       }
       if (detailCase_ == 792) {
-        output.writeMessage(792, (emu.grasscutter.net.proto.AvatarResult._AvatarResult) detail_);
+        output.writeMessage(792, (emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult) detail_);
       }
       if (detailCase_ == 927) {
-        output.writeMessage(927, (emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult) detail_);
+        output.writeMessage(927, (emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult) detail_);
       }
       if (detailCase_ == 1533) {
-        output.writeMessage(1533, (emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult) detail_);
+        output.writeMessage(1533, (emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult) detail_);
       }
       if (detailCase_ == 1904) {
-        output.writeMessage(1904, (emu.grasscutter.net.proto.CardResult._CardResult) detail_);
+        output.writeMessage(1904, (emu.grasscutter.net.proto._CardResultOuterClass._CardResult) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -571,23 +571,23 @@ public final class DNHFKHHJBPLOuterClass {
       }
       if (detailCase_ == 727) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(727, (emu.grasscutter.net.proto.CoinResult._CoinResult) detail_);
+          .computeMessageSize(727, (emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult) detail_);
       }
       if (detailCase_ == 792) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(792, (emu.grasscutter.net.proto.AvatarResult._AvatarResult) detail_);
+          .computeMessageSize(792, (emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult) detail_);
       }
       if (detailCase_ == 927) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(927, (emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult) detail_);
+          .computeMessageSize(927, (emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult) detail_);
       }
       if (detailCase_ == 1533) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1533, (emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult) detail_);
+          .computeMessageSize(1533, (emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult) detail_);
       }
       if (detailCase_ == 1904) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1904, (emu.grasscutter.net.proto.CardResult._CardResult) detail_);
+          .computeMessageSize(1904, (emu.grasscutter.net.proto._CardResultOuterClass._CardResult) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1103,7 +1103,7 @@ public final class DNHFKHHJBPLOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CoinResult._CoinResult, emu.grasscutter.net.proto.CoinResult._CoinResult.Builder, emu.grasscutter.net.proto.CoinResult._CoinResultOrBuilder> coinResultBuilder_;
+          emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult, emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult.Builder, emu.grasscutter.net.proto._CoinResultOuterClass._CoinResultOrBuilder> coinResultBuilder_;
       /**
        * <code>._CoinResult coin_result = 727;</code>
        * @return Whether the coinResult field is set.
@@ -1117,23 +1117,23 @@ public final class DNHFKHHJBPLOuterClass {
        * @return The coinResult.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CoinResult._CoinResult getCoinResult() {
+      public emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult getCoinResult() {
         if (coinResultBuilder_ == null) {
           if (detailCase_ == 727) {
-            return (emu.grasscutter.net.proto.CoinResult._CoinResult) detail_;
+            return (emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult) detail_;
           }
-          return emu.grasscutter.net.proto.CoinResult._CoinResult.getDefaultInstance();
+          return emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult.getDefaultInstance();
         } else {
           if (detailCase_ == 727) {
             return coinResultBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.CoinResult._CoinResult.getDefaultInstance();
+          return emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult.getDefaultInstance();
         }
       }
       /**
        * <code>._CoinResult coin_result = 727;</code>
        */
-      public Builder setCoinResult(emu.grasscutter.net.proto.CoinResult._CoinResult value) {
+      public Builder setCoinResult(emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult value) {
         if (coinResultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1150,7 +1150,7 @@ public final class DNHFKHHJBPLOuterClass {
        * <code>._CoinResult coin_result = 727;</code>
        */
       public Builder setCoinResult(
-          emu.grasscutter.net.proto.CoinResult._CoinResult.Builder builderForValue) {
+          emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult.Builder builderForValue) {
         if (coinResultBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1163,11 +1163,11 @@ public final class DNHFKHHJBPLOuterClass {
       /**
        * <code>._CoinResult coin_result = 727;</code>
        */
-      public Builder mergeCoinResult(emu.grasscutter.net.proto.CoinResult._CoinResult value) {
+      public Builder mergeCoinResult(emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult value) {
         if (coinResultBuilder_ == null) {
           if (detailCase_ == 727 &&
-              detail_ != emu.grasscutter.net.proto.CoinResult._CoinResult.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.CoinResult._CoinResult.newBuilder((emu.grasscutter.net.proto.CoinResult._CoinResult) detail_)
+              detail_ != emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult.newBuilder((emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1204,36 +1204,36 @@ public final class DNHFKHHJBPLOuterClass {
       /**
        * <code>._CoinResult coin_result = 727;</code>
        */
-      public emu.grasscutter.net.proto.CoinResult._CoinResult.Builder getCoinResultBuilder() {
+      public emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult.Builder getCoinResultBuilder() {
         return getCoinResultFieldBuilder().getBuilder();
       }
       /**
        * <code>._CoinResult coin_result = 727;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CoinResult._CoinResultOrBuilder getCoinResultOrBuilder() {
+      public emu.grasscutter.net.proto._CoinResultOuterClass._CoinResultOrBuilder getCoinResultOrBuilder() {
         if ((detailCase_ == 727) && (coinResultBuilder_ != null)) {
           return coinResultBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 727) {
-            return (emu.grasscutter.net.proto.CoinResult._CoinResult) detail_;
+            return (emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult) detail_;
           }
-          return emu.grasscutter.net.proto.CoinResult._CoinResult.getDefaultInstance();
+          return emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult.getDefaultInstance();
         }
       }
       /**
        * <code>._CoinResult coin_result = 727;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CoinResult._CoinResult, emu.grasscutter.net.proto.CoinResult._CoinResult.Builder, emu.grasscutter.net.proto.CoinResult._CoinResultOrBuilder> 
+          emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult, emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult.Builder, emu.grasscutter.net.proto._CoinResultOuterClass._CoinResultOrBuilder> 
           getCoinResultFieldBuilder() {
         if (coinResultBuilder_ == null) {
           if (!(detailCase_ == 727)) {
-            detail_ = emu.grasscutter.net.proto.CoinResult._CoinResult.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult.getDefaultInstance();
           }
           coinResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CoinResult._CoinResult, emu.grasscutter.net.proto.CoinResult._CoinResult.Builder, emu.grasscutter.net.proto.CoinResult._CoinResultOrBuilder>(
-                  (emu.grasscutter.net.proto.CoinResult._CoinResult) detail_,
+              emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult, emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult.Builder, emu.grasscutter.net.proto._CoinResultOuterClass._CoinResultOrBuilder>(
+                  (emu.grasscutter.net.proto._CoinResultOuterClass._CoinResult) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1244,7 +1244,7 @@ public final class DNHFKHHJBPLOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AvatarResult._AvatarResult, emu.grasscutter.net.proto.AvatarResult._AvatarResult.Builder, emu.grasscutter.net.proto.AvatarResult._AvatarResultOrBuilder> avatarResultBuilder_;
+          emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult, emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult.Builder, emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResultOrBuilder> avatarResultBuilder_;
       /**
        * <code>._AvatarResult avatar_result = 792;</code>
        * @return Whether the avatarResult field is set.
@@ -1258,23 +1258,23 @@ public final class DNHFKHHJBPLOuterClass {
        * @return The avatarResult.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AvatarResult._AvatarResult getAvatarResult() {
+      public emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult getAvatarResult() {
         if (avatarResultBuilder_ == null) {
           if (detailCase_ == 792) {
-            return (emu.grasscutter.net.proto.AvatarResult._AvatarResult) detail_;
+            return (emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult) detail_;
           }
-          return emu.grasscutter.net.proto.AvatarResult._AvatarResult.getDefaultInstance();
+          return emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult.getDefaultInstance();
         } else {
           if (detailCase_ == 792) {
             return avatarResultBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AvatarResult._AvatarResult.getDefaultInstance();
+          return emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult.getDefaultInstance();
         }
       }
       /**
        * <code>._AvatarResult avatar_result = 792;</code>
        */
-      public Builder setAvatarResult(emu.grasscutter.net.proto.AvatarResult._AvatarResult value) {
+      public Builder setAvatarResult(emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult value) {
         if (avatarResultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1291,7 +1291,7 @@ public final class DNHFKHHJBPLOuterClass {
        * <code>._AvatarResult avatar_result = 792;</code>
        */
       public Builder setAvatarResult(
-          emu.grasscutter.net.proto.AvatarResult._AvatarResult.Builder builderForValue) {
+          emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult.Builder builderForValue) {
         if (avatarResultBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1304,11 +1304,11 @@ public final class DNHFKHHJBPLOuterClass {
       /**
        * <code>._AvatarResult avatar_result = 792;</code>
        */
-      public Builder mergeAvatarResult(emu.grasscutter.net.proto.AvatarResult._AvatarResult value) {
+      public Builder mergeAvatarResult(emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult value) {
         if (avatarResultBuilder_ == null) {
           if (detailCase_ == 792 &&
-              detail_ != emu.grasscutter.net.proto.AvatarResult._AvatarResult.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.AvatarResult._AvatarResult.newBuilder((emu.grasscutter.net.proto.AvatarResult._AvatarResult) detail_)
+              detail_ != emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult.newBuilder((emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1345,36 +1345,36 @@ public final class DNHFKHHJBPLOuterClass {
       /**
        * <code>._AvatarResult avatar_result = 792;</code>
        */
-      public emu.grasscutter.net.proto.AvatarResult._AvatarResult.Builder getAvatarResultBuilder() {
+      public emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult.Builder getAvatarResultBuilder() {
         return getAvatarResultFieldBuilder().getBuilder();
       }
       /**
        * <code>._AvatarResult avatar_result = 792;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AvatarResult._AvatarResultOrBuilder getAvatarResultOrBuilder() {
+      public emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResultOrBuilder getAvatarResultOrBuilder() {
         if ((detailCase_ == 792) && (avatarResultBuilder_ != null)) {
           return avatarResultBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 792) {
-            return (emu.grasscutter.net.proto.AvatarResult._AvatarResult) detail_;
+            return (emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult) detail_;
           }
-          return emu.grasscutter.net.proto.AvatarResult._AvatarResult.getDefaultInstance();
+          return emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult.getDefaultInstance();
         }
       }
       /**
        * <code>._AvatarResult avatar_result = 792;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AvatarResult._AvatarResult, emu.grasscutter.net.proto.AvatarResult._AvatarResult.Builder, emu.grasscutter.net.proto.AvatarResult._AvatarResultOrBuilder> 
+          emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult, emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult.Builder, emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResultOrBuilder> 
           getAvatarResultFieldBuilder() {
         if (avatarResultBuilder_ == null) {
           if (!(detailCase_ == 792)) {
-            detail_ = emu.grasscutter.net.proto.AvatarResult._AvatarResult.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult.getDefaultInstance();
           }
           avatarResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AvatarResult._AvatarResult, emu.grasscutter.net.proto.AvatarResult._AvatarResult.Builder, emu.grasscutter.net.proto.AvatarResult._AvatarResultOrBuilder>(
-                  (emu.grasscutter.net.proto.AvatarResult._AvatarResult) detail_,
+              emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult, emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult.Builder, emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResultOrBuilder>(
+                  (emu.grasscutter.net.proto._AvatarResultOuterClass._AvatarResult) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1385,7 +1385,7 @@ public final class DNHFKHHJBPLOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult, emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult.Builder, emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResultOrBuilder> markAvatarResultBuilder_;
+          emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult, emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult.Builder, emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResultOrBuilder> markAvatarResultBuilder_;
       /**
        * <code>._MarkAvatarResult mark_avatar_result = 927;</code>
        * @return Whether the markAvatarResult field is set.
@@ -1399,23 +1399,23 @@ public final class DNHFKHHJBPLOuterClass {
        * @return The markAvatarResult.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult getMarkAvatarResult() {
+      public emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult getMarkAvatarResult() {
         if (markAvatarResultBuilder_ == null) {
           if (detailCase_ == 927) {
-            return (emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult) detail_;
+            return (emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult) detail_;
           }
-          return emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult.getDefaultInstance();
+          return emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult.getDefaultInstance();
         } else {
           if (detailCase_ == 927) {
             return markAvatarResultBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult.getDefaultInstance();
+          return emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult.getDefaultInstance();
         }
       }
       /**
        * <code>._MarkAvatarResult mark_avatar_result = 927;</code>
        */
-      public Builder setMarkAvatarResult(emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult value) {
+      public Builder setMarkAvatarResult(emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult value) {
         if (markAvatarResultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1432,7 +1432,7 @@ public final class DNHFKHHJBPLOuterClass {
        * <code>._MarkAvatarResult mark_avatar_result = 927;</code>
        */
       public Builder setMarkAvatarResult(
-          emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult.Builder builderForValue) {
+          emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult.Builder builderForValue) {
         if (markAvatarResultBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1445,11 +1445,11 @@ public final class DNHFKHHJBPLOuterClass {
       /**
        * <code>._MarkAvatarResult mark_avatar_result = 927;</code>
        */
-      public Builder mergeMarkAvatarResult(emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult value) {
+      public Builder mergeMarkAvatarResult(emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult value) {
         if (markAvatarResultBuilder_ == null) {
           if (detailCase_ == 927 &&
-              detail_ != emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult.newBuilder((emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult) detail_)
+              detail_ != emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult.newBuilder((emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1486,36 +1486,36 @@ public final class DNHFKHHJBPLOuterClass {
       /**
        * <code>._MarkAvatarResult mark_avatar_result = 927;</code>
        */
-      public emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult.Builder getMarkAvatarResultBuilder() {
+      public emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult.Builder getMarkAvatarResultBuilder() {
         return getMarkAvatarResultFieldBuilder().getBuilder();
       }
       /**
        * <code>._MarkAvatarResult mark_avatar_result = 927;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResultOrBuilder getMarkAvatarResultOrBuilder() {
+      public emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResultOrBuilder getMarkAvatarResultOrBuilder() {
         if ((detailCase_ == 927) && (markAvatarResultBuilder_ != null)) {
           return markAvatarResultBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 927) {
-            return (emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult) detail_;
+            return (emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult) detail_;
           }
-          return emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult.getDefaultInstance();
+          return emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult.getDefaultInstance();
         }
       }
       /**
        * <code>._MarkAvatarResult mark_avatar_result = 927;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult, emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult.Builder, emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResultOrBuilder> 
+          emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult, emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult.Builder, emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResultOrBuilder> 
           getMarkAvatarResultFieldBuilder() {
         if (markAvatarResultBuilder_ == null) {
           if (!(detailCase_ == 927)) {
-            detail_ = emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult.getDefaultInstance();
           }
           markAvatarResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult, emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult.Builder, emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResultOrBuilder>(
-                  (emu.grasscutter.net.proto.MarkAvatarResult._MarkAvatarResult) detail_,
+              emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult, emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult.Builder, emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResultOrBuilder>(
+                  (emu.grasscutter.net.proto._MarkAvatarResultOuterClass._MarkAvatarResult) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1526,7 +1526,7 @@ public final class DNHFKHHJBPLOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult, emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult.Builder, emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResultOrBuilder> avatarAvailableCountResultBuilder_;
+          emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult, emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult.Builder, emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResultOrBuilder> avatarAvailableCountResultBuilder_;
       /**
        * <code>._AvatarAvailableCountResult avatar_available_count_result = 1533;</code>
        * @return Whether the avatarAvailableCountResult field is set.
@@ -1540,23 +1540,23 @@ public final class DNHFKHHJBPLOuterClass {
        * @return The avatarAvailableCountResult.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult getAvatarAvailableCountResult() {
+      public emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult getAvatarAvailableCountResult() {
         if (avatarAvailableCountResultBuilder_ == null) {
           if (detailCase_ == 1533) {
-            return (emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult) detail_;
+            return (emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult) detail_;
           }
-          return emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult.getDefaultInstance();
+          return emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult.getDefaultInstance();
         } else {
           if (detailCase_ == 1533) {
             return avatarAvailableCountResultBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult.getDefaultInstance();
+          return emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult.getDefaultInstance();
         }
       }
       /**
        * <code>._AvatarAvailableCountResult avatar_available_count_result = 1533;</code>
        */
-      public Builder setAvatarAvailableCountResult(emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult value) {
+      public Builder setAvatarAvailableCountResult(emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult value) {
         if (avatarAvailableCountResultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1573,7 +1573,7 @@ public final class DNHFKHHJBPLOuterClass {
        * <code>._AvatarAvailableCountResult avatar_available_count_result = 1533;</code>
        */
       public Builder setAvatarAvailableCountResult(
-          emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult.Builder builderForValue) {
+          emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult.Builder builderForValue) {
         if (avatarAvailableCountResultBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1586,11 +1586,11 @@ public final class DNHFKHHJBPLOuterClass {
       /**
        * <code>._AvatarAvailableCountResult avatar_available_count_result = 1533;</code>
        */
-      public Builder mergeAvatarAvailableCountResult(emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult value) {
+      public Builder mergeAvatarAvailableCountResult(emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult value) {
         if (avatarAvailableCountResultBuilder_ == null) {
           if (detailCase_ == 1533 &&
-              detail_ != emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult.newBuilder((emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult) detail_)
+              detail_ != emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult.newBuilder((emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1627,36 +1627,36 @@ public final class DNHFKHHJBPLOuterClass {
       /**
        * <code>._AvatarAvailableCountResult avatar_available_count_result = 1533;</code>
        */
-      public emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult.Builder getAvatarAvailableCountResultBuilder() {
+      public emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult.Builder getAvatarAvailableCountResultBuilder() {
         return getAvatarAvailableCountResultFieldBuilder().getBuilder();
       }
       /**
        * <code>._AvatarAvailableCountResult avatar_available_count_result = 1533;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResultOrBuilder getAvatarAvailableCountResultOrBuilder() {
+      public emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResultOrBuilder getAvatarAvailableCountResultOrBuilder() {
         if ((detailCase_ == 1533) && (avatarAvailableCountResultBuilder_ != null)) {
           return avatarAvailableCountResultBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1533) {
-            return (emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult) detail_;
+            return (emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult) detail_;
           }
-          return emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult.getDefaultInstance();
+          return emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult.getDefaultInstance();
         }
       }
       /**
        * <code>._AvatarAvailableCountResult avatar_available_count_result = 1533;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult, emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult.Builder, emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResultOrBuilder> 
+          emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult, emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult.Builder, emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResultOrBuilder> 
           getAvatarAvailableCountResultFieldBuilder() {
         if (avatarAvailableCountResultBuilder_ == null) {
           if (!(detailCase_ == 1533)) {
-            detail_ = emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult.getDefaultInstance();
           }
           avatarAvailableCountResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult, emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult.Builder, emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResultOrBuilder>(
-                  (emu.grasscutter.net.proto.AvatarAvailableCountResult._AvatarAvailableCountResult) detail_,
+              emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult, emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult.Builder, emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResultOrBuilder>(
+                  (emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass._AvatarAvailableCountResult) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1667,7 +1667,7 @@ public final class DNHFKHHJBPLOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CardResult._CardResult, emu.grasscutter.net.proto.CardResult._CardResult.Builder, emu.grasscutter.net.proto.CardResult._CardResultOrBuilder> cardResultBuilder_;
+          emu.grasscutter.net.proto._CardResultOuterClass._CardResult, emu.grasscutter.net.proto._CardResultOuterClass._CardResult.Builder, emu.grasscutter.net.proto._CardResultOuterClass._CardResultOrBuilder> cardResultBuilder_;
       /**
        * <code>._CardResult card_result = 1904;</code>
        * @return Whether the cardResult field is set.
@@ -1681,23 +1681,23 @@ public final class DNHFKHHJBPLOuterClass {
        * @return The cardResult.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CardResult._CardResult getCardResult() {
+      public emu.grasscutter.net.proto._CardResultOuterClass._CardResult getCardResult() {
         if (cardResultBuilder_ == null) {
           if (detailCase_ == 1904) {
-            return (emu.grasscutter.net.proto.CardResult._CardResult) detail_;
+            return (emu.grasscutter.net.proto._CardResultOuterClass._CardResult) detail_;
           }
-          return emu.grasscutter.net.proto.CardResult._CardResult.getDefaultInstance();
+          return emu.grasscutter.net.proto._CardResultOuterClass._CardResult.getDefaultInstance();
         } else {
           if (detailCase_ == 1904) {
             return cardResultBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.CardResult._CardResult.getDefaultInstance();
+          return emu.grasscutter.net.proto._CardResultOuterClass._CardResult.getDefaultInstance();
         }
       }
       /**
        * <code>._CardResult card_result = 1904;</code>
        */
-      public Builder setCardResult(emu.grasscutter.net.proto.CardResult._CardResult value) {
+      public Builder setCardResult(emu.grasscutter.net.proto._CardResultOuterClass._CardResult value) {
         if (cardResultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1714,7 +1714,7 @@ public final class DNHFKHHJBPLOuterClass {
        * <code>._CardResult card_result = 1904;</code>
        */
       public Builder setCardResult(
-          emu.grasscutter.net.proto.CardResult._CardResult.Builder builderForValue) {
+          emu.grasscutter.net.proto._CardResultOuterClass._CardResult.Builder builderForValue) {
         if (cardResultBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1727,11 +1727,11 @@ public final class DNHFKHHJBPLOuterClass {
       /**
        * <code>._CardResult card_result = 1904;</code>
        */
-      public Builder mergeCardResult(emu.grasscutter.net.proto.CardResult._CardResult value) {
+      public Builder mergeCardResult(emu.grasscutter.net.proto._CardResultOuterClass._CardResult value) {
         if (cardResultBuilder_ == null) {
           if (detailCase_ == 1904 &&
-              detail_ != emu.grasscutter.net.proto.CardResult._CardResult.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.CardResult._CardResult.newBuilder((emu.grasscutter.net.proto.CardResult._CardResult) detail_)
+              detail_ != emu.grasscutter.net.proto._CardResultOuterClass._CardResult.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._CardResultOuterClass._CardResult.newBuilder((emu.grasscutter.net.proto._CardResultOuterClass._CardResult) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1768,36 +1768,36 @@ public final class DNHFKHHJBPLOuterClass {
       /**
        * <code>._CardResult card_result = 1904;</code>
        */
-      public emu.grasscutter.net.proto.CardResult._CardResult.Builder getCardResultBuilder() {
+      public emu.grasscutter.net.proto._CardResultOuterClass._CardResult.Builder getCardResultBuilder() {
         return getCardResultFieldBuilder().getBuilder();
       }
       /**
        * <code>._CardResult card_result = 1904;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CardResult._CardResultOrBuilder getCardResultOrBuilder() {
+      public emu.grasscutter.net.proto._CardResultOuterClass._CardResultOrBuilder getCardResultOrBuilder() {
         if ((detailCase_ == 1904) && (cardResultBuilder_ != null)) {
           return cardResultBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1904) {
-            return (emu.grasscutter.net.proto.CardResult._CardResult) detail_;
+            return (emu.grasscutter.net.proto._CardResultOuterClass._CardResult) detail_;
           }
-          return emu.grasscutter.net.proto.CardResult._CardResult.getDefaultInstance();
+          return emu.grasscutter.net.proto._CardResultOuterClass._CardResult.getDefaultInstance();
         }
       }
       /**
        * <code>._CardResult card_result = 1904;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CardResult._CardResult, emu.grasscutter.net.proto.CardResult._CardResult.Builder, emu.grasscutter.net.proto.CardResult._CardResultOrBuilder> 
+          emu.grasscutter.net.proto._CardResultOuterClass._CardResult, emu.grasscutter.net.proto._CardResultOuterClass._CardResult.Builder, emu.grasscutter.net.proto._CardResultOuterClass._CardResultOrBuilder> 
           getCardResultFieldBuilder() {
         if (cardResultBuilder_ == null) {
           if (!(detailCase_ == 1904)) {
-            detail_ = emu.grasscutter.net.proto.CardResult._CardResult.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._CardResultOuterClass._CardResult.getDefaultInstance();
           }
           cardResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CardResult._CardResult, emu.grasscutter.net.proto.CardResult._CardResult.Builder, emu.grasscutter.net.proto.CardResult._CardResultOrBuilder>(
-                  (emu.grasscutter.net.proto.CardResult._CardResult) detail_,
+              emu.grasscutter.net.proto._CardResultOuterClass._CardResult, emu.grasscutter.net.proto._CardResultOuterClass._CardResult.Builder, emu.grasscutter.net.proto._CardResultOuterClass._CardResultOrBuilder>(
+                  (emu.grasscutter.net.proto._CardResultOuterClass._CardResult) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1884,17 +1884,18 @@ public final class DNHFKHHJBPLOuterClass {
       "\0132\022._MarkAvatarResultH\000\022F\n\035avatar_availa" +
       "ble_count_result\030\375\013 \001(\0132\034._AvatarAvailab" +
       "leCountResultH\000\022$\n\013card_result\030\360\016 \001(\0132\014." +
-      "_CardResultH\000B\010\n\006detailB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "_CardResultH\000B\010\n\006detailB2\n\031emu.grasscutt" +
+      "er.net.protoB\025DNHFKHHJBPLOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.AvatarAvailableCountResult.getDescriptor(),
-          emu.grasscutter.net.proto.AvatarResult.getDescriptor(),
-          emu.grasscutter.net.proto.CardResult.getDescriptor(),
-          emu.grasscutter.net.proto.CoinResult.getDescriptor(),
-          emu.grasscutter.net.proto.MarkAvatarResult.getDescriptor(),
+          emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._AvatarResultOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._CardResultOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._CoinResultOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._MarkAvatarResultOuterClass.getDescriptor(),
         });
     internal_static_DNHFKHHJBPL_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1902,11 +1903,11 @@ public final class DNHFKHHJBPLOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DNHFKHHJBPL_descriptor,
         new java.lang.String[] { "EHBKOHIHCOK", "NCEDGGBOMOA", "IsAdd", "CoinResult", "AvatarResult", "MarkAvatarResult", "AvatarAvailableCountResult", "CardResult", "Detail", });
-    emu.grasscutter.net.proto.AvatarAvailableCountResult.getDescriptor();
-    emu.grasscutter.net.proto.AvatarResult.getDescriptor();
-    emu.grasscutter.net.proto.CardResult.getDescriptor();
-    emu.grasscutter.net.proto.CoinResult.getDescriptor();
-    emu.grasscutter.net.proto.MarkAvatarResult.getDescriptor();
+    emu.grasscutter.net.proto._AvatarAvailableCountResultOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._AvatarResultOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._CardResultOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._CoinResultOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._MarkAvatarResultOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

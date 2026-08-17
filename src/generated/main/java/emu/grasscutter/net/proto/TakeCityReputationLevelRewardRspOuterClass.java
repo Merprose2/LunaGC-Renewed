@@ -1043,8 +1043,9 @@ public final class TakeCityReputationLevelRewardRspOuterClass {
       "\032\017ItemParam.proto\"r\n TakeCityReputationL" +
       "evelRewardRsp\022\035\n\titem_list\030\004 \003(\0132\n.ItemP" +
       "aram\022\017\n\007city_id\030\006 \001(\r\022\r\n\005level\030\013 \001(\r\022\017\n\007" +
-      "retcode\030\017 \001(\005B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "retcode\030\017 \001(\005BG\n\031emu.grasscutter.net.pro" +
+      "toB*TakeCityReputationLevelRewardRspOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

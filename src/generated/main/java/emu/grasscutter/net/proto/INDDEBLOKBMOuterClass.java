@@ -823,8 +823,8 @@ public final class INDDEBLOKBMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021INDDEBLOKBM.proto\032\021FLHLALHGIOJ.proto\"." +
       "\n\013INDDEBLOKBM\022\037\n\tdata_list\030\005 \003(\0132\014.FLHLA" +
-      "LHGIOJB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "LHGIOJB2\n\031emu.grasscutter.net.protoB\025IND" +
+      "DEBLOKBMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

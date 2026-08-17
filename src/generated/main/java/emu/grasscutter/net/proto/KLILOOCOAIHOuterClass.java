@@ -1204,8 +1204,9 @@ public final class KLILOOCOAIHOuterClass {
       "KEDEOHMNOGI.proto\"}\n\013KLILOOCOAIH\022\023\n\013KMDO" +
       "FBPMGAI\030\001 \001(\r\022\023\n\013LPOAPIDIBMJ\030\002 \003(\r\022!\n\013LB" +
       "BHMAEIPGK\030\007 \003(\0132\014.KEDEOHMNOGI\022!\n\013IIEGIFG" +
-      "LFCE\030\014 \001(\0162\014.JEOKDCIGCFPB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "LFCE\030\014 \001(\0162\014.JEOKDCIGCFPB2\n\031emu.grasscut" +
+      "ter.net.protoB\025KLILOOCOAIHOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

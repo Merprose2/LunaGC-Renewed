@@ -588,8 +588,9 @@ public final class BJLGIGHDNJCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BJLGIGHDNJC.proto\"1\n\013BJLGIGHDNJC\022\023\n\013_k" +
-      "eyword_id\030\001 \001(\r\022\r\n\005count\030\002 \001(\004B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "eyword_id\030\001 \001(\r\022\r\n\005count\030\002 \001(\004B2\n\031emu.gr" +
+      "asscutter.net.protoB\025BJLGIGHDNJCOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

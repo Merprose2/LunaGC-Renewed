@@ -589,8 +589,9 @@ public final class VintageBoothUsedItemDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036VintageBoothUsedItemData.proto\">\n\030Vint" +
       "ageBoothUsedItemData\022\021\n\tgadget_id\030\t \001(\r\022" +
-      "\017\n\007is_open\030\r \001(\010B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\017\n\007is_open\030\r \001(\010B?\n\031emu.grasscutter.net." +
+      "protoB\"VintageBoothUsedItemDataOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

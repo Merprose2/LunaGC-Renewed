@@ -659,8 +659,8 @@ public final class NKIEJCINADJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NKIEJCINADJ.proto\032\021IDGLIDANFFF.proto\"0" +
       "\n\013NKIEJCINADJ\022!\n\013HKILFBGMOBF\030\002 \001(\0132\014.IDG" +
-      "LIDANFFFB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "LIDANFFFB2\n\031emu.grasscutter.net.protoB\025N" +
+      "KIEJCINADJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -714,8 +714,9 @@ public final class MFPFEECMMMAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MFPFEECMMMA.proto\"1\n\013MFPFEECMMMA\022\r\n\005va" +
-      "lue\030\001 \001(\005\022\023\n\013option_list\030\002 \003(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "lue\030\001 \001(\005\022\023\n\013option_list\030\002 \003(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025MFPFEECMMMAOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

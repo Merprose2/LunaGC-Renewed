@@ -596,7 +596,8 @@ public final class GCGGrowthLevelNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032GCGGrowthLevelNotify.proto\"2\n\024GCGGrowt" +
       "hLevelNotify\022\013\n\003exp\030\007 \001(\r\022\r\n\005level\030\014 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B;\n\031emu.grasscutter.net.protoB\036GCGGrowth" +
+      "LevelNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

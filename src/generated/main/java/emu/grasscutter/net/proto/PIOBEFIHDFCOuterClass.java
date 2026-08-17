@@ -1237,8 +1237,8 @@ public final class PIOBEFIHDFCOuterClass {
       "\n\013PIOBEFIHDFC\022!\n\013BCOFNPNHJCI\030\003 \003(\0132\014.AON" +
       "PAENJADL\022\021\n\tsource_id\030\013 \001(\r\022\017\n\007retcode\030\014" +
       " \001(\005\022\023\n\013NKAGPHANCIG\030\016 \003(\r\022\023\n\013GGFDPBBLGEK" +
-      "\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025PIO" +
+      "BEFIHDFCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

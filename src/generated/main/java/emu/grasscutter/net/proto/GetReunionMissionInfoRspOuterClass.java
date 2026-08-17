@@ -730,8 +730,9 @@ public final class GetReunionMissionInfoRspOuterClass {
       "\n\036GetReunionMissionInfoRsp.proto\032\030Reunio" +
       "nMissionInfo.proto\"V\n\030GetReunionMissionI" +
       "nfoRsp\022)\n\014mission_info\030\003 \001(\0132\023.ReunionMi" +
-      "ssionInfo\022\017\n\007retcode\030\006 \001(\005B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "ssionInfo\022\017\n\007retcode\030\006 \001(\005B?\n\031emu.grassc" +
+      "utter.net.protoB\"GetReunionMissionInfoRs" +
+      "pOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

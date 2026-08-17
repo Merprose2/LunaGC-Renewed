@@ -1352,8 +1352,8 @@ public final class EALPODFABFFOuterClass {
       "\001\n\013EALPODFABFF\022\023\n\013IDBAEDDIAGI\030\001 \001(\r\022!\n\013L" +
       "ABCKNEKCBL\030\004 \003(\0132\014.NNOLNLHNOIO\022\023\n\013ALAKKG" +
       "OILIC\030\n \001(\r\022\023\n\013NLGFFMHMMIC\030\014 \003(\r\022\023\n\013EJEM" +
-      "PPNGHJF\030\r \003(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "PPNGHJF\030\r \003(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025EALPODFABFFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

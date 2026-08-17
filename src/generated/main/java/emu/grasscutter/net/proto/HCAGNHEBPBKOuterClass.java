@@ -859,8 +859,9 @@ public final class HCAGNHEBPBKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HCAGNHEBPBK.proto\"a\n\013HCAGNHEBPBK\022\023\n\013LN" +
       "JGNNMPGNK\030\001 \001(\002\022\023\n\013KNIMBNHPEIF\030\002 \001(\r\022\023\n\013" +
-      "FMJGLOGCHKF\030\003 \003(\r\022\023\n\013LHDOOHNKAGJ\030\004 \001(\002B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "FMJGLOGCHKF\030\003 \003(\r\022\023\n\013LHDOOHNKAGJ\030\004 \001(\002B2" +
+      "\n\031emu.grasscutter.net.protoB\025HCAGNHEBPBK" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -942,8 +942,9 @@ public final class BJENMCKOHLBOuterClass {
       "\n\021BJENMCKOHLB.proto\032\021JMBPOAGEPCL.proto\"o" +
       "\n\013BJENMCKOHLB\022\023\n\013HEHPBOHJINA\030\001 \001(\r\022!\n\013CD" +
       "KNGAEHLMM\030\002 \001(\0132\014.JMBPOAGEPCL\022\023\n\013IMABMMK" +
-      "DKMM\030\003 \001(\r\022\023\n\013BCHNKBKIBGB\030\004 \001(\tB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "DKMM\030\003 \001(\r\022\023\n\013BCHNKBKIBGB\030\004 \001(\tB2\n\031emu.g" +
+      "rasscutter.net.protoB\025BJENMCKOHLBOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

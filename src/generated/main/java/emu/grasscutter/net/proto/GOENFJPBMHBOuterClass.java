@@ -875,8 +875,8 @@ public final class GOENFJPBMHBOuterClass {
       "HIIGEFEJ\030\001 \001(\r\022\023\n\013MLJNBOOLHLI\030\002 \001(\r\022\023\n\013F" +
       "GGOEABBELE\030\003 \001(\r\022!\n\013MDEADFLPABO\030\004 \001(\0162\014." +
       "FBPJIAJLHFF\022!\n\013EIMNGINDOPJ\030\005 \001(\0162\014.OEELI" +
-      "MGIFBGB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "MGIFBGB2\n\031emu.grasscutter.net.protoB\025GOE" +
+      "NFJPBMHBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

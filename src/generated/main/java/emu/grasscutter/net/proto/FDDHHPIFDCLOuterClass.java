@@ -1044,7 +1044,8 @@ public final class FDDHHPIFDCLOuterClass {
       "oto\"t\n\013FDDHHPIFDCL\022\023\n\013NFHIPIEKMJJ\030\001 \001(\r\022" +
       "\023\n\013AKOFHOHOLMC\030\003 \001(\r\022\023\n\013CNNEBNEHOLK\030\004 \001(" +
       "\010\022&\n\013HGDIILKCCKP\030\r \003(\0132\021.RogueDiaryAvata" +
-      "rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "rB2\n\031emu.grasscutter.net.protoB\025FDDHHPIF" +
+      "DCLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

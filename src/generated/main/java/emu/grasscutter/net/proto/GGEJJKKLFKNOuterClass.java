@@ -596,7 +596,8 @@ public final class GGEJJKKLFKNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GGEJJKKLFKN.proto\"<\n\013GGEJJKKLFKN\022\030\n\020ga" +
       "dget_entity_id\030\003 \001(\r\022\023\n\013EPPKBLIFPOC\030\005 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB2\n\031emu.grasscutter.net.protoB\025GGEJJKKL" +
+      "FKNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

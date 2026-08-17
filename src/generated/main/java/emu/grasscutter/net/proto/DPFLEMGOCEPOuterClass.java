@@ -731,8 +731,9 @@ public final class DPFLEMGOCEPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DPFLEMGOCEP.proto\"a\n\013DPFLEMGOCEP\022\023\n\013PC" +
       "GCDDMCHJC\030\006 \001(\010\022\023\n\013CBFJLNNMONF\030\n \001(\010\022\023\n\013" +
-      "AIDDIBCKBNM\030\014 \001(\010\022\023\n\013PDBHJGNOPOO\030\016 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "AIDDIBCKBNM\030\014 \001(\010\022\023\n\013PDBHJGNOPOO\030\016 \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025DPFLEMGOCEP" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

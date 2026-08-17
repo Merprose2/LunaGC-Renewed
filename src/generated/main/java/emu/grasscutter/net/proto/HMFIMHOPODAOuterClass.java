@@ -1656,7 +1656,8 @@ public final class HMFIMHOPODAOuterClass {
       "e_time\030\010 \001(\r\022 \n\013motion_info\030\t \001(\0132\013.Moti" +
       "onInfo\022\020\n\010velocity\030\n \001(\001\022\025\n\rscene_time_m" +
       "s\030\014 \001(\005\022\023\n\013EMGIOIFLMMC\030\r \001(\004\022\r\n\005speed\030\017 " +
-      "\001(\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\002B2\n\031emu.grasscutter.net.protoB\025HMFIMH" +
+      "OPODAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

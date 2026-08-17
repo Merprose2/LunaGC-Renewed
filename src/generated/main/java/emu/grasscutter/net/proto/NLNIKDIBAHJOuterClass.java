@@ -1096,8 +1096,8 @@ public final class NLNIKDIBAHJOuterClass {
       "\n\021NLNIKDIBAHJ.proto\032\021HKNMGLPJEKM.proto\"V" +
       "\n\013NLNIKDIBAHJ\022\017\n\007retcode\030\001 \001(\005\022!\n\013BEIAPK" +
       "MIAKK\030\004 \003(\0132\014.HKNMGLPJEKM\022\023\n\013IPLHBBBNFLP" +
-      "\030\r \003(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\r \003(\rB2\n\031emu.grasscutter.net.protoB\025NLN" +
+      "IKDIBAHJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -652,8 +652,8 @@ public final class JNKOIFFKMGNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JNKOIFFKMGN.proto\"\"\n\013JNKOIFFKMGN\022\023\n\013HJ" +
-      "JHCILEGJH\030\n \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "JHCILEGJH\030\n \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025JNKOIFFKMGNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

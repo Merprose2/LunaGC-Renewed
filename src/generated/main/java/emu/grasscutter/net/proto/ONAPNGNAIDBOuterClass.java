@@ -143,7 +143,8 @@ public final class ONAPNGNAIDBOuterClass {
       "\n\021ONAPNGNAIDB.proto*b\n\013ONAPNGNAIDB\022\033\n\027ON" +
       "APNGNAIDB_UNSPECIFIED\020\000\022\033\n\027ONAPNGNAIDB_D" +
       "ETAIL_PAGE\020\001\022\031\n\025ONAPNGNAIDB_LIST_PAGE\020\002B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025ONAPNGNAID" +
+      "BOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

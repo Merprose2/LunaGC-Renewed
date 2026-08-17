@@ -526,7 +526,8 @@ public final class WinterCampGiveFriendItemReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n!WinterCampGiveFriendItemReq.proto\"*\n\033W" +
       "interCampGiveFriendItemReq\022\013\n\003uid\030\003 \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B\n\031emu.grasscutter.net.protoB%WinterCamp" +
+      "GiveFriendItemReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

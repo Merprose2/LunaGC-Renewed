@@ -1095,8 +1095,9 @@ public final class LanternRiteEndFireworksReformRspOuterClass {
       "\022\025\n\ris_new_record\030\006 \001(\010\022\025\n\ris_full_score" +
       "\030\010 \001(\010\022\017\n\007retcode\030\t \001(\005\022\023\n\013final_score\030\n" +
       " \001(\r\022\023\n\013FADMCONHNPE\030\014 \001(\010\022\020\n\010stage_id\030\016 " +
-      "\001(\r\022\023\n\013IAPJEHAHKGC\030\017 \001(\010B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\001(\r\022\023\n\013IAPJEHAHKGC\030\017 \001(\010BG\n\031emu.grasscut" +
+      "ter.net.protoB*LanternRiteEndFireworksRe" +
+      "formRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

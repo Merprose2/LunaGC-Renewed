@@ -1400,8 +1400,9 @@ public final class COEEKCLPCGKOuterClass {
       "JPLNCOKGBBG.proto\032\021PPOBOBDKPHI.proto\"v\n\013" +
       "COEEKCLPCGK\022!\n\013OPMOMHOOMAA\030\001 \003(\0132\014.HDHLL" +
       "CCCLJM\022!\n\013OFCFHPFDGLD\030\002 \001(\0132\014.PPOBOBDKPH" +
-      "I\022!\n\013ABPMPKBOINH\030\007 \003(\0132\014.JPLNCOKGBBGB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "I\022!\n\013ABPMPKBOINH\030\007 \003(\0132\014.JPLNCOKGBBGB2\n\031" +
+      "emu.grasscutter.net.protoB\025COEEKCLPCGKOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

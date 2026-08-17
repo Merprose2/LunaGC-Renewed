@@ -2025,8 +2025,9 @@ public final class NJANGIBLPBKOuterClass {
       "KKDNIG\030\001 \001(\014\022!\n\013MDPCDAHDJMG\030\003 \003(\0132\014.MKEB" +
       "INNIKDM\022!\n\013PADEKLCMDDN\030\004 \003(\0132\014.IPNBPIGKD" +
       "IJ\022!\n\013MCHHKFLHBPJ\030\006 \003(\0132\014.NOAPKEHLHBI\022!\n" +
-      "\013KBMGLOPGOHF\030\007 \003(\0132\014.ABEDJIIIEJEB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\013KBMGLOPGOHF\030\007 \003(\0132\014.ABEDJIIIEJEB2\n\031emu." +
+      "grasscutter.net.protoB\025NJANGIBLPBKOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

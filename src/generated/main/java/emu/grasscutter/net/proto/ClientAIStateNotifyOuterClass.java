@@ -666,8 +666,9 @@ public final class ClientAIStateNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031ClientAIStateNotify.proto\"Q\n\023ClientAIS" +
       "tateNotify\022\021\n\tentity_id\030\004 \001(\r\022\023\n\013EGJJNMP" +
-      "BJEG\030\013 \001(\r\022\022\n\ncur_tactic\030\016 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "BJEG\030\013 \001(\r\022\022\n\ncur_tactic\030\016 \001(\rB:\n\031emu.gr" +
+      "asscutter.net.protoB\035ClientAIStateNotify" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

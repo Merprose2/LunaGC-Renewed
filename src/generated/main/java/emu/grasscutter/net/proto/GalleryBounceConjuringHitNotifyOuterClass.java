@@ -668,8 +668,9 @@ public final class GalleryBounceConjuringHitNotifyOuterClass {
       "\n%GalleryBounceConjuringHitNotify.proto\"" +
       "\\\n\037GalleryBounceConjuringHitNotify\022\022\n\nga" +
       "llery_id\030\007 \001(\r\022\022\n\nis_perfect\030\010 \001(\010\022\021\n\tad" +
-      "d_score\030\n \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "d_score\030\n \001(\rBF\n\031emu.grasscutter.net.pro" +
+      "toB)GalleryBounceConjuringHitNotifyOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

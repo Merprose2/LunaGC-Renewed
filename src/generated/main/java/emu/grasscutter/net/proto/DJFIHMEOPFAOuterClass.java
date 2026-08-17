@@ -724,7 +724,8 @@ public final class DJFIHMEOPFAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DJFIHMEOPFA.proto\";\n\013DJFIHMEOPFA\022\027\n\017cu" +
       "r_avatar_guid\030\001 \001(\004\022\023\n\013DJCIFNHCGID\030\n \003(\004" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025DJFIHMEOP" +
+      "FAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

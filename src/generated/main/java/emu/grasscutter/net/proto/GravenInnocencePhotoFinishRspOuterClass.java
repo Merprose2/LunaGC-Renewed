@@ -667,7 +667,8 @@ public final class GravenInnocencePhotoFinishRspOuterClass {
       "\n#GravenInnocencePhotoFinishRsp.proto\"R\n" +
       "\035GravenInnocencePhotoFinishRsp\022\r\n\005param\030" +
       "\001 \001(\r\022\021\n\tobject_id\030\006 \001(\r\022\017\n\007retcode\030\r \001(" +
-      "\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\005BD\n\031emu.grasscutter.net.protoB\'GravenIn" +
+      "nocencePhotoFinishRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -652,8 +652,8 @@ public final class ELMCOCOMCICOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ELMCOCOMCIC.proto\"\"\n\013ELMCOCOMCIC\022\023\n\013AN" +
-      "CNNLIFMOA\030\r \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "CNNLIFMOA\030\r \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025ELMCOCOMCICOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

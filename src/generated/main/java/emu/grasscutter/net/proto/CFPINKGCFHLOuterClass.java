@@ -72,11 +72,11 @@ public final class CFPINKGCFHLOuterClass {
      * <code>._BeyondGachaGift beyond_gacha_gift = 812;</code>
      * @return The beyondGachaGift.
      */
-    emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift getBeyondGachaGift();
+    emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift getBeyondGachaGift();
     /**
      * <code>._BeyondGachaGift beyond_gacha_gift = 812;</code>
      */
-    emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGiftOrBuilder getBeyondGachaGiftOrBuilder();
+    emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGiftOrBuilder getBeyondGachaGiftOrBuilder();
 
     /**
      * <code>._BeyondShopGift beyond_shop_gift = 1778;</code>
@@ -87,11 +87,11 @@ public final class CFPINKGCFHLOuterClass {
      * <code>._BeyondShopGift beyond_shop_gift = 1778;</code>
      * @return The beyondShopGift.
      */
-    emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift getBeyondShopGift();
+    emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift getBeyondShopGift();
     /**
      * <code>._BeyondShopGift beyond_shop_gift = 1778;</code>
      */
-    emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGiftOrBuilder getBeyondShopGiftOrBuilder();
+    emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGiftOrBuilder getBeyondShopGiftOrBuilder();
 
     public emu.grasscutter.net.proto.CFPINKGCFHLOuterClass.CFPINKGCFHL.AIEIGGNNBIKCase getAIEIGGNNBIKCase();
   }
@@ -176,28 +176,28 @@ public final class CFPINKGCFHLOuterClass {
               break;
             }
             case 6498: {
-              emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift.Builder subBuilder = null;
               if (aIEIGGNNBIKCase_ == 812) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift) aIEIGGNNBIK_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift) aIEIGGNNBIK_).toBuilder();
               }
               aIEIGGNNBIK_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift) aIEIGGNNBIK_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift) aIEIGGNNBIK_);
                 aIEIGGNNBIK_ = subBuilder.buildPartial();
               }
               aIEIGGNNBIKCase_ = 812;
               break;
             }
             case 14226: {
-              emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift.Builder subBuilder = null;
               if (aIEIGGNNBIKCase_ == 1778) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift) aIEIGGNNBIK_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift) aIEIGGNNBIK_).toBuilder();
               }
               aIEIGGNNBIK_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift) aIEIGGNNBIK_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift) aIEIGGNNBIK_);
                 aIEIGGNNBIK_ = subBuilder.buildPartial();
               }
               aIEIGGNNBIKCase_ = 1778;
@@ -387,21 +387,21 @@ public final class CFPINKGCFHLOuterClass {
      * @return The beyondGachaGift.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift getBeyondGachaGift() {
+    public emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift getBeyondGachaGift() {
       if (aIEIGGNNBIKCase_ == 812) {
-         return (emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift) aIEIGGNNBIK_;
+         return (emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift) aIEIGGNNBIK_;
       }
-      return emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift.getDefaultInstance();
     }
     /**
      * <code>._BeyondGachaGift beyond_gacha_gift = 812;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGiftOrBuilder getBeyondGachaGiftOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGiftOrBuilder getBeyondGachaGiftOrBuilder() {
       if (aIEIGGNNBIKCase_ == 812) {
-         return (emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift) aIEIGGNNBIK_;
+         return (emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift) aIEIGGNNBIK_;
       }
-      return emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift.getDefaultInstance();
     }
 
     public static final int BEYOND_SHOP_GIFT_FIELD_NUMBER = 1778;
@@ -418,21 +418,21 @@ public final class CFPINKGCFHLOuterClass {
      * @return The beyondShopGift.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift getBeyondShopGift() {
+    public emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift getBeyondShopGift() {
       if (aIEIGGNNBIKCase_ == 1778) {
-         return (emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift) aIEIGGNNBIK_;
+         return (emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift) aIEIGGNNBIK_;
       }
-      return emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift.getDefaultInstance();
     }
     /**
      * <code>._BeyondShopGift beyond_shop_gift = 1778;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGiftOrBuilder getBeyondShopGiftOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGiftOrBuilder getBeyondShopGiftOrBuilder() {
       if (aIEIGGNNBIKCase_ == 1778) {
-         return (emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift) aIEIGGNNBIK_;
+         return (emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift) aIEIGGNNBIK_;
       }
-      return emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -465,10 +465,10 @@ public final class CFPINKGCFHLOuterClass {
         output.writeUInt32(13, templateId_);
       }
       if (aIEIGGNNBIKCase_ == 812) {
-        output.writeMessage(812, (emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift) aIEIGGNNBIK_);
+        output.writeMessage(812, (emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift) aIEIGGNNBIK_);
       }
       if (aIEIGGNNBIKCase_ == 1778) {
-        output.writeMessage(1778, (emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift) aIEIGGNNBIK_);
+        output.writeMessage(1778, (emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift) aIEIGGNNBIK_);
       }
       unknownFields.writeTo(output);
     }
@@ -500,11 +500,11 @@ public final class CFPINKGCFHLOuterClass {
       }
       if (aIEIGGNNBIKCase_ == 812) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(812, (emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift) aIEIGGNNBIK_);
+          .computeMessageSize(812, (emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift) aIEIGGNNBIK_);
       }
       if (aIEIGGNNBIKCase_ == 1778) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1778, (emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift) aIEIGGNNBIK_);
+          .computeMessageSize(1778, (emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift) aIEIGGNNBIK_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1193,7 +1193,7 @@ public final class CFPINKGCFHLOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift, emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift.Builder, emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGiftOrBuilder> beyondGachaGiftBuilder_;
+          emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift, emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift.Builder, emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGiftOrBuilder> beyondGachaGiftBuilder_;
       /**
        * <code>._BeyondGachaGift beyond_gacha_gift = 812;</code>
        * @return Whether the beyondGachaGift field is set.
@@ -1207,23 +1207,23 @@ public final class CFPINKGCFHLOuterClass {
        * @return The beyondGachaGift.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift getBeyondGachaGift() {
+      public emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift getBeyondGachaGift() {
         if (beyondGachaGiftBuilder_ == null) {
           if (aIEIGGNNBIKCase_ == 812) {
-            return (emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift) aIEIGGNNBIK_;
+            return (emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift) aIEIGGNNBIK_;
           }
-          return emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift.getDefaultInstance();
         } else {
           if (aIEIGGNNBIKCase_ == 812) {
             return beyondGachaGiftBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondGachaGift beyond_gacha_gift = 812;</code>
        */
-      public Builder setBeyondGachaGift(emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift value) {
+      public Builder setBeyondGachaGift(emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift value) {
         if (beyondGachaGiftBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1240,7 +1240,7 @@ public final class CFPINKGCFHLOuterClass {
        * <code>._BeyondGachaGift beyond_gacha_gift = 812;</code>
        */
       public Builder setBeyondGachaGift(
-          emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift.Builder builderForValue) {
         if (beyondGachaGiftBuilder_ == null) {
           aIEIGGNNBIK_ = builderForValue.build();
           onChanged();
@@ -1253,11 +1253,11 @@ public final class CFPINKGCFHLOuterClass {
       /**
        * <code>._BeyondGachaGift beyond_gacha_gift = 812;</code>
        */
-      public Builder mergeBeyondGachaGift(emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift value) {
+      public Builder mergeBeyondGachaGift(emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift value) {
         if (beyondGachaGiftBuilder_ == null) {
           if (aIEIGGNNBIKCase_ == 812 &&
-              aIEIGGNNBIK_ != emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift.getDefaultInstance()) {
-            aIEIGGNNBIK_ = emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift.newBuilder((emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift) aIEIGGNNBIK_)
+              aIEIGGNNBIK_ != emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift.getDefaultInstance()) {
+            aIEIGGNNBIK_ = emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift.newBuilder((emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift) aIEIGGNNBIK_)
                 .mergeFrom(value).buildPartial();
           } else {
             aIEIGGNNBIK_ = value;
@@ -1294,36 +1294,36 @@ public final class CFPINKGCFHLOuterClass {
       /**
        * <code>._BeyondGachaGift beyond_gacha_gift = 812;</code>
        */
-      public emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift.Builder getBeyondGachaGiftBuilder() {
+      public emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift.Builder getBeyondGachaGiftBuilder() {
         return getBeyondGachaGiftFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondGachaGift beyond_gacha_gift = 812;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGiftOrBuilder getBeyondGachaGiftOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGiftOrBuilder getBeyondGachaGiftOrBuilder() {
         if ((aIEIGGNNBIKCase_ == 812) && (beyondGachaGiftBuilder_ != null)) {
           return beyondGachaGiftBuilder_.getMessageOrBuilder();
         } else {
           if (aIEIGGNNBIKCase_ == 812) {
-            return (emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift) aIEIGGNNBIK_;
+            return (emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift) aIEIGGNNBIK_;
           }
-          return emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondGachaGift beyond_gacha_gift = 812;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift, emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift.Builder, emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGiftOrBuilder> 
+          emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift, emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift.Builder, emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGiftOrBuilder> 
           getBeyondGachaGiftFieldBuilder() {
         if (beyondGachaGiftBuilder_ == null) {
           if (!(aIEIGGNNBIKCase_ == 812)) {
-            aIEIGGNNBIK_ = emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift.getDefaultInstance();
+            aIEIGGNNBIK_ = emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift.getDefaultInstance();
           }
           beyondGachaGiftBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift, emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift.Builder, emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGiftOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondGachaGift._BeyondGachaGift) aIEIGGNNBIK_,
+              emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift, emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift.Builder, emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGiftOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondGachaGiftOuterClass._BeyondGachaGift) aIEIGGNNBIK_,
                   getParentForChildren(),
                   isClean());
           aIEIGGNNBIK_ = null;
@@ -1334,7 +1334,7 @@ public final class CFPINKGCFHLOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift, emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift.Builder, emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGiftOrBuilder> beyondShopGiftBuilder_;
+          emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift, emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift.Builder, emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGiftOrBuilder> beyondShopGiftBuilder_;
       /**
        * <code>._BeyondShopGift beyond_shop_gift = 1778;</code>
        * @return Whether the beyondShopGift field is set.
@@ -1348,23 +1348,23 @@ public final class CFPINKGCFHLOuterClass {
        * @return The beyondShopGift.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift getBeyondShopGift() {
+      public emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift getBeyondShopGift() {
         if (beyondShopGiftBuilder_ == null) {
           if (aIEIGGNNBIKCase_ == 1778) {
-            return (emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift) aIEIGGNNBIK_;
+            return (emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift) aIEIGGNNBIK_;
           }
-          return emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift.getDefaultInstance();
         } else {
           if (aIEIGGNNBIKCase_ == 1778) {
             return beyondShopGiftBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondShopGift beyond_shop_gift = 1778;</code>
        */
-      public Builder setBeyondShopGift(emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift value) {
+      public Builder setBeyondShopGift(emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift value) {
         if (beyondShopGiftBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1381,7 +1381,7 @@ public final class CFPINKGCFHLOuterClass {
        * <code>._BeyondShopGift beyond_shop_gift = 1778;</code>
        */
       public Builder setBeyondShopGift(
-          emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift.Builder builderForValue) {
         if (beyondShopGiftBuilder_ == null) {
           aIEIGGNNBIK_ = builderForValue.build();
           onChanged();
@@ -1394,11 +1394,11 @@ public final class CFPINKGCFHLOuterClass {
       /**
        * <code>._BeyondShopGift beyond_shop_gift = 1778;</code>
        */
-      public Builder mergeBeyondShopGift(emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift value) {
+      public Builder mergeBeyondShopGift(emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift value) {
         if (beyondShopGiftBuilder_ == null) {
           if (aIEIGGNNBIKCase_ == 1778 &&
-              aIEIGGNNBIK_ != emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift.getDefaultInstance()) {
-            aIEIGGNNBIK_ = emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift.newBuilder((emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift) aIEIGGNNBIK_)
+              aIEIGGNNBIK_ != emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift.getDefaultInstance()) {
+            aIEIGGNNBIK_ = emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift.newBuilder((emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift) aIEIGGNNBIK_)
                 .mergeFrom(value).buildPartial();
           } else {
             aIEIGGNNBIK_ = value;
@@ -1435,36 +1435,36 @@ public final class CFPINKGCFHLOuterClass {
       /**
        * <code>._BeyondShopGift beyond_shop_gift = 1778;</code>
        */
-      public emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift.Builder getBeyondShopGiftBuilder() {
+      public emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift.Builder getBeyondShopGiftBuilder() {
         return getBeyondShopGiftFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondShopGift beyond_shop_gift = 1778;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGiftOrBuilder getBeyondShopGiftOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGiftOrBuilder getBeyondShopGiftOrBuilder() {
         if ((aIEIGGNNBIKCase_ == 1778) && (beyondShopGiftBuilder_ != null)) {
           return beyondShopGiftBuilder_.getMessageOrBuilder();
         } else {
           if (aIEIGGNNBIKCase_ == 1778) {
-            return (emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift) aIEIGGNNBIK_;
+            return (emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift) aIEIGGNNBIK_;
           }
-          return emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondShopGift beyond_shop_gift = 1778;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift, emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift.Builder, emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGiftOrBuilder> 
+          emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift, emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift.Builder, emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGiftOrBuilder> 
           getBeyondShopGiftFieldBuilder() {
         if (beyondShopGiftBuilder_ == null) {
           if (!(aIEIGGNNBIKCase_ == 1778)) {
-            aIEIGGNNBIK_ = emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift.getDefaultInstance();
+            aIEIGGNNBIK_ = emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift.getDefaultInstance();
           }
           beyondShopGiftBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift, emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift.Builder, emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGiftOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondShopGift._BeyondShopGift) aIEIGGNNBIK_,
+              emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift, emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift.Builder, emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGiftOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondShopGiftOuterClass._BeyondShopGift) aIEIGGNNBIK_,
                   getParentForChildren(),
                   isClean());
           aIEIGGNNBIK_ = null;
@@ -1548,15 +1548,15 @@ public final class CFPINKGCFHLOuterClass {
       "\023\n\013template_id\030\r \001(\r\022/\n\021beyond_gacha_gif" +
       "t\030\254\006 \001(\0132\021._BeyondGachaGiftH\000\022-\n\020beyond_" +
       "shop_gift\030\362\r \001(\0132\020._BeyondShopGiftH\000B\r\n\013" +
-      "AIEIGGNNBIKB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "AIEIGGNNBIKB2\n\031emu.grasscutter.net.proto" +
+      "B\025CFPINKGCFHLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.GPFONFBIPMDOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondGachaGift.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondShopGift.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondGachaGiftOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondShopGiftOuterClass.getDescriptor(),
         });
     internal_static_CFPINKGCFHL_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1565,8 +1565,8 @@ public final class CFPINKGCFHLOuterClass {
         internal_static_CFPINKGCFHL_descriptor,
         new java.lang.String[] { "DPIJFLBNPGP", "OIEHJMHHCFB", "IENEGFFPHHO", "JGCMKDAIKDM", "TemplateId", "BeyondGachaGift", "BeyondShopGift", "AIEIGGNNBIK", });
     emu.grasscutter.net.proto.GPFONFBIPMDOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BeyondGachaGift.getDescriptor();
-    emu.grasscutter.net.proto.BeyondShopGift.getDescriptor();
+    emu.grasscutter.net.proto._BeyondGachaGiftOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondShopGiftOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -1945,8 +1945,8 @@ public final class OOGDIACNELKOuterClass {
       "\014.JHABMHAPMPG\022!\n\013ADHKEJFIEND\030\005 \001(\0132\014.JHA" +
       "BMHAPMPG\022!\n\013GBFNNGPMAID\030\006 \001(\0132\014.JHABMHAP" +
       "MPG\022\023\n\013OMBJDELPAOK\030\007 \001(\r\022!\n\013NALEFEFHFHG\030" +
-      "\010 \001(\0132\014.HHEDHCFPEKMB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\010 \001(\0132\014.HHEDHCFPEKMB2\n\031emu.grasscutter.n" +
+      "et.protoB\025OOGDIACNELKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

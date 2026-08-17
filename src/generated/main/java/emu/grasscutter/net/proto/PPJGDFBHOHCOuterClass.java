@@ -1067,8 +1067,8 @@ public final class PPJGDFBHOHCOuterClass {
       "GIFNELOIKK\030\001 \001(\r\022\020\n\010uid_list\030\002 \003(\r\022\022\n\nbe" +
       "st_score\030\003 \001(\r\022\023\n\013IDGOBIGLOGH\030\004 \001(\r\022\023\n\013C" +
       "IPDBGAJNCI\030\005 \001(\r\022\023\n\013DBLPNCGLFEI\030\006 \001(\r\022\023\n" +
-      "\013MOJAINHPBPI\030\007 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\013MOJAINHPBPI\030\007 \001(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025PPJGDFBHOHCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

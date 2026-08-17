@@ -738,8 +738,9 @@ public final class AbilityMetaUpdateMoonOvergrowValueOuterClass {
       "e\022D\n\013update_type\030\002 \001(\0162/.AbilityMetaUpda" +
       "teMoonOvergrowValue._UpdateType\022\023\n\013FOMPM" +
       "BNENPH\030\017 \001(\002\";\n\013_UpdateType\022\027\n\023_UpdateTy" +
-      "pe_INVALUE\020\000\022\023\n\017_UpdateType_SET\020\001B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "pe_INVALUE\020\000\022\023\n\017_UpdateType_SET\020\001BI\n\031emu" +
+      ".grasscutter.net.protoB,AbilityMetaUpdat" +
+      "eMoonOvergrowValueOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

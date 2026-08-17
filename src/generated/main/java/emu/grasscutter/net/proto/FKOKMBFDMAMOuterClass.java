@@ -652,8 +652,8 @@ public final class FKOKMBFDMAMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FKOKMBFDMAM.proto\"&\n\013FKOKMBFDMAM\022\027\n\017re" +
-      "ward_day_list\030\005 \003(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "ward_day_list\030\005 \003(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025FKOKMBFDMAMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

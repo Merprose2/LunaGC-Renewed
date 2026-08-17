@@ -526,8 +526,8 @@ public final class CHLFLNMHFIEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CHLFLNMHFIE.proto\"\"\n\013CHLFLNMHFIE\022\023\n\013av" +
-      "atar_guid\030\013 \001(\004B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "atar_guid\030\013 \001(\004B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025CHLFLNMHFIEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

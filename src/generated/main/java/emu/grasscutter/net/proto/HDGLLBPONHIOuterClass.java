@@ -2106,8 +2106,9 @@ public final class HDGLLBPONHIOuterClass {
       "\014 \001(\0162\014.POOHODEIGFJ\022!\n\013AFLJBDAMEEK\030\r \001(\016" +
       "2\014.PMLFPBJKMLK\022\023\n\013ALJFJEFHGAE\030\016 \001(\010\022!\n\013F" +
       "EFKEOEANBI\030\017 \001(\0162\014.LANHOMLGHGP\022\023\n\013KFKIHE" +
-      "KCAEB\030\020 \001(\010\022\023\n\013GIIHDNLDHKK\030\021 \001(\010B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "KCAEB\030\020 \001(\010\022\023\n\013GIIHDNLDHKK\030\021 \001(\010B2\n\031emu." +
+      "grasscutter.net.protoB\025HDGLLBPONHIOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

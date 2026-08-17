@@ -525,8 +525,9 @@ public final class OKBJDPFMEDNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OKBJDPFMEDN.proto\"+\n\013OKBJDPFMEDN\022\034\n\024_t" +
-      "emplate_loading_id\030\014 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "emplate_loading_id\030\014 \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025OKBJDPFMEDNOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

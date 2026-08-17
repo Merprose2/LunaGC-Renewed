@@ -894,8 +894,9 @@ public final class VintageMarketTraderInfoOuterClass {
       "\n\035VintageMarketTraderInfo.proto\032\017ItemPar" +
       "am.proto\"U\n\027VintageMarketTraderInfo\022\021\n\tt" +
       "rader_id\030\003 \001(\r\022\'\n\023available_item_list\030\006 " +
-      "\003(\0132\n.ItemParamB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\003(\0132\n.ItemParamB>\n\031emu.grasscutter.net.p" +
+      "rotoB!VintageMarketTraderInfoOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

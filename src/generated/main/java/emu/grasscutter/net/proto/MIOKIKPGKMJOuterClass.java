@@ -667,8 +667,8 @@ public final class MIOKIKPGKMJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MIOKIKPGKMJ.proto\"H\n\013MIOKIKPGKMJ\022\022\n\nis" +
       "_success\030\002 \001(\010\022\022\n\ngallery_id\030\013 \001(\r\022\021\n\thi" +
-      "t_count\030\017 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "t_count\030\017 \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025MIOKIKPGKMJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

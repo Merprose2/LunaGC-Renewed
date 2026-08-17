@@ -133,8 +133,8 @@ public final class HDOFPHOPNBCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HDOFPHOPNBC.proto*G\n\013HDOFPHOPNBC\022\024\n\020HD" +
       "OFPHOPNBC_NONE\020\000\022\"\n\036HDOFPHOPNBC_STRUCT_I" +
-      "NSTANCE_ID\020\001B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "NSTANCE_ID\020\001B2\n\031emu.grasscutter.net.prot" +
+      "oB\025HDOFPHOPNBCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

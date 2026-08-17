@@ -1169,8 +1169,9 @@ public final class HPDHKHAELJDOuterClass {
       "\013LMGDNAPJDOH\030\003 \001(\010\022\023\n\013PMPOHLEIIMI\030\004 \001(\t\022" +
       "\023\n\013LAKKCGONMAD\030\005 \001(\010\022\023\n\013BOIHOPPLALD\030\006 \001(" +
       "\010\022\023\n\013GFFLMACGCPO\030\007 \001(\010\022\023\n\013GLKCHOEPIMG\030\010 " +
-      "\001(\010\022\023\n\013IEJPCJBKNKB\030\t \001(\010B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\001(\010\022\023\n\013IEJPCJBKNKB\030\t \001(\010B2\n\031emu.grasscut" +
+      "ter.net.protoB\025HPDHKHAELJDOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

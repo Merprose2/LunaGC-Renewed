@@ -587,8 +587,9 @@ public final class DONLOCJGEEOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DONLOCJGEEO.proto\"6\n\013DONLOCJGEEO\022\023\n\013ex" +
-      "pire_time\030\004 \001(\r\022\022\n\ncostume_id\030\016 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "pire_time\030\004 \001(\r\022\022\n\ncostume_id\030\016 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025DONLOCJGEEOOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

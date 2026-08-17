@@ -759,8 +759,9 @@ public final class MOHMOMPBEOFOuterClass {
       "\n\021MOHMOMPBEOF.proto\032\021JMBPOAGEPCL.proto\032\021" +
       "JOENAFHBFEI.proto\"S\n\013MOHMOMPBEOF\022!\n\013IMBI" +
       "HDBGJHK\030\001 \001(\0162\014.JOENAFHBFEI\022!\n\013CDKNGAEHL" +
-      "MM\030\002 \001(\0132\014.JMBPOAGEPCLB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "MM\030\002 \001(\0132\014.JMBPOAGEPCLB2\n\031emu.grasscutte" +
+      "r.net.protoB\025MOHMOMPBEOFOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

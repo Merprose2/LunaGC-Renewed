@@ -1177,8 +1177,9 @@ public final class HomeLimitedShopBuyGoodsRspOuterClass {
       "opBuyGoodsRsp\022\021\n\tbuy_count\030\001 \001(\r\022$\n\005good" +
       "s\030\006 \001(\0132\025.HomeLimitedShopGoods\022\017\n\007retcod" +
       "e\030\n \001(\005\022)\n\ngoods_list\030\013 \003(\0132\025.HomeLimite" +
-      "dShopGoodsB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "dShopGoodsBA\n\031emu.grasscutter.net.protoB" +
+      "$HomeLimitedShopBuyGoodsRspOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

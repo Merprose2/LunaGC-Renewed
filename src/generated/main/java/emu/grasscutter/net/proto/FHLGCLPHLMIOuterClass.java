@@ -714,8 +714,9 @@ public final class FHLGCLPHLMIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FHLGCLPHLMI.proto\"4\n\013FHLGCLPHLMI\022\020\n\010le" +
-      "vel_id\030\005 \001(\r\022\023\n\013BKDHPIDIDNJ\030\014 \003(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "vel_id\030\005 \001(\r\022\023\n\013BKDHPIDIDNJ\030\014 \003(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025FHLGCLPHLMIOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

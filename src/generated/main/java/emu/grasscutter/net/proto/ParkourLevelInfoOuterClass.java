@@ -863,8 +863,9 @@ public final class ParkourLevelInfoOuterClass {
       "\n\026ParkourLevelInfo.proto\032\014Vector.proto\"a" +
       "\n\020ParkourLevelInfo\022\023\n\013best_record\030\001 \001(\r\022" +
       "\017\n\007is_open\030\004 \001(\010\022\021\n\topen_time\030\010 \001(\r\022\024\n\003p" +
-      "os\030\013 \001(\0132\007.VectorB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "os\030\013 \001(\0132\007.VectorB7\n\031emu.grasscutter.net" +
+      ".protoB\032ParkourLevelInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

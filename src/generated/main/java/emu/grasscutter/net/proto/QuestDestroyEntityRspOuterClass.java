@@ -737,8 +737,8 @@ public final class QuestDestroyEntityRspOuterClass {
       "\n\033QuestDestroyEntityRsp.proto\"_\n\025QuestDe" +
       "stroyEntityRsp\022\020\n\010quest_id\030\004 \001(\r\022\017\n\007retc" +
       "ode\030\006 \001(\005\022\021\n\tentity_id\030\t \001(\r\022\020\n\010scene_id" +
-      "\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \001(\rB<\n\031emu.grasscutter.net.protoB\037Que" +
+      "stDestroyEntityRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

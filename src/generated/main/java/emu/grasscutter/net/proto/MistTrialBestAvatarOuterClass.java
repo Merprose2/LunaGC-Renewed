@@ -696,8 +696,9 @@ public final class MistTrialBestAvatarOuterClass {
       "\n\031MistTrialBestAvatar.proto\032\020AvatarType." +
       "proto\"^\n\023MistTrialBestAvatar\022\021\n\tavatar_i" +
       "d\030\003 \001(\r\022\022\n\ncostume_id\030\r \001(\r\022 \n\013avatar_ty" +
-      "pe\030\016 \001(\0162\013.AvatarTypeB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "pe\030\016 \001(\0162\013.AvatarTypeB:\n\031emu.grasscutter" +
+      ".net.protoB\035MistTrialBestAvatarOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

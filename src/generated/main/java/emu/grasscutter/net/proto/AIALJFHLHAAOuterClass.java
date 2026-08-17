@@ -1739,8 +1739,8 @@ public final class AIALJFHLHAAOuterClass {
       "(\010\022\023\n\013AOPFHJGJMJH\030\004 \003(\r\022\032\n\022_monster_guid" +
       "_list\030\005 \003(\r\022\023\n\013JAMGMHPJCNO\030\006 \003(\r\022\023\n\013CBHB" +
       "HPODHNA\030\007 \003(\r\022\023\n\013FNAMHFGDINC\030\010 \001(\010\022\023\n\013AP" +
-      "NKJLCDOGE\030\t \001(\tB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "NKJLCDOGE\030\t \001(\tB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025AIALJFHLHAAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

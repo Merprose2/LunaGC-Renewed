@@ -736,8 +736,9 @@ public final class NpcTalkRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\020NpcTalkRsp.proto\"\\\n\nNpcTalkRsp\022\023\n\013cur_" +
       "talk_id\030\002 \001(\r\022\017\n\007retcode\030\007 \001(\005\022\025\n\rnpc_en" +
-      "tity_id\030\r \001(\r\022\021\n\tentity_id\030\017 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "tity_id\030\r \001(\r\022\021\n\tentity_id\030\017 \001(\rB1\n\031emu." +
+      "grasscutter.net.protoB\024NpcTalkRspOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

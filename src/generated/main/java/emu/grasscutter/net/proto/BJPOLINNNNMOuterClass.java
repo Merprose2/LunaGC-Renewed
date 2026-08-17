@@ -563,7 +563,8 @@ public final class BJPOLINNNNMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BJPOLINNNNM.proto\032\021DIHEGEGCPFP.proto\")" +
       "\n\013BJPOLINNNNM\022\032\n\004type\030\016 \001(\0162\014.DIHEGEGCPF" +
-      "PB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "PB2\n\031emu.grasscutter.net.protoB\025BJPOLINN" +
+      "NNMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

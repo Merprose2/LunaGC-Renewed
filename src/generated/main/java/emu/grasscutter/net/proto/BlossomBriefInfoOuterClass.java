@@ -1357,7 +1357,8 @@ public final class BlossomBriefInfoOuterClass {
       "\022\r\n\005state\030\t \001(\r\022\r\n\005resin\030\n \001(\r\022\026\n\016circle" +
       "_camp_id\030\013 \001(\r\022\021\n\treward_id\030\r \001(\r\022\024\n\003pos" +
       "\030\016 \001(\0132\007.Vector\022\027\n\017is_guide_opened\030\017 \001(\010" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B7\n\031emu.grasscutter.net.protoB\032BlossomBr" +
+      "iefInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1731,8 +1731,9 @@ public final class GNMHELJDKPKOuterClass {
       "\001(\0132\014.JFHKDOBOJCKH\000\022%\n\rnormal_string\030\014 \001" +
       "(\0132\014.CGFEMJDDICMH\000\022\'\n\017property_string\030\r " +
       "\001(\0132\014.GCIEOHECEMHH\000\022*\n\022equip_affix_strin" +
-      "g\030\016 \001(\0132\014.BNNCLIHBHKNH\000B\010\n\006detailB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "g\030\016 \001(\0132\014.BNNCLIHBHKNH\000B\010\n\006detailB2\n\031emu" +
+      ".grasscutter.net.protoB\025GNMHELJDKPKOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

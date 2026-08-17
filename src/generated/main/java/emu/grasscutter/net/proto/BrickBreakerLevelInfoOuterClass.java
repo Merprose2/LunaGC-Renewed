@@ -1315,8 +1315,9 @@ public final class BrickBreakerLevelInfoOuterClass {
       "reakerLevelInfo\022\023\n\013CFMEKCCEEPD\030\003 \003(\r\022\020\n\010" +
       "level_id\030\005 \001(\r\022\023\n\013DDKLHHHMMFJ\030\006 \003(\r\022\021\n\ti" +
       "s_finish\030\007 \001(\010\022\021\n\tmax_score\030\n \001(\r\022\024\n\014is_" +
-      "can_start\030\014 \001(\010\022\023\n\013OEMBMLHPNOC\030\016 \003(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "can_start\030\014 \001(\010\022\023\n\013OEMBMLHPNOC\030\016 \003(\rB<\n\031" +
+      "emu.grasscutter.net.protoB\037BrickBreakerL" +
+      "evelInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

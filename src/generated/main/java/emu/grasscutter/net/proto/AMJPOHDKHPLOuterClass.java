@@ -27,11 +27,11 @@ public final class AMJPOHDKHPLOuterClass {
      * <code>._LanV6Card _lan_v6_card = 7;</code>
      * @return The lanV6Card.
      */
-    emu.grasscutter.net.proto.LanV6Card._LanV6Card getLanV6Card();
+    emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card getLanV6Card();
     /**
      * <code>._LanV6Card _lan_v6_card = 7;</code>
      */
-    emu.grasscutter.net.proto.LanV6Card._LanV6CardOrBuilder getLanV6CardOrBuilder();
+    emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6CardOrBuilder getLanV6CardOrBuilder();
   }
   /**
    * <pre>
@@ -83,11 +83,11 @@ public final class AMJPOHDKHPLOuterClass {
               done = true;
               break;
             case 58: {
-              emu.grasscutter.net.proto.LanV6Card._LanV6Card.Builder subBuilder = null;
+              emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.Builder subBuilder = null;
               if (LanV6Card_ != null) {
                 subBuilder = LanV6Card_.toBuilder();
               }
-              LanV6Card_ = input.readMessage(emu.grasscutter.net.proto.LanV6Card._LanV6Card.parser(), extensionRegistry);
+              LanV6Card_ = input.readMessage(emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(LanV6Card_);
                 LanV6Card_ = subBuilder.buildPartial();
@@ -128,7 +128,7 @@ public final class AMJPOHDKHPLOuterClass {
     }
 
     public static final int _LAN_V6_CARD_FIELD_NUMBER = 7;
-    private emu.grasscutter.net.proto.LanV6Card._LanV6Card LanV6Card_;
+    private emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card LanV6Card_;
     /**
      * <code>._LanV6Card _lan_v6_card = 7;</code>
      * @return Whether the lanV6Card field is set.
@@ -142,14 +142,14 @@ public final class AMJPOHDKHPLOuterClass {
      * @return The lanV6Card.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LanV6Card._LanV6Card getLanV6Card() {
-      return LanV6Card_ == null ? emu.grasscutter.net.proto.LanV6Card._LanV6Card.getDefaultInstance() : LanV6Card_;
+    public emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card getLanV6Card() {
+      return LanV6Card_ == null ? emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.getDefaultInstance() : LanV6Card_;
     }
     /**
      * <code>._LanV6Card _lan_v6_card = 7;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LanV6Card._LanV6CardOrBuilder getLanV6CardOrBuilder() {
+    public emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6CardOrBuilder getLanV6CardOrBuilder() {
       return getLanV6Card();
     }
 
@@ -472,9 +472,9 @@ public final class AMJPOHDKHPLOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.LanV6Card._LanV6Card LanV6Card_;
+      private emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card LanV6Card_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LanV6Card._LanV6Card, emu.grasscutter.net.proto.LanV6Card._LanV6Card.Builder, emu.grasscutter.net.proto.LanV6Card._LanV6CardOrBuilder> LanV6CardBuilder_;
+          emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.Builder, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6CardOrBuilder> LanV6CardBuilder_;
       /**
        * <code>._LanV6Card _lan_v6_card = 7;</code>
        * @return Whether the lanV6Card field is set.
@@ -486,9 +486,9 @@ public final class AMJPOHDKHPLOuterClass {
        * <code>._LanV6Card _lan_v6_card = 7;</code>
        * @return The lanV6Card.
        */
-      public emu.grasscutter.net.proto.LanV6Card._LanV6Card getLanV6Card() {
+      public emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card getLanV6Card() {
         if (LanV6CardBuilder_ == null) {
-          return LanV6Card_ == null ? emu.grasscutter.net.proto.LanV6Card._LanV6Card.getDefaultInstance() : LanV6Card_;
+          return LanV6Card_ == null ? emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.getDefaultInstance() : LanV6Card_;
         } else {
           return LanV6CardBuilder_.getMessage();
         }
@@ -496,7 +496,7 @@ public final class AMJPOHDKHPLOuterClass {
       /**
        * <code>._LanV6Card _lan_v6_card = 7;</code>
        */
-      public Builder setLanV6Card(emu.grasscutter.net.proto.LanV6Card._LanV6Card value) {
+      public Builder setLanV6Card(emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card value) {
         if (LanV6CardBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -513,7 +513,7 @@ public final class AMJPOHDKHPLOuterClass {
        * <code>._LanV6Card _lan_v6_card = 7;</code>
        */
       public Builder setLanV6Card(
-          emu.grasscutter.net.proto.LanV6Card._LanV6Card.Builder builderForValue) {
+          emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.Builder builderForValue) {
         if (LanV6CardBuilder_ == null) {
           LanV6Card_ = builderForValue.build();
           onChanged();
@@ -526,11 +526,11 @@ public final class AMJPOHDKHPLOuterClass {
       /**
        * <code>._LanV6Card _lan_v6_card = 7;</code>
        */
-      public Builder mergeLanV6Card(emu.grasscutter.net.proto.LanV6Card._LanV6Card value) {
+      public Builder mergeLanV6Card(emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card value) {
         if (LanV6CardBuilder_ == null) {
           if (LanV6Card_ != null) {
             LanV6Card_ =
-              emu.grasscutter.net.proto.LanV6Card._LanV6Card.newBuilder(LanV6Card_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.newBuilder(LanV6Card_).mergeFrom(value).buildPartial();
           } else {
             LanV6Card_ = value;
           }
@@ -558,7 +558,7 @@ public final class AMJPOHDKHPLOuterClass {
       /**
        * <code>._LanV6Card _lan_v6_card = 7;</code>
        */
-      public emu.grasscutter.net.proto.LanV6Card._LanV6Card.Builder getLanV6CardBuilder() {
+      public emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.Builder getLanV6CardBuilder() {
         
         onChanged();
         return getLanV6CardFieldBuilder().getBuilder();
@@ -566,23 +566,23 @@ public final class AMJPOHDKHPLOuterClass {
       /**
        * <code>._LanV6Card _lan_v6_card = 7;</code>
        */
-      public emu.grasscutter.net.proto.LanV6Card._LanV6CardOrBuilder getLanV6CardOrBuilder() {
+      public emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6CardOrBuilder getLanV6CardOrBuilder() {
         if (LanV6CardBuilder_ != null) {
           return LanV6CardBuilder_.getMessageOrBuilder();
         } else {
           return LanV6Card_ == null ?
-              emu.grasscutter.net.proto.LanV6Card._LanV6Card.getDefaultInstance() : LanV6Card_;
+              emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.getDefaultInstance() : LanV6Card_;
         }
       }
       /**
        * <code>._LanV6Card _lan_v6_card = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LanV6Card._LanV6Card, emu.grasscutter.net.proto.LanV6Card._LanV6Card.Builder, emu.grasscutter.net.proto.LanV6Card._LanV6CardOrBuilder> 
+          emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.Builder, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6CardOrBuilder> 
           getLanV6CardFieldBuilder() {
         if (LanV6CardBuilder_ == null) {
           LanV6CardBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.LanV6Card._LanV6Card, emu.grasscutter.net.proto.LanV6Card._LanV6Card.Builder, emu.grasscutter.net.proto.LanV6Card._LanV6CardOrBuilder>(
+              emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.Builder, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6CardOrBuilder>(
                   getLanV6Card(),
                   getParentForChildren(),
                   isClean());
@@ -659,13 +659,13 @@ public final class AMJPOHDKHPLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AMJPOHDKHPL.proto\032\020_LanV6Card.proto\"0\n" +
       "\013AMJPOHDKHPL\022!\n\014_lan_v6_card\030\007 \001(\0132\013._La" +
-      "nV6CardB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "nV6CardB2\n\031emu.grasscutter.net.protoB\025AM" +
+      "JPOHDKHPLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.LanV6Card.getDescriptor(),
+          emu.grasscutter.net.proto._LanV6CardOuterClass.getDescriptor(),
         });
     internal_static_AMJPOHDKHPL_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -673,7 +673,7 @@ public final class AMJPOHDKHPLOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AMJPOHDKHPL_descriptor,
         new java.lang.String[] { "LanV6Card", });
-    emu.grasscutter.net.proto.LanV6Card.getDescriptor();
+    emu.grasscutter.net.proto._LanV6CardOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

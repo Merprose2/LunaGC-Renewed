@@ -626,8 +626,8 @@ public final class KFDAGHLFDPAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KFDAGHLFDPA.proto\"$\n\013KFDAGHLFDPA\022\025\n\rsn" +
-      "apshot_list\030\r \003(\014B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "apshot_list\030\r \003(\014B2\n\031emu.grasscutter.net" +
+      ".protoB\025KFDAGHLFDPAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

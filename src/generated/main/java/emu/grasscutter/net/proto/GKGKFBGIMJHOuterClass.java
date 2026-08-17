@@ -1232,8 +1232,8 @@ public final class GKGKFBGIMJHOuterClass {
       "plate_id\030\003 \001(\r\022\023\n\013AAPAPMCOHOD\030\004 \001(\r\022\021\n\tb" +
       "uy_count\030\005 \001(\r\022\023\n\013GHMLNFIAMOA\030\006 \001(\r\022\017\n\007r" +
       "etcode\030\007 \001(\005\022\031\n\005goods\030\t \001(\0132\n.ShopGoods\022" +
-      "\021\n\tshop_type\030\r \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\021\n\tshop_type\030\r \001(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025GKGKFBGIMJHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

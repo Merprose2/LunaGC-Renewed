@@ -33,11 +33,11 @@ public final class POIANPIAGJMOuterClass {
      * <code>._TowerChallengeExtraBrief tower_challenge_extra_brief = 575;</code>
      * @return The towerChallengeExtraBrief.
      */
-    emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief getTowerChallengeExtraBrief();
+    emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief getTowerChallengeExtraBrief();
     /**
      * <code>._TowerChallengeExtraBrief tower_challenge_extra_brief = 575;</code>
      */
-    emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBriefOrBuilder getTowerChallengeExtraBriefOrBuilder();
+    emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBriefOrBuilder getTowerChallengeExtraBriefOrBuilder();
 
     public emu.grasscutter.net.proto.POIANPIAGJMOuterClass.POIANPIAGJM.DetailCase getDetailCase();
   }
@@ -92,14 +92,14 @@ public final class POIANPIAGJMOuterClass {
               break;
             }
             case 4602: {
-              emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief.Builder subBuilder = null;
               if (detailCase_ == 575) {
-                subBuilder = ((emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 575;
@@ -201,21 +201,21 @@ public final class POIANPIAGJMOuterClass {
      * @return The towerChallengeExtraBrief.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief getTowerChallengeExtraBrief() {
+    public emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief getTowerChallengeExtraBrief() {
       if (detailCase_ == 575) {
-         return (emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief) detail_;
+         return (emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief) detail_;
       }
-      return emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief.getDefaultInstance();
+      return emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief.getDefaultInstance();
     }
     /**
      * <code>._TowerChallengeExtraBrief tower_challenge_extra_brief = 575;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBriefOrBuilder getTowerChallengeExtraBriefOrBuilder() {
+    public emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBriefOrBuilder getTowerChallengeExtraBriefOrBuilder() {
       if (detailCase_ == 575) {
-         return (emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief) detail_;
+         return (emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief) detail_;
       }
-      return emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief.getDefaultInstance();
+      return emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -236,7 +236,7 @@ public final class POIANPIAGJMOuterClass {
         output.writeUInt32(2, levelId_);
       }
       if (detailCase_ == 575) {
-        output.writeMessage(575, (emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief) detail_);
+        output.writeMessage(575, (emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -253,7 +253,7 @@ public final class POIANPIAGJMOuterClass {
       }
       if (detailCase_ == 575) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(575, (emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief) detail_);
+          .computeMessageSize(575, (emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -610,7 +610,7 @@ public final class POIANPIAGJMOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief, emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief.Builder, emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBriefOrBuilder> towerChallengeExtraBriefBuilder_;
+          emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief, emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief.Builder, emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBriefOrBuilder> towerChallengeExtraBriefBuilder_;
       /**
        * <code>._TowerChallengeExtraBrief tower_challenge_extra_brief = 575;</code>
        * @return Whether the towerChallengeExtraBrief field is set.
@@ -624,23 +624,23 @@ public final class POIANPIAGJMOuterClass {
        * @return The towerChallengeExtraBrief.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief getTowerChallengeExtraBrief() {
+      public emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief getTowerChallengeExtraBrief() {
         if (towerChallengeExtraBriefBuilder_ == null) {
           if (detailCase_ == 575) {
-            return (emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief) detail_;
+            return (emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief) detail_;
           }
-          return emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief.getDefaultInstance();
+          return emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief.getDefaultInstance();
         } else {
           if (detailCase_ == 575) {
             return towerChallengeExtraBriefBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief.getDefaultInstance();
+          return emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief.getDefaultInstance();
         }
       }
       /**
        * <code>._TowerChallengeExtraBrief tower_challenge_extra_brief = 575;</code>
        */
-      public Builder setTowerChallengeExtraBrief(emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief value) {
+      public Builder setTowerChallengeExtraBrief(emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief value) {
         if (towerChallengeExtraBriefBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -657,7 +657,7 @@ public final class POIANPIAGJMOuterClass {
        * <code>._TowerChallengeExtraBrief tower_challenge_extra_brief = 575;</code>
        */
       public Builder setTowerChallengeExtraBrief(
-          emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief.Builder builderForValue) {
+          emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief.Builder builderForValue) {
         if (towerChallengeExtraBriefBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -670,11 +670,11 @@ public final class POIANPIAGJMOuterClass {
       /**
        * <code>._TowerChallengeExtraBrief tower_challenge_extra_brief = 575;</code>
        */
-      public Builder mergeTowerChallengeExtraBrief(emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief value) {
+      public Builder mergeTowerChallengeExtraBrief(emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief value) {
         if (towerChallengeExtraBriefBuilder_ == null) {
           if (detailCase_ == 575 &&
-              detail_ != emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief.newBuilder((emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief) detail_)
+              detail_ != emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief.newBuilder((emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -711,36 +711,36 @@ public final class POIANPIAGJMOuterClass {
       /**
        * <code>._TowerChallengeExtraBrief tower_challenge_extra_brief = 575;</code>
        */
-      public emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief.Builder getTowerChallengeExtraBriefBuilder() {
+      public emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief.Builder getTowerChallengeExtraBriefBuilder() {
         return getTowerChallengeExtraBriefFieldBuilder().getBuilder();
       }
       /**
        * <code>._TowerChallengeExtraBrief tower_challenge_extra_brief = 575;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBriefOrBuilder getTowerChallengeExtraBriefOrBuilder() {
+      public emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBriefOrBuilder getTowerChallengeExtraBriefOrBuilder() {
         if ((detailCase_ == 575) && (towerChallengeExtraBriefBuilder_ != null)) {
           return towerChallengeExtraBriefBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 575) {
-            return (emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief) detail_;
+            return (emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief) detail_;
           }
-          return emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief.getDefaultInstance();
+          return emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief.getDefaultInstance();
         }
       }
       /**
        * <code>._TowerChallengeExtraBrief tower_challenge_extra_brief = 575;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief, emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief.Builder, emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBriefOrBuilder> 
+          emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief, emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief.Builder, emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBriefOrBuilder> 
           getTowerChallengeExtraBriefFieldBuilder() {
         if (towerChallengeExtraBriefBuilder_ == null) {
           if (!(detailCase_ == 575)) {
-            detail_ = emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief.getDefaultInstance();
           }
           towerChallengeExtraBriefBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief, emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief.Builder, emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBriefOrBuilder>(
-                  (emu.grasscutter.net.proto.TowerChallengeExtraBrief._TowerChallengeExtraBrief) detail_,
+              emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief, emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief.Builder, emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBriefOrBuilder>(
+                  (emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass._TowerChallengeExtraBrief) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -820,12 +820,13 @@ public final class POIANPIAGJMOuterClass {
       "aBrief.proto\"m\n\013POIANPIAGJM\022\020\n\010level_id\030" +
       "\002 \001(\r\022B\n\033tower_challenge_extra_brief\030\277\004 " +
       "\001(\0132\032._TowerChallengeExtraBriefH\000B\010\n\006det" +
-      "ailB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "ailB2\n\031emu.grasscutter.net.protoB\025POIANP" +
+      "IAGJMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.TowerChallengeExtraBrief.getDescriptor(),
+          emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass.getDescriptor(),
         });
     internal_static_POIANPIAGJM_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -833,7 +834,7 @@ public final class POIANPIAGJMOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_POIANPIAGJM_descriptor,
         new java.lang.String[] { "LevelId", "TowerChallengeExtraBrief", "Detail", });
-    emu.grasscutter.net.proto.TowerChallengeExtraBrief.getDescriptor();
+    emu.grasscutter.net.proto._TowerChallengeExtraBriefOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

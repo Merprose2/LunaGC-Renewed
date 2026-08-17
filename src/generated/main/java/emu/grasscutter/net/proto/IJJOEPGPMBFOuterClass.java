@@ -1440,7 +1440,8 @@ public final class IJJOEPGPMBFOuterClass {
       "KGELA\030\007 \001(\r\022\023\n\013NKAGPHANCIG\030\n \003(\r\022\024\n\003pos\030" +
       "\014 \001(\0132\007.Vector\022\021\n\tsource_id\030\r \001(\r\022\033\n\005sta" +
       "te\030\016 \001(\0162\014.COFHOHEOMOK\022\023\n\013HMHCGLCNBMK\030\017 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025IJJOEP" +
+      "GPMBFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

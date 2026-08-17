@@ -766,8 +766,9 @@ public final class KGANPDMDBBCOuterClass {
       "\n\021KGANPDMDBBC.proto\032\021KGKACDKHFAN.proto\"j" +
       "\n\013KGANPDMDBBC\022\016\n\006height\030\001 \001(\r\022\023\n\013ILNFKKB" +
       "OHEI\030\002 \001(\005\022!\n\013KCOFGKHBKDG\030\003 \001(\0162\014.KGKACD" +
-      "KHFAN\022\023\n\013MIDIBDOBOCI\030\004 \001(\005B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "KHFAN\022\023\n\013MIDIBDOBOCI\030\004 \001(\005B2\n\031emu.grassc" +
+      "utter.net.protoB\025KGANPDMDBBCOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

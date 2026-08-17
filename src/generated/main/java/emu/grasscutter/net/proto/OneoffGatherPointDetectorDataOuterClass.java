@@ -1288,8 +1288,9 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       "\r\022\023\n\013hint_radius\030\010 \001(\r\022 \n\017hint_center_po" +
       "s\030\n \001(\0132\007.Vector\022\030\n\020is_all_collected\030\013 \001" +
       "(\010\022\025\n\ris_hint_valid\030\014 \001(\010\022\023\n\013material_id" +
-      "\030\r \001(\r\022\025\n\r_map_layer_id\030\016 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\030\r \001(\r\022\025\n\r_map_layer_id\030\016 \001(\rBD\n\031emu.gra" +
+      "sscutter.net.protoB\'OneoffGatherPointDet" +
+      "ectorDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1113,8 +1113,8 @@ public final class EGEMAIPJJOLOuterClass {
       "~\n\013EGEMAIPJJOL\022 \n\tteam_list\030\003 \003(\0132\r.Sumo" +
       "TeamData\022\023\n\013activity_id\030\004 \001(\r\022\020\n\010stage_i" +
       "d\030\005 \001(\r\022\025\n\rdifficulty_id\030\t \001(\r\022\017\n\007retcod" +
-      "e\030\013 \001(\005B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "e\030\013 \001(\005B2\n\031emu.grasscutter.net.protoB\025EG" +
+      "EMAIPJJOLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -596,7 +596,8 @@ public final class GCGTCInviteRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024GCGTCInviteRsp.proto\"7\n\016GCGTCInviteRsp" +
       "\022\017\n\007retcode\030\013 \001(\005\022\024\n\014character_id\030\r \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "5\n\031emu.grasscutter.net.protoB\030GCGTCInvit" +
+      "eRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

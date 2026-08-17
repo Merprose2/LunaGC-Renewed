@@ -595,8 +595,9 @@ public final class EEOEPNDLAALOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EEOEPNDLAAL.proto\"*\n\013EEOEPNDLAAL\022\n\n\002id" +
-      "\030\002 \001(\r\022\017\n\007retcode\030\006 \001(\005B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\030\002 \001(\r\022\017\n\007retcode\030\006 \001(\005B2\n\031emu.grasscutt" +
+      "er.net.protoB\025EEOEPNDLAALOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

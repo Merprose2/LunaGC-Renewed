@@ -1388,8 +1388,9 @@ public final class PlayerMatchInfoNotifyOuterClass {
       "JHHKM\030\010 \001(\r\022\022\n\ndungeon_id\030\t \001(\r\022\036\n\nmatch" +
       "_type\030\r \001(\0162\n.MatchType\022\030\n\020match_param_l" +
       "ist\030\016 \003(\r\022\020\n\010match_id\030\017 \001(\r\022\"\n\013IFKLFPBPE" +
-      "CD\030\252\001 \001(\0132\014.ACPPEBFNOKPB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "CD\030\252\001 \001(\0132\014.ACPPEBFNOKPB<\n\031emu.grasscutt" +
+      "er.net.protoB\037PlayerMatchInfoNotifyOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class GKBLDPINOBKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GKBLDPINOBK.proto\"/\n\013GKBLDPINOBK\022\017\n\007re" +
-      "tcode\030\006 \001(\005\022\017\n\007item_id\030\017 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "tcode\030\006 \001(\005\022\017\n\007item_id\030\017 \001(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025GKBLDPINOBKOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

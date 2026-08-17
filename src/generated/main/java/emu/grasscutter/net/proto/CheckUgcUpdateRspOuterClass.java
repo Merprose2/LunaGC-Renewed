@@ -831,8 +831,9 @@ public final class CheckUgcUpdateRspOuterClass {
       "\n\027CheckUgcUpdateRsp.proto\032\rUgcType.proto" +
       "\"^\n\021CheckUgcUpdateRsp\022\032\n\010ugc_type\030\001 \001(\0162" +
       "\010.UgcType\022\017\n\007retcode\030\t \001(\005\022\034\n\024update_ugc" +
-      "_guid_list\030\n \003(\004B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "_guid_list\030\n \003(\004B8\n\031emu.grasscutter.net." +
+      "protoB\033CheckUgcUpdateRspOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

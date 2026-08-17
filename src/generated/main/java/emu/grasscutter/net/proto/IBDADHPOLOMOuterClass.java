@@ -526,8 +526,8 @@ public final class IBDADHPOLOMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IBDADHPOLOM.proto\"\"\n\013IBDADHPOLOM\022\023\n\013KO" +
-      "GAOAPDFAO\030\r \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "GAOAPDFAO\030\r \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025IBDADHPOLOMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

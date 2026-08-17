@@ -1131,8 +1131,9 @@ public final class PDFMDHEGEGDOuterClass {
       "JKKAEDOEBG\030\002 \001(\010\022\023\n\013KOPGNANFMNN\030\003 \001(\010\022\014\n" +
       "\004name\030\004 \001(\t\022!\n\013DJCJHIDPIEH\030\005 \001(\0162\014.IEGHH" +
       "BCILGI\022\023\n\013APGDMDLAPDJ\030\006 \001(\r\022\023\n\013BHHKIHMBC" +
-      "HK\030\007 \001(\r\022\023\n\013AGJAKLMNKAH\030\010 \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "HK\030\007 \001(\r\022\023\n\013AGJAKLMNKAH\030\010 \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025PDFMDHEGEGDOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

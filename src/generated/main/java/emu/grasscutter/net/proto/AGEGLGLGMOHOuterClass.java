@@ -659,8 +659,8 @@ public final class AGEGLGLGMOHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AGEGLGLGMOH.proto\"K\n\013AGEGLGLGMOH\022\023\n\013BF" +
       "OEDMLIKGO\030\001 \001(\010\022\022\n\n_win_count\030\006 \001(\r\022\023\n\013B" +
-      "BDLIHPBGGP\030\t \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "BDLIHPBGGP\030\t \001(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025AGEGLGLGMOHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

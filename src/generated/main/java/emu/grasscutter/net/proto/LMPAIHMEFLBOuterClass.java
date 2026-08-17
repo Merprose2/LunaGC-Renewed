@@ -730,8 +730,9 @@ public final class LMPAIHMEFLBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LMPAIHMEFLB.proto\032\021OIKNBCNNHJP.proto\"D" +
       "\n\013LMPAIHMEFLB\022\022\n\nis_success\030\001 \001(\010\022!\n\013set" +
-      "tle_info\030\016 \001(\0132\014.OIKNBCNNHJPB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "tle_info\030\016 \001(\0132\014.OIKNBCNNHJPB2\n\031emu.gras" +
+      "scutter.net.protoB\025LMPAIHMEFLBOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

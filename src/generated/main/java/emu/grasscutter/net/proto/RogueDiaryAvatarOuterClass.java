@@ -1094,8 +1094,8 @@ public final class RogueDiaryAvatarOuterClass {
       "_round\030\006 \001(\r\022\r\n\005level\030\t \001(\r\022&\n\006avatar\030\014 " +
       "\001(\0132\026.ActivityDungeonAvatar\022;\n\023disable_s" +
       "tatus_list\030\017 \003(\0162\036.RogueDiaryAvatarDisab" +
-      "leStatusB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "leStatusB7\n\031emu.grasscutter.net.protoB\032R" +
+      "ogueDiaryAvatarOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -2256,8 +2256,9 @@ public final class EntityAuthorityInfoOuterClass {
       "ParameterValueInfoPair\0221\n\021client_extra_i" +
       "nfo\030\006 \001(\0132\026.EntityClientExtraInfo\022!\n\013CCL" +
       "KFDPOFML\030\007 \001(\0132\014.GLHICJGJDLP\022\034\n\013KAPPOHDC" +
-      "AKP\030\010 \001(\0132\007.VectorB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "AKP\030\010 \001(\0132\007.VectorB:\n\031emu.grasscutter.ne" +
+      "t.protoB\035EntityAuthorityInfoOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

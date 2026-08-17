@@ -907,8 +907,9 @@ public final class PlayerInvestigationAllInfoNotifyOuterClass {
       "\032\023Investigation.proto\"q\n PlayerInvestiga" +
       "tionAllInfoNotify\022!\n\031investigation_targe" +
       "t_list\030\005 \001(\014\022*\n\022investigation_list\030\014 \003(\013" +
-      "2\016.InvestigationB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "2\016.InvestigationBG\n\031emu.grasscutter.net." +
+      "protoB*PlayerInvestigationAllInfoNotifyO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

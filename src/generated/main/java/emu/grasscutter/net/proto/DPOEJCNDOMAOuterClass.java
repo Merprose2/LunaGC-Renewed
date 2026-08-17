@@ -737,8 +737,9 @@ public final class DPOEJCNDOMAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DPOEJCNDOMA.proto\"U\n\013DPOEJCNDOMA\022\023\n\013AI" +
       "MOFCDLABD\030\001 \001(\010\022\017\n\007buff_id\030\005 \001(\r\022\017\n\007slot" +
-      "_id\030\006 \001(\r\022\017\n\007retcode\030\014 \001(\005B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "_id\030\006 \001(\r\022\017\n\007retcode\030\014 \001(\005B2\n\031emu.grassc" +
+      "utter.net.protoB\025DPOEJCNDOMAOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

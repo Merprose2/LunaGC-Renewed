@@ -1074,8 +1074,9 @@ public final class PlayerApplyEnterHomeResultNotifyOuterClass {
       "OR_CHECK\020\010\022(\n$Reason_XBOX_PLAYER_NOT_ACC" +
       "EPT_OTHERS\020\t\022+\n\'Reason_PLAYER_NOT_ACCEPT" +
       "_OTHER_PLATFORM\020\n\022\024\n\020Reason_XBOX_ONLY\020\013\022" +
-      "\035\n\031Reason_SCENE_CANNOT_ENTER\020\014B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\035\n\031Reason_SCENE_CANNOT_ENTER\020\014BG\n\031emu.gr" +
+      "asscutter.net.protoB*PlayerApplyEnterHom" +
+      "eResultNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

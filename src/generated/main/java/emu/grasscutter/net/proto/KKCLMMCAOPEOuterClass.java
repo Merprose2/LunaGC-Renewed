@@ -1052,8 +1052,9 @@ public final class KKCLMMCAOPEOuterClass {
       "gm_id\030\244\002 \001(\rH\000\022\024\n\tred_point\030\254\002 \001(\rH\000\022\037\n\024" +
       "is_show_detail_build\030\250\007 \001(\010H\000\022(\n\035is_show" +
       "_brief_card_event_case\030\326\t \001(\010H\000\022\034\n\021is_sh" +
-      "ow_animation\030\275\013 \001(\010H\000B\010\n\006detailB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "ow_animation\030\275\013 \001(\010H\000B\010\n\006detailB2\n\031emu.g" +
+      "rasscutter.net.protoB\025KKCLMMCAOPEOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

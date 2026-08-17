@@ -659,7 +659,8 @@ public final class PKCEOOKALADOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PKCEOOKALAD.proto\032\021LGEJFJIIKJD.proto\")" +
       "\n\013PKCEOOKALAD\022\032\n\004info\030\n \001(\0132\014.LGEJFJIIKJ" +
-      "DB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "DB2\n\031emu.grasscutter.net.protoB\025PKCEOOKA" +
+      "LADOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -894,8 +894,9 @@ public final class FireworksReformDataOuterClass {
       "\n\031FireworksReformData.proto\032\032FireworksRe" +
       "formParam.proto\"S\n\023FireworksReformData\0220" +
       "\n\021reform_param_list\030\001 \003(\0132\025.FireworksRef" +
-      "ormParam\022\n\n\002id\030\r \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "ormParam\022\n\n\002id\030\r \001(\rB:\n\031emu.grasscutter." +
+      "net.protoB\035FireworksReformDataOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

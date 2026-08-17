@@ -1324,8 +1324,9 @@ public final class GCGControllerShowInfoOuterClass {
       "\017profile_picture\030\003 \001(\0132\017.ProfilePicture\022" +
       "\021\n\tonline_id\030\006 \001(\t\022\021\n\tnick_name\030\n \001(\t\022\026\n" +
       "\016_xbox_gamertag\030\013 \001(\t\022\016\n\006psn_id\030\014 \001(\t\022\025\n" +
-      "\rcontroller_id\030\016 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\rcontroller_id\030\016 \001(\rB<\n\031emu.grasscutter." +
+      "net.protoB\037GCGControllerShowInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

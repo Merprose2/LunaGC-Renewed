@@ -595,8 +595,9 @@ public final class AGALEGEGNMEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AGALEGEGNME.proto\"*\n\013AGALEGEGNME\022\017\n\007re" +
-      "tcode\030\001 \001(\005\022\n\n\002id\030\010 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "tcode\030\001 \001(\005\022\n\n\002id\030\010 \001(\rB2\n\031emu.grasscutt" +
+      "er.net.protoB\025AGALEGEGNMEOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

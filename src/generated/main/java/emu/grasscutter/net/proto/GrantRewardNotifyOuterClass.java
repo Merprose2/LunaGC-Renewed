@@ -659,8 +659,8 @@ public final class GrantRewardNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027GrantRewardNotify.proto\032\014Reward.proto\"" +
       ",\n\021GrantRewardNotify\022\027\n\006reward\030\010 \001(\0132\007.R" +
-      "ewardB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "ewardB8\n\031emu.grasscutter.net.protoB\033Gran" +
+      "tRewardNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

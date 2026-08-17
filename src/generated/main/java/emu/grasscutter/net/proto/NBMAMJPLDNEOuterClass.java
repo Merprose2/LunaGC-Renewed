@@ -1035,8 +1035,9 @@ public final class NBMAMJPLDNEOuterClass {
       "KBAFLHAFJMA.proto\"\210\001\n\013NBMAMJPLDNE\022!\n\013AFP" +
       "PDMBDDCD\030\001 \001(\0162\014.KBAFLHAFJMA\022!\n\013DLMJCBBI" +
       "JAB\030\002 \001(\0132\014.HHEDHCFPEKM\022!\n\013CNLDEDIHNIA\030\003" +
-      " \001(\0132\014.HHEDHCFPEKM\022\020\n\010velocity\030\004 \001(\002B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      " \001(\0132\014.HHEDHCFPEKM\022\020\n\010velocity\030\004 \001(\002B2\n\031" +
+      "emu.grasscutter.net.protoB\025NBMAMJPLDNEOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

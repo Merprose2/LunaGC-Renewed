@@ -2042,8 +2042,9 @@ public final class HIAOOAEDJDEOuterClass {
       "on\030\r \001(\0132\014.CBPIIFLBFNLH\000\022 \n\010mini_map\030\016 \001" +
       "(\0132\014.PCDOALEDFEJH\000\022)\n\021none_intrinsic_ui\030" +
       "\017 \001(\0132\014.PENHEEDCPHJH\000\022,\n\024basic_active_co" +
-      "ntrol\030\020 \001(\0132\014.KKCNHBPDGJMH\000B\010\n\006detailB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "ntrol\030\020 \001(\0132\014.KKCNHBPDGJMH\000B\010\n\006detailB2\n" +
+      "\031emu.grasscutter.net.protoB\025HIAOOAEDJDEO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

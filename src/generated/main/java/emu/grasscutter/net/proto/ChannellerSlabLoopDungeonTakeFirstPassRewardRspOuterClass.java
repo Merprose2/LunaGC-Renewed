@@ -597,8 +597,10 @@ public final class ChannellerSlabLoopDungeonTakeFirstPassRewardRspOuterClass {
       "\n5ChannellerSlabLoopDungeonTakeFirstPass" +
       "RewardRsp.proto\"Y\n/ChannellerSlabLoopDun" +
       "geonTakeFirstPassRewardRsp\022\025\n\rdungeon_in" +
-      "dex\030\005 \001(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "dex\030\005 \001(\r\022\017\n\007retcode\030\016 \001(\005BV\n\031emu.grassc" +
+      "utter.net.protoB9ChannellerSlabLoopDunge" +
+      "onTakeFirstPassRewardRspOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

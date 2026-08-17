@@ -794,8 +794,8 @@ public final class KFIKHMHNGJCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KFIKHMHNGJC.proto\"L\n\013KFIKHMHNGJC\022\026\n\016en" +
       "tity_id_list\030\001 \003(\r\022\023\n\013BGHMFKPFDLF\030\002 \001(\010\022" +
-      "\020\n\010scene_id\030\006 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\020\n\010scene_id\030\006 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025KFIKHMHNGJCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

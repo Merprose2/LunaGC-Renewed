@@ -800,8 +800,9 @@ public final class HomeGetGroupRecordRspOuterClass {
       "\n\033HomeGetGroupRecordRsp.proto\032\025HomeGroup" +
       "Record.proto\"e\n\025HomeGetGroupRecordRsp\022&\n" +
       "\014group_record\030\t \001(\0132\020.HomeGroupRecord\022\017\n" +
-      "\007retcode\030\014 \001(\005\022\023\n\013record_type\030\017 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\007retcode\030\014 \001(\005\022\023\n\013record_type\030\017 \001(\rB<\n\031e" +
+      "mu.grasscutter.net.protoB\037HomeGetGroupRe" +
+      "cordRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

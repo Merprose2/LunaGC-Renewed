@@ -564,8 +564,9 @@ public final class TakeMaterialDeleteReturnReqOuterClass {
       "\n!TakeMaterialDeleteReturnReq.proto\032\036Mat" +
       "erialDeleteReturnType.proto\"F\n\033TakeMater" +
       "ialDeleteReturnReq\022\'\n\004type\030\n \001(\0162\031.Mater" +
-      "ialDeleteReturnTypeB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "ialDeleteReturnTypeBB\n\031emu.grasscutter.n" +
+      "et.protoB%TakeMaterialDeleteReturnReqOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

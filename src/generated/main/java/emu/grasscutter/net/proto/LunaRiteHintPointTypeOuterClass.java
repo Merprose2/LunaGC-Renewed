@@ -145,8 +145,9 @@ public final class LunaRiteHintPointTypeOuterClass {
       "_LUNA_RITE_HINT_TYPE_NONE\020\000\0222\n.LunaRiteH" +
       "intPointType_LUNA_RITE_HINT_TYPE_RUNE\020\001\022" +
       "3\n/LunaRiteHintPointType_LUNA_RITE_HINT_" +
-      "TYPE_CHEST\020\002B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "TYPE_CHEST\020\002B<\n\031emu.grasscutter.net.prot" +
+      "oB\037LunaRiteHintPointTypeOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

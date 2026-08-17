@@ -800,8 +800,8 @@ public final class JGIHCGBLMGIOuterClass {
       "\n\021JGIHCGBLMGI.proto\032\021JJOJINAGBKF.proto\"W" +
       "\n\013JGIHCGBLMGI\022!\n\013EGCBMGIEKBB\030\003 \001(\0132\014.JJO" +
       "JINAGBKF\022\020\n\010skill_id\030\010 \001(\r\022\023\n\013LJGHDOOCCG" +
-      "C\030\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "C\030\013 \001(\rB2\n\031emu.grasscutter.net.protoB\025JG" +
+      "IHCGBLMGIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

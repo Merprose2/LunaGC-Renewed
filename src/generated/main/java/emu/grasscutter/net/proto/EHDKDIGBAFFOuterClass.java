@@ -446,8 +446,9 @@ public final class EHDKDIGBAFFOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021EHDKDIGBAFF.proto\"\r\n\013EHDKDIGBAFFB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021EHDKDIGBAFF.proto\"\r\n\013EHDKDIGBAFFB2\n\031em" +
+      "u.grasscutter.net.protoB\025EHDKDIGBAFFOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

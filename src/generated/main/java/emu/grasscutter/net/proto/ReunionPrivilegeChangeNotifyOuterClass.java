@@ -731,7 +731,8 @@ public final class ReunionPrivilegeChangeNotifyOuterClass {
       "unionPrivilegeInfo.proto\"b\n\034ReunionPrivi" +
       "legeChangeNotify\022\023\n\013IGKHIHOLHLJ\030\005 \001(\r\022-\n" +
       "\016privilege_info\030\016 \001(\0132\025.ReunionPrivilege" +
-      "InfoB\033\n\031emu.grasscutter.net.protob\006proto" +
+      "InfoBC\n\031emu.grasscutter.net.protoB&Reuni" +
+      "onPrivilegeChangeNotifyOuterClassb\006proto" +
       "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

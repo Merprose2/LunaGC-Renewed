@@ -1211,8 +1211,8 @@ public final class IOAHGIIMHLAOuterClass {
       "\n\021IOAHGIIMHLA.proto\032\021HGAEODJDAJN.proto\"Y" +
       "\n\013IOAHGIIMHLA\022\023\n\013AFHHNNOHAGL\030\004 \003(\r\022 \n\nle" +
       "vel_list\030\007 \003(\0132\014.HGAEODJDAJN\022\023\n\013MAIFJKIH" +
-      "CKI\030\t \003(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "CKI\030\t \003(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "IOAHGIIMHLAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

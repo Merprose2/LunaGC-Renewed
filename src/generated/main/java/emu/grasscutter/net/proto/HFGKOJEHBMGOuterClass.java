@@ -562,8 +562,9 @@ public final class HFGKOJEHBMGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HFGKOJEHBMG.proto\032\rUgcType.proto\")\n\013HF" +
-      "GKOJEHBMG\022\032\n\010ugc_type\030\t \001(\0162\010.UgcTypeB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "GKOJEHBMG\022\032\n\010ugc_type\030\t \001(\0162\010.UgcTypeB2\n" +
+      "\031emu.grasscutter.net.protoB\025HFGKOJEHBMGO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

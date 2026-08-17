@@ -1002,7 +1002,8 @@ public final class GOJKIAKMJOPOuterClass {
       "JGNFHCCOBIP.proto\"d\n\013GOJKIAKMJOP\022\020\n\010rout" +
       "e_id\030\001 \001(\005\022!\n\013EIHOHLKAHMF\030\002 \001(\0162\014.JEOKDC" +
       "IGCFP\022 \n\npoint_list\030\003 \003(\0132\014.JGNFHCCOBIPB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025GOJKIAKMJO" +
+      "POuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

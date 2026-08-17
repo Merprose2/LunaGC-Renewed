@@ -133,8 +133,8 @@ public final class MPAIPCFGLMFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MPAIPCFGLMF.proto*K\n\013MPAIPCFGLMF\022\024\n\020MP" +
       "AIPCFGLMF_NONE\020\000\022&\n\"MPAIPCFGLMF_CLASSIC_" +
-      "MODE_TEAM_INFO\020\001B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "MODE_TEAM_INFO\020\001B2\n\031emu.grasscutter.net." +
+      "protoB\025MPAIPCFGLMFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

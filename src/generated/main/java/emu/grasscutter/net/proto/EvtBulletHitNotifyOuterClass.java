@@ -1432,8 +1432,9 @@ public final class EvtBulletHitNotifyOuterClass {
       "tColliderType\022\023\n\013HHJIDBIPLMB\030\n \001(\r\022\024\n\014fo" +
       "rward_peer\030\014 \001(\r\022\032\n\thit_point\030\r \001(\0132\007.Ve" +
       "ctor\022\"\n\014forward_type\030\016 \001(\0162\014.ForwardType" +
-      "\022\033\n\nhit_normal\030\017 \001(\0132\007.VectorB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\022\033\n\nhit_normal\030\017 \001(\0132\007.VectorB9\n\031emu.gra" +
+      "sscutter.net.protoB\034EvtBulletHitNotifyOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

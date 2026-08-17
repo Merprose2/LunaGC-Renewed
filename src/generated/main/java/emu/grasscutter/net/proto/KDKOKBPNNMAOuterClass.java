@@ -133,7 +133,8 @@ public final class KDKOKBPNNMAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KDKOKBPNNMA.proto*=\n\013KDKOKBPNNMA\022\030\n\024KD" +
       "KOKBPNNMA_PERSONAL\020\000\022\024\n\020KDKOKBPNNMA_ARMY" +
-      "\020\001B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\020\001B2\n\031emu.grasscutter.net.protoB\025KDKOKBP" +
+      "NNMAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

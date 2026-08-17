@@ -1459,7 +1459,8 @@ public final class CLGMFGMHFDOOuterClass {
       "\n\013DBGPMLHNJAD\030\010 \001(\0132\014.BKMGMIPPBFK\022!\n\013HPD" +
       "FMMOPLEH\030\t \001(\0132\014.ODDNMCOLJJK\022!\n\013EGMPBIBH" +
       "OGC\030\n \001(\0132\014.APPNLDHBAMM\022\017\n\007retcode\030\013 \001(\005" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025CLGMFGMHF" +
+      "DOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

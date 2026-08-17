@@ -2298,8 +2298,9 @@ public final class FurnitureMakeRspOuterClass {
       "ake_slot\030\t \001(\0132\022.FurnitureMakeSlot\022!\n\013FG" +
       "ODNAPHLGL\030\n \003(\0132\014.BBJEJOLHJGL\022!\n\013FKNBOMD" +
       "LMGP\030\r \003(\0132\014.BGNKJKOGBAE\022!\n\013NDADFCDJOBK\030" +
-      "\016 \003(\0132\014.CEIDAKMCDHCB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\016 \003(\0132\014.CEIDAKMCDHCB7\n\031emu.grasscutter.n" +
+      "et.protoB\032FurnitureMakeRspOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

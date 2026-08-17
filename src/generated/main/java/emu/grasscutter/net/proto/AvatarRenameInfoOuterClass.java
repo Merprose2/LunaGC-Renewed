@@ -668,8 +668,8 @@ public final class AvatarRenameInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026AvatarRenameInfo.proto\":\n\020AvatarRename" +
       "Info\022\023\n\013avatar_name\030\003 \001(\t\022\021\n\tavatar_id\030\t" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB7\n\031emu.grasscutter.net.protoB\032Avata" +
+      "rRenameInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

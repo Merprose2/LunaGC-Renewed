@@ -666,8 +666,8 @@ public final class CHPOPDGPKEKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CHPOPDGPKEK.proto\"G\n\013CHPOPDGPKEK\022\022\n\neq" +
       "uip_guid\030\004 \001(\r\022\017\n\007retcode\030\006 \001(\005\022\023\n\013LOJKK" +
-      "ILCLHO\030\016 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "ILCLHO\030\016 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025CHPOPDGPKEKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

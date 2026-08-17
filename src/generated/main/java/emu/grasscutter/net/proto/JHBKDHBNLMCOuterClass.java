@@ -5624,8 +5624,8 @@ public final class JHBKDHBNLMCOuterClass {
       "NNIINKNJHOL\030[ \001(\005\022\023\n\013LJBAEJCCIII\030\\ \001(\002\022\023" +
       "\n\013DCDHLICLANG\030] \001(\002\022!\n\013DKAGHCBFCCF\030^ \001(\013" +
       "2\014.JILHOBOMDKC\022!\n\013ABIPPNDALKL\030_ \001(\0132\014.JI" +
-      "LHOBOMDKCB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "LHOBOMDKCB2\n\031emu.grasscutter.net.protoB\025" +
+      "JHBKDHBNLMCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

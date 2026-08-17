@@ -1017,8 +1017,9 @@ public final class KIOOIODGGLFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KIOOIODGGLF.proto\032\021GGJDFDMPIKE.proto\"E" +
       "\n\013KIOOIODGGLF\022!\n\013FCDNMJLCHOP\030\001 \003(\0132\014.GGJ" +
-      "DFDMPIKE\022\023\n\013IPKAGDGLNHO\030\002 \003(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "DFDMPIKE\022\023\n\013IPKAGDGLNHO\030\002 \003(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025KIOOIODGGLFOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

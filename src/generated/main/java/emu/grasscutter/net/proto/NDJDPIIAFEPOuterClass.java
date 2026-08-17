@@ -525,8 +525,8 @@ public final class NDJDPIIAFEPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NDJDPIIAFEP.proto\"\037\n\013NDJDPIIAFEP\022\020\n\010qu" +
-      "est_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "est_id\030\016 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025NDJDPIIAFEPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

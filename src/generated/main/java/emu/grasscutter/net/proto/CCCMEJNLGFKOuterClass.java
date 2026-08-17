@@ -15162,8 +15162,9 @@ public final class CCCMEJNLGFKOuterClass {
       "BIFNH\000\022\'\n\017msg_queue_value\030F \001(\0132\014.LELIIH" +
       "AKCICH\000\022+\n\023msg_queue_item_list\030G \001(\0132\014.L" +
       "HKLGGANBNIH\000\0220\n\030creator_subscribe_button" +
-      "\030H \001(\0132\014.INKBPJILHLIH\000B\010\n\006detailB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\030H \001(\0132\014.INKBPJILHLIH\000B\010\n\006detailB2\n\031emu." +
+      "grasscutter.net.protoB\025CCCMEJNLGFKOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

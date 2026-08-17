@@ -446,8 +446,9 @@ public final class HMDBFAAGJDDOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021HMDBFAAGJDD.proto\"\r\n\013HMDBFAAGJDDB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021HMDBFAAGJDD.proto\"\r\n\013HMDBFAAGJDDB2\n\031em" +
+      "u.grasscutter.net.protoB\025HMDBFAAGJDDOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

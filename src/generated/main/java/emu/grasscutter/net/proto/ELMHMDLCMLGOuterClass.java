@@ -848,8 +848,9 @@ public final class ELMHMDLCMLGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ELMHMDLCMLG.proto\032\021HJKKDOLHNGK.proto\"E" +
       "\n\013ELMHMDLCMLG\022!\n\013MOBDJNFJOJH\030\001 \001(\0132\014.HJK" +
-      "KDOLHNGK\022\023\n\013ENGGLKFLCFC\030\002 \003(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "KDOLHNGK\022\023\n\013ENGGLKFLCFC\030\002 \003(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025ELMHMDLCMLGOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

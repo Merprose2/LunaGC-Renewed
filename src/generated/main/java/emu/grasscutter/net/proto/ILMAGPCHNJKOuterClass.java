@@ -4132,7 +4132,8 @@ public final class ILMAGPCHNJKOuterClass {
       "EFBOJGPFE\030\017 \001(\0132\014.KNAODFDGNGA\022\023\n\013MIODOAO" +
       "BPOB\030\020 \001(\014\022!\n\013PBPJHMLGFLA\030\021 \001(\0132\014.FIHONC" +
       "HGKOP\022!\n\013IIOENNNGCIH\030\022 \001(\0132\014.KNLIHAFDKKO" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025ILMAGPCHN" +
+      "JKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1275,7 +1275,8 @@ public final class GPCKNGMGKIDOuterClass {
       "HEHKDOJCIPE.proto\"d\n\013GPCKNGMGKID\022\017\n\007retc" +
       "ode\030\001 \001(\005\022!\n\013ADIBGGAAEBH\030\010 \003(\0132\014.FriendB" +
       "rief\022!\n\013ALFFCIBHOGA\030\t \003(\0132\014.HEHKDOJCIPEB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025GPCKNGMGKI" +
+      "DOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

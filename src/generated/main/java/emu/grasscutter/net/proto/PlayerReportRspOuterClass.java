@@ -666,8 +666,8 @@ public final class PlayerReportRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025PlayerReportRsp.proto\"G\n\017PlayerReportR" +
       "sp\022\017\n\007retcode\030\003 \001(\005\022\017\n\007cd_time\030\013 \001(\r\022\022\n\n" +
-      "target_uid\030\r \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "target_uid\030\r \001(\rB6\n\031emu.grasscutter.net." +
+      "protoB\031PlayerReportRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

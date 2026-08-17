@@ -793,8 +793,8 @@ public final class AMFBHINMIIEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AMFBHINMIIE.proto\"H\n\013AMFBHINMIIE\022\020\n\010le" +
       "vel_id\030\007 \001(\r\022\022\n\ndifficulty\030\n \001(\r\022\023\n\013AGIL" +
-      "CKGHLME\030\016 \003(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "CKGHLME\030\016 \003(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025AMFBHINMIIEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

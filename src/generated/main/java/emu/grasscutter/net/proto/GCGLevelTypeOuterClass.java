@@ -252,8 +252,8 @@ public final class GCGLevelTypeOuterClass {
       "_GCG_LEVEL_JOURNEY\020\n\022\036\n\032GCGLevelType_GCG" +
       "_LEVEL_PVE\020\013\022\'\n#GCGLevelType_GCG_LEVEL_P" +
       "VE_INFINITE\020\014\022%\n!GCGLevelType_GCG_LEVEL_" +
-      "PVE_PUZZLE\020\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "PVE_PUZZLE\020\rB3\n\031emu.grasscutter.net.prot" +
+      "oB\026GCGLevelTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

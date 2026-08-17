@@ -916,8 +916,8 @@ public final class NPMACILOJKIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NPMACILOJKI.proto\"I\n\013NPMACILOJKI\022\023\n\013EB" +
       "FKBDLLJGC\030\004 \003(\r\022\023\n\013BGKNOBGMOIP\030\t \003(\r\022\020\n\010" +
-      "level_id\030\r \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "level_id\030\r \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025NPMACILOJKIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

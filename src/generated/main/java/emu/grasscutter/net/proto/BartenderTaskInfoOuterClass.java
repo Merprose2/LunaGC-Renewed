@@ -588,8 +588,9 @@ public final class BartenderTaskInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027BartenderTaskInfo.proto\"2\n\021BartenderTa" +
-      "skInfo\022\021\n\tis_finish\030\t \001(\010\022\n\n\002id\030\016 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "skInfo\022\021\n\tis_finish\030\t \001(\010\022\n\n\002id\030\016 \001(\rB8\n" +
+      "\031emu.grasscutter.net.protoB\033BartenderTas" +
+      "kInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

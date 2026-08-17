@@ -724,8 +724,9 @@ public final class RoguelikeCardGachaNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036RoguelikeCardGachaNotify.proto\"E\n\030Rogu" +
       "elikeCardGachaNotify\022\026\n\016is_can_refresh\030\001" +
-      " \001(\010\022\021\n\tcard_list\030\t \003(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      " \001(\010\022\021\n\tcard_list\030\t \003(\rB?\n\031emu.grasscutt" +
+      "er.net.protoB\"RoguelikeCardGachaNotifyOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

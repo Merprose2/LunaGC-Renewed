@@ -525,8 +525,8 @@ public final class FGOGAJNNMGLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FGOGAJNNMGL.proto\"\036\n\013FGOGAJNNMGL\022\017\n\007re" +
-      "tcode\030\013 \001(\005B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "tcode\030\013 \001(\005B2\n\031emu.grasscutter.net.proto" +
+      "B\025FGOGAJNNMGLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

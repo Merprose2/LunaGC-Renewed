@@ -722,8 +722,9 @@ public final class CLFPGFCICFFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CLFPGFCICFF.proto\032\021FLJNOAOAJCP.proto\"E" +
       "\n\013CLFPGFCICFF\022\023\n\013KGDHIIGEFEJ\030\001 \001(\003\022!\n\013EP" +
-      "LBHJCPGAO\030\002 \001(\0132\014.FLJNOAOAJCPB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "LBHJCPGAO\030\002 \001(\0132\014.FLJNOAOAJCPB2\n\031emu.gra" +
+      "sscutter.net.protoB\025CLFPGFCICFFOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

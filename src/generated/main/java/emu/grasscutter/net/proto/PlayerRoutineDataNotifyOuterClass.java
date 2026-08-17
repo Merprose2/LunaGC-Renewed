@@ -832,8 +832,9 @@ public final class PlayerRoutineDataNotifyOuterClass {
       "\n\035PlayerRoutineDataNotify.proto\032\027PlayerR" +
       "outineInfo.proto\"H\n\027PlayerRoutineDataNot" +
       "ify\022-\n\021routine_info_list\030\010 \003(\0132\022.PlayerR" +
-      "outineInfoB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "outineInfoB>\n\031emu.grasscutter.net.protoB" +
+      "!PlayerRoutineDataNotifyOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

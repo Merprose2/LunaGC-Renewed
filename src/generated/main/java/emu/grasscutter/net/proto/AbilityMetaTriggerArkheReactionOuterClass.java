@@ -1376,8 +1376,9 @@ public final class AbilityMetaTriggerArkheReactionOuterClass {
       "\023\n\013IJDCHFHBPHG\030\010 \001(\005\022\023\n\013BNBBLJCDMPJ\030\t \001(" +
       "\r\022$\n\014ability_name\030\013 \001(\0132\016.AbilityString\022" +
       "\030\n\020source_caster_id\030\r \001(\r\022\022\n\nattack_tag\030" +
-      "\017 \001(\tB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\017 \001(\tBF\n\031emu.grasscutter.net.protoB)Abil" +
+      "ityMetaTriggerArkheReactionOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -446,8 +446,9 @@ public final class FPAFMILOBEKOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021FPAFMILOBEK.proto\"\r\n\013FPAFMILOBEKB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021FPAFMILOBEK.proto\"\r\n\013FPAFMILOBEKB2\n\031em" +
+      "u.grasscutter.net.protoB\025FPAFMILOBEKOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

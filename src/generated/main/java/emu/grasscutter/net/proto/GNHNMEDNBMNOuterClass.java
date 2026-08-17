@@ -1140,7 +1140,8 @@ public final class GNHNMEDNBMNOuterClass {
       "\014target_count\030\003 \001(\r\022\023\n\013JOFDFLCFCNJ\030\004 \001(\005" +
       "\022\023\n\013NIEHOJOMPHD\030\005 \001(\005\022\020\n\010tag_list\030\006 \003(\r\022" +
       "\023\n\013LILACDAABJH\030\007 \001(\010\022\023\n\013PPJIFKBIKIL\030\010 \001(" +
-      "\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\010B2\n\031emu.grasscutter.net.protoB\025GNHNMEDN" +
+      "BMNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -598,7 +598,8 @@ public final class FocusAvatarReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024FocusAvatarReq.proto\"7\n\016FocusAvatarReq" +
       "\022\023\n\013avatar_guid\030\006 \001(\004\022\020\n\010is_focus\030\r \001(\010B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "5\n\031emu.grasscutter.net.protoB\030FocusAvata" +
+      "rReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

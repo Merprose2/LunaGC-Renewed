@@ -730,7 +730,8 @@ public final class SceneGalleryMuqadasPotionInfoOuterClass {
       "\035SceneGalleryMuqadasPotionInfo\022\r\n\005score\030" +
       "\006 \001(\r\022\023\n\013MABNMOBEJDA\030\010 \001(\r\022\023\n\013DHDHMJCOJA" +
       "J\030\013 \001(\r\022\036\n\026capture_weakness_count\030\r \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "D\n\031emu.grasscutter.net.protoB\'SceneGalle" +
+      "ryMuqadasPotionInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

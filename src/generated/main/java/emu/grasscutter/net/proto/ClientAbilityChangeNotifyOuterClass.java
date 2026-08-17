@@ -974,8 +974,9 @@ public final class ClientAbilityChangeNotifyOuterClass {
       "tyInvokeEntry.proto\"j\n\031ClientAbilityChan" +
       "geNotify\022\024\n\014is_init_hash\030\004 \001(\010\022$\n\007invoke" +
       "s\030\014 \003(\0132\023.AbilityInvokeEntry\022\021\n\tentity_i" +
-      "d\030\r \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "d\030\r \001(\rB@\n\031emu.grasscutter.net.protoB#Cl" +
+      "ientAbilityChangeNotifyOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

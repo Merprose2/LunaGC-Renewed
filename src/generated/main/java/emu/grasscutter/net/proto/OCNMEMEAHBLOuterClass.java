@@ -533,8 +533,9 @@ public final class OCNMEMEAHBLOuterClass {
       "UE\020u\022\036\n\032OCNMEMEAHBL_CHANGE_CAMP_ID\020v\022\'\n#" +
       "OCNMEMEAHBL_BEYOND_BLUEPRINT_REMOVE\020w\022 \n" +
       "\034OCNMEMEAHBL_MP_ACTION_REMOVE\020x\022\034\n\030OCNME" +
-      "MEAHBL_DENY_LOCK_ON\020yB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "MEAHBL_DENY_LOCK_ON\020yB2\n\031emu.grasscutter" +
+      ".net.protoB\025OCNMEMEAHBLOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

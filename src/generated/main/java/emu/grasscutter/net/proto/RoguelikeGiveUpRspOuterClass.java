@@ -898,8 +898,9 @@ public final class RoguelikeGiveUpRspOuterClass {
       "geonSettleInfo.proto\"s\n\022RoguelikeGiveUpR" +
       "sp\0222\n\013settle_info\030\004 \001(\0132\033.RoguelikeDunge" +
       "onSettleInfoH\000\022\017\n\007retcode\030\n \001(\005\022\020\n\010stage" +
-      "_id\030\013 \001(\rB\006\n\004infoB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "_id\030\013 \001(\rB\006\n\004infoB9\n\031emu.grasscutter.net" +
+      ".protoB\034RoguelikeGiveUpRspOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

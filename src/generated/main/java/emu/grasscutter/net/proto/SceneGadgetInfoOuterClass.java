@@ -413,11 +413,11 @@ public final class SceneGadgetInfoOuterClass {
      * <code>._TrifleGadgetInfo trifle_gadget = 67;</code>
      * @return The trifleGadget.
      */
-    emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo getTrifleGadget();
+    emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo getTrifleGadget();
     /**
      * <code>._TrifleGadgetInfo trifle_gadget = 67;</code>
      */
-    emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfoOrBuilder getTrifleGadgetOrBuilder();
+    emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfoOrBuilder getTrifleGadgetOrBuilder();
 
     /**
      * <code>uint32 mark_flag = 21;</code>
@@ -537,11 +537,11 @@ public final class SceneGadgetInfoOuterClass {
      * <code>._UgcTowerLevelUpGadgetInfo _ugc_tower_level_up_gadget_info = 101;</code>
      * @return The ugcTowerLevelUpGadgetInfo.
      */
-    emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo getUgcTowerLevelUpGadgetInfo();
+    emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo getUgcTowerLevelUpGadgetInfo();
     /**
      * <code>._UgcTowerLevelUpGadgetInfo _ugc_tower_level_up_gadget_info = 101;</code>
      */
-    emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfoOrBuilder getUgcTowerLevelUpGadgetInfoOrBuilder();
+    emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfoOrBuilder getUgcTowerLevelUpGadgetInfoOrBuilder();
 
     /**
      * <code>._JourneyGearGadgetInfo _journey_gear_operator_info = 102;</code>
@@ -552,11 +552,11 @@ public final class SceneGadgetInfoOuterClass {
      * <code>._JourneyGearGadgetInfo _journey_gear_operator_info = 102;</code>
      * @return The journeyGearOperatorInfo.
      */
-    emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo getJourneyGearOperatorInfo();
+    emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo getJourneyGearOperatorInfo();
     /**
      * <code>._JourneyGearGadgetInfo _journey_gear_operator_info = 102;</code>
      */
-    emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfoOrBuilder getJourneyGearOperatorInfoOrBuilder();
+    emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfoOrBuilder getJourneyGearOperatorInfoOrBuilder();
 
     /**
      * <code>._UgcSpecialGadgetInfo _ugc_v2_special_gadget_info = 103;</code>
@@ -567,11 +567,11 @@ public final class SceneGadgetInfoOuterClass {
      * <code>._UgcSpecialGadgetInfo _ugc_v2_special_gadget_info = 103;</code>
      * @return The ugcV2SpecialGadgetInfo.
      */
-    emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo getUgcV2SpecialGadgetInfo();
+    emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo getUgcV2SpecialGadgetInfo();
     /**
      * <code>._UgcSpecialGadgetInfo _ugc_v2_special_gadget_info = 103;</code>
      */
-    emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfoOrBuilder getUgcV2SpecialGadgetInfoOrBuilder();
+    emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfoOrBuilder getUgcV2SpecialGadgetInfoOrBuilder();
 
     /**
      * <code>fixed64 _lan_v6_card_guid = 104;</code>
@@ -588,11 +588,11 @@ public final class SceneGadgetInfoOuterClass {
      * <code>._LanV6CardTextInfo _lan_v6_card_text_info = 105;</code>
      * @return The lanV6CardTextInfo.
      */
-    emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo getLanV6CardTextInfo();
+    emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo getLanV6CardTextInfo();
     /**
      * <code>._LanV6CardTextInfo _lan_v6_card_text_info = 105;</code>
      */
-    emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfoOrBuilder getLanV6CardTextInfoOrBuilder();
+    emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfoOrBuilder getLanV6CardTextInfoOrBuilder();
 
     /**
      * <code>.BGBKIIKGFFA AOLIIOCJNLE = 106;</code>
@@ -1104,14 +1104,14 @@ public final class SceneGadgetInfoOuterClass {
               break;
             }
             case 538: {
-              emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo.Builder subBuilder = null;
               if (contentCase_ == 67) {
-                subBuilder = ((emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo) content_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo) content_).toBuilder();
               }
               content_ =
-                  input.readMessage(emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo) content_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo) content_);
                 content_ = subBuilder.buildPartial();
               }
               contentCase_ = 67;
@@ -1131,11 +1131,11 @@ public final class SceneGadgetInfoOuterClass {
               break;
             }
             case 810: {
-              emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo.Builder subBuilder = null;
               if (UgcTowerLevelUpGadgetInfo_ != null) {
                 subBuilder = UgcTowerLevelUpGadgetInfo_.toBuilder();
               }
-              UgcTowerLevelUpGadgetInfo_ = input.readMessage(emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo.parser(), extensionRegistry);
+              UgcTowerLevelUpGadgetInfo_ = input.readMessage(emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(UgcTowerLevelUpGadgetInfo_);
                 UgcTowerLevelUpGadgetInfo_ = subBuilder.buildPartial();
@@ -1144,11 +1144,11 @@ public final class SceneGadgetInfoOuterClass {
               break;
             }
             case 818: {
-              emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo.Builder subBuilder = null;
               if (JourneyGearOperatorInfo_ != null) {
                 subBuilder = JourneyGearOperatorInfo_.toBuilder();
               }
-              JourneyGearOperatorInfo_ = input.readMessage(emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo.parser(), extensionRegistry);
+              JourneyGearOperatorInfo_ = input.readMessage(emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(JourneyGearOperatorInfo_);
                 JourneyGearOperatorInfo_ = subBuilder.buildPartial();
@@ -1157,11 +1157,11 @@ public final class SceneGadgetInfoOuterClass {
               break;
             }
             case 826: {
-              emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo.Builder subBuilder = null;
               if (UgcV2SpecialGadgetInfo_ != null) {
                 subBuilder = UgcV2SpecialGadgetInfo_.toBuilder();
               }
-              UgcV2SpecialGadgetInfo_ = input.readMessage(emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo.parser(), extensionRegistry);
+              UgcV2SpecialGadgetInfo_ = input.readMessage(emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(UgcV2SpecialGadgetInfo_);
                 UgcV2SpecialGadgetInfo_ = subBuilder.buildPartial();
@@ -1175,11 +1175,11 @@ public final class SceneGadgetInfoOuterClass {
               break;
             }
             case 842: {
-              emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.Builder subBuilder = null;
               if (LanV6CardTextInfo_ != null) {
                 subBuilder = LanV6CardTextInfo_.toBuilder();
               }
-              LanV6CardTextInfo_ = input.readMessage(emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.parser(), extensionRegistry);
+              LanV6CardTextInfo_ = input.readMessage(emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(LanV6CardTextInfo_);
                 LanV6CardTextInfo_ = subBuilder.buildPartial();
@@ -2113,21 +2113,21 @@ public final class SceneGadgetInfoOuterClass {
      * @return The trifleGadget.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo getTrifleGadget() {
+    public emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo getTrifleGadget() {
       if (contentCase_ == 67) {
-         return (emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo) content_;
+         return (emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo) content_;
       }
-      return emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo.getDefaultInstance();
     }
     /**
      * <code>._TrifleGadgetInfo trifle_gadget = 67;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfoOrBuilder getTrifleGadgetOrBuilder() {
+    public emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfoOrBuilder getTrifleGadgetOrBuilder() {
       if (contentCase_ == 67) {
-         return (emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo) content_;
+         return (emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo) content_;
       }
-      return emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo.getDefaultInstance();
     }
 
     public static final int MARK_FLAG_FIELD_NUMBER = 21;
@@ -2320,7 +2320,7 @@ public final class SceneGadgetInfoOuterClass {
     }
 
     public static final int _UGC_TOWER_LEVEL_UP_GADGET_INFO_FIELD_NUMBER = 101;
-    private emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo UgcTowerLevelUpGadgetInfo_;
+    private emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo UgcTowerLevelUpGadgetInfo_;
     /**
      * <code>._UgcTowerLevelUpGadgetInfo _ugc_tower_level_up_gadget_info = 101;</code>
      * @return Whether the ugcTowerLevelUpGadgetInfo field is set.
@@ -2334,19 +2334,19 @@ public final class SceneGadgetInfoOuterClass {
      * @return The ugcTowerLevelUpGadgetInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo getUgcTowerLevelUpGadgetInfo() {
-      return UgcTowerLevelUpGadgetInfo_ == null ? emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo.getDefaultInstance() : UgcTowerLevelUpGadgetInfo_;
+    public emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo getUgcTowerLevelUpGadgetInfo() {
+      return UgcTowerLevelUpGadgetInfo_ == null ? emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo.getDefaultInstance() : UgcTowerLevelUpGadgetInfo_;
     }
     /**
      * <code>._UgcTowerLevelUpGadgetInfo _ugc_tower_level_up_gadget_info = 101;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfoOrBuilder getUgcTowerLevelUpGadgetInfoOrBuilder() {
+    public emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfoOrBuilder getUgcTowerLevelUpGadgetInfoOrBuilder() {
       return getUgcTowerLevelUpGadgetInfo();
     }
 
     public static final int _JOURNEY_GEAR_OPERATOR_INFO_FIELD_NUMBER = 102;
-    private emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo JourneyGearOperatorInfo_;
+    private emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo JourneyGearOperatorInfo_;
     /**
      * <code>._JourneyGearGadgetInfo _journey_gear_operator_info = 102;</code>
      * @return Whether the journeyGearOperatorInfo field is set.
@@ -2360,19 +2360,19 @@ public final class SceneGadgetInfoOuterClass {
      * @return The journeyGearOperatorInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo getJourneyGearOperatorInfo() {
-      return JourneyGearOperatorInfo_ == null ? emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo.getDefaultInstance() : JourneyGearOperatorInfo_;
+    public emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo getJourneyGearOperatorInfo() {
+      return JourneyGearOperatorInfo_ == null ? emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo.getDefaultInstance() : JourneyGearOperatorInfo_;
     }
     /**
      * <code>._JourneyGearGadgetInfo _journey_gear_operator_info = 102;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfoOrBuilder getJourneyGearOperatorInfoOrBuilder() {
+    public emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfoOrBuilder getJourneyGearOperatorInfoOrBuilder() {
       return getJourneyGearOperatorInfo();
     }
 
     public static final int _UGC_V2_SPECIAL_GADGET_INFO_FIELD_NUMBER = 103;
-    private emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo UgcV2SpecialGadgetInfo_;
+    private emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo UgcV2SpecialGadgetInfo_;
     /**
      * <code>._UgcSpecialGadgetInfo _ugc_v2_special_gadget_info = 103;</code>
      * @return Whether the ugcV2SpecialGadgetInfo field is set.
@@ -2386,14 +2386,14 @@ public final class SceneGadgetInfoOuterClass {
      * @return The ugcV2SpecialGadgetInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo getUgcV2SpecialGadgetInfo() {
-      return UgcV2SpecialGadgetInfo_ == null ? emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo.getDefaultInstance() : UgcV2SpecialGadgetInfo_;
+    public emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo getUgcV2SpecialGadgetInfo() {
+      return UgcV2SpecialGadgetInfo_ == null ? emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo.getDefaultInstance() : UgcV2SpecialGadgetInfo_;
     }
     /**
      * <code>._UgcSpecialGadgetInfo _ugc_v2_special_gadget_info = 103;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfoOrBuilder getUgcV2SpecialGadgetInfoOrBuilder() {
+    public emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfoOrBuilder getUgcV2SpecialGadgetInfoOrBuilder() {
       return getUgcV2SpecialGadgetInfo();
     }
 
@@ -2409,7 +2409,7 @@ public final class SceneGadgetInfoOuterClass {
     }
 
     public static final int _LAN_V6_CARD_TEXT_INFO_FIELD_NUMBER = 105;
-    private emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo LanV6CardTextInfo_;
+    private emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo LanV6CardTextInfo_;
     /**
      * <code>._LanV6CardTextInfo _lan_v6_card_text_info = 105;</code>
      * @return Whether the lanV6CardTextInfo field is set.
@@ -2423,14 +2423,14 @@ public final class SceneGadgetInfoOuterClass {
      * @return The lanV6CardTextInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo getLanV6CardTextInfo() {
-      return LanV6CardTextInfo_ == null ? emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.getDefaultInstance() : LanV6CardTextInfo_;
+    public emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo getLanV6CardTextInfo() {
+      return LanV6CardTextInfo_ == null ? emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.getDefaultInstance() : LanV6CardTextInfo_;
     }
     /**
      * <code>._LanV6CardTextInfo _lan_v6_card_text_info = 105;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfoOrBuilder getLanV6CardTextInfoOrBuilder() {
+    public emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfoOrBuilder getLanV6CardTextInfoOrBuilder() {
       return getLanV6CardTextInfo();
     }
 
@@ -2607,7 +2607,7 @@ public final class SceneGadgetInfoOuterClass {
         output.writeMessage(64, (emu.grasscutter.net.proto.CoinCollectOperatorInfoOuterClass.CoinCollectOperatorInfo) content_);
       }
       if (contentCase_ == 67) {
-        output.writeMessage(67, (emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo) content_);
+        output.writeMessage(67, (emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo) content_);
       }
       if (playInfo_ != null) {
         output.writeMessage(100, getPlayInfo());
@@ -2825,7 +2825,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       if (contentCase_ == 67) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(67, (emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo) content_);
+          .computeMessageSize(67, (emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo) content_);
       }
       if (playInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -7297,7 +7297,7 @@ public final class SceneGadgetInfoOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo, emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo.Builder, emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfoOrBuilder> trifleGadgetBuilder_;
+          emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo, emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo.Builder, emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfoOrBuilder> trifleGadgetBuilder_;
       /**
        * <code>._TrifleGadgetInfo trifle_gadget = 67;</code>
        * @return Whether the trifleGadget field is set.
@@ -7311,23 +7311,23 @@ public final class SceneGadgetInfoOuterClass {
        * @return The trifleGadget.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo getTrifleGadget() {
+      public emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo getTrifleGadget() {
         if (trifleGadgetBuilder_ == null) {
           if (contentCase_ == 67) {
-            return (emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo) content_;
+            return (emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo) content_;
           }
-          return emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo.getDefaultInstance();
         } else {
           if (contentCase_ == 67) {
             return trifleGadgetBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._TrifleGadgetInfo trifle_gadget = 67;</code>
        */
-      public Builder setTrifleGadget(emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo value) {
+      public Builder setTrifleGadget(emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo value) {
         if (trifleGadgetBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7344,7 +7344,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>._TrifleGadgetInfo trifle_gadget = 67;</code>
        */
       public Builder setTrifleGadget(
-          emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo.Builder builderForValue) {
         if (trifleGadgetBuilder_ == null) {
           content_ = builderForValue.build();
           onChanged();
@@ -7357,11 +7357,11 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._TrifleGadgetInfo trifle_gadget = 67;</code>
        */
-      public Builder mergeTrifleGadget(emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo value) {
+      public Builder mergeTrifleGadget(emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo value) {
         if (trifleGadgetBuilder_ == null) {
           if (contentCase_ == 67 &&
-              content_ != emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo.getDefaultInstance()) {
-            content_ = emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo.newBuilder((emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo) content_)
+              content_ != emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo.getDefaultInstance()) {
+            content_ = emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo.newBuilder((emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo) content_)
                 .mergeFrom(value).buildPartial();
           } else {
             content_ = value;
@@ -7398,36 +7398,36 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._TrifleGadgetInfo trifle_gadget = 67;</code>
        */
-      public emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo.Builder getTrifleGadgetBuilder() {
+      public emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo.Builder getTrifleGadgetBuilder() {
         return getTrifleGadgetFieldBuilder().getBuilder();
       }
       /**
        * <code>._TrifleGadgetInfo trifle_gadget = 67;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfoOrBuilder getTrifleGadgetOrBuilder() {
+      public emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfoOrBuilder getTrifleGadgetOrBuilder() {
         if ((contentCase_ == 67) && (trifleGadgetBuilder_ != null)) {
           return trifleGadgetBuilder_.getMessageOrBuilder();
         } else {
           if (contentCase_ == 67) {
-            return (emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo) content_;
+            return (emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo) content_;
           }
-          return emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._TrifleGadgetInfo trifle_gadget = 67;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo, emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo.Builder, emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfoOrBuilder> 
+          emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo, emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo.Builder, emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfoOrBuilder> 
           getTrifleGadgetFieldBuilder() {
         if (trifleGadgetBuilder_ == null) {
           if (!(contentCase_ == 67)) {
-            content_ = emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo.getDefaultInstance();
+            content_ = emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo.getDefaultInstance();
           }
           trifleGadgetBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo, emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo.Builder, emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.TrifleGadgetInfo._TrifleGadgetInfo) content_,
+              emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo, emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo.Builder, emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo) content_,
                   getParentForChildren(),
                   isClean());
           content_ = null;
@@ -8107,9 +8107,9 @@ public final class SceneGadgetInfoOuterClass {
         return playInfoBuilder_;
       }
 
-      private emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo UgcTowerLevelUpGadgetInfo_;
+      private emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo UgcTowerLevelUpGadgetInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo, emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo.Builder, emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfoOrBuilder> UgcTowerLevelUpGadgetInfoBuilder_;
+          emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo, emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo.Builder, emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfoOrBuilder> UgcTowerLevelUpGadgetInfoBuilder_;
       /**
        * <code>._UgcTowerLevelUpGadgetInfo _ugc_tower_level_up_gadget_info = 101;</code>
        * @return Whether the ugcTowerLevelUpGadgetInfo field is set.
@@ -8121,9 +8121,9 @@ public final class SceneGadgetInfoOuterClass {
        * <code>._UgcTowerLevelUpGadgetInfo _ugc_tower_level_up_gadget_info = 101;</code>
        * @return The ugcTowerLevelUpGadgetInfo.
        */
-      public emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo getUgcTowerLevelUpGadgetInfo() {
+      public emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo getUgcTowerLevelUpGadgetInfo() {
         if (UgcTowerLevelUpGadgetInfoBuilder_ == null) {
-          return UgcTowerLevelUpGadgetInfo_ == null ? emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo.getDefaultInstance() : UgcTowerLevelUpGadgetInfo_;
+          return UgcTowerLevelUpGadgetInfo_ == null ? emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo.getDefaultInstance() : UgcTowerLevelUpGadgetInfo_;
         } else {
           return UgcTowerLevelUpGadgetInfoBuilder_.getMessage();
         }
@@ -8131,7 +8131,7 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._UgcTowerLevelUpGadgetInfo _ugc_tower_level_up_gadget_info = 101;</code>
        */
-      public Builder setUgcTowerLevelUpGadgetInfo(emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo value) {
+      public Builder setUgcTowerLevelUpGadgetInfo(emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo value) {
         if (UgcTowerLevelUpGadgetInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -8148,7 +8148,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>._UgcTowerLevelUpGadgetInfo _ugc_tower_level_up_gadget_info = 101;</code>
        */
       public Builder setUgcTowerLevelUpGadgetInfo(
-          emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo.Builder builderForValue) {
         if (UgcTowerLevelUpGadgetInfoBuilder_ == null) {
           UgcTowerLevelUpGadgetInfo_ = builderForValue.build();
           onChanged();
@@ -8161,11 +8161,11 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._UgcTowerLevelUpGadgetInfo _ugc_tower_level_up_gadget_info = 101;</code>
        */
-      public Builder mergeUgcTowerLevelUpGadgetInfo(emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo value) {
+      public Builder mergeUgcTowerLevelUpGadgetInfo(emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo value) {
         if (UgcTowerLevelUpGadgetInfoBuilder_ == null) {
           if (UgcTowerLevelUpGadgetInfo_ != null) {
             UgcTowerLevelUpGadgetInfo_ =
-              emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo.newBuilder(UgcTowerLevelUpGadgetInfo_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo.newBuilder(UgcTowerLevelUpGadgetInfo_).mergeFrom(value).buildPartial();
           } else {
             UgcTowerLevelUpGadgetInfo_ = value;
           }
@@ -8193,7 +8193,7 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._UgcTowerLevelUpGadgetInfo _ugc_tower_level_up_gadget_info = 101;</code>
        */
-      public emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo.Builder getUgcTowerLevelUpGadgetInfoBuilder() {
+      public emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo.Builder getUgcTowerLevelUpGadgetInfoBuilder() {
         
         onChanged();
         return getUgcTowerLevelUpGadgetInfoFieldBuilder().getBuilder();
@@ -8201,23 +8201,23 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._UgcTowerLevelUpGadgetInfo _ugc_tower_level_up_gadget_info = 101;</code>
        */
-      public emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfoOrBuilder getUgcTowerLevelUpGadgetInfoOrBuilder() {
+      public emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfoOrBuilder getUgcTowerLevelUpGadgetInfoOrBuilder() {
         if (UgcTowerLevelUpGadgetInfoBuilder_ != null) {
           return UgcTowerLevelUpGadgetInfoBuilder_.getMessageOrBuilder();
         } else {
           return UgcTowerLevelUpGadgetInfo_ == null ?
-              emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo.getDefaultInstance() : UgcTowerLevelUpGadgetInfo_;
+              emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo.getDefaultInstance() : UgcTowerLevelUpGadgetInfo_;
         }
       }
       /**
        * <code>._UgcTowerLevelUpGadgetInfo _ugc_tower_level_up_gadget_info = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo, emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo.Builder, emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfoOrBuilder> 
+          emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo, emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo.Builder, emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfoOrBuilder> 
           getUgcTowerLevelUpGadgetInfoFieldBuilder() {
         if (UgcTowerLevelUpGadgetInfoBuilder_ == null) {
           UgcTowerLevelUpGadgetInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo, emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfo.Builder, emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo._UgcTowerLevelUpGadgetInfoOrBuilder>(
+              emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo, emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfo.Builder, emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass._UgcTowerLevelUpGadgetInfoOrBuilder>(
                   getUgcTowerLevelUpGadgetInfo(),
                   getParentForChildren(),
                   isClean());
@@ -8226,9 +8226,9 @@ public final class SceneGadgetInfoOuterClass {
         return UgcTowerLevelUpGadgetInfoBuilder_;
       }
 
-      private emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo JourneyGearOperatorInfo_;
+      private emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo JourneyGearOperatorInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo, emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo.Builder, emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfoOrBuilder> JourneyGearOperatorInfoBuilder_;
+          emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo, emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo.Builder, emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfoOrBuilder> JourneyGearOperatorInfoBuilder_;
       /**
        * <code>._JourneyGearGadgetInfo _journey_gear_operator_info = 102;</code>
        * @return Whether the journeyGearOperatorInfo field is set.
@@ -8240,9 +8240,9 @@ public final class SceneGadgetInfoOuterClass {
        * <code>._JourneyGearGadgetInfo _journey_gear_operator_info = 102;</code>
        * @return The journeyGearOperatorInfo.
        */
-      public emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo getJourneyGearOperatorInfo() {
+      public emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo getJourneyGearOperatorInfo() {
         if (JourneyGearOperatorInfoBuilder_ == null) {
-          return JourneyGearOperatorInfo_ == null ? emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo.getDefaultInstance() : JourneyGearOperatorInfo_;
+          return JourneyGearOperatorInfo_ == null ? emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo.getDefaultInstance() : JourneyGearOperatorInfo_;
         } else {
           return JourneyGearOperatorInfoBuilder_.getMessage();
         }
@@ -8250,7 +8250,7 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._JourneyGearGadgetInfo _journey_gear_operator_info = 102;</code>
        */
-      public Builder setJourneyGearOperatorInfo(emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo value) {
+      public Builder setJourneyGearOperatorInfo(emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo value) {
         if (JourneyGearOperatorInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -8267,7 +8267,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>._JourneyGearGadgetInfo _journey_gear_operator_info = 102;</code>
        */
       public Builder setJourneyGearOperatorInfo(
-          emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo.Builder builderForValue) {
         if (JourneyGearOperatorInfoBuilder_ == null) {
           JourneyGearOperatorInfo_ = builderForValue.build();
           onChanged();
@@ -8280,11 +8280,11 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._JourneyGearGadgetInfo _journey_gear_operator_info = 102;</code>
        */
-      public Builder mergeJourneyGearOperatorInfo(emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo value) {
+      public Builder mergeJourneyGearOperatorInfo(emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo value) {
         if (JourneyGearOperatorInfoBuilder_ == null) {
           if (JourneyGearOperatorInfo_ != null) {
             JourneyGearOperatorInfo_ =
-              emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo.newBuilder(JourneyGearOperatorInfo_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo.newBuilder(JourneyGearOperatorInfo_).mergeFrom(value).buildPartial();
           } else {
             JourneyGearOperatorInfo_ = value;
           }
@@ -8312,7 +8312,7 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._JourneyGearGadgetInfo _journey_gear_operator_info = 102;</code>
        */
-      public emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo.Builder getJourneyGearOperatorInfoBuilder() {
+      public emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo.Builder getJourneyGearOperatorInfoBuilder() {
         
         onChanged();
         return getJourneyGearOperatorInfoFieldBuilder().getBuilder();
@@ -8320,23 +8320,23 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._JourneyGearGadgetInfo _journey_gear_operator_info = 102;</code>
        */
-      public emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfoOrBuilder getJourneyGearOperatorInfoOrBuilder() {
+      public emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfoOrBuilder getJourneyGearOperatorInfoOrBuilder() {
         if (JourneyGearOperatorInfoBuilder_ != null) {
           return JourneyGearOperatorInfoBuilder_.getMessageOrBuilder();
         } else {
           return JourneyGearOperatorInfo_ == null ?
-              emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo.getDefaultInstance() : JourneyGearOperatorInfo_;
+              emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo.getDefaultInstance() : JourneyGearOperatorInfo_;
         }
       }
       /**
        * <code>._JourneyGearGadgetInfo _journey_gear_operator_info = 102;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo, emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo.Builder, emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfoOrBuilder> 
+          emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo, emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo.Builder, emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfoOrBuilder> 
           getJourneyGearOperatorInfoFieldBuilder() {
         if (JourneyGearOperatorInfoBuilder_ == null) {
           JourneyGearOperatorInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo, emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfo.Builder, emu.grasscutter.net.proto.JourneyGearGadgetInfo._JourneyGearGadgetInfoOrBuilder>(
+              emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo, emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfo.Builder, emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass._JourneyGearGadgetInfoOrBuilder>(
                   getJourneyGearOperatorInfo(),
                   getParentForChildren(),
                   isClean());
@@ -8345,9 +8345,9 @@ public final class SceneGadgetInfoOuterClass {
         return JourneyGearOperatorInfoBuilder_;
       }
 
-      private emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo UgcV2SpecialGadgetInfo_;
+      private emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo UgcV2SpecialGadgetInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo, emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo.Builder, emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfoOrBuilder> UgcV2SpecialGadgetInfoBuilder_;
+          emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo, emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo.Builder, emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfoOrBuilder> UgcV2SpecialGadgetInfoBuilder_;
       /**
        * <code>._UgcSpecialGadgetInfo _ugc_v2_special_gadget_info = 103;</code>
        * @return Whether the ugcV2SpecialGadgetInfo field is set.
@@ -8359,9 +8359,9 @@ public final class SceneGadgetInfoOuterClass {
        * <code>._UgcSpecialGadgetInfo _ugc_v2_special_gadget_info = 103;</code>
        * @return The ugcV2SpecialGadgetInfo.
        */
-      public emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo getUgcV2SpecialGadgetInfo() {
+      public emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo getUgcV2SpecialGadgetInfo() {
         if (UgcV2SpecialGadgetInfoBuilder_ == null) {
-          return UgcV2SpecialGadgetInfo_ == null ? emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo.getDefaultInstance() : UgcV2SpecialGadgetInfo_;
+          return UgcV2SpecialGadgetInfo_ == null ? emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo.getDefaultInstance() : UgcV2SpecialGadgetInfo_;
         } else {
           return UgcV2SpecialGadgetInfoBuilder_.getMessage();
         }
@@ -8369,7 +8369,7 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._UgcSpecialGadgetInfo _ugc_v2_special_gadget_info = 103;</code>
        */
-      public Builder setUgcV2SpecialGadgetInfo(emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo value) {
+      public Builder setUgcV2SpecialGadgetInfo(emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo value) {
         if (UgcV2SpecialGadgetInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -8386,7 +8386,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>._UgcSpecialGadgetInfo _ugc_v2_special_gadget_info = 103;</code>
        */
       public Builder setUgcV2SpecialGadgetInfo(
-          emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo.Builder builderForValue) {
         if (UgcV2SpecialGadgetInfoBuilder_ == null) {
           UgcV2SpecialGadgetInfo_ = builderForValue.build();
           onChanged();
@@ -8399,11 +8399,11 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._UgcSpecialGadgetInfo _ugc_v2_special_gadget_info = 103;</code>
        */
-      public Builder mergeUgcV2SpecialGadgetInfo(emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo value) {
+      public Builder mergeUgcV2SpecialGadgetInfo(emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo value) {
         if (UgcV2SpecialGadgetInfoBuilder_ == null) {
           if (UgcV2SpecialGadgetInfo_ != null) {
             UgcV2SpecialGadgetInfo_ =
-              emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo.newBuilder(UgcV2SpecialGadgetInfo_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo.newBuilder(UgcV2SpecialGadgetInfo_).mergeFrom(value).buildPartial();
           } else {
             UgcV2SpecialGadgetInfo_ = value;
           }
@@ -8431,7 +8431,7 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._UgcSpecialGadgetInfo _ugc_v2_special_gadget_info = 103;</code>
        */
-      public emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo.Builder getUgcV2SpecialGadgetInfoBuilder() {
+      public emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo.Builder getUgcV2SpecialGadgetInfoBuilder() {
         
         onChanged();
         return getUgcV2SpecialGadgetInfoFieldBuilder().getBuilder();
@@ -8439,23 +8439,23 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._UgcSpecialGadgetInfo _ugc_v2_special_gadget_info = 103;</code>
        */
-      public emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfoOrBuilder getUgcV2SpecialGadgetInfoOrBuilder() {
+      public emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfoOrBuilder getUgcV2SpecialGadgetInfoOrBuilder() {
         if (UgcV2SpecialGadgetInfoBuilder_ != null) {
           return UgcV2SpecialGadgetInfoBuilder_.getMessageOrBuilder();
         } else {
           return UgcV2SpecialGadgetInfo_ == null ?
-              emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo.getDefaultInstance() : UgcV2SpecialGadgetInfo_;
+              emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo.getDefaultInstance() : UgcV2SpecialGadgetInfo_;
         }
       }
       /**
        * <code>._UgcSpecialGadgetInfo _ugc_v2_special_gadget_info = 103;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo, emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo.Builder, emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfoOrBuilder> 
+          emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo, emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo.Builder, emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfoOrBuilder> 
           getUgcV2SpecialGadgetInfoFieldBuilder() {
         if (UgcV2SpecialGadgetInfoBuilder_ == null) {
           UgcV2SpecialGadgetInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo, emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfo.Builder, emu.grasscutter.net.proto.UgcSpecialGadgetInfo._UgcSpecialGadgetInfoOrBuilder>(
+              emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo, emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfo.Builder, emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass._UgcSpecialGadgetInfoOrBuilder>(
                   getUgcV2SpecialGadgetInfo(),
                   getParentForChildren(),
                   isClean());
@@ -8495,9 +8495,9 @@ public final class SceneGadgetInfoOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo LanV6CardTextInfo_;
+      private emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo LanV6CardTextInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo, emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.Builder, emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfoOrBuilder> LanV6CardTextInfoBuilder_;
+          emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo, emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.Builder, emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfoOrBuilder> LanV6CardTextInfoBuilder_;
       /**
        * <code>._LanV6CardTextInfo _lan_v6_card_text_info = 105;</code>
        * @return Whether the lanV6CardTextInfo field is set.
@@ -8509,9 +8509,9 @@ public final class SceneGadgetInfoOuterClass {
        * <code>._LanV6CardTextInfo _lan_v6_card_text_info = 105;</code>
        * @return The lanV6CardTextInfo.
        */
-      public emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo getLanV6CardTextInfo() {
+      public emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo getLanV6CardTextInfo() {
         if (LanV6CardTextInfoBuilder_ == null) {
-          return LanV6CardTextInfo_ == null ? emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.getDefaultInstance() : LanV6CardTextInfo_;
+          return LanV6CardTextInfo_ == null ? emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.getDefaultInstance() : LanV6CardTextInfo_;
         } else {
           return LanV6CardTextInfoBuilder_.getMessage();
         }
@@ -8519,7 +8519,7 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._LanV6CardTextInfo _lan_v6_card_text_info = 105;</code>
        */
-      public Builder setLanV6CardTextInfo(emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo value) {
+      public Builder setLanV6CardTextInfo(emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo value) {
         if (LanV6CardTextInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -8536,7 +8536,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>._LanV6CardTextInfo _lan_v6_card_text_info = 105;</code>
        */
       public Builder setLanV6CardTextInfo(
-          emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.Builder builderForValue) {
         if (LanV6CardTextInfoBuilder_ == null) {
           LanV6CardTextInfo_ = builderForValue.build();
           onChanged();
@@ -8549,11 +8549,11 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._LanV6CardTextInfo _lan_v6_card_text_info = 105;</code>
        */
-      public Builder mergeLanV6CardTextInfo(emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo value) {
+      public Builder mergeLanV6CardTextInfo(emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo value) {
         if (LanV6CardTextInfoBuilder_ == null) {
           if (LanV6CardTextInfo_ != null) {
             LanV6CardTextInfo_ =
-              emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.newBuilder(LanV6CardTextInfo_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.newBuilder(LanV6CardTextInfo_).mergeFrom(value).buildPartial();
           } else {
             LanV6CardTextInfo_ = value;
           }
@@ -8581,7 +8581,7 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._LanV6CardTextInfo _lan_v6_card_text_info = 105;</code>
        */
-      public emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.Builder getLanV6CardTextInfoBuilder() {
+      public emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.Builder getLanV6CardTextInfoBuilder() {
         
         onChanged();
         return getLanV6CardTextInfoFieldBuilder().getBuilder();
@@ -8589,23 +8589,23 @@ public final class SceneGadgetInfoOuterClass {
       /**
        * <code>._LanV6CardTextInfo _lan_v6_card_text_info = 105;</code>
        */
-      public emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfoOrBuilder getLanV6CardTextInfoOrBuilder() {
+      public emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfoOrBuilder getLanV6CardTextInfoOrBuilder() {
         if (LanV6CardTextInfoBuilder_ != null) {
           return LanV6CardTextInfoBuilder_.getMessageOrBuilder();
         } else {
           return LanV6CardTextInfo_ == null ?
-              emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.getDefaultInstance() : LanV6CardTextInfo_;
+              emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.getDefaultInstance() : LanV6CardTextInfo_;
         }
       }
       /**
        * <code>._LanV6CardTextInfo _lan_v6_card_text_info = 105;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo, emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.Builder, emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfoOrBuilder> 
+          emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo, emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.Builder, emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfoOrBuilder> 
           getLanV6CardTextInfoFieldBuilder() {
         if (LanV6CardTextInfoBuilder_ == null) {
           LanV6CardTextInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo, emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.Builder, emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfoOrBuilder>(
+              emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo, emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.Builder, emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfoOrBuilder>(
                   getLanV6CardTextInfo(),
                   getParentForChildren(),
                   isClean());
@@ -8865,7 +8865,8 @@ public final class SceneGadgetInfoOuterClass {
       "lan_v6_card_guid\030h \001(\006\0223\n\026_lan_v6_card_t" +
       "ext_info\030i \001(\0132\023._LanV6CardTextInfo\022!\n\013A" +
       "OLIIOCJNLE\030j \001(\0132\014.BGBKIIKGFFAB\t\n\007conten" +
-      "tB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "tB6\n\031emu.grasscutter.net.protoB\031SceneGad" +
+      "getInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -8896,11 +8897,11 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.VehicleInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.WeatherInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.WorktopInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.JourneyGearGadgetInfo.getDescriptor(),
-          emu.grasscutter.net.proto.LanV6CardTextInfo.getDescriptor(),
-          emu.grasscutter.net.proto.TrifleGadgetInfo.getDescriptor(),
-          emu.grasscutter.net.proto.UgcSpecialGadgetInfo.getDescriptor(),
-          emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo.getDescriptor(),
+          emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass.getDescriptor(),
         });
     internal_static_SceneGadgetInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -8934,11 +8935,11 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.VehicleInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.WeatherInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.WorktopInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.JourneyGearGadgetInfo.getDescriptor();
-    emu.grasscutter.net.proto.LanV6CardTextInfo.getDescriptor();
-    emu.grasscutter.net.proto.TrifleGadgetInfo.getDescriptor();
-    emu.grasscutter.net.proto.UgcSpecialGadgetInfo.getDescriptor();
-    emu.grasscutter.net.proto.UgcTowerLevelUpGadgetInfo.getDescriptor();
+    emu.grasscutter.net.proto._JourneyGearGadgetInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._UgcSpecialGadgetInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._UgcTowerLevelUpGadgetInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

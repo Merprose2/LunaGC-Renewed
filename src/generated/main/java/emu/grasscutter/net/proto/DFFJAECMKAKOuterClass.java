@@ -729,8 +729,9 @@ public final class DFFJAECMKAKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DFFJAECMKAK.proto\032\021LPEEBGCIIFM.proto\"E" +
       "\n\013DFFJAECMKAK\022!\n\013PPEFAEBIENB\030\005 \001(\0132\014.LPE" +
-      "EBGCIIFM\022\023\n\013KMDOFBPMGAI\030\n \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "EBGCIIFM\022\023\n\013KMDOFBPMGAI\030\n \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025DFFJAECMKAKOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -142,8 +142,9 @@ public final class JEHCBGCONAFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JEHCBGCONAF.proto*W\n\013JEHCBGCONAF\022\027\n\023JE" +
       "HCBGCONAF_UNKNOWN\020\000\022\026\n\022JEHCBGCONAF_ONLIN" +
-      "E\020\001\022\027\n\023JEHCBGCONAF_OFFLINE\020\002B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "E\020\001\022\027\n\023JEHCBGCONAF_OFFLINE\020\002B2\n\031emu.gras" +
+      "scutter.net.protoB\025JEHCBGCONAFOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

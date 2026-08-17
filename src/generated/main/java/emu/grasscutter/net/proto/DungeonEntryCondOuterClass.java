@@ -626,8 +626,9 @@ public final class DungeonEntryCondOuterClass {
       "\n\026DungeonEntryCond.proto\032\035DungeonEntryBl" +
       "ockReason.proto\"Q\n\020DungeonEntryCond\022-\n\013c" +
       "ond_reason\030\001 \001(\0162\030.DungeonEntryBlockReas" +
-      "on\022\016\n\006param1\030\006 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "on\022\016\n\006param1\030\006 \001(\rB7\n\031emu.grasscutter.ne" +
+      "t.protoB\032DungeonEntryCondOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

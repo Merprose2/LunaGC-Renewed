@@ -661,8 +661,8 @@ public final class DGEMPFCBGDFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DGEMPFCBGDF.proto\"O\n\013DGEMPFCBGDF\022\024\n\013CK" +
       "KPHKJNBEP\030\366\003 \001(\010\022\024\n\013KCJNJCIDGEC\030\367\003 \001(\010\022\024" +
-      "\n\013MJJILPPMAOF\030\370\003 \001(\010B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\n\013MJJILPPMAOF\030\370\003 \001(\010B2\n\031emu.grasscutter." +
+      "net.protoB\025DGEMPFCBGDFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

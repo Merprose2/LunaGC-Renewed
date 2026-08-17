@@ -1423,8 +1423,9 @@ public final class FleurFairMinigameInfoOuterClass {
       " \001(\0132\022.FleurFairFallInfoH\000\022-\n\014balloon_in" +
       "fo\030\017 \001(\0132\025.FleurFairBalloonInfoH\000\022\023\n\013min" +
       "igame_id\030\007 \001(\r\022\021\n\topen_time\030\010 \001(\r\022\017\n\007is_" +
-      "open\030\n \001(\010B\010\n\006detailB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "open\030\n \001(\010B\010\n\006detailB<\n\031emu.grasscutter." +
+      "net.protoB\037FleurFairMinigameInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

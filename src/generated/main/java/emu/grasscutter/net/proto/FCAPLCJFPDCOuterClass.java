@@ -454,8 +454,9 @@ public final class FCAPLCJFPDCOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021FCAPLCJFPDC.proto\"\r\n\013FCAPLCJFPDCB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021FCAPLCJFPDC.proto\"\r\n\013FCAPLCJFPDCB2\n\031em" +
+      "u.grasscutter.net.protoB\025FCAPLCJFPDCOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

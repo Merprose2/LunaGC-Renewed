@@ -898,8 +898,8 @@ public final class MailTextContentOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025MailTextContent.proto\"A\n\017MailTextConte" +
       "nt\022\r\n\005title\030\001 \001(\t\022\017\n\007content\030\002 \001(\t\022\016\n\006se" +
-      "nder\030\003 \001(\tB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "nder\030\003 \001(\tB6\n\031emu.grasscutter.net.protoB" +
+      "\031MailTextContentOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

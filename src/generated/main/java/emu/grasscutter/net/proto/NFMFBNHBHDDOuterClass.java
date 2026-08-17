@@ -800,8 +800,8 @@ public final class NFMFBNHBHDDOuterClass {
       "\n\021NFMFBNHBHDD.proto\032\022DynamicNodes.proto\"" +
       "V\n\013NFMFBNHBHDD\022\020\n\010query_id\030\010 \001(\005\022\017\n\007retc" +
       "ode\030\013 \001(\005\022$\n\rdynamic_nodes\030\016 \001(\0132\r.Dynam" +
-      "icNodesB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "icNodesB2\n\031emu.grasscutter.net.protoB\025NF" +
+      "MFBNHBHDDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

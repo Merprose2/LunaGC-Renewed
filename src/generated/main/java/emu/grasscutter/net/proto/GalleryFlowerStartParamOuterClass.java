@@ -518,7 +518,8 @@ public final class GalleryFlowerStartParamOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035GalleryFlowerStartParam.proto\"/\n\027Galle" +
       "ryFlowerStartParam\022\024\n\014target_score\030\017 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B>\n\031emu.grasscutter.net.protoB!GalleryFl" +
+      "owerStartParamOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

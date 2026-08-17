@@ -595,8 +595,9 @@ public final class EJFOLNNIAPHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EJFOLNNIAPH.proto\"5\n\013EJFOLNNIAPH\022\021\n\ten" +
-      "tity_id\030\001 \001(\r\022\023\n\013KALMBCCJIAP\030\004 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "tity_id\030\001 \001(\r\022\023\n\013KALMBCCJIAP\030\004 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025EJFOLNNIAPHOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

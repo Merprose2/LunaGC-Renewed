@@ -810,8 +810,9 @@ public final class PKOFHDKPEBHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PKOFHDKPEBH.proto\"^\n\013PKOFHDKPEBH\022\r\n\004na" +
       "me\030\365\003 \001(\t\022\024\n\013NMKMGOCKLFF\030\366\003 \001(\r\022\024\n\013DGABA" +
-      "CFMEJG\030\367\003 \001(\010\022\024\n\013LJBNMDCIOHL\030\370\003 \001(\010B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "CFMEJG\030\367\003 \001(\010\022\024\n\013LJBNMDCIOHL\030\370\003 \001(\010B2\n\031e" +
+      "mu.grasscutter.net.protoB\025PKOFHDKPEBHOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

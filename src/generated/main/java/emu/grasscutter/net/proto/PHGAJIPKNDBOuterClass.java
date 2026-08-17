@@ -738,8 +738,9 @@ public final class PHGAJIPKNDBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PHGAJIPKNDB.proto\"]\n\013PHGAJIPKNDB\022\020\n\010le" +
       "vel_id\030\002 \001(\r\022\025\n\ris_new_record\030\005 \001(\010\022\022\n\ni" +
-      "s_success\030\006 \001(\010\022\021\n\tcost_time\030\n \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "s_success\030\006 \001(\010\022\021\n\tcost_time\030\n \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025PHGAJIPKNDBOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

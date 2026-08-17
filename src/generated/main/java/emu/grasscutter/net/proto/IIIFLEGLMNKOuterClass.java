@@ -659,7 +659,8 @@ public final class IIIFLEGLMNKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IIIFLEGLMNK.proto\032\021MKJFFICLOBH.proto\"+" +
       "\n\013IIIFLEGLMNK\022\034\n\006option\030\t \001(\0132\014.MKJFFICL" +
-      "OBHB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "OBHB2\n\031emu.grasscutter.net.protoB\025IIIFLE" +
+      "GLMNKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

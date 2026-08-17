@@ -1320,8 +1320,9 @@ public final class InBattleMechanicusSettleInfoOuterClass {
       "is_success\030\005 \001(\010\022\022\n\nplay_index\030\007 \001(\r\022\023\n\013" +
       "CGAMMIAANMD\030\010 \001(\r\022\023\n\013OKLFGDOMEEF\030\n \001(\r\022\020" +
       "\n\010group_id\030\013 \001(\r\022\025\n\rscene_time_ms\030\r \001(\004\022" +
-      "\023\n\013LECPOKMPCPA\030\016 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\023\n\013LECPOKMPCPA\030\016 \001(\rBC\n\031emu.grasscutter." +
+      "net.protoB&InBattleMechanicusSettleInfoO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

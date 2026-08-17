@@ -652,8 +652,9 @@ public final class GetActivityInfoReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030GetActivityInfoReq.proto\".\n\022GetActivit" +
-      "yInfoReq\022\030\n\020activity_id_list\030\004 \003(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "yInfoReq\022\030\n\020activity_id_list\030\004 \003(\rB9\n\031em" +
+      "u.grasscutter.net.protoB\034GetActivityInfo" +
+      "ReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

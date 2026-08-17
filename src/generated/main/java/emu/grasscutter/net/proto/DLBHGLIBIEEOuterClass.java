@@ -1708,8 +1708,9 @@ public final class DLBHGLIBIEEOuterClass {
       "ex\030\001 \001(\005\022\021\n\tis_active\030\002 \001(\010\022!\n\013LAGHFFFIM" +
       "FJ\030\003 \003(\0162\014.EGLFKNPHOKP\022!\n\013AOAMKENMBPB\030\004 " +
       "\003(\0132\014.DMPGLLNPKEG\022\024\n\013NJONMBIPMBM\030\366\003 \001(\t\022" +
-      "\"\n\013CCBANKOKBOC\030\367\003 \003(\0162\014.EGLFKNPHOKPB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\"\n\013CCBANKOKBOC\030\367\003 \003(\0162\014.EGLFKNPHOKPB2\n\031e" +
+      "mu.grasscutter.net.protoB\025DLBHGLIBIEEOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

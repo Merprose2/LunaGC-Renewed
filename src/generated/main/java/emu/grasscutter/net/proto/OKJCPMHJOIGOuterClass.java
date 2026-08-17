@@ -587,8 +587,9 @@ public final class OKJCPMHJOIGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OKJCPMHJOIG.proto\"0\n\013OKJCPMHJOIG\022\020\n\010it" +
-      "em_num\030\006 \001(\r\022\017\n\007item_id\030\013 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "em_num\030\006 \001(\r\022\017\n\007item_id\030\013 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025OKJCPMHJOIGOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

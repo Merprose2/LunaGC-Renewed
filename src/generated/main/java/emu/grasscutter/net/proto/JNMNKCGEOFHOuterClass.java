@@ -729,8 +729,9 @@ public final class JNMNKCGEOFHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JNMNKCGEOFH.proto\032\021AGCBFLPCCPO.proto\"E" +
       "\n\013JNMNKCGEOFH\022!\n\013MJCHKKFENEN\030\001 \001(\0132\014.AGC" +
-      "BFLPCCPO\022\023\n\013KMDOFBPMGAI\030\t \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "BFLPCCPO\022\023\n\013KMDOFBPMGAI\030\t \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025JNMNKCGEOFHOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

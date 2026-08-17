@@ -526,8 +526,9 @@ public final class WidgetWeatherWizardDataNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n#WidgetWeatherWizardDataNotify.proto\"5\n" +
       "\035WidgetWeatherWizardDataNotify\022\024\n\014shield" +
-      "_value\030\005 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "_value\030\005 \001(\rBD\n\031emu.grasscutter.net.prot" +
+      "oB\'WidgetWeatherWizardDataNotifyOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

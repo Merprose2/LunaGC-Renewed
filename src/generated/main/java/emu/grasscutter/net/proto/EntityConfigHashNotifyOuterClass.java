@@ -455,8 +455,9 @@ public final class EntityConfigHashNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034EntityConfigHashNotify.proto\"\030\n\026Entity" +
-      "ConfigHashNotifyB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "ConfigHashNotifyB=\n\031emu.grasscutter.net." +
+      "protoB EntityConfigHashNotifyOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

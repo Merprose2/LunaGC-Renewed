@@ -602,8 +602,9 @@ public final class CPFMJKJAGJMOuterClass {
       "IENT_PERFORMANCE\020\364\003\022(\n#CPFMJKJAGJM_COST_" +
       "LOAD_CLIENT_MEMORY\020\365\003\022-\n(CPFMJKJAGJM_COS" +
       "T_LOAD_SERVER_PERFORMANCE\020\366\003\022(\n#CPFMJKJA" +
-      "GJM_COST_LOAD_SERVER_MEMORY\020\367\003B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "GJM_COST_LOAD_SERVER_MEMORY\020\367\003B2\n\031emu.gr" +
+      "asscutter.net.protoB\025CPFMJKJAGJMOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

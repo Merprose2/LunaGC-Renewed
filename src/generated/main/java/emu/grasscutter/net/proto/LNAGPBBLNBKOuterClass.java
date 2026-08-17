@@ -595,8 +595,9 @@ public final class LNAGPBBLNBKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LNAGPBBLNBK.proto\"2\n\013LNAGPBBLNBK\022\017\n\007ci" +
-      "ty_id\030\t \001(\r\022\022\n\nrequest_id\030\013 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "ty_id\030\t \001(\r\022\022\n\nrequest_id\030\013 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025LNAGPBBLNBKOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -839,8 +839,9 @@ public final class SceneCreateEntityReqOuterClass {
       "tyInfo.proto\032\022CreateReason.proto\"|\n\024Scen" +
       "eCreateEntityReq\022!\n\006entity\030\002 \001(\0132\021.Creat" +
       "eEntityInfo\022\035\n\006reason\030\014 \001(\0162\r.CreateReas" +
-      "on\022\"\n\032is_destroy_when_disconnect\030\r \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "on\022\"\n\032is_destroy_when_disconnect\030\r \001(\010B;" +
+      "\n\031emu.grasscutter.net.protoB\036SceneCreate" +
+      "EntityReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

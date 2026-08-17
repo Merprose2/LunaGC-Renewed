@@ -1052,8 +1052,8 @@ public final class AAJAKHDIGAPOuterClass {
       "\n\021AAJAKHDIGAP.proto\032\021KEOCKPCDANA.proto\"U" +
       "\n\013AAJAKHDIGAP\022\017\n\007retcode\030\004 \001(\005\022\022\n\nreques" +
       "t_id\030\t \001(\t\022!\n\013OAGEEDDHDOE\030\017 \003(\0132\014.KEOCKP" +
-      "CDANAB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "CDANAB2\n\031emu.grasscutter.net.protoB\025AAJA" +
+      "KHDIGAPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

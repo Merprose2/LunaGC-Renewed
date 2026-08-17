@@ -893,8 +893,9 @@ public final class GEIKMNKIHLEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GEIKMNKIHLE.proto\032\021GCIEOHJHPJF.proto\"B" +
       "\n\013GEIKMNKIHLE\022!\n\013FMBKLHIDCGG\030\007 \003(\0132\014.GCI" +
-      "EOHJHPJF\022\020\n\010quest_id\030\n \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "EOHJHPJF\022\020\n\010quest_id\030\n \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025GEIKMNKIHLEOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

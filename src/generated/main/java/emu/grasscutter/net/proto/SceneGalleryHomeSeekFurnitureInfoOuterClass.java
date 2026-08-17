@@ -988,7 +988,9 @@ public final class SceneGalleryHomeSeekFurnitureInfoOuterClass {
       "y\022\023\n\013NMCLFDLAGDO\030\010 \001(\r\022\023\n\013OKLFNIAIBLF\030\n " +
       "\001(\r\022\023\n\013GIPIHNMIENO\030\014 \001(\r\0325\n\023PlayerScoreM" +
       "apEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "H\n\031emu.grasscutter.net.protoB+SceneGalle" +
+      "ryHomeSeekFurnitureInfoOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

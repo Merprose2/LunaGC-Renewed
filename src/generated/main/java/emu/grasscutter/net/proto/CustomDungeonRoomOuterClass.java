@@ -894,8 +894,8 @@ public final class CustomDungeonRoomOuterClass {
       "\n\027CustomDungeonRoom.proto\032\030CustomDungeon" +
       "Block.proto\"M\n\021CustomDungeonRoom\022\017\n\007room" +
       "_id\030\005 \001(\r\022\'\n\nblock_list\030\014 \003(\0132\023.CustomDu" +
-      "ngeonBlockB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "ngeonBlockB8\n\031emu.grasscutter.net.protoB" +
+      "\033CustomDungeonRoomOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

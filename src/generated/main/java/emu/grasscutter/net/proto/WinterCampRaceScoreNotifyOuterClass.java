@@ -596,8 +596,9 @@ public final class WinterCampRaceScoreNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037WinterCampRaceScoreNotify.proto\":\n\031Win" +
       "terCampRaceScoreNotify\022\021\n\tmax_score\030\004 \001(" +
-      "\r\022\n\n\002id\030\007 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\r\022\n\n\002id\030\007 \001(\rB@\n\031emu.grasscutter.net.pro" +
+      "toB#WinterCampRaceScoreNotifyOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

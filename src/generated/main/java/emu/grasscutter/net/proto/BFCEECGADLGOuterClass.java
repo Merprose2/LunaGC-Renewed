@@ -1611,8 +1611,8 @@ public final class BFCEECGADLGOuterClass {
       "s_offset\030\010 \001(\0132\014.HHEDHCFPEKM\022 \n\nrot_offs" +
       "et\030\t \001(\0132\014.HHEDHCFPEKM\022\023\n\013MPCDEPCDEGK\030\n " +
       "\001(\r\022\023\n\013GHPJLDJFLIK\030\013 \001(\010\022\023\n\013DJHMPDJCLGI\030" +
-      "\014 \001(\002B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\014 \001(\002B2\n\031emu.grasscutter.net.protoB\025BFCE" +
+      "ECGADLGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

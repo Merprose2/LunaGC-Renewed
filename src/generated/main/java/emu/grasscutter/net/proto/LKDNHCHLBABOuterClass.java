@@ -664,8 +664,8 @@ public final class LKDNHCHLBABOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LKDNHCHLBAB.proto\"L\n\013LKDNHCHLBAB\022\023\n\013MG" +
       "NLBBFFEHH\030\001 \001(\002\022\023\n\013NDODDOPBPMN\030\002 \001(\002\022\023\n\013" +
-      "JOAIOBLHFOP\030\003 \001(\002B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "JOAIOBLHFOP\030\003 \001(\002B2\n\031emu.grasscutter.net" +
+      ".protoB\025LKDNHCHLBABOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

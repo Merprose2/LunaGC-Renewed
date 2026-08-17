@@ -1710,7 +1710,8 @@ public final class AJHDAJMEFPDOuterClass {
       "\001(\r\022*\n\022point_light_config\0303 \001(\0132\014.FLMGOB" +
       "CABLLH\000\022)\n\021spot_light_config\0304 \001(\0132\014.CMO" +
       "LNNAIBDDH\000\022\024\n\013LPHJALIFFCB\030\365\003 \001(\010B\010\n\006deta" +
-      "ilB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "ilB2\n\031emu.grasscutter.net.protoB\025AJHDAJM" +
+      "EFPDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

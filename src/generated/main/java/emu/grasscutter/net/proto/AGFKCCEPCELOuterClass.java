@@ -978,8 +978,9 @@ public final class AGFKCCEPCELOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AGFKCCEPCEL.proto\"^\n\013AGFKCCEPCEL\022\023\n\013DK" +
       "EHHBCDOFM\030\002 \003(\r\022\020\n\010level_id\030\004 \001(\r\022\023\n\013IGD" +
-      "LJCFLAMD\030\t \001(\r\022\023\n\013OEEJKPILPFI\030\014 \003(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "LJCFLAMD\030\t \001(\r\022\023\n\013OEEJKPILPFI\030\014 \003(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025AGFKCCEPCELOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

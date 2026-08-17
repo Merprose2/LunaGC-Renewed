@@ -591,8 +591,9 @@ public final class EJKFOPGDLEJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EJKFOPGDLEJ.proto\"7\n\013EJKFOPGDLEJ\022\023\n\013NG" +
-      "DDIOBGGCN\030\001 \001(\002\022\023\n\013KOHJHFPEKFC\030\002 \001(\002B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "DDIOBGGCN\030\001 \001(\002\022\023\n\013KOHJHFPEKFC\030\002 \001(\002B2\n\031" +
+      "emu.grasscutter.net.protoB\025EJKFOPGDLEJOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

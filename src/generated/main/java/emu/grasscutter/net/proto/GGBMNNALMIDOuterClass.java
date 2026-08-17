@@ -525,8 +525,8 @@ public final class GGBMNNALMIDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GGBMNNALMID.proto\"!\n\013GGBMNNALMID\022\022\n\npr" +
-      "esent_id\030\002 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "esent_id\030\002 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025GGBMNNALMIDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

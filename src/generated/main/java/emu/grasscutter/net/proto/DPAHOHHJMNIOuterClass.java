@@ -596,8 +596,9 @@ public final class DPAHOHHJMNIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DPAHOHHJMNI.proto\"6\n\013DPAHOHHJMNI\022\023\n\013OG" +
-      "JKBNAGAPN\030\002 \001(\010\022\022\n\ntarget_uid\030\005 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "JKBNAGAPN\030\002 \001(\010\022\022\n\ntarget_uid\030\005 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025DPAHOHHJMNIOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -908,8 +908,9 @@ public final class EDKBGHPDEMMOuterClass {
       "\001\n\013EDKBGHPDEMM\022\023\n\013PMLODDINFCO\030\001 \001(\005\022\021\n\ti" +
       "s_hidden\030\005 \001(\010\022\026\n\016total_progress\030\006 \001(\005\022!" +
       "\n\013KCBKIJFMDAI\030\007 \001(\0162\014.BPJOJLMCAOG\022\023\n\013ELB" +
-      "JAJIBCEL\030\010 \001(\r\022\023\n\013LEPADDCIJME\030\t \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "JAJIBCEL\030\010 \001(\r\022\023\n\013LEPADDCIJME\030\t \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025EDKBGHPDEMMOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1109,8 +1109,8 @@ public final class MFACHLKPFFEOuterClass {
       "\001\n\013MFACHLKPFFE\022\023\n\013LHJFMPCDPMM\030\001 \001(\010\022\023\n\013E" +
       "KHHPKKFINC\030\002 \001(\010\022!\n\013BFKONGLELDG\030\003 \003(\0132\014." +
       "LKNHEGNOPGO\022\023\n\013PHKJKIIKICP\030\004 \001(\010\022\023\n\013HFPE" +
-      "PPALJGA\030\005 \001(\010B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "PPALJGA\030\005 \001(\010B2\n\031emu.grasscutter.net.pro" +
+      "toB\025MFACHLKPFFEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -730,8 +730,9 @@ public final class GetReunionSignInInfoRspOuterClass {
       "\n\035GetReunionSignInInfoRsp.proto\032\027Reunion" +
       "SignInInfo.proto\"T\n\027GetReunionSignInInfo" +
       "Rsp\022\017\n\007retcode\030\t \001(\005\022(\n\014sign_in_info\030\016 \001" +
-      "(\0132\022.ReunionSignInInfoB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "(\0132\022.ReunionSignInInfoB>\n\031emu.grasscutte" +
+      "r.net.protoB!GetReunionSignInInfoRspOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

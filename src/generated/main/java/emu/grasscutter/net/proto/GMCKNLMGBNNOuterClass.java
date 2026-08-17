@@ -142,8 +142,9 @@ public final class GMCKNLMGBNNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GMCKNLMGBNN.proto*^\n\013GMCKNLMGBNN\022\027\n\023GM" +
       "CKNLMGBNN_BY_NONE\020\000\022\031\n\025GMCKNLMGBNN_BY_SE" +
-      "CTOR\020\001\022\033\n\027GMCKNLMGBNN_BY_CYLINDER\020\002B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "CTOR\020\001\022\033\n\027GMCKNLMGBNN_BY_CYLINDER\020\002B2\n\031e" +
+      "mu.grasscutter.net.protoB\025GMCKNLMGBNNOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

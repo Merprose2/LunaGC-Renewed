@@ -1036,8 +1036,9 @@ public final class GPKCIHLKJFLOuterClass {
       "\n\021GPKCIHLKJFL.proto\032\021EEAOBCBCDOA.proto\"q" +
       "\n\013GPKCIHLKJFL\022\023\n\013NOBDEMCEDAC\030\001 \001(\005\022!\n\013BI" +
       "JJDEGPDPH\030\003 \003(\0132\014.EEAOBCBCDOA\022\024\n\013ONLDNLN" +
-      "NCLD\030\365\003 \001(\010\022\024\n\013NCDDPCCHILH\030\366\003 \001(\010B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "NCLD\030\365\003 \001(\010\022\024\n\013NCDDPCCHILH\030\366\003 \001(\010B2\n\031emu" +
+      ".grasscutter.net.protoB\025GPKCIHLKJFLOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

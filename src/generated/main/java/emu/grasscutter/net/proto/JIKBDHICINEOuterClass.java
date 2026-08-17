@@ -2194,7 +2194,8 @@ public final class JIKBDHICINEOuterClass {
       "EIJMEPHKM\030\027 \001(\002\022\023\n\013KCKIOBBHNCI\030\030 \001(\002\022\023\n\013" +
       "JOIIBHLCLIC\030\037 \001(\t\022\034\n\006offset\030  \001(\0132\014.HHED" +
       "HCFPEKM\022!\n\013DLMJCBBIJAB\030! \001(\0132\014.HHEDHCFPE" +
-      "KMB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "KMB2\n\031emu.grasscutter.net.protoB\025JIKBDHI" +
+      "CINEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

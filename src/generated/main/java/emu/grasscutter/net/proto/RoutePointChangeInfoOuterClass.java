@@ -662,8 +662,9 @@ public final class RoutePointChangeInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032RoutePointChangeInfo.proto\"W\n\024RoutePoi" +
       "ntChangeInfo\022\023\n\013point_index\030\002 \001(\r\022\027\n\017tar" +
-      "get_velocity\030\t \001(\002\022\021\n\twait_time\030\014 \001(\002B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "get_velocity\030\t \001(\002\022\021\n\twait_time\030\014 \001(\002B;\n" +
+      "\031emu.grasscutter.net.protoB\036RoutePointCh" +
+      "angeInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -933,8 +933,9 @@ public final class GCGMsgPVEIntentionChangeOuterClass {
       "on.proto\"|\n\030GCGMsgPVEIntentionChange\022,\n\013" +
       "change_type\030\003 \001(\0162\027.GCGIntentionChangeTy" +
       "pe\0222\n\025change_intention_list\030\016 \003(\0132\023.GCGM" +
-      "sgPVEIntentionB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "sgPVEIntentionB?\n\031emu.grasscutter.net.pr" +
+      "otoB\"GCGMsgPVEIntentionChangeOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

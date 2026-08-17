@@ -666,8 +666,8 @@ public final class HAHHNBFAOJCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HAHHNBFAOJC.proto\"?\n\013HAHHNBFAOJC\022\023\n\013KL" +
       "JHKEHNPNB\030\010 \001(\r\022\n\n\002id\030\t \001(\r\022\017\n\007retcode\030\017" +
-      " \001(\005B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\005B2\n\031emu.grasscutter.net.protoB\025HAHHN" +
+      "BFAOJCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

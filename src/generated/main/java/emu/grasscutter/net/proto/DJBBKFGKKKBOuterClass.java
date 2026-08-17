@@ -704,8 +704,8 @@ public final class DJBBKFGKKKBOuterClass {
       "\n\021DJBBKFGKKKB.proto\032\021PABFMPCHFHI.proto\"Z" +
       "\n\013DJBBKFGKKKB\022\023\n\013JKDLAHBPJDH\030\001 \001(\r\022\023\n\013EP" +
       "HNFCIGBGJ\030\007 \001(\r\022!\n\013CNILMAGKFJI\030\013 \001(\0162\014.P" +
-      "ABFMPCHFHIB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "ABFMPCHFHIB2\n\031emu.grasscutter.net.protoB" +
+      "\025DJBBKFGKKKBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

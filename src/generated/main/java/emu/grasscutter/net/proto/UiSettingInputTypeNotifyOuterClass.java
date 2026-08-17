@@ -27,7 +27,7 @@ public final class UiSettingInputTypeNotifyOuterClass {
      * <code>._UiSettingInputType _input_type = 9;</code>
      * @return The inputType.
      */
-    emu.grasscutter.net.proto.UiSettingInputType._UiSettingInputType getInputType();
+    emu.grasscutter.net.proto._UiSettingInputTypeOuterClass._UiSettingInputType getInputType();
   }
   /**
    * <pre>
@@ -130,10 +130,10 @@ public final class UiSettingInputTypeNotifyOuterClass {
      * <code>._UiSettingInputType _input_type = 9;</code>
      * @return The inputType.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.UiSettingInputType._UiSettingInputType getInputType() {
+    @java.lang.Override public emu.grasscutter.net.proto._UiSettingInputTypeOuterClass._UiSettingInputType getInputType() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.UiSettingInputType._UiSettingInputType result = emu.grasscutter.net.proto.UiSettingInputType._UiSettingInputType.valueOf(InputType_);
-      return result == null ? emu.grasscutter.net.proto.UiSettingInputType._UiSettingInputType.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto._UiSettingInputTypeOuterClass._UiSettingInputType result = emu.grasscutter.net.proto._UiSettingInputTypeOuterClass._UiSettingInputType.valueOf(InputType_);
+      return result == null ? emu.grasscutter.net.proto._UiSettingInputTypeOuterClass._UiSettingInputType.UNRECOGNIZED : result;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -150,7 +150,7 @@ public final class UiSettingInputTypeNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (InputType_ != emu.grasscutter.net.proto.UiSettingInputType._UiSettingInputType._UiSettingInputType_UI_SETTING_INPUT_TYPE_UNKNOWN.getNumber()) {
+      if (InputType_ != emu.grasscutter.net.proto._UiSettingInputTypeOuterClass._UiSettingInputType._UiSettingInputType_UI_SETTING_INPUT_TYPE_UNKNOWN.getNumber()) {
         output.writeEnum(9, InputType_);
       }
       unknownFields.writeTo(output);
@@ -162,7 +162,7 @@ public final class UiSettingInputTypeNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (InputType_ != emu.grasscutter.net.proto.UiSettingInputType._UiSettingInputType._UiSettingInputType_UI_SETTING_INPUT_TYPE_UNKNOWN.getNumber()) {
+      if (InputType_ != emu.grasscutter.net.proto._UiSettingInputTypeOuterClass._UiSettingInputType._UiSettingInputType_UI_SETTING_INPUT_TYPE_UNKNOWN.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(9, InputType_);
       }
@@ -465,17 +465,17 @@ public final class UiSettingInputTypeNotifyOuterClass {
        * @return The inputType.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.UiSettingInputType._UiSettingInputType getInputType() {
+      public emu.grasscutter.net.proto._UiSettingInputTypeOuterClass._UiSettingInputType getInputType() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.UiSettingInputType._UiSettingInputType result = emu.grasscutter.net.proto.UiSettingInputType._UiSettingInputType.valueOf(InputType_);
-        return result == null ? emu.grasscutter.net.proto.UiSettingInputType._UiSettingInputType.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto._UiSettingInputTypeOuterClass._UiSettingInputType result = emu.grasscutter.net.proto._UiSettingInputTypeOuterClass._UiSettingInputType.valueOf(InputType_);
+        return result == null ? emu.grasscutter.net.proto._UiSettingInputTypeOuterClass._UiSettingInputType.UNRECOGNIZED : result;
       }
       /**
        * <code>._UiSettingInputType _input_type = 9;</code>
        * @param value The inputType to set.
        * @return This builder for chaining.
        */
-      public Builder setInputType(emu.grasscutter.net.proto.UiSettingInputType._UiSettingInputType value) {
+      public Builder setInputType(emu.grasscutter.net.proto._UiSettingInputTypeOuterClass._UiSettingInputType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -564,13 +564,14 @@ public final class UiSettingInputTypeNotifyOuterClass {
       "\n\036UiSettingInputTypeNotify.proto\032\031_UiSet" +
       "tingInputType.proto\"E\n\030UiSettingInputTyp" +
       "eNotify\022)\n\013_input_type\030\t \001(\0162\024._UiSettin" +
-      "gInputTypeB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "gInputTypeB?\n\031emu.grasscutter.net.protoB" +
+      "\"UiSettingInputTypeNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.UiSettingInputType.getDescriptor(),
+          emu.grasscutter.net.proto._UiSettingInputTypeOuterClass.getDescriptor(),
         });
     internal_static_UiSettingInputTypeNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -578,7 +579,7 @@ public final class UiSettingInputTypeNotifyOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_UiSettingInputTypeNotify_descriptor,
         new java.lang.String[] { "InputType", });
-    emu.grasscutter.net.proto.UiSettingInputType.getDescriptor();
+    emu.grasscutter.net.proto._UiSettingInputTypeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

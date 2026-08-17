@@ -1511,8 +1511,9 @@ public final class ServerBuffChangeNotifyOuterClass {
       "\003(\r\022\030\n\020avatar_guid_list\030\017 \003(\004\"j\n\024ServerB" +
       "uffChangeType\022(\n$ServerBuffChangeType_AD" +
       "D_SERVER_BUFF\020\000\022(\n$ServerBuffChangeType_" +
-      "DEL_SERVER_BUFF\020\001B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "DEL_SERVER_BUFF\020\001B=\n\031emu.grasscutter.net" +
+      ".protoB ServerBuffChangeNotifyOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

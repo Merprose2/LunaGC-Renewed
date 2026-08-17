@@ -1093,8 +1093,9 @@ public final class CrucibleBattleUidInfoOuterClass {
       "cture.proto\"\201\001\n\025CrucibleBattleUidInfo\022\020\n" +
       "\010nickname\030\001 \001(\t\022\013\n\003uid\030\003 \001(\r\022\021\n\tonline_i" +
       "d\030\006 \001(\t\022(\n\017profile_picture\030\014 \001(\0132\017.Profi" +
-      "lePicture\022\014\n\004icon\030\016 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "lePicture\022\014\n\004icon\030\016 \001(\rB<\n\031emu.grasscutt" +
+      "er.net.protoB\037CrucibleBattleUidInfoOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

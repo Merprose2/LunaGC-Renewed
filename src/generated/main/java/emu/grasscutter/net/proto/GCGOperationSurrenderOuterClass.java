@@ -447,8 +447,9 @@ public final class GCGOperationSurrenderOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033GCGOperationSurrender.proto\"\027\n\025GCGOper" +
-      "ationSurrenderB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "ationSurrenderB<\n\031emu.grasscutter.net.pr" +
+      "otoB\037GCGOperationSurrenderOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

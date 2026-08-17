@@ -595,8 +595,9 @@ public final class GFNMCDFHIGNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GFNMCDFHIGN.proto\"-\n\013GFNMCDFHIGN\022\r\n\005in" +
-      "dex\030\002 \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "dex\030\002 \001(\r\022\017\n\007retcode\030\017 \001(\005B2\n\031emu.grassc" +
+      "utter.net.protoB\025GFNMCDFHIGNOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

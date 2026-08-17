@@ -144,8 +144,9 @@ public final class PABDGHPMNGLOuterClass {
       "ABDGHPMNGL_BEYOND_ROOM_DUNGEON_IDLE\020\000\0225\n" +
       "1PABDGHPMNGL_BEYOND_ROOM_DUNGEON_DOWNLOA" +
       "D_COMPLETE\020\001\022/\n+PABDGHPMNGL_BEYOND_ROOM_" +
-      "DUNGEON_UNPUBLISHED\020\002B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "DUNGEON_UNPUBLISHED\020\002B2\n\031emu.grasscutter" +
+      ".net.protoB\025PABDGHPMNGLOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

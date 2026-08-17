@@ -517,8 +517,8 @@ public final class AEDDMHDNOEDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AEDDMHDNOED.proto\"\"\n\013AEDDMHDNOED\022\023\n\013GN" +
-      "HNOINLCFC\030\001 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "HNOINLCFC\030\001 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025AEDDMHDNOEDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -667,8 +667,9 @@ public final class LCBMLFECNAHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LCBMLFECNAH.proto\"0\n\013LCBMLFECNAH\022\014\n\004na" +
-      "me\030\001 \001(\t\022\023\n\013NMKMGOCKLFF\030\002 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "me\030\001 \001(\t\022\023\n\013NMKMGOCKLFF\030\002 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025LCBMLFECNAHOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

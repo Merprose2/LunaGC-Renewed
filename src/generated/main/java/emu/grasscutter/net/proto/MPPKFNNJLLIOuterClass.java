@@ -162,8 +162,9 @@ public final class MPPKFNNJLLIOuterClass {
       "PPKFNNJLLI_NONE\020\000\022\033\n\027MPPKFNNJLLI_CREATE_" +
       "NODE\020\001\022\034\n\030MPPKFNNJLLI_MODIFY_VALUE\020\002\022!\n\035" +
       "MPPKFNNJLLI_CREATE_CONNECTION\020\003\022*\n&MPPKF" +
-      "NNJLLI_CREATE_COMPOUND_CONNECTION\020\004B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "NNJLLI_CREATE_COMPOUND_CONNECTION\020\004B2\n\031e" +
+      "mu.grasscutter.net.protoB\025MPPKFNNJLLIOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

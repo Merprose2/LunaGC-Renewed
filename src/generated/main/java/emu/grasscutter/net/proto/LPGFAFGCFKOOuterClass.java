@@ -33,12 +33,12 @@ public final class LPGFAFGCFKOOuterClass {
     /**
      * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> 
+    java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> 
         getGPMEFKHPBFKList();
     /**
      * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
      */
-    emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getGPMEFKHPBFK(int index);
+    emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getGPMEFKHPBFK(int index);
     /**
      * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
      */
@@ -46,12 +46,12 @@ public final class LPGFAFGCFKOOuterClass {
     /**
      * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
         getGPMEFKHPBFKOrBuilderList();
     /**
      * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
      */
-    emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getGPMEFKHPBFKOrBuilder(
+    emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getGPMEFKHPBFKOrBuilder(
         int index);
 
     /**
@@ -125,11 +125,11 @@ public final class LPGFAFGCFKOOuterClass {
             }
             case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                gPMEFKHPBFK_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo>();
+                gPMEFKHPBFK_ = new java.util.ArrayList<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               gPMEFKHPBFK_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.parser(), extensionRegistry));
               break;
             }
             case 72: {
@@ -200,19 +200,19 @@ public final class LPGFAFGCFKOOuterClass {
     }
 
     public static final int GPMEFKHPBFK_FIELD_NUMBER = 8;
-    private java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> gPMEFKHPBFK_;
+    private java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> gPMEFKHPBFK_;
     /**
      * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> getGPMEFKHPBFKList() {
+    public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> getGPMEFKHPBFKList() {
       return gPMEFKHPBFK_;
     }
     /**
      * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
         getGPMEFKHPBFKOrBuilderList() {
       return gPMEFKHPBFK_;
     }
@@ -227,14 +227,14 @@ public final class LPGFAFGCFKOOuterClass {
      * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getGPMEFKHPBFK(int index) {
+    public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getGPMEFKHPBFK(int index) {
       return gPMEFKHPBFK_.get(index);
     }
     /**
      * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getGPMEFKHPBFKOrBuilder(
+    public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getGPMEFKHPBFKOrBuilder(
         int index) {
       return gPMEFKHPBFK_.get(index);
     }
@@ -735,22 +735,22 @@ public final class LPGFAFGCFKOOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> gPMEFKHPBFK_ =
+      private java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> gPMEFKHPBFK_ =
         java.util.Collections.emptyList();
       private void ensureGPMEFKHPBFKIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          gPMEFKHPBFK_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo>(gPMEFKHPBFK_);
+          gPMEFKHPBFK_ = new java.util.ArrayList<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo>(gPMEFKHPBFK_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> gPMEFKHPBFKBuilder_;
+          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> gPMEFKHPBFKBuilder_;
 
       /**
        * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> getGPMEFKHPBFKList() {
+      public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> getGPMEFKHPBFKList() {
         if (gPMEFKHPBFKBuilder_ == null) {
           return java.util.Collections.unmodifiableList(gPMEFKHPBFK_);
         } else {
@@ -770,7 +770,7 @@ public final class LPGFAFGCFKOOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
        */
-      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getGPMEFKHPBFK(int index) {
+      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getGPMEFKHPBFK(int index) {
         if (gPMEFKHPBFKBuilder_ == null) {
           return gPMEFKHPBFK_.get(index);
         } else {
@@ -781,7 +781,7 @@ public final class LPGFAFGCFKOOuterClass {
        * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
        */
       public Builder setGPMEFKHPBFK(
-          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
+          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
         if (gPMEFKHPBFKBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -798,7 +798,7 @@ public final class LPGFAFGCFKOOuterClass {
        * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
        */
       public Builder setGPMEFKHPBFK(
-          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
         if (gPMEFKHPBFKBuilder_ == null) {
           ensureGPMEFKHPBFKIsMutable();
           gPMEFKHPBFK_.set(index, builderForValue.build());
@@ -811,7 +811,7 @@ public final class LPGFAFGCFKOOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
        */
-      public Builder addGPMEFKHPBFK(emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
+      public Builder addGPMEFKHPBFK(emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
         if (gPMEFKHPBFKBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,7 +828,7 @@ public final class LPGFAFGCFKOOuterClass {
        * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
        */
       public Builder addGPMEFKHPBFK(
-          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
+          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
         if (gPMEFKHPBFKBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -845,7 +845,7 @@ public final class LPGFAFGCFKOOuterClass {
        * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
        */
       public Builder addGPMEFKHPBFK(
-          emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
         if (gPMEFKHPBFKBuilder_ == null) {
           ensureGPMEFKHPBFKIsMutable();
           gPMEFKHPBFK_.add(builderForValue.build());
@@ -859,7 +859,7 @@ public final class LPGFAFGCFKOOuterClass {
        * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
        */
       public Builder addGPMEFKHPBFK(
-          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
         if (gPMEFKHPBFKBuilder_ == null) {
           ensureGPMEFKHPBFKIsMutable();
           gPMEFKHPBFK_.add(index, builderForValue.build());
@@ -873,7 +873,7 @@ public final class LPGFAFGCFKOOuterClass {
        * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
        */
       public Builder addAllGPMEFKHPBFK(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> values) {
         if (gPMEFKHPBFKBuilder_ == null) {
           ensureGPMEFKHPBFKIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -913,14 +913,14 @@ public final class LPGFAFGCFKOOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
        */
-      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder getGPMEFKHPBFKBuilder(
+      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder getGPMEFKHPBFKBuilder(
           int index) {
         return getGPMEFKHPBFKFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
        */
-      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getGPMEFKHPBFKOrBuilder(
+      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getGPMEFKHPBFKOrBuilder(
           int index) {
         if (gPMEFKHPBFKBuilder_ == null) {
           return gPMEFKHPBFK_.get(index);  } else {
@@ -930,7 +930,7 @@ public final class LPGFAFGCFKOOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
            getGPMEFKHPBFKOrBuilderList() {
         if (gPMEFKHPBFKBuilder_ != null) {
           return gPMEFKHPBFKBuilder_.getMessageOrBuilderList();
@@ -941,31 +941,31 @@ public final class LPGFAFGCFKOOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
        */
-      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder addGPMEFKHPBFKBuilder() {
+      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder addGPMEFKHPBFKBuilder() {
         return getGPMEFKHPBFKFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
        */
-      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder addGPMEFKHPBFKBuilder(
+      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder addGPMEFKHPBFKBuilder(
           int index) {
         return getGPMEFKHPBFKFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._ActivityAvatarInfo GPMEFKHPBFK = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder> 
            getGPMEFKHPBFKBuilderList() {
         return getGPMEFKHPBFKFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
+          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
           getGPMEFKHPBFKFieldBuilder() {
         if (gPMEFKHPBFKBuilder_ == null) {
           gPMEFKHPBFKBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder>(
+              emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder>(
                   gPMEFKHPBFK_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -1107,13 +1107,13 @@ public final class LPGFAFGCFKOOuterClass {
       ".proto\"\202\001\n\013LPGFAFGCFKO\022\017\n\007is_open\030\003 \001(\010\022" +
       "\021\n\tis_finish\030\004 \001(\010\022)\n\013GPMEFKHPBFK\030\010 \003(\0132" +
       "\024._ActivityAvatarInfo\022\020\n\010level_id\030\t \001(\r\022" +
-      "\022\n\nbest_score\030\016 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\022\n\nbest_score\030\016 \001(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025LPGFAFGCFKOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.ActivityAvatarInfo.getDescriptor(),
+          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass.getDescriptor(),
         });
     internal_static_LPGFAFGCFKO_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1121,7 +1121,7 @@ public final class LPGFAFGCFKOOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_LPGFAFGCFKO_descriptor,
         new java.lang.String[] { "IsOpen", "IsFinish", "GPMEFKHPBFK", "LevelId", "BestScore", });
-    emu.grasscutter.net.proto.ActivityAvatarInfo.getDescriptor();
+    emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

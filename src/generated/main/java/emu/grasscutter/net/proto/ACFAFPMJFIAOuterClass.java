@@ -662,8 +662,8 @@ public final class ACFAFPMJFIAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ACFAFPMJFIA.proto\"A\n\013ACFAFPMJFIA\022\023\n\013NJ" +
       "FBEDMKFPL\030\001 \001(\014\022\r\n\005width\030\002 \001(\r\022\016\n\006height" +
-      "\030\003 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\003 \001(\rB2\n\031emu.grasscutter.net.protoB\025ACF" +
+      "AFPMJFIAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

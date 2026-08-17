@@ -667,8 +667,9 @@ public final class EffigyChallengeV2DungeonInfoNotifyOuterClass {
       "\n(EffigyChallengeV2DungeonInfoNotify.pro" +
       "to\"k\n\"EffigyChallengeV2DungeonInfoNotify" +
       "\022\020\n\010skill_no\030\007 \001(\r\022!\n\031challenge_mode_dif" +
-      "ficulty\030\013 \001(\r\022\020\n\010level_id\030\r \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "ficulty\030\013 \001(\r\022\020\n\010level_id\030\r \001(\rBI\n\031emu.g" +
+      "rasscutter.net.protoB,EffigyChallengeV2D" +
+      "ungeonInfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

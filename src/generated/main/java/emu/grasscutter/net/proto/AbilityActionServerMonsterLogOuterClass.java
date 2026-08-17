@@ -645,8 +645,9 @@ public final class AbilityActionServerMonsterLogOuterClass {
     java.lang.String[] descriptorData = {
       "\n#AbilityActionServerMonsterLog.proto\"3\n" +
       "\035AbilityActionServerMonsterLog\022\022\n\nparam_" +
-      "list\030\003 \003(\005B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "list\030\003 \003(\005BD\n\031emu.grasscutter.net.protoB" +
+      "\'AbilityActionServerMonsterLogOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

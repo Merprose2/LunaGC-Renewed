@@ -831,8 +831,9 @@ public final class GivingRecordNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030GivingRecordNotify.proto\032\022GivingRecord" +
       ".proto\"?\n\022GivingRecordNotify\022)\n\022giving_r" +
-      "ecord_list\030\n \003(\0132\r.GivingRecordB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "ecord_list\030\n \003(\0132\r.GivingRecordB9\n\031emu.g" +
+      "rasscutter.net.protoB\034GivingRecordNotify" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

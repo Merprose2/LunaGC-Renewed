@@ -1898,8 +1898,9 @@ public final class AbilityMixinLunarisLinkManagerOuterClass {
       "\n\013JEDFGOEOCJE\030\n \001(\r\022\023\n\013BLCEDAHIBHN\030\013 \001(\r" +
       "\022\023\n\013CDPIHKHIPEP\030\017 \001(\r\"C\n\007_OpType\022\020\n\014_OpT" +
       "ype_NONE\020\000\022\022\n\016_OpType_UPDATE\020\001\022\022\n\016_OpTyp" +
-      "e_FINISH\020\002B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "e_FINISH\020\002BE\n\031emu.grasscutter.net.protoB" +
+      "(AbilityMixinLunarisLinkManagerOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

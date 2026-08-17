@@ -525,8 +525,8 @@ public final class AHGOINLCFJFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AHGOINLCFJF.proto\"!\n\013AHGOINLCFJF\022\022\n\npr" +
-      "esent_id\030\010 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "esent_id\030\010 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025AHGOINLCFJFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

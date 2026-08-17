@@ -968,8 +968,8 @@ public final class GEEEHAPBLLEOuterClass {
       "\n\021GEEEHAPBLLE.proto\"u\n\013GEEEHAPBLLE\022\023\n\013BG" +
       "MMHHBABED\030\002 \001(\t\022\023\n\013CGKJMMNPPNJ\030\004 \001(\r\022\023\n\013" +
       "JDDLIMHDILK\030\005 \001(\r\022\023\n\013MIIBFGNGJEI\030\007 \001(\t\022\022" +
-      "\n\n_hall_guid\030\013 \001(\004B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\n\n_hall_guid\030\013 \001(\004B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025GEEEHAPBLLEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

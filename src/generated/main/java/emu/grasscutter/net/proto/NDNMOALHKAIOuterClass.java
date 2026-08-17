@@ -587,8 +587,9 @@ public final class NDNMOALHKAIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NDNMOALHKAI.proto\"7\n\013NDNMOALHKAI\022\023\n\013EB" +
-      "LBLCPGJMO\030\013 \001(\r\022\023\n\013KGBMFNBIFEL\030\014 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "LBLCPGJMO\030\013 \001(\r\022\023\n\013KGBMFNBIFEL\030\014 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025NDNMOALHKAIOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

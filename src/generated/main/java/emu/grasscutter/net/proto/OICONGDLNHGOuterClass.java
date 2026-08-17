@@ -595,8 +595,9 @@ public final class OICONGDLNHGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OICONGDLNHG.proto\"6\n\013OICONGDLNHG\022\022\n\nch" +
-      "apter_id\030\013 \001(\r\022\023\n\013GDPGFKJAGBL\030\017 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "apter_id\030\013 \001(\r\022\023\n\013GDPGFKJAGBL\030\017 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025OICONGDLNHGOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

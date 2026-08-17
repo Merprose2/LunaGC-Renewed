@@ -894,8 +894,9 @@ public final class HCGKIHNICBBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HCGKIHNICBB.proto\032\021KEEIMNGIKHG.proto\"E" +
       "\n\013HCGKIHNICBB\022\023\n\013JONFNJGGCOE\030\001 \001(\010\022!\n\013NB" +
-      "GLBHHCFKH\030\002 \003(\0132\014.KEEIMNGIKHGB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "GLBHHCFKH\030\002 \003(\0132\014.KEEIMNGIKHGB2\n\031emu.gra" +
+      "sscutter.net.protoB\025HCGKIHNICBBOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

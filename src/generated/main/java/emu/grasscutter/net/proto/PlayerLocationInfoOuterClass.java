@@ -1122,8 +1122,9 @@ public final class PlayerLocationInfoOuterClass {
       "\n\030PlayerLocationInfo.proto\032\014Vector.proto" +
       "\"b\n\022PlayerLocationInfo\022\024\n\003pos\030\004 \001(\0132\007.Ve" +
       "ctor\022\024\n\003rot\030\t \001(\0132\007.Vector\022\013\n\003uid\030\013 \001(\r\022" +
-      "\023\n\013HPOIENCPHFN\030\r \003(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\023\n\013HPOIENCPHFN\030\r \003(\rB9\n\031emu.grasscutter." +
+      "net.protoB\034PlayerLocationInfoOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

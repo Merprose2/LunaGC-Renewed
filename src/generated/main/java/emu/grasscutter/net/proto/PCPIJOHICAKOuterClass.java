@@ -598,7 +598,8 @@ public final class PCPIJOHICAKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PCPIJOHICAK.proto\"=\n\013PCPIJOHICAK\022\034\n\024_t" +
       "emplate_loading_id\030\003 \001(\r\022\020\n\010duration\030\007 \001" +
-      "(\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\002B2\n\031emu.grasscutter.net.protoB\025PCPIJOH" +
+      "ICAKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -729,8 +729,10 @@ public final class VintageHuntingFirstStageSettleInfoOuterClass {
       "\n(VintageHuntingFirstStageSettleInfo.pro" +
       "to\"r\n\"VintageHuntingFirstStageSettleInfo" +
       "\022\023\n\013BENHOAGGCHI\030\001 \001(\r\022\023\n\013DCGIFCCPHJO\030\005 \001" +
-      "(\r\022\r\n\005score\030\007 \001(\r\022\023\n\013HMGIBMJEAJB\030\n \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "(\r\022\r\n\005score\030\007 \001(\r\022\023\n\013HMGIBMJEAJB\030\n \001(\rBI" +
+      "\n\031emu.grasscutter.net.protoB,VintageHunt" +
+      "ingFirstStageSettleInfoOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

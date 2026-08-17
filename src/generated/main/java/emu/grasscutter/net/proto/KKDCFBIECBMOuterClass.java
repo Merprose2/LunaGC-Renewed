@@ -60,11 +60,11 @@ public final class KKDCFBIECBMOuterClass {
      * <code>._BeyondChatIndex index = 15;</code>
      * @return The index.
      */
-    emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex getIndex();
+    emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex getIndex();
     /**
      * <code>._BeyondChatIndex index = 15;</code>
      */
-    emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndexOrBuilder getIndexOrBuilder();
+    emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndexOrBuilder getIndexOrBuilder();
   }
   /**
    * <pre>
@@ -141,11 +141,11 @@ public final class KKDCFBIECBMOuterClass {
               break;
             }
             case 122: {
-              emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.Builder subBuilder = null;
               if (index_ != null) {
                 subBuilder = index_.toBuilder();
               }
-              index_ = input.readMessage(emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.parser(), extensionRegistry);
+              index_ = input.readMessage(emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(index_);
                 index_ = subBuilder.buildPartial();
@@ -261,7 +261,7 @@ public final class KKDCFBIECBMOuterClass {
     }
 
     public static final int INDEX_FIELD_NUMBER = 15;
-    private emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex index_;
+    private emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex index_;
     /**
      * <code>._BeyondChatIndex index = 15;</code>
      * @return Whether the index field is set.
@@ -275,14 +275,14 @@ public final class KKDCFBIECBMOuterClass {
      * @return The index.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex getIndex() {
-      return index_ == null ? emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.getDefaultInstance() : index_;
+    public emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex getIndex() {
+      return index_ == null ? emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.getDefaultInstance() : index_;
     }
     /**
      * <code>._BeyondChatIndex index = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndexOrBuilder getIndexOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndexOrBuilder getIndexOrBuilder() {
       return getIndex();
     }
 
@@ -895,9 +895,9 @@ public final class KKDCFBIECBMOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex index_;
+      private emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex index_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex, emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.Builder, emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndexOrBuilder> indexBuilder_;
+          emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex, emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.Builder, emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndexOrBuilder> indexBuilder_;
       /**
        * <code>._BeyondChatIndex index = 15;</code>
        * @return Whether the index field is set.
@@ -909,9 +909,9 @@ public final class KKDCFBIECBMOuterClass {
        * <code>._BeyondChatIndex index = 15;</code>
        * @return The index.
        */
-      public emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex getIndex() {
+      public emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex getIndex() {
         if (indexBuilder_ == null) {
-          return index_ == null ? emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.getDefaultInstance() : index_;
+          return index_ == null ? emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.getDefaultInstance() : index_;
         } else {
           return indexBuilder_.getMessage();
         }
@@ -919,7 +919,7 @@ public final class KKDCFBIECBMOuterClass {
       /**
        * <code>._BeyondChatIndex index = 15;</code>
        */
-      public Builder setIndex(emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex value) {
+      public Builder setIndex(emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex value) {
         if (indexBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -936,7 +936,7 @@ public final class KKDCFBIECBMOuterClass {
        * <code>._BeyondChatIndex index = 15;</code>
        */
       public Builder setIndex(
-          emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.Builder builderForValue) {
         if (indexBuilder_ == null) {
           index_ = builderForValue.build();
           onChanged();
@@ -949,11 +949,11 @@ public final class KKDCFBIECBMOuterClass {
       /**
        * <code>._BeyondChatIndex index = 15;</code>
        */
-      public Builder mergeIndex(emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex value) {
+      public Builder mergeIndex(emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex value) {
         if (indexBuilder_ == null) {
           if (index_ != null) {
             index_ =
-              emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.newBuilder(index_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.newBuilder(index_).mergeFrom(value).buildPartial();
           } else {
             index_ = value;
           }
@@ -981,7 +981,7 @@ public final class KKDCFBIECBMOuterClass {
       /**
        * <code>._BeyondChatIndex index = 15;</code>
        */
-      public emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.Builder getIndexBuilder() {
+      public emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.Builder getIndexBuilder() {
         
         onChanged();
         return getIndexFieldBuilder().getBuilder();
@@ -989,23 +989,23 @@ public final class KKDCFBIECBMOuterClass {
       /**
        * <code>._BeyondChatIndex index = 15;</code>
        */
-      public emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndexOrBuilder getIndexOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndexOrBuilder getIndexOrBuilder() {
         if (indexBuilder_ != null) {
           return indexBuilder_.getMessageOrBuilder();
         } else {
           return index_ == null ?
-              emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.getDefaultInstance() : index_;
+              emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.getDefaultInstance() : index_;
         }
       }
       /**
        * <code>._BeyondChatIndex index = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex, emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.Builder, emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndexOrBuilder> 
+          emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex, emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.Builder, emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndexOrBuilder> 
           getIndexFieldBuilder() {
         if (indexBuilder_ == null) {
           indexBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex, emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.Builder, emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndexOrBuilder>(
+              emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex, emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.Builder, emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndexOrBuilder>(
                   getIndex(),
                   getParentForChildren(),
                   isClean());
@@ -1084,14 +1084,15 @@ public final class KKDCFBIECBMOuterClass {
       "_BeyondChatIndex.proto\"x\n\013KKDCFBIECBM\022!\n" +
       "\013MFCJPMLNPJH\030\002 \001(\0132\014.GOOJJBAFHMA\022\023\n\013HAMB" +
       "ELOJMDL\030\004 \001(\t\022\017\n\007retcode\030\r \001(\005\022 \n\005index\030" +
-      "\017 \001(\0132\021._BeyondChatIndexB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\017 \001(\0132\021._BeyondChatIndexB2\n\031emu.grasscut" +
+      "ter.net.protoB\025KKDCFBIECBMOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.GOOJJBAFHMAOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondChatIndex.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondChatIndexOuterClass.getDescriptor(),
         });
     internal_static_KKDCFBIECBM_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1100,7 +1101,7 @@ public final class KKDCFBIECBMOuterClass {
         internal_static_KKDCFBIECBM_descriptor,
         new java.lang.String[] { "MFCJPMLNPJH", "HAMBELOJMDL", "Retcode", "Index", });
     emu.grasscutter.net.proto.GOOJJBAFHMAOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BeyondChatIndex.getDescriptor();
+    emu.grasscutter.net.proto._BeyondChatIndexOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

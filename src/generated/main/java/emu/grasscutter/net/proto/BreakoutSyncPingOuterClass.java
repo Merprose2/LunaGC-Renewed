@@ -590,8 +590,9 @@ public final class BreakoutSyncPingOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026BreakoutSyncPing.proto\"F\n\020BreakoutSync" +
       "Ping\022\030\n\020server_game_time\030\004 \001(\004\022\030\n\020client" +
-      "_game_time\030\016 \001(\004B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "_game_time\030\016 \001(\004B7\n\031emu.grasscutter.net." +
+      "protoB\032BreakoutSyncPingOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

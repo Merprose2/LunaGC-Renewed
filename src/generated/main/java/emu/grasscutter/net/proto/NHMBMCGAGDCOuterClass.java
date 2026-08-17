@@ -1280,8 +1280,8 @@ public final class NHMBMCGAGDCOuterClass {
       "ect_clip\030\013 \001(\0132\014.GELDPEIHEGEH\000\022)\n\021alert_" +
       "effect_clip\030\014 \001(\0132\014.OFALJINDKBKH\000\022)\n\021sou" +
       "nd_effect_clip\030\r \001(\0132\014.LAPAKGMDCICH\000B\010\n\006" +
-      "detailB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "detailB2\n\031emu.grasscutter.net.protoB\025NHM" +
+      "BMCGAGDCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

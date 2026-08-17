@@ -132,8 +132,9 @@ public final class LMJLCOJAKDEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LMJLCOJAKDE.proto*7\n\013LMJLCOJAKDE\022\023\n\017LM" +
-      "JLCOJAKDE_ALL\020\000\022\023\n\017LMJLCOJAKDE_ANY\020\001B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "JLCOJAKDE_ALL\020\000\022\023\n\017LMJLCOJAKDE_ANY\020\001B2\n\031" +
+      "emu.grasscutter.net.protoB\025LMJLCOJAKDEOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

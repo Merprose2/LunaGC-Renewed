@@ -1483,8 +1483,9 @@ public final class OOKJDJIBCGBOuterClass {
       "KCCFBDBHPA\022\"\n\013CEDOOAMJOJK\030\366\003 \001(\0132\014.BKCCF" +
       "BDBHPA\022\"\n\013AKJJEOCEAEH\030\367\003 \001(\0132\014.BKCCFBDBH" +
       "PA\022\"\n\013HFFDGMJDPOH\030\370\003 \001(\0132\014.BKCCFBDBHPA\022\013" +
-      "\n\002id\030\371\003 \001(\r\022\r\n\004name\030\372\003 \001(\tB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\n\002id\030\371\003 \001(\r\022\r\n\004name\030\372\003 \001(\tB2\n\031emu.grassc" +
+      "utter.net.protoB\025OOKJDJIBCGBOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -155,8 +155,8 @@ public final class AKKCIHDNHCGOuterClass {
       "ECTIVE_REFRESH_DAY\020\001\0223\n/AKKCIHDNHCG_BEYO" +
       "ND_LEVEL_OBJECTIVE_REFRESH_WEEK\020\002\0225\n1AKK" +
       "CIHDNHCG_BEYOND_LEVEL_OBJECTIVE_REFRESH_" +
-      "SEASON\020\003B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "SEASON\020\003B2\n\031emu.grasscutter.net.protoB\025A" +
+      "KKCIHDNHCGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

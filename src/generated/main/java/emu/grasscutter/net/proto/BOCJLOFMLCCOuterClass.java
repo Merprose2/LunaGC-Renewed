@@ -746,8 +746,8 @@ public final class BOCJLOFMLCCOuterClass {
       "EE\022\023\n\013IJODOKHAFIK\030\n \001(\010\"c\n\013AJHNNJPDLEE\022\032" +
       "\n\026AJHNNJPDLEE_STATE_NONE\020\000\022\032\n\026AJHNNJPDLE" +
       "E_STATE_SCAN\020\001\022\034\n\030AJHNNJPDLEE_STATE_ACTI" +
-      "ON\020\002B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "ON\020\002B2\n\031emu.grasscutter.net.protoB\025BOCJL" +
+      "OFMLCCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

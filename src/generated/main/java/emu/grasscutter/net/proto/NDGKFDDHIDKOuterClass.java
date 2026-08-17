@@ -596,8 +596,9 @@ public final class NDGKFDDHIDKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NDGKFDDHIDK.proto\"5\n\013NDGKFDDHIDK\022\025\n\ris" +
-      "_skip_match\030\001 \001(\010\022\017\n\007play_id\030\r \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "_skip_match\030\001 \001(\010\022\017\n\007play_id\030\r \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025NDGKFDDHIDKOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

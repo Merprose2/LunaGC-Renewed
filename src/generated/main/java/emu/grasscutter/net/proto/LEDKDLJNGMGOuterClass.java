@@ -1073,8 +1073,8 @@ public final class LEDKDLJNGMGOuterClass {
       "KDCIILGOPN.proto\"y\n\013LEDKDLJNGMG\022\013\n\003uid\030\006" +
       " \001(\r\022!\n\013CFNMKKGJCJM\030\007 \001(\0162\014.MKDCIILGOPN\022" +
       "\023\n\013HMCHOJMCMPD\030\t \001(\010\022%\n\020avatar_info_list" +
-      "\030\013 \003(\0132\013.AvatarInfoB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\030\013 \003(\0132\013.AvatarInfoB2\n\031emu.grasscutter.n" +
+      "et.protoB\025LEDKDLJNGMGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

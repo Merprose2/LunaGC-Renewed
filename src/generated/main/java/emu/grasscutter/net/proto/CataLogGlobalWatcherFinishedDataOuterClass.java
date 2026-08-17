@@ -716,8 +716,9 @@ public final class CataLogGlobalWatcherFinishedDataOuterClass {
       "\n&CataLogGlobalWatcherFinishedData.proto" +
       "\"^\n CataLogGlobalWatcherFinishedData\022\024\n\014" +
       "catalog_type\030\003 \001(\r\022$\n\034finished_global_wa" +
-      "tcher_list\030\r \003(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "tcher_list\030\r \003(\rBG\n\031emu.grasscutter.net." +
+      "protoB*CataLogGlobalWatcherFinishedDataO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

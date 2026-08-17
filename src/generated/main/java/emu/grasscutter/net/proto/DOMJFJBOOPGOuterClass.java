@@ -1178,7 +1178,8 @@ public final class DOMJFJBOOPGOuterClass {
       "EDHCFPEKM\022!\n\013CAGDIIKFNNL\030\003 \001(\0132\014.HHEDHCF" +
       "PEKM\022\023\n\013PJFCLJKPGPL\030\004 \001(\002\022\037\n\tborn_type\030\005" +
       " \001(\0162\014.JEOKDCIGCFP\022\023\n\013MCGOLBFHCJI\030\006 \001(\010B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025DOMJFJBOOP" +
+      "GOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -588,8 +588,9 @@ public final class CDNAAJNMEFLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CDNAAJNMEFL.proto\"7\n\013CDNAAJNMEFL\022\023\n\013EM" +
-      "BJNKGJLFN\030\001 \001(\r\022\023\n\013LNBOBNINCCA\030\002 \001(\010B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "BJNKGJLFN\030\001 \001(\r\022\023\n\013LNBOBNINCCA\030\002 \001(\010B2\n\031" +
+      "emu.grasscutter.net.protoB\025CDNAAJNMEFLOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

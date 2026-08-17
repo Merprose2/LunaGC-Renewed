@@ -909,8 +909,8 @@ public final class DCJJCCJMFDBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DCJJCCJMFDB.proto\"L\n\013DCJJCCJMFDB\022\023\n\013IM" +
       "LJCOMHHCL\030\003 \003(\r\022\023\n\013LEPMNOFIHPI\030\t \003(\r\022\023\n\013" +
-      "_level_guid\030\014 \001(\004B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "_level_guid\030\014 \001(\004B2\n\031emu.grasscutter.net" +
+      ".protoB\025DCJJCCJMFDBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

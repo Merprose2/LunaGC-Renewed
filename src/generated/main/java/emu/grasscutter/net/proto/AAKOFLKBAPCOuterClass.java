@@ -997,8 +997,8 @@ public final class AAKOFLKBAPCOuterClass {
       "\n\013AAKOFLKBAPC\022!\n\013ICPFHFEKAHA\030\001 \001(\0132\014.MML" +
       "NJCOKEAK\022!\n\013JGKBEHFLEGF\030\002 \001(\0132\014.MMLNJCOK" +
       "EAK\022\023\n\013KPPMGOPLMEL\030\003 \001(\005\022\023\n\013IPDDLEIHDOF\030" +
-      "\004 \001(\010B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\004 \001(\010B2\n\031emu.grasscutter.net.protoB\025AAKO" +
+      "FLKBAPCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

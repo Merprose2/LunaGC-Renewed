@@ -2330,8 +2330,9 @@ public final class BAIDCJNCAFHOuterClass {
       "2\014.JABDHELMDAG\022\023\n\013HNFAEECLGDN\030\004 \001(\014\022!\n\013K" +
       "MLEAPKFPNK\030\005 \001(\0132\014.DHEIDCGGGOA\022!\n\013KHDHIP" +
       "KEAJJ\030\006 \003(\0132\014.NEJDNHKBBEH\022\"\n\014data_versio" +
-      "n\030\007 \001(\0162\014.GOLFFDGJIBFB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "n\030\007 \001(\0162\014.GOLFFDGJIBFB2\n\031emu.grasscutter" +
+      ".net.protoB\025BAIDCJNCAFHOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

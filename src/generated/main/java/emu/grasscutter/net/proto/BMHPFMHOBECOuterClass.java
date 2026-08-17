@@ -729,8 +729,9 @@ public final class BMHPFMHOBECOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BMHPFMHOBEC.proto\032\021JACKBDJHCNL.proto\"E" +
       "\n\013BMHPFMHOBEC\022!\n\013OJACFHEGEKL\030\t \001(\0132\014.JAC" +
-      "KBDJHCNL\022\023\n\013KMDOFBPMGAI\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "KBDJHCNL\022\023\n\013KMDOFBPMGAI\030\017 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025BMHPFMHOBECOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

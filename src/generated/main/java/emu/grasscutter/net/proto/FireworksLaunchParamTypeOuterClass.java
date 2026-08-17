@@ -177,8 +177,9 @@ public final class FireworksLaunchParamTypeOuterClass {
       "AUNCH_PARAM_DELAY\020\003\022A\n=FireworksLaunchPa" +
       "ramType_FIREWORKS_LAUNCH_PARAM_ROUND_INT" +
       "EVAL\020\004\0227\n3FireworksLaunchParamType_FIREW" +
-      "ORKS_LAUNCH_PARAM_MAX\020\005B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "ORKS_LAUNCH_PARAM_MAX\020\005B?\n\031emu.grasscutt" +
+      "er.net.protoB\"FireworksLaunchParamTypeOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

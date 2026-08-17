@@ -1082,8 +1082,8 @@ public final class JOFFGNDEEJHOuterClass {
       "CDDCB\030\t \001(\r\022\025\n\r_map_layer_id\030\n \001(\r\022\020\n\010gr" +
       "oup_id\030\013 \001(\r\022\023\n\013offering_id\030\014 \001(\r\022\021\n\tcon" +
       "fig_id\030\r \001(\r\022 \n\017hint_center_pos\030\016 \001(\0132\007." +
-      "VectorB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "VectorB2\n\031emu.grasscutter.net.protoB\025JOF" +
+      "FGNDEEJHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

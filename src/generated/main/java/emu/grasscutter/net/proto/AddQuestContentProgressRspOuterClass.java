@@ -596,8 +596,9 @@ public final class AddQuestContentProgressRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n AddQuestContentProgressRsp.proto\"C\n\032Ad" +
       "dQuestContentProgressRsp\022\024\n\014content_type" +
-      "\030\007 \001(\r\022\017\n\007retcode\030\014 \001(\005B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\030\007 \001(\r\022\017\n\007retcode\030\014 \001(\005BA\n\031emu.grasscutt" +
+      "er.net.protoB$AddQuestContentProgressRsp" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

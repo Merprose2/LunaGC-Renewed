@@ -596,7 +596,8 @@ public final class GCGTCInviteReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024GCGTCInviteReq.proto\"8\n\016GCGTCInviteReq" +
       "\022\024\n\014character_id\030\n \001(\r\022\020\n\010level_id\030\016 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B5\n\031emu.grasscutter.net.protoB\030GCGTCInvi" +
+      "teReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

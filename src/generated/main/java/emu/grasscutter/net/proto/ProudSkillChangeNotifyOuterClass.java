@@ -865,8 +865,9 @@ public final class ProudSkillChangeNotifyOuterClass {
       "\n\034ProudSkillChangeNotify.proto\"r\n\026ProudS" +
       "killChangeNotify\022\023\n\013avatar_guid\030\001 \001(\004\022\021\n" +
       "\tentity_id\030\003 \001(\r\022\026\n\016skill_depot_id\030\013 \001(\r" +
-      "\022\030\n\020proud_skill_list\030\r \003(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\022\030\n\020proud_skill_list\030\r \003(\rB=\n\031emu.grassc" +
+      "utter.net.protoB ProudSkillChangeNotifyO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1550,8 +1550,8 @@ public final class MPDFBEJOEHLOuterClass {
       "\001(\t\022(\n\017profile_picture\030\010 \001(\0132\017.ProfilePi" +
       "cture\022\013\n\003uid\030\t \001(\r\022)\n\tcard_list\030\n \003(\0132\026." +
       "ExhibitionDisplayInfo\022\026\n\016_xbox_gamertag\030" +
-      "\016 \001(\tB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\016 \001(\tB2\n\031emu.grasscutter.net.protoB\025MPDF" +
+      "BEJOEHLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

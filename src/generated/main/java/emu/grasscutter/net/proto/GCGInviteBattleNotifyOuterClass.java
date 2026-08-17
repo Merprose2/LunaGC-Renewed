@@ -596,8 +596,9 @@ public final class GCGInviteBattleNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033GCGInviteBattleNotify.proto\"M\n\025GCGInvi" +
       "teBattleNotify\022\030\n\020confirm_end_time\030\006 \001(\r" +
-      "\022\032\n\022festival_mode_type\030\014 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\022\032\n\022festival_mode_type\030\014 \001(\rB<\n\031emu.gras" +
+      "scutter.net.protoB\037GCGInviteBattleNotify" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

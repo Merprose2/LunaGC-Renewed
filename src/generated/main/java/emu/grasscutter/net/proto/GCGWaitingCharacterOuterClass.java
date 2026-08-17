@@ -588,8 +588,8 @@ public final class GCGWaitingCharacterOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031GCGWaitingCharacter.proto\":\n\023GCGWaitin" +
       "gCharacter\022\022\n\ncond_count\030\007 \001(\r\022\017\n\007card_i" +
-      "d\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "d\030\017 \001(\rB:\n\031emu.grasscutter.net.protoB\035GC" +
+      "GWaitingCharacterOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

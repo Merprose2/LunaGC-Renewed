@@ -591,8 +591,9 @@ public final class PBMNACANPJHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PBMNACANPJH.proto\"-\n\013PBMNACANPJH\022\016\n\006ra" +
-      "dius\030\001 \001(\002\022\016\n\006height\030\002 \001(\002B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "dius\030\001 \001(\002\022\016\n\006height\030\002 \001(\002B2\n\031emu.grassc" +
+      "utter.net.protoB\025PBMNACANPJHOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -833,8 +833,9 @@ public final class ClientAbilitiesInitFinishCombineNotifyOuterClass {
       ".proto\032\036EntityAbilityInvokeEntry.proto\"_" +
       "\n&ClientAbilitiesInitFinishCombineNotify" +
       "\0225\n\022entity_invoke_list\030\010 \003(\0132\031.EntityAbi" +
-      "lityInvokeEntryB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "lityInvokeEntryBM\n\031emu.grasscutter.net.p" +
+      "rotoB0ClientAbilitiesInitFinishCombineNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

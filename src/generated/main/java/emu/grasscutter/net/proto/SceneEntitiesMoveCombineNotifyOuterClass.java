@@ -903,8 +903,9 @@ public final class SceneEntitiesMoveCombineNotifyOuterClass {
       "EntityMoveInfo.proto\"l\n\036SceneEntitiesMov" +
       "eCombineNotify\022.\n\025entity_move_info_list\030" +
       "\006 \003(\0132\017.EntityMoveInfo\022\032\n\022client_sequenc" +
-      "e_id\030\r \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "e_id\030\r \001(\rBE\n\031emu.grasscutter.net.protoB" +
+      "(SceneEntitiesMoveCombineNotifyOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

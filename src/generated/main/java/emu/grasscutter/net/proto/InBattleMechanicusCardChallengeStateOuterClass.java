@@ -159,8 +159,9 @@ public final class InBattleMechanicusCardChallengeStateOuterClass {
       "dChallengeState_IN_BATTLE_MECHANICUS_CAR" +
       "D_CHALLENGE_FAIL\020\002\022T\nPInBattleMechanicus" +
       "CardChallengeState_IN_BATTLE_MECHANICUS_" +
-      "CARD_CHALLENGE_SUCCESS\020\003B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "CARD_CHALLENGE_SUCCESS\020\003BK\n\031emu.grasscut" +
+      "ter.net.protoB.InBattleMechanicusCardCha" +
+      "llengeStateOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

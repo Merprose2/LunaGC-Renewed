@@ -1078,8 +1078,8 @@ public final class EDNEIIIEBJDOuterClass {
       "onfig_id\030\002 \001(\r\022\023\n\013IPFBNDPBJMB\030\003 \001(\r\022\023\n\013D" +
       "KFKKAPOECB\030\004 \001(\r\022\023\n\013HLDJPJPPEBD\030\005 \001(\002\022\023\n" +
       "\013COEIPELBOKA\030\006 \001(\002\022!\n\013FHPGHEEEFOK\030\025 \001(\0132" +
-      "\014.IBBBCHHJLOAB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\014.IBBBCHHJLOAB2\n\031emu.grasscutter.net.pro" +
+      "toB\025EDNEIIIEBJDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

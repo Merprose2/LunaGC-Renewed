@@ -729,8 +729,8 @@ public final class BNPMABHALCNOuterClass {
       "\n\021BNPMABHALCN.proto\"m\n\013BNPMABHALCN\022\037\n\027_m" +
       "onster_chess_team_num\030\001 \001(\r\022\023\n\013EIAEPKNMK" +
       "OI\030\002 \001(\r\022\023\n\013LGBODFDHLDM\030\003 \001(\r\022\023\n\013DMLNGLA" +
-      "BDJL\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "BDJL\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025BNPMABHALCNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

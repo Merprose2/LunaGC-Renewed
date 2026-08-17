@@ -722,8 +722,9 @@ public final class HomeSeekFurniturePlayerScoreOuterClass {
       "\n\"HomeSeekFurniturePlayerScore.proto\032\031Ho" +
       "meGroupPlayerInfo.proto\"X\n\034HomeSeekFurni" +
       "turePlayerScore\022)\n\013player_info\030\004 \001(\0132\024.H" +
-      "omeGroupPlayerInfo\022\r\n\005score\030\007 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "omeGroupPlayerInfo\022\r\n\005score\030\007 \001(\rBC\n\031emu" +
+      ".grasscutter.net.protoB&HomeSeekFurnitur" +
+      "ePlayerScoreOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

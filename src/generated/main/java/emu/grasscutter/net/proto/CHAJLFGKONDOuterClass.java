@@ -1067,8 +1067,8 @@ public final class CHAJLFGKONDOuterClass {
       "OCJFBLLO\030\001 \001(\r\022\023\n\013OCHFMDNNGLA\030\002 \001(\r\022\023\n\013P" +
       "CBODGPCALB\030\003 \001(\r\022!\n\013FBEIHDGKHIC\030\004 \001(\0132\014." +
       "ACLCFFFJLKI\022!\n\013KGEKOKKHFMG\030\005 \001(\0132\014.MOHMO" +
-      "MPBEOFB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "MPBEOFB2\n\031emu.grasscutter.net.protoB\025CHA" +
+      "JLFGKONDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

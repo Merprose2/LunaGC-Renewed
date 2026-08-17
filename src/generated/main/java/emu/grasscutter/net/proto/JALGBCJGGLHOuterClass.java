@@ -152,8 +152,9 @@ public final class JALGBCJGGLHOuterClass {
       "\n\021JALGBCJGGLH.proto*|\n\013JALGBCJGGLH\022\027\n\023JA" +
       "LGBCJGGLH_UNKNOWN\020\000\022\035\n\031JALGBCJGGLH_SHORT" +
       "_COMMENT\020\001\022\031\n\025JALGBCJGGLH_LONG_TEXT\020\002\022\032\n" +
-      "\026JALGBCJGGLH_IMAGE_TEXT\020\003B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\026JALGBCJGGLH_IMAGE_TEXT\020\003B2\n\031emu.grasscu" +
+      "tter.net.protoB\025JALGBCJGGLHOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

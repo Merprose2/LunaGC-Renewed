@@ -596,8 +596,8 @@ public final class SceneInitFinishRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030SceneInitFinishRsp.proto\"@\n\022SceneInitF" +
       "inishRsp\022\017\n\007retcode\030\001 \001(\005\022\031\n\021enter_scene" +
-      "_token\030\014 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "_token\030\014 \001(\rB9\n\031emu.grasscutter.net.prot" +
+      "oB\034SceneInitFinishRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -39,11 +39,11 @@ public final class EMEJENPCHLOOuterClass {
      * <code>._TriggerAbility trigger_ability = 100;</code>
      * @return The triggerAbility.
      */
-    emu.grasscutter.net.proto.TriggerAbility._TriggerAbility getTriggerAbility();
+    emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility getTriggerAbility();
     /**
      * <code>._TriggerAbility trigger_ability = 100;</code>
      */
-    emu.grasscutter.net.proto.TriggerAbility._TriggerAbilityOrBuilder getTriggerAbilityOrBuilder();
+    emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbilityOrBuilder getTriggerAbilityOrBuilder();
 
     public emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO.DBHCCFJCDLHCase getDBHCCFJCDLHCase();
   }
@@ -103,14 +103,14 @@ public final class EMEJENPCHLOOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.TriggerAbility._TriggerAbility.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility.Builder subBuilder = null;
               if (dBHCCFJCDLHCase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.TriggerAbility._TriggerAbility) dBHCCFJCDLH_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility) dBHCCFJCDLH_).toBuilder();
               }
               dBHCCFJCDLH_ =
-                  input.readMessage(emu.grasscutter.net.proto.TriggerAbility._TriggerAbility.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.TriggerAbility._TriggerAbility) dBHCCFJCDLH_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility) dBHCCFJCDLH_);
                 dBHCCFJCDLH_ = subBuilder.buildPartial();
               }
               dBHCCFJCDLHCase_ = 100;
@@ -223,21 +223,21 @@ public final class EMEJENPCHLOOuterClass {
      * @return The triggerAbility.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TriggerAbility._TriggerAbility getTriggerAbility() {
+    public emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility getTriggerAbility() {
       if (dBHCCFJCDLHCase_ == 100) {
-         return (emu.grasscutter.net.proto.TriggerAbility._TriggerAbility) dBHCCFJCDLH_;
+         return (emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility) dBHCCFJCDLH_;
       }
-      return emu.grasscutter.net.proto.TriggerAbility._TriggerAbility.getDefaultInstance();
+      return emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility.getDefaultInstance();
     }
     /**
      * <code>._TriggerAbility trigger_ability = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TriggerAbility._TriggerAbilityOrBuilder getTriggerAbilityOrBuilder() {
+    public emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbilityOrBuilder getTriggerAbilityOrBuilder() {
       if (dBHCCFJCDLHCase_ == 100) {
-         return (emu.grasscutter.net.proto.TriggerAbility._TriggerAbility) dBHCCFJCDLH_;
+         return (emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility) dBHCCFJCDLH_;
       }
-      return emu.grasscutter.net.proto.TriggerAbility._TriggerAbility.getDefaultInstance();
+      return emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -261,7 +261,7 @@ public final class EMEJENPCHLOOuterClass {
         output.writeFloat(2, oMPEDKKJAJD_);
       }
       if (dBHCCFJCDLHCase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.TriggerAbility._TriggerAbility) dBHCCFJCDLH_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility) dBHCCFJCDLH_);
       }
       unknownFields.writeTo(output);
     }
@@ -282,7 +282,7 @@ public final class EMEJENPCHLOOuterClass {
       }
       if (dBHCCFJCDLHCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.TriggerAbility._TriggerAbility) dBHCCFJCDLH_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility) dBHCCFJCDLH_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -683,7 +683,7 @@ public final class EMEJENPCHLOOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TriggerAbility._TriggerAbility, emu.grasscutter.net.proto.TriggerAbility._TriggerAbility.Builder, emu.grasscutter.net.proto.TriggerAbility._TriggerAbilityOrBuilder> triggerAbilityBuilder_;
+          emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility, emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility.Builder, emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbilityOrBuilder> triggerAbilityBuilder_;
       /**
        * <code>._TriggerAbility trigger_ability = 100;</code>
        * @return Whether the triggerAbility field is set.
@@ -697,23 +697,23 @@ public final class EMEJENPCHLOOuterClass {
        * @return The triggerAbility.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TriggerAbility._TriggerAbility getTriggerAbility() {
+      public emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility getTriggerAbility() {
         if (triggerAbilityBuilder_ == null) {
           if (dBHCCFJCDLHCase_ == 100) {
-            return (emu.grasscutter.net.proto.TriggerAbility._TriggerAbility) dBHCCFJCDLH_;
+            return (emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility) dBHCCFJCDLH_;
           }
-          return emu.grasscutter.net.proto.TriggerAbility._TriggerAbility.getDefaultInstance();
+          return emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility.getDefaultInstance();
         } else {
           if (dBHCCFJCDLHCase_ == 100) {
             return triggerAbilityBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.TriggerAbility._TriggerAbility.getDefaultInstance();
+          return emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility.getDefaultInstance();
         }
       }
       /**
        * <code>._TriggerAbility trigger_ability = 100;</code>
        */
-      public Builder setTriggerAbility(emu.grasscutter.net.proto.TriggerAbility._TriggerAbility value) {
+      public Builder setTriggerAbility(emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility value) {
         if (triggerAbilityBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -730,7 +730,7 @@ public final class EMEJENPCHLOOuterClass {
        * <code>._TriggerAbility trigger_ability = 100;</code>
        */
       public Builder setTriggerAbility(
-          emu.grasscutter.net.proto.TriggerAbility._TriggerAbility.Builder builderForValue) {
+          emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility.Builder builderForValue) {
         if (triggerAbilityBuilder_ == null) {
           dBHCCFJCDLH_ = builderForValue.build();
           onChanged();
@@ -743,11 +743,11 @@ public final class EMEJENPCHLOOuterClass {
       /**
        * <code>._TriggerAbility trigger_ability = 100;</code>
        */
-      public Builder mergeTriggerAbility(emu.grasscutter.net.proto.TriggerAbility._TriggerAbility value) {
+      public Builder mergeTriggerAbility(emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility value) {
         if (triggerAbilityBuilder_ == null) {
           if (dBHCCFJCDLHCase_ == 100 &&
-              dBHCCFJCDLH_ != emu.grasscutter.net.proto.TriggerAbility._TriggerAbility.getDefaultInstance()) {
-            dBHCCFJCDLH_ = emu.grasscutter.net.proto.TriggerAbility._TriggerAbility.newBuilder((emu.grasscutter.net.proto.TriggerAbility._TriggerAbility) dBHCCFJCDLH_)
+              dBHCCFJCDLH_ != emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility.getDefaultInstance()) {
+            dBHCCFJCDLH_ = emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility.newBuilder((emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility) dBHCCFJCDLH_)
                 .mergeFrom(value).buildPartial();
           } else {
             dBHCCFJCDLH_ = value;
@@ -784,36 +784,36 @@ public final class EMEJENPCHLOOuterClass {
       /**
        * <code>._TriggerAbility trigger_ability = 100;</code>
        */
-      public emu.grasscutter.net.proto.TriggerAbility._TriggerAbility.Builder getTriggerAbilityBuilder() {
+      public emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility.Builder getTriggerAbilityBuilder() {
         return getTriggerAbilityFieldBuilder().getBuilder();
       }
       /**
        * <code>._TriggerAbility trigger_ability = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TriggerAbility._TriggerAbilityOrBuilder getTriggerAbilityOrBuilder() {
+      public emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbilityOrBuilder getTriggerAbilityOrBuilder() {
         if ((dBHCCFJCDLHCase_ == 100) && (triggerAbilityBuilder_ != null)) {
           return triggerAbilityBuilder_.getMessageOrBuilder();
         } else {
           if (dBHCCFJCDLHCase_ == 100) {
-            return (emu.grasscutter.net.proto.TriggerAbility._TriggerAbility) dBHCCFJCDLH_;
+            return (emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility) dBHCCFJCDLH_;
           }
-          return emu.grasscutter.net.proto.TriggerAbility._TriggerAbility.getDefaultInstance();
+          return emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility.getDefaultInstance();
         }
       }
       /**
        * <code>._TriggerAbility trigger_ability = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TriggerAbility._TriggerAbility, emu.grasscutter.net.proto.TriggerAbility._TriggerAbility.Builder, emu.grasscutter.net.proto.TriggerAbility._TriggerAbilityOrBuilder> 
+          emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility, emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility.Builder, emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbilityOrBuilder> 
           getTriggerAbilityFieldBuilder() {
         if (triggerAbilityBuilder_ == null) {
           if (!(dBHCCFJCDLHCase_ == 100)) {
-            dBHCCFJCDLH_ = emu.grasscutter.net.proto.TriggerAbility._TriggerAbility.getDefaultInstance();
+            dBHCCFJCDLH_ = emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility.getDefaultInstance();
           }
           triggerAbilityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TriggerAbility._TriggerAbility, emu.grasscutter.net.proto.TriggerAbility._TriggerAbility.Builder, emu.grasscutter.net.proto.TriggerAbility._TriggerAbilityOrBuilder>(
-                  (emu.grasscutter.net.proto.TriggerAbility._TriggerAbility) dBHCCFJCDLH_,
+              emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility, emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility.Builder, emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbilityOrBuilder>(
+                  (emu.grasscutter.net.proto._TriggerAbilityOuterClass._TriggerAbility) dBHCCFJCDLH_,
                   getParentForChildren(),
                   isClean());
           dBHCCFJCDLH_ = null;
@@ -893,12 +893,13 @@ public final class EMEJENPCHLOOuterClass {
       "to\"s\n\013EMEJENPCHLO\022\023\n\013KFMDCEHACKM\030\001 \001(\010\022\023" +
       "\n\013OMPEDKKJAJD\030\002 \001(\002\022+\n\017trigger_ability\030d" +
       " \001(\0132\020._TriggerAbilityH\000B\r\n\013DBHCCFJCDLHB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025EMEJENPCHL" +
+      "OOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.TriggerAbility.getDescriptor(),
+          emu.grasscutter.net.proto._TriggerAbilityOuterClass.getDescriptor(),
         });
     internal_static_EMEJENPCHLO_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -906,7 +907,7 @@ public final class EMEJENPCHLOOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EMEJENPCHLO_descriptor,
         new java.lang.String[] { "KFMDCEHACKM", "OMPEDKKJAJD", "TriggerAbility", "DBHCCFJCDLH", });
-    emu.grasscutter.net.proto.TriggerAbility.getDescriptor();
+    emu.grasscutter.net.proto._TriggerAbilityOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

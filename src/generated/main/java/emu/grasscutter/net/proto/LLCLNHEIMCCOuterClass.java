@@ -774,8 +774,9 @@ public final class LLCLNHEIMCCOuterClass {
       "\n\021LLCLNHEIMCC.proto\"}\n\013LLCLNHEIMCC\0228\n\017se" +
       "ttle_info_map\030\001 \003(\0132\037.LLCLNHEIMCC.Settle" +
       "InfoMapEntry\0324\n\022SettleInfoMapEntry\022\013\n\003ke" +
-      "y\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "y\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B2\n\031emu.grassc" +
+      "utter.net.protoB\025LLCLNHEIMCCOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

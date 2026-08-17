@@ -596,8 +596,8 @@ public final class SumoSwitchTeamReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027SumoSwitchTeamReq.proto\":\n\021SumoSwitchT" +
       "eamReq\022\023\n\013activity_id\030\007 \001(\r\022\020\n\010stage_id\030" +
-      "\n \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\n \001(\rB8\n\031emu.grasscutter.net.protoB\033Sumo" +
+      "SwitchTeamReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

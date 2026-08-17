@@ -446,8 +446,9 @@ public final class CAOOJHGBKIPOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021CAOOJHGBKIP.proto\"\r\n\013CAOOJHGBKIPB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021CAOOJHGBKIP.proto\"\r\n\013CAOOJHGBKIPB2\n\031em" +
+      "u.grasscutter.net.protoB\025CAOOJHGBKIPOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

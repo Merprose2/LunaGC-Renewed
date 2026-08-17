@@ -525,8 +525,8 @@ public final class PPINCPKCLDMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PPINCPKCLDM.proto\"\034\n\013PPINCPKCLDM\022\r\n\005le" +
-      "vel\030\010 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "vel\030\010 \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "PPINCPKCLDMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

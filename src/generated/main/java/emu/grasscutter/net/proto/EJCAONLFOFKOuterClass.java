@@ -595,8 +595,9 @@ public final class EJCAONLFOFKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EJCAONLFOFK.proto\"2\n\013EJCAONLFOFK\022\022\n\ndu" +
-      "ngeon_id\030\t \001(\r\022\017\n\007cell_id\030\n \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "ngeon_id\030\t \001(\r\022\017\n\007cell_id\030\n \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025EJCAONLFOFKOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

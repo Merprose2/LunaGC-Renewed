@@ -1611,8 +1611,9 @@ public final class LanternProjectionInfoOuterClass {
       "_stage_list\030\004 \003(\r\022/\n\nlevel_list\030\006 \003(\0132\033." +
       "LanternProjectionLevelInfo\022%\n\013GOBNJOGJEM" +
       "P\030\013 \003(\0162\020.ClientInputType\022%\n\013PLJBMMAMJDL" +
-      "\030\017 \003(\0162\020.ClientInputTypeB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\030\017 \003(\0162\020.ClientInputTypeB<\n\031emu.grasscut" +
+      "ter.net.protoB\037LanternProjectionInfoOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

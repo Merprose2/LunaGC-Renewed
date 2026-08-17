@@ -832,8 +832,9 @@ public final class BonusActivityUpdateNotifyOuterClass {
       "\n\037BonusActivityUpdateNotify.proto\032\027Bonus" +
       "ActivityInfo.proto\"Q\n\031BonusActivityUpdat" +
       "eNotify\0224\n\030bonus_activity_info_list\030\016 \003(" +
-      "\0132\022.BonusActivityInfoB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\0132\022.BonusActivityInfoB@\n\031emu.grasscutter" +
+      ".net.protoB#BonusActivityUpdateNotifyOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

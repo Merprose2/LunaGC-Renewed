@@ -901,8 +901,8 @@ public final class MGHJBBAJMKDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MGHJBBAJMKD.proto\032\017ItemParam.proto\"=\n\013" +
       "MGHJBBAJMKD\022\035\n\titem_list\030\005 \003(\0132\n.ItemPar" +
-      "am\022\017\n\007retcode\030\r \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "am\022\017\n\007retcode\030\r \001(\005B2\n\031emu.grasscutter.n" +
+      "et.protoB\025MGHJBBAJMKDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -3198,8 +3198,9 @@ public final class AFKIKOELKNEOuterClass {
       "EGJKEPAGF\030\225\003 \001(\r\022\024\n\013OLEOKFBCOON\030\206\005 \001(\r\022." +
       "\n\022online_player_info\030\233\006 \001(\0132\021.OnlinePlay" +
       "erInfo\022\"\n\013GMHADLLHJGA\030\263\010 \001(\0132\014.DBBIBLLCC" +
-      "HB\022\024\n\013JMHCKBLKNKA\030\347\t \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "HB\022\024\n\013JMHCKBLKNKA\030\347\t \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025AFKIKOELKNEOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

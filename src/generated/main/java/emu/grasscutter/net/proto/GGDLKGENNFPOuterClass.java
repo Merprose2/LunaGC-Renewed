@@ -952,8 +952,8 @@ public final class GGDLKGENNFPOuterClass {
       "\n\021GGDLKGENNFP.proto\032\021FLJNOAOAJCP.proto\"Z" +
       "\n\013GGDLKGENNFP\022\023\n\013MPJOJIONEIF\030\001 \001(\t\022\023\n\013JI" +
       "PGNLKEBEG\030\002 \001(\t\022!\n\013AMAEBGCPHHB\030\003 \001(\0132\014.F" +
-      "LJNOAOAJCPB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "LJNOAOAJCPB2\n\031emu.grasscutter.net.protoB" +
+      "\025GGDLKGENNFPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

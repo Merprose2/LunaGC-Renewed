@@ -2238,7 +2238,8 @@ public final class AJOLGAEOPDEOuterClass {
       "JLGGCMOMMN\030\013 \001(\010\022!\n\013FEFKEOEANBI\030\014 \001(\0162\014." +
       "AGLJDGLCEKE\022!\n\013DFEINCEGHGP\030\r \001(\0132\014.LENFH" +
       "EKFLNA\022!\n\013GMJPPNIEBJP\030\017 \003(\0132\014.CHLCOIFFJC" +
-      "PB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "PB2\n\031emu.grasscutter.net.protoB\025AJOLGAEO" +
+      "PDEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

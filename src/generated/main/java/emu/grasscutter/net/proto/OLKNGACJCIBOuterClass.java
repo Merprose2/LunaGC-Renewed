@@ -153,8 +153,9 @@ public final class OLKNGACJCIBOuterClass {
       "LKNGACJCIB_BEYOND_TEAM_NONE\020\000\022)\n%OLKNGAC" +
       "JCIB_BEYOND_TEAM_PREPARE_MATCH\020\001\022&\n\"OLKN" +
       "GACJCIB_BEYOND_TEAM_WAIT_MATCH\020\002\022$\n OLKN" +
-      "GACJCIB_BEYOND_TEAM_MATCHING\020\003B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "GACJCIB_BEYOND_TEAM_MATCHING\020\003B2\n\031emu.gr" +
+      "asscutter.net.protoB\025OLKNGACJCIBOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

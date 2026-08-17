@@ -785,8 +785,8 @@ public final class KLPMGJGLMPGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KLPMGJGLMPG.proto\"J\n\013KLPMGJGLMPG\022\022\n\naf" +
       "fix_list\030\004 \003(\r\022\023\n\013OGCFKBFILIO\030\006 \001(\r\022\022\n\ne" +
-      "quip_type\030\010 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "quip_type\030\010 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025KLPMGJGLMPGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

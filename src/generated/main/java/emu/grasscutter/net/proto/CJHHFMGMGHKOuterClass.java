@@ -1059,8 +1059,9 @@ public final class CJHHFMGMGHKOuterClass {
       "OIJPILNKPHC.proto\032\021PGDMAIHKGFO.proto\"w\n\013" +
       "CJHHFMGMGHK\022!\n\013HCOJGEOOGFB\030\001 \001(\0132\014.EIIPN" +
       "GJKPOO\022!\n\013IHBEJKPPILB\030\002 \001(\0132\014.PGDMAIHKGF" +
-      "O\022\"\n\013IPFKFCBGIMJ\030\365\003 \001(\0132\014.OIJPILNKPHCB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "O\022\"\n\013IPFKFCBGIMJ\030\365\003 \001(\0132\014.OIJPILNKPHCB2\n" +
+      "\031emu.grasscutter.net.protoB\025CJHHFMGMGHKO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

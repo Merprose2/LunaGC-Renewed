@@ -264,8 +264,9 @@ public final class PlayerDieTypeOuterClass {
       "VEL_FORCE_DIE\020\013\0221\n-PlayerDieType_PLAYER_" +
       "DIE_HEART_BLOOD_USED_OUT\020\014\022-\n)PlayerDieT" +
       "ype_PLAYER_DIE_BEYOND_BLUEPRINT\020\r\022%\n!Pla" +
-      "yerDieType_PLAYER_DIE_THE_GREY\020\016B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "yerDieType_PLAYER_DIE_THE_GREY\020\016B4\n\031emu." +
+      "grasscutter.net.protoB\027PlayerDieTypeOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

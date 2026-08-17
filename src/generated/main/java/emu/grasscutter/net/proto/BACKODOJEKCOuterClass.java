@@ -862,8 +862,9 @@ public final class BACKODOJEKCOuterClass {
       "\n\021BACKODOJEKC.proto\032\021ABFMGNFBCOK.proto\"o" +
       "\n\013BACKODOJEKC\022\023\n\013PACOCJFBLLO\030\001 \001(\r\022\023\n\013GN" +
       "MMPGDBADE\030\002 \001(\r\022\023\n\013PCBODGPCALB\030\003 \001(\r\022!\n\013" +
-      "OEDEFHFKIMJ\030\004 \001(\0132\014.ABFMGNFBCOKB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "OEDEFHFKIMJ\030\004 \001(\0132\014.ABFMGNFBCOKB2\n\031emu.g" +
+      "rasscutter.net.protoB\025BACKODOJEKCOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

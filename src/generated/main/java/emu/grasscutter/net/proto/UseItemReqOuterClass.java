@@ -1008,7 +1008,8 @@ public final class UseItemReqOuterClass {
       "ion_idx\030\001 \001(\r\022\r\n\005count\030\004 \001(\r\022\023\n\013target_g" +
       "uid\030\006 \001(\004\022\014\n\004guid\030\007 \001(\004\022 \n\030is_enter_mp_d" +
       "ungeon_team\030\010 \001(\010\022\030\n\020_option_idx_list\030\017 " +
-      "\003(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\003(\rB1\n\031emu.grasscutter.net.protoB\024UseIte" +
+      "mReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

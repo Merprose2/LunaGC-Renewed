@@ -967,8 +967,8 @@ public final class ELFCAJMNBMBOuterClass {
       "\n\021ELFCAJMNBMB.proto\"p\n\013ELFCAJMNBMB\022\023\n\013DL" +
       "LCEFEPKCA\030\003 \001(\r\022\023\n\013PFIBHDIDIGN\030\005 \001(\r\022\022\n\n" +
       "price_tier\030\006 \001(\t\022\017\n\007retcode\030\t \001(\005\022\022\n\npro" +
-      "duct_id\030\r \001(\tB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "duct_id\030\r \001(\tB2\n\031emu.grasscutter.net.pro" +
+      "toB\025ELFCAJMNBMBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

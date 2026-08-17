@@ -2331,8 +2331,8 @@ public final class GDJJDOABOMHOuterClass {
       "IH\030\006 \003(\0132\014.PKNABMPPCHI\022\023\n\013ACHFCKOIPKK\030\007 " +
       "\001(\010\022!\n\013NPLFAMLEAKJ\030\010 \001(\0132\014.PKNABMPPCHI\022\023" +
       "\n\013MHHFNECIFAO\030\t \001(\005\022!\n\013PFOFEEENHFH\030\n \003(\013" +
-      "2\014.PKNABMPPCHIB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "2\014.PKNABMPPCHIB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025GDJJDOABOMHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -2521,8 +2521,8 @@ public final class EnterRoguelikeDungeonNotifyOuterClass {
       "\001(\r\022\024\n\013BHJAKFJOEOP\030\315\004 \001(\010\022\035\n\024revise_mons" +
       "ter_level\030\307\014 \001(\r\032B\n\020CellInfoMapEntry\022\013\n\003" +
       "key\030\001 \001(\r\022\035\n\005value\030\002 \001(\0132\016.RogueCellInfo" +
-      ":\0028\001B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      ":\0028\001BB\n\031emu.grasscutter.net.protoB%Enter" +
+      "RoguelikeDungeonNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

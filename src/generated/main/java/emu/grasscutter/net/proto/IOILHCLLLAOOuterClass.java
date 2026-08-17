@@ -596,8 +596,9 @@ public final class IOILHCLLLAOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IOILHCLLLAO.proto\"8\n\013IOILHCLLLAO\022\024\n\014du" +
-      "ngeon_guid\030\r \001(\004\022\023\n\013BFIFPLMKLNA\030\016 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "ngeon_guid\030\r \001(\004\022\023\n\013BFIFPLMKLNA\030\016 \001(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025IOILHCLLLAOO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

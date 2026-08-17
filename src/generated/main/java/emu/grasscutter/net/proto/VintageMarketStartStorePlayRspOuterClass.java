@@ -737,8 +737,9 @@ public final class VintageMarketStartStorePlayRspOuterClass {
       "\n$VintageMarketStartStorePlayRsp.proto\"p" +
       "\n\036VintageMarketStartStorePlayRsp\022\023\n\013stor" +
       "e_round\030\003 \001(\r\022\017\n\007retcode\030\013 \001(\005\022\023\n\013IMEAJK" +
-      "NCLHE\030\014 \001(\r\022\023\n\013CMAFCCMGMDK\030\r \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "NCLHE\030\014 \001(\r\022\023\n\013CMAFCCMGMDK\030\r \001(\rBE\n\031emu." +
+      "grasscutter.net.protoB(VintageMarketStar" +
+      "tStorePlayRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

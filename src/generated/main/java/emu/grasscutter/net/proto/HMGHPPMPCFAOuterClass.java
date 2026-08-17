@@ -78,12 +78,12 @@ public final class HMGHPPMPCFAOuterClass {
     /**
      * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo> 
+    java.util.List<emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo> 
         getDGELMHKIKPGList();
     /**
      * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
      */
-    emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo getDGELMHKIKPG(int index);
+    emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo getDGELMHKIKPG(int index);
     /**
      * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
      */
@@ -91,12 +91,12 @@ public final class HMGHPPMPCFAOuterClass {
     /**
      * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder> 
         getDGELMHKIKPGOrBuilderList();
     /**
      * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
      */
-    emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder getDGELMHKIKPGOrBuilder(
+    emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder getDGELMHKIKPGOrBuilder(
         int index);
   }
   /**
@@ -192,11 +192,11 @@ public final class HMGHPPMPCFAOuterClass {
             }
             case 122: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                dGELMHKIKPG_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo>();
+                dGELMHKIKPG_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo>();
                 mutable_bitField0_ |= 0x00000004;
               }
               dGELMHKIKPG_.add(
-                  input.readMessage(emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -370,19 +370,19 @@ public final class HMGHPPMPCFAOuterClass {
     }
 
     public static final int DGELMHKIKPG_FIELD_NUMBER = 15;
-    private java.util.List<emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo> dGELMHKIKPG_;
+    private java.util.List<emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo> dGELMHKIKPG_;
     /**
      * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo> getDGELMHKIKPGList() {
+    public java.util.List<emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo> getDGELMHKIKPGList() {
       return dGELMHKIKPG_;
     }
     /**
      * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder> 
         getDGELMHKIKPGOrBuilderList() {
       return dGELMHKIKPG_;
     }
@@ -397,14 +397,14 @@ public final class HMGHPPMPCFAOuterClass {
      * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo getDGELMHKIKPG(int index) {
+    public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo getDGELMHKIKPG(int index) {
       return dGELMHKIKPG_.get(index);
     }
     /**
      * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder getDGELMHKIKPGOrBuilder(
+    public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder getDGELMHKIKPGOrBuilder(
         int index) {
       return dGELMHKIKPG_.get(index);
     }
@@ -1104,22 +1104,22 @@ public final class HMGHPPMPCFAOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo> dGELMHKIKPG_ =
+      private java.util.List<emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo> dGELMHKIKPG_ =
         java.util.Collections.emptyList();
       private void ensureDGELMHKIKPGIsMutable() {
         if (!((bitField0_ & 0x00000004) != 0)) {
-          dGELMHKIKPG_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo>(dGELMHKIKPG_);
+          dGELMHKIKPG_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo>(dGELMHKIKPG_);
           bitField0_ |= 0x00000004;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder> dGELMHKIKPGBuilder_;
+          emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder> dGELMHKIKPGBuilder_;
 
       /**
        * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo> getDGELMHKIKPGList() {
+      public java.util.List<emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo> getDGELMHKIKPGList() {
         if (dGELMHKIKPGBuilder_ == null) {
           return java.util.Collections.unmodifiableList(dGELMHKIKPG_);
         } else {
@@ -1139,7 +1139,7 @@ public final class HMGHPPMPCFAOuterClass {
       /**
        * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo getDGELMHKIKPG(int index) {
+      public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo getDGELMHKIKPG(int index) {
         if (dGELMHKIKPGBuilder_ == null) {
           return dGELMHKIKPG_.get(index);
         } else {
@@ -1150,7 +1150,7 @@ public final class HMGHPPMPCFAOuterClass {
        * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
        */
       public Builder setDGELMHKIKPG(
-          int index, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo value) {
+          int index, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo value) {
         if (dGELMHKIKPGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1167,7 +1167,7 @@ public final class HMGHPPMPCFAOuterClass {
        * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
        */
       public Builder setDGELMHKIKPG(
-          int index, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder builderForValue) {
         if (dGELMHKIKPGBuilder_ == null) {
           ensureDGELMHKIKPGIsMutable();
           dGELMHKIKPG_.set(index, builderForValue.build());
@@ -1180,7 +1180,7 @@ public final class HMGHPPMPCFAOuterClass {
       /**
        * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
        */
-      public Builder addDGELMHKIKPG(emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo value) {
+      public Builder addDGELMHKIKPG(emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo value) {
         if (dGELMHKIKPGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1197,7 +1197,7 @@ public final class HMGHPPMPCFAOuterClass {
        * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
        */
       public Builder addDGELMHKIKPG(
-          int index, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo value) {
+          int index, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo value) {
         if (dGELMHKIKPGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1214,7 +1214,7 @@ public final class HMGHPPMPCFAOuterClass {
        * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
        */
       public Builder addDGELMHKIKPG(
-          emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder builderForValue) {
         if (dGELMHKIKPGBuilder_ == null) {
           ensureDGELMHKIKPGIsMutable();
           dGELMHKIKPG_.add(builderForValue.build());
@@ -1228,7 +1228,7 @@ public final class HMGHPPMPCFAOuterClass {
        * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
        */
       public Builder addDGELMHKIKPG(
-          int index, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder builderForValue) {
         if (dGELMHKIKPGBuilder_ == null) {
           ensureDGELMHKIKPGIsMutable();
           dGELMHKIKPG_.add(index, builderForValue.build());
@@ -1242,7 +1242,7 @@ public final class HMGHPPMPCFAOuterClass {
        * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
        */
       public Builder addAllDGELMHKIKPG(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo> values) {
         if (dGELMHKIKPGBuilder_ == null) {
           ensureDGELMHKIKPGIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1282,14 +1282,14 @@ public final class HMGHPPMPCFAOuterClass {
       /**
        * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder getDGELMHKIKPGBuilder(
+      public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder getDGELMHKIKPGBuilder(
           int index) {
         return getDGELMHKIKPGFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder getDGELMHKIKPGOrBuilder(
+      public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder getDGELMHKIKPGOrBuilder(
           int index) {
         if (dGELMHKIKPGBuilder_ == null) {
           return dGELMHKIKPG_.get(index);  } else {
@@ -1299,7 +1299,7 @@ public final class HMGHPPMPCFAOuterClass {
       /**
        * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder> 
            getDGELMHKIKPGOrBuilderList() {
         if (dGELMHKIKPGBuilder_ != null) {
           return dGELMHKIKPGBuilder_.getMessageOrBuilderList();
@@ -1310,31 +1310,31 @@ public final class HMGHPPMPCFAOuterClass {
       /**
        * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder addDGELMHKIKPGBuilder() {
+      public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder addDGELMHKIKPGBuilder() {
         return getDGELMHKIKPGFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
        */
-      public emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder addDGELMHKIKPGBuilder(
+      public emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder addDGELMHKIKPGBuilder(
           int index) {
         return getDGELMHKIKPGFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondPlayerSocialInfo DGELMHKIKPG = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder> 
            getDGELMHKIKPGBuilderList() {
         return getDGELMHKIKPGFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder> 
+          emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder> 
           getDGELMHKIKPGFieldBuilder() {
         if (dGELMHKIKPGBuilder_ == null) {
           dGELMHKIKPGBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto.BeyondPlayerSocialInfo._BeyondPlayerSocialInfoOrBuilder>(
+              emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfo.Builder, emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass._BeyondPlayerSocialInfoOrBuilder>(
                   dGELMHKIKPG_,
                   ((bitField0_ & 0x00000004) != 0),
                   getParentForChildren(),
@@ -1421,13 +1421,14 @@ public final class HMGHPPMPCFAOuterClass {
       "\n\013ANMKPAEEMGK\030\010 \003(\r\022\030\n\020confirm_end_time\030" +
       "\016 \001(\r\022-\n\013DGELMHKIKPG\030\017 \003(\0132\030._BeyondPlay" +
       "erSocialInfo\0322\n\020IGFKEBDOGEMEntry\022\013\n\003key\030" +
-      "\001 \001(\r\022\r\n\005value\030\002 \001(\004:\0028\001B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\001 \001(\r\022\r\n\005value\030\002 \001(\004:\0028\001B2\n\031emu.grasscut" +
+      "ter.net.protoB\025HMGHPPMPCFAOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BeyondPlayerSocialInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass.getDescriptor(),
         });
     internal_static_HMGHPPMPCFA_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1441,7 +1442,7 @@ public final class HMGHPPMPCFAOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_HMGHPPMPCFA_IGFKEBDOGEMEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    emu.grasscutter.net.proto.BeyondPlayerSocialInfo.getDescriptor();
+    emu.grasscutter.net.proto._BeyondPlayerSocialInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

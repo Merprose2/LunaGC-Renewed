@@ -667,8 +667,9 @@ public final class GalleryIslandPartyDownHillInfoNotifyOuterClass {
       "\n*GalleryIslandPartyDownHillInfoNotify.p" +
       "roto\"j\n$GalleryIslandPartyDownHillInfoNo" +
       "tify\022\014\n\004coin\030\n \001(\r\022 \n\030total_kill_monster" +
-      "_count\030\r \001(\r\022\022\n\ngallery_id\030\016 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "_count\030\r \001(\r\022\022\n\ngallery_id\030\016 \001(\rBK\n\031emu." +
+      "grasscutter.net.protoB.GalleryIslandPart" +
+      "yDownHillInfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

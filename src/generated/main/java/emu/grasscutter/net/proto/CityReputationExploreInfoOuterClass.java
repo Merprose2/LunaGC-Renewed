@@ -787,8 +787,9 @@ public final class CityReputationExploreInfoOuterClass {
       "\n\037CityReputationExploreInfo.proto\"h\n\031Cit" +
       "yReputationExploreInfo\022\017\n\007is_open\030\001 \001(\010\022" +
       "\027\n\017explore_percent\030\002 \001(\r\022!\n\031taken_explor" +
-      "e_reward_list\030\006 \003(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "e_reward_list\030\006 \003(\rB@\n\031emu.grasscutter.n" +
+      "et.protoB#CityReputationExploreInfoOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

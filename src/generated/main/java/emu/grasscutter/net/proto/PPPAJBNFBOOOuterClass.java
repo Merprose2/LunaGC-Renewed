@@ -1183,8 +1183,8 @@ public final class PPPAJBNFBOOOuterClass {
       "\013PPPAJBNFBOO\022\022\n\nmcoin_cost\030\004 \001(\r\022\036\n\ngood" +
       "s_list\030\007 \003(\0132\n.ShopGoods\022\021\n\tbuy_count\030\t " +
       "\001(\r\022\017\n\007retcode\030\n \001(\005\022\021\n\tshop_type\030\014 \001(\r\022" +
-      "\r\n\005hcoin\030\017 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "\r\n\005hcoin\030\017 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025PPPAJBNFBOOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

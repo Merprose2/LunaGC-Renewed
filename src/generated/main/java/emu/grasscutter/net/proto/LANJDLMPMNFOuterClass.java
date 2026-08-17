@@ -652,8 +652,8 @@ public final class LANJDLMPMNFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LANJDLMPMNF.proto\"\"\n\013LANJDLMPMNF\022\023\n\013MM" +
-      "FPPCPDCEO\030\001 \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "FPPCPDCEO\030\001 \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025LANJDLMPMNFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

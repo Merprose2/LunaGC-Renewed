@@ -730,8 +730,9 @@ public final class MultistageSettleWatcherInfoOuterClass {
       "\n!MultistageSettleWatcherInfo.proto\"s\n\033M" +
       "ultistageSettleWatcherInfo\022\022\n\nis_inverse" +
       "\030\002 \001(\010\022\024\n\014cur_progress\030\003 \001(\r\022\022\n\nwatcher_" +
-      "id\030\004 \001(\r\022\026\n\016total_progress\030\014 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "id\030\004 \001(\r\022\026\n\016total_progress\030\014 \001(\rBB\n\031emu." +
+      "grasscutter.net.protoB%MultistageSettleW" +
+      "atcherInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

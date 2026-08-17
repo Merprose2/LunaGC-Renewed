@@ -27,12 +27,12 @@ public final class LGGJFBCEGKMOuterClass {
     /**
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo> 
+    java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> 
         getOIIMDKMDFFIList();
     /**
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
      */
-    emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo getOIIMDKMDFFI(int index);
+    emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo getOIIMDKMDFFI(int index);
     /**
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
      */
@@ -40,12 +40,12 @@ public final class LGGJFBCEGKMOuterClass {
     /**
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder> 
         getOIIMDKMDFFIOrBuilderList();
     /**
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
      */
-    emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder getOIIMDKMDFFIOrBuilder(
+    emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder getOIIMDKMDFFIOrBuilder(
         int index);
 
     /**
@@ -112,11 +112,11 @@ public final class LGGJFBCEGKMOuterClass {
             }
             case 74: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                oIIMDKMDFFI_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo>();
+                oIIMDKMDFFI_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               oIIMDKMDFFI_.add(
-                  input.readMessage(emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.parser(), extensionRegistry));
               break;
             }
             case 120: {
@@ -171,19 +171,19 @@ public final class LGGJFBCEGKMOuterClass {
     }
 
     public static final int OIIMDKMDFFI_FIELD_NUMBER = 9;
-    private java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo> oIIMDKMDFFI_;
+    private java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> oIIMDKMDFFI_;
     /**
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo> getOIIMDKMDFFIList() {
+    public java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> getOIIMDKMDFFIList() {
       return oIIMDKMDFFI_;
     }
     /**
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder> 
         getOIIMDKMDFFIOrBuilderList() {
       return oIIMDKMDFFI_;
     }
@@ -198,14 +198,14 @@ public final class LGGJFBCEGKMOuterClass {
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo getOIIMDKMDFFI(int index) {
+    public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo getOIIMDKMDFFI(int index) {
       return oIIMDKMDFFI_.get(index);
     }
     /**
      * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder getOIIMDKMDFFIOrBuilder(
+    public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder getOIIMDKMDFFIOrBuilder(
         int index) {
       return oIIMDKMDFFI_.get(index);
     }
@@ -633,22 +633,22 @@ public final class LGGJFBCEGKMOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo> oIIMDKMDFFI_ =
+      private java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> oIIMDKMDFFI_ =
         java.util.Collections.emptyList();
       private void ensureOIIMDKMDFFIIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          oIIMDKMDFFI_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo>(oIIMDKMDFFI_);
+          oIIMDKMDFFI_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo>(oIIMDKMDFFI_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder> oIIMDKMDFFIBuilder_;
+          emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder> oIIMDKMDFFIBuilder_;
 
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo> getOIIMDKMDFFIList() {
+      public java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> getOIIMDKMDFFIList() {
         if (oIIMDKMDFFIBuilder_ == null) {
           return java.util.Collections.unmodifiableList(oIIMDKMDFFI_);
         } else {
@@ -668,7 +668,7 @@ public final class LGGJFBCEGKMOuterClass {
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
        */
-      public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo getOIIMDKMDFFI(int index) {
+      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo getOIIMDKMDFFI(int index) {
         if (oIIMDKMDFFIBuilder_ == null) {
           return oIIMDKMDFFI_.get(index);
         } else {
@@ -679,7 +679,7 @@ public final class LGGJFBCEGKMOuterClass {
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
        */
       public Builder setOIIMDKMDFFI(
-          int index, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo value) {
+          int index, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo value) {
         if (oIIMDKMDFFIBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -696,7 +696,7 @@ public final class LGGJFBCEGKMOuterClass {
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
        */
       public Builder setOIIMDKMDFFI(
-          int index, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder builderForValue) {
         if (oIIMDKMDFFIBuilder_ == null) {
           ensureOIIMDKMDFFIIsMutable();
           oIIMDKMDFFI_.set(index, builderForValue.build());
@@ -709,7 +709,7 @@ public final class LGGJFBCEGKMOuterClass {
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
        */
-      public Builder addOIIMDKMDFFI(emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo value) {
+      public Builder addOIIMDKMDFFI(emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo value) {
         if (oIIMDKMDFFIBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -726,7 +726,7 @@ public final class LGGJFBCEGKMOuterClass {
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
        */
       public Builder addOIIMDKMDFFI(
-          int index, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo value) {
+          int index, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo value) {
         if (oIIMDKMDFFIBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -743,7 +743,7 @@ public final class LGGJFBCEGKMOuterClass {
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
        */
       public Builder addOIIMDKMDFFI(
-          emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder builderForValue) {
         if (oIIMDKMDFFIBuilder_ == null) {
           ensureOIIMDKMDFFIIsMutable();
           oIIMDKMDFFI_.add(builderForValue.build());
@@ -757,7 +757,7 @@ public final class LGGJFBCEGKMOuterClass {
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
        */
       public Builder addOIIMDKMDFFI(
-          int index, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder builderForValue) {
         if (oIIMDKMDFFIBuilder_ == null) {
           ensureOIIMDKMDFFIIsMutable();
           oIIMDKMDFFI_.add(index, builderForValue.build());
@@ -771,7 +771,7 @@ public final class LGGJFBCEGKMOuterClass {
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
        */
       public Builder addAllOIIMDKMDFFI(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> values) {
         if (oIIMDKMDFFIBuilder_ == null) {
           ensureOIIMDKMDFFIIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -811,14 +811,14 @@ public final class LGGJFBCEGKMOuterClass {
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
        */
-      public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder getOIIMDKMDFFIBuilder(
+      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder getOIIMDKMDFFIBuilder(
           int index) {
         return getOIIMDKMDFFIFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
        */
-      public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder getOIIMDKMDFFIOrBuilder(
+      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder getOIIMDKMDFFIOrBuilder(
           int index) {
         if (oIIMDKMDFFIBuilder_ == null) {
           return oIIMDKMDFFI_.get(index);  } else {
@@ -828,7 +828,7 @@ public final class LGGJFBCEGKMOuterClass {
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder> 
            getOIIMDKMDFFIOrBuilderList() {
         if (oIIMDKMDFFIBuilder_ != null) {
           return oIIMDKMDFFIBuilder_.getMessageOrBuilderList();
@@ -839,31 +839,31 @@ public final class LGGJFBCEGKMOuterClass {
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
        */
-      public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder addOIIMDKMDFFIBuilder() {
+      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder addOIIMDKMDFFIBuilder() {
         return getOIIMDKMDFFIFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
        */
-      public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder addOIIMDKMDFFIBuilder(
+      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder addOIIMDKMDFFIBuilder(
           int index) {
         return getOIIMDKMDFFIFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondExpressionInfo OIIMDKMDFFI = 9;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder> 
            getOIIMDKMDFFIBuilderList() {
         return getOIIMDKMDFFIFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder> 
+          emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder> 
           getOIIMDKMDFFIFieldBuilder() {
         if (oIIMDKMDFFIBuilder_ == null) {
           oIIMDKMDFFIBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.Builder, emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfoOrBuilder>(
+              emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder>(
                   oIIMDKMDFFI_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -973,13 +973,14 @@ public final class LGGJFBCEGKMOuterClass {
       "\n\021LGGJFBCEGKM.proto\032\033_BeyondExpressionIn" +
       "fo.proto\"c\n\013LGGJFBCEGKM\022\023\n\013avatar_guid\030\006" +
       " \001(\004\022+\n\013OIIMDKMDFFI\030\t \003(\0132\026._BeyondExpre" +
-      "ssionInfo\022\022\n\nplayer_uid\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ssionInfo\022\022\n\nplayer_uid\030\017 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025LGGJFBCEGKMOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BeyondExpressionInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass.getDescriptor(),
         });
     internal_static_LGGJFBCEGKM_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -987,7 +988,7 @@ public final class LGGJFBCEGKMOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_LGGJFBCEGKM_descriptor,
         new java.lang.String[] { "AvatarGuid", "OIIMDKMDFFI", "PlayerUid", });
-    emu.grasscutter.net.proto.BeyondExpressionInfo.getDescriptor();
+    emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

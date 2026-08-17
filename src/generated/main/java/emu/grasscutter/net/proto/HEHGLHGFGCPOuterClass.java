@@ -855,7 +855,8 @@ public final class HEHGLHGFGCPOuterClass {
       "\n\021HEHGLHGFGCP.proto\032\021HHGPFIMGEBE.proto\"S" +
       "\n\013HEHGLHGFGCP\022!\n\013GLPMIBNCKIP\030\001 \001(\0132\014.HHG" +
       "PFIMGEBE\022!\n\013OHFCEAFMCCK\030\002 \001(\0132\014.HHGPFIMG" +
-      "EBEB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "EBEB2\n\031emu.grasscutter.net.protoB\025HEHGLH" +
+      "GFGCPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

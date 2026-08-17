@@ -666,8 +666,8 @@ public final class LEKKHLHAHLOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LEKKHLHAHLO.proto\"A\n\013LEKKHLHAHLO\022\022\n\nta" +
       "rget_uid\030\002 \001(\r\022\r\n\005param\030\007 \001(\r\022\017\n\007retcode" +
-      "\030\r \001(\005B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\r \001(\005B2\n\031emu.grasscutter.net.protoB\025LEK" +
+      "KHLHAHLOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

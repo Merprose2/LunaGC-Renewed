@@ -968,8 +968,9 @@ public final class WinterCampAcceptItemResultInfoOuterClass {
       "\n$WinterCampAcceptItemResultInfo.proto\032\017" +
       "ItemParam.proto\"c\n\036WinterCampAcceptItemR" +
       "esultInfo\022\023\n\013COKOLKLBFBE\030\005 \001(\014\022\037\n\013OCNNBO" +
-      "IBLND\030\010 \003(\0132\n.ItemParam\022\013\n\003uid\030\016 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "IBLND\030\010 \003(\0132\n.ItemParam\022\013\n\003uid\030\016 \001(\rBE\n\031" +
+      "emu.grasscutter.net.protoB(WinterCampAcc" +
+      "eptItemResultInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

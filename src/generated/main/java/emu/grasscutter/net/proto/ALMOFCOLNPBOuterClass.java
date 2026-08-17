@@ -2571,8 +2571,8 @@ public final class ALMOFCOLNPBOuterClass {
       "\001(\005\022\024\n\013POGPHDLNFFL\030\200\004 \003(\005\022\024\n\013BBNHMLDBABO" +
       "\030\331\004 \001(\t\022\024\n\013CMAOPDCBCNP\030\332\004 \001(\r\022\"\n\013ELOCMMK" +
       "HNAD\030\333\004 \001(\0132\014.PGDMAIHKGFO\022\024\n\013filter_type" +
-      "\030\335\004 \001(\005B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "\030\335\004 \001(\005B2\n\031emu.grasscutter.net.protoB\025AL" +
+      "MOFCOLNPBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

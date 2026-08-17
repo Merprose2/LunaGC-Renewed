@@ -2784,7 +2784,8 @@ public final class AJHLDKLDPOJOuterClass {
       "F\030\013 \003(\r\022!\n\013KDFMEPMGGHJ\030\014 \003(\0132\014.DDBNDHNGE" +
       "MF\022\023\n\013transaction\030\r \001(\t\022\026\n\016_cur_round_nu" +
       "m\030\016 \001(\r\022!\n\013ECCBLDNOAEA\030\017 \003(\0132\014.GOIIIDJGD" +
-      "CEB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "CEB2\n\031emu.grasscutter.net.protoB\025AJHLDKL" +
+      "DPOJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

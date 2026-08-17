@@ -739,8 +739,9 @@ public final class EHEOAKMNMEAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EHEOAKMNMEA.proto\"_\n\013EHEOAKMNMEA\022\023\n\013MO" +
       "PKAFLDMBO\030\002 \001(\010\022\021\n\tis_unlock\030\004 \001(\010\022\023\n\013HM" +
-      "HCGLCNBMK\030\007 \001(\r\022\023\n\013LBANEGFDEAA\030\r \001(\010B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "HCGLCNBMK\030\007 \001(\r\022\023\n\013LBANEGFDEAA\030\r \001(\010B2\n\031" +
+      "emu.grasscutter.net.protoB\025EHEOAKMNMEAOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

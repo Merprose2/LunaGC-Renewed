@@ -2010,8 +2010,9 @@ public final class CityReputationInfoOuterClass {
       "\032.CityReputationExploreInfo\022\r\n\005level\030\t \001" +
       "(\r\022\023\n\013BLJJMHLGGCF\030\014 \001(\r\022\031\n\021next_refresh_" +
       "time\030\r \001(\r\022,\n\nquest_info\030\016 \001(\0132\030.CityRep" +
-      "utationQuestInfo\022\023\n\013LAFNHJIOHMD\030\017 \003(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "utationQuestInfo\022\023\n\013LAFNHJIOHMD\030\017 \003(\rB9\n" +
+      "\031emu.grasscutter.net.protoB\034CityReputati" +
+      "onInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

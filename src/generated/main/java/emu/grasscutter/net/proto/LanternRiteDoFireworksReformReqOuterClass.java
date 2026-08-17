@@ -737,8 +737,9 @@ public final class LanternRiteDoFireworksReformReqOuterClass {
       "\n%LanternRiteDoFireworksReformReq.proto\"" +
       "n\n\037LanternRiteDoFireworksReformReq\022\020\n\010st" +
       "age_id\030\002 \001(\r\022\020\n\010skill_id\030\007 \001(\r\022\024\n\014challe" +
-      "nge_id\030\010 \001(\r\022\021\n\tfactor_id\030\014 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "nge_id\030\010 \001(\r\022\021\n\tfactor_id\030\014 \001(\rBF\n\031emu.g" +
+      "rasscutter.net.protoB)LanternRiteDoFirew" +
+      "orksReformReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

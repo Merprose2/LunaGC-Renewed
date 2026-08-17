@@ -587,8 +587,9 @@ public final class JELBBKEBFBEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JELBBKEBFBE.proto\")\n\013JELBBKEBFBE\022\r\n\005le" +
-      "vel\030\001 \001(\r\022\013\n\003exp\030\002 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "vel\030\001 \001(\r\022\013\n\003exp\030\002 \001(\rB2\n\031emu.grasscutte" +
+      "r.net.protoB\025JELBBKEBFBEOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

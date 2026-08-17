@@ -162,8 +162,8 @@ public final class PBPBHCMKCGMOuterClass {
       "BPBHCMKCGM_UNSPECIFIED\020\000\022\023\n\017PBPBHCMKCGM_" +
       "HOT\020\001\022\030\n\024PBPBHCMKCGM_LIKE_NUM\020\002\022\032\n\026PBPBH" +
       "CMKCGM_FLOOR_DESC\020\003\022\031\n\025PBPBHCMKCGM_FLOOR" +
-      "_ASC\020\004B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "_ASC\020\004B2\n\031emu.grasscutter.net.protoB\025PBP" +
+      "BHCMKCGMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

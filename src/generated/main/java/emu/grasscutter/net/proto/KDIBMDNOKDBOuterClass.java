@@ -802,8 +802,8 @@ public final class KDIBMDNOKDBOuterClass {
       "\n\021KDIBMDNOKDB.proto\"k\n\013KDIBMDNOKDB\022\023\n\013FB" +
       "HFAMPKPPK\030\001 \001(\010\022\017\n\007is_open\030\010 \001(\010\022\020\n\010leve" +
       "l_id\030\013 \001(\r\022\023\n\013CLGJGGGKHBF\030\016 \001(\010\022\017\n\007camp_" +
-      "id\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025K" +
+      "DIBMDNOKDBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

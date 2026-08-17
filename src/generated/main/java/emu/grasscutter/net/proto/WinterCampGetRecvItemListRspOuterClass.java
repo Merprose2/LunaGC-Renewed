@@ -903,7 +903,8 @@ public final class WinterCampGetRecvItemListRspOuterClass {
       "nterCampRecvItemData.proto\"e\n\034WinterCamp" +
       "GetRecvItemListRsp\022\017\n\007retcode\030\010 \001(\005\0224\n\023r" +
       "ecv_item_data_list\030\013 \003(\0132\027.WinterCampRec" +
-      "vItemDataB\033\n\031emu.grasscutter.net.protob\006" +
+      "vItemDataBC\n\031emu.grasscutter.net.protoB&" +
+      "WinterCampGetRecvItemListRspOuterClassb\006" +
       "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

@@ -3283,8 +3283,9 @@ public final class DDHGILACKLBOuterClass {
       "BLFME\030\017 \001(\010\022!\n\013CEMEKLEPEJN\030\020 \001(\0132\014.EEDKF" +
       "DELIDO\022!\n\013FEFKEOEANBI\030\021 \001(\0162\014.LANHOMLGHG" +
       "P\022!\n\013PKPNBFMBCFE\030\022 \001(\0162\014.POOHODEIGFJ\022!\n\013" +
-      "GDBEJFGFDCG\030\023 \001(\0132\014.EEDKFDELIDOB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "GDBEJFGFDCG\030\023 \001(\0132\014.EEDKFDELIDOB2\n\031emu.g" +
+      "rasscutter.net.protoB\025DDHGILACKLBOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -651,7 +651,8 @@ public final class FFEJOKKENGNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FFEJOKKENGN.proto\032\021AIALJFHLHAA.proto\")" +
       "\n\013FFEJOKKENGN\022\032\n\004data\030\001 \001(\0132\014.AIALJFHLHA" +
-      "AB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "AB2\n\031emu.grasscutter.net.protoB\025FFEJOKKE" +
+      "NGNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

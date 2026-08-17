@@ -1130,7 +1130,8 @@ public final class JMLOJAACBMOOuterClass {
       "NJLJLMEI\030\001 \001(\0132\014.LHHJKKAHACL\022!\n\013PABAAFOH" +
       "PPD\030\002 \001(\0132\014.LEHPBFHHAID\022\023\n\013MPEJPDLNNLI\030\003" +
       " \001(\r\022!\n\013BIJJOFLFPFP\030\004 \001(\0132\014.LHHJKKAHACLB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025JMLOJAACBM" +
+      "OOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

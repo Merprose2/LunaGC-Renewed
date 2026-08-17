@@ -21,12 +21,12 @@ public final class EBLCGGECBPAOuterClass {
     /**
      * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.LanV6Card._LanV6Card> 
+    java.util.List<emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card> 
         getHLOGDAONDJOList();
     /**
      * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
      */
-    emu.grasscutter.net.proto.LanV6Card._LanV6Card getHLOGDAONDJO(int index);
+    emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card getHLOGDAONDJO(int index);
     /**
      * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
      */
@@ -34,12 +34,12 @@ public final class EBLCGGECBPAOuterClass {
     /**
      * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.LanV6Card._LanV6CardOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6CardOrBuilder> 
         getHLOGDAONDJOOrBuilderList();
     /**
      * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
      */
-    emu.grasscutter.net.proto.LanV6Card._LanV6CardOrBuilder getHLOGDAONDJOOrBuilder(
+    emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6CardOrBuilder getHLOGDAONDJOOrBuilder(
         int index);
   }
   /**
@@ -95,11 +95,11 @@ public final class EBLCGGECBPAOuterClass {
               break;
             case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                hLOGDAONDJO_ = new java.util.ArrayList<emu.grasscutter.net.proto.LanV6Card._LanV6Card>();
+                hLOGDAONDJO_ = new java.util.ArrayList<emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card>();
                 mutable_bitField0_ |= 0x00000001;
               }
               hLOGDAONDJO_.add(
-                  input.readMessage(emu.grasscutter.net.proto.LanV6Card._LanV6Card.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -138,19 +138,19 @@ public final class EBLCGGECBPAOuterClass {
     }
 
     public static final int HLOGDAONDJO_FIELD_NUMBER = 5;
-    private java.util.List<emu.grasscutter.net.proto.LanV6Card._LanV6Card> hLOGDAONDJO_;
+    private java.util.List<emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card> hLOGDAONDJO_;
     /**
      * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.LanV6Card._LanV6Card> getHLOGDAONDJOList() {
+    public java.util.List<emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card> getHLOGDAONDJOList() {
       return hLOGDAONDJO_;
     }
     /**
      * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.LanV6Card._LanV6CardOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6CardOrBuilder> 
         getHLOGDAONDJOOrBuilderList() {
       return hLOGDAONDJO_;
     }
@@ -165,14 +165,14 @@ public final class EBLCGGECBPAOuterClass {
      * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LanV6Card._LanV6Card getHLOGDAONDJO(int index) {
+    public emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card getHLOGDAONDJO(int index) {
       return hLOGDAONDJO_.get(index);
     }
     /**
      * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LanV6Card._LanV6CardOrBuilder getHLOGDAONDJOOrBuilder(
+    public emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6CardOrBuilder getHLOGDAONDJOOrBuilder(
         int index) {
       return hLOGDAONDJO_.get(index);
     }
@@ -523,22 +523,22 @@ public final class EBLCGGECBPAOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.LanV6Card._LanV6Card> hLOGDAONDJO_ =
+      private java.util.List<emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card> hLOGDAONDJO_ =
         java.util.Collections.emptyList();
       private void ensureHLOGDAONDJOIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          hLOGDAONDJO_ = new java.util.ArrayList<emu.grasscutter.net.proto.LanV6Card._LanV6Card>(hLOGDAONDJO_);
+          hLOGDAONDJO_ = new java.util.ArrayList<emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card>(hLOGDAONDJO_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.LanV6Card._LanV6Card, emu.grasscutter.net.proto.LanV6Card._LanV6Card.Builder, emu.grasscutter.net.proto.LanV6Card._LanV6CardOrBuilder> hLOGDAONDJOBuilder_;
+          emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.Builder, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6CardOrBuilder> hLOGDAONDJOBuilder_;
 
       /**
        * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.LanV6Card._LanV6Card> getHLOGDAONDJOList() {
+      public java.util.List<emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card> getHLOGDAONDJOList() {
         if (hLOGDAONDJOBuilder_ == null) {
           return java.util.Collections.unmodifiableList(hLOGDAONDJO_);
         } else {
@@ -558,7 +558,7 @@ public final class EBLCGGECBPAOuterClass {
       /**
        * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
        */
-      public emu.grasscutter.net.proto.LanV6Card._LanV6Card getHLOGDAONDJO(int index) {
+      public emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card getHLOGDAONDJO(int index) {
         if (hLOGDAONDJOBuilder_ == null) {
           return hLOGDAONDJO_.get(index);
         } else {
@@ -569,7 +569,7 @@ public final class EBLCGGECBPAOuterClass {
        * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
        */
       public Builder setHLOGDAONDJO(
-          int index, emu.grasscutter.net.proto.LanV6Card._LanV6Card value) {
+          int index, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card value) {
         if (hLOGDAONDJOBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -586,7 +586,7 @@ public final class EBLCGGECBPAOuterClass {
        * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
        */
       public Builder setHLOGDAONDJO(
-          int index, emu.grasscutter.net.proto.LanV6Card._LanV6Card.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.Builder builderForValue) {
         if (hLOGDAONDJOBuilder_ == null) {
           ensureHLOGDAONDJOIsMutable();
           hLOGDAONDJO_.set(index, builderForValue.build());
@@ -599,7 +599,7 @@ public final class EBLCGGECBPAOuterClass {
       /**
        * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
        */
-      public Builder addHLOGDAONDJO(emu.grasscutter.net.proto.LanV6Card._LanV6Card value) {
+      public Builder addHLOGDAONDJO(emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card value) {
         if (hLOGDAONDJOBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -616,7 +616,7 @@ public final class EBLCGGECBPAOuterClass {
        * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
        */
       public Builder addHLOGDAONDJO(
-          int index, emu.grasscutter.net.proto.LanV6Card._LanV6Card value) {
+          int index, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card value) {
         if (hLOGDAONDJOBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -633,7 +633,7 @@ public final class EBLCGGECBPAOuterClass {
        * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
        */
       public Builder addHLOGDAONDJO(
-          emu.grasscutter.net.proto.LanV6Card._LanV6Card.Builder builderForValue) {
+          emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.Builder builderForValue) {
         if (hLOGDAONDJOBuilder_ == null) {
           ensureHLOGDAONDJOIsMutable();
           hLOGDAONDJO_.add(builderForValue.build());
@@ -647,7 +647,7 @@ public final class EBLCGGECBPAOuterClass {
        * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
        */
       public Builder addHLOGDAONDJO(
-          int index, emu.grasscutter.net.proto.LanV6Card._LanV6Card.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.Builder builderForValue) {
         if (hLOGDAONDJOBuilder_ == null) {
           ensureHLOGDAONDJOIsMutable();
           hLOGDAONDJO_.add(index, builderForValue.build());
@@ -661,7 +661,7 @@ public final class EBLCGGECBPAOuterClass {
        * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
        */
       public Builder addAllHLOGDAONDJO(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.LanV6Card._LanV6Card> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card> values) {
         if (hLOGDAONDJOBuilder_ == null) {
           ensureHLOGDAONDJOIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -701,14 +701,14 @@ public final class EBLCGGECBPAOuterClass {
       /**
        * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
        */
-      public emu.grasscutter.net.proto.LanV6Card._LanV6Card.Builder getHLOGDAONDJOBuilder(
+      public emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.Builder getHLOGDAONDJOBuilder(
           int index) {
         return getHLOGDAONDJOFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
        */
-      public emu.grasscutter.net.proto.LanV6Card._LanV6CardOrBuilder getHLOGDAONDJOOrBuilder(
+      public emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6CardOrBuilder getHLOGDAONDJOOrBuilder(
           int index) {
         if (hLOGDAONDJOBuilder_ == null) {
           return hLOGDAONDJO_.get(index);  } else {
@@ -718,7 +718,7 @@ public final class EBLCGGECBPAOuterClass {
       /**
        * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.LanV6Card._LanV6CardOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6CardOrBuilder> 
            getHLOGDAONDJOOrBuilderList() {
         if (hLOGDAONDJOBuilder_ != null) {
           return hLOGDAONDJOBuilder_.getMessageOrBuilderList();
@@ -729,31 +729,31 @@ public final class EBLCGGECBPAOuterClass {
       /**
        * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
        */
-      public emu.grasscutter.net.proto.LanV6Card._LanV6Card.Builder addHLOGDAONDJOBuilder() {
+      public emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.Builder addHLOGDAONDJOBuilder() {
         return getHLOGDAONDJOFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.LanV6Card._LanV6Card.getDefaultInstance());
+            emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.getDefaultInstance());
       }
       /**
        * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
        */
-      public emu.grasscutter.net.proto.LanV6Card._LanV6Card.Builder addHLOGDAONDJOBuilder(
+      public emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.Builder addHLOGDAONDJOBuilder(
           int index) {
         return getHLOGDAONDJOFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.LanV6Card._LanV6Card.getDefaultInstance());
+            index, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.getDefaultInstance());
       }
       /**
        * <code>repeated ._LanV6Card HLOGDAONDJO = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.LanV6Card._LanV6Card.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.Builder> 
            getHLOGDAONDJOBuilderList() {
         return getHLOGDAONDJOFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.LanV6Card._LanV6Card, emu.grasscutter.net.proto.LanV6Card._LanV6Card.Builder, emu.grasscutter.net.proto.LanV6Card._LanV6CardOrBuilder> 
+          emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.Builder, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6CardOrBuilder> 
           getHLOGDAONDJOFieldBuilder() {
         if (hLOGDAONDJOBuilder_ == null) {
           hLOGDAONDJOBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.LanV6Card._LanV6Card, emu.grasscutter.net.proto.LanV6Card._LanV6Card.Builder, emu.grasscutter.net.proto.LanV6Card._LanV6CardOrBuilder>(
+              emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6Card.Builder, emu.grasscutter.net.proto._LanV6CardOuterClass._LanV6CardOrBuilder>(
                   hLOGDAONDJO_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -831,13 +831,13 @@ public final class EBLCGGECBPAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EBLCGGECBPA.proto\032\020_LanV6Card.proto\"/\n" +
       "\013EBLCGGECBPA\022 \n\013HLOGDAONDJO\030\005 \003(\0132\013._Lan" +
-      "V6CardB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "V6CardB2\n\031emu.grasscutter.net.protoB\025EBL" +
+      "CGGECBPAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.LanV6Card.getDescriptor(),
+          emu.grasscutter.net.proto._LanV6CardOuterClass.getDescriptor(),
         });
     internal_static_EBLCGGECBPA_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -845,7 +845,7 @@ public final class EBLCGGECBPAOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EBLCGGECBPA_descriptor,
         new java.lang.String[] { "HLOGDAONDJO", });
-    emu.grasscutter.net.proto.LanV6Card.getDescriptor();
+    emu.grasscutter.net.proto._LanV6CardOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -737,8 +737,9 @@ public final class BMKBINFDPAKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BMKBINFDPAK.proto\"]\n\013BMKBINFDPAK\022\023\n\013DD" +
       "JLJDDGIJK\030\003 \001(\r\022\023\n\013KALHHMPCIDP\030\004 \001(\r\022\023\n\013" +
-      "GCKIMJNKKBP\030\006 \001(\010\022\017\n\007retcode\030\016 \001(\005B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "GCKIMJNKKBP\030\006 \001(\010\022\017\n\007retcode\030\016 \001(\005B2\n\031em" +
+      "u.grasscutter.net.protoB\025BMKBINFDPAKOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

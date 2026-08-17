@@ -824,8 +824,8 @@ public final class HomeBalloonRecordOuterClass {
       "\n\027HomeBalloonRecord.proto\032\036HomeBalloonGa" +
       "lleryRecord.proto\"C\n\021HomeBalloonRecord\022." +
       "\n\013record_list\030\014 \003(\0132\031.HomeBalloonGallery" +
-      "RecordB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "RecordB8\n\031emu.grasscutter.net.protoB\033Hom" +
+      "eBalloonRecordOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -2015,8 +2015,9 @@ public final class AbilityMixinAvatarSpecialMoveOuterClass {
       "\001(\0132\007.Vector\022\034\n\013NMMBPDKMOCA\030\013 \001(\0132\007.Vect" +
       "or\022\033\n\ntarget_pos\030\014 \001(\0132\007.Vector\022\034\n\013PMEHM" +
       "BALNMB\030\016 \001(\0132\007.Vector\022\030\n\007ref_pos\030\017 \001(\0132\007" +
-      ".VectorB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      ".VectorBD\n\031emu.grasscutter.net.protoB\'Ab" +
+      "ilityMixinAvatarSpecialMoveOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

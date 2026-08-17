@@ -934,8 +934,8 @@ public final class CFCIBHBHLEDOuterClass {
       "\n\021CFCIBHBHLED.proto\"u\n\013CFCIBHBHLED\022\024\n\014en" +
       "ter_reason\030\004 \001(\r\022\027\n\017player_uid_list\030\006 \003(" +
       "\r\022\020\n\010level_id\030\010 \001(\r\022\022\n\ndungeon_id\030\t \001(\r\022" +
-      "\021\n\tplay_type\030\r \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\021\n\tplay_type\030\r \001(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025CFCIBHBHLEDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

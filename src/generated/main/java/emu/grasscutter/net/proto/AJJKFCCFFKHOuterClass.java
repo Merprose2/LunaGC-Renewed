@@ -39,11 +39,11 @@ public final class AJJKFCCFFKHOuterClass {
      * <code>._Battle battle = 515;</code>
      * @return The battle.
      */
-    emu.grasscutter.net.proto.Battle._Battle getBattle();
+    emu.grasscutter.net.proto._BattleOuterClass._Battle getBattle();
     /**
      * <code>._Battle battle = 515;</code>
      */
-    emu.grasscutter.net.proto.Battle._BattleOrBuilder getBattleOrBuilder();
+    emu.grasscutter.net.proto._BattleOuterClass._BattleOrBuilder getBattleOrBuilder();
 
     /**
      * <code>.NENBOIHDGJP shop = 635;</code>
@@ -69,11 +69,11 @@ public final class AJJKFCCFFKHOuterClass {
      * <code>._Event event = 1155;</code>
      * @return The event.
      */
-    emu.grasscutter.net.proto.Event._Event getEvent();
+    emu.grasscutter.net.proto._EventOuterClass._Event getEvent();
     /**
      * <code>._Event event = 1155;</code>
      */
-    emu.grasscutter.net.proto.Event._EventOrBuilder getEventOrBuilder();
+    emu.grasscutter.net.proto._EventOuterClass._EventOrBuilder getEventOrBuilder();
 
     public emu.grasscutter.net.proto.AJJKFCCFFKHOuterClass.AJJKFCCFFKH.DetailCase getDetailCase();
   }
@@ -133,14 +133,14 @@ public final class AJJKFCCFFKHOuterClass {
               break;
             }
             case 4122: {
-              emu.grasscutter.net.proto.Battle._Battle.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BattleOuterClass._Battle.Builder subBuilder = null;
               if (detailCase_ == 515) {
-                subBuilder = ((emu.grasscutter.net.proto.Battle._Battle) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BattleOuterClass._Battle) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.Battle._Battle.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BattleOuterClass._Battle.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.Battle._Battle) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BattleOuterClass._Battle) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 515;
@@ -161,14 +161,14 @@ public final class AJJKFCCFFKHOuterClass {
               break;
             }
             case 9242: {
-              emu.grasscutter.net.proto.Event._Event.Builder subBuilder = null;
+              emu.grasscutter.net.proto._EventOuterClass._Event.Builder subBuilder = null;
               if (detailCase_ == 1155) {
-                subBuilder = ((emu.grasscutter.net.proto.Event._Event) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._EventOuterClass._Event) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.Event._Event.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._EventOuterClass._Event.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.Event._Event) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._EventOuterClass._Event) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1155;
@@ -285,21 +285,21 @@ public final class AJJKFCCFFKHOuterClass {
      * @return The battle.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Battle._Battle getBattle() {
+    public emu.grasscutter.net.proto._BattleOuterClass._Battle getBattle() {
       if (detailCase_ == 515) {
-         return (emu.grasscutter.net.proto.Battle._Battle) detail_;
+         return (emu.grasscutter.net.proto._BattleOuterClass._Battle) detail_;
       }
-      return emu.grasscutter.net.proto.Battle._Battle.getDefaultInstance();
+      return emu.grasscutter.net.proto._BattleOuterClass._Battle.getDefaultInstance();
     }
     /**
      * <code>._Battle battle = 515;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Battle._BattleOrBuilder getBattleOrBuilder() {
+    public emu.grasscutter.net.proto._BattleOuterClass._BattleOrBuilder getBattleOrBuilder() {
       if (detailCase_ == 515) {
-         return (emu.grasscutter.net.proto.Battle._Battle) detail_;
+         return (emu.grasscutter.net.proto._BattleOuterClass._Battle) detail_;
       }
-      return emu.grasscutter.net.proto.Battle._Battle.getDefaultInstance();
+      return emu.grasscutter.net.proto._BattleOuterClass._Battle.getDefaultInstance();
     }
 
     public static final int SHOP_FIELD_NUMBER = 635;
@@ -347,21 +347,21 @@ public final class AJJKFCCFFKHOuterClass {
      * @return The event.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Event._Event getEvent() {
+    public emu.grasscutter.net.proto._EventOuterClass._Event getEvent() {
       if (detailCase_ == 1155) {
-         return (emu.grasscutter.net.proto.Event._Event) detail_;
+         return (emu.grasscutter.net.proto._EventOuterClass._Event) detail_;
       }
-      return emu.grasscutter.net.proto.Event._Event.getDefaultInstance();
+      return emu.grasscutter.net.proto._EventOuterClass._Event.getDefaultInstance();
     }
     /**
      * <code>._Event event = 1155;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Event._EventOrBuilder getEventOrBuilder() {
+    public emu.grasscutter.net.proto._EventOuterClass._EventOrBuilder getEventOrBuilder() {
       if (detailCase_ == 1155) {
-         return (emu.grasscutter.net.proto.Event._Event) detail_;
+         return (emu.grasscutter.net.proto._EventOuterClass._Event) detail_;
       }
-      return emu.grasscutter.net.proto.Event._Event.getDefaultInstance();
+      return emu.grasscutter.net.proto._EventOuterClass._Event.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -385,13 +385,13 @@ public final class AJJKFCCFFKHOuterClass {
         output.writeUInt32(13, state_);
       }
       if (detailCase_ == 515) {
-        output.writeMessage(515, (emu.grasscutter.net.proto.Battle._Battle) detail_);
+        output.writeMessage(515, (emu.grasscutter.net.proto._BattleOuterClass._Battle) detail_);
       }
       if (detailCase_ == 635) {
         output.writeMessage(635, (emu.grasscutter.net.proto.NENBOIHDGJPOuterClass.NENBOIHDGJP) detail_);
       }
       if (detailCase_ == 1155) {
-        output.writeMessage(1155, (emu.grasscutter.net.proto.Event._Event) detail_);
+        output.writeMessage(1155, (emu.grasscutter.net.proto._EventOuterClass._Event) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -412,7 +412,7 @@ public final class AJJKFCCFFKHOuterClass {
       }
       if (detailCase_ == 515) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(515, (emu.grasscutter.net.proto.Battle._Battle) detail_);
+          .computeMessageSize(515, (emu.grasscutter.net.proto._BattleOuterClass._Battle) detail_);
       }
       if (detailCase_ == 635) {
         size += com.google.protobuf.CodedOutputStream
@@ -420,7 +420,7 @@ public final class AJJKFCCFFKHOuterClass {
       }
       if (detailCase_ == 1155) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1155, (emu.grasscutter.net.proto.Event._Event) detail_);
+          .computeMessageSize(1155, (emu.grasscutter.net.proto._EventOuterClass._Event) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -856,7 +856,7 @@ public final class AJJKFCCFFKHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Battle._Battle, emu.grasscutter.net.proto.Battle._Battle.Builder, emu.grasscutter.net.proto.Battle._BattleOrBuilder> battleBuilder_;
+          emu.grasscutter.net.proto._BattleOuterClass._Battle, emu.grasscutter.net.proto._BattleOuterClass._Battle.Builder, emu.grasscutter.net.proto._BattleOuterClass._BattleOrBuilder> battleBuilder_;
       /**
        * <code>._Battle battle = 515;</code>
        * @return Whether the battle field is set.
@@ -870,23 +870,23 @@ public final class AJJKFCCFFKHOuterClass {
        * @return The battle.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Battle._Battle getBattle() {
+      public emu.grasscutter.net.proto._BattleOuterClass._Battle getBattle() {
         if (battleBuilder_ == null) {
           if (detailCase_ == 515) {
-            return (emu.grasscutter.net.proto.Battle._Battle) detail_;
+            return (emu.grasscutter.net.proto._BattleOuterClass._Battle) detail_;
           }
-          return emu.grasscutter.net.proto.Battle._Battle.getDefaultInstance();
+          return emu.grasscutter.net.proto._BattleOuterClass._Battle.getDefaultInstance();
         } else {
           if (detailCase_ == 515) {
             return battleBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.Battle._Battle.getDefaultInstance();
+          return emu.grasscutter.net.proto._BattleOuterClass._Battle.getDefaultInstance();
         }
       }
       /**
        * <code>._Battle battle = 515;</code>
        */
-      public Builder setBattle(emu.grasscutter.net.proto.Battle._Battle value) {
+      public Builder setBattle(emu.grasscutter.net.proto._BattleOuterClass._Battle value) {
         if (battleBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -903,7 +903,7 @@ public final class AJJKFCCFFKHOuterClass {
        * <code>._Battle battle = 515;</code>
        */
       public Builder setBattle(
-          emu.grasscutter.net.proto.Battle._Battle.Builder builderForValue) {
+          emu.grasscutter.net.proto._BattleOuterClass._Battle.Builder builderForValue) {
         if (battleBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -916,11 +916,11 @@ public final class AJJKFCCFFKHOuterClass {
       /**
        * <code>._Battle battle = 515;</code>
        */
-      public Builder mergeBattle(emu.grasscutter.net.proto.Battle._Battle value) {
+      public Builder mergeBattle(emu.grasscutter.net.proto._BattleOuterClass._Battle value) {
         if (battleBuilder_ == null) {
           if (detailCase_ == 515 &&
-              detail_ != emu.grasscutter.net.proto.Battle._Battle.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.Battle._Battle.newBuilder((emu.grasscutter.net.proto.Battle._Battle) detail_)
+              detail_ != emu.grasscutter.net.proto._BattleOuterClass._Battle.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BattleOuterClass._Battle.newBuilder((emu.grasscutter.net.proto._BattleOuterClass._Battle) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -957,36 +957,36 @@ public final class AJJKFCCFFKHOuterClass {
       /**
        * <code>._Battle battle = 515;</code>
        */
-      public emu.grasscutter.net.proto.Battle._Battle.Builder getBattleBuilder() {
+      public emu.grasscutter.net.proto._BattleOuterClass._Battle.Builder getBattleBuilder() {
         return getBattleFieldBuilder().getBuilder();
       }
       /**
        * <code>._Battle battle = 515;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Battle._BattleOrBuilder getBattleOrBuilder() {
+      public emu.grasscutter.net.proto._BattleOuterClass._BattleOrBuilder getBattleOrBuilder() {
         if ((detailCase_ == 515) && (battleBuilder_ != null)) {
           return battleBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 515) {
-            return (emu.grasscutter.net.proto.Battle._Battle) detail_;
+            return (emu.grasscutter.net.proto._BattleOuterClass._Battle) detail_;
           }
-          return emu.grasscutter.net.proto.Battle._Battle.getDefaultInstance();
+          return emu.grasscutter.net.proto._BattleOuterClass._Battle.getDefaultInstance();
         }
       }
       /**
        * <code>._Battle battle = 515;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Battle._Battle, emu.grasscutter.net.proto.Battle._Battle.Builder, emu.grasscutter.net.proto.Battle._BattleOrBuilder> 
+          emu.grasscutter.net.proto._BattleOuterClass._Battle, emu.grasscutter.net.proto._BattleOuterClass._Battle.Builder, emu.grasscutter.net.proto._BattleOuterClass._BattleOrBuilder> 
           getBattleFieldBuilder() {
         if (battleBuilder_ == null) {
           if (!(detailCase_ == 515)) {
-            detail_ = emu.grasscutter.net.proto.Battle._Battle.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BattleOuterClass._Battle.getDefaultInstance();
           }
           battleBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.Battle._Battle, emu.grasscutter.net.proto.Battle._Battle.Builder, emu.grasscutter.net.proto.Battle._BattleOrBuilder>(
-                  (emu.grasscutter.net.proto.Battle._Battle) detail_,
+              emu.grasscutter.net.proto._BattleOuterClass._Battle, emu.grasscutter.net.proto._BattleOuterClass._Battle.Builder, emu.grasscutter.net.proto._BattleOuterClass._BattleOrBuilder>(
+                  (emu.grasscutter.net.proto._BattleOuterClass._Battle) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1138,7 +1138,7 @@ public final class AJJKFCCFFKHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Event._Event, emu.grasscutter.net.proto.Event._Event.Builder, emu.grasscutter.net.proto.Event._EventOrBuilder> eventBuilder_;
+          emu.grasscutter.net.proto._EventOuterClass._Event, emu.grasscutter.net.proto._EventOuterClass._Event.Builder, emu.grasscutter.net.proto._EventOuterClass._EventOrBuilder> eventBuilder_;
       /**
        * <code>._Event event = 1155;</code>
        * @return Whether the event field is set.
@@ -1152,23 +1152,23 @@ public final class AJJKFCCFFKHOuterClass {
        * @return The event.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Event._Event getEvent() {
+      public emu.grasscutter.net.proto._EventOuterClass._Event getEvent() {
         if (eventBuilder_ == null) {
           if (detailCase_ == 1155) {
-            return (emu.grasscutter.net.proto.Event._Event) detail_;
+            return (emu.grasscutter.net.proto._EventOuterClass._Event) detail_;
           }
-          return emu.grasscutter.net.proto.Event._Event.getDefaultInstance();
+          return emu.grasscutter.net.proto._EventOuterClass._Event.getDefaultInstance();
         } else {
           if (detailCase_ == 1155) {
             return eventBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.Event._Event.getDefaultInstance();
+          return emu.grasscutter.net.proto._EventOuterClass._Event.getDefaultInstance();
         }
       }
       /**
        * <code>._Event event = 1155;</code>
        */
-      public Builder setEvent(emu.grasscutter.net.proto.Event._Event value) {
+      public Builder setEvent(emu.grasscutter.net.proto._EventOuterClass._Event value) {
         if (eventBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1185,7 +1185,7 @@ public final class AJJKFCCFFKHOuterClass {
        * <code>._Event event = 1155;</code>
        */
       public Builder setEvent(
-          emu.grasscutter.net.proto.Event._Event.Builder builderForValue) {
+          emu.grasscutter.net.proto._EventOuterClass._Event.Builder builderForValue) {
         if (eventBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1198,11 +1198,11 @@ public final class AJJKFCCFFKHOuterClass {
       /**
        * <code>._Event event = 1155;</code>
        */
-      public Builder mergeEvent(emu.grasscutter.net.proto.Event._Event value) {
+      public Builder mergeEvent(emu.grasscutter.net.proto._EventOuterClass._Event value) {
         if (eventBuilder_ == null) {
           if (detailCase_ == 1155 &&
-              detail_ != emu.grasscutter.net.proto.Event._Event.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.Event._Event.newBuilder((emu.grasscutter.net.proto.Event._Event) detail_)
+              detail_ != emu.grasscutter.net.proto._EventOuterClass._Event.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._EventOuterClass._Event.newBuilder((emu.grasscutter.net.proto._EventOuterClass._Event) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1239,36 +1239,36 @@ public final class AJJKFCCFFKHOuterClass {
       /**
        * <code>._Event event = 1155;</code>
        */
-      public emu.grasscutter.net.proto.Event._Event.Builder getEventBuilder() {
+      public emu.grasscutter.net.proto._EventOuterClass._Event.Builder getEventBuilder() {
         return getEventFieldBuilder().getBuilder();
       }
       /**
        * <code>._Event event = 1155;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Event._EventOrBuilder getEventOrBuilder() {
+      public emu.grasscutter.net.proto._EventOuterClass._EventOrBuilder getEventOrBuilder() {
         if ((detailCase_ == 1155) && (eventBuilder_ != null)) {
           return eventBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1155) {
-            return (emu.grasscutter.net.proto.Event._Event) detail_;
+            return (emu.grasscutter.net.proto._EventOuterClass._Event) detail_;
           }
-          return emu.grasscutter.net.proto.Event._Event.getDefaultInstance();
+          return emu.grasscutter.net.proto._EventOuterClass._Event.getDefaultInstance();
         }
       }
       /**
        * <code>._Event event = 1155;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Event._Event, emu.grasscutter.net.proto.Event._Event.Builder, emu.grasscutter.net.proto.Event._EventOrBuilder> 
+          emu.grasscutter.net.proto._EventOuterClass._Event, emu.grasscutter.net.proto._EventOuterClass._Event.Builder, emu.grasscutter.net.proto._EventOuterClass._EventOrBuilder> 
           getEventFieldBuilder() {
         if (eventBuilder_ == null) {
           if (!(detailCase_ == 1155)) {
-            detail_ = emu.grasscutter.net.proto.Event._Event.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._EventOuterClass._Event.getDefaultInstance();
           }
           eventBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.Event._Event, emu.grasscutter.net.proto.Event._Event.Builder, emu.grasscutter.net.proto.Event._EventOrBuilder>(
-                  (emu.grasscutter.net.proto.Event._Event) detail_,
+              emu.grasscutter.net.proto._EventOuterClass._Event, emu.grasscutter.net.proto._EventOuterClass._Event.Builder, emu.grasscutter.net.proto._EventOuterClass._EventOrBuilder>(
+                  (emu.grasscutter.net.proto._EventOuterClass._Event) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1349,15 +1349,15 @@ public final class AJJKFCCFFKHOuterClass {
       "FKH\022\023\n\013FOEJBABCLJJ\030\t \001(\r\022\r\n\005state\030\r \001(\r\022" +
       "\033\n\006battle\030\203\004 \001(\0132\010._BattleH\000\022\035\n\004shop\030\373\004 " +
       "\001(\0132\014.NENBOIHDGJPH\000\022\031\n\005event\030\203\t \001(\0132\007._E" +
-      "ventH\000B\010\n\006detailB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "ventH\000B\010\n\006detailB2\n\031emu.grasscutter.net." +
+      "protoB\025AJJKFCCFFKHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.NENBOIHDGJPOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.Battle.getDescriptor(),
-          emu.grasscutter.net.proto.Event.getDescriptor(),
+          emu.grasscutter.net.proto._BattleOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._EventOuterClass.getDescriptor(),
         });
     internal_static_AJJKFCCFFKH_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1366,8 +1366,8 @@ public final class AJJKFCCFFKHOuterClass {
         internal_static_AJJKFCCFFKH_descriptor,
         new java.lang.String[] { "FOEJBABCLJJ", "State", "Battle", "Shop", "Event", "Detail", });
     emu.grasscutter.net.proto.NENBOIHDGJPOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.Battle.getDescriptor();
-    emu.grasscutter.net.proto.Event.getDescriptor();
+    emu.grasscutter.net.proto._BattleOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._EventOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

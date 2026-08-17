@@ -659,8 +659,8 @@ public final class HOLLBLPFMBCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HOLLBLPFMBC.proto\"L\n\013HOLLBLPFMBC\022\023\n\013NN" +
       "OLLFOGKLA\030\003 \001(\005\022\023\n\013MFKIDNEJIEI\030\t \001(\020\022\023\n\013" +
-      "ADICHDONPDL\030\r \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "ADICHDONPDL\030\r \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025HOLLBLPFMBCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

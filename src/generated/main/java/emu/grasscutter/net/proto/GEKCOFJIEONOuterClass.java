@@ -666,8 +666,8 @@ public final class GEKCOFJIEONOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GEKCOFJIEON.proto\"?\n\013GEKCOFJIEON\022\023\n\013PF" +
       "FMBHMEPBJ\030\002 \001(\r\022\017\n\007retcode\030\006 \001(\005\022\n\n\002id\030\017" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB2\n\031emu.grasscutter.net.protoB\025GEKCO" +
+      "FJIEONOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

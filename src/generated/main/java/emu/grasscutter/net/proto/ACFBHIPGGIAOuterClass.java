@@ -880,8 +880,9 @@ public final class ACFBHIPGGIAOuterClass {
       "\n\021ACFBHIPGGIA.proto\"~\n\013ACFBHIPGGIA\022\021\n\tco" +
       "st_time\030\001 \001(\r\022\020\n\010level_id\030\002 \001(\r\022\025\n\ris_ne" +
       "w_record\030\003 \001(\010\022\017\n\007is_succ\030\006 \001(\010\022\023\n\013OFNHH" +
-      "JLOLGN\030\010 \001(\010\022\r\n\005score\030\013 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "JLOLGN\030\010 \001(\010\022\r\n\005score\030\013 \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025ACFBHIPGGIAOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -666,8 +666,8 @@ public final class DPNJKHKDBFBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DPNJKHKDBFB.proto\"D\n\013DPNJKHKDBFB\022\023\n\013GF" +
       "LGLONCOMH\030\005 \001(\r\022\017\n\007retcode\030\007 \001(\005\022\017\n\007city" +
-      "_id\030\t \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\t \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "DPNJKHKDBFBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -926,7 +926,8 @@ public final class BBDGNNMNHPJOuterClass {
       "LCBMLFECNAH.proto\"d\n\013BBDGNNMNHPJ\022!\n\013PBMB" +
       "HGPGEDM\030\001 \001(\0132\014.LCBMLFECNAH\022!\n\013FJMDMAOJL" +
       "EE\030\002 \001(\0132\014.CALMMAGGLHC\022\017\n\007item_id\030\003 \001(\005B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025BBDGNNMNHP" +
+      "JOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

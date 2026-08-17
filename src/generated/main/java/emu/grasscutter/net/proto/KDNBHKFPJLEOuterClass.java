@@ -21,12 +21,12 @@ public final class KDNBHKFPJLEOuterClass {
     /**
      * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam> 
+    java.util.List<emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam> 
         getADBIFHIJDEOList();
     /**
      * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
      */
-    emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam getADBIFHIJDEO(int index);
+    emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam getADBIFHIJDEO(int index);
     /**
      * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
      */
@@ -34,12 +34,12 @@ public final class KDNBHKFPJLEOuterClass {
     /**
      * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder> 
         getADBIFHIJDEOOrBuilderList();
     /**
      * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
      */
-    emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder getADBIFHIJDEOOrBuilder(
+    emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder getADBIFHIJDEOOrBuilder(
         int index);
 
     /**
@@ -170,11 +170,11 @@ public final class KDNBHKFPJLEOuterClass {
               break;
             case 34: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                aDBIFHIJDEO_ = new java.util.ArrayList<emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam>();
+                aDBIFHIJDEO_ = new java.util.ArrayList<emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam>();
                 mutable_bitField0_ |= 0x00000001;
               }
               aDBIFHIJDEO_.add(
-                  input.readMessage(emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.parser(), extensionRegistry));
               break;
             }
             case 42: {
@@ -249,19 +249,19 @@ public final class KDNBHKFPJLEOuterClass {
     }
 
     public static final int ADBIFHIJDEO_FIELD_NUMBER = 4;
-    private java.util.List<emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam> aDBIFHIJDEO_;
+    private java.util.List<emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam> aDBIFHIJDEO_;
     /**
      * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam> getADBIFHIJDEOList() {
+    public java.util.List<emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam> getADBIFHIJDEOList() {
       return aDBIFHIJDEO_;
     }
     /**
      * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder> 
         getADBIFHIJDEOOrBuilderList() {
       return aDBIFHIJDEO_;
     }
@@ -276,14 +276,14 @@ public final class KDNBHKFPJLEOuterClass {
      * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam getADBIFHIJDEO(int index) {
+    public emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam getADBIFHIJDEO(int index) {
       return aDBIFHIJDEO_.get(index);
     }
     /**
      * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder getADBIFHIJDEOOrBuilder(
+    public emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder getADBIFHIJDEOOrBuilder(
         int index) {
       return aDBIFHIJDEO_.get(index);
     }
@@ -919,22 +919,22 @@ public final class KDNBHKFPJLEOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam> aDBIFHIJDEO_ =
+      private java.util.List<emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam> aDBIFHIJDEO_ =
         java.util.Collections.emptyList();
       private void ensureADBIFHIJDEOIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          aDBIFHIJDEO_ = new java.util.ArrayList<emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam>(aDBIFHIJDEO_);
+          aDBIFHIJDEO_ = new java.util.ArrayList<emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam>(aDBIFHIJDEO_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder> aDBIFHIJDEOBuilder_;
+          emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder> aDBIFHIJDEOBuilder_;
 
       /**
        * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam> getADBIFHIJDEOList() {
+      public java.util.List<emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam> getADBIFHIJDEOList() {
         if (aDBIFHIJDEOBuilder_ == null) {
           return java.util.Collections.unmodifiableList(aDBIFHIJDEO_);
         } else {
@@ -954,7 +954,7 @@ public final class KDNBHKFPJLEOuterClass {
       /**
        * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
        */
-      public emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam getADBIFHIJDEO(int index) {
+      public emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam getADBIFHIJDEO(int index) {
         if (aDBIFHIJDEOBuilder_ == null) {
           return aDBIFHIJDEO_.get(index);
         } else {
@@ -965,7 +965,7 @@ public final class KDNBHKFPJLEOuterClass {
        * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
        */
       public Builder setADBIFHIJDEO(
-          int index, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam value) {
+          int index, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam value) {
         if (aDBIFHIJDEOBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -982,7 +982,7 @@ public final class KDNBHKFPJLEOuterClass {
        * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
        */
       public Builder setADBIFHIJDEO(
-          int index, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder builderForValue) {
         if (aDBIFHIJDEOBuilder_ == null) {
           ensureADBIFHIJDEOIsMutable();
           aDBIFHIJDEO_.set(index, builderForValue.build());
@@ -995,7 +995,7 @@ public final class KDNBHKFPJLEOuterClass {
       /**
        * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
        */
-      public Builder addADBIFHIJDEO(emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam value) {
+      public Builder addADBIFHIJDEO(emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam value) {
         if (aDBIFHIJDEOBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1012,7 +1012,7 @@ public final class KDNBHKFPJLEOuterClass {
        * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
        */
       public Builder addADBIFHIJDEO(
-          int index, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam value) {
+          int index, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam value) {
         if (aDBIFHIJDEOBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1029,7 +1029,7 @@ public final class KDNBHKFPJLEOuterClass {
        * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
        */
       public Builder addADBIFHIJDEO(
-          emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder builderForValue) {
+          emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder builderForValue) {
         if (aDBIFHIJDEOBuilder_ == null) {
           ensureADBIFHIJDEOIsMutable();
           aDBIFHIJDEO_.add(builderForValue.build());
@@ -1043,7 +1043,7 @@ public final class KDNBHKFPJLEOuterClass {
        * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
        */
       public Builder addADBIFHIJDEO(
-          int index, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder builderForValue) {
         if (aDBIFHIJDEOBuilder_ == null) {
           ensureADBIFHIJDEOIsMutable();
           aDBIFHIJDEO_.add(index, builderForValue.build());
@@ -1057,7 +1057,7 @@ public final class KDNBHKFPJLEOuterClass {
        * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
        */
       public Builder addAllADBIFHIJDEO(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam> values) {
         if (aDBIFHIJDEOBuilder_ == null) {
           ensureADBIFHIJDEOIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1097,14 +1097,14 @@ public final class KDNBHKFPJLEOuterClass {
       /**
        * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
        */
-      public emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder getADBIFHIJDEOBuilder(
+      public emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder getADBIFHIJDEOBuilder(
           int index) {
         return getADBIFHIJDEOFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
        */
-      public emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder getADBIFHIJDEOOrBuilder(
+      public emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder getADBIFHIJDEOOrBuilder(
           int index) {
         if (aDBIFHIJDEOBuilder_ == null) {
           return aDBIFHIJDEO_.get(index);  } else {
@@ -1114,7 +1114,7 @@ public final class KDNBHKFPJLEOuterClass {
       /**
        * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder> 
            getADBIFHIJDEOOrBuilderList() {
         if (aDBIFHIJDEOBuilder_ != null) {
           return aDBIFHIJDEOBuilder_.getMessageOrBuilderList();
@@ -1125,31 +1125,31 @@ public final class KDNBHKFPJLEOuterClass {
       /**
        * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
        */
-      public emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder addADBIFHIJDEOBuilder() {
+      public emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder addADBIFHIJDEOBuilder() {
         return getADBIFHIJDEOFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.getDefaultInstance());
+            emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.getDefaultInstance());
       }
       /**
        * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
        */
-      public emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder addADBIFHIJDEOBuilder(
+      public emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder addADBIFHIJDEOBuilder(
           int index) {
         return getADBIFHIJDEOFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.getDefaultInstance());
+            index, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.getDefaultInstance());
       }
       /**
        * <code>repeated ._UgcFilterParam ADBIFHIJDEO = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder> 
            getADBIFHIJDEOBuilderList() {
         return getADBIFHIJDEOFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder> 
+          emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder> 
           getADBIFHIJDEOFieldBuilder() {
         if (aDBIFHIJDEOBuilder_ == null) {
           aDBIFHIJDEOBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParam.Builder, emu.grasscutter.net.proto.UgcFilterParam._UgcFilterParamOrBuilder>(
+              emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParam.Builder, emu.grasscutter.net.proto._UgcFilterParamOuterClass._UgcFilterParamOrBuilder>(
                   aDBIFHIJDEO_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -1951,15 +1951,15 @@ public final class KDNBHKFPJLEOuterClass {
       "\003(\0132\020._UgcFilterParam\022\'\n\013EPEEHJNIPNB\030\005 \003" +
       "(\0132\022.UgcMusicBriefInfo\022\'\n\013NCCMPNEBJLA\030\007 " +
       "\003(\0132\022.UgcMusicBriefInfo\022!\n\013OIIMDKMDFFI\030\010" +
-      " \003(\0132\014.FLFAFLIBLDBB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      " \003(\0132\014.FLFAFLIBLDBB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025KDNBHKFPJLEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.FLFAFLIBLDBOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.UgcFilterParam.getDescriptor(),
+          emu.grasscutter.net.proto._UgcFilterParamOuterClass.getDescriptor(),
         });
     internal_static_KDNBHKFPJLE_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1969,7 +1969,7 @@ public final class KDNBHKFPJLEOuterClass {
         new java.lang.String[] { "ADBIFHIJDEO", "EPEEHJNIPNB", "NCCMPNEBJLA", "OIIMDKMDFFI", });
     emu.grasscutter.net.proto.FLFAFLIBLDBOuterClass.getDescriptor();
     emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.UgcFilterParam.getDescriptor();
+    emu.grasscutter.net.proto._UgcFilterParamOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

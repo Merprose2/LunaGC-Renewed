@@ -894,8 +894,9 @@ public final class LPDPPPHCNLAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LPDPPPHCNLA.proto\032\021EAPNMDHADGP.proto\"I" +
       "\n\013LPDPPPHCNLA\022\023\n\013MIPKLFHBMFK\030\010 \001(\010\022%\n\017le" +
-      "vel_info_list\030\014 \003(\0132\014.EAPNMDHADGPB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "vel_info_list\030\014 \003(\0132\014.EAPNMDHADGPB2\n\031emu" +
+      ".grasscutter.net.protoB\025LPDPPPHCNLAOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

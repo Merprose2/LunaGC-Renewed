@@ -27,11 +27,11 @@ public final class MAHNMGPCABLOuterClass {
      * <code>._AutoChessChess AOLEKJJENFI = 1;</code>
      * @return The aOLEKJJENFI.
      */
-    emu.grasscutter.net.proto.AutoChessChess._AutoChessChess getAOLEKJJENFI();
+    emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess getAOLEKJJENFI();
     /**
      * <code>._AutoChessChess AOLEKJJENFI = 1;</code>
      */
-    emu.grasscutter.net.proto.AutoChessChess._AutoChessChessOrBuilder getAOLEKJJENFIOrBuilder();
+    emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChessOrBuilder getAOLEKJJENFIOrBuilder();
   }
   /**
    * <pre>
@@ -83,11 +83,11 @@ public final class MAHNMGPCABLOuterClass {
               done = true;
               break;
             case 10: {
-              emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.Builder subBuilder = null;
               if (aOLEKJJENFI_ != null) {
                 subBuilder = aOLEKJJENFI_.toBuilder();
               }
-              aOLEKJJENFI_ = input.readMessage(emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.parser(), extensionRegistry);
+              aOLEKJJENFI_ = input.readMessage(emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(aOLEKJJENFI_);
                 aOLEKJJENFI_ = subBuilder.buildPartial();
@@ -128,7 +128,7 @@ public final class MAHNMGPCABLOuterClass {
     }
 
     public static final int AOLEKJJENFI_FIELD_NUMBER = 1;
-    private emu.grasscutter.net.proto.AutoChessChess._AutoChessChess aOLEKJJENFI_;
+    private emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess aOLEKJJENFI_;
     /**
      * <code>._AutoChessChess AOLEKJJENFI = 1;</code>
      * @return Whether the aOLEKJJENFI field is set.
@@ -142,14 +142,14 @@ public final class MAHNMGPCABLOuterClass {
      * @return The aOLEKJJENFI.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AutoChessChess._AutoChessChess getAOLEKJJENFI() {
-      return aOLEKJJENFI_ == null ? emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.getDefaultInstance() : aOLEKJJENFI_;
+    public emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess getAOLEKJJENFI() {
+      return aOLEKJJENFI_ == null ? emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.getDefaultInstance() : aOLEKJJENFI_;
     }
     /**
      * <code>._AutoChessChess AOLEKJJENFI = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AutoChessChess._AutoChessChessOrBuilder getAOLEKJJENFIOrBuilder() {
+    public emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChessOrBuilder getAOLEKJJENFIOrBuilder() {
       return getAOLEKJJENFI();
     }
 
@@ -472,9 +472,9 @@ public final class MAHNMGPCABLOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.AutoChessChess._AutoChessChess aOLEKJJENFI_;
+      private emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess aOLEKJJENFI_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AutoChessChess._AutoChessChess, emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.Builder, emu.grasscutter.net.proto.AutoChessChess._AutoChessChessOrBuilder> aOLEKJJENFIBuilder_;
+          emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.Builder, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChessOrBuilder> aOLEKJJENFIBuilder_;
       /**
        * <code>._AutoChessChess AOLEKJJENFI = 1;</code>
        * @return Whether the aOLEKJJENFI field is set.
@@ -486,9 +486,9 @@ public final class MAHNMGPCABLOuterClass {
        * <code>._AutoChessChess AOLEKJJENFI = 1;</code>
        * @return The aOLEKJJENFI.
        */
-      public emu.grasscutter.net.proto.AutoChessChess._AutoChessChess getAOLEKJJENFI() {
+      public emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess getAOLEKJJENFI() {
         if (aOLEKJJENFIBuilder_ == null) {
-          return aOLEKJJENFI_ == null ? emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.getDefaultInstance() : aOLEKJJENFI_;
+          return aOLEKJJENFI_ == null ? emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.getDefaultInstance() : aOLEKJJENFI_;
         } else {
           return aOLEKJJENFIBuilder_.getMessage();
         }
@@ -496,7 +496,7 @@ public final class MAHNMGPCABLOuterClass {
       /**
        * <code>._AutoChessChess AOLEKJJENFI = 1;</code>
        */
-      public Builder setAOLEKJJENFI(emu.grasscutter.net.proto.AutoChessChess._AutoChessChess value) {
+      public Builder setAOLEKJJENFI(emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess value) {
         if (aOLEKJJENFIBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -513,7 +513,7 @@ public final class MAHNMGPCABLOuterClass {
        * <code>._AutoChessChess AOLEKJJENFI = 1;</code>
        */
       public Builder setAOLEKJJENFI(
-          emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.Builder builderForValue) {
+          emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.Builder builderForValue) {
         if (aOLEKJJENFIBuilder_ == null) {
           aOLEKJJENFI_ = builderForValue.build();
           onChanged();
@@ -526,11 +526,11 @@ public final class MAHNMGPCABLOuterClass {
       /**
        * <code>._AutoChessChess AOLEKJJENFI = 1;</code>
        */
-      public Builder mergeAOLEKJJENFI(emu.grasscutter.net.proto.AutoChessChess._AutoChessChess value) {
+      public Builder mergeAOLEKJJENFI(emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess value) {
         if (aOLEKJJENFIBuilder_ == null) {
           if (aOLEKJJENFI_ != null) {
             aOLEKJJENFI_ =
-              emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.newBuilder(aOLEKJJENFI_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.newBuilder(aOLEKJJENFI_).mergeFrom(value).buildPartial();
           } else {
             aOLEKJJENFI_ = value;
           }
@@ -558,7 +558,7 @@ public final class MAHNMGPCABLOuterClass {
       /**
        * <code>._AutoChessChess AOLEKJJENFI = 1;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.Builder getAOLEKJJENFIBuilder() {
+      public emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.Builder getAOLEKJJENFIBuilder() {
         
         onChanged();
         return getAOLEKJJENFIFieldBuilder().getBuilder();
@@ -566,23 +566,23 @@ public final class MAHNMGPCABLOuterClass {
       /**
        * <code>._AutoChessChess AOLEKJJENFI = 1;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessChess._AutoChessChessOrBuilder getAOLEKJJENFIOrBuilder() {
+      public emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChessOrBuilder getAOLEKJJENFIOrBuilder() {
         if (aOLEKJJENFIBuilder_ != null) {
           return aOLEKJJENFIBuilder_.getMessageOrBuilder();
         } else {
           return aOLEKJJENFI_ == null ?
-              emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.getDefaultInstance() : aOLEKJJENFI_;
+              emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.getDefaultInstance() : aOLEKJJENFI_;
         }
       }
       /**
        * <code>._AutoChessChess AOLEKJJENFI = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AutoChessChess._AutoChessChess, emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.Builder, emu.grasscutter.net.proto.AutoChessChess._AutoChessChessOrBuilder> 
+          emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.Builder, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChessOrBuilder> 
           getAOLEKJJENFIFieldBuilder() {
         if (aOLEKJJENFIBuilder_ == null) {
           aOLEKJJENFIBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AutoChessChess._AutoChessChess, emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.Builder, emu.grasscutter.net.proto.AutoChessChess._AutoChessChessOrBuilder>(
+              emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.Builder, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChessOrBuilder>(
                   getAOLEKJJENFI(),
                   getParentForChildren(),
                   isClean());
@@ -659,13 +659,13 @@ public final class MAHNMGPCABLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MAHNMGPCABL.proto\032\025_AutoChessChess.pro" +
       "to\"4\n\013MAHNMGPCABL\022%\n\013AOLEKJJENFI\030\001 \001(\0132\020" +
-      "._AutoChessChessB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "._AutoChessChessB2\n\031emu.grasscutter.net." +
+      "protoB\025MAHNMGPCABLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.AutoChessChess.getDescriptor(),
+          emu.grasscutter.net.proto._AutoChessChessOuterClass.getDescriptor(),
         });
     internal_static_MAHNMGPCABL_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -673,7 +673,7 @@ public final class MAHNMGPCABLOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MAHNMGPCABL_descriptor,
         new java.lang.String[] { "AOLEKJJENFI", });
-    emu.grasscutter.net.proto.AutoChessChess.getDescriptor();
+    emu.grasscutter.net.proto._AutoChessChessOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

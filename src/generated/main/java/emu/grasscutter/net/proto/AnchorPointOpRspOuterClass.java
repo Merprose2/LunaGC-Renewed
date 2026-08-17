@@ -666,8 +666,9 @@ public final class AnchorPointOpRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026AnchorPointOpRsp.proto\"Z\n\020AnchorPointO" +
       "pRsp\022\027\n\017anchor_point_id\030\003 \001(\r\022\017\n\007retcode" +
-      "\030\n \001(\005\022\034\n\024anchor_point_op_type\030\r \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\030\n \001(\005\022\034\n\024anchor_point_op_type\030\r \001(\rB7\n\031" +
+      "emu.grasscutter.net.protoB\032AnchorPointOp" +
+      "RspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

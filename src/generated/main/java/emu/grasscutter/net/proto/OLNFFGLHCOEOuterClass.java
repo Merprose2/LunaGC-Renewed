@@ -729,8 +729,9 @@ public final class OLNFFGLHCOEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OLNFFGLHCOE.proto\032\021CCKINOHGEJH.proto\"E" +
       "\n\013OLNFFGLHCOE\022\023\n\013LJGHDOOCCGC\030\003 \001(\r\022!\n\013DP" +
-      "EFCKFOFHI\030\013 \001(\0132\014.CCKINOHGEJHB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "EFCKFOFHI\030\013 \001(\0132\014.CCKINOHGEJHB2\n\031emu.gra" +
+      "sscutter.net.protoB\025OLNFFGLHCOEOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1584,8 +1584,8 @@ public final class SignInInfoOuterClass {
       "\023\n\013KHDBDDAKGEK\030\006 \001(\010\022\023\n\013GNGAMOIBDLN\030\007 \001(" +
       "\010\022\027\n\017reward_day_list\030\n \003(\r\022%\n\020signin_dat" +
       "a_list\030\014 \003(\0132\013.SignInData\022\022\n\nbegin_time\030" +
-      "\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\017 \001(\rB1\n\031emu.grasscutter.net.protoB\024Sign" +
+      "InInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

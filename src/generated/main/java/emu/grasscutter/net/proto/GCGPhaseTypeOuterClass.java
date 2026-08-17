@@ -272,8 +272,9 @@ public final class GCGPhaseTypeOuterClass {
       "R\020\014\0221\n-GCGPhaseType_GCG_PHASE_AUTO_BATTL" +
       "E_CARD_START\020\r\0220\n,GCGPhaseType_GCG_PHASE" +
       "_AUTO_BATTLE_CARD_MAIN\020\016\0224\n0GCGPhaseType" +
-      "_GCG_PHASE_AUTO_BATTLE_CARD_PRE_MAIN\020\017B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "_GCG_PHASE_AUTO_BATTLE_CARD_PRE_MAIN\020\017B3" +
+      "\n\031emu.grasscutter.net.protoB\026GCGPhaseTyp" +
+      "eOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

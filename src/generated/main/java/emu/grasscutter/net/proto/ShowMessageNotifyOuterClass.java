@@ -939,8 +939,8 @@ public final class ShowMessageNotifyOuterClass {
       "\n\027ShowMessageNotify.proto\032\016MsgParam.prot" +
       "o\032\016SvrMsgId.proto\"I\n\021ShowMessageNotify\022\031" +
       "\n\006params\030\003 \003(\0132\t.MsgParam\022\031\n\006msg_id\030\n \001(" +
-      "\0162\t.SvrMsgIdB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\0162\t.SvrMsgIdB8\n\031emu.grasscutter.net.prot" +
+      "oB\033ShowMessageNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

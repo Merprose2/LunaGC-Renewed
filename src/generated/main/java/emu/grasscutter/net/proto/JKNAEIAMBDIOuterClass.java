@@ -1877,8 +1877,8 @@ public final class JKNAEIAMBDIOuterClass {
       "\010\022\024\n\013FHKFIHMADAD\030\203\004 \001(\r\022\024\n\013CMKJOJNMBIO\030\204" +
       "\004 \001(\010\022\024\n\013DGIBMBLJHLN\030\205\004 \001(\r\022\024\n\013LHDEBKECC" +
       "EE\030\206\004 \001(\010\022\024\n\013INCNOBDIJFG\030\207\004 \001(\010\022\024\n\013DIDGN" +
-      "PCBCPN\030\210\004 \001(\010B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "PCBCPN\030\210\004 \001(\010B2\n\031emu.grasscutter.net.pro" +
+      "toB\025JKNAEIAMBDIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

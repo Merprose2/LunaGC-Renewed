@@ -972,7 +972,8 @@ public final class EBPCICGOCHEOuterClass {
       "\n\021EBPCICGOCHE.proto\032\021LIOOHMGNKGP.proto\"S" +
       "\n\013EBPCICGOCHE\022\017\n\007retcode\030\003 \001(\005\022!\n\013DBHEEN" +
       "GPGDM\030\n \003(\0132\014.LIOOHMGNKGP\022\020\n\010level_id\030\013 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025EBPCIC" +
+      "GOCHEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

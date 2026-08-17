@@ -2902,8 +2902,9 @@ public final class DNKJLHEFEEHOuterClass {
       "(\0132\014.LPFLOMKAKOM\022!\n\013HMIDFMPMGBO\030\010 \001(\0132\014." +
       "AHFFPGDECPN\022!\n\013DAJKMCODIBL\030\t \001(\0132\014.INAHC" +
       "NIOBDJ\022!\n\013CHPFPHHKPPJ\030\n \001(\0132\014.IDMBMBCGGK" +
-      "I\022!\n\013NLOIIMODMCH\030\013 \001(\0132\014.PNIOCBKIGEOB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "I\022!\n\013NLOIIMODMCH\030\013 \001(\0132\014.PNIOCBKIGEOB2\n\031" +
+      "emu.grasscutter.net.protoB\025DNKJLHEFEEHOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

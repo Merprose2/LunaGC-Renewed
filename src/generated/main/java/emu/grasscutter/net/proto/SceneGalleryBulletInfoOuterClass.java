@@ -845,8 +845,9 @@ public final class SceneGalleryBulletInfoOuterClass {
       "GalleryBulletInfo\022\020\n\010end_time\030\002 \001(\r\022?\n\rh" +
       "it_count_map\030\007 \003(\0132(.SceneGalleryBulletI" +
       "nfo.HitCountMapEntry\0322\n\020HitCountMapEntry" +
-      "\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B=\n\031emu." +
+      "grasscutter.net.protoB SceneGalleryBulle" +
+      "tInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -133,8 +133,8 @@ public final class CKFOODKLJOOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CKFOODKLJOO.proto*H\n\013CKFOODKLJOO\022\034\n\030CK" +
       "FOODKLJOO_WEATHER_NONE\020\000\022\033\n\027CKFOODKLJOO_" +
-      "WEATHER_FOG\020\001B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "WEATHER_FOG\020\001B2\n\031emu.grasscutter.net.pro" +
+      "toB\025CKFOODKLJOOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

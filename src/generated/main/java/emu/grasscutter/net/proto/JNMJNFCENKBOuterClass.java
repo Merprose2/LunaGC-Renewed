@@ -799,8 +799,8 @@ public final class JNMJNFCENKBOuterClass {
       "\n\021JNMJNFCENKB.proto\"v\n\013JNMJNFCENKB\022\023\n\013FO" +
       "HNJKCKKPC\030\001 \001(\r\022\023\n\013FEKGLGPBOAC\030\002 \001(\r\022\023\n\013" +
       "MJHEECGMMHI\030\007 \001(\r\022\023\n\013LICONHNCIPB\030\n \001(\005\022\023" +
-      "\n\013OADOGGFPLAJ\030\017 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013OADOGGFPLAJ\030\017 \001(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025JNMJNFCENKBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

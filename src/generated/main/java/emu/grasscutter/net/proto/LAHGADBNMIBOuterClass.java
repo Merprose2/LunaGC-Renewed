@@ -1492,7 +1492,8 @@ public final class LAHGADBNMIBOuterClass {
       "L\030\373\003 \001(\005\022\035\n\006offset\030\374\003 \001(\0132\014.MMLNJCOKEAK\022" +
       "\024\n\013AHPLOOHHMNM\030\375\003 \001(\005\022\"\n\013HLANALJLNNM\030\376\003 " +
       "\001(\0132\014.MMLNJCOKEAK\022\024\n\013BOPALLMGONK\030\377\003 \001(\010B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025LAHGADBNMI" +
+      "BOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

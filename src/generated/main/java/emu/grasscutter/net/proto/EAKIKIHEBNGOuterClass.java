@@ -45,11 +45,11 @@ public final class EAKIKIHEBNGOuterClass {
      * <code>._BeyondCostumeSetInfo IHIENJOGKML = 12;</code>
      * @return The iHIENJOGKML.
      */
-    emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getIHIENJOGKML();
+    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getIHIENJOGKML();
     /**
      * <code>._BeyondCostumeSetInfo IHIENJOGKML = 12;</code>
      */
-    emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getIHIENJOGKMLOrBuilder();
+    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getIHIENJOGKMLOrBuilder();
   }
   /**
    * <pre>
@@ -116,11 +116,11 @@ public final class EAKIKIHEBNGOuterClass {
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder subBuilder = null;
               if (iHIENJOGKML_ != null) {
                 subBuilder = iHIENJOGKML_.toBuilder();
               }
-              iHIENJOGKML_ = input.readMessage(emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.parser(), extensionRegistry);
+              iHIENJOGKML_ = input.readMessage(emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(iHIENJOGKML_);
                 iHIENJOGKML_ = subBuilder.buildPartial();
@@ -194,7 +194,7 @@ public final class EAKIKIHEBNGOuterClass {
     }
 
     public static final int IHIENJOGKML_FIELD_NUMBER = 12;
-    private emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo iHIENJOGKML_;
+    private emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo iHIENJOGKML_;
     /**
      * <code>._BeyondCostumeSetInfo IHIENJOGKML = 12;</code>
      * @return Whether the iHIENJOGKML field is set.
@@ -208,14 +208,14 @@ public final class EAKIKIHEBNGOuterClass {
      * @return The iHIENJOGKML.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getIHIENJOGKML() {
-      return iHIENJOGKML_ == null ? emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.getDefaultInstance() : iHIENJOGKML_;
+    public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getIHIENJOGKML() {
+      return iHIENJOGKML_ == null ? emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.getDefaultInstance() : iHIENJOGKML_;
     }
     /**
      * <code>._BeyondCostumeSetInfo IHIENJOGKML = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getIHIENJOGKMLOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getIHIENJOGKMLOrBuilder() {
       return getIHIENJOGKML();
     }
 
@@ -683,9 +683,9 @@ public final class EAKIKIHEBNGOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo iHIENJOGKML_;
+      private emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo iHIENJOGKML_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> iHIENJOGKMLBuilder_;
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> iHIENJOGKMLBuilder_;
       /**
        * <code>._BeyondCostumeSetInfo IHIENJOGKML = 12;</code>
        * @return Whether the iHIENJOGKML field is set.
@@ -697,9 +697,9 @@ public final class EAKIKIHEBNGOuterClass {
        * <code>._BeyondCostumeSetInfo IHIENJOGKML = 12;</code>
        * @return The iHIENJOGKML.
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getIHIENJOGKML() {
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getIHIENJOGKML() {
         if (iHIENJOGKMLBuilder_ == null) {
-          return iHIENJOGKML_ == null ? emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.getDefaultInstance() : iHIENJOGKML_;
+          return iHIENJOGKML_ == null ? emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.getDefaultInstance() : iHIENJOGKML_;
         } else {
           return iHIENJOGKMLBuilder_.getMessage();
         }
@@ -707,7 +707,7 @@ public final class EAKIKIHEBNGOuterClass {
       /**
        * <code>._BeyondCostumeSetInfo IHIENJOGKML = 12;</code>
        */
-      public Builder setIHIENJOGKML(emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo value) {
+      public Builder setIHIENJOGKML(emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo value) {
         if (iHIENJOGKMLBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -724,7 +724,7 @@ public final class EAKIKIHEBNGOuterClass {
        * <code>._BeyondCostumeSetInfo IHIENJOGKML = 12;</code>
        */
       public Builder setIHIENJOGKML(
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder builderForValue) {
         if (iHIENJOGKMLBuilder_ == null) {
           iHIENJOGKML_ = builderForValue.build();
           onChanged();
@@ -737,11 +737,11 @@ public final class EAKIKIHEBNGOuterClass {
       /**
        * <code>._BeyondCostumeSetInfo IHIENJOGKML = 12;</code>
        */
-      public Builder mergeIHIENJOGKML(emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo value) {
+      public Builder mergeIHIENJOGKML(emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo value) {
         if (iHIENJOGKMLBuilder_ == null) {
           if (iHIENJOGKML_ != null) {
             iHIENJOGKML_ =
-              emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.newBuilder(iHIENJOGKML_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.newBuilder(iHIENJOGKML_).mergeFrom(value).buildPartial();
           } else {
             iHIENJOGKML_ = value;
           }
@@ -769,7 +769,7 @@ public final class EAKIKIHEBNGOuterClass {
       /**
        * <code>._BeyondCostumeSetInfo IHIENJOGKML = 12;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder getIHIENJOGKMLBuilder() {
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder getIHIENJOGKMLBuilder() {
         
         onChanged();
         return getIHIENJOGKMLFieldBuilder().getBuilder();
@@ -777,23 +777,23 @@ public final class EAKIKIHEBNGOuterClass {
       /**
        * <code>._BeyondCostumeSetInfo IHIENJOGKML = 12;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getIHIENJOGKMLOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getIHIENJOGKMLOrBuilder() {
         if (iHIENJOGKMLBuilder_ != null) {
           return iHIENJOGKMLBuilder_.getMessageOrBuilder();
         } else {
           return iHIENJOGKML_ == null ?
-              emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.getDefaultInstance() : iHIENJOGKML_;
+              emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.getDefaultInstance() : iHIENJOGKML_;
         }
       }
       /**
        * <code>._BeyondCostumeSetInfo IHIENJOGKML = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> 
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> 
           getIHIENJOGKMLFieldBuilder() {
         if (iHIENJOGKMLBuilder_ == null) {
           iHIENJOGKMLBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder>(
+              emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder>(
                   getIHIENJOGKML(),
                   getParentForChildren(),
                   isClean());
@@ -872,13 +872,13 @@ public final class EAKIKIHEBNGOuterClass {
       "fo.proto\"y\n\013EAKIKIHEBNG\022\023\n\013avatar_guid\030\010" +
       " \001(\004\022\023\n\013LDGKOPOGGII\030\n \001(\r\022\023\n\013EDOBJBNNMCH" +
       "\030\013 \001(\r\022+\n\013IHIENJOGKML\030\014 \001(\0132\026._BeyondCos" +
-      "tumeSetInfoB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "tumeSetInfoB2\n\031emu.grasscutter.net.proto" +
+      "B\025EAKIKIHEBNGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass.getDescriptor(),
         });
     internal_static_EAKIKIHEBNG_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -886,7 +886,7 @@ public final class EAKIKIHEBNGOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EAKIKIHEBNG_descriptor,
         new java.lang.String[] { "AvatarGuid", "LDGKOPOGGII", "EDOBJBNNMCH", "IHIENJOGKML", });
-    emu.grasscutter.net.proto.BeyondCostumeSetInfo.getDescriptor();
+    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

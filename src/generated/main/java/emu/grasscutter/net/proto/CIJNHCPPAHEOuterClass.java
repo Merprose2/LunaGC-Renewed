@@ -729,7 +729,8 @@ public final class CIJNHCPPAHEOuterClass {
       "\n\021CIJNHCPPAHE.proto\"d\n\013CIJNHCPPAHE\022\023\n\013PD" +
       "GLDCJHDFH\030\006 \001(\r\022\023\n\013MLGCDCDAGHJ\030\007 \001(\r\022\023\n\013" +
       "KLEPOACDCIE\030\t \001(\r\022\026\n\016_cur_round_num\030\013 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB2\n\031emu.grasscutter.net.protoB\025CIJNHCPP" +
+      "AHEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

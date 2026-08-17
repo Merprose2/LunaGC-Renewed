@@ -595,8 +595,9 @@ public final class KEKBOGPCOLAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KEKBOGPCOLA.proto\"0\n\013KEKBOGPCOLA\022\020\n\010le" +
-      "vel_id\030\001 \001(\r\022\017\n\007retcode\030\005 \001(\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "vel_id\030\001 \001(\r\022\017\n\007retcode\030\005 \001(\005B2\n\031emu.gra" +
+      "sscutter.net.protoB\025KEKBOGPCOLAOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

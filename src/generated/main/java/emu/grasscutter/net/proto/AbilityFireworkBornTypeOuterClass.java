@@ -1129,8 +1129,8 @@ public final class AbilityFireworkBornTypeOuterClass {
       "proto\"v\n\027AbilityFireworkBornType\022\024\n\003pos\030" +
       "\006 \001(\0132\007.Vector\022\024\n\003rot\030\010 \001(\0132\007.Vector\022\031\n\010" +
       "move_dir\030\n \001(\0132\007.Vector\022\024\n\014effect_index\030" +
-      "\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\017 \001(\rB>\n\031emu.grasscutter.net.protoB!Abil" +
+      "ityFireworkBornTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

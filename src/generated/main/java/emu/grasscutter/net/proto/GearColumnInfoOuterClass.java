@@ -801,8 +801,9 @@ public final class GearColumnInfoOuterClass {
       "\n\024GearColumnInfo.proto\"y\n\016GearColumnInfo" +
       "\022\023\n\013LOJNMPPKBKP\030\003 \001(\r\022\023\n\013FIOBFGBHJMC\030\005 \001" +
       "(\010\022\023\n\013EBDEJDHJAIF\030\006 \001(\r\022\023\n\013KDGCEGIKHJD\030\010" +
-      " \001(\r\022\023\n\013CPBCCILGFDA\030\n \001(\010B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      " \001(\r\022\023\n\013CPBCCILGFDA\030\n \001(\010B5\n\031emu.grasscu" +
+      "tter.net.protoB\030GearColumnInfoOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

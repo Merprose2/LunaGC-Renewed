@@ -785,8 +785,9 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
       "p\030\002 \003(\01329.EvtAiSyncCombatThreatInfoNotif" +
       "y.CombatThreatInfoMapEntry\032I\n\030CombatThre" +
       "atInfoMapEntry\022\013\n\003key\030\001 \001(\r\022\034\n\005value\030\002 \001" +
-      "(\0132\r.AiThreatInfo:\0028\001B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "(\0132\r.AiThreatInfo:\0028\001BF\n\031emu.grasscutter" +
+      ".net.protoB)EvtAiSyncCombatThreatInfoNot" +
+      "ifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

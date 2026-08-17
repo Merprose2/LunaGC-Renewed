@@ -454,8 +454,9 @@ public final class OKPDPEOAICCOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021OKPDPEOAICC.proto\"\r\n\013OKPDPEOAICCB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021OKPDPEOAICC.proto\"\r\n\013OKPDPEOAICCB2\n\031em" +
+      "u.grasscutter.net.protoB\025OKPDPEOAICCOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -889,8 +889,8 @@ public final class NPNNKHMMHGBOuterClass {
       "AEPGI_CUSTOM_SKILL_DEL\020\000\022 \n\034LBNAIGAEPGI_" +
       "CUSTOM_SKILL_ADD\020\001\022#\n\037LBNAIGAEPGI_CUSTOM" +
       "_SKILL_MODIFY\020\002\022(\n$LBNAIGAEPGI_CUSTOM_SK" +
-      "ILL_SLOT_CHANGE\020\003B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "ILL_SLOT_CHANGE\020\003B2\n\031emu.grasscutter.net" +
+      ".protoB\025NPNNKHMMHGBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

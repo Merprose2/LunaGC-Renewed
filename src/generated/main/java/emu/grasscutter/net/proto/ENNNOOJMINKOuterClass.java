@@ -903,8 +903,9 @@ public final class ENNNOOJMINKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ENNNOOJMINK.proto\032\021DIHCDLKMPLJ.proto\"E" +
       "\n\013ENNNOOJMINK\022\023\n\013AIEPLMMOLLN\030\010 \001(\002\022!\n\013EC" +
-      "PKLJKGCMM\030\t \003(\0132\014.DIHCDLKMPLJB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "PKLJKGCMM\030\t \003(\0132\014.DIHCDLKMPLJB2\n\031emu.gra" +
+      "sscutter.net.protoB\025ENNNOOJMINKOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

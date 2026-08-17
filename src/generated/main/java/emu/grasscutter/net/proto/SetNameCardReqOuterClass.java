@@ -525,8 +525,9 @@ public final class SetNameCardReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\024SetNameCardReq.proto\"&\n\016SetNameCardReq" +
-      "\022\024\n\014name_card_id\030\001 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\022\024\n\014name_card_id\030\001 \001(\rB5\n\031emu.grasscutte" +
+      "r.net.protoB\030SetNameCardReqOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

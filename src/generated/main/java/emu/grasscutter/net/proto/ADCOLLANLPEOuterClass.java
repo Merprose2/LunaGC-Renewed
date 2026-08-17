@@ -525,8 +525,8 @@ public final class ADCOLLANLPEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ADCOLLANLPE.proto\"\'\n\013ADCOLLANLPE\022\030\n\020pe" +
-      "rsonal_line_id\030\006 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "rsonal_line_id\030\006 \001(\rB2\n\031emu.grasscutter." +
+      "net.protoB\025ADCOLLANLPEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

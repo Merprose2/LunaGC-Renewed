@@ -818,8 +818,9 @@ public final class SetFriendRemarkNameRspOuterClass {
       "\n\034SetFriendRemarkNameRsp.proto\"d\n\026SetFri" +
       "endRemarkNameRsp\022\023\n\013remark_name\030\005 \001(\t\022\017\n" +
       "\007retcode\030\t \001(\005\022\027\n\017is_clear_remark\030\n \001(\010\022" +
-      "\013\n\003uid\030\016 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\013\n\003uid\030\016 \001(\rB=\n\031emu.grasscutter.net.prot" +
+      "oB SetFriendRemarkNameRspOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

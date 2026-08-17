@@ -714,8 +714,9 @@ public final class JJAPCIENNKIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JJAPCIENNKI.proto\"5\n\013JJAPCIENNKI\022\021\n\top" +
-      "tion_id\030\001 \001(\r\022\023\n\013FDIGPGKNBOF\030\002 \003(\005B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "tion_id\030\001 \001(\r\022\023\n\013FDIGPGKNBOF\030\002 \003(\005B2\n\031em" +
+      "u.grasscutter.net.protoB\025JJAPCIENNKIOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -831,8 +831,9 @@ public final class CoopChapterUpdateNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035CoopChapterUpdateNotify.proto\032\021CoopCha" +
       "pter.proto\"=\n\027CoopChapterUpdateNotify\022\"\n" +
-      "\014chapter_list\030\n \003(\0132\014.CoopChapterB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\014chapter_list\030\n \003(\0132\014.CoopChapterB>\n\031emu" +
+      ".grasscutter.net.protoB!CoopChapterUpdat" +
+      "eNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

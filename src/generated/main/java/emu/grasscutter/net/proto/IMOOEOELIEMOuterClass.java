@@ -666,8 +666,8 @@ public final class IMOOEOELIEMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IMOOEOELIEM.proto\"B\n\013IMOOEOELIEM\022\021\n\tco" +
       "nfig_id\030\t \001(\r\022\017\n\007city_id\030\r \001(\r\022\017\n\007retcod" +
-      "e\030\016 \001(\005B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "e\030\016 \001(\005B2\n\031emu.grasscutter.net.protoB\025IM" +
+      "OOEOELIEMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

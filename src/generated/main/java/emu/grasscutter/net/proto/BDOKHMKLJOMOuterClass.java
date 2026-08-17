@@ -944,8 +944,9 @@ public final class BDOKHMKLJOMOuterClass {
       "DFKJPJCABL\030\002 \001(\r\022\023\n\013CLFELFJMGNH\030\003 \001(\010\022\023\n" +
       "\013OFMJANDHFLF\030\004 \001(\r\022\023\n\013PABEMLIGMFK\030\006 \001(\010\022" +
       "\023\n\013CNHHEOALKCN\030\010 \001(\r\022\023\n\013NEJHJLOKBLN\030\n \001(" +
-      "\010\022\023\n\013GBDEDAJBABE\030\013 \001(\010B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\010\022\023\n\013GBDEDAJBABE\030\013 \001(\010B2\n\031emu.grasscutte" +
+      "r.net.protoB\025BDOKHMKLJOMOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

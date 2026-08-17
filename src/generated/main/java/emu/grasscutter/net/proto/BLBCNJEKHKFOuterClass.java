@@ -1382,8 +1382,8 @@ public final class BLBCNJEKHKFOuterClass {
       "LAP\030\002 \001(\r\022\023\n\013LAJGHCIGKIN\030\003 \001(\010\022\023\n\013DKLDNI" +
       "AFAJF\030\004 \001(\r\022\023\n\013AAFAPFLAGAB\030\005 \001(\r\022\023\n\013GMGO" +
       "JKHLKFJ\030\006 \001(\010\022!\n\013MGKPPGONILC\030\007 \003(\0132\014.DEE" +
-      "LAHFABNHB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "LAHFABNHB2\n\031emu.grasscutter.net.protoB\025B" +
+      "LBCNJEKHKFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

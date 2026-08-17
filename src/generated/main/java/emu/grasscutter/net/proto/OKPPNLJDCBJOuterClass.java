@@ -909,8 +909,8 @@ public final class OKPPNLJDCBJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OKPPNLJDCBJ.proto\"L\n\013OKPPNLJDCBJ\022\023\n\013DK" +
       "AKFNMPJHG\030\001 \001(\010\022\023\n\013BKCOPEDBIFF\030\002 \003(\004\022\023\n\013" +
-      "CFBHODFIMOE\030\003 \003(\004B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "CFBHODFIMOE\030\003 \003(\004B2\n\031emu.grasscutter.net" +
+      ".protoB\025OKPPNLJDCBJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

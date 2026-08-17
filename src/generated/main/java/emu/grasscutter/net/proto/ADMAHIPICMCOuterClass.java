@@ -454,8 +454,9 @@ public final class ADMAHIPICMCOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021ADMAHIPICMC.proto\"\r\n\013ADMAHIPICMCB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021ADMAHIPICMC.proto\"\r\n\013ADMAHIPICMCB2\n\031em" +
+      "u.grasscutter.net.protoB\025ADMAHIPICMCOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

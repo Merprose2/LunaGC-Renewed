@@ -1096,8 +1096,9 @@ public final class TakeCompoundOutputRspOuterClass {
       "\n\033TakeCompoundOutputRsp.proto\032\017ItemParam" +
       ".proto\"\\\n\025TakeCompoundOutputRsp\022\023\n\013ANAMN" +
       "OCEICO\030\007 \003(\005\022\035\n\titem_list\030\010 \003(\0132\n.ItemPa" +
-      "ram\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "ram\022\017\n\007retcode\030\017 \001(\005B<\n\031emu.grasscutter." +
+      "net.protoB\037TakeCompoundOutputRspOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

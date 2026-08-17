@@ -595,8 +595,9 @@ public final class LFJNMKCBBHIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LFJNMKCBBHI.proto\"6\n\013LFJNMKCBBHI\022\023\n\013ac" +
-      "tivity_id\030\004 \001(\r\022\022\n\nwatcher_id\030\010 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "tivity_id\030\004 \001(\r\022\022\n\nwatcher_id\030\010 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025LFJNMKCBBHIOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

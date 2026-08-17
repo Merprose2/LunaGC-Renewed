@@ -965,8 +965,8 @@ public final class HNEDMDJHLGJOuterClass {
       "\n\021HNEDMDJHLGJ.proto\032\021FNBIPFCKDOO.proto\"[" +
       "\n\013HNEDMDJHLGJ\022\023\n\013INBDBIIFDBK\030\001 \001(\r\022!\n\013IJ" +
       "PNOBPJAGJ\030\002 \003(\0132\014.FNBIPFCKDOO\022\024\n\013OGFJBHM" +
-      "EJFE\030\365\003 \001(\010B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "EJFE\030\365\003 \001(\010B2\n\031emu.grasscutter.net.proto" +
+      "B\025HNEDMDJHLGJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

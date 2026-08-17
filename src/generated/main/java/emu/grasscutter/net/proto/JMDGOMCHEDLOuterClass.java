@@ -161,8 +161,9 @@ public final class JMDGOMCHEDLOuterClass {
       "\n\021JMDGOMCHEDL.proto*\207\001\n\013JMDGOMCHEDL\022\024\n\020J" +
       "MDGOMCHEDL_NONE\020\000\022\026\n\022JMDGOMCHEDL_VECTOR\020" +
       "\001\022\030\n\024JMDGOMCHEDL_PARABOLA\020\002\022\026\n\022JMDGOMCHE" +
-      "DL_FOLLOW\020\003\022\030\n\024JMDGOMCHEDL_SURROUND\020\004B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "DL_FOLLOW\020\003\022\030\n\024JMDGOMCHEDL_SURROUND\020\004B2\n" +
+      "\031emu.grasscutter.net.protoB\025JMDGOMCHEDLO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

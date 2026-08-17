@@ -667,8 +667,9 @@ public final class DungeonCandidateTeamInviteNotifyOuterClass {
       "\n&DungeonCandidateTeamInviteNotify.proto" +
       "\"k\n DungeonCandidateTeamInviteNotify\022\037\n\027" +
       "vaild_deadline_time_sec\030\002 \001(\r\022\022\n\nplayer_" +
-      "uid\030\006 \001(\r\022\022\n\ndungeon_id\030\007 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "uid\030\006 \001(\r\022\022\n\ndungeon_id\030\007 \001(\rBG\n\031emu.gra" +
+      "sscutter.net.protoB*DungeonCandidateTeam" +
+      "InviteNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -526,8 +526,8 @@ public final class CDEHANDEIFNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CDEHANDEIFN.proto\"\"\n\013CDEHANDEIFN\022\023\n\013GC" +
-      "EDFPEGDEF\030\017 \001(\004B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "EDFPEGDEF\030\017 \001(\004B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025CDEHANDEIFNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

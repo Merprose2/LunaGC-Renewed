@@ -525,8 +525,9 @@ public final class ToTheMoonEnterSceneRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034ToTheMoonEnterSceneRsp.proto\")\n\026ToTheM" +
-      "oonEnterSceneRsp\022\017\n\007retcode\030\003 \001(\005B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "oonEnterSceneRsp\022\017\n\007retcode\030\003 \001(\005B=\n\031emu" +
+      ".grasscutter.net.protoB ToTheMoonEnterSc" +
+      "eneRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

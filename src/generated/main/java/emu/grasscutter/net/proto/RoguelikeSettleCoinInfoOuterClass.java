@@ -659,7 +659,8 @@ public final class RoguelikeSettleCoinInfoOuterClass {
       "\n\035RoguelikeSettleCoinInfo.proto\"X\n\027Rogue" +
       "likeSettleCoinInfo\022\023\n\013PBNGPNDHIJK\030\004 \001(\r\022" +
       "\023\n\013OKGEBIHDJOM\030\014 \001(\r\022\023\n\013JNPOAHBKEHL\030\r \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB>\n\031emu.grasscutter.net.protoB!Roguelik" +
+      "eSettleCoinInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

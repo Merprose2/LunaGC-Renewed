@@ -588,8 +588,9 @@ public final class IDMNCCNAONLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IDMNCCNAONL.proto\"4\n\013IDMNCCNAONL\022\020\n\010sk" +
-      "ill_id\030\003 \001(\r\022\023\n\013GBGMMNHGPEL\030\010 \001(\004B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "ill_id\030\003 \001(\r\022\023\n\013GBGMMNHGPEL\030\010 \001(\004B2\n\031emu" +
+      ".grasscutter.net.protoB\025IDMNCCNAONLOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

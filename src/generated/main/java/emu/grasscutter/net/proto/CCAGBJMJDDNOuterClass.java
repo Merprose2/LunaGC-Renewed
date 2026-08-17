@@ -738,8 +738,9 @@ public final class CCAGBJMJDDNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CCAGBJMJDDN.proto\"V\n\013CCAGBJMJDDN\022\014\n\004gu" +
       "id\030\004 \001(\004\022\017\n\007retcode\030\006 \001(\005\022\023\n\013BFIFPLMKLNA" +
-      "\030\007 \001(\r\022\023\n\013PJENDJGDGBE\030\r \001(\010B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\030\007 \001(\r\022\023\n\013PJENDJGDGBE\030\r \001(\010B2\n\031emu.grass" +
+      "cutter.net.protoB\025CCAGBJMJDDNOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -626,8 +626,8 @@ public final class ICFNHONPIPOOuterClass {
       "\n\021ICFNHONPIPO.proto\032%DungeonCandidateTea" +
       "mInviteState.proto\"K\n\013ICFNHONPIPO\022/\n\005sta" +
       "te\030\005 \001(\0162 .DungeonCandidateTeamInviteSta" +
-      "te\022\013\n\003uid\030\010 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "te\022\013\n\003uid\030\010 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025ICFNHONPIPOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -854,8 +854,9 @@ public final class KAKDJNIPPPOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KAKDJNIPPPO.proto\032\021GLLPFPEKPAJ.proto\"K" +
       "\n\013KAKDJNIPPPO\022\034\n\005title\030\365\003 \001(\0132\014.GLLPFPEK" +
-      "PAJ\022\036\n\007content\030\366\003 \001(\0132\014.GLLPFPEKPAJB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "PAJ\022\036\n\007content\030\366\003 \001(\0132\014.GLLPFPEKPAJB2\n\031e" +
+      "mu.grasscutter.net.protoB\025KAKDJNIPPPOOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

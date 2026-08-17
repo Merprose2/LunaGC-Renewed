@@ -667,8 +667,8 @@ public final class NEDDMBPCHFGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NEDDMBPCHFG.proto\"I\n\013NEDDMBPCHFG\022\020\n\010is" +
       "_agree\030\004 \001(\010\022\023\n\013EPHGOMPBKJA\030\006 \001(\r\022\023\n\013CNF" +
-      "EBIOPANP\030\n \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "EBIOPANP\030\n \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025NEDDMBPCHFGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

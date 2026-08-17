@@ -587,8 +587,9 @@ public final class DFBICADBPJLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DFBICADBPJL.proto\"5\n\013DFBICADBPJL\022\021\n\tti" +
-      "mestamp\030\003 \001(\005\022\023\n\013KHDNPDCNDOI\030\013 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "mestamp\030\003 \001(\005\022\023\n\013KHDNPDCNDOI\030\013 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025DFBICADBPJLOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

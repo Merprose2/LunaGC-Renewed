@@ -669,8 +669,8 @@ public final class HMLBEIJBIKMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HMLBEIJBIKM.proto\"I\n\013HMLBEIJBIKM\022\023\n\013FP" +
       "DAIOKOOHJ\030\006 \001(\010\022\020\n\010is_agree\030\n \001(\010\022\023\n\013MIH" +
-      "ICCAEFOM\030\013 \001(\004B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "ICCAEFOM\030\013 \001(\004B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025HMLBEIJBIKMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

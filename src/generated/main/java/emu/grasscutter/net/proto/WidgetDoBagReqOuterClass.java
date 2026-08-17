@@ -1058,8 +1058,9 @@ public final class WidgetDoBagReqOuterClass {
       "\231\001\n\016WidgetDoBagReq\022\023\n\013material_id\030\t \001(\r\022" +
       "2\n\023widget_creator_info\030\354\001 \001(\0132\022.WidgetCr" +
       "eatorInfoH\000\0223\n\rlocation_info\030\237\n \001(\0132\031.Wi" +
-      "dgetCreateLocationInfoH\000B\t\n\007op_infoB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "dgetCreateLocationInfoH\000B\t\n\007op_infoB5\n\031e" +
+      "mu.grasscutter.net.protoB\030WidgetDoBagReq" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

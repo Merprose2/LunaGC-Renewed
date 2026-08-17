@@ -666,8 +666,8 @@ public final class LENJAGANMKMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LENJAGANMKM.proto\"H\n\013LENJAGANMKM\022\017\n\007re" +
       "tcode\030\002 \001(\005\022\023\n\013BMBFNLBOLAG\030\006 \001(\r\022\023\n\013KMDO" +
-      "FBPMGAI\030\007 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "FBPMGAI\030\007 \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025LENJAGANMKMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

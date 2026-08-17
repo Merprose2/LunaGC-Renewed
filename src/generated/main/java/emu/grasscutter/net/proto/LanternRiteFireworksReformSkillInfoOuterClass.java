@@ -731,7 +731,9 @@ public final class LanternRiteFireworksReformSkillInfoOuterClass {
       "oto\"t\n#LanternRiteFireworksReformSkillIn" +
       "fo\022\021\n\tis_unlock\030\001 \001(\010\022\023\n\013KCLJIGEDMHF\030\003 \001" +
       "(\r\022\020\n\010skill_id\030\r \001(\r\022\023\n\013NDKDMNJMJOG\030\016 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rBJ\n\031emu.grasscutter.net.protoB-LanternR" +
+      "iteFireworksReformSkillInfoOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

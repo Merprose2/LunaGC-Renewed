@@ -808,8 +808,8 @@ public final class ELLKDGFHIMMOuterClass {
       "\n\021ELLKDGFHIMM.proto\"q\n\013ELLKDGFHIMM\022\020\n\010le" +
       "vel_id\030\004 \001(\r\022\021\n\tis_finish\030\006 \001(\010\022\023\n\013KLPFM" +
       "FPNIDG\030\007 \001(\r\022\023\n\013PPMLAAFDIMJ\030\013 \001(\r\022\023\n\013GIO" +
-      "DFBIMEGL\030\014 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "DFBIMEGL\030\014 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025ELLKDGFHIMMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

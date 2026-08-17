@@ -2121,8 +2121,9 @@ public final class KHOFPEEKCIFOuterClass {
       "FBCMNFO\022!\n\013MGDHLFJNEDA\030\003 \003(\0132\014.CHAJLFGKO" +
       "ND\022!\n\013BLONIIAFAFH\030\004 \003(\0132\014.PHLMFABCBDJ\022!\n" +
       "\013NGOEGOKJFCF\030\005 \003(\0132\014.CHAJLFGKOND\022!\n\013PDCF" +
-      "ECDOJEB\030\006 \003(\0132\014.PILNFJGIHNJB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "ECDOJEB\030\006 \003(\0132\014.PILNFJGIHNJB2\n\031emu.grass" +
+      "cutter.net.protoB\025KHOFPEEKCIFOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

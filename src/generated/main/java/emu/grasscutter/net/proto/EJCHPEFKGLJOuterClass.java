@@ -1159,8 +1159,9 @@ public final class EJCHPEFKGLJOuterClass {
       "\n\021EJCHPEFKGLJ.proto\032\021CPKAFPOGJKN.proto\"o" +
       "\n\013EJCHPEFKGLJ\022\023\n\013NOBECNCCHLA\030\007 \003(\r\022!\n\013PA" +
       "EHFGOIMPA\030\010 \003(\0132\014.CPKAFPOGJKN\022\023\n\013AIFBNCG" +
-      "PEDK\030\014 \001(\010\022\023\n\013DEIJOHMBMAO\030\r \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "PEDK\030\014 \001(\010\022\023\n\013DEIJOHMBMAO\030\r \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025EJCHPEFKGLJOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

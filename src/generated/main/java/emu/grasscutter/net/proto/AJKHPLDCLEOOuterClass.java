@@ -1106,8 +1106,9 @@ public final class AJKHPLDCLEOOuterClass {
       "\n\021AJKHPLDCLEO.proto\032\021EIHOFHPLHMH.proto\"u" +
       "\n\013AJKHPLDCLEO\022\017\n\007is_open\030\002 \001(\010\022!\n\013BMJDAL" +
       "KAMOO\030\004 \003(\0132\014.EIHOFHPLHMH\022\r\n\005score\030\010 \001(\r" +
-      "\022\020\n\010level_id\030\r \001(\r\022\021\n\tis_finish\030\017 \001(\010B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\022\020\n\010level_id\030\r \001(\r\022\021\n\tis_finish\030\017 \001(\010B2\n" +
+      "\031emu.grasscutter.net.protoB\025AJKHPLDCLEOO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

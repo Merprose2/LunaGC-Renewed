@@ -1001,8 +1001,9 @@ public final class GCGMsgAddCardsOuterClass {
       "\021GCGZoneType.proto\"\204\001\n\016GCGMsgAddCards\022\026\n" +
       "\016card_guid_list\030\005 \003(\r\022\032\n\006reason\030\010 \001(\0162\n." +
       "GCGReason\022\013\n\003pos\030\n \001(\r\022\032\n\004zone\030\013 \001(\0162\014.G" +
-      "CGZoneType\022\025\n\rcontroller_id\030\014 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "CGZoneType\022\025\n\rcontroller_id\030\014 \001(\rB5\n\031emu" +
+      ".grasscutter.net.protoB\030GCGMsgAddCardsOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -5065,8 +5065,8 @@ public final class PJPNGMDPFPHOuterClass {
       "MDPFPH_BEYOND_NODE_TEMPLATE_QUERY_PLAYER" +
       "_IS_SUBSCRIBED_CREATOR\020\307\213\004\022E\n?PJPNGMDPFP" +
       "H_BEYOND_NODE_TEMPLATE_QUERY_PLAYER_IS_C" +
-      "URSOR_PERSIST\020\310\213\004B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "URSOR_PERSIST\020\310\213\004B2\n\031emu.grasscutter.net" +
+      ".protoB\025PJPNGMDPFPHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -823,8 +823,8 @@ public final class FMEDIEINHIGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FMEDIEINHIG.proto\032\021GHPILPOINLO.proto\"0" +
       "\n\013FMEDIEINHIG\022!\n\013KABBKOCHECH\030\001 \003(\0132\014.GHP" +
-      "ILPOINLOB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "ILPOINLOB2\n\031emu.grasscutter.net.protoB\025F" +
+      "MEDIEINHIGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

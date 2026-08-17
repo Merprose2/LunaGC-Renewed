@@ -932,8 +932,9 @@ public final class MLKELPBBEIBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MLKELPBBEIB.proto\032\014Vector.proto\"L\n\013MLK" +
       "ELPBBEIB\022\027\n\006center\030\t \001(\0132\007.Vector\022\013\n\003uid" +
-      "\030\r \001(\005\022\027\n\006extent\030\016 \001(\0132\007.VectorB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\030\r \001(\005\022\027\n\006extent\030\016 \001(\0132\007.VectorB2\n\031emu.g" +
+      "rasscutter.net.protoB\025MLKELPBBEIBOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

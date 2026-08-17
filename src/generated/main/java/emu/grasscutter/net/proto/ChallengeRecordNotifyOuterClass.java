@@ -902,8 +902,9 @@ public final class ChallengeRecordNotifyOuterClass {
       "\n\033ChallengeRecordNotify.proto\032\025Challenge" +
       "Record.proto\"Z\n\025ChallengeRecordNotify\022\020\n" +
       "\010group_id\030\010 \001(\r\022/\n\025challenge_record_list" +
-      "\030\016 \003(\0132\020.ChallengeRecordB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\030\016 \003(\0132\020.ChallengeRecordB<\n\031emu.grasscut" +
+      "ter.net.protoB\037ChallengeRecordNotifyOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

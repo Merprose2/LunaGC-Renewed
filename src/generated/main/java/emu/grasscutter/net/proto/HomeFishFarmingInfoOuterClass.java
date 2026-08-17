@@ -715,8 +715,9 @@ public final class HomeFishFarmingInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031HomeFishFarmingInfo.proto\"B\n\023HomeFishF" +
       "armingInfo\022\025\n\rfishpond_guid\030\t \001(\r\022\024\n\014fis" +
-      "h_id_list\030\013 \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "h_id_list\030\013 \003(\rB:\n\031emu.grasscutter.net.p" +
+      "rotoB\035HomeFishFarmingInfoOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

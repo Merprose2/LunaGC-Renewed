@@ -59,11 +59,11 @@ public final class MPIELIGALFJOuterClass {
      * <code>._InfoStructId info_struct_id = 100;</code>
      * @return The infoStructId.
      */
-    emu.grasscutter.net.proto.InfoStructId._InfoStructId getInfoStructId();
+    emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId getInfoStructId();
     /**
      * <code>._InfoStructId info_struct_id = 100;</code>
      */
-    emu.grasscutter.net.proto.InfoStructId._InfoStructIdOrBuilder getInfoStructIdOrBuilder();
+    emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructIdOrBuilder getInfoStructIdOrBuilder();
 
     /**
      * <code>._InfoServerParamDictionary info_server_param_dictionary = 101;</code>
@@ -74,11 +74,11 @@ public final class MPIELIGALFJOuterClass {
      * <code>._InfoServerParamDictionary info_server_param_dictionary = 101;</code>
      * @return The infoServerParamDictionary.
      */
-    emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary getInfoServerParamDictionary();
+    emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary getInfoServerParamDictionary();
     /**
      * <code>._InfoServerParamDictionary info_server_param_dictionary = 101;</code>
      */
-    emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionaryOrBuilder getInfoServerParamDictionaryOrBuilder();
+    emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionaryOrBuilder getInfoServerParamDictionaryOrBuilder();
 
     public emu.grasscutter.net.proto.MPIELIGALFJOuterClass.MPIELIGALFJ.DetailCase getDetailCase();
   }
@@ -153,28 +153,28 @@ public final class MPIELIGALFJOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.InfoStructId._InfoStructId.Builder subBuilder = null;
+              emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId.Builder subBuilder = null;
               if (detailCase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.InfoStructId._InfoStructId) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.InfoStructId._InfoStructId.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.InfoStructId._InfoStructId) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 100;
               break;
             }
             case 810: {
-              emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary.Builder subBuilder = null;
+              emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary.Builder subBuilder = null;
               if (detailCase_ == 101) {
-                subBuilder = ((emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 101;
@@ -323,21 +323,21 @@ public final class MPIELIGALFJOuterClass {
      * @return The infoStructId.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.InfoStructId._InfoStructId getInfoStructId() {
+    public emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId getInfoStructId() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.InfoStructId._InfoStructId) detail_;
+         return (emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId) detail_;
       }
-      return emu.grasscutter.net.proto.InfoStructId._InfoStructId.getDefaultInstance();
+      return emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId.getDefaultInstance();
     }
     /**
      * <code>._InfoStructId info_struct_id = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.InfoStructId._InfoStructIdOrBuilder getInfoStructIdOrBuilder() {
+    public emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructIdOrBuilder getInfoStructIdOrBuilder() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.InfoStructId._InfoStructId) detail_;
+         return (emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId) detail_;
       }
-      return emu.grasscutter.net.proto.InfoStructId._InfoStructId.getDefaultInstance();
+      return emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId.getDefaultInstance();
     }
 
     public static final int INFO_SERVER_PARAM_DICTIONARY_FIELD_NUMBER = 101;
@@ -354,21 +354,21 @@ public final class MPIELIGALFJOuterClass {
      * @return The infoServerParamDictionary.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary getInfoServerParamDictionary() {
+    public emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary getInfoServerParamDictionary() {
       if (detailCase_ == 101) {
-         return (emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary) detail_;
+         return (emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary) detail_;
       }
-      return emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary.getDefaultInstance();
+      return emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary.getDefaultInstance();
     }
     /**
      * <code>._InfoServerParamDictionary info_server_param_dictionary = 101;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionaryOrBuilder getInfoServerParamDictionaryOrBuilder() {
+    public emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionaryOrBuilder getInfoServerParamDictionaryOrBuilder() {
       if (detailCase_ == 101) {
-         return (emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary) detail_;
+         return (emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary) detail_;
       }
-      return emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary.getDefaultInstance();
+      return emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -395,10 +395,10 @@ public final class MPIELIGALFJOuterClass {
         output.writeEnum(3, bBOJCACHOOM_);
       }
       if (detailCase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.InfoStructId._InfoStructId) detail_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId) detail_);
       }
       if (detailCase_ == 101) {
-        output.writeMessage(101, (emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary) detail_);
+        output.writeMessage(101, (emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -423,11 +423,11 @@ public final class MPIELIGALFJOuterClass {
       }
       if (detailCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.InfoStructId._InfoStructId) detail_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId) detail_);
       }
       if (detailCase_ == 101) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(101, (emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary) detail_);
+          .computeMessageSize(101, (emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1008,7 +1008,7 @@ public final class MPIELIGALFJOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.InfoStructId._InfoStructId, emu.grasscutter.net.proto.InfoStructId._InfoStructId.Builder, emu.grasscutter.net.proto.InfoStructId._InfoStructIdOrBuilder> infoStructIdBuilder_;
+          emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId, emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId.Builder, emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructIdOrBuilder> infoStructIdBuilder_;
       /**
        * <code>._InfoStructId info_struct_id = 100;</code>
        * @return Whether the infoStructId field is set.
@@ -1022,23 +1022,23 @@ public final class MPIELIGALFJOuterClass {
        * @return The infoStructId.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.InfoStructId._InfoStructId getInfoStructId() {
+      public emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId getInfoStructId() {
         if (infoStructIdBuilder_ == null) {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.InfoStructId._InfoStructId) detail_;
+            return (emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId) detail_;
           }
-          return emu.grasscutter.net.proto.InfoStructId._InfoStructId.getDefaultInstance();
+          return emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId.getDefaultInstance();
         } else {
           if (detailCase_ == 100) {
             return infoStructIdBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.InfoStructId._InfoStructId.getDefaultInstance();
+          return emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId.getDefaultInstance();
         }
       }
       /**
        * <code>._InfoStructId info_struct_id = 100;</code>
        */
-      public Builder setInfoStructId(emu.grasscutter.net.proto.InfoStructId._InfoStructId value) {
+      public Builder setInfoStructId(emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId value) {
         if (infoStructIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1055,7 +1055,7 @@ public final class MPIELIGALFJOuterClass {
        * <code>._InfoStructId info_struct_id = 100;</code>
        */
       public Builder setInfoStructId(
-          emu.grasscutter.net.proto.InfoStructId._InfoStructId.Builder builderForValue) {
+          emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId.Builder builderForValue) {
         if (infoStructIdBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1068,11 +1068,11 @@ public final class MPIELIGALFJOuterClass {
       /**
        * <code>._InfoStructId info_struct_id = 100;</code>
        */
-      public Builder mergeInfoStructId(emu.grasscutter.net.proto.InfoStructId._InfoStructId value) {
+      public Builder mergeInfoStructId(emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId value) {
         if (infoStructIdBuilder_ == null) {
           if (detailCase_ == 100 &&
-              detail_ != emu.grasscutter.net.proto.InfoStructId._InfoStructId.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.InfoStructId._InfoStructId.newBuilder((emu.grasscutter.net.proto.InfoStructId._InfoStructId) detail_)
+              detail_ != emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId.newBuilder((emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1109,36 +1109,36 @@ public final class MPIELIGALFJOuterClass {
       /**
        * <code>._InfoStructId info_struct_id = 100;</code>
        */
-      public emu.grasscutter.net.proto.InfoStructId._InfoStructId.Builder getInfoStructIdBuilder() {
+      public emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId.Builder getInfoStructIdBuilder() {
         return getInfoStructIdFieldBuilder().getBuilder();
       }
       /**
        * <code>._InfoStructId info_struct_id = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.InfoStructId._InfoStructIdOrBuilder getInfoStructIdOrBuilder() {
+      public emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructIdOrBuilder getInfoStructIdOrBuilder() {
         if ((detailCase_ == 100) && (infoStructIdBuilder_ != null)) {
           return infoStructIdBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.InfoStructId._InfoStructId) detail_;
+            return (emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId) detail_;
           }
-          return emu.grasscutter.net.proto.InfoStructId._InfoStructId.getDefaultInstance();
+          return emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId.getDefaultInstance();
         }
       }
       /**
        * <code>._InfoStructId info_struct_id = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.InfoStructId._InfoStructId, emu.grasscutter.net.proto.InfoStructId._InfoStructId.Builder, emu.grasscutter.net.proto.InfoStructId._InfoStructIdOrBuilder> 
+          emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId, emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId.Builder, emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructIdOrBuilder> 
           getInfoStructIdFieldBuilder() {
         if (infoStructIdBuilder_ == null) {
           if (!(detailCase_ == 100)) {
-            detail_ = emu.grasscutter.net.proto.InfoStructId._InfoStructId.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId.getDefaultInstance();
           }
           infoStructIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.InfoStructId._InfoStructId, emu.grasscutter.net.proto.InfoStructId._InfoStructId.Builder, emu.grasscutter.net.proto.InfoStructId._InfoStructIdOrBuilder>(
-                  (emu.grasscutter.net.proto.InfoStructId._InfoStructId) detail_,
+              emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId, emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId.Builder, emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructIdOrBuilder>(
+                  (emu.grasscutter.net.proto._InfoStructIdOuterClass._InfoStructId) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1149,7 +1149,7 @@ public final class MPIELIGALFJOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary, emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary.Builder, emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionaryOrBuilder> infoServerParamDictionaryBuilder_;
+          emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary, emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary.Builder, emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionaryOrBuilder> infoServerParamDictionaryBuilder_;
       /**
        * <code>._InfoServerParamDictionary info_server_param_dictionary = 101;</code>
        * @return Whether the infoServerParamDictionary field is set.
@@ -1163,23 +1163,23 @@ public final class MPIELIGALFJOuterClass {
        * @return The infoServerParamDictionary.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary getInfoServerParamDictionary() {
+      public emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary getInfoServerParamDictionary() {
         if (infoServerParamDictionaryBuilder_ == null) {
           if (detailCase_ == 101) {
-            return (emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary) detail_;
+            return (emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary) detail_;
           }
-          return emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary.getDefaultInstance();
+          return emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary.getDefaultInstance();
         } else {
           if (detailCase_ == 101) {
             return infoServerParamDictionaryBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary.getDefaultInstance();
+          return emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary.getDefaultInstance();
         }
       }
       /**
        * <code>._InfoServerParamDictionary info_server_param_dictionary = 101;</code>
        */
-      public Builder setInfoServerParamDictionary(emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary value) {
+      public Builder setInfoServerParamDictionary(emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary value) {
         if (infoServerParamDictionaryBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1196,7 +1196,7 @@ public final class MPIELIGALFJOuterClass {
        * <code>._InfoServerParamDictionary info_server_param_dictionary = 101;</code>
        */
       public Builder setInfoServerParamDictionary(
-          emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary.Builder builderForValue) {
+          emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary.Builder builderForValue) {
         if (infoServerParamDictionaryBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1209,11 +1209,11 @@ public final class MPIELIGALFJOuterClass {
       /**
        * <code>._InfoServerParamDictionary info_server_param_dictionary = 101;</code>
        */
-      public Builder mergeInfoServerParamDictionary(emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary value) {
+      public Builder mergeInfoServerParamDictionary(emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary value) {
         if (infoServerParamDictionaryBuilder_ == null) {
           if (detailCase_ == 101 &&
-              detail_ != emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary.newBuilder((emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary) detail_)
+              detail_ != emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary.newBuilder((emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1250,36 +1250,36 @@ public final class MPIELIGALFJOuterClass {
       /**
        * <code>._InfoServerParamDictionary info_server_param_dictionary = 101;</code>
        */
-      public emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary.Builder getInfoServerParamDictionaryBuilder() {
+      public emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary.Builder getInfoServerParamDictionaryBuilder() {
         return getInfoServerParamDictionaryFieldBuilder().getBuilder();
       }
       /**
        * <code>._InfoServerParamDictionary info_server_param_dictionary = 101;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionaryOrBuilder getInfoServerParamDictionaryOrBuilder() {
+      public emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionaryOrBuilder getInfoServerParamDictionaryOrBuilder() {
         if ((detailCase_ == 101) && (infoServerParamDictionaryBuilder_ != null)) {
           return infoServerParamDictionaryBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 101) {
-            return (emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary) detail_;
+            return (emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary) detail_;
           }
-          return emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary.getDefaultInstance();
+          return emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary.getDefaultInstance();
         }
       }
       /**
        * <code>._InfoServerParamDictionary info_server_param_dictionary = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary, emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary.Builder, emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionaryOrBuilder> 
+          emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary, emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary.Builder, emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionaryOrBuilder> 
           getInfoServerParamDictionaryFieldBuilder() {
         if (infoServerParamDictionaryBuilder_ == null) {
           if (!(detailCase_ == 101)) {
-            detail_ = emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary.getDefaultInstance();
           }
           infoServerParamDictionaryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary, emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary.Builder, emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionaryOrBuilder>(
-                  (emu.grasscutter.net.proto.InfoServerParamDictionary._InfoServerParamDictionary) detail_,
+              emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary, emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary.Builder, emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionaryOrBuilder>(
+                  (emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass._InfoServerParamDictionary) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1363,16 +1363,16 @@ public final class MPIELIGALFJOuterClass {
       "\003 \001(\0162\014.EHOAJBDABLH\022(\n\016info_struct_id\030d " +
       "\001(\0132\016._InfoStructIdH\000\022C\n\034info_server_par" +
       "am_dictionary\030e \001(\0132\033._InfoServerParamDi" +
-      "ctionaryH\000B\010\n\006detailB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "ctionaryH\000B\010\n\006detailB2\n\031emu.grasscutter." +
+      "net.protoB\025MPIELIGALFJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.EHOAJBDABLHOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.HJKKDOLHNGKOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.InfoServerParamDictionary.getDescriptor(),
-          emu.grasscutter.net.proto.InfoStructId.getDescriptor(),
+          emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._InfoStructIdOuterClass.getDescriptor(),
         });
     internal_static_MPIELIGALFJ_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1382,8 +1382,8 @@ public final class MPIELIGALFJOuterClass {
         new java.lang.String[] { "FIMJPJKFOLN", "BPMNDONLLBI", "BBOJCACHOOM", "InfoStructId", "InfoServerParamDictionary", "Detail", });
     emu.grasscutter.net.proto.EHOAJBDABLHOuterClass.getDescriptor();
     emu.grasscutter.net.proto.HJKKDOLHNGKOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.InfoServerParamDictionary.getDescriptor();
-    emu.grasscutter.net.proto.InfoStructId.getDescriptor();
+    emu.grasscutter.net.proto._InfoServerParamDictionaryOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._InfoStructIdOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

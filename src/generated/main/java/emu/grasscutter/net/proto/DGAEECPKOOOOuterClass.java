@@ -173,8 +173,8 @@ public final class DGAEECPKOOOOuterClass {
       "25_D\020\002\022!\n\035DGAEECPKOOO_FIRST_PERSON_VIEW\020" +
       "\003\022(\n$DGAEECPKOOO_THIRD_PERSON_CUSTOM_VIE" +
       "W\020\004\022/\n+DGAEECPKOOO_ENTITY_THIRD_PERSON_C" +
-      "USTOM_VIEW\020\nB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "USTOM_VIEW\020\nB2\n\031emu.grasscutter.net.prot" +
+      "oB\025DGAEECPKOOOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

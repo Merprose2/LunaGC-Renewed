@@ -525,8 +525,8 @@ public final class DKCFAKLLPEEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DKCFAKLLPEE.proto\"!\n\013DKCFAKLLPEE\022\022\n\nba" +
-      "rgain_id\030\r \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "rgain_id\030\r \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025DKCFAKLLPEEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

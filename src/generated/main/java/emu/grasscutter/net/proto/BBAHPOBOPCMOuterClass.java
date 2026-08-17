@@ -446,8 +446,9 @@ public final class BBAHPOBOPCMOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021BBAHPOBOPCM.proto\"\r\n\013BBAHPOBOPCMB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021BBAHPOBOPCM.proto\"\r\n\013BBAHPOBOPCMB2\n\031em" +
+      "u.grasscutter.net.protoB\025BBAHPOBOPCMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

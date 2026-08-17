@@ -965,8 +965,8 @@ public final class CoinCollectStageInfoOuterClass {
       "tPlayerInfo.proto\"n\n\024CoinCollectStageInf" +
       "o\022\022\n\nplay_index\030\001 \001(\r\0220\n\020player_info_lis" +
       "t\030\003 \003(\0132\026.CoinCollectPlayerInfo\022\020\n\010level" +
-      "_id\030\010 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\010 \001(\rB;\n\031emu.grasscutter.net.protoB\036" +
+      "CoinCollectStageInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

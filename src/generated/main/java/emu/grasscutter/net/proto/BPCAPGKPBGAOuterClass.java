@@ -743,8 +743,8 @@ public final class BPCAPGKPBGAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BPCAPGKPBGA.proto\"K\n\013BPCAPGKPBGA\022\023\n\013BL" +
       "PANLBLHBI\030\001 \001(\004\022\023\n\013NGEDGDGBAID\030\002 \001(\014\022\022\n\n" +
-      "request_id\030\003 \001(\tB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "request_id\030\003 \001(\tB2\n\031emu.grasscutter.net." +
+      "protoB\025BPCAPGKPBGAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

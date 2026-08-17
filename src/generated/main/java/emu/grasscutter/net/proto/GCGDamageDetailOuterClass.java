@@ -588,7 +588,8 @@ public final class GCGDamageDetailOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025GCGDamageDetail.proto\"6\n\017GCGDamageDeta" +
       "il\022\020\n\010skill_id\030\003 \001(\r\022\021\n\tcard_guid\030\n \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "6\n\031emu.grasscutter.net.protoB\031GCGDamageD" +
+      "etailOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

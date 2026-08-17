@@ -823,8 +823,8 @@ public final class OAKHEINLEIHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OAKHEINLEIH.proto\032\021KHEGFPEENEH.proto\"0" +
       "\n\013OAKHEINLEIH\022!\n\013KIOFOHFOHPM\030\001 \003(\0132\014.KHE" +
-      "GFPEENEHB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "GFPEENEHB2\n\031emu.grasscutter.net.protoB\025O" +
+      "AKHEINLEIHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

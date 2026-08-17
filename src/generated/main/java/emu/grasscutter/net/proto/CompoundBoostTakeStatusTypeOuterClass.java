@@ -157,8 +157,9 @@ public final class CompoundBoostTakeStatusTypeOuterClass {
       "Y\020\001\022I\nECompoundBoostTakeStatusType_COMPO" +
       "UND_BOOST_TAKE_STATUS_BOOST_AND_TAKE\020\002\022C" +
       "\n?CompoundBoostTakeStatusType_COMPOUND_B" +
-      "OOST_TAKE_STATUS_BAG_FULL\020\003B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "OOST_TAKE_STATUS_BAG_FULL\020\003BB\n\031emu.grass" +
+      "cutter.net.protoB%CompoundBoostTakeStatu" +
+      "sTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1012,7 +1012,8 @@ public final class AranaraCollectionSuiteOuterClass {
       "ctionSuite.CollectionIdStateMapEntry\032T\n\031" +
       "CollectionIdStateMapEntry\022\013\n\003key\030\001 \001(\r\022&" +
       "\n\005value\030\002 \001(\0162\027.AranaraCollectionState:\002" +
-      "8\001B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "8\001B=\n\031emu.grasscutter.net.protoB Aranara" +
+      "CollectionSuiteOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -142,8 +142,9 @@ public final class PCEFGOJBBHOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PCEFGOJBBHO.proto*Y\n\013PCEFGOJBBHO\022\033\n\027PC" +
       "EFGOJBBHO_UNSPECIFIED\020\000\022\025\n\021PCEFGOJBBHO_E" +
-      "ARLY\020\001\022\026\n\022PCEFGOJBBHO_NORMAL\020\002B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ARLY\020\001\022\026\n\022PCEFGOJBBHO_NORMAL\020\002B2\n\031emu.gr" +
+      "asscutter.net.protoB\025PCEFGOJBBHOOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

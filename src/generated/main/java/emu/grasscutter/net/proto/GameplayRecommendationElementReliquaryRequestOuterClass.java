@@ -589,8 +589,9 @@ public final class GameplayRecommendationElementReliquaryRequestOuterClass {
       "\n3GameplayRecommendationElementReliquary" +
       "Request.proto\"Y\n-GameplayRecommendationE" +
       "lementReliquaryRequest\022\024\n\014element_type\030\003" +
-      " \001(\r\022\022\n\nequip_type\030\014 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      " \001(\r\022\022\n\nequip_type\030\014 \001(\rBT\n\031emu.grasscut" +
+      "ter.net.protoB7GameplayRecommendationEle" +
+      "mentReliquaryRequestOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

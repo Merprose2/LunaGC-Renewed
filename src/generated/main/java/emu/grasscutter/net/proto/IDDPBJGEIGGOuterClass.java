@@ -1783,8 +1783,8 @@ public final class IDDPBJGEIGGOuterClass {
       "IGMGMHF\022!\n\013KKIKMCAPLGC\030\003 \001(\0132\014.KKBPIGMGM" +
       "HF\022\037\n\tnode_list\030\004 \003(\0132\014.BDIDMLNHBIC\022\032\n\004t" +
       "ype\030\005 \001(\0162\014.EMHGODDBLOM\022!\n\013BMOFCMKDNME\030\006" +
-      " \003(\0132\014.LNMMEOONNJJB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      " \003(\0132\014.LNMMEOONNJJB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025IDDPBJGEIGGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

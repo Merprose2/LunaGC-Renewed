@@ -807,8 +807,8 @@ public final class BNDJHMPKLDBOuterClass {
       "\n\021BNDJHMPKLDB.proto\"o\n\013BNDJHMPKLDB\022\017\n\007re" +
       "tcode\030\001 \001(\005\022\020\n\010group_id\030\003 \001(\r\022\023\n\013CCJLCHP" +
       "GCJI\030\010 \001(\r\022\023\n\013NJGFELOGIDJ\030\016 \001(\r\022\023\n\013HLMMO" +
-      "DEOMOA\030\017 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "DEOMOA\030\017 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025BNDJHMPKLDBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

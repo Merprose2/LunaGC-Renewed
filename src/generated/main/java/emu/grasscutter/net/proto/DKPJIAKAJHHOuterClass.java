@@ -901,8 +901,9 @@ public final class DKPJIAKAJHHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DKPJIAKAJHH.proto\032\021GIBEPIKNHMO.proto\"@" +
       "\n\013DKPJIAKAJHH\022\017\n\007retcode\030\003 \001(\005\022 \n\nparam_" +
-      "list\030\005 \003(\0132\014.GIBEPIKNHMOB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "list\030\005 \003(\0132\014.GIBEPIKNHMOB2\n\031emu.grasscut" +
+      "ter.net.protoB\025DKPJIAKAJHHOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

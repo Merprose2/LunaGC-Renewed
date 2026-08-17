@@ -829,8 +829,9 @@ public final class FGONHDHNKMHOuterClass {
       "\n\021FGONHDHNKMH.proto\032\021PLIIEMMFMHL.proto\032\014" +
       "Vector.proto\"[\n\013FGONHDHNKMH\022\024\n\003pos\030\003 \001(\013" +
       "2\007.Vector\022\023\n\013PPNHNMEAKGJ\030\005 \001(\r\022!\n\013PIIOMD" +
-      "KAENI\030\007 \001(\0162\014.PLIIEMMFMHLB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "KAENI\030\007 \001(\0162\014.PLIIEMMFMHLB2\n\031emu.grasscu" +
+      "tter.net.protoB\025FGONHDHNKMHOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

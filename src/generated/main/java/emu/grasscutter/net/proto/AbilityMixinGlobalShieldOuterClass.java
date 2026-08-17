@@ -957,8 +957,9 @@ public final class AbilityMixinGlobalShieldOuterClass {
       "lityMixinGlobalShield\022\032\n\022shield_effect_n" +
       "ame\030\001 \001(\t\022\021\n\tavatar_id\030\004 \001(\r\022\025\n\rheight_o" +
       "ffset\030\t \001(\002\022\022\n\nmax_shield\030\014 \001(\002\022\030\n\020is_cr" +
-      "eate_effect\030\016 \001(\010\022\022\n\nsub_shield\030\017 \001(\002B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "eate_effect\030\016 \001(\010\022\022\n\nsub_shield\030\017 \001(\002B?\n" +
+      "\031emu.grasscutter.net.protoB\"AbilityMixin" +
+      "GlobalShieldOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

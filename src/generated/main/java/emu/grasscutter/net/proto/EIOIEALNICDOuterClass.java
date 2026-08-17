@@ -8288,8 +8288,9 @@ public final class EIOIEALNICDOuterClass {
       "IINAC\030! \001(\0132\014.KOJKDOFFKOM\022!\n\013KMIPPCKOFKO" +
       "\030\" \001(\0132\014.EIOIEALNICD\022!\n\013CDGNAKFAOGC\030# \001(" +
       "\0132\014.IGLMLJIAFHK\"0\n\013HNENMBLKGKJ\022!\n\013member" +
-      "_list\030\001 \003(\0132\014.JCJECEBONFFB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "_list\030\001 \003(\0132\014.JCJECEBONFFB2\n\031emu.grasscu" +
+      "tter.net.protoB\025EIOIEALNICDOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

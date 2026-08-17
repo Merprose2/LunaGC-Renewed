@@ -454,8 +454,9 @@ public final class OMEAMAGAELNOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021OMEAMAGAELN.proto\"\r\n\013OMEAMAGAELNB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021OMEAMAGAELN.proto\"\r\n\013OMEAMAGAELNB2\n\031em" +
+      "u.grasscutter.net.protoB\025OMEAMAGAELNOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

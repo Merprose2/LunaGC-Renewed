@@ -634,8 +634,9 @@ public final class KGOBLCJLPOLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KGOBLCJLPOL.proto\032\021OCOHOJLNCMA.proto\"G" +
       "\n\013KGOBLCJLPOL\022\025\n\rscene_time_ms\030\014 \001(\004\022!\n\013" +
-      "OJEGOOIOLBE\030\r \001(\0162\014.OCOHOJLNCMAB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "OJEGOOIOLBE\030\r \001(\0162\014.OCOHOJLNCMAB2\n\031emu.g" +
+      "rasscutter.net.protoB\025KGOBLCJLPOLOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

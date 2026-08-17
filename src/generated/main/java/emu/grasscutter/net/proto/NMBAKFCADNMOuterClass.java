@@ -1292,8 +1292,9 @@ public final class NMBAKFCADNMOuterClass {
       "GELDCLKGAHG.proto\"}\n\013NMBAKFCADNM\022\024\n\013KMHC" +
       "HGFIINN\030\366\003 \003(\r\022\"\n\013FLKKJPCAAAB\030\367\003 \003(\0132\014.F" +
       "FHOJEHGBLO\022\"\n\013JJNBHFMPELP\030\370\003 \001(\0132\014.GELDC" +
-      "LKGAHG\022\020\n\007version\030\371\003 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "LKGAHG\022\020\n\007version\030\371\003 \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025NMBAKFCADNMOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

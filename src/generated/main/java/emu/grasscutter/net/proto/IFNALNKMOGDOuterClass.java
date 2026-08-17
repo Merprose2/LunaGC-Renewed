@@ -871,8 +871,8 @@ public final class IFNALNKMOGDOuterClass {
       "\n\021IFNALNKMOGD.proto\032\021BBBBEEOHCLO.proto\"d" +
       "\n\013IFNALNKMOGD\022\014\n\004guid\030\004 \001(\004\022!\n\013FGGHLHCJA" +
       "HJ\030\005 \001(\0132\014.BBBBEEOHCLO\022\023\n\013EICOILFPOFD\030\014 " +
-      "\001(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\001(\r\022\017\n\007retcode\030\016 \001(\005B2\n\031emu.grasscutter." +
+      "net.protoB\025IFNALNKMOGDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

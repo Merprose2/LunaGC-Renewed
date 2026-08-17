@@ -934,8 +934,9 @@ public final class HuntingRevealFinalNotifyOuterClass {
       "gPair.proto\032\014Vector.proto\"z\n\030HuntingReve" +
       "alFinalNotify\022\031\n\021finished_group_id\030\005 \001(\r" +
       "\022\"\n\014hunting_pair\030\007 \001(\0132\014.HuntingPair\022\037\n\016" +
-      "final_position\030\t \001(\0132\007.VectorB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "final_position\030\t \001(\0132\007.VectorB?\n\031emu.gra" +
+      "sscutter.net.protoB\"HuntingRevealFinalNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -652,8 +652,9 @@ public final class GetAreaExplorePointReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034GetAreaExplorePointReq.proto\".\n\026GetAre" +
-      "aExplorePointReq\022\024\n\014area_id_list\030\010 \003(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "aExplorePointReq\022\024\n\014area_id_list\030\010 \003(\rB=" +
+      "\n\031emu.grasscutter.net.protoB GetAreaExpl" +
+      "orePointReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

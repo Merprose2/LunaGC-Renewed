@@ -1186,8 +1186,9 @@ public final class GetGachaInfoRspOuterClass {
       "_restrict\030\007 \001(\010\022\024\n\014gacha_random\030\010 \001(\r\022 \n" +
       "\030is_under_minors_restrict\030\n \001(\010\022#\n\017gacha" +
       "_info_list\030\014 \003(\0132\n.GachaInfo\022\031\n\021daily_ga" +
-      "cha_times\030\r \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "cha_times\030\r \001(\r\022\017\n\007retcode\030\017 \001(\005B6\n\031emu." +
+      "grasscutter.net.protoB\031GetGachaInfoRspOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

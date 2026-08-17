@@ -733,8 +733,9 @@ public final class BlockInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\017BlockInfo.proto\"W\n\tBlockInfo\022\020\n\010block_" +
       "id\030\001 \001(\r\022\024\n\014data_version\030\002 \001(\r\022\020\n\010bin_da" +
-      "ta\030\003 \001(\014\022\020\n\010is_dirty\030\004 \001(\010B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "ta\030\003 \001(\014\022\020\n\010is_dirty\030\004 \001(\010B0\n\031emu.grassc" +
+      "utter.net.protoB\023BlockInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

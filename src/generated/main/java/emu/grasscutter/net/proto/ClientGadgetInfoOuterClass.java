@@ -1610,8 +1610,9 @@ public final class ClientGadgetInfoOuterClass {
       "from_player\030\007 \001(\010\022\035\n\025target_entity_id_li" +
       "st\030\010 \003(\r\022$\n\034target_lock_point_index_list" +
       "\030\t \003(\r\022!\n\013BHJNCGINIJB\030\n \001(\0132\014.CEAFBJOBFJ" +
-      "E\022\023\n\013KMDOFBPMGAI\030\013 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "E\022\023\n\013KMDOFBPMGAI\030\013 \001(\rB7\n\031emu.grasscutte" +
+      "r.net.protoB\032ClientGadgetInfoOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -526,8 +526,8 @@ public final class CKPFGLAOEDKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CKPFGLAOEDK.proto\"\"\n\013CKPFGLAOEDK\022\023\n\013JB" +
-      "EPONIIDBP\030\013 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "EPONIIDBP\030\013 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025CKPFGLAOEDKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

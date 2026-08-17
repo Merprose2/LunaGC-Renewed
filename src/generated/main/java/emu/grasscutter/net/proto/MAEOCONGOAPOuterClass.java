@@ -870,8 +870,9 @@ public final class MAEOCONGOAPOuterClass {
       "\n\021MAEOCONGOAP.proto\032\021KJCJKLHAFHI.proto\"i" +
       "\n\013MAEOCONGOAP\022\017\n\007retcode\030\004 \001(\005\022\037\n\tshop_i" +
       "nfo\030\005 \001(\0132\014.KJCJKLHAFHI\022\023\n\013ICGDNNAJEAI\030\006" +
-      " \001(\r\022\023\n\013IMIDEJDODLE\030\t \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      " \001(\r\022\023\n\013IMIDEJDODLE\030\t \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025MAEOCONGOAPOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

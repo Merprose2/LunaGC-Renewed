@@ -964,8 +964,8 @@ public final class BNIIEBCKPJNOuterClass {
       "\n\021BNIIEBCKPJN.proto\032\021JGMPOFADACG.proto\"T" +
       "\n\013BNIIEBCKPJN\022\023\n\013LOJKKILCLHO\030\003 \001(\r\022!\n\013JF" +
       "CGNHPCFED\030\016 \003(\0132\014.JGMPOFADACG\022\r\n\005index\030\017" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB2\n\031emu.grasscutter.net.protoB\025BNIIE" +
+      "BCKPJNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

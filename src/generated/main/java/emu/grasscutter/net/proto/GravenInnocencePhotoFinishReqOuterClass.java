@@ -596,8 +596,9 @@ public final class GravenInnocencePhotoFinishReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n#GravenInnocencePhotoFinishReq.proto\"A\n" +
       "\035GravenInnocencePhotoFinishReq\022\021\n\tobject" +
-      "_id\030\004 \001(\r\022\r\n\005param\030\006 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "_id\030\004 \001(\r\022\r\n\005param\030\006 \001(\rBD\n\031emu.grasscut" +
+      "ter.net.protoB\'GravenInnocencePhotoFinis" +
+      "hReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

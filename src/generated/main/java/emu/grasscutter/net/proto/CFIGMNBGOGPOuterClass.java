@@ -729,8 +729,8 @@ public final class CFIGMNBGOGPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CFIGMNBGOGP.proto\032\021PGHGKAAPFOM.proto\"7" +
       "\n\013CFIGMNBGOGP\022\033\n\005score\030\002 \001(\0132\014.PGHGKAAPF" +
-      "OM\022\013\n\003uid\030\016 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "OM\022\013\n\003uid\030\016 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025CFIGMNBGOGPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

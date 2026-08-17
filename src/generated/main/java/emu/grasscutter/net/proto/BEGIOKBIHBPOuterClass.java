@@ -525,8 +525,8 @@ public final class BEGIOKBIHBPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BEGIOKBIHBP.proto\"!\n\013BEGIOKBIHBP\022\022\n\nba" +
-      "rgain_id\030\014 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "rgain_id\030\014 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025BEGIOKBIHBPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -661,8 +661,9 @@ public final class HomeUpdateScenePointFishFarmingInfoReqOuterClass {
       ".proto\032#HomeScenePointFishFarmingInfo.pr" +
       "oto\"c\n&HomeUpdateScenePointFishFarmingIn" +
       "foReq\0229\n\021fish_farming_info\030\004 \001(\0132\036.HomeS" +
-      "cenePointFishFarmingInfoB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "cenePointFishFarmingInfoBM\n\031emu.grasscut" +
+      "ter.net.protoB0HomeUpdateScenePointFishF" +
+      "armingInfoReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -525,8 +525,9 @@ public final class CookGradeDataNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031CookGradeDataNotify.proto\"$\n\023CookGrade" +
-      "DataNotify\022\r\n\005grade\030\010 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "DataNotify\022\r\n\005grade\030\010 \001(\rB:\n\031emu.grasscu" +
+      "tter.net.protoB\035CookGradeDataNotifyOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -804,8 +804,8 @@ public final class CFNMBAMJLDDOuterClass {
       "\n\021CFNMBAMJLDD.proto\"s\n\013CFNMBAMJLDD\022\020\n\010le" +
       "vel_id\030\001 \001(\003\022\023\n\013NGHMNEMOOIN\030\002 \001(\004\022\023\n\013BFG" +
       "ODHBBFPG\030\003 \001(\003\022\023\n\013GFNCDOJLEDM\030\004 \001(\003\022\023\n\013A" +
-      "LHLDDJEBGI\030\005 \001(\003B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "LHLDDJEBGI\030\005 \001(\003B2\n\031emu.grasscutter.net." +
+      "protoB\025CFNMBAMJLDDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

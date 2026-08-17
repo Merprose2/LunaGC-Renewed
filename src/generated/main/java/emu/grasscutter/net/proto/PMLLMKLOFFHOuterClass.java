@@ -667,8 +667,8 @@ public final class PMLLMKLOFFHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PMLLMKLOFFH.proto\"E\n\013PMLLMKLOFFH\022\020\n\010le" +
       "vel_id\030\003 \001(\r\022\023\n\013KHCGADDLDEJ\030\014 \001(\010\022\017\n\007car" +
-      "d_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "d_id\030\016 \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025PMLLMKLOFFHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

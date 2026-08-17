@@ -893,8 +893,9 @@ public final class JNCDEGJMHFAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JNCDEGJMHFA.proto\032\021GPOFMCENFPC.proto\"C" +
       "\n\013JNCDEGJMHFA\022\020\n\010route_id\030\001 \001(\005\022\"\n\014route" +
-      "_points\030\002 \003(\0132\014.GPOFMCENFPCB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "_points\030\002 \003(\0132\014.GPOFMCENFPCB2\n\031emu.grass" +
+      "cutter.net.protoB\025JNCDEGJMHFAOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

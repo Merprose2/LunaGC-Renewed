@@ -730,8 +730,9 @@ public final class PotionResetChallengeRspOuterClass {
       "\n\035PotionResetChallengeRsp.proto\032\025PotionS" +
       "tageData.proto\"P\n\027PotionResetChallengeRs" +
       "p\022$\n\nstage_data\030\013 \001(\0132\020.PotionStageData\022" +
-      "\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\017\n\007retcode\030\017 \001(\005B>\n\031emu.grasscutter.net." +
+      "protoB!PotionResetChallengeRspOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

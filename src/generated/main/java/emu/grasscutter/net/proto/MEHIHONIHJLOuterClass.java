@@ -966,8 +966,8 @@ public final class MEHIHONIHJLOuterClass {
       "\n\021MEHIHONIHJL.proto\032\021GEMJMJCFGJA.proto\"Z" +
       "\n\013MEHIHONIHJL\022!\n\013IFADMIMOKHF\030\001 \003(\0132\014.GEM" +
       "JMJCFGJA\022\023\n\013JNHGGELEMML\030\002 \001(\010\022\023\n\013KEKODCB" +
-      "FIAA\030\003 \001(\010B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "FIAA\030\003 \001(\010B2\n\031emu.grasscutter.net.protoB" +
+      "\025MEHIHONIHJLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

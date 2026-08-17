@@ -525,8 +525,8 @@ public final class DPCHKBPKFMLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DPCHKBPKFML.proto\"\"\n\013DPCHKBPKFML\022\023\n\013BB" +
-      "COBLHGBMK\030\t \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "COBLHGBMK\030\t \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025DPCHKBPKFMLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

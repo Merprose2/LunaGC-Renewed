@@ -1781,7 +1781,8 @@ public final class HLNHJIFDDPPOuterClass {
       "\010skill_id\030\n \001(\r\022!\n\013FLEDCAPHHLO\030\013 \001(\0132\014.K" +
       "JGDFDHBNCI\022!\n\013KAFFGLOIPGN\030\014 \001(\0132\014.PCJJOH" +
       "DILPB\022!\n\013DNBGAAIEPDD\030\017 \003(\0132\014.BALMAGIKEON" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025HLNHJIFDD" +
+      "PPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

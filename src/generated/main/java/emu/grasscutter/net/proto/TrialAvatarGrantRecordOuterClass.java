@@ -588,8 +588,9 @@ public final class TrialAvatarGrantRecordOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034TrialAvatarGrantRecord.proto\"L\n\026TrialA" +
       "vatarGrantRecord\022\024\n\014grant_reason\030\001 \001(\r\022\034" +
-      "\n\024from_parent_quest_id\030\002 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\n\024from_parent_quest_id\030\002 \001(\rB=\n\031emu.gras" +
+      "scutter.net.protoB TrialAvatarGrantRecor" +
+      "dOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

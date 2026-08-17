@@ -454,8 +454,9 @@ public final class CNFOKIEEIAEOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021CNFOKIEEIAE.proto\"\r\n\013CNFOKIEEIAEB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021CNFOKIEEIAE.proto\"\r\n\013CNFOKIEEIAEB2\n\031em" +
+      "u.grasscutter.net.protoB\025CNFOKIEEIAEOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

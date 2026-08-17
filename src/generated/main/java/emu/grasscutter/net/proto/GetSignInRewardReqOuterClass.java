@@ -596,8 +596,8 @@ public final class GetSignInRewardReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030GetSignInRewardReq.proto\"=\n\022GetSignInR" +
       "ewardReq\022\023\n\013schedule_id\030\001 \001(\r\022\022\n\nreward_" +
-      "day\030\t \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "day\030\t \001(\rB9\n\031emu.grasscutter.net.protoB\034" +
+      "GetSignInRewardReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

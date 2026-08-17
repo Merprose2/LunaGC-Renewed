@@ -597,8 +597,9 @@ public final class DungeonRestartInviteReplyNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n%DungeonRestartInviteReplyNotify.proto\"" +
       "H\n\037DungeonRestartInviteReplyNotify\022\022\n\npl" +
-      "ayer_uid\030\014 \001(\r\022\021\n\tis_accept\030\017 \001(\010B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "ayer_uid\030\014 \001(\r\022\021\n\tis_accept\030\017 \001(\010BF\n\031emu" +
+      ".grasscutter.net.protoB)DungeonRestartIn" +
+      "viteReplyNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

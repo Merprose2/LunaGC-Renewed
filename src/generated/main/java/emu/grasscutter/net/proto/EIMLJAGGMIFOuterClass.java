@@ -1201,8 +1201,8 @@ public final class EIMLJAGGMIFOuterClass {
       "HDJHCKKMAK\022\"\n\013LKLMJKEIEBC\030\352\007 \001(\0132\014.DHDJH" +
       "CKKMAK\022\024\n\013NIJCDCACODH\030\353\007 \001(\005\022\024\n\013ADGBBFDA" +
       "JCJ\030\354\007 \001(\010\022\"\n\013DOIBEEAGOEJ\030\355\007 \001(\0132\014.DHDJH" +
-      "CKKMAKB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "CKKMAKB2\n\031emu.grasscutter.net.protoB\025EIM" +
+      "LJAGGMIFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

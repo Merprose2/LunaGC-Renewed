@@ -721,8 +721,9 @@ public final class NKOIDKDGBANOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NKOIDKDGBAN.proto\032\021ELCEHBGKMMJ.proto\"A" +
       "\n\013NKOIDKDGBAN\022\024\n\013KLCHKFNGFLI\030\365\003 \001(\005\022\034\n\005s" +
-      "core\030\366\003 \001(\0132\014.ELCEHBGKMMJB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "core\030\366\003 \001(\0132\014.ELCEHBGKMMJB2\n\031emu.grasscu" +
+      "tter.net.protoB\025NKOIDKDGBANOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

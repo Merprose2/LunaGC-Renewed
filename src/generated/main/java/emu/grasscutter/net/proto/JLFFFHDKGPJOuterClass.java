@@ -729,8 +729,9 @@ public final class JLFFFHDKGPJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JLFFFHDKGPJ.proto\"[\n\013JLFFFHDKGPJ\022\023\n\013DN" +
       "IBBKLBBJE\030\001 \001(\r\022\r\n\005count\030\002 \001(\r\022\023\n\013LEPDJF" +
-      "GGDLO\030\007 \001(\r\022\023\n\013LMLHFJKKCJO\030\n \001(\010B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "GGDLO\030\007 \001(\r\022\023\n\013LMLHFJKKCJO\030\n \001(\010B2\n\031emu." +
+      "grasscutter.net.protoB\025JLFFFHDKGPJOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

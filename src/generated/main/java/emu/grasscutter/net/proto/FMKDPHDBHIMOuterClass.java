@@ -752,8 +752,8 @@ public final class FMKDPHDBHIMOuterClass {
       "eason\030\t \001(\0162\030.FMKDPHDBHIM.DHGNBEIMCGH\022\013\n" +
       "\003uid\030\017 \001(\r\"T\n\013DHGNBEIMCGH\022\024\n\020DHGNBEIMCGH" +
       "_NONE\020\000\022\027\n\023DHGNBEIMCGH_TIMEOUT\020\001\022\026\n\022DHGN" +
-      "BEIMCGH_REFUSE\020\002B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "BEIMCGH_REFUSE\020\002B2\n\031emu.grasscutter.net." +
+      "protoB\025FMKDPHDBHIMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

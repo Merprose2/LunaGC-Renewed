@@ -1113,7 +1113,8 @@ public final class GKMGFKLMFFBOuterClass {
       "\n\013GKMGFKLMFFB\022!\n\013BDLMHNKHADI\030\001 \003(\0132\014.KHD" +
       "FLCNHAOC\022\022\n\nstart_time\030\004 \001(\r\022\017\n\007retcode\030" +
       "\005 \001(\005\022\020\n\010end_time\030\006 \001(\r\022\021\n\ttarget_id\030\017 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB2\n\031emu.grasscutter.net.protoB\025GKMGFKL" +
+      "MFFBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

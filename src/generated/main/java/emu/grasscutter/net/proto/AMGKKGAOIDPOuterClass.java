@@ -1017,8 +1017,9 @@ public final class AMGKKGAOIDPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AMGKKGAOIDP.proto\032\021GPONCDLCIDI.proto\"J" +
       "\n\013AMGKKGAOIDP\022\023\n\013NAEHLJDNFEE\030\003 \003(\r\022&\n\020av" +
-      "atar_info_list\030\t \003(\0132\014.GPONCDLCIDIB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "atar_info_list\030\t \003(\0132\014.GPONCDLCIDIB2\n\031em" +
+      "u.grasscutter.net.protoB\025AMGKKGAOIDPOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

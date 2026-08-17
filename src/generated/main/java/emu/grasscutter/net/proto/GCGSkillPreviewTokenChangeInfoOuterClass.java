@@ -824,8 +824,9 @@ public final class GCGSkillPreviewTokenChangeInfoOuterClass {
       "\n$GCGSkillPreviewTokenChangeInfo.proto\032\036" +
       "GCGSkillPreviewTokenInfo.proto\"V\n\036GCGSki" +
       "llPreviewTokenChangeInfo\0224\n\021token_change" +
-      "_list\030\017 \003(\0132\031.GCGSkillPreviewTokenInfoB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "_list\030\017 \003(\0132\031.GCGSkillPreviewTokenInfoBE" +
+      "\n\031emu.grasscutter.net.protoB(GCGSkillPre" +
+      "viewTokenChangeInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

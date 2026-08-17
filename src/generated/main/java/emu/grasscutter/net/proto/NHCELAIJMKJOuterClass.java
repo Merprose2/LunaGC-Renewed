@@ -823,8 +823,8 @@ public final class NHCELAIJMKJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NHCELAIJMKJ.proto\032\021JHBAOEGDMCL.proto\"0" +
       "\n\013NHCELAIJMKJ\022!\n\013AFPDMGPGLAH\030\001 \003(\0132\014.JHB" +
-      "AOEGDMCLB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "AOEGDMCLB2\n\031emu.grasscutter.net.protoB\025N" +
+      "HCELAIJMKJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

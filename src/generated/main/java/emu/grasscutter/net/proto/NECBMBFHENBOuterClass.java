@@ -595,8 +595,9 @@ public final class NECBMBFHENBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NECBMBFHENB.proto\"-\n\013NECBMBFHENB\022\r\n\005le" +
-      "vel\030\013 \001(\r\022\017\n\007city_id\030\r \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "vel\030\013 \001(\r\022\017\n\007city_id\030\r \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025NECBMBFHENBOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

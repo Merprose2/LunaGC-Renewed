@@ -667,8 +667,9 @@ public final class VintageMarketStoreUnlockSlotRspOuterClass {
       "\n%VintageMarketStoreUnlockSlotRsp.proto\"" +
       "X\n\037VintageMarketStoreUnlockSlotRsp\022\017\n\007re" +
       "tcode\030\001 \001(\005\022\022\n\nslot_count\030\005 \001(\r\022\020\n\010store" +
-      "_id\030\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\013 \001(\rBF\n\031emu.grasscutter.net.protoB)" +
+      "VintageMarketStoreUnlockSlotRspOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

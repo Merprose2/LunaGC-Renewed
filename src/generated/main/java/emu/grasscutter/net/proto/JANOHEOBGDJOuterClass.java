@@ -171,8 +171,9 @@ public final class JANOHEOBGDJOuterClass {
       "ANOHEOBGDJ_NONE\020\000\022\034\n\030JANOHEOBGDJ_RANKING" +
       "_LIST\020\001\022\033\n\027JANOHEOBGDJ_ACHIEVEMENT\020\002\022\024\n\020" +
       "JANOHEOBGDJ_TIER\020\003\022\023\n\017JANOHEOBGDJ_DLC\020\004\022" +
-      "\037\n\033JANOHEOBGDJ_LEVEL_OBJECTIVE\020\006B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\037\n\033JANOHEOBGDJ_LEVEL_OBJECTIVE\020\006B2\n\031emu." +
+      "grasscutter.net.protoB\025JANOHEOBGDJOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

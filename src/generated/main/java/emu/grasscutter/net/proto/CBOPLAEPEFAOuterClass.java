@@ -1650,8 +1650,9 @@ public final class CBOPLAEPEFAOuterClass {
       "KAHMF\030\002 \001(\0162\014.JEOKDCIGCFP\022 \n\npoint_list\030" +
       "\003 \003(\0132\014.PBMFPJDLBKD\022\"\n\013AKMINEAMKKJ\030\365\003 \003(" +
       "\0132\014.PBMFPJDLBKD\022\"\n\013GNDKGLAJAJK\030\366\003 \001(\0132\014." +
-      "CLGPJCCKCMI\022\024\n\013PEFBNFCDBFN\030\367\003 \001(\010B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "CLGPJCCKCMI\022\024\n\013PEFBNFCDBFN\030\367\003 \001(\010B2\n\031emu" +
+      ".grasscutter.net.protoB\025CBOPLAEPEFAOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -863,8 +863,9 @@ public final class NIGNADGOGMIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NIGNADGOGMI.proto\"^\n\013NIGNADGOGMI\022\020\n\010pr" +
       "ogress\030\002 \001(\r\022\023\n\013PCAFMEIMJAK\030\005 \001(\r\022\023\n\013NKM" +
-      "LPDLLDHB\030\010 \003(\r\022\023\n\013ECBGDEKHGLD\030\014 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "LPDLLDHB\030\010 \003(\r\022\023\n\013ECBGDEKHGLD\030\014 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025NIGNADGOGMIOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

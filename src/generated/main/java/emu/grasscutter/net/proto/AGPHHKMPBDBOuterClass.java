@@ -2314,8 +2314,9 @@ public final class AGPHHKMPBDBOuterClass {
       "\003(\r\022!\n\013PMCMJJAPIHP\030\013 \001(\0132\014.HDCFGIFBHKB\022\023" +
       "\n\013MLJNBOOLHLI\030\014 \001(\r\022\023\n\013FGGOEABBELE\030\r \001(\r" +
       "\022\024\n\013IPCOGFLJLKO\030\365\003 \001(\t\022\024\n\013LBIPGGPFJCF\030\366\003" +
-      " \001(\r\022\024\n\013NAGBJDCIJCF\030\367\003 \003(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      " \001(\r\022\024\n\013NAGBJDCIJCF\030\367\003 \003(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025AGPHHKMPBDBOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

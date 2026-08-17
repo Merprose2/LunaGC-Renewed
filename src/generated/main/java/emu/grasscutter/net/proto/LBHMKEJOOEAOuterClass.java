@@ -1346,8 +1346,9 @@ public final class LBHMKEJOOEAOuterClass {
       "NGHGHPLAKKD.proto\"\201\001\n\013LBHMKEJOOEA\022\023\n\013CBK" +
       "DFCLCJHP\030\006 \001(\r\022%\n\017level_info_list\030\010 \003(\0132" +
       "\014.DIOANPOJHPG\022\023\n\013AKAFFNIIOBG\030\r \001(\004\022!\n\013EB" +
-      "KNMOKDFCI\030\016 \003(\0132\014.NGHGHPLAKKDB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "KNMOKDFCI\030\016 \003(\0132\014.NGHGHPLAKKDB2\n\031emu.gra" +
+      "sscutter.net.protoB\025LBHMKEJOOEAOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

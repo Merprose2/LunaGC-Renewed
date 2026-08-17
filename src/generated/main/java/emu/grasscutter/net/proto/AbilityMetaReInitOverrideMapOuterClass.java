@@ -824,8 +824,9 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       "\n\"AbilityMetaReInitOverrideMap.proto\032\035Ab" +
       "ilityScalarValueEntry.proto\"N\n\034AbilityMe" +
       "taReInitOverrideMap\022.\n\014override_map\030\010 \003(" +
-      "\0132\030.AbilityScalarValueEntryB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\0132\030.AbilityScalarValueEntryBC\n\031emu.grass" +
+      "cutter.net.protoB&AbilityMetaReInitOverr" +
+      "ideMapOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

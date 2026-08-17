@@ -943,8 +943,8 @@ public final class MKHCGFPCHPCOuterClass {
       "\001\n\013MKHCGFPCHPC\022\024\n\014dungeon_guid\030\002 \001(\004\022!\n\013" +
       "NPLOBGOMLBM\030\003 \001(\0132\014.GLGHAHIILOH\022\023\n\013OOILJ" +
       "MGKMBL\030\n \001(\004\022\023\n\013GAADGPGOLCK\030\014 \001(\r\022\023\n\013OAO" +
-      "FGNMLPDO\030\016 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "FGNMLPDO\030\016 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025MKHCGFPCHPCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

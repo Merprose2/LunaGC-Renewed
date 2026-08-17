@@ -856,8 +856,9 @@ public final class ReunionSignInInfoOuterClass {
       "\n\027ReunionSignInInfo.proto\"q\n\021ReunionSign" +
       "InInfo\022\025\n\rsign_in_count\030\006 \001(\r\022\027\n\017reward_" +
       "day_list\030\010 \003(\r\022\021\n\tconfig_id\030\n \001(\r\022\031\n\021las" +
-      "t_sign_in_time\030\014 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "t_sign_in_time\030\014 \001(\rB8\n\031emu.grasscutter." +
+      "net.protoB\033ReunionSignInInfoOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

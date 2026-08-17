@@ -152,7 +152,8 @@ public final class AvatarTypeOuterClass {
       "\n\020AvatarType.proto*e\n\nAvatarType\022\023\n\017Avat" +
       "arType_NONE\020\000\022\025\n\021AvatarType_FORMAL\020\001\022\024\n\020" +
       "AvatarType_TRIAL\020\002\022\025\n\021AvatarType_MIRROR\020" +
-      "\003B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\003B1\n\031emu.grasscutter.net.protoB\024AvatarTy" +
+      "peOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

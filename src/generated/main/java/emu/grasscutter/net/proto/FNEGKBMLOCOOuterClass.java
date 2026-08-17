@@ -775,8 +775,8 @@ public final class FNEGKBMLOCOOuterClass {
       "\n\021FNEGKBMLOCO.proto\032\017MatchType.proto\"c\n\013" +
       "FNEGKBMLOCO\022\020\n\010match_id\030\002 \001(\r\022\017\n\007retcode" +
       "\030\005 \001(\005\022\021\n\tis_agreed\030\013 \001(\010\022\036\n\nmatch_type\030" +
-      "\016 \001(\0162\n.MatchTypeB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\016 \001(\0162\n.MatchTypeB2\n\031emu.grasscutter.net" +
+      ".protoB\025FNEGKBMLOCOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

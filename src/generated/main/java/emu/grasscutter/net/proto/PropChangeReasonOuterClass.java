@@ -297,7 +297,8 @@ public final class PropChangeReasonOuterClass {
       "ANGE_BEYOND_BLUEPRINT\020\017\022+\n\'PropChangeRea" +
       "son_PROP_CHANGE_BEYOND_EXP\020\020\0222\n.PropChan" +
       "geReason_PROP_CHANGE_OFFERING_LEVEL_UP\020\021" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B7\n\031emu.grasscutter.net.protoB\032PropChang" +
+      "eReasonOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

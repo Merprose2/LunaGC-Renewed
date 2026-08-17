@@ -1187,8 +1187,9 @@ public final class ArenaChallengeFinishNotifyOuterClass {
       "\030\001 \001(\r\022\022\n\nis_success\030\006 \001(\010\022\023\n\013EONCKAACMA" +
       "J\030\n \001(\010\022\023\n\013finish_time\030\013 \001(\r\022?\n\024child_ch" +
       "allenge_list\030\r \003(\0132!.ArenaChallengeChild" +
-      "ChallengeInfo\022\023\n\013BLCPLGCJEBJ\030\016 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ChallengeInfo\022\023\n\013BLCPLGCJEBJ\030\016 \001(\rBA\n\031em" +
+      "u.grasscutter.net.protoB$ArenaChallengeF" +
+      "inishNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

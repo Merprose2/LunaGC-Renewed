@@ -1191,7 +1191,8 @@ public final class SeaLampActivityDetailInfoOuterClass {
       " \001(\r\022\023\n\013MBBBBLHGAGO\030\003 \001(\r\022\023\n\013ICNIKLDGHJA" +
       "\030\004 \003(\r\022\020\n\010progress\030\006 \001(\r\022\023\n\013AEBFOBBJKLH\030" +
       "\010 \001(\r\022\023\n\013MGKPFINDMBE\030\n \003(\r\022\014\n\004days\030\r \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B@\n\031emu.grasscutter.net.protoB#SeaLampAc" +
+      "tivityDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

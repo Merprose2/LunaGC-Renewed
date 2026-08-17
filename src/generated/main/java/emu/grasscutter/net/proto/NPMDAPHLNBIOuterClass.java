@@ -1199,8 +1199,9 @@ public final class NPMDAPHLNBIOuterClass {
       "Vector.proto\"\215\001\n\013NPMDAPHLNBI\022!\n\013FLFPHIAA" +
       "GME\030\002 \001(\0132\014.DICLKEBODEC\022\027\n\006center\030\005 \001(\0132" +
       "\007.Vector\022\023\n\013JFCMGBBJBGB\030\n \001(\005\022\023\n\013NHBKIOM" +
-      "FNBI\030\r \001(\r\022\030\n\007extents\030\017 \001(\0132\007.VectorB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "FNBI\030\r \001(\r\022\030\n\007extents\030\017 \001(\0132\007.VectorB2\n\031" +
+      "emu.grasscutter.net.protoB\025NPMDAPHLNBIOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

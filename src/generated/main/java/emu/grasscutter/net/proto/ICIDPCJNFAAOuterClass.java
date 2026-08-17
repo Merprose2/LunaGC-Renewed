@@ -972,8 +972,8 @@ public final class ICIDPCJNFAAOuterClass {
       "\n\021ICIDPCJNFAA.proto\032\021GGEFFDMHDNN.proto\"V" +
       "\n\013ICIDPCJNFAA\022\017\n\007retcode\030\002 \001(\005\022\'\n\021player" +
       "_brief_list\030\014 \003(\0132\014.GGEFFDMHDNN\022\r\n\005param" +
-      "\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025ICI" +
+      "DPCJNFAAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

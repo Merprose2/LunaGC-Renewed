@@ -1147,8 +1147,8 @@ public final class IGGLNAHODGOOuterClass {
       "BBBNDCAIOM\030\001 \001(\005\022\023\n\013MELHLFICKME\030\002 \001(\005\022\023\n" +
       "\013ILNNAFCGBOL\030\003 \001(\005\022\023\n\013LFHOFLFHKNN\030\004 \001(\005\022" +
       "\023\n\013HJDMBHGDGAL\030\005 \001(\005\022\024\n\013KDCDEAIDEHM\030\365\003 \003" +
-      "(\005\022\r\n\004name\030\366\003 \001(\tB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "(\005\022\r\n\004name\030\366\003 \001(\tB2\n\031emu.grasscutter.net" +
+      ".protoB\025IGGLNAHODGOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

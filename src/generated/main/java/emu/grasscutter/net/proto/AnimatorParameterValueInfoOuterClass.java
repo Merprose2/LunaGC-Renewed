@@ -905,8 +905,9 @@ public final class AnimatorParameterValueInfoOuterClass {
       "\n AnimatorParameterValueInfo.proto\"w\n\032An" +
       "imatorParameterValueInfo\022\021\n\tpara_type\030\001 " +
       "\001(\r\022\021\n\007int_val\030\002 \001(\005H\000\022\023\n\tfloat_val\030\003 \001(" +
-      "\002H\000\022\022\n\010bool_val\030\004 \001(\010H\000B\n\n\010para_valB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\002H\000\022\022\n\010bool_val\030\004 \001(\010H\000B\n\n\010para_valBA\n\031e" +
+      "mu.grasscutter.net.protoB$AnimatorParame" +
+      "terValueInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

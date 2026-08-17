@@ -802,8 +802,8 @@ public final class PBBCDKFGPFFOuterClass {
       "\n\021PBBCDKFGPFF.proto\"h\n\013PBBCDKFGPFF\022\017\n\007is" +
       "_succ\030\010 \001(\010\022\022\n\nbest_score\030\t \001(\r\022\020\n\010level" +
       "_id\030\014 \001(\r\022\021\n\tis_finish\030\016 \001(\010\022\017\n\007is_open\030" +
-      "\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\017 \001(\010B2\n\031emu.grasscutter.net.protoB\025PBBC" +
+      "DKFGPFFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

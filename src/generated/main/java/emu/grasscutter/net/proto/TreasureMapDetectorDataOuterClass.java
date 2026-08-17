@@ -1239,8 +1239,9 @@ public final class TreasureMapDetectorDataOuterClass {
       "proto\"\221\001\n\027TreasureMapDetectorData\022\032\n\tspo" +
       "t_list\030\003 \003(\0132\007.Vector\022\016\n\006radius\030\005 \001(\r\022\033\n" +
       "\ncenter_pos\030\007 \001(\0132\007.Vector\022\021\n\tregion_id\030" +
-      "\014 \001(\r\022\032\n\022is_region_detected\030\017 \001(\010B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\014 \001(\r\022\032\n\022is_region_detected\030\017 \001(\010B>\n\031emu" +
+      ".grasscutter.net.protoB!TreasureMapDetec" +
+      "torDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -979,8 +979,9 @@ public final class AbilityInvokeEntryHeadOuterClass {
       "_buff_uid\030\002 \001(\r\022\034\n\024instanced_ability_id\030" +
       "\004 \001(\r\022\035\n\025instanced_modifier_id\030\007 \001(\r\022\021\n\t" +
       "target_id\030\t \001(\r\022\020\n\010local_id\030\016 \001(\005\022!\n\013FPD" +
-      "AONBEBHK\030\017 \001(\0162\014.LJGEHMILKEMB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "AONBEBHK\030\017 \001(\0162\014.LJGEHMILKEMB=\n\031emu.gras" +
+      "scutter.net.protoB AbilityInvokeEntryHea" +
+      "dOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

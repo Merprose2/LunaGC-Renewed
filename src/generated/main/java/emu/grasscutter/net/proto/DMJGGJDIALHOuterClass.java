@@ -1027,8 +1027,8 @@ public final class DMJGGJDIALHOuterClass {
       "\n\021DMJGGJDIALH.proto\032\021DHDJHCKKMAK.proto\"U" +
       "\n\013DMJGGJDIALH\022\"\n\013EJBIPEPLIFN\030\351\007 \001(\0132\014.DH" +
       "DJHCKKMAK\022\"\n\013MMJFEEDFIEK\030\352\007 \003(\0132\014.DHDJHC" +
-      "KKMAKB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "KKMAKB2\n\031emu.grasscutter.net.protoB\025DMJG" +
+      "GJDIALHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

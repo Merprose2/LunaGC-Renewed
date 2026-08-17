@@ -729,8 +729,9 @@ public final class PKEKNELIKJAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PKEKNELIKJA.proto\032\021OMIHJKKBJGO.proto\"E" +
       "\n\013PKEKNELIKJA\022!\n\013FKHIGBDJIDF\030\004 \001(\0132\014.OMI" +
-      "HJKKBJGO\022\023\n\013KMDOFBPMGAI\030\n \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "HJKKBJGO\022\023\n\013KMDOFBPMGAI\030\n \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025PKEKNELIKJAOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

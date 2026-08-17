@@ -455,8 +455,9 @@ public final class TakeBattlePassRewardReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035TakeBattlePassRewardReq.proto\"\031\n\027TakeB" +
-      "attlePassRewardReqB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "attlePassRewardReqB>\n\031emu.grasscutter.ne" +
+      "t.protoB!TakeBattlePassRewardReqOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

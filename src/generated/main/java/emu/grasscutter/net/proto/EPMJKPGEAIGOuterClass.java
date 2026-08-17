@@ -782,8 +782,8 @@ public final class EPMJKPGEAIGOuterClass {
       "\n\021EPMJKPGEAIG.proto\"u\n\013EPMJKPGEAIG\0222\n\013NJ" +
       "ACEJFEFBH\030\016 \003(\0132\035.EPMJKPGEAIG.NJACEJFEFB" +
       "HEntry\0322\n\020NJACEJFEFBHEntry\022\013\n\003key\030\001 \001(\t\022" +
-      "\r\n\005value\030\002 \001(\t:\0028\001B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\r\n\005value\030\002 \001(\t:\0028\001B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025EPMJKPGEAIGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

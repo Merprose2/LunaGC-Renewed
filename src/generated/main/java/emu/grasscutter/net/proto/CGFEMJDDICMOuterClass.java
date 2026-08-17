@@ -446,8 +446,9 @@ public final class CGFEMJDDICMOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021CGFEMJDDICM.proto\"\r\n\013CGFEMJDDICMB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021CGFEMJDDICM.proto\"\r\n\013CGFEMJDDICMB2\n\031em" +
+      "u.grasscutter.net.protoB\025CGFEMJDDICMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

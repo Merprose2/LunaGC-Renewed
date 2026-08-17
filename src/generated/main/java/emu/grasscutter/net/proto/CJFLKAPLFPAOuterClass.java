@@ -454,8 +454,9 @@ public final class CJFLKAPLFPAOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021CJFLKAPLFPA.proto\"\r\n\013CJFLKAPLFPAB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021CJFLKAPLFPA.proto\"\r\n\013CJFLKAPLFPAB2\n\031em" +
+      "u.grasscutter.net.protoB\025CJFLKAPLFPAOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

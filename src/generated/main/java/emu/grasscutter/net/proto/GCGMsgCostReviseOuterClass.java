@@ -722,8 +722,8 @@ public final class GCGMsgCostReviseOuterClass {
       "\n\026GCGMsgCostRevise.proto\032\027GCGCostReviseI" +
       "nfo.proto\"R\n\020GCGMsgCostRevise\022\'\n\013cost_re" +
       "vise\030\007 \001(\0132\022.GCGCostReviseInfo\022\025\n\rcontro" +
-      "ller_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "ller_id\030\016 \001(\rB7\n\031emu.grasscutter.net.pro" +
+      "toB\032GCGMsgCostReviseOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

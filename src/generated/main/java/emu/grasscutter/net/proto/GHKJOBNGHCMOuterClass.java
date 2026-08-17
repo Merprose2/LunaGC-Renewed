@@ -901,8 +901,8 @@ public final class GHKJOBNGHCMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GHKJOBNGHCM.proto\032\017ItemParam.proto\"=\n\013" +
       "GHKJOBNGHCM\022\035\n\titem_list\030\007 \003(\0132\n.ItemPar" +
-      "am\022\017\n\007retcode\030\010 \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "am\022\017\n\007retcode\030\010 \001(\005B2\n\031emu.grasscutter.n" +
+      "et.protoB\025GHKJOBNGHCMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

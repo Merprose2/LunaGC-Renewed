@@ -696,7 +696,8 @@ public final class AGGIPFDNAICOuterClass {
       "\n\021AGGIPFDNAIC.proto\032\021AGGJEDNKONM.proto\"S" +
       "\n\013AGGIPFDNAIC\022\023\n\013AGHMGLGFJMF\030\004 \001(\r\022\022\n\nst" +
       "art_time\030\005 \001(\r\022\033\n\005state\030\007 \001(\0162\014.AGGJEDNK" +
-      "ONMB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "ONMB2\n\031emu.grasscutter.net.protoB\025AGGIPF" +
+      "DNAICOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

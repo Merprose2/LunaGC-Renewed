@@ -668,7 +668,8 @@ public final class MpPlayOwnerStartInviteRspOuterClass {
       "\n\037MpPlayOwnerStartInviteRsp.proto\"W\n\031MpP" +
       "layOwnerStartInviteRsp\022\017\n\007retcode\030\003 \001(\005\022" +
       "\022\n\nmp_play_id\030\016 \001(\r\022\025\n\ris_skip_match\030\017 \001" +
-      "(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\010B@\n\031emu.grasscutter.net.protoB#MpPlayO" +
+      "wnerStartInviteRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

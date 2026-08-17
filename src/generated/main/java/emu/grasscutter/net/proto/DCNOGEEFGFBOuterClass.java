@@ -776,8 +776,9 @@ public final class DCNOGEEFGFBOuterClass {
       "\n\021DCNOGEEFGFB.proto\032\021FOJOFMOKAJO.proto\"f" +
       "\n\013DCNOGEEFGFB\022\020\n\010point_id\030\001 \001(\r\022\r\n\005speed" +
       "\030\004 \001(\002\022!\n\013NMMDOAHEIPE\030\013 \001(\0162\014.FOJOFMOKAJ" +
-      "O\022\023\n\013HMHCGLCNBMK\030\017 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "O\022\023\n\013HMHCGLCNBMK\030\017 \001(\rB2\n\031emu.grasscutte" +
+      "r.net.protoB\025DCNOGEEFGFBOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

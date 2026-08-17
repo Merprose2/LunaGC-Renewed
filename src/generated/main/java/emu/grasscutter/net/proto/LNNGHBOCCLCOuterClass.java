@@ -1393,8 +1393,9 @@ public final class LNNGHBOCCLCOuterClass {
       "PFKKMMLFOP\030\002 \001(\0132\014.NGKOPBGLDJM\022\017\n\007retcod" +
       "e\030\005 \001(\005\022\023\n\013KPDAOELBDEK\030\006 \001(\t\022\023\n\013GABBIDHK" +
       "OEG\030\010 \001(\t\022\023\n\013PHLFKGPBHOE\030\t \001(\t\022\023\n\013EICOIL" +
-      "FPOFD\030\n \001(\r\022\014\n\004guid\030\013 \001(\004B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "FPOFD\030\n \001(\r\022\014\n\004guid\030\013 \001(\004B2\n\031emu.grasscu" +
+      "tter.net.protoB\025LNNGHBOCCLCOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

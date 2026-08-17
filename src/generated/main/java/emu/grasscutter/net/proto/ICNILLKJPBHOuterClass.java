@@ -1496,8 +1496,9 @@ public final class ICNILLKJPBHOuterClass {
       "EDHCFPEKM\022!\n\013NNPNDCFIAMA\030\004 \001(\0132\014.HHEDHCF" +
       "PEKM\022!\n\013PIOLELFOCLI\030\005 \001(\0162\014.JEOKDCIGCFP\022" +
       "!\n\013follow_type\030\006 \001(\0162\014.JEOKDCIGCFP\022!\n\013CJ" +
-      "DMNIKBOOG\030\007 \001(\0132\014.JNGKHDNPCBNB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "DMNIKBOOG\030\007 \001(\0132\014.JNGKHDNPCBNB2\n\031emu.gra" +
+      "sscutter.net.protoB\025ICNILLKJPBHOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

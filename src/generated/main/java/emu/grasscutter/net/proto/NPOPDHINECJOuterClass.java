@@ -595,8 +595,9 @@ public final class NPOPDHINECJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NPOPDHINECJ.proto\"1\n\013NPOPDHINECJ\022\017\n\007ca" +
-      "rd_id\030\005 \001(\r\022\021\n\tface_type\030\n \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "rd_id\030\005 \001(\r\022\021\n\tface_type\030\n \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025NPOPDHINECJOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

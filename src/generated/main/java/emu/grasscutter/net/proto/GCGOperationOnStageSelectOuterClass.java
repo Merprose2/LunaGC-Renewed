@@ -715,8 +715,9 @@ public final class GCGOperationOnStageSelectOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037GCGOperationOnStageSelect.proto\"L\n\031GCG" +
       "OperationOnStageSelect\022\034\n\024cost_dice_inde" +
-      "x_list\030\007 \003(\r\022\021\n\tcard_guid\030\016 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "x_list\030\007 \003(\r\022\021\n\tcard_guid\030\016 \001(\rB@\n\031emu.g" +
+      "rasscutter.net.protoB#GCGOperationOnStag" +
+      "eSelectOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

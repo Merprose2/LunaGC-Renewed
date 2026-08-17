@@ -2827,8 +2827,9 @@ public final class KKBPIGMGMHFOuterClass {
       "JH\022!\n\013KPGEJOHGJAH\030\010 \003(\0132\014.LBGJAILPBJH\022!\n" +
       "\013LICCJGPGOHF\030\t \001(\0132\014.IKHNFCKKIFI\022!\n\013NDJI" +
       "MNHOOIJ\030\n \001(\0132\014.LMJPEBKIADG\022!\n\013FJIPEEKJD" +
-      "CK\030\013 \003(\0162\014.AGLJDGLCEKEB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "CK\030\013 \003(\0162\014.AGLJDGLCEKEB2\n\031emu.grasscutte" +
+      "r.net.protoB\025KKBPIGMGMHFOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -596,8 +596,9 @@ public final class AvatarChangeElementTypeReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n AvatarChangeElementTypeReq.proto\"?\n\032Av" +
       "atarChangeElementTypeReq\022\017\n\007area_id\030\006 \001(" +
-      "\r\022\020\n\010scene_id\030\010 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\r\022\020\n\010scene_id\030\010 \001(\rBA\n\031emu.grasscutter.n" +
+      "et.protoB$AvatarChangeElementTypeReqOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

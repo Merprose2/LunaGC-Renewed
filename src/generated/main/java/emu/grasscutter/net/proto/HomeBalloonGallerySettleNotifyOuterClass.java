@@ -873,8 +873,9 @@ public final class HomeBalloonGallerySettleNotifyOuterClass {
       "alloonGallerySettleNotify\022\014\n\004rank\030\004 \001(\r\022" +
       ".\n\013settle_info\030\007 \001(\0132\031.BalloonGallerySet" +
       "tleInfo\022\022\n\ngallery_id\030\010 \001(\r\022\025\n\ris_new_re" +
-      "cord\030\t \001(\010B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "cord\030\t \001(\010BE\n\031emu.grasscutter.net.protoB" +
+      "(HomeBalloonGallerySettleNotifyOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

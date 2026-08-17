@@ -596,8 +596,9 @@ public final class BDONCJIGKIJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BDONCJIGKIJ.proto\"6\n\013BDONCJIGKIJ\022\023\n\013EK" +
-      "CPAOBHGAB\030\002 \001(\r\022\022\n\n_hall_guid\030\004 \001(\004B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "CPAOBHGAB\030\002 \001(\r\022\022\n\n_hall_guid\030\004 \001(\004B2\n\031e" +
+      "mu.grasscutter.net.protoB\025BDONCJIGKIJOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

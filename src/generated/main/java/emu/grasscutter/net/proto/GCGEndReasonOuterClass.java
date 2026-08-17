@@ -220,8 +220,8 @@ public final class GCGEndReasonOuterClass {
       "CGEndReason_NO_PLAYER\020\006\022\030\n\024GCGEndReason_" +
       "GIVE_UP\020\007\022\035\n\031GCGEndReason_INIT_TIMEOUT\020\010" +
       "\022\027\n\023GCGEndReason_EFFECT\020\t\022\037\n\033GCGEndReaso" +
-      "n_EXPIRE_TIMEOUT\020\nB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "n_EXPIRE_TIMEOUT\020\nB3\n\031emu.grasscutter.ne" +
+      "t.protoB\026GCGEndReasonOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

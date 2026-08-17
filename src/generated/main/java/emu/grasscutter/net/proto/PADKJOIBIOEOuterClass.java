@@ -728,8 +728,9 @@ public final class PADKJOIBIOEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PADKJOIBIOE.proto\"]\n\013PADKJOIBIOE\022\023\n\013EF" +
       "PBHJOIBJH\030\004 \001(\r\022\023\n\013KDICCGHPAKF\030\t \001(\r\022\023\n\013" +
-      "HDHKALPDIPA\030\r \001(\r\022\017\n\007item_id\030\017 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "HDHKALPDIPA\030\r \001(\r\022\017\n\007item_id\030\017 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025PADKJOIBIOEOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -651,8 +651,9 @@ public final class BreakoutSyncActionOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030BreakoutSyncAction.proto\032\024BreakoutActi" +
       "on.proto\"5\n\022BreakoutSyncAction\022\037\n\006action" +
-      "\030\017 \001(\0132\017.BreakoutActionB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\030\017 \001(\0132\017.BreakoutActionB9\n\031emu.grasscutt" +
+      "er.net.protoB\034BreakoutSyncActionOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

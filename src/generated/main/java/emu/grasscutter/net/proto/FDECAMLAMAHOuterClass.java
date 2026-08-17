@@ -819,8 +819,8 @@ public final class FDECAMLAMAHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FDECAMLAMAH.proto\"L\n\013FDECAMLAMAH\022\023\n\013NL" +
       "EKOJAPLKC\030\001 \001(\003\022\023\n\013JCMJJIODLGE\030\002 \001(\t\022\023\n\013" +
-      "IBGHCINMKGO\030\003 \001(\tB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "IBGHCINMKGO\030\003 \001(\tB2\n\031emu.grasscutter.net" +
+      ".protoB\025FDECAMLAMAHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

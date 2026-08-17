@@ -660,7 +660,8 @@ public final class OpActivityTagBriefInfoOuterClass {
       "\n\034OpActivityTagBriefInfo.proto\"Y\n\026OpActi" +
       "vityTagBriefInfo\022\030\n\020op_activity_type\030\001 \001" +
       "(\r\022\022\n\nhas_reward\030\007 \001(\010\022\021\n\tconfig_id\030\010 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB=\n\031emu.grasscutter.net.protoB OpActivi" +
+      "tyTagBriefInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

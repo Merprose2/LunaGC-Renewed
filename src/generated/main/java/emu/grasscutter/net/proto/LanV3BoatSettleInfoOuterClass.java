@@ -1470,8 +1470,9 @@ public final class LanV3BoatSettleInfoOuterClass {
       "e\030\002 \001(\0132\017.ProfilePicture\022\022\n\nhead_image\030\004" +
       " \001(\r\022)\n\tcard_list\030\006 \003(\0132\026.ExhibitionDisp" +
       "layInfo\022\021\n\tonline_id\030\t \001(\t\022\020\n\010nickname\030\013" +
-      " \001(\t\022\013\n\003uid\030\r \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      " \001(\t\022\013\n\003uid\030\r \001(\rB:\n\031emu.grasscutter.net" +
+      ".protoB\035LanV3BoatSettleInfoOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

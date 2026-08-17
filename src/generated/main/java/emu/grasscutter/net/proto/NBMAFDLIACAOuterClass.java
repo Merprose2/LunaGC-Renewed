@@ -153,8 +153,8 @@ public final class NBMAFDLIACAOuterClass {
       "BMAFDLIACA_NONE\020\000\022#\n\037NBMAFDLIACA_ALL_AVA" +
       "TAR_SELECTED\020\001\022 \n\034NBMAFDLIACA_CHANCE_FOR" +
       "BIDDEN\020\002\022)\n%NBMAFDLIACA_CANDIDATE_AVATAR" +
-      "_NUM_ZERO\020\003B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "_NUM_ZERO\020\003B2\n\031emu.grasscutter.net.proto" +
+      "B\025NBMAFDLIACAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

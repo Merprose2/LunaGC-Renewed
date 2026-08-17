@@ -724,8 +724,8 @@ public final class MEGAGCHDNONOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MEGAGCHDNON.proto\"E\n\013MEGAGCHDNON\022\027\n\017cu" +
       "r_avatar_guid\030\004 \001(\004\022\035\n\025avatar_team_guid_" +
-      "list\030\t \003(\004B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "list\030\t \003(\004B2\n\031emu.grasscutter.net.protoB" +
+      "\025MEGAGCHDNONOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

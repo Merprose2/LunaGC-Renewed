@@ -855,8 +855,9 @@ public final class OGOGJMDFMGFOuterClass {
       "\n\021OGOGJMDFMGF.proto\032\021MNEMNJPHKJA.proto\032\021" +
       "PJOAGGFJIAC.proto\"S\n\013OGOGJMDFMGF\022!\n\013MOMG" +
       "MPBLHEC\030\n \001(\0132\014.PJOAGGFJIAC\022!\n\013EDIALDEHA" +
-      "JJ\030\r \001(\0132\014.MNEMNJPHKJAB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "JJ\030\r \001(\0132\014.MNEMNJPHKJAB2\n\031emu.grasscutte" +
+      "r.net.protoB\025OGOGJMDFMGFOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

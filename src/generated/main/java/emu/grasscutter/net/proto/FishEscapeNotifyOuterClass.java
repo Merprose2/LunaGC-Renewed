@@ -1035,8 +1035,8 @@ public final class FishEscapeNotifyOuterClass {
       "on.proto\032\014Vector.proto\"n\n\020FishEscapeNoti" +
       "fy\022!\n\006reason\030\001 \001(\0162\021.FishEscapeReason\022\013\n" +
       "\003uid\030\003 \001(\r\022\024\n\014fish_id_list\030\006 \003(\r\022\024\n\003pos\030" +
-      "\013 \001(\0132\007.VectorB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "\013 \001(\0132\007.VectorB7\n\031emu.grasscutter.net.pr" +
+      "otoB\032FishEscapeNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1072,8 +1072,9 @@ public final class GCGMessagePackOuterClass {
       "oto\032\020GCGMessage.proto\"\204\001\n\016GCGMessagePack" +
       "\022\027\n\017action_trans_id\030\003 \001(\r\022#\n\013action_type" +
       "\030\005 \001(\0162\016.GCGActionType\022\025\n\rcontroller_id\030" +
-      "\006 \001(\r\022\035\n\010msg_list\030\007 \003(\0132\013.GCGMessageB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\006 \001(\r\022\035\n\010msg_list\030\007 \003(\0132\013.GCGMessageB5\n\031" +
+      "emu.grasscutter.net.protoB\030GCGMessagePac" +
+      "kOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

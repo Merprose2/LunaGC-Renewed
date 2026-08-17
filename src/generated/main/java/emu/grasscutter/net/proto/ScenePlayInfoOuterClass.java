@@ -729,8 +729,9 @@ public final class ScenePlayInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\023ScenePlayInfo.proto\"V\n\rScenePlayInfo\022\021" +
       "\n\tplay_type\030\001 \001(\r\022\017\n\007play_id\030\004 \001(\r\022\017\n\007is" +
-      "_open\030\t \001(\010\022\020\n\010entry_id\030\013 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "_open\030\t \001(\010\022\020\n\010entry_id\030\013 \001(\rB4\n\031emu.gra" +
+      "sscutter.net.protoB\027ScenePlayInfoOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

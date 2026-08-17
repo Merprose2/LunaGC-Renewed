@@ -20,64 +20,64 @@ public final class _PacmanDungeonStopReasonOuterClass {
   public enum _PacmanDungeonStopReason
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>PACMAN_DUNGEON_STOP_NONE = 0;</code>
+     * <code>_PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_NONE = 0;</code>
      */
-    PACMAN_DUNGEON_STOP_NONE(0),
+    _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_NONE(0),
     /**
-     * <code>PACMAN_DUNGEON_STOP_SUCCESS = 1;</code>
+     * <code>_PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_SUCCESS = 1;</code>
      */
-    PACMAN_DUNGEON_STOP_SUCCESS(1),
+    _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_SUCCESS(1),
     /**
-     * <code>PACMAN_DUNGEON_STOP_TIMEUP = 2;</code>
+     * <code>_PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_TIMEUP = 2;</code>
      */
-    PACMAN_DUNGEON_STOP_TIMEUP(2),
+    _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_TIMEUP(2),
     /**
-     * <code>PACMAN_DUNGEON_STOP_CLIENT_INTERRUPT = 3;</code>
+     * <code>_PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_CLIENT_INTERRUPT = 3;</code>
      */
-    PACMAN_DUNGEON_STOP_CLIENT_INTERRUPT(3),
+    _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_CLIENT_INTERRUPT(3),
     /**
-     * <code>PACMAN_DUNGEON_STOP_CANCEL = 4;</code>
+     * <code>_PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_CANCEL = 4;</code>
      */
-    PACMAN_DUNGEON_STOP_CANCEL(4),
+    _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_CANCEL(4),
     /**
-     * <code>PACMAN_DUNGEON_STOP_ACTIVITY_CLOSED = 5;</code>
+     * <code>_PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_ACTIVITY_CLOSED = 5;</code>
      */
-    PACMAN_DUNGEON_STOP_ACTIVITY_CLOSED(5),
+    _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_ACTIVITY_CLOSED(5),
     /**
-     * <code>PACMAN_DUNGEON_STOP_FAIL = 6;</code>
+     * <code>_PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_FAIL = 6;</code>
      */
-    PACMAN_DUNGEON_STOP_FAIL(6),
+    _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_FAIL(6),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>PACMAN_DUNGEON_STOP_NONE = 0;</code>
+     * <code>_PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_NONE = 0;</code>
      */
-    public static final int PACMAN_DUNGEON_STOP_NONE_VALUE = 0;
+    public static final int _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_NONE_VALUE = 0;
     /**
-     * <code>PACMAN_DUNGEON_STOP_SUCCESS = 1;</code>
+     * <code>_PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_SUCCESS = 1;</code>
      */
-    public static final int PACMAN_DUNGEON_STOP_SUCCESS_VALUE = 1;
+    public static final int _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_SUCCESS_VALUE = 1;
     /**
-     * <code>PACMAN_DUNGEON_STOP_TIMEUP = 2;</code>
+     * <code>_PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_TIMEUP = 2;</code>
      */
-    public static final int PACMAN_DUNGEON_STOP_TIMEUP_VALUE = 2;
+    public static final int _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_TIMEUP_VALUE = 2;
     /**
-     * <code>PACMAN_DUNGEON_STOP_CLIENT_INTERRUPT = 3;</code>
+     * <code>_PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_CLIENT_INTERRUPT = 3;</code>
      */
-    public static final int PACMAN_DUNGEON_STOP_CLIENT_INTERRUPT_VALUE = 3;
+    public static final int _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_CLIENT_INTERRUPT_VALUE = 3;
     /**
-     * <code>PACMAN_DUNGEON_STOP_CANCEL = 4;</code>
+     * <code>_PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_CANCEL = 4;</code>
      */
-    public static final int PACMAN_DUNGEON_STOP_CANCEL_VALUE = 4;
+    public static final int _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_CANCEL_VALUE = 4;
     /**
-     * <code>PACMAN_DUNGEON_STOP_ACTIVITY_CLOSED = 5;</code>
+     * <code>_PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_ACTIVITY_CLOSED = 5;</code>
      */
-    public static final int PACMAN_DUNGEON_STOP_ACTIVITY_CLOSED_VALUE = 5;
+    public static final int _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_ACTIVITY_CLOSED_VALUE = 5;
     /**
-     * <code>PACMAN_DUNGEON_STOP_FAIL = 6;</code>
+     * <code>_PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_FAIL = 6;</code>
      */
-    public static final int PACMAN_DUNGEON_STOP_FAIL_VALUE = 6;
+    public static final int _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_FAIL_VALUE = 6;
 
 
     public final int getNumber() {
@@ -104,13 +104,13 @@ public final class _PacmanDungeonStopReasonOuterClass {
      */
     public static _PacmanDungeonStopReason forNumber(int value) {
       switch (value) {
-        case 0: return PACMAN_DUNGEON_STOP_NONE;
-        case 1: return PACMAN_DUNGEON_STOP_SUCCESS;
-        case 2: return PACMAN_DUNGEON_STOP_TIMEUP;
-        case 3: return PACMAN_DUNGEON_STOP_CLIENT_INTERRUPT;
-        case 4: return PACMAN_DUNGEON_STOP_CANCEL;
-        case 5: return PACMAN_DUNGEON_STOP_ACTIVITY_CLOSED;
-        case 6: return PACMAN_DUNGEON_STOP_FAIL;
+        case 0: return _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_NONE;
+        case 1: return _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_SUCCESS;
+        case 2: return _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_TIMEUP;
+        case 3: return _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_CLIENT_INTERRUPT;
+        case 4: return _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_CANCEL;
+        case 5: return _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_ACTIVITY_CLOSED;
+        case 6: return _PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_FAIL;
         default: return null;
       }
     }
@@ -176,16 +176,20 @@ public final class _PacmanDungeonStopReasonOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\036_PacmanDungeonStopReason.proto*\212\002\n\030_Pa" +
-      "cmanDungeonStopReason\022\034\n\030PACMAN_DUNGEON_" +
-      "STOP_NONE\020\000\022\037\n\033PACMAN_DUNGEON_STOP_SUCCE" +
-      "SS\020\001\022\036\n\032PACMAN_DUNGEON_STOP_TIMEUP\020\002\022(\n$" +
-      "PACMAN_DUNGEON_STOP_CLIENT_INTERRUPT\020\003\022\036" +
-      "\n\032PACMAN_DUNGEON_STOP_CANCEL\020\004\022\'\n#PACMAN" +
-      "_DUNGEON_STOP_ACTIVITY_CLOSED\020\005\022\034\n\030PACMA" +
-      "N_DUNGEON_STOP_FAIL\020\006B?\n\031emu.grasscutter" +
-      ".net.protoB\"_PacmanDungeonStopReasonOute" +
-      "rClassb\006proto3"
+      "\n\036_PacmanDungeonStopReason.proto*\271\003\n\030_Pa" +
+      "cmanDungeonStopReason\0225\n1_PacmanDungeonS" +
+      "topReason_PACMAN_DUNGEON_STOP_NONE\020\000\0228\n4" +
+      "_PacmanDungeonStopReason_PACMAN_DUNGEON_" +
+      "STOP_SUCCESS\020\001\0227\n3_PacmanDungeonStopReas" +
+      "on_PACMAN_DUNGEON_STOP_TIMEUP\020\002\022A\n=_Pacm" +
+      "anDungeonStopReason_PACMAN_DUNGEON_STOP_" +
+      "CLIENT_INTERRUPT\020\003\0227\n3_PacmanDungeonStop" +
+      "Reason_PACMAN_DUNGEON_STOP_CANCEL\020\004\022@\n<_" +
+      "PacmanDungeonStopReason_PACMAN_DUNGEON_S" +
+      "TOP_ACTIVITY_CLOSED\020\005\0225\n1_PacmanDungeonS" +
+      "topReason_PACMAN_DUNGEON_STOP_FAIL\020\006B?\n\031" +
+      "emu.grasscutter.net.protoB\"_PacmanDungeo" +
+      "nStopReasonOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

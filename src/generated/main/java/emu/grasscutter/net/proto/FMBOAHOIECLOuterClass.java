@@ -596,8 +596,9 @@ public final class FMBOAHOIECLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FMBOAHOIECL.proto\"1\n\013FMBOAHOIECL\022\017\n\007is" +
-      "_open\030\n \001(\010\022\021\n\toption_id\030\013 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "_open\030\n \001(\010\022\021\n\toption_id\030\013 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025FMBOAHOIECLOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

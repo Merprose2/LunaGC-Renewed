@@ -2085,8 +2085,8 @@ public final class AvatarEnterSceneInfoOuterClass {
       "entity_id\030\t \001(\r\022*\n\013NGOJEFNPJIC\030\n \001(\0132\025.A" +
       "bilitySyncStateInfo\022*\n\013GODLJHOJHPH\030\014 \001(\013" +
       "2\025.AbilitySyncStateInfo\022\023\n\013avatar_guid\030\017" +
-      " \001(\004B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\004B;\n\031emu.grasscutter.net.protoB\036Avata" +
+      "rEnterSceneInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

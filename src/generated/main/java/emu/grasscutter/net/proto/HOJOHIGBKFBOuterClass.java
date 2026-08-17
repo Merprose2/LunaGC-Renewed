@@ -27,11 +27,11 @@ public final class HOJOHIGBKFBOuterClass {
      * <code>._BeyondChatIndex IJNGFCFOOGL = 3;</code>
      * @return The iJNGFCFOOGL.
      */
-    emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex getIJNGFCFOOGL();
+    emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex getIJNGFCFOOGL();
     /**
      * <code>._BeyondChatIndex IJNGFCFOOGL = 3;</code>
      */
-    emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndexOrBuilder getIJNGFCFOOGLOrBuilder();
+    emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndexOrBuilder getIJNGFCFOOGLOrBuilder();
 
     /**
      * <code>bool DMOAFJHLHMH = 4;</code>
@@ -95,11 +95,11 @@ public final class HOJOHIGBKFBOuterClass {
               done = true;
               break;
             case 26: {
-              emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.Builder subBuilder = null;
               if (iJNGFCFOOGL_ != null) {
                 subBuilder = iJNGFCFOOGL_.toBuilder();
               }
-              iJNGFCFOOGL_ = input.readMessage(emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.parser(), extensionRegistry);
+              iJNGFCFOOGL_ = input.readMessage(emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(iJNGFCFOOGL_);
                 iJNGFCFOOGL_ = subBuilder.buildPartial();
@@ -150,7 +150,7 @@ public final class HOJOHIGBKFBOuterClass {
     }
 
     public static final int IJNGFCFOOGL_FIELD_NUMBER = 3;
-    private emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex iJNGFCFOOGL_;
+    private emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex iJNGFCFOOGL_;
     /**
      * <code>._BeyondChatIndex IJNGFCFOOGL = 3;</code>
      * @return Whether the iJNGFCFOOGL field is set.
@@ -164,14 +164,14 @@ public final class HOJOHIGBKFBOuterClass {
      * @return The iJNGFCFOOGL.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex getIJNGFCFOOGL() {
-      return iJNGFCFOOGL_ == null ? emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.getDefaultInstance() : iJNGFCFOOGL_;
+    public emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex getIJNGFCFOOGL() {
+      return iJNGFCFOOGL_ == null ? emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.getDefaultInstance() : iJNGFCFOOGL_;
     }
     /**
      * <code>._BeyondChatIndex IJNGFCFOOGL = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndexOrBuilder getIJNGFCFOOGLOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndexOrBuilder getIJNGFCFOOGLOrBuilder() {
       return getIJNGFCFOOGL();
     }
 
@@ -551,9 +551,9 @@ public final class HOJOHIGBKFBOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex iJNGFCFOOGL_;
+      private emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex iJNGFCFOOGL_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex, emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.Builder, emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndexOrBuilder> iJNGFCFOOGLBuilder_;
+          emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex, emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.Builder, emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndexOrBuilder> iJNGFCFOOGLBuilder_;
       /**
        * <code>._BeyondChatIndex IJNGFCFOOGL = 3;</code>
        * @return Whether the iJNGFCFOOGL field is set.
@@ -565,9 +565,9 @@ public final class HOJOHIGBKFBOuterClass {
        * <code>._BeyondChatIndex IJNGFCFOOGL = 3;</code>
        * @return The iJNGFCFOOGL.
        */
-      public emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex getIJNGFCFOOGL() {
+      public emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex getIJNGFCFOOGL() {
         if (iJNGFCFOOGLBuilder_ == null) {
-          return iJNGFCFOOGL_ == null ? emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.getDefaultInstance() : iJNGFCFOOGL_;
+          return iJNGFCFOOGL_ == null ? emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.getDefaultInstance() : iJNGFCFOOGL_;
         } else {
           return iJNGFCFOOGLBuilder_.getMessage();
         }
@@ -575,7 +575,7 @@ public final class HOJOHIGBKFBOuterClass {
       /**
        * <code>._BeyondChatIndex IJNGFCFOOGL = 3;</code>
        */
-      public Builder setIJNGFCFOOGL(emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex value) {
+      public Builder setIJNGFCFOOGL(emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex value) {
         if (iJNGFCFOOGLBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -592,7 +592,7 @@ public final class HOJOHIGBKFBOuterClass {
        * <code>._BeyondChatIndex IJNGFCFOOGL = 3;</code>
        */
       public Builder setIJNGFCFOOGL(
-          emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.Builder builderForValue) {
         if (iJNGFCFOOGLBuilder_ == null) {
           iJNGFCFOOGL_ = builderForValue.build();
           onChanged();
@@ -605,11 +605,11 @@ public final class HOJOHIGBKFBOuterClass {
       /**
        * <code>._BeyondChatIndex IJNGFCFOOGL = 3;</code>
        */
-      public Builder mergeIJNGFCFOOGL(emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex value) {
+      public Builder mergeIJNGFCFOOGL(emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex value) {
         if (iJNGFCFOOGLBuilder_ == null) {
           if (iJNGFCFOOGL_ != null) {
             iJNGFCFOOGL_ =
-              emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.newBuilder(iJNGFCFOOGL_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.newBuilder(iJNGFCFOOGL_).mergeFrom(value).buildPartial();
           } else {
             iJNGFCFOOGL_ = value;
           }
@@ -637,7 +637,7 @@ public final class HOJOHIGBKFBOuterClass {
       /**
        * <code>._BeyondChatIndex IJNGFCFOOGL = 3;</code>
        */
-      public emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.Builder getIJNGFCFOOGLBuilder() {
+      public emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.Builder getIJNGFCFOOGLBuilder() {
         
         onChanged();
         return getIJNGFCFOOGLFieldBuilder().getBuilder();
@@ -645,23 +645,23 @@ public final class HOJOHIGBKFBOuterClass {
       /**
        * <code>._BeyondChatIndex IJNGFCFOOGL = 3;</code>
        */
-      public emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndexOrBuilder getIJNGFCFOOGLOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndexOrBuilder getIJNGFCFOOGLOrBuilder() {
         if (iJNGFCFOOGLBuilder_ != null) {
           return iJNGFCFOOGLBuilder_.getMessageOrBuilder();
         } else {
           return iJNGFCFOOGL_ == null ?
-              emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.getDefaultInstance() : iJNGFCFOOGL_;
+              emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.getDefaultInstance() : iJNGFCFOOGL_;
         }
       }
       /**
        * <code>._BeyondChatIndex IJNGFCFOOGL = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex, emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.Builder, emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndexOrBuilder> 
+          emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex, emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.Builder, emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndexOrBuilder> 
           getIJNGFCFOOGLFieldBuilder() {
         if (iJNGFCFOOGLBuilder_ == null) {
           iJNGFCFOOGLBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex, emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndex.Builder, emu.grasscutter.net.proto.BeyondChatIndex._BeyondChatIndexOrBuilder>(
+              emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex, emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndex.Builder, emu.grasscutter.net.proto._BeyondChatIndexOuterClass._BeyondChatIndexOrBuilder>(
                   getIJNGFCFOOGL(),
                   getParentForChildren(),
                   isClean());
@@ -801,13 +801,13 @@ public final class HOJOHIGBKFBOuterClass {
       "\n\021HOJOHIGBKFB.proto\032\026_BeyondChatIndex.pr" +
       "oto\"_\n\013HOJOHIGBKFB\022&\n\013IJNGFCFOOGL\030\003 \001(\0132" +
       "\021._BeyondChatIndex\022\023\n\013DMOAFJHLHMH\030\004 \001(\010\022" +
-      "\023\n\013HMDOFLMMGDI\030\t \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\023\n\013HMDOFLMMGDI\030\t \001(\rB2\n\031emu.grasscutter." +
+      "net.protoB\025HOJOHIGBKFBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BeyondChatIndex.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondChatIndexOuterClass.getDescriptor(),
         });
     internal_static_HOJOHIGBKFB_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -815,7 +815,7 @@ public final class HOJOHIGBKFBOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_HOJOHIGBKFB_descriptor,
         new java.lang.String[] { "IJNGFCFOOGL", "DMOAFJHLHMH", "HMDOFLMMGDI", });
-    emu.grasscutter.net.proto.BeyondChatIndex.getDescriptor();
+    emu.grasscutter.net.proto._BeyondChatIndexOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

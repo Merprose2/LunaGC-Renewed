@@ -526,8 +526,8 @@ public final class KOMOBKOBHJNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KOMOBKOBHJN.proto\"#\n\013KOMOBKOBHJN\022\024\n\014is" +
-      "_collected\030\017 \001(\010B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "_collected\030\017 \001(\010B2\n\031emu.grasscutter.net." +
+      "protoB\025KOMOBKOBHJNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

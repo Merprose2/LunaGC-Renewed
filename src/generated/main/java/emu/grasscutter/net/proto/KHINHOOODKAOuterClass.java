@@ -924,8 +924,9 @@ public final class KHINHOOODKAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KHINHOOODKA.proto\032\014Vector.proto\"F\n\013KHI" +
       "NHOOODKA\022\013\n\003uid\030\001 \001(\r\022\024\n\003rot\030\013 \001(\0132\007.Vec" +
-      "tor\022\024\n\003pos\030\r \001(\0132\007.VectorB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "tor\022\024\n\003pos\030\r \001(\0132\007.VectorB2\n\031emu.grasscu" +
+      "tter.net.protoB\025KHINHOOODKAOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

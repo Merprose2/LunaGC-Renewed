@@ -856,7 +856,8 @@ public final class FleurFairBalloonSettleNotifyOuterClass {
       "SettleInfoMapEntry\022\023\n\013minigame_id\030\016 \001(\r\032" +
       "Q\n\022SettleInfoMapEntry\022\013\n\003key\030\001 \001(\r\022*\n\005va" +
       "lue\030\002 \001(\0132\033.FleurFairBalloonSettleInfo:\002" +
-      "8\001B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "8\001BC\n\031emu.grasscutter.net.protoB&FleurFa" +
+      "irBalloonSettleNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

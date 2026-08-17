@@ -731,8 +731,9 @@ public final class NMLCDKAMBGIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NMLCDKAMBGI.proto\"Z\n\013NMLCDKAMBGI\022\014\n\004mo" +
       "de\030\001 \001(\r\022\023\n\013DNJFEHLGLPM\030\002 \001(\010\022\023\n\013PCFJMCN" +
-      "JDHN\030\003 \001(\r\022\023\n\013IJEEIGNBMJF\030\004 \001(\002B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "JDHN\030\003 \001(\r\022\023\n\013IJEEIGNBMJF\030\004 \001(\002B2\n\031emu.g" +
+      "rasscutter.net.protoB\025NMLCDKAMBGIOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

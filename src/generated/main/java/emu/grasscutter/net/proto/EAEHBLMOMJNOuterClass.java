@@ -2118,8 +2118,9 @@ public final class EAEHBLMOMJNOuterClass {
       "data\030\004 \001(\0132\030.EAEHBLMOMJN.KJDGCLCLECK\022\023\n\013" +
       "NGEDGDGBAID\030\005 \001(\014\022\023\n\013NJKJHJEAKEJ\030\006 \001(\t\032B" +
       "\n\013KJDGCLCLECK\022\020\n\010level_id\030\001 \001(\004\022!\n\013HFAGE" +
-      "NIEFLB\030\002 \003(\0132\014.NMKBKJGMNPIB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "NIEFLB\030\002 \003(\0132\014.NMKBKJGMNPIB2\n\031emu.grassc" +
+      "utter.net.protoB\025EAEHBLMOMJNOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -596,8 +596,9 @@ public final class DailyTaskFilterCityRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034DailyTaskFilterCityRsp.proto\":\n\026DailyT" +
       "askFilterCityRsp\022\017\n\007retcode\030\001 \001(\005\022\017\n\007cit" +
-      "y_id\030\010 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "y_id\030\010 \001(\rB=\n\031emu.grasscutter.net.protoB" +
+      " DailyTaskFilterCityRspOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

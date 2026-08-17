@@ -659,7 +659,8 @@ public final class MIKMBPNBIIEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MIKMBPNBIIE.proto\032\021FLHLALHGIOJ.proto\")" +
       "\n\013MIKMBPNBIIE\022\032\n\004data\030\003 \001(\0132\014.FLHLALHGIO" +
-      "JB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "JB2\n\031emu.grasscutter.net.protoB\025MIKMBPNB" +
+      "IIEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

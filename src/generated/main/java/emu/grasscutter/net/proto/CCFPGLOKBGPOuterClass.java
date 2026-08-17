@@ -152,8 +152,8 @@ public final class CCFPGLOKBGPOuterClass {
       "\n\021CCFPGLOKBGP.proto*s\n\013CCFPGLOKBGP\022\024\n\020CC" +
       "FPGLOKBGP_NONE\020\000\022\034\n\030CCFPGLOKBGP_LOCAL_BU" +
       "LLET\020\001\022\033\n\027CCFPGLOKBGP_DROP_GATHER\020\002\022\023\n\017C" +
-      "CFPGLOKBGP_ESP\020\003B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "CFPGLOKBGP_ESP\020\003B2\n\031emu.grasscutter.net." +
+      "protoB\025CCFPGLOKBGPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

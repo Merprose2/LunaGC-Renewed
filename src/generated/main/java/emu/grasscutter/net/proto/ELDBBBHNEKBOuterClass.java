@@ -596,8 +596,9 @@ public final class ELDBBBHNEKBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ELDBBBHNEKB.proto\"1\n\013ELDBBBHNEKB\022\020\n\010dr" +
-      "aft_id\030\n \001(\r\022\020\n\010is_agree\030\017 \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "aft_id\030\n \001(\r\022\020\n\010is_agree\030\017 \001(\010B2\n\031emu.gr" +
+      "asscutter.net.protoB\025ELDBBBHNEKBOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1042,8 +1042,9 @@ public final class MHLBHOOEMFEOuterClass {
       "\n\021MHLBHOOEMFE.proto\032\017ItemParam.proto\"k\n\013" +
       "MHLBHOOEMFE\022\023\n\013DLLCEFEPKCA\030\004 \001(\r\022\035\n\titem" +
       "_list\030\010 \003(\0132\n.ItemParam\022\023\n\013DKNHLJDECEH\030\n" +
-      " \001(\r\022\023\n\013schedule_id\030\016 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      " \001(\r\022\023\n\013schedule_id\030\016 \001(\rB2\n\031emu.grasscu" +
+      "tter.net.protoB\025MHLBHOOEMFEOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

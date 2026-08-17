@@ -809,8 +809,8 @@ public final class ANENBCAMLIGOuterClass {
       "\n\021ANENBCAMLIG.proto\"p\n\013ANENBCAMLIG\022\022\n\nso" +
       "urce_uid\030\001 \001(\r\022\023\n\013OHIFIHIIHND\030\003 \001(\004\022\022\n\nt" +
       "arget_uid\030\005 \001(\r\022\023\n\013BKEPKGDGPAH\030\006 \001(\010\022\017\n\007" +
-      "retcode\030\010 \001(\005B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "retcode\030\010 \001(\005B2\n\031emu.grasscutter.net.pro" +
+      "toB\025ANENBCAMLIGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

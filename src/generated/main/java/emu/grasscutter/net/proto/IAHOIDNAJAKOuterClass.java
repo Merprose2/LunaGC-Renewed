@@ -2810,8 +2810,8 @@ public final class IAHOIDNAJAKOuterClass {
       "\013NIGPIFBBIBF\030\n \001(\0132\014.AFIJAPODGEG\022!\n\013FMGJ" +
       "IMFPEDE\030\013 \003(\0132\014.AGNBIEBBOFE\022!\n\013BEGCFENNF" +
       "PM\030\014 \003(\0132\014.AGNBIEBBOFE\022!\n\013OFLNJAJJKDO\030\r " +
-      "\003(\0132\014.AGNBIEBBOFEB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\003(\0132\014.AGNBIEBBOFEB2\n\031emu.grasscutter.net" +
+      ".protoB\025IAHOIDNAJAKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -739,8 +739,8 @@ public final class TryEnterHomeReqOuterClass {
       "\n\025TryEnterHomeReq.proto\"e\n\017TryEnterHomeR" +
       "eq\022\024\n\014target_point\030\005 \001(\r\022\023\n\013ONGILLPHHKK\030" +
       "\006 \001(\010\022\023\n\013MBAFIHEJMPA\030\010 \001(\010\022\022\n\ntarget_uid" +
-      "\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\016 \001(\rB6\n\031emu.grasscutter.net.protoB\031Try" +
+      "EnterHomeReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

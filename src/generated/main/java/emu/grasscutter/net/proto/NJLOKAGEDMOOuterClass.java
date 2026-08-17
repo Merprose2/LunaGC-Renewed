@@ -2115,8 +2115,9 @@ public final class NJLOKAGEDMOOuterClass {
       "\013MIFMEEJEKBE\030\001 \001(\010\022\020\n\010level_id\030\002 \001(\004\022\023\n\013" +
       "_level_name\030\003 \001(\t\022\023\n\013CCGBNLMGICN\030\004 \001(\t\022!" +
       "\n\013AAEIJKBBMIB\030\005 \001(\0132\014.FLJNOAOAJCP\022\023\n\013LNH" +
-      "IBIMOACE\030\006 \001(\t\022\023\n\013KBKLIHAKDEG\030\007 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "IBIMOACE\030\006 \001(\t\022\023\n\013KBKLIHAKDEG\030\007 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025NJLOKAGEDMOOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

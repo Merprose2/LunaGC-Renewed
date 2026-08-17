@@ -926,7 +926,8 @@ public final class HJAIMALGPBEOuterClass {
       "LHHJKKAHACL.proto\"h\n\013HJAIMALGPBE\022!\n\013ANNN" +
       "JLJLMEI\030\001 \001(\0132\014.LHHJKKAHACL\022!\n\013PABAAFOHP" +
       "PD\030\002 \001(\0132\014.LEHPBFHHAID\022\023\n\013MPEJPDLNNLI\030\003 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025HJAIMA" +
+      "LGPBEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

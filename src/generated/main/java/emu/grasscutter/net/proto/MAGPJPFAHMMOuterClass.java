@@ -630,8 +630,9 @@ public final class MAGPJPFAHMMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MAGPJPFAHMM.proto\"-\n\013MAGPJPFAHMM\022\024\n\tre" +
-      "d_point\030\264\004 \001(\rH\000B\010\n\006detailB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "d_point\030\264\004 \001(\rH\000B\010\n\006detailB2\n\031emu.grassc" +
+      "utter.net.protoB\025MAGPJPFAHMMOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

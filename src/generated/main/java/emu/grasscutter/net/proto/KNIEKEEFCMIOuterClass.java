@@ -722,8 +722,9 @@ public final class KNIEKEEFCMIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KNIEKEEFCMI.proto\"7\n\013KNIEKEEFCMI\022\023\n\013CO" +
-      "BJMBDPPIP\030\005 \003(\004\022\023\n\013OLGBLCNIAEF\030\t \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "BJMBDPPIP\030\005 \003(\004\022\023\n\013OLGBLCNIAEF\030\t \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025KNIEKEEFCMIOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

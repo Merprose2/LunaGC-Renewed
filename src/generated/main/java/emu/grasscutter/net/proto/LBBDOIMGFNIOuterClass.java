@@ -587,8 +587,9 @@ public final class LBBDOIMGFNIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LBBDOIMGFNI.proto\"5\n\013LBBDOIMGFNI\022\021\n\tcu" +
-      "r_value\030\006 \001(\r\022\023\n\013KLCNHCOPGAK\030\007 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "r_value\030\006 \001(\r\022\023\n\013KLCNHCOPGAK\030\007 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025LBBDOIMGFNIOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

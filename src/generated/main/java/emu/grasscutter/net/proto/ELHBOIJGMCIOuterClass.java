@@ -1751,8 +1751,8 @@ public final class ELHBOIJGMCIOuterClass {
       "LAH\030\006 \001(\0162\014.LNDLELACCJF\022\023\n\013EJGLFJCAPDA\030\007" +
       " \001(\t\022!\n\013MGIMDAEMHNO\030\010 \001(\0132\014.GLLPFPEKPAJ\022" +
       "!\n\013ICFIINBDAOL\030\t \001(\0132\014.GLLPFPEKPAJ\022\023\n\013EO" +
-      "HNJGDPBML\030\n \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "HNJGDPBML\030\n \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025ELHBOIJGMCIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

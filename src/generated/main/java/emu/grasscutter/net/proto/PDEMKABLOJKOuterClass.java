@@ -1983,8 +1983,9 @@ public final class PDEMKABLOJKOuterClass {
       "NAGACOJMJH\000\0220\n\030rotate_to_dir_mover_data\030" +
       "\016 \001(\0132\014.KFBKOEGLALAH\000\0220\n\030fixed_pos_rot_m" +
       "over_data\030\017 \001(\0132\014.LEMFCMJJCGPH\000\022\"\n\013IBEIN" +
-      "DABLAE\030\366\003 \001(\0132\014.CBOPLAEPEFAB\010\n\006detailB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "DABLAE\030\366\003 \001(\0132\014.CBOPLAEPEFAB\010\n\006detailB2\n" +
+      "\031emu.grasscutter.net.protoB\025PDEMKABLOJKO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

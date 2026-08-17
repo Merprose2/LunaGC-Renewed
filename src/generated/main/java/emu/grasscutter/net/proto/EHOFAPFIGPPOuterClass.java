@@ -729,8 +729,9 @@ public final class EHOFAPFIGPPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EHOFAPFIGPP.proto\"a\n\013EHOFAPFIGPP\022\023\n\013GO" +
       "HAEJGAPPJ\030\005 \001(\r\022\023\n\013CDHDPIAPGDE\030\006 \001(\r\022\023\n\013" +
-      "EEJKKGMCCFH\030\010 \001(\r\022\023\n\013DHLBAPDOFMF\030\t \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "EEJKKGMCCFH\030\010 \001(\r\022\023\n\013DHLBAPDOFMF\030\t \001(\010B2" +
+      "\n\031emu.grasscutter.net.protoB\025EHOFAPFIGPP" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -838,8 +838,9 @@ public final class BPKLFJKJJBJOuterClass {
       "\n\021BPKLFJKJJBJ.proto\032\021OCGNLFPIONC.proto\032\r" +
       "UgcType.proto\"X\n\013BPKLFJKJJBJ\022\030\n\002op\030\007 \001(\013" +
       "2\014.OCGNLFPIONC\022\032\n\010ugc_type\030\016 \001(\0162\010.UgcTy" +
-      "pe\022\023\n\013target_guid\030\017 \001(\004B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "pe\022\023\n\013target_guid\030\017 \001(\004B2\n\031emu.grasscutt" +
+      "er.net.protoB\025BPKLFJKJJBJOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

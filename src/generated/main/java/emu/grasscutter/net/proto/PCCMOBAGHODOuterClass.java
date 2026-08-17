@@ -791,8 +791,9 @@ public final class PCCMOBAGHODOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PCCMOBAGHOD.proto\032\014Vector.proto\"H\n\013PCC" +
       "MOBAGHOD\022\024\n\003pos\030\002 \001(\0132\007.Vector\022\020\n\010group_" +
-      "id\030\014 \001(\r\022\021\n\tconfig_id\030\016 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "id\030\014 \001(\r\022\021\n\tconfig_id\030\016 \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025PCCMOBAGHODOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

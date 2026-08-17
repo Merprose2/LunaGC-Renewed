@@ -819,7 +819,8 @@ public final class EMOKCEENJGHOuterClass {
       "\n\021EMOKCEENJGH.proto\032\021JAKODDHHNKD.proto\"O" +
       "\n\013EMOKCEENJGH\022\023\n\013CDEAHMFAJEC\030\001 \001(\005\022!\n\tel" +
       "e_group\030\013 \001(\0132\014.JAKODDHHNKDH\000B\010\n\006detailB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025EMOKCEENJG" +
+      "HOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

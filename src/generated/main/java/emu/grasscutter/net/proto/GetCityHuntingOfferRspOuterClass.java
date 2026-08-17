@@ -1319,8 +1319,8 @@ public final class GetCityHuntingOfferRspOuterClass {
       "ntingOfferData\022\037\n\027cur_week_finished_coun" +
       "t\030\005 \001(\r\022*\n\024ongoing_hunting_pair\030\n \001(\0132\014." +
       "HuntingPair\022\017\n\007retcode\030\014 \001(\005\022\017\n\007city_id\030" +
-      "\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\016 \001(\rB=\n\031emu.grasscutter.net.protoB GetC" +
+      "ityHuntingOfferRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

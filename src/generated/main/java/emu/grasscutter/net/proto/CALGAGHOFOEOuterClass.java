@@ -595,8 +595,9 @@ public final class CALGAGHOFOEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CALGAGHOFOE.proto\"3\n\013CALGAGHOFOE\022\020\n\010gr" +
-      "oup_id\030\003 \001(\r\022\022\n\nplay_index\030\006 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "oup_id\030\003 \001(\r\022\022\n\nplay_index\030\006 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025CALGAGHOFOEOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

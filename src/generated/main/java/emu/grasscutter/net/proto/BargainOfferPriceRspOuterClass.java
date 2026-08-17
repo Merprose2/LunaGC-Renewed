@@ -775,8 +775,9 @@ public final class BargainOfferPriceRspOuterClass {
       "ultType.proto\"{\n\024BargainOfferPriceRsp\022\017\n" +
       "\007retcode\030\001 \001(\005\022\024\n\014result_param\030\003 \001(\r\022\020\n\010" +
       "cur_mood\030\007 \001(\005\022*\n\016bargain_result\030\t \001(\0162\022" +
-      ".BargainResultTypeB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      ".BargainResultTypeB;\n\031emu.grasscutter.ne" +
+      "t.protoB\036BargainOfferPriceRspOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

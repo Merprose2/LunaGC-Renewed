@@ -855,8 +855,8 @@ public final class AFLEJDGBOGBOuterClass {
       "\n\021AFLEJDGBOGB.proto\032\021CBBEIGNAOHC.proto\032\021" +
       "IIAKIEOBENG.proto\"L\n\013AFLEJDGBOGB\022\032\n\004data" +
       "\030\001 \001(\0132\014.CBBEIGNAOHC\022!\n\013DEBHBAINJIC\030\002 \001(" +
-      "\0132\014.IIAKIEOBENGB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\0132\014.IIAKIEOBENGB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025AFLEJDGBOGBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

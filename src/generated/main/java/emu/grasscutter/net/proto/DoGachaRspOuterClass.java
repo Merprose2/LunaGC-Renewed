@@ -2176,8 +2176,9 @@ public final class DoGachaRspOuterClass {
       "ily_gacha_times\030t \001(\r\022!\n\030is_under_minors" +
       "_restrict\030\321\006 \001(\010\022\"\n\031is_under_general_res" +
       "trict\030\375\010 \001(\010\022\026\n\ris_epitomized\030\323\014 \001(\010\022\032\n\021" +
-      "daily_gacha_times\030\235\017 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "daily_gacha_times\030\235\017 \001(\rB1\n\031emu.grasscut" +
+      "ter.net.protoB\024DoGachaRspOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

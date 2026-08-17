@@ -191,8 +191,8 @@ public final class DJNKPMBLOIPOuterClass {
       "\022\025\n\021DJNKPMBLOIP_OWNER\020\003\022\027\n\023DJNKPMBLOIP_H" +
       "ISTORY\020\004\022\026\n\022DJNKPMBLOIP_SEARCH\020\005\022\030\n\024DJNK" +
       "PMBLOIP_OFFICIAL\020\006\022\030\n\024DJNKPMBLOIP_TEMPLA" +
-      "TE\020\007B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "TE\020\007B2\n\031emu.grasscutter.net.protoB\025DJNKP" +
+      "MBLOIPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

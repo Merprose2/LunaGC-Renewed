@@ -1096,7 +1096,8 @@ public final class JDPJCNBEHMDOuterClass {
       "\n\021JDPJCNBEHMD.proto\032\021CGGCEBBKOEL.proto\"P" +
       "\n\013JDPJCNBEHMD\022\017\n\007retcode\030\013 \001(\005\022\033\n\005nodes\030" +
       "\r \003(\0132\014.CGGCEBBKOEL\022\023\n\013CMBCDDFOKKA\030\016 \003(\005" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025JDPJCNBEH" +
+      "MDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

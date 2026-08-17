@@ -1006,8 +1006,9 @@ public final class PathfindingEnterSceneReqOuterClass {
       "hfindingEnterSceneReq\022\020\n\010scene_id\030\004 \001(\r\022" +
       "\023\n\013EGFNPPMOEJI\030\006 \001(\r\022\017\n\007version\030\007 \001(\r\022\023\n" +
       "\013EMABCCIAIDI\030\t \001(\r\022\023\n\013ENFIHPOEKEO\030\013 \003(\005\022" +
-      "\021\n\tis_editor\030\r \001(\010B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\021\n\tis_editor\030\r \001(\010B?\n\031emu.grasscutter.ne" +
+      "t.protoB\"PathfindingEnterSceneReqOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

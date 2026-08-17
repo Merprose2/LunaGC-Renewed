@@ -933,8 +933,9 @@ public final class FDACILNFINBOuterClass {
       "\n\021FDACILNFINB.proto\032\020Uint32Pair.proto\"f\n" +
       "\013FDACILNFINB\022 \n\013PBABLBJKCBL\030\005 \001(\0132\013.Uint" +
       "32Pair\022 \n\013NNNHLBAJJFM\030\010 \001(\0132\013.Uint32Pair" +
-      "\022\023\n\013KMDOFBPMGAI\030\016 \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\022\023\n\013KMDOFBPMGAI\030\016 \001(\rB2\n\031emu.grasscutter" +
+      ".net.protoB\025FDACILNFINBOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

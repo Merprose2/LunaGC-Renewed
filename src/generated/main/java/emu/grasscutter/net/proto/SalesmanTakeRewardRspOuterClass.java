@@ -737,8 +737,8 @@ public final class SalesmanTakeRewardRspOuterClass {
       "\n\033SalesmanTakeRewardRsp.proto\"b\n\025Salesma" +
       "nTakeRewardRsp\022\017\n\007retcode\030\002 \001(\005\022\023\n\013sched" +
       "ule_id\030\003 \001(\r\022\021\n\treward_id\030\004 \001(\r\022\020\n\010posit" +
-      "ion\030\010 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "ion\030\010 \001(\rB<\n\031emu.grasscutter.net.protoB\037" +
+      "SalesmanTakeRewardRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

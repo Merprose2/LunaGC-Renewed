@@ -1201,7 +1201,9 @@ public final class GravenInnocenceRaceSettleNotifyOuterClass {
       "\r\022\020\n\010level_id\030\n \001(\r\022\023\n\013LNFCEIJOGKN\030\013 \001(\r" +
       "\022\022\n\ngallery_id\030\014 \001(\r\022\r\n\005score\030\r \001(\r\022\032\n\022c" +
       "hallenge_progress\030\016 \001(\r\022\022\n\nis_success\030\017 " +
-      "\001(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\010BF\n\031emu.grasscutter.net.protoB)Graven" +
+      "InnocenceRaceSettleNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

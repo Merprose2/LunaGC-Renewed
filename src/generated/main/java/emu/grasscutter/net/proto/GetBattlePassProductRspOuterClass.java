@@ -967,8 +967,9 @@ public final class GetBattlePassProductRspOuterClass {
       "\n\035GetBattlePassProductRsp.proto\"|\n\027GetBa" +
       "ttlePassProductRsp\022\023\n\013LCKNCHJDKII\030\001 \001(\r\022" +
       "\022\n\nproduct_id\030\004 \001(\t\022\017\n\007retcode\030\n \001(\005\022\022\n\n" +
-      "price_tier\030\014 \001(\t\022\023\n\013PFIBHDIDIGN\030\016 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "price_tier\030\014 \001(\t\022\023\n\013PFIBHDIDIGN\030\016 \001(\rB>\n" +
+      "\031emu.grasscutter.net.protoB!GetBattlePas" +
+      "sProductRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -171,8 +171,9 @@ public final class CJIHEHAFDPCOuterClass {
       "JIHEHAFDPC_NONE\020\000\022\031\n\025CJIHEHAFDPC_SNAP_SH" +
       "OT\020\001\022\024\n\020CJIHEHAFDPC_INIT\020\002\022\032\n\026CJIHEHAFDP" +
       "C_BALL_SCORE\020\003\022\025\n\021CJIHEHAFDPC_SHOOT\020\004\022\026\n" +
-      "\022CJIHEHAFDPC_EFFECT\020\005B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\022CJIHEHAFDPC_EFFECT\020\005B2\n\031emu.grasscutter" +
+      ".net.protoB\025CJIHEHAFDPCOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

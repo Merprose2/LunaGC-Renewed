@@ -1043,8 +1043,9 @@ public final class DraftOwnerStartInviteRspOuterClass {
       "nviteFailInfo.proto\"\205\001\n\030DraftOwnerStartI" +
       "nviteRsp\0223\n\025invite_fail_info_list\030\005 \003(\0132" +
       "\024.DraftInviteFailInfo\022\017\n\007retcode\030\010 \001(\005\022\021" +
-      "\n\twrong_uid\030\n \001(\r\022\020\n\010draft_id\030\r \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\n\twrong_uid\030\n \001(\r\022\020\n\010draft_id\030\r \001(\rB?\n\031e" +
+      "mu.grasscutter.net.protoB\"DraftOwnerStar" +
+      "tInviteRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

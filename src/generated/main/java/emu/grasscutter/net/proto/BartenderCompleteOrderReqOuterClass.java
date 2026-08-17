@@ -1006,8 +1006,9 @@ public final class BartenderCompleteOrderReqOuterClass {
       "rtenderCompleteOrderReq\022\023\n\013CAGODOBPKDI\030\003" +
       " \001(\r\022\033\n\023optional_order_list\030\004 \003(\r\022\021\n\tqte" +
       "_count\030\005 \001(\r\022\027\n\017is_view_formula\030\010 \001(\010\022\023\n" +
-      "\013JBNMPPLGFIA\030\t \001(\r\022\020\n\010quest_id\030\n \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\013JBNMPPLGFIA\030\t \001(\r\022\020\n\010quest_id\030\n \001(\rB@\n\031" +
+      "emu.grasscutter.net.protoB#BartenderComp" +
+      "leteOrderReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1300,7 +1300,8 @@ public final class PBDNAHFDJDAOuterClass {
       " \001(\r\022\r\n\005index\030\007 \001(\r\022\023\n\013BFMIKLCCDLD\030\n \001(\r" +
       "\022\022\n\naffix_list\030\r \003(\r\022!\n\013JFCGNHPCFED\030\016 \003(" +
       "\0132\014.JGMPOFADACG\022\032\n\022_chess_level_up_id\030\017 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025PBDNAH" +
+      "FDJDAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

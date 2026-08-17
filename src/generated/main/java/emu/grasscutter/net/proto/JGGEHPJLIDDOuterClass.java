@@ -760,8 +760,9 @@ public final class JGGEHPJLIDDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JGGEHPJLIDD.proto\032\021BMLEDEPFOEA.proto\"=" +
       "\n\013JGGEHPJLIDD\022\020\n\010uid_list\030\006 \003(\r\022\034\n\006reaso" +
-      "n\030\017 \001(\0162\014.BMLEDEPFOEAB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "n\030\017 \001(\0162\014.BMLEDEPFOEAB2\n\031emu.grasscutter" +
+      ".net.protoB\025JGGEHPJLIDDOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

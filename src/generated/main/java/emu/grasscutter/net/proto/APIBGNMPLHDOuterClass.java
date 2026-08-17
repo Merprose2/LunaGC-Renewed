@@ -414,8 +414,8 @@ public final class APIBGNMPLHDOuterClass {
       "HD_STRUCT_LIST\020\032\022\024\n\020APIBGNMPLHD_DICT\020\033\022%" +
       "\n!APIBGNMPLHD_CUSTOM_VALUE_SNAPSHOT\020\034\022\031\n" +
       "\025APIBGNMPLHD_ENUM_LIST\020\035\022\023\n\017APIBGNMPLHD_" +
-      "MAX\0202B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "MAX\0202B2\n\031emu.grasscutter.net.protoB\025APIB" +
+      "GNMPLHDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

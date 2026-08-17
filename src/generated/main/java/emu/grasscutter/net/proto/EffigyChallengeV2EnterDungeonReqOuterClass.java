@@ -668,7 +668,9 @@ public final class EffigyChallengeV2EnterDungeonReqOuterClass {
       "\"x\n EffigyChallengeV2EnterDungeonReq\022!\n\031" +
       "challenge_mode_difficulty\030\007 \001(\r\022\037\n\027chall" +
       "enge_mode_skill_no\030\010 \001(\r\022\020\n\010level_id\030\n \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rBG\n\031emu.grasscutter.net.protoB*EffigyC" +
+      "hallengeV2EnterDungeonReqOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

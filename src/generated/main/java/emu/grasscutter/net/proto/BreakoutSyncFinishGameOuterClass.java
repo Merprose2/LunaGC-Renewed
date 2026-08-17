@@ -662,7 +662,8 @@ public final class BreakoutSyncFinishGameOuterClass {
       "\n\034BreakoutSyncFinishGame.proto\"[\n\026Breako" +
       "utSyncFinishGame\022\016\n\006is_win\030\005 \001(\010\022\030\n\020serv" +
       "er_game_time\030\016 \001(\004\022\027\n\017is_stop_gallery\030\017 " +
-      "\001(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\010B=\n\031emu.grasscutter.net.protoB Breako" +
+      "utSyncFinishGameOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -239,8 +239,8 @@ public final class FDEMMOPAGNAOuterClass {
       "ENUM_LIST\020\010\022\033\n\027FDEMMOPAGNA_STRING_LIST\020\t" +
       "\022 \n\034FDEMMOPAGNA_CONFIG_REFERENCE\020\n\022\035\n\031FD" +
       "EMMOPAGNA_DYNAMIC_FLOAT\020\013\022\030\n\024FDEMMOPAGNA" +
-      "_INT_LIST\020\014B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "_INT_LIST\020\014B2\n\031emu.grasscutter.net.proto" +
+      "B\025FDEMMOPAGNAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

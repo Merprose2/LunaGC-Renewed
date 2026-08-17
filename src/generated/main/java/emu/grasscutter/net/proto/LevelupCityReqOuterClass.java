@@ -666,8 +666,8 @@ public final class LevelupCityReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024LevelupCityReq.proto\"E\n\016LevelupCityReq" +
       "\022\020\n\010scene_id\030\003 \001(\r\022\017\n\007area_id\030\004 \001(\r\022\020\n\010i" +
-      "tem_num\030\013 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "tem_num\030\013 \001(\rB5\n\031emu.grasscutter.net.pro" +
+      "toB\030LevelupCityReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

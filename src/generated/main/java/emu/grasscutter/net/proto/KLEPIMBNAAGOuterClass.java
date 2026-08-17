@@ -2672,8 +2672,8 @@ public final class KLEPIMBNAAGOuterClass {
       "FGM\022!\n\013MCGHLOLCABO\030\010 \003(\0132\014.NCHCCEBHGOD\022\023" +
       "\n\013CMIIHJLJIAD\030\t \001(\r\022!\n\013DKACJGFFDGP\030\n \001(\013" +
       "2\014.MPIELIGALFJ\022!\n\013GGOPGLPAMGC\030\013 \003(\0132\014.NH" +
-      "AEBHOJNGNB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "AEBHOJNGNB2\n\031emu.grasscutter.net.protoB\025" +
+      "KLEPIMBNAAGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

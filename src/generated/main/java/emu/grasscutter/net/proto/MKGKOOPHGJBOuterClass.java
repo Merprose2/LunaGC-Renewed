@@ -972,7 +972,8 @@ public final class MKGKOOPHGJBOuterClass {
       "\n\021MKGKOOPHGJB.proto\032\017ItemParam.proto\"Q\n\013" +
       "MKGKOOPHGJB\022\035\n\titem_list\030\003 \003(\0132\n.ItemPar" +
       "am\022\022\n\noption_idx\030\006 \001(\r\022\017\n\007retcode\030\007 \001(\005B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025MKGKOOPHGJ" +
+      "BOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

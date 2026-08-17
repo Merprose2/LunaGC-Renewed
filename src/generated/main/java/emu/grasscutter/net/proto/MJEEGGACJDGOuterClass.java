@@ -809,8 +809,8 @@ public final class MJEEGGACJDGOuterClass {
       "\n\021MJEEGGACJDG.proto\"q\n\013MJEEGGACJDG\022\025\n\ris" +
       "_new_record\030\001 \001(\010\022\023\n\013CLBLLCKKMNM\030\007 \001(\r\022\017" +
       "\n\007is_succ\030\014 \001(\010\022\020\n\010level_id\030\016 \001(\r\022\023\n\013DLL" +
-      "CEJFCDAA\030\017 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "CEJFCDAA\030\017 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025MJEEGGACJDGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

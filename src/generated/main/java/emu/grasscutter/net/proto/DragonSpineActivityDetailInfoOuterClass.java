@@ -1249,8 +1249,9 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       "osed\030\007 \001(\010\022\033\n\023content_finish_time\030\010 \001(\r\022" +
       "\034\n\024weapon_enhance_level\030\n \001(\r\022\023\n\013GNADEDJ" +
       "KAJM\030\016 \001(\r\0222\n\021chapter_info_list\030\017 \003(\0132\027." +
-      "DragonSpineChapterInfoB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "DragonSpineChapterInfoBD\n\031emu.grasscutte" +
+      "r.net.protoB\'DragonSpineActivityDetailIn" +
+      "foOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1050,8 +1050,9 @@ public final class InBattleFleurFairInfoOuterClass {
       "leFleurFairInfo\022 \n\030preview_display_durat" +
       "ion\030\003 \001(\r\022\023\n\013KAEPNBLMIKO\030\004 \003(\r\022\033\n\023galler" +
       "y_stage_index\030\010 \001(\r\022\023\n\013HCGNJHAFFDO\030\n \003(\r" +
-      "\022\033\n\023preview_stage_index\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\022\033\n\023preview_stage_index\030\017 \001(\rB<\n\031emu.gra" +
+      "sscutter.net.protoB\037InBattleFleurFairInf" +
+      "oOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

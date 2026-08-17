@@ -454,8 +454,9 @@ public final class MPHDPHPGNNLOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021MPHDPHPGNNL.proto\"\r\n\013MPHDPHPGNNLB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021MPHDPHPGNNL.proto\"\r\n\013MPHDPHPGNNLB2\n\031em" +
+      "u.grasscutter.net.protoB\025MPHDPHPGNNLOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

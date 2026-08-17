@@ -715,8 +715,9 @@ public final class GCGTCTavernChallengeDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036GCGTCTavernChallengeData.proto\"N\n\030GCGT" +
       "CTavernChallengeData\022\034\n\024unlock_level_id_" +
-      "list\030\t \003(\r\022\024\n\014character_id\030\013 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "list\030\t \003(\r\022\024\n\014character_id\030\013 \001(\rB?\n\031emu." +
+      "grasscutter.net.protoB\"GCGTCTavernChalle" +
+      "ngeDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

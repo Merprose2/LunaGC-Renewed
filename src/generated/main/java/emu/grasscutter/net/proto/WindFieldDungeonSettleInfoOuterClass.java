@@ -947,8 +947,9 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       "FieldDungeonFailReason.proto\"x\n\032WindFiel" +
       "dDungeonSettleInfo\022\023\n\013LFGENDKAIFE\030\005 \003(\r\022" +
       "\023\n\013NBCOMIAPKMP\030\010 \003(\r\0220\n\013fail_reason\030\n \001(" +
-      "\0162\033.WindFieldDungeonFailReasonB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\0162\033.WindFieldDungeonFailReasonBA\n\031emu.gr" +
+      "asscutter.net.protoB$WindFieldDungeonSet" +
+      "tleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

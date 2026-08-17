@@ -1656,7 +1656,8 @@ public final class IIFHLPCGFMBOuterClass {
       "\nscene_time\030\t \001(\r\022\024\n\003pos\030\013 \001(\0132\007.Vector\022" +
       "\025\n\rscene_time_ms\030\014 \001(\005\022\023\n\013CCEOCKLADCC\030\r " +
       "\001(\004\022\023\n\013transaction\030\016 \001(\t\022\021\n\tentity_id\030\017 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025IIFHLP" +
+      "CGFMBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

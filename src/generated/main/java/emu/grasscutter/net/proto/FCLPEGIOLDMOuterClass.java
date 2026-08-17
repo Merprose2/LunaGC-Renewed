@@ -1220,8 +1220,8 @@ public final class FCLPEGIOLDMOuterClass {
       "2\021.OnlinePlayerInfo\022\022\n\n_hall_guid\030\t \001(\004\022" +
       "\023\n\013OIEHJMHHCFB\030\n \001(\004\022\023\n\013GHNMBPLBBFN\030\013 \001(" +
       "\r\022\023\n\013IBMGHFLPHBO\030\r \001(\010\022!\n\013MKCKBGBJJEC\030\016 " +
-      "\001(\0132\014.EEFAKGGNHFLB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\001(\0132\014.EEFAKGGNHFLB2\n\031emu.grasscutter.net" +
+      ".protoB\025FCLPEGIOLDMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

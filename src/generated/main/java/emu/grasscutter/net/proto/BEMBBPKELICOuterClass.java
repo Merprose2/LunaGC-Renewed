@@ -667,8 +667,8 @@ public final class BEMBBPKELICOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BEMBBPKELIC.proto\"L\n\013BEMBBPKELIC\022\023\n\013sc" +
       "hedule_id\030\006 \001(\r\022\023\n\013AKAFFNIIOBG\030\007 \001(\004\022\023\n\013" +
-      "_data_index\030\013 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "_data_index\030\013 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025BEMBBPKELICOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

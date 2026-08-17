@@ -824,8 +824,9 @@ public final class SeaLampV3ShadowInfoOuterClass {
       "\n\031SeaLampV3ShadowInfo.proto\032\036SeaLampV3Sh" +
       "adowStageInfo.proto\"I\n\023SeaLampV3ShadowIn" +
       "fo\0222\n\017stage_info_list\030\002 \003(\0132\031.SeaLampV3S" +
-      "hadowStageInfoB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "hadowStageInfoB:\n\031emu.grasscutter.net.pr" +
+      "otoB\035SeaLampV3ShadowInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

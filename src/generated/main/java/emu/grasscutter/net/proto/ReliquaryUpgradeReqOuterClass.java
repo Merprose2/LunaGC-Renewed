@@ -724,8 +724,9 @@ public final class ReliquaryUpgradeReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031ReliquaryUpgradeReq.proto\"V\n\023Reliquary" +
       "UpgradeReq\022 \n\030food_reliquary_guid_list\030\003" +
-      " \003(\004\022\035\n\025target_reliquary_guid\030\t \001(\004B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      " \003(\004\022\035\n\025target_reliquary_guid\030\t \001(\004B:\n\031e" +
+      "mu.grasscutter.net.protoB\035ReliquaryUpgra" +
+      "deReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -661,8 +661,9 @@ public final class BrickBreakerActivityStageInfoOuterClass {
       "\n#BrickBreakerActivityStageInfo.proto\"[\n" +
       "\035BrickBreakerActivityStageInfo\022\020\n\010stage_" +
       "id\030\004 \001(\r\022\023\n\013KEJPBFGPNLE\030\010 \001(\010\022\023\n\013HLENJPJ" +
-      "HOHL\030\016 \001(\010B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "HOHL\030\016 \001(\010BD\n\031emu.grasscutter.net.protoB" +
+      "\'BrickBreakerActivityStageInfoOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

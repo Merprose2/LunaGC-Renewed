@@ -666,8 +666,9 @@ public final class GalleryFlowerCatchNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036GalleryFlowerCatchNotify.proto\"T\n\030Gall" +
       "eryFlowerCatchNotify\022\021\n\tadd_score\030\001 \001(\r\022" +
-      "\021\n\tcur_score\030\004 \001(\r\022\022\n\ngallery_id\030\013 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\021\n\tcur_score\030\004 \001(\r\022\022\n\ngallery_id\030\013 \001(\rB?" +
+      "\n\031emu.grasscutter.net.protoB\"GalleryFlow" +
+      "erCatchNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

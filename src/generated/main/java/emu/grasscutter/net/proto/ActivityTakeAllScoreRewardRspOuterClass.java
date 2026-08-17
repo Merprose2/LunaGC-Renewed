@@ -794,8 +794,9 @@ public final class ActivityTakeAllScoreRewardRspOuterClass {
       "\n#ActivityTakeAllScoreRewardRsp.proto\"a\n" +
       "\035ActivityTakeAllScoreRewardRsp\022\017\n\007retcod" +
       "e\030\005 \001(\005\022\032\n\022reward_config_list\030\006 \003(\r\022\023\n\013a" +
-      "ctivity_id\030\n \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "ctivity_id\030\n \001(\rBD\n\031emu.grasscutter.net." +
+      "protoB\'ActivityTakeAllScoreRewardRspOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

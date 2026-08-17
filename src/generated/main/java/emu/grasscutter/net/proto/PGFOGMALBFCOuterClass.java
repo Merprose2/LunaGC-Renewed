@@ -794,8 +794,8 @@ public final class PGFOGMALBFCOuterClass {
       "\n\021PGFOGMALBFC.proto\032\021GNEJDEIEDIF.proto\"Z" +
       "\n\013PGFOGMALBFC\022\023\n\013PMKEAHGALEN\030\002 \001(\004\022\023\n\013OK" +
       "KHKNJJFCM\030\003 \001(\004\022!\n\013DLEEFAIACBN\030\004 \001(\0132\014.G" +
-      "NEJDEIEDIFB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "NEJDEIEDIFB2\n\031emu.grasscutter.net.protoB" +
+      "\025PGFOGMALBFCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

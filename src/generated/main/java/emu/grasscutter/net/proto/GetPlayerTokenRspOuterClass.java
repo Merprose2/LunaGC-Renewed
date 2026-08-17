@@ -4906,7 +4906,8 @@ public final class GetPlayerTokenRspOuterClass {
       "\026\n\rclient_ip_str\030\305\013 \001(\t\022\021\n\010game_biz\030\241\014 \001" +
       "(\t\022\020\n\007authkey\030\265\014 \001(\t\022\024\n\013KONDBANCCAH\030\260\016 \001" +
       "(\t\022\017\n\006key_id\030\326\016 \001(\r\022\022\n\tsign_type\030\217\017 \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "8\n\031emu.grasscutter.net.protoB\033GetPlayerT" +
+      "okenRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

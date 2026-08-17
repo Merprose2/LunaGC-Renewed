@@ -19,28 +19,10 @@ public final class _LostSamachurlDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
+     * <code>bytes ILIOIFMBIKB = 2;</code>
+     * @return The iLIOIFMBIKB.
      */
-    java.util.List<emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG> 
-        getILIOIFMBIKBList();
-    /**
-     * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-     */
-    emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG getILIOIFMBIKB(int index);
-    /**
-     * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-     */
-    int getILIOIFMBIKBCount();
-    /**
-     * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJGOrBuilder> 
-        getILIOIFMBIKBOrBuilderList();
-    /**
-     * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-     */
-    emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJGOrBuilder getILIOIFMBIKBOrBuilder(
-        int index);
+    com.google.protobuf.ByteString getILIOIFMBIKB();
 
     /**
      * <code>repeated .ENBLAIHHMMG DMKKMACCMBF = 15;</code>
@@ -79,7 +61,7 @@ public final class _LostSamachurlDetailInfoOuterClass {
       super(builder);
     }
     private _LostSamachurlDetailInfo() {
-      iLIOIFMBIKB_ = java.util.Collections.emptyList();
+      iLIOIFMBIKB_ = com.google.protobuf.ByteString.EMPTY;
       dMKKMACCMBF_ = java.util.Collections.emptyList();
     }
 
@@ -115,18 +97,14 @@ public final class _LostSamachurlDetailInfoOuterClass {
               done = true;
               break;
             case 18: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                iLIOIFMBIKB_ = new java.util.ArrayList<emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              iLIOIFMBIKB_.add(
-                  input.readMessage(emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG.parser(), extensionRegistry));
+
+              iLIOIFMBIKB_ = input.readBytes();
               break;
             }
             case 122: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 dMKKMACCMBF_ = new java.util.ArrayList<emu.grasscutter.net.proto.ENBLAIHHMMGOuterClass.ENBLAIHHMMG>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               dMKKMACCMBF_.add(
                   input.readMessage(emu.grasscutter.net.proto.ENBLAIHHMMGOuterClass.ENBLAIHHMMG.parser(), extensionRegistry));
@@ -148,9 +126,6 @@ public final class _LostSamachurlDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          iLIOIFMBIKB_ = java.util.Collections.unmodifiableList(iLIOIFMBIKB_);
-        }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
           dMKKMACCMBF_ = java.util.Collections.unmodifiableList(dMKKMACCMBF_);
         }
         this.unknownFields = unknownFields.build();
@@ -171,43 +146,14 @@ public final class _LostSamachurlDetailInfoOuterClass {
     }
 
     public static final int ILIOIFMBIKB_FIELD_NUMBER = 2;
-    private java.util.List<emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG> iLIOIFMBIKB_;
+    private com.google.protobuf.ByteString iLIOIFMBIKB_;
     /**
-     * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
+     * <code>bytes ILIOIFMBIKB = 2;</code>
+     * @return The iLIOIFMBIKB.
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG> getILIOIFMBIKBList() {
+    public com.google.protobuf.ByteString getILIOIFMBIKB() {
       return iLIOIFMBIKB_;
-    }
-    /**
-     * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-     */
-    @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJGOrBuilder> 
-        getILIOIFMBIKBOrBuilderList() {
-      return iLIOIFMBIKB_;
-    }
-    /**
-     * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-     */
-    @java.lang.Override
-    public int getILIOIFMBIKBCount() {
-      return iLIOIFMBIKB_.size();
-    }
-    /**
-     * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG getILIOIFMBIKB(int index) {
-      return iLIOIFMBIKB_.get(index);
-    }
-    /**
-     * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJGOrBuilder getILIOIFMBIKBOrBuilder(
-        int index) {
-      return iLIOIFMBIKB_.get(index);
     }
 
     public static final int DMKKMACCMBF_FIELD_NUMBER = 15;
@@ -264,8 +210,8 @@ public final class _LostSamachurlDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < iLIOIFMBIKB_.size(); i++) {
-        output.writeMessage(2, iLIOIFMBIKB_.get(i));
+      if (!iLIOIFMBIKB_.isEmpty()) {
+        output.writeBytes(2, iLIOIFMBIKB_);
       }
       for (int i = 0; i < dMKKMACCMBF_.size(); i++) {
         output.writeMessage(15, dMKKMACCMBF_.get(i));
@@ -279,9 +225,9 @@ public final class _LostSamachurlDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < iLIOIFMBIKB_.size(); i++) {
+      if (!iLIOIFMBIKB_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, iLIOIFMBIKB_.get(i));
+          .computeBytesSize(2, iLIOIFMBIKB_);
       }
       for (int i = 0; i < dMKKMACCMBF_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -302,8 +248,8 @@ public final class _LostSamachurlDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto._LostSamachurlDetailInfoOuterClass._LostSamachurlDetailInfo other = (emu.grasscutter.net.proto._LostSamachurlDetailInfoOuterClass._LostSamachurlDetailInfo) obj;
 
-      if (!getILIOIFMBIKBList()
-          .equals(other.getILIOIFMBIKBList())) return false;
+      if (!getILIOIFMBIKB()
+          .equals(other.getILIOIFMBIKB())) return false;
       if (!getDMKKMACCMBFList()
           .equals(other.getDMKKMACCMBFList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -317,10 +263,8 @@ public final class _LostSamachurlDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getILIOIFMBIKBCount() > 0) {
-        hash = (37 * hash) + ILIOIFMBIKB_FIELD_NUMBER;
-        hash = (53 * hash) + getILIOIFMBIKBList().hashCode();
-      }
+      hash = (37 * hash) + ILIOIFMBIKB_FIELD_NUMBER;
+      hash = (53 * hash) + getILIOIFMBIKB().hashCode();
       if (getDMKKMACCMBFCount() > 0) {
         hash = (37 * hash) + DMKKMACCMBF_FIELD_NUMBER;
         hash = (53 * hash) + getDMKKMACCMBFList().hashCode();
@@ -453,22 +397,17 @@ public final class _LostSamachurlDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getILIOIFMBIKBFieldBuilder();
           getDMKKMACCMBFFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (iLIOIFMBIKBBuilder_ == null) {
-          iLIOIFMBIKB_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        } else {
-          iLIOIFMBIKBBuilder_.clear();
-        }
+        iLIOIFMBIKB_ = com.google.protobuf.ByteString.EMPTY;
+
         if (dMKKMACCMBFBuilder_ == null) {
           dMKKMACCMBF_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           dMKKMACCMBFBuilder_.clear();
         }
@@ -499,19 +438,11 @@ public final class _LostSamachurlDetailInfoOuterClass {
       public emu.grasscutter.net.proto._LostSamachurlDetailInfoOuterClass._LostSamachurlDetailInfo buildPartial() {
         emu.grasscutter.net.proto._LostSamachurlDetailInfoOuterClass._LostSamachurlDetailInfo result = new emu.grasscutter.net.proto._LostSamachurlDetailInfoOuterClass._LostSamachurlDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (iLIOIFMBIKBBuilder_ == null) {
-          if (((bitField0_ & 0x00000001) != 0)) {
-            iLIOIFMBIKB_ = java.util.Collections.unmodifiableList(iLIOIFMBIKB_);
-            bitField0_ = (bitField0_ & ~0x00000001);
-          }
-          result.iLIOIFMBIKB_ = iLIOIFMBIKB_;
-        } else {
-          result.iLIOIFMBIKB_ = iLIOIFMBIKBBuilder_.build();
-        }
+        result.iLIOIFMBIKB_ = iLIOIFMBIKB_;
         if (dMKKMACCMBFBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) != 0)) {
+          if (((bitField0_ & 0x00000001) != 0)) {
             dMKKMACCMBF_ = java.util.Collections.unmodifiableList(dMKKMACCMBF_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.dMKKMACCMBF_ = dMKKMACCMBF_;
         } else {
@@ -565,37 +496,14 @@ public final class _LostSamachurlDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto._LostSamachurlDetailInfoOuterClass._LostSamachurlDetailInfo other) {
         if (other == emu.grasscutter.net.proto._LostSamachurlDetailInfoOuterClass._LostSamachurlDetailInfo.getDefaultInstance()) return this;
-        if (iLIOIFMBIKBBuilder_ == null) {
-          if (!other.iLIOIFMBIKB_.isEmpty()) {
-            if (iLIOIFMBIKB_.isEmpty()) {
-              iLIOIFMBIKB_ = other.iLIOIFMBIKB_;
-              bitField0_ = (bitField0_ & ~0x00000001);
-            } else {
-              ensureILIOIFMBIKBIsMutable();
-              iLIOIFMBIKB_.addAll(other.iLIOIFMBIKB_);
-            }
-            onChanged();
-          }
-        } else {
-          if (!other.iLIOIFMBIKB_.isEmpty()) {
-            if (iLIOIFMBIKBBuilder_.isEmpty()) {
-              iLIOIFMBIKBBuilder_.dispose();
-              iLIOIFMBIKBBuilder_ = null;
-              iLIOIFMBIKB_ = other.iLIOIFMBIKB_;
-              bitField0_ = (bitField0_ & ~0x00000001);
-              iLIOIFMBIKBBuilder_ = 
-                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getILIOIFMBIKBFieldBuilder() : null;
-            } else {
-              iLIOIFMBIKBBuilder_.addAllMessages(other.iLIOIFMBIKB_);
-            }
-          }
+        if (other.getILIOIFMBIKB() != com.google.protobuf.ByteString.EMPTY) {
+          setILIOIFMBIKB(other.getILIOIFMBIKB());
         }
         if (dMKKMACCMBFBuilder_ == null) {
           if (!other.dMKKMACCMBF_.isEmpty()) {
             if (dMKKMACCMBF_.isEmpty()) {
               dMKKMACCMBF_ = other.dMKKMACCMBF_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureDMKKMACCMBFIsMutable();
               dMKKMACCMBF_.addAll(other.dMKKMACCMBF_);
@@ -608,7 +516,7 @@ public final class _LostSamachurlDetailInfoOuterClass {
               dMKKMACCMBFBuilder_.dispose();
               dMKKMACCMBFBuilder_ = null;
               dMKKMACCMBF_ = other.dMKKMACCMBF_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               dMKKMACCMBFBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getDMKKMACCMBFFieldBuilder() : null;
@@ -647,252 +555,46 @@ public final class _LostSamachurlDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG> iLIOIFMBIKB_ =
-        java.util.Collections.emptyList();
-      private void ensureILIOIFMBIKBIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          iLIOIFMBIKB_ = new java.util.ArrayList<emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG>(iLIOIFMBIKB_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG, emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG.Builder, emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJGOrBuilder> iLIOIFMBIKBBuilder_;
-
+      private com.google.protobuf.ByteString iLIOIFMBIKB_ = com.google.protobuf.ByteString.EMPTY;
       /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
+       * <code>bytes ILIOIFMBIKB = 2;</code>
+       * @return The iLIOIFMBIKB.
        */
-      public java.util.List<emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG> getILIOIFMBIKBList() {
-        if (iLIOIFMBIKBBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(iLIOIFMBIKB_);
-        } else {
-          return iLIOIFMBIKBBuilder_.getMessageList();
-        }
+      @java.lang.Override
+      public com.google.protobuf.ByteString getILIOIFMBIKB() {
+        return iLIOIFMBIKB_;
       }
       /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
+       * <code>bytes ILIOIFMBIKB = 2;</code>
+       * @param value The iLIOIFMBIKB to set.
+       * @return This builder for chaining.
        */
-      public int getILIOIFMBIKBCount() {
-        if (iLIOIFMBIKBBuilder_ == null) {
-          return iLIOIFMBIKB_.size();
-        } else {
-          return iLIOIFMBIKBBuilder_.getCount();
-        }
-      }
-      /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-       */
-      public emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG getILIOIFMBIKB(int index) {
-        if (iLIOIFMBIKBBuilder_ == null) {
-          return iLIOIFMBIKB_.get(index);
-        } else {
-          return iLIOIFMBIKBBuilder_.getMessage(index);
-        }
-      }
-      /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-       */
-      public Builder setILIOIFMBIKB(
-          int index, emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG value) {
-        if (iLIOIFMBIKBBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureILIOIFMBIKBIsMutable();
-          iLIOIFMBIKB_.set(index, value);
-          onChanged();
-        } else {
-          iLIOIFMBIKBBuilder_.setMessage(index, value);
-        }
+      public Builder setILIOIFMBIKB(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        iLIOIFMBIKB_ = value;
+        onChanged();
         return this;
       }
       /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-       */
-      public Builder setILIOIFMBIKB(
-          int index, emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG.Builder builderForValue) {
-        if (iLIOIFMBIKBBuilder_ == null) {
-          ensureILIOIFMBIKBIsMutable();
-          iLIOIFMBIKB_.set(index, builderForValue.build());
-          onChanged();
-        } else {
-          iLIOIFMBIKBBuilder_.setMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-       */
-      public Builder addILIOIFMBIKB(emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG value) {
-        if (iLIOIFMBIKBBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureILIOIFMBIKBIsMutable();
-          iLIOIFMBIKB_.add(value);
-          onChanged();
-        } else {
-          iLIOIFMBIKBBuilder_.addMessage(value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-       */
-      public Builder addILIOIFMBIKB(
-          int index, emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG value) {
-        if (iLIOIFMBIKBBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureILIOIFMBIKBIsMutable();
-          iLIOIFMBIKB_.add(index, value);
-          onChanged();
-        } else {
-          iLIOIFMBIKBBuilder_.addMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-       */
-      public Builder addILIOIFMBIKB(
-          emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG.Builder builderForValue) {
-        if (iLIOIFMBIKBBuilder_ == null) {
-          ensureILIOIFMBIKBIsMutable();
-          iLIOIFMBIKB_.add(builderForValue.build());
-          onChanged();
-        } else {
-          iLIOIFMBIKBBuilder_.addMessage(builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-       */
-      public Builder addILIOIFMBIKB(
-          int index, emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG.Builder builderForValue) {
-        if (iLIOIFMBIKBBuilder_ == null) {
-          ensureILIOIFMBIKBIsMutable();
-          iLIOIFMBIKB_.add(index, builderForValue.build());
-          onChanged();
-        } else {
-          iLIOIFMBIKBBuilder_.addMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-       */
-      public Builder addAllILIOIFMBIKB(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG> values) {
-        if (iLIOIFMBIKBBuilder_ == null) {
-          ensureILIOIFMBIKBIsMutable();
-          com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, iLIOIFMBIKB_);
-          onChanged();
-        } else {
-          iLIOIFMBIKBBuilder_.addAllMessages(values);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
+       * <code>bytes ILIOIFMBIKB = 2;</code>
+       * @return This builder for chaining.
        */
       public Builder clearILIOIFMBIKB() {
-        if (iLIOIFMBIKBBuilder_ == null) {
-          iLIOIFMBIKB_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-          onChanged();
-        } else {
-          iLIOIFMBIKBBuilder_.clear();
-        }
+        
+        iLIOIFMBIKB_ = getDefaultInstance().getILIOIFMBIKB();
+        onChanged();
         return this;
-      }
-      /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-       */
-      public Builder removeILIOIFMBIKB(int index) {
-        if (iLIOIFMBIKBBuilder_ == null) {
-          ensureILIOIFMBIKBIsMutable();
-          iLIOIFMBIKB_.remove(index);
-          onChanged();
-        } else {
-          iLIOIFMBIKBBuilder_.remove(index);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-       */
-      public emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG.Builder getILIOIFMBIKBBuilder(
-          int index) {
-        return getILIOIFMBIKBFieldBuilder().getBuilder(index);
-      }
-      /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-       */
-      public emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJGOrBuilder getILIOIFMBIKBOrBuilder(
-          int index) {
-        if (iLIOIFMBIKBBuilder_ == null) {
-          return iLIOIFMBIKB_.get(index);  } else {
-          return iLIOIFMBIKBBuilder_.getMessageOrBuilder(index);
-        }
-      }
-      /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJGOrBuilder> 
-           getILIOIFMBIKBOrBuilderList() {
-        if (iLIOIFMBIKBBuilder_ != null) {
-          return iLIOIFMBIKBBuilder_.getMessageOrBuilderList();
-        } else {
-          return java.util.Collections.unmodifiableList(iLIOIFMBIKB_);
-        }
-      }
-      /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-       */
-      public emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG.Builder addILIOIFMBIKBBuilder() {
-        return getILIOIFMBIKBFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-       */
-      public emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG.Builder addILIOIFMBIKBBuilder(
-          int index) {
-        return getILIOIFMBIKBFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .OGHIAGCBLJG ILIOIFMBIKB = 2;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG.Builder> 
-           getILIOIFMBIKBBuilderList() {
-        return getILIOIFMBIKBFieldBuilder().getBuilderList();
-      }
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG, emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG.Builder, emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJGOrBuilder> 
-          getILIOIFMBIKBFieldBuilder() {
-        if (iLIOIFMBIKBBuilder_ == null) {
-          iLIOIFMBIKBBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG, emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJG.Builder, emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.OGHIAGCBLJGOrBuilder>(
-                  iLIOIFMBIKB_,
-                  ((bitField0_ & 0x00000001) != 0),
-                  getParentForChildren(),
-                  isClean());
-          iLIOIFMBIKB_ = null;
-        }
-        return iLIOIFMBIKBBuilder_;
       }
 
       private java.util.List<emu.grasscutter.net.proto.ENBLAIHHMMGOuterClass.ENBLAIHHMMG> dMKKMACCMBF_ =
         java.util.Collections.emptyList();
       private void ensureDMKKMACCMBFIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
+        if (!((bitField0_ & 0x00000001) != 0)) {
           dMKKMACCMBF_ = new java.util.ArrayList<emu.grasscutter.net.proto.ENBLAIHHMMGOuterClass.ENBLAIHHMMG>(dMKKMACCMBF_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
 
@@ -1042,7 +744,7 @@ public final class _LostSamachurlDetailInfoOuterClass {
       public Builder clearDMKKMACCMBF() {
         if (dMKKMACCMBFBuilder_ == null) {
           dMKKMACCMBF_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           dMKKMACCMBFBuilder_.clear();
@@ -1119,7 +821,7 @@ public final class _LostSamachurlDetailInfoOuterClass {
           dMKKMACCMBFBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               emu.grasscutter.net.proto.ENBLAIHHMMGOuterClass.ENBLAIHHMMG, emu.grasscutter.net.proto.ENBLAIHHMMGOuterClass.ENBLAIHHMMG.Builder, emu.grasscutter.net.proto.ENBLAIHHMMGOuterClass.ENBLAIHHMMGOrBuilder>(
                   dMKKMACCMBF_,
-                  ((bitField0_ & 0x00000002) != 0),
+                  ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
           dMKKMACCMBF_ = null;
@@ -1194,18 +896,16 @@ public final class _LostSamachurlDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\036_LostSamachurlDetailInfo.proto\032\021ENBLAI" +
-      "HHMMG.proto\032\021OGHIAGCBLJG.proto\"`\n\030_LostS" +
-      "amachurlDetailInfo\022!\n\013ILIOIFMBIKB\030\002 \003(\0132" +
-      "\014.OGHIAGCBLJG\022!\n\013DMKKMACCMBF\030\017 \003(\0132\014.ENB" +
-      "LAIHHMMGB?\n\031emu.grasscutter.net.protoB\"_" +
-      "LostSamachurlDetailInfoOuterClassb\006proto" +
-      "3"
+      "HHMMG.proto\"R\n\030_LostSamachurlDetailInfo\022" +
+      "\023\n\013ILIOIFMBIKB\030\002 \001(\014\022!\n\013DMKKMACCMBF\030\017 \003(" +
+      "\0132\014.ENBLAIHHMMGB?\n\031emu.grasscutter.net.p" +
+      "rotoB\"_LostSamachurlDetailInfoOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.ENBLAIHHMMGOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.getDescriptor(),
         });
     internal_static__LostSamachurlDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1214,7 +914,6 @@ public final class _LostSamachurlDetailInfoOuterClass {
         internal_static__LostSamachurlDetailInfo_descriptor,
         new java.lang.String[] { "ILIOIFMBIKB", "DMKKMACCMBF", });
     emu.grasscutter.net.proto.ENBLAIHHMMGOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.OGHIAGCBLJGOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

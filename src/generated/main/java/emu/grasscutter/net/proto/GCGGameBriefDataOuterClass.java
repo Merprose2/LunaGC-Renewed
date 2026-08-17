@@ -1214,8 +1214,9 @@ public final class GCGGameBriefDataOuterClass {
       "game_id\030\006 \001(\r\022\023\n\013verify_code\030\n \001(\r\022.\n\021pl" +
       "ayer_brief_list\030\014 \003(\0132\023.GCGPlayerBriefDa" +
       "ta\022\025\n\rplatform_type\030\016 \001(\r\022+\n\rbusiness_ty" +
-      "pe\030\017 \001(\0162\024.GCGGameBusinessTypeB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "pe\030\017 \001(\0162\024.GCGGameBusinessTypeB7\n\031emu.gr" +
+      "asscutter.net.protoB\032GCGGameBriefDataOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

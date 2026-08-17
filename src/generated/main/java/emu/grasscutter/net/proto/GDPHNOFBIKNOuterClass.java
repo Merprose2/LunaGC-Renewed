@@ -518,8 +518,8 @@ public final class GDPHNOFBIKNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GDPHNOFBIKN.proto\"\"\n\013GDPHNOFBIKN\022\023\n\013OJ" +
-      "BLCPIKEAF\030\010 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "BLCPIKEAF\030\010 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025GDPHNOFBIKNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

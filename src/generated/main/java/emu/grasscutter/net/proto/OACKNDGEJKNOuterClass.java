@@ -1617,8 +1617,8 @@ public final class OACKNDGEJKNOuterClass {
       "\030\004 \001(\010\022\023\n\013PDJBICJCMKN\030\005 \001(\010\022!\n\013CAMPGKGEB" +
       "OI\030\006 \001(\0132\014.JHABMHAPMPG\022!\n\013OEJGCMPBCEM\030\007 " +
       "\001(\0132\014.JHABMHAPMPG\022\023\n\013GOKPAOKAJEK\030\010 \001(\r\022\023" +
-      "\n\013KJDLONNPGBB\030\t \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013KJDLONNPGBB\030\t \001(\005B2\n\031emu.grasscutter.n" +
+      "et.protoB\025OACKNDGEJKNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

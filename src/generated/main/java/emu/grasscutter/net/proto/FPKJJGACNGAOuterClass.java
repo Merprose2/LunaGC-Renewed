@@ -952,8 +952,9 @@ public final class FPKJJGACNGAOuterClass {
       "LEHADLJPEL\030\001 \001(\002\022\023\n\013NFILNLGAIND\030\002 \001(\002\022\023\n" +
       "\013JABEDMEECNC\030\003 \001(\002\022\023\n\013AJJBKPDKKID\030\004 \001(\010\022" +
       "\023\n\013HFBCCAGFMKB\030\005 \001(\002\022\030\n\017accelerate_time\030" +
-      "\365\003 \001(\002\022\024\n\013PPHBHPJFPFO\030\366\003 \001(\010B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\365\003 \001(\002\022\024\n\013PPHBHPJFPFO\030\366\003 \001(\010B2\n\031emu.gras" +
+      "scutter.net.protoB\025FPKJJGACNGAOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

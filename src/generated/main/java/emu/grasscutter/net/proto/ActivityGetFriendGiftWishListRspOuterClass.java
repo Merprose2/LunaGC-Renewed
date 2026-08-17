@@ -974,8 +974,9 @@ public final class ActivityGetFriendGiftWishListRspOuterClass {
       "ctivityGetFriendGiftWishListRsp\022\017\n\007retco" +
       "de\030\003 \001(\005\022\023\n\013schedule_id\030\007 \001(\r\022:\n\025friend_" +
       "gift_wish_list\030\n \003(\0132\033.ActivityFriendGif" +
-      "tWishDataB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "tWishDataBG\n\031emu.grasscutter.net.protoB*" +
+      "ActivityGetFriendGiftWishListRspOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

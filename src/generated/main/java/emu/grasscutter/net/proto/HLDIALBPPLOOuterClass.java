@@ -1194,8 +1194,9 @@ public final class HLDIALBPPLOOuterClass {
       "\n\021HLDIALBPPLO.proto\032\021LOLJLHNCIHG.proto\"o" +
       "\n\013HLDIALBPPLO\022\023\n\013AIODOCPAAFG\030\001 \001(\t\022\023\n\013FJ" +
       "DFFHLOMPO\030\002 \001(\005\022\023\n\013JOIIBHLCLIC\030\003 \001(\t\022!\n\013" +
-      "PEFDGJAKFOE\030\004 \003(\0132\014.LOLJLHNCIHGB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "PEFDGJAKFOE\030\004 \003(\0132\014.LOLJLHNCIHGB2\n\031emu.g" +
+      "rasscutter.net.protoB\025HLDIALBPPLOOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

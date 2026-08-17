@@ -204,8 +204,8 @@ public final class GCGDiceSideTypeOuterClass {
       "IDE_GEO\020\005\022(\n$GCGDiceSideType_GCG_DICE_SI" +
       "DE_DENDRO\020\006\022\'\n#GCGDiceSideType_GCG_DICE_" +
       "SIDE_ANEMO\020\007\022(\n$GCGDiceSideType_GCG_DICE" +
-      "_SIDE_PAIMON\020\010B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "_SIDE_PAIMON\020\010B6\n\031emu.grasscutter.net.pr" +
+      "otoB\031GCGDiceSideTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

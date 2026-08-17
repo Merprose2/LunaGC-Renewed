@@ -676,8 +676,9 @@ public final class SetFriendRemarkNameReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034SetFriendRemarkNameReq.proto\":\n\026SetFri" +
       "endRemarkNameReq\022\013\n\003uid\030\004 \001(\r\022\023\n\013remark_" +
-      "name\030\007 \001(\tB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "name\030\007 \001(\tB=\n\031emu.grasscutter.net.protoB" +
+      " SetFriendRemarkNameReqOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -728,8 +728,9 @@ public final class KDHFFAMFLKCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KDHFFAMFLKC.proto\"^\n\013KDHFFAMFLKC\022\023\n\013DN" +
       "IBBKLBBJE\030\001 \001(\r\022\020\n\010rotation\030\005 \001(\r\022\023\n\013LAP" +
-      "JDMHDDIP\030\010 \001(\r\022\023\n\013MHFDNNEMNJB\030\014 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "JDMHDDIP\030\010 \001(\r\022\023\n\013MHFDNNEMNJB\030\014 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025KDHFFAMFLKCOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

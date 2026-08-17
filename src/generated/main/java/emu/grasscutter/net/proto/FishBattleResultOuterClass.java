@@ -172,8 +172,8 @@ public final class FishBattleResultOuterClass {
       "BattleResult_SUCC\020\001\022\031\n\025FishBattleResult_" +
       "FAIL\020\002\022\034\n\030FishBattleResult_TIMEOUT\020\003\022\033\n\027" +
       "FishBattleResult_CANCEL\020\004\022\031\n\025FishBattleR" +
-      "esult_EXIT\020\005B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "esult_EXIT\020\005B7\n\031emu.grasscutter.net.prot" +
+      "oB\032FishBattleResultOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

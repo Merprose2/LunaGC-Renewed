@@ -595,8 +595,9 @@ public final class ALLKCBCNAJIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ALLKCBCNAJI.proto\"2\n\013ALLKCBCNAJI\022\020\n\010us" +
-      "e_time\030\002 \001(\r\022\021\n\tregion_id\030\005 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "e_time\030\002 \001(\r\022\021\n\tregion_id\030\005 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025ALLKCBCNAJIOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

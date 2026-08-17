@@ -596,8 +596,9 @@ public final class EchoShellTakeRewardRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034EchoShellTakeRewardRsp.proto\"<\n\026EchoSh" +
       "ellTakeRewardRsp\022\021\n\treward_id\030\007 \001(\r\022\017\n\007r" +
-      "etcode\030\n \001(\005B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "etcode\030\n \001(\005B=\n\031emu.grasscutter.net.prot" +
+      "oB EchoShellTakeRewardRspOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

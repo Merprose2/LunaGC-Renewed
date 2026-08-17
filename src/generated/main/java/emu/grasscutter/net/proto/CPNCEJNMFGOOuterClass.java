@@ -526,8 +526,8 @@ public final class CPNCEJNMFGOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CPNCEJNMFGO.proto\"\"\n\013CPNCEJNMFGO\022\023\n\013is" +
-      "_interact\030\r \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "_interact\030\r \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025CPNCEJNMFGOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1825,8 +1825,9 @@ public final class OGGKNBPCLJMOuterClass {
       "FDIFKOI\022\027\n\017winner_uid_list\030\003 \003(\r\022\022\n\nplay" +
       "_index\030\005 \001(\r\022\025\n\ris_new_record\030\006 \001(\010\022\022\n\ns" +
       "tage_type\030\010 \001(\r\022\017\n\007is_succ\030\n \001(\010\022\023\n\013KDBO" +
-      "HEGKGLG\030\013 \001(\r\022\023\n\013BCBLIJDGIGO\030\014 \001(\010B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "HEGKGLG\030\013 \001(\r\022\023\n\013BCBLIJDGIGO\030\014 \001(\010B2\n\031em" +
+      "u.grasscutter.net.protoB\025OGGKNBPCLJMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

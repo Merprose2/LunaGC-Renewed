@@ -667,8 +667,8 @@ public final class DGLIHENEPELOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DGLIHENEPEL.proto\"H\n\013DGLIHENEPEL\022\020\n\010ug" +
       "c_guid\030\005 \001(\004\022\026\n\016music_basic_id\030\n \001(\r\022\017\n\007" +
-      "retcode\030\013 \001(\005B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "retcode\030\013 \001(\005B2\n\031emu.grasscutter.net.pro" +
+      "toB\025DGLIHENEPELOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -659,8 +659,9 @@ public final class GCGMsgSelectOnStageByEffectOuterClass {
       "\n!GCGMsgSelectOnStageByEffect.proto\"Y\n\033G" +
       "CGMsgSelectOnStageByEffect\022\020\n\010skill_id\030\003" +
       " \001(\r\022\021\n\tcard_guid\030\013 \001(\r\022\025\n\rcontroller_id" +
-      "\030\r \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\r \001(\rBB\n\031emu.grasscutter.net.protoB%GCG" +
+      "MsgSelectOnStageByEffectOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

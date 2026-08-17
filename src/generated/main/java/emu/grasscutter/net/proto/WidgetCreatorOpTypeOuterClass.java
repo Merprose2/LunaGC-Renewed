@@ -145,8 +145,9 @@ public final class WidgetCreatorOpTypeOuterClass {
       "T_CREATOR_TYPE_NONE\020\000\0223\n/WidgetCreatorOp" +
       "Type_WIDGET_CREATOR_TYPE_RETRACT\020\001\022>\n:Wi" +
       "dgetCreatorOpType_WIDGET_CREATOR_TYPE_RE" +
-      "TRACT_AND_CREATE\020\002B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "TRACT_AND_CREATE\020\002B:\n\031emu.grasscutter.ne" +
+      "t.protoB\035WidgetCreatorOpTypeOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

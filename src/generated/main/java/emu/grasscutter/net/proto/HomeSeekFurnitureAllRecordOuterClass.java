@@ -824,8 +824,9 @@ public final class HomeSeekFurnitureAllRecordOuterClass {
       "\n HomeSeekFurnitureAllRecord.proto\032 Home" +
       "SeekFurnitureOneRecord.proto\"N\n\032HomeSeek" +
       "FurnitureAllRecord\0220\n\013record_list\030\013 \003(\0132" +
-      "\033.HomeSeekFurnitureOneRecordB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\033.HomeSeekFurnitureOneRecordBA\n\031emu.gras" +
+      "scutter.net.protoB$HomeSeekFurnitureAllR" +
+      "ecordOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

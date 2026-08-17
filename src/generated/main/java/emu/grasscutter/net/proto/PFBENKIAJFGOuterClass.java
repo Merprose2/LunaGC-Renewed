@@ -737,8 +737,9 @@ public final class PFBENKIAJFGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PFBENKIAJFG.proto\"V\n\013PFBENKIAJFG\022\017\n\007ca" +
       "rd_id\030\002 \001(\r\022\017\n\007retcode\030\010 \001(\005\022\020\n\010level_id" +
-      "\030\t \001(\r\022\023\n\013KHCGADDLDEJ\030\014 \001(\010B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\030\t \001(\r\022\023\n\013KHCGADDLDEJ\030\014 \001(\010B2\n\031emu.grass" +
+      "cutter.net.protoB\025PFBENKIAJFGOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

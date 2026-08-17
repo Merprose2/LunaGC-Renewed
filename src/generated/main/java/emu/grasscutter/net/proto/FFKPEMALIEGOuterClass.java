@@ -661,8 +661,8 @@ public final class FFKPEMALIEGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FFKPEMALIEG.proto\"K\n\013FFKPEMALIEG\022\021\n\tis" +
       "_active\030\001 \001(\010\022\023\n\013DJPJAFGGKCJ\030\002 \001(\010\022\024\n\013MD" +
-      "CFOMEAFAM\030\365\003 \001(\010B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "CFOMEAFAM\030\365\003 \001(\010B2\n\031emu.grasscutter.net." +
+      "protoB\025FFKPEMALIEGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

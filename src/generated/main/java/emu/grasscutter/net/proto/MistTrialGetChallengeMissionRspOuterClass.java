@@ -973,8 +973,9 @@ public final class MistTrialGetChallengeMissionRspOuterClass {
       "\032MistTrialMissionInfo.proto\"v\n\037MistTrial" +
       "GetChallengeMissionRsp\022\017\n\007retcode\030\006 \001(\005\022" +
       "0\n\021mission_info_list\030\007 \003(\0132\025.MistTrialMi" +
-      "ssionInfo\022\020\n\010trial_id\030\014 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "ssionInfo\022\020\n\010trial_id\030\014 \001(\rBF\n\031emu.grass" +
+      "cutter.net.protoB)MistTrialGetChallengeM" +
+      "issionRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

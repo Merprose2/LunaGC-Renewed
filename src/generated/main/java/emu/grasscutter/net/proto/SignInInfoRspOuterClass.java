@@ -901,8 +901,9 @@ public final class SignInInfoRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\023SignInInfoRsp.proto\032\020SignInInfo.proto\"" +
       "H\n\rSignInInfoRsp\022&\n\021sign_in_info_list\030\006 " +
-      "\003(\0132\013.SignInInfo\022\017\n\007retcode\030\t \001(\005B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\003(\0132\013.SignInInfo\022\017\n\007retcode\030\t \001(\005B4\n\031emu" +
+      ".grasscutter.net.protoB\027SignInInfoRspOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

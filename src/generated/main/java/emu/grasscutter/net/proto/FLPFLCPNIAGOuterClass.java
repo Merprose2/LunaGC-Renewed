@@ -667,8 +667,8 @@ public final class FLPFLCPNIAGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FLPFLCPNIAG.proto\"J\n\013FLPFLCPNIAG\022\023\n\013av" +
       "atar_guid\030\003 \001(\004\022\023\n\013JMFFNNBEHGG\030\007 \001(\r\022\021\n\t" +
-      "entity_id\030\t \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "entity_id\030\t \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025FLPFLCPNIAGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

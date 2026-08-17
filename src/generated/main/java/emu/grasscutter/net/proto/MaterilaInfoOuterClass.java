@@ -588,8 +588,9 @@ public final class MaterilaInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\022MaterilaInfo.proto\"+\n\014MaterilaInfo\022\r\n\005" +
-      "count\030\002 \001(\r\022\014\n\004guid\030\016 \001(\004B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "count\030\002 \001(\r\022\014\n\004guid\030\016 \001(\004B3\n\031emu.grasscu" +
+      "tter.net.protoB\026MaterilaInfoOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

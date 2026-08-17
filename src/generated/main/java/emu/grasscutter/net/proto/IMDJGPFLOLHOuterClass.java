@@ -1670,8 +1670,9 @@ public final class IMDJGPFLOLHOuterClass {
       "EDOC\022!\n\013PHPFDACCGAB\030\003 \001(\0132\014.FBKKKHHEDOC\022" +
       "!\n\013KCDJHHPDNEG\030\004 \001(\0132\014.FBKKKHHEDOC\022!\n\013EK" +
       "AJBJDCAEL\030\005 \001(\0132\014.FBKKKHHEDOC\022!\n\013GPJEBAP" +
-      "CIGJ\030\006 \001(\0132\014.FBKKKHHEDOCB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "CIGJ\030\006 \001(\0132\014.FBKKKHHEDOCB2\n\031emu.grasscut" +
+      "ter.net.protoB\025IMDJGPFLOLHOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

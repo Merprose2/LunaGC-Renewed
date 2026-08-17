@@ -653,7 +653,8 @@ public final class MetNpcIdListNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030MetNpcIdListNotify.proto\"3\n\022MetNpcIdLi" +
       "stNotify\022\035\n\025npc_first_met_id_list\030\n \003(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "9\n\031emu.grasscutter.net.protoB\034MetNpcIdLi" +
+      "stNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

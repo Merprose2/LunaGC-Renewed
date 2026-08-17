@@ -730,7 +730,8 @@ public final class HJBHLFCNADMOuterClass {
       "\n\021HJBHLFCNADM.proto\032\033HomeBlueprintSlotIn" +
       "fo.proto\"I\n\013HJBHLFCNADM\022\017\n\007retcode\030\007 \001(\005" +
       "\022)\n\tslot_info\030\t \001(\0132\026.HomeBlueprintSlotI" +
-      "nfoB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "nfoB2\n\031emu.grasscutter.net.protoB\025HJBHLF" +
+      "CNADMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

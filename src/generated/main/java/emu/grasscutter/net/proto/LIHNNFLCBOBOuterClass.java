@@ -915,7 +915,8 @@ public final class LIHNNFLCBOBOuterClass {
       "OHGJIMMH\030\002 \001(\005\022!\n\013FJCGDKEJEFF\030\003 \001(\0162\014.JE" +
       "OKDCIGCFP\022!\n\013LGLODDOCJAB\030\004 \001(\0162\014.IHEEJNN" +
       "BFFC\022!\n\013action_type\030\005 \001(\0162\014.KIDJEINHJCBB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025LIHNNFLCBO" +
+      "BOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

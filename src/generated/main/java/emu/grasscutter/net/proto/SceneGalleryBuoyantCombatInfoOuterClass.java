@@ -659,8 +659,9 @@ public final class SceneGalleryBuoyantCombatInfoOuterClass {
       "\n#SceneGalleryBuoyantCombatInfo.proto\"n\n" +
       "\035SceneGalleryBuoyantCombatInfo\022\"\n\032kill_s" +
       "pecial_monster_count\030\003 \001(\r\022\r\n\005score\030\007 \001(" +
-      "\r\022\032\n\022kill_monster_count\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\r\022\032\n\022kill_monster_count\030\017 \001(\rBD\n\031emu.gra" +
+      "sscutter.net.protoB\'SceneGalleryBuoyantC" +
+      "ombatInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1043,8 +1043,9 @@ public final class CNKEGKEKAMDOuterClass {
       "\n\021CNKEGKEKAMD.proto\032\021LDLHHEHNCLC.proto\"p" +
       "\n\013CNKEGKEKAMD\022\023\n\013KGDHIIGEFEJ\030\006 \001(\r\022\024\n\014du" +
       "ngeon_guid\030\n \001(\004\022\023\n\013FLLODAEKFBP\030\013 \001(\r\022!\n" +
-      "\013AKOENHNPPJI\030\017 \003(\0132\014.LDLHHEHNCLCB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\013AKOENHNPPJI\030\017 \003(\0132\014.LDLHHEHNCLCB2\n\031emu." +
+      "grasscutter.net.protoB\025CNKEGKEKAMDOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

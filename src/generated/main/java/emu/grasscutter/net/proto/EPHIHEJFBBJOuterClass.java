@@ -1470,7 +1470,8 @@ public final class EPHIHEJFBBJOuterClass {
       ")\n\tcard_list\030\006 \003(\0132\026.ExhibitionDisplayIn" +
       "fo\022(\n\017profile_picture\030\010 \001(\0132\017.ProfilePic" +
       "ture\022\020\n\010nickname\030\013 \001(\t\022\021\n\tonline_id\030\014 \001(" +
-      "\tB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\tB2\n\031emu.grasscutter.net.protoB\025EPHIHEJF" +
+      "BBJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

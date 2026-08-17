@@ -446,8 +446,9 @@ public final class EPGDONJBFCBOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021EPGDONJBFCB.proto\"\r\n\013EPGDONJBFCBB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021EPGDONJBFCB.proto\"\r\n\013EPGDONJBFCBB2\n\031em" +
+      "u.grasscutter.net.protoB\025EPGDONJBFCBOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

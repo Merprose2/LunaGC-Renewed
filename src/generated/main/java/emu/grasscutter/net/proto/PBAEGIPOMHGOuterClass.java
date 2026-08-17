@@ -972,8 +972,8 @@ public final class PBAEGIPOMHGOuterClass {
       "\n\021PBAEGIPOMHG.proto\032\021DGONDJOOGNA.proto\"`" +
       "\n\013PBAEGIPOMHG\022!\n\013FLNAGPLANKP\030\005 \003(\0132\014.DGO" +
       "NDJOOGNA\022\031\n\021_profile_frame_id\030\007 \001(\r\022\023\n\013B" +
-      "PEDNCMLPOD\030\r \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "PEDNCMLPOD\030\r \001(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025PBAEGIPOMHGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

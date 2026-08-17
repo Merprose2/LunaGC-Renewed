@@ -1038,8 +1038,9 @@ public final class BattlePassMissionOuterClass {
       "tatus\022!\n\035MissionStatus_MISSION_INVALID\020\000" +
       "\022$\n MissionStatus_MISSION_UNFINISHED\020\001\022\"" +
       "\n\036MissionStatus_MISSION_FINISHED\020\002\022%\n!Mi" +
-      "ssionStatus_MISSION_POINT_TAKEN\020\003B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "ssionStatus_MISSION_POINT_TAKEN\020\003B8\n\031emu" +
+      ".grasscutter.net.protoB\033BattlePassMissio" +
+      "nOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

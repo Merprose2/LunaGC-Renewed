@@ -1005,8 +1005,9 @@ public final class LEHPBFHHAIDOuterClass {
       "\001\n\013LEHPBFHHAID\022\023\n\013ODJJPPLJLAJ\030\001 \001(\010\022\023\n\013D" +
       "KGJEKHAGIK\030\002 \001(\005\022\023\n\013ICPIBOIPCEL\030\003 \001(\005\022\023\n" +
       "\013DOKIJHIHAHO\030\004 \001(\005\022!\n\013LHLPLGGAONP\030\005 \001(\0132" +
-      "\014.PJKJCCNMEOB\022\023\n\013FKEFKEIJOJA\030\006 \001(\010B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\014.PJKJCCNMEOB\022\023\n\013FKEFKEIJOJA\030\006 \001(\010B2\n\031em" +
+      "u.grasscutter.net.protoB\025LEHPBFHHAIDOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -854,8 +854,9 @@ public final class GalleryFallScoreNotifyOuterClass {
       "\022\022\n\ngallery_id\030\004 \001(\r\022?\n\ruid_brief_map\030\013 " +
       "\003(\0132(.GalleryFallScoreNotify.UidBriefMap" +
       "Entry\032D\n\020UidBriefMapEntry\022\013\n\003key\030\001 \001(\r\022\037" +
-      "\n\005value\030\002 \001(\0132\020.FallPlayerBrief:\0028\001B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\n\005value\030\002 \001(\0132\020.FallPlayerBrief:\0028\001B=\n\031e" +
+      "mu.grasscutter.net.protoB GalleryFallSco" +
+      "reNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

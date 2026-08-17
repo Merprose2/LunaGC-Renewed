@@ -1283,8 +1283,9 @@ public final class SceneGalleryVintageHuntingInfoOuterClass {
       "oH\000\0229\n\020first_stage_info\030\r \001(\0132\035.VintageH" +
       "untingFirstStageInfoH\000\0229\n\020third_stage_in" +
       "fo\030\017 \001(\0132\035.VintageHuntingThirdStageInfoH" +
-      "\000\022\020\n\010stage_id\030\016 \001(\rB\006\n\004infoB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\000\022\020\n\010stage_id\030\016 \001(\rB\006\n\004infoBE\n\031emu.grass" +
+      "cutter.net.protoB(SceneGalleryVintageHun" +
+      "tingInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

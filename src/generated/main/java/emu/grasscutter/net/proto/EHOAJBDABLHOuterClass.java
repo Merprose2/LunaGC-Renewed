@@ -143,8 +143,8 @@ public final class EHOAJBDABLHOuterClass {
       "\n\021EHOAJBDABLH.proto*g\n\013EHOAJBDABLH\022\024\n\020EH" +
       "OAJBDABLH_NONE\020\000\022\031\n\025EHOAJBDABLH_STRUCT_I" +
       "D\020\001\022\'\n#EHOAJBDABLH_SERVER_PARAM_DICTIONA" +
-      "RY\020\002B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "RY\020\002B2\n\031emu.grasscutter.net.protoB\025EHOAJ" +
+      "BDABLHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

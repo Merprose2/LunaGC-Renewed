@@ -1198,8 +1198,9 @@ public final class FGHDHKLEBCIOuterClass {
       "\n\021FGHDHKLEBCI.proto\032\021FCBAKGBABIG.proto\"n" +
       "\n\013FGHDHKLEBCI\022!\n\013ENPINNAMBDG\030\001 \003(\0132\014.FCB" +
       "AKGBABIG\022\023\n\013HMFHCPIKGCO\030\002 \001(\t\022\023\n\013NGEDGDG" +
-      "BAID\030\003 \001(\014\022\022\n\nrequest_id\030\004 \001(\tB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "BAID\030\003 \001(\014\022\022\n\nrequest_id\030\004 \001(\tB2\n\031emu.gr" +
+      "asscutter.net.protoB\025FGHDHKLEBCIOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

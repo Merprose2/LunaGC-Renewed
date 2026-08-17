@@ -652,8 +652,8 @@ public final class HADIDPKOAMKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HADIDPKOAMK.proto\"\"\n\013HADIDPKOAMK\022\023\n\013AE" +
-      "GJGIIJLPD\030\002 \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "GJGIIJLPD\030\002 \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025HADIDPKOAMKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

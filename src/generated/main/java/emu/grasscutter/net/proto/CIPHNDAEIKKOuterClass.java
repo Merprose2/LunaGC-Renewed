@@ -822,8 +822,8 @@ public final class CIPHNDAEIKKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CIPHNDAEIKK.proto\"L\n\013CIPHNDAEIKK\022\023\n\013EJ" +
       "GAEGAPEBA\030\002 \001(\t\022\023\n\013OLBPKCNDAAO\030\003 \001(\t\022\023\n\013" +
-      "NGEDGDGBAID\030\004 \001(\014B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "NGEDGDGBAID\030\004 \001(\014B2\n\031emu.grasscutter.net" +
+      ".protoB\025CIPHNDAEIKKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -649,8 +649,8 @@ public final class CNNGOLHAMNAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CNNGOLHAMNA.proto\"\"\n\013CNNGOLHAMNA\022\023\n\013FG" +
-      "PFCKMGCGM\030\003 \003(\006B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "PFCKMGCGM\030\003 \003(\006B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025CNNGOLHAMNAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

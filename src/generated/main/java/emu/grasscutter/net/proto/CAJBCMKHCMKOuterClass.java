@@ -1428,8 +1428,9 @@ public final class CAJBCMKHCMKOuterClass {
       "NACEGJ\022!\n\013HEAPLANLENH\030\004 \001(\0162\014.HKMCPNPIFC" +
       "P\022\017\n\007retcode\030\006 \001(\005\022\023\n\013CGGIIAHAMGF\030\013 \001(\010\022" +
       "\023\n\013MANFEIEOPHJ\030\r \001(\004\022\024\n\014dungeon_guid\030\016 \001" +
-      "(\004\022!\n\013record_list\030\017 \003(\0132\014.HHKIDPIMBEPB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "(\004\022!\n\013record_list\030\017 \003(\0132\014.HHKIDPIMBEPB2\n" +
+      "\031emu.grasscutter.net.protoB\025CAJBCMKHCMKO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

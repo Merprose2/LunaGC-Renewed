@@ -596,8 +596,9 @@ public final class CrystalLinkEnterDungeonReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n CrystalLinkEnterDungeonReq.proto\"E\n\032Cr" +
       "ystalLinkEnterDungeonReq\022\020\n\010level_id\030\007 \001" +
-      "(\r\022\025\n\rdifficulty_id\030\010 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "(\r\022\025\n\rdifficulty_id\030\010 \001(\rBA\n\031emu.grasscu" +
+      "tter.net.protoB$CrystalLinkEnterDungeonR" +
+      "eqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

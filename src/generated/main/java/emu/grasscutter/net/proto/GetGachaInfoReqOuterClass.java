@@ -455,7 +455,8 @@ public final class GetGachaInfoReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025GetGachaInfoReq.proto\"\021\n\017GetGachaInfoR" +
-      "eqB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "eqB6\n\031emu.grasscutter.net.protoB\031GetGach" +
+      "aInfoReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

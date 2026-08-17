@@ -33,11 +33,11 @@ public final class ACDMMNFPFCPOuterClass {
      * <code>._TierUp CEGAEFJHEMA = 2;</code>
      * @return The cEGAEFJHEMA.
      */
-    emu.grasscutter.net.proto.TierUp._TierUp getCEGAEFJHEMA();
+    emu.grasscutter.net.proto._TierUpOuterClass._TierUp getCEGAEFJHEMA();
     /**
      * <code>._TierUp CEGAEFJHEMA = 2;</code>
      */
-    emu.grasscutter.net.proto.TierUp._TierUpOrBuilder getCEGAEFJHEMAOrBuilder();
+    emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder getCEGAEFJHEMAOrBuilder();
 
     /**
      * <code>int64 DJCHFBFAFKL = 3;</code>
@@ -114,11 +114,11 @@ public final class ACDMMNFPFCPOuterClass {
               break;
             }
             case 18: {
-              emu.grasscutter.net.proto.TierUp._TierUp.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder subBuilder = null;
               if (cEGAEFJHEMA_ != null) {
                 subBuilder = cEGAEFJHEMA_.toBuilder();
               }
-              cEGAEFJHEMA_ = input.readMessage(emu.grasscutter.net.proto.TierUp._TierUp.parser(), extensionRegistry);
+              cEGAEFJHEMA_ = input.readMessage(emu.grasscutter.net.proto._TierUpOuterClass._TierUp.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(cEGAEFJHEMA_);
                 cEGAEFJHEMA_ = subBuilder.buildPartial();
@@ -190,7 +190,7 @@ public final class ACDMMNFPFCPOuterClass {
     }
 
     public static final int CEGAEFJHEMA_FIELD_NUMBER = 2;
-    private emu.grasscutter.net.proto.TierUp._TierUp cEGAEFJHEMA_;
+    private emu.grasscutter.net.proto._TierUpOuterClass._TierUp cEGAEFJHEMA_;
     /**
      * <code>._TierUp CEGAEFJHEMA = 2;</code>
      * @return Whether the cEGAEFJHEMA field is set.
@@ -204,14 +204,14 @@ public final class ACDMMNFPFCPOuterClass {
      * @return The cEGAEFJHEMA.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TierUp._TierUp getCEGAEFJHEMA() {
-      return cEGAEFJHEMA_ == null ? emu.grasscutter.net.proto.TierUp._TierUp.getDefaultInstance() : cEGAEFJHEMA_;
+    public emu.grasscutter.net.proto._TierUpOuterClass._TierUp getCEGAEFJHEMA() {
+      return cEGAEFJHEMA_ == null ? emu.grasscutter.net.proto._TierUpOuterClass._TierUp.getDefaultInstance() : cEGAEFJHEMA_;
     }
     /**
      * <code>._TierUp CEGAEFJHEMA = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TierUp._TierUpOrBuilder getCEGAEFJHEMAOrBuilder() {
+    public emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder getCEGAEFJHEMAOrBuilder() {
       return getCEGAEFJHEMA();
     }
 
@@ -695,9 +695,9 @@ public final class ACDMMNFPFCPOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.TierUp._TierUp cEGAEFJHEMA_;
+      private emu.grasscutter.net.proto._TierUpOuterClass._TierUp cEGAEFJHEMA_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TierUp._TierUp, emu.grasscutter.net.proto.TierUp._TierUp.Builder, emu.grasscutter.net.proto.TierUp._TierUpOrBuilder> cEGAEFJHEMABuilder_;
+          emu.grasscutter.net.proto._TierUpOuterClass._TierUp, emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder, emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder> cEGAEFJHEMABuilder_;
       /**
        * <code>._TierUp CEGAEFJHEMA = 2;</code>
        * @return Whether the cEGAEFJHEMA field is set.
@@ -709,9 +709,9 @@ public final class ACDMMNFPFCPOuterClass {
        * <code>._TierUp CEGAEFJHEMA = 2;</code>
        * @return The cEGAEFJHEMA.
        */
-      public emu.grasscutter.net.proto.TierUp._TierUp getCEGAEFJHEMA() {
+      public emu.grasscutter.net.proto._TierUpOuterClass._TierUp getCEGAEFJHEMA() {
         if (cEGAEFJHEMABuilder_ == null) {
-          return cEGAEFJHEMA_ == null ? emu.grasscutter.net.proto.TierUp._TierUp.getDefaultInstance() : cEGAEFJHEMA_;
+          return cEGAEFJHEMA_ == null ? emu.grasscutter.net.proto._TierUpOuterClass._TierUp.getDefaultInstance() : cEGAEFJHEMA_;
         } else {
           return cEGAEFJHEMABuilder_.getMessage();
         }
@@ -719,7 +719,7 @@ public final class ACDMMNFPFCPOuterClass {
       /**
        * <code>._TierUp CEGAEFJHEMA = 2;</code>
        */
-      public Builder setCEGAEFJHEMA(emu.grasscutter.net.proto.TierUp._TierUp value) {
+      public Builder setCEGAEFJHEMA(emu.grasscutter.net.proto._TierUpOuterClass._TierUp value) {
         if (cEGAEFJHEMABuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -736,7 +736,7 @@ public final class ACDMMNFPFCPOuterClass {
        * <code>._TierUp CEGAEFJHEMA = 2;</code>
        */
       public Builder setCEGAEFJHEMA(
-          emu.grasscutter.net.proto.TierUp._TierUp.Builder builderForValue) {
+          emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder builderForValue) {
         if (cEGAEFJHEMABuilder_ == null) {
           cEGAEFJHEMA_ = builderForValue.build();
           onChanged();
@@ -749,11 +749,11 @@ public final class ACDMMNFPFCPOuterClass {
       /**
        * <code>._TierUp CEGAEFJHEMA = 2;</code>
        */
-      public Builder mergeCEGAEFJHEMA(emu.grasscutter.net.proto.TierUp._TierUp value) {
+      public Builder mergeCEGAEFJHEMA(emu.grasscutter.net.proto._TierUpOuterClass._TierUp value) {
         if (cEGAEFJHEMABuilder_ == null) {
           if (cEGAEFJHEMA_ != null) {
             cEGAEFJHEMA_ =
-              emu.grasscutter.net.proto.TierUp._TierUp.newBuilder(cEGAEFJHEMA_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._TierUpOuterClass._TierUp.newBuilder(cEGAEFJHEMA_).mergeFrom(value).buildPartial();
           } else {
             cEGAEFJHEMA_ = value;
           }
@@ -781,7 +781,7 @@ public final class ACDMMNFPFCPOuterClass {
       /**
        * <code>._TierUp CEGAEFJHEMA = 2;</code>
        */
-      public emu.grasscutter.net.proto.TierUp._TierUp.Builder getCEGAEFJHEMABuilder() {
+      public emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder getCEGAEFJHEMABuilder() {
         
         onChanged();
         return getCEGAEFJHEMAFieldBuilder().getBuilder();
@@ -789,23 +789,23 @@ public final class ACDMMNFPFCPOuterClass {
       /**
        * <code>._TierUp CEGAEFJHEMA = 2;</code>
        */
-      public emu.grasscutter.net.proto.TierUp._TierUpOrBuilder getCEGAEFJHEMAOrBuilder() {
+      public emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder getCEGAEFJHEMAOrBuilder() {
         if (cEGAEFJHEMABuilder_ != null) {
           return cEGAEFJHEMABuilder_.getMessageOrBuilder();
         } else {
           return cEGAEFJHEMA_ == null ?
-              emu.grasscutter.net.proto.TierUp._TierUp.getDefaultInstance() : cEGAEFJHEMA_;
+              emu.grasscutter.net.proto._TierUpOuterClass._TierUp.getDefaultInstance() : cEGAEFJHEMA_;
         }
       }
       /**
        * <code>._TierUp CEGAEFJHEMA = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TierUp._TierUp, emu.grasscutter.net.proto.TierUp._TierUp.Builder, emu.grasscutter.net.proto.TierUp._TierUpOrBuilder> 
+          emu.grasscutter.net.proto._TierUpOuterClass._TierUp, emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder, emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder> 
           getCEGAEFJHEMAFieldBuilder() {
         if (cEGAEFJHEMABuilder_ == null) {
           cEGAEFJHEMABuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TierUp._TierUp, emu.grasscutter.net.proto.TierUp._TierUp.Builder, emu.grasscutter.net.proto.TierUp._TierUpOrBuilder>(
+              emu.grasscutter.net.proto._TierUpOuterClass._TierUp, emu.grasscutter.net.proto._TierUpOuterClass._TierUp.Builder, emu.grasscutter.net.proto._TierUpOuterClass._TierUpOrBuilder>(
                   getCEGAEFJHEMA(),
                   getParentForChildren(),
                   isClean());
@@ -1008,13 +1008,14 @@ public final class ACDMMNFPFCPOuterClass {
       "CDMMNFPFCP\022\023\n\013CBELHGLGDEO\030\001 \001(\003\022\035\n\013CEGAE" +
       "FJHEMA\030\002 \001(\0132\010._TierUp\022\023\n\013DJCHFBFAFKL\030\003 " +
       "\001(\003\022\023\n\013MDEEKKENCCB\030\005 \001(\003\022\023\n\013GEKKBDKHKLJ\030" +
-      "\006 \001(\003\022\023\n\013DJAGPOEHJGI\030\007 \001(\010B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\006 \001(\003\022\023\n\013DJAGPOEHJGI\030\007 \001(\010B2\n\031emu.grassc" +
+      "utter.net.protoB\025ACDMMNFPFCPOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.TierUp.getDescriptor(),
+          emu.grasscutter.net.proto._TierUpOuterClass.getDescriptor(),
         });
     internal_static_ACDMMNFPFCP_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1022,7 +1023,7 @@ public final class ACDMMNFPFCPOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ACDMMNFPFCP_descriptor,
         new java.lang.String[] { "CBELHGLGDEO", "CEGAEFJHEMA", "DJCHFBFAFKL", "MDEEKKENCCB", "GEKKBDKHKLJ", "DJAGPOEHJGI", });
-    emu.grasscutter.net.proto.TierUp.getDescriptor();
+    emu.grasscutter.net.proto._TierUpOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

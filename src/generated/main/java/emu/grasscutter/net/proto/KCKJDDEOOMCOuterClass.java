@@ -870,7 +870,8 @@ public final class KCKJDDEOOMCOuterClass {
       "\n\021KCKJDDEOOMC.proto\032\014Vector.proto\"U\n\013KCK" +
       "JDDEOOMC\022\r\n\005param\030\003 \001(\005\022\024\n\003pos\030\004 \001(\0132\007.V" +
       "ector\022\020\n\010item_num\030\006 \001(\r\022\017\n\007item_id\030\017 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025KCKJDDEOO" +
+      "MCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

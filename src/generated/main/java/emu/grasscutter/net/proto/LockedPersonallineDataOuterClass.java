@@ -1811,7 +1811,8 @@ public final class LockedPersonallineDataOuterClass {
       "3\n\013_QuestParam\022\022\n\nchapter_id\030\003 \001(\r\022\020\n\010qu" +
       "est_id\030\014 \001(\r\"8\n\nLockReason\022\024\n\020LockReason" +
       "_LEVEL\020\000\022\024\n\020LockReason_QUEST\020\001B\007\n\005paramB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "=\n\031emu.grasscutter.net.protoB LockedPers" +
+      "onallineDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

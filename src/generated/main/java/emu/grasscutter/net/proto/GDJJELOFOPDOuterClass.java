@@ -596,8 +596,9 @@ public final class GDJJELOFOPDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GDJJELOFOPD.proto\"4\n\013GDJJELOFOPD\022\020\n\010is" +
-      "_ready\030\014 \001(\010\022\023\n\013FAFDNMIEMEL\030\r \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "_ready\030\014 \001(\010\022\023\n\013FAFDNMIEMEL\030\r \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025GDJJELOFOPDOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -588,7 +588,8 @@ public final class HuntingPairOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HuntingPair.proto\"<\n\013HuntingPair\022\031\n\021mo" +
       "nster_config_id\030\004 \001(\r\022\022\n\nrefresh_id\030\n \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB2\n\031emu.grasscutter.net.protoB\025HuntingP" +
+      "airOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

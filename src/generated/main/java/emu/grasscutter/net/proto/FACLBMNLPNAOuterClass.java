@@ -454,8 +454,9 @@ public final class FACLBMNLPNAOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021FACLBMNLPNA.proto\"\r\n\013FACLBMNLPNAB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021FACLBMNLPNA.proto\"\r\n\013FACLBMNLPNAB2\n\031em" +
+      "u.grasscutter.net.protoB\025FACLBMNLPNAOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

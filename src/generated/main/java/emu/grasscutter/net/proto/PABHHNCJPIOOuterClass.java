@@ -737,8 +737,9 @@ public final class PABHHNCJPIOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PABHHNCJPIO.proto\"`\n\013PABHHNCJPIO\022\023\n\013LI" +
       "DIBCLMBGJ\030\003 \001(\r\022\023\n\013PLLAGCOJCMD\030\006 \001(\010\022\023\n\013" +
-      "HDONANGIPEC\030\016 \001(\r\022\022\n\ncostume_id\030\017 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "HDONANGIPEC\030\016 \001(\r\022\022\n\ncostume_id\030\017 \001(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025PABHHNCJPIOO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

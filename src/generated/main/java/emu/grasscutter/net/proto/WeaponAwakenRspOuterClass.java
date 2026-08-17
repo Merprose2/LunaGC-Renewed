@@ -1364,7 +1364,8 @@ public final class WeaponAwakenRspOuterClass {
       "weapon_guid\030\017 \001(\004\0322\n\020DJMEIDCCELAEntry\022\013\n" +
       "\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\0322\n\020PAGHKMI" +
       "DOIOEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028" +
-      "\001B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001B6\n\031emu.grasscutter.net.protoB\031WeaponAw" +
+      "akenRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -738,8 +738,9 @@ public final class IKAEFGPKJEHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IKAEFGPKJEH.proto\"U\n\013IKAEFGPKJEH\022\r\n\005sc" +
       "ore\030\003 \001(\r\022\025\n\ris_new_record\030\004 \001(\010\022\017\n\007retc" +
-      "ode\030\007 \001(\005\022\017\n\007is_succ\030\014 \001(\010B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "ode\030\007 \001(\005\022\017\n\007is_succ\030\014 \001(\010B2\n\031emu.grassc" +
+      "utter.net.protoB\025IKAEFGPKJEHOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

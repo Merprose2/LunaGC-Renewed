@@ -525,8 +525,8 @@ public final class OOKABOOKDEJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OOKABOOKDEJ.proto\"\"\n\013OOKABOOKDEJ\022\023\n\013EH" +
-      "GHANNAICB\030\007 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "GHANNAICB\030\007 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025OOKABOOKDEJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

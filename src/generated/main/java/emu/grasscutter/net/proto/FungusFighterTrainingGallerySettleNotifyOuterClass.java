@@ -1060,8 +1060,9 @@ public final class FungusFighterTrainingGallerySettleNotifyOuterClass {
       "lleryStopReason\022\027\n\017is_final_settle\030\003 \001(\010" +
       "\022\023\n\013NPNFNENFCDH\030\004 \001(\r\022\023\n\013OLEKLEFELPB\030\005 \001" +
       "(\r\022\025\n\ris_new_record\030\010 \001(\010\022\023\n\013AGINPECNFOB" +
-      "\030\t \001(\r\022\027\n\017total_used_time\030\013 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\030\t \001(\r\022\027\n\017total_used_time\030\013 \001(\rBO\n\031emu.g" +
+      "rasscutter.net.protoB2FungusFighterTrain" +
+      "ingGallerySettleNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -729,8 +729,9 @@ public final class ADKBIBIFDLBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ADKBIBIFDLB.proto\032\021CCKINOHGEJH.proto\"E" +
       "\n\013ADKBIBIFDLB\022!\n\013FBKKNLIPNDB\030\005 \001(\0132\014.CCK" +
-      "INOHGEJH\022\023\n\013LJGHDOOCCGC\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "INOHGEJH\022\023\n\013LJGHDOOCCGC\030\017 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025ADKBIBIFDLBOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

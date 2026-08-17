@@ -152,8 +152,9 @@ public final class GAAHENMNIFKOuterClass {
       "\n\021GAAHENMNIFK.proto*|\n\013GAAHENMNIFK\022\027\n\023GA" +
       "AHENMNIFK_UNKNOWN\020\000\022\035\n\031GAAHENMNIFK_SHORT" +
       "_COMMENT\020\001\022\032\n\026GAAHENMNIFK_IMAGE_TEXT\020\002\022\031" +
-      "\n\025GAAHENMNIFK_LONG_TEXT\020\003B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\n\025GAAHENMNIFK_LONG_TEXT\020\003B2\n\031emu.grasscu" +
+      "tter.net.protoB\025GAAHENMNIFKOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -857,8 +857,9 @@ public final class HDCFGIFBHKBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HDCFGIFBHKB.proto\"_\n\013HDCFGIFBHKB\022\021\n\tis" +
       "_active\030\001 \001(\010\022\023\n\013JBBCINLKBEB\030\002 \001(\010\022\023\n\013DN" +
-      "PINKPIGCJ\030\003 \003(\r\022\023\n\013HGILDKDMIOH\030\004 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "PINKPIGCJ\030\003 \003(\r\022\023\n\013HGILDKDMIOH\030\004 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025HDCFGIFBHKBOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

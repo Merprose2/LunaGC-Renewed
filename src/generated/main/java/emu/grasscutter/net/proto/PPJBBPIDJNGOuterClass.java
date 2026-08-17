@@ -595,8 +595,9 @@ public final class PPJBBPIDJNGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PPJBBPIDJNG.proto\"7\n\013PPJBBPIDJNG\022\023\n\013re" +
-      "minder_id\030\013 \001(\r\022\023\n\013ILCINFEDJMH\030\016 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "minder_id\030\013 \001(\r\022\023\n\013ILCINFEDJMH\030\016 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025PPJBBPIDJNGOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

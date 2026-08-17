@@ -848,7 +848,9 @@ public final class MoonfinTrialActivityDetailInfoOuterClass {
       "nfinTrialActivityDetailInfo.LevelInfoMap" +
       "Entry\032K\n\021LevelInfoMapEntry\022\013\n\003key\030\001 \001(\r\022" +
       "%\n\005value\030\002 \001(\0132\026.MoonfinTrialLevelInfo:\002" +
-      "8\001B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "8\001BE\n\031emu.grasscutter.net.protoB(Moonfin" +
+      "TrialActivityDetailInfoOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

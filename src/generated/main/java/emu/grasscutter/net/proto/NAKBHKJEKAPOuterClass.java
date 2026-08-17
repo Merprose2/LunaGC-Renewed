@@ -36,12 +36,12 @@ public final class NAKBHKJEKAPOuterClass {
     /**
      * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo> 
+    java.util.List<emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo> 
         getFlagInfoListList();
     /**
      * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
      */
-    emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo getFlagInfoList(int index);
+    emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo getFlagInfoList(int index);
     /**
      * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
      */
@@ -49,12 +49,12 @@ public final class NAKBHKJEKAPOuterClass {
     /**
      * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfoOrBuilder> 
         getFlagInfoListOrBuilderList();
     /**
      * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
      */
-    emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfoOrBuilder getFlagInfoListOrBuilder(
+    emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfoOrBuilder getFlagInfoListOrBuilder(
         int index);
 
     /**
@@ -77,12 +77,12 @@ public final class NAKBHKJEKAPOuterClass {
     /**
      * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail> 
+    java.util.List<emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail> 
         getMonsterCardListList();
     /**
      * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
      */
-    emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail getMonsterCardList(int index);
+    emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail getMonsterCardList(int index);
     /**
      * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
      */
@@ -90,12 +90,12 @@ public final class NAKBHKJEKAPOuterClass {
     /**
      * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetailOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetailOrBuilder> 
         getMonsterCardListOrBuilderList();
     /**
      * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
      */
-    emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetailOrBuilder getMonsterCardListOrBuilder(
+    emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetailOrBuilder getMonsterCardListOrBuilder(
         int index);
 
     /**
@@ -143,12 +143,12 @@ public final class NAKBHKJEKAPOuterClass {
     /**
      * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo> 
+    java.util.List<emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo> 
         getTeamInfoListList();
     /**
      * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
      */
-    emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo getTeamInfoList(int index);
+    emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo getTeamInfoList(int index);
     /**
      * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
      */
@@ -156,12 +156,12 @@ public final class NAKBHKJEKAPOuterClass {
     /**
      * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfoOrBuilder> 
         getTeamInfoListOrBuilderList();
     /**
      * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
      */
-    emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfoOrBuilder getTeamInfoListOrBuilder(
+    emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfoOrBuilder getTeamInfoListOrBuilder(
         int index);
   }
   /**
@@ -232,11 +232,11 @@ public final class NAKBHKJEKAPOuterClass {
             }
             case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                FlagInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo>();
+                FlagInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               FlagInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo.parser(), extensionRegistry));
               break;
             }
             case 48: {
@@ -262,11 +262,11 @@ public final class NAKBHKJEKAPOuterClass {
             }
             case 58: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                MonsterCardList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail>();
+                MonsterCardList_ = new java.util.ArrayList<emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail>();
                 mutable_bitField0_ |= 0x00000004;
               }
               MonsterCardList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail.parser(), extensionRegistry));
               break;
             }
             case 66: {
@@ -294,11 +294,11 @@ public final class NAKBHKJEKAPOuterClass {
             }
             case 122: {
               if (!((mutable_bitField0_ & 0x00000008) != 0)) {
-                teamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo>();
+                teamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo>();
                 mutable_bitField0_ |= 0x00000008;
               }
               teamInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -372,19 +372,19 @@ public final class NAKBHKJEKAPOuterClass {
     }
 
     public static final int _FLAG_INFO_LIST_FIELD_NUMBER = 5;
-    private java.util.List<emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo> FlagInfoList_;
+    private java.util.List<emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo> FlagInfoList_;
     /**
      * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo> getFlagInfoListList() {
+    public java.util.List<emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo> getFlagInfoListList() {
       return FlagInfoList_;
     }
     /**
      * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfoOrBuilder> 
         getFlagInfoListOrBuilderList() {
       return FlagInfoList_;
     }
@@ -399,14 +399,14 @@ public final class NAKBHKJEKAPOuterClass {
      * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo getFlagInfoList(int index) {
+    public emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo getFlagInfoList(int index) {
       return FlagInfoList_.get(index);
     }
     /**
      * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfoOrBuilder getFlagInfoListOrBuilder(
+    public emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfoOrBuilder getFlagInfoListOrBuilder(
         int index) {
       return FlagInfoList_.get(index);
     }
@@ -440,19 +440,19 @@ public final class NAKBHKJEKAPOuterClass {
     private int ArtifactIdListMemoizedSerializedSize = -1;
 
     public static final int _MONSTER_CARD_LIST_FIELD_NUMBER = 7;
-    private java.util.List<emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail> MonsterCardList_;
+    private java.util.List<emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail> MonsterCardList_;
     /**
      * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail> getMonsterCardListList() {
+    public java.util.List<emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail> getMonsterCardListList() {
       return MonsterCardList_;
     }
     /**
      * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetailOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetailOrBuilder> 
         getMonsterCardListOrBuilderList() {
       return MonsterCardList_;
     }
@@ -467,14 +467,14 @@ public final class NAKBHKJEKAPOuterClass {
      * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail getMonsterCardList(int index) {
+    public emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail getMonsterCardList(int index) {
       return MonsterCardList_.get(index);
     }
     /**
      * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetailOrBuilder getMonsterCardListOrBuilder(
+    public emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetailOrBuilder getMonsterCardListOrBuilder(
         int index) {
       return MonsterCardList_.get(index);
     }
@@ -605,19 +605,19 @@ public final class NAKBHKJEKAPOuterClass {
     }
 
     public static final int TEAM_INFO_LIST_FIELD_NUMBER = 15;
-    private java.util.List<emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo> teamInfoList_;
+    private java.util.List<emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo> teamInfoList_;
     /**
      * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo> getTeamInfoListList() {
+    public java.util.List<emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo> getTeamInfoListList() {
       return teamInfoList_;
     }
     /**
      * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfoOrBuilder> 
         getTeamInfoListOrBuilderList() {
       return teamInfoList_;
     }
@@ -632,14 +632,14 @@ public final class NAKBHKJEKAPOuterClass {
      * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo getTeamInfoList(int index) {
+    public emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo getTeamInfoList(int index) {
       return teamInfoList_.get(index);
     }
     /**
      * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfoOrBuilder getTeamInfoListOrBuilder(
+    public emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfoOrBuilder getTeamInfoListOrBuilder(
         int index) {
       return teamInfoList_.get(index);
     }
@@ -1358,22 +1358,22 @@ public final class NAKBHKJEKAPOuterClass {
         return profilePictureBuilder_;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo> FlagInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo> FlagInfoList_ =
         java.util.Collections.emptyList();
       private void ensureFlagInfoListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          FlagInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo>(FlagInfoList_);
+          FlagInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo>(FlagInfoList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo, emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo.Builder, emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfoOrBuilder> FlagInfoListBuilder_;
+          emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo, emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo.Builder, emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfoOrBuilder> FlagInfoListBuilder_;
 
       /**
        * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo> getFlagInfoListList() {
+      public java.util.List<emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo> getFlagInfoListList() {
         if (FlagInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(FlagInfoList_);
         } else {
@@ -1393,7 +1393,7 @@ public final class NAKBHKJEKAPOuterClass {
       /**
        * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo getFlagInfoList(int index) {
+      public emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo getFlagInfoList(int index) {
         if (FlagInfoListBuilder_ == null) {
           return FlagInfoList_.get(index);
         } else {
@@ -1404,7 +1404,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
        */
       public Builder setFlagInfoList(
-          int index, emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo value) {
+          int index, emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo value) {
         if (FlagInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1421,7 +1421,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
        */
       public Builder setFlagInfoList(
-          int index, emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo.Builder builderForValue) {
         if (FlagInfoListBuilder_ == null) {
           ensureFlagInfoListIsMutable();
           FlagInfoList_.set(index, builderForValue.build());
@@ -1434,7 +1434,7 @@ public final class NAKBHKJEKAPOuterClass {
       /**
        * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
        */
-      public Builder addFlagInfoList(emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo value) {
+      public Builder addFlagInfoList(emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo value) {
         if (FlagInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1451,7 +1451,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
        */
       public Builder addFlagInfoList(
-          int index, emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo value) {
+          int index, emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo value) {
         if (FlagInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1468,7 +1468,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
        */
       public Builder addFlagInfoList(
-          emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo.Builder builderForValue) {
         if (FlagInfoListBuilder_ == null) {
           ensureFlagInfoListIsMutable();
           FlagInfoList_.add(builderForValue.build());
@@ -1482,7 +1482,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
        */
       public Builder addFlagInfoList(
-          int index, emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo.Builder builderForValue) {
         if (FlagInfoListBuilder_ == null) {
           ensureFlagInfoListIsMutable();
           FlagInfoList_.add(index, builderForValue.build());
@@ -1496,7 +1496,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
        */
       public Builder addAllFlagInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo> values) {
         if (FlagInfoListBuilder_ == null) {
           ensureFlagInfoListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1536,14 +1536,14 @@ public final class NAKBHKJEKAPOuterClass {
       /**
        * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo.Builder getFlagInfoListBuilder(
+      public emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo.Builder getFlagInfoListBuilder(
           int index) {
         return getFlagInfoListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfoOrBuilder getFlagInfoListOrBuilder(
+      public emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfoOrBuilder getFlagInfoListOrBuilder(
           int index) {
         if (FlagInfoListBuilder_ == null) {
           return FlagInfoList_.get(index);  } else {
@@ -1553,7 +1553,7 @@ public final class NAKBHKJEKAPOuterClass {
       /**
        * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfoOrBuilder> 
            getFlagInfoListOrBuilderList() {
         if (FlagInfoListBuilder_ != null) {
           return FlagInfoListBuilder_.getMessageOrBuilderList();
@@ -1564,31 +1564,31 @@ public final class NAKBHKJEKAPOuterClass {
       /**
        * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo.Builder addFlagInfoListBuilder() {
+      public emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo.Builder addFlagInfoListBuilder() {
         return getFlagInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo.Builder addFlagInfoListBuilder(
+      public emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo.Builder addFlagInfoListBuilder(
           int index) {
         return getFlagInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._MonsterChessV2FlagInfo _flag_info_list = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo.Builder> 
            getFlagInfoListBuilderList() {
         return getFlagInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo, emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo.Builder, emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfoOrBuilder> 
+          emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo, emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo.Builder, emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfoOrBuilder> 
           getFlagInfoListFieldBuilder() {
         if (FlagInfoListBuilder_ == null) {
           FlagInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo, emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfo.Builder, emu.grasscutter.net.proto.MonsterChessV2FlagInfo._MonsterChessV2FlagInfoOrBuilder>(
+              emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo, emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfo.Builder, emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass._MonsterChessV2FlagInfoOrBuilder>(
                   FlagInfoList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -1677,22 +1677,22 @@ public final class NAKBHKJEKAPOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail> MonsterCardList_ =
+      private java.util.List<emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail> MonsterCardList_ =
         java.util.Collections.emptyList();
       private void ensureMonsterCardListIsMutable() {
         if (!((bitField0_ & 0x00000004) != 0)) {
-          MonsterCardList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail>(MonsterCardList_);
+          MonsterCardList_ = new java.util.ArrayList<emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail>(MonsterCardList_);
           bitField0_ |= 0x00000004;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail, emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail.Builder, emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetailOrBuilder> MonsterCardListBuilder_;
+          emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail, emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail.Builder, emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetailOrBuilder> MonsterCardListBuilder_;
 
       /**
        * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail> getMonsterCardListList() {
+      public java.util.List<emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail> getMonsterCardListList() {
         if (MonsterCardListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(MonsterCardList_);
         } else {
@@ -1712,7 +1712,7 @@ public final class NAKBHKJEKAPOuterClass {
       /**
        * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail getMonsterCardList(int index) {
+      public emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail getMonsterCardList(int index) {
         if (MonsterCardListBuilder_ == null) {
           return MonsterCardList_.get(index);
         } else {
@@ -1723,7 +1723,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
        */
       public Builder setMonsterCardList(
-          int index, emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail value) {
+          int index, emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail value) {
         if (MonsterCardListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1740,7 +1740,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
        */
       public Builder setMonsterCardList(
-          int index, emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail.Builder builderForValue) {
         if (MonsterCardListBuilder_ == null) {
           ensureMonsterCardListIsMutable();
           MonsterCardList_.set(index, builderForValue.build());
@@ -1753,7 +1753,7 @@ public final class NAKBHKJEKAPOuterClass {
       /**
        * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
        */
-      public Builder addMonsterCardList(emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail value) {
+      public Builder addMonsterCardList(emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail value) {
         if (MonsterCardListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1770,7 +1770,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
        */
       public Builder addMonsterCardList(
-          int index, emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail value) {
+          int index, emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail value) {
         if (MonsterCardListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1787,7 +1787,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
        */
       public Builder addMonsterCardList(
-          emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail.Builder builderForValue) {
+          emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail.Builder builderForValue) {
         if (MonsterCardListBuilder_ == null) {
           ensureMonsterCardListIsMutable();
           MonsterCardList_.add(builderForValue.build());
@@ -1801,7 +1801,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
        */
       public Builder addMonsterCardList(
-          int index, emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail.Builder builderForValue) {
         if (MonsterCardListBuilder_ == null) {
           ensureMonsterCardListIsMutable();
           MonsterCardList_.add(index, builderForValue.build());
@@ -1815,7 +1815,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
        */
       public Builder addAllMonsterCardList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail> values) {
         if (MonsterCardListBuilder_ == null) {
           ensureMonsterCardListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1855,14 +1855,14 @@ public final class NAKBHKJEKAPOuterClass {
       /**
        * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail.Builder getMonsterCardListBuilder(
+      public emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail.Builder getMonsterCardListBuilder(
           int index) {
         return getMonsterCardListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetailOrBuilder getMonsterCardListOrBuilder(
+      public emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetailOrBuilder getMonsterCardListOrBuilder(
           int index) {
         if (MonsterCardListBuilder_ == null) {
           return MonsterCardList_.get(index);  } else {
@@ -1872,7 +1872,7 @@ public final class NAKBHKJEKAPOuterClass {
       /**
        * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetailOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetailOrBuilder> 
            getMonsterCardListOrBuilderList() {
         if (MonsterCardListBuilder_ != null) {
           return MonsterCardListBuilder_.getMessageOrBuilderList();
@@ -1883,31 +1883,31 @@ public final class NAKBHKJEKAPOuterClass {
       /**
        * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail.Builder addMonsterCardListBuilder() {
+      public emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail.Builder addMonsterCardListBuilder() {
         return getMonsterCardListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail.getDefaultInstance());
+            emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail.getDefaultInstance());
       }
       /**
        * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail.Builder addMonsterCardListBuilder(
+      public emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail.Builder addMonsterCardListBuilder(
           int index) {
         return getMonsterCardListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail.getDefaultInstance());
+            index, emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail.getDefaultInstance());
       }
       /**
        * <code>repeated ._MonsterChessV2CardDetail _monster_card_list = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail.Builder> 
            getMonsterCardListBuilderList() {
         return getMonsterCardListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail, emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail.Builder, emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetailOrBuilder> 
+          emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail, emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail.Builder, emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetailOrBuilder> 
           getMonsterCardListFieldBuilder() {
         if (MonsterCardListBuilder_ == null) {
           MonsterCardListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail, emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetail.Builder, emu.grasscutter.net.proto.MonsterChessV2CardDetail._MonsterChessV2CardDetailOrBuilder>(
+              emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail, emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetail.Builder, emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass._MonsterChessV2CardDetailOrBuilder>(
                   MonsterCardList_,
                   ((bitField0_ & 0x00000004) != 0),
                   getParentForChildren(),
@@ -2176,22 +2176,22 @@ public final class NAKBHKJEKAPOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo> teamInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo> teamInfoList_ =
         java.util.Collections.emptyList();
       private void ensureTeamInfoListIsMutable() {
         if (!((bitField0_ & 0x00000008) != 0)) {
-          teamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo>(teamInfoList_);
+          teamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo>(teamInfoList_);
           bitField0_ |= 0x00000008;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo, emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo.Builder, emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfoOrBuilder> teamInfoListBuilder_;
+          emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo, emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo.Builder, emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfoOrBuilder> teamInfoListBuilder_;
 
       /**
        * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo> getTeamInfoListList() {
+      public java.util.List<emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo> getTeamInfoListList() {
         if (teamInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(teamInfoList_);
         } else {
@@ -2211,7 +2211,7 @@ public final class NAKBHKJEKAPOuterClass {
       /**
        * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo getTeamInfoList(int index) {
+      public emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo getTeamInfoList(int index) {
         if (teamInfoListBuilder_ == null) {
           return teamInfoList_.get(index);
         } else {
@@ -2222,7 +2222,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
        */
       public Builder setTeamInfoList(
-          int index, emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo value) {
+          int index, emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo value) {
         if (teamInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2239,7 +2239,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
        */
       public Builder setTeamInfoList(
-          int index, emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo.Builder builderForValue) {
         if (teamInfoListBuilder_ == null) {
           ensureTeamInfoListIsMutable();
           teamInfoList_.set(index, builderForValue.build());
@@ -2252,7 +2252,7 @@ public final class NAKBHKJEKAPOuterClass {
       /**
        * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
        */
-      public Builder addTeamInfoList(emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo value) {
+      public Builder addTeamInfoList(emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo value) {
         if (teamInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2269,7 +2269,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
        */
       public Builder addTeamInfoList(
-          int index, emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo value) {
+          int index, emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo value) {
         if (teamInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2286,7 +2286,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
        */
       public Builder addTeamInfoList(
-          emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo.Builder builderForValue) {
         if (teamInfoListBuilder_ == null) {
           ensureTeamInfoListIsMutable();
           teamInfoList_.add(builderForValue.build());
@@ -2300,7 +2300,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
        */
       public Builder addTeamInfoList(
-          int index, emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo.Builder builderForValue) {
         if (teamInfoListBuilder_ == null) {
           ensureTeamInfoListIsMutable();
           teamInfoList_.add(index, builderForValue.build());
@@ -2314,7 +2314,7 @@ public final class NAKBHKJEKAPOuterClass {
        * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
        */
       public Builder addAllTeamInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo> values) {
         if (teamInfoListBuilder_ == null) {
           ensureTeamInfoListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -2354,14 +2354,14 @@ public final class NAKBHKJEKAPOuterClass {
       /**
        * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo.Builder getTeamInfoListBuilder(
+      public emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo.Builder getTeamInfoListBuilder(
           int index) {
         return getTeamInfoListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfoOrBuilder getTeamInfoListOrBuilder(
+      public emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfoOrBuilder getTeamInfoListOrBuilder(
           int index) {
         if (teamInfoListBuilder_ == null) {
           return teamInfoList_.get(index);  } else {
@@ -2371,7 +2371,7 @@ public final class NAKBHKJEKAPOuterClass {
       /**
        * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfoOrBuilder> 
            getTeamInfoListOrBuilderList() {
         if (teamInfoListBuilder_ != null) {
           return teamInfoListBuilder_.getMessageOrBuilderList();
@@ -2382,31 +2382,31 @@ public final class NAKBHKJEKAPOuterClass {
       /**
        * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo.Builder addTeamInfoListBuilder() {
+      public emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo.Builder addTeamInfoListBuilder() {
         return getTeamInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
        */
-      public emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo.Builder addTeamInfoListBuilder(
+      public emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo.Builder addTeamInfoListBuilder(
           int index) {
         return getTeamInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._MonsterChessV2TeamInfo team_info_list = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo.Builder> 
            getTeamInfoListBuilderList() {
         return getTeamInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo, emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo.Builder, emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfoOrBuilder> 
+          emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo, emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo.Builder, emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfoOrBuilder> 
           getTeamInfoListFieldBuilder() {
         if (teamInfoListBuilder_ == null) {
           teamInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo, emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfo.Builder, emu.grasscutter.net.proto.MonsterChessV2TeamInfo._MonsterChessV2TeamInfoOrBuilder>(
+              emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo, emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfo.Builder, emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass._MonsterChessV2TeamInfoOrBuilder>(
                   teamInfoList_,
                   ((bitField0_ & 0x00000008) != 0),
                   getParentForChildren(),
@@ -2493,16 +2493,17 @@ public final class NAKBHKJEKAPOuterClass {
       "rdDetail\022\021\n\tnick_name\030\010 \001(\t\022\037\n\027_monster_" +
       "chess_team_num\030\n \001(\r\022\021\n\tonline_id\030\013 \001(\t\022" +
       "\026\n\016_xbox_gamertag\030\014 \001(\t\0220\n\016team_info_lis" +
-      "t\030\017 \003(\0132\030._MonsterChessV2TeamInfoB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "t\030\017 \003(\0132\030._MonsterChessV2TeamInfoB2\n\031emu" +
+      ".grasscutter.net.protoB\025NAKBHKJEKAPOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.ProfilePictureOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.MonsterChessV2CardDetail.getDescriptor(),
-          emu.grasscutter.net.proto.MonsterChessV2FlagInfo.getDescriptor(),
-          emu.grasscutter.net.proto.MonsterChessV2TeamInfo.getDescriptor(),
+          emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass.getDescriptor(),
         });
     internal_static_NAKBHKJEKAP_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2511,9 +2512,9 @@ public final class NAKBHKJEKAPOuterClass {
         internal_static_NAKBHKJEKAP_descriptor,
         new java.lang.String[] { "ProfilePicture", "FlagInfoList", "ArtifactIdList", "MonsterCardList", "NickName", "MonsterChessTeamNum", "OnlineId", "XboxGamertag", "TeamInfoList", });
     emu.grasscutter.net.proto.ProfilePictureOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.MonsterChessV2CardDetail.getDescriptor();
-    emu.grasscutter.net.proto.MonsterChessV2FlagInfo.getDescriptor();
-    emu.grasscutter.net.proto.MonsterChessV2TeamInfo.getDescriptor();
+    emu.grasscutter.net.proto._MonsterChessV2CardDetailOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._MonsterChessV2FlagInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._MonsterChessV2TeamInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

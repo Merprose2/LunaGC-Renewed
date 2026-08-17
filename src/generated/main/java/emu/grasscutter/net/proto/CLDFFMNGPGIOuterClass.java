@@ -652,8 +652,8 @@ public final class CLDFFMNGPGIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CLDFFMNGPGI.proto\"\"\n\013CLDFFMNGPGI\022\023\n\013JE" +
-      "HGANFHDKP\030\004 \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "HGANFHDKP\030\004 \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025CLDFFMNGPGIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -676,8 +676,8 @@ public final class ItemRenameAvatarReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031ItemRenameAvatarReq.proto\"=\n\023ItemRenam" +
       "eAvatarReq\022\023\n\013avatar_name\030\t \001(\t\022\021\n\trenam" +
-      "e_id\030\n \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "e_id\030\n \001(\rB:\n\031emu.grasscutter.net.protoB" +
+      "\035ItemRenameAvatarReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

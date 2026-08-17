@@ -1199,8 +1199,8 @@ public final class CHDPMAIDDKCOuterClass {
       "\n\021CHDPMAIDDKC.proto\"v\n\013CHDPMAIDDKC\022\023\n\013ID" +
       "CDPOCLLKB\030\001 \001(\t\022\023\n\013JBDPOMKHOOH\030\002 \001(\t\022\023\n\013" +
       "AHJDEJLEPPI\030\003 \001(\t\022\023\n\013BMJDEIEOAGI\030\004 \001(\t\022\023" +
-      "\n\013FNDLPECDIDD\030\005 \001(\tB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013FNDLPECDIDD\030\005 \001(\tB2\n\031emu.grasscutter.n" +
+      "et.protoB\025CHDPMAIDDKCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

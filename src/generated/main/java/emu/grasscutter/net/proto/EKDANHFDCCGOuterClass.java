@@ -972,7 +972,8 @@ public final class EKDANHFDCCGOuterClass {
       "\n\021EKDANHFDCCG.proto\032\017ItemParam.proto\"R\n\013" +
       "EKDANHFDCCG\022\017\n\007retcode\030\003 \001(\005\022\035\n\titem_lis" +
       "t\030\n \003(\0132\n.ItemParam\022\023\n\013GDGMFOLKPJC\030\016 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025EKDANHFDC" +
+      "CGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

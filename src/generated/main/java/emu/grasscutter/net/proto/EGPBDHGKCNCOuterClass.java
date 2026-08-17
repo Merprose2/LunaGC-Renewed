@@ -1035,8 +1035,9 @@ public final class EGPBDHGKCNCOuterClass {
       "\n\021EGPBDHGKCNC.proto\032\021EIKHALAMCJL.proto\032\021" +
       "KLKHABHNGEK.proto\"X\n\013EGPBDHGKCNC\022&\n\020play" +
       "er_info_list\030\004 \003(\0132\014.EIKHALAMCJL\022!\n\013_lev" +
-      "el_info\030\013 \001(\0132\014.KLKHABHNGEKB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "el_info\030\013 \001(\0132\014.KLKHABHNGEKB2\n\031emu.grass" +
+      "cutter.net.protoB\025EGPBDHGKCNCOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

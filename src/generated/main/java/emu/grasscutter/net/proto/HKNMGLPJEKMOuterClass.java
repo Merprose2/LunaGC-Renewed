@@ -1455,8 +1455,8 @@ public final class HKNMGLPJEKMOuterClass {
       "\022\023\n\013EFPCBADLKLM\030\005 \001(\t\022\023\n\013remark_name\030\007 \001" +
       "(\t\022\021\n\ttimestamp\030\t \001(\r\022\023\n\013OPNPMFPKLEE\030\n \001" +
       "(\r\022\023\n\013BHBJOKCFMPN\030\r \001(\r\022\013\n\003uid\030\016 \001(\r\022\020\n\010" +
-      "nickname\030\017 \001(\tB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "nickname\030\017 \001(\tB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025HKNMGLPJEKMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

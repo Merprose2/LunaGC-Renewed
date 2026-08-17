@@ -1989,7 +1989,8 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
       "ompact\030\r \001(\005\022\023\n\013CLALDLOODKP\030\016 \001(\r\022\023\n\013GKO" +
       "IAKMGNCJ\030\017 \001(\r\022\024\n\013ENOAFKKFHPA\030\230\001 \001(\010\022\024\n\013" +
       "LJMDMGOKHKG\030\331\017 \001(\005\022\024\n\013HMJLKLJEJJP\030\362\017 \001(\005" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "BB\n\031emu.grasscutter.net.protoB%EvtAnimat" +
+      "orStateChangedInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

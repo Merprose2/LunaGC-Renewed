@@ -722,8 +722,9 @@ public final class AAJAOEJLENEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AAJAOEJLENE.proto\"3\n\013AAJAOEJLENE\022\023\n\013HA" +
-      "LONGEGOEJ\030\010 \003(\r\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "LONGEGOEJ\030\010 \003(\r\022\017\n\007retcode\030\013 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025AAJAOEJLENEOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

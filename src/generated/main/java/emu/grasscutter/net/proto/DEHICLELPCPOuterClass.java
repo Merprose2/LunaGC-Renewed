@@ -605,8 +605,8 @@ public final class DEHICLELPCPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DEHICLELPCP.proto\"!\n\013DEHICLELPCP\022\022\n\nsh" +
-      "are_code\030\003 \001(\tB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "are_code\030\003 \001(\tB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025DEHICLELPCPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

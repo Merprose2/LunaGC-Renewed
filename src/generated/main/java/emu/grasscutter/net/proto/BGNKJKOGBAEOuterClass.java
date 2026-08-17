@@ -587,8 +587,9 @@ public final class BGNKJKOGBAEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BGNKJKOGBAE.proto\"8\n\013BGNKJKOGBAE\022\024\n\014fu" +
-      "rniture_id\030\006 \001(\r\022\023\n\013LBOJNMDDPCB\030\007 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "rniture_id\030\006 \001(\r\022\023\n\013LBOJNMDDPCB\030\007 \001(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025BGNKJKOGBAEO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

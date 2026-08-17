@@ -38,11 +38,11 @@ public final class AFCKMNAIDOLOuterClass {
      * <code>._TagStructInstanceId tag_struct_instance_id = 100;</code>
      * @return The tagStructInstanceId.
      */
-    emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId getTagStructInstanceId();
+    emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId getTagStructInstanceId();
     /**
      * <code>._TagStructInstanceId tag_struct_instance_id = 100;</code>
      */
-    emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceIdOrBuilder getTagStructInstanceIdOrBuilder();
+    emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceIdOrBuilder getTagStructInstanceIdOrBuilder();
 
     public emu.grasscutter.net.proto.AFCKMNAIDOLOuterClass.AFCKMNAIDOL.DetailCase getDetailCase();
   }
@@ -99,14 +99,14 @@ public final class AFCKMNAIDOLOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId.Builder subBuilder = null;
               if (detailCase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 100;
@@ -216,21 +216,21 @@ public final class AFCKMNAIDOLOuterClass {
      * @return The tagStructInstanceId.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId getTagStructInstanceId() {
+    public emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId getTagStructInstanceId() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId) detail_;
+         return (emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId) detail_;
       }
-      return emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId.getDefaultInstance();
+      return emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId.getDefaultInstance();
     }
     /**
      * <code>._TagStructInstanceId tag_struct_instance_id = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceIdOrBuilder getTagStructInstanceIdOrBuilder() {
+    public emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceIdOrBuilder getTagStructInstanceIdOrBuilder() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId) detail_;
+         return (emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId) detail_;
       }
-      return emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId.getDefaultInstance();
+      return emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -251,7 +251,7 @@ public final class AFCKMNAIDOLOuterClass {
         output.writeEnum(1, fOIOJJHDEGK_);
       }
       if (detailCase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId) detail_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,7 +268,7 @@ public final class AFCKMNAIDOLOuterClass {
       }
       if (detailCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId) detail_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -647,7 +647,7 @@ public final class AFCKMNAIDOLOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId, emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId.Builder, emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceIdOrBuilder> tagStructInstanceIdBuilder_;
+          emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId, emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId.Builder, emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceIdOrBuilder> tagStructInstanceIdBuilder_;
       /**
        * <code>._TagStructInstanceId tag_struct_instance_id = 100;</code>
        * @return Whether the tagStructInstanceId field is set.
@@ -661,23 +661,23 @@ public final class AFCKMNAIDOLOuterClass {
        * @return The tagStructInstanceId.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId getTagStructInstanceId() {
+      public emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId getTagStructInstanceId() {
         if (tagStructInstanceIdBuilder_ == null) {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId) detail_;
+            return (emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId) detail_;
           }
-          return emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId.getDefaultInstance();
+          return emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId.getDefaultInstance();
         } else {
           if (detailCase_ == 100) {
             return tagStructInstanceIdBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId.getDefaultInstance();
+          return emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId.getDefaultInstance();
         }
       }
       /**
        * <code>._TagStructInstanceId tag_struct_instance_id = 100;</code>
        */
-      public Builder setTagStructInstanceId(emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId value) {
+      public Builder setTagStructInstanceId(emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId value) {
         if (tagStructInstanceIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -694,7 +694,7 @@ public final class AFCKMNAIDOLOuterClass {
        * <code>._TagStructInstanceId tag_struct_instance_id = 100;</code>
        */
       public Builder setTagStructInstanceId(
-          emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId.Builder builderForValue) {
+          emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId.Builder builderForValue) {
         if (tagStructInstanceIdBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -707,11 +707,11 @@ public final class AFCKMNAIDOLOuterClass {
       /**
        * <code>._TagStructInstanceId tag_struct_instance_id = 100;</code>
        */
-      public Builder mergeTagStructInstanceId(emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId value) {
+      public Builder mergeTagStructInstanceId(emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId value) {
         if (tagStructInstanceIdBuilder_ == null) {
           if (detailCase_ == 100 &&
-              detail_ != emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId.newBuilder((emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId) detail_)
+              detail_ != emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId.newBuilder((emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -748,36 +748,36 @@ public final class AFCKMNAIDOLOuterClass {
       /**
        * <code>._TagStructInstanceId tag_struct_instance_id = 100;</code>
        */
-      public emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId.Builder getTagStructInstanceIdBuilder() {
+      public emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId.Builder getTagStructInstanceIdBuilder() {
         return getTagStructInstanceIdFieldBuilder().getBuilder();
       }
       /**
        * <code>._TagStructInstanceId tag_struct_instance_id = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceIdOrBuilder getTagStructInstanceIdOrBuilder() {
+      public emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceIdOrBuilder getTagStructInstanceIdOrBuilder() {
         if ((detailCase_ == 100) && (tagStructInstanceIdBuilder_ != null)) {
           return tagStructInstanceIdBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId) detail_;
+            return (emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId) detail_;
           }
-          return emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId.getDefaultInstance();
+          return emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId.getDefaultInstance();
         }
       }
       /**
        * <code>._TagStructInstanceId tag_struct_instance_id = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId, emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId.Builder, emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceIdOrBuilder> 
+          emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId, emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId.Builder, emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceIdOrBuilder> 
           getTagStructInstanceIdFieldBuilder() {
         if (tagStructInstanceIdBuilder_ == null) {
           if (!(detailCase_ == 100)) {
-            detail_ = emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId.getDefaultInstance();
           }
           tagStructInstanceIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId, emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId.Builder, emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceIdOrBuilder>(
-                  (emu.grasscutter.net.proto.TagStructInstanceId._TagStructInstanceId) detail_,
+              emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId, emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId.Builder, emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceIdOrBuilder>(
+                  (emu.grasscutter.net.proto._TagStructInstanceIdOuterClass._TagStructInstanceId) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -857,14 +857,15 @@ public final class AFCKMNAIDOLOuterClass {
       "_TagStructInstanceId.proto\"s\n\013AFCKMNAIDO" +
       "L\022!\n\013FOIOJJHDEGK\030\001 \001(\0162\014.HDOFPHOPNBC\0227\n\026" +
       "tag_struct_instance_id\030d \001(\0132\025._TagStruc" +
-      "tInstanceIdH\000B\010\n\006detailB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "tInstanceIdH\000B\010\n\006detailB2\n\031emu.grasscutt" +
+      "er.net.protoB\025AFCKMNAIDOLOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.HDOFPHOPNBCOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.TagStructInstanceId.getDescriptor(),
+          emu.grasscutter.net.proto._TagStructInstanceIdOuterClass.getDescriptor(),
         });
     internal_static_AFCKMNAIDOL_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -873,7 +874,7 @@ public final class AFCKMNAIDOLOuterClass {
         internal_static_AFCKMNAIDOL_descriptor,
         new java.lang.String[] { "FOIOJJHDEGK", "TagStructInstanceId", "Detail", });
     emu.grasscutter.net.proto.HDOFPHOPNBCOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.TagStructInstanceId.getDescriptor();
+    emu.grasscutter.net.proto._TagStructInstanceIdOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -1073,8 +1073,9 @@ public final class DJHOFEDMCHNOuterClass {
       "\001\n\013DJHOFEDMCHN\022\020\n\010level_id\030\001 \001(\004\022\023\n\013LHBD" +
       "PFNAFJO\030\002 \001(\004\022!\n\013EECFOIPILJF\030\003 \001(\0162\014.KLD" +
       "NOGGLOHH\022\023\n\013LHHNFGNBDFD\030\004 \001(\t\022\022\n\nrequest" +
-      "_id\030\005 \001(\t\022\023\n\013NGEDGDGBAID\030\006 \001(\014B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "_id\030\005 \001(\t\022\023\n\013NGEDGDGBAID\030\006 \001(\014B2\n\031emu.gr" +
+      "asscutter.net.protoB\025DJHOFEDMCHNOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

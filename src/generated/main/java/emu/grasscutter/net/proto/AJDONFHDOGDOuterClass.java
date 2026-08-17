@@ -1200,7 +1200,8 @@ public final class AJDONFHDOGDOuterClass {
       "\003uid\030\t \001(\r\0226\n\016flower_num_map\030\r \003(\0132\036.AJD" +
       "ONFHDOGD.FlowerNumMapEntry\0323\n\021FlowerNumM" +
       "apEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025AJDONFHDOG" +
+      "DOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

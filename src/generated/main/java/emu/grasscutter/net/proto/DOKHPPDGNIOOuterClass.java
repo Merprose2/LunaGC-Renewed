@@ -1434,8 +1434,9 @@ public final class DOKHPPDGNIOOuterClass {
       "\013GEJLKKAEPJJ\030\005 \001(\010\022\023\n\013FLJPAJMHBPI\030\007 \001(\010\022" +
       "\023\n\013ECMHPMGKGBI\030\010 \001(\010\022!\n\013KAKBGHIMJEE\030\t \001(" +
       "\0132\014.GCJLKIJBFLB\022!\n\013CKEJEEOGDMK\030\n \001(\0132\014.G" +
-      "CJLKIJBFLB\022\023\n\013BGEMPLJFHIE\030\013 \001(\tB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "CJLKIJBFLB\022\023\n\013BGEMPLJFHIE\030\013 \001(\tB2\n\031emu.g" +
+      "rasscutter.net.protoB\025DOKHPPDGNIOOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -75,11 +75,11 @@ public final class KGCILOBONKPOuterClass {
      * <code>._GameplayRecommendationElementReliquarySetResponse GPCILCOECKN = 8;</code>
      * @return The gPCILCOECKN.
      */
-    emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse getGPCILCOECKN();
+    emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse getGPCILCOECKN();
     /**
      * <code>._GameplayRecommendationElementReliquarySetResponse GPCILCOECKN = 8;</code>
      */
-    emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponseOrBuilder getGPCILCOECKNOrBuilder();
+    emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponseOrBuilder getGPCILCOECKNOrBuilder();
 
     /**
      * <code>._GameplayRecommendationReliquarySetResponse CMEOHAHFFHC = 9;</code>
@@ -90,11 +90,11 @@ public final class KGCILOBONKPOuterClass {
      * <code>._GameplayRecommendationReliquarySetResponse CMEOHAHFFHC = 9;</code>
      * @return The cMEOHAHFFHC.
      */
-    emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse getCMEOHAHFFHC();
+    emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse getCMEOHAHFFHC();
     /**
      * <code>._GameplayRecommendationReliquarySetResponse CMEOHAHFFHC = 9;</code>
      */
-    emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponseOrBuilder getCMEOHAHFFHCOrBuilder();
+    emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponseOrBuilder getCMEOHAHFFHCOrBuilder();
 
     /**
      * <code>int32 retcode = 10;</code>
@@ -185,11 +185,11 @@ public final class KGCILOBONKPOuterClass {
               break;
             }
             case 66: {
-              emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse.Builder subBuilder = null;
               if (gPCILCOECKN_ != null) {
                 subBuilder = gPCILCOECKN_.toBuilder();
               }
-              gPCILCOECKN_ = input.readMessage(emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse.parser(), extensionRegistry);
+              gPCILCOECKN_ = input.readMessage(emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(gPCILCOECKN_);
                 gPCILCOECKN_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class KGCILOBONKPOuterClass {
               break;
             }
             case 74: {
-              emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse.Builder subBuilder = null;
               if (cMEOHAHFFHC_ != null) {
                 subBuilder = cMEOHAHFFHC_.toBuilder();
               }
-              cMEOHAHFFHC_ = input.readMessage(emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse.parser(), extensionRegistry);
+              cMEOHAHFFHC_ = input.readMessage(emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(cMEOHAHFFHC_);
                 cMEOHAHFFHC_ = subBuilder.buildPartial();
@@ -344,7 +344,7 @@ public final class KGCILOBONKPOuterClass {
     }
 
     public static final int GPCILCOECKN_FIELD_NUMBER = 8;
-    private emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse gPCILCOECKN_;
+    private emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse gPCILCOECKN_;
     /**
      * <code>._GameplayRecommendationElementReliquarySetResponse GPCILCOECKN = 8;</code>
      * @return Whether the gPCILCOECKN field is set.
@@ -358,19 +358,19 @@ public final class KGCILOBONKPOuterClass {
      * @return The gPCILCOECKN.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse getGPCILCOECKN() {
-      return gPCILCOECKN_ == null ? emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse.getDefaultInstance() : gPCILCOECKN_;
+    public emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse getGPCILCOECKN() {
+      return gPCILCOECKN_ == null ? emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse.getDefaultInstance() : gPCILCOECKN_;
     }
     /**
      * <code>._GameplayRecommendationElementReliquarySetResponse GPCILCOECKN = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponseOrBuilder getGPCILCOECKNOrBuilder() {
+    public emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponseOrBuilder getGPCILCOECKNOrBuilder() {
       return getGPCILCOECKN();
     }
 
     public static final int CMEOHAHFFHC_FIELD_NUMBER = 9;
-    private emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse cMEOHAHFFHC_;
+    private emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse cMEOHAHFFHC_;
     /**
      * <code>._GameplayRecommendationReliquarySetResponse CMEOHAHFFHC = 9;</code>
      * @return Whether the cMEOHAHFFHC field is set.
@@ -384,14 +384,14 @@ public final class KGCILOBONKPOuterClass {
      * @return The cMEOHAHFFHC.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse getCMEOHAHFFHC() {
-      return cMEOHAHFFHC_ == null ? emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse.getDefaultInstance() : cMEOHAHFFHC_;
+    public emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse getCMEOHAHFFHC() {
+      return cMEOHAHFFHC_ == null ? emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse.getDefaultInstance() : cMEOHAHFFHC_;
     }
     /**
      * <code>._GameplayRecommendationReliquarySetResponse CMEOHAHFFHC = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponseOrBuilder getCMEOHAHFFHCOrBuilder() {
+    public emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponseOrBuilder getCMEOHAHFFHCOrBuilder() {
       return getCMEOHAHFFHC();
     }
 
@@ -1420,9 +1420,9 @@ public final class KGCILOBONKPOuterClass {
         return iPNFDJADDLNBuilder_;
       }
 
-      private emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse gPCILCOECKN_;
+      private emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse gPCILCOECKN_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse, emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse.Builder, emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponseOrBuilder> gPCILCOECKNBuilder_;
+          emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse, emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse.Builder, emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponseOrBuilder> gPCILCOECKNBuilder_;
       /**
        * <code>._GameplayRecommendationElementReliquarySetResponse GPCILCOECKN = 8;</code>
        * @return Whether the gPCILCOECKN field is set.
@@ -1434,9 +1434,9 @@ public final class KGCILOBONKPOuterClass {
        * <code>._GameplayRecommendationElementReliquarySetResponse GPCILCOECKN = 8;</code>
        * @return The gPCILCOECKN.
        */
-      public emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse getGPCILCOECKN() {
+      public emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse getGPCILCOECKN() {
         if (gPCILCOECKNBuilder_ == null) {
-          return gPCILCOECKN_ == null ? emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse.getDefaultInstance() : gPCILCOECKN_;
+          return gPCILCOECKN_ == null ? emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse.getDefaultInstance() : gPCILCOECKN_;
         } else {
           return gPCILCOECKNBuilder_.getMessage();
         }
@@ -1444,7 +1444,7 @@ public final class KGCILOBONKPOuterClass {
       /**
        * <code>._GameplayRecommendationElementReliquarySetResponse GPCILCOECKN = 8;</code>
        */
-      public Builder setGPCILCOECKN(emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse value) {
+      public Builder setGPCILCOECKN(emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse value) {
         if (gPCILCOECKNBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1461,7 +1461,7 @@ public final class KGCILOBONKPOuterClass {
        * <code>._GameplayRecommendationElementReliquarySetResponse GPCILCOECKN = 8;</code>
        */
       public Builder setGPCILCOECKN(
-          emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse.Builder builderForValue) {
+          emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse.Builder builderForValue) {
         if (gPCILCOECKNBuilder_ == null) {
           gPCILCOECKN_ = builderForValue.build();
           onChanged();
@@ -1474,11 +1474,11 @@ public final class KGCILOBONKPOuterClass {
       /**
        * <code>._GameplayRecommendationElementReliquarySetResponse GPCILCOECKN = 8;</code>
        */
-      public Builder mergeGPCILCOECKN(emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse value) {
+      public Builder mergeGPCILCOECKN(emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse value) {
         if (gPCILCOECKNBuilder_ == null) {
           if (gPCILCOECKN_ != null) {
             gPCILCOECKN_ =
-              emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse.newBuilder(gPCILCOECKN_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse.newBuilder(gPCILCOECKN_).mergeFrom(value).buildPartial();
           } else {
             gPCILCOECKN_ = value;
           }
@@ -1506,7 +1506,7 @@ public final class KGCILOBONKPOuterClass {
       /**
        * <code>._GameplayRecommendationElementReliquarySetResponse GPCILCOECKN = 8;</code>
        */
-      public emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse.Builder getGPCILCOECKNBuilder() {
+      public emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse.Builder getGPCILCOECKNBuilder() {
         
         onChanged();
         return getGPCILCOECKNFieldBuilder().getBuilder();
@@ -1514,23 +1514,23 @@ public final class KGCILOBONKPOuterClass {
       /**
        * <code>._GameplayRecommendationElementReliquarySetResponse GPCILCOECKN = 8;</code>
        */
-      public emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponseOrBuilder getGPCILCOECKNOrBuilder() {
+      public emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponseOrBuilder getGPCILCOECKNOrBuilder() {
         if (gPCILCOECKNBuilder_ != null) {
           return gPCILCOECKNBuilder_.getMessageOrBuilder();
         } else {
           return gPCILCOECKN_ == null ?
-              emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse.getDefaultInstance() : gPCILCOECKN_;
+              emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse.getDefaultInstance() : gPCILCOECKN_;
         }
       }
       /**
        * <code>._GameplayRecommendationElementReliquarySetResponse GPCILCOECKN = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse, emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse.Builder, emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponseOrBuilder> 
+          emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse, emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse.Builder, emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponseOrBuilder> 
           getGPCILCOECKNFieldBuilder() {
         if (gPCILCOECKNBuilder_ == null) {
           gPCILCOECKNBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse, emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponse.Builder, emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse._GameplayRecommendationElementReliquarySetResponseOrBuilder>(
+              emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse, emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponse.Builder, emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass._GameplayRecommendationElementReliquarySetResponseOrBuilder>(
                   getGPCILCOECKN(),
                   getParentForChildren(),
                   isClean());
@@ -1539,9 +1539,9 @@ public final class KGCILOBONKPOuterClass {
         return gPCILCOECKNBuilder_;
       }
 
-      private emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse cMEOHAHFFHC_;
+      private emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse cMEOHAHFFHC_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse, emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse.Builder, emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponseOrBuilder> cMEOHAHFFHCBuilder_;
+          emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse, emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse.Builder, emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponseOrBuilder> cMEOHAHFFHCBuilder_;
       /**
        * <code>._GameplayRecommendationReliquarySetResponse CMEOHAHFFHC = 9;</code>
        * @return Whether the cMEOHAHFFHC field is set.
@@ -1553,9 +1553,9 @@ public final class KGCILOBONKPOuterClass {
        * <code>._GameplayRecommendationReliquarySetResponse CMEOHAHFFHC = 9;</code>
        * @return The cMEOHAHFFHC.
        */
-      public emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse getCMEOHAHFFHC() {
+      public emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse getCMEOHAHFFHC() {
         if (cMEOHAHFFHCBuilder_ == null) {
-          return cMEOHAHFFHC_ == null ? emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse.getDefaultInstance() : cMEOHAHFFHC_;
+          return cMEOHAHFFHC_ == null ? emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse.getDefaultInstance() : cMEOHAHFFHC_;
         } else {
           return cMEOHAHFFHCBuilder_.getMessage();
         }
@@ -1563,7 +1563,7 @@ public final class KGCILOBONKPOuterClass {
       /**
        * <code>._GameplayRecommendationReliquarySetResponse CMEOHAHFFHC = 9;</code>
        */
-      public Builder setCMEOHAHFFHC(emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse value) {
+      public Builder setCMEOHAHFFHC(emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse value) {
         if (cMEOHAHFFHCBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1580,7 +1580,7 @@ public final class KGCILOBONKPOuterClass {
        * <code>._GameplayRecommendationReliquarySetResponse CMEOHAHFFHC = 9;</code>
        */
       public Builder setCMEOHAHFFHC(
-          emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse.Builder builderForValue) {
+          emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse.Builder builderForValue) {
         if (cMEOHAHFFHCBuilder_ == null) {
           cMEOHAHFFHC_ = builderForValue.build();
           onChanged();
@@ -1593,11 +1593,11 @@ public final class KGCILOBONKPOuterClass {
       /**
        * <code>._GameplayRecommendationReliquarySetResponse CMEOHAHFFHC = 9;</code>
        */
-      public Builder mergeCMEOHAHFFHC(emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse value) {
+      public Builder mergeCMEOHAHFFHC(emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse value) {
         if (cMEOHAHFFHCBuilder_ == null) {
           if (cMEOHAHFFHC_ != null) {
             cMEOHAHFFHC_ =
-              emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse.newBuilder(cMEOHAHFFHC_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse.newBuilder(cMEOHAHFFHC_).mergeFrom(value).buildPartial();
           } else {
             cMEOHAHFFHC_ = value;
           }
@@ -1625,7 +1625,7 @@ public final class KGCILOBONKPOuterClass {
       /**
        * <code>._GameplayRecommendationReliquarySetResponse CMEOHAHFFHC = 9;</code>
        */
-      public emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse.Builder getCMEOHAHFFHCBuilder() {
+      public emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse.Builder getCMEOHAHFFHCBuilder() {
         
         onChanged();
         return getCMEOHAHFFHCFieldBuilder().getBuilder();
@@ -1633,23 +1633,23 @@ public final class KGCILOBONKPOuterClass {
       /**
        * <code>._GameplayRecommendationReliquarySetResponse CMEOHAHFFHC = 9;</code>
        */
-      public emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponseOrBuilder getCMEOHAHFFHCOrBuilder() {
+      public emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponseOrBuilder getCMEOHAHFFHCOrBuilder() {
         if (cMEOHAHFFHCBuilder_ != null) {
           return cMEOHAHFFHCBuilder_.getMessageOrBuilder();
         } else {
           return cMEOHAHFFHC_ == null ?
-              emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse.getDefaultInstance() : cMEOHAHFFHC_;
+              emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse.getDefaultInstance() : cMEOHAHFFHC_;
         }
       }
       /**
        * <code>._GameplayRecommendationReliquarySetResponse CMEOHAHFFHC = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse, emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse.Builder, emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponseOrBuilder> 
+          emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse, emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse.Builder, emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponseOrBuilder> 
           getCMEOHAHFFHCFieldBuilder() {
         if (cMEOHAHFFHCBuilder_ == null) {
           cMEOHAHFFHCBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse, emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponse.Builder, emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse._GameplayRecommendationReliquarySetResponseOrBuilder>(
+              emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse, emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponse.Builder, emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass._GameplayRecommendationReliquarySetResponseOrBuilder>(
                   getCMEOHAHFFHC(),
                   getParentForChildren(),
                   isClean());
@@ -1831,16 +1831,16 @@ public final class KGCILOBONKPOuterClass {
       "ySetResponse\022A\n\013CMEOHAHFFHC\030\t \001(\0132,._Gam" +
       "eplayRecommendationReliquarySetResponse\022" +
       "\017\n\007retcode\030\n \001(\005\022\021\n\tavatar_id\030\013 \001(\r\022\024\n\014e" +
-      "lement_type\030\016 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "lement_type\030\016 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025KGCILOBONKPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.GameplayRecommendationElementReliquaryResponseOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.GameplayRecommendationReliquaryResponseOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse.getDescriptor(),
-          emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse.getDescriptor(),
+          emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass.getDescriptor(),
         });
     internal_static_KGCILOBONKP_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1850,8 +1850,8 @@ public final class KGCILOBONKPOuterClass {
         new java.lang.String[] { "FGIIFPPNEMM", "IPNFDJADDLN", "GPCILCOECKN", "CMEOHAHFFHC", "Retcode", "AvatarId", "ElementType", });
     emu.grasscutter.net.proto.GameplayRecommendationElementReliquaryResponseOuterClass.getDescriptor();
     emu.grasscutter.net.proto.GameplayRecommendationReliquaryResponseOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetResponse.getDescriptor();
-    emu.grasscutter.net.proto.GameplayRecommendationReliquarySetResponse.getDescriptor();
+    emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetResponseOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._GameplayRecommendationReliquarySetResponseOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

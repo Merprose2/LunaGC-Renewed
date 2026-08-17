@@ -595,8 +595,9 @@ public final class LBKLOHJOJPKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LBKLOHJOJPK.proto\"0\n\013LBKLOHJOJPK\022\020\n\010le" +
-      "vel_id\030\t \001(\r\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "vel_id\030\t \001(\r\022\017\n\007retcode\030\013 \001(\005B2\n\031emu.gra" +
+      "sscutter.net.protoB\025LBKLOHJOJPKOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

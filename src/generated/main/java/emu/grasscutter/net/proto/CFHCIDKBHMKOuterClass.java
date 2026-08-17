@@ -2351,8 +2351,9 @@ public final class CFHCIDKBHMKOuterClass {
       "CBHGEIKH\030\014 \001(\005\022\023\n\013HLBMLJLKKJM\030\r \001(\r\022\023\n\013N" +
       "NOCFHAOIOO\030\016 \001(\010\022!\n\013IDDPFBOAPNO\030\017 \001(\0132\014." +
       "IKHNFCKKIFI\022!\n\013OLMNNFBBFMN\030\020 \001(\0132\014.GCDNC" +
-      "DJBDAF\022\023\n\013LPEKBAPJIMM\030\021 \001(\010B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "DJBDAF\022\023\n\013LPEKBAPJIMM\030\021 \001(\010B2\n\031emu.grass" +
+      "cutter.net.protoB\025CFHCIDKBHMKOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

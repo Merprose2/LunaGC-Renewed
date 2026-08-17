@@ -951,8 +951,9 @@ public final class WindFieldGalleryChallengeInfoNotifyOuterClass {
       "ify\022\023\n\013JNKBMNFEIAI\030\001 \001(\r\022\020\n\010is_start\030\006 \001" +
       "(\010\022\023\n\013HNAODIIKDIM\030\007 \001(\r\022\022\n\nis_success\030\010 " +
       "\001(\010\022\023\n\013AJKBNKNIHBG\030\t \001(\r\022\023\n\013JDDKNECFJFN\030" +
-      "\013 \001(\r\022\023\n\013BNNDMCDKDHF\030\r \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\013 \001(\r\022\023\n\013BNNDMCDKDHF\030\r \001(\rBJ\n\031emu.grassc" +
+      "utter.net.protoB-WindFieldGalleryChallen" +
+      "geInfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

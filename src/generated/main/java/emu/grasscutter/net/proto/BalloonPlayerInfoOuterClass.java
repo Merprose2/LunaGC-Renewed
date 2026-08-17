@@ -729,7 +729,8 @@ public final class BalloonPlayerInfoOuterClass {
       "\n\027BalloonPlayerInfo.proto\"^\n\021BalloonPlay" +
       "erInfo\022\013\n\003uid\030\005 \001(\r\022\r\n\005combo\030\007 \001(\r\022\021\n\tcu" +
       "r_score\030\n \001(\r\022\032\n\022combo_disable_time\030\r \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB8\n\031emu.grasscutter.net.protoB\033BalloonP" +
+      "layerInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

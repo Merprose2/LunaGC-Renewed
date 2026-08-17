@@ -454,8 +454,9 @@ public final class FMNDCAOBJMFOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021FMNDCAOBJMF.proto\"\r\n\013FMNDCAOBJMFB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021FMNDCAOBJMF.proto\"\r\n\013FMNDCAOBJMFB2\n\031em" +
+      "u.grasscutter.net.protoB\025FMNDCAOBJMFOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

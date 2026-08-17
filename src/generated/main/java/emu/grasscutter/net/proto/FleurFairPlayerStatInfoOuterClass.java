@@ -1234,8 +1234,9 @@ public final class FleurFairPlayerStatInfoOuterClass {
       "o\022\017\n\007stat_id\030\001 \001(\r\022(\n\017profile_picture\030\002 " +
       "\001(\0132\017.ProfilePicture\022\021\n\tonline_id\030\003 \001(\t\022" +
       "\r\n\005param\030\006 \001(\005\022\021\n\tnick_name\030\007 \001(\t\022\013\n\003uid" +
-      "\030\r \001(\r\022\022\n\nhead_image\030\017 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\030\r \001(\r\022\022\n\nhead_image\030\017 \001(\rB>\n\031emu.grassc" +
+      "utter.net.protoB!FleurFairPlayerStatInfo" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -894,8 +894,9 @@ public final class FNMAFACFNGLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FNMAFACFNGL.proto\032\021NHMMLLBMENB.proto\"E" +
       "\n\013FNMAFACFNGL\022\023\n\013PPEDJDHCEAA\030\001 \001(\010\022!\n\013CF" +
-      "LPPEMCDFE\030\002 \003(\0132\014.NHMMLLBMENBB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "LPPEMCDFE\030\002 \003(\0132\014.NHMMLLBMENBB2\n\031emu.gra" +
+      "sscutter.net.protoB\025FNMAFACFNGLOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

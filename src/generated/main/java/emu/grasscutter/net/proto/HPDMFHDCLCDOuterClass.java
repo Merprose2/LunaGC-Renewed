@@ -729,8 +729,9 @@ public final class HPDMFHDCLCDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HPDMFHDCLCD.proto\032\021ICCPPEPMDEJ.proto\"E" +
       "\n\013HPDMFHDCLCD\022\023\n\013KMDOFBPMGAI\030\010 \001(\r\022!\n\013OJ" +
-      "AOGBJBNCJ\030\r \001(\0132\014.ICCPPEPMDEJB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "AOGBJBNCJ\030\r \001(\0132\014.ICCPPEPMDEJB2\n\031emu.gra" +
+      "sscutter.net.protoB\025HPDMFHDCLCDOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -2461,8 +2461,8 @@ public final class FGKIMEANAMGOuterClass {
       "NBOOAGJAL\030\006 \003(\0132\013.Uint32Pair\022\023\n\013PBPPIOJF" +
       "HBP\030\014 \003(\r\022 \n\013MJPMFBNMFKP\030\017 \003(\0132\013.Uint32P" +
       "air\032/\n\013CKODAOFHINM\022\024\n\003pos\030\004 \001(\0132\007.Vector" +
-      "\022\n\n\002id\030\007 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\022\n\n\002id\030\007 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025FGKIMEANAMGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

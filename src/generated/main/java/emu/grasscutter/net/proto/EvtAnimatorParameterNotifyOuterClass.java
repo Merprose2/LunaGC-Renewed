@@ -769,8 +769,9 @@ public final class EvtAnimatorParameterNotifyOuterClass {
       "proto\"x\n\032EvtAnimatorParameterNotify\022\"\n\014f" +
       "orward_type\030\t \001(\0162\014.ForwardType\0226\n\023anima" +
       "tor_param_info\030\014 \001(\0132\031.EvtAnimatorParame" +
-      "terInfoB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "terInfoBA\n\031emu.grasscutter.net.protoB$Ev" +
+      "tAnimatorParameterNotifyOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

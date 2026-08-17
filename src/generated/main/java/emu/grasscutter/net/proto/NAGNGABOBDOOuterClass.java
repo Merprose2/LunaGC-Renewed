@@ -596,8 +596,9 @@ public final class NAGNGABOBDOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NAGNGABOBDO.proto\"9\n\013NAGNGABOBDO\022\031\n\021_l" +
-      "an_v6_card_guid\030\010 \001(\006\022\017\n\007retcode\030\014 \001(\005B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "an_v6_card_guid\030\010 \001(\006\022\017\n\007retcode\030\014 \001(\005B2" +
+      "\n\031emu.grasscutter.net.protoB\025NAGNGABOBDO" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -832,8 +832,9 @@ public final class RoguelikeRuneRecordUpdateNotifyOuterClass {
       "\n%RoguelikeRuneRecordUpdateNotify.proto\032" +
       "\031RoguelikeRuneRecord.proto\"Q\n\037RoguelikeR" +
       "uneRecordUpdateNotify\022.\n\020rune_record_lis" +
-      "t\030\002 \003(\0132\024.RoguelikeRuneRecordB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "t\030\002 \003(\0132\024.RoguelikeRuneRecordBF\n\031emu.gra" +
+      "sscutter.net.protoB)RoguelikeRuneRecordU" +
+      "pdateNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1757,7 +1757,8 @@ public final class ForgeQueueManipulateRspOuterClass {
       "temHint\0222\n\017manipulate_type\030\t \001(\0162\031.Forge" +
       "QueueManipulateType\022\036\n\013JHDDMEHLKII\030\014 \003(\013" +
       "2\t.ItemHint\022\036\n\013NOIOACEJCBF\030\016 \003(\0132\t.ItemH" +
-      "intB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "intB>\n\031emu.grasscutter.net.protoB!ForgeQ" +
+      "ueueManipulateRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class MOLGFGMFHAAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MOLGFGMFHAA.proto\"/\n\013MOLGFGMFHAA\022\023\n\013sc" +
-      "hedule_id\030\003 \001(\r\022\013\n\003uid\030\n \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "hedule_id\030\003 \001(\r\022\013\n\003uid\030\n \001(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025MOLGFGMFHAAOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

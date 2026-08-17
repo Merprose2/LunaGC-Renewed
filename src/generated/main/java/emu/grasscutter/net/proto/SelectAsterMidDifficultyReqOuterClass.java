@@ -667,8 +667,9 @@ public final class SelectAsterMidDifficultyReqOuterClass {
       "\n!SelectAsterMidDifficultyReq.proto\"c\n\033S" +
       "electAsterMidDifficultyReq\022\030\n\020gadget_ent" +
       "ity_id\030\006 \001(\r\022\023\n\013schedule_id\030\013 \001(\r\022\025\n\rdif" +
-      "ficulty_id\030\016 \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "ficulty_id\030\016 \001(\rBB\n\031emu.grasscutter.net." +
+      "protoB%SelectAsterMidDifficultyReqOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

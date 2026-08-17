@@ -27,12 +27,12 @@ public final class NOJCFCNEIMJOuterClass {
     /**
      * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> 
+    java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> 
         getAvatarInfoListList();
     /**
      * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
      */
-    emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getAvatarInfoList(int index);
+    emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getAvatarInfoList(int index);
     /**
      * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
      */
@@ -40,12 +40,12 @@ public final class NOJCFCNEIMJOuterClass {
     /**
      * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
         getAvatarInfoListOrBuilderList();
     /**
      * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
      */
-    emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getAvatarInfoListOrBuilder(
+    emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getAvatarInfoListOrBuilder(
         int index);
 
     /**
@@ -114,11 +114,11 @@ public final class NOJCFCNEIMJOuterClass {
             }
             case 74: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                avatarInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo>();
+                avatarInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               avatarInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.parser(), extensionRegistry));
               break;
             }
             case 96: {
@@ -178,19 +178,19 @@ public final class NOJCFCNEIMJOuterClass {
     }
 
     public static final int AVATAR_INFO_LIST_FIELD_NUMBER = 9;
-    private java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> avatarInfoList_;
+    private java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> avatarInfoList_;
     /**
      * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> getAvatarInfoListList() {
+    public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> getAvatarInfoListList() {
       return avatarInfoList_;
     }
     /**
      * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
         getAvatarInfoListOrBuilderList() {
       return avatarInfoList_;
     }
@@ -205,14 +205,14 @@ public final class NOJCFCNEIMJOuterClass {
      * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getAvatarInfoList(int index) {
+    public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getAvatarInfoList(int index) {
       return avatarInfoList_.get(index);
     }
     /**
      * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getAvatarInfoListOrBuilder(
+    public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getAvatarInfoListOrBuilder(
         int index) {
       return avatarInfoList_.get(index);
     }
@@ -664,22 +664,22 @@ public final class NOJCFCNEIMJOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> avatarInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> avatarInfoList_ =
         java.util.Collections.emptyList();
       private void ensureAvatarInfoListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          avatarInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo>(avatarInfoList_);
+          avatarInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo>(avatarInfoList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> avatarInfoListBuilder_;
+          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> avatarInfoListBuilder_;
 
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> getAvatarInfoListList() {
+      public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> getAvatarInfoListList() {
         if (avatarInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(avatarInfoList_);
         } else {
@@ -699,7 +699,7 @@ public final class NOJCFCNEIMJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
        */
-      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getAvatarInfoList(int index) {
+      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getAvatarInfoList(int index) {
         if (avatarInfoListBuilder_ == null) {
           return avatarInfoList_.get(index);
         } else {
@@ -710,7 +710,7 @@ public final class NOJCFCNEIMJOuterClass {
        * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
        */
       public Builder setAvatarInfoList(
-          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
+          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
         if (avatarInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -727,7 +727,7 @@ public final class NOJCFCNEIMJOuterClass {
        * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
        */
       public Builder setAvatarInfoList(
-          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
         if (avatarInfoListBuilder_ == null) {
           ensureAvatarInfoListIsMutable();
           avatarInfoList_.set(index, builderForValue.build());
@@ -740,7 +740,7 @@ public final class NOJCFCNEIMJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
        */
-      public Builder addAvatarInfoList(emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
+      public Builder addAvatarInfoList(emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
         if (avatarInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -757,7 +757,7 @@ public final class NOJCFCNEIMJOuterClass {
        * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
        */
       public Builder addAvatarInfoList(
-          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
+          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
         if (avatarInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -774,7 +774,7 @@ public final class NOJCFCNEIMJOuterClass {
        * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
        */
       public Builder addAvatarInfoList(
-          emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
         if (avatarInfoListBuilder_ == null) {
           ensureAvatarInfoListIsMutable();
           avatarInfoList_.add(builderForValue.build());
@@ -788,7 +788,7 @@ public final class NOJCFCNEIMJOuterClass {
        * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
        */
       public Builder addAvatarInfoList(
-          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
         if (avatarInfoListBuilder_ == null) {
           ensureAvatarInfoListIsMutable();
           avatarInfoList_.add(index, builderForValue.build());
@@ -802,7 +802,7 @@ public final class NOJCFCNEIMJOuterClass {
        * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
        */
       public Builder addAllAvatarInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> values) {
         if (avatarInfoListBuilder_ == null) {
           ensureAvatarInfoListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -842,14 +842,14 @@ public final class NOJCFCNEIMJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
        */
-      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder getAvatarInfoListBuilder(
+      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder getAvatarInfoListBuilder(
           int index) {
         return getAvatarInfoListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
        */
-      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getAvatarInfoListOrBuilder(
+      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getAvatarInfoListOrBuilder(
           int index) {
         if (avatarInfoListBuilder_ == null) {
           return avatarInfoList_.get(index);  } else {
@@ -859,7 +859,7 @@ public final class NOJCFCNEIMJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
            getAvatarInfoListOrBuilderList() {
         if (avatarInfoListBuilder_ != null) {
           return avatarInfoListBuilder_.getMessageOrBuilderList();
@@ -870,31 +870,31 @@ public final class NOJCFCNEIMJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
        */
-      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder addAvatarInfoListBuilder() {
+      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder addAvatarInfoListBuilder() {
         return getAvatarInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
        */
-      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder addAvatarInfoListBuilder(
+      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder addAvatarInfoListBuilder(
           int index) {
         return getAvatarInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_info_list = 9;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder> 
            getAvatarInfoListBuilderList() {
         return getAvatarInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
+          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
           getAvatarInfoListFieldBuilder() {
         if (avatarInfoListBuilder_ == null) {
           avatarInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder>(
+              emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder>(
                   avatarInfoList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -1036,13 +1036,13 @@ public final class NOJCFCNEIMJOuterClass {
       ".proto\"{\n\013NOJCFCNEIMJ\022\022\n\ndifficulty\030\006 \001(" +
       "\r\022.\n\020avatar_info_list\030\t \003(\0132\024._ActivityA" +
       "vatarInfo\022\023\n\013BOAKDOGPPPG\030\014 \001(\r\022\023\n\013IMEPIK" +
-      "DEFHA\030\016 \001(\010B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "DEFHA\030\016 \001(\010B2\n\031emu.grasscutter.net.proto" +
+      "B\025NOJCFCNEIMJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.ActivityAvatarInfo.getDescriptor(),
+          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass.getDescriptor(),
         });
     internal_static_NOJCFCNEIMJ_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1050,7 +1050,7 @@ public final class NOJCFCNEIMJOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_NOJCFCNEIMJ_descriptor,
         new java.lang.String[] { "Difficulty", "AvatarInfoList", "BOAKDOGPPPG", "IMEPIKDEFHA", });
-    emu.grasscutter.net.proto.ActivityAvatarInfo.getDescriptor();
+    emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

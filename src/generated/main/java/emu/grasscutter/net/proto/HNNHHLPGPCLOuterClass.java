@@ -587,8 +587,9 @@ public final class HNNHHLPGPCLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HNNHHLPGPCL.proto\"7\n\013HNNHHLPGPCL\022\022\n\nwa" +
-      "tcher_id\030\001 \001(\r\022\024\n\014cur_progress\030\002 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "tcher_id\030\001 \001(\r\022\024\n\014cur_progress\030\002 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025HNNHHLPGPCLOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

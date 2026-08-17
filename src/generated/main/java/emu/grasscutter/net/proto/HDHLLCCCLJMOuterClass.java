@@ -1480,8 +1480,9 @@ public final class HDHLLCCCLJMOuterClass {
       "ficulty\030\004 \001(\r\022\023\n\013OIFKDFIFIOP\030\006 \001(\010\022\021\n\tti" +
       "mestamp\030\007 \001(\006\022!\n\013KDFMEPMGGHJ\030\010 \003(\0132\014.DDB" +
       "NDHNGEMF\022&\n\020player_info_list\030\t \003(\0132\014.PFF" +
-      "MGFPKANE\022\023\n\013schedule_id\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "MGFPKANE\022\023\n\013schedule_id\030\017 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025HDHLLCCCLJMOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

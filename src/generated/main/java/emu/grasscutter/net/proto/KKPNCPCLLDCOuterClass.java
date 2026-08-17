@@ -801,8 +801,8 @@ public final class KKPNCPCLLDCOuterClass {
       "\n\021KKPNCPCLLDC.proto\032\021JPJJIHFIAKI.proto\"Z" +
       "\n\013KKPNCPCLLDC\022!\n\013KJHPACDMOPI\030\007 \001(\0132\014.JPJ" +
       "JIHFIAKI\022\023\n\013EIBPNPEPJBD\030\010 \001(\r\022\023\n\013JNGOCFN" +
-      "AGEM\030\r \001(\010B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "AGEM\030\r \001(\010B2\n\031emu.grasscutter.net.protoB" +
+      "\025KKPNCPCLLDCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

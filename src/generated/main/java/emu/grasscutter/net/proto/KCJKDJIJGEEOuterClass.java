@@ -926,8 +926,8 @@ public final class KCJKDJIJGEEOuterClass {
       "OMADHICNKAD.proto\"k\n\013KCJKDJIJGEE\022\"\n\013ANNN" +
       "JLJLMEI\030\365\003 \001(\0132\014.OMADHICNKAD\022\"\n\013PABAAFOH" +
       "PPD\030\366\003 \001(\0132\014.CONMINJDIBA\022\024\n\013MPEJPDLNNLI\030" +
-      "\367\003 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\367\003 \001(\rB2\n\031emu.grasscutter.net.protoB\025KCJ" +
+      "KDJIJGEEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

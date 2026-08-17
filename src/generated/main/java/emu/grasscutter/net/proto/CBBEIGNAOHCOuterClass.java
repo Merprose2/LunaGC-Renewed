@@ -651,7 +651,8 @@ public final class CBBEIGNAOHCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CBBEIGNAOHC.proto\032\021JCLAMNIADCE.proto\")" +
       "\n\013CBBEIGNAOHC\022\032\n\004data\030\001 \001(\0132\014.JCLAMNIADC" +
-      "EB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "EB2\n\031emu.grasscutter.net.protoB\025CBBEIGNA" +
+      "OHCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

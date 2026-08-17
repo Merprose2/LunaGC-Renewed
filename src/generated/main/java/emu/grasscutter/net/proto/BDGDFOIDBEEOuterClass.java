@@ -893,8 +893,9 @@ public final class BDGDFOIDBEEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BDGDFOIDBEE.proto\032\021HHAKIPEPKJG.proto\"E" +
       "\n\013BDGDFOIDBEE\022\023\n\013BJEELKDCLEH\030\001 \001(\r\022!\n\013GD" +
-      "BEJNEEGBJ\030\002 \003(\0132\014.HHAKIPEPKJGB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "BEJNEEGBJ\030\002 \003(\0132\014.HHAKIPEPKJGB2\n\031emu.gra" +
+      "sscutter.net.protoB\025BDGDFOIDBEEOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

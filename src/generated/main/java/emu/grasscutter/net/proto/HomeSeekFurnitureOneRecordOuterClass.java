@@ -895,8 +895,9 @@ public final class HomeSeekFurnitureOneRecordOuterClass {
       "SeekFurniturePlayerScore.proto\"q\n\032HomeSe" +
       "ekFurnitureOneRecord\022\021\n\ttimestamp\030\n \001(\r\022" +
       "@\n\031engaged_player_score_list\030\016 \003(\0132\035.Hom" +
-      "eSeekFurniturePlayerScoreB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "eSeekFurniturePlayerScoreBA\n\031emu.grasscu" +
+      "tter.net.protoB$HomeSeekFurnitureOneReco" +
+      "rdOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

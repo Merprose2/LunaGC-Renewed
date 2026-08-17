@@ -660,7 +660,8 @@ public final class AsterLittleInfoNotifyOuterClass {
       "\n\033AsterLittleInfoNotify.proto\032\033AsterLitt" +
       "leDetailInfo.proto\"=\n\025AsterLittleInfoNot" +
       "ify\022$\n\004info\030\007 \001(\0132\026.AsterLittleDetailInf" +
-      "oB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "oB<\n\031emu.grasscutter.net.protoB\037AsterLit" +
+      "tleInfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

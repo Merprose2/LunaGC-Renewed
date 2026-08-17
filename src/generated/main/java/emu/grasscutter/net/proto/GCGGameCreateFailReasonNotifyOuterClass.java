@@ -716,8 +716,9 @@ public final class GCGGameCreateFailReasonNotifyOuterClass {
       "son_REASON_RESOURCE_NOT_COMPLETE\020\003\022&\n\"GC" +
       "GGameCreateReason_REASON_TIMEOUT\020\004\022B\n>GC" +
       "GGameCreateReason_REASON_OPPONENT_CLIENT" +
-      "_VERSION_NOT_LASTEST\020\005B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "_VERSION_NOT_LASTEST\020\005BD\n\031emu.grasscutte" +
+      "r.net.protoB\'GCGGameCreateFailReasonNoti" +
+      "fyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -212,8 +212,8 @@ public final class MatchReasonOuterClass {
       "ason_MATCH_SYSTEM_ERROR\020\006\022!\n\035MatchReason" +
       "_MATCH_INTERRUPTED\020\007\022$\n MatchReason_MATC" +
       "H_MP_UNAVAILABLE\020\010\022%\n!MatchReason_MATCH_" +
-      "CONFIRM_TIMEOUT\020\tB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "CONFIRM_TIMEOUT\020\tB2\n\031emu.grasscutter.net" +
+      ".protoB\025MatchReasonOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1317,8 +1317,8 @@ public final class BHADHAKOJEGOuterClass {
       "IGMJBA\030\001 \001(\0162\014.KFNDLBGHLIA\022!\n\tbase_prop\030" +
       "3 \001(\0132\014.IEFCCBOOHKCH\000\022\036\n\006custom\0304 \001(\0132\014." +
       "EBNMANMKFMHH\000\022#\n\013role_status\0305 \001(\0132\014.OIE" +
-      "KJJKEHAGH\000B\010\n\006detailB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "KJJKEHAGH\000B\010\n\006detailB2\n\031emu.grasscutter." +
+      "net.protoB\025BHADHAKOJEGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

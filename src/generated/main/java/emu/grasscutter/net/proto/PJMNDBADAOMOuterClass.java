@@ -793,8 +793,8 @@ public final class PJMNDBADAOMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PJMNDBADAOM.proto\"K\n\013PJMNDBADAOM\022\020\n\010st" +
       "age_id\030\006 \001(\r\022\022\n\ndifficulty\030\010 \001(\r\022\026\n\016avat" +
-      "ar_id_list\030\r \003(\004B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "ar_id_list\030\r \003(\004B2\n\031emu.grasscutter.net." +
+      "protoB\025PJMNDBADAOMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

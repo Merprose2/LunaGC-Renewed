@@ -824,8 +824,9 @@ public final class IrodoriChessEntranceDetailInfoOuterClass {
       "\n$IrodoriChessEntranceDetailInfo.proto\032\036" +
       "IrodoriChessEntranceInfo.proto\"N\n\036Irodor" +
       "iChessEntranceDetailInfo\022,\n\tinfo_list\030\003 " +
-      "\003(\0132\031.IrodoriChessEntranceInfoB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\003(\0132\031.IrodoriChessEntranceInfoBE\n\031emu.gr" +
+      "asscutter.net.protoB(IrodoriChessEntranc" +
+      "eDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

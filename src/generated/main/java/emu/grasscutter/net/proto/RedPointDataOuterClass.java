@@ -659,8 +659,8 @@ public final class RedPointDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\022RedPointData.proto\"K\n\014RedPointData\022\026\n\016" +
       "red_point_type\030\001 \001(\r\022\017\n\007is_show\030\002 \001(\010\022\022\n" +
-      "\ncontent_id\030\003 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\ncontent_id\030\003 \001(\rB3\n\031emu.grasscutter.net" +
+      ".protoB\026RedPointDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

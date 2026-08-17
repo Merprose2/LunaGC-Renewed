@@ -1309,8 +1309,9 @@ public final class HomeLimitedShopGoodsOuterClass {
       "PGLDK\030\003 \001(\r\022\022\n\nbought_num\030\004 \001(\r\022\"\n\016cost_" +
       "item_list\030\010 \003(\0132\n.ItemParam\022\036\n\ngoods_ite" +
       "m\030\t \001(\0132\n.ItemParam\022\020\n\010goods_id\030\n \001(\r\022\023\n" +
-      "\013ELPGDNACFOA\030\013 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\013ELPGDNACFOA\030\013 \001(\rB;\n\031emu.grasscutter.ne" +
+      "t.protoB\036HomeLimitedShopGoodsOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

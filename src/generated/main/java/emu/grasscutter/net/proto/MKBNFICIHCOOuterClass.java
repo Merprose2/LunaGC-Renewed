@@ -596,7 +596,8 @@ public final class MKBNFICIHCOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MKBNFICIHCO.proto\"=\n\013MKBNFICIHCO\022\023\n\013DE" +
       "PCBHICJAH\030\003 \001(\r\022\031\n\021_quest_scenery_id\030\016 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB2\n\031emu.grasscutter.net.protoB\025MKBNFIC" +
+      "IHCOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

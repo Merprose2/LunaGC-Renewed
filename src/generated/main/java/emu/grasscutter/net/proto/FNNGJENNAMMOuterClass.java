@@ -231,11 +231,11 @@ public final class FNNGJENNAMMOuterClass {
        * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1001;</code>
        * @return The tpsMercenariesRecordBrief.
        */
-      emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief getTpsMercenariesRecordBrief();
+      emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief getTpsMercenariesRecordBrief();
       /**
        * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1001;</code>
        */
-      emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBriefOrBuilder getTpsMercenariesRecordBriefOrBuilder();
+      emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBriefOrBuilder getTpsMercenariesRecordBriefOrBuilder();
 
       public emu.grasscutter.net.proto.FNNGJENNAMMOuterClass.FNNGJENNAMM.JFCELAKGLHI.BriefCase getBriefCase();
     }
@@ -297,14 +297,14 @@ public final class FNNGJENNAMMOuterClass {
                 break;
               }
               case 8010: {
-                emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.Builder subBuilder = null;
+                emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.Builder subBuilder = null;
                 if (briefCase_ == 1001) {
-                  subBuilder = ((emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_).toBuilder();
+                  subBuilder = ((emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_).toBuilder();
                 }
                 brief_ =
-                    input.readMessage(emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.parser(), extensionRegistry);
+                    input.readMessage(emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.parser(), extensionRegistry);
                 if (subBuilder != null) {
-                  subBuilder.mergeFrom((emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_);
+                  subBuilder.mergeFrom((emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_);
                   brief_ = subBuilder.buildPartial();
                 }
                 briefCase_ = 1001;
@@ -444,21 +444,21 @@ public final class FNNGJENNAMMOuterClass {
        * @return The tpsMercenariesRecordBrief.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief getTpsMercenariesRecordBrief() {
+      public emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief getTpsMercenariesRecordBrief() {
         if (briefCase_ == 1001) {
-           return (emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_;
+           return (emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_;
         }
-        return emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.getDefaultInstance();
+        return emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.getDefaultInstance();
       }
       /**
        * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1001;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBriefOrBuilder getTpsMercenariesRecordBriefOrBuilder() {
+      public emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBriefOrBuilder getTpsMercenariesRecordBriefOrBuilder() {
         if (briefCase_ == 1001) {
-           return (emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_;
+           return (emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_;
         }
-        return emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.getDefaultInstance();
+        return emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.getDefaultInstance();
       }
 
       private byte memoizedIsInitialized = -1;
@@ -482,7 +482,7 @@ public final class FNNGJENNAMMOuterClass {
           output.writeInt64(2, cJLLABPGCAJ_);
         }
         if (briefCase_ == 1001) {
-          output.writeMessage(1001, (emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_);
+          output.writeMessage(1001, (emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_);
         }
         unknownFields.writeTo(output);
       }
@@ -502,7 +502,7 @@ public final class FNNGJENNAMMOuterClass {
         }
         if (briefCase_ == 1001) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(1001, (emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_);
+            .computeMessageSize(1001, (emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_);
         }
         size += unknownFields.getSerializedSize();
         memoizedSize = size;
@@ -947,7 +947,7 @@ public final class FNNGJENNAMMOuterClass {
         }
 
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief, emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.Builder, emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBriefOrBuilder> tpsMercenariesRecordBriefBuilder_;
+            emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief, emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.Builder, emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBriefOrBuilder> tpsMercenariesRecordBriefBuilder_;
         /**
          * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1001;</code>
          * @return Whether the tpsMercenariesRecordBrief field is set.
@@ -961,23 +961,23 @@ public final class FNNGJENNAMMOuterClass {
          * @return The tpsMercenariesRecordBrief.
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief getTpsMercenariesRecordBrief() {
+        public emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief getTpsMercenariesRecordBrief() {
           if (tpsMercenariesRecordBriefBuilder_ == null) {
             if (briefCase_ == 1001) {
-              return (emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_;
+              return (emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_;
             }
-            return emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.getDefaultInstance();
+            return emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.getDefaultInstance();
           } else {
             if (briefCase_ == 1001) {
               return tpsMercenariesRecordBriefBuilder_.getMessage();
             }
-            return emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.getDefaultInstance();
+            return emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.getDefaultInstance();
           }
         }
         /**
          * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1001;</code>
          */
-        public Builder setTpsMercenariesRecordBrief(emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief value) {
+        public Builder setTpsMercenariesRecordBrief(emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief value) {
           if (tpsMercenariesRecordBriefBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -994,7 +994,7 @@ public final class FNNGJENNAMMOuterClass {
          * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1001;</code>
          */
         public Builder setTpsMercenariesRecordBrief(
-            emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.Builder builderForValue) {
+            emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.Builder builderForValue) {
           if (tpsMercenariesRecordBriefBuilder_ == null) {
             brief_ = builderForValue.build();
             onChanged();
@@ -1007,11 +1007,11 @@ public final class FNNGJENNAMMOuterClass {
         /**
          * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1001;</code>
          */
-        public Builder mergeTpsMercenariesRecordBrief(emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief value) {
+        public Builder mergeTpsMercenariesRecordBrief(emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief value) {
           if (tpsMercenariesRecordBriefBuilder_ == null) {
             if (briefCase_ == 1001 &&
-                brief_ != emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.getDefaultInstance()) {
-              brief_ = emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.newBuilder((emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_)
+                brief_ != emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.getDefaultInstance()) {
+              brief_ = emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.newBuilder((emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_)
                   .mergeFrom(value).buildPartial();
             } else {
               brief_ = value;
@@ -1048,36 +1048,36 @@ public final class FNNGJENNAMMOuterClass {
         /**
          * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1001;</code>
          */
-        public emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.Builder getTpsMercenariesRecordBriefBuilder() {
+        public emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.Builder getTpsMercenariesRecordBriefBuilder() {
           return getTpsMercenariesRecordBriefFieldBuilder().getBuilder();
         }
         /**
          * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1001;</code>
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBriefOrBuilder getTpsMercenariesRecordBriefOrBuilder() {
+        public emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBriefOrBuilder getTpsMercenariesRecordBriefOrBuilder() {
           if ((briefCase_ == 1001) && (tpsMercenariesRecordBriefBuilder_ != null)) {
             return tpsMercenariesRecordBriefBuilder_.getMessageOrBuilder();
           } else {
             if (briefCase_ == 1001) {
-              return (emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_;
+              return (emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_;
             }
-            return emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.getDefaultInstance();
+            return emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.getDefaultInstance();
           }
         }
         /**
          * <code>._TpsMercenariesRecordBrief tps_mercenaries_record_brief = 1001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief, emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.Builder, emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBriefOrBuilder> 
+            emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief, emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.Builder, emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBriefOrBuilder> 
             getTpsMercenariesRecordBriefFieldBuilder() {
           if (tpsMercenariesRecordBriefBuilder_ == null) {
             if (!(briefCase_ == 1001)) {
-              brief_ = emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.getDefaultInstance();
+              brief_ = emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.getDefaultInstance();
             }
             tpsMercenariesRecordBriefBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief, emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief.Builder, emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBriefOrBuilder>(
-                    (emu.grasscutter.net.proto.TpsMercenariesRecordBrief._TpsMercenariesRecordBrief) brief_,
+                emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief, emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief.Builder, emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBriefOrBuilder>(
+                    (emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass._TpsMercenariesRecordBrief) brief_,
                     getParentForChildren(),
                     isClean());
             brief_ = null;
@@ -2365,14 +2365,15 @@ public final class FNNGJENNAMMOuterClass {
       ".GGEFFDMHDNN\032\206\001\n\013JFCELAKGLHI\022\023\n\013DJHHEBMG" +
       "MJE\030\001 \001(\t\022\023\n\013CJLLABPGCAJ\030\002 \001(\003\022D\n\034tps_me" +
       "rcenaries_record_brief\030\351\007 \001(\0132\033._TpsMerc" +
-      "enariesRecordBriefH\000B\007\n\005briefB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "enariesRecordBriefH\000B\007\n\005briefB2\n\031emu.gra" +
+      "sscutter.net.protoB\025FNNGJENNAMMOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.GGEFFDMHDNNOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.TpsMercenariesRecordBrief.getDescriptor(),
+          emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass.getDescriptor(),
         });
     internal_static_FNNGJENNAMM_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2387,7 +2388,7 @@ public final class FNNGJENNAMMOuterClass {
         internal_static_FNNGJENNAMM_JFCELAKGLHI_descriptor,
         new java.lang.String[] { "DJHHEBMGMJE", "CJLLABPGCAJ", "TpsMercenariesRecordBrief", "Brief", });
     emu.grasscutter.net.proto.GGEFFDMHDNNOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.TpsMercenariesRecordBrief.getDescriptor();
+    emu.grasscutter.net.proto._TpsMercenariesRecordBriefOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

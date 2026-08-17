@@ -893,8 +893,9 @@ public final class KEAHIDCHMPAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KEAHIDCHMPA.proto\032\021ABFMGNFBCOK.proto\"E" +
       "\n\013KEAHIDCHMPA\022\023\n\013HEHPBOHJINA\030\001 \001(\r\022!\n\013PG" +
-      "OCCPDHGNH\030\002 \003(\0132\014.ABFMGNFBCOKB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "OCCPDHGNH\030\002 \003(\0132\014.ABFMGNFBCOKB2\n\031emu.gra" +
+      "sscutter.net.protoB\025KEAHIDCHMPAOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

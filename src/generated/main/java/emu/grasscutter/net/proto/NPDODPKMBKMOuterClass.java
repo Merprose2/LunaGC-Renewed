@@ -1166,8 +1166,9 @@ public final class NPDODPKMBKMOuterClass {
       "\n\021NPDODPKMBKM.proto\032\017ItemParam.proto\"m\n\013" +
       "NPDODPKMBKM\022\035\n\titem_list\030\004 \003(\0132\n.ItemPar" +
       "am\022\017\n\007retcode\030\005 \001(\005\022\031\n\021parent_quest_list" +
-      "\030\013 \003(\r\022\023\n\013IOLKLILAFPO\030\r \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\030\013 \003(\r\022\023\n\013IOLKLILAFPO\030\r \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025NPDODPKMBKMOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

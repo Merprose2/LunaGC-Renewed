@@ -1980,7 +1980,8 @@ public final class BAOKIPCDEOCOuterClass {
       "PDMDNOCAG\030\305\004 \001(\010\022\024\n\013HDJDIBPKBCN\030\330\004 \001(\r\022\024" +
       "\n\013FNFDADHOPJA\030\200\013 \001(\r\022\024\n\013HBCKJGIEPNJ\030\323\014 \003" +
       "(\r\022\016\n\005speed\030\350\r \001(\002\022\024\n\013GMGNKGGBBAM\030\247\016 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025BAOKIPCDE" +
+      "OCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

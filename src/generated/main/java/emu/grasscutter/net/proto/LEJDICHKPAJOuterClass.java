@@ -1308,8 +1308,9 @@ public final class LEJDICHKPAJOuterClass {
       "\001\n\013LEJDICHKPAJ\022\023\n\013LFJLLNEGHGJ\030\001 \001(\010\022\022\n\nd" +
       "ifficulty\030\010 \001(\r\022\023\n\013NNOCIHNFLNI\030\n \001(\r\022\023\n\013" +
       "BKDHPIDIDNJ\030\014 \003(\r\022!\n\013MCOGPNDCABF\030\016 \003(\0132\014" +
-      ".HNHCKFGJJDK\022\020\n\010level_id\030\017 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      ".HNHCKFGJJDK\022\020\n\010level_id\030\017 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025LEJDICHKPAJOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -808,8 +808,8 @@ public final class GCGInviteGuestBattleRspOuterClass {
       "nviteGuestBattleRsp\022\013\n\003uid\030\002 \001(\r\022\030\n\020conf" +
       "irm_end_time\030\005 \001(\r\022\032\n\022festival_mode_type" +
       "\030\007 \001(\r\022\027\n\017punish_end_time\030\014 \001(\r\022\017\n\007retco" +
-      "de\030\r \001(\005B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "de\030\r \001(\005B>\n\031emu.grasscutter.net.protoB!G" +
+      "CGInviteGuestBattleRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

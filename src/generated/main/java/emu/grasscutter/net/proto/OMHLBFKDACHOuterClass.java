@@ -1070,8 +1070,9 @@ public final class OMHLBFKDACHOuterClass {
       "\001\n\013OMHLBFKDACH\022!\n\013JILIGGDCLDH\030\001 \001(\0162\014.JE" +
       "OKDCIGCFP\022!\n\013IEALEKHJHME\030\002 \001(\0162\014.JEOKDCI" +
       "GCFP\022!\n\013NACKJAPBBFB\030\003 \001(\0162\014.JEOKDCIGCFP\022" +
-      "!\n\013GECDJODIGAO\030\004 \003(\0162\014.JEOKDCIGCFPB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "!\n\013GECDJODIGAO\030\004 \003(\0162\014.JEOKDCIGCFPB2\n\031em" +
+      "u.grasscutter.net.protoB\025OMHLBFKDACHOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

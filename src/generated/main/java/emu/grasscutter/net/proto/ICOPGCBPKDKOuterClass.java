@@ -595,8 +595,9 @@ public final class ICOPGCBPKDKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ICOPGCBPKDK.proto\"2\n\013ICOPGCBPKDK\022\017\n\007re" +
-      "tcode\030\003 \001(\005\022\022\n\nwatcher_id\030\016 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "tcode\030\003 \001(\005\022\022\n\nwatcher_id\030\016 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025ICOPGCBPKDKOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

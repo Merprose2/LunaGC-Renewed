@@ -901,8 +901,9 @@ public final class JDIAPNAEOFAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JDIAPNAEOFA.proto\032\021IAKKFKOPNEP.proto\"A" +
       "\n\013JDIAPNAEOFA\022\017\n\007retcode\030\004 \001(\005\022!\n\013LMDPDG" +
-      "NDLBB\030\t \003(\0132\014.IAKKFKOPNEPB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "NDLBB\030\t \003(\0132\014.IAKKFKOPNEPB2\n\031emu.grasscu" +
+      "tter.net.protoB\025JDIAPNAEOFAOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

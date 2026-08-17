@@ -5210,8 +5210,8 @@ public final class DLFMKKOHGGCOuterClass {
       "\r \003(\0132\014.EDNEIIIEBJD\022!\n\013CJOMCFKNBII\030\016 \001(\013" +
       "2\014.LDLLBOKBIAP\022!\n\013BLKDGCDMNJE\030\017 \003(\0132\014.FC" +
       "BOAILCOJD\022\023\n\013BEJHOFFHILK\030\020 \001(\005\022\023\n\013BPAGBG" +
-      "BMPKI\030\021 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "BMPKI\030\021 \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "B\025DLFMKKOHGGCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

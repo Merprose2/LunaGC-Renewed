@@ -867,8 +867,9 @@ public final class AFJJGOKOJPMOuterClass {
       "\n\021AFJJGOKOJPM.proto\032\021HHEDHCFPEKM.proto\"s" +
       "\n\013AFJJGOKOJPM\022!\n\013ALEHADLJPEL\030\001 \001(\0132\014.HHE" +
       "DHCFPEKM\022\023\n\013PNKJOCFLGKF\030\002 \001(\002\022\027\n\017acceler" +
-      "ate_time\030\003 \001(\002\022\023\n\013OGJOAIKHIPK\030\004 \001(\010B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "ate_time\030\003 \001(\002\022\023\n\013OGJOAIKHIPK\030\004 \001(\010B2\n\031e" +
+      "mu.grasscutter.net.protoB\025AFJJGOKOJPMOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

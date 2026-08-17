@@ -1941,8 +1941,8 @@ public final class ILLNFOJCEBCOuterClass {
       "DO\022!\n\013JBNEPPCONEI\030\007 \001(\0132\014.PDLDLEPGCFP\022!\n" +
       "\013GAOFFHHMNGF\030\t \003(\0132\014.PEEMPKFABMN\022\023\n\013BLNH" +
       "PMLGBFM\030\n \001(\010\022!\n\013BOKADMHKKPD\030\013 \001(\0162\014.FDG" +
-      "ECPAHOIJB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "ECPAHOIJB2\n\031emu.grasscutter.net.protoB\025I" +
+      "LLNFOJCEBCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

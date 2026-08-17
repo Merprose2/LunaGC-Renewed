@@ -653,8 +653,9 @@ public final class ServerAnnounceRevokeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n ServerAnnounceRevokeNotify.proto\"4\n\032Se" +
       "rverAnnounceRevokeNotify\022\026\n\016config_id_li" +
-      "st\030\013 \003(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "st\030\013 \003(\rBA\n\031emu.grasscutter.net.protoB$S" +
+      "erverAnnounceRevokeNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

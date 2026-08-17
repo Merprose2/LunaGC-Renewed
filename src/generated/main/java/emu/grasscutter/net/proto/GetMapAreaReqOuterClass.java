@@ -454,8 +454,9 @@ public final class GetMapAreaReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\023GetMapAreaReq.proto\"\017\n\rGetMapAreaReqB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\023GetMapAreaReq.proto\"\017\n\rGetMapAreaReqB4" +
+      "\n\031emu.grasscutter.net.protoB\027GetMapAreaR" +
+      "eqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

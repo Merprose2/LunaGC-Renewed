@@ -1691,7 +1691,8 @@ public final class PPDOKFHAMAAOuterClass {
       "_list\030\005 \003(\0132\014.APJAEDHAOOO\022\023\n\013KHGIKHGFHIK" +
       "\030\006 \001(\r\022\023\n\013IGEBEGPMGID\030\n \001(\r\022\023\n\013AAGMBKCMG" +
       "CG\030\014 \001(\r\022!\n\013ICGCKHGFDGO\030\r \003(\0132\014.PBAEGIPO" +
-      "MHGB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "MHGB2\n\031emu.grasscutter.net.protoB\025PPDOKF" +
+      "HAMAAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -44,11 +44,11 @@ public final class SceneDataNotifyOuterClass {
      * <code>._LimitedRegionInfo _limited_region_info = 2;</code>
      * @return The limitedRegionInfo.
      */
-    emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo getLimitedRegionInfo();
+    emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo getLimitedRegionInfo();
     /**
      * <code>._LimitedRegionInfo _limited_region_info = 2;</code>
      */
-    emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfoOrBuilder getLimitedRegionInfoOrBuilder();
+    emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfoOrBuilder getLimitedRegionInfoOrBuilder();
 
     /**
      * <code>uint32 scene_id = 3;</code>
@@ -90,11 +90,11 @@ public final class SceneDataNotifyOuterClass {
      * <code>._MapLayerInfo _map_layer_info = 9;</code>
      * @return The mapLayerInfo.
      */
-    emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo getMapLayerInfo();
+    emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo getMapLayerInfo();
     /**
      * <code>._MapLayerInfo _map_layer_info = 9;</code>
      */
-    emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfoOrBuilder getMapLayerInfoOrBuilder();
+    emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfoOrBuilder getMapLayerInfoOrBuilder();
   }
   /**
    * <pre>
@@ -170,11 +170,11 @@ public final class SceneDataNotifyOuterClass {
               break;
             }
             case 18: {
-              emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.Builder subBuilder = null;
               if (LimitedRegionInfo_ != null) {
                 subBuilder = LimitedRegionInfo_.toBuilder();
               }
-              LimitedRegionInfo_ = input.readMessage(emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.parser(), extensionRegistry);
+              LimitedRegionInfo_ = input.readMessage(emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(LimitedRegionInfo_);
                 LimitedRegionInfo_ = subBuilder.buildPartial();
@@ -197,11 +197,11 @@ public final class SceneDataNotifyOuterClass {
               break;
             }
             case 74: {
-              emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.Builder subBuilder = null;
               if (MapLayerInfo_ != null) {
                 subBuilder = MapLayerInfo_.toBuilder();
               }
-              MapLayerInfo_ = input.readMessage(emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.parser(), extensionRegistry);
+              MapLayerInfo_ = input.readMessage(emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(MapLayerInfo_);
                 MapLayerInfo_ = subBuilder.buildPartial();
@@ -276,7 +276,7 @@ public final class SceneDataNotifyOuterClass {
     private int sceneTagIdListMemoizedSerializedSize = -1;
 
     public static final int _LIMITED_REGION_INFO_FIELD_NUMBER = 2;
-    private emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo LimitedRegionInfo_;
+    private emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo LimitedRegionInfo_;
     /**
      * <code>._LimitedRegionInfo _limited_region_info = 2;</code>
      * @return Whether the limitedRegionInfo field is set.
@@ -290,14 +290,14 @@ public final class SceneDataNotifyOuterClass {
      * @return The limitedRegionInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo getLimitedRegionInfo() {
-      return LimitedRegionInfo_ == null ? emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.getDefaultInstance() : LimitedRegionInfo_;
+    public emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo getLimitedRegionInfo() {
+      return LimitedRegionInfo_ == null ? emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.getDefaultInstance() : LimitedRegionInfo_;
     }
     /**
      * <code>._LimitedRegionInfo _limited_region_info = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfoOrBuilder getLimitedRegionInfoOrBuilder() {
+    public emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfoOrBuilder getLimitedRegionInfoOrBuilder() {
       return getLimitedRegionInfo();
     }
 
@@ -348,7 +348,7 @@ public final class SceneDataNotifyOuterClass {
     }
 
     public static final int _MAP_LAYER_INFO_FIELD_NUMBER = 9;
-    private emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo MapLayerInfo_;
+    private emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo MapLayerInfo_;
     /**
      * <code>._MapLayerInfo _map_layer_info = 9;</code>
      * @return Whether the mapLayerInfo field is set.
@@ -362,14 +362,14 @@ public final class SceneDataNotifyOuterClass {
      * @return The mapLayerInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo getMapLayerInfo() {
-      return MapLayerInfo_ == null ? emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.getDefaultInstance() : MapLayerInfo_;
+    public emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo getMapLayerInfo() {
+      return MapLayerInfo_ == null ? emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.getDefaultInstance() : MapLayerInfo_;
     }
     /**
      * <code>._MapLayerInfo _map_layer_info = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfoOrBuilder getMapLayerInfoOrBuilder() {
+    public emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfoOrBuilder getMapLayerInfoOrBuilder() {
       return getMapLayerInfo();
     }
 
@@ -899,9 +899,9 @@ public final class SceneDataNotifyOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo LimitedRegionInfo_;
+      private emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo LimitedRegionInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo, emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.Builder, emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfoOrBuilder> LimitedRegionInfoBuilder_;
+          emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo, emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.Builder, emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfoOrBuilder> LimitedRegionInfoBuilder_;
       /**
        * <code>._LimitedRegionInfo _limited_region_info = 2;</code>
        * @return Whether the limitedRegionInfo field is set.
@@ -913,9 +913,9 @@ public final class SceneDataNotifyOuterClass {
        * <code>._LimitedRegionInfo _limited_region_info = 2;</code>
        * @return The limitedRegionInfo.
        */
-      public emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo getLimitedRegionInfo() {
+      public emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo getLimitedRegionInfo() {
         if (LimitedRegionInfoBuilder_ == null) {
-          return LimitedRegionInfo_ == null ? emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.getDefaultInstance() : LimitedRegionInfo_;
+          return LimitedRegionInfo_ == null ? emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.getDefaultInstance() : LimitedRegionInfo_;
         } else {
           return LimitedRegionInfoBuilder_.getMessage();
         }
@@ -923,7 +923,7 @@ public final class SceneDataNotifyOuterClass {
       /**
        * <code>._LimitedRegionInfo _limited_region_info = 2;</code>
        */
-      public Builder setLimitedRegionInfo(emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo value) {
+      public Builder setLimitedRegionInfo(emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo value) {
         if (LimitedRegionInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -940,7 +940,7 @@ public final class SceneDataNotifyOuterClass {
        * <code>._LimitedRegionInfo _limited_region_info = 2;</code>
        */
       public Builder setLimitedRegionInfo(
-          emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.Builder builderForValue) {
         if (LimitedRegionInfoBuilder_ == null) {
           LimitedRegionInfo_ = builderForValue.build();
           onChanged();
@@ -953,11 +953,11 @@ public final class SceneDataNotifyOuterClass {
       /**
        * <code>._LimitedRegionInfo _limited_region_info = 2;</code>
        */
-      public Builder mergeLimitedRegionInfo(emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo value) {
+      public Builder mergeLimitedRegionInfo(emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo value) {
         if (LimitedRegionInfoBuilder_ == null) {
           if (LimitedRegionInfo_ != null) {
             LimitedRegionInfo_ =
-              emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.newBuilder(LimitedRegionInfo_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.newBuilder(LimitedRegionInfo_).mergeFrom(value).buildPartial();
           } else {
             LimitedRegionInfo_ = value;
           }
@@ -985,7 +985,7 @@ public final class SceneDataNotifyOuterClass {
       /**
        * <code>._LimitedRegionInfo _limited_region_info = 2;</code>
        */
-      public emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.Builder getLimitedRegionInfoBuilder() {
+      public emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.Builder getLimitedRegionInfoBuilder() {
         
         onChanged();
         return getLimitedRegionInfoFieldBuilder().getBuilder();
@@ -993,23 +993,23 @@ public final class SceneDataNotifyOuterClass {
       /**
        * <code>._LimitedRegionInfo _limited_region_info = 2;</code>
        */
-      public emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfoOrBuilder getLimitedRegionInfoOrBuilder() {
+      public emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfoOrBuilder getLimitedRegionInfoOrBuilder() {
         if (LimitedRegionInfoBuilder_ != null) {
           return LimitedRegionInfoBuilder_.getMessageOrBuilder();
         } else {
           return LimitedRegionInfo_ == null ?
-              emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.getDefaultInstance() : LimitedRegionInfo_;
+              emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.getDefaultInstance() : LimitedRegionInfo_;
         }
       }
       /**
        * <code>._LimitedRegionInfo _limited_region_info = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo, emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.Builder, emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfoOrBuilder> 
+          emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo, emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.Builder, emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfoOrBuilder> 
           getLimitedRegionInfoFieldBuilder() {
         if (LimitedRegionInfoBuilder_ == null) {
           LimitedRegionInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo, emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfo.Builder, emu.grasscutter.net.proto.LimitedRegionInfo._LimitedRegionInfoOrBuilder>(
+              emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo, emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.Builder, emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfoOrBuilder>(
                   getLimitedRegionInfo(),
                   getParentForChildren(),
                   isClean());
@@ -1159,9 +1159,9 @@ public final class SceneDataNotifyOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo MapLayerInfo_;
+      private emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo MapLayerInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo, emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.Builder, emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfoOrBuilder> MapLayerInfoBuilder_;
+          emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo, emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.Builder, emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfoOrBuilder> MapLayerInfoBuilder_;
       /**
        * <code>._MapLayerInfo _map_layer_info = 9;</code>
        * @return Whether the mapLayerInfo field is set.
@@ -1173,9 +1173,9 @@ public final class SceneDataNotifyOuterClass {
        * <code>._MapLayerInfo _map_layer_info = 9;</code>
        * @return The mapLayerInfo.
        */
-      public emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo getMapLayerInfo() {
+      public emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo getMapLayerInfo() {
         if (MapLayerInfoBuilder_ == null) {
-          return MapLayerInfo_ == null ? emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.getDefaultInstance() : MapLayerInfo_;
+          return MapLayerInfo_ == null ? emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.getDefaultInstance() : MapLayerInfo_;
         } else {
           return MapLayerInfoBuilder_.getMessage();
         }
@@ -1183,7 +1183,7 @@ public final class SceneDataNotifyOuterClass {
       /**
        * <code>._MapLayerInfo _map_layer_info = 9;</code>
        */
-      public Builder setMapLayerInfo(emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo value) {
+      public Builder setMapLayerInfo(emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo value) {
         if (MapLayerInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1200,7 +1200,7 @@ public final class SceneDataNotifyOuterClass {
        * <code>._MapLayerInfo _map_layer_info = 9;</code>
        */
       public Builder setMapLayerInfo(
-          emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.Builder builderForValue) {
         if (MapLayerInfoBuilder_ == null) {
           MapLayerInfo_ = builderForValue.build();
           onChanged();
@@ -1213,11 +1213,11 @@ public final class SceneDataNotifyOuterClass {
       /**
        * <code>._MapLayerInfo _map_layer_info = 9;</code>
        */
-      public Builder mergeMapLayerInfo(emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo value) {
+      public Builder mergeMapLayerInfo(emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo value) {
         if (MapLayerInfoBuilder_ == null) {
           if (MapLayerInfo_ != null) {
             MapLayerInfo_ =
-              emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.newBuilder(MapLayerInfo_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.newBuilder(MapLayerInfo_).mergeFrom(value).buildPartial();
           } else {
             MapLayerInfo_ = value;
           }
@@ -1245,7 +1245,7 @@ public final class SceneDataNotifyOuterClass {
       /**
        * <code>._MapLayerInfo _map_layer_info = 9;</code>
        */
-      public emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.Builder getMapLayerInfoBuilder() {
+      public emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.Builder getMapLayerInfoBuilder() {
         
         onChanged();
         return getMapLayerInfoFieldBuilder().getBuilder();
@@ -1253,23 +1253,23 @@ public final class SceneDataNotifyOuterClass {
       /**
        * <code>._MapLayerInfo _map_layer_info = 9;</code>
        */
-      public emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfoOrBuilder getMapLayerInfoOrBuilder() {
+      public emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfoOrBuilder getMapLayerInfoOrBuilder() {
         if (MapLayerInfoBuilder_ != null) {
           return MapLayerInfoBuilder_.getMessageOrBuilder();
         } else {
           return MapLayerInfo_ == null ?
-              emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.getDefaultInstance() : MapLayerInfo_;
+              emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.getDefaultInstance() : MapLayerInfo_;
         }
       }
       /**
        * <code>._MapLayerInfo _map_layer_info = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo, emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.Builder, emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfoOrBuilder> 
+          emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo, emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.Builder, emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfoOrBuilder> 
           getMapLayerInfoFieldBuilder() {
         if (MapLayerInfoBuilder_ == null) {
           MapLayerInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo, emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfo.Builder, emu.grasscutter.net.proto.MapLayerInfo._MapLayerInfoOrBuilder>(
+              emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo, emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfo.Builder, emu.grasscutter.net.proto._MapLayerInfoOuterClass._MapLayerInfoOrBuilder>(
                   getMapLayerInfo(),
                   getParentForChildren(),
                   isClean());
@@ -1350,14 +1350,15 @@ public final class SceneDataNotifyOuterClass {
       "\024_limited_region_info\030\002 \001(\0132\023._LimitedRe" +
       "gionInfo\022\020\n\010scene_id\030\003 \001(\r\022\036\n\026level_conf" +
       "ig_name_list\030\007 \003(\t\022\'\n\017_map_layer_info\030\t " +
-      "\001(\0132\016._MapLayerInfoB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\001(\0132\016._MapLayerInfoB6\n\031emu.grasscutter.n" +
+      "et.protoB\031SceneDataNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.LimitedRegionInfo.getDescriptor(),
-          emu.grasscutter.net.proto.MapLayerInfo.getDescriptor(),
+          emu.grasscutter.net.proto._LimitedRegionInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._MapLayerInfoOuterClass.getDescriptor(),
         });
     internal_static_SceneDataNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1365,8 +1366,8 @@ public final class SceneDataNotifyOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SceneDataNotify_descriptor,
         new java.lang.String[] { "SceneTagIdList", "LimitedRegionInfo", "SceneId", "LevelConfigNameList", "MapLayerInfo", });
-    emu.grasscutter.net.proto.LimitedRegionInfo.getDescriptor();
-    emu.grasscutter.net.proto.MapLayerInfo.getDescriptor();
+    emu.grasscutter.net.proto._LimitedRegionInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._MapLayerInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

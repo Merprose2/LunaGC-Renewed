@@ -2043,7 +2043,8 @@ public final class BGHNGCEBKAHOuterClass {
       "\001(\0132\014.CAKLGIFBGLIH\000\022,\n\024basic_active_cont" +
       "rol\030\020 \001(\0132\014.HBGPKJJAPEIH\000\022\024\n\013DKMFGCFFPFH" +
       "\030\365\003 \001(\005\022\024\n\013JAPLPPGFOOO\030\366\003 \001(\010B\010\n\006detailB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025BGHNGCEBKA" +
+      "HOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

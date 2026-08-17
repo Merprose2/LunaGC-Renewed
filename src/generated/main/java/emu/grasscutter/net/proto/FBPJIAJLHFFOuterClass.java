@@ -229,8 +229,9 @@ public final class FBPJIAJLHFFOuterClass {
       "HFF_OFFICIAL_6\020\006\022\032\n\026FBPJIAJLHFF_OFFICIAL" +
       "_7\020\007\022\032\n\026FBPJIAJLHFF_OFFICIAL_8\020\010\022\032\n\026FBPJ" +
       "IAJLHFF_OFFICIAL_9\020\t\022\033\n\027FBPJIAJLHFF_OFFI" +
-      "CIAL_10\020\n\022\033\n\027FBPJIAJLHFF_OFFICIAL_11\020\013B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "CIAL_10\020\n\022\033\n\027FBPJIAJLHFF_OFFICIAL_11\020\013B2" +
+      "\n\031emu.grasscutter.net.protoB\025FBPJIAJLHFF" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

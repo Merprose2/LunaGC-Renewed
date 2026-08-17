@@ -1567,8 +1567,8 @@ public final class PlayerStartMatchRspOuterClass {
       "h_end_time\030\005 \001(\r\022\022\n\ndungeon_id\030\006 \001(\r\022\017\n\007" +
       "retcode\030\n \001(\005\022\"\n\013IFKLFPBPECD\030\364\n \001(\0132\014.AC" +
       "PPEBFNOKP\022\"\n\013LGAIBEIKADJ\030\274\r \003(\0132\014.GIFDFH" +
-      "HDGDDB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "HDGDDB:\n\031emu.grasscutter.net.protoB\035Play" +
+      "erStartMatchRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -908,8 +908,8 @@ public final class MBINADDCNOKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MBINADDCNOK.proto\"L\n\013MBINADDCNOK\022\023\n\013LI" +
       "DIBCLMBGJ\030\001 \001(\r\022\023\n\013LEEJIONIIGC\030\013 \003(\r\022\023\n\013" +
-      "KGLBMAPHEDK\030\017 \003(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "KGLBMAPHEDK\030\017 \003(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025MBINADDCNOKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

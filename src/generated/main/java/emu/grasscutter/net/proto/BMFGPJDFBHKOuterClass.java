@@ -1653,8 +1653,9 @@ public final class BMFGPJDFBHKOuterClass {
       "\001(\r\022\023\n\013EEKIAOLEPNM\030\005 \001(\r\022!\n\013NECKOCPCNAB\030" +
       "\006 \001(\0132\014.PGDMAIHKGFO\022\023\n\013PAAJJAHNMJP\030\007 \001(\t" +
       "\022\023\n\013POGPHDLNFFL\030\010 \003(\005\022\024\n\013AKEMLDEDMFC\030\367\003 " +
-      "\001(\t\022\024\n\013filter_type\030\370\003 \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\001(\t\022\024\n\013filter_type\030\370\003 \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025BMFGPJDFBHKOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

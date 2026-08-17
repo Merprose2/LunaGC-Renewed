@@ -133,7 +133,8 @@ public final class ADHGOPGOIFGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ADHGOPGOIFG.proto*;\n\013ADHGOPGOIFG\022\024\n\020AD" +
       "HGOPGOIFG_NONE\020\000\022\026\n\022ADHGOPGOIFG_SIGNAL\020\001" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025ADHGOPGOI" +
+      "FGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -667,8 +667,8 @@ public final class DHMHPGPGCOCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DHMHPGPGCOC.proto\"\'\n\013DHMHPGPGCOC\022\n\n\002id" +
-      "\030\001 \001(\r\022\014\n\004name\030\002 \001(\tB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\030\001 \001(\r\022\014\n\004name\030\002 \001(\tB2\n\031emu.grasscutter." +
+      "net.protoB\025DHMHPGPGCOCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

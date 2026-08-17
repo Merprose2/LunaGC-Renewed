@@ -729,8 +729,9 @@ public final class ALPHEHMMLKOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ALPHEHMMLKO.proto\032\021BFGFBMADCFD.proto\"E" +
       "\n\013ALPHEHMMLKO\022\023\n\013material_id\030\006 \001(\r\022!\n\013_m" +
-      "ark_point\030\t \001(\0132\014.BFGFBMADCFDB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ark_point\030\t \001(\0132\014.BFGFBMADCFDB2\n\031emu.gra" +
+      "sscutter.net.protoB\025ALPHEHMMLKOOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

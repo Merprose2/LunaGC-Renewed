@@ -837,8 +837,8 @@ public final class GCGMsgTokenChangeOuterClass {
       "to\"\200\001\n\021GCGMsgTokenChange\022\021\n\tcard_guid\030\001 " +
       "\001(\r\022\022\n\ntoken_type\030\003 \001(\r\022\032\n\006reason\030\007 \001(\0162" +
       "\n.GCGReason\022\023\n\013AOGIPNILIKG\030\t \001(\r\022\023\n\013BCCB" +
-      "ALNCJAF\030\017 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "ALNCJAF\030\017 \001(\rB8\n\031emu.grasscutter.net.pro" +
+      "toB\033GCGMsgTokenChangeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

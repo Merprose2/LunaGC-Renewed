@@ -21,12 +21,12 @@ public final class ELBGMJJCFMCOuterClass {
     /**
      * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey> 
+    java.util.List<emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey> 
         getCEEFABJCAJDList();
     /**
      * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
      */
-    emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey getCEEFABJCAJD(int index);
+    emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey getCEEFABJCAJD(int index);
     /**
      * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
      */
@@ -34,12 +34,12 @@ public final class ELBGMJJCFMCOuterClass {
     /**
      * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKeyOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKeyOrBuilder> 
         getCEEFABJCAJDOrBuilderList();
     /**
      * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
      */
-    emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKeyOrBuilder getCEEFABJCAJDOrBuilder(
+    emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKeyOrBuilder getCEEFABJCAJDOrBuilder(
         int index);
 
     /**
@@ -107,11 +107,11 @@ public final class ELBGMJJCFMCOuterClass {
               break;
             case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                cEEFABJCAJD_ = new java.util.ArrayList<emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey>();
+                cEEFABJCAJD_ = new java.util.ArrayList<emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey>();
                 mutable_bitField0_ |= 0x00000001;
               }
               cEEFABJCAJD_.add(
-                  input.readMessage(emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey.parser(), extensionRegistry));
               break;
             }
             case 88: {
@@ -160,19 +160,19 @@ public final class ELBGMJJCFMCOuterClass {
     }
 
     public static final int CEEFABJCAJD_FIELD_NUMBER = 3;
-    private java.util.List<emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey> cEEFABJCAJD_;
+    private java.util.List<emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey> cEEFABJCAJD_;
     /**
      * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey> getCEEFABJCAJDList() {
+    public java.util.List<emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey> getCEEFABJCAJDList() {
       return cEEFABJCAJD_;
     }
     /**
      * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKeyOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKeyOrBuilder> 
         getCEEFABJCAJDOrBuilderList() {
       return cEEFABJCAJD_;
     }
@@ -187,14 +187,14 @@ public final class ELBGMJJCFMCOuterClass {
      * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey getCEEFABJCAJD(int index) {
+    public emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey getCEEFABJCAJD(int index) {
       return cEEFABJCAJD_.get(index);
     }
     /**
      * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKeyOrBuilder getCEEFABJCAJDOrBuilder(
+    public emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKeyOrBuilder getCEEFABJCAJDOrBuilder(
         int index) {
       return cEEFABJCAJD_.get(index);
     }
@@ -601,22 +601,22 @@ public final class ELBGMJJCFMCOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey> cEEFABJCAJD_ =
+      private java.util.List<emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey> cEEFABJCAJD_ =
         java.util.Collections.emptyList();
       private void ensureCEEFABJCAJDIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          cEEFABJCAJD_ = new java.util.ArrayList<emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey>(cEEFABJCAJD_);
+          cEEFABJCAJD_ = new java.util.ArrayList<emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey>(cEEFABJCAJD_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey, emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey.Builder, emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKeyOrBuilder> cEEFABJCAJDBuilder_;
+          emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey, emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey.Builder, emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKeyOrBuilder> cEEFABJCAJDBuilder_;
 
       /**
        * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey> getCEEFABJCAJDList() {
+      public java.util.List<emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey> getCEEFABJCAJDList() {
         if (cEEFABJCAJDBuilder_ == null) {
           return java.util.Collections.unmodifiableList(cEEFABJCAJD_);
         } else {
@@ -636,7 +636,7 @@ public final class ELBGMJJCFMCOuterClass {
       /**
        * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
        */
-      public emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey getCEEFABJCAJD(int index) {
+      public emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey getCEEFABJCAJD(int index) {
         if (cEEFABJCAJDBuilder_ == null) {
           return cEEFABJCAJD_.get(index);
         } else {
@@ -647,7 +647,7 @@ public final class ELBGMJJCFMCOuterClass {
        * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
        */
       public Builder setCEEFABJCAJD(
-          int index, emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey value) {
+          int index, emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey value) {
         if (cEEFABJCAJDBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -664,7 +664,7 @@ public final class ELBGMJJCFMCOuterClass {
        * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
        */
       public Builder setCEEFABJCAJD(
-          int index, emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey.Builder builderForValue) {
         if (cEEFABJCAJDBuilder_ == null) {
           ensureCEEFABJCAJDIsMutable();
           cEEFABJCAJD_.set(index, builderForValue.build());
@@ -677,7 +677,7 @@ public final class ELBGMJJCFMCOuterClass {
       /**
        * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
        */
-      public Builder addCEEFABJCAJD(emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey value) {
+      public Builder addCEEFABJCAJD(emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey value) {
         if (cEEFABJCAJDBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -694,7 +694,7 @@ public final class ELBGMJJCFMCOuterClass {
        * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
        */
       public Builder addCEEFABJCAJD(
-          int index, emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey value) {
+          int index, emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey value) {
         if (cEEFABJCAJDBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -711,7 +711,7 @@ public final class ELBGMJJCFMCOuterClass {
        * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
        */
       public Builder addCEEFABJCAJD(
-          emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey.Builder builderForValue) {
+          emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey.Builder builderForValue) {
         if (cEEFABJCAJDBuilder_ == null) {
           ensureCEEFABJCAJDIsMutable();
           cEEFABJCAJD_.add(builderForValue.build());
@@ -725,7 +725,7 @@ public final class ELBGMJJCFMCOuterClass {
        * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
        */
       public Builder addCEEFABJCAJD(
-          int index, emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey.Builder builderForValue) {
         if (cEEFABJCAJDBuilder_ == null) {
           ensureCEEFABJCAJDIsMutable();
           cEEFABJCAJD_.add(index, builderForValue.build());
@@ -739,7 +739,7 @@ public final class ELBGMJJCFMCOuterClass {
        * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
        */
       public Builder addAllCEEFABJCAJD(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey> values) {
         if (cEEFABJCAJDBuilder_ == null) {
           ensureCEEFABJCAJDIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -779,14 +779,14 @@ public final class ELBGMJJCFMCOuterClass {
       /**
        * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
        */
-      public emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey.Builder getCEEFABJCAJDBuilder(
+      public emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey.Builder getCEEFABJCAJDBuilder(
           int index) {
         return getCEEFABJCAJDFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
        */
-      public emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKeyOrBuilder getCEEFABJCAJDOrBuilder(
+      public emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKeyOrBuilder getCEEFABJCAJDOrBuilder(
           int index) {
         if (cEEFABJCAJDBuilder_ == null) {
           return cEEFABJCAJD_.get(index);  } else {
@@ -796,7 +796,7 @@ public final class ELBGMJJCFMCOuterClass {
       /**
        * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKeyOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKeyOrBuilder> 
            getCEEFABJCAJDOrBuilderList() {
         if (cEEFABJCAJDBuilder_ != null) {
           return cEEFABJCAJDBuilder_.getMessageOrBuilderList();
@@ -807,31 +807,31 @@ public final class ELBGMJJCFMCOuterClass {
       /**
        * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
        */
-      public emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey.Builder addCEEFABJCAJDBuilder() {
+      public emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey.Builder addCEEFABJCAJDBuilder() {
         return getCEEFABJCAJDFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey.getDefaultInstance());
+            emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey.getDefaultInstance());
       }
       /**
        * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
        */
-      public emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey.Builder addCEEFABJCAJDBuilder(
+      public emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey.Builder addCEEFABJCAJDBuilder(
           int index) {
         return getCEEFABJCAJDFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey.getDefaultInstance());
+            index, emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey.getDefaultInstance());
       }
       /**
        * <code>repeated ._SeekerDetectorKey CEEFABJCAJD = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey.Builder> 
            getCEEFABJCAJDBuilderList() {
         return getCEEFABJCAJDFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey, emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey.Builder, emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKeyOrBuilder> 
+          emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey, emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey.Builder, emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKeyOrBuilder> 
           getCEEFABJCAJDFieldBuilder() {
         if (cEEFABJCAJDBuilder_ == null) {
           cEEFABJCAJDBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey, emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKey.Builder, emu.grasscutter.net.proto.SeekerDetectorKey._SeekerDetectorKeyOrBuilder>(
+              emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey, emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKey.Builder, emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass._SeekerDetectorKeyOrBuilder>(
                   cEEFABJCAJD_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -972,13 +972,13 @@ public final class ELBGMJJCFMCOuterClass {
       "\n\021ELBGMJJCFMC.proto\032\030_SeekerDetectorKey." +
       "proto\"]\n\013ELBGMJJCFMC\022(\n\013CEEFABJCAJD\030\003 \003(" +
       "\0132\023._SeekerDetectorKey\022\023\n\013material_id\030\013 " +
-      "\001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\001(\r\022\017\n\007retcode\030\017 \001(\005B2\n\031emu.grasscutter." +
+      "net.protoB\025ELBGMJJCFMCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.SeekerDetectorKey.getDescriptor(),
+          emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass.getDescriptor(),
         });
     internal_static_ELBGMJJCFMC_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -986,7 +986,7 @@ public final class ELBGMJJCFMCOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ELBGMJJCFMC_descriptor,
         new java.lang.String[] { "CEEFABJCAJD", "MaterialId", "Retcode", });
-    emu.grasscutter.net.proto.SeekerDetectorKey.getDescriptor();
+    emu.grasscutter.net.proto._SeekerDetectorKeyOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

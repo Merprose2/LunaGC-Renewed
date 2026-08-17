@@ -596,8 +596,9 @@ public final class StartRogueDiaryPlayReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034StartRogueDiaryPlayReq.proto\">\n\026StartR" +
       "ogueDiaryPlayReq\022\022\n\ndifficulty\030\004 \001(\r\022\020\n\010" +
-      "stage_id\030\006 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "stage_id\030\006 \001(\rB=\n\031emu.grasscutter.net.pr" +
+      "otoB StartRogueDiaryPlayReqOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

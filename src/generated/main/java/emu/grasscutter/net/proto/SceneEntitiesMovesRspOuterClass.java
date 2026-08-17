@@ -832,8 +832,9 @@ public final class SceneEntitiesMovesRspOuterClass {
       "\n\033SceneEntitiesMovesRsp.proto\032\030EntityMov" +
       "eFailInfo.proto\"P\n\025SceneEntitiesMovesRsp" +
       "\0227\n\032entity_move_fail_info_list\030\006 \003(\0132\023.E" +
-      "ntityMoveFailInfoB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "ntityMoveFailInfoB<\n\031emu.grasscutter.net" +
+      ".protoB\037SceneEntitiesMovesRspOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -804,8 +804,8 @@ public final class CHOIADEEHHNOuterClass {
       "\n\021CHOIADEEHHN.proto\"v\n\013CHOIADEEHHN\022\023\n\013FB" +
       "OPDABBBFK\030\001 \001(\010\022\023\n\013LANAICCMHAN\030\002 \001(\010\022\023\n\013" +
       "FPOJMFCDIPB\030\003 \001(\010\022\023\n\013CAOFJJACPIP\030\004 \001(\010\022\023" +
-      "\n\013DPCGMKGNFFN\030\005 \001(\010B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013DPCGMKGNFFN\030\005 \001(\010B2\n\031emu.grasscutter.n" +
+      "et.protoB\025CHOIADEEHHNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -133,7 +133,8 @@ public final class AEEMIGJFGCDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AEEMIGJFGCD.proto*<\n\013AEEMIGJFGCD\022\023\n\017AE" +
       "EMIGJFGCD_ALL\020\000\022\030\n\024AEEMIGJFGCD_SPECIFIC\020" +
-      "\001B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001B2\n\031emu.grasscutter.net.protoB\025AEEMIGJF" +
+      "GCDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

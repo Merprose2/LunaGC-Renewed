@@ -893,8 +893,9 @@ public final class FNPKOIPDAEMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FNPKOIPDAEM.proto\032\021BDJCONOGMND.proto\"D" +
       "\n\013FNPKOIPDAEM\022\023\n\013GDILGJBDOOE\030\001 \001(\005\022 \n\npa" +
-      "ram_list\030\002 \003(\0132\014.BDJCONOGMNDB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "ram_list\030\002 \003(\0132\014.BDJCONOGMNDB2\n\031emu.gras" +
+      "scutter.net.protoB\025FNPKOIPDAEMOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

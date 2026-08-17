@@ -893,8 +893,9 @@ public final class LBMPCEHDFOKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LBMPCEHDFOK.proto\032\020Uint32Pair.proto\"D\n" +
       "\013LBMPCEHDFOK\022\023\n\013ALBHGMCIDLI\030\002 \001(\r\022 \n\013EEE" +
-      "JIKDAKPH\030\r \003(\0132\013.Uint32PairB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "JIKDAKPH\030\r \003(\0132\013.Uint32PairB2\n\031emu.grass" +
+      "cutter.net.protoB\025LBMPCEHDFOKOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

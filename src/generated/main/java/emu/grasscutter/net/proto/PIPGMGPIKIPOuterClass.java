@@ -587,8 +587,9 @@ public final class PIPGMGPIKIPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PIPGMGPIKIP.proto\"1\n\013PIPGMGPIKIP\022\023\n\013MO" +
-      "ALINDDJKJ\030\005 \001(\r\022\r\n\005stage\030\t \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ALINDDJKJ\030\005 \001(\r\022\r\n\005stage\030\t \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025PIPGMGPIKIPOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -901,8 +901,9 @@ public final class GGAJKMEACMJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GGAJKMEACMJ.proto\032\021BALOILHJNOM.proto\"A" +
       "\n\013GGAJKMEACMJ\022!\n\013IFBOJAPDAKH\030\004 \003(\0132\014.BAL" +
-      "OILHJNOM\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "OILHJNOM\022\017\n\007retcode\030\013 \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025GGAJKMEACMJOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

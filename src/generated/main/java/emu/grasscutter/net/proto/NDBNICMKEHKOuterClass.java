@@ -1087,8 +1087,9 @@ public final class NDBNICMKEHKOuterClass {
       "\001\n\013NDBNICMKEHK\022\020\n\010level_id\030\001 \001(\004\022\023\n\013_lev" +
       "el_name\030\002 \001(\t\022!\n\013EFNDDCGJJNH\030\003 \001(\0132\014.FLJ" +
       "NOAOAJCP\022\023\n\013HCGCKANHHLB\030\004 \001(\003\022\023\n\013LBEDMGP" +
-      "PIFC\030\005 \001(\003\022\023\n\013HJGNBDIEABE\030\006 \001(\010B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "PIFC\030\005 \001(\003\022\023\n\013HJGNBDIEABE\030\006 \001(\010B2\n\031emu.g" +
+      "rasscutter.net.protoB\025NDBNICMKEHKOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

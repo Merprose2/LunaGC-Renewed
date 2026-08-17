@@ -659,8 +659,8 @@ public final class DLKPNDJCMDIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DLKPNDJCMDI.proto\"L\n\013DLKPNDJCMDI\022\023\n\013is" +
       "_finished\030\002 \001(\010\022\023\n\013IOLKLILAFPO\030\t \001(\r\022\023\n\013" +
-      "NHAJCANDJCP\030\r \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "NHAJCANDJCP\030\r \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025DLKPNDJCMDIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

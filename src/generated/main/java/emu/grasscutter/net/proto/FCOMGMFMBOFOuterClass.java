@@ -27,7 +27,7 @@ public final class FCOMGMFMBOFOuterClass {
      * <code>._BeyondHallAuthMode _auth_mode = 1;</code>
      * @return The authMode.
      */
-    emu.grasscutter.net.proto.BeyondHallAuthMode._BeyondHallAuthMode getAuthMode();
+    emu.grasscutter.net.proto._BeyondHallAuthModeOuterClass._BeyondHallAuthMode getAuthMode();
 
     /**
      * <code>uint64 _hall_passcode = 8;</code>
@@ -180,10 +180,10 @@ public final class FCOMGMFMBOFOuterClass {
      * <code>._BeyondHallAuthMode _auth_mode = 1;</code>
      * @return The authMode.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.BeyondHallAuthMode._BeyondHallAuthMode getAuthMode() {
+    @java.lang.Override public emu.grasscutter.net.proto._BeyondHallAuthModeOuterClass._BeyondHallAuthMode getAuthMode() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.BeyondHallAuthMode._BeyondHallAuthMode result = emu.grasscutter.net.proto.BeyondHallAuthMode._BeyondHallAuthMode.valueOf(AuthMode_);
-      return result == null ? emu.grasscutter.net.proto.BeyondHallAuthMode._BeyondHallAuthMode.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto._BeyondHallAuthModeOuterClass._BeyondHallAuthMode result = emu.grasscutter.net.proto._BeyondHallAuthModeOuterClass._BeyondHallAuthMode.valueOf(AuthMode_);
+      return result == null ? emu.grasscutter.net.proto._BeyondHallAuthModeOuterClass._BeyondHallAuthMode.UNRECOGNIZED : result;
     }
 
     public static final int _HALL_PASSCODE_FIELD_NUMBER = 8;
@@ -240,7 +240,7 @@ public final class FCOMGMFMBOFOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (AuthMode_ != emu.grasscutter.net.proto.BeyondHallAuthMode._BeyondHallAuthMode._BeyondHallAuthMode_HALL_AUTH_MODE_NONE.getNumber()) {
+      if (AuthMode_ != emu.grasscutter.net.proto._BeyondHallAuthModeOuterClass._BeyondHallAuthMode._BeyondHallAuthMode_HALL_AUTH_MODE_NONE.getNumber()) {
         output.writeEnum(1, AuthMode_);
       }
       if (HallPasscode_ != 0L) {
@@ -262,7 +262,7 @@ public final class FCOMGMFMBOFOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (AuthMode_ != emu.grasscutter.net.proto.BeyondHallAuthMode._BeyondHallAuthMode._BeyondHallAuthMode_HALL_AUTH_MODE_NONE.getNumber()) {
+      if (AuthMode_ != emu.grasscutter.net.proto._BeyondHallAuthModeOuterClass._BeyondHallAuthMode._BeyondHallAuthMode_HALL_AUTH_MODE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(1, AuthMode_);
       }
@@ -615,17 +615,17 @@ public final class FCOMGMFMBOFOuterClass {
        * @return The authMode.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondHallAuthMode._BeyondHallAuthMode getAuthMode() {
+      public emu.grasscutter.net.proto._BeyondHallAuthModeOuterClass._BeyondHallAuthMode getAuthMode() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.BeyondHallAuthMode._BeyondHallAuthMode result = emu.grasscutter.net.proto.BeyondHallAuthMode._BeyondHallAuthMode.valueOf(AuthMode_);
-        return result == null ? emu.grasscutter.net.proto.BeyondHallAuthMode._BeyondHallAuthMode.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto._BeyondHallAuthModeOuterClass._BeyondHallAuthMode result = emu.grasscutter.net.proto._BeyondHallAuthModeOuterClass._BeyondHallAuthMode.valueOf(AuthMode_);
+        return result == null ? emu.grasscutter.net.proto._BeyondHallAuthModeOuterClass._BeyondHallAuthMode.UNRECOGNIZED : result;
       }
       /**
        * <code>._BeyondHallAuthMode _auth_mode = 1;</code>
        * @param value The authMode to set.
        * @return This builder for chaining.
        */
-      public Builder setAuthMode(emu.grasscutter.net.proto.BeyondHallAuthMode._BeyondHallAuthMode value) {
+      public Builder setAuthMode(emu.grasscutter.net.proto._BeyondHallAuthModeOuterClass._BeyondHallAuthMode value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -824,13 +824,14 @@ public final class FCOMGMFMBOFOuterClass {
       "\n\021FCOMGMFMBOF.proto\032\031_BeyondHallAuthMode" +
       ".proto\"d\n\013FCOMGMFMBOF\022(\n\n_auth_mode\030\001 \001(" +
       "\0162\024._BeyondHallAuthMode\022\026\n\016_hall_passcod" +
-      "e\030\010 \001(\004\022\023\n\013OCOMAKIFKPL\030\017 \003(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "e\030\010 \001(\004\022\023\n\013OCOMAKIFKPL\030\017 \003(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025FCOMGMFMBOFOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BeyondHallAuthMode.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondHallAuthModeOuterClass.getDescriptor(),
         });
     internal_static_FCOMGMFMBOF_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -838,7 +839,7 @@ public final class FCOMGMFMBOFOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FCOMGMFMBOF_descriptor,
         new java.lang.String[] { "AuthMode", "HallPasscode", "OCOMAKIFKPL", });
-    emu.grasscutter.net.proto.BeyondHallAuthMode.getDescriptor();
+    emu.grasscutter.net.proto._BeyondHallAuthModeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

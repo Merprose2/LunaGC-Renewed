@@ -668,8 +668,9 @@ public final class HomeTransferReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025HomeTransferReq.proto\"I\n\017HomeTransferR" +
       "eq\022\023\n\013MBAFIHEJMPA\030\003 \001(\010\022\023\n\013ONGILLPHHKK\030\014" +
-      " \001(\010\022\014\n\004guid\030\016 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      " \001(\010\022\014\n\004guid\030\016 \001(\rB6\n\031emu.grasscutter.ne" +
+      "t.protoB\031HomeTransferReqOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

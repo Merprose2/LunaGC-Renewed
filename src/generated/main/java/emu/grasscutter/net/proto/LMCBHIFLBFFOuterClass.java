@@ -1622,8 +1622,9 @@ public final class LMCBHIFLBFFOuterClass {
       "MGIJ\030\005 \001(\r\022\023\n\013HAIGJANNIKM\030\006 \001(\002\022\034\n\013IDBPI" +
       "DLOHBL\030\013 \001(\0132\007.Vector\022\023\n\013OMGADACMGGC\030\014 \001" +
       "(\002\022\023\n\013AONEPHHDNNE\030\r \001(\002\022\023\n\013AJMENDHEHNA\030\016" +
-      " \001(\002\022\034\n\013HJAJKPPJLFO\030\017 \001(\0132\007.VectorB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      " \001(\002\022\034\n\013HJAJKPPJLFO\030\017 \001(\0132\007.VectorB2\n\031em" +
+      "u.grasscutter.net.protoB\025LMCBHIFLBFFOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

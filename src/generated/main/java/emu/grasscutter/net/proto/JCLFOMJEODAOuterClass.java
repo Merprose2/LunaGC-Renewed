@@ -652,8 +652,8 @@ public final class JCLFOMJEODAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JCLFOMJEODA.proto\"!\n\013JCLFOMJEODA\022\022\n\nsk" +
-      "ill_list\030\014 \003(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "ill_list\030\014 \003(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025JCLFOMJEODAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

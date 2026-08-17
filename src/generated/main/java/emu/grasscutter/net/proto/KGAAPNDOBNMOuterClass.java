@@ -831,7 +831,8 @@ public final class KGAAPNDOBNMOuterClass {
       "\n\021KGAAPNDOBNM.proto\032\021MatchReason.proto\"O" +
       "\n\013KGAAPNDOBNM\022\020\n\010uid_list\030\003 \003(\r\022\020\n\010match" +
       "_id\030\007 \001(\r\022\034\n\006reason\030\014 \001(\0162\014.MatchReasonB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025KGAAPNDOBN" +
+      "MOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

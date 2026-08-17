@@ -704,8 +704,9 @@ public final class DungeonDieOptionRspOuterClass {
       "\n\031DungeonDieOptionRsp.proto\032\025PlayerDieOp" +
       "tion.proto\"b\n\023DungeonDieOptionRsp\022\024\n\014rev" +
       "ive_count\030\003 \001(\r\022$\n\ndie_option\030\004 \001(\0162\020.Pl" +
-      "ayerDieOption\022\017\n\007retcode\030\010 \001(\005B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ayerDieOption\022\017\n\007retcode\030\010 \001(\005B:\n\031emu.gr" +
+      "asscutter.net.protoB\035DungeonDieOptionRsp" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

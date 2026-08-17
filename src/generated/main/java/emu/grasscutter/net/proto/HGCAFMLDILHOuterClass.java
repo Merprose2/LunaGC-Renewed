@@ -667,8 +667,8 @@ public final class HGCAFMLDILHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HGCAFMLDILH.proto\"H\n\013HGCAFMLDILH\022\023\n\013HG" +
       "KFDJOMKJJ\030\002 \001(\010\022\017\n\007retcode\030\n \001(\005\022\023\n\013DMNM" +
-      "KHNMHIJ\030\016 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "KHNMHIJ\030\016 \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025HGCAFMLDILHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

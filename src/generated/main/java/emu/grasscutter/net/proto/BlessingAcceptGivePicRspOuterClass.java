@@ -737,7 +737,8 @@ public final class BlessingAcceptGivePicRspOuterClass {
       "\n\036BlessingAcceptGivePicRsp.proto\"W\n\030Bles" +
       "singAcceptGivePicRsp\022\r\n\005index\030\001 \001(\r\022\016\n\006p" +
       "ic_id\030\006 \001(\r\022\017\n\007retcode\030\013 \001(\005\022\013\n\003uid\030\017 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB?\n\031emu.grasscutter.net.protoB\"Blessing" +
+      "AcceptGivePicRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

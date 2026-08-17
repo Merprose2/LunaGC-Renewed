@@ -1168,8 +1168,8 @@ public final class JJJOBGKBPJGOuterClass {
       "GIHCCF\030\001 \001(\0162\014.JEOKDCIGCFP\022!\n\013OHMPDPJCPA" +
       "G\030\013 \001(\0132\014.LMNODINANIM\022!\n\013PAHMJBIHAEC\030\014 \001" +
       "(\0132\014.GIDBLJCLFHL\022!\n\013HJHFEKGLNGP\030\r \001(\0132\014." +
-      "PBMNACANPJHB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "PBMNACANPJHB2\n\031emu.grasscutter.net.proto" +
+      "B\025JJJOBGKBPJGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

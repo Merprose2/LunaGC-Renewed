@@ -1641,8 +1641,8 @@ public final class BBCMODMJCDFOuterClass {
       "\013BBCMODMJCDF\022!\n\013DNIDKJJHCHL\030\001 \003(\0132\014.PMDE" +
       "OPFNLOI\022!\n\013FBIOBNBPKKE\030\002 \003(\0132\014.HDDOPOELN" +
       "AL\022\023\n\013JNHGGELEMML\030\003 \001(\010\022!\n\013BLBHLKMJELH\030\004" +
-      " \003(\0132\014.GOENFJPBMHBB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      " \003(\0132\014.GOENFJPBMHBB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025BBCMODMJCDFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1442,8 +1442,9 @@ public final class InBattleMechanicusCardResultNotifyOuterClass {
       "ConfirmedCardMapEntry\022\032\n\022wait_begin_time" +
       "_us\030\r \001(\004\022\024\n\014wait_seconds\030\016 \001(\r\032=\n\033Playe" +
       "rConfirmedCardMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005v" +
-      "alue\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "alue\030\002 \001(\r:\0028\001BI\n\031emu.grasscutter.net.pr" +
+      "otoB,InBattleMechanicusCardResultNotifyO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

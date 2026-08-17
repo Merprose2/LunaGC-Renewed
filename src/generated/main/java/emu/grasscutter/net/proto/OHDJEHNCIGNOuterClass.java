@@ -669,8 +669,9 @@ public final class OHDJEHNCIGNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OHDJEHNCIGN.proto\"1\n\013OHDJEHNCIGN\022\023\n\013EI" +
-      "OLELLPOHJ\030\001 \001(\t\022\r\n\005value\030\002 \001(\002B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "OLELLPOHJ\030\001 \001(\t\022\r\n\005value\030\002 \001(\002B2\n\031emu.gr" +
+      "asscutter.net.protoB\025OHDJEHNCIGNOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -3151,8 +3151,9 @@ public final class InBattleMechanicusInfoOuterClass {
       "KMMICB\030\014 \001(\r\0226\n\021history_card_list\030\r \003(\0132" +
       "\033.InBattleMechanicusCardInfo\022\023\n\013OKDKBKFJ" +
       "DJE\030\016 \001(\r\022\024\n\014wait_seconds\030\017 \001(\r\022\024\n\013ANKJC" +
-      "OKFKEH\030\340\006 \003(\r\022\024\n\013IEPACOGLDKF\030\343\010 \003(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "OKFKEH\030\340\006 \003(\r\022\024\n\013IEPACOGLDKF\030\343\010 \003(\rB=\n\031e" +
+      "mu.grasscutter.net.protoB InBattleMechan" +
+      "icusInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

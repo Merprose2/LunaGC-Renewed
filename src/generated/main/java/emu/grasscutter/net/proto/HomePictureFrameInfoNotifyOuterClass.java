@@ -832,8 +832,9 @@ public final class HomePictureFrameInfoNotifyOuterClass {
       "\n HomePictureFrameInfoNotify.proto\032\032Home" +
       "PictureFrameInfo.proto\"T\n\032HomePictureFra" +
       "meInfoNotify\0226\n\027picture_frame_info_list\030" +
-      "\004 \003(\0132\025.HomePictureFrameInfoB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\004 \003(\0132\025.HomePictureFrameInfoBA\n\031emu.gras" +
+      "scutter.net.protoB$HomePictureFrameInfoN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -729,8 +729,9 @@ public final class AddRandTaskInfoNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033AddRandTaskInfoNotify.proto\032\014Vector.pr" +
       "oto\"C\n\025AddRandTaskInfoNotify\022\024\n\014rand_tas" +
-      "k_id\030\003 \001(\r\022\024\n\003pos\030\n \001(\0132\007.VectorB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "k_id\030\003 \001(\r\022\024\n\003pos\030\n \001(\0132\007.VectorB<\n\031emu." +
+      "grasscutter.net.protoB\037AddRandTaskInfoNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

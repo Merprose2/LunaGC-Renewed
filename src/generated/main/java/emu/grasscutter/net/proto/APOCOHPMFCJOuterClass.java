@@ -759,8 +759,9 @@ public final class APOCOHPMFCJOuterClass {
       "\n\021APOCOHPMFCJ.proto\032\021AHPBMELEPMD.proto\032\021" +
       "GNEJDEIEDIF.proto\"S\n\013APOCOHPMFCJ\022!\n\013play" +
       "er_info\030\001 \001(\0132\014.GNEJDEIEDIF\022!\n\013DPFPNHLHP" +
-      "EI\030\002 \001(\0162\014.AHPBMELEPMDB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "EI\030\002 \001(\0162\014.AHPBMELEPMDB2\n\031emu.grasscutte" +
+      "r.net.protoB\025APOCOHPMFCJOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

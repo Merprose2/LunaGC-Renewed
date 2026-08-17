@@ -972,8 +972,9 @@ public final class GetOnlinePlayerListRspOuterClass {
       "\n\034GetOnlinePlayerListRsp.proto\032\026OnlinePl" +
       "ayerInfo.proto\"e\n\026GetOnlinePlayerListRsp" +
       "\022+\n\020player_info_list\030\006 \003(\0132\021.OnlinePlaye" +
-      "rInfo\022\r\n\005param\030\010 \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "rInfo\022\r\n\005param\030\010 \001(\r\022\017\n\007retcode\030\017 \001(\005B=\n" +
+      "\031emu.grasscutter.net.protoB GetOnlinePla" +
+      "yerListRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

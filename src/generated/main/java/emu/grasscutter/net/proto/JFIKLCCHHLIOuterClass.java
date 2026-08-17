@@ -729,8 +729,9 @@ public final class JFIKLCCHHLIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JFIKLCCHHLI.proto\"a\n\013JFIKLCCHHLI\022\023\n\013FC" +
       "NPBJMKKHE\030\001 \001(\010\022\023\n\013BIJFMBNLMHI\030\002 \001(\r\022\023\n\013" +
-      "CIPDBGAJNCI\030\003 \001(\r\022\023\n\013NFBDBCJKHOF\030\004 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "CIPDBGAJNCI\030\003 \001(\r\022\023\n\013NFBDBCJKHOF\030\004 \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025JFIKLCCHHLI" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

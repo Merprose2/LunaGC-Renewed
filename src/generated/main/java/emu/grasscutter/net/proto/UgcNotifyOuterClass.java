@@ -955,8 +955,9 @@ public final class UgcNotifyOuterClass {
       "NKEGLI\030\001 \001(\010\022\023\n\013MKMPMPHKCKD\030\002 \001(\010\022\023\n\013BMI" +
       "KGKPMMBI\030\003 \001(\010\022\035\n\025is_ugc_feature_closed\030" +
       "\004 \001(\010\022\023\n\013HBLDJOMKPJI\030\006 \001(\010\022\023\n\013BAGJFAEEPM" +
-      "O\030\013 \001(\010\022\023\n\013JHDIPNAFCNE\030\r \001(\010B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "O\030\013 \001(\010\022\023\n\013JHDIPNAFCNE\030\r \001(\010B0\n\031emu.gras" +
+      "scutter.net.protoB\023UgcNotifyOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

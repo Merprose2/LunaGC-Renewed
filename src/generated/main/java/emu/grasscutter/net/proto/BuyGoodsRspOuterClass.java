@@ -1246,8 +1246,8 @@ public final class BuyGoodsRspOuterClass {
       "BuyGoodsRsp\022\017\n\007retcode\030\005 \001(\005\022\031\n\005goods\030\010 " +
       "\001(\0132\n.ShopGoods\022\021\n\tbuy_count\030\t \001(\r\022\021\n\tsh" +
       "op_type\030\r \001(\r\022\036\n\ngoods_list\030\016 \003(\0132\n.Shop" +
-      "GoodsB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "GoodsB2\n\031emu.grasscutter.net.protoB\025BuyG" +
+      "oodsRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

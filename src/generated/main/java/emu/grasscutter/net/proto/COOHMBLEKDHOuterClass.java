@@ -525,8 +525,9 @@ public final class COOHMBLEKDHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021COOHMBLEKDH.proto\"+\n\013COOHMBLEKDH\022\034\n\024_a" +
-      "vatar_element_type\030\013 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "vatar_element_type\030\013 \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025COOHMBLEKDHOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

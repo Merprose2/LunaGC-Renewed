@@ -517,8 +517,9 @@ public final class WidgetCameraInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026WidgetCameraInfo.proto\",\n\020WidgetCamera" +
-      "Info\022\030\n\020target_entity_id\030\r \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "Info\022\030\n\020target_entity_id\030\r \001(\rB7\n\031emu.gr" +
+      "asscutter.net.protoB\032WidgetCameraInfoOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

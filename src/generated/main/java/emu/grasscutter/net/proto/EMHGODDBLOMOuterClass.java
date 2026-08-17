@@ -152,8 +152,8 @@ public final class EMHGODDBLOMOuterClass {
       "\n\021EMHGODDBLOM.proto*o\n\013EMHGODDBLOM\022\026\n\022EM" +
       "HGODDBLOM_NORMAL\020\000\022\033\n\027EMHGODDBLOM_ROLE_S" +
       "TATUS\020\001\022\024\n\020EMHGODDBLOM_DUTY\020\002\022\025\n\021EMHGODD" +
-      "BLOM_STUFF\020\003B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "BLOM_STUFF\020\003B2\n\031emu.grasscutter.net.prot" +
+      "oB\025EMHGODDBLOMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -666,8 +666,8 @@ public final class HDNBMPNBHKMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HDNBMPNBHKM.proto\"A\n\013HDNBMPNBHKM\022\021\n\tav" +
       "atar_id\030\004 \001(\r\022\013\n\003uid\030\006 \001(\r\022\022\n\ncostume_id" +
-      "\030\r \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\r \001(\rB2\n\031emu.grasscutter.net.protoB\025HDN" +
+      "BMPNBHKMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

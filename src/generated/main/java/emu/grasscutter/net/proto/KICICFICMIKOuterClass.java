@@ -27,11 +27,11 @@ public final class KICICFICMIKOuterClass {
      * <code>._CooperateChallengeInfo.AOHPPMCFAGB player_info = 10;</code>
      * @return The playerInfo.
      */
-    emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB getPlayerInfo();
+    emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB getPlayerInfo();
     /**
      * <code>._CooperateChallengeInfo.AOHPPMCFAGB player_info = 10;</code>
      */
-    emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGBOrBuilder getPlayerInfoOrBuilder();
+    emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGBOrBuilder getPlayerInfoOrBuilder();
   }
   /**
    * <pre>
@@ -83,11 +83,11 @@ public final class KICICFICMIKOuterClass {
               done = true;
               break;
             case 82: {
-              emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB.Builder subBuilder = null;
               if (playerInfo_ != null) {
                 subBuilder = playerInfo_.toBuilder();
               }
-              playerInfo_ = input.readMessage(emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB.parser(), extensionRegistry);
+              playerInfo_ = input.readMessage(emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(playerInfo_);
                 playerInfo_ = subBuilder.buildPartial();
@@ -128,7 +128,7 @@ public final class KICICFICMIKOuterClass {
     }
 
     public static final int PLAYER_INFO_FIELD_NUMBER = 10;
-    private emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB playerInfo_;
+    private emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB playerInfo_;
     /**
      * <code>._CooperateChallengeInfo.AOHPPMCFAGB player_info = 10;</code>
      * @return Whether the playerInfo field is set.
@@ -142,14 +142,14 @@ public final class KICICFICMIKOuterClass {
      * @return The playerInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB getPlayerInfo() {
-      return playerInfo_ == null ? emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB.getDefaultInstance() : playerInfo_;
+    public emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB getPlayerInfo() {
+      return playerInfo_ == null ? emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB.getDefaultInstance() : playerInfo_;
     }
     /**
      * <code>._CooperateChallengeInfo.AOHPPMCFAGB player_info = 10;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGBOrBuilder getPlayerInfoOrBuilder() {
+    public emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGBOrBuilder getPlayerInfoOrBuilder() {
       return getPlayerInfo();
     }
 
@@ -472,9 +472,9 @@ public final class KICICFICMIKOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB playerInfo_;
+      private emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB playerInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB, emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB.Builder, emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGBOrBuilder> playerInfoBuilder_;
+          emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB, emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB.Builder, emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGBOrBuilder> playerInfoBuilder_;
       /**
        * <code>._CooperateChallengeInfo.AOHPPMCFAGB player_info = 10;</code>
        * @return Whether the playerInfo field is set.
@@ -486,9 +486,9 @@ public final class KICICFICMIKOuterClass {
        * <code>._CooperateChallengeInfo.AOHPPMCFAGB player_info = 10;</code>
        * @return The playerInfo.
        */
-      public emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB getPlayerInfo() {
+      public emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB getPlayerInfo() {
         if (playerInfoBuilder_ == null) {
-          return playerInfo_ == null ? emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB.getDefaultInstance() : playerInfo_;
+          return playerInfo_ == null ? emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB.getDefaultInstance() : playerInfo_;
         } else {
           return playerInfoBuilder_.getMessage();
         }
@@ -496,7 +496,7 @@ public final class KICICFICMIKOuterClass {
       /**
        * <code>._CooperateChallengeInfo.AOHPPMCFAGB player_info = 10;</code>
        */
-      public Builder setPlayerInfo(emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB value) {
+      public Builder setPlayerInfo(emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB value) {
         if (playerInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -513,7 +513,7 @@ public final class KICICFICMIKOuterClass {
        * <code>._CooperateChallengeInfo.AOHPPMCFAGB player_info = 10;</code>
        */
       public Builder setPlayerInfo(
-          emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB.Builder builderForValue) {
+          emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB.Builder builderForValue) {
         if (playerInfoBuilder_ == null) {
           playerInfo_ = builderForValue.build();
           onChanged();
@@ -526,11 +526,11 @@ public final class KICICFICMIKOuterClass {
       /**
        * <code>._CooperateChallengeInfo.AOHPPMCFAGB player_info = 10;</code>
        */
-      public Builder mergePlayerInfo(emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB value) {
+      public Builder mergePlayerInfo(emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB value) {
         if (playerInfoBuilder_ == null) {
           if (playerInfo_ != null) {
             playerInfo_ =
-              emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB.newBuilder(playerInfo_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB.newBuilder(playerInfo_).mergeFrom(value).buildPartial();
           } else {
             playerInfo_ = value;
           }
@@ -558,7 +558,7 @@ public final class KICICFICMIKOuterClass {
       /**
        * <code>._CooperateChallengeInfo.AOHPPMCFAGB player_info = 10;</code>
        */
-      public emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB.Builder getPlayerInfoBuilder() {
+      public emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB.Builder getPlayerInfoBuilder() {
         
         onChanged();
         return getPlayerInfoFieldBuilder().getBuilder();
@@ -566,23 +566,23 @@ public final class KICICFICMIKOuterClass {
       /**
        * <code>._CooperateChallengeInfo.AOHPPMCFAGB player_info = 10;</code>
        */
-      public emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGBOrBuilder getPlayerInfoOrBuilder() {
+      public emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGBOrBuilder getPlayerInfoOrBuilder() {
         if (playerInfoBuilder_ != null) {
           return playerInfoBuilder_.getMessageOrBuilder();
         } else {
           return playerInfo_ == null ?
-              emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB.getDefaultInstance() : playerInfo_;
+              emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB.getDefaultInstance() : playerInfo_;
         }
       }
       /**
        * <code>._CooperateChallengeInfo.AOHPPMCFAGB player_info = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB, emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB.Builder, emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGBOrBuilder> 
+          emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB, emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB.Builder, emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGBOrBuilder> 
           getPlayerInfoFieldBuilder() {
         if (playerInfoBuilder_ == null) {
           playerInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB, emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGB.Builder, emu.grasscutter.net.proto.CooperateChallengeInfo._CooperateChallengeInfo.AOHPPMCFAGBOrBuilder>(
+              emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB, emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGB.Builder, emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass._CooperateChallengeInfo.AOHPPMCFAGBOrBuilder>(
                   getPlayerInfo(),
                   getParentForChildren(),
                   isClean());
@@ -660,13 +660,13 @@ public final class KICICFICMIKOuterClass {
       "\n\021KICICFICMIK.proto\032\035_CooperateChallenge" +
       "Info.proto\"H\n\013KICICFICMIK\0229\n\013player_info" +
       "\030\n \001(\0132$._CooperateChallengeInfo.AOHPPMC" +
-      "FAGBB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "FAGBB2\n\031emu.grasscutter.net.protoB\025KICIC" +
+      "FICMIKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.CooperateChallengeInfo.getDescriptor(),
+          emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass.getDescriptor(),
         });
     internal_static_KICICFICMIK_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -674,7 +674,7 @@ public final class KICICFICMIKOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_KICICFICMIK_descriptor,
         new java.lang.String[] { "PlayerInfo", });
-    emu.grasscutter.net.proto.CooperateChallengeInfo.getDescriptor();
+    emu.grasscutter.net.proto._CooperateChallengeInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

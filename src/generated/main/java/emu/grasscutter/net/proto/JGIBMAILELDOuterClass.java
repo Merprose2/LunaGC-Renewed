@@ -525,8 +525,8 @@ public final class JGIBMAILELDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JGIBMAILELD.proto\"\036\n\013JGIBMAILELD\022\017\n\007it" +
-      "em_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "em_id\030\016 \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "B\025JGIBMAILELDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

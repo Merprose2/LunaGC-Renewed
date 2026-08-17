@@ -966,7 +966,8 @@ public final class SalvageStageInfoOuterClass {
       "geInfo.proto\"i\n\020SalvageStageInfo\022\017\n\007is_o" +
       "pen\030\010 \001(\010\0222\n\023challenge_info_list\030\t \003(\0132\025" +
       ".SalvageChallengeInfo\022\020\n\010stage_id\030\017 \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "7\n\031emu.grasscutter.net.protoB\032SalvageSta" +
+      "geInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

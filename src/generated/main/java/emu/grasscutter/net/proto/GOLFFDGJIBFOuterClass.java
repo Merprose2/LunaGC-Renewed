@@ -133,8 +133,9 @@ public final class GOLFFDGJIBFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GOLFFDGJIBF.proto*V\n\013GOLFFDGJIBF\022\024\n\020GO" +
       "LFFDGJIBF_NONE\020\000\0221\n-GOLFFDGJIBF_MODIFY_A" +
-      "TTACK_TAG_LIST_VALUE_TYPE\020\001B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "TTACK_TAG_LIST_VALUE_TYPE\020\001B2\n\031emu.grass" +
+      "cutter.net.protoB\025GOLFFDGJIBFOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

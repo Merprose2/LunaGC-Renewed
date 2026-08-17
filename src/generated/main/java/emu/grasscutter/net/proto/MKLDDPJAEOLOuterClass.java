@@ -730,8 +730,9 @@ public final class MKLDDPJAEOLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MKLDDPJAEOL.proto\"W\n\013MKLDDPJAEOL\022\022\n\nbe" +
       "st_score\030\002 \001(\r\022\020\n\010level_id\030\004 \001(\r\022\021\n\tis_f" +
-      "inish\030\n \001(\010\022\017\n\007is_open\030\014 \001(\010B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "inish\030\n \001(\010\022\017\n\007is_open\030\014 \001(\010B2\n\031emu.gras" +
+      "scutter.net.protoB\025MKLDDPJAEOLOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

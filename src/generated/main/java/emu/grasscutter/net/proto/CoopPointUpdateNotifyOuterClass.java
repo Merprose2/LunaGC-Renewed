@@ -659,8 +659,9 @@ public final class CoopPointUpdateNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033CoopPointUpdateNotify.proto\032\017CoopPoint" +
       ".proto\"7\n\025CoopPointUpdateNotify\022\036\n\ncoop_" +
-      "point\030\t \001(\0132\n.CoopPointB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "point\030\t \001(\0132\n.CoopPointB<\n\031emu.grasscutt" +
+      "er.net.protoB\037CoopPointUpdateNotifyOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -731,7 +731,8 @@ public final class BuoyantCombatSettleNotifyOuterClass {
       "ntCombatSettleInfo.proto\"^\n\031BuoyantComba" +
       "tSettleNotify\022-\n\013settle_info\030\005 \001(\0132\030.Buo" +
       "yantCombatSettleInfo\022\022\n\ngallery_id\030\013 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B@\n\031emu.grasscutter.net.protoB#BuoyantCo" +
+      "mbatSettleNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

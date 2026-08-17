@@ -832,8 +832,9 @@ public final class ScenePlayBattleInfoListNotifyOuterClass {
       "\n#ScenePlayBattleInfoListNotify.proto\032\031S" +
       "cenePlayBattleInfo.proto\"O\n\035ScenePlayBat" +
       "tleInfoListNotify\022.\n\020battle_info_list\030\014 " +
-      "\003(\0132\024.ScenePlayBattleInfoB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\003(\0132\024.ScenePlayBattleInfoBD\n\031emu.grasscu" +
+      "tter.net.protoB\'ScenePlayBattleInfoListN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

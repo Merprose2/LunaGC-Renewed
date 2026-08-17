@@ -855,8 +855,9 @@ public final class CCMNMEHLIGJOuterClass {
       "\n\021CCMNMEHLIGJ.proto\032\021EBADNHGKAAP.proto\032\021" +
       "OGPDMKPJBFL.proto\"S\n\013CCMNMEHLIGJ\022!\n\013NNPI" +
       "CFKGJAD\030\001 \001(\0132\014.EBADNHGKAAP\022!\n\013HIJEGAFPG" +
-      "BK\030\003 \001(\0132\014.OGPDMKPJBFLB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "BK\030\003 \001(\0132\014.OGPDMKPJBFLB2\n\031emu.grasscutte" +
+      "r.net.protoB\025CCMNMEHLIGJOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

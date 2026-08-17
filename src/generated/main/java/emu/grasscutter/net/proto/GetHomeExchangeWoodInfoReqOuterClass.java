@@ -455,8 +455,9 @@ public final class GetHomeExchangeWoodInfoReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n GetHomeExchangeWoodInfoReq.proto\"\034\n\032Ge" +
-      "tHomeExchangeWoodInfoReqB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "tHomeExchangeWoodInfoReqBA\n\031emu.grasscut" +
+      "ter.net.protoB$GetHomeExchangeWoodInfoRe" +
+      "qOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

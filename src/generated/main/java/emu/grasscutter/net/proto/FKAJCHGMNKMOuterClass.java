@@ -730,7 +730,8 @@ public final class FKAJCHGMNKMOuterClass {
       "\n\021FKAJCHGMNKM.proto\032\033HomeBlueprintSlotIn" +
       "fo.proto\"I\n\013FKAJCHGMNKM\022)\n\tslot_info\030\014 \001" +
       "(\0132\026.HomeBlueprintSlotInfo\022\017\n\007retcode\030\r " +
-      "\001(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\005B2\n\031emu.grasscutter.net.protoB\025FKAJCH" +
+      "GMNKMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

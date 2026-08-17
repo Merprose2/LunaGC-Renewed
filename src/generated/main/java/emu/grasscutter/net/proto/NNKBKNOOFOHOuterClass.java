@@ -152,8 +152,8 @@ public final class NNKBKNOOFOHOuterClass {
       "\n\021NNKBKNOOFOH.proto*h\n\013NNKBKNOOFOH\022\024\n\020NN" +
       "KBKNOOFOH_NONE\020\000\022\024\n\020NNKBKNOOFOH_MISS\020\001\022\024" +
       "\n\020NNKBKNOOFOH_GOOD\020\002\022\027\n\023NNKBKNOOFOH_PERF" +
-      "ECT\020\003B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "ECT\020\003B2\n\031emu.grasscutter.net.protoB\025NNKB" +
+      "KNOOFOHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

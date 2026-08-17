@@ -1071,8 +1071,9 @@ public final class AiSkillCdInfoOuterClass {
       "\0132#.AiSkillCdInfo.SkillGroupCdMapEntry\0321" +
       "\n\017SkillCdMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030" +
       "\002 \001(\r:\0028\001\0326\n\024SkillGroupCdMapEntry\022\013\n\003key" +
-      "\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B4\n\031emu.grasscu" +
+      "tter.net.protoB\027AiSkillCdInfoOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

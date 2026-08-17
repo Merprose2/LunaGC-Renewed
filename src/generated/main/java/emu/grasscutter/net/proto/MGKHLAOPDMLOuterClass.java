@@ -597,8 +597,8 @@ public final class MGKHLAOPDMLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MGKHLAOPDML.proto\"\"\n\013MGKHLAOPDML\022\023\n\013BA" +
-      "KGGFOJKNA\030\t \001(\tB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "KGGFOJKNA\030\t \001(\tB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025MGKHLAOPDMLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1154,8 +1154,8 @@ public final class JJKLMLAMDJOOuterClass {
       "AIDBMEOLNM\030\002 \001(\t\022\021\n\tconfig_id\030\003 \001(\r\022\023\n\013A" +
       "ENPIDPILAB\030\004 \001(\r\022\023\n\013IPFBNDPBJMB\030\005 \001(\r\022\023\n" +
       "\013DKFKKAPOECB\030\006 \001(\r\022!\n\013FHPGHEEEFOK\030\025 \001(\0132" +
-      "\014.IBBBCHHJLOAB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\014.IBBBCHHJLOAB2\n\031emu.grasscutter.net.pro" +
+      "toB\025JJKLMLAMDJOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

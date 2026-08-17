@@ -1086,8 +1086,9 @@ public final class ONPEFEFCEGEOuterClass {
       "\001\n\013ONPEFEFCEGE\022\023\n\013PBEMNOKOBGF\030\001 \001(\010\022\023\n\013J" +
       "MJIDPBBGEA\030\002 \001(\t\022\034\n\006offset\030\003 \001(\0132\014.HHEDH" +
       "CFPEKM\022\023\n\013EKNOCDAOCOO\030\004 \001(\r\022\023\n\013BCFAMMOAL" +
-      "OB\030\006 \001(\010\022\023\n\013JPDHFDCOILK\030\007 \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "OB\030\006 \001(\010\022\023\n\013JPDHFDCOILK\030\007 \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025ONPEFEFCEGEOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

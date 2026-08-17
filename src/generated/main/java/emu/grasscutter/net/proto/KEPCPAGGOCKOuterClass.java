@@ -1836,8 +1836,8 @@ public final class KEPCPAGGOCKOuterClass {
       "\023\n\013DHOCIPILOIG\030\007 \001(\010\022\023\n\013OLPAHFAPNPI\030\010 \001(" +
       "\010\022\023\n\013JGDOJGPKOAO\030\t \001(\010\022!\n\013JNNKDICOAFB\030\n " +
       "\003(\0132\014.CGMAHMCGCEB\022!\n\013GCBODNAIIFK\030\013 \003(\0132\014" +
-      ".BOLMKBDMCIFB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      ".BOLMKBDMCIFB2\n\031emu.grasscutter.net.prot" +
+      "oB\025KEPCPAGGOCKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

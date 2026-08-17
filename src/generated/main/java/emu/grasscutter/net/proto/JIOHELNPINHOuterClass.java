@@ -738,8 +738,9 @@ public final class JIOHELNPINHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JIOHELNPINH.proto\"^\n\013JIOHELNPINH\022\023\n\013EP" +
       "HGOMPBKJA\030\t \001(\r\022\023\n\013_beatmap_id\030\r \001(\r\022\020\n\010" +
-      "ugc_guid\030\016 \001(\004\022\023\n\013BILLFFIPKOA\030\017 \001(\010B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "ugc_guid\030\016 \001(\004\022\023\n\013BILLFFIPKOA\030\017 \001(\010B2\n\031e" +
+      "mu.grasscutter.net.protoB\025JIOHELNPINHOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

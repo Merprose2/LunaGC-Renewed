@@ -1042,8 +1042,9 @@ public final class CJDOINDEMIAOuterClass {
       "\n\021CJDOINDEMIA.proto\032\021OKJCPMHJOIG.proto\"h" +
       "\n\013CJDOINDEMIA\022\020\n\010group_id\030\003 \001(\r\022\017\n\007retco" +
       "de\030\007 \001(\005\022!\n\013BIKNJPJPCBF\030\010 \003(\0132\014.OKJCPMHJ" +
-      "OIG\022\023\n\013GLCLEPCEDIJ\030\017 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "OIG\022\023\n\013GLCLEPCEDIJ\030\017 \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025CJDOINDEMIAOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

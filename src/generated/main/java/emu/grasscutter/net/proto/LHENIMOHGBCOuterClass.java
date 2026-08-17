@@ -1411,8 +1411,9 @@ public final class LHENIMOHGBCOuterClass {
       "\001\n\013LHENIMOHGBC\022\023\n\013LJMDCAFMDNL\030\002 \001(\004\022!\n\013O" +
       "GMFGPGIEAH\030\005 \003(\0132\014.NCIKGAEMDGJ\022\023\n\013GALMJG" +
       "POCOD\030\t \001(\004\022!\n\013IKHPKLIAIIF\030\014 \003(\0132\014.NCIKG" +
-      "AEMDGJ\022\023\n\013KLOMFIGJINI\030\r \001(\002B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "AEMDGJ\022\023\n\013KLOMFIGJINI\030\r \001(\002B2\n\031emu.grass" +
+      "cutter.net.protoB\025LHENIMOHGBCOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -729,8 +729,9 @@ public final class ANNOIHMJKMGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ANNOIHMJKMG.proto\032\021FriendBrief.proto\"I" +
       "\n\013ANNOIHMJKMG\022\017\n\007retcode\030\004 \001(\005\022)\n\023target" +
-      "_friend_brief\030\016 \001(\0132\014.FriendBriefB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "_friend_brief\030\016 \001(\0132\014.FriendBriefB2\n\031emu" +
+      ".grasscutter.net.protoB\025ANNOIHMJKMGOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

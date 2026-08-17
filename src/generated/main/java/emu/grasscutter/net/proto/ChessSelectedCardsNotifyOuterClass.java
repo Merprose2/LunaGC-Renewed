@@ -832,8 +832,9 @@ public final class ChessSelectedCardsNotifyOuterClass {
       "\n\036ChessSelectedCardsNotify.proto\032\023ChessC" +
       "ardInfo.proto\"K\n\030ChessSelectedCardsNotif" +
       "y\022/\n\027selected_card_info_list\030\n \003(\0132\016.Che" +
-      "ssCardInfoB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "ssCardInfoB?\n\031emu.grasscutter.net.protoB" +
+      "\"ChessSelectedCardsNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

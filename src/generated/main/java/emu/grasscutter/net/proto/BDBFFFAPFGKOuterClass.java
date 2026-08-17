@@ -730,8 +730,8 @@ public final class BDBFFFAPFGKOuterClass {
       "\n\021BDBFFFAPFGK.proto\032\027FurnitureMakeSlot.p" +
       "roto\"O\n\013BDBFFFAPFGK\022\017\n\007retcode\030\006 \001(\005\022/\n\023" +
       "furniture_make_slot\030\r \001(\0132\022.FurnitureMak" +
-      "eSlotB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "eSlotB2\n\031emu.grasscutter.net.protoB\025BDBF" +
+      "FFAPFGKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

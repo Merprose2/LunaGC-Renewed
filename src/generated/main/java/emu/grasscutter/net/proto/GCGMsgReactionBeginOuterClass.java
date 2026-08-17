@@ -588,8 +588,8 @@ public final class GCGMsgReactionBeginOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031GCGMsgReactionBegin.proto\":\n\023GCGMsgRea" +
       "ctionBegin\022\021\n\tcard_guid\030\005 \001(\r\022\020\n\010skill_i" +
-      "d\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "d\030\017 \001(\rB:\n\031emu.grasscutter.net.protoB\035GC" +
+      "GMsgReactionBeginOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

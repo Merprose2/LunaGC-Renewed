@@ -972,8 +972,8 @@ public final class NNEAGPPHJKOOuterClass {
       "\n\021NNEAGPPHJKO.proto\032\021AJDONFHDOGD.proto\"V" +
       "\n\013NNEAGPPHJKO\022\023\n\013schedule_id\030\010 \001(\r\022\017\n\007re" +
       "tcode\030\r \001(\005\022!\n\013JODDHGCKANA\030\016 \003(\0132\014.AJDON" +
-      "FHDOGDB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "FHDOGDB2\n\031emu.grasscutter.net.protoB\025NNE" +
+      "AGPPHJKOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

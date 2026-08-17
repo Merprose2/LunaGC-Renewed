@@ -1910,8 +1910,8 @@ public final class ALDDFLPFBODOuterClass {
       "AGLILPF\030\376\003 \001(\0132\014.ELCEHBGKMMJ\022\024\n\013BNLJDBOH" +
       "BAO\030\377\003 \001(\005\022\024\n\013LPACNPFDLML\030\200\004 \001(\005\022\024\n\013NMFH" +
       "OPKPNJO\030\201\004 \001(\010\022\024\n\013DHHBPBCFFJN\030\202\004 \001(\005\022\024\n\013" +
-      "BAFCCNGGKLK\030\203\004 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "BAFCCNGGKLK\030\203\004 \001(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025ALDDFLPFBODOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

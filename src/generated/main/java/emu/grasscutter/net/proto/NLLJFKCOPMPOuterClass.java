@@ -2672,8 +2672,8 @@ public final class NLLJFKCOPMPOuterClass {
       "(\r\022!\n\013ENPAGBJLMGD\030\021 \001(\0162\014.PCEFGOJBBHO\022\023\n" +
       "\013PGHGCGNLNPG\030\022 \001(\r\022!\n\013EOKMKCHJOFB\030\023 \001(\0132" +
       "\014.GNEJDEIEDIF\022\023\n\013LCNLDPHIKEH\030\024 \001(\010\022\023\n\013ML" +
-      "GKHNPCOIB\030\025 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "GKHNPCOIB\030\025 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025NLLJFKCOPMPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

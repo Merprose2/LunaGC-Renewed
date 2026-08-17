@@ -659,8 +659,8 @@ public final class LAPLMEPMGLJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LAPLMEPMGLJ.proto\"B\n\013LAPLMEPMGLJ\022\022\n\nco" +
       "stume_id\030\001 \001(\r\022\021\n\tavatar_id\030\003 \001(\r\022\014\n\004gui" +
-      "d\030\016 \001(\004B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "d\030\016 \001(\004B2\n\031emu.grasscutter.net.protoB\025LA" +
+      "PLMEPMGLJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

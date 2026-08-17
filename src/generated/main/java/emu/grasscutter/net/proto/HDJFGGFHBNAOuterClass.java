@@ -525,8 +525,9 @@ public final class HDJFGGFHBNAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HDJFGGFHBNA.proto\")\n\013HDJFGGFHBNA\022\032\n\022pr" +
-      "ofile_picture_id\030\016 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "ofile_picture_id\030\016 \001(\rB2\n\031emu.grasscutte" +
+      "r.net.protoB\025HDJFGGFHBNAOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

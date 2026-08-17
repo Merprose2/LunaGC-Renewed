@@ -999,8 +999,9 @@ public final class OIJGGGBPBPFOuterClass {
       "\n\021OIJGGGBPBPF.proto\032\021HHEDHCFPEKM.proto\"n" +
       "\n\013OIJGGGBPBPF\022\034\n\006center\030\001 \001(\0132\014.HHEDHCFP" +
       "EKM\022\016\n\006radius\030\002 \001(\002\022\016\n\006height\030\003 \001(\002\022!\n\013G" +
-      "MAIIGHLLLB\030\004 \001(\0132\014.HHEDHCFPEKMB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "MAIIGHLLLB\030\004 \001(\0132\014.HHEDHCFPEKMB2\n\031emu.gr" +
+      "asscutter.net.protoB\025OIJGGGBPBPFOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

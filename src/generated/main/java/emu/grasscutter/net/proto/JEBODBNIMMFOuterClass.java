@@ -661,8 +661,8 @@ public final class JEBODBNIMMFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JEBODBNIMMF.proto\"L\n\013JEBODBNIMMF\022\023\n\013BF" +
       "GIGIHLBCP\030\001 \001(\010\022\023\n\013INFJKHLGOLK\030\002 \001(\002\022\023\n\013" +
-      "ODACFHPCKOH\030\003 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "ODACFHPCKOH\030\003 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025JEBODBNIMMFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

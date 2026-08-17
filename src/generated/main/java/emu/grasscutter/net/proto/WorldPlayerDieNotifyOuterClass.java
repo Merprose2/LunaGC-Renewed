@@ -1260,7 +1260,8 @@ public final class WorldPlayerDieNotifyOuterClass {
       "String\022\023\n\013OBOKABMLGHI\030\010 \001(\r\022\024\n\nmonster_i" +
       "d\030\t \001(\rH\000\022\023\n\tgadget_id\030\016 \001(\rH\000\022\023\n\013AOMDIH" +
       "GJMNK\030\013 \001(\r\022\023\n\013LEPFNEDLDML\030\014 \001(\rB\010\n\006enti" +
-      "tyB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "tyB;\n\031emu.grasscutter.net.protoB\036WorldPl" +
+      "ayerDieNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

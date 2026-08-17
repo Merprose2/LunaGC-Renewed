@@ -525,8 +525,9 @@ public final class FishChosenNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026FishChosenNotify.proto\"#\n\020FishChosenNo" +
-      "tify\022\017\n\007fish_id\030\014 \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "tify\022\017\n\007fish_id\030\014 \001(\rB7\n\031emu.grasscutter" +
+      ".net.protoB\032FishChosenNotifyOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

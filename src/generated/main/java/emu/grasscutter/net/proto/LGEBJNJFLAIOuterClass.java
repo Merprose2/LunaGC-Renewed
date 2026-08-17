@@ -747,8 +747,8 @@ public final class LGEBJNJFLAIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LGEBJNJFLAI.proto\"F\n\013LGEBJNJFLAI\022\r\n\005pa" +
       "ram\030\n \001(\r\022\023\n\013transaction\030\r \001(\t\022\023\n\013DPIJFL" +
-      "BNPGP\030\017 \001(\010B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "BNPGP\030\017 \001(\010B2\n\031emu.grasscutter.net.proto" +
+      "B\025LGEBJNJFLAIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

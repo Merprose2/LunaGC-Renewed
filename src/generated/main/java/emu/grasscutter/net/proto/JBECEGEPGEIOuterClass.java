@@ -738,7 +738,8 @@ public final class JBECEGEPGEIOuterClass {
       "\n\021JBECEGEPGEI.proto\"d\n\013JBECEGEPGEI\022\032\n\022pr" +
       "ofile_picture_id\030\002 \001(\r\022\017\n\007retcode\030\007 \001(\005\022" +
       "\023\n\013IONIJPDDJJG\030\t \001(\r\022\023\n\013OGAGBJGPONB\030\n \001(" +
-      "\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\010B2\n\031emu.grasscutter.net.protoB\025JBECEGEP" +
+      "GEIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -659,8 +659,8 @@ public final class CACBAHGEMFIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CACBAHGEMFI.proto\"J\n\013CACBAHGEMFI\022\023\n\013HD" +
       "HKALPDIPA\030\001 \001(\r\022\021\n\titem_guid\030\002 \001(\r\022\023\n\013JJ" +
-      "HFDFDDPAM\030\003 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "HFDFDDPAM\030\003 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025CACBAHGEMFIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

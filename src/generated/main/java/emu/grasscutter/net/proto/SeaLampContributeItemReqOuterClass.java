@@ -526,7 +526,8 @@ public final class SeaLampContributeItemReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036SeaLampContributeItemReq.proto\"/\n\030SeaL" +
       "ampContributeItemReq\022\023\n\013activity_id\030\r \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB?\n\031emu.grasscutter.net.protoB\"SeaLampC" +
+      "ontributeItemReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

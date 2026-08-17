@@ -855,8 +855,9 @@ public final class IGMCBGMACEJOuterClass {
       "\n\021IGMCBGMACEJ.proto\032\021NAMGKHFEHIA.proto\032\021" +
       "NCEPICHGNNH.proto\"U\n\013IGMCBGMACEJ\022\"\n\013JMKH" +
       "DDLKDBL\030\365\003 \001(\0132\014.NCEPICHGNNH\022\"\n\013PIGGDMDE" +
-      "KBO\030\366\003 \001(\0132\014.NAMGKHFEHIAB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "KBO\030\366\003 \001(\0132\014.NAMGKHFEHIAB2\n\031emu.grasscut" +
+      "ter.net.protoB\025IGMCBGMACEJOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -181,8 +181,9 @@ public final class HEJCCHPAKDKOuterClass {
       "PONENT\020\001\022 \n\034HEJCCHPAKDK_REMOVE_COMPONENT" +
       "\020\002\022\034\n\030HEJCCHPAKDK_MODIFY_PARAM\020\003\022\031\n\025HEJC" +
       "CHPAKDK_ADD_PARAM\020\004\022\034\n\030HEJCCHPAKDK_REMOV" +
-      "E_PARAM\020\005\022\033\n\027HEJCCHPAKDK_RESET_PARAM\020\006B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "E_PARAM\020\005\022\033\n\027HEJCCHPAKDK_RESET_PARAM\020\006B2" +
+      "\n\031emu.grasscutter.net.protoB\025HEJCCHPAKDK" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

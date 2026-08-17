@@ -1718,8 +1718,9 @@ public final class EvtFixedRushMoveOuterClass {
       "ed\030\007 \001(\002\022\023\n\013EFMEEJKFOHA\030\t \001(\002\022\031\n\021overrid" +
       "e_collider\030\n \001(\t\022\023\n\013IPPBLMAJIOP\030\013 \001(\010\022\021\n" +
       "\tentity_id\030\r \001(\r\022\023\n\013OCDAGLCLPFJ\030\016 \001(\002\022\036\n" +
-      "\026animator_state_id_list\030\017 \003(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\026animator_state_id_list\030\017 \003(\rB7\n\031emu.gra" +
+      "sscutter.net.protoB\032EvtFixedRushMoveOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

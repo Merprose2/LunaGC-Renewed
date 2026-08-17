@@ -940,8 +940,8 @@ public final class BuildingInfoOuterClass {
       "\013building_id\030\001 \001(\r\022\027\n\017point_config_id\030\002 " +
       "\001(\r\022\014\n\004cost\030\003 \001(\r\022\016\n\006refund\030\005 \001(\r\022\021\n\town" +
       "er_uid\030\006 \001(\r\022\023\n\013current_num\030\007 \001(\r\022\017\n\007max" +
-      "_num\030\010 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "_num\030\010 \001(\rB3\n\031emu.grasscutter.net.protoB" +
+      "\026BuildingInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -995,8 +995,9 @@ public final class HomeNpcDataOuterClass {
       "\n\021HomeNpcData.proto\032\014Vector.proto\"l\n\013Hom" +
       "eNpcData\022\032\n\tspawn_pos\030\003 \001(\0132\007.Vector\022\032\n\t" +
       "spawn_rot\030\004 \001(\0132\007.Vector\022\021\n\tavatar_id\030\005 " +
-      "\001(\r\022\022\n\ncostume_id\030\n \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\001(\r\022\022\n\ncostume_id\030\n \001(\rB2\n\031emu.grasscutt" +
+      "er.net.protoB\025HomeNpcDataOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

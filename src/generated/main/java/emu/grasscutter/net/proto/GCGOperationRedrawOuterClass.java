@@ -644,8 +644,9 @@ public final class GCGOperationRedrawOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030GCGOperationRedraw.proto\"\'\n\022GCGOperati" +
-      "onRedraw\022\021\n\tcard_list\030\013 \003(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "onRedraw\022\021\n\tcard_list\030\013 \003(\rB9\n\031emu.grass" +
+      "cutter.net.protoB\034GCGOperationRedrawOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

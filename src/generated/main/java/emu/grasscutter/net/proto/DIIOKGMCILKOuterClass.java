@@ -596,7 +596,8 @@ public final class DIIOKGMCILKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DIIOKGMCILK.proto\";\n\013DIIOKGMCILK\022\027\n\017pa" +
       "rent_quest_id\030\007 \001(\r\022\023\n\013IGMMOECLONN\030\r \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025DIIOKGMCI" +
+      "LKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

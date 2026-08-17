@@ -736,8 +736,8 @@ public final class DJFGCELLGFOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DJFGCELLGFO.proto\"@\n\013DJFGCELLGFO\022\t\n\001y\030" +
       "\001 \001(\005\022\t\n\001x\030\010 \001(\005\022\013\n\003rot\030\014 \001(\005\022\016\n\006height\030" +
-      "\r \001(\005B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\r \001(\005B2\n\031emu.grasscutter.net.protoB\025DJFG" +
+      "CELLGFOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

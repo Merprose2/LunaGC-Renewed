@@ -893,8 +893,8 @@ public final class HNCDMCCCMDKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HNCDMCCCMDK.proto\032\021HIPEHHOOPJC.proto\"<" +
       "\n\013HNCDMCCCMDK\022\n\n\002id\030\001 \001(\005\022!\n\013NPOPFHMOIIK" +
-      "\030\002 \003(\0132\014.HIPEHHOOPJCB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\030\002 \003(\0132\014.HIPEHHOOPJCB2\n\031emu.grasscutter." +
+      "net.protoB\025HNCDMCCCMDKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

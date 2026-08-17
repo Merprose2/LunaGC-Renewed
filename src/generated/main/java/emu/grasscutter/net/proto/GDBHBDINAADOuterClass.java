@@ -595,8 +595,9 @@ public final class GDBHBDINAADOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GDBHBDINAAD.proto\"1\n\013GDBHBDINAAD\022\017\n\007re" +
-      "tcode\030\002 \001(\005\022\021\n\tentity_id\030\006 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "tcode\030\002 \001(\005\022\021\n\tentity_id\030\006 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025GDBHBDINAADOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -525,8 +525,8 @@ public final class PPLKPIHODOCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PPLKPIHODOC.proto\"\"\n\013PPLKPIHODOC\022\023\n\013OA" +
-      "ANLDJPCOP\030\t \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "ANLDJPCOP\030\t \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025PPLKPIHODOCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

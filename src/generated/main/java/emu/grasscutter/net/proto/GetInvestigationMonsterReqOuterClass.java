@@ -724,8 +724,9 @@ public final class GetInvestigationMonsterReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n GetInvestigationMonsterReq.proto\"G\n\032Ge" +
       "tInvestigationMonsterReq\022\024\n\014city_id_list" +
-      "\030\001 \003(\r\022\023\n\013is_for_mark\030\t \001(\010B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\030\001 \003(\r\022\023\n\013is_for_mark\030\t \001(\010BA\n\031emu.grass" +
+      "cutter.net.protoB$GetInvestigationMonste" +
+      "rReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

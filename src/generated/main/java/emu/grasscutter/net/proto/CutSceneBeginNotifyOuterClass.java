@@ -974,8 +974,8 @@ public final class CutSceneBeginNotifyOuterClass {
       "raParam.proto\"q\n\023CutSceneBeginNotify\022\026\n\016" +
       "is_wait_others\030\005 \001(\010\022-\n\020extra_param_list" +
       "\030\n \003(\0132\023.CutSceneExtraParam\022\023\n\013cutscene_" +
-      "id\030\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\013 \001(\rB:\n\031emu.grasscutter.net.protoB\035C" +
+      "utSceneBeginNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

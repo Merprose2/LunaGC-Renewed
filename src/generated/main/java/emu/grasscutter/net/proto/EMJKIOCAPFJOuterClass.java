@@ -595,8 +595,9 @@ public final class EMJKIOCAPFJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EMJKIOCAPFJ.proto\"4\n\013EMJKIOCAPFJ\022\020\n\010gr" +
-      "oup_id\030\003 \001(\r\022\023\n\013schedule_id\030\r \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "oup_id\030\003 \001(\r\022\023\n\013schedule_id\030\r \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025EMJKIOCAPFJOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

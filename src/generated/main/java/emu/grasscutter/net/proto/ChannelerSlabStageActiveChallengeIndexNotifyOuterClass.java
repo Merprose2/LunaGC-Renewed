@@ -668,8 +668,9 @@ public final class ChannelerSlabStageActiveChallengeIndexNotifyOuterClass {
       "Notify.proto\"t\n,ChannelerSlabStageActive" +
       "ChallengeIndexNotify\022\020\n\010stage_id\030\001 \001(\r\022\031" +
       "\n\021active_camp_index\030\003 \001(\r\022\027\n\017challenge_i" +
-      "ndex\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "ndex\030\014 \001(\rBS\n\031emu.grasscutter.net.protoB" +
+      "6ChannelerSlabStageActiveChallengeIndexN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

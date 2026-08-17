@@ -626,7 +626,8 @@ public final class GCGMsgGameOverOuterClass {
       "\n\024GCGMsgGameOver.proto\032\022GCGEndReason.pro" +
       "to\"N\n\016GCGMsgGameOver\022!\n\nend_reason\030\005 \001(\016" +
       "2\r.GCGEndReason\022\031\n\021win_controller_id\030\r \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB5\n\031emu.grasscutter.net.protoB\030GCGMsgG" +
+      "ameOverOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

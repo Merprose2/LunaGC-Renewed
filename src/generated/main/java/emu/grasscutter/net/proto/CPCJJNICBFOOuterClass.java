@@ -596,8 +596,9 @@ public final class CPCJJNICBFOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CPCJJNICBFO.proto\",\n\013CPCJJNICBFO\022\017\n\007re" +
-      "tcode\030\004 \001(\005\022\014\n\004guid\030\014 \001(\004B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "tcode\030\004 \001(\005\022\014\n\004guid\030\014 \001(\004B2\n\031emu.grasscu" +
+      "tter.net.protoB\025CPCJJNICBFOOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

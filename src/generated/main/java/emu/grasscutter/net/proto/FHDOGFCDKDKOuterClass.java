@@ -2852,8 +2852,8 @@ public final class FHDOGFCDKDKOuterClass {
       "(\0132\014.OLNDJCHOPMC\022\023\n\013finish_time\030\013 \001(\r\022 \n" +
       "\013AABFCMMGMKE\030\014 \003(\0132\013.Uint32Pair\022\023\n\013HBCLK" +
       "ADPLED\030\r \001(\r\022\026\n\016_xbox_gamertag\030\016 \001(\t\022\021\n\t" +
-      "online_id\030\017 \001(\tB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "online_id\030\017 \001(\tB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025FHDOGFCDKDKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

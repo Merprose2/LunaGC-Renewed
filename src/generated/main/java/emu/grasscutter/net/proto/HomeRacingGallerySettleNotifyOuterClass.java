@@ -873,8 +873,9 @@ public final class HomeRacingGallerySettleNotifyOuterClass {
       "ingGallerySettleNotify\022\014\n\004rank\030\005 \001(\r\022-\n\013" +
       "settle_info\030\007 \001(\0132\030.RacingGallerySettleI" +
       "nfo\022\022\n\ngallery_id\030\014 \001(\r\022\025\n\ris_new_record" +
-      "\030\016 \001(\010B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\016 \001(\010BD\n\031emu.grasscutter.net.protoB\'Hom" +
+      "eRacingGallerySettleNotifyOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

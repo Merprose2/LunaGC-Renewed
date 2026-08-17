@@ -9345,8 +9345,9 @@ public final class AGHALDDNKCOOuterClass {
       "OLONPEMCHHM\022!\n\013LMLPOINHANE\030. \001(\0132\014.AEMHH" +
       "EFEEAP\022!\n\013BLNCPBJNCCG\030/ \001(\0132\014.FJDEGEJOPE" +
       "L\022!\n\013FCAMECMJMFN\0300 \001(\0132\014.OOFMGLEEOPK\022!\n\013" +
-      "FIFMLHDALNF\0301 \001(\0132\014.MJMMJHHHNNEB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "FIFMLHDALNF\0301 \001(\0132\014.MJMMJHHHNNEB2\n\031emu.g" +
+      "rasscutter.net.protoB\025AGHALDDNKCOOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

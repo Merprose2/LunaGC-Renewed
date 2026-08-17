@@ -1034,8 +1034,9 @@ public final class LEEAPMKHDJKOuterClass {
       "\n\021LEEAPMKHDJK.proto\032\021EBPIBIFOEFF.proto\"o" +
       "\n\013LEEAPMKHDJK\022\023\n\013MEBODADIOBO\030\003 \001(\r\022\023\n\013OO" +
       "FPCLDDCCL\030\005 \001(\r\022\023\n\013HANJNFCBFCJ\030\t \001(\r\022!\n\013" +
-      "avatar_list\030\017 \003(\0132\014.EBPIBIFOEFFB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "avatar_list\030\017 \003(\0132\014.EBPIBIFOEFFB2\n\031emu.g" +
+      "rasscutter.net.protoB\025LEEAPMKHDJKOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

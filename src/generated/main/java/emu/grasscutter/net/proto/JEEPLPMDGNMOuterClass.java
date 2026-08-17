@@ -446,8 +446,9 @@ public final class JEEPLPMDGNMOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021JEEPLPMDGNM.proto\"\r\n\013JEEPLPMDGNMB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021JEEPLPMDGNM.proto\"\r\n\013JEEPLPMDGNMB2\n\031em" +
+      "u.grasscutter.net.protoB\025JEEPLPMDGNMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

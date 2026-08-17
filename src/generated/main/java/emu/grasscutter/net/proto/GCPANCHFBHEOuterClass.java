@@ -634,8 +634,8 @@ public final class GCPANCHFBHEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GCPANCHFBHE.proto\032\rUgcType.proto\";\n\013GC" +
       "PANCHFBHE\022\032\n\010ugc_type\030\005 \001(\0162\010.UgcType\022\020\n" +
-      "\010ugc_guid\030\007 \001(\004B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\010ugc_guid\030\007 \001(\004B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025GCPANCHFBHEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

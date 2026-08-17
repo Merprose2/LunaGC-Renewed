@@ -863,8 +863,9 @@ public final class HomeBalloonGalleryRecordOuterClass {
       "oupPlayerInfo.proto\"z\n\030HomeBalloonGaller" +
       "yRecord\022)\n\013player_info\030\001 \001(\0132\024.HomeGroup" +
       "PlayerInfo\022\021\n\ttimestamp\030\004 \001(\r\022\021\n\thit_cou" +
-      "nt\030\016 \001(\r\022\r\n\005score\030\017 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "nt\030\016 \001(\r\022\r\n\005score\030\017 \001(\rB?\n\031emu.grasscutt" +
+      "er.net.protoB\"HomeBalloonGalleryRecordOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

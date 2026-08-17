@@ -135,7 +135,8 @@ public final class GCGIntentionChangeTypeOuterClass {
       "tentionChangeType\0224\n0GCGIntentionChangeT" +
       "ype_GCG_INTENTION_CHANGE_NONE\020\000\0222\n.GCGIn" +
       "tentionChangeType_GCG_INTENTION_CHANGE_R" +
-      "M\020\001B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "M\020\001B=\n\031emu.grasscutter.net.protoB GCGInt" +
+      "entionChangeTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

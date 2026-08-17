@@ -525,8 +525,9 @@ public final class UnlockNameCardNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032UnlockNameCardNotify.proto\",\n\024UnlockNa" +
-      "meCardNotify\022\024\n\014name_card_id\030\007 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "meCardNotify\022\024\n\014name_card_id\030\007 \001(\rB;\n\031em" +
+      "u.grasscutter.net.protoB\036UnlockNameCardN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

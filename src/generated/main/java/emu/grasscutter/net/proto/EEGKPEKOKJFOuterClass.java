@@ -596,8 +596,9 @@ public final class EEGKPEKOKJFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EEGKPEKOKJF.proto\"0\n\013EEGKPEKOKJF\022\014\n\004gu" +
-      "id\030\007 \001(\004\022\023\n\013BFIFPLMKLNA\030\t \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "id\030\007 \001(\004\022\023\n\013BFIFPLMKLNA\030\t \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025EEGKPEKOKJFOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

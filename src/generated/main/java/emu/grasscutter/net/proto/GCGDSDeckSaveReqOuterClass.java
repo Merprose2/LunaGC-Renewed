@@ -1067,7 +1067,8 @@ public final class GCGDSDeckSaveReqOuterClass {
       "\n\026GCGDSDeckSaveReq.proto\"a\n\020GCGDSDeckSav" +
       "eReq\022\017\n\007deck_id\030\001 \001(\r\022\014\n\004name\030\005 \001(\t\022\021\n\tc" +
       "ard_list\030\t \003(\r\022\033\n\023character_card_list\030\n " +
-      "\003(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\003(\rB7\n\031emu.grasscutter.net.protoB\032GCGDSD" +
+      "eckSaveReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

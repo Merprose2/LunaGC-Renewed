@@ -769,8 +769,9 @@ public final class AvatarChangeCostumeNotifyOuterClass {
       "nfo.proto\"}\n\031AvatarChangeCostumeNotify\0229" +
       "\n\025costume_change_reason\030\005 \001(\0162\032.AvatarCh" +
       "angeCostumeReason\022%\n\013entity_info\030\n \001(\0132\020" +
-      ".SceneEntityInfoB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      ".SceneEntityInfoB@\n\031emu.grasscutter.net." +
+      "protoB#AvatarChangeCostumeNotifyOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

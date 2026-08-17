@@ -1813,8 +1813,9 @@ public final class HONMFADONBCOuterClass {
       "\nrequest_id\030\003 \001(\t\022&\n\004data\030\004 \001(\0132\030.HONMFA" +
       "DONBC.PMGONBLPIBH\022\023\n\013NGEDGDGBAID\030\005 \001(\014\022\023" +
       "\n\013NJKJHJEAKEJ\030\006 \001(\t\0327\n\013PMGONBLPIBH\022\023\n\013ML" +
-      "GMGNBLNJK\030\001 \001(\003\022\023\n\013EACJPJADLJI\030\002 \001(\003B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "GMGNBLNJK\030\001 \001(\003\022\023\n\013EACJPJADLJI\030\002 \001(\003B2\n\031" +
+      "emu.grasscutter.net.protoB\025HONMFADONBCOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -44,11 +44,11 @@ public final class KKILGCLBMCJOuterClass {
      * <code>._ExamInfo exam_info = 9;</code>
      * @return The examInfo.
      */
-    emu.grasscutter.net.proto.ExamInfo._ExamInfo getExamInfo();
+    emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo getExamInfo();
     /**
      * <code>._ExamInfo exam_info = 9;</code>
      */
-    emu.grasscutter.net.proto.ExamInfo._ExamInfoOrBuilder getExamInfoOrBuilder();
+    emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfoOrBuilder getExamInfoOrBuilder();
 
     /**
      * <code>._OrderInfo order_info = 12;</code>
@@ -59,11 +59,11 @@ public final class KKILGCLBMCJOuterClass {
      * <code>._OrderInfo order_info = 12;</code>
      * @return The orderInfo.
      */
-    emu.grasscutter.net.proto.OrderInfo._OrderInfo getOrderInfo();
+    emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo getOrderInfo();
     /**
      * <code>._OrderInfo order_info = 12;</code>
      */
-    emu.grasscutter.net.proto.OrderInfo._OrderInfoOrBuilder getOrderInfoOrBuilder();
+    emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfoOrBuilder getOrderInfoOrBuilder();
 
     public emu.grasscutter.net.proto.KKILGCLBMCJOuterClass.KKILGCLBMCJ.DetailCase getDetailCase();
   }
@@ -136,28 +136,28 @@ public final class KKILGCLBMCJOuterClass {
               break;
             }
             case 74: {
-              emu.grasscutter.net.proto.ExamInfo._ExamInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.Builder subBuilder = null;
               if (detailCase_ == 9) {
-                subBuilder = ((emu.grasscutter.net.proto.ExamInfo._ExamInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.ExamInfo._ExamInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ExamInfo._ExamInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 9;
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.OrderInfo._OrderInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo.Builder subBuilder = null;
               if (detailCase_ == 12) {
-                subBuilder = ((emu.grasscutter.net.proto.OrderInfo._OrderInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.OrderInfo._OrderInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.OrderInfo._OrderInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 12;
@@ -281,21 +281,21 @@ public final class KKILGCLBMCJOuterClass {
      * @return The examInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ExamInfo._ExamInfo getExamInfo() {
+    public emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo getExamInfo() {
       if (detailCase_ == 9) {
-         return (emu.grasscutter.net.proto.ExamInfo._ExamInfo) detail_;
+         return (emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo) detail_;
       }
-      return emu.grasscutter.net.proto.ExamInfo._ExamInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.getDefaultInstance();
     }
     /**
      * <code>._ExamInfo exam_info = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ExamInfo._ExamInfoOrBuilder getExamInfoOrBuilder() {
+    public emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfoOrBuilder getExamInfoOrBuilder() {
       if (detailCase_ == 9) {
-         return (emu.grasscutter.net.proto.ExamInfo._ExamInfo) detail_;
+         return (emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo) detail_;
       }
-      return emu.grasscutter.net.proto.ExamInfo._ExamInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.getDefaultInstance();
     }
 
     public static final int ORDER_INFO_FIELD_NUMBER = 12;
@@ -312,21 +312,21 @@ public final class KKILGCLBMCJOuterClass {
      * @return The orderInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.OrderInfo._OrderInfo getOrderInfo() {
+    public emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo getOrderInfo() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.OrderInfo._OrderInfo) detail_;
+         return (emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo) detail_;
       }
-      return emu.grasscutter.net.proto.OrderInfo._OrderInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo.getDefaultInstance();
     }
     /**
      * <code>._OrderInfo order_info = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.OrderInfo._OrderInfoOrBuilder getOrderInfoOrBuilder() {
+    public emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfoOrBuilder getOrderInfoOrBuilder() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.OrderInfo._OrderInfo) detail_;
+         return (emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo) detail_;
       }
-      return emu.grasscutter.net.proto.OrderInfo._OrderInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -352,10 +352,10 @@ public final class KKILGCLBMCJOuterClass {
         output.writeUInt32NoTag(bJPDBEKODPL_.getInt(i));
       }
       if (detailCase_ == 9) {
-        output.writeMessage(9, (emu.grasscutter.net.proto.ExamInfo._ExamInfo) detail_);
+        output.writeMessage(9, (emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo) detail_);
       }
       if (detailCase_ == 12) {
-        output.writeMessage(12, (emu.grasscutter.net.proto.OrderInfo._OrderInfo) detail_);
+        output.writeMessage(12, (emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -382,11 +382,11 @@ public final class KKILGCLBMCJOuterClass {
       }
       if (detailCase_ == 9) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, (emu.grasscutter.net.proto.ExamInfo._ExamInfo) detail_);
+          .computeMessageSize(9, (emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo) detail_);
       }
       if (detailCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (emu.grasscutter.net.proto.OrderInfo._OrderInfo) detail_);
+          .computeMessageSize(12, (emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -825,7 +825,7 @@ public final class KKILGCLBMCJOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ExamInfo._ExamInfo, emu.grasscutter.net.proto.ExamInfo._ExamInfo.Builder, emu.grasscutter.net.proto.ExamInfo._ExamInfoOrBuilder> examInfoBuilder_;
+          emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo, emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.Builder, emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfoOrBuilder> examInfoBuilder_;
       /**
        * <code>._ExamInfo exam_info = 9;</code>
        * @return Whether the examInfo field is set.
@@ -839,23 +839,23 @@ public final class KKILGCLBMCJOuterClass {
        * @return The examInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ExamInfo._ExamInfo getExamInfo() {
+      public emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo getExamInfo() {
         if (examInfoBuilder_ == null) {
           if (detailCase_ == 9) {
-            return (emu.grasscutter.net.proto.ExamInfo._ExamInfo) detail_;
+            return (emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo) detail_;
           }
-          return emu.grasscutter.net.proto.ExamInfo._ExamInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 9) {
             return examInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ExamInfo._ExamInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._ExamInfo exam_info = 9;</code>
        */
-      public Builder setExamInfo(emu.grasscutter.net.proto.ExamInfo._ExamInfo value) {
+      public Builder setExamInfo(emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo value) {
         if (examInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -872,7 +872,7 @@ public final class KKILGCLBMCJOuterClass {
        * <code>._ExamInfo exam_info = 9;</code>
        */
       public Builder setExamInfo(
-          emu.grasscutter.net.proto.ExamInfo._ExamInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.Builder builderForValue) {
         if (examInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -885,11 +885,11 @@ public final class KKILGCLBMCJOuterClass {
       /**
        * <code>._ExamInfo exam_info = 9;</code>
        */
-      public Builder mergeExamInfo(emu.grasscutter.net.proto.ExamInfo._ExamInfo value) {
+      public Builder mergeExamInfo(emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo value) {
         if (examInfoBuilder_ == null) {
           if (detailCase_ == 9 &&
-              detail_ != emu.grasscutter.net.proto.ExamInfo._ExamInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.ExamInfo._ExamInfo.newBuilder((emu.grasscutter.net.proto.ExamInfo._ExamInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.newBuilder((emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -926,36 +926,36 @@ public final class KKILGCLBMCJOuterClass {
       /**
        * <code>._ExamInfo exam_info = 9;</code>
        */
-      public emu.grasscutter.net.proto.ExamInfo._ExamInfo.Builder getExamInfoBuilder() {
+      public emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.Builder getExamInfoBuilder() {
         return getExamInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._ExamInfo exam_info = 9;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ExamInfo._ExamInfoOrBuilder getExamInfoOrBuilder() {
+      public emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfoOrBuilder getExamInfoOrBuilder() {
         if ((detailCase_ == 9) && (examInfoBuilder_ != null)) {
           return examInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 9) {
-            return (emu.grasscutter.net.proto.ExamInfo._ExamInfo) detail_;
+            return (emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo) detail_;
           }
-          return emu.grasscutter.net.proto.ExamInfo._ExamInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._ExamInfo exam_info = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ExamInfo._ExamInfo, emu.grasscutter.net.proto.ExamInfo._ExamInfo.Builder, emu.grasscutter.net.proto.ExamInfo._ExamInfoOrBuilder> 
+          emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo, emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.Builder, emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfoOrBuilder> 
           getExamInfoFieldBuilder() {
         if (examInfoBuilder_ == null) {
           if (!(detailCase_ == 9)) {
-            detail_ = emu.grasscutter.net.proto.ExamInfo._ExamInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.getDefaultInstance();
           }
           examInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ExamInfo._ExamInfo, emu.grasscutter.net.proto.ExamInfo._ExamInfo.Builder, emu.grasscutter.net.proto.ExamInfo._ExamInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.ExamInfo._ExamInfo) detail_,
+              emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo, emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.Builder, emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -966,7 +966,7 @@ public final class KKILGCLBMCJOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.OrderInfo._OrderInfo, emu.grasscutter.net.proto.OrderInfo._OrderInfo.Builder, emu.grasscutter.net.proto.OrderInfo._OrderInfoOrBuilder> orderInfoBuilder_;
+          emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo, emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo.Builder, emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfoOrBuilder> orderInfoBuilder_;
       /**
        * <code>._OrderInfo order_info = 12;</code>
        * @return Whether the orderInfo field is set.
@@ -980,23 +980,23 @@ public final class KKILGCLBMCJOuterClass {
        * @return The orderInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.OrderInfo._OrderInfo getOrderInfo() {
+      public emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo getOrderInfo() {
         if (orderInfoBuilder_ == null) {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.OrderInfo._OrderInfo) detail_;
+            return (emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo) detail_;
           }
-          return emu.grasscutter.net.proto.OrderInfo._OrderInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 12) {
             return orderInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.OrderInfo._OrderInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._OrderInfo order_info = 12;</code>
        */
-      public Builder setOrderInfo(emu.grasscutter.net.proto.OrderInfo._OrderInfo value) {
+      public Builder setOrderInfo(emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo value) {
         if (orderInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1013,7 +1013,7 @@ public final class KKILGCLBMCJOuterClass {
        * <code>._OrderInfo order_info = 12;</code>
        */
       public Builder setOrderInfo(
-          emu.grasscutter.net.proto.OrderInfo._OrderInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo.Builder builderForValue) {
         if (orderInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1026,11 +1026,11 @@ public final class KKILGCLBMCJOuterClass {
       /**
        * <code>._OrderInfo order_info = 12;</code>
        */
-      public Builder mergeOrderInfo(emu.grasscutter.net.proto.OrderInfo._OrderInfo value) {
+      public Builder mergeOrderInfo(emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo value) {
         if (orderInfoBuilder_ == null) {
           if (detailCase_ == 12 &&
-              detail_ != emu.grasscutter.net.proto.OrderInfo._OrderInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.OrderInfo._OrderInfo.newBuilder((emu.grasscutter.net.proto.OrderInfo._OrderInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo.newBuilder((emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1067,36 +1067,36 @@ public final class KKILGCLBMCJOuterClass {
       /**
        * <code>._OrderInfo order_info = 12;</code>
        */
-      public emu.grasscutter.net.proto.OrderInfo._OrderInfo.Builder getOrderInfoBuilder() {
+      public emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo.Builder getOrderInfoBuilder() {
         return getOrderInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._OrderInfo order_info = 12;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.OrderInfo._OrderInfoOrBuilder getOrderInfoOrBuilder() {
+      public emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfoOrBuilder getOrderInfoOrBuilder() {
         if ((detailCase_ == 12) && (orderInfoBuilder_ != null)) {
           return orderInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.OrderInfo._OrderInfo) detail_;
+            return (emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo) detail_;
           }
-          return emu.grasscutter.net.proto.OrderInfo._OrderInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._OrderInfo order_info = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.OrderInfo._OrderInfo, emu.grasscutter.net.proto.OrderInfo._OrderInfo.Builder, emu.grasscutter.net.proto.OrderInfo._OrderInfoOrBuilder> 
+          emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo, emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo.Builder, emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfoOrBuilder> 
           getOrderInfoFieldBuilder() {
         if (orderInfoBuilder_ == null) {
           if (!(detailCase_ == 12)) {
-            detail_ = emu.grasscutter.net.proto.OrderInfo._OrderInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo.getDefaultInstance();
           }
           orderInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.OrderInfo._OrderInfo, emu.grasscutter.net.proto.OrderInfo._OrderInfo.Builder, emu.grasscutter.net.proto.OrderInfo._OrderInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.OrderInfo._OrderInfo) detail_,
+              emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo, emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo.Builder, emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1176,14 +1176,14 @@ public final class KKILGCLBMCJOuterClass {
       "rderInfo.proto\"p\n\013KKILGCLBMCJ\022\023\n\013BJPDBEK" +
       "ODPL\030\010 \003(\r\022\037\n\texam_info\030\t \001(\0132\n._ExamInf" +
       "oH\000\022!\n\norder_info\030\014 \001(\0132\013._OrderInfoH\000B\010" +
-      "\n\006detailB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "\n\006detailB2\n\031emu.grasscutter.net.protoB\025K" +
+      "KILGCLBMCJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.ExamInfo.getDescriptor(),
-          emu.grasscutter.net.proto.OrderInfo.getDescriptor(),
+          emu.grasscutter.net.proto._ExamInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._OrderInfoOuterClass.getDescriptor(),
         });
     internal_static_KKILGCLBMCJ_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1191,8 +1191,8 @@ public final class KKILGCLBMCJOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_KKILGCLBMCJ_descriptor,
         new java.lang.String[] { "BJPDBEKODPL", "ExamInfo", "OrderInfo", "Detail", });
-    emu.grasscutter.net.proto.ExamInfo.getDescriptor();
-    emu.grasscutter.net.proto.OrderInfo.getDescriptor();
+    emu.grasscutter.net.proto._ExamInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._OrderInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

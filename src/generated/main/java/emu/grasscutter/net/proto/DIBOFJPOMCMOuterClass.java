@@ -878,8 +878,9 @@ public final class DIBOFJPOMCMOuterClass {
       "\n\021DIBOFJPOMCM.proto\"\205\001\n\013DIBOFJPOMCM\022\022\n\ni" +
       "s_success\030\001 \001(\010\022\023\n\013GIODFBIMEGL\030\004 \001(\r\022\023\n\013" +
       "GEKEAOOJIBE\030\007 \001(\r\022\023\n\013COIKDFBDKJJ\030\n \001(\r\022\020" +
-      "\n\010level_id\030\014 \001(\r\022\021\n\tcost_time\030\017 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\n\010level_id\030\014 \001(\r\022\021\n\tcost_time\030\017 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025DIBOFJPOMCMOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

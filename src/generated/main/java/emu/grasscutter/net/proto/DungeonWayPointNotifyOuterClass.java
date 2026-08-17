@@ -724,8 +724,9 @@ public final class DungeonWayPointNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033DungeonWayPointNotify.proto\"F\n\025Dungeon" +
       "WayPointNotify\022\035\n\025active_way_point_list\030" +
-      "\004 \003(\r\022\016\n\006is_add\030\013 \001(\010B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\004 \003(\r\022\016\n\006is_add\030\013 \001(\010B<\n\031emu.grasscutter" +
+      ".net.protoB\037DungeonWayPointNotifyOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

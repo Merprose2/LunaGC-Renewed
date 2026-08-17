@@ -1022,8 +1022,8 @@ public final class ILEONMGKJOOOuterClass {
       "\n\013ILEONMGKJOO\022\021\n\tavatar_id\030\003 \001(\r\022\017\n\007retc" +
       "ode\030\t \001(\005\022!\n\013DPGBCLMKFEJ\030\013 \001(\0132\014.LMBGMBB" +
       "NOAB\022\023\n\013INJOAJIEDFK\030\016 \001(\010\022\023\n\013avatar_name" +
-      "\030\017 \001(\tB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \001(\tB2\n\031emu.grasscutter.net.protoB\025ILE" +
+      "ONMGKJOOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

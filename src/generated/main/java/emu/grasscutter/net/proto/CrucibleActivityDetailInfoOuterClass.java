@@ -1169,8 +1169,9 @@ public final class CrucibleActivityDetailInfoOuterClass {
       "\n\032CrucibleActivityDetailInfo\022\032\n\022battle_w" +
       "orld_level\030\003 \001(\r\022-\n\ruid_info_list\030\005 \003(\0132" +
       "\026.CrucibleBattleUidInfo\022\024\n\003pos\030\t \001(\0132\007.V" +
-      "ector\022\021\n\tcost_time\030\014 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "ector\022\021\n\tcost_time\030\014 \001(\rBA\n\031emu.grasscut" +
+      "ter.net.protoB$CrucibleActivityDetailInf" +
+      "oOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

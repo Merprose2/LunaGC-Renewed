@@ -696,7 +696,8 @@ public final class NPBPGCLKEAFOuterClass {
       "\n\021NPBPGCLKEAF.proto\032\021OCNMEMEAHBL.proto\"S" +
       "\n\013NPBPGCLKEAF\022\034\n\006reason\030\005 \001(\0162\014.OCNMEMEA" +
       "HBL\022\023\n\013MKNBKLKKAOL\030\n \001(\r\022\021\n\tentity_id\030\013 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025NPBPGC" +
+      "LKEAFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

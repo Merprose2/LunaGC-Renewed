@@ -867,8 +867,9 @@ public final class DEIAGLFJKBGOuterClass {
       "EJFFMPFNPEL.proto\032\021JEOKDCIGCFP.proto\"v\n\013" +
       "DEIAGLFJKBG\022!\n\013LCLIBHOHEMA\030\001 \001(\0162\014.EHBJF" +
       "NCJDFN\022!\n\013JLHEGLCJEFK\030\003 \001(\0162\014.JEOKDCIGCF" +
-      "P\022!\n\013HBGDPLIIHON\030\004 \001(\0132\014.EJFFMPFNPELB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "P\022!\n\013HBGDPLIIHON\030\004 \001(\0132\014.EJFFMPFNPELB2\n\031" +
+      "emu.grasscutter.net.protoB\025DEIAGLFJKBGOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

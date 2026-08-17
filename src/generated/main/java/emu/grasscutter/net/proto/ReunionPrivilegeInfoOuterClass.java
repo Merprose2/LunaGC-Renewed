@@ -1035,8 +1035,9 @@ public final class ReunionPrivilegeInfoOuterClass {
       "K.proto\"{\n\024ReunionPrivilegeInfo\022\025\n\rcur_d" +
       "ay_count\030\002 \001(\r\022\024\n\014privilege_id\030\007 \001(\r\022\023\n\013" +
       "total_count\030\t \001(\r\022!\n\013HEKJNLAAKIK\030\n \003(\0132\014" +
-      ".CFNMBMLFALKB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      ".CFNMBMLFALKB;\n\031emu.grasscutter.net.prot" +
+      "oB\036ReunionPrivilegeInfoOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -269,8 +269,8 @@ public final class NCKFPLPEHHLOuterClass {
       "UCT\020\224N\022%\n NCKFPLPEHHL_GENERICS_STRUCT_LI" +
       "ST\020\225N\0221\n,NCKFPLPEHHL_GENERICS_SERVER_PAR" +
       "AM_DICTIONARY\020\226N\022%\n NCKFPLPEHHL_SERVER_P" +
-      "ARAM_KV_PAIR\020\227NB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "ARAM_KV_PAIR\020\227NB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025NCKFPLPEHHLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

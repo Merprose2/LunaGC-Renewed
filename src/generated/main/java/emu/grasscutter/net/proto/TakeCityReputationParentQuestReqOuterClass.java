@@ -724,7 +724,9 @@ public final class TakeCityReputationParentQuestReqOuterClass {
       "\n&TakeCityReputationParentQuestReq.proto" +
       "\"N\n TakeCityReputationParentQuestReq\022\017\n\007" +
       "city_id\030\t \001(\r\022\031\n\021parent_quest_list\030\r \003(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "BG\n\031emu.grasscutter.net.protoB*TakeCityR" +
+      "eputationParentQuestReqOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

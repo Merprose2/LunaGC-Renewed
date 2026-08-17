@@ -595,8 +595,9 @@ public final class EPKIONLEAPBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EPKIONLEAPB.proto\"4\n\013EPKIONLEAPB\022\020\n\010le" +
-      "vel_id\030\005 \001(\r\022\023\n\013AHKBNJEIHKK\030\010 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "vel_id\030\005 \001(\r\022\023\n\013AHKBNJEIHKK\030\010 \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025EPKIONLEAPBOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -723,8 +723,9 @@ public final class RefreshRogueDiaryCardRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036RefreshRogueDiaryCardRsp.proto\"C\n\030Refr" +
       "eshRogueDiaryCardRsp\022\017\n\007retcode\030\001 \001(\005\022\026\n" +
-      "\016rand_card_list\030\t \003(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\016rand_card_list\030\t \003(\rB?\n\031emu.grasscutter" +
+      ".net.protoB\"RefreshRogueDiaryCardRspOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

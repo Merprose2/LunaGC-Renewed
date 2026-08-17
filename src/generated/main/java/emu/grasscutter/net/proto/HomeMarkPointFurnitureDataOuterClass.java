@@ -1395,8 +1395,9 @@ public final class HomeMarkPointFurnitureDataOuterClass {
       "ture_id\030\002 \001(\r\022\026\n\016furniture_type\030\003 \001(\r\022\024\n" +
       "\003pos\030\004 \001(\0132\007.Vector\022)\n\010npc_data\030\006 \001(\0132\025." +
       "HomeMarkPointNPCDataH\000\022-\n\nsuite_data\030\007 \001" +
-      "(\0132\027.HomeMarkPointSuiteDataH\000B\007\n\005extraB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "(\0132\027.HomeMarkPointSuiteDataH\000B\007\n\005extraBA" +
+      "\n\031emu.grasscutter.net.protoB$HomeMarkPoi" +
+      "ntFurnitureDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

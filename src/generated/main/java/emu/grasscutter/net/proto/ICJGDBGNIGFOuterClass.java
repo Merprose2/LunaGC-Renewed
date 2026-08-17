@@ -142,8 +142,9 @@ public final class ICJGDBGNIGFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ICJGDBGNIGF.proto*R\n\013ICJGDBGNIGF\022\024\n\020IC" +
       "JGDBGNIGF_NONE\020\000\022\027\n\023ICJGDBGNIGF_DUNGEON\020" +
-      "\001\022\024\n\020ICJGDBGNIGF_ROOM\020\002B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\001\022\024\n\020ICJGDBGNIGF_ROOM\020\002B2\n\031emu.grasscutt" +
+      "er.net.protoB\025ICJGDBGNIGFOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

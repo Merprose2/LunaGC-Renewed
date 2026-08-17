@@ -1038,8 +1038,9 @@ public final class UgcActivityDetailInfoOuterClass {
       "Info\022<\n\034official_custom_dungeon_list\030\003 \003" +
       "(\0132\026.OfficialCustomDungeon\022\037\n\027custom_dun" +
       "geon_group_id\030\004 \001(\r\022\035\n\025is_ugc_feature_cl" +
-      "osed\030\013 \001(\010\022\025\n\ris_enable_ugc\030\014 \001(\010B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "osed\030\013 \001(\010\022\025\n\ris_enable_ugc\030\014 \001(\010B<\n\031emu" +
+      ".grasscutter.net.protoB\037UgcActivityDetai" +
+      "lInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

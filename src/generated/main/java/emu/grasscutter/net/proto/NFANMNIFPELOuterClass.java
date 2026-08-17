@@ -2490,8 +2490,8 @@ public final class NFANMNIFPELOuterClass {
       "ELLEMABCFI\030\007 \001(\0132\014.KEBNBMGICHO\022!\n\013ELLGID" +
       "OFFLF\030\010 \001(\0132\014.GCJFCLEKHCF\022!\n\013OLELOHHCKPP" +
       "\030\t \001(\0132\014.LAPDLKAOLLJ\022!\n\013IBCJONHLCNK\030\n \001(" +
-      "\0132\014.IPOEEHJMJLGB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\0132\014.IPOEEHJMJLGB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025NFANMNIFPELOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

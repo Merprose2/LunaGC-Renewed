@@ -1201,8 +1201,8 @@ public final class EPNIGNAFAEMOuterClass {
       "sic_info\030\366\003 \001(\0132\014.CDHMHGIAMGM\022\"\n\013BPNOIGG" +
       "ADDH\030\367\003 \001(\0132\014.IGMCBGMACEJ\022\"\n\013IEOFCILLNLM" +
       "\030\370\003 \001(\0132\014.OFBGCMDEAAL\022\025\n\014data_version\030\371\003" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB2\n\031emu.grasscutter.net.protoB\025EPNIG" +
+      "NAFAEMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

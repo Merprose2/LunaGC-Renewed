@@ -455,8 +455,9 @@ public final class GetPlayerFriendListReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034GetPlayerFriendListReq.proto\"\030\n\026GetPla" +
-      "yerFriendListReqB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "yerFriendListReqB=\n\031emu.grasscutter.net." +
+      "protoB GetPlayerFriendListReqOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

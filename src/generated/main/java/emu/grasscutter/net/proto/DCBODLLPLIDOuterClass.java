@@ -667,8 +667,8 @@ public final class DCBODLLPLIDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DCBODLLPLID.proto\"L\n\013DCBODLLPLID\022\023\n\013AM" +
       "NFIKHADMI\030\003 \001(\r\022\023\n\013avatar_guid\030\004 \001(\004\022\023\n\013" +
-      "IHBEJKPPILB\030\010 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "IHBEJKPPILB\030\010 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025DCBODLLPLIDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

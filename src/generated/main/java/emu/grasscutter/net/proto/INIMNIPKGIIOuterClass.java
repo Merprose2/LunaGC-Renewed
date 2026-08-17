@@ -596,8 +596,9 @@ public final class INIMNIPKGIIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021INIMNIPKGII.proto\"6\n\013INIMNIPKGII\022\022\n\nta" +
-      "rget_uid\030\002 \001(\r\022\023\n\013OHIFIHIIHND\030\014 \001(\004B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "rget_uid\030\002 \001(\r\022\023\n\013OHIFIHIIHND\030\014 \001(\004B2\n\031e" +
+      "mu.grasscutter.net.protoB\025INIMNIPKGIIOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

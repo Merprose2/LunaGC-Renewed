@@ -180,8 +180,9 @@ public final class ENBKAKAGEONOuterClass {
       "NBKAKAGEON_BRONZE\020\000\022\026\n\022ENBKAKAGEON_SILVE" +
       "R\020\001\022\024\n\020ENBKAKAGEON_GOLD\020\002\022\030\n\024ENBKAKAGEON" +
       "_PLATINUM\020\003\022\024\n\020ENBKAKAGEON_STAR\020\004\022\024\n\020ENB" +
-      "KAKAGEON_MOON\020\005\022\023\n\017ENBKAKAGEON_SUN\020\006B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "KAKAGEON_MOON\020\005\022\023\n\017ENBKAKAGEON_SUN\020\006B2\n\031" +
+      "emu.grasscutter.net.protoB\025ENBKAKAGEONOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

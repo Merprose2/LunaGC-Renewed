@@ -831,8 +831,9 @@ public final class CheckSegmentCRCNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033CheckSegmentCRCNotify.proto\032\021SegmentIn" +
       "fo.proto\"8\n\025CheckSegmentCRCNotify\022\037\n\tinf" +
-      "o_list\030\r \003(\0132\014.SegmentInfoB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "o_list\030\r \003(\0132\014.SegmentInfoB<\n\031emu.grassc" +
+      "utter.net.protoB\037CheckSegmentCRCNotifyOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

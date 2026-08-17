@@ -1034,8 +1034,9 @@ public final class FIEDBPBPNDLOuterClass {
       "\n\021FIEDBPBPNDL.proto\032\021PJEAFGCAFMP.proto\"p" +
       "\n\013FIEDBPBPNDL\022\024\n\014fetter_level\030\001 \001(\r\022\023\n\013L" +
       "LNOLJPMNCC\030\002 \001(\r\022!\n\013BINIBNLCGKM\030\003 \003(\0132\014." +
-      "PJEAFGCAFMP\022\023\n\013JIGKAFEBEHL\030\004 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "PJEAFGCAFMP\022\023\n\013JIGKAFEBEHL\030\004 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025FIEDBPBPNDLOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

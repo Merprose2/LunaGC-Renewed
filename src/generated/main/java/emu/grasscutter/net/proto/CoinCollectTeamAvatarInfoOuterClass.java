@@ -588,8 +588,9 @@ public final class CoinCollectTeamAvatarInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037CoinCollectTeamAvatarInfo.proto\"B\n\031Coi" +
       "nCollectTeamAvatarInfo\022\021\n\tavatar_id\030\003 \001(" +
-      "\r\022\022\n\ncostume_id\030\r \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\r\022\022\n\ncostume_id\030\r \001(\rB@\n\031emu.grasscutter" +
+      ".net.protoB#CoinCollectTeamAvatarInfoOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

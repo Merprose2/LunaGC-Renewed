@@ -738,7 +738,8 @@ public final class OPPLNMKKAAPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OPPLNMKKAAP.proto\"=\n\013OPPLNMKKAAP\022\r\n\005va" +
       "lue\030\t \001(\005\022\021\n\tconfig_id\030\013 \001(\r\022\014\n\004name\030\014 \001" +
-      "(\tB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\tB2\n\031emu.grasscutter.net.protoB\025OPPLNMK" +
+      "KAAPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

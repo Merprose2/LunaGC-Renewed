@@ -651,8 +651,8 @@ public final class LMNODINANIMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LMNODINANIM.proto\032\021HHEDHCFPEKM.proto\"0" +
       "\n\013LMNODINANIM\022!\n\013FMKNLOGFALG\030\001 \001(\0132\014.HHE" +
-      "DHCFPEKMB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "DHCFPEKMB2\n\031emu.grasscutter.net.protoB\025L" +
+      "MNODINANIMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

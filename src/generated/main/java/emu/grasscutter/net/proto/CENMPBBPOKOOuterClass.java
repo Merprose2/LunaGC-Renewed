@@ -909,7 +909,8 @@ public final class CENMPBBPOKOOuterClass {
       " \001(\0162\023.MovingPlatformType\022\023\n\013HFMLIKHGNGA" +
       "\030\003 \001(\r\022\022\n\nis_started\030\004 \001(\010\022\020\n\010point_id\030\010" +
       " \001(\r\022\023\n\013OHMDMOJNJBC\030\t \001(\r\022\020\n\010route_id\030\n " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025CENMPB" +
+      "BPOKOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

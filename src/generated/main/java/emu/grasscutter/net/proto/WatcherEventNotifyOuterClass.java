@@ -596,8 +596,8 @@ public final class WatcherEventNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030WatcherEventNotify.proto\">\n\022WatcherEve" +
       "ntNotify\022\022\n\nwatcher_id\030\001 \001(\r\022\024\n\014add_prog" +
-      "ress\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "ress\030\014 \001(\rB9\n\031emu.grasscutter.net.protoB" +
+      "\034WatcherEventNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

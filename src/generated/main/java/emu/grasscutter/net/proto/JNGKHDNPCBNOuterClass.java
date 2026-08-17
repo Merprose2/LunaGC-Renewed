@@ -1317,8 +1317,9 @@ public final class JNGKHDNPCBNOuterClass {
       "\001 \001(\0162\014.OPHNCOAENEH\022!\n\tnone_data\030\013 \001(\0132\014" +
       ".EPGDONJBFCBH\000\022$\n\014by_time_data\030\014 \001(\0132\014.F" +
       "IPPCCPMKPHH\000\022%\n\rby_speed_data\030\r \001(\0132\014.KC" +
-      "PEBDLJBDHH\000B\010\n\006detailB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "PEBDLJBDHH\000B\010\n\006detailB2\n\031emu.grasscutter" +
+      ".net.protoB\025JNGKHDNPCBNOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

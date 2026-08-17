@@ -660,8 +660,8 @@ public final class PlayerHomeCompInfoNotifyOuterClass {
       "\n\036PlayerHomeCompInfoNotify.proto\032\030Player" +
       "HomeCompInfo.proto\"B\n\030PlayerHomeCompInfo" +
       "Notify\022&\n\tcomp_info\030\004 \001(\0132\023.PlayerHomeCo" +
-      "mpInfoB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "mpInfoB?\n\031emu.grasscutter.net.protoB\"Pla" +
+      "yerHomeCompInfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

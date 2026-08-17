@@ -1118,7 +1118,8 @@ public final class PKLELBDJHAGOuterClass {
       "PKLELBDJHAG\022\032\n\004data\030\001 \003(\0132\014.DIMMPAALMNO\022" +
       "\035\n\007op_type\030\002 \001(\0162\014.LLMBEOCEKJO\022!\n\013DCOADG" +
       "FHDNP\030\003 \001(\0162\014.DEGDFAOEICK\022\020\n\010checksum\030\004 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025PKLELB" +
+      "DJHAGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

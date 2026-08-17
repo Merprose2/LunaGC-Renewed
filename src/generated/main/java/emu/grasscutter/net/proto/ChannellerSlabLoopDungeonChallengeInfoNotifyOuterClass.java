@@ -1059,8 +1059,10 @@ public final class ChannellerSlabLoopDungeonChallengeInfoNotifyOuterClass {
       "onChallengeInfoNotify\022\031\n\021condition_id_li" +
       "st\030\002 \003(\r\022\025\n\rdungeon_index\030\n \001(\r\022\025\n\rdiffi" +
       "culty_id\030\013 \001(\r\022\033\n\023scheme_buff_id_list\030\r " +
-      "\003(\r\022\027\n\017challenge_score\030\017 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\003(\r\022\027\n\017challenge_score\030\017 \001(\rBS\n\031emu.gras" +
+      "scutter.net.protoB6ChannellerSlabLoopDun" +
+      "geonChallengeInfoNotifyOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

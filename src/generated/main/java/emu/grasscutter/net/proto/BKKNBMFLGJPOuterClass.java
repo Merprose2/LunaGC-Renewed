@@ -1288,7 +1288,8 @@ public final class BKKNBMFLGJPOuterClass {
       "\016\n\006energy\030\t \001(\r\022\023\n\013MOACGMLNFNO\030\n \001(\r\022\023\n\013" +
       "BJKIONHMCNN\030\013 \001(\005\022\023\n\013GKNGLKGPBPK\030\014 \001(\r\022\023" +
       "\n\013CGCODLNLBME\030\016 \001(\005\022\023\n\013AMEILFAPLBD\030\017 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025BKKNBMFLG" +
+      "JPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -339,7 +339,7 @@ public final class IHBNAJCEICHOuterClass {
        * <code>._AvatarMirrorType avatar_type = 3;</code>
        * @return The avatarType.
        */
-      emu.grasscutter.net.proto.AvatarMirrorType._AvatarMirrorType getAvatarType();
+      emu.grasscutter.net.proto._AvatarMirrorTypeOuterClass._AvatarMirrorType getAvatarType();
 
       /**
        * <code>uint32 _avatar_element_type = 7;</code>
@@ -471,10 +471,10 @@ public final class IHBNAJCEICHOuterClass {
        * <code>._AvatarMirrorType avatar_type = 3;</code>
        * @return The avatarType.
        */
-      @java.lang.Override public emu.grasscutter.net.proto.AvatarMirrorType._AvatarMirrorType getAvatarType() {
+      @java.lang.Override public emu.grasscutter.net.proto._AvatarMirrorTypeOuterClass._AvatarMirrorType getAvatarType() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.AvatarMirrorType._AvatarMirrorType result = emu.grasscutter.net.proto.AvatarMirrorType._AvatarMirrorType.valueOf(avatarType_);
-        return result == null ? emu.grasscutter.net.proto.AvatarMirrorType._AvatarMirrorType.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto._AvatarMirrorTypeOuterClass._AvatarMirrorType result = emu.grasscutter.net.proto._AvatarMirrorTypeOuterClass._AvatarMirrorType.valueOf(avatarType_);
+        return result == null ? emu.grasscutter.net.proto._AvatarMirrorTypeOuterClass._AvatarMirrorType.UNRECOGNIZED : result;
       }
 
       public static final int _AVATAR_ELEMENT_TYPE_FIELD_NUMBER = 7;
@@ -524,7 +524,7 @@ public final class IHBNAJCEICHOuterClass {
       @java.lang.Override
       public void writeTo(com.google.protobuf.CodedOutputStream output)
                           throws java.io.IOException {
-        if (avatarType_ != emu.grasscutter.net.proto.AvatarMirrorType._AvatarMirrorType._AvatarMirrorType_NONE.getNumber()) {
+        if (avatarType_ != emu.grasscutter.net.proto._AvatarMirrorTypeOuterClass._AvatarMirrorType._AvatarMirrorType_NONE.getNumber()) {
           output.writeEnum(3, avatarType_);
         }
         if (AvatarElementType_ != 0) {
@@ -545,7 +545,7 @@ public final class IHBNAJCEICHOuterClass {
         if (size != -1) return size;
 
         size = 0;
-        if (avatarType_ != emu.grasscutter.net.proto.AvatarMirrorType._AvatarMirrorType._AvatarMirrorType_NONE.getNumber()) {
+        if (avatarType_ != emu.grasscutter.net.proto._AvatarMirrorTypeOuterClass._AvatarMirrorType._AvatarMirrorType_NONE.getNumber()) {
           size += com.google.protobuf.CodedOutputStream
             .computeEnumSize(3, avatarType_);
         }
@@ -886,17 +886,17 @@ public final class IHBNAJCEICHOuterClass {
          * @return The avatarType.
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.AvatarMirrorType._AvatarMirrorType getAvatarType() {
+        public emu.grasscutter.net.proto._AvatarMirrorTypeOuterClass._AvatarMirrorType getAvatarType() {
           @SuppressWarnings("deprecation")
-          emu.grasscutter.net.proto.AvatarMirrorType._AvatarMirrorType result = emu.grasscutter.net.proto.AvatarMirrorType._AvatarMirrorType.valueOf(avatarType_);
-          return result == null ? emu.grasscutter.net.proto.AvatarMirrorType._AvatarMirrorType.UNRECOGNIZED : result;
+          emu.grasscutter.net.proto._AvatarMirrorTypeOuterClass._AvatarMirrorType result = emu.grasscutter.net.proto._AvatarMirrorTypeOuterClass._AvatarMirrorType.valueOf(avatarType_);
+          return result == null ? emu.grasscutter.net.proto._AvatarMirrorTypeOuterClass._AvatarMirrorType.UNRECOGNIZED : result;
         }
         /**
          * <code>._AvatarMirrorType avatar_type = 3;</code>
          * @param value The avatarType to set.
          * @return This builder for chaining.
          */
-        public Builder setAvatarType(emu.grasscutter.net.proto.AvatarMirrorType._AvatarMirrorType value) {
+        public Builder setAvatarType(emu.grasscutter.net.proto._AvatarMirrorTypeOuterClass._AvatarMirrorType value) {
           if (value == null) {
             throw new NullPointerException();
           }
@@ -2814,15 +2814,16 @@ public final class IHBNAJCEICHOuterClass {
       "\030.IHBNAJCEICH.AJHFGMCEAJI\032{\n\013AJHFGMCEAJI" +
       "\022\'\n\013avatar_type\030\003 \001(\0162\022._AvatarMirrorTyp" +
       "e\022\034\n\024_avatar_element_type\030\007 \001(\r\022\022\n\ncostu" +
-      "me_id\030\014 \001(\r\022\021\n\tavatar_id\030\r \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "me_id\030\014 \001(\r\022\021\n\tavatar_id\030\r \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025IHBNAJCEICHOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.ILBIHCPFAELOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PHPBCLPALELOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.AvatarMirrorType.getDescriptor(),
+          emu.grasscutter.net.proto._AvatarMirrorTypeOuterClass.getDescriptor(),
         });
     internal_static_IHBNAJCEICH_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2838,7 +2839,7 @@ public final class IHBNAJCEICHOuterClass {
         new java.lang.String[] { "AvatarType", "AvatarElementType", "CostumeId", "AvatarId", });
     emu.grasscutter.net.proto.ILBIHCPFAELOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PHPBCLPALELOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.AvatarMirrorType.getDescriptor();
+    emu.grasscutter.net.proto._AvatarMirrorTypeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

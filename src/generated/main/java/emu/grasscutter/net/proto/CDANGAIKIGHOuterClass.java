@@ -659,8 +659,8 @@ public final class CDANGAIKIGHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CDANGAIKIGH.proto\032\021FIKIMMPAPNH.proto\"0" +
       "\n\013CDANGAIKIGH\022!\n\013BBBHIHLEGKG\030\016 \001(\0132\014.FIK" +
-      "IMMPAPNHB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "IMMPAPNHB2\n\031emu.grasscutter.net.protoB\025C" +
+      "DANGAIKIGHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

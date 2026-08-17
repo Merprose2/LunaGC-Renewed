@@ -44,11 +44,11 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
      * <code>._FilmfestBallGameSyncPing sync_ping = 4;</code>
      * @return The syncPing.
      */
-    emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing getSyncPing();
+    emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing getSyncPing();
     /**
      * <code>._FilmfestBallGameSyncPing sync_ping = 4;</code>
      */
-    emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPingOrBuilder getSyncPingOrBuilder();
+    emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPingOrBuilder getSyncPingOrBuilder();
 
     /**
      * <code>._FilmfestBallGameSyncFinishGame sync_finish_game = 6;</code>
@@ -59,11 +59,11 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
      * <code>._FilmfestBallGameSyncFinishGame sync_finish_game = 6;</code>
      * @return The syncFinishGame.
      */
-    emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame getSyncFinishGame();
+    emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame getSyncFinishGame();
     /**
      * <code>._FilmfestBallGameSyncFinishGame sync_finish_game = 6;</code>
      */
-    emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGameOrBuilder getSyncFinishGameOrBuilder();
+    emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGameOrBuilder getSyncFinishGameOrBuilder();
 
     /**
      * <code>._FilmfestBallGameSyncAction sync_action = 7;</code>
@@ -74,11 +74,11 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
      * <code>._FilmfestBallGameSyncAction sync_action = 7;</code>
      * @return The syncAction.
      */
-    emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction getSyncAction();
+    emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction getSyncAction();
     /**
      * <code>._FilmfestBallGameSyncAction sync_action = 7;</code>
      */
-    emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncActionOrBuilder getSyncActionOrBuilder();
+    emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncActionOrBuilder getSyncActionOrBuilder();
 
     /**
      * <code>._FilmfestBallGameSyncSnapShot sync_snap_shot = 11;</code>
@@ -89,11 +89,11 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
      * <code>._FilmfestBallGameSyncSnapShot sync_snap_shot = 11;</code>
      * @return The syncSnapShot.
      */
-    emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot getSyncSnapShot();
+    emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot getSyncSnapShot();
     /**
      * <code>._FilmfestBallGameSyncSnapShot sync_snap_shot = 11;</code>
      */
-    emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShotOrBuilder getSyncSnapShotOrBuilder();
+    emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShotOrBuilder getSyncSnapShotOrBuilder();
 
     /**
      * <code>._FilmfestBallGameSyncCreateConnect sync_create_connect = 15;</code>
@@ -104,11 +104,11 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
      * <code>._FilmfestBallGameSyncCreateConnect sync_create_connect = 15;</code>
      * @return The syncCreateConnect.
      */
-    emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect getSyncCreateConnect();
+    emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect getSyncCreateConnect();
     /**
      * <code>._FilmfestBallGameSyncCreateConnect sync_create_connect = 15;</code>
      */
-    emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnectOrBuilder getSyncCreateConnectOrBuilder();
+    emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnectOrBuilder getSyncCreateConnectOrBuilder();
 
     public emu.grasscutter.net.proto.AbilityMixinFilmfestBallGameOuterClass.AbilityMixinFilmfestBallGame.SyncCase getSyncCase();
   }
@@ -170,70 +170,70 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
               break;
             }
             case 34: {
-              emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing.Builder subBuilder = null;
+              emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing.Builder subBuilder = null;
               if (syncCase_ == 4) {
-                subBuilder = ((emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing) sync_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing) sync_).toBuilder();
               }
               sync_ =
-                  input.readMessage(emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing) sync_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing) sync_);
                 sync_ = subBuilder.buildPartial();
               }
               syncCase_ = 4;
               break;
             }
             case 50: {
-              emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame.Builder subBuilder = null;
+              emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame.Builder subBuilder = null;
               if (syncCase_ == 6) {
-                subBuilder = ((emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame) sync_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame) sync_).toBuilder();
               }
               sync_ =
-                  input.readMessage(emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame) sync_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame) sync_);
                 sync_ = subBuilder.buildPartial();
               }
               syncCase_ = 6;
               break;
             }
             case 58: {
-              emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction.Builder subBuilder = null;
+              emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction.Builder subBuilder = null;
               if (syncCase_ == 7) {
-                subBuilder = ((emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction) sync_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction) sync_).toBuilder();
               }
               sync_ =
-                  input.readMessage(emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction) sync_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction) sync_);
                 sync_ = subBuilder.buildPartial();
               }
               syncCase_ = 7;
               break;
             }
             case 90: {
-              emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot.Builder subBuilder = null;
+              emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot.Builder subBuilder = null;
               if (syncCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot) sync_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot) sync_).toBuilder();
               }
               sync_ =
-                  input.readMessage(emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot) sync_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot) sync_);
                 sync_ = subBuilder.buildPartial();
               }
               syncCase_ = 11;
               break;
             }
             case 122: {
-              emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect.Builder subBuilder = null;
+              emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect.Builder subBuilder = null;
               if (syncCase_ == 15) {
-                subBuilder = ((emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect) sync_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect) sync_).toBuilder();
               }
               sync_ =
-                  input.readMessage(emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect) sync_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect) sync_);
                 sync_ = subBuilder.buildPartial();
               }
               syncCase_ = 15;
@@ -524,21 +524,21 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
      * @return The syncPing.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing getSyncPing() {
+    public emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing getSyncPing() {
       if (syncCase_ == 4) {
-         return (emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing) sync_;
+         return (emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing) sync_;
       }
-      return emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing.getDefaultInstance();
+      return emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing.getDefaultInstance();
     }
     /**
      * <code>._FilmfestBallGameSyncPing sync_ping = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPingOrBuilder getSyncPingOrBuilder() {
+    public emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPingOrBuilder getSyncPingOrBuilder() {
       if (syncCase_ == 4) {
-         return (emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing) sync_;
+         return (emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing) sync_;
       }
-      return emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing.getDefaultInstance();
+      return emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing.getDefaultInstance();
     }
 
     public static final int SYNC_FINISH_GAME_FIELD_NUMBER = 6;
@@ -555,21 +555,21 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
      * @return The syncFinishGame.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame getSyncFinishGame() {
+    public emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame getSyncFinishGame() {
       if (syncCase_ == 6) {
-         return (emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame) sync_;
+         return (emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame) sync_;
       }
-      return emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame.getDefaultInstance();
+      return emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame.getDefaultInstance();
     }
     /**
      * <code>._FilmfestBallGameSyncFinishGame sync_finish_game = 6;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGameOrBuilder getSyncFinishGameOrBuilder() {
+    public emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGameOrBuilder getSyncFinishGameOrBuilder() {
       if (syncCase_ == 6) {
-         return (emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame) sync_;
+         return (emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame) sync_;
       }
-      return emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame.getDefaultInstance();
+      return emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame.getDefaultInstance();
     }
 
     public static final int SYNC_ACTION_FIELD_NUMBER = 7;
@@ -586,21 +586,21 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
      * @return The syncAction.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction getSyncAction() {
+    public emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction getSyncAction() {
       if (syncCase_ == 7) {
-         return (emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction) sync_;
+         return (emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction) sync_;
       }
-      return emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction.getDefaultInstance();
+      return emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction.getDefaultInstance();
     }
     /**
      * <code>._FilmfestBallGameSyncAction sync_action = 7;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncActionOrBuilder getSyncActionOrBuilder() {
+    public emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncActionOrBuilder getSyncActionOrBuilder() {
       if (syncCase_ == 7) {
-         return (emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction) sync_;
+         return (emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction) sync_;
       }
-      return emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction.getDefaultInstance();
+      return emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction.getDefaultInstance();
     }
 
     public static final int SYNC_SNAP_SHOT_FIELD_NUMBER = 11;
@@ -617,21 +617,21 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
      * @return The syncSnapShot.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot getSyncSnapShot() {
+    public emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot getSyncSnapShot() {
       if (syncCase_ == 11) {
-         return (emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot) sync_;
+         return (emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot) sync_;
       }
-      return emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot.getDefaultInstance();
+      return emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot.getDefaultInstance();
     }
     /**
      * <code>._FilmfestBallGameSyncSnapShot sync_snap_shot = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShotOrBuilder getSyncSnapShotOrBuilder() {
+    public emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShotOrBuilder getSyncSnapShotOrBuilder() {
       if (syncCase_ == 11) {
-         return (emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot) sync_;
+         return (emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot) sync_;
       }
-      return emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot.getDefaultInstance();
+      return emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot.getDefaultInstance();
     }
 
     public static final int SYNC_CREATE_CONNECT_FIELD_NUMBER = 15;
@@ -648,21 +648,21 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
      * @return The syncCreateConnect.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect getSyncCreateConnect() {
+    public emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect getSyncCreateConnect() {
       if (syncCase_ == 15) {
-         return (emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect) sync_;
+         return (emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect) sync_;
       }
-      return emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect.getDefaultInstance();
+      return emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect.getDefaultInstance();
     }
     /**
      * <code>._FilmfestBallGameSyncCreateConnect sync_create_connect = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnectOrBuilder getSyncCreateConnectOrBuilder() {
+    public emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnectOrBuilder getSyncCreateConnectOrBuilder() {
       if (syncCase_ == 15) {
-         return (emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect) sync_;
+         return (emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect) sync_;
       }
-      return emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect.getDefaultInstance();
+      return emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -686,19 +686,19 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
         output.writeEnum(2, syncType_);
       }
       if (syncCase_ == 4) {
-        output.writeMessage(4, (emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing) sync_);
+        output.writeMessage(4, (emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing) sync_);
       }
       if (syncCase_ == 6) {
-        output.writeMessage(6, (emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame) sync_);
+        output.writeMessage(6, (emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame) sync_);
       }
       if (syncCase_ == 7) {
-        output.writeMessage(7, (emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction) sync_);
+        output.writeMessage(7, (emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction) sync_);
       }
       if (syncCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot) sync_);
+        output.writeMessage(11, (emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot) sync_);
       }
       if (syncCase_ == 15) {
-        output.writeMessage(15, (emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect) sync_);
+        output.writeMessage(15, (emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect) sync_);
       }
       unknownFields.writeTo(output);
     }
@@ -719,23 +719,23 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       }
       if (syncCase_ == 4) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, (emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing) sync_);
+          .computeMessageSize(4, (emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing) sync_);
       }
       if (syncCase_ == 6) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, (emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame) sync_);
+          .computeMessageSize(6, (emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame) sync_);
       }
       if (syncCase_ == 7) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, (emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction) sync_);
+          .computeMessageSize(7, (emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction) sync_);
       }
       if (syncCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot) sync_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot) sync_);
       }
       if (syncCase_ == 15) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, (emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect) sync_);
+          .computeMessageSize(15, (emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect) sync_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1231,7 +1231,7 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing, emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing.Builder, emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPingOrBuilder> syncPingBuilder_;
+          emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing, emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing.Builder, emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPingOrBuilder> syncPingBuilder_;
       /**
        * <code>._FilmfestBallGameSyncPing sync_ping = 4;</code>
        * @return Whether the syncPing field is set.
@@ -1245,23 +1245,23 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
        * @return The syncPing.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing getSyncPing() {
+      public emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing getSyncPing() {
         if (syncPingBuilder_ == null) {
           if (syncCase_ == 4) {
-            return (emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing) sync_;
+            return (emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing) sync_;
           }
-          return emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing.getDefaultInstance();
+          return emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing.getDefaultInstance();
         } else {
           if (syncCase_ == 4) {
             return syncPingBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing.getDefaultInstance();
+          return emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing.getDefaultInstance();
         }
       }
       /**
        * <code>._FilmfestBallGameSyncPing sync_ping = 4;</code>
        */
-      public Builder setSyncPing(emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing value) {
+      public Builder setSyncPing(emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing value) {
         if (syncPingBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1278,7 +1278,7 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
        * <code>._FilmfestBallGameSyncPing sync_ping = 4;</code>
        */
       public Builder setSyncPing(
-          emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing.Builder builderForValue) {
+          emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing.Builder builderForValue) {
         if (syncPingBuilder_ == null) {
           sync_ = builderForValue.build();
           onChanged();
@@ -1291,11 +1291,11 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       /**
        * <code>._FilmfestBallGameSyncPing sync_ping = 4;</code>
        */
-      public Builder mergeSyncPing(emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing value) {
+      public Builder mergeSyncPing(emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing value) {
         if (syncPingBuilder_ == null) {
           if (syncCase_ == 4 &&
-              sync_ != emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing.getDefaultInstance()) {
-            sync_ = emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing.newBuilder((emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing) sync_)
+              sync_ != emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing.getDefaultInstance()) {
+            sync_ = emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing.newBuilder((emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing) sync_)
                 .mergeFrom(value).buildPartial();
           } else {
             sync_ = value;
@@ -1332,36 +1332,36 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       /**
        * <code>._FilmfestBallGameSyncPing sync_ping = 4;</code>
        */
-      public emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing.Builder getSyncPingBuilder() {
+      public emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing.Builder getSyncPingBuilder() {
         return getSyncPingFieldBuilder().getBuilder();
       }
       /**
        * <code>._FilmfestBallGameSyncPing sync_ping = 4;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPingOrBuilder getSyncPingOrBuilder() {
+      public emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPingOrBuilder getSyncPingOrBuilder() {
         if ((syncCase_ == 4) && (syncPingBuilder_ != null)) {
           return syncPingBuilder_.getMessageOrBuilder();
         } else {
           if (syncCase_ == 4) {
-            return (emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing) sync_;
+            return (emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing) sync_;
           }
-          return emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing.getDefaultInstance();
+          return emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing.getDefaultInstance();
         }
       }
       /**
        * <code>._FilmfestBallGameSyncPing sync_ping = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing, emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing.Builder, emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPingOrBuilder> 
+          emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing, emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing.Builder, emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPingOrBuilder> 
           getSyncPingFieldBuilder() {
         if (syncPingBuilder_ == null) {
           if (!(syncCase_ == 4)) {
-            sync_ = emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing.getDefaultInstance();
+            sync_ = emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing.getDefaultInstance();
           }
           syncPingBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing, emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing.Builder, emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPingOrBuilder>(
-                  (emu.grasscutter.net.proto.FilmfestBallGameSyncPing._FilmfestBallGameSyncPing) sync_,
+              emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing, emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing.Builder, emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPingOrBuilder>(
+                  (emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass._FilmfestBallGameSyncPing) sync_,
                   getParentForChildren(),
                   isClean());
           sync_ = null;
@@ -1372,7 +1372,7 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame, emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame.Builder, emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGameOrBuilder> syncFinishGameBuilder_;
+          emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame, emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame.Builder, emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGameOrBuilder> syncFinishGameBuilder_;
       /**
        * <code>._FilmfestBallGameSyncFinishGame sync_finish_game = 6;</code>
        * @return Whether the syncFinishGame field is set.
@@ -1386,23 +1386,23 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
        * @return The syncFinishGame.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame getSyncFinishGame() {
+      public emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame getSyncFinishGame() {
         if (syncFinishGameBuilder_ == null) {
           if (syncCase_ == 6) {
-            return (emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame) sync_;
+            return (emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame) sync_;
           }
-          return emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame.getDefaultInstance();
+          return emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame.getDefaultInstance();
         } else {
           if (syncCase_ == 6) {
             return syncFinishGameBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame.getDefaultInstance();
+          return emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame.getDefaultInstance();
         }
       }
       /**
        * <code>._FilmfestBallGameSyncFinishGame sync_finish_game = 6;</code>
        */
-      public Builder setSyncFinishGame(emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame value) {
+      public Builder setSyncFinishGame(emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame value) {
         if (syncFinishGameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1419,7 +1419,7 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
        * <code>._FilmfestBallGameSyncFinishGame sync_finish_game = 6;</code>
        */
       public Builder setSyncFinishGame(
-          emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame.Builder builderForValue) {
+          emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame.Builder builderForValue) {
         if (syncFinishGameBuilder_ == null) {
           sync_ = builderForValue.build();
           onChanged();
@@ -1432,11 +1432,11 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       /**
        * <code>._FilmfestBallGameSyncFinishGame sync_finish_game = 6;</code>
        */
-      public Builder mergeSyncFinishGame(emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame value) {
+      public Builder mergeSyncFinishGame(emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame value) {
         if (syncFinishGameBuilder_ == null) {
           if (syncCase_ == 6 &&
-              sync_ != emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame.getDefaultInstance()) {
-            sync_ = emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame.newBuilder((emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame) sync_)
+              sync_ != emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame.getDefaultInstance()) {
+            sync_ = emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame.newBuilder((emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame) sync_)
                 .mergeFrom(value).buildPartial();
           } else {
             sync_ = value;
@@ -1473,36 +1473,36 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       /**
        * <code>._FilmfestBallGameSyncFinishGame sync_finish_game = 6;</code>
        */
-      public emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame.Builder getSyncFinishGameBuilder() {
+      public emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame.Builder getSyncFinishGameBuilder() {
         return getSyncFinishGameFieldBuilder().getBuilder();
       }
       /**
        * <code>._FilmfestBallGameSyncFinishGame sync_finish_game = 6;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGameOrBuilder getSyncFinishGameOrBuilder() {
+      public emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGameOrBuilder getSyncFinishGameOrBuilder() {
         if ((syncCase_ == 6) && (syncFinishGameBuilder_ != null)) {
           return syncFinishGameBuilder_.getMessageOrBuilder();
         } else {
           if (syncCase_ == 6) {
-            return (emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame) sync_;
+            return (emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame) sync_;
           }
-          return emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame.getDefaultInstance();
+          return emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame.getDefaultInstance();
         }
       }
       /**
        * <code>._FilmfestBallGameSyncFinishGame sync_finish_game = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame, emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame.Builder, emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGameOrBuilder> 
+          emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame, emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame.Builder, emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGameOrBuilder> 
           getSyncFinishGameFieldBuilder() {
         if (syncFinishGameBuilder_ == null) {
           if (!(syncCase_ == 6)) {
-            sync_ = emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame.getDefaultInstance();
+            sync_ = emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame.getDefaultInstance();
           }
           syncFinishGameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame, emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame.Builder, emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGameOrBuilder>(
-                  (emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame._FilmfestBallGameSyncFinishGame) sync_,
+              emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame, emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame.Builder, emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGameOrBuilder>(
+                  (emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass._FilmfestBallGameSyncFinishGame) sync_,
                   getParentForChildren(),
                   isClean());
           sync_ = null;
@@ -1513,7 +1513,7 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction, emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction.Builder, emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncActionOrBuilder> syncActionBuilder_;
+          emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction, emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction.Builder, emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncActionOrBuilder> syncActionBuilder_;
       /**
        * <code>._FilmfestBallGameSyncAction sync_action = 7;</code>
        * @return Whether the syncAction field is set.
@@ -1527,23 +1527,23 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
        * @return The syncAction.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction getSyncAction() {
+      public emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction getSyncAction() {
         if (syncActionBuilder_ == null) {
           if (syncCase_ == 7) {
-            return (emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction) sync_;
+            return (emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction) sync_;
           }
-          return emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction.getDefaultInstance();
+          return emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction.getDefaultInstance();
         } else {
           if (syncCase_ == 7) {
             return syncActionBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction.getDefaultInstance();
+          return emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction.getDefaultInstance();
         }
       }
       /**
        * <code>._FilmfestBallGameSyncAction sync_action = 7;</code>
        */
-      public Builder setSyncAction(emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction value) {
+      public Builder setSyncAction(emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction value) {
         if (syncActionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1560,7 +1560,7 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
        * <code>._FilmfestBallGameSyncAction sync_action = 7;</code>
        */
       public Builder setSyncAction(
-          emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction.Builder builderForValue) {
+          emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction.Builder builderForValue) {
         if (syncActionBuilder_ == null) {
           sync_ = builderForValue.build();
           onChanged();
@@ -1573,11 +1573,11 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       /**
        * <code>._FilmfestBallGameSyncAction sync_action = 7;</code>
        */
-      public Builder mergeSyncAction(emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction value) {
+      public Builder mergeSyncAction(emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction value) {
         if (syncActionBuilder_ == null) {
           if (syncCase_ == 7 &&
-              sync_ != emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction.getDefaultInstance()) {
-            sync_ = emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction.newBuilder((emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction) sync_)
+              sync_ != emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction.getDefaultInstance()) {
+            sync_ = emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction.newBuilder((emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction) sync_)
                 .mergeFrom(value).buildPartial();
           } else {
             sync_ = value;
@@ -1614,36 +1614,36 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       /**
        * <code>._FilmfestBallGameSyncAction sync_action = 7;</code>
        */
-      public emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction.Builder getSyncActionBuilder() {
+      public emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction.Builder getSyncActionBuilder() {
         return getSyncActionFieldBuilder().getBuilder();
       }
       /**
        * <code>._FilmfestBallGameSyncAction sync_action = 7;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncActionOrBuilder getSyncActionOrBuilder() {
+      public emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncActionOrBuilder getSyncActionOrBuilder() {
         if ((syncCase_ == 7) && (syncActionBuilder_ != null)) {
           return syncActionBuilder_.getMessageOrBuilder();
         } else {
           if (syncCase_ == 7) {
-            return (emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction) sync_;
+            return (emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction) sync_;
           }
-          return emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction.getDefaultInstance();
+          return emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction.getDefaultInstance();
         }
       }
       /**
        * <code>._FilmfestBallGameSyncAction sync_action = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction, emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction.Builder, emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncActionOrBuilder> 
+          emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction, emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction.Builder, emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncActionOrBuilder> 
           getSyncActionFieldBuilder() {
         if (syncActionBuilder_ == null) {
           if (!(syncCase_ == 7)) {
-            sync_ = emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction.getDefaultInstance();
+            sync_ = emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction.getDefaultInstance();
           }
           syncActionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction, emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction.Builder, emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncActionOrBuilder>(
-                  (emu.grasscutter.net.proto.FilmfestBallGameSyncAction._FilmfestBallGameSyncAction) sync_,
+              emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction, emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction.Builder, emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncActionOrBuilder>(
+                  (emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass._FilmfestBallGameSyncAction) sync_,
                   getParentForChildren(),
                   isClean());
           sync_ = null;
@@ -1654,7 +1654,7 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot, emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot.Builder, emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShotOrBuilder> syncSnapShotBuilder_;
+          emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot, emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot.Builder, emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShotOrBuilder> syncSnapShotBuilder_;
       /**
        * <code>._FilmfestBallGameSyncSnapShot sync_snap_shot = 11;</code>
        * @return Whether the syncSnapShot field is set.
@@ -1668,23 +1668,23 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
        * @return The syncSnapShot.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot getSyncSnapShot() {
+      public emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot getSyncSnapShot() {
         if (syncSnapShotBuilder_ == null) {
           if (syncCase_ == 11) {
-            return (emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot) sync_;
+            return (emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot) sync_;
           }
-          return emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot.getDefaultInstance();
+          return emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot.getDefaultInstance();
         } else {
           if (syncCase_ == 11) {
             return syncSnapShotBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot.getDefaultInstance();
+          return emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot.getDefaultInstance();
         }
       }
       /**
        * <code>._FilmfestBallGameSyncSnapShot sync_snap_shot = 11;</code>
        */
-      public Builder setSyncSnapShot(emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot value) {
+      public Builder setSyncSnapShot(emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot value) {
         if (syncSnapShotBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1701,7 +1701,7 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
        * <code>._FilmfestBallGameSyncSnapShot sync_snap_shot = 11;</code>
        */
       public Builder setSyncSnapShot(
-          emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot.Builder builderForValue) {
+          emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot.Builder builderForValue) {
         if (syncSnapShotBuilder_ == null) {
           sync_ = builderForValue.build();
           onChanged();
@@ -1714,11 +1714,11 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       /**
        * <code>._FilmfestBallGameSyncSnapShot sync_snap_shot = 11;</code>
        */
-      public Builder mergeSyncSnapShot(emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot value) {
+      public Builder mergeSyncSnapShot(emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot value) {
         if (syncSnapShotBuilder_ == null) {
           if (syncCase_ == 11 &&
-              sync_ != emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot.getDefaultInstance()) {
-            sync_ = emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot.newBuilder((emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot) sync_)
+              sync_ != emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot.getDefaultInstance()) {
+            sync_ = emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot.newBuilder((emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot) sync_)
                 .mergeFrom(value).buildPartial();
           } else {
             sync_ = value;
@@ -1755,36 +1755,36 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       /**
        * <code>._FilmfestBallGameSyncSnapShot sync_snap_shot = 11;</code>
        */
-      public emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot.Builder getSyncSnapShotBuilder() {
+      public emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot.Builder getSyncSnapShotBuilder() {
         return getSyncSnapShotFieldBuilder().getBuilder();
       }
       /**
        * <code>._FilmfestBallGameSyncSnapShot sync_snap_shot = 11;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShotOrBuilder getSyncSnapShotOrBuilder() {
+      public emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShotOrBuilder getSyncSnapShotOrBuilder() {
         if ((syncCase_ == 11) && (syncSnapShotBuilder_ != null)) {
           return syncSnapShotBuilder_.getMessageOrBuilder();
         } else {
           if (syncCase_ == 11) {
-            return (emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot) sync_;
+            return (emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot) sync_;
           }
-          return emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot.getDefaultInstance();
+          return emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot.getDefaultInstance();
         }
       }
       /**
        * <code>._FilmfestBallGameSyncSnapShot sync_snap_shot = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot, emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot.Builder, emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShotOrBuilder> 
+          emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot, emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot.Builder, emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShotOrBuilder> 
           getSyncSnapShotFieldBuilder() {
         if (syncSnapShotBuilder_ == null) {
           if (!(syncCase_ == 11)) {
-            sync_ = emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot.getDefaultInstance();
+            sync_ = emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot.getDefaultInstance();
           }
           syncSnapShotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot, emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot.Builder, emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShotOrBuilder>(
-                  (emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot._FilmfestBallGameSyncSnapShot) sync_,
+              emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot, emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot.Builder, emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShotOrBuilder>(
+                  (emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass._FilmfestBallGameSyncSnapShot) sync_,
                   getParentForChildren(),
                   isClean());
           sync_ = null;
@@ -1795,7 +1795,7 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect, emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect.Builder, emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnectOrBuilder> syncCreateConnectBuilder_;
+          emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect, emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect.Builder, emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnectOrBuilder> syncCreateConnectBuilder_;
       /**
        * <code>._FilmfestBallGameSyncCreateConnect sync_create_connect = 15;</code>
        * @return Whether the syncCreateConnect field is set.
@@ -1809,23 +1809,23 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
        * @return The syncCreateConnect.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect getSyncCreateConnect() {
+      public emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect getSyncCreateConnect() {
         if (syncCreateConnectBuilder_ == null) {
           if (syncCase_ == 15) {
-            return (emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect) sync_;
+            return (emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect) sync_;
           }
-          return emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect.getDefaultInstance();
+          return emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect.getDefaultInstance();
         } else {
           if (syncCase_ == 15) {
             return syncCreateConnectBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect.getDefaultInstance();
+          return emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect.getDefaultInstance();
         }
       }
       /**
        * <code>._FilmfestBallGameSyncCreateConnect sync_create_connect = 15;</code>
        */
-      public Builder setSyncCreateConnect(emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect value) {
+      public Builder setSyncCreateConnect(emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect value) {
         if (syncCreateConnectBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1842,7 +1842,7 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
        * <code>._FilmfestBallGameSyncCreateConnect sync_create_connect = 15;</code>
        */
       public Builder setSyncCreateConnect(
-          emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect.Builder builderForValue) {
+          emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect.Builder builderForValue) {
         if (syncCreateConnectBuilder_ == null) {
           sync_ = builderForValue.build();
           onChanged();
@@ -1855,11 +1855,11 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       /**
        * <code>._FilmfestBallGameSyncCreateConnect sync_create_connect = 15;</code>
        */
-      public Builder mergeSyncCreateConnect(emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect value) {
+      public Builder mergeSyncCreateConnect(emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect value) {
         if (syncCreateConnectBuilder_ == null) {
           if (syncCase_ == 15 &&
-              sync_ != emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect.getDefaultInstance()) {
-            sync_ = emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect.newBuilder((emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect) sync_)
+              sync_ != emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect.getDefaultInstance()) {
+            sync_ = emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect.newBuilder((emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect) sync_)
                 .mergeFrom(value).buildPartial();
           } else {
             sync_ = value;
@@ -1896,36 +1896,36 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       /**
        * <code>._FilmfestBallGameSyncCreateConnect sync_create_connect = 15;</code>
        */
-      public emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect.Builder getSyncCreateConnectBuilder() {
+      public emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect.Builder getSyncCreateConnectBuilder() {
         return getSyncCreateConnectFieldBuilder().getBuilder();
       }
       /**
        * <code>._FilmfestBallGameSyncCreateConnect sync_create_connect = 15;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnectOrBuilder getSyncCreateConnectOrBuilder() {
+      public emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnectOrBuilder getSyncCreateConnectOrBuilder() {
         if ((syncCase_ == 15) && (syncCreateConnectBuilder_ != null)) {
           return syncCreateConnectBuilder_.getMessageOrBuilder();
         } else {
           if (syncCase_ == 15) {
-            return (emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect) sync_;
+            return (emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect) sync_;
           }
-          return emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect.getDefaultInstance();
+          return emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect.getDefaultInstance();
         }
       }
       /**
        * <code>._FilmfestBallGameSyncCreateConnect sync_create_connect = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect, emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect.Builder, emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnectOrBuilder> 
+          emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect, emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect.Builder, emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnectOrBuilder> 
           getSyncCreateConnectFieldBuilder() {
         if (syncCreateConnectBuilder_ == null) {
           if (!(syncCase_ == 15)) {
-            sync_ = emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect.getDefaultInstance();
+            sync_ = emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect.getDefaultInstance();
           }
           syncCreateConnectBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect, emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect.Builder, emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnectOrBuilder>(
-                  (emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect._FilmfestBallGameSyncCreateConnect) sync_,
+              emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect, emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect.Builder, emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnectOrBuilder>(
+                  (emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass._FilmfestBallGameSyncCreateConnect) sync_,
                   getParentForChildren(),
                   isClean());
           sync_ = null;
@@ -2022,17 +2022,18 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       "cType_PING\020\003\022\031\n\025_SyncType_FINISH_GAME\020\004\022" +
       "\027\n\023_SyncType_SNAP_SHOT\020\005\022\024\n\020_SyncType_AC" +
       "TION\020\006\022%\n!_SyncType_SNAP_SHOT_FOR_DEBUG_" +
-      "LOG\020\007B\006\n\004syncB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "LOG\020\007B\006\n\004syncBC\n\031emu.grasscutter.net.pro" +
+      "toB&AbilityMixinFilmfestBallGameOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.FilmfestBallGameSyncAction.getDescriptor(),
-          emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect.getDescriptor(),
-          emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame.getDescriptor(),
-          emu.grasscutter.net.proto.FilmfestBallGameSyncPing.getDescriptor(),
-          emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot.getDescriptor(),
+          emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass.getDescriptor(),
         });
     internal_static_AbilityMixinFilmfestBallGame_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2040,11 +2041,11 @@ public final class AbilityMixinFilmfestBallGameOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AbilityMixinFilmfestBallGame_descriptor,
         new java.lang.String[] { "Retcode", "SyncType", "SyncPing", "SyncFinishGame", "SyncAction", "SyncSnapShot", "SyncCreateConnect", "Sync", });
-    emu.grasscutter.net.proto.FilmfestBallGameSyncAction.getDescriptor();
-    emu.grasscutter.net.proto.FilmfestBallGameSyncCreateConnect.getDescriptor();
-    emu.grasscutter.net.proto.FilmfestBallGameSyncFinishGame.getDescriptor();
-    emu.grasscutter.net.proto.FilmfestBallGameSyncPing.getDescriptor();
-    emu.grasscutter.net.proto.FilmfestBallGameSyncSnapShot.getDescriptor();
+    emu.grasscutter.net.proto._FilmfestBallGameSyncActionOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._FilmfestBallGameSyncCreateConnectOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._FilmfestBallGameSyncFinishGameOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._FilmfestBallGameSyncPingOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._FilmfestBallGameSyncSnapShotOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

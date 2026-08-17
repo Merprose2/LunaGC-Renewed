@@ -795,8 +795,9 @@ public final class ChannellerSlabLoopDungeonSelectConditionReqOuterClass {
       "onReq.proto\"v\n+ChannellerSlabLoopDungeon" +
       "SelectConditionReq\022\031\n\021condition_id_list\030" +
       "\001 \003(\r\022\025\n\rdifficulty_id\030\t \001(\r\022\025\n\rdungeon_" +
-      "index\030\013 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "index\030\013 \001(\rBR\n\031emu.grasscutter.net.proto" +
+      "B5ChannellerSlabLoopDungeonSelectConditi" +
+      "onReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

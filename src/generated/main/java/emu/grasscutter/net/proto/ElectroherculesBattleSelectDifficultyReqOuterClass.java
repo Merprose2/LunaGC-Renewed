@@ -597,8 +597,9 @@ public final class ElectroherculesBattleSelectDifficultyReqOuterClass {
       "\n.ElectroherculesBattleSelectDifficultyR" +
       "eq.proto\"O\n(ElectroherculesBattleSelectD" +
       "ifficultyReq\022\020\n\010stage_id\030\006 \001(\r\022\021\n\tdiffcu" +
-      "lty\030\007 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "lty\030\007 \001(\rBO\n\031emu.grasscutter.net.protoB2" +
+      "ElectroherculesBattleSelectDifficultyReq" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

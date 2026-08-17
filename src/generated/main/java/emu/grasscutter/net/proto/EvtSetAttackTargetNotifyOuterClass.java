@@ -769,8 +769,8 @@ public final class EvtSetAttackTargetNotifyOuterClass {
       "o\"{\n\030EvtSetAttackTargetNotify\022\"\n\014forward" +
       "_type\030\004 \001(\0162\014.ForwardType\022;\n\032evt_set_att" +
       "ack_target_info\030\n \001(\0132\027.EvtSetAttackTarg" +
-      "etInfoB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "etInfoB?\n\031emu.grasscutter.net.protoB\"Evt" +
+      "SetAttackTargetNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

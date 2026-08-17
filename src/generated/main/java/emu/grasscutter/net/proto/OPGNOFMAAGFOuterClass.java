@@ -525,8 +525,8 @@ public final class OPGNOFMAAGFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OPGNOFMAAGF.proto\"\"\n\013OPGNOFMAAGF\022\023\n\013DK" +
-      "NNANCIIGI\030\006 \001(\005B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "NNANCIIGI\030\006 \001(\005B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025OPGNOFMAAGFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

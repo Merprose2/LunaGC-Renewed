@@ -1684,8 +1684,9 @@ public final class NNGBNNMJABPOuterClass {
       "el\030\006 \001(\r\022!\n\013IMGAIHFOHFJ\030\010 \003(\0132\014.GKOENKAL" +
       "ADA\022\023\n\013OICODBBMDAO\030\013 \001(\010\022!\n\013BPIHKBCGHJA\030" +
       "\014 \001(\0132\014.DACMDDCLPNH\022!\n\013ELEPHHGAEMM\030\r \003(\013" +
-      "2\014.OEHOLOIDPEF\022\023\n\013FJKGOLJBKIM\030\017 \001(\010B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "2\014.OEHOLOIDPEF\022\023\n\013FJKGOLJBKIM\030\017 \001(\010B2\n\031e" +
+      "mu.grasscutter.net.protoB\025NNGBNNMJABPOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

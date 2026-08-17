@@ -729,8 +729,9 @@ public final class NGGCCLKBLMMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NGGCCLKBLMM.proto\032\021KJCJKLHAFHI.proto\"C" +
       "\n\013NGGCCLKBLMM\022\037\n\tshop_info\030\n \001(\0132\014.KJCJK" +
-      "LHAFHI\022\023\n\013MAPDMPBMDFH\030\r \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "LHAFHI\022\023\n\013MAPDMPBMDFH\030\r \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025NGGCCLKBLMMOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

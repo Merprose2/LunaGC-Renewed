@@ -740,8 +740,8 @@ public final class GOOJJBAFHMAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GOOJJBAFHMA.proto\"L\n\013GOOJJBAFHMA\022\023\n\013HA" +
       "MBELOJMDL\030\007 \001(\t\022\023\n\013DDPKJDKAJHA\030\013 \001(\010\022\023\n\013" +
-      "IHLNLCENJMF\030\016 \001(\010B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "IHLNLCENJMF\030\016 \001(\010B2\n\031emu.grasscutter.net" +
+      ".protoB\025GOOJJBAFHMAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -133,8 +133,8 @@ public final class IMMCFACHJJPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IMMCFACHJJP.proto*H\n\013IMMCFACHJJP\022\024\n\020IM" +
       "MCFACHJJP_NONE\020\000\022#\n\037IMMCFACHJJP_STRUCT_S" +
-      "UPPORT_FROG\020\001B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "UPPORT_FROG\020\001B2\n\031emu.grasscutter.net.pro" +
+      "toB\025IMMCFACHJJPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

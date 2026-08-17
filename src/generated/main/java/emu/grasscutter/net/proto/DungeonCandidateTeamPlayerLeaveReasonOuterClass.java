@@ -158,8 +158,9 @@ public final class DungeonCandidateTeamPlayerLeaveReasonOuterClass {
       "nCandidateTeamPlayerLeaveReason_DUNGEON_" +
       "CANDIDATE_TPLR_BE_KICK\020\002\022F\nBDungeonCandi" +
       "dateTeamPlayerLeaveReason_DUNGEON_CANDID" +
-      "ATE_DISCONNECT\020\003B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "ATE_DISCONNECT\020\003BL\n\031emu.grasscutter.net." +
+      "protoB/DungeonCandidateTeamPlayerLeaveRe" +
+      "asonOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -171,8 +171,9 @@ public final class KAAEKMCHCJAOuterClass {
       "AAEKMCHCJA_UNSPECIFIED\020\000\022\023\n\017KAAEKMCHCJA_" +
       "IOS\020\001\022\027\n\023KAAEKMCHCJA_ANDROID\020\002\022\031\n\025KAAEKM" +
       "CHCJA_PC_HANDLE\020\003\022\033\n\027KAAEKMCHCJA_PC_KEYB" +
-      "OARD\020\004\022\023\n\017KAAEKMCHCJA_WEB\020\005B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "OARD\020\004\022\023\n\017KAAEKMCHCJA_WEB\020\005B2\n\031emu.grass" +
+      "cutter.net.protoB\025KAAEKMCHCJAOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

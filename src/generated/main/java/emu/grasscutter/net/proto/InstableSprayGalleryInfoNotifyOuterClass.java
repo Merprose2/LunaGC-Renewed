@@ -526,8 +526,9 @@ public final class InstableSprayGalleryInfoNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n$InstableSprayGalleryInfoNotify.proto\"/" +
       "\n\036InstableSprayGalleryInfoNotify\022\r\n\005scor" +
-      "e\030\004 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "e\030\004 \001(\rBE\n\031emu.grasscutter.net.protoB(In" +
+      "stableSprayGalleryInfoNotifyOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

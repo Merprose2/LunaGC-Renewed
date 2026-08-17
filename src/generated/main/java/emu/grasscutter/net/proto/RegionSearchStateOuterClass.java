@@ -164,8 +164,9 @@ public final class RegionSearchStateOuterClass {
       "ARCH_UNSTARTED\020\001\022+\n\'RegionSearchState_RE" +
       "GION_SEARCH_STARTED\020\002\022/\n+RegionSearchSta" +
       "te_REGION_SEARCH_WAIT_REWARD\020\003\022,\n(Region" +
-      "SearchState_REGION_SEARCH_FINISHED\020\004B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "SearchState_REGION_SEARCH_FINISHED\020\004B8\n\031" +
+      "emu.grasscutter.net.protoB\033RegionSearchS" +
+      "tateOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

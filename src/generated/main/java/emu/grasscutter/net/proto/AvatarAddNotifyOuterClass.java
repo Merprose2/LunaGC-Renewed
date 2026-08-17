@@ -730,8 +730,9 @@ public final class AvatarAddNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025AvatarAddNotify.proto\032\020AvatarInfo.prot" +
       "o\"B\n\017AvatarAddNotify\022\022\n\nis_in_team\030\002 \001(\010" +
-      "\022\033\n\006avatar\030\005 \001(\0132\013.AvatarInfoB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\022\033\n\006avatar\030\005 \001(\0132\013.AvatarInfoB6\n\031emu.gra" +
+      "sscutter.net.protoB\031AvatarAddNotifyOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

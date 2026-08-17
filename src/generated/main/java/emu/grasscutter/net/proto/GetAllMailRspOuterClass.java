@@ -1044,8 +1044,9 @@ public final class GetAllMailRspOuterClass {
       "\n\023GetAllMailRsp.proto\032\016MailData.proto\"j\n" +
       "\rGetAllMailRsp\022\017\n\007retcode\030\003 \001(\005\022\024\n\014is_co" +
       "llected\030\t \001(\010\022\024\n\014is_truncated\030\r \001(\010\022\034\n\tm" +
-      "ail_list\030\016 \003(\0132\t.MailDataB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "ail_list\030\016 \003(\0132\t.MailDataB4\n\031emu.grasscu" +
+      "tter.net.protoB\027GetAllMailRspOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

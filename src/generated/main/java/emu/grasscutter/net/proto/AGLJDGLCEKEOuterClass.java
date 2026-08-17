@@ -133,8 +133,9 @@ public final class AGLJDGLCEKEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AGLJDGLCEKE.proto*S\n\013AGLJDGLCEKE\022\"\n\036AG" +
       "LJDGLCEKE_SELF_DEFINE_AVATAR\020\000\022 \n\034AGLJDG" +
-      "LCEKE_PRIMITIVE_AVATAR\020\001B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "LCEKE_PRIMITIVE_AVATAR\020\001B2\n\031emu.grasscut" +
+      "ter.net.protoB\025AGLJDGLCEKEOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

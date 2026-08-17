@@ -855,8 +855,9 @@ public final class LDGCGLKMJFOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LDGCGLKMJFO.proto\"W\n\013LDGCGLKMJFO\022\017\n\007ga" +
       "me_id\030\003 \001(\r\022\020\n\010level_id\030\004 \001(\r\022\022\n\naffix_l" +
-      "ist\030\005 \003(\r\022\021\n\tmax_score\030\t \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "ist\030\005 \003(\r\022\021\n\tmax_score\030\t \001(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025LDGCGLKMJFOOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

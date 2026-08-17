@@ -652,8 +652,8 @@ public final class GPJIGCECPMIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GPJIGCECPMI.proto\"#\n\013GPJIGCECPMI\022\024\n\014ma" +
-      "il_id_list\030\010 \003(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "il_id_list\030\010 \003(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025GPJIGCECPMIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

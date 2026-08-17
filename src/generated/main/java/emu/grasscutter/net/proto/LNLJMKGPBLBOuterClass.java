@@ -792,7 +792,8 @@ public final class LNLJMKGPBLBOuterClass {
       "\n\021LNLJMKGPBLB.proto\032\020Uint32Pair.proto\"S\n" +
       "\013LNLJMKGPBLB\022\020\n\010route_id\030\001 \001(\r\022\023\n\013PENFJO" +
       "IIEOF\030\005 \001(\r\022\035\n\010progress\030\r \001(\0132\013.Uint32Pa" +
-      "irB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "irB2\n\031emu.grasscutter.net.protoB\025LNLJMKG" +
+      "PBLBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

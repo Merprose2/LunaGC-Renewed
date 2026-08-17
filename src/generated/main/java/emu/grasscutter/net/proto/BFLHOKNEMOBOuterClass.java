@@ -823,8 +823,8 @@ public final class BFLHOKNEMOBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BFLHOKNEMOB.proto\032\021MGOCCEAHKGH.proto\"0" +
       "\n\013BFLHOKNEMOB\022!\n\013APLEDFLADEL\030\001 \003(\0132\014.MGO" +
-      "CCEAHKGHB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "CCEAHKGHB2\n\031emu.grasscutter.net.protoB\025B" +
+      "FLHOKNEMOBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

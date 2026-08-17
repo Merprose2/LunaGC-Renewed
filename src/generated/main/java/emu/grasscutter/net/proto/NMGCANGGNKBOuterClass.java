@@ -823,8 +823,8 @@ public final class NMGCANGGNKBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NMGCANGGNKB.proto\032\021GAJPJEMGABN.proto\"4" +
       "\n\013NMGCANGGNKB\022%\n\017level_info_list\030\002 \003(\0132\014" +
-      ".GAJPJEMGABNB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      ".GAJPJEMGABNB2\n\031emu.grasscutter.net.prot" +
+      "oB\025NMGCANGGNKBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

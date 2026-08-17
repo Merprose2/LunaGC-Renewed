@@ -897,8 +897,9 @@ public final class IDJDPINGAAPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IDJDPINGAAP.proto\032\021KHLFPLMLEFI.proto\"F" +
       "\n\013IDJDPINGAAP\022\023\n\013KPKKEHJNHKN\030\001 \001(\014\022\"\n\013LN" +
-      "GNIIPLNNP\030\365\003 \003(\0132\014.KHLFPLMLEFIB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "GNIIPLNNP\030\365\003 \003(\0132\014.KHLFPLMLEFIB2\n\031emu.gr" +
+      "asscutter.net.protoB\025IDJDPINGAAPOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

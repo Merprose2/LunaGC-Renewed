@@ -803,8 +803,8 @@ public final class OLEPAACDDGAOuterClass {
       "\n\021OLEPAACDDGA.proto\"v\n\013OLEPAACDDGA\022\023\n\013MJ" +
       "DEBFNLJBK\030\001 \001(\r\022\023\n\013FCMPMDCHHKF\030\002 \001(\010\022\023\n\013" +
       "OEBCOLBLBLA\030\003 \001(\010\022\023\n\013GLLLAJCCLFN\030\004 \001(\010\022\023" +
-      "\n\013COKHAGPGOIP\030\005 \001(\010B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013COKHAGPGOIP\030\005 \001(\010B2\n\031emu.grasscutter.n" +
+      "et.protoB\025OLEPAACDDGAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

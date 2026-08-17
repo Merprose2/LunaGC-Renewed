@@ -1177,7 +1177,8 @@ public final class PlayerStartMatchReqOuterClass {
       "\022\n\nmp_play_id\030\005 \001(\r\022\030\n\020match_param_list\030" +
       "\n \003(\r\022\022\n\ndungeon_id\030\014 \001(\r\022\020\n\010match_id\030\017 " +
       "\001(\r\022\"\n\013IFKLFPBPECD\030\306\010 \001(\0132\014.ACPPEBFNOKPB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      ":\n\031emu.grasscutter.net.protoB\035PlayerStar" +
+      "tMatchReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -968,8 +968,8 @@ public final class IOAEDPJLMIKOuterClass {
       "\n\021IOAEDPJLMIK.proto\032\021ALMOFCOLNPB.proto\"\\" +
       "\n\013IOAEDPJLMIK\022\023\n\013BCMIPAGBDEF\030\001 \001(\014\022\"\n\013EI" +
       "EAEPDODJB\030\365\003 \003(\0132\014.ALMOFCOLNPB\022\024\n\013BMEPGF" +
-      "KNJNG\030\366\003 \001(\005B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "KNJNG\030\366\003 \001(\005B2\n\031emu.grasscutter.net.prot" +
+      "oB\025IOAEDPJLMIKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

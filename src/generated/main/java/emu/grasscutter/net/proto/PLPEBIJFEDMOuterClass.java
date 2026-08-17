@@ -1457,8 +1457,9 @@ public final class PLPEBIJFEDMOuterClass {
       "FKJ\030\002 \001(\r\022\023\n\013AHNEJGILHFJ\030\003 \001(\010\022\023\n\013FNOKON" +
       "JKPAE\030\004 \001(\010\022\023\n\013EOMFDBPKOAK\030\005 \001(\010\022\023\n\013MJHB" +
       "DKCLFPA\030\006 \001(\002\022\023\n\013HLPIANKEBGB\030\007 \001(\002\022!\n\013MK" +
-      "OJIIPPDLH\030\010 \003(\0132\014.PGDMAIHKGFOB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "OJIIPPDLH\030\010 \003(\0132\014.PGDMAIHKGFOB2\n\031emu.gra" +
+      "sscutter.net.protoB\025PLPEBIJFEDMOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

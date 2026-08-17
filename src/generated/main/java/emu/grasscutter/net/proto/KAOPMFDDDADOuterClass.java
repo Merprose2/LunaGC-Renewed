@@ -972,8 +972,9 @@ public final class KAOPMFDDDADOuterClass {
       "\n\021KAOPMFDDDAD.proto\032\032ShortAbilityHashPai" +
       "r.proto\"i\n\013KAOPMFDDDAD\022\031\n\021ability_hash_c" +
       "ode\030\001 \001(\005\022*\n\013IEADFDOKJBA\030\002 \003(\0132\025.ShortAb" +
-      "ilityHashPair\022\023\n\013EJKPKJGADAI\030\r \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ilityHashPair\022\023\n\013EJKPKJGADAI\030\r \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025KAOPMFDDDADOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

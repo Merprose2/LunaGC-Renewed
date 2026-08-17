@@ -658,8 +658,8 @@ public final class BOOAMONBHIDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BOOAMONBHID.proto\"L\n\013BOOAMONBHID\022\023\n\013DJ" +
       "DAFKOLFIP\030\001 \001(\r\022\023\n\013GFGIELBIHBP\030\002 \001(\r\022\023\n\013" +
-      "BAJNCNLFPBJ\030\003 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "BAJNCNLFPBJ\030\003 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025BOOAMONBHIDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

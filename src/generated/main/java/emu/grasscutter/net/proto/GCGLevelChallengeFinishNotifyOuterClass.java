@@ -724,8 +724,9 @@ public final class GCGLevelChallengeFinishNotifyOuterClass {
       "\n#GCGLevelChallengeFinishNotify.proto\"U\n" +
       "\035GCGLevelChallengeFinishNotify\022\"\n\032finish" +
       "ed_challenge_id_list\030\006 \003(\r\022\020\n\010level_id\030\014" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rBD\n\031emu.grasscutter.net.protoB\'GCGLe" +
+      "velChallengeFinishNotifyOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

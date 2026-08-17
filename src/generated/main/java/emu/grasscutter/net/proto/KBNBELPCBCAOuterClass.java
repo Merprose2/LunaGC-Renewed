@@ -1016,8 +1016,8 @@ public final class KBNBELPCBCAOuterClass {
       "\001\n\013KBNBELPCBCA\022\023\n\013DMNMKHNMHIJ\030\001 \001(\004\022\023\n\013L" +
       "NBOBNINCCA\030\002 \001(\010\022\023\n\013NGPPBHFEOHN\030\003 \001(\t\022!\n" +
       "\013PLIPDAGEEOG\030\004 \001(\0132\014.BILAPFJMJND\022\023\n\013NBNN" +
-      "FAOPMFI\030\006 \001(\004B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "FAOPMFI\030\006 \001(\004B2\n\031emu.grasscutter.net.pro" +
+      "toB\025KBNBELPCBCAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -723,8 +723,9 @@ public final class FleurFairBalloonSettleInfoOuterClass {
       "\n FleurFairBalloonSettleInfo.proto\032\027Ball" +
       "oonSettleInfo.proto\"\\\n\032FleurFairBalloonS" +
       "ettleInfo\022\025\n\ris_new_record\030\005 \001(\010\022\'\n\013sett" +
-      "le_info\030\010 \001(\0132\022.BalloonSettleInfoB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "le_info\030\010 \001(\0132\022.BalloonSettleInfoBA\n\031emu" +
+      ".grasscutter.net.protoB$FleurFairBalloon" +
+      "SettleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -596,8 +596,9 @@ public final class MpPlayPrepareNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031MpPlayPrepareNotify.proto\"C\n\023MpPlayPre" +
       "pareNotify\022\022\n\nmp_play_id\030\001 \001(\r\022\030\n\020prepar" +
-      "e_end_time\030\004 \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "e_end_time\030\004 \001(\rB:\n\031emu.grasscutter.net." +
+      "protoB\035MpPlayPrepareNotifyOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

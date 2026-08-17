@@ -527,8 +527,9 @@ public final class DungeonCandidateTeamSetReadyReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n%DungeonCandidateTeamSetReadyReq.proto\"" +
       "3\n\037DungeonCandidateTeamSetReadyReq\022\020\n\010is" +
-      "_ready\030\r \001(\010B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "_ready\030\r \001(\010BF\n\031emu.grasscutter.net.prot" +
+      "oB)DungeonCandidateTeamSetReadyReqOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

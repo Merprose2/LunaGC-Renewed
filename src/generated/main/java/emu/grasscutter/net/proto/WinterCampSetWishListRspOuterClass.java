@@ -723,8 +723,9 @@ public final class WinterCampSetWishListRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036WinterCampSetWishListRsp.proto\"A\n\030Wint" +
       "erCampSetWishListRsp\022\017\n\007retcode\030\001 \001(\005\022\024\n" +
-      "\014item_id_list\030\n \003(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\014item_id_list\030\n \003(\rB?\n\031emu.grasscutter.n" +
+      "et.protoB\"WinterCampSetWishListRspOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

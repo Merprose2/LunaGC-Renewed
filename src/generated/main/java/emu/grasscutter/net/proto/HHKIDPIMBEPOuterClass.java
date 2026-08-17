@@ -668,8 +668,9 @@ public final class HHKIDPIMBEPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HHKIDPIMBEP.proto\"1\n\013HHKIDPIMBEP\022\023\n\013BM" +
-      "LABFHFEHB\030\001 \001(\t\022\r\n\005score\030\002 \001(\003B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "LABFHFEHB\030\001 \001(\t\022\r\n\005score\030\002 \001(\003B2\n\031emu.gr" +
+      "asscutter.net.protoB\025HHKIDPIMBEPOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

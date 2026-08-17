@@ -446,8 +446,9 @@ public final class GONCCBFNDMAOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021GONCCBFNDMA.proto\"\r\n\013GONCCBFNDMAB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021GONCCBFNDMA.proto\"\r\n\013GONCCBFNDMAB2\n\031em" +
+      "u.grasscutter.net.protoB\025GONCCBFNDMAOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

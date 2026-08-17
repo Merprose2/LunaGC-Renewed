@@ -737,8 +737,9 @@ public final class SelectAsterMidDifficultyRspOuterClass {
       "\n!SelectAsterMidDifficultyRsp.proto\"t\n\033S" +
       "electAsterMidDifficultyRsp\022\017\n\007retcode\030\014 " +
       "\001(\005\022\025\n\rdifficulty_id\030\r \001(\r\022\030\n\020gadget_ent" +
-      "ity_id\030\016 \001(\r\022\023\n\013schedule_id\030\017 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "ity_id\030\016 \001(\r\022\023\n\013schedule_id\030\017 \001(\rBB\n\031emu" +
+      ".grasscutter.net.protoB%SelectAsterMidDi" +
+      "fficultyRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

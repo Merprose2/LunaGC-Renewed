@@ -895,8 +895,9 @@ public final class PolygonRegionSizeOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027PolygonRegionSize.proto\032\021VectorPlane.p" +
       "roto\"E\n\021PolygonRegionSize\022 \n\npoint_list\030" +
-      "\004 \003(\0132\014.VectorPlane\022\016\n\006height\030\016 \001(\002B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\004 \003(\0132\014.VectorPlane\022\016\n\006height\030\016 \001(\002B8\n\031e" +
+      "mu.grasscutter.net.protoB\033PolygonRegionS" +
+      "izeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

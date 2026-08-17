@@ -526,8 +526,8 @@ public final class PlayerFishingDataNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035PlayerFishingDataNotify.proto\"3\n\027Playe" +
       "rFishingDataNotify\022\030\n\020last_fish_rod_id\030\n" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB>\n\031emu.grasscutter.net.protoB!Playe" +
+      "rFishingDataNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

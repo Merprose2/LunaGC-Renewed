@@ -1160,8 +1160,8 @@ public final class EffigyActivityDetailInfoOuterClass {
       "Info\022\032\n\022last_difficulty_id\030\003 \001(\r\022\037\n\027take" +
       "n_reward_index_list\030\010 \003(\r\022)\n\017daily_info_" +
       "list\030\013 \003(\0132\020.EffigyDailyInfo\022\021\n\tcur_scor" +
-      "e\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "e\030\014 \001(\rB?\n\031emu.grasscutter.net.protoB\"Ef" +
+      "figyActivityDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

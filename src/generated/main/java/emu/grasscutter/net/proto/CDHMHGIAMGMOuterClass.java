@@ -855,8 +855,9 @@ public final class CDHMHGIAMGMOuterClass {
       "\n\021CDHMHGIAMGM.proto\032\021HHADKHGOCPL.proto\032\021" +
       "IEJOILPHGBN.proto\"U\n\013CDHMHGIAMGM\022\"\n\013KINJ" +
       "AEDIIBB\030\365\003 \001(\0132\014.IEJOILPHGBN\022\"\n\013BDLEHOMB" +
-      "IGO\030\366\003 \001(\0132\014.HHADKHGOCPLB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "IGO\030\366\003 \001(\0132\014.HHADKHGOCPLB2\n\031emu.grasscut" +
+      "ter.net.protoB\025CDHMHGIAMGMOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

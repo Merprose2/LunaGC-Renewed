@@ -800,8 +800,8 @@ public final class NDLJLOKEEBFOuterClass {
       "\n\021NDLJLOKEEBF.proto\032\021JEDABPPFPPK.proto\"V" +
       "\n\013NDLJLOKEEBF\022!\n\013NBEAAGGCFHC\030\006 \001(\0132\014.JED" +
       "ABPPFPPK\022\023\n\013KMDOFBPMGAI\030\t \001(\r\022\017\n\007retcode" +
-      "\030\013 \001(\005B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\013 \001(\005B2\n\031emu.grasscutter.net.protoB\025NDL" +
+      "JLOKEEBFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

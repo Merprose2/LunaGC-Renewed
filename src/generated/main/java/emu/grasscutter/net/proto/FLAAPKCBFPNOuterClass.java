@@ -596,8 +596,9 @@ public final class FLAAPKCBFPNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FLAAPKCBFPN.proto\"0\n\013FLAAPKCBFPN\022\017\n\007re" +
-      "tcode\030\004 \001(\005\022\020\n\010is_agree\030\005 \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "tcode\030\004 \001(\005\022\020\n\010is_agree\030\005 \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025FLAAPKCBFPNOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

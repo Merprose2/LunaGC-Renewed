@@ -1238,8 +1238,9 @@ public final class KLCNKCBIENBOuterClass {
       "Uint32Pair.proto\"\200\001\n\013KLCNKCBIENB\022\035\n\010prog" +
       "ress\030\004 \001(\0132\013.Uint32Pair\022\n\n\002hp\030\006 \001(\r\022\023\n\013H" +
       "OAOJBKJFLE\030\t \001(\r\022\016\n\006max_hp\030\016 \001(\r\022!\n\013CLKE" +
-      "EOEPJGB\030\017 \003(\0132\014.EPHKKEDNINEB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "EOEPJGB\030\017 \003(\0132\014.EPHKKEDNINEB2\n\031emu.grass" +
+      "cutter.net.protoB\025KLCNKCBIENBOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

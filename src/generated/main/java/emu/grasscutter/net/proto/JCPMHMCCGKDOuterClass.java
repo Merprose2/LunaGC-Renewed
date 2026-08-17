@@ -668,8 +668,8 @@ public final class JCPMHMCCGKDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JCPMHMCCGKD.proto\"L\n\013JCPMHMCCGKD\022\020\n\010ug" +
       "c_guid\030\010 \001(\004\022\026\n\016music_basic_id\030\n \001(\r\022\023\n\013" +
-      "DFDEPKHJDBC\030\014 \001(\010B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "DFDEPKHJDBC\030\014 \001(\010B2\n\031emu.grasscutter.net" +
+      ".protoB\025JCPMHMCCGKDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

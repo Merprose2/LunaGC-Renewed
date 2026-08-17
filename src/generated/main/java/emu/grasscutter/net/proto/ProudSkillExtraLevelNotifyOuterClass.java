@@ -738,8 +738,9 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
       "\n ProudSkillExtraLevelNotify.proto\"p\n\032Pr" +
       "oudSkillExtraLevelNotify\022\023\n\013extra_level\030" +
       "\001 \001(\r\022\023\n\013PLKBGPNJANP\030\002 \001(\r\022\023\n\013avatar_gui" +
-      "d\030\n \001(\004\022\023\n\013DAGHKHFOMDA\030\013 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "d\030\n \001(\004\022\023\n\013DAGHKHFOMDA\030\013 \001(\rBA\n\031emu.gras" +
+      "scutter.net.protoB$ProudSkillExtraLevelN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

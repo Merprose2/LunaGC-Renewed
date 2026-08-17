@@ -668,7 +668,8 @@ public final class GetParentQuestVideoKeyRspOuterClass {
       "\n\037GetParentQuestVideoKeyRsp.proto\"X\n\031Get" +
       "ParentQuestVideoKeyRsp\022\021\n\tvideo_key\030\001 \001(" +
       "\004\022\017\n\007retcode\030\003 \001(\005\022\027\n\017parent_quest_id\030\r " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB@\n\031emu.grasscutter.net.protoB#GetPar" +
+      "entQuestVideoKeyRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -831,8 +831,9 @@ public final class AchievementUpdateNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035AchievementUpdateNotify.proto\032\021Achieve" +
       "ment.proto\"A\n\027AchievementUpdateNotify\022&\n" +
-      "\020achievement_list\030\005 \003(\0132\014.AchievementB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\020achievement_list\030\005 \003(\0132\014.AchievementB>\n" +
+      "\031emu.grasscutter.net.protoB!AchievementU" +
+      "pdateNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

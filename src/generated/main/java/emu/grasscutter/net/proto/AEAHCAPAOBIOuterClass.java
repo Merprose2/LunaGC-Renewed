@@ -143,8 +143,8 @@ public final class AEAHCAPAOBIOuterClass {
       "\n\021AEAHCAPAOBI.proto*i\n\013AEAHCAPAOBI\022\024\n\020AE" +
       "AHCAPAOBI_NONE\020\000\022!\n\035AEAHCAPAOBI_DAMESELE" +
       "TTE_LEAVE\020\001\022!\n\035AEAHCAPAOBI_NO_AVAILABLE_" +
-      "TASK\020\002B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "TASK\020\002B2\n\031emu.grasscutter.net.protoB\025AEA" +
+      "HCAPAOBIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

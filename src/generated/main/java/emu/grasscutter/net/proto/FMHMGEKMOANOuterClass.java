@@ -659,8 +659,8 @@ public final class FMHMGEKMOANOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FMHMGEKMOAN.proto\032\021KGIAKMNBILN.proto\"0" +
       "\n\013FMHMGEKMOAN\022!\n\013BOIMNOJKGIG\030\016 \001(\0132\014.KGI" +
-      "AKMNBILNB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "AKMNBILNB2\n\031emu.grasscutter.net.protoB\025F" +
+      "MHMGEKMOANOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

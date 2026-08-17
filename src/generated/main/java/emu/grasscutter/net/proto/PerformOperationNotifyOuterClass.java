@@ -1221,8 +1221,9 @@ public final class PerformOperationNotifyOuterClass {
       "type\030\n \001(\0162#.PerformOperationNotify.Oper" +
       "ateType\022\021\n\tentity_id\030\r \001(\r\022\024\n\003rot\030\016 \001(\0132" +
       "\007.Vector\";\n\013OperateType\022\024\n\020OperateType_N" +
-      "ONE\020\000\022\026\n\022OperateType_EFFECT\020\001B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ONE\020\000\022\026\n\022OperateType_EFFECT\020\001B=\n\031emu.gra" +
+      "sscutter.net.protoB PerformOperationNoti" +
+      "fyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -3243,8 +3243,9 @@ public final class GCGPlayerFieldOuterClass {
       "OCIBKJIOPK\030\243\004 \001(\r\022\024\n\013JDFHMOOMKPE\030\300\005 \001(\010\022" +
       "\024\n\013KHABGEGDNEB\030\213\013 \001(\r\022\024\n\013NKAHADLFHDD\030\356\016 " +
       "\001(\r\032>\n\022ModifyZoneMapEntry\022\013\n\003key\030\001 \001(\r\022\027" +
-      "\n\005value\030\002 \001(\0132\010.GCGZone:\0028\001B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\n\005value\030\002 \001(\0132\010.GCGZone:\0028\001B5\n\031emu.grass" +
+      "cutter.net.protoB\030GCGPlayerFieldOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

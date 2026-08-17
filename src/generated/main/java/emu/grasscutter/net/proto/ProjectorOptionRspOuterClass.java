@@ -666,8 +666,9 @@ public final class ProjectorOptionRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030ProjectorOptionRsp.proto\"I\n\022ProjectorO" +
       "ptionRsp\022\017\n\007op_type\030\003 \001(\r\022\017\n\007retcode\030\014 \001" +
-      "(\005\022\021\n\tentity_id\030\016 \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "(\005\022\021\n\tentity_id\030\016 \001(\rB9\n\031emu.grasscutter" +
+      ".net.protoB\034ProjectorOptionRspOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

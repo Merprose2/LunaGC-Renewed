@@ -525,8 +525,8 @@ public final class ELPNNNKEKBJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ELPNNNKEKBJ.proto\"\'\n\013ELPNNNKEKBJ\022\030\n\020pe" +
-      "rsonal_line_id\030\003 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "rsonal_line_id\030\003 \001(\rB2\n\031emu.grasscutter." +
+      "net.protoB\025ELPNNNKEKBJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

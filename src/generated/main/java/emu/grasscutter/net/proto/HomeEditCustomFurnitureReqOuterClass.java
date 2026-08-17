@@ -660,8 +660,9 @@ public final class HomeEditCustomFurnitureReqOuterClass {
       "\n HomeEditCustomFurnitureReq.proto\032\035Home" +
       "CustomFurnitureInfo.proto\"U\n\032HomeEditCus" +
       "tomFurnitureReq\0227\n\025custom_furniture_info" +
-      "\030\010 \001(\0132\030.HomeCustomFurnitureInfoB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\030\010 \001(\0132\030.HomeCustomFurnitureInfoBA\n\031emu." +
+      "grasscutter.net.protoB$HomeEditCustomFur" +
+      "nitureReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -799,8 +799,8 @@ public final class DHIBNBFOCEMOuterClass {
       "\n\021DHIBNBFOCEM.proto\"v\n\013DHIBNBFOCEM\022\023\n\013PG" +
       "GINEKHDDA\030\001 \001(\r\022\023\n\013KGDHIIGEFEJ\030\002 \001(\r\022\023\n\013" +
       "PABNKPPIIOF\030\003 \001(\r\022\023\n\013LADPONHOAIB\030\004 \001(\r\022\023" +
-      "\n\013MJFNLPLBIMJ\030\005 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013MJFNLPLBIMJ\030\005 \001(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025DHIBNBFOCEMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

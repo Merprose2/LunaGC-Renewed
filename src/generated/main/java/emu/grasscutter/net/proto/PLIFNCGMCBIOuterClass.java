@@ -1724,8 +1724,8 @@ public final class PLIFNCGMCBIOuterClass {
       "\002\022!\n\013PCGNFBIFNNB\030\010 \001(\0132\014.HHEDHCFPEKM\022!\n\013" +
       "IJFHPCEKJDH\030\t \001(\0132\014.HHEDHCFPEKM\022\023\n\013JEBIE" +
       "FDANFN\030\n \001(\010\022\023\n\013AKLMACPJBEM\030\013 \001(\005\022\023\n\013GJL" +
-      "PKGCBJGG\030\014 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "PKGCBJGG\030\014 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025PLIFNCGMCBIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

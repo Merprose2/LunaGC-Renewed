@@ -597,8 +597,9 @@ public final class AvatarChangeAnimHashReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035AvatarChangeAnimHashReq.proto\"A\n\027Avata" +
       "rChangeAnimHashReq\022\023\n\013avatar_guid\030\014 \001(\004\022" +
-      "\021\n\tanim_hash\030\016 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\021\n\tanim_hash\030\016 \001(\rB>\n\031emu.grasscutter.ne" +
+      "t.protoB!AvatarChangeAnimHashReqOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1310,8 +1310,8 @@ public final class MotionStateOuterClass {
       "ICLE_PARAM_DROP\020t\022(\n$MotionState_MOTION_" +
       "VEHICLE_PARAM_RUN\020u\022)\n%MotionState_MOTIO" +
       "N_VEHICLE_PARAM_MOVE\020v\022\032\n\026MotionState_MO" +
-      "TION_NUM\020wB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "TION_NUM\020wB2\n\031emu.grasscutter.net.protoB" +
+      "\025MotionStateOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

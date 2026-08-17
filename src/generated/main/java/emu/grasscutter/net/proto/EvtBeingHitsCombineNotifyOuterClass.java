@@ -940,8 +940,9 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       "ingHitInfo.proto\032\021ForwardType.proto\"r\n\031E" +
       "vtBeingHitsCombineNotify\022\"\n\014forward_type" +
       "\030\002 \001(\0162\014.ForwardType\0221\n\027evt_being_hit_in" +
-      "fo_list\030\016 \003(\0132\020.EvtBeingHitInfoB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "fo_list\030\016 \003(\0132\020.EvtBeingHitInfoB@\n\031emu.g" +
+      "rasscutter.net.protoB#EvtBeingHitsCombin" +
+      "eNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

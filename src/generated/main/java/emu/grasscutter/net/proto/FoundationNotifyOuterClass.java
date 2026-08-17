@@ -730,7 +730,8 @@ public final class FoundationNotifyOuterClass {
       "\n\026FoundationNotify.proto\032\024FoundationInfo" +
       ".proto\"K\n\020FoundationNotify\022\035\n\004info\030\002 \001(\013" +
       "2\017.FoundationInfo\022\030\n\020gadget_entity_id\030\n " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB7\n\031emu.grasscutter.net.protoB\032Founda" +
+      "tionNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

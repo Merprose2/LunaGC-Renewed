@@ -1471,8 +1471,8 @@ public final class GLKACKEMHJDOuterClass {
       "\013GLKACKEMHJD\022\014\n\004guid\030\001 \001(\r\022!\n\013PKFPJPEIJK" +
       "L\030\002 \001(\0132\014.EJFFMPFNPEL\022!\n\013MBAEDKEACOC\030\013 \003" +
       "(\0132\014.HNJFBKPOGJN\022!\n\013KMNNDDGDLFK\030\014 \003(\0132\014." +
-      "LOLJLHNCIHGB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "LOLJLHNCIHGB2\n\031emu.grasscutter.net.proto" +
+      "B\025GLKACKEMHJDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

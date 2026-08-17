@@ -753,8 +753,9 @@ public final class RegionSearchChangeRegionNotifyOuterClass {
       "ion_id\030\001 \001(\r\022:\n\005event\030\r \001(\0162+.RegionSear" +
       "chChangeRegionNotify.RegionEvent\"Q\n\013Regi" +
       "onEvent\022\024\n\020RegionEvent_NONE\020\000\022\025\n\021RegionE" +
-      "vent_ENTER\020\001\022\025\n\021RegionEvent_LEAVE\020\002B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "vent_ENTER\020\001\022\025\n\021RegionEvent_LEAVE\020\002BE\n\031e" +
+      "mu.grasscutter.net.protoB(RegionSearchCh" +
+      "angeRegionNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

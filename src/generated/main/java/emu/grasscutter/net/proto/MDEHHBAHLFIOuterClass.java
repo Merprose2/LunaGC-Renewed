@@ -1582,8 +1582,8 @@ public final class MDEHHBAHLFIOuterClass {
       " \001(\0162\014.ILELMKGEBKA\022\021\n\tgadget_id\030\007 \001(\r\022\024\n" +
       "\003rot\030\n \001(\0132\007.Vector\022\025\n\r_map_layer_id\030\013 \001" +
       "(\r\022\024\n\003pos\030\r \001(\0132\007.Vector\022\023\n\013LKIKEPHAKGH\030" +
-      "\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\017 \001(\010B2\n\031emu.grasscutter.net.protoB\025MDEH" +
+      "HBAHLFIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

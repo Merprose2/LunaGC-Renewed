@@ -660,7 +660,8 @@ public final class FleurFairDungeonSectionInfoOuterClass {
       "\n!FleurFairDungeonSectionInfo.proto\"U\n\033F" +
       "leurFairDungeonSectionInfo\022\021\n\topen_time\030" +
       "\001 \001(\r\022\017\n\007is_open\030\002 \001(\010\022\022\n\nsection_id\030\006 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rBB\n\031emu.grasscutter.net.protoB%FleurFa" +
+      "irDungeonSectionInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

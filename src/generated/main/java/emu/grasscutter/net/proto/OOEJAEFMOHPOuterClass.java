@@ -2596,8 +2596,9 @@ public final class OOEJAEFMOHPOuterClass {
       "JBOGIKP\022!\n\013ACEDBLNGBME\030\014 \001(\0132\014.ECEMJCLBA" +
       "EF\022!\n\013MDIALPEGCPH\030\r \001(\0132\014.OOGFLJCCEIF\022\023\n" +
       "\013OLGKBLEFOBB\030\016 \001(\010\022\023\n\013DEDPGKAJMNJ\030\017 \001(\010\022" +
-      "!\n\013FKKAGHEPMMP\030\020 \001(\0132\014.PJKJCCNMEOBB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "!\n\013FKKAGHEPMMP\030\020 \001(\0132\014.PJKJCCNMEOBB2\n\031em" +
+      "u.grasscutter.net.protoB\025OOEJAEFMOHPOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

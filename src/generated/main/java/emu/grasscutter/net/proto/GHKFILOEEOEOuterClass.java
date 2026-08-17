@@ -800,8 +800,8 @@ public final class GHKFILOEEOEOuterClass {
       "\n\021GHKFILOEEOE.proto\032\021AIOAIEIKFFD.proto\"V" +
       "\n\013GHKFILOEEOE\022\017\n\007retcode\030\001 \001(\005\022!\n\013NBEAAG" +
       "GCFHC\030\003 \001(\0132\014.AIOAIEIKFFD\022\023\n\013KMDOFBPMGAI" +
-      "\030\t \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\t \001(\rB2\n\031emu.grasscutter.net.protoB\025GHK" +
+      "FILOEEOEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

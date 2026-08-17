@@ -659,8 +659,9 @@ public final class GravenInnocencePhotoObjectInfoOuterClass {
       "\n$GravenInnocencePhotoObjectInfo.proto\"W" +
       "\n\036GravenInnocencePhotoObjectInfo\022\021\n\tobje" +
       "ct_id\030\004 \001(\r\022\r\n\005param\030\005 \001(\r\022\023\n\013finish_tim" +
-      "e\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "e\030\016 \001(\rBE\n\031emu.grasscutter.net.protoB(Gr" +
+      "avenInnocencePhotoObjectInfoOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

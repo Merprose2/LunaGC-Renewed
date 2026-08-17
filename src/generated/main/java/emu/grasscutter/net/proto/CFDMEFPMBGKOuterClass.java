@@ -595,8 +595,9 @@ public final class CFDMEFPMBGKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CFDMEFPMBGK.proto\"0\n\013CFDMEFPMBGK\022\017\n\007re" +
-      "tcode\030\007 \001(\005\022\020\n\010level_id\030\016 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "tcode\030\007 \001(\005\022\020\n\010level_id\030\016 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025CFDMEFPMBGKOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

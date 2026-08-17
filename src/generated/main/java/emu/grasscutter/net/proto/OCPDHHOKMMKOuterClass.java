@@ -142,8 +142,9 @@ public final class OCPDHHOKMMKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OCPDHHOKMMK.proto*R\n\013OCPDHHOKMMK\022\024\n\020OC" +
       "PDHHOKMMK_NONE\020\000\022\023\n\017OCPDHHOKMMK_ALL\020\001\022\030\n" +
-      "\024OCPDHHOKMMK_SPECIFIC\020\002B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\024OCPDHHOKMMK_SPECIFIC\020\002B2\n\031emu.grasscutt" +
+      "er.net.protoB\025OCPDHHOKMMKOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

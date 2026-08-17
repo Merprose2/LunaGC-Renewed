@@ -1889,8 +1889,9 @@ public final class FKDJIIDEDDBOuterClass {
       "2\014.LENDOJFOLAA\032@\n\020JIEKDALKMOMEntry\022\013\n\003ke" +
       "y\030\001 \001(\r\022\033\n\005value\030\002 \001(\0132\014.BBGOGNHNFOO:\0028\001" +
       "\032@\n\020IMPFOIACGOIEntry\022\013\n\003key\030\001 \001(\r\022\033\n\005val" +
-      "ue\030\002 \001(\0132\014.JBKJBOLANPP:\0028\001B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "ue\030\002 \001(\0132\014.JBKJBOLANPP:\0028\001B2\n\031emu.grassc" +
+      "utter.net.protoB\025FKDJIIDEDDBOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

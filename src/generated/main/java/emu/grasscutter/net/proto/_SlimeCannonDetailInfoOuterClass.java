@@ -19,27 +19,27 @@ public final class _SlimeCannonDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+     * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
      */
-    java.util.List<emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo> 
+    java.util.List<emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD> 
         getLevelInfoListList();
     /**
-     * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+     * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
      */
-    emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo getLevelInfoList(int index);
+    emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD getLevelInfoList(int index);
     /**
-     * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+     * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+     * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJDOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+     * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
      */
-    emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfoOrBuilder getLevelInfoListOrBuilder(
+    emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJDOrBuilder getLevelInfoListOrBuilder(
         int index);
   }
   /**
@@ -91,11 +91,11 @@ public final class _SlimeCannonDetailInfoOuterClass {
               break;
             case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo>();
+                levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD>();
                 mutable_bitField0_ |= 0x00000001;
               }
               levelInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -134,41 +134,41 @@ public final class _SlimeCannonDetailInfoOuterClass {
     }
 
     public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 15;
-    private java.util.List<emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo> levelInfoList_;
+    private java.util.List<emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD> levelInfoList_;
     /**
-     * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+     * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo> getLevelInfoListList() {
+    public java.util.List<emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+     * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJDOrBuilder> 
         getLevelInfoListOrBuilderList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+     * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+     * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo getLevelInfoList(int index) {
+    public emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+     * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfoOrBuilder getLevelInfoListOrBuilder(
+    public emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJDOrBuilder getLevelInfoListOrBuilder(
         int index) {
       return levelInfoList_.get(index);
     }
@@ -515,22 +515,22 @@ public final class _SlimeCannonDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo> levelInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD> levelInfoList_ =
         java.util.Collections.emptyList();
       private void ensureLevelInfoListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo>(levelInfoList_);
+          levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD>(levelInfoList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo, emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo.Builder, emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfoOrBuilder> levelInfoListBuilder_;
+          emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD, emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD.Builder, emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJDOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo> getLevelInfoListList() {
+      public java.util.List<emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(levelInfoList_);
         } else {
@@ -538,7 +538,7 @@ public final class _SlimeCannonDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -548,9 +548,9 @@ public final class _SlimeCannonDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
-      public emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo getLevelInfoList(int index) {
+      public emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
           return levelInfoList_.get(index);
         } else {
@@ -558,10 +558,10 @@ public final class _SlimeCannonDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
       public Builder setLevelInfoList(
-          int index, emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo value) {
+          int index, emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD value) {
         if (levelInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -575,10 +575,10 @@ public final class _SlimeCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
       public Builder setLevelInfoList(
-          int index, emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD.Builder builderForValue) {
         if (levelInfoListBuilder_ == null) {
           ensureLevelInfoListIsMutable();
           levelInfoList_.set(index, builderForValue.build());
@@ -589,9 +589,9 @@ public final class _SlimeCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
-      public Builder addLevelInfoList(emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo value) {
+      public Builder addLevelInfoList(emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD value) {
         if (levelInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -605,10 +605,10 @@ public final class _SlimeCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
       public Builder addLevelInfoList(
-          int index, emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo value) {
+          int index, emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD value) {
         if (levelInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -622,10 +622,10 @@ public final class _SlimeCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
       public Builder addLevelInfoList(
-          emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD.Builder builderForValue) {
         if (levelInfoListBuilder_ == null) {
           ensureLevelInfoListIsMutable();
           levelInfoList_.add(builderForValue.build());
@@ -636,10 +636,10 @@ public final class _SlimeCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
       public Builder addLevelInfoList(
-          int index, emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD.Builder builderForValue) {
         if (levelInfoListBuilder_ == null) {
           ensureLevelInfoListIsMutable();
           levelInfoList_.add(index, builderForValue.build());
@@ -650,10 +650,10 @@ public final class _SlimeCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
       public Builder addAllLevelInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD> values) {
         if (levelInfoListBuilder_ == null) {
           ensureLevelInfoListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -665,7 +665,7 @@ public final class _SlimeCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class _SlimeCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -691,16 +691,16 @@ public final class _SlimeCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
-      public emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo.Builder getLevelInfoListBuilder(
+      public emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
-      public emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfoOrBuilder getLevelInfoListOrBuilder(
+      public emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJDOrBuilder getLevelInfoListOrBuilder(
           int index) {
         if (levelInfoListBuilder_ == null) {
           return levelInfoList_.get(index);  } else {
@@ -708,9 +708,9 @@ public final class _SlimeCannonDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJDOrBuilder> 
            getLevelInfoListOrBuilderList() {
         if (levelInfoListBuilder_ != null) {
           return levelInfoListBuilder_.getMessageOrBuilderList();
@@ -719,33 +719,33 @@ public final class _SlimeCannonDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
-      public emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo.Builder addLevelInfoListBuilder() {
+      public emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo.getDefaultInstance());
+            emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD.getDefaultInstance());
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
-      public emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo.Builder addLevelInfoListBuilder(
+      public emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD.Builder addLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD.getDefaultInstance());
       }
       /**
-       * <code>repeated ._SlimeCannonLevelInfo level_info_list = 15;</code>
+       * <code>repeated .BMDLGJMFOJD level_info_list = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD.Builder> 
            getLevelInfoListBuilderList() {
         return getLevelInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo, emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo.Builder, emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfoOrBuilder> 
+          emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD, emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD.Builder, emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJDOrBuilder> 
           getLevelInfoListFieldBuilder() {
         if (levelInfoListBuilder_ == null) {
           levelInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo, emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfo.Builder, emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass._SlimeCannonLevelInfoOrBuilder>(
+              emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD, emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJD.Builder, emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.BMDLGJMFOJDOrBuilder>(
                   levelInfoList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -821,17 +821,16 @@ public final class _SlimeCannonDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034_SlimeCannonDetailInfo.proto\032\033_SlimeCa" +
-      "nnonLevelInfo.proto\"I\n\026_SlimeCannonDetai" +
-      "lInfo\022/\n\017level_info_list\030\017 \003(\0132\026._SlimeC" +
-      "annonLevelInfoB=\n\031emu.grasscutter.net.pr" +
-      "otoB _SlimeCannonDetailInfoOuterClassb\006p" +
-      "roto3"
+      "\n\034_SlimeCannonDetailInfo.proto\032\021BMDLGJMF" +
+      "OJD.proto\"?\n\026_SlimeCannonDetailInfo\022%\n\017l" +
+      "evel_info_list\030\017 \003(\0132\014.BMDLGJMFOJDB=\n\031em" +
+      "u.grasscutter.net.protoB _SlimeCannonDet" +
+      "ailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.getDescriptor(),
         });
     internal_static__SlimeCannonDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -839,7 +838,7 @@ public final class _SlimeCannonDetailInfoOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static__SlimeCannonDetailInfo_descriptor,
         new java.lang.String[] { "LevelInfoList", });
-    emu.grasscutter.net.proto._SlimeCannonLevelInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.BMDLGJMFOJDOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

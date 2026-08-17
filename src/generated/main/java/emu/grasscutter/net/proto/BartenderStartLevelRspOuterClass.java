@@ -864,8 +864,8 @@ public final class BartenderStartLevelRspOuterClass {
       "\n\034BartenderStartLevelRsp.proto\"]\n\026Barten" +
       "derStartLevelRsp\022\020\n\010level_id\030\004 \001(\r\022\017\n\007re" +
       "tcode\030\005 \001(\005\022\014\n\004time\030\007 \001(\r\022\022\n\norder_list\030" +
-      "\n \003(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\n \003(\rB=\n\031emu.grasscutter.net.protoB Bart" +
+      "enderStartLevelRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

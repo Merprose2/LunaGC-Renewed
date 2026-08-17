@@ -3852,8 +3852,9 @@ public final class GHEPCHOKIDJOuterClass {
       "\022\023\n\013LNIFMGJLDPF\030\016 \001(\010\022\023\n\013OCGBJJFEFDF\030\017 \001" +
       "(\010\022!\n\013DBPDHLMIICN\030\020 \001(\0132\014.GLKBLDMMLBN\022!\n" +
       "\013EBKPONOEHIG\030\021 \003(\0132\014.GLKBLDMMLBN\022!\n\013JCCN" +
-      "GNPDJOG\030\022 \003(\0132\014.IGCAEMOOGJLB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "GNPDJOG\030\022 \003(\0132\014.IGCAEMOOGJLB2\n\031emu.grass" +
+      "cutter.net.protoB\025GHEPCHOKIDJOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

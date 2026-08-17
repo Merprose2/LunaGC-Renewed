@@ -307,8 +307,9 @@ public final class GCGGameBusinessTypeOuterClass {
       "_ACTIVITY_PVE_INFINITE\020\020\0224\n0GCGGameBusin" +
       "essType_GCG_GAME_ACTIVITY_PVE_PUZZLE\020\021\022>" +
       "\n:GCGGameBusinessType_GCG_GAME_ACTIVITY_" +
-      "PVE_AUTO_BATTLE_CARD\020\022B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "PVE_AUTO_BATTLE_CARD\020\022B:\n\031emu.grasscutte" +
+      "r.net.protoB\035GCGGameBusinessTypeOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -855,8 +855,8 @@ public final class BALMAGIKEONOuterClass {
       "\n\021BALMAGIKEON.proto\032\021KJGDFDHBNCI.proto\032\021" +
       "LBLGMMKIIDL.proto\"K\n\013BALMAGIKEON\022\031\n\003pos\030" +
       "\003 \001(\0132\014.LBLGMMKIIDL\022!\n\013HLODOGGLMBK\030\005 \001(\013" +
-      "2\014.KJGDFDHBNCIB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "2\014.KJGDFDHBNCIB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025BALMAGIKEONOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

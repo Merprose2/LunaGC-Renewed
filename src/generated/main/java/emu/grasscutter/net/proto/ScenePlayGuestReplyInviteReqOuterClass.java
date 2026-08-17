@@ -597,8 +597,9 @@ public final class ScenePlayGuestReplyInviteReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"ScenePlayGuestReplyInviteReq.proto\"A\n\034" +
       "ScenePlayGuestReplyInviteReq\022\020\n\010is_agree" +
-      "\030\014 \001(\010\022\017\n\007play_id\030\016 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\030\014 \001(\010\022\017\n\007play_id\030\016 \001(\rBC\n\031emu.grasscutt" +
+      "er.net.protoB&ScenePlayGuestReplyInviteR" +
+      "eqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

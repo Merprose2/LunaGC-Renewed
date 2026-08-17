@@ -644,8 +644,8 @@ public final class IOJDLMDPOLEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IOJDLMDPOLE.proto\"\"\n\013IOJDLMDPOLE\022\023\n\013DK" +
-      "LCFFAOMGJ\030\001 \003(\005B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "LCFFAOMGJ\030\001 \003(\005B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025IOJDLMDPOLEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

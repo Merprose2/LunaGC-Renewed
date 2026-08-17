@@ -2478,8 +2478,8 @@ public final class NBLBLJINADOOuterClass {
       "alue_string_with_structure\030\021 \001(\0132\014.CNOIH" +
       "MEBPFAH\000\022\024\n\013HIDEKLOKGBG\030\365\003 \001(\005\022\"\n\013ADGHHI" +
       "BABGO\030\366\003 \001(\0132\014.ELCEHBGKMMJ\022\024\n\013HADPGJAIIO" +
-      "O\030\367\003 \001(\010B\010\n\006detailB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "O\030\367\003 \001(\010B\010\n\006detailB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025NBLBLJINADOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

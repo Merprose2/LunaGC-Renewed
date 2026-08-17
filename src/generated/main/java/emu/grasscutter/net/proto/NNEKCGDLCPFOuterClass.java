@@ -595,8 +595,9 @@ public final class NNEKCGDLCPFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NNEKCGDLCPF.proto\"-\n\013NNEKCGDLCPF\022\017\n\007re" +
-      "tcode\030\005 \001(\005\022\r\n\005level\030\013 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "tcode\030\005 \001(\005\022\r\n\005level\030\013 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025NNEKCGDLCPFOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

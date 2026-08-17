@@ -1166,8 +1166,9 @@ public final class MBOADJKFOENOuterClass {
       "\n\021MBOADJKFOEN.proto\032\017ItemParam.proto\"k\n\013" +
       "MBOADJKFOEN\022\017\n\007retcode\030\004 \001(\005\022\027\n\017watcher_" +
       "id_list\030\005 \003(\r\022\023\n\013activity_id\030\006 \001(\r\022\035\n\tit" +
-      "em_list\030\016 \003(\0132\n.ItemParamB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "em_list\030\016 \003(\0132\n.ItemParamB2\n\031emu.grasscu" +
+      "tter.net.protoB\025MBOADJKFOENOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

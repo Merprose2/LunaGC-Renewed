@@ -1908,8 +1908,9 @@ public final class PCHDKIBLEFHOuterClass {
       "\022\"\n\036MNDGIFBAJAJ_SETTLE_REASON_SUCC\020\001\022&\n\"" +
       "MNDGIFBAJAJ_SETTLE_REASON_TIME_OUT\020\002\022%\n!" +
       "MNDGIFBAJAJ_SETTLE_REASON_ALL_DIE\020\003\022\"\n\036M" +
-      "NDGIFBAJAJ_SETTLE_REASON_FAIL\020\004B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "NDGIFBAJAJ_SETTLE_REASON_FAIL\020\004B2\n\031emu.g" +
+      "rasscutter.net.protoB\025PCHDKIBLEFHOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

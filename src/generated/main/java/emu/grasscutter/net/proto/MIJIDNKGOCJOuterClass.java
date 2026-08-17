@@ -1635,8 +1635,8 @@ public final class MIJIDNKGOCJOuterClass {
       "EBMOCPN\030\006 \001(\0132\014.DHDJHCKKMAK\022\023\n\013JNNGLILPE" +
       "CN\030\007 \001(\t\022\023\n\013CEJIICPDOLM\030\010 \001(\010\022\023\n\013LCNLLGC" +
       "GPBO\030\t \001(\005\022!\n\013OAHOJNKAALL\030\n \001(\0132\014.DHDJHC" +
-      "KKMAKB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "KKMAKB2\n\031emu.grasscutter.net.protoB\025MIJI" +
+      "DNKGOCJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

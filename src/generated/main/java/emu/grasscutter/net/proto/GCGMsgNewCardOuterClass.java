@@ -650,8 +650,9 @@ public final class GCGMsgNewCardOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\023GCGMsgNewCard.proto\032\rGCGCard.proto\"\'\n\r" +
-      "GCGMsgNewCard\022\026\n\004card\030\001 \001(\0132\010.GCGCardB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "GCGMsgNewCard\022\026\n\004card\030\001 \001(\0132\010.GCGCardB4\n" +
+      "\031emu.grasscutter.net.protoB\027GCGMsgNewCar" +
+      "dOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -721,8 +721,9 @@ public final class NJDPBLEDNHDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NJDPBLEDNHD.proto\032\021NBLBLJINADO.proto\"G" +
       "\n\013NJDPBLEDNHD\022\024\n\013FLIKBMLPJMM\030\365\003 \001(\r\022\"\n\013B" +
-      "MANANECADL\030\366\003 \001(\0132\014.NBLBLJINADOB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "MANANECADL\030\366\003 \001(\0132\014.NBLBLJINADOB2\n\031emu.g" +
+      "rasscutter.net.protoB\025NJDPBLEDNHDOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

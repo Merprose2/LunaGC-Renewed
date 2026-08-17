@@ -1313,8 +1313,9 @@ public final class HEHLDJLHOJIOuterClass {
       "ey_line_challenge_detail\030\251\023 \001(\0132$.HEHLDJ" +
       "LHOJI._LeyLineChallengeDetailH\000\032B\n\027_LeyL" +
       "ineChallengeDetail\022\023\n\013AAKAOLKKNGC\030\006 \001(\r\022" +
-      "\022\n\ndifficulty\030\016 \001(\rB\010\n\006detailB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\022\n\ndifficulty\030\016 \001(\rB\010\n\006detailB2\n\031emu.gra" +
+      "sscutter.net.protoB\025HEHLDJLHOJIOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

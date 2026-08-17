@@ -1628,8 +1628,8 @@ public final class GPCHJDHAIGDOuterClass {
       "IGD_ID_ALLOCATOR_NODE_CONFIG_EDIT\020\242\215\006\022(\n" +
       "\"GPCHJDHAIGD_ID_ALLOCATOR_SUB_GRAPH\020\243\215\006\022" +
       ".\n(GPCHJDHAIGD_ID_ALLOCATOR_CONTAINER_GR" +
-      "APH\020\244\215\006B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "APH\020\244\215\006B2\n\031emu.grasscutter.net.protoB\025GP" +
+      "CHJDHAIGDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

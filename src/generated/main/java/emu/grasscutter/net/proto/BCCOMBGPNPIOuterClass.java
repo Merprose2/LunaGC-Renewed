@@ -1436,8 +1436,8 @@ public final class BCCOMBGPNPIOuterClass {
       "LODGLJ\030\001 \001(\0132\014.CODKIFDDOKH\022!\n\013OIBOJCHHHF" +
       "N\030\002 \001(\0132\014.PMAHFCAKLGL\022!\n\013FKJAFDEBEAA\030\003 \001" +
       "(\0132\014.CHOIADEEHHN\022!\n\013NNKCMFCHHKD\030\004 \003(\0132\014." +
-      "DHFLCEHGKMBB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "DHFLCEHGKMBB2\n\031emu.grasscutter.net.proto" +
+      "B\025BCCOMBGPNPIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

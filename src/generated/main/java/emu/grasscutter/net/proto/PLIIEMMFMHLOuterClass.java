@@ -142,8 +142,8 @@ public final class PLIIEMMFMHLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PLIIEMMFMHL.proto*O\n\013PLIIEMMFMHL\022\024\n\020PL" +
       "IIEMMFMHL_IDLE\020\000\022\024\n\020PLIIEMMFMHL_MOVE\020\001\022\024" +
-      "\n\020PLIIEMMFMHL_SHOT\020\002B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\n\020PLIIEMMFMHL_SHOT\020\002B2\n\031emu.grasscutter." +
+      "net.protoB\025PLIIEMMFMHLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

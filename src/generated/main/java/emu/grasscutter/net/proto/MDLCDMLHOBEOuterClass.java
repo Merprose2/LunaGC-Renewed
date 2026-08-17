@@ -901,8 +901,9 @@ public final class MDLCDMLHOBEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MDLCDMLHOBE.proto\032\021LPEBNDINOGO.proto\"A" +
       "\n\013MDLCDMLHOBE\022!\n\013GCGHMNEOPMP\030\014 \003(\0132\014.LPE" +
-      "BNDINOGO\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "BNDINOGO\022\017\n\007retcode\030\017 \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025MDLCDMLHOBEOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

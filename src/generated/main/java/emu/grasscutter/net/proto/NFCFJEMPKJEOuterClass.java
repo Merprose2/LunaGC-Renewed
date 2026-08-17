@@ -1158,8 +1158,8 @@ public final class NFCFJEMPKJEOuterClass {
       "JMJIDPBBGEA\030\366\003 \001(\t\022\035\n\006offset\030\367\003 \001(\0132\014.HH" +
       "EDHCFPEKM\022\024\n\013EKNOCDAOCOO\030\370\003 \001(\r\022\024\n\013DFNHK" +
       "GLCCLL\030\371\003 \001(\010\022\024\n\013BCFAMMOALOB\030\372\003 \001(\010\022\024\n\013J" +
-      "PDHFDCOILK\030\373\003 \001(\010B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "PDHFDCOILK\030\373\003 \001(\010B2\n\031emu.grasscutter.net" +
+      ".protoB\025NFCFJEMPKJEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

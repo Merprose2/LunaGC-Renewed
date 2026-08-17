@@ -776,8 +776,8 @@ public final class DDOCDJAIJONOuterClass {
       "\n\021DDOCDJAIJON.proto\032\rUgcType.proto\"a\n\013DD" +
       "OCDJAIJON\022\023\n\013FHNCDHPIKOE\030\005 \001(\010\022\020\n\010ugc_gu" +
       "id\030\006 \001(\004\022\017\n\007retcode\030\014 \001(\005\022\032\n\010ugc_type\030\016 " +
-      "\001(\0162\010.UgcTypeB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\001(\0162\010.UgcTypeB2\n\031emu.grasscutter.net.pro" +
+      "toB\025DDOCDJAIJONOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

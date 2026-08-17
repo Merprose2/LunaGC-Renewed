@@ -987,8 +987,9 @@ public final class LKCMCGGIBJOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LKCMCGGIBJO.proto\"`\n\013LKCMCGGIBJO\022\023\n\013AB" +
       "JGGDPFGAM\030\004 \003(\r\022\022\n\ndifficulty\030\014 \001(\r\022\023\n\013H" +
-      "OMFJLKCFHJ\030\016 \001(\010\022\023\n\013DODGMEMDLFL\030\017 \003(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "OMFJLKCFHJ\030\016 \001(\010\022\023\n\013DODGMEMDLFL\030\017 \003(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025LKCMCGGIBJOO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

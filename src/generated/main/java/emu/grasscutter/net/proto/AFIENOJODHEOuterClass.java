@@ -1042,8 +1042,9 @@ public final class AFIENOJODHEOuterClass {
       "\n\021AFIENOJODHE.proto\032\021DACMDDCLPNH.proto\"k" +
       "\n\013AFIENOJODHE\022!\n\013GAHOGJCKBKG\030\001 \003(\0132\014.DAC" +
       "MDDCLPNH\022\023\n\013LIGGJOPGIHJ\030\010 \001(\r\022\023\n\013EKMOJJC" +
-      "ECDC\030\n \001(\r\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "ECDC\030\n \001(\r\022\017\n\007retcode\030\013 \001(\005B2\n\031emu.grass" +
+      "cutter.net.protoB\025AFIENOJODHEOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

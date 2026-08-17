@@ -721,8 +721,9 @@ public final class CBGNGLCGKPAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CBGNGLCGKPA.proto\032\021BPKLCLAJPGH.proto\">" +
       "\n\013CBGNGLCGKPA\022\014\n\004guid\030\001 \001(\r\022!\n\013DAFAIGGBE" +
-      "EP\030\002 \001(\0132\014.BPKLCLAJPGHB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "EP\030\002 \001(\0132\014.BPKLCLAJPGHB2\n\031emu.grasscutte" +
+      "r.net.protoB\025CBGNGLCGKPAOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

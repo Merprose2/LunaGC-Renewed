@@ -595,8 +595,9 @@ public final class LCBANBLHCPIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LCBANBLHCPI.proto\"3\n\013LCBANBLHCPI\022\017\n\007re" +
-      "tcode\030\006 \001(\005\022\023\n\013activity_id\030\014 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "tcode\030\006 \001(\005\022\023\n\013activity_id\030\014 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025LCBANBLHCPIOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

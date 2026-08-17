@@ -133,7 +133,8 @@ public final class BAEDEBIHNLDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BAEDEBIHNLD.proto*;\n\013BAEDEBIHNLD\022\026\n\022BA" +
       "EDEBIHNLD_SPHERE\020\000\022\024\n\020BAEDEBIHNLD_CONE\020\001" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025BAEDEBIHN" +
+      "LDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

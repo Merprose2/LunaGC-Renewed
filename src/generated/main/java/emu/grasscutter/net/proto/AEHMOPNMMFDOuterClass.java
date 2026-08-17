@@ -916,8 +916,8 @@ public final class AEHMOPNMMFDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AEHMOPNMMFD.proto\"H\n\013AEHMOPNMMFD\022\023\n\013JB" +
       "KMBMACAHB\030\007 \003(\r\022\017\n\007retcode\030\014 \001(\005\022\023\n\013BJGN" +
-      "BMDDJPO\030\017 \003(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "BMDDJPO\030\017 \003(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025AEHMOPNMMFDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -776,8 +776,8 @@ public final class NAMHHNKDDGCOuterClass {
       "\n\021NAMHHNKDDGC.proto\032\021JEOKDCIGCFP.proto\"W" +
       "\n\013NAMHHNKDDGC\022\020\n\010route_id\030\001 \001(\r\022\023\n\013EPLFB" +
       "MHHOLI\030\002 \001(\t\022!\n\013CEHALJPDMCO\030\003 \001(\0162\014.JEOK" +
-      "DCIGCFPB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "DCIGCFPB2\n\031emu.grasscutter.net.protoB\025NA" +
+      "MHHNKDDGCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

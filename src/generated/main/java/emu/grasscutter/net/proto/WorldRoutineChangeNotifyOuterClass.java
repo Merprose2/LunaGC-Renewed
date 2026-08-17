@@ -730,8 +730,9 @@ public final class WorldRoutineChangeNotifyOuterClass {
       "\n\036WorldRoutineChangeNotify.proto\032\026WorldR" +
       "outineInfo.proto\"Y\n\030WorldRoutineChangeNo" +
       "tify\022\024\n\014routine_type\030\013 \001(\r\022\'\n\014routine_in" +
-      "fo\030\r \001(\0132\021.WorldRoutineInfoB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "fo\030\r \001(\0132\021.WorldRoutineInfoB?\n\031emu.grass" +
+      "cutter.net.protoB\"WorldRoutineChangeNoti" +
+      "fyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -676,8 +676,9 @@ public final class CMFKFIMOEFLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CMFKFIMOEFL.proto\"7\n\013CMFKFIMOEFL\022\023\n\013tr" +
-      "ansaction\030\005 \001(\t\022\023\n\013DPIJFLBNPGP\030\013 \001(\010B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "ansaction\030\005 \001(\t\022\023\n\013DPIJFLBNPGP\030\013 \001(\010B2\n\031" +
+      "emu.grasscutter.net.protoB\025CMFKFIMOEFLOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

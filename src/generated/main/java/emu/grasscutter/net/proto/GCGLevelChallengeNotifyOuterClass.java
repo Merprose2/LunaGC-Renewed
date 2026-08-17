@@ -1400,8 +1400,9 @@ public final class GCGLevelChallengeNotifyOuterClass {
       "\234\001\n\027GCGLevelChallengeNotify\022#\n\033unlock_wo" +
       "rld_challenge_list\030\001 \003(\r\022!\n\nlevel_list\030\010" +
       " \003(\0132\r.GCGLevelData\0229\n\032unlock_boss_chall" +
-      "enge_list\030\n \003(\0132\025.GCGBossChallengeDataB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "enge_list\030\n \003(\0132\025.GCGBossChallengeDataB>" +
+      "\n\031emu.grasscutter.net.protoB!GCGLevelCha" +
+      "llengeNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

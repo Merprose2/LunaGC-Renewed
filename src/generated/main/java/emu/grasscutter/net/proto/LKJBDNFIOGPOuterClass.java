@@ -625,8 +625,8 @@ public final class LKJBDNFIOGPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LKJBDNFIOGP.proto\032\021AOKGBGAJBOP.proto\"<" +
       "\n\013LKJBDNFIOGP\022\033\n\005state\030\004 \001(\0162\014.AOKGBGAJB" +
-      "OP\022\020\n\010level_id\030\007 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "OP\022\020\n\010level_id\030\007 \001(\rB2\n\031emu.grasscutter." +
+      "net.protoB\025LKJBDNFIOGPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

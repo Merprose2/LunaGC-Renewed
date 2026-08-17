@@ -729,8 +729,9 @@ public final class GetSignInRewardRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030GetSignInRewardRsp.proto\032\020SignInInfo.p" +
       "roto\"H\n\022GetSignInRewardRsp\022\017\n\007retcode\030\002 " +
-      "\001(\005\022!\n\014sign_in_info\030\003 \001(\0132\013.SignInInfoB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\005\022!\n\014sign_in_info\030\003 \001(\0132\013.SignInInfoB9" +
+      "\n\031emu.grasscutter.net.protoB\034GetSignInRe" +
+      "wardRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

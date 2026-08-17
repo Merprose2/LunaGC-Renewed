@@ -590,7 +590,9 @@ public final class VintageHuntingThirdStageSettleInfoOuterClass {
       "\n(VintageHuntingThirdStageSettleInfo.pro" +
       "to\"K\n\"VintageHuntingThirdStageSettleInfo" +
       "\022\022\n\nis_success\030\006 \001(\010\022\021\n\tleft_time\030\t \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "I\n\031emu.grasscutter.net.protoB,VintageHun" +
+      "tingThirdStageSettleInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

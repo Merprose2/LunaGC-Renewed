@@ -872,8 +872,8 @@ public final class FDGCHBPHNOIOuterClass {
       "\n\021FDGCHBPHNOI.proto\032\021IOHFNEENCJD.proto\"Z" +
       "\n\013FDGCHBPHNOI\022!\n\013HLDHCPMGFAA\030\001 \001(\0132\014.IOH" +
       "FNEENCJD\022\023\n\013PCMBJFGOKCN\030\002 \001(\r\022\023\n\013JCHJLCB" +
-      "FMIE\030\003 \001(\tB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "FMIE\030\003 \001(\tB2\n\031emu.grasscutter.net.protoB" +
+      "\025FDGCHBPHNOIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

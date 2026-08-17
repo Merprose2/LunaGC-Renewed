@@ -152,8 +152,8 @@ public final class HKKMBBMAADPOuterClass {
       "\n\021HKKMBBMAADP.proto*k\n\013HKKMBBMAADP\022\024\n\020HK" +
       "KMBBMAADP_COST\020\000\022\026\n\022HKKMBBMAADP_RELOAD\020\001" +
       "\022\026\n\022HKKMBBMAADP_PICKED\020\002\022\026\n\022HKKMBBMAADP_" +
-      "SUPPLY\020\003B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "SUPPLY\020\003B2\n\031emu.grasscutter.net.protoB\025H" +
+      "KKMBBMAADPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

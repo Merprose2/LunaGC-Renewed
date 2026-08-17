@@ -729,8 +729,8 @@ public final class CompoundQueueDataOuterClass {
       "\n\027CompoundQueueData.proto\"g\n\021CompoundQue" +
       "ueData\022\023\n\013ECICJPBDGOC\030\001 \001(\r\022\023\n\013LINALGNMB" +
       "CF\030\007 \001(\r\022\023\n\013compound_id\030\r \001(\r\022\023\n\013ICAFODE" +
-      "EDIE\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "EDIE\030\017 \001(\rB8\n\031emu.grasscutter.net.protoB" +
+      "\033CompoundQueueDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -862,8 +862,8 @@ public final class CGGCEBBKOELOuterClass {
       "\n\021CGGCEBBKOEL.proto\032\014Vector.proto\"_\n\013CGG" +
       "CEBBKOEL\022\023\n\013PDPPOOKDOPH\030\003 \001(\005\022\027\n\006center\030" +
       "\010 \001(\0132\007.Vector\022\r\n\005level\030\t \001(\005\022\023\n\013IDOGAOA" +
-      "LABN\030\017 \001(\005B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "LABN\030\017 \001(\005B2\n\031emu.grasscutter.net.protoB" +
+      "\025CGGCEBBKOELOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

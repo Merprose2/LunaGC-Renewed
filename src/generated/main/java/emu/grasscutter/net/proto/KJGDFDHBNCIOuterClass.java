@@ -728,8 +728,8 @@ public final class KJGDFDHBNCIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KJGDFDHBNCI.proto\"K\n\013KJGDFDHBNCI\022\023\n\013KA" +
       "FFGLOIPGN\030\003 \001(\r\022\014\n\004guid\030\004 \001(\r\022\013\n\003tag\030\014 \001" +
-      "(\r\022\014\n\004type\030\016 \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "(\r\022\014\n\004type\030\016 \001(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025KJGDFDHBNCIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

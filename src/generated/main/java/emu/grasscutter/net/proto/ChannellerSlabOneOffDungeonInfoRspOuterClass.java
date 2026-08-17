@@ -724,8 +724,9 @@ public final class ChannellerSlabOneOffDungeonInfoRspOuterClass {
       "\n(ChannellerSlabOneOffDungeonInfoRsp.pro" +
       "to\"R\n\"ChannellerSlabOneOffDungeonInfoRsp" +
       "\022\033\n\023scheme_buff_id_list\030\003 \003(\r\022\017\n\007retcode" +
-      "\030\n \001(\005B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\n \001(\005BI\n\031emu.grasscutter.net.protoB,Cha" +
+      "nnellerSlabOneOffDungeonInfoRspOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

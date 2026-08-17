@@ -933,8 +933,9 @@ public final class BalloonSettleInfoOuterClass {
       "nfo.proto\"\205\001\n\021BalloonSettleInfo\022\021\n\tmax_c" +
       "ombo\030\003 \001(\r\022\013\n\003uid\030\006 \001(\r\022\023\n\013shoot_count\030\010" +
       " \001(\r\022\023\n\013final_score\030\n \001(\r\022&\n\013player_info" +
-      "\030\017 \001(\0132\021.OnlinePlayerInfoB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\030\017 \001(\0132\021.OnlinePlayerInfoB8\n\031emu.grasscu" +
+      "tter.net.protoB\033BalloonSettleInfoOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1242,8 +1242,8 @@ public final class CMCEGEFMGLHOuterClass {
       "CKLGCGJI\030\001 \003(\0132\014.GCDALIMNDLO\022\023\n\013GHPJLDJF" +
       "LIK\030\002 \001(\010\022\023\n\013DJHMPDJCLGI\030\003 \001(\002\022\021\n\tconfig" +
       "_id\030\004 \001(\r\022!\n\013FHPGHEEEFOK\030\005 \001(\0132\014.FIJKPLN" +
-      "AFIBB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "AFIBB2\n\031emu.grasscutter.net.protoB\025CMCEG" +
+      "EFMGLHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

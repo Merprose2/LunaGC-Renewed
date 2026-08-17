@@ -771,8 +771,9 @@ public final class EFEGHAFLJMMOuterClass {
       "\n\021EFEGHAFLJMM.proto\032\021IIPGFDNHCCA.proto\"h" +
       "\n\013EFEGHAFLJMM\022\023\n\013DIEMHLCOOAG\030\001 \001(\010\022\032\n\004ty" +
       "pe\030\002 \001(\0162\014.IIPGFDNHCCA\022\023\n\013INKLDILEGGO\030\003 " +
-      "\001(\002\022\023\n\013PIFMKLLDNJL\030\005 \001(\002B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\001(\002\022\023\n\013PIFMKLLDNJL\030\005 \001(\002B2\n\031emu.grasscut" +
+      "ter.net.protoB\025EFEGHAFLJMMOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

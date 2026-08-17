@@ -666,8 +666,8 @@ public final class IICLDGBICCNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IICLDGBICCN.proto\"E\n\013IICLDGBICCN\022\020\n\010gr" +
       "oup_id\030\002 \001(\r\022\023\n\013OHPOKAECJFF\030\004 \001(\r\022\017\n\007ret" +
-      "code\030\013 \001(\005B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "code\030\013 \001(\005B2\n\031emu.grasscutter.net.protoB" +
+      "\025IICLDGBICCNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

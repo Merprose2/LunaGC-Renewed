@@ -831,8 +831,9 @@ public final class CoopRewardUpdateNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034CoopRewardUpdateNotify.proto\032\020CoopRewa" +
       "rd.proto\":\n\026CoopRewardUpdateNotify\022 \n\013re" +
-      "ward_list\030\006 \003(\0132\013.CoopRewardB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "ward_list\030\006 \003(\0132\013.CoopRewardB=\n\031emu.gras" +
+      "scutter.net.protoB CoopRewardUpdateNotif" +
+      "yOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

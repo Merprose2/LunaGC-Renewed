@@ -723,7 +723,8 @@ public final class CKPAAJHDMHAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CKPAAJHDMHA.proto\";\n\013CKPAAJHDMHA\022\023\n\013ac" +
       "tivity_id\030\007 \001(\r\022\027\n\017watcher_id_list\030\014 \003(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025CKPAAJHDM" +
+      "HAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

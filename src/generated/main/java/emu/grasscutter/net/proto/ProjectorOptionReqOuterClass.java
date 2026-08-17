@@ -596,8 +596,8 @@ public final class ProjectorOptionReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030ProjectorOptionReq.proto\"8\n\022ProjectorO" +
       "ptionReq\022\021\n\tentity_id\030\001 \001(\r\022\017\n\007op_type\030\013" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB9\n\031emu.grasscutter.net.protoB\034Proje" +
+      "ctorOptionReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

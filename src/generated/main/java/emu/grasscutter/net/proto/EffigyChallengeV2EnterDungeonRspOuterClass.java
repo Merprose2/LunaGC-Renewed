@@ -738,8 +738,9 @@ public final class EffigyChallengeV2EnterDungeonRspOuterClass {
       "\"\211\001\n EffigyChallengeV2EnterDungeonRsp\022!\n" +
       "\031challenge_mode_difficulty\030\004 \001(\r\022\020\n\010leve" +
       "l_id\030\007 \001(\r\022\037\n\027challenge_mode_skill_no\030\010 " +
-      "\001(\r\022\017\n\007retcode\030\014 \001(\005B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\001(\r\022\017\n\007retcode\030\014 \001(\005BG\n\031emu.grasscutter." +
+      "net.protoB*EffigyChallengeV2EnterDungeon" +
+      "RspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

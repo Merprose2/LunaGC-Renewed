@@ -1187,7 +1187,8 @@ public final class ELIIONNFOHGOuterClass {
       "\n\013ELIIONNFOHG\022\n\n\002id\030\001 \001(\005\022\021\n\tis_active\030\002" +
       " \001(\010\022\023\n\013DJPJAFGGKCJ\030\003 \001(\010\022!\n\013AOAMKENMBPB" +
       "\030\004 \003(\0132\014.DMPGLLNPKEG\022\024\n\013EJOBMIMALFP\030\366\003 \001" +
-      "(\tB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\tB2\n\031emu.grasscutter.net.protoB\025ELIIONN" +
+      "FOHGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

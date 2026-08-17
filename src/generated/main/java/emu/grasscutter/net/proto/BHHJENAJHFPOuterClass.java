@@ -852,8 +852,9 @@ public final class BHHJENAJHFPOuterClass {
       "\n\021BHHJENAJHFP.proto\"\206\001\n\013BHHJENAJHFP\022\017\n\007r" +
       "etcode\030\t \001(\005\0222\n\013LPIANHNKHMK\030\016 \003(\0132\035.BHHJ" +
       "ENAJHFP.LPIANHNKHMKEntry\0322\n\020LPIANHNKHMKE" +
-      "ntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\002:\0028\001B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "ntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\002:\0028\001B2\n\031" +
+      "emu.grasscutter.net.protoB\025BHHJENAJHFPOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -659,8 +659,9 @@ public final class WindFieldStageInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030WindFieldStageInfo.proto\"J\n\022WindFieldS" +
       "tageInfo\022\020\n\010stage_id\030\001 \001(\r\022\021\n\topen_time\030" +
-      "\002 \001(\r\022\017\n\007is_open\030\r \001(\010B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\002 \001(\r\022\017\n\007is_open\030\r \001(\010B9\n\031emu.grasscutte" +
+      "r.net.protoB\034WindFieldStageInfoOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

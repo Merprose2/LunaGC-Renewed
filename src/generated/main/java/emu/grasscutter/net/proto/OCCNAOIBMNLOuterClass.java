@@ -597,8 +597,8 @@ public final class OCCNAOIBMNLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OCCNAOIBMNL.proto\"\035\n\013OCCNAOIBMNL\022\016\n\005va" +
-      "lue\030\365\003 \001(\tB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "lue\030\365\003 \001(\tB2\n\031emu.grasscutter.net.protoB" +
+      "\025OCCNAOIBMNLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

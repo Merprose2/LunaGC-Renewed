@@ -667,8 +667,9 @@ public final class UnlockAvatarTalentRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033UnlockAvatarTalentRsp.proto\"P\n\025UnlockA" +
       "vatarTalentRsp\022\023\n\013avatar_guid\030\001 \001(\004\022\021\n\tt" +
-      "alent_id\030\005 \001(\r\022\017\n\007retcode\030\010 \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "alent_id\030\005 \001(\r\022\017\n\007retcode\030\010 \001(\005B<\n\031emu.g" +
+      "rasscutter.net.protoB\037UnlockAvatarTalent" +
+      "RspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -729,8 +729,9 @@ public final class JKHGFNOJMHNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JKHGFNOJMHN.proto\032\021KLKHABHNGEK.proto\"?" +
       "\n\013JKHGFNOJMHN\022\r\n\005round\030\002 \001(\r\022!\n\013_level_i" +
-      "nfo\030\005 \001(\0132\014.KLKHABHNGEKB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "nfo\030\005 \001(\0132\014.KLKHABHNGEKB2\n\031emu.grasscutt" +
+      "er.net.protoB\025JKHGFNOJMHNOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

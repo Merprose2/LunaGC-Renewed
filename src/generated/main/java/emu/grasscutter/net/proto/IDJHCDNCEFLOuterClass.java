@@ -2269,8 +2269,8 @@ public final class IDJHCDNCEFLOuterClass {
       "NGEDGDGBAID\030\005 \001(\014\022\023\n\013NJKJHJEAKEJ\030\006 \001(\t\032Z" +
       "\n\013GJNAKLGFEEC\022!\n\013JGKOIDNIPIF\030\001 \003(\0132\014.ACD" +
       "LBHPKGOG\022\023\n\013EDAGMIOHPDH\030\002 \001(\010\022\023\n\013ONIAMFK" +
-      "FBFM\030\003 \001(\tB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "FBFM\030\003 \001(\tB2\n\031emu.grasscutter.net.protoB" +
+      "\025IDJHCDNCEFLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

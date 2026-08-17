@@ -142,8 +142,9 @@ public final class COFHOHEOMOKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021COFHOHEOMOK.proto*U\n\013COFHOHEOMOK\022\024\n\020CO" +
       "FHOHEOMOK_NONE\020\000\022\027\n\023COFHOHEOMOK_RUNNING\020" +
-      "\001\022\027\n\023COFHOHEOMOK_STOPPED\020\002B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\001\022\027\n\023COFHOHEOMOK_STOPPED\020\002B2\n\031emu.grassc" +
+      "utter.net.protoB\025COFHOHEOMOKOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

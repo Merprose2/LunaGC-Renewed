@@ -1096,8 +1096,8 @@ public final class LDHMALEOFCLOuterClass {
       "\n\021LDHMALEOFCL.proto\032\021EIIGINHKAHF.proto\"Z" +
       "\n\013LDHMALEOFCL\022\023\n\013CGHMCODJLID\030\010 \001(\r\022\023\n\013LD" +
       "LENGONLIA\030\t \003(\004\022!\n\013PJOGAOOJOBP\030\r \003(\0132\014.E" +
-      "IIGINHKAHFB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "IIGINHKAHFB2\n\031emu.grasscutter.net.protoB" +
+      "\025LDHMALEOFCLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

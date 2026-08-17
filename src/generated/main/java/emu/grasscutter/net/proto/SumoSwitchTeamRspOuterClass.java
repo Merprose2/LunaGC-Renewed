@@ -1184,8 +1184,8 @@ public final class SumoSwitchTeamRspOuterClass {
       "e\030\002 \001(\005\022\023\n\013FKHLKBNMDJA\030\004 \001(\r\022\023\n\013NAKEFANE" +
       "BLM\030\005 \001(\r\022+\n\021dungeon_team_list\030\010 \003(\0132\020.S" +
       "umoDungeonTeam\022\020\n\010stage_id\030\013 \001(\r\022\023\n\013acti" +
-      "vity_id\030\r \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "vity_id\030\r \001(\rB8\n\031emu.grasscutter.net.pro" +
+      "toB\033SumoSwitchTeamRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

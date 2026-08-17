@@ -902,8 +902,9 @@ public final class BonusActivityInfoRspOuterClass {
       "\n\032BonusActivityInfoRsp.proto\032\027BonusActiv" +
       "ityInfo.proto\"]\n\024BonusActivityInfoRsp\022\017\n" +
       "\007retcode\030\n \001(\005\0224\n\030bonus_activity_info_li" +
-      "st\030\017 \003(\0132\022.BonusActivityInfoB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "st\030\017 \003(\0132\022.BonusActivityInfoB;\n\031emu.gras" +
+      "scutter.net.protoB\036BonusActivityInfoRspO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

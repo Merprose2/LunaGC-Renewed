@@ -19,28 +19,10 @@ public final class _BeyondCostumeSetDetailOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
+     * <code>bytes _piece_info = 1;</code>
+     * @return The pieceInfo.
      */
-    java.util.List<emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo> 
-        getPieceInfoList();
-    /**
-     * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-     */
-    emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo getPieceInfo(int index);
-    /**
-     * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-     */
-    int getPieceInfoCount();
-    /**
-     * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfoOrBuilder> 
-        getPieceInfoOrBuilderList();
-    /**
-     * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-     */
-    emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfoOrBuilder getPieceInfoOrBuilder(
-        int index);
+    com.google.protobuf.ByteString getPieceInfo();
 
     /**
      * <code>repeated ._BeyondCostumePieceAdjustment _piece_adjustment = 2;</code>
@@ -79,7 +61,7 @@ public final class _BeyondCostumeSetDetailOuterClass {
       super(builder);
     }
     private _BeyondCostumeSetDetail() {
-      PieceInfo_ = java.util.Collections.emptyList();
+      PieceInfo_ = com.google.protobuf.ByteString.EMPTY;
       PieceAdjustment_ = java.util.Collections.emptyList();
     }
 
@@ -115,18 +97,14 @@ public final class _BeyondCostumeSetDetailOuterClass {
               done = true;
               break;
             case 10: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                PieceInfo_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              PieceInfo_.add(
-                  input.readMessage(emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo.parser(), extensionRegistry));
+
+              PieceInfo_ = input.readBytes();
               break;
             }
             case 18: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 PieceAdjustment_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondCostumePieceAdjustmentOuterClass._BeyondCostumePieceAdjustment>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               PieceAdjustment_.add(
                   input.readMessage(emu.grasscutter.net.proto._BeyondCostumePieceAdjustmentOuterClass._BeyondCostumePieceAdjustment.parser(), extensionRegistry));
@@ -148,9 +126,6 @@ public final class _BeyondCostumeSetDetailOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          PieceInfo_ = java.util.Collections.unmodifiableList(PieceInfo_);
-        }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
           PieceAdjustment_ = java.util.Collections.unmodifiableList(PieceAdjustment_);
         }
         this.unknownFields = unknownFields.build();
@@ -171,43 +146,14 @@ public final class _BeyondCostumeSetDetailOuterClass {
     }
 
     public static final int _PIECE_INFO_FIELD_NUMBER = 1;
-    private java.util.List<emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo> PieceInfo_;
+    private com.google.protobuf.ByteString PieceInfo_;
     /**
-     * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
+     * <code>bytes _piece_info = 1;</code>
+     * @return The pieceInfo.
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo> getPieceInfoList() {
+    public com.google.protobuf.ByteString getPieceInfo() {
       return PieceInfo_;
-    }
-    /**
-     * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-     */
-    @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfoOrBuilder> 
-        getPieceInfoOrBuilderList() {
-      return PieceInfo_;
-    }
-    /**
-     * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-     */
-    @java.lang.Override
-    public int getPieceInfoCount() {
-      return PieceInfo_.size();
-    }
-    /**
-     * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo getPieceInfo(int index) {
-      return PieceInfo_.get(index);
-    }
-    /**
-     * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfoOrBuilder getPieceInfoOrBuilder(
-        int index) {
-      return PieceInfo_.get(index);
     }
 
     public static final int _PIECE_ADJUSTMENT_FIELD_NUMBER = 2;
@@ -264,8 +210,8 @@ public final class _BeyondCostumeSetDetailOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < PieceInfo_.size(); i++) {
-        output.writeMessage(1, PieceInfo_.get(i));
+      if (!PieceInfo_.isEmpty()) {
+        output.writeBytes(1, PieceInfo_);
       }
       for (int i = 0; i < PieceAdjustment_.size(); i++) {
         output.writeMessage(2, PieceAdjustment_.get(i));
@@ -279,9 +225,9 @@ public final class _BeyondCostumeSetDetailOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < PieceInfo_.size(); i++) {
+      if (!PieceInfo_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, PieceInfo_.get(i));
+          .computeBytesSize(1, PieceInfo_);
       }
       for (int i = 0; i < PieceAdjustment_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -302,8 +248,8 @@ public final class _BeyondCostumeSetDetailOuterClass {
       }
       emu.grasscutter.net.proto._BeyondCostumeSetDetailOuterClass._BeyondCostumeSetDetail other = (emu.grasscutter.net.proto._BeyondCostumeSetDetailOuterClass._BeyondCostumeSetDetail) obj;
 
-      if (!getPieceInfoList()
-          .equals(other.getPieceInfoList())) return false;
+      if (!getPieceInfo()
+          .equals(other.getPieceInfo())) return false;
       if (!getPieceAdjustmentList()
           .equals(other.getPieceAdjustmentList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -317,10 +263,8 @@ public final class _BeyondCostumeSetDetailOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getPieceInfoCount() > 0) {
-        hash = (37 * hash) + _PIECE_INFO_FIELD_NUMBER;
-        hash = (53 * hash) + getPieceInfoList().hashCode();
-      }
+      hash = (37 * hash) + _PIECE_INFO_FIELD_NUMBER;
+      hash = (53 * hash) + getPieceInfo().hashCode();
       if (getPieceAdjustmentCount() > 0) {
         hash = (37 * hash) + _PIECE_ADJUSTMENT_FIELD_NUMBER;
         hash = (53 * hash) + getPieceAdjustmentList().hashCode();
@@ -453,22 +397,17 @@ public final class _BeyondCostumeSetDetailOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getPieceInfoFieldBuilder();
           getPieceAdjustmentFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (PieceInfoBuilder_ == null) {
-          PieceInfo_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        } else {
-          PieceInfoBuilder_.clear();
-        }
+        PieceInfo_ = com.google.protobuf.ByteString.EMPTY;
+
         if (PieceAdjustmentBuilder_ == null) {
           PieceAdjustment_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           PieceAdjustmentBuilder_.clear();
         }
@@ -499,19 +438,11 @@ public final class _BeyondCostumeSetDetailOuterClass {
       public emu.grasscutter.net.proto._BeyondCostumeSetDetailOuterClass._BeyondCostumeSetDetail buildPartial() {
         emu.grasscutter.net.proto._BeyondCostumeSetDetailOuterClass._BeyondCostumeSetDetail result = new emu.grasscutter.net.proto._BeyondCostumeSetDetailOuterClass._BeyondCostumeSetDetail(this);
         int from_bitField0_ = bitField0_;
-        if (PieceInfoBuilder_ == null) {
-          if (((bitField0_ & 0x00000001) != 0)) {
-            PieceInfo_ = java.util.Collections.unmodifiableList(PieceInfo_);
-            bitField0_ = (bitField0_ & ~0x00000001);
-          }
-          result.PieceInfo_ = PieceInfo_;
-        } else {
-          result.PieceInfo_ = PieceInfoBuilder_.build();
-        }
+        result.PieceInfo_ = PieceInfo_;
         if (PieceAdjustmentBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) != 0)) {
+          if (((bitField0_ & 0x00000001) != 0)) {
             PieceAdjustment_ = java.util.Collections.unmodifiableList(PieceAdjustment_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.PieceAdjustment_ = PieceAdjustment_;
         } else {
@@ -565,37 +496,14 @@ public final class _BeyondCostumeSetDetailOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto._BeyondCostumeSetDetailOuterClass._BeyondCostumeSetDetail other) {
         if (other == emu.grasscutter.net.proto._BeyondCostumeSetDetailOuterClass._BeyondCostumeSetDetail.getDefaultInstance()) return this;
-        if (PieceInfoBuilder_ == null) {
-          if (!other.PieceInfo_.isEmpty()) {
-            if (PieceInfo_.isEmpty()) {
-              PieceInfo_ = other.PieceInfo_;
-              bitField0_ = (bitField0_ & ~0x00000001);
-            } else {
-              ensurePieceInfoIsMutable();
-              PieceInfo_.addAll(other.PieceInfo_);
-            }
-            onChanged();
-          }
-        } else {
-          if (!other.PieceInfo_.isEmpty()) {
-            if (PieceInfoBuilder_.isEmpty()) {
-              PieceInfoBuilder_.dispose();
-              PieceInfoBuilder_ = null;
-              PieceInfo_ = other.PieceInfo_;
-              bitField0_ = (bitField0_ & ~0x00000001);
-              PieceInfoBuilder_ = 
-                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getPieceInfoFieldBuilder() : null;
-            } else {
-              PieceInfoBuilder_.addAllMessages(other.PieceInfo_);
-            }
-          }
+        if (other.getPieceInfo() != com.google.protobuf.ByteString.EMPTY) {
+          setPieceInfo(other.getPieceInfo());
         }
         if (PieceAdjustmentBuilder_ == null) {
           if (!other.PieceAdjustment_.isEmpty()) {
             if (PieceAdjustment_.isEmpty()) {
               PieceAdjustment_ = other.PieceAdjustment_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensurePieceAdjustmentIsMutable();
               PieceAdjustment_.addAll(other.PieceAdjustment_);
@@ -608,7 +516,7 @@ public final class _BeyondCostumeSetDetailOuterClass {
               PieceAdjustmentBuilder_.dispose();
               PieceAdjustmentBuilder_ = null;
               PieceAdjustment_ = other.PieceAdjustment_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               PieceAdjustmentBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPieceAdjustmentFieldBuilder() : null;
@@ -647,252 +555,46 @@ public final class _BeyondCostumeSetDetailOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo> PieceInfo_ =
-        java.util.Collections.emptyList();
-      private void ensurePieceInfoIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          PieceInfo_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo>(PieceInfo_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo, emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo.Builder, emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfoOrBuilder> PieceInfoBuilder_;
-
+      private com.google.protobuf.ByteString PieceInfo_ = com.google.protobuf.ByteString.EMPTY;
       /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
+       * <code>bytes _piece_info = 1;</code>
+       * @return The pieceInfo.
        */
-      public java.util.List<emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo> getPieceInfoList() {
-        if (PieceInfoBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(PieceInfo_);
-        } else {
-          return PieceInfoBuilder_.getMessageList();
-        }
+      @java.lang.Override
+      public com.google.protobuf.ByteString getPieceInfo() {
+        return PieceInfo_;
       }
       /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
+       * <code>bytes _piece_info = 1;</code>
+       * @param value The pieceInfo to set.
+       * @return This builder for chaining.
        */
-      public int getPieceInfoCount() {
-        if (PieceInfoBuilder_ == null) {
-          return PieceInfo_.size();
-        } else {
-          return PieceInfoBuilder_.getCount();
-        }
-      }
-      /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-       */
-      public emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo getPieceInfo(int index) {
-        if (PieceInfoBuilder_ == null) {
-          return PieceInfo_.get(index);
-        } else {
-          return PieceInfoBuilder_.getMessage(index);
-        }
-      }
-      /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-       */
-      public Builder setPieceInfo(
-          int index, emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo value) {
-        if (PieceInfoBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensurePieceInfoIsMutable();
-          PieceInfo_.set(index, value);
-          onChanged();
-        } else {
-          PieceInfoBuilder_.setMessage(index, value);
-        }
+      public Builder setPieceInfo(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        PieceInfo_ = value;
+        onChanged();
         return this;
       }
       /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-       */
-      public Builder setPieceInfo(
-          int index, emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo.Builder builderForValue) {
-        if (PieceInfoBuilder_ == null) {
-          ensurePieceInfoIsMutable();
-          PieceInfo_.set(index, builderForValue.build());
-          onChanged();
-        } else {
-          PieceInfoBuilder_.setMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-       */
-      public Builder addPieceInfo(emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo value) {
-        if (PieceInfoBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensurePieceInfoIsMutable();
-          PieceInfo_.add(value);
-          onChanged();
-        } else {
-          PieceInfoBuilder_.addMessage(value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-       */
-      public Builder addPieceInfo(
-          int index, emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo value) {
-        if (PieceInfoBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensurePieceInfoIsMutable();
-          PieceInfo_.add(index, value);
-          onChanged();
-        } else {
-          PieceInfoBuilder_.addMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-       */
-      public Builder addPieceInfo(
-          emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo.Builder builderForValue) {
-        if (PieceInfoBuilder_ == null) {
-          ensurePieceInfoIsMutable();
-          PieceInfo_.add(builderForValue.build());
-          onChanged();
-        } else {
-          PieceInfoBuilder_.addMessage(builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-       */
-      public Builder addPieceInfo(
-          int index, emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo.Builder builderForValue) {
-        if (PieceInfoBuilder_ == null) {
-          ensurePieceInfoIsMutable();
-          PieceInfo_.add(index, builderForValue.build());
-          onChanged();
-        } else {
-          PieceInfoBuilder_.addMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-       */
-      public Builder addAllPieceInfo(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo> values) {
-        if (PieceInfoBuilder_ == null) {
-          ensurePieceInfoIsMutable();
-          com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, PieceInfo_);
-          onChanged();
-        } else {
-          PieceInfoBuilder_.addAllMessages(values);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
+       * <code>bytes _piece_info = 1;</code>
+       * @return This builder for chaining.
        */
       public Builder clearPieceInfo() {
-        if (PieceInfoBuilder_ == null) {
-          PieceInfo_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-          onChanged();
-        } else {
-          PieceInfoBuilder_.clear();
-        }
+        
+        PieceInfo_ = getDefaultInstance().getPieceInfo();
+        onChanged();
         return this;
-      }
-      /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-       */
-      public Builder removePieceInfo(int index) {
-        if (PieceInfoBuilder_ == null) {
-          ensurePieceInfoIsMutable();
-          PieceInfo_.remove(index);
-          onChanged();
-        } else {
-          PieceInfoBuilder_.remove(index);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-       */
-      public emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo.Builder getPieceInfoBuilder(
-          int index) {
-        return getPieceInfoFieldBuilder().getBuilder(index);
-      }
-      /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-       */
-      public emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfoOrBuilder getPieceInfoOrBuilder(
-          int index) {
-        if (PieceInfoBuilder_ == null) {
-          return PieceInfo_.get(index);  } else {
-          return PieceInfoBuilder_.getMessageOrBuilder(index);
-        }
-      }
-      /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfoOrBuilder> 
-           getPieceInfoOrBuilderList() {
-        if (PieceInfoBuilder_ != null) {
-          return PieceInfoBuilder_.getMessageOrBuilderList();
-        } else {
-          return java.util.Collections.unmodifiableList(PieceInfo_);
-        }
-      }
-      /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-       */
-      public emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo.Builder addPieceInfoBuilder() {
-        return getPieceInfoFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo.getDefaultInstance());
-      }
-      /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-       */
-      public emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo.Builder addPieceInfoBuilder(
-          int index) {
-        return getPieceInfoFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo.getDefaultInstance());
-      }
-      /**
-       * <code>repeated ._BeyondCostumePieceInfo _piece_info = 1;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo.Builder> 
-           getPieceInfoBuilderList() {
-        return getPieceInfoFieldBuilder().getBuilderList();
-      }
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo, emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo.Builder, emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfoOrBuilder> 
-          getPieceInfoFieldBuilder() {
-        if (PieceInfoBuilder_ == null) {
-          PieceInfoBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo, emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfo.Builder, emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass._BeyondCostumePieceInfoOrBuilder>(
-                  PieceInfo_,
-                  ((bitField0_ & 0x00000001) != 0),
-                  getParentForChildren(),
-                  isClean());
-          PieceInfo_ = null;
-        }
-        return PieceInfoBuilder_;
       }
 
       private java.util.List<emu.grasscutter.net.proto._BeyondCostumePieceAdjustmentOuterClass._BeyondCostumePieceAdjustment> PieceAdjustment_ =
         java.util.Collections.emptyList();
       private void ensurePieceAdjustmentIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
+        if (!((bitField0_ & 0x00000001) != 0)) {
           PieceAdjustment_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondCostumePieceAdjustmentOuterClass._BeyondCostumePieceAdjustment>(PieceAdjustment_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
 
@@ -1042,7 +744,7 @@ public final class _BeyondCostumeSetDetailOuterClass {
       public Builder clearPieceAdjustment() {
         if (PieceAdjustmentBuilder_ == null) {
           PieceAdjustment_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           PieceAdjustmentBuilder_.clear();
@@ -1119,7 +821,7 @@ public final class _BeyondCostumeSetDetailOuterClass {
           PieceAdjustmentBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               emu.grasscutter.net.proto._BeyondCostumePieceAdjustmentOuterClass._BeyondCostumePieceAdjustment, emu.grasscutter.net.proto._BeyondCostumePieceAdjustmentOuterClass._BeyondCostumePieceAdjustment.Builder, emu.grasscutter.net.proto._BeyondCostumePieceAdjustmentOuterClass._BeyondCostumePieceAdjustmentOrBuilder>(
                   PieceAdjustment_,
-                  ((bitField0_ & 0x00000002) != 0),
+                  ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
           PieceAdjustment_ = null;
@@ -1194,19 +896,17 @@ public final class _BeyondCostumeSetDetailOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035_BeyondCostumeSetDetail.proto\032#_Beyond" +
-      "CostumePieceAdjustment.proto\032\035_BeyondCos" +
-      "tumePieceInfo.proto\"\203\001\n\027_BeyondCostumeSe" +
-      "tDetail\022-\n\013_piece_info\030\001 \003(\0132\030._BeyondCo" +
-      "stumePieceInfo\0229\n\021_piece_adjustment\030\002 \003(" +
-      "\0132\036._BeyondCostumePieceAdjustmentB>\n\031emu" +
-      ".grasscutter.net.protoB!_BeyondCostumeSe" +
-      "tDetailOuterClassb\006proto3"
+      "CostumePieceAdjustment.proto\"i\n\027_BeyondC" +
+      "ostumeSetDetail\022\023\n\013_piece_info\030\001 \001(\014\0229\n\021" +
+      "_piece_adjustment\030\002 \003(\0132\036._BeyondCostume" +
+      "PieceAdjustmentB>\n\031emu.grasscutter.net.p" +
+      "rotoB!_BeyondCostumeSetDetailOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto._BeyondCostumePieceAdjustmentOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass.getDescriptor(),
         });
     internal_static__BeyondCostumeSetDetail_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1215,7 +915,6 @@ public final class _BeyondCostumeSetDetailOuterClass {
         internal_static__BeyondCostumeSetDetail_descriptor,
         new java.lang.String[] { "PieceInfo", "PieceAdjustment", });
     emu.grasscutter.net.proto._BeyondCostumePieceAdjustmentOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._BeyondCostumePieceInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

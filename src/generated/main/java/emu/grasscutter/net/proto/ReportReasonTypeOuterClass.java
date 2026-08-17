@@ -236,7 +236,8 @@ public final class ReportReasonTypeOuterClass {
       "MATCH\020\t\0220\n,ReportReasonType_REPORT_REASO" +
       "N_TRICK_CONSUME\020\n\022@\n<ReportReasonType_RE" +
       "PORT_REASON_TRICK_THIRD_PARTY_TRANSACTIO" +
-      "N\020\013B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "N\020\013B7\n\031emu.grasscutter.net.protoB\032Report" +
+      "ReasonTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

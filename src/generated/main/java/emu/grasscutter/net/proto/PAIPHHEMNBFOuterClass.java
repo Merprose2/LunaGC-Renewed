@@ -1512,8 +1512,8 @@ public final class PAIPHHEMNBFOuterClass {
       "PMGAI\030\r \001(\r\"s\n\013ENGPCPOGKPI\022\027\n\023ENGPCPOGKP" +
       "I_OP_NONE\020\000\022\030\n\024ENGPCPOGKPI_OP_SPLIT\020\001\022\030\n" +
       "\024ENGPCPOGKPI_OP_STACK\020\002\022\027\n\023ENGPCPOGKPI_O" +
-      "P_SWAP\020\003B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "P_SWAP\020\003B2\n\031emu.grasscutter.net.protoB\025P" +
+      "AIPHHEMNBFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

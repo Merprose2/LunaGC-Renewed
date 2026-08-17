@@ -963,8 +963,9 @@ public final class KGHLOPIFJLBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KGHLOPIFJLB.proto\032\021GPIAADOPHMK.proto\"L" +
       "\n\013KGHLOPIFJLB\022\013\n\003uid\030\003 \001(\r\022\r\n\005score\030\007 \001(" +
-      "\r\022!\n\013KDFMEPMGGHJ\030\016 \003(\0132\014.GPIAADOPHMKB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\r\022!\n\013KDFMEPMGGHJ\030\016 \003(\0132\014.GPIAADOPHMKB2\n\031" +
+      "emu.grasscutter.net.protoB\025KGHLOPIFJLBOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -667,8 +667,9 @@ public final class LEPIHEKJLOEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LEPIHEKJLOE.proto\",\n\013LEPIHEKJLOE\022\020\n\010ni" +
-      "ckname\030\005 \001(\t\022\013\n\003uid\030\016 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "ckname\030\005 \001(\t\022\013\n\003uid\030\016 \001(\rB2\n\031emu.grasscu" +
+      "tter.net.protoB\025LEPIHEKJLOEOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

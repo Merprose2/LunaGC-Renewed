@@ -1483,8 +1483,9 @@ public final class ViewCodexRspOuterClass {
       "o\"\226\001\n\014ViewCodexRsp\022\023\n\013BKBGHIGLPFI\030\003 \003(\r\022" +
       "#\n\033recent_viewed_pushtips_list\030\005 \003(\r\022&\n\016" +
       "type_data_list\030\n \003(\0132\016.CodexTypeData\022\017\n\007" +
-      "retcode\030\014 \001(\005\022\023\n\013KKBDJOCOLON\030\016 \003(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "retcode\030\014 \001(\005\022\023\n\013KKBDJOCOLON\030\016 \003(\rB3\n\031em" +
+      "u.grasscutter.net.protoB\026ViewCodexRspOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

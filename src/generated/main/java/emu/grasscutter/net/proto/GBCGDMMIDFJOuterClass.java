@@ -38,11 +38,11 @@ public final class GBCGDMMIDFJOuterClass {
      * <code>._ServerParamTypeInfo server_param_type_info = 100;</code>
      * @return The serverParamTypeInfo.
      */
-    emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo getServerParamTypeInfo();
+    emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo getServerParamTypeInfo();
     /**
      * <code>._ServerParamTypeInfo server_param_type_info = 100;</code>
      */
-    emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfoOrBuilder getServerParamTypeInfoOrBuilder();
+    emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfoOrBuilder getServerParamTypeInfoOrBuilder();
 
     /**
      * <code>._FrogParamTypeInfo frog_param_type_info = 101;</code>
@@ -53,11 +53,11 @@ public final class GBCGDMMIDFJOuterClass {
      * <code>._FrogParamTypeInfo frog_param_type_info = 101;</code>
      * @return The frogParamTypeInfo.
      */
-    emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo getFrogParamTypeInfo();
+    emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo getFrogParamTypeInfo();
     /**
      * <code>._FrogParamTypeInfo frog_param_type_info = 101;</code>
      */
-    emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfoOrBuilder getFrogParamTypeInfoOrBuilder();
+    emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfoOrBuilder getFrogParamTypeInfoOrBuilder();
 
     public emu.grasscutter.net.proto.GBCGDMMIDFJOuterClass.GBCGDMMIDFJ.BLJGLJJDBGICase getBLJGLJJDBGICase();
   }
@@ -114,28 +114,28 @@ public final class GBCGDMMIDFJOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo.Builder subBuilder = null;
               if (bLJGLJJDBGICase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo) bLJGLJJDBGI_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo) bLJGLJJDBGI_).toBuilder();
               }
               bLJGLJJDBGI_ =
-                  input.readMessage(emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo) bLJGLJJDBGI_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo) bLJGLJJDBGI_);
                 bLJGLJJDBGI_ = subBuilder.buildPartial();
               }
               bLJGLJJDBGICase_ = 100;
               break;
             }
             case 810: {
-              emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo.Builder subBuilder = null;
               if (bLJGLJJDBGICase_ == 101) {
-                subBuilder = ((emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo) bLJGLJJDBGI_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo) bLJGLJJDBGI_).toBuilder();
               }
               bLJGLJJDBGI_ =
-                  input.readMessage(emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo) bLJGLJJDBGI_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo) bLJGLJJDBGI_);
                 bLJGLJJDBGI_ = subBuilder.buildPartial();
               }
               bLJGLJJDBGICase_ = 101;
@@ -247,21 +247,21 @@ public final class GBCGDMMIDFJOuterClass {
      * @return The serverParamTypeInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo getServerParamTypeInfo() {
+    public emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo getServerParamTypeInfo() {
       if (bLJGLJJDBGICase_ == 100) {
-         return (emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo) bLJGLJJDBGI_;
+         return (emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo) bLJGLJJDBGI_;
       }
-      return emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo.getDefaultInstance();
     }
     /**
      * <code>._ServerParamTypeInfo server_param_type_info = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfoOrBuilder getServerParamTypeInfoOrBuilder() {
+    public emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfoOrBuilder getServerParamTypeInfoOrBuilder() {
       if (bLJGLJJDBGICase_ == 100) {
-         return (emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo) bLJGLJJDBGI_;
+         return (emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo) bLJGLJJDBGI_;
       }
-      return emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo.getDefaultInstance();
     }
 
     public static final int FROG_PARAM_TYPE_INFO_FIELD_NUMBER = 101;
@@ -278,21 +278,21 @@ public final class GBCGDMMIDFJOuterClass {
      * @return The frogParamTypeInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo getFrogParamTypeInfo() {
+    public emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo getFrogParamTypeInfo() {
       if (bLJGLJJDBGICase_ == 101) {
-         return (emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo) bLJGLJJDBGI_;
+         return (emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo) bLJGLJJDBGI_;
       }
-      return emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo.getDefaultInstance();
     }
     /**
      * <code>._FrogParamTypeInfo frog_param_type_info = 101;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfoOrBuilder getFrogParamTypeInfoOrBuilder() {
+    public emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfoOrBuilder getFrogParamTypeInfoOrBuilder() {
       if (bLJGLJJDBGICase_ == 101) {
-         return (emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo) bLJGLJJDBGI_;
+         return (emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo) bLJGLJJDBGI_;
       }
-      return emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -313,10 +313,10 @@ public final class GBCGDMMIDFJOuterClass {
         output.writeEnum(1, pGGCPHIDGAJ_);
       }
       if (bLJGLJJDBGICase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo) bLJGLJJDBGI_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo) bLJGLJJDBGI_);
       }
       if (bLJGLJJDBGICase_ == 101) {
-        output.writeMessage(101, (emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo) bLJGLJJDBGI_);
+        output.writeMessage(101, (emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo) bLJGLJJDBGI_);
       }
       unknownFields.writeTo(output);
     }
@@ -333,11 +333,11 @@ public final class GBCGDMMIDFJOuterClass {
       }
       if (bLJGLJJDBGICase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo) bLJGLJJDBGI_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo) bLJGLJJDBGI_);
       }
       if (bLJGLJJDBGICase_ == 101) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(101, (emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo) bLJGLJJDBGI_);
+          .computeMessageSize(101, (emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo) bLJGLJJDBGI_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -735,7 +735,7 @@ public final class GBCGDMMIDFJOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo, emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo.Builder, emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfoOrBuilder> serverParamTypeInfoBuilder_;
+          emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo, emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo.Builder, emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfoOrBuilder> serverParamTypeInfoBuilder_;
       /**
        * <code>._ServerParamTypeInfo server_param_type_info = 100;</code>
        * @return Whether the serverParamTypeInfo field is set.
@@ -749,23 +749,23 @@ public final class GBCGDMMIDFJOuterClass {
        * @return The serverParamTypeInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo getServerParamTypeInfo() {
+      public emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo getServerParamTypeInfo() {
         if (serverParamTypeInfoBuilder_ == null) {
           if (bLJGLJJDBGICase_ == 100) {
-            return (emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo) bLJGLJJDBGI_;
+            return (emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo) bLJGLJJDBGI_;
           }
-          return emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo.getDefaultInstance();
         } else {
           if (bLJGLJJDBGICase_ == 100) {
             return serverParamTypeInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._ServerParamTypeInfo server_param_type_info = 100;</code>
        */
-      public Builder setServerParamTypeInfo(emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo value) {
+      public Builder setServerParamTypeInfo(emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo value) {
         if (serverParamTypeInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -782,7 +782,7 @@ public final class GBCGDMMIDFJOuterClass {
        * <code>._ServerParamTypeInfo server_param_type_info = 100;</code>
        */
       public Builder setServerParamTypeInfo(
-          emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo.Builder builderForValue) {
         if (serverParamTypeInfoBuilder_ == null) {
           bLJGLJJDBGI_ = builderForValue.build();
           onChanged();
@@ -795,11 +795,11 @@ public final class GBCGDMMIDFJOuterClass {
       /**
        * <code>._ServerParamTypeInfo server_param_type_info = 100;</code>
        */
-      public Builder mergeServerParamTypeInfo(emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo value) {
+      public Builder mergeServerParamTypeInfo(emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo value) {
         if (serverParamTypeInfoBuilder_ == null) {
           if (bLJGLJJDBGICase_ == 100 &&
-              bLJGLJJDBGI_ != emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo.getDefaultInstance()) {
-            bLJGLJJDBGI_ = emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo.newBuilder((emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo) bLJGLJJDBGI_)
+              bLJGLJJDBGI_ != emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo.getDefaultInstance()) {
+            bLJGLJJDBGI_ = emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo.newBuilder((emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo) bLJGLJJDBGI_)
                 .mergeFrom(value).buildPartial();
           } else {
             bLJGLJJDBGI_ = value;
@@ -836,36 +836,36 @@ public final class GBCGDMMIDFJOuterClass {
       /**
        * <code>._ServerParamTypeInfo server_param_type_info = 100;</code>
        */
-      public emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo.Builder getServerParamTypeInfoBuilder() {
+      public emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo.Builder getServerParamTypeInfoBuilder() {
         return getServerParamTypeInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._ServerParamTypeInfo server_param_type_info = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfoOrBuilder getServerParamTypeInfoOrBuilder() {
+      public emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfoOrBuilder getServerParamTypeInfoOrBuilder() {
         if ((bLJGLJJDBGICase_ == 100) && (serverParamTypeInfoBuilder_ != null)) {
           return serverParamTypeInfoBuilder_.getMessageOrBuilder();
         } else {
           if (bLJGLJJDBGICase_ == 100) {
-            return (emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo) bLJGLJJDBGI_;
+            return (emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo) bLJGLJJDBGI_;
           }
-          return emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._ServerParamTypeInfo server_param_type_info = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo, emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo.Builder, emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfoOrBuilder> 
+          emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo, emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo.Builder, emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfoOrBuilder> 
           getServerParamTypeInfoFieldBuilder() {
         if (serverParamTypeInfoBuilder_ == null) {
           if (!(bLJGLJJDBGICase_ == 100)) {
-            bLJGLJJDBGI_ = emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo.getDefaultInstance();
+            bLJGLJJDBGI_ = emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo.getDefaultInstance();
           }
           serverParamTypeInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo, emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo.Builder, emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.ServerParamTypeInfo._ServerParamTypeInfo) bLJGLJJDBGI_,
+              emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo, emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo.Builder, emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass._ServerParamTypeInfo) bLJGLJJDBGI_,
                   getParentForChildren(),
                   isClean());
           bLJGLJJDBGI_ = null;
@@ -876,7 +876,7 @@ public final class GBCGDMMIDFJOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo, emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo.Builder, emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfoOrBuilder> frogParamTypeInfoBuilder_;
+          emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo, emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo.Builder, emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfoOrBuilder> frogParamTypeInfoBuilder_;
       /**
        * <code>._FrogParamTypeInfo frog_param_type_info = 101;</code>
        * @return Whether the frogParamTypeInfo field is set.
@@ -890,23 +890,23 @@ public final class GBCGDMMIDFJOuterClass {
        * @return The frogParamTypeInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo getFrogParamTypeInfo() {
+      public emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo getFrogParamTypeInfo() {
         if (frogParamTypeInfoBuilder_ == null) {
           if (bLJGLJJDBGICase_ == 101) {
-            return (emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo) bLJGLJJDBGI_;
+            return (emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo) bLJGLJJDBGI_;
           }
-          return emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo.getDefaultInstance();
         } else {
           if (bLJGLJJDBGICase_ == 101) {
             return frogParamTypeInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._FrogParamTypeInfo frog_param_type_info = 101;</code>
        */
-      public Builder setFrogParamTypeInfo(emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo value) {
+      public Builder setFrogParamTypeInfo(emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo value) {
         if (frogParamTypeInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -923,7 +923,7 @@ public final class GBCGDMMIDFJOuterClass {
        * <code>._FrogParamTypeInfo frog_param_type_info = 101;</code>
        */
       public Builder setFrogParamTypeInfo(
-          emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo.Builder builderForValue) {
         if (frogParamTypeInfoBuilder_ == null) {
           bLJGLJJDBGI_ = builderForValue.build();
           onChanged();
@@ -936,11 +936,11 @@ public final class GBCGDMMIDFJOuterClass {
       /**
        * <code>._FrogParamTypeInfo frog_param_type_info = 101;</code>
        */
-      public Builder mergeFrogParamTypeInfo(emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo value) {
+      public Builder mergeFrogParamTypeInfo(emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo value) {
         if (frogParamTypeInfoBuilder_ == null) {
           if (bLJGLJJDBGICase_ == 101 &&
-              bLJGLJJDBGI_ != emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo.getDefaultInstance()) {
-            bLJGLJJDBGI_ = emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo.newBuilder((emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo) bLJGLJJDBGI_)
+              bLJGLJJDBGI_ != emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo.getDefaultInstance()) {
+            bLJGLJJDBGI_ = emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo.newBuilder((emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo) bLJGLJJDBGI_)
                 .mergeFrom(value).buildPartial();
           } else {
             bLJGLJJDBGI_ = value;
@@ -977,36 +977,36 @@ public final class GBCGDMMIDFJOuterClass {
       /**
        * <code>._FrogParamTypeInfo frog_param_type_info = 101;</code>
        */
-      public emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo.Builder getFrogParamTypeInfoBuilder() {
+      public emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo.Builder getFrogParamTypeInfoBuilder() {
         return getFrogParamTypeInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._FrogParamTypeInfo frog_param_type_info = 101;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfoOrBuilder getFrogParamTypeInfoOrBuilder() {
+      public emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfoOrBuilder getFrogParamTypeInfoOrBuilder() {
         if ((bLJGLJJDBGICase_ == 101) && (frogParamTypeInfoBuilder_ != null)) {
           return frogParamTypeInfoBuilder_.getMessageOrBuilder();
         } else {
           if (bLJGLJJDBGICase_ == 101) {
-            return (emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo) bLJGLJJDBGI_;
+            return (emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo) bLJGLJJDBGI_;
           }
-          return emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._FrogParamTypeInfo frog_param_type_info = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo, emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo.Builder, emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfoOrBuilder> 
+          emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo, emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo.Builder, emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfoOrBuilder> 
           getFrogParamTypeInfoFieldBuilder() {
         if (frogParamTypeInfoBuilder_ == null) {
           if (!(bLJGLJJDBGICase_ == 101)) {
-            bLJGLJJDBGI_ = emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo.getDefaultInstance();
+            bLJGLJJDBGI_ = emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo.getDefaultInstance();
           }
           frogParamTypeInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo, emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo.Builder, emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.FrogParamTypeInfo._FrogParamTypeInfo) bLJGLJJDBGI_,
+              emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo, emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo.Builder, emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass._FrogParamTypeInfo) bLJGLJJDBGI_,
                   getParentForChildren(),
                   isClean());
           bLJGLJJDBGI_ = null;
@@ -1088,15 +1088,16 @@ public final class GBCGDMMIDFJOuterClass {
       "GAJ\030\001 \001(\0162\014.DOLBMGJBNNN\0227\n\026server_param_" +
       "type_info\030d \001(\0132\025._ServerParamTypeInfoH\000" +
       "\0223\n\024frog_param_type_info\030e \001(\0132\023._FrogPa" +
-      "ramTypeInfoH\000B\r\n\013BLJGLJJDBGIB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "ramTypeInfoH\000B\r\n\013BLJGLJJDBGIB2\n\031emu.gras" +
+      "scutter.net.protoB\025GBCGDMMIDFJOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.DOLBMGJBNNNOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.FrogParamTypeInfo.getDescriptor(),
-          emu.grasscutter.net.proto.ServerParamTypeInfo.getDescriptor(),
+          emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass.getDescriptor(),
         });
     internal_static_GBCGDMMIDFJ_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1105,8 +1106,8 @@ public final class GBCGDMMIDFJOuterClass {
         internal_static_GBCGDMMIDFJ_descriptor,
         new java.lang.String[] { "PGGCPHIDGAJ", "ServerParamTypeInfo", "FrogParamTypeInfo", "BLJGLJJDBGI", });
     emu.grasscutter.net.proto.DOLBMGJBNNNOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.FrogParamTypeInfo.getDescriptor();
-    emu.grasscutter.net.proto.ServerParamTypeInfo.getDescriptor();
+    emu.grasscutter.net.proto._FrogParamTypeInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ServerParamTypeInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

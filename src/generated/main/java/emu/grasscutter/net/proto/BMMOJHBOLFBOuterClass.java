@@ -818,8 +818,8 @@ public final class BMMOJHBOLFBOuterClass {
       "\n\021BMMOJHBOLFB.proto\"l\n\013BMMOJHBOLFB\022\017\n\007re" +
       "tcode\030\t \001(\005\022\023\n\013JEBOFNMGJCC\030\013 \001(\010\022 \n\030inve" +
       "stigation_monster_id\030\r \001(\r\022\025\n\rclient_par" +
-      "ams\030\016 \001(\tB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "ams\030\016 \001(\tB2\n\031emu.grasscutter.net.protoB\025" +
+      "BMMOJHBOLFBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -3315,8 +3315,9 @@ public final class PKFOHAHPEFNOuterClass {
       "CEH\030\005 \001(\010\022\020\n\010is_empty\030\006 \001(\010\022\023\n\013NCPHKIKGC" +
       "PP\030\007 \001(\010\022!\n\013HBMIHLHFNOF\030\010 \001(\0132\014.PJHDONJJ" +
       "BLE\022!\n\013BEMEOGHOMNL\030\t \001(\0132\014.OGNOAMNANLM\022!" +
-      "\n\013JNLAHIKBNFL\030\n \001(\0132\014.JANENGEFLMAB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\n\013JNLAHIKBNFL\030\n \001(\0132\014.JANENGEFLMAB2\n\031emu" +
+      ".grasscutter.net.protoB\025PKFOHAHPEFNOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

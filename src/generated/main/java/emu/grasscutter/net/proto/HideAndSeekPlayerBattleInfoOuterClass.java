@@ -857,8 +857,9 @@ public final class HideAndSeekPlayerBattleInfoOuterClass {
       "\n!HideAndSeekPlayerBattleInfo.proto\"j\n\033H" +
       "ideAndSeekPlayerBattleInfo\022\022\n\ncostume_id" +
       "\030\003 \001(\r\022\020\n\010is_ready\030\007 \001(\010\022\021\n\tavatar_id\030\t " +
-      "\001(\r\022\022\n\nskill_list\030\017 \003(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\001(\r\022\022\n\nskill_list\030\017 \003(\rBB\n\031emu.grasscutt" +
+      "er.net.protoB%HideAndSeekPlayerBattleInf" +
+      "oOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

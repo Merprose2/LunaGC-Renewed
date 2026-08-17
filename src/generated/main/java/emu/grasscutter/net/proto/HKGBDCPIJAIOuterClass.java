@@ -1200,7 +1200,8 @@ public final class HKGBDCPIJAIOuterClass {
       "\016flower_num_map\030\r \003(\0132\036.HKGBDCPIJAI.Flow" +
       "erNumMapEntry\022\013\n\003uid\030\017 \001(\r\0323\n\021FlowerNumM" +
       "apEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025HKGBDCPIJA" +
+      "IOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

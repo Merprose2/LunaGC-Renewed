@@ -728,8 +728,9 @@ public final class HOMAJAOFNADOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HOMAJAOFNAD.proto\"a\n\013HOMAJAOFNAD\022\023\n\013BG" +
       "JCFBHJHND\030\001 \001(\r\022\023\n\013IAHEMLEBGPH\030\002 \001(\005\022\023\n\013" +
-      "AENPIDPILAB\030\003 \001(\r\022\023\n\013IPFBNDPBJMB\030\004 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "AENPIDPILAB\030\003 \001(\r\022\023\n\013IPFBNDPBJMB\030\004 \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025HOMAJAOFNAD" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

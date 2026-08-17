@@ -722,8 +722,9 @@ public final class PlayerWorldLocationInfoOuterClass {
       "\n\035PlayerWorldLocationInfo.proto\032\030PlayerL" +
       "ocationInfo.proto\"T\n\027PlayerWorldLocation" +
       "Info\022\020\n\010scene_id\030\003 \001(\r\022\'\n\nplayer_loc\030\014 \001" +
-      "(\0132\023.PlayerLocationInfoB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "(\0132\023.PlayerLocationInfoB>\n\031emu.grasscutt" +
+      "er.net.protoB!PlayerWorldLocationInfoOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

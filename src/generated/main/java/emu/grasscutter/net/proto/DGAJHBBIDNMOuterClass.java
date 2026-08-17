@@ -968,8 +968,8 @@ public final class DGAJHBBIDNMOuterClass {
       "\n\021DGAJHBBIDNM.proto\032\021KANFGENDGJN.proto\"Z" +
       "\n\013DGAJHBBIDNM\022\023\n\013CLBFJPDNHCG\030\001 \001(\014\022!\n\013IH" +
       "PFBPKHHNO\030\003 \003(\0132\014.KANFGENDGJN\022\023\n\013CDFGMOE" +
-      "HFDP\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "HFDP\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025DGAJHBBIDNMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

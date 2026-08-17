@@ -1416,8 +1416,8 @@ public final class JCFDAFLIABGOuterClass {
       "eon_guid\030\005 \001(\004\022\017\n\007retcode\030\007 \001(\005\022 \n\nextra" +
       "_info\030\t \001(\0132\014.HIKABNACEGJ\022\023\n\013MANFEIEOPHJ" +
       "\030\n \001(\004\022\r\n\005score\030\014 \001(\003\022!\n\013detail_info\030\016 \001" +
-      "(\0132\014.JLAHKOGBNNBB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "(\0132\014.JLAHKOGBNNBB2\n\031emu.grasscutter.net." +
+      "protoB\025JCFDAFLIABGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

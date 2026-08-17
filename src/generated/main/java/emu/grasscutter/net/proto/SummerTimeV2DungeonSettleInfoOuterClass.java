@@ -660,8 +660,9 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
       "\n#SummerTimeV2DungeonSettleInfo.proto\"q\n" +
       "\035SummerTimeV2DungeonSettleInfo\022 \n\030cur_du" +
       "ngeon_reward_limit\030\001 \001(\r\022\032\n\022taken_reward" +
-      "_count\030\014 \001(\r\022\022\n\nis_success\030\r \001(\010B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "_count\030\014 \001(\r\022\022\n\nis_success\030\r \001(\010BD\n\031emu." +
+      "grasscutter.net.protoB\'SummerTimeV2Dunge" +
+      "onSettleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

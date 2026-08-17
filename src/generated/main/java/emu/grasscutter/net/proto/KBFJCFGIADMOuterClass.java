@@ -879,8 +879,8 @@ public final class KBFJCFGIADMOuterClass {
       "ype\030\n \001(\0162\030.KBFJCFGIADM.DMNBFKEACIE\022\023\n\013J" +
       "KMIMEEBABE\030\014 \003(\r\"P\n\013DMNBFKEACIE\022\024\n\020DMNBF" +
       "KEACIE_NONE\020\000\022\024\n\020DMNBFKEACIE_PACK\020\001\022\025\n\021D" +
-      "MNBFKEACIE_PLANT\020\002B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "MNBFKEACIE_PLANT\020\002B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025KBFJCFGIADMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

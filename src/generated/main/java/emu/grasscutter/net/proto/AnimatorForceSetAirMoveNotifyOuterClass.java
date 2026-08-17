@@ -706,8 +706,9 @@ public final class AnimatorForceSetAirMoveNotifyOuterClass {
       "orwardType.proto\"k\n\035AnimatorForceSetAirM" +
       "oveNotify\022\021\n\tentity_id\030\004 \001(\r\022\023\n\013in_air_m" +
       "ove\030\014 \001(\010\022\"\n\014forward_type\030\017 \001(\0162\014.Forwar" +
-      "dTypeB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "dTypeBD\n\031emu.grasscutter.net.protoB\'Anim" +
+      "atorForceSetAirMoveNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class DLANIANGODFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DLANIANGODF.proto\"7\n\013DLANIANGODF\022\023\n\013DL" +
-      "BKKPGHHMI\030\007 \001(\r\022\023\n\013PPHHCDDFCNA\030\017 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "BKKPGHHMI\030\007 \001(\r\022\023\n\013PPHHCDDFCNA\030\017 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025DLANIANGODFOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

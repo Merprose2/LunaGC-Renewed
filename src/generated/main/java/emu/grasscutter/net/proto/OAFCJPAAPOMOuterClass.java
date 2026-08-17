@@ -652,8 +652,8 @@ public final class OAFCJPAAPOMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OAFCJPAAPOM.proto\"\"\n\013OAFCJPAAPOM\022\023\n\013GI" +
-      "LIPNAKNKA\030\004 \003(\004B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "LIPNAKNKA\030\004 \003(\004B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025OAFCJPAAPOMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

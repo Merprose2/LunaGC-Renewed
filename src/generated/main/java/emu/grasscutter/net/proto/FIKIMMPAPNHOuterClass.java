@@ -823,8 +823,8 @@ public final class FIKIMMPAPNHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FIKIMMPAPNH.proto\032\021EKAFLDLJAME.proto\"0" +
       "\n\013FIKIMMPAPNH\022!\n\013HIBJJFLINCH\030\013 \003(\0132\014.EKA" +
-      "FLDLJAMEB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "FLDLJAMEB2\n\031emu.grasscutter.net.protoB\025F" +
+      "IKIMMPAPNHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

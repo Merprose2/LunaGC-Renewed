@@ -813,8 +813,9 @@ public final class OAGONHFCOCPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OAGONHFCOCP.proto\"a\n\013OAGONHFCOCP\022\023\n\013GN" +
       "IHLHPHBAI\030\001 \001(\002\022\023\n\013FCKFDIPLOOP\030\002 \001(\002\022\023\n\013" +
-      "DHIOIKEHFEG\030\003 \001(\t\022\023\n\013EFEJMMFCFCD\030\004 \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "DHIOIKEHFEG\030\003 \001(\t\022\023\n\013EFEJMMFCFCD\030\004 \001(\010B2" +
+      "\n\031emu.grasscutter.net.protoB\025OAGONHFCOCP" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

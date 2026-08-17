@@ -526,8 +526,9 @@ public final class VintageMarketFinishStorePlayReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n%VintageMarketFinishStorePlayReq.proto\"" +
       "6\n\037VintageMarketFinishStorePlayReq\022\023\n\013st" +
-      "ore_round\030\010 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "ore_round\030\010 \001(\rBF\n\031emu.grasscutter.net.p" +
+      "rotoB)VintageMarketFinishStorePlayReqOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

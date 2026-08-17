@@ -1042,8 +1042,8 @@ public final class CAJCJAAEIPHOuterClass {
       "\013CAJCJAAEIPH\022!\n\013CNILMAGKFJI\030\001 \001(\0162\014.PABF" +
       "MPCHFHI\022!\n\013NPPMNEDJLJN\030\002 \001(\0132\014.GLFGBBKHA" +
       "EC\022!\n\013settle_info\030\005 \001(\0132\014.GNHBOLDBDOO\022\017\n" +
-      "\007retcode\030\r \001(\005B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "\007retcode\030\r \001(\005B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025CAJCJAAEIPHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

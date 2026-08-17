@@ -831,8 +831,8 @@ public final class OGGMBLLALHPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OGGMBLLALHP.proto\032\020AvatarInfo.proto\"/\n" +
       "\013OGGMBLLALHP\022 \n\013avatar_list\030\013 \003(\0132\013.Avat" +
-      "arInfoB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "arInfoB2\n\031emu.grasscutter.net.protoB\025OGG" +
+      "MBLLALHPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

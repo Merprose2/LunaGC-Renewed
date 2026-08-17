@@ -910,7 +910,8 @@ public final class AJKMPKADDBEOuterClass {
       "JEOKDCIGCFP.proto\"h\n\013AJKMPKADDBE\022\023\n\013AAFF" +
       "LOKAPPM\030\001 \001(\t\022!\n\013LAJMIKHEEDB\030\002 \001(\0162\014.JEO" +
       "KDCIGCFP\022!\n\013IDNFFJCIBFI\030\003 \001(\0132\014.ABFMGNFB" +
-      "COKB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "COKB2\n\031emu.grasscutter.net.protoB\025AJKMPK" +
+      "ADDBEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

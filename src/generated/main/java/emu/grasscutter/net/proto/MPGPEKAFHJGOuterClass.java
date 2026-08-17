@@ -1023,7 +1023,8 @@ public final class MPGPEKAFHJGOuterClass {
       "\013AOJHPEKFBEE\030\003 \001(\014\022\023\n\013IPKFMNCHANM\030\004 \001(\r\022" +
       "\024\n\014data_version\030\005 \001(\r\022\023\n\013DEJLAEJOEEP\030\006 \001" +
       "(\010\022\023\n\013JLGJPDGAIGG\030\025 \001(\010\022\020\n\010is_dirty\030\026 \001(" +
-      "\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\010B2\n\031emu.grasscutter.net.protoB\025MPGPEKAF" +
+      "HJGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

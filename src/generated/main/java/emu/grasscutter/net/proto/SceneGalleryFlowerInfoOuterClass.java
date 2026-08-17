@@ -658,8 +658,9 @@ public final class SceneGalleryFlowerInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034SceneGalleryFlowerInfo.proto\"S\n\026SceneG" +
       "alleryFlowerInfo\022\021\n\tcur_score\030\002 \001(\r\022\020\n\010e" +
-      "nd_time\030\n \001(\r\022\024\n\014target_score\030\013 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "nd_time\030\n \001(\r\022\024\n\014target_score\030\013 \001(\rB=\n\031e" +
+      "mu.grasscutter.net.protoB SceneGalleryFl" +
+      "owerInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

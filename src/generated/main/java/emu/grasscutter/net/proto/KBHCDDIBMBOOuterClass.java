@@ -4839,8 +4839,8 @@ public final class KBHCDDIBMBOOuterClass {
       ".OFIAGILBCIF\0229\n\013FHPGHEEEFOK\030\003 \003(\0132$.KBHC" +
       "DDIBMBO.AJDDLENEDBI.HPAFGIEMAAP\0229\n\013FEPGC" +
       "BBGCID\030\004 \003(\0132$.KBHCDDIBMBO.AJDDLENEDBI.P" +
-      "LPNGMEOCPMB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "LPNGMEOCPMB2\n\031emu.grasscutter.net.protoB" +
+      "\025KBHCDDIBMBOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

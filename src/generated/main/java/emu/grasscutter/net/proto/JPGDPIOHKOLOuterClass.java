@@ -731,8 +731,9 @@ public final class JPGDPIOHKOLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JPGDPIOHKOL.proto\"U\n\013JPGDPIOHKOL\022\021\n\tis" +
       "_finish\030\004 \001(\010\022\020\n\010ugc_guid\030\n \001(\004\022\017\n\007is_op" +
-      "en\030\014 \001(\010\022\020\n\010level_id\030\r \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "en\030\014 \001(\010\022\020\n\010level_id\030\r \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025JPGDPIOHKOLOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

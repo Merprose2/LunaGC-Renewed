@@ -659,8 +659,8 @@ public final class MIMMLHLPKEHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MIMMLHLPKEH.proto\032\025GroupLinkBundle.pro" +
       "to\"/\n\013MIMMLHLPKEH\022 \n\006bundle\030\001 \001(\0132\020.Grou" +
-      "pLinkBundleB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "pLinkBundleB2\n\031emu.grasscutter.net.proto" +
+      "B\025MIMMLHLPKEHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

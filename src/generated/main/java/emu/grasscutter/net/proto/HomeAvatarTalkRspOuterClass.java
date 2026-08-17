@@ -730,8 +730,9 @@ public final class HomeAvatarTalkRspOuterClass {
       "\n\027HomeAvatarTalkRsp.proto\032\036HomeAvatarTal" +
       "kFinishInfo.proto\"Y\n\021HomeAvatarTalkRsp\022\017" +
       "\n\007retcode\030\006 \001(\005\0223\n\020avatar_talk_info\030\014 \001(" +
-      "\0132\031.HomeAvatarTalkFinishInfoB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\0132\031.HomeAvatarTalkFinishInfoB8\n\031emu.gras" +
+      "scutter.net.protoB\033HomeAvatarTalkRspOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

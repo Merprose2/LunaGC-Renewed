@@ -918,8 +918,9 @@ public final class RoguelikeSelectAvatarAndEnterDungeonReqOuterClass {
       "q.proto\"\201\001\n\'RoguelikeSelectAvatarAndEnte" +
       "rDungeonReq\022\"\n\032backstage_avatar_guid_lis" +
       "t\030\002 \003(\004\022 \n\030onstage_avatar_guid_list\030\004 \003(" +
-      "\004\022\020\n\010stage_id\030\013 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\004\022\020\n\010stage_id\030\013 \001(\rBN\n\031emu.grasscutter.n" +
+      "et.protoB1RoguelikeSelectAvatarAndEnterD" +
+      "ungeonReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

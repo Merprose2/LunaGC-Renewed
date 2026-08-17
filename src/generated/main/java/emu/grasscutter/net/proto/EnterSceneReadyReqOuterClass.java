@@ -525,8 +525,9 @@ public final class EnterSceneReadyReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030EnterSceneReadyReq.proto\"/\n\022EnterScene" +
-      "ReadyReq\022\031\n\021enter_scene_token\030\007 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "ReadyReq\022\031\n\021enter_scene_token\030\007 \001(\rB9\n\031e" +
+      "mu.grasscutter.net.protoB\034EnterSceneRead" +
+      "yReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

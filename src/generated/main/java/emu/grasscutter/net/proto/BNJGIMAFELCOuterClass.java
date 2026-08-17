@@ -932,8 +932,8 @@ public final class BNJGIMAFELCOuterClass {
       "\n\021BNJGIMAFELC.proto\032\014Vector.proto\"i\n\013BNJ" +
       "GIMAFELC\022\021\n\tgadget_id\030\001 \001(\r\022\014\n\004type\030\003 \001(" +
       "\r\022\020\n\010group_id\030\010 \001(\r\022\024\n\003pos\030\014 \001(\0132\007.Vecto" +
-      "r\022\021\n\tconfig_id\030\016 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "r\022\021\n\tconfig_id\030\016 \001(\rB2\n\031emu.grasscutter." +
+      "net.protoB\025BNJGIMAFELCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

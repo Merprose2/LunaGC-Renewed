@@ -1152,8 +1152,9 @@ public final class EKNGBGFPNFMOuterClass {
       "\001\n\013EKNGBGFPNFM\022\020\n\010level_id\030\001 \001(\004\022\023\n\013HMFH" +
       "CPIKGCO\030\002 \001(\t\022\023\n\013LAEKJGJHBEN\030\003 \001(\t\022!\n\013NE" +
       "LIJGBOHMF\030\004 \001(\0162\014.KAAEKMCHCJA\022\023\n\013NGEDGDG" +
-      "BAID\030\005 \001(\014\022\022\n\nrequest_id\030\006 \001(\tB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "BAID\030\005 \001(\014\022\022\n\nrequest_id\030\006 \001(\tB2\n\031emu.gr" +
+      "asscutter.net.protoB\025EKNGBGFPNFMOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

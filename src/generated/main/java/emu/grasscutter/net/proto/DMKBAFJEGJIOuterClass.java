@@ -782,8 +782,8 @@ public final class DMKBAFJEGJIOuterClass {
       "\n\021DMKBAFJEGJI.proto\"u\n\013DMKBAFJEGJI\0222\n\013KI" +
       "BFKLIEPOA\030\t \003(\0132\035.DMKBAFJEGJI.KIBFKLIEPO" +
       "AEntry\0322\n\020KIBFKLIEPOAEntry\022\013\n\003key\030\001 \001(\r\022" +
-      "\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\r\n\005value\030\002 \001(\r:\0028\001B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025DMKBAFJEGJIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

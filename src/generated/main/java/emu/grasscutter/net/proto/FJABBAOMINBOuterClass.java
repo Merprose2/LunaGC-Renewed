@@ -596,8 +596,9 @@ public final class FJABBAOMINBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FJABBAOMINB.proto\"7\n\013FJABBAOMINB\022\023\n\013LO" +
-      "JKKILCLHO\030\003 \001(\r\022\023\n\013GDGFNBEPNDL\030\r \001(\010B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "JKKILCLHO\030\003 \001(\r\022\023\n\013GDGFNBEPNDL\030\r \001(\010B2\n\031" +
+      "emu.grasscutter.net.protoB\025FJABBAOMINBOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

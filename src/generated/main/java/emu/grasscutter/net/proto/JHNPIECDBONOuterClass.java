@@ -454,8 +454,9 @@ public final class JHNPIECDBONOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021JHNPIECDBON.proto\"\r\n\013JHNPIECDBONB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021JHNPIECDBON.proto\"\r\n\013JHNPIECDBONB2\n\031em" +
+      "u.grasscutter.net.protoB\025JHNPIECDBONOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

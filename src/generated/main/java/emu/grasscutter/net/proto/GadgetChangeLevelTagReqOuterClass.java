@@ -801,8 +801,9 @@ public final class GadgetChangeLevelTagReqOuterClass {
       "adgetTreeInfo.proto\"z\n\027GadgetChangeLevel" +
       "TagReq\022/\n\020combination_info\030\003 \001(\0132\025.Custo" +
       "mGadgetTreeInfo\022\030\n\020gadget_entity_id\030\004 \001(" +
-      "\r\022\024\n\014level_tag_id\030\014 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\r\022\024\n\014level_tag_id\030\014 \001(\rB>\n\031emu.grasscutt" +
+      "er.net.protoB!GadgetChangeLevelTagReqOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

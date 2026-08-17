@@ -1021,8 +1021,9 @@ public final class TowerBriefDataNotifyOuterClass {
       "wer_schedule_id\030\006 \001(\r\022\033\n\023schedule_start_" +
       "time\030\010 \001(\r\022\023\n\013PGPLJHLHGMH\030\t \001(\r\022\"\n\032is_fi" +
       "nished_entrance_floor\030\013 \001(\010\022\023\n\013MLPMAMMOP" +
-      "KN\030\r \001(\r\022\023\n\013GNNODOOEMMH\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "KN\030\r \001(\r\022\023\n\013GNNODOOEMMH\030\017 \001(\rB;\n\031emu.gra" +
+      "sscutter.net.protoB\036TowerBriefDataNotify" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

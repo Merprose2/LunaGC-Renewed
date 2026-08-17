@@ -1675,8 +1675,9 @@ public final class BDIDMLNHBICOuterClass {
       "\001(\r\022!\n\013CNKFJMFONKM\030\002 \001(\0132\014.GPNMBJIPJJJ\022!" +
       "\n\013MEGKGIKMOJF\030\003 \003(\0132\014.BACKODOJEKC\022!\n\013KFA" +
       "FIOJBNPA\030\004 \003(\0132\014.GOBMKBAKAJM\022!\n\013PGJBNAJC" +
-      "BFA\030\005 \001(\0132\014.KHNKMDPKFLKB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "BFA\030\005 \001(\0132\014.KHNKMDPKFLKB2\n\031emu.grasscutt" +
+      "er.net.protoB\025BDIDMLNHBICOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

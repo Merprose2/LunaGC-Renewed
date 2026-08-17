@@ -1165,8 +1165,9 @@ public final class PGPLIBJEJKCOuterClass {
       "\001\n\013PGPLIBJEJKC\022\023\n\013KMFFBEACCLP\030\001 \001(\005\022\023\n\013F" +
       "DLGFCLOCEP\030\002 \001(\002\022\023\n\013DNNKPHLDNKA\030\003 \001(\t\022\023\n" +
       "\013OEKJJIEPLFB\030\004 \001(\005\022\014\n\004name\030\005 \001(\t\022\034\n\006offs" +
-      "et\030\006 \001(\0132\014.DMGMMDBNPNAB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "et\030\006 \001(\0132\014.DMGMMDBNPNAB2\n\031emu.grasscutte" +
+      "r.net.protoB\025PGPLIBJEJKCOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

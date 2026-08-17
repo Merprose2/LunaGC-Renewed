@@ -724,7 +724,9 @@ public final class VintageMarketStoreChooseStrategyReqOuterClass {
       "\n)VintageMarketStoreChooseStrategyReq.pr" +
       "oto\"N\n#VintageMarketStoreChooseStrategyR" +
       "eq\022\025\n\rstrategy_list\030\013 \003(\r\022\020\n\010store_id\030\016 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rBJ\n\031emu.grasscutter.net.protoB-Vintag" +
+      "eMarketStoreChooseStrategyReqOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

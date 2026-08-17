@@ -526,7 +526,8 @@ public final class AvatarGainFlycloakNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036AvatarGainFlycloakNotify.proto\"/\n\030Avat" +
       "arGainFlycloakNotify\022\023\n\013flycloak_id\030\006 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB?\n\031emu.grasscutter.net.protoB\"AvatarGa" +
+      "inFlycloakNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

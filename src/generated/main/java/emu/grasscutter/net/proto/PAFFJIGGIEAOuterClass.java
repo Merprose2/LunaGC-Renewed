@@ -1019,8 +1019,9 @@ public final class PAFFJIGGIEAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PAFFJIGGIEA.proto\"`\n\013PAFFJIGGIEA\022\023\n\013EN" +
       "PINNAMBDG\030\001 \003(\004\022\023\n\013HMFHCPIKGCO\030\002 \001(\t\022\023\n\013" +
-      "NGEDGDGBAID\030\003 \001(\014\022\022\n\nrequest_id\030\004 \001(\tB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "NGEDGDGBAID\030\003 \001(\014\022\022\n\nrequest_id\030\004 \001(\tB2\n" +
+      "\031emu.grasscutter.net.protoB\025PAFFJIGGIEAO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

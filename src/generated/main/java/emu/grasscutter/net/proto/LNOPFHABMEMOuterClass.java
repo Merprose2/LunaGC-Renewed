@@ -853,7 +853,8 @@ public final class LNOPFHABMEMOuterClass {
       "GJOPCHMOHD\030\014 \003(\0132\035.LNOPFHABMEM.BGJOPCHMO" +
       "HDEntry\022\023\n\013DJJAEFOKKBB\030\016 \001(\r\0322\n\020BGJOPCHM" +
       "OHDEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025LNOPFHABM" +
+      "EMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

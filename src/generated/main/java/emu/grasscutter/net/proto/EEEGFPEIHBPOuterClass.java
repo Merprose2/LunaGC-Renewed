@@ -3110,8 +3110,9 @@ public final class EEEGFPEIHBPOuterClass {
       "\030\021 \001(\0132\014.DKPOCLFMGNHH\000\0220\n\030ele_group_hier" +
       "archy_comp\030\022 \001(\0132\014.EMHBNGIKPGFH\000\022:\n\"excl" +
       "usive_ele_group_hierarchy_comp\030\023 \001(\0132\014.F" +
-      "GMGIJJKOPNH\000B\010\n\006detailB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "GMGIJJKOPNH\000B\010\n\006detailB2\n\031emu.grasscutte" +
+      "r.net.protoB\025EEEGFPEIHBPOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

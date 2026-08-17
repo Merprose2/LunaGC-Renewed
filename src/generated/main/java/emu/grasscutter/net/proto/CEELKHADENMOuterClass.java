@@ -1059,8 +1059,9 @@ public final class CEELKHADENMOuterClass {
       "IIODLGEGEEK.proto\032\021LLHDKGABJBL.proto\"o\n\013" +
       "CEELKHADENM\022\032\n\004data\030\001 \001(\0132\014.LLHDKGABJBL\022" +
       "!\n\013OIJCMNGIHAP\030\002 \001(\0132\014.GLKACKEMHJD\022!\n\013HM" +
-      "JNCNICAMD\030\003 \001(\0132\014.IIODLGEGEEKB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "JNCNICAMD\030\003 \001(\0132\014.IIODLGEGEEKB2\n\031emu.gra" +
+      "sscutter.net.protoB\025CEELKHADENMOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

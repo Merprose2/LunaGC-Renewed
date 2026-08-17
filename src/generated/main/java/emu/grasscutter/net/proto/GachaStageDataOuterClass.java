@@ -916,8 +916,9 @@ public final class GachaStageDataOuterClass {
       "a\022\020\n\010stage_id\030\006 \001(\r\022\017\n\007is_open\030\014 \001(\010\0229\n\016" +
       "target_num_map\030\r \003(\0132!.GachaStageData.Ta" +
       "rgetNumMapEntry\0323\n\021TargetNumMapEntry\022\013\n\003" +
-      "key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B5\n\031emu.gras" +
+      "scutter.net.protoB\030GachaStageDataOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

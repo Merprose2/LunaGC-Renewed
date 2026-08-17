@@ -800,8 +800,9 @@ public final class WidgetCaptureAnimalReqOuterClass {
       "\n\034WidgetCaptureAnimalReq.proto\032\014Vector.p" +
       "roto\"V\n\026WidgetCaptureAnimalReq\022\023\n\013materi" +
       "al_id\030\003 \001(\r\022\024\n\003pos\030\007 \001(\0132\007.Vector\022\021\n\tent" +
-      "ity_id\030\010 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "ity_id\030\010 \001(\rB=\n\031emu.grasscutter.net.prot" +
+      "oB WidgetCaptureAnimalReqOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

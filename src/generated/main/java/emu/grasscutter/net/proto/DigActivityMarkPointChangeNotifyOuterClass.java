@@ -832,8 +832,9 @@ public final class DigActivityMarkPointChangeNotifyOuterClass {
       "\n&DigActivityMarkPointChangeNotify.proto" +
       "\032\022DigMarkPoint.proto\"N\n DigActivityMarkP" +
       "ointChangeNotify\022*\n\023dig_mark_point_list\030" +
-      "\003 \003(\0132\r.DigMarkPointB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\003 \003(\0132\r.DigMarkPointBG\n\031emu.grasscutter." +
+      "net.protoB*DigActivityMarkPointChangeNot" +
+      "ifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

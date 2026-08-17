@@ -1302,8 +1302,8 @@ public final class NFDBHAHLEINOuterClass {
       "\013NFDBHAHLEIN\022\023\n\013BBEEEGNDMKK\030\001 \001(\r\022!\n\013GCI" +
       "MDJPKMEK\030\002 \001(\0132\014.LLPHDGCCKOO\022!\n\013DJABLHMJ" +
       "BNK\030\003 \001(\0132\014.HHKFALFLGOO\022!\n\013AEHMGIHCECA\030\004" +
-      " \003(\0132\014.CBBMBDDBMCEB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      " \003(\0132\014.CBBMBDDBMCEB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025NFDBHAHLEINOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

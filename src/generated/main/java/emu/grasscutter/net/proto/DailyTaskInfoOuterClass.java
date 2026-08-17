@@ -800,8 +800,9 @@ public final class DailyTaskInfoOuterClass {
       "\n\023DailyTaskInfo.proto\"y\n\rDailyTaskInfo\022\027" +
       "\n\017finish_progress\030\003 \001(\r\022\023\n\013is_finished\030\004" +
       " \001(\010\022\025\n\rdaily_task_id\030\006 \001(\r\022\020\n\010progress\030" +
-      "\014 \001(\r\022\021\n\treward_id\030\017 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\014 \001(\r\022\021\n\treward_id\030\017 \001(\rB4\n\031emu.grasscut" +
+      "ter.net.protoB\027DailyTaskInfoOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -2270,8 +2270,8 @@ public final class PJOAGGFJIACOuterClass {
       "(\0132\014.BAPAMMNMDCG\022\023\n\013GFAMDJJFFCB\030\016 \001(\r\022\023\n" +
       "\013DKGBPCDDDPD\030\017 \001(\005\022\024\n\013JFAMEEDIDBM\030\302\n \001(\010" +
       "\022\024\n\013PJDDNGAKEJM\030\323\016 \001(\r\022\024\n\013INCDGIDLEAP\030\343\017" +
-      " \003(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \003(\rB2\n\031emu.grasscutter.net.protoB\025PJOAG" +
+      "GFJIACOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

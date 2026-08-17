@@ -652,8 +652,8 @@ public final class IIFFEELMOJBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IIFFEELMOJB.proto\"#\n\013IIFFEELMOJB\022\024\n\014bu" +
-      "ff_id_list\030\014 \003(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "ff_id_list\030\014 \003(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025IIFFEELMOJBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

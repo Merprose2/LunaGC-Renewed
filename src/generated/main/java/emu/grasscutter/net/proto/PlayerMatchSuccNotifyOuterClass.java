@@ -1254,8 +1254,9 @@ public final class PlayerMatchSuccNotifyOuterClass {
       "nfo\022\022\n\ndungeon_id\030\005 \001(\r\022\030\n\020confirm_end_t" +
       "ime\030\006 \001(\r\022%\n\016gcg_match_info\030\010 \001(\0132\r.GCGM" +
       "atchInfo\022\020\n\010host_uid\030\t \001(\r\022\036\n\nmatch_type" +
-      "\030\014 \001(\0162\n.MatchType\022\022\n\nmp_play_id\030\017 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\030\014 \001(\0162\n.MatchType\022\022\n\nmp_play_id\030\017 \001(\rB<" +
+      "\n\031emu.grasscutter.net.protoB\037PlayerMatch" +
+      "SuccNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

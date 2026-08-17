@@ -1317,8 +1317,9 @@ public final class AMBOIICFPDAOuterClass {
       "DEJDODLE\030\003 \001(\005\022!\n\013ILLHJHDEMGM\030\004 \003(\0132\014.MG" +
       "MFFDBIIDP\022\023\n\013BMBFNLBOLAG\030\005 \001(\r\022\023\n\013ICGDNN" +
       "AJEAI\030\013 \001(\r\022\017\n\007retcode\030\014 \001(\005\022\037\n\tshop_inf" +
-      "o\030\016 \001(\0132\014.KJCJKLHAFHIB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "o\030\016 \001(\0132\014.KJCJKLHAFHIB2\n\031emu.grasscutter" +
+      ".net.protoB\025AMBOIICFPDAOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -958,8 +958,9 @@ public final class ExecuteGroupTriggerReqOuterClass {
       "teGroupTriggerReq\022\023\n\013source_name\030\001 \001(\t\022\030" +
       "\n\020source_entity_id\030\004 \001(\r\022\016\n\006param1\030\006 \001(\005" +
       "\022\016\n\006param3\030\n \001(\005\022\016\n\006param2\030\016 \001(\005\022\030\n\020targ" +
-      "et_entity_id\030\017 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "et_entity_id\030\017 \001(\rB=\n\031emu.grasscutter.ne" +
+      "t.protoB ExecuteGroupTriggerReqOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

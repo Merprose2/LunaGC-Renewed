@@ -525,8 +525,8 @@ public final class NBLBFJBOOAHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NBLBFJBOOAH.proto\" \n\013NBLBFJBOOAH\022\021\n\tre" +
-      "ward_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "ward_id\030\016 \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025NBLBFJBOOAHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

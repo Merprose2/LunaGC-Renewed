@@ -595,8 +595,9 @@ public final class CHHKBFEPBKMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CHHKBFEPBKM.proto\"5\n\013CHHKBFEPBKM\022\023\n\013AD" +
-      "GDGFDFIDN\030\006 \001(\r\022\021\n\tentity_id\030\007 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "GDGFDFIDN\030\006 \001(\r\022\021\n\tentity_id\030\007 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025CHHKBFEPBKMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

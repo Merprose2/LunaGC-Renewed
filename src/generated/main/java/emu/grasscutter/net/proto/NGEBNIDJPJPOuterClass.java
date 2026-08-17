@@ -588,8 +588,9 @@ public final class NGEBNIDJPJPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NGEBNIDJPJP.proto\"2\n\013NGEBNIDJPJP\022\020\n\010is" +
-      "_trial\030\014 \001(\010\022\021\n\tavatar_id\030\017 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "_trial\030\014 \001(\010\022\021\n\tavatar_id\030\017 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025NGEBNIDJPJPOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

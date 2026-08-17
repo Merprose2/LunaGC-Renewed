@@ -634,8 +634,9 @@ public final class LCANGKBCNKJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LCANGKBCNKJ.proto\032\rUgcType.proto\"C\n\013LC" +
       "ANGKBCNKJ\022\030\n\020_is_allow_import\030\014 \001(\010\022\032\n\010u" +
-      "gc_type\030\016 \001(\0162\010.UgcTypeB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "gc_type\030\016 \001(\0162\010.UgcTypeB2\n\031emu.grasscutt" +
+      "er.net.protoB\025LCANGKBCNKJOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

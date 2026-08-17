@@ -729,8 +729,9 @@ public final class OMKNGPNBMKIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OMKNGPNBMKI.proto\032\021JCCEBIEEGFL.proto\"C" +
       "\n\013OMKNGPNBMKI\022!\n\013DGACEKDBNKC\030\003 \001(\0132\014.JCC" +
-      "EBIEEGFL\022\021\n\tentity_id\030\010 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "EBIEEGFL\022\021\n\tentity_id\030\010 \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025OMKNGPNBMKIOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

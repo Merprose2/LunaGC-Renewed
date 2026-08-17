@@ -767,8 +767,9 @@ public final class BattlePassRewardTagOuterClass {
       "nlockStatus.proto\"|\n\023BattlePassRewardTag" +
       "\022.\n\runlock_status\030\004 \001(\0162\027.BattlePassUnlo" +
       "ckStatus\022\021\n\treward_id\030\007 \001(\r\022\023\n\013CNJOFMDBA" +
-      "DE\030\016 \001(\r\022\r\n\005level\030\017 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "DE\030\016 \001(\r\022\r\n\005level\030\017 \001(\rB:\n\031emu.grasscutt" +
+      "er.net.protoB\035BattlePassRewardTagOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

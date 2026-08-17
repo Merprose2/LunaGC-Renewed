@@ -659,8 +659,8 @@ public final class AEEONEOABPBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AEEONEOABPB.proto\032\021AMANAEIHCBE.proto\"0" +
       "\n\013AEEONEOABPB\022!\n\013PKHPNOPICAL\030\017 \001(\0132\014.AMA" +
-      "NAEIHCBEB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "NAEIHCBEB2\n\031emu.grasscutter.net.protoB\025A" +
+      "EEONEOABPBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

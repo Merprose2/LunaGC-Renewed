@@ -39,11 +39,11 @@ public final class PAAMJLCCKKBOuterClass {
      * <code>._TemplatePotionInfo NNADFEPJILG = 14;</code>
      * @return The nNADFEPJILG.
      */
-    emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo getNNADFEPJILG();
+    emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo getNNADFEPJILG();
     /**
      * <code>._TemplatePotionInfo NNADFEPJILG = 14;</code>
      */
-    emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder getNNADFEPJILGOrBuilder();
+    emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder getNNADFEPJILGOrBuilder();
   }
   /**
    * <pre>
@@ -105,11 +105,11 @@ public final class PAAMJLCCKKBOuterClass {
               break;
             }
             case 114: {
-              emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder subBuilder = null;
               if (nNADFEPJILG_ != null) {
                 subBuilder = nNADFEPJILG_.toBuilder();
               }
-              nNADFEPJILG_ = input.readMessage(emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.parser(), extensionRegistry);
+              nNADFEPJILG_ = input.readMessage(emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nNADFEPJILG_);
                 nNADFEPJILG_ = subBuilder.buildPartial();
@@ -172,7 +172,7 @@ public final class PAAMJLCCKKBOuterClass {
     }
 
     public static final int NNADFEPJILG_FIELD_NUMBER = 14;
-    private emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo nNADFEPJILG_;
+    private emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo nNADFEPJILG_;
     /**
      * <code>._TemplatePotionInfo NNADFEPJILG = 14;</code>
      * @return Whether the nNADFEPJILG field is set.
@@ -186,14 +186,14 @@ public final class PAAMJLCCKKBOuterClass {
      * @return The nNADFEPJILG.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo getNNADFEPJILG() {
-      return nNADFEPJILG_ == null ? emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.getDefaultInstance() : nNADFEPJILG_;
+    public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo getNNADFEPJILG() {
+      return nNADFEPJILG_ == null ? emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.getDefaultInstance() : nNADFEPJILG_;
     }
     /**
      * <code>._TemplatePotionInfo NNADFEPJILG = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder getNNADFEPJILGOrBuilder() {
+    public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder getNNADFEPJILGOrBuilder() {
       return getNNADFEPJILG();
     }
 
@@ -613,9 +613,9 @@ public final class PAAMJLCCKKBOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo nNADFEPJILG_;
+      private emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo nNADFEPJILG_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder> nNADFEPJILGBuilder_;
+          emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder> nNADFEPJILGBuilder_;
       /**
        * <code>._TemplatePotionInfo NNADFEPJILG = 14;</code>
        * @return Whether the nNADFEPJILG field is set.
@@ -627,9 +627,9 @@ public final class PAAMJLCCKKBOuterClass {
        * <code>._TemplatePotionInfo NNADFEPJILG = 14;</code>
        * @return The nNADFEPJILG.
        */
-      public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo getNNADFEPJILG() {
+      public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo getNNADFEPJILG() {
         if (nNADFEPJILGBuilder_ == null) {
-          return nNADFEPJILG_ == null ? emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.getDefaultInstance() : nNADFEPJILG_;
+          return nNADFEPJILG_ == null ? emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.getDefaultInstance() : nNADFEPJILG_;
         } else {
           return nNADFEPJILGBuilder_.getMessage();
         }
@@ -637,7 +637,7 @@ public final class PAAMJLCCKKBOuterClass {
       /**
        * <code>._TemplatePotionInfo NNADFEPJILG = 14;</code>
        */
-      public Builder setNNADFEPJILG(emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo value) {
+      public Builder setNNADFEPJILG(emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo value) {
         if (nNADFEPJILGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -654,7 +654,7 @@ public final class PAAMJLCCKKBOuterClass {
        * <code>._TemplatePotionInfo NNADFEPJILG = 14;</code>
        */
       public Builder setNNADFEPJILG(
-          emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder builderForValue) {
         if (nNADFEPJILGBuilder_ == null) {
           nNADFEPJILG_ = builderForValue.build();
           onChanged();
@@ -667,11 +667,11 @@ public final class PAAMJLCCKKBOuterClass {
       /**
        * <code>._TemplatePotionInfo NNADFEPJILG = 14;</code>
        */
-      public Builder mergeNNADFEPJILG(emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo value) {
+      public Builder mergeNNADFEPJILG(emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo value) {
         if (nNADFEPJILGBuilder_ == null) {
           if (nNADFEPJILG_ != null) {
             nNADFEPJILG_ =
-              emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.newBuilder(nNADFEPJILG_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.newBuilder(nNADFEPJILG_).mergeFrom(value).buildPartial();
           } else {
             nNADFEPJILG_ = value;
           }
@@ -699,7 +699,7 @@ public final class PAAMJLCCKKBOuterClass {
       /**
        * <code>._TemplatePotionInfo NNADFEPJILG = 14;</code>
        */
-      public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder getNNADFEPJILGBuilder() {
+      public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder getNNADFEPJILGBuilder() {
         
         onChanged();
         return getNNADFEPJILGFieldBuilder().getBuilder();
@@ -707,23 +707,23 @@ public final class PAAMJLCCKKBOuterClass {
       /**
        * <code>._TemplatePotionInfo NNADFEPJILG = 14;</code>
        */
-      public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder getNNADFEPJILGOrBuilder() {
+      public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder getNNADFEPJILGOrBuilder() {
         if (nNADFEPJILGBuilder_ != null) {
           return nNADFEPJILGBuilder_.getMessageOrBuilder();
         } else {
           return nNADFEPJILG_ == null ?
-              emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.getDefaultInstance() : nNADFEPJILG_;
+              emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.getDefaultInstance() : nNADFEPJILG_;
         }
       }
       /**
        * <code>._TemplatePotionInfo NNADFEPJILG = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder> 
+          emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder> 
           getNNADFEPJILGFieldBuilder() {
         if (nNADFEPJILGBuilder_ == null) {
           nNADFEPJILGBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder>(
+              emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder>(
                   getNNADFEPJILG(),
                   getParentForChildren(),
                   isClean());
@@ -801,13 +801,14 @@ public final class PAAMJLCCKKBOuterClass {
       "\n\021PAAMJLCCKKB.proto\032\031_TemplatePotionInfo" +
       ".proto\"^\n\013PAAMJLCCKKB\022\017\n\007retcode\030\002 \001(\005\022\023" +
       "\n\013KGKDBBKOCMB\030\003 \001(\010\022)\n\013NNADFEPJILG\030\016 \001(\013" +
-      "2\024._TemplatePotionInfoB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "2\024._TemplatePotionInfoB2\n\031emu.grasscutte" +
+      "r.net.protoB\025PAAMJLCCKKBOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.TemplatePotionInfo.getDescriptor(),
+          emu.grasscutter.net.proto._TemplatePotionInfoOuterClass.getDescriptor(),
         });
     internal_static_PAAMJLCCKKB_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -815,7 +816,7 @@ public final class PAAMJLCCKKBOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PAAMJLCCKKB_descriptor,
         new java.lang.String[] { "Retcode", "KGKDBBKOCMB", "NNADFEPJILG", });
-    emu.grasscutter.net.proto.TemplatePotionInfo.getDescriptor();
+    emu.grasscutter.net.proto._TemplatePotionInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

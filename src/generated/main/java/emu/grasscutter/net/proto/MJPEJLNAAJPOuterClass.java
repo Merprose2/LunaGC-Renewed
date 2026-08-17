@@ -801,8 +801,9 @@ public final class MJPEJLNAAJPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MJPEJLNAAJP.proto\032\021ELIIONNFOHG.proto\"F" +
       "\n\013MJPEJLNAAJP\022!\n\013EKFNPOLONMF\030\001 \001(\0132\014.ELI" +
-      "IONNFOHG\022\024\n\013EJOBMIMALFP\030\366\003 \001(\tB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "IONNFOHG\022\024\n\013EJOBMIMALFP\030\366\003 \001(\tB2\n\031emu.gr" +
+      "asscutter.net.protoB\025MJPEJLNAAJPOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -832,8 +832,9 @@ public final class AranaraCollectionDataNotifyOuterClass {
       "\n!AranaraCollectionDataNotify.proto\032\034Ara" +
       "naraCollectionSuite.proto\"U\n\033AranaraColl" +
       "ectionDataNotify\0226\n\025collection_suite_lis" +
-      "t\030\013 \003(\0132\027.AranaraCollectionSuiteB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "t\030\013 \003(\0132\027.AranaraCollectionSuiteBB\n\031emu." +
+      "grasscutter.net.protoB%AranaraCollection" +
+      "DataNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

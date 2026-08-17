@@ -927,8 +927,8 @@ public final class DBAJMCNJIDPOuterClass {
       "\n\021DBAJMCNJIDP.proto\"n\n\013DBAJMCNJIDP\022\023\n\013DN" +
       "JAJJIHJHJ\030\003 \003(\r\022\023\n\013DNINPFPJFAH\030\006 \001(\r\022\023\n\013" +
       "NMHDKNDDLMC\030\007 \001(\r\022\013\n\003uid\030\010 \001(\r\022\023\n\013JIIAPK" +
-      "DKCDP\030\013 \001(\010B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "DKCDP\030\013 \001(\010B2\n\031emu.grasscutter.net.proto" +
+      "B\025DBAJMCNJIDPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

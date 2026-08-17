@@ -902,7 +902,8 @@ public final class CookDataNotifyOuterClass {
       "\n\024CookDataNotify.proto\032\024CookRecipeData.p" +
       "roto\"J\n\016CookDataNotify\022\r\n\005grade\030\001 \001(\r\022)\n" +
       "\020recipe_data_list\030\006 \003(\0132\017.CookRecipeData" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B5\n\031emu.grasscutter.net.protoB\030CookDataN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

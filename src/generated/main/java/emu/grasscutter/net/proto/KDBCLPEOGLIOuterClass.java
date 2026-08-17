@@ -595,8 +595,9 @@ public final class KDBCLPEOGLIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KDBCLPEOGLI.proto\"8\n\013KDBCLPEOGLI\022\026\n\016fu" +
-      "rniture_type\030\003 \001(\r\022\021\n\tavatar_id\030\r \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "rniture_type\030\003 \001(\r\022\021\n\tavatar_id\030\r \001(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025KDBCLPEOGLIO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

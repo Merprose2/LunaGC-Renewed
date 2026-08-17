@@ -893,8 +893,8 @@ public final class RewardOuterClass {
     java.lang.String[] descriptorData = {
       "\n\014Reward.proto\032\017ItemParam.proto\":\n\006Rewar" +
       "d\022\021\n\treward_id\030\001 \001(\r\022\035\n\titem_list\030\002 \003(\0132" +
-      "\n.ItemParamB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "\n.ItemParamB-\n\031emu.grasscutter.net.proto" +
+      "B\020RewardOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

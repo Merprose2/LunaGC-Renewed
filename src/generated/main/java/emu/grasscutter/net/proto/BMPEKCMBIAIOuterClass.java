@@ -1384,8 +1384,9 @@ public final class BMPEKCMBIAIOuterClass {
       "\010\022\023\n\013MJKOFCGJFHG\030\007 \001(\010\022\023\n\013HNGHKHKLBFL\030\010 " +
       "\001(\010\022\023\n\013JGBMNCHIOOC\030\n \001(\010\022\023\n\013KMAHPMFNFOD\030" +
       "\013 \001(\010\022\023\n\013HJEJLAPHJKP\030\r \001(\010\022\023\n\013FJDHMKIECG" +
-      "O\030\016 \001(\010\022\023\n\013OOJMILNCCLI\030\017 \001(\010B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "O\030\016 \001(\010\022\023\n\013OOJMILNCCLI\030\017 \001(\010B2\n\031emu.gras" +
+      "scutter.net.protoB\025BMPEKCMBIAIOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

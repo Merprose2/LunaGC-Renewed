@@ -1468,8 +1468,9 @@ public final class APPNLDHBAMMOuterClass {
       "JFEAF\022!\n\013GLOHKNNJAID\030\003 \001(\0132\014.LGKFCJNENDH" +
       "\022!\n\013BPFENOHDPAE\030\004 \001(\0132\014.BBCMODMJCDF\022!\n\013H" +
       "GPDEGFNPKN\030\005 \001(\0132\014.PKGMJCGPHMA\022!\n\013GLNKCM" +
-      "NAGOF\030\007 \001(\0132\014.MEHIHONIHJLB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "NAGOF\030\007 \001(\0132\014.MEHIHONIHJLB2\n\031emu.grasscu" +
+      "tter.net.protoB\025APPNLDHBAMMOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

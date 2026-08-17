@@ -724,8 +724,9 @@ public final class BuoyantCombatSettleInfoOuterClass {
       "CombatGallerySettleInfo.proto\"f\n\027Buoyant" +
       "CombatSettleInfo\022\025\n\ris_new_record\030\004 \001(\010\022" +
       "4\n\013settle_info\030\013 \001(\0132\037.BuoyantCombatGall" +
-      "erySettleInfoB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "erySettleInfoB>\n\031emu.grasscutter.net.pro" +
+      "toB!BuoyantCombatSettleInfoOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

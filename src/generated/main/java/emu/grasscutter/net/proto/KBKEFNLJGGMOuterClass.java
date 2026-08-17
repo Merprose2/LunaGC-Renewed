@@ -666,8 +666,8 @@ public final class KBKEFNLJGGMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KBKEFNLJGGM.proto\"B\n\013KBKEFNLJGGM\022\r\n\005le" +
       "vel\030\006 \001(\r\022\023\n\013IOLKLILAFPO\030\016 \001(\r\022\017\n\007retcod" +
-      "e\030\017 \001(\005B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "e\030\017 \001(\005B2\n\031emu.grasscutter.net.protoB\025KB" +
+      "KEFNLJGGMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

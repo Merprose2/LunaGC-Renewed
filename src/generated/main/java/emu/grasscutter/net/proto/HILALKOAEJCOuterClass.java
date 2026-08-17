@@ -1042,8 +1042,9 @@ public final class HILALKOAEJCOuterClass {
       "\n\021HILALKOAEJC.proto\032\021HKMCFMHHJHB.proto\"o" +
       "\n\013HILALKOAEJC\022\023\n\013ALNLEICEEDL\030\001 \001(\r\022\023\n\013LG" +
       "JNCFKMCHD\030\002 \001(\r\022\023\n\013FAPDHNOBMNK\030\010 \001(\r\022!\n\013" +
-      "record_list\030\r \003(\0132\014.HKMCFMHHJHBB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "record_list\030\r \003(\0132\014.HKMCFMHHJHBB2\n\031emu.g" +
+      "rasscutter.net.protoB\025HILALKOAEJCOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

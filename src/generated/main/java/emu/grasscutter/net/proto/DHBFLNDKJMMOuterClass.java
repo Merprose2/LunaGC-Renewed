@@ -667,8 +667,8 @@ public final class DHBFLNDKJMMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DHBFLNDKJMM.proto\"D\n\013DHBFLNDKJMM\022\020\n\010dr" +
       "aft_id\030\001 \001(\r\022\020\n\010is_agree\030\n \001(\010\022\021\n\tguest_" +
-      "uid\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "uid\030\014 \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "DHBFLNDKJMMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

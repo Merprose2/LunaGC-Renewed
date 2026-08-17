@@ -1019,8 +1019,8 @@ public final class EMKCJAAFIELOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EMKCJAAFIEL.proto\"D\n\013EMKCJAAFIEL\0325\n\013PB" +
       "MBNIAPACH\022\021\n\tscheme_id\030\n \001(\r\022\023\n\013LPDGDIAF" +
-      "IBB\030\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "IBB\030\013 \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "EMKCJAAFIELOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

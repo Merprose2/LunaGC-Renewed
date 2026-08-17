@@ -517,8 +517,8 @@ public final class GECEAEECLBKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GECEAEECLBK.proto\"\"\n\013GECEAEECLBK\022\023\n\013DJ" +
-      "GKFMDBCJK\030\001 \001(\005B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "GKFMDBCJK\030\001 \001(\005B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025GECEAEECLBKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

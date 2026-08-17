@@ -801,8 +801,9 @@ public final class SceneAvatarStaminaStepRspOuterClass {
       "\n\037SceneAvatarStaminaStepRsp.proto\032\014Vecto" +
       "r.proto\"Z\n\031SceneAvatarStaminaStepRsp\022\017\n\007" +
       "retcode\030\004 \001(\005\022\026\n\016use_client_rot\030\006 \001(\010\022\024\n" +
-      "\003rot\030\013 \001(\0132\007.VectorB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\003rot\030\013 \001(\0132\007.VectorB@\n\031emu.grasscutter.n" +
+      "et.protoB#SceneAvatarStaminaStepRspOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class KGFJFALAAKAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KGFJFALAAKA.proto\".\n\013KGFJFALAAKA\022\017\n\007re" +
-      "tcode\030\002 \001(\005\022\016\n\006pos_id\030\007 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "tcode\030\002 \001(\005\022\016\n\006pos_id\030\007 \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025KGFJFALAAKAOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -659,8 +659,8 @@ public final class NCKODPJHOPCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NCKODPJHOPC.proto\032\026SceneGalleryInfo.pr" +
       "oto\"6\n\013NCKODPJHOPC\022\'\n\014gallery_info\030\006 \001(\013" +
-      "2\021.SceneGalleryInfoB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "2\021.SceneGalleryInfoB2\n\031emu.grasscutter.n" +
+      "et.protoB\025NCKODPJHOPCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

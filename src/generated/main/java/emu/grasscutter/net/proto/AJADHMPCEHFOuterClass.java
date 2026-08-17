@@ -972,8 +972,8 @@ public final class AJADHMPCEHFOuterClass {
       "\n\021AJADHMPCEHF.proto\032\021INNFOOCNADP.proto\"V" +
       "\n\013AJADHMPCEHF\022\023\n\013schedule_id\030\010 \001(\r\022\017\n\007re" +
       "tcode\030\013 \001(\005\022!\n\013JHDCPBDLBNK\030\017 \003(\0132\014.INNFO" +
-      "OCNADPB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "OCNADPB2\n\031emu.grasscutter.net.protoB\025AJA" +
+      "DHMPCEHFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

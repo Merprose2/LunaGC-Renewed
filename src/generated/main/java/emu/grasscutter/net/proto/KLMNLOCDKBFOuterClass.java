@@ -525,8 +525,8 @@ public final class KLMNLOCDKBFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KLMNLOCDKBF.proto\"\"\n\013KLMNLOCDKBF\022\023\n\013MG" +
-      "KPNHNEEPH\030\007 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "KPNHNEEPH\030\007 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025KLMNLOCDKBFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

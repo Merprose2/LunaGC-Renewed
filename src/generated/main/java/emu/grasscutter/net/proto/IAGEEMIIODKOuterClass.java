@@ -934,8 +934,8 @@ public final class IAGEEMIIODKOuterClass {
       "\n\021IAGEEMIIODK.proto\"v\n\013IAGEEMIIODK\022\023\n\013EB" +
       "PKFDENOLA\030\005 \003(\r\022\023\n\013PFBPMDDMINM\030\t \001(\r\022\023\n\013" +
       "HBLBDKIBOCG\030\013 \001(\r\022\023\n\013OLGBLCNIAEF\030\r \001(\r\022\023" +
-      "\n\013KEOHDLKIHKI\030\016 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013KEOHDLKIHKI\030\016 \001(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025IAGEEMIIODKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

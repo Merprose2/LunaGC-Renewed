@@ -1203,8 +1203,9 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
       "\n\013EFEJFDFNPLI\030\007 \001(\r\022\023\n\013ADNNHPLILMF\030\r \001(\r" +
       "\032\\\n FinishedChallengeCellNumMapEntry\022\013\n\003" +
       "key\030\001 \001(\r\022\'\n\005value\030\002 \001(\0132\030.RoguelikeSett" +
-      "leCoinInfo:\0028\001B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "leCoinInfo:\0028\001BA\n\031emu.grasscutter.net.pr" +
+      "otoB$RoguelikeDungeonSettleInfoOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

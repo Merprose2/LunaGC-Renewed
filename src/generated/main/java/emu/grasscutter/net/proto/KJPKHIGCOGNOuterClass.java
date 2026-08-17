@@ -651,7 +651,8 @@ public final class KJPKHIGCOGNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KJPKHIGCOGN.proto\032\021PGDMAIHKGFO.proto\"*" +
       "\n\013KJPKHIGCOGN\022\033\n\005value\030\001 \001(\0132\014.PGDMAIHKG" +
-      "FOB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "FOB2\n\031emu.grasscutter.net.protoB\025KJPKHIG" +
+      "COGNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

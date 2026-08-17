@@ -1213,8 +1213,9 @@ public final class GLHICJGJDLPOuterClass {
       "P.COICCEMLBODEntry\032@\n\020MIJCCHLCPBAEntry\022\013" +
       "\n\003key\030\001 \001(\r\022\033\n\005value\030\002 \001(\0132\014.JAGCAMGLGDP" +
       ":\0028\001\032@\n\020COICCEMLBODEntry\022\013\n\003key\030\001 \001(\r\022\033\n" +
-      "\005value\030\002 \001(\0132\014.EPBLMMLPIND:\0028\001B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\005value\030\002 \001(\0132\014.EPBLMMLPIND:\0028\001B2\n\031emu.gr" +
+      "asscutter.net.protoB\025GLHICJGJDLPOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

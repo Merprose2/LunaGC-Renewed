@@ -729,8 +729,9 @@ public final class SceneGallerySummerTimeV2BoatInfoOuterClass {
       "\n&SceneGallerySummerTimeV2BoatInfo.proto" +
       "\"e\n SceneGallerySummerTimeV2BoatInfo\022\016\n\006" +
       "param3\030\002 \001(\r\022\021\n\tused_time\030\006 \001(\r\022\016\n\006param" +
-      "1\030\007 \001(\r\022\016\n\006param2\030\016 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "1\030\007 \001(\r\022\016\n\006param2\030\016 \001(\rBG\n\031emu.grasscutt" +
+      "er.net.protoB*SceneGallerySummerTimeV2Bo" +
+      "atInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

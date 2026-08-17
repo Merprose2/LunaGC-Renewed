@@ -741,8 +741,9 @@ public final class DFHFBHGJAHEOuterClass {
       "\n\021DFHFBHGJAHE.proto\032\021BMOGINICGCO.proto\032\021" +
       "FOCHOGIGEFA.proto\"b\n\013DFHFBHGJAHE\022!\n\013GCMG" +
       "HOMHJNF\030\004 \001(\0162\014.FOCHOGIGEFA\022\022\n\nplayer_ui" +
-      "d\030\010 \001(\r\022\034\n\006reason\030\n \001(\0162\014.BMOGINICGCOB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "d\030\010 \001(\r\022\034\n\006reason\030\n \001(\0162\014.BMOGINICGCOB2\n" +
+      "\031emu.grasscutter.net.protoB\025DFHFBHGJAHEO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

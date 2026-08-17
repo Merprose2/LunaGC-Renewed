@@ -1244,8 +1244,9 @@ public final class GCGMsgPhaseChangeOuterClass {
       "\002 \001(\0132\014.NKFJFOKFEIN\022\"\n\013JCCDOLLFCAO\030\004 \001(\016" +
       "2\r.GCGPhaseType\022\"\n\013CHEKPMNIJNN\030\006 \001(\0162\r.G" +
       "CGPhaseType\022*\n\025allow_controller_list\030\t \003" +
-      "(\0132\013.Uint32PairB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "(\0132\013.Uint32PairB8\n\031emu.grasscutter.net.p" +
+      "rotoB\033GCGMsgPhaseChangeOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

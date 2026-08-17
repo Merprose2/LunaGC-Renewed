@@ -903,7 +903,8 @@ public final class HomeGetFishFarmingInfoRspOuterClass {
       "ishFarmingInfo.proto\"b\n\031HomeGetFishFarmi" +
       "ngInfoRsp\022\017\n\007retcode\030\003 \001(\005\0224\n\026fish_farmi" +
       "ng_info_list\030\005 \003(\0132\024.HomeFishFarmingInfo" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B@\n\031emu.grasscutter.net.protoB#HomeGetFi" +
+      "shFarmingInfoRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

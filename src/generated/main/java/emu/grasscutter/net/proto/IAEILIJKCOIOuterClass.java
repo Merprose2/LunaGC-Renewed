@@ -1333,8 +1333,8 @@ public final class IAEILIJKCOIOuterClass {
       "DEGCLGKLII\030\002 \001(\0132\014.LGMIBEEGKII\022!\n\013LEIGAN" +
       "EGOGH\030\003 \001(\0132\014.LGMIBEEGKII\022!\n\013EACNHFNFAMO" +
       "\030\004 \001(\0132\014.LGMIBEEGKII\022!\n\013FFHLPANJCKE\030\005 \001(" +
-      "\0132\014.LGMIBEEGKIIB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\0132\014.LGMIBEEGKIIB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025IAEILIJKCOIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

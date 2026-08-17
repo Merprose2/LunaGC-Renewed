@@ -93,11 +93,11 @@ public final class CNBMCPNHDNNOuterClass {
      * <code>._BomberV3Snapshot bomber_v_3_snapshot = 1729;</code>
      * @return The bomberV3Snapshot.
      */
-    emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot getBomberV3Snapshot();
+    emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot getBomberV3Snapshot();
     /**
      * <code>._BomberV3Snapshot bomber_v_3_snapshot = 1729;</code>
      */
-    emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3SnapshotOrBuilder getBomberV3SnapshotOrBuilder();
+    emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3SnapshotOrBuilder getBomberV3SnapshotOrBuilder();
 
     /**
      * <code>._TwoDimensionSnapshot two_dimension_snapshot = 1957;</code>
@@ -108,11 +108,11 @@ public final class CNBMCPNHDNNOuterClass {
      * <code>._TwoDimensionSnapshot two_dimension_snapshot = 1957;</code>
      * @return The twoDimensionSnapshot.
      */
-    emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot getTwoDimensionSnapshot();
+    emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot getTwoDimensionSnapshot();
     /**
      * <code>._TwoDimensionSnapshot two_dimension_snapshot = 1957;</code>
      */
-    emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshotOrBuilder getTwoDimensionSnapshotOrBuilder();
+    emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshotOrBuilder getTwoDimensionSnapshotOrBuilder();
 
     public emu.grasscutter.net.proto.CNBMCPNHDNNOuterClass.CNBMCPNHDNN.DetailCase getDetailCase();
 
@@ -211,28 +211,28 @@ public final class CNBMCPNHDNNOuterClass {
               break;
             }
             case 13834: {
-              emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot.Builder subBuilder = null;
               if (detailCase_ == 1729) {
-                subBuilder = ((emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1729;
               break;
             }
             case 15658: {
-              emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot.Builder subBuilder = null;
               if (mFAPPPDGLGICase_ == 1957) {
-                subBuilder = ((emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot) mFAPPPDGLGI_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot) mFAPPPDGLGI_).toBuilder();
               }
               mFAPPPDGLGI_ =
-                  input.readMessage(emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot) mFAPPPDGLGI_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot) mFAPPPDGLGI_);
                 mFAPPPDGLGI_ = subBuilder.buildPartial();
               }
               mFAPPPDGLGICase_ = 1957;
@@ -479,21 +479,21 @@ public final class CNBMCPNHDNNOuterClass {
      * @return The bomberV3Snapshot.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot getBomberV3Snapshot() {
+    public emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot getBomberV3Snapshot() {
       if (detailCase_ == 1729) {
-         return (emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot) detail_;
+         return (emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot) detail_;
       }
-      return emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot.getDefaultInstance();
+      return emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot.getDefaultInstance();
     }
     /**
      * <code>._BomberV3Snapshot bomber_v_3_snapshot = 1729;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3SnapshotOrBuilder getBomberV3SnapshotOrBuilder() {
+    public emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3SnapshotOrBuilder getBomberV3SnapshotOrBuilder() {
       if (detailCase_ == 1729) {
-         return (emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot) detail_;
+         return (emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot) detail_;
       }
-      return emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot.getDefaultInstance();
+      return emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot.getDefaultInstance();
     }
 
     public static final int TWO_DIMENSION_SNAPSHOT_FIELD_NUMBER = 1957;
@@ -510,21 +510,21 @@ public final class CNBMCPNHDNNOuterClass {
      * @return The twoDimensionSnapshot.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot getTwoDimensionSnapshot() {
+    public emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot getTwoDimensionSnapshot() {
       if (mFAPPPDGLGICase_ == 1957) {
-         return (emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot) mFAPPPDGLGI_;
+         return (emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot) mFAPPPDGLGI_;
       }
-      return emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot.getDefaultInstance();
+      return emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot.getDefaultInstance();
     }
     /**
      * <code>._TwoDimensionSnapshot two_dimension_snapshot = 1957;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshotOrBuilder getTwoDimensionSnapshotOrBuilder() {
+    public emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshotOrBuilder getTwoDimensionSnapshotOrBuilder() {
       if (mFAPPPDGLGICase_ == 1957) {
-         return (emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot) mFAPPPDGLGI_;
+         return (emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot) mFAPPPDGLGI_;
       }
-      return emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot.getDefaultInstance();
+      return emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -557,10 +557,10 @@ public final class CNBMCPNHDNNOuterClass {
         output.writeUInt32(13, ProfileFrameId_);
       }
       if (detailCase_ == 1729) {
-        output.writeMessage(1729, (emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot) detail_);
+        output.writeMessage(1729, (emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot) detail_);
       }
       if (mFAPPPDGLGICase_ == 1957) {
-        output.writeMessage(1957, (emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot) mFAPPPDGLGI_);
+        output.writeMessage(1957, (emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot) mFAPPPDGLGI_);
       }
       unknownFields.writeTo(output);
     }
@@ -593,11 +593,11 @@ public final class CNBMCPNHDNNOuterClass {
       }
       if (detailCase_ == 1729) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1729, (emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot) detail_);
+          .computeMessageSize(1729, (emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot) detail_);
       }
       if (mFAPPPDGLGICase_ == 1957) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1957, (emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot) mFAPPPDGLGI_);
+          .computeMessageSize(1957, (emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot) mFAPPPDGLGI_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1621,7 +1621,7 @@ public final class CNBMCPNHDNNOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot, emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot.Builder, emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3SnapshotOrBuilder> bomberV3SnapshotBuilder_;
+          emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot, emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot.Builder, emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3SnapshotOrBuilder> bomberV3SnapshotBuilder_;
       /**
        * <code>._BomberV3Snapshot bomber_v_3_snapshot = 1729;</code>
        * @return Whether the bomberV3Snapshot field is set.
@@ -1635,23 +1635,23 @@ public final class CNBMCPNHDNNOuterClass {
        * @return The bomberV3Snapshot.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot getBomberV3Snapshot() {
+      public emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot getBomberV3Snapshot() {
         if (bomberV3SnapshotBuilder_ == null) {
           if (detailCase_ == 1729) {
-            return (emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot) detail_;
+            return (emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot) detail_;
           }
-          return emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot.getDefaultInstance();
+          return emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot.getDefaultInstance();
         } else {
           if (detailCase_ == 1729) {
             return bomberV3SnapshotBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot.getDefaultInstance();
+          return emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot.getDefaultInstance();
         }
       }
       /**
        * <code>._BomberV3Snapshot bomber_v_3_snapshot = 1729;</code>
        */
-      public Builder setBomberV3Snapshot(emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot value) {
+      public Builder setBomberV3Snapshot(emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot value) {
         if (bomberV3SnapshotBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1668,7 +1668,7 @@ public final class CNBMCPNHDNNOuterClass {
        * <code>._BomberV3Snapshot bomber_v_3_snapshot = 1729;</code>
        */
       public Builder setBomberV3Snapshot(
-          emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot.Builder builderForValue) {
+          emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot.Builder builderForValue) {
         if (bomberV3SnapshotBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1681,11 +1681,11 @@ public final class CNBMCPNHDNNOuterClass {
       /**
        * <code>._BomberV3Snapshot bomber_v_3_snapshot = 1729;</code>
        */
-      public Builder mergeBomberV3Snapshot(emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot value) {
+      public Builder mergeBomberV3Snapshot(emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot value) {
         if (bomberV3SnapshotBuilder_ == null) {
           if (detailCase_ == 1729 &&
-              detail_ != emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot.newBuilder((emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot) detail_)
+              detail_ != emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot.newBuilder((emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1722,36 +1722,36 @@ public final class CNBMCPNHDNNOuterClass {
       /**
        * <code>._BomberV3Snapshot bomber_v_3_snapshot = 1729;</code>
        */
-      public emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot.Builder getBomberV3SnapshotBuilder() {
+      public emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot.Builder getBomberV3SnapshotBuilder() {
         return getBomberV3SnapshotFieldBuilder().getBuilder();
       }
       /**
        * <code>._BomberV3Snapshot bomber_v_3_snapshot = 1729;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3SnapshotOrBuilder getBomberV3SnapshotOrBuilder() {
+      public emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3SnapshotOrBuilder getBomberV3SnapshotOrBuilder() {
         if ((detailCase_ == 1729) && (bomberV3SnapshotBuilder_ != null)) {
           return bomberV3SnapshotBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1729) {
-            return (emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot) detail_;
+            return (emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot) detail_;
           }
-          return emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot.getDefaultInstance();
+          return emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot.getDefaultInstance();
         }
       }
       /**
        * <code>._BomberV3Snapshot bomber_v_3_snapshot = 1729;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot, emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot.Builder, emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3SnapshotOrBuilder> 
+          emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot, emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot.Builder, emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3SnapshotOrBuilder> 
           getBomberV3SnapshotFieldBuilder() {
         if (bomberV3SnapshotBuilder_ == null) {
           if (!(detailCase_ == 1729)) {
-            detail_ = emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot.getDefaultInstance();
           }
           bomberV3SnapshotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot, emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot.Builder, emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3SnapshotOrBuilder>(
-                  (emu.grasscutter.net.proto.BomberV3Snapshot._BomberV3Snapshot) detail_,
+              emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot, emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot.Builder, emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3SnapshotOrBuilder>(
+                  (emu.grasscutter.net.proto._BomberV3SnapshotOuterClass._BomberV3Snapshot) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1762,7 +1762,7 @@ public final class CNBMCPNHDNNOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot, emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot.Builder, emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshotOrBuilder> twoDimensionSnapshotBuilder_;
+          emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot, emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot.Builder, emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshotOrBuilder> twoDimensionSnapshotBuilder_;
       /**
        * <code>._TwoDimensionSnapshot two_dimension_snapshot = 1957;</code>
        * @return Whether the twoDimensionSnapshot field is set.
@@ -1776,23 +1776,23 @@ public final class CNBMCPNHDNNOuterClass {
        * @return The twoDimensionSnapshot.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot getTwoDimensionSnapshot() {
+      public emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot getTwoDimensionSnapshot() {
         if (twoDimensionSnapshotBuilder_ == null) {
           if (mFAPPPDGLGICase_ == 1957) {
-            return (emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot) mFAPPPDGLGI_;
+            return (emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot) mFAPPPDGLGI_;
           }
-          return emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot.getDefaultInstance();
+          return emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot.getDefaultInstance();
         } else {
           if (mFAPPPDGLGICase_ == 1957) {
             return twoDimensionSnapshotBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot.getDefaultInstance();
+          return emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot.getDefaultInstance();
         }
       }
       /**
        * <code>._TwoDimensionSnapshot two_dimension_snapshot = 1957;</code>
        */
-      public Builder setTwoDimensionSnapshot(emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot value) {
+      public Builder setTwoDimensionSnapshot(emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot value) {
         if (twoDimensionSnapshotBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1809,7 +1809,7 @@ public final class CNBMCPNHDNNOuterClass {
        * <code>._TwoDimensionSnapshot two_dimension_snapshot = 1957;</code>
        */
       public Builder setTwoDimensionSnapshot(
-          emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot.Builder builderForValue) {
+          emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot.Builder builderForValue) {
         if (twoDimensionSnapshotBuilder_ == null) {
           mFAPPPDGLGI_ = builderForValue.build();
           onChanged();
@@ -1822,11 +1822,11 @@ public final class CNBMCPNHDNNOuterClass {
       /**
        * <code>._TwoDimensionSnapshot two_dimension_snapshot = 1957;</code>
        */
-      public Builder mergeTwoDimensionSnapshot(emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot value) {
+      public Builder mergeTwoDimensionSnapshot(emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot value) {
         if (twoDimensionSnapshotBuilder_ == null) {
           if (mFAPPPDGLGICase_ == 1957 &&
-              mFAPPPDGLGI_ != emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot.getDefaultInstance()) {
-            mFAPPPDGLGI_ = emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot.newBuilder((emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot) mFAPPPDGLGI_)
+              mFAPPPDGLGI_ != emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot.getDefaultInstance()) {
+            mFAPPPDGLGI_ = emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot.newBuilder((emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot) mFAPPPDGLGI_)
                 .mergeFrom(value).buildPartial();
           } else {
             mFAPPPDGLGI_ = value;
@@ -1863,36 +1863,36 @@ public final class CNBMCPNHDNNOuterClass {
       /**
        * <code>._TwoDimensionSnapshot two_dimension_snapshot = 1957;</code>
        */
-      public emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot.Builder getTwoDimensionSnapshotBuilder() {
+      public emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot.Builder getTwoDimensionSnapshotBuilder() {
         return getTwoDimensionSnapshotFieldBuilder().getBuilder();
       }
       /**
        * <code>._TwoDimensionSnapshot two_dimension_snapshot = 1957;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshotOrBuilder getTwoDimensionSnapshotOrBuilder() {
+      public emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshotOrBuilder getTwoDimensionSnapshotOrBuilder() {
         if ((mFAPPPDGLGICase_ == 1957) && (twoDimensionSnapshotBuilder_ != null)) {
           return twoDimensionSnapshotBuilder_.getMessageOrBuilder();
         } else {
           if (mFAPPPDGLGICase_ == 1957) {
-            return (emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot) mFAPPPDGLGI_;
+            return (emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot) mFAPPPDGLGI_;
           }
-          return emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot.getDefaultInstance();
+          return emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot.getDefaultInstance();
         }
       }
       /**
        * <code>._TwoDimensionSnapshot two_dimension_snapshot = 1957;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot, emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot.Builder, emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshotOrBuilder> 
+          emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot, emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot.Builder, emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshotOrBuilder> 
           getTwoDimensionSnapshotFieldBuilder() {
         if (twoDimensionSnapshotBuilder_ == null) {
           if (!(mFAPPPDGLGICase_ == 1957)) {
-            mFAPPPDGLGI_ = emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot.getDefaultInstance();
+            mFAPPPDGLGI_ = emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot.getDefaultInstance();
           }
           twoDimensionSnapshotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot, emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot.Builder, emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshotOrBuilder>(
-                  (emu.grasscutter.net.proto.TwoDimensionSnapshot._TwoDimensionSnapshot) mFAPPPDGLGI_,
+              emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot, emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot.Builder, emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshotOrBuilder>(
+                  (emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass._TwoDimensionSnapshot) mFAPPPDGLGI_,
                   getParentForChildren(),
                   isClean());
           mFAPPPDGLGI_ = null;
@@ -1978,8 +1978,9 @@ public final class CNBMCPNHDNNOuterClass {
       "file_frame_id\030\r \001(\r\0222\n\023bomber_v_3_snapsh" +
       "ot\030\301\r \001(\0132\022._BomberV3SnapshotH\000\0229\n\026two_d" +
       "imension_snapshot\030\245\017 \001(\0132\026._TwoDimension" +
-      "SnapshotH\001B\010\n\006detailB\r\n\013MFAPPPDGLGIB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "SnapshotH\001B\010\n\006detailB\r\n\013MFAPPPDGLGIB2\n\031e" +
+      "mu.grasscutter.net.protoB\025CNBMCPNHDNNOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1987,8 +1988,8 @@ public final class CNBMCPNHDNNOuterClass {
           emu.grasscutter.net.proto.AGKGKIIKMAAOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.FHJMJPLOOCJOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.GNCDHEEPDAPOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BomberV3Snapshot.getDescriptor(),
-          emu.grasscutter.net.proto.TwoDimensionSnapshot.getDescriptor(),
+          emu.grasscutter.net.proto._BomberV3SnapshotOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass.getDescriptor(),
         });
     internal_static_CNBMCPNHDNN_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1999,8 +2000,8 @@ public final class CNBMCPNHDNNOuterClass {
     emu.grasscutter.net.proto.AGKGKIIKMAAOuterClass.getDescriptor();
     emu.grasscutter.net.proto.FHJMJPLOOCJOuterClass.getDescriptor();
     emu.grasscutter.net.proto.GNCDHEEPDAPOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BomberV3Snapshot.getDescriptor();
-    emu.grasscutter.net.proto.TwoDimensionSnapshot.getDescriptor();
+    emu.grasscutter.net.proto._BomberV3SnapshotOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._TwoDimensionSnapshotOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

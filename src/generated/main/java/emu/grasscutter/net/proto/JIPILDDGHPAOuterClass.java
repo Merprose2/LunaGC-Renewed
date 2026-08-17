@@ -777,8 +777,8 @@ public final class JIPILDDGHPAOuterClass {
       "\n\021JIPILDDGHPA.proto\032\021PBPBHCMKCGM.proto\"Z" +
       "\n\013JIPILDDGHPA\022\023\n\013OCHNPECOAOG\030\001 \001(\t\022!\n\013OO" +
       "MJDJEIGKH\030\002 \001(\0162\014.PBPBHCMKCGM\022\023\n\013FAEAFKI" +
-      "OKCN\030\003 \001(\010B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "OKCN\030\003 \001(\010B2\n\031emu.grasscutter.net.protoB" +
+      "\025JIPILDDGHPAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

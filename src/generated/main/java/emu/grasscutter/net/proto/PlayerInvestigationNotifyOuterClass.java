@@ -832,8 +832,9 @@ public final class PlayerInvestigationNotifyOuterClass {
       "\n\037PlayerInvestigationNotify.proto\032\023Inves" +
       "tigation.proto\"G\n\031PlayerInvestigationNot" +
       "ify\022*\n\022investigation_list\030\007 \003(\0132\016.Invest" +
-      "igationB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "igationB@\n\031emu.grasscutter.net.protoB#Pl" +
+      "ayerInvestigationNotifyOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

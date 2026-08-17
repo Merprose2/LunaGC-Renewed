@@ -667,8 +667,9 @@ public final class IAKHPKPBNGAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IAKHPKPBNGA.proto\")\n\013IAKHPKPBNGA\022\013\n\003ke" +
-      "y\030\001 \001(\005\022\r\n\005value\030\002 \001(\tB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "y\030\001 \001(\005\022\r\n\005value\030\002 \001(\tB2\n\031emu.grasscutte" +
+      "r.net.protoB\025IAKHPKPBNGAOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

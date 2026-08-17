@@ -979,8 +979,9 @@ public final class MMMHJIEENHAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MMMHJIEENHA.proto\"Z\n\013MMMHJIEENHA\022\017\n\007is" +
       "_open\030\006 \001(\010\022\023\n\013MJFOJBBAOPB\030\010 \003(\r\022\023\n\013KEEN" +
-      "OEEOGBC\030\t \003(\r\022\020\n\010stage_id\030\014 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "OEEOGBC\030\t \003(\r\022\020\n\010stage_id\030\014 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025MMMHJIEENHAOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

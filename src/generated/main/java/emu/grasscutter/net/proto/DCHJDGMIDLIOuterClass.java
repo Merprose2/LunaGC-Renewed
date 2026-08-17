@@ -1630,7 +1630,8 @@ public final class DCHJDGMIDLIOuterClass {
       "\007is_succ\030\010 \001(\010\022\023\n\013LLCEEFFOGBH\030\t \001(\r\022\025\n\ri" +
       "s_new_record\030\013 \001(\010\022*\n\nscore_list\030\014 \003(\0132\026" +
       ".ExhibitionDisplayInfo\022\020\n\010level_id\030\r \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025DCHJDGMID" +
+      "LIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

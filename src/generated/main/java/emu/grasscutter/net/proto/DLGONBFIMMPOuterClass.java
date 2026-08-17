@@ -525,8 +525,8 @@ public final class DLGONBFIMMPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DLGONBFIMMP.proto\"\"\n\013DLGONBFIMMP\022\023\n\013CD" +
-      "EMBFGJAPH\030\002 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "EMBFGJAPH\030\002 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025DLGONBFIMMPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

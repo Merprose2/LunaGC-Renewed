@@ -932,8 +932,9 @@ public final class HFJODGEJKDPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HFJODGEJKDP.proto\032\014Vector.proto\"L\n\013HFJ" +
       "ODGEJKDP\022\027\n\006extent\030\002 \001(\0132\007.Vector\022\027\n\006cen" +
-      "ter\030\006 \001(\0132\007.Vector\022\013\n\003uid\030\r \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "ter\030\006 \001(\0132\007.Vector\022\013\n\003uid\030\r \001(\005B2\n\031emu.g" +
+      "rasscutter.net.protoB\025HFJODGEJKDPOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

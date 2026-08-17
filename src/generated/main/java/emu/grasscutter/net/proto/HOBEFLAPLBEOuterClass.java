@@ -996,8 +996,9 @@ public final class HOBEFLAPLBEOuterClass {
       "KCJKDJIJGEE.proto\"\202\001\n\013HOBEFLAPLBE\022\024\n\013MHH" +
       "OILIMBJB\030\365\003 \001(\005\022\"\n\013PBNCPFPJMDE\030\366\003 \001(\0132\014." +
       "KCJKDJIJGEE\022\"\n\013KOHGGFIPJOK\030\367\003 \001(\0132\014.KAPH" +
-      "NCKKHAF\022\025\n\014data_version\030\370\003 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "NCKKHAF\022\025\n\014data_version\030\370\003 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025HOBEFLAPLBEOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

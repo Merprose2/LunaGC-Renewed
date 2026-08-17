@@ -144,8 +144,8 @@ public final class IGOCLOMNCIIOuterClass {
       "GOCLOMNCII_ACTIVITY_STORY_BOARD_PLAY_NON" +
       "E\020\000\022/\n+IGOCLOMNCII_ACTIVITY_STORY_BOARD_" +
       "PLAY_CLOSE\020\001\022.\n*IGOCLOMNCII_ACTIVITY_STO" +
-      "RY_BOARD_PLAY_OPEN\020\002B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "RY_BOARD_PLAY_OPEN\020\002B2\n\031emu.grasscutter." +
+      "net.protoB\025IGOCLOMNCIIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

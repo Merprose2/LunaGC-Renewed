@@ -666,8 +666,8 @@ public final class NJPFGAHBPDFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NJPFGAHBPDF.proto\"L\n\013NJPFGAHBPDF\022\023\n\013MI" +
       "ACKFDHEOI\030\001 \001(\r\022\023\n\013EPHGOMPBKJA\030\014 \001(\r\022\023\n\013" +
-      "CNFEBIOPANP\030\017 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "CNFEBIOPANP\030\017 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025NJPFGAHBPDFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

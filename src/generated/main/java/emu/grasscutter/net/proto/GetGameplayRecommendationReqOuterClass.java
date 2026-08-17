@@ -39,11 +39,11 @@ public final class GetGameplayRecommendationReqOuterClass {
      * <code>._GameplayRecommendationElementWeaponRequest element_weapon_request = 62;</code>
      * @return The elementWeaponRequest.
      */
-    emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest getElementWeaponRequest();
+    emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest getElementWeaponRequest();
     /**
      * <code>._GameplayRecommendationElementWeaponRequest element_weapon_request = 62;</code>
      */
-    emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequestOrBuilder getElementWeaponRequestOrBuilder();
+    emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequestOrBuilder getElementWeaponRequestOrBuilder();
 
     /**
      * <code>._GameplayRecommendationWeaponRequest weapon_request = 245;</code>
@@ -54,11 +54,11 @@ public final class GetGameplayRecommendationReqOuterClass {
      * <code>._GameplayRecommendationWeaponRequest weapon_request = 245;</code>
      * @return The weaponRequest.
      */
-    emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest getWeaponRequest();
+    emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest getWeaponRequest();
     /**
      * <code>._GameplayRecommendationWeaponRequest weapon_request = 245;</code>
      */
-    emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequestOrBuilder getWeaponRequestOrBuilder();
+    emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequestOrBuilder getWeaponRequestOrBuilder();
 
     /**
      * <code>.GameplayRecommendationReliquaryRequest reliquary_request = 982;</code>
@@ -99,11 +99,11 @@ public final class GetGameplayRecommendationReqOuterClass {
      * <code>._GameplayRecommendationElementReliquarySetRequest element_reliquary_set_request = 1494;</code>
      * @return The elementReliquarySetRequest.
      */
-    emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest getElementReliquarySetRequest();
+    emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest getElementReliquarySetRequest();
     /**
      * <code>._GameplayRecommendationElementReliquarySetRequest element_reliquary_set_request = 1494;</code>
      */
-    emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequestOrBuilder getElementReliquarySetRequestOrBuilder();
+    emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequestOrBuilder getElementReliquarySetRequestOrBuilder();
 
     /**
      * <code>._GameplayRecommendationReliquarySetRequest reliquary_set_request = 1701;</code>
@@ -114,11 +114,11 @@ public final class GetGameplayRecommendationReqOuterClass {
      * <code>._GameplayRecommendationReliquarySetRequest reliquary_set_request = 1701;</code>
      * @return The reliquarySetRequest.
      */
-    emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest getReliquarySetRequest();
+    emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest getReliquarySetRequest();
     /**
      * <code>._GameplayRecommendationReliquarySetRequest reliquary_set_request = 1701;</code>
      */
-    emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequestOrBuilder getReliquarySetRequestOrBuilder();
+    emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequestOrBuilder getReliquarySetRequestOrBuilder();
 
     /**
      * <code>.GameplayRecommendationElementReliquaryRequest element_reliquary_request = 1887;</code>
@@ -197,28 +197,28 @@ public final class GetGameplayRecommendationReqOuterClass {
               break;
             }
             case 498: {
-              emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest.Builder subBuilder = null;
               if (detailCase_ == 62) {
-                subBuilder = ((emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 62;
               break;
             }
             case 1962: {
-              emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest.Builder subBuilder = null;
               if (detailCase_ == 245) {
-                subBuilder = ((emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 245;
@@ -253,28 +253,28 @@ public final class GetGameplayRecommendationReqOuterClass {
               break;
             }
             case 11954: {
-              emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest.Builder subBuilder = null;
               if (detailCase_ == 1494) {
-                subBuilder = ((emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1494;
               break;
             }
             case 13610: {
-              emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest.Builder subBuilder = null;
               if (detailCase_ == 1701) {
-                subBuilder = ((emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1701;
@@ -413,21 +413,21 @@ public final class GetGameplayRecommendationReqOuterClass {
      * @return The elementWeaponRequest.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest getElementWeaponRequest() {
+    public emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest getElementWeaponRequest() {
       if (detailCase_ == 62) {
-         return (emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest) detail_;
+         return (emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest) detail_;
       }
-      return emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest.getDefaultInstance();
+      return emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest.getDefaultInstance();
     }
     /**
      * <code>._GameplayRecommendationElementWeaponRequest element_weapon_request = 62;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequestOrBuilder getElementWeaponRequestOrBuilder() {
+    public emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequestOrBuilder getElementWeaponRequestOrBuilder() {
       if (detailCase_ == 62) {
-         return (emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest) detail_;
+         return (emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest) detail_;
       }
-      return emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest.getDefaultInstance();
+      return emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest.getDefaultInstance();
     }
 
     public static final int WEAPON_REQUEST_FIELD_NUMBER = 245;
@@ -444,21 +444,21 @@ public final class GetGameplayRecommendationReqOuterClass {
      * @return The weaponRequest.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest getWeaponRequest() {
+    public emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest getWeaponRequest() {
       if (detailCase_ == 245) {
-         return (emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest) detail_;
+         return (emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest) detail_;
       }
-      return emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest.getDefaultInstance();
+      return emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest.getDefaultInstance();
     }
     /**
      * <code>._GameplayRecommendationWeaponRequest weapon_request = 245;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequestOrBuilder getWeaponRequestOrBuilder() {
+    public emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequestOrBuilder getWeaponRequestOrBuilder() {
       if (detailCase_ == 245) {
-         return (emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest) detail_;
+         return (emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest) detail_;
       }
-      return emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest.getDefaultInstance();
+      return emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest.getDefaultInstance();
     }
 
     public static final int RELIQUARY_REQUEST_FIELD_NUMBER = 982;
@@ -537,21 +537,21 @@ public final class GetGameplayRecommendationReqOuterClass {
      * @return The elementReliquarySetRequest.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest getElementReliquarySetRequest() {
+    public emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest getElementReliquarySetRequest() {
       if (detailCase_ == 1494) {
-         return (emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest) detail_;
+         return (emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest) detail_;
       }
-      return emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest.getDefaultInstance();
+      return emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest.getDefaultInstance();
     }
     /**
      * <code>._GameplayRecommendationElementReliquarySetRequest element_reliquary_set_request = 1494;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequestOrBuilder getElementReliquarySetRequestOrBuilder() {
+    public emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequestOrBuilder getElementReliquarySetRequestOrBuilder() {
       if (detailCase_ == 1494) {
-         return (emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest) detail_;
+         return (emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest) detail_;
       }
-      return emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest.getDefaultInstance();
+      return emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest.getDefaultInstance();
     }
 
     public static final int RELIQUARY_SET_REQUEST_FIELD_NUMBER = 1701;
@@ -568,21 +568,21 @@ public final class GetGameplayRecommendationReqOuterClass {
      * @return The reliquarySetRequest.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest getReliquarySetRequest() {
+    public emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest getReliquarySetRequest() {
       if (detailCase_ == 1701) {
-         return (emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest) detail_;
+         return (emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest) detail_;
       }
-      return emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest.getDefaultInstance();
+      return emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest.getDefaultInstance();
     }
     /**
      * <code>._GameplayRecommendationReliquarySetRequest reliquary_set_request = 1701;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequestOrBuilder getReliquarySetRequestOrBuilder() {
+    public emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequestOrBuilder getReliquarySetRequestOrBuilder() {
       if (detailCase_ == 1701) {
-         return (emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest) detail_;
+         return (emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest) detail_;
       }
-      return emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest.getDefaultInstance();
+      return emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest.getDefaultInstance();
     }
 
     public static final int ELEMENT_RELIQUARY_REQUEST_FIELD_NUMBER = 1887;
@@ -637,10 +637,10 @@ public final class GetGameplayRecommendationReqOuterClass {
         output.writeUInt32(13, avatarId_);
       }
       if (detailCase_ == 62) {
-        output.writeMessage(62, (emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest) detail_);
+        output.writeMessage(62, (emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest) detail_);
       }
       if (detailCase_ == 245) {
-        output.writeMessage(245, (emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest) detail_);
+        output.writeMessage(245, (emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest) detail_);
       }
       if (detailCase_ == 982) {
         output.writeMessage(982, (emu.grasscutter.net.proto.GameplayRecommendationReliquaryRequestOuterClass.GameplayRecommendationReliquaryRequest) detail_);
@@ -649,10 +649,10 @@ public final class GetGameplayRecommendationReqOuterClass {
         output.writeMessage(1368, (emu.grasscutter.net.proto.GameplayRecommendationSkillRequestOuterClass.GameplayRecommendationSkillRequest) detail_);
       }
       if (detailCase_ == 1494) {
-        output.writeMessage(1494, (emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest) detail_);
+        output.writeMessage(1494, (emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest) detail_);
       }
       if (detailCase_ == 1701) {
-        output.writeMessage(1701, (emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest) detail_);
+        output.writeMessage(1701, (emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest) detail_);
       }
       if (detailCase_ == 1887) {
         output.writeMessage(1887, (emu.grasscutter.net.proto.GameplayRecommendationElementReliquaryRequestOuterClass.GameplayRecommendationElementReliquaryRequest) detail_);
@@ -676,11 +676,11 @@ public final class GetGameplayRecommendationReqOuterClass {
       }
       if (detailCase_ == 62) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(62, (emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest) detail_);
+          .computeMessageSize(62, (emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest) detail_);
       }
       if (detailCase_ == 245) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(245, (emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest) detail_);
+          .computeMessageSize(245, (emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest) detail_);
       }
       if (detailCase_ == 982) {
         size += com.google.protobuf.CodedOutputStream
@@ -692,11 +692,11 @@ public final class GetGameplayRecommendationReqOuterClass {
       }
       if (detailCase_ == 1494) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1494, (emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest) detail_);
+          .computeMessageSize(1494, (emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest) detail_);
       }
       if (detailCase_ == 1701) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1701, (emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest) detail_);
+          .computeMessageSize(1701, (emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest) detail_);
       }
       if (detailCase_ == 1887) {
         size += com.google.protobuf.CodedOutputStream
@@ -1216,7 +1216,7 @@ public final class GetGameplayRecommendationReqOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest, emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest.Builder, emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequestOrBuilder> elementWeaponRequestBuilder_;
+          emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest, emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest.Builder, emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequestOrBuilder> elementWeaponRequestBuilder_;
       /**
        * <code>._GameplayRecommendationElementWeaponRequest element_weapon_request = 62;</code>
        * @return Whether the elementWeaponRequest field is set.
@@ -1230,23 +1230,23 @@ public final class GetGameplayRecommendationReqOuterClass {
        * @return The elementWeaponRequest.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest getElementWeaponRequest() {
+      public emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest getElementWeaponRequest() {
         if (elementWeaponRequestBuilder_ == null) {
           if (detailCase_ == 62) {
-            return (emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest) detail_;
+            return (emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest) detail_;
           }
-          return emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest.getDefaultInstance();
+          return emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest.getDefaultInstance();
         } else {
           if (detailCase_ == 62) {
             return elementWeaponRequestBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest.getDefaultInstance();
+          return emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest.getDefaultInstance();
         }
       }
       /**
        * <code>._GameplayRecommendationElementWeaponRequest element_weapon_request = 62;</code>
        */
-      public Builder setElementWeaponRequest(emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest value) {
+      public Builder setElementWeaponRequest(emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest value) {
         if (elementWeaponRequestBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1263,7 +1263,7 @@ public final class GetGameplayRecommendationReqOuterClass {
        * <code>._GameplayRecommendationElementWeaponRequest element_weapon_request = 62;</code>
        */
       public Builder setElementWeaponRequest(
-          emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest.Builder builderForValue) {
+          emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest.Builder builderForValue) {
         if (elementWeaponRequestBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1276,11 +1276,11 @@ public final class GetGameplayRecommendationReqOuterClass {
       /**
        * <code>._GameplayRecommendationElementWeaponRequest element_weapon_request = 62;</code>
        */
-      public Builder mergeElementWeaponRequest(emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest value) {
+      public Builder mergeElementWeaponRequest(emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest value) {
         if (elementWeaponRequestBuilder_ == null) {
           if (detailCase_ == 62 &&
-              detail_ != emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest.newBuilder((emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest) detail_)
+              detail_ != emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest.newBuilder((emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1317,36 +1317,36 @@ public final class GetGameplayRecommendationReqOuterClass {
       /**
        * <code>._GameplayRecommendationElementWeaponRequest element_weapon_request = 62;</code>
        */
-      public emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest.Builder getElementWeaponRequestBuilder() {
+      public emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest.Builder getElementWeaponRequestBuilder() {
         return getElementWeaponRequestFieldBuilder().getBuilder();
       }
       /**
        * <code>._GameplayRecommendationElementWeaponRequest element_weapon_request = 62;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequestOrBuilder getElementWeaponRequestOrBuilder() {
+      public emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequestOrBuilder getElementWeaponRequestOrBuilder() {
         if ((detailCase_ == 62) && (elementWeaponRequestBuilder_ != null)) {
           return elementWeaponRequestBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 62) {
-            return (emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest) detail_;
+            return (emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest) detail_;
           }
-          return emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest.getDefaultInstance();
+          return emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest.getDefaultInstance();
         }
       }
       /**
        * <code>._GameplayRecommendationElementWeaponRequest element_weapon_request = 62;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest, emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest.Builder, emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequestOrBuilder> 
+          emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest, emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest.Builder, emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequestOrBuilder> 
           getElementWeaponRequestFieldBuilder() {
         if (elementWeaponRequestBuilder_ == null) {
           if (!(detailCase_ == 62)) {
-            detail_ = emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest.getDefaultInstance();
           }
           elementWeaponRequestBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest, emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest.Builder, emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequestOrBuilder>(
-                  (emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest._GameplayRecommendationElementWeaponRequest) detail_,
+              emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest, emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest.Builder, emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequestOrBuilder>(
+                  (emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass._GameplayRecommendationElementWeaponRequest) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1357,7 +1357,7 @@ public final class GetGameplayRecommendationReqOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest, emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest.Builder, emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequestOrBuilder> weaponRequestBuilder_;
+          emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest, emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest.Builder, emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequestOrBuilder> weaponRequestBuilder_;
       /**
        * <code>._GameplayRecommendationWeaponRequest weapon_request = 245;</code>
        * @return Whether the weaponRequest field is set.
@@ -1371,23 +1371,23 @@ public final class GetGameplayRecommendationReqOuterClass {
        * @return The weaponRequest.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest getWeaponRequest() {
+      public emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest getWeaponRequest() {
         if (weaponRequestBuilder_ == null) {
           if (detailCase_ == 245) {
-            return (emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest) detail_;
+            return (emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest) detail_;
           }
-          return emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest.getDefaultInstance();
+          return emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest.getDefaultInstance();
         } else {
           if (detailCase_ == 245) {
             return weaponRequestBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest.getDefaultInstance();
+          return emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest.getDefaultInstance();
         }
       }
       /**
        * <code>._GameplayRecommendationWeaponRequest weapon_request = 245;</code>
        */
-      public Builder setWeaponRequest(emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest value) {
+      public Builder setWeaponRequest(emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest value) {
         if (weaponRequestBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1404,7 +1404,7 @@ public final class GetGameplayRecommendationReqOuterClass {
        * <code>._GameplayRecommendationWeaponRequest weapon_request = 245;</code>
        */
       public Builder setWeaponRequest(
-          emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest.Builder builderForValue) {
+          emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest.Builder builderForValue) {
         if (weaponRequestBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1417,11 +1417,11 @@ public final class GetGameplayRecommendationReqOuterClass {
       /**
        * <code>._GameplayRecommendationWeaponRequest weapon_request = 245;</code>
        */
-      public Builder mergeWeaponRequest(emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest value) {
+      public Builder mergeWeaponRequest(emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest value) {
         if (weaponRequestBuilder_ == null) {
           if (detailCase_ == 245 &&
-              detail_ != emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest.newBuilder((emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest) detail_)
+              detail_ != emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest.newBuilder((emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1458,36 +1458,36 @@ public final class GetGameplayRecommendationReqOuterClass {
       /**
        * <code>._GameplayRecommendationWeaponRequest weapon_request = 245;</code>
        */
-      public emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest.Builder getWeaponRequestBuilder() {
+      public emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest.Builder getWeaponRequestBuilder() {
         return getWeaponRequestFieldBuilder().getBuilder();
       }
       /**
        * <code>._GameplayRecommendationWeaponRequest weapon_request = 245;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequestOrBuilder getWeaponRequestOrBuilder() {
+      public emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequestOrBuilder getWeaponRequestOrBuilder() {
         if ((detailCase_ == 245) && (weaponRequestBuilder_ != null)) {
           return weaponRequestBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 245) {
-            return (emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest) detail_;
+            return (emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest) detail_;
           }
-          return emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest.getDefaultInstance();
+          return emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest.getDefaultInstance();
         }
       }
       /**
        * <code>._GameplayRecommendationWeaponRequest weapon_request = 245;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest, emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest.Builder, emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequestOrBuilder> 
+          emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest, emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest.Builder, emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequestOrBuilder> 
           getWeaponRequestFieldBuilder() {
         if (weaponRequestBuilder_ == null) {
           if (!(detailCase_ == 245)) {
-            detail_ = emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest.getDefaultInstance();
           }
           weaponRequestBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest, emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest.Builder, emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequestOrBuilder>(
-                  (emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest._GameplayRecommendationWeaponRequest) detail_,
+              emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest, emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest.Builder, emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequestOrBuilder>(
+                  (emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass._GameplayRecommendationWeaponRequest) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1780,7 +1780,7 @@ public final class GetGameplayRecommendationReqOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest, emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest.Builder, emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequestOrBuilder> elementReliquarySetRequestBuilder_;
+          emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest, emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest.Builder, emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequestOrBuilder> elementReliquarySetRequestBuilder_;
       /**
        * <code>._GameplayRecommendationElementReliquarySetRequest element_reliquary_set_request = 1494;</code>
        * @return Whether the elementReliquarySetRequest field is set.
@@ -1794,23 +1794,23 @@ public final class GetGameplayRecommendationReqOuterClass {
        * @return The elementReliquarySetRequest.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest getElementReliquarySetRequest() {
+      public emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest getElementReliquarySetRequest() {
         if (elementReliquarySetRequestBuilder_ == null) {
           if (detailCase_ == 1494) {
-            return (emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest) detail_;
+            return (emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest) detail_;
           }
-          return emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest.getDefaultInstance();
+          return emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest.getDefaultInstance();
         } else {
           if (detailCase_ == 1494) {
             return elementReliquarySetRequestBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest.getDefaultInstance();
+          return emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest.getDefaultInstance();
         }
       }
       /**
        * <code>._GameplayRecommendationElementReliquarySetRequest element_reliquary_set_request = 1494;</code>
        */
-      public Builder setElementReliquarySetRequest(emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest value) {
+      public Builder setElementReliquarySetRequest(emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest value) {
         if (elementReliquarySetRequestBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1827,7 +1827,7 @@ public final class GetGameplayRecommendationReqOuterClass {
        * <code>._GameplayRecommendationElementReliquarySetRequest element_reliquary_set_request = 1494;</code>
        */
       public Builder setElementReliquarySetRequest(
-          emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest.Builder builderForValue) {
+          emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest.Builder builderForValue) {
         if (elementReliquarySetRequestBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1840,11 +1840,11 @@ public final class GetGameplayRecommendationReqOuterClass {
       /**
        * <code>._GameplayRecommendationElementReliquarySetRequest element_reliquary_set_request = 1494;</code>
        */
-      public Builder mergeElementReliquarySetRequest(emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest value) {
+      public Builder mergeElementReliquarySetRequest(emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest value) {
         if (elementReliquarySetRequestBuilder_ == null) {
           if (detailCase_ == 1494 &&
-              detail_ != emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest.newBuilder((emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest) detail_)
+              detail_ != emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest.newBuilder((emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1881,36 +1881,36 @@ public final class GetGameplayRecommendationReqOuterClass {
       /**
        * <code>._GameplayRecommendationElementReliquarySetRequest element_reliquary_set_request = 1494;</code>
        */
-      public emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest.Builder getElementReliquarySetRequestBuilder() {
+      public emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest.Builder getElementReliquarySetRequestBuilder() {
         return getElementReliquarySetRequestFieldBuilder().getBuilder();
       }
       /**
        * <code>._GameplayRecommendationElementReliquarySetRequest element_reliquary_set_request = 1494;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequestOrBuilder getElementReliquarySetRequestOrBuilder() {
+      public emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequestOrBuilder getElementReliquarySetRequestOrBuilder() {
         if ((detailCase_ == 1494) && (elementReliquarySetRequestBuilder_ != null)) {
           return elementReliquarySetRequestBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1494) {
-            return (emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest) detail_;
+            return (emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest) detail_;
           }
-          return emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest.getDefaultInstance();
+          return emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest.getDefaultInstance();
         }
       }
       /**
        * <code>._GameplayRecommendationElementReliquarySetRequest element_reliquary_set_request = 1494;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest, emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest.Builder, emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequestOrBuilder> 
+          emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest, emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest.Builder, emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequestOrBuilder> 
           getElementReliquarySetRequestFieldBuilder() {
         if (elementReliquarySetRequestBuilder_ == null) {
           if (!(detailCase_ == 1494)) {
-            detail_ = emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest.getDefaultInstance();
           }
           elementReliquarySetRequestBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest, emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest.Builder, emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequestOrBuilder>(
-                  (emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest._GameplayRecommendationElementReliquarySetRequest) detail_,
+              emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest, emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest.Builder, emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequestOrBuilder>(
+                  (emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass._GameplayRecommendationElementReliquarySetRequest) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1921,7 +1921,7 @@ public final class GetGameplayRecommendationReqOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest, emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest.Builder, emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequestOrBuilder> reliquarySetRequestBuilder_;
+          emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest, emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest.Builder, emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequestOrBuilder> reliquarySetRequestBuilder_;
       /**
        * <code>._GameplayRecommendationReliquarySetRequest reliquary_set_request = 1701;</code>
        * @return Whether the reliquarySetRequest field is set.
@@ -1935,23 +1935,23 @@ public final class GetGameplayRecommendationReqOuterClass {
        * @return The reliquarySetRequest.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest getReliquarySetRequest() {
+      public emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest getReliquarySetRequest() {
         if (reliquarySetRequestBuilder_ == null) {
           if (detailCase_ == 1701) {
-            return (emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest) detail_;
+            return (emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest) detail_;
           }
-          return emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest.getDefaultInstance();
+          return emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest.getDefaultInstance();
         } else {
           if (detailCase_ == 1701) {
             return reliquarySetRequestBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest.getDefaultInstance();
+          return emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest.getDefaultInstance();
         }
       }
       /**
        * <code>._GameplayRecommendationReliquarySetRequest reliquary_set_request = 1701;</code>
        */
-      public Builder setReliquarySetRequest(emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest value) {
+      public Builder setReliquarySetRequest(emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest value) {
         if (reliquarySetRequestBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1968,7 +1968,7 @@ public final class GetGameplayRecommendationReqOuterClass {
        * <code>._GameplayRecommendationReliquarySetRequest reliquary_set_request = 1701;</code>
        */
       public Builder setReliquarySetRequest(
-          emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest.Builder builderForValue) {
+          emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest.Builder builderForValue) {
         if (reliquarySetRequestBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1981,11 +1981,11 @@ public final class GetGameplayRecommendationReqOuterClass {
       /**
        * <code>._GameplayRecommendationReliquarySetRequest reliquary_set_request = 1701;</code>
        */
-      public Builder mergeReliquarySetRequest(emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest value) {
+      public Builder mergeReliquarySetRequest(emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest value) {
         if (reliquarySetRequestBuilder_ == null) {
           if (detailCase_ == 1701 &&
-              detail_ != emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest.newBuilder((emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest) detail_)
+              detail_ != emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest.newBuilder((emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2022,36 +2022,36 @@ public final class GetGameplayRecommendationReqOuterClass {
       /**
        * <code>._GameplayRecommendationReliquarySetRequest reliquary_set_request = 1701;</code>
        */
-      public emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest.Builder getReliquarySetRequestBuilder() {
+      public emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest.Builder getReliquarySetRequestBuilder() {
         return getReliquarySetRequestFieldBuilder().getBuilder();
       }
       /**
        * <code>._GameplayRecommendationReliquarySetRequest reliquary_set_request = 1701;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequestOrBuilder getReliquarySetRequestOrBuilder() {
+      public emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequestOrBuilder getReliquarySetRequestOrBuilder() {
         if ((detailCase_ == 1701) && (reliquarySetRequestBuilder_ != null)) {
           return reliquarySetRequestBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1701) {
-            return (emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest) detail_;
+            return (emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest) detail_;
           }
-          return emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest.getDefaultInstance();
+          return emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest.getDefaultInstance();
         }
       }
       /**
        * <code>._GameplayRecommendationReliquarySetRequest reliquary_set_request = 1701;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest, emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest.Builder, emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequestOrBuilder> 
+          emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest, emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest.Builder, emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequestOrBuilder> 
           getReliquarySetRequestFieldBuilder() {
         if (reliquarySetRequestBuilder_ == null) {
           if (!(detailCase_ == 1701)) {
-            detail_ = emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest.getDefaultInstance();
           }
           reliquarySetRequestBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest, emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest.Builder, emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequestOrBuilder>(
-                  (emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest._GameplayRecommendationReliquarySetRequest) detail_,
+              emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest, emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest.Builder, emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequestOrBuilder>(
+                  (emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass._GameplayRecommendationReliquarySetRequest) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2292,8 +2292,9 @@ public final class GetGameplayRecommendationReqOuterClass {
       "uest\030\245\r \001(\0132+._GameplayRecommendationRel" +
       "iquarySetRequestH\000\022T\n\031element_reliquary_" +
       "request\030\337\016 \001(\0132..GameplayRecommendationE" +
-      "lementReliquaryRequestH\000B\010\n\006detailB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "lementReliquaryRequestH\000B\010\n\006detailBC\n\031em" +
+      "u.grasscutter.net.protoB&GetGameplayReco" +
+      "mmendationReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2301,10 +2302,10 @@ public final class GetGameplayRecommendationReqOuterClass {
           emu.grasscutter.net.proto.GameplayRecommendationElementReliquaryRequestOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.GameplayRecommendationReliquaryRequestOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.GameplayRecommendationSkillRequestOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest.getDescriptor(),
-          emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest.getDescriptor(),
-          emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest.getDescriptor(),
-          emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest.getDescriptor(),
+          emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass.getDescriptor(),
         });
     internal_static_GetGameplayRecommendationReq_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2315,10 +2316,10 @@ public final class GetGameplayRecommendationReqOuterClass {
     emu.grasscutter.net.proto.GameplayRecommendationElementReliquaryRequestOuterClass.getDescriptor();
     emu.grasscutter.net.proto.GameplayRecommendationReliquaryRequestOuterClass.getDescriptor();
     emu.grasscutter.net.proto.GameplayRecommendationSkillRequestOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.GameplayRecommendationElementReliquarySetRequest.getDescriptor();
-    emu.grasscutter.net.proto.GameplayRecommendationElementWeaponRequest.getDescriptor();
-    emu.grasscutter.net.proto.GameplayRecommendationReliquarySetRequest.getDescriptor();
-    emu.grasscutter.net.proto.GameplayRecommendationWeaponRequest.getDescriptor();
+    emu.grasscutter.net.proto._GameplayRecommendationElementReliquarySetRequestOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._GameplayRecommendationElementWeaponRequestOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._GameplayRecommendationReliquarySetRequestOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._GameplayRecommendationWeaponRequestOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

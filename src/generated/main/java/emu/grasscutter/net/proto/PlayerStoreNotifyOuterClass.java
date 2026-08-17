@@ -1009,8 +1009,9 @@ public final class PlayerStoreNotifyOuterClass {
       "\n\027PlayerStoreNotify.proto\032\nItem.proto\032\017S" +
       "toreType.proto\"c\n\021PlayerStoreNotify\022\030\n\ti" +
       "tem_list\030\005 \003(\0132\005.Item\022\036\n\nstore_type\030\n \001(" +
-      "\0162\n.StoreType\022\024\n\014weight_limit\030\017 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\0162\n.StoreType\022\024\n\014weight_limit\030\017 \001(\rB8\n\031e" +
+      "mu.grasscutter.net.protoB\033PlayerStoreNot" +
+      "ifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

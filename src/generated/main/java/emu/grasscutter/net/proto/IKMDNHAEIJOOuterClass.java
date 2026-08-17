@@ -897,8 +897,9 @@ public final class IKMDNHAEIJOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IKMDNHAEIJO.proto\032\021MHLGOALMAJK.proto\"F" +
       "\n\013IKMDNHAEIJO\022\023\n\013GNAIEPGKFLP\030\001 \001(\014\022\"\n\013BD" +
-      "MOBMGGDGG\030\365\003 \003(\0132\014.MHLGOALMAJKB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "MOBMGGDGG\030\365\003 \003(\0132\014.MHLGOALMAJKB2\n\031emu.gr" +
+      "asscutter.net.protoB\025IKMDNHAEIJOOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

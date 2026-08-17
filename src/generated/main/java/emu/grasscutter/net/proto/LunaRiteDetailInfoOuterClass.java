@@ -898,8 +898,9 @@ public final class LunaRiteDetailInfoOuterClass {
       "\n\030LunaRiteDetailInfo.proto\032\027LunaRiteHint" +
       "Point.proto\"T\n\022LunaRiteDetailInfo\022\026\n\016are" +
       "a_info_list\030\n \001(\014\022&\n\nhint_point\030\r \003(\0132\022." +
-      "LunaRiteHintPointB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "LunaRiteHintPointB9\n\031emu.grasscutter.net" +
+      ".protoB\034LunaRiteDetailInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

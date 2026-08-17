@@ -2047,8 +2047,8 @@ public final class KELLGNNMDLLOuterClass {
       "data\030\004 \001(\0132\030.KELLGNNMDLL.NPKGFPJPCJK\022\023\n\013" +
       "NGEDGDGBAID\030\005 \001(\014\022\023\n\013NJKJHJEAKEJ\030\006 \001(\t\0320" +
       "\n\013NPKGFPJPCJK\022!\n\013NCHCNOPEJHK\030\001 \003(\0132\014.NAG" +
-      "AJBEOMMBB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "AJBEOMMBB2\n\031emu.grasscutter.net.protoB\025K" +
+      "ELLGNNMDLLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

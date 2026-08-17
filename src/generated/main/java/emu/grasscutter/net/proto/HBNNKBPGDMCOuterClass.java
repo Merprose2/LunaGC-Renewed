@@ -819,7 +819,8 @@ public final class HBNNKBPGDMCOuterClass {
       "\n\021HBNNKBPGDMC.proto\032\021NFILPKIFJGN.proto\"P" +
       "\n\013HBNNKBPGDMC\022!\n\tele_group\030\013 \001(\0132\014.NFILP" +
       "KIFJGNH\000\022\024\n\013CDEAHMFAJEC\030\365\003 \001(\005B\010\n\006detail" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025HBNNKBPGD" +
+      "MCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -245,12 +245,12 @@ public final class ILKOGOCKAEFOuterClass {
       /**
        * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
        */
-      java.util.List<emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord> 
+      java.util.List<emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord> 
           getBPBOBKFIFPAList();
       /**
        * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
        */
-      emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord getBPBOBKFIFPA(int index);
+      emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord getBPBOBKFIFPA(int index);
       /**
        * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
        */
@@ -258,12 +258,12 @@ public final class ILKOGOCKAEFOuterClass {
       /**
        * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
        */
-      java.util.List<? extends emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecordOrBuilder> 
+      java.util.List<? extends emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecordOrBuilder> 
           getBPBOBKFIFPAOrBuilderList();
       /**
        * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
        */
-      emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecordOrBuilder getBPBOBKFIFPAOrBuilder(
+      emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecordOrBuilder getBPBOBKFIFPAOrBuilder(
           int index);
 
       /**
@@ -330,11 +330,11 @@ public final class ILKOGOCKAEFOuterClass {
                 break;
               case 50: {
                 if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                  bPBOBKFIFPA_ = new java.util.ArrayList<emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord>();
+                  bPBOBKFIFPA_ = new java.util.ArrayList<emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord>();
                   mutable_bitField0_ |= 0x00000001;
                 }
                 bPBOBKFIFPA_.add(
-                    input.readMessage(emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord.parser(), extensionRegistry));
+                    input.readMessage(emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord.parser(), extensionRegistry));
                 break;
               }
               case 122: {
@@ -386,19 +386,19 @@ public final class ILKOGOCKAEFOuterClass {
       }
 
       public static final int BPBOBKFIFPA_FIELD_NUMBER = 6;
-      private java.util.List<emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord> bPBOBKFIFPA_;
+      private java.util.List<emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord> bPBOBKFIFPA_;
       /**
        * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
        */
       @java.lang.Override
-      public java.util.List<emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord> getBPBOBKFIFPAList() {
+      public java.util.List<emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord> getBPBOBKFIFPAList() {
         return bPBOBKFIFPA_;
       }
       /**
        * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
        */
       @java.lang.Override
-      public java.util.List<? extends emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecordOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecordOrBuilder> 
           getBPBOBKFIFPAOrBuilderList() {
         return bPBOBKFIFPA_;
       }
@@ -413,14 +413,14 @@ public final class ILKOGOCKAEFOuterClass {
        * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord getBPBOBKFIFPA(int index) {
+      public emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord getBPBOBKFIFPA(int index) {
         return bPBOBKFIFPA_.get(index);
       }
       /**
        * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecordOrBuilder getBPBOBKFIFPAOrBuilder(
+      public emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecordOrBuilder getBPBOBKFIFPAOrBuilder(
           int index) {
         return bPBOBKFIFPA_.get(index);
       }
@@ -823,22 +823,22 @@ public final class ILKOGOCKAEFOuterClass {
         }
         private int bitField0_;
 
-        private java.util.List<emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord> bPBOBKFIFPA_ =
+        private java.util.List<emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord> bPBOBKFIFPA_ =
           java.util.Collections.emptyList();
         private void ensureBPBOBKFIFPAIsMutable() {
           if (!((bitField0_ & 0x00000001) != 0)) {
-            bPBOBKFIFPA_ = new java.util.ArrayList<emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord>(bPBOBKFIFPA_);
+            bPBOBKFIFPA_ = new java.util.ArrayList<emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord>(bPBOBKFIFPA_);
             bitField0_ |= 0x00000001;
            }
         }
 
         private com.google.protobuf.RepeatedFieldBuilderV3<
-            emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord, emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord.Builder, emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecordOrBuilder> bPBOBKFIFPABuilder_;
+            emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord, emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord.Builder, emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecordOrBuilder> bPBOBKFIFPABuilder_;
 
         /**
          * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
          */
-        public java.util.List<emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord> getBPBOBKFIFPAList() {
+        public java.util.List<emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord> getBPBOBKFIFPAList() {
           if (bPBOBKFIFPABuilder_ == null) {
             return java.util.Collections.unmodifiableList(bPBOBKFIFPA_);
           } else {
@@ -858,7 +858,7 @@ public final class ILKOGOCKAEFOuterClass {
         /**
          * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
          */
-        public emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord getBPBOBKFIFPA(int index) {
+        public emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord getBPBOBKFIFPA(int index) {
           if (bPBOBKFIFPABuilder_ == null) {
             return bPBOBKFIFPA_.get(index);
           } else {
@@ -869,7 +869,7 @@ public final class ILKOGOCKAEFOuterClass {
          * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
          */
         public Builder setBPBOBKFIFPA(
-            int index, emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord value) {
+            int index, emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord value) {
           if (bPBOBKFIFPABuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -886,7 +886,7 @@ public final class ILKOGOCKAEFOuterClass {
          * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
          */
         public Builder setBPBOBKFIFPA(
-            int index, emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord.Builder builderForValue) {
+            int index, emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord.Builder builderForValue) {
           if (bPBOBKFIFPABuilder_ == null) {
             ensureBPBOBKFIFPAIsMutable();
             bPBOBKFIFPA_.set(index, builderForValue.build());
@@ -899,7 +899,7 @@ public final class ILKOGOCKAEFOuterClass {
         /**
          * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
          */
-        public Builder addBPBOBKFIFPA(emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord value) {
+        public Builder addBPBOBKFIFPA(emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord value) {
           if (bPBOBKFIFPABuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -916,7 +916,7 @@ public final class ILKOGOCKAEFOuterClass {
          * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
          */
         public Builder addBPBOBKFIFPA(
-            int index, emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord value) {
+            int index, emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord value) {
           if (bPBOBKFIFPABuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -933,7 +933,7 @@ public final class ILKOGOCKAEFOuterClass {
          * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
          */
         public Builder addBPBOBKFIFPA(
-            emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord.Builder builderForValue) {
+            emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord.Builder builderForValue) {
           if (bPBOBKFIFPABuilder_ == null) {
             ensureBPBOBKFIFPAIsMutable();
             bPBOBKFIFPA_.add(builderForValue.build());
@@ -947,7 +947,7 @@ public final class ILKOGOCKAEFOuterClass {
          * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
          */
         public Builder addBPBOBKFIFPA(
-            int index, emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord.Builder builderForValue) {
+            int index, emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord.Builder builderForValue) {
           if (bPBOBKFIFPABuilder_ == null) {
             ensureBPBOBKFIFPAIsMutable();
             bPBOBKFIFPA_.add(index, builderForValue.build());
@@ -961,7 +961,7 @@ public final class ILKOGOCKAEFOuterClass {
          * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
          */
         public Builder addAllBPBOBKFIFPA(
-            java.lang.Iterable<? extends emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord> values) {
+            java.lang.Iterable<? extends emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord> values) {
           if (bPBOBKFIFPABuilder_ == null) {
             ensureBPBOBKFIFPAIsMutable();
             com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1001,14 +1001,14 @@ public final class ILKOGOCKAEFOuterClass {
         /**
          * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
          */
-        public emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord.Builder getBPBOBKFIFPABuilder(
+        public emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord.Builder getBPBOBKFIFPABuilder(
             int index) {
           return getBPBOBKFIFPAFieldBuilder().getBuilder(index);
         }
         /**
          * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
          */
-        public emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecordOrBuilder getBPBOBKFIFPAOrBuilder(
+        public emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecordOrBuilder getBPBOBKFIFPAOrBuilder(
             int index) {
           if (bPBOBKFIFPABuilder_ == null) {
             return bPBOBKFIFPA_.get(index);  } else {
@@ -1018,7 +1018,7 @@ public final class ILKOGOCKAEFOuterClass {
         /**
          * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
          */
-        public java.util.List<? extends emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecordOrBuilder> 
+        public java.util.List<? extends emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecordOrBuilder> 
              getBPBOBKFIFPAOrBuilderList() {
           if (bPBOBKFIFPABuilder_ != null) {
             return bPBOBKFIFPABuilder_.getMessageOrBuilderList();
@@ -1029,31 +1029,31 @@ public final class ILKOGOCKAEFOuterClass {
         /**
          * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
          */
-        public emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord.Builder addBPBOBKFIFPABuilder() {
+        public emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord.Builder addBPBOBKFIFPABuilder() {
           return getBPBOBKFIFPAFieldBuilder().addBuilder(
-              emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord.getDefaultInstance());
+              emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord.getDefaultInstance());
         }
         /**
          * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
          */
-        public emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord.Builder addBPBOBKFIFPABuilder(
+        public emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord.Builder addBPBOBKFIFPABuilder(
             int index) {
           return getBPBOBKFIFPAFieldBuilder().addBuilder(
-              index, emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord.getDefaultInstance());
+              index, emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord.getDefaultInstance());
         }
         /**
          * <code>repeated ._ClientPlayRecord BPBOBKFIFPA = 6;</code>
          */
-        public java.util.List<emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord.Builder> 
+        public java.util.List<emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord.Builder> 
              getBPBOBKFIFPABuilderList() {
           return getBPBOBKFIFPAFieldBuilder().getBuilderList();
         }
         private com.google.protobuf.RepeatedFieldBuilderV3<
-            emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord, emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord.Builder, emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecordOrBuilder> 
+            emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord, emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord.Builder, emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecordOrBuilder> 
             getBPBOBKFIFPAFieldBuilder() {
           if (bPBOBKFIFPABuilder_ == null) {
             bPBOBKFIFPABuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-                emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord, emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecord.Builder, emu.grasscutter.net.proto.ClientPlayRecord._ClientPlayRecordOrBuilder>(
+                emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord, emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecord.Builder, emu.grasscutter.net.proto._ClientPlayRecordOuterClass._ClientPlayRecordOrBuilder>(
                     bPBOBKFIFPA_,
                     ((bitField0_ & 0x00000001) != 0),
                     getParentForChildren(),
@@ -2544,15 +2544,15 @@ public final class ILKOGOCKAEFOuterClass {
       "MKIK\022!\n\013JDKCOEMHCEE\030\n \003(\0132\014.POIANPIAGJM\032" +
       "[\n\013ECAHMMHMKIK\022\'\n\013BPBOBKFIFPA\030\006 \003(\0132\022._C" +
       "lientPlayRecord\022#\n\r_friend_brief\030\017 \001(\0132\014" +
-      ".FriendBriefB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      ".FriendBriefB2\n\031emu.grasscutter.net.prot" +
+      "oB\025ILKOGOCKAEFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.FriendBriefOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.POIANPIAGJMOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.ClientPlayRecord.getDescriptor(),
+          emu.grasscutter.net.proto._ClientPlayRecordOuterClass.getDescriptor(),
         });
     internal_static_ILKOGOCKAEF_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2568,7 +2568,7 @@ public final class ILKOGOCKAEFOuterClass {
         new java.lang.String[] { "BPBOBKFIFPA", "FriendBrief", });
     emu.grasscutter.net.proto.FriendBriefOuterClass.getDescriptor();
     emu.grasscutter.net.proto.POIANPIAGJMOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.ClientPlayRecord.getDescriptor();
+    emu.grasscutter.net.proto._ClientPlayRecordOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

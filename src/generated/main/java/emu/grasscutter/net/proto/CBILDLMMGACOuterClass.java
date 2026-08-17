@@ -776,8 +776,9 @@ public final class CBILDLMMGACOuterClass {
       "\n\021CBILDLMMGAC.proto\032\021FOCHOGIGEFA.proto\"m" +
       "\n\013CBILDLMMGAC\022\023\n\013OKCLINJFIHP\030\004 \001(\010\022!\n\013GC" +
       "MGHOMHJNF\030\006 \001(\0162\014.FOCHOGIGEFA\022\023\n\013CNFEBIO" +
-      "PANP\030\007 \001(\r\022\021\n\tis_accept\030\n \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "PANP\030\007 \001(\r\022\021\n\tis_accept\030\n \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025CBILDLMMGACOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

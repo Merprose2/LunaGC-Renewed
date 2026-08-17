@@ -1465,8 +1465,9 @@ public final class KOFAKOBPNKPOuterClass {
       "\n\021KOFAKOBPNKP.proto\"z\n\013KOFAKOBPNKP\022\017\n\007re" +
       "tcode\030\014 \001(\005\022-\n\013ILAJEDFIHPP\030\016 \003(\0132\030.KOFAK" +
       "OBPNKP.LNDLNIJAIHC\032+\n\013LNDLNIJAIHC\022\013\n\003uid" +
-      "\030\010 \001(\r\022\017\n\007retcode\030\t \001(\005B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\030\010 \001(\r\022\017\n\007retcode\030\t \001(\005B2\n\031emu.grasscutt" +
+      "er.net.protoB\025KOFAKOBPNKPOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -794,8 +794,8 @@ public final class LNHGOKMJLOHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LNHGOKMJLOH.proto\"N\n\013LNHGOKMJLOH\022\016\n\006is" +
       "_win\030\001 \001(\010\022\027\n\017_win_round_list\030\002 \003(\r\022\026\n\016_" +
-      "cur_round_num\030\007 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "cur_round_num\030\007 \001(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025LNHGOKMJLOHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

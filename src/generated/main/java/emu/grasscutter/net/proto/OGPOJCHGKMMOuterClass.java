@@ -808,8 +808,8 @@ public final class OGPOJCHGKMMOuterClass {
       "\n\021OGPOJCHGKMM.proto\"n\n\013OGPOJCHGKMM\022\025\n\ris" +
       "_new_record\030\004 \001(\010\022\023\n\013GOLHFBGMFCA\030\007 \001(\r\022\020" +
       "\n\010level_id\030\010 \001(\r\022\014\n\004cost\030\013 \001(\r\022\023\n\013NPPBEN" +
-      "DEHAG\030\016 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "DEHAG\030\016 \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "B\025OGPOJCHGKMMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

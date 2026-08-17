@@ -652,8 +652,8 @@ public final class NEBBDECOHADOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NEBBDECOHAD.proto\"\"\n\013NEBBDECOHAD\022\023\n\013KD" +
-      "LLKBFJBOD\030\017 \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "LLKBFJBOD\030\017 \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025NEBBDECOHADOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

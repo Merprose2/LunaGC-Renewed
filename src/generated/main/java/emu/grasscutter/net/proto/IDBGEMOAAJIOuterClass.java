@@ -1264,8 +1264,8 @@ public final class IDBGEMOAAJIOuterClass {
       "DOEHOD\030\001 \001(\0132\014.DBMABEGBDEN\022!\n\013MGIJOFIOLO" +
       "J\030\002 \001(\0132\014.PBKONDHPIEH\022!\n\013FDIKFLDCEAL\030\003 \001" +
       "(\0132\014.LPMHJDGKKFN\022!\n\013IKKOPCOMIMJ\030\004 \001(\0132\014." +
-      "GEAHIMLNADBB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "GEAHIMLNADBB2\n\031emu.grasscutter.net.proto" +
+      "B\025IDBGEMOAAJIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class KPBOCPEAGPDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KPBOCPEAGPD.proto\"0\n\013KPBOCPEAGPD\022\020\n\010le" +
-      "vel_id\030\006 \001(\r\022\017\n\007retcode\030\007 \001(\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "vel_id\030\006 \001(\r\022\017\n\007retcode\030\007 \001(\005B2\n\031emu.gra" +
+      "sscutter.net.protoB\025KPBOCPEAGPDOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

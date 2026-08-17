@@ -1409,8 +1409,8 @@ public final class EAKJOCMJBPMOuterClass {
       "PGGPFJCF\030\001 \001(\r\022\023\n\013LHNODIFLMMJ\030\002 \001(\r\022\023\n\013L" +
       "NBOBNINCCA\030\003 \001(\010\022!\n\013AIHNEMOCJFM\030\004 \003(\0132\014." +
       "OAEECGPBOGB\022!\n\013AOHIOIBOBOD\030\005 \003(\0132\014.NACNI" +
-      "MBHLLAB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "MBHLLAB2\n\031emu.grasscutter.net.protoB\025EAK" +
+      "JOCMJBPMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

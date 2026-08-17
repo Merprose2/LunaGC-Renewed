@@ -21,12 +21,12 @@ public final class JECJLLJGCIJOuterClass {
     /**
      * <code>repeated ._AutoChessEquip equip_list = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip> 
+    java.util.List<emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip> 
         getEquipListList();
     /**
      * <code>repeated ._AutoChessEquip equip_list = 1;</code>
      */
-    emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip getEquipList(int index);
+    emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip getEquipList(int index);
     /**
      * <code>repeated ._AutoChessEquip equip_list = 1;</code>
      */
@@ -34,12 +34,12 @@ public final class JECJLLJGCIJOuterClass {
     /**
      * <code>repeated ._AutoChessEquip equip_list = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquipOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquipOrBuilder> 
         getEquipListOrBuilderList();
     /**
      * <code>repeated ._AutoChessEquip equip_list = 1;</code>
      */
-    emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquipOrBuilder getEquipListOrBuilder(
+    emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquipOrBuilder getEquipListOrBuilder(
         int index);
 
     /**
@@ -122,12 +122,12 @@ public final class JECJLLJGCIJOuterClass {
     /**
      * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.AutoChessChess._AutoChessChess> 
+    java.util.List<emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess> 
         getOIKCJFGIJGAList();
     /**
      * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
      */
-    emu.grasscutter.net.proto.AutoChessChess._AutoChessChess getOIKCJFGIJGA(int index);
+    emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess getOIKCJFGIJGA(int index);
     /**
      * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
      */
@@ -135,12 +135,12 @@ public final class JECJLLJGCIJOuterClass {
     /**
      * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.AutoChessChess._AutoChessChessOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChessOrBuilder> 
         getOIKCJFGIJGAOrBuilderList();
     /**
      * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
      */
-    emu.grasscutter.net.proto.AutoChessChess._AutoChessChessOrBuilder getOIKCJFGIJGAOrBuilder(
+    emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChessOrBuilder getOIKCJFGIJGAOrBuilder(
         int index);
 
     /**
@@ -236,11 +236,11 @@ public final class JECJLLJGCIJOuterClass {
               break;
             case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                equipList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip>();
+                equipList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip>();
                 mutable_bitField0_ |= 0x00000001;
               }
               equipList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.parser(), extensionRegistry));
               break;
             }
             case 16: {
@@ -294,11 +294,11 @@ public final class JECJLLJGCIJOuterClass {
             }
             case 106: {
               if (!((mutable_bitField0_ & 0x00000010) != 0)) {
-                oIKCJFGIJGA_ = new java.util.ArrayList<emu.grasscutter.net.proto.AutoChessChess._AutoChessChess>();
+                oIKCJFGIJGA_ = new java.util.ArrayList<emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess>();
                 mutable_bitField0_ |= 0x00000010;
               }
               oIKCJFGIJGA_.add(
-                  input.readMessage(emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.parser(), extensionRegistry));
               break;
             }
             case 114: {
@@ -374,19 +374,19 @@ public final class JECJLLJGCIJOuterClass {
     }
 
     public static final int EQUIP_LIST_FIELD_NUMBER = 1;
-    private java.util.List<emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip> equipList_;
+    private java.util.List<emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip> equipList_;
     /**
      * <code>repeated ._AutoChessEquip equip_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip> getEquipListList() {
+    public java.util.List<emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip> getEquipListList() {
       return equipList_;
     }
     /**
      * <code>repeated ._AutoChessEquip equip_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquipOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquipOrBuilder> 
         getEquipListOrBuilderList() {
       return equipList_;
     }
@@ -401,14 +401,14 @@ public final class JECJLLJGCIJOuterClass {
      * <code>repeated ._AutoChessEquip equip_list = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip getEquipList(int index) {
+    public emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip getEquipList(int index) {
       return equipList_.get(index);
     }
     /**
      * <code>repeated ._AutoChessEquip equip_list = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquipOrBuilder getEquipListOrBuilder(
+    public emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquipOrBuilder getEquipListOrBuilder(
         int index) {
       return equipList_.get(index);
     }
@@ -544,19 +544,19 @@ public final class JECJLLJGCIJOuterClass {
     }
 
     public static final int OIKCJFGIJGA_FIELD_NUMBER = 13;
-    private java.util.List<emu.grasscutter.net.proto.AutoChessChess._AutoChessChess> oIKCJFGIJGA_;
+    private java.util.List<emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess> oIKCJFGIJGA_;
     /**
      * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.AutoChessChess._AutoChessChess> getOIKCJFGIJGAList() {
+    public java.util.List<emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess> getOIKCJFGIJGAList() {
       return oIKCJFGIJGA_;
     }
     /**
      * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AutoChessChess._AutoChessChessOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChessOrBuilder> 
         getOIKCJFGIJGAOrBuilderList() {
       return oIKCJFGIJGA_;
     }
@@ -571,14 +571,14 @@ public final class JECJLLJGCIJOuterClass {
      * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AutoChessChess._AutoChessChess getOIKCJFGIJGA(int index) {
+    public emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess getOIKCJFGIJGA(int index) {
       return oIKCJFGIJGA_.get(index);
     }
     /**
      * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AutoChessChess._AutoChessChessOrBuilder getOIKCJFGIJGAOrBuilder(
+    public emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChessOrBuilder getOIKCJFGIJGAOrBuilder(
         int index) {
       return oIKCJFGIJGA_.get(index);
     }
@@ -1320,22 +1320,22 @@ public final class JECJLLJGCIJOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip> equipList_ =
+      private java.util.List<emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip> equipList_ =
         java.util.Collections.emptyList();
       private void ensureEquipListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          equipList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip>(equipList_);
+          equipList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip>(equipList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.Builder, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquipOrBuilder> equipListBuilder_;
+          emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.Builder, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquipOrBuilder> equipListBuilder_;
 
       /**
        * <code>repeated ._AutoChessEquip equip_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip> getEquipListList() {
+      public java.util.List<emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip> getEquipListList() {
         if (equipListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(equipList_);
         } else {
@@ -1355,7 +1355,7 @@ public final class JECJLLJGCIJOuterClass {
       /**
        * <code>repeated ._AutoChessEquip equip_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip getEquipList(int index) {
+      public emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip getEquipList(int index) {
         if (equipListBuilder_ == null) {
           return equipList_.get(index);
         } else {
@@ -1366,7 +1366,7 @@ public final class JECJLLJGCIJOuterClass {
        * <code>repeated ._AutoChessEquip equip_list = 1;</code>
        */
       public Builder setEquipList(
-          int index, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip value) {
+          int index, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip value) {
         if (equipListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1383,7 +1383,7 @@ public final class JECJLLJGCIJOuterClass {
        * <code>repeated ._AutoChessEquip equip_list = 1;</code>
        */
       public Builder setEquipList(
-          int index, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.Builder builderForValue) {
         if (equipListBuilder_ == null) {
           ensureEquipListIsMutable();
           equipList_.set(index, builderForValue.build());
@@ -1396,7 +1396,7 @@ public final class JECJLLJGCIJOuterClass {
       /**
        * <code>repeated ._AutoChessEquip equip_list = 1;</code>
        */
-      public Builder addEquipList(emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip value) {
+      public Builder addEquipList(emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip value) {
         if (equipListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1413,7 +1413,7 @@ public final class JECJLLJGCIJOuterClass {
        * <code>repeated ._AutoChessEquip equip_list = 1;</code>
        */
       public Builder addEquipList(
-          int index, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip value) {
+          int index, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip value) {
         if (equipListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1430,7 +1430,7 @@ public final class JECJLLJGCIJOuterClass {
        * <code>repeated ._AutoChessEquip equip_list = 1;</code>
        */
       public Builder addEquipList(
-          emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.Builder builderForValue) {
+          emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.Builder builderForValue) {
         if (equipListBuilder_ == null) {
           ensureEquipListIsMutable();
           equipList_.add(builderForValue.build());
@@ -1444,7 +1444,7 @@ public final class JECJLLJGCIJOuterClass {
        * <code>repeated ._AutoChessEquip equip_list = 1;</code>
        */
       public Builder addEquipList(
-          int index, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.Builder builderForValue) {
         if (equipListBuilder_ == null) {
           ensureEquipListIsMutable();
           equipList_.add(index, builderForValue.build());
@@ -1458,7 +1458,7 @@ public final class JECJLLJGCIJOuterClass {
        * <code>repeated ._AutoChessEquip equip_list = 1;</code>
        */
       public Builder addAllEquipList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip> values) {
         if (equipListBuilder_ == null) {
           ensureEquipListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1498,14 +1498,14 @@ public final class JECJLLJGCIJOuterClass {
       /**
        * <code>repeated ._AutoChessEquip equip_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.Builder getEquipListBuilder(
+      public emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.Builder getEquipListBuilder(
           int index) {
         return getEquipListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._AutoChessEquip equip_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquipOrBuilder getEquipListOrBuilder(
+      public emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquipOrBuilder getEquipListOrBuilder(
           int index) {
         if (equipListBuilder_ == null) {
           return equipList_.get(index);  } else {
@@ -1515,7 +1515,7 @@ public final class JECJLLJGCIJOuterClass {
       /**
        * <code>repeated ._AutoChessEquip equip_list = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquipOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquipOrBuilder> 
            getEquipListOrBuilderList() {
         if (equipListBuilder_ != null) {
           return equipListBuilder_.getMessageOrBuilderList();
@@ -1526,31 +1526,31 @@ public final class JECJLLJGCIJOuterClass {
       /**
        * <code>repeated ._AutoChessEquip equip_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.Builder addEquipListBuilder() {
+      public emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.Builder addEquipListBuilder() {
         return getEquipListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.getDefaultInstance());
+            emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.getDefaultInstance());
       }
       /**
        * <code>repeated ._AutoChessEquip equip_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.Builder addEquipListBuilder(
+      public emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.Builder addEquipListBuilder(
           int index) {
         return getEquipListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.getDefaultInstance());
+            index, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.getDefaultInstance());
       }
       /**
        * <code>repeated ._AutoChessEquip equip_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.Builder> 
            getEquipListBuilderList() {
         return getEquipListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.Builder, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquipOrBuilder> 
+          emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.Builder, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquipOrBuilder> 
           getEquipListFieldBuilder() {
         if (equipListBuilder_ == null) {
           equipListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquip.Builder, emu.grasscutter.net.proto.AutoChessEquip._AutoChessEquipOrBuilder>(
+              emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquip.Builder, emu.grasscutter.net.proto._AutoChessEquipOuterClass._AutoChessEquipOrBuilder>(
                   equipList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -2181,22 +2181,22 @@ public final class JECJLLJGCIJOuterClass {
         return routeListBuilder_;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.AutoChessChess._AutoChessChess> oIKCJFGIJGA_ =
+      private java.util.List<emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess> oIKCJFGIJGA_ =
         java.util.Collections.emptyList();
       private void ensureOIKCJFGIJGAIsMutable() {
         if (!((bitField0_ & 0x00000010) != 0)) {
-          oIKCJFGIJGA_ = new java.util.ArrayList<emu.grasscutter.net.proto.AutoChessChess._AutoChessChess>(oIKCJFGIJGA_);
+          oIKCJFGIJGA_ = new java.util.ArrayList<emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess>(oIKCJFGIJGA_);
           bitField0_ |= 0x00000010;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AutoChessChess._AutoChessChess, emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.Builder, emu.grasscutter.net.proto.AutoChessChess._AutoChessChessOrBuilder> oIKCJFGIJGABuilder_;
+          emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.Builder, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChessOrBuilder> oIKCJFGIJGABuilder_;
 
       /**
        * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AutoChessChess._AutoChessChess> getOIKCJFGIJGAList() {
+      public java.util.List<emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess> getOIKCJFGIJGAList() {
         if (oIKCJFGIJGABuilder_ == null) {
           return java.util.Collections.unmodifiableList(oIKCJFGIJGA_);
         } else {
@@ -2216,7 +2216,7 @@ public final class JECJLLJGCIJOuterClass {
       /**
        * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessChess._AutoChessChess getOIKCJFGIJGA(int index) {
+      public emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess getOIKCJFGIJGA(int index) {
         if (oIKCJFGIJGABuilder_ == null) {
           return oIKCJFGIJGA_.get(index);
         } else {
@@ -2227,7 +2227,7 @@ public final class JECJLLJGCIJOuterClass {
        * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
        */
       public Builder setOIKCJFGIJGA(
-          int index, emu.grasscutter.net.proto.AutoChessChess._AutoChessChess value) {
+          int index, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess value) {
         if (oIKCJFGIJGABuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2244,7 +2244,7 @@ public final class JECJLLJGCIJOuterClass {
        * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
        */
       public Builder setOIKCJFGIJGA(
-          int index, emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.Builder builderForValue) {
         if (oIKCJFGIJGABuilder_ == null) {
           ensureOIKCJFGIJGAIsMutable();
           oIKCJFGIJGA_.set(index, builderForValue.build());
@@ -2257,7 +2257,7 @@ public final class JECJLLJGCIJOuterClass {
       /**
        * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
        */
-      public Builder addOIKCJFGIJGA(emu.grasscutter.net.proto.AutoChessChess._AutoChessChess value) {
+      public Builder addOIKCJFGIJGA(emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess value) {
         if (oIKCJFGIJGABuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2274,7 +2274,7 @@ public final class JECJLLJGCIJOuterClass {
        * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
        */
       public Builder addOIKCJFGIJGA(
-          int index, emu.grasscutter.net.proto.AutoChessChess._AutoChessChess value) {
+          int index, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess value) {
         if (oIKCJFGIJGABuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2291,7 +2291,7 @@ public final class JECJLLJGCIJOuterClass {
        * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
        */
       public Builder addOIKCJFGIJGA(
-          emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.Builder builderForValue) {
+          emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.Builder builderForValue) {
         if (oIKCJFGIJGABuilder_ == null) {
           ensureOIKCJFGIJGAIsMutable();
           oIKCJFGIJGA_.add(builderForValue.build());
@@ -2305,7 +2305,7 @@ public final class JECJLLJGCIJOuterClass {
        * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
        */
       public Builder addOIKCJFGIJGA(
-          int index, emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.Builder builderForValue) {
         if (oIKCJFGIJGABuilder_ == null) {
           ensureOIKCJFGIJGAIsMutable();
           oIKCJFGIJGA_.add(index, builderForValue.build());
@@ -2319,7 +2319,7 @@ public final class JECJLLJGCIJOuterClass {
        * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
        */
       public Builder addAllOIKCJFGIJGA(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.AutoChessChess._AutoChessChess> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess> values) {
         if (oIKCJFGIJGABuilder_ == null) {
           ensureOIKCJFGIJGAIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -2359,14 +2359,14 @@ public final class JECJLLJGCIJOuterClass {
       /**
        * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.Builder getOIKCJFGIJGABuilder(
+      public emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.Builder getOIKCJFGIJGABuilder(
           int index) {
         return getOIKCJFGIJGAFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessChess._AutoChessChessOrBuilder getOIKCJFGIJGAOrBuilder(
+      public emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChessOrBuilder getOIKCJFGIJGAOrBuilder(
           int index) {
         if (oIKCJFGIJGABuilder_ == null) {
           return oIKCJFGIJGA_.get(index);  } else {
@@ -2376,7 +2376,7 @@ public final class JECJLLJGCIJOuterClass {
       /**
        * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.AutoChessChess._AutoChessChessOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChessOrBuilder> 
            getOIKCJFGIJGAOrBuilderList() {
         if (oIKCJFGIJGABuilder_ != null) {
           return oIKCJFGIJGABuilder_.getMessageOrBuilderList();
@@ -2387,31 +2387,31 @@ public final class JECJLLJGCIJOuterClass {
       /**
        * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.Builder addOIKCJFGIJGABuilder() {
+      public emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.Builder addOIKCJFGIJGABuilder() {
         return getOIKCJFGIJGAFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.getDefaultInstance());
+            emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.getDefaultInstance());
       }
       /**
        * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
        */
-      public emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.Builder addOIKCJFGIJGABuilder(
+      public emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.Builder addOIKCJFGIJGABuilder(
           int index) {
         return getOIKCJFGIJGAFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.getDefaultInstance());
+            index, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.getDefaultInstance());
       }
       /**
        * <code>repeated ._AutoChessChess OIKCJFGIJGA = 13;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.Builder> 
            getOIKCJFGIJGABuilderList() {
         return getOIKCJFGIJGAFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AutoChessChess._AutoChessChess, emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.Builder, emu.grasscutter.net.proto.AutoChessChess._AutoChessChessOrBuilder> 
+          emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.Builder, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChessOrBuilder> 
           getOIKCJFGIJGAFieldBuilder() {
         if (oIKCJFGIJGABuilder_ == null) {
           oIKCJFGIJGABuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.AutoChessChess._AutoChessChess, emu.grasscutter.net.proto.AutoChessChess._AutoChessChess.Builder, emu.grasscutter.net.proto.AutoChessChess._AutoChessChessOrBuilder>(
+              emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChess.Builder, emu.grasscutter.net.proto._AutoChessChessOuterClass._AutoChessChessOrBuilder>(
                   oIKCJFGIJGA_,
                   ((bitField0_ & 0x00000010) != 0),
                   getParentForChildren(),
@@ -2856,8 +2856,9 @@ public final class JECJLLJGCIJOuterClass {
       "CIMPOCKHIM\022 \n\nroute_list\030\007 \003(\0132\014.LDCBPIG" +
       "HCJF\022%\n\013OIKCJFGIJGA\030\r \003(\0132\020._AutoChessCh" +
       "ess\022!\n\013LLGGAEKEMPJ\030\016 \001(\0132\014.LNLJMKGPBLB\022!" +
-      "\n\013NAEHLJDNFEE\030\017 \003(\0132\014.DJGBGGBGOKIB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\n\013NAEHLJDNFEE\030\017 \003(\0132\014.DJGBGGBGOKIB2\n\031emu" +
+      ".grasscutter.net.protoB\025JECJLLJGCIJOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2866,8 +2867,8 @@ public final class JECJLLJGCIJOuterClass {
           emu.grasscutter.net.proto.DJGBGGBGOKIOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.LDCBPIGHCJFOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.LNLJMKGPBLBOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.AutoChessChess.getDescriptor(),
-          emu.grasscutter.net.proto.AutoChessEquip.getDescriptor(),
+          emu.grasscutter.net.proto._AutoChessChessOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._AutoChessEquipOuterClass.getDescriptor(),
         });
     internal_static_JECJLLJGCIJ_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2879,8 +2880,8 @@ public final class JECJLLJGCIJOuterClass {
     emu.grasscutter.net.proto.DJGBGGBGOKIOuterClass.getDescriptor();
     emu.grasscutter.net.proto.LDCBPIGHCJFOuterClass.getDescriptor();
     emu.grasscutter.net.proto.LNLJMKGPBLBOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.AutoChessChess.getDescriptor();
-    emu.grasscutter.net.proto.AutoChessEquip.getDescriptor();
+    emu.grasscutter.net.proto._AutoChessChessOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._AutoChessEquipOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

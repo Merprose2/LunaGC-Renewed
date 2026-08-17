@@ -737,8 +737,9 @@ public final class AssociateInferenceWordRspOuterClass {
       "\n\037AssociateInferenceWordRsp.proto\"n\n\031Ass" +
       "ociateInferenceWordRsp\022\024\n\014base_word_id\030\001" +
       " \001(\r\022\017\n\007page_id\030\007 \001(\r\022\031\n\021associate_word_" +
-      "id\030\n \001(\r\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "id\030\n \001(\r\022\017\n\007retcode\030\013 \001(\005B@\n\031emu.grasscu" +
+      "tter.net.protoB#AssociateInferenceWordRs" +
+      "pOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

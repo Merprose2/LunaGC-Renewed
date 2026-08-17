@@ -653,8 +653,9 @@ public final class PlayerLevelRewardUpdateNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n#PlayerLevelRewardUpdateNotify.proto\"3\n" +
       "\035PlayerLevelRewardUpdateNotify\022\022\n\nlevel_" +
-      "list\030\002 \003(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "list\030\002 \003(\rBD\n\031emu.grasscutter.net.protoB" +
+      "\'PlayerLevelRewardUpdateNotifyOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

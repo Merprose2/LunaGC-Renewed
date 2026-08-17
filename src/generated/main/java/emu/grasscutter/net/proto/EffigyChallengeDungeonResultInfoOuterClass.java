@@ -803,7 +803,8 @@ public final class EffigyChallengeDungeonResultInfoOuterClass {
       "\020is_in_time_limit\030\003 \001(\010\022\022\n\nis_success\030\007 " +
       "\001(\010\022\024\n\014challenge_id\030\n \001(\r\022\033\n\023challenge_m" +
       "ax_score\030\016 \001(\r\022\027\n\017challenge_score\030\017 \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "G\n\031emu.grasscutter.net.protoB*EffigyChal" +
+      "lengeDungeonResultInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

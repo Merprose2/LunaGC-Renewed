@@ -54,11 +54,11 @@ public final class ChatChannelUpdateNotifyOuterClass {
      * <code>._ChatChannelPlayerInfo _channel_player_info = 15;</code>
      * @return The channelPlayerInfo.
      */
-    emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo getChannelPlayerInfo();
+    emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo getChannelPlayerInfo();
     /**
      * <code>._ChatChannelPlayerInfo _channel_player_info = 15;</code>
      */
-    emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfoOrBuilder getChannelPlayerInfoOrBuilder();
+    emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfoOrBuilder getChannelPlayerInfoOrBuilder();
   }
   /**
    * <pre>
@@ -133,11 +133,11 @@ public final class ChatChannelUpdateNotifyOuterClass {
               break;
             }
             case 122: {
-              emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo.Builder subBuilder = null;
               if (ChannelPlayerInfo_ != null) {
                 subBuilder = ChannelPlayerInfo_.toBuilder();
               }
-              ChannelPlayerInfo_ = input.readMessage(emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo.parser(), extensionRegistry);
+              ChannelPlayerInfo_ = input.readMessage(emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(ChannelPlayerInfo_);
                 ChannelPlayerInfo_ = subBuilder.buildPartial();
@@ -226,7 +226,7 @@ public final class ChatChannelUpdateNotifyOuterClass {
     }
 
     public static final int _CHANNEL_PLAYER_INFO_FIELD_NUMBER = 15;
-    private emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo ChannelPlayerInfo_;
+    private emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo ChannelPlayerInfo_;
     /**
      * <code>._ChatChannelPlayerInfo _channel_player_info = 15;</code>
      * @return Whether the channelPlayerInfo field is set.
@@ -240,14 +240,14 @@ public final class ChatChannelUpdateNotifyOuterClass {
      * @return The channelPlayerInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo getChannelPlayerInfo() {
-      return ChannelPlayerInfo_ == null ? emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo.getDefaultInstance() : ChannelPlayerInfo_;
+    public emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo getChannelPlayerInfo() {
+      return ChannelPlayerInfo_ == null ? emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo.getDefaultInstance() : ChannelPlayerInfo_;
     }
     /**
      * <code>._ChatChannelPlayerInfo _channel_player_info = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfoOrBuilder getChannelPlayerInfoOrBuilder() {
+    public emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfoOrBuilder getChannelPlayerInfoOrBuilder() {
       return getChannelPlayerInfo();
     }
 
@@ -816,9 +816,9 @@ public final class ChatChannelUpdateNotifyOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo ChannelPlayerInfo_;
+      private emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo ChannelPlayerInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo, emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo.Builder, emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfoOrBuilder> ChannelPlayerInfoBuilder_;
+          emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo, emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo.Builder, emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfoOrBuilder> ChannelPlayerInfoBuilder_;
       /**
        * <code>._ChatChannelPlayerInfo _channel_player_info = 15;</code>
        * @return Whether the channelPlayerInfo field is set.
@@ -830,9 +830,9 @@ public final class ChatChannelUpdateNotifyOuterClass {
        * <code>._ChatChannelPlayerInfo _channel_player_info = 15;</code>
        * @return The channelPlayerInfo.
        */
-      public emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo getChannelPlayerInfo() {
+      public emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo getChannelPlayerInfo() {
         if (ChannelPlayerInfoBuilder_ == null) {
-          return ChannelPlayerInfo_ == null ? emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo.getDefaultInstance() : ChannelPlayerInfo_;
+          return ChannelPlayerInfo_ == null ? emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo.getDefaultInstance() : ChannelPlayerInfo_;
         } else {
           return ChannelPlayerInfoBuilder_.getMessage();
         }
@@ -840,7 +840,7 @@ public final class ChatChannelUpdateNotifyOuterClass {
       /**
        * <code>._ChatChannelPlayerInfo _channel_player_info = 15;</code>
        */
-      public Builder setChannelPlayerInfo(emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo value) {
+      public Builder setChannelPlayerInfo(emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo value) {
         if (ChannelPlayerInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -857,7 +857,7 @@ public final class ChatChannelUpdateNotifyOuterClass {
        * <code>._ChatChannelPlayerInfo _channel_player_info = 15;</code>
        */
       public Builder setChannelPlayerInfo(
-          emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo.Builder builderForValue) {
         if (ChannelPlayerInfoBuilder_ == null) {
           ChannelPlayerInfo_ = builderForValue.build();
           onChanged();
@@ -870,11 +870,11 @@ public final class ChatChannelUpdateNotifyOuterClass {
       /**
        * <code>._ChatChannelPlayerInfo _channel_player_info = 15;</code>
        */
-      public Builder mergeChannelPlayerInfo(emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo value) {
+      public Builder mergeChannelPlayerInfo(emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo value) {
         if (ChannelPlayerInfoBuilder_ == null) {
           if (ChannelPlayerInfo_ != null) {
             ChannelPlayerInfo_ =
-              emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo.newBuilder(ChannelPlayerInfo_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo.newBuilder(ChannelPlayerInfo_).mergeFrom(value).buildPartial();
           } else {
             ChannelPlayerInfo_ = value;
           }
@@ -902,7 +902,7 @@ public final class ChatChannelUpdateNotifyOuterClass {
       /**
        * <code>._ChatChannelPlayerInfo _channel_player_info = 15;</code>
        */
-      public emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo.Builder getChannelPlayerInfoBuilder() {
+      public emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo.Builder getChannelPlayerInfoBuilder() {
         
         onChanged();
         return getChannelPlayerInfoFieldBuilder().getBuilder();
@@ -910,23 +910,23 @@ public final class ChatChannelUpdateNotifyOuterClass {
       /**
        * <code>._ChatChannelPlayerInfo _channel_player_info = 15;</code>
        */
-      public emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfoOrBuilder getChannelPlayerInfoOrBuilder() {
+      public emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfoOrBuilder getChannelPlayerInfoOrBuilder() {
         if (ChannelPlayerInfoBuilder_ != null) {
           return ChannelPlayerInfoBuilder_.getMessageOrBuilder();
         } else {
           return ChannelPlayerInfo_ == null ?
-              emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo.getDefaultInstance() : ChannelPlayerInfo_;
+              emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo.getDefaultInstance() : ChannelPlayerInfo_;
         }
       }
       /**
        * <code>._ChatChannelPlayerInfo _channel_player_info = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo, emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo.Builder, emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfoOrBuilder> 
+          emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo, emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo.Builder, emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfoOrBuilder> 
           getChannelPlayerInfoFieldBuilder() {
         if (ChannelPlayerInfoBuilder_ == null) {
           ChannelPlayerInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo, emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfo.Builder, emu.grasscutter.net.proto.ChatChannelPlayerInfo._ChatChannelPlayerInfoOrBuilder>(
+              emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo, emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfo.Builder, emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass._ChatChannelPlayerInfoOrBuilder>(
                   getChannelPlayerInfo(),
                   getParentForChildren(),
                   isClean());
@@ -1007,14 +1007,14 @@ public final class ChatChannelUpdateNotifyOuterClass {
       "nel_id\030\001 \001(\r\022&\n\014channel_info\030\003 \001(\0132\020.Cha" +
       "tChannelInfo\022\021\n\tis_create\030\r \001(\010\0225\n\024_chan" +
       "nel_player_info\030\017 \001(\0132\027._ChatChannelPlay" +
-      "erInfoB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "erInfoB>\n\031emu.grasscutter.net.protoB!Cha" +
+      "tChannelUpdateNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.ChatChannelInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.ChatChannelPlayerInfo.getDescriptor(),
+          emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass.getDescriptor(),
         });
     internal_static_ChatChannelUpdateNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1023,7 +1023,7 @@ public final class ChatChannelUpdateNotifyOuterClass {
         internal_static_ChatChannelUpdateNotify_descriptor,
         new java.lang.String[] { "ChannelId", "ChannelInfo", "IsCreate", "ChannelPlayerInfo", });
     emu.grasscutter.net.proto.ChatChannelInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.ChatChannelPlayerInfo.getDescriptor();
+    emu.grasscutter.net.proto._ChatChannelPlayerInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

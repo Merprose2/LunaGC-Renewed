@@ -2725,8 +2725,9 @@ public final class AIPNAKHOKNPOuterClass {
       " \001(\0132\014.GCDNCDJBDAF\022!\n\013DDHFPGGOIND\030\017 \001(\0132" +
       "\014.GCDNCDJBDAF\022!\n\013MDGNKKIMEAO\030\020 \001(\0132\014.GCD" +
       "NCDJBDAF\022\023\n\013EJJLFONBKEG\030\021 \001(\005\022\023\n\013EIGMINL" +
-      "GMIK\030\022 \001(\005\022\023\n\013LGHLKGGDFCB\030\023 \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "GMIK\030\022 \001(\005\022\023\n\013LGHLKGGDFCB\030\023 \001(\005B2\n\031emu.g" +
+      "rasscutter.net.protoB\025AIPNAKHOKNPOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

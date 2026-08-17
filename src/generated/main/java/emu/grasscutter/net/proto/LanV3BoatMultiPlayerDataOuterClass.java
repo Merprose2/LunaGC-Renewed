@@ -588,8 +588,9 @@ public final class LanV3BoatMultiPlayerDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036LanV3BoatMultiPlayerData.proto\"D\n\030LanV" +
       "3BoatMultiPlayerData\022\033\n\023accumulate_coin_" +
-      "num\030\001 \001(\r\022\013\n\003uid\030\004 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "num\030\001 \001(\r\022\013\n\003uid\030\004 \001(\rB?\n\031emu.grasscutte" +
+      "r.net.protoB\"LanV3BoatMultiPlayerDataOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

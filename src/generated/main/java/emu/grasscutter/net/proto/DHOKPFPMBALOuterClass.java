@@ -724,7 +724,8 @@ public final class DHOKPFPMBALOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DHOKPFPMBAL.proto\";\n\013DHOKPFPMBAL\022\027\n\017eq" +
       "uip_guid_list\030\014 \003(\004\022\023\n\013avatar_guid\030\017 \001(\004" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025DHOKPFPMB" +
+      "ALOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

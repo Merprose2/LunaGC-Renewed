@@ -589,8 +589,9 @@ public final class GECHPEAEIEJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GECHPEAEIEJ.proto\"9\n\013GECHPEAEIEJ\022\024\n\013HG" +
-      "KNBHMOPLK\030\365\003 \001(\010\022\024\n\013KJHEFDOHAJP\030\366\003 \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "KNBHMOPLK\030\365\003 \001(\010\022\024\n\013KJHEFDOHAJP\030\366\003 \001(\010B2" +
+      "\n\031emu.grasscutter.net.protoB\025GECHPEAEIEJ" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -731,8 +731,9 @@ public final class HomeEditCustomFurnitureRspOuterClass {
       "CustomFurnitureInfo.proto\"f\n\032HomeEditCus" +
       "tomFurnitureRsp\022\017\n\007retcode\030\006 \001(\005\0227\n\025cust" +
       "om_furniture_info\030\t \001(\0132\030.HomeCustomFurn" +
-      "itureInfoB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "itureInfoBA\n\031emu.grasscutter.net.protoB$" +
+      "HomeEditCustomFurnitureRspOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

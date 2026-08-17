@@ -871,8 +871,9 @@ public final class FDMOOGNDEFHOuterClass {
       "\n\021FDMOOGNDEFH.proto\032\021NKMNEEGHPKA.proto\"f" +
       "\n\013FDMOOGNDEFH\022\023\n\013is_finished\030\003 \001(\010\022\020\n\010le" +
       "vel_id\030\013 \001(\r\022!\n\013PNIIIKJKCNA\030\016 \001(\0132\014.NKMN" +
-      "EEGHPKA\022\r\n\005score\030\017 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "EEGHPKA\022\r\n\005score\030\017 \001(\rB2\n\031emu.grasscutte" +
+      "r.net.protoB\025FDMOOGNDEFHOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

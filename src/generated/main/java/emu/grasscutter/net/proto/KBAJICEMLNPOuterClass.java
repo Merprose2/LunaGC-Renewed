@@ -1028,8 +1028,8 @@ public final class KBAJICEMLNPOuterClass {
       "fo.proto\032\026OnlinePlayerInfo.proto\"`\n\013KBAJ" +
       "ICEMLNP\022)\n\tcard_list\030\001 \003(\0132\026.ExhibitionD" +
       "isplayInfo\022&\n\013player_info\030\005 \001(\0132\021.Online" +
-      "PlayerInfoB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "PlayerInfoB2\n\031emu.grasscutter.net.protoB" +
+      "\025KBAJICEMLNPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

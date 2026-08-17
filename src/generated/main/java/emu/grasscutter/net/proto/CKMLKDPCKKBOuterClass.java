@@ -587,8 +587,9 @@ public final class CKMLKDPCKKBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CKMLKDPCKKB.proto\"4\n\013CKMLKDPCKKB\022\021\n\tav" +
-      "atar_id\030\001 \001(\r\022\022\n\nplayer_uid\030\003 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "atar_id\030\001 \001(\r\022\022\n\nplayer_uid\030\003 \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025CKMLKDPCKKBOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

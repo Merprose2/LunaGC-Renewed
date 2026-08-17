@@ -730,8 +730,9 @@ public final class RogueDiaryDungeonRecordOuterClass {
       "\n\035RogueDiaryDungeonRecord.proto\"h\n\027Rogue" +
       "DiaryDungeonRecord\022\022\n\ndifficulty\030\004 \001(\r\022\021" +
       "\n\tmax_round\030\007 \001(\r\022\023\n\013finish_time\030\013 \001(\r\022\021" +
-      "\n\tis_finish\030\017 \001(\010B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\n\tis_finish\030\017 \001(\010B>\n\031emu.grasscutter.net" +
+      ".protoB!RogueDiaryDungeonRecordOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

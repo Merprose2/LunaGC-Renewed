@@ -841,8 +841,8 @@ public final class LHKEIIKBBJCOuterClass {
       "\n\013LHKEIIKBBJC\022\023\n\013EFCNDACMOPM\030\001 \001(\005\022\014\n\004ti" +
       "me\030\002 \001(\002\022 \n\npoint_type\030\003 \001(\0162\014.JEOKDCIGC" +
       "FP\022\023\n\013DGOPCLCCGOP\030\004 \001(\010\022\024\n\013MDOHOFFLHHI\030\351" +
-      "\007 \001(\010B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\007 \001(\010B2\n\031emu.grasscutter.net.protoB\025LHKE" +
+      "IIKBBJCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -819,8 +819,8 @@ public final class FEHFBLFGLPEOuterClass {
       "\n\021FEHFBLFGLPE.proto\032\021CCCMEJNLGFK.proto\"T" +
       "\n\013FEHFBLFGLPE\022\023\n\013IMMPDPFEIKB\030\001 \001(\005\022&\n\016co" +
       "mponent_data\030\013 \001(\0132\014.CCCMEJNLGFKH\000B\010\n\006de" +
-      "tailB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "tailB2\n\031emu.grasscutter.net.protoB\025FEHFB" +
+      "LFGLPEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

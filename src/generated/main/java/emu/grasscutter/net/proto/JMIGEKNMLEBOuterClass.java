@@ -705,7 +705,8 @@ public final class JMIGEKNMLEBOuterClass {
       "\n\021JMIGEKNMLEB.proto\032\rUgcType.proto\"T\n\013JM" +
       "IGEKNMLEB\022\032\n\010ugc_type\030\006 \001(\0162\010.UgcType\022\030\n" +
       "\020_is_allow_import\030\t \001(\010\022\017\n\007retcode\030\017 \001(\005" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025JMIGEKNML" +
+      "EBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

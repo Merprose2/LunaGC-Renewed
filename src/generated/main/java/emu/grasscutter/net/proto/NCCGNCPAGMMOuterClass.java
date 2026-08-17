@@ -696,8 +696,8 @@ public final class NCCGNCPAGMMOuterClass {
       "\n\021NCCGNCPAGMM.proto\032\021DEGDFAOEICK.proto\"Z" +
       "\n\013NCCGNCPAGMM\022!\n\013DCOADGFHDNP\030\001 \001(\0162\014.DEG" +
       "DFAOEICK\022\023\n\013LFMJFCFHJKF\030\002 \001(\r\022\023\n\013OMENBLI" +
-      "BBGF\030\003 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "BBGF\030\003 \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025NCCGNCPAGMMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

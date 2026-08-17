@@ -74,12 +74,12 @@ public final class DIGNBCBLNCOOuterClass {
     /**
      * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.UiStaticComp._UiStaticComp> 
+    java.util.List<emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp> 
         getNPNEPJFFBFEList();
     /**
      * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
      */
-    emu.grasscutter.net.proto.UiStaticComp._UiStaticComp getNPNEPJFFBFE(int index);
+    emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp getNPNEPJFFBFE(int index);
     /**
      * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
      */
@@ -87,12 +87,12 @@ public final class DIGNBCBLNCOOuterClass {
     /**
      * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.UiStaticComp._UiStaticCompOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticCompOrBuilder> 
         getNPNEPJFFBFEOrBuilderList();
     /**
      * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
      */
-    emu.grasscutter.net.proto.UiStaticComp._UiStaticCompOrBuilder getNPNEPJFFBFEOrBuilder(
+    emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticCompOrBuilder getNPNEPJFFBFEOrBuilder(
         int index);
   }
   /**
@@ -186,11 +186,11 @@ public final class DIGNBCBLNCOOuterClass {
             }
             case 4042: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                nPNEPJFFBFE_ = new java.util.ArrayList<emu.grasscutter.net.proto.UiStaticComp._UiStaticComp>();
+                nPNEPJFFBFE_ = new java.util.ArrayList<emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp>();
                 mutable_bitField0_ |= 0x00000004;
               }
               nPNEPJFFBFE_.add(
-                  input.readMessage(emu.grasscutter.net.proto.UiStaticComp._UiStaticComp.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -325,19 +325,19 @@ public final class DIGNBCBLNCOOuterClass {
     }
 
     public static final int NPNEPJFFBFE_FIELD_NUMBER = 505;
-    private java.util.List<emu.grasscutter.net.proto.UiStaticComp._UiStaticComp> nPNEPJFFBFE_;
+    private java.util.List<emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp> nPNEPJFFBFE_;
     /**
      * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.UiStaticComp._UiStaticComp> getNPNEPJFFBFEList() {
+    public java.util.List<emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp> getNPNEPJFFBFEList() {
       return nPNEPJFFBFE_;
     }
     /**
      * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.UiStaticComp._UiStaticCompOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticCompOrBuilder> 
         getNPNEPJFFBFEOrBuilderList() {
       return nPNEPJFFBFE_;
     }
@@ -352,14 +352,14 @@ public final class DIGNBCBLNCOOuterClass {
      * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UiStaticComp._UiStaticComp getNPNEPJFFBFE(int index) {
+    public emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp getNPNEPJFFBFE(int index) {
       return nPNEPJFFBFE_.get(index);
     }
     /**
      * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UiStaticComp._UiStaticCompOrBuilder getNPNEPJFFBFEOrBuilder(
+    public emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticCompOrBuilder getNPNEPJFFBFEOrBuilder(
         int index) {
       return nPNEPJFFBFE_.get(index);
     }
@@ -1221,22 +1221,22 @@ public final class DIGNBCBLNCOOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.UiStaticComp._UiStaticComp> nPNEPJFFBFE_ =
+      private java.util.List<emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp> nPNEPJFFBFE_ =
         java.util.Collections.emptyList();
       private void ensureNPNEPJFFBFEIsMutable() {
         if (!((bitField0_ & 0x00000004) != 0)) {
-          nPNEPJFFBFE_ = new java.util.ArrayList<emu.grasscutter.net.proto.UiStaticComp._UiStaticComp>(nPNEPJFFBFE_);
+          nPNEPJFFBFE_ = new java.util.ArrayList<emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp>(nPNEPJFFBFE_);
           bitField0_ |= 0x00000004;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.UiStaticComp._UiStaticComp, emu.grasscutter.net.proto.UiStaticComp._UiStaticComp.Builder, emu.grasscutter.net.proto.UiStaticComp._UiStaticCompOrBuilder> nPNEPJFFBFEBuilder_;
+          emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp, emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp.Builder, emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticCompOrBuilder> nPNEPJFFBFEBuilder_;
 
       /**
        * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.UiStaticComp._UiStaticComp> getNPNEPJFFBFEList() {
+      public java.util.List<emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp> getNPNEPJFFBFEList() {
         if (nPNEPJFFBFEBuilder_ == null) {
           return java.util.Collections.unmodifiableList(nPNEPJFFBFE_);
         } else {
@@ -1256,7 +1256,7 @@ public final class DIGNBCBLNCOOuterClass {
       /**
        * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
        */
-      public emu.grasscutter.net.proto.UiStaticComp._UiStaticComp getNPNEPJFFBFE(int index) {
+      public emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp getNPNEPJFFBFE(int index) {
         if (nPNEPJFFBFEBuilder_ == null) {
           return nPNEPJFFBFE_.get(index);
         } else {
@@ -1267,7 +1267,7 @@ public final class DIGNBCBLNCOOuterClass {
        * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
        */
       public Builder setNPNEPJFFBFE(
-          int index, emu.grasscutter.net.proto.UiStaticComp._UiStaticComp value) {
+          int index, emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp value) {
         if (nPNEPJFFBFEBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1284,7 +1284,7 @@ public final class DIGNBCBLNCOOuterClass {
        * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
        */
       public Builder setNPNEPJFFBFE(
-          int index, emu.grasscutter.net.proto.UiStaticComp._UiStaticComp.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp.Builder builderForValue) {
         if (nPNEPJFFBFEBuilder_ == null) {
           ensureNPNEPJFFBFEIsMutable();
           nPNEPJFFBFE_.set(index, builderForValue.build());
@@ -1297,7 +1297,7 @@ public final class DIGNBCBLNCOOuterClass {
       /**
        * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
        */
-      public Builder addNPNEPJFFBFE(emu.grasscutter.net.proto.UiStaticComp._UiStaticComp value) {
+      public Builder addNPNEPJFFBFE(emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp value) {
         if (nPNEPJFFBFEBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1314,7 +1314,7 @@ public final class DIGNBCBLNCOOuterClass {
        * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
        */
       public Builder addNPNEPJFFBFE(
-          int index, emu.grasscutter.net.proto.UiStaticComp._UiStaticComp value) {
+          int index, emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp value) {
         if (nPNEPJFFBFEBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1331,7 +1331,7 @@ public final class DIGNBCBLNCOOuterClass {
        * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
        */
       public Builder addNPNEPJFFBFE(
-          emu.grasscutter.net.proto.UiStaticComp._UiStaticComp.Builder builderForValue) {
+          emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp.Builder builderForValue) {
         if (nPNEPJFFBFEBuilder_ == null) {
           ensureNPNEPJFFBFEIsMutable();
           nPNEPJFFBFE_.add(builderForValue.build());
@@ -1345,7 +1345,7 @@ public final class DIGNBCBLNCOOuterClass {
        * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
        */
       public Builder addNPNEPJFFBFE(
-          int index, emu.grasscutter.net.proto.UiStaticComp._UiStaticComp.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp.Builder builderForValue) {
         if (nPNEPJFFBFEBuilder_ == null) {
           ensureNPNEPJFFBFEIsMutable();
           nPNEPJFFBFE_.add(index, builderForValue.build());
@@ -1359,7 +1359,7 @@ public final class DIGNBCBLNCOOuterClass {
        * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
        */
       public Builder addAllNPNEPJFFBFE(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.UiStaticComp._UiStaticComp> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp> values) {
         if (nPNEPJFFBFEBuilder_ == null) {
           ensureNPNEPJFFBFEIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1399,14 +1399,14 @@ public final class DIGNBCBLNCOOuterClass {
       /**
        * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
        */
-      public emu.grasscutter.net.proto.UiStaticComp._UiStaticComp.Builder getNPNEPJFFBFEBuilder(
+      public emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp.Builder getNPNEPJFFBFEBuilder(
           int index) {
         return getNPNEPJFFBFEFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
        */
-      public emu.grasscutter.net.proto.UiStaticComp._UiStaticCompOrBuilder getNPNEPJFFBFEOrBuilder(
+      public emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticCompOrBuilder getNPNEPJFFBFEOrBuilder(
           int index) {
         if (nPNEPJFFBFEBuilder_ == null) {
           return nPNEPJFFBFE_.get(index);  } else {
@@ -1416,7 +1416,7 @@ public final class DIGNBCBLNCOOuterClass {
       /**
        * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.UiStaticComp._UiStaticCompOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticCompOrBuilder> 
            getNPNEPJFFBFEOrBuilderList() {
         if (nPNEPJFFBFEBuilder_ != null) {
           return nPNEPJFFBFEBuilder_.getMessageOrBuilderList();
@@ -1427,31 +1427,31 @@ public final class DIGNBCBLNCOOuterClass {
       /**
        * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
        */
-      public emu.grasscutter.net.proto.UiStaticComp._UiStaticComp.Builder addNPNEPJFFBFEBuilder() {
+      public emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp.Builder addNPNEPJFFBFEBuilder() {
         return getNPNEPJFFBFEFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.UiStaticComp._UiStaticComp.getDefaultInstance());
+            emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp.getDefaultInstance());
       }
       /**
        * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
        */
-      public emu.grasscutter.net.proto.UiStaticComp._UiStaticComp.Builder addNPNEPJFFBFEBuilder(
+      public emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp.Builder addNPNEPJFFBFEBuilder(
           int index) {
         return getNPNEPJFFBFEFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.UiStaticComp._UiStaticComp.getDefaultInstance());
+            index, emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp.getDefaultInstance());
       }
       /**
        * <code>repeated ._UiStaticComp NPNEPJFFBFE = 505;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.UiStaticComp._UiStaticComp.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp.Builder> 
            getNPNEPJFFBFEBuilderList() {
         return getNPNEPJFFBFEFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.UiStaticComp._UiStaticComp, emu.grasscutter.net.proto.UiStaticComp._UiStaticComp.Builder, emu.grasscutter.net.proto.UiStaticComp._UiStaticCompOrBuilder> 
+          emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp, emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp.Builder, emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticCompOrBuilder> 
           getNPNEPJFFBFEFieldBuilder() {
         if (nPNEPJFFBFEBuilder_ == null) {
           nPNEPJFFBFEBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.UiStaticComp._UiStaticComp, emu.grasscutter.net.proto.UiStaticComp._UiStaticComp.Builder, emu.grasscutter.net.proto.UiStaticComp._UiStaticCompOrBuilder>(
+              emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp, emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticComp.Builder, emu.grasscutter.net.proto._UiStaticCompOuterClass._UiStaticCompOrBuilder>(
                   nPNEPJFFBFE_,
                   ((bitField0_ & 0x00000004) != 0),
                   getParentForChildren(),
@@ -1532,14 +1532,14 @@ public final class DIGNBCBLNCOOuterClass {
       "JGKFMDBCJK\030\365\003 \001(\005\022\"\n\013NLCLJDGDIAE\030\366\003 \003(\0132" +
       "\014.FLHDGJHCANF\022\024\n\013NCIPEMLHFEH\030\367\003 \003(\005\022\024\n\013D" +
       "MKGIBELBDE\030\370\003 \001(\005\022$\n\013NPNEPJFFBFE\030\371\003 \003(\0132" +
-      "\016._UiStaticCompB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\016._UiStaticCompB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025DIGNBCBLNCOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.FLHDGJHCANFOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.UiStaticComp.getDescriptor(),
+          emu.grasscutter.net.proto._UiStaticCompOuterClass.getDescriptor(),
         });
     internal_static_DIGNBCBLNCO_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1548,7 +1548,7 @@ public final class DIGNBCBLNCOOuterClass {
         internal_static_DIGNBCBLNCO_descriptor,
         new java.lang.String[] { "DJGKFMDBCJK", "NLCLJDGDIAE", "NCIPEMLHFEH", "DMKGIBELBDE", "NPNEPJFFBFE", });
     emu.grasscutter.net.proto.FLHDGJHCANFOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.UiStaticComp.getDescriptor();
+    emu.grasscutter.net.proto._UiStaticCompOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

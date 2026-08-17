@@ -808,8 +808,8 @@ public final class DEHPEPKKEBLOuterClass {
       "\n\021DEHPEPKKEBL.proto\"v\n\013DEHPEPKKEBL\022\023\n\013NE" +
       "JGGJJCAOM\030\001 \001(\010\022\023\n\013DPBIFKMAFKG\030\002 \001(\002\022\023\n\013" +
       "DBKOFKJEAFP\030\003 \001(\002\022\023\n\013JIILIHMFGEH\030\004 \001(\002\022\023" +
-      "\n\013AMNPBECFMOL\030\005 \001(\002B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013AMNPBECFMOL\030\005 \001(\002B2\n\031emu.grasscutter.n" +
+      "et.protoB\025DEHPEPKKEBLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

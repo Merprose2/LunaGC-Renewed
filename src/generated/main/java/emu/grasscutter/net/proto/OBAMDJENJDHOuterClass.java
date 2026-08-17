@@ -1070,7 +1070,8 @@ public final class OBAMDJENJDHOuterClass {
       "\n\013OBAMDJENJDH\022 \n\nextra_info\030\002 \001(\0132\014.HIKA" +
       "BNACEGJ\022\020\n\010uid_list\030\003 \003(\r\022\r\n\005score\030\006 \001(\003" +
       "\022\024\n\014dungeon_guid\030\014 \001(\004\022\023\n\013IHBEJKPPILB\030\r " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025OBAMDJ" +
+      "ENJDHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

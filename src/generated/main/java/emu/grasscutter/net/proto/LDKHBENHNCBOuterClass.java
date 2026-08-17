@@ -1035,8 +1035,9 @@ public final class LDKHBENHNCBOuterClass {
       "\n\021LDKHBENHNCB.proto\032\021OEJOBAPIEAM.proto\"o" +
       "\n\013LDKHBENHNCB\022\023\n\013OOHGFELMIKM\030\003 \001(\r\022\023\n\013OC" +
       "AJAPMKGJC\030\005 \001(\010\022!\n\013IKGGBNHNNNA\030\006 \003(\0132\014.O" +
-      "EJOBAPIEAM\022\023\n\013KDLIJJPOGHH\030\n \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "EJOBAPIEAM\022\023\n\013KDLIJJPOGHH\030\n \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025LDKHBENHNCBOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

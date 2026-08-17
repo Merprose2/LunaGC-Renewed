@@ -596,8 +596,9 @@ public final class NAHAGELILALOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NAHAGELILAL.proto\"/\n\013NAHAGELILAL\022\023\n\013DO" +
-      "GLJKBLACH\030\006 \001(\010\022\013\n\003uid\030\007 \001(\005B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "GLJKBLACH\030\006 \001(\010\022\013\n\003uid\030\007 \001(\005B2\n\031emu.gras" +
+      "scutter.net.protoB\025NAHAGELILALOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

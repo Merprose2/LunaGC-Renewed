@@ -731,8 +731,9 @@ public final class WinterCampAcceptGiveItemRspOuterClass {
       "terCampAcceptItemResultInfo.proto\"p\n\033Win" +
       "terCampAcceptGiveItemRsp\022\017\n\007retcode\030\003 \001(" +
       "\005\022@\n\027accept_item_result_info\030\010 \001(\0132\037.Win" +
-      "terCampAcceptItemResultInfoB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "terCampAcceptItemResultInfoBB\n\031emu.grass" +
+      "cutter.net.protoB%WinterCampAcceptGiveIt" +
+      "emRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

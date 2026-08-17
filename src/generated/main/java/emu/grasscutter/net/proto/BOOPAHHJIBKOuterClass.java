@@ -722,8 +722,9 @@ public final class BOOPAHHJIBKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BOOPAHHJIBK.proto\"3\n\013BOOPAHHJIBK\022\017\n\007re" +
-      "tcode\030\010 \001(\005\022\023\n\013OOOLGHLIKKE\030\t \003(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "tcode\030\010 \001(\005\022\023\n\013OOOLGHLIKKE\030\t \003(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025BOOPAHHJIBKOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

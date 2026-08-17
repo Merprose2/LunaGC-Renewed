@@ -659,8 +659,8 @@ public final class JNCCGOIKMIHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JNCCGOIKMIH.proto\"G\n\013JNCCGOIKMIH\022\021\n\tbu" +
       "y_count\030\005 \001(\r\022\023\n\013HDBOECJJGON\030\014 \001(\010\022\020\n\010go" +
-      "ods_id\030\r \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "ods_id\030\r \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025JNCCGOIKMIHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

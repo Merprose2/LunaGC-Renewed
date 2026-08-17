@@ -1021,7 +1021,8 @@ public final class OKJOINFCNLJOuterClass {
       "end_time\030\003 \001(\002\022\023\n\013JAIKAMEDKOB\030\004 \001(\010\022\023\n\013M" +
       "CMDPFOIHAJ\030\005 \001(\002\022\023\n\013GMGNKGGBBAM\030\006 \001(\005\022\023\n" +
       "\013BDFKCBOIAIP\030\007 \001(\002\022\023\n\013OFDMGHJACIC\030\010 \001(\010B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025OKJOINFCNL" +
+      "JOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

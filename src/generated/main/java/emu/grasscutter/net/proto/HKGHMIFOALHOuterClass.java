@@ -1034,8 +1034,9 @@ public final class HKGHMIFOALHOuterClass {
       "\n\021HKGHMIFOALH.proto\032\021AOACBHIACPA.proto\"f" +
       "\n\013HKGHMIFOALH\022\020\n\010level_id\030\002 \001(\r\022!\n\013LHFPB" +
       "EBAGKG\030\005 \003(\0132\014.AOACBHIACPA\022\r\n\005stage\030\006 \001(" +
-      "\r\022\023\n\013FBAPNDJKIBO\030\010 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\r\022\023\n\013FBAPNDJKIBO\030\010 \001(\rB2\n\031emu.grasscutte" +
+      "r.net.protoB\025HKGHMIFOALHOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

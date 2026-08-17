@@ -824,8 +824,9 @@ public final class SceneGalleryLanV3BoatMultiInfoOuterClass {
       "\n$SceneGalleryLanV3BoatMultiInfo.proto\032\036" +
       "LanV3BoatMultiPlayerData.proto\"P\n\036SceneG" +
       "alleryLanV3BoatMultiInfo\022.\n\013player_data\030" +
-      "\013 \003(\0132\031.LanV3BoatMultiPlayerDataB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\013 \003(\0132\031.LanV3BoatMultiPlayerDataBE\n\031emu." +
+      "grasscutter.net.protoB(SceneGalleryLanV3" +
+      "BoatMultiInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

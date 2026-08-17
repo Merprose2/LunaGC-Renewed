@@ -730,8 +730,9 @@ public final class ENBLAIHHMMGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ENBLAIHHMMG.proto\"X\n\013ENBLAIHHMMG\022\023\n\013NH" +
       "EFNKONPEI\030\010 \001(\r\022\017\n\007is_open\030\t \001(\010\022\021\n\tis_f" +
-      "inish\030\n \001(\010\022\020\n\010level_id\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "inish\030\n \001(\010\022\020\n\010level_id\030\017 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025ENBLAIHHMMGOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

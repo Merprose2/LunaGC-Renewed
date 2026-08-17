@@ -666,8 +666,8 @@ public final class NpcTalkReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\020NpcTalkReq.proto\"G\n\nNpcTalkReq\022\021\n\tenti" +
       "ty_id\030\004 \001(\r\022\025\n\rnpc_entity_id\030\007 \001(\r\022\017\n\007ta" +
-      "lk_id\030\n \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "lk_id\030\n \001(\rB1\n\031emu.grasscutter.net.proto" +
+      "B\024NpcTalkReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

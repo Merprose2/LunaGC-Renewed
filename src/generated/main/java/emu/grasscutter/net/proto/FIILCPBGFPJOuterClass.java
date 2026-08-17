@@ -177,8 +177,8 @@ public final class FIILCPBGFPJOuterClass {
       ">\n:FIILCPBGFPJ_AQUARIUM_DIVING_LEVEL_EVE" +
       "NT_SPECIAL_EVENT_OPEN\020\004\022@\n<FIILCPBGFPJ_A" +
       "QUARIUM_DIVING_LEVEL_EVENT_CHEST_EXTRA_F" +
-      "ISH_FRY\020\006B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "ISH_FRY\020\006B2\n\031emu.grasscutter.net.protoB\025" +
+      "FIILCPBGFPJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

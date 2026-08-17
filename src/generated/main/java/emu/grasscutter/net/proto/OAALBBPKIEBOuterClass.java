@@ -800,8 +800,8 @@ public final class OAALBBPKIEBOuterClass {
       "\n\021OAALBBPKIEB.proto\032\021NHCELAIJMKJ.proto\"U" +
       "\n\013OAALBBPKIEB\022\022\n\ntarget_uid\030\004 \001(\r\022\017\n\007ret" +
       "code\030\010 \001(\005\022!\n\013APFGJPJBGFK\030\016 \001(\0132\014.NHCELA" +
-      "IJMKJB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "IJMKJB2\n\031emu.grasscutter.net.protoB\025OAAL" +
+      "BBPKIEBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

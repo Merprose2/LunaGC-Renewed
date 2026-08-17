@@ -1208,7 +1208,8 @@ public final class GadgetPlayUidOpNotifyOuterClass {
       "PlayUidOpNotify\022\021\n\tplay_type\030\001 \001(\r\022\021\n\tpa" +
       "ram_str\030\003 \001(\t\022\020\n\010uid_list\030\004 \003(\r\022\022\n\nparam" +
       "_list\030\005 \003(\r\022\021\n\tentity_id\030\006 \001(\r\022\n\n\002op\030\t \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB<\n\031emu.grasscutter.net.protoB\037GadgetP" +
+      "layUidOpNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

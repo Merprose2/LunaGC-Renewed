@@ -722,8 +722,9 @@ public final class FMAACFODHMEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FMAACFODHME.proto\"5\n\013FMAACFODHME\022\r\n\005pa" +
-      "ram\030\002 \001(\r\022\027\n\017player_uid_list\030\n \003(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ram\030\002 \001(\r\022\027\n\017player_uid_list\030\n \003(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025FMAACFODHMEOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

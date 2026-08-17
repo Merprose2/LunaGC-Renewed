@@ -1081,8 +1081,8 @@ public final class BLFLNBMOIEEOuterClass {
       "\001\n\013BLFLNBMOIEE\022!\n\013KGHJOOGGPOH\030\001 \001(\0162\014.NI" +
       "KALHFKIPI\022\023\n\013ALJAKGLPFIP\030\002 \001(\t\022\023\n\013HMFHCP" +
       "IKGCO\030\003 \001(\t\022\023\n\013NGEDGDGBAID\030\004 \001(\014\022\022\n\nrequ" +
-      "est_id\030\005 \001(\tB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "est_id\030\005 \001(\tB2\n\031emu.grasscutter.net.prot" +
+      "oB\025BLFLNBMOIEEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

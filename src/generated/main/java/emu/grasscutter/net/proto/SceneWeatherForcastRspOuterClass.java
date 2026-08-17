@@ -795,8 +795,9 @@ public final class SceneWeatherForcastRspOuterClass {
       "\n\034SceneWeatherForcastRsp.proto\"b\n\026SceneW" +
       "eatherForcastRsp\022\017\n\007retcode\030\005 \001(\005\022\031\n\021nex" +
       "t_climate_time\030\007 \001(\004\022\034\n\024forcast_climate_" +
-      "list\030\n \003(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "list\030\n \003(\rB=\n\031emu.grasscutter.net.protoB" +
+      " SceneWeatherForcastRspOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

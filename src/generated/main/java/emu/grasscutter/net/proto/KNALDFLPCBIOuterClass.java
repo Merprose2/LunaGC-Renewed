@@ -1226,8 +1226,8 @@ public final class KNALDFLPCBIOuterClass {
       "LDFLPCBI.POJJJLEGPBOEntry\022%\n\020avatar_info" +
       "_list\030\007 \003(\0132\013.AvatarInfo\022\017\n\007retcode\030\t \001(" +
       "\005\0322\n\020POJJJLEGPBOEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005va" +
-      "lue\030\002 \001(\002:\0028\001B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "lue\030\002 \001(\002:\0028\001B2\n\031emu.grasscutter.net.pro" +
+      "toB\025KNALDFLPCBIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

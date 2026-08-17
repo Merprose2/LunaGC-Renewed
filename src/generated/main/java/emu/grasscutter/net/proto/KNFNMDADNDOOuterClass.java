@@ -598,7 +598,8 @@ public final class KNFNMDADNDOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KNFNMDADNDO.proto\"=\n\013KNFNMDADNDO\022\031\n\021_i" +
       "s_restart_floor\030\003 \001(\010\022\023\n\013BLFBKCGFIBE\030\014 \001" +
-      "(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\010B2\n\031emu.grasscutter.net.protoB\025KNFNMDA" +
+      "DNDOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

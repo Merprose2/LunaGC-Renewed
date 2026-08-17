@@ -190,8 +190,8 @@ public final class CBGLJOOJMNIOuterClass {
       "\023\n\017CBGLJOOJMNI_INT\020\002\022\024\n\020CBGLJOOJMNI_BOOL" +
       "\020\003\022\025\n\021CBGLJOOJMNI_FLOAT\020\004\022\026\n\022CBGLJOOJMNI" +
       "_STRING\020\005\022\024\n\020CBGLJOOJMNI_ENUM\020\006\022\026\n\022CBGLJ" +
-      "OOJMNI_OBJECT\020\007B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "OOJMNI_OBJECT\020\007B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025CBGLJOOJMNIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

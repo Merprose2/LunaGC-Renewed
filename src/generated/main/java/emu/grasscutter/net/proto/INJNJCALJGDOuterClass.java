@@ -658,8 +658,8 @@ public final class INJNJCALJGDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021INJNJCALJGD.proto\"I\n\013INJNJCALJGD\022\023\n\013CM" +
       "NDIKJCLOH\030\001 \001(\r\022\020\n\010rotation\030\004 \001(\r\022\023\n\013JLA" +
-      "IKBAJKAG\030\013 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "IKBAJKAG\030\013 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025INJNJCALJGDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -588,8 +588,9 @@ public final class MistTrialMissionInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032MistTrialMissionInfo.proto\">\n\024MistTria" +
       "lMissionInfo\022\027\n\017watcher_list_id\030\002 \001(\r\022\r\n" +
-      "\005param\030\014 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\005param\030\014 \001(\rB;\n\031emu.grasscutter.net.prot" +
+      "oB\036MistTrialMissionInfoOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

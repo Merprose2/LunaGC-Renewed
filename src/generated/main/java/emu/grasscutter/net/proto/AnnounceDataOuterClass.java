@@ -1323,8 +1323,8 @@ public final class AnnounceDataOuterClass {
       "(\r\022\023\n\013MBMBKDPOCBE\030\005 \001(\r\022\023\n\013BOEOJAFIFOF\030\t" +
       " \001(\r\022\021\n\tconfig_id\030\n \001(\r\022\023\n\013ENGJGCGFMMM\030\013" +
       " \001(\t\022\023\n\013LHMGGPMCDCN\030\014 \001(\t\022\023\n\013KFAGDOEAIPP" +
-      "\030\r \001(\tB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\r \001(\tB3\n\031emu.grasscutter.net.protoB\026Ann" +
+      "ounceDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

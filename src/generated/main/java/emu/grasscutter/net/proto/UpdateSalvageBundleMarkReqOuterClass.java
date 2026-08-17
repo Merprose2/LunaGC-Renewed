@@ -596,8 +596,9 @@ public final class UpdateSalvageBundleMarkReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n UpdateSalvageBundleMarkReq.proto\"F\n\032Up" +
       "dateSalvageBundleMarkReq\022\026\n\016challenge_ty" +
-      "pe\030\004 \001(\r\022\020\n\010stage_id\030\r \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "pe\030\004 \001(\r\022\020\n\010stage_id\030\r \001(\rBA\n\031emu.grassc" +
+      "utter.net.protoB$UpdateSalvageBundleMark" +
+      "ReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

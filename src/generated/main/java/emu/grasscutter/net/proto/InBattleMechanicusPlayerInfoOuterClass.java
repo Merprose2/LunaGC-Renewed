@@ -1108,7 +1108,8 @@ public final class InBattleMechanicusPlayerInfoOuterClass {
       "\022\027\n\017building_points\030\006 \001(\r\022\031\n\021is_card_con" +
       "firmed\030\n \001(\010\0226\n\rbuilding_list\030\014 \003(\0132\037.In" +
       "BattleMechanicusBuildingInfo\022\024\n\014pick_car" +
-      "d_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob" +
+      "d_id\030\017 \001(\rBC\n\031emu.grasscutter.net.protoB" +
+      "&InBattleMechanicusPlayerInfoOuterClassb" +
       "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

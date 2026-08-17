@@ -117,11 +117,11 @@ public final class GFANCHKLGELOuterClass {
      * <code>._ConfigPrefabInstance config_prefab_instance = 16;</code>
      * @return The configPrefabInstance.
      */
-    emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance getConfigPrefabInstance();
+    emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance getConfigPrefabInstance();
     /**
      * <code>._ConfigPrefabInstance config_prefab_instance = 16;</code>
      */
-    emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstanceOrBuilder getConfigPrefabInstanceOrBuilder();
+    emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstanceOrBuilder getConfigPrefabInstanceOrBuilder();
 
     /**
      * <code>._UiNode ui_node = 17;</code>
@@ -132,11 +132,11 @@ public final class GFANCHKLGELOuterClass {
      * <code>._UiNode ui_node = 17;</code>
      * @return The uiNode.
      */
-    emu.grasscutter.net.proto.UiNode._UiNode getUiNode();
+    emu.grasscutter.net.proto._UiNodeOuterClass._UiNode getUiNode();
     /**
      * <code>._UiNode ui_node = 17;</code>
      */
-    emu.grasscutter.net.proto.UiNode._UiNodeOrBuilder getUiNodeOrBuilder();
+    emu.grasscutter.net.proto._UiNodeOuterClass._UiNodeOrBuilder getUiNodeOrBuilder();
 
     /**
      * <code>.GMIJHAHHMAJ count_down = 18;</code>
@@ -162,11 +162,11 @@ public final class GFANCHKLGELOuterClass {
      * <code>._EditCamera edit_camera = 19;</code>
      * @return The editCamera.
      */
-    emu.grasscutter.net.proto.EditCamera._EditCamera getEditCamera();
+    emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera getEditCamera();
     /**
      * <code>._EditCamera edit_camera = 19;</code>
      */
-    emu.grasscutter.net.proto.EditCamera._EditCameraOrBuilder getEditCameraOrBuilder();
+    emu.grasscutter.net.proto._EditCameraOuterClass._EditCameraOrBuilder getEditCameraOrBuilder();
 
     /**
      * <code>.AFLEJDGBOGB instruction_graph = 20;</code>
@@ -192,11 +192,11 @@ public final class GFANCHKLGELOuterClass {
      * <code>._NodeConfig node_config = 21;</code>
      * @return The nodeConfig.
      */
-    emu.grasscutter.net.proto.NodeConfig._NodeConfig getNodeConfig();
+    emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig getNodeConfig();
     /**
      * <code>._NodeConfig node_config = 21;</code>
      */
-    emu.grasscutter.net.proto.NodeConfig._NodeConfigOrBuilder getNodeConfigOrBuilder();
+    emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfigOrBuilder getNodeConfigOrBuilder();
 
     /**
      * <code>._AssistantEditorFolder assistant_editor_folder = 22;</code>
@@ -207,11 +207,11 @@ public final class GFANCHKLGELOuterClass {
      * <code>._AssistantEditorFolder assistant_editor_folder = 22;</code>
      * @return The assistantEditorFolder.
      */
-    emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder getAssistantEditorFolder();
+    emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder getAssistantEditorFolder();
     /**
      * <code>._AssistantEditorFolder assistant_editor_folder = 22;</code>
      */
-    emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolderOrBuilder getAssistantEditorFolderOrBuilder();
+    emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolderOrBuilder getAssistantEditorFolderOrBuilder();
 
     /**
      * <code>._LevelConfig level_config = 23;</code>
@@ -222,11 +222,11 @@ public final class GFANCHKLGELOuterClass {
      * <code>._LevelConfig level_config = 23;</code>
      * @return The levelConfig.
      */
-    emu.grasscutter.net.proto.LevelConfig._LevelConfig getLevelConfig();
+    emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig getLevelConfig();
     /**
      * <code>._LevelConfig level_config = 23;</code>
      */
-    emu.grasscutter.net.proto.LevelConfig._LevelConfigOrBuilder getLevelConfigOrBuilder();
+    emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfigOrBuilder getLevelConfigOrBuilder();
 
     /**
      * <code>._SignalEditData signal_edit_data = 24;</code>
@@ -237,11 +237,11 @@ public final class GFANCHKLGELOuterClass {
      * <code>._SignalEditData signal_edit_data = 24;</code>
      * @return The signalEditData.
      */
-    emu.grasscutter.net.proto.SignalEditData._SignalEditData getSignalEditData();
+    emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData getSignalEditData();
     /**
      * <code>._SignalEditData signal_edit_data = 24;</code>
      */
-    emu.grasscutter.net.proto.SignalEditData._SignalEditDataOrBuilder getSignalEditDataOrBuilder();
+    emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditDataOrBuilder getSignalEditDataOrBuilder();
 
     /**
      * <code>._StructObject struct_object = 25;</code>
@@ -252,11 +252,11 @@ public final class GFANCHKLGELOuterClass {
      * <code>._StructObject struct_object = 25;</code>
      * @return The structObject.
      */
-    emu.grasscutter.net.proto.StructObject._StructObject getStructObject();
+    emu.grasscutter.net.proto._StructObjectOuterClass._StructObject getStructObject();
     /**
      * <code>._StructObject struct_object = 25;</code>
      */
-    emu.grasscutter.net.proto.StructObject._StructObjectOrBuilder getStructObjectOrBuilder();
+    emu.grasscutter.net.proto._StructObjectOuterClass._StructObjectOrBuilder getStructObjectOrBuilder();
 
     /**
      * <code>.JGANLHBOBBN suite = 26;</code>
@@ -449,28 +449,28 @@ public final class GFANCHKLGELOuterClass {
               break;
             }
             case 130: {
-              emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance.Builder subBuilder = null;
               if (paramCase_ == 16) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 16;
               break;
             }
             case 138: {
-              emu.grasscutter.net.proto.UiNode._UiNode.Builder subBuilder = null;
+              emu.grasscutter.net.proto._UiNodeOuterClass._UiNode.Builder subBuilder = null;
               if (paramCase_ == 17) {
-                subBuilder = ((emu.grasscutter.net.proto.UiNode._UiNode) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._UiNodeOuterClass._UiNode) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.UiNode._UiNode.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._UiNodeOuterClass._UiNode.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.UiNode._UiNode) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._UiNodeOuterClass._UiNode) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 17;
@@ -491,14 +491,14 @@ public final class GFANCHKLGELOuterClass {
               break;
             }
             case 154: {
-              emu.grasscutter.net.proto.EditCamera._EditCamera.Builder subBuilder = null;
+              emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera.Builder subBuilder = null;
               if (paramCase_ == 19) {
-                subBuilder = ((emu.grasscutter.net.proto.EditCamera._EditCamera) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.EditCamera._EditCamera.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.EditCamera._EditCamera) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 19;
@@ -519,70 +519,70 @@ public final class GFANCHKLGELOuterClass {
               break;
             }
             case 170: {
-              emu.grasscutter.net.proto.NodeConfig._NodeConfig.Builder subBuilder = null;
+              emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig.Builder subBuilder = null;
               if (paramCase_ == 21) {
-                subBuilder = ((emu.grasscutter.net.proto.NodeConfig._NodeConfig) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.NodeConfig._NodeConfig.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.NodeConfig._NodeConfig) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 21;
               break;
             }
             case 178: {
-              emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder.Builder subBuilder = null;
               if (paramCase_ == 22) {
-                subBuilder = ((emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 22;
               break;
             }
             case 186: {
-              emu.grasscutter.net.proto.LevelConfig._LevelConfig.Builder subBuilder = null;
+              emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig.Builder subBuilder = null;
               if (paramCase_ == 23) {
-                subBuilder = ((emu.grasscutter.net.proto.LevelConfig._LevelConfig) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.LevelConfig._LevelConfig.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.LevelConfig._LevelConfig) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 23;
               break;
             }
             case 194: {
-              emu.grasscutter.net.proto.SignalEditData._SignalEditData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData.Builder subBuilder = null;
               if (paramCase_ == 24) {
-                subBuilder = ((emu.grasscutter.net.proto.SignalEditData._SignalEditData) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.SignalEditData._SignalEditData.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.SignalEditData._SignalEditData) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 24;
               break;
             }
             case 202: {
-              emu.grasscutter.net.proto.StructObject._StructObject.Builder subBuilder = null;
+              emu.grasscutter.net.proto._StructObjectOuterClass._StructObject.Builder subBuilder = null;
               if (paramCase_ == 25) {
-                subBuilder = ((emu.grasscutter.net.proto.StructObject._StructObject) param_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._StructObjectOuterClass._StructObject) param_).toBuilder();
               }
               param_ =
-                  input.readMessage(emu.grasscutter.net.proto.StructObject._StructObject.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._StructObjectOuterClass._StructObject.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.StructObject._StructObject) param_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._StructObjectOuterClass._StructObject) param_);
                 param_ = subBuilder.buildPartial();
               }
               paramCase_ = 25;
@@ -946,21 +946,21 @@ public final class GFANCHKLGELOuterClass {
      * @return The configPrefabInstance.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance getConfigPrefabInstance() {
+    public emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance getConfigPrefabInstance() {
       if (paramCase_ == 16) {
-         return (emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance) param_;
+         return (emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance) param_;
       }
-      return emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance.getDefaultInstance();
     }
     /**
      * <code>._ConfigPrefabInstance config_prefab_instance = 16;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstanceOrBuilder getConfigPrefabInstanceOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstanceOrBuilder getConfigPrefabInstanceOrBuilder() {
       if (paramCase_ == 16) {
-         return (emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance) param_;
+         return (emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance) param_;
       }
-      return emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance.getDefaultInstance();
     }
 
     public static final int UI_NODE_FIELD_NUMBER = 17;
@@ -977,21 +977,21 @@ public final class GFANCHKLGELOuterClass {
      * @return The uiNode.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UiNode._UiNode getUiNode() {
+    public emu.grasscutter.net.proto._UiNodeOuterClass._UiNode getUiNode() {
       if (paramCase_ == 17) {
-         return (emu.grasscutter.net.proto.UiNode._UiNode) param_;
+         return (emu.grasscutter.net.proto._UiNodeOuterClass._UiNode) param_;
       }
-      return emu.grasscutter.net.proto.UiNode._UiNode.getDefaultInstance();
+      return emu.grasscutter.net.proto._UiNodeOuterClass._UiNode.getDefaultInstance();
     }
     /**
      * <code>._UiNode ui_node = 17;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UiNode._UiNodeOrBuilder getUiNodeOrBuilder() {
+    public emu.grasscutter.net.proto._UiNodeOuterClass._UiNodeOrBuilder getUiNodeOrBuilder() {
       if (paramCase_ == 17) {
-         return (emu.grasscutter.net.proto.UiNode._UiNode) param_;
+         return (emu.grasscutter.net.proto._UiNodeOuterClass._UiNode) param_;
       }
-      return emu.grasscutter.net.proto.UiNode._UiNode.getDefaultInstance();
+      return emu.grasscutter.net.proto._UiNodeOuterClass._UiNode.getDefaultInstance();
     }
 
     public static final int COUNT_DOWN_FIELD_NUMBER = 18;
@@ -1039,21 +1039,21 @@ public final class GFANCHKLGELOuterClass {
      * @return The editCamera.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.EditCamera._EditCamera getEditCamera() {
+    public emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera getEditCamera() {
       if (paramCase_ == 19) {
-         return (emu.grasscutter.net.proto.EditCamera._EditCamera) param_;
+         return (emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera) param_;
       }
-      return emu.grasscutter.net.proto.EditCamera._EditCamera.getDefaultInstance();
+      return emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera.getDefaultInstance();
     }
     /**
      * <code>._EditCamera edit_camera = 19;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.EditCamera._EditCameraOrBuilder getEditCameraOrBuilder() {
+    public emu.grasscutter.net.proto._EditCameraOuterClass._EditCameraOrBuilder getEditCameraOrBuilder() {
       if (paramCase_ == 19) {
-         return (emu.grasscutter.net.proto.EditCamera._EditCamera) param_;
+         return (emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera) param_;
       }
-      return emu.grasscutter.net.proto.EditCamera._EditCamera.getDefaultInstance();
+      return emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera.getDefaultInstance();
     }
 
     public static final int INSTRUCTION_GRAPH_FIELD_NUMBER = 20;
@@ -1101,21 +1101,21 @@ public final class GFANCHKLGELOuterClass {
      * @return The nodeConfig.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.NodeConfig._NodeConfig getNodeConfig() {
+    public emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig getNodeConfig() {
       if (paramCase_ == 21) {
-         return (emu.grasscutter.net.proto.NodeConfig._NodeConfig) param_;
+         return (emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig) param_;
       }
-      return emu.grasscutter.net.proto.NodeConfig._NodeConfig.getDefaultInstance();
+      return emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig.getDefaultInstance();
     }
     /**
      * <code>._NodeConfig node_config = 21;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.NodeConfig._NodeConfigOrBuilder getNodeConfigOrBuilder() {
+    public emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfigOrBuilder getNodeConfigOrBuilder() {
       if (paramCase_ == 21) {
-         return (emu.grasscutter.net.proto.NodeConfig._NodeConfig) param_;
+         return (emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig) param_;
       }
-      return emu.grasscutter.net.proto.NodeConfig._NodeConfig.getDefaultInstance();
+      return emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig.getDefaultInstance();
     }
 
     public static final int ASSISTANT_EDITOR_FOLDER_FIELD_NUMBER = 22;
@@ -1132,21 +1132,21 @@ public final class GFANCHKLGELOuterClass {
      * @return The assistantEditorFolder.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder getAssistantEditorFolder() {
+    public emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder getAssistantEditorFolder() {
       if (paramCase_ == 22) {
-         return (emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder) param_;
+         return (emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder) param_;
       }
-      return emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder.getDefaultInstance();
+      return emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder.getDefaultInstance();
     }
     /**
      * <code>._AssistantEditorFolder assistant_editor_folder = 22;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolderOrBuilder getAssistantEditorFolderOrBuilder() {
+    public emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolderOrBuilder getAssistantEditorFolderOrBuilder() {
       if (paramCase_ == 22) {
-         return (emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder) param_;
+         return (emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder) param_;
       }
-      return emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder.getDefaultInstance();
+      return emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder.getDefaultInstance();
     }
 
     public static final int LEVEL_CONFIG_FIELD_NUMBER = 23;
@@ -1163,21 +1163,21 @@ public final class GFANCHKLGELOuterClass {
      * @return The levelConfig.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LevelConfig._LevelConfig getLevelConfig() {
+    public emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig getLevelConfig() {
       if (paramCase_ == 23) {
-         return (emu.grasscutter.net.proto.LevelConfig._LevelConfig) param_;
+         return (emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig) param_;
       }
-      return emu.grasscutter.net.proto.LevelConfig._LevelConfig.getDefaultInstance();
+      return emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig.getDefaultInstance();
     }
     /**
      * <code>._LevelConfig level_config = 23;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LevelConfig._LevelConfigOrBuilder getLevelConfigOrBuilder() {
+    public emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfigOrBuilder getLevelConfigOrBuilder() {
       if (paramCase_ == 23) {
-         return (emu.grasscutter.net.proto.LevelConfig._LevelConfig) param_;
+         return (emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig) param_;
       }
-      return emu.grasscutter.net.proto.LevelConfig._LevelConfig.getDefaultInstance();
+      return emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig.getDefaultInstance();
     }
 
     public static final int SIGNAL_EDIT_DATA_FIELD_NUMBER = 24;
@@ -1194,21 +1194,21 @@ public final class GFANCHKLGELOuterClass {
      * @return The signalEditData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SignalEditData._SignalEditData getSignalEditData() {
+    public emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData getSignalEditData() {
       if (paramCase_ == 24) {
-         return (emu.grasscutter.net.proto.SignalEditData._SignalEditData) param_;
+         return (emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData) param_;
       }
-      return emu.grasscutter.net.proto.SignalEditData._SignalEditData.getDefaultInstance();
+      return emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData.getDefaultInstance();
     }
     /**
      * <code>._SignalEditData signal_edit_data = 24;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SignalEditData._SignalEditDataOrBuilder getSignalEditDataOrBuilder() {
+    public emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditDataOrBuilder getSignalEditDataOrBuilder() {
       if (paramCase_ == 24) {
-         return (emu.grasscutter.net.proto.SignalEditData._SignalEditData) param_;
+         return (emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData) param_;
       }
-      return emu.grasscutter.net.proto.SignalEditData._SignalEditData.getDefaultInstance();
+      return emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData.getDefaultInstance();
     }
 
     public static final int STRUCT_OBJECT_FIELD_NUMBER = 25;
@@ -1225,21 +1225,21 @@ public final class GFANCHKLGELOuterClass {
      * @return The structObject.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StructObject._StructObject getStructObject() {
+    public emu.grasscutter.net.proto._StructObjectOuterClass._StructObject getStructObject() {
       if (paramCase_ == 25) {
-         return (emu.grasscutter.net.proto.StructObject._StructObject) param_;
+         return (emu.grasscutter.net.proto._StructObjectOuterClass._StructObject) param_;
       }
-      return emu.grasscutter.net.proto.StructObject._StructObject.getDefaultInstance();
+      return emu.grasscutter.net.proto._StructObjectOuterClass._StructObject.getDefaultInstance();
     }
     /**
      * <code>._StructObject struct_object = 25;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StructObject._StructObjectOrBuilder getStructObjectOrBuilder() {
+    public emu.grasscutter.net.proto._StructObjectOuterClass._StructObjectOrBuilder getStructObjectOrBuilder() {
       if (paramCase_ == 25) {
-         return (emu.grasscutter.net.proto.StructObject._StructObject) param_;
+         return (emu.grasscutter.net.proto._StructObjectOuterClass._StructObject) param_;
       }
-      return emu.grasscutter.net.proto.StructObject._StructObject.getDefaultInstance();
+      return emu.grasscutter.net.proto._StructObjectOuterClass._StructObject.getDefaultInstance();
     }
 
     public static final int SUITE_FIELD_NUMBER = 26;
@@ -1399,34 +1399,34 @@ public final class GFANCHKLGELOuterClass {
         output.writeMessage(15, (emu.grasscutter.net.proto.JENCIECHIMNOuterClass.JENCIECHIMN) param_);
       }
       if (paramCase_ == 16) {
-        output.writeMessage(16, (emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance) param_);
+        output.writeMessage(16, (emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance) param_);
       }
       if (paramCase_ == 17) {
-        output.writeMessage(17, (emu.grasscutter.net.proto.UiNode._UiNode) param_);
+        output.writeMessage(17, (emu.grasscutter.net.proto._UiNodeOuterClass._UiNode) param_);
       }
       if (paramCase_ == 18) {
         output.writeMessage(18, (emu.grasscutter.net.proto.GMIJHAHHMAJOuterClass.GMIJHAHHMAJ) param_);
       }
       if (paramCase_ == 19) {
-        output.writeMessage(19, (emu.grasscutter.net.proto.EditCamera._EditCamera) param_);
+        output.writeMessage(19, (emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera) param_);
       }
       if (paramCase_ == 20) {
         output.writeMessage(20, (emu.grasscutter.net.proto.AFLEJDGBOGBOuterClass.AFLEJDGBOGB) param_);
       }
       if (paramCase_ == 21) {
-        output.writeMessage(21, (emu.grasscutter.net.proto.NodeConfig._NodeConfig) param_);
+        output.writeMessage(21, (emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig) param_);
       }
       if (paramCase_ == 22) {
-        output.writeMessage(22, (emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder) param_);
+        output.writeMessage(22, (emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder) param_);
       }
       if (paramCase_ == 23) {
-        output.writeMessage(23, (emu.grasscutter.net.proto.LevelConfig._LevelConfig) param_);
+        output.writeMessage(23, (emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig) param_);
       }
       if (paramCase_ == 24) {
-        output.writeMessage(24, (emu.grasscutter.net.proto.SignalEditData._SignalEditData) param_);
+        output.writeMessage(24, (emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData) param_);
       }
       if (paramCase_ == 25) {
-        output.writeMessage(25, (emu.grasscutter.net.proto.StructObject._StructObject) param_);
+        output.writeMessage(25, (emu.grasscutter.net.proto._StructObjectOuterClass._StructObject) param_);
       }
       if (paramCase_ == 26) {
         output.writeMessage(26, (emu.grasscutter.net.proto.JGANLHBOBBNOuterClass.JGANLHBOBBN) param_);
@@ -1475,11 +1475,11 @@ public final class GFANCHKLGELOuterClass {
       }
       if (paramCase_ == 16) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(16, (emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance) param_);
+          .computeMessageSize(16, (emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance) param_);
       }
       if (paramCase_ == 17) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(17, (emu.grasscutter.net.proto.UiNode._UiNode) param_);
+          .computeMessageSize(17, (emu.grasscutter.net.proto._UiNodeOuterClass._UiNode) param_);
       }
       if (paramCase_ == 18) {
         size += com.google.protobuf.CodedOutputStream
@@ -1487,7 +1487,7 @@ public final class GFANCHKLGELOuterClass {
       }
       if (paramCase_ == 19) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(19, (emu.grasscutter.net.proto.EditCamera._EditCamera) param_);
+          .computeMessageSize(19, (emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera) param_);
       }
       if (paramCase_ == 20) {
         size += com.google.protobuf.CodedOutputStream
@@ -1495,23 +1495,23 @@ public final class GFANCHKLGELOuterClass {
       }
       if (paramCase_ == 21) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(21, (emu.grasscutter.net.proto.NodeConfig._NodeConfig) param_);
+          .computeMessageSize(21, (emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig) param_);
       }
       if (paramCase_ == 22) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(22, (emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder) param_);
+          .computeMessageSize(22, (emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder) param_);
       }
       if (paramCase_ == 23) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(23, (emu.grasscutter.net.proto.LevelConfig._LevelConfig) param_);
+          .computeMessageSize(23, (emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig) param_);
       }
       if (paramCase_ == 24) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(24, (emu.grasscutter.net.proto.SignalEditData._SignalEditData) param_);
+          .computeMessageSize(24, (emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData) param_);
       }
       if (paramCase_ == 25) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(25, (emu.grasscutter.net.proto.StructObject._StructObject) param_);
+          .computeMessageSize(25, (emu.grasscutter.net.proto._StructObjectOuterClass._StructObject) param_);
       }
       if (paramCase_ == 26) {
         size += com.google.protobuf.CodedOutputStream
@@ -3032,7 +3032,7 @@ public final class GFANCHKLGELOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance, emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance.Builder, emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstanceOrBuilder> configPrefabInstanceBuilder_;
+          emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance, emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance.Builder, emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstanceOrBuilder> configPrefabInstanceBuilder_;
       /**
        * <code>._ConfigPrefabInstance config_prefab_instance = 16;</code>
        * @return Whether the configPrefabInstance field is set.
@@ -3046,23 +3046,23 @@ public final class GFANCHKLGELOuterClass {
        * @return The configPrefabInstance.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance getConfigPrefabInstance() {
+      public emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance getConfigPrefabInstance() {
         if (configPrefabInstanceBuilder_ == null) {
           if (paramCase_ == 16) {
-            return (emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance) param_;
+            return (emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance) param_;
           }
-          return emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance.getDefaultInstance();
         } else {
           if (paramCase_ == 16) {
             return configPrefabInstanceBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigPrefabInstance config_prefab_instance = 16;</code>
        */
-      public Builder setConfigPrefabInstance(emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance value) {
+      public Builder setConfigPrefabInstance(emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance value) {
         if (configPrefabInstanceBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3079,7 +3079,7 @@ public final class GFANCHKLGELOuterClass {
        * <code>._ConfigPrefabInstance config_prefab_instance = 16;</code>
        */
       public Builder setConfigPrefabInstance(
-          emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance.Builder builderForValue) {
         if (configPrefabInstanceBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -3092,11 +3092,11 @@ public final class GFANCHKLGELOuterClass {
       /**
        * <code>._ConfigPrefabInstance config_prefab_instance = 16;</code>
        */
-      public Builder mergeConfigPrefabInstance(emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance value) {
+      public Builder mergeConfigPrefabInstance(emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance value) {
         if (configPrefabInstanceBuilder_ == null) {
           if (paramCase_ == 16 &&
-              param_ != emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance.newBuilder((emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance) param_)
+              param_ != emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance.newBuilder((emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -3133,36 +3133,36 @@ public final class GFANCHKLGELOuterClass {
       /**
        * <code>._ConfigPrefabInstance config_prefab_instance = 16;</code>
        */
-      public emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance.Builder getConfigPrefabInstanceBuilder() {
+      public emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance.Builder getConfigPrefabInstanceBuilder() {
         return getConfigPrefabInstanceFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigPrefabInstance config_prefab_instance = 16;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstanceOrBuilder getConfigPrefabInstanceOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstanceOrBuilder getConfigPrefabInstanceOrBuilder() {
         if ((paramCase_ == 16) && (configPrefabInstanceBuilder_ != null)) {
           return configPrefabInstanceBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 16) {
-            return (emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance) param_;
+            return (emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance) param_;
           }
-          return emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigPrefabInstance config_prefab_instance = 16;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance, emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance.Builder, emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstanceOrBuilder> 
+          emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance, emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance.Builder, emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstanceOrBuilder> 
           getConfigPrefabInstanceFieldBuilder() {
         if (configPrefabInstanceBuilder_ == null) {
           if (!(paramCase_ == 16)) {
-            param_ = emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance.getDefaultInstance();
           }
           configPrefabInstanceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance, emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance.Builder, emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstanceOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigPrefabInstance._ConfigPrefabInstance) param_,
+              emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance, emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance.Builder, emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstanceOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass._ConfigPrefabInstance) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -3173,7 +3173,7 @@ public final class GFANCHKLGELOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UiNode._UiNode, emu.grasscutter.net.proto.UiNode._UiNode.Builder, emu.grasscutter.net.proto.UiNode._UiNodeOrBuilder> uiNodeBuilder_;
+          emu.grasscutter.net.proto._UiNodeOuterClass._UiNode, emu.grasscutter.net.proto._UiNodeOuterClass._UiNode.Builder, emu.grasscutter.net.proto._UiNodeOuterClass._UiNodeOrBuilder> uiNodeBuilder_;
       /**
        * <code>._UiNode ui_node = 17;</code>
        * @return Whether the uiNode field is set.
@@ -3187,23 +3187,23 @@ public final class GFANCHKLGELOuterClass {
        * @return The uiNode.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.UiNode._UiNode getUiNode() {
+      public emu.grasscutter.net.proto._UiNodeOuterClass._UiNode getUiNode() {
         if (uiNodeBuilder_ == null) {
           if (paramCase_ == 17) {
-            return (emu.grasscutter.net.proto.UiNode._UiNode) param_;
+            return (emu.grasscutter.net.proto._UiNodeOuterClass._UiNode) param_;
           }
-          return emu.grasscutter.net.proto.UiNode._UiNode.getDefaultInstance();
+          return emu.grasscutter.net.proto._UiNodeOuterClass._UiNode.getDefaultInstance();
         } else {
           if (paramCase_ == 17) {
             return uiNodeBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.UiNode._UiNode.getDefaultInstance();
+          return emu.grasscutter.net.proto._UiNodeOuterClass._UiNode.getDefaultInstance();
         }
       }
       /**
        * <code>._UiNode ui_node = 17;</code>
        */
-      public Builder setUiNode(emu.grasscutter.net.proto.UiNode._UiNode value) {
+      public Builder setUiNode(emu.grasscutter.net.proto._UiNodeOuterClass._UiNode value) {
         if (uiNodeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3220,7 +3220,7 @@ public final class GFANCHKLGELOuterClass {
        * <code>._UiNode ui_node = 17;</code>
        */
       public Builder setUiNode(
-          emu.grasscutter.net.proto.UiNode._UiNode.Builder builderForValue) {
+          emu.grasscutter.net.proto._UiNodeOuterClass._UiNode.Builder builderForValue) {
         if (uiNodeBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -3233,11 +3233,11 @@ public final class GFANCHKLGELOuterClass {
       /**
        * <code>._UiNode ui_node = 17;</code>
        */
-      public Builder mergeUiNode(emu.grasscutter.net.proto.UiNode._UiNode value) {
+      public Builder mergeUiNode(emu.grasscutter.net.proto._UiNodeOuterClass._UiNode value) {
         if (uiNodeBuilder_ == null) {
           if (paramCase_ == 17 &&
-              param_ != emu.grasscutter.net.proto.UiNode._UiNode.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.UiNode._UiNode.newBuilder((emu.grasscutter.net.proto.UiNode._UiNode) param_)
+              param_ != emu.grasscutter.net.proto._UiNodeOuterClass._UiNode.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._UiNodeOuterClass._UiNode.newBuilder((emu.grasscutter.net.proto._UiNodeOuterClass._UiNode) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -3274,36 +3274,36 @@ public final class GFANCHKLGELOuterClass {
       /**
        * <code>._UiNode ui_node = 17;</code>
        */
-      public emu.grasscutter.net.proto.UiNode._UiNode.Builder getUiNodeBuilder() {
+      public emu.grasscutter.net.proto._UiNodeOuterClass._UiNode.Builder getUiNodeBuilder() {
         return getUiNodeFieldBuilder().getBuilder();
       }
       /**
        * <code>._UiNode ui_node = 17;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.UiNode._UiNodeOrBuilder getUiNodeOrBuilder() {
+      public emu.grasscutter.net.proto._UiNodeOuterClass._UiNodeOrBuilder getUiNodeOrBuilder() {
         if ((paramCase_ == 17) && (uiNodeBuilder_ != null)) {
           return uiNodeBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 17) {
-            return (emu.grasscutter.net.proto.UiNode._UiNode) param_;
+            return (emu.grasscutter.net.proto._UiNodeOuterClass._UiNode) param_;
           }
-          return emu.grasscutter.net.proto.UiNode._UiNode.getDefaultInstance();
+          return emu.grasscutter.net.proto._UiNodeOuterClass._UiNode.getDefaultInstance();
         }
       }
       /**
        * <code>._UiNode ui_node = 17;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UiNode._UiNode, emu.grasscutter.net.proto.UiNode._UiNode.Builder, emu.grasscutter.net.proto.UiNode._UiNodeOrBuilder> 
+          emu.grasscutter.net.proto._UiNodeOuterClass._UiNode, emu.grasscutter.net.proto._UiNodeOuterClass._UiNode.Builder, emu.grasscutter.net.proto._UiNodeOuterClass._UiNodeOrBuilder> 
           getUiNodeFieldBuilder() {
         if (uiNodeBuilder_ == null) {
           if (!(paramCase_ == 17)) {
-            param_ = emu.grasscutter.net.proto.UiNode._UiNode.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._UiNodeOuterClass._UiNode.getDefaultInstance();
           }
           uiNodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.UiNode._UiNode, emu.grasscutter.net.proto.UiNode._UiNode.Builder, emu.grasscutter.net.proto.UiNode._UiNodeOrBuilder>(
-                  (emu.grasscutter.net.proto.UiNode._UiNode) param_,
+              emu.grasscutter.net.proto._UiNodeOuterClass._UiNode, emu.grasscutter.net.proto._UiNodeOuterClass._UiNode.Builder, emu.grasscutter.net.proto._UiNodeOuterClass._UiNodeOrBuilder>(
+                  (emu.grasscutter.net.proto._UiNodeOuterClass._UiNode) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -3455,7 +3455,7 @@ public final class GFANCHKLGELOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EditCamera._EditCamera, emu.grasscutter.net.proto.EditCamera._EditCamera.Builder, emu.grasscutter.net.proto.EditCamera._EditCameraOrBuilder> editCameraBuilder_;
+          emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera, emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera.Builder, emu.grasscutter.net.proto._EditCameraOuterClass._EditCameraOrBuilder> editCameraBuilder_;
       /**
        * <code>._EditCamera edit_camera = 19;</code>
        * @return Whether the editCamera field is set.
@@ -3469,23 +3469,23 @@ public final class GFANCHKLGELOuterClass {
        * @return The editCamera.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.EditCamera._EditCamera getEditCamera() {
+      public emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera getEditCamera() {
         if (editCameraBuilder_ == null) {
           if (paramCase_ == 19) {
-            return (emu.grasscutter.net.proto.EditCamera._EditCamera) param_;
+            return (emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera) param_;
           }
-          return emu.grasscutter.net.proto.EditCamera._EditCamera.getDefaultInstance();
+          return emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera.getDefaultInstance();
         } else {
           if (paramCase_ == 19) {
             return editCameraBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.EditCamera._EditCamera.getDefaultInstance();
+          return emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera.getDefaultInstance();
         }
       }
       /**
        * <code>._EditCamera edit_camera = 19;</code>
        */
-      public Builder setEditCamera(emu.grasscutter.net.proto.EditCamera._EditCamera value) {
+      public Builder setEditCamera(emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera value) {
         if (editCameraBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3502,7 +3502,7 @@ public final class GFANCHKLGELOuterClass {
        * <code>._EditCamera edit_camera = 19;</code>
        */
       public Builder setEditCamera(
-          emu.grasscutter.net.proto.EditCamera._EditCamera.Builder builderForValue) {
+          emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera.Builder builderForValue) {
         if (editCameraBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -3515,11 +3515,11 @@ public final class GFANCHKLGELOuterClass {
       /**
        * <code>._EditCamera edit_camera = 19;</code>
        */
-      public Builder mergeEditCamera(emu.grasscutter.net.proto.EditCamera._EditCamera value) {
+      public Builder mergeEditCamera(emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera value) {
         if (editCameraBuilder_ == null) {
           if (paramCase_ == 19 &&
-              param_ != emu.grasscutter.net.proto.EditCamera._EditCamera.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.EditCamera._EditCamera.newBuilder((emu.grasscutter.net.proto.EditCamera._EditCamera) param_)
+              param_ != emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera.newBuilder((emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -3556,36 +3556,36 @@ public final class GFANCHKLGELOuterClass {
       /**
        * <code>._EditCamera edit_camera = 19;</code>
        */
-      public emu.grasscutter.net.proto.EditCamera._EditCamera.Builder getEditCameraBuilder() {
+      public emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera.Builder getEditCameraBuilder() {
         return getEditCameraFieldBuilder().getBuilder();
       }
       /**
        * <code>._EditCamera edit_camera = 19;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.EditCamera._EditCameraOrBuilder getEditCameraOrBuilder() {
+      public emu.grasscutter.net.proto._EditCameraOuterClass._EditCameraOrBuilder getEditCameraOrBuilder() {
         if ((paramCase_ == 19) && (editCameraBuilder_ != null)) {
           return editCameraBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 19) {
-            return (emu.grasscutter.net.proto.EditCamera._EditCamera) param_;
+            return (emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera) param_;
           }
-          return emu.grasscutter.net.proto.EditCamera._EditCamera.getDefaultInstance();
+          return emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera.getDefaultInstance();
         }
       }
       /**
        * <code>._EditCamera edit_camera = 19;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EditCamera._EditCamera, emu.grasscutter.net.proto.EditCamera._EditCamera.Builder, emu.grasscutter.net.proto.EditCamera._EditCameraOrBuilder> 
+          emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera, emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera.Builder, emu.grasscutter.net.proto._EditCameraOuterClass._EditCameraOrBuilder> 
           getEditCameraFieldBuilder() {
         if (editCameraBuilder_ == null) {
           if (!(paramCase_ == 19)) {
-            param_ = emu.grasscutter.net.proto.EditCamera._EditCamera.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera.getDefaultInstance();
           }
           editCameraBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.EditCamera._EditCamera, emu.grasscutter.net.proto.EditCamera._EditCamera.Builder, emu.grasscutter.net.proto.EditCamera._EditCameraOrBuilder>(
-                  (emu.grasscutter.net.proto.EditCamera._EditCamera) param_,
+              emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera, emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera.Builder, emu.grasscutter.net.proto._EditCameraOuterClass._EditCameraOrBuilder>(
+                  (emu.grasscutter.net.proto._EditCameraOuterClass._EditCamera) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -3737,7 +3737,7 @@ public final class GFANCHKLGELOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.NodeConfig._NodeConfig, emu.grasscutter.net.proto.NodeConfig._NodeConfig.Builder, emu.grasscutter.net.proto.NodeConfig._NodeConfigOrBuilder> nodeConfigBuilder_;
+          emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig, emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig.Builder, emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfigOrBuilder> nodeConfigBuilder_;
       /**
        * <code>._NodeConfig node_config = 21;</code>
        * @return Whether the nodeConfig field is set.
@@ -3751,23 +3751,23 @@ public final class GFANCHKLGELOuterClass {
        * @return The nodeConfig.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.NodeConfig._NodeConfig getNodeConfig() {
+      public emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig getNodeConfig() {
         if (nodeConfigBuilder_ == null) {
           if (paramCase_ == 21) {
-            return (emu.grasscutter.net.proto.NodeConfig._NodeConfig) param_;
+            return (emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig) param_;
           }
-          return emu.grasscutter.net.proto.NodeConfig._NodeConfig.getDefaultInstance();
+          return emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig.getDefaultInstance();
         } else {
           if (paramCase_ == 21) {
             return nodeConfigBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.NodeConfig._NodeConfig.getDefaultInstance();
+          return emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig.getDefaultInstance();
         }
       }
       /**
        * <code>._NodeConfig node_config = 21;</code>
        */
-      public Builder setNodeConfig(emu.grasscutter.net.proto.NodeConfig._NodeConfig value) {
+      public Builder setNodeConfig(emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig value) {
         if (nodeConfigBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3784,7 +3784,7 @@ public final class GFANCHKLGELOuterClass {
        * <code>._NodeConfig node_config = 21;</code>
        */
       public Builder setNodeConfig(
-          emu.grasscutter.net.proto.NodeConfig._NodeConfig.Builder builderForValue) {
+          emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig.Builder builderForValue) {
         if (nodeConfigBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -3797,11 +3797,11 @@ public final class GFANCHKLGELOuterClass {
       /**
        * <code>._NodeConfig node_config = 21;</code>
        */
-      public Builder mergeNodeConfig(emu.grasscutter.net.proto.NodeConfig._NodeConfig value) {
+      public Builder mergeNodeConfig(emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig value) {
         if (nodeConfigBuilder_ == null) {
           if (paramCase_ == 21 &&
-              param_ != emu.grasscutter.net.proto.NodeConfig._NodeConfig.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.NodeConfig._NodeConfig.newBuilder((emu.grasscutter.net.proto.NodeConfig._NodeConfig) param_)
+              param_ != emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig.newBuilder((emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -3838,36 +3838,36 @@ public final class GFANCHKLGELOuterClass {
       /**
        * <code>._NodeConfig node_config = 21;</code>
        */
-      public emu.grasscutter.net.proto.NodeConfig._NodeConfig.Builder getNodeConfigBuilder() {
+      public emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig.Builder getNodeConfigBuilder() {
         return getNodeConfigFieldBuilder().getBuilder();
       }
       /**
        * <code>._NodeConfig node_config = 21;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.NodeConfig._NodeConfigOrBuilder getNodeConfigOrBuilder() {
+      public emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfigOrBuilder getNodeConfigOrBuilder() {
         if ((paramCase_ == 21) && (nodeConfigBuilder_ != null)) {
           return nodeConfigBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 21) {
-            return (emu.grasscutter.net.proto.NodeConfig._NodeConfig) param_;
+            return (emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig) param_;
           }
-          return emu.grasscutter.net.proto.NodeConfig._NodeConfig.getDefaultInstance();
+          return emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig.getDefaultInstance();
         }
       }
       /**
        * <code>._NodeConfig node_config = 21;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.NodeConfig._NodeConfig, emu.grasscutter.net.proto.NodeConfig._NodeConfig.Builder, emu.grasscutter.net.proto.NodeConfig._NodeConfigOrBuilder> 
+          emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig, emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig.Builder, emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfigOrBuilder> 
           getNodeConfigFieldBuilder() {
         if (nodeConfigBuilder_ == null) {
           if (!(paramCase_ == 21)) {
-            param_ = emu.grasscutter.net.proto.NodeConfig._NodeConfig.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig.getDefaultInstance();
           }
           nodeConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.NodeConfig._NodeConfig, emu.grasscutter.net.proto.NodeConfig._NodeConfig.Builder, emu.grasscutter.net.proto.NodeConfig._NodeConfigOrBuilder>(
-                  (emu.grasscutter.net.proto.NodeConfig._NodeConfig) param_,
+              emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig, emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig.Builder, emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfigOrBuilder>(
+                  (emu.grasscutter.net.proto._NodeConfigOuterClass._NodeConfig) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -3878,7 +3878,7 @@ public final class GFANCHKLGELOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder, emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder.Builder, emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolderOrBuilder> assistantEditorFolderBuilder_;
+          emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder, emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder.Builder, emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolderOrBuilder> assistantEditorFolderBuilder_;
       /**
        * <code>._AssistantEditorFolder assistant_editor_folder = 22;</code>
        * @return Whether the assistantEditorFolder field is set.
@@ -3892,23 +3892,23 @@ public final class GFANCHKLGELOuterClass {
        * @return The assistantEditorFolder.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder getAssistantEditorFolder() {
+      public emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder getAssistantEditorFolder() {
         if (assistantEditorFolderBuilder_ == null) {
           if (paramCase_ == 22) {
-            return (emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder) param_;
+            return (emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder) param_;
           }
-          return emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder.getDefaultInstance();
+          return emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder.getDefaultInstance();
         } else {
           if (paramCase_ == 22) {
             return assistantEditorFolderBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder.getDefaultInstance();
+          return emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder.getDefaultInstance();
         }
       }
       /**
        * <code>._AssistantEditorFolder assistant_editor_folder = 22;</code>
        */
-      public Builder setAssistantEditorFolder(emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder value) {
+      public Builder setAssistantEditorFolder(emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder value) {
         if (assistantEditorFolderBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3925,7 +3925,7 @@ public final class GFANCHKLGELOuterClass {
        * <code>._AssistantEditorFolder assistant_editor_folder = 22;</code>
        */
       public Builder setAssistantEditorFolder(
-          emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder.Builder builderForValue) {
+          emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder.Builder builderForValue) {
         if (assistantEditorFolderBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -3938,11 +3938,11 @@ public final class GFANCHKLGELOuterClass {
       /**
        * <code>._AssistantEditorFolder assistant_editor_folder = 22;</code>
        */
-      public Builder mergeAssistantEditorFolder(emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder value) {
+      public Builder mergeAssistantEditorFolder(emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder value) {
         if (assistantEditorFolderBuilder_ == null) {
           if (paramCase_ == 22 &&
-              param_ != emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder.newBuilder((emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder) param_)
+              param_ != emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder.newBuilder((emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -3979,36 +3979,36 @@ public final class GFANCHKLGELOuterClass {
       /**
        * <code>._AssistantEditorFolder assistant_editor_folder = 22;</code>
        */
-      public emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder.Builder getAssistantEditorFolderBuilder() {
+      public emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder.Builder getAssistantEditorFolderBuilder() {
         return getAssistantEditorFolderFieldBuilder().getBuilder();
       }
       /**
        * <code>._AssistantEditorFolder assistant_editor_folder = 22;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolderOrBuilder getAssistantEditorFolderOrBuilder() {
+      public emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolderOrBuilder getAssistantEditorFolderOrBuilder() {
         if ((paramCase_ == 22) && (assistantEditorFolderBuilder_ != null)) {
           return assistantEditorFolderBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 22) {
-            return (emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder) param_;
+            return (emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder) param_;
           }
-          return emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder.getDefaultInstance();
+          return emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder.getDefaultInstance();
         }
       }
       /**
        * <code>._AssistantEditorFolder assistant_editor_folder = 22;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder, emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder.Builder, emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolderOrBuilder> 
+          emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder, emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder.Builder, emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolderOrBuilder> 
           getAssistantEditorFolderFieldBuilder() {
         if (assistantEditorFolderBuilder_ == null) {
           if (!(paramCase_ == 22)) {
-            param_ = emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder.getDefaultInstance();
           }
           assistantEditorFolderBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder, emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder.Builder, emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolderOrBuilder>(
-                  (emu.grasscutter.net.proto.AssistantEditorFolder._AssistantEditorFolder) param_,
+              emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder, emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder.Builder, emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolderOrBuilder>(
+                  (emu.grasscutter.net.proto._AssistantEditorFolderOuterClass._AssistantEditorFolder) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -4019,7 +4019,7 @@ public final class GFANCHKLGELOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LevelConfig._LevelConfig, emu.grasscutter.net.proto.LevelConfig._LevelConfig.Builder, emu.grasscutter.net.proto.LevelConfig._LevelConfigOrBuilder> levelConfigBuilder_;
+          emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig, emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig.Builder, emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfigOrBuilder> levelConfigBuilder_;
       /**
        * <code>._LevelConfig level_config = 23;</code>
        * @return Whether the levelConfig field is set.
@@ -4033,23 +4033,23 @@ public final class GFANCHKLGELOuterClass {
        * @return The levelConfig.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.LevelConfig._LevelConfig getLevelConfig() {
+      public emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig getLevelConfig() {
         if (levelConfigBuilder_ == null) {
           if (paramCase_ == 23) {
-            return (emu.grasscutter.net.proto.LevelConfig._LevelConfig) param_;
+            return (emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig) param_;
           }
-          return emu.grasscutter.net.proto.LevelConfig._LevelConfig.getDefaultInstance();
+          return emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig.getDefaultInstance();
         } else {
           if (paramCase_ == 23) {
             return levelConfigBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.LevelConfig._LevelConfig.getDefaultInstance();
+          return emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig.getDefaultInstance();
         }
       }
       /**
        * <code>._LevelConfig level_config = 23;</code>
        */
-      public Builder setLevelConfig(emu.grasscutter.net.proto.LevelConfig._LevelConfig value) {
+      public Builder setLevelConfig(emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig value) {
         if (levelConfigBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4066,7 +4066,7 @@ public final class GFANCHKLGELOuterClass {
        * <code>._LevelConfig level_config = 23;</code>
        */
       public Builder setLevelConfig(
-          emu.grasscutter.net.proto.LevelConfig._LevelConfig.Builder builderForValue) {
+          emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig.Builder builderForValue) {
         if (levelConfigBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -4079,11 +4079,11 @@ public final class GFANCHKLGELOuterClass {
       /**
        * <code>._LevelConfig level_config = 23;</code>
        */
-      public Builder mergeLevelConfig(emu.grasscutter.net.proto.LevelConfig._LevelConfig value) {
+      public Builder mergeLevelConfig(emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig value) {
         if (levelConfigBuilder_ == null) {
           if (paramCase_ == 23 &&
-              param_ != emu.grasscutter.net.proto.LevelConfig._LevelConfig.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.LevelConfig._LevelConfig.newBuilder((emu.grasscutter.net.proto.LevelConfig._LevelConfig) param_)
+              param_ != emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig.newBuilder((emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -4120,36 +4120,36 @@ public final class GFANCHKLGELOuterClass {
       /**
        * <code>._LevelConfig level_config = 23;</code>
        */
-      public emu.grasscutter.net.proto.LevelConfig._LevelConfig.Builder getLevelConfigBuilder() {
+      public emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig.Builder getLevelConfigBuilder() {
         return getLevelConfigFieldBuilder().getBuilder();
       }
       /**
        * <code>._LevelConfig level_config = 23;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.LevelConfig._LevelConfigOrBuilder getLevelConfigOrBuilder() {
+      public emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfigOrBuilder getLevelConfigOrBuilder() {
         if ((paramCase_ == 23) && (levelConfigBuilder_ != null)) {
           return levelConfigBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 23) {
-            return (emu.grasscutter.net.proto.LevelConfig._LevelConfig) param_;
+            return (emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig) param_;
           }
-          return emu.grasscutter.net.proto.LevelConfig._LevelConfig.getDefaultInstance();
+          return emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig.getDefaultInstance();
         }
       }
       /**
        * <code>._LevelConfig level_config = 23;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LevelConfig._LevelConfig, emu.grasscutter.net.proto.LevelConfig._LevelConfig.Builder, emu.grasscutter.net.proto.LevelConfig._LevelConfigOrBuilder> 
+          emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig, emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig.Builder, emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfigOrBuilder> 
           getLevelConfigFieldBuilder() {
         if (levelConfigBuilder_ == null) {
           if (!(paramCase_ == 23)) {
-            param_ = emu.grasscutter.net.proto.LevelConfig._LevelConfig.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig.getDefaultInstance();
           }
           levelConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.LevelConfig._LevelConfig, emu.grasscutter.net.proto.LevelConfig._LevelConfig.Builder, emu.grasscutter.net.proto.LevelConfig._LevelConfigOrBuilder>(
-                  (emu.grasscutter.net.proto.LevelConfig._LevelConfig) param_,
+              emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig, emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig.Builder, emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfigOrBuilder>(
+                  (emu.grasscutter.net.proto._LevelConfigOuterClass._LevelConfig) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -4160,7 +4160,7 @@ public final class GFANCHKLGELOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SignalEditData._SignalEditData, emu.grasscutter.net.proto.SignalEditData._SignalEditData.Builder, emu.grasscutter.net.proto.SignalEditData._SignalEditDataOrBuilder> signalEditDataBuilder_;
+          emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData, emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData.Builder, emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditDataOrBuilder> signalEditDataBuilder_;
       /**
        * <code>._SignalEditData signal_edit_data = 24;</code>
        * @return Whether the signalEditData field is set.
@@ -4174,23 +4174,23 @@ public final class GFANCHKLGELOuterClass {
        * @return The signalEditData.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SignalEditData._SignalEditData getSignalEditData() {
+      public emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData getSignalEditData() {
         if (signalEditDataBuilder_ == null) {
           if (paramCase_ == 24) {
-            return (emu.grasscutter.net.proto.SignalEditData._SignalEditData) param_;
+            return (emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData) param_;
           }
-          return emu.grasscutter.net.proto.SignalEditData._SignalEditData.getDefaultInstance();
+          return emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData.getDefaultInstance();
         } else {
           if (paramCase_ == 24) {
             return signalEditDataBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.SignalEditData._SignalEditData.getDefaultInstance();
+          return emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData.getDefaultInstance();
         }
       }
       /**
        * <code>._SignalEditData signal_edit_data = 24;</code>
        */
-      public Builder setSignalEditData(emu.grasscutter.net.proto.SignalEditData._SignalEditData value) {
+      public Builder setSignalEditData(emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData value) {
         if (signalEditDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4207,7 +4207,7 @@ public final class GFANCHKLGELOuterClass {
        * <code>._SignalEditData signal_edit_data = 24;</code>
        */
       public Builder setSignalEditData(
-          emu.grasscutter.net.proto.SignalEditData._SignalEditData.Builder builderForValue) {
+          emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData.Builder builderForValue) {
         if (signalEditDataBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -4220,11 +4220,11 @@ public final class GFANCHKLGELOuterClass {
       /**
        * <code>._SignalEditData signal_edit_data = 24;</code>
        */
-      public Builder mergeSignalEditData(emu.grasscutter.net.proto.SignalEditData._SignalEditData value) {
+      public Builder mergeSignalEditData(emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData value) {
         if (signalEditDataBuilder_ == null) {
           if (paramCase_ == 24 &&
-              param_ != emu.grasscutter.net.proto.SignalEditData._SignalEditData.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.SignalEditData._SignalEditData.newBuilder((emu.grasscutter.net.proto.SignalEditData._SignalEditData) param_)
+              param_ != emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData.newBuilder((emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -4261,36 +4261,36 @@ public final class GFANCHKLGELOuterClass {
       /**
        * <code>._SignalEditData signal_edit_data = 24;</code>
        */
-      public emu.grasscutter.net.proto.SignalEditData._SignalEditData.Builder getSignalEditDataBuilder() {
+      public emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData.Builder getSignalEditDataBuilder() {
         return getSignalEditDataFieldBuilder().getBuilder();
       }
       /**
        * <code>._SignalEditData signal_edit_data = 24;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SignalEditData._SignalEditDataOrBuilder getSignalEditDataOrBuilder() {
+      public emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditDataOrBuilder getSignalEditDataOrBuilder() {
         if ((paramCase_ == 24) && (signalEditDataBuilder_ != null)) {
           return signalEditDataBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 24) {
-            return (emu.grasscutter.net.proto.SignalEditData._SignalEditData) param_;
+            return (emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData) param_;
           }
-          return emu.grasscutter.net.proto.SignalEditData._SignalEditData.getDefaultInstance();
+          return emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData.getDefaultInstance();
         }
       }
       /**
        * <code>._SignalEditData signal_edit_data = 24;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SignalEditData._SignalEditData, emu.grasscutter.net.proto.SignalEditData._SignalEditData.Builder, emu.grasscutter.net.proto.SignalEditData._SignalEditDataOrBuilder> 
+          emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData, emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData.Builder, emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditDataOrBuilder> 
           getSignalEditDataFieldBuilder() {
         if (signalEditDataBuilder_ == null) {
           if (!(paramCase_ == 24)) {
-            param_ = emu.grasscutter.net.proto.SignalEditData._SignalEditData.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData.getDefaultInstance();
           }
           signalEditDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.SignalEditData._SignalEditData, emu.grasscutter.net.proto.SignalEditData._SignalEditData.Builder, emu.grasscutter.net.proto.SignalEditData._SignalEditDataOrBuilder>(
-                  (emu.grasscutter.net.proto.SignalEditData._SignalEditData) param_,
+              emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData, emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData.Builder, emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditDataOrBuilder>(
+                  (emu.grasscutter.net.proto._SignalEditDataOuterClass._SignalEditData) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -4301,7 +4301,7 @@ public final class GFANCHKLGELOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StructObject._StructObject, emu.grasscutter.net.proto.StructObject._StructObject.Builder, emu.grasscutter.net.proto.StructObject._StructObjectOrBuilder> structObjectBuilder_;
+          emu.grasscutter.net.proto._StructObjectOuterClass._StructObject, emu.grasscutter.net.proto._StructObjectOuterClass._StructObject.Builder, emu.grasscutter.net.proto._StructObjectOuterClass._StructObjectOrBuilder> structObjectBuilder_;
       /**
        * <code>._StructObject struct_object = 25;</code>
        * @return Whether the structObject field is set.
@@ -4315,23 +4315,23 @@ public final class GFANCHKLGELOuterClass {
        * @return The structObject.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StructObject._StructObject getStructObject() {
+      public emu.grasscutter.net.proto._StructObjectOuterClass._StructObject getStructObject() {
         if (structObjectBuilder_ == null) {
           if (paramCase_ == 25) {
-            return (emu.grasscutter.net.proto.StructObject._StructObject) param_;
+            return (emu.grasscutter.net.proto._StructObjectOuterClass._StructObject) param_;
           }
-          return emu.grasscutter.net.proto.StructObject._StructObject.getDefaultInstance();
+          return emu.grasscutter.net.proto._StructObjectOuterClass._StructObject.getDefaultInstance();
         } else {
           if (paramCase_ == 25) {
             return structObjectBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.StructObject._StructObject.getDefaultInstance();
+          return emu.grasscutter.net.proto._StructObjectOuterClass._StructObject.getDefaultInstance();
         }
       }
       /**
        * <code>._StructObject struct_object = 25;</code>
        */
-      public Builder setStructObject(emu.grasscutter.net.proto.StructObject._StructObject value) {
+      public Builder setStructObject(emu.grasscutter.net.proto._StructObjectOuterClass._StructObject value) {
         if (structObjectBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4348,7 +4348,7 @@ public final class GFANCHKLGELOuterClass {
        * <code>._StructObject struct_object = 25;</code>
        */
       public Builder setStructObject(
-          emu.grasscutter.net.proto.StructObject._StructObject.Builder builderForValue) {
+          emu.grasscutter.net.proto._StructObjectOuterClass._StructObject.Builder builderForValue) {
         if (structObjectBuilder_ == null) {
           param_ = builderForValue.build();
           onChanged();
@@ -4361,11 +4361,11 @@ public final class GFANCHKLGELOuterClass {
       /**
        * <code>._StructObject struct_object = 25;</code>
        */
-      public Builder mergeStructObject(emu.grasscutter.net.proto.StructObject._StructObject value) {
+      public Builder mergeStructObject(emu.grasscutter.net.proto._StructObjectOuterClass._StructObject value) {
         if (structObjectBuilder_ == null) {
           if (paramCase_ == 25 &&
-              param_ != emu.grasscutter.net.proto.StructObject._StructObject.getDefaultInstance()) {
-            param_ = emu.grasscutter.net.proto.StructObject._StructObject.newBuilder((emu.grasscutter.net.proto.StructObject._StructObject) param_)
+              param_ != emu.grasscutter.net.proto._StructObjectOuterClass._StructObject.getDefaultInstance()) {
+            param_ = emu.grasscutter.net.proto._StructObjectOuterClass._StructObject.newBuilder((emu.grasscutter.net.proto._StructObjectOuterClass._StructObject) param_)
                 .mergeFrom(value).buildPartial();
           } else {
             param_ = value;
@@ -4402,36 +4402,36 @@ public final class GFANCHKLGELOuterClass {
       /**
        * <code>._StructObject struct_object = 25;</code>
        */
-      public emu.grasscutter.net.proto.StructObject._StructObject.Builder getStructObjectBuilder() {
+      public emu.grasscutter.net.proto._StructObjectOuterClass._StructObject.Builder getStructObjectBuilder() {
         return getStructObjectFieldBuilder().getBuilder();
       }
       /**
        * <code>._StructObject struct_object = 25;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StructObject._StructObjectOrBuilder getStructObjectOrBuilder() {
+      public emu.grasscutter.net.proto._StructObjectOuterClass._StructObjectOrBuilder getStructObjectOrBuilder() {
         if ((paramCase_ == 25) && (structObjectBuilder_ != null)) {
           return structObjectBuilder_.getMessageOrBuilder();
         } else {
           if (paramCase_ == 25) {
-            return (emu.grasscutter.net.proto.StructObject._StructObject) param_;
+            return (emu.grasscutter.net.proto._StructObjectOuterClass._StructObject) param_;
           }
-          return emu.grasscutter.net.proto.StructObject._StructObject.getDefaultInstance();
+          return emu.grasscutter.net.proto._StructObjectOuterClass._StructObject.getDefaultInstance();
         }
       }
       /**
        * <code>._StructObject struct_object = 25;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StructObject._StructObject, emu.grasscutter.net.proto.StructObject._StructObject.Builder, emu.grasscutter.net.proto.StructObject._StructObjectOrBuilder> 
+          emu.grasscutter.net.proto._StructObjectOuterClass._StructObject, emu.grasscutter.net.proto._StructObjectOuterClass._StructObject.Builder, emu.grasscutter.net.proto._StructObjectOuterClass._StructObjectOrBuilder> 
           getStructObjectFieldBuilder() {
         if (structObjectBuilder_ == null) {
           if (!(paramCase_ == 25)) {
-            param_ = emu.grasscutter.net.proto.StructObject._StructObject.getDefaultInstance();
+            param_ = emu.grasscutter.net.proto._StructObjectOuterClass._StructObject.getDefaultInstance();
           }
           structObjectBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.StructObject._StructObject, emu.grasscutter.net.proto.StructObject._StructObject.Builder, emu.grasscutter.net.proto.StructObject._StructObjectOrBuilder>(
-                  (emu.grasscutter.net.proto.StructObject._StructObject) param_,
+              emu.grasscutter.net.proto._StructObjectOuterClass._StructObject, emu.grasscutter.net.proto._StructObjectOuterClass._StructObject.Builder, emu.grasscutter.net.proto._StructObjectOuterClass._StructObjectOrBuilder>(
+                  (emu.grasscutter.net.proto._StructObjectOuterClass._StructObject) param_,
                   getParentForChildren(),
                   isClean());
           param_ = null;
@@ -5101,8 +5101,8 @@ public final class GFANCHKLGELOuterClass {
       "\001(\0132\014.JGANLHBOBBNH\000\022\033\n\003tag\030\033 \001(\0132\014.LPAHI" +
       "OFPILDH\000\022$\n\014pcg_instance\030\034 \001(\0132\014.ONHFKNN" +
       "HBFPH\000\022\"\n\ncustom_map\030\035 \001(\0132\014.BFDBABEOEEK" +
-      "H\000B\007\n\005paramB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "H\000B\007\n\005paramB2\n\031emu.grasscutter.net.proto" +
+      "B\025GFANCHKLGELOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -5119,14 +5119,14 @@ public final class GFANCHKLGELOuterClass {
           emu.grasscutter.net.proto.JGANLHBOBBNOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.LPAHIOFPILDOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ONHFKNNHBFPOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.AssistantEditorFolder.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigPrefabInstance.getDescriptor(),
-          emu.grasscutter.net.proto.EditCamera.getDescriptor(),
-          emu.grasscutter.net.proto.LevelConfig.getDescriptor(),
-          emu.grasscutter.net.proto.NodeConfig.getDescriptor(),
-          emu.grasscutter.net.proto.SignalEditData.getDescriptor(),
-          emu.grasscutter.net.proto.StructObject.getDescriptor(),
-          emu.grasscutter.net.proto.UiNode.getDescriptor(),
+          emu.grasscutter.net.proto._AssistantEditorFolderOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._EditCameraOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._LevelConfigOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._NodeConfigOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._SignalEditDataOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._StructObjectOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._UiNodeOuterClass.getDescriptor(),
         });
     internal_static_GFANCHKLGEL_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -5146,14 +5146,14 @@ public final class GFANCHKLGELOuterClass {
     emu.grasscutter.net.proto.JGANLHBOBBNOuterClass.getDescriptor();
     emu.grasscutter.net.proto.LPAHIOFPILDOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ONHFKNNHBFPOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.AssistantEditorFolder.getDescriptor();
-    emu.grasscutter.net.proto.ConfigPrefabInstance.getDescriptor();
-    emu.grasscutter.net.proto.EditCamera.getDescriptor();
-    emu.grasscutter.net.proto.LevelConfig.getDescriptor();
-    emu.grasscutter.net.proto.NodeConfig.getDescriptor();
-    emu.grasscutter.net.proto.SignalEditData.getDescriptor();
-    emu.grasscutter.net.proto.StructObject.getDescriptor();
-    emu.grasscutter.net.proto.UiNode.getDescriptor();
+    emu.grasscutter.net.proto._AssistantEditorFolderOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ConfigPrefabInstanceOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._EditCameraOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._LevelConfigOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._NodeConfigOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._SignalEditDataOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._StructObjectOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._UiNodeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

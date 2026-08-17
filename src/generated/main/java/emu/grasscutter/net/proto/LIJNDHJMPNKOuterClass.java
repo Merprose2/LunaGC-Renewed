@@ -1529,8 +1529,9 @@ public final class LIJNDHJMPNKOuterClass {
       "layer_uid_list\030\006 \003(\r\022\023\n\013CBCKPIJMMAI\030\007 \003(" +
       "\r\022\023\n\013KCBKEPGKJMF\030\013 \001(\010\022\023\n\013GBLBDHIELAC\030\014 " +
       "\001(\r\022\"\n\013GCMMBLAKDIJ\030\344\003 \001(\0132\014.DCODOOIKDBB\022" +
-      "\"\n\013LFEIINICAIB\030\305\016 \001(\0132\014.FLJPDJKFKBNB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\"\n\013LFEIINICAIB\030\305\016 \001(\0132\014.FLJPDJKFKBNB2\n\031e" +
+      "mu.grasscutter.net.protoB\025LIJNDHJMPNKOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -597,8 +597,9 @@ public final class AvatarPromoteGetRewardReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037AvatarPromoteGetRewardReq.proto\"G\n\031Ava" +
       "tarPromoteGetRewardReq\022\025\n\rpromote_level\030" +
-      "\005 \001(\r\022\023\n\013avatar_guid\030\016 \001(\004B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\005 \001(\r\022\023\n\013avatar_guid\030\016 \001(\004B@\n\031emu.grassc" +
+      "utter.net.protoB#AvatarPromoteGetRewardR" +
+      "eqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

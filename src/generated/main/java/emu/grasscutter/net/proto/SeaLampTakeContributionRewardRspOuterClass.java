@@ -596,8 +596,9 @@ public final class SeaLampTakeContributionRewardRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n&SeaLampTakeContributionRewardRsp.proto" +
       "\"F\n SeaLampTakeContributionRewardRsp\022\017\n\007" +
-      "retcode\030\010 \001(\005\022\021\n\tconfig_id\030\n \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "retcode\030\010 \001(\005\022\021\n\tconfig_id\030\n \001(\rBG\n\031emu." +
+      "grasscutter.net.protoB*SeaLampTakeContri" +
+      "butionRewardRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

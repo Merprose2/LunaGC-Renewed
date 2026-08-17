@@ -658,8 +658,8 @@ public final class EMAAAKJJCOCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EMAAAKJJCOC.proto\"J\n\013EMAAAKJJCOC\022\023\n\013IB" +
       "CNHIFMKAM\030\003 \001(\r\022\021\n\tentity_id\030\006 \001(\r\022\023\n\013_g" +
-      "rid_index\030\007 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "rid_index\030\007 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025EMAAAKJJCOCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

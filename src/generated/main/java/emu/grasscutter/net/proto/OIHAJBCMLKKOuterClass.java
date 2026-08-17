@@ -950,8 +950,9 @@ public final class OIHAJBCMLKKOuterClass {
       "\n\021OIHAJBCMLKK.proto\032\021CIOOJLMOODO.proto\"l" +
       "\n\013OIHAJBCMLKK\022\023\n\013AGIFNELOIKK\030\007 \001(\r\022\023\n\013DJ" +
       "HHEBMGMJE\030\n \001(\t\022\017\n\007retcode\030\014 \001(\005\022\"\n\014_bat" +
-      "tle_data\030\016 \001(\0132\014.CIOOJLMOODOB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "tle_data\030\016 \001(\0132\014.CIOOJLMOODOB2\n\031emu.gras" +
+      "scutter.net.protoB\025OIHAJBCMLKKOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

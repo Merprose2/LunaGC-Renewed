@@ -855,7 +855,8 @@ public final class OAJJJAGKGDGOuterClass {
       "\n\021OAJJJAGKGDG.proto\032\021HDBAEIPLPHI.proto\"S" +
       "\n\013OAJJJAGKGDG\022!\n\013HJDMPPLOMGJ\030\001 \001(\0132\014.HDB" +
       "AEIPLPHI\022!\n\013NJHNCGGBKAL\030\002 \001(\0132\014.HDBAEIPL" +
-      "PHIB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "PHIB2\n\031emu.grasscutter.net.protoB\025OAJJJA" +
+      "GKGDGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

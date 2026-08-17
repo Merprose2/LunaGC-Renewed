@@ -163,8 +163,8 @@ public final class JKAPPKLPNHAOuterClass {
       "LPNHA_LIGHT_COLOR_GREEN\020\001\022 \n\034JKAPPKLPNHA" +
       "_LIGHT_COLOR_BLUE\020\002\022\"\n\036JKAPPKLPNHA_LIGHT" +
       "_COLOR_ORANGE\020\003\022\037\n\033JKAPPKLPNHA_LIGHT_COL" +
-      "OR_RED\020\004B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "OR_RED\020\004B2\n\031emu.grasscutter.net.protoB\025J" +
+      "KAPPKLPNHAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

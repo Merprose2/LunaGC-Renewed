@@ -730,8 +730,9 @@ public final class MonsterPointArrayRouteUpdateNotifyOuterClass {
       "\n(MonsterPointArrayRouteUpdateNotify.pro" +
       "to\032\022MonsterRoute.proto\"]\n\"MonsterPointAr" +
       "rayRouteUpdateNotify\022$\n\rmonster_route\030\003 " +
-      "\001(\0132\r.MonsterRoute\022\021\n\tentity_id\030\004 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\001(\0132\r.MonsterRoute\022\021\n\tentity_id\030\004 \001(\rBI\n" +
+      "\031emu.grasscutter.net.protoB,MonsterPoint" +
+      "ArrayRouteUpdateNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

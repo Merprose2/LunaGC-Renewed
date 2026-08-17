@@ -935,8 +935,9 @@ public final class ChannellerSlabEnterLoopDungeonRspOuterClass {
       "o\"\217\001\n!ChannellerSlabEnterLoopDungeonRsp\022" +
       "\031\n\021condition_id_list\030\002 \003(\r\022\025\n\rdungeon_in" +
       "dex\030\004 \001(\r\022\020\n\010point_id\030\007 \001(\r\022\025\n\rdifficult" +
-      "y_id\030\t \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "y_id\030\t \001(\r\022\017\n\007retcode\030\017 \001(\005BH\n\031emu.grass" +
+      "cutter.net.protoB+ChannellerSlabEnterLoo" +
+      "pDungeonRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

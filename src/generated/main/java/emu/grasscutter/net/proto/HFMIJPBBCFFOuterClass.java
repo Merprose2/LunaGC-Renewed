@@ -253,7 +253,8 @@ public final class HFMIJPBBCFFOuterClass {
       "TEMPLATE_TYPE_MAKE_STRUCT\020\353\007\022+\n&HFMIJPBB" +
       "CFF_TEMPLATE_TYPE_BREAK_STRUCT\020\354\007\0220\n+HFM" +
       "IJPBBCFF_TEMPLATE_TYPE_SET_STRUCT_MEMBER" +
-      "\020\355\007B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\020\355\007B2\n\031emu.grasscutter.net.protoB\025HFMIJP" +
+      "BBCFFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

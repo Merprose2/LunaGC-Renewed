@@ -596,7 +596,8 @@ public final class MPFEKKEPDLJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MPFEKKEPDLJ.proto\">\n\013MPFEKKEPDLJ\022\017\n\007re" +
       "tcode\030\006 \001(\005\022\036\n\026chat_forbidden_endtime\030\t " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025MPFEKK" +
+      "EPDLJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

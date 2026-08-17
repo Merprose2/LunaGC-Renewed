@@ -1107,8 +1107,9 @@ public final class FleurFairBossSettleInfoOuterClass {
       "SettleInfo\022\030\n\020reward_token_num\030\002 \001(\r\022\022\n\n" +
       "is_success\030\010 \001(\010\0220\n\016stat_info_list\030\013 \003(\013" +
       "2\030.FleurFairPlayerStatInfo\022\016\n\006energy\030\014 \001" +
-      "(\r\022\021\n\tcost_time\030\r \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "(\r\022\021\n\tcost_time\030\r \001(\rB>\n\031emu.grasscutter" +
+      ".net.protoB!FleurFairBossSettleInfoOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

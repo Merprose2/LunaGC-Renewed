@@ -596,8 +596,9 @@ public final class BlossomChestCreateNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036BlossomChestCreateNotify.proto\"F\n\030Blos" +
       "somChestCreateNotify\022\022\n\nrefresh_id\030\007 \001(\r" +
-      "\022\026\n\016circle_camp_id\030\r \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\022\026\n\016circle_camp_id\030\r \001(\rB?\n\031emu.grasscut" +
+      "ter.net.protoB\"BlossomChestCreateNotifyO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

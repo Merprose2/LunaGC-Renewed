@@ -974,8 +974,9 @@ public final class GetInvestigationMonsterRspOuterClass {
       "stigationMonster.proto\"o\n\032GetInvestigati" +
       "onMonsterRsp\022\017\n\007retcode\030\001 \001(\005\022\023\n\013is_for_" +
       "mark\030\010 \001(\010\022+\n\014monster_list\030\016 \003(\0132\025.Inves" +
-      "tigationMonsterB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "tigationMonsterBA\n\031emu.grasscutter.net.p" +
+      "rotoB$GetInvestigationMonsterRspOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

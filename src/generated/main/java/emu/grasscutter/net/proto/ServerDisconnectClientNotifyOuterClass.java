@@ -526,7 +526,8 @@ public final class ServerDisconnectClientNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"ServerDisconnectClientNotify.proto\",\n\034" +
       "ServerDisconnectClientNotify\022\014\n\004data\030\014 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rBC\n\031emu.grasscutter.net.protoB&ServerD" +
+      "isconnectClientNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

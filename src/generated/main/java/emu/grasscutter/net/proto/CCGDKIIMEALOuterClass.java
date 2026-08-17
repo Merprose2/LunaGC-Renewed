@@ -730,7 +730,8 @@ public final class CCGDKIIMEALOuterClass {
       "\n\021CCGDKIIMEAL.proto\032\026GCGGameBriefData.pr" +
       "oto\"J\n\013CCGDKIIMEAL\022&\n\013NKHCALFADNB\030\002 \001(\0132" +
       "\021.GCGGameBriefData\022\023\n\013EPCMIGFDKFE\030\t \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025CCGDKIIMEA" +
+      "LOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

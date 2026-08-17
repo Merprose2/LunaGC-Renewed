@@ -659,8 +659,8 @@ public final class BNDDJINBCFCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BNDDJINBCFC.proto\"L\n\013BNDDJINBCFC\022\023\n\013FD" +
       "IFPEHDKFD\030\005 \001(\r\022\023\n\013KJBNKKOHELB\030\r \001(\r\022\023\n\013" +
-      "POEOIINLNEC\030\017 \001(\004B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "POEOIINLNEC\030\017 \001(\004B2\n\031emu.grasscutter.net" +
+      ".protoB\025BNDDJINBCFCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

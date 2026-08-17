@@ -978,8 +978,9 @@ public final class CIHENMDCMGJOuterClass {
       "anced_ability_id\030\005 \001(\r\022\023\n\013BNBBLJCDMPJ\030\006 " +
       "\001(\r\022!\n\013DDEOCNGLKPN\030\014 \001(\0162\014.NHLNPMELFHM\022\023" +
       "\n\013DLLKGHINFBJ\030\r \001(\r\022\023\n\013MBHKNKHKKCK\030\016 \001(\r" +
-      "\022\023\n\013EKDNPKHMJIE\030\017 \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\022\023\n\013EKDNPKHMJIE\030\017 \001(\rB2\n\031emu.grasscutter" +
+      ".net.protoB\025CIHENMDCMGJOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -786,8 +786,9 @@ public final class ILEENLEMPNHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ILEENLEMPNH.proto\"Z\n\013ILEENLEMPNH\022!\n\031ta" +
       "ken_explore_reward_list\030\001 \003(\r\022\027\n\017explore" +
-      "_percent\030\t \001(\r\022\017\n\007is_open\030\n \001(\010B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "_percent\030\t \001(\r\022\017\n\007is_open\030\n \001(\010B2\n\031emu.g" +
+      "rasscutter.net.protoB\025ILEENLEMPNHOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

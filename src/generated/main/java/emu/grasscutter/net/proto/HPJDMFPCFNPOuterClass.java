@@ -161,8 +161,9 @@ public final class HPJDMFPCFNPOuterClass {
       "\n\021HPJDMFPCFNP.proto*\200\001\n\013HPJDMFPCFNP\022\024\n\020H" +
       "PJDMFPCFNP_NONE\020\000\022\025\n\021HPJDMFPCFNP_MATCH\020\001" +
       "\022\024\n\020HPJDMFPCFNP_ROOM\020\002\022\026\n\022HPJDMFPCFNP_DI" +
-      "RECT\020\003\022\026\n\022HPJDMFPCFNP_SINGLE\020\004B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "RECT\020\003\022\026\n\022HPJDMFPCFNP_SINGLE\020\004B2\n\031emu.gr" +
+      "asscutter.net.protoB\025HPJDMFPCFNPOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

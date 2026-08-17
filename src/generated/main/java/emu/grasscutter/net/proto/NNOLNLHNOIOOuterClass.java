@@ -1084,7 +1084,8 @@ public final class NNOLNLHNOIOOuterClass {
       "KLBBJE\030\004 \001(\r\022\014\n\004rank\030\005 \001(\r\022\023\n\013is_unlocke" +
       "d\030\006 \001(\010\022\013\n\003exp\030\n \001(\r\022\023\n\013GOEKPDMOLKD\030\014 \001(" +
       "\010\022\023\n\013PBBFBMDGOOH\030\r \001(\r\022\023\n\013IKFHIPAAFEF\030\017 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025NNOLNL" +
+      "HNOIOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

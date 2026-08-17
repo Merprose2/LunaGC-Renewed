@@ -446,8 +446,9 @@ public final class MKCOECBPMFPOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021MKCOECBPMFP.proto\"\r\n\013MKCOECBPMFPB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021MKCOECBPMFP.proto\"\r\n\013MKCOECBPMFPB2\n\031em" +
+      "u.grasscutter.net.protoB\025MKCOECBPMFPOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

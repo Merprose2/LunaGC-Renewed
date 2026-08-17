@@ -660,8 +660,8 @@ public final class LGKFCJNENDHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LGKFCJNENDH.proto\"J\n\013LGKFCJNENDH\022\021\n\tis" +
       "_active\030\001 \001(\010\022\023\n\013BNACJHBAJAH\030\003 \001(\010\022\023\n\013MB" +
-      "HEIAJCKHG\030\004 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "HEIAJCKHG\030\004 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025LGKFCJNENDHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

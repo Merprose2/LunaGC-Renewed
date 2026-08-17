@@ -660,7 +660,8 @@ public final class ChannelerSlabOneoffDungeonOuterClass {
       "\n ChannelerSlabOneoffDungeon.proto\"T\n\032Ch" +
       "annelerSlabOneoffDungeon\022\022\n\ndungeon_id\030\t" +
       " \001(\r\022\021\n\treward_id\030\013 \001(\r\022\017\n\007is_done\030\017 \001(\010" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "BA\n\031emu.grasscutter.net.protoB$Channeler" +
+      "SlabOneoffDungeonOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

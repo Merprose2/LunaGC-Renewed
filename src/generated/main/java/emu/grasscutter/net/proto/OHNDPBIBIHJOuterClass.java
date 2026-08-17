@@ -1323,8 +1323,9 @@ public final class OHNDPBIBIHJOuterClass {
       "o\"\222\001\n\013OHNDPBIBIHJ\022\021\n\tonline_id\030\002 \001(\t\022\013\n\003" +
       "uid\030\006 \001(\r\022\021\n\tnick_name\030\007 \001(\t\022\016\n\006psn_id\030\010" +
       " \001(\t\022(\n\017profile_picture\030\014 \001(\0132\017.ProfileP" +
-      "icture\022\026\n\016_xbox_gamertag\030\017 \001(\tB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "icture\022\026\n\016_xbox_gamertag\030\017 \001(\tB2\n\031emu.gr" +
+      "asscutter.net.protoB\025OHNDPBIBIHJOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

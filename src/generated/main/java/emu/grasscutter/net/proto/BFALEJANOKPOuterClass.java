@@ -1061,8 +1061,8 @@ public final class BFALEJANOKPOuterClass {
       "BFALEJANOKP\022\032\n\004guid\030\001 \001(\0132\014.HJKKDOLHNGK\022" +
       "!\n\013HIKCLODFIKF\030\002 \001(\0162\014.BJIHDOEFJJI\022(\n\020in" +
       "fo_node_config\030d \001(\0132\014.COAGKKNLEAKH\000B\006\n\004" +
-      "infoB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "infoB2\n\031emu.grasscutter.net.protoB\025BFALE" +
+      "JANOKPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

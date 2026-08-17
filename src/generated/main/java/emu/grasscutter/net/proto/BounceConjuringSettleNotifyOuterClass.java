@@ -998,8 +998,9 @@ public final class BounceConjuringSettleNotifyOuterClass {
       "ify.SettleInfoMapEntry\022\025\n\ris_new_record\030" +
       "\017 \001(\010\032W\n\022SettleInfoMapEntry\022\013\n\003key\030\001 \001(\r" +
       "\0220\n\005value\030\002 \001(\0132!.BounceConjuringGallery" +
-      "SettleInfo:\0028\001B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "SettleInfo:\0028\001BB\n\031emu.grasscutter.net.pr" +
+      "otoB%BounceConjuringSettleNotifyOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

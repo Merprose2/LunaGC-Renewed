@@ -2441,8 +2441,9 @@ public final class GGAFFBNGCJIOuterClass {
       " \001(\014\022!\n\013MELHCGLIKKP\030\006 \001(\0132\014.LPPJHFNPDOP\022" +
       "!\n\013AMPCAHIIAIA\030\007 \001(\0132\014.LPPJHFNPDOP\022!\n\013DP" +
       "HCFAAECOB\030\010 \003(\0132\014.HGGGAKPANDA\022\023\n\013JCIFLGE" +
-      "KKMM\030\t \003(\005\022\023\n\013JGDHHCKIGJN\030\n \003(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "KKMM\030\t \003(\005\022\023\n\013JGDHHCKIGJN\030\n \003(\005B2\n\031emu.g" +
+      "rasscutter.net.protoB\025GGAFFBNGCJIOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

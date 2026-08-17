@@ -668,8 +668,8 @@ public final class OMKEFLIIDFFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OMKEFLIIDFF.proto\"G\n\013OMKEFLIIDFF\022\014\n\004gu" +
       "id\030\010 \001(\004\022\025\n\ris_allow_copy\030\n \001(\010\022\023\n\013BFIFP" +
-      "LMKLNA\030\013 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "LMKLNA\030\013 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025OMKEFLIIDFFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

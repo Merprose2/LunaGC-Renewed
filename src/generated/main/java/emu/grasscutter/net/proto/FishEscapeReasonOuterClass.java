@@ -144,8 +144,8 @@ public final class FishEscapeReasonOuterClass {
       "eason\022%\n!FishEscapeReason_FISN_ESCAPE_NO" +
       "NE\020\000\022(\n$FishEscapeReason_FISH_ESCAPE_SHO" +
       "CKED\020\001\022\'\n#FishEscapeReason_FISH_ESCAPE_U" +
-      "NHOOK\020\002B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "NHOOK\020\002B7\n\031emu.grasscutter.net.protoB\032Fi" +
+      "shEscapeReasonOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

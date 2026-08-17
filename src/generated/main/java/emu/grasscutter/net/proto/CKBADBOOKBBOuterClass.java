@@ -587,8 +587,9 @@ public final class CKBADBOOKBBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CKBADBOOKBB.proto\"9\n\013CKBADBOOKBB\022\024\n\013EP" +
-      "CGIADGHDK\030\365\003 \001(\005\022\024\n\013FAFDNMIEMEL\030\366\003 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "CGIADGHDK\030\365\003 \001(\005\022\024\n\013FAFDNMIEMEL\030\366\003 \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025CKBADBOOKBB" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

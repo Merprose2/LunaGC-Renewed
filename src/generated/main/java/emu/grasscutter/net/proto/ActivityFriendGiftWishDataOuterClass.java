@@ -1423,7 +1423,8 @@ public final class ActivityFriendGiftWishDataOuterClass {
       "\030\006 \001(\010\022(\n\017profile_picture\030\010 \001(\0132\017.Profil" +
       "ePicture\022\023\n\013remark_name\030\017 \001(\t\0321\n\017GiftNum" +
       "MapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "BA\n\031emu.grasscutter.net.protoB$ActivityF" +
+      "riendGiftWishDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

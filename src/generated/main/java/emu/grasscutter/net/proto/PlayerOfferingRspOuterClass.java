@@ -1106,8 +1106,9 @@ public final class PlayerOfferingRspOuterClass {
       "to\032\030PlayerOfferingData.proto\"o\n\021PlayerOf" +
       "feringRsp\022\035\n\titem_list\030\n \003(\0132\n.ItemParam" +
       "\022*\n\roffering_data\030\r \001(\0132\023.PlayerOffering" +
-      "Data\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "Data\022\017\n\007retcode\030\016 \001(\005B8\n\031emu.grasscutter" +
+      ".net.protoB\033PlayerOfferingRspOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

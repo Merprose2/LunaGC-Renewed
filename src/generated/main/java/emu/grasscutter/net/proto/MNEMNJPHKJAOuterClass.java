@@ -1172,8 +1172,8 @@ public final class MNEMNJPHKJAOuterClass {
       "\n\021MNEMNJPHKJA.proto\"v\n\013MNEMNJPHKJA\022\023\n\013NJ" +
       "ALPFLPJJD\030\001 \001(\r\022\023\n\013FJOEOAEBBDN\030\002 \001(\r\022\023\n\013" +
       "LIGGMKEOPEA\030\003 \003(\r\022\023\n\013FDAMBAAAKPJ\030\004 \003(\r\022\023" +
-      "\n\013PKFLPLNFJLI\030\010 \003(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013PKFLPLNFJLI\030\010 \003(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025MNEMNJPHKJAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

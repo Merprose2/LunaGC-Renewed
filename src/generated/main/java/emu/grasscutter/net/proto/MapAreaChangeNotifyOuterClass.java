@@ -831,8 +831,9 @@ public final class MapAreaChangeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031MapAreaChangeNotify.proto\032\021MapAreaInfo" +
       ".proto\"?\n\023MapAreaChangeNotify\022(\n\022map_are" +
-      "a_info_list\030\002 \003(\0132\014.MapAreaInfoB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "a_info_list\030\002 \003(\0132\014.MapAreaInfoB:\n\031emu.g" +
+      "rasscutter.net.protoB\035MapAreaChangeNotif" +
+      "yOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

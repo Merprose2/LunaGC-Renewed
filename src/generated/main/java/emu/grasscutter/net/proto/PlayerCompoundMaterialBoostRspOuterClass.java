@@ -1385,8 +1385,9 @@ public final class PlayerCompoundMaterialBoostRspOuterClass {
       "tatus\030\003 \001(\0162\034.CompoundBoostTakeStatusTyp" +
       "e\022\"\n\016take_item_list\030\010 \003(\0132\n.ItemParam\0222\n" +
       "\026compound_que_data_list\030\013 \003(\0132\022.Compound" +
-      "QueueData\022\017\n\007retcode\030\r \001(\005B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "QueueData\022\017\n\007retcode\030\r \001(\005BE\n\031emu.grassc" +
+      "utter.net.protoB(PlayerCompoundMaterialB" +
+      "oostRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

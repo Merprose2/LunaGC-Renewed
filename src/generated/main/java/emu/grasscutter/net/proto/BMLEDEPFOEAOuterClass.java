@@ -182,8 +182,8 @@ public final class BMLEDEPFOEAOuterClass {
       "\020\002\022 \n\034BMLEDEPFOEA_DOWNLOAD_TIMEOUT\020\003\022\037\n\033" +
       "BMLEDEPFOEA_DOWNLOAD_REFUSE\020\004\022 \n\034BMLEDEP" +
       "FOEA_INITIATOR_CANCEL\020\005\022 \n\034BMLEDEPFOEA_S" +
-      "EASON_NOT_MATCH\020\006B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "EASON_NOT_MATCH\020\006B2\n\031emu.grasscutter.net" +
+      ".protoB\025BMLEDEPFOEAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

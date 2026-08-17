@@ -858,8 +858,9 @@ public final class PAALPHDBEMJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PAALPHDBEMJ.proto\"7\n\013PAALPHDBEMJ\022\023\n\013FO" +
-      "GGDOBPMJO\030\001 \003(\t\022\023\n\013KPIBDAGIKEB\030\002 \003(\010B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "GGDOBPMJO\030\001 \003(\t\022\023\n\013KPIBDAGIKEB\030\002 \003(\010B2\n\031" +
+      "emu.grasscutter.net.protoB\025PAALPHDBEMJOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

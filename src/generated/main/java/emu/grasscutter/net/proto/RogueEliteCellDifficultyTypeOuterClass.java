@@ -135,8 +135,9 @@ public final class RogueEliteCellDifficultyTypeOuterClass {
       "\034RogueEliteCellDifficultyType\0223\n/RogueEl" +
       "iteCellDifficultyType_ROGUE_ELITE_NORMAL" +
       "\020\000\0221\n-RogueEliteCellDifficultyType_ROGUE" +
-      "_ELITE_HARD\020\001B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "_ELITE_HARD\020\001BC\n\031emu.grasscutter.net.pro" +
+      "toB&RogueEliteCellDifficultyTypeOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

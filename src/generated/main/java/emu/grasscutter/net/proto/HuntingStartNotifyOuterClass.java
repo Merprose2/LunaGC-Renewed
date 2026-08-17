@@ -1005,8 +1005,9 @@ public final class HuntingStartNotifyOuterClass {
       "proto\032\014Vector.proto\"}\n\022HuntingStartNotif" +
       "y\022\036\n\rclue_position\030\004 \001(\0132\007.Vector\022\021\n\tfai" +
       "l_time\030\r \001(\r\022\"\n\014hunting_pair\030\016 \001(\0132\014.Hun" +
-      "tingPair\022\020\n\010is_final\030\017 \001(\010B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "tingPair\022\020\n\010is_final\030\017 \001(\010B9\n\031emu.grassc" +
+      "utter.net.protoB\034HuntingStartNotifyOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

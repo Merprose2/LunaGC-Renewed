@@ -823,8 +823,9 @@ public final class HomeStakeRecordOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025HomeStakeRecord.proto\032\031HomeStakePlayRe" +
       "cord.proto\"<\n\017HomeStakeRecord\022)\n\013record_" +
-      "list\030\n \003(\0132\024.HomeStakePlayRecordB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "list\030\n \003(\0132\024.HomeStakePlayRecordB6\n\031emu." +
+      "grasscutter.net.protoB\031HomeStakeRecordOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

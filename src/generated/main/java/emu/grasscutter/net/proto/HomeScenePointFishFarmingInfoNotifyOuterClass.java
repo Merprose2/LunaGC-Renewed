@@ -833,8 +833,9 @@ public final class HomeScenePointFishFarmingInfoNotifyOuterClass {
       "oto\032#HomeScenePointFishFarmingInfo.proto" +
       "\"e\n#HomeScenePointFishFarmingInfoNotify\022" +
       ">\n\026fish_farming_info_list\030\013 \003(\0132\036.HomeSc" +
-      "enePointFishFarmingInfoB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "enePointFishFarmingInfoBJ\n\031emu.grasscutt" +
+      "er.net.protoB-HomeScenePointFishFarmingI" +
+      "nfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

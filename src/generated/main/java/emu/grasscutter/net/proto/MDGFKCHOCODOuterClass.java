@@ -587,8 +587,9 @@ public final class MDGFKCHOCODOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MDGFKCHOCOD.proto\"0\n\013MDGFKCHOCOD\022\023\n\013AG" +
-      "IFNELOIKK\030\n \001(\r\022\014\n\004rank\030\013 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "IFNELOIKK\030\n \001(\r\022\014\n\004rank\030\013 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025MDGFKCHOCODOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

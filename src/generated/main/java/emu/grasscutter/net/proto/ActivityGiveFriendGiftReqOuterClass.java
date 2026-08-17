@@ -924,8 +924,9 @@ public final class ActivityGiveFriendGiftReqOuterClass {
       "schedule_id\030\013 \001(\r\022@\n\014gift_num_map\030\017 \003(\0132" +
       "*.ActivityGiveFriendGiftReq.GiftNumMapEn" +
       "try\0321\n\017GiftNumMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005v" +
-      "alue\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "alue\030\002 \001(\r:\0028\001B@\n\031emu.grasscutter.net.pr" +
+      "otoB#ActivityGiveFriendGiftReqOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

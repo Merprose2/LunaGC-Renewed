@@ -854,8 +854,8 @@ public final class H5ActivityIdsNotifyOuterClass {
       "5ActivityIdsNotify.H5ActivityMapEntry\022 \n" +
       "\030client_red_dot_timestamp\030\003 \001(\r\0324\n\022H5Act" +
       "ivityMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(" +
-      "\r:\0028\001B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\r:\0028\001B:\n\031emu.grasscutter.net.protoB\035H5Ac" +
+      "tivityIdsNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

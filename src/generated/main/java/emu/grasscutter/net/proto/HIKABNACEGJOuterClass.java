@@ -766,8 +766,9 @@ public final class HIKABNACEGJOuterClass {
       "\n\021HIKABNACEGJ.proto\032\021DCHHEGPKMOK.proto\"o" +
       "\n\013HIKABNACEGJ\022\023\n\013NBBDKEDJGCA\030\001 \001(\r\022\023\n\013CI" +
       "PDBGAJNCI\030\002 \001(\r\022!\n\013HIPHEHLDBDN\030\003 \001(\0162\014.D" +
-      "CHHEGPKMOK\022\023\n\013AGIFNELOIKK\030\004 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "CHHEGPKMOK\022\023\n\013AGIFNELOIKK\030\004 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025HIKABNACEGJOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

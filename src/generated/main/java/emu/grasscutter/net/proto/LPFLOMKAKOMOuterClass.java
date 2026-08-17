@@ -1964,8 +1964,9 @@ public final class LPFLOMKAKOMOuterClass {
       "PAIHEHPN\030\001 \003(\0132\014.KFGLINJHAHB\022!\n\013KICNHIKH" +
       "EMG\030\002 \001(\0132\014.KFGLINJHAHB\022\023\n\013AFPDOJGMNPH\030\003" +
       " \003(\002\022!\n\013CEDLFFFNOID\030\004 \003(\0132\014.HDOHNLOOCLN\022" +
-      "!\n\013CMMBIBJCILL\030\005 \003(\0132\014.KFGLINJHAHBB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "!\n\013CMMBIBJCILL\030\005 \003(\0132\014.KFGLINJHAHBB2\n\031em" +
+      "u.grasscutter.net.protoB\025LPFLOMKAKOMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

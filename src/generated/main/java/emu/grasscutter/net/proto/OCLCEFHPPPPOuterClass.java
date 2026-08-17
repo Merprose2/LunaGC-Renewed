@@ -525,8 +525,8 @@ public final class OCLCEFHPPPPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OCLCEFHPPPP.proto\"!\n\013OCLCEFHPPPP\022\022\n\ndi" +
-      "fficulty\030\n \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "fficulty\030\n \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025OCLCEFHPPPPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

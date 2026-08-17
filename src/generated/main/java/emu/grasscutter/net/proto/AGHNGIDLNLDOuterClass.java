@@ -454,8 +454,9 @@ public final class AGHNGIDLNLDOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021AGHNGIDLNLD.proto\"\r\n\013AGHNGIDLNLDB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021AGHNGIDLNLD.proto\"\r\n\013AGHNGIDLNLDB2\n\031em" +
+      "u.grasscutter.net.protoB\025AGHNGIDLNLDOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

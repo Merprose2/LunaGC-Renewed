@@ -660,8 +660,8 @@ public final class FFAJNNDGHLNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FFAJNNDGHLN.proto\"A\n\013FFAJNNDGHLN\022\020\n\010ke" +
       "y_hash\030\006 \001(\r\022\021\n\tentity_id\030\013 \001(\r\022\r\n\005value" +
-      "\030\016 \001(\002B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\016 \001(\002B2\n\031emu.grasscutter.net.protoB\025FFA" +
+      "JNNDGHLNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

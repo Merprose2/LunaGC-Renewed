@@ -986,8 +986,9 @@ public final class AIGMODPCHFBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AIGMODPCHFB.proto\"]\n\013AIGMODPCHFB\022\020\n\010le" +
       "vel_id\030\006 \001(\r\022\022\n\ndifficulty\030\007 \001(\r\022\023\n\013DODG" +
-      "MEMDLFL\030\n \003(\r\022\023\n\013ABJGGDPFGAM\030\014 \003(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "MEMDLFL\030\n \003(\r\022\023\n\013ABJGGDPFGAM\030\014 \003(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025AIGMODPCHFBOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

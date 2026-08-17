@@ -832,8 +832,9 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       "\n\037WorldAllRoutineTypeNotify.proto\032\032World" +
       "RoutineTypeInfo.proto\"S\n\031WorldAllRoutine" +
       "TypeNotify\0226\n\027world_routine_type_list\030\t " +
-      "\003(\0132\025.WorldRoutineTypeInfoB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\003(\0132\025.WorldRoutineTypeInfoB@\n\031emu.grassc" +
+      "utter.net.protoB#WorldAllRoutineTypeNoti" +
+      "fyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

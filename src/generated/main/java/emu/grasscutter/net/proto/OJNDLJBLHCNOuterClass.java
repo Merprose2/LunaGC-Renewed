@@ -667,8 +667,8 @@ public final class OJNDLJBLHCNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OJNDLJBLHCN.proto\"E\n\013OJNDLJBLHCN\022\017\n\007re" +
       "tcode\030\001 \001(\005\022\020\n\010level_id\030\005 \001(\r\022\023\n\013FDHLPFA" +
-      "OGEG\030\006 \001(\010B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "OGEG\030\006 \001(\010B2\n\031emu.grasscutter.net.protoB" +
+      "\025OJNDLJBLHCNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

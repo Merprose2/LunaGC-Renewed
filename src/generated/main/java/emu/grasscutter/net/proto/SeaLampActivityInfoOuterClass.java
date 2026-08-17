@@ -1391,8 +1391,9 @@ public final class SeaLampActivityInfoOuterClass {
       "d\030\t \001(\010\022\034\n\024first_day_start_time\030\n \001(\r\022\023\n" +
       "\013MLCKEOGNHMF\030\013 \001(\r\022\021\n\tday_index\030\014 \001(\r\022\023\n" +
       "\013HIFKCCMCHLO\030\r \001(\010\022.\n\021section_info_list\030" +
-      "\017 \003(\0132\023.SeaLampSectionInfoB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\017 \003(\0132\023.SeaLampSectionInfoB:\n\031emu.grassc" +
+      "utter.net.protoB\035SeaLampActivityInfoOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

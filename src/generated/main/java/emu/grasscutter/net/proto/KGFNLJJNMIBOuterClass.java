@@ -838,7 +838,8 @@ public final class KGFNLJJNMIBOuterClass {
       "EGCMFBDOKOM.proto\"h\n\013KGFNLJJNMIB\022!\n\013NIPO" +
       "LGGEMME\030\003 \001(\0162\014.EGCMFBDOKOM\022\023\n\013BPEDNCMLP" +
       "OD\030\005 \001(\r\022!\n\013settle_info\030\n \001(\0132\014.AGKGKIIK" +
-      "MAAB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "MAAB2\n\031emu.grasscutter.net.protoB\025KGFNLJ" +
+      "JNMIBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

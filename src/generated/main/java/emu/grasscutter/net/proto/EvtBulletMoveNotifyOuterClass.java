@@ -909,8 +909,9 @@ public final class EvtBulletMoveNotifyOuterClass {
       ".proto\032\014Vector.proto\"{\n\023EvtBulletMoveNot" +
       "ify\022\021\n\tentity_id\030\005 \001(\r\022\030\n\007cur_pos\030\010 \001(\0132" +
       "\007.Vector\022\023\n\013EOCBPPKDLBH\030\t \001(\010\022\"\n\014forward" +
-      "_type\030\016 \001(\0162\014.ForwardTypeB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "_type\030\016 \001(\0162\014.ForwardTypeB:\n\031emu.grasscu" +
+      "tter.net.protoB\035EvtBulletMoveNotifyOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

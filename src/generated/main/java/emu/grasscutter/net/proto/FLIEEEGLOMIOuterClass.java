@@ -2075,8 +2075,8 @@ public final class FLIEEEGLOMIOuterClass {
       "KAMEDKOB\030\007 \001(\010\022\023\n\013KEHEPJLLHLL\030\010 \001(\010\022!\n\013N" +
       "LCIEHJAGGO\030\t \003(\0132\014.KHMDILNDDLF\022\023\n\013EMBJNK" +
       "GJLFN\030\n \001(\005\022\023\n\013LPACNPFDLML\030\013 \001(\005\022\023\n\013POGP" +
-      "HDLNFFL\030\014 \003(\005B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "HDLNFFL\030\014 \003(\005B2\n\031emu.grasscutter.net.pro" +
+      "toB\025FLIEEEGLOMIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

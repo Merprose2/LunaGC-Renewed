@@ -596,8 +596,9 @@ public final class GMGDPPCGIMNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GMGDPPCGIMN.proto\"1\n\013GMGDPPCGIMN\022\025\n\r_i" +
-      "s_interrupt\030\002 \001(\010\022\013\n\003uid\030\005 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "s_interrupt\030\002 \001(\010\022\013\n\003uid\030\005 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025GMGDPPCGIMNOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -799,8 +799,9 @@ public final class HomeAvatarRewardEventInfoOuterClass {
       "\n\037HomeAvatarRewardEventInfo.proto\"y\n\031Hom" +
       "eAvatarRewardEventInfo\022\014\n\004guid\030\003 \001(\r\022\020\n\010" +
       "event_id\030\006 \001(\r\022\020\n\010suite_id\030\007 \001(\r\022\021\n\tavat" +
-      "ar_id\030\010 \001(\r\022\027\n\017random_position\030\014 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "ar_id\030\010 \001(\r\022\027\n\017random_position\030\014 \001(\rB@\n\031" +
+      "emu.grasscutter.net.protoB#HomeAvatarRew" +
+      "ardEventInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

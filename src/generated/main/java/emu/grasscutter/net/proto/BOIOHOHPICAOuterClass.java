@@ -1731,8 +1731,8 @@ public final class BOIOHOHPICAOuterClass {
       "torH\000\022\030\n\rsphere_radius\030\326\002 \001(\002H\000\022-\n\rcylin" +
       "der_size\030\302\007 \001(\0132\023.CylinderRegionSizeH\000\022+" +
       "\n\014polygon_size\030\313\r \001(\0132\022.PolygonRegionSiz" +
-      "eH\000B\r\n\013region_sizeB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "eH\000B\r\n\013region_sizeB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025BOIOHOHPICAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

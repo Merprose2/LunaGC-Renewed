@@ -800,8 +800,9 @@ public final class ActivityScheduleInfoOuterClass {
       "\n\032ActivityScheduleInfo.proto\"w\n\024Activity" +
       "ScheduleInfo\022\022\n\nbegin_time\030\002 \001(\r\022\017\n\007is_o" +
       "pen\030\005 \001(\010\022\023\n\013activity_id\030\006 \001(\r\022\023\n\013schedu" +
-      "le_id\030\n \001(\r\022\020\n\010end_time\030\014 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "le_id\030\n \001(\r\022\020\n\010end_time\030\014 \001(\rB;\n\031emu.gra" +
+      "sscutter.net.protoB\036ActivityScheduleInfo" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

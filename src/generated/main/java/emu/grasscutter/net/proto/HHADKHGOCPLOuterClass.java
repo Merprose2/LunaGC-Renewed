@@ -936,8 +936,8 @@ public final class HHADKHGOCPLOuterClass {
       "\001\n\013HHADKHGOCPL\022\024\n\013HMOFNODLMBL\030\365\003 \001(\010\022\024\n\013" +
       "ECCLIIIBOLE\030\366\003 \001(\002\022\024\n\013IDCCGKLBMHL\030\367\003 \001(\005" +
       "\022\024\n\013EJANIOOPFHP\030\370\003 \001(\005\022\"\n\013NCGIMFGDIPG\030\371\003" +
-      " \001(\0132\014.EMOLMHKIMBEB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      " \001(\0132\014.EMOLMHKIMBEB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025HHADKHGOCPLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

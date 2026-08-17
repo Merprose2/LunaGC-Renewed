@@ -2668,8 +2668,9 @@ public final class AJANKMNMFEOOuterClass {
       "ANHOBNBCG\030\010 \001(\0162\014.JEOKDCIGCFP\022!\n\013GECDJOD" +
       "IGAO\030\t \003(\0162\014.JEOKDCIGCFP\022\023\n\013OEBNBKCLFME\030" +
       "\013 \001(\002\022\023\n\013POGPHDLNFFL\030\014 \003(\005\022!\n\013EEIAPPBGHD" +
-      "L\030\r \003(\0162\014.JEOKDCIGCFPB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "L\030\r \003(\0162\014.JEOKDCIGCFPB2\n\031emu.grasscutter" +
+      ".net.protoB\025AJANKMNMFEOOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

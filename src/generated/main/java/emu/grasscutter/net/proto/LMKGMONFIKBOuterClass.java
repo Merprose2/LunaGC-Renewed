@@ -800,8 +800,8 @@ public final class LMKGMONFIKBOuterClass {
       "\n\021LMKGMONFIKB.proto\032\022PlatformInfo.proto\"" +
       "U\n\013LMKGMONFIKB\022\037\n\010platform\030\007 \001(\0132\r.Platf" +
       "ormInfo\022\021\n\tentity_id\030\010 \001(\r\022\022\n\nscene_time" +
-      "\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\014 \001(\rB2\n\031emu.grasscutter.net.protoB\025LMK" +
+      "GMONFIKBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

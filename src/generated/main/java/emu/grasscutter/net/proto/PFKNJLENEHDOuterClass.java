@@ -667,8 +667,8 @@ public final class PFKNJLENEHDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PFKNJLENEHD.proto\"L\n\013PFKNJLENEHD\022\023\n\013av" +
       "atar_guid\030\004 \001(\004\022\023\n\013HNDMILFLLFB\030\014 \001(\r\022\023\n\013" +
-      "BIANCBGAHBJ\030\017 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "BIANCBGAHBJ\030\017 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025PFKNJLENEHDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

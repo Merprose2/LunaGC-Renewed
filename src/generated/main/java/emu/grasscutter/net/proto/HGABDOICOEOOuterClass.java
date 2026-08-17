@@ -525,8 +525,8 @@ public final class HGABDOICOEOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HGABDOICOEO.proto\"\"\n\013HGABDOICOEO\022\023\n\013sc" +
-      "hedule_id\030\r \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "hedule_id\030\r \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025HGABDOICOEOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

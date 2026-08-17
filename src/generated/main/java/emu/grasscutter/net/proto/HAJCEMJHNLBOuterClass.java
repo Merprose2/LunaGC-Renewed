@@ -721,8 +721,9 @@ public final class HAJCEMJHNLBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HAJCEMJHNLB.proto\032\021PGDMAIHKGFO.proto\"E" +
       "\n\013HAJCEMJHNLB\022!\n\013MLIEHOBHHNC\030\001 \001(\0132\014.PGD" +
-      "MAIHKGFO\022\023\n\013KFIIEHHMOFG\030\002 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "MAIHKGFO\022\023\n\013KFIIEHHMOFG\030\002 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025HAJCEMJHNLBOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

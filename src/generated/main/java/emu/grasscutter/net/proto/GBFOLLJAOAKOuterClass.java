@@ -596,8 +596,9 @@ public final class GBFOLLJAOAKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GBFOLLJAOAK.proto\"3\n\013GBFOLLJAOAK\022\021\n\tis" +
-      "_agreed\030\004 \001(\010\022\021\n\tapply_uid\030\010 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "_agreed\030\004 \001(\010\022\021\n\tapply_uid\030\010 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025GBFOLLJAOAKOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

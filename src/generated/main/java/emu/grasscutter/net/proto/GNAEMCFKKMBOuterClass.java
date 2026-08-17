@@ -596,8 +596,9 @@ public final class GNAEMCFKKMBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GNAEMCFKKMB.proto\"3\n\013GNAEMCFKKMB\022\023\n\013DD" +
-      "ILCCPJGFJ\030\002 \001(\010\022\017\n\007retcode\030\n \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "ILCCPJGFJ\030\002 \001(\010\022\017\n\007retcode\030\n \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025GNAEMCFKKMBOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

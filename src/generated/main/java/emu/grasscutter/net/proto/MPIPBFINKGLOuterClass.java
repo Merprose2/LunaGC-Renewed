@@ -152,8 +152,9 @@ public final class MPIPBFINKGLOuterClass {
       "\n\021MPIPBFINKGL.proto*\200\001\n\013MPIPBFINKGL\022\024\n\020M" +
       "PIPBFINKGL_NONE\020\000\022\034\n\030MPIPBFINKGL_LEVEL_S" +
       "ETTLE\020\001\022!\n\035MPIPBFINKGL_PLAY_SOUND_EFFECT" +
-      "\020\002\022\032\n\026MPIPBFINKGL_PLAY_MUSIC\020\003B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\020\002\022\032\n\026MPIPBFINKGL_PLAY_MUSIC\020\003B2\n\031emu.gr" +
+      "asscutter.net.protoB\025MPIPBFINKGLOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

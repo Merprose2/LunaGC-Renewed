@@ -793,8 +793,9 @@ public final class HomePlantSeedReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026HomePlantSeedReq.proto\"K\n\020HomePlantSee" +
       "dReq\022\024\n\014seed_id_list\030\003 \003(\r\022\r\n\005index\030\t \001(" +
-      "\r\022\022\n\nfield_guid\030\017 \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\r\022\022\n\nfield_guid\030\017 \001(\rB7\n\031emu.grasscutter" +
+      ".net.protoB\032HomePlantSeedReqOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

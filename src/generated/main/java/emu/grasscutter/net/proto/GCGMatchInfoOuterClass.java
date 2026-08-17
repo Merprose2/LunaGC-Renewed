@@ -823,8 +823,8 @@ public final class GCGMatchInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\022GCGMatchInfo.proto\032\025MatchPlayerInfo.pr" +
       "oto\"5\n\014GCGMatchInfo\022%\n\013player_list\030\r \003(\013" +
-      "2\020.MatchPlayerInfoB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "2\020.MatchPlayerInfoB3\n\031emu.grasscutter.ne" +
+      "t.protoB\026GCGMatchInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

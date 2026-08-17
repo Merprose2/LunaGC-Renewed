@@ -832,7 +832,8 @@ public final class FinishedParentQuestNotifyOuterClass {
       "\n\037FinishedParentQuestNotify.proto\032\021Paren" +
       "tQuest.proto\"D\n\031FinishedParentQuestNotif" +
       "y\022\'\n\021parent_quest_list\030\014 \003(\0132\014.ParentQue" +
-      "stB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "stB@\n\031emu.grasscutter.net.protoB#Finishe" +
+      "dParentQuestNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

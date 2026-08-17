@@ -1098,8 +1098,8 @@ public final class HideAndSeekStageInfoOuterClass {
       "nfo.BattleInfoMapEntry\022\027\n\017is_record_scor" +
       "e\030\016 \001(\010\032R\n\022BattleInfoMapEntry\022\013\n\003key\030\001 \001" +
       "(\r\022+\n\005value\030\002 \001(\0132\034.HideAndSeekPlayerBat" +
-      "tleInfo:\0028\001B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "tleInfo:\0028\001B;\n\031emu.grasscutter.net.proto" +
+      "B\036HideAndSeekStageInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -3110,8 +3110,9 @@ public final class FLHDGJHCANFOuterClass {
       "xclusive_ele_group_hierarchy_comp\030\023 \001(\0132" +
       "\014.NCDMBCNCHAGH\000\022\024\n\013LCMGFIHPCEB\030\365\003 \001(\005\022\024\n" +
       "\013JODJFBPDBFE\030\366\003 \001(\005\022\"\n\013FCDNMJLCHOP\030\367\003 \003(" +
-      "\0132\014.JMIPDGBNHIMB\010\n\006detailB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\0132\014.JMIPDGBNHIMB\010\n\006detailB2\n\031emu.grasscu" +
+      "tter.net.protoB\025FLHDGJHCANFOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

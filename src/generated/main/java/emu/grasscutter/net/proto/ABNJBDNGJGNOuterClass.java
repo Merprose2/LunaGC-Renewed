@@ -1025,7 +1025,8 @@ public final class ABNJBDNGJGNOuterClass {
       "\013ALNFLLKLFNK\030\003 \001(\002\022\023\n\013PNHMFFBEOPC\030\004 \001(\002\022" +
       "\023\n\013EGOLCEKFMML\030\005 \001(\002\022\023\n\013PPNBDGGOMMD\030\006 \001(" +
       "\002\022\023\n\013HIJONAJJHFP\030\007 \001(\010\022\023\n\013INFEPIMIOFF\030\010 " +
-      "\001(\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\002B2\n\031emu.grasscutter.net.protoB\025ABNJBD" +
+      "NGJGNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -927,7 +927,8 @@ public final class PJEAFGCAFMPOuterClass {
       "\n\021PJEAFGCAFMP.proto\"e\n\013PJEAFGCAFMP\022\n\n\002id" +
       "\030\001 \001(\r\022\014\n\004time\030\002 \001(\r\022\022\n\nparam_list\030\003 \003(\r" +
       "\022\023\n\013MIOFAOEPJEJ\030\004 \001(\004\022\023\n\013FPBPOPNILMH\030\005 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB2\n\031emu.grasscutter.net.protoB\025PJEAFGC" +
+      "AFMPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

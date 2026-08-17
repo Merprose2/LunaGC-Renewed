@@ -596,8 +596,9 @@ public final class FleurFairReplayMiniGameRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n FleurFairReplayMiniGameRsp.proto\"B\n\032Fl" +
       "eurFairReplayMiniGameRsp\022\017\n\007retcode\030\001 \001(" +
-      "\005\022\023\n\013minigame_id\030\007 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\005\022\023\n\013minigame_id\030\007 \001(\rBA\n\031emu.grasscutte" +
+      "r.net.protoB$FleurFairReplayMiniGameRspO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

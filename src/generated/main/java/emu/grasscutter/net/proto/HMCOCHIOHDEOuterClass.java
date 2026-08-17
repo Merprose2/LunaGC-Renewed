@@ -596,8 +596,9 @@ public final class HMCOCHIOHDEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HMCOCHIOHDE.proto\"7\n\013HMCOCHIOHDE\022\023\n\013LO" +
-      "EHGDAMLON\030\013 \001(\010\022\023\n\013LJJBGKCBLCG\030\017 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "EHGDAMLON\030\013 \001(\010\022\023\n\013LJJBGKCBLCG\030\017 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025HMCOCHIOHDEOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

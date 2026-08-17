@@ -997,8 +997,9 @@ public final class EvtAvatarTransferByServerOuterClass {
       "r.proto\"}\n\031EvtAvatarTransferByServer\022\033\n\n" +
       "target_pos\030\002 \001(\0132\007.Vector\022\021\n\tentity_id\030\006" +
       " \001(\r\022\033\n\ntarget_rot\030\014 \001(\0132\007.Vector\022\023\n\013DML" +
-      "FGFMGMMK\030\r \001(\010B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "FGFMGMMK\030\r \001(\010B@\n\031emu.grasscutter.net.pr" +
+      "otoB#EvtAvatarTransferByServerOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

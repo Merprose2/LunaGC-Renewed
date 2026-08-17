@@ -595,8 +595,9 @@ public final class KOLGDIBMPJIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KOLGDIBMPJI.proto\",\n\013KOLGDIBMPJI\022\020\n\010sc" +
-      "ene_id\030\007 \001(\r\022\013\n\003uid\030\013 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "ene_id\030\007 \001(\r\022\013\n\003uid\030\013 \001(\rB2\n\031emu.grasscu" +
+      "tter.net.protoB\025KOLGDIBMPJIOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

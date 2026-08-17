@@ -166,7 +166,8 @@ public final class BrickBreakerStageTypeOuterClass {
       "R_STAGE_GAME\020\002\0222\n.BrickBreakerStageType_" +
       "BRICK_BREAKER_STAGE_PLAY\020\003\0224\n0BrickBreak" +
       "erStageType_BRICK_BREAKER_STAGE_SETTLE\020\004" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B<\n\031emu.grasscutter.net.protoB\037BrickBrea" +
+      "kerStageTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -525,8 +525,8 @@ public final class NLBIONCHOKNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NLBIONCHOKN.proto\"\"\n\013NLBIONCHOKN\022\023\n\013MC" +
-      "HHNBIEKJA\030\017 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "HHNBIEKJA\030\017 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025NLBIONCHOKNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

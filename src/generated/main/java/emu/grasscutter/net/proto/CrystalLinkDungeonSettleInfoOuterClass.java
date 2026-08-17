@@ -944,7 +944,8 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
       "l_elite_monster_num\030\010 \001(\r\022\037\n\027kill_normal" +
       "_mosnter_num\030\t \001(\r\022\025\n\ris_new_record\030\n \001(" +
       "\010\022\020\n\010level_id\030\r \001(\r\022\023\n\013final_score\030\017 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "BC\n\031emu.grasscutter.net.protoB&CrystalLi" +
+      "nkDungeonSettleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

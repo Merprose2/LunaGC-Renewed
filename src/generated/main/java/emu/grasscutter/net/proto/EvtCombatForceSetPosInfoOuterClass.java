@@ -863,8 +863,8 @@ public final class EvtCombatForceSetPosInfoOuterClass {
       ".proto\"t\n\030EvtCombatForceSetPosInfo\022\021\n\ten" +
       "tity_id\030\002 \001(\r\022\023\n\013HOHDAKNMKOD\030\007 \001(\r\022\023\n\013JO" +
       "ANIPHBEMJ\030\t \001(\r\022\033\n\ntarget_pos\030\017 \001(\0132\007.Ve" +
-      "ctorB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "ctorB?\n\031emu.grasscutter.net.protoB\"EvtCo" +
+      "mbatForceSetPosInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

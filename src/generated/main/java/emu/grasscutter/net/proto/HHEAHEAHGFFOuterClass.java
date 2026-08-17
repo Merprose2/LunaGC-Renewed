@@ -652,8 +652,8 @@ public final class HHEAHEAHGFFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HHEAHEAHGFF.proto\"\"\n\013HHEAHEAHGFF\022\023\n\013HF" +
-      "OHMCCMBOH\030\t \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "OHMCCMBOH\030\t \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025HHEAHEAHGFFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

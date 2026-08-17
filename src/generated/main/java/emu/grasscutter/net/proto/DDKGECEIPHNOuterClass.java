@@ -200,8 +200,8 @@ public final class DDKGECEIPHNOuterClass {
       "COMBO\020\003\022\023\n\017DDKGECEIPHN_AIM\020\004\022\023\n\017DDKGECEI" +
       "PHN_SET\020\005\022\023\n\017DDKGECEIPHN_AIR\020\006\022\037\n\033DDKGEC" +
       "EIPHN_TIMELINE_NORMAL\020\007\022\037\n\033DDKGECEIPHN_T" +
-      "IMELINE_CHARGE\020\010B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "IMELINE_CHARGE\020\010B2\n\031emu.grasscutter.net." +
+      "protoB\025DDKGECEIPHNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

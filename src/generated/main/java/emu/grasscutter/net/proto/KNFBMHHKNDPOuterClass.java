@@ -525,8 +525,8 @@ public final class KNFBMHHKNDPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KNFBMHHKNDP.proto\"\"\n\013KNFBMHHKNDP\022\023\n\013EB" +
-      "BBEHCJOBP\030\r \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "BBEHCJOBP\030\r \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025KNFBMHHKNDPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

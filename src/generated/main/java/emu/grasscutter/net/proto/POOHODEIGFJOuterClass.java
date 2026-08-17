@@ -142,8 +142,9 @@ public final class POOHODEIGFJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021POOHODEIGFJ.proto*W\n\013POOHODEIGFJ\022\033\n\027PO" +
       "OHODEIGFJ_UNSPECIFIED\020\000\022\024\n\020POOHODEIGFJ_L" +
-      "ONG\020\001\022\025\n\021POOHODEIGFJ_SHORT\020\002B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "ONG\020\001\022\025\n\021POOHODEIGFJ_SHORT\020\002B2\n\031emu.gras" +
+      "scutter.net.protoB\025POOHODEIGFJOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

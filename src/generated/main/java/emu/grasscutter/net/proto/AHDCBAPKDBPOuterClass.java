@@ -526,8 +526,8 @@ public final class AHDCBAPKDBPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AHDCBAPKDBP.proto\"\"\n\013AHDCBAPKDBP\022\023\n\013BE" +
-      "DBMNHLJMJ\030\014 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "DBMNHLJMJ\030\014 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025AHDCBAPKDBPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

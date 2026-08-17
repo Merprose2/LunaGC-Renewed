@@ -1694,8 +1694,9 @@ public final class TreasureMapActivityDetailInfoOuterClass {
       "ionInfo\022\037\n\027is_mp_challenge_touched\030\n \001(\010" +
       "\022<\n\024bonus_challenge_list\030\014 \003(\0132\036.Treasur" +
       "eMapBonusChallengeInfo\022\023\n\013PJBOPNEPNFA\030\r " +
-      "\001(\r\022\033\n\023treasure_close_time\030\017 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\001(\r\022\033\n\023treasure_close_time\030\017 \001(\rBD\n\031emu." +
+      "grasscutter.net.protoB\'TreasureMapActivi" +
+      "tyDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

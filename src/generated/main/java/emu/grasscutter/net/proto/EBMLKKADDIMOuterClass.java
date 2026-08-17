@@ -936,8 +936,8 @@ public final class EBMLKKADDIMOuterClass {
       "\n\021EBMLKKADDIM.proto\"o\n\013EBMLKKADDIM\022\016\n\006po" +
       "s_id\030\004 \001(\r\022\023\n\013KFNPEHOHLHM\030\010 \001(\010\022\017\n\007is_su" +
       "cc\030\013 \001(\010\022\023\n\013MNLKHICGNNH\030\014 \003(\r\022\025\n\rcheck_r" +
-      "oot_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "oot_id\030\017 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025EBMLKKADDIMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

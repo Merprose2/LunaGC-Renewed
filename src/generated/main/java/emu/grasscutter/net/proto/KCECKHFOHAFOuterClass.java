@@ -525,8 +525,8 @@ public final class KCECKHFOHAFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KCECKHFOHAF.proto\"\036\n\013KCECKHFOHAF\022\017\n\007ci" +
-      "ty_id\030\n \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "ty_id\030\n \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "B\025KCECKHFOHAFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

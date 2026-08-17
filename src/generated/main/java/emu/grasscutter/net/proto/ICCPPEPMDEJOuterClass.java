@@ -739,8 +739,8 @@ public final class ICCPPEPMDEJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ICCPPEPMDEJ.proto\"J\n\013ICCPPEPMDEJ\022\023\n\013PA" +
       "AJJAHNMJP\030\001 \001(\t\022\021\n\tis_active\030\002 \001(\010\022\023\n\013IJ" +
-      "JECLJEAHH\030\003 \001(\005B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "JECLJEAHH\030\003 \001(\005B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025ICCPPEPMDEJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

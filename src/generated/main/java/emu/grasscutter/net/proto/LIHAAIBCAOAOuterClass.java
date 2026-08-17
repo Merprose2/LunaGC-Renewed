@@ -954,7 +954,8 @@ public final class LIHAAIBCAOAOuterClass {
       "IHOHLKAHMF\030\001 \001(\r\022\023\n\013MKOBHKCKPAJ\030\002 \001(\010\022\023\n" +
       "\013PNMCNHOEGAE\030\003 \001(\002\022\023\n\013BANAAABLIPP\030\004 \001(\010\022" +
       "\023\n\013HCFLNIGMINO\030\005 \001(\t\022\023\n\013HJKCAKEOAOI\030\006 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB2\n\031emu.grasscutter.net.protoB\025LIHAAIBC" +
+      "AOAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

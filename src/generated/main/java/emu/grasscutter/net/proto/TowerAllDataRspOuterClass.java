@@ -3089,8 +3089,9 @@ public final class TowerAllDataRspOuterClass {
       "OOR_STATE_CAN_NOT_SKIP\020\001\022:\n6_TowerSkipFl" +
       "oorState_TOWER_SKIP_FLOOR_STATE_HAS_REWA" +
       "RD\020\002\022<\n8_TowerSkipFloorState_TOWER_SKIP_" +
-      "FLOOR_STATE_TAKEN_REWARD\020\003B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "FLOOR_STATE_TAKEN_REWARD\020\003B6\n\031emu.grassc" +
+      "utter.net.protoB\031TowerAllDataRspOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

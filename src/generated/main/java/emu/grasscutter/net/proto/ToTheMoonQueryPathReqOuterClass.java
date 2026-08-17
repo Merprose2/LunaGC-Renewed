@@ -2036,8 +2036,9 @@ public final class ToTheMoonQueryPathReqOuterClass {
       "hod_TENDENCY\020\001\022\030\n\024AStarMethod_ADAPTIVE\020\002" +
       "\022\032\n\026AStarMethod_INFLECTION\020\003\"J\n\nFilterTy" +
       "pe\022\022\n\016FilterType_ALL\020\000\022\022\n\016FilterType_AIR" +
-      "\020\001\022\024\n\020FilterType_WATER\020\002B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\020\001\022\024\n\020FilterType_WATER\020\002B<\n\031emu.grasscut" +
+      "ter.net.protoB\037ToTheMoonQueryPathReqOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -659,8 +659,9 @@ public final class ActivityInfoNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030ActivityInfoNotify.proto\032\022ActivityInfo" +
       ".proto\":\n\022ActivityInfoNotify\022$\n\ractivity" +
-      "_info\030\016 \001(\0132\r.ActivityInfoB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "_info\030\016 \001(\0132\r.ActivityInfoB9\n\031emu.grassc" +
+      "utter.net.protoB\034ActivityInfoNotifyOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

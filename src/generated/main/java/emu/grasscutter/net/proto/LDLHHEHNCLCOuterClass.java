@@ -2262,8 +2262,9 @@ public final class LDLHHEHNCLCOuterClass {
       "ABGPJKJDEF\022!\n\013EHKLCLIJHAE\030\007 \001(\0132\014.AAILAL" +
       "NDDGL\022\023\n\013BEAPKKIIJKI\030\010 \001(\010\022!\n\013CNFHGJGONB" +
       "L\030\t \001(\0132\014.CKKPOBDIMBI\022!\n\013KKCOKDAHCHA\030\n \001" +
-      "(\0132\014.FFKABFBGJMI\022\023\n\013GOKJFDPPOHF\030\013 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "(\0132\014.FFKABFBGJMI\022\023\n\013GOKJFDPPOHF\030\013 \001(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025LDLHHEHNCLCO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

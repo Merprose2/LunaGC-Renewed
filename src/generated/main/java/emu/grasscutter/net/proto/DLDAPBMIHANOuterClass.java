@@ -1499,8 +1499,9 @@ public final class DLDAPBMIHANOuterClass {
       "MFHCPIKGCO\030\002 \001(\t\022\023\n\013BAFFGKOGDFE\030\003 \003(\004\022\023\n" +
       "\013LAEKJGJHBEN\030\004 \001(\t\022!\n\013NELIJGBOHMF\030\005 \001(\0162" +
       "\014.KAAEKMCHCJA\022\023\n\013NGEDGDGBAID\030\006 \001(\014\022\022\n\nre" +
-      "quest_id\030\007 \001(\t\022\023\n\013EGPKBMDLBLC\030\010 \001(\tB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "quest_id\030\007 \001(\t\022\023\n\013EGPKBMDLBLC\030\010 \001(\tB2\n\031e" +
+      "mu.grasscutter.net.protoB\025DLDAPBMIHANOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

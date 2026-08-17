@@ -525,8 +525,8 @@ public final class ABIMGGELALKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ABIMGGELALK.proto\"\036\n\013ABIMGGELALK\022\017\n\007re" +
-      "tcode\030\t \001(\005B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "tcode\030\t \001(\005B2\n\031emu.grasscutter.net.proto" +
+      "B\025ABIMGGELALKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

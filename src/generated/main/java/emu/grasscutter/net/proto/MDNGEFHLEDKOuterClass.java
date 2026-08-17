@@ -996,8 +996,8 @@ public final class MDNGEFHLEDKOuterClass {
       "IBHHJGLLFKN.proto\"u\n\013MDNGEFHLEDK\022\025\n\014cont" +
       "ent_type\030\365\003 \001(\005\022\"\n\013PLDCDAAKPOE\030\366\003 \001(\0132\014." +
       "AMIIGLNDMCJ\022\033\n\004icon\030\367\003 \001(\0132\014.IBHHJGLLFKN" +
-      "\022\016\n\005index\030\371\003 \001(\005B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\022\016\n\005index\030\371\003 \001(\005B2\n\031emu.grasscutter.net." +
+      "protoB\025MDNGEFHLEDKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

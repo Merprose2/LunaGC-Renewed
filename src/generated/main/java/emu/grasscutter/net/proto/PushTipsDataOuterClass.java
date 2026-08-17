@@ -587,8 +587,9 @@ public final class PushTipsDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\022PushTipsData.proto\"3\n\014PushTipsData\022\024\n\014" +
-      "push_tips_id\030\007 \001(\r\022\r\n\005state\030\014 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "push_tips_id\030\007 \001(\r\022\r\n\005state\030\014 \001(\rB3\n\031emu" +
+      ".grasscutter.net.protoB\026PushTipsDataOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

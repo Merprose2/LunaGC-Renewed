@@ -1088,8 +1088,8 @@ public final class FDLMOFCEDMFOuterClass {
       "\n\021FDLMOFCEDMF.proto\032\021IIMDJGCLAAN.proto\"X" +
       "\n\013FDLMOFCEDMF\022\023\n\013KIMCAIHJIMI\030\001 \003(\r\022!\n\013FO" +
       "LABNHKOFD\030\003 \003(\0132\014.IIMDJGCLAAN\022\021\n\tcard_gu" +
-      "id\030\t \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\t \001(\rB2\n\031emu.grasscutter.net.protoB\025F" +
+      "DLMOFCEDMFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

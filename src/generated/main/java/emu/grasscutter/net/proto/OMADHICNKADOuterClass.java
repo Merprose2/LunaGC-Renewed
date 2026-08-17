@@ -731,7 +731,8 @@ public final class OMADHICNKADOuterClass {
       "\n\021OMADHICNKAD.proto\"e\n\013OMADHICNKAD\022\024\n\013CK" +
       "KPHKJNBEP\030\365\003 \001(\010\022\024\n\013PPFKBNMOIOO\030\366\003 \001(\r\022\024" +
       "\n\013GJCEFBDMMNP\030\367\003 \001(\r\022\024\n\013FKEFKEIJOJA\030\370\003 \001" +
-      "(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\010B2\n\031emu.grasscutter.net.protoB\025OMADHIC" +
+      "NKADOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

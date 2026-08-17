@@ -811,8 +811,8 @@ public final class KECMPAFCLIAOuterClass {
       "\n\021KECMPAFCLIA.proto\"v\n\013KECMPAFCLIA\022\020\n\010is" +
       "_agree\030\002 \001(\010\022\023\n\013BOJNPHONGMP\030\005 \001(\004\022\026\n\016_ha" +
       "ll_passcode\030\007 \001(\004\022\023\n\013JCFPEEIKJCH\030\010 \001(\010\022\023" +
-      "\n\013EPHGOMPBKJA\030\t \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013EPHGOMPBKJA\030\t \001(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025KECMPAFCLIAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

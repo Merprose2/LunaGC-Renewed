@@ -44,11 +44,11 @@ public final class NCHCCEBHGODOuterClass {
      * <code>._ConfigPinVisibilityController config_pin_visibility_controller = 100;</code>
      * @return The configPinVisibilityController.
      */
-    emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController getConfigPinVisibilityController();
+    emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController getConfigPinVisibilityController();
     /**
      * <code>._ConfigPinVisibilityController config_pin_visibility_controller = 100;</code>
      */
-    emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityControllerOrBuilder getConfigPinVisibilityControllerOrBuilder();
+    emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityControllerOrBuilder getConfigPinVisibilityControllerOrBuilder();
 
     /**
      * <code>._ConfigFireSignal config_fire_signal = 101;</code>
@@ -59,11 +59,11 @@ public final class NCHCCEBHGODOuterClass {
      * <code>._ConfigFireSignal config_fire_signal = 101;</code>
      * @return The configFireSignal.
      */
-    emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal getConfigFireSignal();
+    emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal getConfigFireSignal();
     /**
      * <code>._ConfigFireSignal config_fire_signal = 101;</code>
      */
-    emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignalOrBuilder getConfigFireSignalOrBuilder();
+    emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignalOrBuilder getConfigFireSignalOrBuilder();
 
     /**
      * <code>._ConfigSignalEvent config_signal_event = 102;</code>
@@ -74,11 +74,11 @@ public final class NCHCCEBHGODOuterClass {
      * <code>._ConfigSignalEvent config_signal_event = 102;</code>
      * @return The configSignalEvent.
      */
-    emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent getConfigSignalEvent();
+    emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent getConfigSignalEvent();
     /**
      * <code>._ConfigSignalEvent config_signal_event = 102;</code>
      */
-    emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEventOrBuilder getConfigSignalEventOrBuilder();
+    emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEventOrBuilder getConfigSignalEventOrBuilder();
 
     /**
      * <code>.DNNBMJBJEIM config_function = 103;</code>
@@ -104,11 +104,11 @@ public final class NCHCCEBHGODOuterClass {
      * <code>._ConfigMakeStruct config_make_struct = 104;</code>
      * @return The configMakeStruct.
      */
-    emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct getConfigMakeStruct();
+    emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct getConfigMakeStruct();
     /**
      * <code>._ConfigMakeStruct config_make_struct = 104;</code>
      */
-    emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStructOrBuilder getConfigMakeStructOrBuilder();
+    emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStructOrBuilder getConfigMakeStructOrBuilder();
 
     /**
      * <code>._ConfigBreakStruct config_break_struct = 105;</code>
@@ -119,11 +119,11 @@ public final class NCHCCEBHGODOuterClass {
      * <code>._ConfigBreakStruct config_break_struct = 105;</code>
      * @return The configBreakStruct.
      */
-    emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct getConfigBreakStruct();
+    emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct getConfigBreakStruct();
     /**
      * <code>._ConfigBreakStruct config_break_struct = 105;</code>
      */
-    emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStructOrBuilder getConfigBreakStructOrBuilder();
+    emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStructOrBuilder getConfigBreakStructOrBuilder();
 
     /**
      * <code>._ConfigSetStructMember config_set_struct_member = 106;</code>
@@ -134,11 +134,11 @@ public final class NCHCCEBHGODOuterClass {
      * <code>._ConfigSetStructMember config_set_struct_member = 106;</code>
      * @return The configSetStructMember.
      */
-    emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember getConfigSetStructMember();
+    emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember getConfigSetStructMember();
     /**
      * <code>._ConfigSetStructMember config_set_struct_member = 106;</code>
      */
-    emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMemberOrBuilder getConfigSetStructMemberOrBuilder();
+    emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMemberOrBuilder getConfigSetStructMemberOrBuilder();
 
     /**
      * <code>._ConfigPinVisibilityControllerV2 config_pin_visibility_controller_v_2 = 107;</code>
@@ -149,11 +149,11 @@ public final class NCHCCEBHGODOuterClass {
      * <code>._ConfigPinVisibilityControllerV2 config_pin_visibility_controller_v_2 = 107;</code>
      * @return The configPinVisibilityControllerV2.
      */
-    emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2 getConfigPinVisibilityControllerV2();
+    emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2 getConfigPinVisibilityControllerV2();
     /**
      * <code>._ConfigPinVisibilityControllerV2 config_pin_visibility_controller_v_2 = 107;</code>
      */
-    emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2OrBuilder getConfigPinVisibilityControllerV2OrBuilder();
+    emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2OrBuilder getConfigPinVisibilityControllerV2OrBuilder();
 
     public emu.grasscutter.net.proto.NCHCCEBHGODOuterClass.NCHCCEBHGOD.BIINDCAHMFCCase getBIINDCAHMFCCase();
   }
@@ -215,42 +215,42 @@ public final class NCHCCEBHGODOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 100;
               break;
             }
             case 810: {
-              emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 101) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 101;
               break;
             }
             case 818: {
-              emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 102) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 102;
@@ -271,56 +271,56 @@ public final class NCHCCEBHGODOuterClass {
               break;
             }
             case 834: {
-              emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 104) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 104;
               break;
             }
             case 842: {
-              emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 105) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 105;
               break;
             }
             case 850: {
-              emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 106) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 106;
               break;
             }
             case 858: {
-              emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 107) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 107;
@@ -455,21 +455,21 @@ public final class NCHCCEBHGODOuterClass {
      * @return The configPinVisibilityController.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController getConfigPinVisibilityController() {
+    public emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController getConfigPinVisibilityController() {
       if (bIINDCAHMFCCase_ == 100) {
-         return (emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController.getDefaultInstance();
     }
     /**
      * <code>._ConfigPinVisibilityController config_pin_visibility_controller = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityControllerOrBuilder getConfigPinVisibilityControllerOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityControllerOrBuilder getConfigPinVisibilityControllerOrBuilder() {
       if (bIINDCAHMFCCase_ == 100) {
-         return (emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController.getDefaultInstance();
     }
 
     public static final int CONFIG_FIRE_SIGNAL_FIELD_NUMBER = 101;
@@ -486,21 +486,21 @@ public final class NCHCCEBHGODOuterClass {
      * @return The configFireSignal.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal getConfigFireSignal() {
+    public emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal getConfigFireSignal() {
       if (bIINDCAHMFCCase_ == 101) {
-         return (emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal.getDefaultInstance();
     }
     /**
      * <code>._ConfigFireSignal config_fire_signal = 101;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignalOrBuilder getConfigFireSignalOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignalOrBuilder getConfigFireSignalOrBuilder() {
       if (bIINDCAHMFCCase_ == 101) {
-         return (emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal.getDefaultInstance();
     }
 
     public static final int CONFIG_SIGNAL_EVENT_FIELD_NUMBER = 102;
@@ -517,21 +517,21 @@ public final class NCHCCEBHGODOuterClass {
      * @return The configSignalEvent.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent getConfigSignalEvent() {
+    public emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent getConfigSignalEvent() {
       if (bIINDCAHMFCCase_ == 102) {
-         return (emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent.getDefaultInstance();
     }
     /**
      * <code>._ConfigSignalEvent config_signal_event = 102;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEventOrBuilder getConfigSignalEventOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEventOrBuilder getConfigSignalEventOrBuilder() {
       if (bIINDCAHMFCCase_ == 102) {
-         return (emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent.getDefaultInstance();
     }
 
     public static final int CONFIG_FUNCTION_FIELD_NUMBER = 103;
@@ -579,21 +579,21 @@ public final class NCHCCEBHGODOuterClass {
      * @return The configMakeStruct.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct getConfigMakeStruct() {
+    public emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct getConfigMakeStruct() {
       if (bIINDCAHMFCCase_ == 104) {
-         return (emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct.getDefaultInstance();
     }
     /**
      * <code>._ConfigMakeStruct config_make_struct = 104;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStructOrBuilder getConfigMakeStructOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStructOrBuilder getConfigMakeStructOrBuilder() {
       if (bIINDCAHMFCCase_ == 104) {
-         return (emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct.getDefaultInstance();
     }
 
     public static final int CONFIG_BREAK_STRUCT_FIELD_NUMBER = 105;
@@ -610,21 +610,21 @@ public final class NCHCCEBHGODOuterClass {
      * @return The configBreakStruct.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct getConfigBreakStruct() {
+    public emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct getConfigBreakStruct() {
       if (bIINDCAHMFCCase_ == 105) {
-         return (emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct.getDefaultInstance();
     }
     /**
      * <code>._ConfigBreakStruct config_break_struct = 105;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStructOrBuilder getConfigBreakStructOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStructOrBuilder getConfigBreakStructOrBuilder() {
       if (bIINDCAHMFCCase_ == 105) {
-         return (emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct.getDefaultInstance();
     }
 
     public static final int CONFIG_SET_STRUCT_MEMBER_FIELD_NUMBER = 106;
@@ -641,21 +641,21 @@ public final class NCHCCEBHGODOuterClass {
      * @return The configSetStructMember.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember getConfigSetStructMember() {
+    public emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember getConfigSetStructMember() {
       if (bIINDCAHMFCCase_ == 106) {
-         return (emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember.getDefaultInstance();
     }
     /**
      * <code>._ConfigSetStructMember config_set_struct_member = 106;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMemberOrBuilder getConfigSetStructMemberOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMemberOrBuilder getConfigSetStructMemberOrBuilder() {
       if (bIINDCAHMFCCase_ == 106) {
-         return (emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember.getDefaultInstance();
     }
 
     public static final int CONFIG_PIN_VISIBILITY_CONTROLLER_V_2_FIELD_NUMBER = 107;
@@ -672,21 +672,21 @@ public final class NCHCCEBHGODOuterClass {
      * @return The configPinVisibilityControllerV2.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2 getConfigPinVisibilityControllerV2() {
+    public emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2 getConfigPinVisibilityControllerV2() {
       if (bIINDCAHMFCCase_ == 107) {
-         return (emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2.getDefaultInstance();
     }
     /**
      * <code>._ConfigPinVisibilityControllerV2 config_pin_visibility_controller_v_2 = 107;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2OrBuilder getConfigPinVisibilityControllerV2OrBuilder() {
+    public emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2OrBuilder getConfigPinVisibilityControllerV2OrBuilder() {
       if (bIINDCAHMFCCase_ == 107) {
-         return (emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -710,28 +710,28 @@ public final class NCHCCEBHGODOuterClass {
         output.writeBool(2, dPMMGMEHGLJ_);
       }
       if (bIINDCAHMFCCase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController) bIINDCAHMFC_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 101) {
-        output.writeMessage(101, (emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal) bIINDCAHMFC_);
+        output.writeMessage(101, (emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 102) {
-        output.writeMessage(102, (emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent) bIINDCAHMFC_);
+        output.writeMessage(102, (emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 103) {
         output.writeMessage(103, (emu.grasscutter.net.proto.DNNBMJBJEIMOuterClass.DNNBMJBJEIM) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 104) {
-        output.writeMessage(104, (emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct) bIINDCAHMFC_);
+        output.writeMessage(104, (emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 105) {
-        output.writeMessage(105, (emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct) bIINDCAHMFC_);
+        output.writeMessage(105, (emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 106) {
-        output.writeMessage(106, (emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember) bIINDCAHMFC_);
+        output.writeMessage(106, (emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 107) {
-        output.writeMessage(107, (emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2) bIINDCAHMFC_);
+        output.writeMessage(107, (emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2) bIINDCAHMFC_);
       }
       unknownFields.writeTo(output);
     }
@@ -752,15 +752,15 @@ public final class NCHCCEBHGODOuterClass {
       }
       if (bIINDCAHMFCCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController) bIINDCAHMFC_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 101) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(101, (emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal) bIINDCAHMFC_);
+          .computeMessageSize(101, (emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 102) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(102, (emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent) bIINDCAHMFC_);
+          .computeMessageSize(102, (emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 103) {
         size += com.google.protobuf.CodedOutputStream
@@ -768,19 +768,19 @@ public final class NCHCCEBHGODOuterClass {
       }
       if (bIINDCAHMFCCase_ == 104) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(104, (emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct) bIINDCAHMFC_);
+          .computeMessageSize(104, (emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 105) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(105, (emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct) bIINDCAHMFC_);
+          .computeMessageSize(105, (emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 106) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(106, (emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember) bIINDCAHMFC_);
+          .computeMessageSize(106, (emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember) bIINDCAHMFC_);
       }
       if (bIINDCAHMFCCase_ == 107) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(107, (emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2) bIINDCAHMFC_);
+          .computeMessageSize(107, (emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2) bIINDCAHMFC_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1334,7 +1334,7 @@ public final class NCHCCEBHGODOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController, emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController.Builder, emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityControllerOrBuilder> configPinVisibilityControllerBuilder_;
+          emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController, emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController.Builder, emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityControllerOrBuilder> configPinVisibilityControllerBuilder_;
       /**
        * <code>._ConfigPinVisibilityController config_pin_visibility_controller = 100;</code>
        * @return Whether the configPinVisibilityController field is set.
@@ -1348,23 +1348,23 @@ public final class NCHCCEBHGODOuterClass {
        * @return The configPinVisibilityController.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController getConfigPinVisibilityController() {
+      public emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController getConfigPinVisibilityController() {
         if (configPinVisibilityControllerBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 100) {
-            return (emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 100) {
             return configPinVisibilityControllerBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigPinVisibilityController config_pin_visibility_controller = 100;</code>
        */
-      public Builder setConfigPinVisibilityController(emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController value) {
+      public Builder setConfigPinVisibilityController(emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController value) {
         if (configPinVisibilityControllerBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1381,7 +1381,7 @@ public final class NCHCCEBHGODOuterClass {
        * <code>._ConfigPinVisibilityController config_pin_visibility_controller = 100;</code>
        */
       public Builder setConfigPinVisibilityController(
-          emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController.Builder builderForValue) {
         if (configPinVisibilityControllerBuilder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -1394,11 +1394,11 @@ public final class NCHCCEBHGODOuterClass {
       /**
        * <code>._ConfigPinVisibilityController config_pin_visibility_controller = 100;</code>
        */
-      public Builder mergeConfigPinVisibilityController(emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController value) {
+      public Builder mergeConfigPinVisibilityController(emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController value) {
         if (configPinVisibilityControllerBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 100 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController.newBuilder((emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController.newBuilder((emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -1435,36 +1435,36 @@ public final class NCHCCEBHGODOuterClass {
       /**
        * <code>._ConfigPinVisibilityController config_pin_visibility_controller = 100;</code>
        */
-      public emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController.Builder getConfigPinVisibilityControllerBuilder() {
+      public emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController.Builder getConfigPinVisibilityControllerBuilder() {
         return getConfigPinVisibilityControllerFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigPinVisibilityController config_pin_visibility_controller = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityControllerOrBuilder getConfigPinVisibilityControllerOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityControllerOrBuilder getConfigPinVisibilityControllerOrBuilder() {
         if ((bIINDCAHMFCCase_ == 100) && (configPinVisibilityControllerBuilder_ != null)) {
           return configPinVisibilityControllerBuilder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 100) {
-            return (emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigPinVisibilityController config_pin_visibility_controller = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController, emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController.Builder, emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityControllerOrBuilder> 
+          emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController, emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController.Builder, emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityControllerOrBuilder> 
           getConfigPinVisibilityControllerFieldBuilder() {
         if (configPinVisibilityControllerBuilder_ == null) {
           if (!(bIINDCAHMFCCase_ == 100)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController.getDefaultInstance();
           }
           configPinVisibilityControllerBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController, emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController.Builder, emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityControllerOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigPinVisibilityController._ConfigPinVisibilityController) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController, emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController.Builder, emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityControllerOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass._ConfigPinVisibilityController) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -1475,7 +1475,7 @@ public final class NCHCCEBHGODOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal, emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal.Builder, emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignalOrBuilder> configFireSignalBuilder_;
+          emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal, emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal.Builder, emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignalOrBuilder> configFireSignalBuilder_;
       /**
        * <code>._ConfigFireSignal config_fire_signal = 101;</code>
        * @return Whether the configFireSignal field is set.
@@ -1489,23 +1489,23 @@ public final class NCHCCEBHGODOuterClass {
        * @return The configFireSignal.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal getConfigFireSignal() {
+      public emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal getConfigFireSignal() {
         if (configFireSignalBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 101) {
-            return (emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 101) {
             return configFireSignalBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigFireSignal config_fire_signal = 101;</code>
        */
-      public Builder setConfigFireSignal(emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal value) {
+      public Builder setConfigFireSignal(emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal value) {
         if (configFireSignalBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1522,7 +1522,7 @@ public final class NCHCCEBHGODOuterClass {
        * <code>._ConfigFireSignal config_fire_signal = 101;</code>
        */
       public Builder setConfigFireSignal(
-          emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal.Builder builderForValue) {
         if (configFireSignalBuilder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -1535,11 +1535,11 @@ public final class NCHCCEBHGODOuterClass {
       /**
        * <code>._ConfigFireSignal config_fire_signal = 101;</code>
        */
-      public Builder mergeConfigFireSignal(emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal value) {
+      public Builder mergeConfigFireSignal(emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal value) {
         if (configFireSignalBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 101 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal.newBuilder((emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal.newBuilder((emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -1576,36 +1576,36 @@ public final class NCHCCEBHGODOuterClass {
       /**
        * <code>._ConfigFireSignal config_fire_signal = 101;</code>
        */
-      public emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal.Builder getConfigFireSignalBuilder() {
+      public emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal.Builder getConfigFireSignalBuilder() {
         return getConfigFireSignalFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigFireSignal config_fire_signal = 101;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignalOrBuilder getConfigFireSignalOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignalOrBuilder getConfigFireSignalOrBuilder() {
         if ((bIINDCAHMFCCase_ == 101) && (configFireSignalBuilder_ != null)) {
           return configFireSignalBuilder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 101) {
-            return (emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigFireSignal config_fire_signal = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal, emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal.Builder, emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignalOrBuilder> 
+          emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal, emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal.Builder, emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignalOrBuilder> 
           getConfigFireSignalFieldBuilder() {
         if (configFireSignalBuilder_ == null) {
           if (!(bIINDCAHMFCCase_ == 101)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal.getDefaultInstance();
           }
           configFireSignalBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal, emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal.Builder, emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignalOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigFireSignal._ConfigFireSignal) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal, emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal.Builder, emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignalOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigFireSignalOuterClass._ConfigFireSignal) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -1616,7 +1616,7 @@ public final class NCHCCEBHGODOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent, emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent.Builder, emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEventOrBuilder> configSignalEventBuilder_;
+          emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent, emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent.Builder, emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEventOrBuilder> configSignalEventBuilder_;
       /**
        * <code>._ConfigSignalEvent config_signal_event = 102;</code>
        * @return Whether the configSignalEvent field is set.
@@ -1630,23 +1630,23 @@ public final class NCHCCEBHGODOuterClass {
        * @return The configSignalEvent.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent getConfigSignalEvent() {
+      public emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent getConfigSignalEvent() {
         if (configSignalEventBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 102) {
-            return (emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 102) {
             return configSignalEventBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigSignalEvent config_signal_event = 102;</code>
        */
-      public Builder setConfigSignalEvent(emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent value) {
+      public Builder setConfigSignalEvent(emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent value) {
         if (configSignalEventBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1663,7 +1663,7 @@ public final class NCHCCEBHGODOuterClass {
        * <code>._ConfigSignalEvent config_signal_event = 102;</code>
        */
       public Builder setConfigSignalEvent(
-          emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent.Builder builderForValue) {
         if (configSignalEventBuilder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -1676,11 +1676,11 @@ public final class NCHCCEBHGODOuterClass {
       /**
        * <code>._ConfigSignalEvent config_signal_event = 102;</code>
        */
-      public Builder mergeConfigSignalEvent(emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent value) {
+      public Builder mergeConfigSignalEvent(emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent value) {
         if (configSignalEventBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 102 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent.newBuilder((emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent.newBuilder((emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -1717,36 +1717,36 @@ public final class NCHCCEBHGODOuterClass {
       /**
        * <code>._ConfigSignalEvent config_signal_event = 102;</code>
        */
-      public emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent.Builder getConfigSignalEventBuilder() {
+      public emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent.Builder getConfigSignalEventBuilder() {
         return getConfigSignalEventFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigSignalEvent config_signal_event = 102;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEventOrBuilder getConfigSignalEventOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEventOrBuilder getConfigSignalEventOrBuilder() {
         if ((bIINDCAHMFCCase_ == 102) && (configSignalEventBuilder_ != null)) {
           return configSignalEventBuilder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 102) {
-            return (emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigSignalEvent config_signal_event = 102;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent, emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent.Builder, emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEventOrBuilder> 
+          emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent, emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent.Builder, emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEventOrBuilder> 
           getConfigSignalEventFieldBuilder() {
         if (configSignalEventBuilder_ == null) {
           if (!(bIINDCAHMFCCase_ == 102)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent.getDefaultInstance();
           }
           configSignalEventBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent, emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent.Builder, emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEventOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigSignalEvent._ConfigSignalEvent) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent, emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent.Builder, emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEventOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigSignalEventOuterClass._ConfigSignalEvent) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -1898,7 +1898,7 @@ public final class NCHCCEBHGODOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct, emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct.Builder, emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStructOrBuilder> configMakeStructBuilder_;
+          emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct, emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct.Builder, emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStructOrBuilder> configMakeStructBuilder_;
       /**
        * <code>._ConfigMakeStruct config_make_struct = 104;</code>
        * @return Whether the configMakeStruct field is set.
@@ -1912,23 +1912,23 @@ public final class NCHCCEBHGODOuterClass {
        * @return The configMakeStruct.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct getConfigMakeStruct() {
+      public emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct getConfigMakeStruct() {
         if (configMakeStructBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 104) {
-            return (emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 104) {
             return configMakeStructBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigMakeStruct config_make_struct = 104;</code>
        */
-      public Builder setConfigMakeStruct(emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct value) {
+      public Builder setConfigMakeStruct(emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct value) {
         if (configMakeStructBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1945,7 +1945,7 @@ public final class NCHCCEBHGODOuterClass {
        * <code>._ConfigMakeStruct config_make_struct = 104;</code>
        */
       public Builder setConfigMakeStruct(
-          emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct.Builder builderForValue) {
         if (configMakeStructBuilder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -1958,11 +1958,11 @@ public final class NCHCCEBHGODOuterClass {
       /**
        * <code>._ConfigMakeStruct config_make_struct = 104;</code>
        */
-      public Builder mergeConfigMakeStruct(emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct value) {
+      public Builder mergeConfigMakeStruct(emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct value) {
         if (configMakeStructBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 104 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct.newBuilder((emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct.newBuilder((emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -1999,36 +1999,36 @@ public final class NCHCCEBHGODOuterClass {
       /**
        * <code>._ConfigMakeStruct config_make_struct = 104;</code>
        */
-      public emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct.Builder getConfigMakeStructBuilder() {
+      public emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct.Builder getConfigMakeStructBuilder() {
         return getConfigMakeStructFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigMakeStruct config_make_struct = 104;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStructOrBuilder getConfigMakeStructOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStructOrBuilder getConfigMakeStructOrBuilder() {
         if ((bIINDCAHMFCCase_ == 104) && (configMakeStructBuilder_ != null)) {
           return configMakeStructBuilder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 104) {
-            return (emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigMakeStruct config_make_struct = 104;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct, emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct.Builder, emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStructOrBuilder> 
+          emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct, emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct.Builder, emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStructOrBuilder> 
           getConfigMakeStructFieldBuilder() {
         if (configMakeStructBuilder_ == null) {
           if (!(bIINDCAHMFCCase_ == 104)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct.getDefaultInstance();
           }
           configMakeStructBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct, emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct.Builder, emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStructOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigMakeStruct._ConfigMakeStruct) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct, emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct.Builder, emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStructOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigMakeStructOuterClass._ConfigMakeStruct) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -2039,7 +2039,7 @@ public final class NCHCCEBHGODOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct, emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct.Builder, emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStructOrBuilder> configBreakStructBuilder_;
+          emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct, emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct.Builder, emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStructOrBuilder> configBreakStructBuilder_;
       /**
        * <code>._ConfigBreakStruct config_break_struct = 105;</code>
        * @return Whether the configBreakStruct field is set.
@@ -2053,23 +2053,23 @@ public final class NCHCCEBHGODOuterClass {
        * @return The configBreakStruct.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct getConfigBreakStruct() {
+      public emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct getConfigBreakStruct() {
         if (configBreakStructBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 105) {
-            return (emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 105) {
             return configBreakStructBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigBreakStruct config_break_struct = 105;</code>
        */
-      public Builder setConfigBreakStruct(emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct value) {
+      public Builder setConfigBreakStruct(emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct value) {
         if (configBreakStructBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2086,7 +2086,7 @@ public final class NCHCCEBHGODOuterClass {
        * <code>._ConfigBreakStruct config_break_struct = 105;</code>
        */
       public Builder setConfigBreakStruct(
-          emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct.Builder builderForValue) {
         if (configBreakStructBuilder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -2099,11 +2099,11 @@ public final class NCHCCEBHGODOuterClass {
       /**
        * <code>._ConfigBreakStruct config_break_struct = 105;</code>
        */
-      public Builder mergeConfigBreakStruct(emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct value) {
+      public Builder mergeConfigBreakStruct(emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct value) {
         if (configBreakStructBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 105 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct.newBuilder((emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct.newBuilder((emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -2140,36 +2140,36 @@ public final class NCHCCEBHGODOuterClass {
       /**
        * <code>._ConfigBreakStruct config_break_struct = 105;</code>
        */
-      public emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct.Builder getConfigBreakStructBuilder() {
+      public emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct.Builder getConfigBreakStructBuilder() {
         return getConfigBreakStructFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigBreakStruct config_break_struct = 105;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStructOrBuilder getConfigBreakStructOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStructOrBuilder getConfigBreakStructOrBuilder() {
         if ((bIINDCAHMFCCase_ == 105) && (configBreakStructBuilder_ != null)) {
           return configBreakStructBuilder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 105) {
-            return (emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigBreakStruct config_break_struct = 105;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct, emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct.Builder, emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStructOrBuilder> 
+          emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct, emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct.Builder, emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStructOrBuilder> 
           getConfigBreakStructFieldBuilder() {
         if (configBreakStructBuilder_ == null) {
           if (!(bIINDCAHMFCCase_ == 105)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct.getDefaultInstance();
           }
           configBreakStructBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct, emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct.Builder, emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStructOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigBreakStruct._ConfigBreakStruct) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct, emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct.Builder, emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStructOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigBreakStructOuterClass._ConfigBreakStruct) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -2180,7 +2180,7 @@ public final class NCHCCEBHGODOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember, emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember.Builder, emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMemberOrBuilder> configSetStructMemberBuilder_;
+          emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember, emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember.Builder, emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMemberOrBuilder> configSetStructMemberBuilder_;
       /**
        * <code>._ConfigSetStructMember config_set_struct_member = 106;</code>
        * @return Whether the configSetStructMember field is set.
@@ -2194,23 +2194,23 @@ public final class NCHCCEBHGODOuterClass {
        * @return The configSetStructMember.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember getConfigSetStructMember() {
+      public emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember getConfigSetStructMember() {
         if (configSetStructMemberBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 106) {
-            return (emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 106) {
             return configSetStructMemberBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigSetStructMember config_set_struct_member = 106;</code>
        */
-      public Builder setConfigSetStructMember(emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember value) {
+      public Builder setConfigSetStructMember(emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember value) {
         if (configSetStructMemberBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2227,7 +2227,7 @@ public final class NCHCCEBHGODOuterClass {
        * <code>._ConfigSetStructMember config_set_struct_member = 106;</code>
        */
       public Builder setConfigSetStructMember(
-          emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember.Builder builderForValue) {
         if (configSetStructMemberBuilder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -2240,11 +2240,11 @@ public final class NCHCCEBHGODOuterClass {
       /**
        * <code>._ConfigSetStructMember config_set_struct_member = 106;</code>
        */
-      public Builder mergeConfigSetStructMember(emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember value) {
+      public Builder mergeConfigSetStructMember(emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember value) {
         if (configSetStructMemberBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 106 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember.newBuilder((emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember.newBuilder((emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -2281,36 +2281,36 @@ public final class NCHCCEBHGODOuterClass {
       /**
        * <code>._ConfigSetStructMember config_set_struct_member = 106;</code>
        */
-      public emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember.Builder getConfigSetStructMemberBuilder() {
+      public emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember.Builder getConfigSetStructMemberBuilder() {
         return getConfigSetStructMemberFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigSetStructMember config_set_struct_member = 106;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMemberOrBuilder getConfigSetStructMemberOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMemberOrBuilder getConfigSetStructMemberOrBuilder() {
         if ((bIINDCAHMFCCase_ == 106) && (configSetStructMemberBuilder_ != null)) {
           return configSetStructMemberBuilder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 106) {
-            return (emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigSetStructMember config_set_struct_member = 106;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember, emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember.Builder, emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMemberOrBuilder> 
+          emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember, emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember.Builder, emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMemberOrBuilder> 
           getConfigSetStructMemberFieldBuilder() {
         if (configSetStructMemberBuilder_ == null) {
           if (!(bIINDCAHMFCCase_ == 106)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember.getDefaultInstance();
           }
           configSetStructMemberBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember, emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember.Builder, emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMemberOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigSetStructMember._ConfigSetStructMember) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember, emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember.Builder, emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMemberOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass._ConfigSetStructMember) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -2321,7 +2321,7 @@ public final class NCHCCEBHGODOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2, emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2.Builder, emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2OrBuilder> configPinVisibilityControllerV2Builder_;
+          emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2, emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2.Builder, emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2OrBuilder> configPinVisibilityControllerV2Builder_;
       /**
        * <code>._ConfigPinVisibilityControllerV2 config_pin_visibility_controller_v_2 = 107;</code>
        * @return Whether the configPinVisibilityControllerV2 field is set.
@@ -2335,23 +2335,23 @@ public final class NCHCCEBHGODOuterClass {
        * @return The configPinVisibilityControllerV2.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2 getConfigPinVisibilityControllerV2() {
+      public emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2 getConfigPinVisibilityControllerV2() {
         if (configPinVisibilityControllerV2Builder_ == null) {
           if (bIINDCAHMFCCase_ == 107) {
-            return (emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 107) {
             return configPinVisibilityControllerV2Builder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigPinVisibilityControllerV2 config_pin_visibility_controller_v_2 = 107;</code>
        */
-      public Builder setConfigPinVisibilityControllerV2(emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2 value) {
+      public Builder setConfigPinVisibilityControllerV2(emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2 value) {
         if (configPinVisibilityControllerV2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2368,7 +2368,7 @@ public final class NCHCCEBHGODOuterClass {
        * <code>._ConfigPinVisibilityControllerV2 config_pin_visibility_controller_v_2 = 107;</code>
        */
       public Builder setConfigPinVisibilityControllerV2(
-          emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2.Builder builderForValue) {
         if (configPinVisibilityControllerV2Builder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -2381,11 +2381,11 @@ public final class NCHCCEBHGODOuterClass {
       /**
        * <code>._ConfigPinVisibilityControllerV2 config_pin_visibility_controller_v_2 = 107;</code>
        */
-      public Builder mergeConfigPinVisibilityControllerV2(emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2 value) {
+      public Builder mergeConfigPinVisibilityControllerV2(emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2 value) {
         if (configPinVisibilityControllerV2Builder_ == null) {
           if (bIINDCAHMFCCase_ == 107 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2.newBuilder((emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2.newBuilder((emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -2422,36 +2422,36 @@ public final class NCHCCEBHGODOuterClass {
       /**
        * <code>._ConfigPinVisibilityControllerV2 config_pin_visibility_controller_v_2 = 107;</code>
        */
-      public emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2.Builder getConfigPinVisibilityControllerV2Builder() {
+      public emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2.Builder getConfigPinVisibilityControllerV2Builder() {
         return getConfigPinVisibilityControllerV2FieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigPinVisibilityControllerV2 config_pin_visibility_controller_v_2 = 107;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2OrBuilder getConfigPinVisibilityControllerV2OrBuilder() {
+      public emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2OrBuilder getConfigPinVisibilityControllerV2OrBuilder() {
         if ((bIINDCAHMFCCase_ == 107) && (configPinVisibilityControllerV2Builder_ != null)) {
           return configPinVisibilityControllerV2Builder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 107) {
-            return (emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigPinVisibilityControllerV2 config_pin_visibility_controller_v_2 = 107;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2, emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2.Builder, emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2OrBuilder> 
+          emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2, emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2.Builder, emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2OrBuilder> 
           getConfigPinVisibilityControllerV2FieldBuilder() {
         if (configPinVisibilityControllerV2Builder_ == null) {
           if (!(bIINDCAHMFCCase_ == 107)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2.getDefaultInstance();
           }
           configPinVisibilityControllerV2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2, emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2.Builder, emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2OrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2._ConfigPinVisibilityControllerV2) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2, emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2.Builder, emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2OrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass._ConfigPinVisibilityControllerV2) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -2547,21 +2547,21 @@ public final class NCHCCEBHGODOuterClass {
       "ct_member\030j \001(\0132\027._ConfigSetStructMember" +
       "H\000\022Q\n$config_pin_visibility_controller_v" +
       "_2\030k \001(\0132!._ConfigPinVisibilityControlle" +
-      "rV2H\000B\r\n\013BIINDCAHMFCB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "rV2H\000B\r\n\013BIINDCAHMFCB2\n\031emu.grasscutter." +
+      "net.protoB\025NCHCCEBHGODOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.DNNBMJBJEIMOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.HFMIJPBBCFFOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigBreakStruct.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigFireSignal.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigMakeStruct.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigPinVisibilityController.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigSetStructMember.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigSignalEvent.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigBreakStructOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigFireSignalOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigMakeStructOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigSignalEventOuterClass.getDescriptor(),
         });
     internal_static_NCHCCEBHGOD_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2571,13 +2571,13 @@ public final class NCHCCEBHGODOuterClass {
         new java.lang.String[] { "FOIOJJHDEGK", "DPMMGMEHGLJ", "ConfigPinVisibilityController", "ConfigFireSignal", "ConfigSignalEvent", "ConfigFunction", "ConfigMakeStruct", "ConfigBreakStruct", "ConfigSetStructMember", "ConfigPinVisibilityControllerV2", "BIINDCAHMFC", });
     emu.grasscutter.net.proto.DNNBMJBJEIMOuterClass.getDescriptor();
     emu.grasscutter.net.proto.HFMIJPBBCFFOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.ConfigBreakStruct.getDescriptor();
-    emu.grasscutter.net.proto.ConfigFireSignal.getDescriptor();
-    emu.grasscutter.net.proto.ConfigMakeStruct.getDescriptor();
-    emu.grasscutter.net.proto.ConfigPinVisibilityController.getDescriptor();
-    emu.grasscutter.net.proto.ConfigPinVisibilityControllerV2.getDescriptor();
-    emu.grasscutter.net.proto.ConfigSetStructMember.getDescriptor();
-    emu.grasscutter.net.proto.ConfigSignalEvent.getDescriptor();
+    emu.grasscutter.net.proto._ConfigBreakStructOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ConfigFireSignalOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ConfigMakeStructOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ConfigPinVisibilityControllerOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ConfigPinVisibilityControllerV2OuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ConfigSetStructMemberOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ConfigSignalEventOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -972,7 +972,8 @@ public final class GOFFIGNNLIAOuterClass {
       "\n\021GOFFIGNNLIA.proto\032\017ItemParam.proto\"R\n\013" +
       "GOFFIGNNLIA\022\023\n\013offering_id\030\006 \001(\r\022\017\n\007retc" +
       "ode\030\007 \001(\005\022\035\n\titem_list\030\016 \003(\0132\n.ItemParam" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025GOFFIGNNL" +
+      "IAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

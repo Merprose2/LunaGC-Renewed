@@ -598,8 +598,9 @@ public final class SetEquipLockStateReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032SetEquipLockStateReq.proto\"D\n\024SetEquip" +
       "LockStateReq\022\021\n\tis_locked\030\010 \001(\010\022\031\n\021targe" +
-      "t_equip_guid\030\014 \001(\004B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "t_equip_guid\030\014 \001(\004B;\n\031emu.grasscutter.ne" +
+      "t.protoB\036SetEquipLockStateReqOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -823,8 +823,8 @@ public final class CALMMAGGLHCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CALMMAGGLHC.proto\032\021PDKJLGIJBNF.proto\"0" +
       "\n\013CALMMAGGLHC\022!\n\013MOCLJCJFKJH\030\001 \003(\0132\014.PDK" +
-      "JLGIJBNFB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "JLGIJBNFB2\n\031emu.grasscutter.net.protoB\025C" +
+      "ALMMAGGLHCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

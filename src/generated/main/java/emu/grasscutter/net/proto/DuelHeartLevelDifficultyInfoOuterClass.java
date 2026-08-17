@@ -660,7 +660,8 @@ public final class DuelHeartLevelDifficultyInfoOuterClass {
       "\n\"DuelHeartLevelDifficultyInfo.proto\"V\n\034" +
       "DuelHeartLevelDifficultyInfo\022\021\n\tcost_tim" +
       "e\030\007 \001(\r\022\022\n\ndifficulty\030\010 \001(\r\022\017\n\007is_open\030\013" +
-      " \001(\010B\033\n\031emu.grasscutter.net.protob\006proto" +
+      " \001(\010BC\n\031emu.grasscutter.net.protoB&DuelH" +
+      "eartLevelDifficultyInfoOuterClassb\006proto" +
       "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

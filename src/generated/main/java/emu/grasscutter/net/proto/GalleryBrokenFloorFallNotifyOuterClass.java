@@ -596,8 +596,9 @@ public final class GalleryBrokenFloorFallNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"GalleryBrokenFloorFallNotify.proto\"F\n\034" +
       "GalleryBrokenFloorFallNotify\022\022\n\ngallery_" +
-      "id\030\t \001(\r\022\022\n\nfall_count\030\017 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "id\030\t \001(\r\022\022\n\nfall_count\030\017 \001(\rBC\n\031emu.gras" +
+      "scutter.net.protoB&GalleryBrokenFloorFal" +
+      "lNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

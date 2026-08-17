@@ -661,8 +661,9 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
       "to\032\034SkyCrystalDetectorData.proto\"`\n\"SkyC" +
       "rystalDetectorDataUpdateNotify\022:\n\031sky_cr" +
       "ystal_detector_data\030\014 \001(\0132\027.SkyCrystalDe" +
-      "tectorDataB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "tectorDataBI\n\031emu.grasscutter.net.protoB" +
+      ",SkyCrystalDetectorDataUpdateNotifyOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

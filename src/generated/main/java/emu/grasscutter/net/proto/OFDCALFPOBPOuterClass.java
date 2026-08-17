@@ -173,8 +173,9 @@ public final class OFDCALFPOBPOuterClass {
       "\"OFDCALFPOBP_BEYOND_SKY_COLOR_GREEN\020\002\022%\n" +
       "!OFDCALFPOBP_BEYOND_SKY_COLOR_BLUE\020\003\022\'\n#" +
       "OFDCALFPOBP_BEYOND_SKY_COLOR_ORANGE\020\004\022$\n" +
-      " OFDCALFPOBP_BEYOND_SKY_COLOR_RED\020\005B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      " OFDCALFPOBP_BEYOND_SKY_COLOR_RED\020\005B2\n\031e" +
+      "mu.grasscutter.net.protoB\025OFDCALFPOBPOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

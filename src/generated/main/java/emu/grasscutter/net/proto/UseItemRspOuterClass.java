@@ -1006,8 +1006,9 @@ public final class UseItemRspOuterClass {
       "\n\020UseItemRsp.proto\"\177\n\nUseItemRsp\022\023\n\013targ" +
       "et_guid\030\001 \001(\004\022\017\n\007retcode\030\005 \001(\005\022\017\n\007item_i" +
       "d\030\t \001(\r\022\022\n\noption_idx\030\014 \001(\r\022\014\n\004guid\030\r \001(" +
-      "\004\022\030\n\020_option_idx_list\030\017 \003(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\004\022\030\n\020_option_idx_list\030\017 \003(\rB1\n\031emu.grass" +
+      "cutter.net.protoB\024UseItemRspOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

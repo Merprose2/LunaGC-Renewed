@@ -666,8 +666,9 @@ public final class ChangeGameTimeRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027ChangeGameTimeRsp.proto\"O\n\021ChangeGameT" +
       "imeRsp\022\017\n\007retcode\030\007 \001(\005\022\025\n\rcur_game_time" +
-      "\030\014 \001(\r\022\022\n\nextra_days\030\017 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\030\014 \001(\r\022\022\n\nextra_days\030\017 \001(\rB8\n\031emu.grassc" +
+      "utter.net.protoB\033ChangeGameTimeRspOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1110,8 +1110,9 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       "\n%QueryCodexMonsterBeKilledNumRsp.proto\"" +
       "s\n\037QueryCodexMonsterBeKilledNumRsp\022\025\n\rco" +
       "dex_id_list\030\002 \003(\r\022\023\n\013GOIJKJBPKAF\030\003 \003(\r\022\023" +
-      "\n\013BMCNAMPBGAF\030\n \003(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\n\013BMCNAMPBGAF\030\n \003(\r\022\017\n\007retcode\030\016 \001(\005BF\n\031" +
+      "emu.grasscutter.net.protoB)QueryCodexMon" +
+      "sterBeKilledNumRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

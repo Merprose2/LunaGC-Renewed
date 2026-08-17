@@ -99,11 +99,11 @@ public final class FEAMAENBJPCOuterClass {
      * <code>._CurrentPhase NECKOCPCNAB = 9;</code>
      * @return The nECKOCPCNAB.
      */
-    emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getNECKOCPCNAB();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getNECKOCPCNAB();
     /**
      * <code>._CurrentPhase NECKOCPCNAB = 9;</code>
      */
-    emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getNECKOCPCNABOrBuilder();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getNECKOCPCNABOrBuilder();
 
     /**
      * <code>repeated int32 POGPHDLNFFL = 10;</code>
@@ -146,11 +146,11 @@ public final class FEAMAENBJPCOuterClass {
      * <code>._CurrentPhase HGDAMCKDNDN = 12;</code>
      * @return The hGDAMCKDNDN.
      */
-    emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getHGDAMCKDNDN();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getHGDAMCKDNDN();
     /**
      * <code>._CurrentPhase HGDAMCKDNDN = 12;</code>
      */
-    emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getHGDAMCKDNDNOrBuilder();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getHGDAMCKDNDNOrBuilder();
 
     /**
      * <code>bool MCGOLBFHCJI = 13;</code>
@@ -264,11 +264,11 @@ public final class FEAMAENBJPCOuterClass {
               break;
             }
             case 74: {
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder subBuilder = null;
               if (nECKOCPCNAB_ != null) {
                 subBuilder = nECKOCPCNAB_.toBuilder();
               }
-              nECKOCPCNAB_ = input.readMessage(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.parser(), extensionRegistry);
+              nECKOCPCNAB_ = input.readMessage(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nECKOCPCNAB_);
                 nECKOCPCNAB_ = subBuilder.buildPartial();
@@ -311,11 +311,11 @@ public final class FEAMAENBJPCOuterClass {
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder subBuilder = null;
               if (hGDAMCKDNDN_ != null) {
                 subBuilder = hGDAMCKDNDN_.toBuilder();
               }
-              hGDAMCKDNDN_ = input.readMessage(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.parser(), extensionRegistry);
+              hGDAMCKDNDN_ = input.readMessage(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(hGDAMCKDNDN_);
                 hGDAMCKDNDN_ = subBuilder.buildPartial();
@@ -509,7 +509,7 @@ public final class FEAMAENBJPCOuterClass {
     }
 
     public static final int NECKOCPCNAB_FIELD_NUMBER = 9;
-    private emu.grasscutter.net.proto.CurrentPhase._CurrentPhase nECKOCPCNAB_;
+    private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase nECKOCPCNAB_;
     /**
      * <code>._CurrentPhase NECKOCPCNAB = 9;</code>
      * @return Whether the nECKOCPCNAB field is set.
@@ -523,14 +523,14 @@ public final class FEAMAENBJPCOuterClass {
      * @return The nECKOCPCNAB.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getNECKOCPCNAB() {
-      return nECKOCPCNAB_ == null ? emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : nECKOCPCNAB_;
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getNECKOCPCNAB() {
+      return nECKOCPCNAB_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : nECKOCPCNAB_;
     }
     /**
      * <code>._CurrentPhase NECKOCPCNAB = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getNECKOCPCNABOrBuilder() {
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getNECKOCPCNABOrBuilder() {
       return getNECKOCPCNAB();
     }
 
@@ -589,7 +589,7 @@ public final class FEAMAENBJPCOuterClass {
     }
 
     public static final int HGDAMCKDNDN_FIELD_NUMBER = 12;
-    private emu.grasscutter.net.proto.CurrentPhase._CurrentPhase hGDAMCKDNDN_;
+    private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase hGDAMCKDNDN_;
     /**
      * <code>._CurrentPhase HGDAMCKDNDN = 12;</code>
      * @return Whether the hGDAMCKDNDN field is set.
@@ -603,14 +603,14 @@ public final class FEAMAENBJPCOuterClass {
      * @return The hGDAMCKDNDN.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getHGDAMCKDNDN() {
-      return hGDAMCKDNDN_ == null ? emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : hGDAMCKDNDN_;
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getHGDAMCKDNDN() {
+      return hGDAMCKDNDN_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : hGDAMCKDNDN_;
     }
     /**
      * <code>._CurrentPhase HGDAMCKDNDN = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getHGDAMCKDNDNOrBuilder() {
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getHGDAMCKDNDNOrBuilder() {
       return getHGDAMCKDNDN();
     }
 
@@ -1700,9 +1700,9 @@ public final class FEAMAENBJPCOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.CurrentPhase._CurrentPhase nECKOCPCNAB_;
+      private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase nECKOCPCNAB_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> nECKOCPCNABBuilder_;
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> nECKOCPCNABBuilder_;
       /**
        * <code>._CurrentPhase NECKOCPCNAB = 9;</code>
        * @return Whether the nECKOCPCNAB field is set.
@@ -1714,9 +1714,9 @@ public final class FEAMAENBJPCOuterClass {
        * <code>._CurrentPhase NECKOCPCNAB = 9;</code>
        * @return The nECKOCPCNAB.
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getNECKOCPCNAB() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getNECKOCPCNAB() {
         if (nECKOCPCNABBuilder_ == null) {
-          return nECKOCPCNAB_ == null ? emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : nECKOCPCNAB_;
+          return nECKOCPCNAB_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : nECKOCPCNAB_;
         } else {
           return nECKOCPCNABBuilder_.getMessage();
         }
@@ -1724,7 +1724,7 @@ public final class FEAMAENBJPCOuterClass {
       /**
        * <code>._CurrentPhase NECKOCPCNAB = 9;</code>
        */
-      public Builder setNECKOCPCNAB(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+      public Builder setNECKOCPCNAB(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (nECKOCPCNABBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1741,7 +1741,7 @@ public final class FEAMAENBJPCOuterClass {
        * <code>._CurrentPhase NECKOCPCNAB = 9;</code>
        */
       public Builder setNECKOCPCNAB(
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder builderForValue) {
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder builderForValue) {
         if (nECKOCPCNABBuilder_ == null) {
           nECKOCPCNAB_ = builderForValue.build();
           onChanged();
@@ -1754,11 +1754,11 @@ public final class FEAMAENBJPCOuterClass {
       /**
        * <code>._CurrentPhase NECKOCPCNAB = 9;</code>
        */
-      public Builder mergeNECKOCPCNAB(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+      public Builder mergeNECKOCPCNAB(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (nECKOCPCNABBuilder_ == null) {
           if (nECKOCPCNAB_ != null) {
             nECKOCPCNAB_ =
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.newBuilder(nECKOCPCNAB_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.newBuilder(nECKOCPCNAB_).mergeFrom(value).buildPartial();
           } else {
             nECKOCPCNAB_ = value;
           }
@@ -1786,7 +1786,7 @@ public final class FEAMAENBJPCOuterClass {
       /**
        * <code>._CurrentPhase NECKOCPCNAB = 9;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder getNECKOCPCNABBuilder() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder getNECKOCPCNABBuilder() {
         
         onChanged();
         return getNECKOCPCNABFieldBuilder().getBuilder();
@@ -1794,23 +1794,23 @@ public final class FEAMAENBJPCOuterClass {
       /**
        * <code>._CurrentPhase NECKOCPCNAB = 9;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getNECKOCPCNABOrBuilder() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getNECKOCPCNABOrBuilder() {
         if (nECKOCPCNABBuilder_ != null) {
           return nECKOCPCNABBuilder_.getMessageOrBuilder();
         } else {
           return nECKOCPCNAB_ == null ?
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : nECKOCPCNAB_;
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : nECKOCPCNAB_;
         }
       }
       /**
        * <code>._CurrentPhase NECKOCPCNAB = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> 
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
           getNECKOCPCNABFieldBuilder() {
         if (nECKOCPCNABBuilder_ == null) {
           nECKOCPCNABBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder>(
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder>(
                   getNECKOCPCNAB(),
                   getParentForChildren(),
                   isClean());
@@ -2017,9 +2017,9 @@ public final class FEAMAENBJPCOuterClass {
         return pNFMAMOFHHNBuilder_;
       }
 
-      private emu.grasscutter.net.proto.CurrentPhase._CurrentPhase hGDAMCKDNDN_;
+      private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase hGDAMCKDNDN_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> hGDAMCKDNDNBuilder_;
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> hGDAMCKDNDNBuilder_;
       /**
        * <code>._CurrentPhase HGDAMCKDNDN = 12;</code>
        * @return Whether the hGDAMCKDNDN field is set.
@@ -2031,9 +2031,9 @@ public final class FEAMAENBJPCOuterClass {
        * <code>._CurrentPhase HGDAMCKDNDN = 12;</code>
        * @return The hGDAMCKDNDN.
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getHGDAMCKDNDN() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getHGDAMCKDNDN() {
         if (hGDAMCKDNDNBuilder_ == null) {
-          return hGDAMCKDNDN_ == null ? emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : hGDAMCKDNDN_;
+          return hGDAMCKDNDN_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : hGDAMCKDNDN_;
         } else {
           return hGDAMCKDNDNBuilder_.getMessage();
         }
@@ -2041,7 +2041,7 @@ public final class FEAMAENBJPCOuterClass {
       /**
        * <code>._CurrentPhase HGDAMCKDNDN = 12;</code>
        */
-      public Builder setHGDAMCKDNDN(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+      public Builder setHGDAMCKDNDN(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (hGDAMCKDNDNBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2058,7 +2058,7 @@ public final class FEAMAENBJPCOuterClass {
        * <code>._CurrentPhase HGDAMCKDNDN = 12;</code>
        */
       public Builder setHGDAMCKDNDN(
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder builderForValue) {
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder builderForValue) {
         if (hGDAMCKDNDNBuilder_ == null) {
           hGDAMCKDNDN_ = builderForValue.build();
           onChanged();
@@ -2071,11 +2071,11 @@ public final class FEAMAENBJPCOuterClass {
       /**
        * <code>._CurrentPhase HGDAMCKDNDN = 12;</code>
        */
-      public Builder mergeHGDAMCKDNDN(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
+      public Builder mergeHGDAMCKDNDN(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
         if (hGDAMCKDNDNBuilder_ == null) {
           if (hGDAMCKDNDN_ != null) {
             hGDAMCKDNDN_ =
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.newBuilder(hGDAMCKDNDN_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.newBuilder(hGDAMCKDNDN_).mergeFrom(value).buildPartial();
           } else {
             hGDAMCKDNDN_ = value;
           }
@@ -2103,7 +2103,7 @@ public final class FEAMAENBJPCOuterClass {
       /**
        * <code>._CurrentPhase HGDAMCKDNDN = 12;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder getHGDAMCKDNDNBuilder() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder getHGDAMCKDNDNBuilder() {
         
         onChanged();
         return getHGDAMCKDNDNFieldBuilder().getBuilder();
@@ -2111,23 +2111,23 @@ public final class FEAMAENBJPCOuterClass {
       /**
        * <code>._CurrentPhase HGDAMCKDNDN = 12;</code>
        */
-      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getHGDAMCKDNDNOrBuilder() {
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getHGDAMCKDNDNOrBuilder() {
         if (hGDAMCKDNDNBuilder_ != null) {
           return hGDAMCKDNDNBuilder_.getMessageOrBuilder();
         } else {
           return hGDAMCKDNDN_ == null ?
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : hGDAMCKDNDN_;
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : hGDAMCKDNDN_;
         }
       }
       /**
        * <code>._CurrentPhase HGDAMCKDNDN = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> 
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
           getHGDAMCKDNDNFieldBuilder() {
         if (hGDAMCKDNDNBuilder_ == null) {
           hGDAMCKDNDNBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder>(
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder>(
                   getHGDAMCKDNDN(),
                   getParentForChildren(),
                   isClean());
@@ -2243,15 +2243,15 @@ public final class FEAMAENBJPCOuterClass {
       "AB\030\t \001(\0132\016._CurrentPhase\022\023\n\013POGPHDLNFFL\030" +
       "\n \003(\005\022!\n\013PNFMAMOFHHN\030\013 \001(\0132\014.FJFKBKCECBC" +
       "\022#\n\013HGDAMCKDNDN\030\014 \001(\0132\016._CurrentPhase\022\023\n" +
-      "\013MCGOLBFHCJI\030\r \001(\010B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\013MCGOLBFHCJI\030\r \001(\010B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025FEAMAENBJPCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.FJFKBKCECBCOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.VectorOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.CurrentPhase.getDescriptor(),
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor(),
         });
     internal_static_FEAMAENBJPC_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2261,7 +2261,7 @@ public final class FEAMAENBJPCOuterClass {
         new java.lang.String[] { "KPEOPGPENGN", "GOKMKDKPBEK", "MIKFCHLALBN", "DKKGNMHFHOI", "BAFDBADGIKI", "MPCANOANMNM", "Rot", "OLIPGCONBJC", "NECKOCPCNAB", "POGPHDLNFFL", "PNFMAMOFHHN", "HGDAMCKDNDN", "MCGOLBFHCJI", });
     emu.grasscutter.net.proto.FJFKBKCECBCOuterClass.getDescriptor();
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.CurrentPhase.getDescriptor();
+    emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

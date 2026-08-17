@@ -659,7 +659,8 @@ public final class CEBJMIEOBBAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CEBJMIEOBBA.proto\032\021OGOGJMDFMGF.proto\")" +
       "\n\013CEBJMIEOBBA\022\032\n\004info\030\007 \001(\0132\014.OGOGJMDFMG" +
-      "FB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "FB2\n\031emu.grasscutter.net.protoB\025CEBJMIEO" +
+      "BBAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

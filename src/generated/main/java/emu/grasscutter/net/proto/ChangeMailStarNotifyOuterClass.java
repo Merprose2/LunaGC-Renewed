@@ -724,8 +724,8 @@ public final class ChangeMailStarNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032ChangeMailStarNotify.proto\"=\n\024ChangeMa" +
       "ilStarNotify\022\017\n\007is_star\030\002 \001(\010\022\024\n\014mail_id" +
-      "_list\030\016 \003(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "_list\030\016 \003(\rB;\n\031emu.grasscutter.net.proto" +
+      "B\036ChangeMailStarNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -824,8 +824,9 @@ public final class AbilityMetaBatchGlobalFloatValueOuterClass {
       "\n&AbilityMetaBatchGlobalFloatValue.proto" +
       "\032\035AbilityScalarValueEntry.proto\"Q\n Abili" +
       "tyMetaBatchGlobalFloatValue\022-\n\013FKCPEMKOE" +
-      "BP\030\n \003(\0132\030.AbilityScalarValueEntryB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "BP\030\n \003(\0132\030.AbilityScalarValueEntryBG\n\031em" +
+      "u.grasscutter.net.protoB*AbilityMetaBatc" +
+      "hGlobalFloatValueOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

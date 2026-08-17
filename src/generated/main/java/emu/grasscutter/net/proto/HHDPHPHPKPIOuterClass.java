@@ -668,8 +668,8 @@ public final class HHDPHPHPKPIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HHDPHPHPKPI.proto\"I\n\013HHDPHPHPKPI\022\020\n\010is" +
       "_agree\030\004 \001(\010\022\023\n\013JCFPEEIKJCH\030\007 \001(\010\022\023\n\013EPH" +
-      "GOMPBKJA\030\016 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "GOMPBKJA\030\016 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025HHDPHPHPKPIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

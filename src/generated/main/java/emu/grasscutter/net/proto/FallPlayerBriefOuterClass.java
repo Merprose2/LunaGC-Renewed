@@ -659,8 +659,8 @@ public final class FallPlayerBriefOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025FallPlayerBrief.proto\"@\n\017FallPlayerBri" +
       "ef\022\r\n\005score\030\010 \001(\r\022\013\n\003uid\030\r \001(\r\022\021\n\tis_gro" +
-      "und\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "und\030\017 \001(\010B6\n\031emu.grasscutter.net.protoB\031" +
+      "FallPlayerBriefOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1102,7 +1102,8 @@ public final class PFMBDIHCIFEOuterClass {
       "\n\021PFMBDIHCIFE.proto\"c\n\013PFMBDIHCIFE\022\023\n\013ON" +
       "HOGNCFKHA\030\005 \003(\r\022\023\n\013KDNIAEMFEOG\030\013 \003(\r\022\023\n\013" +
       "JKEFJOIGOEC\030\014 \003(\r\022\025\n\rcontroller_id\030\r \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025PFMBDIHCI" +
+      "FEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

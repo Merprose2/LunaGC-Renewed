@@ -588,8 +588,8 @@ public final class FeatureBlockInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026FeatureBlockInfo.proto\":\n\020FeatureBlock" +
       "Info\022\024\n\014feature_type\030\001 \001(\r\022\020\n\010end_time\030\002" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB7\n\031emu.grasscutter.net.protoB\032Featu" +
+      "reBlockInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

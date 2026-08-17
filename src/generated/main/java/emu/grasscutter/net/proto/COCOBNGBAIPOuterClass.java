@@ -1611,8 +1611,9 @@ public final class COCOBNGBAIPOuterClass {
       "new_record\030\003 \001(\010\022!\n\013DKEHFBLFPJP\030\004 \003(\0132\014." +
       "IHNALHEKDID\022!\n\013KDFMEPMGGHJ\030\006 \003(\0132\014.DDBND" +
       "HNGEMF\022\026\n\016_cur_round_num\030\007 \001(\r\022\023\n\013IAIEKE" +
-      "HNIMC\030\n \003(\r\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "HNIMC\030\n \003(\r\022\017\n\007retcode\030\013 \001(\005B2\n\031emu.gras" +
+      "scutter.net.protoB\025COCOBNGBAIPOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

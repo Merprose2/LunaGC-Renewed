@@ -201,8 +201,8 @@ public final class MGGEEKNOAAGOuterClass {
       "DAL_SUPERSTITION\020\004\022\034\n\030MGGEEKNOAAG_INFRIN" +
       "GEMENT\020\005\022\026\n\022MGGEEKNOAAG_MINORS\020\006\022\032\n\026MGGE" +
       "EKNOAAG_HARASSMENT\020\007\022\030\n\024MGGEEKNOAAG_INCI" +
-      "TING\020\010B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "TING\020\010B2\n\031emu.grasscutter.net.protoB\025MGG" +
+      "EEKNOAAGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

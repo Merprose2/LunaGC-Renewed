@@ -667,8 +667,8 @@ public final class EFMKHNAGOLFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EFMKHNAGOLF.proto\"B\n\013EFMKHNAGOLF\022\020\n\010is" +
       "_agree\030\002 \001(\010\022\017\n\007retcode\030\004 \001(\005\022\020\n\010draft_i" +
-      "d\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "d\030\016 \001(\rB2\n\031emu.grasscutter.net.protoB\025EF" +
+      "MKHNAGOLFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

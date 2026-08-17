@@ -898,8 +898,9 @@ public final class CrystalLinkTeamInfoOuterClass {
       "\n\031CrystalLinkTeamInfo.proto\032\031CrystalLink" +
       "BuffInfo.proto\"]\n\023CrystalLinkTeamInfo\022\030\n" +
       "\020avatar_info_list\030\014 \001(\014\022,\n\016buff_info_lis" +
-      "t\030\r \003(\0132\024.CrystalLinkBuffInfoB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "t\030\r \003(\0132\024.CrystalLinkBuffInfoB:\n\031emu.gra" +
+      "sscutter.net.protoB\035CrystalLinkTeamInfoO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

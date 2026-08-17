@@ -893,8 +893,9 @@ public final class HBPEIHMEMOMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HBPEIHMEMOM.proto\032\020Uint32Pair.proto\"?\n" +
       "\013HBPEIHMEMOM\022\020\n\010skill_id\030\002 \001(\r\022\036\n\tcost_l" +
-      "ist\030\014 \003(\0132\013.Uint32PairB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "ist\030\014 \003(\0132\013.Uint32PairB2\n\031emu.grasscutte" +
+      "r.net.protoB\025HBPEIHMEMOMOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

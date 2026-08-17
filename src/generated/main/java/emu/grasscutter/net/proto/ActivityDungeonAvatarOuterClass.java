@@ -659,8 +659,9 @@ public final class ActivityDungeonAvatarOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033ActivityDungeonAvatar.proto\"P\n\025Activit" +
       "yDungeonAvatar\022\021\n\tavatar_id\030\001 \001(\r\022\020\n\010is_" +
-      "trial\030\002 \001(\010\022\022\n\ncostume_id\030\003 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "trial\030\002 \001(\010\022\022\n\ncostume_id\030\003 \001(\rB<\n\031emu.g" +
+      "rasscutter.net.protoB\037ActivityDungeonAva" +
+      "tarOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

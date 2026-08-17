@@ -879,8 +879,9 @@ public final class KMHMJBLLPCDOuterClass {
       "\n\021KMHMJBLLPCD.proto\"\202\001\n\013KMHMJBLLPCD\022\020\n\010l" +
       "evel_id\030\001 \001(\r\022\r\n\005score\030\007 \001(\r\022\023\n\013DFKIABOH" +
       "AMO\030\t \001(\r\022\022\n\ndifficulty\030\013 \001(\r\022\025\n\ris_new_" +
-      "record\030\014 \001(\010\022\022\n\nis_success\030\r \001(\010B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "record\030\014 \001(\010\022\022\n\nis_success\030\r \001(\010B2\n\031emu." +
+      "grasscutter.net.protoB\025KMHMJBLLPCDOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

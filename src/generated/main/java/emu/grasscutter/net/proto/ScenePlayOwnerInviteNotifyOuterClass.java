@@ -668,8 +668,9 @@ public final class ScenePlayOwnerInviteNotifyOuterClass {
       "\n ScenePlayOwnerInviteNotify.proto\"Z\n\032Sc" +
       "enePlayOwnerInviteNotify\022\021\n\tinvite_cd\030\013 " +
       "\001(\r\022\017\n\007play_id\030\r \001(\r\022\030\n\020is_remain_reward" +
-      "\030\016 \001(\010B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\016 \001(\010BA\n\031emu.grasscutter.net.protoB$Sce" +
+      "nePlayOwnerInviteNotifyOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

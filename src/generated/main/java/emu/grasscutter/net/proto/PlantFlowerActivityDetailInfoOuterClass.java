@@ -1357,8 +1357,9 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       "HPICEEntry\022\031\n\021is_content_closed\030\017 \001(\010\0322\n" +
       "\020JOIMIBFDKBAEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030" +
       "\002 \001(\r:\0028\001\0322\n\020NKAHFKHPICEEntry\022\013\n\003key\030\001 \001" +
-      "(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "(\r\022\r\n\005value\030\002 \001(\r:\0028\001BD\n\031emu.grasscutter" +
+      ".net.protoB\'PlantFlowerActivityDetailInf" +
+      "oOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

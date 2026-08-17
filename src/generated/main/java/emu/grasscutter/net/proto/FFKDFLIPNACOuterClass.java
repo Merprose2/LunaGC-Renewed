@@ -1088,8 +1088,8 @@ public final class FFKDFLIPNACOuterClass {
       "\n\021FFKDFLIPNAC.proto\032\021OBCDPPKPFBK.proto\"X" +
       "\n\013FFKDFLIPNAC\022\037\n\tdata_list\030\001 \003(\0132\014.OBCDP" +
       "PKPFBK\022\023\n\013EMANIBOEMEJ\030\002 \001(\r\022\023\n\013ABJEHNPIB" +
-      "DJ\030\003 \003(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "DJ\030\003 \003(\rB2\n\031emu.grasscutter.net.protoB\025F" +
+      "FKDFLIPNACOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

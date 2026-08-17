@@ -730,8 +730,9 @@ public final class UpdateReunionWatcherNotifyOuterClass {
       "\n UpdateReunionWatcherNotify.proto\032\030Reun" +
       "ionWatcherInfo.proto\"[\n\032UpdateReunionWat" +
       "cherNotify\022\022\n\nmission_id\030\003 \001(\r\022)\n\014watche" +
-      "r_info\030\014 \001(\0132\023.ReunionWatcherInfoB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "r_info\030\014 \001(\0132\023.ReunionWatcherInfoBA\n\031emu" +
+      ".grasscutter.net.protoB$UpdateReunionWat" +
+      "cherNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1140,7 +1140,8 @@ public final class BHCCFIAPMIGOuterClass {
       "\013FFBAFKLGHCL\030\003 \001(\010\022\023\n\013BGLEBKDFHNO\030\004 \001(\r\022" +
       "\023\n\013IDKDNACLCAO\030\005 \001(\r\022\023\n\013AIFEJOGBAKK\030\006 \003(" +
       "\004\022\023\n\013MCAHECJBPFO\030\007 \001(\r\022\023\n\013CDJLPLGECNP\030\010 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025BHCCFI" +
+      "APMIGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

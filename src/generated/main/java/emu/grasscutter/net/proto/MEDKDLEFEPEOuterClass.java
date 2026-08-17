@@ -659,8 +659,8 @@ public final class MEDKDLEFEPEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MEDKDLEFEPE.proto\"O\n\013MEDKDLEFEPE\022\024\n\013EH" +
       "BKOHIHCOK\030\366\003 \001(\005\022\024\n\013GHOJAFOMAPF\030\367\003 \001(\010\022\024" +
-      "\n\013HEAEDIBENDA\030\370\003 \001(\005B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\n\013HEAEDIBENDA\030\370\003 \001(\005B2\n\031emu.grasscutter." +
+      "net.protoB\025MEDKDLEFEPEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

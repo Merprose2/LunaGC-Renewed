@@ -667,8 +667,9 @@ public final class EffigyChallengeV2ChooseSkillRspOuterClass {
       "\n%EffigyChallengeV2ChooseSkillRsp.proto\"" +
       "e\n\037EffigyChallengeV2ChooseSkillRsp\022\017\n\007re" +
       "tcode\030\001 \001(\005\022\020\n\010level_id\030\004 \001(\r\022\037\n\027challen" +
-      "ge_mode_skill_no\030\005 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "ge_mode_skill_no\030\005 \001(\rBF\n\031emu.grasscutte" +
+      "r.net.protoB)EffigyChallengeV2ChooseSkil" +
+      "lRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

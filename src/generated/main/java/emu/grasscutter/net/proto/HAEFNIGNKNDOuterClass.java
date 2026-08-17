@@ -738,8 +738,9 @@ public final class HAEFNIGNKNDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HAEFNIGNKND.proto\"Z\n\013HAEFNIGNKND\022\021\n\tco" +
       "st_time\030\002 \001(\r\022\017\n\007is_succ\030\003 \001(\010\022\020\n\010level_" +
-      "id\030\t \001(\r\022\025\n\ris_new_record\030\017 \001(\010B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "id\030\t \001(\r\022\025\n\ris_new_record\030\017 \001(\010B2\n\031emu.g" +
+      "rasscutter.net.protoB\025HAEFNIGNKNDOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

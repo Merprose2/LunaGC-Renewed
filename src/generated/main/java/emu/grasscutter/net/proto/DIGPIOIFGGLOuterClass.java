@@ -1129,8 +1129,8 @@ public final class DIGPIOIFGGLOuterClass {
       "\001\n\013DIGPIOIFGGL\022\023\n\013KNHLPBKIAHH\030\001 \001(\r\022\036\n\010p" +
       "osition\030\002 \001(\0132\014.HHEDHCFPEKM\022\036\n\010rotation\030" +
       "\003 \001(\0132\014.HHEDHCFPEKM\022!\n\013OLIPGCONBJC\030\004 \001(\013" +
-      "2\014.HHEDHCFPEKMB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "2\014.HHEDHCFPEKMB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025DIGPIOIFGGLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

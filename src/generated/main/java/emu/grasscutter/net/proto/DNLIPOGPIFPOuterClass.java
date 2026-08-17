@@ -595,8 +595,9 @@ public final class DNLIPOGPIFPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DNLIPOGPIFP.proto\"7\n\013DNLIPOGPIFP\022\023\n\013LB" +
-      "EFLBFFNBM\030\003 \001(\r\022\023\n\013BFEGBOJCNMI\030\r \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "EFLBFFNBM\030\003 \001(\r\022\023\n\013BFEGBOJCNMI\030\r \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025DNLIPOGPIFPOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

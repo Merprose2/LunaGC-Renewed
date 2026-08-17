@@ -721,8 +721,9 @@ public final class EvtFaceToDirInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026EvtFaceToDirInfo.proto\032\014Vector.proto\"@" +
       "\n\020EvtFaceToDirInfo\022\031\n\010face_dir\030\013 \001(\0132\007.V" +
-      "ector\022\021\n\tentity_id\030\014 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "ector\022\021\n\tentity_id\030\014 \001(\rB7\n\031emu.grasscut" +
+      "ter.net.protoB\032EvtFaceToDirInfoOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

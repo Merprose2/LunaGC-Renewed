@@ -2066,8 +2066,8 @@ public final class GGEFFDMHDNNOuterClass {
       "\013IDMOJMKNNGO\030\010 \001(\010\022\021\n\tonline_id\030\t \001(\t\022\026\n" +
       "\016_xbox_gamertag\030\n \001(\t\022\r\n\005_xuid\030\013 \001(\t\022$\n\r" +
       "platform_type\030\014 \001(\0162\r.PlatformType\022\023\n\013BO" +
-      "LEFMKNCDD\030\r \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "LEFMKNCDD\030\r \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025GGEFFDMHDNNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

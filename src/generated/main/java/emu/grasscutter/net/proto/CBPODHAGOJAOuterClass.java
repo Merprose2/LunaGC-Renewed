@@ -855,8 +855,8 @@ public final class CBPODHAGOJAOuterClass {
       "\n\021CBPODHAGOJA.proto\032\021GABPIGANKEF.proto\"U" +
       "\n\013CBPODHAGOJA\022\"\n\013GLPMIBNCKIP\030\365\003 \001(\0132\014.GA" +
       "BPIGANKEF\022\"\n\013OHFCEAFMCCK\030\366\003 \001(\0132\014.GABPIG" +
-      "ANKEFB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "ANKEFB2\n\031emu.grasscutter.net.protoB\025CBPO" +
+      "DHAGOJAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

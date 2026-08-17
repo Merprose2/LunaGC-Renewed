@@ -518,7 +518,8 @@ public final class SceneGalleryCrystalLinkInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n!SceneGalleryCrystalLinkInfo.proto\",\n\033S" +
       "ceneGalleryCrystalLinkInfo\022\r\n\005score\030\010 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rBB\n\031emu.grasscutter.net.protoB%SceneGal" +
+      "leryCrystalLinkInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

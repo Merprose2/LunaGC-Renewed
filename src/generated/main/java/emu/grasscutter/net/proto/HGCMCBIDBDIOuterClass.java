@@ -855,8 +855,9 @@ public final class HGCMCBIDBDIOuterClass {
       "\n\021HGCMCBIDBDI.proto\032\021BPAEPJHBOFM.proto\032\021" +
       "IENEHEFGKNN.proto\"S\n\013HGCMCBIDBDI\022!\n\013ABGE" +
       "OCNDMOG\030\010 \001(\0132\014.BPAEPJHBOFM\022!\n\013KFAAJPHDM" +
-      "AL\030\017 \001(\0132\014.IENEHEFGKNNB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "AL\030\017 \001(\0132\014.IENEHEFGKNNB2\n\031emu.grasscutte" +
+      "r.net.protoB\025HGCMCBIDBDIOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

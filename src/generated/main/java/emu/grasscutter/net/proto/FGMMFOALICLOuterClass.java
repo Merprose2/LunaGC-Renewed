@@ -454,8 +454,9 @@ public final class FGMMFOALICLOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021FGMMFOALICL.proto\"\r\n\013FGMMFOALICLB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021FGMMFOALICL.proto\"\r\n\013FGMMFOALICLB2\n\031em" +
+      "u.grasscutter.net.protoB\025FGMMFOALICLOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

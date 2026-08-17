@@ -1062,7 +1062,8 @@ public final class InBattleIrodoriChessInfoOuterClass {
       "ilding_points\030\t \001(\r\022\035\n\025selected_card_id_" +
       "list\030\n \003(\r\022\025\n\rleft_monsters\030\014 \001(\r\022.\n\014mys" +
       "tery_info\030\016 \001(\0132\030.IrodoriChessMysteryInf" +
-      "oB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "oB?\n\031emu.grasscutter.net.protoB\"InBattle" +
+      "IrodoriChessInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

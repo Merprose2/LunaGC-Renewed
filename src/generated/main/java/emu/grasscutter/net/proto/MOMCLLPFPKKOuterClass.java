@@ -595,8 +595,9 @@ public final class MOMCLLPFPKKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MOMCLLPFPKK.proto\"2\n\013MOMCLLPFPKK\022\022\n\nta" +
-      "rget_uid\030\010 \001(\r\022\017\n\007retcode\030\014 \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "rget_uid\030\010 \001(\r\022\017\n\007retcode\030\014 \001(\005B2\n\031emu.g" +
+      "rasscutter.net.protoB\025MOMCLLPFPKKOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

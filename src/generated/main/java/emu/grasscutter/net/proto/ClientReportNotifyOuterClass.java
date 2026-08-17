@@ -756,8 +756,8 @@ public final class ClientReportNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030ClientReportNotify.proto\"?\n\022ClientRepo" +
       "rtNotify\022\024\n\014report_value\030\003 \001(\t\022\023\n\013report" +
-      "_type\030\016 \001(\tB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "_type\030\016 \001(\tB9\n\031emu.grasscutter.net.proto" +
+      "B\034ClientReportNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

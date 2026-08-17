@@ -1291,7 +1291,8 @@ public final class SaveMainCoopReqOuterClass {
       "ONMHLPABBFEntry\0322\n\020KAFJENECJNCEntry\022\013\n\003k" +
       "ey\030\001 \001(\r\022\r\n\005value\030\002 \001(\005:\0028\001\0322\n\020HONMHLPAB" +
       "BFEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\005:\0028\001B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "6\n\031emu.grasscutter.net.protoB\031SaveMainCo" +
+      "opReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -801,8 +801,8 @@ public final class ABEIGMGNEAIOuterClass {
       "\n\021ABEIGMGNEAI.proto\032\021FEAMAENBJPC.proto\"U" +
       "\n\013ABEIGMGNEAI\022!\n\013IEOFCILLNLM\030\003 \001(\0132\014.FEA" +
       "MAENBJPC\022\016\n\006is_add\030\006 \001(\010\022\023\n\013KMDOFBPMGAI\030" +
-      "\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\014 \001(\rB2\n\031emu.grasscutter.net.protoB\025ABEI" +
+      "GMGNEAIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

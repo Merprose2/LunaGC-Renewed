@@ -660,8 +660,9 @@ public final class AbilityMixinDamageLoanOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034AbilityMixinDamageLoan.proto\"U\n\026Abilit" +
       "yMixinDamageLoan\022\023\n\013PJKNKGGNODM\030\t \001(\002\022\023\n" +
-      "\013KGBMFNBIFEL\030\013 \001(\r\022\021\n\ttarget_id\030\r \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\013KGBMFNBIFEL\030\013 \001(\r\022\021\n\ttarget_id\030\r \001(\rB=\n" +
+      "\031emu.grasscutter.net.protoB AbilityMixin" +
+      "DamageLoanOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

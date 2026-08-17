@@ -729,8 +729,9 @@ public final class JBKJBOLANPPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JBKJBOLANPP.proto\"Q\n\013JBKJBOLANPP\022\023\n\013OA" +
       "CIBKFOBIM\030\001 \001(\r\022\n\n\002id\030\004 \001(\r\022\014\n\004type\030\006 \001(" +
-      "\r\022\023\n\013CHMKEDMLJKI\030\013 \001(\020B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\r\022\023\n\013CHMKEDMLJKI\030\013 \001(\020B2\n\031emu.grasscutte" +
+      "r.net.protoB\025JBKJBOLANPPOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

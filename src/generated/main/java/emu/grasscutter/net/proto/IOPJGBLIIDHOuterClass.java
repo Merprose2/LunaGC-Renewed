@@ -133,8 +133,8 @@ public final class IOPJGBLIIDHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IOPJGBLIIDH.proto*D\n\013IOPJGBLIIDH\022\024\n\020IO" +
       "PJGBLIIDH_NONE\020\000\022\037\n\033IOPJGBLIIDH_VALUE_ST" +
-      "RUCTURE\020\001B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "RUCTURE\020\001B2\n\031emu.grasscutter.net.protoB\025" +
+      "IOPJGBLIIDHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

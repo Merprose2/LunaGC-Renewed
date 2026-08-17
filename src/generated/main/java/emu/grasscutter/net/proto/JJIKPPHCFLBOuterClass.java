@@ -659,8 +659,8 @@ public final class JJIKPPHCFLBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JJIKPPHCFLB.proto\032\026SceneGalleryInfo.pr" +
       "oto\"6\n\013JJIKPPHCFLB\022\'\n\014gallery_info\030\003 \001(\013" +
-      "2\021.SceneGalleryInfoB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "2\021.SceneGalleryInfoB2\n\031emu.grasscutter.n" +
+      "et.protoB\025JJIKPPHCFLBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

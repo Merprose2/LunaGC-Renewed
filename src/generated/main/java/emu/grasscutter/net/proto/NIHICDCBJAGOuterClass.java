@@ -652,8 +652,8 @@ public final class NIHICDCBJAGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NIHICDCBJAG.proto\"\037\n\013NIHICDCBJAG\022\020\n\010ta" +
-      "g_list\030\001 \003(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "g_list\030\001 \003(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025NIHICDCBJAGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

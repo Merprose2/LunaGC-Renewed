@@ -819,8 +819,8 @@ public final class BDBIINCBFEKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BDBIINCBFEK.proto\"L\n\013BDBIINCBFEK\022\023\n\013PF" +
       "BFPLFLKCD\030\001 \001(\010\022\023\n\013JCBODHMMCCI\030\002 \001(\t\022\023\n\013" +
-      "LJMKGJCEMNG\030\003 \001(\tB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "LJMKGJCEMNG\030\003 \001(\tB2\n\031emu.grasscutter.net" +
+      ".protoB\025BDBIINCBFEKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

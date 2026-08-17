@@ -660,8 +660,9 @@ public final class ElectroherculesBattleLevelInfoOuterClass {
       "\n$ElectroherculesBattleLevelInfo.proto\"^" +
       "\n\036ElectroherculesBattleLevelInfo\022\021\n\tis_f" +
       "inish\030\005 \001(\010\022\020\n\010level_id\030\013 \001(\r\022\027\n\017min_fin" +
-      "ish_time\030\r \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "ish_time\030\r \001(\rBE\n\031emu.grasscutter.net.pr" +
+      "otoB(ElectroherculesBattleLevelInfoOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

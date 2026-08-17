@@ -704,8 +704,9 @@ public final class DropItemRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DropItemRsp.proto\032\017StoreType.proto\"L\n\013" +
       "DropItemRsp\022\014\n\004guid\030\004 \001(\004\022\017\n\007retcode\030\010 \001" +
-      "(\005\022\036\n\nstore_type\030\n \001(\0162\n.StoreTypeB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "(\005\022\036\n\nstore_type\030\n \001(\0162\n.StoreTypeB2\n\031em" +
+      "u.grasscutter.net.protoB\025DropItemRspOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

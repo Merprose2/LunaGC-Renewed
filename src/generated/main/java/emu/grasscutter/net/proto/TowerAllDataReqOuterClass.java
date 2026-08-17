@@ -526,8 +526,9 @@ public final class TowerAllDataReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025TowerAllDataReq.proto\"&\n\017TowerAllDataR" +
-      "eq\022\023\n\013is_interact\030\002 \001(\010B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "eq\022\023\n\013is_interact\030\002 \001(\010B6\n\031emu.grasscutt" +
+      "er.net.protoB\031TowerAllDataReqOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

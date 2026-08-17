@@ -143,8 +143,9 @@ public final class IslandPartySailStageOuterClass {
       "\n\032IslandPartySailStage.proto*u\n\024IslandPa" +
       "rtySailStage\022\035\n\031IslandPartySailStage_NON" +
       "E\020\000\022\035\n\031IslandPartySailStage_SAIL\020\001\022\037\n\033Is" +
-      "landPartySailStage_BATTLE\020\002B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "landPartySailStage_BATTLE\020\002B;\n\031emu.grass" +
+      "cutter.net.protoB\036IslandPartySailStageOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -779,8 +779,9 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       "opChangeReason.proto\"z\n\034PlayerPropChange" +
       "ReasonNotify\022\021\n\tprop_type\030\003 \001(\r\022!\n\006reaso" +
       "n\030\010 \001(\0162\021.PropChangeReason\022\021\n\tcur_value\030" +
-      "\014 \001(\002\022\021\n\told_value\030\017 \001(\002B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\014 \001(\002\022\021\n\told_value\030\017 \001(\002BC\n\031emu.grasscut" +
+      "ter.net.protoB&PlayerPropChangeReasonNot" +
+      "ifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

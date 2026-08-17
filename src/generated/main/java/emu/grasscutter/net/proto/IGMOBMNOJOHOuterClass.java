@@ -801,8 +801,8 @@ public final class IGMOBMNOJOHOuterClass {
       "\n\021IGMOBMNOJOH.proto\"k\n\013IGMOBMNOJOH\022\023\n\013HN" +
       "PNKCCPKND\030\005 \001(\010\022\023\n\013AJOLHDJOHEL\030\010 \001(\r\022\023\n\013" +
       "EPJBLDHANJJ\030\014 \001(\r\022\013\n\003uid\030\016 \001(\r\022\020\n\010is_rea" +
-      "dy\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "dy\030\017 \001(\010B2\n\031emu.grasscutter.net.protoB\025I" +
+      "GMOBMNOJOHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -282,8 +282,9 @@ public final class LNEIMOMFAJOOuterClass {
       "LNEIMOMFAJO_SET_STRUCT_MEMBER_ACTIVE_CON" +
       "TROLLER\020\016\022(\n$LNEIMOMFAJO_SET_STRUCT_MEMB" +
       "ER_MEMBER\020\017\022=\n9LNEIMOMFAJO_SELECT_SET_ST" +
-      "RUCT_MEMBER_ACTIVE_IN_PARAM_LIST\020\020B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "RUCT_MEMBER_ACTIVE_IN_PARAM_LIST\020\020B2\n\031em" +
+      "u.grasscutter.net.protoB\025LNEIMOMFAJOOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

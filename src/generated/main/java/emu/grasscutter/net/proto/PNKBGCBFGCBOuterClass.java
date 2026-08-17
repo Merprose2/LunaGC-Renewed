@@ -889,8 +889,8 @@ public final class PNKBGCBFGCBOuterClass {
       "\n\021PNKBGCBFGCB.proto\032\026FeatureBlockType.pr" +
       "oto\"W\n\013PNKBGCBFGCB\022\013\n\003uid\030\001 \001(\r\022\023\n\013LDKHO" +
       "KLNEBP\030\002 \001(\010\022&\n\013BJDNNEJJPOL\030\003 \003(\0162\021.Feat" +
-      "ureBlockTypeB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "ureBlockTypeB2\n\031emu.grasscutter.net.prot" +
+      "oB\025PNKBGCBFGCBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

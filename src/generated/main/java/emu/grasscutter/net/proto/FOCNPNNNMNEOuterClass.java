@@ -1337,8 +1337,9 @@ public final class FOCNPNNNMNEOuterClass {
       "LHJFODFKJOK.proto\"\211\001\n\013FOCNPNNNMNE\022\023\n\013PGB" +
       "AOEPCJFJ\030\003 \001(\005\022!\n\013DNDBLCJEMNN\030\006 \003(\0132\014.LH" +
       "JFODFKJOK\022\023\n\013AAFBDACLCHA\030\007 \001(\r\022-\n\027select" +
-      "ed_card_info_list\030\017 \003(\0132\014.LELMNNAPIJBB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "ed_card_info_list\030\017 \003(\0132\014.LELMNNAPIJBB2\n" +
+      "\031emu.grasscutter.net.protoB\025FOCNPNNNMNEO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

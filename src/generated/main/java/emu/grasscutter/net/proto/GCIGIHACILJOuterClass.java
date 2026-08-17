@@ -660,8 +660,8 @@ public final class GCIGIHACILJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GCIGIHACILJ.proto\"L\n\013GCIGIHACILJ\022\023\n\013OD" +
       "LHNBICJMC\030\001 \001(\005\022\023\n\013BNGPEDAOHFH\030\002 \001(\005\022\023\n\013" +
-      "EJAMNNCNJHF\030\003 \001(\002B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "EJAMNNCNJHF\030\003 \001(\002B2\n\031emu.grasscutter.net" +
+      ".protoB\025GCIGIHACILJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

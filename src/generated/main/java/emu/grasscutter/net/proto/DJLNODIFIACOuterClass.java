@@ -525,8 +525,8 @@ public final class DJLNODIFIACOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DJLNODIFIAC.proto\"\"\n\013DJLNODIFIAC\022\023\n\013sc" +
-      "hedule_id\030\003 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "hedule_id\030\003 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025DJLNODIFIACOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

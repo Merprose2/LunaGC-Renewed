@@ -162,8 +162,8 @@ public final class IHEEJNNBFFCOuterClass {
       "HEEJNNBFFC_NORMAL\020\000\022\034\n\030IHEEJNNBFFC_LOCAL" +
       "_BULLET\020\001\022\033\n\027IHEEJNNBFFC_DROP_GATHER\020\002\022\034" +
       "\n\030IHEEJNNBFFC_PREFAB_GROUP\020\003\022\033\n\027IHEEJNNB" +
-      "FFC_MONSTER_V_2\020\004B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "FFC_MONSTER_V_2\020\004B2\n\031emu.grasscutter.net" +
+      ".protoB\025IHEEJNNBFFCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

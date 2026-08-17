@@ -823,8 +823,8 @@ public final class AAOPFOCHIOEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AAOPFOCHIOE.proto\032\021AIALJFHLHAA.proto\"0" +
       "\n\013AAOPFOCHIOE\022!\n\013CHOJCOBNNNE\030\001 \003(\0132\014.AIA" +
-      "LJFHLHAAB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "LJFHLHAAB2\n\031emu.grasscutter.net.protoB\025A" +
+      "AOPFOCHIOEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

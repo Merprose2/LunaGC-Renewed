@@ -666,8 +666,8 @@ public final class JHNMFIHFEEDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JHNMFIHFEED.proto\"D\n\013JHNMFIHFEED\022\020\n\010po" +
       "int_id\030\002 \001(\r\022\017\n\007retcode\030\003 \001(\005\022\022\n\ndungeon" +
-      "_id\030\005 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\005 \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "JHNMFIHFEEDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

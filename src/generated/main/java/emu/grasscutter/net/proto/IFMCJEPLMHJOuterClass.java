@@ -893,8 +893,9 @@ public final class IFMCJEPLMHJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IFMCJEPLMHJ.proto\032\021JKELMHGICAI.proto\"B" +
       "\n\013IFMCJEPLMHJ\022\013\n\003uid\030\001 \001(\r\022&\n\020avatar_inf" +
-      "o_list\030\002 \003(\0132\014.JKELMHGICAIB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "o_list\030\002 \003(\0132\014.JKELMHGICAIB2\n\031emu.grassc" +
+      "utter.net.protoB\025IFMCJEPLMHJOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

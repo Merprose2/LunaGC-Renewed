@@ -785,8 +785,8 @@ public final class OHLKPELFNIAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OHLKPELFNIA.proto\"@\n\013OHLKPELFNIA\022\n\n\002id" +
       "\030\001 \001(\005\022\023\n\013JNLAPAGPMIG\030\002 \003(\r\022\020\n\010point_id\030" +
-      "\003 \001(\005B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\003 \001(\005B2\n\031emu.grasscutter.net.protoB\025OHLK" +
+      "PELFNIAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

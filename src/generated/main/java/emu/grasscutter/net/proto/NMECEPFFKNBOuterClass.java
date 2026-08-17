@@ -855,8 +855,9 @@ public final class NMECEPFFKNBOuterClass {
       "\n\021NMECEPFFKNB.proto\032\021FEMPNFGDCFA.proto\032\021" +
       "GNHNMEDNBMN.proto\"S\n\013NMECEPFFKNB\022!\n\013JMKH" +
       "DDLKDBL\030\001 \001(\0132\014.FEMPNFGDCFA\022!\n\013PIGGDMDEK" +
-      "BO\030\002 \001(\0132\014.GNHNMEDNBMNB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "BO\030\002 \001(\0132\014.GNHNMEDNBMNB2\n\031emu.grasscutte" +
+      "r.net.protoB\025NMECEPFFKNBOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

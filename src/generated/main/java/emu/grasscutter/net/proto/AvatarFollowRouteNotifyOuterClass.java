@@ -1021,8 +1021,9 @@ public final class AvatarFollowRouteNotifyOuterClass {
       "roto\"\214\001\n\027AvatarFollowRouteNotify\022\021\n\tenti" +
       "ty_id\030\004 \001(\r\022\023\n\013template_id\030\005 \001(\r\022\033\n\023star" +
       "t_scene_time_ms\030\t \001(\r\022\025\n\005route\030\013 \001(\0132\006.R" +
-      "oute\022\025\n\rclient_params\030\017 \001(\tB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "oute\022\025\n\rclient_params\030\017 \001(\tB>\n\031emu.grass" +
+      "cutter.net.protoB!AvatarFollowRouteNotif" +
+      "yOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

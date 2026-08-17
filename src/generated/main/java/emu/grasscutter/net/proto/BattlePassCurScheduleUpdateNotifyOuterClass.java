@@ -946,7 +946,9 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       " \001(\010\022\031\n\021have_cur_schedule\030\004 \001(\010\022\023\n\013HBHFB" +
       "AGFADF\030\010 \001(\010\022)\n\014cur_schedule\030\n \001(\0132\023.Bat" +
       "tlePassSchedule\022\031\n\021_battle_pass_plan\030\014 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rBH\n\031emu.grasscutter.net.protoB+BattleP" +
+      "assCurScheduleUpdateNotifyOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

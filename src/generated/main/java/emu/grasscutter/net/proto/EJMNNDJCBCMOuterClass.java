@@ -133,8 +133,8 @@ public final class EJMNNDJCBCMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EJMNNDJCBCM.proto*@\n\013EJMNNDJCBCM\022\032\n\026EJ" +
       "MNNDJCBCM_INDIVIDUAL\020\000\022\025\n\021EJMNNDJCBCM_GR" +
-      "OUP\020\001B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "OUP\020\001B2\n\031emu.grasscutter.net.protoB\025EJMN" +
+      "NDJCBCMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

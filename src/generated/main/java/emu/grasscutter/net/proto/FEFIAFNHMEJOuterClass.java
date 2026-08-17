@@ -894,8 +894,9 @@ public final class FEFIAFNHMEJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FEFIAFNHMEJ.proto\032\021DOCLMNIGCPK.proto\"G" +
       "\n\013FEFIAFNHMEJ\022\"\n\013CBBOLNGJNLG\030\365\003 \003(\0132\014.DO" +
-      "CLMNIGCPK\022\024\n\013CNEKFPHBFEE\030\366\003 \001(\010B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "CLMNIGCPK\022\024\n\013CNEKFPHBFEE\030\366\003 \001(\010B2\n\031emu.g" +
+      "rasscutter.net.protoB\025FEFIAFNHMEJOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

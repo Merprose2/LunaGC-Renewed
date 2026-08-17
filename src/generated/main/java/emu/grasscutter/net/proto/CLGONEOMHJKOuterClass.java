@@ -676,8 +676,9 @@ public final class CLGONEOMHJKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CLGONEOMHJK.proto\"6\n\013CLGONEOMHJK\022\023\n\013MI" +
-      "IBFGNGJEI\030\t \001(\t\022\022\n\n_hall_guid\030\r \001(\004B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "IBFGNGJEI\030\t \001(\t\022\022\n\n_hall_guid\030\r \001(\004B2\n\031e" +
+      "mu.grasscutter.net.protoB\025CLGONEOMHJKOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

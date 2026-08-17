@@ -27,11 +27,11 @@ public final class BGAHBIHEDDOOuterClass {
      * <code>._StrangerChatSetting FCFCKPJMBJK = 4;</code>
      * @return The fCFCKPJMBJK.
      */
-    emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting getFCFCKPJMBJK();
+    emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting getFCFCKPJMBJK();
     /**
      * <code>._StrangerChatSetting FCFCKPJMBJK = 4;</code>
      */
-    emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSettingOrBuilder getFCFCKPJMBJKOrBuilder();
+    emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSettingOrBuilder getFCFCKPJMBJKOrBuilder();
 
     /**
      * <code>bool GPNGHCJDONG = 11;</code>
@@ -95,11 +95,11 @@ public final class BGAHBIHEDDOOuterClass {
               done = true;
               break;
             case 34: {
-              emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting.Builder subBuilder = null;
+              emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting.Builder subBuilder = null;
               if (fCFCKPJMBJK_ != null) {
                 subBuilder = fCFCKPJMBJK_.toBuilder();
               }
-              fCFCKPJMBJK_ = input.readMessage(emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting.parser(), extensionRegistry);
+              fCFCKPJMBJK_ = input.readMessage(emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fCFCKPJMBJK_);
                 fCFCKPJMBJK_ = subBuilder.buildPartial();
@@ -150,7 +150,7 @@ public final class BGAHBIHEDDOOuterClass {
     }
 
     public static final int FCFCKPJMBJK_FIELD_NUMBER = 4;
-    private emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting fCFCKPJMBJK_;
+    private emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting fCFCKPJMBJK_;
     /**
      * <code>._StrangerChatSetting FCFCKPJMBJK = 4;</code>
      * @return Whether the fCFCKPJMBJK field is set.
@@ -164,14 +164,14 @@ public final class BGAHBIHEDDOOuterClass {
      * @return The fCFCKPJMBJK.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting getFCFCKPJMBJK() {
-      return fCFCKPJMBJK_ == null ? emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting.getDefaultInstance() : fCFCKPJMBJK_;
+    public emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting getFCFCKPJMBJK() {
+      return fCFCKPJMBJK_ == null ? emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting.getDefaultInstance() : fCFCKPJMBJK_;
     }
     /**
      * <code>._StrangerChatSetting FCFCKPJMBJK = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSettingOrBuilder getFCFCKPJMBJKOrBuilder() {
+    public emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSettingOrBuilder getFCFCKPJMBJKOrBuilder() {
       return getFCFCKPJMBJK();
     }
 
@@ -552,9 +552,9 @@ public final class BGAHBIHEDDOOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting fCFCKPJMBJK_;
+      private emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting fCFCKPJMBJK_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting, emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting.Builder, emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSettingOrBuilder> fCFCKPJMBJKBuilder_;
+          emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting, emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting.Builder, emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSettingOrBuilder> fCFCKPJMBJKBuilder_;
       /**
        * <code>._StrangerChatSetting FCFCKPJMBJK = 4;</code>
        * @return Whether the fCFCKPJMBJK field is set.
@@ -566,9 +566,9 @@ public final class BGAHBIHEDDOOuterClass {
        * <code>._StrangerChatSetting FCFCKPJMBJK = 4;</code>
        * @return The fCFCKPJMBJK.
        */
-      public emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting getFCFCKPJMBJK() {
+      public emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting getFCFCKPJMBJK() {
         if (fCFCKPJMBJKBuilder_ == null) {
-          return fCFCKPJMBJK_ == null ? emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting.getDefaultInstance() : fCFCKPJMBJK_;
+          return fCFCKPJMBJK_ == null ? emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting.getDefaultInstance() : fCFCKPJMBJK_;
         } else {
           return fCFCKPJMBJKBuilder_.getMessage();
         }
@@ -576,7 +576,7 @@ public final class BGAHBIHEDDOOuterClass {
       /**
        * <code>._StrangerChatSetting FCFCKPJMBJK = 4;</code>
        */
-      public Builder setFCFCKPJMBJK(emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting value) {
+      public Builder setFCFCKPJMBJK(emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting value) {
         if (fCFCKPJMBJKBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -593,7 +593,7 @@ public final class BGAHBIHEDDOOuterClass {
        * <code>._StrangerChatSetting FCFCKPJMBJK = 4;</code>
        */
       public Builder setFCFCKPJMBJK(
-          emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting.Builder builderForValue) {
+          emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting.Builder builderForValue) {
         if (fCFCKPJMBJKBuilder_ == null) {
           fCFCKPJMBJK_ = builderForValue.build();
           onChanged();
@@ -606,11 +606,11 @@ public final class BGAHBIHEDDOOuterClass {
       /**
        * <code>._StrangerChatSetting FCFCKPJMBJK = 4;</code>
        */
-      public Builder mergeFCFCKPJMBJK(emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting value) {
+      public Builder mergeFCFCKPJMBJK(emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting value) {
         if (fCFCKPJMBJKBuilder_ == null) {
           if (fCFCKPJMBJK_ != null) {
             fCFCKPJMBJK_ =
-              emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting.newBuilder(fCFCKPJMBJK_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting.newBuilder(fCFCKPJMBJK_).mergeFrom(value).buildPartial();
           } else {
             fCFCKPJMBJK_ = value;
           }
@@ -638,7 +638,7 @@ public final class BGAHBIHEDDOOuterClass {
       /**
        * <code>._StrangerChatSetting FCFCKPJMBJK = 4;</code>
        */
-      public emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting.Builder getFCFCKPJMBJKBuilder() {
+      public emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting.Builder getFCFCKPJMBJKBuilder() {
         
         onChanged();
         return getFCFCKPJMBJKFieldBuilder().getBuilder();
@@ -646,23 +646,23 @@ public final class BGAHBIHEDDOOuterClass {
       /**
        * <code>._StrangerChatSetting FCFCKPJMBJK = 4;</code>
        */
-      public emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSettingOrBuilder getFCFCKPJMBJKOrBuilder() {
+      public emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSettingOrBuilder getFCFCKPJMBJKOrBuilder() {
         if (fCFCKPJMBJKBuilder_ != null) {
           return fCFCKPJMBJKBuilder_.getMessageOrBuilder();
         } else {
           return fCFCKPJMBJK_ == null ?
-              emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting.getDefaultInstance() : fCFCKPJMBJK_;
+              emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting.getDefaultInstance() : fCFCKPJMBJK_;
         }
       }
       /**
        * <code>._StrangerChatSetting FCFCKPJMBJK = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting, emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting.Builder, emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSettingOrBuilder> 
+          emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting, emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting.Builder, emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSettingOrBuilder> 
           getFCFCKPJMBJKFieldBuilder() {
         if (fCFCKPJMBJKBuilder_ == null) {
           fCFCKPJMBJKBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting, emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSetting.Builder, emu.grasscutter.net.proto.StrangerChatSetting._StrangerChatSettingOrBuilder>(
+              emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting, emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSetting.Builder, emu.grasscutter.net.proto._StrangerChatSettingOuterClass._StrangerChatSettingOrBuilder>(
                   getFCFCKPJMBJK(),
                   getParentForChildren(),
                   isClean());
@@ -802,13 +802,14 @@ public final class BGAHBIHEDDOOuterClass {
       "\n\021BGAHBIHEDDO.proto\032\032_StrangerChatSettin" +
       "g.proto\"c\n\013BGAHBIHEDDO\022*\n\013FCFCKPJMBJK\030\004 " +
       "\001(\0132\025._StrangerChatSetting\022\023\n\013GPNGHCJDON" +
-      "G\030\013 \001(\010\022\023\n\013EKNMEPJCABB\030\017 \001(\010B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "G\030\013 \001(\010\022\023\n\013EKNMEPJCABB\030\017 \001(\010B2\n\031emu.gras" +
+      "scutter.net.protoB\025BGAHBIHEDDOOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.StrangerChatSetting.getDescriptor(),
+          emu.grasscutter.net.proto._StrangerChatSettingOuterClass.getDescriptor(),
         });
     internal_static_BGAHBIHEDDO_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -816,7 +817,7 @@ public final class BGAHBIHEDDOOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BGAHBIHEDDO_descriptor,
         new java.lang.String[] { "FCFCKPJMBJK", "GPNGHCJDONG", "EKNMEPJCABB", });
-    emu.grasscutter.net.proto.StrangerChatSetting.getDescriptor();
+    emu.grasscutter.net.proto._StrangerChatSettingOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

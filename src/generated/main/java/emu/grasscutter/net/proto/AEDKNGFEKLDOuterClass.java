@@ -3140,8 +3140,9 @@ public final class AEDKNGFEKLDOuterClass {
       "\n\013GICOCGACHPF\030\r \003(\0132\035.AEDKNGFEKLD.GICOCG" +
       "ACHPFEntry\022\023\n\013FDENGEKBNHO\030\016 \001(\r\022\023\n\013DHJBA" +
       "OBLENB\030\017 \001(\010\0322\n\020GICOCGACHPFEntry\022\013\n\003key\030" +
-      "\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B2\n\031emu.grasscut" +
+      "ter.net.protoB\025AEDKNGFEKLDOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

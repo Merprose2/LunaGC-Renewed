@@ -1275,8 +1275,8 @@ public final class GetPlayerFriendListRspOuterClass {
       "ief.proto\"s\n\026GetPlayerFriendListRsp\022!\n\013f" +
       "riend_list\030\010 \003(\0132\014.FriendBrief\022\017\n\007retcod" +
       "e\030\013 \001(\005\022%\n\017ask_friend_list\030\016 \003(\0132\014.Frien" +
-      "dBriefB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "dBriefB=\n\031emu.grasscutter.net.protoB Get" +
+      "PlayerFriendListRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

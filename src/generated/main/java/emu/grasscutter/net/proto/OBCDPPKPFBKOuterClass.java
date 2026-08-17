@@ -1310,8 +1310,8 @@ public final class OBCDPPKPFBKOuterClass {
       "\001\n\013OBCDPPKPFBK\022\023\n\013INGFEELNAGJ\030\001 \001(\t\022\023\n\013K" +
       "INEJLPEJOA\030\002 \001(\r\022\037\n\tinfo_list\030\003 \003(\0132\014.JM" +
       "HKOPHIAMB\022\023\n\013KKNEFDPHIBC\030\004 \001(\010\022\024\n\013JGMBAA" +
-      "AJNJK\030\365\003 \003(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "AJNJK\030\365\003 \003(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025OBCDPPKPFBKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

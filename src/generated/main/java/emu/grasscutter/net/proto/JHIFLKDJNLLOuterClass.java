@@ -737,8 +737,9 @@ public final class JHIFLKDJNLLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JHIFLKDJNLL.proto\"]\n\013JHIFLKDJNLL\022\017\n\007sl" +
       "ot_id\030\003 \001(\005\022\023\n\013KGOALNNNBDB\030\010 \001(\005\022\023\n\013NCNP" +
-      "DGABAPD\030\t \001(\010\022\023\n\013KMDOFBPMGAI\030\013 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "DGABAPD\030\t \001(\010\022\023\n\013KMDOFBPMGAI\030\013 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025JHIFLKDJNLLOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -33,11 +33,11 @@ public final class MarkTargetInvestigationMonsterNotifyOuterClass {
      * <code>._InvestigationMonsterConfig GHPPPJJLDJN = 6;</code>
      * @return The gHPPPJJLDJN.
      */
-    emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig getGHPPPJJLDJN();
+    emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig getGHPPPJJLDJN();
     /**
      * <code>._InvestigationMonsterConfig GHPPPJJLDJN = 6;</code>
      */
-    emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfigOrBuilder getGHPPPJJLDJNOrBuilder();
+    emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfigOrBuilder getGHPPPJJLDJNOrBuilder();
   }
   /**
    * <pre>
@@ -94,11 +94,11 @@ public final class MarkTargetInvestigationMonsterNotifyOuterClass {
               break;
             }
             case 50: {
-              emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig.Builder subBuilder = null;
+              emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig.Builder subBuilder = null;
               if (gHPPPJJLDJN_ != null) {
                 subBuilder = gHPPPJJLDJN_.toBuilder();
               }
-              gHPPPJJLDJN_ = input.readMessage(emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig.parser(), extensionRegistry);
+              gHPPPJJLDJN_ = input.readMessage(emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(gHPPPJJLDJN_);
                 gHPPPJJLDJN_ = subBuilder.buildPartial();
@@ -150,7 +150,7 @@ public final class MarkTargetInvestigationMonsterNotifyOuterClass {
     }
 
     public static final int GHPPPJJLDJN_FIELD_NUMBER = 6;
-    private emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig gHPPPJJLDJN_;
+    private emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig gHPPPJJLDJN_;
     /**
      * <code>._InvestigationMonsterConfig GHPPPJJLDJN = 6;</code>
      * @return Whether the gHPPPJJLDJN field is set.
@@ -164,14 +164,14 @@ public final class MarkTargetInvestigationMonsterNotifyOuterClass {
      * @return The gHPPPJJLDJN.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig getGHPPPJJLDJN() {
-      return gHPPPJJLDJN_ == null ? emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig.getDefaultInstance() : gHPPPJJLDJN_;
+    public emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig getGHPPPJJLDJN() {
+      return gHPPPJJLDJN_ == null ? emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig.getDefaultInstance() : gHPPPJJLDJN_;
     }
     /**
      * <code>._InvestigationMonsterConfig GHPPPJJLDJN = 6;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfigOrBuilder getGHPPPJJLDJNOrBuilder() {
+    public emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfigOrBuilder getGHPPPJJLDJNOrBuilder() {
       return getGHPPPJJLDJN();
     }
 
@@ -542,9 +542,9 @@ public final class MarkTargetInvestigationMonsterNotifyOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig gHPPPJJLDJN_;
+      private emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig gHPPPJJLDJN_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig, emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig.Builder, emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfigOrBuilder> gHPPPJJLDJNBuilder_;
+          emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig, emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig.Builder, emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfigOrBuilder> gHPPPJJLDJNBuilder_;
       /**
        * <code>._InvestigationMonsterConfig GHPPPJJLDJN = 6;</code>
        * @return Whether the gHPPPJJLDJN field is set.
@@ -556,9 +556,9 @@ public final class MarkTargetInvestigationMonsterNotifyOuterClass {
        * <code>._InvestigationMonsterConfig GHPPPJJLDJN = 6;</code>
        * @return The gHPPPJJLDJN.
        */
-      public emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig getGHPPPJJLDJN() {
+      public emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig getGHPPPJJLDJN() {
         if (gHPPPJJLDJNBuilder_ == null) {
-          return gHPPPJJLDJN_ == null ? emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig.getDefaultInstance() : gHPPPJJLDJN_;
+          return gHPPPJJLDJN_ == null ? emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig.getDefaultInstance() : gHPPPJJLDJN_;
         } else {
           return gHPPPJJLDJNBuilder_.getMessage();
         }
@@ -566,7 +566,7 @@ public final class MarkTargetInvestigationMonsterNotifyOuterClass {
       /**
        * <code>._InvestigationMonsterConfig GHPPPJJLDJN = 6;</code>
        */
-      public Builder setGHPPPJJLDJN(emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig value) {
+      public Builder setGHPPPJJLDJN(emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig value) {
         if (gHPPPJJLDJNBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -583,7 +583,7 @@ public final class MarkTargetInvestigationMonsterNotifyOuterClass {
        * <code>._InvestigationMonsterConfig GHPPPJJLDJN = 6;</code>
        */
       public Builder setGHPPPJJLDJN(
-          emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig.Builder builderForValue) {
+          emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig.Builder builderForValue) {
         if (gHPPPJJLDJNBuilder_ == null) {
           gHPPPJJLDJN_ = builderForValue.build();
           onChanged();
@@ -596,11 +596,11 @@ public final class MarkTargetInvestigationMonsterNotifyOuterClass {
       /**
        * <code>._InvestigationMonsterConfig GHPPPJJLDJN = 6;</code>
        */
-      public Builder mergeGHPPPJJLDJN(emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig value) {
+      public Builder mergeGHPPPJJLDJN(emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig value) {
         if (gHPPPJJLDJNBuilder_ == null) {
           if (gHPPPJJLDJN_ != null) {
             gHPPPJJLDJN_ =
-              emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig.newBuilder(gHPPPJJLDJN_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig.newBuilder(gHPPPJJLDJN_).mergeFrom(value).buildPartial();
           } else {
             gHPPPJJLDJN_ = value;
           }
@@ -628,7 +628,7 @@ public final class MarkTargetInvestigationMonsterNotifyOuterClass {
       /**
        * <code>._InvestigationMonsterConfig GHPPPJJLDJN = 6;</code>
        */
-      public emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig.Builder getGHPPPJJLDJNBuilder() {
+      public emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig.Builder getGHPPPJJLDJNBuilder() {
         
         onChanged();
         return getGHPPPJJLDJNFieldBuilder().getBuilder();
@@ -636,23 +636,23 @@ public final class MarkTargetInvestigationMonsterNotifyOuterClass {
       /**
        * <code>._InvestigationMonsterConfig GHPPPJJLDJN = 6;</code>
        */
-      public emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfigOrBuilder getGHPPPJJLDJNOrBuilder() {
+      public emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfigOrBuilder getGHPPPJJLDJNOrBuilder() {
         if (gHPPPJJLDJNBuilder_ != null) {
           return gHPPPJJLDJNBuilder_.getMessageOrBuilder();
         } else {
           return gHPPPJJLDJN_ == null ?
-              emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig.getDefaultInstance() : gHPPPJJLDJN_;
+              emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig.getDefaultInstance() : gHPPPJJLDJN_;
         }
       }
       /**
        * <code>._InvestigationMonsterConfig GHPPPJJLDJN = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig, emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig.Builder, emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfigOrBuilder> 
+          emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig, emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig.Builder, emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfigOrBuilder> 
           getGHPPPJJLDJNFieldBuilder() {
         if (gHPPPJJLDJNBuilder_ == null) {
           gHPPPJJLDJNBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig, emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfig.Builder, emu.grasscutter.net.proto.InvestigationMonsterConfig._InvestigationMonsterConfigOrBuilder>(
+              emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig, emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig.Builder, emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfigOrBuilder>(
                   getGHPPPJJLDJN(),
                   getParentForChildren(),
                   isClean());
@@ -732,13 +732,14 @@ public final class MarkTargetInvestigationMonsterNotifyOuterClass {
       "{\n$MarkTargetInvestigationMonsterNotify\022" +
       " \n\030investigation_monster_id\030\005 \001(\r\0221\n\013GHP" +
       "PPJJLDJN\030\006 \001(\0132\034._InvestigationMonsterCo" +
-      "nfigB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "nfigBK\n\031emu.grasscutter.net.protoB.MarkT" +
+      "argetInvestigationMonsterNotifyOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.InvestigationMonsterConfig.getDescriptor(),
+          emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass.getDescriptor(),
         });
     internal_static_MarkTargetInvestigationMonsterNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -746,7 +747,7 @@ public final class MarkTargetInvestigationMonsterNotifyOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MarkTargetInvestigationMonsterNotify_descriptor,
         new java.lang.String[] { "InvestigationMonsterId", "GHPPPJJLDJN", });
-    emu.grasscutter.net.proto.InvestigationMonsterConfig.getDescriptor();
+    emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

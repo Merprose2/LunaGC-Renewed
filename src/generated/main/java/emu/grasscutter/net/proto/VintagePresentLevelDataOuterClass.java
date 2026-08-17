@@ -731,8 +731,9 @@ public final class VintagePresentLevelDataOuterClass {
       "\n\035VintagePresentLevelData.proto\"c\n\027Vinta" +
       "gePresentLevelData\022\020\n\010stage_id\030\t \001(\r\022\022\n\n" +
       "present_id\030\013 \001(\r\022\021\n\tis_finish\030\014 \001(\010\022\017\n\007i" +
-      "s_open\030\017 \001(\010B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "s_open\030\017 \001(\010B>\n\031emu.grasscutter.net.prot" +
+      "oB!VintagePresentLevelDataOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -731,8 +731,9 @@ public final class GadgetGeneralRewardInfoNotifyOuterClass {
       "adgetGeneralRewardInfo.proto\"i\n\035GadgetGe" +
       "neralRewardInfoNotify\0225\n\023general_reward_" +
       "info\030\001 \001(\0132\030.GadgetGeneralRewardInfo\022\021\n\t" +
-      "entity_id\030\003 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "entity_id\030\003 \001(\rBD\n\031emu.grasscutter.net.p" +
+      "rotoB\'GadgetGeneralRewardInfoNotifyOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

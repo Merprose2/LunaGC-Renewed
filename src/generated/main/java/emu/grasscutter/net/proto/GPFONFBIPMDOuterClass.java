@@ -27,7 +27,7 @@ public final class GPFONFBIPMDOuterClass {
      * <code>._BeyondGiftType _beyond_gift_type = 1;</code>
      * @return The beyondGiftType.
      */
-    emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType getBeyondGiftType();
+    emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType getBeyondGiftType();
 
     /**
      * <code>string transaction = 3;</code>
@@ -62,11 +62,11 @@ public final class GPFONFBIPMDOuterClass {
      * <code>._BeyondGachaGiftFriendBriefHistory beyond_gacha_gift_friend_brief_history = 701;</code>
      * @return The beyondGachaGiftFriendBriefHistory.
      */
-    emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory getBeyondGachaGiftFriendBriefHistory();
+    emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory getBeyondGachaGiftFriendBriefHistory();
     /**
      * <code>._BeyondGachaGiftFriendBriefHistory beyond_gacha_gift_friend_brief_history = 701;</code>
      */
-    emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistoryOrBuilder getBeyondGachaGiftFriendBriefHistoryOrBuilder();
+    emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistoryOrBuilder getBeyondGachaGiftFriendBriefHistoryOrBuilder();
 
     public emu.grasscutter.net.proto.GPFONFBIPMDOuterClass.GPFONFBIPMD.DetailCase getDetailCase();
   }
@@ -140,14 +140,14 @@ public final class GPFONFBIPMDOuterClass {
               break;
             }
             case 5610: {
-              emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory.Builder subBuilder = null;
               if (detailCase_ == 701) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 701;
@@ -237,10 +237,10 @@ public final class GPFONFBIPMDOuterClass {
      * <code>._BeyondGiftType _beyond_gift_type = 1;</code>
      * @return The beyondGiftType.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType getBeyondGiftType() {
+    @java.lang.Override public emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType getBeyondGiftType() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType result = emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType.valueOf(BeyondGiftType_);
-      return result == null ? emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType result = emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType.valueOf(BeyondGiftType_);
+      return result == null ? emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType.UNRECOGNIZED : result;
     }
 
     public static final int TRANSACTION_FIELD_NUMBER = 3;
@@ -317,21 +317,21 @@ public final class GPFONFBIPMDOuterClass {
      * @return The beyondGachaGiftFriendBriefHistory.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory getBeyondGachaGiftFriendBriefHistory() {
+    public emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory getBeyondGachaGiftFriendBriefHistory() {
       if (detailCase_ == 701) {
-         return (emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory) detail_;
+         return (emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory.getDefaultInstance();
     }
     /**
      * <code>._BeyondGachaGiftFriendBriefHistory beyond_gacha_gift_friend_brief_history = 701;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistoryOrBuilder getBeyondGachaGiftFriendBriefHistoryOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistoryOrBuilder getBeyondGachaGiftFriendBriefHistoryOrBuilder() {
       if (detailCase_ == 701) {
-         return (emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory) detail_;
+         return (emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -348,7 +348,7 @@ public final class GPFONFBIPMDOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (BeyondGiftType_ != emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType._BeyondGiftType_NONE.getNumber()) {
+      if (BeyondGiftType_ != emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType._BeyondGiftType_NONE.getNumber()) {
         output.writeEnum(1, BeyondGiftType_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(transaction_)) {
@@ -361,7 +361,7 @@ public final class GPFONFBIPMDOuterClass {
         output.writeUInt32(14, aGLOCKOENLB_);
       }
       if (detailCase_ == 701) {
-        output.writeMessage(701, (emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory) detail_);
+        output.writeMessage(701, (emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -372,7 +372,7 @@ public final class GPFONFBIPMDOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (BeyondGiftType_ != emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType._BeyondGiftType_NONE.getNumber()) {
+      if (BeyondGiftType_ != emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType._BeyondGiftType_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(1, BeyondGiftType_);
       }
@@ -389,7 +389,7 @@ public final class GPFONFBIPMDOuterClass {
       }
       if (detailCase_ == 701) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(701, (emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory) detail_);
+          .computeMessageSize(701, (emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -769,17 +769,17 @@ public final class GPFONFBIPMDOuterClass {
        * @return The beyondGiftType.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType getBeyondGiftType() {
+      public emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType getBeyondGiftType() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType result = emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType.valueOf(BeyondGiftType_);
-        return result == null ? emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType result = emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType.valueOf(BeyondGiftType_);
+        return result == null ? emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType.UNRECOGNIZED : result;
       }
       /**
        * <code>._BeyondGiftType _beyond_gift_type = 1;</code>
        * @param value The beyondGiftType to set.
        * @return This builder for chaining.
        */
-      public Builder setBeyondGiftType(emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType value) {
+      public Builder setBeyondGiftType(emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -938,7 +938,7 @@ public final class GPFONFBIPMDOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory, emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory.Builder, emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistoryOrBuilder> beyondGachaGiftFriendBriefHistoryBuilder_;
+          emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory, emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory.Builder, emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistoryOrBuilder> beyondGachaGiftFriendBriefHistoryBuilder_;
       /**
        * <code>._BeyondGachaGiftFriendBriefHistory beyond_gacha_gift_friend_brief_history = 701;</code>
        * @return Whether the beyondGachaGiftFriendBriefHistory field is set.
@@ -952,23 +952,23 @@ public final class GPFONFBIPMDOuterClass {
        * @return The beyondGachaGiftFriendBriefHistory.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory getBeyondGachaGiftFriendBriefHistory() {
+      public emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory getBeyondGachaGiftFriendBriefHistory() {
         if (beyondGachaGiftFriendBriefHistoryBuilder_ == null) {
           if (detailCase_ == 701) {
-            return (emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory) detail_;
+            return (emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory.getDefaultInstance();
         } else {
           if (detailCase_ == 701) {
             return beyondGachaGiftFriendBriefHistoryBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondGachaGiftFriendBriefHistory beyond_gacha_gift_friend_brief_history = 701;</code>
        */
-      public Builder setBeyondGachaGiftFriendBriefHistory(emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory value) {
+      public Builder setBeyondGachaGiftFriendBriefHistory(emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory value) {
         if (beyondGachaGiftFriendBriefHistoryBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -985,7 +985,7 @@ public final class GPFONFBIPMDOuterClass {
        * <code>._BeyondGachaGiftFriendBriefHistory beyond_gacha_gift_friend_brief_history = 701;</code>
        */
       public Builder setBeyondGachaGiftFriendBriefHistory(
-          emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory.Builder builderForValue) {
         if (beyondGachaGiftFriendBriefHistoryBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -998,11 +998,11 @@ public final class GPFONFBIPMDOuterClass {
       /**
        * <code>._BeyondGachaGiftFriendBriefHistory beyond_gacha_gift_friend_brief_history = 701;</code>
        */
-      public Builder mergeBeyondGachaGiftFriendBriefHistory(emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory value) {
+      public Builder mergeBeyondGachaGiftFriendBriefHistory(emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory value) {
         if (beyondGachaGiftFriendBriefHistoryBuilder_ == null) {
           if (detailCase_ == 701 &&
-              detail_ != emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory.newBuilder((emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory.newBuilder((emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1039,36 +1039,36 @@ public final class GPFONFBIPMDOuterClass {
       /**
        * <code>._BeyondGachaGiftFriendBriefHistory beyond_gacha_gift_friend_brief_history = 701;</code>
        */
-      public emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory.Builder getBeyondGachaGiftFriendBriefHistoryBuilder() {
+      public emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory.Builder getBeyondGachaGiftFriendBriefHistoryBuilder() {
         return getBeyondGachaGiftFriendBriefHistoryFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondGachaGiftFriendBriefHistory beyond_gacha_gift_friend_brief_history = 701;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistoryOrBuilder getBeyondGachaGiftFriendBriefHistoryOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistoryOrBuilder getBeyondGachaGiftFriendBriefHistoryOrBuilder() {
         if ((detailCase_ == 701) && (beyondGachaGiftFriendBriefHistoryBuilder_ != null)) {
           return beyondGachaGiftFriendBriefHistoryBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 701) {
-            return (emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory) detail_;
+            return (emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondGachaGiftFriendBriefHistory beyond_gacha_gift_friend_brief_history = 701;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory, emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory.Builder, emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistoryOrBuilder> 
+          emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory, emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory.Builder, emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistoryOrBuilder> 
           getBeyondGachaGiftFriendBriefHistoryFieldBuilder() {
         if (beyondGachaGiftFriendBriefHistoryBuilder_ == null) {
           if (!(detailCase_ == 701)) {
-            detail_ = emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory.getDefaultInstance();
           }
           beyondGachaGiftFriendBriefHistoryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory, emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory.Builder, emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistoryOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory._BeyondGachaGiftFriendBriefHistory) detail_,
+              emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory, emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory.Builder, emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistoryOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass._BeyondGachaGiftFriendBriefHistory) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1151,14 +1151,15 @@ public final class GPFONFBIPMDOuterClass {
       "\030\003 \001(\t\022\023\n\013GFJFNPDKPCP\030\014 \001(\004\022\023\n\013AGLOCKOEN" +
       "LB\030\016 \001(\r\022V\n&beyond_gacha_gift_friend_bri" +
       "ef_history\030\275\005 \001(\0132#._BeyondGachaGiftFrie" +
-      "ndBriefHistoryH\000B\010\n\006detailB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "ndBriefHistoryH\000B\010\n\006detailB2\n\031emu.grassc" +
+      "utter.net.protoB\025GPFONFBIPMDOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondGiftType.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondGiftTypeOuterClass.getDescriptor(),
         });
     internal_static_GPFONFBIPMD_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1166,8 +1167,8 @@ public final class GPFONFBIPMDOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GPFONFBIPMD_descriptor,
         new java.lang.String[] { "BeyondGiftType", "Transaction", "GFJFNPDKPCP", "AGLOCKOENLB", "BeyondGachaGiftFriendBriefHistory", "Detail", });
-    emu.grasscutter.net.proto.BeyondGachaGiftFriendBriefHistory.getDescriptor();
-    emu.grasscutter.net.proto.BeyondGiftType.getDescriptor();
+    emu.grasscutter.net.proto._BeyondGachaGiftFriendBriefHistoryOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondGiftTypeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

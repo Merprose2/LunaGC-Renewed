@@ -588,8 +588,9 @@ public final class OfficialCustomDungeonOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033OfficialCustomDungeon.proto\">\n\025Officia" +
       "lCustomDungeon\022\022\n\ndungeon_id\030\001 \001(\r\022\021\n\twi" +
-      "n_times\030\013 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "n_times\030\013 \001(\rB<\n\031emu.grasscutter.net.pro" +
+      "toB\037OfficialCustomDungeonOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

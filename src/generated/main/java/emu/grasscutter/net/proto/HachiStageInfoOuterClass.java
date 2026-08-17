@@ -730,8 +730,9 @@ public final class HachiStageInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024HachiStageInfo.proto\"[\n\016HachiStageInfo" +
       "\022\020\n\010stage_id\030\010 \001(\r\022\023\n\013is_finished\030\n \001(\010\022" +
-      "\017\n\007is_open\030\014 \001(\010\022\021\n\topen_time\030\r \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\017\n\007is_open\030\014 \001(\010\022\021\n\topen_time\030\r \001(\rB5\n\031e" +
+      "mu.grasscutter.net.protoB\030HachiStageInfo" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

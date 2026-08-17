@@ -1129,8 +1129,8 @@ public final class KGELNMKBBKMOuterClass {
       "\013FMALGIOKPLP\030\004 \001(\002\022\023\n\013KGHJPMEAECN\030\005 \001(\005\022" +
       "\023\n\013CDGDLLILLGK\030\006 \001(\005\022\023\n\013GALJECBDFCH\030\007 \001(" +
       "\010\022\023\n\013HELONBOAMKL\030\010 \001(\010\022!\n\013IJELFDJCLEH\030\t " +
-      "\001(\0162\014.HDMOPPHKIGCB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\001(\0162\014.HDMOPPHKIGCB2\n\031emu.grasscutter.net" +
+      ".protoB\025KGELNMKBBKMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

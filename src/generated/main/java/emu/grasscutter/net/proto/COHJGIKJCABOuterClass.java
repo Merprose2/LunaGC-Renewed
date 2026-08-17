@@ -1137,7 +1137,8 @@ public final class COHJGIKJCABOuterClass {
       "osition\030\002 \001(\0132\014.HHEDHCFPEKM\022\036\n\010rotation\030" +
       "\003 \001(\0132\014.HHEDHCFPEKM\022\023\n\013LOLEEGFDLOJ\030\005 \001(\r" +
       "\022\023\n\013MMOMBECGHNN\030\006 \001(\r\022\023\n\013GNOIOLJBABN\030\007 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB2\n\031emu.grasscutter.net.protoB\025COHJGIK" +
+      "JCABOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

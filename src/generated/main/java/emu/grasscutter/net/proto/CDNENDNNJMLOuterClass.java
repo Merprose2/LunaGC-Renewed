@@ -33,7 +33,7 @@ public final class CDNENDNNJMLOuterClass {
      * <code>._BeyondGiftType _beyond_gift_type = 6;</code>
      * @return The beyondGiftType.
      */
-    emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType getBeyondGiftType();
+    emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType getBeyondGiftType();
 
     /**
      * <code>uint32 goods_id = 13;</code>
@@ -2624,10 +2624,10 @@ public final class CDNENDNNJMLOuterClass {
      * <code>._BeyondGiftType _beyond_gift_type = 6;</code>
      * @return The beyondGiftType.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType getBeyondGiftType() {
+    @java.lang.Override public emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType getBeyondGiftType() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType result = emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType.valueOf(BeyondGiftType_);
-      return result == null ? emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType result = emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType.valueOf(BeyondGiftType_);
+      return result == null ? emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType.UNRECOGNIZED : result;
     }
 
     public static final int GOODS_ID_FIELD_NUMBER = 13;
@@ -2720,7 +2720,7 @@ public final class CDNENDNNJMLOuterClass {
       if (retcode_ != 0) {
         output.writeInt32(3, retcode_);
       }
-      if (BeyondGiftType_ != emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType._BeyondGiftType_NONE.getNumber()) {
+      if (BeyondGiftType_ != emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType._BeyondGiftType_NONE.getNumber()) {
         output.writeEnum(6, BeyondGiftType_);
       }
       if (goodsId_ != 0) {
@@ -2745,7 +2745,7 @@ public final class CDNENDNNJMLOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(3, retcode_);
       }
-      if (BeyondGiftType_ != emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType._BeyondGiftType_NONE.getNumber()) {
+      if (BeyondGiftType_ != emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType._BeyondGiftType_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(6, BeyondGiftType_);
       }
@@ -3181,17 +3181,17 @@ public final class CDNENDNNJMLOuterClass {
        * @return The beyondGiftType.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType getBeyondGiftType() {
+      public emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType getBeyondGiftType() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType result = emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType.valueOf(BeyondGiftType_);
-        return result == null ? emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType result = emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType.valueOf(BeyondGiftType_);
+        return result == null ? emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType.UNRECOGNIZED : result;
       }
       /**
        * <code>._BeyondGiftType _beyond_gift_type = 6;</code>
        * @param value The beyondGiftType to set.
        * @return This builder for chaining.
        */
-      public Builder setBeyondGiftType(emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType value) {
+      public Builder setBeyondGiftType(emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -3612,14 +3612,15 @@ public final class CDNENDNNJMLOuterClass {
       "\030\007 \003(\0132\014.FriendBrief\032x\n\024_BeyondShopGiftB" +
       "rief\022\023\n\013IIPICNBDBNJ\030\002 \003(\r\022\023\n\013EAMIPFPPMEA" +
       "\030\006 \003(\r\022\023\n\013HMALHKKOLCP\030\r \003(\r\022!\n\013DKBFBPNGP" +
-      "LC\030\017 \003(\0132\014.FriendBriefB\r\n\013DHKGDEJDBBFB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "LC\030\017 \003(\0132\014.FriendBriefB\r\n\013DHKGDEJDBBFB2\n" +
+      "\031emu.grasscutter.net.protoB\025CDNENDNNJMLO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.FriendBriefOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondGiftType.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondGiftTypeOuterClass.getDescriptor(),
         });
     internal_static_CDNENDNNJML_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -3640,7 +3641,7 @@ public final class CDNENDNNJMLOuterClass {
         internal_static_CDNENDNNJML__BeyondShopGiftBrief_descriptor,
         new java.lang.String[] { "IIPICNBDBNJ", "EAMIPFPPMEA", "HMALHKKOLCP", "DKBFBPNGPLC", });
     emu.grasscutter.net.proto.FriendBriefOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BeyondGiftType.getDescriptor();
+    emu.grasscutter.net.proto._BeyondGiftTypeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

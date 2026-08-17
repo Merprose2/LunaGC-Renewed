@@ -446,8 +446,9 @@ public final class HAOEMHEADNIOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021HAOEMHEADNI.proto\"\r\n\013HAOEMHEADNIB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021HAOEMHEADNI.proto\"\r\n\013HAOEMHEADNIB2\n\031em" +
+      "u.grasscutter.net.protoB\025HAOEMHEADNIOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

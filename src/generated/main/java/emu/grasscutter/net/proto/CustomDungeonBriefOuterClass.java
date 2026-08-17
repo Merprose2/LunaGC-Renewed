@@ -1722,7 +1722,8 @@ public final class CustomDungeonBriefOuterClass {
       "\t \001(\004\022\023\n\013CCODJPPJCBB\030\013 \001(\r\022$\n\006social\030\r \001" +
       "(\0132\024.CustomDungeonSocial\022&\n\007setting\030\016 \001(" +
       "\0132\025.CustomDungeonSetting\022\020\n\010tag_list\030\017 \003" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB9\n\031emu.grasscutter.net.protoB\034CustomD" +
+      "ungeonBriefOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -517,8 +517,9 @@ public final class SeaLampSectionInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030SeaLampSectionInfo.proto\"(\n\022SeaLampSec" +
-      "tionInfo\022\022\n\nsection_id\030\006 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "tionInfo\022\022\n\nsection_id\030\006 \001(\rB9\n\031emu.gras" +
+      "scutter.net.protoB\034SeaLampSectionInfoOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

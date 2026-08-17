@@ -823,8 +823,9 @@ public final class GCGMsgUpdateControllerOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034GCGMsgUpdateController.proto\032\020Uint32Pa" +
       "ir.proto\"D\n\026GCGMsgUpdateController\022*\n\025al" +
-      "low_controller_list\030\013 \003(\0132\013.Uint32PairB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "low_controller_list\030\013 \003(\0132\013.Uint32PairB=" +
+      "\n\031emu.grasscutter.net.protoB GCGMsgUpdat" +
+      "eControllerOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

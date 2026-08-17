@@ -1344,8 +1344,9 @@ public final class JPOMKCLKADNOuterClass {
       "\n\021JPOMKCLKADN.proto\032\017ShopGoods.proto\"t\n\013" +
       "JPOMKCLKADN\022\037\n\013JLKDMDHNOGC\030\001 \003(\0132\n.ShopG" +
       "oods\022\037\n\013IGPBACJCLEC\030\002 \003(\0132\n.ShopGoods\022\022\n" +
-      "\nplayer_uid\030\t \001(\r\022\017\n\007retcode\030\n \001(\005B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\nplayer_uid\030\t \001(\r\022\017\n\007retcode\030\n \001(\005B2\n\031em" +
+      "u.grasscutter.net.protoB\025JPOMKCLKADNOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

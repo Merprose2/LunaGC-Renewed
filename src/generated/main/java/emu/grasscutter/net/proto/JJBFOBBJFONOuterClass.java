@@ -823,8 +823,8 @@ public final class JJBFOBBJFONOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JJBFOBBJFON.proto\032\021EJFFMPFNPEL.proto\"/" +
       "\n\013JJBFOBBJFON\022 \n\nvalue_list\030\001 \003(\0132\014.EJFF" +
-      "MPFNPELB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "MPFNPELB2\n\031emu.grasscutter.net.protoB\025JJ" +
+      "BFOBBJFONOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

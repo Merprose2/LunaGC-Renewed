@@ -2644,8 +2644,9 @@ public final class PGIGHGBKABEOuterClass {
       "\020 \001(\005\022\023\n\013BAFCCNGGKLK\030\021 \001(\r\022\024\n\014data_versi" +
       "on\030\022 \001(\r\022\023\n\013CEJIICPDOLM\030\023 \001(\010\022\023\n\013LCNLLGC" +
       "GPBO\030\024 \001(\005\022\023\n\013CFHEELGPKDM\030\025 \001(\t\022\023\n\013BLKID" +
-      "MKODAM\030\026 \001(\t\022\023\n\013KCGNKFPAFLL\030\027 \001(\tB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "MKODAM\030\026 \001(\t\022\023\n\013KCGNKFPAFLL\030\027 \001(\tB2\n\031emu" +
+      ".grasscutter.net.protoB\025PGIGHGBKABEOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -57,11 +57,11 @@ public final class GCGOperationOuterClass {
      * <code>._GCGOperationChangeCharacterIndex op_change_character_index = 4;</code>
      * @return The opChangeCharacterIndex.
      */
-    emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex getOpChangeCharacterIndex();
+    emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex getOpChangeCharacterIndex();
     /**
      * <code>._GCGOperationChangeCharacterIndex op_change_character_index = 4;</code>
      */
-    emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndexOrBuilder getOpChangeCharacterIndexOrBuilder();
+    emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndexOrBuilder getOpChangeCharacterIndexOrBuilder();
 
     /**
      * <code>.GCGOperationAttack op_attack = 5;</code>
@@ -87,11 +87,11 @@ public final class GCGOperationOuterClass {
      * <code>._GCGOperationDiscover op_discover = 6;</code>
      * @return The opDiscover.
      */
-    emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover getOpDiscover();
+    emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover getOpDiscover();
     /**
      * <code>._GCGOperationDiscover op_discover = 6;</code>
      */
-    emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscoverOrBuilder getOpDiscoverOrBuilder();
+    emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscoverOrBuilder getOpDiscoverOrBuilder();
 
     /**
      * <code>.GCGOperationOnStageSelect op_select_on_stage = 8;</code>
@@ -117,11 +117,11 @@ public final class GCGOperationOuterClass {
      * <code>._GCGOperationVehicle op_vehicle = 10;</code>
      * @return The opVehicle.
      */
-    emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle getOpVehicle();
+    emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle getOpVehicle();
     /**
      * <code>._GCGOperationVehicle op_vehicle = 10;</code>
      */
-    emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicleOrBuilder getOpVehicleOrBuilder();
+    emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicleOrBuilder getOpVehicleOrBuilder();
 
     /**
      * <code>.GCGOperationSurrender op_surrender = 11;</code>
@@ -147,11 +147,11 @@ public final class GCGOperationOuterClass {
      * <code>._GCGOperationDiscoverRefresh op_discover_refresh = 12;</code>
      * @return The opDiscoverRefresh.
      */
-    emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh getOpDiscoverRefresh();
+    emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh getOpDiscoverRefresh();
     /**
      * <code>._GCGOperationDiscoverRefresh op_discover_refresh = 12;</code>
      */
-    emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefreshOrBuilder getOpDiscoverRefreshOrBuilder();
+    emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefreshOrBuilder getOpDiscoverRefreshOrBuilder();
 
     /**
      * <code>.GCGOperationPlayCard op_play_card = 13;</code>
@@ -274,14 +274,14 @@ public final class GCGOperationOuterClass {
               break;
             }
             case 34: {
-              emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex.Builder subBuilder = null;
               if (opCase_ == 4) {
-                subBuilder = ((emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex) op_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex) op_).toBuilder();
               }
               op_ =
-                  input.readMessage(emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex) op_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex) op_);
                 op_ = subBuilder.buildPartial();
               }
               opCase_ = 4;
@@ -302,14 +302,14 @@ public final class GCGOperationOuterClass {
               break;
             }
             case 50: {
-              emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover.Builder subBuilder = null;
               if (opCase_ == 6) {
-                subBuilder = ((emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover) op_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover) op_).toBuilder();
               }
               op_ =
-                  input.readMessage(emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover) op_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover) op_);
                 op_ = subBuilder.buildPartial();
               }
               opCase_ = 6;
@@ -330,14 +330,14 @@ public final class GCGOperationOuterClass {
               break;
             }
             case 82: {
-              emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle.Builder subBuilder = null;
               if (opCase_ == 10) {
-                subBuilder = ((emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle) op_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle) op_).toBuilder();
               }
               op_ =
-                  input.readMessage(emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle) op_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle) op_);
                 op_ = subBuilder.buildPartial();
               }
               opCase_ = 10;
@@ -358,14 +358,14 @@ public final class GCGOperationOuterClass {
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh.Builder subBuilder = null;
               if (opCase_ == 12) {
-                subBuilder = ((emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh) op_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh) op_).toBuilder();
               }
               op_ =
-                  input.readMessage(emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh) op_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh) op_);
                 op_ = subBuilder.buildPartial();
               }
               opCase_ = 12;
@@ -582,21 +582,21 @@ public final class GCGOperationOuterClass {
      * @return The opChangeCharacterIndex.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex getOpChangeCharacterIndex() {
+    public emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex getOpChangeCharacterIndex() {
       if (opCase_ == 4) {
-         return (emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex) op_;
+         return (emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex) op_;
       }
-      return emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex.getDefaultInstance();
+      return emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex.getDefaultInstance();
     }
     /**
      * <code>._GCGOperationChangeCharacterIndex op_change_character_index = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndexOrBuilder getOpChangeCharacterIndexOrBuilder() {
+    public emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndexOrBuilder getOpChangeCharacterIndexOrBuilder() {
       if (opCase_ == 4) {
-         return (emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex) op_;
+         return (emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex) op_;
       }
-      return emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex.getDefaultInstance();
+      return emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex.getDefaultInstance();
     }
 
     public static final int OP_ATTACK_FIELD_NUMBER = 5;
@@ -644,21 +644,21 @@ public final class GCGOperationOuterClass {
      * @return The opDiscover.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover getOpDiscover() {
+    public emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover getOpDiscover() {
       if (opCase_ == 6) {
-         return (emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover) op_;
+         return (emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover) op_;
       }
-      return emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover.getDefaultInstance();
+      return emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover.getDefaultInstance();
     }
     /**
      * <code>._GCGOperationDiscover op_discover = 6;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscoverOrBuilder getOpDiscoverOrBuilder() {
+    public emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscoverOrBuilder getOpDiscoverOrBuilder() {
       if (opCase_ == 6) {
-         return (emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover) op_;
+         return (emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover) op_;
       }
-      return emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover.getDefaultInstance();
+      return emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover.getDefaultInstance();
     }
 
     public static final int OP_SELECT_ON_STAGE_FIELD_NUMBER = 8;
@@ -706,21 +706,21 @@ public final class GCGOperationOuterClass {
      * @return The opVehicle.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle getOpVehicle() {
+    public emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle getOpVehicle() {
       if (opCase_ == 10) {
-         return (emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle) op_;
+         return (emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle) op_;
       }
-      return emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle.getDefaultInstance();
+      return emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle.getDefaultInstance();
     }
     /**
      * <code>._GCGOperationVehicle op_vehicle = 10;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicleOrBuilder getOpVehicleOrBuilder() {
+    public emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicleOrBuilder getOpVehicleOrBuilder() {
       if (opCase_ == 10) {
-         return (emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle) op_;
+         return (emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle) op_;
       }
-      return emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle.getDefaultInstance();
+      return emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle.getDefaultInstance();
     }
 
     public static final int OP_SURRENDER_FIELD_NUMBER = 11;
@@ -768,21 +768,21 @@ public final class GCGOperationOuterClass {
      * @return The opDiscoverRefresh.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh getOpDiscoverRefresh() {
+    public emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh getOpDiscoverRefresh() {
       if (opCase_ == 12) {
-         return (emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh) op_;
+         return (emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh) op_;
       }
-      return emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh.getDefaultInstance();
+      return emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh.getDefaultInstance();
     }
     /**
      * <code>._GCGOperationDiscoverRefresh op_discover_refresh = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefreshOrBuilder getOpDiscoverRefreshOrBuilder() {
+    public emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefreshOrBuilder getOpDiscoverRefreshOrBuilder() {
       if (opCase_ == 12) {
-         return (emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh) op_;
+         return (emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh) op_;
       }
-      return emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh.getDefaultInstance();
+      return emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh.getDefaultInstance();
     }
 
     public static final int OP_PLAY_CARD_FIELD_NUMBER = 13;
@@ -899,25 +899,25 @@ public final class GCGOperationOuterClass {
         output.writeMessage(3, (emu.grasscutter.net.proto.GCGOperationRedrawOuterClass.GCGOperationRedraw) op_);
       }
       if (opCase_ == 4) {
-        output.writeMessage(4, (emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex) op_);
+        output.writeMessage(4, (emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex) op_);
       }
       if (opCase_ == 5) {
         output.writeMessage(5, (emu.grasscutter.net.proto.GCGOperationAttackOuterClass.GCGOperationAttack) op_);
       }
       if (opCase_ == 6) {
-        output.writeMessage(6, (emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover) op_);
+        output.writeMessage(6, (emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover) op_);
       }
       if (opCase_ == 8) {
         output.writeMessage(8, (emu.grasscutter.net.proto.GCGOperationOnStageSelectOuterClass.GCGOperationOnStageSelect) op_);
       }
       if (opCase_ == 10) {
-        output.writeMessage(10, (emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle) op_);
+        output.writeMessage(10, (emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle) op_);
       }
       if (opCase_ == 11) {
         output.writeMessage(11, (emu.grasscutter.net.proto.GCGOperationSurrenderOuterClass.GCGOperationSurrender) op_);
       }
       if (opCase_ == 12) {
-        output.writeMessage(12, (emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh) op_);
+        output.writeMessage(12, (emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh) op_);
       }
       if (opCase_ == 13) {
         output.writeMessage(13, (emu.grasscutter.net.proto.GCGOperationPlayCardOuterClass.GCGOperationPlayCard) op_);
@@ -947,7 +947,7 @@ public final class GCGOperationOuterClass {
       }
       if (opCase_ == 4) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, (emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex) op_);
+          .computeMessageSize(4, (emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex) op_);
       }
       if (opCase_ == 5) {
         size += com.google.protobuf.CodedOutputStream
@@ -955,7 +955,7 @@ public final class GCGOperationOuterClass {
       }
       if (opCase_ == 6) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, (emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover) op_);
+          .computeMessageSize(6, (emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover) op_);
       }
       if (opCase_ == 8) {
         size += com.google.protobuf.CodedOutputStream
@@ -963,7 +963,7 @@ public final class GCGOperationOuterClass {
       }
       if (opCase_ == 10) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, (emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle) op_);
+          .computeMessageSize(10, (emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle) op_);
       }
       if (opCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
@@ -971,7 +971,7 @@ public final class GCGOperationOuterClass {
       }
       if (opCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh) op_);
+          .computeMessageSize(12, (emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh) op_);
       }
       if (opCase_ == 13) {
         size += com.google.protobuf.CodedOutputStream
@@ -1790,7 +1790,7 @@ public final class GCGOperationOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex, emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex.Builder, emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndexOrBuilder> opChangeCharacterIndexBuilder_;
+          emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex, emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex.Builder, emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndexOrBuilder> opChangeCharacterIndexBuilder_;
       /**
        * <code>._GCGOperationChangeCharacterIndex op_change_character_index = 4;</code>
        * @return Whether the opChangeCharacterIndex field is set.
@@ -1804,23 +1804,23 @@ public final class GCGOperationOuterClass {
        * @return The opChangeCharacterIndex.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex getOpChangeCharacterIndex() {
+      public emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex getOpChangeCharacterIndex() {
         if (opChangeCharacterIndexBuilder_ == null) {
           if (opCase_ == 4) {
-            return (emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex) op_;
+            return (emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex) op_;
           }
-          return emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex.getDefaultInstance();
         } else {
           if (opCase_ == 4) {
             return opChangeCharacterIndexBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex.getDefaultInstance();
         }
       }
       /**
        * <code>._GCGOperationChangeCharacterIndex op_change_character_index = 4;</code>
        */
-      public Builder setOpChangeCharacterIndex(emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex value) {
+      public Builder setOpChangeCharacterIndex(emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex value) {
         if (opChangeCharacterIndexBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1837,7 +1837,7 @@ public final class GCGOperationOuterClass {
        * <code>._GCGOperationChangeCharacterIndex op_change_character_index = 4;</code>
        */
       public Builder setOpChangeCharacterIndex(
-          emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex.Builder builderForValue) {
+          emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex.Builder builderForValue) {
         if (opChangeCharacterIndexBuilder_ == null) {
           op_ = builderForValue.build();
           onChanged();
@@ -1850,11 +1850,11 @@ public final class GCGOperationOuterClass {
       /**
        * <code>._GCGOperationChangeCharacterIndex op_change_character_index = 4;</code>
        */
-      public Builder mergeOpChangeCharacterIndex(emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex value) {
+      public Builder mergeOpChangeCharacterIndex(emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex value) {
         if (opChangeCharacterIndexBuilder_ == null) {
           if (opCase_ == 4 &&
-              op_ != emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex.getDefaultInstance()) {
-            op_ = emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex.newBuilder((emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex) op_)
+              op_ != emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex.getDefaultInstance()) {
+            op_ = emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex.newBuilder((emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex) op_)
                 .mergeFrom(value).buildPartial();
           } else {
             op_ = value;
@@ -1891,36 +1891,36 @@ public final class GCGOperationOuterClass {
       /**
        * <code>._GCGOperationChangeCharacterIndex op_change_character_index = 4;</code>
        */
-      public emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex.Builder getOpChangeCharacterIndexBuilder() {
+      public emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex.Builder getOpChangeCharacterIndexBuilder() {
         return getOpChangeCharacterIndexFieldBuilder().getBuilder();
       }
       /**
        * <code>._GCGOperationChangeCharacterIndex op_change_character_index = 4;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndexOrBuilder getOpChangeCharacterIndexOrBuilder() {
+      public emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndexOrBuilder getOpChangeCharacterIndexOrBuilder() {
         if ((opCase_ == 4) && (opChangeCharacterIndexBuilder_ != null)) {
           return opChangeCharacterIndexBuilder_.getMessageOrBuilder();
         } else {
           if (opCase_ == 4) {
-            return (emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex) op_;
+            return (emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex) op_;
           }
-          return emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex.getDefaultInstance();
         }
       }
       /**
        * <code>._GCGOperationChangeCharacterIndex op_change_character_index = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex, emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex.Builder, emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndexOrBuilder> 
+          emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex, emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex.Builder, emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndexOrBuilder> 
           getOpChangeCharacterIndexFieldBuilder() {
         if (opChangeCharacterIndexBuilder_ == null) {
           if (!(opCase_ == 4)) {
-            op_ = emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex.getDefaultInstance();
+            op_ = emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex.getDefaultInstance();
           }
           opChangeCharacterIndexBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex, emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex.Builder, emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndexOrBuilder>(
-                  (emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex._GCGOperationChangeCharacterIndex) op_,
+              emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex, emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex.Builder, emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndexOrBuilder>(
+                  (emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass._GCGOperationChangeCharacterIndex) op_,
                   getParentForChildren(),
                   isClean());
           op_ = null;
@@ -2072,7 +2072,7 @@ public final class GCGOperationOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover, emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover.Builder, emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscoverOrBuilder> opDiscoverBuilder_;
+          emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover, emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover.Builder, emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscoverOrBuilder> opDiscoverBuilder_;
       /**
        * <code>._GCGOperationDiscover op_discover = 6;</code>
        * @return Whether the opDiscover field is set.
@@ -2086,23 +2086,23 @@ public final class GCGOperationOuterClass {
        * @return The opDiscover.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover getOpDiscover() {
+      public emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover getOpDiscover() {
         if (opDiscoverBuilder_ == null) {
           if (opCase_ == 6) {
-            return (emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover) op_;
+            return (emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover) op_;
           }
-          return emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover.getDefaultInstance();
         } else {
           if (opCase_ == 6) {
             return opDiscoverBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover.getDefaultInstance();
         }
       }
       /**
        * <code>._GCGOperationDiscover op_discover = 6;</code>
        */
-      public Builder setOpDiscover(emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover value) {
+      public Builder setOpDiscover(emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover value) {
         if (opDiscoverBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2119,7 +2119,7 @@ public final class GCGOperationOuterClass {
        * <code>._GCGOperationDiscover op_discover = 6;</code>
        */
       public Builder setOpDiscover(
-          emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover.Builder builderForValue) {
+          emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover.Builder builderForValue) {
         if (opDiscoverBuilder_ == null) {
           op_ = builderForValue.build();
           onChanged();
@@ -2132,11 +2132,11 @@ public final class GCGOperationOuterClass {
       /**
        * <code>._GCGOperationDiscover op_discover = 6;</code>
        */
-      public Builder mergeOpDiscover(emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover value) {
+      public Builder mergeOpDiscover(emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover value) {
         if (opDiscoverBuilder_ == null) {
           if (opCase_ == 6 &&
-              op_ != emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover.getDefaultInstance()) {
-            op_ = emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover.newBuilder((emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover) op_)
+              op_ != emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover.getDefaultInstance()) {
+            op_ = emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover.newBuilder((emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover) op_)
                 .mergeFrom(value).buildPartial();
           } else {
             op_ = value;
@@ -2173,36 +2173,36 @@ public final class GCGOperationOuterClass {
       /**
        * <code>._GCGOperationDiscover op_discover = 6;</code>
        */
-      public emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover.Builder getOpDiscoverBuilder() {
+      public emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover.Builder getOpDiscoverBuilder() {
         return getOpDiscoverFieldBuilder().getBuilder();
       }
       /**
        * <code>._GCGOperationDiscover op_discover = 6;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscoverOrBuilder getOpDiscoverOrBuilder() {
+      public emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscoverOrBuilder getOpDiscoverOrBuilder() {
         if ((opCase_ == 6) && (opDiscoverBuilder_ != null)) {
           return opDiscoverBuilder_.getMessageOrBuilder();
         } else {
           if (opCase_ == 6) {
-            return (emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover) op_;
+            return (emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover) op_;
           }
-          return emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover.getDefaultInstance();
         }
       }
       /**
        * <code>._GCGOperationDiscover op_discover = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover, emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover.Builder, emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscoverOrBuilder> 
+          emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover, emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover.Builder, emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscoverOrBuilder> 
           getOpDiscoverFieldBuilder() {
         if (opDiscoverBuilder_ == null) {
           if (!(opCase_ == 6)) {
-            op_ = emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover.getDefaultInstance();
+            op_ = emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover.getDefaultInstance();
           }
           opDiscoverBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover, emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover.Builder, emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscoverOrBuilder>(
-                  (emu.grasscutter.net.proto.GCGOperationDiscover._GCGOperationDiscover) op_,
+              emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover, emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover.Builder, emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscoverOrBuilder>(
+                  (emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass._GCGOperationDiscover) op_,
                   getParentForChildren(),
                   isClean());
           op_ = null;
@@ -2354,7 +2354,7 @@ public final class GCGOperationOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle, emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle.Builder, emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicleOrBuilder> opVehicleBuilder_;
+          emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle, emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle.Builder, emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicleOrBuilder> opVehicleBuilder_;
       /**
        * <code>._GCGOperationVehicle op_vehicle = 10;</code>
        * @return Whether the opVehicle field is set.
@@ -2368,23 +2368,23 @@ public final class GCGOperationOuterClass {
        * @return The opVehicle.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle getOpVehicle() {
+      public emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle getOpVehicle() {
         if (opVehicleBuilder_ == null) {
           if (opCase_ == 10) {
-            return (emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle) op_;
+            return (emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle) op_;
           }
-          return emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle.getDefaultInstance();
         } else {
           if (opCase_ == 10) {
             return opVehicleBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle.getDefaultInstance();
         }
       }
       /**
        * <code>._GCGOperationVehicle op_vehicle = 10;</code>
        */
-      public Builder setOpVehicle(emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle value) {
+      public Builder setOpVehicle(emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle value) {
         if (opVehicleBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2401,7 +2401,7 @@ public final class GCGOperationOuterClass {
        * <code>._GCGOperationVehicle op_vehicle = 10;</code>
        */
       public Builder setOpVehicle(
-          emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle.Builder builderForValue) {
+          emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle.Builder builderForValue) {
         if (opVehicleBuilder_ == null) {
           op_ = builderForValue.build();
           onChanged();
@@ -2414,11 +2414,11 @@ public final class GCGOperationOuterClass {
       /**
        * <code>._GCGOperationVehicle op_vehicle = 10;</code>
        */
-      public Builder mergeOpVehicle(emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle value) {
+      public Builder mergeOpVehicle(emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle value) {
         if (opVehicleBuilder_ == null) {
           if (opCase_ == 10 &&
-              op_ != emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle.getDefaultInstance()) {
-            op_ = emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle.newBuilder((emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle) op_)
+              op_ != emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle.getDefaultInstance()) {
+            op_ = emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle.newBuilder((emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle) op_)
                 .mergeFrom(value).buildPartial();
           } else {
             op_ = value;
@@ -2455,36 +2455,36 @@ public final class GCGOperationOuterClass {
       /**
        * <code>._GCGOperationVehicle op_vehicle = 10;</code>
        */
-      public emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle.Builder getOpVehicleBuilder() {
+      public emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle.Builder getOpVehicleBuilder() {
         return getOpVehicleFieldBuilder().getBuilder();
       }
       /**
        * <code>._GCGOperationVehicle op_vehicle = 10;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicleOrBuilder getOpVehicleOrBuilder() {
+      public emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicleOrBuilder getOpVehicleOrBuilder() {
         if ((opCase_ == 10) && (opVehicleBuilder_ != null)) {
           return opVehicleBuilder_.getMessageOrBuilder();
         } else {
           if (opCase_ == 10) {
-            return (emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle) op_;
+            return (emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle) op_;
           }
-          return emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle.getDefaultInstance();
         }
       }
       /**
        * <code>._GCGOperationVehicle op_vehicle = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle, emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle.Builder, emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicleOrBuilder> 
+          emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle, emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle.Builder, emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicleOrBuilder> 
           getOpVehicleFieldBuilder() {
         if (opVehicleBuilder_ == null) {
           if (!(opCase_ == 10)) {
-            op_ = emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle.getDefaultInstance();
+            op_ = emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle.getDefaultInstance();
           }
           opVehicleBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle, emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle.Builder, emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicleOrBuilder>(
-                  (emu.grasscutter.net.proto.GCGOperationVehicle._GCGOperationVehicle) op_,
+              emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle, emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle.Builder, emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicleOrBuilder>(
+                  (emu.grasscutter.net.proto._GCGOperationVehicleOuterClass._GCGOperationVehicle) op_,
                   getParentForChildren(),
                   isClean());
           op_ = null;
@@ -2636,7 +2636,7 @@ public final class GCGOperationOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh, emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh.Builder, emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefreshOrBuilder> opDiscoverRefreshBuilder_;
+          emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh, emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh.Builder, emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefreshOrBuilder> opDiscoverRefreshBuilder_;
       /**
        * <code>._GCGOperationDiscoverRefresh op_discover_refresh = 12;</code>
        * @return Whether the opDiscoverRefresh field is set.
@@ -2650,23 +2650,23 @@ public final class GCGOperationOuterClass {
        * @return The opDiscoverRefresh.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh getOpDiscoverRefresh() {
+      public emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh getOpDiscoverRefresh() {
         if (opDiscoverRefreshBuilder_ == null) {
           if (opCase_ == 12) {
-            return (emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh) op_;
+            return (emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh) op_;
           }
-          return emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh.getDefaultInstance();
         } else {
           if (opCase_ == 12) {
             return opDiscoverRefreshBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh.getDefaultInstance();
         }
       }
       /**
        * <code>._GCGOperationDiscoverRefresh op_discover_refresh = 12;</code>
        */
-      public Builder setOpDiscoverRefresh(emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh value) {
+      public Builder setOpDiscoverRefresh(emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh value) {
         if (opDiscoverRefreshBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2683,7 +2683,7 @@ public final class GCGOperationOuterClass {
        * <code>._GCGOperationDiscoverRefresh op_discover_refresh = 12;</code>
        */
       public Builder setOpDiscoverRefresh(
-          emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh.Builder builderForValue) {
+          emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh.Builder builderForValue) {
         if (opDiscoverRefreshBuilder_ == null) {
           op_ = builderForValue.build();
           onChanged();
@@ -2696,11 +2696,11 @@ public final class GCGOperationOuterClass {
       /**
        * <code>._GCGOperationDiscoverRefresh op_discover_refresh = 12;</code>
        */
-      public Builder mergeOpDiscoverRefresh(emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh value) {
+      public Builder mergeOpDiscoverRefresh(emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh value) {
         if (opDiscoverRefreshBuilder_ == null) {
           if (opCase_ == 12 &&
-              op_ != emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh.getDefaultInstance()) {
-            op_ = emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh.newBuilder((emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh) op_)
+              op_ != emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh.getDefaultInstance()) {
+            op_ = emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh.newBuilder((emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh) op_)
                 .mergeFrom(value).buildPartial();
           } else {
             op_ = value;
@@ -2737,36 +2737,36 @@ public final class GCGOperationOuterClass {
       /**
        * <code>._GCGOperationDiscoverRefresh op_discover_refresh = 12;</code>
        */
-      public emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh.Builder getOpDiscoverRefreshBuilder() {
+      public emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh.Builder getOpDiscoverRefreshBuilder() {
         return getOpDiscoverRefreshFieldBuilder().getBuilder();
       }
       /**
        * <code>._GCGOperationDiscoverRefresh op_discover_refresh = 12;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefreshOrBuilder getOpDiscoverRefreshOrBuilder() {
+      public emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefreshOrBuilder getOpDiscoverRefreshOrBuilder() {
         if ((opCase_ == 12) && (opDiscoverRefreshBuilder_ != null)) {
           return opDiscoverRefreshBuilder_.getMessageOrBuilder();
         } else {
           if (opCase_ == 12) {
-            return (emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh) op_;
+            return (emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh) op_;
           }
-          return emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh.getDefaultInstance();
+          return emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh.getDefaultInstance();
         }
       }
       /**
        * <code>._GCGOperationDiscoverRefresh op_discover_refresh = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh, emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh.Builder, emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefreshOrBuilder> 
+          emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh, emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh.Builder, emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefreshOrBuilder> 
           getOpDiscoverRefreshFieldBuilder() {
         if (opDiscoverRefreshBuilder_ == null) {
           if (!(opCase_ == 12)) {
-            op_ = emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh.getDefaultInstance();
+            op_ = emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh.getDefaultInstance();
           }
           opDiscoverRefreshBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh, emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh.Builder, emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefreshOrBuilder>(
-                  (emu.grasscutter.net.proto.GCGOperationDiscoverRefresh._GCGOperationDiscoverRefresh) op_,
+              emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh, emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh.Builder, emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefreshOrBuilder>(
+                  (emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass._GCGOperationDiscoverRefresh) op_,
                   getParentForChildren(),
                   isClean());
           op_ = null;
@@ -3289,8 +3289,9 @@ public final class GCGOperationOuterClass {
       "shH\000\022-\n\014op_play_card\030\r \001(\0132\025.GCGOperatio" +
       "nPlayCardH\000\022(\n\top_reroll\030\016 \001(\0132\023.GCGOper" +
       "ationRerollH\000\022(\n\top_reboot\030\017 \001(\0132\023.GCGOp" +
-      "erationRebootH\000B\004\n\002opB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "erationRebootH\000B\004\n\002opB3\n\031emu.grasscutter" +
+      ".net.protoB\026GCGOperationOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -3303,10 +3304,10 @@ public final class GCGOperationOuterClass {
           emu.grasscutter.net.proto.GCGOperationRedrawOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.GCGOperationRerollOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.GCGOperationSurrenderOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex.getDescriptor(),
-          emu.grasscutter.net.proto.GCGOperationDiscover.getDescriptor(),
-          emu.grasscutter.net.proto.GCGOperationDiscoverRefresh.getDescriptor(),
-          emu.grasscutter.net.proto.GCGOperationVehicle.getDescriptor(),
+          emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._GCGOperationVehicleOuterClass.getDescriptor(),
         });
     internal_static_GCGOperation_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -3322,10 +3323,10 @@ public final class GCGOperationOuterClass {
     emu.grasscutter.net.proto.GCGOperationRedrawOuterClass.getDescriptor();
     emu.grasscutter.net.proto.GCGOperationRerollOuterClass.getDescriptor();
     emu.grasscutter.net.proto.GCGOperationSurrenderOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.GCGOperationChangeCharacterIndex.getDescriptor();
-    emu.grasscutter.net.proto.GCGOperationDiscover.getDescriptor();
-    emu.grasscutter.net.proto.GCGOperationDiscoverRefresh.getDescriptor();
-    emu.grasscutter.net.proto.GCGOperationVehicle.getDescriptor();
+    emu.grasscutter.net.proto._GCGOperationChangeCharacterIndexOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._GCGOperationDiscoverOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._GCGOperationDiscoverRefreshOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._GCGOperationVehicleOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

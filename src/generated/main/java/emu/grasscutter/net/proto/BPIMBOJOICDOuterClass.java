@@ -596,8 +596,9 @@ public final class BPIMBOJOICDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BPIMBOJOICD.proto\"0\n\013BPIMBOJOICD\022\023\n\013_s" +
-      "ticker_id\030\t \001(\r\022\014\n\004guid\030\017 \001(\006B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ticker_id\030\t \001(\r\022\014\n\004guid\030\017 \001(\006B2\n\031emu.gra" +
+      "sscutter.net.protoB\025BPIMBOJOICDOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

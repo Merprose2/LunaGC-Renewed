@@ -27,11 +27,11 @@ public final class ELPHKJGPNIIOuterClass {
      * <code>._PinName OLAIPOHLIBB = 1;</code>
      * @return The oLAIPOHLIBB.
      */
-    emu.grasscutter.net.proto.PinName._PinName getOLAIPOHLIBB();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinName getOLAIPOHLIBB();
     /**
      * <code>._PinName OLAIPOHLIBB = 1;</code>
      */
-    emu.grasscutter.net.proto.PinName._PinNameOrBuilder getOLAIPOHLIBBOrBuilder();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getOLAIPOHLIBBOrBuilder();
 
     /**
      * <code>int32 DNPJCGAKNFP = 2;</code>
@@ -59,11 +59,11 @@ public final class ELPHKJGPNIIOuterClass {
      * <code>._MatchInfoGenericsServerParamDict match_info_generics_server_param_dict = 100;</code>
      * @return The matchInfoGenericsServerParamDict.
      */
-    emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict getMatchInfoGenericsServerParamDict();
+    emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict getMatchInfoGenericsServerParamDict();
     /**
      * <code>._MatchInfoGenericsServerParamDict match_info_generics_server_param_dict = 100;</code>
      */
-    emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDictOrBuilder getMatchInfoGenericsServerParamDictOrBuilder();
+    emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDictOrBuilder getMatchInfoGenericsServerParamDictOrBuilder();
 
     public emu.grasscutter.net.proto.ELPHKJGPNIIOuterClass.ELPHKJGPNII.PLIAIBPHALACase getPLIAIBPHALACase();
   }
@@ -114,11 +114,11 @@ public final class ELPHKJGPNIIOuterClass {
               done = true;
               break;
             case 10: {
-              emu.grasscutter.net.proto.PinName._PinName.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder subBuilder = null;
               if (oLAIPOHLIBB_ != null) {
                 subBuilder = oLAIPOHLIBB_.toBuilder();
               }
-              oLAIPOHLIBB_ = input.readMessage(emu.grasscutter.net.proto.PinName._PinName.parser(), extensionRegistry);
+              oLAIPOHLIBB_ = input.readMessage(emu.grasscutter.net.proto._PinNameOuterClass._PinName.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(oLAIPOHLIBB_);
                 oLAIPOHLIBB_ = subBuilder.buildPartial();
@@ -138,14 +138,14 @@ public final class ELPHKJGPNIIOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict.Builder subBuilder = null;
+              emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict.Builder subBuilder = null;
               if (pLIAIBPHALACase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict) pLIAIBPHALA_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict) pLIAIBPHALA_).toBuilder();
               }
               pLIAIBPHALA_ =
-                  input.readMessage(emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict) pLIAIBPHALA_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict) pLIAIBPHALA_);
                 pLIAIBPHALA_ = subBuilder.buildPartial();
               }
               pLIAIBPHALACase_ = 100;
@@ -223,7 +223,7 @@ public final class ELPHKJGPNIIOuterClass {
     }
 
     public static final int OLAIPOHLIBB_FIELD_NUMBER = 1;
-    private emu.grasscutter.net.proto.PinName._PinName oLAIPOHLIBB_;
+    private emu.grasscutter.net.proto._PinNameOuterClass._PinName oLAIPOHLIBB_;
     /**
      * <code>._PinName OLAIPOHLIBB = 1;</code>
      * @return Whether the oLAIPOHLIBB field is set.
@@ -237,14 +237,14 @@ public final class ELPHKJGPNIIOuterClass {
      * @return The oLAIPOHLIBB.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinName getOLAIPOHLIBB() {
-      return oLAIPOHLIBB_ == null ? emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : oLAIPOHLIBB_;
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinName getOLAIPOHLIBB() {
+      return oLAIPOHLIBB_ == null ? emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : oLAIPOHLIBB_;
     }
     /**
      * <code>._PinName OLAIPOHLIBB = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getOLAIPOHLIBBOrBuilder() {
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getOLAIPOHLIBBOrBuilder() {
       return getOLAIPOHLIBB();
     }
 
@@ -292,21 +292,21 @@ public final class ELPHKJGPNIIOuterClass {
      * @return The matchInfoGenericsServerParamDict.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict getMatchInfoGenericsServerParamDict() {
+    public emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict getMatchInfoGenericsServerParamDict() {
       if (pLIAIBPHALACase_ == 100) {
-         return (emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict) pLIAIBPHALA_;
+         return (emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict) pLIAIBPHALA_;
       }
-      return emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict.getDefaultInstance();
+      return emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict.getDefaultInstance();
     }
     /**
      * <code>._MatchInfoGenericsServerParamDict match_info_generics_server_param_dict = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDictOrBuilder getMatchInfoGenericsServerParamDictOrBuilder() {
+    public emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDictOrBuilder getMatchInfoGenericsServerParamDictOrBuilder() {
       if (pLIAIBPHALACase_ == 100) {
-         return (emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict) pLIAIBPHALA_;
+         return (emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict) pLIAIBPHALA_;
       }
-      return emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict.getDefaultInstance();
+      return emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -333,7 +333,7 @@ public final class ELPHKJGPNIIOuterClass {
         output.writeEnum(3, matchType_);
       }
       if (pLIAIBPHALACase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict) pLIAIBPHALA_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict) pLIAIBPHALA_);
       }
       unknownFields.writeTo(output);
     }
@@ -358,7 +358,7 @@ public final class ELPHKJGPNIIOuterClass {
       }
       if (pLIAIBPHALACase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict) pLIAIBPHALA_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict) pLIAIBPHALA_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -715,9 +715,9 @@ public final class ELPHKJGPNIIOuterClass {
       }
 
 
-      private emu.grasscutter.net.proto.PinName._PinName oLAIPOHLIBB_;
+      private emu.grasscutter.net.proto._PinNameOuterClass._PinName oLAIPOHLIBB_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> oLAIPOHLIBBBuilder_;
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> oLAIPOHLIBBBuilder_;
       /**
        * <code>._PinName OLAIPOHLIBB = 1;</code>
        * @return Whether the oLAIPOHLIBB field is set.
@@ -729,9 +729,9 @@ public final class ELPHKJGPNIIOuterClass {
        * <code>._PinName OLAIPOHLIBB = 1;</code>
        * @return The oLAIPOHLIBB.
        */
-      public emu.grasscutter.net.proto.PinName._PinName getOLAIPOHLIBB() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName getOLAIPOHLIBB() {
         if (oLAIPOHLIBBBuilder_ == null) {
-          return oLAIPOHLIBB_ == null ? emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : oLAIPOHLIBB_;
+          return oLAIPOHLIBB_ == null ? emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : oLAIPOHLIBB_;
         } else {
           return oLAIPOHLIBBBuilder_.getMessage();
         }
@@ -739,7 +739,7 @@ public final class ELPHKJGPNIIOuterClass {
       /**
        * <code>._PinName OLAIPOHLIBB = 1;</code>
        */
-      public Builder setOLAIPOHLIBB(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder setOLAIPOHLIBB(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (oLAIPOHLIBBBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -756,7 +756,7 @@ public final class ELPHKJGPNIIOuterClass {
        * <code>._PinName OLAIPOHLIBB = 1;</code>
        */
       public Builder setOLAIPOHLIBB(
-          emu.grasscutter.net.proto.PinName._PinName.Builder builderForValue) {
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder builderForValue) {
         if (oLAIPOHLIBBBuilder_ == null) {
           oLAIPOHLIBB_ = builderForValue.build();
           onChanged();
@@ -769,11 +769,11 @@ public final class ELPHKJGPNIIOuterClass {
       /**
        * <code>._PinName OLAIPOHLIBB = 1;</code>
        */
-      public Builder mergeOLAIPOHLIBB(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder mergeOLAIPOHLIBB(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (oLAIPOHLIBBBuilder_ == null) {
           if (oLAIPOHLIBB_ != null) {
             oLAIPOHLIBB_ =
-              emu.grasscutter.net.proto.PinName._PinName.newBuilder(oLAIPOHLIBB_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.newBuilder(oLAIPOHLIBB_).mergeFrom(value).buildPartial();
           } else {
             oLAIPOHLIBB_ = value;
           }
@@ -801,7 +801,7 @@ public final class ELPHKJGPNIIOuterClass {
       /**
        * <code>._PinName OLAIPOHLIBB = 1;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinName.Builder getOLAIPOHLIBBBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder getOLAIPOHLIBBBuilder() {
         
         onChanged();
         return getOLAIPOHLIBBFieldBuilder().getBuilder();
@@ -809,23 +809,23 @@ public final class ELPHKJGPNIIOuterClass {
       /**
        * <code>._PinName OLAIPOHLIBB = 1;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getOLAIPOHLIBBOrBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getOLAIPOHLIBBOrBuilder() {
         if (oLAIPOHLIBBBuilder_ != null) {
           return oLAIPOHLIBBBuilder_.getMessageOrBuilder();
         } else {
           return oLAIPOHLIBB_ == null ?
-              emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : oLAIPOHLIBB_;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : oLAIPOHLIBB_;
         }
       }
       /**
        * <code>._PinName OLAIPOHLIBB = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> 
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> 
           getOLAIPOHLIBBFieldBuilder() {
         if (oLAIPOHLIBBBuilder_ == null) {
           oLAIPOHLIBBBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder>(
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder>(
                   getOLAIPOHLIBB(),
                   getParentForChildren(),
                   isClean());
@@ -920,7 +920,7 @@ public final class ELPHKJGPNIIOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict, emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict.Builder, emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDictOrBuilder> matchInfoGenericsServerParamDictBuilder_;
+          emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict, emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict.Builder, emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDictOrBuilder> matchInfoGenericsServerParamDictBuilder_;
       /**
        * <code>._MatchInfoGenericsServerParamDict match_info_generics_server_param_dict = 100;</code>
        * @return Whether the matchInfoGenericsServerParamDict field is set.
@@ -934,23 +934,23 @@ public final class ELPHKJGPNIIOuterClass {
        * @return The matchInfoGenericsServerParamDict.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict getMatchInfoGenericsServerParamDict() {
+      public emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict getMatchInfoGenericsServerParamDict() {
         if (matchInfoGenericsServerParamDictBuilder_ == null) {
           if (pLIAIBPHALACase_ == 100) {
-            return (emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict) pLIAIBPHALA_;
+            return (emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict) pLIAIBPHALA_;
           }
-          return emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict.getDefaultInstance();
+          return emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict.getDefaultInstance();
         } else {
           if (pLIAIBPHALACase_ == 100) {
             return matchInfoGenericsServerParamDictBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict.getDefaultInstance();
+          return emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict.getDefaultInstance();
         }
       }
       /**
        * <code>._MatchInfoGenericsServerParamDict match_info_generics_server_param_dict = 100;</code>
        */
-      public Builder setMatchInfoGenericsServerParamDict(emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict value) {
+      public Builder setMatchInfoGenericsServerParamDict(emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict value) {
         if (matchInfoGenericsServerParamDictBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -967,7 +967,7 @@ public final class ELPHKJGPNIIOuterClass {
        * <code>._MatchInfoGenericsServerParamDict match_info_generics_server_param_dict = 100;</code>
        */
       public Builder setMatchInfoGenericsServerParamDict(
-          emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict.Builder builderForValue) {
+          emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict.Builder builderForValue) {
         if (matchInfoGenericsServerParamDictBuilder_ == null) {
           pLIAIBPHALA_ = builderForValue.build();
           onChanged();
@@ -980,11 +980,11 @@ public final class ELPHKJGPNIIOuterClass {
       /**
        * <code>._MatchInfoGenericsServerParamDict match_info_generics_server_param_dict = 100;</code>
        */
-      public Builder mergeMatchInfoGenericsServerParamDict(emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict value) {
+      public Builder mergeMatchInfoGenericsServerParamDict(emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict value) {
         if (matchInfoGenericsServerParamDictBuilder_ == null) {
           if (pLIAIBPHALACase_ == 100 &&
-              pLIAIBPHALA_ != emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict.getDefaultInstance()) {
-            pLIAIBPHALA_ = emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict.newBuilder((emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict) pLIAIBPHALA_)
+              pLIAIBPHALA_ != emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict.getDefaultInstance()) {
+            pLIAIBPHALA_ = emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict.newBuilder((emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict) pLIAIBPHALA_)
                 .mergeFrom(value).buildPartial();
           } else {
             pLIAIBPHALA_ = value;
@@ -1021,36 +1021,36 @@ public final class ELPHKJGPNIIOuterClass {
       /**
        * <code>._MatchInfoGenericsServerParamDict match_info_generics_server_param_dict = 100;</code>
        */
-      public emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict.Builder getMatchInfoGenericsServerParamDictBuilder() {
+      public emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict.Builder getMatchInfoGenericsServerParamDictBuilder() {
         return getMatchInfoGenericsServerParamDictFieldBuilder().getBuilder();
       }
       /**
        * <code>._MatchInfoGenericsServerParamDict match_info_generics_server_param_dict = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDictOrBuilder getMatchInfoGenericsServerParamDictOrBuilder() {
+      public emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDictOrBuilder getMatchInfoGenericsServerParamDictOrBuilder() {
         if ((pLIAIBPHALACase_ == 100) && (matchInfoGenericsServerParamDictBuilder_ != null)) {
           return matchInfoGenericsServerParamDictBuilder_.getMessageOrBuilder();
         } else {
           if (pLIAIBPHALACase_ == 100) {
-            return (emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict) pLIAIBPHALA_;
+            return (emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict) pLIAIBPHALA_;
           }
-          return emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict.getDefaultInstance();
+          return emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict.getDefaultInstance();
         }
       }
       /**
        * <code>._MatchInfoGenericsServerParamDict match_info_generics_server_param_dict = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict, emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict.Builder, emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDictOrBuilder> 
+          emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict, emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict.Builder, emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDictOrBuilder> 
           getMatchInfoGenericsServerParamDictFieldBuilder() {
         if (matchInfoGenericsServerParamDictBuilder_ == null) {
           if (!(pLIAIBPHALACase_ == 100)) {
-            pLIAIBPHALA_ = emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict.getDefaultInstance();
+            pLIAIBPHALA_ = emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict.getDefaultInstance();
           }
           matchInfoGenericsServerParamDictBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict, emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict.Builder, emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDictOrBuilder>(
-                  (emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict._MatchInfoGenericsServerParamDict) pLIAIBPHALA_,
+              emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict, emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict.Builder, emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDictOrBuilder>(
+                  (emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass._MatchInfoGenericsServerParamDict) pLIAIBPHALA_,
                   getParentForChildren(),
                   isClean());
           pLIAIBPHALA_ = null;
@@ -1133,15 +1133,15 @@ public final class ELPHKJGPNIIOuterClass {
       " \001(\005\022 \n\nmatch_type\030\003 \001(\0162\014.PGNIFCMFJBF\022S" +
       "\n%match_info_generics_server_param_dict\030" +
       "d \001(\0132\"._MatchInfoGenericsServerParamDic" +
-      "tH\000B\r\n\013PLIAIBPHALAB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "tH\000B\r\n\013PLIAIBPHALAB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025ELPHKJGPNIIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.PGNIFCMFJBFOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict.getDescriptor(),
-          emu.grasscutter.net.proto.PinName.getDescriptor(),
+          emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._PinNameOuterClass.getDescriptor(),
         });
     internal_static_ELPHKJGPNII_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1150,8 +1150,8 @@ public final class ELPHKJGPNIIOuterClass {
         internal_static_ELPHKJGPNII_descriptor,
         new java.lang.String[] { "OLAIPOHLIBB", "DNPJCGAKNFP", "MatchType", "MatchInfoGenericsServerParamDict", "PLIAIBPHALA", });
     emu.grasscutter.net.proto.PGNIFCMFJBFOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.MatchInfoGenericsServerParamDict.getDescriptor();
-    emu.grasscutter.net.proto.PinName.getDescriptor();
+    emu.grasscutter.net.proto._MatchInfoGenericsServerParamDictOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._PinNameOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

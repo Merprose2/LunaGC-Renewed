@@ -870,7 +870,8 @@ public final class FurnitureMakeDataOuterClass {
       "akeData\022\021\n\tavatar_id\030\002 \001(\r\022\017\n\007make_id\030\003 " +
       "\001(\r\022\020\n\010dur_time\030\004 \001(\r\022\r\n\005index\030\n \001(\r\022\027\n\017" +
       "accelerate_time\030\014 \001(\007\022\022\n\nbegin_time\030\016 \001(" +
-      "\007B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\007B8\n\031emu.grasscutter.net.protoB\033Furnitur" +
+      "eMakeDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

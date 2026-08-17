@@ -831,8 +831,9 @@ public final class AllMarkPointNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030AllMarkPointNotify.proto\032\022MapMarkPoint" +
       ".proto\"6\n\022AllMarkPointNotify\022 \n\tmark_lis" +
-      "t\030\003 \003(\0132\r.MapMarkPointB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "t\030\003 \003(\0132\r.MapMarkPointB9\n\031emu.grasscutte" +
+      "r.net.protoB\034AllMarkPointNotifyOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

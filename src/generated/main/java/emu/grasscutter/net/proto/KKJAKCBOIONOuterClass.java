@@ -627,8 +627,9 @@ public final class KKJAKCBOIONOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KKJAKCBOION.proto\032\021CJKBCHPNCBO.proto\"E" +
       "\n\013KKJAKCBOION\022\023\n\013FGHNIGCJCBC\030\001 \001(\002\022!\n\013OL" +
-      "EBMPDANNG\030\002 \001(\0162\014.CJKBCHPNCBOB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "EBMPDANNG\030\002 \001(\0162\014.CJKBCHPNCBOB2\n\031emu.gra" +
+      "sscutter.net.protoB\025KKJAKCBOIONOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

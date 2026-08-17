@@ -595,8 +595,9 @@ public final class JDLDIKNFFEEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JDLDIKNFFEE.proto\"/\n\013JDLDIKNFFEE\022\017\n\007wo" +
-      "rd_id\030\004 \001(\r\022\017\n\007page_id\030\016 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "rd_id\030\004 \001(\r\022\017\n\007page_id\030\016 \001(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025JDLDIKNFFEEOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

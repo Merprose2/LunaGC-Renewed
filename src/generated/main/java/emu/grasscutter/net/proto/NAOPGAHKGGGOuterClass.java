@@ -587,8 +587,9 @@ public final class NAOPGAHKGGGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NAOPGAHKGGG.proto\")\n\013NAOPGAHKGGG\022\r\n\005va" +
-      "lue\030\001 \001(\r\022\013\n\003key\030\017 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "lue\030\001 \001(\r\022\013\n\003key\030\017 \001(\rB2\n\031emu.grasscutte" +
+      "r.net.protoB\025NAOPGAHKGGGOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

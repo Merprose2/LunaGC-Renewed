@@ -1705,8 +1705,8 @@ public final class IKHKCBAHGFLOuterClass {
       "G\030\t \001(\0132\014.GCDNCDJBDAF\022\023\n\013GPLPOKEAGFL\030\n \001" +
       "(\005\022\023\n\013NGBDLOFALMH\030\013 \001(\005\022!\n\013FDLHKOKLLHF\030\014" +
       " \001(\0132\014.GCDNCDJBDAF\022\023\n\013EIGMINLGMIK\030\r \001(\005\022" +
-      "\023\n\013LGHLKGGDFCB\030\016 \001(\005B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\023\n\013LGHLKGGDFCB\030\016 \001(\005B2\n\031emu.grasscutter." +
+      "net.protoB\025IKHKCBAHGFLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

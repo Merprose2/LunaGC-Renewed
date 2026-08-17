@@ -728,8 +728,9 @@ public final class NKCMCOFKOFIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NKCMCOFKOFI.proto\"a\n\013NKCMCOFKOFI\022\023\n\013OH" +
       "FBKGODIAE\030\002 \001(\005\022\023\n\013MNMBHFFKEIG\030\010 \001(\005\022\023\n\013" +
-      "JNGPMMJBHFH\030\016 \001(\005\022\023\n\013EKDPFLAPFHC\030\017 \001(\005B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "JNGPMMJBHFH\030\016 \001(\005\022\023\n\013EKDPFLAPFHC\030\017 \001(\005B2" +
+      "\n\031emu.grasscutter.net.protoB\025NKCMCOFKOFI" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

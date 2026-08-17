@@ -652,8 +652,8 @@ public final class MLCIGAOCPBFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MLCIGAOCPBF.proto\"\"\n\013MLCIGAOCPBF\022\023\n\013KE" +
-      "ODNDGLGBP\030\004 \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "ODNDGLGBP\030\004 \003(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025MLCIGAOCPBFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

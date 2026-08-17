@@ -652,8 +652,9 @@ public final class PGLMCNABINIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PGLMCNABINI.proto\"(\n\013PGLMCNABINI\022\031\n\021tr" +
-      "ial_avatar_list\030\007 \003(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "ial_avatar_list\030\007 \003(\rB2\n\031emu.grasscutter" +
+      ".net.protoB\025PGLMCNABINIOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

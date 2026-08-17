@@ -1147,8 +1147,9 @@ public final class LNMMEOONNJJOuterClass {
       "ABFMGNFBCOK.proto\"\210\001\n\013LNMMEOONNJJ\022\021\n\tcon" +
       "fig_id\030\001 \001(\r\022\013\n\003key\030\002 \001(\t\022!\n\013HKALMLHHMCH" +
       "\030\004 \001(\0132\014.ABFMGNFBCOK\022\023\n\013ILMAKHFHEFC\030\005 \001(" +
-      "\010\022!\n\013KGEKOKKHFMG\030\006 \001(\0132\014.AABLEDJBAKKB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\010\022!\n\013KGEKOKKHFMG\030\006 \001(\0132\014.AABLEDJBAKKB2\n\031" +
+      "emu.grasscutter.net.protoB\025LNMMEOONNJJOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

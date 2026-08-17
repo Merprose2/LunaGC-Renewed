@@ -1942,8 +1942,8 @@ public final class HEFBBCCIBBLOuterClass {
       "BIBBKIDB\030\001 \003(\0132\014.GEONCALDEFK\022!\n\013IGABCMII" +
       "PPM\030\002 \003(\0132\014.BJJFDLEBEDJ\022!\n\013PADJAHFIAAP\030\003" +
       " \003(\0132\014.GEONCALDEFK\022!\n\013DOGDIJCLMNN\030\004 \003(\0132" +
-      "\014.BJJFDLEBEDJB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\014.BJJFDLEBEDJB2\n\031emu.grasscutter.net.pro" +
+      "toB\025HEFBBCCIBBLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

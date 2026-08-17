@@ -723,8 +723,9 @@ public final class GMJNOIMMPJDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GMJNOIMMPJD.proto\"0\n\013GMJNOIMMPJD\022\014\n\004gu" +
-      "id\030\002 \001(\006\022\023\n\013FCALNNDFAEG\030\003 \003(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "id\030\002 \001(\006\022\023\n\013FCALNNDFAEG\030\003 \003(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025GMJNOIMMPJDOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

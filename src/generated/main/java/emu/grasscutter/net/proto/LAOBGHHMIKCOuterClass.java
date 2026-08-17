@@ -597,8 +597,9 @@ public final class LAOBGHHMIKCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LAOBGHHMIKC.proto\"0\n\013LAOBGHHMIKC\022\014\n\004gu" +
-      "id\030\002 \001(\004\022\023\n\013FLALBCLFKGK\030\017 \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "id\030\002 \001(\004\022\023\n\013FLALBCLFKGK\030\017 \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025LAOBGHHMIKCOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

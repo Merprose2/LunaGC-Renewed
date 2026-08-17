@@ -633,8 +633,9 @@ public final class FBNHJOMHHECOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FBNHJOMHHEC.proto\032\021ChatChannel.proto\"A" +
       "\n\013FBNHJOMHHEC\022\017\n\007retcode\030\005 \001(\005\022!\n\013IEEHPC" +
-      "ACIAB\030\014 \001(\0162\014.ChatChannelB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "ACIAB\030\014 \001(\0162\014.ChatChannelB2\n\031emu.grasscu" +
+      "tter.net.protoB\025FBNHJOMHHECOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

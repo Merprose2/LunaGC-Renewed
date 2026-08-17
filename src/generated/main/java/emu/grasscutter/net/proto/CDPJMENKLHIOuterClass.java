@@ -801,8 +801,8 @@ public final class CDPJMENKLHIOuterClass {
       "\n\021CDPJMENKLHI.proto\"k\n\013CDPJMENKLHI\022\020\n\010le" +
       "vel_id\030\003 \001(\r\022\023\n\013OOLAFMGLDCD\030\007 \001(\r\022\021\n\tmax" +
       "_score\030\n \001(\r\022\021\n\tis_finish\030\014 \001(\010\022\017\n\007is_op" +
-      "en\030\r \001(\010B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "en\030\r \001(\010B2\n\031emu.grasscutter.net.protoB\025C" +
+      "DPJMENKLHIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -698,8 +698,9 @@ public final class GCGSkillPreviewHpInfoOuterClass {
       "pChangeType.proto\"q\n\025GCGSkillPreviewHpIn" +
       "fo\022\027\n\017hp_change_value\030\010 \001(\r\022\023\n\013KNLKKAELB" +
       "BF\030\t \001(\010\022*\n\013change_type\030\r \001(\0162\025.GCGSkill" +
-      "HpChangeTypeB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "HpChangeTypeB<\n\031emu.grasscutter.net.prot" +
+      "oB\037GCGSkillPreviewHpInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

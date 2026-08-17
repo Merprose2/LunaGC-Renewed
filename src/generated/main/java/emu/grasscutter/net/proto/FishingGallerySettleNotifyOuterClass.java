@@ -801,8 +801,9 @@ public final class FishingGallerySettleNotifyOuterClass {
       "ingGallerySettleInfo.proto\"r\n\032FishingGal" +
       "lerySettleNotify\022\020\n\010level_id\030\001 \001(\r\022.\n\013se" +
       "ttle_info\030\007 \001(\0132\031.FishingGallerySettleIn" +
-      "fo\022\022\n\ngallery_id\030\013 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "fo\022\022\n\ngallery_id\030\013 \001(\rBA\n\031emu.grasscutte" +
+      "r.net.protoB$FishingGallerySettleNotifyO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

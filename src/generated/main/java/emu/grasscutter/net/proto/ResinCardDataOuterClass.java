@@ -729,8 +729,8 @@ public final class ResinCardDataOuterClass {
       "\n\023ResinCardData.proto\"s\n\rResinCardData\022\021" +
       "\n\tconfig_id\030\002 \001(\r\022\036\n\026last_daily_reward_t" +
       "ime\030\003 \001(\r\022\023\n\013expire_time\030\004 \001(\r\022\032\n\022remain" +
-      "_reward_days\030\013 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "_reward_days\030\013 \001(\rB4\n\031emu.grasscutter.ne" +
+      "t.protoB\027ResinCardDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

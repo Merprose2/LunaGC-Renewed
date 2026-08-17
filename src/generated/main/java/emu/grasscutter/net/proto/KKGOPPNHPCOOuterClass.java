@@ -1247,8 +1247,9 @@ public final class KKGOPPNHPCOOuterClass {
       "\001\n\013KKGOPPNHPCO\022\023\n\013CHHAOEJMMOE\030\001 \001(\005\022\023\n\013O" +
       "CMMIMJIKII\030\002 \001(\t\022\022\n\nrequest_id\030\003 \001(\t\022\032\n\004" +
       "data\030\004 \001(\0132\014.ACDMMNFPFCP\022\023\n\013NGEDGDGBAID\030" +
-      "\005 \001(\014\022\023\n\013NJKJHJEAKEJ\030\006 \001(\tB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\005 \001(\014\022\023\n\013NJKJHJEAKEJ\030\006 \001(\tB2\n\031emu.grassc" +
+      "utter.net.protoB\025KKGOPPNHPCOOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

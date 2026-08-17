@@ -1546,8 +1546,9 @@ public final class EvtRushMoveInfoOuterClass {
       "s\030\010 \001(\0132\007.Vector\022\022\n\ntime_range\030\t \001(\002\022\034\n\013" +
       "HBJOJCGDEAP\030\013 \001(\0132\007.Vector\022\032\n\022face_angle" +
       "_compact\030\014 \001(\005\022\027\n\017state_name_hash\030\016 \001(\005\022" +
-      "\021\n\tentity_id\030\017 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\021\n\tentity_id\030\017 \001(\rB6\n\031emu.grasscutter.ne" +
+      "t.protoB\031EvtRushMoveInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

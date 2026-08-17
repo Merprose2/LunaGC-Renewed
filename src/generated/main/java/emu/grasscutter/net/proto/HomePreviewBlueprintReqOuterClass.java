@@ -676,8 +676,9 @@ public final class HomePreviewBlueprintReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035HomePreviewBlueprintReq.proto\">\n\027HomeP" +
       "reviewBlueprintReq\022\022\n\nshare_code\030\003 \001(\t\022\017" +
-      "\n\007slot_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\n\007slot_id\030\016 \001(\rB>\n\031emu.grasscutter.net.p" +
+      "rotoB!HomePreviewBlueprintReqOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

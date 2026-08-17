@@ -980,7 +980,8 @@ public final class GCGOperationPlayCardOuterClass {
       "ationPlayCard\022\035\n\025target_card_guid_list\030\005" +
       " \003(\r\022\034\n\024cost_dice_index_list\030\007 \003(\r\022\021\n\tca" +
       "rd_guid\030\n \001(\r\022\031\n\021replace_card_guid\030\016 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B;\n\031emu.grasscutter.net.protoB\036GCGOperat" +
+      "ionPlayCardOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

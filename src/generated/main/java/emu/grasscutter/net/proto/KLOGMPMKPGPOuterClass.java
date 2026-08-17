@@ -1146,8 +1146,8 @@ public final class KLOGMPMKPGPOuterClass {
       "\001\n\013KLOGMPMKPGP\022\014\n\004name\030\001 \001(\t\022\023\n\013DLFLAKCK" +
       "FLD\030\002 \001(\005\022\023\n\013CENFHFBNJFL\030\003 \001(\005\022!\n\013FMKNLO" +
       "GFALG\030\004 \001(\0132\014.DMGMMDBNPNA\022\034\n\006offset\030\005 \001(" +
-      "\0132\014.DMGMMDBNPNAB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\0132\014.DMGMMDBNPNAB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025KLOGMPMKPGPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

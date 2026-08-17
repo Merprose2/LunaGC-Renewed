@@ -5715,8 +5715,9 @@ public final class GCGDuelOuterClass {
       "Pack\022*\n\016challenge_list\030\343\r \003(\0132\021.GCGDuelC" +
       "hallenge\022#\n\rop_timer_list\030\363\017 \003(\0132\013.GCGOp" +
       "Timer\032@\n\020NKCILOPPHGDEntry\022\013\n\003key\030\001 \001(\r\022\033" +
-      "\n\005value\030\002 \001(\0132\014.DBFAKFPCGAH:\0028\001B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\n\005value\030\002 \001(\0132\014.DBFAKFPCGAH:\0028\001B.\n\031emu.g" +
+      "rasscutter.net.protoB\021GCGDuelOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

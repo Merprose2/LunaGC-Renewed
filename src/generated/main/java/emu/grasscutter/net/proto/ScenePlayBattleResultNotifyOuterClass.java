@@ -1490,8 +1490,9 @@ public final class ScenePlayBattleResultNotifyOuterClass {
       "\tplay_type\030\007 \001(\r\022A\n\027settle_reward_info_l" +
       "ist\030\013 \003(\0132 .ScenePlayBattleSettleRewardI" +
       "nfo\022A\n\027settle_player_info_list\030\r \003(\0132 .S" +
-      "cenePlayBattleSettlePlayerInfoB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "cenePlayBattleSettlePlayerInfoBB\n\031emu.gr" +
+      "asscutter.net.protoB%ScenePlayBattleResu" +
+      "ltNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

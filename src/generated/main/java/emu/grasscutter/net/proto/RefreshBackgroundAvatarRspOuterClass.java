@@ -854,8 +854,9 @@ public final class RefreshBackgroundAvatarRspOuterClass {
       "e_map\030\002 \003(\0132..RefreshBackgroundAvatarRsp" +
       ".HpFullTimeMapEntry\022\017\n\007retcode\030\r \001(\005\0324\n\022" +
       "HpFullTimeMapEntry\022\013\n\003key\030\001 \001(\004\022\r\n\005value" +
-      "\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "\030\002 \001(\r:\0028\001BA\n\031emu.grasscutter.net.protoB" +
+      "$RefreshBackgroundAvatarRspOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

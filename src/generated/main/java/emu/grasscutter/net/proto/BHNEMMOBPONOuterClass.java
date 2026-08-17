@@ -667,8 +667,8 @@ public final class BHNEMMOBPONOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BHNEMMOBPON.proto\"E\n\013BHNEMMOBPON\022\023\n\013FD" +
       "HLPFAOGEG\030\003 \001(\010\022\020\n\010level_id\030\005 \001(\r\022\017\n\007ret" +
-      "code\030\016 \001(\005B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "code\030\016 \001(\005B2\n\031emu.grasscutter.net.protoB" +
+      "\025BHNEMMOBPONOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

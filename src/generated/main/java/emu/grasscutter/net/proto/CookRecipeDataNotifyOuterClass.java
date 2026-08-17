@@ -659,8 +659,9 @@ public final class CookRecipeDataNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032CookRecipeDataNotify.proto\032\024CookRecipe" +
       "Data.proto\"<\n\024CookRecipeDataNotify\022$\n\013re" +
-      "cipe_data\030\004 \001(\0132\017.CookRecipeDataB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "cipe_data\030\004 \001(\0132\017.CookRecipeDataB;\n\031emu." +
+      "grasscutter.net.protoB\036CookRecipeDataNot" +
+      "ifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

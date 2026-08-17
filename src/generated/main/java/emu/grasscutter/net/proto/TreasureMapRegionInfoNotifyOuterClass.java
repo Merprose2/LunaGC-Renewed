@@ -660,8 +660,9 @@ public final class TreasureMapRegionInfoNotifyOuterClass {
       "\n!TreasureMapRegionInfoNotify.proto\032\033Tre" +
       "asureMapRegionInfo.proto\"J\n\033TreasureMapR" +
       "egionInfoNotify\022+\n\013region_info\030\010 \001(\0132\026.T" +
-      "reasureMapRegionInfoB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "reasureMapRegionInfoBB\n\031emu.grasscutter." +
+      "net.protoB%TreasureMapRegionInfoNotifyOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -182,8 +182,8 @@ public final class PBKENIDHIDPOuterClass {
       "KENIDHIDP_NORMAL_ACHIEVEMENT_UNLOCK\020\003\022+\n" +
       "\'PBKENIDHIDP_PLATINUM_ACHIEVEMENT_UNLOCK" +
       "\020\004\022\027\n\023PBKENIDHIDP_COLLECT\020\005\022\037\n\033PBKENIDHI" +
-      "DP_PAID_DLC_UNLOCK\020\007B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "DP_PAID_DLC_UNLOCK\020\007B2\n\031emu.grasscutter." +
+      "net.protoB\025PBKENIDHIDPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

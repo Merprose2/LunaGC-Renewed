@@ -1344,8 +1344,9 @@ public final class JALIDOAEBFAOuterClass {
       "\n\021JALIDOAEBFA.proto\032\017ShopGoods.proto\"u\n\013" +
       "JALIDOAEBFA\022\037\n\013JLKDMDHNOGC\030\004 \003(\0132\n.ShopG" +
       "oods\022\023\n\013change_type\030\t \001(\r\022\017\n\007retcode\030\013 \001" +
-      "(\005\022\037\n\013IGPBACJCLEC\030\016 \003(\0132\n.ShopGoodsB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "(\005\022\037\n\013IGPBACJCLEC\030\016 \003(\0132\n.ShopGoodsB2\n\031e" +
+      "mu.grasscutter.net.protoB\025JALIDOAEBFAOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

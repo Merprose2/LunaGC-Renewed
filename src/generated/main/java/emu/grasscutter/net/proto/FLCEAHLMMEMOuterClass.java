@@ -1771,8 +1771,8 @@ public final class FLCEAHLMMEMOuterClass {
       "\030\t \001(\010\022&\n\020settle_info_list\030\013 \003(\0132\014.ACCFB" +
       "AMBMPC\022\022\n\nbegin_time\030\014 \001(\r\022\022\n\nstage_type" +
       "\030\r \001(\r\022\017\n\007is_succ\030\016 \001(\010\022\023\n\013BOIIKGFJGEE\030\017" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB2\n\031emu.grasscutter.net.protoB\025FLCEA" +
+      "HLMMEMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

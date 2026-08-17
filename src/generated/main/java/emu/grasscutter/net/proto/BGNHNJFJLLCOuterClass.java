@@ -879,7 +879,8 @@ public final class BGNHNJFJLLCOuterClass {
       "\n\021BGNHNJFJLLC.proto\"f\n\013BGNHNJFJLLC\022\023\n\013AE" +
       "NPIDPILAB\030\001 \001(\r\022\014\n\004name\030\002 \001(\t\022\021\n\tconfig_" +
       "id\030\003 \001(\r\022\022\n\nslot_count\030\004 \001(\005\022\r\n\005index\030\005 " +
-      "\001(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\005B2\n\031emu.grasscutter.net.protoB\025BGNHNJ" +
+      "FJLLCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

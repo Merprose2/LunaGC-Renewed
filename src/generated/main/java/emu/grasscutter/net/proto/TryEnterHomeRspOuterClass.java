@@ -793,8 +793,9 @@ public final class TryEnterHomeRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025TryEnterHomeRsp.proto\"J\n\017TryEnterHomeR" +
       "sp\022\022\n\ntarget_uid\030\002 \001(\r\022\022\n\nparam_list\030\006 \003" +
-      "(\r\022\017\n\007retcode\030\n \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "(\r\022\017\n\007retcode\030\n \001(\005B6\n\031emu.grasscutter.n" +
+      "et.protoB\031TryEnterHomeRspOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

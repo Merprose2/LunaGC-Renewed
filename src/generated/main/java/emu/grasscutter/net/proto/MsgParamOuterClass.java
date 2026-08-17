@@ -926,8 +926,8 @@ public final class MsgParamOuterClass {
     java.lang.String[] descriptorData = {
       "\n\016MsgParam.proto\"R\n\010MsgParam\022\023\n\tstr_para" +
       "m\030\005 \001(\tH\000\022\023\n\tint_param\030\n \001(\rH\000\022\023\n\tflt_pa" +
-      "ram\030\014 \001(\002H\000B\007\n\005paramB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "ram\030\014 \001(\002H\000B\007\n\005paramB/\n\031emu.grasscutter." +
+      "net.protoB\022MsgParamOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

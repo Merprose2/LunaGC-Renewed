@@ -33,11 +33,11 @@ public final class JNBHHOGKNOLOuterClass {
      * <code>._BoxExtent BBJGCJNFMHE = 9;</code>
      * @return The bBJGCJNFMHE.
      */
-    emu.grasscutter.net.proto.BoxExtent._BoxExtent getBBJGCJNFMHE();
+    emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent getBBJGCJNFMHE();
     /**
      * <code>._BoxExtent BBJGCJNFMHE = 9;</code>
      */
-    emu.grasscutter.net.proto.BoxExtent._BoxExtentOrBuilder getBBJGCJNFMHEOrBuilder();
+    emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtentOrBuilder getBBJGCJNFMHEOrBuilder();
 
     /**
      * <code>int64 circle_radius = 1162;</code>
@@ -59,11 +59,11 @@ public final class JNBHHOGKNOLOuterClass {
      * <code>._BoxExtent box_extent = 1938;</code>
      * @return The boxExtent.
      */
-    emu.grasscutter.net.proto.BoxExtent._BoxExtent getBoxExtent();
+    emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent getBoxExtent();
     /**
      * <code>._BoxExtent box_extent = 1938;</code>
      */
-    emu.grasscutter.net.proto.BoxExtent._BoxExtentOrBuilder getBoxExtentOrBuilder();
+    emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtentOrBuilder getBoxExtentOrBuilder();
 
     public emu.grasscutter.net.proto.JNBHHOGKNOLOuterClass.JNBHHOGKNOL.DetailCase getDetailCase();
   }
@@ -118,11 +118,11 @@ public final class JNBHHOGKNOLOuterClass {
               break;
             }
             case 74: {
-              emu.grasscutter.net.proto.BoxExtent._BoxExtent.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.Builder subBuilder = null;
               if (bBJGCJNFMHE_ != null) {
                 subBuilder = bBJGCJNFMHE_.toBuilder();
               }
-              bBJGCJNFMHE_ = input.readMessage(emu.grasscutter.net.proto.BoxExtent._BoxExtent.parser(), extensionRegistry);
+              bBJGCJNFMHE_ = input.readMessage(emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(bBJGCJNFMHE_);
                 bBJGCJNFMHE_ = subBuilder.buildPartial();
@@ -136,14 +136,14 @@ public final class JNBHHOGKNOLOuterClass {
               break;
             }
             case 15506: {
-              emu.grasscutter.net.proto.BoxExtent._BoxExtent.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.Builder subBuilder = null;
               if (detailCase_ == 1938) {
-                subBuilder = ((emu.grasscutter.net.proto.BoxExtent._BoxExtent) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BoxExtent._BoxExtent.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BoxExtent._BoxExtent) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1938;
@@ -234,7 +234,7 @@ public final class JNBHHOGKNOLOuterClass {
     }
 
     public static final int BBJGCJNFMHE_FIELD_NUMBER = 9;
-    private emu.grasscutter.net.proto.BoxExtent._BoxExtent bBJGCJNFMHE_;
+    private emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent bBJGCJNFMHE_;
     /**
      * <code>._BoxExtent BBJGCJNFMHE = 9;</code>
      * @return Whether the bBJGCJNFMHE field is set.
@@ -248,14 +248,14 @@ public final class JNBHHOGKNOLOuterClass {
      * @return The bBJGCJNFMHE.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BoxExtent._BoxExtent getBBJGCJNFMHE() {
-      return bBJGCJNFMHE_ == null ? emu.grasscutter.net.proto.BoxExtent._BoxExtent.getDefaultInstance() : bBJGCJNFMHE_;
+    public emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent getBBJGCJNFMHE() {
+      return bBJGCJNFMHE_ == null ? emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.getDefaultInstance() : bBJGCJNFMHE_;
     }
     /**
      * <code>._BoxExtent BBJGCJNFMHE = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BoxExtent._BoxExtentOrBuilder getBBJGCJNFMHEOrBuilder() {
+    public emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtentOrBuilder getBBJGCJNFMHEOrBuilder() {
       return getBBJGCJNFMHE();
     }
 
@@ -294,21 +294,21 @@ public final class JNBHHOGKNOLOuterClass {
      * @return The boxExtent.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BoxExtent._BoxExtent getBoxExtent() {
+    public emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent getBoxExtent() {
       if (detailCase_ == 1938) {
-         return (emu.grasscutter.net.proto.BoxExtent._BoxExtent) detail_;
+         return (emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent) detail_;
       }
-      return emu.grasscutter.net.proto.BoxExtent._BoxExtent.getDefaultInstance();
+      return emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.getDefaultInstance();
     }
     /**
      * <code>._BoxExtent box_extent = 1938;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BoxExtent._BoxExtentOrBuilder getBoxExtentOrBuilder() {
+    public emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtentOrBuilder getBoxExtentOrBuilder() {
       if (detailCase_ == 1938) {
-         return (emu.grasscutter.net.proto.BoxExtent._BoxExtent) detail_;
+         return (emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent) detail_;
       }
-      return emu.grasscutter.net.proto.BoxExtent._BoxExtent.getDefaultInstance();
+      return emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -336,7 +336,7 @@ public final class JNBHHOGKNOLOuterClass {
             1162, (long)((java.lang.Long) detail_));
       }
       if (detailCase_ == 1938) {
-        output.writeMessage(1938, (emu.grasscutter.net.proto.BoxExtent._BoxExtent) detail_);
+        output.writeMessage(1938, (emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -362,7 +362,7 @@ public final class JNBHHOGKNOLOuterClass {
       }
       if (detailCase_ == 1938) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1938, (emu.grasscutter.net.proto.BoxExtent._BoxExtent) detail_);
+          .computeMessageSize(1938, (emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -758,9 +758,9 @@ public final class JNBHHOGKNOLOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.BoxExtent._BoxExtent bBJGCJNFMHE_;
+      private emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent bBJGCJNFMHE_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BoxExtent._BoxExtent, emu.grasscutter.net.proto.BoxExtent._BoxExtent.Builder, emu.grasscutter.net.proto.BoxExtent._BoxExtentOrBuilder> bBJGCJNFMHEBuilder_;
+          emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent, emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.Builder, emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtentOrBuilder> bBJGCJNFMHEBuilder_;
       /**
        * <code>._BoxExtent BBJGCJNFMHE = 9;</code>
        * @return Whether the bBJGCJNFMHE field is set.
@@ -772,9 +772,9 @@ public final class JNBHHOGKNOLOuterClass {
        * <code>._BoxExtent BBJGCJNFMHE = 9;</code>
        * @return The bBJGCJNFMHE.
        */
-      public emu.grasscutter.net.proto.BoxExtent._BoxExtent getBBJGCJNFMHE() {
+      public emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent getBBJGCJNFMHE() {
         if (bBJGCJNFMHEBuilder_ == null) {
-          return bBJGCJNFMHE_ == null ? emu.grasscutter.net.proto.BoxExtent._BoxExtent.getDefaultInstance() : bBJGCJNFMHE_;
+          return bBJGCJNFMHE_ == null ? emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.getDefaultInstance() : bBJGCJNFMHE_;
         } else {
           return bBJGCJNFMHEBuilder_.getMessage();
         }
@@ -782,7 +782,7 @@ public final class JNBHHOGKNOLOuterClass {
       /**
        * <code>._BoxExtent BBJGCJNFMHE = 9;</code>
        */
-      public Builder setBBJGCJNFMHE(emu.grasscutter.net.proto.BoxExtent._BoxExtent value) {
+      public Builder setBBJGCJNFMHE(emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent value) {
         if (bBJGCJNFMHEBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -799,7 +799,7 @@ public final class JNBHHOGKNOLOuterClass {
        * <code>._BoxExtent BBJGCJNFMHE = 9;</code>
        */
       public Builder setBBJGCJNFMHE(
-          emu.grasscutter.net.proto.BoxExtent._BoxExtent.Builder builderForValue) {
+          emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.Builder builderForValue) {
         if (bBJGCJNFMHEBuilder_ == null) {
           bBJGCJNFMHE_ = builderForValue.build();
           onChanged();
@@ -812,11 +812,11 @@ public final class JNBHHOGKNOLOuterClass {
       /**
        * <code>._BoxExtent BBJGCJNFMHE = 9;</code>
        */
-      public Builder mergeBBJGCJNFMHE(emu.grasscutter.net.proto.BoxExtent._BoxExtent value) {
+      public Builder mergeBBJGCJNFMHE(emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent value) {
         if (bBJGCJNFMHEBuilder_ == null) {
           if (bBJGCJNFMHE_ != null) {
             bBJGCJNFMHE_ =
-              emu.grasscutter.net.proto.BoxExtent._BoxExtent.newBuilder(bBJGCJNFMHE_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.newBuilder(bBJGCJNFMHE_).mergeFrom(value).buildPartial();
           } else {
             bBJGCJNFMHE_ = value;
           }
@@ -844,7 +844,7 @@ public final class JNBHHOGKNOLOuterClass {
       /**
        * <code>._BoxExtent BBJGCJNFMHE = 9;</code>
        */
-      public emu.grasscutter.net.proto.BoxExtent._BoxExtent.Builder getBBJGCJNFMHEBuilder() {
+      public emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.Builder getBBJGCJNFMHEBuilder() {
         
         onChanged();
         return getBBJGCJNFMHEFieldBuilder().getBuilder();
@@ -852,23 +852,23 @@ public final class JNBHHOGKNOLOuterClass {
       /**
        * <code>._BoxExtent BBJGCJNFMHE = 9;</code>
        */
-      public emu.grasscutter.net.proto.BoxExtent._BoxExtentOrBuilder getBBJGCJNFMHEOrBuilder() {
+      public emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtentOrBuilder getBBJGCJNFMHEOrBuilder() {
         if (bBJGCJNFMHEBuilder_ != null) {
           return bBJGCJNFMHEBuilder_.getMessageOrBuilder();
         } else {
           return bBJGCJNFMHE_ == null ?
-              emu.grasscutter.net.proto.BoxExtent._BoxExtent.getDefaultInstance() : bBJGCJNFMHE_;
+              emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.getDefaultInstance() : bBJGCJNFMHE_;
         }
       }
       /**
        * <code>._BoxExtent BBJGCJNFMHE = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BoxExtent._BoxExtent, emu.grasscutter.net.proto.BoxExtent._BoxExtent.Builder, emu.grasscutter.net.proto.BoxExtent._BoxExtentOrBuilder> 
+          emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent, emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.Builder, emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtentOrBuilder> 
           getBBJGCJNFMHEFieldBuilder() {
         if (bBJGCJNFMHEBuilder_ == null) {
           bBJGCJNFMHEBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BoxExtent._BoxExtent, emu.grasscutter.net.proto.BoxExtent._BoxExtent.Builder, emu.grasscutter.net.proto.BoxExtent._BoxExtentOrBuilder>(
+              emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent, emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.Builder, emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtentOrBuilder>(
                   getBBJGCJNFMHE(),
                   getParentForChildren(),
                   isClean());
@@ -919,7 +919,7 @@ public final class JNBHHOGKNOLOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BoxExtent._BoxExtent, emu.grasscutter.net.proto.BoxExtent._BoxExtent.Builder, emu.grasscutter.net.proto.BoxExtent._BoxExtentOrBuilder> boxExtentBuilder_;
+          emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent, emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.Builder, emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtentOrBuilder> boxExtentBuilder_;
       /**
        * <code>._BoxExtent box_extent = 1938;</code>
        * @return Whether the boxExtent field is set.
@@ -933,23 +933,23 @@ public final class JNBHHOGKNOLOuterClass {
        * @return The boxExtent.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BoxExtent._BoxExtent getBoxExtent() {
+      public emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent getBoxExtent() {
         if (boxExtentBuilder_ == null) {
           if (detailCase_ == 1938) {
-            return (emu.grasscutter.net.proto.BoxExtent._BoxExtent) detail_;
+            return (emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent) detail_;
           }
-          return emu.grasscutter.net.proto.BoxExtent._BoxExtent.getDefaultInstance();
+          return emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.getDefaultInstance();
         } else {
           if (detailCase_ == 1938) {
             return boxExtentBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BoxExtent._BoxExtent.getDefaultInstance();
+          return emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.getDefaultInstance();
         }
       }
       /**
        * <code>._BoxExtent box_extent = 1938;</code>
        */
-      public Builder setBoxExtent(emu.grasscutter.net.proto.BoxExtent._BoxExtent value) {
+      public Builder setBoxExtent(emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent value) {
         if (boxExtentBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -966,7 +966,7 @@ public final class JNBHHOGKNOLOuterClass {
        * <code>._BoxExtent box_extent = 1938;</code>
        */
       public Builder setBoxExtent(
-          emu.grasscutter.net.proto.BoxExtent._BoxExtent.Builder builderForValue) {
+          emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.Builder builderForValue) {
         if (boxExtentBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -979,11 +979,11 @@ public final class JNBHHOGKNOLOuterClass {
       /**
        * <code>._BoxExtent box_extent = 1938;</code>
        */
-      public Builder mergeBoxExtent(emu.grasscutter.net.proto.BoxExtent._BoxExtent value) {
+      public Builder mergeBoxExtent(emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent value) {
         if (boxExtentBuilder_ == null) {
           if (detailCase_ == 1938 &&
-              detail_ != emu.grasscutter.net.proto.BoxExtent._BoxExtent.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BoxExtent._BoxExtent.newBuilder((emu.grasscutter.net.proto.BoxExtent._BoxExtent) detail_)
+              detail_ != emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.newBuilder((emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1020,36 +1020,36 @@ public final class JNBHHOGKNOLOuterClass {
       /**
        * <code>._BoxExtent box_extent = 1938;</code>
        */
-      public emu.grasscutter.net.proto.BoxExtent._BoxExtent.Builder getBoxExtentBuilder() {
+      public emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.Builder getBoxExtentBuilder() {
         return getBoxExtentFieldBuilder().getBuilder();
       }
       /**
        * <code>._BoxExtent box_extent = 1938;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BoxExtent._BoxExtentOrBuilder getBoxExtentOrBuilder() {
+      public emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtentOrBuilder getBoxExtentOrBuilder() {
         if ((detailCase_ == 1938) && (boxExtentBuilder_ != null)) {
           return boxExtentBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1938) {
-            return (emu.grasscutter.net.proto.BoxExtent._BoxExtent) detail_;
+            return (emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent) detail_;
           }
-          return emu.grasscutter.net.proto.BoxExtent._BoxExtent.getDefaultInstance();
+          return emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.getDefaultInstance();
         }
       }
       /**
        * <code>._BoxExtent box_extent = 1938;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BoxExtent._BoxExtent, emu.grasscutter.net.proto.BoxExtent._BoxExtent.Builder, emu.grasscutter.net.proto.BoxExtent._BoxExtentOrBuilder> 
+          emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent, emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.Builder, emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtentOrBuilder> 
           getBoxExtentFieldBuilder() {
         if (boxExtentBuilder_ == null) {
           if (!(detailCase_ == 1938)) {
-            detail_ = emu.grasscutter.net.proto.BoxExtent._BoxExtent.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.getDefaultInstance();
           }
           boxExtentBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BoxExtent._BoxExtent, emu.grasscutter.net.proto.BoxExtent._BoxExtent.Builder, emu.grasscutter.net.proto.BoxExtent._BoxExtentOrBuilder>(
-                  (emu.grasscutter.net.proto.BoxExtent._BoxExtent) detail_,
+              emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent, emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent.Builder, emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtentOrBuilder>(
+                  (emu.grasscutter.net.proto._BoxExtentOuterClass._BoxExtent) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1129,13 +1129,13 @@ public final class JNBHHOGKNOLOuterClass {
       "\n\013JNBHHOGKNOL\022\023\n\013ODJIOIABMCG\030\007 \001(\020\022 \n\013BB" +
       "JGCJNFMHE\030\t \001(\0132\013._BoxExtent\022\030\n\rcircle_r" +
       "adius\030\212\t \001(\003H\000\022\"\n\nbox_extent\030\222\017 \001(\0132\013._B" +
-      "oxExtentH\000B\010\n\006detailB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "oxExtentH\000B\010\n\006detailB2\n\031emu.grasscutter." +
+      "net.protoB\025JNBHHOGKNOLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BoxExtent.getDescriptor(),
+          emu.grasscutter.net.proto._BoxExtentOuterClass.getDescriptor(),
         });
     internal_static_JNBHHOGKNOL_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1143,7 +1143,7 @@ public final class JNBHHOGKNOLOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_JNBHHOGKNOL_descriptor,
         new java.lang.String[] { "ODJIOIABMCG", "BBJGCJNFMHE", "CircleRadius", "BoxExtent", "Detail", });
-    emu.grasscutter.net.proto.BoxExtent.getDescriptor();
+    emu.grasscutter.net.proto._BoxExtentOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -1329,8 +1329,8 @@ public final class DBMABEGBDENOuterClass {
       "BGLBHHCFKH\030\002 \003(\0132\014.HOIHHDKMFIF\022\024\n\013PANOOK" +
       "HHBPD\030\365\003 \001(\t\022\024\n\013PACIOEOBAED\030\366\003 \001(\010\022\024\n\013AK" +
       "CFELJHHJG\030\367\003 \001(\r\022\024\n\013FPFMABFBJJM\030\370\003 \001(\r\022\024" +
-      "\n\013FNLCEOICIDK\030\371\003 \001(\010B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\n\013FNLCEOICIDK\030\371\003 \001(\010B2\n\031emu.grasscutter." +
+      "net.protoB\025DBMABEGBDENOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

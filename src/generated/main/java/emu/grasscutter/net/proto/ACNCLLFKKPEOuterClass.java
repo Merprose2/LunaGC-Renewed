@@ -39,11 +39,11 @@ public final class ACNCLLFKKPEOuterClass {
      * <code>._BeyondCostumeSetInfo _costume_set_detail = 7;</code>
      * @return The costumeSetDetail.
      */
-    emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getCostumeSetDetail();
+    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getCostumeSetDetail();
     /**
      * <code>._BeyondCostumeSetInfo _costume_set_detail = 7;</code>
      */
-    emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getCostumeSetDetailOrBuilder();
+    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getCostumeSetDetailOrBuilder();
 
     /**
      * <code>uint64 avatar_guid = 10;</code>
@@ -117,11 +117,11 @@ public final class ACNCLLFKKPEOuterClass {
               break;
             }
             case 58: {
-              emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder subBuilder = null;
               if (CostumeSetDetail_ != null) {
                 subBuilder = CostumeSetDetail_.toBuilder();
               }
-              CostumeSetDetail_ = input.readMessage(emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.parser(), extensionRegistry);
+              CostumeSetDetail_ = input.readMessage(emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(CostumeSetDetail_);
                 CostumeSetDetail_ = subBuilder.buildPartial();
@@ -194,7 +194,7 @@ public final class ACNCLLFKKPEOuterClass {
     }
 
     public static final int _COSTUME_SET_DETAIL_FIELD_NUMBER = 7;
-    private emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo CostumeSetDetail_;
+    private emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo CostumeSetDetail_;
     /**
      * <code>._BeyondCostumeSetInfo _costume_set_detail = 7;</code>
      * @return Whether the costumeSetDetail field is set.
@@ -208,14 +208,14 @@ public final class ACNCLLFKKPEOuterClass {
      * @return The costumeSetDetail.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getCostumeSetDetail() {
-      return CostumeSetDetail_ == null ? emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.getDefaultInstance() : CostumeSetDetail_;
+    public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getCostumeSetDetail() {
+      return CostumeSetDetail_ == null ? emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.getDefaultInstance() : CostumeSetDetail_;
     }
     /**
      * <code>._BeyondCostumeSetInfo _costume_set_detail = 7;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getCostumeSetDetailOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getCostumeSetDetailOrBuilder() {
       return getCostumeSetDetail();
     }
 
@@ -691,9 +691,9 @@ public final class ACNCLLFKKPEOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo CostumeSetDetail_;
+      private emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo CostumeSetDetail_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> CostumeSetDetailBuilder_;
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> CostumeSetDetailBuilder_;
       /**
        * <code>._BeyondCostumeSetInfo _costume_set_detail = 7;</code>
        * @return Whether the costumeSetDetail field is set.
@@ -705,9 +705,9 @@ public final class ACNCLLFKKPEOuterClass {
        * <code>._BeyondCostumeSetInfo _costume_set_detail = 7;</code>
        * @return The costumeSetDetail.
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getCostumeSetDetail() {
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getCostumeSetDetail() {
         if (CostumeSetDetailBuilder_ == null) {
-          return CostumeSetDetail_ == null ? emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.getDefaultInstance() : CostumeSetDetail_;
+          return CostumeSetDetail_ == null ? emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.getDefaultInstance() : CostumeSetDetail_;
         } else {
           return CostumeSetDetailBuilder_.getMessage();
         }
@@ -715,7 +715,7 @@ public final class ACNCLLFKKPEOuterClass {
       /**
        * <code>._BeyondCostumeSetInfo _costume_set_detail = 7;</code>
        */
-      public Builder setCostumeSetDetail(emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo value) {
+      public Builder setCostumeSetDetail(emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo value) {
         if (CostumeSetDetailBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -732,7 +732,7 @@ public final class ACNCLLFKKPEOuterClass {
        * <code>._BeyondCostumeSetInfo _costume_set_detail = 7;</code>
        */
       public Builder setCostumeSetDetail(
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder builderForValue) {
         if (CostumeSetDetailBuilder_ == null) {
           CostumeSetDetail_ = builderForValue.build();
           onChanged();
@@ -745,11 +745,11 @@ public final class ACNCLLFKKPEOuterClass {
       /**
        * <code>._BeyondCostumeSetInfo _costume_set_detail = 7;</code>
        */
-      public Builder mergeCostumeSetDetail(emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo value) {
+      public Builder mergeCostumeSetDetail(emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo value) {
         if (CostumeSetDetailBuilder_ == null) {
           if (CostumeSetDetail_ != null) {
             CostumeSetDetail_ =
-              emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.newBuilder(CostumeSetDetail_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.newBuilder(CostumeSetDetail_).mergeFrom(value).buildPartial();
           } else {
             CostumeSetDetail_ = value;
           }
@@ -777,7 +777,7 @@ public final class ACNCLLFKKPEOuterClass {
       /**
        * <code>._BeyondCostumeSetInfo _costume_set_detail = 7;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder getCostumeSetDetailBuilder() {
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder getCostumeSetDetailBuilder() {
         
         onChanged();
         return getCostumeSetDetailFieldBuilder().getBuilder();
@@ -785,23 +785,23 @@ public final class ACNCLLFKKPEOuterClass {
       /**
        * <code>._BeyondCostumeSetInfo _costume_set_detail = 7;</code>
        */
-      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getCostumeSetDetailOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getCostumeSetDetailOrBuilder() {
         if (CostumeSetDetailBuilder_ != null) {
           return CostumeSetDetailBuilder_.getMessageOrBuilder();
         } else {
           return CostumeSetDetail_ == null ?
-              emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.getDefaultInstance() : CostumeSetDetail_;
+              emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.getDefaultInstance() : CostumeSetDetail_;
         }
       }
       /**
        * <code>._BeyondCostumeSetInfo _costume_set_detail = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> 
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> 
           getCostumeSetDetailFieldBuilder() {
         if (CostumeSetDetailBuilder_ == null) {
           CostumeSetDetailBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder>(
+              emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder>(
                   getCostumeSetDetail(),
                   getParentForChildren(),
                   isClean());
@@ -943,12 +943,13 @@ public final class ACNCLLFKKPEOuterClass {
       "\003 \001(\r\022\023\n\013OMAHLPEPFGF\030\005 \001(\r\0223\n\023_costume_s" +
       "et_detail\030\007 \001(\0132\026._BeyondCostumeSetInfo\022" +
       "\023\n\013avatar_guid\030\n \001(\004\022\023\n\013HEHAILLBAHI\030\013 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB2\n\031emu.grasscutter.net.protoB\025ACNCLLFK" +
+      "KPEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BeyondCostumeSetInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass.getDescriptor(),
         });
     internal_static_ACNCLLFKKPE_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -956,7 +957,7 @@ public final class ACNCLLFKKPEOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ACNCLLFKKPE_descriptor,
         new java.lang.String[] { "DCAMCBGLCHB", "OMAHLPEPFGF", "CostumeSetDetail", "AvatarGuid", "HEHAILLBAHI", });
-    emu.grasscutter.net.proto.BeyondCostumeSetInfo.getDescriptor();
+    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

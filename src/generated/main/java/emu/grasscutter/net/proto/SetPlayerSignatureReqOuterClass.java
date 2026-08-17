@@ -605,8 +605,9 @@ public final class SetPlayerSignatureReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033SetPlayerSignatureReq.proto\"*\n\025SetPlay" +
-      "erSignatureReq\022\021\n\tsignature\030\r \001(\tB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "erSignatureReq\022\021\n\tsignature\030\r \001(\tB<\n\031emu" +
+      ".grasscutter.net.protoB\037SetPlayerSignatu" +
+      "reReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -669,8 +669,8 @@ public final class LMNFGAKOAHNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LMNFGAKOAHN.proto\"I\n\013LMNFGAKOAHN\022\020\n\010is" +
       "_agree\030\001 \001(\010\022\023\n\013BOJNPHONGMP\030\r \001(\004\022\023\n\013JCF" +
-      "PEEIKJCH\030\017 \001(\010B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "PEEIKJCH\030\017 \001(\010B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025LMNFGAKOAHNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

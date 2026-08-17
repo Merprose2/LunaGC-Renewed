@@ -9917,8 +9917,8 @@ public final class KBCOKBILCDMOuterClass {
       "AH\000\022\'\n\017water_cube_comp\0307 \001(\0132\014.GINGKPGJF" +
       "BHH\000\022-\n\025cursor_collision_comp\0308 \001(\0132\014.EI" +
       "DPHLLANDBH\000\022$\n\014vehicle_comp\0309 \001(\0132\014.CJHH" +
-      "FMGMGHKH\000B\010\n\006detailB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "FMGMGHKH\000B\010\n\006detailB2\n\031emu.grasscutter.n" +
+      "et.protoB\025KBCOKBILCDMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

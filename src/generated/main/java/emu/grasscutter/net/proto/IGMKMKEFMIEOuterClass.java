@@ -446,8 +446,9 @@ public final class IGMKMKEFMIEOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021IGMKMKEFMIE.proto\"\r\n\013IGMKMKEFMIEB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021IGMKMKEFMIE.proto\"\r\n\013IGMKMKEFMIEB2\n\031em" +
+      "u.grasscutter.net.protoB\025IGMKMKEFMIEOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

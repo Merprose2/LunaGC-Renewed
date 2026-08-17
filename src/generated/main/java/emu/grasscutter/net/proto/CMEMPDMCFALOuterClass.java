@@ -1088,8 +1088,8 @@ public final class CMEMPDMCFALOuterClass {
       "\n\021CMEMPDMCFAL.proto\032\021DDMFCLFMEMJ.proto\"Z" +
       "\n\013CMEMPDMCFAL\022\023\n\013LHEKPBPKJNK\030\001 \003(\005\022!\n\013IP" +
       "MJOOLLHNM\030\002 \003(\0132\014.DDMFCLFMEMJ\022\023\n\013ELFONBJ" +
-      "BLDL\030\003 \001(\005B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "BLDL\030\003 \001(\005B2\n\031emu.grasscutter.net.protoB" +
+      "\025CMEMPDMCFALOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

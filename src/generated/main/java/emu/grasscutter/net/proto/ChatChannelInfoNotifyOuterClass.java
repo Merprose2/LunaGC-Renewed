@@ -659,8 +659,9 @@ public final class ChatChannelInfoNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033ChatChannelInfoNotify.proto\032\025ChatChann" +
       "elInfo.proto\"?\n\025ChatChannelInfoNotify\022&\n" +
-      "\014channel_info\030\004 \001(\0132\020.ChatChannelInfoB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\014channel_info\030\004 \001(\0132\020.ChatChannelInfoB<\n" +
+      "\031emu.grasscutter.net.protoB\037ChatChannelI" +
+      "nfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

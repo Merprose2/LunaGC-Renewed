@@ -736,8 +736,9 @@ public final class PKMFKLABGFNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PKMFKLABGFN.proto\"]\n\013PKMFKLABGFN\022\023\n\013NE" +
       "CLCNFMDNG\030\007 \001(\r\022\017\n\007retcode\030\010 \001(\005\022\023\n\013PDFL" +
-      "NJBFOMP\030\n \001(\r\022\023\n\013DJJAEFOKKBB\030\013 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "NJBFOMP\030\n \001(\r\022\023\n\013DJJAEFOKKBB\030\013 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025PKMFKLABGFNOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

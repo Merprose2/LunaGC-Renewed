@@ -1168,8 +1168,9 @@ public final class HNMEDOCEBADOuterClass {
       "OEBOGFHAHGB.proto\"}\n\013HNMEDOCEBAD\022!\n\013JABD" +
       "DOALGHG\030\001 \001(\0132\014.OEBOGFHAHGB\022!\n\013NJJHJIDPH" +
       "BG\030\002 \003(\0132\014.JOPIJHIDLMD\022\023\n\013CMJAOIDDLLL\030\003 " +
-      "\001(\r\022\023\n\013POCBPJJJPHD\030\004 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\001(\r\022\023\n\013POCBPJJJPHD\030\004 \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025HNMEDOCEBADOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

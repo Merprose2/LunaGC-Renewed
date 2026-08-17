@@ -177,11 +177,11 @@ public final class AllWidgetDataNotifyOuterClass {
      * <code>._SorushWidgetData _sorush_widget_data = 11;</code>
      * @return The sorushWidgetData.
      */
-    emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData getSorushWidgetData();
+    emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData getSorushWidgetData();
     /**
      * <code>._SorushWidgetData _sorush_widget_data = 11;</code>
      */
-    emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetDataOrBuilder getSorushWidgetDataOrBuilder();
+    emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetDataOrBuilder getSorushWidgetDataOrBuilder();
 
     /**
      * <code>repeated .AnchorPointData anchor_point_list = 13;</code>
@@ -289,11 +289,11 @@ public final class AllWidgetDataNotifyOuterClass {
      * <code>._WispCageData _wisp_cage_data = 1197;</code>
      * @return The wispCageData.
      */
-    emu.grasscutter.net.proto.WispCageData._WispCageData getWispCageData();
+    emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData getWispCageData();
     /**
      * <code>._WispCageData _wisp_cage_data = 1197;</code>
      */
-    emu.grasscutter.net.proto.WispCageData._WispCageDataOrBuilder getWispCageDataOrBuilder();
+    emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageDataOrBuilder getWispCageDataOrBuilder();
 
     /**
      * <code>._TreasureKeyData _treasure_key_data = 1586;</code>
@@ -304,11 +304,11 @@ public final class AllWidgetDataNotifyOuterClass {
      * <code>._TreasureKeyData _treasure_key_data = 1586;</code>
      * @return The treasureKeyData.
      */
-    emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData getTreasureKeyData();
+    emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData getTreasureKeyData();
     /**
      * <code>._TreasureKeyData _treasure_key_data = 1586;</code>
      */
-    emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyDataOrBuilder getTreasureKeyDataOrBuilder();
+    emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyDataOrBuilder getTreasureKeyDataOrBuilder();
 
     /**
      * <code>repeated .Uint32Pair _widget_setting_list = 1598;</code>
@@ -472,11 +472,11 @@ public final class AllWidgetDataNotifyOuterClass {
               break;
             }
             case 90: {
-              emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData.Builder subBuilder = null;
               if (SorushWidgetData_ != null) {
                 subBuilder = SorushWidgetData_.toBuilder();
               }
-              SorushWidgetData_ = input.readMessage(emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData.parser(), extensionRegistry);
+              SorushWidgetData_ = input.readMessage(emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(SorushWidgetData_);
                 SorushWidgetData_ = subBuilder.buildPartial();
@@ -558,11 +558,11 @@ public final class AllWidgetDataNotifyOuterClass {
               break;
             }
             case 9578: {
-              emu.grasscutter.net.proto.WispCageData._WispCageData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData.Builder subBuilder = null;
               if (WispCageData_ != null) {
                 subBuilder = WispCageData_.toBuilder();
               }
-              WispCageData_ = input.readMessage(emu.grasscutter.net.proto.WispCageData._WispCageData.parser(), extensionRegistry);
+              WispCageData_ = input.readMessage(emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(WispCageData_);
                 WispCageData_ = subBuilder.buildPartial();
@@ -571,11 +571,11 @@ public final class AllWidgetDataNotifyOuterClass {
               break;
             }
             case 12690: {
-              emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData.Builder subBuilder = null;
               if (TreasureKeyData_ != null) {
                 subBuilder = TreasureKeyData_.toBuilder();
               }
-              TreasureKeyData_ = input.readMessage(emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData.parser(), extensionRegistry);
+              TreasureKeyData_ = input.readMessage(emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(TreasureKeyData_);
                 TreasureKeyData_ = subBuilder.buildPartial();
@@ -912,7 +912,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
 
     public static final int _SORUSH_WIDGET_DATA_FIELD_NUMBER = 11;
-    private emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData SorushWidgetData_;
+    private emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData SorushWidgetData_;
     /**
      * <code>._SorushWidgetData _sorush_widget_data = 11;</code>
      * @return Whether the sorushWidgetData field is set.
@@ -926,14 +926,14 @@ public final class AllWidgetDataNotifyOuterClass {
      * @return The sorushWidgetData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData getSorushWidgetData() {
-      return SorushWidgetData_ == null ? emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData.getDefaultInstance() : SorushWidgetData_;
+    public emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData getSorushWidgetData() {
+      return SorushWidgetData_ == null ? emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData.getDefaultInstance() : SorushWidgetData_;
     }
     /**
      * <code>._SorushWidgetData _sorush_widget_data = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetDataOrBuilder getSorushWidgetDataOrBuilder() {
+    public emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetDataOrBuilder getSorushWidgetDataOrBuilder() {
       return getSorushWidgetData();
     }
 
@@ -1100,7 +1100,7 @@ public final class AllWidgetDataNotifyOuterClass {
     private int MaterialIdListMemoizedSerializedSize = -1;
 
     public static final int _WISP_CAGE_DATA_FIELD_NUMBER = 1197;
-    private emu.grasscutter.net.proto.WispCageData._WispCageData WispCageData_;
+    private emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData WispCageData_;
     /**
      * <code>._WispCageData _wisp_cage_data = 1197;</code>
      * @return Whether the wispCageData field is set.
@@ -1114,19 +1114,19 @@ public final class AllWidgetDataNotifyOuterClass {
      * @return The wispCageData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.WispCageData._WispCageData getWispCageData() {
-      return WispCageData_ == null ? emu.grasscutter.net.proto.WispCageData._WispCageData.getDefaultInstance() : WispCageData_;
+    public emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData getWispCageData() {
+      return WispCageData_ == null ? emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData.getDefaultInstance() : WispCageData_;
     }
     /**
      * <code>._WispCageData _wisp_cage_data = 1197;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.WispCageData._WispCageDataOrBuilder getWispCageDataOrBuilder() {
+    public emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageDataOrBuilder getWispCageDataOrBuilder() {
       return getWispCageData();
     }
 
     public static final int _TREASURE_KEY_DATA_FIELD_NUMBER = 1586;
-    private emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData TreasureKeyData_;
+    private emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData TreasureKeyData_;
     /**
      * <code>._TreasureKeyData _treasure_key_data = 1586;</code>
      * @return Whether the treasureKeyData field is set.
@@ -1140,14 +1140,14 @@ public final class AllWidgetDataNotifyOuterClass {
      * @return The treasureKeyData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData getTreasureKeyData() {
-      return TreasureKeyData_ == null ? emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData.getDefaultInstance() : TreasureKeyData_;
+    public emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData getTreasureKeyData() {
+      return TreasureKeyData_ == null ? emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData.getDefaultInstance() : TreasureKeyData_;
     }
     /**
      * <code>._TreasureKeyData _treasure_key_data = 1586;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyDataOrBuilder getTreasureKeyDataOrBuilder() {
+    public emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyDataOrBuilder getTreasureKeyDataOrBuilder() {
       return getTreasureKeyData();
     }
 
@@ -3657,9 +3657,9 @@ public final class AllWidgetDataNotifyOuterClass {
         return oneoffGatherPointDetectorDataListBuilder_;
       }
 
-      private emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData SorushWidgetData_;
+      private emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData SorushWidgetData_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData, emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData.Builder, emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetDataOrBuilder> SorushWidgetDataBuilder_;
+          emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData, emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData.Builder, emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetDataOrBuilder> SorushWidgetDataBuilder_;
       /**
        * <code>._SorushWidgetData _sorush_widget_data = 11;</code>
        * @return Whether the sorushWidgetData field is set.
@@ -3671,9 +3671,9 @@ public final class AllWidgetDataNotifyOuterClass {
        * <code>._SorushWidgetData _sorush_widget_data = 11;</code>
        * @return The sorushWidgetData.
        */
-      public emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData getSorushWidgetData() {
+      public emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData getSorushWidgetData() {
         if (SorushWidgetDataBuilder_ == null) {
-          return SorushWidgetData_ == null ? emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData.getDefaultInstance() : SorushWidgetData_;
+          return SorushWidgetData_ == null ? emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData.getDefaultInstance() : SorushWidgetData_;
         } else {
           return SorushWidgetDataBuilder_.getMessage();
         }
@@ -3681,7 +3681,7 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>._SorushWidgetData _sorush_widget_data = 11;</code>
        */
-      public Builder setSorushWidgetData(emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData value) {
+      public Builder setSorushWidgetData(emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData value) {
         if (SorushWidgetDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3698,7 +3698,7 @@ public final class AllWidgetDataNotifyOuterClass {
        * <code>._SorushWidgetData _sorush_widget_data = 11;</code>
        */
       public Builder setSorushWidgetData(
-          emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData.Builder builderForValue) {
+          emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData.Builder builderForValue) {
         if (SorushWidgetDataBuilder_ == null) {
           SorushWidgetData_ = builderForValue.build();
           onChanged();
@@ -3711,11 +3711,11 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>._SorushWidgetData _sorush_widget_data = 11;</code>
        */
-      public Builder mergeSorushWidgetData(emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData value) {
+      public Builder mergeSorushWidgetData(emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData value) {
         if (SorushWidgetDataBuilder_ == null) {
           if (SorushWidgetData_ != null) {
             SorushWidgetData_ =
-              emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData.newBuilder(SorushWidgetData_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData.newBuilder(SorushWidgetData_).mergeFrom(value).buildPartial();
           } else {
             SorushWidgetData_ = value;
           }
@@ -3743,7 +3743,7 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>._SorushWidgetData _sorush_widget_data = 11;</code>
        */
-      public emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData.Builder getSorushWidgetDataBuilder() {
+      public emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData.Builder getSorushWidgetDataBuilder() {
         
         onChanged();
         return getSorushWidgetDataFieldBuilder().getBuilder();
@@ -3751,23 +3751,23 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>._SorushWidgetData _sorush_widget_data = 11;</code>
        */
-      public emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetDataOrBuilder getSorushWidgetDataOrBuilder() {
+      public emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetDataOrBuilder getSorushWidgetDataOrBuilder() {
         if (SorushWidgetDataBuilder_ != null) {
           return SorushWidgetDataBuilder_.getMessageOrBuilder();
         } else {
           return SorushWidgetData_ == null ?
-              emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData.getDefaultInstance() : SorushWidgetData_;
+              emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData.getDefaultInstance() : SorushWidgetData_;
         }
       }
       /**
        * <code>._SorushWidgetData _sorush_widget_data = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData, emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData.Builder, emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetDataOrBuilder> 
+          emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData, emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData.Builder, emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetDataOrBuilder> 
           getSorushWidgetDataFieldBuilder() {
         if (SorushWidgetDataBuilder_ == null) {
           SorushWidgetDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData, emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetData.Builder, emu.grasscutter.net.proto.SorushWidgetData._SorushWidgetDataOrBuilder>(
+              emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData, emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetData.Builder, emu.grasscutter.net.proto._SorushWidgetDataOuterClass._SorushWidgetDataOrBuilder>(
                   getSorushWidgetData(),
                   getParentForChildren(),
                   isClean());
@@ -4533,9 +4533,9 @@ public final class AllWidgetDataNotifyOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.WispCageData._WispCageData WispCageData_;
+      private emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData WispCageData_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WispCageData._WispCageData, emu.grasscutter.net.proto.WispCageData._WispCageData.Builder, emu.grasscutter.net.proto.WispCageData._WispCageDataOrBuilder> WispCageDataBuilder_;
+          emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData, emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData.Builder, emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageDataOrBuilder> WispCageDataBuilder_;
       /**
        * <code>._WispCageData _wisp_cage_data = 1197;</code>
        * @return Whether the wispCageData field is set.
@@ -4547,9 +4547,9 @@ public final class AllWidgetDataNotifyOuterClass {
        * <code>._WispCageData _wisp_cage_data = 1197;</code>
        * @return The wispCageData.
        */
-      public emu.grasscutter.net.proto.WispCageData._WispCageData getWispCageData() {
+      public emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData getWispCageData() {
         if (WispCageDataBuilder_ == null) {
-          return WispCageData_ == null ? emu.grasscutter.net.proto.WispCageData._WispCageData.getDefaultInstance() : WispCageData_;
+          return WispCageData_ == null ? emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData.getDefaultInstance() : WispCageData_;
         } else {
           return WispCageDataBuilder_.getMessage();
         }
@@ -4557,7 +4557,7 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>._WispCageData _wisp_cage_data = 1197;</code>
        */
-      public Builder setWispCageData(emu.grasscutter.net.proto.WispCageData._WispCageData value) {
+      public Builder setWispCageData(emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData value) {
         if (WispCageDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4574,7 +4574,7 @@ public final class AllWidgetDataNotifyOuterClass {
        * <code>._WispCageData _wisp_cage_data = 1197;</code>
        */
       public Builder setWispCageData(
-          emu.grasscutter.net.proto.WispCageData._WispCageData.Builder builderForValue) {
+          emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData.Builder builderForValue) {
         if (WispCageDataBuilder_ == null) {
           WispCageData_ = builderForValue.build();
           onChanged();
@@ -4587,11 +4587,11 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>._WispCageData _wisp_cage_data = 1197;</code>
        */
-      public Builder mergeWispCageData(emu.grasscutter.net.proto.WispCageData._WispCageData value) {
+      public Builder mergeWispCageData(emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData value) {
         if (WispCageDataBuilder_ == null) {
           if (WispCageData_ != null) {
             WispCageData_ =
-              emu.grasscutter.net.proto.WispCageData._WispCageData.newBuilder(WispCageData_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData.newBuilder(WispCageData_).mergeFrom(value).buildPartial();
           } else {
             WispCageData_ = value;
           }
@@ -4619,7 +4619,7 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>._WispCageData _wisp_cage_data = 1197;</code>
        */
-      public emu.grasscutter.net.proto.WispCageData._WispCageData.Builder getWispCageDataBuilder() {
+      public emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData.Builder getWispCageDataBuilder() {
         
         onChanged();
         return getWispCageDataFieldBuilder().getBuilder();
@@ -4627,23 +4627,23 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>._WispCageData _wisp_cage_data = 1197;</code>
        */
-      public emu.grasscutter.net.proto.WispCageData._WispCageDataOrBuilder getWispCageDataOrBuilder() {
+      public emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageDataOrBuilder getWispCageDataOrBuilder() {
         if (WispCageDataBuilder_ != null) {
           return WispCageDataBuilder_.getMessageOrBuilder();
         } else {
           return WispCageData_ == null ?
-              emu.grasscutter.net.proto.WispCageData._WispCageData.getDefaultInstance() : WispCageData_;
+              emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData.getDefaultInstance() : WispCageData_;
         }
       }
       /**
        * <code>._WispCageData _wisp_cage_data = 1197;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WispCageData._WispCageData, emu.grasscutter.net.proto.WispCageData._WispCageData.Builder, emu.grasscutter.net.proto.WispCageData._WispCageDataOrBuilder> 
+          emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData, emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData.Builder, emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageDataOrBuilder> 
           getWispCageDataFieldBuilder() {
         if (WispCageDataBuilder_ == null) {
           WispCageDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.WispCageData._WispCageData, emu.grasscutter.net.proto.WispCageData._WispCageData.Builder, emu.grasscutter.net.proto.WispCageData._WispCageDataOrBuilder>(
+              emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData, emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageData.Builder, emu.grasscutter.net.proto._WispCageDataOuterClass._WispCageDataOrBuilder>(
                   getWispCageData(),
                   getParentForChildren(),
                   isClean());
@@ -4652,9 +4652,9 @@ public final class AllWidgetDataNotifyOuterClass {
         return WispCageDataBuilder_;
       }
 
-      private emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData TreasureKeyData_;
+      private emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData TreasureKeyData_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData, emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData.Builder, emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyDataOrBuilder> TreasureKeyDataBuilder_;
+          emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData, emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData.Builder, emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyDataOrBuilder> TreasureKeyDataBuilder_;
       /**
        * <code>._TreasureKeyData _treasure_key_data = 1586;</code>
        * @return Whether the treasureKeyData field is set.
@@ -4666,9 +4666,9 @@ public final class AllWidgetDataNotifyOuterClass {
        * <code>._TreasureKeyData _treasure_key_data = 1586;</code>
        * @return The treasureKeyData.
        */
-      public emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData getTreasureKeyData() {
+      public emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData getTreasureKeyData() {
         if (TreasureKeyDataBuilder_ == null) {
-          return TreasureKeyData_ == null ? emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData.getDefaultInstance() : TreasureKeyData_;
+          return TreasureKeyData_ == null ? emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData.getDefaultInstance() : TreasureKeyData_;
         } else {
           return TreasureKeyDataBuilder_.getMessage();
         }
@@ -4676,7 +4676,7 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>._TreasureKeyData _treasure_key_data = 1586;</code>
        */
-      public Builder setTreasureKeyData(emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData value) {
+      public Builder setTreasureKeyData(emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData value) {
         if (TreasureKeyDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4693,7 +4693,7 @@ public final class AllWidgetDataNotifyOuterClass {
        * <code>._TreasureKeyData _treasure_key_data = 1586;</code>
        */
       public Builder setTreasureKeyData(
-          emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData.Builder builderForValue) {
+          emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData.Builder builderForValue) {
         if (TreasureKeyDataBuilder_ == null) {
           TreasureKeyData_ = builderForValue.build();
           onChanged();
@@ -4706,11 +4706,11 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>._TreasureKeyData _treasure_key_data = 1586;</code>
        */
-      public Builder mergeTreasureKeyData(emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData value) {
+      public Builder mergeTreasureKeyData(emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData value) {
         if (TreasureKeyDataBuilder_ == null) {
           if (TreasureKeyData_ != null) {
             TreasureKeyData_ =
-              emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData.newBuilder(TreasureKeyData_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData.newBuilder(TreasureKeyData_).mergeFrom(value).buildPartial();
           } else {
             TreasureKeyData_ = value;
           }
@@ -4738,7 +4738,7 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>._TreasureKeyData _treasure_key_data = 1586;</code>
        */
-      public emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData.Builder getTreasureKeyDataBuilder() {
+      public emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData.Builder getTreasureKeyDataBuilder() {
         
         onChanged();
         return getTreasureKeyDataFieldBuilder().getBuilder();
@@ -4746,23 +4746,23 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>._TreasureKeyData _treasure_key_data = 1586;</code>
        */
-      public emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyDataOrBuilder getTreasureKeyDataOrBuilder() {
+      public emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyDataOrBuilder getTreasureKeyDataOrBuilder() {
         if (TreasureKeyDataBuilder_ != null) {
           return TreasureKeyDataBuilder_.getMessageOrBuilder();
         } else {
           return TreasureKeyData_ == null ?
-              emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData.getDefaultInstance() : TreasureKeyData_;
+              emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData.getDefaultInstance() : TreasureKeyData_;
         }
       }
       /**
        * <code>._TreasureKeyData _treasure_key_data = 1586;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData, emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData.Builder, emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyDataOrBuilder> 
+          emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData, emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData.Builder, emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyDataOrBuilder> 
           getTreasureKeyDataFieldBuilder() {
         if (TreasureKeyDataBuilder_ == null) {
           TreasureKeyDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData, emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyData.Builder, emu.grasscutter.net.proto.TreasureKeyData._TreasureKeyDataOrBuilder>(
+              emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData, emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData.Builder, emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyDataOrBuilder>(
                   getTreasureKeyData(),
                   getParentForChildren(),
                   isClean());
@@ -5137,8 +5137,9 @@ public final class AllWidgetDataNotifyOuterClass {
       "\016._WispCageData\022.\n\022_treasure_key_data\030\262\014" +
       " \001(\0132\021._TreasureKeyData\022*\n\024_widget_setti" +
       "ng_list\030\276\014 \003(\0132\013.Uint32Pair\022\032\n\021_current_" +
-      "slot_num\030\357\r \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "slot_num\030\357\r \001(\rB:\n\031emu.grasscutter.net.p" +
+      "rotoB\035AllWidgetDataNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -5152,9 +5153,9 @@ public final class AllWidgetDataNotifyOuterClass {
           emu.grasscutter.net.proto.WeatherWizardDataOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.WidgetSlotDataOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.SorushWidgetData.getDescriptor(),
-          emu.grasscutter.net.proto.TreasureKeyData.getDescriptor(),
-          emu.grasscutter.net.proto.WispCageData.getDescriptor(),
+          emu.grasscutter.net.proto._SorushWidgetDataOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._TreasureKeyDataOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._WispCageDataOuterClass.getDescriptor(),
         });
     internal_static_AllWidgetDataNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -5171,9 +5172,9 @@ public final class AllWidgetDataNotifyOuterClass {
     emu.grasscutter.net.proto.WeatherWizardDataOuterClass.getDescriptor();
     emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.getDescriptor();
     emu.grasscutter.net.proto.WidgetSlotDataOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.SorushWidgetData.getDescriptor();
-    emu.grasscutter.net.proto.TreasureKeyData.getDescriptor();
-    emu.grasscutter.net.proto.WispCageData.getDescriptor();
+    emu.grasscutter.net.proto._SorushWidgetDataOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._TreasureKeyDataOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._WispCageDataOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

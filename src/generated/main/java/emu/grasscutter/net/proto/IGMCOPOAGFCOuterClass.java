@@ -831,8 +831,8 @@ public final class IGMCOPOAGFCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IGMCOPOAGFC.proto\032\021JOJAOCBDNEA.proto\"0" +
       "\n\013IGMCOPOAGFC\022!\n\013DFGDGPBFICL\030\002 \003(\0132\014.JOJ" +
-      "AOCBDNEAB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "AOCBDNEAB2\n\031emu.grasscutter.net.protoB\025I" +
+      "GMCOPOAGFCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1058,8 +1058,8 @@ public final class AbilityBornTypeOuterClass {
       "\n\025AbilityBornType.proto\032\014Vector.proto\"X\n" +
       "\017AbilityBornType\022\031\n\010move_dir\030\006 \001(\0132\007.Vec" +
       "tor\022\024\n\003pos\030\007 \001(\0132\007.Vector\022\024\n\003rot\030\n \001(\0132\007" +
-      ".VectorB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      ".VectorB6\n\031emu.grasscutter.net.protoB\031Ab" +
+      "ilityBornTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

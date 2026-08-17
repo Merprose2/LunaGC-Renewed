@@ -113,11 +113,11 @@ public final class ILFPMCGGMOAOuterClass {
      * <code>._GadgetBase gadget_base = 11;</code>
      * @return The gadgetBase.
      */
-    emu.grasscutter.net.proto.GadgetBase._GadgetBase getGadgetBase();
+    emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase getGadgetBase();
     /**
      * <code>._GadgetBase gadget_base = 11;</code>
      */
-    emu.grasscutter.net.proto.GadgetBase._GadgetBaseOrBuilder getGadgetBaseOrBuilder();
+    emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBaseOrBuilder getGadgetBaseOrBuilder();
 
     /**
      * <code>._PlayerBase player_base = 12;</code>
@@ -128,11 +128,11 @@ public final class ILFPMCGGMOAOuterClass {
      * <code>._PlayerBase player_base = 12;</code>
      * @return The playerBase.
      */
-    emu.grasscutter.net.proto.PlayerBase._PlayerBase getPlayerBase();
+    emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase getPlayerBase();
     /**
      * <code>._PlayerBase player_base = 12;</code>
      */
-    emu.grasscutter.net.proto.PlayerBase._PlayerBaseOrBuilder getPlayerBaseOrBuilder();
+    emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBaseOrBuilder getPlayerBaseOrBuilder();
 
     /**
      * <code>._AvatarBase avatar_base = 13;</code>
@@ -143,11 +143,11 @@ public final class ILFPMCGGMOAOuterClass {
      * <code>._AvatarBase avatar_base = 13;</code>
      * @return The avatarBase.
      */
-    emu.grasscutter.net.proto.AvatarBase._AvatarBase getAvatarBase();
+    emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase getAvatarBase();
     /**
      * <code>._AvatarBase avatar_base = 13;</code>
      */
-    emu.grasscutter.net.proto.AvatarBase._AvatarBaseOrBuilder getAvatarBaseOrBuilder();
+    emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBaseOrBuilder getAvatarBaseOrBuilder();
 
     /**
      * <code>._MonsterBase monster_base = 14;</code>
@@ -158,11 +158,11 @@ public final class ILFPMCGGMOAOuterClass {
      * <code>._MonsterBase monster_base = 14;</code>
      * @return The monsterBase.
      */
-    emu.grasscutter.net.proto.MonsterBase._MonsterBase getMonsterBase();
+    emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase getMonsterBase();
     /**
      * <code>._MonsterBase monster_base = 14;</code>
      */
-    emu.grasscutter.net.proto.MonsterBase._MonsterBaseOrBuilder getMonsterBaseOrBuilder();
+    emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBaseOrBuilder getMonsterBaseOrBuilder();
 
     /**
      * <code>repeated int32 tag_list = 51;</code>
@@ -297,56 +297,56 @@ public final class ILFPMCGGMOAOuterClass {
               break;
             }
             case 90: {
-              emu.grasscutter.net.proto.GadgetBase._GadgetBase.Builder subBuilder = null;
+              emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase.Builder subBuilder = null;
               if (aHGOEPPJNNFCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.GadgetBase._GadgetBase) aHGOEPPJNNF_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase) aHGOEPPJNNF_).toBuilder();
               }
               aHGOEPPJNNF_ =
-                  input.readMessage(emu.grasscutter.net.proto.GadgetBase._GadgetBase.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.GadgetBase._GadgetBase) aHGOEPPJNNF_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase) aHGOEPPJNNF_);
                 aHGOEPPJNNF_ = subBuilder.buildPartial();
               }
               aHGOEPPJNNFCase_ = 11;
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.PlayerBase._PlayerBase.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase.Builder subBuilder = null;
               if (aHGOEPPJNNFCase_ == 12) {
-                subBuilder = ((emu.grasscutter.net.proto.PlayerBase._PlayerBase) aHGOEPPJNNF_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase) aHGOEPPJNNF_).toBuilder();
               }
               aHGOEPPJNNF_ =
-                  input.readMessage(emu.grasscutter.net.proto.PlayerBase._PlayerBase.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.PlayerBase._PlayerBase) aHGOEPPJNNF_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase) aHGOEPPJNNF_);
                 aHGOEPPJNNF_ = subBuilder.buildPartial();
               }
               aHGOEPPJNNFCase_ = 12;
               break;
             }
             case 106: {
-              emu.grasscutter.net.proto.AvatarBase._AvatarBase.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase.Builder subBuilder = null;
               if (aHGOEPPJNNFCase_ == 13) {
-                subBuilder = ((emu.grasscutter.net.proto.AvatarBase._AvatarBase) aHGOEPPJNNF_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase) aHGOEPPJNNF_).toBuilder();
               }
               aHGOEPPJNNF_ =
-                  input.readMessage(emu.grasscutter.net.proto.AvatarBase._AvatarBase.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AvatarBase._AvatarBase) aHGOEPPJNNF_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase) aHGOEPPJNNF_);
                 aHGOEPPJNNF_ = subBuilder.buildPartial();
               }
               aHGOEPPJNNFCase_ = 13;
               break;
             }
             case 114: {
-              emu.grasscutter.net.proto.MonsterBase._MonsterBase.Builder subBuilder = null;
+              emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase.Builder subBuilder = null;
               if (aHGOEPPJNNFCase_ == 14) {
-                subBuilder = ((emu.grasscutter.net.proto.MonsterBase._MonsterBase) aHGOEPPJNNF_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase) aHGOEPPJNNF_).toBuilder();
               }
               aHGOEPPJNNF_ =
-                  input.readMessage(emu.grasscutter.net.proto.MonsterBase._MonsterBase.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.MonsterBase._MonsterBase) aHGOEPPJNNF_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase) aHGOEPPJNNF_);
                 aHGOEPPJNNF_ = subBuilder.buildPartial();
               }
               aHGOEPPJNNFCase_ = 14;
@@ -626,21 +626,21 @@ public final class ILFPMCGGMOAOuterClass {
      * @return The gadgetBase.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GadgetBase._GadgetBase getGadgetBase() {
+    public emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase getGadgetBase() {
       if (aHGOEPPJNNFCase_ == 11) {
-         return (emu.grasscutter.net.proto.GadgetBase._GadgetBase) aHGOEPPJNNF_;
+         return (emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase) aHGOEPPJNNF_;
       }
-      return emu.grasscutter.net.proto.GadgetBase._GadgetBase.getDefaultInstance();
+      return emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase.getDefaultInstance();
     }
     /**
      * <code>._GadgetBase gadget_base = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GadgetBase._GadgetBaseOrBuilder getGadgetBaseOrBuilder() {
+    public emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBaseOrBuilder getGadgetBaseOrBuilder() {
       if (aHGOEPPJNNFCase_ == 11) {
-         return (emu.grasscutter.net.proto.GadgetBase._GadgetBase) aHGOEPPJNNF_;
+         return (emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase) aHGOEPPJNNF_;
       }
-      return emu.grasscutter.net.proto.GadgetBase._GadgetBase.getDefaultInstance();
+      return emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase.getDefaultInstance();
     }
 
     public static final int PLAYER_BASE_FIELD_NUMBER = 12;
@@ -657,21 +657,21 @@ public final class ILFPMCGGMOAOuterClass {
      * @return The playerBase.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PlayerBase._PlayerBase getPlayerBase() {
+    public emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase getPlayerBase() {
       if (aHGOEPPJNNFCase_ == 12) {
-         return (emu.grasscutter.net.proto.PlayerBase._PlayerBase) aHGOEPPJNNF_;
+         return (emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase) aHGOEPPJNNF_;
       }
-      return emu.grasscutter.net.proto.PlayerBase._PlayerBase.getDefaultInstance();
+      return emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase.getDefaultInstance();
     }
     /**
      * <code>._PlayerBase player_base = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PlayerBase._PlayerBaseOrBuilder getPlayerBaseOrBuilder() {
+    public emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBaseOrBuilder getPlayerBaseOrBuilder() {
       if (aHGOEPPJNNFCase_ == 12) {
-         return (emu.grasscutter.net.proto.PlayerBase._PlayerBase) aHGOEPPJNNF_;
+         return (emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase) aHGOEPPJNNF_;
       }
-      return emu.grasscutter.net.proto.PlayerBase._PlayerBase.getDefaultInstance();
+      return emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase.getDefaultInstance();
     }
 
     public static final int AVATAR_BASE_FIELD_NUMBER = 13;
@@ -688,21 +688,21 @@ public final class ILFPMCGGMOAOuterClass {
      * @return The avatarBase.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AvatarBase._AvatarBase getAvatarBase() {
+    public emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase getAvatarBase() {
       if (aHGOEPPJNNFCase_ == 13) {
-         return (emu.grasscutter.net.proto.AvatarBase._AvatarBase) aHGOEPPJNNF_;
+         return (emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase) aHGOEPPJNNF_;
       }
-      return emu.grasscutter.net.proto.AvatarBase._AvatarBase.getDefaultInstance();
+      return emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase.getDefaultInstance();
     }
     /**
      * <code>._AvatarBase avatar_base = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AvatarBase._AvatarBaseOrBuilder getAvatarBaseOrBuilder() {
+    public emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBaseOrBuilder getAvatarBaseOrBuilder() {
       if (aHGOEPPJNNFCase_ == 13) {
-         return (emu.grasscutter.net.proto.AvatarBase._AvatarBase) aHGOEPPJNNF_;
+         return (emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase) aHGOEPPJNNF_;
       }
-      return emu.grasscutter.net.proto.AvatarBase._AvatarBase.getDefaultInstance();
+      return emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase.getDefaultInstance();
     }
 
     public static final int MONSTER_BASE_FIELD_NUMBER = 14;
@@ -719,21 +719,21 @@ public final class ILFPMCGGMOAOuterClass {
      * @return The monsterBase.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MonsterBase._MonsterBase getMonsterBase() {
+    public emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase getMonsterBase() {
       if (aHGOEPPJNNFCase_ == 14) {
-         return (emu.grasscutter.net.proto.MonsterBase._MonsterBase) aHGOEPPJNNF_;
+         return (emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase) aHGOEPPJNNF_;
       }
-      return emu.grasscutter.net.proto.MonsterBase._MonsterBase.getDefaultInstance();
+      return emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase.getDefaultInstance();
     }
     /**
      * <code>._MonsterBase monster_base = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MonsterBase._MonsterBaseOrBuilder getMonsterBaseOrBuilder() {
+    public emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBaseOrBuilder getMonsterBaseOrBuilder() {
       if (aHGOEPPJNNFCase_ == 14) {
-         return (emu.grasscutter.net.proto.MonsterBase._MonsterBase) aHGOEPPJNNF_;
+         return (emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase) aHGOEPPJNNF_;
       }
-      return emu.grasscutter.net.proto.MonsterBase._MonsterBase.getDefaultInstance();
+      return emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase.getDefaultInstance();
     }
 
     public static final int TAG_LIST_FIELD_NUMBER = 51;
@@ -818,16 +818,16 @@ public final class ILFPMCGGMOAOuterClass {
         output.writeMessage(10, getPKFPJPEIJKL());
       }
       if (aHGOEPPJNNFCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.GadgetBase._GadgetBase) aHGOEPPJNNF_);
+        output.writeMessage(11, (emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase) aHGOEPPJNNF_);
       }
       if (aHGOEPPJNNFCase_ == 12) {
-        output.writeMessage(12, (emu.grasscutter.net.proto.PlayerBase._PlayerBase) aHGOEPPJNNF_);
+        output.writeMessage(12, (emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase) aHGOEPPJNNF_);
       }
       if (aHGOEPPJNNFCase_ == 13) {
-        output.writeMessage(13, (emu.grasscutter.net.proto.AvatarBase._AvatarBase) aHGOEPPJNNF_);
+        output.writeMessage(13, (emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase) aHGOEPPJNNF_);
       }
       if (aHGOEPPJNNFCase_ == 14) {
-        output.writeMessage(14, (emu.grasscutter.net.proto.MonsterBase._MonsterBase) aHGOEPPJNNF_);
+        output.writeMessage(14, (emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase) aHGOEPPJNNF_);
       }
       if (getTagListList().size() > 0) {
         output.writeUInt32NoTag(410);
@@ -886,19 +886,19 @@ public final class ILFPMCGGMOAOuterClass {
       }
       if (aHGOEPPJNNFCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.GadgetBase._GadgetBase) aHGOEPPJNNF_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase) aHGOEPPJNNF_);
       }
       if (aHGOEPPJNNFCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (emu.grasscutter.net.proto.PlayerBase._PlayerBase) aHGOEPPJNNF_);
+          .computeMessageSize(12, (emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase) aHGOEPPJNNF_);
       }
       if (aHGOEPPJNNFCase_ == 13) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, (emu.grasscutter.net.proto.AvatarBase._AvatarBase) aHGOEPPJNNF_);
+          .computeMessageSize(13, (emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase) aHGOEPPJNNF_);
       }
       if (aHGOEPPJNNFCase_ == 14) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, (emu.grasscutter.net.proto.MonsterBase._MonsterBase) aHGOEPPJNNF_);
+          .computeMessageSize(14, (emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase) aHGOEPPJNNF_);
       }
       {
         int dataSize = 0;
@@ -2066,7 +2066,7 @@ public final class ILFPMCGGMOAOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GadgetBase._GadgetBase, emu.grasscutter.net.proto.GadgetBase._GadgetBase.Builder, emu.grasscutter.net.proto.GadgetBase._GadgetBaseOrBuilder> gadgetBaseBuilder_;
+          emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase, emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase.Builder, emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBaseOrBuilder> gadgetBaseBuilder_;
       /**
        * <code>._GadgetBase gadget_base = 11;</code>
        * @return Whether the gadgetBase field is set.
@@ -2080,23 +2080,23 @@ public final class ILFPMCGGMOAOuterClass {
        * @return The gadgetBase.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GadgetBase._GadgetBase getGadgetBase() {
+      public emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase getGadgetBase() {
         if (gadgetBaseBuilder_ == null) {
           if (aHGOEPPJNNFCase_ == 11) {
-            return (emu.grasscutter.net.proto.GadgetBase._GadgetBase) aHGOEPPJNNF_;
+            return (emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase) aHGOEPPJNNF_;
           }
-          return emu.grasscutter.net.proto.GadgetBase._GadgetBase.getDefaultInstance();
+          return emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase.getDefaultInstance();
         } else {
           if (aHGOEPPJNNFCase_ == 11) {
             return gadgetBaseBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.GadgetBase._GadgetBase.getDefaultInstance();
+          return emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase.getDefaultInstance();
         }
       }
       /**
        * <code>._GadgetBase gadget_base = 11;</code>
        */
-      public Builder setGadgetBase(emu.grasscutter.net.proto.GadgetBase._GadgetBase value) {
+      public Builder setGadgetBase(emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase value) {
         if (gadgetBaseBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2113,7 +2113,7 @@ public final class ILFPMCGGMOAOuterClass {
        * <code>._GadgetBase gadget_base = 11;</code>
        */
       public Builder setGadgetBase(
-          emu.grasscutter.net.proto.GadgetBase._GadgetBase.Builder builderForValue) {
+          emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase.Builder builderForValue) {
         if (gadgetBaseBuilder_ == null) {
           aHGOEPPJNNF_ = builderForValue.build();
           onChanged();
@@ -2126,11 +2126,11 @@ public final class ILFPMCGGMOAOuterClass {
       /**
        * <code>._GadgetBase gadget_base = 11;</code>
        */
-      public Builder mergeGadgetBase(emu.grasscutter.net.proto.GadgetBase._GadgetBase value) {
+      public Builder mergeGadgetBase(emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase value) {
         if (gadgetBaseBuilder_ == null) {
           if (aHGOEPPJNNFCase_ == 11 &&
-              aHGOEPPJNNF_ != emu.grasscutter.net.proto.GadgetBase._GadgetBase.getDefaultInstance()) {
-            aHGOEPPJNNF_ = emu.grasscutter.net.proto.GadgetBase._GadgetBase.newBuilder((emu.grasscutter.net.proto.GadgetBase._GadgetBase) aHGOEPPJNNF_)
+              aHGOEPPJNNF_ != emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase.getDefaultInstance()) {
+            aHGOEPPJNNF_ = emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase.newBuilder((emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase) aHGOEPPJNNF_)
                 .mergeFrom(value).buildPartial();
           } else {
             aHGOEPPJNNF_ = value;
@@ -2167,36 +2167,36 @@ public final class ILFPMCGGMOAOuterClass {
       /**
        * <code>._GadgetBase gadget_base = 11;</code>
        */
-      public emu.grasscutter.net.proto.GadgetBase._GadgetBase.Builder getGadgetBaseBuilder() {
+      public emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase.Builder getGadgetBaseBuilder() {
         return getGadgetBaseFieldBuilder().getBuilder();
       }
       /**
        * <code>._GadgetBase gadget_base = 11;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.GadgetBase._GadgetBaseOrBuilder getGadgetBaseOrBuilder() {
+      public emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBaseOrBuilder getGadgetBaseOrBuilder() {
         if ((aHGOEPPJNNFCase_ == 11) && (gadgetBaseBuilder_ != null)) {
           return gadgetBaseBuilder_.getMessageOrBuilder();
         } else {
           if (aHGOEPPJNNFCase_ == 11) {
-            return (emu.grasscutter.net.proto.GadgetBase._GadgetBase) aHGOEPPJNNF_;
+            return (emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase) aHGOEPPJNNF_;
           }
-          return emu.grasscutter.net.proto.GadgetBase._GadgetBase.getDefaultInstance();
+          return emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase.getDefaultInstance();
         }
       }
       /**
        * <code>._GadgetBase gadget_base = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GadgetBase._GadgetBase, emu.grasscutter.net.proto.GadgetBase._GadgetBase.Builder, emu.grasscutter.net.proto.GadgetBase._GadgetBaseOrBuilder> 
+          emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase, emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase.Builder, emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBaseOrBuilder> 
           getGadgetBaseFieldBuilder() {
         if (gadgetBaseBuilder_ == null) {
           if (!(aHGOEPPJNNFCase_ == 11)) {
-            aHGOEPPJNNF_ = emu.grasscutter.net.proto.GadgetBase._GadgetBase.getDefaultInstance();
+            aHGOEPPJNNF_ = emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase.getDefaultInstance();
           }
           gadgetBaseBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GadgetBase._GadgetBase, emu.grasscutter.net.proto.GadgetBase._GadgetBase.Builder, emu.grasscutter.net.proto.GadgetBase._GadgetBaseOrBuilder>(
-                  (emu.grasscutter.net.proto.GadgetBase._GadgetBase) aHGOEPPJNNF_,
+              emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase, emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase.Builder, emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBaseOrBuilder>(
+                  (emu.grasscutter.net.proto._GadgetBaseOuterClass._GadgetBase) aHGOEPPJNNF_,
                   getParentForChildren(),
                   isClean());
           aHGOEPPJNNF_ = null;
@@ -2207,7 +2207,7 @@ public final class ILFPMCGGMOAOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PlayerBase._PlayerBase, emu.grasscutter.net.proto.PlayerBase._PlayerBase.Builder, emu.grasscutter.net.proto.PlayerBase._PlayerBaseOrBuilder> playerBaseBuilder_;
+          emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase, emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase.Builder, emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBaseOrBuilder> playerBaseBuilder_;
       /**
        * <code>._PlayerBase player_base = 12;</code>
        * @return Whether the playerBase field is set.
@@ -2221,23 +2221,23 @@ public final class ILFPMCGGMOAOuterClass {
        * @return The playerBase.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PlayerBase._PlayerBase getPlayerBase() {
+      public emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase getPlayerBase() {
         if (playerBaseBuilder_ == null) {
           if (aHGOEPPJNNFCase_ == 12) {
-            return (emu.grasscutter.net.proto.PlayerBase._PlayerBase) aHGOEPPJNNF_;
+            return (emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase) aHGOEPPJNNF_;
           }
-          return emu.grasscutter.net.proto.PlayerBase._PlayerBase.getDefaultInstance();
+          return emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase.getDefaultInstance();
         } else {
           if (aHGOEPPJNNFCase_ == 12) {
             return playerBaseBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.PlayerBase._PlayerBase.getDefaultInstance();
+          return emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase.getDefaultInstance();
         }
       }
       /**
        * <code>._PlayerBase player_base = 12;</code>
        */
-      public Builder setPlayerBase(emu.grasscutter.net.proto.PlayerBase._PlayerBase value) {
+      public Builder setPlayerBase(emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase value) {
         if (playerBaseBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2254,7 +2254,7 @@ public final class ILFPMCGGMOAOuterClass {
        * <code>._PlayerBase player_base = 12;</code>
        */
       public Builder setPlayerBase(
-          emu.grasscutter.net.proto.PlayerBase._PlayerBase.Builder builderForValue) {
+          emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase.Builder builderForValue) {
         if (playerBaseBuilder_ == null) {
           aHGOEPPJNNF_ = builderForValue.build();
           onChanged();
@@ -2267,11 +2267,11 @@ public final class ILFPMCGGMOAOuterClass {
       /**
        * <code>._PlayerBase player_base = 12;</code>
        */
-      public Builder mergePlayerBase(emu.grasscutter.net.proto.PlayerBase._PlayerBase value) {
+      public Builder mergePlayerBase(emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase value) {
         if (playerBaseBuilder_ == null) {
           if (aHGOEPPJNNFCase_ == 12 &&
-              aHGOEPPJNNF_ != emu.grasscutter.net.proto.PlayerBase._PlayerBase.getDefaultInstance()) {
-            aHGOEPPJNNF_ = emu.grasscutter.net.proto.PlayerBase._PlayerBase.newBuilder((emu.grasscutter.net.proto.PlayerBase._PlayerBase) aHGOEPPJNNF_)
+              aHGOEPPJNNF_ != emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase.getDefaultInstance()) {
+            aHGOEPPJNNF_ = emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase.newBuilder((emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase) aHGOEPPJNNF_)
                 .mergeFrom(value).buildPartial();
           } else {
             aHGOEPPJNNF_ = value;
@@ -2308,36 +2308,36 @@ public final class ILFPMCGGMOAOuterClass {
       /**
        * <code>._PlayerBase player_base = 12;</code>
        */
-      public emu.grasscutter.net.proto.PlayerBase._PlayerBase.Builder getPlayerBaseBuilder() {
+      public emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase.Builder getPlayerBaseBuilder() {
         return getPlayerBaseFieldBuilder().getBuilder();
       }
       /**
        * <code>._PlayerBase player_base = 12;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PlayerBase._PlayerBaseOrBuilder getPlayerBaseOrBuilder() {
+      public emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBaseOrBuilder getPlayerBaseOrBuilder() {
         if ((aHGOEPPJNNFCase_ == 12) && (playerBaseBuilder_ != null)) {
           return playerBaseBuilder_.getMessageOrBuilder();
         } else {
           if (aHGOEPPJNNFCase_ == 12) {
-            return (emu.grasscutter.net.proto.PlayerBase._PlayerBase) aHGOEPPJNNF_;
+            return (emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase) aHGOEPPJNNF_;
           }
-          return emu.grasscutter.net.proto.PlayerBase._PlayerBase.getDefaultInstance();
+          return emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase.getDefaultInstance();
         }
       }
       /**
        * <code>._PlayerBase player_base = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PlayerBase._PlayerBase, emu.grasscutter.net.proto.PlayerBase._PlayerBase.Builder, emu.grasscutter.net.proto.PlayerBase._PlayerBaseOrBuilder> 
+          emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase, emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase.Builder, emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBaseOrBuilder> 
           getPlayerBaseFieldBuilder() {
         if (playerBaseBuilder_ == null) {
           if (!(aHGOEPPJNNFCase_ == 12)) {
-            aHGOEPPJNNF_ = emu.grasscutter.net.proto.PlayerBase._PlayerBase.getDefaultInstance();
+            aHGOEPPJNNF_ = emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase.getDefaultInstance();
           }
           playerBaseBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PlayerBase._PlayerBase, emu.grasscutter.net.proto.PlayerBase._PlayerBase.Builder, emu.grasscutter.net.proto.PlayerBase._PlayerBaseOrBuilder>(
-                  (emu.grasscutter.net.proto.PlayerBase._PlayerBase) aHGOEPPJNNF_,
+              emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase, emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase.Builder, emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBaseOrBuilder>(
+                  (emu.grasscutter.net.proto._PlayerBaseOuterClass._PlayerBase) aHGOEPPJNNF_,
                   getParentForChildren(),
                   isClean());
           aHGOEPPJNNF_ = null;
@@ -2348,7 +2348,7 @@ public final class ILFPMCGGMOAOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AvatarBase._AvatarBase, emu.grasscutter.net.proto.AvatarBase._AvatarBase.Builder, emu.grasscutter.net.proto.AvatarBase._AvatarBaseOrBuilder> avatarBaseBuilder_;
+          emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase, emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase.Builder, emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBaseOrBuilder> avatarBaseBuilder_;
       /**
        * <code>._AvatarBase avatar_base = 13;</code>
        * @return Whether the avatarBase field is set.
@@ -2362,23 +2362,23 @@ public final class ILFPMCGGMOAOuterClass {
        * @return The avatarBase.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AvatarBase._AvatarBase getAvatarBase() {
+      public emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase getAvatarBase() {
         if (avatarBaseBuilder_ == null) {
           if (aHGOEPPJNNFCase_ == 13) {
-            return (emu.grasscutter.net.proto.AvatarBase._AvatarBase) aHGOEPPJNNF_;
+            return (emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase) aHGOEPPJNNF_;
           }
-          return emu.grasscutter.net.proto.AvatarBase._AvatarBase.getDefaultInstance();
+          return emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase.getDefaultInstance();
         } else {
           if (aHGOEPPJNNFCase_ == 13) {
             return avatarBaseBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AvatarBase._AvatarBase.getDefaultInstance();
+          return emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase.getDefaultInstance();
         }
       }
       /**
        * <code>._AvatarBase avatar_base = 13;</code>
        */
-      public Builder setAvatarBase(emu.grasscutter.net.proto.AvatarBase._AvatarBase value) {
+      public Builder setAvatarBase(emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase value) {
         if (avatarBaseBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2395,7 +2395,7 @@ public final class ILFPMCGGMOAOuterClass {
        * <code>._AvatarBase avatar_base = 13;</code>
        */
       public Builder setAvatarBase(
-          emu.grasscutter.net.proto.AvatarBase._AvatarBase.Builder builderForValue) {
+          emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase.Builder builderForValue) {
         if (avatarBaseBuilder_ == null) {
           aHGOEPPJNNF_ = builderForValue.build();
           onChanged();
@@ -2408,11 +2408,11 @@ public final class ILFPMCGGMOAOuterClass {
       /**
        * <code>._AvatarBase avatar_base = 13;</code>
        */
-      public Builder mergeAvatarBase(emu.grasscutter.net.proto.AvatarBase._AvatarBase value) {
+      public Builder mergeAvatarBase(emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase value) {
         if (avatarBaseBuilder_ == null) {
           if (aHGOEPPJNNFCase_ == 13 &&
-              aHGOEPPJNNF_ != emu.grasscutter.net.proto.AvatarBase._AvatarBase.getDefaultInstance()) {
-            aHGOEPPJNNF_ = emu.grasscutter.net.proto.AvatarBase._AvatarBase.newBuilder((emu.grasscutter.net.proto.AvatarBase._AvatarBase) aHGOEPPJNNF_)
+              aHGOEPPJNNF_ != emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase.getDefaultInstance()) {
+            aHGOEPPJNNF_ = emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase.newBuilder((emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase) aHGOEPPJNNF_)
                 .mergeFrom(value).buildPartial();
           } else {
             aHGOEPPJNNF_ = value;
@@ -2449,36 +2449,36 @@ public final class ILFPMCGGMOAOuterClass {
       /**
        * <code>._AvatarBase avatar_base = 13;</code>
        */
-      public emu.grasscutter.net.proto.AvatarBase._AvatarBase.Builder getAvatarBaseBuilder() {
+      public emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase.Builder getAvatarBaseBuilder() {
         return getAvatarBaseFieldBuilder().getBuilder();
       }
       /**
        * <code>._AvatarBase avatar_base = 13;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AvatarBase._AvatarBaseOrBuilder getAvatarBaseOrBuilder() {
+      public emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBaseOrBuilder getAvatarBaseOrBuilder() {
         if ((aHGOEPPJNNFCase_ == 13) && (avatarBaseBuilder_ != null)) {
           return avatarBaseBuilder_.getMessageOrBuilder();
         } else {
           if (aHGOEPPJNNFCase_ == 13) {
-            return (emu.grasscutter.net.proto.AvatarBase._AvatarBase) aHGOEPPJNNF_;
+            return (emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase) aHGOEPPJNNF_;
           }
-          return emu.grasscutter.net.proto.AvatarBase._AvatarBase.getDefaultInstance();
+          return emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase.getDefaultInstance();
         }
       }
       /**
        * <code>._AvatarBase avatar_base = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AvatarBase._AvatarBase, emu.grasscutter.net.proto.AvatarBase._AvatarBase.Builder, emu.grasscutter.net.proto.AvatarBase._AvatarBaseOrBuilder> 
+          emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase, emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase.Builder, emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBaseOrBuilder> 
           getAvatarBaseFieldBuilder() {
         if (avatarBaseBuilder_ == null) {
           if (!(aHGOEPPJNNFCase_ == 13)) {
-            aHGOEPPJNNF_ = emu.grasscutter.net.proto.AvatarBase._AvatarBase.getDefaultInstance();
+            aHGOEPPJNNF_ = emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase.getDefaultInstance();
           }
           avatarBaseBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AvatarBase._AvatarBase, emu.grasscutter.net.proto.AvatarBase._AvatarBase.Builder, emu.grasscutter.net.proto.AvatarBase._AvatarBaseOrBuilder>(
-                  (emu.grasscutter.net.proto.AvatarBase._AvatarBase) aHGOEPPJNNF_,
+              emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase, emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase.Builder, emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBaseOrBuilder>(
+                  (emu.grasscutter.net.proto._AvatarBaseOuterClass._AvatarBase) aHGOEPPJNNF_,
                   getParentForChildren(),
                   isClean());
           aHGOEPPJNNF_ = null;
@@ -2489,7 +2489,7 @@ public final class ILFPMCGGMOAOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MonsterBase._MonsterBase, emu.grasscutter.net.proto.MonsterBase._MonsterBase.Builder, emu.grasscutter.net.proto.MonsterBase._MonsterBaseOrBuilder> monsterBaseBuilder_;
+          emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase, emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase.Builder, emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBaseOrBuilder> monsterBaseBuilder_;
       /**
        * <code>._MonsterBase monster_base = 14;</code>
        * @return Whether the monsterBase field is set.
@@ -2503,23 +2503,23 @@ public final class ILFPMCGGMOAOuterClass {
        * @return The monsterBase.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MonsterBase._MonsterBase getMonsterBase() {
+      public emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase getMonsterBase() {
         if (monsterBaseBuilder_ == null) {
           if (aHGOEPPJNNFCase_ == 14) {
-            return (emu.grasscutter.net.proto.MonsterBase._MonsterBase) aHGOEPPJNNF_;
+            return (emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase) aHGOEPPJNNF_;
           }
-          return emu.grasscutter.net.proto.MonsterBase._MonsterBase.getDefaultInstance();
+          return emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase.getDefaultInstance();
         } else {
           if (aHGOEPPJNNFCase_ == 14) {
             return monsterBaseBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.MonsterBase._MonsterBase.getDefaultInstance();
+          return emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase.getDefaultInstance();
         }
       }
       /**
        * <code>._MonsterBase monster_base = 14;</code>
        */
-      public Builder setMonsterBase(emu.grasscutter.net.proto.MonsterBase._MonsterBase value) {
+      public Builder setMonsterBase(emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase value) {
         if (monsterBaseBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2536,7 +2536,7 @@ public final class ILFPMCGGMOAOuterClass {
        * <code>._MonsterBase monster_base = 14;</code>
        */
       public Builder setMonsterBase(
-          emu.grasscutter.net.proto.MonsterBase._MonsterBase.Builder builderForValue) {
+          emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase.Builder builderForValue) {
         if (monsterBaseBuilder_ == null) {
           aHGOEPPJNNF_ = builderForValue.build();
           onChanged();
@@ -2549,11 +2549,11 @@ public final class ILFPMCGGMOAOuterClass {
       /**
        * <code>._MonsterBase monster_base = 14;</code>
        */
-      public Builder mergeMonsterBase(emu.grasscutter.net.proto.MonsterBase._MonsterBase value) {
+      public Builder mergeMonsterBase(emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase value) {
         if (monsterBaseBuilder_ == null) {
           if (aHGOEPPJNNFCase_ == 14 &&
-              aHGOEPPJNNF_ != emu.grasscutter.net.proto.MonsterBase._MonsterBase.getDefaultInstance()) {
-            aHGOEPPJNNF_ = emu.grasscutter.net.proto.MonsterBase._MonsterBase.newBuilder((emu.grasscutter.net.proto.MonsterBase._MonsterBase) aHGOEPPJNNF_)
+              aHGOEPPJNNF_ != emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase.getDefaultInstance()) {
+            aHGOEPPJNNF_ = emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase.newBuilder((emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase) aHGOEPPJNNF_)
                 .mergeFrom(value).buildPartial();
           } else {
             aHGOEPPJNNF_ = value;
@@ -2590,36 +2590,36 @@ public final class ILFPMCGGMOAOuterClass {
       /**
        * <code>._MonsterBase monster_base = 14;</code>
        */
-      public emu.grasscutter.net.proto.MonsterBase._MonsterBase.Builder getMonsterBaseBuilder() {
+      public emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase.Builder getMonsterBaseBuilder() {
         return getMonsterBaseFieldBuilder().getBuilder();
       }
       /**
        * <code>._MonsterBase monster_base = 14;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MonsterBase._MonsterBaseOrBuilder getMonsterBaseOrBuilder() {
+      public emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBaseOrBuilder getMonsterBaseOrBuilder() {
         if ((aHGOEPPJNNFCase_ == 14) && (monsterBaseBuilder_ != null)) {
           return monsterBaseBuilder_.getMessageOrBuilder();
         } else {
           if (aHGOEPPJNNFCase_ == 14) {
-            return (emu.grasscutter.net.proto.MonsterBase._MonsterBase) aHGOEPPJNNF_;
+            return (emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase) aHGOEPPJNNF_;
           }
-          return emu.grasscutter.net.proto.MonsterBase._MonsterBase.getDefaultInstance();
+          return emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase.getDefaultInstance();
         }
       }
       /**
        * <code>._MonsterBase monster_base = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MonsterBase._MonsterBase, emu.grasscutter.net.proto.MonsterBase._MonsterBase.Builder, emu.grasscutter.net.proto.MonsterBase._MonsterBaseOrBuilder> 
+          emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase, emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase.Builder, emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBaseOrBuilder> 
           getMonsterBaseFieldBuilder() {
         if (monsterBaseBuilder_ == null) {
           if (!(aHGOEPPJNNFCase_ == 14)) {
-            aHGOEPPJNNF_ = emu.grasscutter.net.proto.MonsterBase._MonsterBase.getDefaultInstance();
+            aHGOEPPJNNF_ = emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase.getDefaultInstance();
           }
           monsterBaseBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MonsterBase._MonsterBase, emu.grasscutter.net.proto.MonsterBase._MonsterBase.Builder, emu.grasscutter.net.proto.MonsterBase._MonsterBaseOrBuilder>(
-                  (emu.grasscutter.net.proto.MonsterBase._MonsterBase) aHGOEPPJNNF_,
+              emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase, emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase.Builder, emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBaseOrBuilder>(
+                  (emu.grasscutter.net.proto._MonsterBaseOuterClass._MonsterBase) aHGOEPPJNNF_,
                   getParentForChildren(),
                   isClean());
           aHGOEPPJNNF_ = null;
@@ -2820,8 +2820,8 @@ public final class ILFPMCGGMOAOuterClass {
       "atar_base\030\r \001(\0132\014._AvatarBaseH\000\022%\n\014monst" +
       "er_base\030\016 \001(\0132\r._MonsterBaseH\000\022\020\n\010tag_li" +
       "st\0303 \003(\005\022\023\n\013HLIDFAKINPM\0304 \001(\rB\r\n\013AHGOEPP" +
-      "JNNFB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "JNNFB2\n\031emu.grasscutter.net.protoB\025ILFPM" +
+      "CGGMOAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2829,10 +2829,10 @@ public final class ILFPMCGGMOAOuterClass {
           emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.JEOKDCIGCFPOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.KEGLGHJKEGPOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.AvatarBase.getDescriptor(),
-          emu.grasscutter.net.proto.GadgetBase.getDescriptor(),
-          emu.grasscutter.net.proto.MonsterBase.getDescriptor(),
-          emu.grasscutter.net.proto.PlayerBase.getDescriptor(),
+          emu.grasscutter.net.proto._AvatarBaseOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._GadgetBaseOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._MonsterBaseOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._PlayerBaseOuterClass.getDescriptor(),
         });
     internal_static_ILFPMCGGMOA_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2843,10 +2843,10 @@ public final class ILFPMCGGMOAOuterClass {
     emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.getDescriptor();
     emu.grasscutter.net.proto.JEOKDCIGCFPOuterClass.getDescriptor();
     emu.grasscutter.net.proto.KEGLGHJKEGPOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.AvatarBase.getDescriptor();
-    emu.grasscutter.net.proto.GadgetBase.getDescriptor();
-    emu.grasscutter.net.proto.MonsterBase.getDescriptor();
-    emu.grasscutter.net.proto.PlayerBase.getDescriptor();
+    emu.grasscutter.net.proto._AvatarBaseOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._GadgetBaseOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._MonsterBaseOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._PlayerBaseOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -793,8 +793,8 @@ public final class HomeRacingGalleryRecordOuterClass {
       "upPlayerInfo.proto\"i\n\027HomeRacingGalleryR" +
       "ecord\022\021\n\ttimestamp\030\002 \001(\r\022\020\n\010use_time\030\003 \001" +
       "(\r\022)\n\013player_info\030\017 \001(\0132\024.HomeGroupPlaye" +
-      "rInfoB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "rInfoB>\n\031emu.grasscutter.net.protoB!Home" +
+      "RacingGalleryRecordOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

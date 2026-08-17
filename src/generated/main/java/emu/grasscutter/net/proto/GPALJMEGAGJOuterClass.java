@@ -800,8 +800,8 @@ public final class GPALJMEGAGJOuterClass {
       "\n\021GPALJMEGAGJ.proto\032\021MOHEPKPPGPC.proto\"W" +
       "\n\013GPALJMEGAGJ\022!\n\013IHECINDAMFB\030\001 \001(\0132\014.MOH" +
       "EPKPPGPC\022\020\n\010group_id\030\005 \001(\r\022\023\n\013GLCLEPCEDI" +
-      "J\030\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "J\030\013 \001(\rB2\n\031emu.grasscutter.net.protoB\025GP" +
+      "ALJMEGAGJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

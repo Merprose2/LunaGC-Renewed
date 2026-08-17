@@ -455,8 +455,8 @@ public final class SetPlayerPropReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026SetPlayerPropReq.proto\"\022\n\020SetPlayerPro" +
-      "pReqB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "pReqB7\n\031emu.grasscutter.net.protoB\032SetPl" +
+      "ayerPropReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

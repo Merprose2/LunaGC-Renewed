@@ -854,8 +854,9 @@ public final class HomeBlockSubFieldDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033HomeBlockSubFieldData.proto\032\014Vector.pr" +
       "oto\"C\n\025HomeBlockSubFieldData\022\024\n\003rot\030\001 \001(" +
-      "\0132\007.Vector\022\024\n\003pos\030\017 \001(\0132\007.VectorB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\0132\007.Vector\022\024\n\003pos\030\017 \001(\0132\007.VectorB<\n\031emu." +
+      "grasscutter.net.protoB\037HomeBlockSubField" +
+      "DataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

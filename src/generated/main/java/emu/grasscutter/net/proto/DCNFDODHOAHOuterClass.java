@@ -666,8 +666,8 @@ public final class DCNFDODHOAHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DCNFDODHOAH.proto\"D\n\013DCNFDODHOAH\022\022\n\npl" +
       "ay_index\030\001 \001(\r\022\020\n\010group_id\030\003 \001(\r\022\017\n\007card" +
-      "_id\030\006 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\006 \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "DCNFDODHOAHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

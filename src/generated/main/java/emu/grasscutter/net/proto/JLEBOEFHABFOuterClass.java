@@ -901,8 +901,9 @@ public final class JLEBOEFHABFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JLEBOEFHABF.proto\032\021KMCILIFFLJF.proto\"A" +
       "\n\013JLEBOEFHABF\022!\n\013DCGCGEMMFGE\030\001 \003(\0132\014.KMC" +
-      "ILIFFLJF\022\017\n\007retcode\030\r \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "ILIFFLJF\022\017\n\007retcode\030\r \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025JLEBOEFHABFOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

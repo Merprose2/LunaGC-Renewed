@@ -1223,8 +1223,9 @@ public final class GetScenePerformanceRspOuterClass {
       "ADJKFLON\030\004 \001(\r\022\024\n\003pos\030\007 \001(\0132\007.Vector\022\023\n\013" +
       "FMDIOKOGBPO\030\010 \001(\r\022\017\n\007retcode\030\t \001(\005\022\023\n\013HP" +
       "CLNELIJOA\030\n \001(\r\022\023\n\013BNFEKEPLCNL\030\014 \001(\r\022\023\n\013" +
-      "GJIKDNJLCIF\030\r \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "GJIKDNJLCIF\030\r \001(\rB=\n\031emu.grasscutter.net" +
+      ".protoB GetScenePerformanceRspOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

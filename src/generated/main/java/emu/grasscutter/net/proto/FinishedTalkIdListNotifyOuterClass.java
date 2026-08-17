@@ -653,8 +653,9 @@ public final class FinishedTalkIdListNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036FinishedTalkIdListNotify.proto\"9\n\030Fini" +
       "shedTalkIdListNotify\022\035\n\025finished_talk_id" +
-      "_list\030\t \003(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "_list\030\t \003(\rB?\n\031emu.grasscutter.net.proto" +
+      "B\"FinishedTalkIdListNotifyOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1558,8 +1558,9 @@ public final class PDAMLFHHOLHOuterClass {
       "OFPMJAHOMEA\030\006 \001(\010\022\023\n\013BBHPJLPJGEC\030\007 \001(\002\022\023" +
       "\n\013KPMKGDAFPJH\030\010 \001(\t\022\023\n\013OMBOAFOFLIO\030\t \001(\002" +
       "\022\023\n\013ALAELFFGLCE\030\n \001(\002\022!\n\013OHGDEMPADOM\030\013 \001" +
-      "(\0162\014.MFMCKJEACGH\022\024\n\013GKGJFCCNOPM\030\352\007 \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "(\0162\014.MFMCKJEACGH\022\024\n\013GKGJFCCNOPM\030\352\007 \001(\010B2" +
+      "\n\031emu.grasscutter.net.protoB\025PDAMLFHHOLH" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

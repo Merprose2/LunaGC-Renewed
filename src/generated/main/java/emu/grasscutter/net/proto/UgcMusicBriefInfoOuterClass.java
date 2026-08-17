@@ -157,11 +157,11 @@ public final class UgcMusicBriefInfoOuterClass {
      * <code>._MusicGameSocial social = 1110;</code>
      * @return The social.
      */
-    emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial getSocial();
+    emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial getSocial();
     /**
      * <code>._MusicGameSocial social = 1110;</code>
      */
-    emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocialOrBuilder getSocialOrBuilder();
+    emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder getSocialOrBuilder();
 
     /**
      * <code>uint32 HHBOBIJKFPJ = 1135;</code>
@@ -385,11 +385,11 @@ public final class UgcMusicBriefInfoOuterClass {
               break;
             }
             case 8882: {
-              emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.Builder subBuilder = null;
+              emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder subBuilder = null;
               if (social_ != null) {
                 subBuilder = social_.toBuilder();
               }
-              social_ = input.readMessage(emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.parser(), extensionRegistry);
+              social_ = input.readMessage(emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(social_);
                 social_ = subBuilder.buildPartial();
@@ -738,7 +738,7 @@ public final class UgcMusicBriefInfoOuterClass {
     private int cCJOGFPEKIDMemoizedSerializedSize = -1;
 
     public static final int SOCIAL_FIELD_NUMBER = 1110;
-    private emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial social_;
+    private emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial social_;
     /**
      * <code>._MusicGameSocial social = 1110;</code>
      * @return Whether the social field is set.
@@ -752,14 +752,14 @@ public final class UgcMusicBriefInfoOuterClass {
      * @return The social.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial getSocial() {
-      return social_ == null ? emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.getDefaultInstance() : social_;
+    public emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial getSocial() {
+      return social_ == null ? emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.getDefaultInstance() : social_;
     }
     /**
      * <code>._MusicGameSocial social = 1110;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocialOrBuilder getSocialOrBuilder() {
+    public emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder getSocialOrBuilder() {
       return getSocial();
     }
 
@@ -2338,9 +2338,9 @@ public final class UgcMusicBriefInfoOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial social_;
+      private emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial social_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial, emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.Builder, emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocialOrBuilder> socialBuilder_;
+          emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder> socialBuilder_;
       /**
        * <code>._MusicGameSocial social = 1110;</code>
        * @return Whether the social field is set.
@@ -2352,9 +2352,9 @@ public final class UgcMusicBriefInfoOuterClass {
        * <code>._MusicGameSocial social = 1110;</code>
        * @return The social.
        */
-      public emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial getSocial() {
+      public emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial getSocial() {
         if (socialBuilder_ == null) {
-          return social_ == null ? emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.getDefaultInstance() : social_;
+          return social_ == null ? emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.getDefaultInstance() : social_;
         } else {
           return socialBuilder_.getMessage();
         }
@@ -2362,7 +2362,7 @@ public final class UgcMusicBriefInfoOuterClass {
       /**
        * <code>._MusicGameSocial social = 1110;</code>
        */
-      public Builder setSocial(emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial value) {
+      public Builder setSocial(emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial value) {
         if (socialBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2379,7 +2379,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * <code>._MusicGameSocial social = 1110;</code>
        */
       public Builder setSocial(
-          emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.Builder builderForValue) {
+          emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder builderForValue) {
         if (socialBuilder_ == null) {
           social_ = builderForValue.build();
           onChanged();
@@ -2392,11 +2392,11 @@ public final class UgcMusicBriefInfoOuterClass {
       /**
        * <code>._MusicGameSocial social = 1110;</code>
        */
-      public Builder mergeSocial(emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial value) {
+      public Builder mergeSocial(emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial value) {
         if (socialBuilder_ == null) {
           if (social_ != null) {
             social_ =
-              emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.newBuilder(social_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.newBuilder(social_).mergeFrom(value).buildPartial();
           } else {
             social_ = value;
           }
@@ -2424,7 +2424,7 @@ public final class UgcMusicBriefInfoOuterClass {
       /**
        * <code>._MusicGameSocial social = 1110;</code>
        */
-      public emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.Builder getSocialBuilder() {
+      public emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder getSocialBuilder() {
         
         onChanged();
         return getSocialFieldBuilder().getBuilder();
@@ -2432,23 +2432,23 @@ public final class UgcMusicBriefInfoOuterClass {
       /**
        * <code>._MusicGameSocial social = 1110;</code>
        */
-      public emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocialOrBuilder getSocialOrBuilder() {
+      public emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder getSocialOrBuilder() {
         if (socialBuilder_ != null) {
           return socialBuilder_.getMessageOrBuilder();
         } else {
           return social_ == null ?
-              emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.getDefaultInstance() : social_;
+              emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.getDefaultInstance() : social_;
         }
       }
       /**
        * <code>._MusicGameSocial social = 1110;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial, emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.Builder, emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocialOrBuilder> 
+          emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder> 
           getSocialFieldBuilder() {
         if (socialBuilder_ == null) {
           socialBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial, emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.Builder, emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocialOrBuilder>(
+              emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder>(
                   getSocial(),
                   getParentForChildren(),
                   isClean());
@@ -2804,13 +2804,13 @@ public final class UgcMusicBriefInfoOuterClass {
       "\024\n\013PGHGCGNLNPG\030\210\t \001(\r\022\024\n\013IIPJKAOBBBD\030\266\t " +
       "\001(\r\022\024\n\013MOIDOMCHPFG\030\354\t \001(\r\022\024\n\013COAEPKLMKPE" +
       "\030\273\013 \003(\r\022\024\n\013NLCMMJILBKJ\030\207\016 \001(\r\022\024\n\013MLAJCIM" +
-      "GINA\030\205\017 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "GINA\030\205\017 \001(\rB8\n\031emu.grasscutter.net.proto" +
+      "B\033UgcMusicBriefInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.MusicGameSocial.getDescriptor(),
+          emu.grasscutter.net.proto._MusicGameSocialOuterClass.getDescriptor(),
         });
     internal_static_UgcMusicBriefInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2818,7 +2818,7 @@ public final class UgcMusicBriefInfoOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_UgcMusicBriefInfo_descriptor,
         new java.lang.String[] { "MaxScore", "CreatorNickname", "IsPsnPlatform", "Version", "IsPlayed", "MusicId", "SaveTime", "UgcGuid", "CDEMBFGJAPH", "LDDCHDFKLGO", "IsChangedAfterPublish", "IsPublished", "KFHNNAIABLG", "PublishTime", "ImportFromUgcGuid", "BeatmapCategoryIdList", "CCJOGFPEKID", "Social", "HHBOBIJKFPJ", "PGHGCGNLNPG", "IIPJKAOBBBD", "MOIDOMCHPFG", "COAEPKLMKPE", "NLCMMJILBKJ", "MLAJCIMGINA", });
-    emu.grasscutter.net.proto.MusicGameSocial.getDescriptor();
+    emu.grasscutter.net.proto._MusicGameSocialOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

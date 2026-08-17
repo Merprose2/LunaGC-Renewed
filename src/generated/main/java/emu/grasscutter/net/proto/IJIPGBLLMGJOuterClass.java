@@ -855,8 +855,8 @@ public final class IJIPGBLLMGJOuterClass {
       "\n\021IJIPGBLLMGJ.proto\032\021FEFIAFNHMEJ.proto\"U" +
       "\n\013IJIPGBLLMGJ\022\"\n\013HJDMPPLOMGJ\030\365\003 \001(\0132\014.FE" +
       "FIAFNHMEJ\022\"\n\013NJHNCGGBKAL\030\366\003 \001(\0132\014.FEFIAF" +
-      "NHMEJB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "NHMEJB2\n\031emu.grasscutter.net.protoB\025IJIP" +
+      "GBLLMGJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

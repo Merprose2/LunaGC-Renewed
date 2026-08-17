@@ -1296,8 +1296,9 @@ public final class MLCNOPBCOONOuterClass {
       "KFPJE\030\003 \001(\010\022\023\n\013NJFGDILEAAJ\030\004 \001(\010\022\023\n\013BEHE" +
       "IBCJICK\030\005 \001(\r\022\023\n\013OLNGNJFBDCP\030\006 \001(\010\022\023\n\013OA" +
       "ODADCLKAO\030\007 \001(\010\022\023\n\013JANIEBBIPJG\030\010 \001(\002\022\023\n\013" +
-      "ECCLIIIBOLE\030\t \001(\002\022\023\n\013MFHOFACNMGF\030\n \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "ECCLIIIBOLE\030\t \001(\002\022\023\n\013MFHOFACNMGF\030\n \001(\010B2" +
+      "\n\031emu.grasscutter.net.protoB\025MLCNOPBCOON" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

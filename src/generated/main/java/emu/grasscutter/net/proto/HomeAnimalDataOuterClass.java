@@ -925,8 +925,8 @@ public final class HomeAnimalDataOuterClass {
       "\n\024HomeAnimalData.proto\032\014Vector.proto\"^\n\016" +
       "HomeAnimalData\022\032\n\tspawn_pos\030\007 \001(\0132\007.Vect" +
       "or\022\024\n\014furniture_id\030\010 \001(\r\022\032\n\tspawn_rot\030\016 " +
-      "\001(\0132\007.VectorB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\001(\0132\007.VectorB5\n\031emu.grasscutter.net.prot" +
+      "oB\030HomeAnimalDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

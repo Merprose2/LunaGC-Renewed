@@ -1185,8 +1185,8 @@ public final class GadgetPlayStopNotifyOuterClass {
       "\n\006is_win\030\002 \001(\010\022\021\n\tcost_time\030\003 \001(\r\022\021\n\tpla" +
       "y_type\030\004 \001(\r\022)\n\ruid_info_list\030\010 \003(\0132\022.Ga" +
       "dgetPlayUidInfo\022\r\n\005score\030\014 \001(\r\022\021\n\tentity" +
-      "_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\016 \001(\rB;\n\031emu.grasscutter.net.protoB\036" +
+      "GadgetPlayStopNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

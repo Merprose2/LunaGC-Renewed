@@ -875,8 +875,9 @@ public final class InBattleIrodoriChessSettleInfoOuterClass {
       "activity_end\030\001 \001(\010\022\030\n\020kill_monster_num\030\006" +
       " \001(\r\022\024\n\014settle_score\030\007 \001(\r\022\022\n\nis_perfect" +
       "\030\t \001(\010\022\025\n\ris_new_record\030\r \001(\010\022\025\n\rscene_t" +
-      "ime_ms\030\017 \001(\004B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "ime_ms\030\017 \001(\004BE\n\031emu.grasscutter.net.prot" +
+      "oB(InBattleIrodoriChessSettleInfoOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

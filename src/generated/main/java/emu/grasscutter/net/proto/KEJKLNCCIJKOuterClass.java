@@ -1971,8 +1971,8 @@ public final class KEJKLNCCIJKOuterClass {
       "2\014.MAOPJHJAHHBH\000\022)\n\021none_intrinsic_ui\030\017 " +
       "\001(\0132\014.GONCCBFNDMAH\000\022,\n\024basic_active_cont" +
       "rol\030\020 \001(\0132\014.OHJAFPLMJGOH\000\022\024\n\013DKMFGCFFPFH" +
-      "\030\365\003 \001(\005B\010\n\006detailB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\030\365\003 \001(\005B\010\n\006detailB2\n\031emu.grasscutter.net" +
+      ".protoB\025KEJKLNCCIJKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

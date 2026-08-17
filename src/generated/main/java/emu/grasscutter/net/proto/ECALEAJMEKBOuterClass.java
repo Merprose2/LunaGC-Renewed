@@ -960,8 +960,8 @@ public final class ECALEAJMEKBOuterClass {
       "\n\021ECALEAJMEKB.proto\"v\n\013ECALEAJMEKB\022\023\n\013BM" +
       "CGAHCPHFM\030\001 \001(\t\022\023\n\013FKIKACFKJAC\030\002 \001(\r\022\023\n\013" +
       "JAIKAMEDKOB\030\003 \001(\010\022\023\n\013BJOJHMPCOFK\030\004 \001(\005\022\023" +
-      "\n\013CPOOIPHDKEM\030\005 \001(\tB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013CPOOIPHDKEM\030\005 \001(\tB2\n\031emu.grasscutter.n" +
+      "et.protoB\025ECALEAJMEKBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -652,8 +652,8 @@ public final class MCJKFPDDAHFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MCJKFPDDAHF.proto\"%\n\013MCJKFPDDAHF\022\026\n\016av" +
-      "atar_id_list\030\r \003(\004B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "atar_id_list\030\r \003(\004B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025MCJKFPDDAHFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

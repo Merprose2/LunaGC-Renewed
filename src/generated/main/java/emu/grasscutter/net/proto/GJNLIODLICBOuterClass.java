@@ -1687,8 +1687,9 @@ public final class GJNLIODLICBOuterClass {
       "EEGGPGLBF\030\003 \003(\r\022\021\n\tavatar_id\030\006 \001(\r\022\023\n\013HI" +
       "PEJDIMHEJ\030\007 \003(\r\022 \n\013HBGLFHDEAMO\030\010 \003(\0132\013.U" +
       "int32Pair\022\034\n\024_avatar_element_type\030\013 \001(\r\022" +
-      "\016\n\006is_all\030\014 \001(\010\022\r\n\005index\030\r \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\016\n\006is_all\030\014 \001(\010\022\r\n\005index\030\r \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025GJNLIODLICBOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

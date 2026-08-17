@@ -703,8 +703,9 @@ public final class PIHOBBKMLFNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PIHOBBKMLFN.proto\032\021NBKIIACAEDE.proto\"L" +
       "\n\013PIHOBBKMLFN\022\017\n\007retcode\030\001 \001(\005\022\020\n\010level_" +
-      "id\030\002 \001(\r\022\032\n\004type\030\013 \001(\0162\014.NBKIIACAEDEB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "id\030\002 \001(\r\022\032\n\004type\030\013 \001(\0162\014.NBKIIACAEDEB2\n\031" +
+      "emu.grasscutter.net.protoB\025PIHOBBKMLFNOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

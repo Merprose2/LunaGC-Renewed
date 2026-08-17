@@ -660,8 +660,8 @@ public final class CJNCNHKAJDIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CJNCNHKAJDI.proto\"N\n\013CJNCNHKAJDI\022\023\n\013DG" +
       "EOBLNDAKH\030\001 \001(\010\022\024\n\013HHHGFDDOHJH\030\365\003 \001(\010\022\024\n" +
-      "\013PPBIKGIJNDG\030\366\003 \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\013PPBIKGIJNDG\030\366\003 \001(\005B2\n\031emu.grasscutter.n" +
+      "et.protoB\025CJNCNHKAJDIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

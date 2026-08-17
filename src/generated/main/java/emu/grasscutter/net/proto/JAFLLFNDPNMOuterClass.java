@@ -775,8 +775,8 @@ public final class JAFLLFNDPNMOuterClass {
       "\n\021JAFLLFNDPNM.proto\032\017MatchType.proto\"c\n\013" +
       "JAFLLFNDPNM\022\021\n\tis_agreed\030\005 \001(\010\022\036\n\nmatch_" +
       "type\030\006 \001(\0162\n.MatchType\022\017\n\007retcode\030\010 \001(\005\022" +
-      "\020\n\010match_id\030\017 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\020\n\010match_id\030\017 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025JAFLLFNDPNMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

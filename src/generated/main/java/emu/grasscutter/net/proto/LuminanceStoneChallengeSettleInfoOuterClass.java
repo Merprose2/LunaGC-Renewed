@@ -725,8 +725,9 @@ public final class LuminanceStoneChallengeSettleInfoOuterClass {
       "nfo.proto\"z\n!LuminanceStoneChallengeSett" +
       "leInfo\022\025\n\ris_new_record\030\002 \001(\010\022>\n\013settle_" +
       "info\030\n \001(\0132).LuminanceStoneChallengeGall" +
-      "erySettleInfoB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "erySettleInfoBH\n\031emu.grasscutter.net.pro" +
+      "toB+LuminanceStoneChallengeSettleInfoOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

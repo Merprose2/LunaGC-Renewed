@@ -152,8 +152,9 @@ public final class PPGBKAFJIPFOuterClass {
       "\n\021PPGBKAFJIPF.proto*\177\n\013PPGBKAFJIPF\022\024\n\020PP" +
       "GBKAFJIPF_NONE\020\000\022\025\n\021PPGBKAFJIPF_CLOSE\020\001\022" +
       "\024\n\020PPGBKAFJIPF_OPEN\020\002\022-\n)PPGBKAFJIPF_ONL" +
-      "Y_RECOMMEND_PROP_HIGHLIGHT\020\003B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "Y_RECOMMEND_PROP_HIGHLIGHT\020\003B2\n\031emu.gras" +
+      "scutter.net.protoB\025PPGBKAFJIPFOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

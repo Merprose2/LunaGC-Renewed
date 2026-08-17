@@ -9826,8 +9826,8 @@ public final class ACNBAHIEHNFOuterClass {
       "MDINONFBG\0308 \001(\0132\014.NNLLGNMDGOI\022!\n\013BKBOINB" +
       "IEAL\0309 \001(\0132\014.NNLLGNMDGOI\022\023\n\013HJNJPGFOMCB\030" +
       ": \001(\005\022\023\n\013FECNJDLNMEH\030; \001(\005\022\023\n\013HNFPEMEFFH" +
-      "O\030< \001(\010B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "O\030< \001(\010B2\n\031emu.grasscutter.net.protoB\025AC" +
+      "NBAHIEHNFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

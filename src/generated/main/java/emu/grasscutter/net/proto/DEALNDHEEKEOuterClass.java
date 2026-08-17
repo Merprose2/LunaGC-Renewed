@@ -38,11 +38,11 @@ public final class DEALNDHEEKEOuterClass {
      * <code>._StepCreateNode step_create_node = 100;</code>
      * @return The stepCreateNode.
      */
-    emu.grasscutter.net.proto.StepCreateNode._StepCreateNode getStepCreateNode();
+    emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode getStepCreateNode();
     /**
      * <code>._StepCreateNode step_create_node = 100;</code>
      */
-    emu.grasscutter.net.proto.StepCreateNode._StepCreateNodeOrBuilder getStepCreateNodeOrBuilder();
+    emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNodeOrBuilder getStepCreateNodeOrBuilder();
 
     /**
      * <code>._StepModifyValue step_modify_value = 101;</code>
@@ -53,11 +53,11 @@ public final class DEALNDHEEKEOuterClass {
      * <code>._StepModifyValue step_modify_value = 101;</code>
      * @return The stepModifyValue.
      */
-    emu.grasscutter.net.proto.StepModifyValue._StepModifyValue getStepModifyValue();
+    emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue getStepModifyValue();
     /**
      * <code>._StepModifyValue step_modify_value = 101;</code>
      */
-    emu.grasscutter.net.proto.StepModifyValue._StepModifyValueOrBuilder getStepModifyValueOrBuilder();
+    emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValueOrBuilder getStepModifyValueOrBuilder();
 
     /**
      * <code>._StepCreateConnection step_create_connection = 102;</code>
@@ -68,11 +68,11 @@ public final class DEALNDHEEKEOuterClass {
      * <code>._StepCreateConnection step_create_connection = 102;</code>
      * @return The stepCreateConnection.
      */
-    emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection getStepCreateConnection();
+    emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection getStepCreateConnection();
     /**
      * <code>._StepCreateConnection step_create_connection = 102;</code>
      */
-    emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnectionOrBuilder getStepCreateConnectionOrBuilder();
+    emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnectionOrBuilder getStepCreateConnectionOrBuilder();
 
     /**
      * <code>._StepCreateCompoundConnection step_create_compound_connection = 103;</code>
@@ -83,11 +83,11 @@ public final class DEALNDHEEKEOuterClass {
      * <code>._StepCreateCompoundConnection step_create_compound_connection = 103;</code>
      * @return The stepCreateCompoundConnection.
      */
-    emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection getStepCreateCompoundConnection();
+    emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection getStepCreateCompoundConnection();
     /**
      * <code>._StepCreateCompoundConnection step_create_compound_connection = 103;</code>
      */
-    emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnectionOrBuilder getStepCreateCompoundConnectionOrBuilder();
+    emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnectionOrBuilder getStepCreateCompoundConnectionOrBuilder();
 
     public emu.grasscutter.net.proto.DEALNDHEEKEOuterClass.DEALNDHEEKE.DetailCase getDetailCase();
   }
@@ -144,56 +144,56 @@ public final class DEALNDHEEKEOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.StepCreateNode._StepCreateNode.Builder subBuilder = null;
+              emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode.Builder subBuilder = null;
               if (detailCase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.StepCreateNode._StepCreateNode) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.StepCreateNode._StepCreateNode.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.StepCreateNode._StepCreateNode) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 100;
               break;
             }
             case 810: {
-              emu.grasscutter.net.proto.StepModifyValue._StepModifyValue.Builder subBuilder = null;
+              emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue.Builder subBuilder = null;
               if (detailCase_ == 101) {
-                subBuilder = ((emu.grasscutter.net.proto.StepModifyValue._StepModifyValue) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.StepModifyValue._StepModifyValue.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.StepModifyValue._StepModifyValue) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 101;
               break;
             }
             case 818: {
-              emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection.Builder subBuilder = null;
+              emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection.Builder subBuilder = null;
               if (detailCase_ == 102) {
-                subBuilder = ((emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 102;
               break;
             }
             case 826: {
-              emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection.Builder subBuilder = null;
+              emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection.Builder subBuilder = null;
               if (detailCase_ == 103) {
-                subBuilder = ((emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 103;
@@ -309,21 +309,21 @@ public final class DEALNDHEEKEOuterClass {
      * @return The stepCreateNode.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StepCreateNode._StepCreateNode getStepCreateNode() {
+    public emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode getStepCreateNode() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.StepCreateNode._StepCreateNode) detail_;
+         return (emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode) detail_;
       }
-      return emu.grasscutter.net.proto.StepCreateNode._StepCreateNode.getDefaultInstance();
+      return emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode.getDefaultInstance();
     }
     /**
      * <code>._StepCreateNode step_create_node = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StepCreateNode._StepCreateNodeOrBuilder getStepCreateNodeOrBuilder() {
+    public emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNodeOrBuilder getStepCreateNodeOrBuilder() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.StepCreateNode._StepCreateNode) detail_;
+         return (emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode) detail_;
       }
-      return emu.grasscutter.net.proto.StepCreateNode._StepCreateNode.getDefaultInstance();
+      return emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode.getDefaultInstance();
     }
 
     public static final int STEP_MODIFY_VALUE_FIELD_NUMBER = 101;
@@ -340,21 +340,21 @@ public final class DEALNDHEEKEOuterClass {
      * @return The stepModifyValue.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StepModifyValue._StepModifyValue getStepModifyValue() {
+    public emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue getStepModifyValue() {
       if (detailCase_ == 101) {
-         return (emu.grasscutter.net.proto.StepModifyValue._StepModifyValue) detail_;
+         return (emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue) detail_;
       }
-      return emu.grasscutter.net.proto.StepModifyValue._StepModifyValue.getDefaultInstance();
+      return emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue.getDefaultInstance();
     }
     /**
      * <code>._StepModifyValue step_modify_value = 101;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StepModifyValue._StepModifyValueOrBuilder getStepModifyValueOrBuilder() {
+    public emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValueOrBuilder getStepModifyValueOrBuilder() {
       if (detailCase_ == 101) {
-         return (emu.grasscutter.net.proto.StepModifyValue._StepModifyValue) detail_;
+         return (emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue) detail_;
       }
-      return emu.grasscutter.net.proto.StepModifyValue._StepModifyValue.getDefaultInstance();
+      return emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue.getDefaultInstance();
     }
 
     public static final int STEP_CREATE_CONNECTION_FIELD_NUMBER = 102;
@@ -371,21 +371,21 @@ public final class DEALNDHEEKEOuterClass {
      * @return The stepCreateConnection.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection getStepCreateConnection() {
+    public emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection getStepCreateConnection() {
       if (detailCase_ == 102) {
-         return (emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection) detail_;
+         return (emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection) detail_;
       }
-      return emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection.getDefaultInstance();
+      return emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection.getDefaultInstance();
     }
     /**
      * <code>._StepCreateConnection step_create_connection = 102;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnectionOrBuilder getStepCreateConnectionOrBuilder() {
+    public emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnectionOrBuilder getStepCreateConnectionOrBuilder() {
       if (detailCase_ == 102) {
-         return (emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection) detail_;
+         return (emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection) detail_;
       }
-      return emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection.getDefaultInstance();
+      return emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection.getDefaultInstance();
     }
 
     public static final int STEP_CREATE_COMPOUND_CONNECTION_FIELD_NUMBER = 103;
@@ -402,21 +402,21 @@ public final class DEALNDHEEKEOuterClass {
      * @return The stepCreateCompoundConnection.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection getStepCreateCompoundConnection() {
+    public emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection getStepCreateCompoundConnection() {
       if (detailCase_ == 103) {
-         return (emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection) detail_;
+         return (emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection) detail_;
       }
-      return emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection.getDefaultInstance();
+      return emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection.getDefaultInstance();
     }
     /**
      * <code>._StepCreateCompoundConnection step_create_compound_connection = 103;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnectionOrBuilder getStepCreateCompoundConnectionOrBuilder() {
+    public emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnectionOrBuilder getStepCreateCompoundConnectionOrBuilder() {
       if (detailCase_ == 103) {
-         return (emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection) detail_;
+         return (emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection) detail_;
       }
-      return emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection.getDefaultInstance();
+      return emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -437,16 +437,16 @@ public final class DEALNDHEEKEOuterClass {
         output.writeEnum(1, bNIGFBCHBFK_);
       }
       if (detailCase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.StepCreateNode._StepCreateNode) detail_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode) detail_);
       }
       if (detailCase_ == 101) {
-        output.writeMessage(101, (emu.grasscutter.net.proto.StepModifyValue._StepModifyValue) detail_);
+        output.writeMessage(101, (emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue) detail_);
       }
       if (detailCase_ == 102) {
-        output.writeMessage(102, (emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection) detail_);
+        output.writeMessage(102, (emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection) detail_);
       }
       if (detailCase_ == 103) {
-        output.writeMessage(103, (emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection) detail_);
+        output.writeMessage(103, (emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -463,19 +463,19 @@ public final class DEALNDHEEKEOuterClass {
       }
       if (detailCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.StepCreateNode._StepCreateNode) detail_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode) detail_);
       }
       if (detailCase_ == 101) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(101, (emu.grasscutter.net.proto.StepModifyValue._StepModifyValue) detail_);
+          .computeMessageSize(101, (emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue) detail_);
       }
       if (detailCase_ == 102) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(102, (emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection) detail_);
+          .computeMessageSize(102, (emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection) detail_);
       }
       if (detailCase_ == 103) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(103, (emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection) detail_);
+          .computeMessageSize(103, (emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -911,7 +911,7 @@ public final class DEALNDHEEKEOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StepCreateNode._StepCreateNode, emu.grasscutter.net.proto.StepCreateNode._StepCreateNode.Builder, emu.grasscutter.net.proto.StepCreateNode._StepCreateNodeOrBuilder> stepCreateNodeBuilder_;
+          emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode, emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode.Builder, emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNodeOrBuilder> stepCreateNodeBuilder_;
       /**
        * <code>._StepCreateNode step_create_node = 100;</code>
        * @return Whether the stepCreateNode field is set.
@@ -925,23 +925,23 @@ public final class DEALNDHEEKEOuterClass {
        * @return The stepCreateNode.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StepCreateNode._StepCreateNode getStepCreateNode() {
+      public emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode getStepCreateNode() {
         if (stepCreateNodeBuilder_ == null) {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.StepCreateNode._StepCreateNode) detail_;
+            return (emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode) detail_;
           }
-          return emu.grasscutter.net.proto.StepCreateNode._StepCreateNode.getDefaultInstance();
+          return emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode.getDefaultInstance();
         } else {
           if (detailCase_ == 100) {
             return stepCreateNodeBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.StepCreateNode._StepCreateNode.getDefaultInstance();
+          return emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode.getDefaultInstance();
         }
       }
       /**
        * <code>._StepCreateNode step_create_node = 100;</code>
        */
-      public Builder setStepCreateNode(emu.grasscutter.net.proto.StepCreateNode._StepCreateNode value) {
+      public Builder setStepCreateNode(emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode value) {
         if (stepCreateNodeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -958,7 +958,7 @@ public final class DEALNDHEEKEOuterClass {
        * <code>._StepCreateNode step_create_node = 100;</code>
        */
       public Builder setStepCreateNode(
-          emu.grasscutter.net.proto.StepCreateNode._StepCreateNode.Builder builderForValue) {
+          emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode.Builder builderForValue) {
         if (stepCreateNodeBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -971,11 +971,11 @@ public final class DEALNDHEEKEOuterClass {
       /**
        * <code>._StepCreateNode step_create_node = 100;</code>
        */
-      public Builder mergeStepCreateNode(emu.grasscutter.net.proto.StepCreateNode._StepCreateNode value) {
+      public Builder mergeStepCreateNode(emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode value) {
         if (stepCreateNodeBuilder_ == null) {
           if (detailCase_ == 100 &&
-              detail_ != emu.grasscutter.net.proto.StepCreateNode._StepCreateNode.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.StepCreateNode._StepCreateNode.newBuilder((emu.grasscutter.net.proto.StepCreateNode._StepCreateNode) detail_)
+              detail_ != emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode.newBuilder((emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1012,36 +1012,36 @@ public final class DEALNDHEEKEOuterClass {
       /**
        * <code>._StepCreateNode step_create_node = 100;</code>
        */
-      public emu.grasscutter.net.proto.StepCreateNode._StepCreateNode.Builder getStepCreateNodeBuilder() {
+      public emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode.Builder getStepCreateNodeBuilder() {
         return getStepCreateNodeFieldBuilder().getBuilder();
       }
       /**
        * <code>._StepCreateNode step_create_node = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StepCreateNode._StepCreateNodeOrBuilder getStepCreateNodeOrBuilder() {
+      public emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNodeOrBuilder getStepCreateNodeOrBuilder() {
         if ((detailCase_ == 100) && (stepCreateNodeBuilder_ != null)) {
           return stepCreateNodeBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.StepCreateNode._StepCreateNode) detail_;
+            return (emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode) detail_;
           }
-          return emu.grasscutter.net.proto.StepCreateNode._StepCreateNode.getDefaultInstance();
+          return emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode.getDefaultInstance();
         }
       }
       /**
        * <code>._StepCreateNode step_create_node = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StepCreateNode._StepCreateNode, emu.grasscutter.net.proto.StepCreateNode._StepCreateNode.Builder, emu.grasscutter.net.proto.StepCreateNode._StepCreateNodeOrBuilder> 
+          emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode, emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode.Builder, emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNodeOrBuilder> 
           getStepCreateNodeFieldBuilder() {
         if (stepCreateNodeBuilder_ == null) {
           if (!(detailCase_ == 100)) {
-            detail_ = emu.grasscutter.net.proto.StepCreateNode._StepCreateNode.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode.getDefaultInstance();
           }
           stepCreateNodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.StepCreateNode._StepCreateNode, emu.grasscutter.net.proto.StepCreateNode._StepCreateNode.Builder, emu.grasscutter.net.proto.StepCreateNode._StepCreateNodeOrBuilder>(
-                  (emu.grasscutter.net.proto.StepCreateNode._StepCreateNode) detail_,
+              emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode, emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode.Builder, emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNodeOrBuilder>(
+                  (emu.grasscutter.net.proto._StepCreateNodeOuterClass._StepCreateNode) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1052,7 +1052,7 @@ public final class DEALNDHEEKEOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StepModifyValue._StepModifyValue, emu.grasscutter.net.proto.StepModifyValue._StepModifyValue.Builder, emu.grasscutter.net.proto.StepModifyValue._StepModifyValueOrBuilder> stepModifyValueBuilder_;
+          emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue, emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue.Builder, emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValueOrBuilder> stepModifyValueBuilder_;
       /**
        * <code>._StepModifyValue step_modify_value = 101;</code>
        * @return Whether the stepModifyValue field is set.
@@ -1066,23 +1066,23 @@ public final class DEALNDHEEKEOuterClass {
        * @return The stepModifyValue.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StepModifyValue._StepModifyValue getStepModifyValue() {
+      public emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue getStepModifyValue() {
         if (stepModifyValueBuilder_ == null) {
           if (detailCase_ == 101) {
-            return (emu.grasscutter.net.proto.StepModifyValue._StepModifyValue) detail_;
+            return (emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue) detail_;
           }
-          return emu.grasscutter.net.proto.StepModifyValue._StepModifyValue.getDefaultInstance();
+          return emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue.getDefaultInstance();
         } else {
           if (detailCase_ == 101) {
             return stepModifyValueBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.StepModifyValue._StepModifyValue.getDefaultInstance();
+          return emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue.getDefaultInstance();
         }
       }
       /**
        * <code>._StepModifyValue step_modify_value = 101;</code>
        */
-      public Builder setStepModifyValue(emu.grasscutter.net.proto.StepModifyValue._StepModifyValue value) {
+      public Builder setStepModifyValue(emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue value) {
         if (stepModifyValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1099,7 +1099,7 @@ public final class DEALNDHEEKEOuterClass {
        * <code>._StepModifyValue step_modify_value = 101;</code>
        */
       public Builder setStepModifyValue(
-          emu.grasscutter.net.proto.StepModifyValue._StepModifyValue.Builder builderForValue) {
+          emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue.Builder builderForValue) {
         if (stepModifyValueBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1112,11 +1112,11 @@ public final class DEALNDHEEKEOuterClass {
       /**
        * <code>._StepModifyValue step_modify_value = 101;</code>
        */
-      public Builder mergeStepModifyValue(emu.grasscutter.net.proto.StepModifyValue._StepModifyValue value) {
+      public Builder mergeStepModifyValue(emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue value) {
         if (stepModifyValueBuilder_ == null) {
           if (detailCase_ == 101 &&
-              detail_ != emu.grasscutter.net.proto.StepModifyValue._StepModifyValue.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.StepModifyValue._StepModifyValue.newBuilder((emu.grasscutter.net.proto.StepModifyValue._StepModifyValue) detail_)
+              detail_ != emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue.newBuilder((emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1153,36 +1153,36 @@ public final class DEALNDHEEKEOuterClass {
       /**
        * <code>._StepModifyValue step_modify_value = 101;</code>
        */
-      public emu.grasscutter.net.proto.StepModifyValue._StepModifyValue.Builder getStepModifyValueBuilder() {
+      public emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue.Builder getStepModifyValueBuilder() {
         return getStepModifyValueFieldBuilder().getBuilder();
       }
       /**
        * <code>._StepModifyValue step_modify_value = 101;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StepModifyValue._StepModifyValueOrBuilder getStepModifyValueOrBuilder() {
+      public emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValueOrBuilder getStepModifyValueOrBuilder() {
         if ((detailCase_ == 101) && (stepModifyValueBuilder_ != null)) {
           return stepModifyValueBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 101) {
-            return (emu.grasscutter.net.proto.StepModifyValue._StepModifyValue) detail_;
+            return (emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue) detail_;
           }
-          return emu.grasscutter.net.proto.StepModifyValue._StepModifyValue.getDefaultInstance();
+          return emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue.getDefaultInstance();
         }
       }
       /**
        * <code>._StepModifyValue step_modify_value = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StepModifyValue._StepModifyValue, emu.grasscutter.net.proto.StepModifyValue._StepModifyValue.Builder, emu.grasscutter.net.proto.StepModifyValue._StepModifyValueOrBuilder> 
+          emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue, emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue.Builder, emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValueOrBuilder> 
           getStepModifyValueFieldBuilder() {
         if (stepModifyValueBuilder_ == null) {
           if (!(detailCase_ == 101)) {
-            detail_ = emu.grasscutter.net.proto.StepModifyValue._StepModifyValue.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue.getDefaultInstance();
           }
           stepModifyValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.StepModifyValue._StepModifyValue, emu.grasscutter.net.proto.StepModifyValue._StepModifyValue.Builder, emu.grasscutter.net.proto.StepModifyValue._StepModifyValueOrBuilder>(
-                  (emu.grasscutter.net.proto.StepModifyValue._StepModifyValue) detail_,
+              emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue, emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue.Builder, emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValueOrBuilder>(
+                  (emu.grasscutter.net.proto._StepModifyValueOuterClass._StepModifyValue) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1193,7 +1193,7 @@ public final class DEALNDHEEKEOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection, emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection.Builder, emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnectionOrBuilder> stepCreateConnectionBuilder_;
+          emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection, emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection.Builder, emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnectionOrBuilder> stepCreateConnectionBuilder_;
       /**
        * <code>._StepCreateConnection step_create_connection = 102;</code>
        * @return Whether the stepCreateConnection field is set.
@@ -1207,23 +1207,23 @@ public final class DEALNDHEEKEOuterClass {
        * @return The stepCreateConnection.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection getStepCreateConnection() {
+      public emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection getStepCreateConnection() {
         if (stepCreateConnectionBuilder_ == null) {
           if (detailCase_ == 102) {
-            return (emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection) detail_;
+            return (emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection) detail_;
           }
-          return emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection.getDefaultInstance();
+          return emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection.getDefaultInstance();
         } else {
           if (detailCase_ == 102) {
             return stepCreateConnectionBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection.getDefaultInstance();
+          return emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection.getDefaultInstance();
         }
       }
       /**
        * <code>._StepCreateConnection step_create_connection = 102;</code>
        */
-      public Builder setStepCreateConnection(emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection value) {
+      public Builder setStepCreateConnection(emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection value) {
         if (stepCreateConnectionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1240,7 +1240,7 @@ public final class DEALNDHEEKEOuterClass {
        * <code>._StepCreateConnection step_create_connection = 102;</code>
        */
       public Builder setStepCreateConnection(
-          emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection.Builder builderForValue) {
+          emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection.Builder builderForValue) {
         if (stepCreateConnectionBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1253,11 +1253,11 @@ public final class DEALNDHEEKEOuterClass {
       /**
        * <code>._StepCreateConnection step_create_connection = 102;</code>
        */
-      public Builder mergeStepCreateConnection(emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection value) {
+      public Builder mergeStepCreateConnection(emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection value) {
         if (stepCreateConnectionBuilder_ == null) {
           if (detailCase_ == 102 &&
-              detail_ != emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection.newBuilder((emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection) detail_)
+              detail_ != emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection.newBuilder((emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1294,36 +1294,36 @@ public final class DEALNDHEEKEOuterClass {
       /**
        * <code>._StepCreateConnection step_create_connection = 102;</code>
        */
-      public emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection.Builder getStepCreateConnectionBuilder() {
+      public emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection.Builder getStepCreateConnectionBuilder() {
         return getStepCreateConnectionFieldBuilder().getBuilder();
       }
       /**
        * <code>._StepCreateConnection step_create_connection = 102;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnectionOrBuilder getStepCreateConnectionOrBuilder() {
+      public emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnectionOrBuilder getStepCreateConnectionOrBuilder() {
         if ((detailCase_ == 102) && (stepCreateConnectionBuilder_ != null)) {
           return stepCreateConnectionBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 102) {
-            return (emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection) detail_;
+            return (emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection) detail_;
           }
-          return emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection.getDefaultInstance();
+          return emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection.getDefaultInstance();
         }
       }
       /**
        * <code>._StepCreateConnection step_create_connection = 102;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection, emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection.Builder, emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnectionOrBuilder> 
+          emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection, emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection.Builder, emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnectionOrBuilder> 
           getStepCreateConnectionFieldBuilder() {
         if (stepCreateConnectionBuilder_ == null) {
           if (!(detailCase_ == 102)) {
-            detail_ = emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection.getDefaultInstance();
           }
           stepCreateConnectionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection, emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection.Builder, emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnectionOrBuilder>(
-                  (emu.grasscutter.net.proto.StepCreateConnection._StepCreateConnection) detail_,
+              emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection, emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection.Builder, emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnectionOrBuilder>(
+                  (emu.grasscutter.net.proto._StepCreateConnectionOuterClass._StepCreateConnection) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1334,7 +1334,7 @@ public final class DEALNDHEEKEOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection, emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection.Builder, emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnectionOrBuilder> stepCreateCompoundConnectionBuilder_;
+          emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection, emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection.Builder, emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnectionOrBuilder> stepCreateCompoundConnectionBuilder_;
       /**
        * <code>._StepCreateCompoundConnection step_create_compound_connection = 103;</code>
        * @return Whether the stepCreateCompoundConnection field is set.
@@ -1348,23 +1348,23 @@ public final class DEALNDHEEKEOuterClass {
        * @return The stepCreateCompoundConnection.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection getStepCreateCompoundConnection() {
+      public emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection getStepCreateCompoundConnection() {
         if (stepCreateCompoundConnectionBuilder_ == null) {
           if (detailCase_ == 103) {
-            return (emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection) detail_;
+            return (emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection) detail_;
           }
-          return emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection.getDefaultInstance();
+          return emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection.getDefaultInstance();
         } else {
           if (detailCase_ == 103) {
             return stepCreateCompoundConnectionBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection.getDefaultInstance();
+          return emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection.getDefaultInstance();
         }
       }
       /**
        * <code>._StepCreateCompoundConnection step_create_compound_connection = 103;</code>
        */
-      public Builder setStepCreateCompoundConnection(emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection value) {
+      public Builder setStepCreateCompoundConnection(emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection value) {
         if (stepCreateCompoundConnectionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1381,7 +1381,7 @@ public final class DEALNDHEEKEOuterClass {
        * <code>._StepCreateCompoundConnection step_create_compound_connection = 103;</code>
        */
       public Builder setStepCreateCompoundConnection(
-          emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection.Builder builderForValue) {
+          emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection.Builder builderForValue) {
         if (stepCreateCompoundConnectionBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1394,11 +1394,11 @@ public final class DEALNDHEEKEOuterClass {
       /**
        * <code>._StepCreateCompoundConnection step_create_compound_connection = 103;</code>
        */
-      public Builder mergeStepCreateCompoundConnection(emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection value) {
+      public Builder mergeStepCreateCompoundConnection(emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection value) {
         if (stepCreateCompoundConnectionBuilder_ == null) {
           if (detailCase_ == 103 &&
-              detail_ != emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection.newBuilder((emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection) detail_)
+              detail_ != emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection.newBuilder((emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1435,36 +1435,36 @@ public final class DEALNDHEEKEOuterClass {
       /**
        * <code>._StepCreateCompoundConnection step_create_compound_connection = 103;</code>
        */
-      public emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection.Builder getStepCreateCompoundConnectionBuilder() {
+      public emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection.Builder getStepCreateCompoundConnectionBuilder() {
         return getStepCreateCompoundConnectionFieldBuilder().getBuilder();
       }
       /**
        * <code>._StepCreateCompoundConnection step_create_compound_connection = 103;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnectionOrBuilder getStepCreateCompoundConnectionOrBuilder() {
+      public emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnectionOrBuilder getStepCreateCompoundConnectionOrBuilder() {
         if ((detailCase_ == 103) && (stepCreateCompoundConnectionBuilder_ != null)) {
           return stepCreateCompoundConnectionBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 103) {
-            return (emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection) detail_;
+            return (emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection) detail_;
           }
-          return emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection.getDefaultInstance();
+          return emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection.getDefaultInstance();
         }
       }
       /**
        * <code>._StepCreateCompoundConnection step_create_compound_connection = 103;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection, emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection.Builder, emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnectionOrBuilder> 
+          emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection, emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection.Builder, emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnectionOrBuilder> 
           getStepCreateCompoundConnectionFieldBuilder() {
         if (stepCreateCompoundConnectionBuilder_ == null) {
           if (!(detailCase_ == 103)) {
-            detail_ = emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection.getDefaultInstance();
           }
           stepCreateCompoundConnectionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection, emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection.Builder, emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnectionOrBuilder>(
-                  (emu.grasscutter.net.proto.StepCreateCompoundConnection._StepCreateCompoundConnection) detail_,
+              emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection, emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection.Builder, emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnectionOrBuilder>(
+                  (emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass._StepCreateCompoundConnection) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1551,16 +1551,17 @@ public final class DEALNDHEEKEOuterClass {
       "on\030f \001(\0132\026._StepCreateConnectionH\000\022I\n\037st" +
       "ep_create_compound_connection\030g \001(\0132\036._S" +
       "tepCreateCompoundConnectionH\000B\010\n\006detailB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025DEALNDHEEK" +
+      "EOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.MPPKFNNJLLIOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.StepCreateCompoundConnection.getDescriptor(),
-          emu.grasscutter.net.proto.StepCreateConnection.getDescriptor(),
-          emu.grasscutter.net.proto.StepCreateNode.getDescriptor(),
-          emu.grasscutter.net.proto.StepModifyValue.getDescriptor(),
+          emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._StepCreateConnectionOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._StepCreateNodeOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._StepModifyValueOuterClass.getDescriptor(),
         });
     internal_static_DEALNDHEEKE_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1569,10 +1570,10 @@ public final class DEALNDHEEKEOuterClass {
         internal_static_DEALNDHEEKE_descriptor,
         new java.lang.String[] { "BNIGFBCHBFK", "StepCreateNode", "StepModifyValue", "StepCreateConnection", "StepCreateCompoundConnection", "Detail", });
     emu.grasscutter.net.proto.MPPKFNNJLLIOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.StepCreateCompoundConnection.getDescriptor();
-    emu.grasscutter.net.proto.StepCreateConnection.getDescriptor();
-    emu.grasscutter.net.proto.StepCreateNode.getDescriptor();
-    emu.grasscutter.net.proto.StepModifyValue.getDescriptor();
+    emu.grasscutter.net.proto._StepCreateCompoundConnectionOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._StepCreateConnectionOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._StepCreateNodeOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._StepModifyValueOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

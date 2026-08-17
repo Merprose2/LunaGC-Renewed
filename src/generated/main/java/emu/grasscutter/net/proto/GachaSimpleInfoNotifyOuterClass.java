@@ -526,8 +526,9 @@ public final class GachaSimpleInfoNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033GachaSimpleInfoNotify.proto\"\'\n\025GachaSi" +
-      "mpleInfoNotify\022\016\n\006is_new\030\016 \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "mpleInfoNotify\022\016\n\006is_new\030\016 \001(\010B<\n\031emu.gr" +
+      "asscutter.net.protoB\037GachaSimpleInfoNoti" +
+      "fyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

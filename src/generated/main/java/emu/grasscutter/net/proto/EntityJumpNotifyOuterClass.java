@@ -1159,8 +1159,9 @@ public final class EntityJumpNotifyOuterClass {
       "\n\003rot\030\010 \001(\0132\007.Vector\022)\n\tjump_type\030\t \001(\0162" +
       "\026.EntityJumpNotify.Type\022\024\n\003pos\030\016 \001(\0132\007.V" +
       "ector\"8\n\004Type\022\r\n\tType_NULL\020\000\022\017\n\013Type_ACT" +
-      "IVE\020\001\022\020\n\014Type_PASSIVE\020\002B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "IVE\020\001\022\020\n\014Type_PASSIVE\020\002B7\n\031emu.grasscutt" +
+      "er.net.protoB\032EntityJumpNotifyOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

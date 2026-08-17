@@ -525,8 +525,8 @@ public final class PLCOIEGJFOCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PLCOIEGJFOC.proto\"\"\n\013PLCOIEGJFOC\022\023\n\013ML" +
-      "CKEOGNHMF\030\004 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "CKEOGNHMF\030\004 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025PLCOIEGJFOCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

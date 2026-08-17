@@ -893,8 +893,9 @@ public final class FLHNEMANIGMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FLHNEMANIGM.proto\032\020Uint32Pair.proto\"D\n" +
       "\013FLHNEMANIGM\022\023\n\013MFADPFCKKJO\030\n \001(\r\022 \n\013OCD" +
-      "AMPBCGIN\030\013 \003(\0132\013.Uint32PairB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "AMPBCGIN\030\013 \003(\0132\013.Uint32PairB2\n\031emu.grass" +
+      "cutter.net.protoB\025FLHNEMANIGMOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

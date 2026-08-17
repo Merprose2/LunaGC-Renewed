@@ -1322,8 +1322,9 @@ public final class BattlePassAllDataNotifyOuterClass {
       "\022.BattlePassMission\022)\n\014cur_schedule\030\007 \001(" +
       "\0132\023.BattlePassSchedule\022\031\n\021_battle_pass_p" +
       "lan\030\010 \001(\r\022\023\n\013HBHFBAGFADF\030\n \001(\010\022\021\n\tis_vie" +
-      "wed\030\r \001(\010B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "wed\030\r \001(\010B>\n\031emu.grasscutter.net.protoB!" +
+      "BattlePassAllDataNotifyOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

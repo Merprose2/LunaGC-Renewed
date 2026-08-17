@@ -901,8 +901,9 @@ public final class PEBBPALOFBPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PEBBPALOFBP.proto\032\021DFBICADBPJL.proto\"=" +
       "\n\013PEBBPALOFBP\022\013\n\003uid\030\005 \001(\r\022!\n\013GCONKMGPOP" +
-      "K\030\007 \003(\0132\014.DFBICADBPJLB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "K\030\007 \003(\0132\014.DFBICADBPJLB2\n\031emu.grasscutter" +
+      ".net.protoB\025PEBBPALOFBPOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

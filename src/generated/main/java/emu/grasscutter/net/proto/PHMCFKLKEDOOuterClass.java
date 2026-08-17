@@ -155,8 +155,8 @@ public final class PHMCFKLKEDOOuterClass {
       "PLOYEE_STATE_HIRED\020\001\0227\n3PHMCFKLKEDO_THEM" +
       "E_PARK_SIM_EMPLOYEE_STATE_CANDIDATE\020\002\0224\n" +
       "0PHMCFKLKEDO_THEME_PARK_SIM_EMPLOYEE_STA" +
-      "TE_WORKED\020\003B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "TE_WORKED\020\003B2\n\031emu.grasscutter.net.proto" +
+      "B\025PHMCFKLKEDOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

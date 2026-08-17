@@ -729,8 +729,8 @@ public final class INBGOJMJOLLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021INBGOJMJOLL.proto\032\rGCGDuel.proto\"6\n\013IN" +
       "BGOJMJOLL\022\026\n\004duel\030\n \001(\0132\010.GCGDuel\022\017\n\007ret" +
-      "code\030\014 \001(\005B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "code\030\014 \001(\005B2\n\031emu.grasscutter.net.protoB" +
+      "\025INBGOJMJOLLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -794,8 +794,8 @@ public final class MNECGJGHKIBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MNECGJGHKIB.proto\"N\n\013MNECGJGHKIB\022\023\n\013KE" +
       "DLFHEGILH\030\006 \003(\r\022\023\n\013OGBLPLNCKIF\030\n \001(\010\022\025\n\r" +
-      "difficulty_id\030\014 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "difficulty_id\030\014 \001(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025MNECGJGHKIBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

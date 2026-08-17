@@ -33,11 +33,11 @@ public final class NJJOELKDNFNOuterClass {
      * <code>._TowerChallengeDetail tower_challenge_detail = 1443;</code>
      * @return The towerChallengeDetail.
      */
-    emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail getTowerChallengeDetail();
+    emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail getTowerChallengeDetail();
     /**
      * <code>._TowerChallengeDetail tower_challenge_detail = 1443;</code>
      */
-    emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetailOrBuilder getTowerChallengeDetailOrBuilder();
+    emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetailOrBuilder getTowerChallengeDetailOrBuilder();
 
     /**
      * <code>._EffigyChallengeV5Detail effigy_challenge_v_5_detail = 1952;</code>
@@ -48,11 +48,11 @@ public final class NJJOELKDNFNOuterClass {
      * <code>._EffigyChallengeV5Detail effigy_challenge_v_5_detail = 1952;</code>
      * @return The effigyChallengeV5Detail.
      */
-    emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail getEffigyChallengeV5Detail();
+    emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail getEffigyChallengeV5Detail();
     /**
      * <code>._EffigyChallengeV5Detail effigy_challenge_v_5_detail = 1952;</code>
      */
-    emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5DetailOrBuilder getEffigyChallengeV5DetailOrBuilder();
+    emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5DetailOrBuilder getEffigyChallengeV5DetailOrBuilder();
 
     public emu.grasscutter.net.proto.NJJOELKDNFNOuterClass.NJJOELKDNFN.DetailCase getDetailCase();
   }
@@ -107,28 +107,28 @@ public final class NJJOELKDNFNOuterClass {
               break;
             }
             case 11546: {
-              emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail.Builder subBuilder = null;
               if (detailCase_ == 1443) {
-                subBuilder = ((emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1443;
               break;
             }
             case 15618: {
-              emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail.Builder subBuilder = null;
+              emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail.Builder subBuilder = null;
               if (detailCase_ == 1952) {
-                subBuilder = ((emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1952;
@@ -232,21 +232,21 @@ public final class NJJOELKDNFNOuterClass {
      * @return The towerChallengeDetail.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail getTowerChallengeDetail() {
+    public emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail getTowerChallengeDetail() {
       if (detailCase_ == 1443) {
-         return (emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail) detail_;
+         return (emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail) detail_;
       }
-      return emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail.getDefaultInstance();
+      return emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail.getDefaultInstance();
     }
     /**
      * <code>._TowerChallengeDetail tower_challenge_detail = 1443;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetailOrBuilder getTowerChallengeDetailOrBuilder() {
+    public emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetailOrBuilder getTowerChallengeDetailOrBuilder() {
       if (detailCase_ == 1443) {
-         return (emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail) detail_;
+         return (emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail) detail_;
       }
-      return emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail.getDefaultInstance();
+      return emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail.getDefaultInstance();
     }
 
     public static final int EFFIGY_CHALLENGE_V_5_DETAIL_FIELD_NUMBER = 1952;
@@ -263,21 +263,21 @@ public final class NJJOELKDNFNOuterClass {
      * @return The effigyChallengeV5Detail.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail getEffigyChallengeV5Detail() {
+    public emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail getEffigyChallengeV5Detail() {
       if (detailCase_ == 1952) {
-         return (emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail) detail_;
+         return (emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail) detail_;
       }
-      return emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail.getDefaultInstance();
+      return emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail.getDefaultInstance();
     }
     /**
      * <code>._EffigyChallengeV5Detail effigy_challenge_v_5_detail = 1952;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5DetailOrBuilder getEffigyChallengeV5DetailOrBuilder() {
+    public emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5DetailOrBuilder getEffigyChallengeV5DetailOrBuilder() {
       if (detailCase_ == 1952) {
-         return (emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail) detail_;
+         return (emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail) detail_;
       }
-      return emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail.getDefaultInstance();
+      return emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -298,10 +298,10 @@ public final class NJJOELKDNFNOuterClass {
         output.writeUInt32(12, levelId_);
       }
       if (detailCase_ == 1443) {
-        output.writeMessage(1443, (emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail) detail_);
+        output.writeMessage(1443, (emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail) detail_);
       }
       if (detailCase_ == 1952) {
-        output.writeMessage(1952, (emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail) detail_);
+        output.writeMessage(1952, (emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -318,11 +318,11 @@ public final class NJJOELKDNFNOuterClass {
       }
       if (detailCase_ == 1443) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1443, (emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail) detail_);
+          .computeMessageSize(1443, (emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail) detail_);
       }
       if (detailCase_ == 1952) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1952, (emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail) detail_);
+          .computeMessageSize(1952, (emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -698,7 +698,7 @@ public final class NJJOELKDNFNOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail, emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail.Builder, emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetailOrBuilder> towerChallengeDetailBuilder_;
+          emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail, emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail.Builder, emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetailOrBuilder> towerChallengeDetailBuilder_;
       /**
        * <code>._TowerChallengeDetail tower_challenge_detail = 1443;</code>
        * @return Whether the towerChallengeDetail field is set.
@@ -712,23 +712,23 @@ public final class NJJOELKDNFNOuterClass {
        * @return The towerChallengeDetail.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail getTowerChallengeDetail() {
+      public emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail getTowerChallengeDetail() {
         if (towerChallengeDetailBuilder_ == null) {
           if (detailCase_ == 1443) {
-            return (emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail) detail_;
+            return (emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail) detail_;
           }
-          return emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail.getDefaultInstance();
+          return emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail.getDefaultInstance();
         } else {
           if (detailCase_ == 1443) {
             return towerChallengeDetailBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail.getDefaultInstance();
+          return emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail.getDefaultInstance();
         }
       }
       /**
        * <code>._TowerChallengeDetail tower_challenge_detail = 1443;</code>
        */
-      public Builder setTowerChallengeDetail(emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail value) {
+      public Builder setTowerChallengeDetail(emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail value) {
         if (towerChallengeDetailBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -745,7 +745,7 @@ public final class NJJOELKDNFNOuterClass {
        * <code>._TowerChallengeDetail tower_challenge_detail = 1443;</code>
        */
       public Builder setTowerChallengeDetail(
-          emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail.Builder builderForValue) {
+          emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail.Builder builderForValue) {
         if (towerChallengeDetailBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -758,11 +758,11 @@ public final class NJJOELKDNFNOuterClass {
       /**
        * <code>._TowerChallengeDetail tower_challenge_detail = 1443;</code>
        */
-      public Builder mergeTowerChallengeDetail(emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail value) {
+      public Builder mergeTowerChallengeDetail(emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail value) {
         if (towerChallengeDetailBuilder_ == null) {
           if (detailCase_ == 1443 &&
-              detail_ != emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail.newBuilder((emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail) detail_)
+              detail_ != emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail.newBuilder((emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -799,36 +799,36 @@ public final class NJJOELKDNFNOuterClass {
       /**
        * <code>._TowerChallengeDetail tower_challenge_detail = 1443;</code>
        */
-      public emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail.Builder getTowerChallengeDetailBuilder() {
+      public emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail.Builder getTowerChallengeDetailBuilder() {
         return getTowerChallengeDetailFieldBuilder().getBuilder();
       }
       /**
        * <code>._TowerChallengeDetail tower_challenge_detail = 1443;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetailOrBuilder getTowerChallengeDetailOrBuilder() {
+      public emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetailOrBuilder getTowerChallengeDetailOrBuilder() {
         if ((detailCase_ == 1443) && (towerChallengeDetailBuilder_ != null)) {
           return towerChallengeDetailBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1443) {
-            return (emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail) detail_;
+            return (emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail) detail_;
           }
-          return emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail.getDefaultInstance();
+          return emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail.getDefaultInstance();
         }
       }
       /**
        * <code>._TowerChallengeDetail tower_challenge_detail = 1443;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail, emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail.Builder, emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetailOrBuilder> 
+          emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail, emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail.Builder, emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetailOrBuilder> 
           getTowerChallengeDetailFieldBuilder() {
         if (towerChallengeDetailBuilder_ == null) {
           if (!(detailCase_ == 1443)) {
-            detail_ = emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail.getDefaultInstance();
           }
           towerChallengeDetailBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail, emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail.Builder, emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetailOrBuilder>(
-                  (emu.grasscutter.net.proto.TowerChallengeDetail._TowerChallengeDetail) detail_,
+              emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail, emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail.Builder, emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetailOrBuilder>(
+                  (emu.grasscutter.net.proto._TowerChallengeDetailOuterClass._TowerChallengeDetail) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -839,7 +839,7 @@ public final class NJJOELKDNFNOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail, emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail.Builder, emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5DetailOrBuilder> effigyChallengeV5DetailBuilder_;
+          emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail, emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail.Builder, emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5DetailOrBuilder> effigyChallengeV5DetailBuilder_;
       /**
        * <code>._EffigyChallengeV5Detail effigy_challenge_v_5_detail = 1952;</code>
        * @return Whether the effigyChallengeV5Detail field is set.
@@ -853,23 +853,23 @@ public final class NJJOELKDNFNOuterClass {
        * @return The effigyChallengeV5Detail.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail getEffigyChallengeV5Detail() {
+      public emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail getEffigyChallengeV5Detail() {
         if (effigyChallengeV5DetailBuilder_ == null) {
           if (detailCase_ == 1952) {
-            return (emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail) detail_;
+            return (emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail) detail_;
           }
-          return emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail.getDefaultInstance();
+          return emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail.getDefaultInstance();
         } else {
           if (detailCase_ == 1952) {
             return effigyChallengeV5DetailBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail.getDefaultInstance();
+          return emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail.getDefaultInstance();
         }
       }
       /**
        * <code>._EffigyChallengeV5Detail effigy_challenge_v_5_detail = 1952;</code>
        */
-      public Builder setEffigyChallengeV5Detail(emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail value) {
+      public Builder setEffigyChallengeV5Detail(emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail value) {
         if (effigyChallengeV5DetailBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -886,7 +886,7 @@ public final class NJJOELKDNFNOuterClass {
        * <code>._EffigyChallengeV5Detail effigy_challenge_v_5_detail = 1952;</code>
        */
       public Builder setEffigyChallengeV5Detail(
-          emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail.Builder builderForValue) {
+          emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail.Builder builderForValue) {
         if (effigyChallengeV5DetailBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -899,11 +899,11 @@ public final class NJJOELKDNFNOuterClass {
       /**
        * <code>._EffigyChallengeV5Detail effigy_challenge_v_5_detail = 1952;</code>
        */
-      public Builder mergeEffigyChallengeV5Detail(emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail value) {
+      public Builder mergeEffigyChallengeV5Detail(emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail value) {
         if (effigyChallengeV5DetailBuilder_ == null) {
           if (detailCase_ == 1952 &&
-              detail_ != emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail.newBuilder((emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail) detail_)
+              detail_ != emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail.newBuilder((emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -940,36 +940,36 @@ public final class NJJOELKDNFNOuterClass {
       /**
        * <code>._EffigyChallengeV5Detail effigy_challenge_v_5_detail = 1952;</code>
        */
-      public emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail.Builder getEffigyChallengeV5DetailBuilder() {
+      public emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail.Builder getEffigyChallengeV5DetailBuilder() {
         return getEffigyChallengeV5DetailFieldBuilder().getBuilder();
       }
       /**
        * <code>._EffigyChallengeV5Detail effigy_challenge_v_5_detail = 1952;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5DetailOrBuilder getEffigyChallengeV5DetailOrBuilder() {
+      public emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5DetailOrBuilder getEffigyChallengeV5DetailOrBuilder() {
         if ((detailCase_ == 1952) && (effigyChallengeV5DetailBuilder_ != null)) {
           return effigyChallengeV5DetailBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1952) {
-            return (emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail) detail_;
+            return (emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail) detail_;
           }
-          return emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail.getDefaultInstance();
+          return emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail.getDefaultInstance();
         }
       }
       /**
        * <code>._EffigyChallengeV5Detail effigy_challenge_v_5_detail = 1952;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail, emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail.Builder, emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5DetailOrBuilder> 
+          emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail, emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail.Builder, emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5DetailOrBuilder> 
           getEffigyChallengeV5DetailFieldBuilder() {
         if (effigyChallengeV5DetailBuilder_ == null) {
           if (!(detailCase_ == 1952)) {
-            detail_ = emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail.getDefaultInstance();
           }
           effigyChallengeV5DetailBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail, emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail.Builder, emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5DetailOrBuilder>(
-                  (emu.grasscutter.net.proto.EffigyChallengeV5Detail._EffigyChallengeV5Detail) detail_,
+              emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail, emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail.Builder, emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5DetailOrBuilder>(
+                  (emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass._EffigyChallengeV5Detail) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1051,14 +1051,14 @@ public final class NJJOELKDNFNOuterClass {
       "wer_challenge_detail\030\243\013 \001(\0132\026._TowerChal" +
       "lengeDetailH\000\022A\n\033effigy_challenge_v_5_de" +
       "tail\030\240\017 \001(\0132\031._EffigyChallengeV5DetailH\000" +
-      "B\010\n\006detailB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "B\010\n\006detailB2\n\031emu.grasscutter.net.protoB" +
+      "\025NJJOELKDNFNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.EffigyChallengeV5Detail.getDescriptor(),
-          emu.grasscutter.net.proto.TowerChallengeDetail.getDescriptor(),
+          emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._TowerChallengeDetailOuterClass.getDescriptor(),
         });
     internal_static_NJJOELKDNFN_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1066,8 +1066,8 @@ public final class NJJOELKDNFNOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_NJJOELKDNFN_descriptor,
         new java.lang.String[] { "LevelId", "TowerChallengeDetail", "EffigyChallengeV5Detail", "Detail", });
-    emu.grasscutter.net.proto.EffigyChallengeV5Detail.getDescriptor();
-    emu.grasscutter.net.proto.TowerChallengeDetail.getDescriptor();
+    emu.grasscutter.net.proto._EffigyChallengeV5DetailOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._TowerChallengeDetailOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

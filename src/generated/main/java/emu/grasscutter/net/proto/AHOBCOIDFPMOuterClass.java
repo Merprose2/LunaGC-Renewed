@@ -660,8 +660,8 @@ public final class AHOBCOIDFPMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AHOBCOIDFPM.proto\"D\n\013AHOBCOIDFPM\022\023\n\013GJ" +
       "BPPNKEHCH\030\004 \001(\010\022\023\n\013FFEACABLPAI\030\010 \001(\010\022\013\n\003" +
-      "uid\030\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "uid\030\013 \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "AHOBCOIDFPMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

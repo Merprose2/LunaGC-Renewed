@@ -737,8 +737,9 @@ public final class HCJDGDGMCDEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HCJDGDGMCDE.proto\"]\n\013HCJDGDGMCDE\022\020\n\010le" +
       "vel_id\030\003 \001(\r\022\023\n\013IDKDJKNAPLE\030\005 \001(\010\022\022\n\ndif" +
-      "ficulty\030\006 \001(\r\022\023\n\013EKLLGJEHJPA\030\013 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ficulty\030\006 \001(\r\022\023\n\013EKLLGJEHJPA\030\013 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025HCJDGDGMCDEOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

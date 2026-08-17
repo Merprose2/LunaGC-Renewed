@@ -913,8 +913,9 @@ public final class YsCustomOuterClass {
       "\n\016YsCustom.proto\"\204\001\n\010YsCustom\022\026\n\tis_mask" +
       "ed\030\001 \001(\010H\000\210\001\001\022\027\n\nvalue_mask\030\002 \001(\tH\001\210\001\001\022\031" +
       "\n\014value_unmask\030\003 \001(\tH\002\210\001\001B\014\n\n_is_maskedB" +
-      "\r\n\013_value_maskB\017\n\r_value_unmaskB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\r\n\013_value_maskB\017\n\r_value_unmaskB/\n\031emu.g" +
+      "rasscutter.net.protoB\022YsCustomOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

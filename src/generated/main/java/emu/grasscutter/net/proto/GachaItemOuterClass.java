@@ -1543,8 +1543,9 @@ public final class GachaItemOuterClass {
       "OPKAGENK\030\002 \001(\010\022\023\n\013HGLOHNJBDCJ\030\003 \001(\010\022\036\n\ng" +
       "acha_item\030\005 \001(\0132\n.ItemParam\022*\n\016transfer_" +
       "items\030\010 \003(\0132\022.GachaTransferItem\022#\n\017token" +
-      "_item_list\030\r \003(\0132\n.ItemParamB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "_item_list\030\r \003(\0132\n.ItemParamB0\n\031emu.gras" +
+      "scutter.net.protoB\023GachaItemOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

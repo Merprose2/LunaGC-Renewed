@@ -696,8 +696,9 @@ public final class GCGMsgSelectOnStageOuterClass {
       "\n\031GCGMsgSelectOnStage.proto\032\017GCGReason.p" +
       "roto\"[\n\023GCGMsgSelectOnStage\022\025\n\rcontrolle" +
       "r_id\030\004 \001(\r\022\021\n\tcard_guid\030\007 \001(\r\022\032\n\006reason\030" +
-      "\t \001(\0162\n.GCGReasonB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\t \001(\0162\n.GCGReasonB:\n\031emu.grasscutter.net" +
+      ".protoB\035GCGMsgSelectOnStageOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

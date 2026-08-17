@@ -793,8 +793,8 @@ public final class AOKABIHCEHLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AOKABIHCEHL.proto\"D\n\013AOKABIHCEHL\022\022\n\naf" +
       "fix_list\030\003 \003(\r\022\020\n\010level_id\030\005 \001(\r\022\017\n\007game" +
-      "_id\030\r \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\r \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "AOKABIHCEHLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

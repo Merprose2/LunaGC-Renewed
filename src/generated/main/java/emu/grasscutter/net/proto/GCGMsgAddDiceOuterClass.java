@@ -1650,7 +1650,8 @@ public final class GCGMsgAddDiceOuterClass {
       "\022\013\n\003key\030\001 \001(\r\022\037\n\005value\030\002 \001(\0162\020.GCGDiceSi" +
       "deType:\0028\001\032D\n\020AFMKPDNKCABEntry\022\013\n\003key\030\001 " +
       "\001(\r\022\037\n\005value\030\002 \001(\0162\020.GCGDiceSideType:\0028\001" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B4\n\031emu.grasscutter.net.protoB\027GCGMsgAdd" +
+      "DiceOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

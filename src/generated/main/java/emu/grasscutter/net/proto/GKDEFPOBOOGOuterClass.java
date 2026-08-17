@@ -595,8 +595,9 @@ public final class GKDEFPOBOOGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GKDEFPOBOOG.proto\".\n\013GKDEFPOBOOG\022\017\n\007it" +
-      "em_id\030\004 \001(\r\022\016\n\006pos_id\030\005 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "em_id\030\004 \001(\r\022\016\n\006pos_id\030\005 \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025GKDEFPOBOOGOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

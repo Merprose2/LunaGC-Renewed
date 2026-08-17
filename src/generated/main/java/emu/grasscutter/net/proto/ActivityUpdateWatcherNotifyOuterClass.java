@@ -730,8 +730,9 @@ public final class ActivityUpdateWatcherNotifyOuterClass {
       "\n!ActivityUpdateWatcherNotify.proto\032\031Act" +
       "ivityWatcherInfo.proto\"^\n\033ActivityUpdate" +
       "WatcherNotify\022\023\n\013activity_id\030\002 \001(\r\022*\n\014wa" +
-      "tcher_info\030\003 \001(\0132\024.ActivityWatcherInfoB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "tcher_info\030\003 \001(\0132\024.ActivityWatcherInfoBB" +
+      "\n\031emu.grasscutter.net.protoB%ActivityUpd" +
+      "ateWatcherNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

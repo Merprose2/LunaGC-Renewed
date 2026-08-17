@@ -694,8 +694,9 @@ public final class OPKHBBNDHMEOuterClass {
       "_BEYOND_INTERRUPT_DUNGEON_SERVER_LIMIT\020\001" +
       "\0226\n2MNPJJFCFEDI_BEYOND_INTERRUPT_DUNGEON" +
       "_PENALTY_SCORE\020\002\022<\n8MNPJJFCFEDI_BEYOND_I" +
-      "NTERRUPT_DUNGEON_SERVER_MEMORY_LIMIT\020\003B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "NTERRUPT_DUNGEON_SERVER_MEMORY_LIMIT\020\003B2" +
+      "\n\031emu.grasscutter.net.protoB\025OPKHBBNDHME" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

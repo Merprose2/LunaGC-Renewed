@@ -880,7 +880,8 @@ public final class SumoDungeonSettleNotifyOuterClass {
       "(\r\022\030\n\020kill_monster_num\030\004 \001(\r\022\020\n\010stage_id" +
       "\030\007 \001(\r\022\023\n\013final_score\030\010 \001(\r\022\036\n\026kill_elit" +
       "e_monster_num\030\014 \001(\r\022\025\n\ris_new_record\030\016 \001" +
-      "(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\010B>\n\031emu.grasscutter.net.protoB!SumoDun" +
+      "geonSettleNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -939,8 +939,8 @@ public final class KFHDBBONOKCOuterClass {
       "\n\021KFHDBBONOKC.proto\032\021LLMBEOCEKJO.proto\032\021" +
       "OEBOGFHAHGB.proto\"O\n\013KFHDBBONOKC\022!\n\013KFHM" +
       "KCCLFIE\030\001 \003(\0132\014.OEBOGFHAHGB\022\035\n\007op_type\030\002" +
-      " \001(\0162\014.LLMBEOCEKJOB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      " \001(\0162\014.LLMBEOCEKJOB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025KFHDBBONOKCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

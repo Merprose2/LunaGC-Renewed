@@ -723,8 +723,9 @@ public final class JGGGGCPPBPMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JGGGGCPPBPM.proto\"0\n\013JGGGGCPPBPM\022\014\n\004gu" +
-      "id\030\001 \001(\004\022\023\n\013EBPKFDENOLA\030\t \003(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "id\030\001 \001(\004\022\023\n\013EBPKFDENOLA\030\t \003(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025JGGGGCPPBPMOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

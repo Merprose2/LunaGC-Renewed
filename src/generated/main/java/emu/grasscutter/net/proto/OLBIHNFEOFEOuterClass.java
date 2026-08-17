@@ -454,8 +454,9 @@ public final class OLBIHNFEOFEOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021OLBIHNFEOFE.proto\"\r\n\013OLBIHNFEOFEB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021OLBIHNFEOFE.proto\"\r\n\013OLBIHNFEOFEB2\n\031em" +
+      "u.grasscutter.net.protoB\025OLBIHNFEOFEOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

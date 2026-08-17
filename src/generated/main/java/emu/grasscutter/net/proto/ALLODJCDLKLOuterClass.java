@@ -454,8 +454,9 @@ public final class ALLODJCDLKLOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021ALLODJCDLKL.proto\"\r\n\013ALLODJCDLKLB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021ALLODJCDLKL.proto\"\r\n\013ALLODJCDLKLB2\n\031em" +
+      "u.grasscutter.net.protoB\025ALLODJCDLKLOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

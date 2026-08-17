@@ -1422,8 +1422,8 @@ public final class PNIOCBKIGEOOuterClass {
       "\001\n\013PNIOCBKIGEO\022!\n\013KICNHIKHEMG\030\001 \001(\0132\014.GB" +
       "DPBGJBKBK\022\023\n\013DEKHPIEMJGF\030\002 \003(\002\022!\n\013JOHLME" +
       "OCLDB\030\003 \003(\0132\014.GBDPBGJBKBK\022!\n\013LDHKINIABIJ" +
-      "\030\004 \001(\0132\014.GBDPBGJBKBKB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\030\004 \001(\0132\014.GBDPBGJBKBKB2\n\031emu.grasscutter." +
+      "net.protoB\025PNIOCBKIGEOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

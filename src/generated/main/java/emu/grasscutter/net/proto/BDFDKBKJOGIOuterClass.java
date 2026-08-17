@@ -595,8 +595,9 @@ public final class BDFDKBKJOGIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BDFDKBKJOGI.proto\"4\n\013BDFDKBKJOGI\022\023\n\013GL" +
-      "CLEPCEDIJ\030\003 \001(\r\022\020\n\010group_id\030\014 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "CLEPCEDIJ\030\003 \001(\r\022\020\n\010group_id\030\014 \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025BDFDKBKJOGIOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

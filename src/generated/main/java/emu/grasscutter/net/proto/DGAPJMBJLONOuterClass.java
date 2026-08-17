@@ -872,8 +872,8 @@ public final class DGAPJMBJLONOuterClass {
       "\n\021DGAPJMBJLON.proto\032\021HHEDHCFPEKM.proto\"X" +
       "\n\013DGAPJMBJLON\022\024\n\013NEOIJCECHNB\030\365\003 \001(\r\022\024\n\013H" +
       "CFLNIGMINO\030\366\003 \001(\t\022\035\n\006offset\030\367\003 \001(\0132\014.HHE" +
-      "DHCFPEKMB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "DHCFPEKMB2\n\031emu.grasscutter.net.protoB\025D" +
+      "GAPJMBJLONOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

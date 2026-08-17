@@ -964,8 +964,8 @@ public final class BALOILHJNOMOuterClass {
       "\n\021BALOILHJNOM.proto\032\017ItemParam.proto\"X\n\013" +
       "BALOILHJNOM\022\023\n\013LKKPIDBEGLJ\030\001 \001(\r\022\037\n\013DIPK" +
       "OJEDPJL\030\004 \003(\0132\n.ItemParam\022\023\n\013JIOINBLPGEM" +
-      "\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025BAL" +
+      "OILHJNOMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

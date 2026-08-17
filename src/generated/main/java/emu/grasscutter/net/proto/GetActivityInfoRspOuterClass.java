@@ -1471,7 +1471,8 @@ public final class GetActivityInfoRspOuterClass {
       "\017\n\007retcode\030\006 \001(\005\022)\n\022activity_info_list\030\013" +
       " \003(\0132\r.ActivityInfo\022<\n\'disable_transfer_" +
       "point_interaction_list\030\014 \003(\0132\013.Uint32Pai" +
-      "rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "rB9\n\031emu.grasscutter.net.protoB\034GetActiv" +
+      "ityInfoRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

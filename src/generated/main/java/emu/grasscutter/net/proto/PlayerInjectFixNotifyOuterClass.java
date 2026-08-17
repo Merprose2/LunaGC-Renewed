@@ -600,8 +600,8 @@ public final class PlayerInjectFixNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033PlayerInjectFixNotify.proto\"7\n\025PlayerI" +
       "njectFixNotify\022\n\n\002id\030\005 \001(\r\022\022\n\ninject_fix" +
-      "\030\013 \001(\014B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\013 \001(\014B<\n\031emu.grasscutter.net.protoB\037Pla" +
+      "yerInjectFixNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

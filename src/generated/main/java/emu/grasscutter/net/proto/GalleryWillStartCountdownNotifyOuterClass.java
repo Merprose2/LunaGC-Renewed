@@ -776,8 +776,9 @@ public final class GalleryWillStartCountdownNotifyOuterClass {
       "\030GalleryStartSource.proto\"\202\001\n\037GalleryWil" +
       "lStartCountdownNotify\022\020\n\010end_time\030\007 \001(\r\022" +
       "\022\n\ngallery_id\030\010 \001(\r\022\016\n\006is_end\030\t \001(\010\022)\n\014s" +
-      "tart_source\030\r \001(\0162\023.GalleryStartSourceB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "tart_source\030\r \001(\0162\023.GalleryStartSourceBF" +
+      "\n\031emu.grasscutter.net.protoB)GalleryWill" +
+      "StartCountdownNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

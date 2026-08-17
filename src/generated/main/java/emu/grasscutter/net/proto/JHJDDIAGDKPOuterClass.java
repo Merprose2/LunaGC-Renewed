@@ -1035,8 +1035,8 @@ public final class JHJDDIAGDKPOuterClass {
       "_task_id_list\030\003 \003(\r\022(\n\022_flower_land_stat" +
       "e\030\005 \001(\0162\014.AEAHCAPAOBI\022\030\n\020current_stage_i" +
       "d\030\010 \001(\r\022\031\n\021next_refresh_time\030\013 \001(\r\022\030\n\020_c" +
-      "urrent_task_id\030\017 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "urrent_task_id\030\017 \001(\rB2\n\031emu.grasscutter." +
+      "net.protoB\025JHJDDIAGDKPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -596,8 +596,8 @@ public final class PlayerQuitDungeonRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032PlayerQuitDungeonRsp.proto\"9\n\024PlayerQu" +
       "itDungeonRsp\022\020\n\010point_id\030\007 \001(\r\022\017\n\007retcod" +
-      "e\030\016 \001(\005B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "e\030\016 \001(\005B;\n\031emu.grasscutter.net.protoB\036Pl" +
+      "ayerQuitDungeonRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

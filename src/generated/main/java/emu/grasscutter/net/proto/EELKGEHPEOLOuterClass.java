@@ -1674,7 +1674,8 @@ public final class EELKGEHPEOLOuterClass {
       "\r\022\023\n\013MBCEBOONOED\030\006 \001(\002\022\023\n\013DAIKCJKFELO\030\007 " +
       "\001(\002\022\023\n\013CDPCEOCEJGK\030\010 \001(\010\022\r\n\004name\030\365\003 \001(\t\022" +
       "\022\n\tis_active\030\366\003 \001(\010\022\024\n\013GCHKKLBGFMD\030\367\003 \001(" +
-      "\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\010B2\n\031emu.grasscutter.net.protoB\025EELKGEHP" +
+      "EOLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

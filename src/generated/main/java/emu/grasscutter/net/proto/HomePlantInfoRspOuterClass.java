@@ -902,8 +902,8 @@ public final class HomePlantInfoRspOuterClass {
       "\n\026HomePlantInfoRsp.proto\032\030HomePlantField" +
       "Data.proto\"L\n\020HomePlantInfoRsp\022\'\n\nfield_" +
       "list\030\007 \003(\0132\023.HomePlantFieldData\022\017\n\007retco" +
-      "de\030\t \001(\005B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "de\030\t \001(\005B7\n\031emu.grasscutter.net.protoB\032H" +
+      "omePlantInfoRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

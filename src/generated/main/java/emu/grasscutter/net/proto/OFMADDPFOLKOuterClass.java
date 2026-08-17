@@ -799,8 +799,9 @@ public final class OFMADDPFOLKOuterClass {
       "\n\021OFMADDPFOLK.proto\"x\n\013OFMADDPFOLK\022\021\n\tav" +
       "atar_id\030\001 \001(\r\022\r\n\005level\030\002 \001(\r\022\022\n\ncostume_" +
       "id\030\003 \001(\r\022\025\n\r_talent_level\030\004 \001(\r\022\034\n\024_avat" +
-      "ar_element_type\030\005 \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "ar_element_type\030\005 \001(\rB2\n\031emu.grasscutter" +
+      ".net.protoB\025OFMADDPFOLKOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

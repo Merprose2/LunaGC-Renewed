@@ -1527,8 +1527,9 @@ public final class HADLAPMOMCAOuterClass {
       " \001(\002\022\023\n\013AJCMOHGEAEG\030\010 \001(\010\022\023\n\013OPGEHDNAGHP" +
       "\030\t \001(\010\022\023\n\013IKFLKHFBMEA\030\024 \001(\005\022!\n\013FLKOHHONI" +
       "DA\030\025 \001(\0162\014.JEOKDCIGCFP\022\023\n\013HMEIJMEPHKM\030\027 " +
-      "\001(\002\022\023\n\013KCKIOBBHNCI\030\030 \001(\002B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\001(\002\022\023\n\013KCKIOBBHNCI\030\030 \001(\002B2\n\031emu.grasscut" +
+      "ter.net.protoB\025HADLAPMOMCAOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

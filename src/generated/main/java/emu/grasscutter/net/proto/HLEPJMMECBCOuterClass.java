@@ -152,8 +152,9 @@ public final class HLEPJMMECBCOuterClass {
       "\n\021HLEPJMMECBC.proto*z\n\013HLEPJMMECBC\022\024\n\020HL" +
       "EPJMMECBC_NONE\020\000\022\031\n\025HLEPJMMECBC_RANK_LIS" +
       "T\020\001\022\024\n\020HLEPJMMECBC_TIER\020\002\022$\n HLEPJMMECBC" +
-      "_PLATINUM_ACHIEVEMENT\020\003B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "_PLATINUM_ACHIEVEMENT\020\003B2\n\031emu.grasscutt" +
+      "er.net.protoB\025HLEPJMMECBCOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

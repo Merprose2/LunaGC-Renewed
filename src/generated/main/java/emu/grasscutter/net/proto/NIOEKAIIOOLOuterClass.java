@@ -722,8 +722,9 @@ public final class NIOEKAIIOOLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NIOEKAIIOOL.proto\032\021GLHICJGJDLP.proto\"@" +
       "\n\013NIOEKAIIOOL\022\016\n\006is_end\030\n \001(\010\022!\n\013CCLKFDP" +
-      "OFML\030\016 \001(\0132\014.GLHICJGJDLPB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "OFML\030\016 \001(\0132\014.GLHICJGJDLPB2\n\031emu.grasscut" +
+      "ter.net.protoB\025NIOEKAIIOOLOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

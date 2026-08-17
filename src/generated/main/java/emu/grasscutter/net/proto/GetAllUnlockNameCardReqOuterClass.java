@@ -455,8 +455,9 @@ public final class GetAllUnlockNameCardReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035GetAllUnlockNameCardReq.proto\"\031\n\027GetAl" +
-      "lUnlockNameCardReqB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "lUnlockNameCardReqB>\n\031emu.grasscutter.ne" +
+      "t.protoB!GetAllUnlockNameCardReqOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

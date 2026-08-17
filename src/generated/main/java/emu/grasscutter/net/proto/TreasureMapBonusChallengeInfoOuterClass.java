@@ -1059,8 +1059,9 @@ public final class TreasureMapBonusChallengeInfoOuterClass {
       "ve\030\010 \001(\010\022E\n\014fragment_map\030\t \003(\0132/.Treasur" +
       "eMapBonusChallengeInfo.FragmentMapEntry\022" +
       "\021\n\tconfig_id\030\n \001(\r\0322\n\020FragmentMapEntry\022\013" +
-      "\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\010:\0028\001B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\010:\0028\001BD\n\031emu.gr" +
+      "asscutter.net.protoB\'TreasureMapBonusCha" +
+      "llengeInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

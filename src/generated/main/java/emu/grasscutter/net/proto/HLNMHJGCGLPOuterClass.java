@@ -659,7 +659,8 @@ public final class HLNMHJGCGLPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HLNMHJGCGLP.proto\032\021GEJNGDNEPLP.proto\")" +
       "\n\013HLNMHJGCGLP\022\032\n\004info\030\003 \001(\0132\014.GEJNGDNEPL" +
-      "PB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "PB2\n\031emu.grasscutter.net.protoB\025HLNMHJGC" +
+      "GLPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1191,7 +1191,8 @@ public final class IrodoriPoetryThemeDataOuterClass {
       "\n\013FECKJOJEHCH\030\006 \001(\r\022\023\n\013AEHBFKFAAJB\030\n \001(\r" +
       "\022\023\n\013EGEJCLMEEIO\030\013 \003(\r\022\023\n\013JKBNGDCEFOB\030\014 \003" +
       "(\r\022\020\n\010progress\030\r \001(\r\022\024\n\014max_progress\030\017 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB=\n\031emu.grasscutter.net.protoB Irodori" +
+      "PoetryThemeDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

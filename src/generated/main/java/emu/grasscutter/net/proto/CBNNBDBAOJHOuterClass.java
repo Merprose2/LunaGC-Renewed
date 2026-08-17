@@ -901,8 +901,9 @@ public final class CBNNBDBAOJHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CBNNBDBAOJH.proto\032\021CKKMPKBFBDP.proto\"I" +
       "\n\013CBNNBDBAOJH\022\027\n\017parent_quest_id\030\007 \001(\r\022!" +
-      "\n\013GFFBOKNBJLC\030\014 \003(\0132\014.CKKMPKBFBDPB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\n\013GFFBOKNBJLC\030\014 \003(\0132\014.CKKMPKBFBDPB2\n\031emu" +
+      ".grasscutter.net.protoB\025CBNNBDBAOJHOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

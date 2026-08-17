@@ -596,8 +596,9 @@ public final class NMOIEKCBPMOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NMOIEKCBPMO.proto\"7\n\013NMOIEKCBPMO\022\023\n\013_l" +
-      "evel_guid\030\007 \001(\004\022\023\n\013activity_id\030\016 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "evel_guid\030\007 \001(\004\022\023\n\013activity_id\030\016 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025NMOIEKCBPMOOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

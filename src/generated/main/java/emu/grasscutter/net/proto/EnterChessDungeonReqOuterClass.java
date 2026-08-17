@@ -525,8 +525,9 @@ public final class EnterChessDungeonReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032EnterChessDungeonReq.proto\"&\n\024EnterChe" +
-      "ssDungeonReq\022\016\n\006map_id\030\007 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "ssDungeonReq\022\016\n\006map_id\030\007 \001(\rB;\n\031emu.gras" +
+      "scutter.net.protoB\036EnterChessDungeonReqO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

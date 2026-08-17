@@ -963,8 +963,8 @@ public final class NKLFGFAHFJIOuterClass {
       "DBAJMCNJIDP.proto\"v\n\013NKLFGFAHFJI\022!\n\013NEFI" +
       "KKMJGIO\030\004 \001(\0132\014.DBAJMCNJIDP\022!\n\013GHFAJFGFB" +
       "LH\030\005 \001(\0132\014.DBAJMCNJIDP\022!\n\013LEEFIBCPMLJ\030\007 " +
-      "\001(\0162\014.ChatChannelB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\001(\0162\014.ChatChannelB2\n\031emu.grasscutter.net" +
+      ".protoB\025NKLFGFAHFJIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

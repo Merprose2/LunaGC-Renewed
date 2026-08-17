@@ -902,8 +902,9 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       "\n#ClientAbilityInitFinishNotify.proto\032\030A" +
       "bilityInvokeEntry.proto\"X\n\035ClientAbility" +
       "InitFinishNotify\022\021\n\tentity_id\030\n \001(\r\022$\n\007i" +
-      "nvokes\030\017 \003(\0132\023.AbilityInvokeEntryB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "nvokes\030\017 \003(\0132\023.AbilityInvokeEntryBD\n\031emu" +
+      ".grasscutter.net.protoB\'ClientAbilityIni" +
+      "tFinishNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

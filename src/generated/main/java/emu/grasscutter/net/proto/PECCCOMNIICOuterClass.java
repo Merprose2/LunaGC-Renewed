@@ -595,8 +595,9 @@ public final class PECCCOMNIICOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PECCCOMNIIC.proto\"*\n\013PECCCOMNIIC\022\n\n\002id" +
-      "\030\006 \001(\r\022\017\n\007retcode\030\n \001(\005B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\030\006 \001(\r\022\017\n\007retcode\030\n \001(\005B2\n\031emu.grasscutt" +
+      "er.net.protoB\025PECCCOMNIICOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

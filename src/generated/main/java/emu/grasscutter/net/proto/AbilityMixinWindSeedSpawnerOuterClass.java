@@ -2927,8 +2927,9 @@ public final class AbilityMixinWindSeedSpawnerOuterClass {
       "ixinWindSeedSpawner.CatchSeedH\000\032\013\n\tAddSi" +
       "gnal\032(\n\013RefreshSeed\022\031\n\010pos_list\030\016 \003(\0132\007." +
       "Vector\032\036\n\tCatchSeed\022\021\n\tentity_id\030\004 \001(\rB\005" +
-      "\n\003cmdB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\n\003cmdBB\n\031emu.grasscutter.net.protoB%Abil" +
+      "ityMixinWindSeedSpawnerOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

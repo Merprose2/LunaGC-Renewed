@@ -1399,8 +1399,9 @@ public final class INAHCNIOBDJOuterClass {
       "\n\021INAHCNIOBDJ.proto\032\021KFGLINJHAHB.proto\"v" +
       "\n\013INAHCNIOBDJ\022!\n\013NOEHDLIFNEL\030\001 \003(\0132\014.KFG" +
       "LINJHAHB\022!\n\013ENBBKHIAGIK\030\002 \001(\0132\014.KFGLINJH" +
-      "AHB\022!\n\013BNDBPOKEEGI\030\003 \003(\0132\014.KFGLINJHAHBB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "AHB\022!\n\013BNDBPOKEEGI\030\003 \003(\0132\014.KFGLINJHAHBB2" +
+      "\n\031emu.grasscutter.net.protoB\025INAHCNIOBDJ" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -19,28 +19,10 @@ public final class _ShortVideoDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
+     * <code>bytes _vote_record_list = 6;</code>
+     * @return The voteRecordList.
      */
-    java.util.List<emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord> 
-        getVoteRecordListList();
-    /**
-     * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-     */
-    emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord getVoteRecordList(int index);
-    /**
-     * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-     */
-    int getVoteRecordListCount();
-    /**
-     * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecordOrBuilder> 
-        getVoteRecordListOrBuilderList();
-    /**
-     * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-     */
-    emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecordOrBuilder getVoteRecordListOrBuilder(
-        int index);
+    com.google.protobuf.ByteString getVoteRecordList();
 
     /**
      * <code>repeated ._ShortVideoLevelData level_data_list = 8;</code>
@@ -79,7 +61,7 @@ public final class _ShortVideoDetailInfoOuterClass {
       super(builder);
     }
     private _ShortVideoDetailInfo() {
-      VoteRecordList_ = java.util.Collections.emptyList();
+      VoteRecordList_ = com.google.protobuf.ByteString.EMPTY;
       levelDataList_ = java.util.Collections.emptyList();
     }
 
@@ -115,18 +97,14 @@ public final class _ShortVideoDetailInfoOuterClass {
               done = true;
               break;
             case 50: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                VoteRecordList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              VoteRecordList_.add(
-                  input.readMessage(emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord.parser(), extensionRegistry));
+
+              VoteRecordList_ = input.readBytes();
               break;
             }
             case 66: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ShortVideoLevelDataOuterClass._ShortVideoLevelData>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               levelDataList_.add(
                   input.readMessage(emu.grasscutter.net.proto._ShortVideoLevelDataOuterClass._ShortVideoLevelData.parser(), extensionRegistry));
@@ -148,9 +126,6 @@ public final class _ShortVideoDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          VoteRecordList_ = java.util.Collections.unmodifiableList(VoteRecordList_);
-        }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
           levelDataList_ = java.util.Collections.unmodifiableList(levelDataList_);
         }
         this.unknownFields = unknownFields.build();
@@ -171,43 +146,14 @@ public final class _ShortVideoDetailInfoOuterClass {
     }
 
     public static final int _VOTE_RECORD_LIST_FIELD_NUMBER = 6;
-    private java.util.List<emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord> VoteRecordList_;
+    private com.google.protobuf.ByteString VoteRecordList_;
     /**
-     * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
+     * <code>bytes _vote_record_list = 6;</code>
+     * @return The voteRecordList.
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord> getVoteRecordListList() {
+    public com.google.protobuf.ByteString getVoteRecordList() {
       return VoteRecordList_;
-    }
-    /**
-     * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-     */
-    @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecordOrBuilder> 
-        getVoteRecordListOrBuilderList() {
-      return VoteRecordList_;
-    }
-    /**
-     * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-     */
-    @java.lang.Override
-    public int getVoteRecordListCount() {
-      return VoteRecordList_.size();
-    }
-    /**
-     * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord getVoteRecordList(int index) {
-      return VoteRecordList_.get(index);
-    }
-    /**
-     * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecordOrBuilder getVoteRecordListOrBuilder(
-        int index) {
-      return VoteRecordList_.get(index);
     }
 
     public static final int LEVEL_DATA_LIST_FIELD_NUMBER = 8;
@@ -264,8 +210,8 @@ public final class _ShortVideoDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < VoteRecordList_.size(); i++) {
-        output.writeMessage(6, VoteRecordList_.get(i));
+      if (!VoteRecordList_.isEmpty()) {
+        output.writeBytes(6, VoteRecordList_);
       }
       for (int i = 0; i < levelDataList_.size(); i++) {
         output.writeMessage(8, levelDataList_.get(i));
@@ -279,9 +225,9 @@ public final class _ShortVideoDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < VoteRecordList_.size(); i++) {
+      if (!VoteRecordList_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, VoteRecordList_.get(i));
+          .computeBytesSize(6, VoteRecordList_);
       }
       for (int i = 0; i < levelDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -302,8 +248,8 @@ public final class _ShortVideoDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto._ShortVideoDetailInfoOuterClass._ShortVideoDetailInfo other = (emu.grasscutter.net.proto._ShortVideoDetailInfoOuterClass._ShortVideoDetailInfo) obj;
 
-      if (!getVoteRecordListList()
-          .equals(other.getVoteRecordListList())) return false;
+      if (!getVoteRecordList()
+          .equals(other.getVoteRecordList())) return false;
       if (!getLevelDataListList()
           .equals(other.getLevelDataListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -317,10 +263,8 @@ public final class _ShortVideoDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getVoteRecordListCount() > 0) {
-        hash = (37 * hash) + _VOTE_RECORD_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getVoteRecordListList().hashCode();
-      }
+      hash = (37 * hash) + _VOTE_RECORD_LIST_FIELD_NUMBER;
+      hash = (53 * hash) + getVoteRecordList().hashCode();
       if (getLevelDataListCount() > 0) {
         hash = (37 * hash) + LEVEL_DATA_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getLevelDataListList().hashCode();
@@ -453,22 +397,17 @@ public final class _ShortVideoDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getVoteRecordListFieldBuilder();
           getLevelDataListFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (VoteRecordListBuilder_ == null) {
-          VoteRecordList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        } else {
-          VoteRecordListBuilder_.clear();
-        }
+        VoteRecordList_ = com.google.protobuf.ByteString.EMPTY;
+
         if (levelDataListBuilder_ == null) {
           levelDataList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           levelDataListBuilder_.clear();
         }
@@ -499,19 +438,11 @@ public final class _ShortVideoDetailInfoOuterClass {
       public emu.grasscutter.net.proto._ShortVideoDetailInfoOuterClass._ShortVideoDetailInfo buildPartial() {
         emu.grasscutter.net.proto._ShortVideoDetailInfoOuterClass._ShortVideoDetailInfo result = new emu.grasscutter.net.proto._ShortVideoDetailInfoOuterClass._ShortVideoDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (VoteRecordListBuilder_ == null) {
-          if (((bitField0_ & 0x00000001) != 0)) {
-            VoteRecordList_ = java.util.Collections.unmodifiableList(VoteRecordList_);
-            bitField0_ = (bitField0_ & ~0x00000001);
-          }
-          result.VoteRecordList_ = VoteRecordList_;
-        } else {
-          result.VoteRecordList_ = VoteRecordListBuilder_.build();
-        }
+        result.VoteRecordList_ = VoteRecordList_;
         if (levelDataListBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) != 0)) {
+          if (((bitField0_ & 0x00000001) != 0)) {
             levelDataList_ = java.util.Collections.unmodifiableList(levelDataList_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.levelDataList_ = levelDataList_;
         } else {
@@ -565,37 +496,14 @@ public final class _ShortVideoDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto._ShortVideoDetailInfoOuterClass._ShortVideoDetailInfo other) {
         if (other == emu.grasscutter.net.proto._ShortVideoDetailInfoOuterClass._ShortVideoDetailInfo.getDefaultInstance()) return this;
-        if (VoteRecordListBuilder_ == null) {
-          if (!other.VoteRecordList_.isEmpty()) {
-            if (VoteRecordList_.isEmpty()) {
-              VoteRecordList_ = other.VoteRecordList_;
-              bitField0_ = (bitField0_ & ~0x00000001);
-            } else {
-              ensureVoteRecordListIsMutable();
-              VoteRecordList_.addAll(other.VoteRecordList_);
-            }
-            onChanged();
-          }
-        } else {
-          if (!other.VoteRecordList_.isEmpty()) {
-            if (VoteRecordListBuilder_.isEmpty()) {
-              VoteRecordListBuilder_.dispose();
-              VoteRecordListBuilder_ = null;
-              VoteRecordList_ = other.VoteRecordList_;
-              bitField0_ = (bitField0_ & ~0x00000001);
-              VoteRecordListBuilder_ = 
-                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getVoteRecordListFieldBuilder() : null;
-            } else {
-              VoteRecordListBuilder_.addAllMessages(other.VoteRecordList_);
-            }
-          }
+        if (other.getVoteRecordList() != com.google.protobuf.ByteString.EMPTY) {
+          setVoteRecordList(other.getVoteRecordList());
         }
         if (levelDataListBuilder_ == null) {
           if (!other.levelDataList_.isEmpty()) {
             if (levelDataList_.isEmpty()) {
               levelDataList_ = other.levelDataList_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureLevelDataListIsMutable();
               levelDataList_.addAll(other.levelDataList_);
@@ -608,7 +516,7 @@ public final class _ShortVideoDetailInfoOuterClass {
               levelDataListBuilder_.dispose();
               levelDataListBuilder_ = null;
               levelDataList_ = other.levelDataList_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               levelDataListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getLevelDataListFieldBuilder() : null;
@@ -647,252 +555,46 @@ public final class _ShortVideoDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord> VoteRecordList_ =
-        java.util.Collections.emptyList();
-      private void ensureVoteRecordListIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          VoteRecordList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord>(VoteRecordList_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord, emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord.Builder, emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecordOrBuilder> VoteRecordListBuilder_;
-
+      private com.google.protobuf.ByteString VoteRecordList_ = com.google.protobuf.ByteString.EMPTY;
       /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
+       * <code>bytes _vote_record_list = 6;</code>
+       * @return The voteRecordList.
        */
-      public java.util.List<emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord> getVoteRecordListList() {
-        if (VoteRecordListBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(VoteRecordList_);
-        } else {
-          return VoteRecordListBuilder_.getMessageList();
-        }
+      @java.lang.Override
+      public com.google.protobuf.ByteString getVoteRecordList() {
+        return VoteRecordList_;
       }
       /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
+       * <code>bytes _vote_record_list = 6;</code>
+       * @param value The voteRecordList to set.
+       * @return This builder for chaining.
        */
-      public int getVoteRecordListCount() {
-        if (VoteRecordListBuilder_ == null) {
-          return VoteRecordList_.size();
-        } else {
-          return VoteRecordListBuilder_.getCount();
-        }
-      }
-      /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-       */
-      public emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord getVoteRecordList(int index) {
-        if (VoteRecordListBuilder_ == null) {
-          return VoteRecordList_.get(index);
-        } else {
-          return VoteRecordListBuilder_.getMessage(index);
-        }
-      }
-      /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-       */
-      public Builder setVoteRecordList(
-          int index, emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord value) {
-        if (VoteRecordListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureVoteRecordListIsMutable();
-          VoteRecordList_.set(index, value);
-          onChanged();
-        } else {
-          VoteRecordListBuilder_.setMessage(index, value);
-        }
+      public Builder setVoteRecordList(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        VoteRecordList_ = value;
+        onChanged();
         return this;
       }
       /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-       */
-      public Builder setVoteRecordList(
-          int index, emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord.Builder builderForValue) {
-        if (VoteRecordListBuilder_ == null) {
-          ensureVoteRecordListIsMutable();
-          VoteRecordList_.set(index, builderForValue.build());
-          onChanged();
-        } else {
-          VoteRecordListBuilder_.setMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-       */
-      public Builder addVoteRecordList(emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord value) {
-        if (VoteRecordListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureVoteRecordListIsMutable();
-          VoteRecordList_.add(value);
-          onChanged();
-        } else {
-          VoteRecordListBuilder_.addMessage(value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-       */
-      public Builder addVoteRecordList(
-          int index, emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord value) {
-        if (VoteRecordListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureVoteRecordListIsMutable();
-          VoteRecordList_.add(index, value);
-          onChanged();
-        } else {
-          VoteRecordListBuilder_.addMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-       */
-      public Builder addVoteRecordList(
-          emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord.Builder builderForValue) {
-        if (VoteRecordListBuilder_ == null) {
-          ensureVoteRecordListIsMutable();
-          VoteRecordList_.add(builderForValue.build());
-          onChanged();
-        } else {
-          VoteRecordListBuilder_.addMessage(builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-       */
-      public Builder addVoteRecordList(
-          int index, emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord.Builder builderForValue) {
-        if (VoteRecordListBuilder_ == null) {
-          ensureVoteRecordListIsMutable();
-          VoteRecordList_.add(index, builderForValue.build());
-          onChanged();
-        } else {
-          VoteRecordListBuilder_.addMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-       */
-      public Builder addAllVoteRecordList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord> values) {
-        if (VoteRecordListBuilder_ == null) {
-          ensureVoteRecordListIsMutable();
-          com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, VoteRecordList_);
-          onChanged();
-        } else {
-          VoteRecordListBuilder_.addAllMessages(values);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
+       * <code>bytes _vote_record_list = 6;</code>
+       * @return This builder for chaining.
        */
       public Builder clearVoteRecordList() {
-        if (VoteRecordListBuilder_ == null) {
-          VoteRecordList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-          onChanged();
-        } else {
-          VoteRecordListBuilder_.clear();
-        }
+        
+        VoteRecordList_ = getDefaultInstance().getVoteRecordList();
+        onChanged();
         return this;
-      }
-      /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-       */
-      public Builder removeVoteRecordList(int index) {
-        if (VoteRecordListBuilder_ == null) {
-          ensureVoteRecordListIsMutable();
-          VoteRecordList_.remove(index);
-          onChanged();
-        } else {
-          VoteRecordListBuilder_.remove(index);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-       */
-      public emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord.Builder getVoteRecordListBuilder(
-          int index) {
-        return getVoteRecordListFieldBuilder().getBuilder(index);
-      }
-      /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-       */
-      public emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecordOrBuilder getVoteRecordListOrBuilder(
-          int index) {
-        if (VoteRecordListBuilder_ == null) {
-          return VoteRecordList_.get(index);  } else {
-          return VoteRecordListBuilder_.getMessageOrBuilder(index);
-        }
-      }
-      /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecordOrBuilder> 
-           getVoteRecordListOrBuilderList() {
-        if (VoteRecordListBuilder_ != null) {
-          return VoteRecordListBuilder_.getMessageOrBuilderList();
-        } else {
-          return java.util.Collections.unmodifiableList(VoteRecordList_);
-        }
-      }
-      /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-       */
-      public emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord.Builder addVoteRecordListBuilder() {
-        return getVoteRecordListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord.getDefaultInstance());
-      }
-      /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-       */
-      public emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord.Builder addVoteRecordListBuilder(
-          int index) {
-        return getVoteRecordListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord.getDefaultInstance());
-      }
-      /**
-       * <code>repeated ._ShortVideoVoteRecord _vote_record_list = 6;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord.Builder> 
-           getVoteRecordListBuilderList() {
-        return getVoteRecordListFieldBuilder().getBuilderList();
-      }
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord, emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord.Builder, emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecordOrBuilder> 
-          getVoteRecordListFieldBuilder() {
-        if (VoteRecordListBuilder_ == null) {
-          VoteRecordListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord, emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecord.Builder, emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass._ShortVideoVoteRecordOrBuilder>(
-                  VoteRecordList_,
-                  ((bitField0_ & 0x00000001) != 0),
-                  getParentForChildren(),
-                  isClean());
-          VoteRecordList_ = null;
-        }
-        return VoteRecordListBuilder_;
       }
 
       private java.util.List<emu.grasscutter.net.proto._ShortVideoLevelDataOuterClass._ShortVideoLevelData> levelDataList_ =
         java.util.Collections.emptyList();
       private void ensureLevelDataListIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
+        if (!((bitField0_ & 0x00000001) != 0)) {
           levelDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ShortVideoLevelDataOuterClass._ShortVideoLevelData>(levelDataList_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
 
@@ -1042,7 +744,7 @@ public final class _ShortVideoDetailInfoOuterClass {
       public Builder clearLevelDataList() {
         if (levelDataListBuilder_ == null) {
           levelDataList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           levelDataListBuilder_.clear();
@@ -1119,7 +821,7 @@ public final class _ShortVideoDetailInfoOuterClass {
           levelDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               emu.grasscutter.net.proto._ShortVideoLevelDataOuterClass._ShortVideoLevelData, emu.grasscutter.net.proto._ShortVideoLevelDataOuterClass._ShortVideoLevelData.Builder, emu.grasscutter.net.proto._ShortVideoLevelDataOuterClass._ShortVideoLevelDataOrBuilder>(
                   levelDataList_,
-                  ((bitField0_ & 0x00000002) != 0),
+                  ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
           levelDataList_ = null;
@@ -1194,18 +896,16 @@ public final class _ShortVideoDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033_ShortVideoDetailInfo.proto\032\032_ShortVid" +
-      "eoLevelData.proto\032\033_ShortVideoVoteRecord" +
-      ".proto\"z\n\025_ShortVideoDetailInfo\0221\n\021_vote" +
-      "_record_list\030\006 \003(\0132\026._ShortVideoVoteReco" +
-      "rd\022.\n\017level_data_list\030\010 \003(\0132\025._ShortVide" +
-      "oLevelDataB<\n\031emu.grasscutter.net.protoB" +
-      "\037_ShortVideoDetailInfoOuterClassb\006proto3"
+      "eoLevelData.proto\"b\n\025_ShortVideoDetailIn" +
+      "fo\022\031\n\021_vote_record_list\030\006 \001(\014\022.\n\017level_d" +
+      "ata_list\030\010 \003(\0132\025._ShortVideoLevelDataB<\n" +
+      "\031emu.grasscutter.net.protoB\037_ShortVideoD" +
+      "etailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto._ShortVideoLevelDataOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass.getDescriptor(),
         });
     internal_static__ShortVideoDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1214,7 +914,6 @@ public final class _ShortVideoDetailInfoOuterClass {
         internal_static__ShortVideoDetailInfo_descriptor,
         new java.lang.String[] { "VoteRecordList", "LevelDataList", });
     emu.grasscutter.net.proto._ShortVideoLevelDataOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._ShortVideoVoteRecordOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

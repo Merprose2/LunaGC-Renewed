@@ -732,7 +732,9 @@ public final class LuminanceStoneChallengeSettleNotifyOuterClass {
       "roto\"r\n#LuminanceStoneChallengeSettleNot" +
       "ify\022\022\n\ngallery_id\030\006 \001(\r\0227\n\013settle_info\030\017" +
       " \001(\0132\".LuminanceStoneChallengeSettleInfo" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "BJ\n\031emu.grasscutter.net.protoB-Luminance" +
+      "StoneChallengeSettleNotifyOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1971,8 +1971,8 @@ public final class KAPILBEHOAMOuterClass {
       "HKCNJLA\030\375\003 \001(\r\022\024\n\013JJKIEKKJAPG\030\376\003 \001(\005\022\024\n\013" +
       "POMNPMDNMMP\030\377\003 \001(\010\022\024\n\013PMMKBJKHCCH\030\200\004 \001(\002" +
       "\022\024\n\013PJHLIMFHOEN\030\201\004 \001(\005\022\"\n\013CNJDDCFDAGD\030\202\004" +
-      " \001(\0132\014.MMLNJCOKEAKB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      " \001(\0132\014.MMLNJCOKEAKB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025KAPILBEHOAMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

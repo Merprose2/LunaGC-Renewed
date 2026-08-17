@@ -2882,8 +2882,8 @@ public final class PGBJGAPLOKAOuterClass {
       "\013 \001(\002\022\023\n\013POGPHDLNFFL\030\014 \003(\005\022!\n\013EEIAPPBGHD" +
       "L\030\r \003(\0162\014.JEOKDCIGCFP\022\024\n\013NMOJEJEBJHH\030\365\003 " +
       "\001(\010\022\024\n\013filter_type\030\367\003 \001(\005\022\024\n\013GKGJFCCNOPM" +
-      "\030\352\007 \001(\010B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "\030\352\007 \001(\010B2\n\031emu.grasscutter.net.protoB\025PG" +
+      "BJGAPLOKAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -133,8 +133,9 @@ public final class PGNIFCMFJBFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PGNIFCMFJBF.proto*U\n\013PGNIFCMFJBF\022\024\n\020PG" +
       "NIFCMFJBF_NONE\020\000\0220\n,PGNIFCMFJBF_GENERICS" +
-      "_SERVER_PARAM_DICTIONARY\020\001B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "_SERVER_PARAM_DICTIONARY\020\001B2\n\031emu.grassc" +
+      "utter.net.protoB\025PGNIFCMFJBFOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

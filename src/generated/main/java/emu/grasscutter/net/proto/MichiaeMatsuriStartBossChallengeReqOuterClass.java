@@ -597,8 +597,9 @@ public final class MichiaeMatsuriStartBossChallengeReqOuterClass {
       "\n)MichiaeMatsuriStartBossChallengeReq.pr" +
       "oto\"S\n#MichiaeMatsuriStartBossChallengeR" +
       "eq\022\022\n\ndifficulty\030\007 \001(\r\022\030\n\020gadget_entity_" +
-      "id\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\014 \001(\rBJ\n\031emu.grasscutter.net.protoB-M" +
+      "ichiaeMatsuriStartBossChallengeReqOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1677,8 +1677,8 @@ public final class KFLOJDHDIJEOuterClass {
       ".KFLOJDHDIJE.EAJPCBECPBA\022\020\n\010level_id\030\017 \001" +
       "(\r\032Y\n\013EAJPCBECPBA\022\013\n\003uid\030\t \001(\r\022\023\n\013world_" +
       "level\030\013 \001(\r\022\023\n\013BDKBPMLHGJB\030\014 \001(\r\022\023\n\013NPEI" +
-      "POGCMGO\030\016 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "POGCMGO\030\016 \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025KFLOJDHDIJEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

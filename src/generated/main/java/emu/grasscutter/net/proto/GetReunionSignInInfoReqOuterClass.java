@@ -526,8 +526,8 @@ public final class GetReunionSignInInfoReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035GetReunionSignInInfoReq.proto\"4\n\027GetRe" +
       "unionSignInInfoReq\022\031\n\021sign_in_config_id\030" +
-      "\001 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\001 \001(\rB>\n\031emu.grasscutter.net.protoB!GetR" +
+      "eunionSignInInfoReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

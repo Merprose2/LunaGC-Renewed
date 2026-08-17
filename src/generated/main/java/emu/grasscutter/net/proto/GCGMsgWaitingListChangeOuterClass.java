@@ -588,8 +588,9 @@ public final class GCGMsgWaitingListChangeOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035GCGMsgWaitingListChange.proto\"C\n\027GCGMs" +
       "gWaitingListChange\022\025\n\rcontroller_id\030\004 \001(" +
-      "\r\022\021\n\tcur_index\030\006 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\r\022\021\n\tcur_index\030\006 \001(\rB>\n\031emu.grasscutter." +
+      "net.protoB!GCGMsgWaitingListChangeOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

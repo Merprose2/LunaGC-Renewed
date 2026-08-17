@@ -587,8 +587,9 @@ public final class PJOLMKFLEBMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PJOLMKFLEBM.proto\"7\n\013PJOLMKFLEBM\022\024\n\014cu" +
-      "r_progress\030\002 \001(\r\022\022\n\nwatcher_id\030\006 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "r_progress\030\002 \001(\r\022\022\n\nwatcher_id\030\006 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025PJOLMKFLEBMOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

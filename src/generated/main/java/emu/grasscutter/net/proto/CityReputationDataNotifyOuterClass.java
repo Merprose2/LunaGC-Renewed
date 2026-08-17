@@ -832,8 +832,9 @@ public final class CityReputationDataNotifyOuterClass {
       "\n\036CityReputationDataNotify.proto\032\036CityRe" +
       "putationSimpleInfo.proto\"O\n\030CityReputati" +
       "onDataNotify\0223\n\020simple_info_list\030\001 \003(\0132\031" +
-      ".CityReputationSimpleInfoB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      ".CityReputationSimpleInfoB?\n\031emu.grasscu" +
+      "tter.net.protoB\"CityReputationDataNotify" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

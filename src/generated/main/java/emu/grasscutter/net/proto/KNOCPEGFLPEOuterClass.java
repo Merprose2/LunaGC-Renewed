@@ -1756,8 +1756,9 @@ public final class KNOCPEGFLPEOuterClass {
       "COKEAK\022\"\n\013OEJGCMPBCEM\030\372\003 \001(\0132\014.MMLNJCOKE" +
       "AK\022\024\n\013ICPIBOIPCEL\030\373\003 \001(\005\022\024\n\013DOKIJHIHAHO\030" +
       "\374\003 \001(\005\022\024\n\013ICPCGMLCGMA\030\375\003 \001(\005\022\024\n\013JMHACOPM" +
-      "OHL\030\376\003 \001(\r\022\024\n\013IFLOALPNLOJ\030\377\003 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "OHL\030\376\003 \001(\r\022\024\n\013IFLOALPNLOJ\030\377\003 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025KNOCPEGFLPEOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

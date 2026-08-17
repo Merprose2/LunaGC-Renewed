@@ -633,8 +633,9 @@ public final class IIBKDICGFGHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IIBKDICGFGH.proto\032\021IGOCLOMNCII.proto\"C" +
       "\n\013IIBKDICGFGH\022\037\n\tplay_type\030\007 \001(\0162\014.IGOCL" +
-      "OMNCII\022\023\n\013FKJBFDGOOPJ\030\016 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "OMNCII\022\023\n\013FKJBFDGOOPJ\030\016 \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025IIBKDICGFGHOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -838,8 +838,9 @@ public final class SceneGalleryHideAndSeekInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n!SceneGalleryHideAndSeekInfo.proto\"G\n\033S" +
       "ceneGalleryHideAndSeekInfo\022\023\n\013HBDMHNJGAO" +
-      "M\030\003 \003(\r\022\023\n\013PABAEPAIGNL\030\007 \003(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "M\030\003 \003(\r\022\023\n\013PABAEPAIGNL\030\007 \003(\rBB\n\031emu.gras" +
+      "scutter.net.protoB%SceneGalleryHideAndSe" +
+      "ekInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

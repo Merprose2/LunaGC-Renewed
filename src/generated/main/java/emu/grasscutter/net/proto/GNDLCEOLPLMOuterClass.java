@@ -517,8 +517,8 @@ public final class GNDLCEOLPLMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GNDLCEOLPLM.proto\"\"\n\013GNDLCEOLPLM\022\023\n\013NP" +
-      "LINLEJJNE\030\r \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "LINLEJJNE\030\r \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025GNDLCEOLPLMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

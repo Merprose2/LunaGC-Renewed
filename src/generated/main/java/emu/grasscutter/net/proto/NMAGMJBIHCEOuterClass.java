@@ -596,8 +596,9 @@ public final class NMAGMJBIHCEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NMAGMJBIHCE.proto\"8\n\013NMAGMJBIHCE\022\022\n\nmp" +
-      "_play_id\030\006 \001(\r\022\025\n\ris_skip_match\030\n \001(\010B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "_play_id\030\006 \001(\r\022\025\n\ris_skip_match\030\n \001(\010B2\n" +
+      "\031emu.grasscutter.net.protoB\025NMAGMJBIHCEO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -659,8 +659,8 @@ public final class LEKHEGFJKFKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LEKHEGFJKFK.proto\"O\n\013LEKHEGFJKFK\022\024\n\013GD" +
       "DOKLKFFNL\030\366\003 \001(\010\022\024\n\013GBPEOHEJKDC\030\367\003 \001(\r\022\024" +
-      "\n\013KOKJKFAJOPC\030\370\003 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\n\013KOKJKFAJOPC\030\370\003 \001(\rB2\n\031emu.grasscutter." +
+      "net.protoB\025LEKHEGFJKFKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

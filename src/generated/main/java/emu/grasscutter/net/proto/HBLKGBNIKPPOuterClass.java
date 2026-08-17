@@ -723,8 +723,9 @@ public final class HBLKGBNIKPPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HBLKGBNIKPP.proto\"9\n\013HBLKGBNIKPP\022\027\n\017eq" +
-      "uip_guid_list\030\010 \003(\004\022\021\n\tis_locked\030\014 \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "uip_guid_list\030\010 \003(\004\022\021\n\tis_locked\030\014 \001(\010B2" +
+      "\n\031emu.grasscutter.net.protoB\025HBLKGBNIKPP" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

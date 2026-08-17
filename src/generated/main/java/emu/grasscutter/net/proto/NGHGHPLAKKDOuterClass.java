@@ -660,8 +660,8 @@ public final class NGHGHPLAKKDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NGHGHPLAKKD.proto\"G\n\013NGHGHPLAKKD\022\016\n\006ke" +
       "y_id\030\001 \001(\r\022\023\n\013_is_claimed\030\013 \001(\010\022\023\n\013is_fi" +
-      "nished\030\017 \001(\010B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "nished\030\017 \001(\010B2\n\031emu.grasscutter.net.prot" +
+      "oB\025NGHGHPLAKKDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

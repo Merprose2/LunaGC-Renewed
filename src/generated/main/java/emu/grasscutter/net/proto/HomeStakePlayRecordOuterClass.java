@@ -894,8 +894,9 @@ public final class HomeStakePlayRecordOuterClass {
       "\n\031HomeStakePlayRecord.proto\032\031HomeGroupPl" +
       "ayerInfo.proto\"`\n\023HomeStakePlayRecord\022\021\n" +
       "\ttimestamp\030\001 \001(\r\0226\n\030engaged_player_info_" +
-      "list\030\004 \003(\0132\024.HomeGroupPlayerInfoB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "list\030\004 \003(\0132\024.HomeGroupPlayerInfoB:\n\031emu." +
+      "grasscutter.net.protoB\035HomeStakePlayReco" +
+      "rdOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

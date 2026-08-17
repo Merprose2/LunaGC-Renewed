@@ -596,8 +596,9 @@ public final class TowerGetFloorStarRewardRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n TowerGetFloorStarRewardRsp.proto\"?\n\032To" +
       "werGetFloorStarRewardRsp\022\017\n\007retcode\030\005 \001(" +
-      "\005\022\020\n\010floor_id\030\014 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\005\022\020\n\010floor_id\030\014 \001(\rBA\n\031emu.grasscutter.n" +
+      "et.protoB$TowerGetFloorStarRewardRspOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

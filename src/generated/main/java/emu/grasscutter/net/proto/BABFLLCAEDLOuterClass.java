@@ -1401,8 +1401,8 @@ public final class BABFLLCAEDLOuterClass {
       "FLLCAEDL\022+\n\013PPENJHKDFHJ\030\001 \003(\0132\026.Exhibiti" +
       "onDisplayInfo\022+\n\013JANGDIMHCAC\030\003 \003(\0132\026.Exh" +
       "ibitionDisplayInfo\022&\n\013player_info\030\r \001(\0132" +
-      "\021.OnlinePlayerInfoB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\021.OnlinePlayerInfoB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025BABFLLCAEDLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

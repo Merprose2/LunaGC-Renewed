@@ -51,11 +51,11 @@ public final class OEMLBKEIFFKOuterClass {
      * <code>._UgcDungeon _ugc_dungeon = 10;</code>
      * @return The ugcDungeon.
      */
-    emu.grasscutter.net.proto.UgcDungeon._UgcDungeon getUgcDungeon();
+    emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon getUgcDungeon();
     /**
      * <code>._UgcDungeon _ugc_dungeon = 10;</code>
      */
-    emu.grasscutter.net.proto.UgcDungeon._UgcDungeonOrBuilder getUgcDungeonOrBuilder();
+    emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeonOrBuilder getUgcDungeonOrBuilder();
 
     /**
      * <code>._UgcDungeonBrief _ugc_brief_data = 14;</code>
@@ -66,11 +66,11 @@ public final class OEMLBKEIFFKOuterClass {
      * <code>._UgcDungeonBrief _ugc_brief_data = 14;</code>
      * @return The ugcBriefData.
      */
-    emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief getUgcBriefData();
+    emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief getUgcBriefData();
     /**
      * <code>._UgcDungeonBrief _ugc_brief_data = 14;</code>
      */
-    emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder getUgcBriefDataOrBuilder();
+    emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder getUgcBriefDataOrBuilder();
   }
   /**
    * <pre>
@@ -142,11 +142,11 @@ public final class OEMLBKEIFFKOuterClass {
               break;
             }
             case 82: {
-              emu.grasscutter.net.proto.UgcDungeon._UgcDungeon.Builder subBuilder = null;
+              emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon.Builder subBuilder = null;
               if (UgcDungeon_ != null) {
                 subBuilder = UgcDungeon_.toBuilder();
               }
-              UgcDungeon_ = input.readMessage(emu.grasscutter.net.proto.UgcDungeon._UgcDungeon.parser(), extensionRegistry);
+              UgcDungeon_ = input.readMessage(emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(UgcDungeon_);
                 UgcDungeon_ = subBuilder.buildPartial();
@@ -155,11 +155,11 @@ public final class OEMLBKEIFFKOuterClass {
               break;
             }
             case 114: {
-              emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder subBuilder = null;
+              emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder subBuilder = null;
               if (UgcBriefData_ != null) {
                 subBuilder = UgcBriefData_.toBuilder();
               }
-              UgcBriefData_ = input.readMessage(emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.parser(), extensionRegistry);
+              UgcBriefData_ = input.readMessage(emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(UgcBriefData_);
                 UgcBriefData_ = subBuilder.buildPartial();
@@ -244,7 +244,7 @@ public final class OEMLBKEIFFKOuterClass {
     }
 
     public static final int _UGC_DUNGEON_FIELD_NUMBER = 10;
-    private emu.grasscutter.net.proto.UgcDungeon._UgcDungeon UgcDungeon_;
+    private emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon UgcDungeon_;
     /**
      * <code>._UgcDungeon _ugc_dungeon = 10;</code>
      * @return Whether the ugcDungeon field is set.
@@ -258,19 +258,19 @@ public final class OEMLBKEIFFKOuterClass {
      * @return The ugcDungeon.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcDungeon._UgcDungeon getUgcDungeon() {
-      return UgcDungeon_ == null ? emu.grasscutter.net.proto.UgcDungeon._UgcDungeon.getDefaultInstance() : UgcDungeon_;
+    public emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon getUgcDungeon() {
+      return UgcDungeon_ == null ? emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon.getDefaultInstance() : UgcDungeon_;
     }
     /**
      * <code>._UgcDungeon _ugc_dungeon = 10;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcDungeon._UgcDungeonOrBuilder getUgcDungeonOrBuilder() {
+    public emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeonOrBuilder getUgcDungeonOrBuilder() {
       return getUgcDungeon();
     }
 
     public static final int _UGC_BRIEF_DATA_FIELD_NUMBER = 14;
-    private emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief UgcBriefData_;
+    private emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief UgcBriefData_;
     /**
      * <code>._UgcDungeonBrief _ugc_brief_data = 14;</code>
      * @return Whether the ugcBriefData field is set.
@@ -284,14 +284,14 @@ public final class OEMLBKEIFFKOuterClass {
      * @return The ugcBriefData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief getUgcBriefData() {
-      return UgcBriefData_ == null ? emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.getDefaultInstance() : UgcBriefData_;
+    public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief getUgcBriefData() {
+      return UgcBriefData_ == null ? emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.getDefaultInstance() : UgcBriefData_;
     }
     /**
      * <code>._UgcDungeonBrief _ugc_brief_data = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder getUgcBriefDataOrBuilder() {
+    public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder getUgcBriefDataOrBuilder() {
       return getUgcBriefData();
     }
 
@@ -836,9 +836,9 @@ public final class OEMLBKEIFFKOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.UgcDungeon._UgcDungeon UgcDungeon_;
+      private emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon UgcDungeon_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcDungeon._UgcDungeon, emu.grasscutter.net.proto.UgcDungeon._UgcDungeon.Builder, emu.grasscutter.net.proto.UgcDungeon._UgcDungeonOrBuilder> UgcDungeonBuilder_;
+          emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon, emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon.Builder, emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeonOrBuilder> UgcDungeonBuilder_;
       /**
        * <code>._UgcDungeon _ugc_dungeon = 10;</code>
        * @return Whether the ugcDungeon field is set.
@@ -850,9 +850,9 @@ public final class OEMLBKEIFFKOuterClass {
        * <code>._UgcDungeon _ugc_dungeon = 10;</code>
        * @return The ugcDungeon.
        */
-      public emu.grasscutter.net.proto.UgcDungeon._UgcDungeon getUgcDungeon() {
+      public emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon getUgcDungeon() {
         if (UgcDungeonBuilder_ == null) {
-          return UgcDungeon_ == null ? emu.grasscutter.net.proto.UgcDungeon._UgcDungeon.getDefaultInstance() : UgcDungeon_;
+          return UgcDungeon_ == null ? emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon.getDefaultInstance() : UgcDungeon_;
         } else {
           return UgcDungeonBuilder_.getMessage();
         }
@@ -860,7 +860,7 @@ public final class OEMLBKEIFFKOuterClass {
       /**
        * <code>._UgcDungeon _ugc_dungeon = 10;</code>
        */
-      public Builder setUgcDungeon(emu.grasscutter.net.proto.UgcDungeon._UgcDungeon value) {
+      public Builder setUgcDungeon(emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon value) {
         if (UgcDungeonBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -877,7 +877,7 @@ public final class OEMLBKEIFFKOuterClass {
        * <code>._UgcDungeon _ugc_dungeon = 10;</code>
        */
       public Builder setUgcDungeon(
-          emu.grasscutter.net.proto.UgcDungeon._UgcDungeon.Builder builderForValue) {
+          emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon.Builder builderForValue) {
         if (UgcDungeonBuilder_ == null) {
           UgcDungeon_ = builderForValue.build();
           onChanged();
@@ -890,11 +890,11 @@ public final class OEMLBKEIFFKOuterClass {
       /**
        * <code>._UgcDungeon _ugc_dungeon = 10;</code>
        */
-      public Builder mergeUgcDungeon(emu.grasscutter.net.proto.UgcDungeon._UgcDungeon value) {
+      public Builder mergeUgcDungeon(emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon value) {
         if (UgcDungeonBuilder_ == null) {
           if (UgcDungeon_ != null) {
             UgcDungeon_ =
-              emu.grasscutter.net.proto.UgcDungeon._UgcDungeon.newBuilder(UgcDungeon_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon.newBuilder(UgcDungeon_).mergeFrom(value).buildPartial();
           } else {
             UgcDungeon_ = value;
           }
@@ -922,7 +922,7 @@ public final class OEMLBKEIFFKOuterClass {
       /**
        * <code>._UgcDungeon _ugc_dungeon = 10;</code>
        */
-      public emu.grasscutter.net.proto.UgcDungeon._UgcDungeon.Builder getUgcDungeonBuilder() {
+      public emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon.Builder getUgcDungeonBuilder() {
         
         onChanged();
         return getUgcDungeonFieldBuilder().getBuilder();
@@ -930,23 +930,23 @@ public final class OEMLBKEIFFKOuterClass {
       /**
        * <code>._UgcDungeon _ugc_dungeon = 10;</code>
        */
-      public emu.grasscutter.net.proto.UgcDungeon._UgcDungeonOrBuilder getUgcDungeonOrBuilder() {
+      public emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeonOrBuilder getUgcDungeonOrBuilder() {
         if (UgcDungeonBuilder_ != null) {
           return UgcDungeonBuilder_.getMessageOrBuilder();
         } else {
           return UgcDungeon_ == null ?
-              emu.grasscutter.net.proto.UgcDungeon._UgcDungeon.getDefaultInstance() : UgcDungeon_;
+              emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon.getDefaultInstance() : UgcDungeon_;
         }
       }
       /**
        * <code>._UgcDungeon _ugc_dungeon = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcDungeon._UgcDungeon, emu.grasscutter.net.proto.UgcDungeon._UgcDungeon.Builder, emu.grasscutter.net.proto.UgcDungeon._UgcDungeonOrBuilder> 
+          emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon, emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon.Builder, emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeonOrBuilder> 
           getUgcDungeonFieldBuilder() {
         if (UgcDungeonBuilder_ == null) {
           UgcDungeonBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.UgcDungeon._UgcDungeon, emu.grasscutter.net.proto.UgcDungeon._UgcDungeon.Builder, emu.grasscutter.net.proto.UgcDungeon._UgcDungeonOrBuilder>(
+              emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon, emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeon.Builder, emu.grasscutter.net.proto._UgcDungeonOuterClass._UgcDungeonOrBuilder>(
                   getUgcDungeon(),
                   getParentForChildren(),
                   isClean());
@@ -955,9 +955,9 @@ public final class OEMLBKEIFFKOuterClass {
         return UgcDungeonBuilder_;
       }
 
-      private emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief UgcBriefData_;
+      private emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief UgcBriefData_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder> UgcBriefDataBuilder_;
+          emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder> UgcBriefDataBuilder_;
       /**
        * <code>._UgcDungeonBrief _ugc_brief_data = 14;</code>
        * @return Whether the ugcBriefData field is set.
@@ -969,9 +969,9 @@ public final class OEMLBKEIFFKOuterClass {
        * <code>._UgcDungeonBrief _ugc_brief_data = 14;</code>
        * @return The ugcBriefData.
        */
-      public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief getUgcBriefData() {
+      public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief getUgcBriefData() {
         if (UgcBriefDataBuilder_ == null) {
-          return UgcBriefData_ == null ? emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.getDefaultInstance() : UgcBriefData_;
+          return UgcBriefData_ == null ? emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.getDefaultInstance() : UgcBriefData_;
         } else {
           return UgcBriefDataBuilder_.getMessage();
         }
@@ -979,7 +979,7 @@ public final class OEMLBKEIFFKOuterClass {
       /**
        * <code>._UgcDungeonBrief _ugc_brief_data = 14;</code>
        */
-      public Builder setUgcBriefData(emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief value) {
+      public Builder setUgcBriefData(emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief value) {
         if (UgcBriefDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -996,7 +996,7 @@ public final class OEMLBKEIFFKOuterClass {
        * <code>._UgcDungeonBrief _ugc_brief_data = 14;</code>
        */
       public Builder setUgcBriefData(
-          emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder builderForValue) {
+          emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder builderForValue) {
         if (UgcBriefDataBuilder_ == null) {
           UgcBriefData_ = builderForValue.build();
           onChanged();
@@ -1009,11 +1009,11 @@ public final class OEMLBKEIFFKOuterClass {
       /**
        * <code>._UgcDungeonBrief _ugc_brief_data = 14;</code>
        */
-      public Builder mergeUgcBriefData(emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief value) {
+      public Builder mergeUgcBriefData(emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief value) {
         if (UgcBriefDataBuilder_ == null) {
           if (UgcBriefData_ != null) {
             UgcBriefData_ =
-              emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.newBuilder(UgcBriefData_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.newBuilder(UgcBriefData_).mergeFrom(value).buildPartial();
           } else {
             UgcBriefData_ = value;
           }
@@ -1041,7 +1041,7 @@ public final class OEMLBKEIFFKOuterClass {
       /**
        * <code>._UgcDungeonBrief _ugc_brief_data = 14;</code>
        */
-      public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder getUgcBriefDataBuilder() {
+      public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder getUgcBriefDataBuilder() {
         
         onChanged();
         return getUgcBriefDataFieldBuilder().getBuilder();
@@ -1049,23 +1049,23 @@ public final class OEMLBKEIFFKOuterClass {
       /**
        * <code>._UgcDungeonBrief _ugc_brief_data = 14;</code>
        */
-      public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder getUgcBriefDataOrBuilder() {
+      public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder getUgcBriefDataOrBuilder() {
         if (UgcBriefDataBuilder_ != null) {
           return UgcBriefDataBuilder_.getMessageOrBuilder();
         } else {
           return UgcBriefData_ == null ?
-              emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.getDefaultInstance() : UgcBriefData_;
+              emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.getDefaultInstance() : UgcBriefData_;
         }
       }
       /**
        * <code>._UgcDungeonBrief _ugc_brief_data = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder> 
+          emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder> 
           getUgcBriefDataFieldBuilder() {
         if (UgcBriefDataBuilder_ == null) {
           UgcBriefDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder>(
+              emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder>(
                   getUgcBriefData(),
                   getParentForChildren(),
                   isClean());
@@ -1146,13 +1146,14 @@ public final class OEMLBKEIFFKOuterClass {
       "\021\n\tcur_score\030\007 \001(\r\022\023\n\013MPDHMJGKCMM\030\t \001(\r\022" +
       "\"\n\014_ugc_dungeon\030\n \001(\0132\014._UgcDungeon\022*\n\017_" +
       "ugc_brief_data\030\016 \001(\0132\021._UgcDungeonBriefB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025OEMLBKEIFF" +
+      "KOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.UgcDungeon.getDescriptor(),
-          emu.grasscutter.net.proto.UgcDungeonBrief.getDescriptor(),
+          emu.grasscutter.net.proto._UgcDungeonOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._UgcDungeonBriefOuterClass.getDescriptor(),
         });
     internal_static_OEMLBKEIFFK_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1160,8 +1161,8 @@ public final class OEMLBKEIFFKOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_OEMLBKEIFFK_descriptor,
         new java.lang.String[] { "EnterType", "DBPFDBIFLAD", "CurScore", "MPDHMJGKCMM", "UgcDungeon", "UgcBriefData", });
-    emu.grasscutter.net.proto.UgcDungeon.getDescriptor();
-    emu.grasscutter.net.proto.UgcDungeonBrief.getDescriptor();
+    emu.grasscutter.net.proto._UgcDungeonOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._UgcDungeonBriefOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -526,8 +526,8 @@ public final class ONPBOALLCNCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ONPBOALLCNC.proto\"!\n\013ONPBOALLCNC\022\022\n\nis" +
-      "_success\030\005 \001(\010B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "_success\030\005 \001(\010B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025ONPBOALLCNCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

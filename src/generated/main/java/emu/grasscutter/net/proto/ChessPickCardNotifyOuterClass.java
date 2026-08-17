@@ -730,8 +730,9 @@ public final class ChessPickCardNotifyOuterClass {
       "\n\031ChessPickCardNotify.proto\032\031ChessNormal" +
       "CardInfo.proto\"\\\n\023ChessPickCardNotify\022\025\n" +
       "\rcurse_card_id\030\t \001(\r\022.\n\020normal_card_info" +
-      "\030\r \001(\0132\024.ChessNormalCardInfoB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\030\r \001(\0132\024.ChessNormalCardInfoB:\n\031emu.gras" +
+      "scutter.net.protoB\035ChessPickCardNotifyOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -33,11 +33,11 @@ public final class FKCPAPIHKOKOuterClass {
      * <code>._LanV6CardTextInfo _card_text_info = 10;</code>
      * @return The cardTextInfo.
      */
-    emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo getCardTextInfo();
+    emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo getCardTextInfo();
     /**
      * <code>._LanV6CardTextInfo _card_text_info = 10;</code>
      */
-    emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfoOrBuilder getCardTextInfoOrBuilder();
+    emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfoOrBuilder getCardTextInfoOrBuilder();
 
     /**
      * <code>.ProfilePicture profile_picture = 12;</code>
@@ -124,11 +124,11 @@ public final class FKCPAPIHKOKOuterClass {
               break;
             }
             case 82: {
-              emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.Builder subBuilder = null;
               if (CardTextInfo_ != null) {
                 subBuilder = CardTextInfo_.toBuilder();
               }
-              CardTextInfo_ = input.readMessage(emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.parser(), extensionRegistry);
+              CardTextInfo_ = input.readMessage(emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(CardTextInfo_);
                 CardTextInfo_ = subBuilder.buildPartial();
@@ -204,7 +204,7 @@ public final class FKCPAPIHKOKOuterClass {
     }
 
     public static final int _CARD_TEXT_INFO_FIELD_NUMBER = 10;
-    private emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo CardTextInfo_;
+    private emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo CardTextInfo_;
     /**
      * <code>._LanV6CardTextInfo _card_text_info = 10;</code>
      * @return Whether the cardTextInfo field is set.
@@ -218,14 +218,14 @@ public final class FKCPAPIHKOKOuterClass {
      * @return The cardTextInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo getCardTextInfo() {
-      return CardTextInfo_ == null ? emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.getDefaultInstance() : CardTextInfo_;
+    public emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo getCardTextInfo() {
+      return CardTextInfo_ == null ? emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.getDefaultInstance() : CardTextInfo_;
     }
     /**
      * <code>._LanV6CardTextInfo _card_text_info = 10;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfoOrBuilder getCardTextInfoOrBuilder() {
+    public emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfoOrBuilder getCardTextInfoOrBuilder() {
       return getCardTextInfo();
     }
 
@@ -731,9 +731,9 @@ public final class FKCPAPIHKOKOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo CardTextInfo_;
+      private emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo CardTextInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo, emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.Builder, emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfoOrBuilder> CardTextInfoBuilder_;
+          emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo, emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.Builder, emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfoOrBuilder> CardTextInfoBuilder_;
       /**
        * <code>._LanV6CardTextInfo _card_text_info = 10;</code>
        * @return Whether the cardTextInfo field is set.
@@ -745,9 +745,9 @@ public final class FKCPAPIHKOKOuterClass {
        * <code>._LanV6CardTextInfo _card_text_info = 10;</code>
        * @return The cardTextInfo.
        */
-      public emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo getCardTextInfo() {
+      public emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo getCardTextInfo() {
         if (CardTextInfoBuilder_ == null) {
-          return CardTextInfo_ == null ? emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.getDefaultInstance() : CardTextInfo_;
+          return CardTextInfo_ == null ? emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.getDefaultInstance() : CardTextInfo_;
         } else {
           return CardTextInfoBuilder_.getMessage();
         }
@@ -755,7 +755,7 @@ public final class FKCPAPIHKOKOuterClass {
       /**
        * <code>._LanV6CardTextInfo _card_text_info = 10;</code>
        */
-      public Builder setCardTextInfo(emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo value) {
+      public Builder setCardTextInfo(emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo value) {
         if (CardTextInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -772,7 +772,7 @@ public final class FKCPAPIHKOKOuterClass {
        * <code>._LanV6CardTextInfo _card_text_info = 10;</code>
        */
       public Builder setCardTextInfo(
-          emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.Builder builderForValue) {
         if (CardTextInfoBuilder_ == null) {
           CardTextInfo_ = builderForValue.build();
           onChanged();
@@ -785,11 +785,11 @@ public final class FKCPAPIHKOKOuterClass {
       /**
        * <code>._LanV6CardTextInfo _card_text_info = 10;</code>
        */
-      public Builder mergeCardTextInfo(emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo value) {
+      public Builder mergeCardTextInfo(emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo value) {
         if (CardTextInfoBuilder_ == null) {
           if (CardTextInfo_ != null) {
             CardTextInfo_ =
-              emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.newBuilder(CardTextInfo_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.newBuilder(CardTextInfo_).mergeFrom(value).buildPartial();
           } else {
             CardTextInfo_ = value;
           }
@@ -817,7 +817,7 @@ public final class FKCPAPIHKOKOuterClass {
       /**
        * <code>._LanV6CardTextInfo _card_text_info = 10;</code>
        */
-      public emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.Builder getCardTextInfoBuilder() {
+      public emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.Builder getCardTextInfoBuilder() {
         
         onChanged();
         return getCardTextInfoFieldBuilder().getBuilder();
@@ -825,23 +825,23 @@ public final class FKCPAPIHKOKOuterClass {
       /**
        * <code>._LanV6CardTextInfo _card_text_info = 10;</code>
        */
-      public emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfoOrBuilder getCardTextInfoOrBuilder() {
+      public emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfoOrBuilder getCardTextInfoOrBuilder() {
         if (CardTextInfoBuilder_ != null) {
           return CardTextInfoBuilder_.getMessageOrBuilder();
         } else {
           return CardTextInfo_ == null ?
-              emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.getDefaultInstance() : CardTextInfo_;
+              emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.getDefaultInstance() : CardTextInfo_;
         }
       }
       /**
        * <code>._LanV6CardTextInfo _card_text_info = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo, emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.Builder, emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfoOrBuilder> 
+          emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo, emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.Builder, emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfoOrBuilder> 
           getCardTextInfoFieldBuilder() {
         if (CardTextInfoBuilder_ == null) {
           CardTextInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo, emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfo.Builder, emu.grasscutter.net.proto.LanV6CardTextInfo._LanV6CardTextInfoOrBuilder>(
+              emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo, emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfo.Builder, emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass._LanV6CardTextInfoOrBuilder>(
                   getCardTextInfo(),
                   getParentForChildren(),
                   isClean());
@@ -1147,14 +1147,14 @@ public final class FKCPAPIHKOKOuterClass {
       "KOK\022\016\n\006npc_id\030\002 \001(\r\022,\n\017_card_text_info\030\n" +
       " \001(\0132\023._LanV6CardTextInfo\022(\n\017profile_pic" +
       "ture\030\014 \001(\0132\017.ProfilePicture\022\020\n\010nickname\030" +
-      "\r \001(\t\022\013\n\003uid\030\017 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\r \001(\t\022\013\n\003uid\030\017 \001(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025FKCPAPIHKOKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.ProfilePictureOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.LanV6CardTextInfo.getDescriptor(),
+          emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass.getDescriptor(),
         });
     internal_static_FKCPAPIHKOK_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1163,7 +1163,7 @@ public final class FKCPAPIHKOKOuterClass {
         internal_static_FKCPAPIHKOK_descriptor,
         new java.lang.String[] { "NpcId", "CardTextInfo", "ProfilePicture", "Nickname", "Uid", });
     emu.grasscutter.net.proto.ProfilePictureOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.LanV6CardTextInfo.getDescriptor();
+    emu.grasscutter.net.proto._LanV6CardTextInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

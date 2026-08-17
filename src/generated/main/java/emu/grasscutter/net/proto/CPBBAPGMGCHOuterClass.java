@@ -27,11 +27,11 @@ public final class CPBBAPGMGCHOuterClass {
      * <code>._MultiSyncInfo multi_sync_info = 4;</code>
      * @return The multiSyncInfo.
      */
-    emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo getMultiSyncInfo();
+    emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo getMultiSyncInfo();
     /**
      * <code>._MultiSyncInfo multi_sync_info = 4;</code>
      */
-    emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfoOrBuilder getMultiSyncInfoOrBuilder();
+    emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfoOrBuilder getMultiSyncInfoOrBuilder();
 
     /**
      * <code>._NormalSyncInfo normal_sync_info = 5;</code>
@@ -42,11 +42,11 @@ public final class CPBBAPGMGCHOuterClass {
      * <code>._NormalSyncInfo normal_sync_info = 5;</code>
      * @return The normalSyncInfo.
      */
-    emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo getNormalSyncInfo();
+    emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo getNormalSyncInfo();
     /**
      * <code>._NormalSyncInfo normal_sync_info = 5;</code>
      */
-    emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfoOrBuilder getNormalSyncInfoOrBuilder();
+    emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfoOrBuilder getNormalSyncInfoOrBuilder();
 
     /**
      * <code>.OIBKBPFAPDL sync_type = 12;</code>
@@ -108,28 +108,28 @@ public final class CPBBAPGMGCHOuterClass {
               done = true;
               break;
             case 34: {
-              emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.Builder subBuilder = null;
               if (detailCase_ == 4) {
-                subBuilder = ((emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 4;
               break;
             }
             case 42: {
-              emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.Builder subBuilder = null;
               if (detailCase_ == 5) {
-                subBuilder = ((emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 5;
@@ -228,21 +228,21 @@ public final class CPBBAPGMGCHOuterClass {
      * @return The multiSyncInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo getMultiSyncInfo() {
+    public emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo getMultiSyncInfo() {
       if (detailCase_ == 4) {
-         return (emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo) detail_;
+         return (emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo) detail_;
       }
-      return emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.getDefaultInstance();
     }
     /**
      * <code>._MultiSyncInfo multi_sync_info = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfoOrBuilder getMultiSyncInfoOrBuilder() {
+    public emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfoOrBuilder getMultiSyncInfoOrBuilder() {
       if (detailCase_ == 4) {
-         return (emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo) detail_;
+         return (emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo) detail_;
       }
-      return emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.getDefaultInstance();
     }
 
     public static final int NORMAL_SYNC_INFO_FIELD_NUMBER = 5;
@@ -259,21 +259,21 @@ public final class CPBBAPGMGCHOuterClass {
      * @return The normalSyncInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo getNormalSyncInfo() {
+    public emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo getNormalSyncInfo() {
       if (detailCase_ == 5) {
-         return (emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo) detail_;
+         return (emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo) detail_;
       }
-      return emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.getDefaultInstance();
     }
     /**
      * <code>._NormalSyncInfo normal_sync_info = 5;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfoOrBuilder getNormalSyncInfoOrBuilder() {
+    public emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfoOrBuilder getNormalSyncInfoOrBuilder() {
       if (detailCase_ == 5) {
-         return (emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo) detail_;
+         return (emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo) detail_;
       }
-      return emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.getDefaultInstance();
     }
 
     public static final int SYNC_TYPE_FIELD_NUMBER = 12;
@@ -310,10 +310,10 @@ public final class CPBBAPGMGCHOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (detailCase_ == 4) {
-        output.writeMessage(4, (emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo) detail_);
+        output.writeMessage(4, (emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo) detail_);
       }
       if (detailCase_ == 5) {
-        output.writeMessage(5, (emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo) detail_);
+        output.writeMessage(5, (emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo) detail_);
       }
       if (syncType_ != emu.grasscutter.net.proto.OIBKBPFAPDLOuterClass.OIBKBPFAPDL.OIBKBPFAPDL_NORMAL.getNumber()) {
         output.writeEnum(12, syncType_);
@@ -329,11 +329,11 @@ public final class CPBBAPGMGCHOuterClass {
       size = 0;
       if (detailCase_ == 4) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, (emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo) detail_);
+          .computeMessageSize(4, (emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo) detail_);
       }
       if (detailCase_ == 5) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, (emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo) detail_);
+          .computeMessageSize(5, (emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo) detail_);
       }
       if (syncType_ != emu.grasscutter.net.proto.OIBKBPFAPDLOuterClass.OIBKBPFAPDL.OIBKBPFAPDL_NORMAL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
@@ -681,7 +681,7 @@ public final class CPBBAPGMGCHOuterClass {
 
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo, emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.Builder, emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfoOrBuilder> multiSyncInfoBuilder_;
+          emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo, emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.Builder, emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfoOrBuilder> multiSyncInfoBuilder_;
       /**
        * <code>._MultiSyncInfo multi_sync_info = 4;</code>
        * @return Whether the multiSyncInfo field is set.
@@ -695,23 +695,23 @@ public final class CPBBAPGMGCHOuterClass {
        * @return The multiSyncInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo getMultiSyncInfo() {
+      public emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo getMultiSyncInfo() {
         if (multiSyncInfoBuilder_ == null) {
           if (detailCase_ == 4) {
-            return (emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo) detail_;
+            return (emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo) detail_;
           }
-          return emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 4) {
             return multiSyncInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._MultiSyncInfo multi_sync_info = 4;</code>
        */
-      public Builder setMultiSyncInfo(emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo value) {
+      public Builder setMultiSyncInfo(emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo value) {
         if (multiSyncInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -728,7 +728,7 @@ public final class CPBBAPGMGCHOuterClass {
        * <code>._MultiSyncInfo multi_sync_info = 4;</code>
        */
       public Builder setMultiSyncInfo(
-          emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.Builder builderForValue) {
         if (multiSyncInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -741,11 +741,11 @@ public final class CPBBAPGMGCHOuterClass {
       /**
        * <code>._MultiSyncInfo multi_sync_info = 4;</code>
        */
-      public Builder mergeMultiSyncInfo(emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo value) {
+      public Builder mergeMultiSyncInfo(emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo value) {
         if (multiSyncInfoBuilder_ == null) {
           if (detailCase_ == 4 &&
-              detail_ != emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.newBuilder((emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.newBuilder((emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -782,36 +782,36 @@ public final class CPBBAPGMGCHOuterClass {
       /**
        * <code>._MultiSyncInfo multi_sync_info = 4;</code>
        */
-      public emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.Builder getMultiSyncInfoBuilder() {
+      public emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.Builder getMultiSyncInfoBuilder() {
         return getMultiSyncInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._MultiSyncInfo multi_sync_info = 4;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfoOrBuilder getMultiSyncInfoOrBuilder() {
+      public emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfoOrBuilder getMultiSyncInfoOrBuilder() {
         if ((detailCase_ == 4) && (multiSyncInfoBuilder_ != null)) {
           return multiSyncInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 4) {
-            return (emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo) detail_;
+            return (emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo) detail_;
           }
-          return emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._MultiSyncInfo multi_sync_info = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo, emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.Builder, emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfoOrBuilder> 
+          emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo, emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.Builder, emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfoOrBuilder> 
           getMultiSyncInfoFieldBuilder() {
         if (multiSyncInfoBuilder_ == null) {
           if (!(detailCase_ == 4)) {
-            detail_ = emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.getDefaultInstance();
           }
           multiSyncInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo, emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.Builder, emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo) detail_,
+              emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo, emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.Builder, emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -822,7 +822,7 @@ public final class CPBBAPGMGCHOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo, emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.Builder, emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfoOrBuilder> normalSyncInfoBuilder_;
+          emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo, emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.Builder, emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfoOrBuilder> normalSyncInfoBuilder_;
       /**
        * <code>._NormalSyncInfo normal_sync_info = 5;</code>
        * @return Whether the normalSyncInfo field is set.
@@ -836,23 +836,23 @@ public final class CPBBAPGMGCHOuterClass {
        * @return The normalSyncInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo getNormalSyncInfo() {
+      public emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo getNormalSyncInfo() {
         if (normalSyncInfoBuilder_ == null) {
           if (detailCase_ == 5) {
-            return (emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo) detail_;
+            return (emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo) detail_;
           }
-          return emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 5) {
             return normalSyncInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._NormalSyncInfo normal_sync_info = 5;</code>
        */
-      public Builder setNormalSyncInfo(emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo value) {
+      public Builder setNormalSyncInfo(emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo value) {
         if (normalSyncInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -869,7 +869,7 @@ public final class CPBBAPGMGCHOuterClass {
        * <code>._NormalSyncInfo normal_sync_info = 5;</code>
        */
       public Builder setNormalSyncInfo(
-          emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.Builder builderForValue) {
         if (normalSyncInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -882,11 +882,11 @@ public final class CPBBAPGMGCHOuterClass {
       /**
        * <code>._NormalSyncInfo normal_sync_info = 5;</code>
        */
-      public Builder mergeNormalSyncInfo(emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo value) {
+      public Builder mergeNormalSyncInfo(emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo value) {
         if (normalSyncInfoBuilder_ == null) {
           if (detailCase_ == 5 &&
-              detail_ != emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.newBuilder((emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.newBuilder((emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -923,36 +923,36 @@ public final class CPBBAPGMGCHOuterClass {
       /**
        * <code>._NormalSyncInfo normal_sync_info = 5;</code>
        */
-      public emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.Builder getNormalSyncInfoBuilder() {
+      public emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.Builder getNormalSyncInfoBuilder() {
         return getNormalSyncInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._NormalSyncInfo normal_sync_info = 5;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfoOrBuilder getNormalSyncInfoOrBuilder() {
+      public emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfoOrBuilder getNormalSyncInfoOrBuilder() {
         if ((detailCase_ == 5) && (normalSyncInfoBuilder_ != null)) {
           return normalSyncInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 5) {
-            return (emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo) detail_;
+            return (emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo) detail_;
           }
-          return emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._NormalSyncInfo normal_sync_info = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo, emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.Builder, emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfoOrBuilder> 
+          emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo, emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.Builder, emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfoOrBuilder> 
           getNormalSyncInfoFieldBuilder() {
         if (normalSyncInfoBuilder_ == null) {
           if (!(detailCase_ == 5)) {
-            detail_ = emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.getDefaultInstance();
           }
           normalSyncInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo, emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.Builder, emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo) detail_,
+              emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo, emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.Builder, emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1087,15 +1087,16 @@ public final class CPBBAPGMGCHOuterClass {
       "oto\"\222\001\n\013CPBBAPGMGCH\022*\n\017multi_sync_info\030\004" +
       " \001(\0132\017._MultiSyncInfoH\000\022,\n\020normal_sync_i" +
       "nfo\030\005 \001(\0132\020._NormalSyncInfoH\000\022\037\n\tsync_ty" +
-      "pe\030\014 \001(\0162\014.OIBKBPFAPDLB\010\n\006detailB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "pe\030\014 \001(\0162\014.OIBKBPFAPDLB\010\n\006detailB2\n\031emu." +
+      "grasscutter.net.protoB\025CPBBAPGMGCHOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.OIBKBPFAPDLOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.MultiSyncInfo.getDescriptor(),
-          emu.grasscutter.net.proto.NormalSyncInfo.getDescriptor(),
+          emu.grasscutter.net.proto._MultiSyncInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._NormalSyncInfoOuterClass.getDescriptor(),
         });
     internal_static_CPBBAPGMGCH_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1104,8 +1105,8 @@ public final class CPBBAPGMGCHOuterClass {
         internal_static_CPBBAPGMGCH_descriptor,
         new java.lang.String[] { "MultiSyncInfo", "NormalSyncInfo", "SyncType", "Detail", });
     emu.grasscutter.net.proto.OIBKBPFAPDLOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.MultiSyncInfo.getDescriptor();
-    emu.grasscutter.net.proto.NormalSyncInfo.getDescriptor();
+    emu.grasscutter.net.proto._MultiSyncInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._NormalSyncInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

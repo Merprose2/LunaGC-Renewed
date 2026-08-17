@@ -1336,8 +1336,8 @@ public final class MICEFJLBDPBOuterClass {
       "IALLCJFO\030\002 \001(\t\022!\n\013EFNDDCGJJNH\030\003 \001(\0132\014.FL" +
       "JNOAOAJCP\022\017\n\007content\030\004 \001(\t\022!\n\013OOFKPIFBJK" +
       "G\030\005 \001(\0162\014.GAAHENMNIFK\022!\n\013DBPDHLMIICN\030\006 \001" +
-      "(\0132\014.GLKBLDMMLBNB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "(\0132\014.GLKBLDMMLBNB2\n\031emu.grasscutter.net." +
+      "protoB\025MICEFJLBDPBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

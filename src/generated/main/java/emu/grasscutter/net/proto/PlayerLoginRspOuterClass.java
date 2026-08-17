@@ -6298,8 +6298,9 @@ public final class PlayerLoginRspOuterClass {
       "\005value\030\002 \001(\005:\0028\001\032?\n\021BlockInfoMapEntry\022\013\n" +
       "\003key\030\001 \001(\r\022\031\n\005value\030\002 \001(\0132\n.BlockInfo:\0028" +
       "\001\032@\n\020KKNBKGBLHDMEntry\022\013\n\003key\030\001 \001(\004\022\033\n\005va" +
-      "lue\030\002 \001(\0132\014.MPGPEKAFHJG:\0028\001B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "lue\030\002 \001(\0132\014.MPGPEKAFHJG:\0028\001B5\n\031emu.grass" +
+      "cutter.net.protoB\030PlayerLoginRspOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

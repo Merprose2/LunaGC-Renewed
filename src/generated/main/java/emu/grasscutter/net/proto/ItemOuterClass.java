@@ -84,11 +84,11 @@ public final class ItemOuterClass {
      * <code>._BeyondMaterial beyond_material = 8;</code>
      * @return The beyondMaterial.
      */
-    emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial getBeyondMaterial();
+    emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial getBeyondMaterial();
     /**
      * <code>._BeyondMaterial beyond_material = 8;</code>
      */
-    emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterialOrBuilder getBeyondMaterialOrBuilder();
+    emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterialOrBuilder getBeyondMaterialOrBuilder();
 
     /**
      * <code>._Facility facility = 9;</code>
@@ -99,11 +99,11 @@ public final class ItemOuterClass {
      * <code>._Facility facility = 9;</code>
      * @return The facility.
      */
-    emu.grasscutter.net.proto.Facility._Facility getFacility();
+    emu.grasscutter.net.proto._FacilityOuterClass._Facility getFacility();
     /**
      * <code>._Facility facility = 9;</code>
      */
-    emu.grasscutter.net.proto.Facility._FacilityOrBuilder getFacilityOrBuilder();
+    emu.grasscutter.net.proto._FacilityOuterClass._FacilityOrBuilder getFacilityOrBuilder();
 
     /**
      * <code>._TpsWeapon tps_weapon = 10;</code>
@@ -114,11 +114,11 @@ public final class ItemOuterClass {
      * <code>._TpsWeapon tps_weapon = 10;</code>
      * @return The tpsWeapon.
      */
-    emu.grasscutter.net.proto.TpsWeapon._TpsWeapon getTpsWeapon();
+    emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon getTpsWeapon();
     /**
      * <code>._TpsWeapon tps_weapon = 10;</code>
      */
-    emu.grasscutter.net.proto.TpsWeapon._TpsWeaponOrBuilder getTpsWeaponOrBuilder();
+    emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeaponOrBuilder getTpsWeaponOrBuilder();
 
     public emu.grasscutter.net.proto.ItemOuterClass.Item.DetailCase getDetailCase();
   }
@@ -220,42 +220,42 @@ public final class ItemOuterClass {
               break;
             }
             case 66: {
-              emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial.Builder subBuilder = null;
               if (detailCase_ == 8) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 8;
               break;
             }
             case 74: {
-              emu.grasscutter.net.proto.Facility._Facility.Builder subBuilder = null;
+              emu.grasscutter.net.proto._FacilityOuterClass._Facility.Builder subBuilder = null;
               if (detailCase_ == 9) {
-                subBuilder = ((emu.grasscutter.net.proto.Facility._Facility) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._FacilityOuterClass._Facility) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.Facility._Facility.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._FacilityOuterClass._Facility.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.Facility._Facility) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._FacilityOuterClass._Facility) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 9;
               break;
             }
             case 82: {
-              emu.grasscutter.net.proto.TpsWeapon._TpsWeapon.Builder subBuilder = null;
+              emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon.Builder subBuilder = null;
               if (detailCase_ == 10) {
-                subBuilder = ((emu.grasscutter.net.proto.TpsWeapon._TpsWeapon) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.TpsWeapon._TpsWeapon.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.TpsWeapon._TpsWeapon) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 10;
@@ -471,21 +471,21 @@ public final class ItemOuterClass {
      * @return The beyondMaterial.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial getBeyondMaterial() {
+    public emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial getBeyondMaterial() {
       if (detailCase_ == 8) {
-         return (emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial) detail_;
+         return (emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial.getDefaultInstance();
     }
     /**
      * <code>._BeyondMaterial beyond_material = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterialOrBuilder getBeyondMaterialOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterialOrBuilder getBeyondMaterialOrBuilder() {
       if (detailCase_ == 8) {
-         return (emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial) detail_;
+         return (emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial.getDefaultInstance();
     }
 
     public static final int FACILITY_FIELD_NUMBER = 9;
@@ -502,21 +502,21 @@ public final class ItemOuterClass {
      * @return The facility.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Facility._Facility getFacility() {
+    public emu.grasscutter.net.proto._FacilityOuterClass._Facility getFacility() {
       if (detailCase_ == 9) {
-         return (emu.grasscutter.net.proto.Facility._Facility) detail_;
+         return (emu.grasscutter.net.proto._FacilityOuterClass._Facility) detail_;
       }
-      return emu.grasscutter.net.proto.Facility._Facility.getDefaultInstance();
+      return emu.grasscutter.net.proto._FacilityOuterClass._Facility.getDefaultInstance();
     }
     /**
      * <code>._Facility facility = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Facility._FacilityOrBuilder getFacilityOrBuilder() {
+    public emu.grasscutter.net.proto._FacilityOuterClass._FacilityOrBuilder getFacilityOrBuilder() {
       if (detailCase_ == 9) {
-         return (emu.grasscutter.net.proto.Facility._Facility) detail_;
+         return (emu.grasscutter.net.proto._FacilityOuterClass._Facility) detail_;
       }
-      return emu.grasscutter.net.proto.Facility._Facility.getDefaultInstance();
+      return emu.grasscutter.net.proto._FacilityOuterClass._Facility.getDefaultInstance();
     }
 
     public static final int TPS_WEAPON_FIELD_NUMBER = 10;
@@ -533,21 +533,21 @@ public final class ItemOuterClass {
      * @return The tpsWeapon.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TpsWeapon._TpsWeapon getTpsWeapon() {
+    public emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon getTpsWeapon() {
       if (detailCase_ == 10) {
-         return (emu.grasscutter.net.proto.TpsWeapon._TpsWeapon) detail_;
+         return (emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon) detail_;
       }
-      return emu.grasscutter.net.proto.TpsWeapon._TpsWeapon.getDefaultInstance();
+      return emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon.getDefaultInstance();
     }
     /**
      * <code>._TpsWeapon tps_weapon = 10;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TpsWeapon._TpsWeaponOrBuilder getTpsWeaponOrBuilder() {
+    public emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeaponOrBuilder getTpsWeaponOrBuilder() {
       if (detailCase_ == 10) {
-         return (emu.grasscutter.net.proto.TpsWeapon._TpsWeapon) detail_;
+         return (emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon) detail_;
       }
-      return emu.grasscutter.net.proto.TpsWeapon._TpsWeapon.getDefaultInstance();
+      return emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -580,13 +580,13 @@ public final class ItemOuterClass {
         output.writeMessage(7, (emu.grasscutter.net.proto.FurnitureOuterClass.Furniture) detail_);
       }
       if (detailCase_ == 8) {
-        output.writeMessage(8, (emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial) detail_);
+        output.writeMessage(8, (emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial) detail_);
       }
       if (detailCase_ == 9) {
-        output.writeMessage(9, (emu.grasscutter.net.proto.Facility._Facility) detail_);
+        output.writeMessage(9, (emu.grasscutter.net.proto._FacilityOuterClass._Facility) detail_);
       }
       if (detailCase_ == 10) {
-        output.writeMessage(10, (emu.grasscutter.net.proto.TpsWeapon._TpsWeapon) detail_);
+        output.writeMessage(10, (emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -619,15 +619,15 @@ public final class ItemOuterClass {
       }
       if (detailCase_ == 8) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, (emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial) detail_);
+          .computeMessageSize(8, (emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial) detail_);
       }
       if (detailCase_ == 9) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, (emu.grasscutter.net.proto.Facility._Facility) detail_);
+          .computeMessageSize(9, (emu.grasscutter.net.proto._FacilityOuterClass._Facility) detail_);
       }
       if (detailCase_ == 10) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, (emu.grasscutter.net.proto.TpsWeapon._TpsWeapon) detail_);
+          .computeMessageSize(10, (emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1544,7 +1544,7 @@ public final class ItemOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial, emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial.Builder, emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterialOrBuilder> beyondMaterialBuilder_;
+          emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial, emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial.Builder, emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterialOrBuilder> beyondMaterialBuilder_;
       /**
        * <code>._BeyondMaterial beyond_material = 8;</code>
        * @return Whether the beyondMaterial field is set.
@@ -1558,23 +1558,23 @@ public final class ItemOuterClass {
        * @return The beyondMaterial.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial getBeyondMaterial() {
+      public emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial getBeyondMaterial() {
         if (beyondMaterialBuilder_ == null) {
           if (detailCase_ == 8) {
-            return (emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial) detail_;
+            return (emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial.getDefaultInstance();
         } else {
           if (detailCase_ == 8) {
             return beyondMaterialBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondMaterial beyond_material = 8;</code>
        */
-      public Builder setBeyondMaterial(emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial value) {
+      public Builder setBeyondMaterial(emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial value) {
         if (beyondMaterialBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1591,7 +1591,7 @@ public final class ItemOuterClass {
        * <code>._BeyondMaterial beyond_material = 8;</code>
        */
       public Builder setBeyondMaterial(
-          emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial.Builder builderForValue) {
         if (beyondMaterialBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1604,11 +1604,11 @@ public final class ItemOuterClass {
       /**
        * <code>._BeyondMaterial beyond_material = 8;</code>
        */
-      public Builder mergeBeyondMaterial(emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial value) {
+      public Builder mergeBeyondMaterial(emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial value) {
         if (beyondMaterialBuilder_ == null) {
           if (detailCase_ == 8 &&
-              detail_ != emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial.newBuilder((emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial.newBuilder((emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1645,36 +1645,36 @@ public final class ItemOuterClass {
       /**
        * <code>._BeyondMaterial beyond_material = 8;</code>
        */
-      public emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial.Builder getBeyondMaterialBuilder() {
+      public emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial.Builder getBeyondMaterialBuilder() {
         return getBeyondMaterialFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondMaterial beyond_material = 8;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterialOrBuilder getBeyondMaterialOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterialOrBuilder getBeyondMaterialOrBuilder() {
         if ((detailCase_ == 8) && (beyondMaterialBuilder_ != null)) {
           return beyondMaterialBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 8) {
-            return (emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial) detail_;
+            return (emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondMaterial beyond_material = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial, emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial.Builder, emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterialOrBuilder> 
+          emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial, emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial.Builder, emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterialOrBuilder> 
           getBeyondMaterialFieldBuilder() {
         if (beyondMaterialBuilder_ == null) {
           if (!(detailCase_ == 8)) {
-            detail_ = emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial.getDefaultInstance();
           }
           beyondMaterialBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial, emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial.Builder, emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterialOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondMaterial._BeyondMaterial) detail_,
+              emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial, emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial.Builder, emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterialOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondMaterialOuterClass._BeyondMaterial) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1685,7 +1685,7 @@ public final class ItemOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Facility._Facility, emu.grasscutter.net.proto.Facility._Facility.Builder, emu.grasscutter.net.proto.Facility._FacilityOrBuilder> facilityBuilder_;
+          emu.grasscutter.net.proto._FacilityOuterClass._Facility, emu.grasscutter.net.proto._FacilityOuterClass._Facility.Builder, emu.grasscutter.net.proto._FacilityOuterClass._FacilityOrBuilder> facilityBuilder_;
       /**
        * <code>._Facility facility = 9;</code>
        * @return Whether the facility field is set.
@@ -1699,23 +1699,23 @@ public final class ItemOuterClass {
        * @return The facility.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Facility._Facility getFacility() {
+      public emu.grasscutter.net.proto._FacilityOuterClass._Facility getFacility() {
         if (facilityBuilder_ == null) {
           if (detailCase_ == 9) {
-            return (emu.grasscutter.net.proto.Facility._Facility) detail_;
+            return (emu.grasscutter.net.proto._FacilityOuterClass._Facility) detail_;
           }
-          return emu.grasscutter.net.proto.Facility._Facility.getDefaultInstance();
+          return emu.grasscutter.net.proto._FacilityOuterClass._Facility.getDefaultInstance();
         } else {
           if (detailCase_ == 9) {
             return facilityBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.Facility._Facility.getDefaultInstance();
+          return emu.grasscutter.net.proto._FacilityOuterClass._Facility.getDefaultInstance();
         }
       }
       /**
        * <code>._Facility facility = 9;</code>
        */
-      public Builder setFacility(emu.grasscutter.net.proto.Facility._Facility value) {
+      public Builder setFacility(emu.grasscutter.net.proto._FacilityOuterClass._Facility value) {
         if (facilityBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1732,7 +1732,7 @@ public final class ItemOuterClass {
        * <code>._Facility facility = 9;</code>
        */
       public Builder setFacility(
-          emu.grasscutter.net.proto.Facility._Facility.Builder builderForValue) {
+          emu.grasscutter.net.proto._FacilityOuterClass._Facility.Builder builderForValue) {
         if (facilityBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1745,11 +1745,11 @@ public final class ItemOuterClass {
       /**
        * <code>._Facility facility = 9;</code>
        */
-      public Builder mergeFacility(emu.grasscutter.net.proto.Facility._Facility value) {
+      public Builder mergeFacility(emu.grasscutter.net.proto._FacilityOuterClass._Facility value) {
         if (facilityBuilder_ == null) {
           if (detailCase_ == 9 &&
-              detail_ != emu.grasscutter.net.proto.Facility._Facility.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.Facility._Facility.newBuilder((emu.grasscutter.net.proto.Facility._Facility) detail_)
+              detail_ != emu.grasscutter.net.proto._FacilityOuterClass._Facility.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._FacilityOuterClass._Facility.newBuilder((emu.grasscutter.net.proto._FacilityOuterClass._Facility) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1786,36 +1786,36 @@ public final class ItemOuterClass {
       /**
        * <code>._Facility facility = 9;</code>
        */
-      public emu.grasscutter.net.proto.Facility._Facility.Builder getFacilityBuilder() {
+      public emu.grasscutter.net.proto._FacilityOuterClass._Facility.Builder getFacilityBuilder() {
         return getFacilityFieldBuilder().getBuilder();
       }
       /**
        * <code>._Facility facility = 9;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Facility._FacilityOrBuilder getFacilityOrBuilder() {
+      public emu.grasscutter.net.proto._FacilityOuterClass._FacilityOrBuilder getFacilityOrBuilder() {
         if ((detailCase_ == 9) && (facilityBuilder_ != null)) {
           return facilityBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 9) {
-            return (emu.grasscutter.net.proto.Facility._Facility) detail_;
+            return (emu.grasscutter.net.proto._FacilityOuterClass._Facility) detail_;
           }
-          return emu.grasscutter.net.proto.Facility._Facility.getDefaultInstance();
+          return emu.grasscutter.net.proto._FacilityOuterClass._Facility.getDefaultInstance();
         }
       }
       /**
        * <code>._Facility facility = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Facility._Facility, emu.grasscutter.net.proto.Facility._Facility.Builder, emu.grasscutter.net.proto.Facility._FacilityOrBuilder> 
+          emu.grasscutter.net.proto._FacilityOuterClass._Facility, emu.grasscutter.net.proto._FacilityOuterClass._Facility.Builder, emu.grasscutter.net.proto._FacilityOuterClass._FacilityOrBuilder> 
           getFacilityFieldBuilder() {
         if (facilityBuilder_ == null) {
           if (!(detailCase_ == 9)) {
-            detail_ = emu.grasscutter.net.proto.Facility._Facility.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._FacilityOuterClass._Facility.getDefaultInstance();
           }
           facilityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.Facility._Facility, emu.grasscutter.net.proto.Facility._Facility.Builder, emu.grasscutter.net.proto.Facility._FacilityOrBuilder>(
-                  (emu.grasscutter.net.proto.Facility._Facility) detail_,
+              emu.grasscutter.net.proto._FacilityOuterClass._Facility, emu.grasscutter.net.proto._FacilityOuterClass._Facility.Builder, emu.grasscutter.net.proto._FacilityOuterClass._FacilityOrBuilder>(
+                  (emu.grasscutter.net.proto._FacilityOuterClass._Facility) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1826,7 +1826,7 @@ public final class ItemOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TpsWeapon._TpsWeapon, emu.grasscutter.net.proto.TpsWeapon._TpsWeapon.Builder, emu.grasscutter.net.proto.TpsWeapon._TpsWeaponOrBuilder> tpsWeaponBuilder_;
+          emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon, emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon.Builder, emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeaponOrBuilder> tpsWeaponBuilder_;
       /**
        * <code>._TpsWeapon tps_weapon = 10;</code>
        * @return Whether the tpsWeapon field is set.
@@ -1840,23 +1840,23 @@ public final class ItemOuterClass {
        * @return The tpsWeapon.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TpsWeapon._TpsWeapon getTpsWeapon() {
+      public emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon getTpsWeapon() {
         if (tpsWeaponBuilder_ == null) {
           if (detailCase_ == 10) {
-            return (emu.grasscutter.net.proto.TpsWeapon._TpsWeapon) detail_;
+            return (emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon) detail_;
           }
-          return emu.grasscutter.net.proto.TpsWeapon._TpsWeapon.getDefaultInstance();
+          return emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon.getDefaultInstance();
         } else {
           if (detailCase_ == 10) {
             return tpsWeaponBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.TpsWeapon._TpsWeapon.getDefaultInstance();
+          return emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon.getDefaultInstance();
         }
       }
       /**
        * <code>._TpsWeapon tps_weapon = 10;</code>
        */
-      public Builder setTpsWeapon(emu.grasscutter.net.proto.TpsWeapon._TpsWeapon value) {
+      public Builder setTpsWeapon(emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon value) {
         if (tpsWeaponBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1873,7 +1873,7 @@ public final class ItemOuterClass {
        * <code>._TpsWeapon tps_weapon = 10;</code>
        */
       public Builder setTpsWeapon(
-          emu.grasscutter.net.proto.TpsWeapon._TpsWeapon.Builder builderForValue) {
+          emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon.Builder builderForValue) {
         if (tpsWeaponBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1886,11 +1886,11 @@ public final class ItemOuterClass {
       /**
        * <code>._TpsWeapon tps_weapon = 10;</code>
        */
-      public Builder mergeTpsWeapon(emu.grasscutter.net.proto.TpsWeapon._TpsWeapon value) {
+      public Builder mergeTpsWeapon(emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon value) {
         if (tpsWeaponBuilder_ == null) {
           if (detailCase_ == 10 &&
-              detail_ != emu.grasscutter.net.proto.TpsWeapon._TpsWeapon.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.TpsWeapon._TpsWeapon.newBuilder((emu.grasscutter.net.proto.TpsWeapon._TpsWeapon) detail_)
+              detail_ != emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon.newBuilder((emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1927,36 +1927,36 @@ public final class ItemOuterClass {
       /**
        * <code>._TpsWeapon tps_weapon = 10;</code>
        */
-      public emu.grasscutter.net.proto.TpsWeapon._TpsWeapon.Builder getTpsWeaponBuilder() {
+      public emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon.Builder getTpsWeaponBuilder() {
         return getTpsWeaponFieldBuilder().getBuilder();
       }
       /**
        * <code>._TpsWeapon tps_weapon = 10;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TpsWeapon._TpsWeaponOrBuilder getTpsWeaponOrBuilder() {
+      public emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeaponOrBuilder getTpsWeaponOrBuilder() {
         if ((detailCase_ == 10) && (tpsWeaponBuilder_ != null)) {
           return tpsWeaponBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 10) {
-            return (emu.grasscutter.net.proto.TpsWeapon._TpsWeapon) detail_;
+            return (emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon) detail_;
           }
-          return emu.grasscutter.net.proto.TpsWeapon._TpsWeapon.getDefaultInstance();
+          return emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon.getDefaultInstance();
         }
       }
       /**
        * <code>._TpsWeapon tps_weapon = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TpsWeapon._TpsWeapon, emu.grasscutter.net.proto.TpsWeapon._TpsWeapon.Builder, emu.grasscutter.net.proto.TpsWeapon._TpsWeaponOrBuilder> 
+          emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon, emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon.Builder, emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeaponOrBuilder> 
           getTpsWeaponFieldBuilder() {
         if (tpsWeaponBuilder_ == null) {
           if (!(detailCase_ == 10)) {
-            detail_ = emu.grasscutter.net.proto.TpsWeapon._TpsWeapon.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon.getDefaultInstance();
           }
           tpsWeaponBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TpsWeapon._TpsWeapon, emu.grasscutter.net.proto.TpsWeapon._TpsWeapon.Builder, emu.grasscutter.net.proto.TpsWeapon._TpsWeaponOrBuilder>(
-                  (emu.grasscutter.net.proto.TpsWeapon._TpsWeapon) detail_,
+              emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon, emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon.Builder, emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeaponOrBuilder>(
+                  (emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2041,8 +2041,8 @@ public final class ItemOuterClass {
       "ureH\000\022+\n\017beyond_material\030\010 \001(\0132\020._Beyond" +
       "MaterialH\000\022\036\n\010facility\030\t \001(\0132\n._Facility" +
       "H\000\022!\n\ntps_weapon\030\n \001(\0132\013._TpsWeaponH\000B\010\n" +
-      "\006detailB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "\006detailB+\n\031emu.grasscutter.net.protoB\016It" +
+      "emOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2050,9 +2050,9 @@ public final class ItemOuterClass {
           emu.grasscutter.net.proto.EquipOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.FurnitureOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.MaterialOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondMaterial.getDescriptor(),
-          emu.grasscutter.net.proto.Facility.getDescriptor(),
-          emu.grasscutter.net.proto.TpsWeapon.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondMaterialOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._FacilityOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._TpsWeaponOuterClass.getDescriptor(),
         });
     internal_static_Item_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2063,9 +2063,9 @@ public final class ItemOuterClass {
     emu.grasscutter.net.proto.EquipOuterClass.getDescriptor();
     emu.grasscutter.net.proto.FurnitureOuterClass.getDescriptor();
     emu.grasscutter.net.proto.MaterialOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BeyondMaterial.getDescriptor();
-    emu.grasscutter.net.proto.Facility.getDescriptor();
-    emu.grasscutter.net.proto.TpsWeapon.getDescriptor();
+    emu.grasscutter.net.proto._BeyondMaterialOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._FacilityOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._TpsWeaponOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

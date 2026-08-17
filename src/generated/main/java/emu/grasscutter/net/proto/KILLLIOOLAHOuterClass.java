@@ -33,11 +33,11 @@ public final class KILLLIOOLAHOuterClass {
      * <code>._PinName OLAIPOHLIBB = 2;</code>
      * @return The oLAIPOHLIBB.
      */
-    emu.grasscutter.net.proto.PinName._PinName getOLAIPOHLIBB();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinName getOLAIPOHLIBB();
     /**
      * <code>._PinName OLAIPOHLIBB = 2;</code>
      */
-    emu.grasscutter.net.proto.PinName._PinNameOrBuilder getOLAIPOHLIBBOrBuilder();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getOLAIPOHLIBBOrBuilder();
 
     /**
      * <code>._PinName LGIDKGPNLJC = 3;</code>
@@ -48,11 +48,11 @@ public final class KILLLIOOLAHOuterClass {
      * <code>._PinName LGIDKGPNLJC = 3;</code>
      * @return The lGIDKGPNLJC.
      */
-    emu.grasscutter.net.proto.PinName._PinName getLGIDKGPNLJC();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinName getLGIDKGPNLJC();
     /**
      * <code>._PinName LGIDKGPNLJC = 3;</code>
      */
-    emu.grasscutter.net.proto.PinName._PinNameOrBuilder getLGIDKGPNLJCOrBuilder();
+    emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getLGIDKGPNLJCOrBuilder();
   }
   /**
    * Protobuf type {@code KILLLIOOLAH}
@@ -105,11 +105,11 @@ public final class KILLLIOOLAHOuterClass {
               break;
             }
             case 18: {
-              emu.grasscutter.net.proto.PinName._PinName.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder subBuilder = null;
               if (oLAIPOHLIBB_ != null) {
                 subBuilder = oLAIPOHLIBB_.toBuilder();
               }
-              oLAIPOHLIBB_ = input.readMessage(emu.grasscutter.net.proto.PinName._PinName.parser(), extensionRegistry);
+              oLAIPOHLIBB_ = input.readMessage(emu.grasscutter.net.proto._PinNameOuterClass._PinName.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(oLAIPOHLIBB_);
                 oLAIPOHLIBB_ = subBuilder.buildPartial();
@@ -118,11 +118,11 @@ public final class KILLLIOOLAHOuterClass {
               break;
             }
             case 26: {
-              emu.grasscutter.net.proto.PinName._PinName.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder subBuilder = null;
               if (lGIDKGPNLJC_ != null) {
                 subBuilder = lGIDKGPNLJC_.toBuilder();
               }
-              lGIDKGPNLJC_ = input.readMessage(emu.grasscutter.net.proto.PinName._PinName.parser(), extensionRegistry);
+              lGIDKGPNLJC_ = input.readMessage(emu.grasscutter.net.proto._PinNameOuterClass._PinName.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(lGIDKGPNLJC_);
                 lGIDKGPNLJC_ = subBuilder.buildPartial();
@@ -174,7 +174,7 @@ public final class KILLLIOOLAHOuterClass {
     }
 
     public static final int OLAIPOHLIBB_FIELD_NUMBER = 2;
-    private emu.grasscutter.net.proto.PinName._PinName oLAIPOHLIBB_;
+    private emu.grasscutter.net.proto._PinNameOuterClass._PinName oLAIPOHLIBB_;
     /**
      * <code>._PinName OLAIPOHLIBB = 2;</code>
      * @return Whether the oLAIPOHLIBB field is set.
@@ -188,19 +188,19 @@ public final class KILLLIOOLAHOuterClass {
      * @return The oLAIPOHLIBB.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinName getOLAIPOHLIBB() {
-      return oLAIPOHLIBB_ == null ? emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : oLAIPOHLIBB_;
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinName getOLAIPOHLIBB() {
+      return oLAIPOHLIBB_ == null ? emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : oLAIPOHLIBB_;
     }
     /**
      * <code>._PinName OLAIPOHLIBB = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getOLAIPOHLIBBOrBuilder() {
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getOLAIPOHLIBBOrBuilder() {
       return getOLAIPOHLIBB();
     }
 
     public static final int LGIDKGPNLJC_FIELD_NUMBER = 3;
-    private emu.grasscutter.net.proto.PinName._PinName lGIDKGPNLJC_;
+    private emu.grasscutter.net.proto._PinNameOuterClass._PinName lGIDKGPNLJC_;
     /**
      * <code>._PinName LGIDKGPNLJC = 3;</code>
      * @return Whether the lGIDKGPNLJC field is set.
@@ -214,14 +214,14 @@ public final class KILLLIOOLAHOuterClass {
      * @return The lGIDKGPNLJC.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinName getLGIDKGPNLJC() {
-      return lGIDKGPNLJC_ == null ? emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : lGIDKGPNLJC_;
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinName getLGIDKGPNLJC() {
+      return lGIDKGPNLJC_ == null ? emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : lGIDKGPNLJC_;
     }
     /**
      * <code>._PinName LGIDKGPNLJC = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getLGIDKGPNLJCOrBuilder() {
+    public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getLGIDKGPNLJCOrBuilder() {
       return getLGIDKGPNLJC();
     }
 
@@ -618,9 +618,9 @@ public final class KILLLIOOLAHOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.PinName._PinName oLAIPOHLIBB_;
+      private emu.grasscutter.net.proto._PinNameOuterClass._PinName oLAIPOHLIBB_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> oLAIPOHLIBBBuilder_;
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> oLAIPOHLIBBBuilder_;
       /**
        * <code>._PinName OLAIPOHLIBB = 2;</code>
        * @return Whether the oLAIPOHLIBB field is set.
@@ -632,9 +632,9 @@ public final class KILLLIOOLAHOuterClass {
        * <code>._PinName OLAIPOHLIBB = 2;</code>
        * @return The oLAIPOHLIBB.
        */
-      public emu.grasscutter.net.proto.PinName._PinName getOLAIPOHLIBB() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName getOLAIPOHLIBB() {
         if (oLAIPOHLIBBBuilder_ == null) {
-          return oLAIPOHLIBB_ == null ? emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : oLAIPOHLIBB_;
+          return oLAIPOHLIBB_ == null ? emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : oLAIPOHLIBB_;
         } else {
           return oLAIPOHLIBBBuilder_.getMessage();
         }
@@ -642,7 +642,7 @@ public final class KILLLIOOLAHOuterClass {
       /**
        * <code>._PinName OLAIPOHLIBB = 2;</code>
        */
-      public Builder setOLAIPOHLIBB(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder setOLAIPOHLIBB(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (oLAIPOHLIBBBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -659,7 +659,7 @@ public final class KILLLIOOLAHOuterClass {
        * <code>._PinName OLAIPOHLIBB = 2;</code>
        */
       public Builder setOLAIPOHLIBB(
-          emu.grasscutter.net.proto.PinName._PinName.Builder builderForValue) {
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder builderForValue) {
         if (oLAIPOHLIBBBuilder_ == null) {
           oLAIPOHLIBB_ = builderForValue.build();
           onChanged();
@@ -672,11 +672,11 @@ public final class KILLLIOOLAHOuterClass {
       /**
        * <code>._PinName OLAIPOHLIBB = 2;</code>
        */
-      public Builder mergeOLAIPOHLIBB(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder mergeOLAIPOHLIBB(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (oLAIPOHLIBBBuilder_ == null) {
           if (oLAIPOHLIBB_ != null) {
             oLAIPOHLIBB_ =
-              emu.grasscutter.net.proto.PinName._PinName.newBuilder(oLAIPOHLIBB_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.newBuilder(oLAIPOHLIBB_).mergeFrom(value).buildPartial();
           } else {
             oLAIPOHLIBB_ = value;
           }
@@ -704,7 +704,7 @@ public final class KILLLIOOLAHOuterClass {
       /**
        * <code>._PinName OLAIPOHLIBB = 2;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinName.Builder getOLAIPOHLIBBBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder getOLAIPOHLIBBBuilder() {
         
         onChanged();
         return getOLAIPOHLIBBFieldBuilder().getBuilder();
@@ -712,23 +712,23 @@ public final class KILLLIOOLAHOuterClass {
       /**
        * <code>._PinName OLAIPOHLIBB = 2;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getOLAIPOHLIBBOrBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getOLAIPOHLIBBOrBuilder() {
         if (oLAIPOHLIBBBuilder_ != null) {
           return oLAIPOHLIBBBuilder_.getMessageOrBuilder();
         } else {
           return oLAIPOHLIBB_ == null ?
-              emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : oLAIPOHLIBB_;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : oLAIPOHLIBB_;
         }
       }
       /**
        * <code>._PinName OLAIPOHLIBB = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> 
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> 
           getOLAIPOHLIBBFieldBuilder() {
         if (oLAIPOHLIBBBuilder_ == null) {
           oLAIPOHLIBBBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder>(
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder>(
                   getOLAIPOHLIBB(),
                   getParentForChildren(),
                   isClean());
@@ -737,9 +737,9 @@ public final class KILLLIOOLAHOuterClass {
         return oLAIPOHLIBBBuilder_;
       }
 
-      private emu.grasscutter.net.proto.PinName._PinName lGIDKGPNLJC_;
+      private emu.grasscutter.net.proto._PinNameOuterClass._PinName lGIDKGPNLJC_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> lGIDKGPNLJCBuilder_;
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> lGIDKGPNLJCBuilder_;
       /**
        * <code>._PinName LGIDKGPNLJC = 3;</code>
        * @return Whether the lGIDKGPNLJC field is set.
@@ -751,9 +751,9 @@ public final class KILLLIOOLAHOuterClass {
        * <code>._PinName LGIDKGPNLJC = 3;</code>
        * @return The lGIDKGPNLJC.
        */
-      public emu.grasscutter.net.proto.PinName._PinName getLGIDKGPNLJC() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName getLGIDKGPNLJC() {
         if (lGIDKGPNLJCBuilder_ == null) {
-          return lGIDKGPNLJC_ == null ? emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : lGIDKGPNLJC_;
+          return lGIDKGPNLJC_ == null ? emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : lGIDKGPNLJC_;
         } else {
           return lGIDKGPNLJCBuilder_.getMessage();
         }
@@ -761,7 +761,7 @@ public final class KILLLIOOLAHOuterClass {
       /**
        * <code>._PinName LGIDKGPNLJC = 3;</code>
        */
-      public Builder setLGIDKGPNLJC(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder setLGIDKGPNLJC(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (lGIDKGPNLJCBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -778,7 +778,7 @@ public final class KILLLIOOLAHOuterClass {
        * <code>._PinName LGIDKGPNLJC = 3;</code>
        */
       public Builder setLGIDKGPNLJC(
-          emu.grasscutter.net.proto.PinName._PinName.Builder builderForValue) {
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder builderForValue) {
         if (lGIDKGPNLJCBuilder_ == null) {
           lGIDKGPNLJC_ = builderForValue.build();
           onChanged();
@@ -791,11 +791,11 @@ public final class KILLLIOOLAHOuterClass {
       /**
        * <code>._PinName LGIDKGPNLJC = 3;</code>
        */
-      public Builder mergeLGIDKGPNLJC(emu.grasscutter.net.proto.PinName._PinName value) {
+      public Builder mergeLGIDKGPNLJC(emu.grasscutter.net.proto._PinNameOuterClass._PinName value) {
         if (lGIDKGPNLJCBuilder_ == null) {
           if (lGIDKGPNLJC_ != null) {
             lGIDKGPNLJC_ =
-              emu.grasscutter.net.proto.PinName._PinName.newBuilder(lGIDKGPNLJC_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.newBuilder(lGIDKGPNLJC_).mergeFrom(value).buildPartial();
           } else {
             lGIDKGPNLJC_ = value;
           }
@@ -823,7 +823,7 @@ public final class KILLLIOOLAHOuterClass {
       /**
        * <code>._PinName LGIDKGPNLJC = 3;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinName.Builder getLGIDKGPNLJCBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder getLGIDKGPNLJCBuilder() {
         
         onChanged();
         return getLGIDKGPNLJCFieldBuilder().getBuilder();
@@ -831,23 +831,23 @@ public final class KILLLIOOLAHOuterClass {
       /**
        * <code>._PinName LGIDKGPNLJC = 3;</code>
        */
-      public emu.grasscutter.net.proto.PinName._PinNameOrBuilder getLGIDKGPNLJCOrBuilder() {
+      public emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder getLGIDKGPNLJCOrBuilder() {
         if (lGIDKGPNLJCBuilder_ != null) {
           return lGIDKGPNLJCBuilder_.getMessageOrBuilder();
         } else {
           return lGIDKGPNLJC_ == null ?
-              emu.grasscutter.net.proto.PinName._PinName.getDefaultInstance() : lGIDKGPNLJC_;
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName.getDefaultInstance() : lGIDKGPNLJC_;
         }
       }
       /**
        * <code>._PinName LGIDKGPNLJC = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder> 
+          emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder> 
           getLGIDKGPNLJCFieldBuilder() {
         if (lGIDKGPNLJCBuilder_ == null) {
           lGIDKGPNLJCBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PinName._PinName, emu.grasscutter.net.proto.PinName._PinName.Builder, emu.grasscutter.net.proto.PinName._PinNameOrBuilder>(
+              emu.grasscutter.net.proto._PinNameOuterClass._PinName, emu.grasscutter.net.proto._PinNameOuterClass._PinName.Builder, emu.grasscutter.net.proto._PinNameOuterClass._PinNameOrBuilder>(
                   getLGIDKGPNLJC(),
                   getParentForChildren(),
                   isClean());
@@ -925,13 +925,13 @@ public final class KILLLIOOLAHOuterClass {
       "\n\021KILLLIOOLAH.proto\032\016_PinName.proto\"b\n\013K" +
       "ILLLIOOLAH\022\023\n\013FOEJBABCLJJ\030\001 \001(\r\022\036\n\013OLAIP" +
       "OHLIBB\030\002 \001(\0132\t._PinName\022\036\n\013LGIDKGPNLJC\030\003" +
-      " \001(\0132\t._PinNameB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      " \001(\0132\t._PinNameB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025KILLLIOOLAHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.PinName.getDescriptor(),
+          emu.grasscutter.net.proto._PinNameOuterClass.getDescriptor(),
         });
     internal_static_KILLLIOOLAH_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -939,7 +939,7 @@ public final class KILLLIOOLAHOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_KILLLIOOLAH_descriptor,
         new java.lang.String[] { "FOEJBABCLJJ", "OLAIPOHLIBB", "LGIDKGPNLJC", });
-    emu.grasscutter.net.proto.PinName.getDescriptor();
+    emu.grasscutter.net.proto._PinNameOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

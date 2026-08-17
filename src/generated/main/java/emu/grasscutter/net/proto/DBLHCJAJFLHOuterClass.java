@@ -704,8 +704,8 @@ public final class DBLHCJAJFLHOuterClass {
       "\n\021DBLHCJAJFLH.proto\032\022GCGLevelType.proto\"" +
       "U\n\013DBLHCJAJFLH\022!\n\nlevel_type\030\010 \001(\0162\r.GCG" +
       "LevelType\022\021\n\tconfig_id\030\t \001(\r\022\020\n\010level_id" +
-      "\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025DBL" +
+      "HCJAJFLHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -659,8 +659,9 @@ public final class HomeBasicInfoNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031HomeBasicInfoNotify.proto\032\023HomeBasicIn" +
       "fo.proto\"9\n\023HomeBasicInfoNotify\022\"\n\nbasic" +
-      "_info\030\013 \001(\0132\016.HomeBasicInfoB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "_info\030\013 \001(\0132\016.HomeBasicInfoB:\n\031emu.grass" +
+      "cutter.net.protoB\035HomeBasicInfoNotifyOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

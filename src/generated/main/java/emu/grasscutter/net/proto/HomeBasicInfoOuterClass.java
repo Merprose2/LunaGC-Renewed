@@ -1297,8 +1297,9 @@ public final class HomeBasicInfoOuterClass {
       "n_edit_mode\030\010 \001(\010\022\023\n\013BIJONLBCHGL\030\t \001(\r\022\023" +
       "\n\013ABDCGFHLAGD\030\n \001(\r\022\r\n\005level\030\013 \001(\r\022/\n\021li" +
       "mited_shop_info\030\r \001(\0132\024.HomeLimitedShopI" +
-      "nfo\022\013\n\003exp\030\016 \001(\004\022\023\n\013JDHBFLPNNFK\030\017 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "nfo\022\013\n\003exp\030\016 \001(\004\022\023\n\013JDHBFLPNNFK\030\017 \001(\rB4\n" +
+      "\031emu.grasscutter.net.protoB\027HomeBasicInf" +
+      "oOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

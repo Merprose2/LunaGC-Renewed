@@ -660,8 +660,8 @@ public final class ReformFireworksReqOuterClass {
       "\n\030ReformFireworksReq.proto\032\031FireworksRef" +
       "ormData.proto\"I\n\022ReformFireworksReq\0223\n\025f" +
       "ireworks_reform_data\030\r \001(\0132\024.FireworksRe" +
-      "formDataB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "formDataB9\n\031emu.grasscutter.net.protoB\034R" +
+      "eformFireworksReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

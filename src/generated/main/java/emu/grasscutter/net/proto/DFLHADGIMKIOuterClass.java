@@ -1010,7 +1010,8 @@ public final class DFLHADGIMKIOuterClass {
       "to\032\020VisionType.proto\"e\n\013DFLHADGIMKI\022 \n\013a" +
       "ppear_type\030\001 \001(\0162\013.VisionType\022%\n\013entity_" +
       "list\030\n \003(\0132\020.SceneEntityInfo\022\r\n\005param\030\013 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025DFLHAD" +
+      "GIMKIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

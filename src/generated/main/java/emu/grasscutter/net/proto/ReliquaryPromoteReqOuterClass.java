@@ -598,8 +598,8 @@ public final class ReliquaryPromoteReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031ReliquaryPromoteReq.proto\"=\n\023Reliquary" +
       "PromoteReq\022\021\n\titem_guid\030\002 \001(\004\022\023\n\013target_" +
-      "guid\030\n \001(\004B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "guid\030\n \001(\004B:\n\031emu.grasscutter.net.protoB" +
+      "\035ReliquaryPromoteReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

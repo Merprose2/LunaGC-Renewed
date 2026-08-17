@@ -659,8 +659,8 @@ public final class LBFLDOEMDHPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LBFLDOEMDHP.proto\"G\n\013LBFLDOEMDHP\022\021\n\tco" +
       "st_time\030\004 \001(\r\022\023\n\013is_finished\030\014 \001(\010\022\020\n\010le" +
-      "vel_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "vel_id\030\016 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025LBFLDOEMDHPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

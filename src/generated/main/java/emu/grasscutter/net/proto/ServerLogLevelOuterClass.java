@@ -173,8 +173,9 @@ public final class ServerLogLevelOuterClass {
       "erLogLevel_LOG_LEVEL_INFO\020\002\022$\n ServerLog" +
       "Level_LOG_LEVEL_WARNING\020\003\022\"\n\036ServerLogLe" +
       "vel_LOG_LEVEL_ERROR\020\004\022-\n)ServerLogLevel_" +
-      "LOG_LEVEL_RED_ALERT_SILENT\020\005B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "LOG_LEVEL_RED_ALERT_SILENT\020\005B5\n\031emu.gras" +
+      "scutter.net.protoB\030ServerLogLevelOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

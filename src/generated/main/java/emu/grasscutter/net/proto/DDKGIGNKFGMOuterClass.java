@@ -741,8 +741,9 @@ public final class DDKGIGNKFGMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DDKGIGNKFGM.proto\"8\n\013DDKGIGNKFGM\022\023\n\013EJ" +
-      "GAEGAPEBA\030\001 \001(\t\022\t\n\001x\030\002 \001(\002\022\t\n\001y\030\003 \001(\002B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "GAEGAPEBA\030\001 \001(\t\022\t\n\001x\030\002 \001(\002\022\t\n\001y\030\003 \001(\002B2\n" +
+      "\031emu.grasscutter.net.protoB\025DDKGIGNKFGMO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

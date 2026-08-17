@@ -597,8 +597,9 @@ public final class ScenePlayInviteResultNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n!ScenePlayInviteResultNotify.proto\"D\n\033S" +
       "cenePlayInviteResultNotify\022\024\n\014is_all_arg" +
-      "ee\030\002 \001(\010\022\017\n\007play_id\030\013 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "ee\030\002 \001(\010\022\017\n\007play_id\030\013 \001(\rBB\n\031emu.grasscu" +
+      "tter.net.protoB%ScenePlayInviteResultNot" +
+      "ifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1077,8 +1077,8 @@ public final class DIICIBFPICBOuterClass {
       "\n\013OIEHJMHHCFB\030\005 \001(\004\022\023\n\013GHNMBPLBBFN\030\007 \001(\r" +
       "\022\023\n\013BOJNPHONGMP\030\014 \001(\004\022&\n\013KJFDCDJFCFB\030\r \001" +
       "(\0132\021.OnlinePlayerInfo\022!\n\013PENBLLBKCMC\030\016 \001" +
-      "(\0132\014.BNDDJINBCFCB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "(\0132\014.BNDDJINBCFCB2\n\031emu.grasscutter.net." +
+      "protoB\025DIICIBFPICBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

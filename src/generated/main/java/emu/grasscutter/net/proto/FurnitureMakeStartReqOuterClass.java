@@ -596,8 +596,8 @@ public final class FurnitureMakeStartReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033FurnitureMakeStartReq.proto\";\n\025Furnitu" +
       "reMakeStartReq\022\017\n\007make_id\030\003 \001(\r\022\021\n\tavata" +
-      "r_id\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "r_id\030\014 \001(\rB<\n\031emu.grasscutter.net.protoB" +
+      "\037FurnitureMakeStartReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

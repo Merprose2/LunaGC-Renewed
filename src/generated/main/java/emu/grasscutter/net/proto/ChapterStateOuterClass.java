@@ -152,8 +152,9 @@ public final class ChapterStateOuterClass {
       "\n\022ChapterState.proto*x\n\014ChapterState\022\030\n\024" +
       "ChapterState_INVALID\020\000\022 \n\034ChapterState_U" +
       "NABLE_TO_BEGIN\020\001\022\026\n\022ChapterState_BEGIN\020\002" +
-      "\022\024\n\020ChapterState_END\020\003B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\022\024\n\020ChapterState_END\020\003B3\n\031emu.grasscutte" +
+      "r.net.protoB\026ChapterStateOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

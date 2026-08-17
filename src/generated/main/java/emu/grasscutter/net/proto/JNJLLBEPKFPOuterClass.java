@@ -1042,8 +1042,9 @@ public final class JNJLLBEPKFPOuterClass {
       "\n\021JNJLLBEPKFP.proto\032\017ItemParam.proto\"k\n\013" +
       "JNJLLBEPKFP\022\023\n\013ENMFLEOOGCE\030\004 \001(\r\022\023\n\013DKNH" +
       "LJDECEH\030\005 \001(\r\022\035\n\titem_list\030\n \003(\0132\n.ItemP" +
-      "aram\022\023\n\013schedule_id\030\014 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "aram\022\023\n\013schedule_id\030\014 \001(\rB2\n\031emu.grasscu" +
+      "tter.net.protoB\025JNJLLBEPKFPOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

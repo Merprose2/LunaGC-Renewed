@@ -447,8 +447,8 @@ public final class GCGMsgPhaseContinueOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031GCGMsgPhaseContinue.proto\"\025\n\023GCGMsgPha" +
-      "seContinueB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "seContinueB:\n\031emu.grasscutter.net.protoB" +
+      "\035GCGMsgPhaseContinueOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

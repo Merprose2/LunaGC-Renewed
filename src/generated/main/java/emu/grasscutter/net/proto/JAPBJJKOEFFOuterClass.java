@@ -812,8 +812,9 @@ public final class JAPBJJKOEFFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JAPBJJKOEFF.proto\"^\n\013JAPBJJKOEFF\022\020\n\010gr" +
       "oup_id\030\001 \001(\005\022\023\n\013CDJEKCEPEHI\030\002 \001(\002\022\023\n\013CJC" +
-      "JDMHHLKD\030\003 \001(\002\022\023\n\013DDEKACOMGFG\030\004 \001(\tB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "JDMHHLKD\030\003 \001(\002\022\023\n\013DDEKACOMGFG\030\004 \001(\tB2\n\031e" +
+      "mu.grasscutter.net.protoB\025JAPBJJKOEFFOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

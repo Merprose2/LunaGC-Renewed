@@ -768,7 +768,8 @@ public final class RegionSearchOuterClass {
       "proto\"q\n\014RegionSearch\022!\n\005state\030\005 \001(\0162\022.R" +
       "egionSearchState\022\022\n\nis_entered\030\006 \001(\010\022\020\n\010" +
       "progress\030\t \001(\r\022\030\n\020region_search_id\030\n \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B3\n\031emu.grasscutter.net.protoB\026RegionSea" +
+      "rchOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

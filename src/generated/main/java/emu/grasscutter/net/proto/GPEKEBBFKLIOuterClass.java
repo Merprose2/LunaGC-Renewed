@@ -657,8 +657,9 @@ public final class GPEKEBBFKLIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GPEKEBBFKLI.proto\"0\n\013GPEKEBBFKLI\022\013\n\003ro" +
-      "t\030\006 \001(\r\022\t\n\001y\030\r \001(\r\022\t\n\001x\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "t\030\006 \001(\r\022\t\n\001y\030\r \001(\r\022\t\n\001x\030\017 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025GPEKEBBFKLIOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

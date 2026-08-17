@@ -932,8 +932,9 @@ public final class LNLFLGBODCJOuterClass {
       "\n\021LNLFLGBODCJ.proto\"\206\001\n\013LNLFLGBODCJ\022\017\n\007v" +
       "ersion\030\001 \001(\t\0222\n\013DOAGMJBIHHP\030\r \003(\0132\035.LNLF" +
       "LGBODCJ.DOAGMJBIHHPEntry\0322\n\020DOAGMJBIHHPE" +
-      "ntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "ntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B2\n\031" +
+      "emu.grasscutter.net.protoB\025LNLFLGBODCJOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

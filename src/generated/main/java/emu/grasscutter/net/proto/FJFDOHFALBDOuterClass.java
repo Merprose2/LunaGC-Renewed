@@ -596,8 +596,9 @@ public final class FJFDOHFALBDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FJFDOHFALBD.proto\"4\n\013FJFDOHFALBD\022\020\n\010is" +
-      "_agree\030\001 \001(\010\022\023\n\013EPHGOMPBKJA\030\002 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "_agree\030\001 \001(\010\022\023\n\013EPHGOMPBKJA\030\002 \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025FJFDOHFALBDOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

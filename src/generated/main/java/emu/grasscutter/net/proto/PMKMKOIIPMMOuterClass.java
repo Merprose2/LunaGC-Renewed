@@ -1630,7 +1630,8 @@ public final class PMKMKOIIPMMOuterClass {
       "OGLJKBLACH\030\003 \001(\010\022!\n\013CFKBHFHNLEL\030\004 \003(\0132\014." +
       "LCOMLEHAJLF\022!\n\013PDAKKCCGGAC\030\005 \003(\0132\014.CGDDF" +
       "DIHAKD\022\r\n\005index\030\006 \001(\r\022\023\n\013AHIGMKPAINA\030\007 \001" +
-      "(\tB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\tB2\n\031emu.grasscutter.net.protoB\025PMKMKOI" +
+      "IPMMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

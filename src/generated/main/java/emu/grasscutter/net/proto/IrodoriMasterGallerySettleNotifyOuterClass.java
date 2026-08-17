@@ -731,8 +731,9 @@ public final class IrodoriMasterGallerySettleNotifyOuterClass {
       "\032$IrodoriMasterGallerySettleInfo.proto\"l" +
       "\n IrodoriMasterGallerySettleNotify\022\022\n\nga" +
       "llery_id\030\004 \001(\r\0224\n\013settle_info\030\005 \001(\0132\037.Ir" +
-      "odoriMasterGallerySettleInfoB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "odoriMasterGallerySettleInfoBG\n\031emu.gras" +
+      "scutter.net.protoB*IrodoriMasterGalleryS" +
+      "ettleNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

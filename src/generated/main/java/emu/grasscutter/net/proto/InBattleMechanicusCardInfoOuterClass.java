@@ -909,8 +909,9 @@ public final class InBattleMechanicusCardInfoOuterClass {
       "ge_state\030\005 \001(\0162%.InBattleMechanicusCardC" +
       "hallengeState\022\023\n\013CIIAGFPECCA\030\006 \001(\r\022\023\n\013FO" +
       "LKPPDEIEB\030\010 \001(\r\022\023\n\013DDMLDPBCMFH\030\t \001(\r\022\017\n\007" +
-      "card_id\030\014 \001(\r\022\023\n\013cost_points\030\017 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "card_id\030\014 \001(\r\022\023\n\013cost_points\030\017 \001(\rBA\n\031em" +
+      "u.grasscutter.net.protoB$InBattleMechani" +
+      "cusCardInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

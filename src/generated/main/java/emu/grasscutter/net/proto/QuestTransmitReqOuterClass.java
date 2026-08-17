@@ -738,8 +738,8 @@ public final class QuestTransmitReqOuterClass {
       "\n\026QuestTransmitReq.proto\"i\n\020QuestTransmi" +
       "tReq\022\020\n\010point_id\030\010 \001(\r\022\034\n\024_template_load" +
       "ing_id\030\t \001(\r\022\023\n\013NCEIBFLFIPM\030\013 \001(\010\022\020\n\010que" +
-      "st_id\030\r \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "st_id\030\r \001(\rB7\n\031emu.grasscutter.net.proto" +
+      "B\032QuestTransmitReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

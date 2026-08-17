@@ -980,8 +980,8 @@ public final class WidgetUpdateExtraCDRspOuterClass {
       "\030\001 \001(\r\022&\n\tcool_data\030\002 \001(\0132\023.WidgetCoolDo" +
       "wnData\022\023\n\013material_id\030\005 \001(\r\022\017\n\007retcode\030\006" +
       " \001(\005\022)\n\rextra_cd_type\030\016 \001(\0162\022.WidgetExtr" +
-      "aCdTypeB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "aCdTypeB=\n\031emu.grasscutter.net.protoB Wi" +
+      "dgetUpdateExtraCDRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

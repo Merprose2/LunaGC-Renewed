@@ -1396,8 +1396,8 @@ public final class ENDIGNIHNGIOuterClass {
       "\n\021ENDIGNIHNGI.proto\"q\n\013ENDIGNIHNGI\022,\n\nle" +
       "vel_list\030\010 \003(\0132\030.ENDIGNIHNGI.GOPFNADHODO" +
       "\0324\n\013GOPFNADHODO\022\020\n\010level_id\030\003 \001(\r\022\023\n\013ADI" +
-      "DMHAGNLB\030\005 \001(\010B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "DMHAGNLB\030\005 \001(\010B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025ENDIGNIHNGIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

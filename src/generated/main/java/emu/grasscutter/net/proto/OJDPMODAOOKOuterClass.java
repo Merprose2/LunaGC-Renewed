@@ -835,8 +835,9 @@ public final class OJDPMODAOOKOuterClass {
       "\n\021OJDPMODAOOK.proto\032\021FDNBGGGEHOM.proto\"k" +
       "\n\013OJDPMODAOOK\022!\n\013JILIGGDCLDH\030\001 \001(\0162\014.FDN" +
       "BGGGEHOM\022\023\n\tprefab_id\030\013 \001(\rH\000\022\025\n\013instanc" +
-      "e_id\030\014 \001(\rH\000B\r\n\013BDDGMODLBOBB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "e_id\030\014 \001(\rH\000B\r\n\013BDDGMODLBOBB2\n\031emu.grass" +
+      "cutter.net.protoB\025OJDPMODAOOKOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

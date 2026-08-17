@@ -800,8 +800,9 @@ public final class SceneCreateEntityRspOuterClass {
       "\n\032SceneCreateEntityRsp.proto\032\026CreateEnti" +
       "tyInfo.proto\"]\n\024SceneCreateEntityRsp\022\021\n\t" +
       "entity_id\030\003 \001(\r\022\017\n\007retcode\030\n \001(\005\022!\n\006enti" +
-      "ty\030\016 \001(\0132\021.CreateEntityInfoB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "ty\030\016 \001(\0132\021.CreateEntityInfoB;\n\031emu.grass" +
+      "cutter.net.protoB\036SceneCreateEntityRspOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

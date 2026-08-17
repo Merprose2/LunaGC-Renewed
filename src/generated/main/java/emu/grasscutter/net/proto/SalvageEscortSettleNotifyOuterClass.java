@@ -731,7 +731,8 @@ public final class SalvageEscortSettleNotifyOuterClass {
       "geEscortSettleInfo.proto\"^\n\031SalvageEscor" +
       "tSettleNotify\022-\n\013settle_info\030\010 \001(\0132\030.Sal" +
       "vageEscortSettleInfo\022\022\n\ngallery_id\030\t \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B@\n\031emu.grasscutter.net.protoB#SalvageEs" +
+      "cortSettleNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

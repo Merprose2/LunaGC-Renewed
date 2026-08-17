@@ -667,8 +667,9 @@ public final class DungeonEntryInfoReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031DungeonEntryInfoReq.proto\"N\n\023DungeonEn" +
       "tryInfoReq\022\023\n\013HGBKKNDDABP\030\005 \001(\010\022\020\n\010point" +
-      "_id\030\n \001(\r\022\020\n\010scene_id\030\017 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "_id\030\n \001(\r\022\020\n\010scene_id\030\017 \001(\rB:\n\031emu.grass" +
+      "cutter.net.protoB\035DungeonEntryInfoReqOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

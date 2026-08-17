@@ -667,8 +667,9 @@ public final class DungeonInterruptChallengeReqOuterClass {
       "\n\"DungeonInterruptChallengeReq.proto\"_\n\034" +
       "DungeonInterruptChallengeReq\022\027\n\017challeng" +
       "e_index\030\004 \001(\r\022\020\n\010group_id\030\005 \001(\r\022\024\n\014chall" +
-      "enge_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "enge_id\030\017 \001(\rBC\n\031emu.grasscutter.net.pro" +
+      "toB&DungeonInterruptChallengeReqOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

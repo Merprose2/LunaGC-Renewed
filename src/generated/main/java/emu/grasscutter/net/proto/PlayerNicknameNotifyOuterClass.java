@@ -605,8 +605,9 @@ public final class PlayerNicknameNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032PlayerNicknameNotify.proto\"(\n\024PlayerNi" +
-      "cknameNotify\022\020\n\010nickname\030\006 \001(\tB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "cknameNotify\022\020\n\010nickname\030\006 \001(\tB;\n\031emu.gr" +
+      "asscutter.net.protoB\036PlayerNicknameNotif" +
+      "yOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

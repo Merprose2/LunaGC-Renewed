@@ -752,8 +752,9 @@ public final class HPINHHMDNIEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HPINHHMDNIE.proto\032\021MJKJJMGDLHO.proto\"E" +
       "\n\013HPINHHMDNIE\022!\n\013JILIGGDCLDH\030\001 \001(\0162\014.MJK" +
-      "JJMGDLHO\022\023\n\013DDFIFFENGJK\030\002 \003(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "JJMGDLHO\022\023\n\013DDFIFFENGJK\030\002 \003(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025HPINHHMDNIEOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

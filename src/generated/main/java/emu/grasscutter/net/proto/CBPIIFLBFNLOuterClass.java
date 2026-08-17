@@ -589,8 +589,9 @@ public final class CBPIIFLBFNLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CBPIIFLBFNL.proto\"7\n\013CBPIIFLBFNL\022\023\n\013HG" +
-      "KNBHMOPLK\030\001 \001(\010\022\023\n\013KJHEFDOHAJP\030\002 \001(\010B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "KNBHMOPLK\030\001 \001(\010\022\023\n\013KJHEFDOHAJP\030\002 \001(\010B2\n\031" +
+      "emu.grasscutter.net.protoB\025CBPIIFLBFNLOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

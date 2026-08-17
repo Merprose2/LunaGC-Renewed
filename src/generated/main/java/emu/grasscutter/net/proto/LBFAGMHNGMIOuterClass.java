@@ -454,8 +454,9 @@ public final class LBFAGMHNGMIOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021LBFAGMHNGMI.proto\"\r\n\013LBFAGMHNGMIB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021LBFAGMHNGMI.proto\"\r\n\013LBFAGMHNGMIB2\n\031em" +
+      "u.grasscutter.net.protoB\025LBFAGMHNGMIOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

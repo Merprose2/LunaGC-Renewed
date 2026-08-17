@@ -595,8 +595,9 @@ public final class LMIPGAJLLPIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LMIPGAJLLPI.proto\".\n\013LMIPGAJLLPI\022\n\n\002id" +
-      "\030\003 \001(\r\022\023\n\013PFFMBHMEPBJ\030\016 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\030\003 \001(\r\022\023\n\013PFFMBHMEPBJ\030\016 \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025LMIPGAJLLPIOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

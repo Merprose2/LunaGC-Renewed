@@ -172,8 +172,9 @@ public final class OPMHBGFPMLJOuterClass {
       "ELECT_AVATAR\020\001\022!\n\035OPMHBGFPMLJ_READY_SELE" +
       "CT_CARD\020\002\022!\n\035OPMHBGFPMLJ_READY_ENTER_FIG" +
       "HT\020\003\022\032\n\026OPMHBGFPMLJ_ALL_FINISH\020\004\022\037\n\033OPMH" +
-      "BGFPMLJ_WAIT_ALL_FINISH\020\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "BGFPMLJ_WAIT_ALL_FINISH\020\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025OPMHBGFPMLJOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

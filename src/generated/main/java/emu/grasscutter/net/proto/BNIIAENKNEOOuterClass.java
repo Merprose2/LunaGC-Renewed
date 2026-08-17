@@ -595,8 +595,9 @@ public final class BNIIAENKNEOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BNIIAENKNEO.proto\"7\n\013BNIIAENKNEO\022\023\n\013BM" +
-      "BFNLBOLAG\030\013 \001(\r\022\023\n\013KMDOFBPMGAI\030\017 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "BFNLBOLAG\030\013 \001(\r\022\023\n\013KMDOFBPMGAI\030\017 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025BNIIAENKNEOOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

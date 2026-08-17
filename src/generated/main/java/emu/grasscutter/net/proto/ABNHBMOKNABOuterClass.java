@@ -659,8 +659,8 @@ public final class ABNHBMOKNABOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ABNHBMOKNAB.proto\032\021FBKECJKFKLE.proto\"2" +
       "\n\013ABNHBMOKNAB\022#\n\rschedule_info\030\005 \001(\0132\014.F" +
-      "BKECJKFKLEB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "BKECJKFKLEB2\n\031emu.grasscutter.net.protoB" +
+      "\025ABNHBMOKNABOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

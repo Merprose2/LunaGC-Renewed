@@ -641,8 +641,8 @@ public final class GEMHPHCHFHCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GEMHPHCHFHC.proto\"!\n\013GEMHPHCHFHC\022\022\n\nva" +
-      "lue_list\030\001 \003(\010B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "lue_list\030\001 \003(\010B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025GEMHPHCHFHCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

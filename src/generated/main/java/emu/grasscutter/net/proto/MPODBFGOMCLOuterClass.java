@@ -454,8 +454,9 @@ public final class MPODBFGOMCLOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021MPODBFGOMCL.proto\"\r\n\013MPODBFGOMCLB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021MPODBFGOMCL.proto\"\r\n\013MPODBFGOMCLB2\n\031em" +
+      "u.grasscutter.net.protoB\025MPODBFGOMCLOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

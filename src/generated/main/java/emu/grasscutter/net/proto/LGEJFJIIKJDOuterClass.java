@@ -997,7 +997,8 @@ public final class LGEJFJIIKJDOuterClass {
       "FGCCOJIOJE\030\001 \001(\r\022\023\n\013LELMFKDOADP\030\006 \001(\r\022\023\n" +
       "\013NGOAKGCMOLN\030\010 \001(\r\022\023\n\013JFPDFFENBIN\030\t \003(\r\022" +
       "\023\n\013APAANHIICIJ\030\013 \001(\r\022\023\n\013GAEPPHPPDLK\030\r \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB2\n\031emu.grasscutter.net.protoB\025LGEJFJII" +
+      "KJDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

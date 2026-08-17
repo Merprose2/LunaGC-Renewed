@@ -278,11 +278,11 @@ public final class LOLJLHNCIHGOuterClass {
      * <code>._EndureProperty endure_property = 28;</code>
      * @return The endureProperty.
      */
-    emu.grasscutter.net.proto.EndureProperty._EndureProperty getEndureProperty();
+    emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty getEndureProperty();
     /**
      * <code>._EndureProperty endure_property = 28;</code>
      */
-    emu.grasscutter.net.proto.EndureProperty._EndurePropertyOrBuilder getEndurePropertyOrBuilder();
+    emu.grasscutter.net.proto._EndurePropertyOuterClass._EndurePropertyOrBuilder getEndurePropertyOrBuilder();
 
     /**
      * <code>.FJABONAKKMN sound_effect_property = 29;</code>
@@ -623,14 +623,14 @@ public final class LOLJLHNCIHGOuterClass {
               break;
             }
             case 226: {
-              emu.grasscutter.net.proto.EndureProperty._EndureProperty.Builder subBuilder = null;
+              emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty.Builder subBuilder = null;
               if (detailCase_ == 28) {
-                subBuilder = ((emu.grasscutter.net.proto.EndureProperty._EndureProperty) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.EndureProperty._EndureProperty.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.EndureProperty._EndureProperty) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 28;
@@ -1332,21 +1332,21 @@ public final class LOLJLHNCIHGOuterClass {
      * @return The endureProperty.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.EndureProperty._EndureProperty getEndureProperty() {
+    public emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty getEndureProperty() {
       if (detailCase_ == 28) {
-         return (emu.grasscutter.net.proto.EndureProperty._EndureProperty) detail_;
+         return (emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty) detail_;
       }
-      return emu.grasscutter.net.proto.EndureProperty._EndureProperty.getDefaultInstance();
+      return emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty.getDefaultInstance();
     }
     /**
      * <code>._EndureProperty endure_property = 28;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.EndureProperty._EndurePropertyOrBuilder getEndurePropertyOrBuilder() {
+    public emu.grasscutter.net.proto._EndurePropertyOuterClass._EndurePropertyOrBuilder getEndurePropertyOrBuilder() {
       if (detailCase_ == 28) {
-         return (emu.grasscutter.net.proto.EndureProperty._EndureProperty) detail_;
+         return (emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty) detail_;
       }
-      return emu.grasscutter.net.proto.EndureProperty._EndureProperty.getDefaultInstance();
+      return emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty.getDefaultInstance();
     }
 
     public static final int SOUND_EFFECT_PROPERTY_FIELD_NUMBER = 29;
@@ -1539,7 +1539,7 @@ public final class LOLJLHNCIHGOuterClass {
         output.writeMessage(27, (emu.grasscutter.net.proto.EGACKICAHJCOuterClass.EGACKICAHJC) detail_);
       }
       if (detailCase_ == 28) {
-        output.writeMessage(28, (emu.grasscutter.net.proto.EndureProperty._EndureProperty) detail_);
+        output.writeMessage(28, (emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty) detail_);
       }
       if (detailCase_ == 29) {
         output.writeMessage(29, (emu.grasscutter.net.proto.FJABONAKKMNOuterClass.FJABONAKKMN) detail_);
@@ -1632,7 +1632,7 @@ public final class LOLJLHNCIHGOuterClass {
       }
       if (detailCase_ == 28) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(28, (emu.grasscutter.net.proto.EndureProperty._EndureProperty) detail_);
+          .computeMessageSize(28, (emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty) detail_);
       }
       if (detailCase_ == 29) {
         size += com.google.protobuf.CodedOutputStream
@@ -4663,7 +4663,7 @@ public final class LOLJLHNCIHGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EndureProperty._EndureProperty, emu.grasscutter.net.proto.EndureProperty._EndureProperty.Builder, emu.grasscutter.net.proto.EndureProperty._EndurePropertyOrBuilder> endurePropertyBuilder_;
+          emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty, emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty.Builder, emu.grasscutter.net.proto._EndurePropertyOuterClass._EndurePropertyOrBuilder> endurePropertyBuilder_;
       /**
        * <code>._EndureProperty endure_property = 28;</code>
        * @return Whether the endureProperty field is set.
@@ -4677,23 +4677,23 @@ public final class LOLJLHNCIHGOuterClass {
        * @return The endureProperty.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.EndureProperty._EndureProperty getEndureProperty() {
+      public emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty getEndureProperty() {
         if (endurePropertyBuilder_ == null) {
           if (detailCase_ == 28) {
-            return (emu.grasscutter.net.proto.EndureProperty._EndureProperty) detail_;
+            return (emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty) detail_;
           }
-          return emu.grasscutter.net.proto.EndureProperty._EndureProperty.getDefaultInstance();
+          return emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty.getDefaultInstance();
         } else {
           if (detailCase_ == 28) {
             return endurePropertyBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.EndureProperty._EndureProperty.getDefaultInstance();
+          return emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty.getDefaultInstance();
         }
       }
       /**
        * <code>._EndureProperty endure_property = 28;</code>
        */
-      public Builder setEndureProperty(emu.grasscutter.net.proto.EndureProperty._EndureProperty value) {
+      public Builder setEndureProperty(emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty value) {
         if (endurePropertyBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4710,7 +4710,7 @@ public final class LOLJLHNCIHGOuterClass {
        * <code>._EndureProperty endure_property = 28;</code>
        */
       public Builder setEndureProperty(
-          emu.grasscutter.net.proto.EndureProperty._EndureProperty.Builder builderForValue) {
+          emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty.Builder builderForValue) {
         if (endurePropertyBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -4723,11 +4723,11 @@ public final class LOLJLHNCIHGOuterClass {
       /**
        * <code>._EndureProperty endure_property = 28;</code>
        */
-      public Builder mergeEndureProperty(emu.grasscutter.net.proto.EndureProperty._EndureProperty value) {
+      public Builder mergeEndureProperty(emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty value) {
         if (endurePropertyBuilder_ == null) {
           if (detailCase_ == 28 &&
-              detail_ != emu.grasscutter.net.proto.EndureProperty._EndureProperty.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.EndureProperty._EndureProperty.newBuilder((emu.grasscutter.net.proto.EndureProperty._EndureProperty) detail_)
+              detail_ != emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty.newBuilder((emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -4764,36 +4764,36 @@ public final class LOLJLHNCIHGOuterClass {
       /**
        * <code>._EndureProperty endure_property = 28;</code>
        */
-      public emu.grasscutter.net.proto.EndureProperty._EndureProperty.Builder getEndurePropertyBuilder() {
+      public emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty.Builder getEndurePropertyBuilder() {
         return getEndurePropertyFieldBuilder().getBuilder();
       }
       /**
        * <code>._EndureProperty endure_property = 28;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.EndureProperty._EndurePropertyOrBuilder getEndurePropertyOrBuilder() {
+      public emu.grasscutter.net.proto._EndurePropertyOuterClass._EndurePropertyOrBuilder getEndurePropertyOrBuilder() {
         if ((detailCase_ == 28) && (endurePropertyBuilder_ != null)) {
           return endurePropertyBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 28) {
-            return (emu.grasscutter.net.proto.EndureProperty._EndureProperty) detail_;
+            return (emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty) detail_;
           }
-          return emu.grasscutter.net.proto.EndureProperty._EndureProperty.getDefaultInstance();
+          return emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty.getDefaultInstance();
         }
       }
       /**
        * <code>._EndureProperty endure_property = 28;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EndureProperty._EndureProperty, emu.grasscutter.net.proto.EndureProperty._EndureProperty.Builder, emu.grasscutter.net.proto.EndureProperty._EndurePropertyOrBuilder> 
+          emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty, emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty.Builder, emu.grasscutter.net.proto._EndurePropertyOuterClass._EndurePropertyOrBuilder> 
           getEndurePropertyFieldBuilder() {
         if (endurePropertyBuilder_ == null) {
           if (!(detailCase_ == 28)) {
-            detail_ = emu.grasscutter.net.proto.EndureProperty._EndureProperty.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty.getDefaultInstance();
           }
           endurePropertyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.EndureProperty._EndureProperty, emu.grasscutter.net.proto.EndureProperty._EndureProperty.Builder, emu.grasscutter.net.proto.EndureProperty._EndurePropertyOrBuilder>(
-                  (emu.grasscutter.net.proto.EndureProperty._EndureProperty) detail_,
+              emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty, emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty.Builder, emu.grasscutter.net.proto._EndurePropertyOuterClass._EndurePropertyOrBuilder>(
+                  (emu.grasscutter.net.proto._EndurePropertyOuterClass._EndureProperty) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -5471,8 +5471,8 @@ public final class LOLJLHNCIHGOuterClass {
       "PHH\000\0226\n\036monster_defined_state_property\030\037" +
       " \001(\0132\014.HNJENOJCJIOH\000\0225\n\035model_color_mate" +
       "rial_property\030  \001(\0132\014.OONGGGEBEDFH\000B\010\n\006d" +
-      "etailB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "etailB2\n\031emu.grasscutter.net.protoB\025LOLJ" +
+      "LHNCIHGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -5498,7 +5498,7 @@ public final class LOLJLHNCIHGOuterClass {
           emu.grasscutter.net.proto.NKONMEEBFNHOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ODMJDICELOOOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.OONGGGEBEDFOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.EndureProperty.getDescriptor(),
+          emu.grasscutter.net.proto._EndurePropertyOuterClass.getDescriptor(),
         });
     internal_static_LOLJLHNCIHG_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -5527,7 +5527,7 @@ public final class LOLJLHNCIHGOuterClass {
     emu.grasscutter.net.proto.NKONMEEBFNHOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ODMJDICELOOOuterClass.getDescriptor();
     emu.grasscutter.net.proto.OONGGGEBEDFOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.EndureProperty.getDescriptor();
+    emu.grasscutter.net.proto._EndurePropertyOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

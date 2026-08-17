@@ -1034,8 +1034,9 @@ public final class LBGOJAFBJGAOuterClass {
       "\n\021LBGOJAFBJGA.proto\032\020Uint32Pair.proto\"f\n" +
       "\013LBGOJAFBJGA\022\017\n\007card_id\030\003 \001(\r\022\036\n\tcost_li" +
       "st\030\004 \003(\0132\013.Uint32Pair\022\023\n\013AOFMIEBDDMK\030\013 \001" +
-      "(\r\022\021\n\tcard_guid\030\016 \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "(\r\022\021\n\tcard_guid\030\016 \001(\rB2\n\031emu.grasscutter" +
+      ".net.protoB\025LBGOJAFBJGAOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

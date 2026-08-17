@@ -625,8 +625,9 @@ public final class EBILPEKMMOEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EBILPEKMMOE.proto\032\021DONBNKJAIDH.proto\"B" +
       "\n\013EBILPEKMMOE\022\020\n\010level_id\030\002 \001(\r\022!\n\013JLOKH" +
-      "DKLJEE\030\017 \001(\0162\014.DONBNKJAIDHB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "DKLJEE\030\017 \001(\0162\014.DONBNKJAIDHB2\n\031emu.grassc" +
+      "utter.net.protoB\025EBILPEKMMOEOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

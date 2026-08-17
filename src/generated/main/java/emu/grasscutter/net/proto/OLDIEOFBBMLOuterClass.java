@@ -100,11 +100,11 @@ public final class OLDIEOFBBMLOuterClass {
      * <code>._VectorMoverInfo vector_mover_info = 11;</code>
      * @return The vectorMoverInfo.
      */
-    emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo getVectorMoverInfo();
+    emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo getVectorMoverInfo();
     /**
      * <code>._VectorMoverInfo vector_mover_info = 11;</code>
      */
-    emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfoOrBuilder getVectorMoverInfoOrBuilder();
+    emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfoOrBuilder getVectorMoverInfoOrBuilder();
 
     /**
      * <code>._RotateMoverInfo rotate_mover_info = 12;</code>
@@ -115,11 +115,11 @@ public final class OLDIEOFBBMLOuterClass {
      * <code>._RotateMoverInfo rotate_mover_info = 12;</code>
      * @return The rotateMoverInfo.
      */
-    emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo getRotateMoverInfo();
+    emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo getRotateMoverInfo();
     /**
      * <code>._RotateMoverInfo rotate_mover_info = 12;</code>
      */
-    emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfoOrBuilder getRotateMoverInfoOrBuilder();
+    emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfoOrBuilder getRotateMoverInfoOrBuilder();
 
     /**
      * <code>._RouteMoverInfo route_mover_info = 13;</code>
@@ -130,11 +130,11 @@ public final class OLDIEOFBBMLOuterClass {
      * <code>._RouteMoverInfo route_mover_info = 13;</code>
      * @return The routeMoverInfo.
      */
-    emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo getRouteMoverInfo();
+    emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo getRouteMoverInfo();
     /**
      * <code>._RouteMoverInfo route_mover_info = 13;</code>
      */
-    emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfoOrBuilder getRouteMoverInfoOrBuilder();
+    emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfoOrBuilder getRouteMoverInfoOrBuilder();
 
     /**
      * <code>._FixedMoverInfo fixed_mover_info = 14;</code>
@@ -145,11 +145,11 @@ public final class OLDIEOFBBMLOuterClass {
      * <code>._FixedMoverInfo fixed_mover_info = 14;</code>
      * @return The fixedMoverInfo.
      */
-    emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo getFixedMoverInfo();
+    emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo getFixedMoverInfo();
     /**
      * <code>._FixedMoverInfo fixed_mover_info = 14;</code>
      */
-    emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfoOrBuilder getFixedMoverInfoOrBuilder();
+    emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfoOrBuilder getFixedMoverInfoOrBuilder();
 
     public emu.grasscutter.net.proto.OLDIEOFBBMLOuterClass.OLDIEOFBBML.DetailCase getDetailCase();
   }
@@ -253,56 +253,56 @@ public final class OLDIEOFBBMLOuterClass {
               break;
             }
             case 90: {
-              emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo.Builder subBuilder = null;
               if (detailCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 11;
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo.Builder subBuilder = null;
               if (detailCase_ == 12) {
-                subBuilder = ((emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 12;
               break;
             }
             case 106: {
-              emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo.Builder subBuilder = null;
               if (detailCase_ == 13) {
-                subBuilder = ((emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 13;
               break;
             }
             case 114: {
-              emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo.Builder subBuilder = null;
               if (detailCase_ == 14) {
-                subBuilder = ((emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 14;
@@ -545,21 +545,21 @@ public final class OLDIEOFBBMLOuterClass {
      * @return The vectorMoverInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo getVectorMoverInfo() {
+    public emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo getVectorMoverInfo() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo) detail_;
+         return (emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo) detail_;
       }
-      return emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo.getDefaultInstance();
     }
     /**
      * <code>._VectorMoverInfo vector_mover_info = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfoOrBuilder getVectorMoverInfoOrBuilder() {
+    public emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfoOrBuilder getVectorMoverInfoOrBuilder() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo) detail_;
+         return (emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo) detail_;
       }
-      return emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo.getDefaultInstance();
     }
 
     public static final int ROTATE_MOVER_INFO_FIELD_NUMBER = 12;
@@ -576,21 +576,21 @@ public final class OLDIEOFBBMLOuterClass {
      * @return The rotateMoverInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo getRotateMoverInfo() {
+    public emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo getRotateMoverInfo() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo) detail_;
+         return (emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo) detail_;
       }
-      return emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo.getDefaultInstance();
     }
     /**
      * <code>._RotateMoverInfo rotate_mover_info = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfoOrBuilder getRotateMoverInfoOrBuilder() {
+    public emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfoOrBuilder getRotateMoverInfoOrBuilder() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo) detail_;
+         return (emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo) detail_;
       }
-      return emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo.getDefaultInstance();
     }
 
     public static final int ROUTE_MOVER_INFO_FIELD_NUMBER = 13;
@@ -607,21 +607,21 @@ public final class OLDIEOFBBMLOuterClass {
      * @return The routeMoverInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo getRouteMoverInfo() {
+    public emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo getRouteMoverInfo() {
       if (detailCase_ == 13) {
-         return (emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo) detail_;
+         return (emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo) detail_;
       }
-      return emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo.getDefaultInstance();
     }
     /**
      * <code>._RouteMoverInfo route_mover_info = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfoOrBuilder getRouteMoverInfoOrBuilder() {
+    public emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfoOrBuilder getRouteMoverInfoOrBuilder() {
       if (detailCase_ == 13) {
-         return (emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo) detail_;
+         return (emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo) detail_;
       }
-      return emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo.getDefaultInstance();
     }
 
     public static final int FIXED_MOVER_INFO_FIELD_NUMBER = 14;
@@ -638,21 +638,21 @@ public final class OLDIEOFBBMLOuterClass {
      * @return The fixedMoverInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo getFixedMoverInfo() {
+    public emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo getFixedMoverInfo() {
       if (detailCase_ == 14) {
-         return (emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo) detail_;
+         return (emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo) detail_;
       }
-      return emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo.getDefaultInstance();
     }
     /**
      * <code>._FixedMoverInfo fixed_mover_info = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfoOrBuilder getFixedMoverInfoOrBuilder() {
+    public emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfoOrBuilder getFixedMoverInfoOrBuilder() {
       if (detailCase_ == 14) {
-         return (emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo) detail_;
+         return (emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo) detail_;
       }
-      return emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -694,16 +694,16 @@ public final class OLDIEOFBBMLOuterClass {
         output.writeMessage(8, getFFHNLIMFNEG());
       }
       if (detailCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo) detail_);
+        output.writeMessage(11, (emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo) detail_);
       }
       if (detailCase_ == 12) {
-        output.writeMessage(12, (emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo) detail_);
+        output.writeMessage(12, (emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo) detail_);
       }
       if (detailCase_ == 13) {
-        output.writeMessage(13, (emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo) detail_);
+        output.writeMessage(13, (emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo) detail_);
       }
       if (detailCase_ == 14) {
-        output.writeMessage(14, (emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo) detail_);
+        output.writeMessage(14, (emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -747,19 +747,19 @@ public final class OLDIEOFBBMLOuterClass {
       }
       if (detailCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo) detail_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo) detail_);
       }
       if (detailCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo) detail_);
+          .computeMessageSize(12, (emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo) detail_);
       }
       if (detailCase_ == 13) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, (emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo) detail_);
+          .computeMessageSize(13, (emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo) detail_);
       }
       if (detailCase_ == 14) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, (emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo) detail_);
+          .computeMessageSize(14, (emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1655,7 +1655,7 @@ public final class OLDIEOFBBMLOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo, emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo.Builder, emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfoOrBuilder> vectorMoverInfoBuilder_;
+          emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo, emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo.Builder, emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfoOrBuilder> vectorMoverInfoBuilder_;
       /**
        * <code>._VectorMoverInfo vector_mover_info = 11;</code>
        * @return Whether the vectorMoverInfo field is set.
@@ -1669,23 +1669,23 @@ public final class OLDIEOFBBMLOuterClass {
        * @return The vectorMoverInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo getVectorMoverInfo() {
+      public emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo getVectorMoverInfo() {
         if (vectorMoverInfoBuilder_ == null) {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo) detail_;
+            return (emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo) detail_;
           }
-          return emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 11) {
             return vectorMoverInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._VectorMoverInfo vector_mover_info = 11;</code>
        */
-      public Builder setVectorMoverInfo(emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo value) {
+      public Builder setVectorMoverInfo(emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo value) {
         if (vectorMoverInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1702,7 +1702,7 @@ public final class OLDIEOFBBMLOuterClass {
        * <code>._VectorMoverInfo vector_mover_info = 11;</code>
        */
       public Builder setVectorMoverInfo(
-          emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo.Builder builderForValue) {
         if (vectorMoverInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1715,11 +1715,11 @@ public final class OLDIEOFBBMLOuterClass {
       /**
        * <code>._VectorMoverInfo vector_mover_info = 11;</code>
        */
-      public Builder mergeVectorMoverInfo(emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo value) {
+      public Builder mergeVectorMoverInfo(emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo value) {
         if (vectorMoverInfoBuilder_ == null) {
           if (detailCase_ == 11 &&
-              detail_ != emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo.newBuilder((emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo.newBuilder((emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1756,36 +1756,36 @@ public final class OLDIEOFBBMLOuterClass {
       /**
        * <code>._VectorMoverInfo vector_mover_info = 11;</code>
        */
-      public emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo.Builder getVectorMoverInfoBuilder() {
+      public emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo.Builder getVectorMoverInfoBuilder() {
         return getVectorMoverInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._VectorMoverInfo vector_mover_info = 11;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfoOrBuilder getVectorMoverInfoOrBuilder() {
+      public emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfoOrBuilder getVectorMoverInfoOrBuilder() {
         if ((detailCase_ == 11) && (vectorMoverInfoBuilder_ != null)) {
           return vectorMoverInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo) detail_;
+            return (emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo) detail_;
           }
-          return emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._VectorMoverInfo vector_mover_info = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo, emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo.Builder, emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfoOrBuilder> 
+          emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo, emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo.Builder, emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfoOrBuilder> 
           getVectorMoverInfoFieldBuilder() {
         if (vectorMoverInfoBuilder_ == null) {
           if (!(detailCase_ == 11)) {
-            detail_ = emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo.getDefaultInstance();
           }
           vectorMoverInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo, emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo.Builder, emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.VectorMoverInfo._VectorMoverInfo) detail_,
+              emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo, emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo.Builder, emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._VectorMoverInfoOuterClass._VectorMoverInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1796,7 +1796,7 @@ public final class OLDIEOFBBMLOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo, emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo.Builder, emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfoOrBuilder> rotateMoverInfoBuilder_;
+          emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo, emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo.Builder, emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfoOrBuilder> rotateMoverInfoBuilder_;
       /**
        * <code>._RotateMoverInfo rotate_mover_info = 12;</code>
        * @return Whether the rotateMoverInfo field is set.
@@ -1810,23 +1810,23 @@ public final class OLDIEOFBBMLOuterClass {
        * @return The rotateMoverInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo getRotateMoverInfo() {
+      public emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo getRotateMoverInfo() {
         if (rotateMoverInfoBuilder_ == null) {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo) detail_;
+            return (emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo) detail_;
           }
-          return emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 12) {
             return rotateMoverInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._RotateMoverInfo rotate_mover_info = 12;</code>
        */
-      public Builder setRotateMoverInfo(emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo value) {
+      public Builder setRotateMoverInfo(emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo value) {
         if (rotateMoverInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1843,7 +1843,7 @@ public final class OLDIEOFBBMLOuterClass {
        * <code>._RotateMoverInfo rotate_mover_info = 12;</code>
        */
       public Builder setRotateMoverInfo(
-          emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo.Builder builderForValue) {
         if (rotateMoverInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1856,11 +1856,11 @@ public final class OLDIEOFBBMLOuterClass {
       /**
        * <code>._RotateMoverInfo rotate_mover_info = 12;</code>
        */
-      public Builder mergeRotateMoverInfo(emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo value) {
+      public Builder mergeRotateMoverInfo(emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo value) {
         if (rotateMoverInfoBuilder_ == null) {
           if (detailCase_ == 12 &&
-              detail_ != emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo.newBuilder((emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo.newBuilder((emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1897,36 +1897,36 @@ public final class OLDIEOFBBMLOuterClass {
       /**
        * <code>._RotateMoverInfo rotate_mover_info = 12;</code>
        */
-      public emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo.Builder getRotateMoverInfoBuilder() {
+      public emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo.Builder getRotateMoverInfoBuilder() {
         return getRotateMoverInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._RotateMoverInfo rotate_mover_info = 12;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfoOrBuilder getRotateMoverInfoOrBuilder() {
+      public emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfoOrBuilder getRotateMoverInfoOrBuilder() {
         if ((detailCase_ == 12) && (rotateMoverInfoBuilder_ != null)) {
           return rotateMoverInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo) detail_;
+            return (emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo) detail_;
           }
-          return emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._RotateMoverInfo rotate_mover_info = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo, emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo.Builder, emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfoOrBuilder> 
+          emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo, emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo.Builder, emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfoOrBuilder> 
           getRotateMoverInfoFieldBuilder() {
         if (rotateMoverInfoBuilder_ == null) {
           if (!(detailCase_ == 12)) {
-            detail_ = emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo.getDefaultInstance();
           }
           rotateMoverInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo, emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo.Builder, emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.RotateMoverInfo._RotateMoverInfo) detail_,
+              emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo, emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo.Builder, emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._RotateMoverInfoOuterClass._RotateMoverInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1937,7 +1937,7 @@ public final class OLDIEOFBBMLOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo, emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo.Builder, emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfoOrBuilder> routeMoverInfoBuilder_;
+          emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo, emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo.Builder, emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfoOrBuilder> routeMoverInfoBuilder_;
       /**
        * <code>._RouteMoverInfo route_mover_info = 13;</code>
        * @return Whether the routeMoverInfo field is set.
@@ -1951,23 +1951,23 @@ public final class OLDIEOFBBMLOuterClass {
        * @return The routeMoverInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo getRouteMoverInfo() {
+      public emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo getRouteMoverInfo() {
         if (routeMoverInfoBuilder_ == null) {
           if (detailCase_ == 13) {
-            return (emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo) detail_;
+            return (emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo) detail_;
           }
-          return emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 13) {
             return routeMoverInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._RouteMoverInfo route_mover_info = 13;</code>
        */
-      public Builder setRouteMoverInfo(emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo value) {
+      public Builder setRouteMoverInfo(emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo value) {
         if (routeMoverInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1984,7 +1984,7 @@ public final class OLDIEOFBBMLOuterClass {
        * <code>._RouteMoverInfo route_mover_info = 13;</code>
        */
       public Builder setRouteMoverInfo(
-          emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo.Builder builderForValue) {
         if (routeMoverInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1997,11 +1997,11 @@ public final class OLDIEOFBBMLOuterClass {
       /**
        * <code>._RouteMoverInfo route_mover_info = 13;</code>
        */
-      public Builder mergeRouteMoverInfo(emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo value) {
+      public Builder mergeRouteMoverInfo(emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo value) {
         if (routeMoverInfoBuilder_ == null) {
           if (detailCase_ == 13 &&
-              detail_ != emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo.newBuilder((emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo.newBuilder((emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2038,36 +2038,36 @@ public final class OLDIEOFBBMLOuterClass {
       /**
        * <code>._RouteMoverInfo route_mover_info = 13;</code>
        */
-      public emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo.Builder getRouteMoverInfoBuilder() {
+      public emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo.Builder getRouteMoverInfoBuilder() {
         return getRouteMoverInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._RouteMoverInfo route_mover_info = 13;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfoOrBuilder getRouteMoverInfoOrBuilder() {
+      public emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfoOrBuilder getRouteMoverInfoOrBuilder() {
         if ((detailCase_ == 13) && (routeMoverInfoBuilder_ != null)) {
           return routeMoverInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 13) {
-            return (emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo) detail_;
+            return (emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo) detail_;
           }
-          return emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._RouteMoverInfo route_mover_info = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo, emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo.Builder, emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfoOrBuilder> 
+          emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo, emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo.Builder, emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfoOrBuilder> 
           getRouteMoverInfoFieldBuilder() {
         if (routeMoverInfoBuilder_ == null) {
           if (!(detailCase_ == 13)) {
-            detail_ = emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo.getDefaultInstance();
           }
           routeMoverInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo, emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo.Builder, emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.RouteMoverInfo._RouteMoverInfo) detail_,
+              emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo, emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo.Builder, emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._RouteMoverInfoOuterClass._RouteMoverInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2078,7 +2078,7 @@ public final class OLDIEOFBBMLOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo, emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo.Builder, emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfoOrBuilder> fixedMoverInfoBuilder_;
+          emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo, emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo.Builder, emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfoOrBuilder> fixedMoverInfoBuilder_;
       /**
        * <code>._FixedMoverInfo fixed_mover_info = 14;</code>
        * @return Whether the fixedMoverInfo field is set.
@@ -2092,23 +2092,23 @@ public final class OLDIEOFBBMLOuterClass {
        * @return The fixedMoverInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo getFixedMoverInfo() {
+      public emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo getFixedMoverInfo() {
         if (fixedMoverInfoBuilder_ == null) {
           if (detailCase_ == 14) {
-            return (emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo) detail_;
+            return (emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo) detail_;
           }
-          return emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 14) {
             return fixedMoverInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._FixedMoverInfo fixed_mover_info = 14;</code>
        */
-      public Builder setFixedMoverInfo(emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo value) {
+      public Builder setFixedMoverInfo(emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo value) {
         if (fixedMoverInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2125,7 +2125,7 @@ public final class OLDIEOFBBMLOuterClass {
        * <code>._FixedMoverInfo fixed_mover_info = 14;</code>
        */
       public Builder setFixedMoverInfo(
-          emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo.Builder builderForValue) {
         if (fixedMoverInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2138,11 +2138,11 @@ public final class OLDIEOFBBMLOuterClass {
       /**
        * <code>._FixedMoverInfo fixed_mover_info = 14;</code>
        */
-      public Builder mergeFixedMoverInfo(emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo value) {
+      public Builder mergeFixedMoverInfo(emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo value) {
         if (fixedMoverInfoBuilder_ == null) {
           if (detailCase_ == 14 &&
-              detail_ != emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo.newBuilder((emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo) detail_)
+              detail_ != emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo.newBuilder((emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2179,36 +2179,36 @@ public final class OLDIEOFBBMLOuterClass {
       /**
        * <code>._FixedMoverInfo fixed_mover_info = 14;</code>
        */
-      public emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo.Builder getFixedMoverInfoBuilder() {
+      public emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo.Builder getFixedMoverInfoBuilder() {
         return getFixedMoverInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._FixedMoverInfo fixed_mover_info = 14;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfoOrBuilder getFixedMoverInfoOrBuilder() {
+      public emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfoOrBuilder getFixedMoverInfoOrBuilder() {
         if ((detailCase_ == 14) && (fixedMoverInfoBuilder_ != null)) {
           return fixedMoverInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 14) {
-            return (emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo) detail_;
+            return (emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo) detail_;
           }
-          return emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._FixedMoverInfo fixed_mover_info = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo, emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo.Builder, emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfoOrBuilder> 
+          emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo, emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo.Builder, emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfoOrBuilder> 
           getFixedMoverInfoFieldBuilder() {
         if (fixedMoverInfoBuilder_ == null) {
           if (!(detailCase_ == 14)) {
-            detail_ = emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo.getDefaultInstance();
           }
           fixedMoverInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo, emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo.Builder, emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.FixedMoverInfo._FixedMoverInfo) detail_,
+              emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo, emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo.Builder, emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._FixedMoverInfoOuterClass._FixedMoverInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2298,8 +2298,9 @@ public final class OLDIEOFBBMLOuterClass {
       "nfoH\000\022.\n\021rotate_mover_info\030\014 \001(\0132\021._Rota" +
       "teMoverInfoH\000\022,\n\020route_mover_info\030\r \001(\0132" +
       "\020._RouteMoverInfoH\000\022,\n\020fixed_mover_info\030" +
-      "\016 \001(\0132\020._FixedMoverInfoH\000B\010\n\006detailB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\016 \001(\0132\020._FixedMoverInfoH\000B\010\n\006detailB2\n\031e" +
+      "mu.grasscutter.net.protoB\025OLDIEOFBBMLOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2307,10 +2308,10 @@ public final class OLDIEOFBBMLOuterClass {
           emu.grasscutter.net.proto.DBLIIMFBJKKOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.FJFKBKCECBCOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.HOKPFMBPOMBOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.FixedMoverInfo.getDescriptor(),
-          emu.grasscutter.net.proto.RotateMoverInfo.getDescriptor(),
-          emu.grasscutter.net.proto.RouteMoverInfo.getDescriptor(),
-          emu.grasscutter.net.proto.VectorMoverInfo.getDescriptor(),
+          emu.grasscutter.net.proto._FixedMoverInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._RotateMoverInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._RouteMoverInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._VectorMoverInfoOuterClass.getDescriptor(),
         });
     internal_static_OLDIEOFBBML_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2321,10 +2322,10 @@ public final class OLDIEOFBBMLOuterClass {
     emu.grasscutter.net.proto.DBLIIMFBJKKOuterClass.getDescriptor();
     emu.grasscutter.net.proto.FJFKBKCECBCOuterClass.getDescriptor();
     emu.grasscutter.net.proto.HOKPFMBPOMBOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.FixedMoverInfo.getDescriptor();
-    emu.grasscutter.net.proto.RotateMoverInfo.getDescriptor();
-    emu.grasscutter.net.proto.RouteMoverInfo.getDescriptor();
-    emu.grasscutter.net.proto.VectorMoverInfo.getDescriptor();
+    emu.grasscutter.net.proto._FixedMoverInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._RotateMoverInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._RouteMoverInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._VectorMoverInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

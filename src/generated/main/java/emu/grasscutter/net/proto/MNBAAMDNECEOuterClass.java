@@ -897,8 +897,9 @@ public final class MNBAAMDNECEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MNBAAMDNECE.proto\032\021IEBMEBGJPJH.proto\"E" +
       "\n\013MNBAAMDNECE\022\023\n\013IMMLGFELFPE\030\001 \001(\014\022!\n\013EJ" +
-      "COHDIFAEM\030\002 \003(\0132\014.IEBMEBGJPJHB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "COHDIFAEM\030\002 \003(\0132\014.IEBMEBGJPJHB2\n\031emu.gra" +
+      "sscutter.net.protoB\025MNBAAMDNECEOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

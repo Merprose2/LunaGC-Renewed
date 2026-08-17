@@ -1627,8 +1627,9 @@ public final class IIODLGEGEEKOuterClass {
       "\023\n\013JBGBFNPALDA\030\006 \001(\004\022\020\n\010checksum\030\007 \001(\r\022\023" +
       "\n\013entity_type\030\010 \001(\r\022\023\n\013HOOFIPIENLC\030\t \001(\t" +
       "\022\023\n\013KNBBIJHJAOO\030\n \001(\010\022\023\n\013IHBLHPCBNJD\030\013 \001" +
-      "(\r\022\023\n\013LGLODDOCJAB\030\014 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "(\r\022\023\n\013LGLODDOCJAB\030\014 \001(\rB2\n\031emu.grasscutt" +
+      "er.net.protoB\025IIODLGEGEEKOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

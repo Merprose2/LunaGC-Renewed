@@ -633,8 +633,8 @@ public final class GBIIFKJMAJGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GBIIFKJMAJG.proto\032\021MatchReason.proto\"8" +
       "\n\013GBIIFKJMAJG\022\013\n\003uid\030\014 \001(\r\022\034\n\006reason\030\016 \001" +
-      "(\0162\014.MatchReasonB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "(\0162\014.MatchReasonB2\n\031emu.grasscutter.net." +
+      "protoB\025GBIIFKJMAJGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

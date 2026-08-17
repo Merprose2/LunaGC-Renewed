@@ -1106,7 +1106,8 @@ public final class DGEJPGICNCEOuterClass {
       "OJDBNBHODO\030\001 \001(\010\022\023\n\013APMHJOPFEKA\030\002 \001(\010\022\023\n" +
       "\013PFPOLOEPDBN\030\003 \003(\t\022\023\n\013FKHENGONCDJ\030\004 \001(\t\022" +
       "\023\n\013NBAAOAGKGCL\030\005 \001(\002\022\023\n\013MLODLMCKNAK\030\006 \001(" +
-      "\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\002B2\n\031emu.grasscutter.net.protoB\025DGEJPGIC" +
+      "NCEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

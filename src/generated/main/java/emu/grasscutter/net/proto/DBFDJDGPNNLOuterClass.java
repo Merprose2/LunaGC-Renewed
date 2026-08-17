@@ -997,8 +997,9 @@ public final class DBFDJDGPNNLOuterClass {
       "\n\021DBFDJDGPNNL.proto\"}\n\013DBFDJDGPNNL\022\023\n\013PE" +
       "OKDMGEMAO\030\001 \001(\r\022\020\n\010uid_list\030\002 \003(\r\022\025\n\ris_" +
       "new_record\030\005 \001(\010\022\014\n\004rank\030\006 \001(\r\022\023\n\013AGIFNE" +
-      "LOIKK\030\013 \001(\r\022\r\n\005score\030\r \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "LOIKK\030\013 \001(\r\022\r\n\005score\030\r \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025DBFDJDGPNNLOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

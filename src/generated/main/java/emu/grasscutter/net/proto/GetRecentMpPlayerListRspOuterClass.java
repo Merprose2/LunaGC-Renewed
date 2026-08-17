@@ -1097,8 +1097,9 @@ public final class GetRecentMpPlayerListRspOuterClass {
       "Brief.proto\"\206\001\n\030GetRecentMpPlayerListRsp" +
       "\022\017\n\007retcode\030\004 \001(\005\022&\n\036_recent_beyond_play" +
       "er_uid_list\030\007 \003(\r\0221\n\033recent_mp_player_br" +
-      "ief_list\030\n \003(\0132\014.FriendBriefB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "ief_list\030\n \003(\0132\014.FriendBriefB?\n\031emu.gras" +
+      "scutter.net.protoB\"GetRecentMpPlayerList" +
+      "RspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

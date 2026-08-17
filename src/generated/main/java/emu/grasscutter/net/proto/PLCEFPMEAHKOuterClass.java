@@ -786,8 +786,8 @@ public final class PLCEFPMEAHKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PLCEFPMEAHK.proto\"E\n\013PLCEFPMEAHK\022\020\n\010ui" +
       "d_list\030\n \003(\r\022\r\n\005score\030\013 \001(\r\022\025\n\ris_new_re" +
-      "cord\030\016 \001(\010B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "cord\030\016 \001(\010B2\n\031emu.grasscutter.net.protoB" +
+      "\025PLCEFPMEAHKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

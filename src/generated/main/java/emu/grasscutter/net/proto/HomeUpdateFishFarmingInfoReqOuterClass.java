@@ -660,8 +660,9 @@ public final class HomeUpdateFishFarmingInfoReqOuterClass {
       "\n\"HomeUpdateFishFarmingInfoReq.proto\032\031Ho" +
       "meFishFarmingInfo.proto\"O\n\034HomeUpdateFis" +
       "hFarmingInfoReq\022/\n\021fish_farming_info\030\006 \001" +
-      "(\0132\024.HomeFishFarmingInfoB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "(\0132\024.HomeFishFarmingInfoBC\n\031emu.grasscut" +
+      "ter.net.protoB&HomeUpdateFishFarmingInfo" +
+      "ReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

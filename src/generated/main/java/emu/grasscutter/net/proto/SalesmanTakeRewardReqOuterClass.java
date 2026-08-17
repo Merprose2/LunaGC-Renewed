@@ -596,8 +596,9 @@ public final class SalesmanTakeRewardReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033SalesmanTakeRewardReq.proto\">\n\025Salesma" +
       "nTakeRewardReq\022\023\n\013schedule_id\030\003 \001(\r\022\020\n\010p" +
-      "osition\030\004 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "osition\030\004 \001(\rB<\n\031emu.grasscutter.net.pro" +
+      "toB\037SalesmanTakeRewardReqOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

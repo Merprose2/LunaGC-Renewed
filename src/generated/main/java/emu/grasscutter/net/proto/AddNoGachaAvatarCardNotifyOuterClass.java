@@ -1257,8 +1257,9 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       "mote_level\030\006 \001(\r\022\016\n\006reason\030\007 \001(\r\022\021\n\tavat" +
       "ar_id\030\n \001(\r\022=\n\022transfer_item_list\030\r \003(\0132" +
       "!.AddNoGachaAvatarCardTransferItem\022\033\n\023is" +
-      "_transfer_to_item\030\016 \001(\010B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "_transfer_to_item\030\016 \001(\010BA\n\031emu.grasscutt" +
+      "er.net.protoB$AddNoGachaAvatarCardNotify" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

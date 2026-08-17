@@ -454,8 +454,9 @@ public final class MMCDOEKODHPOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021MMCDOEKODHP.proto\"\r\n\013MMCDOEKODHPB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021MMCDOEKODHP.proto\"\r\n\013MMCDOEKODHPB2\n\031em" +
+      "u.grasscutter.net.protoB\025MMCDOEKODHPOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

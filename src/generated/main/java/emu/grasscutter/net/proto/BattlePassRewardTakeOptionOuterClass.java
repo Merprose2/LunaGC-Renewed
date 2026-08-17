@@ -793,8 +793,9 @@ public final class BattlePassRewardTakeOptionOuterClass {
       "lePassRewardTag.proto\"n\n\032BattlePassRewar" +
       "dTakeOption\022\022\n\noption_idx\030\004 \001(\r\022!\n\003tag\030\007" +
       " \001(\0132\024.BattlePassRewardTag\022\031\n\021_battle_pa" +
-      "ss_plan\030\t \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "ss_plan\030\t \001(\rBA\n\031emu.grasscutter.net.pro" +
+      "toB$BattlePassRewardTakeOptionOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -597,8 +597,9 @@ public final class HomeChangeEditModeRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033HomeChangeEditModeRsp.proto\"D\n\025HomeCha" +
       "ngeEditModeRsp\022\017\n\007retcode\030\004 \001(\005\022\032\n\022is_en" +
-      "ter_edit_mode\030\006 \001(\010B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "ter_edit_mode\030\006 \001(\010B<\n\031emu.grasscutter.n" +
+      "et.protoB\037HomeChangeEditModeRspOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

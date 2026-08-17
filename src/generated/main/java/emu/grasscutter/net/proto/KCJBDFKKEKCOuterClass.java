@@ -895,8 +895,8 @@ public final class KCJBDFKKEKCOuterClass {
       "\n\021KCJBDFKKEKC.proto\032\027UgcMusicBriefInfo.p" +
       "roto\"T\n\013KCJBDFKKEKC\022\030\n\020_is_allow_import\030" +
       "\002 \001(\010\022+\n\017brief_info_list\030\004 \003(\0132\022.UgcMusi" +
-      "cBriefInfoB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "cBriefInfoB2\n\031emu.grasscutter.net.protoB" +
+      "\025KCJBDFKKEKCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

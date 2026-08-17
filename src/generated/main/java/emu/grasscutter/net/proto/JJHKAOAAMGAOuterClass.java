@@ -525,8 +525,9 @@ public final class JJHKAOAAMGAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JJHKAOAAMGA.proto\",\n\013JJHKAOAAMGA\022\035\n\025tr" +
-      "ial_avatar_index_id\030\004 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "ial_avatar_index_id\030\004 \001(\rB2\n\031emu.grasscu" +
+      "tter.net.protoB\025JJHKAOAAMGAOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

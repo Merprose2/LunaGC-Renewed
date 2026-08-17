@@ -651,7 +651,8 @@ public final class FCFGHHMDODDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FCFGHHMDODD.proto\032\021CBBEIGNAOHC.proto\")" +
       "\n\013FCFGHHMDODD\022\032\n\004data\030\001 \001(\0132\014.CBBEIGNAOH" +
-      "CB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "CB2\n\031emu.grasscutter.net.protoB\025FCFGHHMD" +
+      "ODDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

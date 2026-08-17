@@ -730,8 +730,8 @@ public final class NHIICEHPIPLOuterClass {
       "\n\021NHIICEHPIPL.proto\032\032CustomGadgetTreeInf" +
       "o.proto\"Q\n\013NHIICEHPIPL\022/\n\020combination_in" +
       "fo\030\004 \001(\0132\025.CustomGadgetTreeInfo\022\021\n\tentit" +
-      "y_id\030\r \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "y_id\030\r \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025NHIICEHPIPLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

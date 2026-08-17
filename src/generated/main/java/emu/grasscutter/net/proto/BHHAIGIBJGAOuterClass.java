@@ -800,8 +800,8 @@ public final class BHHAIGIBJGAOuterClass {
       "\n\021BHHAIGIBJGA.proto\032\021PECHAOPNCHC.proto\"V" +
       "\n\013BHHAIGIBJGA\022!\n\013DGEOMFHLKLF\030\003 \001(\0132\014.PEC" +
       "HAOPNCHC\022\017\n\007retcode\030\004 \001(\005\022\023\n\013schedule_id" +
-      "\030\006 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\006 \001(\rB2\n\031emu.grasscutter.net.protoB\025BHH" +
+      "AIGIBJGAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

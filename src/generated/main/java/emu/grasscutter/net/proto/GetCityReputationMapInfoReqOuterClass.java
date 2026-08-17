@@ -455,8 +455,9 @@ public final class GetCityReputationMapInfoReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n!GetCityReputationMapInfoReq.proto\"\035\n\033G" +
-      "etCityReputationMapInfoReqB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "etCityReputationMapInfoReqBB\n\031emu.grassc" +
+      "utter.net.protoB%GetCityReputationMapInf" +
+      "oReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -950,8 +950,8 @@ public final class FLLMDHCAEBEOuterClass {
       "allery_id\030\003 \001(\r\022\023\n\013KIGCENPOJPF\030\006 \001(\r\022\r\n\005" +
       "score\030\010 \001(\r\022\022\n\nis_success\030\013 \001(\010\022\023\n\013PMHJN" +
       "MMMIBJ\030\014 \001(\r\022\023\n\013CMOMNPEIKEH\030\r \001(\010\022\023\n\013NAA" +
-      "KMCDIDMP\030\017 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "KMCDIDMP\030\017 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025FLLMDHCAEBEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

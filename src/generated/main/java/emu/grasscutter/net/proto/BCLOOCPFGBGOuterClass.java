@@ -526,8 +526,8 @@ public final class BCLOOCPFGBGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BCLOOCPFGBG.proto\"\"\n\013BCLOOCPFGBG\022\023\n\013DO" +
-      "GLJKBLACH\030\016 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "GLJKBLACH\030\016 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025BCLOOCPFGBGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

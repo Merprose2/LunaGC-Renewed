@@ -595,8 +595,9 @@ public final class FCAIDMLBADNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FCAIDMLBADN.proto\"0\n\013FCAIDMLBADN\022\020\n\010tr" +
-      "ial_id\030\003 \001(\r\022\017\n\007retcode\030\t \001(\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ial_id\030\003 \001(\r\022\017\n\007retcode\030\t \001(\005B2\n\031emu.gra" +
+      "sscutter.net.protoB\025FCAIDMLBADNOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

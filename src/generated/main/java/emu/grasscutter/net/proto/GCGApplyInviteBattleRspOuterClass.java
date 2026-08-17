@@ -596,8 +596,9 @@ public final class GCGApplyInviteBattleRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035GCGApplyInviteBattleRsp.proto\"C\n\027GCGAp" +
       "plyInviteBattleRsp\022\017\n\007retcode\030\t \001(\005\022\027\n\017p" +
-      "unish_end_time\030\016 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "unish_end_time\030\016 \001(\rB>\n\031emu.grasscutter." +
+      "net.protoB!GCGApplyInviteBattleRspOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

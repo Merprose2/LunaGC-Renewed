@@ -1515,8 +1515,9 @@ public final class LMBNHHEABFOOuterClass {
       "on_guid\030\001 \001(\004\022!\n\013DBGPMLHNJAD\030\005 \001(\0132\014.BKM" +
       "GMIPPBFK\022!\n\013AKOENHNPPJI\030\014 \003(\0132\014.LDLHHEHN" +
       "CLC\022!\n\013EGMPBIBHOGC\030\r \001(\0132\014.APPNLDHBAMM\022!" +
-      "\n\013HPDFMMOPLEH\030\016 \001(\0132\014.ODDNMCOLJJKB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\n\013HPDFMMOPLEH\030\016 \001(\0132\014.ODDNMCOLJJKB2\n\031emu" +
+      ".grasscutter.net.protoB\025LMBNHHEABFOOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -871,8 +871,9 @@ public final class AIDEJCFHMPPOuterClass {
       "\n\021AIDEJCFHMPP.proto\032\020Uint32Pair.proto\"n\n" +
       "\013AIDEJCFHMPP\022 \n\013JCLAKPHKODA\030\001 \001(\0132\013.Uint" +
       "32Pair\022\023\n\013LOIFEKALBKH\030\003 \001(\r\022\023\n\013HHMGOPLBA" +
-      "FB\030\007 \001(\010\022\023\n\013KMDOFBPMGAI\030\014 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "FB\030\007 \001(\010\022\023\n\013KMDOFBPMGAI\030\014 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025AIDEJCFHMPPOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

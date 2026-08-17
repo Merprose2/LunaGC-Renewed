@@ -1122,8 +1122,9 @@ public final class AOCDPCJMNOGOuterClass {
       "\n\021AOCDPCJMNOG.proto\032\021HHEDHCFPEKM.proto\"g" +
       "\n\013AOCDPCJMNOG\022\020\n\010point_id\030\001 \001(\005\022\031\n\003pos\030\002" +
       " \001(\0132\014.HHEDHCFPEKM\022\031\n\003rot\030\003 \001(\0132\014.HHEDHC" +
-      "FPEKM\022\020\n\010tag_list\030\004 \003(\005B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "FPEKM\022\020\n\010tag_list\030\004 \003(\005B2\n\031emu.grasscutt" +
+      "er.net.protoB\025AOCDPCJMNOGOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -729,8 +729,9 @@ public final class NNMABPIDIEGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NNMABPIDIEG.proto\032\021AAJIAJKPLMD.proto\"A" +
       "\n\013NNMABPIDIEG\022\017\n\007retcode\030\006 \001(\005\022!\n\013LJNGEO" +
-      "GMDGP\030\013 \001(\0132\014.AAJIAJKPLMDB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "GMDGP\030\013 \001(\0132\014.AAJIAJKPLMDB2\n\031emu.grasscu" +
+      "tter.net.protoB\025NNMABPIDIEGOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

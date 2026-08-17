@@ -3166,8 +3166,8 @@ public final class EKHNHHMCCJMOuterClass {
       "MMPCMKFK\030\001 \003(\0132\014.FLJNOAOAJCP\022!\n\013LAKFECNM" +
       "MIH\030\004 \003(\0132\014.CLFPGFCICFF\022!\n\013FCOAIHJGJHF\030\005" +
       " \003(\0132\014.CLFPGFCICFF\022!\n\013CJDLFACHPGK\030\006 \003(\0132" +
-      "\014.CLFPGFCICFFB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\014.CLFPGFCICFFB2\n\031emu.grasscutter.net.pro" +
+      "toB\025EKHNHHMCCJMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

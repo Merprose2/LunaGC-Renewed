@@ -3535,8 +3535,9 @@ public final class ShopGoodsOuterClass {
       "\013AIALJDFIEAI\030\371\010 \003(\r\022\024\n\013EKBHAAKJINF\030\361\t \001(" +
       "\r\022\"\n\013KAGKMENGAFH\030\377\t \003(\0132\014.AOGBDADBNNH\022\024\n" +
       "\013MBMIKDBJNAN\030\261\013 \001(\010\022\032\n\021discount_end_time" +
-      "\030\222\014 \001(\r\022\024\n\013DCMBDJMCGGP\030\277\016 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\030\222\014 \001(\r\022\024\n\013DCMBDJMCGGP\030\277\016 \001(\rB0\n\031emu.gra" +
+      "sscutter.net.protoB\023ShopGoodsOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -809,8 +809,9 @@ public final class HomeBlueprintSearchInfoOuterClass {
       "\n\035HomeBlueprintSearchInfo.proto\"d\n\027HomeB" +
       "lueprintSearchInfo\022\020\n\010block_id\030\001 \001(\r\022\020\n\010" +
       "scene_id\030\004 \001(\r\022\021\n\tmodule_id\030\007 \001(\r\022\022\n\nsha" +
-      "re_code\030\010 \001(\tB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "re_code\030\010 \001(\tB>\n\031emu.grasscutter.net.pro" +
+      "toB!HomeBlueprintSearchInfoOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

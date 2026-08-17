@@ -1264,8 +1264,8 @@ public final class OrderFinishNotifyOuterClass {
       "\001 \001(\r\022\022\n\nproduct_id\030\003 \001(\t\022 \n\030card_produc" +
       "t_remain_days\030\004 \001(\r\022\035\n\titem_list\030\005 \003(\0132\n" +
       ".ItemParam\022\023\n\013PKMKMCDIHOM\030\006 \001(\r\022\023\n\013LODPK" +
-      "JPOCNB\030\t \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "JPOCNB\030\t \001(\rB8\n\031emu.grasscutter.net.prot" +
+      "oB\033OrderFinishNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

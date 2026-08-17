@@ -1638,8 +1638,8 @@ public final class HKCDIFBFAOHOuterClass {
       "t\030\004 \001(\0132\014.HHEDHCFPEKM\022\024\n\014data_version\030\005 " +
       "\001(\r\022*\n\022point_light_config\0303 \001(\0132\014.LKMJKP" +
       "HFGGDH\000\022)\n\021spot_light_config\0304 \001(\0132\014.PNG" +
-      "DELAGHBEH\000B\010\n\006detailB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "DELAGHBEH\000B\010\n\006detailB2\n\031emu.grasscutter." +
+      "net.protoB\025HKCDIFBFAOHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

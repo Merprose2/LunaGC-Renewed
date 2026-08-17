@@ -1258,7 +1258,8 @@ public final class BDCIOKKMDBKOuterClass {
       "DOJNFONJM\022\024\n\013PANOOKHHBPD\030\365\003 \001(\t\022\024\n\013PACIO" +
       "EOBAED\030\366\003 \001(\010\022\024\n\013AKCFELJHHJG\030\367\003 \001(\r\022\024\n\013F" +
       "PFMABFBJJM\030\370\003 \001(\r\022\024\n\013FNLCEOICIDK\030\371\003 \001(\010B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025BDCIOKKMDB" +
+      "KOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

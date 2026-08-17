@@ -838,8 +838,8 @@ public final class LNOOPMPPJLIOuterClass {
       "\001\n\013LNOOPMPPJLI\022\023\n\013GPLKOMJDCDJ\030\003 \001(\r\022\023\n\013L" +
       "ABDHGKEJEE\030\004 \001(\r\022\023\n\013COHNFJIALLJ\030\005 \001(\r\022\023\n" +
       "\013ENMHLBAHMAP\030\006 \001(\010\022!\n\013NAANHLDFGKA\030\007 \001(\0162" +
-      "\014.NDBFGPCBIKFB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\014.NDBFGPCBIKFB2\n\031emu.grasscutter.net.pro" +
+      "toB\025LNOOPMPPJLIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

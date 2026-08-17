@@ -651,8 +651,8 @@ public final class PPKBLLCHANIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PPKBLLCHANI.proto\032\021EBADNHGKAAP.proto\"0" +
       "\n\013PPKBLLCHANI\022!\n\013NGJKADMDLAE\030\001 \001(\0132\014.EBA" +
-      "DNHGKAAPB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "DNHGKAAPB2\n\031emu.grasscutter.net.protoB\025P" +
+      "PKBLLCHANIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

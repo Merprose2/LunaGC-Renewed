@@ -659,7 +659,8 @@ public final class InBattleMechanicusMonsterInfoOuterClass {
       "\n#InBattleMechanicusMonsterInfo.proto\"Q\n" +
       "\035InBattleMechanicusMonsterInfo\022\022\n\nmonste" +
       "r_id\030\003 \001(\r\022\r\n\005level\030\t \001(\r\022\r\n\005count\030\017 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "BD\n\031emu.grasscutter.net.protoB\'InBattleM" +
+      "echanicusMonsterInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

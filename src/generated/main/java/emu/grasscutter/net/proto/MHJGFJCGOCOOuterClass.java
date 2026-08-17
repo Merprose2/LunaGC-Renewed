@@ -2133,8 +2133,8 @@ public final class MHJGFJCGOCOOuterClass {
       "eason\030\014 \001(\0162\030.MHJGFJCGOCO.GJCKJFHCKHP\"c\n" +
       "\013GJCKJFHCKHP\022\031\n\025GJCKJFHCKHP_RENT_SUCC\020\000\022" +
       "\032\n\026GJCKJFHCKHP_RENT_LIMIT\020\001\022\035\n\031GJCKJFHCK" +
-      "HP_RENT_REPEATED\020\002B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "HP_RENT_REPEATED\020\002B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025MHJGFJCGOCOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

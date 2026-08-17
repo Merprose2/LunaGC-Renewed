@@ -133,7 +133,8 @@ public final class CHJPKPNNMEEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CHJPKPNNMEE.proto*:\n\013CHJPKPNNMEE\022\023\n\017CH" +
       "JPKPNNMEE_BAG\020\000\022\026\n\022CHJPKPNNMEE_CUSTOM\020\001B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025CHJPKPNNME" +
+      "EOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

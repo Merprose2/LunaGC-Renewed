@@ -776,8 +776,8 @@ public final class HGBCEHMPOBAOuterClass {
       "map\030\r \003(\0132$.HGBCEHMPOBA.MusicGameRecordM" +
       "apEntry\032K\n\027MusicGameRecordMapEntry\022\013\n\003ke" +
       "y\030\001 \001(\r\022\037\n\005value\030\002 \001(\0132\020.MusicGameRecord" +
-      ":\0028\001B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      ":\0028\001B2\n\031emu.grasscutter.net.protoB\025HGBCE" +
+      "HMPOBAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -659,8 +659,9 @@ public final class SpiceStageDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024SpiceStageData.proto\"J\n\016SpiceStageData" +
       "\022\020\n\010stage_id\030\006 \001(\r\022\017\n\007is_open\030\013 \001(\010\022\025\n\rs" +
-      "uccess_times\030\016 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "uccess_times\030\016 \001(\rB5\n\031emu.grasscutter.ne" +
+      "t.protoB\030SpiceStageDataOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -2251,8 +2251,9 @@ public final class FMHOOKLEDNCOuterClass {
       "DNC.COMLAKNKMIG\022\023\n\013NGEDGDGBAID\030\005 \001(\014\022\023\n\013" +
       "NJKJHJEAKEJ\030\006 \001(\t\032S\n\013COMLAKNKMIG\022!\n\013HKPD" +
       "KCOHJNM\030\001 \003(\0132\014.NLLJFKCOPMP\022!\n\013GPOAFPKHD" +
-      "PC\030\002 \001(\0132\014.JIPILDDGHPAB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "PC\030\002 \001(\0132\014.JIPILDDGHPAB2\n\031emu.grasscutte" +
+      "r.net.protoB\025FMHOOKLEDNCOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

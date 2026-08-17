@@ -1281,8 +1281,8 @@ public final class JKCIHENBPPAOuterClass {
       "G\030\367\003 \001(\0132\014.NCFELNNEAAF\022\024\n\013JNLHMPBLCIL\030\370\003" +
       " \001(\005\022\024\n\013NKLJJDGJHNL\030\371\003 \001(\005\022\024\n\013DJMCJHAPBG" +
       "P\030\372\003 \001(\005\022\024\n\013AOAAOLHJIMH\030\373\003 \001(\010\022\024\n\013JOMALF" +
-      "AIBEI\030\374\003 \001(\002B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "AIBEI\030\374\003 \001(\002B2\n\031emu.grasscutter.net.prot" +
+      "oB\025JKCIHENBPPAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

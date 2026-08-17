@@ -446,8 +446,9 @@ public final class ANMFBNLLNCNOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021ANMFBNLLNCN.proto\"\r\n\013ANMFBNLLNCNB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021ANMFBNLLNCN.proto\"\r\n\013ANMFBNLLNCNB2\n\031em" +
+      "u.grasscutter.net.protoB\025ANMFBNLLNCNOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

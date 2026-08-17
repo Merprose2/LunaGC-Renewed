@@ -724,7 +724,8 @@ public final class AbilityActionSetCrashDamageOuterClass {
       "\n!AbilityActionSetCrashDamage.proto\032\014Vec" +
       "tor.proto\"G\n\033AbilityActionSetCrashDamage" +
       "\022\030\n\007hit_pos\030\013 \001(\0132\007.Vector\022\016\n\006damage\030\014 \001" +
-      "(\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\002BB\n\031emu.grasscutter.net.protoB%Ability" +
+      "ActionSetCrashDamageOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

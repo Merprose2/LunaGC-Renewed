@@ -747,8 +747,9 @@ public final class GCGDSChangeDeckNameReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034GCGDSChangeDeckNameReq.proto\"N\n\026GCGDSC" +
       "hangeDeckNameReq\022\014\n\004name\030\007 \001(\t\022\025\n\ris_onl" +
-      "y_check\030\010 \001(\010\022\017\n\007deck_id\030\014 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "y_check\030\010 \001(\010\022\017\n\007deck_id\030\014 \001(\rB=\n\031emu.gr" +
+      "asscutter.net.protoB GCGDSChangeDeckName" +
+      "ReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

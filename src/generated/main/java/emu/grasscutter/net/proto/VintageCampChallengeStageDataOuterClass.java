@@ -1132,8 +1132,9 @@ public final class VintageCampChallengeStageDataOuterClass {
       "mpLevelMapEntry\022\032\n\022max_finished_level\030\017 " +
       "\001(\r\032S\n\021CampLevelMapEntry\022\013\n\003key\030\001 \001(\r\022-\n" +
       "\005value\030\002 \001(\0132\036.VintageCampChallengeLevel" +
-      "Data:\0028\001B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "Data:\0028\001BD\n\031emu.grasscutter.net.protoB\'V" +
+      "intageCampChallengeStageDataOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

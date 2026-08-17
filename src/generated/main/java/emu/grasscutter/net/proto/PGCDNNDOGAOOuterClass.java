@@ -1027,8 +1027,9 @@ public final class PGCDNNDOGAOOuterClass {
       "\n\021PGCDNNDOGAO.proto\032\021BLILADEFNIC.proto\032\021" +
       "KCHPMOIPDGF.proto\"S\n\013PGCDNNDOGAO\022!\n\013PAAP" +
       "KCKJEHL\030\001 \003(\0132\014.BLILADEFNIC\022!\n\013MHBKGLDBF" +
-      "PB\030\002 \001(\0132\014.KCHPMOIPDGFB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "PB\030\002 \001(\0132\014.KCHPMOIPDGFB2\n\031emu.grasscutte" +
+      "r.net.protoB\025PGCDNNDOGAOOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

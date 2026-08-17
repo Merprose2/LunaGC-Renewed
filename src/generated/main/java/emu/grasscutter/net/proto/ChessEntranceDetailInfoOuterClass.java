@@ -824,7 +824,8 @@ public final class ChessEntranceDetailInfoOuterClass {
       "\n\035ChessEntranceDetailInfo.proto\032\027ChessEn" +
       "tranceInfo.proto\"@\n\027ChessEntranceDetailI" +
       "nfo\022%\n\tinfo_list\030\003 \003(\0132\022.ChessEntranceIn" +
-      "foB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "foB>\n\031emu.grasscutter.net.protoB!ChessEn" +
+      "tranceDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

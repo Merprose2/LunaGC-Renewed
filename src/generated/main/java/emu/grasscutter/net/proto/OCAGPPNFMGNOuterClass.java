@@ -1106,7 +1106,8 @@ public final class OCAGPPNFMGNOuterClass {
       "PEHEOANILME.proto\"h\n\013OCAGPPNFMGN\022\023\n\013LJGH" +
       "DOOCCGC\030\001 \001(\r\022!\n\013EOLEDAEPJPE\030\007 \003(\0132\014.BAL" +
       "MAGIKEON\022!\n\013KNAEINNLAAO\030\013 \001(\0132\014.PEHEOANI" +
-      "LMEB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "LMEB2\n\031emu.grasscutter.net.protoB\025OCAGPP" +
+      "NFMGNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

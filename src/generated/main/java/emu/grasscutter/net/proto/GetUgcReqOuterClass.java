@@ -993,8 +993,8 @@ public final class GetUgcReqOuterClass {
       "e\030\t \001(\0162\014.RecordUsage\022\032\n\010ugc_type\030\n \001(\0162" +
       "\010.UgcType\022!\n\014get_ugc_type\030\014 \001(\0162\013.GetUgc" +
       "Type\022\030\n\020is_require_brief\030\r \001(\010\022\023\n\013schedu" +
-      "le_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "le_id\030\017 \001(\rB0\n\031emu.grasscutter.net.proto" +
+      "B\023GetUgcReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

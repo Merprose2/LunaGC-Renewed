@@ -1037,8 +1037,9 @@ public final class FHBPBNNDFMIOuterClass {
       "\n\021FHBPBNNDFMI.proto\032\021NLLJFKCOPMP.proto\"o" +
       "\n\013FHBPBNNDFMI\022!\n\013FMDHMIHJKJK\030\001 \003(\0132\014.NLL" +
       "JFKCOPMP\022\023\n\013JFKKJFCONBB\030\002 \001(\003\022\023\n\013OCGBJJF" +
-      "EFDF\030\003 \001(\010\022\023\n\013ABCPNHCCHLD\030\004 \001(\010B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "EFDF\030\003 \001(\010\022\023\n\013ABCPNHCCHLD\030\004 \001(\010B2\n\031emu.g" +
+      "rasscutter.net.protoB\025FHBPBNNDFMIOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

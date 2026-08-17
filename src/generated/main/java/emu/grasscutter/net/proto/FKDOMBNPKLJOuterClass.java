@@ -863,7 +863,8 @@ public final class FKDOMBNPKLJOuterClass {
       "oto\"t\n\013FKDOMBNPKLJ\022\023\n\013LJMAGHANDCK\030\002 \001(\r\022" +
       "\023\n\013MHMMJPOFMPF\030\005 \001(\r\022&\n\013player_info\030\006 \001(" +
       "\0132\021.OnlinePlayerInfo\022\023\n\013PEAEDIKMBIG\030\r \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB2\n\031emu.grasscutter.net.protoB\025FKDOMBNP" +
+      "KLJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

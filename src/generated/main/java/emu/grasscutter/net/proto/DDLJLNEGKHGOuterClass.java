@@ -309,8 +309,8 @@ public final class DDLJLNEGKHGOuterClass {
       "JLNEGKHG_INFO_PAGE_VIDEO\020\020\022\036\n\032DDLJLNEGKH" +
       "G_INFO_PAGE_TEXT\020\021\022$\n DDLJLNEGKHG_LEVEL_" +
       "OBJECTIVE_RULE\020\022\022!\n\035DDLJLNEGKHG_RES_LEVE" +
-      "L_MINIMAP\020\023B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "L_MINIMAP\020\023B2\n\031emu.grasscutter.net.proto" +
+      "B\025DDLJLNEGKHGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

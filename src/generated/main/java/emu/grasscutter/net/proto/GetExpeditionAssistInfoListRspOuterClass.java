@@ -903,8 +903,9 @@ public final class GetExpeditionAssistInfoListRspOuterClass {
       "ExpeditionAssistInfo.proto\"b\n\036GetExpedit" +
       "ionAssistInfoListRsp\022\017\n\007retcode\030\006 \001(\005\022/\n" +
       "\020assist_info_list\030\017 \003(\0132\025.ExpeditionAssi" +
-      "stInfoB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "stInfoBE\n\031emu.grasscutter.net.protoB(Get" +
+      "ExpeditionAssistInfoListRspOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

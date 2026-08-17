@@ -738,8 +738,9 @@ public final class MHFFKPBEDPDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MHFFKPBEDPD.proto\"X\n\013MHFFKPBEDPD\022\020\n\010le" +
       "vel_id\030\004 \001(\r\022\017\n\007is_succ\030\010 \001(\010\022\021\n\tcost_ti" +
-      "me\030\014 \001(\r\022\023\n\013MOONHNKFIGA\030\016 \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "me\030\014 \001(\r\022\023\n\013MOONHNKFIGA\030\016 \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025MHFFKPBEDPDOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

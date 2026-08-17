@@ -658,8 +658,8 @@ public final class KFBHMDDHIDGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KFBHMDDHIDG.proto\"M\n\013KFBHMDDHIDG\022\024\n\014_o" +
       "btain_time\030\004 \001(\r\022\023\n\013AKAJDKLNAAI\030\010 \001(\r\022\023\n" +
-      "\013MACHEMCCGCP\030\t \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\013MACHEMCCGCP\030\t \001(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025KFBHMDDHIDGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

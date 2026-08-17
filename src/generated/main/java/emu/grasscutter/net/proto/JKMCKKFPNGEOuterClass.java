@@ -1228,8 +1228,9 @@ public final class JKMCKKFPNGEOuterClass {
       "\n\021JKMCKKFPNGE.proto\"\206\001\n\013JKMCKKFPNGE\022\024\n\nu" +
       "int_param\030\001 \001(\rH\000\022\023\n\tint_param\030\002 \001(\005H\000\022\025" +
       "\n\013float_param\030\003 \001(\002H\000\022\026\n\014string_param\030\004 " +
-      "\001(\tH\000\022\024\n\nenum_param\030\005 \001(\tH\000B\007\n\005paramB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\001(\tH\000\022\024\n\nenum_param\030\005 \001(\tH\000B\007\n\005paramB2\n\031" +
+      "emu.grasscutter.net.protoB\025JKMCKKFPNGEOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -454,8 +454,9 @@ public final class CECKIPKOJDMOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021CECKIPKOJDM.proto\"\r\n\013CECKIPKOJDMB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021CECKIPKOJDM.proto\"\r\n\013CECKIPKOJDMB2\n\031em" +
+      "u.grasscutter.net.protoB\025CECKIPKOJDMOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

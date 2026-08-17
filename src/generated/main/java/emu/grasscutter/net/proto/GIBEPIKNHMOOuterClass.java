@@ -1088,8 +1088,8 @@ public final class GIBEPIKNHMOOuterClass {
       "\n\021GIBEPIKNHMO.proto\032\021KLPMGJGLMPG.proto\"X" +
       "\n\013GIBEPIKNHMO\022!\n\013MONFFLIDEHB\030\002 \003(\0132\014.KLP" +
       "MGJGLMPG\022\023\n\013GPEHBEFLKDI\030\007 \003(\r\022\021\n\tavatar_" +
-      "id\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025G" +
+      "IBEPIKNHMOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

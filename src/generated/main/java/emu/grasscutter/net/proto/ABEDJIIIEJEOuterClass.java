@@ -38,11 +38,11 @@ public final class ABEDJIIIEJEOuterClass {
      * <code>._StructSupportFrog struct_support_frog = 100;</code>
      * @return The structSupportFrog.
      */
-    emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog getStructSupportFrog();
+    emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog getStructSupportFrog();
     /**
      * <code>._StructSupportFrog struct_support_frog = 100;</code>
      */
-    emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrogOrBuilder getStructSupportFrogOrBuilder();
+    emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrogOrBuilder getStructSupportFrogOrBuilder();
 
     public emu.grasscutter.net.proto.ABEDJIIIEJEOuterClass.ABEDJIIIEJE.DetailCase getDetailCase();
   }
@@ -99,14 +99,14 @@ public final class ABEDJIIIEJEOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog.Builder subBuilder = null;
+              emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog.Builder subBuilder = null;
               if (detailCase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 100;
@@ -216,21 +216,21 @@ public final class ABEDJIIIEJEOuterClass {
      * @return The structSupportFrog.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog getStructSupportFrog() {
+    public emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog getStructSupportFrog() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog) detail_;
+         return (emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog) detail_;
       }
-      return emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog.getDefaultInstance();
+      return emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog.getDefaultInstance();
     }
     /**
      * <code>._StructSupportFrog struct_support_frog = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrogOrBuilder getStructSupportFrogOrBuilder() {
+    public emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrogOrBuilder getStructSupportFrogOrBuilder() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog) detail_;
+         return (emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog) detail_;
       }
-      return emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog.getDefaultInstance();
+      return emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -251,7 +251,7 @@ public final class ABEDJIIIEJEOuterClass {
         output.writeEnum(1, pGGCPHIDGAJ_);
       }
       if (detailCase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog) detail_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,7 +268,7 @@ public final class ABEDJIIIEJEOuterClass {
       }
       if (detailCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog) detail_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -647,7 +647,7 @@ public final class ABEDJIIIEJEOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog, emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog.Builder, emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrogOrBuilder> structSupportFrogBuilder_;
+          emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog, emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog.Builder, emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrogOrBuilder> structSupportFrogBuilder_;
       /**
        * <code>._StructSupportFrog struct_support_frog = 100;</code>
        * @return Whether the structSupportFrog field is set.
@@ -661,23 +661,23 @@ public final class ABEDJIIIEJEOuterClass {
        * @return The structSupportFrog.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog getStructSupportFrog() {
+      public emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog getStructSupportFrog() {
         if (structSupportFrogBuilder_ == null) {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog) detail_;
+            return (emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog) detail_;
           }
-          return emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog.getDefaultInstance();
+          return emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog.getDefaultInstance();
         } else {
           if (detailCase_ == 100) {
             return structSupportFrogBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog.getDefaultInstance();
+          return emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog.getDefaultInstance();
         }
       }
       /**
        * <code>._StructSupportFrog struct_support_frog = 100;</code>
        */
-      public Builder setStructSupportFrog(emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog value) {
+      public Builder setStructSupportFrog(emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog value) {
         if (structSupportFrogBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -694,7 +694,7 @@ public final class ABEDJIIIEJEOuterClass {
        * <code>._StructSupportFrog struct_support_frog = 100;</code>
        */
       public Builder setStructSupportFrog(
-          emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog.Builder builderForValue) {
+          emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog.Builder builderForValue) {
         if (structSupportFrogBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -707,11 +707,11 @@ public final class ABEDJIIIEJEOuterClass {
       /**
        * <code>._StructSupportFrog struct_support_frog = 100;</code>
        */
-      public Builder mergeStructSupportFrog(emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog value) {
+      public Builder mergeStructSupportFrog(emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog value) {
         if (structSupportFrogBuilder_ == null) {
           if (detailCase_ == 100 &&
-              detail_ != emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog.newBuilder((emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog) detail_)
+              detail_ != emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog.newBuilder((emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -748,36 +748,36 @@ public final class ABEDJIIIEJEOuterClass {
       /**
        * <code>._StructSupportFrog struct_support_frog = 100;</code>
        */
-      public emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog.Builder getStructSupportFrogBuilder() {
+      public emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog.Builder getStructSupportFrogBuilder() {
         return getStructSupportFrogFieldBuilder().getBuilder();
       }
       /**
        * <code>._StructSupportFrog struct_support_frog = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrogOrBuilder getStructSupportFrogOrBuilder() {
+      public emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrogOrBuilder getStructSupportFrogOrBuilder() {
         if ((detailCase_ == 100) && (structSupportFrogBuilder_ != null)) {
           return structSupportFrogBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog) detail_;
+            return (emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog) detail_;
           }
-          return emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog.getDefaultInstance();
+          return emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog.getDefaultInstance();
         }
       }
       /**
        * <code>._StructSupportFrog struct_support_frog = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog, emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog.Builder, emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrogOrBuilder> 
+          emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog, emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog.Builder, emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrogOrBuilder> 
           getStructSupportFrogFieldBuilder() {
         if (structSupportFrogBuilder_ == null) {
           if (!(detailCase_ == 100)) {
-            detail_ = emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog.getDefaultInstance();
           }
           structSupportFrogBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog, emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog.Builder, emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrogOrBuilder>(
-                  (emu.grasscutter.net.proto.StructSupportFrog._StructSupportFrog) detail_,
+              emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog, emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog.Builder, emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrogOrBuilder>(
+                  (emu.grasscutter.net.proto._StructSupportFrogOuterClass._StructSupportFrog) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -857,14 +857,14 @@ public final class ABEDJIIIEJEOuterClass {
       "_StructSupportFrog.proto\"n\n\013ABEDJIIIEJE\022" +
       "!\n\013PGGCPHIDGAJ\030\001 \001(\0162\014.IMMCFACHJJP\0222\n\023st" +
       "ruct_support_frog\030d \001(\0132\023._StructSupport" +
-      "FrogH\000B\010\n\006detailB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "FrogH\000B\010\n\006detailB2\n\031emu.grasscutter.net." +
+      "protoB\025ABEDJIIIEJEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.IMMCFACHJJPOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.StructSupportFrog.getDescriptor(),
+          emu.grasscutter.net.proto._StructSupportFrogOuterClass.getDescriptor(),
         });
     internal_static_ABEDJIIIEJE_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -873,7 +873,7 @@ public final class ABEDJIIIEJEOuterClass {
         internal_static_ABEDJIIIEJE_descriptor,
         new java.lang.String[] { "PGGCPHIDGAJ", "StructSupportFrog", "Detail", });
     emu.grasscutter.net.proto.IMMCFACHJJPOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.StructSupportFrog.getDescriptor();
+    emu.grasscutter.net.proto._StructSupportFrogOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

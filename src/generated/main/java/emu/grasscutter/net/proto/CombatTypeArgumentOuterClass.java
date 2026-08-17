@@ -379,8 +379,9 @@ public final class CombatTypeArgumentOuterClass {
       "CombatTypeArgument_ENTITY_INTERPOLATE_MO" +
       "VE\020\030\0221\n-CombatTypeArgument_COMBAT_DIE_AN" +
       "IMATOR_CHANGE\020\031\0227\n3CombatTypeArgument_CO" +
-      "MBAT_AVATAR_TRANSFER_BY_SERVER\020\032B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "MBAT_AVATAR_TRANSFER_BY_SERVER\020\032B9\n\031emu." +
+      "grasscutter.net.protoB\034CombatTypeArgumen" +
+      "tOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

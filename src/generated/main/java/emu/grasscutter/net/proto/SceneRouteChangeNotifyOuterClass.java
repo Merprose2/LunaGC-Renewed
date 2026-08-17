@@ -973,8 +973,8 @@ public final class SceneRouteChangeNotifyOuterClass {
       "teChangeInfo.proto\"i\n\026SceneRouteChangeNo" +
       "tify\022\022\n\nscene_time\030\003 \001(\r\022\020\n\010scene_id\030\005 \001" +
       "(\r\022)\n\nroute_list\030\014 \003(\0132\025.SceneRouteChang" +
-      "eInfoB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "eInfoB=\n\031emu.grasscutter.net.protoB Scen" +
+      "eRouteChangeNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

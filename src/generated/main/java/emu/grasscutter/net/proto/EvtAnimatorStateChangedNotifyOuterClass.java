@@ -769,8 +769,9 @@ public final class EvtAnimatorStateChangedNotifyOuterClass {
       "dType.proto\"\212\001\n\035EvtAnimatorStateChangedN" +
       "otify\022E\n\037evt_animator_state_changed_info" +
       "\030\005 \001(\0132\034.EvtAnimatorStateChangedInfo\022\"\n\014" +
-      "forward_type\030\007 \001(\0162\014.ForwardTypeB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "forward_type\030\007 \001(\0162\014.ForwardTypeBD\n\031emu." +
+      "grasscutter.net.protoB\'EvtAnimatorStateC" +
+      "hangedNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

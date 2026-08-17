@@ -895,8 +895,9 @@ public final class KCHPMOIPDGFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KCHPMOIPDGF.proto\032\021JAPBJJKOEFF.proto\"E" +
       "\n\013KCHPMOIPDGF\022\023\n\013JDFIPNGEHHG\030\001 \001(\002\022!\n\013LI" +
-      "ILBNHHEFB\030\002 \003(\0132\014.JAPBJJKOEFFB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ILBNHHEFB\030\002 \003(\0132\014.JAPBJJKOEFFB2\n\031emu.gra" +
+      "sscutter.net.protoB\025KCHPMOIPDGFOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

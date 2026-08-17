@@ -1764,8 +1764,9 @@ public final class ItemAddHintNotifyOuterClass {
       "\022\031\n\010position\030\010 \001(\0132\007.Vector\022\020\n\010quest_id\030" +
       "\t \001(\r\0221\n\036overflow_transformed_item_list\030" +
       "\n \003(\0132\t.ItemHint\022\023\n\013CGOIMBMLDPP\030\014 \001(\010\022\034\n" +
-      "\titem_list\030\017 \003(\0132\t.ItemHintB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\titem_list\030\017 \003(\0132\t.ItemHintB8\n\031emu.grass" +
+      "cutter.net.protoB\033ItemAddHintNotifyOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

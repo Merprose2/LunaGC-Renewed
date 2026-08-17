@@ -785,8 +785,9 @@ public final class ParentQuestRandomInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033ParentQuestRandomInfo.proto\"V\n\025ParentQ" +
       "uestRandomInfo\022\023\n\013entrance_id\030\001 \001(\r\022\023\n\013f" +
-      "actor_list\030\t \003(\r\022\023\n\013template_id\030\r \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "actor_list\030\t \003(\r\022\023\n\013template_id\030\r \001(\rB<\n" +
+      "\031emu.grasscutter.net.protoB\037ParentQuestR" +
+      "andomInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

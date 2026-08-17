@@ -1419,8 +1419,9 @@ public final class MJFPIOEPHPLOuterClass {
       "\001\n\013MJFPIOEPHPL\022\023\n\013CHHAOEJMMOE\030\001 \001(\005\022\023\n\013O" +
       "CMMIMJIKII\030\002 \001(\t\022\022\n\nrequest_id\030\003 \001(\t\022!\n\013" +
       "NCHCNOPEJHK\030\004 \003(\0132\014.MICEFJLBDPB\022\023\n\013NGEDG" +
-      "DGBAID\030\005 \001(\014\022\023\n\013NJKJHJEAKEJ\030\006 \001(\tB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "DGBAID\030\005 \001(\014\022\023\n\013NJKJHJEAKEJ\030\006 \001(\tB2\n\031emu" +
+      ".grasscutter.net.protoB\025MJFPIOEPHPLOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

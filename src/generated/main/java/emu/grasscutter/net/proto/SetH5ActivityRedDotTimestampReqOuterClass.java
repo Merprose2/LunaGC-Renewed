@@ -526,8 +526,9 @@ public final class SetH5ActivityRedDotTimestampReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n%SetH5ActivityRedDotTimestampReq.proto\"" +
       "C\n\037SetH5ActivityRedDotTimestampReq\022 \n\030cl" +
-      "ient_red_dot_timestamp\030\r \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "ient_red_dot_timestamp\030\r \001(\rBF\n\031emu.gras" +
+      "scutter.net.protoB)SetH5ActivityRedDotTi" +
+      "mestampReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

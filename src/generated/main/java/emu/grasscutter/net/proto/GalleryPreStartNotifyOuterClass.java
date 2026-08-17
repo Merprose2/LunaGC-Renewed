@@ -596,8 +596,9 @@ public final class GalleryPreStartNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033GalleryPreStartNotify.proto\"G\n\025Gallery" +
       "PreStartNotify\022\032\n\022pre_start_end_time\030\001 \001" +
-      "(\r\022\022\n\ngallery_id\030\002 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "(\r\022\022\n\ngallery_id\030\002 \001(\rB<\n\031emu.grasscutte" +
+      "r.net.protoB\037GalleryPreStartNotifyOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

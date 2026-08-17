@@ -934,7 +934,8 @@ public final class EvtCompensatePosDiffInfoOuterClass {
       "ur_pos\030\002 \001(\0132\007.Vector\022\032\n\022face_angle_comp" +
       "act\030\005 \001(\005\022\021\n\tentity_id\030\007 \001(\r\022\037\n\027normaliz" +
       "ed_time_compact\030\n \001(\r\022\020\n\010cur_hash\030\013 \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "?\n\031emu.grasscutter.net.protoB\"EvtCompens" +
+      "atePosDiffInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

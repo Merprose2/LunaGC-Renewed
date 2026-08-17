@@ -793,8 +793,9 @@ public final class GCGBasicDataNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030GCGBasicDataNotify.proto\"Q\n\022GCGBasicDa" +
       "taNotify\022\013\n\003exp\030\007 \001(\r\022\037\n\027level_reward_ta" +
-      "ken_list\030\010 \003(\r\022\r\n\005level\030\013 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ken_list\030\010 \003(\r\022\r\n\005level\030\013 \001(\rB9\n\031emu.gra" +
+      "sscutter.net.protoB\034GCGBasicDataNotifyOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

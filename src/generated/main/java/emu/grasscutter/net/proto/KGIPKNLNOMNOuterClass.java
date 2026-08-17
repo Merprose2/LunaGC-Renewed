@@ -893,8 +893,9 @@ public final class KGIPKNLNOMNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KGIPKNLNOMN.proto\032\021NPDHAPPABMJ.proto\"I" +
       "\n\013KGIPKNLNOMN\022\023\n\013GAFMIEILEPD\030\014 \001(\r\022%\n\017st" +
-      "age_data_list\030\r \003(\0132\014.NPDHAPPABMJB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "age_data_list\030\r \003(\0132\014.NPDHAPPABMJB2\n\031emu" +
+      ".grasscutter.net.protoB\025KGIPKNLNOMNOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

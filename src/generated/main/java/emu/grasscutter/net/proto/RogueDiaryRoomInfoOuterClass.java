@@ -965,8 +965,9 @@ public final class RogueDiaryRoomInfoOuterClass {
       "\n\030RogueDiaryRoomInfo.proto\032\020Uint32Pair.p" +
       "roto\"[\n\022RogueDiaryRoomInfo\022\021\n\tconfig_id\030" +
       "\003 \001(\r\022\017\n\007is_boss\030\007 \001(\010\022!\n\014monster_list\030\010" +
-      " \003(\0132\013.Uint32PairB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      " \003(\0132\013.Uint32PairB9\n\031emu.grasscutter.net" +
+      ".protoB\034RogueDiaryRoomInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -667,8 +667,8 @@ public final class BILPEKCIFLCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BILPEKCIFLC.proto\"H\n\013BILPEKCIFLC\022\020\n\010le" +
       "vel_id\030\003 \001(\r\022\022\n\ndifficulty\030\005 \001(\r\022\023\n\013HOGL" +
-      "EAENNAF\030\n \001(\010B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "EAENNAF\030\n \001(\010B2\n\031emu.grasscutter.net.pro" +
+      "toB\025BILPEKCIFLCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

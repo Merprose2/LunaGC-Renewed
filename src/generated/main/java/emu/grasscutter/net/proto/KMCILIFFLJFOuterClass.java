@@ -587,8 +587,9 @@ public final class KMCILIFFLJFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KMCILIFFLJF.proto\"+\n\013KMCILIFFLJF\022\013\n\003ui" +
-      "d\030\001 \001(\r\022\017\n\007retcode\030\002 \001(\005B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "d\030\001 \001(\r\022\017\n\007retcode\030\002 \001(\005B2\n\031emu.grasscut" +
+      "ter.net.protoB\025KMCILIFFLJFOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

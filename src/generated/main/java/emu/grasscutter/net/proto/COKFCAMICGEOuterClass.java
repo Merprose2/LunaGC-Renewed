@@ -667,8 +667,8 @@ public final class COKFCAMICGEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021COKFCAMICGE.proto\"G\n\013COKFCAMICGE\022\022\n\nta" +
       "rget_uid\030\001 \001(\r\022\017\n\007retcode\030\006 \001(\005\022\023\n\013CHFEJ" +
-      "DPGEFK\030\n \001(\003B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "DPGEFK\030\n \001(\003B2\n\031emu.grasscutter.net.prot" +
+      "oB\025COKFCAMICGEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

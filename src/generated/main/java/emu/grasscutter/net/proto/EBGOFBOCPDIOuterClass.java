@@ -802,8 +802,8 @@ public final class EBGOFBOCPDIOuterClass {
       "\n\021EBGOFBOCPDI.proto\"v\n\013EBGOFBOCPDI\022\023\n\013BK" +
       "DPIJGILMM\030\001 \001(\010\022\023\n\013MIBKOHJMCPD\030\002 \001(\005\022\023\n\013" +
       "MONJLHDADJO\030\003 \001(\010\022\023\n\013IKLHCJEKOKF\030\004 \001(\r\022\023" +
-      "\n\013MLNKPJDBLBD\030\005 \001(\010B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013MLNKPJDBLBD\030\005 \001(\010B2\n\031emu.grasscutter.n" +
+      "et.protoB\025EBGOFBOCPDIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

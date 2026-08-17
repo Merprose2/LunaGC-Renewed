@@ -133,8 +133,9 @@ public final class EEBMNFMPKBOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EEBMNFMPKBO.proto*P\n\013EEBMNFMPKBO\022 \n\034EE" +
       "BMNFMPKBO_LIGHT_TYPE_POINT\020\000\022\037\n\033EEBMNFMP" +
-      "KBO_LIGHT_TYPE_SPOT\020\001B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "KBO_LIGHT_TYPE_SPOT\020\001B2\n\031emu.grasscutter" +
+      ".net.protoB\025EEBMNFMPKBOOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

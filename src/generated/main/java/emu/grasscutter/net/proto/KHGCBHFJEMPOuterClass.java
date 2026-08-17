@@ -595,8 +595,9 @@ public final class KHGCBHFJEMPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KHGCBHFJEMP.proto\"3\n\013KHGCBHFJEMP\022\023\n\013ac" +
-      "tivity_id\030\001 \001(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "tivity_id\030\001 \001(\r\022\017\n\007retcode\030\016 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025KHGCBHFJEMPOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

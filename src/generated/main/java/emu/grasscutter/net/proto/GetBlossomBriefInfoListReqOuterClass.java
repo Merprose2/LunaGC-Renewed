@@ -653,8 +653,9 @@ public final class GetBlossomBriefInfoListReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n GetBlossomBriefInfoListReq.proto\"2\n\032Ge" +
       "tBlossomBriefInfoListReq\022\024\n\014city_id_list" +
-      "\030\004 \003(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\004 \003(\rBA\n\031emu.grasscutter.net.protoB$Get" +
+      "BlossomBriefInfoListReqOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -933,8 +933,9 @@ public final class DeshretObeliskChestInfoOuterClass {
       "proto\"}\n\027DeshretObeliskChestInfo\022\020\n\010scen" +
       "e_id\030\001 \001(\r\022\021\n\tconfig_id\030\007 \001(\r\022\024\n\003pos\030\n \001" +
       "(\0132\007.Vector\022\020\n\010group_id\030\014 \001(\r\022\025\n\r_map_la" +
-      "yer_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "yer_id\030\016 \001(\rB>\n\031emu.grasscutter.net.prot" +
+      "oB!DeshretObeliskChestInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

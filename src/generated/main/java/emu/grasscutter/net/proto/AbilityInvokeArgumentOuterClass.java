@@ -1466,8 +1466,9 @@ public final class AbilityInvokeArgumentOuterClass {
       "ilityInvokeArgument_ABILITY_MIXIN_MODIFY" +
       "_BE_HIT_NEW_ELEMENT_REACTION_DAMAGE_COUN" +
       "T\020\247\001\022=\n8AbilityInvokeArgument_ABILITY_MI" +
-      "XIN_DISABLE_ALL_COLLIDER\020\250\001B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "XIN_DISABLE_ALL_COLLIDER\020\250\001B<\n\031emu.grass" +
+      "cutter.net.protoB\037AbilityInvokeArgumentO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

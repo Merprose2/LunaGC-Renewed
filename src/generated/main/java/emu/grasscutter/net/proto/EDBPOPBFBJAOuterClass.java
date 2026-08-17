@@ -667,8 +667,9 @@ public final class EDBPOPBFBJAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EDBPOPBFBJA.proto\".\n\013EDBPOPBFBJA\022\014\n\004na" +
-      "me\030\002 \001(\t\022\021\n\trename_id\030\t \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "me\030\002 \001(\t\022\021\n\trename_id\030\t \001(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025EDBPOPBFBJAOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

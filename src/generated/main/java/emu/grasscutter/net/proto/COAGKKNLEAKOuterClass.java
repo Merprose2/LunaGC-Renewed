@@ -818,8 +818,9 @@ public final class COAGKKNLEAKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021COAGKKNLEAK.proto\032\021GPCHJDHAIGD.proto\"E" +
       "\n\013COAGKKNLEAK\022\023\n\013CHEGAODEOPM\030\001 \001(\010\022!\n\013AG" +
-      "FDOBOEDFA\030\002 \003(\0162\014.GPCHJDHAIGDB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "FDOBOEDFA\030\002 \003(\0162\014.GPCHJDHAIGDB2\n\031emu.gra" +
+      "sscutter.net.protoB\025COAGKKNLEAKOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

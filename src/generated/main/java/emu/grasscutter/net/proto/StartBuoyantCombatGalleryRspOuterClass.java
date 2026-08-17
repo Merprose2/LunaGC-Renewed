@@ -667,7 +667,8 @@ public final class StartBuoyantCombatGalleryRspOuterClass {
       "\n\"StartBuoyantCombatGalleryRsp.proto\"Z\n\034" +
       "StartBuoyantCombatGalleryRsp\022\017\n\007retcode\030" +
       "\007 \001(\005\022\022\n\ngallery_id\030\t \001(\r\022\025\n\rgallery_lev" +
-      "el\030\n \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
+      "el\030\n \001(\rBC\n\031emu.grasscutter.net.protoB&S" +
+      "tartBuoyantCombatGalleryRspOuterClassb\006p" +
       "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

@@ -731,7 +731,8 @@ public final class AMHDHLFOAFJOuterClass {
       "\n\021AMHDHLFOAFJ.proto\032\026GCGGameBriefData.pr" +
       "oto\"J\n\013AMHDHLFOAFJ\022&\n\013LFIKNHNANDJ\030\007 \001(\0132" +
       "\021.GCGGameBriefData\022\023\n\013DEPELGKEPBF\030\n \001(\010B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025AMHDHLFOAF" +
+      "JOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

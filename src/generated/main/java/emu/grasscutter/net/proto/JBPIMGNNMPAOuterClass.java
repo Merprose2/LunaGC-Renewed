@@ -667,8 +667,9 @@ public final class JBPIMGNNMPAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JBPIMGNNMPA.proto\"7\n\013JBPIMGNNMPA\022\023\n\013OJ" +
-      "MJFKKIFEO\030\003 \001(\t\022\023\n\013_data_index\030\016 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "MJFKKIFEO\030\003 \001(\t\022\023\n\013_data_index\030\016 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025JBPIMGNNMPAOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -666,8 +666,9 @@ public final class MDMEMKOEJIOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MDMEMKOEJIO.proto\"R\n\013MDMEMKOEJIO\022\035\n\025ac" +
       "tivity_push_tips_id\030\001 \001(\r\022\023\n\013activity_id" +
-      "\030\014 \001(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\030\014 \001(\r\022\017\n\007retcode\030\016 \001(\005B2\n\031emu.grasscutt" +
+      "er.net.protoB\025MDMEMKOEJIOOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

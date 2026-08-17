@@ -995,8 +995,8 @@ public final class LIOOHMGNKGPOuterClass {
       "\n\021LIOOHMGNKGP.proto\032\014Vector.proto\"Y\n\013LIO" +
       "OHMGNKGP\022\024\n\003pos\030\004 \001(\0132\007.Vector\022\024\n\003rot\030\007 " +
       "\001(\0132\007.Vector\022\020\n\010block_id\030\010 \001(\r\022\014\n\004guid\030\014" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB2\n\031emu.grasscutter.net.protoB\025LIOOH" +
+      "MGNKGPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

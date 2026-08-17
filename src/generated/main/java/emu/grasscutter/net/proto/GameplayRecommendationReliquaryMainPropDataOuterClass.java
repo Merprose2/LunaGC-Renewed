@@ -589,8 +589,9 @@ public final class GameplayRecommendationReliquaryMainPropDataOuterClass {
       "\n1GameplayRecommendationReliquaryMainPro" +
       "pData.proto\"W\n+GameplayRecommendationRel" +
       "iquaryMainPropData\022\022\n\npermillage\030\013 \001(\r\022\024" +
-      "\n\014main_prop_id\030\017 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\n\014main_prop_id\030\017 \001(\rBR\n\031emu.grasscutter." +
+      "net.protoB5GameplayRecommendationReliqua" +
+      "ryMainPropDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

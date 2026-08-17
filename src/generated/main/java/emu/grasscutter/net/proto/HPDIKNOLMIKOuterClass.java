@@ -942,8 +942,9 @@ public final class HPDIKNOLMIKOuterClass {
       "\n\021HPDIKNOLMIK.proto\032\021MEBLDOBKOMD.proto\"o" +
       "\n\013HPDIKNOLMIK\022\023\n\013EILALEDMFAG\030\001 \001(\r\022\023\n\013PH" +
       "HNLANMBIN\030\002 \001(\r\022!\n\013PKIDLOFBHNC\030\004 \001(\0132\014.M" +
-      "EBLDOBKOMD\022\023\n\013PCEBCGICLBK\030\005 \001(\tB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "EBLDOBKOMD\022\023\n\013PCEBCGICLBK\030\005 \001(\tB2\n\031emu.g" +
+      "rasscutter.net.protoB\025HPDIKNOLMIKOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

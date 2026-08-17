@@ -587,8 +587,9 @@ public final class NIABNDOJMMIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NIABNDOJMMI.proto\"9\n\013NIABNDOJMMI\022\024\n\013MF" +
-      "BMCHPCCBM\030\365\003 \001(\r\022\024\n\013PCILNBFNIPH\030\366\003 \001(\005B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "BMCHPCCBM\030\365\003 \001(\r\022\024\n\013PCILNBFNIPH\030\366\003 \001(\005B2" +
+      "\n\031emu.grasscutter.net.protoB\025NIABNDOJMMI" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class BKEGFCADNKPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BKEGFCADNKP.proto\"4\n\013BKEGFCADNKP\022\020\n\010ev" +
-      "ent_id\030\003 \001(\r\022\023\n\013AHFOGEJKOHC\030\017 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "ent_id\030\003 \001(\r\022\023\n\013AHFOGEJKOHC\030\017 \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025BKEGFCADNKPOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

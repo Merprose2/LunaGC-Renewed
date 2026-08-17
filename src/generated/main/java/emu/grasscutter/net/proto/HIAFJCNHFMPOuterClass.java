@@ -794,8 +794,8 @@ public final class HIAFJCNHFMPOuterClass {
       "\n\021HIAFJCNHFMP.proto\032\021ILGDNFHDEGF.proto\"[" +
       "\n\013HIAFJCNHFMP\022\024\n\014dungeon_guid\030\001 \001(\004\022\023\n\013B" +
       "EAPKKIIJKI\030\002 \001(\010\022!\n\013GABGGLEBOHC\030\003 \001(\0132\014." +
-      "ILGDNFHDEGFB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "ILGDNFHDEGFB2\n\031emu.grasscutter.net.proto" +
+      "B\025HIAFJCNHFMPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

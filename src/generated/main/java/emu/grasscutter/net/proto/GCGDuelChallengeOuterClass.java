@@ -658,8 +658,9 @@ public final class GCGDuelChallengeOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026GCGDuelChallenge.proto\"V\n\020GCGDuelChall" +
       "enge\022\026\n\016total_progress\030\001 \001(\r\022\024\n\014cur_prog" +
-      "ress\030\006 \001(\r\022\024\n\014challenge_id\030\013 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "ress\030\006 \001(\r\022\024\n\014challenge_id\030\013 \001(\rB7\n\031emu." +
+      "grasscutter.net.protoB\032GCGDuelChallengeO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

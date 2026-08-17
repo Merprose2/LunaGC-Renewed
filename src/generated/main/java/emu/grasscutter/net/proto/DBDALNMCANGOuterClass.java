@@ -1148,8 +1148,8 @@ public final class DBDALNMCANGOuterClass {
       "KOKKHFMG\030\001 \001(\0132\014.AABLEDJBAKK\022\023\n\013ONBDBOIE" +
       "PLF\030\002 \001(\010\022!\n\013HKALMLHHMCH\030\003 \001(\0132\014.ABFMGNF" +
       "BCOK\022\023\n\013NAFDJNMLDBJ\030\004 \001(\r\022\023\n\013FEFIBKOGOJB" +
-      "\030\005 \001(\tB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\005 \001(\tB2\n\031emu.grasscutter.net.protoB\025DBD" +
+      "ALNMCANGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -865,8 +865,9 @@ public final class FurnitureMakeBeHelpedNotifyOuterClass {
       "akeSlot.proto\"\216\001\n\033FurnitureMakeBeHelpedN" +
       "otify\022>\n\032furniture_make_helped_data\030\004 \001(" +
       "\0132\032.FurnitureMakeBeHelpedData\022/\n\023furnitu" +
-      "re_make_slot\030\005 \001(\0132\022.FurnitureMakeSlotB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "re_make_slot\030\005 \001(\0132\022.FurnitureMakeSlotBB" +
+      "\n\031emu.grasscutter.net.protoB%FurnitureMa" +
+      "keBeHelpedNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1567,8 +1567,9 @@ public final class AOLECBOLBNEOuterClass {
       "\001\n\013AOLECBOLBNE\022!\n\013DLNJPHEAKDO\030\001 \003(\0132\014.IO" +
       "HFNEENCJD\022!\n\013KCJHCKDMKIG\030\002 \003(\0132\014.IOHFNEE" +
       "NCJD\022\023\n\013DCJPKKBHKOK\030\003 \001(\t\022\023\n\013FEFKEOEANBI" +
-      "\030\004 \001(\005\022\023\n\013PAGGMEGDBDL\030\005 \001(\tB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\030\004 \001(\005\022\023\n\013PAGGMEGDBDL\030\005 \001(\tB2\n\031emu.grass" +
+      "cutter.net.protoB\025AOLECBOLBNEOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

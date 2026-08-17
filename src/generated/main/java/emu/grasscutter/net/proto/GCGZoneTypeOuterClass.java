@@ -202,8 +202,8 @@ public final class GCGZoneTypeOuterClass {
       "\022\037\n\033GCGZoneType_GCG_ZONE_SUMMON\020\005\022\037\n\033GCG" +
       "ZoneType_GCG_ZONE_ASSIST\020\007\022 \n\034GCGZoneTyp" +
       "e_GCG_ZONE_ONSTAGE\020\010\022\035\n\031GCGZoneType_GCG_" +
-      "ZONE_RULE\020\tB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "ZONE_RULE\020\tB2\n\031emu.grasscutter.net.proto" +
+      "B\025GCGZoneTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

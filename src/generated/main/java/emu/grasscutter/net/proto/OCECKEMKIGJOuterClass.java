@@ -1140,8 +1140,9 @@ public final class OCECKEMKIGJOuterClass {
       "evel_id\030\002 \001(\r\022\021\n\tis_played\030\004 \001(\010\022\023\n\013is_f" +
       "inished\030\007 \001(\010\022\023\n\013IFFKFLBCHHL\030\010 \001(\r\022\023\n\013AL" +
       "NHCONFHHO\030\t \001(\r\022\023\n\013EGCJHEIONKK\030\014 \003(\r\022\021\n\t" +
-      "is_unlock\030\r \001(\010\022\023\n\013JPBOIPOIGNH\030\017 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "is_unlock\030\r \001(\010\022\023\n\013JPBOIPOIGNH\030\017 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025OCECKEMKIGJOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -794,8 +794,9 @@ public final class GetPlayerMpModeAvailabilityRspOuterClass {
       "\n$GetPlayerMpModeAvailabilityRsp.proto\"U" +
       "\n\036GetPlayerMpModeAvailabilityRsp\022\016\n\006mp_r" +
       "et\030\005 \001(\005\022\022\n\nparam_list\030\016 \003(\r\022\017\n\007retcode\030" +
-      "\017 \001(\005B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\017 \001(\005BE\n\031emu.grasscutter.net.protoB(GetP" +
+      "layerMpModeAvailabilityRspOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

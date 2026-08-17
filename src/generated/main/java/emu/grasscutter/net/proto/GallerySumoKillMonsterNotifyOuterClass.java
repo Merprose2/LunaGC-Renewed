@@ -738,7 +738,8 @@ public final class GallerySumoKillMonsterNotifyOuterClass {
       "\034GallerySumoKillMonsterNotify\022\r\n\005score\030\n" +
       " \001(\r\022\036\n\026kill_elite_monster_num\030\014 \001(\r\022\022\n\n" +
       "gallery_id\030\r \001(\r\022\037\n\027kill_normal_mosnter_" +
-      "num\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
+      "num\030\016 \001(\rBC\n\031emu.grasscutter.net.protoB&" +
+      "GallerySumoKillMonsterNotifyOuterClassb\006" +
       "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

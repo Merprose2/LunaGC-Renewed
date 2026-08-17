@@ -1122,8 +1122,9 @@ public final class FJJOOMOJPCGOuterClass {
       "\n\021FJJOOMOJPCG.proto\032\014Vector.proto\"s\n\013FJJ" +
       "OOMOJPCG\022\023\n\013HJANHNONMGI\030\001 \003(\005\022\034\n\013FNBACJM" +
       "IGAN\030\005 \001(\0132\007.Vector\022\023\n\013PDPPOOKDOPH\030\007 \001(\005" +
-      "\022\034\n\013KGBHAADNADI\030\r \001(\0132\007.VectorB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\022\034\n\013KGBHAADNADI\030\r \001(\0132\007.VectorB2\n\031emu.gr" +
+      "asscutter.net.protoB\025FJJOOMOJPCGOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

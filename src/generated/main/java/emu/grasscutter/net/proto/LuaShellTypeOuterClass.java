@@ -153,8 +153,8 @@ public final class LuaShellTypeOuterClass {
       "\032LuaShellType_LUASHELL_NONE\020\000\022 \n\034LuaShel" +
       "lType_LUASHELL_NORMAL\020\001\022\"\n\036LuaShellType_" +
       "LUASHELL_SECURITY\020\002\022$\n LuaShellType_LUAS" +
-      "HELL_SHELL_CODE\020\003B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "HELL_SHELL_CODE\020\003B3\n\031emu.grasscutter.net" +
+      ".protoB\026LuaShellTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

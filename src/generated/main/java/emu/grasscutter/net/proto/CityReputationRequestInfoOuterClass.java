@@ -1531,8 +1531,9 @@ public final class CityReputationRequestInfoOuterClass {
       "\022A\n\021request_info_list\030\013 \003(\0132&.CityReputa" +
       "tionRequestInfo.RequestInfo\032L\n\013RequestIn" +
       "fo\022\027\n\017is_taken_reward\030\003 \001(\010\022\022\n\nrequest_i" +
-      "d\030\013 \001(\r\022\020\n\010quest_id\030\014 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "d\030\013 \001(\r\022\020\n\010quest_id\030\014 \001(\rB@\n\031emu.grasscu" +
+      "tter.net.protoB#CityReputationRequestInf" +
+      "oOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

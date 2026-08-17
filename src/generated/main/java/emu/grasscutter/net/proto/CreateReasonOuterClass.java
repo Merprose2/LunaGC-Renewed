@@ -143,8 +143,8 @@ public final class CreateReasonOuterClass {
       "\n\022CreateReason.proto*k\n\014CreateReason\022\034\n\030" +
       "CreateReason_CREATE_NONE\020\000\022\035\n\031CreateReas" +
       "on_CREATE_QUEST\020\001\022\036\n\032CreateReason_CREATE" +
-      "_ENERGY\020\002B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_ENERGY\020\002B3\n\031emu.grasscutter.net.protoB\026" +
+      "CreateReasonOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

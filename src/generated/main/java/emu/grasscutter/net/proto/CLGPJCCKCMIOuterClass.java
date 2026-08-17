@@ -893,8 +893,9 @@ public final class CLGPJCCKCMIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CLGPJCCKCMI.proto\032\021LHKEIIKBBJC.proto\"C" +
       "\n\013CLGPJCCKCMI\022\020\n\010route_id\030\001 \001(\005\022\"\n\014route" +
-      "_points\030\002 \003(\0132\014.LHKEIIKBBJCB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "_points\030\002 \003(\0132\014.LHKEIIKBBJCB2\n\031emu.grass" +
+      "cutter.net.protoB\025CLGPJCCKCMIOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

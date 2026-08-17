@@ -1044,8 +1044,8 @@ public final class KOOMKKPKEMKOuterClass {
       "\n\021KOOMKKPKEMK.proto\032\021EBADNHGKAAP.proto\"Z" +
       "\n\013KOOMKKPKEMK\022\023\n\013EILALEDMFAG\030\003 \001(\r\022!\n\013DE" +
       "OLKEEEMHO\030\004 \003(\0132\014.EBADNHGKAAP\022\023\n\013PLMKHMO" +
-      "OAJG\030\005 \001(\tB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "OAJG\030\005 \001(\tB2\n\031emu.grasscutter.net.protoB" +
+      "\025KOOMKKPKEMKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

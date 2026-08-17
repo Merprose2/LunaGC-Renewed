@@ -896,8 +896,9 @@ public final class FungusTrainingPoolPreviewDetailOuterClass {
       "o\"|\n\037FungusTrainingPoolPreviewDetail\022\017\n\007" +
       "pool_id\030\t \001(\r\022H\n\033monster_preview_detail_" +
       "list\030\014 \003(\0132#.FungusTrainingMonsterPrevie" +
-      "wDetailB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "wDetailBF\n\031emu.grasscutter.net.protoB)Fu" +
+      "ngusTrainingPoolPreviewDetailOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

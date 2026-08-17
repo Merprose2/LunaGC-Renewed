@@ -144,8 +144,8 @@ public final class PFPCBEEHELJOuterClass {
       "FPCBEEHELJ_REPORT_UGC_REASON_NONE\020\000\0222\n.P" +
       "FPCBEEHELJ_REPORT_UGC_REASON_INVALID_NIC" +
       "KNAME\020\001\0221\n-PFPCBEEHELJ_REPORT_UGC_REASON" +
-      "_INVALID_BEATMAP\020\002B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "_INVALID_BEATMAP\020\002B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025PFPCBEEHELJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

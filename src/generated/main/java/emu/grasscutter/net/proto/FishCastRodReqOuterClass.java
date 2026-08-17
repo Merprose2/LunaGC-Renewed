@@ -870,8 +870,9 @@ public final class FishCastRodReqOuterClass {
       "\n\024FishCastRodReq.proto\032\014Vector.proto\"e\n\016" +
       "FishCastRodReq\022\023\n\013NNOGJAJECDP\030\001 \001(\r\022\024\n\003p" +
       "os\030\010 \001(\0132\007.Vector\022\023\n\013LMJDFOBAEPB\030\014 \001(\r\022\023" +
-      "\n\013FNFIKPPNLJH\030\017 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013FNFIKPPNLJH\030\017 \001(\rB5\n\031emu.grasscutter.n" +
+      "et.protoB\030FishCastRodReqOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

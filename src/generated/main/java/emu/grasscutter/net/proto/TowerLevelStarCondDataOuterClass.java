@@ -731,8 +731,9 @@ public final class TowerLevelStarCondDataOuterClass {
       "\n\034TowerLevelStarCondData.proto\"l\n\026TowerL" +
       "evelStarCondData\022\023\n\013DDMLJDILDCH\030\001 \001(\r\022\023\n" +
       "\013BEDBMNHLJMJ\030\013 \001(\010\022\023\n\013DJIFFDLHDPO\030\014 \001(\010\022" +
-      "\023\n\013IHDABMGELBN\030\r \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\023\n\013IHDABMGELBN\030\r \001(\rB=\n\031emu.grasscutter." +
+      "net.protoB TowerLevelStarCondDataOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

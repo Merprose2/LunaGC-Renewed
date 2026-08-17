@@ -903,8 +903,9 @@ public final class NLOGCIICFCLOuterClass {
       "\n\021NLOGCIICFCL.proto\032\021MatchReason.proto\"h" +
       "\n\013NLOGCIICFCL\022\020\n\010uid_list\030\004 \003(\r\022\034\n\006reaso" +
       "n\030\006 \001(\0162\014.MatchReason\022\024\n\014dungeon_guid\030\n " +
-      "\001(\004\022\023\n\013JDALNEJFIAN\030\017 \001(\010B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\001(\004\022\023\n\013JDALNEJFIAN\030\017 \001(\010B2\n\031emu.grasscut" +
+      "ter.net.protoB\025NLOGCIICFCLOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

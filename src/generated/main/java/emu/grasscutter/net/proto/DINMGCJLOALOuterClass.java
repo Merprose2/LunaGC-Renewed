@@ -526,8 +526,8 @@ public final class DINMGCJLOALOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DINMGCJLOAL.proto\"\"\n\013DINMGCJLOAL\022\023\n\013AA" +
-      "EBDLNDLOM\030\t \001(\004B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "EBDLNDLOM\030\t \001(\004B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025DINMGCJLOALOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

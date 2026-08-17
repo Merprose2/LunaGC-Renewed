@@ -596,8 +596,9 @@ public final class ONNFCIBIAMHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ONNFCIBIAMH.proto\"8\n\013ONNFCIBIAMH\022\025\n\ris" +
-      "_skip_match\030\003 \001(\010\022\022\n\nmp_play_id\030\n \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "_skip_match\030\003 \001(\010\022\022\n\nmp_play_id\030\n \001(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025ONNFCIBIAMHO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

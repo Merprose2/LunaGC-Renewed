@@ -1482,7 +1482,8 @@ public final class ExpeditionActivityDetailInfoOuterClass {
       "\002 \003(\0132\023.ExpeditionPathInfo\022\023\n\013MFHNOLBKGO" +
       "D\030\004 \001(\r\022\032\n\022content_close_time\030\006 \001(\r\022\031\n\021i" +
       "s_content_closed\030\n \001(\010\022\023\n\013AGBJCLKGAPP\030\017 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rBC\n\031emu.grasscutter.net.protoB&Expedi" +
+      "tionActivityDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

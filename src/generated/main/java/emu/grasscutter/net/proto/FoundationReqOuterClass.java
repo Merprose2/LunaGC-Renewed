@@ -775,8 +775,8 @@ public final class FoundationReqOuterClass {
       "proto\"{\n\rFoundationReq\022\"\n\007op_type\030\001 \001(\0162" +
       "\021.FoundationOpType\022\030\n\020gadget_entity_id\030\002" +
       " \001(\r\022\023\n\013building_id\030\004 \001(\r\022\027\n\017point_confi" +
-      "g_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "g_id\030\017 \001(\rB4\n\031emu.grasscutter.net.protoB" +
+      "\027FoundationReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

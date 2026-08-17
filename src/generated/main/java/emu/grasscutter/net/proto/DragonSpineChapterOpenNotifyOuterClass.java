@@ -596,8 +596,9 @@ public final class DragonSpineChapterOpenNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"DragonSpineChapterOpenNotify.proto\"G\n\034" +
       "DragonSpineChapterOpenNotify\022\022\n\nchapter_" +
-      "id\030\006 \001(\r\022\023\n\013schedule_id\030\017 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "id\030\006 \001(\r\022\023\n\013schedule_id\030\017 \001(\rBC\n\031emu.gra" +
+      "sscutter.net.protoB&DragonSpineChapterOp" +
+      "enNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -730,7 +730,8 @@ public final class SceneGallerySalvageEscortInfoOuterClass {
       "\035SceneGallerySalvageEscortInfo\022\023\n\013OGJHHE" +
       "EOHFP\030\004 \001(\r\022\023\n\013OPBEOPFFLPO\030\005 \001(\r\022\025\n\rmons" +
       "ter_count\030\006 \001(\r\022\031\n\021max_monster_count\030\r \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rBD\n\031emu.grasscutter.net.protoB\'SceneGa" +
+      "llerySalvageEscortInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -916,8 +916,8 @@ public final class CJHECJFNOEHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CJHECJFNOEH.proto\"L\n\013CJHECJFNOEH\022\023\n\013ch" +
       "ange_type\030\002 \001(\r\022\023\n\013KLADHLDDDBC\030\003 \003(\r\022\023\n\013" +
-      "LOAFGKHFLPE\030\004 \003(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "LOAFGKHFLPE\030\004 \003(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025CJHECJFNOEHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

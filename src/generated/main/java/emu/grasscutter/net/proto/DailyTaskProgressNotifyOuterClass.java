@@ -659,8 +659,9 @@ public final class DailyTaskProgressNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035DailyTaskProgressNotify.proto\032\023DailyTa" +
       "skInfo.proto\"7\n\027DailyTaskProgressNotify\022" +
-      "\034\n\004info\030\t \001(\0132\016.DailyTaskInfoB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\034\n\004info\030\t \001(\0132\016.DailyTaskInfoB>\n\031emu.gra" +
+      "sscutter.net.protoB!DailyTaskProgressNot" +
+      "ifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -903,8 +903,8 @@ public final class IAGLMOMGFPDOuterClass {
       "\n\021IAGLMOMGFPD.proto\"v\n\013IAGLMOMGFPD\022\023\n\tav" +
       "atar_id\030\003 \001(\rH\000\022\030\n\016rent_avatar_id\030\014 \001(\rH" +
       "\000\022\031\n\017trial_config_id\030\r \001(\rH\000\022\023\n\013OAELAOLN" +
-      "GFK\030\004 \001(\010B\010\n\006detailB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "GFK\030\004 \001(\010B\010\n\006detailB2\n\031emu.grasscutter.n" +
+      "et.protoB\025IAGLMOMGFPDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -587,8 +587,9 @@ public final class AOCKHOIFJMBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AOCKHOIFJMB.proto\"7\n\013AOCKHOIFJMB\022\023\n\013DA" +
-      "EOOLJHFJC\030\001 \001(\r\022\023\n\013ECNLAOHFCKA\030\002 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "EOOLJHFJC\030\001 \001(\r\022\023\n\013ECNLAOHFCKA\030\002 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025AOCKHOIFJMBOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

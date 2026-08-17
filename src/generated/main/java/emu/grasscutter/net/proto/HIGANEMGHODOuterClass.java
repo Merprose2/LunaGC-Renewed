@@ -1004,8 +1004,9 @@ public final class HIGANEMGHODOuterClass {
       "\001\n\013HIGANEMGHOD\022\023\n\013AGIFNELOIKK\030\001 \001(\r\022\023\n\013F" +
       "CNPBJMKKHE\030\002 \001(\010\022\023\n\013IDGOBIGLOGH\030\003 \001(\r\022\023\n" +
       "\013CIPDBGAJNCI\030\004 \001(\r\022\023\n\013NFBDBCJKHOF\030\005 \001(\r\022" +
-      "!\n\013NEHEAJBDJDE\030\006 \001(\0132\014.ELJHPENNACFB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "!\n\013NEHEAJBDJDE\030\006 \001(\0132\014.ELJHPENNACFB2\n\031em" +
+      "u.grasscutter.net.protoB\025HIGANEMGHODOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

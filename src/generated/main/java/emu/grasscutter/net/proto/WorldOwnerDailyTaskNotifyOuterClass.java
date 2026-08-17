@@ -973,8 +973,9 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
       "TaskInfo.proto\"w\n\031WorldOwnerDailyTaskNot" +
       "ify\022\026\n\016filter_city_id\030\002 \001(\r\022!\n\ttask_list" +
       "\030\007 \003(\0132\016.DailyTaskInfo\022\037\n\027finished_daily" +
-      "_task_num\030\n \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "_task_num\030\n \001(\rB@\n\031emu.grasscutter.net.p" +
+      "rotoB#WorldOwnerDailyTaskNotifyOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

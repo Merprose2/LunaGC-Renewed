@@ -563,8 +563,8 @@ public final class FEDIDADMJMAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FEDIDADMJMA.proto\032\021MKDCIILGOPN.proto\"0" +
       "\n\013FEDIDADMJMA\022!\n\013MLBEJNBAFBH\030\t \001(\0162\014.MKD" +
-      "CIILGOPNB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "CIILGOPNB2\n\031emu.grasscutter.net.protoB\025F" +
+      "EDIDADMJMAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

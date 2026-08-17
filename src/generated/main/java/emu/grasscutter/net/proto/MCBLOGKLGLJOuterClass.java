@@ -729,8 +729,8 @@ public final class MCBLOGKLGLJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MCBLOGKLGLJ.proto\032\021PGHGKAAPFOM.proto\";" +
       "\n\013MCBLOGKLGLJ\022\033\n\005score\030\001 \001(\0132\014.PGHGKAAPF" +
-      "OM\022\017\n\007retcode\030\003 \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "OM\022\017\n\007retcode\030\003 \001(\005B2\n\031emu.grasscutter.n" +
+      "et.protoB\025MCBLOGKLGLJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

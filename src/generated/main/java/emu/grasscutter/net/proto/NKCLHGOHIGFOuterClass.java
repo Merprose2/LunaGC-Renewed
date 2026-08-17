@@ -596,8 +596,9 @@ public final class NKCLHGOHIGFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NKCLHGOHIGF.proto\"4\n\013NKCLHGOHIGF\022\022\n\n_h" +
-      "all_guid\030\003 \001(\004\022\021\n\towner_uid\030\013 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "all_guid\030\003 \001(\004\022\021\n\towner_uid\030\013 \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025NKCLHGOHIGFOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

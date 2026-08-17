@@ -634,8 +634,8 @@ public final class MMCCJLHNBOGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MMCCJLHNBOG.proto\032\rUgcType.proto\";\n\013MM" +
       "CCJLHNBOG\022\032\n\010ugc_type\030\006 \001(\0162\010.UgcType\022\020\n" +
-      "\010ugc_guid\030\t \001(\004B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\010ugc_guid\030\t \001(\004B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025MMCCJLHNBOGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

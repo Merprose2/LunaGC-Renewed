@@ -1109,8 +1109,9 @@ public final class HEEBOANELBAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HEEBOANELBA.proto\"\\\n\013HEEBOANELBA\022\023\n\013CF" +
       "MEKCCEEPD\030\003 \003(\r\022\013\n\003uid\030\004 \001(\r\022\026\n\016avatar_i" +
-      "d_list\030\006 \003(\r\022\023\n\013BHNAPDFIMFE\030\t \003(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "d_list\030\006 \003(\r\022\023\n\013BHNAPDFIMFE\030\t \003(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025HEEBOANELBAOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

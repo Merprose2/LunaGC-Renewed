@@ -660,8 +660,8 @@ public final class LBKKIACIBOBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LBKKIACIBOB.proto\"F\n\013LBKKIACIBOB\022\023\n\013DP" +
       "BDCPCICHG\030\005 \001(\010\022\023\n\013FGJJLKLKBBM\030\006 \001(\020\022\r\n\005" +
-      "score\030\016 \001(\005B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "score\030\016 \001(\005B2\n\031emu.grasscutter.net.proto" +
+      "B\025LBKKIACIBOBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

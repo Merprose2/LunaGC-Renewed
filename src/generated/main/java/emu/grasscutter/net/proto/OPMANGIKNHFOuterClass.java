@@ -652,8 +652,8 @@ public final class OPMANGIKNHFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OPMANGIKNHF.proto\"%\n\013OPMANGIKNHF\022\026\n\016na" +
-      "me_card_list\030\016 \003(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "me_card_list\030\016 \003(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025OPMANGIKNHFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

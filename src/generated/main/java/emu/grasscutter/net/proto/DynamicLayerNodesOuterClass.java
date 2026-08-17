@@ -893,8 +893,9 @@ public final class DynamicLayerNodesOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027DynamicLayerNodes.proto\032\024DynamicSVONod" +
       "e.proto\"B\n\021DynamicLayerNodes\022\036\n\005nodes\030\002 " +
-      "\003(\0132\017.DynamicSVONode\022\r\n\005level\030\003 \001(\005B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\003(\0132\017.DynamicSVONode\022\r\n\005level\030\003 \001(\005B8\n\031e" +
+      "mu.grasscutter.net.protoB\033DynamicLayerNo" +
+      "desOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

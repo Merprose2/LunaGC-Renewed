@@ -659,8 +659,8 @@ public final class LBPMFDMAHENOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LBPMFDMAHEN.proto\032\021LAKLKADKLOA.proto\"1" +
       "\n\013LBPMFDMAHEN\022\"\n\014gallery_info\030\006 \001(\0132\014.LA" +
-      "KLKADKLOAB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "KLKADKLOAB2\n\031emu.grasscutter.net.protoB\025" +
+      "LBPMFDMAHENOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

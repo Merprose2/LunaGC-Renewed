@@ -589,8 +589,9 @@ public final class JGMPOFADACGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JGMPOFADACG.proto\"*\n\013JGMPOFADACG\022\014\n\004ty" +
-      "pe\030\001 \001(\r\022\r\n\005value\030\r \001(\002B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "pe\030\001 \001(\r\022\r\n\005value\030\r \001(\002B2\n\031emu.grasscutt" +
+      "er.net.protoB\025JGMPOFADACGOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

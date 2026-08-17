@@ -831,8 +831,8 @@ public final class EALJCPOFOCDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EALJCPOFOCD.proto\032\021FKCPAPIHKOK.proto\"0" +
       "\n\013EALJCPOFOCD\022!\n\013KGFDBDOFOMB\030\005 \003(\0132\014.FKC" +
-      "PAPIHKOKB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "PAPIHKOKB2\n\031emu.grasscutter.net.protoB\025E" +
+      "ALJCPOFOCDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

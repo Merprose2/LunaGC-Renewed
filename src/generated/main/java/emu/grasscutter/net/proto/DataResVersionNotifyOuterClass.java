@@ -2053,7 +2053,8 @@ public final class DataResVersionNotifyOuterClass {
       "taResVersionOpType_OP_TYPE_NONE\020\000\022(\n$Dat" +
       "aResVersionOpType_OP_TYPE_RELOGIN\020\001\022+\n\'D" +
       "ataResVersionOpType_OP_TYPE_MP_RELOGIN\020\002" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B;\n\031emu.grasscutter.net.protoB\036DataResVe" +
+      "rsionNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

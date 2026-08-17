@@ -595,8 +595,9 @@ public final class HBFGPMBAGDJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HBFGPMBAGDJ.proto\"1\n\013HBFGPMBAGDJ\022\020\n\010sc" +
-      "ene_id\030\002 \001(\r\022\020\n\010point_id\030\r \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ene_id\030\002 \001(\r\022\020\n\010point_id\030\r \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025HBFGPMBAGDJOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

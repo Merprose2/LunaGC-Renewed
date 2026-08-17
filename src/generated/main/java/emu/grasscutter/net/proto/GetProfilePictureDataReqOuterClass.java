@@ -455,8 +455,9 @@ public final class GetProfilePictureDataReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\036GetProfilePictureDataReq.proto\"\032\n\030GetP" +
-      "rofilePictureDataReqB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "rofilePictureDataReqB?\n\031emu.grasscutter." +
+      "net.protoB\"GetProfilePictureDataReqOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

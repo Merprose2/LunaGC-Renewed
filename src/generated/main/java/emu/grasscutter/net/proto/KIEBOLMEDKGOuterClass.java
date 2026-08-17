@@ -38,11 +38,11 @@ public final class KIEBOLMEDKGOuterClass {
      * <code>._BeyondClientFrogprintConfigTemplate beyond_client_frogprint_config_template = 12;</code>
      * @return The beyondClientFrogprintConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate getBeyondClientFrogprintConfigTemplate();
+    emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate getBeyondClientFrogprintConfigTemplate();
     /**
      * <code>._BeyondClientFrogprintConfigTemplate beyond_client_frogprint_config_template = 12;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplateOrBuilder getBeyondClientFrogprintConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplateOrBuilder getBeyondClientFrogprintConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondClientNameplateConfigTemplate beyond_client_nameplate_config_template = 13;</code>
@@ -53,11 +53,11 @@ public final class KIEBOLMEDKGOuterClass {
      * <code>._BeyondClientNameplateConfigTemplate beyond_client_nameplate_config_template = 13;</code>
      * @return The beyondClientNameplateConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate getBeyondClientNameplateConfigTemplate();
+    emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate getBeyondClientNameplateConfigTemplate();
     /**
      * <code>._BeyondClientNameplateConfigTemplate beyond_client_nameplate_config_template = 13;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplateOrBuilder getBeyondClientNameplateConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplateOrBuilder getBeyondClientNameplateConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondClientTalkConfigTemplate beyond_client_talk_config_template = 14;</code>
@@ -68,11 +68,11 @@ public final class KIEBOLMEDKGOuterClass {
      * <code>._BeyondClientTalkConfigTemplate beyond_client_talk_config_template = 14;</code>
      * @return The beyondClientTalkConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate getBeyondClientTalkConfigTemplate();
+    emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate getBeyondClientTalkConfigTemplate();
     /**
      * <code>._BeyondClientTalkConfigTemplate beyond_client_talk_config_template = 14;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplateOrBuilder getBeyondClientTalkConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplateOrBuilder getBeyondClientTalkConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondClientRichtextConfigTemplate beyond_client_richtext_config_template = 15;</code>
@@ -83,11 +83,11 @@ public final class KIEBOLMEDKGOuterClass {
      * <code>._BeyondClientRichtextConfigTemplate beyond_client_richtext_config_template = 15;</code>
      * @return The beyondClientRichtextConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate getBeyondClientRichtextConfigTemplate();
+    emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate getBeyondClientRichtextConfigTemplate();
     /**
      * <code>._BeyondClientRichtextConfigTemplate beyond_client_richtext_config_template = 15;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplateOrBuilder getBeyondClientRichtextConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplateOrBuilder getBeyondClientRichtextConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondClientMinimapMarkConfigTemplate beyond_client_minimap_mark_config_template = 16;</code>
@@ -98,11 +98,11 @@ public final class KIEBOLMEDKGOuterClass {
      * <code>._BeyondClientMinimapMarkConfigTemplate beyond_client_minimap_mark_config_template = 16;</code>
      * @return The beyondClientMinimapMarkConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate getBeyondClientMinimapMarkConfigTemplate();
+    emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate getBeyondClientMinimapMarkConfigTemplate();
     /**
      * <code>._BeyondClientMinimapMarkConfigTemplate beyond_client_minimap_mark_config_template = 16;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplateOrBuilder getBeyondClientMinimapMarkConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplateOrBuilder getBeyondClientMinimapMarkConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondClientEnvironmentConfigTemplate beyond_client_environment_config_template = 17;</code>
@@ -113,11 +113,11 @@ public final class KIEBOLMEDKGOuterClass {
      * <code>._BeyondClientEnvironmentConfigTemplate beyond_client_environment_config_template = 17;</code>
      * @return The beyondClientEnvironmentConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate getBeyondClientEnvironmentConfigTemplate();
+    emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate getBeyondClientEnvironmentConfigTemplate();
     /**
      * <code>._BeyondClientEnvironmentConfigTemplate beyond_client_environment_config_template = 17;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplateOrBuilder getBeyondClientEnvironmentConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplateOrBuilder getBeyondClientEnvironmentConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondClientLightConfigTemplate beyond_client_light_config_template = 18;</code>
@@ -128,11 +128,11 @@ public final class KIEBOLMEDKGOuterClass {
      * <code>._BeyondClientLightConfigTemplate beyond_client_light_config_template = 18;</code>
      * @return The beyondClientLightConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate getBeyondClientLightConfigTemplate();
+    emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate getBeyondClientLightConfigTemplate();
     /**
      * <code>._BeyondClientLightConfigTemplate beyond_client_light_config_template = 18;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplateOrBuilder getBeyondClientLightConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplateOrBuilder getBeyondClientLightConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondClientMonsterCustomSkillConfigTemplate beyond_client_monster_custom_skill_config_template = 19;</code>
@@ -143,11 +143,11 @@ public final class KIEBOLMEDKGOuterClass {
      * <code>._BeyondClientMonsterCustomSkillConfigTemplate beyond_client_monster_custom_skill_config_template = 19;</code>
      * @return The beyondClientMonsterCustomSkillConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate getBeyondClientMonsterCustomSkillConfigTemplate();
+    emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate getBeyondClientMonsterCustomSkillConfigTemplate();
     /**
      * <code>._BeyondClientMonsterCustomSkillConfigTemplate beyond_client_monster_custom_skill_config_template = 19;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplateOrBuilder getBeyondClientMonsterCustomSkillConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplateOrBuilder getBeyondClientMonsterCustomSkillConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondClientEntityAiConfigTemplate beyond_client_entity_ai_config_template = 20;</code>
@@ -158,11 +158,11 @@ public final class KIEBOLMEDKGOuterClass {
      * <code>._BeyondClientEntityAiConfigTemplate beyond_client_entity_ai_config_template = 20;</code>
      * @return The beyondClientEntityAiConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate getBeyondClientEntityAiConfigTemplate();
+    emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate getBeyondClientEntityAiConfigTemplate();
     /**
      * <code>._BeyondClientEntityAiConfigTemplate beyond_client_entity_ai_config_template = 20;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplateOrBuilder getBeyondClientEntityAiConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplateOrBuilder getBeyondClientEntityAiConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondClientEntityGlobalValueConfigTemplate beyond_client_entity_global_value_config_template = 21;</code>
@@ -173,11 +173,11 @@ public final class KIEBOLMEDKGOuterClass {
      * <code>._BeyondClientEntityGlobalValueConfigTemplate beyond_client_entity_global_value_config_template = 21;</code>
      * @return The beyondClientEntityGlobalValueConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate getBeyondClientEntityGlobalValueConfigTemplate();
+    emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate getBeyondClientEntityGlobalValueConfigTemplate();
     /**
      * <code>._BeyondClientEntityGlobalValueConfigTemplate beyond_client_entity_global_value_config_template = 21;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplateOrBuilder getBeyondClientEntityGlobalValueConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplateOrBuilder getBeyondClientEntityGlobalValueConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondClientEffectTimelineConfigTemplate beyond_client_effect_timeline_config_template = 32;</code>
@@ -188,11 +188,11 @@ public final class KIEBOLMEDKGOuterClass {
      * <code>._BeyondClientEffectTimelineConfigTemplate beyond_client_effect_timeline_config_template = 32;</code>
      * @return The beyondClientEffectTimelineConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate getBeyondClientEffectTimelineConfigTemplate();
+    emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate getBeyondClientEffectTimelineConfigTemplate();
     /**
      * <code>._BeyondClientEffectTimelineConfigTemplate beyond_client_effect_timeline_config_template = 32;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplateOrBuilder getBeyondClientEffectTimelineConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplateOrBuilder getBeyondClientEffectTimelineConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondClientCustomSkillConfigTemplate beyond_client_custom_skill_config_template = 33;</code>
@@ -203,11 +203,11 @@ public final class KIEBOLMEDKGOuterClass {
      * <code>._BeyondClientCustomSkillConfigTemplate beyond_client_custom_skill_config_template = 33;</code>
      * @return The beyondClientCustomSkillConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate getBeyondClientCustomSkillConfigTemplate();
+    emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate getBeyondClientCustomSkillConfigTemplate();
     /**
      * <code>._BeyondClientCustomSkillConfigTemplate beyond_client_custom_skill_config_template = 33;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplateOrBuilder getBeyondClientCustomSkillConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplateOrBuilder getBeyondClientCustomSkillConfigTemplateOrBuilder();
 
     /**
      * <code>._BeyondClientVehicleBasicParamConfigTemplate beyond_client_vehicle_basic_param_config_template = 35;</code>
@@ -218,11 +218,11 @@ public final class KIEBOLMEDKGOuterClass {
      * <code>._BeyondClientVehicleBasicParamConfigTemplate beyond_client_vehicle_basic_param_config_template = 35;</code>
      * @return The beyondClientVehicleBasicParamConfigTemplate.
      */
-    emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate getBeyondClientVehicleBasicParamConfigTemplate();
+    emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate getBeyondClientVehicleBasicParamConfigTemplate();
     /**
      * <code>._BeyondClientVehicleBasicParamConfigTemplate beyond_client_vehicle_basic_param_config_template = 35;</code>
      */
-    emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplateOrBuilder getBeyondClientVehicleBasicParamConfigTemplateOrBuilder();
+    emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplateOrBuilder getBeyondClientVehicleBasicParamConfigTemplateOrBuilder();
 
     public emu.grasscutter.net.proto.KIEBOLMEDKGOuterClass.KIEBOLMEDKG.DetailCase getDetailCase();
   }
@@ -279,182 +279,182 @@ public final class KIEBOLMEDKGOuterClass {
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 12) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 12;
               break;
             }
             case 106: {
-              emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 13) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 13;
               break;
             }
             case 114: {
-              emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 14) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 14;
               break;
             }
             case 122: {
-              emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 15) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 15;
               break;
             }
             case 130: {
-              emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 16) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 16;
               break;
             }
             case 138: {
-              emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 17) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 17;
               break;
             }
             case 146: {
-              emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 18) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 18;
               break;
             }
             case 154: {
-              emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 19) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 19;
               break;
             }
             case 162: {
-              emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 20) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 20;
               break;
             }
             case 170: {
-              emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 21) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 21;
               break;
             }
             case 258: {
-              emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 32) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 32;
               break;
             }
             case 266: {
-              emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 33) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 33;
               break;
             }
             case 282: {
-              emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate.Builder subBuilder = null;
               if (detailCase_ == 35) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 35;
@@ -588,21 +588,21 @@ public final class KIEBOLMEDKGOuterClass {
      * @return The beyondClientFrogprintConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate getBeyondClientFrogprintConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate getBeyondClientFrogprintConfigTemplate() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientFrogprintConfigTemplate beyond_client_frogprint_config_template = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplateOrBuilder getBeyondClientFrogprintConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplateOrBuilder getBeyondClientFrogprintConfigTemplateOrBuilder() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_NAMEPLATE_CONFIG_TEMPLATE_FIELD_NUMBER = 13;
@@ -619,21 +619,21 @@ public final class KIEBOLMEDKGOuterClass {
      * @return The beyondClientNameplateConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate getBeyondClientNameplateConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate getBeyondClientNameplateConfigTemplate() {
       if (detailCase_ == 13) {
-         return (emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientNameplateConfigTemplate beyond_client_nameplate_config_template = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplateOrBuilder getBeyondClientNameplateConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplateOrBuilder getBeyondClientNameplateConfigTemplateOrBuilder() {
       if (detailCase_ == 13) {
-         return (emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_TALK_CONFIG_TEMPLATE_FIELD_NUMBER = 14;
@@ -650,21 +650,21 @@ public final class KIEBOLMEDKGOuterClass {
      * @return The beyondClientTalkConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate getBeyondClientTalkConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate getBeyondClientTalkConfigTemplate() {
       if (detailCase_ == 14) {
-         return (emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientTalkConfigTemplate beyond_client_talk_config_template = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplateOrBuilder getBeyondClientTalkConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplateOrBuilder getBeyondClientTalkConfigTemplateOrBuilder() {
       if (detailCase_ == 14) {
-         return (emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_RICHTEXT_CONFIG_TEMPLATE_FIELD_NUMBER = 15;
@@ -681,21 +681,21 @@ public final class KIEBOLMEDKGOuterClass {
      * @return The beyondClientRichtextConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate getBeyondClientRichtextConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate getBeyondClientRichtextConfigTemplate() {
       if (detailCase_ == 15) {
-         return (emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientRichtextConfigTemplate beyond_client_richtext_config_template = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplateOrBuilder getBeyondClientRichtextConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplateOrBuilder getBeyondClientRichtextConfigTemplateOrBuilder() {
       if (detailCase_ == 15) {
-         return (emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_MINIMAP_MARK_CONFIG_TEMPLATE_FIELD_NUMBER = 16;
@@ -712,21 +712,21 @@ public final class KIEBOLMEDKGOuterClass {
      * @return The beyondClientMinimapMarkConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate getBeyondClientMinimapMarkConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate getBeyondClientMinimapMarkConfigTemplate() {
       if (detailCase_ == 16) {
-         return (emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientMinimapMarkConfigTemplate beyond_client_minimap_mark_config_template = 16;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplateOrBuilder getBeyondClientMinimapMarkConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplateOrBuilder getBeyondClientMinimapMarkConfigTemplateOrBuilder() {
       if (detailCase_ == 16) {
-         return (emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_ENVIRONMENT_CONFIG_TEMPLATE_FIELD_NUMBER = 17;
@@ -743,21 +743,21 @@ public final class KIEBOLMEDKGOuterClass {
      * @return The beyondClientEnvironmentConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate getBeyondClientEnvironmentConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate getBeyondClientEnvironmentConfigTemplate() {
       if (detailCase_ == 17) {
-         return (emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientEnvironmentConfigTemplate beyond_client_environment_config_template = 17;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplateOrBuilder getBeyondClientEnvironmentConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplateOrBuilder getBeyondClientEnvironmentConfigTemplateOrBuilder() {
       if (detailCase_ == 17) {
-         return (emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_LIGHT_CONFIG_TEMPLATE_FIELD_NUMBER = 18;
@@ -774,21 +774,21 @@ public final class KIEBOLMEDKGOuterClass {
      * @return The beyondClientLightConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate getBeyondClientLightConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate getBeyondClientLightConfigTemplate() {
       if (detailCase_ == 18) {
-         return (emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientLightConfigTemplate beyond_client_light_config_template = 18;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplateOrBuilder getBeyondClientLightConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplateOrBuilder getBeyondClientLightConfigTemplateOrBuilder() {
       if (detailCase_ == 18) {
-         return (emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_MONSTER_CUSTOM_SKILL_CONFIG_TEMPLATE_FIELD_NUMBER = 19;
@@ -805,21 +805,21 @@ public final class KIEBOLMEDKGOuterClass {
      * @return The beyondClientMonsterCustomSkillConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate getBeyondClientMonsterCustomSkillConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate getBeyondClientMonsterCustomSkillConfigTemplate() {
       if (detailCase_ == 19) {
-         return (emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientMonsterCustomSkillConfigTemplate beyond_client_monster_custom_skill_config_template = 19;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplateOrBuilder getBeyondClientMonsterCustomSkillConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplateOrBuilder getBeyondClientMonsterCustomSkillConfigTemplateOrBuilder() {
       if (detailCase_ == 19) {
-         return (emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_ENTITY_AI_CONFIG_TEMPLATE_FIELD_NUMBER = 20;
@@ -836,21 +836,21 @@ public final class KIEBOLMEDKGOuterClass {
      * @return The beyondClientEntityAiConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate getBeyondClientEntityAiConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate getBeyondClientEntityAiConfigTemplate() {
       if (detailCase_ == 20) {
-         return (emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientEntityAiConfigTemplate beyond_client_entity_ai_config_template = 20;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplateOrBuilder getBeyondClientEntityAiConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplateOrBuilder getBeyondClientEntityAiConfigTemplateOrBuilder() {
       if (detailCase_ == 20) {
-         return (emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_ENTITY_GLOBAL_VALUE_CONFIG_TEMPLATE_FIELD_NUMBER = 21;
@@ -867,21 +867,21 @@ public final class KIEBOLMEDKGOuterClass {
      * @return The beyondClientEntityGlobalValueConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate getBeyondClientEntityGlobalValueConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate getBeyondClientEntityGlobalValueConfigTemplate() {
       if (detailCase_ == 21) {
-         return (emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientEntityGlobalValueConfigTemplate beyond_client_entity_global_value_config_template = 21;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplateOrBuilder getBeyondClientEntityGlobalValueConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplateOrBuilder getBeyondClientEntityGlobalValueConfigTemplateOrBuilder() {
       if (detailCase_ == 21) {
-         return (emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_EFFECT_TIMELINE_CONFIG_TEMPLATE_FIELD_NUMBER = 32;
@@ -898,21 +898,21 @@ public final class KIEBOLMEDKGOuterClass {
      * @return The beyondClientEffectTimelineConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate getBeyondClientEffectTimelineConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate getBeyondClientEffectTimelineConfigTemplate() {
       if (detailCase_ == 32) {
-         return (emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientEffectTimelineConfigTemplate beyond_client_effect_timeline_config_template = 32;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplateOrBuilder getBeyondClientEffectTimelineConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplateOrBuilder getBeyondClientEffectTimelineConfigTemplateOrBuilder() {
       if (detailCase_ == 32) {
-         return (emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_CUSTOM_SKILL_CONFIG_TEMPLATE_FIELD_NUMBER = 33;
@@ -929,21 +929,21 @@ public final class KIEBOLMEDKGOuterClass {
      * @return The beyondClientCustomSkillConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate getBeyondClientCustomSkillConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate getBeyondClientCustomSkillConfigTemplate() {
       if (detailCase_ == 33) {
-         return (emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientCustomSkillConfigTemplate beyond_client_custom_skill_config_template = 33;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplateOrBuilder getBeyondClientCustomSkillConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplateOrBuilder getBeyondClientCustomSkillConfigTemplateOrBuilder() {
       if (detailCase_ == 33) {
-         return (emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate.getDefaultInstance();
     }
 
     public static final int BEYOND_CLIENT_VEHICLE_BASIC_PARAM_CONFIG_TEMPLATE_FIELD_NUMBER = 35;
@@ -960,21 +960,21 @@ public final class KIEBOLMEDKGOuterClass {
      * @return The beyondClientVehicleBasicParamConfigTemplate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate getBeyondClientVehicleBasicParamConfigTemplate() {
+    public emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate getBeyondClientVehicleBasicParamConfigTemplate() {
       if (detailCase_ == 35) {
-         return (emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate.getDefaultInstance();
     }
     /**
      * <code>._BeyondClientVehicleBasicParamConfigTemplate beyond_client_vehicle_basic_param_config_template = 35;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplateOrBuilder getBeyondClientVehicleBasicParamConfigTemplateOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplateOrBuilder getBeyondClientVehicleBasicParamConfigTemplateOrBuilder() {
       if (detailCase_ == 35) {
-         return (emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate) detail_;
+         return (emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate) detail_;
       }
-      return emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -995,43 +995,43 @@ public final class KIEBOLMEDKGOuterClass {
         output.writeEnum(1, nLHIBDLIMEK_);
       }
       if (detailCase_ == 12) {
-        output.writeMessage(12, (emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate) detail_);
+        output.writeMessage(12, (emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate) detail_);
       }
       if (detailCase_ == 13) {
-        output.writeMessage(13, (emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate) detail_);
+        output.writeMessage(13, (emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate) detail_);
       }
       if (detailCase_ == 14) {
-        output.writeMessage(14, (emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate) detail_);
+        output.writeMessage(14, (emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate) detail_);
       }
       if (detailCase_ == 15) {
-        output.writeMessage(15, (emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate) detail_);
+        output.writeMessage(15, (emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate) detail_);
       }
       if (detailCase_ == 16) {
-        output.writeMessage(16, (emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate) detail_);
+        output.writeMessage(16, (emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate) detail_);
       }
       if (detailCase_ == 17) {
-        output.writeMessage(17, (emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate) detail_);
+        output.writeMessage(17, (emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate) detail_);
       }
       if (detailCase_ == 18) {
-        output.writeMessage(18, (emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate) detail_);
+        output.writeMessage(18, (emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate) detail_);
       }
       if (detailCase_ == 19) {
-        output.writeMessage(19, (emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate) detail_);
+        output.writeMessage(19, (emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate) detail_);
       }
       if (detailCase_ == 20) {
-        output.writeMessage(20, (emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate) detail_);
+        output.writeMessage(20, (emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate) detail_);
       }
       if (detailCase_ == 21) {
-        output.writeMessage(21, (emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate) detail_);
+        output.writeMessage(21, (emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate) detail_);
       }
       if (detailCase_ == 32) {
-        output.writeMessage(32, (emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate) detail_);
+        output.writeMessage(32, (emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate) detail_);
       }
       if (detailCase_ == 33) {
-        output.writeMessage(33, (emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate) detail_);
+        output.writeMessage(33, (emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate) detail_);
       }
       if (detailCase_ == 35) {
-        output.writeMessage(35, (emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate) detail_);
+        output.writeMessage(35, (emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -1048,55 +1048,55 @@ public final class KIEBOLMEDKGOuterClass {
       }
       if (detailCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate) detail_);
+          .computeMessageSize(12, (emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate) detail_);
       }
       if (detailCase_ == 13) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, (emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate) detail_);
+          .computeMessageSize(13, (emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate) detail_);
       }
       if (detailCase_ == 14) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, (emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate) detail_);
+          .computeMessageSize(14, (emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate) detail_);
       }
       if (detailCase_ == 15) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, (emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate) detail_);
+          .computeMessageSize(15, (emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate) detail_);
       }
       if (detailCase_ == 16) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(16, (emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate) detail_);
+          .computeMessageSize(16, (emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate) detail_);
       }
       if (detailCase_ == 17) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(17, (emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate) detail_);
+          .computeMessageSize(17, (emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate) detail_);
       }
       if (detailCase_ == 18) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(18, (emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate) detail_);
+          .computeMessageSize(18, (emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate) detail_);
       }
       if (detailCase_ == 19) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(19, (emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate) detail_);
+          .computeMessageSize(19, (emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate) detail_);
       }
       if (detailCase_ == 20) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(20, (emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate) detail_);
+          .computeMessageSize(20, (emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate) detail_);
       }
       if (detailCase_ == 21) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(21, (emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate) detail_);
+          .computeMessageSize(21, (emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate) detail_);
       }
       if (detailCase_ == 32) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(32, (emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate) detail_);
+          .computeMessageSize(32, (emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate) detail_);
       }
       if (detailCase_ == 33) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(33, (emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate) detail_);
+          .computeMessageSize(33, (emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate) detail_);
       }
       if (detailCase_ == 35) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(35, (emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate) detail_);
+          .computeMessageSize(35, (emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1703,7 +1703,7 @@ public final class KIEBOLMEDKGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate, emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplateOrBuilder> beyondClientFrogprintConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate, emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplateOrBuilder> beyondClientFrogprintConfigTemplateBuilder_;
       /**
        * <code>._BeyondClientFrogprintConfigTemplate beyond_client_frogprint_config_template = 12;</code>
        * @return Whether the beyondClientFrogprintConfigTemplate field is set.
@@ -1717,23 +1717,23 @@ public final class KIEBOLMEDKGOuterClass {
        * @return The beyondClientFrogprintConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate getBeyondClientFrogprintConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate getBeyondClientFrogprintConfigTemplate() {
         if (beyondClientFrogprintConfigTemplateBuilder_ == null) {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 12) {
             return beyondClientFrogprintConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintConfigTemplate beyond_client_frogprint_config_template = 12;</code>
        */
-      public Builder setBeyondClientFrogprintConfigTemplate(emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate value) {
+      public Builder setBeyondClientFrogprintConfigTemplate(emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate value) {
         if (beyondClientFrogprintConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1750,7 +1750,7 @@ public final class KIEBOLMEDKGOuterClass {
        * <code>._BeyondClientFrogprintConfigTemplate beyond_client_frogprint_config_template = 12;</code>
        */
       public Builder setBeyondClientFrogprintConfigTemplate(
-          emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate.Builder builderForValue) {
         if (beyondClientFrogprintConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1763,11 +1763,11 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientFrogprintConfigTemplate beyond_client_frogprint_config_template = 12;</code>
        */
-      public Builder mergeBeyondClientFrogprintConfigTemplate(emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate value) {
+      public Builder mergeBeyondClientFrogprintConfigTemplate(emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate value) {
         if (beyondClientFrogprintConfigTemplateBuilder_ == null) {
           if (detailCase_ == 12 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1804,36 +1804,36 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientFrogprintConfigTemplate beyond_client_frogprint_config_template = 12;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate.Builder getBeyondClientFrogprintConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate.Builder getBeyondClientFrogprintConfigTemplateBuilder() {
         return getBeyondClientFrogprintConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientFrogprintConfigTemplate beyond_client_frogprint_config_template = 12;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplateOrBuilder getBeyondClientFrogprintConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplateOrBuilder getBeyondClientFrogprintConfigTemplateOrBuilder() {
         if ((detailCase_ == 12) && (beyondClientFrogprintConfigTemplateBuilder_ != null)) {
           return beyondClientFrogprintConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientFrogprintConfigTemplate beyond_client_frogprint_config_template = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate, emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate, emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplateOrBuilder> 
           getBeyondClientFrogprintConfigTemplateFieldBuilder() {
         if (beyondClientFrogprintConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 12)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate.getDefaultInstance();
           }
           beyondClientFrogprintConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate, emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate._BeyondClientFrogprintConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate, emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass._BeyondClientFrogprintConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1844,7 +1844,7 @@ public final class KIEBOLMEDKGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate, emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplateOrBuilder> beyondClientNameplateConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate, emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplateOrBuilder> beyondClientNameplateConfigTemplateBuilder_;
       /**
        * <code>._BeyondClientNameplateConfigTemplate beyond_client_nameplate_config_template = 13;</code>
        * @return Whether the beyondClientNameplateConfigTemplate field is set.
@@ -1858,23 +1858,23 @@ public final class KIEBOLMEDKGOuterClass {
        * @return The beyondClientNameplateConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate getBeyondClientNameplateConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate getBeyondClientNameplateConfigTemplate() {
         if (beyondClientNameplateConfigTemplateBuilder_ == null) {
           if (detailCase_ == 13) {
-            return (emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 13) {
             return beyondClientNameplateConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientNameplateConfigTemplate beyond_client_nameplate_config_template = 13;</code>
        */
-      public Builder setBeyondClientNameplateConfigTemplate(emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate value) {
+      public Builder setBeyondClientNameplateConfigTemplate(emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate value) {
         if (beyondClientNameplateConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1891,7 +1891,7 @@ public final class KIEBOLMEDKGOuterClass {
        * <code>._BeyondClientNameplateConfigTemplate beyond_client_nameplate_config_template = 13;</code>
        */
       public Builder setBeyondClientNameplateConfigTemplate(
-          emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate.Builder builderForValue) {
         if (beyondClientNameplateConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1904,11 +1904,11 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientNameplateConfigTemplate beyond_client_nameplate_config_template = 13;</code>
        */
-      public Builder mergeBeyondClientNameplateConfigTemplate(emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate value) {
+      public Builder mergeBeyondClientNameplateConfigTemplate(emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate value) {
         if (beyondClientNameplateConfigTemplateBuilder_ == null) {
           if (detailCase_ == 13 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1945,36 +1945,36 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientNameplateConfigTemplate beyond_client_nameplate_config_template = 13;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate.Builder getBeyondClientNameplateConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate.Builder getBeyondClientNameplateConfigTemplateBuilder() {
         return getBeyondClientNameplateConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientNameplateConfigTemplate beyond_client_nameplate_config_template = 13;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplateOrBuilder getBeyondClientNameplateConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplateOrBuilder getBeyondClientNameplateConfigTemplateOrBuilder() {
         if ((detailCase_ == 13) && (beyondClientNameplateConfigTemplateBuilder_ != null)) {
           return beyondClientNameplateConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 13) {
-            return (emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientNameplateConfigTemplate beyond_client_nameplate_config_template = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate, emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate, emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplateOrBuilder> 
           getBeyondClientNameplateConfigTemplateFieldBuilder() {
         if (beyondClientNameplateConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 13)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate.getDefaultInstance();
           }
           beyondClientNameplateConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate, emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate._BeyondClientNameplateConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate, emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass._BeyondClientNameplateConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1985,7 +1985,7 @@ public final class KIEBOLMEDKGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate, emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplateOrBuilder> beyondClientTalkConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate, emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplateOrBuilder> beyondClientTalkConfigTemplateBuilder_;
       /**
        * <code>._BeyondClientTalkConfigTemplate beyond_client_talk_config_template = 14;</code>
        * @return Whether the beyondClientTalkConfigTemplate field is set.
@@ -1999,23 +1999,23 @@ public final class KIEBOLMEDKGOuterClass {
        * @return The beyondClientTalkConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate getBeyondClientTalkConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate getBeyondClientTalkConfigTemplate() {
         if (beyondClientTalkConfigTemplateBuilder_ == null) {
           if (detailCase_ == 14) {
-            return (emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 14) {
             return beyondClientTalkConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientTalkConfigTemplate beyond_client_talk_config_template = 14;</code>
        */
-      public Builder setBeyondClientTalkConfigTemplate(emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate value) {
+      public Builder setBeyondClientTalkConfigTemplate(emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate value) {
         if (beyondClientTalkConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2032,7 +2032,7 @@ public final class KIEBOLMEDKGOuterClass {
        * <code>._BeyondClientTalkConfigTemplate beyond_client_talk_config_template = 14;</code>
        */
       public Builder setBeyondClientTalkConfigTemplate(
-          emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate.Builder builderForValue) {
         if (beyondClientTalkConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2045,11 +2045,11 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientTalkConfigTemplate beyond_client_talk_config_template = 14;</code>
        */
-      public Builder mergeBeyondClientTalkConfigTemplate(emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate value) {
+      public Builder mergeBeyondClientTalkConfigTemplate(emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate value) {
         if (beyondClientTalkConfigTemplateBuilder_ == null) {
           if (detailCase_ == 14 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2086,36 +2086,36 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientTalkConfigTemplate beyond_client_talk_config_template = 14;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate.Builder getBeyondClientTalkConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate.Builder getBeyondClientTalkConfigTemplateBuilder() {
         return getBeyondClientTalkConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientTalkConfigTemplate beyond_client_talk_config_template = 14;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplateOrBuilder getBeyondClientTalkConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplateOrBuilder getBeyondClientTalkConfigTemplateOrBuilder() {
         if ((detailCase_ == 14) && (beyondClientTalkConfigTemplateBuilder_ != null)) {
           return beyondClientTalkConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 14) {
-            return (emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientTalkConfigTemplate beyond_client_talk_config_template = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate, emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate, emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplateOrBuilder> 
           getBeyondClientTalkConfigTemplateFieldBuilder() {
         if (beyondClientTalkConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 14)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate.getDefaultInstance();
           }
           beyondClientTalkConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate, emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate._BeyondClientTalkConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate, emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass._BeyondClientTalkConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2126,7 +2126,7 @@ public final class KIEBOLMEDKGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate, emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplateOrBuilder> beyondClientRichtextConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate, emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplateOrBuilder> beyondClientRichtextConfigTemplateBuilder_;
       /**
        * <code>._BeyondClientRichtextConfigTemplate beyond_client_richtext_config_template = 15;</code>
        * @return Whether the beyondClientRichtextConfigTemplate field is set.
@@ -2140,23 +2140,23 @@ public final class KIEBOLMEDKGOuterClass {
        * @return The beyondClientRichtextConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate getBeyondClientRichtextConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate getBeyondClientRichtextConfigTemplate() {
         if (beyondClientRichtextConfigTemplateBuilder_ == null) {
           if (detailCase_ == 15) {
-            return (emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 15) {
             return beyondClientRichtextConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientRichtextConfigTemplate beyond_client_richtext_config_template = 15;</code>
        */
-      public Builder setBeyondClientRichtextConfigTemplate(emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate value) {
+      public Builder setBeyondClientRichtextConfigTemplate(emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate value) {
         if (beyondClientRichtextConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2173,7 +2173,7 @@ public final class KIEBOLMEDKGOuterClass {
        * <code>._BeyondClientRichtextConfigTemplate beyond_client_richtext_config_template = 15;</code>
        */
       public Builder setBeyondClientRichtextConfigTemplate(
-          emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate.Builder builderForValue) {
         if (beyondClientRichtextConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2186,11 +2186,11 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientRichtextConfigTemplate beyond_client_richtext_config_template = 15;</code>
        */
-      public Builder mergeBeyondClientRichtextConfigTemplate(emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate value) {
+      public Builder mergeBeyondClientRichtextConfigTemplate(emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate value) {
         if (beyondClientRichtextConfigTemplateBuilder_ == null) {
           if (detailCase_ == 15 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2227,36 +2227,36 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientRichtextConfigTemplate beyond_client_richtext_config_template = 15;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate.Builder getBeyondClientRichtextConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate.Builder getBeyondClientRichtextConfigTemplateBuilder() {
         return getBeyondClientRichtextConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientRichtextConfigTemplate beyond_client_richtext_config_template = 15;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplateOrBuilder getBeyondClientRichtextConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplateOrBuilder getBeyondClientRichtextConfigTemplateOrBuilder() {
         if ((detailCase_ == 15) && (beyondClientRichtextConfigTemplateBuilder_ != null)) {
           return beyondClientRichtextConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 15) {
-            return (emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientRichtextConfigTemplate beyond_client_richtext_config_template = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate, emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate, emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplateOrBuilder> 
           getBeyondClientRichtextConfigTemplateFieldBuilder() {
         if (beyondClientRichtextConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 15)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate.getDefaultInstance();
           }
           beyondClientRichtextConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate, emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate._BeyondClientRichtextConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate, emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass._BeyondClientRichtextConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2267,7 +2267,7 @@ public final class KIEBOLMEDKGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate, emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplateOrBuilder> beyondClientMinimapMarkConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate, emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplateOrBuilder> beyondClientMinimapMarkConfigTemplateBuilder_;
       /**
        * <code>._BeyondClientMinimapMarkConfigTemplate beyond_client_minimap_mark_config_template = 16;</code>
        * @return Whether the beyondClientMinimapMarkConfigTemplate field is set.
@@ -2281,23 +2281,23 @@ public final class KIEBOLMEDKGOuterClass {
        * @return The beyondClientMinimapMarkConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate getBeyondClientMinimapMarkConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate getBeyondClientMinimapMarkConfigTemplate() {
         if (beyondClientMinimapMarkConfigTemplateBuilder_ == null) {
           if (detailCase_ == 16) {
-            return (emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 16) {
             return beyondClientMinimapMarkConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientMinimapMarkConfigTemplate beyond_client_minimap_mark_config_template = 16;</code>
        */
-      public Builder setBeyondClientMinimapMarkConfigTemplate(emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate value) {
+      public Builder setBeyondClientMinimapMarkConfigTemplate(emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate value) {
         if (beyondClientMinimapMarkConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2314,7 +2314,7 @@ public final class KIEBOLMEDKGOuterClass {
        * <code>._BeyondClientMinimapMarkConfigTemplate beyond_client_minimap_mark_config_template = 16;</code>
        */
       public Builder setBeyondClientMinimapMarkConfigTemplate(
-          emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate.Builder builderForValue) {
         if (beyondClientMinimapMarkConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2327,11 +2327,11 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientMinimapMarkConfigTemplate beyond_client_minimap_mark_config_template = 16;</code>
        */
-      public Builder mergeBeyondClientMinimapMarkConfigTemplate(emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate value) {
+      public Builder mergeBeyondClientMinimapMarkConfigTemplate(emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate value) {
         if (beyondClientMinimapMarkConfigTemplateBuilder_ == null) {
           if (detailCase_ == 16 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2368,36 +2368,36 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientMinimapMarkConfigTemplate beyond_client_minimap_mark_config_template = 16;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate.Builder getBeyondClientMinimapMarkConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate.Builder getBeyondClientMinimapMarkConfigTemplateBuilder() {
         return getBeyondClientMinimapMarkConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientMinimapMarkConfigTemplate beyond_client_minimap_mark_config_template = 16;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplateOrBuilder getBeyondClientMinimapMarkConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplateOrBuilder getBeyondClientMinimapMarkConfigTemplateOrBuilder() {
         if ((detailCase_ == 16) && (beyondClientMinimapMarkConfigTemplateBuilder_ != null)) {
           return beyondClientMinimapMarkConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 16) {
-            return (emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientMinimapMarkConfigTemplate beyond_client_minimap_mark_config_template = 16;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate, emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate, emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplateOrBuilder> 
           getBeyondClientMinimapMarkConfigTemplateFieldBuilder() {
         if (beyondClientMinimapMarkConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 16)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate.getDefaultInstance();
           }
           beyondClientMinimapMarkConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate, emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate._BeyondClientMinimapMarkConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate, emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass._BeyondClientMinimapMarkConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2408,7 +2408,7 @@ public final class KIEBOLMEDKGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate, emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplateOrBuilder> beyondClientEnvironmentConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate, emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplateOrBuilder> beyondClientEnvironmentConfigTemplateBuilder_;
       /**
        * <code>._BeyondClientEnvironmentConfigTemplate beyond_client_environment_config_template = 17;</code>
        * @return Whether the beyondClientEnvironmentConfigTemplate field is set.
@@ -2422,23 +2422,23 @@ public final class KIEBOLMEDKGOuterClass {
        * @return The beyondClientEnvironmentConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate getBeyondClientEnvironmentConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate getBeyondClientEnvironmentConfigTemplate() {
         if (beyondClientEnvironmentConfigTemplateBuilder_ == null) {
           if (detailCase_ == 17) {
-            return (emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 17) {
             return beyondClientEnvironmentConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientEnvironmentConfigTemplate beyond_client_environment_config_template = 17;</code>
        */
-      public Builder setBeyondClientEnvironmentConfigTemplate(emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate value) {
+      public Builder setBeyondClientEnvironmentConfigTemplate(emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate value) {
         if (beyondClientEnvironmentConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2455,7 +2455,7 @@ public final class KIEBOLMEDKGOuterClass {
        * <code>._BeyondClientEnvironmentConfigTemplate beyond_client_environment_config_template = 17;</code>
        */
       public Builder setBeyondClientEnvironmentConfigTemplate(
-          emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate.Builder builderForValue) {
         if (beyondClientEnvironmentConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2468,11 +2468,11 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientEnvironmentConfigTemplate beyond_client_environment_config_template = 17;</code>
        */
-      public Builder mergeBeyondClientEnvironmentConfigTemplate(emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate value) {
+      public Builder mergeBeyondClientEnvironmentConfigTemplate(emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate value) {
         if (beyondClientEnvironmentConfigTemplateBuilder_ == null) {
           if (detailCase_ == 17 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2509,36 +2509,36 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientEnvironmentConfigTemplate beyond_client_environment_config_template = 17;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate.Builder getBeyondClientEnvironmentConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate.Builder getBeyondClientEnvironmentConfigTemplateBuilder() {
         return getBeyondClientEnvironmentConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientEnvironmentConfigTemplate beyond_client_environment_config_template = 17;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplateOrBuilder getBeyondClientEnvironmentConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplateOrBuilder getBeyondClientEnvironmentConfigTemplateOrBuilder() {
         if ((detailCase_ == 17) && (beyondClientEnvironmentConfigTemplateBuilder_ != null)) {
           return beyondClientEnvironmentConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 17) {
-            return (emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientEnvironmentConfigTemplate beyond_client_environment_config_template = 17;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate, emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate, emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplateOrBuilder> 
           getBeyondClientEnvironmentConfigTemplateFieldBuilder() {
         if (beyondClientEnvironmentConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 17)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate.getDefaultInstance();
           }
           beyondClientEnvironmentConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate, emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate._BeyondClientEnvironmentConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate, emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass._BeyondClientEnvironmentConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2549,7 +2549,7 @@ public final class KIEBOLMEDKGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate, emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplateOrBuilder> beyondClientLightConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate, emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplateOrBuilder> beyondClientLightConfigTemplateBuilder_;
       /**
        * <code>._BeyondClientLightConfigTemplate beyond_client_light_config_template = 18;</code>
        * @return Whether the beyondClientLightConfigTemplate field is set.
@@ -2563,23 +2563,23 @@ public final class KIEBOLMEDKGOuterClass {
        * @return The beyondClientLightConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate getBeyondClientLightConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate getBeyondClientLightConfigTemplate() {
         if (beyondClientLightConfigTemplateBuilder_ == null) {
           if (detailCase_ == 18) {
-            return (emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 18) {
             return beyondClientLightConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientLightConfigTemplate beyond_client_light_config_template = 18;</code>
        */
-      public Builder setBeyondClientLightConfigTemplate(emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate value) {
+      public Builder setBeyondClientLightConfigTemplate(emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate value) {
         if (beyondClientLightConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2596,7 +2596,7 @@ public final class KIEBOLMEDKGOuterClass {
        * <code>._BeyondClientLightConfigTemplate beyond_client_light_config_template = 18;</code>
        */
       public Builder setBeyondClientLightConfigTemplate(
-          emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate.Builder builderForValue) {
         if (beyondClientLightConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2609,11 +2609,11 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientLightConfigTemplate beyond_client_light_config_template = 18;</code>
        */
-      public Builder mergeBeyondClientLightConfigTemplate(emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate value) {
+      public Builder mergeBeyondClientLightConfigTemplate(emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate value) {
         if (beyondClientLightConfigTemplateBuilder_ == null) {
           if (detailCase_ == 18 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2650,36 +2650,36 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientLightConfigTemplate beyond_client_light_config_template = 18;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate.Builder getBeyondClientLightConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate.Builder getBeyondClientLightConfigTemplateBuilder() {
         return getBeyondClientLightConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientLightConfigTemplate beyond_client_light_config_template = 18;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplateOrBuilder getBeyondClientLightConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplateOrBuilder getBeyondClientLightConfigTemplateOrBuilder() {
         if ((detailCase_ == 18) && (beyondClientLightConfigTemplateBuilder_ != null)) {
           return beyondClientLightConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 18) {
-            return (emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientLightConfigTemplate beyond_client_light_config_template = 18;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate, emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate, emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplateOrBuilder> 
           getBeyondClientLightConfigTemplateFieldBuilder() {
         if (beyondClientLightConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 18)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate.getDefaultInstance();
           }
           beyondClientLightConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate, emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientLightConfigTemplate._BeyondClientLightConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate, emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass._BeyondClientLightConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2690,7 +2690,7 @@ public final class KIEBOLMEDKGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate, emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplateOrBuilder> beyondClientMonsterCustomSkillConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate, emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplateOrBuilder> beyondClientMonsterCustomSkillConfigTemplateBuilder_;
       /**
        * <code>._BeyondClientMonsterCustomSkillConfigTemplate beyond_client_monster_custom_skill_config_template = 19;</code>
        * @return Whether the beyondClientMonsterCustomSkillConfigTemplate field is set.
@@ -2704,23 +2704,23 @@ public final class KIEBOLMEDKGOuterClass {
        * @return The beyondClientMonsterCustomSkillConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate getBeyondClientMonsterCustomSkillConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate getBeyondClientMonsterCustomSkillConfigTemplate() {
         if (beyondClientMonsterCustomSkillConfigTemplateBuilder_ == null) {
           if (detailCase_ == 19) {
-            return (emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 19) {
             return beyondClientMonsterCustomSkillConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientMonsterCustomSkillConfigTemplate beyond_client_monster_custom_skill_config_template = 19;</code>
        */
-      public Builder setBeyondClientMonsterCustomSkillConfigTemplate(emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate value) {
+      public Builder setBeyondClientMonsterCustomSkillConfigTemplate(emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate value) {
         if (beyondClientMonsterCustomSkillConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2737,7 +2737,7 @@ public final class KIEBOLMEDKGOuterClass {
        * <code>._BeyondClientMonsterCustomSkillConfigTemplate beyond_client_monster_custom_skill_config_template = 19;</code>
        */
       public Builder setBeyondClientMonsterCustomSkillConfigTemplate(
-          emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate.Builder builderForValue) {
         if (beyondClientMonsterCustomSkillConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2750,11 +2750,11 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientMonsterCustomSkillConfigTemplate beyond_client_monster_custom_skill_config_template = 19;</code>
        */
-      public Builder mergeBeyondClientMonsterCustomSkillConfigTemplate(emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate value) {
+      public Builder mergeBeyondClientMonsterCustomSkillConfigTemplate(emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate value) {
         if (beyondClientMonsterCustomSkillConfigTemplateBuilder_ == null) {
           if (detailCase_ == 19 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2791,36 +2791,36 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientMonsterCustomSkillConfigTemplate beyond_client_monster_custom_skill_config_template = 19;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate.Builder getBeyondClientMonsterCustomSkillConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate.Builder getBeyondClientMonsterCustomSkillConfigTemplateBuilder() {
         return getBeyondClientMonsterCustomSkillConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientMonsterCustomSkillConfigTemplate beyond_client_monster_custom_skill_config_template = 19;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplateOrBuilder getBeyondClientMonsterCustomSkillConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplateOrBuilder getBeyondClientMonsterCustomSkillConfigTemplateOrBuilder() {
         if ((detailCase_ == 19) && (beyondClientMonsterCustomSkillConfigTemplateBuilder_ != null)) {
           return beyondClientMonsterCustomSkillConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 19) {
-            return (emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientMonsterCustomSkillConfigTemplate beyond_client_monster_custom_skill_config_template = 19;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate, emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate, emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplateOrBuilder> 
           getBeyondClientMonsterCustomSkillConfigTemplateFieldBuilder() {
         if (beyondClientMonsterCustomSkillConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 19)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate.getDefaultInstance();
           }
           beyondClientMonsterCustomSkillConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate, emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate._BeyondClientMonsterCustomSkillConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate, emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass._BeyondClientMonsterCustomSkillConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2831,7 +2831,7 @@ public final class KIEBOLMEDKGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate, emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplateOrBuilder> beyondClientEntityAiConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate, emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplateOrBuilder> beyondClientEntityAiConfigTemplateBuilder_;
       /**
        * <code>._BeyondClientEntityAiConfigTemplate beyond_client_entity_ai_config_template = 20;</code>
        * @return Whether the beyondClientEntityAiConfigTemplate field is set.
@@ -2845,23 +2845,23 @@ public final class KIEBOLMEDKGOuterClass {
        * @return The beyondClientEntityAiConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate getBeyondClientEntityAiConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate getBeyondClientEntityAiConfigTemplate() {
         if (beyondClientEntityAiConfigTemplateBuilder_ == null) {
           if (detailCase_ == 20) {
-            return (emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 20) {
             return beyondClientEntityAiConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientEntityAiConfigTemplate beyond_client_entity_ai_config_template = 20;</code>
        */
-      public Builder setBeyondClientEntityAiConfigTemplate(emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate value) {
+      public Builder setBeyondClientEntityAiConfigTemplate(emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate value) {
         if (beyondClientEntityAiConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2878,7 +2878,7 @@ public final class KIEBOLMEDKGOuterClass {
        * <code>._BeyondClientEntityAiConfigTemplate beyond_client_entity_ai_config_template = 20;</code>
        */
       public Builder setBeyondClientEntityAiConfigTemplate(
-          emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate.Builder builderForValue) {
         if (beyondClientEntityAiConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -2891,11 +2891,11 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientEntityAiConfigTemplate beyond_client_entity_ai_config_template = 20;</code>
        */
-      public Builder mergeBeyondClientEntityAiConfigTemplate(emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate value) {
+      public Builder mergeBeyondClientEntityAiConfigTemplate(emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate value) {
         if (beyondClientEntityAiConfigTemplateBuilder_ == null) {
           if (detailCase_ == 20 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -2932,36 +2932,36 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientEntityAiConfigTemplate beyond_client_entity_ai_config_template = 20;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate.Builder getBeyondClientEntityAiConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate.Builder getBeyondClientEntityAiConfigTemplateBuilder() {
         return getBeyondClientEntityAiConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientEntityAiConfigTemplate beyond_client_entity_ai_config_template = 20;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplateOrBuilder getBeyondClientEntityAiConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplateOrBuilder getBeyondClientEntityAiConfigTemplateOrBuilder() {
         if ((detailCase_ == 20) && (beyondClientEntityAiConfigTemplateBuilder_ != null)) {
           return beyondClientEntityAiConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 20) {
-            return (emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientEntityAiConfigTemplate beyond_client_entity_ai_config_template = 20;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate, emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate, emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplateOrBuilder> 
           getBeyondClientEntityAiConfigTemplateFieldBuilder() {
         if (beyondClientEntityAiConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 20)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate.getDefaultInstance();
           }
           beyondClientEntityAiConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate, emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate._BeyondClientEntityAiConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate, emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass._BeyondClientEntityAiConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -2972,7 +2972,7 @@ public final class KIEBOLMEDKGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate, emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplateOrBuilder> beyondClientEntityGlobalValueConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate, emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplateOrBuilder> beyondClientEntityGlobalValueConfigTemplateBuilder_;
       /**
        * <code>._BeyondClientEntityGlobalValueConfigTemplate beyond_client_entity_global_value_config_template = 21;</code>
        * @return Whether the beyondClientEntityGlobalValueConfigTemplate field is set.
@@ -2986,23 +2986,23 @@ public final class KIEBOLMEDKGOuterClass {
        * @return The beyondClientEntityGlobalValueConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate getBeyondClientEntityGlobalValueConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate getBeyondClientEntityGlobalValueConfigTemplate() {
         if (beyondClientEntityGlobalValueConfigTemplateBuilder_ == null) {
           if (detailCase_ == 21) {
-            return (emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 21) {
             return beyondClientEntityGlobalValueConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientEntityGlobalValueConfigTemplate beyond_client_entity_global_value_config_template = 21;</code>
        */
-      public Builder setBeyondClientEntityGlobalValueConfigTemplate(emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate value) {
+      public Builder setBeyondClientEntityGlobalValueConfigTemplate(emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate value) {
         if (beyondClientEntityGlobalValueConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3019,7 +3019,7 @@ public final class KIEBOLMEDKGOuterClass {
        * <code>._BeyondClientEntityGlobalValueConfigTemplate beyond_client_entity_global_value_config_template = 21;</code>
        */
       public Builder setBeyondClientEntityGlobalValueConfigTemplate(
-          emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate.Builder builderForValue) {
         if (beyondClientEntityGlobalValueConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3032,11 +3032,11 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientEntityGlobalValueConfigTemplate beyond_client_entity_global_value_config_template = 21;</code>
        */
-      public Builder mergeBeyondClientEntityGlobalValueConfigTemplate(emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate value) {
+      public Builder mergeBeyondClientEntityGlobalValueConfigTemplate(emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate value) {
         if (beyondClientEntityGlobalValueConfigTemplateBuilder_ == null) {
           if (detailCase_ == 21 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3073,36 +3073,36 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientEntityGlobalValueConfigTemplate beyond_client_entity_global_value_config_template = 21;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate.Builder getBeyondClientEntityGlobalValueConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate.Builder getBeyondClientEntityGlobalValueConfigTemplateBuilder() {
         return getBeyondClientEntityGlobalValueConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientEntityGlobalValueConfigTemplate beyond_client_entity_global_value_config_template = 21;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplateOrBuilder getBeyondClientEntityGlobalValueConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplateOrBuilder getBeyondClientEntityGlobalValueConfigTemplateOrBuilder() {
         if ((detailCase_ == 21) && (beyondClientEntityGlobalValueConfigTemplateBuilder_ != null)) {
           return beyondClientEntityGlobalValueConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 21) {
-            return (emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientEntityGlobalValueConfigTemplate beyond_client_entity_global_value_config_template = 21;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate, emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate, emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplateOrBuilder> 
           getBeyondClientEntityGlobalValueConfigTemplateFieldBuilder() {
         if (beyondClientEntityGlobalValueConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 21)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate.getDefaultInstance();
           }
           beyondClientEntityGlobalValueConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate, emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate._BeyondClientEntityGlobalValueConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate, emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass._BeyondClientEntityGlobalValueConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3113,7 +3113,7 @@ public final class KIEBOLMEDKGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate, emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplateOrBuilder> beyondClientEffectTimelineConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate, emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplateOrBuilder> beyondClientEffectTimelineConfigTemplateBuilder_;
       /**
        * <code>._BeyondClientEffectTimelineConfigTemplate beyond_client_effect_timeline_config_template = 32;</code>
        * @return Whether the beyondClientEffectTimelineConfigTemplate field is set.
@@ -3127,23 +3127,23 @@ public final class KIEBOLMEDKGOuterClass {
        * @return The beyondClientEffectTimelineConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate getBeyondClientEffectTimelineConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate getBeyondClientEffectTimelineConfigTemplate() {
         if (beyondClientEffectTimelineConfigTemplateBuilder_ == null) {
           if (detailCase_ == 32) {
-            return (emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 32) {
             return beyondClientEffectTimelineConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientEffectTimelineConfigTemplate beyond_client_effect_timeline_config_template = 32;</code>
        */
-      public Builder setBeyondClientEffectTimelineConfigTemplate(emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate value) {
+      public Builder setBeyondClientEffectTimelineConfigTemplate(emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate value) {
         if (beyondClientEffectTimelineConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3160,7 +3160,7 @@ public final class KIEBOLMEDKGOuterClass {
        * <code>._BeyondClientEffectTimelineConfigTemplate beyond_client_effect_timeline_config_template = 32;</code>
        */
       public Builder setBeyondClientEffectTimelineConfigTemplate(
-          emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate.Builder builderForValue) {
         if (beyondClientEffectTimelineConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3173,11 +3173,11 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientEffectTimelineConfigTemplate beyond_client_effect_timeline_config_template = 32;</code>
        */
-      public Builder mergeBeyondClientEffectTimelineConfigTemplate(emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate value) {
+      public Builder mergeBeyondClientEffectTimelineConfigTemplate(emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate value) {
         if (beyondClientEffectTimelineConfigTemplateBuilder_ == null) {
           if (detailCase_ == 32 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3214,36 +3214,36 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientEffectTimelineConfigTemplate beyond_client_effect_timeline_config_template = 32;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate.Builder getBeyondClientEffectTimelineConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate.Builder getBeyondClientEffectTimelineConfigTemplateBuilder() {
         return getBeyondClientEffectTimelineConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientEffectTimelineConfigTemplate beyond_client_effect_timeline_config_template = 32;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplateOrBuilder getBeyondClientEffectTimelineConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplateOrBuilder getBeyondClientEffectTimelineConfigTemplateOrBuilder() {
         if ((detailCase_ == 32) && (beyondClientEffectTimelineConfigTemplateBuilder_ != null)) {
           return beyondClientEffectTimelineConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 32) {
-            return (emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientEffectTimelineConfigTemplate beyond_client_effect_timeline_config_template = 32;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate, emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate, emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplateOrBuilder> 
           getBeyondClientEffectTimelineConfigTemplateFieldBuilder() {
         if (beyondClientEffectTimelineConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 32)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate.getDefaultInstance();
           }
           beyondClientEffectTimelineConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate, emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate._BeyondClientEffectTimelineConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate, emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass._BeyondClientEffectTimelineConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3254,7 +3254,7 @@ public final class KIEBOLMEDKGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate, emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplateOrBuilder> beyondClientCustomSkillConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate, emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplateOrBuilder> beyondClientCustomSkillConfigTemplateBuilder_;
       /**
        * <code>._BeyondClientCustomSkillConfigTemplate beyond_client_custom_skill_config_template = 33;</code>
        * @return Whether the beyondClientCustomSkillConfigTemplate field is set.
@@ -3268,23 +3268,23 @@ public final class KIEBOLMEDKGOuterClass {
        * @return The beyondClientCustomSkillConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate getBeyondClientCustomSkillConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate getBeyondClientCustomSkillConfigTemplate() {
         if (beyondClientCustomSkillConfigTemplateBuilder_ == null) {
           if (detailCase_ == 33) {
-            return (emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 33) {
             return beyondClientCustomSkillConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientCustomSkillConfigTemplate beyond_client_custom_skill_config_template = 33;</code>
        */
-      public Builder setBeyondClientCustomSkillConfigTemplate(emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate value) {
+      public Builder setBeyondClientCustomSkillConfigTemplate(emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate value) {
         if (beyondClientCustomSkillConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3301,7 +3301,7 @@ public final class KIEBOLMEDKGOuterClass {
        * <code>._BeyondClientCustomSkillConfigTemplate beyond_client_custom_skill_config_template = 33;</code>
        */
       public Builder setBeyondClientCustomSkillConfigTemplate(
-          emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate.Builder builderForValue) {
         if (beyondClientCustomSkillConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3314,11 +3314,11 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientCustomSkillConfigTemplate beyond_client_custom_skill_config_template = 33;</code>
        */
-      public Builder mergeBeyondClientCustomSkillConfigTemplate(emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate value) {
+      public Builder mergeBeyondClientCustomSkillConfigTemplate(emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate value) {
         if (beyondClientCustomSkillConfigTemplateBuilder_ == null) {
           if (detailCase_ == 33 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3355,36 +3355,36 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientCustomSkillConfigTemplate beyond_client_custom_skill_config_template = 33;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate.Builder getBeyondClientCustomSkillConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate.Builder getBeyondClientCustomSkillConfigTemplateBuilder() {
         return getBeyondClientCustomSkillConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientCustomSkillConfigTemplate beyond_client_custom_skill_config_template = 33;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplateOrBuilder getBeyondClientCustomSkillConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplateOrBuilder getBeyondClientCustomSkillConfigTemplateOrBuilder() {
         if ((detailCase_ == 33) && (beyondClientCustomSkillConfigTemplateBuilder_ != null)) {
           return beyondClientCustomSkillConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 33) {
-            return (emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientCustomSkillConfigTemplate beyond_client_custom_skill_config_template = 33;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate, emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate, emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplateOrBuilder> 
           getBeyondClientCustomSkillConfigTemplateFieldBuilder() {
         if (beyondClientCustomSkillConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 33)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate.getDefaultInstance();
           }
           beyondClientCustomSkillConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate, emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate._BeyondClientCustomSkillConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate, emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass._BeyondClientCustomSkillConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3395,7 +3395,7 @@ public final class KIEBOLMEDKGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate, emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplateOrBuilder> beyondClientVehicleBasicParamConfigTemplateBuilder_;
+          emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate, emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplateOrBuilder> beyondClientVehicleBasicParamConfigTemplateBuilder_;
       /**
        * <code>._BeyondClientVehicleBasicParamConfigTemplate beyond_client_vehicle_basic_param_config_template = 35;</code>
        * @return Whether the beyondClientVehicleBasicParamConfigTemplate field is set.
@@ -3409,23 +3409,23 @@ public final class KIEBOLMEDKGOuterClass {
        * @return The beyondClientVehicleBasicParamConfigTemplate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate getBeyondClientVehicleBasicParamConfigTemplate() {
+      public emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate getBeyondClientVehicleBasicParamConfigTemplate() {
         if (beyondClientVehicleBasicParamConfigTemplateBuilder_ == null) {
           if (detailCase_ == 35) {
-            return (emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate.getDefaultInstance();
         } else {
           if (detailCase_ == 35) {
             return beyondClientVehicleBasicParamConfigTemplateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientVehicleBasicParamConfigTemplate beyond_client_vehicle_basic_param_config_template = 35;</code>
        */
-      public Builder setBeyondClientVehicleBasicParamConfigTemplate(emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate value) {
+      public Builder setBeyondClientVehicleBasicParamConfigTemplate(emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate value) {
         if (beyondClientVehicleBasicParamConfigTemplateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3442,7 +3442,7 @@ public final class KIEBOLMEDKGOuterClass {
        * <code>._BeyondClientVehicleBasicParamConfigTemplate beyond_client_vehicle_basic_param_config_template = 35;</code>
        */
       public Builder setBeyondClientVehicleBasicParamConfigTemplate(
-          emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate.Builder builderForValue) {
         if (beyondClientVehicleBasicParamConfigTemplateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -3455,11 +3455,11 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientVehicleBasicParamConfigTemplate beyond_client_vehicle_basic_param_config_template = 35;</code>
        */
-      public Builder mergeBeyondClientVehicleBasicParamConfigTemplate(emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate value) {
+      public Builder mergeBeyondClientVehicleBasicParamConfigTemplate(emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate value) {
         if (beyondClientVehicleBasicParamConfigTemplateBuilder_ == null) {
           if (detailCase_ == 35 &&
-              detail_ != emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate.newBuilder((emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate) detail_)
+              detail_ != emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate.newBuilder((emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -3496,36 +3496,36 @@ public final class KIEBOLMEDKGOuterClass {
       /**
        * <code>._BeyondClientVehicleBasicParamConfigTemplate beyond_client_vehicle_basic_param_config_template = 35;</code>
        */
-      public emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate.Builder getBeyondClientVehicleBasicParamConfigTemplateBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate.Builder getBeyondClientVehicleBasicParamConfigTemplateBuilder() {
         return getBeyondClientVehicleBasicParamConfigTemplateFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondClientVehicleBasicParamConfigTemplate beyond_client_vehicle_basic_param_config_template = 35;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplateOrBuilder getBeyondClientVehicleBasicParamConfigTemplateOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplateOrBuilder getBeyondClientVehicleBasicParamConfigTemplateOrBuilder() {
         if ((detailCase_ == 35) && (beyondClientVehicleBasicParamConfigTemplateBuilder_ != null)) {
           return beyondClientVehicleBasicParamConfigTemplateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 35) {
-            return (emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate) detail_;
+            return (emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate) detail_;
           }
-          return emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondClientVehicleBasicParamConfigTemplate beyond_client_vehicle_basic_param_config_template = 35;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate, emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplateOrBuilder> 
+          emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate, emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplateOrBuilder> 
           getBeyondClientVehicleBasicParamConfigTemplateFieldBuilder() {
         if (beyondClientVehicleBasicParamConfigTemplateBuilder_ == null) {
           if (!(detailCase_ == 35)) {
-            detail_ = emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate.getDefaultInstance();
           }
           beyondClientVehicleBasicParamConfigTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate, emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate.Builder, emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplateOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate._BeyondClientVehicleBasicParamConfigTemplate) detail_,
+              emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate, emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate.Builder, emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplateOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass._BeyondClientVehicleBasicParamConfigTemplate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -3649,26 +3649,26 @@ public final class KIEBOLMEDKGOuterClass {
       "mplateH\000\022j\n1beyond_client_vehicle_basic_" +
       "param_config_template\030# \001(\0132-._BeyondCli" +
       "entVehicleBasicParamConfigTemplateH\000B\010\n\006" +
-      "detailB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "detailB2\n\031emu.grasscutter.net.protoB\025KIE" +
+      "BOLMEDKGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.JEMDCKGDLIGOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientLightConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass.getDescriptor(),
         });
     internal_static_KIEBOLMEDKG_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -3677,19 +3677,19 @@ public final class KIEBOLMEDKGOuterClass {
         internal_static_KIEBOLMEDKG_descriptor,
         new java.lang.String[] { "NLHIBDLIMEK", "BeyondClientFrogprintConfigTemplate", "BeyondClientNameplateConfigTemplate", "BeyondClientTalkConfigTemplate", "BeyondClientRichtextConfigTemplate", "BeyondClientMinimapMarkConfigTemplate", "BeyondClientEnvironmentConfigTemplate", "BeyondClientLightConfigTemplate", "BeyondClientMonsterCustomSkillConfigTemplate", "BeyondClientEntityAiConfigTemplate", "BeyondClientEntityGlobalValueConfigTemplate", "BeyondClientEffectTimelineConfigTemplate", "BeyondClientCustomSkillConfigTemplate", "BeyondClientVehicleBasicParamConfigTemplate", "Detail", });
     emu.grasscutter.net.proto.JEMDCKGDLIGOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientCustomSkillConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientEffectTimelineConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientEntityAiConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientEntityGlobalValueConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientEnvironmentConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientFrogprintConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientLightConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientMinimapMarkConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientMonsterCustomSkillConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientNameplateConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientRichtextConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientTalkConfigTemplate.getDescriptor();
-    emu.grasscutter.net.proto.BeyondClientVehicleBasicParamConfigTemplate.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientCustomSkillConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientEffectTimelineConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientEntityAiConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientEntityGlobalValueConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientEnvironmentConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientFrogprintConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientLightConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientMinimapMarkConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientMonsterCustomSkillConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientNameplateConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientRichtextConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientTalkConfigTemplateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondClientVehicleBasicParamConfigTemplateOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -722,8 +722,9 @@ public final class KIOBIBMNGFEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KIOBIBMNGFE.proto\"7\n\013KIOBIBMNGFE\022\023\n\013OG" +
-      "OOFIDKDEK\030\004 \003(\004\022\023\n\013EOGEOKCKLIM\030\007 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "OOFIDKDEK\030\004 \003(\004\022\023\n\013EOGEOKCKLIM\030\007 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025KIOBIBMNGFEOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

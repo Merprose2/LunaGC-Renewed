@@ -887,8 +887,8 @@ public final class LCLGMEJEPNDOuterClass {
       "\n\021LCLGMEJEPND.proto\"v\n\013LCLGMEJEPND\022\023\n\013HO" +
       "OFIPIENLC\030\001 \001(\t\022\023\n\013ICOCHPFHDPH\030\002 \001(\002\022\023\n\013" +
       "IOJHAKCMKBA\030\003 \001(\002\022\023\n\013OMAGIGBGKLI\030\004 \001(\002\022\023" +
-      "\n\013JLNPCAEBHLE\030\005 \001(\002B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013JLNPCAEBHLE\030\005 \001(\002B2\n\031emu.grasscutter.n" +
+      "et.protoB\025LCLGMEJEPNDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

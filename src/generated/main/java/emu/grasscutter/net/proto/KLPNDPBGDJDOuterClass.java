@@ -793,8 +793,8 @@ public final class KLPNDPBGDJDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KLPNDPBGDJD.proto\"E\n\013KLPNDPBGDJD\022\r\n\005pa" +
       "ram\030\n \001(\r\022\022\n\nplayer_uid\030\014 \001(\r\022\023\n\013GILIPNA" +
-      "KNKA\030\017 \003(\004B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "KNKA\030\017 \003(\004B2\n\031emu.grasscutter.net.protoB" +
+      "\025KLPNDPBGDJDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

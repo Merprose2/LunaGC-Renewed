@@ -33,11 +33,11 @@ public final class HomeGroupRecordOuterClass {
      * <code>._HomeExplosionRecord explosion_info = 673;</code>
      * @return The explosionInfo.
      */
-    emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord getExplosionInfo();
+    emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord getExplosionInfo();
     /**
      * <code>._HomeExplosionRecord explosion_info = 673;</code>
      */
-    emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecordOrBuilder getExplosionInfoOrBuilder();
+    emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecordOrBuilder getExplosionInfoOrBuilder();
 
     /**
      * <code>.HomeSeekFurnitureAllRecord seek_furniture_gallery_info = 707;</code>
@@ -152,14 +152,14 @@ public final class HomeGroupRecordOuterClass {
               break;
             }
             case 5386: {
-              emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord.Builder subBuilder = null;
+              emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord.Builder subBuilder = null;
               if (detailCase_ == 673) {
-                subBuilder = ((emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 673;
@@ -325,21 +325,21 @@ public final class HomeGroupRecordOuterClass {
      * @return The explosionInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord getExplosionInfo() {
+    public emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord getExplosionInfo() {
       if (detailCase_ == 673) {
-         return (emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord) detail_;
+         return (emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord) detail_;
       }
-      return emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord.getDefaultInstance();
+      return emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord.getDefaultInstance();
     }
     /**
      * <code>._HomeExplosionRecord explosion_info = 673;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecordOrBuilder getExplosionInfoOrBuilder() {
+    public emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecordOrBuilder getExplosionInfoOrBuilder() {
       if (detailCase_ == 673) {
-         return (emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord) detail_;
+         return (emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord) detail_;
       }
-      return emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord.getDefaultInstance();
+      return emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord.getDefaultInstance();
     }
 
     public static final int SEEK_FURNITURE_GALLERY_INFO_FIELD_NUMBER = 707;
@@ -484,7 +484,7 @@ public final class HomeGroupRecordOuterClass {
         output.writeUInt32(2, groupId_);
       }
       if (detailCase_ == 673) {
-        output.writeMessage(673, (emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord) detail_);
+        output.writeMessage(673, (emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord) detail_);
       }
       if (detailCase_ == 707) {
         output.writeMessage(707, (emu.grasscutter.net.proto.HomeSeekFurnitureAllRecordOuterClass.HomeSeekFurnitureAllRecord) detail_);
@@ -513,7 +513,7 @@ public final class HomeGroupRecordOuterClass {
       }
       if (detailCase_ == 673) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(673, (emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord) detail_);
+          .computeMessageSize(673, (emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord) detail_);
       }
       if (detailCase_ == 707) {
         size += com.google.protobuf.CodedOutputStream
@@ -962,7 +962,7 @@ public final class HomeGroupRecordOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord, emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord.Builder, emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecordOrBuilder> explosionInfoBuilder_;
+          emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord, emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord.Builder, emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecordOrBuilder> explosionInfoBuilder_;
       /**
        * <code>._HomeExplosionRecord explosion_info = 673;</code>
        * @return Whether the explosionInfo field is set.
@@ -976,23 +976,23 @@ public final class HomeGroupRecordOuterClass {
        * @return The explosionInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord getExplosionInfo() {
+      public emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord getExplosionInfo() {
         if (explosionInfoBuilder_ == null) {
           if (detailCase_ == 673) {
-            return (emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord) detail_;
+            return (emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord) detail_;
           }
-          return emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord.getDefaultInstance();
+          return emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord.getDefaultInstance();
         } else {
           if (detailCase_ == 673) {
             return explosionInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord.getDefaultInstance();
+          return emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord.getDefaultInstance();
         }
       }
       /**
        * <code>._HomeExplosionRecord explosion_info = 673;</code>
        */
-      public Builder setExplosionInfo(emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord value) {
+      public Builder setExplosionInfo(emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord value) {
         if (explosionInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1009,7 +1009,7 @@ public final class HomeGroupRecordOuterClass {
        * <code>._HomeExplosionRecord explosion_info = 673;</code>
        */
       public Builder setExplosionInfo(
-          emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord.Builder builderForValue) {
+          emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord.Builder builderForValue) {
         if (explosionInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1022,11 +1022,11 @@ public final class HomeGroupRecordOuterClass {
       /**
        * <code>._HomeExplosionRecord explosion_info = 673;</code>
        */
-      public Builder mergeExplosionInfo(emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord value) {
+      public Builder mergeExplosionInfo(emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord value) {
         if (explosionInfoBuilder_ == null) {
           if (detailCase_ == 673 &&
-              detail_ != emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord.newBuilder((emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord) detail_)
+              detail_ != emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord.newBuilder((emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1063,36 +1063,36 @@ public final class HomeGroupRecordOuterClass {
       /**
        * <code>._HomeExplosionRecord explosion_info = 673;</code>
        */
-      public emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord.Builder getExplosionInfoBuilder() {
+      public emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord.Builder getExplosionInfoBuilder() {
         return getExplosionInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._HomeExplosionRecord explosion_info = 673;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecordOrBuilder getExplosionInfoOrBuilder() {
+      public emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecordOrBuilder getExplosionInfoOrBuilder() {
         if ((detailCase_ == 673) && (explosionInfoBuilder_ != null)) {
           return explosionInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 673) {
-            return (emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord) detail_;
+            return (emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord) detail_;
           }
-          return emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord.getDefaultInstance();
+          return emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord.getDefaultInstance();
         }
       }
       /**
        * <code>._HomeExplosionRecord explosion_info = 673;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord, emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord.Builder, emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecordOrBuilder> 
+          emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord, emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord.Builder, emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecordOrBuilder> 
           getExplosionInfoFieldBuilder() {
         if (explosionInfoBuilder_ == null) {
           if (!(detailCase_ == 673)) {
-            detail_ = emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord.getDefaultInstance();
           }
           explosionInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord, emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord.Builder, emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecordOrBuilder>(
-                  (emu.grasscutter.net.proto.HomeExplosionRecord._HomeExplosionRecord) detail_,
+              emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord, emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord.Builder, emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecordOrBuilder>(
+                  (emu.grasscutter.net.proto._HomeExplosionRecordOuterClass._HomeExplosionRecord) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1743,8 +1743,9 @@ public final class HomeGroupRecordOuterClass {
       "lloon_gallery_info\030\361\005 \001(\0132\022.HomeBalloonR" +
       "ecordH\000\0221\n\023racing_gallery_info\030\330\n \001(\0132\021." +
       "HomeRacingRecordH\000\022,\n\017stake_play_info\030\213\017" +
-      " \001(\0132\020.HomeStakeRecordH\000B\010\n\006detailB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      " \001(\0132\020.HomeStakeRecordH\000B\010\n\006detailB6\n\031em" +
+      "u.grasscutter.net.protoB\031HomeGroupRecord" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1753,7 +1754,7 @@ public final class HomeGroupRecordOuterClass {
           emu.grasscutter.net.proto.HomeRacingRecordOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.HomeSeekFurnitureAllRecordOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.HomeStakeRecordOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.HomeExplosionRecord.getDescriptor(),
+          emu.grasscutter.net.proto._HomeExplosionRecordOuterClass.getDescriptor(),
         });
     internal_static_HomeGroupRecord_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1765,7 +1766,7 @@ public final class HomeGroupRecordOuterClass {
     emu.grasscutter.net.proto.HomeRacingRecordOuterClass.getDescriptor();
     emu.grasscutter.net.proto.HomeSeekFurnitureAllRecordOuterClass.getDescriptor();
     emu.grasscutter.net.proto.HomeStakeRecordOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.HomeExplosionRecord.getDescriptor();
+    emu.grasscutter.net.proto._HomeExplosionRecordOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -1084,8 +1084,9 @@ public final class ScenePlayerInfoOuterClass {
       "o.proto\"\224\001\n\017ScenePlayerInfo\022\020\n\010scene_id\030" +
       "\005 \001(\r\022-\n\022online_player_info\030\006 \001(\0132\021.Onli" +
       "nePlayerInfo\022\017\n\007peer_id\030\t \001(\r\022\013\n\003uid\030\013 \001" +
-      "(\r\022\014\n\004name\030\014 \001(\t\022\024\n\014is_connected\030\r \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "(\r\022\014\n\004name\030\014 \001(\t\022\024\n\014is_connected\030\r \001(\010B6" +
+      "\n\031emu.grasscutter.net.protoB\031ScenePlayer" +
+      "InfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

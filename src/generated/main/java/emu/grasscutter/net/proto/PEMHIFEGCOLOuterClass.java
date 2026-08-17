@@ -901,8 +901,9 @@ public final class PEMHIFEGCOLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PEMHIFEGCOL.proto\032\021BPMPGEHNIPL.proto\"B" +
       "\n\013PEMHIFEGCOL\022!\n\013FNJKPONPNEI\030\010 \003(\0132\014.BPM" +
-      "PGEHNIPL\022\020\n\010scene_id\030\r \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "PGEHNIPL\022\020\n\010scene_id\030\r \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025PEMHIFEGCOLOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

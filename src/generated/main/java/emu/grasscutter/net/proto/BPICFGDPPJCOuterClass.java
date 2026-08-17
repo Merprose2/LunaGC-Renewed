@@ -175,7 +175,8 @@ public final class BPICFGDPPJCOuterClass {
       "TASK_REWARD_ACCEPTABLE\020\003\0225\n1BPICFGDPPJC_" +
       "AQUARIUM_TASK_POST_QUEST_NOT_FINISHED\020\004\022" +
       "&\n\"BPICFGDPPJC_AQUARIUM_TASK_FINISHED\020\005B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025BPICFGDPPJ" +
+      "COuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

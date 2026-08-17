@@ -902,8 +902,9 @@ public final class PlayerPreEnterMpNotifyOuterClass {
       "rPreEnterMpNotify\022,\n\005state\030\007 \001(\0162\035.Playe" +
       "rPreEnterMpNotify.State\022\020\n\010nickname\030\t \001(" +
       "\t\022\013\n\003uid\030\013 \001(\r\">\n\005State\022\021\n\rState_INVALID" +
-      "\020\000\022\017\n\013State_START\020\001\022\021\n\rState_TIMEOUT\020\002B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\020\000\022\017\n\013State_START\020\001\022\021\n\rState_TIMEOUT\020\002B=" +
+      "\n\031emu.grasscutter.net.protoB PlayerPreEn" +
+      "terMpNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

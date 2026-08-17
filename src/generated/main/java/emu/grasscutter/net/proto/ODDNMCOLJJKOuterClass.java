@@ -1468,8 +1468,9 @@ public final class ODDNMCOLJJKOuterClass {
       "KBOCC\022!\n\013COHNIBPLFBO\030\002 \001(\0132\014.JFIKLCCHHLI" +
       "\022!\n\013MFMJBAPOLJJ\030\003 \001(\0132\014.MCJFJEJGKID\022!\n\013B" +
       "KNAGDAAJBE\030\004 \001(\0132\014.KNHAPCFHKPG\022!\n\013ABGJCA" +
-      "MAAOK\030\005 \001(\0132\014.DGIJDBDDPGAB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "MAAOK\030\005 \001(\0132\014.DGIJDBDDPGAB2\n\031emu.grasscu" +
+      "tter.net.protoB\025ODDNMCOLJJKOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

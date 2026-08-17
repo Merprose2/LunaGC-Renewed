@@ -793,8 +793,8 @@ public final class MMPDBCEILFIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MMPDBCEILFI.proto\"@\n\013MMPDBCEILFI\022\n\n\002id" +
       "\030\002 \001(\r\022\023\n\013EODDNFPENOP\030\013 \003(\r\022\020\n\010level_id\030" +
-      "\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025MMPD" +
+      "BCEILFIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

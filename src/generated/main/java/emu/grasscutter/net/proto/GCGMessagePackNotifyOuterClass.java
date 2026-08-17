@@ -902,8 +902,9 @@ public final class GCGMessagePackNotifyOuterClass {
       "\n\032GCGMessagePackNotify.proto\032\024GCGMessage" +
       "Pack.proto\"R\n\024GCGMessagePackNotify\022\022\n\nse" +
       "rver_seq\030\002 \001(\r\022&\n\rmsg_pack_list\030\014 \003(\0132\017." +
-      "GCGMessagePackB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "GCGMessagePackB;\n\031emu.grasscutter.net.pr" +
+      "otoB\036GCGMessagePackNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

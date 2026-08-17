@@ -715,7 +715,8 @@ public final class BFIOHMIEHFEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BFIOHMIEHFE.proto\">\n\013BFIOHMIEHFE\022\022\n\n_w" +
       "in_count\030\007 \001(\r\022\033\n\023character_card_list\030\016 " +
-      "\003(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\003(\rB2\n\031emu.grasscutter.net.protoB\025BFIOHM" +
+      "IEHFEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

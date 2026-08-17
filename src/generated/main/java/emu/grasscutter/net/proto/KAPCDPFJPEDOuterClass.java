@@ -932,8 +932,9 @@ public final class KAPCDPFJPEDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KAPCDPFJPED.proto\032\014Vector.proto\"L\n\013KAP" +
       "CDPFJPED\022\013\n\003uid\030\001 \001(\005\022\027\n\006extent\030\003 \001(\0132\007." +
-      "Vector\022\027\n\006center\030\r \001(\0132\007.VectorB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "Vector\022\027\n\006center\030\r \001(\0132\007.VectorB2\n\031emu.g" +
+      "rasscutter.net.protoB\025KAPCDPFJPEDOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

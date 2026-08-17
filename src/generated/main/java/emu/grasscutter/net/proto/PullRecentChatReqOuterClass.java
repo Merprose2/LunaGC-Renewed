@@ -596,8 +596,8 @@ public final class PullRecentChatReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027PullRecentChatReq.proto\":\n\021PullRecentC" +
       "hatReq\022\020\n\010pull_num\030\014 \001(\r\022\023\n\013JGCJKOLIKME\030" +
-      "\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\017 \001(\rB8\n\031emu.grasscutter.net.protoB\033Pull" +
+      "RecentChatReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -863,8 +863,9 @@ public final class GLMLCEIOCMOOuterClass {
       "\n\021GLMLCEIOCMO.proto\032\021PGDMAIHKGFO.proto\"i" +
       "\n\013GLMLCEIOCMO\022\017\n\007talk_id\030\001 \001(\005\022\023\n\013LLJDPP" +
       "FCEGG\030\002 \001(\005\022\021\n\tis_active\030\003 \001(\010\022!\n\013GEKGLE" +
-      "NKCJA\030\004 \001(\0132\014.PGDMAIHKGFOB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "NKCJA\030\004 \001(\0132\014.PGDMAIHKGFOB2\n\031emu.grasscu" +
+      "tter.net.protoB\025GLMLCEIOCMOOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

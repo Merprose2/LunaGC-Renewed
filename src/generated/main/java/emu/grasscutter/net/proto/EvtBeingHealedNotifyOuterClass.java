@@ -963,8 +963,9 @@ public final class EvtBeingHealedNotifyOuterClass {
       "gHealedNotify\022\023\n\013GOKLCPHOLGL\030\005 \001(\t\022\023\n\013PN" +
       "LGJMIPOKP\030\010 \001(\002\022\023\n\013CMCCNKMGKHG\030\t \001(\010\022\021\n\t" +
       "source_id\030\n \001(\r\022\023\n\013PBECAGBFBDP\030\013 \001(\002\022\021\n\t" +
-      "target_id\030\r \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "target_id\030\r \001(\rB;\n\031emu.grasscutter.net.p" +
+      "rotoB\036EvtBeingHealedNotifyOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

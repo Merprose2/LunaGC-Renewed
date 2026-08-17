@@ -1002,7 +1002,8 @@ public final class OHBOEHEPBDLOuterClass {
       "MCAGHFIPCPF.proto\"h\n\013OHBOEHEPBDL\022\023\n\013COHN" +
       "FJIALLJ\030\001 \001(\r\022!\n\013NIKILBOPIFP\030\002 \001(\0162\014.MCA" +
       "GHFIPCPF\022!\n\013CDDNDJADDEJ\030\003 \003(\0132\014.DBDALNMC" +
-      "ANGB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "ANGB2\n\031emu.grasscutter.net.protoB\025OHBOEH" +
+      "EPBDLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

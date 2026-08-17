@@ -831,8 +831,9 @@ public final class UpdateRedPointNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032UpdateRedPointNotify.proto\032\022RedPointDa" +
       "ta.proto\"=\n\024UpdateRedPointNotify\022%\n\016red_" +
-      "point_list\030\016 \003(\0132\r.RedPointDataB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "point_list\030\016 \003(\0132\r.RedPointDataB;\n\031emu.g" +
+      "rasscutter.net.protoB\036UpdateRedPointNoti" +
+      "fyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

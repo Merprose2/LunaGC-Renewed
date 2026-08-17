@@ -667,8 +667,8 @@ public final class MAIPHNCIPPPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MAIPHNCIPPP.proto\"H\n\013MAIPHNCIPPP\022\017\n\007re" +
       "tcode\030\005 \001(\005\022\023\n\013MJOCLODDHNM\030\007 \001(\r\022\023\n\013NAEE" +
-      "NHKJLHF\030\n \001(\010B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "NHKJLHF\030\n \001(\010B2\n\031emu.grasscutter.net.pro" +
+      "toB\025MAIPHNCIPPPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

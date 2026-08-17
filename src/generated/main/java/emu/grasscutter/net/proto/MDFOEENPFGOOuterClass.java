@@ -663,8 +663,9 @@ public final class MDFOEENPFGOOuterClass {
       "\n\021MDFOEENPFGO.proto\032\021CPFMJKJAGJM.proto\032\021" +
       "EOEADOOHBLN.proto\"S\n\013MDFOEENPFGO\022!\n\013FMLI" +
       "JIHHFJC\030\001 \001(\0162\014.EOEADOOHBLN\022!\n\013CENFHFBNJ" +
-      "FL\030\002 \001(\0162\014.CPFMJKJAGJMB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "FL\030\002 \001(\0162\014.CPFMJKJAGJMB2\n\031emu.grasscutte" +
+      "r.net.protoB\025MDFOEENPFGOOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

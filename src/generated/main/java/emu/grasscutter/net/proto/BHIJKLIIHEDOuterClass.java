@@ -596,8 +596,9 @@ public final class BHIJKLIIHEDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BHIJKLIIHED.proto\"5\n\013BHIJKLIIHED\022\022\n\nis" +
-      "_success\030\t \001(\010\022\022\n\ngallery_id\030\014 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "_success\030\t \001(\010\022\022\n\ngallery_id\030\014 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025BHIJKLIIHEDOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

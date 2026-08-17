@@ -905,8 +905,9 @@ public final class KNFMHINOHIFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KNFMHINOHIF.proto\032\017ShopGoods.proto\"C\n\013" +
       "KNFMHINOHIF\022\023\n\013IGPBACJCLEC\030\002 \001(\014\022\037\n\013JLKD" +
-      "MDHNOGC\030\007 \003(\0132\n.ShopGoodsB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "MDHNOGC\030\007 \003(\0132\n.ShopGoodsB2\n\031emu.grasscu" +
+      "tter.net.protoB\025KNFMHINOHIFOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

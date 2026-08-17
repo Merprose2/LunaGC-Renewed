@@ -666,8 +666,9 @@ public final class PlayerGameTimeByLuaNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037PlayerGameTimeByLuaNotify.proto\"N\n\031Pla" +
       "yerGameTimeByLuaNotify\022\013\n\003uid\030\001 \001(\r\022\021\n\ts" +
-      "im_speed\030\004 \001(\r\022\021\n\tgame_time\030\005 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "im_speed\030\004 \001(\r\022\021\n\tgame_time\030\005 \001(\rB@\n\031emu" +
+      ".grasscutter.net.protoB#PlayerGameTimeBy" +
+      "LuaNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

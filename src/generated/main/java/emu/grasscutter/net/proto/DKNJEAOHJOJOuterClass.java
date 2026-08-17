@@ -171,8 +171,8 @@ public final class DKNJEAOHJOJOuterClass {
       "KNJEAOHJOJ_UNKNOWN\020\000\022\024\n\020DKNJEAOHJOJ_INIT" +
       "\020\001\022\027\n\023DKNJEAOHJOJ_WAITING\020\002\022\024\n\020DKNJEAOHJ" +
       "OJ_PASS\020\003\022\026\n\022DKNJEAOHJOJ_FAILED\020\004\022\027\n\023DKN" +
-      "JEAOHJOJ_RELEASE\020\005B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "JEAOHJOJ_RELEASE\020\005B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025DKNJEAOHJOJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -666,8 +666,8 @@ public final class FungusRenameRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025FungusRenameRsp.proto\"F\n\017FungusRenameR" +
       "sp\022\021\n\tfungus_id\030\004 \001(\r\022\017\n\007retcode\030\n \001(\005\022\017" +
-      "\n\007name_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\n\007name_id\030\016 \001(\rB6\n\031emu.grasscutter.net.p" +
+      "rotoB\031FungusRenameRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

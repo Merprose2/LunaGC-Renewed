@@ -730,8 +730,9 @@ public final class MEJAHNNGGMHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MEJAHNNGGMH.proto\"T\n\013MEJAHNNGGMH\022\020\n\010le" +
       "vel_id\030\003 \001(\r\022\017\n\007is_open\030\t \001(\010\022\017\n\007camp_id" +
-      "\030\014 \001(\r\022\021\n\tis_finish\030\017 \001(\010B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\030\014 \001(\r\022\021\n\tis_finish\030\017 \001(\010B2\n\031emu.grasscu" +
+      "tter.net.protoB\025MEJAHNNGGMHOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

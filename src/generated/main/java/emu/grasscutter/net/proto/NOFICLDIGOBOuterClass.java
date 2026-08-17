@@ -737,8 +737,9 @@ public final class NOFICLDIGOBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NOFICLDIGOB.proto\"^\n\013NOFICLDIGOB\022\017\n\007re" +
       "tcode\030\003 \001(\005\022\023\n\013avatar_guid\030\007 \001(\004\022\024\n\014avat" +
-      "ar_level\030\014 \001(\r\022\023\n\013CDDLJLGIBEB\030\016 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "ar_level\030\014 \001(\r\022\023\n\013CDDLJLGIBEB\030\016 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025NOFICLDIGOBOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

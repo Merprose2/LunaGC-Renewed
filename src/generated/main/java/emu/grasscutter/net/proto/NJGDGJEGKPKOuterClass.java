@@ -525,8 +525,8 @@ public final class NJGDGJEGKPKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NJGDGJEGKPK.proto\" \n\013NJGDGJEGKPK\022\021\n\tcu" +
-      "r_score\030\005 \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "r_score\030\005 \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025NJGDGJEGKPKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

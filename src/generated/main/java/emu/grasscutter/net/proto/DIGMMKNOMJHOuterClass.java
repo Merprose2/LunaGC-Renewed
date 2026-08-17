@@ -3807,7 +3807,8 @@ public final class DIGMMKNOMJHOuterClass {
       "\014 \001(\0132\013.Uint32Pair\022\023\n\013AEOAOJFGECJ\030\016 \001(\r\022" +
       "\023\n\013GLAJBGCECKN\030\017 \001(\r\032:\n\013BKPMKCLBFJO\022\023\n\013A" +
       "AKAOLKKNGC\030\005 \001(\r\022\026\n\016avatar_id_list\030\n \003(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025DIGMMKNOM" +
+      "JHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

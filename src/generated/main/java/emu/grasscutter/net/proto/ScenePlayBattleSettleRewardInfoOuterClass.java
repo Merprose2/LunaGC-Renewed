@@ -894,8 +894,9 @@ public final class ScenePlayBattleSettleRewardInfoOuterClass {
       "\n%ScenePlayBattleSettleRewardInfo.proto\032" +
       "\017ItemParam.proto\"T\n\037ScenePlayBattleSettl" +
       "eRewardInfo\022\013\n\003uid\030\006 \001(\r\022$\n\020reward_item_" +
-      "list\030\013 \003(\0132\n.ItemParamB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "list\030\013 \003(\0132\n.ItemParamBF\n\031emu.grasscutte" +
+      "r.net.protoB)ScenePlayBattleSettleReward" +
+      "InfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

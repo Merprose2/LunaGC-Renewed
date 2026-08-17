@@ -659,8 +659,8 @@ public final class DILDPCAEEAMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DILDPCAEEAM.proto\"L\n\013DILDPCAEEAM\022\023\n\013EH" +
       "BKOHIHCOK\030\001 \001(\005\022\023\n\013GHOJAFOMAPF\030\002 \001(\010\022\023\n\013" +
-      "HEAEDIBENDA\030\003 \001(\005B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "HEAEDIBENDA\030\003 \001(\005B2\n\031emu.grasscutter.net" +
+      ".protoB\025DILDPCAEEAMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

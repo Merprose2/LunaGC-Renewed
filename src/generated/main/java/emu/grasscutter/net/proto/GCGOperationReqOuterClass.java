@@ -800,8 +800,8 @@ public final class GCGOperationReqOuterClass {
       "\n\025GCGOperationReq.proto\032\022GCGOperation.pr" +
       "oto\"V\n\017GCGOperationReq\022\031\n\002op\030\003 \001(\0132\r.GCG" +
       "Operation\022\023\n\013JMLOIFNAHJI\030\006 \001(\r\022\023\n\013KCOKBD" +
-      "PDMEK\030\016 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "PDMEK\030\016 \001(\rB6\n\031emu.grasscutter.net.proto" +
+      "B\031GCGOperationReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

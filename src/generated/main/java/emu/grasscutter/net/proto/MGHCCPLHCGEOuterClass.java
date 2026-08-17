@@ -652,8 +652,8 @@ public final class MGHCCPLHCGEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MGHCCPLHCGE.proto\"\037\n\013MGHCCPLHCGE\022\020\n\010ui" +
-      "d_list\030\013 \003(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "d_list\030\013 \003(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025MGHCCPLHCGEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

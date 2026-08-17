@@ -659,8 +659,8 @@ public final class CNMDKFFKEDBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CNMDKFFKEDB.proto\032\021NKLFGFAHFJI.proto\"0" +
       "\n\013CNMDKFFKEDB\022!\n\013AGHCKDKBEDK\030\017 \001(\0132\014.NKL" +
-      "FGFAHFJIB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "FGFAHFJIB2\n\031emu.grasscutter.net.protoB\025C" +
+      "NMDKFFKEDBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

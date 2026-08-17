@@ -1281,8 +1281,8 @@ public final class IPFNKMAOOCAOuterClass {
       "\030\003 \001(\0132\014.DMGMMDBNPNA\022\023\n\013JNLHMPBLCIL\030\004 \001(" +
       "\005\022\023\n\013NKLJJDGJHNL\030\005 \001(\005\022\023\n\013DJMCJHAPBGP\030\006 " +
       "\001(\005\022\023\n\013AOAAOLHJIMH\030\007 \001(\010\022\023\n\013JOMALFAIBEI\030" +
-      "\010 \001(\002B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\010 \001(\002B2\n\031emu.grasscutter.net.protoB\025IPFN" +
+      "KMAOOCAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -696,8 +696,8 @@ public final class LKPJPNHOCIPOuterClass {
       "\n\021LKPJPNHOCIP.proto\032\021CGMJHOPBMHO.proto\"Z" +
       "\n\013LKPJPNHOCIP\022!\n\013PMFLKFFCOOI\030\001 \001(\0162\014.CGM" +
       "JHOPBMHO\022\023\n\013EOBCLOMPAGB\030\003 \001(\r\022\023\n\013CLLJMHK" +
-      "DPNP\030\t \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "DPNP\030\t \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025LKPJPNHOCIPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

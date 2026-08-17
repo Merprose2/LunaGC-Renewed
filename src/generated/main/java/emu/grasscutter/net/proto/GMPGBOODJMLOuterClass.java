@@ -855,8 +855,9 @@ public final class GMPGBOODJMLOuterClass {
       "\n\021GMPGBOODJML.proto\032\021EHCGCOAGHAJ.proto\032\021" +
       "PGDMAIHKGFO.proto\"S\n\013GMPGBOODJML\022!\n\013NNPI" +
       "CFKGJAD\030\001 \001(\0132\014.PGDMAIHKGFO\022!\n\013HIJEGAFPG" +
-      "BK\030\003 \001(\0132\014.EHCGCOAGHAJB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "BK\030\003 \001(\0132\014.EHCGCOAGHAJB2\n\031emu.grasscutte" +
+      "r.net.protoB\025GMPGBOODJMLOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

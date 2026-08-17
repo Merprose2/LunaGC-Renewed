@@ -1191,8 +1191,9 @@ public final class CNJDMBHLLOHOuterClass {
       "IMO\030\003 \001(\0162\014.JEOKDCIGCFP\022\023\n\013JJJLPPFPNCE\030\004" +
       " \001(\010\022!\n\013GKLFBGKJEHB\030\005 \001(\0132\014.JHDBLOLNIMJ\022" +
       "!\n\013BHFDCBNMDAJ\030\006 \001(\0162\014.JEOKDCIGCFP\022\023\n\013BG" +
-      "HIFBPCOPK\030\007 \001(\002\022\023\n\013BOEOIDGFGHL\030\010 \001(\002B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "HIFBPCOPK\030\007 \001(\002\022\023\n\013BOEOIDGFGHL\030\010 \001(\002B2\n\031" +
+      "emu.grasscutter.net.protoB\025CNJDMBHLLOHOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1136,8 +1136,9 @@ public final class EOEAAHHLPEIOuterClass {
       "\n\013EOEAAHHLPEI\022\023\n\013DDEIIKCENNM\030\001 \001(\r\022\035\n\010ro" +
       "tation\030\003 \001(\0132\013.Vector3Int\022\021\n\tentity_id\030\007" +
       " \001(\r\022\023\n\013LEKHNENMLNM\030\010 \001(\r\022\023\n\013GJNGMAPHJBJ" +
-      "\030\t \001(\005\022\035\n\010position\030\013 \001(\0132\013.Vector3IntB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\030\t \001(\005\022\035\n\010position\030\013 \001(\0132\013.Vector3IntB2\n" +
+      "\031emu.grasscutter.net.protoB\025EOEAAHHLPEIO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

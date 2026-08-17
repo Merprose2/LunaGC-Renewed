@@ -722,8 +722,9 @@ public final class EvtSyncSkillAnchorPositionOuterClass {
       "\n EvtSyncSkillAnchorPosition.proto\032\014Vect" +
       "or.proto\"W\n\032EvtSyncSkillAnchorPosition\022\021" +
       "\n\tentity_id\030\010 \001(\r\022&\n\025skill_anchor_positi" +
-      "on\030\n \001(\0132\007.VectorB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "on\030\n \001(\0132\007.VectorBA\n\031emu.grasscutter.net" +
+      ".protoB$EvtSyncSkillAnchorPositionOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

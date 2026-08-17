@@ -171,8 +171,9 @@ public final class JLLJALOAMHMOuterClass {
       "LLJALOAMHM_UNKNOWN\020\000\022\035\n\031JLLJALOAMHM_DECE" +
       "PTIVE_ADS\020\001\022\027\n\023JLLJALOAMHM_ABUSING\020\002\022\025\n\021" +
       "JLLJALOAMHM_CHEAT\020\003\022\031\n\025JLLJALOAMHM_POLIT" +
-      "ICAL\020\004\022\025\n\021JLLJALOAMHM_OTHER\020\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ICAL\020\004\022\025\n\021JLLJALOAMHM_OTHER\020\005B2\n\031emu.gra" +
+      "sscutter.net.protoB\025JLLJALOAMHMOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

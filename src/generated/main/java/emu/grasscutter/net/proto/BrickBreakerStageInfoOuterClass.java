@@ -1004,7 +1004,8 @@ public final class BrickBreakerStageInfoOuterClass {
       "\022*\n\nstage_type\030\001 \001(\0162\026.BrickBreakerStage" +
       "Type\022\020\n\010level_id\030\010 \001(\r\0227\n\020battle_info_li" +
       "st\030\n \003(\0132\035.BrickBreakerPlayerBattleInfoB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "<\n\031emu.grasscutter.net.protoB\037BrickBreak" +
+      "erStageInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

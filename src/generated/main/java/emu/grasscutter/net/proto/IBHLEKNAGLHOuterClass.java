@@ -142,8 +142,9 @@ public final class IBHLEKNAGLHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IBHLEKNAGLH.proto*S\n\013IBHLEKNAGLH\022\024\n\020IB" +
       "HLEKNAGLH_NONE\020\000\022\026\n\022IBHLEKNAGLH_MODIFY\020\001" +
-      "\022\026\n\022IBHLEKNAGLH_DELETE\020\002B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\022\026\n\022IBHLEKNAGLH_DELETE\020\002B2\n\031emu.grasscut" +
+      "ter.net.protoB\025IBHLEKNAGLHOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

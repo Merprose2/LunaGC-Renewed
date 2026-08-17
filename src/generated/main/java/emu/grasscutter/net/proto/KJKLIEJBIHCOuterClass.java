@@ -21,12 +21,12 @@ public final class KJKLIEJBIHCOuterClass {
     /**
      * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo> 
+    java.util.List<emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo> 
         getBriefInfoListList();
     /**
      * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
      */
-    emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo getBriefInfoList(int index);
+    emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo getBriefInfoList(int index);
     /**
      * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
      */
@@ -34,12 +34,12 @@ public final class KJKLIEJBIHCOuterClass {
     /**
      * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfoOrBuilder> 
         getBriefInfoListOrBuilderList();
     /**
      * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
      */
-    emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfoOrBuilder getBriefInfoListOrBuilder(
+    emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfoOrBuilder getBriefInfoListOrBuilder(
         int index);
   }
   /**
@@ -91,11 +91,11 @@ public final class KJKLIEJBIHCOuterClass {
               break;
             case 34: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                briefInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo>();
+                briefInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               briefInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -134,19 +134,19 @@ public final class KJKLIEJBIHCOuterClass {
     }
 
     public static final int BRIEF_INFO_LIST_FIELD_NUMBER = 4;
-    private java.util.List<emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo> briefInfoList_;
+    private java.util.List<emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo> briefInfoList_;
     /**
      * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo> getBriefInfoListList() {
+    public java.util.List<emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo> getBriefInfoListList() {
       return briefInfoList_;
     }
     /**
      * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfoOrBuilder> 
         getBriefInfoListOrBuilderList() {
       return briefInfoList_;
     }
@@ -161,14 +161,14 @@ public final class KJKLIEJBIHCOuterClass {
      * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo getBriefInfoList(int index) {
+    public emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo getBriefInfoList(int index) {
       return briefInfoList_.get(index);
     }
     /**
      * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfoOrBuilder getBriefInfoListOrBuilder(
+    public emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfoOrBuilder getBriefInfoListOrBuilder(
         int index) {
       return briefInfoList_.get(index);
     }
@@ -515,22 +515,22 @@ public final class KJKLIEJBIHCOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo> briefInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo> briefInfoList_ =
         java.util.Collections.emptyList();
       private void ensureBriefInfoListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          briefInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo>(briefInfoList_);
+          briefInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo>(briefInfoList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo, emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo.Builder, emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfoOrBuilder> briefInfoListBuilder_;
+          emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo, emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo.Builder, emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfoOrBuilder> briefInfoListBuilder_;
 
       /**
        * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo> getBriefInfoListList() {
+      public java.util.List<emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo> getBriefInfoListList() {
         if (briefInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(briefInfoList_);
         } else {
@@ -550,7 +550,7 @@ public final class KJKLIEJBIHCOuterClass {
       /**
        * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
        */
-      public emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo getBriefInfoList(int index) {
+      public emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo getBriefInfoList(int index) {
         if (briefInfoListBuilder_ == null) {
           return briefInfoList_.get(index);
         } else {
@@ -561,7 +561,7 @@ public final class KJKLIEJBIHCOuterClass {
        * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
        */
       public Builder setBriefInfoList(
-          int index, emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo value) {
+          int index, emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo value) {
         if (briefInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -578,7 +578,7 @@ public final class KJKLIEJBIHCOuterClass {
        * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
        */
       public Builder setBriefInfoList(
-          int index, emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo.Builder builderForValue) {
         if (briefInfoListBuilder_ == null) {
           ensureBriefInfoListIsMutable();
           briefInfoList_.set(index, builderForValue.build());
@@ -591,7 +591,7 @@ public final class KJKLIEJBIHCOuterClass {
       /**
        * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
        */
-      public Builder addBriefInfoList(emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo value) {
+      public Builder addBriefInfoList(emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo value) {
         if (briefInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -608,7 +608,7 @@ public final class KJKLIEJBIHCOuterClass {
        * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
        */
       public Builder addBriefInfoList(
-          int index, emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo value) {
+          int index, emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo value) {
         if (briefInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -625,7 +625,7 @@ public final class KJKLIEJBIHCOuterClass {
        * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
        */
       public Builder addBriefInfoList(
-          emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo.Builder builderForValue) {
         if (briefInfoListBuilder_ == null) {
           ensureBriefInfoListIsMutable();
           briefInfoList_.add(builderForValue.build());
@@ -639,7 +639,7 @@ public final class KJKLIEJBIHCOuterClass {
        * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
        */
       public Builder addBriefInfoList(
-          int index, emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo.Builder builderForValue) {
         if (briefInfoListBuilder_ == null) {
           ensureBriefInfoListIsMutable();
           briefInfoList_.add(index, builderForValue.build());
@@ -653,7 +653,7 @@ public final class KJKLIEJBIHCOuterClass {
        * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
        */
       public Builder addAllBriefInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo> values) {
         if (briefInfoListBuilder_ == null) {
           ensureBriefInfoListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -693,14 +693,14 @@ public final class KJKLIEJBIHCOuterClass {
       /**
        * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
        */
-      public emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo.Builder getBriefInfoListBuilder(
+      public emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo.Builder getBriefInfoListBuilder(
           int index) {
         return getBriefInfoListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
        */
-      public emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfoOrBuilder getBriefInfoListOrBuilder(
+      public emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfoOrBuilder getBriefInfoListOrBuilder(
           int index) {
         if (briefInfoListBuilder_ == null) {
           return briefInfoList_.get(index);  } else {
@@ -710,7 +710,7 @@ public final class KJKLIEJBIHCOuterClass {
       /**
        * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfoOrBuilder> 
            getBriefInfoListOrBuilderList() {
         if (briefInfoListBuilder_ != null) {
           return briefInfoListBuilder_.getMessageOrBuilderList();
@@ -721,31 +721,31 @@ public final class KJKLIEJBIHCOuterClass {
       /**
        * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
        */
-      public emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo.Builder addBriefInfoListBuilder() {
+      public emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo.Builder addBriefInfoListBuilder() {
         return getBriefInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
        */
-      public emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo.Builder addBriefInfoListBuilder(
+      public emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo.Builder addBriefInfoListBuilder(
           int index) {
         return getBriefInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._LanV5CardBriefInfo brief_info_list = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo.Builder> 
            getBriefInfoListBuilderList() {
         return getBriefInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo, emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo.Builder, emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfoOrBuilder> 
+          emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo, emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo.Builder, emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfoOrBuilder> 
           getBriefInfoListFieldBuilder() {
         if (briefInfoListBuilder_ == null) {
           briefInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo, emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfo.Builder, emu.grasscutter.net.proto.LanV5CardBriefInfo._LanV5CardBriefInfoOrBuilder>(
+              emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo, emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfo.Builder, emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass._LanV5CardBriefInfoOrBuilder>(
                   briefInfoList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -823,13 +823,14 @@ public final class KJKLIEJBIHCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KJKLIEJBIHC.proto\032\031_LanV5CardBriefInfo" +
       ".proto\"<\n\013KJKLIEJBIHC\022-\n\017brief_info_list" +
-      "\030\004 \003(\0132\024._LanV5CardBriefInfoB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\030\004 \003(\0132\024._LanV5CardBriefInfoB2\n\031emu.gras" +
+      "scutter.net.protoB\025KJKLIEJBIHCOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.LanV5CardBriefInfo.getDescriptor(),
+          emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass.getDescriptor(),
         });
     internal_static_KJKLIEJBIHC_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -837,7 +838,7 @@ public final class KJKLIEJBIHCOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_KJKLIEJBIHC_descriptor,
         new java.lang.String[] { "BriefInfoList", });
-    emu.grasscutter.net.proto.LanV5CardBriefInfo.getDescriptor();
+    emu.grasscutter.net.proto._LanV5CardBriefInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

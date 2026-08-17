@@ -729,8 +729,8 @@ public final class CICNJKOJLANOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CICNJKOJLAN.proto\032\021IFMHJFHNJDC.proto\":" +
       "\n\013CICNJKOJLAN\022\017\n\007retcode\030\014 \001(\005\022\032\n\004info\030\017" +
-      " \001(\0132\014.IFMHJFHNJDCB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      " \001(\0132\014.IFMHJFHNJDCB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025CICNJKOJLANOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

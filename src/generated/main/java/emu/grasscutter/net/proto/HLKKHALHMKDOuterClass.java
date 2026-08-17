@@ -595,8 +595,9 @@ public final class HLKKHALHMKDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HLKKHALHMKD.proto\"3\n\013HLKKHALHMKD\022\023\n\013KK" +
-      "JKPCPEKDL\030\006 \001(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "JKPCPEKDL\030\006 \001(\r\022\017\n\007retcode\030\016 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025HLKKHALHMKDOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

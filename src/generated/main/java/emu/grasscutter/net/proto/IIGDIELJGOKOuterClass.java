@@ -644,8 +644,8 @@ public final class IIGDIELJGOKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IIGDIELJGOK.proto\"!\n\013IIGDIELJGOK\022\022\n\nva" +
-      "lue_list\030\001 \003(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "lue_list\030\001 \003(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025IIGDIELJGOKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

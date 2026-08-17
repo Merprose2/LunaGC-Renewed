@@ -1049,8 +1049,9 @@ public final class LEFDKBMBBJPOuterClass {
       "JHBKADFMKNM.proto\"|\n\013LEFDKBMBBJP\022\023\n\013LIDA" +
       "OEKMODL\030\001 \001(\005\022&\n\016read_transform\030\013 \001(\0132\014." +
       "GKOLCDPNIHLH\000\022&\n\016edit_transform\030\014 \001(\0132\014." +
-      "JHBKADFMKNMH\000B\010\n\006detailB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "JHBKADFMKNMH\000B\010\n\006detailB2\n\031emu.grasscutt" +
+      "er.net.protoB\025LEFDKBMBBJPOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -596,8 +596,9 @@ public final class GCGDSCardProficiencyNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n GCGDSCardProficiencyNotify.proto\"B\n\032GC" +
       "GDSCardProficiencyNotify\022\023\n\013proficiency\030" +
-      "\003 \001(\r\022\017\n\007card_id\030\006 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\003 \001(\r\022\017\n\007card_id\030\006 \001(\rBA\n\031emu.grasscutte" +
+      "r.net.protoB$GCGDSCardProficiencyNotifyO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -832,8 +832,9 @@ public final class HomeComfortInfoNotifyOuterClass {
       "\n\033HomeComfortInfoNotify.proto\032\033HomeModul" +
       "eComfortInfo.proto\"I\n\025HomeComfortInfoNot" +
       "ify\0220\n\020module_info_list\030\004 \003(\0132\026.HomeModu" +
-      "leComfortInfoB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "leComfortInfoB<\n\031emu.grasscutter.net.pro" +
+      "toB\037HomeComfortInfoNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

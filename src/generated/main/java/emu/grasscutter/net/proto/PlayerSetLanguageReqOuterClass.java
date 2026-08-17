@@ -525,8 +525,9 @@ public final class PlayerSetLanguageReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032PlayerSetLanguageReq.proto\"-\n\024PlayerSe" +
-      "tLanguageReq\022\025\n\rlanguage_type\030\010 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "tLanguageReq\022\025\n\rlanguage_type\030\010 \001(\rB;\n\031e" +
+      "mu.grasscutter.net.protoB\036PlayerSetLangu" +
+      "ageReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

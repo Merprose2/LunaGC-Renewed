@@ -595,8 +595,9 @@ public final class BuyResinRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BuyResinRsp.proto\"1\n\013BuyResinRsp\022\017\n\007re" +
-      "tcode\030\010 \001(\005\022\021\n\tcur_value\030\r \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "tcode\030\010 \001(\005\022\021\n\tcur_value\030\r \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025BuyResinRspOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

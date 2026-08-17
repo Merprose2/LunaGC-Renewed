@@ -595,8 +595,9 @@ public final class JNBKJNOPGPEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JNBKJNOPGPE.proto\"4\n\013JNBKJNOPGPE\022\023\n\013fi" +
-      "nish_time\030\005 \001(\r\022\020\n\010level_id\030\007 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "nish_time\030\005 \001(\r\022\020\n\010level_id\030\007 \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025JNBKJNOPGPEOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

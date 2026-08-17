@@ -1545,7 +1545,8 @@ public final class HomeGroupPlayerInfoOuterClass {
       "\t\022(\n\017profile_picture\030\004 \001(\0132\017.ProfilePict" +
       "ure\022\r\n\005_xuid\030\010 \001(\t\022\026\n\016_xbox_gamertag\030\n \001" +
       "(\t\022\020\n\010nickname\030\014 \001(\t\022\024\n\014player_level\030\r \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB:\n\031emu.grasscutter.net.protoB\035HomeGro" +
+      "upPlayerInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

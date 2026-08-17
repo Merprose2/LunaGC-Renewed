@@ -1364,7 +1364,8 @@ public final class OMBLEGFIBCJOuterClass {
       "HEDHCFPEKM\022!\n\013FMKNLOGFALG\030\005 \001(\0132\014.HHEDHC" +
       "FPEKM\022\023\n\013FEBOHHAFEIG\030\006 \001(\002\022\023\n\013CMMEJLNNHJ" +
       "I\030\007 \001(\002\022\023\n\013MJNILPDFEBL\030\010 \001(\002\022\014\n\004name\030\t \001" +
-      "(\tB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\tB2\n\031emu.grasscutter.net.protoB\025OMBLEGF" +
+      "IBCJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

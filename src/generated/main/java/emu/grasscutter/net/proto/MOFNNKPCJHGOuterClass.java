@@ -644,8 +644,8 @@ public final class MOFNNKPCJHGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MOFNNKPCJHG.proto\"!\n\013MOFNNKPCJHG\022\022\n\nva" +
-      "lue_list\030\001 \003(\005B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "lue_list\030\001 \003(\005B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025MOFNNKPCJHGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

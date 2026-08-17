@@ -595,8 +595,9 @@ public final class AMBGIDGFBPFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AMBGIDGFBPF.proto\"5\n\013AMBGIDGFBPF\022\023\n\013EF" +
-      "NELBEGNJO\030\006 \001(\005\022\021\n\tentity_id\030\t \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "NELBEGNJO\030\006 \001(\005\022\021\n\tentity_id\030\t \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025AMBGIDGFBPFOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

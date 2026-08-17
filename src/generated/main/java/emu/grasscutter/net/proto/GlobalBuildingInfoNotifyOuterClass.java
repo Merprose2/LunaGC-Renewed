@@ -972,8 +972,9 @@ public final class GlobalBuildingInfoNotifyOuterClass {
       "\n\036GlobalBuildingInfoNotify.proto\032\022Buildi" +
       "ngInfo.proto\"f\n\030GlobalBuildingInfoNotify" +
       "\022\023\n\013current_num\030\007 \001(\r\022\017\n\007max_num\030\014 \001(\r\022$" +
-      "\n\rbuilding_list\030\017 \003(\0132\r.BuildingInfoB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\n\rbuilding_list\030\017 \003(\0132\r.BuildingInfoB?\n\031" +
+      "emu.grasscutter.net.protoB\"GlobalBuildin" +
+      "gInfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

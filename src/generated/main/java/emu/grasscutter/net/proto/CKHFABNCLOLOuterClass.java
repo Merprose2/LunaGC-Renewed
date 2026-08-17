@@ -704,8 +704,8 @@ public final class CKHFABNCLOLOuterClass {
       "\n\021CKHFABNCLOL.proto\032\021IGOCLOMNCII.proto\"T" +
       "\n\013CKHFABNCLOL\022\023\n\013FKJBFDGOOPJ\030\001 \001(\r\022\017\n\007re" +
       "tcode\030\r \001(\005\022\037\n\tplay_type\030\016 \001(\0162\014.IGOCLOM" +
-      "NCIIB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "NCIIB2\n\031emu.grasscutter.net.protoB\025CKHFA" +
+      "BNCLOLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

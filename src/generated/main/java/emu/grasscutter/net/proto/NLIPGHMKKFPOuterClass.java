@@ -1296,8 +1296,8 @@ public final class NLIPGHMKKFPOuterClass {
       "CH\030\004 \001(\0132\014.NAKGFDFHPFG\022\023\n\013ILMAKHFHEFC\030\005 " +
       "\001(\010\022\023\n\013COHNFJIALLJ\030\006 \001(\r\022\023\n\013OLEIJGAPKFO\030" +
       "\007 \001(\r\022\023\n\013ACNNMLEMEDK\030\010 \001(\r\022\023\n\013OEEIPMGDEA" +
-      "B\030\t \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "B\030\t \001(\rB2\n\031emu.grasscutter.net.protoB\025NL" +
+      "IPGHMKKFPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

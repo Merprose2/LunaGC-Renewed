@@ -852,8 +852,9 @@ public final class CFMIPPDDPNBOuterClass {
       "\n\021CFMIPPDDPNB.proto\"\207\001\n\013CFMIPPDDPNB\0226\n\016o" +
       "pen_state_map\030\003 \003(\0132\036.CFMIPPDDPNB.OpenSt" +
       "ateMapEntry\022\013\n\003uid\030\r \001(\r\0323\n\021OpenStateMap" +
-      "Entry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "Entry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B2\n" +
+      "\031emu.grasscutter.net.protoB\025CFMIPPDDPNBO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

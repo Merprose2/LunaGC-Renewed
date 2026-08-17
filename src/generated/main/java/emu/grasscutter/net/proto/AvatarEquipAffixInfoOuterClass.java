@@ -588,8 +588,9 @@ public final class AvatarEquipAffixInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032AvatarEquipAffixInfo.proto\"D\n\024AvatarEq" +
       "uipAffixInfo\022\026\n\016equip_affix_id\030\001 \001(\r\022\024\n\014" +
-      "left_cd_time\030\002 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "left_cd_time\030\002 \001(\rB;\n\031emu.grasscutter.ne" +
+      "t.protoB\036AvatarEquipAffixInfoOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

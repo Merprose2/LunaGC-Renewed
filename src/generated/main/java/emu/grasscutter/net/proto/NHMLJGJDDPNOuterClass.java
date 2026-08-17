@@ -730,8 +730,8 @@ public final class NHMLJGJDDPNOuterClass {
       "\n\021NHMLJGJDDPN.proto\032\032CustomGadgetTreeInf" +
       "o.proto\"Q\n\013NHMLJGJDDPN\022\021\n\tentity_id\030\013 \001(" +
       "\r\022/\n\020combination_info\030\014 \001(\0132\025.CustomGadg" +
-      "etTreeInfoB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "etTreeInfoB2\n\031emu.grasscutter.net.protoB" +
+      "\025NHMLJGJDDPNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

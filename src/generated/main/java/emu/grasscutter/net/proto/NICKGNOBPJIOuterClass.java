@@ -1105,8 +1105,9 @@ public final class NICKGNOBPJIOuterClass {
       "\n\021NICKGNOBPJI.proto\032\rGCGDuel.proto\032\024GCGM" +
       "essagePack.proto\"^\n\013NICKGNOBPJI\022\017\n\007retco" +
       "de\030\007 \001(\005\022\026\n\004duel\030\n \001(\0132\010.GCGDuel\022&\n\rmsg_" +
-      "pack_list\030\014 \003(\0132\017.GCGMessagePackB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "pack_list\030\014 \003(\0132\017.GCGMessagePackB2\n\031emu." +
+      "grasscutter.net.protoB\025NICKGNOBPJIOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

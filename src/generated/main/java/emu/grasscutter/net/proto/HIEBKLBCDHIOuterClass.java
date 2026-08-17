@@ -595,8 +595,9 @@ public final class HIEBKLBCDHIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HIEBKLBCDHI.proto\"0\n\013HIEBKLBCDHI\022\020\n\010ev" +
-      "ent_id\030\003 \001(\r\022\017\n\007retcode\030\007 \001(\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ent_id\030\003 \001(\r\022\017\n\007retcode\030\007 \001(\005B2\n\031emu.gra" +
+      "sscutter.net.protoB\025HIEBKLBCDHIOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

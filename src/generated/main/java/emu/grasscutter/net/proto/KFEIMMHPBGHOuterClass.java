@@ -144,8 +144,9 @@ public final class KFEIMMHPBGHOuterClass {
       "FEIMMHPBGH_BEYOND_LEVEL_SETTLE_QUICK_LIK" +
       "E_NONE\020\000\0222\n.KFEIMMHPBGH_BEYOND_LEVEL_SET" +
       "TLE_QUICK_LIKE_ALL\020\001\0228\n4KFEIMMHPBGH_BEYO" +
-      "ND_LEVEL_SETTLE_QUICK_LIKE_SAME_CAMP\020\002B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "ND_LEVEL_SETTLE_QUICK_LIKE_SAME_CAMP\020\002B2" +
+      "\n\031emu.grasscutter.net.protoB\025KFEIMMHPBGH" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -446,8 +446,9 @@ public final class EGKEFINPBBDOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021EGKEFINPBBD.proto\"\r\n\013EGKEFINPBBDB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021EGKEFINPBBD.proto\"\r\n\013EGKEFINPBBDB2\n\031em" +
+      "u.grasscutter.net.protoB\025EGKEFINPBBDOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

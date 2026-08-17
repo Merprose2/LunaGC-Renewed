@@ -997,8 +997,9 @@ public final class TeamEntityInfoOuterClass {
       "tityInfo\0220\n\021team_ability_info\030\001 \001(\0132\025.Ab" +
       "ilitySyncStateInfo\022\031\n\021authority_peer_id\030" +
       "\002 \001(\r\022!\n\013KAHECAKOMLD\030\005 \001(\0132\014.ILFPMCGGMOA" +
-      "\022\026\n\016team_entity_id\030\016 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\022\026\n\016team_entity_id\030\016 \001(\rB5\n\031emu.grasscut" +
+      "ter.net.protoB\030TeamEntityInfoOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

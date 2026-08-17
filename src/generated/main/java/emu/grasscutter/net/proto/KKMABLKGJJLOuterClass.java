@@ -893,8 +893,9 @@ public final class KKMABLKGJJLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KKMABLKGJJL.proto\032\021CJFMLPJFPOF.proto\"E" +
       "\n\013KKMABLKGJJL\022\023\n\013EIJHIMABCJB\030\001 \001(\005\022!\n\013CK" +
-      "JBBBLINEO\030\002 \003(\0132\014.CJFMLPJFPOFB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "JBBBLINEO\030\002 \003(\0132\014.CJFMLPJFPOFB2\n\031emu.gra" +
+      "sscutter.net.protoB\025KKMABLKGJJLOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

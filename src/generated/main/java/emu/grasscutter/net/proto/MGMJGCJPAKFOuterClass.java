@@ -591,8 +591,8 @@ public final class MGMJGCJPAKFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MGMJGCJPAKF.proto\"\'\n\013MGMJGCJPAKF\022\n\n\002id" +
-      "\030\001 \001(\r\022\014\n\004data\030\002 \001(\014B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\030\001 \001(\r\022\014\n\004data\030\002 \001(\014B2\n\031emu.grasscutter." +
+      "net.protoB\025MGMJGCJPAKFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1035,8 +1035,9 @@ public final class OJAMCBIFCNMOuterClass {
       "\n\021OJAMCBIFCNM.proto\032\021AAADGGHGMDA.proto\032\021" +
       "KCFEFCIJAMD.proto\"S\n\013OJAMCBIFCNM\022!\n\013CEIJ" +
       "JHBEPFE\030\001 \003(\0132\014.AAADGGHGMDA\022!\n\013BFKACDGIB" +
-      "AI\030\002 \001(\0132\014.KCFEFCIJAMDB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "AI\030\002 \001(\0132\014.KCFEFCIJAMDB2\n\031emu.grasscutte" +
+      "r.net.protoB\025OJAMCBIFCNMOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

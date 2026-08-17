@@ -746,8 +746,9 @@ public final class UpdatePS4FriendListRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034UpdatePS4FriendListRsp.proto\">\n\026Update" +
       "PS4FriendListRsp\022\017\n\007retcode\030\004 \001(\005\022\023\n\013psn" +
-      "_id_list\030\r \003(\tB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "_id_list\030\r \003(\tB=\n\031emu.grasscutter.net.pr" +
+      "otoB UpdatePS4FriendListRspOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

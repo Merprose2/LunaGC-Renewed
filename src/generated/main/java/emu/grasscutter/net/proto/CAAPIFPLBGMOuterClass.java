@@ -901,8 +901,9 @@ public final class CAAPIFPLBGMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CAAPIFPLBGM.proto\032\021MBFPMIGCFEL.proto\"D" +
       "\n\013CAAPIFPLBGM\022!\n\013ICCBPHBLJCJ\030\014 \003(\0132\014.MBF" +
-      "PMIGCFEL\022\022\n\nplayer_uid\030\017 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "PMIGCFEL\022\022\n\nplayer_uid\030\017 \001(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025CAAPIFPLBGMOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

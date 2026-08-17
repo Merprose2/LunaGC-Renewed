@@ -1328,8 +1328,9 @@ public final class InBattleMechanicusSettleNotifyOuterClass {
       "\022\023\n\013LECPOKMPCPA\030\002 \001(\r\022\022\n\nis_success\030\005 \001(" +
       "\010\022\023\n\013CGAMMIAANMD\030\t \001(\r\022\022\n\nplay_index\030\n \001" +
       "(\r\022\025\n\rscene_time_ms\030\013 \001(\004\022\023\n\013OKLFGDOMEEF" +
-      "\030\r \001(\r\022\020\n\010group_id\030\016 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\030\r \001(\r\022\020\n\010group_id\030\016 \001(\rBE\n\031emu.grasscut" +
+      "ter.net.protoB(InBattleMechanicusSettleN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

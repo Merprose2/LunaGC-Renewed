@@ -1620,7 +1620,8 @@ public final class AAJIAJKPLMDOuterClass {
       "me\030\005 \001(\r\022\023\n\013GGDPEDCNMLI\030\010 \001(\r\022 \n\013NBGOLJN" +
       "EEEC\030\013 \003(\0132\013.Uint32Pair\022 \n\013HDNDFIIPBLN\030\r" +
       " \003(\0132\013.Uint32Pair\022\024\n\014furniture_id\030\017 \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025AAJIAJKPLM" +
+      "DOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

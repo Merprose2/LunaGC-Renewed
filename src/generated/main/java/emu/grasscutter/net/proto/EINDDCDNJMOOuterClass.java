@@ -446,8 +446,9 @@ public final class EINDDCDNJMOOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021EINDDCDNJMO.proto\"\r\n\013EINDDCDNJMOB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021EINDDCDNJMO.proto\"\r\n\013EINDDCDNJMOB2\n\031em" +
+      "u.grasscutter.net.protoB\025EINDDCDNJMOOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

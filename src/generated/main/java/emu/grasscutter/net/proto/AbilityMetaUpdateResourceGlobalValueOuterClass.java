@@ -21,12 +21,12 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
     /**
      * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue> 
+    java.util.List<emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue> 
         getUpdateValueListList();
     /**
      * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
      */
-    emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue getUpdateValueList(int index);
+    emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue getUpdateValueList(int index);
     /**
      * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
      */
@@ -34,12 +34,12 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
     /**
      * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValueOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValueOrBuilder> 
         getUpdateValueListOrBuilderList();
     /**
      * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
      */
-    emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValueOrBuilder getUpdateValueListOrBuilder(
+    emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValueOrBuilder getUpdateValueListOrBuilder(
         int index);
   }
   /**
@@ -91,11 +91,11 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
               break;
             case 50: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                UpdateValueList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue>();
+                UpdateValueList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue>();
                 mutable_bitField0_ |= 0x00000001;
               }
               UpdateValueList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -134,19 +134,19 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
     }
 
     public static final int _UPDATE_VALUE_LIST_FIELD_NUMBER = 6;
-    private java.util.List<emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue> UpdateValueList_;
+    private java.util.List<emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue> UpdateValueList_;
     /**
      * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue> getUpdateValueListList() {
+    public java.util.List<emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue> getUpdateValueListList() {
       return UpdateValueList_;
     }
     /**
      * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValueOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValueOrBuilder> 
         getUpdateValueListOrBuilderList() {
       return UpdateValueList_;
     }
@@ -161,14 +161,14 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
      * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue getUpdateValueList(int index) {
+    public emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue getUpdateValueList(int index) {
       return UpdateValueList_.get(index);
     }
     /**
      * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValueOrBuilder getUpdateValueListOrBuilder(
+    public emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValueOrBuilder getUpdateValueListOrBuilder(
         int index) {
       return UpdateValueList_.get(index);
     }
@@ -515,22 +515,22 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue> UpdateValueList_ =
+      private java.util.List<emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue> UpdateValueList_ =
         java.util.Collections.emptyList();
       private void ensureUpdateValueListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          UpdateValueList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue>(UpdateValueList_);
+          UpdateValueList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue>(UpdateValueList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue, emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue.Builder, emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValueOrBuilder> UpdateValueListBuilder_;
+          emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue, emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue.Builder, emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValueOrBuilder> UpdateValueListBuilder_;
 
       /**
        * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue> getUpdateValueListList() {
+      public java.util.List<emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue> getUpdateValueListList() {
         if (UpdateValueListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(UpdateValueList_);
         } else {
@@ -550,7 +550,7 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
       /**
        * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
        */
-      public emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue getUpdateValueList(int index) {
+      public emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue getUpdateValueList(int index) {
         if (UpdateValueListBuilder_ == null) {
           return UpdateValueList_.get(index);
         } else {
@@ -561,7 +561,7 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
        * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
        */
       public Builder setUpdateValueList(
-          int index, emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue value) {
+          int index, emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue value) {
         if (UpdateValueListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -578,7 +578,7 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
        * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
        */
       public Builder setUpdateValueList(
-          int index, emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue.Builder builderForValue) {
         if (UpdateValueListBuilder_ == null) {
           ensureUpdateValueListIsMutable();
           UpdateValueList_.set(index, builderForValue.build());
@@ -591,7 +591,7 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
       /**
        * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
        */
-      public Builder addUpdateValueList(emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue value) {
+      public Builder addUpdateValueList(emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue value) {
         if (UpdateValueListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -608,7 +608,7 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
        * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
        */
       public Builder addUpdateValueList(
-          int index, emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue value) {
+          int index, emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue value) {
         if (UpdateValueListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -625,7 +625,7 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
        * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
        */
       public Builder addUpdateValueList(
-          emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue.Builder builderForValue) {
+          emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue.Builder builderForValue) {
         if (UpdateValueListBuilder_ == null) {
           ensureUpdateValueListIsMutable();
           UpdateValueList_.add(builderForValue.build());
@@ -639,7 +639,7 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
        * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
        */
       public Builder addUpdateValueList(
-          int index, emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue.Builder builderForValue) {
         if (UpdateValueListBuilder_ == null) {
           ensureUpdateValueListIsMutable();
           UpdateValueList_.add(index, builderForValue.build());
@@ -653,7 +653,7 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
        * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
        */
       public Builder addAllUpdateValueList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue> values) {
         if (UpdateValueListBuilder_ == null) {
           ensureUpdateValueListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -693,14 +693,14 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
       /**
        * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
        */
-      public emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue.Builder getUpdateValueListBuilder(
+      public emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue.Builder getUpdateValueListBuilder(
           int index) {
         return getUpdateValueListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
        */
-      public emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValueOrBuilder getUpdateValueListOrBuilder(
+      public emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValueOrBuilder getUpdateValueListOrBuilder(
           int index) {
         if (UpdateValueListBuilder_ == null) {
           return UpdateValueList_.get(index);  } else {
@@ -710,7 +710,7 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
       /**
        * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValueOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValueOrBuilder> 
            getUpdateValueListOrBuilderList() {
         if (UpdateValueListBuilder_ != null) {
           return UpdateValueListBuilder_.getMessageOrBuilderList();
@@ -721,31 +721,31 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
       /**
        * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
        */
-      public emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue.Builder addUpdateValueListBuilder() {
+      public emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue.Builder addUpdateValueListBuilder() {
         return getUpdateValueListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue.getDefaultInstance());
+            emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue.getDefaultInstance());
       }
       /**
        * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
        */
-      public emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue.Builder addUpdateValueListBuilder(
+      public emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue.Builder addUpdateValueListBuilder(
           int index) {
         return getUpdateValueListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue.getDefaultInstance());
+            index, emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue.getDefaultInstance());
       }
       /**
        * <code>repeated ._AbilityUpdateResourceGlobalValue _update_value_list = 6;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue.Builder> 
            getUpdateValueListBuilderList() {
         return getUpdateValueListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue, emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue.Builder, emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValueOrBuilder> 
+          emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue, emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue.Builder, emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValueOrBuilder> 
           getUpdateValueListFieldBuilder() {
         if (UpdateValueListBuilder_ == null) {
           UpdateValueListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue, emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValue.Builder, emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue._AbilityUpdateResourceGlobalValueOrBuilder>(
+              emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue, emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValue.Builder, emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass._AbilityUpdateResourceGlobalValueOrBuilder>(
                   UpdateValueList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -825,13 +825,14 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
       "roto\032\'_AbilityUpdateResourceGlobalValue." +
       "proto\"f\n$AbilityMetaUpdateResourceGlobal" +
       "Value\022>\n\022_update_value_list\030\006 \003(\0132\"._Abi" +
-      "lityUpdateResourceGlobalValueB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "lityUpdateResourceGlobalValueBK\n\031emu.gra" +
+      "sscutter.net.protoB.AbilityMetaUpdateRes" +
+      "ourceGlobalValueOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue.getDescriptor(),
+          emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass.getDescriptor(),
         });
     internal_static_AbilityMetaUpdateResourceGlobalValue_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -839,7 +840,7 @@ public final class AbilityMetaUpdateResourceGlobalValueOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AbilityMetaUpdateResourceGlobalValue_descriptor,
         new java.lang.String[] { "UpdateValueList", });
-    emu.grasscutter.net.proto.AbilityUpdateResourceGlobalValue.getDescriptor();
+    emu.grasscutter.net.proto._AbilityUpdateResourceGlobalValueOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -589,8 +589,9 @@ public final class CGDDFDIHAKDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CGDDFDIHAKD.proto\"*\n\013CGDDFDIHAKD\022\014\n\004ty" +
-      "pe\030\001 \001(\005\022\r\n\005value\030\002 \001(\002B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "pe\030\001 \001(\005\022\r\n\005value\030\002 \001(\002B2\n\031emu.grasscutt" +
+      "er.net.protoB\025CGDDFDIHAKDOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

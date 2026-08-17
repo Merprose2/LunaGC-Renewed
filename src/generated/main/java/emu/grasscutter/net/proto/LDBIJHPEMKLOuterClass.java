@@ -893,8 +893,9 @@ public final class LDBIJHPEMKLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LDBIJHPEMKL.proto\032\017ItemParam.proto\"C\n\013" +
       "LDBIJHPEMKL\022\023\n\013MFNJLBLKIFJ\030\005 \001(\r\022\037\n\013EDJE" +
-      "PHLCAFD\030\014 \003(\0132\n.ItemParamB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "PHLCAFD\030\014 \003(\0132\n.ItemParamB2\n\031emu.grasscu" +
+      "tter.net.protoB\025LDBIJHPEMKLOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

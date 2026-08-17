@@ -833,7 +833,9 @@ public final class HomeAvatarTalkFinishInfoNotifyOuterClass {
       "HomeAvatarTalkFinishInfo.proto\"Z\n\036HomeAv" +
       "atarTalkFinishInfoNotify\0228\n\025avatar_talk_" +
       "info_list\030\013 \003(\0132\031.HomeAvatarTalkFinishIn" +
-      "foB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "foBE\n\031emu.grasscutter.net.protoB(HomeAva" +
+      "tarTalkFinishInfoNotifyOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

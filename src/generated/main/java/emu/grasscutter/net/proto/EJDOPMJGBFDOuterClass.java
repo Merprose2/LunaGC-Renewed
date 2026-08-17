@@ -722,8 +722,9 @@ public final class EJDOPMJGBFDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EJDOPMJGBFD.proto\"8\n\013EJDOPMJGBFD\022\030\n\020av" +
-      "atar_guid_list\030\t \003(\004\022\017\n\007retcode\030\r \001(\005B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "atar_guid_list\030\t \003(\004\022\017\n\007retcode\030\r \001(\005B2\n" +
+      "\031emu.grasscutter.net.protoB\025EJDOPMJGBFDO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

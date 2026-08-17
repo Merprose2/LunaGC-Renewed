@@ -986,8 +986,9 @@ public final class CHNGPHLEKJPOuterClass {
       "evel\030\001 \001(\r\022\025\n\rpromote_level\030\002 \001(\r\022-\n\taff" +
       "ix_map\030\003 \003(\0132\032.CHNGPHLEKJP.AffixMapEntry" +
       "\022\023\n\013OGKCBEGGBHF\030\004 \001(\010\032/\n\rAffixMapEntry\022\013" +
-      "\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B2\n\031emu.gr" +
+      "asscutter.net.protoB\025CHNGPHLEKJPOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

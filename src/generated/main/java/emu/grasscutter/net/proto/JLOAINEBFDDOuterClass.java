@@ -1467,8 +1467,9 @@ public final class JLOAINEBFDDOuterClass {
       "\nbegin_time\030\006 \001(\017\022\023\n\013OOLAFMGLDCD\030\007 \001(\r\022\021" +
       "\n\tis_single\030\t \001(\010\022\r\n\005score\030\013 \001(\r\022\022\n\nstag" +
       "e_type\030\014 \001(\r\022\020\n\010level_id\030\r \001(\r\022&\n\020settle" +
-      "_info_list\030\016 \003(\0132\014.IDAPPJILKOJB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "_info_list\030\016 \003(\0132\014.IDAPPJILKOJB2\n\031emu.gr" +
+      "asscutter.net.protoB\025JLOAINEBFDDOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -4812,8 +4812,8 @@ public final class BreakoutSnapShotOuterClass {
       "utPhysicalObject\022\025\n\rid_index_list\030\023 \003(\r\022" +
       "\034\n\024raw_client_game_time\030\024 \001(\005\022\023\n\013CCACMAN" +
       "PIGM\030\025 \003(\005\022!\n\013IMNFADAAFBI\030\026 \001(\0132\014.GEGHKD" +
-      "DPOHCB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "DPOHCB7\n\031emu.grasscutter.net.protoB\032Brea" +
+      "koutSnapShotOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

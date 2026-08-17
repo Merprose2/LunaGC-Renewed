@@ -725,8 +725,9 @@ public final class UnlockedFurnitureSuiteDataNotifyOuterClass {
       "\n&UnlockedFurnitureSuiteDataNotify.proto" +
       "\"\\\n UnlockedFurnitureSuiteDataNotify\022\016\n\006" +
       "is_all\030\004 \001(\010\022(\n UnlockedFurnitureSuiteDa" +
-      "taNotify\030\007 \003(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "taNotify\030\007 \003(\rBG\n\031emu.grasscutter.net.pr" +
+      "otoB*UnlockedFurnitureSuiteDataNotifyOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

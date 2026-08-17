@@ -33,11 +33,11 @@ public final class POODJGCIHIEOuterClass {
      * <code>._EffigyChallengeV5SocialInfo effigy_challenge_v_5_social_info = 1848;</code>
      * @return The effigyChallengeV5SocialInfo.
      */
-    emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo getEffigyChallengeV5SocialInfo();
+    emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo getEffigyChallengeV5SocialInfo();
     /**
      * <code>._EffigyChallengeV5SocialInfo effigy_challenge_v_5_social_info = 1848;</code>
      */
-    emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfoOrBuilder getEffigyChallengeV5SocialInfoOrBuilder();
+    emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfoOrBuilder getEffigyChallengeV5SocialInfoOrBuilder();
 
     public emu.grasscutter.net.proto.POODJGCIHIEOuterClass.POODJGCIHIE.ValueCase getValueCase();
   }
@@ -92,14 +92,14 @@ public final class POODJGCIHIEOuterClass {
               break;
             }
             case 14786: {
-              emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo.Builder subBuilder = null;
               if (valueCase_ == 1848) {
-                subBuilder = ((emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo) value_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo) value_).toBuilder();
               }
               value_ =
-                  input.readMessage(emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo) value_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo) value_);
                 value_ = subBuilder.buildPartial();
               }
               valueCase_ = 1848;
@@ -201,21 +201,21 @@ public final class POODJGCIHIEOuterClass {
      * @return The effigyChallengeV5SocialInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo getEffigyChallengeV5SocialInfo() {
+    public emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo getEffigyChallengeV5SocialInfo() {
       if (valueCase_ == 1848) {
-         return (emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo) value_;
+         return (emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo) value_;
       }
-      return emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo.getDefaultInstance();
     }
     /**
      * <code>._EffigyChallengeV5SocialInfo effigy_challenge_v_5_social_info = 1848;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfoOrBuilder getEffigyChallengeV5SocialInfoOrBuilder() {
+    public emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfoOrBuilder getEffigyChallengeV5SocialInfoOrBuilder() {
       if (valueCase_ == 1848) {
-         return (emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo) value_;
+         return (emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo) value_;
       }
-      return emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -236,7 +236,7 @@ public final class POODJGCIHIEOuterClass {
         output.writeBool(3, aPBIKEACDGL_);
       }
       if (valueCase_ == 1848) {
-        output.writeMessage(1848, (emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo) value_);
+        output.writeMessage(1848, (emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo) value_);
       }
       unknownFields.writeTo(output);
     }
@@ -253,7 +253,7 @@ public final class POODJGCIHIEOuterClass {
       }
       if (valueCase_ == 1848) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1848, (emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo) value_);
+          .computeMessageSize(1848, (emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo) value_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -611,7 +611,7 @@ public final class POODJGCIHIEOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo, emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo.Builder, emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfoOrBuilder> effigyChallengeV5SocialInfoBuilder_;
+          emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo, emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo.Builder, emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfoOrBuilder> effigyChallengeV5SocialInfoBuilder_;
       /**
        * <code>._EffigyChallengeV5SocialInfo effigy_challenge_v_5_social_info = 1848;</code>
        * @return Whether the effigyChallengeV5SocialInfo field is set.
@@ -625,23 +625,23 @@ public final class POODJGCIHIEOuterClass {
        * @return The effigyChallengeV5SocialInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo getEffigyChallengeV5SocialInfo() {
+      public emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo getEffigyChallengeV5SocialInfo() {
         if (effigyChallengeV5SocialInfoBuilder_ == null) {
           if (valueCase_ == 1848) {
-            return (emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo) value_;
+            return (emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo) value_;
           }
-          return emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo.getDefaultInstance();
         } else {
           if (valueCase_ == 1848) {
             return effigyChallengeV5SocialInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._EffigyChallengeV5SocialInfo effigy_challenge_v_5_social_info = 1848;</code>
        */
-      public Builder setEffigyChallengeV5SocialInfo(emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo value) {
+      public Builder setEffigyChallengeV5SocialInfo(emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo value) {
         if (effigyChallengeV5SocialInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -658,7 +658,7 @@ public final class POODJGCIHIEOuterClass {
        * <code>._EffigyChallengeV5SocialInfo effigy_challenge_v_5_social_info = 1848;</code>
        */
       public Builder setEffigyChallengeV5SocialInfo(
-          emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo.Builder builderForValue) {
         if (effigyChallengeV5SocialInfoBuilder_ == null) {
           value_ = builderForValue.build();
           onChanged();
@@ -671,11 +671,11 @@ public final class POODJGCIHIEOuterClass {
       /**
        * <code>._EffigyChallengeV5SocialInfo effigy_challenge_v_5_social_info = 1848;</code>
        */
-      public Builder mergeEffigyChallengeV5SocialInfo(emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo value) {
+      public Builder mergeEffigyChallengeV5SocialInfo(emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo value) {
         if (effigyChallengeV5SocialInfoBuilder_ == null) {
           if (valueCase_ == 1848 &&
-              value_ != emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo.getDefaultInstance()) {
-            value_ = emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo.newBuilder((emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo) value_)
+              value_ != emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo.getDefaultInstance()) {
+            value_ = emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo.newBuilder((emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo) value_)
                 .mergeFrom(value).buildPartial();
           } else {
             value_ = value;
@@ -712,36 +712,36 @@ public final class POODJGCIHIEOuterClass {
       /**
        * <code>._EffigyChallengeV5SocialInfo effigy_challenge_v_5_social_info = 1848;</code>
        */
-      public emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo.Builder getEffigyChallengeV5SocialInfoBuilder() {
+      public emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo.Builder getEffigyChallengeV5SocialInfoBuilder() {
         return getEffigyChallengeV5SocialInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._EffigyChallengeV5SocialInfo effigy_challenge_v_5_social_info = 1848;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfoOrBuilder getEffigyChallengeV5SocialInfoOrBuilder() {
+      public emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfoOrBuilder getEffigyChallengeV5SocialInfoOrBuilder() {
         if ((valueCase_ == 1848) && (effigyChallengeV5SocialInfoBuilder_ != null)) {
           return effigyChallengeV5SocialInfoBuilder_.getMessageOrBuilder();
         } else {
           if (valueCase_ == 1848) {
-            return (emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo) value_;
+            return (emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo) value_;
           }
-          return emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._EffigyChallengeV5SocialInfo effigy_challenge_v_5_social_info = 1848;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo, emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo.Builder, emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfoOrBuilder> 
+          emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo, emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo.Builder, emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfoOrBuilder> 
           getEffigyChallengeV5SocialInfoFieldBuilder() {
         if (effigyChallengeV5SocialInfoBuilder_ == null) {
           if (!(valueCase_ == 1848)) {
-            value_ = emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo.getDefaultInstance();
+            value_ = emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo.getDefaultInstance();
           }
           effigyChallengeV5SocialInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo, emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo.Builder, emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo._EffigyChallengeV5SocialInfo) value_,
+              emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo, emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo.Builder, emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass._EffigyChallengeV5SocialInfo) value_,
                   getParentForChildren(),
                   isClean());
           value_ = null;
@@ -821,13 +821,13 @@ public final class POODJGCIHIEOuterClass {
       "ocialInfo.proto\"w\n\013POODJGCIHIE\022\023\n\013APBIKE" +
       "ACDGL\030\003 \001(\010\022J\n effigy_challenge_v_5_soci" +
       "al_info\030\270\016 \001(\0132\035._EffigyChallengeV5Socia" +
-      "lInfoH\000B\007\n\005valueB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "lInfoH\000B\007\n\005valueB2\n\031emu.grasscutter.net." +
+      "protoB\025POODJGCIHIEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo.getDescriptor(),
+          emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass.getDescriptor(),
         });
     internal_static_POODJGCIHIE_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -835,7 +835,7 @@ public final class POODJGCIHIEOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_POODJGCIHIE_descriptor,
         new java.lang.String[] { "APBIKEACDGL", "EffigyChallengeV5SocialInfo", "Value", });
-    emu.grasscutter.net.proto.EffigyChallengeV5SocialInfo.getDescriptor();
+    emu.grasscutter.net.proto._EffigyChallengeV5SocialInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

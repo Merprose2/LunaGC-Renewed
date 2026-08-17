@@ -724,8 +724,9 @@ public final class BigTalentPointConvertReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036BigTalentPointConvertReq.proto\"G\n\030BigT" +
       "alentPointConvertReq\022\026\n\016item_guid_list\030\001" +
-      " \003(\004\022\023\n\013avatar_guid\030\010 \001(\004B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      " \003(\004\022\023\n\013avatar_guid\030\010 \001(\004B?\n\031emu.grasscu" +
+      "tter.net.protoB\"BigTalentPointConvertReq" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

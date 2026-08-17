@@ -704,8 +704,8 @@ public final class JHBIOHDBBIFOuterClass {
       "\n\021JHBIOHDBBIF.proto\032\021NEFLDGLEOFL.proto\"W" +
       "\n\013JHBIOHDBBIF\022\020\n\010coin_num\030\002 \001(\r\022\023\n\013GJJLC" +
       "HKAHBH\030\014 \001(\r\022!\n\013MKMDPBIMLPB\030\016 \001(\0162\014.NEFL" +
-      "DGLEOFLB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "DGLEOFLB2\n\031emu.grasscutter.net.protoB\025JH" +
+      "BIOHDBBIFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

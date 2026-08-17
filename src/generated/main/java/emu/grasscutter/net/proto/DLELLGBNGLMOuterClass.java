@@ -723,8 +723,9 @@ public final class DLELLGBNGLMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DLELLGBNGLM.proto\"7\n\013DLELLGBNGLM\022\023\n\013NK" +
-      "DNGHJJJOF\030\006 \003(\r\022\023\n\013HHPCPNFLOGJ\030\n \001(\010B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "DNGHJJJOF\030\006 \003(\r\022\023\n\013HHPCPNFLOGJ\030\n \001(\010B2\n\031" +
+      "emu.grasscutter.net.protoB\025DLELLGBNGLMOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1157,8 +1157,9 @@ public final class NAGAJBEOMMBOuterClass {
       "\001\n\013NAGAJBEOMMB\022!\n\013_level_info\030\001 \001(\0132\014.OA" +
       "PPEIMONNO\022\023\n\013KJIEMNGDDLE\030\002 \001(\004\022\023\n\013BFGODH" +
       "BBFPG\030\003 \001(\003\022\023\n\013DECPJNECLON\030\004 \001(\010\022\023\n\013ALJF" +
-      "JEFHGAE\030\005 \001(\010\022\023\n\013MLMKKNPJDNG\030\006 \003(\tB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "JEFHGAE\030\005 \001(\010\022\023\n\013MLMKKNPJDNG\030\006 \003(\tB2\n\031em" +
+      "u.grasscutter.net.protoB\025NAGAJBEOMMBOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

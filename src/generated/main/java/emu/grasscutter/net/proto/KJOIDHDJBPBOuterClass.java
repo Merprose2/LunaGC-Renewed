@@ -734,7 +734,8 @@ public final class KJOIDHDJBPBOuterClass {
       "OFHKLJEENFK.proto\"h\n\013KJOIDHDJBPB\022!\n\013CHCE" +
       "CLJJEJB\030\004 \001(\0162\014.OFHKLJEENFK\022\023\n\013MOFJJIBHH" +
       "FI\030\006 \001(\r\022!\n\013KCOKAMJPLPO\030\010 \001(\0162\014.JKAKKIJK" +
-      "EJJB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "EJJB2\n\031emu.grasscutter.net.protoB\025KJOIDH" +
+      "DJBPBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

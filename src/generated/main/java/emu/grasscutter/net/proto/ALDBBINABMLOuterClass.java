@@ -658,8 +658,8 @@ public final class ALDBBINABMLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ALDBBINABML.proto\"J\n\013ALDBBINABML\022\023\n\013GN" +
       "LECNECFGH\030\001 \001(\r\022\021\n\tcur_level\030\010 \001(\r\022\023\n\013OJ" +
-      "LKNDJJHMA\030\014 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "LKNDJJHMA\030\014 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025ALDBBINABMLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1153,8 +1153,8 @@ public final class GPOFMCENFPCOuterClass {
       "OKDCIGCFP\022!\n\013ECFNJBNPGGC\030\003 \001(\0162\014.JEOKDCI" +
       "GCFP\022\023\n\013IAICFLAHHMF\030\004 \001(\002\022\023\n\013ALKHPPBNFEM" +
       "\030\005 \001(\010\022\034\n\006action\030\006 \001(\0132\014.EBKGIIBHJMD\022\024\n\013" +
-      "MDOHOFFLHHI\030\351\007 \001(\010B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "MDOHOFFLHHI\030\351\007 \001(\010B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025GPOFMCENFPCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

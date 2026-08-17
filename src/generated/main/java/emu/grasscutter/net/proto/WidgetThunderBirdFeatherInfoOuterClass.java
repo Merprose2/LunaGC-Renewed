@@ -645,8 +645,9 @@ public final class WidgetThunderBirdFeatherInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"WidgetThunderBirdFeatherInfo.proto\"6\n\034" +
       "WidgetThunderBirdFeatherInfo\022\026\n\016entity_i" +
-      "d_list\030\003 \003(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "d_list\030\003 \003(\rBC\n\031emu.grasscutter.net.prot" +
+      "oB&WidgetThunderBirdFeatherInfoOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

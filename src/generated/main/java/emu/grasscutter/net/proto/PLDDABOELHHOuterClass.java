@@ -652,8 +652,9 @@ public final class PLDDABOELHHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PLDDABOELHH.proto\"*\n\013PLDDABOELHH\022\033\n\023ch" +
-      "aracter_card_list\030\017 \003(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "aracter_card_list\030\017 \003(\rB2\n\031emu.grasscutt" +
+      "er.net.protoB\025PLDDABOELHHOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

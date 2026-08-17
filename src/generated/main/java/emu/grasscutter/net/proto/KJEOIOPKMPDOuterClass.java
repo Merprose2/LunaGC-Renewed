@@ -446,8 +446,9 @@ public final class KJEOIOPKMPDOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021KJEOIOPKMPD.proto\"\r\n\013KJEOIOPKMPDB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021KJEOIOPKMPD.proto\"\r\n\013KJEOIOPKMPDB2\n\031em" +
+      "u.grasscutter.net.protoB\025KJEOIOPKMPDOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

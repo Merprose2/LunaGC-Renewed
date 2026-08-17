@@ -838,8 +838,9 @@ public final class EvtAvatarUpdateFocusNotifyOuterClass {
       "ardType.proto\032\014Vector.proto\"s\n\032EvtAvatar" +
       "UpdateFocusNotify\022\"\n\014forward_type\030\003 \001(\0162" +
       "\014.ForwardType\022\021\n\tentity_id\030\013 \001(\r\022\036\n\rfocu" +
-      "s_forward\030\017 \001(\0132\007.VectorB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "s_forward\030\017 \001(\0132\007.VectorBA\n\031emu.grasscut" +
+      "ter.net.protoB$EvtAvatarUpdateFocusNotif" +
+      "yOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

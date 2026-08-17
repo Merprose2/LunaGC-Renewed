@@ -1916,8 +1916,8 @@ public final class DBHFFOAFMIAOuterClass {
       "POM\030\002 \003(\0132\014.PGDMAIHKGFO\022\023\n\013NBMKHOBIKCG\030\003" +
       " \001(\010\022!\n\013DHHGOLDILHD\030\004 \003(\0132\014.PGDMAIHKGFO\022" +
       "\023\n\013DCEFFFIILFP\030\005 \001(\010\022!\n\013DPNFECCOGKM\030\006 \003(" +
-      "\0132\014.PGDMAIHKGFOB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\0132\014.PGDMAIHKGFOB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025DBHFFOAFMIAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -525,8 +525,8 @@ public final class GOKFGFLFHBPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GOKFGFLFHBP.proto\"\037\n\013GOKFGFLFHBP\022\020\n\010le" +
-      "vel_id\030\t \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "vel_id\030\t \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025GOKFGFLFHBPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

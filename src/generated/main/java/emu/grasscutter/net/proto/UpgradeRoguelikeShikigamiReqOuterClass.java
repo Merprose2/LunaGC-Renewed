@@ -597,7 +597,8 @@ public final class UpgradeRoguelikeShikigamiReqOuterClass {
       "\n\"UpgradeRoguelikeShikigamiReq.proto\"Q\n\034" +
       "UpgradeRoguelikeShikigamiReq\022\032\n\022shikigam" +
       "i_group_id\030\001 \001(\r\022\025\n\rupgrade_level\030\006 \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "C\n\031emu.grasscutter.net.protoB&UpgradeRog" +
+      "uelikeShikigamiReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

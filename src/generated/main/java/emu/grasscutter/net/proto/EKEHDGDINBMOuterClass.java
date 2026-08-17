@@ -666,8 +666,8 @@ public final class EKEHDGDINBMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EKEHDGDINBM.proto\"L\n\013EKEHDGDINBM\022\023\n\013KM" +
       "DOFBPMGAI\030\007 \001(\r\022\023\n\013FFKKKBEDKEC\030\t \001(\r\022\023\n\013" +
-      "NAEJHDNGGEE\030\016 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "NAEJHDNGGEE\030\016 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025EKEHDGDINBMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

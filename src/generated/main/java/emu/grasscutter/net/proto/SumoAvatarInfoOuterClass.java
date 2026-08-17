@@ -589,8 +589,9 @@ public final class SumoAvatarInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\024SumoAvatarInfo.proto\"5\n\016SumoAvatarInfo" +
-      "\022\020\n\010is_trial\030\005 \001(\010\022\021\n\tavatar_id\030\007 \001(\004B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\022\020\n\010is_trial\030\005 \001(\010\022\021\n\tavatar_id\030\007 \001(\004B5\n" +
+      "\031emu.grasscutter.net.protoB\030SumoAvatarIn" +
+      "foOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

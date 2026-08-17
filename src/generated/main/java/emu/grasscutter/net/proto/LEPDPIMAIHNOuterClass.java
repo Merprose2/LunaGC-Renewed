@@ -937,8 +937,8 @@ public final class LEPDPIMAIHNOuterClass {
       "\001\n\013LEPDPIMAIHN\022\024\n\013OGEJKFNFEMF\030\365\003 \001(\r\022\024\n\013" +
       "DFPAHNMMEFM\030\366\003 \001(\002\022\024\n\013EEJBIDKGNLA\030\367\003 \001(\010" +
       "\022\024\n\013NHLFGPDMLLJ\030\370\003 \001(\010\022\"\n\013BIAGBFDDLAG\030\371\003" +
-      " \001(\0132\014.ELCEHBGKMMJB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      " \001(\0132\014.ELCEHBGKMMJB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025LEPDPIMAIHNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -3710,8 +3710,9 @@ public final class GetPlayerTokenReqOuterClass {
       "\n\006key_id\030\314\004 \001(\r\022\024\n\013HMFHCPIKGCO\030\326\005 \001(\r\022\030\n" +
       "\017client_rand_key\030\244\007 \001(\t\022\016\n\005_xuid\030\273\007 \001(\t\022" +
       "\025\n\014_gate_ticket\030\332\007 \001(\t\022\024\n\013KONDBANCCAH\030\365\n" +
-      " \001(\t\022\024\n\013DMEDLLNPFJK\030\352\013 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      " \001(\t\022\024\n\013DMEDLLNPFJK\030\352\013 \001(\rB8\n\031emu.grassc" +
+      "utter.net.protoB\033GetPlayerTokenReqOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

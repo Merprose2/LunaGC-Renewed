@@ -596,8 +596,9 @@ public final class StartBuoyantCombatGalleryReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"StartBuoyantCombatGalleryReq.proto\"I\n\034" +
       "StartBuoyantCombatGalleryReq\022\025\n\rgallery_" +
-      "level\030\006 \001(\r\022\022\n\ngallery_id\030\007 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "level\030\006 \001(\r\022\022\n\ngallery_id\030\007 \001(\rBC\n\031emu.g" +
+      "rasscutter.net.protoB&StartBuoyantCombat" +
+      "GalleryReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

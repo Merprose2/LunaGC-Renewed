@@ -598,8 +598,8 @@ public final class PlayerCookArgsRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027PlayerCookArgsRsp.proto\"=\n\021PlayerCookA" +
       "rgsRsp\022\027\n\017qte_range_ratio\030\001 \001(\002\022\017\n\007retco" +
-      "de\030\013 \001(\005B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "de\030\013 \001(\005B8\n\031emu.grasscutter.net.protoB\033P" +
+      "layerCookArgsRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

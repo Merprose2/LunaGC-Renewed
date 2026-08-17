@@ -949,8 +949,8 @@ public final class MFIKENOPMKCOuterClass {
       "roup_id\030\001 \001(\005\022\023\n\013DOGLJKBLACH\030\002 \001(\010\022\n\n\002cd" +
       "\030\003 \001(\002\022\023\n\013KNLPJCFIMKH\030\004 \001(\002\022\023\n\013FEMJJLCGI" +
       "JP\030\005 \001(\002\022\023\n\013IAOENLAJAGP\030\006 \001(\002\022\022\n\nskill_t" +
-      "ype\030\007 \001(\005B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "ype\030\007 \001(\005B2\n\031emu.grasscutter.net.protoB\025" +
+      "MFIKENOPMKCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

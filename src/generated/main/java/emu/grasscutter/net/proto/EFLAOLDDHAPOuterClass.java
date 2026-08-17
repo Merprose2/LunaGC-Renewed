@@ -33,7 +33,7 @@ public final class EFLAOLDDHAPOuterClass {
      * <code>._BeyondExpressionInfo.LPGEIAEOHPI IKEMIHBHMOI = 13;</code>
      * @return The iKEMIHBHMOI.
      */
-    emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI getIKEMIHBHMOI();
+    emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI getIKEMIHBHMOI();
   }
   /**
    * <pre>
@@ -152,10 +152,10 @@ public final class EFLAOLDDHAPOuterClass {
      * <code>._BeyondExpressionInfo.LPGEIAEOHPI IKEMIHBHMOI = 13;</code>
      * @return The iKEMIHBHMOI.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI getIKEMIHBHMOI() {
+    @java.lang.Override public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI getIKEMIHBHMOI() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI result = emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI.valueOf(iKEMIHBHMOI_);
-      return result == null ? emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI result = emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI.valueOf(iKEMIHBHMOI_);
+      return result == null ? emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI.UNRECOGNIZED : result;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -175,7 +175,7 @@ public final class EFLAOLDDHAPOuterClass {
       if (retcode_ != 0) {
         output.writeInt32(9, retcode_);
       }
-      if (iKEMIHBHMOI_ != emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI.LPGEIAEOHPI_NONE.getNumber()) {
+      if (iKEMIHBHMOI_ != emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI.LPGEIAEOHPI_NONE.getNumber()) {
         output.writeEnum(13, iKEMIHBHMOI_);
       }
       unknownFields.writeTo(output);
@@ -191,7 +191,7 @@ public final class EFLAOLDDHAPOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(9, retcode_);
       }
-      if (iKEMIHBHMOI_ != emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI.LPGEIAEOHPI_NONE.getNumber()) {
+      if (iKEMIHBHMOI_ != emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI.LPGEIAEOHPI_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(13, iKEMIHBHMOI_);
       }
@@ -535,17 +535,17 @@ public final class EFLAOLDDHAPOuterClass {
        * @return The iKEMIHBHMOI.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI getIKEMIHBHMOI() {
+      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI getIKEMIHBHMOI() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI result = emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI.valueOf(iKEMIHBHMOI_);
-        return result == null ? emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI result = emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI.valueOf(iKEMIHBHMOI_);
+        return result == null ? emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI.UNRECOGNIZED : result;
       }
       /**
        * <code>._BeyondExpressionInfo.LPGEIAEOHPI IKEMIHBHMOI = 13;</code>
        * @param value The iKEMIHBHMOI to set.
        * @return This builder for chaining.
        */
-      public Builder setIKEMIHBHMOI(emu.grasscutter.net.proto.BeyondExpressionInfo._BeyondExpressionInfo.LPGEIAEOHPI value) {
+      public Builder setIKEMIHBHMOI(emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.LPGEIAEOHPI value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -634,13 +634,13 @@ public final class EFLAOLDDHAPOuterClass {
       "\n\021EFLAOLDDHAP.proto\032\033_BeyondExpressionIn" +
       "fo.proto\"W\n\013EFLAOLDDHAP\022\017\n\007retcode\030\t \001(\005" +
       "\0227\n\013IKEMIHBHMOI\030\r \001(\0162\"._BeyondExpressio" +
-      "nInfo.LPGEIAEOHPIB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "nInfo.LPGEIAEOHPIB2\n\031emu.grasscutter.net" +
+      ".protoB\025EFLAOLDDHAPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BeyondExpressionInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass.getDescriptor(),
         });
     internal_static_EFLAOLDDHAP_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -648,7 +648,7 @@ public final class EFLAOLDDHAPOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EFLAOLDDHAP_descriptor,
         new java.lang.String[] { "Retcode", "IKEMIHBHMOI", });
-    emu.grasscutter.net.proto.BeyondExpressionInfo.getDescriptor();
+    emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

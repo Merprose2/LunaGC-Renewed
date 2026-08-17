@@ -901,8 +901,9 @@ public final class CEOEBCGEIKFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CEOEBCGEIKF.proto\032\021EAKIJIADNLH.proto\"E" +
       "\n\013CEOEBCGEIKF\022!\n\013KOJHCPMPGPB\030\005 \003(\0132\014.EAK" +
-      "IJIADNLH\022\023\n\013KMDOFBPMGAI\030\n \001(\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "IJIADNLH\022\023\n\013KMDOFBPMGAI\030\n \001(\005B2\n\031emu.gra" +
+      "sscutter.net.protoB\025CEOEBCGEIKFOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

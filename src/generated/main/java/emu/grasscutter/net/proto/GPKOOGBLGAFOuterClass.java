@@ -596,8 +596,9 @@ public final class GPKOOGBLGAFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GPKOOGBLGAF.proto\"3\n\013GPKOOGBLGAF\022\023\n\013MK" +
-      "FGPIEBJML\030\n \001(\010\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "FGPIEBJML\030\n \001(\010\022\017\n\007retcode\030\013 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025GPKOOGBLGAFOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

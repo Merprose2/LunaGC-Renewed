@@ -997,8 +997,9 @@ public final class AbilityMixinFireworksLauncherOuterClass {
       "\n\035AbilityMixinFireworksLauncher\022\023\n\013PDCIC" +
       "CGAFNI\030\003 \001(\r\022\023\n\013BAOHGLGNIJD\030\005 \001(\r\022\r\n\005pha" +
       "se\030\007 \001(\r\022\023\n\013LGMGNAEEPDB\030\t \001(\r\022\023\n\013NIONKDH" +
-      "MIAI\030\013 \001(\r\022\030\n\020fireworks_config\030\017 \003(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "MIAI\030\013 \001(\r\022\030\n\020fireworks_config\030\017 \003(\rBD\n\031" +
+      "emu.grasscutter.net.protoB\'AbilityMixinF" +
+      "ireworksLauncherOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

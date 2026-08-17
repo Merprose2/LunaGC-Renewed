@@ -498,8 +498,8 @@ public final class GCGActionTypeOuterClass {
       "_ACTION_CHANGE_CHARACTER_INDEX\020$\022-\n)GCGA" +
       "ctionType_GCG_ACTION_DISCOVER_REFRESH\020%\022" +
       ".\n*GCGActionType_GCG_ACTION_REPLACE_CHAR" +
-      "ACTER\020&B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "ACTER\020&B4\n\031emu.grasscutter.net.protoB\027GC" +
+      "GActionTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

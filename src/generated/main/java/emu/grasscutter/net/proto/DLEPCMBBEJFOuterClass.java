@@ -595,8 +595,9 @@ public final class DLEPCMBBEJFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DLEPCMBBEJF.proto\"2\n\013DLEPCMBBEJF\022\022\n\nta" +
-      "rget_uid\030\007 \001(\r\022\017\n\007retcode\030\010 \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "rget_uid\030\007 \001(\r\022\017\n\007retcode\030\010 \001(\005B2\n\031emu.g" +
+      "rasscutter.net.protoB\025DLEPCMBBEJFOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

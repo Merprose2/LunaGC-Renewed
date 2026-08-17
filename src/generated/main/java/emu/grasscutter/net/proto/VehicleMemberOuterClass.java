@@ -659,8 +659,8 @@ public final class VehicleMemberOuterClass {
     java.lang.String[] descriptorData = {
       "\n\023VehicleMember.proto\">\n\rVehicleMember\022\013" +
       "\n\003uid\030\001 \001(\r\022\023\n\013avatar_guid\030\002 \001(\004\022\013\n\003pos\030" +
-      "\003 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\003 \001(\rB4\n\031emu.grasscutter.net.protoB\027Vehi" +
+      "cleMemberOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

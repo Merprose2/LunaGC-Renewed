@@ -949,8 +949,8 @@ public final class IDFMCKCOJPOOuterClass {
       "NOCIHNFLNI\030\001 \001(\r\022\023\n\013OOFPCLDDCCL\030\002 \001(\r\022\023\n" +
       "\013HANJNFCBFCJ\030\003 \001(\r\022\023\n\013BOJBEECJFDL\030\005 \001(\r\022" +
       "\023\n\013GKJELBOENDC\030\007 \001(\010\022\020\n\010level_id\030\013 \001(\r\022\022" +
-      "\n\ndifficulty\030\r \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\n\ndifficulty\030\r \001(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025IDFMCKCOJPOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1607,8 +1607,9 @@ public final class OFGNCGAOLNFOuterClass {
       "DI\030\003 \001(\010\022!\n\013KCBKIJFMDAI\030\004 \001(\0162\014.JEOKDCIG" +
       "CFP\022!\n\013KKFBGJGDAJI\030\005 \001(\0162\014.JEOKDCIGCFP\022!" +
       "\n\013LICCJGPGOHF\030\006 \001(\0132\014.EMOLMHKIMBE\022\024\n\013JDK" +
-      "BGLBLHNE\030\365\003 \001(\t\022\024\n\013GIGABCBGEGE\030\366\003 \001(\010B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "BGLBLHNE\030\365\003 \001(\t\022\024\n\013GIGABCBGEGE\030\366\003 \001(\010B2\n" +
+      "\031emu.grasscutter.net.protoB\025OFGNCGAOLNFO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

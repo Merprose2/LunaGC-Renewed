@@ -811,8 +811,8 @@ public final class WidgetReportReqOuterClass {
       "Req\022#\n\033weather_wizard_shield_value\030\004 \001(\r" +
       "\022\023\n\013GEKJOJKPCEL\030\006 \001(\010\022\023\n\013material_id\030\010 \001" +
       "(\r\022\023\n\013IMKEMCNLILN\030\014 \001(\010\022\023\n\013FMLKMIOLFFC\030\017" +
-      " \001(\010B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\010B6\n\031emu.grasscutter.net.protoB\031Widge" +
+      "tReportReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

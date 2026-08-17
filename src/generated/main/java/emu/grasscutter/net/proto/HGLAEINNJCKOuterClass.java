@@ -2276,8 +2276,9 @@ public final class HGLAEINNJCKOuterClass {
       "BKEPGKJMF\030\n \001(\010\022\023\n\013CBCKPIJMMAI\030\016 \003(\r\022!\n\013" +
       "HBGDOHHJPLC\030\017 \003(\0132\014.GDPPPDPGMHC\022\"\n\013DNDML" +
       "IMOKNL\030\247\001 \001(\0132\014.IFMKNCDKAJB\022\"\n\013DANDHJIBM" +
-      "NG\030\241\016 \001(\0132\014.FCOMGMFMBOFB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "NG\030\241\016 \001(\0132\014.FCOMGMFMBOFB2\n\031emu.grasscutt" +
+      "er.net.protoB\025HGLAEINNJCKOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

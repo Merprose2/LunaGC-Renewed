@@ -1189,7 +1189,8 @@ public final class PNOLOFBODAMOuterClass {
       "CCNPEAJDIO\030\002 \001(\004\022\023\n\013OKANALGLHHJ\030\003 \001(\004\022&\n" +
       "\020player_info_list\030\004 \003(\0132\014.AFKIKOELKNE\022\023\n" +
       "\013JLCHCMKCBCM\030\010 \001(\004\022\023\n\013BEDBMNHLJMJ\030\t \001(\010B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025PNOLOFBODA" +
+      "MOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

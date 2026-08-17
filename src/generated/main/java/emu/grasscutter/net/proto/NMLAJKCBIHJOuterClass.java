@@ -1538,8 +1538,9 @@ public final class NMLAJKCBIHJOuterClass {
       "COON\022\032\n\004slot\030\002 \001(\0132\014.NGKGPPPKGPO\022!\n\013ABHE" +
       "HPIKMHI\030\003 \001(\0132\014.KIOOIODGGLF\022!\n\013JCONONICJ" +
       "JC\030\004 \001(\0132\014.OPJKCBLKICG\022!\n\013PFOEHMHIODA\030\005 " +
-      "\001(\0132\014.MJFAMKLKLOP\022\023\n\013EILALEDMFAG\030\006 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\0132\014.MJFAMKLKLOP\022\023\n\013EILALEDMFAG\030\006 \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025NMLAJKCBIHJ" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

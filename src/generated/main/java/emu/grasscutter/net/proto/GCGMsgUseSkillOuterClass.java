@@ -587,8 +587,9 @@ public final class GCGMsgUseSkillOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\024GCGMsgUseSkill.proto\"5\n\016GCGMsgUseSkill" +
-      "\022\020\n\010skill_id\030\001 \001(\r\022\021\n\tcard_guid\030\007 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\022\020\n\010skill_id\030\001 \001(\r\022\021\n\tcard_guid\030\007 \001(\rB5\n" +
+      "\031emu.grasscutter.net.protoB\030GCGMsgUseSki" +
+      "llOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

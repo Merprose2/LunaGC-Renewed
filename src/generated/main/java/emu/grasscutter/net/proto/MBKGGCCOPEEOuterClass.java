@@ -872,8 +872,8 @@ public final class MBKGGCCOPEEOuterClass {
       "\n\021MBKGGCCOPEE.proto\032\021HHEDHCFPEKM.proto\"Z" +
       "\n\013MBKGGCCOPEE\022\023\n\013NEOIJCECHNB\030\001 \001(\r\022\023\n\013OM" +
       "IFNMFBGCE\030\002 \001(\t\022!\n\013KFMGDKNDOGH\030\003 \001(\0132\014.H" +
-      "HEDHCFPEKMB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "HEDHCFPEKMB2\n\031emu.grasscutter.net.protoB" +
+      "\025MBKGGCCOPEEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -75,11 +75,11 @@ public final class PDPHEMPECNFOuterClass {
      * <code>._ModifyParamData modify_param_data = 13;</code>
      * @return The modifyParamData.
      */
-    emu.grasscutter.net.proto.ModifyParamData._ModifyParamData getModifyParamData();
+    emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData getModifyParamData();
     /**
      * <code>._ModifyParamData modify_param_data = 13;</code>
      */
-    emu.grasscutter.net.proto.ModifyParamData._ModifyParamDataOrBuilder getModifyParamDataOrBuilder();
+    emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamDataOrBuilder getModifyParamDataOrBuilder();
 
     /**
      * <code>._AddParamData add_param_data = 14;</code>
@@ -90,11 +90,11 @@ public final class PDPHEMPECNFOuterClass {
      * <code>._AddParamData add_param_data = 14;</code>
      * @return The addParamData.
      */
-    emu.grasscutter.net.proto.AddParamData._AddParamData getAddParamData();
+    emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData getAddParamData();
     /**
      * <code>._AddParamData add_param_data = 14;</code>
      */
-    emu.grasscutter.net.proto.AddParamData._AddParamDataOrBuilder getAddParamDataOrBuilder();
+    emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamDataOrBuilder getAddParamDataOrBuilder();
 
     /**
      * <code>._RemoveParamData remove_param_data = 15;</code>
@@ -105,11 +105,11 @@ public final class PDPHEMPECNFOuterClass {
      * <code>._RemoveParamData remove_param_data = 15;</code>
      * @return The removeParamData.
      */
-    emu.grasscutter.net.proto.RemoveParamData._RemoveParamData getRemoveParamData();
+    emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData getRemoveParamData();
     /**
      * <code>._RemoveParamData remove_param_data = 15;</code>
      */
-    emu.grasscutter.net.proto.RemoveParamData._RemoveParamDataOrBuilder getRemoveParamDataOrBuilder();
+    emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamDataOrBuilder getRemoveParamDataOrBuilder();
 
     /**
      * <code>._ResetParamData reset_param_data = 16;</code>
@@ -120,11 +120,11 @@ public final class PDPHEMPECNFOuterClass {
      * <code>._ResetParamData reset_param_data = 16;</code>
      * @return The resetParamData.
      */
-    emu.grasscutter.net.proto.ResetParamData._ResetParamData getResetParamData();
+    emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData getResetParamData();
     /**
      * <code>._ResetParamData reset_param_data = 16;</code>
      */
-    emu.grasscutter.net.proto.ResetParamData._ResetParamDataOrBuilder getResetParamDataOrBuilder();
+    emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamDataOrBuilder getResetParamDataOrBuilder();
 
     public emu.grasscutter.net.proto.PDPHEMPECNFOuterClass.PDPHEMPECNF.ABBEAANGHDCCase getABBEAANGHDCCase();
   }
@@ -204,56 +204,56 @@ public final class PDPHEMPECNFOuterClass {
               break;
             }
             case 106: {
-              emu.grasscutter.net.proto.ModifyParamData._ModifyParamData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData.Builder subBuilder = null;
               if (aBBEAANGHDCCase_ == 13) {
-                subBuilder = ((emu.grasscutter.net.proto.ModifyParamData._ModifyParamData) aBBEAANGHDC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData) aBBEAANGHDC_).toBuilder();
               }
               aBBEAANGHDC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ModifyParamData._ModifyParamData.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ModifyParamData._ModifyParamData) aBBEAANGHDC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData) aBBEAANGHDC_);
                 aBBEAANGHDC_ = subBuilder.buildPartial();
               }
               aBBEAANGHDCCase_ = 13;
               break;
             }
             case 114: {
-              emu.grasscutter.net.proto.AddParamData._AddParamData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData.Builder subBuilder = null;
               if (aBBEAANGHDCCase_ == 14) {
-                subBuilder = ((emu.grasscutter.net.proto.AddParamData._AddParamData) aBBEAANGHDC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData) aBBEAANGHDC_).toBuilder();
               }
               aBBEAANGHDC_ =
-                  input.readMessage(emu.grasscutter.net.proto.AddParamData._AddParamData.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AddParamData._AddParamData) aBBEAANGHDC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData) aBBEAANGHDC_);
                 aBBEAANGHDC_ = subBuilder.buildPartial();
               }
               aBBEAANGHDCCase_ = 14;
               break;
             }
             case 122: {
-              emu.grasscutter.net.proto.RemoveParamData._RemoveParamData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData.Builder subBuilder = null;
               if (aBBEAANGHDCCase_ == 15) {
-                subBuilder = ((emu.grasscutter.net.proto.RemoveParamData._RemoveParamData) aBBEAANGHDC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData) aBBEAANGHDC_).toBuilder();
               }
               aBBEAANGHDC_ =
-                  input.readMessage(emu.grasscutter.net.proto.RemoveParamData._RemoveParamData.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.RemoveParamData._RemoveParamData) aBBEAANGHDC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData) aBBEAANGHDC_);
                 aBBEAANGHDC_ = subBuilder.buildPartial();
               }
               aBBEAANGHDCCase_ = 15;
               break;
             }
             case 130: {
-              emu.grasscutter.net.proto.ResetParamData._ResetParamData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData.Builder subBuilder = null;
               if (aBBEAANGHDCCase_ == 16) {
-                subBuilder = ((emu.grasscutter.net.proto.ResetParamData._ResetParamData) aBBEAANGHDC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData) aBBEAANGHDC_).toBuilder();
               }
               aBBEAANGHDC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ResetParamData._ResetParamData.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ResetParamData._ResetParamData) aBBEAANGHDC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData) aBBEAANGHDC_);
                 aBBEAANGHDC_ = subBuilder.buildPartial();
               }
               aBBEAANGHDCCase_ = 16;
@@ -441,21 +441,21 @@ public final class PDPHEMPECNFOuterClass {
      * @return The modifyParamData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ModifyParamData._ModifyParamData getModifyParamData() {
+    public emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData getModifyParamData() {
       if (aBBEAANGHDCCase_ == 13) {
-         return (emu.grasscutter.net.proto.ModifyParamData._ModifyParamData) aBBEAANGHDC_;
+         return (emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData) aBBEAANGHDC_;
       }
-      return emu.grasscutter.net.proto.ModifyParamData._ModifyParamData.getDefaultInstance();
+      return emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData.getDefaultInstance();
     }
     /**
      * <code>._ModifyParamData modify_param_data = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ModifyParamData._ModifyParamDataOrBuilder getModifyParamDataOrBuilder() {
+    public emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamDataOrBuilder getModifyParamDataOrBuilder() {
       if (aBBEAANGHDCCase_ == 13) {
-         return (emu.grasscutter.net.proto.ModifyParamData._ModifyParamData) aBBEAANGHDC_;
+         return (emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData) aBBEAANGHDC_;
       }
-      return emu.grasscutter.net.proto.ModifyParamData._ModifyParamData.getDefaultInstance();
+      return emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData.getDefaultInstance();
     }
 
     public static final int ADD_PARAM_DATA_FIELD_NUMBER = 14;
@@ -472,21 +472,21 @@ public final class PDPHEMPECNFOuterClass {
      * @return The addParamData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AddParamData._AddParamData getAddParamData() {
+    public emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData getAddParamData() {
       if (aBBEAANGHDCCase_ == 14) {
-         return (emu.grasscutter.net.proto.AddParamData._AddParamData) aBBEAANGHDC_;
+         return (emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData) aBBEAANGHDC_;
       }
-      return emu.grasscutter.net.proto.AddParamData._AddParamData.getDefaultInstance();
+      return emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData.getDefaultInstance();
     }
     /**
      * <code>._AddParamData add_param_data = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AddParamData._AddParamDataOrBuilder getAddParamDataOrBuilder() {
+    public emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamDataOrBuilder getAddParamDataOrBuilder() {
       if (aBBEAANGHDCCase_ == 14) {
-         return (emu.grasscutter.net.proto.AddParamData._AddParamData) aBBEAANGHDC_;
+         return (emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData) aBBEAANGHDC_;
       }
-      return emu.grasscutter.net.proto.AddParamData._AddParamData.getDefaultInstance();
+      return emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData.getDefaultInstance();
     }
 
     public static final int REMOVE_PARAM_DATA_FIELD_NUMBER = 15;
@@ -503,21 +503,21 @@ public final class PDPHEMPECNFOuterClass {
      * @return The removeParamData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.RemoveParamData._RemoveParamData getRemoveParamData() {
+    public emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData getRemoveParamData() {
       if (aBBEAANGHDCCase_ == 15) {
-         return (emu.grasscutter.net.proto.RemoveParamData._RemoveParamData) aBBEAANGHDC_;
+         return (emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData) aBBEAANGHDC_;
       }
-      return emu.grasscutter.net.proto.RemoveParamData._RemoveParamData.getDefaultInstance();
+      return emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData.getDefaultInstance();
     }
     /**
      * <code>._RemoveParamData remove_param_data = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.RemoveParamData._RemoveParamDataOrBuilder getRemoveParamDataOrBuilder() {
+    public emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamDataOrBuilder getRemoveParamDataOrBuilder() {
       if (aBBEAANGHDCCase_ == 15) {
-         return (emu.grasscutter.net.proto.RemoveParamData._RemoveParamData) aBBEAANGHDC_;
+         return (emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData) aBBEAANGHDC_;
       }
-      return emu.grasscutter.net.proto.RemoveParamData._RemoveParamData.getDefaultInstance();
+      return emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData.getDefaultInstance();
     }
 
     public static final int RESET_PARAM_DATA_FIELD_NUMBER = 16;
@@ -534,21 +534,21 @@ public final class PDPHEMPECNFOuterClass {
      * @return The resetParamData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ResetParamData._ResetParamData getResetParamData() {
+    public emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData getResetParamData() {
       if (aBBEAANGHDCCase_ == 16) {
-         return (emu.grasscutter.net.proto.ResetParamData._ResetParamData) aBBEAANGHDC_;
+         return (emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData) aBBEAANGHDC_;
       }
-      return emu.grasscutter.net.proto.ResetParamData._ResetParamData.getDefaultInstance();
+      return emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData.getDefaultInstance();
     }
     /**
      * <code>._ResetParamData reset_param_data = 16;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ResetParamData._ResetParamDataOrBuilder getResetParamDataOrBuilder() {
+    public emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamDataOrBuilder getResetParamDataOrBuilder() {
       if (aBBEAANGHDCCase_ == 16) {
-         return (emu.grasscutter.net.proto.ResetParamData._ResetParamData) aBBEAANGHDC_;
+         return (emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData) aBBEAANGHDC_;
       }
-      return emu.grasscutter.net.proto.ResetParamData._ResetParamData.getDefaultInstance();
+      return emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -580,16 +580,16 @@ public final class PDPHEMPECNFOuterClass {
             12, (int)((java.lang.Integer) aBBEAANGHDC_));
       }
       if (aBBEAANGHDCCase_ == 13) {
-        output.writeMessage(13, (emu.grasscutter.net.proto.ModifyParamData._ModifyParamData) aBBEAANGHDC_);
+        output.writeMessage(13, (emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData) aBBEAANGHDC_);
       }
       if (aBBEAANGHDCCase_ == 14) {
-        output.writeMessage(14, (emu.grasscutter.net.proto.AddParamData._AddParamData) aBBEAANGHDC_);
+        output.writeMessage(14, (emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData) aBBEAANGHDC_);
       }
       if (aBBEAANGHDCCase_ == 15) {
-        output.writeMessage(15, (emu.grasscutter.net.proto.RemoveParamData._RemoveParamData) aBBEAANGHDC_);
+        output.writeMessage(15, (emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData) aBBEAANGHDC_);
       }
       if (aBBEAANGHDCCase_ == 16) {
-        output.writeMessage(16, (emu.grasscutter.net.proto.ResetParamData._ResetParamData) aBBEAANGHDC_);
+        output.writeMessage(16, (emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData) aBBEAANGHDC_);
       }
       unknownFields.writeTo(output);
     }
@@ -620,19 +620,19 @@ public final class PDPHEMPECNFOuterClass {
       }
       if (aBBEAANGHDCCase_ == 13) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, (emu.grasscutter.net.proto.ModifyParamData._ModifyParamData) aBBEAANGHDC_);
+          .computeMessageSize(13, (emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData) aBBEAANGHDC_);
       }
       if (aBBEAANGHDCCase_ == 14) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, (emu.grasscutter.net.proto.AddParamData._AddParamData) aBBEAANGHDC_);
+          .computeMessageSize(14, (emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData) aBBEAANGHDC_);
       }
       if (aBBEAANGHDCCase_ == 15) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, (emu.grasscutter.net.proto.RemoveParamData._RemoveParamData) aBBEAANGHDC_);
+          .computeMessageSize(15, (emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData) aBBEAANGHDC_);
       }
       if (aBBEAANGHDCCase_ == 16) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(16, (emu.grasscutter.net.proto.ResetParamData._ResetParamData) aBBEAANGHDC_);
+          .computeMessageSize(16, (emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData) aBBEAANGHDC_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1322,7 +1322,7 @@ public final class PDPHEMPECNFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ModifyParamData._ModifyParamData, emu.grasscutter.net.proto.ModifyParamData._ModifyParamData.Builder, emu.grasscutter.net.proto.ModifyParamData._ModifyParamDataOrBuilder> modifyParamDataBuilder_;
+          emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData, emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData.Builder, emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamDataOrBuilder> modifyParamDataBuilder_;
       /**
        * <code>._ModifyParamData modify_param_data = 13;</code>
        * @return Whether the modifyParamData field is set.
@@ -1336,23 +1336,23 @@ public final class PDPHEMPECNFOuterClass {
        * @return The modifyParamData.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ModifyParamData._ModifyParamData getModifyParamData() {
+      public emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData getModifyParamData() {
         if (modifyParamDataBuilder_ == null) {
           if (aBBEAANGHDCCase_ == 13) {
-            return (emu.grasscutter.net.proto.ModifyParamData._ModifyParamData) aBBEAANGHDC_;
+            return (emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData) aBBEAANGHDC_;
           }
-          return emu.grasscutter.net.proto.ModifyParamData._ModifyParamData.getDefaultInstance();
+          return emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData.getDefaultInstance();
         } else {
           if (aBBEAANGHDCCase_ == 13) {
             return modifyParamDataBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ModifyParamData._ModifyParamData.getDefaultInstance();
+          return emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData.getDefaultInstance();
         }
       }
       /**
        * <code>._ModifyParamData modify_param_data = 13;</code>
        */
-      public Builder setModifyParamData(emu.grasscutter.net.proto.ModifyParamData._ModifyParamData value) {
+      public Builder setModifyParamData(emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData value) {
         if (modifyParamDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1369,7 +1369,7 @@ public final class PDPHEMPECNFOuterClass {
        * <code>._ModifyParamData modify_param_data = 13;</code>
        */
       public Builder setModifyParamData(
-          emu.grasscutter.net.proto.ModifyParamData._ModifyParamData.Builder builderForValue) {
+          emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData.Builder builderForValue) {
         if (modifyParamDataBuilder_ == null) {
           aBBEAANGHDC_ = builderForValue.build();
           onChanged();
@@ -1382,11 +1382,11 @@ public final class PDPHEMPECNFOuterClass {
       /**
        * <code>._ModifyParamData modify_param_data = 13;</code>
        */
-      public Builder mergeModifyParamData(emu.grasscutter.net.proto.ModifyParamData._ModifyParamData value) {
+      public Builder mergeModifyParamData(emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData value) {
         if (modifyParamDataBuilder_ == null) {
           if (aBBEAANGHDCCase_ == 13 &&
-              aBBEAANGHDC_ != emu.grasscutter.net.proto.ModifyParamData._ModifyParamData.getDefaultInstance()) {
-            aBBEAANGHDC_ = emu.grasscutter.net.proto.ModifyParamData._ModifyParamData.newBuilder((emu.grasscutter.net.proto.ModifyParamData._ModifyParamData) aBBEAANGHDC_)
+              aBBEAANGHDC_ != emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData.getDefaultInstance()) {
+            aBBEAANGHDC_ = emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData.newBuilder((emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData) aBBEAANGHDC_)
                 .mergeFrom(value).buildPartial();
           } else {
             aBBEAANGHDC_ = value;
@@ -1423,36 +1423,36 @@ public final class PDPHEMPECNFOuterClass {
       /**
        * <code>._ModifyParamData modify_param_data = 13;</code>
        */
-      public emu.grasscutter.net.proto.ModifyParamData._ModifyParamData.Builder getModifyParamDataBuilder() {
+      public emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData.Builder getModifyParamDataBuilder() {
         return getModifyParamDataFieldBuilder().getBuilder();
       }
       /**
        * <code>._ModifyParamData modify_param_data = 13;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ModifyParamData._ModifyParamDataOrBuilder getModifyParamDataOrBuilder() {
+      public emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamDataOrBuilder getModifyParamDataOrBuilder() {
         if ((aBBEAANGHDCCase_ == 13) && (modifyParamDataBuilder_ != null)) {
           return modifyParamDataBuilder_.getMessageOrBuilder();
         } else {
           if (aBBEAANGHDCCase_ == 13) {
-            return (emu.grasscutter.net.proto.ModifyParamData._ModifyParamData) aBBEAANGHDC_;
+            return (emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData) aBBEAANGHDC_;
           }
-          return emu.grasscutter.net.proto.ModifyParamData._ModifyParamData.getDefaultInstance();
+          return emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData.getDefaultInstance();
         }
       }
       /**
        * <code>._ModifyParamData modify_param_data = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ModifyParamData._ModifyParamData, emu.grasscutter.net.proto.ModifyParamData._ModifyParamData.Builder, emu.grasscutter.net.proto.ModifyParamData._ModifyParamDataOrBuilder> 
+          emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData, emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData.Builder, emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamDataOrBuilder> 
           getModifyParamDataFieldBuilder() {
         if (modifyParamDataBuilder_ == null) {
           if (!(aBBEAANGHDCCase_ == 13)) {
-            aBBEAANGHDC_ = emu.grasscutter.net.proto.ModifyParamData._ModifyParamData.getDefaultInstance();
+            aBBEAANGHDC_ = emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData.getDefaultInstance();
           }
           modifyParamDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ModifyParamData._ModifyParamData, emu.grasscutter.net.proto.ModifyParamData._ModifyParamData.Builder, emu.grasscutter.net.proto.ModifyParamData._ModifyParamDataOrBuilder>(
-                  (emu.grasscutter.net.proto.ModifyParamData._ModifyParamData) aBBEAANGHDC_,
+              emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData, emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData.Builder, emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamDataOrBuilder>(
+                  (emu.grasscutter.net.proto._ModifyParamDataOuterClass._ModifyParamData) aBBEAANGHDC_,
                   getParentForChildren(),
                   isClean());
           aBBEAANGHDC_ = null;
@@ -1463,7 +1463,7 @@ public final class PDPHEMPECNFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AddParamData._AddParamData, emu.grasscutter.net.proto.AddParamData._AddParamData.Builder, emu.grasscutter.net.proto.AddParamData._AddParamDataOrBuilder> addParamDataBuilder_;
+          emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData, emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData.Builder, emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamDataOrBuilder> addParamDataBuilder_;
       /**
        * <code>._AddParamData add_param_data = 14;</code>
        * @return Whether the addParamData field is set.
@@ -1477,23 +1477,23 @@ public final class PDPHEMPECNFOuterClass {
        * @return The addParamData.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AddParamData._AddParamData getAddParamData() {
+      public emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData getAddParamData() {
         if (addParamDataBuilder_ == null) {
           if (aBBEAANGHDCCase_ == 14) {
-            return (emu.grasscutter.net.proto.AddParamData._AddParamData) aBBEAANGHDC_;
+            return (emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData) aBBEAANGHDC_;
           }
-          return emu.grasscutter.net.proto.AddParamData._AddParamData.getDefaultInstance();
+          return emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData.getDefaultInstance();
         } else {
           if (aBBEAANGHDCCase_ == 14) {
             return addParamDataBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AddParamData._AddParamData.getDefaultInstance();
+          return emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData.getDefaultInstance();
         }
       }
       /**
        * <code>._AddParamData add_param_data = 14;</code>
        */
-      public Builder setAddParamData(emu.grasscutter.net.proto.AddParamData._AddParamData value) {
+      public Builder setAddParamData(emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData value) {
         if (addParamDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1510,7 +1510,7 @@ public final class PDPHEMPECNFOuterClass {
        * <code>._AddParamData add_param_data = 14;</code>
        */
       public Builder setAddParamData(
-          emu.grasscutter.net.proto.AddParamData._AddParamData.Builder builderForValue) {
+          emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData.Builder builderForValue) {
         if (addParamDataBuilder_ == null) {
           aBBEAANGHDC_ = builderForValue.build();
           onChanged();
@@ -1523,11 +1523,11 @@ public final class PDPHEMPECNFOuterClass {
       /**
        * <code>._AddParamData add_param_data = 14;</code>
        */
-      public Builder mergeAddParamData(emu.grasscutter.net.proto.AddParamData._AddParamData value) {
+      public Builder mergeAddParamData(emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData value) {
         if (addParamDataBuilder_ == null) {
           if (aBBEAANGHDCCase_ == 14 &&
-              aBBEAANGHDC_ != emu.grasscutter.net.proto.AddParamData._AddParamData.getDefaultInstance()) {
-            aBBEAANGHDC_ = emu.grasscutter.net.proto.AddParamData._AddParamData.newBuilder((emu.grasscutter.net.proto.AddParamData._AddParamData) aBBEAANGHDC_)
+              aBBEAANGHDC_ != emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData.getDefaultInstance()) {
+            aBBEAANGHDC_ = emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData.newBuilder((emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData) aBBEAANGHDC_)
                 .mergeFrom(value).buildPartial();
           } else {
             aBBEAANGHDC_ = value;
@@ -1564,36 +1564,36 @@ public final class PDPHEMPECNFOuterClass {
       /**
        * <code>._AddParamData add_param_data = 14;</code>
        */
-      public emu.grasscutter.net.proto.AddParamData._AddParamData.Builder getAddParamDataBuilder() {
+      public emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData.Builder getAddParamDataBuilder() {
         return getAddParamDataFieldBuilder().getBuilder();
       }
       /**
        * <code>._AddParamData add_param_data = 14;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AddParamData._AddParamDataOrBuilder getAddParamDataOrBuilder() {
+      public emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamDataOrBuilder getAddParamDataOrBuilder() {
         if ((aBBEAANGHDCCase_ == 14) && (addParamDataBuilder_ != null)) {
           return addParamDataBuilder_.getMessageOrBuilder();
         } else {
           if (aBBEAANGHDCCase_ == 14) {
-            return (emu.grasscutter.net.proto.AddParamData._AddParamData) aBBEAANGHDC_;
+            return (emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData) aBBEAANGHDC_;
           }
-          return emu.grasscutter.net.proto.AddParamData._AddParamData.getDefaultInstance();
+          return emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData.getDefaultInstance();
         }
       }
       /**
        * <code>._AddParamData add_param_data = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AddParamData._AddParamData, emu.grasscutter.net.proto.AddParamData._AddParamData.Builder, emu.grasscutter.net.proto.AddParamData._AddParamDataOrBuilder> 
+          emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData, emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData.Builder, emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamDataOrBuilder> 
           getAddParamDataFieldBuilder() {
         if (addParamDataBuilder_ == null) {
           if (!(aBBEAANGHDCCase_ == 14)) {
-            aBBEAANGHDC_ = emu.grasscutter.net.proto.AddParamData._AddParamData.getDefaultInstance();
+            aBBEAANGHDC_ = emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData.getDefaultInstance();
           }
           addParamDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AddParamData._AddParamData, emu.grasscutter.net.proto.AddParamData._AddParamData.Builder, emu.grasscutter.net.proto.AddParamData._AddParamDataOrBuilder>(
-                  (emu.grasscutter.net.proto.AddParamData._AddParamData) aBBEAANGHDC_,
+              emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData, emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData.Builder, emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamDataOrBuilder>(
+                  (emu.grasscutter.net.proto._AddParamDataOuterClass._AddParamData) aBBEAANGHDC_,
                   getParentForChildren(),
                   isClean());
           aBBEAANGHDC_ = null;
@@ -1604,7 +1604,7 @@ public final class PDPHEMPECNFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RemoveParamData._RemoveParamData, emu.grasscutter.net.proto.RemoveParamData._RemoveParamData.Builder, emu.grasscutter.net.proto.RemoveParamData._RemoveParamDataOrBuilder> removeParamDataBuilder_;
+          emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData, emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData.Builder, emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamDataOrBuilder> removeParamDataBuilder_;
       /**
        * <code>._RemoveParamData remove_param_data = 15;</code>
        * @return Whether the removeParamData field is set.
@@ -1618,23 +1618,23 @@ public final class PDPHEMPECNFOuterClass {
        * @return The removeParamData.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.RemoveParamData._RemoveParamData getRemoveParamData() {
+      public emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData getRemoveParamData() {
         if (removeParamDataBuilder_ == null) {
           if (aBBEAANGHDCCase_ == 15) {
-            return (emu.grasscutter.net.proto.RemoveParamData._RemoveParamData) aBBEAANGHDC_;
+            return (emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData) aBBEAANGHDC_;
           }
-          return emu.grasscutter.net.proto.RemoveParamData._RemoveParamData.getDefaultInstance();
+          return emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData.getDefaultInstance();
         } else {
           if (aBBEAANGHDCCase_ == 15) {
             return removeParamDataBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.RemoveParamData._RemoveParamData.getDefaultInstance();
+          return emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData.getDefaultInstance();
         }
       }
       /**
        * <code>._RemoveParamData remove_param_data = 15;</code>
        */
-      public Builder setRemoveParamData(emu.grasscutter.net.proto.RemoveParamData._RemoveParamData value) {
+      public Builder setRemoveParamData(emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData value) {
         if (removeParamDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1651,7 +1651,7 @@ public final class PDPHEMPECNFOuterClass {
        * <code>._RemoveParamData remove_param_data = 15;</code>
        */
       public Builder setRemoveParamData(
-          emu.grasscutter.net.proto.RemoveParamData._RemoveParamData.Builder builderForValue) {
+          emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData.Builder builderForValue) {
         if (removeParamDataBuilder_ == null) {
           aBBEAANGHDC_ = builderForValue.build();
           onChanged();
@@ -1664,11 +1664,11 @@ public final class PDPHEMPECNFOuterClass {
       /**
        * <code>._RemoveParamData remove_param_data = 15;</code>
        */
-      public Builder mergeRemoveParamData(emu.grasscutter.net.proto.RemoveParamData._RemoveParamData value) {
+      public Builder mergeRemoveParamData(emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData value) {
         if (removeParamDataBuilder_ == null) {
           if (aBBEAANGHDCCase_ == 15 &&
-              aBBEAANGHDC_ != emu.grasscutter.net.proto.RemoveParamData._RemoveParamData.getDefaultInstance()) {
-            aBBEAANGHDC_ = emu.grasscutter.net.proto.RemoveParamData._RemoveParamData.newBuilder((emu.grasscutter.net.proto.RemoveParamData._RemoveParamData) aBBEAANGHDC_)
+              aBBEAANGHDC_ != emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData.getDefaultInstance()) {
+            aBBEAANGHDC_ = emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData.newBuilder((emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData) aBBEAANGHDC_)
                 .mergeFrom(value).buildPartial();
           } else {
             aBBEAANGHDC_ = value;
@@ -1705,36 +1705,36 @@ public final class PDPHEMPECNFOuterClass {
       /**
        * <code>._RemoveParamData remove_param_data = 15;</code>
        */
-      public emu.grasscutter.net.proto.RemoveParamData._RemoveParamData.Builder getRemoveParamDataBuilder() {
+      public emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData.Builder getRemoveParamDataBuilder() {
         return getRemoveParamDataFieldBuilder().getBuilder();
       }
       /**
        * <code>._RemoveParamData remove_param_data = 15;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.RemoveParamData._RemoveParamDataOrBuilder getRemoveParamDataOrBuilder() {
+      public emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamDataOrBuilder getRemoveParamDataOrBuilder() {
         if ((aBBEAANGHDCCase_ == 15) && (removeParamDataBuilder_ != null)) {
           return removeParamDataBuilder_.getMessageOrBuilder();
         } else {
           if (aBBEAANGHDCCase_ == 15) {
-            return (emu.grasscutter.net.proto.RemoveParamData._RemoveParamData) aBBEAANGHDC_;
+            return (emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData) aBBEAANGHDC_;
           }
-          return emu.grasscutter.net.proto.RemoveParamData._RemoveParamData.getDefaultInstance();
+          return emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData.getDefaultInstance();
         }
       }
       /**
        * <code>._RemoveParamData remove_param_data = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RemoveParamData._RemoveParamData, emu.grasscutter.net.proto.RemoveParamData._RemoveParamData.Builder, emu.grasscutter.net.proto.RemoveParamData._RemoveParamDataOrBuilder> 
+          emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData, emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData.Builder, emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamDataOrBuilder> 
           getRemoveParamDataFieldBuilder() {
         if (removeParamDataBuilder_ == null) {
           if (!(aBBEAANGHDCCase_ == 15)) {
-            aBBEAANGHDC_ = emu.grasscutter.net.proto.RemoveParamData._RemoveParamData.getDefaultInstance();
+            aBBEAANGHDC_ = emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData.getDefaultInstance();
           }
           removeParamDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.RemoveParamData._RemoveParamData, emu.grasscutter.net.proto.RemoveParamData._RemoveParamData.Builder, emu.grasscutter.net.proto.RemoveParamData._RemoveParamDataOrBuilder>(
-                  (emu.grasscutter.net.proto.RemoveParamData._RemoveParamData) aBBEAANGHDC_,
+              emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData, emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData.Builder, emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamDataOrBuilder>(
+                  (emu.grasscutter.net.proto._RemoveParamDataOuterClass._RemoveParamData) aBBEAANGHDC_,
                   getParentForChildren(),
                   isClean());
           aBBEAANGHDC_ = null;
@@ -1745,7 +1745,7 @@ public final class PDPHEMPECNFOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ResetParamData._ResetParamData, emu.grasscutter.net.proto.ResetParamData._ResetParamData.Builder, emu.grasscutter.net.proto.ResetParamData._ResetParamDataOrBuilder> resetParamDataBuilder_;
+          emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData, emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData.Builder, emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamDataOrBuilder> resetParamDataBuilder_;
       /**
        * <code>._ResetParamData reset_param_data = 16;</code>
        * @return Whether the resetParamData field is set.
@@ -1759,23 +1759,23 @@ public final class PDPHEMPECNFOuterClass {
        * @return The resetParamData.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ResetParamData._ResetParamData getResetParamData() {
+      public emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData getResetParamData() {
         if (resetParamDataBuilder_ == null) {
           if (aBBEAANGHDCCase_ == 16) {
-            return (emu.grasscutter.net.proto.ResetParamData._ResetParamData) aBBEAANGHDC_;
+            return (emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData) aBBEAANGHDC_;
           }
-          return emu.grasscutter.net.proto.ResetParamData._ResetParamData.getDefaultInstance();
+          return emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData.getDefaultInstance();
         } else {
           if (aBBEAANGHDCCase_ == 16) {
             return resetParamDataBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ResetParamData._ResetParamData.getDefaultInstance();
+          return emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData.getDefaultInstance();
         }
       }
       /**
        * <code>._ResetParamData reset_param_data = 16;</code>
        */
-      public Builder setResetParamData(emu.grasscutter.net.proto.ResetParamData._ResetParamData value) {
+      public Builder setResetParamData(emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData value) {
         if (resetParamDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1792,7 +1792,7 @@ public final class PDPHEMPECNFOuterClass {
        * <code>._ResetParamData reset_param_data = 16;</code>
        */
       public Builder setResetParamData(
-          emu.grasscutter.net.proto.ResetParamData._ResetParamData.Builder builderForValue) {
+          emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData.Builder builderForValue) {
         if (resetParamDataBuilder_ == null) {
           aBBEAANGHDC_ = builderForValue.build();
           onChanged();
@@ -1805,11 +1805,11 @@ public final class PDPHEMPECNFOuterClass {
       /**
        * <code>._ResetParamData reset_param_data = 16;</code>
        */
-      public Builder mergeResetParamData(emu.grasscutter.net.proto.ResetParamData._ResetParamData value) {
+      public Builder mergeResetParamData(emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData value) {
         if (resetParamDataBuilder_ == null) {
           if (aBBEAANGHDCCase_ == 16 &&
-              aBBEAANGHDC_ != emu.grasscutter.net.proto.ResetParamData._ResetParamData.getDefaultInstance()) {
-            aBBEAANGHDC_ = emu.grasscutter.net.proto.ResetParamData._ResetParamData.newBuilder((emu.grasscutter.net.proto.ResetParamData._ResetParamData) aBBEAANGHDC_)
+              aBBEAANGHDC_ != emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData.getDefaultInstance()) {
+            aBBEAANGHDC_ = emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData.newBuilder((emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData) aBBEAANGHDC_)
                 .mergeFrom(value).buildPartial();
           } else {
             aBBEAANGHDC_ = value;
@@ -1846,36 +1846,36 @@ public final class PDPHEMPECNFOuterClass {
       /**
        * <code>._ResetParamData reset_param_data = 16;</code>
        */
-      public emu.grasscutter.net.proto.ResetParamData._ResetParamData.Builder getResetParamDataBuilder() {
+      public emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData.Builder getResetParamDataBuilder() {
         return getResetParamDataFieldBuilder().getBuilder();
       }
       /**
        * <code>._ResetParamData reset_param_data = 16;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ResetParamData._ResetParamDataOrBuilder getResetParamDataOrBuilder() {
+      public emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamDataOrBuilder getResetParamDataOrBuilder() {
         if ((aBBEAANGHDCCase_ == 16) && (resetParamDataBuilder_ != null)) {
           return resetParamDataBuilder_.getMessageOrBuilder();
         } else {
           if (aBBEAANGHDCCase_ == 16) {
-            return (emu.grasscutter.net.proto.ResetParamData._ResetParamData) aBBEAANGHDC_;
+            return (emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData) aBBEAANGHDC_;
           }
-          return emu.grasscutter.net.proto.ResetParamData._ResetParamData.getDefaultInstance();
+          return emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData.getDefaultInstance();
         }
       }
       /**
        * <code>._ResetParamData reset_param_data = 16;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ResetParamData._ResetParamData, emu.grasscutter.net.proto.ResetParamData._ResetParamData.Builder, emu.grasscutter.net.proto.ResetParamData._ResetParamDataOrBuilder> 
+          emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData, emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData.Builder, emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamDataOrBuilder> 
           getResetParamDataFieldBuilder() {
         if (resetParamDataBuilder_ == null) {
           if (!(aBBEAANGHDCCase_ == 16)) {
-            aBBEAANGHDC_ = emu.grasscutter.net.proto.ResetParamData._ResetParamData.getDefaultInstance();
+            aBBEAANGHDC_ = emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData.getDefaultInstance();
           }
           resetParamDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ResetParamData._ResetParamData, emu.grasscutter.net.proto.ResetParamData._ResetParamData.Builder, emu.grasscutter.net.proto.ResetParamData._ResetParamDataOrBuilder>(
-                  (emu.grasscutter.net.proto.ResetParamData._ResetParamData) aBBEAANGHDC_,
+              emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData, emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData.Builder, emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamDataOrBuilder>(
+                  (emu.grasscutter.net.proto._ResetParamDataOuterClass._ResetParamData) aBBEAANGHDC_,
                   getParentForChildren(),
                   isClean());
           aBBEAANGHDC_ = null;
@@ -1963,18 +1963,18 @@ public final class PDPHEMPECNFOuterClass {
       "._AddParamDataH\000\022.\n\021remove_param_data\030\017 " +
       "\001(\0132\021._RemoveParamDataH\000\022,\n\020reset_param_" +
       "data\030\020 \001(\0132\020._ResetParamDataH\000B\r\n\013ABBEAA" +
-      "NGHDCB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "NGHDCB2\n\031emu.grasscutter.net.protoB\025PDPH" +
+      "EMPECNFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.HEJCCHPAKDKOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.OJDPMODAOOKOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.AddParamData.getDescriptor(),
-          emu.grasscutter.net.proto.ModifyParamData.getDescriptor(),
-          emu.grasscutter.net.proto.RemoveParamData.getDescriptor(),
-          emu.grasscutter.net.proto.ResetParamData.getDescriptor(),
+          emu.grasscutter.net.proto._AddParamDataOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ModifyParamDataOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._RemoveParamDataOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ResetParamDataOuterClass.getDescriptor(),
         });
     internal_static_PDPHEMPECNF_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1984,10 +1984,10 @@ public final class PDPHEMPECNFOuterClass {
         new java.lang.String[] { "TargetId", "IHKDILJOJFB", "AddCompType", "RemoveCompType", "ModifyParamData", "AddParamData", "RemoveParamData", "ResetParamData", "ABBEAANGHDC", });
     emu.grasscutter.net.proto.HEJCCHPAKDKOuterClass.getDescriptor();
     emu.grasscutter.net.proto.OJDPMODAOOKOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.AddParamData.getDescriptor();
-    emu.grasscutter.net.proto.ModifyParamData.getDescriptor();
-    emu.grasscutter.net.proto.RemoveParamData.getDescriptor();
-    emu.grasscutter.net.proto.ResetParamData.getDescriptor();
+    emu.grasscutter.net.proto._AddParamDataOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ModifyParamDataOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._RemoveParamDataOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ResetParamDataOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

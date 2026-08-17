@@ -525,8 +525,8 @@ public final class IEKGHPINKDNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IEKGHPINKDN.proto\"\"\n\013IEKGHPINKDN\022\023\n\013FK" +
-      "MPHGJENPG\030\016 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "MPHGJENPG\030\016 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025IEKGHPINKDNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

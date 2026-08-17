@@ -191,8 +191,8 @@ public final class NEFLDGLEOFLOuterClass {
       "EOFL_CARD_COST\020\003\022\035\n\031NEFLDGLEOFL_CHANCE_E" +
       "FFECT\020\004\022\022\n\016NEFLDGLEOFL_GM\020\005\022\034\n\030NEFLDGLEO" +
       "FL_BONUS_REBATE\020\006\022\"\n\036NEFLDGLEOFL_TAROT_L" +
-      "EVEL_REWARD\020\007B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "EVEL_REWARD\020\007B2\n\031emu.grasscutter.net.pro" +
+      "toB\025NEFLDGLEOFLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

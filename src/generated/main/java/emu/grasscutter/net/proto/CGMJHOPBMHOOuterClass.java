@@ -143,7 +143,8 @@ public final class CGMJHOPBMHOOuterClass {
       "\n\021CGMJHOPBMHO.proto*c\n\013CGMJHOPBMHO\022\024\n\020CG" +
       "MJHOPBMHO_NONE\020\000\022\034\n\030CGMJHOPBMHO_AUTO_REP" +
       "LACE\020\001\022 \n\034CGMJHOPBMHO_NOT_AUTO_REPLACE\020\002" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025CGMJHOPBM" +
+      "HOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

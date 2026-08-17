@@ -782,8 +782,9 @@ public final class PlayerQuitFromMpNotifyOuterClass {
       "BY_PLAY\020\t\0228\n4QuitReason_KICK_BY_ISLAND_P" +
       "ARTY_GALLERY_START_FAILED\020\n\022%\n!QuitReaso" +
       "n_KICK_BY_HOST_ADS_BLOCK\020\013\022\035\n\031QuitReason" +
-      "_BE_ADS_BLOCKED\020\014B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "_BE_ADS_BLOCKED\020\014B=\n\031emu.grasscutter.net" +
+      ".protoB PlayerQuitFromMpNotifyOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

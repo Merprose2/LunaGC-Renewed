@@ -738,8 +738,8 @@ public final class MpPlayOwnerCheckRspOuterClass {
       "\n\031MpPlayOwnerCheckRsp.proto\"d\n\023MpPlayOwn" +
       "erCheckRsp\022\025\n\ris_skip_match\030\010 \001(\010\022\017\n\007ret" +
       "code\030\t \001(\005\022\021\n\twrong_uid\030\r \001(\r\022\022\n\nmp_play" +
-      "_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\016 \001(\rB:\n\031emu.grasscutter.net.protoB\035" +
+      "MpPlayOwnerCheckRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

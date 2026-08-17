@@ -668,8 +668,8 @@ public final class IKJECGCMMNGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IKJECGCMMNG.proto\"B\n\013IKJECGCMMNG\022\013\n\003ui" +
       "d\030\003 \001(\r\022\024\n\014dungeon_guid\030\n \001(\004\022\020\n\010is_agre" +
-      "e\030\016 \001(\010B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "e\030\016 \001(\010B2\n\031emu.grasscutter.net.protoB\025IK" +
+      "JECGCMMNGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

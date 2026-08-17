@@ -1893,8 +1893,9 @@ public final class GCBGBNDDCOPOuterClass {
       "\013EONGIPPAPHK\030\004 \003(\0132\013.Uint32Pair\022\031\n\010born_" +
       "pos\030\005 \001(\0132\007.Vector\022 \n\013INHMBNEMDEC\030\010 \003(\0132" +
       "\013.Uint32Pair\022\023\n\013HLFHEHMIODI\030\t \001(\r\022\023\n\013LKN" +
-      "BNGPJOCM\030\r \001(\r\022\023\n\013PFMECPOEBEA\030\016 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "BNGPJOCM\030\r \001(\r\022\023\n\013PFMECPOEBEA\030\016 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025GCBGBNDDCOPOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

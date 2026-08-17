@@ -722,8 +722,9 @@ public final class GLHLNCGFBABOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GLHLNCGFBAB.proto\"2\n\013GLHLNCGFBAB\022\022\n\nsk" +
-      "ill_list\030\004 \003(\r\022\017\n\007retcode\030\t \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "ill_list\030\004 \003(\r\022\017\n\007retcode\030\t \001(\005B2\n\031emu.g" +
+      "rasscutter.net.protoB\025GLHLNCGFBABOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

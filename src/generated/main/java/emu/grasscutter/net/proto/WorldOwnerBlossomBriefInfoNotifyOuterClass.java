@@ -832,8 +832,9 @@ public final class WorldOwnerBlossomBriefInfoNotifyOuterClass {
       "\n&WorldOwnerBlossomBriefInfoNotify.proto" +
       "\032\026BlossomBriefInfo.proto\"N\n WorldOwnerBl" +
       "ossomBriefInfoNotify\022*\n\017brief_info_list\030" +
-      "\013 \003(\0132\021.BlossomBriefInfoB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\013 \003(\0132\021.BlossomBriefInfoBG\n\031emu.grasscut" +
+      "ter.net.protoB*WorldOwnerBlossomBriefInf" +
+      "oNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

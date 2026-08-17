@@ -1029,7 +1029,8 @@ public final class IslandPartyGallerySettleInfoOuterClass {
       "nfo.proto\"q\n\034IslandPartyGallerySettleInf" +
       "o\022&\n\013player_info\030\001 \001(\0132\021.OnlinePlayerInf" +
       "o\022)\n\tcard_list\030\014 \003(\0132\026.ExhibitionDisplay" +
-      "InfoB\033\n\031emu.grasscutter.net.protob\006proto" +
+      "InfoBC\n\031emu.grasscutter.net.protoB&Islan" +
+      "dPartyGallerySettleInfoOuterClassb\006proto" +
       "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

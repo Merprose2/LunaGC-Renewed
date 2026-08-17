@@ -1128,8 +1128,8 @@ public final class EPIINCFGMIHOuterClass {
       "\001\n\013EPIINCFGMIH\022\023\n\013ENPINNAMBDG\030\001 \003(\004\022\023\n\013H" +
       "MFHCPIKGCO\030\002 \001(\t\022\023\n\013NGEDGDGBAID\030\003 \001(\014\022\022\n" +
       "\nrequest_id\030\004 \001(\t\022!\n\013KPIIKGLKALJ\030\005 \001(\0162\014" +
-      ".ADDLKMJNBHEB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      ".ADDLKMJNBHEB2\n\031emu.grasscutter.net.prot" +
+      "oB\025EPIINCFGMIHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

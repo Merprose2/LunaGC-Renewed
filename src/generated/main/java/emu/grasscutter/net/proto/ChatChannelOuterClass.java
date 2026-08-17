@@ -394,8 +394,9 @@ public final class ChatChannelOuterClass {
       "hannel_CHANNEL_ALL\020\031\022\034\n\030ChatChannel_CHAN" +
       "NEL_TEST\020d\0224\n/ChatChannel_CHANNEL_FEATUR" +
       "E_SWITCH_BLOCK_BEYOND\020\351\007\0221\n,ChatChannel_" +
-      "CHANNEL_FEATURE_SWITCH_BLOCK_ALL\020\352\007B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "CHANNEL_FEATURE_SWITCH_BLOCK_ALL\020\352\007B2\n\031e" +
+      "mu.grasscutter.net.protoB\025ChatChannelOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

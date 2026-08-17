@@ -738,8 +738,9 @@ public final class HLAALBHEELBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HLAALBHEELB.proto\"X\n\013HLAALBHEELB\022\n\n\002id" +
       "\030\002 \001(\005\022\023\n\013BONCEEINDDC\030\003 \001(\010\022\023\n\013DJPJAFGGK" +
-      "CJ\030\006 \001(\010\022\023\n\013KMDOFBPMGAI\030\r \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "CJ\030\006 \001(\010\022\023\n\013KMDOFBPMGAI\030\r \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025HLAALBHEELBOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

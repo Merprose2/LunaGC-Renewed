@@ -706,7 +706,8 @@ public final class FishBattleEndReqOuterClass {
       "lt.proto\"m\n\020FishBattleEndReq\022\026\n\016max_bonu" +
       "s_time\030\001 \001(\r\022(\n\rbattle_result\030\004 \001(\0162\021.Fi" +
       "shBattleResult\022\027\n\017is_always_bonus\030\013 \001(\010B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "7\n\031emu.grasscutter.net.protoB\032FishBattle" +
+      "EndReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

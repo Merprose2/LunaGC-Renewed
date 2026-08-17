@@ -730,8 +730,9 @@ public final class ECLCHOOFELNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ECLCHOOFELN.proto\032\021LFJJHJEPGDO.proto\"E" +
       "\n\013ECLCHOOFELN\022!\n\013DGMMCBCOKKL\030\001 \001(\0132\014.LFJ" +
-      "JHJEPGDO\022\023\n\013JPNLCJKAAKH\030\007 \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "JHJEPGDO\022\023\n\013JPNLCJKAAKH\030\007 \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025ECLCHOOFELNOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

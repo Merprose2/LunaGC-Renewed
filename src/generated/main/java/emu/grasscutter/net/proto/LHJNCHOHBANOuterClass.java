@@ -986,8 +986,9 @@ public final class LHJNCHOHBANOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LHJNCHOHBAN.proto\"[\n\013LHJNCHOHBAN\022\017\n\007re" +
       "tcode\030\005 \001(\005\022\023\n\013CBHPBBCOPPE\030\007 \003(\r\022\023\n\013FEIA" +
-      "NMMFPJC\030\010 \003(\r\022\021\n\tentity_id\030\n \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "NMMFPJC\030\010 \003(\r\022\021\n\tentity_id\030\n \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025LHJNCHOHBANOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

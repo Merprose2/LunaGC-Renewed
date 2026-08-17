@@ -978,8 +978,9 @@ public final class GCGSkillPreviewCardInfoOuterClass {
       "\n\tface_type\030\001 \001(\r\022\021\n\tcard_guid\030\005 \001(\r\022\025\n\r" +
       "controller_id\030\007 \001(\r\022\017\n\007card_id\030\t \001(\r\022\037\n\t" +
       "zone_type\030\n \001(\0162\014.GCGZoneType\022\023\n\013OGOJLDG" +
-      "OPME\030\013 \001(\r\022\027\n\017owner_card_guid\030\017 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "OPME\030\013 \001(\r\022\027\n\017owner_card_guid\030\017 \001(\rB>\n\031e" +
+      "mu.grasscutter.net.protoB!GCGSkillPrevie" +
+      "wCardInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

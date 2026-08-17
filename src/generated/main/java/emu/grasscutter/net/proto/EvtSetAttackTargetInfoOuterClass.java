@@ -659,8 +659,8 @@ public final class EvtSetAttackTargetInfoOuterClass {
       "\n\034EvtSetAttackTargetInfo.proto\"a\n\026EvtSet" +
       "AttackTargetInfo\022\021\n\tentity_id\030\001 \001(\r\022\030\n\020a" +
       "ttack_target_id\030\002 \001(\r\022\032\n\022select_point_in" +
-      "dex\030\006 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "dex\030\006 \001(\rB=\n\031emu.grasscutter.net.protoB " +
+      "EvtSetAttackTargetInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

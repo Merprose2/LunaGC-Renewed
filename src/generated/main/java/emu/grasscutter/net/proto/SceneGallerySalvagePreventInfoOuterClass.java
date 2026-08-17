@@ -518,8 +518,9 @@ public final class SceneGallerySalvagePreventInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n$SceneGallerySalvagePreventInfo.proto\"7" +
       "\n\036SceneGallerySalvagePreventInfo\022\025\n\rmons" +
-      "ter_count\030\002 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "ter_count\030\002 \001(\rBE\n\031emu.grasscutter.net.p" +
+      "rotoB(SceneGallerySalvagePreventInfoOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

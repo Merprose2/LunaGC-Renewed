@@ -730,8 +730,10 @@ public final class SceneGalleryLuminanceStoneChallengeInfoOuterClass {
       "o.proto\"\221\001\n\'SceneGalleryLuminanceStoneCh" +
       "allengeInfo\022\032\n\022kill_monster_count\030\002 \001(\r\022" +
       "\"\n\032kill_special_monster_count\030\005 \001(\r\022\r\n\005s" +
-      "core\030\t \001(\r\022\027\n\017clean_mud_count\030\014 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "core\030\t \001(\r\022\027\n\017clean_mud_count\030\014 \001(\rBN\n\031e" +
+      "mu.grasscutter.net.protoB1SceneGalleryLu" +
+      "minanceStoneChallengeInfoOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

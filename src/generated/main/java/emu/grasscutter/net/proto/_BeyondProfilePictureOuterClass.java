@@ -19,7 +19,7 @@ public final class _BeyondProfilePictureOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 _profile_picture_id = 1;</code>
+     * <code>uint32 profile_picture_id = 1;</code>
      * @return The profilePictureId.
      */
     int getProfilePictureId();
@@ -109,7 +109,7 @@ public final class _BeyondProfilePictureOuterClass {
               break;
             case 8: {
 
-              ProfilePictureId_ = input.readUInt32();
+              profilePictureId_ = input.readUInt32();
               break;
             }
             case 16: {
@@ -166,15 +166,15 @@ public final class _BeyondProfilePictureOuterClass {
               emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture.class, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture.Builder.class);
     }
 
-    public static final int _PROFILE_PICTURE_ID_FIELD_NUMBER = 1;
-    private int ProfilePictureId_;
+    public static final int PROFILE_PICTURE_ID_FIELD_NUMBER = 1;
+    private int profilePictureId_;
     /**
-     * <code>uint32 _profile_picture_id = 1;</code>
+     * <code>uint32 profile_picture_id = 1;</code>
      * @return The profilePictureId.
      */
     @java.lang.Override
     public int getProfilePictureId() {
-      return ProfilePictureId_;
+      return profilePictureId_;
     }
 
     public static final int OGAGBJGPONB_FIELD_NUMBER = 2;
@@ -289,8 +289,8 @@ public final class _BeyondProfilePictureOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (ProfilePictureId_ != 0) {
-        output.writeUInt32(1, ProfilePictureId_);
+      if (profilePictureId_ != 0) {
+        output.writeUInt32(1, profilePictureId_);
       }
       if (oGAGBJGPONB_ != false) {
         output.writeBool(2, oGAGBJGPONB_);
@@ -313,9 +313,9 @@ public final class _BeyondProfilePictureOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (ProfilePictureId_ != 0) {
+      if (profilePictureId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, ProfilePictureId_);
+          .computeUInt32Size(1, profilePictureId_);
       }
       if (oGAGBJGPONB_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -367,7 +367,7 @@ public final class _BeyondProfilePictureOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + _PROFILE_PICTURE_ID_FIELD_NUMBER;
+      hash = (37 * hash) + PROFILE_PICTURE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getProfilePictureId();
       hash = (37 * hash) + OGAGBJGPONB_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
@@ -511,7 +511,7 @@ public final class _BeyondProfilePictureOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        ProfilePictureId_ = 0;
+        profilePictureId_ = 0;
 
         oGAGBJGPONB_ = false;
 
@@ -547,7 +547,7 @@ public final class _BeyondProfilePictureOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture buildPartial() {
         emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture result = new emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture(this);
-        result.ProfilePictureId_ = ProfilePictureId_;
+        result.profilePictureId_ = profilePictureId_;
         result.oGAGBJGPONB_ = oGAGBJGPONB_;
         result.lPAKOLBCKNE_ = lPAKOLBCKNE_;
         result.gKJIHMFEMHG_ = gKJIHMFEMHG_;
@@ -646,33 +646,33 @@ public final class _BeyondProfilePictureOuterClass {
         return this;
       }
 
-      private int ProfilePictureId_ ;
+      private int profilePictureId_ ;
       /**
-       * <code>uint32 _profile_picture_id = 1;</code>
+       * <code>uint32 profile_picture_id = 1;</code>
        * @return The profilePictureId.
        */
       @java.lang.Override
       public int getProfilePictureId() {
-        return ProfilePictureId_;
+        return profilePictureId_;
       }
       /**
-       * <code>uint32 _profile_picture_id = 1;</code>
+       * <code>uint32 profile_picture_id = 1;</code>
        * @param value The profilePictureId to set.
        * @return This builder for chaining.
        */
       public Builder setProfilePictureId(int value) {
         
-        ProfilePictureId_ = value;
+        profilePictureId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 _profile_picture_id = 1;</code>
+       * <code>uint32 profile_picture_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearProfilePictureId() {
         
-        ProfilePictureId_ = 0;
+        profilePictureId_ = 0;
         onChanged();
         return this;
       }
@@ -957,12 +957,12 @@ public final class _BeyondProfilePictureOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033_BeyondProfilePicture.proto\"\210\001\n\025_Beyon" +
-      "dProfilePicture\022\033\n\023_profile_picture_id\030\001" +
-      " \001(\r\022\023\n\013OGAGBJGPONB\030\002 \001(\010\022\023\n\013LPAKOLBCKNE" +
-      "\030\003 \001(\t\022\023\n\013GKJIHMFEMHG\030\004 \001(\t\022\023\n\013MDMBIJIKE" +
-      "LK\030\005 \001(\rB<\n\031emu.grasscutter.net.protoB\037_" +
-      "BeyondProfilePictureOuterClassb\006proto3"
+      "\n\033_BeyondProfilePicture.proto\"\207\001\n\025_Beyon" +
+      "dProfilePicture\022\032\n\022profile_picture_id\030\001 " +
+      "\001(\r\022\023\n\013OGAGBJGPONB\030\002 \001(\010\022\023\n\013LPAKOLBCKNE\030" +
+      "\003 \001(\t\022\023\n\013GKJIHMFEMHG\030\004 \001(\t\022\023\n\013MDMBIJIKEL" +
+      "K\030\005 \001(\rB<\n\031emu.grasscutter.net.protoB\037_B" +
+      "eyondProfilePictureOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

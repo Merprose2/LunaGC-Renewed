@@ -597,8 +597,9 @@ public final class MpPlayInviteResultNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036MpPlayInviteResultNotify.proto\"A\n\030MpPl" +
       "ayInviteResultNotify\022\022\n\nmp_play_id\030\003 \001(\r" +
-      "\022\021\n\tall_argee\030\004 \001(\010B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\022\021\n\tall_argee\030\004 \001(\010B?\n\031emu.grasscutter.n" +
+      "et.protoB\"MpPlayInviteResultNotifyOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

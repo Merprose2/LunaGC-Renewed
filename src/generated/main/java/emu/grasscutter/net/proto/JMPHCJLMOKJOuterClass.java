@@ -1027,8 +1027,9 @@ public final class JMPHCJLMOKJOuterClass {
       "\n\021JMPHCJLMOKJ.proto\032\021BMCNDGLNKJO.proto\032\021" +
       "DNGNPLNHJIK.proto\"S\n\013JMPHCJLMOKJ\022!\n\013AIFI" +
       "NBHOADP\030\001 \001(\0132\014.DNGNPLNHJIK\022!\n\013NCHCNOPEJ" +
-      "HK\030\002 \003(\0132\014.BMCNDGLNKJOB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "HK\030\002 \003(\0132\014.BMCNDGLNKJOB2\n\031emu.grasscutte" +
+      "r.net.protoB\025JMPHCJLMOKJOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

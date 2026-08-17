@@ -152,8 +152,8 @@ public final class GNOKNFHDHEPOuterClass {
       "\n\021GNOKNFHDHEP.proto*k\n\013GNOKNFHDHEP\022\027\n\023GN" +
       "OKNFHDHEP_UNKNOWN\020\000\022\024\n\020GNOKNFHDHEP_INIT\020" +
       "\001\022\024\n\020GNOKNFHDHEP_LIKE\020\002\022\027\n\023GNOKNFHDHEP_D" +
-      "ISLIKE\020\003B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "ISLIKE\020\003B2\n\031emu.grasscutter.net.protoB\025G" +
+      "NOKNFHDHEPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

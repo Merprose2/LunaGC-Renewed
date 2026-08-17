@@ -768,8 +768,9 @@ public final class EvtFaceToDirNotifyOuterClass {
       "Info.proto\032\021ForwardType.proto\"i\n\022EvtFace" +
       "ToDirNotify\022/\n\024evt_face_to_dir_info\030\004 \001(" +
       "\0132\021.EvtFaceToDirInfo\022\"\n\014forward_type\030\005 \001" +
-      "(\0162\014.ForwardTypeB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "(\0162\014.ForwardTypeB9\n\031emu.grasscutter.net." +
+      "protoB\034EvtFaceToDirNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1926,7 +1926,8 @@ public final class FJFKPAIMBFDOuterClass {
       "LOPIFJLB\022\020\n\010nickname\030\t \001(\t\022\025\n\ris_new_rec" +
       "ord\030\n \001(\010\022\023\n\013HOKNDFLEHMA\030\013 \001(\r\022\034\n\006result" +
       "\030\016 \001(\0162\014.NAHLMAIAEPD\022\021\n\tonline_id\030\017 \001(\tB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025FJFKPAIMBF" +
+      "DOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

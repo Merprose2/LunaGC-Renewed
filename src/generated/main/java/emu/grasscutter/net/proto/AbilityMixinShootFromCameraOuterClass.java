@@ -855,8 +855,9 @@ public final class AbilityMixinShootFromCameraOuterClass {
       "\n!AbilityMixinShootFromCamera.proto\032\014Vec" +
       "tor.proto\"R\n\033AbilityMixinShootFromCamera" +
       "\022\030\n\007forward\030\004 \001(\0132\007.Vector\022\031\n\010init_pos\030\t" +
-      " \001(\0132\007.VectorB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      " \001(\0132\007.VectorBB\n\031emu.grasscutter.net.pro" +
+      "toB%AbilityMixinShootFromCameraOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

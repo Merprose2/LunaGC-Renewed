@@ -2560,8 +2560,8 @@ public final class MEJMJOCLEBLOuterClass {
       "\n\013NCMHABHCAJK\030\206\004 \001(\0132\014.ELCEHBGKMMJ\022\024\n\013AK" +
       "LCDEENMGN\030\207\004 \001(\005\022\024\n\013LIEAOAMOKAO\030\210\004 \001(\005\022\"" +
       "\n\013NCJEJDIIHJG\030\211\004 \001(\0132\014.ELCEHBGKMMJ\022\024\n\013CP" +
-      "PAJKKNGON\030\212\004 \001(\005B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "PAJKKNGON\030\212\004 \001(\005B2\n\031emu.grasscutter.net." +
+      "protoB\025MEJMJOCLEBLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class BGABMLLOGOBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BGABMLLOGOB.proto\"/\n\013BGABMLLOGOB\022\013\n\003ui" +
-      "d\030\013 \001(\r\022\023\n\013schedule_id\030\016 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "d\030\013 \001(\r\022\023\n\013schedule_id\030\016 \001(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025BGABMLLOGOBOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

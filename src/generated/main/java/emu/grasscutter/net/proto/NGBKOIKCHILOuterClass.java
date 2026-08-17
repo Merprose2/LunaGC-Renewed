@@ -667,8 +667,8 @@ public final class NGBKOIKCHILOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NGBKOIKCHIL.proto\"H\n\013NGBKOIKCHIL\022\023\n\013HI" +
       "PHEHLDBDN\030\t \001(\r\022\017\n\007retcode\030\013 \001(\005\022\023\n\013PNFA" +
-      "NMAEHOA\030\016 \001(\010B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "NMAEHOA\030\016 \001(\010B2\n\031emu.grasscutter.net.pro" +
+      "toB\025NGBKOIKCHILOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

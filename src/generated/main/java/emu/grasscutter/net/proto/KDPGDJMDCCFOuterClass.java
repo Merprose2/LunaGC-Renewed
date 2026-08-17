@@ -517,8 +517,8 @@ public final class KDPGDJMDCCFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KDPGDJMDCCF.proto\"\"\n\013KDPGDJMDCCF\022\023\n\013DC" +
-      "GAOBINFFC\030\003 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "GAOBINFFC\030\003 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025KDPGDJMDCCFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

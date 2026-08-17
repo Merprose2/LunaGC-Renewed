@@ -634,8 +634,9 @@ public final class DBELAAGKAKNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DBELAAGKAKN.proto\032\021HPJDMFPCFNP.proto\"@" +
       "\n\013DBELAAGKAKN\022\023\n\013DMOAFJHLHMH\030\006 \001(\010\022\034\n\006re" +
-      "ason\030\010 \001(\0162\014.HPJDMFPCFNPB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "ason\030\010 \001(\0162\014.HPJDMFPCFNPB2\n\031emu.grasscut" +
+      "ter.net.protoB\025DBELAAGKAKNOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

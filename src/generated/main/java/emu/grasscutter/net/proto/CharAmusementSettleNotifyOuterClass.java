@@ -669,7 +669,8 @@ public final class CharAmusementSettleNotifyOuterClass {
       "\n\037CharAmusementSettleNotify.proto\"X\n\031Cha" +
       "rAmusementSettleNotify\022\025\n\ris_new_record\030" +
       "\001 \001(\010\022\017\n\007is_succ\030\004 \001(\010\022\023\n\013finish_time\030\007 " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB@\n\031emu.grasscutter.net.protoB#CharAm" +
+      "usementSettleNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

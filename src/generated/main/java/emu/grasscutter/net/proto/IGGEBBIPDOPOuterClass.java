@@ -525,8 +525,8 @@ public final class IGGEBBIPDOPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IGGEBBIPDOP.proto\"\"\n\013IGGEBBIPDOP\022\023\n\013AE" +
-      "GAAAPBOMI\030\001 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "GAAAPBOMI\030\001 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025IGGEBBIPDOPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

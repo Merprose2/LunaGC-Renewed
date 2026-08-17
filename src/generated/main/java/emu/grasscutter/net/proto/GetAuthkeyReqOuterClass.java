@@ -746,8 +746,8 @@ public final class GetAuthkeyReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\023GetAuthkeyReq.proto\"K\n\rGetAuthkeyReq\022\022" +
       "\n\nauth_appid\030\001 \001(\t\022\021\n\tsign_type\030\r \001(\r\022\023\n" +
-      "\013authkey_ver\030\017 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\013authkey_ver\030\017 \001(\rB4\n\031emu.grasscutter.ne" +
+      "t.protoB\027GetAuthkeyReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

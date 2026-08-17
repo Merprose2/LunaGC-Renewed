@@ -660,8 +660,9 @@ public final class WidgetCoolDownDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030WidgetCoolDownData.proto\"L\n\022WidgetCool" +
       "DownData\022\022\n\nis_success\030\007 \001(\010\022\026\n\016cool_dow" +
-      "n_time\030\t \001(\004\022\n\n\002id\030\014 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "n_time\030\t \001(\004\022\n\n\002id\030\014 \001(\rB9\n\031emu.grasscut" +
+      "ter.net.protoB\034WidgetCoolDownDataOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

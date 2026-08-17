@@ -21,12 +21,12 @@ public final class OMHMMMNFBCCOuterClass {
     /**
      * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief> 
+    java.util.List<emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief> 
         getKOGKMKINNFNList();
     /**
      * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
      */
-    emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief getKOGKMKINNFN(int index);
+    emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief getKOGKMKINNFN(int index);
     /**
      * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
      */
@@ -34,12 +34,12 @@ public final class OMHMMMNFBCCOuterClass {
     /**
      * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder> 
         getKOGKMKINNFNOrBuilderList();
     /**
      * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
      */
-    emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder getKOGKMKINNFNOrBuilder(
+    emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder getKOGKMKINNFNOrBuilder(
         int index);
   }
   /**
@@ -95,11 +95,11 @@ public final class OMHMMMNFBCCOuterClass {
               break;
             case 98: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                kOGKMKINNFN_ = new java.util.ArrayList<emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief>();
+                kOGKMKINNFN_ = new java.util.ArrayList<emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief>();
                 mutable_bitField0_ |= 0x00000001;
               }
               kOGKMKINNFN_.add(
-                  input.readMessage(emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -138,19 +138,19 @@ public final class OMHMMMNFBCCOuterClass {
     }
 
     public static final int KOGKMKINNFN_FIELD_NUMBER = 12;
-    private java.util.List<emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief> kOGKMKINNFN_;
+    private java.util.List<emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief> kOGKMKINNFN_;
     /**
      * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief> getKOGKMKINNFNList() {
+    public java.util.List<emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief> getKOGKMKINNFNList() {
       return kOGKMKINNFN_;
     }
     /**
      * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder> 
         getKOGKMKINNFNOrBuilderList() {
       return kOGKMKINNFN_;
     }
@@ -165,14 +165,14 @@ public final class OMHMMMNFBCCOuterClass {
      * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief getKOGKMKINNFN(int index) {
+    public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief getKOGKMKINNFN(int index) {
       return kOGKMKINNFN_.get(index);
     }
     /**
      * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder getKOGKMKINNFNOrBuilder(
+    public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder getKOGKMKINNFNOrBuilder(
         int index) {
       return kOGKMKINNFN_.get(index);
     }
@@ -523,22 +523,22 @@ public final class OMHMMMNFBCCOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief> kOGKMKINNFN_ =
+      private java.util.List<emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief> kOGKMKINNFN_ =
         java.util.Collections.emptyList();
       private void ensureKOGKMKINNFNIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          kOGKMKINNFN_ = new java.util.ArrayList<emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief>(kOGKMKINNFN_);
+          kOGKMKINNFN_ = new java.util.ArrayList<emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief>(kOGKMKINNFN_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder> kOGKMKINNFNBuilder_;
+          emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder> kOGKMKINNFNBuilder_;
 
       /**
        * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief> getKOGKMKINNFNList() {
+      public java.util.List<emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief> getKOGKMKINNFNList() {
         if (kOGKMKINNFNBuilder_ == null) {
           return java.util.Collections.unmodifiableList(kOGKMKINNFN_);
         } else {
@@ -558,7 +558,7 @@ public final class OMHMMMNFBCCOuterClass {
       /**
        * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
        */
-      public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief getKOGKMKINNFN(int index) {
+      public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief getKOGKMKINNFN(int index) {
         if (kOGKMKINNFNBuilder_ == null) {
           return kOGKMKINNFN_.get(index);
         } else {
@@ -569,7 +569,7 @@ public final class OMHMMMNFBCCOuterClass {
        * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
        */
       public Builder setKOGKMKINNFN(
-          int index, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief value) {
+          int index, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief value) {
         if (kOGKMKINNFNBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -586,7 +586,7 @@ public final class OMHMMMNFBCCOuterClass {
        * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
        */
       public Builder setKOGKMKINNFN(
-          int index, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder builderForValue) {
         if (kOGKMKINNFNBuilder_ == null) {
           ensureKOGKMKINNFNIsMutable();
           kOGKMKINNFN_.set(index, builderForValue.build());
@@ -599,7 +599,7 @@ public final class OMHMMMNFBCCOuterClass {
       /**
        * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
        */
-      public Builder addKOGKMKINNFN(emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief value) {
+      public Builder addKOGKMKINNFN(emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief value) {
         if (kOGKMKINNFNBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -616,7 +616,7 @@ public final class OMHMMMNFBCCOuterClass {
        * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
        */
       public Builder addKOGKMKINNFN(
-          int index, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief value) {
+          int index, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief value) {
         if (kOGKMKINNFNBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -633,7 +633,7 @@ public final class OMHMMMNFBCCOuterClass {
        * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
        */
       public Builder addKOGKMKINNFN(
-          emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder builderForValue) {
+          emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder builderForValue) {
         if (kOGKMKINNFNBuilder_ == null) {
           ensureKOGKMKINNFNIsMutable();
           kOGKMKINNFN_.add(builderForValue.build());
@@ -647,7 +647,7 @@ public final class OMHMMMNFBCCOuterClass {
        * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
        */
       public Builder addKOGKMKINNFN(
-          int index, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder builderForValue) {
         if (kOGKMKINNFNBuilder_ == null) {
           ensureKOGKMKINNFNIsMutable();
           kOGKMKINNFN_.add(index, builderForValue.build());
@@ -661,7 +661,7 @@ public final class OMHMMMNFBCCOuterClass {
        * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
        */
       public Builder addAllKOGKMKINNFN(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief> values) {
         if (kOGKMKINNFNBuilder_ == null) {
           ensureKOGKMKINNFNIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -701,14 +701,14 @@ public final class OMHMMMNFBCCOuterClass {
       /**
        * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
        */
-      public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder getKOGKMKINNFNBuilder(
+      public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder getKOGKMKINNFNBuilder(
           int index) {
         return getKOGKMKINNFNFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
        */
-      public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder getKOGKMKINNFNOrBuilder(
+      public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder getKOGKMKINNFNOrBuilder(
           int index) {
         if (kOGKMKINNFNBuilder_ == null) {
           return kOGKMKINNFN_.get(index);  } else {
@@ -718,7 +718,7 @@ public final class OMHMMMNFBCCOuterClass {
       /**
        * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder> 
            getKOGKMKINNFNOrBuilderList() {
         if (kOGKMKINNFNBuilder_ != null) {
           return kOGKMKINNFNBuilder_.getMessageOrBuilderList();
@@ -729,31 +729,31 @@ public final class OMHMMMNFBCCOuterClass {
       /**
        * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
        */
-      public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder addKOGKMKINNFNBuilder() {
+      public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder addKOGKMKINNFNBuilder() {
         return getKOGKMKINNFNFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.getDefaultInstance());
+            emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.getDefaultInstance());
       }
       /**
        * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
        */
-      public emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder addKOGKMKINNFNBuilder(
+      public emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder addKOGKMKINNFNBuilder(
           int index) {
         return getKOGKMKINNFNFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.getDefaultInstance());
+            index, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.getDefaultInstance());
       }
       /**
        * <code>repeated ._UgcDungeonBrief KOGKMKINNFN = 12;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder> 
            getKOGKMKINNFNBuilderList() {
         return getKOGKMKINNFNFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder> 
+          emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder> 
           getKOGKMKINNFNFieldBuilder() {
         if (kOGKMKINNFNBuilder_ == null) {
           kOGKMKINNFNBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBrief.Builder, emu.grasscutter.net.proto.UgcDungeonBrief._UgcDungeonBriefOrBuilder>(
+              emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBrief.Builder, emu.grasscutter.net.proto._UgcDungeonBriefOuterClass._UgcDungeonBriefOrBuilder>(
                   kOGKMKINNFN_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -831,13 +831,13 @@ public final class OMHMMMNFBCCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OMHMMMNFBCC.proto\032\026_UgcDungeonBrief.pr" +
       "oto\"5\n\013OMHMMMNFBCC\022&\n\013KOGKMKINNFN\030\014 \003(\0132" +
-      "\021._UgcDungeonBriefB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\021._UgcDungeonBriefB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025OMHMMMNFBCCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.UgcDungeonBrief.getDescriptor(),
+          emu.grasscutter.net.proto._UgcDungeonBriefOuterClass.getDescriptor(),
         });
     internal_static_OMHMMMNFBCC_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -845,7 +845,7 @@ public final class OMHMMMNFBCCOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_OMHMMMNFBCC_descriptor,
         new java.lang.String[] { "KOGKMKINNFN", });
-    emu.grasscutter.net.proto.UgcDungeonBrief.getDescriptor();
+    emu.grasscutter.net.proto._UgcDungeonBriefOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

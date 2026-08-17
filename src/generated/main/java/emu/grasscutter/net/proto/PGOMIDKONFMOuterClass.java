@@ -667,8 +667,9 @@ public final class PGOMIDKONFMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PGOMIDKONFM.proto\"7\n\013PGOMIDKONFM\022\023\n\013DD" +
-      "IHCMCGLAP\030\001 \001(\r\022\023\n\013NMGDKPIANJB\030\002 \001(\tB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "IHCMCGLAP\030\001 \001(\r\022\023\n\013NMGDKPIANJB\030\002 \001(\tB2\n\031" +
+      "emu.grasscutter.net.protoB\025PGOMIDKONFMOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

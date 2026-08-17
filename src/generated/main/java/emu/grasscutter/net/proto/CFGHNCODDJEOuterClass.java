@@ -722,8 +722,9 @@ public final class CFGHNCODDJEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CFGHNCODDJE.proto\"8\n\013CFGHNCODDJE\022\023\n\013bu" +
-      "ilding_id\030\t \001(\r\022\024\n\014card_id_list\030\013 \003(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "ilding_id\030\t \001(\r\022\024\n\014card_id_list\030\013 \003(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025CFGHNCODDJEO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

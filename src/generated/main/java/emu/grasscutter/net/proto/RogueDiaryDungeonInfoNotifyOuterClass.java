@@ -1713,8 +1713,9 @@ public final class RogueDiaryDungeonInfoNotifyOuterClass {
       "A\030\005 \003(\r\022\022\n\ndungeon_id\030\010 \001(\r\022\014\n\004coin\030\t \001(" +
       "\r\022\020\n\010stage_id\030\014 \001(\r\022&\n\troom_list\030\r \003(\0132\023" +
       ".RogueDiaryRoomInfo\022\022\n\ndifficulty\030\016 \001(\r\022" +
-      "\021\n\tcur_round\030\017 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\021\n\tcur_round\030\017 \001(\rBB\n\031emu.grasscutter.ne" +
+      "t.protoB%RogueDiaryDungeonInfoNotifyOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

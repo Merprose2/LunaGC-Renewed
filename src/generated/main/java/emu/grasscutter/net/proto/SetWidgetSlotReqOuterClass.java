@@ -934,8 +934,8 @@ public final class SetWidgetSlotReqOuterClass {
       "roto\032\023WidgetSlotTag.proto\"d\n\020SetWidgetSl" +
       "otReq\022\031\n\002op\030\006 \001(\0162\r.WidgetSlotOp\022\023\n\013mate" +
       "rial_id\030\010 \001(\r\022 \n\010tag_list\030\r \003(\0162\016.Widget" +
-      "SlotTagB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "SlotTagB7\n\031emu.grasscutter.net.protoB\032Se" +
+      "tWidgetSlotReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

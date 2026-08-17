@@ -2173,8 +2173,8 @@ public final class GCPDKENEPKOOuterClass {
       "B\030\010 \001(\010\022\023\n\013MMBNBIOMDHC\030\t \003(\r\022!\n\013DKEHFBLF" +
       "PJP\030\n \003(\0132\014.IHNALHEKDID\022\025\n\ris_new_record" +
       "\030\014 \001(\010\022\022\n\ndifficulty\030\r \001(\r\022\023\n\013AIMOFCDLAB" +
-      "D\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "D\030\017 \001(\010B2\n\031emu.grasscutter.net.protoB\025GC" +
+      "PDKENEPKOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

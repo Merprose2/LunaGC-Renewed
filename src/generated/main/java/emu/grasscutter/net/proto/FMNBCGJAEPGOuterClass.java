@@ -927,7 +927,8 @@ public final class FMNBCGJAEPGOuterClass {
       "IDBGEMOAAJI.proto\"h\n\013FMNBCGJAEPG\022\023\n\013ICIO" +
       "GPBPCJM\030\001 \001(\004\022!\n\013FHPGHEEEFOK\030\002 \001(\0132\014.BDC" +
       "IOKKMDBK\022!\n\013DBGPMLHNJAD\030\003 \001(\0132\014.IDBGEMOA" +
-      "AJIB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "AJIB2\n\031emu.grasscutter.net.protoB\025FMNBCG" +
+      "JAEPGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

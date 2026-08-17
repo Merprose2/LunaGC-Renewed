@@ -1234,8 +1234,9 @@ public final class GadgetPlayUidInfoOuterClass {
       "e\030\001 \001(\t\022\021\n\tonline_id\030\002 \001(\t\022\r\n\005score\030\005 \001(" +
       "\r\022\031\n\021battle_watcher_id\030\007 \001(\r\022\013\n\003uid\030\013 \001(" +
       "\r\022\014\n\004icon\030\r \001(\r\022(\n\017profile_picture\030\017 \001(\013" +
-      "2\017.ProfilePictureB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "2\017.ProfilePictureB8\n\031emu.grasscutter.net" +
+      ".protoB\033GadgetPlayUidInfoOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

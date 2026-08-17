@@ -1237,8 +1237,8 @@ public final class BCOEEHAPKHPOuterClass {
       "\001\n\013BCOEEHAPKHP\022\023\n\013ONANKBHNHGD\030\002 \003(\r\022\025\n\rd" +
       "ifficulty_id\030\003 \001(\r\022\017\n\007retcode\030\010 \001(\005\022\023\n\013M" +
       "DEFNKNKMME\030\t \001(\r\022!\n\013GIKGKBOOEBA\030\017 \003(\0132\014." +
-      "PHPBCLPALELB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "PHPBCLPALELB2\n\031emu.grasscutter.net.proto" +
+      "B\025BCOEEHAPKHPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

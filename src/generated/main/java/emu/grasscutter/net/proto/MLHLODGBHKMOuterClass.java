@@ -1389,8 +1389,8 @@ public final class MLHLODGBHKMOuterClass {
       "\n\013LIFIMBEPICC\030\005 \003(\0132\017.ShowAvatarInfo\022\023\n\013" +
       "PBBBLFJECID\030\007 \001(\r\022\023\n\013GHNIABHCKPO\030\t \001(\r\022\020" +
       "\n\010level_id\030\013 \001(\r\022\017\n\007is_open\030\014 \001(\010\022\023\n\013MLI" +
-      "INJCDNGJ\030\017 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "INJCDNGJ\030\017 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025MLHLODGBHKMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

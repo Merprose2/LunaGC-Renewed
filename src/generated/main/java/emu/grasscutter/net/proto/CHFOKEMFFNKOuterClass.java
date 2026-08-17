@@ -525,8 +525,8 @@ public final class CHFOKEMFFNKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CHFOKEMFFNK.proto\"!\n\013CHFOKEMFFNK\022\022\n\npl" +
-      "ayer_uid\030\t \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "ayer_uid\030\t \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025CHFOKEMFFNKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

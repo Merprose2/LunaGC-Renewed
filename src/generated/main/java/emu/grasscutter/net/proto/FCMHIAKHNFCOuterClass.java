@@ -852,8 +852,9 @@ public final class FCMHIAKHNFCOuterClass {
       "\n\021FCMHIAKHNFC.proto\"\207\001\n\013FCMHIAKHNFC\022\013\n\003u" +
       "id\030\004 \001(\r\0226\n\016open_state_map\030\013 \003(\0132\036.FCMHI" +
       "AKHNFC.OpenStateMapEntry\0323\n\021OpenStateMap" +
-      "Entry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "Entry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B2\n" +
+      "\031emu.grasscutter.net.protoB\025FCMHIAKHNFCO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

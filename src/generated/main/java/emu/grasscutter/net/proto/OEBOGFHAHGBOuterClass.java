@@ -925,8 +925,9 @@ public final class OEBOGFHAHGBOuterClass {
       "\n\021OEBOGFHAHGB.proto\032\021BOLJJBILENK.proto\"l" +
       "\n\013OEBOGFHAHGB\022\027\n\017collection_type\030\001 \001(\r\022!" +
       "\n\013GIMBCCMFJNE\030\002 \001(\0132\014.BOLJJBILENK\022!\n\013EBG" +
-      "KEFKJEEE\030\003 \001(\0132\014.BOLJJBILENKB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "KEFKJEEE\030\003 \001(\0132\014.BOLJJBILENKB2\n\031emu.gras" +
+      "scutter.net.protoB\025OEBOGFHAHGBOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -879,8 +879,9 @@ public final class GalleryBalloonShootNotifyOuterClass {
       "lleryBalloonShootNotify\022\022\n\ngallery_id\030\004 " +
       "\001(\r\022\032\n\022combo_disable_time\030\005 \001(\004\022\r\n\005combo" +
       "\030\007 \001(\r\022\031\n\021trigger_entity_id\030\010 \001(\r\022\021\n\tcur" +
-      "_score\030\013 \001(\r\022\021\n\tadd_score\030\016 \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "_score\030\013 \001(\r\022\021\n\tadd_score\030\016 \001(\005B@\n\031emu.g" +
+      "rasscutter.net.protoB#GalleryBalloonShoo" +
+      "tNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -909,7 +909,9 @@ public final class SceneGalleryIslandPartyRaftInfoOuterClass {
       "(\r\022\014\n\004coin\030\003 \001(\r\022\020\n\010point_id\030\n \001(\r\022\026\n\016ra" +
       "ft_entity_id\030\013 \001(\r\022)\n\014start_source\030\r \001(\016" +
       "2\023.GalleryStartSource\022\023\n\013JBFAFEKHKDF\030\016 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rBF\n\031emu.grasscutter.net.protoB)SceneGa" +
+      "lleryIslandPartyRaftInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

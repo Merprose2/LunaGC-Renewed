@@ -794,8 +794,9 @@ public final class SelectEffigyChallengeConditionReqOuterClass {
       "\n\'SelectEffigyChallengeConditionReq.prot" +
       "o\"k\n!SelectEffigyChallengeConditionReq\022\024" +
       "\n\014challenge_id\030\003 \001(\r\022\025\n\rdifficulty_id\030\005 " +
-      "\001(\r\022\031\n\021condition_id_list\030\017 \003(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\001(\r\022\031\n\021condition_id_list\030\017 \003(\rBH\n\031emu.gr" +
+      "asscutter.net.protoB+SelectEffigyChallen" +
+      "geConditionReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

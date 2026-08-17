@@ -525,8 +525,9 @@ public final class CompoundUnlockNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032CompoundUnlockNotify.proto\"+\n\024Compound" +
-      "UnlockNotify\022\023\n\013compound_id\030\010 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "UnlockNotify\022\023\n\013compound_id\030\010 \001(\rB;\n\031emu" +
+      ".grasscutter.net.protoB\036CompoundUnlockNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

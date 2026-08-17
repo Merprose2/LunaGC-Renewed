@@ -800,8 +800,9 @@ public final class PersonalSceneJumpRspOuterClass {
       "\n\032PersonalSceneJumpRsp.proto\032\014Vector.pro" +
       "to\"Y\n\024PersonalSceneJumpRsp\022\017\n\007retcode\030\003 " +
       "\001(\005\022\025\n\rdest_scene_id\030\005 \001(\r\022\031\n\010dest_pos\030\014" +
-      " \001(\0132\007.VectorB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      " \001(\0132\007.VectorB;\n\031emu.grasscutter.net.pro" +
+      "toB\036PersonalSceneJumpRspOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1213,8 +1213,9 @@ public final class GCGSkillPreviewElementReactionInfoOuterClass {
       "\n\"GCGSkillPreviewElementReactionInfo\022\023\n\013" +
       "JGMBAAAJNJK\030\001 \003(\r\022\023\n\013HMJLLBFLHGF\030\n \003(\r\0223" +
       "\n\rreaction_list\030\r \003(\0132\034.GCGSkillPreviewR" +
-      "eactionInfoB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "eactionInfoBI\n\031emu.grasscutter.net.proto" +
+      "B,GCGSkillPreviewElementReactionInfoOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

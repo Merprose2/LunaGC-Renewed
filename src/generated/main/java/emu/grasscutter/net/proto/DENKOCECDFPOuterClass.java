@@ -2318,8 +2318,9 @@ public final class DENKOCECDFPOuterClass {
       "AFPDHBDNB\030\013 \003(\0132\007.Vector\022\017\n\007retcode\030\014 \001(" +
       "\005\"g\n\013FFCMDLJOAFE\022\033\n\027FFCMDLJOAFE_STATUS_F" +
       "AIL\020\000\022\033\n\027FFCMDLJOAFE_STATUS_SUCC\020\001\022\036\n\032FF" +
-      "CMDLJOAFE_STATUS_PARTIAL\020\002B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "CMDLJOAFE_STATUS_PARTIAL\020\002B2\n\031emu.grassc" +
+      "utter.net.protoB\025DENKOCECDFPOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

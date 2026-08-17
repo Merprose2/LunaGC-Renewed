@@ -21,12 +21,12 @@ public final class ShareCDInfoOuterClass {
     /**
      * <code>repeated ._ShareCD _share_cd_list = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ShareCD._ShareCD> 
+    java.util.List<emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD> 
         getShareCdListList();
     /**
      * <code>repeated ._ShareCD _share_cd_list = 1;</code>
      */
-    emu.grasscutter.net.proto.ShareCD._ShareCD getShareCdList(int index);
+    emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD getShareCdList(int index);
     /**
      * <code>repeated ._ShareCD _share_cd_list = 1;</code>
      */
@@ -34,12 +34,12 @@ public final class ShareCDInfoOuterClass {
     /**
      * <code>repeated ._ShareCD _share_cd_list = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ShareCD._ShareCDOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._ShareCDOuterClass._ShareCDOrBuilder> 
         getShareCdListOrBuilderList();
     /**
      * <code>repeated ._ShareCD _share_cd_list = 1;</code>
      */
-    emu.grasscutter.net.proto.ShareCD._ShareCDOrBuilder getShareCdListOrBuilder(
+    emu.grasscutter.net.proto._ShareCDOuterClass._ShareCDOrBuilder getShareCdListOrBuilder(
         int index);
 
     /**
@@ -97,11 +97,11 @@ public final class ShareCDInfoOuterClass {
               break;
             case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                ShareCdList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ShareCD._ShareCD>();
+                ShareCdList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD>();
                 mutable_bitField0_ |= 0x00000001;
               }
               ShareCdList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ShareCD._ShareCD.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD.parser(), extensionRegistry));
               break;
             }
             case 24: {
@@ -145,19 +145,19 @@ public final class ShareCDInfoOuterClass {
     }
 
     public static final int _SHARE_CD_LIST_FIELD_NUMBER = 1;
-    private java.util.List<emu.grasscutter.net.proto.ShareCD._ShareCD> ShareCdList_;
+    private java.util.List<emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD> ShareCdList_;
     /**
      * <code>repeated ._ShareCD _share_cd_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.ShareCD._ShareCD> getShareCdListList() {
+    public java.util.List<emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD> getShareCdListList() {
       return ShareCdList_;
     }
     /**
      * <code>repeated ._ShareCD _share_cd_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ShareCD._ShareCDOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._ShareCDOuterClass._ShareCDOrBuilder> 
         getShareCdListOrBuilderList() {
       return ShareCdList_;
     }
@@ -172,14 +172,14 @@ public final class ShareCDInfoOuterClass {
      * <code>repeated ._ShareCD _share_cd_list = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ShareCD._ShareCD getShareCdList(int index) {
+    public emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD getShareCdList(int index) {
       return ShareCdList_.get(index);
     }
     /**
      * <code>repeated ._ShareCD _share_cd_list = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ShareCD._ShareCDOrBuilder getShareCdListOrBuilder(
+    public emu.grasscutter.net.proto._ShareCDOuterClass._ShareCDOrBuilder getShareCdListOrBuilder(
         int index) {
       return ShareCdList_.get(index);
     }
@@ -554,22 +554,22 @@ public final class ShareCDInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.ShareCD._ShareCD> ShareCdList_ =
+      private java.util.List<emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD> ShareCdList_ =
         java.util.Collections.emptyList();
       private void ensureShareCdListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          ShareCdList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ShareCD._ShareCD>(ShareCdList_);
+          ShareCdList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD>(ShareCdList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ShareCD._ShareCD, emu.grasscutter.net.proto.ShareCD._ShareCD.Builder, emu.grasscutter.net.proto.ShareCD._ShareCDOrBuilder> ShareCdListBuilder_;
+          emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD, emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD.Builder, emu.grasscutter.net.proto._ShareCDOuterClass._ShareCDOrBuilder> ShareCdListBuilder_;
 
       /**
        * <code>repeated ._ShareCD _share_cd_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ShareCD._ShareCD> getShareCdListList() {
+      public java.util.List<emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD> getShareCdListList() {
         if (ShareCdListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(ShareCdList_);
         } else {
@@ -589,7 +589,7 @@ public final class ShareCDInfoOuterClass {
       /**
        * <code>repeated ._ShareCD _share_cd_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.ShareCD._ShareCD getShareCdList(int index) {
+      public emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD getShareCdList(int index) {
         if (ShareCdListBuilder_ == null) {
           return ShareCdList_.get(index);
         } else {
@@ -600,7 +600,7 @@ public final class ShareCDInfoOuterClass {
        * <code>repeated ._ShareCD _share_cd_list = 1;</code>
        */
       public Builder setShareCdList(
-          int index, emu.grasscutter.net.proto.ShareCD._ShareCD value) {
+          int index, emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD value) {
         if (ShareCdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -617,7 +617,7 @@ public final class ShareCDInfoOuterClass {
        * <code>repeated ._ShareCD _share_cd_list = 1;</code>
        */
       public Builder setShareCdList(
-          int index, emu.grasscutter.net.proto.ShareCD._ShareCD.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD.Builder builderForValue) {
         if (ShareCdListBuilder_ == null) {
           ensureShareCdListIsMutable();
           ShareCdList_.set(index, builderForValue.build());
@@ -630,7 +630,7 @@ public final class ShareCDInfoOuterClass {
       /**
        * <code>repeated ._ShareCD _share_cd_list = 1;</code>
        */
-      public Builder addShareCdList(emu.grasscutter.net.proto.ShareCD._ShareCD value) {
+      public Builder addShareCdList(emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD value) {
         if (ShareCdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -647,7 +647,7 @@ public final class ShareCDInfoOuterClass {
        * <code>repeated ._ShareCD _share_cd_list = 1;</code>
        */
       public Builder addShareCdList(
-          int index, emu.grasscutter.net.proto.ShareCD._ShareCD value) {
+          int index, emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD value) {
         if (ShareCdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -664,7 +664,7 @@ public final class ShareCDInfoOuterClass {
        * <code>repeated ._ShareCD _share_cd_list = 1;</code>
        */
       public Builder addShareCdList(
-          emu.grasscutter.net.proto.ShareCD._ShareCD.Builder builderForValue) {
+          emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD.Builder builderForValue) {
         if (ShareCdListBuilder_ == null) {
           ensureShareCdListIsMutable();
           ShareCdList_.add(builderForValue.build());
@@ -678,7 +678,7 @@ public final class ShareCDInfoOuterClass {
        * <code>repeated ._ShareCD _share_cd_list = 1;</code>
        */
       public Builder addShareCdList(
-          int index, emu.grasscutter.net.proto.ShareCD._ShareCD.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD.Builder builderForValue) {
         if (ShareCdListBuilder_ == null) {
           ensureShareCdListIsMutable();
           ShareCdList_.add(index, builderForValue.build());
@@ -692,7 +692,7 @@ public final class ShareCDInfoOuterClass {
        * <code>repeated ._ShareCD _share_cd_list = 1;</code>
        */
       public Builder addAllShareCdList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.ShareCD._ShareCD> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD> values) {
         if (ShareCdListBuilder_ == null) {
           ensureShareCdListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -732,14 +732,14 @@ public final class ShareCDInfoOuterClass {
       /**
        * <code>repeated ._ShareCD _share_cd_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.ShareCD._ShareCD.Builder getShareCdListBuilder(
+      public emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD.Builder getShareCdListBuilder(
           int index) {
         return getShareCdListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._ShareCD _share_cd_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.ShareCD._ShareCDOrBuilder getShareCdListOrBuilder(
+      public emu.grasscutter.net.proto._ShareCDOuterClass._ShareCDOrBuilder getShareCdListOrBuilder(
           int index) {
         if (ShareCdListBuilder_ == null) {
           return ShareCdList_.get(index);  } else {
@@ -749,7 +749,7 @@ public final class ShareCDInfoOuterClass {
       /**
        * <code>repeated ._ShareCD _share_cd_list = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ShareCD._ShareCDOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._ShareCDOuterClass._ShareCDOrBuilder> 
            getShareCdListOrBuilderList() {
         if (ShareCdListBuilder_ != null) {
           return ShareCdListBuilder_.getMessageOrBuilderList();
@@ -760,31 +760,31 @@ public final class ShareCDInfoOuterClass {
       /**
        * <code>repeated ._ShareCD _share_cd_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.ShareCD._ShareCD.Builder addShareCdListBuilder() {
+      public emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD.Builder addShareCdListBuilder() {
         return getShareCdListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.ShareCD._ShareCD.getDefaultInstance());
+            emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD.getDefaultInstance());
       }
       /**
        * <code>repeated ._ShareCD _share_cd_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.ShareCD._ShareCD.Builder addShareCdListBuilder(
+      public emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD.Builder addShareCdListBuilder(
           int index) {
         return getShareCdListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.ShareCD._ShareCD.getDefaultInstance());
+            index, emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD.getDefaultInstance());
       }
       /**
        * <code>repeated ._ShareCD _share_cd_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ShareCD._ShareCD.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD.Builder> 
            getShareCdListBuilderList() {
         return getShareCdListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ShareCD._ShareCD, emu.grasscutter.net.proto.ShareCD._ShareCD.Builder, emu.grasscutter.net.proto.ShareCD._ShareCDOrBuilder> 
+          emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD, emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD.Builder, emu.grasscutter.net.proto._ShareCDOuterClass._ShareCDOrBuilder> 
           getShareCdListFieldBuilder() {
         if (ShareCdListBuilder_ == null) {
           ShareCdListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.ShareCD._ShareCD, emu.grasscutter.net.proto.ShareCD._ShareCD.Builder, emu.grasscutter.net.proto.ShareCD._ShareCDOrBuilder>(
+              emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD, emu.grasscutter.net.proto._ShareCDOuterClass._ShareCD.Builder, emu.grasscutter.net.proto._ShareCDOuterClass._ShareCDOrBuilder>(
                   ShareCdList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -893,13 +893,14 @@ public final class ShareCDInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ShareCDInfo.proto\032\016_ShareCD.proto\"E\n\013S" +
       "hareCDInfo\022!\n\016_share_cd_list\030\001 \003(\0132\t._Sh" +
-      "areCD\022\023\n\013share_cd_id\030\003 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "areCD\022\023\n\013share_cd_id\030\003 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025ShareCDInfoOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.ShareCD.getDescriptor(),
+          emu.grasscutter.net.proto._ShareCDOuterClass.getDescriptor(),
         });
     internal_static_ShareCDInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -907,7 +908,7 @@ public final class ShareCDInfoOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ShareCDInfo_descriptor,
         new java.lang.String[] { "ShareCdList", "ShareCdId", });
-    emu.grasscutter.net.proto.ShareCD.getDescriptor();
+    emu.grasscutter.net.proto._ShareCDOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

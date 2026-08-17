@@ -1049,8 +1049,9 @@ public final class BGNLONEGEAAOuterClass {
       "LLKPGMNGIBB.proto\"}\n\013BGNLONEGEAA\022&\n\016read" +
       "_transform\030\013 \001(\0132\014.DMFEOJKOOFBH\000\022&\n\016edit" +
       "_transform\030\014 \001(\0132\014.LLKPGMNGIBBH\000\022\024\n\013LIDA" +
-      "OEKMODL\030\365\003 \001(\005B\010\n\006detailB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "OEKMODL\030\365\003 \001(\005B\010\n\006detailB2\n\031emu.grasscut" +
+      "ter.net.protoB\025BGNLONEGEAAOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

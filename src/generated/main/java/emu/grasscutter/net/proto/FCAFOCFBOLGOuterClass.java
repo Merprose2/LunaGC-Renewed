@@ -964,8 +964,8 @@ public final class FCAFOCFBOLGOuterClass {
       "\n\021FCAFOCFBOLG.proto\032\021DCLEAJGCMBP.proto\"[" +
       "\n\013FCAFOCFBOLG\022!\n\013ACGHANFDILA\030\001 \003(\0132\014.DCL" +
       "EAJGCMBP\022\023\n\013MPIDPCANPNC\030\002 \001(\005\022\024\n\013BMEPGFK" +
-      "NJNG\030\372\003 \001(\005B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "NJNG\030\372\003 \001(\005B2\n\031emu.grasscutter.net.proto" +
+      "B\025FCAFOCFBOLGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

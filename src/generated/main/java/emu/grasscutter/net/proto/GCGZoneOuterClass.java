@@ -644,8 +644,8 @@ public final class GCGZoneOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\rGCGZone.proto\"\034\n\007GCGZone\022\021\n\tcard_list\030" +
-      "\n \003(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\n \003(\rB.\n\031emu.grasscutter.net.protoB\021GCGZ" +
+      "oneOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

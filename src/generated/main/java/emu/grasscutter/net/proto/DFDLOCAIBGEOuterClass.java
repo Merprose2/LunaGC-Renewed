@@ -831,8 +831,8 @@ public final class DFDLOCAIBGEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DFDLOCAIBGE.proto\032\016MainCoop.proto\"0\n\013D" +
       "FDLOCAIBGE\022!\n\016main_coop_list\030\007 \003(\0132\t.Mai" +
-      "nCoopB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "nCoopB2\n\031emu.grasscutter.net.protoB\025DFDL" +
+      "OCAIBGEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

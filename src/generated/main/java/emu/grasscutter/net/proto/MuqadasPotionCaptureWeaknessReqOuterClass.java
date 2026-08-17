@@ -597,8 +597,9 @@ public final class MuqadasPotionCaptureWeaknessReqOuterClass {
       "\n%MuqadasPotionCaptureWeaknessReq.proto\"" +
       "S\n\037MuqadasPotionCaptureWeaknessReq\022\036\n\026ca" +
       "pture_weakness_count\030\005 \001(\r\022\020\n\010level_id\030\013" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rBF\n\031emu.grasscutter.net.protoB)Muqad" +
+      "asPotionCaptureWeaknessReqOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

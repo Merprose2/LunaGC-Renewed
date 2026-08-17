@@ -823,8 +823,9 @@ public final class HomeLimitedShopOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025HomeLimitedShop.proto\032\032HomeLimitedShop" +
       "Goods.proto\"<\n\017HomeLimitedShop\022)\n\ngoods_" +
-      "list\030\t \003(\0132\025.HomeLimitedShopGoodsB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "list\030\t \003(\0132\025.HomeLimitedShopGoodsB6\n\031emu" +
+      ".grasscutter.net.protoB\031HomeLimitedShopO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

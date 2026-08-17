@@ -653,8 +653,9 @@ public final class HomeAvtarAllFinishRewardNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n$HomeAvtarAllFinishRewardNotify.proto\"7" +
       "\n\036HomeAvtarAllFinishRewardNotify\022\025\n\reven" +
-      "t_id_list\030\002 \003(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "t_id_list\030\002 \003(\rBE\n\031emu.grasscutter.net.p" +
+      "rotoB(HomeAvtarAllFinishRewardNotifyOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

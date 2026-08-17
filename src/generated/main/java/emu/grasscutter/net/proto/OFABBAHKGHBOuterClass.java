@@ -1333,8 +1333,8 @@ public final class OFABBAHKGHBOuterClass {
       "BDEGCLGKLII\030\366\003 \001(\0132\014.NBLBLJINADO\022\"\n\013LEIG" +
       "ANEGOGH\030\367\003 \001(\0132\014.NBLBLJINADO\022\"\n\013EACNHFNF" +
       "AMO\030\370\003 \001(\0132\014.NBLBLJINADO\022\"\n\013FFHLPANJCKE\030" +
-      "\371\003 \001(\0132\014.NBLBLJINADOB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\371\003 \001(\0132\014.NBLBLJINADOB2\n\031emu.grasscutter." +
+      "net.protoB\025OFABBAHKGHBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

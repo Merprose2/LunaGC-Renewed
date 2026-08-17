@@ -968,8 +968,8 @@ public final class JHELCPMHPBFOuterClass {
       "\n\021JHELCPMHPBF.proto\032\021PNDNLLEIGDL.proto\"Z" +
       "\n\013JHELCPMHPBF\022!\n\013GFLNFPFNCIN\030\001 \003(\0132\014.PND" +
       "NLLEIGDL\022\023\n\013NKMNOLLOOOO\030\002 \001(\002\022\023\n\013JDGMDBD" +
-      "HOJC\030\003 \001(\002B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "HOJC\030\003 \001(\002B2\n\031emu.grasscutter.net.protoB" +
+      "\025JHELCPMHPBFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

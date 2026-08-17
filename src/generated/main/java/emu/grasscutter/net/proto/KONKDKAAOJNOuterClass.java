@@ -1400,7 +1400,8 @@ public final class KONKDKAAOJNOuterClass {
       "\n\013KONKDKAAOJN\022\"\n\013OMBKPEBCGDP\030\365\003 \003(\0132\014.DH" +
       "DJHCKKMAK\022\"\n\013JKKOBPJIGGG\030\366\003 \003(\0132\014.DHDJHC" +
       "KKMAK\022\"\n\013MOIMEPNNAHD\030\367\003 \001(\0132\014.DHDJHCKKMA" +
-      "KB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "KB2\n\031emu.grasscutter.net.protoB\025KONKDKAA" +
+      "OJNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

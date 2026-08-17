@@ -152,8 +152,8 @@ public final class PFCFDLENEDBOuterClass {
       "\n\021PFCFDLENEDB.proto*p\n\013PFCFDLENEDB\022\024\n\020PF" +
       "CFDLENEDB_NONE\020\000\022\027\n\023PFCFDLENEDB_STARRED\020" +
       "\001\022\030\n\024PFCFDLENEDB_OFFICIAL\020\002\022\030\n\024PFCFDLENE" +
-      "DB_TEMPLATE\020\003B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "DB_TEMPLATE\020\003B2\n\031emu.grasscutter.net.pro" +
+      "toB\025PFCFDLENEDBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

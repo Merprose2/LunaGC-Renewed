@@ -882,8 +882,8 @@ public final class IIAKIEOBENGOuterClass {
       "\n\021IIAKIEOBENG.proto\"o\n\013IIAKIEOBENG\022\023\n\013NN" +
       "EHLOKFPFB\030\001 \001(\010\022\014\n\004name\030\002 \001(\t\022\023\n\013LGPJKFK" +
       "PPFJ\030\003 \001(\010\022\023\n\013JJHNOIGKJIM\030\004 \001(\r\022\023\n\013FLEMH" +
-      "KCBFFO\030\005 \001(\010B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "KCBFFO\030\005 \001(\010B2\n\031emu.grasscutter.net.prot" +
+      "oB\025IIAKIEOBENGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

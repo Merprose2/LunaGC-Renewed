@@ -1627,8 +1627,9 @@ public final class PrivateChatReqOuterClass {
       "rivateChatReq.BeyondCostumeShareCodeH\000\022\016" +
       "\n\004icon\030\010 \001(\rH\000\022\016\n\004text\030\016 \001(\tH\000\022\022\n\ntarget" +
       "_uid\030\n \001(\r\032-\n\026BeyondCostumeShareCode\022\023\n\013" +
-      "FEPAFANMNLK\030\007 \001(\014B\t\n\007contentB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "FEPAFANMNLK\030\007 \001(\014B\t\n\007contentB5\n\031emu.gras" +
+      "scutter.net.protoB\030PrivateChatReqOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

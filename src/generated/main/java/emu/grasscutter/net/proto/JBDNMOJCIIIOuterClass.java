@@ -1075,8 +1075,9 @@ public final class JBDNMOJCIIIOuterClass {
       "\n\021JBDNMOJCIII.proto\032\021HHEDHCFPEKM.proto\"m" +
       "\n\013JBDNMOJCIII\022\023\n\013BLOCHCCBLLI\030\001 \001(\t\022\023\n\013OI" +
       "AEALKCHLA\030\002 \001(\005\022\031\n\003pos\030\003 \001(\0132\014.HHEDHCFPE" +
-      "KM\022\031\n\003rot\030\004 \001(\0132\014.HHEDHCFPEKMB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "KM\022\031\n\003rot\030\004 \001(\0132\014.HHEDHCFPEKMB2\n\031emu.gra" +
+      "sscutter.net.protoB\025JBDNMOJCIIIOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

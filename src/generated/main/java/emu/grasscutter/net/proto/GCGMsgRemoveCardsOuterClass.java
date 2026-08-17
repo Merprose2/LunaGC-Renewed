@@ -931,8 +931,9 @@ public final class GCGMsgRemoveCardsOuterClass {
       "to\032\021GCGZoneType.proto\"z\n\021GCGMsgRemoveCar" +
       "ds\022\032\n\006reason\030\001 \001(\0162\n.GCGReason\022\026\n\016card_g" +
       "uid_list\030\004 \003(\r\022\032\n\004zone\030\005 \001(\0162\014.GCGZoneTy" +
-      "pe\022\025\n\rcontroller_id\030\013 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "pe\022\025\n\rcontroller_id\030\013 \001(\rB8\n\031emu.grasscu" +
+      "tter.net.protoB\033GCGMsgRemoveCardsOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

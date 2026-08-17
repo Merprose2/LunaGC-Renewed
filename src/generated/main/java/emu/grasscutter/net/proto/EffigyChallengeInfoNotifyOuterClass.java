@@ -865,7 +865,8 @@ public final class EffigyChallengeInfoNotifyOuterClass {
       "igyChallengeInfoNotify\022\024\n\014challenge_id\030\002" +
       " \001(\r\022\025\n\rdifficulty_id\030\006 \001(\r\022\027\n\017challenge" +
       "_score\030\013 \001(\r\022\031\n\021condition_id_list\030\016 \003(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "@\n\031emu.grasscutter.net.protoB#EffigyChal" +
+      "lengeInfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

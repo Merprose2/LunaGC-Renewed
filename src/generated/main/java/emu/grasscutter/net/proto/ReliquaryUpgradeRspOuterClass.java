@@ -1200,7 +1200,8 @@ public final class ReliquaryUpgradeRspOuterClass {
       "vel\030\004 \001(\r\022\023\n\013LGIDJPAHKFG\030\005 \003(\r\022\035\n\025target" +
       "_reliquary_guid\030\007 \001(\004\022\025\n\rpower_up_rate\030\n" +
       " \001(\r\022\017\n\007retcode\030\r \001(\005\022\023\n\013PDNADCLMCOH\030\017 \003" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB:\n\031emu.grasscutter.net.protoB\035Reliqua" +
+      "ryUpgradeRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

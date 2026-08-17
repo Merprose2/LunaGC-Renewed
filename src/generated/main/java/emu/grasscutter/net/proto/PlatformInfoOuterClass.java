@@ -2142,8 +2142,8 @@ public final class PlatformInfoOuterClass {
       "\0132\017.MathQuaternion\0221\n\024moving_platform_ty" +
       "pe\030\r \001(\0162\023.MovingPlatformType\022\021\n\tis_acti" +
       "ve\030\016 \001(\010\022\025\n\005route\030\017 \001(\0132\006.Route\022\020\n\010point" +
-      "_id\030\020 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\020 \001(\rB3\n\031emu.grasscutter.net.protoB\026" +
+      "PlatformInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

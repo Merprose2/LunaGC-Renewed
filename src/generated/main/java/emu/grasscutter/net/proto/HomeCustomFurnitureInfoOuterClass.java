@@ -894,8 +894,9 @@ public final class HomeCustomFurnitureInfoOuterClass {
       "\n\035HomeCustomFurnitureInfo.proto\032\032CustomC" +
       "ommonNodeInfo.proto\"Z\n\027HomeCustomFurnitu" +
       "reInfo\022\014\n\004guid\030\007 \001(\r\0221\n\022sub_furniture_li" +
-      "st\030\r \003(\0132\025.CustomCommonNodeInfoB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "st\030\r \003(\0132\025.CustomCommonNodeInfoB>\n\031emu.g" +
+      "rasscutter.net.protoB!HomeCustomFurnitur" +
+      "eInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

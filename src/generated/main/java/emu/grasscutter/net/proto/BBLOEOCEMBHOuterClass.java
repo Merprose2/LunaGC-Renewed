@@ -1167,8 +1167,9 @@ public final class BBLOEOCEMBHOuterClass {
       "\n\021BBLOEOCEMBH.proto\032\021ECNIPFHNLAK.proto\"o" +
       "\n\013BBLOEOCEMBH\022!\n\013FMDEGINOODA\030\003 \003(\0132\014.ECN" +
       "IPFHNLAK\022\023\n\013GMPACCHLJDI\030\005 \003(\r\022\023\n\013KPFGHLK" +
-      "NBKN\030\007 \001(\010\022\023\n\013schedule_id\030\016 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "NBKN\030\007 \001(\010\022\023\n\013schedule_id\030\016 \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025BBLOEOCEMBHOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

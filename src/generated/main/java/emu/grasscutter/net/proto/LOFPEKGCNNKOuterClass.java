@@ -595,8 +595,9 @@ public final class LOFPEKGCNNKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LOFPEKGCNNK.proto\"0\n\013LOFPEKGCNNK\022\017\n\007re" +
-      "tcode\030\001 \001(\005\022\020\n\010level_id\030\013 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "tcode\030\001 \001(\005\022\020\n\010level_id\030\013 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025LOFPEKGCNNKOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

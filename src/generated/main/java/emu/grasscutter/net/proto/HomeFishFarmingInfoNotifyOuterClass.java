@@ -832,8 +832,9 @@ public final class HomeFishFarmingInfoNotifyOuterClass {
       "\n\037HomeFishFarmingInfoNotify.proto\032\031HomeF" +
       "ishFarmingInfo.proto\"Q\n\031HomeFishFarmingI" +
       "nfoNotify\0224\n\026fish_farming_info_list\030\010 \003(" +
-      "\0132\024.HomeFishFarmingInfoB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\0132\024.HomeFishFarmingInfoB@\n\031emu.grasscutt" +
+      "er.net.protoB#HomeFishFarmingInfoNotifyO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -964,8 +964,8 @@ public final class JEAINNONFNBOuterClass {
       "\n\021JEAINNONFNB.proto\032\021ICFNHONPIPO.proto\"_" +
       "\n\013JEAINNONFNB\022\023\n\013FLOLAOFDLJE\030\003 \001(\r\022\023\n\013FA" +
       "DPBBEBECG\030\007 \001(\r\022&\n\020player_info_list\030\016 \003(" +
-      "\0132\014.ICFNHONPIPOB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\0132\014.ICFNHONPIPOB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025JEAINNONFNBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

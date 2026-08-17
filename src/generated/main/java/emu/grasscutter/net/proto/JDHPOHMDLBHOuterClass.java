@@ -145,8 +145,8 @@ public final class JDHPOHMDLBHOuterClass {
       "EE_NONE\020\000\0227\n3JDHPOHMDLBH_THEME_PARK_SIM_" +
       "UPGRADE_EMPLOYEE_BY_BUFF\020\001\0229\n5JDHPOHMDLB" +
       "H_THEME_PARK_SIM_UPGRADE_EMPLOYEE_BY_CLI" +
-      "ENT\020\002B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "ENT\020\002B2\n\031emu.grasscutter.net.protoB\025JDHP" +
+      "OHMDLBHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

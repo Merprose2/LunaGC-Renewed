@@ -801,8 +801,9 @@ public final class AEDMPMONBCAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AEDMPMONBCA.proto\032\021ABFMGNFBCOK.proto\">" +
       "\n\013AEDMPMONBCA\022!\n\013ODHKPAHMFAE\030\004 \001(\0132\014.ABF" +
-      "MGNFBCOK\022\014\n\004name\030\r \001(\tB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "MGNFBCOK\022\014\n\004name\030\r \001(\tB2\n\031emu.grasscutte" +
+      "r.net.protoB\025AEDMPMONBCAOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

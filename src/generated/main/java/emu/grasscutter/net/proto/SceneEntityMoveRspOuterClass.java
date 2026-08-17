@@ -941,8 +941,9 @@ public final class SceneEntityMoveRspOuterClass {
       "roto\"\204\001\n\022SceneEntityMoveRsp\022 \n\013fail_moti" +
       "on\030\001 \001(\0132\013.MotionInfo\022\022\n\nscene_time\030\002 \001(" +
       "\r\022\017\n\007retcode\030\005 \001(\005\022\024\n\014reliable_seq\030\006 \001(\r" +
-      "\022\021\n\tentity_id\030\013 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\022\021\n\tentity_id\030\013 \001(\rB9\n\031emu.grasscutter.n" +
+      "et.protoB\034SceneEntityMoveRspOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

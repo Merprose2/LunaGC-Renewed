@@ -769,8 +769,9 @@ public final class MHELJNJBNGEOuterClass {
       "\n\021MHELJNJBNGE.proto\032\021KDKOKBPNNMA.proto\"o" +
       "\n\013MHELJNJBNGE\022\023\n\013PFBFPLFLKCD\030\001 \001(\010\022!\n\013BN" +
       "BNHKKKBME\030\002 \001(\0162\014.KDKOKBPNNMA\022\023\n\013ENPKOJN" +
-      "BGAI\030\003 \001(\010\022\023\n\013MNGDLKDCFFN\030\004 \001(\010B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "BGAI\030\003 \001(\010\022\023\n\013MNGDLKDCFFN\030\004 \001(\010B2\n\031emu.g" +
+      "rasscutter.net.protoB\025MHELJNJBNGEOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

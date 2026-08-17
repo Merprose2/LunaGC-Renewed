@@ -748,8 +748,8 @@ public final class ProductPriceTierOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026ProductPriceTier.proto\":\n\020ProductPrice" +
       "Tier\022\022\n\nproduct_id\030\002 \001(\t\022\022\n\nprice_tier\030\007" +
-      " \001(\tB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\tB7\n\031emu.grasscutter.net.protoB\032Produ" +
+      "ctPriceTierOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

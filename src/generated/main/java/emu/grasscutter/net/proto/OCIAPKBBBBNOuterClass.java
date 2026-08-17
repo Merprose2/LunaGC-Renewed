@@ -446,8 +446,9 @@ public final class OCIAPKBBBBNOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021OCIAPKBBBBN.proto\"\r\n\013OCIAPKBBBBNB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021OCIAPKBBBBN.proto\"\r\n\013OCIAPKBBBBNB2\n\031em" +
+      "u.grasscutter.net.protoB\025OCIAPKBBBBNOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

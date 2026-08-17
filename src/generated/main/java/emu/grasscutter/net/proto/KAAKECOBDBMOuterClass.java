@@ -563,7 +563,8 @@ public final class KAAKECOBDBMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KAAKECOBDBM.proto\032\021NNKBKNOOFOH.proto\"+" +
       "\n\013KAAKECOBDBM\022\034\n\006result\030\003 \001(\0162\014.NNKBKNOO" +
-      "FOHB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "FOHB2\n\031emu.grasscutter.net.protoB\025KAAKEC" +
+      "OBDBMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

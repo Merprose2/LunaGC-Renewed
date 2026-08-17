@@ -668,7 +668,8 @@ public final class ScenePlayOwnerStartInviteRspOuterClass {
       "\n\"ScenePlayOwnerStartInviteRsp.proto\"W\n\034" +
       "ScenePlayOwnerStartInviteRsp\022\025\n\ris_skip_" +
       "match\030\001 \001(\010\022\017\n\007play_id\030\003 \001(\r\022\017\n\007retcode\030" +
-      "\004 \001(\005B\033\n\031emu.grasscutter.net.protob\006prot" +
+      "\004 \001(\005BC\n\031emu.grasscutter.net.protoB&Scen" +
+      "ePlayOwnerStartInviteRspOuterClassb\006prot" +
       "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

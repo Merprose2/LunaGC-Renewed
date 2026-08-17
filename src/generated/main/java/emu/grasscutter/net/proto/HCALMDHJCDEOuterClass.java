@@ -525,8 +525,8 @@ public final class HCALMDHJCDEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HCALMDHJCDE.proto\"\037\n\013HCALMDHJCDE\022\020\n\010ma" +
-      "tch_id\030\016 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "tch_id\030\016 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025HCALMDHJCDEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

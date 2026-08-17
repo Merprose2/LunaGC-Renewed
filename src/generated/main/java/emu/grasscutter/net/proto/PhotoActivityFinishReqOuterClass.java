@@ -667,8 +667,9 @@ public final class PhotoActivityFinishReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034PhotoActivityFinishReq.proto\"P\n\026PhotoA" +
       "ctivityFinishReq\022\017\n\007is_succ\030\001 \001(\010\022\016\n\006pos" +
-      "_id\030\007 \001(\r\022\025\n\rcheck_root_id\030\014 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "_id\030\007 \001(\r\022\025\n\rcheck_root_id\030\014 \001(\rB=\n\031emu." +
+      "grasscutter.net.protoB PhotoActivityFini" +
+      "shReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

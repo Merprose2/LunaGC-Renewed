@@ -1139,8 +1139,8 @@ public final class JAMDOJHKOLAOuterClass {
       "MDOJHKOLA\022\020\n\010route_id\030\004 \001(\r\022\023\n\013FOEJBABCL" +
       "JJ\030\005 \001(\r\022\r\n\005index\030\t \001(\002\022\024\n\003pos\030\n \001(\0132\007.V" +
       "ector\022\024\n\003rot\030\r \001(\0132\007.Vector\022\023\n\013LPDGDJDCG" +
-      "AH\030\016 \001(\010B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "AH\030\016 \001(\010B2\n\031emu.grasscutter.net.protoB\025J" +
+      "AMDOJHKOLAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

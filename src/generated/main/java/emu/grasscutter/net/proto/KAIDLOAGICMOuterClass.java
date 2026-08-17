@@ -737,8 +737,9 @@ public final class KAIDLOAGICMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KAIDLOAGICM.proto\"Y\n\013KAIDLOAGICM\022\017\n\007re" +
       "tcode\030\002 \001(\005\022\021\n\told_level\030\006 \001(\r\022\023\n\013avatar" +
-      "_guid\030\n \001(\004\022\021\n\tcur_level\030\016 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "_guid\030\n \001(\004\022\021\n\tcur_level\030\016 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025KAIDLOAGICMOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

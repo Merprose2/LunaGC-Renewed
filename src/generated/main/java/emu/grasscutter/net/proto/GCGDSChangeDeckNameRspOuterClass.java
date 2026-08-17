@@ -818,8 +818,8 @@ public final class GCGDSChangeDeckNameRspOuterClass {
       "\n\034GCGDSChangeDeckNameRsp.proto\"_\n\026GCGDSC" +
       "hangeDeckNameRsp\022\014\n\004name\030\005 \001(\t\022\017\n\007retcod" +
       "e\030\007 \001(\005\022\025\n\ris_only_check\030\014 \001(\010\022\017\n\007deck_i" +
-      "d\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "d\030\016 \001(\rB=\n\031emu.grasscutter.net.protoB GC" +
+      "GDSChangeDeckNameRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

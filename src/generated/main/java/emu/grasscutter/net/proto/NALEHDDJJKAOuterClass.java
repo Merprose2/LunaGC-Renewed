@@ -729,8 +729,9 @@ public final class NALEHDDJJKAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NALEHDDJJKA.proto\032\021CIJNHCPPAHE.proto\"D" +
       "\n\013NALEHDDJJKA\022$\n\016_combat_detail\030\006 \001(\0132\014." +
-      "CIJNHCPPAHE\022\017\n\007retcode\030\t \001(\005B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "CIJNHCPPAHE\022\017\n\007retcode\030\t \001(\005B2\n\031emu.gras" +
+      "scutter.net.protoB\025NALEHDDJJKAOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

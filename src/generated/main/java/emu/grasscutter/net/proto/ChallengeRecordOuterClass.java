@@ -729,8 +729,9 @@ public final class ChallengeRecordOuterClass {
       "\n\025ChallengeRecord.proto\"s\n\017ChallengeReco" +
       "rd\022\027\n\017challenge_index\030\004 \001(\r\022\035\n\025challenge" +
       "_record_type\030\007 \001(\r\022\022\n\nbest_value\030\n \001(\r\022\024" +
-      "\n\014challenge_id\030\016 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\n\014challenge_id\030\016 \001(\rB6\n\031emu.grasscutter." +
+      "net.protoB\031ChallengeRecordOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -805,8 +805,8 @@ public final class DEAAMIEMBDIOuterClass {
       "\n\021DEAAMIEMBDI.proto\"v\n\013DEAAMIEMBDI\022\023\n\013KL" +
       "PDNIINGMM\030\001 \001(\002\022\023\n\013KEGCKDGDPGL\030\002 \001(\002\022\023\n\013" +
       "MNFGHFFJKFH\030\003 \001(\005\022\023\n\013OLKMOICPKBG\030\004 \001(\010\022\023" +
-      "\n\013KAEOAODMGNH\030\005 \001(\010B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013KAEOAODMGNH\030\005 \001(\010B2\n\031emu.grasscutter.n" +
+      "et.protoB\025DEAAMIEMBDIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

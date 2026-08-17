@@ -894,8 +894,8 @@ public final class GCGMsgModifyRemoveOuterClass {
       "oto\"x\n\022GCGMsgModifyRemove\022\027\n\017owner_card_" +
       "guid\030\005 \001(\r\022\032\n\006reason\030\007 \001(\0162\n.GCGReason\022\026" +
       "\n\016card_guid_list\030\t \003(\r\022\025\n\rcontroller_id\030" +
-      "\n \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\n \001(\rB9\n\031emu.grasscutter.net.protoB\034GCGM" +
+      "sgModifyRemoveOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

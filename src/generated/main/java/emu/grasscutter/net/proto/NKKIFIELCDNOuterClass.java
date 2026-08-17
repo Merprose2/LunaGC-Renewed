@@ -454,8 +454,9 @@ public final class NKKIFIELCDNOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021NKKIFIELCDN.proto\"\r\n\013NKKIFIELCDNB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021NKKIFIELCDN.proto\"\r\n\013NKKIFIELCDNB2\n\031em" +
+      "u.grasscutter.net.protoB\025NKKIFIELCDNOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

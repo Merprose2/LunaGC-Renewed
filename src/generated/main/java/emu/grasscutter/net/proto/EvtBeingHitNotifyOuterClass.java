@@ -768,8 +768,8 @@ public final class EvtBeingHitNotifyOuterClass {
       "fo.proto\032\021ForwardType.proto\"a\n\021EvtBeingH" +
       "itNotify\022\"\n\014forward_type\030\014 \001(\0162\014.Forward" +
       "Type\022(\n\016being_hit_info\030\016 \001(\0132\020.EvtBeingH" +
-      "itInfoB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "itInfoB8\n\031emu.grasscutter.net.protoB\033Evt" +
+      "BeingHitNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

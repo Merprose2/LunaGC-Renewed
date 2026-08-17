@@ -732,8 +732,9 @@ public final class InvestigationMonsterUpdateNotifyOuterClass {
       "\032\032InvestigationMonster.proto\"m\n Investig" +
       "ationMonsterUpdateNotify\022\023\n\013JDEPBCMJPOP\030" +
       "\010 \001(\010\0224\n\025investigation_monster\030\n \001(\0132\025.I" +
-      "nvestigationMonsterB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "nvestigationMonsterBG\n\031emu.grasscutter.n" +
+      "et.protoB*InvestigationMonsterUpdateNoti" +
+      "fyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

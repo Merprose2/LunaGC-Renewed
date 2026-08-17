@@ -863,8 +863,9 @@ public final class EAFIKALDLPKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EAFIKALDLPK.proto\"]\n\013EAFIKALDLPK\022\023\n\013KO" +
       "JOGPKGONG\030\002 \001(\r\022\023\n\013OHGFFIHDFDL\030\003 \001(\r\022\023\n\013" +
-      "DJOKAHADHCM\030\004 \003(\r\022\017\n\007retcode\030\n \001(\005B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "DJOKAHADHCM\030\004 \003(\r\022\017\n\007retcode\030\n \001(\005B2\n\031em" +
+      "u.grasscutter.net.protoB\025EAFIKALDLPKOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

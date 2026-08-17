@@ -526,8 +526,9 @@ public final class VintageMarketStoreUnlockSlotReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n%VintageMarketStoreUnlockSlotReq.proto\"" +
       "3\n\037VintageMarketStoreUnlockSlotReq\022\020\n\010st" +
-      "ore_id\030\004 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "ore_id\030\004 \001(\rBF\n\031emu.grasscutter.net.prot" +
+      "oB)VintageMarketStoreUnlockSlotReqOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

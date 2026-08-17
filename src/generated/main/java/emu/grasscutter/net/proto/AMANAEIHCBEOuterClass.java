@@ -1225,8 +1225,8 @@ public final class AMANAEIHCBEOuterClass {
       "\n\021AMANAEIHCBE.proto\"p\n\013AMANAEIHCBE\022\023\n\013BB" +
       "NDIBHNEEB\030\003 \003(\r\022\023\n\013DGPCAJLBCGK\030\006 \003(\r\022\023\n\013" +
       "CNEFGKIAHAL\030\n \003(\r\022\"\n\032_seen_local_legend_" +
-      "id_list\030\017 \003(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "id_list\030\017 \003(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025AMANAEIHCBEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

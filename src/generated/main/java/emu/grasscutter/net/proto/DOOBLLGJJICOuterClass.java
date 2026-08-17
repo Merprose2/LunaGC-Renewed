@@ -737,8 +737,9 @@ public final class DOOBLLGJJICOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DOOBLLGJJIC.proto\"Y\n\013DOOBLLGJJIC\022\021\n\tcu" +
       "r_level\030\003 \001(\r\022\021\n\told_level\030\006 \001(\r\022\017\n\007retc" +
-      "ode\030\007 \001(\005\022\023\n\013avatar_guid\030\017 \001(\004B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ode\030\007 \001(\005\022\023\n\013avatar_guid\030\017 \001(\004B2\n\031emu.gr" +
+      "asscutter.net.protoB\025DOOBLLGJJICOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

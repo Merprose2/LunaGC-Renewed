@@ -919,7 +919,8 @@ public final class FNFHFOKJADKOuterClass {
       "\n\021FNFHFOKJADK.proto\032\021GMAHECCGKCJ.proto\"Q" +
       "\n\013FNFHFOKJADK\022\023\n\013JEOBLGFPMFB\030\001 \003(\r\022\021\n\tco" +
       "nfig_id\030\002 \001(\r\022\032\n\004data\030\003 \001(\0132\014.GMAHECCGKC" +
-      "JB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "JB2\n\031emu.grasscutter.net.protoB\025FNFHFOKJ" +
+      "ADKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

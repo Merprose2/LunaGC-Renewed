@@ -659,8 +659,9 @@ public final class ChessPlayerInfoNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033ChessPlayerInfoNotify.proto\032\025ChessPlay" +
       "erInfo.proto\">\n\025ChessPlayerInfoNotify\022%\n" +
-      "\013player_info\030\002 \001(\0132\020.ChessPlayerInfoB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\013player_info\030\002 \001(\0132\020.ChessPlayerInfoB<\n\031" +
+      "emu.grasscutter.net.protoB\037ChessPlayerIn" +
+      "foNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

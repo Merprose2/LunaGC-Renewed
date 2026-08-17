@@ -943,8 +943,9 @@ public final class ChangeAvatarReqOuterClass {
       "\n\025ChangeAvatarReq.proto\032\014Vector.proto\"v\n" +
       "\017ChangeAvatarReq\022\031\n\010move_pos\030\003 \001(\0132\007.Vec" +
       "tor\022\014\n\004guid\030\005 \001(\004\022\020\n\010skill_id\030\010 \001(\r\022\023\n\013F" +
-      "GGPBEPIJOG\030\013 \001(\010\022\023\n\013FONOJFMKMKD\030\r \001(\010B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "GGPBEPIJOG\030\013 \001(\010\022\023\n\013FONOJFMKMKD\030\r \001(\010B6\n" +
+      "\031emu.grasscutter.net.protoB\031ChangeAvatar" +
+      "ReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -935,8 +935,8 @@ public final class CHFGLLEIIHEOuterClass {
       "\001\n\013CHFGLLEIIHE\022\023\n\013CFGGICGANBF\030\001 \001(\005\022\023\n\013K" +
       "MOGGHOEJFE\030\002 \001(\010\022\023\n\013BHFNKABNKDP\030\003 \001(\005\022\"\n" +
       "\013JGMENBEIMNH\030\365\003 \001(\0132\014.LGNOBOHMCPG\022\024\n\013BID" +
-      "EFCEFGPN\030\366\003 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "EFCEFGPN\030\366\003 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025CHFGLLEIIHEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

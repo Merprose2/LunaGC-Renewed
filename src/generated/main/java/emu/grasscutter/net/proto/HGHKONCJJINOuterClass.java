@@ -776,8 +776,8 @@ public final class HGHKONCJJINOuterClass {
       "\n\021HGHKONCJJIN.proto\032\021PBPBHCMKCGM.proto\"Z" +
       "\n\013HGHKONCJJIN\022\023\n\013OCHNPECOAOG\030\001 \001(\t\022\023\n\013FM" +
       "KNLOGFALG\030\002 \001(\r\022!\n\013OOMJDJEIGKH\030\003 \001(\0162\014.P" +
-      "BPBHCMKCGMB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "BPBHCMKCGMB2\n\031emu.grasscutter.net.protoB" +
+      "\025HGHKONCJJINOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

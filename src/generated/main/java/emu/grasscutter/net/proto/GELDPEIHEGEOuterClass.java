@@ -1679,8 +1679,9 @@ public final class GELDPEIHEGEOuterClass {
       "\030\007 \001(\r\022\023\n\013DJHMPDJCLGI\030\010 \001(\002\022\023\n\013NNBGKBBGC" +
       "CO\030\t \001(\005\022\023\n\013BPIILLPJLPK\030\n \001(\002\022\023\n\013KFBLGOP" +
       "GFKN\030\013 \001(\005\022\"\n\014element_type\030\014 \001(\0162\014.JEOKD" +
-      "CIGCFP\022\023\n\013BCFAMMOALOB\030\r \001(\010B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "CIGCFP\022\023\n\013BCFAMMOALOB\030\r \001(\010B2\n\031emu.grass" +
+      "cutter.net.protoB\025GELDPEIHEGEOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

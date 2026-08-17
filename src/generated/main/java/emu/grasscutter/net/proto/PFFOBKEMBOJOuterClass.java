@@ -2107,8 +2107,8 @@ public final class PFFOBKEMBOJOuterClass {
       "JBAOOH\000\0327\n\013OMCJIJGNFJL\022\023\n\013CMOGHFKCBGM\030\006 " +
       "\001(\r\022\023\n\013BELMMFEMNIP\030\007 \001(\r\0327\n\013EAOIOJJBAOO\022" +
       "\023\n\013BELMMFEMNIP\030\003 \001(\r\022\023\n\013CMOGHFKCBGM\030\017 \001(" +
-      "\rB\004\n\002opB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "\rB\004\n\002opB2\n\031emu.grasscutter.net.protoB\025PF" +
+      "FOBKEMBOJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

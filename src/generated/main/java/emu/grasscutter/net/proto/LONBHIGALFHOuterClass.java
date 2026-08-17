@@ -827,8 +827,8 @@ public final class LONBHIGALFHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LONBHIGALFH.proto\"L\n\013LONBHIGALFH\022\023\n\013LK" +
       "KODHJLAOO\030\003 \001(\t\022\023\n\013JPAIFNEHBJD\030\005 \001(\004\022\023\n\013" +
-      "IEECMLKJMCG\030\014 \001(\tB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "IEECMLKJMCG\030\014 \001(\tB2\n\031emu.grasscutter.net" +
+      ".protoB\025LONBHIGALFHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

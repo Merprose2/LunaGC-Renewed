@@ -1905,8 +1905,9 @@ public final class JHHKHNMMFMDOuterClass {
       "ode\030\t \001(\005\022-\n\013ONNBKDLOBBM\030\017 \003(\0132\030.JHHKHNM" +
       "MFMD.KIKIPOAOKGI\032T\n\013KIKIPOAOKGI\022 \n\013KHJPE" +
       "FFLCOI\030\002 \003(\0132\013.Uint32Pair\022#\n\r_friend_bri" +
-      "ef\030\005 \001(\0132\014.FriendBriefB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "ef\030\005 \001(\0132\014.FriendBriefB2\n\031emu.grasscutte" +
+      "r.net.protoB\025JHHKHNMMFMDOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

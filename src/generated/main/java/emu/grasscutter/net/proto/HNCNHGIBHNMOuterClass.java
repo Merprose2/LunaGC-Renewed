@@ -937,8 +937,8 @@ public final class HNCNHGIBHNMOuterClass {
       "\001\n\013HNCNHGIBHNM\022\023\n\013OGEJKFNFEMF\030\001 \001(\r\022\023\n\013D" +
       "FPAHNMMEFM\030\002 \001(\002\022\023\n\013EEJBIDKGNLA\030\003 \001(\010\022\023\n" +
       "\013NHLFGPDMLLJ\030\004 \001(\010\022!\n\013BIAGBFDDLAG\030\005 \001(\0132" +
-      "\014.GCDNCDJBDAFB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\014.GCDNCDJBDAFB2\n\031emu.grasscutter.net.pro" +
+      "toB\025HNCNHGIBHNMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -659,8 +659,8 @@ public final class AGEHCBMBIFFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AGEHCBMBIFF.proto\032\021EJGMHCIMNAL.proto\"3" +
       "\n\013AGEHCBMBIFF\022$\n\016_combat_detail\030\014 \001(\0132\014." +
-      "EJGMHCIMNALB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "EJGMHCIMNALB2\n\031emu.grasscutter.net.proto" +
+      "B\025AGEHCBMBIFFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

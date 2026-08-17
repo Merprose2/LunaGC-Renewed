@@ -142,8 +142,8 @@ public final class HKMCPNPIFCPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HKMCPNPIFCP.proto*M\n\013HKMCPNPIFCP\022\023\n\017HK" +
       "MCPNPIFCP_ALL\020\000\022\023\n\017HKMCPNPIFCP_TOP\020\001\022\024\n\020" +
-      "HKMCPNPIFCP_TAIL\020\002B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "HKMCPNPIFCP_TAIL\020\002B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025HKMCPNPIFCPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

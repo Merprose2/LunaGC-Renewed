@@ -774,8 +774,9 @@ public final class HDEMKKOHJMPOuterClass {
       "\n\021HDEMKKOHJMP.proto\"\207\001\n\013HDEMKKOHJMP\022?\n\023d" +
       "elete_time_num_map\030\001 \003(\0132\".HDEMKKOHJMP.D" +
       "eleteTimeNumMapEntry\0327\n\025DeleteTimeNumMap" +
-      "Entry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "Entry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B2\n" +
+      "\031emu.grasscutter.net.protoB\025HDEMKKOHJMPO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

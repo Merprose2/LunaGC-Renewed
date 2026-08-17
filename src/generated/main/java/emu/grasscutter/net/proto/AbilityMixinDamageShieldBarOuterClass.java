@@ -592,8 +592,9 @@ public final class AbilityMixinDamageShieldBarOuterClass {
     java.lang.String[] descriptorData = {
       "\n!AbilityMixinDamageShieldBar.proto\"A\n\033A" +
       "bilityMixinDamageShieldBar\022\016\n\006shield\030\006 \001" +
-      "(\002\022\022\n\nmax_shield\030\017 \001(\002B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "(\002\022\022\n\nmax_shield\030\017 \001(\002BB\n\031emu.grasscutte" +
+      "r.net.protoB%AbilityMixinDamageShieldBar" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

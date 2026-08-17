@@ -526,8 +526,8 @@ public final class OMCPDFEMPGEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OMCPDFEMPGE.proto\"\"\n\013OMCPDFEMPGE\022\023\n\013DH" +
-      "HDIPOOMAF\030\017 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "HDIPOOMAF\030\017 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025OMCPDFEMPGEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

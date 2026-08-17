@@ -143,8 +143,9 @@ public final class AreaPlayTypeOuterClass {
       "\n\022AreaPlayType.proto*}\n\014AreaPlayType\022\037\n\033" +
       "AreaPlayType_AREA_PLAY_NONE\020\000\022\"\n\036AreaPla" +
       "yType_AREA_PLAY_CLIMATE\020\001\022(\n$AreaPlayTyp" +
-      "e_AREA_PLAY_REGIONAL_PLAY\020\002B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "e_AREA_PLAY_REGIONAL_PLAY\020\002B3\n\031emu.grass" +
+      "cutter.net.protoB\026AreaPlayTypeOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

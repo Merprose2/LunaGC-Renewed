@@ -899,7 +899,8 @@ public final class GCGSkillPreviewExtraInfoOuterClass {
       "llPreviewCardInfo.proto\"^\n\030GCGSkillPrevi" +
       "ewExtraInfo\022\023\n\013AHIIJLDGDBP\030\003 \001(\014\022-\n\013CMMG" +
       "FAEPKDC\030\006 \003(\0132\030.GCGSkillPreviewCardInfoB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "?\n\031emu.grasscutter.net.protoB\"GCGSkillPr" +
+      "eviewExtraInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -660,8 +660,9 @@ public final class TowerCurLevelRecordChangeNotifyOuterClass {
       "\n%TowerCurLevelRecordChangeNotify.proto\032" +
       "\031TowerCurLevelRecord.proto\"Q\n\037TowerCurLe" +
       "velRecordChangeNotify\022.\n\020cur_level_recor" +
-      "d\030\016 \001(\0132\024.TowerCurLevelRecordB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "d\030\016 \001(\0132\024.TowerCurLevelRecordBF\n\031emu.gra" +
+      "sscutter.net.protoB)TowerCurLevelRecordC" +
+      "hangeNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

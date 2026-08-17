@@ -525,8 +525,8 @@ public final class MIBNEMAAPMCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MIBNEMAAPMC.proto\"!\n\013MIBNEMAAPMC\022\022\n\nta" +
-      "rget_uid\030\010 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "rget_uid\030\010 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025MIBNEMAAPMCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

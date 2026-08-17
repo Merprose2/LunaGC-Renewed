@@ -526,8 +526,8 @@ public final class HEDEBBFNIEOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HEDEBBFNIEO.proto\"\037\n\013HEDEBBFNIEO\022\020\n\010is" +
-      "_agree\030\002 \001(\010B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "_agree\030\002 \001(\010B2\n\031emu.grasscutter.net.prot" +
+      "oB\025HEDEBBFNIEOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

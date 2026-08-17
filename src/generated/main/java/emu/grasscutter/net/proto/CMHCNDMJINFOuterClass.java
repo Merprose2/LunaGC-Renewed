@@ -596,8 +596,9 @@ public final class CMHCNDMJINFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CMHCNDMJINF.proto\",\n\013CMHCNDMJINF\022\014\n\004gu" +
-      "id\030\016 \001(\004\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "id\030\016 \001(\004\022\017\n\007retcode\030\017 \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025CMHCNDMJINFOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

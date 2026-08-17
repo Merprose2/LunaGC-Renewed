@@ -525,8 +525,8 @@ public final class BNBJBCLFHPEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BNBJBCLFHPE.proto\"\037\n\013BNBJBCLFHPE\022\020\n\010st" +
-      "age_id\030\002 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "age_id\030\002 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025BNBJBCLFHPEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

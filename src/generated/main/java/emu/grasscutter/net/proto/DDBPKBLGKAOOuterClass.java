@@ -811,7 +811,8 @@ public final class DDBPKBLGKAOOuterClass {
       "\n\021DDBPKBLGKAO.proto\"e\n\013DDBPKBLGKAO\022\024\n\013KM" +
       "FFBEACCLP\030\365\003 \001(\005\022\024\n\013FDLGFCLOCEP\030\366\003 \001(\002\022\024" +
       "\n\013DNNKPHLDNKA\030\367\003 \001(\t\022\024\n\013OEKJJIEPLFB\030\370\003 \001" +
-      "(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\005B2\n\031emu.grasscutter.net.protoB\025DDBPKBL" +
+      "GKAOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

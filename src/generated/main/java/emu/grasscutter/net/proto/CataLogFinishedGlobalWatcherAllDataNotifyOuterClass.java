@@ -834,8 +834,9 @@ public final class CataLogFinishedGlobalWatcherAllDataNotifyOuterClass {
       "ata.proto\"y\n)CataLogFinishedGlobalWatche" +
       "rAllDataNotify\022L\n!finished_global_watche" +
       "r_data_list\030\016 \003(\0132!.CataLogGlobalWatcher" +
-      "FinishedDataB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "FinishedDataBP\n\031emu.grasscutter.net.prot" +
+      "oB3CataLogFinishedGlobalWatcherAllDataNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

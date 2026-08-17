@@ -722,8 +722,9 @@ public final class JMHOPEHDMMMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JMHOPEHDMMM.proto\032\021IOJHNKOGKGC.proto\"E" +
       "\n\013JMHOPEHDMMM\022!\n\013EMDCOGONMJF\030\001 \001(\0132\014.IOJ" +
-      "HNKOGKGC\022\023\n\013BEDBMNHLJMJ\030\002 \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "HNKOGKGC\022\023\n\013BEDBMNHLJMJ\030\002 \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025JMHOPEHDMMMOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

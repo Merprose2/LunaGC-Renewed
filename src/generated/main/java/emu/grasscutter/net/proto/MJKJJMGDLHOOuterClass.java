@@ -142,8 +142,9 @@ public final class MJKJJMGDLHOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MJKJJMGDLHO.proto*T\n\013MJKJJMGDLHO\022\026\n\022MJ" +
       "KJJMGDLHO_PLAYER\020\000\022\026\n\022MJKJJMGDLHO_OBJECT" +
-      "\020\001\022\025\n\021MJKJJMGDLHO_ENEMY\020\002B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\020\001\022\025\n\021MJKJJMGDLHO_ENEMY\020\002B2\n\031emu.grasscu" +
+      "tter.net.protoB\025MJKJJMGDLHOOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

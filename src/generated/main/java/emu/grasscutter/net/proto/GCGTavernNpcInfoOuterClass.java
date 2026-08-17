@@ -658,8 +658,9 @@ public final class GCGTavernNpcInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026GCGTavernNpcInfo.proto\"H\n\020GCGTavernNpc" +
       "Info\022\020\n\010level_id\030\001 \001(\r\022\n\n\002id\030\013 \001(\r\022\026\n\016sc" +
-      "ene_point_id\030\014 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "ene_point_id\030\014 \001(\rB7\n\031emu.grasscutter.ne" +
+      "t.protoB\032GCGTavernNpcInfoOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

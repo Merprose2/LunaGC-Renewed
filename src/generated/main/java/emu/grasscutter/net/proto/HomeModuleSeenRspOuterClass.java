@@ -723,8 +723,8 @@ public final class HomeModuleSeenRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027HomeModuleSeenRsp.proto\"A\n\021HomeModuleS" +
       "eenRsp\022\017\n\007retcode\030\001 \001(\005\022\033\n\023seen_module_i" +
-      "d_list\030\004 \003(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "d_list\030\004 \003(\rB8\n\031emu.grasscutter.net.prot" +
+      "oB\033HomeModuleSeenRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

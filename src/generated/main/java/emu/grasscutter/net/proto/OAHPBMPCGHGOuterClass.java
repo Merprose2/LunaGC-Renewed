@@ -871,8 +871,9 @@ public final class OAHPBMPCGHGOuterClass {
       "\n\021OAHPBMPCGHG.proto\032\021LDLHHEHNCLC.proto\"l" +
       "\n\013OAHPBMPCGHG\022\023\n\013FDHFOCMBAKE\030\001 \001(\r\022\024\n\014du" +
       "ngeon_guid\030\004 \001(\004\022!\n\013FCGOMMPIPAM\030\007 \001(\0132\014." +
-      "LDLHHEHNCLC\022\017\n\007retcode\030\010 \001(\005B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "LDLHHEHNCLC\022\017\n\007retcode\030\010 \001(\005B2\n\031emu.gras" +
+      "scutter.net.protoB\025OAHPBMPCGHGOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

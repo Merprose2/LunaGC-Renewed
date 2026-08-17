@@ -729,8 +729,9 @@ public final class GFLKANIPEGOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GFLKANIPEGO.proto\"W\n\013GFLKANIPEGO\022\017\n\007it" +
       "em_id\030\003 \001(\r\022\023\n\013EENNPDEJDJC\030\010 \001(\r\022\r\n\005coun" +
-      "t\030\n \001(\r\022\023\n\013JNPGKNNJKGL\030\016 \001(\010B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "t\030\n \001(\r\022\023\n\013JNPGKNNJKGL\030\016 \001(\010B2\n\031emu.gras" +
+      "scutter.net.protoB\025GFLKANIPEGOOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

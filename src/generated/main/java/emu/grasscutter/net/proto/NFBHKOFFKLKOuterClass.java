@@ -930,8 +930,9 @@ public final class NFBHKOFFKLKOuterClass {
       "\n\021NFBHKOFFKLK.proto\032\021PBKENIDHIDP.proto\"n" +
       "\n\013NFBHKOFFKLK\022\023\n\013HMFHCPIKGCO\030\001 \001(\t\022\023\n\013NG" +
       "EDGDGBAID\030\002 \001(\014\022\022\n\nrequest_id\030\003 \001(\t\022!\n\013F" +
-      "OEADBCGEKH\030\004 \001(\0162\014.PBKENIDHIDPB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "OEADBCGEKH\030\004 \001(\0162\014.PBKENIDHIDPB2\n\031emu.gr" +
+      "asscutter.net.protoB\025NFBHKOFFKLKOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

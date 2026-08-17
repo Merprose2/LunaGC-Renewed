@@ -902,8 +902,9 @@ public final class SyncTeamEntityNotifyOuterClass {
       "\n\032SyncTeamEntityNotify.proto\032\024TeamEntity" +
       "Info.proto\"X\n\024SyncTeamEntityNotify\022\020\n\010sc" +
       "ene_id\030\004 \001(\r\022.\n\025team_entity_info_list\030\017 " +
-      "\003(\0132\017.TeamEntityInfoB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\003(\0132\017.TeamEntityInfoB;\n\031emu.grasscutter." +
+      "net.protoB\036SyncTeamEntityNotifyOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

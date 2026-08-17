@@ -597,8 +597,8 @@ public final class GetBonusActivityRewardReqOuterClass {
       "\n\037GetBonusActivityRewardReq.proto\"Y\n\031Get" +
       "BonusActivityRewardReq\022!\n\031_hexenzirkel_r" +
       "eward_index\030\003 \001(\r\022\031\n\021bonus_activity_id\030\n" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB@\n\031emu.grasscutter.net.protoB#GetBo" +
+      "nusActivityRewardReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

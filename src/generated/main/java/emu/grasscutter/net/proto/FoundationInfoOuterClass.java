@@ -894,8 +894,8 @@ public final class FoundationInfoOuterClass {
       ".proto\"y\n\016FoundationInfo\022!\n\006status\030\001 \001(\016" +
       "2\021.FoundationStatus\022\020\n\010uid_list\030\002 \003(\r\022\033\n" +
       "\023current_building_id\030\003 \001(\r\022\025\n\rlocked_by_" +
-      "uid\030\004 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "uid\030\004 \001(\rB5\n\031emu.grasscutter.net.protoB\030" +
+      "FoundationInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

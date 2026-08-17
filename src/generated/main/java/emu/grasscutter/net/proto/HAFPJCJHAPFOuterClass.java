@@ -1029,7 +1029,8 @@ public final class HAFPJCJHAPFOuterClass {
       "\013IMIOLBNFJGB\030\003 \001(\010\022\023\n\013HDIFEOFPHLN\030\004 \001(\010\022" +
       "\023\n\013OAELAOLNGFK\030\005 \001(\010\022\023\n\013LOEHGDAMLON\030\006 \001(" +
       "\010\022\023\n\013EKJOBOMKFKF\030\007 \001(\002\022\023\n\013OEFJJDEPMKB\030\010 " +
-      "\001(\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\002B2\n\031emu.grasscutter.net.protoB\025HAFPJC" +
+      "JHAPFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

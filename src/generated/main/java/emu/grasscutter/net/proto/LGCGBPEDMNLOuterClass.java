@@ -525,8 +525,8 @@ public final class LGCGBPEDMNLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LGCGBPEDMNL.proto\"\"\n\013LGCGBPEDMNL\022\023\n\013DN" +
-      "IBBKLBBJE\030\002 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "IBBKLBBJE\030\002 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025LGCGBPEDMNLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

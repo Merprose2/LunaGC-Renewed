@@ -831,8 +831,8 @@ public final class TaskVarNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\023TaskVarNotify.proto\032\rTaskVar.proto\"0\n\r" +
       "TaskVarNotify\022\037\n\rtask_var_list\030\013 \003(\0132\010.T" +
-      "askVarB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "askVarB4\n\031emu.grasscutter.net.protoB\027Tas" +
+      "kVarNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

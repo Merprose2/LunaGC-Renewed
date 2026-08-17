@@ -908,8 +908,8 @@ public final class CADPEFKILCPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CADPEFKILCP.proto\"L\n\013CADPEFKILCP\022\023\n\013LE" +
       "EFNCOJIGF\030\004 \003(\r\022\023\n\013ACMCGGNFCPI\030\005 \001(\r\022\023\n\013" +
-      "JMHACMLMGCM\030\r \003(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "JMHACMLMGCM\030\r \003(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025CADPEFKILCPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

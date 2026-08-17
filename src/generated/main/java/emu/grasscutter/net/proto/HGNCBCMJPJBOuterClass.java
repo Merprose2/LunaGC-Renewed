@@ -599,8 +599,9 @@ public final class HGNCBCMJPJBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HGNCBCMJPJB.proto\"5\n\013HGNCBCMJPJB\022\021\n\tco" +
-      "nfig_id\030\007 \001(\r\022\023\n\013GLMNLIOCAEE\030\t \001(\014B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "nfig_id\030\007 \001(\r\022\023\n\013GLMNLIOCAEE\030\t \001(\014B2\n\031em" +
+      "u.grasscutter.net.protoB\025HGNCBCMJPJBOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

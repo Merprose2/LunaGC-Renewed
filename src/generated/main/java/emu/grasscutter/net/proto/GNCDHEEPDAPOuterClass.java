@@ -845,8 +845,9 @@ public final class GNCDHEEPDAPOuterClass {
       "\001\n\013GNCDHEEPDAP\022\023\n\013KHLLDJCDBKE\030\001 \001(\r\0222\n\013G" +
       "CNHGEDKLBC\030\003 \003(\0132\035.GNCDHEEPDAP.GCNHGEDKL" +
       "BCEntry\032@\n\020GCNHGEDKLBCEntry\022\013\n\003key\030\001 \001(\r" +
-      "\022\033\n\005value\030\002 \001(\0132\014.EFCJNIMLILO:\0028\001B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\022\033\n\005value\030\002 \001(\0132\014.EFCJNIMLILO:\0028\001B2\n\031emu" +
+      ".grasscutter.net.protoB\025GNCDHEEPDAPOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

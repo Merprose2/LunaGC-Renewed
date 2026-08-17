@@ -518,7 +518,8 @@ public final class SceneGalleryHomeBalloonInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n!SceneGalleryHomeBalloonInfo.proto\",\n\033S" +
       "ceneGalleryHomeBalloonInfo\022\r\n\005score\030\007 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rBB\n\031emu.grasscutter.net.protoB%SceneGal" +
+      "leryHomeBalloonInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

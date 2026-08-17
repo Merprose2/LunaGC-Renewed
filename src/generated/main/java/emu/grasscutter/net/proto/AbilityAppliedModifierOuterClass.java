@@ -2085,8 +2085,9 @@ public final class AbilityAppliedModifierOuterClass {
       "\n\023modifier_durability\030\013 \001(\0132\023.ModifierDu" +
       "rability\022\021\n\tsbuff_uid\030\014 \001(\r\022\023\n\013NKFMJEMJL" +
       "PK\030\016 \001(\010\022\023\n\013IEHGPFCDEMH\030\017 \001(\r\022!\n\013FPDAONB" +
-      "EBHK\030\020 \001(\0162\014.LJGEHMILKEMB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "EBHK\030\020 \001(\0162\014.LJGEHMILKEMB=\n\031emu.grasscut" +
+      "ter.net.protoB AbilityAppliedModifierOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

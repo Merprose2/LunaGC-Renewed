@@ -965,7 +965,8 @@ public final class KPODGFBPOAMOuterClass {
       "\n\021KPODGFBPOAM.proto\032\021FOCCKEHMOBG.proto\"O" +
       "\n\013KPODGFBPOAM\022\n\n\002id\030\001 \001(\005\022\021\n\tis_active\030\002" +
       " \001(\010\022!\n\013DNOMGPMMPIN\030\003 \003(\0132\014.FOCCKEHMOBGB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025KPODGFBPOA" +
+      "MOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

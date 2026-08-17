@@ -776,8 +776,8 @@ public final class CODINBGHENFOuterClass {
       "\n\021CODINBGHENF.proto\032\021EAKCMLBFCDE.proto\"X" +
       "\n\013CODINBGHENF\022\037\n\thint_type\030\001 \001(\0162\014.EAKCM" +
       "LBFCDE\022\023\n\013INLPOJAEPCC\030\002 \001(\t\022\023\n\013FENBPIPIL" +
-      "ME\030\003 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "ME\030\003 \001(\rB2\n\031emu.grasscutter.net.protoB\025C" +
+      "ODINBGHENFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

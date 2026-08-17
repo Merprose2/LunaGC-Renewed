@@ -729,8 +729,9 @@ public final class OLIHMEFBNIJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OLIHMEFBNIJ.proto\"U\n\013OLIHMEFBNIJ\022\017\n\007is" +
       "_open\030\002 \001(\010\022\021\n\tmax_level\030\003 \001(\r\022\023\n\013IOLKLI" +
-      "LAFPO\030\t \001(\r\022\r\n\005level\030\016 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "LAFPO\030\t \001(\r\022\r\n\005level\030\016 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025OLIHMEFBNIJOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

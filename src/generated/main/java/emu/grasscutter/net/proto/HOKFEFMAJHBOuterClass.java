@@ -517,8 +517,8 @@ public final class HOKFEFMAJHBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HOKFEFMAJHB.proto\"&\n\013HOKFEFMAJHB\022\027\n\017ap" +
-      "ply_entity_id\030\010 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "ply_entity_id\030\010 \001(\rB2\n\031emu.grasscutter.n" +
+      "et.protoB\025HOKFEFMAJHBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

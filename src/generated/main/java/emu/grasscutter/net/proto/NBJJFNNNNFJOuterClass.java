@@ -931,8 +931,8 @@ public final class NBJJFNNNNFJOuterClass {
       "\n\021NBJJFNNNNFJ.proto\032\020AuditState.proto\032\021G" +
       "KIIPAJDDJL.proto\"R\n\013NBJJFNNNNFJ\022!\n\013EHMHK" +
       "MFILBC\030\013 \003(\0132\014.GKIIPAJDDJL\022 \n\013audit_stat" +
-      "e\030\017 \001(\0162\013.AuditStateB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "e\030\017 \001(\0162\013.AuditStateB2\n\031emu.grasscutter." +
+      "net.protoB\025NBJJFNNNNFJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

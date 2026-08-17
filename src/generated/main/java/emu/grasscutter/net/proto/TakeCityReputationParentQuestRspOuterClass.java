@@ -1167,8 +1167,9 @@ public final class TakeCityReputationParentQuestRspOuterClass {
       "\032\017ItemParam.proto\"~\n TakeCityReputationP" +
       "arentQuestRsp\022\035\n\titem_list\030\003 \003(\0132\n.ItemP" +
       "aram\022\031\n\021parent_quest_list\030\006 \003(\r\022\017\n\007retco" +
-      "de\030\010 \001(\005\022\017\n\007city_id\030\017 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "de\030\010 \001(\005\022\017\n\007city_id\030\017 \001(\rBG\n\031emu.grasscu" +
+      "tter.net.protoB*TakeCityReputationParent" +
+      "QuestRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

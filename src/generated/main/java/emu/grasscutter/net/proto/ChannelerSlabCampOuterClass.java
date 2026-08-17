@@ -862,8 +862,9 @@ public final class ChannelerSlabCampOuterClass {
       "\n\027ChannelerSlabCamp.proto\032\014Vector.proto\"" +
       "`\n\021ChannelerSlabCamp\022\021\n\treward_id\030\003 \001(\r\022" +
       "\020\n\010group_id\030\004 \001(\r\022\020\n\010buff_num\030\007 \001(\r\022\024\n\003p" +
-      "os\030\016 \001(\0132\007.VectorB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "os\030\016 \001(\0132\007.VectorB8\n\031emu.grasscutter.net" +
+      ".protoB\033ChannelerSlabCampOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

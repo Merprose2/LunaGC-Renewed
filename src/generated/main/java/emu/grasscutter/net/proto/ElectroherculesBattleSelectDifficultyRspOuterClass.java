@@ -738,8 +738,9 @@ public final class ElectroherculesBattleSelectDifficultyRspOuterClass {
       "sp.proto\"t\n(ElectroherculesBattleSelectD" +
       "ifficultyRsp\022\021\n\tdiffculty\030\006 \001(\r\022\017\n\007retco" +
       "de\030\013 \001(\005\022\022\n\ngallery_id\030\014 \001(\r\022\020\n\010stage_id" +
-      "\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \001(\rBO\n\031emu.grasscutter.net.protoB2Ele" +
+      "ctroherculesBattleSelectDifficultyRspOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

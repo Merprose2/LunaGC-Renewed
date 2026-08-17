@@ -1821,8 +1821,8 @@ public final class MOLGNNDKMANOuterClass {
       "\nrequest_id\030\003 \001(\t\022&\n\004data\030\004 \001(\0132\030.MOLGNN" +
       "DKMAN.DKCDJECDFCG\022\023\n\013NGEDGDGBAID\030\005 \001(\014\022\023" +
       "\n\013NJKJHJEAKEJ\030\006 \001(\t\032\032\n\013DKCDJECDFCG\022\013\n\003ur" +
-      "l\030\001 \001(\tB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "l\030\001 \001(\tB2\n\031emu.grasscutter.net.protoB\025MO" +
+      "LGNNDKMANOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

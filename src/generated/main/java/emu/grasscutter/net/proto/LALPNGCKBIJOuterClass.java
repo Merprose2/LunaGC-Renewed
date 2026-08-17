@@ -595,8 +595,9 @@ public final class LALPNGCKBIJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LALPNGCKBIJ.proto\"2\n\013LALPNGCKBIJ\022\022\n\nga" +
-      "llery_id\030\003 \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "llery_id\030\003 \001(\r\022\017\n\007retcode\030\017 \001(\005B2\n\031emu.g" +
+      "rasscutter.net.protoB\025LALPNGCKBIJOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

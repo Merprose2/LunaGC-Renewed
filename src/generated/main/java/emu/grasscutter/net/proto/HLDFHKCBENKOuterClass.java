@@ -845,8 +845,9 @@ public final class HLDFHKCBENKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HLDFHKCBENK.proto\"7\n\013HLDFHKCBENK\022\023\n\013IC" +
-      "BLJILIHAI\030\004 \003(\004\022\023\n\013BEPJKEBPNLM\030\r \003(\004B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "BLJILIHAI\030\004 \003(\004\022\023\n\013BEPJKEBPNLM\030\r \003(\004B2\n\031" +
+      "emu.grasscutter.net.protoB\025HLDFHKCBENKOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -173,8 +173,9 @@ public final class RecordUsageOuterClass {
       "ecordUsage_UGC_RECORD_USAGE_PLAY\020\002\022&\n\"Re" +
       "cordUsage_UGC_RECORD_USAGE_TRIAL\020\003\022(\n$Re" +
       "cordUsage_UGC_RECORD_USAGE_COMPARE\020\004\022$\n " +
-      "RecordUsage_UGC_RECORD_USAGE_PVP\020\005B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "RecordUsage_UGC_RECORD_USAGE_PVP\020\005B2\n\031em" +
+      "u.grasscutter.net.protoB\025RecordUsageOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

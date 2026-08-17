@@ -21,12 +21,12 @@ public final class FLHLALHGIOJOuterClass {
     /**
      * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry> 
+    java.util.List<emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry> 
         getELFOBGIDMPGList();
     /**
      * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
      */
-    emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry getELFOBGIDMPG(int index);
+    emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry getELFOBGIDMPG(int index);
     /**
      * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
      */
@@ -34,12 +34,12 @@ public final class FLHLALHGIOJOuterClass {
     /**
      * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntryOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntryOrBuilder> 
         getELFOBGIDMPGOrBuilderList();
     /**
      * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
      */
-    emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntryOrBuilder getELFOBGIDMPGOrBuilder(
+    emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntryOrBuilder getELFOBGIDMPGOrBuilder(
         int index);
 
     /**
@@ -104,11 +104,11 @@ public final class FLHLALHGIOJOuterClass {
               break;
             case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                eLFOBGIDMPG_ = new java.util.ArrayList<emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry>();
+                eLFOBGIDMPG_ = new java.util.ArrayList<emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry>();
                 mutable_bitField0_ |= 0x00000001;
               }
               eLFOBGIDMPG_.add(
-                  input.readMessage(emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry.parser(), extensionRegistry));
               break;
             }
             case 18: {
@@ -153,19 +153,19 @@ public final class FLHLALHGIOJOuterClass {
     }
 
     public static final int ELFOBGIDMPG_FIELD_NUMBER = 1;
-    private java.util.List<emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry> eLFOBGIDMPG_;
+    private java.util.List<emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry> eLFOBGIDMPG_;
     /**
      * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry> getELFOBGIDMPGList() {
+    public java.util.List<emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry> getELFOBGIDMPGList() {
       return eLFOBGIDMPG_;
     }
     /**
      * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntryOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntryOrBuilder> 
         getELFOBGIDMPGOrBuilderList() {
       return eLFOBGIDMPG_;
     }
@@ -180,14 +180,14 @@ public final class FLHLALHGIOJOuterClass {
      * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry getELFOBGIDMPG(int index) {
+    public emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry getELFOBGIDMPG(int index) {
       return eLFOBGIDMPG_.get(index);
     }
     /**
      * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntryOrBuilder getELFOBGIDMPGOrBuilder(
+    public emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntryOrBuilder getELFOBGIDMPGOrBuilder(
         int index) {
       return eLFOBGIDMPG_.get(index);
     }
@@ -589,22 +589,22 @@ public final class FLHLALHGIOJOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry> eLFOBGIDMPG_ =
+      private java.util.List<emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry> eLFOBGIDMPG_ =
         java.util.Collections.emptyList();
       private void ensureELFOBGIDMPGIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          eLFOBGIDMPG_ = new java.util.ArrayList<emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry>(eLFOBGIDMPG_);
+          eLFOBGIDMPG_ = new java.util.ArrayList<emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry>(eLFOBGIDMPG_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry, emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry.Builder, emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntryOrBuilder> eLFOBGIDMPGBuilder_;
+          emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry, emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry.Builder, emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntryOrBuilder> eLFOBGIDMPGBuilder_;
 
       /**
        * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry> getELFOBGIDMPGList() {
+      public java.util.List<emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry> getELFOBGIDMPGList() {
         if (eLFOBGIDMPGBuilder_ == null) {
           return java.util.Collections.unmodifiableList(eLFOBGIDMPG_);
         } else {
@@ -624,7 +624,7 @@ public final class FLHLALHGIOJOuterClass {
       /**
        * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
        */
-      public emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry getELFOBGIDMPG(int index) {
+      public emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry getELFOBGIDMPG(int index) {
         if (eLFOBGIDMPGBuilder_ == null) {
           return eLFOBGIDMPG_.get(index);
         } else {
@@ -635,7 +635,7 @@ public final class FLHLALHGIOJOuterClass {
        * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
        */
       public Builder setELFOBGIDMPG(
-          int index, emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry value) {
+          int index, emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry value) {
         if (eLFOBGIDMPGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -652,7 +652,7 @@ public final class FLHLALHGIOJOuterClass {
        * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
        */
       public Builder setELFOBGIDMPG(
-          int index, emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry.Builder builderForValue) {
         if (eLFOBGIDMPGBuilder_ == null) {
           ensureELFOBGIDMPGIsMutable();
           eLFOBGIDMPG_.set(index, builderForValue.build());
@@ -665,7 +665,7 @@ public final class FLHLALHGIOJOuterClass {
       /**
        * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
        */
-      public Builder addELFOBGIDMPG(emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry value) {
+      public Builder addELFOBGIDMPG(emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry value) {
         if (eLFOBGIDMPGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -682,7 +682,7 @@ public final class FLHLALHGIOJOuterClass {
        * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
        */
       public Builder addELFOBGIDMPG(
-          int index, emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry value) {
+          int index, emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry value) {
         if (eLFOBGIDMPGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -699,7 +699,7 @@ public final class FLHLALHGIOJOuterClass {
        * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
        */
       public Builder addELFOBGIDMPG(
-          emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry.Builder builderForValue) {
+          emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry.Builder builderForValue) {
         if (eLFOBGIDMPGBuilder_ == null) {
           ensureELFOBGIDMPGIsMutable();
           eLFOBGIDMPG_.add(builderForValue.build());
@@ -713,7 +713,7 @@ public final class FLHLALHGIOJOuterClass {
        * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
        */
       public Builder addELFOBGIDMPG(
-          int index, emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry.Builder builderForValue) {
         if (eLFOBGIDMPGBuilder_ == null) {
           ensureELFOBGIDMPGIsMutable();
           eLFOBGIDMPG_.add(index, builderForValue.build());
@@ -727,7 +727,7 @@ public final class FLHLALHGIOJOuterClass {
        * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
        */
       public Builder addAllELFOBGIDMPG(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry> values) {
         if (eLFOBGIDMPGBuilder_ == null) {
           ensureELFOBGIDMPGIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -767,14 +767,14 @@ public final class FLHLALHGIOJOuterClass {
       /**
        * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
        */
-      public emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry.Builder getELFOBGIDMPGBuilder(
+      public emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry.Builder getELFOBGIDMPGBuilder(
           int index) {
         return getELFOBGIDMPGFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
        */
-      public emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntryOrBuilder getELFOBGIDMPGOrBuilder(
+      public emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntryOrBuilder getELFOBGIDMPGOrBuilder(
           int index) {
         if (eLFOBGIDMPGBuilder_ == null) {
           return eLFOBGIDMPG_.get(index);  } else {
@@ -784,7 +784,7 @@ public final class FLHLALHGIOJOuterClass {
       /**
        * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntryOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntryOrBuilder> 
            getELFOBGIDMPGOrBuilderList() {
         if (eLFOBGIDMPGBuilder_ != null) {
           return eLFOBGIDMPGBuilder_.getMessageOrBuilderList();
@@ -795,31 +795,31 @@ public final class FLHLALHGIOJOuterClass {
       /**
        * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
        */
-      public emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry.Builder addELFOBGIDMPGBuilder() {
+      public emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry.Builder addELFOBGIDMPGBuilder() {
         return getELFOBGIDMPGFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry.getDefaultInstance());
+            emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry.getDefaultInstance());
       }
       /**
        * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
        */
-      public emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry.Builder addELFOBGIDMPGBuilder(
+      public emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry.Builder addELFOBGIDMPGBuilder(
           int index) {
         return getELFOBGIDMPGFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry.getDefaultInstance());
+            index, emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry.getDefaultInstance());
       }
       /**
        * <code>repeated ._GalleryContextEntry ELFOBGIDMPG = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry.Builder> 
            getELFOBGIDMPGBuilderList() {
         return getELFOBGIDMPGFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry, emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry.Builder, emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntryOrBuilder> 
+          emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry, emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry.Builder, emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntryOrBuilder> 
           getELFOBGIDMPGFieldBuilder() {
         if (eLFOBGIDMPGBuilder_ == null) {
           eLFOBGIDMPGBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry, emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntry.Builder, emu.grasscutter.net.proto.GalleryContextEntry._GalleryContextEntryOrBuilder>(
+              emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry, emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntry.Builder, emu.grasscutter.net.proto._GalleryContextEntryOuterClass._GalleryContextEntryOrBuilder>(
                   eLFOBGIDMPG_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -974,12 +974,13 @@ public final class FLHLALHGIOJOuterClass {
       "\n\021FLHLALHGIOJ.proto\032\032_GalleryContextEntr" +
       "y.proto\"H\n\013FLHLALHGIOJ\022*\n\013ELFOBGIDMPG\030\001 " +
       "\003(\0132\025._GalleryContextEntry\022\r\n\005title\030\002 \001(" +
-      "\tB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\tB2\n\031emu.grasscutter.net.protoB\025FLHLALHG" +
+      "IOJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.GalleryContextEntry.getDescriptor(),
+          emu.grasscutter.net.proto._GalleryContextEntryOuterClass.getDescriptor(),
         });
     internal_static_FLHLALHGIOJ_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -987,7 +988,7 @@ public final class FLHLALHGIOJOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FLHLALHGIOJ_descriptor,
         new java.lang.String[] { "ELFOBGIDMPG", "Title", });
-    emu.grasscutter.net.proto.GalleryContextEntry.getDescriptor();
+    emu.grasscutter.net.proto._GalleryContextEntryOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -1168,8 +1168,8 @@ public final class CoopDataNotifyOuterClass {
       "o\"\203\001\n\016CoopDataNotify\022\"\n\014chapter_list\030\002 \003" +
       "(\0132\014.CoopChapter\022\033\n\023viewed_chapter_list\030" +
       "\t \003(\r\022\026\n\016cur_coop_point\030\013 \001(\r\022\030\n\020is_have" +
-      "_progress\030\014 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "_progress\030\014 \001(\010B5\n\031emu.grasscutter.net.p" +
+      "rotoB\030CoopDataNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

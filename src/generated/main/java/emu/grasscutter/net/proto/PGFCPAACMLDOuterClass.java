@@ -27,7 +27,7 @@ public final class PGFCPAACMLDOuterClass {
      * <code>._ReunionReportType MKECAIDFNBP = 2;</code>
      * @return The mKECAIDFNBP.
      */
-    emu.grasscutter.net.proto.ReunionReportType._ReunionReportType getMKECAIDFNBP();
+    emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType getMKECAIDFNBP();
   }
   /**
    * <pre>
@@ -130,10 +130,10 @@ public final class PGFCPAACMLDOuterClass {
      * <code>._ReunionReportType MKECAIDFNBP = 2;</code>
      * @return The mKECAIDFNBP.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.ReunionReportType._ReunionReportType getMKECAIDFNBP() {
+    @java.lang.Override public emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType getMKECAIDFNBP() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.ReunionReportType._ReunionReportType result = emu.grasscutter.net.proto.ReunionReportType._ReunionReportType.valueOf(mKECAIDFNBP_);
-      return result == null ? emu.grasscutter.net.proto.ReunionReportType._ReunionReportType.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType result = emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType.valueOf(mKECAIDFNBP_);
+      return result == null ? emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType.UNRECOGNIZED : result;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -150,7 +150,7 @@ public final class PGFCPAACMLDOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (mKECAIDFNBP_ != emu.grasscutter.net.proto.ReunionReportType._ReunionReportType._ReunionReportType_REUNION_REPORT_TYPE_NONE.getNumber()) {
+      if (mKECAIDFNBP_ != emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType._ReunionReportType_REUNION_REPORT_TYPE_NONE.getNumber()) {
         output.writeEnum(2, mKECAIDFNBP_);
       }
       unknownFields.writeTo(output);
@@ -162,7 +162,7 @@ public final class PGFCPAACMLDOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (mKECAIDFNBP_ != emu.grasscutter.net.proto.ReunionReportType._ReunionReportType._ReunionReportType_REUNION_REPORT_TYPE_NONE.getNumber()) {
+      if (mKECAIDFNBP_ != emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType._ReunionReportType_REUNION_REPORT_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(2, mKECAIDFNBP_);
       }
@@ -465,17 +465,17 @@ public final class PGFCPAACMLDOuterClass {
        * @return The mKECAIDFNBP.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ReunionReportType._ReunionReportType getMKECAIDFNBP() {
+      public emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType getMKECAIDFNBP() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.ReunionReportType._ReunionReportType result = emu.grasscutter.net.proto.ReunionReportType._ReunionReportType.valueOf(mKECAIDFNBP_);
-        return result == null ? emu.grasscutter.net.proto.ReunionReportType._ReunionReportType.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType result = emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType.valueOf(mKECAIDFNBP_);
+        return result == null ? emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType.UNRECOGNIZED : result;
       }
       /**
        * <code>._ReunionReportType MKECAIDFNBP = 2;</code>
        * @param value The mKECAIDFNBP to set.
        * @return This builder for chaining.
        */
-      public Builder setMKECAIDFNBP(emu.grasscutter.net.proto.ReunionReportType._ReunionReportType value) {
+      public Builder setMKECAIDFNBP(emu.grasscutter.net.proto._ReunionReportTypeOuterClass._ReunionReportType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -563,13 +563,14 @@ public final class PGFCPAACMLDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PGFCPAACMLD.proto\032\030_ReunionReportType." +
       "proto\"7\n\013PGFCPAACMLD\022(\n\013MKECAIDFNBP\030\002 \001(" +
-      "\0162\023._ReunionReportTypeB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\0162\023._ReunionReportTypeB2\n\031emu.grasscutte" +
+      "r.net.protoB\025PGFCPAACMLDOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.ReunionReportType.getDescriptor(),
+          emu.grasscutter.net.proto._ReunionReportTypeOuterClass.getDescriptor(),
         });
     internal_static_PGFCPAACMLD_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -577,7 +578,7 @@ public final class PGFCPAACMLDOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PGFCPAACMLD_descriptor,
         new java.lang.String[] { "MKECAIDFNBP", });
-    emu.grasscutter.net.proto.ReunionReportType.getDescriptor();
+    emu.grasscutter.net.proto._ReunionReportTypeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

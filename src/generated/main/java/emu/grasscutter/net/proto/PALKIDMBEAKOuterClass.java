@@ -525,8 +525,8 @@ public final class PALKIDMBEAKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PALKIDMBEAK.proto\"\"\n\013PALKIDMBEAK\022\023\n\013GP" +
-      "NEKBCIGOM\030\002 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "NEKBCIGOM\030\002 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025PALKIDMBEAKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

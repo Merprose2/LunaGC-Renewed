@@ -666,8 +666,8 @@ public final class CBCILLHKHKPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CBCILLHKHKP.proto\"G\n\013CBCILLHKHKP\022\023\n\013of" +
       "fering_id\030\010 \001(\r\022\020\n\010group_id\030\013 \001(\r\022\021\n\tcon" +
-      "fig_id\030\r \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "fig_id\030\r \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025CBCILLHKHKPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -817,8 +817,9 @@ public final class EMDAKFFDJIEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EMDAKFFDJIE.proto\"`\n\013EMDAKFFDJIE\022\023\n\013DC" +
       "MIGGHDPNB\030\007 \001(\r\022\022\n\n_hall_guid\030\010 \001(\004\022\023\n\013K" +
-      "EPPGNBBLPE\030\t \001(\t\022\023\n\013FPCODAHEIFF\030\017 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "EPPGNBBLPE\030\t \001(\t\022\023\n\013FPCODAHEIFF\030\017 \001(\rB2\n" +
+      "\031emu.grasscutter.net.protoB\025EMDAKFFDJIEO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1449,8 +1449,9 @@ public final class LanternRiteActivityDetailInfoOuterClass {
       "_info\030\006 \001(\0132\031.LanternRiteFireworksInfo\022/" +
       "\n\017projection_info\030\t \001(\0132\026.LanternProject" +
       "ionInfo\022\023\n\013APDGHACJHNN\030\013 \001(\010\022\023\n\013BBACLKCH" +
-      "IMC\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "IMC\030\017 \001(\010BD\n\031emu.grasscutter.net.protoB\'" +
+      "LanternRiteActivityDetailInfoOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

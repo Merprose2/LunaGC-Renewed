@@ -857,8 +857,8 @@ public final class LanV3BoatStageInfoOuterClass {
       "\n\030LanV3BoatStageInfo.proto\"b\n\022LanV3BoatS" +
       "tageInfo\022\016\n\006map_id\030\001 \001(\r\022\020\n\010match_id\030\n \001" +
       "(\r\022\027\n\017player_uid_list\030\r \003(\r\022\021\n\tis_single" +
-      "\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \001(\010B9\n\031emu.grasscutter.net.protoB\034Lan" +
+      "V3BoatStageInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

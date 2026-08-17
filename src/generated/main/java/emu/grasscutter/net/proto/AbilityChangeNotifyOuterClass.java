@@ -730,8 +730,9 @@ public final class AbilityChangeNotifyOuterClass {
       "\n\031AbilityChangeNotify.proto\032\031AbilityCont" +
       "rolBlock.proto\"]\n\023AbilityChangeNotify\0223\n" +
       "\025ability_control_block\030\003 \001(\0132\024.AbilityCo" +
-      "ntrolBlock\022\021\n\tentity_id\030\004 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ntrolBlock\022\021\n\tentity_id\030\004 \001(\rB:\n\031emu.gra" +
+      "sscutter.net.protoB\035AbilityChangeNotifyO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

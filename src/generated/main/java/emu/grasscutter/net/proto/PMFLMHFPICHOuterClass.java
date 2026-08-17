@@ -1264,8 +1264,8 @@ public final class PMFLMHFPICHOuterClass {
       "DOEHOD\030\001 \001(\0132\014.HCGKIHNICBB\022!\n\013MGIJOFIOLO" +
       "J\030\002 \001(\0132\014.EHOGAOMLLHP\022!\n\013FDIKFLDCEAL\030\003 \001" +
       "(\0132\014.NDNDNKBNDAC\022!\n\013IKKOPCOMIMJ\030\004 \001(\0132\014." +
-      "LCJKBOJAANOB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "LCJKBOJAANOB2\n\031emu.grasscutter.net.proto" +
+      "B\025PMFLMHFPICHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -799,8 +799,9 @@ public final class PCIJFBPHGKJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PCIJFBPHGKJ.proto\032\014Vector.proto\"M\n\013PCI" +
       "JFBPHGKJ\022\023\n\013IBCNHIFMKAM\030\005 \001(\r\022\024\n\003rot\030\007 \001" +
-      "(\0132\007.Vector\022\023\n\013_grid_index\030\014 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "(\0132\007.Vector\022\023\n\013_grid_index\030\014 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025PCIJFBPHGKJOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

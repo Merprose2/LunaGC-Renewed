@@ -823,8 +823,8 @@ public final class HNIPCMEPLJCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HNIPCMEPLJC.proto\032\021LFKFKCEFHLL.proto\"0" +
       "\n\013HNIPCMEPLJC\022!\n\013PDAKKCCGGAC\030\001 \003(\0132\014.LFK" +
-      "FKCEFHLLB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "FKCEFHLLB2\n\031emu.grasscutter.net.protoB\025H" +
+      "NIPCMEPLJCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -667,8 +667,8 @@ public final class EKHBNIFOMOCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EKHBNIFOMOC.proto\"M\n\013EKHBNIFOMOC\022\023\n\013PA" +
       "BNKPPIIOF\030\003 \001(\r\022\023\n\013KGDHIIGEFEJ\030\010 \001(\r\022\024\n\014" +
-      "dungeon_guid\030\r \001(\004B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "dungeon_guid\030\r \001(\004B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025EKHBNIFOMOCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

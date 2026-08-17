@@ -595,8 +595,9 @@ public final class INDLAHBKMFGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021INDLAHBKMFG.proto\"3\n\013INDLAHBKMFG\022\023\n\013ma" +
-      "terial_id\030\002 \001(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "terial_id\030\002 \001(\r\022\017\n\007retcode\030\016 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025INDLAHBKMFGOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

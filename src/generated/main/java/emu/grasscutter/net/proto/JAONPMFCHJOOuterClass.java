@@ -454,8 +454,9 @@ public final class JAONPMFCHJOOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021JAONPMFCHJO.proto\"\r\n\013JAONPMFCHJOB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021JAONPMFCHJO.proto\"\r\n\013JAONPMFCHJOB2\n\031em" +
+      "u.grasscutter.net.protoB\025JAONPMFCHJOOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

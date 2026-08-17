@@ -1249,8 +1249,8 @@ public final class OJMNAIMPELGOuterClass {
       "\n\021OJMNAIMPELG.proto\"i\n\013OJMNAIMPELG\022\014\n\004na" +
       "me\030\001 \001(\t\022\r\n\005shape\030\002 \003(\005\022\023\n\013PMNBPCPGINM\030\003" +
       " \001(\005\022\023\n\013KMBJINPALCJ\030\004 \003(\005\022\023\n\013CEMHAPIKGEJ" +
-      "\030\005 \003(\002B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\005 \003(\002B2\n\031emu.grasscutter.net.protoB\025OJM" +
+      "NAIMPELGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

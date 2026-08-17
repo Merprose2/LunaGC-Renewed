@@ -659,8 +659,9 @@ public final class AbilityMixinFrequencyShieldBarOuterClass {
       "\n$AbilityMixinFrequencyShieldBar.proto\"X" +
       "\n\036AbilityMixinFrequencyShieldBar\022\016\n\006shie" +
       "ld\030\004 \001(\r\022\022\n\nmax_shield\030\010 \001(\r\022\022\n\nplayer_n" +
-      "um\030\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "um\030\013 \001(\rBE\n\031emu.grasscutter.net.protoB(A" +
+      "bilityMixinFrequencyShieldBarOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -190,8 +190,9 @@ public final class LLMBEOCEKJOOuterClass {
       "\020\001\022\026\n\022LLMBEOCEKJO_SELECT\020\002\022\026\n\022LLMBEOCEKJ" +
       "O_MODIFY\020\003\022\026\n\022LLMBEOCEKJO_CREATE\020\004\022\025\n\021LL" +
       "MBEOCEKJO_FLUSH\020\005\022\032\n\026LLMBEOCEKJO_CREATE_" +
-      "REQ\020\006\022\032\n\026LLMBEOCEKJO_DELETE_REQ\020\007B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "REQ\020\006\022\032\n\026LLMBEOCEKJO_DELETE_REQ\020\007B2\n\031emu" +
+      ".grasscutter.net.protoB\025LLMBEOCEKJOOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

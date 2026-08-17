@@ -133,8 +133,9 @@ public final class FNBEAAKPNNMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FNBEAAKPNNM.proto*R\n\013FNBEAAKPNNM\022\024\n\020FN" +
       "BEAAKPNNM_NONE\020\000\022-\n)FNBEAAKPNNM_PIN_VISI" +
-      "BILITY_CONTROLLER_V_2\020\001B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "BILITY_CONTROLLER_V_2\020\001B2\n\031emu.grasscutt" +
+      "er.net.protoB\025FNBEAAKPNNMOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

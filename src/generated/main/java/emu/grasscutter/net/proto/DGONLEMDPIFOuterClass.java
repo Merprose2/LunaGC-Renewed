@@ -1199,8 +1199,8 @@ public final class DGONLEMDPIFOuterClass {
       "ONLEMDPIF\022\023\n\013CLALDLOODKP\030\004 \001(\r\022\016\n\006ref_id" +
       "\030\005 \001(\r\022\033\n\ntarget_pos\030\007 \001(\0132\007.Vector\022\034\n\013E" +
       "MLILOBNIOG\030\014 \001(\0132\007.Vector\022\030\n\007ref_pos\030\r \001" +
-      "(\0132\007.VectorB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "(\0132\007.VectorB2\n\031emu.grasscutter.net.proto" +
+      "B\025DGONLEMDPIFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

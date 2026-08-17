@@ -454,8 +454,9 @@ public final class MIJDHPONBICOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021MIJDHPONBIC.proto\"\r\n\013MIJDHPONBICB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021MIJDHPONBIC.proto\"\r\n\013MIJDHPONBICB2\n\031em" +
+      "u.grasscutter.net.protoB\025MIJDHPONBICOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

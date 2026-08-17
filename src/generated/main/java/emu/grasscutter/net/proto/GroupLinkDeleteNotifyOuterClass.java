@@ -525,8 +525,9 @@ public final class GroupLinkDeleteNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033GroupLinkDeleteNotify.proto\"*\n\025GroupLi" +
-      "nkDeleteNotify\022\021\n\tbundle_id\030\013 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "nkDeleteNotify\022\021\n\tbundle_id\030\013 \001(\rB<\n\031emu" +
+      ".grasscutter.net.protoB\037GroupLinkDeleteN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

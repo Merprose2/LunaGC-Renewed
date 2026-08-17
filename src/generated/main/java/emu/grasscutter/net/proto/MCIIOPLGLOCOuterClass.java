@@ -823,8 +823,8 @@ public final class MCIIOPLGLOCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MCIIOPLGLOC.proto\032\021DLFMKKOHGGC.proto\"0" +
       "\n\013MCIIOPLGLOC\022!\n\013GFLONDNKCNL\030\001 \003(\0132\014.DLF" +
-      "MKKOHGGCB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "MKKOHGGCB2\n\031emu.grasscutter.net.protoB\025M" +
+      "CIIOPLGLOCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

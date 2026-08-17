@@ -1434,8 +1434,9 @@ public final class DDBNDHNGEMFOuterClass {
       "JNLJAADM\030\001 \001(\0132\014.LNHPDECBPMO\022$\n\016team_inf" +
       "o_list\030\002 \003(\0132\014.JLHFIDHPJMF\022\027\n\017equip_guid" +
       "_list\030\007 \003(\004\022\021\n\tcost_time\030\010 \001(\r\022\023\n\013is_fin" +
-      "ished\030\014 \001(\010\022\023\n\013AAKAOLKKNGC\030\r \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "ished\030\014 \001(\010\022\023\n\013AAKAOLKKNGC\030\r \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025DDBNDHNGEMFOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

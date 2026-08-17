@@ -660,7 +660,8 @@ public final class MultistagePlayInfoNotifyOuterClass {
       "\n\036MultistagePlayInfoNotify.proto\032\030Multis" +
       "tagePlayInfo.proto\"=\n\030MultistagePlayInfo" +
       "Notify\022!\n\004info\030\t \001(\0132\023.MultistagePlayInf" +
-      "oB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "oB?\n\031emu.grasscutter.net.protoB\"Multista" +
+      "gePlayInfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

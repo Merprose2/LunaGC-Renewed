@@ -1106,8 +1106,9 @@ public final class ItemHintOuterClass {
       "\n\016ItemHint.proto\032\021OBLGMFAIFCM.proto\"k\n\010I" +
       "temHint\022\017\n\007item_id\030\001 \001(\r\022\r\n\005count\030\002 \001(\r\022" +
       "\016\n\006is_new\030\003 \001(\010\022\014\n\004guid\030\004 \001(\004\022!\n\013JFCPGMB" +
-      "KDDO\030\005 \003(\0132\014.OBLGMFAIFCMB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "KDDO\030\005 \003(\0132\014.OBLGMFAIFCMB/\n\031emu.grasscut" +
+      "ter.net.protoB\022ItemHintOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

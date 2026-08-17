@@ -667,8 +667,8 @@ public final class BDEJPJEIJIPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BDEJPJEIJIP.proto\"L\n\013BDEJPJEIJIP\022\022\n\npl" +
       "ayer_uid\030\t \001(\r\022\023\n\013IHBEJKPPILB\030\n \001(\r\022\024\n\014d" +
-      "ungeon_guid\030\014 \001(\004B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "ungeon_guid\030\014 \001(\004B2\n\031emu.grasscutter.net" +
+      ".protoB\025BDEJPJEIJIPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

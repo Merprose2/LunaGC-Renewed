@@ -1113,8 +1113,8 @@ public final class HBECODPJIENOuterClass {
       "\013HBECODPJIEN\022\023\n\013LJNMFDMELIK\030\002 \001(\r\022\023\n\013IMN" +
       "EDEDFBFM\030\006 \001(\r\022\023\n\013LKPKDPNPGND\030\007 \001(\r\022&\n\022t" +
       "ransfer_item_list\030\010 \003(\0132\n.ItemParam\022\017\n\007r" +
-      "etcode\030\r \001(\005B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "etcode\030\r \001(\005B2\n\031emu.grasscutter.net.prot" +
+      "oB\025HBECODPJIENOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -68,7 +68,7 @@ public final class PlayerReportReqOuterClass {
      * <code>._ReportReasonSubtype _sub_reason = 13;</code>
      * @return The subReason.
      */
-    emu.grasscutter.net.proto.ReportReasonSubtype._ReportReasonSubtype getSubReason();
+    emu.grasscutter.net.proto._ReportReasonSubtypeOuterClass._ReportReasonSubtype getSubReason();
 
     /**
      * <code>uint32 target_uid = 15;</code>
@@ -314,10 +314,10 @@ public final class PlayerReportReqOuterClass {
      * <code>._ReportReasonSubtype _sub_reason = 13;</code>
      * @return The subReason.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.ReportReasonSubtype._ReportReasonSubtype getSubReason() {
+    @java.lang.Override public emu.grasscutter.net.proto._ReportReasonSubtypeOuterClass._ReportReasonSubtype getSubReason() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.ReportReasonSubtype._ReportReasonSubtype result = emu.grasscutter.net.proto.ReportReasonSubtype._ReportReasonSubtype.valueOf(SubReason_);
-      return result == null ? emu.grasscutter.net.proto.ReportReasonSubtype._ReportReasonSubtype.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto._ReportReasonSubtypeOuterClass._ReportReasonSubtype result = emu.grasscutter.net.proto._ReportReasonSubtypeOuterClass._ReportReasonSubtype.valueOf(SubReason_);
+      return result == null ? emu.grasscutter.net.proto._ReportReasonSubtypeOuterClass._ReportReasonSubtype.UNRECOGNIZED : result;
     }
 
     public static final int TARGET_UID_FIELD_NUMBER = 15;
@@ -357,7 +357,7 @@ public final class PlayerReportReqOuterClass {
       if (reason_ != emu.grasscutter.net.proto.ReportReasonTypeOuterClass.ReportReasonType.ReportReasonType_REPORT_REASON_NONE.getNumber()) {
         output.writeEnum(12, reason_);
       }
-      if (SubReason_ != emu.grasscutter.net.proto.ReportReasonSubtype._ReportReasonSubtype._ReportReasonSubtype_REPORT_REASON_SUBTYPE_NONE.getNumber()) {
+      if (SubReason_ != emu.grasscutter.net.proto._ReportReasonSubtypeOuterClass._ReportReasonSubtype._ReportReasonSubtype_REPORT_REASON_SUBTYPE_NONE.getNumber()) {
         output.writeEnum(13, SubReason_);
       }
       if (targetUid_ != 0) {
@@ -386,7 +386,7 @@ public final class PlayerReportReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(12, reason_);
       }
-      if (SubReason_ != emu.grasscutter.net.proto.ReportReasonSubtype._ReportReasonSubtype._ReportReasonSubtype_REPORT_REASON_SUBTYPE_NONE.getNumber()) {
+      if (SubReason_ != emu.grasscutter.net.proto._ReportReasonSubtypeOuterClass._ReportReasonSubtype._ReportReasonSubtype_REPORT_REASON_SUBTYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(13, SubReason_);
       }
@@ -981,17 +981,17 @@ public final class PlayerReportReqOuterClass {
        * @return The subReason.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ReportReasonSubtype._ReportReasonSubtype getSubReason() {
+      public emu.grasscutter.net.proto._ReportReasonSubtypeOuterClass._ReportReasonSubtype getSubReason() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.ReportReasonSubtype._ReportReasonSubtype result = emu.grasscutter.net.proto.ReportReasonSubtype._ReportReasonSubtype.valueOf(SubReason_);
-        return result == null ? emu.grasscutter.net.proto.ReportReasonSubtype._ReportReasonSubtype.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto._ReportReasonSubtypeOuterClass._ReportReasonSubtype result = emu.grasscutter.net.proto._ReportReasonSubtypeOuterClass._ReportReasonSubtype.valueOf(SubReason_);
+        return result == null ? emu.grasscutter.net.proto._ReportReasonSubtypeOuterClass._ReportReasonSubtype.UNRECOGNIZED : result;
       }
       /**
        * <code>._ReportReasonSubtype _sub_reason = 13;</code>
        * @param value The subReason to set.
        * @return This builder for chaining.
        */
-      public Builder setSubReason(emu.grasscutter.net.proto.ReportReasonSubtype._ReportReasonSubtype value) {
+      public Builder setSubReason(emu.grasscutter.net.proto._ReportReasonSubtypeOuterClass._ReportReasonSubtype value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -1114,14 +1114,15 @@ public final class PlayerReportReqOuterClass {
       "\030\007 \001(\r\022\037\n\027target_home_module_name\030\t \001(\t\022" +
       "\017\n\007content\030\n \001(\t\022!\n\006reason\030\014 \001(\0162\021.Repor" +
       "tReasonType\022*\n\013_sub_reason\030\r \001(\0162\025._Repo" +
-      "rtReasonSubtype\022\022\n\ntarget_uid\030\017 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "rtReasonSubtype\022\022\n\ntarget_uid\030\017 \001(\rB6\n\031e" +
+      "mu.grasscutter.net.protoB\031PlayerReportRe" +
+      "qOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.ReportReasonTypeOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.ReportReasonSubtype.getDescriptor(),
+          emu.grasscutter.net.proto._ReportReasonSubtypeOuterClass.getDescriptor(),
         });
     internal_static_PlayerReportReq_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1130,7 +1131,7 @@ public final class PlayerReportReqOuterClass {
         internal_static_PlayerReportReq_descriptor,
         new java.lang.String[] { "TargetHomeModuleId", "TargetHomeModuleName", "Content", "Reason", "SubReason", "TargetUid", });
     emu.grasscutter.net.proto.ReportReasonTypeOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.ReportReasonSubtype.getDescriptor();
+    emu.grasscutter.net.proto._ReportReasonSubtypeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

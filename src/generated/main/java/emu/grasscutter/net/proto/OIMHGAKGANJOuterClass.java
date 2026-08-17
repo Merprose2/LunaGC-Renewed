@@ -51,11 +51,11 @@ public final class OIMHGAKGANJOuterClass {
      * <code>._Axis2DInput axis_2_d_input = 1206;</code>
      * @return The axis2DInput.
      */
-    emu.grasscutter.net.proto.Axis2DInput._Axis2DInput getAxis2DInput();
+    emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput getAxis2DInput();
     /**
      * <code>._Axis2DInput axis_2_d_input = 1206;</code>
      */
-    emu.grasscutter.net.proto.Axis2DInput._Axis2DInputOrBuilder getAxis2DInputOrBuilder();
+    emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInputOrBuilder getAxis2DInputOrBuilder();
 
     /**
      * <code>._ButtonInput button_input = 1234;</code>
@@ -66,11 +66,11 @@ public final class OIMHGAKGANJOuterClass {
      * <code>._ButtonInput button_input = 1234;</code>
      * @return The buttonInput.
      */
-    emu.grasscutter.net.proto.ButtonInput._ButtonInput getButtonInput();
+    emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput getButtonInput();
     /**
      * <code>._ButtonInput button_input = 1234;</code>
      */
-    emu.grasscutter.net.proto.ButtonInput._ButtonInputOrBuilder getButtonInputOrBuilder();
+    emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInputOrBuilder getButtonInputOrBuilder();
 
     /**
      * <code>._CustomInput custom_input = 1473;</code>
@@ -81,11 +81,11 @@ public final class OIMHGAKGANJOuterClass {
      * <code>._CustomInput custom_input = 1473;</code>
      * @return The customInput.
      */
-    emu.grasscutter.net.proto.CustomInput._CustomInput getCustomInput();
+    emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput getCustomInput();
     /**
      * <code>._CustomInput custom_input = 1473;</code>
      */
-    emu.grasscutter.net.proto.CustomInput._CustomInputOrBuilder getCustomInputOrBuilder();
+    emu.grasscutter.net.proto._CustomInputOuterClass._CustomInputOrBuilder getCustomInputOrBuilder();
 
     /**
      * <code>._AxisInput axis_input = 1545;</code>
@@ -96,11 +96,11 @@ public final class OIMHGAKGANJOuterClass {
      * <code>._AxisInput axis_input = 1545;</code>
      * @return The axisInput.
      */
-    emu.grasscutter.net.proto.AxisInput._AxisInput getAxisInput();
+    emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput getAxisInput();
     /**
      * <code>._AxisInput axis_input = 1545;</code>
      */
-    emu.grasscutter.net.proto.AxisInput._AxisInputOrBuilder getAxisInputOrBuilder();
+    emu.grasscutter.net.proto._AxisInputOuterClass._AxisInputOrBuilder getAxisInputOrBuilder();
 
     public emu.grasscutter.net.proto.OIMHGAKGANJOuterClass.OIMHGAKGANJ.DetailCase getDetailCase();
   }
@@ -170,56 +170,56 @@ public final class OIMHGAKGANJOuterClass {
               break;
             }
             case 9650: {
-              emu.grasscutter.net.proto.Axis2DInput._Axis2DInput.Builder subBuilder = null;
+              emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput.Builder subBuilder = null;
               if (detailCase_ == 1206) {
-                subBuilder = ((emu.grasscutter.net.proto.Axis2DInput._Axis2DInput) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.Axis2DInput._Axis2DInput.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.Axis2DInput._Axis2DInput) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1206;
               break;
             }
             case 9874: {
-              emu.grasscutter.net.proto.ButtonInput._ButtonInput.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput.Builder subBuilder = null;
               if (detailCase_ == 1234) {
-                subBuilder = ((emu.grasscutter.net.proto.ButtonInput._ButtonInput) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.ButtonInput._ButtonInput.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ButtonInput._ButtonInput) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1234;
               break;
             }
             case 11786: {
-              emu.grasscutter.net.proto.CustomInput._CustomInput.Builder subBuilder = null;
+              emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput.Builder subBuilder = null;
               if (detailCase_ == 1473) {
-                subBuilder = ((emu.grasscutter.net.proto.CustomInput._CustomInput) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.CustomInput._CustomInput.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.CustomInput._CustomInput) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1473;
               break;
             }
             case 12362: {
-              emu.grasscutter.net.proto.AxisInput._AxisInput.Builder subBuilder = null;
+              emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput.Builder subBuilder = null;
               if (detailCase_ == 1545) {
-                subBuilder = ((emu.grasscutter.net.proto.AxisInput._AxisInput) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.AxisInput._AxisInput.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.AxisInput._AxisInput) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1545;
@@ -360,21 +360,21 @@ public final class OIMHGAKGANJOuterClass {
      * @return The axis2DInput.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Axis2DInput._Axis2DInput getAxis2DInput() {
+    public emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput getAxis2DInput() {
       if (detailCase_ == 1206) {
-         return (emu.grasscutter.net.proto.Axis2DInput._Axis2DInput) detail_;
+         return (emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput) detail_;
       }
-      return emu.grasscutter.net.proto.Axis2DInput._Axis2DInput.getDefaultInstance();
+      return emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput.getDefaultInstance();
     }
     /**
      * <code>._Axis2DInput axis_2_d_input = 1206;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.Axis2DInput._Axis2DInputOrBuilder getAxis2DInputOrBuilder() {
+    public emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInputOrBuilder getAxis2DInputOrBuilder() {
       if (detailCase_ == 1206) {
-         return (emu.grasscutter.net.proto.Axis2DInput._Axis2DInput) detail_;
+         return (emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput) detail_;
       }
-      return emu.grasscutter.net.proto.Axis2DInput._Axis2DInput.getDefaultInstance();
+      return emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput.getDefaultInstance();
     }
 
     public static final int BUTTON_INPUT_FIELD_NUMBER = 1234;
@@ -391,21 +391,21 @@ public final class OIMHGAKGANJOuterClass {
      * @return The buttonInput.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ButtonInput._ButtonInput getButtonInput() {
+    public emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput getButtonInput() {
       if (detailCase_ == 1234) {
-         return (emu.grasscutter.net.proto.ButtonInput._ButtonInput) detail_;
+         return (emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput) detail_;
       }
-      return emu.grasscutter.net.proto.ButtonInput._ButtonInput.getDefaultInstance();
+      return emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput.getDefaultInstance();
     }
     /**
      * <code>._ButtonInput button_input = 1234;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ButtonInput._ButtonInputOrBuilder getButtonInputOrBuilder() {
+    public emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInputOrBuilder getButtonInputOrBuilder() {
       if (detailCase_ == 1234) {
-         return (emu.grasscutter.net.proto.ButtonInput._ButtonInput) detail_;
+         return (emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput) detail_;
       }
-      return emu.grasscutter.net.proto.ButtonInput._ButtonInput.getDefaultInstance();
+      return emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput.getDefaultInstance();
     }
 
     public static final int CUSTOM_INPUT_FIELD_NUMBER = 1473;
@@ -422,21 +422,21 @@ public final class OIMHGAKGANJOuterClass {
      * @return The customInput.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CustomInput._CustomInput getCustomInput() {
+    public emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput getCustomInput() {
       if (detailCase_ == 1473) {
-         return (emu.grasscutter.net.proto.CustomInput._CustomInput) detail_;
+         return (emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput) detail_;
       }
-      return emu.grasscutter.net.proto.CustomInput._CustomInput.getDefaultInstance();
+      return emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput.getDefaultInstance();
     }
     /**
      * <code>._CustomInput custom_input = 1473;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.CustomInput._CustomInputOrBuilder getCustomInputOrBuilder() {
+    public emu.grasscutter.net.proto._CustomInputOuterClass._CustomInputOrBuilder getCustomInputOrBuilder() {
       if (detailCase_ == 1473) {
-         return (emu.grasscutter.net.proto.CustomInput._CustomInput) detail_;
+         return (emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput) detail_;
       }
-      return emu.grasscutter.net.proto.CustomInput._CustomInput.getDefaultInstance();
+      return emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput.getDefaultInstance();
     }
 
     public static final int AXIS_INPUT_FIELD_NUMBER = 1545;
@@ -453,21 +453,21 @@ public final class OIMHGAKGANJOuterClass {
      * @return The axisInput.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AxisInput._AxisInput getAxisInput() {
+    public emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput getAxisInput() {
       if (detailCase_ == 1545) {
-         return (emu.grasscutter.net.proto.AxisInput._AxisInput) detail_;
+         return (emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput) detail_;
       }
-      return emu.grasscutter.net.proto.AxisInput._AxisInput.getDefaultInstance();
+      return emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput.getDefaultInstance();
     }
     /**
      * <code>._AxisInput axis_input = 1545;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AxisInput._AxisInputOrBuilder getAxisInputOrBuilder() {
+    public emu.grasscutter.net.proto._AxisInputOuterClass._AxisInputOrBuilder getAxisInputOrBuilder() {
       if (detailCase_ == 1545) {
-         return (emu.grasscutter.net.proto.AxisInput._AxisInput) detail_;
+         return (emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput) detail_;
       }
-      return emu.grasscutter.net.proto.AxisInput._AxisInput.getDefaultInstance();
+      return emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -497,16 +497,16 @@ public final class OIMHGAKGANJOuterClass {
         output.writeUInt32(15, eKIEFKBPCHO_);
       }
       if (detailCase_ == 1206) {
-        output.writeMessage(1206, (emu.grasscutter.net.proto.Axis2DInput._Axis2DInput) detail_);
+        output.writeMessage(1206, (emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput) detail_);
       }
       if (detailCase_ == 1234) {
-        output.writeMessage(1234, (emu.grasscutter.net.proto.ButtonInput._ButtonInput) detail_);
+        output.writeMessage(1234, (emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput) detail_);
       }
       if (detailCase_ == 1473) {
-        output.writeMessage(1473, (emu.grasscutter.net.proto.CustomInput._CustomInput) detail_);
+        output.writeMessage(1473, (emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput) detail_);
       }
       if (detailCase_ == 1545) {
-        output.writeMessage(1545, (emu.grasscutter.net.proto.AxisInput._AxisInput) detail_);
+        output.writeMessage(1545, (emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -535,19 +535,19 @@ public final class OIMHGAKGANJOuterClass {
       }
       if (detailCase_ == 1206) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1206, (emu.grasscutter.net.proto.Axis2DInput._Axis2DInput) detail_);
+          .computeMessageSize(1206, (emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput) detail_);
       }
       if (detailCase_ == 1234) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1234, (emu.grasscutter.net.proto.ButtonInput._ButtonInput) detail_);
+          .computeMessageSize(1234, (emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput) detail_);
       }
       if (detailCase_ == 1473) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1473, (emu.grasscutter.net.proto.CustomInput._CustomInput) detail_);
+          .computeMessageSize(1473, (emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput) detail_);
       }
       if (detailCase_ == 1545) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1545, (emu.grasscutter.net.proto.AxisInput._AxisInput) detail_);
+          .computeMessageSize(1545, (emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1085,7 +1085,7 @@ public final class OIMHGAKGANJOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Axis2DInput._Axis2DInput, emu.grasscutter.net.proto.Axis2DInput._Axis2DInput.Builder, emu.grasscutter.net.proto.Axis2DInput._Axis2DInputOrBuilder> axis2DInputBuilder_;
+          emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput, emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput.Builder, emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInputOrBuilder> axis2DInputBuilder_;
       /**
        * <code>._Axis2DInput axis_2_d_input = 1206;</code>
        * @return Whether the axis2DInput field is set.
@@ -1099,23 +1099,23 @@ public final class OIMHGAKGANJOuterClass {
        * @return The axis2DInput.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Axis2DInput._Axis2DInput getAxis2DInput() {
+      public emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput getAxis2DInput() {
         if (axis2DInputBuilder_ == null) {
           if (detailCase_ == 1206) {
-            return (emu.grasscutter.net.proto.Axis2DInput._Axis2DInput) detail_;
+            return (emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput) detail_;
           }
-          return emu.grasscutter.net.proto.Axis2DInput._Axis2DInput.getDefaultInstance();
+          return emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput.getDefaultInstance();
         } else {
           if (detailCase_ == 1206) {
             return axis2DInputBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.Axis2DInput._Axis2DInput.getDefaultInstance();
+          return emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput.getDefaultInstance();
         }
       }
       /**
        * <code>._Axis2DInput axis_2_d_input = 1206;</code>
        */
-      public Builder setAxis2DInput(emu.grasscutter.net.proto.Axis2DInput._Axis2DInput value) {
+      public Builder setAxis2DInput(emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput value) {
         if (axis2DInputBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1132,7 +1132,7 @@ public final class OIMHGAKGANJOuterClass {
        * <code>._Axis2DInput axis_2_d_input = 1206;</code>
        */
       public Builder setAxis2DInput(
-          emu.grasscutter.net.proto.Axis2DInput._Axis2DInput.Builder builderForValue) {
+          emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput.Builder builderForValue) {
         if (axis2DInputBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1145,11 +1145,11 @@ public final class OIMHGAKGANJOuterClass {
       /**
        * <code>._Axis2DInput axis_2_d_input = 1206;</code>
        */
-      public Builder mergeAxis2DInput(emu.grasscutter.net.proto.Axis2DInput._Axis2DInput value) {
+      public Builder mergeAxis2DInput(emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput value) {
         if (axis2DInputBuilder_ == null) {
           if (detailCase_ == 1206 &&
-              detail_ != emu.grasscutter.net.proto.Axis2DInput._Axis2DInput.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.Axis2DInput._Axis2DInput.newBuilder((emu.grasscutter.net.proto.Axis2DInput._Axis2DInput) detail_)
+              detail_ != emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput.newBuilder((emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1186,36 +1186,36 @@ public final class OIMHGAKGANJOuterClass {
       /**
        * <code>._Axis2DInput axis_2_d_input = 1206;</code>
        */
-      public emu.grasscutter.net.proto.Axis2DInput._Axis2DInput.Builder getAxis2DInputBuilder() {
+      public emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput.Builder getAxis2DInputBuilder() {
         return getAxis2DInputFieldBuilder().getBuilder();
       }
       /**
        * <code>._Axis2DInput axis_2_d_input = 1206;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.Axis2DInput._Axis2DInputOrBuilder getAxis2DInputOrBuilder() {
+      public emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInputOrBuilder getAxis2DInputOrBuilder() {
         if ((detailCase_ == 1206) && (axis2DInputBuilder_ != null)) {
           return axis2DInputBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1206) {
-            return (emu.grasscutter.net.proto.Axis2DInput._Axis2DInput) detail_;
+            return (emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput) detail_;
           }
-          return emu.grasscutter.net.proto.Axis2DInput._Axis2DInput.getDefaultInstance();
+          return emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput.getDefaultInstance();
         }
       }
       /**
        * <code>._Axis2DInput axis_2_d_input = 1206;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Axis2DInput._Axis2DInput, emu.grasscutter.net.proto.Axis2DInput._Axis2DInput.Builder, emu.grasscutter.net.proto.Axis2DInput._Axis2DInputOrBuilder> 
+          emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput, emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput.Builder, emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInputOrBuilder> 
           getAxis2DInputFieldBuilder() {
         if (axis2DInputBuilder_ == null) {
           if (!(detailCase_ == 1206)) {
-            detail_ = emu.grasscutter.net.proto.Axis2DInput._Axis2DInput.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput.getDefaultInstance();
           }
           axis2DInputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.Axis2DInput._Axis2DInput, emu.grasscutter.net.proto.Axis2DInput._Axis2DInput.Builder, emu.grasscutter.net.proto.Axis2DInput._Axis2DInputOrBuilder>(
-                  (emu.grasscutter.net.proto.Axis2DInput._Axis2DInput) detail_,
+              emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput, emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput.Builder, emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInputOrBuilder>(
+                  (emu.grasscutter.net.proto._Axis2DInputOuterClass._Axis2DInput) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1226,7 +1226,7 @@ public final class OIMHGAKGANJOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ButtonInput._ButtonInput, emu.grasscutter.net.proto.ButtonInput._ButtonInput.Builder, emu.grasscutter.net.proto.ButtonInput._ButtonInputOrBuilder> buttonInputBuilder_;
+          emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput, emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput.Builder, emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInputOrBuilder> buttonInputBuilder_;
       /**
        * <code>._ButtonInput button_input = 1234;</code>
        * @return Whether the buttonInput field is set.
@@ -1240,23 +1240,23 @@ public final class OIMHGAKGANJOuterClass {
        * @return The buttonInput.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ButtonInput._ButtonInput getButtonInput() {
+      public emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput getButtonInput() {
         if (buttonInputBuilder_ == null) {
           if (detailCase_ == 1234) {
-            return (emu.grasscutter.net.proto.ButtonInput._ButtonInput) detail_;
+            return (emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput) detail_;
           }
-          return emu.grasscutter.net.proto.ButtonInput._ButtonInput.getDefaultInstance();
+          return emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput.getDefaultInstance();
         } else {
           if (detailCase_ == 1234) {
             return buttonInputBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ButtonInput._ButtonInput.getDefaultInstance();
+          return emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput.getDefaultInstance();
         }
       }
       /**
        * <code>._ButtonInput button_input = 1234;</code>
        */
-      public Builder setButtonInput(emu.grasscutter.net.proto.ButtonInput._ButtonInput value) {
+      public Builder setButtonInput(emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput value) {
         if (buttonInputBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1273,7 +1273,7 @@ public final class OIMHGAKGANJOuterClass {
        * <code>._ButtonInput button_input = 1234;</code>
        */
       public Builder setButtonInput(
-          emu.grasscutter.net.proto.ButtonInput._ButtonInput.Builder builderForValue) {
+          emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput.Builder builderForValue) {
         if (buttonInputBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1286,11 +1286,11 @@ public final class OIMHGAKGANJOuterClass {
       /**
        * <code>._ButtonInput button_input = 1234;</code>
        */
-      public Builder mergeButtonInput(emu.grasscutter.net.proto.ButtonInput._ButtonInput value) {
+      public Builder mergeButtonInput(emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput value) {
         if (buttonInputBuilder_ == null) {
           if (detailCase_ == 1234 &&
-              detail_ != emu.grasscutter.net.proto.ButtonInput._ButtonInput.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.ButtonInput._ButtonInput.newBuilder((emu.grasscutter.net.proto.ButtonInput._ButtonInput) detail_)
+              detail_ != emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput.newBuilder((emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1327,36 +1327,36 @@ public final class OIMHGAKGANJOuterClass {
       /**
        * <code>._ButtonInput button_input = 1234;</code>
        */
-      public emu.grasscutter.net.proto.ButtonInput._ButtonInput.Builder getButtonInputBuilder() {
+      public emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput.Builder getButtonInputBuilder() {
         return getButtonInputFieldBuilder().getBuilder();
       }
       /**
        * <code>._ButtonInput button_input = 1234;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ButtonInput._ButtonInputOrBuilder getButtonInputOrBuilder() {
+      public emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInputOrBuilder getButtonInputOrBuilder() {
         if ((detailCase_ == 1234) && (buttonInputBuilder_ != null)) {
           return buttonInputBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1234) {
-            return (emu.grasscutter.net.proto.ButtonInput._ButtonInput) detail_;
+            return (emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput) detail_;
           }
-          return emu.grasscutter.net.proto.ButtonInput._ButtonInput.getDefaultInstance();
+          return emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput.getDefaultInstance();
         }
       }
       /**
        * <code>._ButtonInput button_input = 1234;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ButtonInput._ButtonInput, emu.grasscutter.net.proto.ButtonInput._ButtonInput.Builder, emu.grasscutter.net.proto.ButtonInput._ButtonInputOrBuilder> 
+          emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput, emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput.Builder, emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInputOrBuilder> 
           getButtonInputFieldBuilder() {
         if (buttonInputBuilder_ == null) {
           if (!(detailCase_ == 1234)) {
-            detail_ = emu.grasscutter.net.proto.ButtonInput._ButtonInput.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput.getDefaultInstance();
           }
           buttonInputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ButtonInput._ButtonInput, emu.grasscutter.net.proto.ButtonInput._ButtonInput.Builder, emu.grasscutter.net.proto.ButtonInput._ButtonInputOrBuilder>(
-                  (emu.grasscutter.net.proto.ButtonInput._ButtonInput) detail_,
+              emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput, emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput.Builder, emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInputOrBuilder>(
+                  (emu.grasscutter.net.proto._ButtonInputOuterClass._ButtonInput) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1367,7 +1367,7 @@ public final class OIMHGAKGANJOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CustomInput._CustomInput, emu.grasscutter.net.proto.CustomInput._CustomInput.Builder, emu.grasscutter.net.proto.CustomInput._CustomInputOrBuilder> customInputBuilder_;
+          emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput, emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput.Builder, emu.grasscutter.net.proto._CustomInputOuterClass._CustomInputOrBuilder> customInputBuilder_;
       /**
        * <code>._CustomInput custom_input = 1473;</code>
        * @return Whether the customInput field is set.
@@ -1381,23 +1381,23 @@ public final class OIMHGAKGANJOuterClass {
        * @return The customInput.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CustomInput._CustomInput getCustomInput() {
+      public emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput getCustomInput() {
         if (customInputBuilder_ == null) {
           if (detailCase_ == 1473) {
-            return (emu.grasscutter.net.proto.CustomInput._CustomInput) detail_;
+            return (emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput) detail_;
           }
-          return emu.grasscutter.net.proto.CustomInput._CustomInput.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput.getDefaultInstance();
         } else {
           if (detailCase_ == 1473) {
             return customInputBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.CustomInput._CustomInput.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput.getDefaultInstance();
         }
       }
       /**
        * <code>._CustomInput custom_input = 1473;</code>
        */
-      public Builder setCustomInput(emu.grasscutter.net.proto.CustomInput._CustomInput value) {
+      public Builder setCustomInput(emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput value) {
         if (customInputBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1414,7 +1414,7 @@ public final class OIMHGAKGANJOuterClass {
        * <code>._CustomInput custom_input = 1473;</code>
        */
       public Builder setCustomInput(
-          emu.grasscutter.net.proto.CustomInput._CustomInput.Builder builderForValue) {
+          emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput.Builder builderForValue) {
         if (customInputBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1427,11 +1427,11 @@ public final class OIMHGAKGANJOuterClass {
       /**
        * <code>._CustomInput custom_input = 1473;</code>
        */
-      public Builder mergeCustomInput(emu.grasscutter.net.proto.CustomInput._CustomInput value) {
+      public Builder mergeCustomInput(emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput value) {
         if (customInputBuilder_ == null) {
           if (detailCase_ == 1473 &&
-              detail_ != emu.grasscutter.net.proto.CustomInput._CustomInput.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.CustomInput._CustomInput.newBuilder((emu.grasscutter.net.proto.CustomInput._CustomInput) detail_)
+              detail_ != emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput.newBuilder((emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1468,36 +1468,36 @@ public final class OIMHGAKGANJOuterClass {
       /**
        * <code>._CustomInput custom_input = 1473;</code>
        */
-      public emu.grasscutter.net.proto.CustomInput._CustomInput.Builder getCustomInputBuilder() {
+      public emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput.Builder getCustomInputBuilder() {
         return getCustomInputFieldBuilder().getBuilder();
       }
       /**
        * <code>._CustomInput custom_input = 1473;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CustomInput._CustomInputOrBuilder getCustomInputOrBuilder() {
+      public emu.grasscutter.net.proto._CustomInputOuterClass._CustomInputOrBuilder getCustomInputOrBuilder() {
         if ((detailCase_ == 1473) && (customInputBuilder_ != null)) {
           return customInputBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1473) {
-            return (emu.grasscutter.net.proto.CustomInput._CustomInput) detail_;
+            return (emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput) detail_;
           }
-          return emu.grasscutter.net.proto.CustomInput._CustomInput.getDefaultInstance();
+          return emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput.getDefaultInstance();
         }
       }
       /**
        * <code>._CustomInput custom_input = 1473;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CustomInput._CustomInput, emu.grasscutter.net.proto.CustomInput._CustomInput.Builder, emu.grasscutter.net.proto.CustomInput._CustomInputOrBuilder> 
+          emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput, emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput.Builder, emu.grasscutter.net.proto._CustomInputOuterClass._CustomInputOrBuilder> 
           getCustomInputFieldBuilder() {
         if (customInputBuilder_ == null) {
           if (!(detailCase_ == 1473)) {
-            detail_ = emu.grasscutter.net.proto.CustomInput._CustomInput.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput.getDefaultInstance();
           }
           customInputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CustomInput._CustomInput, emu.grasscutter.net.proto.CustomInput._CustomInput.Builder, emu.grasscutter.net.proto.CustomInput._CustomInputOrBuilder>(
-                  (emu.grasscutter.net.proto.CustomInput._CustomInput) detail_,
+              emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput, emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput.Builder, emu.grasscutter.net.proto._CustomInputOuterClass._CustomInputOrBuilder>(
+                  (emu.grasscutter.net.proto._CustomInputOuterClass._CustomInput) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1508,7 +1508,7 @@ public final class OIMHGAKGANJOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AxisInput._AxisInput, emu.grasscutter.net.proto.AxisInput._AxisInput.Builder, emu.grasscutter.net.proto.AxisInput._AxisInputOrBuilder> axisInputBuilder_;
+          emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput, emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput.Builder, emu.grasscutter.net.proto._AxisInputOuterClass._AxisInputOrBuilder> axisInputBuilder_;
       /**
        * <code>._AxisInput axis_input = 1545;</code>
        * @return Whether the axisInput field is set.
@@ -1522,23 +1522,23 @@ public final class OIMHGAKGANJOuterClass {
        * @return The axisInput.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AxisInput._AxisInput getAxisInput() {
+      public emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput getAxisInput() {
         if (axisInputBuilder_ == null) {
           if (detailCase_ == 1545) {
-            return (emu.grasscutter.net.proto.AxisInput._AxisInput) detail_;
+            return (emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput) detail_;
           }
-          return emu.grasscutter.net.proto.AxisInput._AxisInput.getDefaultInstance();
+          return emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput.getDefaultInstance();
         } else {
           if (detailCase_ == 1545) {
             return axisInputBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.AxisInput._AxisInput.getDefaultInstance();
+          return emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput.getDefaultInstance();
         }
       }
       /**
        * <code>._AxisInput axis_input = 1545;</code>
        */
-      public Builder setAxisInput(emu.grasscutter.net.proto.AxisInput._AxisInput value) {
+      public Builder setAxisInput(emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput value) {
         if (axisInputBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1555,7 +1555,7 @@ public final class OIMHGAKGANJOuterClass {
        * <code>._AxisInput axis_input = 1545;</code>
        */
       public Builder setAxisInput(
-          emu.grasscutter.net.proto.AxisInput._AxisInput.Builder builderForValue) {
+          emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput.Builder builderForValue) {
         if (axisInputBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1568,11 +1568,11 @@ public final class OIMHGAKGANJOuterClass {
       /**
        * <code>._AxisInput axis_input = 1545;</code>
        */
-      public Builder mergeAxisInput(emu.grasscutter.net.proto.AxisInput._AxisInput value) {
+      public Builder mergeAxisInput(emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput value) {
         if (axisInputBuilder_ == null) {
           if (detailCase_ == 1545 &&
-              detail_ != emu.grasscutter.net.proto.AxisInput._AxisInput.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.AxisInput._AxisInput.newBuilder((emu.grasscutter.net.proto.AxisInput._AxisInput) detail_)
+              detail_ != emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput.newBuilder((emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1609,36 +1609,36 @@ public final class OIMHGAKGANJOuterClass {
       /**
        * <code>._AxisInput axis_input = 1545;</code>
        */
-      public emu.grasscutter.net.proto.AxisInput._AxisInput.Builder getAxisInputBuilder() {
+      public emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput.Builder getAxisInputBuilder() {
         return getAxisInputFieldBuilder().getBuilder();
       }
       /**
        * <code>._AxisInput axis_input = 1545;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.AxisInput._AxisInputOrBuilder getAxisInputOrBuilder() {
+      public emu.grasscutter.net.proto._AxisInputOuterClass._AxisInputOrBuilder getAxisInputOrBuilder() {
         if ((detailCase_ == 1545) && (axisInputBuilder_ != null)) {
           return axisInputBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1545) {
-            return (emu.grasscutter.net.proto.AxisInput._AxisInput) detail_;
+            return (emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput) detail_;
           }
-          return emu.grasscutter.net.proto.AxisInput._AxisInput.getDefaultInstance();
+          return emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput.getDefaultInstance();
         }
       }
       /**
        * <code>._AxisInput axis_input = 1545;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AxisInput._AxisInput, emu.grasscutter.net.proto.AxisInput._AxisInput.Builder, emu.grasscutter.net.proto.AxisInput._AxisInputOrBuilder> 
+          emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput, emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput.Builder, emu.grasscutter.net.proto._AxisInputOuterClass._AxisInputOrBuilder> 
           getAxisInputFieldBuilder() {
         if (axisInputBuilder_ == null) {
           if (!(detailCase_ == 1545)) {
-            detail_ = emu.grasscutter.net.proto.AxisInput._AxisInput.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput.getDefaultInstance();
           }
           axisInputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.AxisInput._AxisInput, emu.grasscutter.net.proto.AxisInput._AxisInput.Builder, emu.grasscutter.net.proto.AxisInput._AxisInputOrBuilder>(
-                  (emu.grasscutter.net.proto.AxisInput._AxisInput) detail_,
+              emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput, emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput.Builder, emu.grasscutter.net.proto._AxisInputOuterClass._AxisInputOrBuilder>(
+                  (emu.grasscutter.net.proto._AxisInputOuterClass._AxisInput) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1723,15 +1723,16 @@ public final class OIMHGAKGANJOuterClass {
       "tton_input\030\322\t \001(\0132\r._ButtonInputH\000\022&\n\014cu" +
       "stom_input\030\301\013 \001(\0132\r._CustomInputH\000\022\"\n\nax" +
       "is_input\030\211\014 \001(\0132\013._AxisInputH\000B\010\n\006detail" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025OIMHGAKGA" +
+      "NJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.Axis2DInput.getDescriptor(),
-          emu.grasscutter.net.proto.AxisInput.getDescriptor(),
-          emu.grasscutter.net.proto.ButtonInput.getDescriptor(),
-          emu.grasscutter.net.proto.CustomInput.getDescriptor(),
+          emu.grasscutter.net.proto._Axis2DInputOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._AxisInputOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ButtonInputOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._CustomInputOuterClass.getDescriptor(),
         });
     internal_static_OIMHGAKGANJ_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1739,10 +1740,10 @@ public final class OIMHGAKGANJOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_OIMHGAKGANJ_descriptor,
         new java.lang.String[] { "MBDFBBOFCJD", "Duration", "EntityId", "EKIEFKBPCHO", "Axis2DInput", "ButtonInput", "CustomInput", "AxisInput", "Detail", });
-    emu.grasscutter.net.proto.Axis2DInput.getDescriptor();
-    emu.grasscutter.net.proto.AxisInput.getDescriptor();
-    emu.grasscutter.net.proto.ButtonInput.getDescriptor();
-    emu.grasscutter.net.proto.CustomInput.getDescriptor();
+    emu.grasscutter.net.proto._Axis2DInputOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._AxisInputOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ButtonInputOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._CustomInputOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -161,11 +161,11 @@ public final class FHHNJNNILJPOuterClass {
        * <code>._TeamExtraInfo team_extra_info = 4;</code>
        * @return The teamExtraInfo.
        */
-      emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo getTeamExtraInfo();
+      emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo getTeamExtraInfo();
       /**
        * <code>._TeamExtraInfo team_extra_info = 4;</code>
        */
-      emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfoOrBuilder getTeamExtraInfoOrBuilder();
+      emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfoOrBuilder getTeamExtraInfoOrBuilder();
 
       /**
        * <code>bool is_in_new_beyond_team = 5;</code>
@@ -187,11 +187,11 @@ public final class FHHNJNNILJPOuterClass {
        * <code>._NewConfig new_config = 6;</code>
        * @return The newConfig.
        */
-      emu.grasscutter.net.proto.NewConfig._NewConfig getNewConfig();
+      emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig getNewConfig();
       /**
        * <code>._NewConfig new_config = 6;</code>
        */
-      emu.grasscutter.net.proto.NewConfig._NewConfigOrBuilder getNewConfigOrBuilder();
+      emu.grasscutter.net.proto._NewConfigOuterClass._NewConfigOrBuilder getNewConfigOrBuilder();
 
       /**
        * <code>.EHPIEDKNHJP new_member = 8;</code>
@@ -217,11 +217,11 @@ public final class FHHNJNNILJPOuterClass {
        * <code>._InitInfo init_info = 9;</code>
        * @return The initInfo.
        */
-      emu.grasscutter.net.proto.InitInfo._InitInfo getInitInfo();
+      emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo getInitInfo();
       /**
        * <code>._InitInfo init_info = 9;</code>
        */
-      emu.grasscutter.net.proto.InitInfo._InitInfoOrBuilder getInitInfoOrBuilder();
+      emu.grasscutter.net.proto._InitInfoOuterClass._InitInfoOrBuilder getInitInfoOrBuilder();
 
       /**
        * <code>._MemberLeaveInfo member_leave_info = 10;</code>
@@ -232,11 +232,11 @@ public final class FHHNJNNILJPOuterClass {
        * <code>._MemberLeaveInfo member_leave_info = 10;</code>
        * @return The memberLeaveInfo.
        */
-      emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo getMemberLeaveInfo();
+      emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo getMemberLeaveInfo();
       /**
        * <code>._MemberLeaveInfo member_leave_info = 10;</code>
        */
-      emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfoOrBuilder getMemberLeaveInfoOrBuilder();
+      emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfoOrBuilder getMemberLeaveInfoOrBuilder();
 
       /**
        * <code>.EHPIEDKNHJP new_captain = 12;</code>
@@ -316,14 +316,14 @@ public final class FHHNJNNILJPOuterClass {
                 done = true;
                 break;
               case 34: {
-                emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo.Builder subBuilder = null;
+                emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo.Builder subBuilder = null;
                 if (nHIBINKGLMDCase_ == 4) {
-                  subBuilder = ((emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo) nHIBINKGLMD_).toBuilder();
+                  subBuilder = ((emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo) nHIBINKGLMD_).toBuilder();
                 }
                 nHIBINKGLMD_ =
-                    input.readMessage(emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo.parser(), extensionRegistry);
+                    input.readMessage(emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo.parser(), extensionRegistry);
                 if (subBuilder != null) {
-                  subBuilder.mergeFrom((emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo) nHIBINKGLMD_);
+                  subBuilder.mergeFrom((emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo) nHIBINKGLMD_);
                   nHIBINKGLMD_ = subBuilder.buildPartial();
                 }
                 nHIBINKGLMDCase_ = 4;
@@ -335,14 +335,14 @@ public final class FHHNJNNILJPOuterClass {
                 break;
               }
               case 50: {
-                emu.grasscutter.net.proto.NewConfig._NewConfig.Builder subBuilder = null;
+                emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig.Builder subBuilder = null;
                 if (nHIBINKGLMDCase_ == 6) {
-                  subBuilder = ((emu.grasscutter.net.proto.NewConfig._NewConfig) nHIBINKGLMD_).toBuilder();
+                  subBuilder = ((emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig) nHIBINKGLMD_).toBuilder();
                 }
                 nHIBINKGLMD_ =
-                    input.readMessage(emu.grasscutter.net.proto.NewConfig._NewConfig.parser(), extensionRegistry);
+                    input.readMessage(emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig.parser(), extensionRegistry);
                 if (subBuilder != null) {
-                  subBuilder.mergeFrom((emu.grasscutter.net.proto.NewConfig._NewConfig) nHIBINKGLMD_);
+                  subBuilder.mergeFrom((emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig) nHIBINKGLMD_);
                   nHIBINKGLMD_ = subBuilder.buildPartial();
                 }
                 nHIBINKGLMDCase_ = 6;
@@ -363,28 +363,28 @@ public final class FHHNJNNILJPOuterClass {
                 break;
               }
               case 74: {
-                emu.grasscutter.net.proto.InitInfo._InitInfo.Builder subBuilder = null;
+                emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.Builder subBuilder = null;
                 if (nHIBINKGLMDCase_ == 9) {
-                  subBuilder = ((emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_).toBuilder();
+                  subBuilder = ((emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_).toBuilder();
                 }
                 nHIBINKGLMD_ =
-                    input.readMessage(emu.grasscutter.net.proto.InitInfo._InitInfo.parser(), extensionRegistry);
+                    input.readMessage(emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.parser(), extensionRegistry);
                 if (subBuilder != null) {
-                  subBuilder.mergeFrom((emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_);
+                  subBuilder.mergeFrom((emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_);
                   nHIBINKGLMD_ = subBuilder.buildPartial();
                 }
                 nHIBINKGLMDCase_ = 9;
                 break;
               }
               case 82: {
-                emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.Builder subBuilder = null;
+                emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.Builder subBuilder = null;
                 if (nHIBINKGLMDCase_ == 10) {
-                  subBuilder = ((emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_).toBuilder();
+                  subBuilder = ((emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_).toBuilder();
                 }
                 nHIBINKGLMD_ =
-                    input.readMessage(emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.parser(), extensionRegistry);
+                    input.readMessage(emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.parser(), extensionRegistry);
                 if (subBuilder != null) {
-                  subBuilder.mergeFrom((emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_);
+                  subBuilder.mergeFrom((emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_);
                   nHIBINKGLMD_ = subBuilder.buildPartial();
                 }
                 nHIBINKGLMDCase_ = 10;
@@ -517,21 +517,21 @@ public final class FHHNJNNILJPOuterClass {
        * @return The teamExtraInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo getTeamExtraInfo() {
+      public emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo getTeamExtraInfo() {
         if (nHIBINKGLMDCase_ == 4) {
-           return (emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo) nHIBINKGLMD_;
+           return (emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo) nHIBINKGLMD_;
         }
-        return emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo.getDefaultInstance();
+        return emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo.getDefaultInstance();
       }
       /**
        * <code>._TeamExtraInfo team_extra_info = 4;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfoOrBuilder getTeamExtraInfoOrBuilder() {
+      public emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfoOrBuilder getTeamExtraInfoOrBuilder() {
         if (nHIBINKGLMDCase_ == 4) {
-           return (emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo) nHIBINKGLMD_;
+           return (emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo) nHIBINKGLMD_;
         }
-        return emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo.getDefaultInstance();
+        return emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo.getDefaultInstance();
       }
 
       public static final int IS_IN_NEW_BEYOND_TEAM_FIELD_NUMBER = 5;
@@ -569,21 +569,21 @@ public final class FHHNJNNILJPOuterClass {
        * @return The newConfig.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.NewConfig._NewConfig getNewConfig() {
+      public emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig getNewConfig() {
         if (nHIBINKGLMDCase_ == 6) {
-           return (emu.grasscutter.net.proto.NewConfig._NewConfig) nHIBINKGLMD_;
+           return (emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig) nHIBINKGLMD_;
         }
-        return emu.grasscutter.net.proto.NewConfig._NewConfig.getDefaultInstance();
+        return emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig.getDefaultInstance();
       }
       /**
        * <code>._NewConfig new_config = 6;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.NewConfig._NewConfigOrBuilder getNewConfigOrBuilder() {
+      public emu.grasscutter.net.proto._NewConfigOuterClass._NewConfigOrBuilder getNewConfigOrBuilder() {
         if (nHIBINKGLMDCase_ == 6) {
-           return (emu.grasscutter.net.proto.NewConfig._NewConfig) nHIBINKGLMD_;
+           return (emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig) nHIBINKGLMD_;
         }
-        return emu.grasscutter.net.proto.NewConfig._NewConfig.getDefaultInstance();
+        return emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig.getDefaultInstance();
       }
 
       public static final int NEW_MEMBER_FIELD_NUMBER = 8;
@@ -631,21 +631,21 @@ public final class FHHNJNNILJPOuterClass {
        * @return The initInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.InitInfo._InitInfo getInitInfo() {
+      public emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo getInitInfo() {
         if (nHIBINKGLMDCase_ == 9) {
-           return (emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_;
+           return (emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_;
         }
-        return emu.grasscutter.net.proto.InitInfo._InitInfo.getDefaultInstance();
+        return emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.getDefaultInstance();
       }
       /**
        * <code>._InitInfo init_info = 9;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.InitInfo._InitInfoOrBuilder getInitInfoOrBuilder() {
+      public emu.grasscutter.net.proto._InitInfoOuterClass._InitInfoOrBuilder getInitInfoOrBuilder() {
         if (nHIBINKGLMDCase_ == 9) {
-           return (emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_;
+           return (emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_;
         }
-        return emu.grasscutter.net.proto.InitInfo._InitInfo.getDefaultInstance();
+        return emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.getDefaultInstance();
       }
 
       public static final int MEMBER_LEAVE_INFO_FIELD_NUMBER = 10;
@@ -662,21 +662,21 @@ public final class FHHNJNNILJPOuterClass {
        * @return The memberLeaveInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo getMemberLeaveInfo() {
+      public emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo getMemberLeaveInfo() {
         if (nHIBINKGLMDCase_ == 10) {
-           return (emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_;
+           return (emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_;
         }
-        return emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.getDefaultInstance();
+        return emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.getDefaultInstance();
       }
       /**
        * <code>._MemberLeaveInfo member_leave_info = 10;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfoOrBuilder getMemberLeaveInfoOrBuilder() {
+      public emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfoOrBuilder getMemberLeaveInfoOrBuilder() {
         if (nHIBINKGLMDCase_ == 10) {
-           return (emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_;
+           return (emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_;
         }
-        return emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.getDefaultInstance();
+        return emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.getDefaultInstance();
       }
 
       public static final int NEW_CAPTAIN_FIELD_NUMBER = 12;
@@ -756,23 +756,23 @@ public final class FHHNJNNILJPOuterClass {
       public void writeTo(com.google.protobuf.CodedOutputStream output)
                           throws java.io.IOException {
         if (nHIBINKGLMDCase_ == 4) {
-          output.writeMessage(4, (emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo) nHIBINKGLMD_);
+          output.writeMessage(4, (emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 5) {
           output.writeBool(
               5, (boolean)((java.lang.Boolean) nHIBINKGLMD_));
         }
         if (nHIBINKGLMDCase_ == 6) {
-          output.writeMessage(6, (emu.grasscutter.net.proto.NewConfig._NewConfig) nHIBINKGLMD_);
+          output.writeMessage(6, (emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 8) {
           output.writeMessage(8, (emu.grasscutter.net.proto.EHPIEDKNHJPOuterClass.EHPIEDKNHJP) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 9) {
-          output.writeMessage(9, (emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_);
+          output.writeMessage(9, (emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 10) {
-          output.writeMessage(10, (emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_);
+          output.writeMessage(10, (emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 12) {
           output.writeMessage(12, (emu.grasscutter.net.proto.EHPIEDKNHJPOuterClass.EHPIEDKNHJP) nHIBINKGLMD_);
@@ -791,7 +791,7 @@ public final class FHHNJNNILJPOuterClass {
         size = 0;
         if (nHIBINKGLMDCase_ == 4) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(4, (emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo) nHIBINKGLMD_);
+            .computeMessageSize(4, (emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 5) {
           size += com.google.protobuf.CodedOutputStream
@@ -800,7 +800,7 @@ public final class FHHNJNNILJPOuterClass {
         }
         if (nHIBINKGLMDCase_ == 6) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(6, (emu.grasscutter.net.proto.NewConfig._NewConfig) nHIBINKGLMD_);
+            .computeMessageSize(6, (emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 8) {
           size += com.google.protobuf.CodedOutputStream
@@ -808,11 +808,11 @@ public final class FHHNJNNILJPOuterClass {
         }
         if (nHIBINKGLMDCase_ == 9) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(9, (emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_);
+            .computeMessageSize(9, (emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 10) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10, (emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_);
+            .computeMessageSize(10, (emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_);
         }
         if (nHIBINKGLMDCase_ == 12) {
           size += com.google.protobuf.CodedOutputStream
@@ -1266,7 +1266,7 @@ public final class FHHNJNNILJPOuterClass {
 
 
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo, emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo.Builder, emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfoOrBuilder> teamExtraInfoBuilder_;
+            emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo, emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo.Builder, emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfoOrBuilder> teamExtraInfoBuilder_;
         /**
          * <code>._TeamExtraInfo team_extra_info = 4;</code>
          * @return Whether the teamExtraInfo field is set.
@@ -1280,23 +1280,23 @@ public final class FHHNJNNILJPOuterClass {
          * @return The teamExtraInfo.
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo getTeamExtraInfo() {
+        public emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo getTeamExtraInfo() {
           if (teamExtraInfoBuilder_ == null) {
             if (nHIBINKGLMDCase_ == 4) {
-              return (emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo) nHIBINKGLMD_;
+              return (emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo) nHIBINKGLMD_;
             }
-            return emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo.getDefaultInstance();
           } else {
             if (nHIBINKGLMDCase_ == 4) {
               return teamExtraInfoBuilder_.getMessage();
             }
-            return emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo.getDefaultInstance();
           }
         }
         /**
          * <code>._TeamExtraInfo team_extra_info = 4;</code>
          */
-        public Builder setTeamExtraInfo(emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo value) {
+        public Builder setTeamExtraInfo(emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo value) {
           if (teamExtraInfoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1313,7 +1313,7 @@ public final class FHHNJNNILJPOuterClass {
          * <code>._TeamExtraInfo team_extra_info = 4;</code>
          */
         public Builder setTeamExtraInfo(
-            emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo.Builder builderForValue) {
+            emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo.Builder builderForValue) {
           if (teamExtraInfoBuilder_ == null) {
             nHIBINKGLMD_ = builderForValue.build();
             onChanged();
@@ -1326,11 +1326,11 @@ public final class FHHNJNNILJPOuterClass {
         /**
          * <code>._TeamExtraInfo team_extra_info = 4;</code>
          */
-        public Builder mergeTeamExtraInfo(emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo value) {
+        public Builder mergeTeamExtraInfo(emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo value) {
           if (teamExtraInfoBuilder_ == null) {
             if (nHIBINKGLMDCase_ == 4 &&
-                nHIBINKGLMD_ != emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo.getDefaultInstance()) {
-              nHIBINKGLMD_ = emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo.newBuilder((emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo) nHIBINKGLMD_)
+                nHIBINKGLMD_ != emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo.getDefaultInstance()) {
+              nHIBINKGLMD_ = emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo.newBuilder((emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo) nHIBINKGLMD_)
                   .mergeFrom(value).buildPartial();
             } else {
               nHIBINKGLMD_ = value;
@@ -1367,36 +1367,36 @@ public final class FHHNJNNILJPOuterClass {
         /**
          * <code>._TeamExtraInfo team_extra_info = 4;</code>
          */
-        public emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo.Builder getTeamExtraInfoBuilder() {
+        public emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo.Builder getTeamExtraInfoBuilder() {
           return getTeamExtraInfoFieldBuilder().getBuilder();
         }
         /**
          * <code>._TeamExtraInfo team_extra_info = 4;</code>
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfoOrBuilder getTeamExtraInfoOrBuilder() {
+        public emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfoOrBuilder getTeamExtraInfoOrBuilder() {
           if ((nHIBINKGLMDCase_ == 4) && (teamExtraInfoBuilder_ != null)) {
             return teamExtraInfoBuilder_.getMessageOrBuilder();
           } else {
             if (nHIBINKGLMDCase_ == 4) {
-              return (emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo) nHIBINKGLMD_;
+              return (emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo) nHIBINKGLMD_;
             }
-            return emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo.getDefaultInstance();
           }
         }
         /**
          * <code>._TeamExtraInfo team_extra_info = 4;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo, emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo.Builder, emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfoOrBuilder> 
+            emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo, emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo.Builder, emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfoOrBuilder> 
             getTeamExtraInfoFieldBuilder() {
           if (teamExtraInfoBuilder_ == null) {
             if (!(nHIBINKGLMDCase_ == 4)) {
-              nHIBINKGLMD_ = emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo.getDefaultInstance();
+              nHIBINKGLMD_ = emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo.getDefaultInstance();
             }
             teamExtraInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo, emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo.Builder, emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfoOrBuilder>(
-                    (emu.grasscutter.net.proto.TeamExtraInfo._TeamExtraInfo) nHIBINKGLMD_,
+                emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo, emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo.Builder, emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfoOrBuilder>(
+                    (emu.grasscutter.net.proto._TeamExtraInfoOuterClass._TeamExtraInfo) nHIBINKGLMD_,
                     getParentForChildren(),
                     isClean());
             nHIBINKGLMD_ = null;
@@ -1448,7 +1448,7 @@ public final class FHHNJNNILJPOuterClass {
         }
 
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.NewConfig._NewConfig, emu.grasscutter.net.proto.NewConfig._NewConfig.Builder, emu.grasscutter.net.proto.NewConfig._NewConfigOrBuilder> newConfigBuilder_;
+            emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig, emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig.Builder, emu.grasscutter.net.proto._NewConfigOuterClass._NewConfigOrBuilder> newConfigBuilder_;
         /**
          * <code>._NewConfig new_config = 6;</code>
          * @return Whether the newConfig field is set.
@@ -1462,23 +1462,23 @@ public final class FHHNJNNILJPOuterClass {
          * @return The newConfig.
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.NewConfig._NewConfig getNewConfig() {
+        public emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig getNewConfig() {
           if (newConfigBuilder_ == null) {
             if (nHIBINKGLMDCase_ == 6) {
-              return (emu.grasscutter.net.proto.NewConfig._NewConfig) nHIBINKGLMD_;
+              return (emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig) nHIBINKGLMD_;
             }
-            return emu.grasscutter.net.proto.NewConfig._NewConfig.getDefaultInstance();
+            return emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig.getDefaultInstance();
           } else {
             if (nHIBINKGLMDCase_ == 6) {
               return newConfigBuilder_.getMessage();
             }
-            return emu.grasscutter.net.proto.NewConfig._NewConfig.getDefaultInstance();
+            return emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig.getDefaultInstance();
           }
         }
         /**
          * <code>._NewConfig new_config = 6;</code>
          */
-        public Builder setNewConfig(emu.grasscutter.net.proto.NewConfig._NewConfig value) {
+        public Builder setNewConfig(emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig value) {
           if (newConfigBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1495,7 +1495,7 @@ public final class FHHNJNNILJPOuterClass {
          * <code>._NewConfig new_config = 6;</code>
          */
         public Builder setNewConfig(
-            emu.grasscutter.net.proto.NewConfig._NewConfig.Builder builderForValue) {
+            emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig.Builder builderForValue) {
           if (newConfigBuilder_ == null) {
             nHIBINKGLMD_ = builderForValue.build();
             onChanged();
@@ -1508,11 +1508,11 @@ public final class FHHNJNNILJPOuterClass {
         /**
          * <code>._NewConfig new_config = 6;</code>
          */
-        public Builder mergeNewConfig(emu.grasscutter.net.proto.NewConfig._NewConfig value) {
+        public Builder mergeNewConfig(emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig value) {
           if (newConfigBuilder_ == null) {
             if (nHIBINKGLMDCase_ == 6 &&
-                nHIBINKGLMD_ != emu.grasscutter.net.proto.NewConfig._NewConfig.getDefaultInstance()) {
-              nHIBINKGLMD_ = emu.grasscutter.net.proto.NewConfig._NewConfig.newBuilder((emu.grasscutter.net.proto.NewConfig._NewConfig) nHIBINKGLMD_)
+                nHIBINKGLMD_ != emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig.getDefaultInstance()) {
+              nHIBINKGLMD_ = emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig.newBuilder((emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig) nHIBINKGLMD_)
                   .mergeFrom(value).buildPartial();
             } else {
               nHIBINKGLMD_ = value;
@@ -1549,36 +1549,36 @@ public final class FHHNJNNILJPOuterClass {
         /**
          * <code>._NewConfig new_config = 6;</code>
          */
-        public emu.grasscutter.net.proto.NewConfig._NewConfig.Builder getNewConfigBuilder() {
+        public emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig.Builder getNewConfigBuilder() {
           return getNewConfigFieldBuilder().getBuilder();
         }
         /**
          * <code>._NewConfig new_config = 6;</code>
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.NewConfig._NewConfigOrBuilder getNewConfigOrBuilder() {
+        public emu.grasscutter.net.proto._NewConfigOuterClass._NewConfigOrBuilder getNewConfigOrBuilder() {
           if ((nHIBINKGLMDCase_ == 6) && (newConfigBuilder_ != null)) {
             return newConfigBuilder_.getMessageOrBuilder();
           } else {
             if (nHIBINKGLMDCase_ == 6) {
-              return (emu.grasscutter.net.proto.NewConfig._NewConfig) nHIBINKGLMD_;
+              return (emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig) nHIBINKGLMD_;
             }
-            return emu.grasscutter.net.proto.NewConfig._NewConfig.getDefaultInstance();
+            return emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig.getDefaultInstance();
           }
         }
         /**
          * <code>._NewConfig new_config = 6;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.NewConfig._NewConfig, emu.grasscutter.net.proto.NewConfig._NewConfig.Builder, emu.grasscutter.net.proto.NewConfig._NewConfigOrBuilder> 
+            emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig, emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig.Builder, emu.grasscutter.net.proto._NewConfigOuterClass._NewConfigOrBuilder> 
             getNewConfigFieldBuilder() {
           if (newConfigBuilder_ == null) {
             if (!(nHIBINKGLMDCase_ == 6)) {
-              nHIBINKGLMD_ = emu.grasscutter.net.proto.NewConfig._NewConfig.getDefaultInstance();
+              nHIBINKGLMD_ = emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig.getDefaultInstance();
             }
             newConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                emu.grasscutter.net.proto.NewConfig._NewConfig, emu.grasscutter.net.proto.NewConfig._NewConfig.Builder, emu.grasscutter.net.proto.NewConfig._NewConfigOrBuilder>(
-                    (emu.grasscutter.net.proto.NewConfig._NewConfig) nHIBINKGLMD_,
+                emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig, emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig.Builder, emu.grasscutter.net.proto._NewConfigOuterClass._NewConfigOrBuilder>(
+                    (emu.grasscutter.net.proto._NewConfigOuterClass._NewConfig) nHIBINKGLMD_,
                     getParentForChildren(),
                     isClean());
             nHIBINKGLMD_ = null;
@@ -1730,7 +1730,7 @@ public final class FHHNJNNILJPOuterClass {
         }
 
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.InitInfo._InitInfo, emu.grasscutter.net.proto.InitInfo._InitInfo.Builder, emu.grasscutter.net.proto.InitInfo._InitInfoOrBuilder> initInfoBuilder_;
+            emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo, emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.Builder, emu.grasscutter.net.proto._InitInfoOuterClass._InitInfoOrBuilder> initInfoBuilder_;
         /**
          * <code>._InitInfo init_info = 9;</code>
          * @return Whether the initInfo field is set.
@@ -1744,23 +1744,23 @@ public final class FHHNJNNILJPOuterClass {
          * @return The initInfo.
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.InitInfo._InitInfo getInitInfo() {
+        public emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo getInitInfo() {
           if (initInfoBuilder_ == null) {
             if (nHIBINKGLMDCase_ == 9) {
-              return (emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_;
+              return (emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_;
             }
-            return emu.grasscutter.net.proto.InitInfo._InitInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.getDefaultInstance();
           } else {
             if (nHIBINKGLMDCase_ == 9) {
               return initInfoBuilder_.getMessage();
             }
-            return emu.grasscutter.net.proto.InitInfo._InitInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.getDefaultInstance();
           }
         }
         /**
          * <code>._InitInfo init_info = 9;</code>
          */
-        public Builder setInitInfo(emu.grasscutter.net.proto.InitInfo._InitInfo value) {
+        public Builder setInitInfo(emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo value) {
           if (initInfoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1777,7 +1777,7 @@ public final class FHHNJNNILJPOuterClass {
          * <code>._InitInfo init_info = 9;</code>
          */
         public Builder setInitInfo(
-            emu.grasscutter.net.proto.InitInfo._InitInfo.Builder builderForValue) {
+            emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.Builder builderForValue) {
           if (initInfoBuilder_ == null) {
             nHIBINKGLMD_ = builderForValue.build();
             onChanged();
@@ -1790,11 +1790,11 @@ public final class FHHNJNNILJPOuterClass {
         /**
          * <code>._InitInfo init_info = 9;</code>
          */
-        public Builder mergeInitInfo(emu.grasscutter.net.proto.InitInfo._InitInfo value) {
+        public Builder mergeInitInfo(emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo value) {
           if (initInfoBuilder_ == null) {
             if (nHIBINKGLMDCase_ == 9 &&
-                nHIBINKGLMD_ != emu.grasscutter.net.proto.InitInfo._InitInfo.getDefaultInstance()) {
-              nHIBINKGLMD_ = emu.grasscutter.net.proto.InitInfo._InitInfo.newBuilder((emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_)
+                nHIBINKGLMD_ != emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.getDefaultInstance()) {
+              nHIBINKGLMD_ = emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.newBuilder((emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_)
                   .mergeFrom(value).buildPartial();
             } else {
               nHIBINKGLMD_ = value;
@@ -1831,36 +1831,36 @@ public final class FHHNJNNILJPOuterClass {
         /**
          * <code>._InitInfo init_info = 9;</code>
          */
-        public emu.grasscutter.net.proto.InitInfo._InitInfo.Builder getInitInfoBuilder() {
+        public emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.Builder getInitInfoBuilder() {
           return getInitInfoFieldBuilder().getBuilder();
         }
         /**
          * <code>._InitInfo init_info = 9;</code>
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.InitInfo._InitInfoOrBuilder getInitInfoOrBuilder() {
+        public emu.grasscutter.net.proto._InitInfoOuterClass._InitInfoOrBuilder getInitInfoOrBuilder() {
           if ((nHIBINKGLMDCase_ == 9) && (initInfoBuilder_ != null)) {
             return initInfoBuilder_.getMessageOrBuilder();
           } else {
             if (nHIBINKGLMDCase_ == 9) {
-              return (emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_;
+              return (emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_;
             }
-            return emu.grasscutter.net.proto.InitInfo._InitInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.getDefaultInstance();
           }
         }
         /**
          * <code>._InitInfo init_info = 9;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.InitInfo._InitInfo, emu.grasscutter.net.proto.InitInfo._InitInfo.Builder, emu.grasscutter.net.proto.InitInfo._InitInfoOrBuilder> 
+            emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo, emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.Builder, emu.grasscutter.net.proto._InitInfoOuterClass._InitInfoOrBuilder> 
             getInitInfoFieldBuilder() {
           if (initInfoBuilder_ == null) {
             if (!(nHIBINKGLMDCase_ == 9)) {
-              nHIBINKGLMD_ = emu.grasscutter.net.proto.InitInfo._InitInfo.getDefaultInstance();
+              nHIBINKGLMD_ = emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.getDefaultInstance();
             }
             initInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                emu.grasscutter.net.proto.InitInfo._InitInfo, emu.grasscutter.net.proto.InitInfo._InitInfo.Builder, emu.grasscutter.net.proto.InitInfo._InitInfoOrBuilder>(
-                    (emu.grasscutter.net.proto.InitInfo._InitInfo) nHIBINKGLMD_,
+                emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo, emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo.Builder, emu.grasscutter.net.proto._InitInfoOuterClass._InitInfoOrBuilder>(
+                    (emu.grasscutter.net.proto._InitInfoOuterClass._InitInfo) nHIBINKGLMD_,
                     getParentForChildren(),
                     isClean());
             nHIBINKGLMD_ = null;
@@ -1871,7 +1871,7 @@ public final class FHHNJNNILJPOuterClass {
         }
 
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo, emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.Builder, emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfoOrBuilder> memberLeaveInfoBuilder_;
+            emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo, emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.Builder, emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfoOrBuilder> memberLeaveInfoBuilder_;
         /**
          * <code>._MemberLeaveInfo member_leave_info = 10;</code>
          * @return Whether the memberLeaveInfo field is set.
@@ -1885,23 +1885,23 @@ public final class FHHNJNNILJPOuterClass {
          * @return The memberLeaveInfo.
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo getMemberLeaveInfo() {
+        public emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo getMemberLeaveInfo() {
           if (memberLeaveInfoBuilder_ == null) {
             if (nHIBINKGLMDCase_ == 10) {
-              return (emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_;
+              return (emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_;
             }
-            return emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.getDefaultInstance();
           } else {
             if (nHIBINKGLMDCase_ == 10) {
               return memberLeaveInfoBuilder_.getMessage();
             }
-            return emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.getDefaultInstance();
           }
         }
         /**
          * <code>._MemberLeaveInfo member_leave_info = 10;</code>
          */
-        public Builder setMemberLeaveInfo(emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo value) {
+        public Builder setMemberLeaveInfo(emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo value) {
           if (memberLeaveInfoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1918,7 +1918,7 @@ public final class FHHNJNNILJPOuterClass {
          * <code>._MemberLeaveInfo member_leave_info = 10;</code>
          */
         public Builder setMemberLeaveInfo(
-            emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.Builder builderForValue) {
+            emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.Builder builderForValue) {
           if (memberLeaveInfoBuilder_ == null) {
             nHIBINKGLMD_ = builderForValue.build();
             onChanged();
@@ -1931,11 +1931,11 @@ public final class FHHNJNNILJPOuterClass {
         /**
          * <code>._MemberLeaveInfo member_leave_info = 10;</code>
          */
-        public Builder mergeMemberLeaveInfo(emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo value) {
+        public Builder mergeMemberLeaveInfo(emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo value) {
           if (memberLeaveInfoBuilder_ == null) {
             if (nHIBINKGLMDCase_ == 10 &&
-                nHIBINKGLMD_ != emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.getDefaultInstance()) {
-              nHIBINKGLMD_ = emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.newBuilder((emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_)
+                nHIBINKGLMD_ != emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.getDefaultInstance()) {
+              nHIBINKGLMD_ = emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.newBuilder((emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_)
                   .mergeFrom(value).buildPartial();
             } else {
               nHIBINKGLMD_ = value;
@@ -1972,36 +1972,36 @@ public final class FHHNJNNILJPOuterClass {
         /**
          * <code>._MemberLeaveInfo member_leave_info = 10;</code>
          */
-        public emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.Builder getMemberLeaveInfoBuilder() {
+        public emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.Builder getMemberLeaveInfoBuilder() {
           return getMemberLeaveInfoFieldBuilder().getBuilder();
         }
         /**
          * <code>._MemberLeaveInfo member_leave_info = 10;</code>
          */
         @java.lang.Override
-        public emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfoOrBuilder getMemberLeaveInfoOrBuilder() {
+        public emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfoOrBuilder getMemberLeaveInfoOrBuilder() {
           if ((nHIBINKGLMDCase_ == 10) && (memberLeaveInfoBuilder_ != null)) {
             return memberLeaveInfoBuilder_.getMessageOrBuilder();
           } else {
             if (nHIBINKGLMDCase_ == 10) {
-              return (emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_;
+              return (emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_;
             }
-            return emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.getDefaultInstance();
+            return emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.getDefaultInstance();
           }
         }
         /**
          * <code>._MemberLeaveInfo member_leave_info = 10;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo, emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.Builder, emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfoOrBuilder> 
+            emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo, emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.Builder, emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfoOrBuilder> 
             getMemberLeaveInfoFieldBuilder() {
           if (memberLeaveInfoBuilder_ == null) {
             if (!(nHIBINKGLMDCase_ == 10)) {
-              nHIBINKGLMD_ = emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.getDefaultInstance();
+              nHIBINKGLMD_ = emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.getDefaultInstance();
             }
             memberLeaveInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo, emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo.Builder, emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfoOrBuilder>(
-                    (emu.grasscutter.net.proto.MemberLeaveInfo._MemberLeaveInfo) nHIBINKGLMD_,
+                emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo, emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo.Builder, emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfoOrBuilder>(
+                    (emu.grasscutter.net.proto._MemberLeaveInfoOuterClass._MemberLeaveInfo) nHIBINKGLMD_,
                     getParentForChildren(),
                     isClean());
             nHIBINKGLMD_ = null;
@@ -3115,17 +3115,18 @@ public final class FHHNJNNILJPOuterClass {
       "\022.\n\021member_leave_info\030\n \001(\0132\021._MemberLea" +
       "veInfoH\000\022#\n\013new_captain\030\014 \001(\0132\014.EHPIEDKN" +
       "HJPH\000\022\'\n\017new_member_info\030\r \001(\0132\014.EHPIEDK" +
-      "NHJPH\000B\r\n\013NHIBINKGLMDB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "NHJPH\000B\r\n\013NHIBINKGLMDB2\n\031emu.grasscutter" +
+      ".net.protoB\025FHHNJNNILJPOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.EHPIEDKNHJPOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.InitInfo.getDescriptor(),
-          emu.grasscutter.net.proto.MemberLeaveInfo.getDescriptor(),
-          emu.grasscutter.net.proto.NewConfig.getDescriptor(),
-          emu.grasscutter.net.proto.TeamExtraInfo.getDescriptor(),
+          emu.grasscutter.net.proto._InitInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._MemberLeaveInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._NewConfigOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._TeamExtraInfoOuterClass.getDescriptor(),
         });
     internal_static_FHHNJNNILJP_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -3140,10 +3141,10 @@ public final class FHHNJNNILJPOuterClass {
         internal_static_FHHNJNNILJP_OJNEAEFDHKH_descriptor,
         new java.lang.String[] { "TeamExtraInfo", "IsInNewBeyondTeam", "NewConfig", "NewMember", "InitInfo", "MemberLeaveInfo", "NewCaptain", "NewMemberInfo", "NHIBINKGLMD", });
     emu.grasscutter.net.proto.EHPIEDKNHJPOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.InitInfo.getDescriptor();
-    emu.grasscutter.net.proto.MemberLeaveInfo.getDescriptor();
-    emu.grasscutter.net.proto.NewConfig.getDescriptor();
-    emu.grasscutter.net.proto.TeamExtraInfo.getDescriptor();
+    emu.grasscutter.net.proto._InitInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._MemberLeaveInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._NewConfigOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._TeamExtraInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -667,8 +667,8 @@ public final class FMGBJNEEABPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FMGBJNEEABP.proto\"C\n\013FMGBJNEEABP\022\021\n\tav" +
       "atar_id\030\003 \001(\r\022\017\n\007retcode\030\004 \001(\005\022\020\n\010is_rea" +
-      "dy\030\013 \001(\010B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "dy\030\013 \001(\010B2\n\031emu.grasscutter.net.protoB\025F" +
+      "MGBJNEEABPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

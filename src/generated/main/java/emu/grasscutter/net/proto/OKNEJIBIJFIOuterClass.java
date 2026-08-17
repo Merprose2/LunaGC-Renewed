@@ -889,8 +889,8 @@ public final class OKNEJIBIJFIOuterClass {
       "\n\021OKNEJIBIJFI.proto\"s\n\013OKNEJIBIJFI\022\017\n\007ta" +
       "lk_id\030\003 \001(\r\022\023\n\013JFLNEEKOPHK\030\004 \001(\t\022\027\n\017pare" +
       "nt_quest_id\030\013 \001(\r\022\023\n\013DAHEEOEGEHF\030\014 \001(\002\022\020" +
-      "\n\010scene_id\030\016 \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\n\010scene_id\030\016 \001(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025OKNEJIBIJFIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

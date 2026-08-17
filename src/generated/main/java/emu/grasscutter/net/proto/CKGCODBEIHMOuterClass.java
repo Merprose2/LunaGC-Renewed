@@ -2204,8 +2204,8 @@ public final class CKGCODBEIHMOuterClass {
       "\001(\005\022\023\n\013AEJGPKJBMOO\030\017 \001(\010\022!\n\013JNKHGICDBBG\030" +
       "\020 \001(\0162\014.JEOKDCIGCFP\022!\n\013KAGICHEHMAO\030\021 \001(\013" +
       "2\014.EBADNHGKAAP\022\023\n\013HMEIJMEPHKM\030\022 \001(\002\022\023\n\013K" +
-      "CKIOBBHNCI\030\023 \001(\002B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "CKIOBBHNCI\030\023 \001(\002B2\n\031emu.grasscutter.net." +
+      "protoB\025CKGCODBEIHMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

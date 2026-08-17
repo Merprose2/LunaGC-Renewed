@@ -596,8 +596,9 @@ public final class AnchorPointOpReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026AnchorPointOpReq.proto\"I\n\020AnchorPointO" +
       "pReq\022\034\n\024anchor_point_op_type\030\002 \001(\r\022\027\n\017an" +
-      "chor_point_id\030\n \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "chor_point_id\030\n \001(\rB7\n\031emu.grasscutter.n" +
+      "et.protoB\032AnchorPointOpReqOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

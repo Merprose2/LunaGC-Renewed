@@ -870,7 +870,8 @@ public final class CFKJOLCCOBCOuterClass {
       "ENIMBEGEPD\030\001 \001(\r\022\023\n\013DCHFFHCMGDN\030\002 \001(\r\022\023\n" +
       "\013KIEEEAIACGE\030\003 \001(\r\022\023\n\013LDDKNKOALLK\030\006 \001(\r\022" +
       "\023\n\013ODMBNDPGNLE\030\010 \001(\r\022\023\n\013LLJOFIAMMEK\030\016 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB2\n\031emu.grasscutter.net.protoB\025CFKJOLCC" +
+      "OBCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

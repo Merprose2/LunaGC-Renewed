@@ -1234,8 +1234,8 @@ public final class PBKONDHPIEHOuterClass {
       "\024\n\013PANOOKHHBPD\030\365\003 \001(\t\022\024\n\013GFCLDCDKFNA\030\366\003 " +
       "\001(\r\022\024\n\013PACIOEOBAED\030\367\003 \001(\010\022\024\n\013AKCFELJHHJG" +
       "\030\370\003 \001(\r\022\024\n\013FPFMABFBJJM\030\371\003 \001(\r\022\024\n\013FNLCEOI" +
-      "CIDK\030\372\003 \001(\010B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "CIDK\030\372\003 \001(\010B2\n\031emu.grasscutter.net.proto" +
+      "B\025PBKONDHPIEHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

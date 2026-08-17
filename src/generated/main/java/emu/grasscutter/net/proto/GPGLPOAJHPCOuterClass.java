@@ -587,8 +587,9 @@ public final class GPGLPOAJHPCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GPGLPOAJHPC.proto\")\n\013GPGLPOAJHPC\022\013\n\003ke" +
-      "y\030\001 \001(\005\022\r\n\005value\030\002 \001(\005B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "y\030\001 \001(\005\022\r\n\005value\030\002 \001(\005B2\n\031emu.grasscutte" +
+      "r.net.protoB\025GPGLPOAJHPCOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

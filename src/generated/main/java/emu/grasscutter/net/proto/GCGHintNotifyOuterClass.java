@@ -673,8 +673,8 @@ public final class GCGHintNotifyOuterClass {
       "-\n\thint_type\030\016 \001(\0162\032.GCGHintNotify.GCGHi" +
       "ntType\"U\n\013GCGHintType\022\035\n\031GCGHintType_GCG" +
       "_HINT_NONE\020\000\022\'\n#GCGHintType_GCG_HINT_GAM" +
-      "E_NOT_FOUND\020\001B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "E_NOT_FOUND\020\001B4\n\031emu.grasscutter.net.pro" +
+      "toB\027GCGHintNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

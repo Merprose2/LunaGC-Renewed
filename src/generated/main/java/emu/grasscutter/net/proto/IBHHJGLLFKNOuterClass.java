@@ -1146,8 +1146,8 @@ public final class IBHHJGLLFKNOuterClass {
       "\001\n\013IBHHJGLLFKN\022\r\n\004name\030\365\003 \001(\t\022\024\n\013DLFLAKC" +
       "KFLD\030\366\003 \001(\005\022\024\n\013CENFHFBNJFL\030\367\003 \001(\005\022\"\n\013FMK" +
       "NLOGFALG\030\370\003 \001(\0132\014.NCFELNNEAAF\022\035\n\006offset\030" +
-      "\371\003 \001(\0132\014.NCFELNNEAAFB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\371\003 \001(\0132\014.NCFELNNEAAFB2\n\031emu.grasscutter." +
+      "net.protoB\025IBHHJGLLFKNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

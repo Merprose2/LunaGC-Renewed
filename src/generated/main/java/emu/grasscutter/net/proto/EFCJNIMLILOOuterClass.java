@@ -1548,7 +1548,8 @@ public final class EFCJNIMLILOOuterClass {
       "FNKPAGBFEHF\030\006 \001(\0132\014.PPCMDCPPBIH\022\023\n\013GKOIA" +
       "KMGNCJ\030\007 \001(\r\022\014\n\004type\030\013 \001(\r\022!\n\013NLNHDBIAPL" +
       "B\030\014 \001(\0132\014.AMFNEDDGJOE\022\022\n\nis_started\030\016 \001(" +
-      "\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\010B2\n\031emu.grasscutter.net.protoB\025EFCJNIML" +
+      "ILOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

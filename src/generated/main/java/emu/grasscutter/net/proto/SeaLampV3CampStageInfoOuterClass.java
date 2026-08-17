@@ -731,8 +731,9 @@ public final class SeaLampV3CampStageInfoOuterClass {
       "\n\034SeaLampV3CampStageInfo.proto\"b\n\026SeaLam" +
       "pV3CampStageInfo\022\017\n\007is_open\030\006 \001(\010\022\023\n\013is_" +
       "finished\030\010 \001(\010\022\020\n\010level_id\030\014 \001(\r\022\020\n\010stag" +
-      "e_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "e_id\030\017 \001(\rB=\n\031emu.grasscutter.net.protoB" +
+      " SeaLampV3CampStageInfoOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

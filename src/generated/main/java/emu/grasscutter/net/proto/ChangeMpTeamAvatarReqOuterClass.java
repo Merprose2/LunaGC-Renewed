@@ -724,8 +724,9 @@ public final class ChangeMpTeamAvatarReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033ChangeMpTeamAvatarReq.proto\"J\n\025ChangeM" +
       "pTeamAvatarReq\022\027\n\017cur_avatar_guid\030\004 \001(\004\022" +
-      "\030\n\020avatar_guid_list\030\016 \003(\004B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\030\n\020avatar_guid_list\030\016 \003(\004B<\n\031emu.grasscu" +
+      "tter.net.protoB\037ChangeMpTeamAvatarReqOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

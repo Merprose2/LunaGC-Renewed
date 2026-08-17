@@ -1149,8 +1149,9 @@ public final class JPAJKPHNCCGOuterClass {
       "CELODNACKK\030\004 \001(\004\022\023\n\013HICBJKEHOCG\030\005 \003(\r\022\023\n" +
       "\013KJBNKKOHELB\030\007 \001(\r\022\023\n\013KAEOBNBFIDL\030\n \001(\004\022" +
       "\023\n\013DKFLFODMKEC\030\014 \001(\r\022\023\n\013NEPJLADIHLN\030\r \001(" +
-      "\t\022\023\n\013FDIFPEHDKFD\030\017 \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\t\022\023\n\013FDIFPEHDKFD\030\017 \001(\rB2\n\031emu.grasscutte" +
+      "r.net.protoB\025JPAJKPHNCCGOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

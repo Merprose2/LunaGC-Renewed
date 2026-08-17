@@ -2604,8 +2604,9 @@ public final class NCEPICHGNNHOuterClass {
       "\"\n\013CEOFIHMJEOG\030\202\004 \001(\0132\014.PLGPJEHKFNC\022\024\n\013D" +
       "GBDAMGEGJM\030\203\004 \001(\005\022\024\n\013IFOMHEPKODO\030\204\004 \001(\005\022" +
       "\024\n\013OKOLJKOGKMB\030\205\004 \001(\002\022\035\n\006offset\030\206\004 \001(\0132\014" +
-      ".HHEDHCFPEKM\022\024\n\013MMEJJLFLJAC\030\207\004 \001(\010B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      ".HHEDHCFPEKM\022\024\n\013MMEJJLFLJAC\030\207\004 \001(\010B2\n\031em" +
+      "u.grasscutter.net.protoB\025NCEPICHGNNHOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

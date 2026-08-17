@@ -1346,8 +1346,8 @@ public final class FLKELEJHLOCOuterClass {
       "_guid\030\001 \001(\004\022\023\n\013_beatmap_id\030\002 \001(\r\022\023\n\013HALO" +
       "NGEGOEJ\030\005 \003(\r\022\033\n\005stage\030\007 \001(\0162\014.JCEMPLION" +
       "NN\022!\n\013JANGDIMHCAC\030\n \003(\0132\014.CLNOBBLDHLK\022\023\n" +
-      "\013FALDGAAGPGJ\030\013 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\013FALDGAAGPGJ\030\013 \001(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025FLKELEJHLOCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

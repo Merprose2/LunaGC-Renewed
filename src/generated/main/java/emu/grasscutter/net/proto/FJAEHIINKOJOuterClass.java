@@ -589,8 +589,9 @@ public final class FJAEHIINKOJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FJAEHIINKOJ.proto\"8\n\013FJAEHIINKOJ\022\023\n\013CA" +
-      "PPGAIMNAK\030\001 \001(\010\022\024\n\013PPLMHAOFOAH\030\365\003 \001(\010B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "PPGAIMNAK\030\001 \001(\010\022\024\n\013PPLMHAOFOAH\030\365\003 \001(\010B2\n" +
+      "\031emu.grasscutter.net.protoB\025FJAEHIINKOJO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

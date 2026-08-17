@@ -588,8 +588,9 @@ public final class EIHOFHPLHMHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EIHOFHPLHMH.proto\"2\n\013EIHOFHPLHMH\022\021\n\tav" +
-      "atar_id\030\004 \001(\r\022\020\n\010is_trial\030\014 \001(\010B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "atar_id\030\004 \001(\r\022\020\n\010is_trial\030\014 \001(\010B2\n\031emu.g" +
+      "rasscutter.net.protoB\025EIHOFHPLHMHOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -166,8 +166,9 @@ public final class JMNNGENFMOIOuterClass {
       "TUS_TO_BE_STARTED\020\002\0229\n5JMNNGENFMOI_QUEST" +
       "_ABYSS_WAR_LIMIT_REGION_STATUS_START\020\003\022@" +
       "\n<JMNNGENFMOI_QUEST_ABYSS_WAR_LIMIT_REGI" +
-      "ON_STATUS_TO_BE_CLOSED\020\004B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "ON_STATUS_TO_BE_CLOSED\020\004B2\n\031emu.grasscut" +
+      "ter.net.protoB\025JMNNGENFMOIOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

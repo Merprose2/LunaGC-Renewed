@@ -454,8 +454,9 @@ public final class GOMBBLIPCGHOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021GOMBBLIPCGH.proto\"\r\n\013GOMBBLIPCGHB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021GOMBBLIPCGH.proto\"\r\n\013GOMBBLIPCGHB2\n\031em" +
+      "u.grasscutter.net.protoB\025GOMBBLIPCGHOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -660,8 +660,8 @@ public final class GMBNGIKAPMNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GMBNGIKAPMN.proto\"C\n\013GMBNGIKAPMN\022\017\n\007is" +
       "_open\030\001 \001(\010\022\020\n\010level_id\030\n \001(\r\022\021\n\tis_fini" +
-      "sh\030\016 \001(\010B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "sh\030\016 \001(\010B2\n\031emu.grasscutter.net.protoB\025G" +
+      "MBNGIKAPMNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

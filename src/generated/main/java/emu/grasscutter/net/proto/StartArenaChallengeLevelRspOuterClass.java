@@ -737,8 +737,9 @@ public final class StartArenaChallengeLevelRspOuterClass {
       "\n!StartArenaChallengeLevelRsp.proto\"r\n\033S" +
       "tartArenaChallengeLevelRsp\022\023\n\013BLCPLGCJEB" +
       "J\030\005 \001(\r\022\030\n\020gadget_entity_id\030\006 \001(\r\022\023\n\013KHJ" +
-      "HFLNMNPC\030\007 \001(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "HFLNMNPC\030\007 \001(\r\022\017\n\007retcode\030\016 \001(\005BB\n\031emu.g" +
+      "rasscutter.net.protoB%StartArenaChalleng" +
+      "eLevelRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

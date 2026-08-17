@@ -878,7 +878,8 @@ public final class BPCHCOEFPEFOuterClass {
       "GCPIPLJPAL\030\001 \001(\r\022\023\n\013LICKMLOPNHC\030\003 \001(\r\022\023\n" +
       "\013LJPBKEIADMO\030\004 \001(\r\022\023\n\013NLMHIHDLCKC\030\010 \001(\r\022" +
       "\023\n\013JIKMNAKBJFH\030\t \001(\r\022\023\n\013LEBIPDADMGF\030\016 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB2\n\031emu.grasscutter.net.protoB\025BPCHCOEF" +
+      "PEFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

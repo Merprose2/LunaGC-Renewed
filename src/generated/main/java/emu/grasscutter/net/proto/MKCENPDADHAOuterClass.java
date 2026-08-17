@@ -1023,8 +1023,9 @@ public final class MKCENPDADHAOuterClass {
       "\n\021MKCENPDADHA.proto\032\021BCFNIJFCBJK.proto\"m" +
       "\n\013MKCENPDADHA\022\"\n\014dungeon_info\030\004 \001(\0132\014.BC" +
       "FNIJFCBJK\022\023\n\013EFAEIFOKMDL\030\010 \001(\t\022\020\n\010is_tri" +
-      "al\030\t \001(\010\022\023\n\013PJBGKFGIKBA\030\n \001(\tB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "al\030\t \001(\010\022\023\n\013PJBGKFGIKBA\030\n \001(\tB2\n\031emu.gra" +
+      "sscutter.net.protoB\025MKCENPDADHAOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

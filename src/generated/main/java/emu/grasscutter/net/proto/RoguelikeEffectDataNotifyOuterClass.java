@@ -906,8 +906,9 @@ public final class RoguelikeEffectDataNotifyOuterClass {
       "\n\037RoguelikeEffectDataNotify.proto\032\027Rogue" +
       "EffectRecord.proto\"V\n\031RoguelikeEffectDat" +
       "aNotify\022\022\n\ncurse_list\030\007 \001(\014\022%\n\tcard_list" +
-      "\030\010 \003(\0132\022.RogueEffectRecordB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\030\010 \003(\0132\022.RogueEffectRecordB@\n\031emu.grassc" +
+      "utter.net.protoB#RoguelikeEffectDataNoti" +
+      "fyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

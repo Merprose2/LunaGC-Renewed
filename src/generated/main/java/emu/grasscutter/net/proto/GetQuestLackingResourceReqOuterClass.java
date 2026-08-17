@@ -526,7 +526,8 @@ public final class GetQuestLackingResourceReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n GetQuestLackingResourceReq.proto\".\n\032Ge" +
       "tQuestLackingResourceReq\022\020\n\010quest_id\030\r \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rBA\n\031emu.grasscutter.net.protoB$GetQues" +
+      "tLackingResourceReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

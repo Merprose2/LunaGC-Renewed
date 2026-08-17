@@ -38,11 +38,11 @@ public final class FFEJJFMEOGGOuterClass {
      * <code>._ConfigPlaySoundEffect config_play_sound_effect = 100;</code>
      * @return The configPlaySoundEffect.
      */
-    emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect getConfigPlaySoundEffect();
+    emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect getConfigPlaySoundEffect();
     /**
      * <code>._ConfigPlaySoundEffect config_play_sound_effect = 100;</code>
      */
-    emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffectOrBuilder getConfigPlaySoundEffectOrBuilder();
+    emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffectOrBuilder getConfigPlaySoundEffectOrBuilder();
 
     /**
      * <code>._ConfigPlayMusic config_play_music = 101;</code>
@@ -53,11 +53,11 @@ public final class FFEJJFMEOGGOuterClass {
      * <code>._ConfigPlayMusic config_play_music = 101;</code>
      * @return The configPlayMusic.
      */
-    emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic getConfigPlayMusic();
+    emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic getConfigPlayMusic();
     /**
      * <code>._ConfigPlayMusic config_play_music = 101;</code>
      */
-    emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusicOrBuilder getConfigPlayMusicOrBuilder();
+    emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusicOrBuilder getConfigPlayMusicOrBuilder();
 
     public emu.grasscutter.net.proto.FFEJJFMEOGGOuterClass.FFEJJFMEOGG.DetailCase getDetailCase();
   }
@@ -114,28 +114,28 @@ public final class FFEJJFMEOGGOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect.Builder subBuilder = null;
               if (detailCase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 100;
               break;
             }
             case 810: {
-              emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic.Builder subBuilder = null;
               if (detailCase_ == 101) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 101;
@@ -247,21 +247,21 @@ public final class FFEJJFMEOGGOuterClass {
      * @return The configPlaySoundEffect.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect getConfigPlaySoundEffect() {
+    public emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect getConfigPlaySoundEffect() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect) detail_;
+         return (emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect) detail_;
       }
-      return emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect.getDefaultInstance();
     }
     /**
      * <code>._ConfigPlaySoundEffect config_play_sound_effect = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffectOrBuilder getConfigPlaySoundEffectOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffectOrBuilder getConfigPlaySoundEffectOrBuilder() {
       if (detailCase_ == 100) {
-         return (emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect) detail_;
+         return (emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect) detail_;
       }
-      return emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect.getDefaultInstance();
     }
 
     public static final int CONFIG_PLAY_MUSIC_FIELD_NUMBER = 101;
@@ -278,21 +278,21 @@ public final class FFEJJFMEOGGOuterClass {
      * @return The configPlayMusic.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic getConfigPlayMusic() {
+    public emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic getConfigPlayMusic() {
       if (detailCase_ == 101) {
-         return (emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic) detail_;
+         return (emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic) detail_;
       }
-      return emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic.getDefaultInstance();
     }
     /**
      * <code>._ConfigPlayMusic config_play_music = 101;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusicOrBuilder getConfigPlayMusicOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusicOrBuilder getConfigPlayMusicOrBuilder() {
       if (detailCase_ == 101) {
-         return (emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic) detail_;
+         return (emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic) detail_;
       }
-      return emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -313,10 +313,10 @@ public final class FFEJJFMEOGGOuterClass {
         output.writeEnum(1, gMDCCPLJGID_);
       }
       if (detailCase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect) detail_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect) detail_);
       }
       if (detailCase_ == 101) {
-        output.writeMessage(101, (emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic) detail_);
+        output.writeMessage(101, (emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -333,11 +333,11 @@ public final class FFEJJFMEOGGOuterClass {
       }
       if (detailCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect) detail_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect) detail_);
       }
       if (detailCase_ == 101) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(101, (emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic) detail_);
+          .computeMessageSize(101, (emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -735,7 +735,7 @@ public final class FFEJJFMEOGGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect, emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect.Builder, emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffectOrBuilder> configPlaySoundEffectBuilder_;
+          emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect, emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect.Builder, emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffectOrBuilder> configPlaySoundEffectBuilder_;
       /**
        * <code>._ConfigPlaySoundEffect config_play_sound_effect = 100;</code>
        * @return Whether the configPlaySoundEffect field is set.
@@ -749,23 +749,23 @@ public final class FFEJJFMEOGGOuterClass {
        * @return The configPlaySoundEffect.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect getConfigPlaySoundEffect() {
+      public emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect getConfigPlaySoundEffect() {
         if (configPlaySoundEffectBuilder_ == null) {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect) detail_;
+            return (emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect) detail_;
           }
-          return emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect.getDefaultInstance();
         } else {
           if (detailCase_ == 100) {
             return configPlaySoundEffectBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigPlaySoundEffect config_play_sound_effect = 100;</code>
        */
-      public Builder setConfigPlaySoundEffect(emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect value) {
+      public Builder setConfigPlaySoundEffect(emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect value) {
         if (configPlaySoundEffectBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -782,7 +782,7 @@ public final class FFEJJFMEOGGOuterClass {
        * <code>._ConfigPlaySoundEffect config_play_sound_effect = 100;</code>
        */
       public Builder setConfigPlaySoundEffect(
-          emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect.Builder builderForValue) {
         if (configPlaySoundEffectBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -795,11 +795,11 @@ public final class FFEJJFMEOGGOuterClass {
       /**
        * <code>._ConfigPlaySoundEffect config_play_sound_effect = 100;</code>
        */
-      public Builder mergeConfigPlaySoundEffect(emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect value) {
+      public Builder mergeConfigPlaySoundEffect(emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect value) {
         if (configPlaySoundEffectBuilder_ == null) {
           if (detailCase_ == 100 &&
-              detail_ != emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect.newBuilder((emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect) detail_)
+              detail_ != emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect.newBuilder((emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -836,36 +836,36 @@ public final class FFEJJFMEOGGOuterClass {
       /**
        * <code>._ConfigPlaySoundEffect config_play_sound_effect = 100;</code>
        */
-      public emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect.Builder getConfigPlaySoundEffectBuilder() {
+      public emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect.Builder getConfigPlaySoundEffectBuilder() {
         return getConfigPlaySoundEffectFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigPlaySoundEffect config_play_sound_effect = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffectOrBuilder getConfigPlaySoundEffectOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffectOrBuilder getConfigPlaySoundEffectOrBuilder() {
         if ((detailCase_ == 100) && (configPlaySoundEffectBuilder_ != null)) {
           return configPlaySoundEffectBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 100) {
-            return (emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect) detail_;
+            return (emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect) detail_;
           }
-          return emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigPlaySoundEffect config_play_sound_effect = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect, emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect.Builder, emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffectOrBuilder> 
+          emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect, emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect.Builder, emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffectOrBuilder> 
           getConfigPlaySoundEffectFieldBuilder() {
         if (configPlaySoundEffectBuilder_ == null) {
           if (!(detailCase_ == 100)) {
-            detail_ = emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect.getDefaultInstance();
           }
           configPlaySoundEffectBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect, emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect.Builder, emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffectOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigPlaySoundEffect._ConfigPlaySoundEffect) detail_,
+              emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect, emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect.Builder, emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffectOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass._ConfigPlaySoundEffect) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -876,7 +876,7 @@ public final class FFEJJFMEOGGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic, emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic.Builder, emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusicOrBuilder> configPlayMusicBuilder_;
+          emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic, emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic.Builder, emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusicOrBuilder> configPlayMusicBuilder_;
       /**
        * <code>._ConfigPlayMusic config_play_music = 101;</code>
        * @return Whether the configPlayMusic field is set.
@@ -890,23 +890,23 @@ public final class FFEJJFMEOGGOuterClass {
        * @return The configPlayMusic.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic getConfigPlayMusic() {
+      public emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic getConfigPlayMusic() {
         if (configPlayMusicBuilder_ == null) {
           if (detailCase_ == 101) {
-            return (emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic) detail_;
+            return (emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic) detail_;
           }
-          return emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic.getDefaultInstance();
         } else {
           if (detailCase_ == 101) {
             return configPlayMusicBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigPlayMusic config_play_music = 101;</code>
        */
-      public Builder setConfigPlayMusic(emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic value) {
+      public Builder setConfigPlayMusic(emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic value) {
         if (configPlayMusicBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -923,7 +923,7 @@ public final class FFEJJFMEOGGOuterClass {
        * <code>._ConfigPlayMusic config_play_music = 101;</code>
        */
       public Builder setConfigPlayMusic(
-          emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic.Builder builderForValue) {
         if (configPlayMusicBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -936,11 +936,11 @@ public final class FFEJJFMEOGGOuterClass {
       /**
        * <code>._ConfigPlayMusic config_play_music = 101;</code>
        */
-      public Builder mergeConfigPlayMusic(emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic value) {
+      public Builder mergeConfigPlayMusic(emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic value) {
         if (configPlayMusicBuilder_ == null) {
           if (detailCase_ == 101 &&
-              detail_ != emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic.newBuilder((emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic) detail_)
+              detail_ != emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic.newBuilder((emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -977,36 +977,36 @@ public final class FFEJJFMEOGGOuterClass {
       /**
        * <code>._ConfigPlayMusic config_play_music = 101;</code>
        */
-      public emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic.Builder getConfigPlayMusicBuilder() {
+      public emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic.Builder getConfigPlayMusicBuilder() {
         return getConfigPlayMusicFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigPlayMusic config_play_music = 101;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusicOrBuilder getConfigPlayMusicOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusicOrBuilder getConfigPlayMusicOrBuilder() {
         if ((detailCase_ == 101) && (configPlayMusicBuilder_ != null)) {
           return configPlayMusicBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 101) {
-            return (emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic) detail_;
+            return (emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic) detail_;
           }
-          return emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigPlayMusic config_play_music = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic, emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic.Builder, emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusicOrBuilder> 
+          emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic, emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic.Builder, emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusicOrBuilder> 
           getConfigPlayMusicFieldBuilder() {
         if (configPlayMusicBuilder_ == null) {
           if (!(detailCase_ == 101)) {
-            detail_ = emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic.getDefaultInstance();
           }
           configPlayMusicBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic, emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic.Builder, emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusicOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigPlayMusic._ConfigPlayMusic) detail_,
+              emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic, emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic.Builder, emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusicOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigPlayMusicOuterClass._ConfigPlayMusic) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1088,15 +1088,16 @@ public final class FFEJJFMEOGGOuterClass {
       "GID\030\001 \001(\0162\014.MPIPBFINKGL\022;\n\030config_play_s" +
       "ound_effect\030d \001(\0132\027._ConfigPlaySoundEffe" +
       "ctH\000\022.\n\021config_play_music\030e \001(\0132\021._Confi" +
-      "gPlayMusicH\000B\010\n\006detailB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "gPlayMusicH\000B\010\n\006detailB2\n\031emu.grasscutte" +
+      "r.net.protoB\025FFEJJFMEOGGOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.MPIPBFINKGLOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigPlayMusic.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigPlaySoundEffect.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigPlayMusicOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass.getDescriptor(),
         });
     internal_static_FFEJJFMEOGG_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1105,8 +1106,8 @@ public final class FFEJJFMEOGGOuterClass {
         internal_static_FFEJJFMEOGG_descriptor,
         new java.lang.String[] { "GMDCCPLJGID", "ConfigPlaySoundEffect", "ConfigPlayMusic", "Detail", });
     emu.grasscutter.net.proto.MPIPBFINKGLOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.ConfigPlayMusic.getDescriptor();
-    emu.grasscutter.net.proto.ConfigPlaySoundEffect.getDescriptor();
+    emu.grasscutter.net.proto._ConfigPlayMusicOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._ConfigPlaySoundEffectOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

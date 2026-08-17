@@ -597,8 +597,9 @@ public final class PlayerQuitDungeonReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032PlayerQuitDungeonReq.proto\"E\n\024PlayerQu" +
       "itDungeonReq\022\020\n\010point_id\030\004 \001(\r\022\033\n\023is_qui" +
-      "t_immediately\030\r \001(\010B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "t_immediately\030\r \001(\010B;\n\031emu.grasscutter.n" +
+      "et.protoB\036PlayerQuitDungeonReqOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

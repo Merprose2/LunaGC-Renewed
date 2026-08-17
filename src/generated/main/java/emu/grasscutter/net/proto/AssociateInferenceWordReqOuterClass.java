@@ -667,8 +667,9 @@ public final class AssociateInferenceWordReqOuterClass {
       "\n\037AssociateInferenceWordReq.proto\"]\n\031Ass" +
       "ociateInferenceWordReq\022\031\n\021associate_word" +
       "_id\030\005 \001(\r\022\017\n\007page_id\030\014 \001(\r\022\024\n\014base_word_" +
-      "id\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\016 \001(\rB@\n\031emu.grasscutter.net.protoB#A" +
+      "ssociateInferenceWordReqOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

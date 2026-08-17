@@ -1305,8 +1305,8 @@ public final class JDAICPLIHNBOuterClass {
       "\010\022\023\n\013IBOKGGHOKBC\030\007 \001(\010\022\023\n\013HCKAJJIIDGB\030\010 " +
       "\001(\010\022\023\n\013HDDBNPBAACE\030\t \001(\010\022\023\n\013BMNKPHPCLOK\030" +
       "\n \001(\010\022\023\n\013KNNIPPKCGOE\030\013 \001(\010\022\023\n\013FEMCKLIHHK" +
-      "F\030\014 \001(\010B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "F\030\014 \001(\010B2\n\031emu.grasscutter.net.protoB\025JD" +
+      "AICPLIHNBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1848,8 +1848,9 @@ public final class AJGLNOEPNLJOuterClass {
       "GGAOLO\030\001 \001(\014\022!\n\013PLHHHBHIEOB\030\002 \003(\0132\014.IDDP" +
       "BJGEIGG\022!\n\013KDMHGEBMNEK\030\003 \003(\0132\014.DIGNDBKNI" +
       "FE\022!\n\013JDNMONHBJIO\030\004 \001(\0132\014.PPMBPBKOOCH\022!\n" +
-      "\013OBNHIEJAOCG\030\005 \003(\0132\014.OBOEENGDIEJB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\013OBNHIEJAOCG\030\005 \003(\0132\014.OBOEENGDIEJB2\n\031emu." +
+      "grasscutter.net.protoB\025AJGLNOEPNLJOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

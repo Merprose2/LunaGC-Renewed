@@ -824,8 +824,9 @@ public final class BreakoutSyncCreateConnectOuterClass {
       "\n\037BreakoutSyncCreateConnect.proto\032 Break" +
       "outSyncConnectUidInfo.proto\"O\n\031BreakoutS" +
       "yncCreateConnect\0222\n\ruid_info_list\030\014 \003(\0132" +
-      "\033.BreakoutSyncConnectUidInfoB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\033.BreakoutSyncConnectUidInfoB@\n\031emu.gras" +
+      "scutter.net.protoB#BreakoutSyncCreateCon" +
+      "nectOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

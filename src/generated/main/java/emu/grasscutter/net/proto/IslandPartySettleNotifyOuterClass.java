@@ -1457,8 +1457,9 @@ public final class IslandPartySettleNotifyOuterClass {
       "e_remain\030\010 \001(\r\0227\n\020settle_info_list\030\n \003(\013" +
       "2\035.IslandPartyGallerySettleInfo\022\"\n\006reaso" +
       "n\030\014 \001(\0162\022.GalleryStopReason\022\025\n\ris_new_re" +
-      "cord\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "cord\030\017 \001(\010B>\n\031emu.grasscutter.net.protoB" +
+      "!IslandPartySettleNotifyOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

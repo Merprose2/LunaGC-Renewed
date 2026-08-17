@@ -1257,8 +1257,9 @@ public final class PANAJDFIMJFOuterClass {
       "\013KHJHFLNMNPC\030\004 \001(\r\022\022\n\nis_success\030\n \001(\010\022\023" +
       "\n\013EONCKAACMAJ\030\013 \001(\010\022*\n\024child_challenge_l" +
       "ist\030\014 \003(\0132\014.OGJLCCKBPAC\022\023\n\013finish_time\030\r" +
-      " \001(\r\022\023\n\013BLCPLGCJEBJ\030\016 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      " \001(\r\022\023\n\013BLCPLGCJEBJ\030\016 \001(\rB2\n\031emu.grasscu" +
+      "tter.net.protoB\025PANAJDFIMJFOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

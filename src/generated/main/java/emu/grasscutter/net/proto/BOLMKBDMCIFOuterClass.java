@@ -721,8 +721,9 @@ public final class BOLMKBDMCIFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BOLMKBDMCIF.proto\032\021GCDNCDJBDAF.proto\"?" +
       "\n\013BOLMKBDMCIF\022\023\n\013GCADDEKADEJ\030\001 \001(\r\022\033\n\005sc" +
-      "ore\030\002 \001(\0132\014.GCDNCDJBDAFB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "ore\030\002 \001(\0132\014.GCDNCDJBDAFB2\n\031emu.grasscutt" +
+      "er.net.protoB\025BOLMKBDMCIFOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

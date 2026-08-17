@@ -1549,8 +1549,9 @@ public final class OLELHDLBJKBOuterClass {
       "arabola\030\014 \001(\0132\014.CNEKCIGIBLKH\000\0221\n\031beyond_" +
       "bullet_move_follow\030\r \001(\0132\014.DPPMINCKDNIH\000" +
       "\0223\n\033beyond_bullet_move_surround\030\016 \001(\0132\014." +
-      "CKNJFBDCHKLH\000B\010\n\006detailB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "CKNJFBDCHKLH\000B\010\n\006detailB2\n\031emu.grasscutt" +
+      "er.net.protoB\025OLELHDLBJKBOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

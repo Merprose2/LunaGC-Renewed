@@ -731,8 +731,9 @@ public final class HomeUpdatePictureFrameInfoRspOuterClass {
       "omePictureFrameInfo.proto\"c\n\035HomeUpdateP" +
       "ictureFrameInfoRsp\0221\n\022picture_frame_info" +
       "\030\001 \001(\0132\025.HomePictureFrameInfo\022\017\n\007retcode" +
-      "\030\n \001(\005B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\n \001(\005BD\n\031emu.grasscutter.net.protoB\'Hom" +
+      "eUpdatePictureFrameInfoRspOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

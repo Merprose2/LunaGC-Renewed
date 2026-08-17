@@ -895,8 +895,9 @@ public final class TeamChainDetailInfoOuterClass {
       "\n\031TeamChainDetailInfo.proto\032\030TeamChainSt" +
       "ageData.proto\"d\n\023TeamChainDetailInfo\022\037\n\027" +
       "is_token_costume_reward\030\004 \001(\010\022,\n\017stage_d" +
-      "ata_list\030\017 \003(\0132\023.TeamChainStageDataB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "ata_list\030\017 \003(\0132\023.TeamChainStageDataB:\n\031e" +
+      "mu.grasscutter.net.protoB\035TeamChainDetai" +
+      "lInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

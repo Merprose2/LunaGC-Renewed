@@ -595,8 +595,9 @@ public final class AKKLBIAEDKPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AKKLBIAEDKP.proto\",\n\013AKKLBIAEDKP\022\r\n\005le" +
-      "vel\030\001 \001(\r\022\016\n\006entity\030\014 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "vel\030\001 \001(\r\022\016\n\006entity\030\014 \001(\rB2\n\031emu.grasscu" +
+      "tter.net.protoB\025AKKLBIAEDKPOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

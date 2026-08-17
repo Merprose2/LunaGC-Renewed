@@ -1589,8 +1589,9 @@ public final class BrickBreakerPlayerBattleInfoOuterClass {
       "y\030\001 \001(\010\022\020\n\010nickname\030\002 \001(\t\022\023\n\013CFMEKCCEEPD" +
       "\030\003 \003(\r\022\013\n\003uid\030\006 \001(\r\022\022\n\ncostume_id\030\007 \003(\r\022" +
       "\023\n\013is_changing\030\t \001(\010\022\021\n\tavatar_id\030\013 \003(\r\022" +
-      "\022\n\nskill_list\030\016 \003(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\022\n\nskill_list\030\016 \003(\rBC\n\031emu.grasscutter.n" +
+      "et.protoB&BrickBreakerPlayerBattleInfoOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

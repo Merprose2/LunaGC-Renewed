@@ -1711,8 +1711,9 @@ public final class CIDOJDBJPMLOuterClass {
       "LDKDMIOH\030\005 \001(\r\022!\n\013FCOFJELKKNM\030\006 \001(\0162\014.AK" +
       "KCIHDNHCG\022!\n\013PMCMJJAPIHP\030\007 \001(\0132\014.BNCMMAM" +
       "ABJM\022\024\n\013APNKJLCDOGE\030\365\003 \001(\t\022\024\n\013CEKNGICDFM" +
-      "I\030\366\003 \001(\010\022\024\n\013HEHDCDPKMOP\030\367\003 \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "I\030\366\003 \001(\010\022\024\n\013HEHDCDPKMOP\030\367\003 \001(\010B2\n\031emu.gr" +
+      "asscutter.net.protoB\025CIDOJDBJPMLOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

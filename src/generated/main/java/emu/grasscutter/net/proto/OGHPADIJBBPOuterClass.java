@@ -652,8 +652,8 @@ public final class OGHPADIJBBPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OGHPADIJBBP.proto\"\037\n\013OGHPADIJBBP\022\020\n\010ui" +
-      "d_list\030\004 \003(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "d_list\030\004 \003(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025OGHPADIJBBPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

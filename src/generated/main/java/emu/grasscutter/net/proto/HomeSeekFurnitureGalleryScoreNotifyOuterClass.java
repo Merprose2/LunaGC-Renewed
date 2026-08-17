@@ -840,8 +840,9 @@ public final class HomeSeekFurnitureGalleryScoreNotifyOuterClass {
       "tureGalleryScoreNotify\022\"\n\006reason\030\004 \001(\0162\022" +
       ".GalleryStopReason\0220\n\013BJKBEOIBFPP\030\006 \001(\0132" +
       "\033.HomeSeekFurnitureOneRecord\022\022\n\ngallery_" +
-      "id\030\t \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\t \001(\rBJ\n\031emu.grasscutter.net.protoB-H" +
+      "omeSeekFurnitureGalleryScoreNotifyOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

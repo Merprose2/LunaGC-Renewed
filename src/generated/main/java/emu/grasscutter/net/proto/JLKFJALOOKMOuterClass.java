@@ -517,8 +517,8 @@ public final class JLKFJALOOKMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JLKFJALOOKM.proto\"\037\n\013JLKFJALOOKM\022\020\n\010lo" +
-      "cal_id\030\001 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "cal_id\030\001 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "oB\025JLKFJALOOKMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

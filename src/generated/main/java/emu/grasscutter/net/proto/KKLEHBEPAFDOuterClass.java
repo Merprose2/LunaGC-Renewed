@@ -730,8 +730,9 @@ public final class KKLEHBEPAFDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KKLEHBEPAFD.proto\032\020Uint32Pair.proto\"D\n" +
       "\013KKLEHBEPAFD\022 \n\013AADILHPLIJN\030\013 \001(\0132\013.Uint" +
-      "32Pair\022\023\n\013ADDKIJLCLNK\030\014 \001(\010B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "32Pair\022\023\n\013ADDKIJLCLNK\030\014 \001(\010B2\n\031emu.grass" +
+      "cutter.net.protoB\025KKLEHBEPAFDOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

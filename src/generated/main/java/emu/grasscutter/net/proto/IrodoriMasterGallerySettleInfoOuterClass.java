@@ -839,8 +839,9 @@ public final class IrodoriMasterGallerySettleInfoOuterClass {
       "rGallerySettleInfo\022\021\n\tis_finish\030\001 \001(\010\022\021\n" +
       "\tdifficult\030\002 \001(\r\022\020\n\010level_id\030\004 \001(\r\022\023\n\013fi" +
       "nish_time\030\n \001(\r\022\"\n\006reason\030\017 \001(\0162\022.Galler" +
-      "yStopReasonB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "yStopReasonBE\n\031emu.grasscutter.net.proto" +
+      "B(IrodoriMasterGallerySettleInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

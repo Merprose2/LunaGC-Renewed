@@ -715,8 +715,9 @@ public final class GCGBossChallengeDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032GCGBossChallengeData.proto\"@\n\024GCGBossC" +
       "hallengeData\022\n\n\002id\030\004 \001(\r\022\034\n\024unlock_level" +
-      "_id_list\030\n \003(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "_id_list\030\n \003(\rB;\n\031emu.grasscutter.net.pr" +
+      "otoB\036GCGBossChallengeDataOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

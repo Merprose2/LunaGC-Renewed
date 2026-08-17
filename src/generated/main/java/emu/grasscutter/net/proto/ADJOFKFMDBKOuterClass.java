@@ -589,8 +589,9 @@ public final class ADJOFKFMDBKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ADJOFKFMDBK.proto\"6\n\013ADJOFKFMDBK\022\023\n\013LG" +
-      "BLGCMEGBI\030\001 \001(\004\022\022\n\ntime_stamp\030\002 \001(\004B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "BLGCMEGBI\030\001 \001(\004\022\022\n\ntime_stamp\030\002 \001(\004B2\n\031e" +
+      "mu.grasscutter.net.protoB\025ADJOFKFMDBKOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -768,8 +768,9 @@ public final class SalvagePreventGallerySettleInfoOuterClass {
       "agePreventGallerySettleInfo\022\023\n\013time_rema" +
       "in\030\002 \001(\r\022\025\n\rmonster_count\030\003 \001(\r\022\023\n\013final" +
       "_score\030\013 \001(\r\022)\n\006reason\030\014 \001(\0162\031.SalvagePr" +
-      "eventStopReasonB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "eventStopReasonBF\n\031emu.grasscutter.net.p" +
+      "rotoB)SalvagePreventGallerySettleInfoOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -651,7 +651,8 @@ public final class NFCDNMGBODKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NFCDNMGBODK.proto\032\021CNMLCLALHOE.proto\"*" +
       "\n\013NFCDNMGBODK\022\033\n\005value\030\001 \001(\0132\014.CNMLCLALH" +
-      "OEB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "OEB2\n\031emu.grasscutter.net.protoB\025NFCDNMG" +
+      "BODKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -666,8 +666,9 @@ public final class OMNGKKPHELNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OMNGKKPHELN.proto\"P\n\013OMNGKKPHELN\022\024\n\014di" +
       "scount_num\030\005 \001(\r\022\017\n\007retcode\030\014 \001(\005\022\032\n\022dis" +
-      "count_num_limit\030\r \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "count_num_limit\030\r \001(\rB2\n\031emu.grasscutter" +
+      ".net.protoB\025OMNGKKPHELNOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

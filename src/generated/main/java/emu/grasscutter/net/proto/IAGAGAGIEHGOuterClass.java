@@ -93,11 +93,11 @@ public final class IAGAGAGIEHGOuterClass {
      * <code>._PrefabData prefab_data = 11;</code>
      * @return The prefabData.
      */
-    emu.grasscutter.net.proto.PrefabData._PrefabData getPrefabData();
+    emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData getPrefabData();
     /**
      * <code>._PrefabData prefab_data = 11;</code>
      */
-    emu.grasscutter.net.proto.PrefabData._PrefabDataOrBuilder getPrefabDataOrBuilder();
+    emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabDataOrBuilder getPrefabDataOrBuilder();
 
     /**
      * <code>._InstanceData instance_data = 12;</code>
@@ -108,11 +108,11 @@ public final class IAGAGAGIEHGOuterClass {
      * <code>._InstanceData instance_data = 12;</code>
      * @return The instanceData.
      */
-    emu.grasscutter.net.proto.InstanceData._InstanceData getInstanceData();
+    emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData getInstanceData();
     /**
      * <code>._InstanceData instance_data = 12;</code>
      */
-    emu.grasscutter.net.proto.InstanceData._InstanceDataOrBuilder getInstanceDataOrBuilder();
+    emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceDataOrBuilder getInstanceDataOrBuilder();
 
     public emu.grasscutter.net.proto.IAGAGAGIEHGOuterClass.IAGAGAGIEHG.DetailCase getDetailCase();
   }
@@ -198,28 +198,28 @@ public final class IAGAGAGIEHGOuterClass {
               break;
             }
             case 90: {
-              emu.grasscutter.net.proto.PrefabData._PrefabData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData.Builder subBuilder = null;
               if (detailCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.PrefabData._PrefabData) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.PrefabData._PrefabData.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.PrefabData._PrefabData) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 11;
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.InstanceData._InstanceData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData.Builder subBuilder = null;
               if (detailCase_ == 12) {
-                subBuilder = ((emu.grasscutter.net.proto.InstanceData._InstanceData) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.InstanceData._InstanceData.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.InstanceData._InstanceData) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 12;
@@ -431,21 +431,21 @@ public final class IAGAGAGIEHGOuterClass {
      * @return The prefabData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PrefabData._PrefabData getPrefabData() {
+    public emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData getPrefabData() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.PrefabData._PrefabData) detail_;
+         return (emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData) detail_;
       }
-      return emu.grasscutter.net.proto.PrefabData._PrefabData.getDefaultInstance();
+      return emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData.getDefaultInstance();
     }
     /**
      * <code>._PrefabData prefab_data = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PrefabData._PrefabDataOrBuilder getPrefabDataOrBuilder() {
+    public emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabDataOrBuilder getPrefabDataOrBuilder() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.PrefabData._PrefabData) detail_;
+         return (emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData) detail_;
       }
-      return emu.grasscutter.net.proto.PrefabData._PrefabData.getDefaultInstance();
+      return emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData.getDefaultInstance();
     }
 
     public static final int INSTANCE_DATA_FIELD_NUMBER = 12;
@@ -462,21 +462,21 @@ public final class IAGAGAGIEHGOuterClass {
      * @return The instanceData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.InstanceData._InstanceData getInstanceData() {
+    public emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData getInstanceData() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.InstanceData._InstanceData) detail_;
+         return (emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData) detail_;
       }
-      return emu.grasscutter.net.proto.InstanceData._InstanceData.getDefaultInstance();
+      return emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData.getDefaultInstance();
     }
     /**
      * <code>._InstanceData instance_data = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.InstanceData._InstanceDataOrBuilder getInstanceDataOrBuilder() {
+    public emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceDataOrBuilder getInstanceDataOrBuilder() {
       if (detailCase_ == 12) {
-         return (emu.grasscutter.net.proto.InstanceData._InstanceData) detail_;
+         return (emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData) detail_;
       }
-      return emu.grasscutter.net.proto.InstanceData._InstanceData.getDefaultInstance();
+      return emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -509,10 +509,10 @@ public final class IAGAGAGIEHGOuterClass {
         output.writeMessage(5, aOHIOIBOBOD_.get(i));
       }
       if (detailCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.PrefabData._PrefabData) detail_);
+        output.writeMessage(11, (emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData) detail_);
       }
       if (detailCase_ == 12) {
-        output.writeMessage(12, (emu.grasscutter.net.proto.InstanceData._InstanceData) detail_);
+        output.writeMessage(12, (emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -545,11 +545,11 @@ public final class IAGAGAGIEHGOuterClass {
       }
       if (detailCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.PrefabData._PrefabData) detail_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData) detail_);
       }
       if (detailCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (emu.grasscutter.net.proto.InstanceData._InstanceData) detail_);
+          .computeMessageSize(12, (emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1586,7 +1586,7 @@ public final class IAGAGAGIEHGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PrefabData._PrefabData, emu.grasscutter.net.proto.PrefabData._PrefabData.Builder, emu.grasscutter.net.proto.PrefabData._PrefabDataOrBuilder> prefabDataBuilder_;
+          emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData, emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData.Builder, emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabDataOrBuilder> prefabDataBuilder_;
       /**
        * <code>._PrefabData prefab_data = 11;</code>
        * @return Whether the prefabData field is set.
@@ -1600,23 +1600,23 @@ public final class IAGAGAGIEHGOuterClass {
        * @return The prefabData.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PrefabData._PrefabData getPrefabData() {
+      public emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData getPrefabData() {
         if (prefabDataBuilder_ == null) {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.PrefabData._PrefabData) detail_;
+            return (emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData) detail_;
           }
-          return emu.grasscutter.net.proto.PrefabData._PrefabData.getDefaultInstance();
+          return emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData.getDefaultInstance();
         } else {
           if (detailCase_ == 11) {
             return prefabDataBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.PrefabData._PrefabData.getDefaultInstance();
+          return emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData.getDefaultInstance();
         }
       }
       /**
        * <code>._PrefabData prefab_data = 11;</code>
        */
-      public Builder setPrefabData(emu.grasscutter.net.proto.PrefabData._PrefabData value) {
+      public Builder setPrefabData(emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData value) {
         if (prefabDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1633,7 +1633,7 @@ public final class IAGAGAGIEHGOuterClass {
        * <code>._PrefabData prefab_data = 11;</code>
        */
       public Builder setPrefabData(
-          emu.grasscutter.net.proto.PrefabData._PrefabData.Builder builderForValue) {
+          emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData.Builder builderForValue) {
         if (prefabDataBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1646,11 +1646,11 @@ public final class IAGAGAGIEHGOuterClass {
       /**
        * <code>._PrefabData prefab_data = 11;</code>
        */
-      public Builder mergePrefabData(emu.grasscutter.net.proto.PrefabData._PrefabData value) {
+      public Builder mergePrefabData(emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData value) {
         if (prefabDataBuilder_ == null) {
           if (detailCase_ == 11 &&
-              detail_ != emu.grasscutter.net.proto.PrefabData._PrefabData.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.PrefabData._PrefabData.newBuilder((emu.grasscutter.net.proto.PrefabData._PrefabData) detail_)
+              detail_ != emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData.newBuilder((emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1687,36 +1687,36 @@ public final class IAGAGAGIEHGOuterClass {
       /**
        * <code>._PrefabData prefab_data = 11;</code>
        */
-      public emu.grasscutter.net.proto.PrefabData._PrefabData.Builder getPrefabDataBuilder() {
+      public emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData.Builder getPrefabDataBuilder() {
         return getPrefabDataFieldBuilder().getBuilder();
       }
       /**
        * <code>._PrefabData prefab_data = 11;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PrefabData._PrefabDataOrBuilder getPrefabDataOrBuilder() {
+      public emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabDataOrBuilder getPrefabDataOrBuilder() {
         if ((detailCase_ == 11) && (prefabDataBuilder_ != null)) {
           return prefabDataBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.PrefabData._PrefabData) detail_;
+            return (emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData) detail_;
           }
-          return emu.grasscutter.net.proto.PrefabData._PrefabData.getDefaultInstance();
+          return emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData.getDefaultInstance();
         }
       }
       /**
        * <code>._PrefabData prefab_data = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PrefabData._PrefabData, emu.grasscutter.net.proto.PrefabData._PrefabData.Builder, emu.grasscutter.net.proto.PrefabData._PrefabDataOrBuilder> 
+          emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData, emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData.Builder, emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabDataOrBuilder> 
           getPrefabDataFieldBuilder() {
         if (prefabDataBuilder_ == null) {
           if (!(detailCase_ == 11)) {
-            detail_ = emu.grasscutter.net.proto.PrefabData._PrefabData.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData.getDefaultInstance();
           }
           prefabDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PrefabData._PrefabData, emu.grasscutter.net.proto.PrefabData._PrefabData.Builder, emu.grasscutter.net.proto.PrefabData._PrefabDataOrBuilder>(
-                  (emu.grasscutter.net.proto.PrefabData._PrefabData) detail_,
+              emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData, emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData.Builder, emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabDataOrBuilder>(
+                  (emu.grasscutter.net.proto._PrefabDataOuterClass._PrefabData) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1727,7 +1727,7 @@ public final class IAGAGAGIEHGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.InstanceData._InstanceData, emu.grasscutter.net.proto.InstanceData._InstanceData.Builder, emu.grasscutter.net.proto.InstanceData._InstanceDataOrBuilder> instanceDataBuilder_;
+          emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData, emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData.Builder, emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceDataOrBuilder> instanceDataBuilder_;
       /**
        * <code>._InstanceData instance_data = 12;</code>
        * @return Whether the instanceData field is set.
@@ -1741,23 +1741,23 @@ public final class IAGAGAGIEHGOuterClass {
        * @return The instanceData.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.InstanceData._InstanceData getInstanceData() {
+      public emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData getInstanceData() {
         if (instanceDataBuilder_ == null) {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.InstanceData._InstanceData) detail_;
+            return (emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData) detail_;
           }
-          return emu.grasscutter.net.proto.InstanceData._InstanceData.getDefaultInstance();
+          return emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData.getDefaultInstance();
         } else {
           if (detailCase_ == 12) {
             return instanceDataBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.InstanceData._InstanceData.getDefaultInstance();
+          return emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData.getDefaultInstance();
         }
       }
       /**
        * <code>._InstanceData instance_data = 12;</code>
        */
-      public Builder setInstanceData(emu.grasscutter.net.proto.InstanceData._InstanceData value) {
+      public Builder setInstanceData(emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData value) {
         if (instanceDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1774,7 +1774,7 @@ public final class IAGAGAGIEHGOuterClass {
        * <code>._InstanceData instance_data = 12;</code>
        */
       public Builder setInstanceData(
-          emu.grasscutter.net.proto.InstanceData._InstanceData.Builder builderForValue) {
+          emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData.Builder builderForValue) {
         if (instanceDataBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -1787,11 +1787,11 @@ public final class IAGAGAGIEHGOuterClass {
       /**
        * <code>._InstanceData instance_data = 12;</code>
        */
-      public Builder mergeInstanceData(emu.grasscutter.net.proto.InstanceData._InstanceData value) {
+      public Builder mergeInstanceData(emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData value) {
         if (instanceDataBuilder_ == null) {
           if (detailCase_ == 12 &&
-              detail_ != emu.grasscutter.net.proto.InstanceData._InstanceData.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.InstanceData._InstanceData.newBuilder((emu.grasscutter.net.proto.InstanceData._InstanceData) detail_)
+              detail_ != emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData.newBuilder((emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -1828,36 +1828,36 @@ public final class IAGAGAGIEHGOuterClass {
       /**
        * <code>._InstanceData instance_data = 12;</code>
        */
-      public emu.grasscutter.net.proto.InstanceData._InstanceData.Builder getInstanceDataBuilder() {
+      public emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData.Builder getInstanceDataBuilder() {
         return getInstanceDataFieldBuilder().getBuilder();
       }
       /**
        * <code>._InstanceData instance_data = 12;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.InstanceData._InstanceDataOrBuilder getInstanceDataOrBuilder() {
+      public emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceDataOrBuilder getInstanceDataOrBuilder() {
         if ((detailCase_ == 12) && (instanceDataBuilder_ != null)) {
           return instanceDataBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 12) {
-            return (emu.grasscutter.net.proto.InstanceData._InstanceData) detail_;
+            return (emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData) detail_;
           }
-          return emu.grasscutter.net.proto.InstanceData._InstanceData.getDefaultInstance();
+          return emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData.getDefaultInstance();
         }
       }
       /**
        * <code>._InstanceData instance_data = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.InstanceData._InstanceData, emu.grasscutter.net.proto.InstanceData._InstanceData.Builder, emu.grasscutter.net.proto.InstanceData._InstanceDataOrBuilder> 
+          emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData, emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData.Builder, emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceDataOrBuilder> 
           getInstanceDataFieldBuilder() {
         if (instanceDataBuilder_ == null) {
           if (!(detailCase_ == 12)) {
-            detail_ = emu.grasscutter.net.proto.InstanceData._InstanceData.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData.getDefaultInstance();
           }
           instanceDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.InstanceData._InstanceData, emu.grasscutter.net.proto.InstanceData._InstanceData.Builder, emu.grasscutter.net.proto.InstanceData._InstanceDataOrBuilder>(
-                  (emu.grasscutter.net.proto.InstanceData._InstanceData) detail_,
+              emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData, emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData.Builder, emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceDataOrBuilder>(
+                  (emu.grasscutter.net.proto._InstanceDataOuterClass._InstanceData) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -1941,16 +1941,16 @@ public final class IAGAGAGIEHGOuterClass {
       "BOGB\022!\n\013AOHIOIBOBOD\030\005 \003(\0132\014.NACNIMBHLLA\022" +
       "#\n\013prefab_data\030\013 \001(\0132\014._PrefabDataH\000\022\'\n\r" +
       "instance_data\030\014 \001(\0132\016._InstanceDataH\000B\010\n" +
-      "\006detailB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "\006detailB2\n\031emu.grasscutter.net.protoB\025IA" +
+      "GAGAGIEHGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.NACNIMBHLLAOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.OAEECGPBOGBOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.InstanceData.getDescriptor(),
-          emu.grasscutter.net.proto.PrefabData.getDescriptor(),
+          emu.grasscutter.net.proto._InstanceDataOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._PrefabDataOuterClass.getDescriptor(),
         });
     internal_static_IAGAGAGIEHG_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1960,8 +1960,8 @@ public final class IAGAGAGIEHGOuterClass {
         new java.lang.String[] { "Guid", "MCCHIBKBONN", "GAFAAPBHFII", "AIHNEMOCJFM", "AOHIOIBOBOD", "PrefabData", "InstanceData", "Detail", });
     emu.grasscutter.net.proto.NACNIMBHLLAOuterClass.getDescriptor();
     emu.grasscutter.net.proto.OAEECGPBOGBOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.InstanceData.getDescriptor();
-    emu.grasscutter.net.proto.PrefabData.getDescriptor();
+    emu.grasscutter.net.proto._InstanceDataOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._PrefabDataOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

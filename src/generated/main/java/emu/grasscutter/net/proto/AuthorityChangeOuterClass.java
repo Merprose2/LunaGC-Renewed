@@ -793,8 +793,8 @@ public final class AuthorityChangeOuterClass {
       "Info.proto\"t\n\017AuthorityChange\022\031\n\021authori" +
       "ty_peer_id\030\005 \001(\r\022\021\n\tentity_id\030\006 \001(\r\0223\n\025e" +
       "ntity_authority_info\030\014 \001(\0132\024.EntityAutho" +
-      "rityInfoB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "rityInfoB6\n\031emu.grasscutter.net.protoB\031A" +
+      "uthorityChangeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

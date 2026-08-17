@@ -714,8 +714,9 @@ public final class AINJPPFLICAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AINJPPFLICA.proto\"3\n\013AINJPPFLICA\022\021\n\tda" +
-      "ta_list\030\004 \003(\r\022\021\n\tsync_type\030\017 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "ta_list\030\004 \003(\r\022\021\n\tsync_type\030\017 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025AINJPPFLICAOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

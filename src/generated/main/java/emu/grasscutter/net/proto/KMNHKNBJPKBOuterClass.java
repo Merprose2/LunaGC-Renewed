@@ -454,8 +454,9 @@ public final class KMNHKNBJPKBOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021KMNHKNBJPKB.proto\"\r\n\013KMNHKNBJPKBB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021KMNHKNBJPKB.proto\"\r\n\013KMNHKNBJPKBB2\n\031em" +
+      "u.grasscutter.net.protoB\025KMNHKNBJPKBOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

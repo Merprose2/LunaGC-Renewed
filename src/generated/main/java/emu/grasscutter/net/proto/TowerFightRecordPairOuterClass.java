@@ -588,8 +588,8 @@ public final class TowerFightRecordPairOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032TowerFightRecordPair.proto\"7\n\024TowerFig" +
       "htRecordPair\022\014\n\004data\030\001 \001(\r\022\021\n\tavatar_id\030" +
-      "\t \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\t \001(\rB;\n\031emu.grasscutter.net.protoB\036Towe" +
+      "rFightRecordPairOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

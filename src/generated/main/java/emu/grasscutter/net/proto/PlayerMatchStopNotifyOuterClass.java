@@ -742,8 +742,8 @@ public final class PlayerMatchStopNotifyOuterClass {
       "on.proto\032\017MatchType.proto\"g\n\025PlayerMatch" +
       "StopNotify\022\020\n\010host_uid\030\003 \001(\r\022\036\n\nmatch_ty" +
       "pe\030\t \001(\0162\n.MatchType\022\034\n\006reason\030\016 \001(\0162\014.M" +
-      "atchReasonB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "atchReasonB<\n\031emu.grasscutter.net.protoB" +
+      "\037PlayerMatchStopNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

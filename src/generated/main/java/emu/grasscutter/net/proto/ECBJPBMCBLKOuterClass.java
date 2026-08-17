@@ -729,8 +729,9 @@ public final class ECBJPBMCBLKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ECBJPBMCBLK.proto\032\021OLOLDMPHCFK.proto\"E" +
       "\n\013ECBJPBMCBLK\022\023\n\013KMDOFBPMGAI\030\002 \001(\r\022!\n\013IN" +
-      "NCANGHMNH\030\013 \001(\0132\014.OLOLDMPHCFKB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "NCANGHMNH\030\013 \001(\0132\014.OLOLDMPHCFKB2\n\031emu.gra" +
+      "sscutter.net.protoB\025ECBJPBMCBLKOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

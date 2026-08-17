@@ -660,8 +660,9 @@ public final class ReunionDailyRefreshNotifyOuterClass {
       "\n\037ReunionDailyRefreshNotify.proto\032\026Reuni" +
       "onBriefInfo.proto\"J\n\031ReunionDailyRefresh" +
       "Notify\022-\n\022reunion_brief_info\030\010 \001(\0132\021.Reu" +
-      "nionBriefInfoB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "nionBriefInfoB@\n\031emu.grasscutter.net.pro" +
+      "toB#ReunionDailyRefreshNotifyOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

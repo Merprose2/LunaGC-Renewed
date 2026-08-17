@@ -667,8 +667,9 @@ public final class ScenePlayGuestReplyNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037ScenePlayGuestReplyNotify.proto\"Q\n\031Sce" +
       "nePlayGuestReplyNotify\022\020\n\010is_agree\030\004 \001(\010" +
-      "\022\017\n\007play_id\030\005 \001(\r\022\021\n\tguest_uid\030\t \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\022\017\n\007play_id\030\005 \001(\r\022\021\n\tguest_uid\030\t \001(\rB@\n\031" +
+      "emu.grasscutter.net.protoB#ScenePlayGues" +
+      "tReplyNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

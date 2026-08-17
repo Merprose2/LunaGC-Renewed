@@ -666,8 +666,8 @@ public final class BAJGDMHPEENOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BAJGDMHPEEN.proto\"H\n\013BAJGDMHPEEN\022\023\n\013ac" +
       "tivity_id\030\002 \001(\r\022\023\n\013FPOJNFODLOJ\030\r \001(\r\022\017\n\007" +
-      "retcode\030\016 \001(\005B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "retcode\030\016 \001(\005B2\n\031emu.grasscutter.net.pro" +
+      "toB\025BAJGDMHPEENOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

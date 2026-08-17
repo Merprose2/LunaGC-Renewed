@@ -145,8 +145,8 @@ public final class GCGSkillHpChangeTypeOuterClass {
       "G_SKILL_HP_CHANGE_NONE\020\000\0223\n/GCGSkillHpCh" +
       "angeType_GCG_SKILL_HP_CHANGE_DAMAGE\020\001\0221\n" +
       "-GCGSkillHpChangeType_GCG_SKILL_HP_CHANG" +
-      "E_HEAL\020\002B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "E_HEAL\020\002B;\n\031emu.grasscutter.net.protoB\036G" +
+      "CGSkillHpChangeTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

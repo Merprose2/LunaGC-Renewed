@@ -714,8 +714,9 @@ public final class OODIANFLEOIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OODIANFLEOI.proto\"2\n\013OODIANFLEOI\022\013\n\003ui" +
-      "d\030\016 \001(\r\022\026\n\016avatar_id_list\030\017 \003(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "d\030\016 \001(\r\022\026\n\016avatar_id_list\030\017 \003(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025OODIANFLEOIOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

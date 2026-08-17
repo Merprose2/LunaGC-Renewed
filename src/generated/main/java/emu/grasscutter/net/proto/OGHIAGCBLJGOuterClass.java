@@ -730,8 +730,9 @@ public final class OGHIAGCBLJGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OGHIAGCBLJG.proto\"X\n\013OGHIAGCBLJG\022\020\n\010le" +
       "vel_id\030\002 \001(\r\022\017\n\007is_open\030\005 \001(\010\022\021\n\tis_fini" +
-      "sh\030\006 \001(\010\022\023\n\013NHEFNKONPEI\030\n \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "sh\030\006 \001(\010\022\023\n\013NHEFNKONPEI\030\n \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025OGHIAGCBLJGOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

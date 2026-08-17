@@ -1611,8 +1611,9 @@ public final class DEICOFPDOADOuterClass {
       "GGAFFBNGCJI.proto\"\210\001\n\013DEICOFPDOAD\022\013\n\003uid" +
       "\030\001 \001(\r\022\021\n\tnick_name\030\002 \001(\t\022!\n\013FAGCNBGCPBE" +
       "\030\003 \003(\0132\014.GGAFFBNGCJI\022\023\n\013OJJPGNAOGFN\030\004 \003(" +
-      "\005\022!\n\013JIONLMGCBAJ\030\005 \003(\0132\014.FKNIDAGBNEIB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\005\022!\n\013JIONLMGCBAJ\030\005 \003(\0132\014.FKNIDAGBNEIB2\n\031" +
+      "emu.grasscutter.net.protoB\025DEICOFPDOADOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -525,8 +525,8 @@ public final class BACNCJEJMJGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BACNCJEJMJG.proto\"!\n\013BACNCJEJMJG\022\022\n\nch" +
-      "apter_id\030\006 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "apter_id\030\006 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025BACNCJEJMJGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

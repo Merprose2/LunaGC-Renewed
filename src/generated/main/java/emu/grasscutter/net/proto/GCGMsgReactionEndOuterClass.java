@@ -517,8 +517,9 @@ public final class GCGMsgReactionEndOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027GCGMsgReactionEnd.proto\"%\n\021GCGMsgReact" +
-      "ionEnd\022\020\n\010skill_id\030\003 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "ionEnd\022\020\n\010skill_id\030\003 \001(\rB8\n\031emu.grasscut" +
+      "ter.net.protoB\033GCGMsgReactionEndOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

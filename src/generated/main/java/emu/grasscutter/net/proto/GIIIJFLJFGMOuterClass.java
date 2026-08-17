@@ -555,7 +555,8 @@ public final class GIIIJFLJFGMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GIIIJFLJFGM.proto\032\021JEOKDCIGCFP.proto\"*" +
       "\n\013GIIIJFLJFGM\022\033\n\005value\030\001 \001(\0162\014.JEOKDCIGC" +
-      "FPB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "FPB2\n\031emu.grasscutter.net.protoB\025GIIIJFL" +
+      "JFGMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

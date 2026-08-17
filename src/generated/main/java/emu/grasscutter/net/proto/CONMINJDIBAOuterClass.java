@@ -1006,7 +1006,8 @@ public final class CONMINJDIBAOuterClass {
       "DKGJEKHAGIK\030\366\003 \001(\005\022\024\n\013ICPIBOIPCEL\030\367\003 \001(\005" +
       "\022\024\n\013DOKIJHIHAHO\030\370\003 \001(\005\022\"\n\013LHLPLGGAONP\030\371\003" +
       " \001(\0132\014.GLLPFPEKPAJ\022\024\n\013FKEFKEIJOJA\030\372\003 \001(\010" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025CONMINJDI" +
+      "BAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1484,7 +1484,8 @@ public final class ObstacleModifyNotifyOuterClass {
       "_obstacles\030\001 \003(\0132\r.ObstacleInfo\022\023\n\013NNJAO" +
       "MADMNG\030\010 \003(\005\022\020\n\010scene_id\030\t \001(\r\022\023\n\013LLDECD" +
       "NJDMF\030\013 \003(\005\022\033\n\023remove_obstacle_ids\030\016 \003(\005" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B;\n\031emu.grasscutter.net.protoB\036ObstacleM" +
+      "odifyNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

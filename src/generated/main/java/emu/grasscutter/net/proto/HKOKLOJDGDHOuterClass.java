@@ -595,8 +595,9 @@ public final class HKOKLOJDGDHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HKOKLOJDGDH.proto\"/\n\013HKOKLOJDGDH\022\017\n\007re" +
-      "tcode\030\004 \001(\005\022\017\n\007deck_id\030\n \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "tcode\030\004 \001(\005\022\017\n\007deck_id\030\n \001(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025HKOKLOJDGDHOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

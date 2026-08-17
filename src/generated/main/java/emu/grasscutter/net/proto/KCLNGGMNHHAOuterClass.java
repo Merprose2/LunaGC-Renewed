@@ -996,7 +996,8 @@ public final class KCLNGGMNHHAOuterClass {
       "\n\013KCLNGGMNHHA\022\034\n\006offset\030\001 \001(\0132\014.DMGMMDBN" +
       "PNA\022!\n\013FMKNLOGFALG\030\002 \001(\0132\014.DMGMMDBNPNA\022\023" +
       "\n\013NEPFLIKDNJP\030\003 \001(\005\022\023\n\013BBPCIDDDOBP\030\004 \001(\005" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025KCLNGGMNH" +
+      "HAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

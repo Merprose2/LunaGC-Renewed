@@ -455,8 +455,9 @@ public final class BonusActivityInfoReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032BonusActivityInfoReq.proto\"\026\n\024BonusAct" +
-      "ivityInfoReqB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "ivityInfoReqB;\n\031emu.grasscutter.net.prot" +
+      "oB\036BonusActivityInfoReqOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

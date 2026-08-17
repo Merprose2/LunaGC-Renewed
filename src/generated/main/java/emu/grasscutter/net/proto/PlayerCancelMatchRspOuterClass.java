@@ -633,8 +633,9 @@ public final class PlayerCancelMatchRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032PlayerCancelMatchRsp.proto\032\017MatchType." +
       "proto\"G\n\024PlayerCancelMatchRsp\022\017\n\007retcode" +
-      "\030\013 \001(\005\022\036\n\nmatch_type\030\016 \001(\0162\n.MatchTypeB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\030\013 \001(\005\022\036\n\nmatch_type\030\016 \001(\0162\n.MatchTypeB;" +
+      "\n\031emu.grasscutter.net.protoB\036PlayerCance" +
+      "lMatchRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

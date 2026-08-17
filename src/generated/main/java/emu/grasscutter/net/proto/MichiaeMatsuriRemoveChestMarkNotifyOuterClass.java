@@ -597,7 +597,9 @@ public final class MichiaeMatsuriRemoveChestMarkNotifyOuterClass {
       "\n)MichiaeMatsuriRemoveChestMarkNotify.pr" +
       "oto\"J\n#MichiaeMatsuriRemoveChestMarkNoti" +
       "fy\022\021\n\tconfig_id\030\t \001(\r\022\020\n\010group_id\030\r \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "J\n\031emu.grasscutter.net.protoB-MichiaeMat" +
+      "suriRemoveChestMarkNotifyOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

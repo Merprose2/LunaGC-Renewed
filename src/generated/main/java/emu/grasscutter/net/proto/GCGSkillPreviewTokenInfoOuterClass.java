@@ -659,7 +659,8 @@ public final class GCGSkillPreviewTokenInfoOuterClass {
       "\n\036GCGSkillPreviewTokenInfo.proto\"X\n\030GCGS" +
       "killPreviewTokenInfo\022\023\n\013FPNOCKPJEEA\030\007 \001(" +
       "\r\022\023\n\013NDMEDDMENKA\030\013 \001(\r\022\022\n\ntoken_type\030\r \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB?\n\031emu.grasscutter.net.protoB\"GCGSkil" +
+      "lPreviewTokenInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

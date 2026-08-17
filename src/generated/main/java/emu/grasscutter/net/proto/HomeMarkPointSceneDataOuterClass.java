@@ -1373,8 +1373,9 @@ public final class HomeMarkPointSceneDataOuterClass {
       "\001(\r\022\034\n\013IAPJOJJALFB\030\006 \001(\0132\007.Vector\022\021\n\tmod" +
       "ule_id\030\007 \001(\r\0223\n\016furniture_list\030\r \003(\0132\033.H" +
       "omeMarkPointFurnitureData\022\034\n\013MHBMBJFCBCM" +
-      "\030\017 \001(\0132\007.VectorB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\030\017 \001(\0132\007.VectorB=\n\031emu.grasscutter.net.p" +
+      "rotoB HomeMarkPointSceneDataOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -736,8 +736,9 @@ public final class EKDJLENPOHFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EKDJLENPOHF.proto\"U\n\013EKDJLENPOHF\022\017\n\007re" +
       "tcode\030\001 \001(\005\022\017\n\007card_id\030\007 \001(\r\022\020\n\010group_id" +
-      "\030\t \001(\r\022\022\n\nplay_index\030\014 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\030\t \001(\r\022\022\n\nplay_index\030\014 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025EKDJLENPOHFOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

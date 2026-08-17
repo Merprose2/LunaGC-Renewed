@@ -1132,8 +1132,8 @@ public final class PhotoPosDataOuterClass {
       "hotoPosData\022\017\n\007is_view\030\003 \001(\010\022\017\n\007is_open\030" +
       "\004 \001(\010\022\016\n\006pos_id\030\007 \001(\r\022\021\n\topen_time\030\010 \001(\r" +
       "\022\027\n\006center\030\013 \001(\0132\007.Vector\022\023\n\013MNLKHICGNNH" +
-      "\030\017 \003(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \003(\rB3\n\031emu.grasscutter.net.protoB\026Pho" +
+      "toPosDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

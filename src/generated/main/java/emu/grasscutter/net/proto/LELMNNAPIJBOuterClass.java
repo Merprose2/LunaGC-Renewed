@@ -1142,7 +1142,8 @@ public final class LELMNNAPIJBOuterClass {
       "COIDLPKM\030\004 \001(\r\022\023\n\013avatar_guid\030\006 \001(\004\022\023\n\013P" +
       "FKGLCFLGGN\030\010 \001(\010\022\023\n\013GKGCFEOKBIK\030\t \001(\004\022\023\n" +
       "\013GCKIMJNKKBP\030\014 \001(\010\022\023\n\013PDLNMDDFNPC\030\017 \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025LELMNNAPIJ" +
+      "BOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

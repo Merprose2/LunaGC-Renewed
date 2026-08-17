@@ -934,7 +934,8 @@ public final class EvtSyncEntityPositionInfoOuterClass {
       "\tentity_id\030\005 \001(\r\022\037\n\027normalized_time_comp" +
       "act\030\007 \001(\r\022\022\n\nstate_hash\030\t \001(\r\022\032\n\022face_an" +
       "gle_compact\030\013 \001(\005\022\024\n\003pos\030\014 \001(\0132\007.VectorB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "@\n\031emu.grasscutter.net.protoB#EvtSyncEnt" +
+      "ityPositionInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

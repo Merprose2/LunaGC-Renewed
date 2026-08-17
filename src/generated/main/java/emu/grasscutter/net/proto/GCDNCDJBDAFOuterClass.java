@@ -738,8 +738,8 @@ public final class GCDNCDJBDAFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GCDNCDJBDAF.proto\"L\n\013GCDNCDJBDAF\022\023\n\013KL" +
       "CHKFNGFLI\030\001 \001(\005\022\023\n\013BCHNKBKIBGB\030\002 \001(\t\022\023\n\013" +
-      "GFBEHOBEAPN\030\003 \001(\005B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "GFBEHOBEAPN\030\003 \001(\005B2\n\031emu.grasscutter.net" +
+      ".protoB\025GCDNCDJBDAFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

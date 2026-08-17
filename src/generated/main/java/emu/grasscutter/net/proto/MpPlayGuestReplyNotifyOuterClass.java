@@ -667,8 +667,9 @@ public final class MpPlayGuestReplyNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034MpPlayGuestReplyNotify.proto\"K\n\026MpPlay" +
       "GuestReplyNotify\022\013\n\003uid\030\t \001(\r\022\022\n\nmp_play" +
-      "_id\030\013 \001(\r\022\020\n\010is_agree\030\016 \001(\010B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "_id\030\013 \001(\r\022\020\n\010is_agree\030\016 \001(\010B=\n\031emu.grass" +
+      "cutter.net.protoB MpPlayGuestReplyNotify" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

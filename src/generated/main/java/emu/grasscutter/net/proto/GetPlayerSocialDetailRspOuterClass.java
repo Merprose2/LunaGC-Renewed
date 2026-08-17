@@ -800,8 +800,9 @@ public final class GetPlayerSocialDetailRspOuterClass {
       "\n\036GetPlayerSocialDetailRsp.proto\032\022Social" +
       "Detail.proto\"^\n\030GetPlayerSocialDetailRsp" +
       "\022\017\n\007retcode\030\002 \001(\005\022\"\n\013detail_data\030\010 \001(\0132\r" +
-      ".SocialDetail\022\r\n\005param\030\016 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      ".SocialDetail\022\r\n\005param\030\016 \001(\rB?\n\031emu.gras" +
+      "scutter.net.protoB\"GetPlayerSocialDetail" +
+      "RspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

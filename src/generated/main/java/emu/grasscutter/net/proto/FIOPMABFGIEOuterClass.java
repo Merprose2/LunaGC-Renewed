@@ -901,8 +901,9 @@ public final class FIOPMABFGIEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FIOPMABFGIE.proto\032\021EBGIPIPJLHA.proto\"B" +
       "\n\013FIOPMABFGIE\022\020\n\010scene_id\030\006 \001(\r\022!\n\013BGJLF" +
-      "KLHNPE\030\010 \003(\0132\014.EBGIPIPJLHAB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "KLHNPE\030\010 \003(\0132\014.EBGIPIPJLHAB2\n\031emu.grassc" +
+      "utter.net.protoB\025FIOPMABFGIEOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

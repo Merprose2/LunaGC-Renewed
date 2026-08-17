@@ -972,8 +972,9 @@ public final class GetSceneNpcPositionRspOuterClass {
       "\n\034GetSceneNpcPositionRsp.proto\032\025NpcPosit" +
       "ionInfo.proto\"d\n\026GetSceneNpcPositionRsp\022" +
       "\017\n\007retcode\030\001 \001(\005\022\020\n\010scene_id\030\006 \001(\r\022\'\n\rnp" +
-      "c_info_list\030\014 \003(\0132\020.NpcPositionInfoB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "c_info_list\030\014 \003(\0132\020.NpcPositionInfoB=\n\031e" +
+      "mu.grasscutter.net.protoB GetSceneNpcPos" +
+      "itionRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

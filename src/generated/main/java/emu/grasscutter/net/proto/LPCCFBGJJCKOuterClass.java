@@ -810,8 +810,9 @@ public final class LPCCFBGJJCKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LPCCFBGJJCK.proto\"Z\n\013LPCCFBGJJCK\022\014\n\004na" +
       "me\030\001 \001(\t\022\023\n\013NMKMGOCKLFF\030\002 \001(\r\022\023\n\013DGABACF" +
-      "MEJG\030\003 \001(\010\022\023\n\013LJBNMDCIOHL\030\004 \001(\010B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "MEJG\030\003 \001(\010\022\023\n\013LJBNMDCIOHL\030\004 \001(\010B2\n\031emu.g" +
+      "rasscutter.net.protoB\025LPCCFBGJJCKOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

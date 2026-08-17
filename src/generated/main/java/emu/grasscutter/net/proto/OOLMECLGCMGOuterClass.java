@@ -595,8 +595,9 @@ public final class OOLMECLGCMGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OOLMECLGCMG.proto\"-\n\013OOLMECLGCMG\022\r\n\005le" +
-      "vel\030\001 \001(\r\022\017\n\007retcode\030\n \001(\005B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "vel\030\001 \001(\r\022\017\n\007retcode\030\n \001(\005B2\n\031emu.grassc" +
+      "utter.net.protoB\025OOLMECLGCMGOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

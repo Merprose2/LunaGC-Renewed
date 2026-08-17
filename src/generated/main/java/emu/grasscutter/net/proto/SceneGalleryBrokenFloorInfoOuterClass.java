@@ -846,8 +846,9 @@ public final class SceneGalleryBrokenFloorInfoOuterClass {
       "\002 \001(\r\022F\n\016fall_count_map\030\014 \003(\0132..SceneGal" +
       "leryBrokenFloorInfo.FallCountMapEntry\0323\n" +
       "\021FallCountMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value" +
-      "\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "\030\002 \001(\r:\0028\001BB\n\031emu.grasscutter.net.protoB" +
+      "%SceneGalleryBrokenFloorInfoOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

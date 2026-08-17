@@ -526,8 +526,8 @@ public final class INJJNPGMGEBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021INJJNPGMGEB.proto\"\033\n\013INJJNPGMGEB\022\014\n\004gu" +
-      "id\030\t \001(\004B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\t \001(\004B2\n\031emu.grasscutter.net.protoB\025I" +
+      "NJJNPGMGEBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

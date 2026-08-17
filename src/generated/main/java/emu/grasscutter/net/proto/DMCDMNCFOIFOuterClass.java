@@ -591,8 +591,9 @@ public final class DMCDMNCFOIFOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DMCDMNCFOIF.proto\"1\n\013DMCDMNCFOIF\022\023\n\013NG" +
-      "DDIOBGGCN\030\001 \001(\002\022\r\n\005value\030\002 \001(\002B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "DDIOBGGCN\030\001 \001(\002\022\r\n\005value\030\002 \001(\002B2\n\031emu.gr" +
+      "asscutter.net.protoB\025DMCDMNCFOIFOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

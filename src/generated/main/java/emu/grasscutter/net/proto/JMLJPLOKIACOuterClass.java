@@ -854,8 +854,9 @@ public final class JMLJPLOKIACOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JMLJPLOKIAC.proto\032\021PJKJCCNMEOB.proto\"I" +
       "\n\013JMLJPLOKIAC\022\033\n\005title\030\001 \001(\0132\014.PJKJCCNME" +
-      "OB\022\035\n\007content\030\002 \001(\0132\014.PJKJCCNMEOBB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "OB\022\035\n\007content\030\002 \001(\0132\014.PJKJCCNMEOBB2\n\031emu" +
+      ".grasscutter.net.protoB\025JMLJPLOKIACOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

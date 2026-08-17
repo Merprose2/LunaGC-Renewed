@@ -525,8 +525,8 @@ public final class OPDNPFMDOEBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OPDNPFMDOEB.proto\"!\n\013OPDNPFMDOEB\022\022\n\nwa" +
-      "tcher_id\030\n \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "tcher_id\030\n \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025OPDNPFMDOEBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

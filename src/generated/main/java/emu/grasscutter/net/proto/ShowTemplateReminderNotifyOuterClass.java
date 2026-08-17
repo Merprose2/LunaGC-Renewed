@@ -1060,8 +1060,9 @@ public final class ShowTemplateReminderNotifyOuterClass {
       "howTemplateReminderNotify\022\023\n\013INEDFEBEBFA" +
       "\030\001 \001(\010\022\022\n\nparam_list\030\004 \003(\005\022\023\n\013ACBGCHPKGG" +
       "J\030\006 \001(\010\022\034\n\024template_reminder_id\030\010 \001(\r\022\026\n" +
-      "\016param_uid_list\030\017 \003(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\016param_uid_list\030\017 \003(\rBA\n\031emu.grasscutter" +
+      ".net.protoB$ShowTemplateReminderNotifyOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

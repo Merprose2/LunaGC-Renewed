@@ -597,8 +597,9 @@ public final class AvatarEnterElementViewNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"AvatarEnterElementViewNotify.proto\"M\n\034" +
       "AvatarEnterElementViewNotify\022\023\n\013is_trigg" +
-      "erd\030\006 \001(\010\022\030\n\020avatar_entity_id\030\010 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "erd\030\006 \001(\010\022\030\n\020avatar_entity_id\030\010 \001(\rBC\n\031e" +
+      "mu.grasscutter.net.protoB&AvatarEnterEle" +
+      "mentViewNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

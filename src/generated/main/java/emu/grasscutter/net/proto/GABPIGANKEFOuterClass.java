@@ -894,8 +894,9 @@ public final class GABPIGANKEFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GABPIGANKEF.proto\032\021NIABNDOJMMI.proto\"G" +
       "\n\013GABPIGANKEF\022\"\n\013IJFFAFCBPNJ\030\365\003 \003(\0132\014.NI" +
-      "ABNDOJMMI\022\024\n\013CNEKFPHBFEE\030\366\003 \001(\010B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "ABNDOJMMI\022\024\n\013CNEKFPHBFEE\030\366\003 \001(\010B2\n\031emu.g" +
+      "rasscutter.net.protoB\025GABPIGANKEFOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

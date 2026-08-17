@@ -1876,8 +1876,9 @@ public final class HDDOAOKDIJDOuterClass {
       "G\030\r \001(\010\022\023\n\013OGLIGLHPCPM\030\016 \001(\010\022\023\n\013FHKFIHMA" +
       "DAD\030\017 \001(\r\022\023\n\013CMKJOJNMBIO\030\020 \001(\010\022\023\n\013DGIBMB" +
       "LJHLN\030\021 \001(\r\022\023\n\013LHDEBKECCEE\030\022 \001(\010\022\023\n\013INCN" +
-      "OBDIJFG\030\023 \001(\010\022\023\n\013DIDGNPCBCPN\030\024 \001(\010B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "OBDIJFG\030\023 \001(\010\022\023\n\013DIDGNPCBCPN\030\024 \001(\010B2\n\031em" +
+      "u.grasscutter.net.protoB\025HDDOAOKDIJDOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

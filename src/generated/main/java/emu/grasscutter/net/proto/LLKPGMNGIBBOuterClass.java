@@ -1177,7 +1177,8 @@ public final class LLKPGMNGIBBOuterClass {
       "FOCDCLEJBK\022\024\n\013NFKILJFJCCK\030\366\003 \001(\005\022\024\n\013OMBJ" +
       "DELPAOK\030\367\003 \001(\r\022\024\n\013FNAAGHOKNJA\030\370\003 \001(\010\022\024\n\013" +
       "FNBNGMOBFFF\030\371\003 \001(\005\022\024\n\013MEDHGJOMLIP\030\372\003 \001(\005" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025LLKPGMNGI" +
+      "BBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

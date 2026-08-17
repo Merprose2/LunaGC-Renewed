@@ -785,8 +785,9 @@ public final class ChessMonsterInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026ChessMonsterInfo.proto\"I\n\020ChessMonster" +
       "Info\022\r\n\005level\030\001 \001(\r\022\022\n\nmonster_id\030\010 \001(\r\022" +
-      "\022\n\naffix_list\030\014 \003(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\022\n\naffix_list\030\014 \003(\rB7\n\031emu.grasscutter.n" +
+      "et.protoB\032ChessMonsterInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

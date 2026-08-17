@@ -1348,8 +1348,8 @@ public final class EKDJLAIBPJCOuterClass {
       "PJC\022\025\n\ris_new_record\030\002 \001(\010\022+\n\013JANGDIMHCA" +
       "C\030\003 \003(\0132\026.ExhibitionDisplayInfo\022\017\n\007is_su" +
       "cc\030\005 \001(\010\022&\n\020settle_info_list\030\010 \003(\0132\014.BAB" +
-      "FLLCAEDLB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "FLLCAEDLB2\n\031emu.grasscutter.net.protoB\025E" +
+      "KDJLAIBPJCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

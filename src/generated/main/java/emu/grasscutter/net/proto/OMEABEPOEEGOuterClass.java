@@ -644,8 +644,8 @@ public final class OMEABEPOEEGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OMEABEPOEEG.proto\"\037\n\013OMEABEPOEEG\022\020\n\010ta" +
-      "g_list\030\001 \003(\005B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "g_list\030\001 \003(\005B2\n\031emu.grasscutter.net.prot" +
+      "oB\025OMEABEPOEEGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

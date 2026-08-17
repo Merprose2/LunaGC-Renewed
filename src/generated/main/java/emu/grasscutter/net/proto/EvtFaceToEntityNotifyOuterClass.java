@@ -704,8 +704,9 @@ public final class EvtFaceToEntityNotifyOuterClass {
       "\n\033EvtFaceToEntityNotify.proto\032\021ForwardTy" +
       "pe.proto\"f\n\025EvtFaceToEntityNotify\022\026\n\016fac" +
       "e_entity_id\030\001 \001(\r\022\"\n\014forward_type\030\006 \001(\0162" +
-      "\014.ForwardType\022\021\n\tentity_id\030\017 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\014.ForwardType\022\021\n\tentity_id\030\017 \001(\rB<\n\031emu." +
+      "grasscutter.net.protoB\037EvtFaceToEntityNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

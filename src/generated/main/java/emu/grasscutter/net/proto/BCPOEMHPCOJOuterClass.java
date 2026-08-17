@@ -1096,7 +1096,8 @@ public final class BCPOEMHPCOJOuterClass {
       "\n\021BCPOEMHPCOJ.proto\032\017ItemParam.proto\"R\n\013" +
       "BCPOEMHPCOJ\022\017\n\007retcode\030\005 \001(\005\022\023\n\013HJJHCILE" +
       "GJH\030\014 \003(\r\022\035\n\titem_list\030\r \003(\0132\n.ItemParam" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025BCPOEMHPC" +
+      "OJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

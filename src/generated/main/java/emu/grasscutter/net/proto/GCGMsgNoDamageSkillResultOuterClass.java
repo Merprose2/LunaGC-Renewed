@@ -1247,8 +1247,9 @@ public final class GCGMsgNoDamageSkillResultOuterClass {
       "st\030\005 \003(\0132\020.GCGDamageDetail\022\020\n\010skill_id\030\t" +
       " \001(\r\022\023\n\013JBNBFHBJKLC\030\013 \001(\r\022\023\n\013GKCCOHFNPJO" +
       "\030\r \001(\r\022\023\n\013LMJNNIEKMBB\030\016 \001(\r\022\023\n\013HDLBKMHAP" +
-      "CM\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "CM\030\017 \001(\rB@\n\031emu.grasscutter.net.protoB#G" +
+      "CGMsgNoDamageSkillResultOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1473,7 +1473,8 @@ public final class EEJKIGDPANGOuterClass {
       "CENIMBEGEPD\030\n \001(\r\022\023\n\013ODMBNDPGNLE\030\013 \001(\r\022\023" +
       "\n\013LLJOFIAMMEK\030\014 \001(\r\022\023\n\013PGCGFOHOKNA\030\r \001(\r" +
       "\022\023\n\013BLPNENKNDLN\030\016 \001(\r\022\023\n\013IGGGLIOMBFE\030\017 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB2\n\031emu.grasscutter.net.protoB\025EEJKIGD" +
+      "PANGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

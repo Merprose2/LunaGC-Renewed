@@ -596,8 +596,9 @@ public final class IALGLAFIDKMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IALGLAFIDKM.proto\"2\n\013IALGLAFIDKM\022\021\n\tis" +
-      "_unlock\030\005 \001(\010\022\020\n\010end_time\030\n \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "_unlock\030\005 \001(\010\022\020\n\010end_time\030\n \001(\rB2\n\031emu.g" +
+      "rasscutter.net.protoB\025IALGLAFIDKMOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

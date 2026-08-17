@@ -142,8 +142,9 @@ public final class FDGECPAHOIJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FDGECPAHOIJ.proto*V\n\013FDGECPAHOIJ\022\026\n\022FD" +
       "GECPAHOIJ_NORMAL\020\000\022\027\n\023FDGECPAHOIJ_DEFAUL" +
-      "T\020\001\022\026\n\022FDGECPAHOIJ_CUSTOM\020\002B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "T\020\001\022\026\n\022FDGECPAHOIJ_CUSTOM\020\002B2\n\031emu.grass" +
+      "cutter.net.protoB\025FDGECPAHOIJOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

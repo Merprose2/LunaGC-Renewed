@@ -903,8 +903,9 @@ public final class WinterCampAcceptAllGiveItemRspOuterClass {
       "WinterCampAcceptItemResultInfo.proto\"s\n\036" +
       "WinterCampAcceptAllGiveItemRsp\022@\n\027accept" +
       "_item_result_info\030\001 \003(\0132\037.WinterCampAcce" +
-      "ptItemResultInfo\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "ptItemResultInfo\022\017\n\007retcode\030\013 \001(\005BE\n\031emu" +
+      ".grasscutter.net.protoB(WinterCampAccept" +
+      "AllGiveItemRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

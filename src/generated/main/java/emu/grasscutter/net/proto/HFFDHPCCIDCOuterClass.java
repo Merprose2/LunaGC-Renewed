@@ -855,8 +855,9 @@ public final class HFFDHPCCIDCOuterClass {
       "\n\021HFFDHPCCIDC.proto\032\021CFHCIDKBHMK.proto\032\021" +
       "NBKDDLGMLIF.proto\"S\n\013HFFDHPCCIDC\022!\n\013KINJ" +
       "AEDIIBB\030\001 \001(\0132\014.CFHCIDKBHMK\022!\n\013BDLEHOMBI" +
-      "GO\030\002 \001(\0132\014.NBKDDLGMLIFB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "GO\030\002 \001(\0132\014.NBKDDLGMLIFB2\n\031emu.grasscutte" +
+      "r.net.protoB\025HFFDHPCCIDCOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -525,8 +525,8 @@ public final class LCLPOGEAAMPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LCLPOGEAAMP.proto\"\036\n\013LCLPOGEAAMP\022\017\n\007ar" +
-      "ea_id\030\013 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "ea_id\030\013 \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "B\025LCLPOGEAAMPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -525,8 +525,8 @@ public final class EOMIHBMIFKBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EOMIHBMIFKB.proto\"\033\n\013EOMIHBMIFKB\022\014\n\004gu" +
-      "id\030\007 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\007 \001(\rB2\n\031emu.grasscutter.net.protoB\025E" +
+      "OMIHBMIFKBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

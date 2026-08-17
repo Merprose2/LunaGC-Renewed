@@ -588,8 +588,9 @@ public final class ShortAbilityHashPairOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032ShortAbilityHashPair.proto\"N\n\024ShortAbi" +
       "lityHashPair\022\031\n\021ability_name_hash\030\004 \001(\017\022" +
-      "\033\n\023ability_config_hash\030\014 \001(\017B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\033\n\023ability_config_hash\030\014 \001(\017B;\n\031emu.gras" +
+      "scutter.net.protoB\036ShortAbilityHashPairO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

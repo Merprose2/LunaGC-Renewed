@@ -587,8 +587,9 @@ public final class EHKPFOPODDBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EHKPFOPODDB.proto\"1\n\013EHKPFOPODDB\022\r\n\005co" +
-      "unt\030\003 \001(\r\022\023\n\013DNIBBKLBBJE\030\r \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "unt\030\003 \001(\r\022\023\n\013DNIBBKLBBJE\030\r \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025EHKPFOPODDBOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

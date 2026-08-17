@@ -894,8 +894,9 @@ public final class GCGCardSkillLimitsInfoOuterClass {
       "\n\034GCGCardSkillLimitsInfo.proto\032\030GCGSkill" +
       "LimitsInfo.proto\"[\n\026GCGCardSkillLimitsIn" +
       "fo\022.\n\021skill_limits_list\030\005 \003(\0132\023.GCGSkill" +
-      "LimitsInfo\022\021\n\tcard_guid\030\016 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "LimitsInfo\022\021\n\tcard_guid\030\016 \001(\rB=\n\031emu.gra" +
+      "sscutter.net.protoB GCGCardSkillLimitsIn" +
+      "foOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

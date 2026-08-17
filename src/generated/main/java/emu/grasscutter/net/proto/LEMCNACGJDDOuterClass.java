@@ -1885,7 +1885,8 @@ public final class LEMCNACGJDDOuterClass {
       "(\0132\014.ILEENLEMPNH\022!\n\nquest_info\030\312\004 \001(\0132\014." +
       "JEGAJMKFGLN\022\"\n\013DOIEIOHCIMF\030\254\n \001(\0132\014.BLNG" +
       "BHOECGG\022 \n\thunt_info\030\313\r \001(\0132\014.BPNMPIMKON" +
-      "KB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "KB2\n\031emu.grasscutter.net.protoB\025LEMCNACG" +
+      "JDDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

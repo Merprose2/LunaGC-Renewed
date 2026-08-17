@@ -1346,7 +1346,8 @@ public final class LGDFIJBCGEBOuterClass {
       "DH\022!\n\013GEJBFECFHEO\030\004 \001(\0132\014.OPOACBELLOH\022\023\n" +
       "\013CCLNJAHPCKE\030\005 \001(\010\022\023\n\013JCIHOBPABEM\030\006 \001(\010\022" +
       "\023\n\013DDMEOIKMEIF\030\007 \001(\010\022\023\n\013ADPAKPEJHPP\030\010 \001(" +
-      "\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\010B2\n\031emu.grasscutter.net.protoB\025LGDFIJBC" +
+      "GEBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -658,8 +658,8 @@ public final class FHJMJPLOOCJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FHJMJPLOOCJ.proto\"J\n\013FHJMJPLOOCJ\022\023\n\013NJ" +
       "GHOMAHLLG\030\004 \001(\r\022\023\n\013OFEFLJKBGCB\030\r \001(\r\022\021\n\t" +
-      "owner_uid\030\016 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "owner_uid\030\016 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025FHJMJPLOOCJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

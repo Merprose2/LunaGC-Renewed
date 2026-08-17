@@ -722,7 +722,8 @@ public final class BJAOBNLPLPJOuterClass {
       "\n\021BJAOBNLPLPJ.proto\032\031HomeGroupPlayerInfo" +
       ".proto\"G\n\013BJAOBNLPLPJ\022)\n\013player_info\030\005 \001" +
       "(\0132\024.HomeGroupPlayerInfo\022\r\n\005count\030\010 \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025BJAOBNLPLP" +
+      "JOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1560,8 +1560,8 @@ public final class DungeonEntryInfoRspOuterClass {
       "DungeonEntryInfo\022!\n\031_first_pass_reward_s" +
       "tatus\030\013 \001(\r\022\023\n\013HGBKKNDDABP\030\r \001(\010\0228\n\030dung" +
       "eon_entry_point_list\030\017 \003(\0132\026.DungeonEntr" +
-      "yPointInfoB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "yPointInfoB:\n\031emu.grasscutter.net.protoB" +
+      "\035DungeonEntryInfoRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

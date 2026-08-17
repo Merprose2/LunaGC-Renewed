@@ -723,8 +723,9 @@ public final class BrickBreakerSelectAvatarRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n!BrickBreakerSelectAvatarRsp.proto\"A\n\033B" +
       "rickBreakerSelectAvatarRsp\022\021\n\tavatar_id\030" +
-      "\010 \003(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\010 \003(\r\022\017\n\007retcode\030\016 \001(\005BB\n\031emu.grasscutte" +
+      "r.net.protoB%BrickBreakerSelectAvatarRsp" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

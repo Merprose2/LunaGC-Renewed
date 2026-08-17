@@ -1173,8 +1173,8 @@ public final class ABOIHBAFEDAOuterClass {
       "\001\n\013ABOIHBAFEDA\022\023\n\013EDFCBHEAOOL\030\002 \001(\t\022\023\n\013J" +
       "OIIBHLCLIC\030\003 \001(\t\022!\n\013MDDADJNAFAC\030\004 \001(\0132\014." +
       "HKCDIFBFAOH\022\023\n\013BHFNKABNKDP\030\005 \001(\005\022\023\n\013INOF" +
-      "PJKDDAE\030\006 \001(\tB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "PJKDDAE\030\006 \001(\tB2\n\031emu.grasscutter.net.pro" +
+      "toB\025ABOIHBAFEDAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

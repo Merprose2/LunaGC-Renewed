@@ -902,7 +902,8 @@ public final class NJBJPGEALCAOuterClass {
       "\n\021NJBJPGEALCA.proto\032\026OnlinePlayerInfo.pr" +
       "oto\"K\n\013NJBJPGEALCA\022+\n\020player_info_list\030\002" +
       " \003(\0132\021.OnlinePlayerInfo\022\017\n\007retcode\030\014 \001(\005" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025NJBJPGEAL" +
+      "CAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

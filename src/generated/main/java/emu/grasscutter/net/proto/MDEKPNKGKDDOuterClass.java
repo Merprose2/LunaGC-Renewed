@@ -1466,8 +1466,9 @@ public final class MDEKPNKGKDDOuterClass {
       "\n\021MDEKPNKGKDD.proto\"~\n\013MDEKPNKGKDD\022-\n\013OF" +
       "IIDPILGPB\030\013 \003(\0132\030.MDEKPNKGKDD.MLLIDCMGIK" +
       "A\032@\n\013MLLIDCMGIKA\022\023\n\013GKGPPCDCNII\030\003 \001(\r\022\013\n" +
-      "\003uid\030\007 \001(\r\022\017\n\007is_host\030\017 \001(\010B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\003uid\030\007 \001(\r\022\017\n\007is_host\030\017 \001(\010B2\n\031emu.grass" +
+      "cutter.net.protoB\025MDEKPNKGKDDOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

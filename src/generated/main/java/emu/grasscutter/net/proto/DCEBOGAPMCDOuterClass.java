@@ -659,8 +659,8 @@ public final class DCEBOGAPMCDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DCEBOGAPMCD.proto\032\021HCHGHCOOCFL.proto\"0" +
       "\n\013DCEBOGAPMCD\022!\n\013PDEHMCFEMHL\030\005 \001(\0132\014.HCH" +
-      "GHCOOCFLB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "GHCOOCFLB2\n\031emu.grasscutter.net.protoB\025D" +
+      "CEBOGAPMCDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

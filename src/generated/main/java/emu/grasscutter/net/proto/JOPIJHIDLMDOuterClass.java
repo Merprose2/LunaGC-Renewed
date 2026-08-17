@@ -881,8 +881,8 @@ public final class JOPIJHIDLMDOuterClass {
       "\n\021JOPIJHIDLMD.proto\"h\n\013JOPIJHIDLMD\022\014\n\004gu" +
       "id\030\001 \001(\r\022\014\n\004name\030\002 \001(\t\022\023\n\013HLLNKKDCCHF\030\003 " +
       "\001(\004\022\023\n\013GODOMHOMNCJ\030\004 \001(\010\022\023\n\013FEFKEOEANBI\030" +
-      "\005 \001(\005B\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\005 \001(\005B2\n\031emu.grasscutter.net.protoB\025JOPI" +
+      "JHIDLMDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

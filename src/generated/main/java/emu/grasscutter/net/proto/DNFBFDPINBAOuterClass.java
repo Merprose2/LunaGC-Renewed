@@ -599,8 +599,9 @@ public final class DNFBFDPINBAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DNFBFDPINBA.proto\"7\n\013DNFBFDPINBA\022\023\n\013MF" +
-      "OLAMFJKCD\030\003 \001(\002\022\023\n\013JDGMDBDHOJC\030\r \001(\002B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "OLAMFJKCD\030\003 \001(\002\022\023\n\013JDGMDBDHOJC\030\r \001(\002B2\n\031" +
+      "emu.grasscutter.net.protoB\025DNFBFDPINBAOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

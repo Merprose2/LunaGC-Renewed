@@ -454,8 +454,9 @@ public final class ViewCodexReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\022ViewCodexReq.proto\"\016\n\014ViewCodexReqB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\n\022ViewCodexReq.proto\"\016\n\014ViewCodexReqB3\n\031" +
+      "emu.grasscutter.net.protoB\026ViewCodexReqO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

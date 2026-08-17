@@ -800,8 +800,8 @@ public final class HCNLIBDBCNDOuterClass {
       "\n\021HCNLIBDBCND.proto\032\021IPHFKFLNBGH.proto\"V" +
       "\n\013HCNLIBDBCND\022\020\n\010level_id\030\001 \001(\r\022\022\n\ndiffi" +
       "culty\030\010 \001(\r\022!\n\013IANMIFHGOMJ\030\014 \001(\0132\014.IPHFK" +
-      "FLNBGHB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "FLNBGHB2\n\031emu.grasscutter.net.protoB\025HCN" +
+      "LIBDBCNDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

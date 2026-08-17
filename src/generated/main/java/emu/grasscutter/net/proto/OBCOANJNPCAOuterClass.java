@@ -651,8 +651,8 @@ public final class OBCOANJNPCAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OBCOANJNPCA.proto\032\021DMPGLLNPKEG.proto\"0" +
       "\n\013OBCOANJNPCA\022!\n\013ECADJLEHGBG\030\001 \001(\0132\014.DMP" +
-      "GLLNPKEGB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "GLLNPKEGB2\n\031emu.grasscutter.net.protoB\025O" +
+      "BCOANJNPCAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

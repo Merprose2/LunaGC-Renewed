@@ -894,8 +894,9 @@ public final class EntityAbilityInvokeEntryOuterClass {
       "\n\036EntityAbilityInvokeEntry.proto\032\030Abilit" +
       "yInvokeEntry.proto\"S\n\030EntityAbilityInvok" +
       "eEntry\022\021\n\tentity_id\030\006 \001(\r\022$\n\007invokes\030\013 \003" +
-      "(\0132\023.AbilityInvokeEntryB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "(\0132\023.AbilityInvokeEntryB?\n\031emu.grasscutt" +
+      "er.net.protoB\"EntityAbilityInvokeEntryOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

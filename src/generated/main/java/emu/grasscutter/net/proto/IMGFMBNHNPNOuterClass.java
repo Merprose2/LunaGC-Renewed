@@ -666,8 +666,8 @@ public final class IMGFMBNHNPNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IMGFMBNHNPN.proto\"F\n\013IMGFMBNHNPN\022\021\n\ten" +
       "tity_id\030\001 \001(\r\022\017\n\007retcode\030\003 \001(\005\022\023\n\013ADGDGF" +
-      "DFIDN\030\n \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "DFIDN\030\n \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "B\025IMGFMBNHNPNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

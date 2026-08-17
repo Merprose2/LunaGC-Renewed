@@ -1168,7 +1168,8 @@ public final class BBFFDHMPFJMOuterClass {
       "o\"x\n\013BBFFDHMPFJM\022\017\n\007retcode\030\010 \001(\005\022\023\n\013JPJ" +
       "MCBLIPJF\030\n \001(\010\022\023\n\013KOEFKBKPANA\030\014 \003(\r\022.\n\025s" +
       "how_avatar_info_list\030\016 \003(\0132\017.ShowAvatarI" +
-      "nfoB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "nfoB2\n\031emu.grasscutter.net.protoB\025BBFFDH" +
+      "MPFJMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

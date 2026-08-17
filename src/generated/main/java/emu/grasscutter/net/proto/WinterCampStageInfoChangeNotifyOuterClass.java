@@ -864,8 +864,9 @@ public final class WinterCampStageInfoChangeNotifyOuterClass {
       "\031WinterCampStageInfo.proto\"x\n\037WinterCamp" +
       "StageInfoChangeNotify\022*\n\014explore_info\030\001 " +
       "\001(\0132\024.WinterCampStageInfo\022)\n\013battle_info" +
-      "\030\016 \001(\0132\024.WinterCampStageInfoB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\030\016 \001(\0132\024.WinterCampStageInfoBF\n\031emu.gras" +
+      "scutter.net.protoB)WinterCampStageInfoCh" +
+      "angeNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

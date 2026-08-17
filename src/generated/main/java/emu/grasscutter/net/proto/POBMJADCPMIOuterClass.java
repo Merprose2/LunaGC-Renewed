@@ -667,8 +667,8 @@ public final class POBMJADCPMIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021POBMJADCPMI.proto\"H\n\013POBMJADCPMI\022\023\n\013JG" +
       "KAGCCOBCB\030\007 \001(\r\022\023\n\013KBHIIBGOGFI\030\014 \001(\010\022\017\n\007" +
-      "deck_id\030\r \001(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "deck_id\030\r \001(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025POBMJADCPMIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -588,8 +588,8 @@ public final class PlayerRoutineInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027PlayerRoutineInfo.proto\"?\n\021PlayerRouti" +
       "neInfo\022\024\n\014finished_num\030\r \001(\r\022\024\n\014routine_" +
-      "type\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "type\030\016 \001(\rB8\n\031emu.grasscutter.net.protoB" +
+      "\033PlayerRoutineInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

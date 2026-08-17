@@ -722,8 +722,9 @@ public final class POIBPLAGEPAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021POIBPLAGEPA.proto\"3\n\013POIBPLAGEPA\022\023\n\013KO" +
-      "DJGPEHDCL\030\003 \003(\r\022\017\n\007retcode\030\004 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "DJGPEHDCL\030\003 \003(\r\022\017\n\007retcode\030\004 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025POIBPLAGEPAOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

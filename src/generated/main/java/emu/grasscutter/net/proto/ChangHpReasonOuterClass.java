@@ -517,8 +517,9 @@ public final class ChangHpReasonOuterClass {
       "HpReason_CHANGE_HP_ADD_ROUGUELIKE_SPRING" +
       "\020m\0224\n0ChangHpReason_CHANGE_HP_ADD_EFFIGY" +
       "_CHALLENGE_V_5\020n\0220\n,ChangHpReason_CHANGE" +
-      "_HP_ADD_BEYOND_BLUEPRINT\020oB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "_HP_ADD_BEYOND_BLUEPRINT\020oB4\n\031emu.grassc" +
+      "utter.net.protoB\027ChangHpReasonOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

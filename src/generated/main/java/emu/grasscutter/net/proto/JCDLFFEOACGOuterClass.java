@@ -880,8 +880,8 @@ public final class JCDLFFEOACGOuterClass {
       "ifficulty\030\002 \001(\r\022\036\n\026kill_elite_monster_nu" +
       "m\030\006 \001(\r\022\025\n\ris_new_record\030\010 \001(\010\022\r\n\005score\030" +
       "\n \001(\r\022\023\n\013HMNIHBOLIAP\030\r \001(\r\022\022\n\nis_success" +
-      "\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \001(\010B2\n\031emu.grasscutter.net.protoB\025JCD" +
+      "LFFEOACGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

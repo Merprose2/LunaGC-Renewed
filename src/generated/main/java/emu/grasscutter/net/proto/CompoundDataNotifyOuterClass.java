@@ -1026,8 +1026,9 @@ public final class CompoundDataNotifyOuterClass {
       "\n\030CompoundDataNotify.proto\032\027CompoundQueu" +
       "eData.proto\"f\n\022CompoundDataNotify\022\034\n\024unl" +
       "ock_compound_list\030\014 \003(\r\0222\n\026compound_que_" +
-      "data_list\030\016 \003(\0132\022.CompoundQueueDataB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "data_list\030\016 \003(\0132\022.CompoundQueueDataB9\n\031e" +
+      "mu.grasscutter.net.protoB\034CompoundDataNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

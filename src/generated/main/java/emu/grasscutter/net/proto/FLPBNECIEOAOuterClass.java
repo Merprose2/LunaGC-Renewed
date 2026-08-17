@@ -525,8 +525,8 @@ public final class FLPBNECIEOAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FLPBNECIEOA.proto\"\036\n\013FLPBNECIEOA\022\017\n\007ca" +
-      "rd_id\030\004 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "rd_id\030\004 \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "B\025FLPBNECIEOAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

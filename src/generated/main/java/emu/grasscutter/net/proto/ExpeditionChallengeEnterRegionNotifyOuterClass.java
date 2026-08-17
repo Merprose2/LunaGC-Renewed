@@ -598,8 +598,9 @@ public final class ExpeditionChallengeEnterRegionNotifyOuterClass {
       "\n*ExpeditionChallengeEnterRegionNotify.p" +
       "roto\"N\n$ExpeditionChallengeEnterRegionNo" +
       "tify\022\n\n\002id\030\013 \001(\r\022\032\n\022is_puzzle_finished\030\r" +
-      " \001(\010B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\010BK\n\031emu.grasscutter.net.protoB.Exped" +
+      "itionChallengeEnterRegionNotifyOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1045,7 +1045,8 @@ public final class DICKAKAHPPOOuterClass {
       "\n\021DICKAKAHPPO.proto\032\021FDIACJBBMEJ.proto\"S" +
       "\n\013DICKAKAHPPO\022\014\n\004name\030\001 \001(\t\022\023\n\013KMOGGHOEJ" +
       "FE\030\002 \001(\010\022!\n\013HGEPLJFHMAH\030\003 \003(\0132\014.FDIACJBB" +
-      "MEJB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "MEJB2\n\031emu.grasscutter.net.protoB\025DICKAK" +
+      "AHPPOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -671,8 +671,8 @@ public final class LBHBLIJGOMJOuterClass {
       "\n\021LBHBLIJGOMJ.proto\032\021CEBAFHNAGAA.proto\032\021" +
       "FOCHOGIGEFA.proto\"N\n\013LBHBLIJGOMJ\022\034\n\006reas" +
       "on\030\001 \001(\0162\014.CEBAFHNAGAA\022!\n\013GCMGHOMHJNF\030\002 " +
-      "\001(\0162\014.FOCHOGIGEFAB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\001(\0162\014.FOCHOGIGEFAB2\n\031emu.grasscutter.net" +
+      ".protoB\025LBHBLIJGOMJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class GCIEJGOMFCNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GCIEJGOMFCN.proto\"6\n\013GCIEJGOMFCN\022\022\n\nta" +
-      "rget_uid\030\n \001(\r\022\023\n\013PNMPHGPJKIH\030\017 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "rget_uid\030\n \001(\r\022\023\n\013PNMPHGPJKIH\030\017 \001(\rB2\n\031e" +
+      "mu.grasscutter.net.protoB\025GCIEJGOMFCNOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

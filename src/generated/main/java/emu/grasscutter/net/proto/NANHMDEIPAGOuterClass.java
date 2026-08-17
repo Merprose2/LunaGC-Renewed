@@ -526,8 +526,8 @@ public final class NANHMDEIPAGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NANHMDEIPAG.proto\"\"\n\013NANHMDEIPAG\022\023\n\013LO" +
-      "FEFJECPNK\030\004 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "FEFJECPNK\030\004 \001(\010B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025NANHMDEIPAGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

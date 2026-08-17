@@ -1171,8 +1171,8 @@ public final class KCOJNHHEDJJOuterClass {
       "GAI\030\014 \001(\r\"y\n\013PDNDMJCNAJP\022\023\n\017PDNDMJCNAJP_" +
       "ADD\020\000\022\023\n\017PDNDMJCNAJP_DEL\020\001\022\026\n\022PDNDMJCNAJ" +
       "P_MODIFY\020\002\022(\n$PDNDMJCNAJP_SHIELD_DURABIL" +
-      "ITY_CHANGE\020\003B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "ITY_CHANGE\020\003B2\n\031emu.grasscutter.net.prot" +
+      "oB\025KCOJNHHEDJJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

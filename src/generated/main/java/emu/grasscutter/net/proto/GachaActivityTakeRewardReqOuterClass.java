@@ -783,8 +783,9 @@ public final class GachaActivityTakeRewardReqOuterClass {
       "achaActivityTakeRewardReq\022C\n\rrobot_num_m" +
       "ap\030\001 \003(\0132,.GachaActivityTakeRewardReq.Ro" +
       "botNumMapEntry\0322\n\020RobotNumMapEntry\022\013\n\003ke" +
-      "y\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "y\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001BA\n\031emu.grassc" +
+      "utter.net.protoB$GachaActivityTakeReward" +
+      "ReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

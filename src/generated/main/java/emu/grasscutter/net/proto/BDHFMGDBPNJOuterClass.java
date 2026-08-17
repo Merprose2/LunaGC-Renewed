@@ -1098,8 +1098,8 @@ public final class BDHFMGDBPNJOuterClass {
       "\001\n\013BDHFMGDBPNJ\022\020\n\010level_id\030\001 \001(\004\022\023\n\013HMFH" +
       "CPIKGCO\030\002 \001(\t\022!\n\013GPOAFPKHDPC\030\003 \001(\0132\014.HGH" +
       "KONCJJIN\022\023\n\013NGEDGDGBAID\030\004 \001(\014\022\022\n\nrequest" +
-      "_id\030\005 \001(\tB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\005 \001(\tB2\n\031emu.grasscutter.net.protoB\025" +
+      "BDHFMGDBPNJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

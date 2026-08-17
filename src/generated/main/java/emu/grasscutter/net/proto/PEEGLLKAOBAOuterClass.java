@@ -738,8 +738,8 @@ public final class PEEGLLKAOBAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PEEGLLKAOBA.proto\"E\n\013PEEGLLKAOBA\022\023\n\013KG" +
       "GLAOKKMLI\030\001 \001(\005\022\014\n\004name\030\002 \001(\t\022\023\n\013FLIKBML" +
-      "PJMM\030\003 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "PJMM\030\003 \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025PEEGLLKAOBAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

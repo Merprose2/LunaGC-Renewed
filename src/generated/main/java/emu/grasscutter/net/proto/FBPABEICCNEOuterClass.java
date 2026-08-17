@@ -965,8 +965,8 @@ public final class FBPABEICCNEOuterClass {
       "\n\021FBPABEICCNE.proto\"u\n\013FBPABEICCNE\022\023\n\013DM" +
       "NMKHNMHIJ\030\001 \001(\004\022\023\n\013HMFHCPIKGCO\030\002 \001(\t\022\023\n\013" +
       "NGEDGDGBAID\030\003 \001(\014\022\022\n\nrequest_id\030\004 \001(\t\022\023\n" +
-      "\013LNBOBNINCCA\030\005 \001(\010B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\013LNBOBNINCCA\030\005 \001(\010B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025FBPABEICCNEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

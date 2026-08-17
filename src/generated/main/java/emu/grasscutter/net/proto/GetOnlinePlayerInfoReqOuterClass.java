@@ -1295,8 +1295,9 @@ public final class GetOnlinePlayerInfoReqOuterClass {
       "linePlayerInfoReq\022\024\n\014is_online_id\030\003 \001(\010\022" +
       "\023\n\tonline_id\030\010 \001(\tH\000\022\024\n\ntarget_uid\030\013 \001(\r" +
       "H\000\022\026\n\014xbox_user_id\030\r \001(\tH\000\022\020\n\006psn_id\030\017 \001" +
-      "(\tH\000B\013\n\tplayer_idB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "(\tH\000B\013\n\tplayer_idB=\n\031emu.grasscutter.net" +
+      ".protoB GetOnlinePlayerInfoReqOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1558,8 +1558,9 @@ public final class CGMOFCBMODMOuterClass {
       "trial\030\005 \001(\010\022\"\n\014dungeon_info\030\006 \001(\0132\014.BCFN" +
       "IJFCBJK\022\023\n\013EFAEIFOKMDL\030\007 \001(\t\022\023\n\013HHFPBHME" +
       "NIF\030\t \001(\t\022!\n\013FEPGCBBGCID\030\n \003(\0132\014.CHLCOIF" +
-      "FJCP\022\023\n\013PJBGKFGIKBA\030\014 \001(\tB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "FJCP\022\023\n\013PJBGKFGIKBA\030\014 \001(\tB2\n\031emu.grasscu" +
+      "tter.net.protoB\025CGMOFCBMODMOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

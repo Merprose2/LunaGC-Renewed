@@ -1456,8 +1456,9 @@ public final class BlessingRecvPicRecordOuterClass {
       "\017.ProfilePicture\022\013\n\003uid\030\010 \001(\r\022\021\n\tavatar_" +
       "id\030\n \001(\r\022\023\n\013remark_name\030\013 \001(\t\022\r\n\005index\030\014" +
       " \001(\r\022\016\n\006pic_id\030\r \001(\r\022\021\n\tsignature\030\016 \001(\t\022" +
-      "\020\n\010nickname\030\017 \001(\tB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\020\n\010nickname\030\017 \001(\tB<\n\031emu.grasscutter.net" +
+      ".protoB\037BlessingRecvPicRecordOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

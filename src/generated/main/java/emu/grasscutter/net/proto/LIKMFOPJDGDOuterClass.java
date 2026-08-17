@@ -667,8 +667,8 @@ public final class LIKMFOPJDGDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LIKMFOPJDGD.proto\"D\n\013LIKMFOPJDGD\022\022\n\nis" +
       "_success\030\010 \001(\010\022\020\n\010level_id\030\013 \001(\r\022\017\n\007retc" +
-      "ode\030\016 \001(\005B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "ode\030\016 \001(\005B2\n\031emu.grasscutter.net.protoB\025" +
+      "LIKMFOPJDGDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1257,8 +1257,9 @@ public final class PBFOBPBHHNNOuterClass {
       "\002 \001(\r\022\017\n\007card_id\030\005 \001(\r\022\023\n\013OOLMHDILABF\030\007 " +
       "\001(\010\022+\n\013JANGDIMHCAC\030\n \003(\0132\026.ExhibitionDis" +
       "playInfo\022\023\n\013KEJLNLFKEMA\030\013 \001(\010\022\023\n\013LCIDHMI" +
-      "EDOH\030\014 \001(\r\022\017\n\007is_succ\030\016 \001(\010B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "EDOH\030\014 \001(\r\022\017\n\007is_succ\030\016 \001(\010B2\n\031emu.grass" +
+      "cutter.net.protoB\025PBFOBPBHHNNOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

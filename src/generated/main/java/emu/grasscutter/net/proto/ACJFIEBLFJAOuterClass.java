@@ -997,8 +997,9 @@ public final class ACJFIEBLFJAOuterClass {
       "\n\021ACJFIEBLFJA.proto\"\204\001\n\013ACJFIEBLFJA\022\n\n\002i" +
       "d\030\001 \001(\r\022\023\n\013LGFACHLDIGN\030\002 \001(\010\022\023\n\013BMHAODOJ" +
       "BOI\030\003 \001(\r\022\023\n\013GMJPPNIEBJP\030\004 \003(\r\022\024\n\013KDHFEB" +
-      "HJGGN\030\365\003 \001(\005\022\024\n\013OEGPBBFPIAI\030\366\003 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "HJGGN\030\365\003 \001(\005\022\024\n\013OEGPBBFPIAI\030\366\003 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025ACJFIEBLFJAOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

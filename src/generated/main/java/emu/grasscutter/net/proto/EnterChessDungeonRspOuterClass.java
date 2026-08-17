@@ -596,8 +596,8 @@ public final class EnterChessDungeonRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032EnterChessDungeonRsp.proto\"7\n\024EnterChe" +
       "ssDungeonRsp\022\017\n\007retcode\030\007 \001(\005\022\016\n\006map_id\030" +
-      "\t \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\t \001(\rB;\n\031emu.grasscutter.net.protoB\036Ente" +
+      "rChessDungeonRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

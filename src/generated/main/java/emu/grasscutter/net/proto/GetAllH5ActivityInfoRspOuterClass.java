@@ -973,8 +973,9 @@ public final class GetAllH5ActivityInfoRspOuterClass {
       "ityInfo.proto\"|\n\027GetAllH5ActivityInfoRsp" +
       "\022 \n\030client_red_dot_timestamp\030\t \001(\r\022.\n\025h5" +
       "_activity_info_list\030\014 \003(\0132\017.H5ActivityIn" +
-      "fo\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "fo\022\017\n\007retcode\030\017 \001(\005B>\n\031emu.grasscutter.n" +
+      "et.protoB!GetAllH5ActivityInfoRspOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

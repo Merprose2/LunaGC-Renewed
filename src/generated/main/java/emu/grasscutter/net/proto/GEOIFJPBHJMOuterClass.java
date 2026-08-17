@@ -668,8 +668,8 @@ public final class GEOIFJPBHJMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GEOIFJPBHJM.proto\"H\n\013GEOIFJPBHJM\022\023\n\013OC" +
       "NPIIDHJFD\030\005 \001(\010\022\017\n\007retcode\030\013 \001(\005\022\023\n\013AFKE" +
-      "NOEDCPG\030\016 \001(\010B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "NOEDCPG\030\016 \001(\010B2\n\031emu.grasscutter.net.pro" +
+      "toB\025GEOIFJPBHJMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

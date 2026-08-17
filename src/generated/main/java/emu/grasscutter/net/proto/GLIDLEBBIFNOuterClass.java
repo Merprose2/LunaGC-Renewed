@@ -823,8 +823,8 @@ public final class GLIDLEBBIFNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GLIDLEBBIFN.proto\032\021PEJJMEBMJHD.proto\"0" +
       "\n\013GLIDLEBBIFN\022!\n\013IPFKAABCJGI\030\001 \003(\0132\014.PEJ" +
-      "JMEBMJHDB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "JMEBMJHDB2\n\031emu.grasscutter.net.protoB\025G" +
+      "LIDLEBBIFNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -908,8 +908,9 @@ public final class SummerTimeV2BoatGallerySettleInfoOuterClass {
       "eV2BoatGallerySettleInfo\022\016\n\006param1\030\001 \001(\r" +
       "\022\"\n\006reason\030\002 \001(\0162\022.GalleryStopReason\022\016\n\006" +
       "param2\030\003 \001(\r\022\022\n\ngallery_id\030\005 \001(\r\022\016\n\006para" +
-      "m3\030\010 \001(\r\022\021\n\tused_time\030\013 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "m3\030\010 \001(\r\022\021\n\tused_time\030\013 \001(\rBH\n\031emu.grass" +
+      "cutter.net.protoB+SummerTimeV2BoatGaller" +
+      "ySettleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

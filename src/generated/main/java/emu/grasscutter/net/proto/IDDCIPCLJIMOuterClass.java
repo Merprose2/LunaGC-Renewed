@@ -730,8 +730,9 @@ public final class IDDCIPCLJIMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IDDCIPCLJIM.proto\"X\n\013IDDCIPCLJIM\022\021\n\tis" +
       "_finish\030\002 \001(\010\022\020\n\010level_id\030\003 \001(\r\022\023\n\013OALJE" +
-      "AIMDID\030\004 \001(\r\022\017\n\007is_open\030\r \001(\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "AIMDID\030\004 \001(\r\022\017\n\007is_open\030\r \001(\010B2\n\031emu.gra" +
+      "sscutter.net.protoB\025IDDCIPCLJIMOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

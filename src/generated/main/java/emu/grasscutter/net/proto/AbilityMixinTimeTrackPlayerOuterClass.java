@@ -518,8 +518,9 @@ public final class AbilityMixinTimeTrackPlayerOuterClass {
     java.lang.String[] descriptorData = {
       "\n!AbilityMixinTimeTrackPlayer.proto\"0\n\033A" +
       "bilityMixinTimeTrackPlayer\022\021\n\ttimestamp\030" +
-      "\t \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\t \001(\rBB\n\031emu.grasscutter.net.protoB%Abil" +
+      "ityMixinTimeTrackPlayerOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

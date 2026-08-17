@@ -831,8 +831,9 @@ public final class AsterMidCampInfoNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034AsterMidCampInfoNotify.proto\032\026AsterMid" +
       "CampInfo.proto\">\n\026AsterMidCampInfoNotify" +
-      "\022$\n\tcamp_list\030\006 \003(\0132\021.AsterMidCampInfoB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\022$\n\tcamp_list\030\006 \003(\0132\021.AsterMidCampInfoB=" +
+      "\n\031emu.grasscutter.net.protoB AsterMidCam" +
+      "pInfoNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

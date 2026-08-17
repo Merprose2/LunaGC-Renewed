@@ -747,8 +747,9 @@ public final class GHDGMFPAEEAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GHDGMFPAEEA.proto\"7\n\013GHDGMFPAEEA\022\023\n\013HM" +
-      "OMLKPHKBC\030\001 \001(\t\022\023\n\013OIJEFPLBHCD\030\002 \001(\tB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "OMLKPHKBC\030\001 \001(\t\022\023\n\013OIJEFPLBHCD\030\002 \001(\tB2\n\031" +
+      "emu.grasscutter.net.protoB\025GHDGMFPAEEAOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

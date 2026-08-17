@@ -901,8 +901,9 @@ public final class CFMBPIFANDLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CFMBPIFANDL.proto\032\021EIIGINHKAHF.proto\"E" +
       "\n\013CFMBPIFANDL\022\023\n\013CGHMCODJLID\030\005 \001(\r\022!\n\013KB" +
-      "ENHABCGBF\030\t \003(\0132\014.EIIGINHKAHFB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ENHABCGBF\030\t \003(\0132\014.EIIGINHKAHFB2\n\031emu.gra" +
+      "sscutter.net.protoB\025CFMBPIFANDLOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

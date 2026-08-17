@@ -651,7 +651,8 @@ public final class LPAHIOFPILDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LPAHIOFPILD.proto\032\021DHMHPGPGCOC.proto\")" +
       "\n\013LPAHIOFPILD\022\032\n\004data\030\001 \001(\0132\014.DHMHPGPGCO" +
-      "CB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "CB2\n\031emu.grasscutter.net.protoB\025LPAHIOFP" +
+      "ILDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

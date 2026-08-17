@@ -21,12 +21,12 @@ public final class OAGHOIOOLHBOuterClass {
     /**
      * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo> 
+    java.util.List<emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo> 
         getBriefInfoListList();
     /**
      * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
      */
-    emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo getBriefInfoList(int index);
+    emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo getBriefInfoList(int index);
     /**
      * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
      */
@@ -34,12 +34,12 @@ public final class OAGHOIOOLHBOuterClass {
     /**
      * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfoOrBuilder> 
         getBriefInfoListOrBuilderList();
     /**
      * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
      */
-    emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfoOrBuilder getBriefInfoListOrBuilder(
+    emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfoOrBuilder getBriefInfoListOrBuilder(
         int index);
   }
   /**
@@ -91,11 +91,11 @@ public final class OAGHOIOOLHBOuterClass {
               break;
             case 58: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                briefInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo>();
+                briefInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               briefInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -134,19 +134,19 @@ public final class OAGHOIOOLHBOuterClass {
     }
 
     public static final int BRIEF_INFO_LIST_FIELD_NUMBER = 7;
-    private java.util.List<emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo> briefInfoList_;
+    private java.util.List<emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo> briefInfoList_;
     /**
      * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo> getBriefInfoListList() {
+    public java.util.List<emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo> getBriefInfoListList() {
       return briefInfoList_;
     }
     /**
      * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfoOrBuilder> 
         getBriefInfoListOrBuilderList() {
       return briefInfoList_;
     }
@@ -161,14 +161,14 @@ public final class OAGHOIOOLHBOuterClass {
      * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo getBriefInfoList(int index) {
+    public emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo getBriefInfoList(int index) {
       return briefInfoList_.get(index);
     }
     /**
      * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfoOrBuilder getBriefInfoListOrBuilder(
+    public emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfoOrBuilder getBriefInfoListOrBuilder(
         int index) {
       return briefInfoList_.get(index);
     }
@@ -515,22 +515,22 @@ public final class OAGHOIOOLHBOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo> briefInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo> briefInfoList_ =
         java.util.Collections.emptyList();
       private void ensureBriefInfoListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          briefInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo>(briefInfoList_);
+          briefInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo>(briefInfoList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.Builder, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfoOrBuilder> briefInfoListBuilder_;
+          emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfoOrBuilder> briefInfoListBuilder_;
 
       /**
        * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo> getBriefInfoListList() {
+      public java.util.List<emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo> getBriefInfoListList() {
         if (briefInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(briefInfoList_);
         } else {
@@ -550,7 +550,7 @@ public final class OAGHOIOOLHBOuterClass {
       /**
        * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
        */
-      public emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo getBriefInfoList(int index) {
+      public emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo getBriefInfoList(int index) {
         if (briefInfoListBuilder_ == null) {
           return briefInfoList_.get(index);
         } else {
@@ -561,7 +561,7 @@ public final class OAGHOIOOLHBOuterClass {
        * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
        */
       public Builder setBriefInfoList(
-          int index, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo value) {
+          int index, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo value) {
         if (briefInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -578,7 +578,7 @@ public final class OAGHOIOOLHBOuterClass {
        * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
        */
       public Builder setBriefInfoList(
-          int index, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder builderForValue) {
         if (briefInfoListBuilder_ == null) {
           ensureBriefInfoListIsMutable();
           briefInfoList_.set(index, builderForValue.build());
@@ -591,7 +591,7 @@ public final class OAGHOIOOLHBOuterClass {
       /**
        * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
        */
-      public Builder addBriefInfoList(emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo value) {
+      public Builder addBriefInfoList(emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo value) {
         if (briefInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -608,7 +608,7 @@ public final class OAGHOIOOLHBOuterClass {
        * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
        */
       public Builder addBriefInfoList(
-          int index, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo value) {
+          int index, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo value) {
         if (briefInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -625,7 +625,7 @@ public final class OAGHOIOOLHBOuterClass {
        * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
        */
       public Builder addBriefInfoList(
-          emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder builderForValue) {
         if (briefInfoListBuilder_ == null) {
           ensureBriefInfoListIsMutable();
           briefInfoList_.add(builderForValue.build());
@@ -639,7 +639,7 @@ public final class OAGHOIOOLHBOuterClass {
        * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
        */
       public Builder addBriefInfoList(
-          int index, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder builderForValue) {
         if (briefInfoListBuilder_ == null) {
           ensureBriefInfoListIsMutable();
           briefInfoList_.add(index, builderForValue.build());
@@ -653,7 +653,7 @@ public final class OAGHOIOOLHBOuterClass {
        * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
        */
       public Builder addAllBriefInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo> values) {
         if (briefInfoListBuilder_ == null) {
           ensureBriefInfoListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -693,14 +693,14 @@ public final class OAGHOIOOLHBOuterClass {
       /**
        * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
        */
-      public emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.Builder getBriefInfoListBuilder(
+      public emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder getBriefInfoListBuilder(
           int index) {
         return getBriefInfoListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
        */
-      public emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfoOrBuilder getBriefInfoListOrBuilder(
+      public emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfoOrBuilder getBriefInfoListOrBuilder(
           int index) {
         if (briefInfoListBuilder_ == null) {
           return briefInfoList_.get(index);  } else {
@@ -710,7 +710,7 @@ public final class OAGHOIOOLHBOuterClass {
       /**
        * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfoOrBuilder> 
            getBriefInfoListOrBuilderList() {
         if (briefInfoListBuilder_ != null) {
           return briefInfoListBuilder_.getMessageOrBuilderList();
@@ -721,31 +721,31 @@ public final class OAGHOIOOLHBOuterClass {
       /**
        * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
        */
-      public emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.Builder addBriefInfoListBuilder() {
+      public emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder addBriefInfoListBuilder() {
         return getBriefInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.getDefaultInstance());
+            emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
        */
-      public emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.Builder addBriefInfoListBuilder(
+      public emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder addBriefInfoListBuilder(
           int index) {
         return getBriefInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._UgcLanV5CardBriefInfo brief_info_list = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder> 
            getBriefInfoListBuilderList() {
         return getBriefInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.Builder, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfoOrBuilder> 
+          emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfoOrBuilder> 
           getBriefInfoListFieldBuilder() {
         if (briefInfoListBuilder_ == null) {
           briefInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfo.Builder, emu.grasscutter.net.proto.UgcLanV5CardBriefInfo._UgcLanV5CardBriefInfoOrBuilder>(
+              emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfoOrBuilder>(
                   briefInfoList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -823,13 +823,14 @@ public final class OAGHOIOOLHBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OAGHOIOOLHB.proto\032\034_UgcLanV5CardBriefI" +
       "nfo.proto\"?\n\013OAGHOIOOLHB\0220\n\017brief_info_l" +
-      "ist\030\007 \003(\0132\027._UgcLanV5CardBriefInfoB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ist\030\007 \003(\0132\027._UgcLanV5CardBriefInfoB2\n\031em" +
+      "u.grasscutter.net.protoB\025OAGHOIOOLHBOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.UgcLanV5CardBriefInfo.getDescriptor(),
+          emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass.getDescriptor(),
         });
     internal_static_OAGHOIOOLHB_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -837,7 +838,7 @@ public final class OAGHOIOOLHBOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_OAGHOIOOLHB_descriptor,
         new java.lang.String[] { "BriefInfoList", });
-    emu.grasscutter.net.proto.UgcLanV5CardBriefInfo.getDescriptor();
+    emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

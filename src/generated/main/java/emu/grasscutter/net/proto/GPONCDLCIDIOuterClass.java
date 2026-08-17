@@ -588,8 +588,9 @@ public final class GPONCDLCIDIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GPONCDLCIDI.proto\"9\n\013GPONCDLCIDI\022\021\n\tav" +
-      "atar_id\030\003 \001(\r\022\027\n\017is_trial_avatar\030\006 \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "atar_id\030\003 \001(\r\022\027\n\017is_trial_avatar\030\006 \001(\010B2" +
+      "\n\031emu.grasscutter.net.protoB\025GPONCDLCIDI" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -454,8 +454,9 @@ public final class GPNACDCONCKOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021GPNACDCONCK.proto\"\r\n\013GPNACDCONCKB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021GPNACDCONCK.proto\"\r\n\013GPNACDCONCKB2\n\031em" +
+      "u.grasscutter.net.protoB\025GPNACDCONCKOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

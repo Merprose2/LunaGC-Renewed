@@ -746,8 +746,8 @@ public final class PPPHNLLNCJNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PPPHNLLNCJN.proto\"H\n\013PPPHNLLNCJN\022\023\n\013GN" +
       "NMNEGOHDN\030\001 \001(\r\022\017\n\007retcode\030\013 \001(\005\022\023\n\013OIIN" +
-      "MNNHJLD\030\014 \001(\tB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "MNNHJLD\030\014 \001(\tB2\n\031emu.grasscutter.net.pro" +
+      "toB\025PPPHNLLNCJNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

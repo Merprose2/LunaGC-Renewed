@@ -785,8 +785,8 @@ public final class HNBDAMBOLEAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HNBDAMBOLEA.proto\"H\n\013HNBDAMBOLEA\022\r\n\005co" +
       "unt\030\004 \001(\r\022\021\n\tcamp_type\030\013 \001(\r\022\027\n\017equip_gu" +
-      "id_list\030\014 \003(\rB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "id_list\030\014 \003(\rB2\n\031emu.grasscutter.net.pro" +
+      "toB\025HNBDAMBOLEAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

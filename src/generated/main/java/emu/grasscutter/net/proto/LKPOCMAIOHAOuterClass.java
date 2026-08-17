@@ -870,8 +870,9 @@ public final class LKPOCMAIOHAOuterClass {
       "\n\021LKPOCMAIOHA.proto\032\021MKJFFICLOBH.proto\"f" +
       "\n\013LKPOCMAIOHA\022\017\n\007retcode\030\001 \001(\005\022\023\n\013AJOLHD" +
       "JOHEL\030\003 \001(\r\022\023\n\013EPJBLDHANJJ\030\016 \001(\r\022\034\n\006opti" +
-      "on\030\017 \001(\0132\014.MKJFFICLOBHB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "on\030\017 \001(\0132\014.MKJFFICLOBHB2\n\031emu.grasscutte" +
+      "r.net.protoB\025LKPOCMAIOHAOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

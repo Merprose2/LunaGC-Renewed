@@ -1088,8 +1088,8 @@ public final class CKMDNPBLKBAOuterClass {
       "\n\021CKMDNPBLKBA.proto\032\021OJCFGGCEKNM.proto\"Z" +
       "\n\013CKMDNPBLKBA\022!\n\013GMDBGPJDKOI\030\001 \003(\0132\014.OJC" +
       "FGGCEKNM\022\023\n\013NOPBPNDKJJL\030\014 \001(\r\022\023\n\013FMEJHDB" +
-      "HDFH\030\017 \003(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "HDFH\030\017 \003(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025CKMDNPBLKBAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

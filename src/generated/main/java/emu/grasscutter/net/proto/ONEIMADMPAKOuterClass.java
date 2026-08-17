@@ -721,8 +721,9 @@ public final class ONEIMADMPAKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ONEIMADMPAK.proto\032\021ELCEHBGKMMJ.proto\"A" +
       "\n\013ONEIMADMPAK\022\024\n\013GCADDEKADEJ\030\365\003 \001(\r\022\034\n\005s" +
-      "core\030\366\003 \001(\0132\014.ELCEHBGKMMJB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "core\030\366\003 \001(\0132\014.ELCEHBGKMMJB2\n\031emu.grasscu" +
+      "tter.net.protoB\025ONEIMADMPAKOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -901,8 +901,9 @@ public final class GDCDCBKAIEDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GDCDCBKAIED.proto\032\021MPBPENCBGJK.proto\"F" +
       "\n\013GDCDCBKAIED\022\024\n\014data_version\030\001 \001(\r\022!\n\013F" +
-      "CGECDGNFEL\030\002 \003(\0132\014.MPBPENCBGJKB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "CGECDGNFEL\030\002 \003(\0132\014.MPBPENCBGJKB2\n\031emu.gr" +
+      "asscutter.net.protoB\025GDCDCBKAIEDOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

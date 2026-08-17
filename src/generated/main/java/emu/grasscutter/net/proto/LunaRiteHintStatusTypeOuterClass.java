@@ -145,8 +145,9 @@ public final class LunaRiteHintStatusTypeOuterClass {
       "ype_LUNA_RITE_HINT_STATUS_DEFAULT\020\000\0229\n5L" +
       "unaRiteHintStatusType_LUNA_RITE_HINT_STA" +
       "TUS_NO_COUNT\020\001\0227\n3LunaRiteHintStatusType" +
-      "_LUNA_RITE_HINT_STATUS_FINISH\020\002B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "_LUNA_RITE_HINT_STATUS_FINISH\020\002B=\n\031emu.g" +
+      "rasscutter.net.protoB LunaRiteHintStatus" +
+      "TypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

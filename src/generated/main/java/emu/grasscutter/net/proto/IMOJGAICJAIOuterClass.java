@@ -181,8 +181,8 @@ public final class IMOJGAICJAIOuterClass {
       "MENT\020\001\022\026\n\022IMOJGAICJAI_ENTITY\020\002\022\026\n\022IMOJGA" +
       "ICJAI_SYSTEM\020\003\022\031\n\025IMOJGAICJAI_CHARACTER\020" +
       "\004\022\026\n\022IMOJGAICJAI_EFFECT\020\005\022\025\n\021IMOJGAICJAI" +
-      "_LIGHT\020\006B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "_LIGHT\020\006B2\n\031emu.grasscutter.net.protoB\025I" +
+      "MOJGAICJAIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

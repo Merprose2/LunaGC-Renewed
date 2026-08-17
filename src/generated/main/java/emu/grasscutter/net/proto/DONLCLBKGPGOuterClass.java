@@ -454,8 +454,9 @@ public final class DONLCLBKGPGOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021DONLCLBKGPG.proto\"\r\n\013DONLCLBKGPGB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021DONLCLBKGPG.proto\"\r\n\013DONLCLBKGPGB2\n\031em" +
+      "u.grasscutter.net.protoB\025DONLCLBKGPGOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

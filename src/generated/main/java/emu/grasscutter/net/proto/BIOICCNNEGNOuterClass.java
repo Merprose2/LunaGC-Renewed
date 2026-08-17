@@ -1112,8 +1112,8 @@ public final class BIOICCNNEGNOuterClass {
       "\030\t \001(\002\022\017\n\007cd_time\030\016 \001(\002\022\023\n\013JLBMAHAEIPF\030\017" +
       " \001(\002\"X\n\013DDGICDJJJCC\022\023\n\017DDGICDJJJCC_SET\020\000" +
       "\022\026\n\022DDGICDJJJCC_MODIFY\020\001\022\034\n\030DDGICDJJJCC_" +
-      "MODIFY_RATIO\020\002B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "MODIFY_RATIO\020\002B2\n\031emu.grasscutter.net.pr" +
+      "otoB\025BIOICCNNEGNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

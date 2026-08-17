@@ -115,11 +115,11 @@ public final class EHPIEDKNHJPOuterClass {
      * <code>._BeyondTeamMemberExtraInfo beyond_team_member_extra_info = 11;</code>
      * @return The beyondTeamMemberExtraInfo.
      */
-    emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo getBeyondTeamMemberExtraInfo();
+    emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo getBeyondTeamMemberExtraInfo();
     /**
      * <code>._BeyondTeamMemberExtraInfo beyond_team_member_extra_info = 11;</code>
      */
-    emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfoOrBuilder getBeyondTeamMemberExtraInfoOrBuilder();
+    emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfoOrBuilder getBeyondTeamMemberExtraInfoOrBuilder();
 
     /**
      * <code>._BeyondRoomMemberExtraInfo beyond_room_member_extra_info = 12;</code>
@@ -130,11 +130,11 @@ public final class EHPIEDKNHJPOuterClass {
      * <code>._BeyondRoomMemberExtraInfo beyond_room_member_extra_info = 12;</code>
      * @return The beyondRoomMemberExtraInfo.
      */
-    emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo getBeyondRoomMemberExtraInfo();
+    emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo getBeyondRoomMemberExtraInfo();
     /**
      * <code>._BeyondRoomMemberExtraInfo beyond_room_member_extra_info = 12;</code>
      */
-    emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfoOrBuilder getBeyondRoomMemberExtraInfoOrBuilder();
+    emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfoOrBuilder getBeyondRoomMemberExtraInfoOrBuilder();
 
     public emu.grasscutter.net.proto.EHPIEDKNHJPOuterClass.EHPIEDKNHJP.ExtraCase getExtraCase();
   }
@@ -262,28 +262,28 @@ public final class EHPIEDKNHJPOuterClass {
               break;
             }
             case 90: {
-              emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo.Builder subBuilder = null;
               if (extraCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo) extra_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo) extra_).toBuilder();
               }
               extra_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo) extra_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo) extra_);
                 extra_ = subBuilder.buildPartial();
               }
               extraCase_ = 11;
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo.Builder subBuilder = null;
               if (extraCase_ == 12) {
-                subBuilder = ((emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo) extra_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo) extra_).toBuilder();
               }
               extra_ =
-                  input.readMessage(emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo) extra_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo) extra_);
                 extra_ = subBuilder.buildPartial();
               }
               extraCase_ = 12;
@@ -549,21 +549,21 @@ public final class EHPIEDKNHJPOuterClass {
      * @return The beyondTeamMemberExtraInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo getBeyondTeamMemberExtraInfo() {
+    public emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo getBeyondTeamMemberExtraInfo() {
       if (extraCase_ == 11) {
-         return (emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo) extra_;
+         return (emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo) extra_;
       }
-      return emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo.getDefaultInstance();
     }
     /**
      * <code>._BeyondTeamMemberExtraInfo beyond_team_member_extra_info = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfoOrBuilder getBeyondTeamMemberExtraInfoOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfoOrBuilder getBeyondTeamMemberExtraInfoOrBuilder() {
       if (extraCase_ == 11) {
-         return (emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo) extra_;
+         return (emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo) extra_;
       }
-      return emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo.getDefaultInstance();
     }
 
     public static final int BEYOND_ROOM_MEMBER_EXTRA_INFO_FIELD_NUMBER = 12;
@@ -580,21 +580,21 @@ public final class EHPIEDKNHJPOuterClass {
      * @return The beyondRoomMemberExtraInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo getBeyondRoomMemberExtraInfo() {
+    public emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo getBeyondRoomMemberExtraInfo() {
       if (extraCase_ == 12) {
-         return (emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo) extra_;
+         return (emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo) extra_;
       }
-      return emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo.getDefaultInstance();
     }
     /**
      * <code>._BeyondRoomMemberExtraInfo beyond_room_member_extra_info = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfoOrBuilder getBeyondRoomMemberExtraInfoOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfoOrBuilder getBeyondRoomMemberExtraInfoOrBuilder() {
       if (extraCase_ == 12) {
-         return (emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo) extra_;
+         return (emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo) extra_;
       }
-      return emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -641,10 +641,10 @@ public final class EHPIEDKNHJPOuterClass {
         output.writeUInt32NoTag(mCOIGNEEPNP_.getInt(i));
       }
       if (extraCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo) extra_);
+        output.writeMessage(11, (emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo) extra_);
       }
       if (extraCase_ == 12) {
-        output.writeMessage(12, (emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo) extra_);
+        output.writeMessage(12, (emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo) extra_);
       }
       unknownFields.writeTo(output);
     }
@@ -698,11 +698,11 @@ public final class EHPIEDKNHJPOuterClass {
       }
       if (extraCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo) extra_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo) extra_);
       }
       if (extraCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo) extra_);
+          .computeMessageSize(12, (emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo) extra_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1700,7 +1700,7 @@ public final class EHPIEDKNHJPOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo, emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo.Builder, emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfoOrBuilder> beyondTeamMemberExtraInfoBuilder_;
+          emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo, emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo.Builder, emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfoOrBuilder> beyondTeamMemberExtraInfoBuilder_;
       /**
        * <code>._BeyondTeamMemberExtraInfo beyond_team_member_extra_info = 11;</code>
        * @return Whether the beyondTeamMemberExtraInfo field is set.
@@ -1714,23 +1714,23 @@ public final class EHPIEDKNHJPOuterClass {
        * @return The beyondTeamMemberExtraInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo getBeyondTeamMemberExtraInfo() {
+      public emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo getBeyondTeamMemberExtraInfo() {
         if (beyondTeamMemberExtraInfoBuilder_ == null) {
           if (extraCase_ == 11) {
-            return (emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo) extra_;
+            return (emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo) extra_;
           }
-          return emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo.getDefaultInstance();
         } else {
           if (extraCase_ == 11) {
             return beyondTeamMemberExtraInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondTeamMemberExtraInfo beyond_team_member_extra_info = 11;</code>
        */
-      public Builder setBeyondTeamMemberExtraInfo(emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo value) {
+      public Builder setBeyondTeamMemberExtraInfo(emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo value) {
         if (beyondTeamMemberExtraInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1747,7 +1747,7 @@ public final class EHPIEDKNHJPOuterClass {
        * <code>._BeyondTeamMemberExtraInfo beyond_team_member_extra_info = 11;</code>
        */
       public Builder setBeyondTeamMemberExtraInfo(
-          emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo.Builder builderForValue) {
         if (beyondTeamMemberExtraInfoBuilder_ == null) {
           extra_ = builderForValue.build();
           onChanged();
@@ -1760,11 +1760,11 @@ public final class EHPIEDKNHJPOuterClass {
       /**
        * <code>._BeyondTeamMemberExtraInfo beyond_team_member_extra_info = 11;</code>
        */
-      public Builder mergeBeyondTeamMemberExtraInfo(emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo value) {
+      public Builder mergeBeyondTeamMemberExtraInfo(emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo value) {
         if (beyondTeamMemberExtraInfoBuilder_ == null) {
           if (extraCase_ == 11 &&
-              extra_ != emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo.getDefaultInstance()) {
-            extra_ = emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo.newBuilder((emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo) extra_)
+              extra_ != emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo.getDefaultInstance()) {
+            extra_ = emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo.newBuilder((emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo) extra_)
                 .mergeFrom(value).buildPartial();
           } else {
             extra_ = value;
@@ -1801,36 +1801,36 @@ public final class EHPIEDKNHJPOuterClass {
       /**
        * <code>._BeyondTeamMemberExtraInfo beyond_team_member_extra_info = 11;</code>
        */
-      public emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo.Builder getBeyondTeamMemberExtraInfoBuilder() {
+      public emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo.Builder getBeyondTeamMemberExtraInfoBuilder() {
         return getBeyondTeamMemberExtraInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondTeamMemberExtraInfo beyond_team_member_extra_info = 11;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfoOrBuilder getBeyondTeamMemberExtraInfoOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfoOrBuilder getBeyondTeamMemberExtraInfoOrBuilder() {
         if ((extraCase_ == 11) && (beyondTeamMemberExtraInfoBuilder_ != null)) {
           return beyondTeamMemberExtraInfoBuilder_.getMessageOrBuilder();
         } else {
           if (extraCase_ == 11) {
-            return (emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo) extra_;
+            return (emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo) extra_;
           }
-          return emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondTeamMemberExtraInfo beyond_team_member_extra_info = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo, emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo.Builder, emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfoOrBuilder> 
+          emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo, emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo.Builder, emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfoOrBuilder> 
           getBeyondTeamMemberExtraInfoFieldBuilder() {
         if (beyondTeamMemberExtraInfoBuilder_ == null) {
           if (!(extraCase_ == 11)) {
-            extra_ = emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo.getDefaultInstance();
+            extra_ = emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo.getDefaultInstance();
           }
           beyondTeamMemberExtraInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo, emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo.Builder, emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo._BeyondTeamMemberExtraInfo) extra_,
+              emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo, emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo.Builder, emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass._BeyondTeamMemberExtraInfo) extra_,
                   getParentForChildren(),
                   isClean());
           extra_ = null;
@@ -1841,7 +1841,7 @@ public final class EHPIEDKNHJPOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo, emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo.Builder, emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfoOrBuilder> beyondRoomMemberExtraInfoBuilder_;
+          emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo, emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo.Builder, emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfoOrBuilder> beyondRoomMemberExtraInfoBuilder_;
       /**
        * <code>._BeyondRoomMemberExtraInfo beyond_room_member_extra_info = 12;</code>
        * @return Whether the beyondRoomMemberExtraInfo field is set.
@@ -1855,23 +1855,23 @@ public final class EHPIEDKNHJPOuterClass {
        * @return The beyondRoomMemberExtraInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo getBeyondRoomMemberExtraInfo() {
+      public emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo getBeyondRoomMemberExtraInfo() {
         if (beyondRoomMemberExtraInfoBuilder_ == null) {
           if (extraCase_ == 12) {
-            return (emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo) extra_;
+            return (emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo) extra_;
           }
-          return emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo.getDefaultInstance();
         } else {
           if (extraCase_ == 12) {
             return beyondRoomMemberExtraInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondRoomMemberExtraInfo beyond_room_member_extra_info = 12;</code>
        */
-      public Builder setBeyondRoomMemberExtraInfo(emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo value) {
+      public Builder setBeyondRoomMemberExtraInfo(emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo value) {
         if (beyondRoomMemberExtraInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1888,7 +1888,7 @@ public final class EHPIEDKNHJPOuterClass {
        * <code>._BeyondRoomMemberExtraInfo beyond_room_member_extra_info = 12;</code>
        */
       public Builder setBeyondRoomMemberExtraInfo(
-          emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo.Builder builderForValue) {
         if (beyondRoomMemberExtraInfoBuilder_ == null) {
           extra_ = builderForValue.build();
           onChanged();
@@ -1901,11 +1901,11 @@ public final class EHPIEDKNHJPOuterClass {
       /**
        * <code>._BeyondRoomMemberExtraInfo beyond_room_member_extra_info = 12;</code>
        */
-      public Builder mergeBeyondRoomMemberExtraInfo(emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo value) {
+      public Builder mergeBeyondRoomMemberExtraInfo(emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo value) {
         if (beyondRoomMemberExtraInfoBuilder_ == null) {
           if (extraCase_ == 12 &&
-              extra_ != emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo.getDefaultInstance()) {
-            extra_ = emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo.newBuilder((emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo) extra_)
+              extra_ != emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo.getDefaultInstance()) {
+            extra_ = emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo.newBuilder((emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo) extra_)
                 .mergeFrom(value).buildPartial();
           } else {
             extra_ = value;
@@ -1942,36 +1942,36 @@ public final class EHPIEDKNHJPOuterClass {
       /**
        * <code>._BeyondRoomMemberExtraInfo beyond_room_member_extra_info = 12;</code>
        */
-      public emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo.Builder getBeyondRoomMemberExtraInfoBuilder() {
+      public emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo.Builder getBeyondRoomMemberExtraInfoBuilder() {
         return getBeyondRoomMemberExtraInfoFieldBuilder().getBuilder();
       }
       /**
        * <code>._BeyondRoomMemberExtraInfo beyond_room_member_extra_info = 12;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfoOrBuilder getBeyondRoomMemberExtraInfoOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfoOrBuilder getBeyondRoomMemberExtraInfoOrBuilder() {
         if ((extraCase_ == 12) && (beyondRoomMemberExtraInfoBuilder_ != null)) {
           return beyondRoomMemberExtraInfoBuilder_.getMessageOrBuilder();
         } else {
           if (extraCase_ == 12) {
-            return (emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo) extra_;
+            return (emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo) extra_;
           }
-          return emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._BeyondRoomMemberExtraInfo beyond_room_member_extra_info = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo, emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo.Builder, emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfoOrBuilder> 
+          emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo, emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo.Builder, emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfoOrBuilder> 
           getBeyondRoomMemberExtraInfoFieldBuilder() {
         if (beyondRoomMemberExtraInfoBuilder_ == null) {
           if (!(extraCase_ == 12)) {
-            extra_ = emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo.getDefaultInstance();
+            extra_ = emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo.getDefaultInstance();
           }
           beyondRoomMemberExtraInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo, emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo.Builder, emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo._BeyondRoomMemberExtraInfo) extra_,
+              emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo, emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo.Builder, emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass._BeyondRoomMemberExtraInfo) extra_,
                   getParentForChildren(),
                   isClean());
           extra_ = null;
@@ -2060,7 +2060,8 @@ public final class EHPIEDKNHJPOuterClass {
       "ra_info\030\013 \001(\0132\033._BeyondTeamMemberExtraIn" +
       "foH\000\022D\n\035beyond_room_member_extra_info\030\014 " +
       "\001(\0132\033._BeyondRoomMemberExtraInfoH\000B\007\n\005ex" +
-      "traB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "traB2\n\031emu.grasscutter.net.protoB\025EHPIED" +
+      "KNHJPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2068,8 +2069,8 @@ public final class EHPIEDKNHJPOuterClass {
           emu.grasscutter.net.proto.ENFGAIPBHPDOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.KCAPJFIBKPEOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PlatformTypeOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass.getDescriptor(),
         });
     internal_static_EHPIEDKNHJP_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2080,8 +2081,8 @@ public final class EHPIEDKNHJPOuterClass {
     emu.grasscutter.net.proto.ENFGAIPBHPDOuterClass.getDescriptor();
     emu.grasscutter.net.proto.KCAPJFIBKPEOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PlatformTypeOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BeyondRoomMemberExtraInfo.getDescriptor();
-    emu.grasscutter.net.proto.BeyondTeamMemberExtraInfo.getDescriptor();
+    emu.grasscutter.net.proto._BeyondRoomMemberExtraInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondTeamMemberExtraInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

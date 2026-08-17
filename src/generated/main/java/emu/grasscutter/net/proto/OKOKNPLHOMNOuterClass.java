@@ -56,11 +56,11 @@ public final class OKOKNPLHOMNOuterClass {
      * <code>._ConfigBeyondGuid config_beyond_guid = 100;</code>
      * @return The configBeyondGuid.
      */
-    emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid getConfigBeyondGuid();
+    emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid getConfigBeyondGuid();
     /**
      * <code>._ConfigBeyondGuid config_beyond_guid = 100;</code>
      */
-    emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuidOrBuilder getConfigBeyondGuidOrBuilder();
+    emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuidOrBuilder getConfigBeyondGuidOrBuilder();
 
     public emu.grasscutter.net.proto.OKOKNPLHOMNOuterClass.OKOKNPLHOMN.BIINDCAHMFCCase getBIINDCAHMFCCase();
   }
@@ -129,14 +129,14 @@ public final class OKOKNPLHOMNOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid.Builder subBuilder = null;
               if (bIINDCAHMFCCase_ == 100) {
-                subBuilder = ((emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid) bIINDCAHMFC_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid) bIINDCAHMFC_).toBuilder();
               }
               bIINDCAHMFC_ =
-                  input.readMessage(emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid) bIINDCAHMFC_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid) bIINDCAHMFC_);
                 bIINDCAHMFC_ = subBuilder.buildPartial();
               }
               bIINDCAHMFCCase_ = 100;
@@ -295,21 +295,21 @@ public final class OKOKNPLHOMNOuterClass {
      * @return The configBeyondGuid.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid getConfigBeyondGuid() {
+    public emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid getConfigBeyondGuid() {
       if (bIINDCAHMFCCase_ == 100) {
-         return (emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid.getDefaultInstance();
     }
     /**
      * <code>._ConfigBeyondGuid config_beyond_guid = 100;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuidOrBuilder getConfigBeyondGuidOrBuilder() {
+    public emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuidOrBuilder getConfigBeyondGuidOrBuilder() {
       if (bIINDCAHMFCCase_ == 100) {
-         return (emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid) bIINDCAHMFC_;
+         return (emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid) bIINDCAHMFC_;
       }
-      return emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid.getDefaultInstance();
+      return emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -336,7 +336,7 @@ public final class OKOKNPLHOMNOuterClass {
         output.writeEnum(3, mBDFCEMBBOE_);
       }
       if (bIINDCAHMFCCase_ == 100) {
-        output.writeMessage(100, (emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid) bIINDCAHMFC_);
+        output.writeMessage(100, (emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid) bIINDCAHMFC_);
       }
       unknownFields.writeTo(output);
     }
@@ -360,7 +360,7 @@ public final class OKOKNPLHOMNOuterClass {
       }
       if (bIINDCAHMFCCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, (emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid) bIINDCAHMFC_);
+          .computeMessageSize(100, (emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid) bIINDCAHMFC_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -867,7 +867,7 @@ public final class OKOKNPLHOMNOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid, emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid.Builder, emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuidOrBuilder> configBeyondGuidBuilder_;
+          emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid, emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid.Builder, emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuidOrBuilder> configBeyondGuidBuilder_;
       /**
        * <code>._ConfigBeyondGuid config_beyond_guid = 100;</code>
        * @return Whether the configBeyondGuid field is set.
@@ -881,23 +881,23 @@ public final class OKOKNPLHOMNOuterClass {
        * @return The configBeyondGuid.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid getConfigBeyondGuid() {
+      public emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid getConfigBeyondGuid() {
         if (configBeyondGuidBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 100) {
-            return (emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid.getDefaultInstance();
         } else {
           if (bIINDCAHMFCCase_ == 100) {
             return configBeyondGuidBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigBeyondGuid config_beyond_guid = 100;</code>
        */
-      public Builder setConfigBeyondGuid(emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid value) {
+      public Builder setConfigBeyondGuid(emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid value) {
         if (configBeyondGuidBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -914,7 +914,7 @@ public final class OKOKNPLHOMNOuterClass {
        * <code>._ConfigBeyondGuid config_beyond_guid = 100;</code>
        */
       public Builder setConfigBeyondGuid(
-          emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid.Builder builderForValue) {
+          emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid.Builder builderForValue) {
         if (configBeyondGuidBuilder_ == null) {
           bIINDCAHMFC_ = builderForValue.build();
           onChanged();
@@ -927,11 +927,11 @@ public final class OKOKNPLHOMNOuterClass {
       /**
        * <code>._ConfigBeyondGuid config_beyond_guid = 100;</code>
        */
-      public Builder mergeConfigBeyondGuid(emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid value) {
+      public Builder mergeConfigBeyondGuid(emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid value) {
         if (configBeyondGuidBuilder_ == null) {
           if (bIINDCAHMFCCase_ == 100 &&
-              bIINDCAHMFC_ != emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid.getDefaultInstance()) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid.newBuilder((emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid) bIINDCAHMFC_)
+              bIINDCAHMFC_ != emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid.getDefaultInstance()) {
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid.newBuilder((emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid) bIINDCAHMFC_)
                 .mergeFrom(value).buildPartial();
           } else {
             bIINDCAHMFC_ = value;
@@ -968,36 +968,36 @@ public final class OKOKNPLHOMNOuterClass {
       /**
        * <code>._ConfigBeyondGuid config_beyond_guid = 100;</code>
        */
-      public emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid.Builder getConfigBeyondGuidBuilder() {
+      public emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid.Builder getConfigBeyondGuidBuilder() {
         return getConfigBeyondGuidFieldBuilder().getBuilder();
       }
       /**
        * <code>._ConfigBeyondGuid config_beyond_guid = 100;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuidOrBuilder getConfigBeyondGuidOrBuilder() {
+      public emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuidOrBuilder getConfigBeyondGuidOrBuilder() {
         if ((bIINDCAHMFCCase_ == 100) && (configBeyondGuidBuilder_ != null)) {
           return configBeyondGuidBuilder_.getMessageOrBuilder();
         } else {
           if (bIINDCAHMFCCase_ == 100) {
-            return (emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid) bIINDCAHMFC_;
+            return (emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid) bIINDCAHMFC_;
           }
-          return emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid.getDefaultInstance();
+          return emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid.getDefaultInstance();
         }
       }
       /**
        * <code>._ConfigBeyondGuid config_beyond_guid = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid, emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid.Builder, emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuidOrBuilder> 
+          emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid, emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid.Builder, emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuidOrBuilder> 
           getConfigBeyondGuidFieldBuilder() {
         if (configBeyondGuidBuilder_ == null) {
           if (!(bIINDCAHMFCCase_ == 100)) {
-            bIINDCAHMFC_ = emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid.getDefaultInstance();
+            bIINDCAHMFC_ = emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid.getDefaultInstance();
           }
           configBeyondGuidBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid, emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid.Builder, emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuidOrBuilder>(
-                  (emu.grasscutter.net.proto.ConfigBeyondGuid._ConfigBeyondGuid) bIINDCAHMFC_,
+              emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid, emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid.Builder, emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuidOrBuilder>(
+                  (emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass._ConfigBeyondGuid) bIINDCAHMFC_,
                   getParentForChildren(),
                   isClean());
           bIINDCAHMFC_ = null;
@@ -1078,14 +1078,14 @@ public final class OKOKNPLHOMNOuterClass {
       "\021\n\tconfig_id\030\001 \001(\r\022\023\n\013GGKHHMHHMHB\030\002 \001(\t\022" +
       "!\n\013MBDFCEMBBOE\030\003 \001(\0162\014.NDIIIOEAPEF\0220\n\022co" +
       "nfig_beyond_guid\030d \001(\0132\022._ConfigBeyondGu" +
-      "idH\000B\r\n\013BIINDCAHMFCB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "idH\000B\r\n\013BIINDCAHMFCB2\n\031emu.grasscutter.n" +
+      "et.protoB\025OKOKNPLHOMNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.NDIIIOEAPEFOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.ConfigBeyondGuid.getDescriptor(),
+          emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass.getDescriptor(),
         });
     internal_static_OKOKNPLHOMN_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1094,7 +1094,7 @@ public final class OKOKNPLHOMNOuterClass {
         internal_static_OKOKNPLHOMN_descriptor,
         new java.lang.String[] { "ConfigId", "GGKHHMHHMHB", "MBDFCEMBBOE", "ConfigBeyondGuid", "BIINDCAHMFC", });
     emu.grasscutter.net.proto.NDIIIOEAPEFOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.ConfigBeyondGuid.getDescriptor();
+    emu.grasscutter.net.proto._ConfigBeyondGuidOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

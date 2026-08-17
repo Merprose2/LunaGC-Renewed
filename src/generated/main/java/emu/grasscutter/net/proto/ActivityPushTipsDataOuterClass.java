@@ -626,8 +626,9 @@ public final class ActivityPushTipsDataOuterClass {
       "\n\032ActivityPushTipsData.proto\032\033ActivityPu" +
       "shTipsState.proto\"\\\n\024ActivityPushTipsDat" +
       "a\022%\n\005state\030\004 \001(\0162\026.ActivityPushTipsState" +
-      "\022\035\n\025activity_push_tips_id\030\010 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\022\035\n\025activity_push_tips_id\030\010 \001(\rB;\n\031emu.g" +
+      "rasscutter.net.protoB\036ActivityPushTipsDa" +
+      "taOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -854,8 +854,9 @@ public final class QuestUpdateQuestTimeVarNotifyOuterClass {
       "t_quest_id\030\001 \001(\r\022D\n\014time_var_map\030\004 \003(\0132." +
       ".QuestUpdateQuestTimeVarNotify.TimeVarMa" +
       "pEntry\0321\n\017TimeVarMapEntry\022\013\n\003key\030\001 \001(\r\022\r" +
-      "\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\n\005value\030\002 \001(\r:\0028\001BD\n\031emu.grasscutter.net" +
+      ".protoB\'QuestUpdateQuestTimeVarNotifyOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

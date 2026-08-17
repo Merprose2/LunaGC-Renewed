@@ -675,8 +675,8 @@ public final class BLHIBFOHIGBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BLHIBFOHIGB.proto\"\"\n\013BLHIBFOHIGB\022\023\n\013KF" +
-      "EPLEAGHOI\030\r \003(\tB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "EPLEAGHOI\030\r \003(\tB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025BLHIBFOHIGBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

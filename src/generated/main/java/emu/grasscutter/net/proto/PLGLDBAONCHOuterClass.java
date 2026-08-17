@@ -901,8 +901,9 @@ public final class PLGLDBAONCHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PLGLDBAONCH.proto\032\021EMCDNJLCAEB.proto\"E" +
       "\n\013PLGLDBAONCH\022!\n\013NCNAAOAGFIK\030\005 \003(\0132\014.EMC" +
-      "DNJLCAEB\022\023\n\013KMDOFBPMGAI\030\007 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "DNJLCAEB\022\023\n\013KMDOFBPMGAI\030\007 \001(\rB2\n\031emu.gra" +
+      "sscutter.net.protoB\025PLGLDBAONCHOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

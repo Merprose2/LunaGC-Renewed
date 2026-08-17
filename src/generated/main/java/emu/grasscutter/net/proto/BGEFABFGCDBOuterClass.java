@@ -595,8 +595,9 @@ public final class BGEFABFGCDBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BGEFABFGCDB.proto\"4\n\013BGEFABFGCDB\022\023\n\013GL" +
-      "CLEPCEDIJ\030\002 \001(\r\022\020\n\010group_id\030\006 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "CLEPCEDIJ\030\002 \001(\r\022\020\n\010group_id\030\006 \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025BGEFABFGCDBOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1973,8 +1973,8 @@ public final class CKELDHJIJBLOuterClass {
       "J\022\r\n\004name\030\373\003 \001(\t\022\024\n\013FLBJBMKPLMH\030\374\003 \001(\010\022\"" +
       "\n\013FMKNLOGFALG\030\375\003 \001(\0132\014.NCFELNNEAAF\022\035\n\006of" +
       "fset\030\376\003 \001(\0132\014.NCFELNNEAAF\022\024\n\013LODFKNIMHLI" +
-      "\030\377\003 \001(\002B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "\030\377\003 \001(\002B2\n\031emu.grasscutter.net.protoB\025CK" +
+      "ELDHJIJBLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

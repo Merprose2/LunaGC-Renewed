@@ -865,8 +865,9 @@ public final class ChannellerSlabEnterLoopDungeonReqOuterClass {
       "o\"~\n!ChannellerSlabEnterLoopDungeonReq\022\025" +
       "\n\rdungeon_index\030\002 \001(\r\022\025\n\rdifficulty_id\030\t" +
       " \001(\r\022\020\n\010point_id\030\013 \001(\r\022\031\n\021condition_id_l" +
-      "ist\030\017 \003(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "ist\030\017 \003(\rBH\n\031emu.grasscutter.net.protoB+" +
+      "ChannellerSlabEnterLoopDungeonReqOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -133,8 +133,8 @@ public final class KLEOIKNNAHBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KLEOIKNNAHB.proto*?\n\013KLEOIKNNAHB\022\030\n\024KL" +
       "EOIKNNAHB_OFFICIAL\020\000\022\026\n\022KLEOIKNNAHB_CUST" +
-      "OM\020\001B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "OM\020\001B2\n\031emu.grasscutter.net.protoB\025KLEOI" +
+      "KNNAHBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

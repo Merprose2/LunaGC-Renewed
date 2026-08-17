@@ -704,8 +704,9 @@ public final class BGDAILADEFAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BGDAILADEFA.proto\032\rUgcType.proto\"P\n\013BG" +
       "DAILADEFA\022\032\n\010ugc_type\030\t \001(\0162\010.UgcType\022\020\n" +
-      "\010level_id\030\013 \001(\r\022\023\n\013JMPOLPGAKCH\030\016 \001(\010B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\010level_id\030\013 \001(\r\022\023\n\013JMPOLPGAKCH\030\016 \001(\010B2\n\031" +
+      "emu.grasscutter.net.protoB\025BGDAILADEFAOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

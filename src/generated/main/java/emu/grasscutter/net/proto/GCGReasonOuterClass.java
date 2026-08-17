@@ -405,7 +405,8 @@ public final class GCGReasonOuterClass {
       "_CHAR_BREAK_UP\020\032\022!\n\035GCGReason_RETURN_ALL" +
       "_MODIFIER\020\033\022 \n\034GCGReason_REFRESH_LIFE_TO" +
       "KEN\020\034\022#\n\037GCGReason_CARD_DICE_COST_CHANGE" +
-      "\020\035B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\020\035B0\n\031emu.grasscutter.net.protoB\023GCGReas" +
+      "onOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

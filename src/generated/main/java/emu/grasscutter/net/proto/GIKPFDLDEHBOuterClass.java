@@ -1706,8 +1706,9 @@ public final class GIKPFDLDEHBOuterClass {
       "\030\n \003(\0132\031.HomeSceneArrangementInfo\022\"\n\016fur" +
       "niture_list\030\013 \003(\0132\n.ItemParam\022\023\n\013OBIKCDF" +
       "KGGJ\030\014 \001(\r\022\035\n\022furniture_suite_id\030\361\003 \001(\rH" +
-      "\000\022\022\n\007slot_id\030\241\r \001(\rH\000B\r\n\013FHCNNNEFAPHB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\000\022\022\n\007slot_id\030\241\r \001(\rH\000B\r\n\013FHCNNNEFAPHB2\n\031" +
+      "emu.grasscutter.net.protoB\025GIKPFDLDEHBOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

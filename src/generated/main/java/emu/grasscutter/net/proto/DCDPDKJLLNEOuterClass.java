@@ -944,8 +944,9 @@ public final class DCDPDKJLLNEOuterClass {
       "PGEAAKIBIM\030\001 \001(\r\022\023\n\013MGBDFAFHOLK\030\002 \001(\005\022\023\n" +
       "\013BDKCMGNMIDK\030\003 \001(\010\022\023\n\013GBDEGFCHCNN\030\004 \001(\010\022" +
       "\023\n\013MGFNEGFPBHA\030\005 \001(\010\022\023\n\013PJFJGFEBPGA\030\006 \001(" +
-      "\010\022\023\n\013EDOPFALPHBM\030\007 \001(\005B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\010\022\023\n\013EDOPFALPHBM\030\007 \001(\005B2\n\031emu.grasscutte" +
+      "r.net.protoB\025DCDPDKJLLNEOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

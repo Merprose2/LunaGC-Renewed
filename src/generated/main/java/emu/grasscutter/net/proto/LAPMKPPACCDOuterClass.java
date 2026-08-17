@@ -133,8 +133,8 @@ public final class LAPMKPPACCDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LAPMKPPACCD.proto*?\n\013LAPMKPPACCD\022\024\n\020LA" +
       "PMKPPACCD_NONE\020\000\022\032\n\026LAPMKPPACCD_IGAI_STA" +
-      "TE\020\001B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "TE\020\001B2\n\031emu.grasscutter.net.protoB\025LAPMK" +
+      "PPACCDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

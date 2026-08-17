@@ -901,8 +901,9 @@ public final class JEFIHIAPGBEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JEFIHIAPGBE.proto\032\021IEEHDHMFKGE.proto\"A" +
       "\n\013JEFIHIAPGBE\022!\n\013OELGBGECMDH\030\005 \003(\0132\014.IEE" +
-      "HDHMFKGE\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "HDHMFKGE\022\017\n\007retcode\030\016 \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025JEFIHIAPGBEOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

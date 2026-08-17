@@ -919,8 +919,9 @@ public final class EvtFixedAvatarFlashMoveOuterClass {
       "\n\035EvtFixedAvatarFlashMove.proto\032\014Vector." +
       "proto\"i\n\027EvtFixedAvatarFlashMove\022\021\n\tenti" +
       "ty_id\030\003 \001(\r\022\036\n\026animator_state_id_list\030\010 " +
-      "\003(\005\022\033\n\ntarget_pos\030\014 \001(\0132\007.VectorB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\003(\005\022\033\n\ntarget_pos\030\014 \001(\0132\007.VectorB>\n\031emu." +
+      "grasscutter.net.protoB!EvtFixedAvatarFla" +
+      "shMoveOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

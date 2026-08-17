@@ -1779,8 +1779,9 @@ public final class FDIACJBBMEJOuterClass {
       "mover_data\030\r \001(\0132\014.CENMFOEFNAMH\000\0220\n\030rota" +
       "te_to_dir_mover_data\030\016 \001(\0132\014.FODFHCFKOFC" +
       "H\000\0220\n\030fixed_pos_rot_mover_data\030\017 \001(\0132\014.P" +
-      "HNAPGOFPPJH\000B\010\n\006detailB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "HNAPGOFPPJH\000B\010\n\006detailB2\n\031emu.grasscutte" +
+      "r.net.protoB\025FDIACJBBMEJOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

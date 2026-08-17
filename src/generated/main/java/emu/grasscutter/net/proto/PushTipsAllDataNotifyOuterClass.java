@@ -831,8 +831,9 @@ public final class PushTipsAllDataNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033PushTipsAllDataNotify.proto\032\022PushTipsD" +
       "ata.proto\">\n\025PushTipsAllDataNotify\022%\n\016pu" +
-      "sh_tips_list\030\t \003(\0132\r.PushTipsDataB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "sh_tips_list\030\t \003(\0132\r.PushTipsDataB<\n\031emu" +
+      ".grasscutter.net.protoB\037PushTipsAllDataN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

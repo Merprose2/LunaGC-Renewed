@@ -596,8 +596,9 @@ public final class KAAMHDOIOOJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KAAMHDOIOOJ.proto\"4\n\013KAAMHDOIOOJ\022\023\n\013_b" +
-      "eatmap_id\030\002 \001(\r\022\020\n\010ugc_guid\030\r \001(\004B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "eatmap_id\030\002 \001(\r\022\020\n\010ugc_guid\030\r \001(\004B2\n\031emu" +
+      ".grasscutter.net.protoB\025KAAMHDOIOOJOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

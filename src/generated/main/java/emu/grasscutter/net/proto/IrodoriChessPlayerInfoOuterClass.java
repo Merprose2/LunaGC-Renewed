@@ -658,8 +658,9 @@ public final class IrodoriChessPlayerInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034IrodoriChessPlayerInfo.proto\"T\n\026Irodor" +
       "iChessPlayerInfo\022\024\n\014settle_score\030\007 \001(\r\022\027" +
-      "\n\017building_points\030\r \001(\r\022\013\n\003uid\030\017 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\n\017building_points\030\r \001(\r\022\013\n\003uid\030\017 \001(\rB=\n\031" +
+      "emu.grasscutter.net.protoB IrodoriChessP" +
+      "layerInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

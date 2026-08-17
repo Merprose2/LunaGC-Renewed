@@ -729,8 +729,8 @@ public final class BHCFEAODOPJOuterClass {
       "\n\021BHCFEAODOPJ.proto\"k\n\013BHCFEAODOPJ\022\021\n\tca" +
       "rd_guid\030\001 \001(\r\022\023\n\013EIAEPKNMKOI\030\005 \001(\r\022\037\n\027_m" +
       "onster_chess_team_num\030\013 \001(\r\022\023\n\013DMLNGLABD" +
-      "JL\030\014 \001(\005B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "JL\030\014 \001(\005B2\n\031emu.grasscutter.net.protoB\025B" +
+      "HCFEAODOPJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

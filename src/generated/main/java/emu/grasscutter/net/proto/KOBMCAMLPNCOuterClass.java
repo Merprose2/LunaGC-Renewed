@@ -595,8 +595,9 @@ public final class KOBMCAMLPNCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KOBMCAMLPNC.proto\"4\n\013KOBMCAMLPNC\022\020\n\010gr" +
-      "oup_id\030\004 \001(\r\022\023\n\013schedule_id\030\016 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "oup_id\030\004 \001(\r\022\023\n\013schedule_id\030\016 \001(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025KOBMCAMLPNCOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

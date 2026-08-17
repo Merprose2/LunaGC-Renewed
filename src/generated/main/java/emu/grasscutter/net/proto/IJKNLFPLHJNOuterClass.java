@@ -1121,7 +1121,8 @@ public final class IJKNLFPLHJNOuterClass {
       "roto\"r\n\013IJKNLFPLHJN\022\023\n\013MGOHDNBJIPN\030\004 \003(\r" +
       "\022\023\n\013BMEANGHLPAG\030\005 \003(\r\022(\n\014sign_in_info\030\n " +
       "\001(\0132\022.ReunionSignInInfo\022\017\n\007retcode\030\014 \001(\005" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025IJKNLFPLH" +
+      "JNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

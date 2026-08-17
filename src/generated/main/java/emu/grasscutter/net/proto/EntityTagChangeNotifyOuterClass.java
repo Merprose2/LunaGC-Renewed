@@ -747,8 +747,9 @@ public final class EntityTagChangeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033EntityTagChangeNotify.proto\"G\n\025EntityT" +
       "agChangeNotify\022\013\n\003tag\030\003 \001(\t\022\016\n\006is_add\030\004 " +
-      "\001(\010\022\021\n\tentity_id\030\t \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\001(\010\022\021\n\tentity_id\030\t \001(\rB<\n\031emu.grasscutte" +
+      "r.net.protoB\037EntityTagChangeNotifyOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

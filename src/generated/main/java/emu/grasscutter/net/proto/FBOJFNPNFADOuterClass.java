@@ -909,8 +909,8 @@ public final class FBOJFNPNFADOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FBOJFNPNFAD.proto\"M\n\013FBOJFNPNFAD\022\023\n\013EB" +
       "PKFDENOLA\030\002 \003(\r\022\033\n\023append_prop_id_list\030\003" +
-      " \003(\r\022\014\n\004guid\030\t \001(\004B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      " \003(\r\022\014\n\004guid\030\t \001(\004B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025FBOJFNPNFADOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

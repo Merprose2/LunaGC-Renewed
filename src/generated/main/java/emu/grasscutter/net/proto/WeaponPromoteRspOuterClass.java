@@ -738,8 +738,8 @@ public final class WeaponPromoteRspOuterClass {
       "\n\026WeaponPromoteRsp.proto\"i\n\020WeaponPromot" +
       "eRsp\022\017\n\007retcode\030\004 \001(\005\022\032\n\022target_weapon_g" +
       "uid\030\006 \001(\004\022\023\n\013HBCOLINECPL\030\007 \001(\r\022\023\n\013EFKJCH" +
-      "IKFNF\030\016 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "IKFNF\030\016 \001(\rB7\n\031emu.grasscutter.net.proto" +
+      "B\032WeaponPromoteRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

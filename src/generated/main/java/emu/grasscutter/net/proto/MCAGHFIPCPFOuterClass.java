@@ -142,8 +142,8 @@ public final class MCAGHFIPCPFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MCAGHFIPCPF.proto*O\n\013MCAGHFIPCPF\022\024\n\020MC" +
       "AGHFIPCPF_NONE\020\000\022\024\n\020MCAGHFIPCPF_PAIR\020\001\022\024" +
-      "\n\020MCAGHFIPCPF_CHIP\020\002B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\n\020MCAGHFIPCPF_CHIP\020\002B2\n\031emu.grasscutter." +
+      "net.protoB\025MCAGHFIPCPFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

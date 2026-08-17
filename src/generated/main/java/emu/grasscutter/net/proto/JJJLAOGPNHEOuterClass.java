@@ -33,11 +33,11 @@ public final class JJJLAOGPNHEOuterClass {
      * <code>._ColorPaletteeHistoryData color_palettee_history_data = 11;</code>
      * @return The colorPaletteeHistoryData.
      */
-    emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData getColorPaletteeHistoryData();
+    emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData getColorPaletteeHistoryData();
     /**
      * <code>._ColorPaletteeHistoryData color_palettee_history_data = 11;</code>
      */
-    emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryDataOrBuilder getColorPaletteeHistoryDataOrBuilder();
+    emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryDataOrBuilder getColorPaletteeHistoryDataOrBuilder();
 
     public emu.grasscutter.net.proto.JJJLAOGPNHEOuterClass.JJJLAOGPNHE.DetailCase getDetailCase();
   }
@@ -92,14 +92,14 @@ public final class JJJLAOGPNHEOuterClass {
               break;
             }
             case 90: {
-              emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData.Builder subBuilder = null;
               if (detailCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 11;
@@ -201,21 +201,21 @@ public final class JJJLAOGPNHEOuterClass {
      * @return The colorPaletteeHistoryData.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData getColorPaletteeHistoryData() {
+    public emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData getColorPaletteeHistoryData() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData) detail_;
+         return (emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData) detail_;
       }
-      return emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData.getDefaultInstance();
+      return emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData.getDefaultInstance();
     }
     /**
      * <code>._ColorPaletteeHistoryData color_palettee_history_data = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryDataOrBuilder getColorPaletteeHistoryDataOrBuilder() {
+    public emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryDataOrBuilder getColorPaletteeHistoryDataOrBuilder() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData) detail_;
+         return (emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData) detail_;
       }
-      return emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData.getDefaultInstance();
+      return emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -236,7 +236,7 @@ public final class JJJLAOGPNHEOuterClass {
         output.writeInt32(1, hFPLPICIMPN_);
       }
       if (detailCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData) detail_);
+        output.writeMessage(11, (emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -253,7 +253,7 @@ public final class JJJLAOGPNHEOuterClass {
       }
       if (detailCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData) detail_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -610,7 +610,7 @@ public final class JJJLAOGPNHEOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData, emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData.Builder, emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryDataOrBuilder> colorPaletteeHistoryDataBuilder_;
+          emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData, emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData.Builder, emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryDataOrBuilder> colorPaletteeHistoryDataBuilder_;
       /**
        * <code>._ColorPaletteeHistoryData color_palettee_history_data = 11;</code>
        * @return Whether the colorPaletteeHistoryData field is set.
@@ -624,23 +624,23 @@ public final class JJJLAOGPNHEOuterClass {
        * @return The colorPaletteeHistoryData.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData getColorPaletteeHistoryData() {
+      public emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData getColorPaletteeHistoryData() {
         if (colorPaletteeHistoryDataBuilder_ == null) {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData) detail_;
+            return (emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData) detail_;
           }
-          return emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData.getDefaultInstance();
+          return emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData.getDefaultInstance();
         } else {
           if (detailCase_ == 11) {
             return colorPaletteeHistoryDataBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData.getDefaultInstance();
+          return emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData.getDefaultInstance();
         }
       }
       /**
        * <code>._ColorPaletteeHistoryData color_palettee_history_data = 11;</code>
        */
-      public Builder setColorPaletteeHistoryData(emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData value) {
+      public Builder setColorPaletteeHistoryData(emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData value) {
         if (colorPaletteeHistoryDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -657,7 +657,7 @@ public final class JJJLAOGPNHEOuterClass {
        * <code>._ColorPaletteeHistoryData color_palettee_history_data = 11;</code>
        */
       public Builder setColorPaletteeHistoryData(
-          emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData.Builder builderForValue) {
+          emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData.Builder builderForValue) {
         if (colorPaletteeHistoryDataBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -670,11 +670,11 @@ public final class JJJLAOGPNHEOuterClass {
       /**
        * <code>._ColorPaletteeHistoryData color_palettee_history_data = 11;</code>
        */
-      public Builder mergeColorPaletteeHistoryData(emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData value) {
+      public Builder mergeColorPaletteeHistoryData(emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData value) {
         if (colorPaletteeHistoryDataBuilder_ == null) {
           if (detailCase_ == 11 &&
-              detail_ != emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData.newBuilder((emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData) detail_)
+              detail_ != emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData.newBuilder((emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -711,36 +711,36 @@ public final class JJJLAOGPNHEOuterClass {
       /**
        * <code>._ColorPaletteeHistoryData color_palettee_history_data = 11;</code>
        */
-      public emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData.Builder getColorPaletteeHistoryDataBuilder() {
+      public emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData.Builder getColorPaletteeHistoryDataBuilder() {
         return getColorPaletteeHistoryDataFieldBuilder().getBuilder();
       }
       /**
        * <code>._ColorPaletteeHistoryData color_palettee_history_data = 11;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryDataOrBuilder getColorPaletteeHistoryDataOrBuilder() {
+      public emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryDataOrBuilder getColorPaletteeHistoryDataOrBuilder() {
         if ((detailCase_ == 11) && (colorPaletteeHistoryDataBuilder_ != null)) {
           return colorPaletteeHistoryDataBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData) detail_;
+            return (emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData) detail_;
           }
-          return emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData.getDefaultInstance();
+          return emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData.getDefaultInstance();
         }
       }
       /**
        * <code>._ColorPaletteeHistoryData color_palettee_history_data = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData, emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData.Builder, emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryDataOrBuilder> 
+          emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData, emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData.Builder, emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryDataOrBuilder> 
           getColorPaletteeHistoryDataFieldBuilder() {
         if (colorPaletteeHistoryDataBuilder_ == null) {
           if (!(detailCase_ == 11)) {
-            detail_ = emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData.getDefaultInstance();
           }
           colorPaletteeHistoryDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData, emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData.Builder, emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryDataOrBuilder>(
-                  (emu.grasscutter.net.proto.ColorPaletteeHistoryData._ColorPaletteeHistoryData) detail_,
+              emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData, emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData.Builder, emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryDataOrBuilder>(
+                  (emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass._ColorPaletteeHistoryData) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -820,13 +820,13 @@ public final class JJJLAOGPNHEOuterClass {
       "ryData.proto\"o\n\013JJJLAOGPNHE\022\023\n\013HFPLPICIM" +
       "PN\030\001 \001(\005\022A\n\033color_palettee_history_data\030" +
       "\013 \001(\0132\032._ColorPaletteeHistoryDataH\000B\010\n\006d" +
-      "etailB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "etailB2\n\031emu.grasscutter.net.protoB\025JJJL" +
+      "AOGPNHEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.ColorPaletteeHistoryData.getDescriptor(),
+          emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass.getDescriptor(),
         });
     internal_static_JJJLAOGPNHE_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -834,7 +834,7 @@ public final class JJJLAOGPNHEOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_JJJLAOGPNHE_descriptor,
         new java.lang.String[] { "HFPLPICIMPN", "ColorPaletteeHistoryData", "Detail", });
-    emu.grasscutter.net.proto.ColorPaletteeHistoryData.getDescriptor();
+    emu.grasscutter.net.proto._ColorPaletteeHistoryDataOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

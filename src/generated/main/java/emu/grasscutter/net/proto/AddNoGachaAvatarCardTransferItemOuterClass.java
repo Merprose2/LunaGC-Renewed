@@ -660,8 +660,9 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       "\n&AddNoGachaAvatarCardTransferItem.proto" +
       "\"R\n AddNoGachaAvatarCardTransferItem\022\017\n\007" +
       "item_id\030\001 \001(\r\022\016\n\006is_new\030\r \001(\010\022\r\n\005count\030\016" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rBG\n\031emu.grasscutter.net.protoB*AddNo" +
+      "GachaAvatarCardTransferItemOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

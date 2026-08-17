@@ -776,8 +776,8 @@ public final class CodexDataUpdateNotifyOuterClass {
       ".proto\"t\n\025CodexDataUpdateNotify\022\030\n\004type\030" +
       "\t \001(\0162\n.CodexType\022\023\n\013OBEHJKBNDJG\030\013 \001(\010\022 " +
       "\n\030weapon_max_promote_level\030\r \001(\r\022\n\n\002id\030\016" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      " \001(\rB<\n\031emu.grasscutter.net.protoB\037Codex" +
+      "DataUpdateNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

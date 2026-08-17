@@ -1886,7 +1886,8 @@ public final class OBGDBGKHOFKOuterClass {
       "CLGI\030\t \001(\004\022\023\n\013ICJCPGFAIGH\030\n \003(\005\022\023\n\013DIPNF" +
       "NGJOAL\030\014 \001(\r\022\023\n\013DEJGJCNCJEO\030\r \001(\r\022\027\n\017pla" +
       "yer_uid_list\030\016 \003(\r\022\023\n\013GDKIFALPGKF\030\017 \003(\005B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025OBGDBGKHOF" +
+      "KOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

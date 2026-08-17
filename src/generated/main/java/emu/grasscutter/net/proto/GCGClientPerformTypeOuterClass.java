@@ -196,7 +196,8 @@ public final class GCGClientPerformTypeOuterClass {
       "GCG_PERFORM_REDRAW\020\005\022,\n(GCGClientPerform" +
       "Type_GCG_PERFORM_HISTORY\020\006\0223\n/GCGClientP" +
       "erformType_GCG_PERFORM_BEFORE_HENSHIN\020\007B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      ";\n\031emu.grasscutter.net.protoB\036GCGClientP" +
+      "erformTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

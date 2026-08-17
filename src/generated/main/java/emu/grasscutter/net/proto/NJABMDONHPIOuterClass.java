@@ -2118,8 +2118,8 @@ public final class NJABMDONHPIOuterClass {
       "Vector\022\031\n\010init_pos\030\005 \001(\0132\007.Vector\022\034\n\013MOF" +
       "GCKLDPPJ\030\006 \001(\0132\007.Vector\022$\n\013BOGKEFMDADE\030\007" +
       " \001(\0132\017.MathQuaternion\022$\n\013KNFKNLCHLMB\030\010 \001" +
-      "(\0132\017.MathQuaternionB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "(\0132\017.MathQuaternionB2\n\031emu.grasscutter.n" +
+      "et.protoB\025NJABMDONHPIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

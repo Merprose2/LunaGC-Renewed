@@ -941,8 +941,10 @@ public final class SceneGalleryFungusFighterTrainingInfoOuterClass {
       "ingInfo\022\023\n\013OHIJJDOMOJI\030\001 \001(\r\022\023\n\013KJPPLJCC" +
       "MHM\030\004 \001(\r\022\031\n\021max_monster_count\030\005 \001(\r\022\023\n\013" +
       "BMMEBOPCGDH\030\013 \001(\r\022\017\n\007buff_id\030\r \001(\r\022\023\n\013OB" +
-      "ILHOOGLGO\030\016 \001(\r\022\023\n\013IKOPANOKCPF\030\017 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "ILHOOGLGO\030\016 \001(\r\022\023\n\013IKOPANOKCPF\030\017 \001(\rBL\n\031" +
+      "emu.grasscutter.net.protoB/SceneGalleryF" +
+      "ungusFighterTrainingInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

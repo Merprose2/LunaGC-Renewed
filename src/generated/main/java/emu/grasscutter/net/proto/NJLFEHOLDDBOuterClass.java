@@ -659,8 +659,8 @@ public final class NJLFEHOLDDBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NJLFEHOLDDB.proto\032\021BMJNJLKCODG.proto\"0" +
       "\n\013NJLFEHOLDDB\022!\n\013CFOMFPNHLJF\030\013 \001(\0132\014.BMJ" +
-      "NJLKCODGB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "NJLKCODGB2\n\031emu.grasscutter.net.protoB\025N" +
+      "JLFEHOLDDBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

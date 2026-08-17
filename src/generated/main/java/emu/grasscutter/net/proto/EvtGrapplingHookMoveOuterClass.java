@@ -1501,8 +1501,9 @@ public final class EvtGrapplingHookMoveOuterClass {
       "ndex\030\006 \001(\005\022\r\n\005speed\030\007 \001(\002\022\033\n\ntarget_pos\030" +
       "\010 \001(\0132\007.Vector\022\023\n\013JABEDMEECNC\030\t \001(\002\022\036\n\026a" +
       "nimator_state_id_list\030\014 \003(\r\022\031\n\021override_" +
-      "collider\030\r \001(\tB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "collider\030\r \001(\tB;\n\031emu.grasscutter.net.pr" +
+      "otoB\036EvtGrapplingHookMoveOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

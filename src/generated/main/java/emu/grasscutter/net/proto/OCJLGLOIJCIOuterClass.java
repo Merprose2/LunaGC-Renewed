@@ -1187,8 +1187,8 @@ public final class OCJLGLOIJCIOuterClass {
       "\001\n\013OCJLGLOIJCI\022\021\n\tis_active\030\001 \001(\010\022\023\n\013KFJ" +
       "JHIIKNPN\030\002 \001(\t\022\023\n\013BNACJHBAJAH\030\003 \001(\010\022\023\n\013M" +
       "BHEIAJCKHG\030\004 \001(\r\022\"\n\013HCFENIAIMBC\030\365\003 \003(\0132\014" +
-      ".IGGLNAHODGOB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      ".IGGLNAHODGOB2\n\031emu.grasscutter.net.prot" +
+      "oB\025OCJLGLOIJCIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

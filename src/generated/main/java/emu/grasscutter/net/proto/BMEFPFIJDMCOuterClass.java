@@ -912,8 +912,9 @@ public final class BMEFPFIJDMCOuterClass {
       "BGJGDAJI\030\001 \001(\0162\014.DEGDFAOEICK\022\023\n\013COHNFJIA" +
       "LLJ\030\002 \001(\r\022\"\n\013GPGPDDKBBNN\030\366\003 \001(\0162\014.APIBGN" +
       "MPLHD\022\"\n\013OCNNLBFJDKJ\030\367\003 \001(\0162\014.APIBGNMPLH" +
-      "D\022\024\n\013LNFPJLFNCLI\030\370\003 \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "D\022\024\n\013LNFPJLFNCLI\030\370\003 \001(\rB2\n\031emu.grasscutt" +
+      "er.net.protoB\025BMEFPFIJDMCOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

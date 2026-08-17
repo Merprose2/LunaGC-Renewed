@@ -1058,8 +1058,9 @@ public final class DADEAMBDPOJOuterClass {
       "\n\021DADEAMBDPOJ.proto\032\021HHEDHCFPEKM.proto\"q" +
       "\n\013DADEAMBDPOJ\022\034\n\006center\030\001 \001(\0132\014.HHEDHCFP" +
       "EKM\022!\n\013OLIPGCONBJC\030\002 \001(\0132\014.HHEDHCFPEKM\022!" +
-      "\n\013GMAIIGHLLLB\030\003 \001(\0132\014.HHEDHCFPEKMB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\n\013GMAIIGHLLLB\030\003 \001(\0132\014.HHEDHCFPEKMB2\n\031emu" +
+      ".grasscutter.net.protoB\025DADEAMBDPOJOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

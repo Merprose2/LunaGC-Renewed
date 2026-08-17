@@ -652,8 +652,9 @@ public final class WatcherAllDataNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032WatcherAllDataNotify.proto\",\n\024WatcherA" +
-      "llDataNotify\022\024\n\014watcher_list\030\014 \003(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "llDataNotify\022\024\n\014watcher_list\030\014 \003(\rB;\n\031em" +
+      "u.grasscutter.net.protoB\036WatcherAllDataN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

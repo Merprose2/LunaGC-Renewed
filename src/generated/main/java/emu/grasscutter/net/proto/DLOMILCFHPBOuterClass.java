@@ -1114,8 +1114,8 @@ public final class DLOMILCFHPBOuterClass {
       "\001\n\013DLOMILCFHPB\022\020\n\010level_id\030\001 \001(\r\022$\n\016team" +
       "_info_list\030\003 \003(\0132\014.HJHAAMGJLKJ\022\020\n\010stage_" +
       "id\030\005 \001(\r\022\022\n\ndifficulty\030\t \001(\r\022\023\n\013LFJLLNEG" +
-      "HGJ\030\014 \001(\010B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "HGJ\030\014 \001(\010B2\n\031emu.grasscutter.net.protoB\025" +
+      "DLOMILCFHPBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

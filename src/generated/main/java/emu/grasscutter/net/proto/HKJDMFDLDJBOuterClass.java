@@ -965,7 +965,8 @@ public final class HKJDMFDLDJBOuterClass {
       "\n\021HKJDMFDLDJB.proto\032\021FOCCKEHMOBG.proto\"O" +
       "\n\013HKJDMFDLDJB\022\n\n\002id\030\001 \001(\005\022\021\n\tis_active\030\002" +
       " \001(\010\022!\n\013OLDPMFNJEKO\030\003 \003(\0132\014.FOCCKEHMOBGB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025HKJDMFDLDJ" +
+      "BOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1148,8 +1148,9 @@ public final class MGNGHIDIMFMOuterClass {
       "LGFKDHGG\030\001 \003(\0132\014.KEEGPMCLLIE\0222\n\013BCBABJDM" +
       "DHD\030\002 \003(\0132\035.MGNGHIDIMFM.BCBABJDMDHDEntry" +
       "\032@\n\020BCBABJDMDHDEntry\022\013\n\003key\030\001 \001(\r\022\033\n\005val" +
-      "ue\030\002 \001(\0132\014.FAFIGIODCKO:\0028\001B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "ue\030\002 \001(\0132\014.FAFIGIODCKO:\0028\001B2\n\031emu.grassc" +
+      "utter.net.protoB\025MGNGHIDIMFMOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

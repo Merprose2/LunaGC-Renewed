@@ -653,8 +653,9 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n%QueryCodexMonsterBeKilledNumReq.proto\"" +
       "8\n\037QueryCodexMonsterBeKilledNumReq\022\025\n\rco" +
-      "dex_id_list\030\001 \003(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "dex_id_list\030\001 \003(\rBF\n\031emu.grasscutter.net" +
+      ".protoB)QueryCodexMonsterBeKilledNumReqO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

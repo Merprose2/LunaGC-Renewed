@@ -916,8 +916,8 @@ public final class GMPEJHLMPIOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GMPEJHLMPIO.proto\"L\n\013GMPEJHLMPIO\022\023\n\013OG" +
       "OOFIDKDEK\030\t \003(\004\022\023\n\013EOGEOKCKLIM\030\n \001(\r\022\023\n\013" +
-      "MPJAIHDJDLD\030\017 \003(\004B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "MPJAIHDJDLD\030\017 \003(\004B2\n\031emu.grasscutter.net" +
+      ".protoB\025GMPEJHLMPIOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

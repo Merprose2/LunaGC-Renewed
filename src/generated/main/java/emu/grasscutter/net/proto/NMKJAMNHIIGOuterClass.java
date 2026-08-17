@@ -596,8 +596,9 @@ public final class NMKJAMNHIIGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NMKJAMNHIIG.proto\"4\n\013NMKJAMNHIIG\022\020\n\010le" +
-      "vel_id\030\010 \001(\r\022\023\n\013_is_restart\030\t \001(\010B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "vel_id\030\010 \001(\r\022\023\n\013_is_restart\030\t \001(\010B2\n\031emu" +
+      ".grasscutter.net.protoB\025NMKJAMNHIIGOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

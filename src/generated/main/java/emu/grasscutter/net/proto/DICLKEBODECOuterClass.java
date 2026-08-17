@@ -27,11 +27,11 @@ public final class DICLKEBODECOuterClass {
      * <code>._PlatformKey platform_key = 9;</code>
      * @return The platformKey.
      */
-    emu.grasscutter.net.proto.PlatformKey._PlatformKey getPlatformKey();
+    emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey getPlatformKey();
     /**
      * <code>._PlatformKey platform_key = 9;</code>
      */
-    emu.grasscutter.net.proto.PlatformKey._PlatformKeyOrBuilder getPlatformKeyOrBuilder();
+    emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKeyOrBuilder getPlatformKeyOrBuilder();
 
     public emu.grasscutter.net.proto.DICLKEBODECOuterClass.DICLKEBODEC.DetailCase getDetailCase();
   }
@@ -81,14 +81,14 @@ public final class DICLKEBODECOuterClass {
               done = true;
               break;
             case 74: {
-              emu.grasscutter.net.proto.PlatformKey._PlatformKey.Builder subBuilder = null;
+              emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.Builder subBuilder = null;
               if (detailCase_ == 9) {
-                subBuilder = ((emu.grasscutter.net.proto.PlatformKey._PlatformKey) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.PlatformKey._PlatformKey.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.PlatformKey._PlatformKey) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 9;
@@ -179,21 +179,21 @@ public final class DICLKEBODECOuterClass {
      * @return The platformKey.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PlatformKey._PlatformKey getPlatformKey() {
+    public emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey getPlatformKey() {
       if (detailCase_ == 9) {
-         return (emu.grasscutter.net.proto.PlatformKey._PlatformKey) detail_;
+         return (emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey) detail_;
       }
-      return emu.grasscutter.net.proto.PlatformKey._PlatformKey.getDefaultInstance();
+      return emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.getDefaultInstance();
     }
     /**
      * <code>._PlatformKey platform_key = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PlatformKey._PlatformKeyOrBuilder getPlatformKeyOrBuilder() {
+    public emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKeyOrBuilder getPlatformKeyOrBuilder() {
       if (detailCase_ == 9) {
-         return (emu.grasscutter.net.proto.PlatformKey._PlatformKey) detail_;
+         return (emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey) detail_;
       }
-      return emu.grasscutter.net.proto.PlatformKey._PlatformKey.getDefaultInstance();
+      return emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -211,7 +211,7 @@ public final class DICLKEBODECOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (detailCase_ == 9) {
-        output.writeMessage(9, (emu.grasscutter.net.proto.PlatformKey._PlatformKey) detail_);
+        output.writeMessage(9, (emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -224,7 +224,7 @@ public final class DICLKEBODECOuterClass {
       size = 0;
       if (detailCase_ == 9) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, (emu.grasscutter.net.proto.PlatformKey._PlatformKey) detail_);
+          .computeMessageSize(9, (emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -540,7 +540,7 @@ public final class DICLKEBODECOuterClass {
 
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PlatformKey._PlatformKey, emu.grasscutter.net.proto.PlatformKey._PlatformKey.Builder, emu.grasscutter.net.proto.PlatformKey._PlatformKeyOrBuilder> platformKeyBuilder_;
+          emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey, emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.Builder, emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKeyOrBuilder> platformKeyBuilder_;
       /**
        * <code>._PlatformKey platform_key = 9;</code>
        * @return Whether the platformKey field is set.
@@ -554,23 +554,23 @@ public final class DICLKEBODECOuterClass {
        * @return The platformKey.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PlatformKey._PlatformKey getPlatformKey() {
+      public emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey getPlatformKey() {
         if (platformKeyBuilder_ == null) {
           if (detailCase_ == 9) {
-            return (emu.grasscutter.net.proto.PlatformKey._PlatformKey) detail_;
+            return (emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey) detail_;
           }
-          return emu.grasscutter.net.proto.PlatformKey._PlatformKey.getDefaultInstance();
+          return emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.getDefaultInstance();
         } else {
           if (detailCase_ == 9) {
             return platformKeyBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.PlatformKey._PlatformKey.getDefaultInstance();
+          return emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.getDefaultInstance();
         }
       }
       /**
        * <code>._PlatformKey platform_key = 9;</code>
        */
-      public Builder setPlatformKey(emu.grasscutter.net.proto.PlatformKey._PlatformKey value) {
+      public Builder setPlatformKey(emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey value) {
         if (platformKeyBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -587,7 +587,7 @@ public final class DICLKEBODECOuterClass {
        * <code>._PlatformKey platform_key = 9;</code>
        */
       public Builder setPlatformKey(
-          emu.grasscutter.net.proto.PlatformKey._PlatformKey.Builder builderForValue) {
+          emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.Builder builderForValue) {
         if (platformKeyBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -600,11 +600,11 @@ public final class DICLKEBODECOuterClass {
       /**
        * <code>._PlatformKey platform_key = 9;</code>
        */
-      public Builder mergePlatformKey(emu.grasscutter.net.proto.PlatformKey._PlatformKey value) {
+      public Builder mergePlatformKey(emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey value) {
         if (platformKeyBuilder_ == null) {
           if (detailCase_ == 9 &&
-              detail_ != emu.grasscutter.net.proto.PlatformKey._PlatformKey.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.PlatformKey._PlatformKey.newBuilder((emu.grasscutter.net.proto.PlatformKey._PlatformKey) detail_)
+              detail_ != emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.newBuilder((emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -641,36 +641,36 @@ public final class DICLKEBODECOuterClass {
       /**
        * <code>._PlatformKey platform_key = 9;</code>
        */
-      public emu.grasscutter.net.proto.PlatformKey._PlatformKey.Builder getPlatformKeyBuilder() {
+      public emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.Builder getPlatformKeyBuilder() {
         return getPlatformKeyFieldBuilder().getBuilder();
       }
       /**
        * <code>._PlatformKey platform_key = 9;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PlatformKey._PlatformKeyOrBuilder getPlatformKeyOrBuilder() {
+      public emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKeyOrBuilder getPlatformKeyOrBuilder() {
         if ((detailCase_ == 9) && (platformKeyBuilder_ != null)) {
           return platformKeyBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 9) {
-            return (emu.grasscutter.net.proto.PlatformKey._PlatformKey) detail_;
+            return (emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey) detail_;
           }
-          return emu.grasscutter.net.proto.PlatformKey._PlatformKey.getDefaultInstance();
+          return emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.getDefaultInstance();
         }
       }
       /**
        * <code>._PlatformKey platform_key = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PlatformKey._PlatformKey, emu.grasscutter.net.proto.PlatformKey._PlatformKey.Builder, emu.grasscutter.net.proto.PlatformKey._PlatformKeyOrBuilder> 
+          emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey, emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.Builder, emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKeyOrBuilder> 
           getPlatformKeyFieldBuilder() {
         if (platformKeyBuilder_ == null) {
           if (!(detailCase_ == 9)) {
-            detail_ = emu.grasscutter.net.proto.PlatformKey._PlatformKey.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.getDefaultInstance();
           }
           platformKeyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PlatformKey._PlatformKey, emu.grasscutter.net.proto.PlatformKey._PlatformKey.Builder, emu.grasscutter.net.proto.PlatformKey._PlatformKeyOrBuilder>(
-                  (emu.grasscutter.net.proto.PlatformKey._PlatformKey) detail_,
+              emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey, emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.Builder, emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKeyOrBuilder>(
+                  (emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -748,13 +748,14 @@ public final class DICLKEBODECOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DICLKEBODEC.proto\032\022_PlatformKey.proto\"" +
       ">\n\013DICLKEBODEC\022%\n\014platform_key\030\t \001(\0132\r._" +
-      "PlatformKeyH\000B\010\n\006detailB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "PlatformKeyH\000B\010\n\006detailB2\n\031emu.grasscutt" +
+      "er.net.protoB\025DICLKEBODECOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.PlatformKey.getDescriptor(),
+          emu.grasscutter.net.proto._PlatformKeyOuterClass.getDescriptor(),
         });
     internal_static_DICLKEBODEC_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -762,7 +763,7 @@ public final class DICLKEBODECOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DICLKEBODEC_descriptor,
         new java.lang.String[] { "PlatformKey", "Detail", });
-    emu.grasscutter.net.proto.PlatformKey.getDescriptor();
+    emu.grasscutter.net.proto._PlatformKeyOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

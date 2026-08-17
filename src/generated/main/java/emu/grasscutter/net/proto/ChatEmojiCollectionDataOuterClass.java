@@ -838,8 +838,9 @@ public final class ChatEmojiCollectionDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035ChatEmojiCollectionData.proto\"L\n\027ChatE" +
       "mojiCollectionData\022\025\n\remoji_id_list\030\001 \003(" +
-      "\r\022\032\n\022_emoji_set_id_list\030\002 \003(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\r\022\032\n\022_emoji_set_id_list\030\002 \003(\rB>\n\031emu.gra" +
+      "sscutter.net.protoB!ChatEmojiCollectionD" +
+      "ataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -659,8 +659,9 @@ public final class MusicGameRecordOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025MusicGameRecord.proto\"J\n\017MusicGameReco" +
       "rd\022\021\n\tis_unlock\030\003 \001(\010\022\021\n\tmax_score\030\005 \001(\r" +
-      "\022\021\n\tmax_combo\030\007 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\022\021\n\tmax_combo\030\007 \001(\rB6\n\031emu.grasscutter.n" +
+      "et.protoB\031MusicGameRecordOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

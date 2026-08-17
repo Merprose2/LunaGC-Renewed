@@ -714,8 +714,8 @@ public final class TaskVarOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\rTaskVar.proto\"*\n\007TaskVar\022\013\n\003key\030\007 \001(\r\022" +
-      "\022\n\nvalue_list\030\014 \003(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\022\n\nvalue_list\030\014 \003(\005B.\n\031emu.grasscutter.n" +
+      "et.protoB\021TaskVarOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

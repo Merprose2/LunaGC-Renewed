@@ -33,11 +33,11 @@ public final class GJJDBACAIMGOuterClass {
      * <code>._UgcShortVideoBriefInfo short_video_brief = 3;</code>
      * @return The shortVideoBrief.
      */
-    emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo getShortVideoBrief();
+    emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo getShortVideoBrief();
     /**
      * <code>._UgcShortVideoBriefInfo short_video_brief = 3;</code>
      */
-    emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfoOrBuilder getShortVideoBriefOrBuilder();
+    emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfoOrBuilder getShortVideoBriefOrBuilder();
 
     /**
      * <code>bool is_psn_platform = 5;</code>
@@ -199,14 +199,14 @@ public final class GJJDBACAIMGOuterClass {
               break;
             }
             case 26: {
-              emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.Builder subBuilder = null;
               if (briefCase_ == 3) {
-                subBuilder = ((emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo) brief_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo) brief_).toBuilder();
               }
               brief_ =
-                  input.readMessage(emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo) brief_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo) brief_);
                 brief_ = subBuilder.buildPartial();
               }
               briefCase_ = 3;
@@ -373,21 +373,21 @@ public final class GJJDBACAIMGOuterClass {
      * @return The shortVideoBrief.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo getShortVideoBrief() {
+    public emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo getShortVideoBrief() {
       if (briefCase_ == 3) {
-         return (emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo) brief_;
+         return (emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo) brief_;
       }
-      return emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.getDefaultInstance();
     }
     /**
      * <code>._UgcShortVideoBriefInfo short_video_brief = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfoOrBuilder getShortVideoBriefOrBuilder() {
+    public emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfoOrBuilder getShortVideoBriefOrBuilder() {
       if (briefCase_ == 3) {
-         return (emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo) brief_;
+         return (emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo) brief_;
       }
-      return emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.getDefaultInstance();
     }
 
     public static final int IS_PSN_PLATFORM_FIELD_NUMBER = 5;
@@ -675,7 +675,7 @@ public final class GJJDBACAIMGOuterClass {
         output.writeUInt32(1, version_);
       }
       if (briefCase_ == 3) {
-        output.writeMessage(3, (emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo) brief_);
+        output.writeMessage(3, (emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo) brief_);
       }
       if (isPsnPlatform_ != false) {
         output.writeBool(5, isPsnPlatform_);
@@ -728,7 +728,7 @@ public final class GJJDBACAIMGOuterClass {
       }
       if (briefCase_ == 3) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, (emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo) brief_);
+          .computeMessageSize(3, (emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo) brief_);
       }
       if (isPsnPlatform_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -1256,7 +1256,7 @@ public final class GJJDBACAIMGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo, emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo.Builder, emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfoOrBuilder> shortVideoBriefBuilder_;
+          emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo, emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.Builder, emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfoOrBuilder> shortVideoBriefBuilder_;
       /**
        * <code>._UgcShortVideoBriefInfo short_video_brief = 3;</code>
        * @return Whether the shortVideoBrief field is set.
@@ -1270,23 +1270,23 @@ public final class GJJDBACAIMGOuterClass {
        * @return The shortVideoBrief.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo getShortVideoBrief() {
+      public emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo getShortVideoBrief() {
         if (shortVideoBriefBuilder_ == null) {
           if (briefCase_ == 3) {
-            return (emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo) brief_;
+            return (emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo) brief_;
           }
-          return emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.getDefaultInstance();
         } else {
           if (briefCase_ == 3) {
             return shortVideoBriefBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._UgcShortVideoBriefInfo short_video_brief = 3;</code>
        */
-      public Builder setShortVideoBrief(emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo value) {
+      public Builder setShortVideoBrief(emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo value) {
         if (shortVideoBriefBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1303,7 +1303,7 @@ public final class GJJDBACAIMGOuterClass {
        * <code>._UgcShortVideoBriefInfo short_video_brief = 3;</code>
        */
       public Builder setShortVideoBrief(
-          emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.Builder builderForValue) {
         if (shortVideoBriefBuilder_ == null) {
           brief_ = builderForValue.build();
           onChanged();
@@ -1316,11 +1316,11 @@ public final class GJJDBACAIMGOuterClass {
       /**
        * <code>._UgcShortVideoBriefInfo short_video_brief = 3;</code>
        */
-      public Builder mergeShortVideoBrief(emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo value) {
+      public Builder mergeShortVideoBrief(emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo value) {
         if (shortVideoBriefBuilder_ == null) {
           if (briefCase_ == 3 &&
-              brief_ != emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo.getDefaultInstance()) {
-            brief_ = emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo.newBuilder((emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo) brief_)
+              brief_ != emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.getDefaultInstance()) {
+            brief_ = emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.newBuilder((emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo) brief_)
                 .mergeFrom(value).buildPartial();
           } else {
             brief_ = value;
@@ -1357,36 +1357,36 @@ public final class GJJDBACAIMGOuterClass {
       /**
        * <code>._UgcShortVideoBriefInfo short_video_brief = 3;</code>
        */
-      public emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo.Builder getShortVideoBriefBuilder() {
+      public emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.Builder getShortVideoBriefBuilder() {
         return getShortVideoBriefFieldBuilder().getBuilder();
       }
       /**
        * <code>._UgcShortVideoBriefInfo short_video_brief = 3;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfoOrBuilder getShortVideoBriefOrBuilder() {
+      public emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfoOrBuilder getShortVideoBriefOrBuilder() {
         if ((briefCase_ == 3) && (shortVideoBriefBuilder_ != null)) {
           return shortVideoBriefBuilder_.getMessageOrBuilder();
         } else {
           if (briefCase_ == 3) {
-            return (emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo) brief_;
+            return (emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo) brief_;
           }
-          return emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.getDefaultInstance();
         }
       }
       /**
        * <code>._UgcShortVideoBriefInfo short_video_brief = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo, emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo.Builder, emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfoOrBuilder> 
+          emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo, emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.Builder, emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfoOrBuilder> 
           getShortVideoBriefFieldBuilder() {
         if (shortVideoBriefBuilder_ == null) {
           if (!(briefCase_ == 3)) {
-            brief_ = emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo.getDefaultInstance();
+            brief_ = emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.getDefaultInstance();
           }
           shortVideoBriefBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo, emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo.Builder, emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.UgcShortVideoBriefInfo._UgcShortVideoBriefInfo) brief_,
+              emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo, emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.Builder, emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfoOrBuilder>(
+                  (emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo) brief_,
                   getParentForChildren(),
                   isClean());
           brief_ = null;
@@ -2069,12 +2069,13 @@ public final class GJJDBACAIMGOuterClass {
       " \001(\010\022\023\n\013BHEEMIAMMBJ\030\017 \001(\r\022\017\n\006psn_id\030\257\013 \001" +
       "(\t\022\033\n\022_creator_online_id\030\316\013 \001(\t\022\027\n\016_xbox" +
       "_gamertag\030\211\r \001(\t\022\016\n\005_xuid\030\234\016 \001(\tB\007\n\005brie" +
-      "fB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "fB2\n\031emu.grasscutter.net.protoB\025GJJDBACA" +
+      "IMGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.UgcShortVideoBriefInfo.getDescriptor(),
+          emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass.getDescriptor(),
         });
     internal_static_GJJDBACAIMG_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2082,7 +2083,7 @@ public final class GJJDBACAIMGOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GJJDBACAIMG_descriptor,
         new java.lang.String[] { "Version", "ShortVideoBrief", "IsPsnPlatform", "ScheduleId", "UgcGuid", "PublishTime", "Uid", "CreatorNickname", "EJECAJOBCNK", "BHEEMIAMMBJ", "PsnId", "CreatorOnlineId", "XboxGamertag", "Xuid", "Brief", });
-    emu.grasscutter.net.proto.UgcShortVideoBriefInfo.getDescriptor();
+    emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

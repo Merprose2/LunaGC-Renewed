@@ -595,8 +595,9 @@ public final class IOGCAMIBAJDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IOGCAMIBAJD.proto\"5\n\013IOGCAMIBAJD\022\025\n\rdi" +
-      "fficulty_id\030\006 \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "fficulty_id\030\006 \001(\r\022\017\n\007retcode\030\017 \001(\005B2\n\031em" +
+      "u.grasscutter.net.protoB\025IOGCAMIBAJDOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

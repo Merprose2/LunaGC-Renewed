@@ -730,8 +730,8 @@ public final class JCIINONFDBEOuterClass {
       "\n\021JCIINONFDBE.proto\032\032CustomGadgetTreeInf" +
       "o.proto\"L\n\013JCIINONFDBE\022*\n\013ABHJHMPHHBM\030\007 " +
       "\001(\0132\025.CustomGadgetTreeInfo\022\021\n\tentity_id\030" +
-      "\n \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\n \001(\rB2\n\031emu.grasscutter.net.protoB\025JCII" +
+      "NONFDBEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

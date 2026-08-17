@@ -525,8 +525,8 @@ public final class ADKDOFPEMLEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ADKDOFPEMLE.proto\"\036\n\013ADKDOFPEMLE\022\017\n\007ci" +
-      "ty_id\030\006 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "ty_id\030\006 \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "B\025ADKDOFPEMLEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

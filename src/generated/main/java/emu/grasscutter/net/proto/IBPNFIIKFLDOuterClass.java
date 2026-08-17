@@ -730,7 +730,8 @@ public final class IBPNFIIKFLDOuterClass {
       "\n\021IBPNFIIKFLD.proto\032\030PlayerOfferingData." +
       "proto\"J\n\013IBPNFIIKFLD\022\017\n\007retcode\030\004 \001(\005\022*\n" +
       "\roffering_data\030\014 \001(\0132\023.PlayerOfferingDat" +
-      "aB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "aB2\n\031emu.grasscutter.net.protoB\025IBPNFIIK" +
+      "FLDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1129,8 +1129,9 @@ public final class EvtSyncTransformOuterClass {
       "oto\032\014Vector.proto\"\202\001\n\020EvtSyncTransform\022\033" +
       "\n\nentity_rot\030\005 \001(\0132\007.Vector\022\033\n\nentity_po" +
       "s\030\007 \001(\0132\007.Vector\022\021\n\tentity_id\030\t \001(\r\022!\n\013C" +
-      "FOMFPNHLJF\030\013 \001(\0132\014.BMJNJLKCODGB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "FOMFPNHLJF\030\013 \001(\0132\014.BMJNJLKCODGB7\n\031emu.gr" +
+      "asscutter.net.protoB\032EvtSyncTransformOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

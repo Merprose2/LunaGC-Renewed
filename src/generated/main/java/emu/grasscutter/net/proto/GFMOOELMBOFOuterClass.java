@@ -723,8 +723,8 @@ public final class GFMOOELMBOFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GFMOOELMBOF.proto\032\021HHEDHCFPEKM.proto\";" +
       "\n\013GFMOOELMBOF\022\034\n\006center\030\001 \001(\0132\014.HHEDHCFP" +
-      "EKM\022\016\n\006radius\030\002 \001(\002B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "EKM\022\016\n\006radius\030\002 \001(\002B2\n\031emu.grasscutter.n" +
+      "et.protoB\025GFMOOELMBOFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

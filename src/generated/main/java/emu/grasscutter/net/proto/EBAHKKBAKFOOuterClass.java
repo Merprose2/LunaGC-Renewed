@@ -596,8 +596,9 @@ public final class EBAHKKBAKFOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EBAHKKBAKFO.proto\",\n\013EBAHKKBAKFO\022\017\n\007re" +
-      "tcode\030\007 \001(\005\022\014\n\004guid\030\010 \001(\004B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "tcode\030\007 \001(\005\022\014\n\004guid\030\010 \001(\004B2\n\031emu.grasscu" +
+      "tter.net.protoB\025EBAHKKBAKFOOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

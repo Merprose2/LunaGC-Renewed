@@ -1630,7 +1630,8 @@ public final class NGHNIGACOMEOuterClass {
       "MLNP\022\021\n\tcost_time\030\005 \001(\r\022*\n\nscore_list\030\t " +
       "\003(\0132\026.ExhibitionDisplayInfo\022\r\n\005score\030\013 \001" +
       "(\r\022\023\n\013LLCEEFFOGBH\030\r \001(\r\022\017\n\007is_succ\030\016 \001(\010" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025NGHNIGACO" +
+      "MEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

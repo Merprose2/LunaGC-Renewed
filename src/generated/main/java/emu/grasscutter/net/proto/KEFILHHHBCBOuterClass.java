@@ -901,8 +901,9 @@ public final class KEFILHHHBCBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KEFILHHHBCB.proto\032\021GDPBNCABABE.proto\"A" +
       "\n\013KEFILHHHBCB\022!\n\013HCPCIPNFJFN\030\001 \003(\0132\014.GDP" +
-      "BNCABABE\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "BNCABABE\022\017\n\007retcode\030\016 \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025KEFILHHHBCBOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

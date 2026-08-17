@@ -666,8 +666,8 @@ public final class CEGGKBIFLKOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CEGGKBIFLKO.proto\"C\n\013CEGGKBIFLKO\022\017\n\007ci" +
       "ty_id\030\003 \001(\r\022\017\n\007retcode\030\005 \001(\005\022\022\n\nrequest_" +
-      "id\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\014 \001(\rB2\n\031emu.grasscutter.net.protoB\025C" +
+      "EGGKBIFLKOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

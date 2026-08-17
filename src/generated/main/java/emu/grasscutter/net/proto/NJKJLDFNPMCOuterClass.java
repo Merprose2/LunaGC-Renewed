@@ -659,8 +659,8 @@ public final class NJKJLDFNPMCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NJKJLDFNPMC.proto\032\021JJKBEPPIFIE.proto\"0" +
       "\n\013NJKJLDFNPMC\022!\n\013ALJFGLAPKKM\030\007 \001(\0132\014.JJK" +
-      "BEPPIFIEB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "BEPPIFIEB2\n\031emu.grasscutter.net.protoB\025N" +
+      "JKJLDFNPMCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

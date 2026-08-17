@@ -1390,8 +1390,8 @@ public final class CJKAGIBABOHOuterClass {
       "\001(\r\022\r\n\005token\030\007 \001(\r\022\016\n\006param2\030\010 \001(\005\022\030\n\020ta" +
       "rget_entity_id\030\t \001(\r\022\020\n\010group_id\030\n \001(\r\022\016" +
       "\n\006param1\030\014 \001(\005\022\016\n\006param3\030\r \001(\005\022\016\n\006param4" +
-      "\030\017 \001(\005B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\017 \001(\005B2\n\031emu.grasscutter.net.protoB\025CJK" +
+      "AGIBABOHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -794,7 +794,8 @@ public final class GetFriendShowNameCardInfoRspOuterClass {
       "\n\"GetFriendShowNameCardInfoRsp.proto\"\\\n\034" +
       "GetFriendShowNameCardInfoRsp\022\036\n\026show_nam" +
       "e_card_id_list\030\010 \003(\r\022\013\n\003uid\030\r \001(\r\022\017\n\007ret" +
-      "code\030\016 \001(\005B\033\n\031emu.grasscutter.net.protob" +
+      "code\030\016 \001(\005BC\n\031emu.grasscutter.net.protoB" +
+      "&GetFriendShowNameCardInfoRspOuterClassb" +
       "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

@@ -1539,8 +1539,9 @@ public final class JANENGEFLMAOuterClass {
       "\n\021JANENGEFLMA.proto\"z\n\013JANENGEFLMA\022-\n\013NC" +
       "HCNOPEJHK\030\001 \003(\0132\030.JANENGEFLMA.EDBOPCPOPE" +
       "A\022\023\n\013FFHJNBBEBIF\030\002 \001(\004\032\'\n\013EDBOPCPOPEA\022\n\n" +
-      "\002id\030\001 \001(\004\022\014\n\004name\030\002 \001(\tB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\002id\030\001 \001(\004\022\014\n\004name\030\002 \001(\tB2\n\031emu.grasscutt" +
+      "er.net.protoB\025JANENGEFLMAOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

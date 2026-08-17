@@ -133,8 +133,9 @@ public final class TransmitReasonOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024TransmitReason.proto*U\n\016TransmitReason" +
       "\022 \n\034TransmitReason_TRANSMIT_NONE\020\000\022!\n\035Tr" +
-      "ansmitReason_TRANSMIT_QUEST\020\001B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "ansmitReason_TRANSMIT_QUEST\020\001B5\n\031emu.gra" +
+      "sscutter.net.protoB\030TransmitReasonOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

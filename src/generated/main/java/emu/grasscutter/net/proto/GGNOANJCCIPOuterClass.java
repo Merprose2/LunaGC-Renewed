@@ -152,8 +152,8 @@ public final class GGNOANJCCIPOuterClass {
       "\n\021GGNOANJCCIP.proto*n\n\013GGNOANJCCIP\022\024\n\020GG" +
       "NOANJCCIP_SWIM\020\000\022\025\n\021GGNOANJCCIP_CLIMB\020\001\022" +
       "\026\n\022GGNOANJCCIP_BE_HIT\020\002\022\032\n\026GGNOANJCCIP_B" +
-      "E_HIT_AIR\020\003B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "E_HIT_AIR\020\003B2\n\031emu.grasscutter.net.proto" +
+      "B\025GGNOANJCCIPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

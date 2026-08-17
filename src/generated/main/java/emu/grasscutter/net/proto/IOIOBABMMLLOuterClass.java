@@ -1019,8 +1019,8 @@ public final class IOIOBABMMLLOuterClass {
       "ot\030\001 \001(\002\022\023\n\013GDNALHJEFPE\030\003 \001(\010\022\n\n\002id\030\004 \001(" +
       "\r\022\023\n\013HGHDGAIHIHJ\030\005 \001(\002\022\023\n\013MIFLBOMJLLO\030\006 " +
       "\001(\002\022\r\n\005value\030\010 \001(\r\022\023\n\013JADCKOMEOGC\030\t \001(\002\022" +
-      "\023\n\013IPHHMCDGGCP\030\013 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\023\n\013IPHHMCDGGCP\030\013 \001(\rB2\n\031emu.grasscutter." +
+      "net.protoB\025IOIOBABMMLLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

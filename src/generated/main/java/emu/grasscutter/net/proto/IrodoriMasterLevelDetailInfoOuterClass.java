@@ -731,8 +731,9 @@ public final class IrodoriMasterLevelDetailInfoOuterClass {
       "\n\"IrodoriMasterLevelDetailInfo.proto\"r\n\034" +
       "IrodoriMasterLevelDetailInfo\022\021\n\tdiffcult" +
       "y\030\004 \001(\r\022\021\n\tis_finish\030\013 \001(\010\022\027\n\017min_finish" +
-      "_time\030\r \001(\r\022\023\n\013is_have_try\030\016 \001(\010B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "_time\030\r \001(\r\022\023\n\013is_have_try\030\016 \001(\010BC\n\031emu." +
+      "grasscutter.net.protoB&IrodoriMasterLeve" +
+      "lDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

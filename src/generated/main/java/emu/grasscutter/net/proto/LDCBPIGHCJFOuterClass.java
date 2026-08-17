@@ -893,8 +893,9 @@ public final class LDCBPIGHCJFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LDCBPIGHCJF.proto\032\021AJJKFCCFFKH.proto\"@" +
       "\n\013LDCBPIGHCJF\022\037\n\tnode_list\030\002 \003(\0132\014.AJJKF" +
-      "CCFFKH\022\020\n\010route_id\030\r \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "CCFFKH\022\020\n\010route_id\030\r \001(\rB2\n\031emu.grasscut" +
+      "ter.net.protoB\025LDCBPIGHCJFOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

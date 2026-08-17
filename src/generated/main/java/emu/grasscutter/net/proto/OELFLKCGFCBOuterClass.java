@@ -897,8 +897,9 @@ public final class OELFLKCGFCBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OELFLKCGFCB.proto\032\021HNCDMCCCMDK.proto\"E" +
       "\n\013OELFLKCGFCB\022\023\n\013HFDCHABCMPE\030\003 \001(\014\022!\n\013JJ" +
-      "PBBBJOBEL\030\004 \003(\0132\014.HNCDMCCCMDKB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "PBBBJOBEL\030\004 \003(\0132\014.HNCDMCCCMDKB2\n\031emu.gra" +
+      "sscutter.net.protoB\025OELFLKCGFCBOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

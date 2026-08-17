@@ -659,8 +659,9 @@ public final class RogueCellUpdateNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033RogueCellUpdateNotify.proto\032\023RogueCell" +
       "Info.proto\":\n\025RogueCellUpdateNotify\022!\n\tc" +
-      "ell_info\030\005 \001(\0132\016.RogueCellInfoB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "ell_info\030\005 \001(\0132\016.RogueCellInfoB<\n\031emu.gr" +
+      "asscutter.net.protoB\037RogueCellUpdateNoti" +
+      "fyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -595,8 +595,9 @@ public final class GEMADFJFIGLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GEMADFJFIGL.proto\"3\n\013GEMADFJFIGL\022\023\n\013GN" +
-      "NMNEGOHDN\030\005 \001(\r\022\017\n\007retcode\030\007 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "NMNEGOHDN\030\005 \001(\r\022\017\n\007retcode\030\007 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025GEMADFJFIGLOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

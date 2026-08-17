@@ -598,8 +598,9 @@ public final class EvtCostStaminaNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032EvtCostStaminaNotify.proto\">\n\024EvtCostS" +
       "taminaNotify\022\024\n\014cost_stamina\030\007 \001(\002\022\020\n\010sk" +
-      "ill_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "ill_id\030\017 \001(\rB;\n\031emu.grasscutter.net.prot" +
+      "oB\036EvtCostStaminaNotifyOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1209,8 +1209,8 @@ public final class KLLLNFMHKDIOuterClass {
       "\001\n\013KLLLNFMHKDI\022\023\n\013DENDLNJEOEG\030\001 \001(\t\022!\n\013O" +
       "JDLDHKCEIG\030\002 \001(\0132\014.GCJLKIJBFLB\022!\n\013MBABFE" +
       "CBGIP\030\003 \001(\0132\014.GCJLKIJBFLB\022!\n\013CPIEIEMMOEC" +
-      "\030\004 \001(\0132\014.GCJLKIJBFLBB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\030\004 \001(\0132\014.GCJLKIJBFLBB2\n\031emu.grasscutter." +
+      "net.protoB\025KLLLNFMHKDIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -729,8 +729,9 @@ public final class FBKBFEHGJPEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FBKBFEHGJPE.proto\032\021NPJPDACPCAJ.proto\"A" +
       "\n\013FBKBFEHGJPE\022!\n\013HPJMMCODKGF\030\013 \001(\0132\014.NPJ" +
-      "PDACPCAJ\022\017\n\007retcode\030\r \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "PDACPCAJ\022\017\n\007retcode\030\r \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025FBKBFEHGJPEOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

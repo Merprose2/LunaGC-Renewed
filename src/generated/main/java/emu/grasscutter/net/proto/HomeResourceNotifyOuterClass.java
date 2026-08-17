@@ -863,8 +863,9 @@ public final class HomeResourceNotifyOuterClass {
       "\n\030HomeResourceNotify.proto\032\022HomeResource" +
       ".proto\"\\\n\022HomeResourceNotify\022\"\n\013KODFNACK" +
       "EBH\030\003 \001(\0132\r.HomeResource\022\"\n\013INHLCEBLKOG\030" +
-      "\007 \001(\0132\r.HomeResourceB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\007 \001(\0132\r.HomeResourceB9\n\031emu.grasscutter." +
+      "net.protoB\034HomeResourceNotifyOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

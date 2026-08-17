@@ -595,8 +595,9 @@ public final class BOEBNNDJMHBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BOEBNNDJMHB.proto\"7\n\013BOEBNNDJMHB\022\023\n\013sc" +
-      "hedule_id\030\006 \001(\r\022\023\n\013AOEMHPEKOAC\030\017 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "hedule_id\030\006 \001(\r\022\023\n\013AOEMHPEKOAC\030\017 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025BOEBNNDJMHBOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

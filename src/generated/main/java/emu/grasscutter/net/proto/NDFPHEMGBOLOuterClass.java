@@ -651,8 +651,8 @@ public final class NDFPHEMGBOLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NDFPHEMGBOL.proto\032\021CMEMPDMCFAL.proto\"4" +
       "\n\013NDFPHEMGBOL\022%\n\017_cur_level_info\030\001 \001(\0132\014" +
-      ".CMEMPDMCFALB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      ".CMEMPDMCFALB2\n\031emu.grasscutter.net.prot" +
+      "oB\025NDFPHEMGBOLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -668,8 +668,8 @@ public final class COEMJDELKADOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021COEMJDELKAD.proto\"I\n\013COEMJDELKAD\022\023\n\013FB" +
       "HFAMPKPPK\030\001 \001(\010\022\023\n\013CLGJGGGKHBF\030\002 \001(\010\022\020\n\010" +
-      "level_id\030\004 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "level_id\030\004 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025COEMJDELKADOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

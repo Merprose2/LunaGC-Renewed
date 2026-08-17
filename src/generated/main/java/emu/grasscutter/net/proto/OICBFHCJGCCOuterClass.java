@@ -730,8 +730,9 @@ public final class OICBFHCJGCCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OICBFHCJGCC.proto\"R\n\013OICBFHCJGCC\022\021\n\tis" +
       "_finish\030\002 \001(\010\022\017\n\007is_open\030\004 \001(\010\022\020\n\010level_" +
-      "id\030\007 \001(\r\022\r\n\005score\030\t \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "id\030\007 \001(\r\022\r\n\005score\030\t \001(\rB2\n\031emu.grasscutt" +
+      "er.net.protoB\025OICBFHCJGCCOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

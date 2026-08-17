@@ -595,8 +595,9 @@ public final class NEOFNJJFALIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NEOFNJJFALI.proto\"1\n\013NEOFNJJFALI\022\021\n\tav" +
-      "atar_id\030\n \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "atar_id\030\n \001(\r\022\017\n\007retcode\030\017 \001(\005B2\n\031emu.gr" +
+      "asscutter.net.protoB\025NEOFNJJFALIOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

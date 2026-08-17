@@ -666,8 +666,9 @@ public final class ToTheMoonRemoveObstacleReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n ToTheMoonRemoveObstacleReq.proto\"P\n\032To" +
       "TheMoonRemoveObstacleReq\022\016\n\006handle\030\004 \001(\005" +
-      "\022\020\n\010query_id\030\005 \001(\005\022\020\n\010scene_id\030\010 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\022\020\n\010query_id\030\005 \001(\005\022\020\n\010scene_id\030\010 \001(\rBA\n\031" +
+      "emu.grasscutter.net.protoB$ToTheMoonRemo" +
+      "veObstacleReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -880,7 +880,8 @@ public final class AGKIEBBMMDEOuterClass {
       "\n\021AGKIEBBMMDE.proto\"e\n\013AGKIEBBMMDE\022\021\n\tav" +
       "atar_id\030\001 \001(\r\022\022\n\ncostume_id\030\003 \001(\r\022\013\n\003uid" +
       "\030\007 \001(\r\022\020\n\010is_ready\030\r \001(\010\022\020\n\010nickname\030\017 \001" +
-      "(\tB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\tB2\n\031emu.grasscutter.net.protoB\025AGKIEBB" +
+      "MMDEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

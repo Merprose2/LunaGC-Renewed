@@ -1514,8 +1514,9 @@ public final class GMObstacleInfoOuterClass {
       "\021\n\ttimestamp\030\n \001(\003\022!\n\010rotation\030\014 \001(\0132\017.M" +
       "athQuaternion\022\034\n\007extents\030\r \001(\0132\013.Vector3" +
       "Int\022\023\n\013obstacle_id\030\016 \001(\005\022!\n\013FLFPHIAAGME\030" +
-      "\017 \001(\0132\014.DICLKEBODECB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\017 \001(\0132\014.DICLKEBODECB5\n\031emu.grasscutter.n" +
+      "et.protoB\030GMObstacleInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

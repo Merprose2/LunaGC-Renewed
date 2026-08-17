@@ -894,8 +894,9 @@ public final class GCGSelectOnStageCostInfoOuterClass {
       "\n\036GCGSelectOnStageCostInfo.proto\032\020Uint32" +
       "Pair.proto\"M\n\030GCGSelectOnStageCostInfo\022\021" +
       "\n\tcard_guid\030\003 \001(\r\022\036\n\tcost_list\030\006 \003(\0132\013.U" +
-      "int32PairB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "int32PairB?\n\031emu.grasscutter.net.protoB\"" +
+      "GCGSelectOnStageCostInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

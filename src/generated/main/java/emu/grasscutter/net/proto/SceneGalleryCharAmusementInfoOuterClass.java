@@ -803,8 +803,9 @@ public final class SceneGalleryCharAmusementInfoOuterClass {
       "\n\035SceneGalleryCharAmusementInfo\022\021\n\tmax_s" +
       "core\030\002 \001(\r\022\025\n\ris_last_level\030\005 \001(\010\022\021\n\tis_" +
       "finish\030\010 \001(\010\022\022\n\nis_success\030\014 \001(\010\022\021\n\tcur_" +
-      "score\030\r \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "score\030\r \001(\rBD\n\031emu.grasscutter.net.proto" +
+      "B\'SceneGalleryCharAmusementInfoOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

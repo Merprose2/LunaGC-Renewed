@@ -823,8 +823,8 @@ public final class HDOHNLOOCLNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HDOHNLOOCLN.proto\032\021KFGLINJHAHB.proto\"0" +
       "\n\013HDOHNLOOCLN\022!\n\013LDBILENEDOO\030\001 \003(\0132\014.KFG" +
-      "LINJHAHBB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "LINJHAHBB2\n\031emu.grasscutter.net.protoB\025H" +
+      "DOHNLOOCLNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

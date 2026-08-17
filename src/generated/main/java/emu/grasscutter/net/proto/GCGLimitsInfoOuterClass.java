@@ -588,7 +588,8 @@ public final class GCGLimitsInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\023GCGLimitsInfo.proto\"9\n\rGCGLimitsInfo\022\023" +
       "\n\013PLJICHFGCFI\030\t \001(\r\022\023\n\013EPEGJMPOHAF\030\014 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B4\n\031emu.grasscutter.net.protoB\027GCGLimits" +
+      "InfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

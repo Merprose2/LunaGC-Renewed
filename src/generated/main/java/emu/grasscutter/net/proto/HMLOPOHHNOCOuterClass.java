@@ -1626,7 +1626,8 @@ public final class HMLOPOHHNOCOuterClass {
       "GKMMJ\022\"\n\013KHLIKKLLPAP\030\374\003 \001(\0132\014.MMLNJCOKEA" +
       "K\022\"\n\013OMOLFLKMNNN\030\375\003 \001(\0132\014.MMLNJCOKEAK\022\024\n" +
       "\013EIGMINLGMIK\030\376\003 \001(\005\022\024\n\013LGHLKGGDFCB\030\377\003 \001(" +
-      "\005B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\005B2\n\031emu.grasscutter.net.protoB\025HMLOPOHH" +
+      "NOCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

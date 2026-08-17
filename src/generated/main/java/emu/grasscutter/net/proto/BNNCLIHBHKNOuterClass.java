@@ -587,8 +587,9 @@ public final class BNNCLIHBHKNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BNNCLIHBHKN.proto\"7\n\013BNNCLIHBHKN\022\023\n\013EP" +
-      "CGIADGHDK\030\001 \001(\005\022\023\n\013FAFDNMIEMEL\030\002 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "CGIADGHDK\030\001 \001(\005\022\023\n\013FAFDNMIEMEL\030\002 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025BNNCLIHBHKNOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

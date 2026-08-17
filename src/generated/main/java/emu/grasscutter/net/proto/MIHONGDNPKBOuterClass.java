@@ -792,8 +792,9 @@ public final class MIHONGDNPKBOuterClass {
       "\n\021MIHONGDNPKB.proto\032\031GCGSkillPreviewInfo" +
       ".proto\"b\n\013MIHONGDNPKB\022)\n\013GLCKLIAJPMN\030\007 \001" +
       "(\0132\024.GCGSkillPreviewInfo\022\023\n\013KGCAFDJOJNJ\030" +
-      "\014 \001(\r\022\023\n\013JBNBFHBJKLC\030\016 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\014 \001(\r\022\023\n\013JBNBFHBJKLC\030\016 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025MIHONGDNPKBOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -997,8 +997,8 @@ public final class LDBDBKBNGGCOuterClass {
       "\n\013LDBDBKBNGGC\022\023\n\013GIBPAPKBIPL\030\001 \001(\010\022\023\n\013ID" +
       "JMFJJOIME\030\003 \001(\005\022!\n\013LGKEOCFPOEP\030\004 \001(\0132\014.J" +
       "HABMHAPMPG\022!\n\013PINIJLBECDN\030\005 \001(\0132\014.JHABMH" +
-      "APMPGB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "APMPGB2\n\031emu.grasscutter.net.protoB\025LDBD" +
+      "BKBNGGCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

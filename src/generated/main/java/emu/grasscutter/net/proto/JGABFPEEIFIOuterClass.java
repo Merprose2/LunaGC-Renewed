@@ -1428,8 +1428,9 @@ public final class JGABFPEEIFIOuterClass {
       "EGAPEBA\030\003 \001(\t\022!\n\013DPFPNHLHPEI\030\004 \001(\0162\014.KLF" +
       "BDEOOEPH\022\023\n\013BFIFPLMKLNA\030\005 \001(\003\022\023\n\013NGEDGDG" +
       "BAID\030\006 \001(\014\022\022\n\nrequest_id\030\007 \001(\t\022!\n\013KDLOEJ" +
-      "FMNBD\030\010 \001(\0132\014.OEEAPFDHFNJB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "FMNBD\030\010 \001(\0132\014.OEEAPFDHFNJB2\n\031emu.grasscu" +
+      "tter.net.protoB\025JGABFPEEIFIOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

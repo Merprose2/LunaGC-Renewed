@@ -563,7 +563,8 @@ public final class OOKEIJNPFCKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OOKEIJNPFCK.proto\032\021MMMEPICLMDJ.proto\"+" +
       "\n\013OOKEIJNPFCK\022\034\n\006reason\030\n \001(\0162\014.MMMEPICL" +
-      "MDJB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "MDJB2\n\031emu.grasscutter.net.protoB\025OOKEIJ" +
+      "NPFCKOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

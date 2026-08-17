@@ -666,8 +666,8 @@ public final class PPDCCDBFIDIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PPDCCDBFIDI.proto\"L\n\013PPDCCDBFIDI\022\023\n\013IC" +
       "GDNNAJEAI\030\001 \001(\r\022\023\n\013IMIDEJDODLE\030\002 \001(\005\022\023\n\013" +
-      "BMBFNLBOLAG\030\016 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "BMBFNLBOLAG\030\016 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025PPDCCDBFIDIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

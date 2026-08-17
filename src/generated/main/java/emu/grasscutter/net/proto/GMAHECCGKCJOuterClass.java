@@ -1049,8 +1049,8 @@ public final class GMAHECCGKCJOuterClass {
       "LPACLIJCBNG.proto\"x\n\013GMAHECCGKCJ\022\023\n\013AKHG" +
       "CHLPBOE\030\001 \001(\005\022$\n\014normal_track\030\013 \001(\0132\014.DH" +
       "KLDBFHAJAH\000\022$\n\014effect_track\030\014 \001(\0132\014.LPAC" +
-      "LIJCBNGH\000B\010\n\006detailB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "LIJCBNGH\000B\010\n\006detailB2\n\031emu.grasscutter.n" +
+      "et.protoB\025GMAHECCGKCJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

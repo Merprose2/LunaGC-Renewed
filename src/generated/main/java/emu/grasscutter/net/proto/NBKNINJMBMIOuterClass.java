@@ -704,8 +704,8 @@ public final class NBKNINJMBMIOuterClass {
       "\n\021NBKNINJMBMI.proto\032\022GCGLevelType.proto\"" +
       "U\n\013NBKNINJMBMI\022\021\n\tconfig_id\030\001 \001(\r\022\020\n\010lev" +
       "el_id\030\004 \001(\r\022!\n\nlevel_type\030\005 \001(\0162\r.GCGLev" +
-      "elTypeB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "elTypeB2\n\031emu.grasscutter.net.protoB\025NBK" +
+      "NINJMBMIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

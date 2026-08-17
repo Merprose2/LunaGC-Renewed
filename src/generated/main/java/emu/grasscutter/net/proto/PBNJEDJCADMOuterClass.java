@@ -525,8 +525,8 @@ public final class PBNJEDJCADMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PBNJEDJCADM.proto\"\"\n\013PBNJEDJCADM\022\023\n\013CP" +
-      "GBGPELPMC\030\006 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "GBGPELPMC\030\006 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025PBNJEDJCADMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

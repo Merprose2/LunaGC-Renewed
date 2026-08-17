@@ -1043,8 +1043,9 @@ public final class HMCLACKOKHFOuterClass {
       "\n\021HMCLACKOKHF.proto\032\021MACHAANGDGK.proto\"k" +
       "\n\013HMCLACKOKHF\022!\n\013ELKPJNPIMGK\030\001 \003(\0132\014.MAC" +
       "HAANGDGK\022\023\n\013MANFEIEOPHJ\030\005 \001(\004\022\023\n\013IHBEJKP" +
-      "PILB\030\013 \001(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "PILB\030\013 \001(\r\022\017\n\007retcode\030\016 \001(\005B2\n\031emu.grass" +
+      "cutter.net.protoB\025HMCLACKOKHFOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

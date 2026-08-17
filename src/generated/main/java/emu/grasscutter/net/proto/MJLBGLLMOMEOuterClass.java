@@ -972,8 +972,8 @@ public final class MJLBGLLMOMEOuterClass {
       "\n\021MJLBGLLMOME.proto\032\020AvatarInfo.proto\"W\n" +
       "\013MJLBGLLMOME\022%\n\020avatar_info_list\030\002 \003(\0132\013" +
       ".AvatarInfo\022\017\n\007retcode\030\006 \001(\005\022\020\n\010level_id" +
-      "\030\t \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\t \001(\rB2\n\031emu.grasscutter.net.protoB\025MJL" +
+      "BGLLMOMEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

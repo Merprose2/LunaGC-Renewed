@@ -722,8 +722,9 @@ public final class EBAFBJENLJNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EBAFBJENLJN.proto\"9\n\013EBAFBJENLJN\022\020\n\010le" +
-      "vel_id\030\005 \001(\r\022\030\n\020avatar_guid_list\030\017 \003(\004B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "vel_id\030\005 \001(\r\022\030\n\020avatar_guid_list\030\017 \003(\004B2" +
+      "\n\031emu.grasscutter.net.protoB\025EBAFBJENLJN" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -668,8 +668,8 @@ public final class BJAPGPEKBKEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BJAPGPEKBKE.proto\"O\n\013BJAPGPEKBKE\022\024\n\014du" +
       "ngeon_guid\030\001 \001(\004\022\025\n\r_is_interrupt\030\004 \001(\010\022" +
-      "\023\n\013BFIFPLMKLNA\030\007 \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\023\n\013BFIFPLMKLNA\030\007 \001(\rB2\n\031emu.grasscutter." +
+      "net.protoB\025BJAPGPEKBKEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

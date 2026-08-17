@@ -934,8 +934,9 @@ public final class CKIJDHIBPNGOuterClass {
       "\n\021CKIJDHIBPNG.proto\032\021EBIKHONFCMB.proto\032\r" +
       "UgcType.proto\"f\n\013CKIJDHIBPNG\022\032\n\010ugc_type" +
       "\030\t \001(\0162\010.UgcType\022\"\n\nmusic_info\030\n \001(\0132\014.E" +
-      "BIKHONFCMBH\000\022\017\n\007retcode\030\013 \001(\005B\006\n\004infoB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "BIKHONFCMBH\000\022\017\n\007retcode\030\013 \001(\005B\006\n\004infoB2\n" +
+      "\031emu.grasscutter.net.protoB\025CKIJDHIBPNGO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

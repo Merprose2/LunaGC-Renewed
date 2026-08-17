@@ -737,8 +737,8 @@ public final class ODGGANGFEIFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ODGGANGFEIF.proto\"O\n\013ODGGANGFEIF\022\016\n\006po" +
       "s_id\030\003 \001(\r\022\017\n\007retcode\030\006 \001(\005\022\016\n\006is_add\030\010 " +
-      "\001(\010\022\017\n\007item_id\030\t \001(\rB\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\001(\010\022\017\n\007item_id\030\t \001(\rB2\n\031emu.grasscutter." +
+      "net.protoB\025ODGGANGFEIFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

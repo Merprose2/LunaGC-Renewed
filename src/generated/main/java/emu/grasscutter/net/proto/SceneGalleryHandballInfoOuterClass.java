@@ -723,8 +723,9 @@ public final class SceneGalleryHandballInfoOuterClass {
       "\n\036SceneGalleryHandballInfo.proto\032\017PlaceI" +
       "nfo.proto\"U\n\030SceneGalleryHandballInfo\022\024\n" +
       "\014is_have_ball\030\007 \001(\010\022#\n\017ball_place_info\030\014" +
-      " \001(\0132\n.PlaceInfoB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      " \001(\0132\n.PlaceInfoB?\n\031emu.grasscutter.net." +
+      "protoB\"SceneGalleryHandballInfoOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

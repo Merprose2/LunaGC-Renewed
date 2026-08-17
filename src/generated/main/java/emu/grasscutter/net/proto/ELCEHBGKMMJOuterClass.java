@@ -738,8 +738,8 @@ public final class ELCEHBGKMMJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ELCEHBGKMMJ.proto\"O\n\013ELCEHBGKMMJ\022\024\n\013KL" +
       "CHKFNGFLI\030\365\003 \001(\005\022\024\n\013BCHNKBKIBGB\030\366\003 \001(\t\022\024" +
-      "\n\013GFBEHOBEAPN\030\367\003 \001(\005B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\n\013GFBEHOBEAPN\030\367\003 \001(\005B2\n\031emu.grasscutter." +
+      "net.protoB\025ELCEHBGKMMJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

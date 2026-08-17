@@ -831,8 +831,8 @@ public final class IDBFBCKDFJLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IDBFBCKDFJL.proto\032\021EHBMHDLNNKH.proto\"0" +
       "\n\013IDBFBCKDFJL\022!\n\013JPHMJIBAABN\030\003 \003(\0132\014.EHB" +
-      "MHDLNNKHB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "MHDLNNKHB2\n\031emu.grasscutter.net.protoB\025I" +
+      "DBFBCKDFJLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

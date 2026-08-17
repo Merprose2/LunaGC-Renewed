@@ -526,7 +526,8 @@ public final class ScenePlayOutofRegionNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n ScenePlayOutofRegionNotify.proto\"-\n\032Sc" +
       "enePlayOutofRegionNotify\022\017\n\007play_id\030\001 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rBA\n\031emu.grasscutter.net.protoB$ScenePla" +
+      "yOutofRegionNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

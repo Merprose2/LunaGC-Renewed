@@ -454,8 +454,9 @@ public final class OKFNAHNKFCDOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021OKFNAHNKFCD.proto\"\r\n\013OKFNAHNKFCDB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021OKFNAHNKFCD.proto\"\r\n\013OKFNAHNKFCDB2\n\031em" +
+      "u.grasscutter.net.protoB\025OKFNAHNKFCDOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

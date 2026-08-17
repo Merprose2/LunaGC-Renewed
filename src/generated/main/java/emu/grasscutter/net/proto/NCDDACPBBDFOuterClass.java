@@ -659,8 +659,8 @@ public final class NCDDACPBBDFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NCDDACPBBDF.proto\032\021AJJKFCCFFKH.proto\"0" +
       "\n\013NCDDACPBBDF\022!\n\013FFBDIIMJOGD\030\001 \001(\0132\014.AJJ" +
-      "KFCCFFKHB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "KFCCFFKHB2\n\031emu.grasscutter.net.protoB\025N" +
+      "CDDACPBBDFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

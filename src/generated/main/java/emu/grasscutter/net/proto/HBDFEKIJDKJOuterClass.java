@@ -878,8 +878,9 @@ public final class HBDFEKIJDKJOuterClass {
       "\n\021HBDFEKIJDKJ.proto\"|\n\013HBDFEKIJDKJ\022\020\n\010us" +
       "e_time\030\001 \001(\r\022\017\n\007is_succ\030\003 \001(\010\022\023\n\013collect" +
       "_num\030\005 \001(\r\022\r\n\005score\030\010 \001(\r\022\021\n\thit_point\030\013" +
-      " \001(\r\022\023\n\013DOCOKIPMPKN\030\017 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      " \001(\r\022\023\n\013DOCOKIPMPKN\030\017 \001(\rB2\n\031emu.grasscu" +
+      "tter.net.protoB\025HBDFEKIJDKJOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

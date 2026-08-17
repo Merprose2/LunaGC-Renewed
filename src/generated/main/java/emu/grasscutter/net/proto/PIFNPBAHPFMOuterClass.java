@@ -667,8 +667,8 @@ public final class PIFNPBAHPFMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PIFNPBAHPFM.proto\"C\n\013PIFNPBAHPFM\022\023\n\013KM" +
       "DOFBPMGAI\030\003 \001(\r\022\n\n\002id\030\004 \001(\005\022\023\n\013ACKCJICEF" +
-      "LF\030\r \001(\010B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "LF\030\r \001(\010B2\n\031emu.grasscutter.net.protoB\025P" +
+      "IFNPBAHPFMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

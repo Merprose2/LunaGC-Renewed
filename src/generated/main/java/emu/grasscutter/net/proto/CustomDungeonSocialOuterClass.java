@@ -729,8 +729,8 @@ public final class CustomDungeonSocialOuterClass {
       "\n\031CustomDungeonSocial.proto\"c\n\023CustomDun" +
       "geonSocial\022\023\n\013GBNJHOCHGDC\030\001 \001(\r\022\023\n\013NMKGL" +
       "EHEEIN\030\002 \001(\r\022\020\n\010like_num\030\006 \001(\r\022\020\n\010play_n" +
-      "um\030\010 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "um\030\010 \001(\rB:\n\031emu.grasscutter.net.protoB\035C" +
+      "ustomDungeonSocialOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

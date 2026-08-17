@@ -738,8 +738,9 @@ public final class AvatarPromoteGetRewardRspOuterClass {
       "\n\037AvatarPromoteGetRewardRsp.proto\"k\n\031Ava" +
       "tarPromoteGetRewardRsp\022\023\n\013avatar_guid\030\001 " +
       "\001(\004\022\025\n\rpromote_level\030\004 \001(\r\022\021\n\treward_id\030" +
-      "\006 \001(\r\022\017\n\007retcode\030\007 \001(\005B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\006 \001(\r\022\017\n\007retcode\030\007 \001(\005B@\n\031emu.grasscutte" +
+      "r.net.protoB#AvatarPromoteGetRewardRspOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

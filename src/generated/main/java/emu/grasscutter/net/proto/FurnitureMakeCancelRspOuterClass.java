@@ -801,8 +801,8 @@ public final class FurnitureMakeCancelRspOuterClass {
       "eMakeSlot.proto\"k\n\026FurnitureMakeCancelRs" +
       "p\022\017\n\007make_id\030\003 \001(\r\022\017\n\007retcode\030\004 \001(\005\022/\n\023f" +
       "urniture_make_slot\030\010 \001(\0132\022.FurnitureMake" +
-      "SlotB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "SlotB=\n\031emu.grasscutter.net.protoB Furni" +
+      "tureMakeCancelRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

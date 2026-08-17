@@ -1585,8 +1585,8 @@ public final class JGNFHCCOBIPOuterClass {
       " \n\npoint_type\030\005 \001(\0162\014.JEOKDCIGCFP\022\023\n\013DGO" +
       "PCLCCGOP\030\006 \001(\010\022!\n\013EKCHFAHCAMB\030\007 \001(\0132\014.HH" +
       "EDHCFPEKM\022!\n\013PJDHMCJFHDD\030\010 \001(\0132\014.HHEDHCF" +
-      "PEKMB\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "PEKMB2\n\031emu.grasscutter.net.protoB\025JGNFH" +
+      "CCOBIPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

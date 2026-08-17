@@ -935,8 +935,9 @@ public final class NHMMLLBMENBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NHMMLLBMENB.proto\"W\n\013NHMMLLBMENB\022\n\n\002id" +
       "\030\001 \001(\005\022\020\n\010point_id\030\002 \001(\005\022\024\n\013GECANEMFKII\030" +
-      "\365\003 \001(\t\022\024\n\013LHPBCLLDGPE\030\366\003 \003(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\365\003 \001(\t\022\024\n\013LHPBCLLDGPE\030\366\003 \003(\rB2\n\031emu.gras" +
+      "scutter.net.protoB\025NHMMLLBMENBOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

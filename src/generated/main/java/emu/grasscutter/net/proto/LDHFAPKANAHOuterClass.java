@@ -737,8 +737,9 @@ public final class LDHFAPKANAHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LDHFAPKANAH.proto\"]\n\013LDHFAPKANAH\022\023\n\013BI" +
       "ANCBGAHBJ\030\005 \001(\r\022\017\n\007retcode\030\006 \001(\005\022\023\n\013HNDM" +
-      "ILFLLFB\030\t \001(\r\022\023\n\013avatar_guid\030\017 \001(\004B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "ILFLLFB\030\t \001(\r\022\023\n\013avatar_guid\030\017 \001(\004B2\n\031em" +
+      "u.grasscutter.net.protoB\025LDHFAPKANAHOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

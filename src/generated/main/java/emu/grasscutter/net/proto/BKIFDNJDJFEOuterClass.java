@@ -142,8 +142,9 @@ public final class BKIFDNJDJFEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BKIFDNJDJFE.proto*Q\n\013BKIFDNJDJFE\022\024\n\020BK" +
       "IFDNJDJFE_FREE\020\000\022\024\n\020BKIFDNJDJFE_PAID\020\001\022\026" +
-      "\n\022BKIFDNJDJFE_REWARD\020\002B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\n\022BKIFDNJDJFE_REWARD\020\002B2\n\031emu.grasscutte" +
+      "r.net.protoB\025BKIFDNJDJFEOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

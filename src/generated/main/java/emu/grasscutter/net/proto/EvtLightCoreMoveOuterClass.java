@@ -939,7 +939,8 @@ public final class EvtLightCoreMoveOuterClass {
       "\n\020EvtLightCoreMove\022\021\n\tentity_id\030\001 \001(\r\022\023\n" +
       "\013OIEHJIPOJHL\030\006 \001(\002\022\033\n\ntarget_pos\030\t \001(\0132\007" +
       ".Vector\022\023\n\013HOGLGAAIFKA\030\016 \001(\002\022\r\n\005speed\030\017 " +
-      "\001(\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\002B7\n\031emu.grasscutter.net.protoB\032EvtLig" +
+      "htCoreMoveOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

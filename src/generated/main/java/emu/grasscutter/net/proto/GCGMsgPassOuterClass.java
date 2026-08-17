@@ -517,8 +517,8 @@ public final class GCGMsgPassOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\020GCGMsgPass.proto\"#\n\nGCGMsgPass\022\025\n\rcont" +
-      "roller_id\030\n \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "roller_id\030\n \001(\rB1\n\031emu.grasscutter.net.p" +
+      "rotoB\024GCGMsgPassOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

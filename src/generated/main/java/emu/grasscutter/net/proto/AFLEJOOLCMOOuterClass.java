@@ -729,8 +729,9 @@ public final class AFLEJOOLCMOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AFLEJOOLCMO.proto\032\022HomeResource.proto\"" +
       "B\n\013AFLEJOOLCMO\022\"\n\013INHLCEBLKOG\030\002 \001(\0132\r.Ho" +
-      "meResource\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "meResource\022\017\n\007retcode\030\016 \001(\005B2\n\031emu.grass" +
+      "cutter.net.protoB\025AFLEJOOLCMOOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

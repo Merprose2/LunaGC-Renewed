@@ -652,8 +652,9 @@ public final class GCGDSBanCardNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030GCGDSBanCardNotify.proto\"\'\n\022GCGDSBanCa" +
-      "rdNotify\022\021\n\tcard_list\030\005 \003(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "rdNotify\022\021\n\tcard_list\030\005 \003(\rB9\n\031emu.grass" +
+      "cutter.net.protoB\034GCGDSBanCardNotifyOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

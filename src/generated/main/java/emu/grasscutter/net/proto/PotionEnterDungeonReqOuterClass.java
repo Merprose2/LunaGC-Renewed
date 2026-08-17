@@ -864,8 +864,8 @@ public final class PotionEnterDungeonReqOuterClass {
       "\n\033PotionEnterDungeonReq.proto\"b\n\025PotionE" +
       "nterDungeonReq\022\024\n\014buff_id_list\030\001 \003(\r\022\020\n\010" +
       "stage_id\030\007 \001(\r\022\020\n\010level_id\030\013 \001(\r\022\017\n\007mode" +
-      "_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "_id\030\017 \001(\rB<\n\031emu.grasscutter.net.protoB\037" +
+      "PotionEnterDungeonReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

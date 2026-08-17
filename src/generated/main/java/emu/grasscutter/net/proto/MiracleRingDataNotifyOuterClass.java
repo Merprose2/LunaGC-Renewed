@@ -809,8 +809,9 @@ public final class MiracleRingDataNotifyOuterClass {
       "eRingDataNotify\022\027\n\017miracle_ring_cd\030\001 \001(\r" +
       "\022\030\n\020gadget_entity_id\030\006 \001(\r\022\031\n\021is_gadget_" +
       "created\030\010 \001(\010\022\036\n\026last_deliver_item_time\030" +
-      "\013 \001(\r\022\035\n\025last_take_reward_time\030\016 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\013 \001(\r\022\035\n\025last_take_reward_time\030\016 \001(\rB<\n\031" +
+      "emu.grasscutter.net.protoB\037MiracleRingDa" +
+      "taNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

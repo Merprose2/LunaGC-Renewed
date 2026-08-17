@@ -595,8 +595,9 @@ public final class PGFLFABIKFBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PGFLFABIKFB.proto\"3\n\013PGFLFABIKFB\022\023\n\013sc" +
-      "hedule_id\030\001 \001(\r\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "hedule_id\030\001 \001(\r\022\017\n\007retcode\030\013 \001(\005B2\n\031emu." +
+      "grasscutter.net.protoB\025PGFLFABIKFBOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

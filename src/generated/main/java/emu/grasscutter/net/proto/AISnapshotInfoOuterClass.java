@@ -823,8 +823,9 @@ public final class AISnapshotInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024AISnapshotInfo.proto\032\032AISnapshotEntity" +
       "Data.proto\"=\n\016AISnapshotInfo\022+\n\014ai_snaps" +
-      "hots\030\r \003(\0132\025.AISnapshotEntityDataB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "hots\030\r \003(\0132\025.AISnapshotEntityDataB5\n\031emu" +
+      ".grasscutter.net.protoB\030AISnapshotInfoOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

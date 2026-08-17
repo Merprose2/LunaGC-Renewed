@@ -590,8 +590,9 @@ public final class CrystalLinkDungeonAvatarInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"CrystalLinkDungeonAvatarInfo.proto\"E\n\034" +
       "CrystalLinkDungeonAvatarInfo\022\020\n\010is_trial" +
-      "\030\004 \001(\010\022\023\n\013avatar_guid\030\005 \001(\004B\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\030\004 \001(\010\022\023\n\013avatar_guid\030\005 \001(\004BC\n\031emu.grass" +
+      "cutter.net.protoB&CrystalLinkDungeonAvat" +
+      "arInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

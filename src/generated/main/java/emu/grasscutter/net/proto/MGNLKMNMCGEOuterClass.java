@@ -668,8 +668,8 @@ public final class MGNLKMNMCGEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MGNLKMNMCGE.proto\"K\n\013MGNLKMNMCGE\022\022\n\nwo" +
       "rld_type\030\001 \001(\r\022\023\n\013DMOAFJHLHMH\030\t \001(\010\022\023\n\013O" +
-      "DGGPANEEJL\030\016 \001(\004B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "DGGPANEEJL\030\016 \001(\004B2\n\031emu.grasscutter.net." +
+      "protoB\025MGNLKMNMCGEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

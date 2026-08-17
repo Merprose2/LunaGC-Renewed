@@ -658,8 +658,8 @@ public final class AFCJANIEJKCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AFCJANIEJKC.proto\"F\n\013AFCJANIEJKC\022\023\n\013av" +
       "atar_type\030\004 \001(\r\022\r\n\005param\030\005 \001(\r\022\023\n\013LHBDPF" +
-      "NAFJO\030\013 \001(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "NAFJO\030\013 \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "B\025AFCJANIEJKCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

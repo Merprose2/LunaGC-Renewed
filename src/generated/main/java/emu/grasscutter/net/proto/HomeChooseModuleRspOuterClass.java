@@ -596,8 +596,8 @@ public final class HomeChooseModuleRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031HomeChooseModuleRsp.proto\"9\n\023HomeChoos" +
       "eModuleRsp\022\017\n\007retcode\030\004 \001(\005\022\021\n\tmodule_id" +
-      "\030\t \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\030\t \001(\rB:\n\031emu.grasscutter.net.protoB\035Hom" +
+      "eChooseModuleRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

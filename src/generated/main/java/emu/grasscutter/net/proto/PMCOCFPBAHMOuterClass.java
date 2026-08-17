@@ -831,8 +831,8 @@ public final class PMCOCFPBAHMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PMCOCFPBAHM.proto\032\021ILFPMCGGMOA.proto\"0" +
       "\n\013PMCOCFPBAHM\022!\n\013JAHFPLDMJFM\030\001 \003(\0132\014.ILF" +
-      "PMCGGMOAB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "PMCGGMOAB2\n\031emu.grasscutter.net.protoB\025P" +
+      "MCOCFPBAHMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

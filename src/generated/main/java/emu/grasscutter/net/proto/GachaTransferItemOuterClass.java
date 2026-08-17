@@ -723,7 +723,8 @@ public final class GachaTransferItemOuterClass {
       "\n\027GachaTransferItem.proto\032\017ItemParam.pro" +
       "to\"K\n\021GachaTransferItem\022\034\n\024is_transfer_i" +
       "tem_new\030\006 \001(\010\022\030\n\004item\030\t \001(\0132\n.ItemParamB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "8\n\031emu.grasscutter.net.protoB\033GachaTrans" +
+      "ferItemOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

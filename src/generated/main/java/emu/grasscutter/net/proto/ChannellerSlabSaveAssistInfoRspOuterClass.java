@@ -903,8 +903,9 @@ public final class ChannellerSlabSaveAssistInfoRspOuterClass {
       "\036ChannellerSlabAssistInfo.proto\"g\n\037Chann" +
       "ellerSlabSaveAssistInfoRsp\0223\n\020assist_inf" +
       "o_list\030\007 \003(\0132\031.ChannellerSlabAssistInfo\022" +
-      "\017\n\007retcode\030\t \001(\005B\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\017\n\007retcode\030\t \001(\005BF\n\031emu.grasscutter.net." +
+      "protoB)ChannellerSlabSaveAssistInfoRspOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

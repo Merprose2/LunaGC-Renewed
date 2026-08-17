@@ -667,8 +667,8 @@ public final class HGNEHIEJCEEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HGNEHIEJCEE.proto\"I\n\013HGNEHIEJCEE\022\023\n\013CD" +
       "EMBFGJAPH\030\001 \001(\r\022\023\n\013KEHLBIHCOBB\030\005 \001(\010\022\020\n\010" +
-      "level_id\030\013 \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "level_id\030\013 \001(\rB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025HGNEHIEJCEEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

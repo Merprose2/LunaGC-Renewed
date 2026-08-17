@@ -667,7 +667,8 @@ public final class DungeonReviseLevelNotifyOuterClass {
       "\n\036DungeonReviseLevelNotify.proto\"X\n\030Dung" +
       "eonReviseLevelNotify\022\023\n\013LPLCCACPIAI\030\004 \001(" +
       "\r\022\022\n\ndungeon_id\030\010 \001(\r\022\023\n\013ABEGKKOCBBE\030\014 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB?\n\031emu.grasscutter.net.protoB\"Dungeon" +
+      "ReviseLevelNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

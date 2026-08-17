@@ -722,8 +722,9 @@ public final class NDHIIEMEJFOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NDHIIEMEJFO.proto\".\n\013NDHIIEMEJFO\022\r\n\005pa" +
-      "ram\030\003 \001(\r\022\020\n\010uid_list\030\n \003(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "ram\030\003 \001(\r\022\020\n\010uid_list\030\n \003(\rB2\n\031emu.grass" +
+      "cutter.net.protoB\025NDHIIEMEJFOOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

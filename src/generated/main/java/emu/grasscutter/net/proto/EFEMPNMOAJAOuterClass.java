@@ -901,8 +901,9 @@ public final class EFEMPNMOAJAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EFEMPNMOAJA.proto\032\021BIJNMOCAAJP.proto\"A" +
       "\n\013EFEMPNMOAJA\022\017\n\007retcode\030\004 \001(\005\022!\n\013HHLBBF" +
-      "NDODB\030\010 \003(\0132\014.BIJNMOCAAJPB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "NDODB\030\010 \003(\0132\014.BIJNMOCAAJPB2\n\031emu.grasscu" +
+      "tter.net.protoB\025EFEMPNMOAJAOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

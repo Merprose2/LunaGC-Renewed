@@ -659,8 +659,8 @@ public final class HONNOHKEAMFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HONNOHKEAMF.proto\032\021FGKIMEANAMG.proto\"0" +
       "\n\013HONNOHKEAMF\022!\n\013KDBPMAFLPBP\030\001 \001(\0132\014.FGK" +
-      "IMEANAMGB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "IMEANAMGB2\n\031emu.grasscutter.net.protoB\025H" +
+      "ONNOHKEAMFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

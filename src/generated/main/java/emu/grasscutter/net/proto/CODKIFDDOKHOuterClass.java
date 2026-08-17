@@ -766,8 +766,9 @@ public final class CODKIFDDOKHOuterClass {
       "\n\021CODKIFDDOKH.proto\032\021DDKGECEIPHN.proto\"n" +
       "\n\013CODKIFDDOKH\022\023\n\013CNHOMFGILDF\030\001 \001(\r\022 \n\nsk" +
       "ill_type\030\002 \001(\0162\014.DDKGECEIPHN\022\023\n\013JMIAJFND" +
-      "CCK\030\003 \001(\r\022\023\n\013BFJJLNAKGDL\030\004 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "CCK\030\003 \001(\r\022\023\n\013BFJJLNAKGDL\030\004 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025CODKIFDDOKHOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

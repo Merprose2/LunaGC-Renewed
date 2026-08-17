@@ -997,8 +997,9 @@ public final class DIILIMNHHJJOuterClass {
       "HKJKLNINJCK.proto\"}\n\013DIILIMNHHJJ\022\"\n\013PBMB" +
       "HGPGEDM\030\365\003 \001(\0132\014.DKNBEIDMMIM\022\"\n\013FJMDMAOJ" +
       "LEE\030\366\003 \001(\0132\014.HKJKLNINJCK\022\020\n\007item_id\030\367\003 \001" +
-      "(\005\022\024\n\013JNKFCGBNKBF\030\370\003 \001(\010B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "(\005\022\024\n\013JNKFCGBNKBF\030\370\003 \001(\010B2\n\031emu.grasscut" +
+      "ter.net.protoB\025DIILIMNHHJJOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

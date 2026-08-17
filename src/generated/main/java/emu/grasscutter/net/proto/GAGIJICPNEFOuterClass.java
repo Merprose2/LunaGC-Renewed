@@ -153,7 +153,8 @@ public final class GAGIJICPNEFOuterClass {
       "AGIJICPNEF_CONTENT_TYPE_UNSPECIFIED\020\000\022\035\n" +
       "\031GAGIJICPNEF_SHORT_COMMENT\020\001\022\031\n\025GAGIJICP" +
       "NEF_LONG_POST\020\002\022\032\n\026GAGIJICPNEF_MEDIA_POS" +
-      "T\020\003B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "T\020\003B2\n\031emu.grasscutter.net.protoB\025GAGIJI" +
+      "CPNEFOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

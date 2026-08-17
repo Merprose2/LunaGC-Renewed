@@ -1743,8 +1743,8 @@ public final class KLICEOCOIJBOuterClass {
       "APGPGNOAP\030\004 \001(\0132\014.EBKNDLPDBEG\022!\n\013BEOCLJB" +
       "LNPA\030\005 \001(\0132\014.PGPLIBJEJKC\022!\n\013IIKAAEIKGLI\030" +
       "\006 \001(\0132\014.IPFNKMAOOCA\022!\n\013LMNLGBACPAO\030\007 \001(\013" +
-      "2\014.KCLNGGMNHHAB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "2\014.KCLNGGMNHHAB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025KLICEOCOIJBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

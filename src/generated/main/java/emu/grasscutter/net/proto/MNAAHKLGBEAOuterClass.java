@@ -1159,8 +1159,9 @@ public final class MNAAHKLGBEAOuterClass {
       "\n\021MNAAHKLGBEA.proto\032\021FMBOOKDENNE.proto\"o" +
       "\n\013MNAAHKLGBEA\022\023\n\013MOLCPBGKILD\030\001 \001(\010\022\023\n\013AI" +
       "BMGMMKOIP\030\002 \003(\r\022\023\n\013OOMJDJEIGKH\030\003 \001(\005\022!\n\013" +
-      "CAPEIMGPADH\030\004 \003(\0132\014.FMBOOKDENNEB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "CAPEIMGPADH\030\004 \003(\0132\014.FMBOOKDENNEB2\n\031emu.g" +
+      "rasscutter.net.protoB\025MNAAHKLGBEAOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1713,7 +1713,8 @@ public final class LHLNLFODPCMOuterClass {
       "KJCCKAI\022!\n\013GOGJIMOJCDD\030\002 \003(\0132\014.CBOPLAEPE" +
       "FA\022!\n\013HLDCHGLGJPD\030\003 \003(\0132\014.CNEEFOOGIPN\022\023\n" +
       "\013OFDKDCPLOPL\030\004 \001(\010\022\024\n\013ANBILDFILEJ\030\371\003 \001(\010" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025LHLNLFODP" +
+      "CMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

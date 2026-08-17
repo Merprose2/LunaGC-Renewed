@@ -143,8 +143,9 @@ public final class DBCJMBLKAMLOuterClass {
       "\n\021DBCJMBLKAML.proto*y\n\013DBCJMBLKAML\022\024\n\020DB" +
       "CJMBLKAML_NONE\020\000\022)\n%DBCJMBLKAML_COMPLETE" +
       "_NOT_FETCH_REWARD\020\001\022)\n%DBCJMBLKAML_COMPL" +
-      "ETE_AND_FETCH_REWARD\020\002B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "ETE_AND_FETCH_REWARD\020\002B2\n\031emu.grasscutte" +
+      "r.net.protoB\025DBCJMBLKAMLOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

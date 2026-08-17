@@ -1070,8 +1070,9 @@ public final class TowerMonthlyDetailOuterClass {
       "mbat_record\030\003 \001(\0132\031.TowerMonthlyCombatRe" +
       "cord\022\023\n\013BNGBAHKIENI\030\004 \001(\010\022\023\n\013FPFNLDNMACP" +
       "\030\010 \001(\r\022)\n\rmonthly_brief\030\t \001(\0132\022.TowerMon" +
-      "thlyBrief\022\023\n\013GLBJCKAANLK\030\017 \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "thlyBrief\022\023\n\013GLBJCKAANLK\030\017 \001(\010B9\n\031emu.gr" +
+      "asscutter.net.protoB\034TowerMonthlyDetailO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

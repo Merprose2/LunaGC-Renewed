@@ -893,8 +893,9 @@ public final class DAGLCEGALFBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DAGLCEGALFB.proto\032\021OFOFPDNKDNI.proto\"E" +
       "\n\013DAGLCEGALFB\022\023\n\013INBDBIIFDBK\030\001 \001(\r\022!\n\013IJ" +
-      "PNOBPJAGJ\030\002 \003(\0132\014.OFOFPDNKDNIB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "PNOBPJAGJ\030\002 \003(\0132\014.OFOFPDNKDNIB2\n\031emu.gra" +
+      "sscutter.net.protoB\025DAGLCEGALFBOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

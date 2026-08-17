@@ -809,8 +809,8 @@ public final class JHKNNCOIEFLOuterClass {
       "\n\021JHKNNCOIEFL.proto\"o\n\013JHKNNCOIEFL\022\025\n\ris" +
       "_new_record\030\001 \001(\010\022\023\n\013PPMLAAFDIMJ\030\004 \001(\r\022\020" +
       "\n\010level_id\030\006 \001(\r\022\017\n\007retcode\030\007 \001(\005\022\021\n\tis_" +
-      "finish\030\010 \001(\010B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "finish\030\010 \001(\010B2\n\031emu.grasscutter.net.prot" +
+      "oB\025JHKNNCOIEFLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

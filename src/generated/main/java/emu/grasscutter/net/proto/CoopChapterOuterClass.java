@@ -2924,7 +2924,8 @@ public final class CoopChapterOuterClass {
       "\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\"X\n\005State" +
       "\022\017\n\013State_CLOSE\020\000\022\027\n\023State_COND_NOT_MEET" +
       "\020\001\022\023\n\017State_COND_MEET\020\002\022\020\n\014State_ACCEPT\020" +
-      "\003B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\003B2\n\031emu.grasscutter.net.protoB\025CoopChap" +
+      "terOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

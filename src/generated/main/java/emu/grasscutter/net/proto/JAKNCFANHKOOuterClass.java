@@ -525,8 +525,8 @@ public final class JAKNCFANHKOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JAKNCFANHKO.proto\"#\n\013JAKNCFANHKO\022\024\n\014re" +
-      "ward_index\030\017 \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "ward_index\030\017 \001(\rB2\n\031emu.grasscutter.net." +
+      "protoB\025JAKNCFANHKOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

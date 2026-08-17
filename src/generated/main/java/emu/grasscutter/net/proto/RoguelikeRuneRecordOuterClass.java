@@ -658,8 +658,9 @@ public final class RoguelikeRuneRecordOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031RoguelikeRuneRecord.proto\"P\n\023Roguelike" +
       "RuneRecord\022\023\n\013KPHKIPBJFMO\030\007 \001(\r\022\023\n\013HAKBG" +
-      "HFECEJ\030\t \001(\r\022\017\n\007rune_id\030\014 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "HFECEJ\030\t \001(\r\022\017\n\007rune_id\030\014 \001(\rB:\n\031emu.gra" +
+      "sscutter.net.protoB\035RoguelikeRuneRecordO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

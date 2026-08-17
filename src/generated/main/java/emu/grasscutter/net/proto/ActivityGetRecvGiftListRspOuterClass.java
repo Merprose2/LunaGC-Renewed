@@ -1346,8 +1346,9 @@ public final class ActivityGetRecvGiftListRspOuterClass {
       "o\"\224\001\n\032ActivityGetRecvGiftListRsp\022!\n\013AHEG" +
       "MNNFALK\030\004 \003(\0132\014.HJBHNGCOLJM\022-\n\016recv_gift" +
       "_list\030\010 \003(\0132\025.ActivityRecvGiftData\022\023\n\013sc" +
-      "hedule_id\030\t \001(\r\022\017\n\007retcode\030\n \001(\005B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "hedule_id\030\t \001(\r\022\017\n\007retcode\030\n \001(\005BA\n\031emu." +
+      "grasscutter.net.protoB$ActivityGetRecvGi" +
+      "ftListRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1211,8 +1211,9 @@ public final class ChessActivityDetailInfoOuterClass {
       "\r\022\r\n\005level\030\007 \001(\r\022!\n\031is_teach_dungeon_fin" +
       "ished\030\010 \001(\010\022\034\n\024finished_map_id_list\030\t \003(" +
       "\r\022\023\n\013MMJCFABPFPE\030\013 \001(\r\022\023\n\013AIHKOHFLHLC\030\014 " +
-      "\001(\r\022\031\n\021is_content_closed\030\016 \001(\010B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\001(\r\022\031\n\021is_content_closed\030\016 \001(\010B>\n\031emu.gr" +
+      "asscutter.net.protoB!ChessActivityDetail" +
+      "InfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

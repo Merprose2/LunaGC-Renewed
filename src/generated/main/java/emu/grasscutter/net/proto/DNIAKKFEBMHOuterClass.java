@@ -667,7 +667,8 @@ public final class DNIAKKFEBMHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DNIAKKFEBMH.proto\">\n\013DNIAKKFEBMH\022\020\n\010ma" +
       "tch_id\030\007 \001(\r\022\020\n\010is_agree\030\010 \001(\010\022\013\n\003uid\030\r " +
-      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025DNIAKK" +
+      "FEBMHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

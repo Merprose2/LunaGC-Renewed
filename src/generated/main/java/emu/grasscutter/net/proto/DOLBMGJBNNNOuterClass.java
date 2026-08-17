@@ -142,8 +142,9 @@ public final class DOLBMGJBNNNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DOLBMGJBNNN.proto*W\n\013DOLBMGJBNNN\022\024\n\020DO" +
       "LBMGJBNNN_NONE\020\000\022\034\n\030DOLBMGJBNNN_SERVER_P" +
-      "ARAM\020\001\022\024\n\020DOLBMGJBNNN_FROG\020\002B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "ARAM\020\001\022\024\n\020DOLBMGJBNNN_FROG\020\002B2\n\031emu.gras" +
+      "scutter.net.protoB\025DOLBMGJBNNNOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

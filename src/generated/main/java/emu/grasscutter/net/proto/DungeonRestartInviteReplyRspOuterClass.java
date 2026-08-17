@@ -669,7 +669,8 @@ public final class DungeonRestartInviteReplyRspOuterClass {
       "\n\"DungeonRestartInviteReplyRsp.proto\"Z\n\034" +
       "DungeonRestartInviteReplyRsp\022\026\n\016is_trans" +
       "_point\030\001 \001(\010\022\021\n\tis_accept\030\006 \001(\010\022\017\n\007retco" +
-      "de\030\010 \001(\005B\033\n\031emu.grasscutter.net.protob\006p" +
+      "de\030\010 \001(\005BC\n\031emu.grasscutter.net.protoB&D" +
+      "ungeonRestartInviteReplyRspOuterClassb\006p" +
       "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

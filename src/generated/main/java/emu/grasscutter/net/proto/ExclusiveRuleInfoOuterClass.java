@@ -715,8 +715,8 @@ public final class ExclusiveRuleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027ExclusiveRuleInfo.proto\">\n\021ExclusiveRu" +
       "leInfo\022\021\n\trule_type\030\001 \001(\r\022\026\n\016object_id_l" +
-      "ist\030\r \003(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "ist\030\r \003(\rB8\n\031emu.grasscutter.net.protoB\033" +
+      "ExclusiveRuleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

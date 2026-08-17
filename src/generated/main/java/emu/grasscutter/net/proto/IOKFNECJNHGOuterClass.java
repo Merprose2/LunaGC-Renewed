@@ -595,8 +595,9 @@ public final class IOKFNECJNHGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IOKFNECJNHG.proto\"5\n\013IOKFNECJNHG\022\023\n\013FF" +
-      "IDAJKGGIL\030\003 \001(\r\022\021\n\tentity_id\030\014 \001(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "IDAJKGGIL\030\003 \001(\r\022\021\n\tentity_id\030\014 \001(\rB2\n\031em" +
+      "u.grasscutter.net.protoB\025IOKFNECJNHGOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

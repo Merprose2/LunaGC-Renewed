@@ -831,8 +831,8 @@ public final class KMALBJAGLALOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KMALBJAGLAL.proto\032\021NHJDKJCBKIK.proto\"0" +
       "\n\013KMALBJAGLAL\022!\n\013OIIMDKMDFFI\030\017 \003(\0132\014.NHJ" +
-      "DKJCBKIKB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "DKJCBKIKB2\n\031emu.grasscutter.net.protoB\025K" +
+      "MALBJAGLALOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

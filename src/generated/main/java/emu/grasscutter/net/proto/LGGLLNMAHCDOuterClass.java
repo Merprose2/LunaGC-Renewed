@@ -871,8 +871,9 @@ public final class LGGLLNMAHCDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LGGLLNMAHCD.proto\032\021IEGJMGHAFDL.proto\"K" +
       "\n\013LGGLLNMAHCD\022\032\n\004data\030\001 \001(\0132\014.IEGJMGHAFD" +
-      "L\022\013\n\003day\030\002 \001(\005\022\023\n\013BKGGMOFHFNF\030\003 \001(\tB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "L\022\013\n\003day\030\002 \001(\005\022\023\n\013BKGGMOFHFNF\030\003 \001(\tB2\n\031e" +
+      "mu.grasscutter.net.protoB\025LGGLLNMAHCDOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

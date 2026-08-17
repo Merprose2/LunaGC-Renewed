@@ -1612,8 +1612,9 @@ public final class ScenePlayBattleSettlePlayerInfoOuterClass {
       "id\030\003 \001(\r\022\r\n\005param\030\006 \001(\003\022\021\n\tonline_id\030\t \001" +
       "(\t\022\020\n\010nickname\030\013 \001(\t\022\013\n\003uid\030\014 \001(\r\022)\n\tcar" +
       "d_list\030\016 \003(\0132\026.ExhibitionDisplayInfo\022(\n\017" +
-      "profile_picture\030\017 \001(\0132\017.ProfilePictureB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "profile_picture\030\017 \001(\0132\017.ProfilePictureBF" +
+      "\n\031emu.grasscutter.net.protoB)ScenePlayBa" +
+      "ttleSettlePlayerInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

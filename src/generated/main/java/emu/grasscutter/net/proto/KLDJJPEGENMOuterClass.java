@@ -1069,8 +1069,9 @@ public final class KLDJJPEGENMOuterClass {
       "\n\021KLDJJPEGENM.proto\032\021HHEDHCFPEKM.proto\"o" +
       "\n\013KLDJJPEGENM\022\023\n\013DENOPMIGEAB\030\001 \001(\r\022!\n\013CD" +
       "JAHHBGJHA\030\002 \001(\0132\014.HHEDHCFPEKM\022\023\n\013NCPNFBD" +
-      "CKMP\030\003 \003(\r\022\023\n\013KMMIBIEOKED\030\004 \001(\tB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "CKMP\030\003 \003(\r\022\023\n\013KMMIBIEOKED\030\004 \001(\tB2\n\031emu.g" +
+      "rasscutter.net.protoB\025KLDJJPEGENMOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

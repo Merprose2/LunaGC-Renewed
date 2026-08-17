@@ -737,8 +737,9 @@ public final class SubmitInferenceWordRspOuterClass {
       "\n\034SubmitInferenceWordRsp.proto\"b\n\026Submit" +
       "InferenceWordRsp\022\017\n\007word_id\030\001 \001(\r\022\017\n\007ret" +
       "code\030\007 \001(\005\022\025\n\rconclusion_id\030\010 \001(\r\022\017\n\007pag" +
-      "e_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "e_id\030\017 \001(\rB=\n\031emu.grasscutter.net.protoB" +
+      " SubmitInferenceWordRspOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

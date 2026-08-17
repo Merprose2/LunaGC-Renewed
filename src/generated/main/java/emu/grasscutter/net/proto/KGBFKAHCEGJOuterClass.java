@@ -155,8 +155,9 @@ public final class KGBFKAHCEGJOuterClass {
       "N_MEMBER_LEAVE_BY_SELF\020\001\022;\n7KGBFKAHCEGJ_" +
       "PLAYER_COLLECTION_MEMBER_LEAVE_BY_HEARTB" +
       "EAT\020\002\0226\n2KGBFKAHCEGJ_PLAYER_COLLECTION_M" +
-      "EMBER_LEAVE_BY_KICK\020\003B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "EMBER_LEAVE_BY_KICK\020\003B2\n\031emu.grasscutter" +
+      ".net.protoB\025KGBFKAHCEGJOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

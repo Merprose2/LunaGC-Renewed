@@ -57,7 +57,7 @@ public final class GNCGPNCIAMFOuterClass {
      * <code>._BeyondGiftType _beyond_gift_type = 10;</code>
      * @return The beyondGiftType.
      */
-    emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType getBeyondGiftType();
+    emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType getBeyondGiftType();
 
     /**
      * <code>uint32 AGLOCKOENLB = 12;</code>
@@ -2287,10 +2287,10 @@ public final class GNCGPNCIAMFOuterClass {
      * <code>._BeyondGiftType _beyond_gift_type = 10;</code>
      * @return The beyondGiftType.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType getBeyondGiftType() {
+    @java.lang.Override public emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType getBeyondGiftType() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType result = emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType.valueOf(BeyondGiftType_);
-      return result == null ? emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType result = emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType.valueOf(BeyondGiftType_);
+      return result == null ? emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType.UNRECOGNIZED : result;
     }
 
     public static final int AGLOCKOENLB_FIELD_NUMBER = 12;
@@ -2395,7 +2395,7 @@ public final class GNCGPNCIAMFOuterClass {
       if (BeyondGachaType_ != 0) {
         output.writeUInt32(9, BeyondGachaType_);
       }
-      if (BeyondGiftType_ != emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType._BeyondGiftType_NONE.getNumber()) {
+      if (BeyondGiftType_ != emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType._BeyondGiftType_NONE.getNumber()) {
         output.writeEnum(10, BeyondGiftType_);
       }
       if (aGLOCKOENLB_ != 0) {
@@ -2436,7 +2436,7 @@ public final class GNCGPNCIAMFOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(9, BeyondGachaType_);
       }
-      if (BeyondGiftType_ != emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType._BeyondGiftType_NONE.getNumber()) {
+      if (BeyondGiftType_ != emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType._BeyondGiftType_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(10, BeyondGiftType_);
       }
@@ -3037,17 +3037,17 @@ public final class GNCGPNCIAMFOuterClass {
        * @return The beyondGiftType.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType getBeyondGiftType() {
+      public emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType getBeyondGiftType() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType result = emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType.valueOf(BeyondGiftType_);
-        return result == null ? emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType result = emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType.valueOf(BeyondGiftType_);
+        return result == null ? emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType.UNRECOGNIZED : result;
       }
       /**
        * <code>._BeyondGiftType _beyond_gift_type = 10;</code>
        * @param value The beyondGiftType to set.
        * @return This builder for chaining.
        */
-      public Builder setBeyondGiftType(emu.grasscutter.net.proto.BeyondGiftType._BeyondGiftType value) {
+      public Builder setBeyondGiftType(emu.grasscutter.net.proto._BeyondGiftTypeOuterClass._BeyondGiftType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -3470,14 +3470,15 @@ public final class GNCGPNCIAMFOuterClass {
       "ondShopGiftInfo\022\023\n\013MMMFLNHEDNI\030\003 \003(\r\022\023\n\013" +
       "LDCJFLOPNMP\030\004 \001(\r\022!\n\013KAGKMENGAFH\030\010 \003(\0132\014" +
       ".AOGBDADBNNH\022\023\n\013CLKHBHKOOIM\030\r \001(\r\022\023\n\013HCK" +
-      "NFNJKIGP\030\017 \003(\rB\r\n\013DHKGDEJDBBFB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "NFNJKIGP\030\017 \003(\rB\r\n\013DHKGDEJDBBFB2\n\031emu.gra" +
+      "sscutter.net.protoB\025GNCGPNCIAMFOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.AOGBDADBNNHOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BeyondGiftType.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondGiftTypeOuterClass.getDescriptor(),
         });
     internal_static_GNCGPNCIAMF_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -3498,7 +3499,7 @@ public final class GNCGPNCIAMFOuterClass {
         internal_static_GNCGPNCIAMF__BeyondShopGiftInfo_descriptor,
         new java.lang.String[] { "MMMFLNHEDNI", "LDCJFLOPNMP", "KAGKMENGAFH", "CLKHBHKOOIM", "HCKNFNJKIGP", });
     emu.grasscutter.net.proto.AOGBDADBNNHOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BeyondGiftType.getDescriptor();
+    emu.grasscutter.net.proto._BeyondGiftTypeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

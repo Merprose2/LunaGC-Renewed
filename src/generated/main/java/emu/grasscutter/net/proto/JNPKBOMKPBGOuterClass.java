@@ -831,8 +831,8 @@ public final class JNPKBOMKPBGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JNPKBOMKPBG.proto\032\020Uint32Pair.proto\"/\n" +
       "\013JNPKBOMKPBG\022 \n\013HNIDFJPFFBH\030\010 \003(\0132\013.Uint" +
-      "32PairB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "32PairB2\n\031emu.grasscutter.net.protoB\025JNP" +
+      "KBOMKPBGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

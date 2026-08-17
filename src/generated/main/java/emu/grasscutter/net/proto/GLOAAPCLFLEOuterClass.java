@@ -1513,8 +1513,8 @@ public final class GLOAAPCLFLEOuterClass {
       "FA\030\007 \001(\010\022\023\n\013GEFPEMHGKLI\030\010 \001(\010\022\024\n\013HOEACHF" +
       "JLJD\030\365\003 \001(\002\022\024\n\013NKNFKKJANBO\030\366\003 \001(\005\022\024\n\013NPH" +
       "PCIBEAPD\030\367\003 \001(\005\022\"\n\013FOPDLFCDGHG\030\373\003 \001(\0162\014." +
-      "JEOKDCIGCFPB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "JEOKDCIGCFPB2\n\031emu.grasscutter.net.proto" +
+      "B\025GLOAAPCLFLEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

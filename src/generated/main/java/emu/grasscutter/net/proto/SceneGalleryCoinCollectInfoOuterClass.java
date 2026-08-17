@@ -588,8 +588,9 @@ public final class SceneGalleryCoinCollectInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n!SceneGalleryCoinCollectInfo.proto\"G\n\033S" +
       "ceneGalleryCoinCollectInfo\022\023\n\013DAICNCCPDP" +
-      "I\030\r \001(\r\022\023\n\013HPFKBKAHBKB\030\016 \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "I\030\r \001(\r\022\023\n\013HPFKBKAHBKB\030\016 \001(\rBB\n\031emu.gras" +
+      "scutter.net.protoB%SceneGalleryCoinColle" +
+      "ctInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

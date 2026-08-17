@@ -1021,8 +1021,9 @@ public final class LanV3RaceSettleNotifyOuterClass {
       "CMKMJKPAMFB\030\003 \001(\r\022\020\n\010level_id\030\005 \001(\r\022\022\n\ni" +
       "s_success\030\006 \001(\010\022\022\n\ngallery_id\030\007 \001(\r\022\r\n\005s" +
       "core\030\010 \001(\r\022\025\n\ris_new_record\030\014 \001(\010\022\023\n\013rem" +
-      "ain_time\030\r \001(\rB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "ain_time\030\r \001(\rB<\n\031emu.grasscutter.net.pr" +
+      "otoB\037LanV3RaceSettleNotifyOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

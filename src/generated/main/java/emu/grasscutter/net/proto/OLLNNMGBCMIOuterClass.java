@@ -729,8 +729,9 @@ public final class OLLNNMGBCMIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OLLNNMGBCMI.proto\032\021GPEKEBBFKLI.proto\"=" +
       "\n\013OLLNNMGBCMI\022\023\n\013LJGHDOOCCGC\030\013 \001(\r\022\031\n\003po" +
-      "s\030\017 \001(\0132\014.GPEKEBBFKLIB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "s\030\017 \001(\0132\014.GPEKEBBFKLIB2\n\031emu.grasscutter" +
+      ".net.protoB\025OLLNNMGBCMIOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

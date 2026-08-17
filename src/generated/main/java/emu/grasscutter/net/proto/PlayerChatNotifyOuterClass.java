@@ -729,8 +729,9 @@ public final class PlayerChatNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026PlayerChatNotify.proto\032\016ChatInfo.proto" +
       "\"D\n\020PlayerChatNotify\022\022\n\nchannel_id\030\006 \001(\r" +
-      "\022\034\n\tchat_info\030\n \001(\0132\t.ChatInfoB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\022\034\n\tchat_info\030\n \001(\0132\t.ChatInfoB7\n\031emu.gr" +
+      "asscutter.net.protoB\032PlayerChatNotifyOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

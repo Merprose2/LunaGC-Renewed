@@ -1723,7 +1723,8 @@ public final class FKJJJECNKKLOuterClass {
       "FCMCMODJ\030\t \001(\014\022!\n\013PNAOJNCIOEO\030\013 \003(\0132\014.KH" +
       "LPCKIKDBB\022%\n\017level_info_list\030\r \003(\0132\014.LKJ" +
       "BDNFIOGP\022!\n\013GCGHMNEOPMP\030\016 \003(\0132\014.LPEBNDIN" +
-      "OGOB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "OGOB2\n\031emu.grasscutter.net.protoB\025FKJJJE" +
+      "CNKKLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

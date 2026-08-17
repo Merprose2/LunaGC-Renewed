@@ -518,8 +518,8 @@ public final class LKEGCIDHKHCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LKEGCIDHKHC.proto\"\037\n\013LKEGCIDHKHC\022\020\n\010le" +
-      "vel_id\030\001 \001(\004B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "vel_id\030\001 \001(\004B2\n\031emu.grasscutter.net.prot" +
+      "oB\025LKEGCIDHKHCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

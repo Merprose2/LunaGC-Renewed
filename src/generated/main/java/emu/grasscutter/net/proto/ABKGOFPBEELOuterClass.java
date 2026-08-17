@@ -2546,8 +2546,9 @@ public final class ABKGOFPBEELOuterClass {
       "CNDGLNKJO\022\023\n\013AMMOBBENFNL\030\002 \001(\r\022\023\n\013FKDDIP" +
       "JKLAK\030\003 \001(\010\022\023\n\013DMNMKHNMHIJ\030\004 \001(\004\022\023\n\013LNBO" +
       "BNINCCA\030\005 \001(\010\022\023\n\013IMOHDADIOFM\030\006 \001(\010\022\023\n\013CC" +
-      "LKMGFIKMF\030\007 \001(\010\022\023\n\013JBKEELPHALH\030\010 \001(\010B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "LKMGFIKMF\030\007 \001(\010\022\023\n\013JBKEELPHALH\030\010 \001(\010B2\n\031" +
+      "emu.grasscutter.net.protoB\025ABKGOFPBEELOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

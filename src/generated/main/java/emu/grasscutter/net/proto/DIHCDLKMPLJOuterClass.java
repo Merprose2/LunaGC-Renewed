@@ -979,8 +979,8 @@ public final class DIHCDLKMPLJOuterClass {
       "\n\021DIHCDLKMPLJ.proto\"m\n\013DIHCDLKMPLJ\022\023\n\013BL" +
       "MPDENIJAO\030\004 \003(\r\022\037\n\027_monster_chess_team_n" +
       "um\030\t \001(\r\022\023\n\013FKOCADOJFHN\030\014 \003(\r\022\023\n\013LGEDOEH" +
-      "MBFO\030\r \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "MBFO\030\r \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025DIHCDLKMPLJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

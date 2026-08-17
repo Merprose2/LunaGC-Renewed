@@ -596,7 +596,8 @@ public final class FABAKNJCGLLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FABAKNJCGLL.proto\";\n\013FABAKNJCGLL\022\023\n\013KJ" +
       "KKLKHBAAL\030\005 \001(\r\022\027\n\017parent_quest_id\030\t \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "B2\n\031emu.grasscutter.net.protoB\025FABAKNJCG" +
+      "LLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

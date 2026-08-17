@@ -142,8 +142,9 @@ public final class KNCBLDBLJCKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KNCBLDBLJCK.proto*Q\n\013KNCBLDBLJCK\022\025\n\021KN" +
       "CBLDBLJCK_BRIEF\020\000\022\026\n\022KNCBLDBLJCK_CUSTOM\020" +
-      "\001\022\023\n\017KNCBLDBLJCK_ALL\020\002B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\001\022\023\n\017KNCBLDBLJCK_ALL\020\002B2\n\031emu.grasscutte" +
+      "r.net.protoB\025KNCBLDBLJCKOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

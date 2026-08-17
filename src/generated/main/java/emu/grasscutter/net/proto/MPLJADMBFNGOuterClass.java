@@ -666,8 +666,8 @@ public final class MPLJADMBFNGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MPLJADMBFNG.proto\"B\n\013MPLJADMBFNG\022\023\n\013DH" +
       "OJECCNGOF\030\004 \001(\r\022\017\n\007retcode\030\n \001(\005\022\r\n\005inde" +
-      "x\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "x\030\014 \001(\rB2\n\031emu.grasscutter.net.protoB\025MP" +
+      "LJADMBFNGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

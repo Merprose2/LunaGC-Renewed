@@ -164,7 +164,8 @@ public final class ExpeditionStateOuterClass {
       "\022\'\n#ExpeditionState_EXPEDITION_FINISHED\020" +
       "\002\022\'\n#ExpeditionState_EXPEDITION_REWARDED" +
       "\020\003\022%\n!ExpeditionState_EXPEDITION_LOCKED\020" +
-      "\004B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\004B6\n\031emu.grasscutter.net.protoB\031Expediti" +
+      "onStateOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

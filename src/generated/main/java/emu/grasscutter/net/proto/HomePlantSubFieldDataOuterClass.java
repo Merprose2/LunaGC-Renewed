@@ -965,8 +965,9 @@ public final class HomePlantSubFieldDataOuterClass {
       "ata\022\020\n\010end_time\030\002 \001(\007\022\017\n\007seed_id\030\005 \001(\r\022\026" +
       "\n\016home_gather_id\030\006 \001(\r\022+\n\014field_status\030\010" +
       " \001(\0162\025.HomePlantFieldStatus\022\026\n\016entity_id" +
-      "_list\030\r \003(\rB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "_list\030\r \003(\rB<\n\031emu.grasscutter.net.proto" +
+      "B\037HomePlantSubFieldDataOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

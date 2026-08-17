@@ -908,8 +908,9 @@ public final class DropItemReqOuterClass {
       "\n\021DropItemReq.proto\032\017StoreType.proto\032\014Ve" +
       "ctor.proto\"`\n\013DropItemReq\022\036\n\nstore_type\030" +
       "\006 \001(\0162\n.StoreType\022\014\n\004guid\030\010 \001(\004\022\r\n\005count" +
-      "\030\t \001(\r\022\024\n\003pos\030\014 \001(\0132\007.VectorB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\030\t \001(\r\022\024\n\003pos\030\014 \001(\0132\007.VectorB2\n\031emu.gras" +
+      "scutter.net.protoB\025DropItemReqOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -651,8 +651,8 @@ public final class GONAGNCFFAPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GONAGNCFFAP.proto\032\021EMOLMHKIMBE.proto\"0" +
       "\n\013GONAGNCFFAP\022!\n\013LICCJGPGOHF\030\001 \001(\0132\014.EMO" +
-      "LMHKIMBEB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "LMHKIMBEB2\n\031emu.grasscutter.net.protoB\025G" +
+      "ONAGNCFFAPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

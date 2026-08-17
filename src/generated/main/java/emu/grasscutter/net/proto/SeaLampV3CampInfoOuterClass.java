@@ -824,8 +824,8 @@ public final class SeaLampV3CampInfoOuterClass {
       "\n\027SeaLampV3CampInfo.proto\032\034SeaLampV3Camp" +
       "StageInfo.proto\"E\n\021SeaLampV3CampInfo\0220\n\017" +
       "stage_info_list\030\010 \003(\0132\027.SeaLampV3CampSta" +
-      "geInfoB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "geInfoB8\n\031emu.grasscutter.net.protoB\033Sea" +
+      "LampV3CampInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

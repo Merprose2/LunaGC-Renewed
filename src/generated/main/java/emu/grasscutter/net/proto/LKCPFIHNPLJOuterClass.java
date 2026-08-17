@@ -1535,8 +1535,9 @@ public final class LKCPFIHNPLJOuterClass {
       "\030\006 \001(\0162\014.JEOKDCIGCFP\022\023\n\013JJJLPPFPNCE\030\007 \001(" +
       "\010\022\023\n\013DMPKJKDABHC\030\024 \001(\005\022\023\n\013BHFDCBNMDAJ\030\025 " +
       "\001(\005\022\023\n\013BGHIFBPCOPK\030\026 \001(\002\022\023\n\013BOEOIDGFGHL\030" +
-      "\027 \001(\002\022\023\n\013KFJALIBLBHO\030\036 \001(\010B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\027 \001(\002\022\023\n\013KFJALIBLBHO\030\036 \001(\010B2\n\031emu.grassc" +
+      "utter.net.protoB\025LKCPFIHNPLJOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

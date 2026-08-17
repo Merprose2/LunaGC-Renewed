@@ -163,8 +163,9 @@ public final class AGGJEDNKONMOuterClass {
       "EDNKONM_TRIBAL_CHAPTER_NOT_OPEN\020\001\022#\n\037AGG" +
       "JEDNKONM_TRIBAL_CHAPTER_LOCK\020\002\022%\n!AGGJED" +
       "NKONM_TRIBAL_CHAPTER_UNLOCK\020\003\022%\n!AGGJEDN" +
-      "KONM_TRIBAL_CHAPTER_FINISH\020\004B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "KONM_TRIBAL_CHAPTER_FINISH\020\004B2\n\031emu.gras" +
+      "scutter.net.protoB\025AGGJEDNKONMOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

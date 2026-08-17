@@ -800,8 +800,9 @@ public final class GEMAJEGLEEAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GEMAJEGLEEA.proto\032\014Vector.proto\"R\n\013GEM" +
       "AJEGLEEA\022\023\n\013DPCHKOOFCJL\030\t \001(\010\022\023\n\013NKIMGBI" +
-      "NGPL\030\013 \001(\r\022\031\n\010position\030\017 \001(\0132\007.VectorB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "NGPL\030\013 \001(\r\022\031\n\010position\030\017 \001(\0132\007.VectorB2\n" +
+      "\031emu.grasscutter.net.protoB\025GEMAJEGLEEAO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

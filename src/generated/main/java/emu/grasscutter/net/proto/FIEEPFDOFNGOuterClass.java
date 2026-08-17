@@ -1262,8 +1262,9 @@ public final class FIEEPFDOFNGOuterClass {
       "\001\n\013FIEEPFDOFNG\022!\n\013NNNGNPMOIJC\030\001 \001(\0132\014.FB" +
       "KKKHHEDOC\022!\n\013CEDOOAMJOJK\030\002 \001(\0132\014.FBKKKHH" +
       "EDOC\022!\n\013AKJJEOCEAEH\030\003 \001(\0132\014.FBKKKHHEDOC\022" +
-      "!\n\013ENKHADJJLBK\030\004 \001(\0132\014.FBKKKHHEDOCB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "!\n\013ENKHADJJLBK\030\004 \001(\0132\014.FBKKKHHEDOCB2\n\031em" +
+      "u.grasscutter.net.protoB\025FIEEPFDOFNGOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

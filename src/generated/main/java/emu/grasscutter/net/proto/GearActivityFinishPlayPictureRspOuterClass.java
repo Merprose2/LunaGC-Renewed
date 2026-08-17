@@ -597,8 +597,9 @@ public final class GearActivityFinishPlayPictureRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n&GearActivityFinishPlayPictureRsp.proto" +
       "\"G\n GearActivityFinishPlayPictureRsp\022\022\n\n" +
-      "is_success\030\003 \001(\010\022\017\n\007retcode\030\004 \001(\005B\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "is_success\030\003 \001(\010\022\017\n\007retcode\030\004 \001(\005BG\n\031emu" +
+      ".grasscutter.net.protoB*GearActivityFini" +
+      "shPlayPictureRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

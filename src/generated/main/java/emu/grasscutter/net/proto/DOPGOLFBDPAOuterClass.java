@@ -1199,8 +1199,8 @@ public final class DOPGOLFBDPAOuterClass {
       "PGOLFBDPA\022\023\n\013CLALDLOODKP\030\001 \001(\r\022\034\n\013EMLILO" +
       "BNIOG\030\003 \001(\0132\007.Vector\022\033\n\ntarget_pos\030\005 \001(\013" +
       "2\007.Vector\022\016\n\006ref_id\030\010 \001(\r\022\030\n\007ref_pos\030\r \001" +
-      "(\0132\007.VectorB\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "(\0132\007.VectorB2\n\031emu.grasscutter.net.proto" +
+      "B\025DOPGOLFBDPAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -881,7 +881,8 @@ public final class BNIACPBKIBJOuterClass {
       "NALLHJFJKJ\030\001 \001(\010\022\023\n\013OODHKAGHABE\030\002 \001(\002\022\023\n" +
       "\013JKKILOAHPCB\030\003 \001(\002\022\023\n\013HMEOIFCKIOC\030\004 \001(\002\022" +
       "\023\n\013LDDGNMEOLPE\030\005 \001(\002\022\023\n\013EMPBAKECMBI\030\006 \001(" +
-      "\002B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\002B2\n\031emu.grasscutter.net.protoB\025BNIACPBK" +
+      "IBJOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

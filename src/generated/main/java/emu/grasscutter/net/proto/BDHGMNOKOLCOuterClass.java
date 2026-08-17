@@ -596,7 +596,8 @@ public final class BDHGMNOKOLCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BDHGMNOKOLC.proto\"<\n\013BDHGMNOKOLC\022\030\n\020di" +
       "fficulty_level\030\010 \001(\r\022\023\n\013PNAOEHIFIJK\030\013 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\rB2\n\031emu.grasscutter.net.protoB\025BDHGMNOK" +
+      "OLCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -667,7 +667,8 @@ public final class FinishDeliveryNotifyOuterClass {
       "\n\032FinishDeliveryNotify.proto\"\\\n\024FinishDe" +
       "liveryNotify\022\023\n\013schedule_id\030\006 \001(\r\022\021\n\tday" +
       "_index\030\007 \001(\r\022\034\n\024finished_quest_index\030\010 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\rB;\n\031emu.grasscutter.net.protoB\036FinishD" +
+      "eliveryNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

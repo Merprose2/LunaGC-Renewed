@@ -1334,7 +1334,8 @@ public final class HJBHNGCOLJMOuterClass {
       "id\030\003 \001(\t\022\016\n\006psn_id\030\005 \001(\t\022\017\n\007is_read\030\006 \001(" +
       "\010\022\023\n\013AEDHGOEGIHF\030\007 \001(\r\022\023\n\013ELIKEIKGLEO\030\t " +
       "\001(\010\022\r\n\005_xuid\030\013 \001(\t\022\026\n\016_xbox_gamertag\030\016 \001" +
-      "(\tB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "(\tB2\n\031emu.grasscutter.net.protoB\025HJBHNGC" +
+      "OLJMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

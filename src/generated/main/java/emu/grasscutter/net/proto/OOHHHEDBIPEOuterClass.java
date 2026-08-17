@@ -893,8 +893,9 @@ public final class OOHHHEDBIPEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OOHHHEDBIPE.proto\032\021COANADBOCBP.proto\"B" +
       "\n\013OOHHHEDBIPE\022!\n\013KDFMEPMGGHJ\030\001 \003(\0132\014.COA" +
-      "NADBOCBP\022\020\n\010stage_id\030\014 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "NADBOCBP\022\020\n\010stage_id\030\014 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025OOHHHEDBIPEOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

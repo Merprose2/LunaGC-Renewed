@@ -704,8 +704,8 @@ public final class NBGFLJHFDNMOuterClass {
       "\n\021NBGFLJHFDNM.proto\032\021CGMJHOPBMHO.proto\"Z" +
       "\n\013NBGFLJHFDNM\022\023\n\013EOBCLOMPAGB\030\007 \001(\r\022!\n\013PM" +
       "FLKFFCOOI\030\014 \001(\0162\014.CGMJHOPBMHO\022\023\n\013CLLJMHK" +
-      "DPNP\030\r \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "DPNP\030\r \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025NBGFLJHFDNMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1013,8 +1013,9 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
       "lePicture.proto\"\203\001\n\031FurnitureMakeBeHelpe" +
       "dData\022\023\n\013player_name\030\002 \001(\t\022\013\n\003uid\030\007 \001(\r\022" +
       "\014\n\004icon\030\010 \001(\r\022(\n\017profile_picture\030\014 \001(\0132\017" +
-      ".ProfilePicture\022\014\n\004time\030\016 \001(\007B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      ".ProfilePicture\022\014\n\004time\030\016 \001(\007B@\n\031emu.gra" +
+      "sscutter.net.protoB#FurnitureMakeBeHelpe" +
+      "dDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

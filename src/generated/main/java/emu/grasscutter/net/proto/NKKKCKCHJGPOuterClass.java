@@ -729,8 +729,9 @@ public final class NKKKCKCHJGPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NKKKCKCHJGP.proto\032\021FriendBrief.proto\"L" +
       "\n\013NKKKCKCHJGP\022\022\n\ntarget_uid\030\t \001(\r\022)\n\023tar" +
-      "get_friend_brief\030\016 \001(\0132\014.FriendBriefB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "get_friend_brief\030\016 \001(\0132\014.FriendBriefB2\n\031" +
+      "emu.grasscutter.net.protoB\025NKKKCKCHJGPOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

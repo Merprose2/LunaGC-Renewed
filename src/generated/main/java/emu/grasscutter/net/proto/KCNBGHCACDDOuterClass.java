@@ -525,8 +525,8 @@ public final class KCNBGHCACDDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KCNBGHCACDD.proto\"\"\n\013KCNBGHCACDD\022\023\n\013BE" +
-      "CCLKKJHAC\030\003 \001(\rB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "CCLKKJHAC\030\003 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025KCNBGHCACDDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -768,8 +768,9 @@ public final class GCGMsgOpTimerOuterClass {
       "\n\023GCGMsgOpTimer.proto\032\022GCGPhaseType.prot" +
       "o\"l\n\rGCGMsgOpTimer\022\022\n\nbegin_time\030\003 \001(\006\022\022" +
       "\n\ntime_stamp\030\013 \001(\006\022\034\n\005phase\030\r \001(\0162\r.GCGP" +
-      "haseType\022\025\n\rcontroller_id\030\017 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "haseType\022\025\n\rcontroller_id\030\017 \001(\rB4\n\031emu.g" +
+      "rasscutter.net.protoB\027GCGMsgOpTimerOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

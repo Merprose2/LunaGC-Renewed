@@ -667,8 +667,8 @@ public final class ILNAKGIDJKLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ILNAKGIDJKL.proto\"\"\n\013ILNAKGIDJKL\022\023\n\013OP" +
-      "OCNCKFNMO\030\001 \003(\tB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "OCNCKFNMO\030\001 \003(\tB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025ILNAKGIDJKLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

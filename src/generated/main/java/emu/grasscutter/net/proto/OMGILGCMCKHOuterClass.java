@@ -908,8 +908,8 @@ public final class OMGILGCMCKHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OMGILGCMCKH.proto\"D\n\013OMGILGCMCKH\022\023\n\013KE" +
       "ODNDGLGBP\030\001 \003(\r\022\013\n\003uid\030\002 \001(\r\022\023\n\013FMAPFLDN" +
-      "FLD\030\013 \003(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "FLD\030\013 \003(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "OMGILGCMCKHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

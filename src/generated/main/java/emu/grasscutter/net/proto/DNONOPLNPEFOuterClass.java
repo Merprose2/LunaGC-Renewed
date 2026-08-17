@@ -729,8 +729,9 @@ public final class DNONOPLNPEFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DNONOPLNPEF.proto\032\021GJNLIODLICB.proto\"A" +
       "\n\013DNONOPLNPEF\022!\n\013OOPGEBAFGPP\030\t \001(\0132\014.GJN" +
-      "LIODLICB\022\017\n\007retcode\030\n \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "LIODLICB\022\017\n\007retcode\030\n \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025DNONOPLNPEFOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

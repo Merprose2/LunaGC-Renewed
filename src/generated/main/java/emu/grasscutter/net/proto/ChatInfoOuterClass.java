@@ -11452,13 +11452,13 @@ public final class ChatInfoOuterClass {
       " \001(\004\022\023\n\013DELCBHHBDCJ\030\005 \001(\r\022\023\n\013EILHBPNLEFB" +
       "\030\010 \001(\r\022\023\n\013LMNLLOEFBOM\030\n \001(\r\022\023\n\013GOFEPGIPJ" +
       "NF\030\016 \003(\r\022\023\n\013OJDIIPKINNL\030\017 \001(\004B\r\n\013ILHFEBF" +
-      "KBOGB\t\n\007contentB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "KBOGB\t\n\007contentB/\n\031emu.grasscutter.net.p" +
+      "rotoB\022ChatInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BeyondGachaGift.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondGachaGiftOuterClass.getDescriptor(),
         });
     internal_static_ChatInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -11526,7 +11526,7 @@ public final class ChatInfoOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ChatInfo__HallRecruitingInvitation_descriptor,
         new java.lang.String[] { "DKLMLPNMIHN", "DELCBHHBDCJ", "EILHBPNLEFB", "LMNLLOEFBOM", "GOFEPGIPJNF", "OJDIIPKINNL", });
-    emu.grasscutter.net.proto.BeyondGachaGift.getDescriptor();
+    emu.grasscutter.net.proto._BeyondGachaGiftOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

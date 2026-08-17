@@ -518,8 +518,9 @@ public final class GameplayRecommendationReliquaryRequestOuterClass {
     java.lang.String[] descriptorData = {
       "\n,GameplayRecommendationReliquaryRequest" +
       ".proto\"<\n&GameplayRecommendationReliquar" +
-      "yRequest\022\022\n\nequip_type\030\r \001(\rB\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "yRequest\022\022\n\nequip_type\030\r \001(\rBM\n\031emu.gras" +
+      "scutter.net.protoB0GameplayRecommendatio" +
+      "nReliquaryRequestOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

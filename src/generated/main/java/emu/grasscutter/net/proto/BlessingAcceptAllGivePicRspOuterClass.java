@@ -1049,8 +1049,9 @@ public final class BlessingAcceptAllGivePicRspOuterClass {
       "icRsp.AcceptPicNumMapEntry\022\017\n\007retcode\030\010 " +
       "\001(\005\022\031\n\021accept_index_list\030\t \003(\r\0326\n\024Accept" +
       "PicNumMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001" +
-      "(\r:\0028\001B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "(\r:\0028\001BB\n\031emu.grasscutter.net.protoB%Ble" +
+      "ssingAcceptAllGivePicRspOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

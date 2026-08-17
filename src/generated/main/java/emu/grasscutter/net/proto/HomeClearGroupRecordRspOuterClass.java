@@ -596,8 +596,9 @@ public final class HomeClearGroupRecordRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035HomeClearGroupRecordRsp.proto\"<\n\027HomeC" +
       "learGroupRecordRsp\022\020\n\010group_id\030\002 \001(\r\022\017\n\007" +
-      "retcode\030\005 \001(\005B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "retcode\030\005 \001(\005B>\n\031emu.grasscutter.net.pro" +
+      "toB!HomeClearGroupRecordRspOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

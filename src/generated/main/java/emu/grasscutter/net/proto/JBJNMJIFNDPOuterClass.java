@@ -1013,8 +1013,9 @@ public final class JBJNMJIFNDPOuterClass {
       "id\030\001 \001(\r\022\023\n\013PCNCAKBJNHA\030\003 \001(\020\022\023\n\013GOENMIJ" +
       "AKKO\030\004 \001(\020\022\023\n\013MIIBNNKGIIO\030\006 \001(\020\022\021\n\tcur_s" +
       "core\030\010 \001(\r\022\023\n\013OOLAFMGLDCD\030\014 \001(\r\022\020\n\010kill_" +
-      "num\030\r \001(\r\022\023\n\013FMEKKGNIOFA\030\017 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "num\030\r \001(\r\022\023\n\013FMEKKGNIOFA\030\017 \001(\rB2\n\031emu.gr" +
+      "asscutter.net.protoB\025JBJNMJIFNDPOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

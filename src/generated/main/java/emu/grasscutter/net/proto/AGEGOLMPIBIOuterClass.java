@@ -1303,8 +1303,8 @@ public final class AGEGOLMPIBIOuterClass {
       "\n\021AGEGOLMPIBI.proto\"r\n\013AGEGOLMPIBI\022\023\n\013OF" +
       "JCAJOONNI\030\007 \003(\r\022\023\n\013MBGLKMENGAD\030\010 \003(\r\022\023\n\013" +
       "ILKPPABKNPK\030\013 \003(\r\022\023\n\013MGNJCGCIJMD\030\016 \003(\r\022\017" +
-      "\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\n\007retcode\030\017 \001(\005B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025AGEGOLMPIBIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

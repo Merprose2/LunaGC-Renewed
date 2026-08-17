@@ -838,8 +838,9 @@ public final class GCGOperationRebootOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030GCGOperationReboot.proto\"J\n\022GCGOperati" +
       "onReboot\022\027\n\017dice_index_list\030\007 \003(\r\022\033\n\023cos" +
-      "t_card_guid_list\030\013 \003(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "t_card_guid_list\030\013 \003(\rB9\n\031emu.grasscutte" +
+      "r.net.protoB\034GCGOperationRebootOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

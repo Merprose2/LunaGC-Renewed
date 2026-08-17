@@ -901,8 +901,9 @@ public final class FFHNFBBGMLMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FFHNFBBGMLM.proto\032\021FJJOOMOJPCG.proto\"A" +
       "\n\013FFHNFBBGMLM\022!\n\013MFCBEPAOFDN\030\006 \003(\0132\014.FJJ" +
-      "OOMOJPCG\022\017\n\007retcode\030\n \001(\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "OOMOJPCG\022\017\n\007retcode\030\n \001(\005B2\n\031emu.grasscu" +
+      "tter.net.protoB\025FFHNFBBGMLMOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

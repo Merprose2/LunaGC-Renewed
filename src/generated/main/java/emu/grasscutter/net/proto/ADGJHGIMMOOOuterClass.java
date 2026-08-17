@@ -1043,8 +1043,9 @@ public final class ADGJHGIMMOOOuterClass {
       "\n\021ADGJHGIMMOO.proto\032\021HMGMOPDABHG.proto\"j" +
       "\n\013ADGJHGIMMOO\022!\n\013EHMEIMPKEEJ\030\003 \003(\0132\014.HMG" +
       "MOPDABHG\022\017\n\007retcode\030\t \001(\005\022\023\n\013EICOILFPOFD" +
-      "\030\013 \001(\004\022\022\n\nplayer_uid\030\r \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\030\013 \001(\004\022\022\n\nplayer_uid\030\r \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025ADGJHGIMMOOOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

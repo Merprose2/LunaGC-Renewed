@@ -517,8 +517,8 @@ public final class BKNDGIHIHBLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BKNDGIHIHBL.proto\"\"\n\013BKNDGIHIHBL\022\023\n\013BI" +
-      "FLHAOJNJO\030\001 \001(\005B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "FLHAOJNJO\030\001 \001(\005B2\n\031emu.grasscutter.net.p" +
+      "rotoB\025BKNDGIHIHBLOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

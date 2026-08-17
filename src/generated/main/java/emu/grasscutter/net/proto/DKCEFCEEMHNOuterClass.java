@@ -1176,8 +1176,8 @@ public final class DKCEFCEEMHNOuterClass {
       "MEGJINLPCLJ.proto\"u\n\013DKCEFCEEMHN\022\014\n\004type" +
       "\030\005 \001(\r\022\r\n\005param\030\006 \001(\r\022&\n\020reward_info_lis" +
       "t\030\010 \003(\0132\014.MEGJINLPCLJ\022!\n\013NPPMNEDJLJN\030\016 \001" +
-      "(\0132\014.GLFGBBKHAECB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "(\0132\014.GLFGBBKHAECB2\n\031emu.grasscutter.net." +
+      "protoB\025DKCEFCEEMHNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

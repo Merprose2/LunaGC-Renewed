@@ -588,8 +588,9 @@ public final class GCGSkillPreviewOnstageChangeInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n&GCGSkillPreviewOnstageChangeInfo.proto" +
       "\"L\n GCGSkillPreviewOnstageChangeInfo\022\023\n\013" +
-      "GLODEOEDEBO\030\007 \001(\r\022\023\n\013POKNAFFFPHI\030\017 \001(\rB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "GLODEOEDEBO\030\007 \001(\r\022\023\n\013POKNAFFFPHI\030\017 \001(\rBG" +
+      "\n\031emu.grasscutter.net.protoB*GCGSkillPre" +
+      "viewOnstageChangeInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

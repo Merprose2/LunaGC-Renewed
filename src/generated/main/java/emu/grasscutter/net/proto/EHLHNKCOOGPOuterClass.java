@@ -1407,8 +1407,9 @@ public final class EHLHNKCOOGPOuterClass {
       "EDHCFPEKM\022!\n\013EFCOEJONOIN\030\002 \001(\0132\014.HHEDHCF" +
       "PEKM\022!\n\013HGIKMPHFAFK\030\003 \001(\0132\014.HHEDHCFPEKM\022" +
       "!\n\013JOEPOFIHIMI\030\004 \001(\0132\014.HHEDHCFPEKM\022\023\n\013MD" +
-      "OLPEKKOPI\030\005 \001(\002\022\023\n\013AMELDOONLLF\030\006 \001(\002B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "OLPEKKOPI\030\005 \001(\002\022\023\n\013AMELDOONLLF\030\006 \001(\002B2\n\031" +
+      "emu.grasscutter.net.protoB\025EHLHNKCOOGPOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

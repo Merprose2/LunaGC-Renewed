@@ -1772,8 +1772,8 @@ public final class JNKAPPKOPDOOuterClass {
       "arams\030\001 \003(\0132\030.JNKAPPKOPDO.KOOAOLJLBNN\022\023\n" +
       "\013NGEDGDGBAID\030\002 \001(\014\022\014\n\004guid\030\003 \001(\t\022\022\n\nrequ" +
       "est_id\030\004 \001(\t\032\"\n\013KOOAOLJLBNN\022\023\n\013IBAGBNDOH" +
-      "LK\030\001 \001(\tB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "LK\030\001 \001(\tB2\n\031emu.grasscutter.net.protoB\025J" +
+      "NKAPPKOPDOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

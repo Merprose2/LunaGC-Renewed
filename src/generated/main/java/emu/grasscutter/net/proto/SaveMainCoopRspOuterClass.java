@@ -793,8 +793,9 @@ public final class SaveMainCoopRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025SaveMainCoopRsp.proto\"J\n\017SaveMainCoopR" +
       "sp\022\n\n\002id\030\001 \001(\r\022\032\n\022save_point_id_list\030\t \003" +
-      "(\r\022\017\n\007retcode\030\r \001(\005B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "(\r\022\017\n\007retcode\030\r \001(\005B6\n\031emu.grasscutter.n" +
+      "et.protoB\031SaveMainCoopRspOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

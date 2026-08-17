@@ -3064,8 +3064,9 @@ public final class SceneTeamAvatarOuterClass {
       "\022+\n\021scene_avatar_info\030\r \001(\0132\020.SceneAvata" +
       "rInfo\022\020\n\010scene_id\030\016 \001(\r\022\023\n\013weapon_guid\030\017" +
       " \001(\004\022&\n\013DGGJCMNHDOJ\030\214\006 \003(\0132\020.SceneWeapon" +
-      "Info\022\024\n\013is_on_scene\030\267\017 \001(\010B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "Info\022\024\n\013is_on_scene\030\267\017 \001(\010B6\n\031emu.grassc" +
+      "utter.net.protoB\031SceneTeamAvatarOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

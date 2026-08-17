@@ -595,8 +595,9 @@ public final class BMPEIDDJFFNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BMPEIDDJFFN.proto\"3\n\013BMPEIDDJFFN\022\020\n\010le" +
-      "vel_id\030\007 \001(\r\022\022\n\ndifficulty\030\016 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "vel_id\030\007 \001(\r\022\022\n\ndifficulty\030\016 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025BMPEIDDJFFNOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -971,8 +971,9 @@ public final class NNNCNGIICKGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NNNCNGIICKG.proto\032\021PNKBGCBFGCB.proto\"N" +
       "\n\013NNNCNGIICKG\022\017\n\007retcode\030\002 \001(\005\022\r\n\005param\030" +
-      "\003 \001(\r\022\037\n\tinfo_list\030\005 \003(\0132\014.PNKBGCBFGCBB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\003 \001(\r\022\037\n\tinfo_list\030\005 \003(\0132\014.PNKBGCBFGCBB2" +
+      "\n\031emu.grasscutter.net.protoB\025NNNCNGIICKG" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

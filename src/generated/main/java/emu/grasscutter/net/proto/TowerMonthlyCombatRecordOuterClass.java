@@ -1845,8 +1845,8 @@ public final class TowerMonthlyCombatRecordOuterClass {
       "(\0132\025.TowerFightRecordPair\022*\n\013JEMPGPIHKFO" +
       "\030\r \001(\0132\025.TowerFightRecordPair\0226\n\027most_re" +
       "veal_avatar_list\030\017 \003(\0132\025.TowerFightRecor" +
-      "dPairB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "dPairB?\n\031emu.grasscutter.net.protoB\"Towe" +
+      "rMonthlyCombatRecordOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

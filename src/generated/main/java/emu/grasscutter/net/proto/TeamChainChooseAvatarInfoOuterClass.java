@@ -589,8 +589,9 @@ public final class TeamChainChooseAvatarInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037TeamChainChooseAvatarInfo.proto\"G\n\031Tea" +
       "mChainChooseAvatarInfo\022\021\n\tavatar_id\030\001 \001(" +
-      "\r\022\027\n\017is_trial_avatar\030\006 \001(\010B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\r\022\027\n\017is_trial_avatar\030\006 \001(\010B@\n\031emu.grassc" +
+      "utter.net.protoB#TeamChainChooseAvatarIn" +
+      "foOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

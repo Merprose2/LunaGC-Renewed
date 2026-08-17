@@ -3140,8 +3140,9 @@ public final class FHDAACNFFHEOuterClass {
       "NNDPOHB\030\002 \003(\0132$.FHDAACNFFHE.NBEFALILAAO." +
       "MLHMPMOLNHP\022\023\n\013FKDDIPJKLAK\030\003 \001(\010\032E\n\013MLHM" +
       "PMOLNHP\022\023\n\013GLAOHDHPDAC\030\001 \001(\t\022!\n\013FDINJEIG" +
-      "OML\030\002 \003(\0132\014.ILGPAGOGEEJB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "OML\030\002 \003(\0132\014.ILGPAGOGEEJB2\n\031emu.grasscutt" +
+      "er.net.protoB\025FHDAACNFFHEOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

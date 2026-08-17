@@ -1265,8 +1265,8 @@ public final class GetAllMailResultNotifyOuterClass {
       "collected\030\002 \001(\010\022\034\n\tmail_list\030\005 \003(\0132\t.Mai" +
       "lData\022\017\n\007retcode\030\006 \001(\005\022\023\n\013transaction\030\007 " +
       "\001(\t\022\023\n\013JNBNDEPLFHD\030\010 \001(\r\022\023\n\013JJIOBHDAEFO\030" +
-      "\n \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\n \001(\rB=\n\031emu.grasscutter.net.protoB GetA" +
+      "llMailResultNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -142,8 +142,9 @@ public final class MBLBHFGKCJHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MBLBHFGKCJH.proto*a\n\013MBLBHFGKCJH\022\032\n\026MB" +
       "LBHFGKCJH_UNFINISHED\020\000\022\030\n\024MBLBHFGKCJH_FI" +
-      "NISHED\020\001\022\034\n\030MBLBHFGKCJH_TAKEN_REWARD\020\002B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "NISHED\020\001\022\034\n\030MBLBHFGKCJH_TAKEN_REWARD\020\002B2" +
+      "\n\031emu.grasscutter.net.protoB\025MBLBHFGKCJH" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -133,8 +133,8 @@ public final class HLOEPFEPHOIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HLOEPFEPHOI.proto*C\n\013HLOEPFEPHOI\022\024\n\020HL" +
       "OEPFEPHOI_NONE\020\000\022\036\n\032HLOEPFEPHOI_AUTO_SAV" +
-      "E_DATA\020\001B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "E_DATA\020\001B2\n\031emu.grasscutter.net.protoB\025H" +
+      "LOEPFEPHOIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

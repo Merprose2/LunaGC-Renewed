@@ -525,8 +525,8 @@ public final class BIGODKMCCGAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BIGODKMCCGA.proto\"\035\n\013BIGODKMCCGA\022\016\n\006np" +
-      "c_id\030\002 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "c_id\030\002 \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "\025BIGODKMCCGAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

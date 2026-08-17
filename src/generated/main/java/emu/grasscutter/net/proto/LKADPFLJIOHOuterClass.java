@@ -838,7 +838,8 @@ public final class LKADPFLJIOHOuterClass {
       "ILELMKGEBKA.proto\"d\n\013LKADPFLJIOH\022!\n\013GFLC" +
       "GONEDCE\030\001 \001(\0162\014.ILELMKGEBKA\022!\n\013ECBDLNFHB" +
       "PK\030\n \001(\0132\014.HAHEFJIHAGD\022\017\n\007retcode\030\017 \001(\005B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "2\n\031emu.grasscutter.net.protoB\025LKADPFLJIO" +
+      "HOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

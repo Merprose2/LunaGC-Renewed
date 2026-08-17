@@ -454,8 +454,9 @@ public final class PMOKOGFDAKEOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021PMOKOGFDAKE.proto\"\r\n\013PMOKOGFDAKEB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021PMOKOGFDAKE.proto\"\r\n\013PMOKOGFDAKEB2\n\031em" +
+      "u.grasscutter.net.protoB\025PMOKOGFDAKEOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

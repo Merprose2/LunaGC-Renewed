@@ -595,8 +595,9 @@ public final class ONLECPFAJKJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ONLECPFAJKJ.proto\"7\n\013ONLECPFAJKJ\022\023\n\013ex" +
-      "pire_time\030\t \001(\r\022\023\n\013NPEBHENAJFJ\030\n \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "pire_time\030\t \001(\r\022\023\n\013NPEBHENAJFJ\030\n \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025ONLECPFAJKJOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

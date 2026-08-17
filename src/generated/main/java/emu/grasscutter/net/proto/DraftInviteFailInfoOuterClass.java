@@ -696,8 +696,9 @@ public final class DraftInviteFailInfoOuterClass {
       "\n\031DraftInviteFailInfo.proto\032\033DraftInvite" +
       "FailReason.proto\"[\n\023DraftInviteFailInfo\022" +
       "&\n\006reason\030\004 \001(\0162\026.DraftInviteFailReason\022" +
-      "\017\n\007retcode\030\007 \001(\005\022\013\n\003uid\030\013 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\017\n\007retcode\030\007 \001(\005\022\013\n\003uid\030\013 \001(\rB:\n\031emu.gra" +
+      "sscutter.net.protoB\035DraftInviteFailInfoO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

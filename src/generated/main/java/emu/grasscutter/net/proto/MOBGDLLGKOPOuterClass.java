@@ -675,8 +675,9 @@ public final class MOBGDLLGKOPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MOBGDLLGKOP.proto\"7\n\013MOBGDLLGKOP\022\023\n\013GN" +
-      "NMNEGOHDN\030\002 \001(\r\022\023\n\013OIINMNNHJLD\030\003 \001(\tB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "NMNEGOHDN\030\002 \001(\r\022\023\n\013OIINMNNHJLD\030\003 \001(\tB2\n\031" +
+      "emu.grasscutter.net.protoB\025MOBGDLLGKOPOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

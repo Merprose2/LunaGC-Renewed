@@ -1299,8 +1299,8 @@ public final class FCBOAILCOJDOuterClass {
       "\013DJHMPDJCLGI\030\004 \001(\002\022\021\n\tconfig_id\030\005 \001(\r\022\023\n" +
       "\013AENPIDPILAB\030\006 \001(\r\022\023\n\013IPFBNDPBJMB\030\007 \001(\r\022" +
       "\023\n\013DKFKKAPOECB\030\010 \001(\r\022!\n\013FHPGHEEEFOK\030\025 \001(" +
-      "\0132\014.IBBBCHHJLOAB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\0132\014.IBBBCHHJLOAB2\n\031emu.grasscutter.net.p" +
+      "rotoB\025FCBOAILCOJDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

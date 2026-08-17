@@ -625,8 +625,9 @@ public final class LDFIMPJCMDIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LDFIMPJCMDI.proto\032\021HEEENDPMDPA.proto\"=" +
       "\n\013LDFIMPJCMDI\022\033\n\005state\030\014 \001(\0162\014.HEEENDPMD" +
-      "PA\022\021\n\ttarget_id\030\r \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "PA\022\021\n\ttarget_id\030\r \001(\rB2\n\031emu.grasscutter" +
+      ".net.protoB\025LDFIMPJCMDIOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

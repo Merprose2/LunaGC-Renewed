@@ -1541,8 +1541,9 @@ public final class PEAHGHEKKLAOuterClass {
       "o\030\002 \001(\0132\014.OHPCJFFDIHAH\000\022$\n\014lan_v_5_card\030" +
       "\017 \001(\0132\014.DGCIIEPCGEAH\000\022\032\n\010ugc_type\030\010 \001(\0162" +
       "\010.UgcType\022!\n\013CIKADAFKECN\030\t \003(\0132\014.GJJDBAC" +
-      "AIMG\022\017\n\007retcode\030\n \001(\005B\006\n\004infoB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "AIMG\022\017\n\007retcode\030\n \001(\005B\006\n\004infoB2\n\031emu.gra" +
+      "sscutter.net.protoB\025PEAHGHEKKLAOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

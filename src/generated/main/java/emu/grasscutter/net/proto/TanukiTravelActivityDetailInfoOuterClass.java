@@ -967,8 +967,9 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
       "avelActivityDetailInfo\022\034\n\024finished_level" +
       "_index\030\002 \001(\r\022=\n\035tanuki_travel_level_data" +
       "_list\030\t \003(\0132\026.TanukiTravelLevelData\022\031\n\021i" +
-      "s_content_closed\030\r \001(\010B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "s_content_closed\030\r \001(\010BE\n\031emu.grasscutte" +
+      "r.net.protoB(TanukiTravelActivityDetailI" +
+      "nfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

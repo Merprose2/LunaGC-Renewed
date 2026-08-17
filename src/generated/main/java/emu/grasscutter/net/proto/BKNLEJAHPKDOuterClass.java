@@ -730,8 +730,9 @@ public final class BKNLEJAHPKDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BKNLEJAHPKD.proto\"a\n\013BKNLEJAHPKD\022\023\n\013KH" +
       "EJLNDOHPI\030\001 \001(\010\022\023\n\013NCGPNAAHOEP\030\002 \001(\005\022\023\n\013" +
-      "GFIOCBDAHFE\030\003 \001(\005\022\023\n\013HOIOBBJGJCP\030\004 \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "GFIOCBDAHFE\030\003 \001(\005\022\023\n\013HOIOBBJGJCP\030\004 \001(\010B2" +
+      "\n\031emu.grasscutter.net.protoB\025BKNLEJAHPKD" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

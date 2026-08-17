@@ -871,7 +871,8 @@ public final class SceneEntityMoveReqOuterClass {
       "roto\"s\n\022SceneEntityMoveReq\022\024\n\014reliable_s" +
       "eq\030\001 \001(\r\022\022\n\nscene_time\030\010 \001(\r\022\021\n\tentity_i" +
       "d\030\014 \001(\r\022 \n\013motion_info\030\017 \001(\0132\013.MotionInf" +
-      "oB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "oB9\n\031emu.grasscutter.net.protoB\034SceneEnt" +
+      "ityMoveReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

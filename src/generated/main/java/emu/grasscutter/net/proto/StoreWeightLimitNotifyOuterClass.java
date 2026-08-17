@@ -1058,8 +1058,9 @@ public final class StoreWeightLimitNotifyOuterClass {
       "\001(\r\022\035\n\025furniture_count_limit\030\006 \001(\r\022\036\n\nst" +
       "ore_type\030\010 \001(\0162\n.StoreType\022\024\n\014weight_lim" +
       "it\030\t \001(\r\022\023\n\013CDHAIJGOKFC\030\016 \001(\r\022(\n beyond_" +
-      "hall_facility_count_limit\030\017 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "hall_facility_count_limit\030\017 \001(\rB=\n\031emu.g" +
+      "rasscutter.net.protoB StoreWeightLimitNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

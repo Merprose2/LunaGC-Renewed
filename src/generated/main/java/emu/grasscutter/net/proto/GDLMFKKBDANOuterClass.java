@@ -2842,8 +2842,9 @@ public final class GDLMFKKBDANOuterClass {
       "CBPDKBFJF\030\025 \001(\r\022\023\n\013OBMHFLODKJM\030\026 \001(\r\022\023\n\013" +
       "KNDABHGELHC\030\027 \001(\005\022\023\n\013JLKJCBGNHDB\030\030 \003(\r\022\023" +
       "\n\013ANNBDJJMEAK\030\031 \001(\010\022\023\n\013ELFONBJBLDL\030\032 \001(\005" +
-      "\022\023\n\013MANPKJMEBKJ\030\033 \001(\010B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\022\023\n\013MANPKJMEBKJ\030\033 \001(\010B2\n\031emu.grasscutter" +
+      ".net.protoB\025GDLMFKKBDANOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

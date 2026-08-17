@@ -1036,8 +1036,8 @@ public final class AsterMidDetailInfoOuterClass {
       "Info.proto\"v\n\022AsterMidDetailInfo\022\025\n\rcoll" +
       "ect_count\030\001 \001(\r\022\017\n\007is_open\030\010 \001(\010\022\022\n\nbegi" +
       "n_time\030\013 \001(\r\022$\n\tcamp_list\030\014 \003(\0132\021.AsterM" +
-      "idCampInfoB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "idCampInfoB9\n\031emu.grasscutter.net.protoB" +
+      "\034AsterMidDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

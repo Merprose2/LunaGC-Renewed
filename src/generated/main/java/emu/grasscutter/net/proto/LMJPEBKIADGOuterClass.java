@@ -38,11 +38,11 @@ public final class LMJPEBKIADGOuterClass {
      * <code>._ExtraSignalConfig extra_signal_config = 11;</code>
      * @return The extraSignalConfig.
      */
-    emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig getExtraSignalConfig();
+    emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig getExtraSignalConfig();
     /**
      * <code>._ExtraSignalConfig extra_signal_config = 11;</code>
      */
-    emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfigOrBuilder getExtraSignalConfigOrBuilder();
+    emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfigOrBuilder getExtraSignalConfigOrBuilder();
 
     public emu.grasscutter.net.proto.LMJPEBKIADGOuterClass.LMJPEBKIADG.DetailCase getDetailCase();
   }
@@ -99,14 +99,14 @@ public final class LMJPEBKIADGOuterClass {
               break;
             }
             case 90: {
-              emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig.Builder subBuilder = null;
+              emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig.Builder subBuilder = null;
               if (detailCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 11;
@@ -216,21 +216,21 @@ public final class LMJPEBKIADGOuterClass {
      * @return The extraSignalConfig.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig getExtraSignalConfig() {
+    public emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig getExtraSignalConfig() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig) detail_;
+         return (emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig) detail_;
       }
-      return emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig.getDefaultInstance();
+      return emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig.getDefaultInstance();
     }
     /**
      * <code>._ExtraSignalConfig extra_signal_config = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfigOrBuilder getExtraSignalConfigOrBuilder() {
+    public emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfigOrBuilder getExtraSignalConfigOrBuilder() {
       if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig) detail_;
+         return (emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig) detail_;
       }
-      return emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig.getDefaultInstance();
+      return emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -251,7 +251,7 @@ public final class LMJPEBKIADGOuterClass {
         output.writeEnum(1, hFDOCNHNLOB_);
       }
       if (detailCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig) detail_);
+        output.writeMessage(11, (emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,7 +268,7 @@ public final class LMJPEBKIADGOuterClass {
       }
       if (detailCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig) detail_);
+          .computeMessageSize(11, (emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -647,7 +647,7 @@ public final class LMJPEBKIADGOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig, emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig.Builder, emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfigOrBuilder> extraSignalConfigBuilder_;
+          emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig, emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig.Builder, emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfigOrBuilder> extraSignalConfigBuilder_;
       /**
        * <code>._ExtraSignalConfig extra_signal_config = 11;</code>
        * @return Whether the extraSignalConfig field is set.
@@ -661,23 +661,23 @@ public final class LMJPEBKIADGOuterClass {
        * @return The extraSignalConfig.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig getExtraSignalConfig() {
+      public emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig getExtraSignalConfig() {
         if (extraSignalConfigBuilder_ == null) {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig) detail_;
+            return (emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig) detail_;
           }
-          return emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig.getDefaultInstance();
+          return emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig.getDefaultInstance();
         } else {
           if (detailCase_ == 11) {
             return extraSignalConfigBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig.getDefaultInstance();
+          return emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig.getDefaultInstance();
         }
       }
       /**
        * <code>._ExtraSignalConfig extra_signal_config = 11;</code>
        */
-      public Builder setExtraSignalConfig(emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig value) {
+      public Builder setExtraSignalConfig(emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig value) {
         if (extraSignalConfigBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -694,7 +694,7 @@ public final class LMJPEBKIADGOuterClass {
        * <code>._ExtraSignalConfig extra_signal_config = 11;</code>
        */
       public Builder setExtraSignalConfig(
-          emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig.Builder builderForValue) {
+          emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig.Builder builderForValue) {
         if (extraSignalConfigBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -707,11 +707,11 @@ public final class LMJPEBKIADGOuterClass {
       /**
        * <code>._ExtraSignalConfig extra_signal_config = 11;</code>
        */
-      public Builder mergeExtraSignalConfig(emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig value) {
+      public Builder mergeExtraSignalConfig(emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig value) {
         if (extraSignalConfigBuilder_ == null) {
           if (detailCase_ == 11 &&
-              detail_ != emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig.newBuilder((emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig) detail_)
+              detail_ != emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig.newBuilder((emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -748,36 +748,36 @@ public final class LMJPEBKIADGOuterClass {
       /**
        * <code>._ExtraSignalConfig extra_signal_config = 11;</code>
        */
-      public emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig.Builder getExtraSignalConfigBuilder() {
+      public emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig.Builder getExtraSignalConfigBuilder() {
         return getExtraSignalConfigFieldBuilder().getBuilder();
       }
       /**
        * <code>._ExtraSignalConfig extra_signal_config = 11;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfigOrBuilder getExtraSignalConfigOrBuilder() {
+      public emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfigOrBuilder getExtraSignalConfigOrBuilder() {
         if ((detailCase_ == 11) && (extraSignalConfigBuilder_ != null)) {
           return extraSignalConfigBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig) detail_;
+            return (emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig) detail_;
           }
-          return emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig.getDefaultInstance();
+          return emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig.getDefaultInstance();
         }
       }
       /**
        * <code>._ExtraSignalConfig extra_signal_config = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig, emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig.Builder, emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfigOrBuilder> 
+          emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig, emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig.Builder, emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfigOrBuilder> 
           getExtraSignalConfigFieldBuilder() {
         if (extraSignalConfigBuilder_ == null) {
           if (!(detailCase_ == 11)) {
-            detail_ = emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig.getDefaultInstance();
           }
           extraSignalConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig, emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig.Builder, emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfigOrBuilder>(
-                  (emu.grasscutter.net.proto.ExtraSignalConfig._ExtraSignalConfig) detail_,
+              emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig, emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig.Builder, emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfigOrBuilder>(
+                  (emu.grasscutter.net.proto._ExtraSignalConfigOuterClass._ExtraSignalConfig) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -857,14 +857,14 @@ public final class LMJPEBKIADGOuterClass {
       "_ExtraSignalConfig.proto\"n\n\013LMJPEBKIADG\022" +
       "!\n\013HFDOCNHNLOB\030\001 \001(\0162\014.ADHGOPGOIFG\0222\n\023ex" +
       "tra_signal_config\030\013 \001(\0132\023._ExtraSignalCo" +
-      "nfigH\000B\010\n\006detailB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "nfigH\000B\010\n\006detailB2\n\031emu.grasscutter.net." +
+      "protoB\025LMJPEBKIADGOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.ADHGOPGOIFGOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.ExtraSignalConfig.getDescriptor(),
+          emu.grasscutter.net.proto._ExtraSignalConfigOuterClass.getDescriptor(),
         });
     internal_static_LMJPEBKIADG_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -873,7 +873,7 @@ public final class LMJPEBKIADGOuterClass {
         internal_static_LMJPEBKIADG_descriptor,
         new java.lang.String[] { "HFDOCNHNLOB", "ExtraSignalConfig", "Detail", });
     emu.grasscutter.net.proto.ADHGOPGOIFGOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.ExtraSignalConfig.getDescriptor();
+    emu.grasscutter.net.proto._ExtraSignalConfigOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

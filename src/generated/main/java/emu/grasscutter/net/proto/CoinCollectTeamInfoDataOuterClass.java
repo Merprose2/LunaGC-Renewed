@@ -1244,8 +1244,9 @@ public final class CoinCollectTeamInfoDataOuterClass {
       "CollectTeamInfoData\022\017\n\007is_host\030\001 \001(\010\022\027\n\017" +
       "choose_skill_no\030\004 \001(\r\022\026\n\016avatar_id_list\030" +
       "\006 \003(\r\022\022\n\nplayer_uid\030\010 \001(\r\022\023\n\013GKOLDEDJJDO" +
-      "\030\013 \003(\r\022\023\n\013HJPAFNAACNO\030\016 \003(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\030\013 \003(\r\022\023\n\013HJPAFNAACNO\030\016 \003(\rB>\n\031emu.grass" +
+      "cutter.net.protoB!CoinCollectTeamInfoDat" +
+      "aOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

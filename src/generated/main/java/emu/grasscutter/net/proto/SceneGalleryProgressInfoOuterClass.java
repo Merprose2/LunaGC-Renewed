@@ -936,8 +936,9 @@ public final class SceneGalleryProgressInfoOuterClass {
       "\n\036SceneGalleryProgressInfo.proto\"g\n\030Scen" +
       "eGalleryProgressInfo\022\033\n\023progress_stage_l" +
       "ist\030\007 \003(\r\022\020\n\010progress\030\n \001(\r\022\013\n\003key\030\013 \001(\t" +
-      "\022\017\n\007ui_form\030\014 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\022\017\n\007ui_form\030\014 \001(\rB?\n\031emu.grasscutter.net" +
+      ".protoB\"SceneGalleryProgressInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1362,8 +1362,9 @@ public final class HDDOPOELNALOuterClass {
       "IFBG\022\023\n\013FGGOEABBELE\030\005 \001(\r\022\023\n\013HBJJCLDPMNL" +
       "\030\006 \001(\r\022\023\n\013OBNANHJOJFI\030\007 \001(\r\022\023\n\013HPMEJEOAC" +
       "EP\030\010 \001(\010\022\023\n\013OPJHNNDGJEA\030\t \001(\r\022!\n\013PMCMJJA" +
-      "PIHP\030\013 \001(\0132\014.JCGIJAMMADBB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "PIHP\030\013 \001(\0132\014.JCGIJAMMADBB2\n\031emu.grasscut" +
+      "ter.net.protoB\025HDDOPOELNALOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

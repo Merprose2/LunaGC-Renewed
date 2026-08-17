@@ -737,8 +737,9 @@ public final class AONJGEOMFJEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021AONJGEOMFJE.proto\"S\n\013AONJGEOMFJE\022\r\n\005pa" +
       "ram\030\001 \001(\r\022\021\n\tis_agreed\030\006 \001(\010\022\021\n\tapply_ui" +
-      "d\030\013 \001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "d\030\013 \001(\r\022\017\n\007retcode\030\017 \001(\005B2\n\031emu.grasscut" +
+      "ter.net.protoB\025AONJGEOMFJEOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

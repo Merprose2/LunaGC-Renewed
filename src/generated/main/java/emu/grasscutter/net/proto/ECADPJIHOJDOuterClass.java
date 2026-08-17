@@ -800,8 +800,9 @@ public final class ECADPJIHOJDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ECADPJIHOJD.proto\032\014Vector.proto\"R\n\013ECA" +
       "DPJIHOJD\022\023\n\013NKIMGBINGPL\030\004 \001(\r\022\031\n\010positio" +
-      "n\030\013 \001(\0132\007.Vector\022\023\n\013DPCHKOOFCJL\030\014 \001(\010B\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "n\030\013 \001(\0132\007.Vector\022\023\n\013DPCHKOOFCJL\030\014 \001(\010B2\n" +
+      "\031emu.grasscutter.net.protoB\025ECADPJIHOJDO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

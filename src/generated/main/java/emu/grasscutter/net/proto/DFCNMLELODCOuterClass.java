@@ -668,8 +668,8 @@ public final class DFCNMLELODCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DFCNMLELODC.proto\"L\n\013DFCNMLELODC\022\023\n\013KI" +
       "KBPDBLOPE\030\002 \001(\010\022\020\n\010ugc_guid\030\n \001(\004\022\026\n\016mus" +
-      "ic_basic_id\030\014 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "ic_basic_id\030\014 \001(\rB2\n\031emu.grasscutter.net" +
+      ".protoB\025DFCNMLELODCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

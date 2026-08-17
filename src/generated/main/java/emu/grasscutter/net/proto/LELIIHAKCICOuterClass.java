@@ -823,8 +823,8 @@ public final class LELIIHAKCICOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LELIIHAKCIC.proto\032\021PEEGLLKAOBA.proto\"0" +
       "\n\013LELIIHAKCIC\022!\n\013ODGCIDLCJGG\030\001 \003(\0132\014.PEE" +
-      "GLLKAOBAB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "GLLKAOBAB2\n\031emu.grasscutter.net.protoB\025L" +
+      "ELIIHAKCICOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

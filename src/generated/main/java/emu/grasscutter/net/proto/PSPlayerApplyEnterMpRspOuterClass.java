@@ -746,8 +746,9 @@ public final class PSPlayerApplyEnterMpRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035PSPlayerApplyEnterMpRsp.proto\"P\n\027PSPla" +
       "yerApplyEnterMpRsp\022\025\n\rtarget_psn_id\030\005 \001(" +
-      "\t\022\017\n\007retcode\030\013 \001(\005\022\r\n\005param\030\014 \001(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "\t\022\017\n\007retcode\030\013 \001(\005\022\r\n\005param\030\014 \001(\rB>\n\031emu" +
+      ".grasscutter.net.protoB!PSPlayerApplyEnt" +
+      "erMpRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

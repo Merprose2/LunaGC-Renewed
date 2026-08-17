@@ -987,8 +987,9 @@ public final class AvatarWearFlycloakRspOuterClass {
       "\n\033AvatarWearFlycloakRsp.proto\"l\n\025AvatarW" +
       "earFlycloakRsp\022\023\n\013flycloak_id\030\n \001(\r\022\030\n\020a" +
       "vatar_guid_list\030\014 \003(\004\022\017\n\007retcode\030\016 \001(\005\022\023" +
-      "\n\013MNCEBDCODIE\030\017 \003(\004B\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\013MNCEBDCODIE\030\017 \003(\004B<\n\031emu.grasscutter.n" +
+      "et.protoB\037AvatarWearFlycloakRspOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

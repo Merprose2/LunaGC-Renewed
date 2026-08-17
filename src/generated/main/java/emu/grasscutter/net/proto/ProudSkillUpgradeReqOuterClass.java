@@ -668,8 +668,8 @@ public final class ProudSkillUpgradeReqOuterClass {
       "\n\032ProudSkillUpgradeReq.proto\"b\n\024ProudSki" +
       "llUpgradeReq\022\035\n\025old_proud_skill_level\030\005 " +
       "\001(\r\022\023\n\013avatar_guid\030\006 \001(\004\022\026\n\016proud_skill_" +
-      "id\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\016 \001(\rB;\n\031emu.grasscutter.net.protoB\036P" +
+      "roudSkillUpgradeReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

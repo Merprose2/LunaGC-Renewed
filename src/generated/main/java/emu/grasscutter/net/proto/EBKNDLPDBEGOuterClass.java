@@ -1972,8 +1972,9 @@ public final class EBKNDLPDBEGOuterClass {
       "\022!\n\013KLCNHCOPGAK\030\006 \001(\0132\014.GCDNCDJBDAF\022\014\n\004n" +
       "ame\030\007 \001(\t\022\023\n\013FLBJBMKPLMH\030\010 \001(\010\022!\n\013FMKNLO" +
       "GFALG\030\t \001(\0132\014.DMGMMDBNPNA\022\034\n\006offset\030\n \001(" +
-      "\0132\014.DMGMMDBNPNA\022\023\n\013LODFKNIMHLI\030\013 \001(\002B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\0132\014.DMGMMDBNPNA\022\023\n\013LODFKNIMHLI\030\013 \001(\002B2\n\031" +
+      "emu.grasscutter.net.protoB\025EBKNDLPDBEGOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

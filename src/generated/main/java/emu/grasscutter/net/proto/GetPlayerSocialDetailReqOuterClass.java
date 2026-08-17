@@ -596,8 +596,9 @@ public final class GetPlayerSocialDetailReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036GetPlayerSocialDetailReq.proto\"6\n\030GetP" +
       "layerSocialDetailReq\022\r\n\005param\030\r \001(\r\022\013\n\003u" +
-      "id\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "id\030\017 \001(\rB?\n\031emu.grasscutter.net.protoB\"G" +
+      "etPlayerSocialDetailReqOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

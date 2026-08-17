@@ -934,8 +934,9 @@ public final class ExpeditionStartRspOuterClass {
       "\n\030ExpeditionStartRsp.proto\"|\n\022Expedition" +
       "StartRsp\022\023\n\013KALHHMPCIDP\030\002 \001(\r\022\023\n\013NLLIPHB" +
       "OCCE\030\003 \001(\r\022\023\n\013LGBBIHMBIOM\030\004 \001(\r\022\017\n\007retco" +
-      "de\030\013 \001(\005\022\026\n\016avatar_id_list\030\016 \003(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "de\030\013 \001(\005\022\026\n\016avatar_id_list\030\016 \003(\rB9\n\031emu." +
+      "grasscutter.net.protoB\034ExpeditionStartRs" +
+      "pOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

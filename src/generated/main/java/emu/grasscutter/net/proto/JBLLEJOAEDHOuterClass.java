@@ -1503,8 +1503,8 @@ public final class JBLLEJOAEDHOuterClass {
       "M\030\005 \001(\0132\014.NBJJFNNNNFJ\022\023\n\013EFCNIMDCLND\030\007 \001" +
       "(\010\022!\n\013KGJDLCFHCNK\030\010 \001(\0132\014.BKMGMIPPBFK\022\023\n" +
       "\013CDIIPHIPHDN\030\n \001(\010\022!\n\013JFEHKPIHKCP\030\013 \001(\0132" +
-      "\014.LMNODDNPDDNB\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\014.LMNODDNPDDNB2\n\031emu.grasscutter.net.pro" +
+      "toB\025JBLLEJOAEDHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

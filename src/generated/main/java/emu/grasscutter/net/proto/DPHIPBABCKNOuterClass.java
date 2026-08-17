@@ -960,8 +960,8 @@ public final class DPHIPBABCKNOuterClass {
       "\n\021DPHIPBABCKN.proto\"p\n\013DPHIPBABCKN\022\r\n\005in" +
       "dex\030\001 \001(\r\022\023\n\013LPAKOLBCKNE\030\002 \001(\t\022\023\n\013GKJIHM" +
       "FEMHG\030\003 \001(\t\022\023\n\013MDMBIJIKELK\030\004 \001(\r\022\023\n\013EFFA" +
-      "FOHJFKO\030\005 \001(\010B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "FOHJFKO\030\005 \001(\010B2\n\031emu.grasscutter.net.pro" +
+      "toB\025DPHIPBABCKNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

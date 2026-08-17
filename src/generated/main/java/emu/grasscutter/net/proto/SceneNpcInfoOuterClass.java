@@ -728,8 +728,9 @@ public final class SceneNpcInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\022SceneNpcInfo.proto\"Z\n\014SceneNpcInfo\022\016\n\006" +
       "npc_id\030\001 \001(\r\022\017\n\007room_id\030\002 \001(\r\022\027\n\017parent_" +
-      "quest_id\030\003 \001(\r\022\020\n\010block_id\030\004 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "quest_id\030\003 \001(\r\022\020\n\010block_id\030\004 \001(\rB3\n\031emu." +
+      "grasscutter.net.protoB\026SceneNpcInfoOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

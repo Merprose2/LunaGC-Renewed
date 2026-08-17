@@ -157,8 +157,9 @@ public final class InBattleMechanicusStageTypeOuterClass {
       "\n@InBattleMechanicusStageType_IN_BATTLE_" +
       "MECHANICUS_STAGE_CARD_FLIP\020\002\022?\n;InBattle" +
       "MechanicusStageType_IN_BATTLE_MECHANICUS" +
-      "_STAGE_KILL\020\003B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "_STAGE_KILL\020\003BB\n\031emu.grasscutter.net.pro" +
+      "toB%InBattleMechanicusStageTypeOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

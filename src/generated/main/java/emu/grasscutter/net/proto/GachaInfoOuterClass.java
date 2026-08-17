@@ -3663,8 +3663,8 @@ public final class GachaInfoOuterClass {
       "\r\022\026\n\rwish_progress\030\207\r \001(\r\022\'\n\036cur_schedul" +
       "e_daily_gacha_times\030\314\r \001(\r\022\025\n\014wish_item_" +
       "id\030\326\017 \001(\r\022)\n\022gacha_up_info_list\030\354\017 \003(\0132\014" +
-      ".GachaUpInfoB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      ".GachaUpInfoB0\n\031emu.grasscutter.net.prot" +
+      "oB\023GachaInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

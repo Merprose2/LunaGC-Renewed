@@ -869,8 +869,9 @@ public final class CBBMBDDBMCEOuterClass {
       "\n\021CBBMBDDBMCE.proto\"\206\001\n\013CBBMBDDBMCE\022\023\n\013H" +
       "MOJHLJCJAN\030\001 \001(\r\022\016\n\006height\030\002 \001(\r\022\023\n\013ILNF" +
       "KKBOHEI\030\003 \001(\r\022\023\n\013LAGFCHIANHM\030\004 \001(\r\022\023\n\013NE" +
-      "LEHGNDNDD\030\005 \001(\r\022\023\n\013ECPCHCAKGEK\030\006 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "LEHGNDNDD\030\005 \001(\r\022\023\n\013ECPCHCAKGEK\030\006 \001(\rB2\n\031" +
+      "emu.grasscutter.net.protoB\025CBBMBDDBMCEOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -154,8 +154,9 @@ public final class DKLMGNCANLJOuterClass {
       "\020\000\022/\n+DKLMGNCANLJ_BEYOND_TEAM_MEMBER_MAT" +
       "CH_AGREED\020\001\022.\n*DKLMGNCANLJ_BEYOND_TEAM_M" +
       "EMBER_MATCH_READY\020\002\022/\n+DKLMGNCANLJ_BEYON" +
-      "D_TEAM_MEMBER_MATCH_REFUSE\020\003B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "D_TEAM_MEMBER_MATCH_REFUSE\020\003B2\n\031emu.gras" +
+      "scutter.net.protoB\025DKLMGNCANLJOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1167,8 +1167,9 @@ public final class IKIANMHHKOCOuterClass {
       "\n\021IKIANMHHKOC.proto\032\021OMNHDGGHNLG.proto\"q" +
       "\n\013IKIANMHHKOC\022&\n\020settle_info_list\030\002 \003(\0132" +
       "\014.OMNHDGGHNLG\022\020\n\010ugc_guid\030\n \001(\004\022\023\n\013_beat" +
-      "map_id\030\016 \001(\r\022\023\n\013HALONGEGOEJ\030\017 \003(\rB\033\n\031emu" +
-      ".grasscutter.net.protob\006proto3"
+      "map_id\030\016 \001(\r\022\023\n\013HALONGEGOEJ\030\017 \003(\rB2\n\031emu" +
+      ".grasscutter.net.protoB\025IKIANMHHKOCOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

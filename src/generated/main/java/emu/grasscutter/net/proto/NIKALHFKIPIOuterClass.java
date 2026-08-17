@@ -152,8 +152,8 @@ public final class NIKALHFKIPIOuterClass {
       "\n\021NIKALHFKIPI.proto*t\n\013NIKALHFKIPI\022\033\n\027NI" +
       "KALHFKIPI_UNSPECIFIED\020\000\022\023\n\017NIKALHFKIPI_A" +
       "LL\020\001\022\035\n\031NIKALHFKIPI_FIRST_PUBLISH\020\002\022\024\n\020N" +
-      "IKALHFKIPI_MINE\020\003B\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "IKALHFKIPI_MINE\020\003B2\n\031emu.grasscutter.net" +
+      ".protoB\025NIKALHFKIPIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

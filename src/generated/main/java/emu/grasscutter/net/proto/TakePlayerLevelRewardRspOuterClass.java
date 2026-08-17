@@ -666,8 +666,9 @@ public final class TakePlayerLevelRewardRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036TakePlayerLevelRewardRsp.proto\"M\n\030Take" +
       "PlayerLevelRewardRsp\022\017\n\007retcode\030\003 \001(\005\022\021\n" +
-      "\treward_id\030\t \001(\r\022\r\n\005level\030\n \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\treward_id\030\t \001(\r\022\r\n\005level\030\n \001(\rB?\n\031emu.g" +
+      "rasscutter.net.protoB\"TakePlayerLevelRew" +
+      "ardRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

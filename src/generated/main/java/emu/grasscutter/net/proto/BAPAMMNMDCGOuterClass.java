@@ -587,8 +587,9 @@ public final class BAPAMMNMDCGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BAPAMMNMDCG.proto\"3\n\013BAPAMMNMDCG\022\023\n\013MK" +
-      "BNBPMOFBK\030\n \001(\r\022\017\n\007buff_id\030\r \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "BNBPMOFBK\030\n \001(\r\022\017\n\007buff_id\030\r \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025BAPAMMNMDCGOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

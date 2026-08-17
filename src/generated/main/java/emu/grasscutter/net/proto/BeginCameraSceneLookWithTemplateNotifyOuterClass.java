@@ -2294,8 +2294,9 @@ public final class BeginCameraSceneLookWithTemplateNotifyOuterClass {
       "\001(\0132\007.Vector\022\020\n\010duration\030\017 \001(\002\"n\n\nFollow" +
       "Type\022\036\n\032FollowType_INIT_FOLLOW_POS\020\000\022\035\n\031" +
       "FollowType_SET_FOLLOW_POS\020\001\022!\n\035FollowTyp" +
-      "e_SET_ABS_FOLLOW_POS\020\002B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "e_SET_ABS_FOLLOW_POS\020\002BM\n\031emu.grasscutte" +
+      "r.net.protoB0BeginCameraSceneLookWithTem" +
+      "plateNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

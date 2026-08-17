@@ -832,8 +832,9 @@ public final class PlayerOfferingDataNotifyOuterClass {
       "\n\036PlayerOfferingDataNotify.proto\032\030Player" +
       "OfferingData.proto\"K\n\030PlayerOfferingData" +
       "Notify\022/\n\022offering_data_list\030\r \003(\0132\023.Pla" +
-      "yerOfferingDataB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "yerOfferingDataB?\n\031emu.grasscutter.net.p" +
+      "rotoB\"PlayerOfferingDataNotifyOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

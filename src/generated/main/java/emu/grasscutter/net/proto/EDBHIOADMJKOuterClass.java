@@ -633,8 +633,9 @@ public final class EDBHIOADMJKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EDBHIOADMJK.proto\032\021MKDCIILGOPN.proto\"A" +
       "\n\013EDBHIOADMJK\022\017\n\007retcode\030\006 \001(\005\022!\n\013MLBEJN" +
-      "BAFBH\030\016 \001(\0162\014.MKDCIILGOPNB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "BAFBH\030\016 \001(\0162\014.MKDCIILGOPNB2\n\031emu.grasscu" +
+      "tter.net.protoB\025EDBHIOADMJKOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

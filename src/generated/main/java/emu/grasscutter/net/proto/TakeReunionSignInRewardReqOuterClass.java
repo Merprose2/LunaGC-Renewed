@@ -596,8 +596,9 @@ public final class TakeReunionSignInRewardReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n TakeReunionSignInRewardReq.proto\"C\n\032Ta" +
       "keReunionSignInRewardReq\022\021\n\tconfig_id\030\002 " +
-      "\001(\r\022\022\n\nreward_day\030\r \001(\rB\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\001(\r\022\022\n\nreward_day\030\r \001(\rBA\n\031emu.grasscutt" +
+      "er.net.protoB$TakeReunionSignInRewardReq" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

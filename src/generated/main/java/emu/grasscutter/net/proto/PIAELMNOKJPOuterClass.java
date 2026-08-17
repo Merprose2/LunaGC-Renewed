@@ -454,8 +454,9 @@ public final class PIAELMNOKJPOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021PIAELMNOKJP.proto\"\r\n\013PIAELMNOKJPB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\021PIAELMNOKJP.proto\"\r\n\013PIAELMNOKJPB2\n\031em" +
+      "u.grasscutter.net.protoB\025PIAELMNOKJPOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
